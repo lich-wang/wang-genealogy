@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王葉塤
 cbdb_id: 120990
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,45 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_WzZQfl5nKAmC0HrLzqSYhi
+        subject_person_id: p_3nGPUzBeHC81ChH8G5nAKD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GoX1HcvR89FQWuj4HX6FjJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zxDoV2rkAgfl2OREOqwNtg
+          claim_id: c_WzZQfl5nKAmC0HrLzqSYhi
+          source_id: s_tzixSknk2qDmuU74xBLWCA
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #3925, HuWenKai #237：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_tzixSknk2qDmuU74xBLWCA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王郁蘭（CBDB 120984）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120984&o=json
+            external_identifier: CBDB:120984
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:51.722Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_GoX1HcvR89FQWuj4HX6FjJ
+        status: active
+        display_name: 王郁蘭
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +149,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_GoX1HcvR89FQWuj4HX6FjJ | 王郁蘭 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王葉塤（CBDB 120990）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120990&o=json)
+- [中国历代人物传记资料库：王郁蘭（CBDB 120984）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120984&o=json)

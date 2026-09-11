@@ -4,7 +4,7 @@ id: p_hCaEhKRsvc7eH6eDHWHssK
 status: active
 merged_into: null
 display_name: 王國祚
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_MyDZ3V1xP_VAN0M19Wsvn_
+        subject_person_id: p_jJ8CBW1eQx8HAeDCP6Kxoi
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hCaEhKRsvc7eH6eDHWHssK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Si1fVG34fou-v5n51h97rE
+          claim_id: c_MyDZ3V1xP_VAN0M19Wsvn_
+          source_id: s_9h4rgB3biLSeN3h49QvQgX
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第三甲第一百七十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_9h4rgB3biLSeN3h49QvQgX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王勉學（CBDB 214954）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214954&o=json
+            external_identifier: CBDB:214954
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:56.502Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_jJ8CBW1eQx8HAeDCP6Kxoi
+        status: active
+        display_name: 王勉學
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +238,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_jJ8CBW1eQx8HAeDCP6Kxoi | 王勉學 | accepted |
 | ancestors | p_GAeLRTZkJHf27aCa6TLAnS | 王道充 | accepted |
 | ancestors | p_pC3v2cv72NbWMc2sFM73KX | 王輔 | accepted |
 
@@ -208,3 +247,4 @@ relationships:
 - [中国历代人物传记资料库：王道充（CBDB 214953）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214953&o=json)
 - [中国历代人物传记资料库：王輔（CBDB 214952）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214952&o=json)
 - [中国历代人物传记资料库：王國祚（CBDB 206219）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206219&o=json)
+- [中国历代人物传记资料库：王勉學（CBDB 214954）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214954&o=json)

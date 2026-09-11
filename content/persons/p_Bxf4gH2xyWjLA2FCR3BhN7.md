@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王松龄
 cbdb_id: 36706
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -175,6 +175,43 @@ relationships:
         id: p_zAMNQJueCwPPKR5vjoLaAD
         status: active
         display_name: 王彦博
+        merged_into_person_id: null
+    - claim:
+        id: c_Vnq6t0xHmqfUYQcyf-i3zR
+        subject_person_id: p_GZbsE9QaKe1eQKtqPL2T7F
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Bxf4gH2xyWjLA2FCR3BhN7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V787GoF_1stdjK0_pjBkJj
+          claim_id: c_Vnq6t0xHmqfUYQcyf-i3zR
+          source_id: s_fGW6nhH5W9uBA7hHf2yaa8
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_fGW6nhH5W9uBA7hHf2yaa8
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：孔氏（37779）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37779&o=json
+            external_identifier: CBDB:37779
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:17.529Z
+            metadata_json: null
+      object_person:
+        id: p_GZbsE9QaKe1eQKtqPL2T7F
+        status: active
+        display_name: 孔氏
         merged_into_person_id: null
   children:
     - claim:
@@ -387,6 +424,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_zAMNQJueCwPPKR5vjoLaAD | 王彦博 | accepted |
+| parents | p_GZbsE9QaKe1eQKtqPL2T7F | 孔氏 | accepted |
 | children | p_3Jpz1MJr19NoGHADTpC82d | 王串 | accepted |
 | children | p_TXR4BZHWFYBdp9oHRn9hCf | 王聿 | accepted |
 | children | p_kdXLrKQ2gAzwQuRiYauex1 | 王中 | accepted |
@@ -399,6 +437,7 @@ relationships:
 - [维基数据：王串（Q45430635）](https://www.wikidata.org/wiki/Q45430635)
 - [维基数据：王松龄（Q45427492）](https://www.wikidata.org/wiki/Q45427492)
 - [维基数据：王彦博（Q45409553）](https://www.wikidata.org/wiki/Q45409553)
+- [CBDB 中国历代人物传记资料库：孔氏（37779）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37779&o=json)
 - [CBDB 中国历代人物传记资料库：王松齡（36706）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36706&o=json)
 - [CBDB 中国历代人物传记资料库：王彥博（26229）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26229&o=json)
 - [CBDB 中国历代人物传记资料库：周氏（37792）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37792&o=json)

@@ -4,7 +4,7 @@ id: p_TEYvtaRNz7eTYDE23W5t5H
 status: active
 merged_into: null
 display_name: 王守素
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -181,6 +181,44 @@ relationships:
         status: active
         display_name: 王像
         merged_into_person_id: null
+    - claim:
+        id: c_79Sa4mTBJ4GXQ45K_V0M6t
+        subject_person_id: p_GC7HJfoz6w5CZwewBYe7WR
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_TEYvtaRNz7eTYDE23W5t5H
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dRA_HmTAnxfuHoSyMjekzL
+          claim_id: c_79Sa4mTBJ4GXQ45K_V0M6t
+          source_id: s_Wia665HaFPynBGNE4GxAwg
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第二十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Wia665HaFPynBGNE4GxAwg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王綾（CBDB 219509）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219509&o=json
+            external_identifier: CBDB:219509
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:56.502Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_GC7HJfoz6w5CZwewBYe7WR
+        status: active
+        display_name: 王綾
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -203,9 +241,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_ds9RMJLAa1YbfRpjpasrUW | 王鼐 | accepted |
 | ancestors | p_bqruncWVzwaR1YP4ct9bDy | 王像 | accepted |
+| ancestors | p_GC7HJfoz6w5CZwewBYe7WR | 王綾 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王綾（CBDB 219509）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219509&o=json)
 - [中国历代人物传记资料库：王鼐（CBDB 219511）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219511&o=json)
 - [中国历代人物传记资料库：王守素（CBDB 206541）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206541&o=json)
 - [中国历代人物传记资料库：王像（CBDB 219510）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219510&o=json)

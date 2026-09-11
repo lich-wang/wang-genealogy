@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 曹氏
 cbdb_id: 338009
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,6 +209,32 @@ relationships:
         status: active
         display_name: 王詔
         merged_into_person_id: null
+    - claim:
+        id: c_apvTmgeWQNt-2MqtyrTiUN
+        subject_person_id: p_hPJPD72anHdssJJebWQ769
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_3NK6EhTAXgAtmFG5Dkqh4A
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4VO6386N6xPo0UI3XIQxcR
+          claim_id: c_apvTmgeWQNt-2MqtyrTiUN
+          source_id: s_NF9gbpTmGsbbZBoXvMnjDg
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第六十二名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_3NK6EhTAXgAtmFG5Dkqh4A
+        status: active
+        display_name: 王詔
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -230,6 +256,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_ARknwHLDtDNeZVf48qiF3F | 王诏 | accepted |
+| spouses | p_3NK6EhTAXgAtmFG5Dkqh4A | 王詔 | accepted |
 | spouses | p_3NK6EhTAXgAtmFG5Dkqh4A | 王詔 | accepted |
 
 ## 外部来源

@@ -4,7 +4,7 @@ id: p_Rpm9GiSnPhv5RZN23kJhyJ
 status: active
 merged_into: null
 display_name: 王從政
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -167,6 +167,82 @@ relationships:
         status: active
         display_name: 王元通
         merged_into_person_id: null
+    - claim:
+        id: c_8BhSYXtdpqVWgb206OkySA
+        subject_person_id: p_Rpm9GiSnPhv5RZN23kJhyJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hAjuTJechMy2wZyETvHiKs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hOq4ybYDs6YyFTc-6Og6dE
+          claim_id: c_8BhSYXtdpqVWgb206OkySA
+          source_id: s_XKQDaM6aPkcBSCnsYFiQTq
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaicheng 2：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_XKQDaM6aPkcBSCnsYFiQTq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元用（CBDB 158171）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158171&o=json
+            external_identifier: CBDB:158171
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.122Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_hAjuTJechMy2wZyETvHiKs
+        status: active
+        display_name: 王元用
+        merged_into_person_id: null
+    - claim:
+        id: c_avxeZYfRNVc3AoWQLL1uEU
+        subject_person_id: p_Rpm9GiSnPhv5RZN23kJhyJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iPeJKsWzcyuMwmww77WwN2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_X7ZrlNopc5I63cjhS387VT
+          claim_id: c_avxeZYfRNVc3AoWQLL1uEU
+          source_id: s_mDxoTGfkV5thZGUVsEmbTa
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaicheng 2：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_mDxoTGfkV5thZGUVsEmbTa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王次嚴（CBDB 158170）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158170&o=json
+            external_identifier: CBDB:158170
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.122Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_iPeJKsWzcyuMwmww77WwN2
+        status: active
+        display_name: 王次嚴
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -230,10 +306,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_1rt6JcbH3NyGscMBotBJ1B | 王元通 | accepted |
+| children | p_hAjuTJechMy2wZyETvHiKs | 王元用 | accepted |
+| children | p_iPeJKsWzcyuMwmww77WwN2 | 王次嚴 | accepted |
 | ancestors | p_44BqYJB79NSZx7U895HuBk | 王冰 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王冰（CBDB 158168）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158168&o=json)
+- [中国历代人物传记资料库：王次嚴（CBDB 158170）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158170&o=json)
 - [中国历代人物传记资料库：王從政（CBDB 141683）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141683&o=json)
 - [中国历代人物传记资料库：王元通（CBDB 158172）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158172&o=json)
+- [中国历代人物传记资料库：王元用（CBDB 158171）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158171&o=json)

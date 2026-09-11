@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王先明
 cbdb_id: 288161
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:288161
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_5dP4tKkiKr8WfojNC94mqt
             source_type: api_record
             title: 中国历代人物传记资料库：王先明（CBDB 288161）
@@ -87,7 +87,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_bVIMJhwh6yRpj9-8SIBaGv
+        subject_person_id: p_hWH4QC9TGn1hej6FkM79ja
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_B8unMbh7dYqs1NQhhGC4Lt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BZE_rEllQ4ApN_EXjj8Bsx
+          claim_id: c_bVIMJhwh6yRpj9-8SIBaGv
+          source_id: s_5dP4tKkiKr8WfojNC94mqt
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第二甲第七十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_B8unMbh7dYqs1NQhhGC4Lt
+        status: active
+        display_name: 王仲錦
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_B8unMbh7dYqs1NQhhGC4Lt | 王仲錦 | accepted |
 
 ## 外部来源
 

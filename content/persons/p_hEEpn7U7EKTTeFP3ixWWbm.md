@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王禔
 cbdb_id: 20093
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -327,6 +327,32 @@ relationships:
         status: active
         display_name: 王璞
         merged_into_person_id: null
+    - claim:
+        id: c_ApfaocMN-71OE0WW3zy7uC
+        subject_person_id: p_hEEpn7U7EKTTeFP3ixWWbm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yapy3APS2bJCVFq3VNLaKZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Fa4JUmt-b0ufXGN6YA9q9A
+          claim_id: c_ApfaocMN-71OE0WW3zy7uC
+          source_id: s_gfqA28v8u8pwjz4LJh8Cct
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1517;1524：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_yapy3APS2bJCVFq3VNLaKZ
+        status: active
+        display_name: 王次翁
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -398,6 +424,7 @@ relationships:
 | parents | p_4Hjde84UDSxNby7XrvDD1E | 王寂 | accepted |
 | children | p_4Ggi24K5h2C2ehfArZY8Pm | 王次翁 | accepted |
 | children | p_LLsxFDHQDQXtfR5CnXXEVt | 王璞 | accepted |
+| children | p_yapy3APS2bJCVFq3VNLaKZ | 王次翁 | accepted |
 | spouses | p_WYN9msC554wb8dtjBJ3Ga4 | 张氏 | accepted |
 
 ## 外部来源

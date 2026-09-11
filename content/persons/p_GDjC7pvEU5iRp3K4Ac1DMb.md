@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王玉和
 cbdb_id: 280406
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:280406
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_tQDR8kLta8UJwatD8TKTEv
             source_type: api_record
             title: 中国历代人物传记资料库：王玉和（CBDB 280406）
@@ -87,7 +87,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_YZJ3uU_492z3ZJIRXSExs8
+        subject_person_id: p_GDjC7pvEU5iRp3K4Ac1DMb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZyrbUQzJSc8r8t3Ud7TNAC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XMu48gew6kDx1QAYd13I1Q
+          claim_id: c_YZJ3uU_492z3ZJIRXSExs8
+          source_id: s_tQDR8kLta8UJwatD8TKTEv
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第二甲第九十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ZyrbUQzJSc8r8t3Ud7TNAC
+        status: active
+        display_name: 王鳳靈
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_ZyrbUQzJSc8r8t3Ud7TNAC | 王鳳靈 | accepted |
 
 ## 外部来源
 

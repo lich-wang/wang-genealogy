@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王納講
 cbdb_id: 204128
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,6 +209,44 @@ relationships:
         status: active
         display_name: 王暉
         merged_into_person_id: null
+    - claim:
+        id: c_RgsqsuCgfb_MISTrkIjNPY
+        subject_person_id: p_ijbex4t9VLqLfFA3i5CSdB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_nuBK1wsMvCBFXuA1nKxaa5
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8lb2aB7h7ICoDg6dej_UBt
+          claim_id: c_RgsqsuCgfb_MISTrkIjNPY
+          source_id: s_m72RDGr9uLrghaW2vYR9aR
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第二百一十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_m72RDGr9uLrghaW2vYR9aR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宏德（CBDB 314792）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314792&o=json
+            external_identifier: CBDB:314792
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:06.030Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_ijbex4t9VLqLfFA3i5CSdB
+        status: active
+        display_name: 王宏德
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_CsFdH8PxFCRt2fMScjK1Yr | 王儒 | accepted |
 | ancestors | p_7b33vYnQRvZ8AxMdE5eb2k | 王暉 | accepted |
+| ancestors | p_ijbex4t9VLqLfFA3i5CSdB | 王宏德 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王宏德（CBDB 314792）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314792&o=json)
 - [中国历代人物传记资料库：王暉（CBDB 314791）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314791&o=json)
 - [中国历代人物传记资料库：王納講（CBDB 204128）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204128&o=json)
 - [中国历代人物传记资料库：王儒（CBDB 314793）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314793&o=json)

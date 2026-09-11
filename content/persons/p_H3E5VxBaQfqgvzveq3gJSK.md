@@ -4,7 +4,7 @@ id: p_H3E5VxBaQfqgvzveq3gJSK
 status: active
 merged_into: null
 display_name: 王代恕
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -169,7 +169,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_Mhit7TvC0h83nJKBCLImI8
+        subject_person_id: p_JFQHkPEwEAq8jJVUaH1sob
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_H3E5VxBaQfqgvzveq3gJSK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3FPjBuYjSPR8RAPoR1aIz2
+          claim_id: c_Mhit7TvC0h83nJKBCLImI8
+          source_id: s_8BQ9yVvbv6wTsDsk1Wki7f
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1514;1515：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8BQ9yVvbv6wTsDsk1Wki7f
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：李氏（5209）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5209&o=json
+            external_identifier: CBDB:5209
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:00.418Z
+            metadata_json: null
+      object_person:
+        id: p_JFQHkPEwEAq8jJVUaH1sob
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_WU89T3dCoRMDk6eTHgawKb | 王拱辰 | accepted |
+| spouses | p_JFQHkPEwEAq8jJVUaH1sob | 李氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王代恕（CBDB 12850）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12850&o=json)
 - [中国历代人物传记资料库：王拱辰（CBDB 1847）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1847&o=json)
+- [CBDB 中国历代人物传记资料库：李氏（5209）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5209&o=json)

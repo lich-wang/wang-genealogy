@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 于氏
 cbdb_id: 328692
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -77,7 +77,7 @@ properties:
           locator: Q65855527
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_6ymMX8xcNFyLEUsMd9uNjX
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：于氏（328692）
@@ -172,6 +172,32 @@ relationships:
         status: active
         display_name: 王之垣
         merged_into_person_id: null
+    - claim:
+        id: c_JJic6bdoOPMXAj7BzBTSxr
+        subject_person_id: p_HAyVcBmm4b2NDQpjnqrEC2
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_esnkJduB5GpM6eiD8Nh16h
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k6Wt04cuSDTXZcbFsSAVjJ
+          claim_id: c_JJic6bdoOPMXAj7BzBTSxr
+          source_id: s_6ymMX8xcNFyLEUsMd9uNjX
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第一百四十五名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_esnkJduB5GpM6eiD8Nh16h
+        status: active
+        display_name: 王之垣
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -193,6 +219,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_5yFg7DjLcFzFQKDBRDnwdx | 王之垣 | accepted |
+| spouses | p_esnkJduB5GpM6eiD8Nh16h | 王之垣 | accepted |
 
 ## 外部来源
 

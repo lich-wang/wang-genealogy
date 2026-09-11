@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王元用
 cbdb_id: 158171
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:158171
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_XKQDaM6aPkcBSCnsYFiQTq
             source_type: api_record
             title: 中国历代人物传记资料库：王元用（CBDB 158171）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_8BhSYXtdpqVWgb206OkySA
+        subject_person_id: p_Rpm9GiSnPhv5RZN23kJhyJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hAjuTJechMy2wZyETvHiKs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hOq4ybYDs6YyFTc-6Og6dE
+          claim_id: c_8BhSYXtdpqVWgb206OkySA
+          source_id: s_XKQDaM6aPkcBSCnsYFiQTq
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaicheng 2：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Rpm9GiSnPhv5RZN23kJhyJ
+        status: active
+        display_name: 王從政
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Rpm9GiSnPhv5RZN23kJhyJ | 王從政 | accepted |
 
 ## 外部来源
 

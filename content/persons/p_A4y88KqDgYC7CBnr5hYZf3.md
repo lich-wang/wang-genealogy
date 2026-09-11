@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王龜齡
 cbdb_id: 26988
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -233,6 +233,43 @@ relationships:
         status: active
         display_name: 王彦博
         merged_into_person_id: null
+    - claim:
+        id: c_oREgvmBhdSQ8Ic8XHuYczG
+        subject_person_id: p_GZbsE9QaKe1eQKtqPL2T7F
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_A4y88KqDgYC7CBnr5hYZf3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_a7iNdJW7VWzR9JGK53knXI
+          claim_id: c_oREgvmBhdSQ8Ic8XHuYczG
+          source_id: s_fGW6nhH5W9uBA7hHf2yaa8
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_fGW6nhH5W9uBA7hHf2yaa8
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：孔氏（37779）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37779&o=json
+            external_identifier: CBDB:37779
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:17.529Z
+            metadata_json: null
+      object_person:
+        id: p_GZbsE9QaKe1eQKtqPL2T7F
+        status: active
+        display_name: 孔氏
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -387,6 +424,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_zAMNQJueCwPPKR5vjoLaAD | 王彦博 | accepted |
+| parents | p_GZbsE9QaKe1eQKtqPL2T7F | 孔氏 | accepted |
 | spouses | p_oREgSd4itdA3Mz6Mp8dkNX | 晁氏 | accepted |
 | spouses | p_oREgSd4itdA3Mz6Mp8dkNX | 晁氏 | accepted |
 | ancestors | p_tJA4SGo5rnDTPZB6FnPcWP | 周氏 | accepted |
@@ -396,6 +434,7 @@ relationships:
 - [维基数据：晁氏（Q45431885）](https://www.wikidata.org/wiki/Q45431885)
 - [维基数据：王龜齡（Q45411116）](https://www.wikidata.org/wiki/Q45411116)
 - [CBDB 中国历代人物传记资料库：晁氏（37788）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37788&o=json)
+- [CBDB 中国历代人物传记资料库：孔氏（37779）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37779&o=json)
 - [CBDB 中国历代人物传记资料库：王龜齡（26988）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26988&o=json)
 - [CBDB 中国历代人物传记资料库：王彥博（26229）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26229&o=json)
 - [CBDB 中国历代人物传记资料库：周氏（37792）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37792&o=json)

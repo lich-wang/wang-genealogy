@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王基京
 cbdb_id: 294730
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:294730
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_aSi7uG8KQxGbgAziYNsPKf
             source_type: api_record
             title: 中国历代人物传记资料库：王基京（CBDB 294730）
@@ -91,7 +91,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_8IWLSeyUtF8Bd5w_WplNXa
+        subject_person_id: p_35PzL233nqJ85Q2BX1Q5dA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_hSn4qodg1L9JG29Qsj9HF7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eDZ8eKJqwAL8fnMdM1Wee0
+          claim_id: c_8IWLSeyUtF8Bd5w_WplNXa
+          source_id: s_aSi7uG8KQxGbgAziYNsPKf
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第二百一十九名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_35PzL233nqJ85Q2BX1Q5dA
+        status: active
+        display_name: 王良柱
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_35PzL233nqJ85Q2BX1Q5dA | 王良柱 | accepted |
 
 ## 外部来源
 

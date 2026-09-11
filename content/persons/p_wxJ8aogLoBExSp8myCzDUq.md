@@ -4,7 +4,7 @@ id: p_wxJ8aogLoBExSp8myCzDUq
 status: active
 merged_into: null
 display_name: 王元
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_h5YIIvF0KzXycbkhNcHnMd
+        subject_person_id: p_HYAxuxv91NAAWnNdh2JAm1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wxJ8aogLoBExSp8myCzDUq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oYfps7tWi2XX0FHTV4twxU
+          claim_id: c_h5YIIvF0KzXycbkhNcHnMd
+          source_id: s_nYqdusgSUUtxauFsgE51Ca
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第三甲第一百三十八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_nYqdusgSUUtxauFsgE51Ca
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大訓（CBDB 217539）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217539&o=json
+            external_identifier: CBDB:217539
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:56.502Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_HYAxuxv91NAAWnNdh2JAm1
+        status: active
+        display_name: 王大訓
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +238,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_HYAxuxv91NAAWnNdh2JAm1 | 王大訓 | accepted |
 | ancestors | p_EBBDGouXFwRt5NBVVq7oT2 | 王銳 | accepted |
 | ancestors | p_NULrJYpTFWT3DnCbPhN4Dz | 王玄 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王大訓（CBDB 217539）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217539&o=json)
 - [中国历代人物传记资料库：王銳（CBDB 217538）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217538&o=json)
 - [中国历代人物传记资料库：王玄（CBDB 217537）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217537&o=json)
 - [中国历代人物传记资料库：王元（CBDB 206402）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206402&o=json)

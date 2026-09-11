@@ -4,7 +4,7 @@ id: p_x7nHkQedNcVpQxMo4X6md9
 status: active
 merged_into: null
 display_name: 王謙
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,44 @@ relationships:
         status: active
         display_name: 王士能
         merged_into_person_id: null
+    - claim:
+        id: c_-n6-198jScu1eNf9Lvl9UN
+        subject_person_id: p_j6EaMZNGUnDKX6FgWBw9gL
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_x7nHkQedNcVpQxMo4X6md9
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NZ6UeADfS_5KswzwAwWA1H
+          claim_id: c_-n6-198jScu1eNf9Lvl9UN
+          source_id: s_xPm3iukYJFEVXzjinKB1SK
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第一百九十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_xPm3iukYJFEVXzjinKB1SK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王均祿（CBDB 253537）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253537&o=json
+            external_identifier: CBDB:253537
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:00.581Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_j6EaMZNGUnDKX6FgWBw9gL
+        status: active
+        display_name: 王均祿
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_9kp1R9kMofV4byDaScDC99 | 王希文 | accepted |
 | ancestors | p_4v2LXAEJV5JBL6unrk4WXN | 王士能 | accepted |
+| ancestors | p_j6EaMZNGUnDKX6FgWBw9gL | 王均祿 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王均祿（CBDB 253537）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253537&o=json)
 - [中国历代人物传记资料库：王謙（CBDB 200085）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200085&o=json)
 - [中国历代人物传记资料库：王士能（CBDB 253538）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253538&o=json)
 - [中国历代人物传记资料库：王希文（CBDB 253539）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253539&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王鳳靈
 cbdb_id: 126795
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_YZJ3uU_492z3ZJIRXSExs8
+        subject_person_id: p_GDjC7pvEU5iRp3K4Ac1DMb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZyrbUQzJSc8r8t3Ud7TNAC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XMu48gew6kDx1QAYd13I1Q
+          claim_id: c_YZJ3uU_492z3ZJIRXSExs8
+          source_id: s_tQDR8kLta8UJwatD8TKTEv
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第二甲第九十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_tQDR8kLta8UJwatD8TKTEv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玉和（CBDB 280406）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280406&o=json
+            external_identifier: CBDB:280406
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:02.295Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_GDjC7pvEU5iRp3K4Ac1DMb
+        status: active
+        display_name: 王玉和
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -186,6 +224,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_GDjC7pvEU5iRp3K4Ac1DMb | 王玉和 | accepted |
 | ancestors | p_E9FN5LuN8Nu5my4V9KTU9e | 王文傑 | accepted |
 | ancestors | p_6tt4hsMiMngzJX6wMc4JPH | 王止敬 | accepted |
 
@@ -193,4 +232,5 @@ relationships:
 
 - [中国历代人物传记资料库：王鳳靈（CBDB 126795）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126795&o=json)
 - [中国历代人物传记资料库：王文傑（CBDB 280404）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280404&o=json)
+- [中国历代人物传记资料库：王玉和（CBDB 280406）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280406&o=json)
 - [中国历代人物传记资料库：王止敬（CBDB 280405）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280405&o=json)

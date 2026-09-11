@@ -4,7 +4,7 @@ id: p_Td2fuKuEoYV2zfraAXswcd
 status: active
 merged_into: null
 display_name: 王汝楫
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,44 @@ relationships:
         status: active
         display_name: 王中
         merged_into_person_id: null
+    - claim:
+        id: c_B_dRh_vdAcrknuu2dM6dXT
+        subject_person_id: p_ga1Zg1T9kuUr93iK7UoAH2
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Td2fuKuEoYV2zfraAXswcd
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rxnZ2nvIfS7uDsfqmbJoM8
+          claim_id: c_B_dRh_vdAcrknuu2dM6dXT
+          source_id: s_wfuxpEU2NypZWYhr6zaNiq
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第一百八十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_wfuxpEU2NypZWYhr6zaNiq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王揀（CBDB 290254）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290254&o=json
+            external_identifier: CBDB:290254
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:03.722Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_ga1Zg1T9kuUr93iK7UoAH2
+        status: active
+        display_name: 王揀
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_C5NJgthLEeWbSTDMxHE6iV | 王寧 | accepted |
 | ancestors | p_LxHzuFLodDjYAodhqdeJE6 | 王中 | accepted |
+| ancestors | p_ga1Zg1T9kuUr93iK7UoAH2 | 王揀 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王揀（CBDB 290254）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290254&o=json)
 - [中国历代人物传记资料库：王寧（CBDB 290256）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290256&o=json)
 - [中国历代人物传记资料库：王汝楫（CBDB 202580）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202580&o=json)
 - [中国历代人物传记资料库：王中（CBDB 290255）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290255&o=json)

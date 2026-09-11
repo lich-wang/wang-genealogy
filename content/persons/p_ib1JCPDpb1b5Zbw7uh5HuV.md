@@ -4,7 +4,7 @@ id: p_ib1JCPDpb1b5Zbw7uh5HuV
 status: active
 merged_into: null
 display_name: 王彤
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -152,6 +152,43 @@ relationships:
         status: active
         display_name: 周氏
         merged_into_person_id: null
+    - claim:
+        id: c_f3WhoIAQP5xPIAGSQRuoVA
+        subject_person_id: p_GZbsE9QaKe1eQKtqPL2T7F
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ib1JCPDpb1b5Zbw7uh5HuV
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_r1Hg04A1rI53D7pbqW5y8e
+          claim_id: c_f3WhoIAQP5xPIAGSQRuoVA
+          source_id: s_fGW6nhH5W9uBA7hHf2yaa8
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_fGW6nhH5W9uBA7hHf2yaa8
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：孔氏（37779）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37779&o=json
+            external_identifier: CBDB:37779
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:17.529Z
+            metadata_json: null
+      object_person:
+        id: p_GZbsE9QaKe1eQKtqPL2T7F
+        status: active
+        display_name: 孔氏
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -173,9 +210,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_oREgSd4itdA3Mz6Mp8dkNX | 晁氏 | accepted |
 | ancestors | p_tJA4SGo5rnDTPZB6FnPcWP | 周氏 | accepted |
+| ancestors | p_GZbsE9QaKe1eQKtqPL2T7F | 孔氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王彤（CBDB 36756）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36756&o=json)
 - [CBDB 中国历代人物传记资料库：晁氏（37788）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37788&o=json)
+- [CBDB 中国历代人物传记资料库：孔氏（37779）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37779&o=json)
 - [CBDB 中国历代人物传记资料库：周氏（37792）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37792&o=json)

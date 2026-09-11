@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王恩綬
 cbdb_id: 69327
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -326,10 +326,86 @@ relationships:
         status: active
         display_name: 王賡陛
         merged_into_person_id: null
+    - claim:
+        id: c_yhVXK86G-_i3tnJcmyw7np
+        subject_person_id: p_2y1eP1nsjw8ciu9GjNsB8J
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ggJH4efawYDw1ER4zzsqjA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_W1p-Pqa9AdfPkIQJ4prCAo
+          claim_id: c_yhVXK86G-_i3tnJcmyw7np
+          source_id: s_krAcxhk2gTuGPJZyXE43Qf
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13031：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_krAcxhk2gTuGPJZyXE43Qf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王亶翔（CBDB 526844）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526844&o=json
+            external_identifier: CBDB:526844
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:18.829Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_ggJH4efawYDw1ER4zzsqjA
+        status: active
+        display_name: 王亶翔
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_ptOYCA76CFCUcnTlUvIMDJ
+        subject_person_id: p_ispdGyuEm2FQrF9pDbjogj
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2y1eP1nsjw8ciu9GjNsB8J
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_26nAHGEWpNRc6fRVLYG7Mq
+          claim_id: c_ptOYCA76CFCUcnTlUvIMDJ
+          source_id: s_TPaRHFQ3o6GXxrELzw4oWW
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13031：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_TPaRHFQ3o6GXxrELzw4oWW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王家錦（CBDB 526842）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526842&o=json
+            external_identifier: CBDB:526842
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:18.829Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_ispdGyuEm2FQrF9pDbjogj
+        status: active
+        display_name: 王家錦
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c__gnkIkzVHR4RnKap1ZvkG3
@@ -469,16 +545,20 @@ relationships:
 | children | p_5hXd7ioFUCY9vKCE6MMEND | 王紀庸 | accepted |
 | children | p_6L1VRPkbwRV5iRh3M3H1BR | 王忠廕 | accepted |
 | children | p_CizWXhM8V9jWVXN61mXFR5 | 王賡陛 | accepted |
+| children | p_ggJH4efawYDw1ER4zzsqjA | 王亶翔 | accepted |
+| ancestors | p_ispdGyuEm2FQrF9pDbjogj | 王家錦 | accepted |
 | descendants | p_1nfJqagcvUJ1YUw4314f5h | 王鏡蓉 | accepted |
 | descendants | p_BEW5rWi4QNcAkVZCqQEsFa | 王鏡熙 | accepted |
 | descendants | p_cdT9uSxMHD1CPUjpQz3AW1 | 王鏡煜 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王亶翔（CBDB 526844）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526844&o=json)
 - [中国历代人物传记资料库：王鼎汾（CBDB 526843）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526843&o=json)
 - [中国历代人物传记资料库：王恩綬（CBDB 69327）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69327&o=json)
 - [中国历代人物传记资料库：王賡陛（CBDB 526845）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526845&o=json)
 - [中国历代人物传记资料库：王紀庸（CBDB 526841）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526841&o=json)
+- [中国历代人物传记资料库：王家錦（CBDB 526842）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526842&o=json)
 - [中国历代人物传记资料库：王鏡蓉（CBDB 526849）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526849&o=json)
 - [中国历代人物传记资料库：王鏡熙（CBDB 526848）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526848&o=json)
 - [中国历代人物传记资料库：王鏡煜（CBDB 526847）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526847&o=json)

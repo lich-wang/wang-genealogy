@@ -4,7 +4,7 @@ id: p_1HLRDPP5GEjvYAj6jfrJ31
 status: merged
 merged_into: p_6BymFd7sw6j7GAmg7erqPj
 display_name: 王智興
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -241,6 +241,117 @@ relationships:
         status: active
         display_name: 王晏深
         merged_into_person_id: null
+    - claim:
+        id: c_-XFWu6QVtXZUU3lzyuHlGw
+        subject_person_id: p_1HLRDPP5GEjvYAj6jfrJ31
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HgVy44kEGbjeLMZt16FcbN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VVJulk8oLwKHhodDoBYrxt
+          claim_id: c_-XFWu6QVtXZUU3lzyuHlGw
+          source_id: s_ZaXVtLHqz8ogG1a42ZfcBb
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZaXVtLHqz8ogG1a42ZfcBb
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王晏宰（184941）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184941&o=json
+            external_identifier: CBDB:184941
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:22.607Z
+            metadata_json: null
+      object_person:
+        id: p_HgVy44kEGbjeLMZt16FcbN
+        status: active
+        display_name: 王宰
+        merged_into_person_id: null
+    - claim:
+        id: c_QC-Gi0YUSl53ky-ppZfxCz
+        subject_person_id: p_1HLRDPP5GEjvYAj6jfrJ31
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hrNsSN4wVj9jcL4eC2GhRW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Dstls2576v4_mODXg0jPV9
+          claim_id: c_QC-Gi0YUSl53ky-ppZfxCz
+          source_id: s_RR2hojuNLEJtH66Nm4RzL4
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_RR2hojuNLEJtH66Nm4RzL4
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王晏斌（184947）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184947&o=json
+            external_identifier: CBDB:184947
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:42.531Z
+            metadata_json: null
+      object_person:
+        id: p_hrNsSN4wVj9jcL4eC2GhRW
+        status: active
+        display_name: 王晏斌
+        merged_into_person_id: null
+    - claim:
+        id: c_jH78Cz-PM1h3u3ZSHxZAA_
+        subject_person_id: p_1HLRDPP5GEjvYAj6jfrJ31
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iVXKWi9f5gNuEVGc79EzBF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8-_7zl8Oao9DtIc6DymMJ3
+          claim_id: c_jH78Cz-PM1h3u3ZSHxZAA_
+          source_id: s_yNY1NrAj3295GrzhL3CDMT
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_yNY1NrAj3295GrzhL3CDMT
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王晏寶（184943）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184943&o=json
+            external_identifier: CBDB:184943
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:40.709Z
+            metadata_json: null
+      object_person:
+        id: p_iVXKWi9f5gNuEVGc79EzBF
+        status: active
+        display_name: 王晏宝
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -269,10 +380,16 @@ relationships:
 | children | p_NFQFQxzo2TzfSa8GFRgZBu | 王晏平 | accepted |
 | children | p_5Drssue4KRkK7sPyMEaQ5G | 王晏皋 | accepted |
 | children | p_8ptoyYXrGsuZM3gms5pv3F | 王晏深 | accepted |
+| children | p_HgVy44kEGbjeLMZt16FcbN | 王宰 | accepted |
+| children | p_hrNsSN4wVj9jcL4eC2GhRW | 王晏斌 | accepted |
+| children | p_iVXKWi9f5gNuEVGc79EzBF | 王晏宝 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王晏平（CBDB 184940）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184940&o=json)
 - [中国历代人物传记资料库：王智興（CBDB 184939）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184939&o=json)
+- [CBDB 中国历代人物传记资料库：王晏寶（184943）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184943&o=json)
+- [CBDB 中国历代人物传记资料库：王晏斌（184947）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184947&o=json)
 - [CBDB 中国历代人物传记资料库：王晏臯（184942）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184942&o=json)
 - [CBDB 中国历代人物传记资料库：王晏深（184946）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184946&o=json)
+- [CBDB 中国历代人物传记资料库：王晏宰（184941）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184941&o=json)

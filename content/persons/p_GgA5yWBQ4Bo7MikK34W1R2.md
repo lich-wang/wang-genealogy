@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王發桂
 cbdb_id: 58624
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:58624
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_sgg916q2bhmB2zvWidAN7Q
             source_type: api_record
             title: 中国历代人物传记资料库：王發桂（CBDB 58624）
@@ -130,11 +130,89 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_M54GPqgTOH7hPacItnemQK
+        subject_person_id: p_GgA5yWBQ4Bo7MikK34W1R2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vDf4KNgP8SQ1AFCjHoMyNz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oJ366XmfVMdIVtgJB-4OC0
+          claim_id: c_M54GPqgTOH7hPacItnemQK
+          source_id: s_sgg916q2bhmB2zvWidAN7Q
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1886：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vDf4KNgP8SQ1AFCjHoMyNz
+        status: active
+        display_name: 王本正
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_4lkd2c6jGZFaMf9sD5h4qt
+        subject_person_id: p_s4pJCAjTsoPic4xi2YpMo6
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GgA5yWBQ4Bo7MikK34W1R2
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_c8LlL8m1ieBRijek1GGOyk
+          claim_id: c_4lkd2c6jGZFaMf9sD5h4qt
+          source_id: s_sgg916q2bhmB2zvWidAN7Q
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1886：高祖;四世祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_s4pJCAjTsoPic4xi2YpMo6
+        status: active
+        display_name: 王星若
+        merged_into_person_id: null
+    - claim:
+        id: c_F9G5se1IuRZLf3Ctx3xLGL
+        subject_person_id: p_PyjKpNJ9DyQHJrcV5qHGjq
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GgA5yWBQ4Bo7MikK34W1R2
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_waMs0w05GkldJocPPL2I9n
+          claim_id: c_F9G5se1IuRZLf3Ctx3xLGL
+          source_id: s_sgg916q2bhmB2zvWidAN7Q
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1886：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_PyjKpNJ9DyQHJrcV5qHGjq
+        status: active
+        display_name: 王履平
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_vDf4KNgP8SQ1AFCjHoMyNz | 王本正 | accepted |
+| ancestors | p_s4pJCAjTsoPic4xi2YpMo6 | 王星若 | accepted |
+| ancestors | p_PyjKpNJ9DyQHJrcV5qHGjq | 王履平 | accepted |
 
 ## 外部来源
 

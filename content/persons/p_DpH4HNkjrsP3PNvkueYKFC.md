@@ -4,7 +4,7 @@ id: p_DpH4HNkjrsP3PNvkueYKFC
 status: active
 merged_into: null
 display_name: 王同道
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,44 @@ relationships:
         status: active
         display_name: 王麟
         merged_into_person_id: null
+    - claim:
+        id: c_rFwW74-eMPGY8XFQlNyX1X
+        subject_person_id: p_GskJKyfESLHPKGMJw9EwoT
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DpH4HNkjrsP3PNvkueYKFC
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cIQJzrkRU9VwEYT_Mz9d10
+          claim_id: c_rFwW74-eMPGY8XFQlNyX1X
+          source_id: s_75nEyWVCNAvWrobeskeLTQ
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第二十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_75nEyWVCNAvWrobeskeLTQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文凱（CBDB 327379）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327379&o=json
+            external_identifier: CBDB:327379
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:06.922Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_GskJKyfESLHPKGMJw9EwoT
+        status: active
+        display_name: 王文凱
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_A2Zw5HgNNKQfknjQ8rX9z5 | 王廷槐 | accepted |
 | ancestors | p_xmyBLu1JaarZKDoabrYE3f | 王麟 | accepted |
+| ancestors | p_GskJKyfESLHPKGMJw9EwoT | 王文凱 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王麟（CBDB 327380）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327380&o=json)
 - [中国历代人物传记资料库：王廷槐（CBDB 327381）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327381&o=json)
 - [中国历代人物传记资料库：王同道（CBDB 205031）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205031&o=json)
+- [中国历代人物传记资料库：王文凱（CBDB 327379）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327379&o=json)

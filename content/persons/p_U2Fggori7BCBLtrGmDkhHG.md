@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王侨
 cbdb_id: 199828
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -464,6 +464,43 @@ relationships:
         status: active
         display_name: 王琳
         merged_into_person_id: null
+    - claim:
+        id: c_OQTfICOvrfpkHg6JUo93Kb
+        subject_person_id: p_gH1X7mqhSnv3LstMzbAkAu
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_U2Fggori7BCBLtrGmDkhHG
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_P9rEVKLTveYVcB0fj2c9jY
+          claim_id: c_OQTfICOvrfpkHg6JUo93Kb
+          source_id: s_6RCNMXXr55hspuxUMCTvw5
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第一百五十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6RCNMXXr55hspuxUMCTvw5
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王質（250183）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250183&o=json
+            external_identifier: CBDB:250183
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:18:22.747Z
+            metadata_json: null
+      object_person:
+        id: p_gH1X7mqhSnv3LstMzbAkAu
+        status: active
+        display_name: 王质
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_RVoVNK5Q2EDtEAmgq6a97R
@@ -562,6 +599,7 @@ relationships:
 | children | p_HxKJuhWjJ1nswrzUUTmzvp | 王悌 | accepted |
 | spouses | p_3V7J6Cw5ZiEox5if48naUe | 陆氏 | accepted |
 | ancestors | p_jFuufzfY72LPXJ1cXZRs83 | 王琳 | accepted |
+| ancestors | p_gH1X7mqhSnv3LstMzbAkAu | 王质 | accepted |
 | descendants | p_5ajoiVwRzn4rhaTYkGcGCM | 王世芳 | accepted |
 | descendants | p_MZbdwps9XFr2xs5DwUGxkF | 王一誠 | accepted |
 
@@ -574,3 +612,4 @@ relationships:
 - [CBDB 中国历代人物传记资料库：陸氏（250189）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250189&o=json)
 - [CBDB 中国历代人物传记资料库：王輅（250185）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250185&o=json)
 - [CBDB 中国历代人物传记资料库：王僑（199828）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199828&o=json)
+- [CBDB 中国历代人物传记资料库：王質（250183）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250183&o=json)

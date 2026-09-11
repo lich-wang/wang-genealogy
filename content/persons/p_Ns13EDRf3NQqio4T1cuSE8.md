@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王景秀
 cbdb_id: 141201
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -211,6 +211,44 @@ relationships:
         status: active
         display_name: 王明德
         merged_into_person_id: null
+    - claim:
+        id: c_uolHmlp8nDojTC4EOQ7qg8
+        subject_person_id: p_Ns13EDRf3NQqio4T1cuSE8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gzSAA7pnJGSp9duTKAiL6T
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iclvjZP4drXA_avq7u-GL0
+          claim_id: c_uolHmlp8nDojTC4EOQ7qg8
+          source_id: s_m3FfxNQTsFyQJAo3g3HGy3
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dali 48：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_m3FfxNQTsFyQJAo3g3HGy3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王端嚴（CBDB 154995）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154995&o=json
+            external_identifier: CBDB:154995
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.122Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_gzSAA7pnJGSp9duTKAiL6T
+        status: active
+        display_name: 王端嚴
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -237,8 +275,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_pyf4sBuDxBZjfwC93u5Nsr | 王明德 | accepted |
+| children | p_gzSAA7pnJGSp9duTKAiL6T | 王端嚴 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王端嚴（CBDB 154995）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154995&o=json)
 - [中国历代人物传记资料库：王景秀（CBDB 141201）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141201&o=json)
 - [中国历代人物传记资料库：王明德（CBDB 154993）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154993&o=json)

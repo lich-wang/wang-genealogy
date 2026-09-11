@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王景象
 cbdb_id: 203284
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,6 +209,44 @@ relationships:
         status: active
         display_name: 王祜
         merged_into_person_id: null
+    - claim:
+        id: c_i4-fQPO_6ezIUSPsHsab48
+        subject_person_id: p_iownahwhyVTvRCab3jvgcE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_UcjkWZqqBQxTHAd68nDNjt
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zREyZZtFKSHtjkhDkCuJJb
+          claim_id: c_i4-fQPO_6ezIUSPsHsab48
+          source_id: s_KJxWuhzG8r1XECK5Yac3UX
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第二甲第四十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_KJxWuhzG8r1XECK5Yac3UX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文脩（CBDB 302522）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302522&o=json
+            external_identifier: CBDB:302522
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:04.487Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_iownahwhyVTvRCab3jvgcE
+        status: active
+        display_name: 王文脩
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_oT96LPoCHtD2MEJwV4LGNZ | 王經 | accepted |
 | ancestors | p_ficbwRQBfA8oCc4SWX4S5Y | 王祜 | accepted |
+| ancestors | p_iownahwhyVTvRCab3jvgcE | 王文脩 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王祜（CBDB 302521）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302521&o=json)
 - [中国历代人物传记资料库：王經（CBDB 302523）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302523&o=json)
 - [中国历代人物传记资料库：王景象（CBDB 203284）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203284&o=json)
+- [中国历代人物传记资料库：王文脩（CBDB 302522）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302522&o=json)

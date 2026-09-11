@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王伯庠
 cbdb_id: 17444
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -504,8 +504,60 @@ relationships:
         status: active
         display_name: 成氏
         merged_into_person_id: null
+    - claim:
+        id: c_pnA37mqdPLwd3K0Mnoncqi
+        subject_person_id: p_iwBVuUwJmW9x68bfe9dwKN
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_ifKdzffE4TJqKt3GDfHGnh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__grlQoRoRm89IkDDPCRTho
+          claim_id: c_pnA37mqdPLwd3K0Mnoncqi
+          source_id: s_o6fwhY8EBNrs3ZN82gocSx
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1660;1661：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ifKdzffE4TJqKt3GDfHGnh
+        status: active
+        display_name: 成氏
+        merged_into_person_id: null
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_wbx5OgCKw7D2VsdN8k3-El
+        subject_person_id: p_iwBVuUwJmW9x68bfe9dwKN
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BNwUqa2o85K46GSroyK3pt
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qn9cN4Gx_E0A_y5naWOtkB
+          claim_id: c_wbx5OgCKw7D2VsdN8k3-El
+          source_id: s_o6fwhY8EBNrs3ZN82gocSx
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1335：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_BNwUqa2o85K46GSroyK3pt
+        status: active
+        display_name: 王鑐
+        merged_into_person_id: null
   other: []
 ---
 
@@ -531,6 +583,8 @@ relationships:
 | children | p_XmKEvprHRjSYX3Q3owLScL | 王有大 | accepted |
 | children | p_wU8P88JFTt3L9W3HaP1MeX | 王正大 | accepted |
 | spouses | p_ifKdzffE4TJqKt3GDfHGnh | 成氏 | accepted |
+| spouses | p_ifKdzffE4TJqKt3GDfHGnh | 成氏 | accepted |
+| descendants | p_BNwUqa2o85K46GSroyK3pt | 王鑐 | accepted |
 
 ## 外部来源
 

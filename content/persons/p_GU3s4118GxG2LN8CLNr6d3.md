@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王之栻
 cbdb_id: 519659
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:519659
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_cdjeWtbDKRYdormNgVSx1J
             source_type: api_record
             title: 中国历代人物传记资料库：王之栻（CBDB 519659）
@@ -129,7 +129,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_klopVtnYaG4qNMNl1fUAyq
+        subject_person_id: p_5zJGY1xRx85XhFi5qyGy8X
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GU3s4118GxG2LN8CLNr6d3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wuGjAxVD1thGRZ8otYBH84
+          claim_id: c_klopVtnYaG4qNMNl1fUAyq
+          source_id: s_cdjeWtbDKRYdormNgVSx1J
+          stance: supports
+          locator: 武進陽湖縣志，lgid=152332：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5zJGY1xRx85XhFi5qyGy8X
+        status: active
+        display_name: 王章
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5zJGY1xRx85XhFi5qyGy8X | 王章 | accepted |
 
 ## 外部来源
 

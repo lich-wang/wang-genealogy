@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王士崧
 cbdb_id: 35068
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -418,6 +418,43 @@ relationships:
         status: active
         display_name: 王訓
         merged_into_person_id: null
+    - claim:
+        id: c_r7CaMORXvTfhiUVJkmAX7k
+        subject_person_id: p_GNLnPFw1Dr1HJibhmrHDQH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_H1qN9DJkUwvePJbjMNJmyp
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LoWnWykuBlcv5k_giG3Xtu
+          claim_id: c_r7CaMORXvTfhiUVJkmAX7k
+          source_id: s_Qub8bEXGqX82LGNVfTYt6S
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第二甲第二十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Qub8bEXGqX82LGNVfTYt6S
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王逸卿（222402）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222402&o=json
+            external_identifier: CBDB:222402
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:57.678Z
+            metadata_json: null
+      object_person:
+        id: p_GNLnPFw1Dr1HJibhmrHDQH
+        status: active
+        display_name: 王逸卿
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -443,6 +480,7 @@ relationships:
 | adoptive_children | p_SWfQfCDCKhLf9P4kgMuHQS | 王立程 | accepted |
 | spouses | p_7oLhNpqUYp1tqETFx86wc3 | 苏氏 | accepted |
 | ancestors | p_z3cDLC3QR4mmvqHtCQ8jY3 | 王訓 | accepted |
+| ancestors | p_GNLnPFw1Dr1HJibhmrHDQH | 王逸卿 | accepted |
 
 ## 外部来源
 
@@ -453,4 +491,5 @@ relationships:
 - [中文维基百科：王士崧](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E5%B4%A7)
 - [CBDB 中国历代人物传记资料库：王立程（702263）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702263&o=json)
 - [CBDB 中国历代人物传记资料库：王士崧（35068）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35068&o=json)
+- [CBDB 中国历代人物传记资料库：王逸卿（222402）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222402&o=json)
 - [CBDB 中国历代人物传记资料库：王宗沐（35065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35065&o=json)

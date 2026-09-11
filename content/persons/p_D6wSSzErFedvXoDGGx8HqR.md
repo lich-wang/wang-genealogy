@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王士琦
 cbdb_id: 35067
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -364,6 +364,43 @@ relationships:
         status: active
         display_name: 邓氏
         merged_into_person_id: null
+    - claim:
+        id: c_xy3m6oL98TFyi7O48BSsfv
+        subject_person_id: p_HxBizE9NWB7384sKGrZFR3
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_D6wSSzErFedvXoDGGx8HqR
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6EKURqJQCcCKYlhM8ooU3g
+          claim_id: c_xy3m6oL98TFyi7O48BSsfv
+          source_id: s_Pqh3YA2r5Q21X53RdCpX51
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第二甲第三十四名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Pqh3YA2r5Q21X53RdCpX51
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：鄧氏（222489）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222489&o=json
+            external_identifier: CBDB:222489
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:07:06.874Z
+            metadata_json: null
+      object_person:
+        id: p_HxBizE9NWB7384sKGrZFR3
+        status: active
+        display_name: 邓氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_o0gnoQFbIUqeuoEUztJK2N
@@ -402,6 +439,43 @@ relationships:
         status: active
         display_name: 王訓
         merged_into_person_id: null
+    - claim:
+        id: c_k7idu8ri6Gd2-PwzhGJuBo
+        subject_person_id: p_GNLnPFw1Dr1HJibhmrHDQH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_D6wSSzErFedvXoDGGx8HqR
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B0Kvui20shsrUFHIe1Wkse
+          claim_id: c_k7idu8ri6Gd2-PwzhGJuBo
+          source_id: s_Qub8bEXGqX82LGNVfTYt6S
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第二甲第三十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Qub8bEXGqX82LGNVfTYt6S
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王逸卿（222402）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222402&o=json
+            external_identifier: CBDB:222402
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:57.678Z
+            metadata_json: null
+      object_person:
+        id: p_GNLnPFw1Dr1HJibhmrHDQH
+        status: active
+        display_name: 王逸卿
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -426,7 +500,9 @@ relationships:
 | parents | p_JGPNTCh2uLQxj9gSB18kcX | 王宗沐 | accepted |
 | children | p_SWfQfCDCKhLf9P4kgMuHQS | 王立程 | accepted |
 | spouses | p_HxBizE9NWB7384sKGrZFR3 | 邓氏 | accepted |
+| spouses | p_HxBizE9NWB7384sKGrZFR3 | 邓氏 | accepted |
 | ancestors | p_z3cDLC3QR4mmvqHtCQ8jY3 | 王訓 | accepted |
+| ancestors | p_GNLnPFw1Dr1HJibhmrHDQH | 王逸卿 | accepted |
 
 ## 外部来源
 
@@ -436,5 +512,7 @@ relationships:
 - [中国历代人物传记资料库：王訓（CBDB 222403）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222403&o=json)
 - [中国历代人物传记资料库：王宗沐（CBDB 222405）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222405&o=json)
 - [中文维基百科：王士琦](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E7%90%A6)
+- [CBDB 中国历代人物传记资料库：鄧氏（222489）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222489&o=json)
 - [CBDB 中国历代人物传记资料库：王士琦（35067）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35067&o=json)
+- [CBDB 中国历代人物传记资料库：王逸卿（222402）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222402&o=json)
 - [CBDB 中国历代人物传记资料库：王宗沐（35065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35065&o=json)

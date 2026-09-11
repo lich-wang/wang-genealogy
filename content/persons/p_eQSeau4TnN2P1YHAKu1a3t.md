@@ -4,7 +4,7 @@ id: p_eQSeau4TnN2P1YHAKu1a3t
 status: active
 merged_into: null
 display_name: 王道
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -208,6 +208,44 @@ relationships:
         status: active
         display_name: 王綸
         merged_into_person_id: null
+    - claim:
+        id: c_Z3OwQ_zJPTi94UPXcq46Hv
+        subject_person_id: p_J4M9BRMcoHGA8wk5E2Ac4V
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_eQSeau4TnN2P1YHAKu1a3t
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YsUS-8uwwUfKq5SQRcpHim
+          claim_id: c_Z3OwQ_zJPTi94UPXcq46Hv
+          source_id: s_oDe4npP7BoQ9t6yfCudZpi
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第二甲第六十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_oDe4npP7BoQ9t6yfCudZpi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王某禮（CBDB 276412）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276412&o=json
+            external_identifier: CBDB:276412
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:02.295Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_J4M9BRMcoHGA8wk5E2Ac4V
+        status: active
+        display_name: 王某禮
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_BGL1HFsgeWYQ3VFWBGSemb | 王琮 | accepted |
 | ancestors | p_T75KHPyoLcBvbRibcnbRgQ | 王綸 | accepted |
+| ancestors | p_J4M9BRMcoHGA8wk5E2Ac4V | 王某禮 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王琮（CBDB 276414）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276414&o=json)
 - [中国历代人物传记资料库：王道（CBDB 126743）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126743&o=json)
 - [中国历代人物传记资料库：王綸（CBDB 276413）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276413&o=json)
+- [中国历代人物传记资料库：王某禮（CBDB 276412）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276412&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 李氏
 cbdb_id: 5209
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -69,7 +69,7 @@ properties:
           locator: Q45364337
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_8BQ9yVvbv6wTsDsk1Wki7f
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：李氏（5209）
@@ -172,6 +172,32 @@ relationships:
         status: active
         display_name: 王代恕
         merged_into_person_id: null
+    - claim:
+        id: c_Mhit7TvC0h83nJKBCLImI8
+        subject_person_id: p_JFQHkPEwEAq8jJVUaH1sob
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_H3E5VxBaQfqgvzveq3gJSK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3FPjBuYjSPR8RAPoR1aIz2
+          claim_id: c_Mhit7TvC0h83nJKBCLImI8
+          source_id: s_8BQ9yVvbv6wTsDsk1Wki7f
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1514;1515：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_H3E5VxBaQfqgvzveq3gJSK
+        status: active
+        display_name: 王代恕
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -193,6 +219,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_a9s6qMS7fehs4Q1KsCtRbY | 王代恕 | accepted |
+| spouses | p_H3E5VxBaQfqgvzveq3gJSK | 王代恕 | accepted |
 
 ## 外部来源
 

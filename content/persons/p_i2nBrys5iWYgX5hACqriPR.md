@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王愛子
 cbdb_id: 148017
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:148017
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_4v4jBiP3xzewcqzbpz2uAC
             source_type: api_record
             title: 中国历代人物传记资料库：王愛子（CBDB 148017）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_FzyUwLdakaQPzRX4iktsEX
+        subject_person_id: p_rnfWFPFGnS61ABkf4CVBNN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_i2nBrys5iWYgX5hACqriPR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Eq58dlMopYq4QBMspGN_wS
+          claim_id: c_FzyUwLdakaQPzRX4iktsEX
+          source_id: s_4v4jBiP3xzewcqzbpz2uAC
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Linde 27：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rnfWFPFGnS61ABkf4CVBNN
+        status: active
+        display_name: 王君
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_rnfWFPFGnS61ABkf4CVBNN | 王君 | accepted |
 
 ## 外部来源
 

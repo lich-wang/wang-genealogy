@@ -4,7 +4,7 @@ id: p_h7fXGW2qXexjH8ke4RSdR3
 status: active
 merged_into: null
 display_name: 王金
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_sLCjPyTUQClxVYMZsIhe9u
+        subject_person_id: p_gMnjRmnoNMq3o2vj1nLE69
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_h7fXGW2qXexjH8ke4RSdR3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IbCqE8xfUW8aqfd4f0nByq
+          claim_id: c_sLCjPyTUQClxVYMZsIhe9u
+          source_id: s_NQt4EujdCKpuugUvaUmJQS
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第三甲第一百四十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_NQt4EujdCKpuugUvaUmJQS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王某華（CBDB 278404）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278404&o=json
+            external_identifier: CBDB:278404
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:02.295Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_gMnjRmnoNMq3o2vj1nLE69
+        status: active
+        display_name: 王某華
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +201,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_gMnjRmnoNMq3o2vj1nLE69 | 王某華 | accepted |
 | ancestors | p_A4ZBP13BuAWnaxXR4USmkn | 王彬 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王彬（CBDB 278402）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278402&o=json)
 - [中国历代人物传记资料库：王金（CBDB 201798）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201798&o=json)
+- [中国历代人物传记资料库：王某華（CBDB 278404）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278404&o=json)

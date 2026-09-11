@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王賢本
 cbdb_id: 148879
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:148879
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_nJBCBqEkaRGRis7dmTb7X5
             source_type: api_record
             title: 中国历代人物传记资料库：王賢本（CBDB 148879）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_146ewVP9EykMlXaRTgODoh
+        subject_person_id: p_E8E8ihQC2SrCHhBnBQvfcv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HwzFLqxbVsRUv4XG7D989R
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GEi-IK8WV9T3R4qxGQKLQ7
+          claim_id: c_146ewVP9EykMlXaRTgODoh
+          source_id: s_nJBCBqEkaRGRis7dmTb7X5
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yifeng 37：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_E8E8ihQC2SrCHhBnBQvfcv
+        status: active
+        display_name: 王韜
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_E8E8ihQC2SrCHhBnBQvfcv | 王韜 | accepted |
 
 ## 外部来源
 

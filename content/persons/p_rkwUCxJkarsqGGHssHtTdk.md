@@ -4,7 +4,7 @@ id: p_rkwUCxJkarsqGGHssHtTdk
 status: active
 merged_into: null
 display_name: 王用賢
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,44 @@ relationships:
         status: active
         display_name: 王偉
         merged_into_person_id: null
+    - claim:
+        id: c_D165zUClYAZoA77Xv3dU6K
+        subject_person_id: p_JMsBmZTJdbYG4P477H3fmS
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_rkwUCxJkarsqGGHssHtTdk
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lFQ8IOo4_FoK2Anr81Gk_u
+          claim_id: c_D165zUClYAZoA77Xv3dU6K
+          source_id: s_JU8zbD2CR5zjTK8rkxHaXQ
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第五十三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_JU8zbD2CR5zjTK8rkxHaXQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子魯（CBDB 313194）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313194&o=json
+            external_identifier: CBDB:313194
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:06.030Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_JMsBmZTJdbYG4P477H3fmS
+        status: active
+        display_name: 王子魯
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_DFCRUSa4hCVBMPph3xEiW2 | 王瑤 | accepted |
 | ancestors | p_YJmBrFyhvA7UtWupQ2PBwG | 王偉 | accepted |
+| ancestors | p_JMsBmZTJdbYG4P477H3fmS | 王子魯 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王偉（CBDB 313193）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313193&o=json)
 - [中国历代人物传记资料库：王瑤（CBDB 313196）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313196&o=json)
 - [中国历代人物传记资料库：王用賢（CBDB 204011）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204011&o=json)
+- [中国历代人物传记资料库：王子魯（CBDB 313194）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313194&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王待價
 cbdb_id: 22171
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:22171
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_zYB7deVV2FbF2JDajwC7mK
             source_type: api_record
             title: 中国历代人物传记资料库：王待價（CBDB 22171）
@@ -130,6 +130,32 @@ relationships:
         status: active
         display_name: 王嗣宗
         merged_into_person_id: null
+    - claim:
+        id: c_lpxDovCff7IA_RihhZoB7H
+        subject_person_id: p_Hi2pMZGHcEwS8ZkC4zPUSd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_LKzDYAPDmX1Dcm3kwWWk7w
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DrIIst_e-d4Bll6cZlWiP2
+          claim_id: c_lpxDovCff7IA_RihhZoB7H
+          source_id: s_zYB7deVV2FbF2JDajwC7mK
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，159 王九言墓志：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_LKzDYAPDmX1Dcm3kwWWk7w
+        status: active
+        display_name: 王九言
+        merged_into_person_id: null
   other: []
 ---
 
@@ -149,6 +175,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | descendants | p_DFWuMPWUstBm3Tr8KacmZf | 王嗣宗 | accepted |
+| descendants | p_LKzDYAPDmX1Dcm3kwWWk7w | 王九言 | accepted |
 
 ## 外部来源
 

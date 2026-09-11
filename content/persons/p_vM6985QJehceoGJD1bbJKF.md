@@ -4,7 +4,7 @@ id: p_vM6985QJehceoGJD1bbJKF
 status: active
 merged_into: null
 display_name: 王澄
-revision: 15
+revision: 16
 properties:
   - predicate: name.primary
     recommended:
@@ -166,6 +166,44 @@ relationships:
         id: p_tSpXqwBE33pVWfFPYz5gPg
         status: active
         display_name: 王士麟
+        merged_into_person_id: null
+    - claim:
+        id: c_vgyyM7HGAdDGx1ax-Q8PVj
+        subject_person_id: p_vM6985QJehceoGJD1bbJKF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gFwBHF9Ka4CkfJcu6TEQy4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MKqcy90KK49EUQWpRKocji
+          claim_id: c_vgyyM7HGAdDGx1ax-Q8PVj
+          source_id: s_i9uHZiCu6bL13psYRA27oc
+          stance: supports
+          locator: 宋濂全集，1606：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_i9uHZiCu6bL13psYRA27oc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子覺（CBDB 134164）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134164&o=json
+            external_identifier: CBDB:134164
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:52.561Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_gFwBHF9Ka4CkfJcu6TEQy4
+        status: active
+        display_name: 王子覺
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
@@ -1108,6 +1146,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_tSpXqwBE33pVWfFPYz5gPg | 王士麟 | accepted |
+| children | p_gFwBHF9Ka4CkfJcu6TEQy4 | 王子覺 | accepted |
 | descendants | p_2b14Pj9cMfbGVVm23QMpPW | 王應 | accepted |
 | descendants | p_2M3Bp18QYjru654oK8qp9J | 王瀹 | accepted |
 | descendants | p_A41SYFNqMRpiFQWr968GE9 | 王淇 | accepted |
@@ -1158,3 +1197,4 @@ relationships:
 - [中国历代人物传记资料库：王應（CBDB 134166）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134166&o=json)
 - [中国历代人物传记资料库：王瀹（CBDB 134187）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134187&o=json)
 - [中国历代人物传记资料库：王澤（CBDB 134176）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134176&o=json)
+- [中国历代人物传记资料库：王子覺（CBDB 134164）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134164&o=json)

@@ -4,7 +4,7 @@ id: p_PdBPJVHqizEMUoTmb638jr
 status: active
 merged_into: null
 display_name: 王瓚
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_C-ciSiRWgKA6w_uUM_h8a6
+        subject_person_id: p_jpb5e1LSfcNEcndKC8NGxG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PdBPJVHqizEMUoTmb638jr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_90vfazPGDJPvxMATMbMkNv
+          claim_id: c_C-ciSiRWgKA6w_uUM_h8a6
+          source_id: s_ersuMdygx9HVcxawPFRHpy
+          stance: supports
+          locator: 天順元年進士登科錄:一卷，第三甲第一百四十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ersuMdygx9HVcxawPFRHpy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鄷（CBDB 304747）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304747&o=json
+            external_identifier: CBDB:304747
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:05.361Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_jpb5e1LSfcNEcndKC8NGxG
+        status: active
+        display_name: 王鄷
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +238,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_jpb5e1LSfcNEcndKC8NGxG | 王鄷 | accepted |
 | ancestors | p_oUb5sB73dC3KZFbPKC8ymf | 王天祐 | accepted |
 | ancestors | p_QpyM9VFEY5YMqvL4Kb3WVn | 王文奎 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鄷（CBDB 304747）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304747&o=json)
 - [中国历代人物传记资料库：王天祐（CBDB 304725）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304725&o=json)
 - [中国历代人物传记资料库：王文奎（CBDB 304736）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304736&o=json)
 - [中国历代人物传记资料库：王瓚（CBDB 198693）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198693&o=json)

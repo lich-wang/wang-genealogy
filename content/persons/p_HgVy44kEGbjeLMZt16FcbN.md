@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王宰
 cbdb_id: 184941
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -152,7 +152,7 @@ properties:
           locator: Q7967755
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_ZaXVtLHqz8ogG1a42ZfcBb
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王晏宰（184941）
@@ -214,6 +214,32 @@ relationships:
         status: active
         display_name: 王智兴
         merged_into_person_id: null
+    - claim:
+        id: c_-XFWu6QVtXZUU3lzyuHlGw
+        subject_person_id: p_1HLRDPP5GEjvYAj6jfrJ31
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HgVy44kEGbjeLMZt16FcbN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VVJulk8oLwKHhodDoBYrxt
+          claim_id: c_-XFWu6QVtXZUU3lzyuHlGw
+          source_id: s_ZaXVtLHqz8ogG1a42ZfcBb
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_1HLRDPP5GEjvYAj6jfrJ31
+        status: merged
+        display_name: 王智興
+        merged_into_person_id: p_6BymFd7sw6j7GAmg7erqPj
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -240,6 +266,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_6BymFd7sw6j7GAmg7erqPj | 王智兴 | accepted |
+| parents | p_1HLRDPP5GEjvYAj6jfrJ31 | 王智興 | accepted |
 
 ## 外部来源
 

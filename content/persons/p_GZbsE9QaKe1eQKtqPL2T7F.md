@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 孔氏
 cbdb_id: 37779
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -77,7 +77,7 @@ properties:
           locator: Q45431324
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_fGW6nhH5W9uBA7hHf2yaa8
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：孔氏（37779）
@@ -93,7 +93,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_oREgvmBhdSQ8Ic8XHuYczG
+        subject_person_id: p_GZbsE9QaKe1eQKtqPL2T7F
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_A4y88KqDgYC7CBnr5hYZf3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_a7iNdJW7VWzR9JGK53knXI
+          claim_id: c_oREgvmBhdSQ8Ic8XHuYczG
+          source_id: s_fGW6nhH5W9uBA7hHf2yaa8
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_A4y88KqDgYC7CBnr5hYZf3
+        status: active
+        display_name: 王龜齡
+        merged_into_person_id: null
+    - claim:
+        id: c_Vnq6t0xHmqfUYQcyf-i3zR
+        subject_person_id: p_GZbsE9QaKe1eQKtqPL2T7F
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Bxf4gH2xyWjLA2FCR3BhN7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V787GoF_1stdjK0_pjBkJj
+          claim_id: c_Vnq6t0xHmqfUYQcyf-i3zR
+          source_id: s_fGW6nhH5W9uBA7hHf2yaa8
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_Bxf4gH2xyWjLA2FCR3BhN7
+        status: active
+        display_name: 王松龄
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -162,7 +214,137 @@ relationships:
         display_name: 王彦博
         merged_into_person_id: null
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_f3WhoIAQP5xPIAGSQRuoVA
+        subject_person_id: p_GZbsE9QaKe1eQKtqPL2T7F
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ib1JCPDpb1b5Zbw7uh5HuV
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_r1Hg04A1rI53D7pbqW5y8e
+          claim_id: c_f3WhoIAQP5xPIAGSQRuoVA
+          source_id: s_fGW6nhH5W9uBA7hHf2yaa8
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_ib1JCPDpb1b5Zbw7uh5HuV
+        status: active
+        display_name: 王彤
+        merged_into_person_id: null
+    - claim:
+        id: c_JXZ1moJiYm_EsGNLxqWThW
+        subject_person_id: p_GZbsE9QaKe1eQKtqPL2T7F
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3Jpz1MJr19NoGHADTpC82d
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2vxJV2mySnHEx89eHton-u
+          claim_id: c_JXZ1moJiYm_EsGNLxqWThW
+          source_id: s_fGW6nhH5W9uBA7hHf2yaa8
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_3Jpz1MJr19NoGHADTpC82d
+        status: active
+        display_name: 王串
+        merged_into_person_id: null
+    - claim:
+        id: c_Ud87itdy0UpXNtt1bADx01
+        subject_person_id: p_GZbsE9QaKe1eQKtqPL2T7F
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_TXR4BZHWFYBdp9oHRn9hCf
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zLMekI_VP7QkxYW3dpX0qM
+          claim_id: c_Ud87itdy0UpXNtt1bADx01
+          source_id: s_fGW6nhH5W9uBA7hHf2yaa8
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_TXR4BZHWFYBdp9oHRn9hCf
+        status: active
+        display_name: 王聿
+        merged_into_person_id: null
+    - claim:
+        id: c_q_GMT-QO7oWhEEM9_1FQvB
+        subject_person_id: p_GZbsE9QaKe1eQKtqPL2T7F
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_kdXLrKQ2gAzwQuRiYauex1
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zU5Rmcc4PX2lWMfOZV9yqb
+          claim_id: c_q_GMT-QO7oWhEEM9_1FQvB
+          source_id: s_fGW6nhH5W9uBA7hHf2yaa8
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_kdXLrKQ2gAzwQuRiYauex1
+        status: active
+        display_name: 王中
+        merged_into_person_id: null
+    - claim:
+        id: c_MIGU-2WKK9Rmwj0ULF-hyU
+        subject_person_id: p_GZbsE9QaKe1eQKtqPL2T7F
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Q29adPUD8QELC98tWHj9Az
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_u7CYJV94FkHvd5X-BhbEuf
+          claim_id: c_MIGU-2WKK9Rmwj0ULF-hyU
+          source_id: s_fGW6nhH5W9uBA7hHf2yaa8
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_Q29adPUD8QELC98tWHj9Az
+        status: active
+        display_name: 王懋
+        merged_into_person_id: null
   other: []
 ---
 
@@ -181,7 +363,14 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_A4y88KqDgYC7CBnr5hYZf3 | 王龜齡 | accepted |
+| children | p_Bxf4gH2xyWjLA2FCR3BhN7 | 王松龄 | accepted |
 | spouses | p_zAMNQJueCwPPKR5vjoLaAD | 王彦博 | accepted |
+| descendants | p_ib1JCPDpb1b5Zbw7uh5HuV | 王彤 | accepted |
+| descendants | p_3Jpz1MJr19NoGHADTpC82d | 王串 | accepted |
+| descendants | p_TXR4BZHWFYBdp9oHRn9hCf | 王聿 | accepted |
+| descendants | p_kdXLrKQ2gAzwQuRiYauex1 | 王中 | accepted |
+| descendants | p_Q29adPUD8QELC98tWHj9Az | 王懋 | accepted |
 
 ## 外部来源
 

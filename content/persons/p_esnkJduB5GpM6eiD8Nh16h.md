@@ -4,7 +4,7 @@ id: p_esnkJduB5GpM6eiD8Nh16h
 status: active
 merged_into: null
 display_name: 王之垣
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -169,7 +169,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_JJic6bdoOPMXAj7BzBTSxr
+        subject_person_id: p_HAyVcBmm4b2NDQpjnqrEC2
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_esnkJduB5GpM6eiD8Nh16h
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k6Wt04cuSDTXZcbFsSAVjJ
+          claim_id: c_JJic6bdoOPMXAj7BzBTSxr
+          source_id: s_6ymMX8xcNFyLEUsMd9uNjX
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第一百四十五名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6ymMX8xcNFyLEUsMd9uNjX
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：于氏（328692）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328692&o=json
+            external_identifier: CBDB:328692
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:04.717Z
+            metadata_json: null
+      object_person:
+        id: p_HAyVcBmm4b2NDQpjnqrEC2
+        status: active
+        display_name: 于氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_S87XpqCXLirDYz_2TseVFN
@@ -267,6 +304,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_Q2kyUvSiKLewvDJ84trCAk | 王重光 | accepted |
+| spouses | p_HAyVcBmm4b2NDQpjnqrEC2 | 于氏 | accepted |
 | ancestors | p_aFunzdiBCEEnCHq6Us158d | 王麟 | accepted |
 | ancestors | p_FPPus9AT8wmb1wjQX27Ny9 | 王伍 | accepted |
 
@@ -276,3 +314,4 @@ relationships:
 - [中国历代人物传记资料库：王伍（CBDB 328688）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328688&o=json)
 - [中国历代人物传记资料库：王之垣（CBDB 126464）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126464&o=json)
 - [中国历代人物传记资料库：王重光（CBDB 328690）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328690&o=json)
+- [CBDB 中国历代人物传记资料库：于氏（328692）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328692&o=json)

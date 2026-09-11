@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王重廉
 cbdb_id: 526693
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:526693
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_4zp4nFkBUTCPYgYsuYf41H
             source_type: api_record
             title: 中国历代人物传记资料库：王重廉（CBDB 526693）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_O0kOdnROoL8ytsM2GFO638
+        subject_person_id: p_jkUwJXsx2o348fujAvk7hi
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HU55tHV9NJNEXnoVTT53M4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_l6hBAXiyhO-0Aq0j5sLYI0
+          claim_id: c_O0kOdnROoL8ytsM2GFO638
+          source_id: s_4zp4nFkBUTCPYgYsuYf41H
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12796：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_jkUwJXsx2o348fujAvk7hi
+        status: active
+        display_name: 王化龍
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_jkUwJXsx2o348fujAvk7hi | 王化龍 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王鋀
 cbdb_id: 281994
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:281994
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_LAwM7q4mMFQUN2pFQRi6Bz
             source_type: api_record
             title: 中国历代人物传记资料库：王鋀（CBDB 281994）
@@ -87,7 +87,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_TxpogaEAQuHTK8Gj-4PmAd
+        subject_person_id: p_Jk84ENYUVyTz1ayR9hKQUA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_STyrVbhawRK5QNwptzbque
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qwGV6YIrq3rDaVIHI2OCol
+          claim_id: c_TxpogaEAQuHTK8Gj-4PmAd
+          source_id: s_LAwM7q4mMFQUN2pFQRi6Bz
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第一百三十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_STyrVbhawRK5QNwptzbque
+        status: active
+        display_name: 王泮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_STyrVbhawRK5QNwptzbque | 王泮 | accepted |
 
 ## 外部来源
 

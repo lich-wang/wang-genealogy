@@ -4,7 +4,7 @@ id: p_y3ij6WeUEcKDgNeZS3dMHo
 status: active
 merged_into: null
 display_name: 王祚
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_0QCUpiDZ4mRyQqJ06Ud37G
+        subject_person_id: p_Je1o2mVdfZbZ5br4teNV7A
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_y3ij6WeUEcKDgNeZS3dMHo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_662fUoxo8kv8DCWVs8hMAr
+          claim_id: c_0QCUpiDZ4mRyQqJ06Ud37G
+          source_id: s_6KPe1cr3pLCqBLXj4NAHCu
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第二百零二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6KPe1cr3pLCqBLXj4NAHCu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王守憲（CBDB 290443）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290443&o=json
+            external_identifier: CBDB:290443
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:03.722Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_Je1o2mVdfZbZ5br4teNV7A
+        status: active
+        display_name: 王守憲
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +238,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Je1o2mVdfZbZ5br4teNV7A | 王守憲 | accepted |
 | ancestors | p_Cz2aDZZDbFXR8oBoBubJp3 | 王海 | accepted |
 | ancestors | p_v6kHj8H4MhaeKnjb7Cdx3x | 王鑑 | accepted |
 
@@ -207,4 +246,5 @@ relationships:
 
 - [中国历代人物传记资料库：王海（CBDB 290440）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290440&o=json)
 - [中国历代人物传记资料库：王鑑（CBDB 290441）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290441&o=json)
+- [中国历代人物传记资料库：王守憲（CBDB 290443）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290443&o=json)
 - [中国历代人物传记资料库：王祚（CBDB 202593）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202593&o=json)

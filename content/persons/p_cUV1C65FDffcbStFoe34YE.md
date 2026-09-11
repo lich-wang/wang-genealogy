@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王其勤
 cbdb_id: 204225
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,6 +209,44 @@ relationships:
         status: active
         display_name: 王本義
         merged_into_person_id: null
+    - claim:
+        id: c_Mbuk_M6_MlArj1G_IDld84
+        subject_person_id: p_GBXJEfBRHP994EZoWJffQ1
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cUV1C65FDffcbStFoe34YE
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v4_MMTCZAMLQy3CXEB2CIM
+          claim_id: c_Mbuk_M6_MlArj1G_IDld84
+          source_id: s_UfjvEHkGSUcUYGpx9hmoWE
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_UfjvEHkGSUcUYGpx9hmoWE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王相之（CBDB 316214）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316214&o=json
+            external_identifier: CBDB:316214
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:06.030Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_GBXJEfBRHP994EZoWJffQ1
+        status: active
+        display_name: 王相之
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_2CGC7EFuxL22aCAXELkLWU | 王天章 | accepted |
 | ancestors | p_CtQDetL2VcSqzqQmVXxd4W | 王本義 | accepted |
+| ancestors | p_GBXJEfBRHP994EZoWJffQ1 | 王相之 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王本義（CBDB 316213）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316213&o=json)
 - [中国历代人物传记资料库：王其勤（CBDB 204225）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204225&o=json)
 - [中国历代人物传记资料库：王天章（CBDB 316215）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316215&o=json)
+- [中国历代人物传记资料库：王相之（CBDB 316214）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316214&o=json)

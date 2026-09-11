@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王師正
 cbdb_id: 141595
-revision: 6
+revision: 7
 properties:
   - predicate: bio.summary
     recommended:
@@ -359,6 +359,44 @@ relationships:
         status: active
         display_name: 王詵
         merged_into_person_id: null
+    - claim:
+        id: c_DM7jKJs9IF-5xYWJwr0nbv
+        subject_person_id: p_kW6BHpFnPbBsA8JbJBRAGy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iDGuCMgjoL4qxy8QDBtLB6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0MpSpLFF-xsbPs1hCcDXug
+          claim_id: c_DM7jKJs9IF-5xYWJwr0nbv
+          source_id: s_okn6y13HbP2qcnZDbethc6
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dahe 15：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_okn6y13HbP2qcnZDbethc6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王謑（CBDB 157640）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157640&o=json
+            external_identifier: CBDB:157640
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.122Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_iDGuCMgjoL4qxy8QDBtLB6
+        status: active
+        display_name: 王謑
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -426,6 +464,7 @@ relationships:
 | children | p_bb4uNBnkCDpyeNa35JCd9T | 王譚 | accepted |
 | children | p_FyzhWujS42WScqRPLTA8rf | 王譔 | accepted |
 | children | p_jaGNi3SSRtJynf6Gu7MS91 | 王詵 | accepted |
+| children | p_iDGuCMgjoL4qxy8QDBtLB6 | 王謑 | accepted |
 | ancestors | p_X6jrCw6Y7DQpEkbz1DuCWH | 王燾 | accepted |
 
 ## 外部来源
@@ -435,5 +474,6 @@ relationships:
 - [中国历代人物传记资料库：王詵（CBDB 157637）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157637&o=json)
 - [中国历代人物传记资料库：王師正（CBDB 141595）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141595&o=json)
 - [中国历代人物传记资料库：王譚（CBDB 144955）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=144955&o=json)
+- [中国历代人物传记资料库：王謑（CBDB 157640）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157640&o=json)
 - [中国历代人物传记资料库：王訢（CBDB 192943）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=192943&o=json)
 - [中国历代人物传记资料库：王譔（CBDB 157636）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157636&o=json)

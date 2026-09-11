@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王和義
 cbdb_id: 246478
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:246478
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_A4BUT23o7VSW5KVo1Ta4AR
             source_type: api_record
             title: 中国历代人物传记资料库：王和義（CBDB 246478）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_pHBtH7Z12nRA_eIe5_sjJR
+        subject_person_id: p_h1avz726BoZSKsSMLgnMDe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_rPERXxEMwZa9gPH43DGT1J
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hLJF4WUHCCnaO3IaKlGOFz
+          claim_id: c_pHBtH7Z12nRA_eIe5_sjJR
+          source_id: s_A4BUT23o7VSW5KVo1Ta4AR
+          stance: supports
+          locator: 成化八年進士登科錄:一卷，第三甲第六十一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rPERXxEMwZa9gPH43DGT1J
+        status: active
+        display_name: 王肅
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_rPERXxEMwZa9gPH43DGT1J | 王肅 | accepted |
 
 ## 外部来源
 

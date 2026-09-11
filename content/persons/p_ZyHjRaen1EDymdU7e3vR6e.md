@@ -4,7 +4,7 @@ id: p_ZyHjRaen1EDymdU7e3vR6e
 status: active
 merged_into: null
 display_name: 王鳴盛
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -221,7 +221,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_c0cE90spUhxctnGjrR9mNd
+        subject_person_id: p_G6TTy42oGuEaEe7C4FnKVc
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_ZyHjRaen1EDymdU7e3vR6e
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xQx5Y385_bY21rOHxengCm
+          claim_id: c_c0cE90spUhxctnGjrR9mNd
+          source_id: s_Cj8bPn2vFwwXM8em8h2ayZ
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #1770, HuWenKai #576：丈夫"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Cj8bPn2vFwwXM8em8h2ayZ
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：陳玉（100029）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100029&o=json
+            external_identifier: CBDB:100029
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:17.869Z
+            metadata_json: null
+      object_person:
+        id: p_G6TTy42oGuEaEe7C4FnKVc
+        status: active
+        display_name: 陈玉
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -247,8 +284,10 @@ relationships:
 | children | p_WL2eC49AZSBn6E8obwFKry | 王嗣穫 | accepted |
 | children | p_zkwZsLLQjFZ5N6EjaRwRDi | 王嗣構 | accepted |
 | children | p_pth7Wt1GjSMUzqmVpJWYW9 | 王嗣疇 | accepted |
+| spouses | p_G6TTy42oGuEaEe7C4FnKVc | 陈玉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鳴盛（CBDB 29898）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29898&o=json)
 - [中国历代人物传记资料库：王嗣穫（CBDB 522351）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=522351&o=json)
+- [CBDB 中国历代人物传记资料库：陳玉（100029）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100029&o=json)

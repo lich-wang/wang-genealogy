@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 吴氏
 cbdb_id: 247603
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -77,7 +77,7 @@ properties:
           locator: Q65851495
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_8LJ3igvN9bwCZ6MhQ5dYnS
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：吳氏（247603）
@@ -172,6 +172,32 @@ relationships:
         status: active
         display_name: 王鏊
         merged_into_person_id: null
+    - claim:
+        id: c_DJPatZ_RgjSidiWQrrAIhn
+        subject_person_id: p_jhEZERf87Yu1gr8MbYEspe
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_D4z9mWRZWdetNdzRfwASCL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0fvUk7QURF3TuHy85XKeYG
+          claim_id: c_DJPatZ_RgjSidiWQrrAIhn
+          source_id: s_8LJ3igvN9bwCZ6MhQ5dYnS
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第一甲第三名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_D4z9mWRZWdetNdzRfwASCL
+        status: active
+        display_name: 王鏊
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -193,6 +219,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_Wp6B6oFJWureDLbUWC4XTo | 王鏊 | accepted |
+| spouses | p_D4z9mWRZWdetNdzRfwASCL | 王鏊 | accepted |
 
 ## 外部来源
 

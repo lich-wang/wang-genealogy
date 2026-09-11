@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王三陽
 cbdb_id: 206708
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_VpbYKBRriixX-j-VCSiL40
+        subject_person_id: p_iEzBpfQksvKwtnLVgiEPSK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CE6L82D742RNyGAmxCYAn5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6xIuN4YcGk8gU-I0o5Zgw2
+          claim_id: c_VpbYKBRriixX-j-VCSiL40
+          source_id: s_pN9PhH6Q1bdeAFPm8DGGiB
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第二百二十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_pN9PhH6Q1bdeAFPm8DGGiB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王賜良（CBDB 221864）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221864&o=json
+            external_identifier: CBDB:221864
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:57.241Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_iEzBpfQksvKwtnLVgiEPSK
+        status: active
+        display_name: 王賜良
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,11 +267,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_iEzBpfQksvKwtnLVgiEPSK | 王賜良 | accepted |
 | ancestors | p_Eadd6mMaXChvMX3qCq7Z3P | 王寬 | accepted |
 | ancestors | p_vA2EkkQ3G2YuHPZyYeeo8p | 王杞 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王賜良（CBDB 221864）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221864&o=json)
 - [中国历代人物传记资料库：王寬（CBDB 221863）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221863&o=json)
 - [中国历代人物传记资料库：王杞（CBDB 221862）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221862&o=json)
 - [中国历代人物传记资料库：王三陽（CBDB 206708）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206708&o=json)

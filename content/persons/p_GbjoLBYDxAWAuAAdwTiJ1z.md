@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 桃根
 cbdb_id: 135443
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -173,6 +173,32 @@ relationships:
         status: active
         display_name: 王獻之
         merged_into_person_id: null
+    - claim:
+        id: c_l2LW95t-NhbjgNN1ljiXFG
+        subject_person_id: p_GbjoLBYDxAWAuAAdwTiJ1z
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_gE3CnwapCniUCHrAKzxaDg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_T84H--UW2t1Sp1LUM0EPhA
+          claim_id: c_l2LW95t-NhbjgNN1ljiXFG
+          source_id: s_uwNH2dAJxGQ3DZd37a14He
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #2002：丈夫"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_gE3CnwapCniUCHrAKzxaDg
+        status: active
+        display_name: 王獻之
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -194,6 +220,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_9kvwNC8EwFdL41MBGhg7HG | 王獻之 | accepted |
+| spouses | p_gE3CnwapCniUCHrAKzxaDg | 王獻之 | accepted |
 
 ## 外部来源
 

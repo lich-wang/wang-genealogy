@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仙姿
 cbdb_id: 120463
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:120463
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_HVN9BtFXFpGW422tQTGnWo
             source_type: api_record
             title: 中国历代人物传记资料库：王仙姿（CBDB 120463）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_YNU94fkdeDmqD32n81QyNT
+        subject_person_id: p_MCnJDALPF3QYTi1yL9g9GM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hiVAr6WUUN6ACAQdKNTSg2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZFF1gwHVpqRmu6O97pyKqd
+          claim_id: c_YNU94fkdeDmqD32n81QyNT
+          source_id: s_HVN9BtFXFpGW422tQTGnWo
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #2293：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MCnJDALPF3QYTi1yL9g9GM
+        status: active
+        display_name: 王韶均
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_MCnJDALPF3QYTi1yL9g9GM | 王韶均 | accepted |
 
 ## 外部来源
 

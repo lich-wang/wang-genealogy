@@ -4,7 +4,7 @@ id: p_f5uvxnPRT14yx91yn4yLGC
 status: active
 merged_into: null
 display_name: 王韶
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_3lIVjO6v_sT4Kpqti14c39
+        subject_person_id: p_f5uvxnPRT14yx91yn4yLGC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_j7cTzgP8kPH4PuJJT6Phja
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KIHBTZ4KCsp_ktFg-VD4Oh
+          claim_id: c_3lIVjO6v_sT4Kpqti14c39
+          source_id: s_qcX1VjDMhbTXr7Psa249QR
+          stance: supports
+          locator: 宋史：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_qcX1VjDMhbTXr7Psa249QR
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王宷（119740）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119740&o=json
+            external_identifier: CBDB:119740
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:05.048Z
+            metadata_json: null
+      object_person:
+        id: p_j7cTzgP8kPH4PuJJT6Phja
+        status: active
+        display_name: 王宷
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -229,6 +266,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_j7cTzgP8kPH4PuJJT6Phja | 王宷 | accepted |
 | descendants | p_DCTkDfQk8qHYiFjuEH45Mr | 王遂 | accepted |
 | descendants | p_i5579JHLY2cRuS7YHKZJ5T | 王萬樞 | accepted |
 
@@ -237,3 +275,4 @@ relationships:
 - [中国历代人物传记资料库：王韶（CBDB 1865）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1865&o=json)
 - [中国历代人物传记资料库：王遂（CBDB 12053）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12053&o=json)
 - [中国历代人物传记资料库：王萬樞（CBDB 12051）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12051&o=json)
+- [CBDB 中国历代人物传记资料库：王宷（119740）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119740&o=json)

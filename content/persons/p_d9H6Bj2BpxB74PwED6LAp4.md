@@ -4,7 +4,7 @@ id: p_d9H6Bj2BpxB74PwED6LAp4
 status: active
 merged_into: null
 display_name: 王林
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -278,6 +278,44 @@ relationships:
         status: active
         display_name: 王信
         merged_into_person_id: null
+    - claim:
+        id: c_G2aiD57U2j3Hi-e_3NgWxR
+        subject_person_id: p_d9H6Bj2BpxB74PwED6LAp4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GC48VWjH6nXpUGctnChT8m
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oPFfZka3Cg_Tpn46QXvADh
+          claim_id: c_G2aiD57U2j3Hi-e_3NgWxR
+          source_id: s_YgYSnu58N7BKGFhstL63TY
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Chuigong20：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_YgYSnu58N7BKGFhstL63TY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王師俊（CBDB 162931）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162931&o=json
+            external_identifier: CBDB:162931
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.741Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_GC48VWjH6nXpUGctnChT8m
+        status: active
+        display_name: 王師俊
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -344,6 +382,7 @@ relationships:
 | children | p_BRSg2KxUW5LjThmHp5B37r | 王哲 | accepted |
 | children | p_i9FSRy4GUDPHuMS7PxNGHT | 王道 | accepted |
 | children | p_LkqiF66dP7UYJK7vNxYdb2 | 王信 | accepted |
+| children | p_GC48VWjH6nXpUGctnChT8m | 王師俊 | accepted |
 | ancestors | p_bWHBrETwPeRBJYtc82ehET | 王定 | accepted |
 
 ## 外部来源
@@ -351,6 +390,7 @@ relationships:
 - [中国历代人物传记资料库：王道（CBDB 162932）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162932&o=json)
 - [中国历代人物传记资料库：王定（CBDB 162924）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162924&o=json)
 - [中国历代人物传记资料库：王林（CBDB 142732）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142732&o=json)
+- [中国历代人物传记资料库：王師俊（CBDB 162931）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162931&o=json)
 - [中国历代人物传记资料库：王嵩（CBDB 162927）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162927&o=json)
 - [中国历代人物传记资料库：王信（CBDB 162934）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162934&o=json)
 - [中国历代人物传记资料库：王哲（CBDB 162933）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162933&o=json)

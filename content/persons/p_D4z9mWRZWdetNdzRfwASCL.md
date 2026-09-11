@@ -4,7 +4,7 @@ id: p_D4z9mWRZWdetNdzRfwASCL
 status: active
 merged_into: null
 display_name: 王鏊
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -208,7 +208,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_DJPatZ_RgjSidiWQrrAIhn
+        subject_person_id: p_jhEZERf87Yu1gr8MbYEspe
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_D4z9mWRZWdetNdzRfwASCL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0fvUk7QURF3TuHy85XKeYG
+          claim_id: c_DJPatZ_RgjSidiWQrrAIhn
+          source_id: s_8LJ3igvN9bwCZ6MhQ5dYnS
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第一甲第三名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8LJ3igvN9bwCZ6MhQ5dYnS
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：吳氏（247603）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247603&o=json
+            external_identifier: CBDB:247603
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:37.600Z
+            metadata_json: null
+      object_person:
+        id: p_jhEZERf87Yu1gr8MbYEspe
+        status: active
+        display_name: 吴氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_JCnzOaELW9JqiLAvRf3oZ2
@@ -270,6 +307,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_7EWnYXtmTk1oqLCDzLFor6 | 王延詰 | accepted |
 | children | p_7sL8RLmuiFfTvhgxv4U3Hi | 王延昭 | accepted |
+| spouses | p_jhEZERf87Yu1gr8MbYEspe | 吴氏 | accepted |
 | ancestors | p_rfNi35kMF1FSma9nVH7tNg | 王彦祥 | accepted |
 
 ## 外部来源
@@ -278,3 +316,4 @@ relationships:
 - [中国历代人物传记资料库：王延詰（CBDB 525608）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=525608&o=json)
 - [中国历代人物传记资料库：王延昭（CBDB 525607）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=525607&o=json)
 - [CBDB 中国历代人物传记资料库：王彥祥（34584）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34584&o=json)
+- [CBDB 中国历代人物传记资料库：吳氏（247603）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247603&o=json)

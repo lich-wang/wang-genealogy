@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王令
 cbdb_id: 3967
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -299,6 +299,43 @@ relationships:
         status: active
         display_name: 吴氏
         merged_into_person_id: null
+    - claim:
+        id: c_Tbk_30XMh6O-QIFlaJUuNU
+        subject_person_id: p_H57wFvKcGMBv78q4Myh1Bn
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_4g3xdD6NPZ5iQggyuwkBGV
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bTbtygXBn7csZZbb_Hjt_w
+          claim_id: c_Tbk_30XMh6O-QIFlaJUuNU
+          source_id: s_h7DN2KUR3A1fW3nCqDREcn
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，600;601：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_h7DN2KUR3A1fW3nCqDREcn
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：吳氏（5135）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5135&o=json
+            external_identifier: CBDB:5135
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:25:36.661Z
+            metadata_json: null
+      object_person:
+        id: p_H57wFvKcGMBv78q4Myh1Bn
+        status: active
+        display_name: 吴氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -320,6 +357,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_hb1chaQQ5nNJHx6CneR37f | 王世伦 | accepted |
+| spouses | p_H57wFvKcGMBv78q4Myh1Bn | 吴氏 | accepted |
 | spouses | p_H57wFvKcGMBv78q4Myh1Bn | 吴氏 | accepted |
 
 ## 外部来源

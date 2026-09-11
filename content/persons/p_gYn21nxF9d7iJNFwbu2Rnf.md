@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王鳴臣
 cbdb_id: 126785
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:126785
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_R8B9GAYbPdCC45L2JGg8q6
             source_type: api_record
             title: 中国历代人物传记资料库：王鳴臣（CBDB 126785）
@@ -129,12 +129,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_2ufrxAVQUefS4Cz7h_5gML
+        subject_person_id: p_Y4FNMr5v5UBkNhYB7rhbfs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gYn21nxF9d7iJNFwbu2Rnf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eVqMdErx3zBCXoDb6u05XU
+          claim_id: c_2ufrxAVQUefS4Cz7h_5gML
+          source_id: s_R8B9GAYbPdCC45L2JGg8q6
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第五十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Y4FNMr5v5UBkNhYB7rhbfs
+        status: active
+        display_name: 王國賜
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_HV8SthSQ8N1p06T-QTKTuU
+        subject_person_id: p_qS7NvXbMFNn76qPYrgmG6D
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_gYn21nxF9d7iJNFwbu2Rnf
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yW3B2Yluu9Mmew0hzHF-h1
+          claim_id: c_HV8SthSQ8N1p06T-QTKTuU
+          source_id: s_R8B9GAYbPdCC45L2JGg8q6
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第五十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qS7NvXbMFNn76qPYrgmG6D
+        status: active
+        display_name: 王大溪
+        merged_into_person_id: null
+    - claim:
+        id: c_rDVTQnxi9vbobZV7Xwr9j6
+        subject_person_id: p_k34ZxihPVrsTG6XCDpNhfP
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_gYn21nxF9d7iJNFwbu2Rnf
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HFCb74oSvLM1mhZ1NLIar5
+          claim_id: c_rDVTQnxi9vbobZV7Xwr9j6
+          source_id: s_R8B9GAYbPdCC45L2JGg8q6
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第五十三名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_k34ZxihPVrsTG6XCDpNhfP
+        status: active
+        display_name: 王學漁
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Y4FNMr5v5UBkNhYB7rhbfs | 王國賜 | accepted |
+| ancestors | p_qS7NvXbMFNn76qPYrgmG6D | 王大溪 | accepted |
+| ancestors | p_k34ZxihPVrsTG6XCDpNhfP | 王學漁 | accepted |
 
 ## 外部来源
 

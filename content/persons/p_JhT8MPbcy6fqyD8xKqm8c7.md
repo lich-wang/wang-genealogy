@@ -4,7 +4,7 @@ id: p_JhT8MPbcy6fqyD8xKqm8c7
 status: active
 merged_into: null
 display_name: 王奎
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_tB8SdzE3E62myebAkc8SnB
+        subject_person_id: p_g6tTV8xspEG83C3EPVzpm7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JhT8MPbcy6fqyD8xKqm8c7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VBJEyccXq232SQXp_4aKiX
+          claim_id: c_tB8SdzE3E62myebAkc8SnB
+          source_id: s_LAp2qEoFjsQzovLPCkWAeP
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_LAp2qEoFjsQzovLPCkWAeP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王乾溥（CBDB 261841）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261841&o=json
+            external_identifier: CBDB:261841
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:01.428Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_g6tTV8xspEG83C3EPVzpm7
+        status: active
+        display_name: 王乾溥
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +201,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_g6tTV8xspEG83C3EPVzpm7 | 王乾溥 | accepted |
 | ancestors | p_g8XCS3Mm7vNB6WdvCP6osQ | 王思惠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王奎（CBDB 200714）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200714&o=json)
+- [中国历代人物传记资料库：王乾溥（CBDB 261841）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261841&o=json)
 - [中国历代人物传记资料库：王思惠（CBDB 261840）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261840&o=json)

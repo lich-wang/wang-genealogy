@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王鑐
 cbdb_id: 22219
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -91,7 +91,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_wbx5OgCKw7D2VsdN8k3-El
+        subject_person_id: p_iwBVuUwJmW9x68bfe9dwKN
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BNwUqa2o85K46GSroyK3pt
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qn9cN4Gx_E0A_y5naWOtkB
+          claim_id: c_wbx5OgCKw7D2VsdN8k3-El
+          source_id: s_o6fwhY8EBNrs3ZN82gocSx
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1335：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_o6fwhY8EBNrs3ZN82gocSx
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王伯庠（17444）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17444&o=json
+            external_identifier: CBDB:17444
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:58:55.897Z
+            metadata_json: null
+      object_person:
+        id: p_iwBVuUwJmW9x68bfe9dwKN
+        status: active
+        display_name: 王伯庠
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_iwBVuUwJmW9x68bfe9dwKN | 王伯庠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鑐（CBDB 22219）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22219&o=json)
+- [CBDB 中国历代人物传记资料库：王伯庠（17444）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17444&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王乾溥
 cbdb_id: 261841
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:261841
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_LAp2qEoFjsQzovLPCkWAeP
             source_type: api_record
             title: 中国历代人物传记资料库：王乾溥（CBDB 261841）
@@ -87,7 +87,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_tB8SdzE3E62myebAkc8SnB
+        subject_person_id: p_g6tTV8xspEG83C3EPVzpm7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JhT8MPbcy6fqyD8xKqm8c7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VBJEyccXq232SQXp_4aKiX
+          claim_id: c_tB8SdzE3E62myebAkc8SnB
+          source_id: s_LAp2qEoFjsQzovLPCkWAeP
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_JhT8MPbcy6fqyD8xKqm8c7
+        status: active
+        display_name: 王奎
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_JhT8MPbcy6fqyD8xKqm8c7 | 王奎 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_4GbPExDFna3bpZBzyQEK5D
 status: active
 merged_into: null
 display_name: 王崇古
-revision: 6
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -132,7 +132,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_AG-cDsyP1fRpMCUDwEoa_Y
+        subject_person_id: p_Gp6LFTibhfU4rxEHuRWuDg
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_4GbPExDFna3bpZBzyQEK5D
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_llAic8dTI3IJDj_BA5qqWp
+          claim_id: c_AG-cDsyP1fRpMCUDwEoa_Y
+          source_id: s_dLXVrEahMyQM54gQjR16G9
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第二甲第八十七名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_dLXVrEahMyQM54gQjR16G9
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：張氏（302972）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302972&o=json
+            external_identifier: CBDB:302972
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:04.733Z
+            metadata_json: null
+      object_person:
+        id: p_Gp6LFTibhfU4rxEHuRWuDg
+        status: active
+        display_name: 张氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_0rYTYuFWaZm5bNmceqFevx
@@ -340,6 +377,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_Gp6LFTibhfU4rxEHuRWuDg | 张氏 | accepted |
 | ancestors | p_QF2bE4nFJ23UCeYuUNVU4y | 王孟华 | accepted |
 | descendants | p_6Fd9RZJkiLMNbHMJLar9HR | 王之模 | accepted |
 | descendants | p_BBf4BFLNNhaDseWeW653WQ | 王之禎 | accepted |
@@ -354,3 +392,4 @@ relationships:
 - [中国历代人物传记资料库：王之禎（CBDB 529288）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=529288&o=json)
 - [中国历代人物传记资料库：王宗孫（CBDB 529290）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=529290&o=json)
 - [CBDB 中国历代人物传记资料库：王孟華（302966）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302966&o=json)
+- [CBDB 中国历代人物传记资料库：張氏（302972）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302972&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王師約
 cbdb_id: 3973
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:3973
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_VtgWLkpGQtAeU3kVJLsmjD
             source_type: api_record
             title: 中国历代人物传记资料库：王師約（CBDB 3973）
@@ -211,6 +211,32 @@ relationships:
         status: active
         display_name: 王殊
         merged_into_person_id: null
+    - claim:
+        id: c_EN5B7Na40Wh8DV8RfaqvOT
+        subject_person_id: p_goJF8MJfNWY7M84o4rFghT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Q3nWKrtrk1fxAXUkvipx72
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_y7R0wINeVW0gT7eFwyWlWQ
+          claim_id: c_EN5B7Na40Wh8DV8RfaqvOT
+          source_id: s_VtgWLkpGQtAeU3kVJLsmjD
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，977：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Q3nWKrtrk1fxAXUkvipx72
+        status: active
+        display_name: 王殖
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -237,6 +263,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_8wYVTk6QAtnjpPT2UKUeJ6 | 王殊 | accepted |
+| children | p_Q3nWKrtrk1fxAXUkvipx72 | 王殖 | accepted |
 
 ## 外部来源
 

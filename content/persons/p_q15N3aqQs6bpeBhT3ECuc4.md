@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王垂重
 cbdb_id: 69303
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -130,7 +130,45 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_JYwb785W7RO9z_6W7cqbWn
+        subject_person_id: p_q15N3aqQs6bpeBhT3ECuc4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hvZg8j7o9PvMaAnPRENroa
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7il8GXcs72nQa9ncQ1BUqu
+          claim_id: c_JYwb785W7RO9z_6W7cqbWn
+          source_id: s_X8aN1AeHJ82BHbBrGX5Nv1
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13006：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_X8aN1AeHJ82BHbBrGX5Nv1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王安欽（CBDB 526833）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526833&o=json
+            external_identifier: CBDB:526833
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:18.829Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_hvZg8j7o9PvMaAnPRENroa
+        status: active
+        display_name: 王安欽
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,7 +193,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_hvZg8j7o9PvMaAnPRENroa | 王安欽 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王安欽（CBDB 526833）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526833&o=json)
 - [中国历代人物传记资料库：王垂重（CBDB 69303）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69303&o=json)

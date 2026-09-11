@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王逸卿
 cbdb_id: 222402
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -207,7 +207,85 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_k7idu8ri6Gd2-PwzhGJuBo
+        subject_person_id: p_GNLnPFw1Dr1HJibhmrHDQH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_D6wSSzErFedvXoDGGx8HqR
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B0Kvui20shsrUFHIe1Wkse
+          claim_id: c_k7idu8ri6Gd2-PwzhGJuBo
+          source_id: s_Qub8bEXGqX82LGNVfTYt6S
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第二甲第三十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_D6wSSzErFedvXoDGGx8HqR
+        status: active
+        display_name: 王士琦
+        merged_into_person_id: null
+    - claim:
+        id: c_r7CaMORXvTfhiUVJkmAX7k
+        subject_person_id: p_GNLnPFw1Dr1HJibhmrHDQH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_H1qN9DJkUwvePJbjMNJmyp
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LoWnWykuBlcv5k_giG3Xtu
+          claim_id: c_r7CaMORXvTfhiUVJkmAX7k
+          source_id: s_Qub8bEXGqX82LGNVfTYt6S
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第二甲第二十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_H1qN9DJkUwvePJbjMNJmyp
+        status: active
+        display_name: 王士崧
+        merged_into_person_id: null
+    - claim:
+        id: c_AcdM_4ZkvCpc5m8TFm3530
+        subject_person_id: p_GNLnPFw1Dr1HJibhmrHDQH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2upGeiN52eY6RGi8eXqg1R
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WYZLC1qRY414HKsgeqC0kj
+          claim_id: c_AcdM_4ZkvCpc5m8TFm3530
+          source_id: s_Qub8bEXGqX82LGNVfTYt6S
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第一百九十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_2upGeiN52eY6RGi8eXqg1R
+        status: active
+        display_name: 王士昌
+        merged_into_person_id: null
   other: []
 ---
 
@@ -228,6 +306,9 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_VkzS7RnDgwBF356dDv2J9B | 王纉 | accepted |
 | children | p_aZ1ZKEEFmDKA3BH7yDPbwn | 王训 | accepted |
+| descendants | p_D6wSSzErFedvXoDGGx8HqR | 王士琦 | accepted |
+| descendants | p_H1qN9DJkUwvePJbjMNJmyp | 王士崧 | accepted |
+| descendants | p_2upGeiN52eY6RGi8eXqg1R | 王士昌 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仙葩
 cbdb_id: 153275
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:153275
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_q2w4R42Pz1HJHxzPvUNU7h
             source_type: api_record
             title: 中国历代人物传记资料库：王仙葩（CBDB 153275）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_7WRPIBbmSIAX5-NLfnJ8pl
+        subject_person_id: p_dushLD8QJLJynRyKBeici3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jmczGKE1B57RJcS69ociHi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bDN5ivUh2lQaokNYHuxF8b
+          claim_id: c_7WRPIBbmSIAX5-NLfnJ8pl
+          source_id: s_q2w4R42Pz1HJHxzPvUNU7h
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 2：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_dushLD8QJLJynRyKBeici3
+        status: active
+        display_name: 王冷然
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_dushLD8QJLJynRyKBeici3 | 王冷然 | accepted |
 
 ## 外部来源
 

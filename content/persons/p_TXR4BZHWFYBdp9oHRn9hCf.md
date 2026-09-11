@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王聿
 cbdb_id: 37770
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -209,6 +209,43 @@ relationships:
         status: active
         display_name: 周氏
         merged_into_person_id: null
+    - claim:
+        id: c_Ud87itdy0UpXNtt1bADx01
+        subject_person_id: p_GZbsE9QaKe1eQKtqPL2T7F
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_TXR4BZHWFYBdp9oHRn9hCf
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zLMekI_VP7QkxYW3dpX0qM
+          claim_id: c_Ud87itdy0UpXNtt1bADx01
+          source_id: s_fGW6nhH5W9uBA7hHf2yaa8
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_fGW6nhH5W9uBA7hHf2yaa8
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：孔氏（37779）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37779&o=json
+            external_identifier: CBDB:37779
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:17.529Z
+            metadata_json: null
+      object_person:
+        id: p_GZbsE9QaKe1eQKtqPL2T7F
+        status: active
+        display_name: 孔氏
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,10 +268,12 @@ relationships:
 | parents | p_Bxf4gH2xyWjLA2FCR3BhN7 | 王松龄 | accepted |
 | parents | p_Bxf4gH2xyWjLA2FCR3BhN7 | 王松龄 | accepted |
 | ancestors | p_tJA4SGo5rnDTPZB6FnPcWP | 周氏 | accepted |
+| ancestors | p_GZbsE9QaKe1eQKtqPL2T7F | 孔氏 | accepted |
 
 ## 外部来源
 
 - [维基数据：王聿（Q45430826）](https://www.wikidata.org/wiki/Q45430826)
+- [CBDB 中国历代人物传记资料库：孔氏（37779）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37779&o=json)
 - [CBDB 中国历代人物传记资料库：王松齡（36706）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36706&o=json)
 - [CBDB 中国历代人物传记资料库：王聿（37770）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37770&o=json)
 - [CBDB 中国历代人物传记资料库：周氏（37792）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37792&o=json)

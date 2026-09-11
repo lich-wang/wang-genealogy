@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 陈玉
 cbdb_id: 100029
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -153,6 +153,32 @@ relationships:
         status: active
         display_name: 王鸣盛
         merged_into_person_id: null
+    - claim:
+        id: c_c0cE90spUhxctnGjrR9mNd
+        subject_person_id: p_G6TTy42oGuEaEe7C4FnKVc
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_ZyHjRaen1EDymdU7e3vR6e
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xQx5Y385_bY21rOHxengCm
+          claim_id: c_c0cE90spUhxctnGjrR9mNd
+          source_id: s_Cj8bPn2vFwwXM8em8h2ayZ
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #1770, HuWenKai #576：丈夫"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ZyHjRaen1EDymdU7e3vR6e
+        status: active
+        display_name: 王鳴盛
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -174,6 +200,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_hCN4NHH11HG3cmPwcyPC1j | 王鸣盛 | accepted |
+| spouses | p_ZyHjRaen1EDymdU7e3vR6e | 王鳴盛 | accepted |
 
 ## 外部来源
 

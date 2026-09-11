@@ -4,7 +4,7 @@ id: p_hXNZ4BGKzCfs7ijs1DrTF4
 status: active
 merged_into: null
 display_name: 王楨
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -208,6 +208,44 @@ relationships:
         status: active
         display_name: 王廕
         merged_into_person_id: null
+    - claim:
+        id: c_46vRLADqiPN_net3V4EecT
+        subject_person_id: p_gYyBHFMPwATU18hyCoNpwJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_hXNZ4BGKzCfs7ijs1DrTF4
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JbtqAFUoBZMsDxggmQqD4I
+          claim_id: c_46vRLADqiPN_net3V4EecT
+          source_id: s_fsNNzXFViCMN5UURDUAEQM
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），67：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_fsNNzXFViCMN5UURDUAEQM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王東漢（CBDB 513559）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=513559&o=json
+            external_identifier: CBDB:513559
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:15.776Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_gYyBHFMPwATU18hyCoNpwJ
+        status: active
+        display_name: 王東漢
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_NGzYBHmPsN7jf7PrNSKRHT | 王重明 | accepted |
 | ancestors | p_BC1yS13LsNaFDgXGEbiDxv | 王廕 | accepted |
+| ancestors | p_gYyBHFMPwATU18hyCoNpwJ | 王東漢 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王東漢（CBDB 513559）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=513559&o=json)
 - [中国历代人物传记资料库：王廕（CBDB 513561）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=513561&o=json)
 - [中国历代人物传记资料库：王楨（CBDB 56869）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56869&o=json)
 - [中国历代人物传记资料库：王重明（CBDB 513560）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=513560&o=json)

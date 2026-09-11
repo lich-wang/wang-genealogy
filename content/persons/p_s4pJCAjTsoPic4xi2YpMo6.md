@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王星若
 cbdb_id: 517431
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,45 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_4lkd2c6jGZFaMf9sD5h4qt
+        subject_person_id: p_s4pJCAjTsoPic4xi2YpMo6
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GgA5yWBQ4Bo7MikK34W1R2
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_c8LlL8m1ieBRijek1GGOyk
+          claim_id: c_4lkd2c6jGZFaMf9sD5h4qt
+          source_id: s_sgg916q2bhmB2zvWidAN7Q
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1886：高祖;四世祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_sgg916q2bhmB2zvWidAN7Q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王發桂（CBDB 58624）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=58624&o=json
+            external_identifier: CBDB:58624
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:05.401Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_GgA5yWBQ4Bo7MikK34W1R2
+        status: active
+        display_name: 王發桂
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +149,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_GgA5yWBQ4Bo7MikK34W1R2 | 王發桂 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王發桂（CBDB 58624）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=58624&o=json)
 - [中国历代人物传记资料库：王星若（CBDB 517431）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=517431&o=json)

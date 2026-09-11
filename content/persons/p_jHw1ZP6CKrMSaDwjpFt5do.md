@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王湘娥
 cbdb_id: 121031
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:121031
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_Hg6QAk76jSzk1x5M9Zxr7S
             source_type: api_record
             title: 中国历代人物传记资料库：王湘娥（CBDB 121031）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_7R0FRYVyJdLd4F-IUO4qrP
+        subject_person_id: p_aNsr7zpTw5pr86NiEYQufP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jHw1ZP6CKrMSaDwjpFt5do
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_x0Qm3r5St6vUBHS4W-lKnY
+          claim_id: c_7R0FRYVyJdLd4F-IUO4qrP
+          source_id: s_Hg6QAk76jSzk1x5M9Zxr7S
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #4002, HuWenKai #241：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_aNsr7zpTw5pr86NiEYQufP
+        status: active
+        display_name: 王果
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_aNsr7zpTw5pr86NiEYQufP | 王果 | accepted |
 
 ## 外部来源
 

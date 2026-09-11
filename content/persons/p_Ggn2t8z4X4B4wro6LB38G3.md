@@ -4,7 +4,7 @@ id: p_Ggn2t8z4X4B4wro6LB38G3
 status: active
 merged_into: null
 display_name: 王虔暢
-revision: 8
+revision: 9
 properties:
   - predicate: name.primary
     recommended:
@@ -315,6 +315,44 @@ relationships:
         status: active
         display_name: 王處温
         merged_into_person_id: null
+    - claim:
+        id: c_GEvW8aMCsJhgM9LyNJrhye
+        subject_person_id: p_Ggn2t8z4X4B4wro6LB38G3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ixrhbxQk6QtxPXr5z5DBuT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jENPh4Igp4TasV-7cQfJKK
+          claim_id: c_GEvW8aMCsJhgM9LyNJrhye
+          source_id: s_F78dxwMTHLu6Zf3RSx6MLc
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xiantong 56：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_F78dxwMTHLu6Zf3RSx6MLc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王處謙（CBDB 160573）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160573&o=json
+            external_identifier: CBDB:160573
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.741Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_ixrhbxQk6QtxPXr5z5DBuT
+        status: active
+        display_name: 王處謙
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -456,12 +494,14 @@ relationships:
 | children | p_EwDgLH5GRgdhsBuSp5fGjy | 王處脩 | accepted |
 | children | p_H2DpSRdokD1K9UiqF5tCYj | 王處修 | accepted |
 | children | p_wKNz95PHS2AksD331wu5g4 | 王處温 | accepted |
+| children | p_ixrhbxQk6QtxPXr5z5DBuT | 王處謙 | accepted |
 | ancestors | p_BzEC3FxQZmQshcKpSR8HHx | 王雲 | accepted |
 | ancestors | p_omcnEPxMUJWQetwYnKCLjF | 王炅 | accepted |
 | ancestors | p_PtYEMqNo3Ja6CBRf3JpwLp | 王希儁 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王處謙（CBDB 160573）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160573&o=json)
 - [中国历代人物传记资料库：王處温（CBDB 189913）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=189913&o=json)
 - [中国历代人物传记资料库：王處溫（CBDB 160572）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160572&o=json)
 - [中国历代人物传记资料库：王處修（CBDB 160571）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160571&o=json)
