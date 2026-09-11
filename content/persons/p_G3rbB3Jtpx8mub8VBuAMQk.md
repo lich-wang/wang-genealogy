@@ -4,7 +4,7 @@ id: p_G3rbB3Jtpx8mub8VBuAMQk
 status: active
 merged_into: null
 display_name: 王湧
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_H03zO8JOfUQCyrsHSKUbdh
+        subject_person_id: p_G3rbB3Jtpx8mub8VBuAMQk
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BnqT97Hd2v2PTKqLmsYzS9
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4DI_XbHDJLXrleFLV9FTaO
+          claim_id: c_H03zO8JOfUQCyrsHSKUbdh
+          source_id: s_URVyCCy6STy4F6wXLP1PQE
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第二甲第九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_BnqT97Hd2v2PTKqLmsYzS9
+        status: active
+        display_name: 王鼎爵
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_BnqT97Hd2v2PTKqLmsYzS9 | 王鼎爵 | accepted |
 
 ## 外部来源
 

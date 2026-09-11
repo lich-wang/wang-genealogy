@@ -4,7 +4,7 @@ id: p_fUrkW6ozGrAosrVsTorpqL
 status: active
 merged_into: null
 display_name: 王乾明
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,13 +72,91 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_kgjDd5XDLu5FV2b08Kg8Ub
+        subject_person_id: p_nczT1Bx4gQZPAL8J9oF8s6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fUrkW6ozGrAosrVsTorpqL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4bjLHn9hgyX1FT8Cesz9Or
+          claim_id: c_kgjDd5XDLu5FV2b08Kg8Ub
+          source_id: s_JHhmqNMAL3cz2t6ShErLh5
+          stance: supports
+          locator: (康熙)武功縣續志，lgid=1045709：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_nczT1Bx4gQZPAL8J9oF8s6
+        status: active
+        display_name: 王繼祖
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_l_iZ73O0VYAK77PNrISNrI
+        subject_person_id: p_fUrkW6ozGrAosrVsTorpqL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ip7XEAQBd5SU56FCiqsDGa
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_z0gHzs8S6noLqg1wbZkFev
+          claim_id: c_l_iZ73O0VYAK77PNrISNrI
+          source_id: s_JHhmqNMAL3cz2t6ShErLh5
+          stance: supports
+          locator: (康熙)武功縣續志，lgid=1045709：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ip7XEAQBd5SU56FCiqsDGa
+        status: active
+        display_name: 王受元
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_j2pKYNJVhMheVtCEPHZfj7
+        subject_person_id: p_fUrkW6ozGrAosrVsTorpqL
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_kGhjBDdewAMKtwMDXvy2ts
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_M1yLYXjJfQtydnF9YR14xu
+          claim_id: c_j2pKYNJVhMheVtCEPHZfj7
+          source_id: s_JHhmqNMAL3cz2t6ShErLh5
+          stance: supports
+          locator: (康熙)武功縣續志，lgid=1045709：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_kGhjBDdewAMKtwMDXvy2ts
+        status: active
+        display_name: 王良臣
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_nczT1Bx4gQZPAL8J9oF8s6 | 王繼祖 | accepted |
+| children | p_ip7XEAQBd5SU56FCiqsDGa | 王受元 | accepted |
+| descendants | p_kGhjBDdewAMKtwMDXvy2ts | 王良臣 | accepted |
 
 ## 外部来源
 

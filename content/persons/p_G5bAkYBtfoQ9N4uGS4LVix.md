@@ -4,7 +4,7 @@ id: p_G5bAkYBtfoQ9N4uGS4LVix
 status: active
 merged_into: null
 display_name: 王師虺
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_0loMYaW--NNytpA4GdwvXw
+        subject_person_id: p_w1GiHCCDCJVq4Cbb8yEdBZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_G5bAkYBtfoQ9N4uGS4LVix
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DY9-AzXSsP0WCYiRyDYNxy
+          claim_id: c_0loMYaW--NNytpA4GdwvXw
+          source_id: s_XiMgnmLvFoF7DxfgYU5EHG
+          stance: supports
+          locator: 南陽府志，lgid=878691-878692：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_w1GiHCCDCJVq4Cbb8yEdBZ
+        status: active
+        display_name: 王之政
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_yl8VPahIIay4qFbMvNo6e2
+        subject_person_id: p_G5bAkYBtfoQ9N4uGS4LVix
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_q52dxUKb3GfkLbymTwojMi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-UXimi8aIpgWs_G7xFriLI
+          claim_id: c_yl8VPahIIay4qFbMvNo6e2
+          source_id: s_XiMgnmLvFoF7DxfgYU5EHG
+          stance: supports
+          locator: 南陽府志，lgid=878691-878692：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_q52dxUKb3GfkLbymTwojMi
+        status: active
+        display_name: 王萬齡
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_w1GiHCCDCJVq4Cbb8yEdBZ | 王之政 | accepted |
+| children | p_q52dxUKb3GfkLbymTwojMi | 王萬齡 | accepted |
 
 ## 外部来源
 

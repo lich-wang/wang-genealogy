@@ -4,7 +4,7 @@ id: p_FZChE9r8nB1so1ECYTKrhd
 status: active
 merged_into: null
 display_name: 王覽
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_CvcXO2V94N64BlOON7Ruyt
+        subject_person_id: p_FZChE9r8nB1so1ECYTKrhd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tS3aqzmoihV8cYa7pNW3Dz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8h5hrXkXv4eiIYoNF9qRjP
+          claim_id: c_CvcXO2V94N64BlOON7Ruyt
+          source_id: s_6Ae2d8ejweTRArekCwF7dy
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Baoying3：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_tS3aqzmoihV8cYa7pNW3Dz
+        status: active
+        display_name: 王徽
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_tS3aqzmoihV8cYa7pNW3Dz | 王徽 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_GbYj3F7dkvznndKuLNKMtn
 status: active
 merged_into: null
 display_name: 王士恕
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_AvspID7RdgFMP5VzU4IghG
+        subject_person_id: p_iM1B1oYqK2XseAuiGpcZ7v
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GbYj3F7dkvznndKuLNKMtn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Z1Lg-7wdKM1iPwVex8_g-u
+          claim_id: c_AvspID7RdgFMP5VzU4IghG
+          source_id: s_AULeuwKnm9YY5EYHWpN6u6
+          stance: supports
+          locator: "民國歙縣志: 十六卷，lgid=1163962：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iM1B1oYqK2XseAuiGpcZ7v
+        status: active
+        display_name: 王學健
+        merged_into_person_id: null
   children:
     - claim:
         id: c_W4Zo10xtlTh9rliu8P0l93
@@ -134,6 +160,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_iM1B1oYqK2XseAuiGpcZ7v | 王學健 | accepted |
 | children | p_7DvAV4NZwhgvkYo2NFGPz1 | 王謨 | accepted |
 
 ## 外部来源

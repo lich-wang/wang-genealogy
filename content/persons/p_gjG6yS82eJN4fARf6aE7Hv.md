@@ -4,7 +4,7 @@ id: p_gjG6yS82eJN4fARf6aE7Hv
 status: active
 merged_into: null
 display_name: 王文貴
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_06NWinUPXcWTG09jJRSWPN
+        subject_person_id: p_gjG6yS82eJN4fARf6aE7Hv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6e5ELnuv2E5KGPsNrAysQX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_M2Gt4Mp-UjHKJoqpVBWSxW
+          claim_id: c_06NWinUPXcWTG09jJRSWPN
+          source_id: s_r5QLrookMKsQP56opUdBRr
+          stance: supports
+          locator: 正统七年進士登科錄:一卷，第三甲第三十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_6e5ELnuv2E5KGPsNrAysQX
+        status: active
+        display_name: 王庾
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_6e5ELnuv2E5KGPsNrAysQX | 王庾 | accepted |
 
 ## 外部来源
 

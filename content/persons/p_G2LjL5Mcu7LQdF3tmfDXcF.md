@@ -4,7 +4,7 @@ id: p_G2LjL5Mcu7LQdF3tmfDXcF
 status: active
 merged_into: null
 display_name: 王善慶
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_HdUBYwChXOK4HXKjMq40U6
+        subject_person_id: p_G2LjL5Mcu7LQdF3tmfDXcF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_APgCbU3BBu68y3JhFPX3Tu
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zOAouEtVjCil0C9Y5hUawk
+          claim_id: c_HdUBYwChXOK4HXKjMq40U6
+          source_id: s_dxEp5z37sEXyzefYv8zwqb
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第三甲第十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_APgCbU3BBu68y3JhFPX3Tu
+        status: active
+        display_name: 王進
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_APgCbU3BBu68y3JhFPX3Tu | 王進 | accepted |
 
 ## 外部来源
 

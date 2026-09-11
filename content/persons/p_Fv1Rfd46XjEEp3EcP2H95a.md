@@ -4,7 +4,7 @@ id: p_Fv1Rfd46XjEEp3EcP2H95a
 status: active
 merged_into: null
 display_name: 王澤
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_UUVSYxrbocdVl8J5HrL-96
+        subject_person_id: p_Fv1Rfd46XjEEp3EcP2H95a
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ofDNL1hsFt1v6GYpjecDnr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NS1G8TJR04km2lRMPpJGXo
+          claim_id: c_UUVSYxrbocdVl8J5HrL-96
+          source_id: s_m29UJXvv9nrEKctQLtFMmP
+          stance: supports
+          locator: 弘治十八年進士登科錄:一卷，第三甲第七十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ofDNL1hsFt1v6GYpjecDnr
+        status: active
+        display_name: 王億
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_ofDNL1hsFt1v6GYpjecDnr | 王億 | accepted |
 
 ## 外部来源
 

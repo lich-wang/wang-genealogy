@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王惠子
 cbdb_id: 155091
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_cJmketeWRyd4xU8QIl93l6
+        subject_person_id: p_NTX3canvdCQkwGokWijBE5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fWhHLZZ5pFkeikFbBAN6W2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8ZUsKNFngF5VCRGiTKyqz2
+          claim_id: c_cJmketeWRyd4xU8QIl93l6
+          source_id: s_KdUz2oZj67akVZ6vP7HnZr
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dali 63：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_KdUz2oZj67akVZ6vP7HnZr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王媛（CBDB 141214）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141214&o=json
+            external_identifier: CBDB:141214
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.550Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fWhHLZZ5pFkeikFbBAN6W2
+        status: active
+        display_name: 王媛
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_fWhHLZZ5pFkeikFbBAN6W2 | 王媛 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王惠子（CBDB 155091）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=155091&o=json)
+- [中国历代人物传记资料库：王媛（CBDB 141214）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141214&o=json)

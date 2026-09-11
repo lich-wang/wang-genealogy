@@ -4,7 +4,7 @@ id: p_oZS1XpKQaQAcuLEyVp74rc
 status: active
 merged_into: null
 display_name: 王繻
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -167,11 +167,85 @@ relationships:
         status: active
         display_name: 王沛聞
         merged_into_person_id: null
+    - claim:
+        id: c_aDZGcEbjnRDSSLxxkMBfTZ
+        subject_person_id: p_oZS1XpKQaQAcuLEyVp74rc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GTQf4XP4NvuqCu2E9bL587
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YULugWXnARnPs1yY6-wMHB
+          claim_id: c_aDZGcEbjnRDSSLxxkMBfTZ
+          source_id: s_61UPnbHjSoEaDq97C5f2aS
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13223：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_61UPnbHjSoEaDq97C5f2aS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王即紱（CBDB 527063）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527063&o=json
+            external_identifier: CBDB:527063
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.343Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GTQf4XP4NvuqCu2E9bL587
+        status: active
+        display_name: 王即紱
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_O6DTnroWQccm20sQoTWNzF
+        subject_person_id: p_oZS1XpKQaQAcuLEyVp74rc
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_gu94NySfSZGB2sdYaaiAsL
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OMSabHqaBrz_BcpnIf9Z3U
+          claim_id: c_O6DTnroWQccm20sQoTWNzF
+          source_id: s_4mBGgdNJA9X29a5hgrxtxA
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13223：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4mBGgdNJA9X29a5hgrxtxA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王稢（CBDB 527065）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527065&o=json
+            external_identifier: CBDB:527065
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.344Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_gu94NySfSZGB2sdYaaiAsL
+        status: active
+        display_name: 王稢
+        merged_into_person_id: null
   other: []
 ---
 
@@ -193,8 +267,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_Ei7i85XGXNcdp65hUkmtsM | 王沛聞 | accepted |
+| children | p_GTQf4XP4NvuqCu2E9bL587 | 王即紱 | accepted |
+| descendants | p_gu94NySfSZGB2sdYaaiAsL | 王稢 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王即紱（CBDB 527063）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527063&o=json)
 - [中国历代人物传记资料库：王沛聞（CBDB 527064）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527064&o=json)
 - [中国历代人物传记资料库：王繻（CBDB 71295）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71295&o=json)
+- [中国历代人物传记资料库：王稢（CBDB 527065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527065&o=json)

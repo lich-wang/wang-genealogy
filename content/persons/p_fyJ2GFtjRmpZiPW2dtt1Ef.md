@@ -4,7 +4,7 @@ id: p_fyJ2GFtjRmpZiPW2dtt1Ef
 status: active
 merged_into: null
 display_name: 王延祚
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_L9l3CLcmeOwKq5uRmKqVOy
+        subject_person_id: p_fyJ2GFtjRmpZiPW2dtt1Ef
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UCndMG6JqMJZWH2roHzNuj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OR80Jy4aRx-g_6VYw4tLgV
+          claim_id: c_L9l3CLcmeOwKq5uRmKqVOy
+          source_id: s_Y4mKawnPjr5KiZfPASJtrx
+          stance: supports
+          locator: 紹興府志:八十卷，lgid=316743：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UCndMG6JqMJZWH2roHzNuj
+        status: active
+        display_name: 王令高
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_UCndMG6JqMJZWH2roHzNuj | 王令高 | accepted |
 
 ## 外部来源
 

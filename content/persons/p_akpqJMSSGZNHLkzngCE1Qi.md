@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王子成
 cbdb_id: 200985
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,6 +172,43 @@ relationships:
         status: active
         display_name: 王本
         merged_into_person_id: null
+    - claim:
+        id: c_FFNUq6_q-Vth837BWz-avK
+        subject_person_id: p_FYFV29vLWqWc2g2kXP26Mo
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_akpqJMSSGZNHLkzngCE1Qi
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aDDhcz_6x67_9_eZjVjlXx
+          claim_id: c_FFNUq6_q-Vth837BWz-avK
+          source_id: s_ChEZSY2MgQuwWtZVxi9S3h
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第八十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ChEZSY2MgQuwWtZVxi9S3h
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禎（CBDB 265616）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265616&o=json
+            external_identifier: CBDB:265616
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.692Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_FYFV29vLWqWc2g2kXP26Mo
+        status: active
+        display_name: 王禎
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_CHr9NQtS9eMRbFoCaUAQ6g | 王本 | accepted |
+| ancestors | p_FYFV29vLWqWc2g2kXP26Mo | 王禎 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王本（CBDB 265615）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265615&o=json)
+- [中国历代人物传记资料库：王禎（CBDB 265616）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265616&o=json)
 - [中国历代人物传记资料库：王子成（CBDB 200985）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200985&o=json)

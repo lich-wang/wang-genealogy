@@ -4,7 +4,7 @@ id: p_fVVctU3oARvj93SKk81Eji
 status: active
 merged_into: null
 display_name: 王祐
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Ct7lzsfSOxAbhCecVT7c7W
+        subject_person_id: p_rMH6azHPPfCWNVYvRKv58F
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fVVctU3oARvj93SKk81Eji
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TkW50ZX8vZ1sXKppHEQzWc
+          claim_id: c_Ct7lzsfSOxAbhCecVT7c7W
+          source_id: s_S8PvPikNKeqv9SvZpdTNYm
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第二百一十二名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rMH6azHPPfCWNVYvRKv58F
+        status: active
+        display_name: 王璲
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_ROzlADA7Lc1o3vr6ayYpiF
+        subject_person_id: p_UDVLaDy9kGf4256o9Lw5uU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_fVVctU3oARvj93SKk81Eji
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_s8njGAzb4esZCblz6oR5XL
+          claim_id: c_ROzlADA7Lc1o3vr6ayYpiF
+          source_id: s_S8PvPikNKeqv9SvZpdTNYm
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第二百一十二名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UDVLaDy9kGf4256o9Lw5uU
+        status: active
+        display_name: 王子讓
+        merged_into_person_id: null
+    - claim:
+        id: c_mETJWNw53u7LmcG2ND9lxz
+        subject_person_id: p_GancgNeQ6rSGRzjnYquakL
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_fVVctU3oARvj93SKk81Eji
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gu5aamzsIv-LhEIAX4xV5a
+          claim_id: c_mETJWNw53u7LmcG2ND9lxz
+          source_id: s_S8PvPikNKeqv9SvZpdTNYm
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第二百一十二名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GancgNeQ6rSGRzjnYquakL
+        status: active
+        display_name: 王信
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_rMH6azHPPfCWNVYvRKv58F | 王璲 | accepted |
+| ancestors | p_UDVLaDy9kGf4256o9Lw5uU | 王子讓 | accepted |
+| ancestors | p_GancgNeQ6rSGRzjnYquakL | 王信 | accepted |
 
 ## 外部来源
 

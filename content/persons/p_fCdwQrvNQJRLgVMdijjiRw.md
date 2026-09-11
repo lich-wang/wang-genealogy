@@ -4,7 +4,7 @@ id: p_fCdwQrvNQJRLgVMdijjiRw
 status: active
 merged_into: null
 display_name: 王傅
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_2b2w5_5mEroZacLj3d83HT
+        subject_person_id: p_GikpBfnZtBzAmt6mvRBQ1h
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fCdwQrvNQJRLgVMdijjiRw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i4Ijyq8DMijMiF_eROPWn7
+          claim_id: c_2b2w5_5mEroZacLj3d83HT
+          source_id: s_Ag5FprcK1HJNcW6JCLpLyk
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第八十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Ag5FprcK1HJNcW6JCLpLyk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王縉（CBDB 249470）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249470&o=json
+            external_identifier: CBDB:249470
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.171Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GikpBfnZtBzAmt6mvRBQ1h
+        status: active
+        display_name: 王縉
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +237,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_GikpBfnZtBzAmt6mvRBQ1h | 王縉 | accepted |
 | ancestors | p_3HptA51T1i366pFuDiXhD4 | 王寧 | accepted |
 | ancestors | p_fH3QPxWYwefsNiUYRQKpuS | 王福慶 | accepted |
 
@@ -207,4 +245,5 @@ relationships:
 
 - [中国历代人物传记资料库：王福慶（CBDB 249468）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249468&o=json)
 - [中国历代人物传记资料库：王傅（CBDB 199770）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199770&o=json)
+- [中国历代人物传记资料库：王縉（CBDB 249470）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249470&o=json)
 - [中国历代人物传记资料库：王寧（CBDB 249469）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249469&o=json)

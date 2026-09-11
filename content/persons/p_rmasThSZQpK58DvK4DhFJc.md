@@ -4,7 +4,7 @@ id: p_rmasThSZQpK58DvK4DhFJc
 status: active
 merged_into: null
 display_name: 王凱泰
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -134,7 +134,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_46o24H--Nx5oTuLhRKes4X
+        subject_person_id: p_rmasThSZQpK58DvK4DhFJc
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GTQF6UUH9M3racLE9Sry2w
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xYNVt3vtxw4zaQQogQLpX5
+          claim_id: c_46o24H--Nx5oTuLhRKes4X
+          source_id: s_EtziCV3isxUF8tJ5SCtwcS
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1877：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_EtziCV3isxUF8tJ5SCtwcS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王念曾（CBDB 517417）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=517417&o=json
+            external_identifier: CBDB:517417
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.309Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GTQF6UUH9M3racLE9Sry2w
+        status: active
+        display_name: 王念曾
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_GTQF6UUH9M3racLE9Sry2w | 王念曾 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王凱泰（CBDB 58615）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=58615&o=json)
+- [中国历代人物传记资料库：王念曾（CBDB 517417）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=517417&o=json)

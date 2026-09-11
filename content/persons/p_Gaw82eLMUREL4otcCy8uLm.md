@@ -4,7 +4,7 @@ id: p_Gaw82eLMUREL4otcCy8uLm
 status: active
 merged_into: null
 display_name: 王國華
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_4nAQzTNI0A1CXZVvXHnp7G
+        subject_person_id: p_Gaw82eLMUREL4otcCy8uLm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Gk21g7E82LeFqiSW4yWrxd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GwshBhRQw6aapkbwR7VcRm
+          claim_id: c_4nAQzTNI0A1CXZVvXHnp7G
+          source_id: s_peiEiEziXw9q7UdS1GCKzj
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13034：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Gk21g7E82LeFqiSW4yWrxd
+        status: active
+        display_name: 王臻祜
+        merged_into_person_id: null
+    - claim:
+        id: c_LJgXv3HeKskx_1pFIKeSqm
+        subject_person_id: p_Gaw82eLMUREL4otcCy8uLm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BBoM7iC99VDANEzaPkLVf3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lpgWaL2ZhoGdXMNBzM1tCc
+          claim_id: c_LJgXv3HeKskx_1pFIKeSqm
+          source_id: s_peiEiEziXw9q7UdS1GCKzj
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13034：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_BBoM7iC99VDANEzaPkLVf3
+        status: active
+        display_name: 王臻祿
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_Gk21g7E82LeFqiSW4yWrxd | 王臻祜 | accepted |
+| children | p_BBoM7iC99VDANEzaPkLVf3 | 王臻祿 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_gu94NySfSZGB2sdYaaiAsL
 status: active
 merged_into: null
 display_name: 王稢
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_O6DTnroWQccm20sQoTWNzF
+        subject_person_id: p_oZS1XpKQaQAcuLEyVp74rc
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_gu94NySfSZGB2sdYaaiAsL
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OMSabHqaBrz_BcpnIf9Z3U
+          claim_id: c_O6DTnroWQccm20sQoTWNzF
+          source_id: s_4mBGgdNJA9X29a5hgrxtxA
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13223：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oZS1XpKQaQAcuLEyVp74rc
+        status: active
+        display_name: 王繻
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_oZS1XpKQaQAcuLEyVp74rc | 王繻 | accepted |
 
 ## 外部来源
 

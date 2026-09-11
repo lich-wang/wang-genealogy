@@ -4,7 +4,7 @@ id: p_UCndMG6JqMJZWH2roHzNuj
 status: active
 merged_into: null
 display_name: 王令高
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_L9l3CLcmeOwKq5uRmKqVOy
+        subject_person_id: p_fyJ2GFtjRmpZiPW2dtt1Ef
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UCndMG6JqMJZWH2roHzNuj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OR80Jy4aRx-g_6VYw4tLgV
+          claim_id: c_L9l3CLcmeOwKq5uRmKqVOy
+          source_id: s_Y4mKawnPjr5KiZfPASJtrx
+          stance: supports
+          locator: 紹興府志:八十卷，lgid=316743：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Y4mKawnPjr5KiZfPASJtrx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王延祚（CBDB 563625）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=563625&o=json
+            external_identifier: CBDB:563625
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.803Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fyJ2GFtjRmpZiPW2dtt1Ef
+        status: active
+        display_name: 王延祚
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_fyJ2GFtjRmpZiPW2dtt1Ef | 王延祚 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王令高（CBDB 563627）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=563627&o=json)
+- [中国历代人物传记资料库：王延祚（CBDB 563625）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=563625&o=json)

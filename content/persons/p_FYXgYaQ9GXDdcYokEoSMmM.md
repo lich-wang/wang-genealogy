@@ -4,7 +4,7 @@ id: p_FYXgYaQ9GXDdcYokEoSMmM
 status: active
 merged_into: null
 display_name: 王懌
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c__YkaHZZXsNNLU6xMji78XP
+        subject_person_id: p_W8E9H72h3otQNNGaDnB1FU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FYXgYaQ9GXDdcYokEoSMmM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lmKZbyZTUSw6ZgGq9_ErEY
+          claim_id: c__YkaHZZXsNNLU6xMji78XP
+          source_id: s_HTLpbRNSdRTcZ8kRtdpvKR
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Jinglong 28：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_W8E9H72h3otQNNGaDnB1FU
+        status: active
+        display_name: 王景之
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_W8E9H72h3otQNNGaDnB1FU | 王景之 | accepted |
 
 ## 外部来源
 

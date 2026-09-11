@@ -4,7 +4,7 @@ id: p_gTWvcwTJduGYjH4AFByofy
 status: active
 merged_into: null
 display_name: 王大臨
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_e6HWkw8hiL-tUz_AiHiBg7
+        subject_person_id: p_qaNbPxVseZmSQDL1Q2zNGZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gTWvcwTJduGYjH4AFByofy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ig3cKbDws4ZcsOoZVbKrwf
+          claim_id: c_e6HWkw8hiL-tUz_AiHiBg7
+          source_id: s_J7bwYGL5fzMeeZ819EQEHt
+          stance: supports
+          locator: 司馬文正公集，鄆州處士王君墓誌：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qaNbPxVseZmSQDL1Q2zNGZ
+        status: active
+        display_name: 王惟德
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qaNbPxVseZmSQDL1Q2zNGZ | 王惟德 | accepted |
 
 ## 外部来源
 

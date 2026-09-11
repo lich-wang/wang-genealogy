@@ -4,7 +4,7 @@ id: p_GwTmgLY74DWW5r4UnQF1Tu
 status: active
 merged_into: null
 display_name: 王椿
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_rNMULWMLUdYYr96kuNgGXg
+        subject_person_id: p_GwTmgLY74DWW5r4UnQF1Tu
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DPKdYaX4f6yTudovTApGHk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_augqa2_Z9evQG76oFd6ukJ
+          claim_id: c_rNMULWMLUdYYr96kuNgGXg
+          source_id: s_1f3EAHBiKAnHLbBzA8oASC
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第三甲第九十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DPKdYaX4f6yTudovTApGHk
+        status: active
+        display_name: 王喬齡
+        merged_into_person_id: null
+    - claim:
+        id: c_lumCVja-SvP5l7nRYk6E7P
+        subject_person_id: p_GwTmgLY74DWW5r4UnQF1Tu
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JE4JHCNRPza84DMSHaNQDc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__P2siUJJSBGG6rZI7jYGhE
+          claim_id: c_lumCVja-SvP5l7nRYk6E7P
+          source_id: s_1f3EAHBiKAnHLbBzA8oASC
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第三甲第一百二十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_JE4JHCNRPza84DMSHaNQDc
+        status: active
+        display_name: 王嵩
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_DPKdYaX4f6yTudovTApGHk | 王喬齡 | accepted |
+| children | p_JE4JHCNRPza84DMSHaNQDc | 王嵩 | accepted |
 
 ## 外部来源
 

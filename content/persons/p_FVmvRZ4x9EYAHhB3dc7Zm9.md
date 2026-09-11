@@ -4,7 +4,7 @@ id: p_FVmvRZ4x9EYAHhB3dc7Zm9
 status: active
 merged_into: null
 display_name: 王琮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_8k1bHy8OFuAikysSnmmsIb
+        subject_person_id: p_FVmvRZ4x9EYAHhB3dc7Zm9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_U9mkTVdbhdN8j3G86uAN6S
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qPFps2S3f86HHmL6WCJGYi
+          claim_id: c_8k1bHy8OFuAikysSnmmsIb
+          source_id: s_on3QBKqvaZtwchShkFLuxV
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第三甲第五十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_U9mkTVdbhdN8j3G86uAN6S
+        status: active
+        display_name: 王注
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_U9mkTVdbhdN8j3G86uAN6S | 王注 | accepted |
 
 ## 外部来源
 

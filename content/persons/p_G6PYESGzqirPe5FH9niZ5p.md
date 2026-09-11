@@ -4,7 +4,7 @@ id: p_G6PYESGzqirPe5FH9niZ5p
 status: active
 merged_into: null
 display_name: 王紹蘭
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -167,10 +167,114 @@ relationships:
         status: active
         display_name: 王元壽
         merged_into_person_id: null
+    - claim:
+        id: c_fOXBUrruy4Y7QGTZrnh6Jx
+        subject_person_id: p_G6PYESGzqirPe5FH9niZ5p
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4B5QMcq2Y83FoMSTbED9sW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wyw1kR3LBABxhSAUp41eiI
+          claim_id: c_fOXBUrruy4Y7QGTZrnh6Jx
+          source_id: s_VmDd9gpgvggHDcDRBnjxwH
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），400：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_4B5QMcq2Y83FoMSTbED9sW
+        status: active
+        display_name: 王曼壽
+        merged_into_person_id: null
+    - claim:
+        id: c_JVStwuxfuj-le8HZoJNxvl
+        subject_person_id: p_G6PYESGzqirPe5FH9niZ5p
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Drh59w2y6cSNGxnyCG6A7S
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ITKmGl6QMBWVxJSKAZIk6v
+          claim_id: c_JVStwuxfuj-le8HZoJNxvl
+          source_id: s_VmDd9gpgvggHDcDRBnjxwH
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），400：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Drh59w2y6cSNGxnyCG6A7S
+        status: active
+        display_name: 王善壽
+        merged_into_person_id: null
+    - claim:
+        id: c_kADEc3HJu3A4mg5-IcM35M
+        subject_person_id: p_G6PYESGzqirPe5FH9niZ5p
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NRx3VSv8tLS5byyexe8Ae2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6fI4G0KdLyes6l8IvZthrI
+          claim_id: c_kADEc3HJu3A4mg5-IcM35M
+          source_id: s_VmDd9gpgvggHDcDRBnjxwH
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），400：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NRx3VSv8tLS5byyexe8Ae2
+        status: active
+        display_name: 王祿壽
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_yqkuh0v_u2-h_xhFkMViG9
+        subject_person_id: p_VJq1eurAtK23HqYQ6LZi1X
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_G6PYESGzqirPe5FH9niZ5p
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Gru89B-OWH6oWutRCZQlSs
+          claim_id: c_yqkuh0v_u2-h_xhFkMViG9
+          source_id: s_VmDd9gpgvggHDcDRBnjxwH
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），400：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_VJq1eurAtK23HqYQ6LZi1X
+        status: active
+        display_name: 王國和
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_1U01KNjl36F7LKhVYKyij7
@@ -230,6 +334,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_3EBS8HbhM3rQ4WGjjbGBpH | 王元壽 | accepted |
+| children | p_4B5QMcq2Y83FoMSTbED9sW | 王曼壽 | accepted |
+| children | p_Drh59w2y6cSNGxnyCG6A7S | 王善壽 | accepted |
+| children | p_NRx3VSv8tLS5byyexe8Ae2 | 王祿壽 | accepted |
+| ancestors | p_VJq1eurAtK23HqYQ6LZi1X | 王國和 | accepted |
 | descendants | p_CFXiDtDUgjcDDfBsUe3LVg | 王希范 | accepted |
 
 ## 外部来源

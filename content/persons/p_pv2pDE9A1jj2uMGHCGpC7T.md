@@ -4,7 +4,7 @@ id: p_pv2pDE9A1jj2uMGHCGpC7T
 status: active
 merged_into: null
 display_name: 王廷
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -138,6 +138,43 @@ relationships:
         id: p_56nMpgobEseCZRMmEFRumw
         status: active
         display_name: 王續之
+        merged_into_person_id: null
+    - claim:
+        id: c_vPfTpQQ8naXBUC-ckCgnQ7
+        subject_person_id: p_pv2pDE9A1jj2uMGHCGpC7T
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Gq24SpR1JwxAtM1Y4bPKFh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EHCRiX6TkizL4An2OuSayK
+          claim_id: c_vPfTpQQ8naXBUC-ckCgnQ7
+          source_id: s_cSaQKEBPtqnM6TA1H5wCvx
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第二甲第八名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_cSaQKEBPtqnM6TA1H5wCvx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繼之（CBDB 290828）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290828&o=json
+            external_identifier: CBDB:290828
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.352Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Gq24SpR1JwxAtM1Y4bPKFh
+        status: active
+        display_name: 王繼之
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
@@ -275,6 +312,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_56nMpgobEseCZRMmEFRumw | 王續之 | accepted |
+| children | p_Gq24SpR1JwxAtM1Y4bPKFh | 王繼之 | accepted |
 | ancestors | p_6AWFkDwvMEx3gmWMnZMPwe | 王昺 | accepted |
 | descendants | p_8WqY814yTSDVKdHuN73Emp | 王兆麟 | accepted |
 | descendants | p_AekZyQ7TS4wN6cVKAwRb86 | 王兆龍 | accepted |
@@ -282,6 +320,7 @@ relationships:
 ## 外部来源
 
 - [中国历代人物传记资料库：王昺（CBDB 209880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209880&o=json)
+- [中国历代人物传记资料库：王繼之（CBDB 290828）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290828&o=json)
 - [中国历代人物传记资料库：王廷（CBDB 69148）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69148&o=json)
 - [中国历代人物传记资料库：王續之（CBDB 290827）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290827&o=json)
 - [中国历代人物传记资料库：王兆麟（CBDB 290832）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290832&o=json)

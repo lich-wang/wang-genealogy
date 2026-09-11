@@ -4,7 +4,7 @@ id: p_gPxjSLrcRkcbqzAo1NC5Gm
 status: active
 merged_into: null
 display_name: 王仲禮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_bIonGj3XaZeBCxQXA4alDO
+        subject_person_id: p_gPxjSLrcRkcbqzAo1NC5Gm
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_V4FwK3zU4QEPhCKRyGhfXG
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AiSvGdI1QQQ8bKO9sH9eqQ
+          claim_id: c_bIonGj3XaZeBCxQXA4alDO
+          source_id: s_hqFGY2fJ5wJvMKrbNNz7EJ
+          stance: supports
+          locator: 成化五年進士登科錄:一卷，第三甲第一百六十一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_V4FwK3zU4QEPhCKRyGhfXG
+        status: active
+        display_name: 王問
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_V4FwK3zU4QEPhCKRyGhfXG | 王問 | accepted |
 
 ## 外部来源
 

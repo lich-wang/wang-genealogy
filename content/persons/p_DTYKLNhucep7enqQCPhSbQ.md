@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王安武
 cbdb_id: 250567
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_HM4viCxUP248uvCVFrsk2w
+        subject_person_id: p_DTYKLNhucep7enqQCPhSbQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GGm15a95bmjM4yFUpB9QGR
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qhQ3nTBXlKg6-6ywltqkhx
+          claim_id: c_HM4viCxUP248uvCVFrsk2w
+          source_id: s_ZFRacVdsrHF9g9mvSJ3aS2
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第一百九十名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZFRacVdsrHF9g9mvSJ3aS2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王儼（CBDB 338703）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338703&o=json
+            external_identifier: CBDB:338703
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.561Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GGm15a95bmjM4yFUpB9QGR
+        status: active
+        display_name: 王儼
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_GGm15a95bmjM4yFUpB9QGR | 王儼 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王安武（CBDB 250567）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250567&o=json)
+- [中国历代人物传记资料库：王儼（CBDB 338703）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338703&o=json)

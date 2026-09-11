@@ -4,7 +4,7 @@ id: p_tJ4a7bRMV9hCP3y348uRJE
 status: active
 merged_into: null
 display_name: 王學顏
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -170,7 +170,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_xfC52MvVXjk3kk0khAe5bR
+        subject_person_id: p_GQt4Zp1x7qHbgJ6UWwdZ1E
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_tJ4a7bRMV9hCP3y348uRJE
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CYkt4TBGiHWBkeo2PiaHYd
+          claim_id: c_xfC52MvVXjk3kk0khAe5bR
+          source_id: s_bL6RCjyZJ1aEjHd9x7BAQP
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第二甲第五十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_bL6RCjyZJ1aEjHd9x7BAQP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王琦（CBDB 315442）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315442&o=json
+            external_identifier: CBDB:315442
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.945Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GQt4Zp1x7qHbgJ6UWwdZ1E
+        status: active
+        display_name: 王琦
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_6U2hKWNf3zvZ6acQ4hYSRb | 王相 | accepted |
+| ancestors | p_GQt4Zp1x7qHbgJ6UWwdZ1E | 王琦 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王琦（CBDB 315442）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315442&o=json)
 - [中国历代人物传记资料库：王相（CBDB 315443）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315443&o=json)
 - [中国历代人物传记资料库：王學顏（CBDB 126840）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126840&o=json)

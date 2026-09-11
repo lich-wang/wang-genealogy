@@ -4,7 +4,7 @@ id: p_TTntK269568eA9RALQmA43
 status: active
 merged_into: null
 display_name: 王納言
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -153,6 +153,43 @@ relationships:
         status: active
         display_name: 王嗣祖
         merged_into_person_id: null
+    - claim:
+        id: c_oAxusOpjwzl-lWPxJY0U-1
+        subject_person_id: p_TTntK269568eA9RALQmA43
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_gT8Y6oM2Xv4kiuH3CHGLND
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HXRLp8Qq1BucnggJsdyeoz
+          claim_id: c_oAxusOpjwzl-lWPxJY0U-1
+          source_id: s_Dr52erix2DMGC8vWV9VsED
+          stance: supports
+          locator: (乾隆)信陽州志，lgid=868515：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Dr52erix2DMGC8vWV9VsED
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鳳徵（CBDB 557421）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=557421&o=json
+            external_identifier: CBDB:557421
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.539Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_gT8Y6oM2Xv4kiuH3CHGLND
+        status: active
+        display_name: 王鳳徵
+        merged_into_person_id: null
   other: []
 ---
 
@@ -173,9 +210,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_enQPN3zVXFi7qM1WJLyJty | 王汝楫 | accepted |
 | descendants | p_1D9UJ3qbxhZuhm9688Gxjt | 王嗣祖 | accepted |
+| descendants | p_gT8Y6oM2Xv4kiuH3CHGLND | 王鳳徵 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鳳徵（CBDB 557421）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=557421&o=json)
 - [中国历代人物传记资料库：王納言（CBDB 68459）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68459&o=json)
 - [中国历代人物传记资料库：王汝楫（CBDB 288211）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288211&o=json)
 - [中国历代人物传记资料库：王嗣祖（CBDB 557424）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=557424&o=json)

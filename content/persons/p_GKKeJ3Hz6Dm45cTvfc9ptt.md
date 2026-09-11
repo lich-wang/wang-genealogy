@@ -4,7 +4,7 @@ id: p_GKKeJ3Hz6Dm45cTvfc9ptt
 status: active
 merged_into: null
 display_name: 王復
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_x175yBnm7A0YywdiJAjk60
+        subject_person_id: p_GKKeJ3Hz6Dm45cTvfc9ptt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JPAuYuPPYN5hwLqZJ733sk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6kD_zVrErPRMZqk2o25469
+          claim_id: c_x175yBnm7A0YywdiJAjk60
+          source_id: s_fKn8zMxfBXwKqqvfYJVsjF
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，862：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_JPAuYuPPYN5hwLqZJ733sk
+        status: active
+        display_name: 王倚
+        merged_into_person_id: null
+    - claim:
+        id: c_lBs-bx1O3MrIoTldc9ZQ6a
+        subject_person_id: p_GKKeJ3Hz6Dm45cTvfc9ptt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_SMiAvgSpNwHN36jCW4VNzh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LVMHm-wJ7lo_IaqRfN1cYH
+          claim_id: c_lBs-bx1O3MrIoTldc9ZQ6a
+          source_id: s_fKn8zMxfBXwKqqvfYJVsjF
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，723：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_SMiAvgSpNwHN36jCW4VNzh
+        status: active
+        display_name: 王佾
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_JPAuYuPPYN5hwLqZJ733sk | 王倚 | accepted |
+| children | p_SMiAvgSpNwHN36jCW4VNzh | 王佾 | accepted |
 
 ## 外部来源
 

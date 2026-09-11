@@ -4,7 +4,7 @@ id: p_GKQhdXFztLtPL7bohPvpcw
 status: active
 merged_into: null
 display_name: 王猛
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -139,6 +139,69 @@ relationships:
         status: active
         display_name: 王纊
         merged_into_person_id: null
+    - claim:
+        id: c_98q4Yjufpd99xkFsxt20De
+        subject_person_id: p_GKQhdXFztLtPL7bohPvpcw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Ge7FEkGdRYL2w8reRpexBN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1RWFprHnqiJyuAntW8SB00
+          claim_id: c_98q4Yjufpd99xkFsxt20De
+          source_id: s_eFXLCWnjE1pmP89LGYRHj2
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_eFXLCWnjE1pmP89LGYRHj2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繕（CBDB 175663）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175663&o=json
+            external_identifier: CBDB:175663
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.049Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Ge7FEkGdRYL2w8reRpexBN
+        status: active
+        display_name: 王繕
+        merged_into_person_id: null
+    - claim:
+        id: c_u0LFAwSk2Qcr3DNvo6biR6
+        subject_person_id: p_GKQhdXFztLtPL7bohPvpcw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oVGxgeqgB52Zexa9NQq2Wt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jqGKAZaZ89pR0C8Z5M6tii
+          claim_id: c_u0LFAwSk2Qcr3DNvo6biR6
+          source_id: s_hjv4vhKBr5cWXCtBcBEfSR
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oVGxgeqgB52Zexa9NQq2Wt
+        status: active
+        display_name: 王續
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -164,8 +227,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_bKjdjLf8x3GHpbMR6Z5dP8 | 王纊 | accepted |
+| children | p_Ge7FEkGdRYL2w8reRpexBN | 王繕 | accepted |
+| children | p_oVGxgeqgB52Zexa9NQq2Wt | 王續 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王纊（CBDB 175664）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175664&o=json)
 - [中国历代人物传记资料库：王猛（CBDB 175662）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175662&o=json)
+- [中国历代人物传记资料库：王繕（CBDB 175663）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175663&o=json)

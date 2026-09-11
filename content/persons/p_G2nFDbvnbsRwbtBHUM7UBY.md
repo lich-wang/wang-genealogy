@@ -4,7 +4,7 @@ id: p_G2nFDbvnbsRwbtBHUM7UBY
 status: active
 merged_into: null
 display_name: 王永昌
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_3oOaVa-EBf6gaMYttbh0nf
+        subject_person_id: p_g1Zwm5njGBgG9tiNz4CK8m
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_G2nFDbvnbsRwbtBHUM7UBY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_36Wb3W1PUbhY8hQNhMIMij
+          claim_id: c_3oOaVa-EBf6gaMYttbh0nf
+          source_id: s_5X9rvCY3C5oEeiEJxBUPxN
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1477：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_g1Zwm5njGBgG9tiNz4CK8m
+        status: active
+        display_name: 王全斌
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_g1Zwm5njGBgG9tiNz4CK8m | 王全斌 | accepted |
 
 ## 外部来源
 

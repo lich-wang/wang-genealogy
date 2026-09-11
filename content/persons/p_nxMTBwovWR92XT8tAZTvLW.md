@@ -4,7 +4,7 @@ id: p_nxMTBwovWR92XT8tAZTvLW
 status: active
 merged_into: null
 display_name: 王學謨
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_yzVnCLXofS3x9fd_WbBrK4
+        subject_person_id: p_fVWCspCFwJnj5sBz8z7Ce4
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_nxMTBwovWR92XT8tAZTvLW
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Fzi5FYdhnOfb_YeAr4qE17
+          claim_id: c_yzVnCLXofS3x9fd_WbBrK4
+          source_id: s_bdDMZnsa3QCFaPp5z4CC18
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第二十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_bdDMZnsa3QCFaPp5z4CC18
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文美（CBDB 316254）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316254&o=json
+            external_identifier: CBDB:316254
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.959Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fVWCspCFwJnj5sBz8z7Ce4
+        status: active
+        display_name: 王文美
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_CTanKyckA8Emf57Dk1Jm7o | 王世卿 | accepted |
+| ancestors | p_fVWCspCFwJnj5sBz8z7Ce4 | 王文美 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王世卿（CBDB 316256）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316256&o=json)
+- [中国历代人物传记资料库：王文美（CBDB 316254）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316254&o=json)
 - [中国历代人物传记资料库：王學謨（CBDB 204228）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204228&o=json)

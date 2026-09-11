@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王慶甲
 cbdb_id: 514239
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_0rNBg8Ey0WXBxvWE-EIz5A
+        subject_person_id: p_fYhPRV6epSdj5Hnzj57TC6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EzTbdBF4wZFdPB4edMAPSF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vrKeNKG0OQ0hIqaFHf3v2O
+          claim_id: c_0rNBg8Ey0WXBxvWE-EIz5A
+          source_id: s_4j2jjxfAtAgmNjeAv2sgPb
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），340：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4j2jjxfAtAgmNjeAv2sgPb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文韶（CBDB 57121）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=57121&o=json
+            external_identifier: CBDB:57121
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.783Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fYhPRV6epSdj5Hnzj57TC6
+        status: active
+        display_name: 王文韶
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_fYhPRV6epSdj5Hnzj57TC6 | 王文韶 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王慶甲（CBDB 514239）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=514239&o=json)
+- [中国历代人物传记资料库：王文韶（CBDB 57121）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=57121&o=json)

@@ -4,7 +4,7 @@ id: p_G5XZTGp3A73cVnQtTBjVpP
 status: active
 merged_into: null
 display_name: 王惠
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_LKwr48l7Dj1r0tp4SUs2Ji
+        subject_person_id: p_usDVSVNMMLPKsMgjFH23fr
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_G5XZTGp3A73cVnQtTBjVpP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hw3WlzqL-95atsBZckh6Dh
+          claim_id: c_LKwr48l7Dj1r0tp4SUs2Ji
+          source_id: s_6jJLMtLSb4tXGkEeUMvKMT
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yonghui 142：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_usDVSVNMMLPKsMgjFH23fr
+        status: active
+        display_name: 王理
+        merged_into_person_id: null
   children:
     - claim:
         id: c_rkq_lxbs8MoN4-HXXjN34x
@@ -192,6 +218,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_usDVSVNMMLPKsMgjFH23fr | 王理 | accepted |
 | children | p_3JiD5GQ2YjC1XsC5DCH9YN | 王文合 | accepted |
 
 ## 外部来源

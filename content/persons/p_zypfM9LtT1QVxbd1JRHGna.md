@@ -4,7 +4,7 @@ id: p_zypfM9LtT1QVxbd1JRHGna
 status: active
 merged_into: null
 display_name: 王一麟
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_NNJAy7N3lKHsWBc0xr6nsx
+        subject_person_id: p_gFc3Rf5a5Mfq6rFLvqYhTf
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_zypfM9LtT1QVxbd1JRHGna
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AEglvMng1o1BSgJYphW7X_
+          claim_id: c_NNJAy7N3lKHsWBc0xr6nsx
+          source_id: s_j2mCVcTRwCEH9QUBwGURvp
+          stance: supports
+          locator: 弘治十八年進士登科錄:一卷，第三甲第三十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_j2mCVcTRwCEH9QUBwGURvp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王真（CBDB 274036）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274036&o=json
+            external_identifier: CBDB:274036
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.915Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_gFc3Rf5a5Mfq6rFLvqYhTf
+        status: active
+        display_name: 王真
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_dPbUUoQEGcRs5zuUF67Td8 | 王坤 | accepted |
+| ancestors | p_gFc3Rf5a5Mfq6rFLvqYhTf | 王真 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王坤（CBDB 274038）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274038&o=json)
 - [中国历代人物传记资料库：王一麟（CBDB 201540）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201540&o=json)
+- [中国历代人物传记资料库：王真（CBDB 274036）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274036&o=json)

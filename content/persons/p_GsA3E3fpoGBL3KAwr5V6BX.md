@@ -4,7 +4,7 @@ id: p_GsA3E3fpoGBL3KAwr5V6BX
 status: active
 merged_into: null
 display_name: 王德玄
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c__WeHPg-dQ65PKJaTuMTbyN
+        subject_person_id: p_MAVU5hCjLKU7MKmUEk81nj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GsA3E3fpoGBL3KAwr5V6BX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xsBrTxevI8LePpkzDmT9iy
+          claim_id: c__WeHPg-dQ65PKJaTuMTbyN
+          source_id: s_VkcHAaT9EifPMtdS3BV6Gf
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MAVU5hCjLKU7MKmUEk81nj
+        status: active
+        display_name: 王長諧
+        merged_into_person_id: null
   children:
     - claim:
         id: c_0FiH5s0NFkgQzFXnCeCd0J
@@ -139,6 +165,32 @@ relationships:
         status: active
         display_name: 王九功
         merged_into_person_id: null
+    - claim:
+        id: c_6UqpttX37a--Mp8TLIuOUd
+        subject_person_id: p_GsA3E3fpoGBL3KAwr5V6BX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MnLrRdX6rf9t5n4XUDABDF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_m3qiT-fUxQKDigHcZXTtas
+          claim_id: c_6UqpttX37a--Mp8TLIuOUd
+          source_id: s_VkcHAaT9EifPMtdS3BV6Gf
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MnLrRdX6rf9t5n4XUDABDF
+        status: active
+        display_name: 王九言
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -163,7 +215,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_MAVU5hCjLKU7MKmUEk81nj | 王長諧 | accepted |
 | children | p_121ZuM6cn6h5tFBRPmBPBT | 王九功 | accepted |
+| children | p_MnLrRdX6rf9t5n4XUDABDF | 王九言 | accepted |
 
 ## 外部来源
 

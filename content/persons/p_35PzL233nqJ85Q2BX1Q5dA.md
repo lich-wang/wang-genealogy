@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王良柱
 cbdb_id: 202803
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -245,7 +245,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_dvlqxIO10dsowdwxGcmuv1
+        subject_person_id: p_gVSd52s65yGFeVvBTqbk7q
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_35PzL233nqJ85Q2BX1Q5dA
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KCMM0JK8ARoZE6BkmqUDt2
+          claim_id: c_dvlqxIO10dsowdwxGcmuv1
+          source_id: s_Eg5KZTbBEajUmLESaQuXxm
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第二百一十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Eg5KZTbBEajUmLESaQuXxm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王錞（CBDB 294711）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294711&o=json
+            external_identifier: CBDB:294711
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.472Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_gVSd52s65yGFeVvBTqbk7q
+        status: active
+        display_name: 王錞
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -269,9 +306,11 @@ relationships:
 | parents | p_9nEN1wcMurxxo4Z5YaVJEh | 王海 | accepted |
 | children | p_25bxYkxDg88jPw2BmTPRrX | 王列 | accepted |
 | children | p_4GriEgrqEP5KnKX7db7riC | 王點 | accepted |
+| ancestors | p_gVSd52s65yGFeVvBTqbk7q | 王錞 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王錞（CBDB 294711）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294711&o=json)
 - [中国历代人物传记资料库：王點（CBDB 294719）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294719&o=json)
 - [中国历代人物传记资料库：王海（CBDB 294712）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294712&o=json)
 - [中国历代人物传记资料库：王良柱（CBDB 202803）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202803&o=json)

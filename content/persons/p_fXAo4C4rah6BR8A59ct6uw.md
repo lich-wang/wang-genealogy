@@ -4,7 +4,7 @@ id: p_fXAo4C4rah6BR8A59ct6uw
 status: active
 merged_into: null
 display_name: 王思敬
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_QUycQUcJAxoU1COF3t7PmX
+        subject_person_id: p_fXAo4C4rah6BR8A59ct6uw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KUL8xKz6PcvKPz11ae96H5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TA4YXPf47F6tO0W47J5UfP
+          claim_id: c_QUycQUcJAxoU1COF3t7PmX
+          source_id: s_bBYtmFKbGLFH3h7Z1B1QHH
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_KUL8xKz6PcvKPz11ae96H5
+        status: active
+        display_name: 王難得
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_KUL8xKz6PcvKPz11ae96H5 | 王難得 | accepted |
 
 ## 外部来源
 

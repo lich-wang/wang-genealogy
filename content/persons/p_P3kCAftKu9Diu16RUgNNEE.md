@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王伯儲
 cbdb_id: 254945
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_oxcM1wnOIJhaCNXDXADDoG
+        subject_person_id: p_P3kCAftKu9Diu16RUgNNEE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_G8UB9fUGo95gK5v77Cu4Q6
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XVJ_ph-TANuD3LgqejQ1qe
+          claim_id: c_oxcM1wnOIJhaCNXDXADDoG
+          source_id: s_D8dDpacficMiYsJ44XxbBo
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第二甲第二十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_D8dDpacficMiYsJ44XxbBo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王機（CBDB 200214）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200214&o=json
+            external_identifier: CBDB:200214
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.595Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_G8UB9fUGo95gK5v77Cu4Q6
+        status: active
+        display_name: 王機
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_G8UB9fUGo95gK5v77Cu4Q6 | 王機 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王伯儲（CBDB 254945）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254945&o=json)
+- [中国历代人物传记资料库：王機（CBDB 200214）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200214&o=json)

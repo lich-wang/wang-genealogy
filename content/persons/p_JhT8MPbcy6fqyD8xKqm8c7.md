@@ -4,7 +4,7 @@ id: p_JhT8MPbcy6fqyD8xKqm8c7
 status: active
 merged_into: null
 display_name: 王奎
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_dan2qIG0WGgQnvIwCy01dY
+        subject_person_id: p_g8XCS3Mm7vNB6WdvCP6osQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_JhT8MPbcy6fqyD8xKqm8c7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_O6vmWvjdRx8zz48wQD64E8
+          claim_id: c_dan2qIG0WGgQnvIwCy01dY
+          source_id: s_jgPEMzVCRc2jSi7A5DKaxN
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_jgPEMzVCRc2jSi7A5DKaxN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王思惠（CBDB 261840）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261840&o=json
+            external_identifier: CBDB:261840
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.562Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_g8XCS3Mm7vNB6WdvCP6osQ
+        status: active
+        display_name: 王思惠
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_g8XCS3Mm7vNB6WdvCP6osQ | 王思惠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王奎（CBDB 200714）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200714&o=json)
+- [中国历代人物传记资料库：王思惠（CBDB 261840）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261840&o=json)

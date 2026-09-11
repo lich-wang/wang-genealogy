@@ -4,7 +4,7 @@ id: p_gWeQqYSDEj93QiAPCoQxmK
 status: active
 merged_into: null
 display_name: 王予彰
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,11 +73,89 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_VMWscnMHNDKv9SjyFhz1vv
+        subject_person_id: p_gWeQqYSDEj93QiAPCoQxmK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GrUu3zghDRVSzoU1NxbQux
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ux_bxbLtqMZ-_7p39mYktP
+          claim_id: c_VMWscnMHNDKv9SjyFhz1vv
+          source_id: s_4cM4ZihPu3KAUqfAFWA7ZV
+          stance: supports
+          locator: 鄞縣志，lgid=243606：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GrUu3zghDRVSzoU1NxbQux
+        status: active
+        display_name: 王宗耀
+        merged_into_person_id: null
+    - claim:
+        id: c_A4Uk0zxBzcYUs1pVIaj6vo
+        subject_person_id: p_gWeQqYSDEj93QiAPCoQxmK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rDsy8HY5TyxvyKG8WgSE65
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NInHMX7EAVx4K-bfej0KO8
+          claim_id: c_A4Uk0zxBzcYUs1pVIaj6vo
+          source_id: s_4cM4ZihPu3KAUqfAFWA7ZV
+          stance: supports
+          locator: 鄞縣志，lgid=243606：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rDsy8HY5TyxvyKG8WgSE65
+        status: active
+        display_name: 王宗植
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c__Tk3h7DaKgIe3gNzzsnM2O
+        subject_person_id: p_ixapZhQmmSDAS1angZKZYU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_gWeQqYSDEj93QiAPCoQxmK
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_l1PzeYoqAx3SYarwBA9o0m
+          claim_id: c__Tk3h7DaKgIe3gNzzsnM2O
+          source_id: s_4cM4ZihPu3KAUqfAFWA7ZV
+          stance: supports
+          locator: 鄞縣志，lgid=243606：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ixapZhQmmSDAS1angZKZYU
+        status: active
+        display_name: 王士霖
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_GrUu3zghDRVSzoU1NxbQux | 王宗耀 | accepted |
+| children | p_rDsy8HY5TyxvyKG8WgSE65 | 王宗植 | accepted |
+| ancestors | p_ixapZhQmmSDAS1angZKZYU | 王士霖 | accepted |
 
 ## 外部来源
 

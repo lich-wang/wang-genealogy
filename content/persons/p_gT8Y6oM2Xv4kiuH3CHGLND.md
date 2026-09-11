@@ -4,7 +4,7 @@ id: p_gT8Y6oM2Xv4kiuH3CHGLND
 status: active
 merged_into: null
 display_name: 王鳳徵
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -114,7 +114,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_oAxusOpjwzl-lWPxJY0U-1
+        subject_person_id: p_TTntK269568eA9RALQmA43
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_gT8Y6oM2Xv4kiuH3CHGLND
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HXRLp8Qq1BucnggJsdyeoz
+          claim_id: c_oAxusOpjwzl-lWPxJY0U-1
+          source_id: s_Dr52erix2DMGC8vWV9VsED
+          stance: supports
+          locator: (乾隆)信陽州志，lgid=868515：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_TTntK269568eA9RALQmA43
+        status: active
+        display_name: 王納言
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -135,6 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_1D9UJ3qbxhZuhm9688Gxjt | 王嗣祖 | accepted |
+| ancestors | p_TTntK269568eA9RALQmA43 | 王納言 | accepted |
 
 ## 外部来源
 

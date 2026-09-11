@@ -4,7 +4,7 @@ id: p_GDF8GGeEC92U99D6Cq7svx
 status: active
 merged_into: null
 display_name: 王克端
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_t0PZhuLkHp9wwHD_xqpMCy
+        subject_person_id: p_GDF8GGeEC92U99D6Cq7svx
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GBfHvW9j1wmH7AtQd6s7JQ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_R4KxtYgvLEEdwk4Mp4v_xF
+          claim_id: c_t0PZhuLkHp9wwHD_xqpMCy
+          source_id: s_z53XWpYshRPUC7mMJ3bnzv
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第二甲第一百零四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GBfHvW9j1wmH7AtQd6s7JQ
+        status: active
+        display_name: 王化
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_GBfHvW9j1wmH7AtQd6s7JQ | 王化 | accepted |
 
 ## 外部来源
 

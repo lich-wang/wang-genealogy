@@ -4,7 +4,7 @@ id: p_x3b1ooEbLk2BtuUQYLtrHK
 status: active
 merged_into: null
 display_name: 王琯
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_nEAxS_HVpYic4nxaNHG5rV
+        subject_person_id: p_x3b1ooEbLk2BtuUQYLtrHK
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GPJWbNZBxqcAyFkJPjejib
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zdaQpp18jKdWZcvp_n8NN2
+          claim_id: c_nEAxS_HVpYic4nxaNHG5rV
+          source_id: s_s1WWgNzGTLDo9xbGU15aCa
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第二甲第一百名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_s1WWgNzGTLDo9xbGU15aCa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎔（CBDB 201918）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201918&o=json
+            external_identifier: CBDB:201918
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.700Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GPJWbNZBxqcAyFkJPjejib
+        status: active
+        display_name: 王鎔
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_GPJWbNZBxqcAyFkJPjejib | 王鎔 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王琯（CBDB 280450）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280450&o=json)
+- [中国历代人物传记资料库：王鎔（CBDB 201918）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201918&o=json)

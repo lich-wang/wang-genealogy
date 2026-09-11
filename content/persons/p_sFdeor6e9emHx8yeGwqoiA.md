@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王芳壽
 cbdb_id: 526655
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_wNZltjSKs47nnSg2ijScpj
+        subject_person_id: p_Fv23ugPr5g2KJUVuV4AwsS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sFdeor6e9emHx8yeGwqoiA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K1VR_WnPOcXU_VnmRMrUpD
+          claim_id: c_wNZltjSKs47nnSg2ijScpj
+          source_id: s_PdLcp3D1kEA7o29KhtsDJw
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12736：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_PdLcp3D1kEA7o29KhtsDJw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王一魁（CBDB 69040）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69040&o=json
+            external_identifier: CBDB:69040
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.099Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Fv23ugPr5g2KJUVuV4AwsS
+        status: active
+        display_name: 王一魁
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Fv23ugPr5g2KJUVuV4AwsS | 王一魁 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王芳壽（CBDB 526655）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526655&o=json)
+- [中国历代人物传记资料库：王一魁（CBDB 69040）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69040&o=json)

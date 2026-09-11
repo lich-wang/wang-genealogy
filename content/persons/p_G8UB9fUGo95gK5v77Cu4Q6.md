@@ -4,7 +4,7 @@ id: p_G8UB9fUGo95gK5v77Cu4Q6
 status: active
 merged_into: null
 display_name: 王機
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_0PeANNmbwVMMNedYYdI5QA
+        subject_person_id: p_h8sJHgEUaQHScKxtt1BkuB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_G8UB9fUGo95gK5v77Cu4Q6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0iOkwIpe9V6SaeM0b4tQzX
+          claim_id: c_0PeANNmbwVMMNedYYdI5QA
+          source_id: s_D8dDpacficMiYsJ44XxbBo
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第二甲第二十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_h8sJHgEUaQHScKxtt1BkuB
+        status: active
+        display_name: 王宣清
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_oxcM1wnOIJhaCNXDXADDoG
+        subject_person_id: p_P3kCAftKu9Diu16RUgNNEE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_G8UB9fUGo95gK5v77Cu4Q6
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XVJ_ph-TANuD3LgqejQ1qe
+          claim_id: c_oxcM1wnOIJhaCNXDXADDoG
+          source_id: s_D8dDpacficMiYsJ44XxbBo
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第二甲第二十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_P3kCAftKu9Diu16RUgNNEE
+        status: active
+        display_name: 王伯儲
+        merged_into_person_id: null
+    - claim:
+        id: c_XNqPZjWuCljXZZ9NBvpUZO
+        subject_person_id: p_UFdLLZo5Ts9VJEAG5Gmb5P
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_G8UB9fUGo95gK5v77Cu4Q6
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vdSUpoDlXsIX2A0uoYcoId
+          claim_id: c_XNqPZjWuCljXZZ9NBvpUZO
+          source_id: s_D8dDpacficMiYsJ44XxbBo
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第二甲第二十三名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UFdLLZo5Ts9VJEAG5Gmb5P
+        status: active
+        display_name: 王鉞
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_h8sJHgEUaQHScKxtt1BkuB | 王宣清 | accepted |
+| ancestors | p_P3kCAftKu9Diu16RUgNNEE | 王伯儲 | accepted |
+| ancestors | p_UFdLLZo5Ts9VJEAG5Gmb5P | 王鉞 | accepted |
 
 ## 外部来源
 

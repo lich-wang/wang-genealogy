@@ -4,7 +4,7 @@ id: p_W5zx3veyZyjG5gBNh4mu99
 status: active
 merged_into: null
 display_name: 王道正
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王宣
         merged_into_person_id: null
+    - claim:
+        id: c_VqZSy6MCds9ZKogcezHwUY
+        subject_person_id: p_GVdJXGRvXB9DxN69cdCCHG
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_W5zx3veyZyjG5gBNh4mu99
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1pjdD88-VgL4KHvuhz3Tlv
+          claim_id: c_VqZSy6MCds9ZKogcezHwUY
+          source_id: s_ynHz9LqQWRvEPH15SCETBF
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第一百五十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ynHz9LqQWRvEPH15SCETBF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王欽（CBDB 230463）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230463&o=json
+            external_identifier: CBDB:230463
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.612Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GVdJXGRvXB9DxN69cdCCHG
+        status: active
+        display_name: 王欽
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_67wcNBy6jc6GHKoznNP6E9 | 王宣 | accepted |
+| ancestors | p_GVdJXGRvXB9DxN69cdCCHG | 王欽 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王道正（CBDB 207263）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207263&o=json)
+- [中国历代人物传记资料库：王欽（CBDB 230463）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230463&o=json)
 - [中国历代人物传记资料库：王宣（CBDB 230462）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230462&o=json)

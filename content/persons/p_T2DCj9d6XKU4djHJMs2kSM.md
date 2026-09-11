@@ -4,7 +4,7 @@ id: p_T2DCj9d6XKU4djHJMs2kSM
 status: active
 merged_into: null
 display_name: 王恕
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_MG5ECdH-GoztBwC8j60Rq8
+        subject_person_id: p_T2DCj9d6XKU4djHJMs2kSM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GuMVVJrYyjeKWA3Y94GdUk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_61XBo51JUiX-ImladJep2X
+          claim_id: c_MG5ECdH-GoztBwC8j60Rq8
+          source_id: s_J8HoMgcp9P8ypb7EYki5M5
+          stance: supports
+          locator: 王文恪公集:三十六卷，29.5a：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_J8HoMgcp9P8ypb7EYki5M5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王承祜（CBDB 264044）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264044&o=json
+            external_identifier: CBDB:264044
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.631Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GuMVVJrYyjeKWA3Y94GdUk
+        status: active
+        display_name: 王承祜
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_GuMVVJrYyjeKWA3Y94GdUk | 王承祜 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王承祜（CBDB 264044）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264044&o=json)
 - [中国历代人物传记资料库：王恕（CBDB 62505）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=62505&o=json)

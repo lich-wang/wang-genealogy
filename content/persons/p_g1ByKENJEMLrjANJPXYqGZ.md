@@ -4,7 +4,7 @@ id: p_g1ByKENJEMLrjANJPXYqGZ
 status: active
 merged_into: null
 display_name: 王雲
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_0_yHaU35Em2g4ER1Qjuk-u
+        subject_person_id: p_iL53NuuSgA33Ht2KRWRfLu
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_g1ByKENJEMLrjANJPXYqGZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fD8djFQiR3E51HWiubR_1B
+          claim_id: c_0_yHaU35Em2g4ER1Qjuk-u
+          source_id: s_QkUDzYNx7nBZTA4f1h9gDF
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，2077：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iL53NuuSgA33Ht2KRWRfLu
+        status: active
+        display_name: 王獻可
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_iL53NuuSgA33Ht2KRWRfLu | 王獻可 | accepted |
 
 ## 外部来源
 

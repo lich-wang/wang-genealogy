@@ -4,7 +4,7 @@ id: p_Ge7FEkGdRYL2w8reRpexBN
 status: active
 merged_into: null
 display_name: 王繕
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_98q4Yjufpd99xkFsxt20De
+        subject_person_id: p_GKQhdXFztLtPL7bohPvpcw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Ge7FEkGdRYL2w8reRpexBN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1RWFprHnqiJyuAntW8SB00
+          claim_id: c_98q4Yjufpd99xkFsxt20De
+          source_id: s_eFXLCWnjE1pmP89LGYRHj2
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GKQhdXFztLtPL7bohPvpcw
+        status: active
+        display_name: 王猛
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_GKQhdXFztLtPL7bohPvpcw | 王猛 | accepted |
 
 ## 外部来源
 

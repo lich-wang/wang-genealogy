@@ -4,7 +4,7 @@ id: p_fvMhQ1gMuC7L5CYMrsmXDW
 status: active
 merged_into: null
 display_name: 王生
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Qo-0FaYvqSaejQuPA_oujS
+        subject_person_id: p_fvMhQ1gMuC7L5CYMrsmXDW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_V6Vh65UhA29fnCXkG6WPsA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__KSmte2uG6ggGIzzmObovx
+          claim_id: c_Qo-0FaYvqSaejQuPA_oujS
+          source_id: s_vf1gDSVfKxGoDqVjyeUCgM
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changan 68：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_V6Vh65UhA29fnCXkG6WPsA
+        status: active
+        display_name: 王某通
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_V6Vh65UhA29fnCXkG6WPsA | 王某通 | accepted |
 
 ## 外部来源
 

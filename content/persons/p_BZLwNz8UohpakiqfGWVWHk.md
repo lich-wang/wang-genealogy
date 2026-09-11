@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王正容
 cbdb_id: 203299
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -171,7 +171,81 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_uvXkhPg4n2xw9XMo5n-aLT
+        subject_person_id: p_GGCaECuJCMzjCXy5KJMYEQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BZLwNz8UohpakiqfGWVWHk
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TbLxG4yjf5TsKl4T2uvevT
+          claim_id: c_uvXkhPg4n2xw9XMo5n-aLT
+          source_id: s_g4aiCyrwgSs6vLoBXi8Njp
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第二甲第六十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_g4aiCyrwgSs6vLoBXi8Njp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應軫（CBDB 302732）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302732&o=json
+            external_identifier: CBDB:302732
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.658Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GGCaECuJCMzjCXy5KJMYEQ
+        status: active
+        display_name: 王應軫
+        merged_into_person_id: null
+    - claim:
+        id: c_mL5MyZ5v4t-Xvo32IbO_qb
+        subject_person_id: p_gGh9F3FDDzRxJFGB6vA1Sx
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BZLwNz8UohpakiqfGWVWHk
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rwirMmHvdX29t827TdqqnV
+          claim_id: c_mL5MyZ5v4t-Xvo32IbO_qb
+          source_id: s_c7zGMgdooX8oYy58nD7ZEC
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第二甲第六十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_c7zGMgdooX8oYy58nD7ZEC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王尚志（CBDB 302731）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302731&o=json
+            external_identifier: CBDB:302731
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.657Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_gGh9F3FDDzRxJFGB6vA1Sx
+        status: active
+        display_name: 王尚志
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +267,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_2W13YFD4n2ezyjYiLrXP91 | 王克勤 | accepted |
+| ancestors | p_GGCaECuJCMzjCXy5KJMYEQ | 王應軫 | accepted |
+| ancestors | p_gGh9F3FDDzRxJFGB6vA1Sx | 王尚志 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王克勤（CBDB 302733）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302733&o=json)
+- [中国历代人物传记资料库：王尚志（CBDB 302731）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302731&o=json)
+- [中国历代人物传记资料库：王應軫（CBDB 302732）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302732&o=json)
 - [中国历代人物传记资料库：王正容（CBDB 203299）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203299&o=json)

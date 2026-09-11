@@ -4,7 +4,7 @@ id: p_g8fC6z7HiJjXY8B4StNNrU
 status: active
 merged_into: null
 display_name: 王蘭佩
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_gzc0ZazE_bhV98tSxKmMvB
+        subject_person_id: p_j5QK4MXR5LwaE6dHX7rsYc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_g8fC6z7HiJjXY8B4StNNrU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_76-VldVgkBzpGVSO5rcRZJ
+          claim_id: c_gzc0ZazE_bhV98tSxKmMvB
+          source_id: s_An5RRgx4aXaEtAbMANDdCs
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #3542, HuWenKai #258：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_j5QK4MXR5LwaE6dHX7rsYc
+        status: active
+        display_name: 王慶嵩
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_j5QK4MXR5LwaE6dHX7rsYc | 王慶嵩 | accepted |
 
 ## 外部来源
 

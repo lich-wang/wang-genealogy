@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王廷陳
 cbdb_id: 34668
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -128,7 +128,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_4xaFbTKSXT0qtHpfSI0Twg
+        subject_person_id: p_g4twhoub1NzNDbDHptPzJX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qLcC4SmUNJ1rkkQyeeqtKk
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dM9rjW2fd8aAlrTsy-64TL
+          claim_id: c_4xaFbTKSXT0qtHpfSI0Twg
+          source_id: s_YkbBB1kk6cWXoE8hhwTBKb
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第二甲第十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_YkbBB1kk6cWXoE8hhwTBKb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王思旻（CBDB 279532）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279532&o=json
+            external_identifier: CBDB:279532
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.984Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_g4twhoub1NzNDbDHptPzJX
+        status: active
+        display_name: 王思旻
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -149,8 +186,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_bFLYoeb8HyJD4DvaQdT9rC | 王濟 | accepted |
+| ancestors | p_g4twhoub1NzNDbDHptPzJX | 王思旻 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王濟（CBDB 279534）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279534&o=json)
+- [中国历代人物传记资料库：王思旻（CBDB 279532）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279532&o=json)
 - [中国历代人物传记资料库：王廷陳（CBDB 34668）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34668&o=json)

@@ -4,7 +4,7 @@ id: p_iMYUFMnpg225KFGLSDB3NQ
 status: active
 merged_into: null
 display_name: 王成埴
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_kUZGVhyDsaRJ1j5XEbkRyJ
+        subject_person_id: p_iMYUFMnpg225KFGLSDB3NQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GF36QEVxtnF7cmZ1mJSNyH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yl21eraQkS5WS9rA2NXwzq
+          claim_id: c_kUZGVhyDsaRJ1j5XEbkRyJ
+          source_id: s_1hhu2BL6kQNMSrZouSbzSP
+          stance: supports
+          locator: "民國歙縣志: 十六卷，lgid=1163886：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1hhu2BL6kQNMSrZouSbzSP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鑑（CBDB 683696）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=683696&o=json
+            external_identifier: CBDB:683696
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.303Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GF36QEVxtnF7cmZ1mJSNyH
+        status: active
+        display_name: 王鑑
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_GF36QEVxtnF7cmZ1mJSNyH | 王鑑 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王成埴（CBDB 683699）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=683699&o=json)
+- [中国历代人物传记资料库：王鑑（CBDB 683696）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=683696&o=json)

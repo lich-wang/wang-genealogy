@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王祖嫡
 cbdb_id: 126631
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -128,7 +128,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_b9pSyJH4xc7AJqRN9X9-qO
+        subject_person_id: p_GDdHk26J8HbYjRhjpiXZaG
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DoWNVNC6JZBAasWbqdoiCX
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jnrnOV5JwVaUEi0LeAdUhS
+          claim_id: c_b9pSyJH4xc7AJqRN9X9-qO
+          source_id: s_H4W14e8ww2jrNPermREHg5
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第二百一十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_H4W14e8ww2jrNPermREHg5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王端（CBDB 211131）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211131&o=json
+            external_identifier: CBDB:211131
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.023Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GDdHk26J8HbYjRhjpiXZaG
+        status: active
+        display_name: 王端
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -149,8 +186,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_8ct24JW85LFaBwBesKXW2J | 王延世 | accepted |
+| ancestors | p_GDdHk26J8HbYjRhjpiXZaG | 王端 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王端（CBDB 211131）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211131&o=json)
 - [中国历代人物传记资料库：王延世（CBDB 555424）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555424&o=json)
 - [中国历代人物传记资料库：王祖嫡（CBDB 126631）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126631&o=json)

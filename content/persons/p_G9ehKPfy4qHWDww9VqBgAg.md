@@ -4,7 +4,7 @@ id: p_G9ehKPfy4qHWDww9VqBgAg
 status: active
 merged_into: null
 display_name: 王嘉祥
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_f-kXcjVpS97tAV5ZW2TCKW
+        subject_person_id: p_pT7TCSRM8w3DVm9eJuF7tH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_G9ehKPfy4qHWDww9VqBgAg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Iu6TN03dce-v_HSMyLYJxu
+          claim_id: c_f-kXcjVpS97tAV5ZW2TCKW
+          source_id: s_ftz4oMb7kDPD8mWuGX6mYA
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第四十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_pT7TCSRM8w3DVm9eJuF7tH
+        status: active
+        display_name: 王聘
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_Mz8AAaUKpZ4lflghuVKwIu
+        subject_person_id: p_kyk9i6qugNFcR16NKhmVa3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_G9ehKPfy4qHWDww9VqBgAg
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_olwtGVQDTrvCBsMexwCoZL
+          claim_id: c_Mz8AAaUKpZ4lflghuVKwIu
+          source_id: s_ftz4oMb7kDPD8mWuGX6mYA
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第四十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_kyk9i6qugNFcR16NKhmVa3
+        status: active
+        display_name: 王琮
+        merged_into_person_id: null
+    - claim:
+        id: c_z0qnoaexA2QA_L-bPPHv-G
+        subject_person_id: p_QaMcRbPvFjSK5reVSLvNn3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_G9ehKPfy4qHWDww9VqBgAg
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XhbGRFw39miEhThsrj03YW
+          claim_id: c_z0qnoaexA2QA_L-bPPHv-G
+          source_id: s_ftz4oMb7kDPD8mWuGX6mYA
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第四十三名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_QaMcRbPvFjSK5reVSLvNn3
+        status: active
+        display_name: 王緯
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_pT7TCSRM8w3DVm9eJuF7tH | 王聘 | accepted |
+| ancestors | p_kyk9i6qugNFcR16NKhmVa3 | 王琮 | accepted |
+| ancestors | p_QaMcRbPvFjSK5reVSLvNn3 | 王緯 | accepted |
 
 ## 外部来源
 

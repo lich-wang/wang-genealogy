@@ -4,7 +4,7 @@ id: p_ip7XEAQBd5SU56FCiqsDGa
 status: active
 merged_into: null
 display_name: 王受元
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_l_iZ73O0VYAK77PNrISNrI
+        subject_person_id: p_fUrkW6ozGrAosrVsTorpqL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ip7XEAQBd5SU56FCiqsDGa
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_z0gHzs8S6noLqg1wbZkFev
+          claim_id: c_l_iZ73O0VYAK77PNrISNrI
+          source_id: s_JHhmqNMAL3cz2t6ShErLh5
+          stance: supports
+          locator: (康熙)武功縣續志，lgid=1045709：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_JHhmqNMAL3cz2t6ShErLh5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王乾明（CBDB 555106）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555106&o=json
+            external_identifier: CBDB:555106
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.517Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fUrkW6ozGrAosrVsTorpqL
+        status: active
+        display_name: 王乾明
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_fUrkW6ozGrAosrVsTorpqL | 王乾明 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王乾明（CBDB 555106）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555106&o=json)
 - [中国历代人物传记资料库：王受元（CBDB 555107）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555107&o=json)

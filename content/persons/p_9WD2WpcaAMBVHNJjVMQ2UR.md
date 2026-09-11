@@ -4,7 +4,7 @@ id: p_9WD2WpcaAMBVHNJjVMQ2UR
 status: active
 merged_into: null
 display_name: 王錄
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_MTBKYP1q81kTnTBjX_ELz6
+        subject_person_id: p_GG19HjshvqyvDbfowdsVH9
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9WD2WpcaAMBVHNJjVMQ2UR
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k2J_WIKEy918PEET7VwwMk
+          claim_id: c_MTBKYP1q81kTnTBjX_ELz6
+          source_id: s_9WMtxUjBdJzt8NJN96DvG6
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第二甲第三十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_9WMtxUjBdJzt8NJN96DvG6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王孜（CBDB 212635）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212635&o=json
+            external_identifier: CBDB:212635
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.089Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GG19HjshvqyvDbfowdsVH9
+        status: active
+        display_name: 王孜
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_1XSyusiB7GXwQNmzrNDUf4 | 王謙 | accepted |
+| ancestors | p_GG19HjshvqyvDbfowdsVH9 | 王孜 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王錄（CBDB 206049）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206049&o=json)
 - [中国历代人物传记资料库：王謙（CBDB 212637）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212637&o=json)
+- [中国历代人物传记资料库：王孜（CBDB 212635）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212635&o=json)

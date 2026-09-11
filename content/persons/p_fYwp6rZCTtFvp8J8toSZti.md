@@ -4,7 +4,7 @@ id: p_fYwp6rZCTtFvp8J8toSZti
 status: active
 merged_into: null
 display_name: 王本宗
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -141,7 +141,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_poRyF76zIymKvbtUi_Szmb
+        subject_person_id: p_fYwp6rZCTtFvp8J8toSZti
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_15Nh8Xnsw6Q2WxxXdtixbY
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zDVU8tGu3KTX_zjLaDYwRl
+          claim_id: c_poRyF76zIymKvbtUi_Szmb
+          source_id: s_sRsmJ7bPvUXWYtxeg4DEt2
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第二甲第四十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_15Nh8Xnsw6Q2WxxXdtixbY
+        status: active
+        display_name: 王宥
+        merged_into_person_id: null
   other: []
 ---
 
@@ -162,6 +188,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_uhg7M4Hh4FFL2fV4HjE6Cg | 王榮 | accepted |
 | children | p_Y1LJt1fbRrve98s4v1UUF2 | 王志積 | accepted |
+| descendants | p_15Nh8Xnsw6Q2WxxXdtixbY | 王宥 | accepted |
 
 ## 外部来源
 

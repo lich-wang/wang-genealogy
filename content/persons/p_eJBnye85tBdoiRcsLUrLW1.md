@@ -4,7 +4,7 @@ id: p_eJBnye85tBdoiRcsLUrLW1
 status: active
 merged_into: null
 display_name: 王絳
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -176,6 +176,43 @@ relationships:
         status: active
         display_name: 王萇
         merged_into_person_id: null
+    - claim:
+        id: c_yiDoHmRxyt0ls61EdDZfWw
+        subject_person_id: p_eJBnye85tBdoiRcsLUrLW1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gmQ5Y3wP2Q1jF9NzB2srAX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_S9hciUDtZT7pmz15MSSHHc
+          claim_id: c_yiDoHmRxyt0ls61EdDZfWw
+          source_id: s_zEA9Mo8sGBK7nZMVPJeamz
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_zEA9Mo8sGBK7nZMVPJeamz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王景（CBDB 191193）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191193&o=json
+            external_identifier: CBDB:191193
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.353Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_gmQ5Y3wP2Q1jF9NzB2srAX
+        status: active
+        display_name: 王景
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_CF7yfgasHmLpFwcb1NWfXr | 王伯倫 | accepted |
 | children | p_F1sDaCQr35NYU54Y7uiWGP | 王萇 | accepted |
+| children | p_gmQ5Y3wP2Q1jF9NzB2srAX | 王景 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王伯倫（CBDB 191191）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191191&o=json)
 - [中国历代人物传记资料库：王萇（CBDB 191192）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191192&o=json)
 - [中国历代人物传记资料库：王絳（CBDB 191190）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191190&o=json)
+- [中国历代人物传记资料库：王景（CBDB 191193）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191193&o=json)
