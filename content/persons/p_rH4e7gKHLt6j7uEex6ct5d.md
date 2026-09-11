@@ -4,7 +4,7 @@ id: p_rH4e7gKHLt6j7uEex6ct5d
 status: active
 merged_into: null
 display_name: 王宏詩
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_39ADRlvVE34s2kmCYAZtGI
+        subject_person_id: p_mYybNYM7ZEJFm7FPtqQ3HE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rH4e7gKHLt6j7uEex6ct5d
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lrd3K1y3KP_8Rtiv0239pL
+          claim_id: c_39ADRlvVE34s2kmCYAZtGI
+          source_id: s_4YfvYXwEixjm8e84SMwhwp
+          stance: supports
+          locator: 鄞縣志，lgid=243568：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4YfvYXwEixjm8e84SMwhwp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王成瓛（CBDB 695189）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=695189&o=json
+            external_identifier: CBDB:695189
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.536Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_mYybNYM7ZEJFm7FPtqQ3HE
+        status: active
+        display_name: 王成瓛
+        merged_into_person_id: null
   children:
     - claim:
         id: c_obFNZpc76FmOb292zLCrzx
@@ -134,9 +171,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_mYybNYM7ZEJFm7FPtqQ3HE | 王成瓛 | accepted |
 | children | p_bgSBWNTEEvFtqD4YzpbJLf | 王大綱 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王成瓛（CBDB 695189）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=695189&o=json)
 - [中国历代人物传记资料库：王大綱（CBDB 695190）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=695190&o=json)
 - [中国历代人物传记资料库：王宏詩（CBDB 695188）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=695188&o=json)

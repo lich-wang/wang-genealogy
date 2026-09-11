@@ -4,7 +4,7 @@ id: p_mddk6SPKF95i3npAYgeV38
 status: active
 merged_into: null
 display_name: 王日新
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_X9KMBTP_Z8T4VH-03ftst3
+        subject_person_id: p_L9dzbHQjDKY6RB765GdXrR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mddk6SPKF95i3npAYgeV38
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ba24D9u7wDMGMSKaDimRRr
+          claim_id: c_X9KMBTP_Z8T4VH-03ftst3
+          source_id: s_cmBPEC5AL6bAz2NjSDfnNY
+          stance: supports
+          locator: (乾隆)信陽州志，lgid=868523：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_L9dzbHQjDKY6RB765GdXrR
+        status: active
+        display_name: 王重
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_L9dzbHQjDKY6RB765GdXrR | 王重 | accepted |
 
 ## 外部来源
 

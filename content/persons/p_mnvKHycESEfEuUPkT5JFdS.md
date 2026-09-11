@@ -4,7 +4,7 @@ id: p_mnvKHycESEfEuUPkT5JFdS
 status: active
 merged_into: null
 display_name: 王則
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_qZZNOO1XSkkoUvWfo0RVEf
+        subject_person_id: p_YqQLMddZtjQ9ckawdVDSGb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mnvKHycESEfEuUPkT5JFdS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-aw3-raMHFg9gkoUeZ6Uvk
+          claim_id: c_qZZNOO1XSkkoUvWfo0RVEf
+          source_id: s_d7AMoMC5os4pkSBoNiLE5E
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xianheng 100：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_YqQLMddZtjQ9ckawdVDSGb
+        status: active
+        display_name: 王寶德
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_f-G8A1vagUmKm8ua5FiLqh
+        subject_person_id: p_mnvKHycESEfEuUPkT5JFdS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eFFZHoBfpZVRHyhJs9tNKY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nKhOcrbp8dUZzN1U4tJ9L0
+          claim_id: c_f-G8A1vagUmKm8ua5FiLqh
+          source_id: s_d7AMoMC5os4pkSBoNiLE5E
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xianheng 100：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_eFFZHoBfpZVRHyhJs9tNKY
+        status: active
+        display_name: 王玄亮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_YqQLMddZtjQ9ckawdVDSGb | 王寶德 | accepted |
+| children | p_eFFZHoBfpZVRHyhJs9tNKY | 王玄亮 | accepted |
 
 ## 外部来源
 

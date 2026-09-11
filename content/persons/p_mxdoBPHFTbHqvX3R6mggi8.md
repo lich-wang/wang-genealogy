@@ -4,7 +4,7 @@ id: p_mxdoBPHFTbHqvX3R6mggi8
 status: active
 merged_into: null
 display_name: 王振
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_gmTwIwew3l7_ifwQ0MnTeM
+        subject_person_id: p_mxdoBPHFTbHqvX3R6mggi8
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_q65LjSR3e6s3Y3D1bpqPNS
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7OR8c10KMuvoxSLMLuxNJm
+          claim_id: c_gmTwIwew3l7_ifwQ0MnTeM
+          source_id: s_d3SKBMyE34nzN1BK1m8CJH
+          stance: supports
+          locator: 嘉靖十七年進士登科錄:一卷，第三甲第二百一十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_q65LjSR3e6s3Y3D1bpqPNS
+        status: active
+        display_name: 王崇義
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_q65LjSR3e6s3Y3D1bpqPNS | 王崇義 | accepted |
 
 ## 外部来源
 

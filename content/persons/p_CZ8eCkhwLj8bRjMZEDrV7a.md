@@ -4,7 +4,7 @@ id: p_CZ8eCkhwLj8bRjMZEDrV7a
 status: active
 merged_into: null
 display_name: 王琮
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_mFtO3aryhXGWJ1fjPJPFhM
+        subject_person_id: p_mJvJn7wy9ckLGgmVk8U7FF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_CZ8eCkhwLj8bRjMZEDrV7a
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HE9y6RdGJqLv8cGdEGTk3_
+          claim_id: c_mFtO3aryhXGWJ1fjPJPFhM
+          source_id: s_RK7ma5hnEYFCaF4uQk27SL
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第三甲第一百五十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_RK7ma5hnEYFCaF4uQk27SL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王埜（CBDB 269327）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=269327&o=json
+            external_identifier: CBDB:269327
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.811Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_mJvJn7wy9ckLGgmVk8U7FF
+        status: active
+        display_name: 王埜
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_BJ4Vkii4a2B3LiLFrokpx5 | 王能 | accepted |
+| ancestors | p_mJvJn7wy9ckLGgmVk8U7FF | 王埜 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王琮（CBDB 201239）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201239&o=json)
 - [中国历代人物传记资料库：王能（CBDB 269329）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=269329&o=json)
+- [中国历代人物传记资料库：王埜（CBDB 269327）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=269327&o=json)

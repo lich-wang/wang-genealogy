@@ -4,7 +4,7 @@ id: p_THQx38bKosUpdXRAkw2R2w
 status: active
 merged_into: null
 display_name: 王世貞
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -170,7 +170,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_PT-JrbfjrB0pErdAGN0xgG
+        subject_person_id: p_Myxv48wyKA3EhwRsziJopB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_THQx38bKosUpdXRAkw2R2w
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_It2CjD7_NNMd_GtUFVg-rk
+          claim_id: c_PT-JrbfjrB0pErdAGN0xgG
+          source_id: s_ykRECbMUZEggZEk7anueVi
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第二甲第八十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ykRECbMUZEggZEk7anueVi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王輅（CBDB 309372）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309372&o=json
+            external_identifier: CBDB:309372
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.809Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Myxv48wyKA3EhwRsziJopB
+        status: active
+        display_name: 王輅
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_JmAYb8swKSWn43Xra4JyV8 | 王士驌 | accepted |
+| ancestors | p_Myxv48wyKA3EhwRsziJopB | 王輅 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王輅（CBDB 309372）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309372&o=json)
 - [中国历代人物传记资料库：王士驌（CBDB 134660）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134660&o=json)
 - [中国历代人物传记资料库：王世貞（CBDB 34717）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34717&o=json)

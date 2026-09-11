@@ -4,7 +4,7 @@ id: p_m96bCuQFApTz79SaUYiwpQ
 status: active
 merged_into: null
 display_name: 王重光
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_xgplK2oUTG-jaMPj8vyTBn
+        subject_person_id: p_m96bCuQFApTz79SaUYiwpQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6VHJbLTrkCw69Y2Ho1sBH7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Mdssfswxnxuzkrh012b_yp
+          claim_id: c_xgplK2oUTG-jaMPj8vyTBn
+          source_id: s_6Eop75xNkBiqMxEkN2G3vA
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第一百九十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_6VHJbLTrkCw69Y2Ho1sBH7
+        status: active
+        display_name: 王象节
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_6VHJbLTrkCw69Y2Ho1sBH7 | 王象节 | accepted |
 
 ## 外部来源
 

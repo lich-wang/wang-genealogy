@@ -4,7 +4,7 @@ id: p_MPKDCVoTw3ezXKDrH5XZgB
 status: active
 merged_into: null
 display_name: 王希俊
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_szhVYFX2rm1zqmQ2FrRHvF
+        subject_person_id: p_oj4YCBq7WzwEGyAQvPxBEo
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MPKDCVoTw3ezXKDrH5XZgB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cxu8PpwuwTTop3iMgwS0Nt
+          claim_id: c_szhVYFX2rm1zqmQ2FrRHvF
+          source_id: s_r7gxJVGiWM2hWjQZmg4VuE
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 345：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oj4YCBq7WzwEGyAQvPxBEo
+        status: active
+        display_name: 王履貞
+        merged_into_person_id: null
   children:
     - claim:
         id: c_k3BqnsBV9XHZGgVwRFjfjL
@@ -167,6 +193,32 @@ relationships:
         status: active
         display_name: 王瑱
         merged_into_person_id: null
+    - claim:
+        id: c_X0bJPxq_TLqqjZ-J4xehNo
+        subject_person_id: p_MPKDCVoTw3ezXKDrH5XZgB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YPo3GsDwCchR7VPXKzBjUe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7TUjIH1ob4cgNOqyr7stXY
+          claim_id: c_X0bJPxq_TLqqjZ-J4xehNo
+          source_id: s_r7gxJVGiWM2hWjQZmg4VuE
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 345：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_YPo3GsDwCchR7VPXKzBjUe
+        status: active
+        display_name: 王珽
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -192,7 +244,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_oj4YCBq7WzwEGyAQvPxBEo | 王履貞 | accepted |
 | children | p_A3UBftvcv8pqxG7C1kJFXP | 王瑱 | accepted |
+| children | p_YPo3GsDwCchR7VPXKzBjUe | 王珽 | accepted |
 
 ## 外部来源
 

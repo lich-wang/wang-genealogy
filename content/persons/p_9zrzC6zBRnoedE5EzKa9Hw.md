@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王永光
 cbdb_id: 126480
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,6 +129,43 @@ relationships:
         status: active
         display_name: 王允
         merged_into_person_id: null
+    - claim:
+        id: c_yPJtnNX-edMcFa2fj8ZljF
+        subject_person_id: p_n3qtJinVid7K8mLwECAF2J
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9zrzC6zBRnoedE5EzKa9Hw
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tqfN7MdldXPe25n5kWYzvU
+          claim_id: c_yPJtnNX-edMcFa2fj8ZljF
+          source_id: s_dLqfg6LtQreK4SXA9oU22c
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第一百一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_dLqfg6LtQreK4SXA9oU22c
+            source_type: api_record
+            title: 中国历代人物传记资料库：王結（CBDB 231838）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231838&o=json
+            external_identifier: CBDB:231838
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.675Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_n3qtJinVid7K8mLwECAF2J
+        status: active
+        display_name: 王結
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -149,8 +186,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_h7rDU4XwMgAh26S9SQK34Y | 王允 | accepted |
+| ancestors | p_n3qtJinVid7K8mLwECAF2J | 王結 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王結（CBDB 231838）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231838&o=json)
 - [中国历代人物传记资料库：王永光（CBDB 126480）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126480&o=json)
 - [中国历代人物传记资料库：王允（CBDB 231837）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231837&o=json)

@@ -4,7 +4,7 @@ id: p_EL3MrLTYLivcbMQDRsPBD7
 status: active
 merged_into: null
 display_name: 王徽
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Kp9WbOYHoo2yR7api3L7rT
+        subject_person_id: p_mmhxQ3mMMbafknFpAgKiQp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EL3MrLTYLivcbMQDRsPBD7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_C19wrUmCjzas_PXpx73nuP
+          claim_id: c_Kp9WbOYHoo2yR7api3L7rT
+          source_id: s_gnZg8SzkQb2YQh5M6kQqn9
+          stance: supports
+          locator: 天順四年進士登科錄:一卷，第二甲第三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_gnZg8SzkQb2YQh5M6kQqn9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寧（CBDB 309940）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309940&o=json
+            external_identifier: CBDB:309940
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.831Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_mmhxQ3mMMbafknFpAgKiQp
+        status: active
+        display_name: 王寧
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,11 +266,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_mmhxQ3mMMbafknFpAgKiQp | 王寧 | accepted |
 | ancestors | p_d3nRYvH1xi9VN679vmf6RE | 王嗣宗 | accepted |
 | ancestors | p_FmRj9f9PFz1KmEFvB1WH6y | 王仲 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王徽（CBDB 67717）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67717&o=json)
+- [中国历代人物传记资料库：王寧（CBDB 309940）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309940&o=json)
 - [中国历代人物传记资料库：王嗣宗（CBDB 309929）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309929&o=json)
 - [中国历代人物传记资料库：王仲（CBDB 309918）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309918&o=json)

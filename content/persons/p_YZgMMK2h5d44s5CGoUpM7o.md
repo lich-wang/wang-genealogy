@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王盧
 cbdb_id: 198449
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -134,7 +134,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_I3TdSueLAlkPDjYE8jxWM8
+        subject_person_id: p_m4HYJEsoe9N29gPaPihab2
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_YZgMMK2h5d44s5CGoUpM7o
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_l69qunP_M-zXcg1L0_r2Ax
+          claim_id: c_I3TdSueLAlkPDjYE8jxWM8
+          source_id: s_FCRnjE2idGXpBVoETrVYRE
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第一百三十一名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FCRnjE2idGXpBVoETrVYRE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鼎新（CBDB 273572）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273572&o=json
+            external_identifier: CBDB:273572
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.902Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_m4HYJEsoe9N29gPaPihab2
+        status: active
+        display_name: 王鼎新
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_m4HYJEsoe9N29gPaPihab2 | 王鼎新 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鼎新（CBDB 273572）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273572&o=json)
 - [中国历代人物传记资料库：王盧（CBDB 198449）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198449&o=json)

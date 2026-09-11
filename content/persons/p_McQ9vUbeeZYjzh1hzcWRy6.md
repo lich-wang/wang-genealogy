@@ -4,7 +4,7 @@ id: p_McQ9vUbeeZYjzh1hzcWRy6
 status: active
 merged_into: null
 display_name: 王宗閔
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_QwCj6aJBAF-TRiLBC_ZB9P
+        subject_person_id: p_wtMxSAtuyFnuo1ANFZAPPM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_McQ9vUbeeZYjzh1hzcWRy6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_H3T8wBTDrzcUAhRjISrhDi
+          claim_id: c_QwCj6aJBAF-TRiLBC_ZB9P
+          source_id: s_6ijb6ChkgRKFW9tfHjW8A4
+          stance: supports
+          locator: 紹興府志:八十卷，lgid=316809：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wtMxSAtuyFnuo1ANFZAPPM
+        status: active
+        display_name: 王萬里
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wtMxSAtuyFnuo1ANFZAPPM | 王萬里 | accepted |
 
 ## 外部来源
 

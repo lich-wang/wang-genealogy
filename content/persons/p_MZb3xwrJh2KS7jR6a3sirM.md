@@ -4,7 +4,7 @@ id: p_MZb3xwrJh2KS7jR6a3sirM
 status: active
 merged_into: null
 display_name: 王佐
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_TjCUKgGprlC1jmECIfdCkq
+        subject_person_id: p_MZb3xwrJh2KS7jR6a3sirM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NGHFT8W3h8WaBq7fkVhjck
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jWX_LtZ9MwE3xZ2cPu7yzE
+          claim_id: c_TjCUKgGprlC1jmECIfdCkq
+          source_id: s_AnmcwaF7HkbiztAFAk43Qs
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第一百一十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NGHFT8W3h8WaBq7fkVhjck
+        status: active
+        display_name: 王立賢
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_NGHFT8W3h8WaBq7fkVhjck | 王立賢 | accepted |
 
 ## 外部来源
 

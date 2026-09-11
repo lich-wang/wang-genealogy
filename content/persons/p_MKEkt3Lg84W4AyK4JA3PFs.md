@@ -4,7 +4,7 @@ id: p_MKEkt3Lg84W4AyK4JA3PFs
 status: active
 merged_into: null
 display_name: 王鎮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_dyeT2s8JU97hj7a8Dkq0Xe
+        subject_person_id: p_MKEkt3Lg84W4AyK4JA3PFs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Qvi4bpPzBmsqf5Y7oUFpd5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Tk3JfI7hCsAj4VKp5OogoA
+          claim_id: c_dyeT2s8JU97hj7a8Dkq0Xe
+          source_id: s_Jk39pzbEZ2c6j87iTvReLx
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第一百八十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Qvi4bpPzBmsqf5Y7oUFpd5
+        status: active
+        display_name: 王珀
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_Qvi4bpPzBmsqf5Y7oUFpd5 | 王珀 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王璀
 cbdb_id: 149858
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_bYF5_iVNKu2KpdMRSLFRV4
+        subject_person_id: p_MbvvbbGMJNdvsnYJvUTTcw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bujBvWgZxPpvypX9KK6kk9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_usBTNsj1Puqi1bBGNiYyaD
+          claim_id: c_bYF5_iVNKu2KpdMRSLFRV4
+          source_id: s_9hCe3bh81awyGPPjZbdRFw
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Wansuidengfeng 4：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_9hCe3bh81awyGPPjZbdRFw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王定（CBDB 139989）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139989&o=json
+            external_identifier: CBDB:139989
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.462Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_MbvvbbGMJNdvsnYJvUTTcw
+        status: active
+        display_name: 王定
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_MbvvbbGMJNdvsnYJvUTTcw | 王定 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王璀（CBDB 149858）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=149858&o=json)
+- [中国历代人物传记资料库：王定（CBDB 139989）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139989&o=json)

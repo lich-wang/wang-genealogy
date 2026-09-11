@@ -4,7 +4,7 @@ id: p_q65LjSR3e6s3Y3D1bpqPNS
 status: active
 merged_into: null
 display_name: 王崇義
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王俊
         merged_into_person_id: null
+    - claim:
+        id: c_gmTwIwew3l7_ifwQ0MnTeM
+        subject_person_id: p_mxdoBPHFTbHqvX3R6mggi8
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_q65LjSR3e6s3Y3D1bpqPNS
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7OR8c10KMuvoxSLMLuxNJm
+          claim_id: c_gmTwIwew3l7_ifwQ0MnTeM
+          source_id: s_d3SKBMyE34nzN1BK1m8CJH
+          stance: supports
+          locator: 嘉靖十七年進士登科錄:一卷，第三甲第二百一十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_d3SKBMyE34nzN1BK1m8CJH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王振（CBDB 301918）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301918&o=json
+            external_identifier: CBDB:301918
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.641Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_mxdoBPHFTbHqvX3R6mggi8
+        status: active
+        display_name: 王振
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_6rmKu2tnL9PKGQ8F3tuNWr | 王俊 | accepted |
+| ancestors | p_mxdoBPHFTbHqvX3R6mggi8 | 王振 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王崇義（CBDB 203246）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203246&o=json)
 - [中国历代人物传记资料库：王俊（CBDB 301917）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301917&o=json)
+- [中国历代人物传记资料库：王振（CBDB 301918）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301918&o=json)

@@ -4,7 +4,7 @@ id: p_x6tYqQFJHDF8Lt8wgXM9MU
 status: active
 merged_into: null
 display_name: 王汝梅
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_MqnFHMWOb__UIJmm2zzi36
+        subject_person_id: p_M8mLU7jMxuqHMpgBkkJ8hB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_x6tYqQFJHDF8Lt8wgXM9MU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pZN9-OVe5cHfSSL1YxR9q5
+          claim_id: c_MqnFHMWOb__UIJmm2zzi36
+          source_id: s_GC7KhHLDBYxt1GDpJmnL8q
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第二百一十八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GC7KhHLDBYxt1GDpJmnL8q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王弼（CBDB 282871）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282871&o=json
+            external_identifier: CBDB:282871
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.113Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_M8mLU7jMxuqHMpgBkkJ8hB
+        status: active
+        display_name: 王弼
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -134,9 +171,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_M8mLU7jMxuqHMpgBkkJ8hB | 王弼 | accepted |
 | ancestors | p_BM9rBC9C1cVxEoCYSovd5K | 王永忠 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王弼（CBDB 282871）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282871&o=json)
 - [中国历代人物传记资料库：王汝梅（CBDB 68445）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68445&o=json)
 - [中国历代人物传记资料库：王永忠（CBDB 282869）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282869&o=json)

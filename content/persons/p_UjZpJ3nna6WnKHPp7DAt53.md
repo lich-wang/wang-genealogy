@@ -4,7 +4,7 @@ id: p_UjZpJ3nna6WnKHPp7DAt53
 status: active
 merged_into: null
 display_name: 王三聘
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王連
         merged_into_person_id: null
+    - claim:
+        id: c_906FLyp1hOtIR6hmGaao0g
+        subject_person_id: p_Mdksq8j5SVp3pVE2nRfG3X
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_UjZpJ3nna6WnKHPp7DAt53
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E-TpDlyYXN_4fa2VMiVSyS
+          claim_id: c_906FLyp1hOtIR6hmGaao0g
+          source_id: s_n7gAPZkjMyohitLNz6SDeQ
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第三甲第二百名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_n7gAPZkjMyohitLNz6SDeQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宰（CBDB 298279）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298279&o=json
+            external_identifier: CBDB:298279
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.584Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Mdksq8j5SVp3pVE2nRfG3X
+        status: active
+        display_name: 王宰
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_71d1dBTdsdBJjjgDNyHHUE | 王連 | accepted |
+| ancestors | p_Mdksq8j5SVp3pVE2nRfG3X | 王宰 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王連（CBDB 298278）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298278&o=json)
 - [中国历代人物传记资料库：王三聘（CBDB 203007）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203007&o=json)
+- [中国历代人物传记资料库：王宰（CBDB 298279）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298279&o=json)

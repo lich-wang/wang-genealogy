@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王淑民
 cbdb_id: 205869
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,12 +129,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_b6LbboeZZ_ypk7OMxSKPy3
+        subject_person_id: p_MdJHKADyMQk6VMaKNEyXK2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3K8YMQuna5CRk3d72KDoG1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JfYLaylmtfhpA9MXJNsxVV
+          claim_id: c_b6LbboeZZ_ypk7OMxSKPy3
+          source_id: s_Pm1DFSHsEaGPKCyweGVWKa
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第一百零四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Pm1DFSHsEaGPKCyweGVWKa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王棟（CBDB 209976）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209976&o=json
+            external_identifier: CBDB:209976
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.990Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_MdJHKADyMQk6VMaKNEyXK2
+        status: active
+        display_name: 王棟
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_9tV6oWMTr91oOM7ei-1zsg
+        subject_person_id: p_MemBevEtxLnjXYkLG35pym
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3K8YMQuna5CRk3d72KDoG1
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_23Dq8Lo0lDOqY8N9ZlHle6
+          claim_id: c_9tV6oWMTr91oOM7ei-1zsg
+          source_id: s_tS8WbRbCSoGBQ55FGhWx3P
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第一百零四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_tS8WbRbCSoGBQ55FGhWx3P
+            source_type: api_record
+            title: 中国历代人物传记资料库：王信（CBDB 209974）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209974&o=json
+            external_identifier: CBDB:209974
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.989Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_MemBevEtxLnjXYkLG35pym
+        status: active
+        display_name: 王信
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,7 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_MdJHKADyMQk6VMaKNEyXK2 | 王棟 | accepted |
+| ancestors | p_MemBevEtxLnjXYkLG35pym | 王信 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王棟（CBDB 209976）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209976&o=json)
 - [中国历代人物传记资料库：王淑民（CBDB 205869）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205869&o=json)
+- [中国历代人物传记资料库：王信（CBDB 209974）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209974&o=json)

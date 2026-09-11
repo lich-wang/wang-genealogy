@@ -4,7 +4,7 @@ id: p_mPHsf6VHzJt1o5uC9iYCJS
 status: active
 merged_into: null
 display_name: 王興
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_pDoo-F4hLUiuxKaLh3nIa-
+        subject_person_id: p_mPHsf6VHzJt1o5uC9iYCJS
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_WQELCyNtxHbkJD3Uq4LakB
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NPUugZ6AU6N5eMq8AIkYgj
+          claim_id: c_pDoo-F4hLUiuxKaLh3nIa-
+          source_id: s_AcSW794C97fH2MwBqGFNPM
+          stance: supports
+          locator: 弘治十八年進士登科錄:一卷，第三甲第二十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WQELCyNtxHbkJD3Uq4LakB
+        status: active
+        display_name: 王堯封
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_WQELCyNtxHbkJD3Uq4LakB | 王堯封 | accepted |
 
 ## 外部来源
 

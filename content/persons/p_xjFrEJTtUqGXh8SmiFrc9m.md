@@ -4,7 +4,7 @@ id: p_xjFrEJTtUqGXh8SmiFrc9m
 status: active
 merged_into: null
 display_name: 王光濟
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_nUIP5ZYoVEDsUFo4Wz3izg
+        subject_person_id: p_N8KkzPBYZP1o7g6fiUXXY5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xjFrEJTtUqGXh8SmiFrc9m
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PUN0-onWGYaprk8aNl9FJT
+          claim_id: c_nUIP5ZYoVEDsUFo4Wz3izg
+          source_id: s_bu3TayYnW4B95gGyu3jBkW
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第一百六十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_bu3TayYnW4B95gGyu3jBkW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎬（CBDB 282378）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282378&o=json
+            external_identifier: CBDB:282378
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.080Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_N8KkzPBYZP1o7g6fiUXXY5
+        status: active
+        display_name: 王鎬
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +237,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_N8KkzPBYZP1o7g6fiUXXY5 | 王鎬 | accepted |
 | ancestors | p_7gQ1A5JJhdgVDMXJML3ofq | 王璔 | accepted |
 | ancestors | p_Ggo2BpyyhfrE6os3unF236 | 王勛 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王光濟（CBDB 202037）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202037&o=json)
+- [中国历代人物传记资料库：王鎬（CBDB 282378）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282378&o=json)
 - [中国历代人物传记资料库：王勛（CBDB 282376）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282376&o=json)
 - [中国历代人物传记资料库：王璔（CBDB 282377）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282377&o=json)

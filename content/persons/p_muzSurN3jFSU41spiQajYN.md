@@ -4,7 +4,7 @@ id: p_muzSurN3jFSU41spiQajYN
 status: active
 merged_into: null
 display_name: 王青
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_3G7EX3lKf8oAFDE-DvRd1v
+        subject_person_id: p_muzSurN3jFSU41spiQajYN
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_RxU5daA7Pb2tQNaYot8QGE
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_juvH53hdPLOFN_Yo45OP9-
+          claim_id: c_3G7EX3lKf8oAFDE-DvRd1v
+          source_id: s_pBk538th3gJ4P2ZVHY6ThC
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第九十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RxU5daA7Pb2tQNaYot8QGE
+        status: active
+        display_name: 王術
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_RxU5daA7Pb2tQNaYot8QGE | 王術 | accepted |
 
 ## 外部来源
 

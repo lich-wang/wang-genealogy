@@ -4,7 +4,7 @@ id: p_meEJMsmnSyJgXvxdt3zvHa
 status: active
 merged_into: null
 display_name: 王逆修
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,112 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_q-CDFO1caHBZUI0W3Epc5y
+        subject_person_id: p_7VtVn2P2atR33u6A8tLqwk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_meEJMsmnSyJgXvxdt3zvHa
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3SPIcilPciteO77lTd0iKs
+          claim_id: c_q-CDFO1caHBZUI0W3Epc5y
+          source_id: s_TDk5jVoLtbDiipRDH6amS1
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_7VtVn2P2atR33u6A8tLqwk
+        status: active
+        display_name: 王諫
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_2jn_SlKY2uaGrIx4Jfmvr6
+        subject_person_id: p_meEJMsmnSyJgXvxdt3zvHa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GhcftFFv7bteMjJZwTKCkF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OCzChk78IMVTV8pXELkxvt
+          claim_id: c_2jn_SlKY2uaGrIx4Jfmvr6
+          source_id: s_TDk5jVoLtbDiipRDH6amS1
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GhcftFFv7bteMjJZwTKCkF
+        status: active
+        display_name: 王昌銳
+        merged_into_person_id: null
+    - claim:
+        id: c_i0D8Z_evvjY1tq1jDnLff1
+        subject_person_id: p_meEJMsmnSyJgXvxdt3zvHa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EqUQzim757jJ6Mr5G2v9og
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yVczi7YKVG--1o3XfbI55T
+          claim_id: c_i0D8Z_evvjY1tq1jDnLff1
+          source_id: s_TDk5jVoLtbDiipRDH6amS1
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_EqUQzim757jJ6Mr5G2v9og
+        status: active
+        display_name: 王昌鉥
+        merged_into_person_id: null
+    - claim:
+        id: c_kF6LICb7NNHmR8viyBK2Ne
+        subject_person_id: p_meEJMsmnSyJgXvxdt3zvHa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vCGBgbgvgrm36F1yrFyGJH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v6CQcYbtNJHS0KtScQTpFG
+          claim_id: c_kF6LICb7NNHmR8viyBK2Ne
+          source_id: s_TDk5jVoLtbDiipRDH6amS1
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vCGBgbgvgrm36F1yrFyGJH
+        status: active
+        display_name: 王昌鉷
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +259,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_7VtVn2P2atR33u6A8tLqwk | 王諫 | accepted |
+| children | p_GhcftFFv7bteMjJZwTKCkF | 王昌銳 | accepted |
+| children | p_EqUQzim757jJ6Mr5G2v9og | 王昌鉥 | accepted |
+| children | p_vCGBgbgvgrm36F1yrFyGJH | 王昌鉷 | accepted |
 
 ## 外部来源
 

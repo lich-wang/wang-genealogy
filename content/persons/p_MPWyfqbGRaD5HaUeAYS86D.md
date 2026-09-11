@@ -4,7 +4,7 @@ id: p_MPWyfqbGRaD5HaUeAYS86D
 status: active
 merged_into: null
 display_name: 王漢文
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_8gY_tRTJaXmtgnHL3cjpxJ
+        subject_person_id: p_RJHZpoUqqnfgB9kSGdY4H7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MPWyfqbGRaD5HaUeAYS86D
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_idg0Roo5pAe8uhk3cI6GyP
+          claim_id: c_8gY_tRTJaXmtgnHL3cjpxJ
+          source_id: s_E9AQ4uD7Lmn2ptMPvQXei1
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13157：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RJHZpoUqqnfgB9kSGdY4H7
+        status: active
+        display_name: 王德榜
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_RJHZpoUqqnfgB9kSGdY4H7 | 王德榜 | accepted |
 
 ## 外部来源
 

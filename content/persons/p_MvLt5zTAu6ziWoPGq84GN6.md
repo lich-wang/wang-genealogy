@@ -4,7 +4,7 @@ id: p_MvLt5zTAu6ziWoPGq84GN6
 status: active
 merged_into: null
 display_name: 王會
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_7K48Qeoo-KLcY0v8pkT8ka
+        subject_person_id: p_MvLt5zTAu6ziWoPGq84GN6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hnJsBrtLd1JZGUx5u8hGVs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VHkDbYOkI-saMBx0BKnu-Y
+          claim_id: c_7K48Qeoo-KLcY0v8pkT8ka
+          source_id: s_WwEQ9J424LKr894LGGAaM3
+          stance: supports
+          locator: 永樂十年進士登科錄:一卷，第三甲第二十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hnJsBrtLd1JZGUx5u8hGVs
+        status: active
+        display_name: 王觀
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_hnJsBrtLd1JZGUx5u8hGVs | 王觀 | accepted |
 
 ## 外部来源
 

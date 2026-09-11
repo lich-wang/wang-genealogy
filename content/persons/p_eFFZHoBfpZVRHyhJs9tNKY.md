@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王玄亮
 cbdb_id: 148738
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_f-G8A1vagUmKm8ua5FiLqh
+        subject_person_id: p_mnvKHycESEfEuUPkT5JFdS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eFFZHoBfpZVRHyhJs9tNKY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nKhOcrbp8dUZzN1U4tJ9L0
+          claim_id: c_f-G8A1vagUmKm8ua5FiLqh
+          source_id: s_d7AMoMC5os4pkSBoNiLE5E
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xianheng 100：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_d7AMoMC5os4pkSBoNiLE5E
+            source_type: api_record
+            title: 中国历代人物传记资料库：王則（CBDB 139677）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139677&o=json
+            external_identifier: CBDB:139677
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.438Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_mnvKHycESEfEuUPkT5JFdS
+        status: active
+        display_name: 王則
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_mnvKHycESEfEuUPkT5JFdS | 王則 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王玄亮（CBDB 148738）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148738&o=json)
+- [中国历代人物传记资料库：王則（CBDB 139677）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139677&o=json)

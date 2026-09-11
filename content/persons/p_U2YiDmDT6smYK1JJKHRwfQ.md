@@ -4,7 +4,7 @@ id: p_U2YiDmDT6smYK1JJKHRwfQ
 status: active
 merged_into: null
 display_name: 王顒
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -167,6 +167,43 @@ relationships:
         status: active
         display_name: 王楚
         merged_into_person_id: null
+    - claim:
+        id: c_qzf2aKeyoZEX3UX8X6Uz61
+        subject_person_id: p_U2YiDmDT6smYK1JJKHRwfQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_M79KaY8vg2bzCw7nUFpsxE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bI-0xuvRLKoy6SGo2-37DV
+          claim_id: c_qzf2aKeyoZEX3UX8X6Uz61
+          source_id: s_utPkKBVbig4rw6R7vQDhAe
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_utPkKBVbig4rw6R7vQDhAe
+            source_type: api_record
+            title: 中国历代人物传记资料库：王讓（CBDB 185485）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185485&o=json
+            external_identifier: CBDB:185485
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.245Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_M79KaY8vg2bzCw7nUFpsxE
+        status: active
+        display_name: 王讓
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_5Ma5zRu2ZvuxU2DRiwu789 | 王楚 | accepted |
+| children | p_M79KaY8vg2bzCw7nUFpsxE | 王讓 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王楚（CBDB 185486）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185486&o=json)
+- [中国历代人物传记资料库：王讓（CBDB 185485）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185485&o=json)
 - [中国历代人物传记资料库：王顒（CBDB 145057）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145057&o=json)

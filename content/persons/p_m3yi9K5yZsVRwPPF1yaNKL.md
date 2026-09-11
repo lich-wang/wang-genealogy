@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王國翼
 cbdb_id: 207372
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -171,7 +171,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_BYWX3Nw-dJOn8BYq4T8fDG
+        subject_person_id: p_M5KxKvuqpJd2c6xSCDSY4t
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_m3yi9K5yZsVRwPPF1yaNKL
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_H5xYxWB719PYurjoWoy_dX
+          claim_id: c_BYWX3Nw-dJOn8BYq4T8fDG
+          source_id: s_1G7GC8E67pD61v2ZaAz8h3
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第一百□名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1G7GC8E67pD61v2ZaAz8h3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宣（CBDB 231792）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231792&o=json
+            external_identifier: CBDB:231792
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.662Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_M5KxKvuqpJd2c6xSCDSY4t
+        status: active
+        display_name: 王宣
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_he2wMHyNK6nBCLNJF5nWDE | 王志能 | accepted |
+| ancestors | p_M5KxKvuqpJd2c6xSCDSY4t | 王宣 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王國翼（CBDB 207372）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207372&o=json)
+- [中国历代人物传记资料库：王宣（CBDB 231792）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231792&o=json)
 - [中国历代人物传记资料库：王志能（CBDB 231793）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231793&o=json)

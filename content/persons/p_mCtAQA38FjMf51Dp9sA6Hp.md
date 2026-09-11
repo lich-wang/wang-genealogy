@@ -4,7 +4,7 @@ id: p_mCtAQA38FjMf51Dp9sA6Hp
 status: active
 merged_into: null
 display_name: 王溥
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_B7y3WJ1rkYeFsh1ye0I2-X
+        subject_person_id: p_mCtAQA38FjMf51Dp9sA6Hp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WF551B42q65ujmx95gTJGt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HOXscXbmO_5MJftAu3zXBy
+          claim_id: c_B7y3WJ1rkYeFsh1ye0I2-X
+          source_id: s_kXTY2YMdc649engu3sT2ZU
+          stance: supports
+          locator: 弘治十八年進士登科錄:一卷，第二甲第十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WF551B42q65ujmx95gTJGt
+        status: active
+        display_name: 王綖
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_WF551B42q65ujmx95gTJGt | 王綖 | accepted |
 
 ## 外部来源
 

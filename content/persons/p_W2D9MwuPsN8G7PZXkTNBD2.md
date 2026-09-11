@@ -4,7 +4,7 @@ id: p_W2D9MwuPsN8G7PZXkTNBD2
 status: active
 merged_into: null
 display_name: 王得春
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_3ikarDicGMOe9K6p2yDg47
+        subject_person_id: p_MU2tTmhiuXd4gZeWVvtKyQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_W2D9MwuPsN8G7PZXkTNBD2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E8vxuQuTWTt4zWURnmDoIW
+          claim_id: c_3ikarDicGMOe9K6p2yDg47
+          source_id: s_Y6cg1vrmHBW6v87xYUUoHL
+          stance: supports
+          locator: 嘉靖三十五年進士登科錄:一卷，第三甲第八十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Y6cg1vrmHBW6v87xYUUoHL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惟（CBDB 320864）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320864&o=json
+            external_identifier: CBDB:320864
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.071Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_MU2tTmhiuXd4gZeWVvtKyQ
+        status: active
+        display_name: 王惟
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_MU2tTmhiuXd4gZeWVvtKyQ | 王惟 | accepted |
 | ancestors | p_HKtsrERLbPSs3yFn5m2saF | 王錫瓉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王得春（CBDB 204563）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204563&o=json)
+- [中国历代人物传记资料库：王惟（CBDB 320864）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320864&o=json)
 - [中国历代人物传记资料库：王錫瓉（CBDB 320863）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320863&o=json)

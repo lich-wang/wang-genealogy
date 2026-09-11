@@ -4,7 +4,7 @@ id: p_tiptZjLSdHLsMK1CEEqc1u
 status: active
 merged_into: null
 display_name: 王邦瑞
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -170,7 +170,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_U7jlnMw2h3KpMb7K5TUF01
+        subject_person_id: p_maJdePo4uDP9CC2Adrq9Ld
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_tiptZjLSdHLsMK1CEEqc1u
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q6PLa4aC1oBpYg1Rmm6AfK
+          claim_id: c_U7jlnMw2h3KpMb7K5TUF01
+          source_id: s_5KPYFRbULkbSJMvJ2XopFM
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第一百九十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5KPYFRbULkbSJMvJ2XopFM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王臣（CBDB 282594）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282594&o=json
+            external_identifier: CBDB:282594
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.099Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_maJdePo4uDP9CC2Adrq9Ld
+        status: active
+        display_name: 王臣
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_1x4VQAiYkuNn8gpLF4qLiZ | 王謨 | accepted |
+| ancestors | p_maJdePo4uDP9CC2Adrq9Ld | 王臣 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王邦瑞（CBDB 68262）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68262&o=json)
+- [中国历代人物传记资料库：王臣（CBDB 282594）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282594&o=json)
 - [中国历代人物传记资料库：王謨（CBDB 282595）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282595&o=json)

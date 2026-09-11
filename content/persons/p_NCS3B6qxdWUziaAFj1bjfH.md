@@ -4,7 +4,7 @@ id: p_NCS3B6qxdWUziaAFj1bjfH
 status: active
 merged_into: null
 display_name: 王綸
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_h8XmA2-0Y67VNooX8P6p22
+        subject_person_id: p_mJNJQFE9z1VKCuzwAbNY9W
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NCS3B6qxdWUziaAFj1bjfH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_z1DaXzBpq-xHj2yik4IwPu
+          claim_id: c_h8XmA2-0Y67VNooX8P6p22
+          source_id: s_ijLiG1JpcMMKHCdWa2Gv1L
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第二甲第二十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ijLiG1JpcMMKHCdWa2Gv1L
+            source_type: api_record
+            title: 中国历代人物传记资料库：王信（CBDB 257671）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257671&o=json
+            external_identifier: CBDB:257671
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.427Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_mJNJQFE9z1VKCuzwAbNY9W
+        status: active
+        display_name: 王信
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_mJNJQFE9z1VKCuzwAbNY9W | 王信 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王綸（CBDB 126787）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126787&o=json)
+- [中国历代人物传记资料库：王信（CBDB 257671）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257671&o=json)

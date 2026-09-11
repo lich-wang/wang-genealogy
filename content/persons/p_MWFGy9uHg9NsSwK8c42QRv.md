@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王同休
 cbdb_id: 207136
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -171,7 +171,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_DlCAFr35uLobZcNgn9ZMhk
+        subject_person_id: p_MdTA9g1vPfh7eB7W38aEek
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_MWFGy9uHg9NsSwK8c42QRv
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pWywQoJaEMykQGVtykVesm
+          claim_id: c_DlCAFr35uLobZcNgn9ZMhk
+          source_id: s_4GwQtJPeQrwuWxRSdyreku
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第二甲第五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4GwQtJPeQrwuWxRSdyreku
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寰（CBDB 228266）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228266&o=json
+            external_identifier: CBDB:228266
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.555Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_MdTA9g1vPfh7eB7W38aEek
+        status: active
+        display_name: 王寰
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_kNvoZFnJm2KQZhvhLXYs7R | 王惟中 | accepted |
+| ancestors | p_MdTA9g1vPfh7eB7W38aEek | 王寰 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王寰（CBDB 228266）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228266&o=json)
 - [中国历代人物传记资料库：王同休（CBDB 207136）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207136&o=json)
 - [中国历代人物传记资料库：王惟中（CBDB 228268）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228268&o=json)

@@ -4,7 +4,7 @@ id: p_TvjN1nga4vdBGSvpaM82jn
 status: active
 merged_into: null
 display_name: 王彧
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_4MhEusLXJ-34bDNoelPb5F
+        subject_person_id: p_mpLV7oJiFdXj4zCSnQaS14
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TvjN1nga4vdBGSvpaM82jn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_H_6_XPkzbNiVU-xEL0iheu
+          claim_id: c_4MhEusLXJ-34bDNoelPb5F
+          source_id: s_zryi2LkK33o2BwF2L2reos
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第三甲第四十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_zryi2LkK33o2BwF2L2reos
+            source_type: api_record
+            title: 中国历代人物传记资料库：王勉（CBDB 237318）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237318&o=json
+            external_identifier: CBDB:237318
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.833Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_mpLV7oJiFdXj4zCSnQaS14
+        status: active
+        display_name: 王勉
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +237,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_mpLV7oJiFdXj4zCSnQaS14 | 王勉 | accepted |
 | ancestors | p_65nM45gMqWi73jRK1ss7X4 | 王輔 | accepted |
 | ancestors | p_eJBZ6JRWQGmDTsfFDkLqhK | 王元善 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王輔（CBDB 237317）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237317&o=json)
+- [中国历代人物传记资料库：王勉（CBDB 237318）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237318&o=json)
 - [中国历代人物传记资料库：王彧（CBDB 207878）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207878&o=json)
 - [中国历代人物传记资料库：王元善（CBDB 237316）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237316&o=json)

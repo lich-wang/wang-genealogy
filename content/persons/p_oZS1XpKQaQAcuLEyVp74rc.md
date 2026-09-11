@@ -4,7 +4,7 @@ id: p_oZS1XpKQaQAcuLEyVp74rc
 status: active
 merged_into: null
 display_name: 王繻
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -283,6 +283,43 @@ relationships:
         status: active
         display_name: 王稢
         merged_into_person_id: null
+    - claim:
+        id: c_MabjdP2zeMSL6WiT5g1u7W
+        subject_person_id: p_oZS1XpKQaQAcuLEyVp74rc
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_MDMp2z4mrPASjEmTKv1HCr
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Jy9P__p1CrbGwCJEA9TYJd
+          claim_id: c_MabjdP2zeMSL6WiT5g1u7W
+          source_id: s_TKg9LhfZvx2ErHHaYyx6Zp
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13223：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_TKg9LhfZvx2ErHHaYyx6Zp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王耒（CBDB 527062）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527062&o=json
+            external_identifier: CBDB:527062
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.348Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_MDMp2z4mrPASjEmTKv1HCr
+        status: active
+        display_name: 王耒
+        merged_into_person_id: null
   other: []
 ---
 
@@ -307,11 +344,13 @@ relationships:
 | children | p_GTQf4XP4NvuqCu2E9bL587 | 王即紱 | accepted |
 | children | p_ki69w5e6cja262rx6vvomK | 王澄思 | accepted |
 | descendants | p_gu94NySfSZGB2sdYaaiAsL | 王稢 | accepted |
+| descendants | p_MDMp2z4mrPASjEmTKv1HCr | 王耒 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王澄思（CBDB 527066）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527066&o=json)
 - [中国历代人物传记资料库：王即紱（CBDB 527063）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527063&o=json)
+- [中国历代人物传记资料库：王耒（CBDB 527062）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527062&o=json)
 - [中国历代人物传记资料库：王沛聞（CBDB 527064）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527064&o=json)
 - [中国历代人物传记资料库：王繻（CBDB 71295）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71295&o=json)
 - [中国历代人物传记资料库：王稢（CBDB 527065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527065&o=json)

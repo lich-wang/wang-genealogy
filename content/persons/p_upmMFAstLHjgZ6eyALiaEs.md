@@ -4,7 +4,7 @@ id: p_upmMFAstLHjgZ6eyALiaEs
 status: active
 merged_into: null
 display_name: 王顯
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_t_zyHQ9bLw6UxbhOeA74x6
+        subject_person_id: p_MxjAUiWBNpbJEtL1inDQQE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_upmMFAstLHjgZ6eyALiaEs
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aShTPZ0oRieAqGFB-d8F5H
+          claim_id: c_t_zyHQ9bLw6UxbhOeA74x6
+          source_id: s_v3sWcgH1WjEsWWv6QDMBGR
+          stance: supports
+          locator: 天順元年進士登科錄:一卷，第二甲第五十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_v3sWcgH1WjEsWWv6QDMBGR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王思敬（CBDB 261988）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261988&o=json
+            external_identifier: CBDB:261988
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.569Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_MxjAUiWBNpbJEtL1inDQQE
+        status: active
+        display_name: 王思敬
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_Kk6HtmUPLWpRJz2JGAVP8C | 王常 | accepted |
+| ancestors | p_MxjAUiWBNpbJEtL1inDQQE | 王思敬 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王常（CBDB 287119）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287119&o=json)
+- [中国历代人物传记资料库：王思敬（CBDB 261988）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261988&o=json)
 - [中国历代人物传记资料库：王顯（CBDB 198552）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198552&o=json)

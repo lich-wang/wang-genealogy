@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王弘訓
 cbdb_id: 152941
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -114,6 +114,43 @@ relationships:
         status: active
         display_name: 王方智
         merged_into_person_id: null
+    - claim:
+        id: c_aHt2vuBu8N-DukH96XF8qU
+        subject_person_id: p_yYWP56xYF7YEvgG32tAH3B
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_N6zEFEEgStf5fQ4uCRBUU6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yX2tJQRML6Z-u46-mFGUgy
+          claim_id: c_aHt2vuBu8N-DukH96XF8qU
+          source_id: s_wzH346Fo8wuaWyruQm3NXk
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_wzH346Fo8wuaWyruQm3NXk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王方茂（CBDB 175650）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175650&o=json
+            external_identifier: CBDB:175650
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.045Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_N6zEFEEgStf5fQ4uCRBUU6
+        status: active
+        display_name: 王方茂
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -138,7 +175,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_4EU5hab5MGo71FXwq1jBL2 | 王方智 | accepted |
+| children | p_N6zEFEEgStf5fQ4uCRBUU6 | 王方茂 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王方茂（CBDB 175650）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175650&o=json)
 - [中国历代人物传记资料库：王弘訓（CBDB 152941）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152941&o=json)

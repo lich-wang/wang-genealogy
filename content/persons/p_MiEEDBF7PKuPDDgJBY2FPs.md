@@ -4,7 +4,7 @@ id: p_MiEEDBF7PKuPDDgJBY2FPs
 status: active
 merged_into: null
 display_name: 王榮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_QjtAWG1ksW0oAhzI8j77sf
+        subject_person_id: p_MiEEDBF7PKuPDDgJBY2FPs
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_V99Mmn5gsgVZ4CwJWSpRRc
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J3n8QUMrb8oNxgeQvqcSy4
+          claim_id: c_QjtAWG1ksW0oAhzI8j77sf
+          source_id: s_ndS7fWEQWiKRFFu2uah7Mh
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第三甲第八十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_V99Mmn5gsgVZ4CwJWSpRRc
+        status: active
+        display_name: 王賓
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_V99Mmn5gsgVZ4CwJWSpRRc | 王賓 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_uu4yjus8EVVwp6m8E5Qav5
 status: active
 merged_into: null
 display_name: 王建中
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_apU2kiOluYSNuLNDLIRkLS
+        subject_person_id: p_mk7g7S4D3bQEXDd4TQZ87J
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uu4yjus8EVVwp6m8E5Qav5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J6Z_xZDoQ4o2lNy-lbNnT7
+          claim_id: c_apU2kiOluYSNuLNDLIRkLS
+          source_id: s_AyFU1YoxuNRAXfYCvRKqQo
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第一百六十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_AyFU1YoxuNRAXfYCvRKqQo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王言（CBDB 227348）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227348&o=json
+            external_identifier: CBDB:227348
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.503Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_mk7g7S4D3bQEXDd4TQZ87J
+        status: active
+        display_name: 王言
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +237,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_mk7g7S4D3bQEXDd4TQZ87J | 王言 | accepted |
 | ancestors | p_9f4FXEus92MxR1KgNAKHGn | 王端 | accepted |
 | ancestors | p_hnSBnT4j7rHN6LwszWa45X | 王堂 | accepted |
 
@@ -208,3 +246,4 @@ relationships:
 - [中国历代人物传记资料库：王端（CBDB 227346）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227346&o=json)
 - [中国历代人物传记资料库：王建中（CBDB 207082）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207082&o=json)
 - [中国历代人物传记资料库：王堂（CBDB 227347）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227347&o=json)
+- [中国历代人物传记资料库：王言（CBDB 227348）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227348&o=json)

@@ -4,7 +4,7 @@ id: p_M79mJ5KBSfRbXYpGUpXpnk
 status: active
 merged_into: null
 display_name: 王銳
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_7LZTZvJ2c_YdfPUFl8Vmdr
+        subject_person_id: p_M79mJ5KBSfRbXYpGUpXpnk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1oodw5KMyHddZ5LmNR35kQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LUH0zc9ruvph0ZAKcao8rK
+          claim_id: c_7LZTZvJ2c_YdfPUFl8Vmdr
+          source_id: s_Jdtxpb4ABi4DBFQTq6fXCA
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第一百三十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1oodw5KMyHddZ5LmNR35kQ
+        status: active
+        display_name: 王汝正
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_1oodw5KMyHddZ5LmNR35kQ | 王汝正 | accepted |
 
 ## 外部来源
 

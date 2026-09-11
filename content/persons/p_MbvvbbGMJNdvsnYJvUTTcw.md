@@ -4,7 +4,7 @@ id: p_MbvvbbGMJNdvsnYJvUTTcw
 status: active
 merged_into: null
 display_name: 王定
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_mXx-z7y7UG-Iw3S475-p5b
+        subject_person_id: p_seUbE6ck5GZ4hMvh3E2DNi
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MbvvbbGMJNdvsnYJvUTTcw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LHYglwf-OFkoJviBLxQTp8
+          claim_id: c_mXx-z7y7UG-Iw3S475-p5b
+          source_id: s_9hCe3bh81awyGPPjZbdRFw
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Wansuidengfeng 4：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_seUbE6ck5GZ4hMvh3E2DNi
+        status: active
+        display_name: 王弘道
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_bYF5_iVNKu2KpdMRSLFRV4
+        subject_person_id: p_MbvvbbGMJNdvsnYJvUTTcw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bujBvWgZxPpvypX9KK6kk9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_usBTNsj1Puqi1bBGNiYyaD
+          claim_id: c_bYF5_iVNKu2KpdMRSLFRV4
+          source_id: s_9hCe3bh81awyGPPjZbdRFw
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Wansuidengfeng 4：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_bujBvWgZxPpvypX9KK6kk9
+        status: active
+        display_name: 王璀
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_seUbE6ck5GZ4hMvh3E2DNi | 王弘道 | accepted |
+| children | p_bujBvWgZxPpvypX9KK6kk9 | 王璀 | accepted |
 
 ## 外部来源
 

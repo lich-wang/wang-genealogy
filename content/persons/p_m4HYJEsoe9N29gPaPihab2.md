@@ -4,7 +4,7 @@ id: p_m4HYJEsoe9N29gPaPihab2
 status: active
 merged_into: null
 display_name: 王鼎新
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_I3TdSueLAlkPDjYE8jxWM8
+        subject_person_id: p_m4HYJEsoe9N29gPaPihab2
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_YZgMMK2h5d44s5CGoUpM7o
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_l69qunP_M-zXcg1L0_r2Ax
+          claim_id: c_I3TdSueLAlkPDjYE8jxWM8
+          source_id: s_FCRnjE2idGXpBVoETrVYRE
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第一百三十一名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_YZgMMK2h5d44s5CGoUpM7o
+        status: active
+        display_name: 王盧
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_YZgMMK2h5d44s5CGoUpM7o | 王盧 | accepted |
 
 ## 外部来源
 

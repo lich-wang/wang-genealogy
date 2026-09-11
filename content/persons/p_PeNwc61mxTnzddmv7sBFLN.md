@@ -4,7 +4,7 @@ id: p_PeNwc61mxTnzddmv7sBFLN
 status: active
 merged_into: null
 display_name: 王延
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ITKQCyz89pS-LlyKL7IKsM
+        subject_person_id: p_N7qE8Uar4CzK9TTK6UVM28
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PeNwc61mxTnzddmv7sBFLN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bJeiUuB-9FGIocVQ5Y2K5H
+          claim_id: c_ITKQCyz89pS-LlyKL7IKsM
+          source_id: s_FrwWZRDBNt6pNGFBizNerf
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第九十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FrwWZRDBNt6pNGFBizNerf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王希文（CBDB 209884）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209884&o=json
+            external_identifier: CBDB:209884
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.986Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_N7qE8Uar4CzK9TTK6UVM28
+        status: active
+        display_name: 王希文
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_N7qE8Uar4CzK9TTK6UVM28 | 王希文 | accepted |
 | ancestors | p_6AWFkDwvMEx3gmWMnZMPwe | 王昺 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王昺（CBDB 209880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209880&o=json)
+- [中国历代人物传记资料库：王希文（CBDB 209884）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209884&o=json)
 - [中国历代人物传记资料库：王延（CBDB 205861）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205861&o=json)

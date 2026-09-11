@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王履豐
 cbdb_id: 517400
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_FbL7vxP89AGgNf329CliM2
+        subject_person_id: p_MCd4K9PZMg29mQ8yEPM4LA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eX4figeaUfQvW3nH6pwLG5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gw2wfpgpbnS-ZYWpGgy5Ze
+          claim_id: c_FbL7vxP89AGgNf329CliM2
+          source_id: s_D22BhvSM8bKdiDH8P5NwM7
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1867：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_D22BhvSM8bKdiDH8P5NwM7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷相（CBDB 58606）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=58606&o=json
+            external_identifier: CBDB:58606
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.823Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_MCd4K9PZMg29mQ8yEPM4LA
+        status: active
+        display_name: 王廷相
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_MCd4K9PZMg29mQ8yEPM4LA | 王廷相 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王履豐（CBDB 517400）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=517400&o=json)
+- [中国历代人物传记资料库：王廷相（CBDB 58606）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=58606&o=json)

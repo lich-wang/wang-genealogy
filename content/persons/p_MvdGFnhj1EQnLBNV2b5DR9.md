@@ -4,7 +4,7 @@ id: p_MvdGFnhj1EQnLBNV2b5DR9
 status: active
 merged_into: null
 display_name: 王宥
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -141,7 +141,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_n5jbj2Rw53DXcyXoY5ajgY
+        subject_person_id: p_MvdGFnhj1EQnLBNV2b5DR9
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1NRJDMaRvyp9yNoVJiZmjE
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ImgGncqHbF7vp9XuRHd_kc
+          claim_id: c_n5jbj2Rw53DXcyXoY5ajgY
+          source_id: s_Ru35Z2PyYiCCFegVKc97x5
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第七十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1NRJDMaRvyp9yNoVJiZmjE
+        status: active
+        display_name: 王慎德
+        merged_into_person_id: null
   other: []
 ---
 
@@ -162,6 +188,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_W1u9oKcXenmwqBgULRmE5G | 王孟璿 | accepted |
 | children | p_EoXnHjFHxPjhcD8KsqKTGz | 王訪 | accepted |
+| descendants | p_1NRJDMaRvyp9yNoVJiZmjE | 王慎德 | accepted |
 
 ## 外部来源
 

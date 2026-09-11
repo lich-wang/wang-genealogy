@@ -4,7 +4,7 @@ id: p_MMRBBo7czt6yaxo2ZFLE5C
 status: active
 merged_into: null
 display_name: 王臣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_r4lFLC9hwHTj5LE2w_Qnkd
+        subject_person_id: p_MMRBBo7czt6yaxo2ZFLE5C
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DxMro6Z24bPYtmEPhHPt4K
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6_itdDVjSpoD_ca-0MsJ1X
+          claim_id: c_r4lFLC9hwHTj5LE2w_Qnkd
+          source_id: s_mhmp5U8fZMFFT4SBr5Uz74
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第一百三十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DxMro6Z24bPYtmEPhHPt4K
+        status: active
+        display_name: 王麟趾
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_DxMro6Z24bPYtmEPhHPt4K | 王麟趾 | accepted |
 
 ## 外部来源
 

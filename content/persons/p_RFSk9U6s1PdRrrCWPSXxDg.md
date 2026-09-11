@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王中逵
 cbdb_id: 205715
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_iDr4LHyOtzuyCVXWoFndqw
+        subject_person_id: p_N3FQWHHsU1jDdJrJRdhgNj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RFSk9U6s1PdRrrCWPSXxDg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZgHttSIB70tFZoPTZsq-u6
+          claim_id: c_iDr4LHyOtzuyCVXWoFndqw
+          source_id: s_9y9mzPk6krkeAi2LATFi6v
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第二百八十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_9y9mzPk6krkeAi2LATFi6v
+            source_type: api_record
+            title: 中国历代人物传记资料库：王琇（CBDB 337340）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337340&o=json
+            external_identifier: CBDB:337340
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.513Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_N3FQWHHsU1jDdJrJRdhgNj
+        status: active
+        display_name: 王琇
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -192,9 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_N3FQWHHsU1jDdJrJRdhgNj | 王琇 | accepted |
 | ancestors | p_dVFw6z9MbPgDffNmsHfBDJ | 王振 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王琇（CBDB 337340）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337340&o=json)
 - [中国历代人物传记资料库：王振（CBDB 337339）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337339&o=json)
 - [中国历代人物传记资料库：王中逵（CBDB 205715）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205715&o=json)
