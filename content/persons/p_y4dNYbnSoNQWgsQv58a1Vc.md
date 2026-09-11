@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王荛
 cbdb_id: 175916
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -344,6 +344,32 @@ relationships:
         status: active
         display_name: 王檀
         merged_into_person_id: null
+    - claim:
+        id: c_8kjz7cmpj8le3DCaqxUxuT
+        subject_person_id: p_y4dNYbnSoNQWgsQv58a1Vc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oasX6enFsyptdBGLBCSBKD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lcKTBT-3FXbytFz5_mt6mO
+          claim_id: c_8kjz7cmpj8le3DCaqxUxuT
+          source_id: s_nkb3AmfUTwSx39T4Er3QnB
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oasX6enFsyptdBGLBCSBKD
+        status: active
+        display_name: 王定保
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -371,6 +397,7 @@ relationships:
 | children | p_N7QkTp6mJcxTzQ9cDARwW1 | 王定保 | accepted |
 | children | p_z2z3AVY3343rFBrJqxmE23 | 王权 | accepted |
 | children | p_JyeBB32hUkcTLMGNxucHth | 王檀 | accepted |
+| children | p_oasX6enFsyptdBGLBCSBKD | 王定保 | accepted |
 
 ## 外部来源
 

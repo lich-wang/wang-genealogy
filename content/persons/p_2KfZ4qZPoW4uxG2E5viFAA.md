@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王大劍
 cbdb_id: 141434
-revision: 7
+revision: 8
 properties:
   - predicate: bio.summary
     recommended:
@@ -361,6 +361,82 @@ relationships:
         status: active
         display_name: 王惟能
         merged_into_person_id: null
+    - claim:
+        id: c_1ptblbLPxIJOeNbqhAA7nT
+        subject_person_id: p_2KfZ4qZPoW4uxG2E5viFAA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xstReVEZF7hEKiC5JdF1TW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qHkXhCXzV6FquOG8uhrKAS
+          claim_id: c_1ptblbLPxIJOeNbqhAA7nT
+          source_id: s_NdbC1zcrNvSJiU8tNJMgt9
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yuanhe 34：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_NdbC1zcrNvSJiU8tNJMgt9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王八娘（CBDB 156471）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=156471&o=json
+            external_identifier: CBDB:156471
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.122Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_xstReVEZF7hEKiC5JdF1TW
+        status: active
+        display_name: 王八娘
+        merged_into_person_id: null
+    - claim:
+        id: c_nfvXja4b4dU-HtxFByfden
+        subject_person_id: p_2KfZ4qZPoW4uxG2E5viFAA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_y12rxzQxTL6iig8jBYZ6mM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mbST4mbcST3HVW25CikBMt
+          claim_id: c_nfvXja4b4dU-HtxFByfden
+          source_id: s_WxyyMxxdX7kfyg6RAuA9Qn
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yuanhe 34：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_WxyyMxxdX7kfyg6RAuA9Qn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王義溫（CBDB 156476）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=156476&o=json
+            external_identifier: CBDB:156476
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.122Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_y12rxzQxTL6iig8jBYZ6mM
+        status: active
+        display_name: 王義溫
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -428,14 +504,18 @@ relationships:
 | children | p_MSk1PtjLTLMbvfdB2BUX6c | 王重陽 | accepted |
 | children | p_XEn4BZkQnFA7WBVttoYhFo | 王惟明 | accepted |
 | children | p_PkrR59UMH8iSwkRQmxk4FZ | 王惟能 | accepted |
+| children | p_xstReVEZF7hEKiC5JdF1TW | 王八娘 | accepted |
+| children | p_y12rxzQxTL6iig8jBYZ6mM | 王義溫 | accepted |
 | ancestors | p_dsXDbzf3uzBdHwwc8H9ywp | 王渾 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王八娘（CBDB 156471）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=156471&o=json)
 - [中国历代人物传记资料库：王大劍（CBDB 141434）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141434&o=json)
 - [中国历代人物传记资料库：王渾（CBDB 156469）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=156469&o=json)
 - [中国历代人物传记资料库：王洎（CBDB 156474）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=156474&o=json)
 - [中国历代人物传记资料库：王令均（CBDB 156470）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=156470&o=json)
 - [中国历代人物传记资料库：王惟明（CBDB 156472）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=156472&o=json)
 - [中国历代人物传记资料库：王惟能（CBDB 156473）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=156473&o=json)
+- [中国历代人物传记资料库：王義溫（CBDB 156476）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=156476&o=json)
 - [中国历代人物传记资料库：王重陽（CBDB 156475）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=156475&o=json)

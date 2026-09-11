@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王罍
 cbdb_id: 266729
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:266729
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_MDpqgWNHEj6A8FLWAD3zbM
             source_type: api_record
             title: 中国历代人物传记资料库：王罍（CBDB 266729）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_XVoF_fzMwsOjyelmxDyRrK
+        subject_person_id: p_XS4nwAXFmAH53tQmi43AXd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_xF6zkmGrf6YvrKuUEphBZ1
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PZPR9uVttv_WOgKr7Tx0zK
+          claim_id: c_XVoF_fzMwsOjyelmxDyRrK
+          source_id: s_MDpqgWNHEj6A8FLWAD3zbM
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第二百零四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xF6zkmGrf6YvrKuUEphBZ1
+        status: active
+        display_name: 王震
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_xF6zkmGrf6YvrKuUEphBZ1 | 王震 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王命時
 cbdb_id: 69275
-revision: 6
+revision: 7
 properties:
   - predicate: bio.summary
     recommended:
@@ -483,6 +483,44 @@ relationships:
         status: active
         display_name: 王符電
         merged_into_person_id: null
+    - claim:
+        id: c_bAyzwIT3ovi2btB556UQya
+        subject_person_id: p_V9Mdqt7Q4vUXMLyaLoUhgr
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_YTphbxsFBQ8wzvqK1botSe
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AU9GpAKe9f_j8oAX77JTbL
+          claim_id: c_bAyzwIT3ovi2btB556UQya
+          source_id: s_8GnBPMqBtVJkRTiEawCW7M
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12977：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8GnBPMqBtVJkRTiEawCW7M
+            source_type: api_record
+            title: 中国历代人物传记资料库：王菼（CBDB 526817）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526817&o=json
+            external_identifier: CBDB:526817
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:18.829Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_YTphbxsFBQ8wzvqK1botSe
+        status: active
+        display_name: 王菼
+        merged_into_person_id: null
   other: []
 ---
 
@@ -511,6 +549,7 @@ relationships:
 | descendants | p_Vcyaehh7496j3B412JBLPE | 王符霖 | accepted |
 | descendants | p_wyrr83z8jLSxAnXvyzEesA | 王符霦 | accepted |
 | descendants | p_xh97AA3qNTMYDkd8eSEMA4 | 王符電 | accepted |
+| descendants | p_YTphbxsFBQ8wzvqK1botSe | 王菼 | accepted |
 
 ## 外部来源
 
@@ -522,4 +561,5 @@ relationships:
 - [中国历代人物传记资料库：王符雯（CBDB 526811）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526811&o=json)
 - [中国历代人物传记资料库：王命時（CBDB 69275）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69275&o=json)
 - [中国历代人物传记资料库：王世輔（CBDB 526809）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526809&o=json)
+- [中国历代人物传记资料库：王菼（CBDB 526817）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526817&o=json)
 - [中国历代人物传记资料库：王孝輅（CBDB 526810）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526810&o=json)

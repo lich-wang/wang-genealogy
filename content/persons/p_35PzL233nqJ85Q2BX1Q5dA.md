@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王良柱
 cbdb_id: 202803
-revision: 11
+revision: 12
 properties:
   - predicate: bio.summary
     recommended:
@@ -701,6 +701,44 @@ relationships:
         status: active
         display_name: 王亘京
         merged_into_person_id: null
+    - claim:
+        id: c_4RuCYvN1cCEa4A6Zs2Spns
+        subject_person_id: p_35PzL233nqJ85Q2BX1Q5dA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ywFJ54QHDsobpcY9CXnv6f
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_w-qGgrW8pe8XKODsrHAQP_
+          claim_id: c_4RuCYvN1cCEa4A6Zs2Spns
+          source_id: s_X2DGErd3jHhDqrTsXtxH8Z
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第二百一十九名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_X2DGErd3jHhDqrTsXtxH8Z
+            source_type: api_record
+            title: 中国历代人物传记资料库：王觀京（CBDB 294724）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294724&o=json
+            external_identifier: CBDB:294724
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:03.722Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_ywFJ54QHDsobpcY9CXnv6f
+        status: active
+        display_name: 王觀京
+        merged_into_person_id: null
   other: []
 ---
 
@@ -735,6 +773,7 @@ relationships:
 | descendants | p_sziDCoXrKTUefCn4kaJ4E8 | 王坊京 | accepted |
 | descendants | p_uWS3ofLwxoYWjnRbSLuL1G | 王在京 | accepted |
 | descendants | p_WLV64Ck8v3CgJLVH6Th9Nz | 王亘京 | accepted |
+| descendants | p_ywFJ54QHDsobpcY9CXnv6f | 王觀京 | accepted |
 
 ## 外部来源
 
@@ -744,6 +783,7 @@ relationships:
 - [中国历代人物传记资料库：王點（CBDB 294719）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294719&o=json)
 - [中国历代人物传记资料库：王坊京（CBDB 294722）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294722&o=json)
 - [中国历代人物传记资料库：王亘京（CBDB 294727）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294727&o=json)
+- [中国历代人物传记资料库：王觀京（CBDB 294724）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294724&o=json)
 - [中国历代人物传记资料库：王海（CBDB 294712）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294712&o=json)
 - [中国历代人物传记资料库：王基京（CBDB 294730）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294730&o=json)
 - [中国历代人物传记资料库：王繼曾（CBDB 294731）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294731&o=json)

@@ -4,7 +4,7 @@ id: p_EbU5HxFXjQt3D8gkdNvhGE
 status: active
 merged_into: null
 display_name: 王之麟
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,44 @@ relationships:
         status: active
         display_name: 王寶
         merged_into_person_id: null
+    - claim:
+        id: c_50SaxX_rMi_Ra3f_7mZLCr
+        subject_person_id: p_ZjkaBvUPn3V9BYvGQFwbCC
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_EbU5HxFXjQt3D8gkdNvhGE
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8TRqlnaYw9qPv629Etanm8
+          claim_id: c_50SaxX_rMi_Ra3f_7mZLCr
+          source_id: s_tK5DGgKwKPkEPzYhMjfGNq
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第二甲第五十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_tK5DGgKwKPkEPzYhMjfGNq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王允學（CBDB 216052）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216052&o=json
+            external_identifier: CBDB:216052
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:56.502Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_ZjkaBvUPn3V9BYvGQFwbCC
+        status: active
+        display_name: 王允學
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_ACyEmNR3JYfTVCeFjd3Md9 | 王萬齡 | accepted |
 | ancestors | p_RZu8FUK4T6DppZ6UkLp2fJ | 王寶 | accepted |
+| ancestors | p_ZjkaBvUPn3V9BYvGQFwbCC | 王允學 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王寶（CBDB 216053）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216053&o=json)
 - [中国历代人物传记资料库：王萬齡（CBDB 216054）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216054&o=json)
+- [中国历代人物传记资料库：王允學（CBDB 216052）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216052&o=json)
 - [中国历代人物传记资料库：王之麟（CBDB 338691）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338691&o=json)

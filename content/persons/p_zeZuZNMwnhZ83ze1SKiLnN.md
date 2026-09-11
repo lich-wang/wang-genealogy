@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 魏氏
 cbdb_id: 309377
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -69,7 +69,7 @@ properties:
           locator: Q65833790
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_s4udXjXLp9PL5w2fMFPSWd
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：魏氏（309377）
@@ -211,6 +211,32 @@ relationships:
         status: active
         display_name: 王世贞
         merged_into_person_id: null
+    - claim:
+        id: c_DlTFW9Lzub2YG2w9q2tUSc
+        subject_person_id: p_zeZuZNMwnhZ83ze1SKiLnN
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_THQx38bKosUpdXRAkw2R2w
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qE81ZsYL_gvZf3UYbyzwos
+          claim_id: c_DlTFW9Lzub2YG2w9q2tUSc
+          source_id: s_s4udXjXLp9PL5w2fMFPSWd
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第二甲第八十名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_THQx38bKosUpdXRAkw2R2w
+        status: active
+        display_name: 王世貞
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -232,6 +258,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_g5KSSBRpZ9iAzVfbXmLaWQ | 王世贞 | accepted |
+| spouses | p_THQx38bKosUpdXRAkw2R2w | 王世貞 | accepted |
 
 ## 外部来源
 

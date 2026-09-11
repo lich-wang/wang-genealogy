@@ -4,7 +4,7 @@ id: p_1CAD7Cg5ACndjPsTMwMUQ7
 status: merged
 merged_into: p_SAKZSsVXkQRnwcLYqa1oYe
 display_name: 王越
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -189,6 +189,43 @@ relationships:
         status: active
         display_name: 王显道
         merged_into_person_id: null
+    - claim:
+        id: c_UtJB6ieFqHmVlzs0FSCtBC
+        subject_person_id: p_zicKU4bgAdp55gRC45KJy4
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1CAD7Cg5ACndjPsTMwMUQ7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rmBxBkvlwyB1mq-BtWnlNS
+          claim_id: c_UtJB6ieFqHmVlzs0FSCtBC
+          source_id: s_mtFcgp3xDR89PN7wPgktju
+          stance: supports
+          locator: 景泰二年進士登科錄:一卷，第三甲第六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_mtFcgp3xDR89PN7wPgktju
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王子忠（326662）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326662&o=json
+            external_identifier: CBDB:326662
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:38.978Z
+            metadata_json: null
+      object_person:
+        id: p_zicKU4bgAdp55gRC45KJy4
+        status: active
+        display_name: 王子忠
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_V0nq7IVQHmkt7sdmaHwt09
@@ -249,6 +286,7 @@ relationships:
 | parents | p_6Uj7h3k6AcMQquEzQiGzSE | 王颐 | accepted |
 | spouses | p_FN4LC4aWu5z2P5PomfDcX6 | 孙氏 | accepted |
 | ancestors | p_nbMxKWfrWz4c9en3TGuwmJ | 王显道 | accepted |
+| ancestors | p_zicKU4bgAdp55gRC45KJy4 | 王子忠 | accepted |
 | descendants | p_7o2TASpnCzbdm18pkh4MB9 | 王紹思 | accepted |
 
 ## 外部来源
@@ -258,3 +296,4 @@ relationships:
 - [CBDB 中国历代人物传记资料库：孫氏（326997）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326997&o=json)
 - [CBDB 中国历代人物传记资料库：王顯道（326551）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326551&o=json)
 - [CBDB 中国历代人物传记资料库：王頤（326773）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326773&o=json)
+- [CBDB 中国历代人物传记资料库：王子忠（326662）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326662&o=json)

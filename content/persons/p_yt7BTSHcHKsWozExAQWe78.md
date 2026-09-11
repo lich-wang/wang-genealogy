@@ -4,7 +4,7 @@ id: p_yt7BTSHcHKsWozExAQWe78
 status: active
 merged_into: null
 display_name: 王純
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -152,6 +152,44 @@ relationships:
         status: active
         display_name: 王潛
         merged_into_person_id: null
+    - claim:
+        id: c_e9eXscy5USIGHOkHgdeYXa
+        subject_person_id: p_z5CxExuyo9Vg314B28Rnen
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_yt7BTSHcHKsWozExAQWe78
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_McyltdoIIq1t6cggAT8WfQ
+          claim_id: c_e9eXscy5USIGHOkHgdeYXa
+          source_id: s_FuKTh7xsGKR7QyRLQE4g6E
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FuKTh7xsGKR7QyRLQE4g6E
+            source_type: api_record
+            title: 中国历代人物传记资料库：王祖昌（CBDB 264713）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264713&o=json
+            external_identifier: CBDB:264713
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:01.428Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_z5CxExuyo9Vg314B28Rnen
+        status: active
+        display_name: 王祖昌
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -173,9 +211,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_uDFyS67KkM247fUDTDP1d8 | 王琯 | accepted |
 | ancestors | p_nxBo2SnEXoxZTjrPEbFJoT | 王潛 | accepted |
+| ancestors | p_z5CxExuyo9Vg314B28Rnen | 王祖昌 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王純（CBDB 126658）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126658&o=json)
 - [中国历代人物传记资料库：王琯（CBDB 264716）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264716&o=json)
 - [中国历代人物传记资料库：王潛（CBDB 264715）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264715&o=json)
+- [中国历代人物传记资料库：王祖昌（CBDB 264713）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264713&o=json)

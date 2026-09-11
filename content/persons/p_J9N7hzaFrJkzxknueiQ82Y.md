@@ -4,7 +4,7 @@ id: p_J9N7hzaFrJkzxknueiQ82Y
 status: active
 merged_into: null
 display_name: 王度
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -181,6 +181,44 @@ relationships:
         status: active
         display_name: 王所安
         merged_into_person_id: null
+    - claim:
+        id: c_mFp8rxaxi61y-kv2O4JtXz
+        subject_person_id: p_zePF3BjH5HucUc8QauwQdp
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_J9N7hzaFrJkzxknueiQ82Y
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6exGC-urxssPiQGxkfCK_g
+          claim_id: c_mFp8rxaxi61y-kv2O4JtXz
+          source_id: s_NJ4uDTcgp13fKXjBCRcNtp
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第二百零七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_NJ4uDTcgp13fKXjBCRcNtp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子通（CBDB 280841）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280841&o=json
+            external_identifier: CBDB:280841
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:02.295Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_zePF3BjH5HucUc8QauwQdp
+        status: active
+        display_name: 王子通
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -203,9 +241,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_E31oomNBRBVCzfypYEt5JV | 王嘉謀 | accepted |
 | ancestors | p_5JaskhrdQ3PeuLsNvA3kdk | 王所安 | accepted |
+| ancestors | p_zePF3BjH5HucUc8QauwQdp | 王子通 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王度（CBDB 198501）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198501&o=json)
 - [中国历代人物传记资料库：王嘉謀（CBDB 280852）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280852&o=json)
 - [中国历代人物传记资料库：王所安（CBDB 280830）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280830&o=json)
+- [中国历代人物传记资料库：王子通（CBDB 280841）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280841&o=json)

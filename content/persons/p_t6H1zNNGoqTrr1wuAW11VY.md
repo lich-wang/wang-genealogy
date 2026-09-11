@@ -4,7 +4,7 @@ id: p_t6H1zNNGoqTrr1wuAW11VY
 status: active
 merged_into: null
 display_name: 王宗
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -110,7 +110,45 @@ relationships:
         status: active
         display_name: 王雲
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_RIokwmz_E15auKgT4VIUUm
+        subject_person_id: p_t6H1zNNGoqTrr1wuAW11VY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ymVoLoLnc39GHgwFwHrHgf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4GCj2iNe5GYBG3Fh9ABJXF
+          claim_id: c_RIokwmz_E15auKgT4VIUUm
+          source_id: s_1X6TeJAtkAJLLfKewJ4FGL
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1X6TeJAtkAJLLfKewJ4FGL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王虔徽（CBDB 160569）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160569&o=json
+            external_identifier: CBDB:160569
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.741Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_ymVoLoLnc39GHgwFwHrHgf
+        status: active
+        display_name: 王虔徽
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +173,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_BzEC3FxQZmQshcKpSR8HHx | 王雲 | accepted |
+| children | p_ymVoLoLnc39GHgwFwHrHgf | 王虔徽 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王虔徽（CBDB 160569）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160569&o=json)
 - [中国历代人物传记资料库：王雲（CBDB 160565）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160565&o=json)
 - [中国历代人物传记资料库：王宗（CBDB 157073）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157073&o=json)

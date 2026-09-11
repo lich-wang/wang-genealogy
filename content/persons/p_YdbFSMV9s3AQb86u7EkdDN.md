@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王臣
 cbdb_id: 313120
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -207,7 +207,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_uifu15VOrBIKwLG8LFVFCd
+        subject_person_id: p_YdbFSMV9s3AQb86u7EkdDN
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_KbE3VYwBQk3rLuTGnVB2me
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vOqYtgFieA3o9vYMk_5rFA
+          claim_id: c_uifu15VOrBIKwLG8LFVFCd
+          source_id: s_KyBpH45EBm8fnXU9NBUHLP
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第四十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_KbE3VYwBQk3rLuTGnVB2me
+        status: active
+        display_name: 王正国
+        merged_into_person_id: null
   other: []
 ---
 
@@ -228,6 +254,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_hhC7WcHCPL6E8fvMUH5DQ3 | 王璘 | accepted |
 | children | p_fubDQJjS45y6q3DDqG3cmV | 王谟 | accepted |
+| descendants | p_KbE3VYwBQk3rLuTGnVB2me | 王正国 | accepted |
 
 ## 外部来源
 

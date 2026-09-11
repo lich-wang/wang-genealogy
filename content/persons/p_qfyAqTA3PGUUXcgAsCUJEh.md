@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王正思
 cbdb_id: 202442
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -482,6 +482,43 @@ relationships:
         status: active
         display_name: 王天敘
         merged_into_person_id: null
+    - claim:
+        id: c_rpAolK0Lk6-h1BByppTlgU
+        subject_person_id: p_ykr41UEw3NbJSps62ktjHo
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qfyAqTA3PGUUXcgAsCUJEh
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Dk4t5gZZigvSP_WhQn7vd5
+          claim_id: c_rpAolK0Lk6-h1BByppTlgU
+          source_id: s_aVEAyH6iiqF9XEyv6DXK6Q
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第二甲第八十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_aVEAyH6iiqF9XEyv6DXK6Q
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王袞（288232）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288232&o=json
+            external_identifier: CBDB:288232
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:10:11.188Z
+            metadata_json: null
+      object_person:
+        id: p_ykr41UEw3NbJSps62ktjHo
+        status: active
+        display_name: 王衮
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -507,6 +544,7 @@ relationships:
 | ancestors | p_1kZF9QBi4ZCyjKfPjzwHnS | 王天叙 | accepted |
 | ancestors | p_PGJAWHxYxJtx3aVz4EvhUR | 王衮 | accepted |
 | ancestors | p_sgvxiNtEF15kwvGBJ1JQTz | 王天敘 | accepted |
+| ancestors | p_ykr41UEw3NbJSps62ktjHo | 王衮 | accepted |
 
 ## 外部来源
 
@@ -516,5 +554,6 @@ relationships:
 - [中国历代人物传记资料库：王天敘（CBDB 288231）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288231&o=json)
 - [中文维基百科：王正思](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%AD%A3%E6%80%9D)
 - [CBDB 中国历代人物传记资料库：陳氏（288235）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288235&o=json)
+- [CBDB 中国历代人物传记资料库：王袞（288232）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288232&o=json)
 - [CBDB 中国历代人物传记资料库：王守禮（288233）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288233&o=json)
 - [CBDB 中国历代人物传记资料库：王正思（202442）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202442&o=json)

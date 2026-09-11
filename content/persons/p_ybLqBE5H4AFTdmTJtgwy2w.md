@@ -4,7 +4,7 @@ id: p_ybLqBE5H4AFTdmTJtgwy2w
 status: active
 merged_into: null
 display_name: 王存忠
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c__7lMBo_BnxGERXo70itUJW
+        subject_person_id: p_zYsGWZ26RZr9NP9BPEi82D
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ybLqBE5H4AFTdmTJtgwy2w
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_14qfRBstEnN8GR2dnBlTTm
+          claim_id: c__7lMBo_BnxGERXo70itUJW
+          source_id: s_uoJi7xEyKf6DNa9MsXc2ow
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第二百一十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_uoJi7xEyKf6DNa9MsXc2ow
+            source_type: api_record
+            title: 中国历代人物传记资料库：王永潮（CBDB 260630）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260630&o=json
+            external_identifier: CBDB:260630
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:00.581Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_zYsGWZ26RZr9NP9BPEi82D
+        status: active
+        display_name: 王永潮
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -201,6 +239,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_zYsGWZ26RZr9NP9BPEi82D | 王永潮 | accepted |
 | ancestors | p_jAsZukDNAeNHmk16362L7C | 王思明 | accepted |
 | ancestors | p_dZgW4VsZQ7RHA497W3Qg63 | 王文彬 | accepted |
 
@@ -209,3 +248,4 @@ relationships:
 - [中国历代人物传记资料库：王存忠（CBDB 200628）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200628&o=json)
 - [中国历代人物传记资料库：王思明（CBDB 260628）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260628&o=json)
 - [中国历代人物传记资料库：王文彬（CBDB 260629）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260629&o=json)
+- [中国历代人物传记资料库：王永潮（CBDB 260630）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260630&o=json)

@@ -4,7 +4,7 @@ id: p_T2DCj9d6XKU4djHJMs2kSM
 status: active
 merged_into: null
 display_name: 王恕
-revision: 7
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -316,6 +316,44 @@ relationships:
         status: active
         display_name: 王承祿
         merged_into_person_id: null
+    - claim:
+        id: c_lEV296fxoGCKiOCKq7r6iE
+        subject_person_id: p_T2DCj9d6XKU4djHJMs2kSM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zgv1SMZqH9eDf28KchsL7f
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EKPwJPW-X84HRhcKw7piFm
+          claim_id: c_lEV296fxoGCKiOCKq7r6iE
+          source_id: s_HqhdUtZAf4v3PL3Gdz18ew
+          stance: supports
+          locator: 王端毅公文集:九卷，29.5a：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_HqhdUtZAf4v3PL3Gdz18ew
+            source_type: api_record
+            title: 中国历代人物传记资料库：王承禋（CBDB 264049）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264049&o=json
+            external_identifier: CBDB:264049
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:01.428Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_zgv1SMZqH9eDf28KchsL7f
+        status: active
+        display_name: 王承禋
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -457,6 +495,7 @@ relationships:
 | children | p_j4RsuRBKFYJbK5j9md2YXD | 王承裕 | accepted |
 | children | p_Rt8zszeV3ee7gT623mGP46 | 王承祥 | accepted |
 | children | p_3M6kuHH9zakyDuQ7sPhqpb | 王承祿 | accepted |
+| children | p_zgv1SMZqH9eDf28KchsL7f | 王承禋 | accepted |
 | spouses | p_6YXXSJdAPJLEUzeSSmAThW | 盖氏 | accepted |
 | ancestors | p_1LjXtHaC5ZgBX5ntEmabuX | 王彦成 | accepted |
 | ancestors | p_m8pEmRBSH6ayXuTKwEAjBF | 王惟真 | accepted |
@@ -466,6 +505,7 @@ relationships:
 - [中国历代人物传记资料库：王承祜（CBDB 264044）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264044&o=json)
 - [中国历代人物传记资料库：王承祿（CBDB 264046）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264046&o=json)
 - [中国历代人物传记资料库：王承祥（CBDB 264048）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264048&o=json)
+- [中国历代人物传记资料库：王承禋（CBDB 264049）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264049&o=json)
 - [中国历代人物传记资料库：王承裕（CBDB 67772）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67772&o=json)
 - [中国历代人物传记资料库：王恕（CBDB 62505）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=62505&o=json)
 - [CBDB 中国历代人物传记资料库：蓋氏（240861）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240861&o=json)

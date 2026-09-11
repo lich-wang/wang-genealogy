@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王宗果
 cbdb_id: 217868
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -225,6 +225,32 @@ relationships:
         status: active
         display_name: 王士性
         merged_into_person_id: null
+    - claim:
+        id: c_LiBwiD3Uc83gv8s5pZOEf0
+        subject_person_id: p_zN5CkYRsAqXYKS76qUps77
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_K23baGuNzCVmxSWXhhYJ4B
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Xq4BSZaTPGN0nXdUuTcYOQ
+          claim_id: c_LiBwiD3Uc83gv8s5pZOEf0
+          source_id: s_dfhF9ye4VCGanMLbAtkYJK
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第三甲第一百六十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_K23baGuNzCVmxSWXhhYJ4B
+        status: active
+        display_name: 王士性
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -250,6 +276,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_tc8tLCyEu49sXcAYbw2GP6 | 王訚 | accepted |
 | children | p_ZHWKRzPsbezhFJuM1r6DbE | 王士性 | accepted |
+| children | p_K23baGuNzCVmxSWXhhYJ4B | 王士性 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王伍
 cbdb_id: 217730
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -208,7 +208,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_ZkypYFnypEdHtWl3T8Kx4M
+        subject_person_id: p_XwKHLH17io2m6CKt414qzT
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5r1wESpKqnWgbhR5AChbjE
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__VzyUUqs4u7XTig1OWIjVr
+          claim_id: c_ZkypYFnypEdHtWl3T8Kx4M
+          source_id: s_FJ1HG7BynJqSbkFRirS4id
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第三甲第一百五十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5r1wESpKqnWgbhR5AChbjE
+        status: active
+        display_name: 王之猷
+        merged_into_person_id: null
   other: []
 ---
 
@@ -229,6 +255,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_VTPD5ERN4nKpvDScS6wxja | 王贵 | accepted |
 | children | p_dFBcsKbnFVcHN4YTvXeRwY | 王麟 | accepted |
+| descendants | p_5r1wESpKqnWgbhR5AChbjE | 王之猷 | accepted |
 
 ## 外部来源
 

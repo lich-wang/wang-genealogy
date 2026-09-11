@@ -4,7 +4,7 @@ id: p_THQx38bKosUpdXRAkw2R2w
 status: active
 merged_into: null
 display_name: 王世貞
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -206,7 +206,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_DlTFW9Lzub2YG2w9q2tUSc
+        subject_person_id: p_zeZuZNMwnhZ83ze1SKiLnN
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_THQx38bKosUpdXRAkw2R2w
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qE81ZsYL_gvZf3UYbyzwos
+          claim_id: c_DlTFW9Lzub2YG2w9q2tUSc
+          source_id: s_s4udXjXLp9PL5w2fMFPSWd
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第二甲第八十名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_s4udXjXLp9PL5w2fMFPSWd
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：魏氏（309377）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309377&o=json
+            external_identifier: CBDB:309377
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T02:49:33.024Z
+            metadata_json: null
+      object_person:
+        id: p_zeZuZNMwnhZ83ze1SKiLnN
+        status: active
+        display_name: 魏氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_PT-JrbfjrB0pErdAGN0xgG
@@ -305,6 +342,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_ssAqXP1XN82W3Z1XD178zK | 王忬 | accepted |
 | children | p_JmAYb8swKSWn43Xra4JyV8 | 王士驌 | accepted |
+| spouses | p_zeZuZNMwnhZ83ze1SKiLnN | 魏氏 | accepted |
 | ancestors | p_Myxv48wyKA3EhwRsziJopB | 王輅 | accepted |
 | ancestors | p_qHVPmDLgLbn56ct3eKkqpM | 王倬 | accepted |
 
@@ -315,3 +353,4 @@ relationships:
 - [中国历代人物传记资料库：王世貞（CBDB 34717）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34717&o=json)
 - [中国历代人物传记资料库：王忬（CBDB 309375）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309375&o=json)
 - [中国历代人物传记资料库：王倬（CBDB 309373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309373&o=json)
+- [CBDB 中国历代人物传记资料库：魏氏（309377）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309377&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王俊卿
 cbdb_id: 236877
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -207,7 +207,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_I_UobZfpY94ucUxIZDVlZ2
+        subject_person_id: p_yaK3v157GQYGTQP5RhE7JJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DNERe7qJNb3V7E5Uc4DPd7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mm3jwbzAtrLX8DqTv0n1_k
+          claim_id: c_I_UobZfpY94ucUxIZDVlZ2
+          source_id: s_HKKP3v91AaD88vdZnQWk2v
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第二甲第三十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DNERe7qJNb3V7E5Uc4DPd7
+        status: active
+        display_name: 王竑
+        merged_into_person_id: null
   other: []
 ---
 
@@ -228,6 +254,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_C9xm5jCmEkeQHuYEcbM82J | 王景 | accepted |
 | children | p_wxNC97go3Ly1JHGAcv6FvX | 王佐 | accepted |
+| descendants | p_DNERe7qJNb3V7E5Uc4DPd7 | 王竑 | accepted |
 
 ## 外部来源
 

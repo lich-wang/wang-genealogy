@@ -4,7 +4,7 @@ id: p_GQ1GXZbABMzPSWjdERZQAa
 status: active
 merged_into: null
 display_name: 王心
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -181,6 +181,44 @@ relationships:
         status: active
         display_name: 王敬祥
         merged_into_person_id: null
+    - claim:
+        id: c_ZvLJvM8zF3R-V8piyOfqLn
+        subject_person_id: p_ycnqfdny49ravnSyMWF16A
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GQ1GXZbABMzPSWjdERZQAa
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ptnBPYAhPqg41-OEXZt5BV
+          claim_id: c_ZvLJvM8zF3R-V8piyOfqLn
+          source_id: s_n9NkcAwF9TLeP7HSXePRKD
+          stance: supports
+          locator: 嘉靖十七年進士登科錄:一卷，第三甲第二百一十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_n9NkcAwF9TLeP7HSXePRKD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王雷（CBDB 301983）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301983&o=json
+            external_identifier: CBDB:301983
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:04.487Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_ycnqfdny49ravnSyMWF16A
+        status: active
+        display_name: 王雷
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -203,9 +241,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_7HAN6MZgrNF637x89HuFkG | 王浩 | accepted |
 | ancestors | p_fnym66xMbCVkiQBKbKW5mD | 王敬祥 | accepted |
+| ancestors | p_ycnqfdny49ravnSyMWF16A | 王雷 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王浩（CBDB 301984）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301984&o=json)
 - [中国历代人物传记资料库：王敬祥（CBDB 301982）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301982&o=json)
+- [中国历代人物传记资料库：王雷（CBDB 301983）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301983&o=json)
 - [中国历代人物传记资料库：王心（CBDB 203250）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203250&o=json)

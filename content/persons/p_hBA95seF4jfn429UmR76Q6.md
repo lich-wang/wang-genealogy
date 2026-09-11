@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王守質
 cbdb_id: 141183
-revision: 5
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -323,6 +323,82 @@ relationships:
         status: active
         display_name: 王墿
         merged_into_person_id: null
+    - claim:
+        id: c_7arai_QTiHG_1XWveO4xeQ
+        subject_person_id: p_hBA95seF4jfn429UmR76Q6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yAuerq4Dg4y6SP7YSYs8c5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OtFRVoET2r4kN5AszIkP4M
+          claim_id: c_7arai_QTiHG_1XWveO4xeQ
+          source_id: s_8LcfBZhw6WCB2dtGMUhZp2
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dali 30：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8LcfBZhw6WCB2dtGMUhZp2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王埻（CBDB 154913）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154913&o=json
+            external_identifier: CBDB:154913
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.122Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_yAuerq4Dg4y6SP7YSYs8c5
+        status: active
+        display_name: 王埻
+        merged_into_person_id: null
+    - claim:
+        id: c_9sq6jjv_hOAQ1pOES16bEB
+        subject_person_id: p_hBA95seF4jfn429UmR76Q6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Ykjf8WmFFGi8bijTB1MHcN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CXhwDar86ULNwUy7l4RM0n
+          claim_id: c_9sq6jjv_hOAQ1pOES16bEB
+          source_id: s_NdvZppDNj1bMqqP7xkwtZh
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dali 30：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_NdvZppDNj1bMqqP7xkwtZh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王君娘（CBDB 154909）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154909&o=json
+            external_identifier: CBDB:154909
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.122Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_Ykjf8WmFFGi8bijTB1MHcN
+        status: active
+        display_name: 王君娘
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -352,11 +428,15 @@ relationships:
 | children | p_HqYjbtMRgPHeULCykmCryC | 王塤 | accepted |
 | children | p_oGFJWKi3JzmQs4iz3ndCYP | 王坦 | accepted |
 | children | p_ajALhz1WEz6KNUxJ3kKxCN | 王墿 | accepted |
+| children | p_yAuerq4Dg4y6SP7YSYs8c5 | 王埻 | accepted |
+| children | p_Ykjf8WmFFGi8bijTB1MHcN | 王君娘 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王君娘（CBDB 154909）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154909&o=json)
 - [中国历代人物传记资料库：王慶（CBDB 154908）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154908&o=json)
 - [中国历代人物传记资料库：王守質（CBDB 141183）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141183&o=json)
 - [中国历代人物传记资料库：王坦（CBDB 154910）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154910&o=json)
 - [中国历代人物传记资料库：王塤（CBDB 154911）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154911&o=json)
 - [中国历代人物传记资料库：王墿（CBDB 154914）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154914&o=json)
+- [中国历代人物传记资料库：王埻（CBDB 154913）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154913&o=json)

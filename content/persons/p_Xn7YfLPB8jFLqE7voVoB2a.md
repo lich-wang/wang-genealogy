@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 蒋氏
 cbdb_id: 143330
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,6 +172,43 @@ relationships:
         status: active
         display_name: 王汶
         merged_into_person_id: null
+    - claim:
+        id: c_A_lNx2GLPPtQ-dX8SsZd8l
+        subject_person_id: p_xtyYrh2ceBwZ769mV4SDUW
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_Xn7YfLPB8jFLqE7voVoB2a
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Eng9rEAQvdMl0eA_0DwRNg
+          claim_id: c_A_lNx2GLPPtQ-dX8SsZd8l
+          source_id: s_D8w8e3qEd4BTNNFf9B4T12
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_D8w8e3qEd4BTNNFf9B4T12
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王汶（143322）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143322&o=json
+            external_identifier: CBDB:143322
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T04:11:08.435Z
+            metadata_json: null
+      object_person:
+        id: p_xtyYrh2ceBwZ769mV4SDUW
+        status: active
+        display_name: 王汶
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -192,6 +229,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_xtyYrh2ceBwZ769mV4SDUW | 王汶 | accepted |
 | spouses | p_xtyYrh2ceBwZ769mV4SDUW | 王汶 | accepted |
 
 ## 外部来源

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王之猷
 cbdb_id: 126467
-revision: 5
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -455,6 +455,43 @@ relationships:
         status: active
         display_name: 王麟
         merged_into_person_id: null
+    - claim:
+        id: c_ZkypYFnypEdHtWl3T8Kx4M
+        subject_person_id: p_XwKHLH17io2m6CKt414qzT
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5r1wESpKqnWgbhR5AChbjE
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__VzyUUqs4u7XTig1OWIjVr
+          claim_id: c_ZkypYFnypEdHtWl3T8Kx4M
+          source_id: s_FJ1HG7BynJqSbkFRirS4id
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第三甲第一百五十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FJ1HG7BynJqSbkFRirS4id
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王伍（217730）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217730&o=json
+            external_identifier: CBDB:217730
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:07:19.307Z
+            metadata_json: null
+      object_person:
+        id: p_XwKHLH17io2m6CKt414qzT
+        status: active
+        display_name: 王伍
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -481,6 +518,7 @@ relationships:
 | spouses | p_nVeRPzH9zM6X3E5H4rwVq1 | 李氏 | accepted |
 | spouses | p_nVeRPzH9zM6X3E5H4rwVq1 | 李氏 | accepted |
 | ancestors | p_VwN7eG86JDxNDZrGUdF1Q5 | 王麟 | accepted |
+| ancestors | p_XwKHLH17io2m6CKt414qzT | 王伍 | accepted |
 
 ## 外部来源
 
@@ -493,4 +531,5 @@ relationships:
 - [中国历代人物传记资料库：王重光（CBDB 217732）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217732&o=json)
 - [中文维基百科：王之猷](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B9%8B%E7%8C%B7)
 - [CBDB 中国历代人物传记资料库：李氏（217734）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217734&o=json)
+- [CBDB 中国历代人物传记资料库：王伍（217730）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217730&o=json)
 - [CBDB 中国历代人物传记资料库：王之猷（126467）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126467&o=json)

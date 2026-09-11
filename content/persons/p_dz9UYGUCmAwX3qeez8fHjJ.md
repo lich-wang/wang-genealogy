@@ -4,7 +4,7 @@ id: p_dz9UYGUCmAwX3qeez8fHjJ
 status: active
 merged_into: null
 display_name: 王俸
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_I4xlr5wW82AvFxeQvUl74_
+        subject_person_id: p_zTj1eNcAG3BPvbBjiJxYtN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dz9UYGUCmAwX3qeez8fHjJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ys_55hmnhOxoTKtAbBEtKZ
+          claim_id: c_I4xlr5wW82AvFxeQvUl74_
+          source_id: s_L7dy28x2pLVjMVBVHWsN34
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第三甲第七十八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_L7dy28x2pLVjMVBVHWsN34
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文琮（CBDB 271492）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271492&o=json
+            external_identifier: CBDB:271492
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:02.295Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_zTj1eNcAG3BPvbBjiJxYtN
+        status: active
+        display_name: 王文琮
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +238,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_zTj1eNcAG3BPvbBjiJxYtN | 王文琮 | accepted |
 | ancestors | p_97newzyhq7uCYabtQtfnFW | 王祥 | accepted |
 | ancestors | p_KMpfjZPiJGQHC5a6Q1PYVp | 王敬 | accepted |
 
@@ -207,4 +246,5 @@ relationships:
 
 - [中国历代人物传记资料库：王俸（CBDB 201386）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201386&o=json)
 - [中国历代人物传记资料库：王敬（CBDB 271490）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271490&o=json)
+- [中国历代人物传记资料库：王文琮（CBDB 271492）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271492&o=json)
 - [中国历代人物传记资料库：王祥（CBDB 271491）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271491&o=json)

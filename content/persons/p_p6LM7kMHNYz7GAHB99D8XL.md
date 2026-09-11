@@ -4,7 +4,7 @@ id: p_p6LM7kMHNYz7GAHB99D8XL
 status: active
 merged_into: null
 display_name: 王顯道
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,44 @@ relationships:
         status: active
         display_name: 王聰
         merged_into_person_id: null
+    - claim:
+        id: c_G6cmf9uU7mSefWaOsJ9Rah
+        subject_person_id: p_YdHD6Ani5j96DGFyD2Zuh3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_p6LM7kMHNYz7GAHB99D8XL
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FDJBkxKGhrORIeVx9nubSl
+          claim_id: c_G6cmf9uU7mSefWaOsJ9Rah
+          source_id: s_71gnzcGvQF8nyYCr1x6qwN
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第二甲第六十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_71gnzcGvQF8nyYCr1x6qwN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王原魯（CBDB 270425）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270425&o=json
+            external_identifier: CBDB:270425
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:01.428Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_YdHD6Ani5j96DGFyD2Zuh3
+        status: active
+        display_name: 王原魯
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_USmM7iSRa4vK3jsnZL7c34 | 王文 | accepted |
 | ancestors | p_EjHbdW3cwgQuNaYfk7ph2H | 王聰 | accepted |
+| ancestors | p_YdHD6Ani5j96DGFyD2Zuh3 | 王原魯 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王聰（CBDB 270426）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270426&o=json)
 - [中国历代人物传记资料库：王文（CBDB 270427）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270427&o=json)
 - [中国历代人物传记资料库：王顯道（CBDB 201310）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201310&o=json)
+- [中国历代人物传记资料库：王原魯（CBDB 270425）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270425&o=json)

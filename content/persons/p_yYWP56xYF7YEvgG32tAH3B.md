@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王弘訓
 cbdb_id: 152941
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -151,6 +151,32 @@ relationships:
         status: active
         display_name: 王方茂
         merged_into_person_id: null
+    - claim:
+        id: c_uKeXVuF45_UHzIqBObj5sO
+        subject_person_id: p_yYWP56xYF7YEvgG32tAH3B
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4EU5hab5MGo71FXwq1jBL2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VHdW1qz5lOxw_aWTNAVHl5
+          claim_id: c_uKeXVuF45_UHzIqBObj5sO
+          source_id: s_r7EDbM1bneMsxyVzj8CZd6
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_4EU5hab5MGo71FXwq1jBL2
+        status: active
+        display_name: 王方智
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -214,6 +240,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_4EU5hab5MGo71FXwq1jBL2 | 王方智 | accepted |
 | children | p_N6zEFEEgStf5fQ4uCRBUU6 | 王方茂 | accepted |
+| children | p_4EU5hab5MGo71FXwq1jBL2 | 王方智 | accepted |
 | descendants | p_acJL151CL8ZU3mDEqikzmS | 王固己 | accepted |
 
 ## 外部来源

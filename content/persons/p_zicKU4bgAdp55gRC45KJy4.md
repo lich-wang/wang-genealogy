@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王子忠
 cbdb_id: 326662
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -207,7 +207,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_UtJB6ieFqHmVlzs0FSCtBC
+        subject_person_id: p_zicKU4bgAdp55gRC45KJy4
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1CAD7Cg5ACndjPsTMwMUQ7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rmBxBkvlwyB1mq-BtWnlNS
+          claim_id: c_UtJB6ieFqHmVlzs0FSCtBC
+          source_id: s_mtFcgp3xDR89PN7wPgktju
+          stance: supports
+          locator: 景泰二年進士登科錄:一卷，第三甲第六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1CAD7Cg5ACndjPsTMwMUQ7
+        status: merged
+        display_name: 王越
+        merged_into_person_id: p_SAKZSsVXkQRnwcLYqa1oYe
   other: []
 ---
 
@@ -228,6 +254,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_nbMxKWfrWz4c9en3TGuwmJ | 王显道 | accepted |
 | children | p_6Uj7h3k6AcMQquEzQiGzSE | 王颐 | accepted |
+| descendants | p_1CAD7Cg5ACndjPsTMwMUQ7 | 王越 | accepted |
 
 ## 外部来源
 

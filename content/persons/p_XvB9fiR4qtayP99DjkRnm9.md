@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王從益
 cbdb_id: 37406
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:37406
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_ist5NHiDFA1o7yXqN4pPdr
             source_type: api_record
             title: 中国历代人物传记资料库：王從益（CBDB 37406）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_BO0v2SdbHsaierANUkQ7QX
+        subject_person_id: p_pLswWqSBPoyLmU6amLYFt3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XvB9fiR4qtayP99DjkRnm9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zyIUFmk7fFEn-XyP9nT22Y
+          claim_id: c_BO0v2SdbHsaierANUkQ7QX
+          source_id: s_ist5NHiDFA1o7yXqN4pPdr
+          stance: supports
+          locator: 宋史：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_pLswWqSBPoyLmU6amLYFt3
+        status: active
+        display_name: 王漢忠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_pLswWqSBPoyLmU6amLYFt3 | 王漢忠 | accepted |
 
 ## 外部来源
 

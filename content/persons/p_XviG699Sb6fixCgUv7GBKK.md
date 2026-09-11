@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 霍氏
 cbdb_id: 333597
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -77,7 +77,7 @@ properties:
           locator: Q65860927
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_sFCsMMu4JKu5vJyBJtq55s
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：霍氏（333597）
@@ -209,6 +209,32 @@ relationships:
         status: active
         display_name: 王家屛
         merged_into_person_id: null
+    - claim:
+        id: c_UVFC6vu4gQIRpMSZQBTy94
+        subject_person_id: p_XviG699Sb6fixCgUv7GBKK
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_92Q8Er9mM6EGgtSMmLeCqJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cQj_dSqT46WON1U4fe2bYQ
+          claim_id: c_UVFC6vu4gQIRpMSZQBTy94
+          source_id: s_sFCsMMu4JKu5vJyBJtq55s
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第二甲第二名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_92Q8Er9mM6EGgtSMmLeCqJ
+        status: active
+        display_name: 王家屛
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -230,6 +256,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_bcrM1JDUkTLmV6rQDefNJN | 王家屏 | accepted |
+| spouses | p_92Q8Er9mM6EGgtSMmLeCqJ | 王家屛 | accepted |
 | spouses | p_92Q8Er9mM6EGgtSMmLeCqJ | 王家屛 | accepted |
 
 ## 外部来源

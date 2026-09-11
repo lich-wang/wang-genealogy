@@ -4,7 +4,7 @@ id: p_nqkQ2QrQi1t9x1JULvJyMw
 status: active
 merged_into: null
 display_name: 王寬
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -181,6 +181,44 @@ relationships:
         status: active
         display_name: 王必貴
         merged_into_person_id: null
+    - claim:
+        id: c_aSQfDVjWBkUuwJGULf5nxi
+        subject_person_id: p_yhUtTnQRM6JC6XFKsbEMfE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_nqkQ2QrQi1t9x1JULvJyMw
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9JR-_tUoYiyt8Ut3i84gAQ
+          claim_id: c_aSQfDVjWBkUuwJGULf5nxi
+          source_id: s_EvbJ7YEhDjCCKwi1Uqh8vR
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第一百七十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_EvbJ7YEhDjCCKwi1Uqh8vR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王均海（CBDB 278098）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278098&o=json
+            external_identifier: CBDB:278098
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:02.295Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_yhUtTnQRM6JC6XFKsbEMfE
+        status: active
+        display_name: 王均海
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -203,9 +241,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_kdUPqDPveaddB8fucGD47J | 王子良 | accepted |
 | ancestors | p_KQiZJ9f3G8TJ5KepAFHfTr | 王必貴 | accepted |
+| ancestors | p_yhUtTnQRM6JC6XFKsbEMfE | 王均海 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王必貴（CBDB 278109）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278109&o=json)
+- [中国历代人物传记资料库：王均海（CBDB 278098）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278098&o=json)
 - [中国历代人物传记资料库：王寬（CBDB 198482）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198482&o=json)
 - [中国历代人物传记资料库：王子良（CBDB 278120）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278120&o=json)

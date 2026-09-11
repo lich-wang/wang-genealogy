@@ -4,7 +4,7 @@ id: p_QfrUjSmQ4GsHQFSweEh618
 status: active
 merged_into: null
 display_name: 王肅
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,45 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_XDQvhgaLzvwTzUX64QU4fi
+        subject_person_id: p_QfrUjSmQ4GsHQFSweEh618
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Z4MvEXmQJi515G5XB2HFGM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7KoE4FCV2n7YTkFfN_9TQY
+          claim_id: c_XDQvhgaLzvwTzUX64QU4fi
+          source_id: s_wcR5TAetxYb7Peh1rn9RiC
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #3209：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_wcR5TAetxYb7Peh1rn9RiC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元姬（CBDB 135477）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135477&o=json
+            external_identifier: CBDB:135477
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:37.980Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_Z4MvEXmQJi515G5XB2HFGM
+        status: active
+        display_name: 王元姬
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +135,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_Z4MvEXmQJi515G5XB2HFGM | 王元姬 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王肅（CBDB 135476）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135476&o=json)
+- [中国历代人物传记资料库：王元姬（CBDB 135477）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135477&o=json)

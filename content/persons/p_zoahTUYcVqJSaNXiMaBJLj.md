@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王夢蟾
 cbdb_id: 230384
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:230384
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_mqZS5tc3CxoWVrRUKTUsTA
             source_type: api_record
             title: 中国历代人物传记资料库：王夢蟾（CBDB 230384）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Y8BV4_EpC8eXsM6apC5wXE
+        subject_person_id: p_DVJuaQ4fqcXMz2HJX35bCQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zoahTUYcVqJSaNXiMaBJLj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JtwDIexF62X_9gSNNWSvsT
+          claim_id: c_Y8BV4_EpC8eXsM6apC5wXE
+          source_id: s_mqZS5tc3CxoWVrRUKTUsTA
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第二甲第二百三十一名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DVJuaQ4fqcXMz2HJX35bCQ
+        status: active
+        display_name: 王一魁
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_DVJuaQ4fqcXMz2HJX35bCQ | 王一魁 | accepted |
 
 ## 外部来源
 

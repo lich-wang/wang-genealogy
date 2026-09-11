@@ -4,7 +4,7 @@ id: p_UqnSHc2i9jAou8juB7BvTu
 status: active
 merged_into: null
 display_name: 王守誠
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -152,6 +152,44 @@ relationships:
         status: active
         display_name: 王振
         merged_into_person_id: null
+    - claim:
+        id: c_9No7NBJUUlopu6lB1oJL2v
+        subject_person_id: p_XqGhM4menga22873JCKGgz
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_UqnSHc2i9jAou8juB7BvTu
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_n_nFSmM_WMVypHIvIIPWWW
+          claim_id: c_9No7NBJUUlopu6lB1oJL2v
+          source_id: s_NuFZEgWLjh9KiEHm7m2bN7
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第二甲第六十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_NuFZEgWLjh9KiEHm7m2bN7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王聦（CBDB 208677）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208677&o=json
+            external_identifier: CBDB:208677
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.741Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_XqGhM4menga22873JCKGgz
+        status: active
+        display_name: 王聦
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -173,9 +211,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_raxD6LxzWqCCT2c1xHSNBU | 王京 | accepted |
 | ancestors | p_UhuFten7ezvCR724Avu4bd | 王振 | accepted |
+| ancestors | p_XqGhM4menga22873JCKGgz | 王聦 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王聦（CBDB 208677）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208677&o=json)
 - [中国历代人物传记资料库：王京（CBDB 208679）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208679&o=json)
 - [中国历代人物传记资料库：王守誠（CBDB 126508）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126508&o=json)
 - [中国历代人物传记资料库：王振（CBDB 208678）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208678&o=json)

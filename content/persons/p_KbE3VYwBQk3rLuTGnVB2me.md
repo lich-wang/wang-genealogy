@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王正国
 cbdb_id: 68263
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -328,6 +328,43 @@ relationships:
         status: active
         display_name: 王谟
         merged_into_person_id: null
+    - claim:
+        id: c_uifu15VOrBIKwLG8LFVFCd
+        subject_person_id: p_YdbFSMV9s3AQb86u7EkdDN
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_KbE3VYwBQk3rLuTGnVB2me
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vOqYtgFieA3o9vYMk_5rFA
+          claim_id: c_uifu15VOrBIKwLG8LFVFCd
+          source_id: s_KyBpH45EBm8fnXU9NBUHLP
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第四十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_KyBpH45EBm8fnXU9NBUHLP
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王臣（313120）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313120&o=json
+            external_identifier: CBDB:313120
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:07:00.598Z
+            metadata_json: null
+      object_person:
+        id: p_YdbFSMV9s3AQb86u7EkdDN
+        status: active
+        display_name: 王臣
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -351,6 +388,7 @@ relationships:
 | parents | p_Uu3urkECTiPumEtH6sBydY | 王邦瑞 | accepted |
 | spouses | p_DFD9Y4LrMpNGdsEL2yk1bB | 蔺氏 | accepted |
 | ancestors | p_fubDQJjS45y6q3DDqG3cmV | 王谟 | accepted |
+| ancestors | p_YdbFSMV9s3AQb86u7EkdDN | 王臣 | accepted |
 
 ## 外部来源
 
@@ -358,5 +396,6 @@ relationships:
 - [维基数据：王邦瑞（Q15909508）](https://www.wikidata.org/wiki/Q15909508)
 - [维基数据：王正国（Q16906097）](https://www.wikidata.org/wiki/Q16906097)
 - [CBDB 中国历代人物传记资料库：王邦瑞（68262）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68262&o=json)
+- [CBDB 中国历代人物传记资料库：王臣（313120）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313120&o=json)
 - [CBDB 中国历代人物传记资料库：王謨（313121）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313121&o=json)
 - [CBDB 中国历代人物传记资料库：王正國（68263）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68263&o=json)

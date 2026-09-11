@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王裕瑾
 cbdb_id: 280700
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:280700
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_ZhN4R1R1aLNkrDxAhsgKH6
             source_type: api_record
             title: 中国历代人物传记资料库：王裕瑾（CBDB 280700）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_fohNMFNWtO0OeJ1S6FxZw2
+        subject_person_id: p_yDjKC3qC63KGTnM8XebPRv
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_8tcFGh3NZERHQcBZnwxj4d
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IuSTnXpLpBpgLZpFPKpsjB
+          claim_id: c_fohNMFNWtO0OeJ1S6FxZw2
+          source_id: s_ZhN4R1R1aLNkrDxAhsgKH6
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_8tcFGh3NZERHQcBZnwxj4d
+        status: active
+        display_name: 王世祿
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_8tcFGh3NZERHQcBZnwxj4d | 王世祿 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王鸿
 cbdb_id: 140992
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -624,7 +624,44 @@ relationships:
         display_name: 薛氏
         merged_into_person_id: null
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_NPL3zooVjFAawvBBtkxFzX
+        subject_person_id: p_Bj8bFyazic2NrpdNesGfKg
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_xtyYrh2ceBwZ769mV4SDUW
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_imJxNLknxw563gFu-hOAQL
+          claim_id: c_NPL3zooVjFAawvBBtkxFzX
+          source_id: s_D8w8e3qEd4BTNNFf9B4T12
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Baoli3：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_D8w8e3qEd4BTNNFf9B4T12
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王汶（143322）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143322&o=json
+            external_identifier: CBDB:143322
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T04:11:08.435Z
+            metadata_json: null
+      object_person:
+        id: p_xtyYrh2ceBwZ769mV4SDUW
+        status: active
+        display_name: 王汶
+        merged_into_person_id: null
   other: []
 ---
 
@@ -649,6 +686,7 @@ relationships:
 | children | p_p5VRgM5CRYbvtxNdaeEn7i | 王悌 | accepted |
 | children | p_S3MwG2kKk5brnwtbib7BVJ | 王同恩 | accepted |
 | spouses | p_3YfGj4is8xidR3bZEoJwJr | 薛氏 | accepted |
+| descendants | p_xtyYrh2ceBwZ769mV4SDUW | 王汶 | accepted |
 
 ## 外部来源
 
@@ -662,5 +700,6 @@ relationships:
 - [CBDB 中国历代人物传记资料库：王方泰（154137）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154137&o=json)
 - [CBDB 中国历代人物传记资料库：王鴻（140992）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140992&o=json)
 - [CBDB 中国历代人物传记资料库：王悌（154140）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154140&o=json)
+- [CBDB 中国历代人物传记资料库：王汶（143322）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143322&o=json)
 - [CBDB 中国历代人物传记资料库：王志凝（154139）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154139&o=json)
 - [CBDB 中国历代人物传记资料库：王志悌（140994）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140994&o=json)

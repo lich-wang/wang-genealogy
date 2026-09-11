@@ -4,7 +4,7 @@ id: p_xF6zkmGrf6YvrKuUEphBZ1
 status: active
 merged_into: null
 display_name: 王震
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -208,6 +208,44 @@ relationships:
         status: active
         display_name: 王景賢
         merged_into_person_id: null
+    - claim:
+        id: c_XVoF_fzMwsOjyelmxDyRrK
+        subject_person_id: p_XS4nwAXFmAH53tQmi43AXd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_xF6zkmGrf6YvrKuUEphBZ1
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PZPR9uVttv_WOgKr7Tx0zK
+          claim_id: c_XVoF_fzMwsOjyelmxDyRrK
+          source_id: s_MDpqgWNHEj6A8FLWAD3zbM
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第二百零四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MDpqgWNHEj6A8FLWAD3zbM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王罍（CBDB 266729）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266729&o=json
+            external_identifier: CBDB:266729
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:01.428Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_XS4nwAXFmAH53tQmi43AXd
+        status: active
+        display_name: 王罍
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_fQRM5daE8Wp7q6E4q4CiyU | 王整 | accepted |
 | ancestors | p_Xf7ZVghWVjEAFLApV32xJC | 王景賢 | accepted |
+| ancestors | p_XS4nwAXFmAH53tQmi43AXd | 王罍 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王景賢（CBDB 266728）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266728&o=json)
+- [中国历代人物传记资料库：王罍（CBDB 266729）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266729&o=json)
 - [中国历代人物传记资料库：王震（CBDB 126809）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126809&o=json)
 - [中国历代人物传记资料库：王整（CBDB 266730）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266730&o=json)

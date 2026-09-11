@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王少微
 cbdb_id: 153386
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:153386
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_QmAD9qdgMGWz3bjZxGxeRm
             source_type: api_record
             title: 中国历代人物传记资料库：王少微（CBDB 153386）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_T3r6xRBc9yQ5J7sz7-_ECT
+        subject_person_id: p_FeBSyMhR8CUYiFybnucP3c
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zifx2jXZ4KYQ5E3oJJ9Kmx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4wYBL-ZyPNeozS5AZhUJ7n
+          claim_id: c_T3r6xRBc9yQ5J7sz7-_ECT
+          source_id: s_QmAD9qdgMGWz3bjZxGxeRm
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 34：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_FeBSyMhR8CUYiFybnucP3c
+        status: active
+        display_name: 王秦客
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_FeBSyMhR8CUYiFybnucP3c | 王秦客 | accepted |
 
 ## 外部来源
 

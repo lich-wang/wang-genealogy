@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王氏
 cbdb_id: 39733
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -168,6 +168,32 @@ relationships:
         status: active
         display_name: 王审琦
         merged_into_person_id: null
+    - claim:
+        id: c_m4rLsA-mkaohGHX5z1Wx96
+        subject_person_id: p_3FwfmVLuawARCoZyhyo5mg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xyPtAQ7AR8yTpy2qwHiGWa
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SdL729y47SNbxV8eRL4vrr
+          claim_id: c_m4rLsA-mkaohGHX5z1Wx96
+          source_id: s_rinUBvPiEE2sXPXgwXBiwm
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_3FwfmVLuawARCoZyhyo5mg
+        status: active
+        display_name: 王審琦
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -236,6 +262,32 @@ relationships:
         status: active
         display_name: 向敏中
         merged_into_person_id: null
+    - claim:
+        id: c_XY_zcWCaBBodt5LxBrfRuc
+        subject_person_id: p_xyPtAQ7AR8yTpy2qwHiGWa
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_juEm8j4Sb9dvXhaC1CMA9c
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3UAjvIoJslR1LzWHXH4Buy
+          claim_id: c_XY_zcWCaBBodt5LxBrfRuc
+          source_id: s_rinUBvPiEE2sXPXgwXBiwm
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_juEm8j4Sb9dvXhaC1CMA9c
+        status: active
+        display_name: 向敏中
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -257,6 +309,8 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_jhAXJEb1U9Ldt73n9uUeLS | 王审琦 | accepted |
+| parents | p_3FwfmVLuawARCoZyhyo5mg | 王審琦 | accepted |
+| spouses | p_juEm8j4Sb9dvXhaC1CMA9c | 向敏中 | accepted |
 | spouses | p_juEm8j4Sb9dvXhaC1CMA9c | 向敏中 | accepted |
 
 ## 外部来源

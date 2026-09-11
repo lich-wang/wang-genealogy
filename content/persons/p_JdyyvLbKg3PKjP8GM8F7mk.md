@@ -4,7 +4,7 @@ id: p_JdyyvLbKg3PKjP8GM8F7mk
 status: active
 merged_into: null
 display_name: 王君德
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -205,6 +205,44 @@ relationships:
         status: active
         display_name: 王明朗
         merged_into_person_id: null
+    - claim:
+        id: c_k2Bt1JF0Bfk1egzOcB6ydf
+        subject_person_id: p_JdyyvLbKg3PKjP8GM8F7mk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZJu1PJprCkBLsTXF61RrPj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zXlvnXg40Di23WO9gPQ-wE
+          claim_id: c_k2Bt1JF0Bfk1egzOcB6ydf
+          source_id: s_R7Dv7dtwGHdYSGpXEQa8e2
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xianheng 18：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_R7Dv7dtwGHdYSGpXEQa8e2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王明感（CBDB 148473）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148473&o=json
+            external_identifier: CBDB:148473
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:53.368Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_ZJu1PJprCkBLsTXF61RrPj
+        status: active
+        display_name: 王明感
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -232,9 +270,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_itBZawe8AbuUvqdUvcXAzR | 王約 | accepted |
 | children | p_dKQzMtzUR4AkAwrFXKENdW | 王明朗 | accepted |
+| children | p_ZJu1PJprCkBLsTXF61RrPj | 王明感 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王君德（CBDB 139598）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139598&o=json)
+- [中国历代人物传记资料库：王明感（CBDB 148473）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148473&o=json)
 - [中国历代人物传记资料库：王明朗（CBDB 148472）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148472&o=json)
 - [中国历代人物传记资料库：王約（CBDB 148471）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148471&o=json)

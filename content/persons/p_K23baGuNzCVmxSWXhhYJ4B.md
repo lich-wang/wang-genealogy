@@ -4,7 +4,7 @@ id: p_K23baGuNzCVmxSWXhhYJ4B
 status: active
 merged_into: null
 display_name: 王士性
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_LiBwiD3Uc83gv8s5pZOEf0
+        subject_person_id: p_zN5CkYRsAqXYKS76qUps77
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_K23baGuNzCVmxSWXhhYJ4B
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Xq4BSZaTPGN0nXdUuTcYOQ
+          claim_id: c_LiBwiD3Uc83gv8s5pZOEf0
+          source_id: s_dfhF9ye4VCGanMLbAtkYJK
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第三甲第一百六十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_dfhF9ye4VCGanMLbAtkYJK
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王宗果（217868）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217868&o=json
+            external_identifier: CBDB:217868
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:35.149Z
+            metadata_json: null
+      object_person:
+        id: p_zN5CkYRsAqXYKS76qUps77
+        status: active
+        display_name: 王宗果
+        merged_into_person_id: null
   children:
     - claim:
         id: c_PHYXoubcmIqudMeLnXmpFf
@@ -303,6 +340,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_zN5CkYRsAqXYKS76qUps77 | 王宗果 | accepted |
 | children | p_xHekMpoEQyryADJWz2qmff | 王立轂 | accepted |
 | spouses | p_SyGzt2QVX9p9429Xmvya6D | 赵氏 | accepted |
 | ancestors | p_gSGT3VNm7ARS5peJbqNALW | 王明 | accepted |
@@ -314,4 +352,5 @@ relationships:
 - [中国历代人物传记资料库：王士性（CBDB 35066）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35066&o=json)
 - [CBDB 中国历代人物传记资料库：王明（217866）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217866&o=json)
 - [CBDB 中国历代人物传记资料库：王誾（217867）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217867&o=json)
+- [CBDB 中国历代人物传记资料库：王宗果（217868）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217868&o=json)
 - [CBDB 中国历代人物传记资料库：趙氏（217871）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217871&o=json)

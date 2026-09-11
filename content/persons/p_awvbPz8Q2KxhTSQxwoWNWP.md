@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王文超
 cbdb_id: 143400
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -249,6 +249,44 @@ relationships:
         status: active
         display_name: 王少達
         merged_into_person_id: null
+    - claim:
+        id: c_RXqUZpklWG7eRF8-yEr6tV
+        subject_person_id: p_awvbPz8Q2KxhTSQxwoWNWP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Z3LjcYsvDQBk55A5EqpdvK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vYrhFMsA8dG25YFgx9a_0y
+          claim_id: c_RXqUZpklWG7eRF8-yEr6tV
+          source_id: s_P3oCa56n6JCvp5RRuuh6KN
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Kaicheng18：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_P3oCa56n6JCvp5RRuuh6KN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王少繼（CBDB 166891）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166891&o=json
+            external_identifier: CBDB:166891
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.741Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_Z3LjcYsvDQBk55A5EqpdvK
+        status: active
+        display_name: 王少繼
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -276,9 +314,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_Bc4WsFzrZ93mcTCs35Bz4t | 王秋 | accepted |
 | children | p_fA6qsRXnQCCHS8prS1XRo5 | 王少達 | accepted |
+| children | p_Z3LjcYsvDQBk55A5EqpdvK | 王少繼 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王秋（CBDB 166890）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166890&o=json)
 - [中国历代人物传记资料库：王少達（CBDB 166892）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166892&o=json)
+- [中国历代人物传记资料库：王少繼（CBDB 166891）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166891&o=json)
 - [中国历代人物传记资料库：王文超（CBDB 143400）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143400&o=json)
