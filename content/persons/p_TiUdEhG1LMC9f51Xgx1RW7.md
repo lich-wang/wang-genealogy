@@ -4,7 +4,7 @@ id: p_TiUdEhG1LMC9f51Xgx1RW7
 status: active
 merged_into: null
 display_name: 王鎰
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_zwt2sWzBDLYecVOtMycJ3n
+        subject_person_id: p_XNnEJW93RJQ51JNrQsQRTJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_TiUdEhG1LMC9f51Xgx1RW7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WXdipDVYmw_N_YW8KAMpjz
+          claim_id: c_zwt2sWzBDLYecVOtMycJ3n
+          source_id: s_P9ctKRt2fTAFApRDeLg8WR
+          stance: supports
+          locator: 紹興十八年同年小錄，136：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_XNnEJW93RJQ51JNrQsQRTJ
+        status: active
+        display_name: 王彥
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_XNnEJW93RJQ51JNrQsQRTJ | 王彥 | accepted |
 
 ## 外部来源
 

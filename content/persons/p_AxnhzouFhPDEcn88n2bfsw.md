@@ -4,7 +4,7 @@ id: p_AxnhzouFhPDEcn88n2bfsw
 status: active
 merged_into: null
 display_name: 王宗沐
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -133,7 +133,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_ChJ1BhkNAAKSmtvzlDh8Fy
+        subject_person_id: p_SwDsuB67vTqP193VDVu7Pk
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_AxnhzouFhPDEcn88n2bfsw
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3ag3k9ervYK8Cy6xaAEgh6
+          claim_id: c_ChJ1BhkNAAKSmtvzlDh8Fy
+          source_id: s_5BWU5G5x9tf7D5oDHRBoUy
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第二甲第四十三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5BWU5G5x9tf7D5oDHRBoUy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王逸卿（CBDB 305708）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305708&o=json
+            external_identifier: CBDB:305708
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.744Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_SwDsuB67vTqP193VDVu7Pk
+        status: active
+        display_name: 王逸卿
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_SwDsuB67vTqP193VDVu7Pk | 王逸卿 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王逸卿（CBDB 305708）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305708&o=json)
 - [中国历代人物传记资料库：王宗沐（CBDB 35065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35065&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王三鍚
 cbdb_id: 205426
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_dqeIDkZbMDW88WgnUIc0Iy
+        subject_person_id: p_TBNAibWSwiLJagKdPeWqgE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RPorhHfNa1cjhpbMo2ZnFo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2mDSPEYhEgWgd3RsjX0AXD
+          claim_id: c_dqeIDkZbMDW88WgnUIc0Iy
+          source_id: s_muRRM2VJ9FAaER9LPaKwQF
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第三甲第二百六十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_muRRM2VJ9FAaER9LPaKwQF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王一陽（CBDB 332995）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332995&o=json
+            external_identifier: CBDB:332995
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.390Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_TBNAibWSwiLJagKdPeWqgE
+        status: active
+        display_name: 王一陽
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -192,9 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_TBNAibWSwiLJagKdPeWqgE | 王一陽 | accepted |
 | ancestors | p_9krhrKbo8VTou75RLSqpgt | 王登雲 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王登雲（CBDB 332994）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332994&o=json)
 - [中国历代人物传记资料库：王三鍚（CBDB 205426）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205426&o=json)
+- [中国历代人物传记资料库：王一陽（CBDB 332995）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332995&o=json)

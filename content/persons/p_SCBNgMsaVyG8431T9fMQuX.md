@@ -4,7 +4,7 @@ id: p_SCBNgMsaVyG8431T9fMQuX
 status: active
 merged_into: null
 display_name: 王友諒
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_thf8EBv4DqHJiJYB1J8eQy
+        subject_person_id: p_SCBNgMsaVyG8431T9fMQuX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_wKQiP1EfRixbApmFB2CXep
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_L9Wzh1vRkePCYThLcvuwRF
+          claim_id: c_thf8EBv4DqHJiJYB1J8eQy
+          source_id: s_Nh3MfVCaWadN9P35n8zKcR
+          stance: supports
+          locator: 永樂十年進士登科錄:一卷，第三甲第三十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wKQiP1EfRixbApmFB2CXep
+        status: active
+        display_name: 王詢
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_wKQiP1EfRixbApmFB2CXep | 王詢 | accepted |
 
 ## 外部来源
 

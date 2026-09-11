@@ -4,7 +4,7 @@ id: p_Vu5wPFU9etB1mZyT3n6avf
 status: active
 merged_into: null
 display_name: 王永寧
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_UDLvmgqy5BbnCG_xVBYuyu
+        subject_person_id: p_Syn7L23qcdCnWJH3gNVxhk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Vu5wPFU9etB1mZyT3n6avf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NS8Km9clhrQGpV2Kv4Og0b
+          claim_id: c_UDLvmgqy5BbnCG_xVBYuyu
+          source_id: s_e934oePsLt7rBWzJFsQKXK
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第二百零三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_e934oePsLt7rBWzJFsQKXK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王國柱（CBDB 221612）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221612&o=json
+            external_identifier: CBDB:221612
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.318Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Syn7L23qcdCnWJH3gNVxhk
+        status: active
+        display_name: 王國柱
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +237,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Syn7L23qcdCnWJH3gNVxhk | 王國柱 | accepted |
 | ancestors | p_6w75fHefGfCCHw8rL8d7v7 | 王演 | accepted |
 | ancestors | p_hz4YncNPEpmW4kQv9hGJsL | 王銘 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王國柱（CBDB 221612）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221612&o=json)
 - [中国历代人物传记资料库：王銘（CBDB 221610）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221610&o=json)
 - [中国历代人物传记资料库：王演（CBDB 221611）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221611&o=json)
 - [中国历代人物传记资料库：王永寧（CBDB 206689）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206689&o=json)

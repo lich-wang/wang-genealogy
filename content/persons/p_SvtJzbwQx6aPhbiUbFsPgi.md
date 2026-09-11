@@ -4,7 +4,7 @@ id: p_SvtJzbwQx6aPhbiUbFsPgi
 status: active
 merged_into: null
 display_name: 王本
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Cp1Jbb5fTVbuOZc8Q-2xQJ
+        subject_person_id: p_SvtJzbwQx6aPhbiUbFsPgi
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_iRoPCMQGG7T8QWQEfbMdBx
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5h66Uhx0K4RDv_cxkZQzZY
+          claim_id: c_Cp1Jbb5fTVbuOZc8Q-2xQJ
+          source_id: s_ZppvH93pDn5sPBwD1a4Rf6
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第二甲第四十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iRoPCMQGG7T8QWQEfbMdBx
+        status: active
+        display_name: 王汝鲁
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_iRoPCMQGG7T8QWQEfbMdBx | 王汝鲁 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_sP9ryPn6dBbmpQnxPNMPhv
 status: active
 merged_into: null
 display_name: 王凝之
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,11 +72,63 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_vIOQvS8shFR9yoLvFugEuo
+        subject_person_id: p_VCkK1jW79rQ6D9gE1Q4vrU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sP9ryPn6dBbmpQnxPNMPhv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Pw-yBFB-_U5ysZULQrMeMx
+          claim_id: c_vIOQvS8shFR9yoLvFugEuo
+          source_id: s_fJntZw9Gt6yhZohKxv3V4N
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #2001, HuWenKai #10：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_VCkK1jW79rQ6D9gE1Q4vrU
+        status: active
+        display_name: 王羲之
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_5BwbohUlD7CGgo8tUySPK2
+        subject_person_id: p_sP9ryPn6dBbmpQnxPNMPhv
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_EqbrV19BGLaVPSHLLe15u8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7kgH-1RTVEPATXLi1WTfKD
+          claim_id: c_5BwbohUlD7CGgo8tUySPK2
+          source_id: s_fJntZw9Gt6yhZohKxv3V4N
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #2001, HuWenKai #10：妻子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_EqbrV19BGLaVPSHLLe15u8
+        status: active
+        display_name: 谢道韫
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_VCkK1jW79rQ6D9gE1Q4vrU | 王羲之 | accepted |
+| spouses | p_EqbrV19BGLaVPSHLLe15u8 | 谢道韫 | accepted |
 
 ## 外部来源
 

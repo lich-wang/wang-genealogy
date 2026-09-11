@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王蒔蘭
 cbdb_id: 69391
-revision: 8
+revision: 9
 properties:
   - predicate: bio.summary
     recommended:
@@ -500,6 +500,43 @@ relationships:
         status: active
         display_name: 王世耿
         merged_into_person_id: null
+    - claim:
+        id: c_t2ckKJa4WsKmOCj_vT88i-
+        subject_person_id: p_DHYbJsS7LE12BDd6qGrWUt
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_svvpM1nLr4xeAvFYFUhNet
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__nEeUY0df5Jko3JWUbbBoh
+          claim_id: c_t2ckKJa4WsKmOCj_vT88i-
+          source_id: s_pJzLMkVFJDE1cpHofkfGnu
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13096：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_pJzLMkVFJDE1cpHofkfGnu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世聰（CBDB 526928）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526928&o=json
+            external_identifier: CBDB:526928
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.305Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_svvpM1nLr4xeAvFYFUhNet
+        status: active
+        display_name: 王世聰
+        merged_into_person_id: null
   other: []
 ---
 
@@ -529,6 +566,7 @@ relationships:
 | descendants | p_jXLdQjrTqzJVoYYSAATtw6 | 王世禟 | accepted |
 | descendants | p_Mi1Cd5NXJeSTnPg12mZdpx | 王世祺 | accepted |
 | descendants | p_qK3N4uKxzB8CyqZwBuRrTH | 王世耿 | accepted |
+| descendants | p_svvpM1nLr4xeAvFYFUhNet | 王世聰 | accepted |
 
 ## 外部来源
 
@@ -536,6 +574,7 @@ relationships:
 - [中国历代人物传记资料库：王承法（CBDB 526931）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526931&o=json)
 - [中国历代人物传记资料库：王立誠（CBDB 526930）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526930&o=json)
 - [中国历代人物传记资料库：王蒔蘭（CBDB 69391）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69391&o=json)
+- [中国历代人物传记资料库：王世聰（CBDB 526928）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526928&o=json)
 - [中国历代人物传记资料库：王世耿（CBDB 526925）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526925&o=json)
 - [中国历代人物传记资料库：王世鈞（CBDB 526926）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526926&o=json)
 - [中国历代人物传记资料库：王世祺（CBDB 526927）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526927&o=json)

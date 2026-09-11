@@ -4,7 +4,7 @@ id: p_JZ9ABX21r2pGL5CSXT41XF
 status: active
 merged_into: null
 display_name: 王淑
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王朝卿
         merged_into_person_id: null
+    - claim:
+        id: c_CIeZo0VQlBSWzwEkViFr43
+        subject_person_id: p_tcoF99wzB7yBNpRiupzaWc
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_JZ9ABX21r2pGL5CSXT41XF
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bOgu6frvVo42ZSwFtJW3L9
+          claim_id: c_CIeZo0VQlBSWzwEkViFr43
+          source_id: s_ijUVY1M3ti9cFriWh3vCBe
+          stance: supports
+          locator: 嘉靖三十八年進士登科錄:一卷，第三甲第一名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ijUVY1M3ti9cFriWh3vCBe
+            source_type: api_record
+            title: 中国历代人物传记资料库：王允壽（CBDB 323923）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323923&o=json
+            external_identifier: CBDB:323923
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.152Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_tcoF99wzB7yBNpRiupzaWc
+        status: active
+        display_name: 王允壽
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_3zsERGNnSdJfLFVXc9rCRi | 王諫 | accepted |
 | ancestors | p_FiHU1d28xKPXQ8Ckbzz4nL | 王朝卿 | accepted |
+| ancestors | p_tcoF99wzB7yBNpRiupzaWc | 王允壽 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王朝卿（CBDB 323924）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323924&o=json)
 - [中国历代人物传记资料库：王諫（CBDB 323925）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323925&o=json)
 - [中国历代人物传记资料库：王淑（CBDB 204778）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204778&o=json)
+- [中国历代人物传记资料库：王允壽（CBDB 323923）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323923&o=json)

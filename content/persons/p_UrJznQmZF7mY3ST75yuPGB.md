@@ -4,7 +4,7 @@ id: p_UrJznQmZF7mY3ST75yuPGB
 status: active
 merged_into: null
 display_name: 王豫
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -152,6 +152,43 @@ relationships:
         status: active
         display_name: 王積善
         merged_into_person_id: null
+    - claim:
+        id: c_ECvzd2LPIeAfKgufxkk7Hb
+        subject_person_id: p_st8ks4xjYLEogApY4ek2Di
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_UrJznQmZF7mY3ST75yuPGB
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vP5LcjuojU3X9tFVM2Y1UQ
+          claim_id: c_ECvzd2LPIeAfKgufxkk7Hb
+          source_id: s_EuyReuoCBsFdwojuxen3Nn
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第四十一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_EuyReuoCBsFdwojuxen3Nn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王成（CBDB 265015）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265015&o=json
+            external_identifier: CBDB:265015
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.673Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_st8ks4xjYLEogApY4ek2Di
+        status: active
+        display_name: 王成
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -173,9 +210,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_HivKtGCAjmdTAMqiQy41Yd | 王和 | accepted |
 | ancestors | p_P6vps7EktSPmKP4jr1VTV9 | 王積善 | accepted |
+| ancestors | p_st8ks4xjYLEogApY4ek2Di | 王成 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王成（CBDB 265015）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265015&o=json)
 - [中国历代人物传记资料库：王和（CBDB 265026）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265026&o=json)
 - [中国历代人物传记资料库：王積善（CBDB 265004）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265004&o=json)
 - [中国历代人物传记资料库：王豫（CBDB 126827）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126827&o=json)

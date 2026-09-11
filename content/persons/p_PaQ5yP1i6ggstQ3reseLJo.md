@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王尚準
 cbdb_id: 185765
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -205,6 +205,43 @@ relationships:
         status: active
         display_name: 王定簡
         merged_into_person_id: null
+    - claim:
+        id: c_GloCiI08SeeybYZXBJp575
+        subject_person_id: p_PaQ5yP1i6ggstQ3reseLJo
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_spYpogBorf4HmU9rCheCWD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gs-cUnyLm7eofIYT5CRzQz
+          claim_id: c_GloCiI08SeeybYZXBJp575
+          source_id: s_Jy5NaXb2vqv62L9my4yoUZ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Jy5NaXb2vqv62L9my4yoUZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王定禮（CBDB 186153）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186153&o=json
+            external_identifier: CBDB:186153
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.270Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_spYpogBorf4HmU9rCheCWD
+        status: active
+        display_name: 王定禮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_26NGcZpVYMgd8LBmgpqp1d | 王定和 | accepted |
 | children | p_5rHGpGBCFoFL3QgPEzj8DQ | 王定簡 | accepted |
+| children | p_spYpogBorf4HmU9rCheCWD | 王定禮 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王定和（CBDB 186151）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186151&o=json)
 - [中国历代人物传记资料库：王定簡（CBDB 186152）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186152&o=json)
+- [中国历代人物传记资料库：王定禮（CBDB 186153）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186153&o=json)
 - [中国历代人物传记资料库：王尚準（CBDB 185765）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185765&o=json)

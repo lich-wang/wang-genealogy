@@ -4,7 +4,7 @@ id: p_vfZA8CNHYRGPvaenX91t3P
 status: active
 merged_into: null
 display_name: 王德
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -204,6 +204,43 @@ relationships:
         status: active
         display_name: 王琪
         merged_into_person_id: null
+    - claim:
+        id: c_qJJGNJB6aff_Gg_ZeBb1_K
+        subject_person_id: p_vfZA8CNHYRGPvaenX91t3P
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_skvKr4qmtq2k4txSa5VE5H
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yqdRDyEil3LIZIXPJQjUcC
+          claim_id: c_qJJGNJB6aff_Gg_ZeBb1_K
+          source_id: s_agVFDNq9CJfeLL5By6d1Rf
+          stance: supports
+          locator: 宋史：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_agVFDNq9CJfeLL5By6d1Rf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王順（CBDB 119715）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119715&o=json
+            external_identifier: CBDB:119715
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:14.886Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_skvKr4qmtq2k4txSa5VE5H
+        status: active
+        display_name: 王順
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -268,6 +305,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_9zMW97J7BAC3TDNz5VbWCT | 王達 | accepted |
 | children | p_JMwztXuJpn7tLK5ZwtCDp1 | 王琪 | accepted |
+| children | p_skvKr4qmtq2k4txSa5VE5H | 王順 | accepted |
 | ancestors | p_HqotrCmsQrKUu6nT3a74CK | 王永 | accepted |
 
 ## 外部来源
@@ -275,4 +313,5 @@ relationships:
 - [中国历代人物传记资料库：王達（CBDB 37796）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37796&o=json)
 - [中国历代人物传记资料库：王德（CBDB 37768）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37768&o=json)
 - [中国历代人物传记资料库：王琪（CBDB 38419）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38419&o=json)
+- [中国历代人物传记资料库：王順（CBDB 119715）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119715&o=json)
 - [中国历代人物传记资料库：王永（CBDB 37786）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37786&o=json)

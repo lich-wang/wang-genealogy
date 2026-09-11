@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王正思
 cbdb_id: 202442
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -445,6 +445,43 @@ relationships:
         status: active
         display_name: 王衮
         merged_into_person_id: null
+    - claim:
+        id: c_c-sUWppMAJGePhyvCvyrri
+        subject_person_id: p_sgvxiNtEF15kwvGBJ1JQTz
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qfyAqTA3PGUUXcgAsCUJEh
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8rmK2wNjNHg86JVJKGsIzw
+          claim_id: c_c-sUWppMAJGePhyvCvyrri
+          source_id: s_N7bWCPVmrj5c4MZAU14Qbe
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第二甲第八十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_N7bWCPVmrj5c4MZAU14Qbe
+            source_type: api_record
+            title: 中国历代人物传记资料库：王天敘（CBDB 288231）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288231&o=json
+            external_identifier: CBDB:288231
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.288Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_sgvxiNtEF15kwvGBJ1JQTz
+        status: active
+        display_name: 王天敘
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -469,12 +506,14 @@ relationships:
 | spouses | p_J2VKD1dU6tCXowCHagNLp8 | 陈氏 | accepted |
 | ancestors | p_1kZF9QBi4ZCyjKfPjzwHnS | 王天叙 | accepted |
 | ancestors | p_PGJAWHxYxJtx3aVz4EvhUR | 王衮 | accepted |
+| ancestors | p_sgvxiNtEF15kwvGBJ1JQTz | 王天敘 | accepted |
 
 ## 外部来源
 
 - [维基数据：陈氏（Q65812299）](https://www.wikidata.org/wiki/Q65812299)
 - [维基数据：王守礼（Q45444931）](https://www.wikidata.org/wiki/Q45444931)
 - [维基数据：王正思（Q16077354）](https://www.wikidata.org/wiki/Q16077354)
+- [中国历代人物传记资料库：王天敘（CBDB 288231）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288231&o=json)
 - [中文维基百科：王正思](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%AD%A3%E6%80%9D)
 - [CBDB 中国历代人物传记资料库：陳氏（288235）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288235&o=json)
 - [CBDB 中国历代人物传记资料库：王守禮（288233）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288233&o=json)

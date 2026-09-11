@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王澤宏
 cbdb_id: 69467
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -322,6 +322,43 @@ relationships:
         status: active
         display_name: 王材振
         merged_into_person_id: null
+    - claim:
+        id: c_s0zdUlaoJUupB6mF6yQV5x
+        subject_person_id: p_zjQMXTGNWTchLi9wmdCnEK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_t9j9r8WLVwwcjUyb7X5KY2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gY_3aY3vRKB3C0NCLR1SF-
+          claim_id: c_s0zdUlaoJUupB6mF6yQV5x
+          source_id: s_JGigbXaQHKaJnLkYZE2xtC
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13179：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_JGigbXaQHKaJnLkYZE2xtC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王材升（CBDB 527015）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527015&o=json
+            external_identifier: CBDB:527015
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.348Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_t9j9r8WLVwwcjUyb7X5KY2
+        status: active
+        display_name: 王材升
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -351,10 +388,12 @@ relationships:
 | children | p_9a1mtxxGZXFq31hJw7C9b2 | 王材成 | accepted |
 | children | p_BBkMcK4bjf84hc3FXzMeir | 王材獻 | accepted |
 | children | p_LxJ4vJLT5hbogHuvPW9rPN | 王材振 | accepted |
+| children | p_t9j9r8WLVwwcjUyb7X5KY2 | 王材升 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王材成（CBDB 527016）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527016&o=json)
+- [中国历代人物传记资料库：王材升（CBDB 527015）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527015&o=json)
 - [中国历代人物传记资料库：王材獻（CBDB 527019）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527019&o=json)
 - [中国历代人物传记资料库：王材信（CBDB 527017）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527017&o=json)
 - [中国历代人物传记资料库：王材振（CBDB 527018）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527018&o=json)

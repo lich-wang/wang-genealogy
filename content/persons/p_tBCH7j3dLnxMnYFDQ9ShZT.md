@@ -4,7 +4,7 @@ id: p_tBCH7j3dLnxMnYFDQ9ShZT
 status: active
 merged_into: null
 display_name: 王以寧
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -114,7 +114,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_f4IssrwIoG-iZ8ZkYcUJ28
+        subject_person_id: p_5oPycHUW3mpNUYhM7rnWa6
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_tBCH7j3dLnxMnYFDQ9ShZT
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fhboMf-EdQ-r3MP8nY56rw
+          claim_id: c_f4IssrwIoG-iZ8ZkYcUJ28
+          source_id: s_tjVEFhKvPL6w4Xsy9JKa7L
+          stance: supports
+          locator: 寶祐登科錄：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5oPycHUW3mpNUYhM7rnWa6
+        status: active
+        display_name: 王伯慶
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -135,6 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_pPxxCTs7pEHku8hoGnoeUy | 王龍應 | accepted |
+| ancestors | p_5oPycHUW3mpNUYhM7rnWa6 | 王伯慶 | accepted |
 
 ## 外部来源
 

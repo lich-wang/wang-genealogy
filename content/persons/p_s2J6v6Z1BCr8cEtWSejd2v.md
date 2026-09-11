@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王時習
 cbdb_id: 202373
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_gzXtf57vMFWevysZ8_7Iyw
+        subject_person_id: p_SeUwbsi3ek9as5xjE9GYzB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_s2J6v6Z1BCr8cEtWSejd2v
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UDI_bH0f9RYZ6GuF-d0dMF
+          claim_id: c_gzXtf57vMFWevysZ8_7Iyw
+          source_id: s_6kwmYf1L3ZceQWBXBcMTf8
+          stance: supports
+          locator: 永樂十年進士登科錄:一卷，第三甲第三十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6kwmYf1L3ZceQWBXBcMTf8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敏道（CBDB 287084）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287084&o=json
+            external_identifier: CBDB:287084
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.250Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_SeUwbsi3ek9as5xjE9GYzB
+        status: active
+        display_name: 王敏道
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -192,9 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_SeUwbsi3ek9as5xjE9GYzB | 王敏道 | accepted |
 | ancestors | p_duE2PBHEvrNuc5jHv2HX4E | 王誠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王誠（CBDB 287082）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287082&o=json)
+- [中国历代人物传记资料库：王敏道（CBDB 287084）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287084&o=json)
 - [中国历代人物传记资料库：王時習（CBDB 202373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202373&o=json)

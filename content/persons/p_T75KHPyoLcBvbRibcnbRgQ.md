@@ -4,7 +4,7 @@ id: p_T75KHPyoLcBvbRibcnbRgQ
 status: active
 merged_into: null
 display_name: 王綸
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_hTdIJyDsobwg_dRvrjV60j
+        subject_person_id: p_T75KHPyoLcBvbRibcnbRgQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_eQSeau4TnN2P1YHAKu1a3t
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OyBONEifszz8Pp_qqvHY98
+          claim_id: c_hTdIJyDsobwg_dRvrjV60j
+          source_id: s_o8a9kw48JE7ciS4KU8As67
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第二甲第六十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_eQSeau4TnN2P1YHAKu1a3t
+        status: active
+        display_name: 王道
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_eQSeau4TnN2P1YHAKu1a3t | 王道 | accepted |
 
 ## 外部来源
 

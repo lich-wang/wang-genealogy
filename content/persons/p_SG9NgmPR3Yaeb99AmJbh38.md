@@ -4,7 +4,7 @@ id: p_SG9NgmPR3Yaeb99AmJbh38
 status: active
 merged_into: null
 display_name: 王師
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Uo8BiWtvLjo4eO6x1-rk_2
+        subject_person_id: p_SG9NgmPR3Yaeb99AmJbh38
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5RSxEJAu5VuwNpaediNpWE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oFElidvXT_JT0wkrVjfGIF
+          claim_id: c_Uo8BiWtvLjo4eO6x1-rk_2
+          source_id: s_6nS14JEXQgMJ3Jm3bXa72Q
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），45：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5RSxEJAu5VuwNpaediNpWE
+        status: active
+        display_name: 王孫武
+        merged_into_person_id: null
+    - claim:
+        id: c_YD9DJ6p1NdTNtMor_0P5yM
+        subject_person_id: p_SG9NgmPR3Yaeb99AmJbh38
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_M6bmPyZ1Q1V2tN4jxPLfm7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ips5kzjjwcyz76-hVEr6IV
+          claim_id: c_YD9DJ6p1NdTNtMor_0P5yM
+          source_id: s_6nS14JEXQgMJ3Jm3bXa72Q
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），45：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_M6bmPyZ1Q1V2tN4jxPLfm7
+        status: active
+        display_name: 王紹武
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_5RSxEJAu5VuwNpaediNpWE | 王孫武 | accepted |
+| children | p_M6bmPyZ1Q1V2tN4jxPLfm7 | 王紹武 | accepted |
 
 ## 外部来源
 

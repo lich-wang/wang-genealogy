@@ -4,7 +4,7 @@ id: p_rJtRxxSC69LmdREGcBhbeB
 status: active
 merged_into: null
 display_name: 王應時
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_JijlW2lMsbLLfQACcMOCie
+        subject_person_id: p_sMKHNsqNCt9mBLSW4zbVG6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rJtRxxSC69LmdREGcBhbeB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Gtd-wdFy7ykIfn9JKRtew0
+          claim_id: c_JijlW2lMsbLLfQACcMOCie
+          source_id: s_nFBiX4gDFcaWwFc3xy23TK
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第二甲第八十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_nFBiX4gDFcaWwFc3xy23TK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王容（CBDB 312615）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312615&o=json
+            external_identifier: CBDB:312615
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.872Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_sMKHNsqNCt9mBLSW4zbVG6
+        status: active
+        display_name: 王容
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_sMKHNsqNCt9mBLSW4zbVG6 | 王容 | accepted |
 | ancestors | p_kVM4bpGPXhX1ZS3CSQyiA2 | 王亶 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王亶（CBDB 312613）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312613&o=json)
+- [中国历代人物传记资料库：王容（CBDB 312615）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312615&o=json)
 - [中国历代人物传记资料库：王應時（CBDB 203967）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203967&o=json)

@@ -4,7 +4,7 @@ id: p_Y6fRdWmSHjB68krJYq7FPT
 status: active
 merged_into: null
 display_name: 王杲
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_7B4g9euoX6AZsooX9sFZ3I
+        subject_person_id: p_sQKFgBKrX6N7mKYfJwtry2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Y6fRdWmSHjB68krJYq7FPT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BbLAHTEvX9ko5I5qJaMdFu
+          claim_id: c_7B4g9euoX6AZsooX9sFZ3I
+          source_id: s_EjwpYk3YVv9nwyebg6iaE3
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第一百五十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_EjwpYk3YVv9nwyebg6iaE3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王洪（CBDB 257024）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257024&o=json
+            external_identifier: CBDB:257024
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.399Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_sQKFgBKrX6N7mKYfJwtry2
+        status: active
+        display_name: 王洪
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +237,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_sQKFgBKrX6N7mKYfJwtry2 | 王洪 | accepted |
 | ancestors | p_7j7J49ngvvxhFKjvaiM9YM | 王勤 | accepted |
 | ancestors | p_jMF84FXJU1C6tuAfvF1Dz2 | 王永壽 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王杲（CBDB 200384）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200384&o=json)
+- [中国历代人物传记资料库：王洪（CBDB 257024）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257024&o=json)
 - [中国历代人物传记资料库：王勤（CBDB 257023）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257023&o=json)
 - [中国历代人物传记资料库：王永壽（CBDB 257022）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257022&o=json)

@@ -4,7 +4,7 @@ id: p_sxszW95r84hhjReQxZJYQG
 status: active
 merged_into: null
 display_name: 王師元
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Uh97auGmf4hvgBo_c8B8fz
+        subject_person_id: p_sxszW95r84hhjReQxZJYQG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oBg2fph2HQeUi63Z2hsgrx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zRe5jQnrseee8NtX1E2Coz
+          claim_id: c_Uh97auGmf4hvgBo_c8B8fz
+          source_id: s_LALErhPFcP3uMT9LqRhpUL
+          stance: supports
+          locator: 芒洛冢墓遺文四編，王魯翁墓志：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oBg2fph2HQeUi63Z2hsgrx
+        status: active
+        display_name: 王壽卿
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_oBg2fph2HQeUi63Z2hsgrx | 王壽卿 | accepted |
 
 ## 外部来源
 

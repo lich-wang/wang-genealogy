@@ -4,7 +4,7 @@ id: p_Tgvd3TYyTPXstVT3BwJ3wh
 status: active
 merged_into: null
 display_name: 王厚之
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -133,7 +133,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_gQd7VqG0DSxHRzZow_uf4I
+        subject_person_id: p_KTTATWUQ3F1m45Pemb3S7n
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Tgvd3TYyTPXstVT3BwJ3wh
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_y0QgYXLPp_UfPAkS7W4mZg
+          claim_id: c_gQd7VqG0DSxHRzZow_uf4I
+          source_id: s_eKoXf9N8S1uypnENdckBnf
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1768：高祖;四世祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_KTTATWUQ3F1m45Pemb3S7n
+        status: active
+        display_name: 王安礼
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_KTTATWUQ3F1m45Pemb3S7n | 王安礼 | accepted |
 
 ## 外部来源
 

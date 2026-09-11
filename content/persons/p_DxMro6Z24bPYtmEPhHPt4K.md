@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王麟趾
 cbdb_id: 206638
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,6 +209,43 @@ relationships:
         status: active
         display_name: 王臣
         merged_into_person_id: null
+    - claim:
+        id: c_tM8UghcxQs_sYZIe6JLOZY
+        subject_person_id: p_sxkopmD3LHP8oHmfhdYMGy
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DxMro6Z24bPYtmEPhHPt4K
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uGYKsDKkbB-kOlPrrZnTe4
+          claim_id: c_tM8UghcxQs_sYZIe6JLOZY
+          source_id: s_3fB1L6ZTERqRMSJBKU5HCt
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第一百三十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3fB1L6ZTERqRMSJBKU5HCt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王重（CBDB 220836）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220836&o=json
+            external_identifier: CBDB:220836
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.308Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_sxkopmD3LHP8oHmfhdYMGy
+        status: active
+        display_name: 王重
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_pxuEEW3UEiC2znXj3WAZP7 | 王宣 | accepted |
 | ancestors | p_MMRBBo7czt6yaxo2ZFLE5C | 王臣 | accepted |
+| ancestors | p_sxkopmD3LHP8oHmfhdYMGy | 王重 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王臣（CBDB 220837）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220837&o=json)
 - [中国历代人物传记资料库：王麟趾（CBDB 206638）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206638&o=json)
 - [中国历代人物传记资料库：王宣（CBDB 220839）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220839&o=json)
+- [中国历代人物传记资料库：王重（CBDB 220836）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220836&o=json)

@@ -4,7 +4,7 @@ id: p_fYsU7A3SFMfzEtkjj2jnfk
 status: active
 merged_into: null
 display_name: 王之臣
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c__pY15RzL4Oq2dCd2W8-FE1
+        subject_person_id: p_t5Pa7BDdJtGhQZXGCYrN2e
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fYsU7A3SFMfzEtkjj2jnfk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sZWOZB3uFminwpDO43S7fi
+          claim_id: c__pY15RzL4Oq2dCd2W8-FE1
+          source_id: s_F9LEADxaDdt4eUbEyoye7c
+          stance: supports
+          locator: 嘉靖十七年進士登科錄:一卷，第三甲第四十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_F9LEADxaDdt4eUbEyoye7c
+            source_type: api_record
+            title: 中国历代人物传记资料库：王棟（CBDB 300166）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300166&o=json
+            external_identifier: CBDB:300166
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.613Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_t5Pa7BDdJtGhQZXGCYrN2e
+        status: active
+        display_name: 王棟
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +237,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_t5Pa7BDdJtGhQZXGCYrN2e | 王棟 | accepted |
 | ancestors | p_97kSyM8YLYzB5cHKtZsf2Q | 王充 | accepted |
 | ancestors | p_FF5NEoKt6BCvbiCkrfJPv5 | 王能 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王充（CBDB 300165）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300165&o=json)
+- [中国历代人物传记资料库：王棟（CBDB 300166）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300166&o=json)
 - [中国历代人物传记资料库：王能（CBDB 300164）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300164&o=json)
 - [中国历代人物传记资料库：王之臣（CBDB 203124）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203124&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王友玉
 cbdb_id: 143321
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -173,7 +173,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_iogjsBC5octUvkXL6HZg77
+        subject_person_id: p_xnFCV6EtnypuEAvQtMf7G3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_SpSLrczrNW3M2XFgwPhAVt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sQQ00d-zqQEXNBocPFOwfI
+          claim_id: c_iogjsBC5octUvkXL6HZg77
+          source_id: s_Bbi7yGpGXiLD6KED4m9Gx1
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Baoli2：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Bbi7yGpGXiLD6KED4m9Gx1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王國用（CBDB 166391）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166391&o=json
+            external_identifier: CBDB:166391
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.987Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_SpSLrczrNW3M2XFgwPhAVt
+        status: active
+        display_name: 王國用
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -236,9 +273,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_SpSLrczrNW3M2XFgwPhAVt | 王國用 | accepted |
 | descendants | p_SA1Cy3AMjvA4DEqRLoYzP9 | 王文某 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王國用（CBDB 166391）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166391&o=json)
 - [中国历代人物传记资料库：王文某（CBDB 166390）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166390&o=json)
 - [中国历代人物传记资料库：王友玉（CBDB 143321）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143321&o=json)

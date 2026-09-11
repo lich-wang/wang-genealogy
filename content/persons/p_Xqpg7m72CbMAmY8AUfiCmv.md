@@ -4,7 +4,7 @@ id: p_Xqpg7m72CbMAmY8AUfiCmv
 status: active
 merged_into: null
 display_name: 王温
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_A12QK9S5CC79IKDCdaa-yh
+        subject_person_id: p_SsZbQkb7Wa4KQYF6cCGrRS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Xqpg7m72CbMAmY8AUfiCmv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_b9bTpWZBm9LNAoJhVT5q4v
+          claim_id: c_A12QK9S5CC79IKDCdaa-yh
+          source_id: s_jNVVEFD8UKqEmF6EzBtfPR
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_jNVVEFD8UKqEmF6EzBtfPR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鶚（CBDB 169316）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169316&o=json
+            external_identifier: CBDB:169316
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.016Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_SsZbQkb7Wa4KQYF6cCGrRS
+        status: active
+        display_name: 王鶚
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_SsZbQkb7Wa4KQYF6cCGrRS | 王鶚 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鶚（CBDB 169316）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169316&o=json)
 - [中国历代人物传记资料库：王温（CBDB 190170）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190170&o=json)

@@ -4,7 +4,7 @@ id: p_SrQ4q1BgrQiRVKwrVN4Lqb
 status: active
 merged_into: null
 display_name: 王應
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_D6D2had3IprxZAGTC8fXpx
+        subject_person_id: p_SrQ4q1BgrQiRVKwrVN4Lqb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_waicV9Fo2q7nkgGJNdNMWK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6rYbabZ0dQDMoTC7WDINt-
+          claim_id: c_D6D2had3IprxZAGTC8fXpx
+          source_id: s_rKDMsmGUZB2e469FKUQKc2
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第九十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_waicV9Fo2q7nkgGJNdNMWK
+        status: active
+        display_name: 王察言
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_waicV9Fo2q7nkgGJNdNMWK | 王察言 | accepted |
 
 ## 外部来源
 

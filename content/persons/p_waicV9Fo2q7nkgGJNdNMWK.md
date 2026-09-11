@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王察言
 cbdb_id: 204284
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_D6D2had3IprxZAGTC8fXpx
+        subject_person_id: p_SrQ4q1BgrQiRVKwrVN4Lqb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_waicV9Fo2q7nkgGJNdNMWK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6rYbabZ0dQDMoTC7WDINt-
+          claim_id: c_D6D2had3IprxZAGTC8fXpx
+          source_id: s_rKDMsmGUZB2e469FKUQKc2
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第九十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_rKDMsmGUZB2e469FKUQKc2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應（CBDB 317016）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317016&o=json
+            external_identifier: CBDB:317016
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.966Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_SrQ4q1BgrQiRVKwrVN4Lqb
+        status: active
+        display_name: 王應
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,6 +266,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_SrQ4q1BgrQiRVKwrVN4Lqb | 王應 | accepted |
 | ancestors | p_1eDGUA4h2MBNDhEo468hA9 | 王玘 | accepted |
 | ancestors | p_EV852HK28ZdHsvAgoR8BYL | 王雄 | accepted |
 
@@ -237,3 +275,4 @@ relationships:
 - [中国历代人物传记资料库：王察言（CBDB 204284）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204284&o=json)
 - [中国历代人物传记资料库：王玘（CBDB 317014）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317014&o=json)
 - [中国历代人物传记资料库：王雄（CBDB 317015）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317015&o=json)
+- [中国历代人物传记资料库：王應（CBDB 317016）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317016&o=json)

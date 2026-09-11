@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王元命
 cbdb_id: 206711
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Hocf_yRmNLhGXn4xrpM4TZ
+        subject_person_id: p_SS97xGcPYDqvhXCDmF9tN7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3aMVouUh1i5LfdSb79YgNN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_U3UEIzv-H9Fm1LNcAruJWx
+          claim_id: c_Hocf_yRmNLhGXn4xrpM4TZ
+          source_id: s_ozeoJKaXquPH9EAA5aseJy
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第二百三十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ozeoJKaXquPH9EAA5aseJy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王表（CBDB 221923）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221923&o=json
+            external_identifier: CBDB:221923
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.352Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_SS97xGcPYDqvhXCDmF9tN7
+        status: active
+        display_name: 王表
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,11 +266,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_SS97xGcPYDqvhXCDmF9tN7 | 王表 | accepted |
 | ancestors | p_9V6XR4PXXzFLjMUWdCy8vq | 王顏 | accepted |
 | ancestors | p_DtyfmfRP6LSaW7ht1gFmZP | 王仲實 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王表（CBDB 221923）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221923&o=json)
 - [中国历代人物传记资料库：王顏（CBDB 221921）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221921&o=json)
 - [中国历代人物传记资料库：王元命（CBDB 206711）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206711&o=json)
 - [中国历代人物传记资料库：王仲實（CBDB 221922）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221922&o=json)

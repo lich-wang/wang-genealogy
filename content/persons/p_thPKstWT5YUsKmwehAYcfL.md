@@ -4,7 +4,7 @@ id: p_thPKstWT5YUsKmwehAYcfL
 status: active
 merged_into: null
 display_name: 王喜
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_L2qDsHjjT4qZAV16DhYVwM
+        subject_person_id: p_thPKstWT5YUsKmwehAYcfL
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6HcTFXM8o7jGP9HyscW8Hm
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_o8MQvtP2i0D3bkx5XkBYfT
+          claim_id: c_L2qDsHjjT4qZAV16DhYVwM
+          source_id: s_qDxCjCxebcFszv3mi9b1D9
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第二百三十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_6HcTFXM8o7jGP9HyscW8Hm
+        status: active
+        display_name: 王胤祥
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_6HcTFXM8o7jGP9HyscW8Hm | 王胤祥 | accepted |
 
 ## 外部来源
 

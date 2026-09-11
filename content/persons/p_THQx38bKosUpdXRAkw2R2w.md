@@ -4,7 +4,7 @@ id: p_THQx38bKosUpdXRAkw2R2w
 status: active
 merged_into: null
 display_name: 王世貞
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_wCyvr4itBFQwQSLKU_IaX2
+        subject_person_id: p_ssAqXP1XN82W3Z1XD178zK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_THQx38bKosUpdXRAkw2R2w
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CLA9dpQvvkP6iYCMVvO0dF
+          claim_id: c_wCyvr4itBFQwQSLKU_IaX2
+          source_id: s_EGYNzhpNhAqJTrdrD1CqfF
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第二甲第八十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_EGYNzhpNhAqJTrdrD1CqfF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王忬（CBDB 309375）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309375&o=json
+            external_identifier: CBDB:309375
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.811Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ssAqXP1XN82W3Z1XD178zK
+        status: active
+        display_name: 王忬
+        merged_into_person_id: null
   children:
     - claim:
         id: c_L17epIaSnULnveN2D6Ib1G
@@ -266,6 +303,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ssAqXP1XN82W3Z1XD178zK | 王忬 | accepted |
 | children | p_JmAYb8swKSWn43Xra4JyV8 | 王士驌 | accepted |
 | ancestors | p_Myxv48wyKA3EhwRsziJopB | 王輅 | accepted |
 | ancestors | p_qHVPmDLgLbn56ct3eKkqpM | 王倬 | accepted |
@@ -275,4 +313,5 @@ relationships:
 - [中国历代人物传记资料库：王輅（CBDB 309372）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309372&o=json)
 - [中国历代人物传记资料库：王士驌（CBDB 134660）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134660&o=json)
 - [中国历代人物传记资料库：王世貞（CBDB 34717）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34717&o=json)
+- [中国历代人物传记资料库：王忬（CBDB 309375）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309375&o=json)
 - [中国历代人物传记资料库：王倬（CBDB 309373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309373&o=json)

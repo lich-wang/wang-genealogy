@@ -4,7 +4,7 @@ id: p_sQKFgBKrX6N7mKYfJwtry2
 status: active
 merged_into: null
 display_name: 王洪
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_7B4g9euoX6AZsooX9sFZ3I
+        subject_person_id: p_sQKFgBKrX6N7mKYfJwtry2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Y6fRdWmSHjB68krJYq7FPT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BbLAHTEvX9ko5I5qJaMdFu
+          claim_id: c_7B4g9euoX6AZsooX9sFZ3I
+          source_id: s_EjwpYk3YVv9nwyebg6iaE3
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第一百五十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Y6fRdWmSHjB68krJYq7FPT
+        status: active
+        display_name: 王杲
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_Y6fRdWmSHjB68krJYq7FPT | 王杲 | accepted |
 
 ## 外部来源
 

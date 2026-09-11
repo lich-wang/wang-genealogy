@@ -4,7 +4,7 @@ id: p_skvKr4qmtq2k4txSa5VE5H
 status: active
 merged_into: null
 display_name: 王順
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_qJJGNJB6aff_Gg_ZeBb1_K
+        subject_person_id: p_vfZA8CNHYRGPvaenX91t3P
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_skvKr4qmtq2k4txSa5VE5H
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yqdRDyEil3LIZIXPJQjUcC
+          claim_id: c_qJJGNJB6aff_Gg_ZeBb1_K
+          source_id: s_agVFDNq9CJfeLL5By6d1Rf
+          stance: supports
+          locator: 宋史：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vfZA8CNHYRGPvaenX91t3P
+        status: active
+        display_name: 王德
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vfZA8CNHYRGPvaenX91t3P | 王德 | accepted |
 
 ## 外部来源
 

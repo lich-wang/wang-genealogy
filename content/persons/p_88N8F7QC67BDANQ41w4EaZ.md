@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王顯仁
 cbdb_id: 206702
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,6 +172,43 @@ relationships:
         status: active
         display_name: 王紳
         merged_into_person_id: null
+    - claim:
+        id: c_KWKuGekZ0aS0eHXXK2f1X6
+        subject_person_id: p_se1Gd4Gcj3NrcKJzT2JdPb
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_88N8F7QC67BDANQ41w4EaZ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GbS1nAgLS0u_74zTD653Me
+          claim_id: c_KWKuGekZ0aS0eHXXK2f1X6
+          source_id: s_4LHAz46ZaVe5fRZQBG8UzR
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第二百一十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4LHAz46ZaVe5fRZQBG8UzR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王國寧（CBDB 221764）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221764&o=json
+            external_identifier: CBDB:221764
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.335Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_se1Gd4Gcj3NrcKJzT2JdPb
+        status: active
+        display_name: 王國寧
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_6WVCyPZFzYK7Wi3KQchdvh | 王紳 | accepted |
+| ancestors | p_se1Gd4Gcj3NrcKJzT2JdPb | 王國寧 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王國寧（CBDB 221764）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221764&o=json)
 - [中国历代人物传记资料库：王紳（CBDB 221765）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221765&o=json)
 - [中国历代人物传记资料库：王顯仁（CBDB 206702）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206702&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王广心
 cbdb_id: 61089
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -329,6 +329,43 @@ relationships:
         status: active
         display_name: 王九龄
         merged_into_person_id: null
+    - claim:
+        id: c_yZX-U_i8nSStgStM6E__lz
+        subject_person_id: p_T3HfvKJwe8oNYNwYQCppo7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_SdCtEV8ezMu1gaKq6A4Ybw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ce3AMIlvEWwapUUQQsmhO_
+          claim_id: c_yZX-U_i8nSStgStM6E__lz
+          source_id: s_pNd65ApkyKxwgsbu2CQ5Vg
+          stance: supports
+          locator: 江南通志，lgid=65760：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_pNd65ApkyKxwgsbu2CQ5Vg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王頊齡（CBDB 57204）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=57204&o=json
+            external_identifier: CBDB:57204
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.802Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_SdCtEV8ezMu1gaKq6A4Ybw
+        status: active
+        display_name: 王頊齡
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -356,6 +393,7 @@ relationships:
 | children | p_CzTWpHL7Ygd6jZ5FnFr3gg | 王鸿绪 | accepted |
 | children | p_gK3s5as8p46itCw9YJw9F7 | 王顼龄 | accepted |
 | children | p_b4dpeAET33uHSS4HsGtiLx | 王九龄 | accepted |
+| children | p_SdCtEV8ezMu1gaKq6A4Ybw | 王頊齡 | accepted |
 
 ## 外部来源
 
@@ -363,4 +401,5 @@ relationships:
 - [维基数据：王鸿绪（Q15913275）](https://www.wikidata.org/wiki/Q15913275)
 - [维基数据：王九龄（Q16077441）](https://www.wikidata.org/wiki/Q16077441)
 - [维基数据：王顼龄（Q15916283）](https://www.wikidata.org/wiki/Q15916283)
+- [中国历代人物传记资料库：王頊齡（CBDB 57204）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=57204&o=json)
 - [CBDB 中国历代人物传记资料库：王廣心（61089）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=61089&o=json)

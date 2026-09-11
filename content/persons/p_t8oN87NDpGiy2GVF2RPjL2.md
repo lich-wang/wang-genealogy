@@ -4,7 +4,7 @@ id: p_t8oN87NDpGiy2GVF2RPjL2
 status: active
 merged_into: null
 display_name: 王英
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_5OH0Tb16oZAgfG9yWU15pW
+        subject_person_id: p_t8oN87NDpGiy2GVF2RPjL2
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_znAcPph3Ny2FkUGcQdE5go
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ut_wtd1fccUHzaEJZO2XPw
+          claim_id: c_5OH0Tb16oZAgfG9yWU15pW
+          source_id: s_dHeZSkuqn7N7WUqeKQ4CFt
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第二甲第六十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_znAcPph3Ny2FkUGcQdE5go
+        status: active
+        display_name: 王珩
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_znAcPph3Ny2FkUGcQdE5go | 王珩 | accepted |
 
 ## 外部来源
 

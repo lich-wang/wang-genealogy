@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王謳
 cbdb_id: 126857
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_2ai_amlQ_KX-KOD-XItpRi
+        subject_person_id: p_t5w9aLHR6A5gdUHq2nzVCC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cojJSQjAH97J8dPWYrRzuD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dkDCA7uDnZSUIq2gIc1sB6
+          claim_id: c_2ai_amlQ_KX-KOD-XItpRi
+          source_id: s_tBHSi3aSPRVhGHHRuUMNXX
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第二百二十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_tBHSi3aSPRVhGHHRuUMNXX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珤（CBDB 282954）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282954&o=json
+            external_identifier: CBDB:282954
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.118Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_t5w9aLHR6A5gdUHq2nzVCC
+        status: active
+        display_name: 王珤
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -185,11 +222,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_t5w9aLHR6A5gdUHq2nzVCC | 王珤 | accepted |
 | ancestors | p_NJ9WAXL6f46YpNe1P4B8UN | 王信 | accepted |
 | ancestors | p_rjq1AvfQWH6dwCE5DF3Q1z | 王鑑 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王珤（CBDB 282954）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282954&o=json)
 - [中国历代人物传记资料库：王鑑（CBDB 282952）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282952&o=json)
 - [中国历代人物传记资料库：王謳（CBDB 126857）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126857&o=json)
 - [中国历代人物传记资料库：王信（CBDB 282951）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282951&o=json)

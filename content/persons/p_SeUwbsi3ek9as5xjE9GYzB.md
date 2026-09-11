@@ -4,7 +4,7 @@ id: p_SeUwbsi3ek9as5xjE9GYzB
 status: active
 merged_into: null
 display_name: 王敏道
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_gzXtf57vMFWevysZ8_7Iyw
+        subject_person_id: p_SeUwbsi3ek9as5xjE9GYzB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_s2J6v6Z1BCr8cEtWSejd2v
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UDI_bH0f9RYZ6GuF-d0dMF
+          claim_id: c_gzXtf57vMFWevysZ8_7Iyw
+          source_id: s_6kwmYf1L3ZceQWBXBcMTf8
+          stance: supports
+          locator: 永樂十年進士登科錄:一卷，第三甲第三十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_s2J6v6Z1BCr8cEtWSejd2v
+        status: active
+        display_name: 王時習
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_s2J6v6Z1BCr8cEtWSejd2v | 王時習 | accepted |
 
 ## 外部来源
 

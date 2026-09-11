@@ -4,7 +4,7 @@ id: p_XLANjjKCBK7qVKBrPKgEcS
 status: active
 merged_into: null
 display_name: 王堅
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -139,6 +139,43 @@ relationships:
         status: active
         display_name: 王岳
         merged_into_person_id: null
+    - claim:
+        id: c_2YFoSfgjZXwMhQKvKMWn-t
+        subject_person_id: p_XLANjjKCBK7qVKBrPKgEcS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_siyVkBP3BBDbeJ9Le2oaDN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tjGPH3gdPpXRkUMZ2I5ABB
+          claim_id: c_2YFoSfgjZXwMhQKvKMWn-t
+          source_id: s_unDKcdFgSh9qYmGdaoPHWg
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_unDKcdFgSh9qYmGdaoPHWg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仲康（CBDB 186739）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186739&o=json
+            external_identifier: CBDB:186739
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.287Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_siyVkBP3BBDbeJ9Le2oaDN
+        status: active
+        display_name: 王仲康
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_nLiT1zEiwV2dsUPbDKdS49 | 王岳 | accepted |
+| children | p_siyVkBP3BBDbeJ9Le2oaDN | 王仲康 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王堅（CBDB 186733）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186733&o=json)
 - [中国历代人物传记资料库：王岳（CBDB 186737）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186737&o=json)
+- [中国历代人物传记资料库：王仲康（CBDB 186739）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186739&o=json)

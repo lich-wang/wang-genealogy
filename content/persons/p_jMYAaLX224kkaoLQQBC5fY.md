@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王溫之
 cbdb_id: 155092
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -125,6 +125,43 @@ relationships:
         status: active
         display_name: 王暹
         merged_into_person_id: null
+    - claim:
+        id: c_yOgAuQqJAX4WByZS4-BVPL
+        subject_person_id: p_jMYAaLX224kkaoLQQBC5fY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_SGeMYrvQyjS48RnQNcBfCh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BDcsqkVrzIvDa_jlrDHWCD
+          claim_id: c_yOgAuQqJAX4WByZS4-BVPL
+          source_id: s_tif7iYmAbV5mFPFGRxQiXs
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_tif7iYmAbV5mFPFGRxQiXs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昇（CBDB 175818）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175818&o=json
+            external_identifier: CBDB:175818
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.140Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_SGeMYrvQyjS48RnQNcBfCh
+        status: active
+        display_name: 王昇
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -149,8 +186,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_NF9nn9Yuihtu46ihig773u | 王暹 | accepted |
+| children | p_SGeMYrvQyjS48RnQNcBfCh | 王昇 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王昇（CBDB 175818）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175818&o=json)
 - [中国历代人物传记资料库：王溫之（CBDB 155092）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=155092&o=json)
 - [中国历代人物传记资料库：王暹（CBDB 175815）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175815&o=json)

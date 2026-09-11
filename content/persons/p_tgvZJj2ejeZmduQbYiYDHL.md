@@ -4,7 +4,7 @@ id: p_tgvZJj2ejeZmduQbYiYDHL
 status: active
 merged_into: null
 display_name: 王恩
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_J8AKT9or1WGrts7BkhyNYF
+        subject_person_id: p_tgvZJj2ejeZmduQbYiYDHL
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Wgw4bGM6hG66ToMF6agV3N
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZnddfpvfLxGTh6nT_IBCUZ
+          claim_id: c_J8AKT9or1WGrts7BkhyNYF
+          source_id: s_266NfucLX9zj6bGDjLe6CA
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第二甲第六十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Wgw4bGM6hG66ToMF6agV3N
+        status: active
+        display_name: 王就學
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_Wgw4bGM6hG66ToMF6agV3N | 王就學 | accepted |
 
 ## 外部来源
 

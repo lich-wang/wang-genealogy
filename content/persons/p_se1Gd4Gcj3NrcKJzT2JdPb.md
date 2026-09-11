@@ -4,7 +4,7 @@ id: p_se1Gd4Gcj3NrcKJzT2JdPb
 status: active
 merged_into: null
 display_name: 王國寧
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_KWKuGekZ0aS0eHXXK2f1X6
+        subject_person_id: p_se1Gd4Gcj3NrcKJzT2JdPb
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_88N8F7QC67BDANQ41w4EaZ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GbS1nAgLS0u_74zTD653Me
+          claim_id: c_KWKuGekZ0aS0eHXXK2f1X6
+          source_id: s_4LHAz46ZaVe5fRZQBG8UzR
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第二百一十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_88N8F7QC67BDANQ41w4EaZ
+        status: active
+        display_name: 王顯仁
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_88N8F7QC67BDANQ41w4EaZ | 王顯仁 | accepted |
 
 ## 外部来源
 

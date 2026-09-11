@@ -4,7 +4,7 @@ id: p_vMrsFyx3mJ3d7E7imZc3LS
 status: active
 merged_into: null
 display_name: 王鑾
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -115,6 +115,43 @@ relationships:
         status: active
         display_name: 王藝
         merged_into_person_id: null
+    - claim:
+        id: c_FNoDMO4IEbFjA9ZXRCQPiW
+        subject_person_id: p_SNoxRDc6ZXuEctRukJJ8LQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_vMrsFyx3mJ3d7E7imZc3LS
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IeZ-UWtlbIjArCQckfEwFX
+          claim_id: c_FNoDMO4IEbFjA9ZXRCQPiW
+          source_id: s_fQgSpfVKC1KyjkE86uSGqe
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第三甲第一百九十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_fQgSpfVKC1KyjkE86uSGqe
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昇（CBDB 272647）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272647&o=json
+            external_identifier: CBDB:272647
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.891Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_SNoxRDc6ZXuEctRukJJ8LQ
+        status: active
+        display_name: 王昇
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_9vKhc6rhbPppSNgLg1uETa | 王藝 | accepted |
+| ancestors | p_SNoxRDc6ZXuEctRukJJ8LQ | 王昇 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鑾（CBDB 126899）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126899&o=json)
+- [中国历代人物传记资料库：王昇（CBDB 272647）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272647&o=json)
 - [中国历代人物传记资料库：王藝（CBDB 272646）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272646&o=json)

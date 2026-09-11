@@ -4,7 +4,7 @@ id: p_tecxCc8AdS9udfaQ1CDwan
 status: active
 merged_into: null
 display_name: 王晙
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ZIhefMBy_EluDPuH1W7s27
+        subject_person_id: p_KRJzmY18UWZPSeL3isfUAa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tecxCc8AdS9udfaQ1CDwan
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ztt7e6EG7H-mto07EtjjmT
+          claim_id: c_ZIhefMBy_EluDPuH1W7s27
+          source_id: s_XLMpjZMSy3DN4Fe2vw9XWJ
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Jinglong 27：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_KRJzmY18UWZPSeL3isfUAa
+        status: active
+        display_name: 王行果
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_KRJzmY18UWZPSeL3isfUAa | 王行果 | accepted |
 
 ## 外部来源
 

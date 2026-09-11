@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王安礼
 cbdb_id: 1760
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -425,7 +425,44 @@ relationships:
         display_name: 某氏
         merged_into_person_id: null
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_gQd7VqG0DSxHRzZow_uf4I
+        subject_person_id: p_KTTATWUQ3F1m45Pemb3S7n
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Tgvd3TYyTPXstVT3BwJ3wh
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_y0QgYXLPp_UfPAkS7W4mZg
+          claim_id: c_gQd7VqG0DSxHRzZow_uf4I
+          source_id: s_eKoXf9N8S1uypnENdckBnf
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1768：高祖;四世祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_eKoXf9N8S1uypnENdckBnf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王厚之（CBDB 3951）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3951&o=json
+            external_identifier: CBDB:3951
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.429Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Tgvd3TYyTPXstVT3BwJ3wh
+        status: active
+        display_name: 王厚之
+        merged_into_person_id: null
   other: []
 ---
 
@@ -448,12 +485,14 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_TCJasuo9M43ytz26ea5oSn | 王益 | accepted |
 | spouses | p_o8a2xb1NaoHmv169uvto5o | 某氏 | accepted |
+| descendants | p_Tgvd3TYyTPXstVT3BwJ3wh | 王厚之 | accepted |
 
 ## 外部来源
 
 - [维基数据：某氏（Q45431694）](https://www.wikidata.org/wiki/Q45431694)
 - [维基数据：王安礼（Q18905331）](https://www.wikidata.org/wiki/Q18905331)
 - [維基數據：王益（Q45365249）](https://www.wikidata.org/wiki/Q45365249)
+- [中国历代人物传记资料库：王厚之（CBDB 3951）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3951&o=json)
 - [中文维基百科：王安礼](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%89%E7%A4%BC)
 - [CBDB 中国历代人物传记资料库：某氏（38684）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38684&o=json)
 - [CBDB 中国历代人物传记资料库：王安禮（1760）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1760&o=json)

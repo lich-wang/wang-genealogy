@@ -4,7 +4,7 @@ id: p_oDCtFv3cf2CiUbXVcBy9FF
 status: active
 merged_into: null
 display_name: 王廷榦
-revision: 8
+revision: 9
 properties:
   - predicate: name.primary
     recommended:
@@ -403,6 +403,43 @@ relationships:
         status: active
         display_name: 王時可
         merged_into_person_id: null
+    - claim:
+        id: c_9pYlgtLO387z8hv27I9pc0
+        subject_person_id: p_oDCtFv3cf2CiUbXVcBy9FF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_T9E7DvbctBp2op4eaF9sZG
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tul1mA2iePcq283fYIlF0l
+          claim_id: c_9pYlgtLO387z8hv27I9pc0
+          source_id: s_WBK8MeoGCfzqjEW7LM3Gxh
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第六名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_WBK8MeoGCfzqjEW7LM3Gxh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王時亮（CBDB 291904）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291904&o=json
+            external_identifier: CBDB:291904
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.379Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_T9E7DvbctBp2op4eaF9sZG
+        status: active
+        display_name: 王時亮
+        merged_into_person_id: null
   other: []
 ---
 
@@ -430,12 +467,14 @@ relationships:
 | descendants | p_fagWpUqsWGi5ABdQASKVK9 | 王時陞 | accepted |
 | descendants | p_ktsnU8FTeioQRpsJfaLUo1 | 王允亨 | accepted |
 | descendants | p_PpLqnBNRrTw5b6vkG3TPK7 | 王時可 | accepted |
+| descendants | p_T9E7DvbctBp2op4eaF9sZG | 王時亮 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王達（CBDB 291878）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291878&o=json)
 - [中国历代人物传记资料库：王汝猷（CBDB 291880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291880&o=json)
 - [中国历代人物传记资料库：王時可（CBDB 291906）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291906&o=json)
+- [中国历代人物传记资料库：王時亮（CBDB 291904）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291904&o=json)
 - [中国历代人物传记资料库：王時陞（CBDB 291908）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291908&o=json)
 - [中国历代人物传记资料库：王廷榦（CBDB 126553）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126553&o=json)
 - [中国历代人物传记资料库：王文爟（CBDB 291900）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291900&o=json)

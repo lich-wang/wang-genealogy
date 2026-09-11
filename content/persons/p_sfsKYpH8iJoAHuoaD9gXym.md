@@ -4,7 +4,7 @@ id: p_sfsKYpH8iJoAHuoaD9gXym
 status: active
 merged_into: null
 display_name: 王淳
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_X7czR6gzZe2jZIahQZLFuW
+        subject_person_id: p_W8DoULihsDdHq5QoSv38o7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sfsKYpH8iJoAHuoaD9gXym
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_C8VpVtPa2bHyzZhTaDiXKR
+          claim_id: c_X7czR6gzZe2jZIahQZLFuW
+          source_id: s_FWC6Tyrx84ktiG7wFgN8zr
+          stance: supports
+          locator: 紹興府志:八十卷，lgid=316843：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_W8DoULihsDdHq5QoSv38o7
+        status: active
+        display_name: 王廷鑑
+        merged_into_person_id: null
   children:
     - claim:
         id: c_rb6_AO2byFz0g6FSPK4mSM
@@ -134,6 +160,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_W8DoULihsDdHq5QoSv38o7 | 王廷鑑 | accepted |
 | children | p_CtSVBmCmDig7VPF7gNP89q | 王棟 | accepted |
 
 ## 外部来源

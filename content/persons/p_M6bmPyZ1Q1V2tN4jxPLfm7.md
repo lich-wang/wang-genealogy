@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王紹武
 cbdb_id: 513490
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_YD9DJ6p1NdTNtMor_0P5yM
+        subject_person_id: p_SG9NgmPR3Yaeb99AmJbh38
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_M6bmPyZ1Q1V2tN4jxPLfm7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ips5kzjjwcyz76-hVEr6IV
+          claim_id: c_YD9DJ6p1NdTNtMor_0P5yM
+          source_id: s_6nS14JEXQgMJ3Jm3bXa72Q
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），45：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6nS14JEXQgMJ3Jm3bXa72Q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王師（CBDB 56851）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56851&o=json
+            external_identifier: CBDB:56851
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.767Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_SG9NgmPR3Yaeb99AmJbh38
+        status: active
+        display_name: 王師
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_SG9NgmPR3Yaeb99AmJbh38 | 王師 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王紹武（CBDB 513490）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=513490&o=json)
+- [中国历代人物传记资料库：王師（CBDB 56851）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56851&o=json)

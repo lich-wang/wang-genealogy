@@ -4,7 +4,7 @@ id: p_SEtLP5GkVoAmGmZP4M96hJ
 status: active
 merged_into: null
 display_name: 王語
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_WBB0IM1NRtxD82cUjaLVIO
+        subject_person_id: p_SEtLP5GkVoAmGmZP4M96hJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_U1s98XVN7fk14ATdRBVYZw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OMqfzY0lo0uNsH33JbfHGF
+          claim_id: c_WBB0IM1NRtxD82cUjaLVIO
+          source_id: s_R1LE4v7GsX1vPk8ky1a95w
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第三十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_U1s98XVN7fk14ATdRBVYZw
+        status: active
+        display_name: 王希曾
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_U1s98XVN7fk14ATdRBVYZw | 王希曾 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王汝鲁
 cbdb_id: 126502
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -438,6 +438,43 @@ relationships:
         status: active
         display_name: 王鴻儒
         merged_into_person_id: null
+    - claim:
+        id: c_Cp1Jbb5fTVbuOZc8Q-2xQJ
+        subject_person_id: p_SvtJzbwQx6aPhbiUbFsPgi
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_iRoPCMQGG7T8QWQEfbMdBx
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5h66Uhx0K4RDv_cxkZQzZY
+          claim_id: c_Cp1Jbb5fTVbuOZc8Q-2xQJ
+          source_id: s_ZppvH93pDn5sPBwD1a4Rf6
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第二甲第四十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZppvH93pDn5sPBwD1a4Rf6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王本（CBDB 334079）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334079&o=json
+            external_identifier: CBDB:334079
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.430Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_SvtJzbwQx6aPhbiUbFsPgi
+        status: active
+        display_name: 王本
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -464,6 +501,7 @@ relationships:
 | spouses | p_TFYLNz818Sj3Pa3L1D9Wxf | 郭氏 | accepted |
 | spouses | p_Cpk49SPxpMgEW6iFdSv213 | 杨氏 | accepted |
 | ancestors | p_bwdhzsnM77a9YN3tYyTmwB | 王鴻儒 | accepted |
+| ancestors | p_SvtJzbwQx6aPhbiUbFsPgi | 王本 | accepted |
 
 ## 外部来源
 
@@ -471,6 +509,7 @@ relationships:
 - [维基数据：王可（Q45603634）](https://www.wikidata.org/wiki/Q45603634)
 - [维基数据：王汝鲁（Q45577422）](https://www.wikidata.org/wiki/Q45577422)
 - [维基数据：杨氏（Q65861477）](https://www.wikidata.org/wiki/Q65861477)
+- [中国历代人物传记资料库：王本（CBDB 334079）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334079&o=json)
 - [中国历代人物传记资料库：王鴻儒（CBDB 33864）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33864&o=json)
 - [CBDB 中国历代人物传记资料库：王可（334081）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334081&o=json)
 - [CBDB 中国历代人物传记资料库：王汝魯（126502）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126502&o=json)

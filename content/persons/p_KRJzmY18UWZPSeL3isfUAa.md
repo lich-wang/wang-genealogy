@@ -4,7 +4,7 @@ id: p_KRJzmY18UWZPSeL3isfUAa
 status: active
 merged_into: null
 display_name: 王行果
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -241,6 +241,80 @@ relationships:
         status: active
         display_name: 王曔
         merged_into_person_id: null
+    - claim:
+        id: c_OEPq3N7PTAOP5UtV6fah3C
+        subject_person_id: p_KRJzmY18UWZPSeL3isfUAa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_svhbmD3B5AhUY8EYXEpT81
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9qQeyc74CnGXxhYgxf7Xv0
+          claim_id: c_OEPq3N7PTAOP5UtV6fah3C
+          source_id: s_GF8HCGT1mYdmiLtx26QHGA
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Jinglong 27：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GF8HCGT1mYdmiLtx26QHGA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王晦（CBDB 150805）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150805&o=json
+            external_identifier: CBDB:150805
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.820Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_svhbmD3B5AhUY8EYXEpT81
+        status: active
+        display_name: 王晦
+        merged_into_person_id: null
+    - claim:
+        id: c_ZIhefMBy_EluDPuH1W7s27
+        subject_person_id: p_KRJzmY18UWZPSeL3isfUAa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tecxCc8AdS9udfaQ1CDwan
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ztt7e6EG7H-mto07EtjjmT
+          claim_id: c_ZIhefMBy_EluDPuH1W7s27
+          source_id: s_XLMpjZMSy3DN4Fe2vw9XWJ
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Jinglong 27：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_XLMpjZMSy3DN4Fe2vw9XWJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王晙（CBDB 150808）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150808&o=json
+            external_identifier: CBDB:150808
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.822Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_tecxCc8AdS9udfaQ1CDwan
+        status: active
+        display_name: 王晙
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -269,10 +343,14 @@ relationships:
 | parents | p_DF5f3BpuwMwBFDLpFCT3zQ | 王有方 | accepted |
 | children | p_1LXS4QqvHE6vYKAzkSMeHq | 王暟 | accepted |
 | children | p_inW3YFWZZ4cbGzjyNYmXsr | 王曔 | accepted |
+| children | p_svhbmD3B5AhUY8EYXEpT81 | 王晦 | accepted |
+| children | p_tecxCc8AdS9udfaQ1CDwan | 王晙 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王晦（CBDB 150805）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150805&o=json)
 - [中国历代人物传记资料库：王曔（CBDB 150806）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150806&o=json)
+- [中国历代人物传记资料库：王晙（CBDB 150808）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150808&o=json)
 - [中国历代人物传记资料库：王暟（CBDB 150807）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150807&o=json)
 - [中国历代人物传记资料库：王行果（CBDB 140254）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140254&o=json)
 - [中国历代人物传记资料库：王有方（CBDB 150804）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150804&o=json)

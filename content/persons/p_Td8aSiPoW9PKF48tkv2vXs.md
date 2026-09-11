@@ -4,7 +4,7 @@ id: p_Td8aSiPoW9PKF48tkv2vXs
 status: active
 merged_into: null
 display_name: 王瑤
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王庸
         merged_into_person_id: null
+    - claim:
+        id: c_rCCbUQaiRHBfmQuEwLvK5V
+        subject_person_id: p_T4ZtevQcvHhHS2FHC8Rscf
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Td8aSiPoW9PKF48tkv2vXs
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_z2hQlqC5LznhIxm1aRRlTX
+          claim_id: c_rCCbUQaiRHBfmQuEwLvK5V
+          source_id: s_5FCNtcPKxk446GQrKqaqzv
+          stance: supports
+          locator: 弘治十八年進士登科錄:一卷，第三甲第二百零四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5FCNtcPKxk446GQrKqaqzv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文（CBDB 275694）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=275694&o=json
+            external_identifier: CBDB:275694
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.932Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_T4ZtevQcvHhHS2FHC8Rscf
+        status: active
+        display_name: 王文
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_MV5sBFSTHxBDSg4PfD9WaB | 王紀 | accepted |
 | ancestors | p_96Ewn743486XZ1Yf46XiXm | 王庸 | accepted |
+| ancestors | p_T4ZtevQcvHhHS2FHC8Rscf | 王文 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王紀（CBDB 275695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=275695&o=json)
+- [中国历代人物传记资料库：王文（CBDB 275694）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=275694&o=json)
 - [中国历代人物传记资料库：王瑤（CBDB 201654）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201654&o=json)
 - [中国历代人物传记资料库：王庸（CBDB 275693）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=275693&o=json)

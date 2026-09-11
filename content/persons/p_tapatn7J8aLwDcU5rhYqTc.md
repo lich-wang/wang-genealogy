@@ -4,7 +4,7 @@ id: p_tapatn7J8aLwDcU5rhYqTc
 status: active
 merged_into: null
 display_name: 王廷極
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_vsoye67euOSaTzw0tKCVq2
+        subject_person_id: p_tapatn7J8aLwDcU5rhYqTc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UGaGhPWmvj6EjNvZiQaTd5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-yPbrh-m82vaV7mZ5KxkNx
+          claim_id: c_vsoye67euOSaTzw0tKCVq2
+          source_id: s_SkXwt4af77XQNkaAWmM9t4
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），3350：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UGaGhPWmvj6EjNvZiQaTd5
+        status: active
+        display_name: 王津祖
+        merged_into_person_id: null
+    - claim:
+        id: c_AyGqdoxMOX12-AwAK4aPhM
+        subject_person_id: p_tapatn7J8aLwDcU5rhYqTc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HooZBMsyKVUAzrLMNKqjMv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sso6l6XAsdfu2r_XG4QSgO
+          claim_id: c_AyGqdoxMOX12-AwAK4aPhM
+          source_id: s_SkXwt4af77XQNkaAWmM9t4
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），3350：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_HooZBMsyKVUAzrLMNKqjMv
+        status: active
+        display_name: 王湛祖
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_UGaGhPWmvj6EjNvZiQaTd5 | 王津祖 | accepted |
+| children | p_HooZBMsyKVUAzrLMNKqjMv | 王湛祖 | accepted |
 
 ## 外部来源
 
