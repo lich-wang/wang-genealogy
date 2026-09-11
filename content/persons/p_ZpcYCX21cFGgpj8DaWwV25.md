@@ -4,7 +4,7 @@ id: p_ZpcYCX21cFGgpj8DaWwV25
 status: active
 merged_into: null
 display_name: 王寮
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -139,6 +139,43 @@ relationships:
         status: active
         display_name: 王處直
         merged_into_person_id: null
+    - claim:
+        id: c_Uk0l0CDUc78sDQ9h7_CO6t
+        subject_person_id: p_ZpcYCX21cFGgpj8DaWwV25
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wj2Tjigw2Pn6N4Z7KuUvkh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OBbk5yBni-6HX2z3m-OmLe
+          claim_id: c_Uk0l0CDUc78sDQ9h7_CO6t
+          source_id: s_nSTyC7ijD12rrG7CQB1eA6
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_nSTyC7ijD12rrG7CQB1eA6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王處存（CBDB 169693）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169693&o=json
+            external_identifier: CBDB:169693
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.021Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_wj2Tjigw2Pn6N4Z7KuUvkh
+        status: active
+        display_name: 王處存
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_4gNLMaQqWEd6Tcr2zT2brF | 王處直 | accepted |
+| children | p_wj2Tjigw2Pn6N4Z7KuUvkh | 王處存 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王處存（CBDB 169693）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169693&o=json)
 - [中国历代人物传记资料库：王處直（CBDB 144827）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=144827&o=json)
 - [中国历代人物传记资料库：王寮（CBDB 169311）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169311&o=json)

@@ -4,7 +4,7 @@ id: p_wh2ANkJRUNPNHXxXs9uHvk
 status: active
 merged_into: null
 display_name: 王嘉訓
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_eenycU7S48k0z6-BQxpPoJ
+        subject_person_id: p_VFHd1HePcZxzPPEmJtTsvn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wh2ANkJRUNPNHXxXs9uHvk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SJljjNjKiWdPWE_nRaQDGz
+          claim_id: c_eenycU7S48k0z6-BQxpPoJ
+          source_id: s_eeSNcsGy8vSX6KRkPTFZvA
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_VFHd1HePcZxzPPEmJtTsvn
+        status: active
+        display_name: 王洪簡
+        merged_into_person_id: null
   children:
     - claim:
         id: c_3PxHYLSKJUKlhMV011sLUR
@@ -163,6 +189,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_VFHd1HePcZxzPPEmJtTsvn | 王洪簡 | accepted |
 | children | p_aaiHJwLEK4x15AzbShdWFc | 王昇 | accepted |
 
 ## 外部来源

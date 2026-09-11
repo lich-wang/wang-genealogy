@@ -4,7 +4,7 @@ id: p_wEuXW2QRPfavvbFYPCJ1DK
 status: active
 merged_into: null
 display_name: 王宏
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王溫
         merged_into_person_id: null
+    - claim:
+        id: c_eokae1b6khEefxOf2jOAor
+        subject_person_id: p_wpezh42DEbjo5UEKBZKa7E
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_wEuXW2QRPfavvbFYPCJ1DK
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vk1YJfMTV6Loii9TYwdfaM
+          claim_id: c_eokae1b6khEefxOf2jOAor
+          source_id: s_RFNq9uhgWupkzkr3s7FVXC
+          stance: supports
+          locator: 成化八年進士登科錄:一卷，第二甲第六十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_RFNq9uhgWupkzkr3s7FVXC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王信（CBDB 245695）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245695&o=json
+            external_identifier: CBDB:245695
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.071Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_wpezh42DEbjo5UEKBZKa7E
+        status: active
+        display_name: 王信
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_P3bk3vpKCZxTvFzWKE93mj | 王麟 | accepted |
 | ancestors | p_A3ZzUS6ZaxSG1AS5DcEhHg | 王溫 | accepted |
+| ancestors | p_wpezh42DEbjo5UEKBZKa7E | 王信 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王宏（CBDB 199484）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199484&o=json)
 - [中国历代人物传记资料库：王麟（CBDB 245697）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245697&o=json)
 - [中国历代人物传记资料库：王溫（CBDB 245694）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245694&o=json)
+- [中国历代人物传记资料库：王信（CBDB 245695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245695&o=json)

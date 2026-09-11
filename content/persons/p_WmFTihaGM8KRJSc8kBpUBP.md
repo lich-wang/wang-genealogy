@@ -4,7 +4,7 @@ id: p_WmFTihaGM8KRJSc8kBpUBP
 status: active
 merged_into: null
 display_name: 王友札
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_2DrohR7bRz0WJHV1_IXTCj
+        subject_person_id: p_wg9SbiU6iuiiEMCXTr6z5i
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WmFTihaGM8KRJSc8kBpUBP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_O10X6ovRfxKUpMm2TeImLe
+          claim_id: c_2DrohR7bRz0WJHV1_IXTCj
+          source_id: s_dFWAHx9nBjDD4LMZR2DTg2
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wg9SbiU6iuiiEMCXTr6z5i
+        status: active
+        display_name: 王野父
+        merged_into_person_id: null
   children:
     - claim:
         id: c_G1WtJhIgqBkbQ09XYDlMFD
@@ -250,6 +276,32 @@ relationships:
         status: active
         display_name: 王世鼎
         merged_into_person_id: null
+    - claim:
+        id: c_Zf2rw4Nb4HzNqF9BZpkP_N
+        subject_person_id: p_WmFTihaGM8KRJSc8kBpUBP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_X21fKsdwKJz25YXf2E5MS1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vblnG6V7nT0kjIQeTNJeln
+          claim_id: c_Zf2rw4Nb4HzNqF9BZpkP_N
+          source_id: s_dFWAHx9nBjDD4LMZR2DTg2
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_X21fKsdwKJz25YXf2E5MS1
+        status: active
+        display_name: 王神鼎
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -274,10 +326,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wg9SbiU6iuiiEMCXTr6z5i | 王野父 | accepted |
 | children | p_P7By8grSdbwvtxrQLPcnpS | 王玄道 | accepted |
 | children | p_qoaDe7jk8H62BEe1dH2W5h | 王大鼎 | accepted |
 | children | p_qVCWqTf627v4gtL73YQFoU | 王元鼎 | accepted |
 | children | p_uQaNbqHDcDVAcDy4Fuqf6C | 王世鼎 | accepted |
+| children | p_X21fKsdwKJz25YXf2E5MS1 | 王神鼎 | accepted |
 
 ## 外部来源
 

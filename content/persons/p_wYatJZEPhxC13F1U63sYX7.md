@@ -4,7 +4,7 @@ id: p_wYatJZEPhxC13F1U63sYX7
 status: active
 merged_into: null
 display_name: 王中和
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_9q6raju8qnBPbnoNrJT-el
+        subject_person_id: p_z5fd9doZBpHnhM7XG6sUvg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wYatJZEPhxC13F1U63sYX7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UlOvHACFGlP0rjUYVx0hsv
+          claim_id: c_9q6raju8qnBPbnoNrJT-el
+          source_id: s_v16pidP29KRspuAfHA9EJx
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yuanhe 148：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_z5fd9doZBpHnhM7XG6sUvg
+        status: active
+        display_name: 王佺
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_z5fd9doZBpHnhM7XG6sUvg | 王佺 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_wg9SbiU6iuiiEMCXTr6z5i
 status: active
 merged_into: null
 display_name: 王野父
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -138,7 +138,44 @@ relationships:
         status: active
         display_name: 王廣業
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_2DrohR7bRz0WJHV1_IXTCj
+        subject_person_id: p_wg9SbiU6iuiiEMCXTr6z5i
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WmFTihaGM8KRJSc8kBpUBP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_O10X6ovRfxKUpMm2TeImLe
+          claim_id: c_2DrohR7bRz0WJHV1_IXTCj
+          source_id: s_dFWAHx9nBjDD4LMZR2DTg2
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_dFWAHx9nBjDD4LMZR2DTg2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王友札（CBDB 175778）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175778&o=json
+            external_identifier: CBDB:175778
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.259Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_WmFTihaGM8KRJSc8kBpUBP
+        status: active
+        display_name: 王友札
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_5vNiHu3G4ma4pw4PWMpTnv | 王廣業 | accepted |
+| children | p_WmFTihaGM8KRJSc8kBpUBP | 王友札 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王廣業（CBDB 155127）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=155127&o=json)
 - [中国历代人物传记资料库：王野父（CBDB 175763）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175763&o=json)
+- [中国历代人物传记资料库：王友札（CBDB 175778）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175778&o=json)

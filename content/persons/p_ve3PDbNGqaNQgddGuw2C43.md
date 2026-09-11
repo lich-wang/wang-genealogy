@@ -4,7 +4,7 @@ id: p_ve3PDbNGqaNQgddGuw2C43
 status: active
 merged_into: null
 display_name: 王燁
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_p12Q0ANeZh4jDNFEGzu4uy
+        subject_person_id: p_wVWD91i8nHFULhDK68aKM7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ve3PDbNGqaNQgddGuw2C43
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OQC_CVpGir-y1oqepycvLU
+          claim_id: c_p12Q0ANeZh4jDNFEGzu4uy
+          source_id: s_b8xwN94GvqbDpnKDRZDaVD
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第三甲第八十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_b8xwN94GvqbDpnKDRZDaVD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王材（CBDB 296931）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296931&o=json
+            external_identifier: CBDB:296931
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.530Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_wVWD91i8nHFULhDK68aKM7
+        status: active
+        display_name: 王材
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -171,11 +208,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wVWD91i8nHFULhDK68aKM7 | 王材 | accepted |
 | ancestors | p_75n4ono3HYazm2Qe1pxMfA | 王衷 | accepted |
 | ancestors | p_nT1UNCZyvDbXe3ZzPGhbdz | 王宏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王材（CBDB 296931）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296931&o=json)
 - [中国历代人物传记资料库：王宏（CBDB 296930）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296930&o=json)
 - [中国历代人物传记资料库：王燁（CBDB 126822）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126822&o=json)
 - [中国历代人物传记资料库：王衷（CBDB 296929）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296929&o=json)

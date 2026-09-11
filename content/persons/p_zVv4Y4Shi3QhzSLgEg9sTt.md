@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王養粹
 cbdb_id: 71907
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_6R-JtP2-4bfUOWhgkDPvS8
+        subject_person_id: p_wf1KKuyg8uGUf1uL39cMrN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zVv4Y4Shi3QhzSLgEg9sTt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ELu4tGLek1BDCxE0bWwo_W
+          claim_id: c_6R-JtP2-4bfUOWhgkDPvS8
+          source_id: s_6pZJxQBgeKdMCZ1DeU3BtL
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13220：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6pZJxQBgeKdMCZ1DeU3BtL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王蘊奇（CBDB 527056）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527056&o=json
+            external_identifier: CBDB:527056
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.342Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_wf1KKuyg8uGUf1uL39cMrN
+        status: active
+        display_name: 王蘊奇
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wf1KKuyg8uGUf1uL39cMrN | 王蘊奇 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王養粹（CBDB 71907）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71907&o=json)
+- [中国历代人物传记资料库：王蘊奇（CBDB 527056）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527056&o=json)

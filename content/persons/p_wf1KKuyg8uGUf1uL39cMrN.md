@@ -4,7 +4,7 @@ id: p_wf1KKuyg8uGUf1uL39cMrN
 status: active
 merged_into: null
 display_name: 王蘊奇
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_6R-JtP2-4bfUOWhgkDPvS8
+        subject_person_id: p_wf1KKuyg8uGUf1uL39cMrN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zVv4Y4Shi3QhzSLgEg9sTt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ELu4tGLek1BDCxE0bWwo_W
+          claim_id: c_6R-JtP2-4bfUOWhgkDPvS8
+          source_id: s_6pZJxQBgeKdMCZ1DeU3BtL
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13220：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zVv4Y4Shi3QhzSLgEg9sTt
+        status: active
+        display_name: 王養粹
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_zVv4Y4Shi3QhzSLgEg9sTt | 王養粹 | accepted |
 
 ## 外部来源
 

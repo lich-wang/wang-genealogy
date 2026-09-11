@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王楣
 cbdb_id: 205205
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,6 +172,43 @@ relationships:
         status: active
         display_name: 王鏜
         merged_into_person_id: null
+    - claim:
+        id: c_TLV6DrXInkTGdPdaIVxeUM
+        subject_person_id: p_xa3Wj99ze9LYyGun3BR3Rh
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_hoiRRCExCw4KSUTuvH17WP
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vJSMJSis9T670k4v2JbHJT
+          claim_id: c_TLV6DrXInkTGdPdaIVxeUM
+          source_id: s_yDXBEhq3fwPKTygEcntiX4
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第二甲第二十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_yDXBEhq3fwPKTygEcntiX4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王林（CBDB 329693）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329693&o=json
+            external_identifier: CBDB:329693
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.335Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_xa3Wj99ze9LYyGun3BR3Rh
+        status: active
+        display_name: 王林
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_NgZKQ8fKoPznoc6TShqMHp | 王鏜 | accepted |
+| ancestors | p_xa3Wj99ze9LYyGun3BR3Rh | 王林 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王林（CBDB 329693）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329693&o=json)
 - [中国历代人物传记资料库：王楣（CBDB 205205）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205205&o=json)
 - [中国历代人物传记资料库：王鏜（CBDB 329694）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329694&o=json)

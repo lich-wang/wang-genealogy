@@ -4,7 +4,7 @@ id: p_Xb1MjFzZRDmdW9kg6zdPEu
 status: active
 merged_into: null
 display_name: 王一桂
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_nTM38M9AALD1JZ0o7hOs3P
+        subject_person_id: p_hpsegmCooo9gAZbLr3f93A
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Xb1MjFzZRDmdW9kg6zdPEu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ij7oSv4t-fusj3drOOpncW
+          claim_id: c_nTM38M9AALD1JZ0o7hOs3P
+          source_id: s_yspfXSyTVZanNaRssr8VjM
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第二百二十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hpsegmCooo9gAZbLr3f93A
+        status: active
+        display_name: 王元爽
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_hpsegmCooo9gAZbLr3f93A | 王元爽 | accepted |
 
 ## 外部来源
 

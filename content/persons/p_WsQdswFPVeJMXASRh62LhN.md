@@ -4,7 +4,7 @@ id: p_WsQdswFPVeJMXASRh62LhN
 status: active
 merged_into: null
 display_name: 王銳
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_zrpvDeA8m9Ev3Grb7j2t6u
+        subject_person_id: p_Xo72nBkt9GeaSUwYosPGVj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WsQdswFPVeJMXASRh62LhN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hGDdvPJOAA1MPIf_w85z2L
+          claim_id: c_zrpvDeA8m9Ev3Grb7j2t6u
+          source_id: s_x6ZScvTWfX4JEehxSsAu7M
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Xo72nBkt9GeaSUwYosPGVj
+        status: active
+        display_name: 王貫
+        merged_into_person_id: null
   children:
     - claim:
         id: c_H2hGsoXKoeZRJ1DKRt-A3A
@@ -163,6 +189,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Xo72nBkt9GeaSUwYosPGVj | 王貫 | accepted |
 | children | p_5CTwruY7yW5nTk6MMQRgu2 | 王秘 | accepted |
 
 ## 外部来源

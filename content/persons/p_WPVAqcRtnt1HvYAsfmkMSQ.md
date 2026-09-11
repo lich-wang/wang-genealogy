@@ -4,7 +4,7 @@ id: p_WPVAqcRtnt1HvYAsfmkMSQ
 status: active
 merged_into: null
 display_name: 王松年
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_PMAFZ7MbYtRehtuKKFhaMI
+        subject_person_id: p_zGvoPBJYdrW1La2gEY3uQW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WPVAqcRtnt1HvYAsfmkMSQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GFwcmsFtl8tn56Me_rnVcM
+          claim_id: c_PMAFZ7MbYtRehtuKKFhaMI
+          source_id: s_NDQ1uJirCp5rSA1AZQEKJ8
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zGvoPBJYdrW1La2gEY3uQW
+        status: active
+        display_name: 王遵業
+        merged_into_person_id: null
   children:
     - claim:
         id: c_nEouT8fbGDBTnKWbTl7vTA
@@ -237,6 +263,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_zGvoPBJYdrW1La2gEY3uQW | 王遵業 | accepted |
 | children | p_5DyZb4VPN6kQ3yNqbGjxpz | 王邵 | accepted |
 | children | p_dWQCCgNtNB99axZAQQi97j | 王柬 | accepted |
 | children | p_mvjMNdfTTwoLQPLYKCSTQr | 王規 | accepted |

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王湘
 cbdb_id: 22015
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -217,7 +217,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_alj7tdqgSkQ4fKgAv-gmFc
+        subject_person_id: p_WU89T3dCoRMDk6eTHgawKb
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3Ai1qkYjUBdtWJB4qPpmzV
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_34eFT1mxj2vOUP1fQlHAyW
+          claim_id: c_alj7tdqgSkQ4fKgAv-gmFc
+          source_id: s_K58g1dFPD1BQpDPDwmjsyE
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，939：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_K58g1dFPD1BQpDPDwmjsyE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王拱辰（CBDB 1847）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1847&o=json
+            external_identifier: CBDB:1847
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.336Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_WU89T3dCoRMDk6eTHgawKb
+        status: active
+        display_name: 王拱辰
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -240,10 +277,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_t4r6xJhA7S53USBaqKsA6D | 王敏文 | accepted |
+| ancestors | p_WU89T3dCoRMDk6eTHgawKb | 王拱辰 | accepted |
 
 ## 外部来源
 
 - [维基数据：王敏文（Q45359594）](https://www.wikidata.org/wiki/Q45359594)
 - [维基数据：王湘（Q45401685）](https://www.wikidata.org/wiki/Q45401685)
+- [中国历代人物传记资料库：王拱辰（CBDB 1847）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1847&o=json)
 - [CBDB 中国历代人物传记资料库：王敏文（1854）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1854&o=json)
 - [CBDB 中国历代人物传记资料库：王湘（22015）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22015&o=json)

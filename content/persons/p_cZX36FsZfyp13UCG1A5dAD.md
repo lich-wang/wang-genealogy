@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王子建
 cbdb_id: 191499
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -167,7 +167,44 @@ relationships:
         status: active
         display_name: 王日新
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_uJ3LtEEbTmsZi_CdPdDRxn
+        subject_person_id: p_cZX36FsZfyp13UCG1A5dAD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Wuk38nfNXd8MstdrtJSBPC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-Ldo-c6HxRdLszL_r8Yi4M
+          claim_id: c_uJ3LtEEbTmsZi_CdPdDRxn
+          source_id: s_bppn4ozNnWVXcWYqFkZ3HK
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_bppn4ozNnWVXcWYqFkZ3HK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德進（CBDB 145301）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145301&o=json
+            external_identifier: CBDB:145301
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.661Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Wuk38nfNXd8MstdrtJSBPC
+        status: active
+        display_name: 王德進
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_8jb38Wu9u5AatYJn3UaMsM | 王日新 | accepted |
+| children | p_Wuk38nfNXd8MstdrtJSBPC | 王德進 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王德進（CBDB 145301）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145301&o=json)
 - [中国历代人物传记资料库：王日新（CBDB 175756）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175756&o=json)
 - [中国历代人物传记资料库：王子建（CBDB 191499）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191499&o=json)

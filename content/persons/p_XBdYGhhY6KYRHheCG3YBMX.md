@@ -4,7 +4,7 @@ id: p_XBdYGhhY6KYRHheCG3YBMX
 status: active
 merged_into: null
 display_name: 王平
-revision: 6
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -329,6 +329,58 @@ relationships:
         status: active
         display_name: 王筠
         merged_into_person_id: null
+    - claim:
+        id: c_r2gV7TxiZAnkIrMHxRvjNg
+        subject_person_id: p_XBdYGhhY6KYRHheCG3YBMX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_S34y9PEJdL3nVXYTPCqADd
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jI3JrqQo1U3OfRtpI_brdN
+          claim_id: c_r2gV7TxiZAnkIrMHxRvjNg
+          source_id: s_HMnFVhA1C6c4ZEW5uWq3At
+          stance: supports
+          locator: 長安縣志，488：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_S34y9PEJdL3nVXYTPCqADd
+        status: active
+        display_name: 王勀
+        merged_into_person_id: null
+    - claim:
+        id: c_zu4GwXYS3T5PgyVChyNwey
+        subject_person_id: p_XBdYGhhY6KYRHheCG3YBMX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_U6QkC3rTPK9uy5BTWDhC3U
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5LQelPD7dDbL2xmmywOA1P
+          claim_id: c_zu4GwXYS3T5PgyVChyNwey
+          source_id: s_HMnFVhA1C6c4ZEW5uWq3At
+          stance: supports
+          locator: 長安縣志，488：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_U6QkC3rTPK9uy5BTWDhC3U
+        status: active
+        display_name: 王元常
+        merged_into_person_id: null
   other: []
 ---
 
@@ -354,6 +406,8 @@ relationships:
 | descendants | p_f4cg3hpvnGXJ6e7M3o4JU8 | 王𠠹 | accepted |
 | descendants | p_JNN9WR7n7FEn9er8Z1w33L | 王㔠 | accepted |
 | descendants | p_PHTMPNYgPbZ6fQDxbDP6xk | 王筠 | accepted |
+| descendants | p_S34y9PEJdL3nVXYTPCqADd | 王勀 | accepted |
+| descendants | p_U6QkC3rTPK9uy5BTWDhC3U | 王元常 | accepted |
 
 ## 外部来源
 

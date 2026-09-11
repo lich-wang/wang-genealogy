@@ -4,7 +4,7 @@ id: p_wEqsogkdLBrdte1KEpUFVQ
 status: active
 merged_into: null
 display_name: 王祐
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -148,6 +148,43 @@ relationships:
         status: active
         display_name: 王旭
         merged_into_person_id: null
+    - claim:
+        id: c_eazlSYjVaBEFk-4YaLM34U
+        subject_person_id: p_wEqsogkdLBrdte1KEpUFVQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XcKs2bGERUGdK6cYqHFdDh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_X-wp9bogev8-SHnwR5gNWk
+          claim_id: c_eazlSYjVaBEFk-4YaLM34U
+          source_id: s_YLJn4EYGn1HDEYPRbi4kmm
+          stance: supports
+          locator: 宋史：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_YLJn4EYGn1HDEYPRbi4kmm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王懿（CBDB 17839）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17839&o=json
+            external_identifier: CBDB:17839
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.687Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_XcKs2bGERUGdK6cYqHFdDh
+        status: active
+        display_name: 王懿
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -247,6 +284,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_aeQuz9T27oQ8FHTk36tCX7 | 王徹 | accepted |
 | children | p_GrcPU22YikfiRPALs5F2kU | 王旭 | accepted |
+| children | p_XcKs2bGERUGdK6cYqHFdDh | 王懿 | accepted |
 | ancestors | p_GNHXsNxDAH8x9cA2NzPigP | 王言 | accepted |
 | descendants | p_7YfpL25vUrnwFFcc6SBg38 | 王博文 | accepted |
 
@@ -256,4 +294,5 @@ relationships:
 - [中国历代人物传记资料库：王徹（CBDB 37837）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37837&o=json)
 - [中国历代人物传记资料库：王旭（CBDB 17838）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17838&o=json)
 - [中国历代人物传记资料库：王言（CBDB 17837）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17837&o=json)
+- [中国历代人物传记资料库：王懿（CBDB 17839）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17839&o=json)
 - [中国历代人物传记资料库：王祐（CBDB 38358）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38358&o=json)

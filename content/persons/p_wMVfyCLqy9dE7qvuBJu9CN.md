@@ -4,7 +4,7 @@ id: p_wMVfyCLqy9dE7qvuBJu9CN
 status: active
 merged_into: null
 display_name: 王瑀
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -115,7 +115,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_tVoPpRApu6x2WriDhS2xUg
+        subject_person_id: p_wMVfyCLqy9dE7qvuBJu9CN
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DoWNVNC6JZBAasWbqdoiCX
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_p8gGucjyUFFpgR8TDqRh_z
+          claim_id: c_tVoPpRApu6x2WriDhS2xUg
+          source_id: s_biZQNR78bEFR8ceHEaxD1s
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第二百一十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DoWNVNC6JZBAasWbqdoiCX
+        status: active
+        display_name: 王祖嫡
+        merged_into_person_id: null
   other: []
 ---
 
@@ -135,6 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_tBLAnfK4dS8P5LR1P2RqS9 | 王詔 | accepted |
+| descendants | p_DoWNVNC6JZBAasWbqdoiCX | 王祖嫡 | accepted |
 
 ## 外部来源
 

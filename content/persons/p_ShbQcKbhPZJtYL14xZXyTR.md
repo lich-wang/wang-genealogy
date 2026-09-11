@@ -4,7 +4,7 @@ id: p_ShbQcKbhPZJtYL14xZXyTR
 status: active
 merged_into: null
 display_name: 王佩
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -176,6 +176,43 @@ relationships:
         status: active
         display_name: 王惟幾
         merged_into_person_id: null
+    - claim:
+        id: c_A3w1KftfTd1WgQL290CinE
+        subject_person_id: p_ShbQcKbhPZJtYL14xZXyTR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_w39jjd3JxxSiu1jw1L8DFd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kbbw_tTyLBxGbnUX_JrW75
+          claim_id: c_A3w1KftfTd1WgQL290CinE
+          source_id: s_NugpXN1hXqAaJE8FxaxG1C
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第二百三十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_NugpXN1hXqAaJE8FxaxG1C
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惟玄（CBDB 294965）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294965&o=json
+            external_identifier: CBDB:294965
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.485Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_w39jjd3JxxSiu1jw1L8DFd
+        status: active
+        display_name: 王惟玄
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -239,6 +276,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_cDjtDCi8h6mSG4Cms93AKT | 王深 | accepted |
 | children | p_bxhtYQ9E8JH99TgLXQgD1K | 王惟幾 | accepted |
+| children | p_w39jjd3JxxSiu1jw1L8DFd | 王惟玄 | accepted |
 | descendants | p_EuRd96THGYk3sKLAvBNXcu | 王陞 | accepted |
 
 ## 外部来源
@@ -247,3 +285,4 @@ relationships:
 - [中国历代人物传记资料库：王深（CBDB 294953）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294953&o=json)
 - [中国历代人物传记资料库：王陞（CBDB 294967）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294967&o=json)
 - [中国历代人物传记资料库：王惟幾（CBDB 294964）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294964&o=json)
+- [中国历代人物传记资料库：王惟玄（CBDB 294965）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294965&o=json)

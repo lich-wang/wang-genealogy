@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王鳴韶
 cbdb_id: 69408
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -211,6 +211,43 @@ relationships:
         status: active
         display_name: 王嗣學
         merged_into_person_id: null
+    - claim:
+        id: c_F0Hs-fesTDo-5qlg0KQkD-
+        subject_person_id: p_JiWtPR49xLqVA9xDrBgamp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wUATXYUC25264LTHAZu8rR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BZ-SasOrbSl2E8kU7-gDdL
+          claim_id: c_F0Hs-fesTDo-5qlg0KQkD-
+          source_id: s_chqif8THg6ND2d3HiE6kWZ
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13113：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_chqif8THg6ND2d3HiE6kWZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嗣祥（CBDB 526941）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526941&o=json
+            external_identifier: CBDB:526941
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.309Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_wUATXYUC25264LTHAZu8rR
+        status: active
+        display_name: 王嗣祥
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -237,8 +274,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_Bw1nr3wrE2HQG3tT9iKHFx | 王嗣學 | accepted |
+| children | p_wUATXYUC25264LTHAZu8rR | 王嗣祥 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鳴韶（CBDB 69408）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69408&o=json)
+- [中国历代人物传记资料库：王嗣祥（CBDB 526941）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526941&o=json)
 - [中国历代人物传记资料库：王嗣學（CBDB 526942）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526942&o=json)

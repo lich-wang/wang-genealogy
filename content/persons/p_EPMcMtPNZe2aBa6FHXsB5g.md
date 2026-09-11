@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王國正
 cbdb_id: 526730
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Zp0fskyT_U2qtjPnrt-G_P
+        subject_person_id: p_WECp9pMTyGoHD9qXLv9MpH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EPMcMtPNZe2aBa6FHXsB5g
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9Mp-LnHzdXyYe7ZZTg1Gnx
+          claim_id: c_Zp0fskyT_U2qtjPnrt-G_P
+          source_id: s_3wGBksqA667b8wu6uAKKVx
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12853：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3wGBksqA667b8wu6uAKKVx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世俊（CBDB 69155）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69155&o=json
+            external_identifier: CBDB:69155
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.129Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_WECp9pMTyGoHD9qXLv9MpH
+        status: active
+        display_name: 王世俊
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WECp9pMTyGoHD9qXLv9MpH | 王世俊 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王國正（CBDB 526730）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526730&o=json)
+- [中国历代人物传记资料库：王世俊（CBDB 69155）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69155&o=json)

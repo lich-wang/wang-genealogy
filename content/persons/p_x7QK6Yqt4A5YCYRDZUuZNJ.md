@@ -4,7 +4,7 @@ id: p_x7QK6Yqt4A5YCYRDZUuZNJ
 status: active
 merged_into: null
 display_name: 王彭
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ilGTsBifuUHDu5mIN-d_oL
+        subject_person_id: p_Fqahu1Tzm7wuLSu7e9txiu
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_x7QK6Yqt4A5YCYRDZUuZNJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xUx6_T7uIIcbKMxmuclMsV
+          claim_id: c_ilGTsBifuUHDu5mIN-d_oL
+          source_id: s_XqoxLrQT9D3emoZFWGvyhK
+          stance: supports
+          locator: 芒洛冢墓遺文，王彭墓志：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Fqahu1Tzm7wuLSu7e9txiu
+        status: active
+        display_name: 王與安
+        merged_into_person_id: null
   children:
     - claim:
         id: c_yikTPtwlp_ZqVOEH27iY8j
@@ -192,6 +218,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Fqahu1Tzm7wuLSu7e9txiu | 王與安 | accepted |
 | children | p_4xaLW5HVRkhKWDimLcBPZZ | 王秉 | accepted |
 
 ## 外部来源

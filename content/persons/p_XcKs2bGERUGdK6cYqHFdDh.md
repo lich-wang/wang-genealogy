@@ -4,7 +4,7 @@ id: p_XcKs2bGERUGdK6cYqHFdDh
 status: active
 merged_into: null
 display_name: 王懿
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_eazlSYjVaBEFk-4YaLM34U
+        subject_person_id: p_wEqsogkdLBrdte1KEpUFVQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XcKs2bGERUGdK6cYqHFdDh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_X-wp9bogev8-SHnwR5gNWk
+          claim_id: c_eazlSYjVaBEFk-4YaLM34U
+          source_id: s_YLJn4EYGn1HDEYPRbi4kmm
+          stance: supports
+          locator: 宋史：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wEqsogkdLBrdte1KEpUFVQ
+        status: active
+        display_name: 王祐
+        merged_into_person_id: null
   children:
     - claim:
         id: c_vVANJTS1GNv8nxYLYz1Rud
@@ -134,6 +160,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wEqsogkdLBrdte1KEpUFVQ | 王祐 | accepted |
 | children | p_7QF1ZDjgbGFLcmsQpKGutD | 王睦 | accepted |
 
 ## 外部来源

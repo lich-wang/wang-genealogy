@@ -4,7 +4,7 @@ id: p_wDGxRNCDYBWfdncywvt3LA
 status: active
 merged_into: null
 display_name: 王寧
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_su1i1NULZXUsuG6jToQH1o
+        subject_person_id: p_wDGxRNCDYBWfdncywvt3LA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kPeA425yX1vHGJ6NED9rRs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Wy9Lo-6AyAZUAHe66aIpqG
+          claim_id: c_su1i1NULZXUsuG6jToQH1o
+          source_id: s_LzTNeRjVVY8MNXtJ8Vn5SA
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第三甲第一百一十八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_kPeA425yX1vHGJ6NED9rRs
+        status: active
+        display_name: 王俊
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_kPeA425yX1vHGJ6NED9rRs | 王俊 | accepted |
 
 ## 外部来源
 

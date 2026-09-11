@@ -4,7 +4,7 @@ id: p_x6f6DgLrcD1iiVCeB2E5kp
 status: active
 merged_into: null
 display_name: 王輅
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_MI4As05QOyqqOHvrhlBDAP
+        subject_person_id: p_x6f6DgLrcD1iiVCeB2E5kp
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_htEFhvA1GWN2EHqSp5mSSu
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WFQuGumSFKU3d8aQOHGVf-
+          claim_id: c_MI4As05QOyqqOHvrhlBDAP
+          source_id: s_wggnkd31bM4PUi11xGhHw5
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第二甲第四十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_htEFhvA1GWN2EHqSp5mSSu
+        status: active
+        display_name: 王世芳
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_htEFhvA1GWN2EHqSp5mSSu | 王世芳 | accepted |
 
 ## 外部来源
 

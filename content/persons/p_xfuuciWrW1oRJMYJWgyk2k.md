@@ -4,7 +4,7 @@ id: p_xfuuciWrW1oRJMYJWgyk2k
 status: active
 merged_into: null
 display_name: 王晉
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_MzniajTua3vCE5pE7wVLRq
+        subject_person_id: p_W5G53hYc4kxcrcPiJ3Wvpw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xfuuciWrW1oRJMYJWgyk2k
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nsTbkh_XpqdoPfIenkrqrw
+          claim_id: c_MzniajTua3vCE5pE7wVLRq
+          source_id: s_jYcBs4UrajbQBnKMPrYvBJ
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 268：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_jYcBs4UrajbQBnKMPrYvBJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王幹（CBDB 152084）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152084&o=json
+            external_identifier: CBDB:152084
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.844Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_W5G53hYc4kxcrcPiJ3Wvpw
+        status: active
+        display_name: 王幹
+        merged_into_person_id: null
   children:
     - claim:
         id: c_UxL3ZsvygAiYyX8lJHoX5Z
@@ -192,9 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_W5G53hYc4kxcrcPiJ3Wvpw | 王幹 | accepted |
 | children | p_E1MN8v4fUcaVhsZPNKyJbM | 王崇義 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王崇義（CBDB 152083）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152083&o=json)
+- [中国历代人物传记资料库：王幹（CBDB 152084）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152084&o=json)
 - [中国历代人物传记资料库：王晉（CBDB 140630）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140630&o=json)

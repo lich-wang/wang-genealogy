@@ -4,7 +4,7 @@ id: p_x5BR6WSCVCCsM3tV87XDhi
 status: active
 merged_into: null
 display_name: 王恕
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -134,7 +134,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_pS5lmdH6oKEnd5e5xKK3BS
+        subject_person_id: p_x5BR6WSCVCCsM3tV87XDhi
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_X6qoMRsfWz3v9cc3fES7Um
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Wek3mBhbuqThpgF4UC86Cu
+          claim_id: c_pS5lmdH6oKEnd5e5xKK3BS
+          source_id: s_5tE13XacSCts48VfahgXzm
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），48：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_X6qoMRsfWz3v9cc3fES7Um
+        status: active
+        display_name: 王福勳
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_X6qoMRsfWz3v9cc3fES7Um | 王福勳 | accepted |
 
 ## 外部来源
 

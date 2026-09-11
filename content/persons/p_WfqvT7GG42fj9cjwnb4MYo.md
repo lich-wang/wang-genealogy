@@ -4,7 +4,7 @@ id: p_WfqvT7GG42fj9cjwnb4MYo
 status: active
 merged_into: null
 display_name: 王龍山
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -115,7 +115,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_-e0QgZhFQ5greS0Zc-hYWH
+        subject_person_id: p_WfqvT7GG42fj9cjwnb4MYo
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GWmCnmdFGoQr7AymHY2XmC
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZtGgmLPxnDEsDc_1_mpit1
+          claim_id: c_-e0QgZhFQ5greS0Zc-hYWH
+          source_id: s_KoBqseYBWHQ6mQRVBU8w9E
+          stance: supports
+          locator: "民國歙縣志: 十六卷，lgid=1163687：孫"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GWmCnmdFGoQr7AymHY2XmC
+        status: active
+        display_name: 王煒
+        merged_into_person_id: null
   other: []
 ---
 
@@ -135,6 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_2xx94qCKtvAJwRfCf9kETN | 王貫一 | accepted |
+| descendants | p_GWmCnmdFGoQr7AymHY2XmC | 王煒 | accepted |
 
 ## 外部来源
 

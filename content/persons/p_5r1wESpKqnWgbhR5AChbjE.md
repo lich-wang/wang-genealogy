@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王之猷
 cbdb_id: 126467
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -179,6 +179,43 @@ relationships:
             metadata_json: null
       object_person:
         id: p_2XaF6KrMwGSDeaU76DAGrz
+        status: active
+        display_name: 王重光
+        merged_into_person_id: null
+    - claim:
+        id: c_OfX2jhMa_DheJTaR6iCIvU
+        subject_person_id: p_x6JTyX7qDKG5C4hpwhpzxp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5r1wESpKqnWgbhR5AChbjE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3ZCqenUud9qoaVAxdtZS9Y
+          claim_id: c_OfX2jhMa_DheJTaR6iCIvU
+          source_id: s_FD8PVwbNnLwfYhK5NKbWPj
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第三甲第一百五十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FD8PVwbNnLwfYhK5NKbWPj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王重光（CBDB 217732）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217732&o=json
+            external_identifier: CBDB:217732
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.255Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_x6JTyX7qDKG5C4hpwhpzxp
         status: active
         display_name: 王重光
         merged_into_person_id: null
@@ -401,6 +438,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_2XaF6KrMwGSDeaU76DAGrz | 王重光 | accepted |
+| parents | p_x6JTyX7qDKG5C4hpwhpzxp | 王重光 | accepted |
 | children | p_iko9zCvjCxvA9HKpjEWpt4 | 王象恒 | accepted |
 | children | p_1vwHH8EjSEP1q2oifpwF8P | 王象春 | accepted |
 | spouses | p_nVeRPzH9zM6X3E5H4rwVq1 | 李氏 | accepted |
@@ -414,5 +452,6 @@ relationships:
 - [维基数据：王之猷（Q16075308）](https://www.wikidata.org/wiki/Q16075308)
 - [维基数据：王重光（Q15935070）](https://www.wikidata.org/wiki/Q15935070)
 - [中国历代人物传记资料库：王麟（CBDB 232520）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232520&o=json)
+- [中国历代人物传记资料库：王重光（CBDB 217732）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217732&o=json)
 - [中文维基百科：王之猷](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B9%8B%E7%8C%B7)
 - [CBDB 中国历代人物传记资料库：王之猷（126467）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126467&o=json)

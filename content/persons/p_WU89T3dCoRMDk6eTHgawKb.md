@@ -4,7 +4,7 @@ id: p_WU89T3dCoRMDk6eTHgawKb
 status: active
 merged_into: null
 display_name: 王拱辰
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,13 +128,91 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_U96dfAZ_m17I3PyyZQ9pf3
+        subject_person_id: p_H3E5VxBaQfqgvzveq3gJSK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WU89T3dCoRMDk6eTHgawKb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WBdPMA_OcM8taWEz-fW6BA
+          claim_id: c_U96dfAZ_m17I3PyyZQ9pf3
+          source_id: s_K58g1dFPD1BQpDPDwmjsyE
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1779;1780：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_H3E5VxBaQfqgvzveq3gJSK
+        status: active
+        display_name: 王代恕
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_Icsk86jYQ931rRDAmU4ugu
+        subject_person_id: p_WU89T3dCoRMDk6eTHgawKb
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_f323eQKL5YoD7qUUbCDtT7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mvbc3B68MoGhedzJ81kUw1
+          claim_id: c_Icsk86jYQ931rRDAmU4ugu
+          source_id: s_K58g1dFPD1BQpDPDwmjsyE
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1779;1782：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_f323eQKL5YoD7qUUbCDtT7
+        status: active
+        display_name: 薛氏
+        merged_into_person_id: null
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_alj7tdqgSkQ4fKgAv-gmFc
+        subject_person_id: p_WU89T3dCoRMDk6eTHgawKb
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3Ai1qkYjUBdtWJB4qPpmzV
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_34eFT1mxj2vOUP1fQlHAyW
+          claim_id: c_alj7tdqgSkQ4fKgAv-gmFc
+          source_id: s_K58g1dFPD1BQpDPDwmjsyE
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，939：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_3Ai1qkYjUBdtWJB4qPpmzV
+        status: active
+        display_name: 王湘
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_H3E5VxBaQfqgvzveq3gJSK | 王代恕 | accepted |
+| spouses | p_f323eQKL5YoD7qUUbCDtT7 | 薛氏 | accepted |
+| descendants | p_3Ai1qkYjUBdtWJB4qPpmzV | 王湘 | accepted |
 
 ## 外部来源
 

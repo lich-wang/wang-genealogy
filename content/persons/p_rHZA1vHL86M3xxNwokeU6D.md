@@ -4,7 +4,7 @@ id: p_rHZA1vHL86M3xxNwokeU6D
 status: active
 merged_into: null
 display_name: 王時濟
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_oxOSW4U0QFybYc-1lI4Pii
+        subject_person_id: p_wWNgGLtwY9X7M99pvS53sv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rHZA1vHL86M3xxNwokeU6D
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_21GG8TwqzAlP7B1UYk0TwK
+          claim_id: c_oxOSW4U0QFybYc-1lI4Pii
+          source_id: s_ZyMWDqbHsMR9RmAPG4LMni
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第三甲第二十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZyMWDqbHsMR9RmAPG4LMni
+            source_type: api_record
+            title: 中国历代人物传记资料库：王越（CBDB 223154）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223154&o=json
+            external_identifier: CBDB:223154
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.402Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_wWNgGLtwY9X7M99pvS53sv
+        status: active
+        display_name: 王越
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,6 +266,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wWNgGLtwY9X7M99pvS53sv | 王越 | accepted |
 | ancestors | p_4CbuwXJLZvDNY3kj5jU2bJ | 王興 | accepted |
 | ancestors | p_6nLYqdsTahTFStda3q5E9n | 王滿 | accepted |
 
@@ -237,3 +275,4 @@ relationships:
 - [中国历代人物传记资料库：王滿（CBDB 223153）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223153&o=json)
 - [中国历代人物传记资料库：王時濟（CBDB 126655）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126655&o=json)
 - [中国历代人物传记资料库：王興（CBDB 223152）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223152&o=json)
+- [中国历代人物传记资料库：王越（CBDB 223154）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223154&o=json)

@@ -4,7 +4,7 @@ id: p_wj2Tjigw2Pn6N4Z7KuUvkh
 status: active
 merged_into: null
 display_name: 王處存
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Uk0l0CDUc78sDQ9h7_CO6t
+        subject_person_id: p_ZpcYCX21cFGgpj8DaWwV25
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wj2Tjigw2Pn6N4Z7KuUvkh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OBbk5yBni-6HX2z3m-OmLe
+          claim_id: c_Uk0l0CDUc78sDQ9h7_CO6t
+          source_id: s_nSTyC7ijD12rrG7CQB1eA6
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ZpcYCX21cFGgpj8DaWwV25
+        status: active
+        display_name: 王寮
+        merged_into_person_id: null
   children:
     - claim:
         id: c_yMY4V2Dg6qSJ1FNsyylMHp
@@ -229,6 +255,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ZpcYCX21cFGgpj8DaWwV25 | 王寮 | accepted |
 | children | p_ca44NDxeepHheYRG3qRvfq | 王郜 | accepted |
 | children | p_p6RTY29514vD6isBsxvXYV | 王鄴 | accepted |
 

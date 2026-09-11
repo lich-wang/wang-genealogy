@@ -4,7 +4,7 @@ id: p_pg2fYMa25vFJ1qFwgpCHBx
 status: active
 merged_into: null
 display_name: 王嘉謨
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_salU_QXwNeWb-zyFTrIYmg
+        subject_person_id: p_WB4oNw1ycyU9xM4j8SWNsC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pg2fYMa25vFJ1qFwgpCHBx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5j9RqxGFR__gQg0zYiwo-B
+          claim_id: c_salU_QXwNeWb-zyFTrIYmg
+          source_id: s_5hEEf6D7RFNurJeGsiAkSD
+          stance: supports
+          locator: 嘉靖十七年進士登科錄:一卷，第二甲第九十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5hEEf6D7RFNurJeGsiAkSD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王孜（CBDB 299650）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299650&o=json
+            external_identifier: CBDB:299650
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.607Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_WB4oNw1ycyU9xM4j8SWNsC
+        status: active
+        display_name: 王孜
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -143,6 +180,43 @@ relationships:
         status: active
         display_name: 王普
         merged_into_person_id: null
+    - claim:
+        id: c_Ke1GRZOnvCV4YV6CTynWDK
+        subject_person_id: p_x3JmKAo4rfZaRBxJ8pmy7d
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_pg2fYMa25vFJ1qFwgpCHBx
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xZIt--IZkJZQJfSw68a1qe
+          claim_id: c_Ke1GRZOnvCV4YV6CTynWDK
+          source_id: s_3HhM1Q8eiVPuN3FMGw65wH
+          stance: supports
+          locator: 嘉靖十七年進士登科錄:一卷，第二甲第九十一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3HhM1Q8eiVPuN3FMGw65wH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玘（CBDB 299649）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299649&o=json
+            external_identifier: CBDB:299649
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.607Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_x3JmKAo4rfZaRBxJ8pmy7d
+        status: active
+        display_name: 王玘
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -163,9 +237,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WB4oNw1ycyU9xM4j8SWNsC | 王孜 | accepted |
 | ancestors | p_o9vgsLh7vkPL51AtR6ZoSU | 王普 | accepted |
+| ancestors | p_x3JmKAo4rfZaRBxJ8pmy7d | 王玘 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王嘉謨（CBDB 203092）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203092&o=json)
 - [中国历代人物传记资料库：王普（CBDB 299648）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299648&o=json)
+- [中国历代人物传记资料库：王玘（CBDB 299649）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299649&o=json)
+- [中国历代人物传记资料库：王孜（CBDB 299650）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299650&o=json)

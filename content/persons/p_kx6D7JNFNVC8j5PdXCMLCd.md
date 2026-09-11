@@ -4,7 +4,7 @@ id: p_kx6D7JNFNVC8j5PdXCMLCd
 status: active
 merged_into: null
 display_name: 王弼
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王先
         merged_into_person_id: null
+    - claim:
+        id: c_Uf012uOHuscz53660M5ONQ
+        subject_person_id: p_XBt31FNyXeDBfGF5iGpfsJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_kx6D7JNFNVC8j5PdXCMLCd
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-1G9WeQPKBWLCoNZBXo1Lq
+          claim_id: c_Uf012uOHuscz53660M5ONQ
+          source_id: s_GMH4Enskpb9dEAFM3PyLvS
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第三甲第二百三十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GMH4Enskpb9dEAFM3PyLvS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王永忠（CBDB 242448）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=242448&o=json
+            external_identifier: CBDB:242448
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.973Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_XBt31FNyXeDBfGF5iGpfsJ
+        status: active
+        display_name: 王永忠
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_8cA72YUN4szByBjQ7DU6Qa | 王義 | accepted |
 | ancestors | p_Sh9tmU8kPs8o5qDVmK1jM2 | 王先 | accepted |
+| ancestors | p_XBt31FNyXeDBfGF5iGpfsJ | 王永忠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王弼（CBDB 199262）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199262&o=json)
 - [中国历代人物传记资料库：王先（CBDB 242447）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=242447&o=json)
 - [中国历代人物传记资料库：王義（CBDB 242449）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=242449&o=json)
+- [中国历代人物传记资料库：王永忠（CBDB 242448）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=242448&o=json)

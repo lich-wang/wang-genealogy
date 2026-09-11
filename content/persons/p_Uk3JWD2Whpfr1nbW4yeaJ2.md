@@ -4,7 +4,7 @@ id: p_Uk3JWD2Whpfr1nbW4yeaJ2
 status: active
 merged_into: null
 display_name: 王應辰
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_xoDOe5GfMbJKX8-InbQXd0
+        subject_person_id: p_WUPKdegwzMR62VcQ6XVX6T
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Uk3JWD2Whpfr1nbW4yeaJ2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aRn6IffrmgssVNouZo15nY
+          claim_id: c_xoDOe5GfMbJKX8-InbQXd0
+          source_id: s_P223hSkCaKXjWci8XgaC1u
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第五十八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_P223hSkCaKXjWci8XgaC1u
+            source_type: api_record
+            title: 中国历代人物传记资料库：王省（CBDB 334990）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334990&o=json
+            external_identifier: CBDB:334990
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.446Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_WUPKdegwzMR62VcQ6XVX6T
+        status: active
+        display_name: 王省
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WUPKdegwzMR62VcQ6XVX6T | 王省 | accepted |
 | ancestors | p_4MtUEXAzyRr4Xzwx6MWxEM | 王朝良 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王朝良（CBDB 334989）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334989&o=json)
+- [中国历代人物传记资料库：王省（CBDB 334990）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334990&o=json)
 - [中国历代人物传记资料库：王應辰（CBDB 205548）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205548&o=json)

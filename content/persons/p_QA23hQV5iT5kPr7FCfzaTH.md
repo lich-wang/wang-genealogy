@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王來泰
 cbdb_id: 520426
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_TaQgPuRiuz04_G9Cdshtc3
+        subject_person_id: p_wNMrpxUtRti8bzP7hKZHR4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QA23hQV5iT5kPr7FCfzaTH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VIQyAjox59p5YLmzYWWzHL
+          claim_id: c_TaQgPuRiuz04_G9Cdshtc3
+          source_id: s_hTL2namEXvYfqznz1ZA7HD
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），5267：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_hTL2namEXvYfqznz1ZA7HD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廣蔭（CBDB 61921）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=61921&o=json
+            external_identifier: CBDB:61921
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.921Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_wNMrpxUtRti8bzP7hKZHR4
+        status: active
+        display_name: 王廣蔭
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wNMrpxUtRti8bzP7hKZHR4 | 王廣蔭 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王廣蔭（CBDB 61921）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=61921&o=json)
 - [中国历代人物传记资料库：王來泰（CBDB 520426）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=520426&o=json)

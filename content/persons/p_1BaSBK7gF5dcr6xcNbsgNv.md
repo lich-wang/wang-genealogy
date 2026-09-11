@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王本智
 cbdb_id: 526830
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_rJVxsmLMGG9U58hKkV6sIL
+        subject_person_id: p_w9uUMEjULUe5LsbzmfJqfL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1BaSBK7gF5dcr6xcNbsgNv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LCnm5a_RZfTcNmPY0kIqHC
+          claim_id: c_rJVxsmLMGG9U58hKkV6sIL
+          source_id: s_RzPNxaWw8wdN9bKyQMi3S6
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12997：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_RzPNxaWw8wdN9bKyQMi3S6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王峻（CBDB 69294）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69294&o=json
+            external_identifier: CBDB:69294
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.200Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_w9uUMEjULUe5LsbzmfJqfL
+        status: active
+        display_name: 王峻
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_w9uUMEjULUe5LsbzmfJqfL | 王峻 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王本智（CBDB 526830）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526830&o=json)
+- [中国历代人物传记资料库：王峻（CBDB 69294）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69294&o=json)

@@ -4,7 +4,7 @@ id: p_WL2eC49AZSBn6E8obwFKry
 status: active
 merged_into: null
 display_name: 王嗣穫
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_-Tlp8PUTJKu6tr9IXp0dyP
+        subject_person_id: p_ZyHjRaen1EDymdU7e3vR6e
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WL2eC49AZSBn6E8obwFKry
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PBCIhHKjPZQRfNuUTQx0PB
+          claim_id: c_-Tlp8PUTJKu6tr9IXp0dyP
+          source_id: s_HsGNitiUYyx5TmWFX15MLH
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），9286：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ZyHjRaen1EDymdU7e3vR6e
+        status: active
+        display_name: 王鳴盛
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ZyHjRaen1EDymdU7e3vR6e | 王鳴盛 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王宗恆
 cbdb_id: 202460
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_gSFLOX0X6foq2Uk1eklOj_
+        subject_person_id: p_wfbyDLXDm9dw8R5wz4t1Hc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JirTxmVijtiT96YhPfvEVf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oAw8ZhL0U9dfQHjeOzBh3d
+          claim_id: c_gSFLOX0X6foq2Uk1eklOj_
+          source_id: s_HYe9LY7dX53EkxnAw9CvpD
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第十八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_HYe9LY7dX53EkxnAw9CvpD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璠（CBDB 288560）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288560&o=json
+            external_identifier: CBDB:288560
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.293Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_wfbyDLXDm9dw8R5wz4t1Hc
+        status: active
+        display_name: 王璠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -172,6 +209,43 @@ relationships:
         status: active
         display_name: 王旭
         merged_into_person_id: null
+    - claim:
+        id: c_EKUbzsgbEriFij5c6bUp2g
+        subject_person_id: p_w4P9NPwFphv51WPF1vb8Kk
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_JirTxmVijtiT96YhPfvEVf
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_s2LRC7mGw7EIlHV8814BCb
+          claim_id: c_EKUbzsgbEriFij5c6bUp2g
+          source_id: s_19RtiX3ZbFZPrsvW98BAdM
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第十八名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_19RtiX3ZbFZPrsvW98BAdM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恕（CBDB 288559）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288559&o=json
+            external_identifier: CBDB:288559
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.293Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_w4P9NPwFphv51WPF1vb8Kk
+        status: active
+        display_name: 王恕
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -192,9 +266,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wfbyDLXDm9dw8R5wz4t1Hc | 王璠 | accepted |
 | ancestors | p_ADb1WnrvjDNFbmCmqiRMmL | 王旭 | accepted |
+| ancestors | p_w4P9NPwFphv51WPF1vb8Kk | 王恕 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王璠（CBDB 288560）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288560&o=json)
+- [中国历代人物传记资料库：王恕（CBDB 288559）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288559&o=json)
 - [中国历代人物传记资料库：王旭（CBDB 288558）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288558&o=json)
 - [中国历代人物传记资料库：王宗恆（CBDB 202460）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202460&o=json)

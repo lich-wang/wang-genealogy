@@ -4,7 +4,7 @@ id: p_WFnoT4AbtuEmwq5jbDJDqe
 status: active
 merged_into: null
 display_name: 王恬
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_7RYQNaWjmyp7LSfWE4ScWH
+        subject_person_id: p_tFBEWUgYjefES2HTxytcTA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WFnoT4AbtuEmwq5jbDJDqe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FeeEclvkMHjErcxkADy6by
+          claim_id: c_7RYQNaWjmyp7LSfWE4ScWH
+          source_id: s_JuL1yAwLhY34c9tGyGgFKS
+          stance: supports
+          locator: 全宋文，卷 5677：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_tFBEWUgYjefES2HTxytcTA
+        status: active
+        display_name: 王有朋
+        merged_into_person_id: null
   children:
     - claim:
         id: c_8I2eCNvpeigGoQUN5gXx9r
@@ -303,6 +329,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_tFBEWUgYjefES2HTxytcTA | 王有朋 | accepted |
 | children | p_7Q3M1Hbtu1HLXLHWBytBjr | 王穎 | accepted |
 | children | p_atRhzDs4oFYS811oM1atCv | 王碩 | accepted |
 | children | p_PcEuQQgHX77JBLMDejCXRZ | 王頎 | accepted |

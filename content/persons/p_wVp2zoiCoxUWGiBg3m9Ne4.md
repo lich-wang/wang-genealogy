@@ -4,7 +4,7 @@ id: p_wVp2zoiCoxUWGiBg3m9Ne4
 status: active
 merged_into: null
 display_name: 王晟
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_XeOQc1ALM0qhAy33YluaUU
+        subject_person_id: p_wVp2zoiCoxUWGiBg3m9Ne4
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_V9h4wx8CnYiE9kuhcigTsZ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wrC67XkyQygcKW7-jk0_72
+          claim_id: c_XeOQc1ALM0qhAy33YluaUU
+          source_id: s_FsUvYcyn2sRj3X1vcYoDfN
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第二甲第五十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_V9h4wx8CnYiE9kuhcigTsZ
+        status: active
+        display_name: 王橋
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_V9h4wx8CnYiE9kuhcigTsZ | 王橋 | accepted |
 
 ## 外部来源
 

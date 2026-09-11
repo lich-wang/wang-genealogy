@@ -4,7 +4,7 @@ id: p_3QDnXJ1yrE5aSbLLXiVLND
 status: active
 merged_into: null
 display_name: 王嵩
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -152,6 +152,43 @@ relationships:
         status: active
         display_name: 王得
         merged_into_person_id: null
+    - claim:
+        id: c_mHiLJLtItmazfCf4C4VFAu
+        subject_person_id: p_WEdok1ba7cZuJHUL3K5zY9
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3QDnXJ1yrE5aSbLLXiVLND
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yyEb1R_rozvJKSFu7cMklG
+          claim_id: c_mHiLJLtItmazfCf4C4VFAu
+          source_id: s_eWmUjjJCasmQEB5dt1qgme
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第一百一十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_eWmUjjJCasmQEB5dt1qgme
+            source_type: api_record
+            title: 中国历代人物传记资料库：王郁（CBDB 249816）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249816&o=json
+            external_identifier: CBDB:249816
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.188Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_WEdok1ba7cZuJHUL3K5zY9
+        status: active
+        display_name: 王郁
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -173,9 +210,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_219jQxSbAi8XEaLPFhzHTg | 王信 | accepted |
 | ancestors | p_fwuXqxBZyzm1CXDDVHJvP6 | 王得 | accepted |
+| ancestors | p_WEdok1ba7cZuJHUL3K5zY9 | 王郁 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王得（CBDB 249815）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249815&o=json)
 - [中国历代人物传记资料库：王嵩（CBDB 126762）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126762&o=json)
 - [中国历代人物传记资料库：王信（CBDB 249817）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249817&o=json)
+- [中国历代人物传记资料库：王郁（CBDB 249816）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249816&o=json)

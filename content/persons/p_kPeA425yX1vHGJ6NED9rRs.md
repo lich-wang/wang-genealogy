@@ -4,7 +4,7 @@ id: p_kPeA425yX1vHGJ6NED9rRs
 status: active
 merged_into: null
 display_name: 王俊
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_su1i1NULZXUsuG6jToQH1o
+        subject_person_id: p_wDGxRNCDYBWfdncywvt3LA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kPeA425yX1vHGJ6NED9rRs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Wy9Lo-6AyAZUAHe66aIpqG
+          claim_id: c_su1i1NULZXUsuG6jToQH1o
+          source_id: s_LzTNeRjVVY8MNXtJ8Vn5SA
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第三甲第一百一十八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_LzTNeRjVVY8MNXtJ8Vn5SA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寧（CBDB 240509）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240509&o=json
+            external_identifier: CBDB:240509
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.918Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_wDGxRNCDYBWfdncywvt3LA
+        status: active
+        display_name: 王寧
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +237,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wDGxRNCDYBWfdncywvt3LA | 王寧 | accepted |
 | ancestors | p_CfAz2neDMAFFa4GMRAduBm | 王定 | accepted |
 | ancestors | p_CJNATpZ99oDSaUhVsKGcYP | 王靜 | accepted |
 
@@ -208,3 +246,4 @@ relationships:
 - [中国历代人物传记资料库：王定（CBDB 240498）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240498&o=json)
 - [中国历代人物传记资料库：王靜（CBDB 240487）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240487&o=json)
 - [中国历代人物传记资料库：王俊（CBDB 199171）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199171&o=json)
+- [中国历代人物传记资料库：王寧（CBDB 240509）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240509&o=json)

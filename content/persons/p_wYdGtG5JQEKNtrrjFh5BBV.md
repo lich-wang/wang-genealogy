@@ -4,7 +4,7 @@ id: p_wYdGtG5JQEKNtrrjFh5BBV
 status: active
 merged_into: null
 display_name: 王清
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,12 +73,64 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_6-LlPWKuvSovsvp2SOxY7u
+        subject_person_id: p_wYdGtG5JQEKNtrrjFh5BBV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zZ8jgBpg56kK6qEAbWsgyj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bBA4kyBSPed-XJNXUdHmW9
+          claim_id: c_6-LlPWKuvSovsvp2SOxY7u
+          source_id: s_5493GJ8gPz1GBx66jnGpJg
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zZ8jgBpg56kK6qEAbWsgyj
+        status: active
+        display_name: 王選
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Q3kUxe5bT4L2lN40M-D2PJ
+        subject_person_id: p_wYdGtG5JQEKNtrrjFh5BBV
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_X3KgUwftEJuFzG5Sp9xV61
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_trBSLcOK3EBiQO7wTVBP68
+          claim_id: c_Q3kUxe5bT4L2lN40M-D2PJ
+          source_id: s_5493GJ8gPz1GBx66jnGpJg
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xiantong 83：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_X3KgUwftEJuFzG5Sp9xV61
+        status: active
+        display_name: 王公晟
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_zZ8jgBpg56kK6qEAbWsgyj | 王選 | accepted |
+| descendants | p_X3KgUwftEJuFzG5Sp9xV61 | 王公晟 | accepted |
 
 ## 外部来源
 

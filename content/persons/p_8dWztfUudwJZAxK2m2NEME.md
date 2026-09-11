@@ -4,7 +4,7 @@ id: p_8dWztfUudwJZAxK2m2NEME
 status: active
 merged_into: null
 display_name: 王遘
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_JrBPVEO849w6zSSX_qJrOp
+        subject_person_id: p_X6jrCw6Y7DQpEkbz1DuCWH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8dWztfUudwJZAxK2m2NEME
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Oj4tthTlDn1mIQxyVyRsVF
+          claim_id: c_JrBPVEO849w6zSSX_qJrOp
+          source_id: s_21pL2VwsaWo8U6ejWRHnnV
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_21pL2VwsaWo8U6ejWRHnnV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王燾（CBDB 33017）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33017&o=json
+            external_identifier: CBDB:33017
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.064Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_X6jrCw6Y7DQpEkbz1DuCWH
+        status: active
+        display_name: 王燾
+        merged_into_person_id: null
   children:
     - claim:
         id: c_jfnTMBI2SKSpTHtjyk4RQu
@@ -123,8 +160,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_X6jrCw6Y7DQpEkbz1DuCWH | 王燾 | accepted |
 | children | p_kW6BHpFnPbBsA8JbJBRAGy | 王師正 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王燾（CBDB 33017）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33017&o=json)
 - [中国历代人物传记资料库：王遘（CBDB 157635）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157635&o=json)
