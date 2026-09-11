@@ -4,7 +4,7 @@ id: p_Tx5e1nr85Ax8xBvbkFoMbF
 status: active
 merged_into: null
 display_name: 王三錫
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_LMTu3cz3HccTzgbmLYq5rq
+        subject_person_id: p_VmxMBQPfyxUr32ATQz1Ta9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Tx5e1nr85Ax8xBvbkFoMbF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oCIxf9v3_KPf0YojiQG3GP
+          claim_id: c_LMTu3cz3HccTzgbmLYq5rq
+          source_id: s_nzk1LkMaJ3Y57RJ5HrP1cC
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第二甲第十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_nzk1LkMaJ3Y57RJ5HrP1cC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王時暘（CBDB 287524）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287524&o=json
+            external_identifier: CBDB:287524
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:02.953Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_VmxMBQPfyxUr32ATQz1Ta9
+        status: active
+        display_name: 王時暘
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +238,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_VmxMBQPfyxUr32ATQz1Ta9 | 王時暘 | accepted |
 | ancestors | p_7DDdFFCB5CtuqJpi5fHXjA | 王恢 | accepted |
 | ancestors | p_EceEHftq1dAuWXPD2WaHe8 | 王訓 | accepted |
 
@@ -207,4 +246,5 @@ relationships:
 
 - [中国历代人物传记资料库：王恢（CBDB 287523）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287523&o=json)
 - [中国历代人物传记资料库：王三錫（CBDB 202405）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202405&o=json)
+- [中国历代人物传记资料库：王時暘（CBDB 287524）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287524&o=json)
 - [中国历代人物传记资料库：王訓（CBDB 287522）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287522&o=json)

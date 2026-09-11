@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王子華
 cbdb_id: 320861
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:320861
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_86oa4q79FsBN5iCHH6SUY8
             source_type: api_record
             title: 中国历代人物传记资料库：王子華（CBDB 320861）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_9gWnZaT7d0_EawGFnYtcVt
+        subject_person_id: p_x4A1qjJkD6YhYAHa8NE8Cc
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_W2D9MwuPsN8G7PZXkTNBD2
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j2xV5mDCEa1xMzHoGd6e6E
+          claim_id: c_9gWnZaT7d0_EawGFnYtcVt
+          source_id: s_86oa4q79FsBN5iCHH6SUY8
+          stance: supports
+          locator: 嘉靖三十五年進士登科錄:一卷，第三甲第八十一名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_W2D9MwuPsN8G7PZXkTNBD2
+        status: active
+        display_name: 王得春
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_W2D9MwuPsN8G7PZXkTNBD2 | 王得春 | accepted |
 
 ## 外部来源
 

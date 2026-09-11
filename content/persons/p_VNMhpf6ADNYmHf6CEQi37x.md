@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王桂英
 cbdb_id: 118696
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:118696
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_XQC6BQdY8WJTcNCopYBF3N
             source_type: api_record
             title: 中国历代人物传记资料库：王桂英（CBDB 118696）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_tbX23WiISVdSB1lodwq1Kf
+        subject_person_id: p_M77AZgTaU5fMaJ6D8JQxKp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VNMhpf6ADNYmHf6CEQi37x
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_etzf9kCm133oUwdoHgcL-D
+          claim_id: c_tbX23WiISVdSB1lodwq1Kf
+          source_id: s_XQC6BQdY8WJTcNCopYBF3N
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #2263：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_M77AZgTaU5fMaJ6D8JQxKp
+        status: active
+        display_name: 王炳
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_M77AZgTaU5fMaJ6D8JQxKp | 王炳 | accepted |
 
 ## 外部来源
 

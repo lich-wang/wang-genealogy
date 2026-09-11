@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王時暘
 cbdb_id: 287524
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:287524
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_nzk1LkMaJ3Y57RJ5HrP1cC
             source_type: api_record
             title: 中国历代人物传记资料库：王時暘（CBDB 287524）
@@ -87,7 +87,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_F7mLk6-swGWvZYZvBFxF-f
+        subject_person_id: p_VmxMBQPfyxUr32ATQz1Ta9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GQ5Yfy9Q67yZ3hJuaQcGg3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kt0ccZx9ELYO5K2RA7Yp18
+          claim_id: c_F7mLk6-swGWvZYZvBFxF-f
+          source_id: s_nzk1LkMaJ3Y57RJ5HrP1cC
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第三甲第一百二十八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GQ5Yfy9Q67yZ3hJuaQcGg3
+        status: active
+        display_name: 王三接
+        merged_into_person_id: null
+    - claim:
+        id: c_LMTu3cz3HccTzgbmLYq5rq
+        subject_person_id: p_VmxMBQPfyxUr32ATQz1Ta9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Tx5e1nr85Ax8xBvbkFoMbF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oCIxf9v3_KPf0YojiQG3GP
+          claim_id: c_LMTu3cz3HccTzgbmLYq5rq
+          source_id: s_nzk1LkMaJ3Y57RJ5HrP1cC
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第二甲第十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Tx5e1nr85Ax8xBvbkFoMbF
+        status: active
+        display_name: 王三錫
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,6 +163,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_GQ5Yfy9Q67yZ3hJuaQcGg3 | 王三接 | accepted |
+| children | p_Tx5e1nr85Ax8xBvbkFoMbF | 王三錫 | accepted |
 
 ## 外部来源
 

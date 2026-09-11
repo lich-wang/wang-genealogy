@@ -4,7 +4,7 @@ id: p_XWgo6Q1nhAmPTc3Xg4eENs
 status: active
 merged_into: null
 display_name: 王翀
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,44 @@ relationships:
         status: active
         display_name: 王翼
         merged_into_person_id: null
+    - claim:
+        id: c_gA0SU4TVursccXXQRv4Z3K
+        subject_person_id: p_xJqqBPc7ko94ZXe3uyJXCb
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_XWgo6Q1nhAmPTc3Xg4eENs
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_X_tQYFV5x-3BnHHPc5-5Tu
+          claim_id: c_gA0SU4TVursccXXQRv4Z3K
+          source_id: s_UeJCKmJwevEyCVeULHLihT
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第二甲第八十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_UeJCKmJwevEyCVeULHLihT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應貞（CBDB 264654）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264654&o=json
+            external_identifier: CBDB:264654
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:01.428Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_xJqqBPc7ko94ZXe3uyJXCb
+        status: active
+        display_name: 王應貞
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_y6LBWWQUDfvbAme5hkV5bP | 王大韶 | accepted |
 | ancestors | p_1nAYMGDjjS8xNNpA1JXED9 | 王翼 | accepted |
+| ancestors | p_xJqqBPc7ko94ZXe3uyJXCb | 王應貞 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王翀（CBDB 200923）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200923&o=json)
 - [中国历代人物传记资料库：王大韶（CBDB 264656）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264656&o=json)
 - [中国历代人物传记资料库：王翼（CBDB 264655）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264655&o=json)
+- [中国历代人物传记资料库：王應貞（CBDB 264654）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264654&o=json)

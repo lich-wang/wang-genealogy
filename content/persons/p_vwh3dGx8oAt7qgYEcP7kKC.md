@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王均賢
 cbdb_id: 210303
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:210303
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_kJpaMazBqdTDWMYEKZB1Au
             source_type: api_record
             title: 中国历代人物传记资料库：王均賢（CBDB 210303）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_JvE4BS0SQiuzR-gvxv3PJN
+        subject_person_id: p_vwh3dGx8oAt7qgYEcP7kKC
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_A7pYYvCPv8mtUqCwSLePSw
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1OebCncDsWLFc3cFQ7Ctbn
+          claim_id: c_JvE4BS0SQiuzR-gvxv3PJN
+          source_id: s_kJpaMazBqdTDWMYEKZB1Au
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第八十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_A7pYYvCPv8mtUqCwSLePSw
+        status: active
+        display_name: 王銓
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_A7pYYvCPv8mtUqCwSLePSw | 王銓 | accepted |
 
 ## 外部来源
 

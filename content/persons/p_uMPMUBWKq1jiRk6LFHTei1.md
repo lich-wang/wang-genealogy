@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 陈仪春
 cbdb_id: 123038
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -161,6 +161,32 @@ relationships:
         status: active
         display_name: 王贞淑
         merged_into_person_id: null
+    - claim:
+        id: c_gBlhtPbp2mp_j-Ynq9nev4
+        subject_person_id: p_uMPMUBWKq1jiRk6LFHTei1
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_H2nZeMmMCtwnjqap2CdN61
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ty9vVwo5tACEquTJMj5fmq
+          claim_id: c_gBlhtPbp2mp_j-Ynq9nev4
+          source_id: s_Qs6yzr7rS6e4RbxCcP4eRs
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #5239：妻子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_H2nZeMmMCtwnjqap2CdN61
+        status: active
+        display_name: 王贞淑
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -181,6 +207,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_H2nZeMmMCtwnjqap2CdN61 | 王贞淑 | accepted |
 | spouses | p_H2nZeMmMCtwnjqap2CdN61 | 王贞淑 | accepted |
 
 ## 外部来源

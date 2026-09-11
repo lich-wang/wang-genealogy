@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 刘氏
 cbdb_id: 302574
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -77,7 +77,7 @@ properties:
           locator: Q65826549
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_RnvspjNKb1hfE2okJ5fn4P
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：劉氏（302574）
@@ -172,6 +172,32 @@ relationships:
         status: active
         display_name: 王重光
         merged_into_person_id: null
+    - claim:
+        id: c_4PHQ1NSxtxLCBuBa4vgLhj
+        subject_person_id: p_WaKa6JHUL1dsMJ9AnNt9VH
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_MQQyuFRHwHza48Rxy8cmUZ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3VRLpbPTG09qOLLw8MpSUk
+          claim_id: c_4PHQ1NSxtxLCBuBa4vgLhj
+          source_id: s_RnvspjNKb1hfE2okJ5fn4P
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第二甲第四十九名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_MQQyuFRHwHza48Rxy8cmUZ
+        status: active
+        display_name: 王重光
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -193,6 +219,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_2XaF6KrMwGSDeaU76DAGrz | 王重光 | accepted |
+| spouses | p_MQQyuFRHwHza48Rxy8cmUZ | 王重光 | accepted |
 
 ## 外部来源
 

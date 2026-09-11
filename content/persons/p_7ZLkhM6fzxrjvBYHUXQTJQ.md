@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王念孙
 cbdb_id: 34190
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -419,6 +419,44 @@ relationships:
         status: active
         display_name: 王葆和
         merged_into_person_id: null
+    - claim:
+        id: c_qso-DKD8PNYgRK1gkJWeKg
+        subject_person_id: p_7ZLkhM6fzxrjvBYHUXQTJQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_VZ8xQbRBx9KJK3iAQ5wKrB
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gX-VcOlU0S6PEy0Oeb0M43
+          claim_id: c_qso-DKD8PNYgRK1gkJWeKg
+          source_id: s_3ek8kbR2tcBgDdUD1ved23
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），9165：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3ek8kbR2tcBgDdUD1ved23
+            source_type: api_record
+            title: 中国历代人物传记资料库：王壽山（CBDB 522136）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=522136&o=json
+            external_identifier: CBDB:522136
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:17.868Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_VZ8xQbRBx9KJK3iAQ5wKrB
+        status: active
+        display_name: 王壽山
+        merged_into_person_id: null
   other: []
 ---
 
@@ -444,6 +482,7 @@ relationships:
 | children | p_pXsKr1gsPZgzsPgk6zPHaG | 王氏 | accepted |
 | descendants | p_bRYczJhitqag5U92p8zknK | 王葆定 | accepted |
 | descendants | p_LrSjCJH5KFUsjKjho27isL | 王葆和 | accepted |
+| descendants | p_VZ8xQbRBx9KJK3iAQ5wKrB | 王壽山 | accepted |
 
 ## 外部来源
 
@@ -453,4 +492,5 @@ relationships:
 - [维基数据：王引之（Q11573061）](https://www.wikidata.org/wiki/Q11573061)
 - [中国历代人物传记资料库：王葆定（CBDB 522135）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=522135&o=json)
 - [中国历代人物传记资料库：王葆和（CBDB 522134）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=522134&o=json)
+- [中国历代人物传记资料库：王壽山（CBDB 522136）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=522136&o=json)
 - [CBDB 中国历代人物传记资料库：王念孫（34190）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34190&o=json)

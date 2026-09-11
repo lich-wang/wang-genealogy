@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王本梧
 cbdb_id: 69154
-revision: 5
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -291,6 +291,44 @@ relationships:
         status: active
         display_name: 王慶元
         merged_into_person_id: null
+    - claim:
+        id: c_1km0USAFHRHjTvebJKh2Kv
+        subject_person_id: p_WnWoB39QnGQaNueaRLMdhK
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_attXpVUNq5Leu9LSRnM6z8
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rVtJjyHUaFu8ndX4_P0N7f
+          claim_id: c_1km0USAFHRHjTvebJKh2Kv
+          source_id: s_FxVjzgbdaH8C4jHNtMWNNs
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12852：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FxVjzgbdaH8C4jHNtMWNNs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大旦（CBDB 526726）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526726&o=json
+            external_identifier: CBDB:526726
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:18.829Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_WnWoB39QnGQaNueaRLMdhK
+        status: active
+        display_name: 王大旦
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_-_lheUaKX1Ppoy4fKYSm3Y
@@ -352,11 +390,13 @@ relationships:
 | children | p_Bg2txi1QiXUX2hLxGdyyC6 | 王茂焜 | accepted |
 | children | p_nLKwK2xVGaCPFM6i73hDAc | 王茂焴 | accepted |
 | ancestors | p_QxgsQUaLQn2eDK3c3hjrCx | 王慶元 | accepted |
+| ancestors | p_WnWoB39QnGQaNueaRLMdhK | 王大旦 | accepted |
 | descendants | p_pAGNzZk71qnXQmm9C9NxeD | 王楫 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王本梧（CBDB 69154）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69154&o=json)
+- [中国历代人物传记资料库：王大旦（CBDB 526726）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526726&o=json)
 - [中国历代人物传记资料库：王楫（CBDB 694042）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=694042&o=json)
 - [中国历代人物传记资料库：王茂焜（CBDB 526727）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526727&o=json)
 - [中国历代人物传记资料库：王茂焴（CBDB 526729）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526729&o=json)

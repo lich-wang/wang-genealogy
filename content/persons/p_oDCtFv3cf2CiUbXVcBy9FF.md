@@ -4,7 +4,7 @@ id: p_oDCtFv3cf2CiUbXVcBy9FF
 status: active
 merged_into: null
 display_name: 王廷榦
-revision: 12
+revision: 13
 properties:
   - predicate: name.primary
     recommended:
@@ -329,6 +329,44 @@ relationships:
         status: active
         display_name: 王達
         merged_into_person_id: null
+    - claim:
+        id: c_t5KZYWsYhuZB_YA69Ukdx9
+        subject_person_id: p_VmLwuTXbApP8EYVhFWfaQg
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_oDCtFv3cf2CiUbXVcBy9FF
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__n3H87Xr5lEw5rddM2A2gs
+          claim_id: c_t5KZYWsYhuZB_YA69Ukdx9
+          source_id: s_EPA8QkJ16acAThhwgCwudz
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_EPA8QkJ16acAThhwgCwudz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鏴（CBDB 291879）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291879&o=json
+            external_identifier: CBDB:291879
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:03.722Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_VmLwuTXbApP8EYVhFWfaQg
+        status: active
+        display_name: 王鏴
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_t6HVtxRJKUgnuT5XbsQJeL
@@ -629,6 +667,82 @@ relationships:
         status: active
         display_name: 王時春
         merged_into_person_id: null
+    - claim:
+        id: c_oeLlIhuMTOjLLVzhC1wMPb
+        subject_person_id: p_oDCtFv3cf2CiUbXVcBy9FF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_VLtC8CDJh5E2i42Aedjyf9
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xLz-iUXhlOOHZAZRTtv9M9
+          claim_id: c_oeLlIhuMTOjLLVzhC1wMPb
+          source_id: s_3h6L2zbcTVM3zBsev2ume1
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第六名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3h6L2zbcTVM3zBsev2ume1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王時譽（CBDB 291902）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291902&o=json
+            external_identifier: CBDB:291902
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:03.722Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_VLtC8CDJh5E2i42Aedjyf9
+        status: active
+        display_name: 王時譽
+        merged_into_person_id: null
+    - claim:
+        id: c_2yzh97-2MFwCI0FOmmnaSu
+        subject_person_id: p_oDCtFv3cf2CiUbXVcBy9FF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_XDd9Xr42aqw3Cvow3Z5yKw
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IKKb05ReXpYWLUGvyOlEPw
+          claim_id: c_2yzh97-2MFwCI0FOmmnaSu
+          source_id: s_n27SANAJSS8EvXRn2denrV
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第六名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_n27SANAJSS8EvXRn2denrV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王允仁（CBDB 291909）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291909&o=json
+            external_identifier: CBDB:291909
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:03.722Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_XDd9Xr42aqw3Cvow3Z5yKw
+        status: active
+        display_name: 王允仁
+        merged_into_person_id: null
   other: []
 ---
 
@@ -654,6 +768,7 @@ relationships:
 | children | p_xGopDcAXJgrE5Lk3DZAkF3 | 王文燁 | accepted |
 | children | p_5cREcqbhxgXG2hVD29ybNb | 王文灼 | accepted |
 | ancestors | p_2hBKyxrN1dj7d5F4o4qUat | 王達 | accepted |
+| ancestors | p_VmLwuTXbApP8EYVhFWfaQg | 王鏴 | accepted |
 | descendants | p_2pEjUDgmg6ACaWkcArzGmB | 王允元 | accepted |
 | descendants | p_fagWpUqsWGi5ABdQASKVK9 | 王時陞 | accepted |
 | descendants | p_ktsnU8FTeioQRpsJfaLUo1 | 王允亨 | accepted |
@@ -662,16 +777,20 @@ relationships:
 | descendants | p_4Jn99nDhfjpZiAyCYhq6M8 | 王時隆 | accepted |
 | descendants | p_8CdN36FbF54RVCMd92N8La | 王允某 | accepted |
 | descendants | p_Rfg8anW9X2Y9GWiToS8XT4 | 王時春 | accepted |
+| descendants | p_VLtC8CDJh5E2i42Aedjyf9 | 王時譽 | accepted |
+| descendants | p_XDd9Xr42aqw3Cvow3Z5yKw | 王允仁 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王達（CBDB 291878）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291878&o=json)
+- [中国历代人物传记资料库：王鏴（CBDB 291879）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291879&o=json)
 - [中国历代人物传记资料库：王汝猷（CBDB 291880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291880&o=json)
 - [中国历代人物传记资料库：王時春（CBDB 291905）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291905&o=json)
 - [中国历代人物传记资料库：王時可（CBDB 291906）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291906&o=json)
 - [中国历代人物传记资料库：王時亮（CBDB 291904）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291904&o=json)
 - [中国历代人物传记资料库：王時隆（CBDB 291903）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291903&o=json)
 - [中国历代人物传记资料库：王時陞（CBDB 291908）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291908&o=json)
+- [中国历代人物传记资料库：王時譽（CBDB 291902）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291902&o=json)
 - [中国历代人物传记资料库：王廷榦（CBDB 126553）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126553&o=json)
 - [中国历代人物传记资料库：王文爟（CBDB 291900）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291900&o=json)
 - [中国历代人物传记资料库：王文炯（CBDB 291898）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291898&o=json)
@@ -679,4 +798,5 @@ relationships:
 - [中国历代人物传记资料库：王文灼（CBDB 291901）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291901&o=json)
 - [中国历代人物传记资料库：王允亨（CBDB 291912）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291912&o=json)
 - [中国历代人物传记资料库：王允某（CBDB 291910）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291910&o=json)
+- [中国历代人物传记资料库：王允仁（CBDB 291909）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291909&o=json)
 - [中国历代人物传记资料库：王允元（CBDB 291911）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291911&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王懷仁
 cbdb_id: 158362
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:158362
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_X1pF689vMyy3J6Ww9tJowP
             source_type: api_record
             title: 中国历代人物传记资料库：王懷仁（CBDB 158362）
@@ -129,7 +129,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_phep0d-mmQtkS14nkmCgTc
+        subject_person_id: p_xDHPR2Kj84VvoDTL88JAeh
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_rUMuK7CzfJfHKJ88kFi4jQ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-tGll-mrBXxApaX2TNuSMH
+          claim_id: c_phep0d-mmQtkS14nkmCgTc
+          source_id: s_X1pF689vMyy3J6Ww9tJowP
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaicheng 37：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rUMuK7CzfJfHKJ88kFi4jQ
+        status: active
+        display_name: 王如琬
+        merged_into_person_id: null
   other: []
 ---
 
@@ -149,6 +175,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_brAX6iJgSLXNAWYFVTrNj2 | 王思敬 | accepted |
+| descendants | p_rUMuK7CzfJfHKJ88kFi4jQ | 王如琬 | accepted |
 
 ## 外部来源
 

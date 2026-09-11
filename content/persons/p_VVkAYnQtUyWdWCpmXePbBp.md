@@ -4,7 +4,7 @@ id: p_VVkAYnQtUyWdWCpmXePbBp
 status: active
 merged_into: null
 display_name: 王鐸
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -152,6 +152,44 @@ relationships:
         status: active
         display_name: 王泰文
         merged_into_person_id: null
+    - claim:
+        id: c_5JOiCdNiWuhgc3vc81TqHt
+        subject_person_id: p_WMpPQWuP95KhE12QYHynna
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_VVkAYnQtUyWdWCpmXePbBp
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eEYI1xYt4Fo85Lumuw6dOn
+          claim_id: c_5JOiCdNiWuhgc3vc81TqHt
+          source_id: s_v8xci4wiXLjKyDzBCdhTTu
+          stance: supports
+          locator: 宣德八年進士登科錄:一卷，第三甲第十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_v8xci4wiXLjKyDzBCdhTTu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仁政（CBDB 231323）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231323&o=json
+            external_identifier: CBDB:231323
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.142Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_WMpPQWuP95KhE12QYHynna
+        status: active
+        display_name: 王仁政
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -173,9 +211,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_tmHpBVPPGJeDHKDFHFAyWx | 王希仙 | accepted |
 | ancestors | p_tqsFqbzif5j3BcpmAE3NTe | 王泰文 | accepted |
+| ancestors | p_WMpPQWuP95KhE12QYHynna | 王仁政 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鐸（CBDB 126884）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126884&o=json)
+- [中国历代人物传记资料库：王仁政（CBDB 231323）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231323&o=json)
 - [中国历代人物传记资料库：王泰文（CBDB 231324）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231324&o=json)
 - [中国历代人物传记资料库：王希仙（CBDB 231325）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231325&o=json)

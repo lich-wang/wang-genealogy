@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王安舜
 cbdb_id: 207738
-revision: 5
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -206,6 +206,82 @@ relationships:
         status: active
         display_name: 王作箕
         merged_into_person_id: null
+    - claim:
+        id: c_UK6RTdFFklpQEgygPAsee2
+        subject_person_id: p_etxF8UycP4Urogz61YgdPb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UXKgyQePSrwswQHXfyHCxp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LSrkN9mrAiN2pivpSTFqnv
+          claim_id: c_UK6RTdFFklpQEgygPAsee2
+          source_id: s_GuEbdSay6tqRMNfFY12F9V
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第九十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GuEbdSay6tqRMNfFY12F9V
+            source_type: api_record
+            title: 中国历代人物传记资料库：王作翼（CBDB 234993）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234993&o=json
+            external_identifier: CBDB:234993
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.142Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_UXKgyQePSrwswQHXfyHCxp
+        status: active
+        display_name: 王作翼
+        merged_into_person_id: null
+    - claim:
+        id: c_MobYqIpRR7N7nQw4EeW3Ia
+        subject_person_id: p_etxF8UycP4Urogz61YgdPb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vG8PQBwfZ9HjqfNa8GhzNJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WAOMxoYRXH6Sv9acu5lb3a
+          claim_id: c_MobYqIpRR7N7nQw4EeW3Ia
+          source_id: s_TpnBcm3xHfhbZv8X3UJM9v
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第九十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_TpnBcm3xHfhbZv8X3UJM9v
+            source_type: api_record
+            title: 中国历代人物传记资料库：王作璧（CBDB 234994）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234994&o=json
+            external_identifier: CBDB:234994
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.142Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_vG8PQBwfZ9HjqfNa8GhzNJ
+        status: active
+        display_name: 王作璧
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -306,6 +382,8 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_VDcSxdbjB5JPLzERpmYvFU | 王泝 | accepted |
 | children | p_rL8eYtTnkBPxdnZ2ccwgxd | 王作箕 | accepted |
+| children | p_UXKgyQePSrwswQHXfyHCxp | 王作翼 | accepted |
+| children | p_vG8PQBwfZ9HjqfNa8GhzNJ | 王作璧 | accepted |
 | ancestors | p_5dSakUSWw4kjHJqxaV8CHv | 王鈺 | accepted |
 | ancestors | p_f1etzqZkjDQnNgQC99Wzfa | 王昺 | accepted |
 
@@ -315,4 +393,6 @@ relationships:
 - [中国历代人物传记资料库：王昺（CBDB 234983）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234983&o=json)
 - [中国历代人物传记资料库：王泝（CBDB 234985）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234985&o=json)
 - [中国历代人物传记资料库：王鈺（CBDB 234984）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234984&o=json)
+- [中国历代人物传记资料库：王作璧（CBDB 234994）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234994&o=json)
 - [中国历代人物传记资料库：王作箕（CBDB 234992）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234992&o=json)
+- [中国历代人物传记资料库：王作翼（CBDB 234993）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234993&o=json)

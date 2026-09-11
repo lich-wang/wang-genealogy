@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 吴氏
 cbdb_id: 257537
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -69,7 +69,7 @@ properties:
           locator: Q65863384
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_fqUNTVGzHys351QW9qwD5C
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：吳氏（257537）
@@ -209,6 +209,32 @@ relationships:
         status: active
         display_name: 王鴻儒
         merged_into_person_id: null
+    - claim:
+        id: c_D6vGQaAuu0Mmp5ch-FI5-D
+        subject_person_id: p_WdSei9h8Pyy5rewkZCDsYk
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_bwdhzsnM77a9YN3tYyTmwB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EmnzP0dhwUAoLu5ZudD2Of
+          claim_id: c_D6vGQaAuu0Mmp5ch-FI5-D
+          source_id: s_fqUNTVGzHys351QW9qwD5C
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第二甲第八名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_bwdhzsnM77a9YN3tYyTmwB
+        status: active
+        display_name: 王鴻儒
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -230,6 +256,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_Wdd9WrspYiEE72NGMNp75f | 王鸿儒 | accepted |
+| spouses | p_bwdhzsnM77a9YN3tYyTmwB | 王鴻儒 | accepted |
 | spouses | p_bwdhzsnM77a9YN3tYyTmwB | 王鴻儒 | accepted |
 
 ## 外部来源

@@ -4,7 +4,7 @@ id: p_XFNHC3xzSn5PQ61c2MLe3i
 status: active
 merged_into: null
 display_name: 王偉
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,44 @@ relationships:
         status: active
         display_name: 王壽
         merged_into_person_id: null
+    - claim:
+        id: c_rzCB5ZE9Sk3U2KfWxYcFk8
+        subject_person_id: p_vyvZcRpWhm68ZgPXAWAcXH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_XFNHC3xzSn5PQ61c2MLe3i
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PezaeydxEsmP8qIGuQU2Tk
+          claim_id: c_rzCB5ZE9Sk3U2KfWxYcFk8
+          source_id: s_GsqkTmcfYrRYj3ZPwH3f95
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第三甲第二百四十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GsqkTmcfYrRYj3ZPwH3f95
+            source_type: api_record
+            title: 中国历代人物传记资料库：王原禮（CBDB 242557）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=242557&o=json
+            external_identifier: CBDB:242557
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:59.761Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_vyvZcRpWhm68ZgPXAWAcXH
+        status: active
+        display_name: 王原禮
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_EN3ydiKjRibv3nRcEaCbqj | 王政 | accepted |
 | ancestors | p_pKqADZ4jx6wZMUxP8joPTh | 王壽 | accepted |
+| ancestors | p_vyvZcRpWhm68ZgPXAWAcXH | 王原禮 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王壽（CBDB 242558）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=242558&o=json)
 - [中国历代人物传记资料库：王偉（CBDB 67431）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67431&o=json)
+- [中国历代人物传记资料库：王原禮（CBDB 242557）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=242557&o=json)
 - [中国历代人物传记资料库：王政（CBDB 242559）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=242559&o=json)

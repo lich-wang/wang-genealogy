@@ -4,7 +4,7 @@ id: p_XKApWYJnmMgLZmZqtzznxJ
 status: active
 merged_into: null
 display_name: 王教
-revision: 6
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -187,6 +187,82 @@ relationships:
         status: active
         display_name: 王子學
         merged_into_person_id: null
+    - claim:
+        id: c_dejId8Ht0A33V-IY7-Tz7T
+        subject_person_id: p_XKApWYJnmMgLZmZqtzznxJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_V5MKKaNJzWJ3o6xKqQwYSS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-QpITRAE0TRL_Vq23c3kmj
+          claim_id: c_dejId8Ht0A33V-IY7-Tz7T
+          source_id: s_4j1Ft6w3c8xP1K7F1TFt3A
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第四十名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4j1Ft6w3c8xP1K7F1TFt3A
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子孚（CBDB 292314）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292314&o=json
+            external_identifier: CBDB:292314
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:03.722Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_V5MKKaNJzWJ3o6xKqQwYSS
+        status: active
+        display_name: 王子孚
+        merged_into_person_id: null
+    - claim:
+        id: c_GGmWmKkZ3Kzg0aXjST9KyQ
+        subject_person_id: p_XKApWYJnmMgLZmZqtzznxJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VZ6oEPm3xy7bonsAK7NdT8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5Q00GVBNL8s-f9mX6uH5LV
+          claim_id: c_GGmWmKkZ3Kzg0aXjST9KyQ
+          source_id: s_PBs6mPLAH8K1hJtTDe7KfA
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第四十名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_PBs6mPLAH8K1hJtTDe7KfA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子孝（CBDB 292312）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292312&o=json
+            external_identifier: CBDB:292312
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:03.722Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_VZ6oEPm3xy7bonsAK7NdT8
+        status: active
+        display_name: 王子孝
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -287,6 +363,8 @@ relationships:
 | parents | p_qf3o1GvREG3ttJivbyaJJw | 王山 | accepted |
 | children | p_c4pHW4ZDyaMb9z5Mt8e6Lf | 王子厚 | accepted |
 | children | p_FppM3Psb49wdjiEDLgj4ih | 王子學 | accepted |
+| children | p_V5MKKaNJzWJ3o6xKqQwYSS | 王子孚 | accepted |
+| children | p_VZ6oEPm3xy7bonsAK7NdT8 | 王子孝 | accepted |
 | ancestors | p_b882QVXceoZok18SQAv5Rc | 王璿 | accepted |
 | ancestors | p_BxC4uACvR2xMAKZRYpDAhv | 王宗 | accepted |
 
@@ -295,6 +373,8 @@ relationships:
 - [中国历代人物传记资料库：王教（CBDB 126674）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126674&o=json)
 - [中国历代人物传记资料库：王山（CBDB 292308）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292308&o=json)
 - [中国历代人物传记资料库：王璿（CBDB 292305）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292305&o=json)
+- [中国历代人物传记资料库：王子孚（CBDB 292314）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292314&o=json)
 - [中国历代人物传记资料库：王子厚（CBDB 292315）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292315&o=json)
+- [中国历代人物传记资料库：王子孝（CBDB 292312）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292312&o=json)
 - [中国历代人物传记资料库：王子學（CBDB 292313）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292313&o=json)
 - [中国历代人物传记资料库：王宗（CBDB 292307）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292307&o=json)

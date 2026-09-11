@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仲威
 cbdb_id: 255803
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:255803
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_su6S5A5FD9xrEqvEt7jXvu
             source_type: api_record
             title: 中国历代人物传记资料库：王仲威（CBDB 255803）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_-oLFM9IzSfVz5eZBbZI6H3
+        subject_person_id: p_V3qTUFMYcxnYJJ33cVNHT6
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_W3GJcYQ68tdjW81oNrSGsA
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wnZG8lK2QmGkY2MsNuW6Jn
+          claim_id: c_-oLFM9IzSfVz5eZBbZI6H3
+          source_id: s_su6S5A5FD9xrEqvEt7jXvu
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第二十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_W3GJcYQ68tdjW81oNrSGsA
+        status: active
+        display_name: 王恩
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_W3GJcYQ68tdjW81oNrSGsA | 王恩 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王間
 cbdb_id: 233809
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:233809
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_s8n1iF617ei2G4MxZU9k5j
             source_type: api_record
             title: 中国历代人物传记资料库：王間（CBDB 233809）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_HaDYYgRWOQBBYefnrwP4l2
+        subject_person_id: p_Rv5ych5iExch2twdfSXkLP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ugwr7fBUu1sPQ8SS5vrAuv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9G-iY2Zq3LSPw56mTQEkyA
+          claim_id: c_HaDYYgRWOQBBYefnrwP4l2
+          source_id: s_s8n1iF617ei2G4MxZU9k5j
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第三十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Rv5ych5iExch2twdfSXkLP
+        status: active
+        display_name: 王世蔭
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Rv5ych5iExch2twdfSXkLP | 王世蔭 | accepted |
 
 ## 外部来源
 

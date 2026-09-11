@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王一乾
 cbdb_id: 205929
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_y1a9i_qIc_66nkjp_M7Hyr
+        subject_person_id: p_upp5kBekQ15jrZwKh79eE5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DDFA2NLfrQKM4TnFh33EoF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XiSMyrMCkl8ig2vAmPA6B6
+          claim_id: c_y1a9i_qIc_66nkjp_M7Hyr
+          source_id: s_bM6UrKeZhSuBoe5GUAz6iz
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第一百八十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_bM6UrKeZhSuBoe5GUAz6iz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王如瓚（CBDB 210790）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210790&o=json
+            external_identifier: CBDB:210790
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:55.593Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_upp5kBekQ15jrZwKh79eE5
+        status: active
+        display_name: 王如瓚
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -230,11 +268,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_upp5kBekQ15jrZwKh79eE5 | 王如瓚 | accepted |
 | ancestors | p_7U5XNGmapbydHeyTDEZCwv | 王語 | accepted |
 | ancestors | p_bX1ebsvviwPe9w4HiR1Lqa | 王憼 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王憼（CBDB 210788）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210788&o=json)
+- [中国历代人物传记资料库：王如瓚（CBDB 210790）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210790&o=json)
 - [中国历代人物传记资料库：王一乾（CBDB 205929）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205929&o=json)
 - [中国历代人物传记资料库：王語（CBDB 210789）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210789&o=json)

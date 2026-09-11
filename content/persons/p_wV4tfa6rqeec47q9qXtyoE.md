@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王庸世
 cbdb_id: 526180
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:526180
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_NzpWEdSF1sqaodxcDrqZDb
             source_type: api_record
             title: 中国历代人物传记资料库：王庸世（CBDB 526180）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_zG8fioHhDKJfcMS3isXQMa
+        subject_person_id: p_wV4tfa6rqeec47q9qXtyoE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qC31C42hD4UK4m3NDzMPZB
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cbLUuD6FvjGU5EPw6iKK0t
+          claim_id: c_zG8fioHhDKJfcMS3isXQMa
+          source_id: s_NzpWEdSF1sqaodxcDrqZDb
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12015：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qC31C42hD4UK4m3NDzMPZB
+        status: active
+        display_name: 王暐
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_qC31C42hD4UK4m3NDzMPZB | 王暐 | accepted |
 
 ## 外部来源
 

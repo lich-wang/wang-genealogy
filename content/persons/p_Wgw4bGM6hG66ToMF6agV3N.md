@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王就學
 cbdb_id: 126705
-revision: 5
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -151,6 +151,44 @@ relationships:
         status: active
         display_name: 王國鼎
         merged_into_person_id: null
+    - claim:
+        id: c_5F6W1Wwt2BRSxJFS0758hy
+        subject_person_id: p_Wgw4bGM6hG66ToMF6agV3N
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xDnC68AjVBrXkfvGQMfGQV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bOMdISUpfpW33CyJe87IUW
+          claim_id: c_5F6W1Wwt2BRSxJFS0758hy
+          source_id: s_n88Hy15MeaBzJ1aDdyKbXM
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第二甲第六十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_n88Hy15MeaBzJ1aDdyKbXM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王國衡（CBDB 226717）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226717&o=json
+            external_identifier: CBDB:226717
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:57.241Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_xDnC68AjVBrXkfvGQMfGQV
+        status: active
+        display_name: 王國衡
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -250,6 +288,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_17jUtXnoMjU3kpESe25w4v | 王道生 | accepted |
 | children | p_dj6AH9LNT8j6f7joZ4NwDY | 王國鼎 | accepted |
+| children | p_xDnC68AjVBrXkfvGQMfGQV | 王國衡 | accepted |
 | ancestors | p_tgvZJj2ejeZmduQbYiYDHL | 王恩 | accepted |
 | ancestors | p_ynnM1kLJf7kU15M4XR3af9 | 王沔 | accepted |
 
@@ -257,5 +296,6 @@ relationships:
 
 - [中国历代人物传记资料库：王恩（CBDB 226709）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226709&o=json)
 - [中国历代人物传记资料库：王國鼎（CBDB 226715）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226715&o=json)
+- [中国历代人物传记资料库：王國衡（CBDB 226717）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226717&o=json)
 - [中国历代人物传记资料库：王就學（CBDB 126705）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126705&o=json)
 - [中国历代人物传记资料库：王沔（CBDB 226708）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226708&o=json)

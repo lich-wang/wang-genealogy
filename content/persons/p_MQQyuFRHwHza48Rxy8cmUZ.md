@@ -4,7 +4,7 @@ id: p_MQQyuFRHwHza48Rxy8cmUZ
 status: active
 merged_into: null
 display_name: 王重光
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -169,7 +169,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_4PHQ1NSxtxLCBuBa4vgLhj
+        subject_person_id: p_WaKa6JHUL1dsMJ9AnNt9VH
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_MQQyuFRHwHza48Rxy8cmUZ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3VRLpbPTG09qOLLw8MpSUk
+          claim_id: c_4PHQ1NSxtxLCBuBa4vgLhj
+          source_id: s_RnvspjNKb1hfE2okJ5fn4P
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第二甲第四十九名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_RnvspjNKb1hfE2okJ5fn4P
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：劉氏（302574）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302574&o=json
+            external_identifier: CBDB:302574
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:04.733Z
+            metadata_json: null
+      object_person:
+        id: p_WaKa6JHUL1dsMJ9AnNt9VH
+        status: active
+        display_name: 刘氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c__CaclHSql_OfByQExdf2p2
@@ -267,6 +304,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_HsZLwARimgLZK7ZmEpSEFy | 王麟 | accepted |
+| spouses | p_WaKa6JHUL1dsMJ9AnNt9VH | 刘氏 | accepted |
 | ancestors | p_rj597A434g3oGr3CMXf786 | 王伍 | accepted |
 | ancestors | p_VTPD5ERN4nKpvDScS6wxja | 王贵 | accepted |
 
@@ -275,4 +313,5 @@ relationships:
 - [中国历代人物传记资料库：王麟（CBDB 302568）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302568&o=json)
 - [中国历代人物传记资料库：王伍（CBDB 302567）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302567&o=json)
 - [中国历代人物传记资料库：王重光（CBDB 126622）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126622&o=json)
+- [CBDB 中国历代人物传记资料库：劉氏（302574）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302574&o=json)
 - [CBDB 中国历代人物传记资料库：王貴（302566）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302566&o=json)

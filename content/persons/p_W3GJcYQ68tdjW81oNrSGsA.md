@@ -4,7 +4,7 @@ id: p_W3GJcYQ68tdjW81oNrSGsA
 status: active
 merged_into: null
 display_name: 王恩
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,45 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_-oLFM9IzSfVz5eZBbZI6H3
+        subject_person_id: p_V3qTUFMYcxnYJJ33cVNHT6
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_W3GJcYQ68tdjW81oNrSGsA
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wnZG8lK2QmGkY2MsNuW6Jn
+          claim_id: c_-oLFM9IzSfVz5eZBbZI6H3
+          source_id: s_su6S5A5FD9xrEqvEt7jXvu
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第二十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_su6S5A5FD9xrEqvEt7jXvu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仲威（CBDB 255803）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255803&o=json
+            external_identifier: CBDB:255803
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:00.581Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_V3qTUFMYcxnYJJ33cVNHT6
+        status: active
+        display_name: 王仲威
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +202,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_cVHn1JNLVh2RSajB1FHgGr | 王詢 | accepted |
+| ancestors | p_V3qTUFMYcxnYJJ33cVNHT6 | 王仲威 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王恩（CBDB 200281）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200281&o=json)
 - [中国历代人物传记资料库：王詢（CBDB 255805）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255805&o=json)
+- [中国历代人物传记资料库：王仲威（CBDB 255803）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255803&o=json)

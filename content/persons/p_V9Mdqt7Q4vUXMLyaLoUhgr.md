@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王命時
 cbdb_id: 69275
-revision: 5
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -369,6 +369,120 @@ relationships:
         status: active
         display_name: 王符霳
         merged_into_person_id: null
+    - claim:
+        id: c_15v-WYuon5CMJG1TZJm4S_
+        subject_person_id: p_V9Mdqt7Q4vUXMLyaLoUhgr
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Vcyaehh7496j3B412JBLPE
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_D2lpwACj25NBzmK-JmeEUO
+          claim_id: c_15v-WYuon5CMJG1TZJm4S_
+          source_id: s_UeJXAre1HAZ83BjXaX3qWU
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12977：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_UeJXAre1HAZ83BjXaX3qWU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王符霖（CBDB 526814）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526814&o=json
+            external_identifier: CBDB:526814
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:18.829Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_Vcyaehh7496j3B412JBLPE
+        status: active
+        display_name: 王符霖
+        merged_into_person_id: null
+    - claim:
+        id: c_NQrSNHQJFr28e5VBgQ1ihG
+        subject_person_id: p_V9Mdqt7Q4vUXMLyaLoUhgr
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_wyrr83z8jLSxAnXvyzEesA
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bFUP7ekdBQYs7seXe-XpFX
+          claim_id: c_NQrSNHQJFr28e5VBgQ1ihG
+          source_id: s_KBoHsRiTa2PKevWkBZryYo
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12977：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_KBoHsRiTa2PKevWkBZryYo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王符霦（CBDB 526815）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526815&o=json
+            external_identifier: CBDB:526815
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:18.829Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_wyrr83z8jLSxAnXvyzEesA
+        status: active
+        display_name: 王符霦
+        merged_into_person_id: null
+    - claim:
+        id: c_MMGfLA7OykCTmnbhUSaQdV
+        subject_person_id: p_V9Mdqt7Q4vUXMLyaLoUhgr
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_xh97AA3qNTMYDkd8eSEMA4
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wd90mUfqE6A3_k8PU0bbVH
+          claim_id: c_MMGfLA7OykCTmnbhUSaQdV
+          source_id: s_ozaNXymkm5VZB8NQMvzAiQ
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12977：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ozaNXymkm5VZB8NQMvzAiQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王符電（CBDB 526812）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526812&o=json
+            external_identifier: CBDB:526812
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:18.829Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_xh97AA3qNTMYDkd8eSEMA4
+        status: active
+        display_name: 王符電
+        merged_into_person_id: null
   other: []
 ---
 
@@ -394,9 +508,15 @@ relationships:
 | descendants | p_59ArzFs44vkWcsELWr4q9e | 王符雯 | accepted |
 | descendants | p_L9pHAzSD17qSFMKfdoETFq | 王符霈 | accepted |
 | descendants | p_qnMmwMnoityMsJGNBoLZLj | 王符霳 | accepted |
+| descendants | p_Vcyaehh7496j3B412JBLPE | 王符霖 | accepted |
+| descendants | p_wyrr83z8jLSxAnXvyzEesA | 王符霦 | accepted |
+| descendants | p_xh97AA3qNTMYDkd8eSEMA4 | 王符電 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王符霦（CBDB 526815）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526815&o=json)
+- [中国历代人物传记资料库：王符電（CBDB 526812）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526812&o=json)
+- [中国历代人物传记资料库：王符霖（CBDB 526814）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526814&o=json)
 - [中国历代人物传记资料库：王符霳（CBDB 526816）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526816&o=json)
 - [中国历代人物传记资料库：王符霈（CBDB 526813）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526813&o=json)
 - [中国历代人物传记资料库：王符雯（CBDB 526811）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526811&o=json)

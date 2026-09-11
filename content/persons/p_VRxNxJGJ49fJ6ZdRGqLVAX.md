@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王兆鳳
 cbdb_id: 290831
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:290831
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_vey3PPoMqN2hXHJisK8vz1
             source_type: api_record
             title: 中国历代人物传记资料库：王兆鳳（CBDB 290831）
@@ -91,7 +91,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_4jwhaO2rZG0IzPB0XnJDyo
+        subject_person_id: p_pv2pDE9A1jj2uMGHCGpC7T
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_VRxNxJGJ49fJ6ZdRGqLVAX
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4ly1p6r4fGBk43Av3VjX5a
+          claim_id: c_4jwhaO2rZG0IzPB0XnJDyo
+          source_id: s_vey3PPoMqN2hXHJisK8vz1
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第二甲第八名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_pv2pDE9A1jj2uMGHCGpC7T
+        status: active
+        display_name: 王廷
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_pv2pDE9A1jj2uMGHCGpC7T | 王廷 | accepted |
 
 ## 外部来源
 

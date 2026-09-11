@@ -4,7 +4,7 @@ id: p_neZGHyEuAgnr3hzP3cHchk
 status: active
 merged_into: null
 display_name: 王舜漁
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -209,6 +209,44 @@ relationships:
         status: active
         display_name: 王廷美
         merged_into_person_id: null
+    - claim:
+        id: c_5rCySGojG6Ime2FAm93BYH
+        subject_person_id: p_WHtAMm4ATWgH9kokKMnTUo
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_neZGHyEuAgnr3hzP3cHchk
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HtJgVM8tkhGcd-rM-QMKs0
+          claim_id: c_5rCySGojG6Ime2FAm93BYH
+          source_id: s_xrn8BFdA4MCd94LrUD5zZB
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第二甲第十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_xrn8BFdA4MCd94LrUD5zZB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王孟德（CBDB 279496）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279496&o=json
+            external_identifier: CBDB:279496
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:02.295Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_WHtAMm4ATWgH9kokKMnTUo
+        status: active
+        display_name: 王孟德
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -232,9 +270,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_2hjZsbenJ87Bo5wxCf861P | 王原吉 | accepted |
 | ancestors | p_5nrw3iNVBvh7TQevnKJj8F | 王廷美 | accepted |
+| ancestors | p_WHtAMm4ATWgH9kokKMnTUo | 王孟德 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王孟德（CBDB 279496）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279496&o=json)
 - [中国历代人物传记资料库：王舜漁（CBDB 126735）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126735&o=json)
 - [中国历代人物传记资料库：王廷美（CBDB 279498）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279498&o=json)
 - [中国历代人物传记资料库：王原吉（CBDB 279499）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279499&o=json)

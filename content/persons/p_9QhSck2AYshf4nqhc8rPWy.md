@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王璦
 cbdb_id: 191500
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -205,6 +205,44 @@ relationships:
         status: active
         display_name: 王建侯
         merged_into_person_id: null
+    - claim:
+        id: c_dtEWmMRsC_F1pkuBJ8xIB4
+        subject_person_id: p_9QhSck2AYshf4nqhc8rPWy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_W9D533dxNGbrd8JxQH9LEx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fUc1AmU9woLdhjTF0kW4MH
+          claim_id: c_dtEWmMRsC_F1pkuBJ8xIB4
+          source_id: s_QZ6V6GgK2BB52BQk2wFZVp
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_QZ6V6GgK2BB52BQk2wFZVp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王從長（CBDB 161289）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=161289&o=json
+            external_identifier: CBDB:161289
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.741Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_W9D533dxNGbrd8JxQH9LEx
+        status: active
+        display_name: 王從長
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -231,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_gNnbPsEfQpfMDh3EXxCn5e | 王良 | accepted |
 | children | p_iFt5uE8u9k4BSBnyeCjeA7 | 王建侯 | accepted |
+| children | p_W9D533dxNGbrd8JxQH9LEx | 王從長 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王璦（CBDB 191500）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191500&o=json)
+- [中国历代人物传记资料库：王從長（CBDB 161289）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=161289&o=json)
 - [中国历代人物传记资料库：王建侯（CBDB 161300）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=161300&o=json)
 - [中国历代人物传记资料库：王良（CBDB 161287）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=161287&o=json)

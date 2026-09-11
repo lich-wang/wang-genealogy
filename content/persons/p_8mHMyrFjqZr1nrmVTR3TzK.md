@@ -4,7 +4,7 @@ id: p_8mHMyrFjqZr1nrmVTR3TzK
 status: active
 merged_into: null
 display_name: 王詔
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_OGq-Yfj3S73sD4H2pC0odc
+        subject_person_id: p_VUWtL4RpgKpesMNxN9rT23
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8mHMyrFjqZr1nrmVTR3TzK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_A9EfnzkH0eZOTOtJhtcEzA
+          claim_id: c_OGq-Yfj3S73sD4H2pC0odc
+          source_id: s_ZJHgcTr8owf2bLZ3MEytK9
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，950：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZJHgcTr8owf2bLZ3MEytK9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王舉元（CBDB 1795）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1795&o=json
+            external_identifier: CBDB:1795
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:43.132Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_VUWtL4RpgKpesMNxN9rT23
+        status: active
+        display_name: 王舉元
+        merged_into_person_id: null
   children:
     - claim:
         id: c_RjlIGDRsE5_Z-j6FEzL82F
@@ -123,8 +161,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_VUWtL4RpgKpesMNxN9rT23 | 王舉元 | accepted |
 | children | p_PMxPh6YFaGgPp7KZmoPJPf | 王璹 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王舉元（CBDB 1795）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1795&o=json)
 - [中国历代人物传记资料库：王詔（CBDB 1773）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1773&o=json)

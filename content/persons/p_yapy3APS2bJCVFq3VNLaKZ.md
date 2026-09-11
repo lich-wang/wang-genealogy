@@ -4,7 +4,7 @@ id: p_yapy3APS2bJCVFq3VNLaKZ
 status: active
 merged_into: null
 display_name: 王次翁
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -166,10 +166,84 @@ relationships:
         status: active
         display_name: 王禔
         merged_into_person_id: null
+    - claim:
+        id: c_5-eSAoOHOYkLQXWAde0z7z
+        subject_person_id: p_WYN9msC554wb8dtjBJ3Ga4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yapy3APS2bJCVFq3VNLaKZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lKE8KhEiyTz9d1onANJX-e
+          claim_id: c_5-eSAoOHOYkLQXWAde0z7z
+          source_id: s_ATTtADGT3pRCt1mbAJ8kNB
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1517;1525：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ATTtADGT3pRCt1mbAJ8kNB
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：張氏（38576）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38576&o=json
+            external_identifier: CBDB:38576
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:17.511Z
+            metadata_json: null
+      object_person:
+        id: p_WYN9msC554wb8dtjBJ3Ga4
+        status: active
+        display_name: 张氏
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_du_9w-6waC5uGu6t1-bajd
+        subject_person_id: p_UgAKkUc34kWwMh9196acWP
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_yapy3APS2bJCVFq3VNLaKZ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Evi5GLTlaH-tWlTidxUWX0
+          claim_id: c_du_9w-6waC5uGu6t1-bajd
+          source_id: s_BsD52qWHw6ncn7UiFQJ5tx
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1517;1526：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BsD52qWHw6ncn7UiFQJ5tx
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：趙氏（38577）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38577&o=json
+            external_identifier: CBDB:38577
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:02.989Z
+            metadata_json: null
+      object_person:
+        id: p_UgAKkUc34kWwMh9196acWP
+        status: active
+        display_name: 赵氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_uHgXHBx1O6hFLV5NQir-9Y
@@ -304,6 +378,8 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_hEEpn7U7EKTTeFP3ixWWbm | 王禔 | accepted |
+| parents | p_WYN9msC554wb8dtjBJ3Ga4 | 张氏 | accepted |
+| spouses | p_UgAKkUc34kWwMh9196acWP | 赵氏 | accepted |
 | ancestors | p_C5gdwEP6JshLSxPa5isWtq | 王异 | accepted |
 | ancestors | p_HN9dL1QZo7ng1X3WPN8EcR | 丘氏 | accepted |
 | ancestors | p_L2ifCRAMx2TbJz5vSmeM6T | 赵氏 | accepted |
@@ -314,4 +390,6 @@ relationships:
 - [CBDB 中国历代人物传记资料库：丘氏（38574）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38574&o=json)
 - [CBDB 中国历代人物传记资料库：王异（17423）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17423&o=json)
 - [CBDB 中国历代人物传记资料库：王禔（20093）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=20093&o=json)
+- [CBDB 中国历代人物传记资料库：張氏（38576）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38576&o=json)
 - [CBDB 中国历代人物传记资料库：趙氏（38569）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38569&o=json)
+- [CBDB 中国历代人物传记资料库：趙氏（38577）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38577&o=json)

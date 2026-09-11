@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王藻
 cbdb_id: 120215
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -639,6 +639,32 @@ relationships:
         status: active
         display_name: 刘英媛
         merged_into_person_id: null
+    - claim:
+        id: c_DDNc1_x0Q80Xdv7FhXT7tn
+        subject_person_id: p_xHtjbkzQpxs78ENySENCje
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_fUCHacNBi6Jb94qtKQ928C
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qxzaNQHmg7DsoxHmC7X_YF
+          claim_id: c_DDNc1_x0Q80Xdv7FhXT7tn
+          source_id: s_MFnYy28dp1YpBTNugLeP4g
+          stance: supports
+          locator: 明清婦女著作數據庫，MQWW PoetID#5598：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_fUCHacNBi6Jb94qtKQ928C
+        status: active
+        display_name: 刘英媛
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -662,6 +688,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_zzsFuAEs6JJ4EJkXaf48Mn | 王偃 | accepted |
 | children | p_Z61kX1Nv7EC6m6zX2Q6T3Q | 王彻 | accepted |
+| spouses | p_fUCHacNBi6Jb94qtKQ928C | 刘英媛 | accepted |
 | spouses | p_fUCHacNBi6Jb94qtKQ928C | 刘英媛 | accepted |
 
 ## 外部来源

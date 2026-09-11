@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王玉燕
 cbdb_id: 70032
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:70032
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_BupXzPmgC823DUQsPRB31g
             source_type: api_record
             title: 中国历代人物传记资料库：王玉燕（CBDB 70032）
@@ -91,7 +91,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_tX6Gi57YC5HhFTflzU_s60
+        subject_person_id: p_QQ5XhNR32ojWXjM6ctDChw
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_XcrMK2DSrfbBxLRZZaCFGp
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Gck74-ITc9_AmV0Kj8SqbU
+          claim_id: c_tX6Gi57YC5HhFTflzU_s60
+          source_id: s_BupXzPmgC823DUQsPRB31g
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #1352：祖父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_QQ5XhNR32ojWXjM6ctDChw
+        status: active
+        display_name: 王文治
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_QQ5XhNR32ojWXjM6ctDChw | 王文治 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_Z5nYxV4Tqg6P2c2jCvDNPx
 status: active
 merged_into: null
 display_name: 王惠
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_VkL_kdzIfQ3P3W_rcM8QC4
+        subject_person_id: p_xJckw5M7s3953PwfjKtPgj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Z5nYxV4Tqg6P2c2jCvDNPx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_f1bLsqqsW0CFbrfWPQxfK3
+          claim_id: c_VkL_kdzIfQ3P3W_rcM8QC4
+          source_id: s_nwQ37XeqP8XiBynqejnHsn
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第二甲第四十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_nwQ37XeqP8XiBynqejnHsn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王東溪（CBDB 261338）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261338&o=json
+            external_identifier: CBDB:261338
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:00.581Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_xJckw5M7s3953PwfjKtPgj
+        status: active
+        display_name: 王東溪
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +238,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xJckw5M7s3953PwfjKtPgj | 王東溪 | accepted |
 | ancestors | p_smxXzZUQV98RoMAng6P1kS | 王璡 | accepted |
 | ancestors | p_vueLBrU1RnBx1aZUzw5XWG | 王頤 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王東溪（CBDB 261338）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261338&o=json)
 - [中国历代人物传记资料库：王惠（CBDB 200679）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200679&o=json)
 - [中国历代人物传记资料库：王璡（CBDB 261337）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261337&o=json)
 - [中国历代人物传记资料库：王頤（CBDB 261335）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261335&o=json)

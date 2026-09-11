@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王應官
 cbdb_id: 219867
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:219867
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_ZN2FrUbHsywg5Kw3XvP3je
             source_type: api_record
             title: 中国历代人物传记资料库：王應官（CBDB 219867）
@@ -87,7 +87,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_ZO-XYpGs2npguBRqZ-FNwq
+        subject_person_id: p_VT8a4dGzV3YZgqDrEEd9JE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Hq41nXPS6acQQdhAZabmC1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_u1mpH0yCJpN5qrsR4m2uuF
+          claim_id: c_ZO-XYpGs2npguBRqZ-FNwq
+          source_id: s_ZN2FrUbHsywg5Kw3XvP3je
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第五十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Hq41nXPS6acQQdhAZabmC1
+        status: active
+        display_name: 王鑰
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_Hq41nXPS6acQQdhAZabmC1 | 王鑰 | accepted |
 
 ## 外部来源
 

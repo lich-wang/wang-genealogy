@@ -4,7 +4,7 @@ id: p_A7pYYvCPv8mtUqCwSLePSw
 status: active
 merged_into: null
 display_name: 王銓
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -152,6 +152,44 @@ relationships:
         status: active
         display_name: 王遜
         merged_into_person_id: null
+    - claim:
+        id: c_JvE4BS0SQiuzR-gvxv3PJN
+        subject_person_id: p_vwh3dGx8oAt7qgYEcP7kKC
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_A7pYYvCPv8mtUqCwSLePSw
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1OebCncDsWLFc3cFQ7Ctbn
+          claim_id: c_JvE4BS0SQiuzR-gvxv3PJN
+          source_id: s_kJpaMazBqdTDWMYEKZB1Au
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第八十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_kJpaMazBqdTDWMYEKZB1Au
+            source_type: api_record
+            title: 中国历代人物传记资料库：王均賢（CBDB 210303）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210303&o=json
+            external_identifier: CBDB:210303
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:55.593Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_vwh3dGx8oAt7qgYEcP7kKC
+        status: active
+        display_name: 王均賢
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -173,9 +211,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_sJw3vXAdXzHuC5w1Shag9M | 王靖 | accepted |
 | ancestors | p_8oYfEuEaHUihUsk26FUVed | 王遜 | accepted |
+| ancestors | p_vwh3dGx8oAt7qgYEcP7kKC | 王均賢 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王靖（CBDB 210326）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210326&o=json)
+- [中国历代人物传记资料库：王均賢（CBDB 210303）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210303&o=json)
 - [中国历代人物传记资料库：王銓（CBDB 126792）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126792&o=json)
 - [中国历代人物传记资料库：王遜（CBDB 210314）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210314&o=json)

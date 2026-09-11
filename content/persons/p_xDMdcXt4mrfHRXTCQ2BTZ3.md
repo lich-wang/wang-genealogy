@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王天石
 cbdb_id: 526682
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:526682
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_BhnWAkjNXJW2q3m8HD1bFs
             source_type: api_record
             title: 中国历代人物传记资料库：王天石（CBDB 526682）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_NoOSnR6wo56WDCBt6IopGG
+        subject_person_id: p_cS8iRxUqSiwH1xDUypDuN2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xDMdcXt4mrfHRXTCQ2BTZ3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dINaGpXdpAN0NF5JRupBT-
+          claim_id: c_NoOSnR6wo56WDCBt6IopGG
+          source_id: s_BhnWAkjNXJW2q3m8HD1bFs
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12770：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_cS8iRxUqSiwH1xDUypDuN2
+        status: active
+        display_name: 王元啟
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_cS8iRxUqSiwH1xDUypDuN2 | 王元啟 | accepted |
 
 ## 外部来源
 

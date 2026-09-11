@@ -4,7 +4,7 @@ id: p_HRB6JYhQLj6r8mmLxbphsR
 status: active
 merged_into: null
 display_name: 王用章
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -152,6 +152,44 @@ relationships:
         status: active
         display_name: 王俊
         merged_into_person_id: null
+    - claim:
+        id: c_-NpFsc-gqlF3ykbPsw73SL
+        subject_person_id: p_Wz9m4ecxdF3qNvU7bSo9YM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_HRB6JYhQLj6r8mmLxbphsR
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V3I57iKlZxcvB84wsGczZw
+          claim_id: c_-NpFsc-gqlF3ykbPsw73SL
+          source_id: s_vMKK8n3PP8f4WUHVMDqNMz
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第三甲第二百六十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_vMKK8n3PP8f4WUHVMDqNMz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王善忠（CBDB 333035）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333035&o=json
+            external_identifier: CBDB:333035
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:07.614Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_Wz9m4ecxdF3qNvU7bSo9YM
+        status: active
+        display_name: 王善忠
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -173,9 +211,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_R5xXVMm2VFc9ZSK17QQRYB | 王綱 | accepted |
 | ancestors | p_431rGKm37v1gY69WsAauGK | 王俊 | accepted |
+| ancestors | p_Wz9m4ecxdF3qNvU7bSo9YM | 王善忠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王綱（CBDB 333037）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333037&o=json)
 - [中国历代人物传记资料库：王俊（CBDB 333036）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333036&o=json)
+- [中国历代人物传记资料库：王善忠（CBDB 333035）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333035&o=json)
 - [中国历代人物传记资料库：王用章（CBDB 126495）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126495&o=json)

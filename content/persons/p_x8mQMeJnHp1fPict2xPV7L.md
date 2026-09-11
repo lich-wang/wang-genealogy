@@ -4,7 +4,7 @@ id: p_x8mQMeJnHp1fPict2xPV7L
 status: active
 merged_into: null
 display_name: 王中
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Op5FC_jf765rWXpgKy6gq0
+        subject_person_id: p_XAZFGAYeQkDJ8m4Kt7zkQf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_x8mQMeJnHp1fPict2xPV7L
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yKjVL3f5VqnIjQB-_WPe9z
+          claim_id: c_Op5FC_jf765rWXpgKy6gq0
+          source_id: s_UZW7prP5gENTbsK36GuEPH
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第二甲第五十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_UZW7prP5gENTbsK36GuEPH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗曜（CBDB 258050）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=258050&o=json
+            external_identifier: CBDB:258050
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:00.581Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_XAZFGAYeQkDJ8m4Kt7zkQf
+        status: active
+        display_name: 王宗曜
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -201,6 +239,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_XAZFGAYeQkDJ8m4Kt7zkQf | 王宗曜 | accepted |
 | ancestors | p_Cj6vGAMv5ZbiFFJLZpuwPf | 王文奎 | accepted |
 | ancestors | p_9NbEpLfAQRZh3XBJbRK4xk | 王公蒙 | accepted |
 
@@ -209,3 +248,4 @@ relationships:
 - [中国历代人物传记资料库：王公蒙（CBDB 258048）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=258048&o=json)
 - [中国历代人物传记资料库：王文奎（CBDB 258049）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=258049&o=json)
 - [中国历代人物传记资料库：王中（CBDB 200448）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200448&o=json)
+- [中国历代人物传记资料库：王宗曜（CBDB 258050）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=258050&o=json)

@@ -4,7 +4,7 @@ id: p_hh8fhsCR2PRgT3HnPmoPSX
 status: active
 merged_into: null
 display_name: 王三接
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,44 @@ relationships:
         status: active
         display_name: 王岑
         merged_into_person_id: null
+    - claim:
+        id: c_drrANyxt7fGsMMfWQ4bpPK
+        subject_person_id: p_Ve7cK1TkcHimk5vjDXkoQk
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_hh8fhsCR2PRgT3HnPmoPSX
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__lfQOTQz0OcIKBybstN0Pq
+          claim_id: c_drrANyxt7fGsMMfWQ4bpPK
+          source_id: s_LUjBrVf57CkKQ2gyvdjknn
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第二甲第四十一名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_LUjBrVf57CkKQ2gyvdjknn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王欽智（CBDB 312128）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312128&o=json
+            external_identifier: CBDB:312128
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:05.361Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_Ve7cK1TkcHimk5vjDXkoQk
+        status: active
+        display_name: 王欽智
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_fn2qF87LdSpD7mFSUY9aBy | 王濟 | accepted |
 | ancestors | p_n1RAMNCqfHxmzGckd3HNDY | 王岑 | accepted |
+| ancestors | p_Ve7cK1TkcHimk5vjDXkoQk | 王欽智 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王岑（CBDB 312130）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312130&o=json)
 - [中国历代人物传记资料库：王濟（CBDB 312131）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312131&o=json)
+- [中国历代人物传记资料库：王欽智（CBDB 312128）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312128&o=json)
 - [中国历代人物传记资料库：王三接（CBDB 203931）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203931&o=json)

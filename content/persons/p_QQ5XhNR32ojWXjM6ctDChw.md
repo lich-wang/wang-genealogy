@@ -4,7 +4,7 @@ id: p_QQ5XhNR32ojWXjM6ctDChw
 status: active
 merged_into: null
 display_name: 王文治
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -160,7 +160,45 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_tX6Gi57YC5HhFTflzU_s60
+        subject_person_id: p_QQ5XhNR32ojWXjM6ctDChw
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_XcrMK2DSrfbBxLRZZaCFGp
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Gck74-ITc9_AmV0Kj8SqbU
+          claim_id: c_tX6Gi57YC5HhFTflzU_s60
+          source_id: s_BupXzPmgC823DUQsPRB31g
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #1352：祖父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BupXzPmgC823DUQsPRB31g
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玉燕（CBDB 70032）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=70032&o=json
+            external_identifier: CBDB:70032
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:48.831Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_XcrMK2DSrfbBxLRZZaCFGp
+        status: active
+        display_name: 王玉燕
+        merged_into_person_id: null
   other: []
 ---
 
@@ -182,7 +220,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_KKK38wkd3w1PEzhoj6aArg | 王槐慶 | accepted |
+| descendants | p_XcrMK2DSrfbBxLRZZaCFGp | 王玉燕 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王文治（CBDB 54580）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54580&o=json)
+- [中国历代人物传记资料库：王玉燕（CBDB 70032）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=70032&o=json)

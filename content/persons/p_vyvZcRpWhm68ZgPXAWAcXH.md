@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王原禮
 cbdb_id: 242557
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:242557
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_GsqkTmcfYrRYj3ZPwH3f95
             source_type: api_record
             title: 中国历代人物传记资料库：王原禮（CBDB 242557）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_rzCB5ZE9Sk3U2KfWxYcFk8
+        subject_person_id: p_vyvZcRpWhm68ZgPXAWAcXH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_XFNHC3xzSn5PQ61c2MLe3i
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PezaeydxEsmP8qIGuQU2Tk
+          claim_id: c_rzCB5ZE9Sk3U2KfWxYcFk8
+          source_id: s_GsqkTmcfYrRYj3ZPwH3f95
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第三甲第二百四十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_XFNHC3xzSn5PQ61c2MLe3i
+        status: active
+        display_name: 王偉
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_XFNHC3xzSn5PQ61c2MLe3i | 王偉 | accepted |
 
 ## 外部来源
 

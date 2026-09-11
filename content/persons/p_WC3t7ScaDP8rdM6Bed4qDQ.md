@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王承美
 cbdb_id: 37661
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -132,7 +132,7 @@ properties:
           locator: Q45430120
           quotation: null
           interpretation_note: null
-          source:
+          source: &a1
             id: s_a8V1ZAY6AfYMrPMsJTtfvW
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王承美（37661）
@@ -267,7 +267,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_4hMmtbneRd378CW_bHMp-b
+        subject_person_id: p_WC3t7ScaDP8rdM6Bed4qDQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_X289ht74siib8yDf257CTg
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NCOrhL4FZhjw8HOi3epEm_
+          claim_id: c_4hMmtbneRd378CW_bHMp-b
+          source_id: s_a8V1ZAY6AfYMrPMsJTtfvW
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1704;1705：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_X289ht74siib8yDf257CTg
+        status: active
+        display_name: 王懷筠
+        merged_into_person_id: null
   other: []
 ---
 
@@ -289,6 +315,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_J4o9ZxexnEGbCZzwXfSjqr | 王文宝 | accepted |
 | children | p_Q3pxDs2RkzbXHeFthGNeju | 王文寶 | accepted |
+| descendants | p_X289ht74siib8yDf257CTg | 王懷筠 | accepted |
 
 ## 外部来源
 

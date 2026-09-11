@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 刘英媛
 cbdb_id: 120213
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -300,6 +300,43 @@ relationships:
         status: active
         display_name: 王藻
         merged_into_person_id: null
+    - claim:
+        id: c_DDNc1_x0Q80Xdv7FhXT7tn
+        subject_person_id: p_xHtjbkzQpxs78ENySENCje
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_fUCHacNBi6Jb94qtKQ928C
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qxzaNQHmg7DsoxHmC7X_YF
+          claim_id: c_DDNc1_x0Q80Xdv7FhXT7tn
+          source_id: s_MFnYy28dp1YpBTNugLeP4g
+          stance: supports
+          locator: 明清婦女著作數據庫，MQWW PoetID#5598：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MFnYy28dp1YpBTNugLeP4g
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王藻（120215）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120215&o=json
+            external_identifier: CBDB:120215
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:17:48.624Z
+            metadata_json: null
+      object_person:
+        id: p_xHtjbkzQpxs78ENySENCje
+        status: active
+        display_name: 王藻
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -320,6 +357,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_xHtjbkzQpxs78ENySENCje | 王藻 | accepted |
 | spouses | p_xHtjbkzQpxs78ENySENCje | 王藻 | accepted |
 
 ## 外部来源

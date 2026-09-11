@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王孟德
 cbdb_id: 279496
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:279496
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_xrn8BFdA4MCd94LrUD5zZB
             source_type: api_record
             title: 中国历代人物传记资料库：王孟德（CBDB 279496）
@@ -92,7 +92,59 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_wBvpOmvlh5kLS6BgMi6YrP
+        subject_person_id: p_WHtAMm4ATWgH9kokKMnTUo
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_nMT35SUBP5kHgrMqnHEGVw
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kZ-XUsUzvfYu5Rer58HhOG
+          claim_id: c_wBvpOmvlh5kLS6BgMi6YrP
+          source_id: s_xrn8BFdA4MCd94LrUD5zZB
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第一百三十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_nMT35SUBP5kHgrMqnHEGVw
+        status: active
+        display_name: 王舜耕
+        merged_into_person_id: null
+    - claim:
+        id: c_5rCySGojG6Ime2FAm93BYH
+        subject_person_id: p_WHtAMm4ATWgH9kokKMnTUo
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_neZGHyEuAgnr3hzP3cHchk
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HtJgVM8tkhGcd-rM-QMKs0
+          claim_id: c_5rCySGojG6Ime2FAm93BYH
+          source_id: s_xrn8BFdA4MCd94LrUD5zZB
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第二甲第十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_neZGHyEuAgnr3hzP3cHchk
+        status: active
+        display_name: 王舜漁
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +163,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_nMT35SUBP5kHgrMqnHEGVw | 王舜耕 | accepted |
+| descendants | p_neZGHyEuAgnr3hzP3cHchk | 王舜漁 | accepted |
 
 ## 外部来源
 

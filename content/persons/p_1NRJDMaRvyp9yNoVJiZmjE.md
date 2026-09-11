@@ -4,7 +4,7 @@ id: p_1NRJDMaRvyp9yNoVJiZmjE
 status: active
 merged_into: null
 display_name: 王慎德
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -169,6 +169,44 @@ relationships:
         status: active
         display_name: 王宥
         merged_into_person_id: null
+    - claim:
+        id: c_5LTIkITBPxGcugHuOZCF2t
+        subject_person_id: p_W1u9oKcXenmwqBgULRmE5G
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1NRJDMaRvyp9yNoVJiZmjE
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TGFEZHCLioqEquwqMoo6ww
+          claim_id: c_5LTIkITBPxGcugHuOZCF2t
+          source_id: s_ce7Tt8NwmsP3FRaVrdtSpH
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第七十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ce7Tt8NwmsP3FRaVrdtSpH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王孟璿（CBDB 220114）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220114&o=json
+            external_identifier: CBDB:220114
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:56.502Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_W1u9oKcXenmwqBgULRmE5G
+        status: active
+        display_name: 王孟璿
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -191,8 +229,10 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_EoXnHjFHxPjhcD8KsqKTGz | 王訪 | accepted |
 | ancestors | p_MvdGFnhj1EQnLBNV2b5DR9 | 王宥 | accepted |
+| ancestors | p_W1u9oKcXenmwqBgULRmE5G | 王孟璿 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王孟璿（CBDB 220114）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220114&o=json)
 - [中国历代人物传记资料库：王慎德（CBDB 206584）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206584&o=json)
 - [中国历代人物传记资料库：王宥（CBDB 220115）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220115&o=json)

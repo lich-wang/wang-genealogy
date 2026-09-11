@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王士原
 cbdb_id: 269536
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:269536
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_s7vEP7SkN2vHZ7ZrLV7RfR
             source_type: api_record
             title: 中国历代人物传记资料库：王士原（CBDB 269536）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_pJvRkXtxtm5LwgTCdFBD_T
+        subject_person_id: p_xHv79WW3VFLCAQmL56PKCu
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Yg7KAN2d9TocKbC2usfc4o
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UFgLK9Vfl7P60j071Dx4CI
+          claim_id: c_pJvRkXtxtm5LwgTCdFBD_T
+          source_id: s_s7vEP7SkN2vHZ7ZrLV7RfR
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第三甲第一百七十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Yg7KAN2d9TocKbC2usfc4o
+        status: active
+        display_name: 王尚賓
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_Yg7KAN2d9TocKbC2usfc4o | 王尚賓 | accepted |
 
 ## 外部来源
 

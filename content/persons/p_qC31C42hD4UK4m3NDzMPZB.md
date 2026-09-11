@@ -4,7 +4,7 @@ id: p_qC31C42hD4UK4m3NDzMPZB
 status: active
 merged_into: null
 display_name: 王暐
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -227,6 +227,44 @@ relationships:
         status: active
         display_name: 王蒙吉
         merged_into_person_id: null
+    - claim:
+        id: c_zG8fioHhDKJfcMS3isXQMa
+        subject_person_id: p_wV4tfa6rqeec47q9qXtyoE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qC31C42hD4UK4m3NDzMPZB
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cbLUuD6FvjGU5EPw6iKK0t
+          claim_id: c_zG8fioHhDKJfcMS3isXQMa
+          source_id: s_NzpWEdSF1sqaodxcDrqZDb
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12015：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_NzpWEdSF1sqaodxcDrqZDb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王庸世（CBDB 526180）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526180&o=json
+            external_identifier: CBDB:526180
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:17.868Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_wV4tfa6rqeec47q9qXtyoE
+        status: active
+        display_name: 王庸世
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -250,6 +288,7 @@ relationships:
 | ancestors | p_214MBaPhXVFJfNepXzTYyz | 王庸 | accepted |
 | ancestors | p_Dmoy66LxstZ24RLkjF8qKt | 王升 | accepted |
 | ancestors | p_g2mQqyo56V7mDby5TWwKou | 王蒙吉 | accepted |
+| ancestors | p_wV4tfa6rqeec47q9qXtyoE | 王庸世 | accepted |
 
 ## 外部来源
 
@@ -258,3 +297,4 @@ relationships:
 - [中国历代人物传记资料库：王升（CBDB 280914）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280914&o=json)
 - [中国历代人物传记资料库：王暐（CBDB 68343）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68343&o=json)
 - [中国历代人物传记资料库：王庸（CBDB 280913）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280913&o=json)
+- [中国历代人物传记资料库：王庸世（CBDB 526180）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526180&o=json)

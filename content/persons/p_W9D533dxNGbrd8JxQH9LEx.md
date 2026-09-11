@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王從長
 cbdb_id: 161289
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:161289
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_QZ6V6GgK2BB52BQk2wFZVp
             source_type: api_record
             title: 中国历代人物传记资料库：王從長（CBDB 161289）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_dtEWmMRsC_F1pkuBJ8xIB4
+        subject_person_id: p_9QhSck2AYshf4nqhc8rPWy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_W9D533dxNGbrd8JxQH9LEx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fUc1AmU9woLdhjTF0kW4MH
+          claim_id: c_dtEWmMRsC_F1pkuBJ8xIB4
+          source_id: s_QZ6V6GgK2BB52BQk2wFZVp
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_9QhSck2AYshf4nqhc8rPWy
+        status: active
+        display_name: 王璦
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_9QhSck2AYshf4nqhc8rPWy | 王璦 | accepted |
 
 ## 外部来源
 

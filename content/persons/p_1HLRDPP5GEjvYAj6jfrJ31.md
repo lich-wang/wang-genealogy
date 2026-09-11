@@ -4,7 +4,7 @@ id: p_1HLRDPP5GEjvYAj6jfrJ31
 status: merged
 merged_into: p_6BymFd7sw6j7GAmg7erqPj
 display_name: 王智興
-revision: 7
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -426,6 +426,43 @@ relationships:
         status: active
         display_name: 王晏逸
         merged_into_person_id: null
+    - claim:
+        id: c_IU3O5kBHbvkdf2aBCrBg8c
+        subject_person_id: p_1HLRDPP5GEjvYAj6jfrJ31
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Un1qCeghV1uPA98yeCmoYH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__QB8FyXoyY8JqQQ3j5mqaL
+          claim_id: c_IU3O5kBHbvkdf2aBCrBg8c
+          source_id: s_MvAwH3DZtx2NLsULJaZ2hc
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MvAwH3DZtx2NLsULJaZ2hc
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王晏韜（184948）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184948&o=json
+            external_identifier: CBDB:184948
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:44.493Z
+            metadata_json: null
+      object_person:
+        id: p_Un1qCeghV1uPA98yeCmoYH
+        status: active
+        display_name: 王晏韬
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -459,6 +496,7 @@ relationships:
 | children | p_iVXKWi9f5gNuEVGc79EzBF | 王晏宝 | accepted |
 | children | p_L9wgabBW76ENxwGEnK8E56 | 王晏恭 | accepted |
 | children | p_o59djP1edkTV42VCk3GSN1 | 王晏逸 | accepted |
+| children | p_Un1qCeghV1uPA98yeCmoYH | 王晏韬 | accepted |
 
 ## 外部来源
 
@@ -469,5 +507,6 @@ relationships:
 - [CBDB 中国历代人物传记资料库：王晏臯（184942）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184942&o=json)
 - [CBDB 中国历代人物传记资料库：王晏恭（184944）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184944&o=json)
 - [CBDB 中国历代人物传记资料库：王晏深（184946）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184946&o=json)
+- [CBDB 中国历代人物传记资料库：王晏韜（184948）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184948&o=json)
 - [CBDB 中国历代人物传记资料库：王晏逸（184945）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184945&o=json)
 - [CBDB 中国历代人物传记资料库：王晏宰（184941）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184941&o=json)

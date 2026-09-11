@@ -4,7 +4,7 @@ id: p_rUMuK7CzfJfHKJ88kFi4jQ
 status: active
 merged_into: null
 display_name: 王如琬
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -245,7 +245,45 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_phep0d-mmQtkS14nkmCgTc
+        subject_person_id: p_xDHPR2Kj84VvoDTL88JAeh
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_rUMuK7CzfJfHKJ88kFi4jQ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-tGll-mrBXxApaX2TNuSMH
+          claim_id: c_phep0d-mmQtkS14nkmCgTc
+          source_id: s_X1pF689vMyy3J6Ww9tJowP
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaicheng 37：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_X1pF689vMyy3J6Ww9tJowP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王懷仁（CBDB 158362）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158362&o=json
+            external_identifier: CBDB:158362
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.122Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_xDHPR2Kj84VvoDTL88JAeh
+        status: active
+        display_name: 王懷仁
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -270,9 +308,11 @@ relationships:
 | parents | p_brAX6iJgSLXNAWYFVTrNj2 | 王思敬 | accepted |
 | children | p_7czp7Reypp5JpGJdLs7GGs | 王文叡 | accepted |
 | children | p_cBRYoF4LBHA41aXU9G6Tjy | 王文雅 | accepted |
+| ancestors | p_xDHPR2Kj84VvoDTL88JAeh | 王懷仁 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王懷仁（CBDB 158362）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158362&o=json)
 - [中国历代人物传记资料库：王如琬（CBDB 141769）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141769&o=json)
 - [中国历代人物传记资料库：王思敬（CBDB 158363）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158363&o=json)
 - [中国历代人物传记资料库：王文叡（CBDB 158366）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158366&o=json)

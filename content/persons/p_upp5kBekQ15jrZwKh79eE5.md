@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王如瓚
 cbdb_id: 210790
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:210790
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_bM6UrKeZhSuBoe5GUAz6iz
             source_type: api_record
             title: 中国历代人物传记资料库：王如瓚（CBDB 210790）
@@ -87,7 +87,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_y1a9i_qIc_66nkjp_M7Hyr
+        subject_person_id: p_upp5kBekQ15jrZwKh79eE5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DDFA2NLfrQKM4TnFh33EoF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XiSMyrMCkl8ig2vAmPA6B6
+          claim_id: c_y1a9i_qIc_66nkjp_M7Hyr
+          source_id: s_bM6UrKeZhSuBoe5GUAz6iz
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第一百八十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DDFA2NLfrQKM4TnFh33EoF
+        status: active
+        display_name: 王一乾
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_DDFA2NLfrQKM4TnFh33EoF | 王一乾 | accepted |
 
 ## 外部来源
 

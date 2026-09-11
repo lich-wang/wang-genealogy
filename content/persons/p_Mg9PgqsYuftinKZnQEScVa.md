@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王友賢
 cbdb_id: 204802
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,6 +209,44 @@ relationships:
         status: active
         display_name: 王英
         merged_into_person_id: null
+    - claim:
+        id: c_whgf0xr7aAJFMfbNjqKK8L
+        subject_person_id: p_WbhywedDSH6B9wFYLnLNcU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Mg9PgqsYuftinKZnQEScVa
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vCjWRXmj7vxy1S-lkl9w9Q
+          claim_id: c_whgf0xr7aAJFMfbNjqKK8L
+          source_id: s_zsSbkk2AxA8WVH7cgf6v4C
+          stance: supports
+          locator: 嘉靖三十八年進士登科錄:一卷，第三甲第三十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_zsSbkk2AxA8WVH7cgf6v4C
+            source_type: api_record
+            title: 中国历代人物传记资料库：王齡（CBDB 324284）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324284&o=json
+            external_identifier: CBDB:324284
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:06.922Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_WbhywedDSH6B9wFYLnLNcU
+        status: active
+        display_name: 王齡
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_EKeKWW2myZz4rE9rrMpRQP | 王用 | accepted |
 | ancestors | p_t9DB1XcL2DgsrqGVqG1PFG | 王英 | accepted |
+| ancestors | p_WbhywedDSH6B9wFYLnLNcU | 王齡 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王齡（CBDB 324284）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324284&o=json)
 - [中国历代人物传记资料库：王英（CBDB 324286）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324286&o=json)
 - [中国历代人物传记资料库：王用（CBDB 324287）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324287&o=json)
 - [中国历代人物传记资料库：王友賢（CBDB 204802）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204802&o=json)
