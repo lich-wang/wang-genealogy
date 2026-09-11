@@ -4,7 +4,7 @@ id: p_z4xE7QSSGQJhxdiqsEyRc2
 status: active
 merged_into: null
 display_name: 王東槐
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,168 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_3IIooZPg76TTeRDwrbkQRU
+        subject_person_id: p_sQo281fNNUJxMz5sufHohm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_z4xE7QSSGQJhxdiqsEyRc2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xLOaUBTxufrDfhdsm6CB07
+          claim_id: c_3IIooZPg76TTeRDwrbkQRU
+          source_id: s_9xxamMv6phJtfyKgRZs3xv
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1852：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_sQo281fNNUJxMz5sufHohm
+        status: active
+        display_name: 王增韻
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_WI5yXrUsqJ-V6bymNIKRw7
+        subject_person_id: p_z4xE7QSSGQJhxdiqsEyRc2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Wke1bLVnQDGnstdySuAfi4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YcMQWBox8xbnIBxSG13v5-
+          claim_id: c_WI5yXrUsqJ-V6bymNIKRw7
+          source_id: s_9xxamMv6phJtfyKgRZs3xv
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1852：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Wke1bLVnQDGnstdySuAfi4
+        status: active
+        display_name: 王宜劼
+        merged_into_person_id: null
+    - claim:
+        id: c_MsgOTYDlUhOOxtiolrNpS_
+        subject_person_id: p_z4xE7QSSGQJhxdiqsEyRc2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Ht8zc6W727GPoey5XfEVrw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GR1VQblv1W3kS6bZROPn_i
+          claim_id: c_MsgOTYDlUhOOxtiolrNpS_
+          source_id: s_9xxamMv6phJtfyKgRZs3xv
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1852：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Ht8zc6W727GPoey5XfEVrw
+        status: active
+        display_name: 王宜勒
+        merged_into_person_id: null
+    - claim:
+        id: c_73NQUSfmxlJXB18-fscsUl
+        subject_person_id: p_z4xE7QSSGQJhxdiqsEyRc2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_141LJrPuATXGERWQPxYWHe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J1QrxcnFjcRTK627CtmVVA
+          claim_id: c_73NQUSfmxlJXB18-fscsUl
+          source_id: s_9xxamMv6phJtfyKgRZs3xv
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1852：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_141LJrPuATXGERWQPxYWHe
+        status: active
+        display_name: 王宜勰
+        merged_into_person_id: null
+    - claim:
+        id: c_CXHOzZm7iDKVyvY7VfxCrb
+        subject_person_id: p_z4xE7QSSGQJhxdiqsEyRc2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PSq4gNnj9hSipZUMSKmYGy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aMJgNChBqNuWKd_VxtEe-W
+          claim_id: c_CXHOzZm7iDKVyvY7VfxCrb
+          source_id: s_9xxamMv6phJtfyKgRZs3xv
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1852：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_PSq4gNnj9hSipZUMSKmYGy
+        status: active
+        display_name: 王宜勵
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_6OI_2cfof0dDkMqMDPOYCk
+        subject_person_id: p_BgN1jLcg47MdSkxx7nEyNR
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_z4xE7QSSGQJhxdiqsEyRc2
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZMF6yXHCe5_ImgCivafqOP
+          claim_id: c_6OI_2cfof0dDkMqMDPOYCk
+          source_id: s_9xxamMv6phJtfyKgRZs3xv
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1852：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_BgN1jLcg47MdSkxx7nEyNR
+        status: active
+        display_name: 王國淑
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +311,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_sQo281fNNUJxMz5sufHohm | 王增韻 | accepted |
+| children | p_Wke1bLVnQDGnstdySuAfi4 | 王宜劼 | accepted |
+| children | p_Ht8zc6W727GPoey5XfEVrw | 王宜勒 | accepted |
+| children | p_141LJrPuATXGERWQPxYWHe | 王宜勰 | accepted |
+| children | p_PSq4gNnj9hSipZUMSKmYGy | 王宜勵 | accepted |
+| ancestors | p_BgN1jLcg47MdSkxx7nEyNR | 王國淑 | accepted |
 
 ## 外部来源
 

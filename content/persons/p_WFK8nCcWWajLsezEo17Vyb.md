@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王光謙
 cbdb_id: 145968
-revision: 5
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -359,6 +359,43 @@ relationships:
         status: active
         display_name: 王翺
         merged_into_person_id: null
+    - claim:
+        id: c__I1NF1ffBJzvTNKYGVJtzB
+        subject_person_id: p_WFK8nCcWWajLsezEo17Vyb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YoDjUd1XQ5XAGLu3C54M9C
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5Lz75E0T37UCSVM-jJb0QW
+          claim_id: c__I1NF1ffBJzvTNKYGVJtzB
+          source_id: s_5DsRnj1SB6hLGU38ofQY9a
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5DsRnj1SB6hLGU38ofQY9a
+            source_type: api_record
+            title: 中国历代人物传记资料库：王翽（CBDB 175729）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175729&o=json
+            external_identifier: CBDB:175729
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.251Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_YoDjUd1XQ5XAGLu3C54M9C
+        status: active
+        display_name: 王翽
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -389,12 +426,14 @@ relationships:
 | children | p_jqkNaPM6oKD7E6QNnfSZbA | 王翊 | accepted |
 | children | p_pzNEWP653ER35cKhpMWTv7 | 王翃 | accepted |
 | children | p_q3M1uotSSYEko568QrKBnD | 王翺 | accepted |
+| children | p_YoDjUd1XQ5XAGLu3C54M9C | 王翽 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王翺（CBDB 175720）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175720&o=json)
 - [中国历代人物传记资料库：王光謙（CBDB 145968）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145968&o=json)
 - [中国历代人物传记资料库：王翃（CBDB 175725）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175725&o=json)
+- [中国历代人物传记资料库：王翽（CBDB 175729）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175729&o=json)
 - [中国历代人物传记资料库：王慶賢（CBDB 175704）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175704&o=json)
 - [中国历代人物传记资料库：王向（CBDB 175728）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175728&o=json)
 - [中国历代人物传记资料库：王翊（CBDB 175705）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175705&o=json)

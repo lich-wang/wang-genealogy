@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王蒔蘭
 cbdb_id: 69391
-revision: 10
+revision: 11
 properties:
   - predicate: bio.summary
     recommended:
@@ -198,6 +198,43 @@ relationships:
         id: p_KE1vu5k3VtgZrRQMPYY4WK
         status: active
         display_name: 王予彤
+        merged_into_person_id: null
+    - claim:
+        id: c_hJCls34krfFjuSBVpUCZZs
+        subject_person_id: p_DHYbJsS7LE12BDd6qGrWUt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ywRoY7psrbVEmfBKmj6ACa
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4Hc9-ZNftPuQXLzONpofqS
+          claim_id: c_hJCls34krfFjuSBVpUCZZs
+          source_id: s_aN6sE93cNu5XuxM7VCc794
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13096：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_aN6sE93cNu5XuxM7VCc794
+            source_type: api_record
+            title: 中国历代人物传记资料库：王予盧（CBDB 526922）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526922&o=json
+            external_identifier: CBDB:526922
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.302Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ywRoY7psrbVEmfBKmj6ACa
+        status: active
+        display_name: 王予盧
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
@@ -595,6 +632,7 @@ relationships:
 | parents | p_fRAzL4ApNNZCFckyCVpB9u | 王立誠 | accepted |
 | children | p_FGbhkWB4xy2gtmPSMVpsUL | 王予衮 | accepted |
 | children | p_KE1vu5k3VtgZrRQMPYY4WK | 王予彤 | accepted |
+| children | p_ywRoY7psrbVEmfBKmj6ACa | 王予盧 | accepted |
 | ancestors | p_dgp8k2g45uX342yUGpkNtj | 王承法 | accepted |
 | ancestors | p_fa8ewBKTQnXHUsssHpGU8J | 王應堯 | accepted |
 | ancestors | p_qVjpGfv4jCYF7jfo2xQeEY | 王思九 | accepted |
@@ -621,4 +659,5 @@ relationships:
 - [中国历代人物传记资料库：王思九（CBDB 526932）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526932&o=json)
 - [中国历代人物传记资料库：王應堯（CBDB 526933）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526933&o=json)
 - [中国历代人物传记资料库：王予衮（CBDB 526923）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526923&o=json)
+- [中国历代人物传记资料库：王予盧（CBDB 526922）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526922&o=json)
 - [中国历代人物传记资料库：王予彤（CBDB 526921）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526921&o=json)

@@ -4,7 +4,7 @@ id: p_Kr82p89DPcaLRwmJJapqo8
 status: active
 merged_into: null
 display_name: 王宣
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -152,6 +152,43 @@ relationships:
         status: active
         display_name: 王賢
         merged_into_person_id: null
+    - claim:
+        id: c_Pq-0L8356ZEMp9_xv1r3rH
+        subject_person_id: p_yJM2VsmdHgJfKLCoMeE4UA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Kr82p89DPcaLRwmJJapqo8
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lkFj7DSgUKIgMwDhuiEWab
+          claim_id: c_Pq-0L8356ZEMp9_xv1r3rH
+          source_id: s_yRAL4JyGBQUAfb2EW8GJRF
+          stance: supports
+          locator: 正统七年進士登科錄:一卷，第三甲第七十八名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_yRAL4JyGBQUAfb2EW8GJRF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王能（CBDB 238663）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238663&o=json
+            external_identifier: CBDB:238663
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.886Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_yJM2VsmdHgJfKLCoMeE4UA
+        status: active
+        display_name: 王能
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -173,9 +210,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_FDiJqJn77s6sHnYjqwgysR | 王忠 | accepted |
 | ancestors | p_sqRQj3rACsAggP37o1X4hW | 王賢 | accepted |
+| ancestors | p_yJM2VsmdHgJfKLCoMeE4UA | 王能 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王能（CBDB 238663）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238663&o=json)
 - [中国历代人物传记资料库：王賢（CBDB 238662）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238662&o=json)
 - [中国历代人物传记资料库：王宣（CBDB 126596）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126596&o=json)
 - [中国历代人物传记资料库：王忠（CBDB 238665）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238665&o=json)

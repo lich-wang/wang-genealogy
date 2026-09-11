@@ -4,7 +4,7 @@ id: p_ZMq1MwuQH5W5qBuGHPLspm
 status: active
 merged_into: null
 display_name: 王鼎
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_HP3gs_AIp7qVBeYFJ_Af8A
+        subject_person_id: p_ZMq1MwuQH5W5qBuGHPLspm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_44Kmse4y3QwxuZ24pwLEpe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fjyAjv7Jg_ZNMKGb6skjQr
+          claim_id: c_HP3gs_AIp7qVBeYFJ_Af8A
+          source_id: s_EAz8QJy4CZ5R2eaD66CsUT
+          stance: supports
+          locator: 元人傳記資料索引，713：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_44Kmse4y3QwxuZ24pwLEpe
+        status: active
+        display_name: 王弘鈞
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_44Kmse4y3QwxuZ24pwLEpe | 王弘鈞 | accepted |
 
 ## 外部来源
 

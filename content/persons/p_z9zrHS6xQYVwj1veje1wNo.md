@@ -4,7 +4,7 @@ id: p_z9zrHS6xQYVwj1veje1wNo
 status: active
 merged_into: null
 display_name: 王端
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_TSqCGNjyz1ZYq-J3v-Bmk7
+        subject_person_id: p_z9zrHS6xQYVwj1veje1wNo
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_oPLWhhcUgR56XRswCqgGBJ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nc6Hqttd31nrOtN-ogPnXJ
+          claim_id: c_TSqCGNjyz1ZYq-J3v-Bmk7
+          source_id: s_jChxC7iLeVHD3gYMmtWKq7
+          stance: supports
+          locator: 建文二年殿試登科錄:一卷，第三甲第十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oPLWhhcUgR56XRswCqgGBJ
+        status: active
+        display_name: 王能
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_oPLWhhcUgR56XRswCqgGBJ | 王能 | accepted |
 
 ## 外部来源
 

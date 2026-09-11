@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王秉良
 cbdb_id: 201458
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,6 +209,43 @@ relationships:
         status: active
         display_name: 王繼先
         merged_into_person_id: null
+    - claim:
+        id: c_XZ0IgWV2Nfj84xgA60c-5A
+        subject_person_id: p_YzvBwyQMZHuRLG8VQ7VxZ5
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_AJ36QsHYvNFFPiM32NAShM
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wDkRlwcLkfttDOt8JrKJPl
+          claim_id: c_XZ0IgWV2Nfj84xgA60c-5A
+          source_id: s_cfeW7dCx5TH7Bk1MNqGkhW
+          stance: supports
+          locator: 弘治十八年進士登科錄:一卷，第二甲第四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_cfeW7dCx5TH7Bk1MNqGkhW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王清（CBDB 272752）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272752&o=json
+            external_identifier: CBDB:272752
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.892Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_YzvBwyQMZHuRLG8VQ7VxZ5
+        status: active
+        display_name: 王清
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_xTGz6CSCfnLnyJ3himBvrU | 王俊 | accepted |
 | ancestors | p_uv7Y4sorz1AJL6728idjYf | 王繼先 | accepted |
+| ancestors | p_YzvBwyQMZHuRLG8VQ7VxZ5 | 王清 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王秉良（CBDB 201458）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201458&o=json)
 - [中国历代人物传记资料库：王繼先（CBDB 272749）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272749&o=json)
 - [中国历代人物传记资料库：王俊（CBDB 272753）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272753&o=json)
+- [中国历代人物传记资料库：王清（CBDB 272752）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272752&o=json)

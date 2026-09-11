@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王全義
 cbdb_id: 170010
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -167,7 +167,44 @@ relationships:
         status: active
         display_name: 王仁俊
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_sL2GPhHX-T3kcFy7Bm7wJ1
+        subject_person_id: p_Lc5T8QMpPxQWjzxvt1ckat
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZpcYCX21cFGgpj8DaWwV25
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MllF5SiogRLZKJ979MMgca
+          claim_id: c_sL2GPhHX-T3kcFy7Bm7wJ1
+          source_id: s_MdDQQmnCKToUBLnDYzvFf7
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MdDQQmnCKToUBLnDYzvFf7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寮（CBDB 169311）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169311&o=json
+            external_identifier: CBDB:169311
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.231Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ZpcYCX21cFGgpj8DaWwV25
+        status: active
+        display_name: 王寮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_QyHi5dyDpFnFpCeLbwTXMC | 王仁俊 | accepted |
+| children | p_ZpcYCX21cFGgpj8DaWwV25 | 王寮 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王寮（CBDB 169311）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169311&o=json)
 - [中国历代人物传记资料库：王全義（CBDB 170010）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=170010&o=json)
 - [中国历代人物传记资料库：王仁俊（CBDB 170462）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=170462&o=json)

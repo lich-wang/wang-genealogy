@@ -4,7 +4,7 @@ id: p_txmGNUSLN748iJB41SWQzU
 status: active
 merged_into: null
 display_name: 王致祥
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -208,6 +208,43 @@ relationships:
         status: active
         display_name: 王永
         merged_into_person_id: null
+    - claim:
+        id: c_R2Chf9UF-qAvSMFVQHO1XL
+        subject_person_id: p_YonJAznChqqmsAQ6CTYGne
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_txmGNUSLN748iJB41SWQzU
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yR0m956raC-ZL9ppDmvjpQ
+          claim_id: c_R2Chf9UF-qAvSMFVQHO1XL
+          source_id: s_7g5TYf9XGtC8wnxh4FY9KG
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第二百九十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7g5TYf9XGtC8wnxh4FY9KG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王懋（CBDB 212065）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212065&o=json
+            external_identifier: CBDB:212065
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.056Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_YonJAznChqqmsAQ6CTYGne
+        status: active
+        display_name: 王懋
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_fhHf3Ju1yjz535vtqX8da8 | 王金 | accepted |
 | ancestors | p_1mLdDgpxj23zTcm4MRc5MF | 王永 | accepted |
+| ancestors | p_YonJAznChqqmsAQ6CTYGne | 王懋 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王金（CBDB 212066）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212066&o=json)
+- [中国历代人物传记资料库：王懋（CBDB 212065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212065&o=json)
 - [中国历代人物传记资料库：王永（CBDB 212064）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212064&o=json)
 - [中国历代人物传记资料库：王致祥（CBDB 126646）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126646&o=json)

@@ -4,7 +4,7 @@ id: p_Yhu8gbvgfcQiqdtV9GDa87
 status: active
 merged_into: null
 display_name: 王四
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_ocBmle-yy6M9fd2nW4DQVj
+        subject_person_id: p_Yhu8gbvgfcQiqdtV9GDa87
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_uwC7U2dhe6Kyw5xBECanBE
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-8nedRq_sikQfZt7Ue6PHP
+          claim_id: c_ocBmle-yy6M9fd2nW4DQVj
+          source_id: s_RNsK7NP56xANkbW7YrULxr
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第八十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uwC7U2dhe6Kyw5xBECanBE
+        status: active
+        display_name: 王珍
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_uwC7U2dhe6Kyw5xBECanBE | 王珍 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王士崧
 cbdb_id: 35068
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -380,7 +380,44 @@ relationships:
         status: active
         display_name: 苏氏
         merged_into_person_id: null
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_EWl4K7WkkmhpP6vHDzW2I0
+        subject_person_id: p_z3cDLC3QR4mmvqHtCQ8jY3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_H1qN9DJkUwvePJbjMNJmyp
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_R7nmg5J1BvtJMX61jxN75i
+          claim_id: c_EWl4K7WkkmhpP6vHDzW2I0
+          source_id: s_AgNGQmoM7waUHAeudQjo6g
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第二甲第二十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_AgNGQmoM7waUHAeudQjo6g
+            source_type: api_record
+            title: 中国历代人物传记资料库：王訓（CBDB 222403）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222403&o=json
+            external_identifier: CBDB:222403
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.379Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_z3cDLC3QR4mmvqHtCQ8jY3
+        status: active
+        display_name: 王訓
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -405,12 +442,14 @@ relationships:
 | parents | p_trUE1ub3cUR7dMLX7JC1NK | 王宗沐 | accepted |
 | adoptive_children | p_SWfQfCDCKhLf9P4kgMuHQS | 王立程 | accepted |
 | spouses | p_7oLhNpqUYp1tqETFx86wc3 | 苏氏 | accepted |
+| ancestors | p_z3cDLC3QR4mmvqHtCQ8jY3 | 王訓 | accepted |
 
 ## 外部来源
 
 - [维基数据：苏氏（Q65825522）](https://www.wikidata.org/wiki/Q65825522)
 - [维基数据：王士崧（Q16925700）](https://www.wikidata.org/wiki/Q16925700)
 - [维基数据：王宗沐（Q15916933）](https://www.wikidata.org/wiki/Q15916933)
+- [中国历代人物传记资料库：王訓（CBDB 222403）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222403&o=json)
 - [中文维基百科：王士崧](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E5%B4%A7)
 - [CBDB 中国历代人物传记资料库：王立程（702263）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702263&o=json)
 - [CBDB 中国历代人物传记资料库：王士崧（35068）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35068&o=json)

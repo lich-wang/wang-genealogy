@@ -4,7 +4,7 @@ id: p_rd5qTvBTthC6ZnBxJzkeri
 status: active
 merged_into: null
 display_name: 王用
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_wox-xWrvs8agldO416658L
+        subject_person_id: p_z2KrppHPtLom67wwLrWXDN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rd5qTvBTthC6ZnBxJzkeri
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7s9bidGmmw8PmjqUgFm1s4
+          claim_id: c_wox-xWrvs8agldO416658L
+          source_id: s_RzLzCyuxNFxhA9CNho3jxN
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第一百零八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_RzLzCyuxNFxhA9CNho3jxN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繹（CBDB 259644）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259644&o=json
+            external_identifier: CBDB:259644
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.469Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_z2KrppHPtLom67wwLrWXDN
+        status: active
+        display_name: 王繹
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +237,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_z2KrppHPtLom67wwLrWXDN | 王繹 | accepted |
 | ancestors | p_4RbMZf3857ddZU7cBYAPJo | 王德銘 | accepted |
 | ancestors | p_dP6BdKp6wdQ2FF6rmkzLcF | 王謙 | accepted |
 
@@ -207,4 +245,5 @@ relationships:
 
 - [中国历代人物传记资料库：王德銘（CBDB 259642）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259642&o=json)
 - [中国历代人物传记资料库：王謙（CBDB 259643）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259643&o=json)
+- [中国历代人物传记资料库：王繹（CBDB 259644）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259644&o=json)
 - [中国历代人物传记资料库：王用（CBDB 200554）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200554&o=json)

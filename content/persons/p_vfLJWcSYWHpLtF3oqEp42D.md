@@ -4,7 +4,7 @@ id: p_vfLJWcSYWHpLtF3oqEp42D
 status: active
 merged_into: null
 display_name: 王臣
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_SOvspP3FAvC0EpG_0Zr11B
+        subject_person_id: p_Z6SSx6JCsA5rPQ9sKcT6Nz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vfLJWcSYWHpLtF3oqEp42D
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_waSnXVmJSVJAwZ4KjZEL8u
+          claim_id: c_SOvspP3FAvC0EpG_0Zr11B
+          source_id: s_BXuvhETUeu7HtmhUUopQ8x
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BXuvhETUeu7HtmhUUopQ8x
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珪（CBDB 262092）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262092&o=json
+            external_identifier: CBDB:262092
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.577Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Z6SSx6JCsA5rPQ9sKcT6Nz
+        status: active
+        display_name: 王珪
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Z6SSx6JCsA5rPQ9sKcT6Nz | 王珪 | accepted |
 | ancestors | p_ML6gBBNegNg4c95KyvTjB2 | 王良 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王臣（CBDB 198359）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198359&o=json)
+- [中国历代人物传记资料库：王珪（CBDB 262092）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262092&o=json)
 - [中国历代人物传记资料库：王良（CBDB 262069）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262069&o=json)

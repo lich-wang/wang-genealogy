@@ -4,7 +4,7 @@ id: p_zgCLZQVjSkLuQQqYEkm7ze
 status: active
 merged_into: null
 display_name: 王質
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_DGgoB1ksBAeniSP6mlIvgy
+        subject_person_id: p_zgCLZQVjSkLuQQqYEkm7ze
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_D1pWDsHWNd5wRUwygKh8wV
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__EwSA8MylU7YeWVHC5b9uN
+          claim_id: c_DGgoB1ksBAeniSP6mlIvgy
+          source_id: s_DhDLPqwJDh1gerD4dGYiZH
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第三甲第一百二十一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_D1pWDsHWNd5wRUwygKh8wV
+        status: active
+        display_name: 王三餘
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_D1pWDsHWNd5wRUwygKh8wV | 王三餘 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_YMs6JZkbstNyaB91cBTq8e
 status: active
 merged_into: null
 display_name: 王珍
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_AuC3KqX7RFBHf1-2_YBAxO
+        subject_person_id: p_2t2Hsz99a7Ud4ncfCN2zBF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YMs6JZkbstNyaB91cBTq8e
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K_pJ-I0CXNdRDwE5c-UGZm
+          claim_id: c_AuC3KqX7RFBHf1-2_YBAxO
+          source_id: s_DDxcxQL1ev4xkH9RkHws9x
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Dali18：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_2t2Hsz99a7Ud4ncfCN2zBF
+        status: active
+        display_name: 王奉珍
+        merged_into_person_id: null
   children:
     - claim:
         id: c_ELY_kY4s3OAjAmSP2Sl2nl
@@ -192,6 +218,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_2t2Hsz99a7Ud4ncfCN2zBF | 王奉珍 | accepted |
 | children | p_3kourbNuWNhGu69vBJXe7H | 王安國 | accepted |
 
 ## 外部来源

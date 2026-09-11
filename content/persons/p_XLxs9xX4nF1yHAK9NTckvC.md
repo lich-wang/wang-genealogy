@@ -4,7 +4,7 @@ id: p_XLxs9xX4nF1yHAK9NTckvC
 status: active
 merged_into: null
 display_name: 王興滿
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -241,6 +241,43 @@ relationships:
         status: active
         display_name: 王國悅
         merged_into_person_id: null
+    - claim:
+        id: c_4d90lmDNVZeL04oiMKtUYh
+        subject_person_id: p_XLxs9xX4nF1yHAK9NTckvC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ywCDUR6r5YJckZ4r6ZE4Bx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1YC1UmwffoAnqrxRN1Ioqx
+          claim_id: c_4d90lmDNVZeL04oiMKtUYh
+          source_id: s_YLsJpAXKCDwgSZoPnAbFyp
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_YLsJpAXKCDwgSZoPnAbFyp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惟政（CBDB 189431）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=189431&o=json
+            external_identifier: CBDB:189431
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.293Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ywCDUR6r5YJckZ4r6ZE4Bx
+        status: active
+        display_name: 王惟政
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -269,10 +306,12 @@ relationships:
 | parents | p_2FV1HrcqkaNTNZ39zXHC6H | 王震處 | accepted |
 | children | p_P5RF5BLHoMC8ugGB4BR7ea | 王光進 | accepted |
 | children | p_PceLKpJcjuF3qH5aXMV9x9 | 王國悅 | accepted |
+| children | p_ywCDUR6r5YJckZ4r6ZE4Bx | 王惟政 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王光進（CBDB 189429）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=189429&o=json)
 - [中国历代人物传记资料库：王國悅（CBDB 189430）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=189430&o=json)
+- [中国历代人物传记资料库：王惟政（CBDB 189431）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=189431&o=json)
 - [中国历代人物传记资料库：王興滿（CBDB 145578）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145578&o=json)
 - [中国历代人物传记资料库：王震處（CBDB 189428）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=189428&o=json)

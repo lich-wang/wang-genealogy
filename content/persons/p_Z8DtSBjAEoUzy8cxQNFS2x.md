@@ -4,7 +4,7 @@ id: p_Z8DtSBjAEoUzy8cxQNFS2x
 status: active
 merged_into: null
 display_name: 王縱
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_kYiZdwD3jX0dDskZqvSrpB
+        subject_person_id: p_MmPzYffxoPPMYZRX3Lh3sE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Z8DtSBjAEoUzy8cxQNFS2x
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8hF-1V6mNl7S3JxKsJ5awS
+          claim_id: c_kYiZdwD3jX0dDskZqvSrpB
+          source_id: s_69Gh848koGViSF4f8SDaQj
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MmPzYffxoPPMYZRX3Lh3sE
+        status: active
+        display_name: 王載
+        merged_into_person_id: null
   children:
     - claim:
         id: c_f0ttddxMM3Yu-vH1ysEyVB
@@ -204,6 +230,84 @@ relationships:
         status: active
         display_name: 王重簡
         merged_into_person_id: null
+    - claim:
+        id: c_jV_47cXerzMNHgbhVH7nqf
+        subject_person_id: p_Z8DtSBjAEoUzy8cxQNFS2x
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sVcDuMAtYkjArHqJ9B4mfg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pSXmGpX1IDqLVz7ykCdVsV
+          claim_id: c_jV_47cXerzMNHgbhVH7nqf
+          source_id: s_69Gh848koGViSF4f8SDaQj
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_sVcDuMAtYkjArHqJ9B4mfg
+        status: active
+        display_name: 王重章
+        merged_into_person_id: null
+    - claim:
+        id: c_anNFgiXu9722OSz6J4jere
+        subject_person_id: p_Z8DtSBjAEoUzy8cxQNFS2x
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LeLvPSSradJ4p43xnshWpg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_l8hbA7PcWTPIEldvkETYRA
+          claim_id: c_anNFgiXu9722OSz6J4jere
+          source_id: s_69Gh848koGViSF4f8SDaQj
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_LeLvPSSradJ4p43xnshWpg
+        status: active
+        display_name: 王重盈
+        merged_into_person_id: null
+    - claim:
+        id: c_IIDb0SzFIDbRZXKmAaXBpB
+        subject_person_id: p_Z8DtSBjAEoUzy8cxQNFS2x
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EfKko6jPFKQi6sfN7756JE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0BVGH9lzVP9zANes3dKQx2
+          claim_id: c_IIDb0SzFIDbRZXKmAaXBpB
+          source_id: s_69Gh848koGViSF4f8SDaQj
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_EfKko6jPFKQi6sfN7756JE
+        status: active
+        display_name: 王重益
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -229,8 +333,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_MmPzYffxoPPMYZRX3Lh3sE | 王載 | accepted |
 | children | p_8WSGHAfAoQ3TLEpo8p8wJU | 王重榮 | accepted |
 | children | p_A9HBUiPheNuZXSzS6uKNGM | 王重簡 | accepted |
+| children | p_sVcDuMAtYkjArHqJ9B4mfg | 王重章 | accepted |
+| children | p_LeLvPSSradJ4p43xnshWpg | 王重盈 | accepted |
+| children | p_EfKko6jPFKQi6sfN7756JE | 王重益 | accepted |
 
 ## 外部来源
 

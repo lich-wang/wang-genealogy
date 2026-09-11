@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王鈴
 cbdb_id: 203785
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_O_Q4_m6um0a929kLvhc8ig
+        subject_person_id: p_YosdMcUNtRPKhCPMJYVZTM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zCPZcY2xcN9dUGQk5upMkt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_g9VCqA4fFAzDDmXFJlJuH8
+          claim_id: c_O_Q4_m6um0a929kLvhc8ig
+          source_id: s_MBjgVG2cHUMNxTEp7ZMmcy
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第四十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MBjgVG2cHUMNxTEp7ZMmcy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王堂（CBDB 309977）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309977&o=json
+            external_identifier: CBDB:309977
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.836Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_YosdMcUNtRPKhCPMJYVZTM
+        status: active
+        display_name: 王堂
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,6 +266,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_YosdMcUNtRPKhCPMJYVZTM | 王堂 | accepted |
 | ancestors | p_Aw33K7k1W4Rsa8EDciuADn | 王秬 | accepted |
 | ancestors | p_uEcTfswie4QmwwYkcLQnJ5 | 王烜 | accepted |
 
@@ -236,4 +274,5 @@ relationships:
 
 - [中国历代人物传记资料库：王秬（CBDB 309975）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309975&o=json)
 - [中国历代人物传记资料库：王鈴（CBDB 203785）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203785&o=json)
+- [中国历代人物传记资料库：王堂（CBDB 309977）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309977&o=json)
 - [中国历代人物传记资料库：王烜（CBDB 309976）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309976&o=json)

@@ -4,7 +4,7 @@ id: p_Zm9kQvVJDN5XViFfJoHyzQ
 status: active
 merged_into: null
 display_name: 王銳
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -138,7 +138,44 @@ relationships:
         status: active
         display_name: 王景
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_iANTM5ks-PC_xDeOJhAdDN
+        subject_person_id: p_Zm9kQvVJDN5XViFfJoHyzQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zPA3i3KEXxiLMEnkBzskLE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CbAxsHFYCSluXe8URa8-pE
+          claim_id: c_iANTM5ks-PC_xDeOJhAdDN
+          source_id: s_HL7iKpp3eewHYQKu462iy9
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_HL7iKpp3eewHYQKu462iy9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昌庭（CBDB 169204）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169204&o=json
+            external_identifier: CBDB:169204
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.230Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_zPA3i3KEXxiLMEnkBzskLE
+        status: active
+        display_name: 王昌庭
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_CHMpjZ7ucQ6R7PCQoVg275 | 王景 | accepted |
+| children | p_zPA3i3KEXxiLMEnkBzskLE | 王昌庭 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王昌庭（CBDB 169204）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169204&o=json)
 - [中国历代人物传记资料库：王景（CBDB 170246）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=170246&o=json)
 - [中国历代人物传记资料库：王銳（CBDB 169764）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169764&o=json)

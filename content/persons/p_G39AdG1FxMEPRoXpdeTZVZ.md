@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王季初
 cbdb_id: 144839
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -285,6 +285,43 @@ relationships:
         status: active
         display_name: 王從矩
         merged_into_person_id: null
+    - claim:
+        id: c_ZT-gRgo99UQMkXCL4J9ATH
+        subject_person_id: p_G39AdG1FxMEPRoXpdeTZVZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yzDt1ovHeaDQuvCkVxdt7m
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DMhDuLHupgOiqg6YMZk6yd
+          claim_id: c_ZT-gRgo99UQMkXCL4J9ATH
+          source_id: s_MoidEFpKsGCeoSJUC9f3Y2
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MoidEFpKsGCeoSJUC9f3Y2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王從規（CBDB 192937）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=192937&o=json
+            external_identifier: CBDB:192937
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.288Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_yzDt1ovHeaDQuvCkVxdt7m
+        status: active
+        display_name: 王從規
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -313,9 +350,11 @@ relationships:
 | parents | p_kqE9ZvWD1jCkShvg3cHZoF | 王志堅 | accepted |
 | children | p_EBx53qbfk2kkPyNRNWrobg | 王從龜 | accepted |
 | children | p_rZaGfYVn2W5DNhw6wxBNsV | 王從矩 | accepted |
+| children | p_yzDt1ovHeaDQuvCkVxdt7m | 王從規 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王從規（CBDB 192937）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=192937&o=json)
 - [中国历代人物传记资料库：王從龜（CBDB 192938）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=192938&o=json)
 - [中国历代人物传记资料库：王從矩（CBDB 192939）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=192939&o=json)
 - [中国历代人物传记资料库：王季初（CBDB 144839）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=144839&o=json)

@@ -4,7 +4,7 @@ id: p_ZddQwxvEF3rtca58vszW28
 status: active
 merged_into: null
 display_name: 王僎
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_gQ6-dfhq_C2tHT7agg5AQI
+        subject_person_id: p_qoKRf6uJFFQkSbyeCVkof8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZddQwxvEF3rtca58vszW28
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4XQc2Bdzh_5a3caXzLHIse
+          claim_id: c_gQ6-dfhq_C2tHT7agg5AQI
+          source_id: s_sY6SrXRbpZu2w8EC9FzGwp
+          stance: supports
+          locator: 江西通志，Igid=1197811：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qoKRf6uJFFQkSbyeCVkof8
+        status: active
+        display_name: 王鳳
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qoKRf6uJFFQkSbyeCVkof8 | 王鳳 | accepted |
 
 ## 外部来源
 

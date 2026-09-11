@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王图炜
 cbdb_id: 69624
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -225,6 +225,43 @@ relationships:
         status: active
         display_name: 王兴吾
         merged_into_person_id: null
+    - claim:
+        id: c_EXlbToWooyOvEZcmFJ-3qI
+        subject_person_id: p_EP4PqN7524Z7izDZZrdxRb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zh22hgc9HcdTB4iT3BjRYN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gysQL5HDE4E6sCEX2Gxmgz
+          claim_id: c_EXlbToWooyOvEZcmFJ-3qI
+          source_id: s_MMQL1L7LkzNPv3C8NoVJX6
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #687, HuWenKai #734：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MMQL1L7LkzNPv3C8NoVJX6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王興吾（CBDB 69625）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69625&o=json
+            external_identifier: CBDB:69625
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.299Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_zh22hgc9HcdTB4iT3BjRYN
+        status: active
+        display_name: 王興吾
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -315,6 +352,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_CzTWpHL7Ygd6jZ5FnFr3gg | 王鸿绪 | accepted |
 | children | p_Up9d2jsG7MN3j1HmuzDtHo | 王兴吾 | accepted |
+| children | p_zh22hgc9HcdTB4iT3BjRYN | 王興吾 | accepted |
 | spouses | p_FGUECt8UEJVxrFA7xCMHw4 | 蒋季锡 | accepted |
 
 ## 外部来源
@@ -323,4 +361,5 @@ relationships:
 - [维基数据：王鸿绪（Q15913275）](https://www.wikidata.org/wiki/Q15913275)
 - [维基数据：王图炜（Q45676566）](https://www.wikidata.org/wiki/Q45676566)
 - [维基数据：王兴吾（Q15931809）](https://www.wikidata.org/wiki/Q15931809)
+- [中国历代人物传记资料库：王興吾（CBDB 69625）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69625&o=json)
 - [CBDB 中国历代人物传记资料库：王圖煒（69624）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69624&o=json)

@@ -4,7 +4,7 @@ id: p_zDqWGnkLPXbEcaV9HD6KiU
 status: active
 merged_into: null
 display_name: 王忠
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,59 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_UtvI_2pq9r5hyLL6j_aoOr
+        subject_person_id: p_zDqWGnkLPXbEcaV9HD6KiU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_G5CWBF7uCCTFxLBu21txfC
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JBcGhEaCZvJ1Gar61bmVqJ
+          claim_id: c_UtvI_2pq9r5hyLL6j_aoOr
+          source_id: s_tH8pVqSpGZXuZUCiFWdJkL
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第三甲第一百七十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_G5CWBF7uCCTFxLBu21txfC
+        status: active
+        display_name: 王萱
+        merged_into_person_id: null
+    - claim:
+        id: c_Ow58vbBxsLJzSNvOtEDP69
+        subject_person_id: p_zDqWGnkLPXbEcaV9HD6KiU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_aEsLhzJM2J5736Dvki9e9Z
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vCw7XFwQYPsnnHB4AgZ9G1
+          claim_id: c_Ow58vbBxsLJzSNvOtEDP69
+          source_id: s_tH8pVqSpGZXuZUCiFWdJkL
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第二甲第九十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_aEsLhzJM2J5736Dvki9e9Z
+        status: active
+        display_name: 王蓂
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_G5CWBF7uCCTFxLBu21txfC | 王萱 | accepted |
+| descendants | p_aEsLhzJM2J5736Dvki9e9Z | 王蓂 | accepted |
 
 ## 外部来源
 

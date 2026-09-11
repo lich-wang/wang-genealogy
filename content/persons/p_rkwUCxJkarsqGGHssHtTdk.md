@@ -4,7 +4,7 @@ id: p_rkwUCxJkarsqGGHssHtTdk
 status: active
 merged_into: null
 display_name: 王用賢
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_T8wmbOUKN8ZtFZR2JJkEfk
+        subject_person_id: p_YJmBrFyhvA7UtWupQ2PBwG
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_rkwUCxJkarsqGGHssHtTdk
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1QUpLtejYOoF76bhOs-mUi
+          claim_id: c_T8wmbOUKN8ZtFZR2JJkEfk
+          source_id: s_orYDrZc1EsGnFMPba6NSWA
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第五十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_orYDrZc1EsGnFMPba6NSWA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王偉（CBDB 313193）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313193&o=json
+            external_identifier: CBDB:313193
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.901Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_YJmBrFyhvA7UtWupQ2PBwG
+        status: active
+        display_name: 王偉
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_DFCRUSa4hCVBMPph3xEiW2 | 王瑤 | accepted |
+| ancestors | p_YJmBrFyhvA7UtWupQ2PBwG | 王偉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王偉（CBDB 313193）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313193&o=json)
 - [中国历代人物传记资料库：王瑤（CBDB 313196）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313196&o=json)
 - [中国历代人物传记资料库：王用賢（CBDB 204011）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204011&o=json)

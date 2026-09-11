@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王奉珍
 cbdb_id: 165211
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_AuC3KqX7RFBHf1-2_YBAxO
+        subject_person_id: p_2t2Hsz99a7Ud4ncfCN2zBF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YMs6JZkbstNyaB91cBTq8e
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K_pJ-I0CXNdRDwE5c-UGZm
+          claim_id: c_AuC3KqX7RFBHf1-2_YBAxO
+          source_id: s_DDxcxQL1ev4xkH9RkHws9x
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Dali18：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_DDxcxQL1ev4xkH9RkHws9x
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珍（CBDB 143099）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143099&o=json
+            external_identifier: CBDB:143099
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.614Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_YMs6JZkbstNyaB91cBTq8e
+        status: active
+        display_name: 王珍
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_YMs6JZkbstNyaB91cBTq8e | 王珍 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王奉珍（CBDB 165211）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=165211&o=json)
+- [中国历代人物传记资料库：王珍（CBDB 143099）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143099&o=json)

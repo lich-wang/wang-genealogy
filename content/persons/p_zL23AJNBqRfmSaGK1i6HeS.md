@@ -4,7 +4,7 @@ id: p_zL23AJNBqRfmSaGK1i6HeS
 status: active
 merged_into: null
 display_name: 王道純
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ZVp2yYQ_OMZ8s5RMNuiP2r
+        subject_person_id: p_d9sSRa7nAqK1TZDEdrGVU4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zL23AJNBqRfmSaGK1i6HeS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7yDZhC3eDlPgGXdUbyNb8W
+          claim_id: c_ZVp2yYQ_OMZ8s5RMNuiP2r
+          source_id: s_HxUG3ao6MYAQD55TtSZRKr
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第一百八十名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_d9sSRa7nAqK1TZDEdrGVU4
+        status: active
+        display_name: 王繼芳
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_d9sSRa7nAqK1TZDEdrGVU4 | 王繼芳 | accepted |
 
 ## 外部来源
 

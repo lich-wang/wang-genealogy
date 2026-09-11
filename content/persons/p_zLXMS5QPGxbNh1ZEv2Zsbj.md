@@ -4,7 +4,7 @@ id: p_zLXMS5QPGxbNh1ZEv2Zsbj
 status: active
 merged_into: null
 display_name: 王岐
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_d7yeFaG7ps34edHBxCOOPS
+        subject_person_id: p_qs5ZorGNagnPfgUNsGQXxe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zLXMS5QPGxbNh1ZEv2Zsbj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WPe9C2W0FMVLXoCBR8BLJ4
+          claim_id: c_d7yeFaG7ps34edHBxCOOPS
+          source_id: s_S41eJ8smHY6tvN1ApoD2zP
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Wenming 8：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qs5ZorGNagnPfgUNsGQXxe
+        status: active
+        display_name: 王子紹
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_nPTBWPZEmB8YRHwuCwe70c
+        subject_person_id: p_zLXMS5QPGxbNh1ZEv2Zsbj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AG61CyNYJr7wCdQNQcAkZ4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_penBsCrUdiIqU-rwGyfCyX
+          claim_id: c_nPTBWPZEmB8YRHwuCwe70c
+          source_id: s_S41eJ8smHY6tvN1ApoD2zP
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Wenming 8：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_AG61CyNYJr7wCdQNQcAkZ4
+        status: active
+        display_name: 王神祐
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qs5ZorGNagnPfgUNsGQXxe | 王子紹 | accepted |
+| children | p_AG61CyNYJr7wCdQNQcAkZ4 | 王神祐 | accepted |
 
 ## 外部来源
 

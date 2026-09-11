@@ -4,7 +4,7 @@ id: p_P9pk3GX9ak89DEB5HLBBuW
 status: active
 merged_into: null
 display_name: 王用
-revision: 11
+revision: 12
 properties:
   - predicate: name.primary
     recommended:
@@ -184,6 +184,43 @@ relationships:
         id: p_kss91KaUX2qsiS3UfcBtty
         status: active
         display_name: 王習
+        merged_into_person_id: null
+    - claim:
+        id: c_1XrF0rS-QBRXjJy97WaIjK
+        subject_person_id: p_P9pk3GX9ak89DEB5HLBBuW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zHYAkVdX4y5cAjrC4iFBG8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Pn-iP6-GKKHKi2azm7jLHc
+          claim_id: c_1XrF0rS-QBRXjJy97WaIjK
+          source_id: s_cpnsB8C2U4D5BpxZJ7iQAP
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，48：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_cpnsB8C2U4D5BpxZJ7iQAP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王重喜（CBDB 699447）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699447&o=json
+            external_identifier: CBDB:699447
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.762Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_zHYAkVdX4y5cAjrC4iFBG8
+        status: active
+        display_name: 王重喜
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
@@ -633,6 +670,7 @@ relationships:
 | children | p_6r5VwfkrP2qbqzP6hHoNQi | 王弁 | accepted |
 | children | p_FpqHn8pwLrMWfy1VHw9FJa | 王信 | accepted |
 | children | p_kss91KaUX2qsiS3UfcBtty | 王習 | accepted |
+| children | p_zHYAkVdX4y5cAjrC4iFBG8 | 王重喜 | accepted |
 | descendants | p_5MoCCJRcBFzHJznta14EJo | 王喜姑 | accepted |
 | descendants | p_AgH72LoZH5XqEbKoHmWF2B | 王羅兒 | accepted |
 | descendants | p_axq8URLSpJG5GjJ2ugi2TC | 王閏兒 | accepted |
@@ -662,3 +700,4 @@ relationships:
 - [中国历代人物传记资料库：王喜姑（CBDB 699463）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699463&o=json)
 - [中国历代人物传记资料库：王信（CBDB 699444）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699444&o=json)
 - [中国历代人物传记资料库：王用（CBDB 699431）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699431&o=json)
+- [中国历代人物传记资料库：王重喜（CBDB 699447）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699447&o=json)

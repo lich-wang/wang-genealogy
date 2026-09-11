@@ -4,7 +4,7 @@ id: p_YJmBrFyhvA7UtWupQ2PBwG
 status: active
 merged_into: null
 display_name: 王偉
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_T8wmbOUKN8ZtFZR2JJkEfk
+        subject_person_id: p_YJmBrFyhvA7UtWupQ2PBwG
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_rkwUCxJkarsqGGHssHtTdk
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1QUpLtejYOoF76bhOs-mUi
+          claim_id: c_T8wmbOUKN8ZtFZR2JJkEfk
+          source_id: s_orYDrZc1EsGnFMPba6NSWA
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第五十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rkwUCxJkarsqGGHssHtTdk
+        status: active
+        display_name: 王用賢
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_rkwUCxJkarsqGGHssHtTdk | 王用賢 | accepted |
 
 ## 外部来源
 

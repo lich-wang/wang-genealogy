@@ -4,7 +4,7 @@ id: p_yWVC23hzSUsYCD3NwnfPLE
 status: active
 merged_into: null
 display_name: 王瓊
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -115,7 +115,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_fcsCE8JM1KlRqED098E1Jx
+        subject_person_id: p_yWVC23hzSUsYCD3NwnfPLE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ZuFC93AY6BQ8RYk1LeSddc
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iRm4memnC_Wdi5B3BXVWly
+          claim_id: c_fcsCE8JM1KlRqED098E1Jx
+          source_id: s_9ksh2j1dVnHq3PR6CatNJJ
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dazhong 28：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ZuFC93AY6BQ8RYk1LeSddc
+        status: active
+        display_name: 王常散
+        merged_into_person_id: null
   other: []
 ---
 
@@ -135,6 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_158f7PNpeKDhP8PqDUi5rA | 王馴 | accepted |
+| descendants | p_ZuFC93AY6BQ8RYk1LeSddc | 王常散 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_kCdr4Vt3ng3vFN4WR6C2uB
 status: active
 merged_into: null
 display_name: 王尚志
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王志高
         merged_into_person_id: null
+    - claim:
+        id: c_4H5kuJB8spFCThTDtynlMH
+        subject_person_id: p_ZAALGmvA7VXjgxTSp3NT6Q
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_kCdr4Vt3ng3vFN4WR6C2uB
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2sJyhU4JRIa_Qx2qZuJH9_
+          claim_id: c_4H5kuJB8spFCThTDtynlMH
+          source_id: s_SHTgHQoKvBrhZ5yqgifaFq
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第二甲第一百一十三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_SHTgHQoKvBrhZ5yqgifaFq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王讓（CBDB 280588）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280588&o=json
+            external_identifier: CBDB:280588
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.015Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ZAALGmvA7VXjgxTSp3NT6Q
+        status: active
+        display_name: 王讓
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_dH2xuW5Lt7eGA9nJNsvby5 | 王浩 | accepted |
 | ancestors | p_P55JoyvrtsfzbA6X9e4b8E | 王志高 | accepted |
+| ancestors | p_ZAALGmvA7VXjgxTSp3NT6Q | 王讓 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王浩（CBDB 280589）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280589&o=json)
+- [中国历代人物传记资料库：王讓（CBDB 280588）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280588&o=json)
 - [中国历代人物传记资料库：王尚志（CBDB 201927）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201927&o=json)
 - [中国历代人物传记资料库：王志高（CBDB 280587）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280587&o=json)

@@ -4,7 +4,7 @@ id: p_ZpcYCX21cFGgpj8DaWwV25
 status: active
 merged_into: null
 display_name: 王寮
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_sL2GPhHX-T3kcFy7Bm7wJ1
+        subject_person_id: p_Lc5T8QMpPxQWjzxvt1ckat
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZpcYCX21cFGgpj8DaWwV25
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MllF5SiogRLZKJ979MMgca
+          claim_id: c_sL2GPhHX-T3kcFy7Bm7wJ1
+          source_id: s_MdDQQmnCKToUBLnDYzvFf7
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Lc5T8QMpPxQWjzxvt1ckat
+        status: active
+        display_name: 王全義
+        merged_into_person_id: null
   children:
     - claim:
         id: c_nze038Am_SaeW3AZJ5xsh7
@@ -200,6 +226,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Lc5T8QMpPxQWjzxvt1ckat | 王全義 | accepted |
 | children | p_4gNLMaQqWEd6Tcr2zT2brF | 王處直 | accepted |
 | children | p_wj2Tjigw2Pn6N4Z7KuUvkh | 王處存 | accepted |
 

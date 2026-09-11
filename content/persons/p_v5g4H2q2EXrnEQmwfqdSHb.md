@@ -4,7 +4,7 @@ id: p_v5g4H2q2EXrnEQmwfqdSHb
 status: active
 merged_into: null
 display_name: 王溥
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_RISMi0ryut8pyhMGt84YmQ
+        subject_person_id: p_YJESKH2yrBjEwkYMGE9k5E
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_v5g4H2q2EXrnEQmwfqdSHb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EvMsr_ZSEfK6Q3eIWQLKcA
+          claim_id: c_RISMi0ryut8pyhMGt84YmQ
+          source_id: s_SY4M5FbD5PFCMcQFkwBwSB
+          stance: supports
+          locator: 成化五年進士登科錄:一卷，第三甲第六十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_SY4M5FbD5PFCMcQFkwBwSB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王儼（CBDB 244046）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244046&o=json
+            external_identifier: CBDB:244046
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.013Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_YJESKH2yrBjEwkYMGE9k5E
+        status: active
+        display_name: 王儼
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +237,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_YJESKH2yrBjEwkYMGE9k5E | 王儼 | accepted |
 | ancestors | p_3kCgZeVuvZ2BjS2o8M9UxN | 王得 | accepted |
 | ancestors | p_CFLpQQL17SYgNweKhJU81Z | 王賢 | accepted |
 
@@ -208,3 +246,4 @@ relationships:
 - [中国历代人物传记资料库：王得（CBDB 244044）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244044&o=json)
 - [中国历代人物传记资料库：王溥（CBDB 199368）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199368&o=json)
 - [中国历代人物传记资料库：王賢（CBDB 244045）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244045&o=json)
+- [中国历代人物传记资料库：王儼（CBDB 244046）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244046&o=json)

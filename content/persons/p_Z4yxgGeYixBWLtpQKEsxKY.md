@@ -4,7 +4,7 @@ id: p_Z4yxgGeYixBWLtpQKEsxKY
 status: active
 merged_into: null
 display_name: 王嵱
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_QBCNdHBJpMmi0tdxkQbW5O
+        subject_person_id: p_Z4yxgGeYixBWLtpQKEsxKY
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ahJ97i6Ls8wgTe2hMc2p2s
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V-Z3tF2risAy3jp-QcIZIR
+          claim_id: c_QBCNdHBJpMmi0tdxkQbW5O
+          source_id: s_1YsCT82H4oN38pvYT4JGtQ
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第二甲第五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ahJ97i6Ls8wgTe2hMc2p2s
+        status: active
+        display_name: 王荁
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_ahJ97i6Ls8wgTe2hMc2p2s | 王荁 | accepted |
 
 ## 外部来源
 

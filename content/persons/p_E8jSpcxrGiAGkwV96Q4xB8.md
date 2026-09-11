@@ -4,7 +4,7 @@ id: p_E8jSpcxrGiAGkwV96Q4xB8
 status: active
 merged_into: null
 display_name: 王晃
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -213,6 +213,43 @@ relationships:
         status: active
         display_name: 王涯
         merged_into_person_id: null
+    - claim:
+        id: c_jYinaxyIsgn7hqOpTZVDvD
+        subject_person_id: p_E8jSpcxrGiAGkwV96Q4xB8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZkYoN1dEFKVMSeB2QhFYgD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_27TrOwbwGtHaRxlkXOYybB
+          claim_id: c_jYinaxyIsgn7hqOpTZVDvD
+          source_id: s_ovKPUoWSN7YxgDQBKss2dJ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ovKPUoWSN7YxgDQBKss2dJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王潔（CBDB 175892）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175892&o=json
+            external_identifier: CBDB:175892
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.183Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ZkYoN1dEFKVMSeB2QhFYgD
+        status: active
+        display_name: 王潔
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -240,10 +277,12 @@ relationships:
 | parents | p_aT36ZKtHXC6aAaFGz8ZxGj | 王祚 | accepted |
 | children | p_9SUuW2WkQibUPJTWf3Qh46 | 王沼 | accepted |
 | children | p_vbEaTwSyS6JEzGzTU5DQPA | 王涯 | accepted |
+| children | p_ZkYoN1dEFKVMSeB2QhFYgD | 王潔 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王晃（CBDB 175890）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175890&o=json)
+- [中国历代人物传记资料库：王潔（CBDB 175892）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175892&o=json)
 - [中国历代人物传记资料库：王涯（CBDB 92079）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92079&o=json)
 - [中国历代人物传记资料库：王沼（CBDB 175891）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175891&o=json)
 - [中国历代人物传记资料库：王祚（CBDB 175889）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175889&o=json)

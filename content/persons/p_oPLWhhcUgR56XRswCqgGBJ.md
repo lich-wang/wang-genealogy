@@ -4,7 +4,7 @@ id: p_oPLWhhcUgR56XRswCqgGBJ
 status: active
 merged_into: null
 display_name: 王能
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王理
         merged_into_person_id: null
+    - claim:
+        id: c_TSqCGNjyz1ZYq-J3v-Bmk7
+        subject_person_id: p_z9zrHS6xQYVwj1veje1wNo
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_oPLWhhcUgR56XRswCqgGBJ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nc6Hqttd31nrOtN-ogPnXJ
+          claim_id: c_TSqCGNjyz1ZYq-J3v-Bmk7
+          source_id: s_jChxC7iLeVHD3gYMmtWKq7
+          stance: supports
+          locator: 建文二年殿試登科錄:一卷，第三甲第十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_jChxC7iLeVHD3gYMmtWKq7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王端（CBDB 254316）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254316&o=json
+            external_identifier: CBDB:254316
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.319Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_z9zrHS6xQYVwj1veje1wNo
+        status: active
+        display_name: 王端
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_pFSA3Pi5dHh2f8sJZouAuT | 王士廉 | accepted |
 | ancestors | p_Do7yvMxu341adYXrmYsZDL | 王理 | accepted |
+| ancestors | p_z9zrHS6xQYVwj1veje1wNo | 王端 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王端（CBDB 254316）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254316&o=json)
 - [中国历代人物传记资料库：王理（CBDB 254315）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254315&o=json)
 - [中国历代人物传记资料库：王能（CBDB 200150）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200150&o=json)
 - [中国历代人物传记资料库：王士廉（CBDB 254317）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254317&o=json)

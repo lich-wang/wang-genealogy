@@ -4,7 +4,7 @@ id: p_zCUW578u3AU8q1fSG3rKQE
 status: active
 merged_into: null
 display_name: 王義
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_gcBf36JDqbD5xQARb535S3
+        subject_person_id: p_zCUW578u3AU8q1fSG3rKQE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qCF2nAdW3AwQM2sNjTW55F
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_H3a717g-6q2xvR7rVBrnDW
+          claim_id: c_gcBf36JDqbD5xQARb535S3
+          source_id: s_82GoUJz494a1CW8RcbyKfi
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第二甲第三十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qCF2nAdW3AwQM2sNjTW55F
+        status: active
+        display_name: 王獻圖
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_qCF2nAdW3AwQM2sNjTW55F | 王獻圖 | accepted |
 
 ## 外部来源
 

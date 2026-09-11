@@ -4,7 +4,7 @@ id: p_vc9c3mkQxRy6aUfxzv3hqq
 status: active
 merged_into: null
 display_name: 王三接
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_1r5oFFfN8a-CJKNt4J7AIv
+        subject_person_id: p_YieZ1UoCG2GNbpNMx4NkYV
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_vc9c3mkQxRy6aUfxzv3hqq
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_f9QKIpyHsytyX_fkl7kQPZ
+          claim_id: c_1r5oFFfN8a-CJKNt4J7AIv
+          source_id: s_C2MDbT2xF1TYpzv9bs6Nq8
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第一百八十三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_C2MDbT2xF1TYpzv9bs6Nq8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王俊（CBDB 311388）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311388&o=json
+            external_identifier: CBDB:311388
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.858Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_YieZ1UoCG2GNbpNMx4NkYV
+        status: active
+        display_name: 王俊
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_qsqNNxC6SQb2oA7yPxzojc | 王相 | accepted |
+| ancestors | p_YieZ1UoCG2GNbpNMx4NkYV | 王俊 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王俊（CBDB 311388）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311388&o=json)
 - [中国历代人物传记资料库：王三接（CBDB 203882）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203882&o=json)
 - [中国历代人物传记资料库：王相（CBDB 311389）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311389&o=json)

@@ -4,7 +4,7 @@ id: p_YoDjUd1XQ5XAGLu3C54M9C
 status: active
 merged_into: null
 display_name: 王翽
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c__I1NF1ffBJzvTNKYGVJtzB
+        subject_person_id: p_WFK8nCcWWajLsezEo17Vyb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YoDjUd1XQ5XAGLu3C54M9C
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5Lz75E0T37UCSVM-jJb0QW
+          claim_id: c__I1NF1ffBJzvTNKYGVJtzB
+          source_id: s_5DsRnj1SB6hLGU38ofQY9a
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WFK8nCcWWajLsezEo17Vyb
+        status: active
+        display_name: 王光謙
+        merged_into_person_id: null
   children:
     - claim:
         id: c_YdWwz9JQkyMdoFt13u-1__
@@ -163,6 +189,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WFK8nCcWWajLsezEo17Vyb | 王光謙 | accepted |
 | children | p_PjzXh9MRpdHs5qZ3d1XoVt | 王鼎 | accepted |
 
 ## 外部来源

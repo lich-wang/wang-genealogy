@@ -4,7 +4,7 @@ id: p_Lurfy4QMHhzD8PMMpjSfCa
 status: active
 merged_into: null
 display_name: 王宗會
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Qrxt9EarVj29lpEEobGpsD
+        subject_person_id: p_ZPFLk4wbXyzPE5F5zCLZaL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Lurfy4QMHhzD8PMMpjSfCa
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_77EPp49RSnoFMo__mLp5Rb
+          claim_id: c_Qrxt9EarVj29lpEEobGpsD
+          source_id: s_vTVSbWUBwEMFVypTmGHdWd
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第一百二十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_vTVSbWUBwEMFVypTmGHdWd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王綱（CBDB 317279）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317279&o=json
+            external_identifier: CBDB:317279
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.971Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ZPFLk4wbXyzPE5F5zCLZaL
+        status: active
+        display_name: 王綱
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +237,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ZPFLk4wbXyzPE5F5zCLZaL | 王綱 | accepted |
 | ancestors | p_5p9v79QfKWB44J7p15t9Pi | 王惠 | accepted |
 | ancestors | p_LFu2y755pp4NNJLFkoYcBx | 王寶 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王寶（CBDB 317278）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317278&o=json)
+- [中国历代人物传记资料库：王綱（CBDB 317279）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317279&o=json)
 - [中国历代人物传记资料库：王惠（CBDB 317277）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317277&o=json)
 - [中国历代人物传记资料库：王宗會（CBDB 204306）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204306&o=json)

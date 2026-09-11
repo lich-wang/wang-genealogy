@@ -4,7 +4,7 @@ id: p_ynLQA17DH2FfsbqP1uFf63
 status: active
 merged_into: null
 display_name: 王祥
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Tk-c-kBfLoj3TOclFvNRZ0
+        subject_person_id: p_ynLQA17DH2FfsbqP1uFf63
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_kJMVeQvjhmn2GKoEDEQfZk
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J_EmOADTTlU0_Q7pDg3Jq5
+          claim_id: c_Tk-c-kBfLoj3TOclFvNRZ0
+          source_id: s_Ke26C4R11YUHQfNSiKZ5Co
+          stance: supports
+          locator: 嘉靖三十五年進士登科錄:一卷，第三甲第六十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_kJMVeQvjhmn2GKoEDEQfZk
+        status: active
+        display_name: 王用中
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_kJMVeQvjhmn2GKoEDEQfZk | 王用中 | accepted |
 
 ## 外部来源
 

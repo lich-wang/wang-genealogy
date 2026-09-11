@@ -4,7 +4,7 @@ id: p_zHYAkVdX4y5cAjrC4iFBG8
 status: active
 merged_into: null
 display_name: 王重喜
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_1XrF0rS-QBRXjJy97WaIjK
+        subject_person_id: p_P9pk3GX9ak89DEB5HLBBuW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zHYAkVdX4y5cAjrC4iFBG8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Pn-iP6-GKKHKi2azm7jLHc
+          claim_id: c_1XrF0rS-QBRXjJy97WaIjK
+          source_id: s_cpnsB8C2U4D5BpxZJ7iQAP
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，48：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_P9pk3GX9ak89DEB5HLBBuW
+        status: active
+        display_name: 王用
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_P9pk3GX9ak89DEB5HLBBuW | 王用 | accepted |
 
 ## 外部来源
 

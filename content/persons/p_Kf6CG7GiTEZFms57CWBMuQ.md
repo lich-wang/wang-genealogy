@@ -4,7 +4,7 @@ id: p_Kf6CG7GiTEZFms57CWBMuQ
 status: active
 merged_into: null
 display_name: 王錫爵
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -208,6 +208,43 @@ relationships:
         status: active
         display_name: 王侁
         merged_into_person_id: null
+    - claim:
+        id: c_459bPKWXnq6yo2u78gtpu2
+        subject_person_id: p_yibDDKEL9F49hG8w8GSgnB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Kf6CG7GiTEZFms57CWBMuQ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5Bc_4_XZaqQ3_76RFNoe0u
+          claim_id: c_459bPKWXnq6yo2u78gtpu2
+          source_id: s_v7HVu2EXUMD7Ve6CrqgGZ9
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第一甲第二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_v7HVu2EXUMD7Ve6CrqgGZ9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王湧（CBDB 326162）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326162&o=json
+            external_identifier: CBDB:326162
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.209Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_yibDDKEL9F49hG8w8GSgnB
+        status: active
+        display_name: 王湧
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_ZhjdfdZOJxmhLMaMH1wcKy
@@ -268,6 +305,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_y3wPwGRVQu8zpSRFXXRDEb | 王夢祥 | accepted |
 | ancestors | p_bFMsDnYZwCi9GhoLahN7Ae | 王侁 | accepted |
+| ancestors | p_yibDDKEL9F49hG8w8GSgnB | 王湧 | accepted |
 | descendants | p_HWF5mXUhrhbQxoWV5rhmVR | 王時敏 | accepted |
 
 ## 外部来源
@@ -276,3 +314,4 @@ relationships:
 - [中国历代人物传记资料库：王侁（CBDB 326161）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326161&o=json)
 - [中国历代人物传记资料库：王時敏（CBDB 55432）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55432&o=json)
 - [中国历代人物传记资料库：王錫爵（CBDB 123984）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123984&o=json)
+- [中国历代人物传记资料库：王湧（CBDB 326162）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326162&o=json)

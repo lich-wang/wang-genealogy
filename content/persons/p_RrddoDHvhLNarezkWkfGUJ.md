@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王珤
 cbdb_id: 279738
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -207,7 +207,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_H4zDQMErqQtQrRh9GESaRo
+        subject_person_id: p_RrddoDHvhLNarezkWkfGUJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_zAiQVyNzoej4Q1vwE84ZjB
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_U8Lb85mZAPC7KpBnrI9_Ph
+          claim_id: c_H4zDQMErqQtQrRh9GESaRo
+          source_id: s_zo7nrDWhznM6UPg2n7eSAd
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第二甲第三十五名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_zo7nrDWhznM6UPg2n7eSAd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王漸逵（CBDB 126774）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126774&o=json
+            external_identifier: CBDB:126774
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.193Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_zAiQVyNzoej4Q1vwE84ZjB
+        status: active
+        display_name: 王漸逵
+        merged_into_person_id: null
   other: []
 ---
 
@@ -228,10 +265,12 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_C5E5FRAAqgq5bUt3aJdU9J | 王茕立 | accepted |
 | children | p_83yzu33D3zG1xGPeEb9Ebe | 王傅 | accepted |
+| descendants | p_zAiQVyNzoej4Q1vwE84ZjB | 王漸逵 | accepted |
 
 ## 外部来源
 
 - [维基数据：王珤（Q45537229）](https://www.wikidata.org/wiki/Q45537229)
 - [维基数据：王傅（Q45537293）](https://www.wikidata.org/wiki/Q45537293)
 - [维基数据：王茕立（Q45537167）](https://www.wikidata.org/wiki/Q45537167)
+- [中国历代人物传记资料库：王漸逵（CBDB 126774）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126774&o=json)
 - [CBDB 中国历代人物传记资料库：王珤（279738）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279738&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王顯仁
 cbdb_id: 206702
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Sxb76yu8h8oW7scHZ_lnie
+        subject_person_id: p_yzyPEUAYsfL49q52tBj1kq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_88N8F7QC67BDANQ41w4EaZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZQ5zGod9E3ojBXLlOC954U
+          claim_id: c_Sxb76yu8h8oW7scHZ_lnie
+          source_id: s_1SGhdNvrpL4cDvNZ7h9REZ
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第二百一十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1SGhdNvrpL4cDvNZ7h9REZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用中（CBDB 221766）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221766&o=json
+            external_identifier: CBDB:221766
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.338Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_yzyPEUAYsfL49q52tBj1kq
+        status: active
+        display_name: 王用中
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,6 +266,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_yzyPEUAYsfL49q52tBj1kq | 王用中 | accepted |
 | ancestors | p_6WVCyPZFzYK7Wi3KQchdvh | 王紳 | accepted |
 | ancestors | p_se1Gd4Gcj3NrcKJzT2JdPb | 王國寧 | accepted |
 
@@ -237,3 +275,4 @@ relationships:
 - [中国历代人物传记资料库：王國寧（CBDB 221764）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221764&o=json)
 - [中国历代人物传记资料库：王紳（CBDB 221765）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221765&o=json)
 - [中国历代人物传记资料库：王顯仁（CBDB 206702）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206702&o=json)
+- [中国历代人物传记资料库：王用中（CBDB 221766）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221766&o=json)

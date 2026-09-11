@@ -4,7 +4,7 @@ id: p_kJMVeQvjhmn2GKoEDEQfZk
 status: active
 merged_into: null
 display_name: 王用中
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王達
         merged_into_person_id: null
+    - claim:
+        id: c_Tk-c-kBfLoj3TOclFvNRZ0
+        subject_person_id: p_ynLQA17DH2FfsbqP1uFf63
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_kJMVeQvjhmn2GKoEDEQfZk
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J_EmOADTTlU0_Q7pDg3Jq5
+          claim_id: c_Tk-c-kBfLoj3TOclFvNRZ0
+          source_id: s_Ke26C4R11YUHQfNSiKZ5Co
+          stance: supports
+          locator: 嘉靖三十五年進士登科錄:一卷，第三甲第六十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Ke26C4R11YUHQfNSiKZ5Co
+            source_type: api_record
+            title: 中国历代人物传记资料库：王祥（CBDB 320669）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320669&o=json
+            external_identifier: CBDB:320669
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.065Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ynLQA17DH2FfsbqP1uFf63
+        status: active
+        display_name: 王祥
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_7vykPE7zRJ5ERMERNaXtrP | 王尚德 | accepted |
 | ancestors | p_sKaKetRJJBRDoiu3diCVGh | 王達 | accepted |
+| ancestors | p_ynLQA17DH2FfsbqP1uFf63 | 王祥 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王達（CBDB 320670）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320670&o=json)
 - [中国历代人物传记资料库：王尚德（CBDB 320671）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320671&o=json)
+- [中国历代人物传记资料库：王祥（CBDB 320669）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320669&o=json)
 - [中国历代人物传记资料库：王用中（CBDB 204549）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204549&o=json)

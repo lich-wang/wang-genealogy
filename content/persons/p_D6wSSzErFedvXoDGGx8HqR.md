@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王士琦
 cbdb_id: 35067
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -364,7 +364,44 @@ relationships:
         status: active
         display_name: 邓氏
         merged_into_person_id: null
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_o0gnoQFbIUqeuoEUztJK2N
+        subject_person_id: p_z3cDLC3QR4mmvqHtCQ8jY3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_D6wSSzErFedvXoDGGx8HqR
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gwldlecFmZgja8dla5evxQ
+          claim_id: c_o0gnoQFbIUqeuoEUztJK2N
+          source_id: s_AgNGQmoM7waUHAeudQjo6g
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第二甲第三十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_AgNGQmoM7waUHAeudQjo6g
+            source_type: api_record
+            title: 中国历代人物传记资料库：王訓（CBDB 222403）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222403&o=json
+            external_identifier: CBDB:222403
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.379Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_z3cDLC3QR4mmvqHtCQ8jY3
+        status: active
+        display_name: 王訓
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -389,12 +426,14 @@ relationships:
 | parents | p_JGPNTCh2uLQxj9gSB18kcX | 王宗沐 | accepted |
 | children | p_SWfQfCDCKhLf9P4kgMuHQS | 王立程 | accepted |
 | spouses | p_HxBizE9NWB7384sKGrZFR3 | 邓氏 | accepted |
+| ancestors | p_z3cDLC3QR4mmvqHtCQ8jY3 | 王訓 | accepted |
 
 ## 外部来源
 
 - [维基数据：邓氏（Q65825631）](https://www.wikidata.org/wiki/Q65825631)
 - [维基数据：王士琦（Q18235078）](https://www.wikidata.org/wiki/Q18235078)
 - [维基数据：王宗沐（Q15916933）](https://www.wikidata.org/wiki/Q15916933)
+- [中国历代人物传记资料库：王訓（CBDB 222403）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222403&o=json)
 - [中国历代人物传记资料库：王宗沐（CBDB 222405）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222405&o=json)
 - [中文维基百科：王士琦](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E7%90%A6)
 - [CBDB 中国历代人物传记资料库：王士琦（35067）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35067&o=json)

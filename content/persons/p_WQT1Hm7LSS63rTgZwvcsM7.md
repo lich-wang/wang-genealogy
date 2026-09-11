@@ -4,7 +4,7 @@ id: p_WQT1Hm7LSS63rTgZwvcsM7
 status: active
 merged_into: null
 display_name: 王希堯
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王允
         merged_into_person_id: null
+    - claim:
+        id: c_DwW7OB_IKHwvC1Qt5P6qUk
+        subject_person_id: p_zGe2fA1bCJMQ5BpMf3A16W
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_WQT1Hm7LSS63rTgZwvcsM7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Gk5FUYkQ_A6NvHK4AypFOv
+          claim_id: c_DwW7OB_IKHwvC1Qt5P6qUk
+          source_id: s_jPfc8aAhADg43CjH3Aqv8A
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第三十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_jPfc8aAhADg43CjH3Aqv8A
+            source_type: api_record
+            title: 中国历代人物传记资料库：王懷（CBDB 312972）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312972&o=json
+            external_identifier: CBDB:312972
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.891Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_zGe2fA1bCJMQ5BpMf3A16W
+        status: active
+        display_name: 王懷
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_Fn3VWmbwHWaLfGAks8JyJ5 | 王守正 | accepted |
 | ancestors | p_KmKGx7ZFKHs8bgbFhiSKKD | 王允 | accepted |
+| ancestors | p_zGe2fA1bCJMQ5BpMf3A16W | 王懷 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王懷（CBDB 312972）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312972&o=json)
 - [中国历代人物传记资料库：王守正（CBDB 312974）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312974&o=json)
 - [中国历代人物传记资料库：王希堯（CBDB 203993）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203993&o=json)
 - [中国历代人物传记资料库：王允（CBDB 312971）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312971&o=json)

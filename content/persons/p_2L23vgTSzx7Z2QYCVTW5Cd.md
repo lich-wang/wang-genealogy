@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仁福
 cbdb_id: 69082
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,7 +172,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_cZXiKEEJQbkaysEzuP9SDd
+        subject_person_id: p_yxMiqhZhiEEmDRjCALcVBW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2L23vgTSzx7Z2QYCVTW5Cd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E471CU9stKDTv9D1i-cREv
+          claim_id: c_cZXiKEEJQbkaysEzuP9SDd
+          source_id: s_m7RLrKBZ9jNnyYFn3iuJA8
+          stance: supports
+          locator: 蘇州府志，lgid=169754：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_m7RLrKBZ9jNnyYFn3iuJA8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王熙文（CBDB 693686）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=693686&o=json
+            external_identifier: CBDB:693686
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.661Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_yxMiqhZhiEEmDRjCALcVBW
+        status: active
+        display_name: 王熙文
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -199,7 +236,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_yxMiqhZhiEEmDRjCALcVBW | 王熙文 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王仁福（CBDB 69082）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69082&o=json)
+- [中国历代人物传记资料库：王熙文（CBDB 693686）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=693686&o=json)

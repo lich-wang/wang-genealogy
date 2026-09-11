@@ -4,7 +4,7 @@ id: p_MmPzYffxoPPMYZRX3Lh3sE
 status: active
 merged_into: null
 display_name: 王載
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -138,7 +138,44 @@ relationships:
         status: active
         display_name: 王勖
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_kYiZdwD3jX0dDskZqvSrpB
+        subject_person_id: p_MmPzYffxoPPMYZRX3Lh3sE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Z8DtSBjAEoUzy8cxQNFS2x
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8hF-1V6mNl7S3JxKsJ5awS
+          claim_id: c_kYiZdwD3jX0dDskZqvSrpB
+          source_id: s_69Gh848koGViSF4f8SDaQj
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_69Gh848koGViSF4f8SDaQj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王縱（CBDB 144879）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=144879&o=json
+            external_identifier: CBDB:144879
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.637Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Z8DtSBjAEoUzy8cxQNFS2x
+        status: active
+        display_name: 王縱
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_8oQVSHmAb3D8KVUPEpFLbQ | 王勖 | accepted |
+| children | p_Z8DtSBjAEoUzy8cxQNFS2x | 王縱 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王勖（CBDB 169733）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169733&o=json)
 - [中国历代人物传记资料库：王載（CBDB 169179）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169179&o=json)
+- [中国历代人物传记资料库：王縱（CBDB 144879）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=144879&o=json)

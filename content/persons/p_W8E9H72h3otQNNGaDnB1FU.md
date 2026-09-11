@@ -4,7 +4,7 @@ id: p_W8E9H72h3otQNNGaDnB1FU
 status: active
 merged_into: null
 display_name: 王景之
-revision: 6
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -355,7 +355,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_M2pno7GR2DkoVVyFkj_kT9
+        subject_person_id: p_zM5WDm525JzQAvPK8M51wr
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_W8E9H72h3otQNNGaDnB1FU
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SgqQnXsk67lFIcg0n4um6-
+          claim_id: c_M2pno7GR2DkoVVyFkj_kT9
+          source_id: s_gDsgyPjZsBmhHT9tEbbM7K
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Jinglong 28：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_gDsgyPjZsBmhHT9tEbbM7K
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敏（CBDB 150813）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150813&o=json
+            external_identifier: CBDB:150813
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.823Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_zM5WDm525JzQAvPK8M51wr
+        status: active
+        display_name: 王敏
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -383,12 +420,14 @@ relationships:
 | children | p_p9mzdy1irhE4XfhGMPnKSu | 王愔 | accepted |
 | children | p_rE9nJB28ro8YEGQnteMhEe | 王恆 | accepted |
 | children | p_RhL5jLMV7rLQgzTsbZAmem | 王怡 | accepted |
+| ancestors | p_zM5WDm525JzQAvPK8M51wr | 王敏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王恆（CBDB 150815）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150815&o=json)
 - [中国历代人物传记资料库：王褘（CBDB 150817）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150817&o=json)
 - [中国历代人物传记资料库：王景之（CBDB 140255）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140255&o=json)
+- [中国历代人物传记资料库：王敏（CBDB 150813）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150813&o=json)
 - [中国历代人物传记资料库：王韋（CBDB 142621）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142621&o=json)
 - [中国历代人物传记资料库：王怡（CBDB 150814）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150814&o=json)
 - [中国历代人物传记资料库：王懌（CBDB 150816）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150816&o=json)

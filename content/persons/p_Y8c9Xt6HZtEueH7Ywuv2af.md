@@ -4,7 +4,7 @@ id: p_Y8c9Xt6HZtEueH7Ywuv2af
 status: active
 merged_into: null
 display_name: 王啟
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -152,6 +152,43 @@ relationships:
         status: active
         display_name: 王欽
         merged_into_person_id: null
+    - claim:
+        id: c_BFgFaxrvXymJwmAJsKP3Y4
+        subject_person_id: p_ZJZEU2o6fnLhGTubodr83m
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Y8c9Xt6HZtEueH7Ywuv2af
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SbyjYJ0pLe1z1CSV_dVHw_
+          claim_id: c_BFgFaxrvXymJwmAJsKP3Y4
+          source_id: s_XuJm4dnGVC1eqrJ3fu3gFL
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第一百六十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_XuJm4dnGVC1eqrJ3fu3gFL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璉（CBDB 260162）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260162&o=json
+            external_identifier: CBDB:260162
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.483Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ZJZEU2o6fnLhGTubodr83m
+        status: active
+        display_name: 王璉
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -173,9 +210,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_bGA9f5CTCFCRJmcWcUEGyG | 王本 | accepted |
 | ancestors | p_HPbqm6VJ9TFK5Zur8BEF7g | 王欽 | accepted |
+| ancestors | p_ZJZEU2o6fnLhGTubodr83m | 王璉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王本（CBDB 260164）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260164&o=json)
+- [中国历代人物传记资料库：王璉（CBDB 260162）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260162&o=json)
 - [中国历代人物传记资料库：王啟（CBDB 126669）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126669&o=json)
 - [中国历代人物传记资料库：王欽（CBDB 260163）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260163&o=json)

@@ -4,7 +4,7 @@ id: p_8FE6kbWmNCoQTRuebayd8Y
 status: active
 merged_into: null
 display_name: 王元賓
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_x4NFrRUemdBQa-7MxHmJvG
+        subject_person_id: p_ZgyZoznnAJrPag6d8FS83S
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8FE6kbWmNCoQTRuebayd8Y
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pYyDajENDy1dF3e8jTTE6c
+          claim_id: c_x4NFrRUemdBQa-7MxHmJvG
+          source_id: s_pt8As57WMxXZiWgRwLRxXL
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第三甲第一百二十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_pt8As57WMxXZiWgRwLRxXL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王天敘（CBDB 331575）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331575&o=json
+            external_identifier: CBDB:331575
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.369Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ZgyZoznnAJrPag6d8FS83S
+        status: active
+        display_name: 王天敘
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +237,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ZgyZoznnAJrPag6d8FS83S | 王天敘 | accepted |
 | ancestors | p_1wWHhQNZgJfD93CSbaMxHB | 王峻 | accepted |
 | ancestors | p_gUUJKQGSX2LfpBpTeYDNpT | 王美 | accepted |
 
@@ -207,4 +245,5 @@ relationships:
 
 - [中国历代人物传记资料库：王峻（CBDB 331573）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331573&o=json)
 - [中国历代人物传记资料库：王美（CBDB 331574）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331574&o=json)
+- [中国历代人物传记资料库：王天敘（CBDB 331575）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331575&o=json)
 - [中国历代人物传记资料库：王元賓（CBDB 205321）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205321&o=json)

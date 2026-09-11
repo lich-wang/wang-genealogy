@@ -4,7 +4,7 @@ id: p_z2q5T7PxdSDGTYFAvqTB9t
 status: active
 merged_into: null
 display_name: 王思
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -115,7 +115,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_OU3rD-lUqJWR2Ybg9IhUPL
+        subject_person_id: p_z2q5T7PxdSDGTYFAvqTB9t
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_RYAhUs1ATN2FqSqLmBj15y
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nVx2QcGftCkymyBU3UKc5x
+          claim_id: c_OU3rD-lUqJWR2Ybg9IhUPL
+          source_id: s_6ya7D9vRH6LcvjzEtK9GAe
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yuanhe 60：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RYAhUs1ATN2FqSqLmBj15y
+        status: active
+        display_name: 王叔原
+        merged_into_person_id: null
   other: []
 ---
 
@@ -135,6 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_eRGyGdFvPg7HFBQPrRQewg | 王翫 | accepted |
+| descendants | p_RYAhUs1ATN2FqSqLmBj15y | 王叔原 | accepted |
 
 ## 外部来源
 

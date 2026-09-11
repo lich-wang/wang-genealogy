@@ -4,7 +4,7 @@ id: p_ABKTQQtBYcaiLNDKfsdoKa
 status: active
 merged_into: null
 display_name: 王夢良
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_xtb7YXZxRbTiDI3sedastV
+        subject_person_id: p_zBPnKLJ7X5PK7k5VM18Wfg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ABKTQQtBYcaiLNDKfsdoKa
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ybGXEHUTyi4Pa9UrWMKlTL
+          claim_id: c_xtb7YXZxRbTiDI3sedastV
+          source_id: s_bva8pTq6WuHGqZoABEgF2n
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，四九五  甘文望夫人吳氏壙記：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_bva8pTq6WuHGqZoABEgF2n
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元清（CBDB 578340）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578340&o=json
+            external_identifier: CBDB:578340
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.728Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_zBPnKLJ7X5PK7k5VM18Wfg
+        status: active
+        display_name: 王元清
+        merged_into_person_id: null
   children:
     - claim:
         id: c_9mKVfNn9BiJZBzOo6Atn84
@@ -266,6 +303,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_zBPnKLJ7X5PK7k5VM18Wfg | 王元清 | accepted |
 | children | p_soVhDVJnhFWiHvkRfaanD5 | 王經 | accepted |
 | ancestors | p_3MMrFwPc3sNHUjFFNj9XNn | 王國器 | accepted |
 | ancestors | p_rqM74DkLDiMSiVKLPpFCkD | 王惟一 | accepted |
@@ -276,3 +314,4 @@ relationships:
 - [中国历代人物传记资料库：王經（CBDB 578352）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578352&o=json)
 - [中国历代人物传记资料库：王夢良（CBDB 578337）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578337&o=json)
 - [中国历代人物传记资料库：王惟一（CBDB 578339）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578339&o=json)
+- [中国历代人物传记资料库：王元清（CBDB 578340）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578340&o=json)

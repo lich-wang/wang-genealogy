@@ -4,7 +4,7 @@ id: p_YHFTAXms1Jyvocf8LFCxJZ
 status: active
 merged_into: null
 display_name: 王經
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_ig6JwRn-E3L0QRUBNrjAJe
+        subject_person_id: p_YHFTAXms1Jyvocf8LFCxJZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hoiRRCExCw4KSUTuvH17WP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PCXHeU4H5Yn0y3Fc9_RmCz
+          claim_id: c_ig6JwRn-E3L0QRUBNrjAJe
+          source_id: s_4qnCunUAHcxrQUp4BKk1Ud
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第二甲第二十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hoiRRCExCw4KSUTuvH17WP
+        status: active
+        display_name: 王楣
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_hoiRRCExCw4KSUTuvH17WP | 王楣 | accepted |
 
 ## 外部来源
 

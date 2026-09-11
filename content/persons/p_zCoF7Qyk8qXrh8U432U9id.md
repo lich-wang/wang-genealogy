@@ -4,7 +4,7 @@ id: p_zCoF7Qyk8qXrh8U432U9id
 status: active
 merged_into: null
 display_name: 王彥
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_aRmqZUZ2V599PH4i-m69t4
+        subject_person_id: p_thiF1H5Z24YJrMKyh67X2Q
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zCoF7Qyk8qXrh8U432U9id
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_noT-HPk-51TaLU-8MU4sau
+          claim_id: c_aRmqZUZ2V599PH4i-m69t4
+          source_id: s_YEHhYZxgGby7RTiUhQFHCf
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_thiF1H5Z24YJrMKyh67X2Q
+        status: active
+        display_name: 王寶
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_thiF1H5Z24YJrMKyh67X2Q | 王寶 | accepted |
 
 ## 外部来源
 

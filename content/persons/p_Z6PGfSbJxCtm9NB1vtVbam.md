@@ -4,7 +4,7 @@ id: p_Z6PGfSbJxCtm9NB1vtVbam
 status: active
 merged_into: null
 display_name: 王淑卿
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_F9lDCShhUvm6sDt6FTNDN_
+        subject_person_id: p_WruUn1DHPBNtjugD5Tk6bH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Z6PGfSbJxCtm9NB1vtVbam
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_U3HsacXFpJzzzjENqulr3A
+          claim_id: c_F9lDCShhUvm6sDt6FTNDN_
+          source_id: s_JrHA77LB1CXXeN61RPdCfK
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #2586：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WruUn1DHPBNtjugD5Tk6bH
+        status: active
+        display_name: 王登元
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WruUn1DHPBNtjugD5Tk6bH | 王登元 | accepted |
 
 ## 外部来源
 

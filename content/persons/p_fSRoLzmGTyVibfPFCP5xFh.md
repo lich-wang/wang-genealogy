@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王命爵
 cbdb_id: 206334
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,6 +209,43 @@ relationships:
         status: active
         display_name: 王慶環
         merged_into_person_id: null
+    - claim:
+        id: c_qT17cVonVuCabZA2SF8SXA
+        subject_person_id: p_YqFqR3sLDvjx3AxS5JEmvr
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_fSRoLzmGTyVibfPFCP5xFh
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dI0o8enLpT06tkmU13iZcf
+          claim_id: c_qT17cVonVuCabZA2SF8SXA
+          source_id: s_iSMgdErgRUmYH5aHxrcHe7
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第三甲第四十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_iSMgdErgRUmYH5aHxrcHe7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惟賢（CBDB 216543）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216543&o=json
+            external_identifier: CBDB:216543
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.241Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_YqFqR3sLDvjx3AxS5JEmvr
+        status: active
+        display_name: 王惟賢
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_F6K893ZAWfJwH2zn9PeMz7 | 王文炳 | accepted |
 | ancestors | p_oXR9CoYRRG9paUDcog9iXP | 王慶環 | accepted |
+| ancestors | p_YqFqR3sLDvjx3AxS5JEmvr | 王惟賢 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王命爵（CBDB 206334）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206334&o=json)
 - [中国历代人物传记资料库：王慶環（CBDB 216544）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216544&o=json)
+- [中国历代人物传记资料库：王惟賢（CBDB 216543）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216543&o=json)
 - [中国历代人物传记资料库：王文炳（CBDB 216545）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216545&o=json)

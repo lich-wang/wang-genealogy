@@ -4,7 +4,7 @@ id: p_PkVHbp7ooYr1QRfwUsQL7L
 status: active
 merged_into: null
 display_name: 王頤
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Wv7sIz6Y4I7KVo959sXB5f
+        subject_person_id: p_ynQe45xhMHwcsbW4fYyuNe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PkVHbp7ooYr1QRfwUsQL7L
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gB6u4swQ68jYahEzH6c00T
+          claim_id: c_Wv7sIz6Y4I7KVo959sXB5f
+          source_id: s_PdAn2b9AhtdzeuR8Sxvi6R
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第二百二十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_PdAn2b9AhtdzeuR8Sxvi6R
+            source_type: api_record
+            title: 中国历代人物传记资料库：王命（CBDB 336760）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336760&o=json
+            external_identifier: CBDB:336760
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.501Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ynQe45xhMHwcsbW4fYyuNe
+        status: active
+        display_name: 王命
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +237,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ynQe45xhMHwcsbW4fYyuNe | 王命 | accepted |
 | ancestors | p_mGj5EQVd76YTE2RuVE4Mpc | 王忠 | accepted |
 | ancestors | p_VxTXU8GfMKPTehA6EYkeki | 王閏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王命（CBDB 336760）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336760&o=json)
 - [中国历代人物传记资料库：王閏（CBDB 336758）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336758&o=json)
 - [中国历代人物传记资料库：王頤（CBDB 205673）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205673&o=json)
 - [中国历代人物传记资料库：王忠（CBDB 336759）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336759&o=json)
