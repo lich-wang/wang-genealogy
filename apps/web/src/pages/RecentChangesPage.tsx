@@ -84,5 +84,6 @@ function TargetLink({ change }: { change: RecentChange }) {
   if (change.target_type === 'source') {
     return <Link to={`/sources/${encodeURIComponent(change.target_id)}`}>一份史料来源</Link>;
   }
+  if (change.target_type === 'commit') return null;
   return <span className="change-target">{change.target_type}</span>;
 }

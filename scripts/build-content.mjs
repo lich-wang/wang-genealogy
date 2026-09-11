@@ -102,9 +102,16 @@ for (const [shard, entries] of sourceShards) fs.writeFileSync(path.join(sourceDi
 
 const search = [...summaries.values()].map(searchRecord).sort((a, b) => (a.display_name ?? '').localeCompare(b.display_name ?? '', 'zh'));
 const relativeCounts = new Map([...records.keys()].map((id) => [id, adjacency.get(id)?.size ?? 0]));
-const highlights = search.filter((item) => item.status === 'active').sort((a, b) => (relativeCounts.get(b.id) ?? 0) - (relativeCounts.get(a.id) ?? 0)).slice(0, 24).map((item) => ({ id: item.id, display_name: item.display_name, relative_count: relativeCounts.get(item.id) ?? 0, is_surname_progenitor: ['姬晋', '畢公高', '宗敬'].includes(item.display_name ?? '') }));
+const surnameProgenitor = new Set(['姬晋', '畢公高', '宗敬']);
+const byRelDesc = (a, b) => (relativeCounts.get(b.id) ?? 0) - (relativeCounts.get(a.id) ?? 0);
+const activeSearch = search.filter((item) => item.status === 'active');
+const highlights = [
+  ...activeSearch.filter((item) => surnameProgenitor.has(item.display_name ?? '')).sort(byRelDesc),
+  ...activeSearch.filter((item) => !surnameProgenitor.has(item.display_name ?? '')).sort(byRelDesc),
+].slice(0, 24).map((item) => ({ id: item.id, display_name: item.display_name, relative_count: relativeCounts.get(item.id) ?? 0, is_surname_progenitor: surnameProgenitor.has(item.display_name ?? '') }));
 const changes = gitChanges(records);
-const index = { schema: 'wang-static/v1', generated_at: new Date().toISOString(), status: { people: records.size, relationships: edges.parent_edges.length + edges.spouse_edges.length + edges.descent_edges.length, sources: sources.size, claims: claims.size, generated_at: new Date().toISOString() }, highlights, search, changes, graph_lookup: graphLookup };
+const generatedAt = latestContentCommitDate() ?? new Date().toISOString();
+const index = { schema: 'wang-static/v1', generated_at: generatedAt, status: { people: records.size, relationships: edges.parent_edges.length + edges.spouse_edges.length + edges.descent_edges.length, sources: sources.size, claims: claims.size, generated_at: generatedAt }, highlights, search, changes, graph_lookup: graphLookup };
 fs.writeFileSync(path.join(outputDir, 'index.json'), JSON.stringify(index));
 console.log(`已校验并生成 ${records.size} 个人物页面、${sources.size} 个来源记录`);
 
@@ -140,4 +147,35 @@ function walk(root, adjacency) { const seen = new Set([root]); const queue = [ro
 function nodeFor(summary) { return { id: summary.person.id, display_name: summary.display_name, status: summary.person.status, birth: propertyText(summary, 'birth.date'), death: propertyText(summary, 'death.date') }; }
 function propertyText(summary, predicate) { const claim = summary.properties.find((field) => field.predicate === predicate)?.recommended?.claim; return claim?.value_json?.date?.original_text ?? claim?.value_json?.text ?? null; }
 function searchRecord(summary) { const aliases = summary.properties.filter((field) => field.predicate.startsWith('name.') && field.predicate !== 'name.primary').flatMap((field) => [field.recommended, ...field.alternatives]).filter(Boolean).map((item) => item.claim.value_json?.text).filter(Boolean); return { id: summary.person.id, status: summary.person.status, display_name: summary.display_name, merged_into_person_id: summary.person.merged_into_person_id, birth_text: propertyText(summary, 'birth.date'), death_text: propertyText(summary, 'death.date'), origin_text: propertyText(summary, 'place.origin'), branch_text: propertyText(summary, 'lineage.branch'), also_known_as: aliases, relative_count: relationshipItems(records.get(summary.person.id)).length }; }
-function gitChanges(known) { try { const text = execFileSync('git', ['log', '-80', '--date=iso-strict', '--pretty=format:%H%x09%an%x09%aI%x09%s', '--name-only', '--', 'content/persons'], { encoding: 'utf8' }); const lines = text.split('\n'); const changes = []; let commit; for (const line of lines) { if (line.includes('\t')) { const [hash, author, date, subject] = line.split('\t'); commit = { hash, author, date, subject }; } else if (commit && line.startsWith('content/persons/') && line.endsWith('.md')) { const id = path.basename(line, '.md'); if (known.has(id)) changes.push({ contribution_id: `${commit.hash}:${id}`, action: 'claim.revise', actor_display_name: commit.author, target_type: 'person', target_id: id, subject_person_id: id, target_display_name: known.get(id).display_name, change_summary: commit.subject, created_at: commit.date }); } } return changes.slice(0, 80); } catch { return []; } }
+function latestContentCommitDate() {
+  try {
+    return execFileSync('git', ['log', '-1', '--date=iso-strict', '--pretty=format:%cI', '--', 'content/persons'], { cwd: rootDir, encoding: 'utf8' }).trim() || null;
+  } catch {
+    return null;
+  }
+}
+function gitChanges(known) {
+  try {
+    const text = execFileSync('git', ['log', '-120', '--date=iso-strict', '--pretty=format:%H%x09%an%x09%aI%x09%s', '--name-only', '--', 'content/persons'], { cwd: rootDir, encoding: 'utf8', maxBuffer: 128 * 1024 * 1024 });
+    const lines = text.split('\n');
+    const changes = [];
+    for (const line of lines) {
+      if (!line.includes('\t')) continue;
+      const [hash, author, date, subject] = line.split('\t');
+      changes.push({
+        contribution_id: hash,
+        action: 'claim.revise',
+        actor_display_name: author,
+        target_type: 'commit',
+        target_id: hash,
+        subject_person_id: null,
+        target_display_name: null,
+        change_summary: subject,
+        created_at: date,
+      });
+    }
+    return changes.slice(0, 120);
+  } catch {
+    return [];
+  }
+}

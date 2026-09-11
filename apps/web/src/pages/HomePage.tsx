@@ -283,5 +283,7 @@ function ChangeTarget({ change }: { change: RecentChange }) {
       <Link to={`/sources/${encodeURIComponent(change.target_id)}`}>史料来源</Link>
     );
   }
+  // Commit-level maintenance rows carry their meaning in `change_summary`.
+  if (change.target_type === 'commit') return null;
   return <span className="change-target">{change.target_type}</span>;
 }
