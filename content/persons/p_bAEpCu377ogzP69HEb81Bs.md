@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王超
 cbdb_id: 7077
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -238,7 +238,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_pHsVsZHWcCXOYj0HXmm1VN
+        subject_person_id: p_24nNxQysajKGx6Hd2e5iLj
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bAEpCu377ogzP69HEb81Bs
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ts3jKGNlRF0OUi5ueerYzf
+          claim_id: c_pHsVsZHWcCXOYj0HXmm1VN
+          source_id: s_rHojNWwHBxL97txyU7eJLA
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，965;966：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_rHojNWwHBxL97txyU7eJLA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王方（CBDB 21948）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21948&o=json
+            external_identifier: CBDB:21948
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.773Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_24nNxQysajKGx6Hd2e5iLj
+        status: active
+        display_name: 王方
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -260,11 +297,13 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_VABDaNqeokNeUhSBaXqRrB | 王玄 | accepted |
 | children | p_mDQwQDowHukUUJhyJA2Q4Z | 王德用 | accepted |
+| ancestors | p_24nNxQysajKGx6Hd2e5iLj | 王方 | accepted |
 
 ## 外部来源
 
 - [维基数据：王超（Q16077506）](https://www.wikidata.org/wiki/Q16077506)
 - [维基数据：王德用（Q10414172）](https://www.wikidata.org/wiki/Q10414172)
 - [维基数据：王玄（Q45401566）](https://www.wikidata.org/wiki/Q45401566)
+- [中国历代人物传记资料库：王方（CBDB 21948）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21948&o=json)
 - [CBDB 中国历代人物传记资料库：王超（7077）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7077&o=json)
 - [CBDB 中国历代人物传记资料库：王玄（21949）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21949&o=json)

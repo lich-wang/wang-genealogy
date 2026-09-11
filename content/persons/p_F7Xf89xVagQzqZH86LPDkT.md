@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王奉先
 cbdb_id: 270235
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_3peR7UbAiTVYi1xU3ypp-c
+        subject_person_id: p_F7Xf89xVagQzqZH86LPDkT
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1Z5UnhG19fXLy7n6F1UwHg
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zaaQS8nevoJx8ScoakVYqd
+          claim_id: c_3peR7UbAiTVYi1xU3ypp-c
+          source_id: s_Z5C1Z7dXiFUhSuKwZiKM9C
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第二甲第四十七名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Z5C1Z7dXiFUhSuKwZiKM9C
+            source_type: api_record
+            title: 中国历代人物传记资料库：王納誨（CBDB 126660）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126660&o=json
+            external_identifier: CBDB:126660
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.101Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_1Z5UnhG19fXLy7n6F1UwHg
+        status: active
+        display_name: 王納誨
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_1Z5UnhG19fXLy7n6F1UwHg | 王納誨 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王奉先（CBDB 270235）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270235&o=json)
+- [中国历代人物传记资料库：王納誨（CBDB 126660）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126660&o=json)

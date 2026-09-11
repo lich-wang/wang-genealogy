@@ -4,7 +4,7 @@ id: p_1v36CPdP8tsG1X5DfhzMf4
 status: active
 merged_into: null
 display_name: 王瓚
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c__ywE885zfnmlbWUYrniV6z
+        subject_person_id: p_1v36CPdP8tsG1X5DfhzMf4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sVZp7AN2wCm1EcSo9rSyTJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AM-P3C9Z1T52-9gexZ7Xer
+          claim_id: c__ywE885zfnmlbWUYrniV6z
+          source_id: s_FJtEgs9bbiRiw48hNDodxR
+          stance: supports
+          locator: 嘉靖十七年進士登科錄:一卷，第二甲第十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_sVZp7AN2wCm1EcSo9rSyTJ
+        status: active
+        display_name: 王健
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_sVZp7AN2wCm1EcSo9rSyTJ | 王健 | accepted |
 
 ## 外部来源
 

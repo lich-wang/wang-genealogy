@@ -4,7 +4,7 @@ id: p_1W7FNDdsQGT7uB5yfT8rU3
 status: active
 merged_into: null
 display_name: 王鳳祥
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_00tVqZG-f-KMBPRTMxkYNg
+        subject_person_id: p_1W7FNDdsQGT7uB5yfT8rU3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HP8CrBYhwLDmDELX7RAy8v
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iuIrft-fhKd1PoxXj6X_wq
+          claim_id: c_00tVqZG-f-KMBPRTMxkYNg
+          source_id: s_YrjhKLs6Kc3LXGchPmieEf
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13124：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_HP8CrBYhwLDmDELX7RAy8v
+        status: active
+        display_name: 王朝霖
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_HP8CrBYhwLDmDELX7RAy8v | 王朝霖 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_2FtChk1xSouaHotUbP87sY
 status: active
 merged_into: null
 display_name: 王琮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_FblVc3Dr-dMK9BuIZIgvM8
+        subject_person_id: p_2uTqfNAW7muauc9J9oQHEs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2FtChk1xSouaHotUbP87sY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_u-In5dJEpj_j0oH4xb7Gm4
+          claim_id: c_FblVc3Dr-dMK9BuIZIgvM8
+          source_id: s_tQWMLNK9NgsqJftPjPjV32
+          stance: supports
+          locator: 正統十三年進士登科錄:一卷，第三甲第十四名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_2uTqfNAW7muauc9J9oQHEs
+        status: active
+        display_name: 王孟宜
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c__r6cXDLceIwCrtM1KCEUjb
+        subject_person_id: p_VH94HvSK9LNwKLm3oKwP41
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2FtChk1xSouaHotUbP87sY
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3rqfY544Ung9s43PMm30Rd
+          claim_id: c__r6cXDLceIwCrtM1KCEUjb
+          source_id: s_tQWMLNK9NgsqJftPjPjV32
+          stance: supports
+          locator: 正統十三年進士登科錄:一卷，第三甲第十四名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_VH94HvSK9LNwKLm3oKwP41
+        status: active
+        display_name: 王茂華
+        merged_into_person_id: null
+    - claim:
+        id: c_OEm7vvGdFWgzBf8aySDprT
+        subject_person_id: p_exfHCCQDDr69328nmnLRaH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2FtChk1xSouaHotUbP87sY
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_f6J1R1TLGjoZ4iWPpAzIMX
+          claim_id: c_OEm7vvGdFWgzBf8aySDprT
+          source_id: s_tQWMLNK9NgsqJftPjPjV32
+          stance: supports
+          locator: 正統十三年進士登科錄:一卷，第三甲第十四名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_exfHCCQDDr69328nmnLRaH
+        status: active
+        display_name: 王文誠
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_2uTqfNAW7muauc9J9oQHEs | 王孟宜 | accepted |
+| ancestors | p_VH94HvSK9LNwKLm3oKwP41 | 王茂華 | accepted |
+| ancestors | p_exfHCCQDDr69328nmnLRaH | 王文誠 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_2CCGS25AmJvxKtCikhBKeQ
 status: active
 merged_into: null
 display_name: 王一誠
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_tYVldj5CN8a6NJq0grvyel
+        subject_person_id: p_uWARgTHwHotCqXAXAieGV4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2CCGS25AmJvxKtCikhBKeQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-PeOvEniz9I1kRrDrARp_2
+          claim_id: c_tYVldj5CN8a6NJq0grvyel
+          source_id: s_3huwJDws72HMTYCFK3FEtU
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第三百名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uWARgTHwHotCqXAXAieGV4
+        status: active
+        display_name: 王世芳
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_WeWUyhKNUo3E_SB-WSp-gn
+        subject_person_id: p_bcADb17e2zmWN3twBo66DQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2CCGS25AmJvxKtCikhBKeQ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CfpkZJFFElQl50RI-2bUDh
+          claim_id: c_WeWUyhKNUo3E_SB-WSp-gn
+          source_id: s_3huwJDws72HMTYCFK3FEtU
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第三百名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_bcADb17e2zmWN3twBo66DQ
+        status: active
+        display_name: 王僑
+        merged_into_person_id: null
+    - claim:
+        id: c_UMTZp28TcQU1Xsm-OTciLS
+        subject_person_id: p_xqoFC3Q7Vuco8Lnr3uUPM3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2CCGS25AmJvxKtCikhBKeQ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7Az2FMUmbcDon8gtk2fmE7
+          claim_id: c_UMTZp28TcQU1Xsm-OTciLS
+          source_id: s_3huwJDws72HMTYCFK3FEtU
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第三百名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xqoFC3Q7Vuco8Lnr3uUPM3
+        status: active
+        display_name: 王悌
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_uWARgTHwHotCqXAXAieGV4 | 王世芳 | accepted |
+| ancestors | p_bcADb17e2zmWN3twBo66DQ | 王僑 | accepted |
+| ancestors | p_xqoFC3Q7Vuco8Lnr3uUPM3 | 王悌 | accepted |
 
 ## 外部来源
 

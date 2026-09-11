@@ -4,7 +4,7 @@ id: p_1Z5YdmpWxpKKmxo28Y9wo8
 status: active
 merged_into: null
 display_name: 王承裕
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_Z8F2o58HT4aDlqOfmwNQLZ
+        subject_person_id: p_vGodDLkqQ8L94JmNsQ3LAT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1Z5YdmpWxpKKmxo28Y9wo8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_81JA8EZnvbv6pQTuDkR4OO
+          claim_id: c_Z8F2o58HT4aDlqOfmwNQLZ
+          source_id: s_j4qLHjTosGhAcMiN77x2ES
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 179：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vGodDLkqQ8L94JmNsQ3LAT
+        status: active
+        display_name: 王素
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_yAx7i4j1WjO4Z4MtXBMMs1
+        subject_person_id: p_1Z5YdmpWxpKKmxo28Y9wo8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gyQdjSQhiz5jrDrm6o3dVv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yGk2CO7iaT_FVjrvoqzY-o
+          claim_id: c_yAx7i4j1WjO4Z4MtXBMMs1
+          source_id: s_j4qLHjTosGhAcMiN77x2ES
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 179：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_gyQdjSQhiz5jrDrm6o3dVv
+        status: active
+        display_name: 王綰
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vGodDLkqQ8L94JmNsQ3LAT | 王素 | accepted |
+| children | p_gyQdjSQhiz5jrDrm6o3dVv | 王綰 | accepted |
 
 ## 外部来源
 

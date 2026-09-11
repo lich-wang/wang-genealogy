@@ -4,7 +4,7 @@ id: p_2b9TwxYB6wxHNBNWLVvncu
 status: active
 merged_into: null
 display_name: 王旻
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_5amWBS1HirtjGpubQuFTcZ
+        subject_person_id: p_2b9TwxYB6wxHNBNWLVvncu
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5dqAK3hD6kewBU4JbJcy31
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_g5yOnrwsPa7mJvZ0YY5z11
+          claim_id: c_5amWBS1HirtjGpubQuFTcZ
+          source_id: s_U49EE6FSj9755rRx66Z9c2
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第三甲第三十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5dqAK3hD6kewBU4JbJcy31
+        status: active
+        display_name: 王材
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_5dqAK3hD6kewBU4JbJcy31 | 王材 | accepted |
 
 ## 外部来源
 

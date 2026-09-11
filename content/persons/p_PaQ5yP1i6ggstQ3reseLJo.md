@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王尚準
 cbdb_id: 185765
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -130,7 +130,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_o3OCIrBM2wB8hMC0FhLUZi
+        subject_person_id: p_PaQ5yP1i6ggstQ3reseLJo
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_26NGcZpVYMgd8LBmgpqp1d
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_d4NL27GRYE0M5v6R5nHC2X
+          claim_id: c_o3OCIrBM2wB8hMC0FhLUZi
+          source_id: s_1LeAtLybSJuwrnGoHAY6tV
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1LeAtLybSJuwrnGoHAY6tV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王定和（CBDB 186151）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186151&o=json
+            external_identifier: CBDB:186151
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.268Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_26NGcZpVYMgd8LBmgpqp1d
+        status: active
+        display_name: 王定和
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_26NGcZpVYMgd8LBmgpqp1d | 王定和 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王定和（CBDB 186151）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186151&o=json)
 - [中国历代人物传记资料库：王尚準（CBDB 185765）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185765&o=json)

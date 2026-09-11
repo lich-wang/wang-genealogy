@@ -4,7 +4,7 @@ id: p_1SfAWJWx7ysr4yEGFMS1oX
 status: active
 merged_into: null
 display_name: 王寶
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_xX0qSKoTxtye3qhXlG6SRd
+        subject_person_id: p_1SfAWJWx7ysr4yEGFMS1oX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_xFXiQ1xtVHC3hhy55VEnSX
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_h-9A4yjZivSPw2-07eAM-z
+          claim_id: c_xX0qSKoTxtye3qhXlG6SRd
+          source_id: s_Dtm5XQh7Ks832D6nmLprNx
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第一百九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xFXiQ1xtVHC3hhy55VEnSX
+        status: active
+        display_name: 王順行
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_xFXiQ1xtVHC3hhy55VEnSX | 王順行 | accepted |
 
 ## 外部来源
 

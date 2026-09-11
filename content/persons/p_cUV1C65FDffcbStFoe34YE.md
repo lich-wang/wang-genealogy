@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王其勤
 cbdb_id: 204225
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_cejZRHXmTHP8h0E-hb2-ib
+        subject_person_id: p_2CGC7EFuxL22aCAXELkLWU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cUV1C65FDffcbStFoe34YE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rIhEXenEQMiQJldXTtLLxF
+          claim_id: c_cejZRHXmTHP8h0E-hb2-ib
+          source_id: s_qWXG3agM4JN8JWq7pjV7NJ
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_qWXG3agM4JN8JWq7pjV7NJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王天章（CBDB 316215）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316215&o=json
+            external_identifier: CBDB:316215
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.958Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_2CGC7EFuxL22aCAXELkLWU
+        status: active
+        display_name: 王天章
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_2CGC7EFuxL22aCAXELkLWU | 王天章 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王其勤（CBDB 204225）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204225&o=json)
+- [中国历代人物传记资料库：王天章（CBDB 316215）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316215&o=json)

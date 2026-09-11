@@ -4,7 +4,7 @@ id: p_1VirfsX5oPoLuBf8HiG9E5
 status: active
 merged_into: null
 display_name: 王祚
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_h0Eox9ObMgGb0I1_ThCTLi
+        subject_person_id: p_1VirfsX5oPoLuBf8HiG9E5
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DZwm7RH4zQwJTHWtWTtHUQ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qFAYeCQ8grPRlbQHwwpMGY
+          claim_id: c_h0Eox9ObMgGb0I1_ThCTLi
+          source_id: s_XyPHbFh9tqdmX5gvA1hLyF
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第三甲第一百零五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DZwm7RH4zQwJTHWtWTtHUQ
+        status: active
+        display_name: 王之臣
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_DZwm7RH4zQwJTHWtWTtHUQ | 王之臣 | accepted |
 
 ## 外部来源
 

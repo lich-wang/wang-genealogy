@@ -4,7 +4,7 @@ id: p_Znen7jNez4DsQZ8W2U88iW
 status: active
 merged_into: null
 display_name: 王會
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_-AyDHQMJiW0dnVYtwgzawX
+        subject_person_id: p_26uVgWbWAkUDcgWw8N6zSa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Znen7jNez4DsQZ8W2U88iW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gqtOxnjoq7ciKrRghEHVlt
+          claim_id: c_-AyDHQMJiW0dnVYtwgzawX
+          source_id: s_PdAxWVS5S1LbYfiuHsZ3d4
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第二甲第七十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_PdAxWVS5S1LbYfiuHsZ3d4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王良玉（CBDB 306001）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306001&o=json
+            external_identifier: CBDB:306001
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.750Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_26uVgWbWAkUDcgWw8N6zSa
+        status: active
+        display_name: 王良玉
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_26uVgWbWAkUDcgWw8N6zSa | 王良玉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王會（CBDB 126770）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126770&o=json)
+- [中国历代人物传记资料库：王良玉（CBDB 306001）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306001&o=json)

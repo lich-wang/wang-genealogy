@@ -4,7 +4,7 @@ id: p_xFXiQ1xtVHC3hhy55VEnSX
 status: active
 merged_into: null
 display_name: 王順行
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_xX0qSKoTxtye3qhXlG6SRd
+        subject_person_id: p_1SfAWJWx7ysr4yEGFMS1oX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_xFXiQ1xtVHC3hhy55VEnSX
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_h-9A4yjZivSPw2-07eAM-z
+          claim_id: c_xX0qSKoTxtye3qhXlG6SRd
+          source_id: s_Dtm5XQh7Ks832D6nmLprNx
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第一百九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Dtm5XQh7Ks832D6nmLprNx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寶（CBDB 232996）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232996&o=json
+            external_identifier: CBDB:232996
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.712Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_1SfAWJWx7ysr4yEGFMS1oX
+        status: active
+        display_name: 王寶
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_1SfAWJWx7ysr4yEGFMS1oX | 王寶 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王寶（CBDB 232996）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232996&o=json)
 - [中国历代人物传记资料库：王順行（CBDB 207643）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207643&o=json)

@@ -4,7 +4,7 @@ id: p_2By3HyEqWFSrUPCpwFaSLa
 status: active
 merged_into: null
 display_name: 王仲甫
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,112 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_VuPgVIm9hitkELdydw-xed
+        subject_person_id: p_Lq74ESPuUFpGQU5tURbhKg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2By3HyEqWFSrUPCpwFaSLa
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HoVGSgGNKbBBUnXE7nh7G8
+          claim_id: c_VuPgVIm9hitkELdydw-xed
+          source_id: s_WwkwnxKYTK9cFafz9RG2Wm
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Lq74ESPuUFpGQU5tURbhKg
+        status: active
+        display_name: 王文禮
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_lM2YfIylLol0ImkfCP5e89
+        subject_person_id: p_2By3HyEqWFSrUPCpwFaSLa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YsPayRFH97RfRhHgyPnWty
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-j0RmgjDpC7P5mZs6Vpsjo
+          claim_id: c_lM2YfIylLol0ImkfCP5e89
+          source_id: s_WwkwnxKYTK9cFafz9RG2Wm
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Qianfu8：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_YsPayRFH97RfRhHgyPnWty
+        status: active
+        display_name: 王幼虞
+        merged_into_person_id: null
+    - claim:
+        id: c_6gOfth8BWkXESml9l5WcWy
+        subject_person_id: p_2By3HyEqWFSrUPCpwFaSLa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VWWqQv6vR5MEFVM4pbbjGs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_H4ank5Dv2fZvdtWxaudJs9
+          claim_id: c_6gOfth8BWkXESml9l5WcWy
+          source_id: s_WwkwnxKYTK9cFafz9RG2Wm
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_VWWqQv6vR5MEFVM4pbbjGs
+        status: active
+        display_name: 王幼度
+        merged_into_person_id: null
+    - claim:
+        id: c_4m-KH3DFO7Rz6ZMIOhtwq3
+        subject_person_id: p_2By3HyEqWFSrUPCpwFaSLa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DotisGBWuSy9QiJBhRBUkB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VxgTWUVUKmdznhw7YXzPjy
+          claim_id: c_4m-KH3DFO7Rz6ZMIOhtwq3
+          source_id: s_WwkwnxKYTK9cFafz9RG2Wm
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DotisGBWuSy9QiJBhRBUkB
+        status: active
+        display_name: 王幼膚
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +201,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Lq74ESPuUFpGQU5tURbhKg | 王文禮 | accepted |
+| children | p_YsPayRFH97RfRhHgyPnWty | 王幼虞 | accepted |
+| children | p_VWWqQv6vR5MEFVM4pbbjGs | 王幼度 | accepted |
+| children | p_DotisGBWuSy9QiJBhRBUkB | 王幼膚 | accepted |
 
 ## 外部来源
 

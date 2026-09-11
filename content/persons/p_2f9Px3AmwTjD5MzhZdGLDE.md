@@ -4,7 +4,7 @@ id: p_2f9Px3AmwTjD5MzhZdGLDE
 status: active
 merged_into: null
 display_name: 王日新
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_6C-DcRr5YlyWMTdMuv9ZOO
+        subject_person_id: p_uPsdzDMGQe5JCzP3cXbxt2
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2f9Px3AmwTjD5MzhZdGLDE
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8B2O3nXOoBD6yvB8qTllgq
+          claim_id: c_6C-DcRr5YlyWMTdMuv9ZOO
+          source_id: s_Dd1EszA4xnUfyF9YKR1pe2
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Wansuitongtian 18：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uPsdzDMGQe5JCzP3cXbxt2
+        status: active
+        display_name: 王智本
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_uPsdzDMGQe5JCzP3cXbxt2 | 王智本 | accepted |
 
 ## 外部来源
 

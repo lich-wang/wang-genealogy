@@ -4,7 +4,7 @@ id: p_xqoFC3Q7Vuco8Lnr3uUPM3
 status: active
 merged_into: null
 display_name: 王悌
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_UMTZp28TcQU1Xsm-OTciLS
+        subject_person_id: p_xqoFC3Q7Vuco8Lnr3uUPM3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2CCGS25AmJvxKtCikhBKeQ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7Az2FMUmbcDon8gtk2fmE7
+          claim_id: c_UMTZp28TcQU1Xsm-OTciLS
+          source_id: s_3huwJDws72HMTYCFK3FEtU
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第三百名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3huwJDws72HMTYCFK3FEtU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王一誠（CBDB 205728）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205728&o=json
+            external_identifier: CBDB:205728
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.871Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_2CCGS25AmJvxKtCikhBKeQ
+        status: active
+        display_name: 王一誠
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_2CCGS25AmJvxKtCikhBKeQ | 王一誠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王悌（CBDB 337552）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337552&o=json)
+- [中国历代人物传记资料库：王一誠（CBDB 205728）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205728&o=json)

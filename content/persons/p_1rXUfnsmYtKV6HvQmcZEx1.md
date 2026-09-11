@@ -4,7 +4,7 @@ id: p_1rXUfnsmYtKV6HvQmcZEx1
 status: active
 merged_into: null
 display_name: 王之屏
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_beOTgQAVDiG0WLw2FLIfEG
+        subject_person_id: p_L1K6UGcPzEpvk1UMcnFzF5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1rXUfnsmYtKV6HvQmcZEx1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K_p_9JpsTAP1l-5SZDEJPe
+          claim_id: c_beOTgQAVDiG0WLw2FLIfEG
+          source_id: s_Ueah6NxBLTeksqUa8dTE5L
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第三甲第二百九十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_L1K6UGcPzEpvk1UMcnFzF5
+        status: active
+        display_name: 王崇儒
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_pIR0V7Al4qUIe0QsOXdPrQ
+        subject_person_id: p_wjQjQdSMH1jr1xFFHBSxDy
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1rXUfnsmYtKV6HvQmcZEx1
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sBN61AcY3h5Veu-AzehrAJ
+          claim_id: c_pIR0V7Al4qUIe0QsOXdPrQ
+          source_id: s_Ueah6NxBLTeksqUa8dTE5L
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第三甲第二百九十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wjQjQdSMH1jr1xFFHBSxDy
+        status: active
+        display_name: 王舉
+        merged_into_person_id: null
+    - claim:
+        id: c_uCuw4YBNZhhChIowmMl7z8
+        subject_person_id: p_mWQzXBk4QWpHyLxDXbMW2R
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1rXUfnsmYtKV6HvQmcZEx1
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VsZOen7fp6QTLZCgjkr2jX
+          claim_id: c_uCuw4YBNZhhChIowmMl7z8
+          source_id: s_Ueah6NxBLTeksqUa8dTE5L
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第三甲第二百九十三名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_mWQzXBk4QWpHyLxDXbMW2R
+        status: active
+        display_name: 王環
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_L1K6UGcPzEpvk1UMcnFzF5 | 王崇儒 | accepted |
+| ancestors | p_wjQjQdSMH1jr1xFFHBSxDy | 王舉 | accepted |
+| ancestors | p_mWQzXBk4QWpHyLxDXbMW2R | 王環 | accepted |
 
 ## 外部来源
 

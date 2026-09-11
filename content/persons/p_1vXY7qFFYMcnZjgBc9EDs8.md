@@ -4,7 +4,7 @@ id: p_1vXY7qFFYMcnZjgBc9EDs8
 status: active
 merged_into: null
 display_name: 王佐
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_8n9uh0LHj6kH1tlFbUHbIb
+        subject_person_id: p_e8GwzBVysey3Kb4uNTABDK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1vXY7qFFYMcnZjgBc9EDs8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wGQw8gHHlTbYM2qWCZ95RT
+          claim_id: c_8n9uh0LHj6kH1tlFbUHbIb
+          source_id: s_57kZAzZH2t6g4w3F4mdEPS
+          stance: supports
+          locator: 天順元年進士登科錄:一卷，第三甲第六十一名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_e8GwzBVysey3Kb4uNTABDK
+        status: active
+        display_name: 王敬
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_M7_hie7WMtq86cP17g-bGk
+        subject_person_id: p_Dp8q3v4je1nMarPFQKSQZg
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1vXY7qFFYMcnZjgBc9EDs8
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MJle2ocWeYxVD2IQjI-i_T
+          claim_id: c_M7_hie7WMtq86cP17g-bGk
+          source_id: s_57kZAzZH2t6g4w3F4mdEPS
+          stance: supports
+          locator: 天順元年進士登科錄:一卷，第三甲第六十一名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Dp8q3v4je1nMarPFQKSQZg
+        status: active
+        display_name: 王克善
+        merged_into_person_id: null
+    - claim:
+        id: c_pa7RT5crHC4JdFx-OrFVFL
+        subject_person_id: p_EqBrC3P6PFftiJvnAm14hu
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1vXY7qFFYMcnZjgBc9EDs8
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1b0fmFLbCLjNtna3cUuI1c
+          claim_id: c_pa7RT5crHC4JdFx-OrFVFL
+          source_id: s_57kZAzZH2t6g4w3F4mdEPS
+          stance: supports
+          locator: 天順元年進士登科錄:一卷，第三甲第六十一名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_EqBrC3P6PFftiJvnAm14hu
+        status: active
+        display_name: 王希仁
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_e8GwzBVysey3Kb4uNTABDK | 王敬 | accepted |
+| ancestors | p_Dp8q3v4je1nMarPFQKSQZg | 王克善 | accepted |
+| ancestors | p_EqBrC3P6PFftiJvnAm14hu | 王希仁 | accepted |
 
 ## 外部来源
 

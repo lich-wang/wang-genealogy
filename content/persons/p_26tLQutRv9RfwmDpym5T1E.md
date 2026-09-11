@@ -4,7 +4,7 @@ id: p_26tLQutRv9RfwmDpym5T1E
 status: active
 merged_into: null
 display_name: 王從
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_qrWctnGxzG0CxUbngMMrRl
+        subject_person_id: p_4RuP1y13HperNdMDJkN6MF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_26tLQutRv9RfwmDpym5T1E
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PFAs3e61kCceQaEnCEwQr2
+          claim_id: c_qrWctnGxzG0CxUbngMMrRl
+          source_id: s_NRMoGyPxVJjRUhF4g8gkDi
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_4RuP1y13HperNdMDJkN6MF
+        status: active
+        display_name: 王震
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_68A-YfSWNu-hWkjqBdOX_O
+        subject_person_id: p_26tLQutRv9RfwmDpym5T1E
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2YWxU452SrBeFmFuGZ2rMe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ploYgZC6A_D_Lk7GyQ7uZv
+          claim_id: c_68A-YfSWNu-hWkjqBdOX_O
+          source_id: s_NRMoGyPxVJjRUhF4g8gkDi
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，868：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_2YWxU452SrBeFmFuGZ2rMe
+        status: active
+        display_name: 王淹
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_4RuP1y13HperNdMDJkN6MF | 王震 | accepted |
+| children | p_2YWxU452SrBeFmFuGZ2rMe | 王淹 | accepted |
 
 ## 外部来源
 

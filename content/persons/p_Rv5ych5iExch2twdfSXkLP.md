@@ -4,7 +4,7 @@ id: p_Rv5ych5iExch2twdfSXkLP
 status: active
 merged_into: null
 display_name: 王世蔭
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_dYPNt-VvnRLcHZ6cLsRoM4
+        subject_person_id: p_2e5u4A1FFSG9TbzmvAvbtq
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Rv5ych5iExch2twdfSXkLP
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FUPgJPee-Pxd4vGbHgFpw6
+          claim_id: c_dYPNt-VvnRLcHZ6cLsRoM4
+          source_id: s_aYwBVW1RZ5EANyE9cL5Thv
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第三十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_aYwBVW1RZ5EANyE9cL5Thv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王養賢（CBDB 233796）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233796&o=json
+            external_identifier: CBDB:233796
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.721Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_2e5u4A1FFSG9TbzmvAvbtq
+        status: active
+        display_name: 王養賢
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_2e5u4A1FFSG9TbzmvAvbtq | 王養賢 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王世蔭（CBDB 207683）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207683&o=json)
+- [中国历代人物传记资料库：王養賢（CBDB 233796）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233796&o=json)

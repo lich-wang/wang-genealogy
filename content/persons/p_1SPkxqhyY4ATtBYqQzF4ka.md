@@ -4,7 +4,7 @@ id: p_1SPkxqhyY4ATtBYqQzF4ka
 status: active
 merged_into: null
 display_name: 王淑元
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_FI4QxnPCFNBrVtt6OYZ0Vn
+        subject_person_id: p_1SPkxqhyY4ATtBYqQzF4ka
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WHh5Qo24zT1qqTRoyyXi8E
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_c6O7ohD4bgQtEEoQA5cXHv
+          claim_id: c_FI4QxnPCFNBrVtt6OYZ0Vn
+          source_id: s_TWBPCw7DtsUsnMc4AfUyfS
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13042：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WHh5Qo24zT1qqTRoyyXi8E
+        status: active
+        display_name: 王光頡
+        merged_into_person_id: null
+    - claim:
+        id: c_qdb4Ky6mYFTV1qrery1ZTc
+        subject_person_id: p_1SPkxqhyY4ATtBYqQzF4ka
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_SDMTLhLNQUJiAijTQCcFtZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LBGR4_Hk2GnN04DyMqHVFs
+          claim_id: c_qdb4Ky6mYFTV1qrery1ZTc
+          source_id: s_TWBPCw7DtsUsnMc4AfUyfS
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13042：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_SDMTLhLNQUJiAijTQCcFtZ
+        status: active
+        display_name: 王光頲
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_WHh5Qo24zT1qqTRoyyXi8E | 王光頡 | accepted |
+| children | p_SDMTLhLNQUJiAijTQCcFtZ | 王光頲 | accepted |
 
 ## 外部来源
 

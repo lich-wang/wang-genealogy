@@ -4,7 +4,7 @@ id: p_qC31C42hD4UK4m3NDzMPZB
 status: active
 merged_into: null
 display_name: 王暐
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_b-cQjUiexm9STfzGbR58DN
+        subject_person_id: p_214MBaPhXVFJfNepXzTYyz
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qC31C42hD4UK4m3NDzMPZB
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_x-LGoqe-mI57g61gtk5TRD
+          claim_id: c_b-cQjUiexm9STfzGbR58DN
+          source_id: s_mUbQPCz3fqEDbQuJT5Gv4x
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第二十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_mUbQPCz3fqEDbQuJT5Gv4x
+            source_type: api_record
+            title: 中国历代人物传记资料库：王庸（CBDB 280913）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280913&o=json
+            external_identifier: CBDB:280913
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.023Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_214MBaPhXVFJfNepXzTYyz
+        status: active
+        display_name: 王庸
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_214MBaPhXVFJfNepXzTYyz | 王庸 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王暐（CBDB 68343）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68343&o=json)
+- [中国历代人物传记资料库：王庸（CBDB 280913）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280913&o=json)

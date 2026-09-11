@@ -1,0 +1,77 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-11",
+  "queue_positions": [
+    421,
+    430
+  ],
+  "summary": {
+    "reviewed": 10,
+    "relationships_added": 9,
+    "manual_review": 3
+  },
+  "relationships": [
+    {
+      "subject": "p_1VVqD7EPGnVHF4wrhTw5JU",
+      "object": "p_AEPDTFs3e2Ci1GpeDM9fLo",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_JDkk9mN2RuQb3Zpo6HEPAu",
+      "object": "p_1vWc5rHv6JUuHdBQ2ZMSb2",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_1vXBcYgVQiVxBH61v91xXQ",
+      "object": "p_Z6vCWYnkMUoH1H52LSJS5y",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_Dp8q3v4je1nMarPFQKSQZg",
+      "object": "p_1vXY7qFFYMcnZjgBc9EDs8",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_EqBrC3P6PFftiJvnAm14hu",
+      "object": "p_1vXY7qFFYMcnZjgBc9EDs8",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_e8GwzBVysey3Kb4uNTABDK",
+      "object": "p_1vXY7qFFYMcnZjgBc9EDs8",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_EAhcPdHUqn1cdvsTjdpctw",
+      "object": "p_1w2vyLJVVJajHeDaWVG8Nu",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_n6B6dxMwRuYLUcZPJP3tCB",
+      "object": "p_1w2vyLJVVJajHeDaWVG8Nu",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_Wu57BG14u9G1YdRM7UC1bb",
+      "object": "p_1w2vyLJVVJajHeDaWVG8Nu",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    }
+  ],
+  "unchanged": [
+    "p_1VMg7srLd6oEbZNwqvQJ9i",
+    "p_1VS5d5JMGjpzCDb5J1PWuV",
+    "p_1VuPPni4ycbcynctu4Q31C",
+    "p_1w1QV6jGG4fjm3v1NT14S4",
+    "p_1w3zqfjDhUhwrhJA19G2wM"
+  ]
+}

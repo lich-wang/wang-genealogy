@@ -4,7 +4,7 @@ id: p_219jQxSbAi8XEaLPFhzHTg
 status: active
 merged_into: null
 display_name: 王信
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_1bfwQ2wiGJ2_flac6-rFvq
+        subject_person_id: p_219jQxSbAi8XEaLPFhzHTg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3QDnXJ1yrE5aSbLLXiVLND
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZTx8ZTGV2HuyBYZUC_jU_h
+          claim_id: c_1bfwQ2wiGJ2_flac6-rFvq
+          source_id: s_tzQ5bPUqEZShE4ZB7CELGM
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第一百一十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_3QDnXJ1yrE5aSbLLXiVLND
+        status: active
+        display_name: 王嵩
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_3QDnXJ1yrE5aSbLLXiVLND | 王嵩 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_2bM722d9X3YmbYXbBeCDTM
 status: active
 merged_into: null
 display_name: 王敬中
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_9vbOyrwBCjCWYWUjw6yhHu
+        subject_person_id: p_zBHHyWbtJMhXN5DJPkc8Hc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2bM722d9X3YmbYXbBeCDTM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_r0y-l25MqSdwHcBHKi901x
+          claim_id: c_9vbOyrwBCjCWYWUjw6yhHu
+          source_id: s_HKUvL6tDCQPamiF1rrU2Yi
+          stance: supports
+          locator: 洪武四年進士登科錄:一卷，第二甲第七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zBHHyWbtJMhXN5DJPkc8Hc
+        status: active
+        display_name: 王桂
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_xnhBs-UI3i7WaqMcr-jVji
+        subject_person_id: p_77B1M9ugjRjaUugow1VTEB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2bM722d9X3YmbYXbBeCDTM
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dSgxpE1u90lMzg8jZfLdoh
+          claim_id: c_xnhBs-UI3i7WaqMcr-jVji
+          source_id: s_HKUvL6tDCQPamiF1rrU2Yi
+          stance: supports
+          locator: 洪武四年進士登科錄:一卷，第二甲第七名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_77B1M9ugjRjaUugow1VTEB
+        status: active
+        display_name: 王祖昇
+        merged_into_person_id: null
+    - claim:
+        id: c_QJGhDgIPtoQ9k8njf0zmNJ
+        subject_person_id: p_VaBkz2Eq5TiujxaCF8b84V
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2bM722d9X3YmbYXbBeCDTM
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YCAdeXmvNF5GraOR3r3AB7
+          claim_id: c_QJGhDgIPtoQ9k8njf0zmNJ
+          source_id: s_HKUvL6tDCQPamiF1rrU2Yi
+          stance: supports
+          locator: 洪武四年進士登科錄:一卷，第二甲第七名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_VaBkz2Eq5TiujxaCF8b84V
+        status: active
+        display_name: 王益
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_zBHHyWbtJMhXN5DJPkc8Hc | 王桂 | accepted |
+| ancestors | p_77B1M9ugjRjaUugow1VTEB | 王祖昇 | accepted |
+| ancestors | p_VaBkz2Eq5TiujxaCF8b84V | 王益 | accepted |
 
 ## 外部来源
 

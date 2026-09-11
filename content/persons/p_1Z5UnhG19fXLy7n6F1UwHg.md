@@ -4,7 +4,7 @@ id: p_1Z5UnhG19fXLy7n6F1UwHg
 status: active
 merged_into: null
 display_name: 王納誨
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_T3EeTEKYy_HAhQcCn8z1sM
+        subject_person_id: p_Qgi5dcqDryNPsU26Qm66Ka
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1Z5UnhG19fXLy7n6F1UwHg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cUjPxhWSgEOsEYid70Cp3M
+          claim_id: c_T3EeTEKYy_HAhQcCn8z1sM
+          source_id: s_Z5C1Z7dXiFUhSuKwZiKM9C
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第二甲第四十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Qgi5dcqDryNPsU26Qm66Ka
+        status: active
+        display_name: 王琮
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_3peR7UbAiTVYi1xU3ypp-c
+        subject_person_id: p_F7Xf89xVagQzqZH86LPDkT
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1Z5UnhG19fXLy7n6F1UwHg
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zaaQS8nevoJx8ScoakVYqd
+          claim_id: c_3peR7UbAiTVYi1xU3ypp-c
+          source_id: s_Z5C1Z7dXiFUhSuKwZiKM9C
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第二甲第四十七名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_F7Xf89xVagQzqZH86LPDkT
+        status: active
+        display_name: 王奉先
+        merged_into_person_id: null
+    - claim:
+        id: c_jhEf0D-bnGNNmGjis1rpPz
+        subject_person_id: p_W9geBzvuhL2GK1XqUmrkGC
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1Z5UnhG19fXLy7n6F1UwHg
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fhUFZtosFYoZWntEyQF8_A
+          claim_id: c_jhEf0D-bnGNNmGjis1rpPz
+          source_id: s_Z5C1Z7dXiFUhSuKwZiKM9C
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第二甲第四十七名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_W9geBzvuhL2GK1XqUmrkGC
+        status: active
+        display_name: 王鐸
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Qgi5dcqDryNPsU26Qm66Ka | 王琮 | accepted |
+| ancestors | p_F7Xf89xVagQzqZH86LPDkT | 王奉先 | accepted |
+| ancestors | p_W9geBzvuhL2GK1XqUmrkGC | 王鐸 | accepted |
 
 ## 外部来源
 

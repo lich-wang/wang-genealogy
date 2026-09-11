@@ -4,7 +4,7 @@ id: p_2EfMZkQk81KS57VSPMi2J4
 status: active
 merged_into: null
 display_name: 王國棟
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_uPkr4uZ_2JxcCvMz0URHe9
+        subject_person_id: p_AKiZ73AHqEtzATAkDq6m9S
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2EfMZkQk81KS57VSPMi2J4
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9Q2CboJK1mD6sPLzvlR405
+          claim_id: c_uPkr4uZ_2JxcCvMz0URHe9
+          source_id: s_5jffiP2hWVwSEFfBYB1tuQ
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第一百九十四名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_AKiZ73AHqEtzATAkDq6m9S
+        status: active
+        display_name: 王瑛
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_AKiZ73AHqEtzATAkDq6m9S | 王瑛 | accepted |
 
 ## 外部来源
 

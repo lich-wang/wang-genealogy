@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王祖昇
 cbdb_id: 279196
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_xnhBs-UI3i7WaqMcr-jVji
+        subject_person_id: p_77B1M9ugjRjaUugow1VTEB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2bM722d9X3YmbYXbBeCDTM
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dSgxpE1u90lMzg8jZfLdoh
+          claim_id: c_xnhBs-UI3i7WaqMcr-jVji
+          source_id: s_HKUvL6tDCQPamiF1rrU2Yi
+          stance: supports
+          locator: 洪武四年進士登科錄:一卷，第二甲第七名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_HKUvL6tDCQPamiF1rrU2Yi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敬中（CBDB 198032）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198032&o=json
+            external_identifier: CBDB:198032
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.466Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_2bM722d9X3YmbYXbBeCDTM
+        status: active
+        display_name: 王敬中
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_2bM722d9X3YmbYXbBeCDTM | 王敬中 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王敬中（CBDB 198032）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198032&o=json)
 - [中国历代人物传记资料库：王祖昇（CBDB 279196）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279196&o=json)

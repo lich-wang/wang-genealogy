@@ -4,7 +4,7 @@ id: p_2cNRhGJDHAsgPbraYrpQmk
 status: active
 merged_into: null
 display_name: 王太沖
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -133,7 +133,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_psrKdwY5HGKctAFW3cu1q-
+        subject_person_id: p_S6ZZKMVMpbpMSQYqkUgMjL
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2cNRhGJDHAsgPbraYrpQmk
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gi2wN01zU5R-d-XIvwb2g9
+          claim_id: c_psrKdwY5HGKctAFW3cu1q-
+          source_id: s_5Da337QYmKhJtE5nry3hRP
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_S6ZZKMVMpbpMSQYqkUgMjL
+        status: active
+        display_name: 王晞亮
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_S6ZZKMVMpbpMSQYqkUgMjL | 王晞亮 | accepted |
 
 ## 外部来源
 

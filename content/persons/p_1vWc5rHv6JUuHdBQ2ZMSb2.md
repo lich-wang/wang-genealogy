@@ -4,7 +4,7 @@ id: p_1vWc5rHv6JUuHdBQ2ZMSb2
 status: active
 merged_into: null
 display_name: 王棠
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_vL1GcJDK2Fer6z0hQgVw8y
+        subject_person_id: p_JDkk9mN2RuQb3Zpo6HEPAu
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1vWc5rHv6JUuHdBQ2ZMSb2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mRMY5WNOayQLbLNeFRg2Iy
+          claim_id: c_vL1GcJDK2Fer6z0hQgVw8y
+          source_id: s_L4hA8h1CjWmXRgBxPRZu6r
+          stance: supports
+          locator: "民國歙縣志: 十六卷，lgid=1163683：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_JDkk9mN2RuQb3Zpo6HEPAu
+        status: active
+        display_name: 王泰徵
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_JDkk9mN2RuQb3Zpo6HEPAu | 王泰徵 | accepted |
 
 ## 外部来源
 

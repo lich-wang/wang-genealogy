@@ -4,7 +4,7 @@ id: p_2dGLq9M3r4GA9DiCamnk1q
 status: active
 merged_into: null
 display_name: 王操
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_zzopjFs2kAxx8rbHKfc7G0
+        subject_person_id: p_9374kqWeseAGPFDFmR8DXT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2dGLq9M3r4GA9DiCamnk1q
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zLx8XwP6-k-1j5QyzbA-Mh
+          claim_id: c_zzopjFs2kAxx8rbHKfc7G0
+          source_id: s_9JFP88AJPAVEp3RLvSjawu
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Jinglong 34：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_9374kqWeseAGPFDFmR8DXT
+        status: active
+        display_name: 王相
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_9374kqWeseAGPFDFmR8DXT | 王相 | accepted |
 
 ## 外部来源
 

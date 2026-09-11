@@ -4,7 +4,7 @@ id: p_1ZpZ4oSkBmp5LTrwz98U1P
 status: active
 merged_into: null
 display_name: 王璒
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_yRHLG5tyruAZ7jA0666OtB
+        subject_person_id: p_emX7f7ZNYGdtrayueB5cGr
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1ZpZ4oSkBmp5LTrwz98U1P
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B5WOtFYA_4UEaX3qMAoBAd
+          claim_id: c_yRHLG5tyruAZ7jA0666OtB
+          source_id: s_NKRe2AbML1THQe9ZjP6YLj
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_emX7f7ZNYGdtrayueB5cGr
+        status: active
+        display_name: 王勛
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_zMg1zZPXO4Z4XxLlTXk8mk
+        subject_person_id: p_86LNBmYKZz7jpSCGU33GA7
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1ZpZ4oSkBmp5LTrwz98U1P
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oiNtGtJYrzih4uh6le8U7R
+          claim_id: c_zMg1zZPXO4Z4XxLlTXk8mk
+          source_id: s_NKRe2AbML1THQe9ZjP6YLj
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第七名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_86LNBmYKZz7jpSCGU33GA7
+        status: active
+        display_name: 王成
+        merged_into_person_id: null
+    - claim:
+        id: c_Hz8D7cFUguCFEGjhzDnEI9
+        subject_person_id: p_bjfrEWAYPSWh3qAFC84YCF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1ZpZ4oSkBmp5LTrwz98U1P
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JdGefEqeCrRk4bMZlCM6GG
+          claim_id: c_Hz8D7cFUguCFEGjhzDnEI9
+          source_id: s_NKRe2AbML1THQe9ZjP6YLj
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第七名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_bjfrEWAYPSWh3qAFC84YCF
+        status: active
+        display_name: 王福順
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_emX7f7ZNYGdtrayueB5cGr | 王勛 | accepted |
+| ancestors | p_86LNBmYKZz7jpSCGU33GA7 | 王成 | accepted |
+| ancestors | p_bjfrEWAYPSWh3qAFC84YCF | 王福順 | accepted |
 
 ## 外部来源
 

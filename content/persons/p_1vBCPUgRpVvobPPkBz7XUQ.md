@@ -4,7 +4,7 @@ id: p_1vBCPUgRpVvobPPkBz7XUQ
 status: active
 merged_into: null
 display_name: 王榮祖
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_6Ay6pA8W6kfM_agg1BpBpX
+        subject_person_id: p_1vBCPUgRpVvobPPkBz7XUQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8ZLbGSCyxEBh4Lfvwj9PR4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MHbp9I7uT20EZ9zwlxlRbZ
+          claim_id: c_6Ay6pA8W6kfM_agg1BpBpX
+          source_id: s_dKCY1Jzny5vGF2C9SvxsVp
+          stance: supports
+          locator: 元人傳記資料索引，18631：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_8ZLbGSCyxEBh4Lfvwj9PR4
+        status: active
+        display_name: 王廷
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_8ZLbGSCyxEBh4Lfvwj9PR4 | 王廷 | accepted |
 
 ## 外部来源
 
