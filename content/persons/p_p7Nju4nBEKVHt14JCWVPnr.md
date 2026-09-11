@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王直興
 cbdb_id: 249594
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:249594
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_rF8e7572D57rAhqb26AHWU
             source_type: api_record
             title: 中国历代人物传记资料库：王直興（CBDB 249594）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_eMDv4Mz7BR3smqyrcTotXv
+        subject_person_id: p_p7Nju4nBEKVHt14JCWVPnr
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_JEUpyam7C1Pm8JC9r4xGZ3
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Aozcgz3MJRRIqXUituSaNe
+          claim_id: c_eMDv4Mz7BR3smqyrcTotXv
+          source_id: s_rF8e7572D57rAhqb26AHWU
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第九十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_JEUpyam7C1Pm8JC9r4xGZ3
+        status: active
+        display_name: 王舉
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_JEUpyam7C1Pm8JC9r4xGZ3 | 王舉 | accepted |
 
 ## 外部来源
 

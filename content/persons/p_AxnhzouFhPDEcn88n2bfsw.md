@@ -4,7 +4,7 @@ id: p_AxnhzouFhPDEcn88n2bfsw
 status: active
 merged_into: null
 display_name: 王宗沐
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -207,7 +207,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_mlQkqtdkS1l_nfLQOC5dbr
+        subject_person_id: p_ox7yiximghECqCRKNggNvk
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_AxnhzouFhPDEcn88n2bfsw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1jmyRid1XrwPI4s9ZcgGn5
+          claim_id: c_mlQkqtdkS1l_nfLQOC5dbr
+          source_id: s_cGaqYxCpTDcUzNoW1L3HHJ
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第二甲第四十三名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_cGaqYxCpTDcUzNoW1L3HHJ
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：秦氏（305711）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305711&o=json
+            external_identifier: CBDB:305711
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:42.305Z
+            metadata_json: null
+      object_person:
+        id: p_ox7yiximghECqCRKNggNvk
+        status: active
+        display_name: 秦氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_ChJ1BhkNAAKSmtvzlDh8Fy
@@ -306,6 +343,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_aZ1ZKEEFmDKA3BH7yDPbwn | 王训 | accepted |
 | children | p_F5eJWEbAr7A8TPLP4MEWxZ | 王士業 | accepted |
+| spouses | p_ox7yiximghECqCRKNggNvk | 秦氏 | accepted |
 | ancestors | p_SwDsuB67vTqP193VDVu7Pk | 王逸卿 | accepted |
 | ancestors | p_VkzS7RnDgwBF356dDv2J9B | 王纉 | accepted |
 
@@ -314,5 +352,6 @@ relationships:
 - [中国历代人物传记资料库：王士業（CBDB 222410）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222410&o=json)
 - [中国历代人物传记资料库：王逸卿（CBDB 305708）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305708&o=json)
 - [中国历代人物传记资料库：王宗沐（CBDB 35065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35065&o=json)
+- [CBDB 中国历代人物传记资料库：秦氏（305711）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305711&o=json)
 - [CBDB 中国历代人物传记资料库：王訓（305709）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305709&o=json)
 - [CBDB 中国历代人物传记资料库：王纉（305707）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305707&o=json)

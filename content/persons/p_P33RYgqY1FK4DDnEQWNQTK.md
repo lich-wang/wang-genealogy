@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王甑
 cbdb_id: 157221
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:157221
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_s2qoiFBFxGRHuppuK458Xb
             source_type: api_record
             title: 中国历代人物传记资料库：王甑（CBDB 157221）
@@ -129,7 +129,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_OAvQPBxktJGA0O-Q_ckLdg
+        subject_person_id: p_P33RYgqY1FK4DDnEQWNQTK
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_z5fd9doZBpHnhM7XG6sUvg
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TLse3kW0V9e6_nTV_N3dZb
+          claim_id: c_OAvQPBxktJGA0O-Q_ckLdg
+          source_id: s_s2qoiFBFxGRHuppuK458Xb
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yuanhe 148：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_z5fd9doZBpHnhM7XG6sUvg
+        status: active
+        display_name: 王佺
+        merged_into_person_id: null
   other: []
 ---
 
@@ -149,6 +175,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_LZDyxwkDn7hMScsFxGBinn | 王金 | accepted |
+| descendants | p_z5fd9doZBpHnhM7XG6sUvg | 王佺 | accepted |
 
 ## 外部来源
 

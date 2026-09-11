@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王元慎
 cbdb_id: 163179
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:163179
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_gr9nC5fppawN8wNE5BV19X
             source_type: api_record
             title: 中国历代人物传记资料库：王元慎（CBDB 163179）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Kv4Vt_F7ICikuYSNZe9IqM
+        subject_person_id: p_5Np11bpUk1ewMpdWYFHGy2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qU5ePg25AxmDuXd2vF94MX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_twnsz00UhBjhwn9I2jJzjo
+          claim_id: c_Kv4Vt_F7ICikuYSNZe9IqM
+          source_id: s_gr9nC5fppawN8wNE5BV19X
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5Np11bpUk1ewMpdWYFHGy2
+        status: active
+        display_name: 王令思
+        merged_into_person_id: null
   children:
     - claim:
         id: c_lUU91kRDPdyYARkO7aTffP
@@ -148,6 +174,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5Np11bpUk1ewMpdWYFHGy2 | 王令思 | accepted |
 | children | p_6YpXxeKRMWr6vVrAX9K1Tv | 王婉 | accepted |
 
 ## 外部来源

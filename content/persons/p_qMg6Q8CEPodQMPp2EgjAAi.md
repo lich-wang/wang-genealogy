@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王以通
 cbdb_id: 206705
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -210,6 +210,44 @@ relationships:
         status: active
         display_name: 王進宗
         merged_into_person_id: null
+    - claim:
+        id: c_iL1-NfsXR5wrZXw3J4mNyw
+        subject_person_id: p_prHqmerzCM6YpbMCaZuJpq
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qMg6Q8CEPodQMPp2EgjAAi
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rVpm0ImIpweJgomDCsUZ08
+          claim_id: c_iL1-NfsXR5wrZXw3J4mNyw
+          source_id: s_etdr5hy5MsgFdQm5GjQVGJ
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第二百二十一名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_etdr5hy5MsgFdQm5GjQVGJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王茂績（CBDB 221817）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221817&o=json
+            external_identifier: CBDB:221817
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:57.241Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_prHqmerzCM6YpbMCaZuJpq
+        status: active
+        display_name: 王茂績
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -232,9 +270,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_BtPUy8Ayd7XFTp2c4HBHNK | 王榮 | accepted |
 | ancestors | p_JHYkG4D5bDS11ywRtQogJy | 王進宗 | accepted |
+| ancestors | p_prHqmerzCM6YpbMCaZuJpq | 王茂績 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王進宗（CBDB 221818）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221818&o=json)
+- [中国历代人物传记资料库：王茂績（CBDB 221817）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221817&o=json)
 - [中国历代人物传记资料库：王榮（CBDB 221819）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221819&o=json)
 - [中国历代人物传记资料库：王以通（CBDB 206705）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206705&o=json)

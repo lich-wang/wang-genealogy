@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王文
 cbdb_id: 288333
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -245,6 +245,32 @@ relationships:
         status: active
         display_name: 王與齡
         merged_into_person_id: null
+    - claim:
+        id: c_H20whXWxRIYGG2OS_2_RYR
+        subject_person_id: p_qa4sYo9q4waHmECZyCZ8M3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qzznHsDy1MaFH1YWPbYub4
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1A4x89A3bPQ63v8HTGmsdb
+          claim_id: c_H20whXWxRIYGG2OS_2_RYR
+          source_id: s_ggPMxgP9MUw47QUWi5DSum
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第二甲第九十三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qzznHsDy1MaFH1YWPbYub4
+        status: active
+        display_name: 王培龄
+        merged_into_person_id: null
   other: []
 ---
 
@@ -266,6 +292,7 @@ relationships:
 | parents | p_FxDnZ7tzsLrvZRviCHaK5y | 王睿 | accepted |
 | children | p_KHASkzeAzAbrH4KC5REzz6 | 王爵 | accepted |
 | descendants | p_nTV1T9RX74vHEA3tyMaebm | 王與齡 | accepted |
+| descendants | p_qzznHsDy1MaFH1YWPbYub4 | 王培龄 | accepted |
 
 ## 外部来源
 

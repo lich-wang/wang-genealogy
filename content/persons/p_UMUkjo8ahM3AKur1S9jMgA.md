@@ -4,7 +4,7 @@ id: p_UMUkjo8ahM3AKur1S9jMgA
 status: active
 merged_into: null
 display_name: 王謠
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_dpCeYS1s3NAuekdwLFJdeK
+        subject_person_id: p_qqsY6t9Q8faV4F4CdLeZ5T
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UMUkjo8ahM3AKur1S9jMgA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vj-Clyv4nisZKI7-fQiKtf
+          claim_id: c_dpCeYS1s3NAuekdwLFJdeK
+          source_id: s_8mW4QyCmDN4jrYUjExNRUL
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第三甲第一百八十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8mW4QyCmDN4jrYUjExNRUL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王本堅（CBDB 332107）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332107&o=json
+            external_identifier: CBDB:332107
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:07.614Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_qqsY6t9Q8faV4F4CdLeZ5T
+        status: active
+        display_name: 王本堅
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +238,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qqsY6t9Q8faV4F4CdLeZ5T | 王本堅 | accepted |
 | ancestors | p_4QxZ7mQuxJ5N4jCYcE8DD4 | 王翔 | accepted |
 | ancestors | p_MYNEhQnetSCjeqd6R96N2Q | 王朝荣 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王本堅（CBDB 332107）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332107&o=json)
 - [中国历代人物传记资料库：王朝荣（CBDB 332105）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332105&o=json)
 - [中国历代人物传记资料库：王翔（CBDB 332106）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332106&o=json)
 - [中国历代人物传记资料库：王謠（CBDB 205360）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205360&o=json)

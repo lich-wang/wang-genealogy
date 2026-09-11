@@ -4,7 +4,7 @@ id: p_NYtdu2CY4GDrtrwsQaXuDi
 status: active
 merged_into: null
 display_name: 王朝賢
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -217,6 +217,44 @@ relationships:
         status: active
         display_name: 王簪
         merged_into_person_id: null
+    - claim:
+        id: c_SDyfHy4I9X9HnOcJMroBi3
+        subject_person_id: p_opa5YQitJBDvTXt7fr8KDm
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_NYtdu2CY4GDrtrwsQaXuDi
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6wLXvOddDHzU3QMoXorFnN
+          claim_id: c_SDyfHy4I9X9HnOcJMroBi3
+          source_id: s_mv67k5J4NUQgcXWu77MtJu
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第一百八十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_mv67k5J4NUQgcXWu77MtJu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王焄（CBDB 294140）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294140&o=json
+            external_identifier: CBDB:294140
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:03.722Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_opa5YQitJBDvTXt7fr8KDm
+        status: active
+        display_name: 王焄
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -240,10 +278,12 @@ relationships:
 | parents | p_n2FPLD2HEJ5X29oj3Kwhfv | 王載 | accepted |
 | children | p_X3T6w98BRJaGnRFLHzRJ7P | 王汝玉 | accepted |
 | ancestors | p_YB8Sg5NvAJJ98XyCt8tJ7k | 王簪 | accepted |
+| ancestors | p_opa5YQitJBDvTXt7fr8KDm | 王焄 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王朝賢（CBDB 202778）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202778&o=json)
 - [中国历代人物传记资料库：王汝玉（CBDB 294146）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294146&o=json)
+- [中国历代人物传记资料库：王焄（CBDB 294140）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294140&o=json)
 - [中国历代人物传记资料库：王載（CBDB 294142）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294142&o=json)
 - [中国历代人物传记资料库：王簪（CBDB 294139）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294139&o=json)

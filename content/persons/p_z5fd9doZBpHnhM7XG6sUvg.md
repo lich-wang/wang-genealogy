@@ -4,7 +4,7 @@ id: p_z5fd9doZBpHnhM7XG6sUvg
 status: active
 merged_into: null
 display_name: 王佺
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -283,7 +283,45 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_OAvQPBxktJGA0O-Q_ckLdg
+        subject_person_id: p_P33RYgqY1FK4DDnEQWNQTK
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_z5fd9doZBpHnhM7XG6sUvg
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TLse3kW0V9e6_nTV_N3dZb
+          claim_id: c_OAvQPBxktJGA0O-Q_ckLdg
+          source_id: s_s2qoiFBFxGRHuppuK458Xb
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yuanhe 148：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_s2qoiFBFxGRHuppuK458Xb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王甑（CBDB 157221）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157221&o=json
+            external_identifier: CBDB:157221
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.122Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_P33RYgqY1FK4DDnEQWNQTK
+        status: active
+        display_name: 王甑
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -309,6 +347,7 @@ relationships:
 | children | p_wYatJZEPhxC13F1U63sYX7 | 王中和 | accepted |
 | children | p_JXS7WxyCeaBXvxcHq83ALZ | 王十一娘子 | accepted |
 | children | p_kj7xLVAdnL38cq8xDTKsqF | 王叔遇 | accepted |
+| ancestors | p_P33RYgqY1FK4DDnEQWNQTK | 王甑 | accepted |
 
 ## 外部来源
 
@@ -316,4 +355,5 @@ relationships:
 - [中国历代人物传记资料库：王佺（CBDB 141115）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141115&o=json)
 - [中国历代人物传记资料库：王十一娘子（CBDB 157223）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157223&o=json)
 - [中国历代人物传记资料库：王叔遇（CBDB 157224）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157224&o=json)
+- [中国历代人物传记资料库：王甑（CBDB 157221）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157221&o=json)
 - [中国历代人物传记资料库：王中和（CBDB 157225）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157225&o=json)

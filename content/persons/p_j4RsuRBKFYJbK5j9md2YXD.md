@@ -4,7 +4,7 @@ id: p_j4RsuRBKFYJbK5j9md2YXD
 status: active
 merged_into: null
 display_name: 王承裕
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -157,6 +157,43 @@ relationships:
         status: active
         display_name: 张氏
         merged_into_person_id: null
+    - claim:
+        id: c_h_V8GEi3T-xKJl6-RDlWfh
+        subject_person_id: p_Qd35J9Vr9qLhrzFStDP4Qn
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_j4RsuRBKFYJbK5j9md2YXD
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aTNhu6cxC0qdynJxtrCPZ2
+          claim_id: c_h_V8GEi3T-xKJl6-RDlWfh
+          source_id: s_d4fM3ZJGKsQRoE6t5pmvQt
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第二甲第二十三名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_d4fM3ZJGKsQRoE6t5pmvQt
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：張氏（264042）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264042&o=json
+            external_identifier: CBDB:264042
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:05.936Z
+            metadata_json: null
+      object_person:
+        id: p_Qd35J9Vr9qLhrzFStDP4Qn
+        status: active
+        display_name: 张氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_coMJK_CGabCn2hpm6AoWcd
@@ -232,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_T2DCj9d6XKU4djHJMs2kSM | 王恕 | accepted |
 | spouses | p_Qd35J9Vr9qLhrzFStDP4Qn | 张氏 | accepted |
+| spouses | p_Qd35J9Vr9qLhrzFStDP4Qn | 张氏 | accepted |
 | ancestors | p_tcWDCYEjZBxpgXVNCyJD9U | 王惟直 | accepted |
 | ancestors | p_g1bs6h5k4Pu2preBv8KZPd | 王仲智 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王承裕（CBDB 67772）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67772&o=json)
+- [CBDB 中国历代人物传记资料库：張氏（264042）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264042&o=json)

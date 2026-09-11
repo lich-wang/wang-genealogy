@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王本儉
 cbdb_id: 199945
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,6 +209,44 @@ relationships:
         status: active
         display_name: 王舜舉
         merged_into_person_id: null
+    - claim:
+        id: c_L04tQhhpUMMZy3bt5ldzjD
+        subject_person_id: p_NRa6XXtWh7zQSNUG1c3Q66
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9PrBQcpmCF997Qgs2oiS3t
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_G_tCE3EFXiMQnG_t1Bn99d
+          claim_id: c_L04tQhhpUMMZy3bt5ldzjD
+          source_id: s_UJwrmM59KWPqJpCKhziRSH
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_UJwrmM59KWPqJpCKhziRSH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王友誠（CBDB 251770）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251770&o=json
+            external_identifier: CBDB:251770
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:00.581Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_NRa6XXtWh7zQSNUG1c3Q66
+        status: active
+        display_name: 王友誠
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_6jw2H1KWkaDQExePFFB6Yj | 王孟良 | accepted |
 | ancestors | p_aL6sNwbpjQDM2taGx8TTha | 王舜舉 | accepted |
+| ancestors | p_NRa6XXtWh7zQSNUG1c3Q66 | 王友誠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王本儉（CBDB 199945）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199945&o=json)
 - [中国历代人物传记资料库：王孟良（CBDB 251771）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251771&o=json)
 - [中国历代人物传记资料库：王舜舉（CBDB 251769）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251769&o=json)
+- [中国历代人物传记资料库：王友誠（CBDB 251770）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251770&o=json)

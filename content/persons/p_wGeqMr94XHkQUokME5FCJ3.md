@@ -4,7 +4,7 @@ id: p_wGeqMr94XHkQUokME5FCJ3
 status: active
 merged_into: null
 display_name: 王舟
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Ie4Q7p1HoSLietOxRRh3Mu
+        subject_person_id: p_PssJzEL6PmniEjHiumeCwT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wGeqMr94XHkQUokME5FCJ3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_W-ULr1oI23dJ2AWH1w78tc
+          claim_id: c_Ie4Q7p1HoSLietOxRRh3Mu
+          source_id: s_PdhDz4z55W6Zg9LekZmUks
+          stance: supports
+          locator: 成化五年進士登科錄:一卷，第三甲第七十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_PdhDz4z55W6Zg9LekZmUks
+            source_type: api_record
+            title: 中国历代人物传记资料库：王騶虞（CBDB 244055）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244055&o=json
+            external_identifier: CBDB:244055
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:59.761Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_PssJzEL6PmniEjHiumeCwT
+        status: active
+        display_name: 王騶虞
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +238,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_PssJzEL6PmniEjHiumeCwT | 王騶虞 | accepted |
 | ancestors | p_agr7Kh67jpGsGa4tzGrKgc | 王文華 | accepted |
 | ancestors | p_B3XLSR6CqA2q9R5BhcVhA3 | 王克誠 | accepted |
 
@@ -208,3 +247,4 @@ relationships:
 - [中国历代人物传记资料库：王克誠（CBDB 244053）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244053&o=json)
 - [中国历代人物传记资料库：王文華（CBDB 244054）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244054&o=json)
 - [中国历代人物传记资料库：王舟（CBDB 199369）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199369&o=json)
+- [中国历代人物传记资料库：王騶虞（CBDB 244055）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244055&o=json)

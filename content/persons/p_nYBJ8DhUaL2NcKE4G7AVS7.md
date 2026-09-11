@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王希遠
 cbdb_id: 237765
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:237765
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_a4fKydkrtkN7vhSHyj4bzM
             source_type: api_record
             title: 中国历代人物传记资料库：王希遠（CBDB 237765）
@@ -130,6 +130,32 @@ relationships:
         status: active
         display_name: 王祿
         merged_into_person_id: null
+    - claim:
+        id: c_zLI21julB9X0tgsplp55zG
+        subject_person_id: p_nYBJ8DhUaL2NcKE4G7AVS7
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_t5oHeornqu2QNuT9xayaao
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aKaZtNqT06zwiFO8Lh8ILw
+          claim_id: c_zLI21julB9X0tgsplp55zG
+          source_id: s_a4fKydkrtkN7vhSHyj4bzM
+          stance: supports
+          locator: 正统七年進士登科錄:一卷，第二甲第三十一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_t5oHeornqu2QNuT9xayaao
+        status: active
+        display_name: 王英
+        merged_into_person_id: null
   other: []
 ---
 
@@ -149,6 +175,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | descendants | p_5CduZYd3M32UzBRfFgkTNy | 王祿 | accepted |
+| descendants | p_t5oHeornqu2QNuT9xayaao | 王英 | accepted |
 
 ## 外部来源
 

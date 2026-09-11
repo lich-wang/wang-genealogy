@@ -4,7 +4,7 @@ id: p_RmcPLrzSEzw9YLSpR61Aoj
 status: active
 merged_into: null
 display_name: 王志
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_aDZs92I50zNVExM0jm_4ag
+        subject_person_id: p_ofnbfARJ5n1kfSHJQi6A43
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RmcPLrzSEzw9YLSpR61Aoj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oaIsTG7QsMTnb7HDK4NGdH
+          claim_id: c_aDZs92I50zNVExM0jm_4ag
+          source_id: s_YPMG29xr7uRyxKGqBJd6p4
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第二甲第六十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_YPMG29xr7uRyxKGqBJd6p4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文卿（CBDB 228973）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228973&o=json
+            external_identifier: CBDB:228973
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.142Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_ofnbfARJ5n1kfSHJQi6A43
+        status: active
+        display_name: 王文卿
+        merged_into_person_id: null
   children:
     - claim:
         id: c_zhABF7kTAkloR8ZhiYQI3H
@@ -314,6 +352,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ofnbfARJ5n1kfSHJQi6A43 | 王文卿 | accepted |
 | children | p_2RVdQXVc5dFpLTBHLLa8fr | 王進第 | accepted |
 | children | p_3VtwA47iQeQky7CG25jomj | 王選第 | accepted |
 | children | p_CHADHJsq81rcmswZHVVcRf | 王連第 | accepted |
@@ -325,6 +364,7 @@ relationships:
 - [中国历代人物传记资料库：王進第（CBDB 228978）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228978&o=json)
 - [中国历代人物传记资料库：王連第（CBDB 228979）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228979&o=json)
 - [中国历代人物传记资料库：王廷（CBDB 228971）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228971&o=json)
+- [中国历代人物传记资料库：王文卿（CBDB 228973）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228973&o=json)
 - [中国历代人物传记资料库：王選第（CBDB 228980）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228980&o=json)
 - [中国历代人物传记资料库：王釗（CBDB 228972）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228972&o=json)
 - [中国历代人物传记资料库：王志（CBDB 207176）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207176&o=json)

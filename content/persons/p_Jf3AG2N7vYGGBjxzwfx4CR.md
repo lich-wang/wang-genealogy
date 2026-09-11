@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王珌
 cbdb_id: 164582
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -200,7 +200,45 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_-LfDlgeKrx8Mt_jb5lBjON
+        subject_person_id: p_Jf3AG2N7vYGGBjxzwfx4CR
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_QvPhnczVXd8EJkAtkRAA2Q
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2I2aLU1Ed3q5iAb_a56uYw
+          claim_id: c_-LfDlgeKrx8Mt_jb5lBjON
+          source_id: s_8dG9nvMoysHKHsrrpYe2t9
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Tianbao26：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8dG9nvMoysHKHsrrpYe2t9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王芳媚（CBDB 142971）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142971&o=json
+            external_identifier: CBDB:142971
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:39.240Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_QvPhnczVXd8EJkAtkRAA2Q
+        status: active
+        display_name: 王芳媚
+        merged_into_person_id: null
   other: []
 ---
 
@@ -221,11 +259,13 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_HSq6viRBnzj6LqF76CNxvY | 王𫖮 | accepted |
 | children | p_kpAhKMDABDScnE9Hdp7QQo | 王閔 | accepted |
+| descendants | p_QvPhnczVXd8EJkAtkRAA2Q | 王芳媚 | accepted |
 
 ## 外部来源
 
 - [维基数据：王珌（Q45602523）](https://www.wikidata.org/wiki/Q45602523)
 - [维基数据：王𫖮（Q28413506）](https://www.wikidata.org/wiki/Q28413506)
+- [中国历代人物传记资料库：王芳媚（CBDB 142971）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142971&o=json)
 - [中国历代人物传记资料库：王閔（CBDB 175842）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175842&o=json)
 - [CBDB 中国历代人物传记资料库：王珌（164582）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=164582&o=json)
 - [CBDB 中国历代人物传记资料库：王顗（33012）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33012&o=json)

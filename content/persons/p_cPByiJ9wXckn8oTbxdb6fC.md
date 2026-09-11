@@ -4,7 +4,7 @@ id: p_cPByiJ9wXckn8oTbxdb6fC
 status: active
 merged_into: null
 display_name: 王世仁
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -245,6 +245,44 @@ relationships:
         status: active
         display_name: 王燾
         merged_into_person_id: null
+    - claim:
+        id: c_4_afmDB4C3s7XKVQLRbdbf
+        subject_person_id: p_PW6u1k1ak63G3htuT8PNGc
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cPByiJ9wXckn8oTbxdb6fC
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zO_Eb0TSAEzVj7qOpcjBCi
+          claim_id: c_4_afmDB4C3s7XKVQLRbdbf
+          source_id: s_QrYLAP3QiixYjvDDjyhA9U
+          stance: supports
+          locator: 牧齋有學集：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_QrYLAP3QiixYjvDDjyhA9U
+            source_type: api_record
+            title: 中国历代人物传记资料库：王拭（CBDB 338251）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338251&o=json
+            external_identifier: CBDB:338251
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:08.348Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_PW6u1k1ak63G3htuT8PNGc
+        status: active
+        display_name: 王拭
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -269,6 +307,7 @@ relationships:
 | parents | p_w23nYb8qHQAvs4dnvFLxF6 | 王嘉言 | accepted |
 | children | p_1p4v7xXard7D3C1bYnL9Cj | 王徽 | accepted |
 | ancestors | p_2StFDBuSe9949aH2UpEtKJ | 王燾 | accepted |
+| ancestors | p_PW6u1k1ak63G3htuT8PNGc | 王拭 | accepted |
 
 ## 外部来源
 
@@ -276,3 +315,4 @@ relationships:
 - [中国历代人物传记资料库：王徽（CBDB 123386）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123386&o=json)
 - [中国历代人物传记资料库：王嘉言（CBDB 338253）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338253&o=json)
 - [中国历代人物传记资料库：王世仁（CBDB 123385）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123385&o=json)
+- [中国历代人物传记资料库：王拭（CBDB 338251）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338251&o=json)

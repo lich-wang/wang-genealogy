@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王芳媚
 cbdb_id: 142971
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:142971
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_8dG9nvMoysHKHsrrpYe2t9
             source_type: api_record
             title: 中国历代人物传记资料库：王芳媚（CBDB 142971）
@@ -172,12 +172,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_bqDRnQZYd7oSyPtIPdZkLd
+        subject_person_id: p_CWPBrhMiB4QhsDQzD22Bfc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QvPhnczVXd8EJkAtkRAA2Q
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fjNM4AbHB3sBfLdcScuOE7
+          claim_id: c_bqDRnQZYd7oSyPtIPdZkLd
+          source_id: s_8dG9nvMoysHKHsrrpYe2t9
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Tianbao26：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_CWPBrhMiB4QhsDQzD22Bfc
+        status: active
+        display_name: 王美暢
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_-LfDlgeKrx8Mt_jb5lBjON
+        subject_person_id: p_Jf3AG2N7vYGGBjxzwfx4CR
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_QvPhnczVXd8EJkAtkRAA2Q
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2I2aLU1Ed3q5iAb_a56uYw
+          claim_id: c_-LfDlgeKrx8Mt_jb5lBjON
+          source_id: s_8dG9nvMoysHKHsrrpYe2t9
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Tianbao26：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Jf3AG2N7vYGGBjxzwfx4CR
+        status: active
+        display_name: 王珌
+        merged_into_person_id: null
+    - claim:
+        id: c_eMAsN8Yas9SWxZdL6YLCLb
+        subject_person_id: p_QWBaJrFaK6czZu1tA48fxf
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_QvPhnczVXd8EJkAtkRAA2Q
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-kUGtdqLADTNX-6exUHUw8
+          claim_id: c_eMAsN8Yas9SWxZdL6YLCLb
+          source_id: s_8dG9nvMoysHKHsrrpYe2t9
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Tianbao26：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_QWBaJrFaK6czZu1tA48fxf
+        status: active
+        display_name: 王思泰
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -199,6 +277,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_CWPBrhMiB4QhsDQzD22Bfc | 王美暢 | accepted |
+| ancestors | p_Jf3AG2N7vYGGBjxzwfx4CR | 王珌 | accepted |
+| ancestors | p_QWBaJrFaK6czZu1tA48fxf | 王思泰 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王纘宗
 cbdb_id: 324561
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:324561
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_4y8cFGHpEpZcqM3DqnwKCq
             source_type: api_record
             title: 中国历代人物传记资料库：王纘宗（CBDB 324561）
@@ -87,7 +87,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_gW5ClgZTRF44P-BOnw_BSn
+        subject_person_id: p_oZ4kQSFi4x4MxZ3DEL5Xbj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hpB2Y5ktFHzZw4LUr2KGvj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_128B9biG3SCqBi3RjuYvYI
+          claim_id: c_gW5ClgZTRF44P-BOnw_BSn
+          source_id: s_4y8cFGHpEpZcqM3DqnwKCq
+          stance: supports
+          locator: 嘉靖三十八年進士登科錄:一卷，第三甲第六十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hpB2Y5ktFHzZw4LUr2KGvj
+        status: active
+        display_name: 王用楨
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_hpB2Y5ktFHzZw4LUr2KGvj | 王用楨 | accepted |
 
 ## 外部来源
 

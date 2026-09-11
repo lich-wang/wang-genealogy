@@ -4,7 +4,7 @@ id: p_xFXiQ1xtVHC3hhy55VEnSX
 status: active
 merged_into: null
 display_name: 王順行
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,45 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Nws25ExQDH-ZH9F5-C5FIs
+        subject_person_id: p_xFXiQ1xtVHC3hhy55VEnSX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oyLKuHgsT2V1zuw1kpseFR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fR1jds1cAgfCVoVBw4Ngjc
+          claim_id: c_Nws25ExQDH-ZH9F5-C5FIs
+          source_id: s_1YM7bJgNducNoqNPseiRNJ
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第一百九名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1YM7bJgNducNoqNPseiRNJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嗣三（CBDB 233004）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233004&o=json
+            external_identifier: CBDB:233004
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.142Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_oyLKuHgsT2V1zuw1kpseFR
+        status: active
+        display_name: 王嗣三
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -163,9 +201,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_oyLKuHgsT2V1zuw1kpseFR | 王嗣三 | accepted |
 | ancestors | p_1SfAWJWx7ysr4yEGFMS1oX | 王寶 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王寶（CBDB 232996）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232996&o=json)
 - [中国历代人物传记资料库：王順行（CBDB 207643）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207643&o=json)
+- [中国历代人物传记资料库：王嗣三（CBDB 233004）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233004&o=json)

@@ -4,7 +4,7 @@ id: p_y879UiTRBKZaXHHY531ywf
 status: active
 merged_into: null
 display_name: 王价
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Yd_xgENAUTD_cPfiu_Um8i
+        subject_person_id: p_Pgpmm7wnTqLY7xY2HfhhZC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_y879UiTRBKZaXHHY531ywf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rF2MJVr3WB6MFqRIvgqciH
+          claim_id: c_Yd_xgENAUTD_cPfiu_Um8i
+          source_id: s_vkFCXGRpL1SJxRu1DGXA7i
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第三甲第一百四十八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_vkFCXGRpL1SJxRu1DGXA7i
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繼乾（CBDB 214679）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214679&o=json
+            external_identifier: CBDB:214679
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:56.502Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_Pgpmm7wnTqLY7xY2HfhhZC
+        status: active
+        display_name: 王繼乾
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +238,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Pgpmm7wnTqLY7xY2HfhhZC | 王繼乾 | accepted |
 | ancestors | p_bDuDm8E7rwt53cHmgXe8Yp | 王鼎 | accepted |
 | ancestors | p_yTRLX3uBmFG8xiMstRoWYF | 王智 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鼎（CBDB 214678）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214678&o=json)
+- [中国历代人物传记资料库：王繼乾（CBDB 214679）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214679&o=json)
 - [中国历代人物传记资料库：王价（CBDB 206196）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206196&o=json)
 - [中国历代人物传记资料库：王智（CBDB 214677）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214677&o=json)

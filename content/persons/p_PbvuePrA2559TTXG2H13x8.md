@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王九娘
 cbdb_id: 152415
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:152415
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_sZQ28WxxHgSK5hgKL5UEXW
             source_type: api_record
             title: 中国历代人物传记资料库：王九娘（CBDB 152415）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_to6a9nb2rc37xWG7-cgwvh
+        subject_person_id: p_MPKDCVoTw3ezXKDrH5XZgB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PbvuePrA2559TTXG2H13x8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LCQcdpAVdF0c0hszwRjbkS
+          claim_id: c_to6a9nb2rc37xWG7-cgwvh
+          source_id: s_sZQ28WxxHgSK5hgKL5UEXW
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 345：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MPKDCVoTw3ezXKDrH5XZgB
+        status: active
+        display_name: 王希俊
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_MPKDCVoTw3ezXKDrH5XZgB | 王希俊 | accepted |
 
 ## 外部来源
 

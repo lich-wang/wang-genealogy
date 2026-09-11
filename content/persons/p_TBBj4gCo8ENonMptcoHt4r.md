@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王獻芝
 cbdb_id: 202753
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,6 +209,44 @@ relationships:
         status: active
         display_name: 王瑗
         merged_into_person_id: null
+    - claim:
+        id: c_XiUWPlye7Icwhw9r8NpbLA
+        subject_person_id: p_psVhFC7ave4jJ5nVVeJckB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_TBBj4gCo8ENonMptcoHt4r
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eMLPr_w7-DvqaXrblJsSof
+          claim_id: c_XiUWPlye7Icwhw9r8NpbLA
+          source_id: s_YRvu3VXHAVd5QDvM8fqxbx
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第一百四十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_YRvu3VXHAVd5QDvM8fqxbx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王永良（CBDB 293680）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293680&o=json
+            external_identifier: CBDB:293680
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:03.722Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_psVhFC7ave4jJ5nVVeJckB
+        status: active
+        display_name: 王永良
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_ydgJ4dzTCX4s92aDhwsv4k | 王寵 | accepted |
 | ancestors | p_CfBpw258HLcQeTLTcYJMD7 | 王瑗 | accepted |
+| ancestors | p_psVhFC7ave4jJ5nVVeJckB | 王永良 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王寵（CBDB 293682）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293682&o=json)
 - [中国历代人物传记资料库：王獻芝（CBDB 202753）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202753&o=json)
+- [中国历代人物传记资料库：王永良（CBDB 293680）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293680&o=json)
 - [中国历代人物传记资料库：王瑗（CBDB 293681）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293681&o=json)

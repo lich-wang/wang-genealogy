@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王顯臣
 cbdb_id: 524248
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:524248
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_yQen55qZjtbquDnZWtrEGE
             source_type: api_record
             title: 中国历代人物传记资料库：王顯臣（CBDB 524248）
@@ -91,7 +91,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_iB2d16nKYF7ehOZCVg0-c4
+        subject_person_id: p_TKmiZiZHuyWhN7PvHAD3qq
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ps5LKo8w6jkMGrs5wYLe2h
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_N9rZHRWc6wJPbGBJ7c20f8
+          claim_id: c_iB2d16nKYF7ehOZCVg0-c4
+          source_id: s_yQen55qZjtbquDnZWtrEGE
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），10741：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_TKmiZiZHuyWhN7PvHAD3qq
+        status: active
+        display_name: 王巹
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_TKmiZiZHuyWhN7PvHAD3qq | 王巹 | accepted |
 
 ## 外部来源
 

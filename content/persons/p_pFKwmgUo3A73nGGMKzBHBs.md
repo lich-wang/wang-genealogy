@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王拙
 cbdb_id: 37664
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:37664
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_kd2xpmV7cbM7HTHL5LptBW
             source_type: api_record
             title: 中国历代人物传记资料库：王拙（CBDB 37664）
@@ -87,7 +87,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_wAb2YVHUtU9MyQpItjq7YU
+        subject_person_id: p_pFKwmgUo3A73nGGMKzBHBs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sJa871eX6sHFY5PnpgZ8NH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JKHMi9hb7mJbHIm2r8F8A5
+          claim_id: c_wAb2YVHUtU9MyQpItjq7YU
+          source_id: s_kd2xpmV7cbM7HTHL5LptBW
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1698：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_sJa871eX6sHFY5PnpgZ8NH
+        status: active
+        display_name: 王居正
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_sJa871eX6sHFY5PnpgZ8NH | 王居正 | accepted |
 
 ## 外部来源
 

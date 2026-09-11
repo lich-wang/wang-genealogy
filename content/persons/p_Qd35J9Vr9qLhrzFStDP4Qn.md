@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 张氏
 cbdb_id: 264042
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -69,7 +69,7 @@ properties:
           locator: Q65870769
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_d4fM3ZJGKsQRoE6t5pmvQt
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：張氏（264042）
@@ -209,6 +209,32 @@ relationships:
         status: active
         display_name: 王承裕
         merged_into_person_id: null
+    - claim:
+        id: c_h_V8GEi3T-xKJl6-RDlWfh
+        subject_person_id: p_Qd35J9Vr9qLhrzFStDP4Qn
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_j4RsuRBKFYJbK5j9md2YXD
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aTNhu6cxC0qdynJxtrCPZ2
+          claim_id: c_h_V8GEi3T-xKJl6-RDlWfh
+          source_id: s_d4fM3ZJGKsQRoE6t5pmvQt
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第二甲第二十三名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_j4RsuRBKFYJbK5j9md2YXD
+        status: active
+        display_name: 王承裕
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -230,6 +256,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_Un98x3Kw7vbgE1taigN1AK | 王承裕 | accepted |
+| spouses | p_j4RsuRBKFYJbK5j9md2YXD | 王承裕 | accepted |
 | spouses | p_j4RsuRBKFYJbK5j9md2YXD | 王承裕 | accepted |
 
 ## 外部来源

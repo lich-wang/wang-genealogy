@@ -4,7 +4,7 @@ id: p_738t8jZyTZKAPviDCRrrJx
 status: active
 merged_into: null
 display_name: 王平
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -208,6 +208,44 @@ relationships:
         status: active
         display_name: 王詮
         merged_into_person_id: null
+    - claim:
+        id: c_c7EkRUYqhe3MuEHMdtyX0h
+        subject_person_id: p_738t8jZyTZKAPviDCRrrJx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qQAxatknKrCpL5y7hnVmZk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J47gp-eHkdMzsqK0urBoGF
+          claim_id: c_c7EkRUYqhe3MuEHMdtyX0h
+          source_id: s_GheAPjd9YEQub5VAthNXi5
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Zhenyuan 98：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GheAPjd9YEQub5VAthNXi5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王明悟（CBDB 155944）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=155944&o=json
+            external_identifier: CBDB:155944
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.122Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_qQAxatknKrCpL5y7hnVmZk
+        status: active
+        display_name: 王明悟
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -236,7 +274,9 @@ relationships:
 | children | p_JEt5oMRgwuJEJYSBjWuL8C | 王仕詮 | accepted |
 | children | p_YKWQahTTsBHcoqavMS6dC1 | 王仕 | accepted |
 | children | p_xxLqtCkGz1VyvafqyUJGDb | 王詮 | accepted |
+| children | p_qQAxatknKrCpL5y7hnVmZk | 王明悟 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王明悟（CBDB 155944）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=155944&o=json)
 - [中国历代人物传记资料库：王平（CBDB 141348）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141348&o=json)

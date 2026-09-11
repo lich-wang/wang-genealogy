@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王傳宣
 cbdb_id: 526692
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:526692
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_o5x4CGEDF2YnSUZjVSy6Lv
             source_type: api_record
             title: 中国历代人物传记资料库：王傳宣（CBDB 526692）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_AUOM9wz2xgcvZDZalLi-9r
+        subject_person_id: p_QNPn277HQc2estGxfdpdfU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Qgn5Es6vkX9R4a5Xd73Ec6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jHayVz377DJ5o_U5s8ORjQ
+          claim_id: c_AUOM9wz2xgcvZDZalLi-9r
+          source_id: s_o5x4CGEDF2YnSUZjVSy6Lv
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12784：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_QNPn277HQc2estGxfdpdfU
+        status: active
+        display_name: 王大勇
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_QNPn277HQc2estGxfdpdfU | 王大勇 | accepted |
 
 ## 外部来源
 

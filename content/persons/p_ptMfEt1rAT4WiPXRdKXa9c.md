@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王馨
 cbdb_id: 302967
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -207,7 +207,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Cpa721XbOfRFGIPLHS8u9c
+        subject_person_id: p_ptMfEt1rAT4WiPXRdKXa9c
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4GbPExDFna3bpZBzyQEK5D
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2eWw6_6AxCLeiT6Rfy_RsC
+          claim_id: c_Cpa721XbOfRFGIPLHS8u9c
+          source_id: s_McGXGnhaqmXfDMKXXBUtoM
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第二甲第八十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_4GbPExDFna3bpZBzyQEK5D
+        status: active
+        display_name: 王崇古
+        merged_into_person_id: null
   other: []
 ---
 
@@ -228,6 +254,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_QF2bE4nFJ23UCeYuUNVU4y | 王孟华 | accepted |
 | children | p_YCdG7XtqNcYaExuN76xqKv | 王瑶 | accepted |
+| descendants | p_4GbPExDFna3bpZBzyQEK5D | 王崇古 | accepted |
 
 ## 外部来源
 

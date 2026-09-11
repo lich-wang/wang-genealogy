@@ -4,7 +4,7 @@ id: p_TxvCUWCPj6wVBqyLV556YD
 status: active
 merged_into: null
 display_name: 王大謨
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -181,6 +181,44 @@ relationships:
         status: active
         display_name: 王伯蘭
         merged_into_person_id: null
+    - claim:
+        id: c_l0LLZAaIXJXhU-DzV0dZQU
+        subject_person_id: p_oiJBmfvECXjH8hvC9C6oVk
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_TxvCUWCPj6wVBqyLV556YD
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cN2LevjJSzdaypW9Ysiaxo
+          claim_id: c_l0LLZAaIXJXhU-DzV0dZQU
+          source_id: s_9PDX4FwaVZztDRrMU8y3gC
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第一百零九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_9PDX4FwaVZztDRrMU8y3gC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王友方（CBDB 220568）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220568&o=json
+            external_identifier: CBDB:220568
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:56.502Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_oiJBmfvECXjH8hvC9C6oVk
+        status: active
+        display_name: 王友方
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -203,9 +241,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_CZQQ91VfnuK7NuqpB8hoXK | 王照 | accepted |
 | ancestors | p_3JKHRJ23iN65rBD3F3StTg | 王伯蘭 | accepted |
+| ancestors | p_oiJBmfvECXjH8hvC9C6oVk | 王友方 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王伯蘭（CBDB 220567）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220567&o=json)
 - [中国历代人物传记资料库：王大謨（CBDB 206615）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206615&o=json)
+- [中国历代人物传记资料库：王友方（CBDB 220568）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220568&o=json)
 - [中国历代人物传记资料库：王照（CBDB 220569）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220569&o=json)

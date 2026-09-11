@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王惇信
 cbdb_id: 287976
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:287976
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_yjpSEGNz5hu4g6N5yARsVj
             source_type: api_record
             title: 中国历代人物传记资料库：王惇信（CBDB 287976）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_1DjSj6HI9wAY-Ec0-ZGZas
+        subject_person_id: p_o5GypCWM36MugZUaK6zcyv
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_tz8uWFvWRBpp9FN5sbMR5o
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VChMLcAfkWI-kARwe36r3e
+          claim_id: c_1DjSj6HI9wAY-Ec0-ZGZas
+          source_id: s_yjpSEGNz5hu4g6N5yARsVj
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第二甲第六十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_tz8uWFvWRBpp9FN5sbMR5o
+        status: active
+        display_name: 王希文
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_tz8uWFvWRBpp9FN5sbMR5o | 王希文 | accepted |
 
 ## 外部来源
 

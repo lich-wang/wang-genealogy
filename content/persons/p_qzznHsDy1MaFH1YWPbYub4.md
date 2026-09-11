@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王培龄
 cbdb_id: 202447
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -316,6 +316,43 @@ relationships:
         status: active
         display_name: 王睿
         merged_into_person_id: null
+    - claim:
+        id: c_H20whXWxRIYGG2OS_2_RYR
+        subject_person_id: p_qa4sYo9q4waHmECZyCZ8M3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qzznHsDy1MaFH1YWPbYub4
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1A4x89A3bPQ63v8HTGmsdb
+          claim_id: c_H20whXWxRIYGG2OS_2_RYR
+          source_id: s_ggPMxgP9MUw47QUWi5DSum
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第二甲第九十三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ggPMxgP9MUw47QUWi5DSum
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王文（288333）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288333&o=json
+            external_identifier: CBDB:288333
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:57.641Z
+            metadata_json: null
+      object_person:
+        id: p_qa4sYo9q4waHmECZyCZ8M3
+        status: active
+        display_name: 王文
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -339,6 +376,7 @@ relationships:
 | parents | p_KHASkzeAzAbrH4KC5REzz6 | 王爵 | accepted |
 | spouses | p_NoAq9miu6kdHMYDNaGmzDr | 崔氏 | accepted |
 | ancestors | p_FxDnZ7tzsLrvZRviCHaK5y | 王睿 | accepted |
+| ancestors | p_qa4sYo9q4waHmECZyCZ8M3 | 王文 | accepted |
 
 ## 外部来源
 
@@ -348,3 +386,4 @@ relationships:
 - [CBDB 中国历代人物传记资料库：王爵（288334）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288334&o=json)
 - [CBDB 中国历代人物传记资料库：王培齡（202447）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202447&o=json)
 - [CBDB 中国历代人物传记资料库：王睿（288332）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288332&o=json)
+- [CBDB 中国历代人物传记资料库：王文（288333）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288333&o=json)

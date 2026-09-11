@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 徐安吉
 cbdb_id: 69770
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -161,6 +161,32 @@ relationships:
         status: active
         display_name: 王鼎起
         merged_into_person_id: null
+    - claim:
+        id: c_3kV-Q7EXdDo760b6B1hpov
+        subject_person_id: p_oFBJHaCWLu6UVxf3y38JLH
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_L4EGussSp1S78E2cg4bFb8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xnRtCQyuEpzJdWSiromTnE
+          claim_id: c_3kV-Q7EXdDo760b6B1hpov
+          source_id: s_gvNGjX5LdHBtLNU3jg9H5n
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #1201, HuWenKai #472：丈夫"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_L4EGussSp1S78E2cg4bFb8
+        status: active
+        display_name: 王鼎起
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -181,6 +207,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_L4EGussSp1S78E2cg4bFb8 | 王鼎起 | accepted |
 | spouses | p_L4EGussSp1S78E2cg4bFb8 | 王鼎起 | accepted |
 
 ## 外部来源

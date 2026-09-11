@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王三師
 cbdb_id: 147957
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:147957
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_9QRQSUwLCnFDyvPbdz11Ve
             source_type: api_record
             title: 中国历代人物传记资料库：王三師（CBDB 147957）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_vjBe-sgJ7abXsmPeFopvtd
+        subject_person_id: p_R6Gf2f5NA3tJ6LKmmvoCmB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qz69kSDJ128SMxKWWsMnJ8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_koYswLldEQb58YSU8-tOqI
+          claim_id: c_vjBe-sgJ7abXsmPeFopvtd
+          source_id: s_9QRQSUwLCnFDyvPbdz11Ve
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Linde 7：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_R6Gf2f5NA3tJ6LKmmvoCmB
+        status: active
+        display_name: 王才
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_R6Gf2f5NA3tJ6LKmmvoCmB | 王才 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王好義
 cbdb_id: 338030
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:338030
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_x8PPxyuPd6JN5n7t22Gjrm
             source_type: api_record
             title: 中国历代人物传记资料库：王好義（CBDB 338030）
@@ -87,7 +87,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_F5E816KORK9gEQVG5iunM8
+        subject_person_id: p_QnpAMHvuyLgE52HMUUdB1Q
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aAFSBPvreHZtKBpYbVoLGC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IaC7jgEeClKDl_h9PMAVlM
+          claim_id: c_F5E816KORK9gEQVG5iunM8
+          source_id: s_x8PPxyuPd6JN5n7t22Gjrm
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第二甲第十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_aAFSBPvreHZtKBpYbVoLGC
+        status: active
+        display_name: 王來賢
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_aAFSBPvreHZtKBpYbVoLGC | 王來賢 | accepted |
 
 ## 外部来源
 

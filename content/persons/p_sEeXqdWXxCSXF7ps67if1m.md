@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王朝器
 cbdb_id: 126721
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -253,6 +253,44 @@ relationships:
         status: active
         display_name: 王伯履
         merged_into_person_id: null
+    - claim:
+        id: c_y1RqS_l0VkeqITaRl9t35F
+        subject_person_id: p_quzuLvPecHArZ4vX7i12WD
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_sEeXqdWXxCSXF7ps67if1m
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xFVei844dDnaVR8oKl_htE
+          claim_id: c_y1RqS_l0VkeqITaRl9t35F
+          source_id: s_MDRVEdnkMai6RkYwuY1i7p
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第一百九十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MDRVEdnkMai6RkYwuY1i7p
+            source_type: api_record
+            title: 中国历代人物传记资料库：王原遠（CBDB 253505）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253505&o=json
+            external_identifier: CBDB:253505
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:00.581Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_quzuLvPecHArZ4vX7i12WD
+        status: active
+        display_name: 王原遠
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -276,9 +314,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_DQN1sEVrdLYQ7FBcwLS1Bs | 王廷燦 | accepted |
 | ancestors | p_9in8REHLed81EofQaUdNJQ | 王伯履 | accepted |
+| ancestors | p_quzuLvPecHArZ4vX7i12WD | 王原遠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王伯履（CBDB 253504）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253504&o=json)
 - [中国历代人物传记资料库：王朝器（CBDB 126721）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126721&o=json)
 - [中国历代人物传记资料库：王廷燦（CBDB 253506）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253506&o=json)
+- [中国历代人物传记资料库：王原遠（CBDB 253505）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253505&o=json)

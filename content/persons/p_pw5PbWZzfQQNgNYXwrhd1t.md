@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仁祐
 cbdb_id: 378895
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -89,7 +89,7 @@ properties:
           locator: Q10412105
           quotation: null
           interpretation_note: null
-          source:
+          source: &a1
             id: s_qnG6ovBLWZk7x5pVMmh3SK
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王仁祐（378895）
@@ -337,6 +337,32 @@ relationships:
         status: active
         display_name: 柳氏
         merged_into_person_id: null
+    - claim:
+        id: c_Z1dIyxr1GmuXEiKqtdNYjf
+        subject_person_id: p_pw5PbWZzfQQNgNYXwrhd1t
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_WQ5WNZ4pQzEpMo4mdqs5xb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sSBoGt7510amjbOMM7BqNK
+          claim_id: c_Z1dIyxr1GmuXEiKqtdNYjf
+          source_id: s_qnG6ovBLWZk7x5pVMmh3SK
+          stance: supports
+          locator: 舊唐書，2169：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WQ5WNZ4pQzEpMo4mdqs5xb
+        status: active
+        display_name: 柳氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_jN9Mwx6U7wEKKHFcv6qEta
@@ -396,6 +422,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_GcNA3tAmUdhWNfqQjUwGnM | 王皇后 | accepted |
 | children | p_q7Qd8bWirDBt2fuJ4Z1Gc2 | 王氏 | accepted |
+| spouses | p_WQ5WNZ4pQzEpMo4mdqs5xb | 柳氏 | accepted |
 | spouses | p_WQ5WNZ4pQzEpMo4mdqs5xb | 柳氏 | accepted |
 | ancestors | p_LYTwMBKkZHFra7uzWxA7r8 | 王思政 | accepted |
 

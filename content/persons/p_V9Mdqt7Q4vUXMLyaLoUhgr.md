@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王命時
 cbdb_id: 69275
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -331,6 +331,44 @@ relationships:
         status: active
         display_name: 王符霈
         merged_into_person_id: null
+    - claim:
+        id: c_v11UWnh_CwMEIbK2DYCshb
+        subject_person_id: p_V9Mdqt7Q4vUXMLyaLoUhgr
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qnMmwMnoityMsJGNBoLZLj
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xxg43JKZd2wuEn__SDQ4Pm
+          claim_id: c_v11UWnh_CwMEIbK2DYCshb
+          source_id: s_H8KFcHwsaDXnTTEEciz6hW
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12977：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_H8KFcHwsaDXnTTEEciz6hW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王符霳（CBDB 526816）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526816&o=json
+            external_identifier: CBDB:526816
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:18.829Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_qnMmwMnoityMsJGNBoLZLj
+        status: active
+        display_name: 王符霳
+        merged_into_person_id: null
   other: []
 ---
 
@@ -355,9 +393,11 @@ relationships:
 | descendants | p_54xBrU98KE5YhvFiAMJ6A2 | 王孝輅 | accepted |
 | descendants | p_59ArzFs44vkWcsELWr4q9e | 王符雯 | accepted |
 | descendants | p_L9pHAzSD17qSFMKfdoETFq | 王符霈 | accepted |
+| descendants | p_qnMmwMnoityMsJGNBoLZLj | 王符霳 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王符霳（CBDB 526816）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526816&o=json)
 - [中国历代人物传记资料库：王符霈（CBDB 526813）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526813&o=json)
 - [中国历代人物传记资料库：王符雯（CBDB 526811）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526811&o=json)
 - [中国历代人物传记资料库：王命時（CBDB 69275）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69275&o=json)

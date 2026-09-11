@@ -4,7 +4,7 @@ id: p_SoTpRzw7JQF2RgUdE8FLLB
 status: active
 merged_into: null
 display_name: 王凱
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,44 @@ relationships:
         status: active
         display_name: 王義方
         merged_into_person_id: null
+    - claim:
+        id: c_-yyLSycdyI_pFe9IqB25gn
+        subject_person_id: p_or9qkt5GvAZ6kK92cAHRPW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_SoTpRzw7JQF2RgUdE8FLLB
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ENuYw-HU-uUlqPq5x56HqV
+          claim_id: c_-yyLSycdyI_pFe9IqB25gn
+          source_id: s_BFd1P8nFiGUBgEC6WTNf7Y
+          stance: supports
+          locator: 永樂十年進士登科錄:一卷，第三甲第六十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BFd1P8nFiGUBgEC6WTNf7Y
+            source_type: api_record
+            title: 中国历代人物传记资料库：王伯名（CBDB 287272）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287272&o=json
+            external_identifier: CBDB:287272
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:02.953Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_or9qkt5GvAZ6kK92cAHRPW
+        status: active
+        display_name: 王伯名
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +202,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_RbJtuGxJPEL4wjTmCNw1zD | 王義方 | accepted |
+| ancestors | p_or9qkt5GvAZ6kK92cAHRPW | 王伯名 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王伯名（CBDB 287272）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287272&o=json)
 - [中国历代人物传记资料库：王凱（CBDB 202389）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202389&o=json)
 - [中国历代人物传记资料库：王義方（CBDB 287271）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287271&o=json)

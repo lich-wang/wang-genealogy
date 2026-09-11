@@ -4,7 +4,7 @@ id: p_WiKBD9jGwdPLVn5X1Tru5S
 status: active
 merged_into: null
 display_name: 王炘
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,45 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c__i3LfwN1EgCLq6bU4pq6oa
+        subject_person_id: p_WiKBD9jGwdPLVn5X1Tru5S
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PjuZjM9vxj26BaS4qsF6d8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__YrIMN0WFYo_HIGhUFeP--
+          claim_id: c__i3LfwN1EgCLq6bU4pq6oa
+          source_id: s_3rdeJCTCbuPGig9WAycnwU
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #1674, HuWenKai #240：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3rdeJCTCbuPGig9WAycnwU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王淑昭（CBDB 72020）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=72020&o=json
+            external_identifier: CBDB:72020
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:36.789Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_PjuZjM9vxj26BaS4qsF6d8
+        status: active
+        display_name: 王淑昭
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,7 +193,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_PjuZjM9vxj26BaS4qsF6d8 | 王淑昭 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王淑昭（CBDB 72020）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=72020&o=json)
 - [中国历代人物传记资料库：王炘（CBDB 69244）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69244&o=json)

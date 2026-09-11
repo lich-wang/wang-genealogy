@@ -4,7 +4,7 @@ id: p_hGqH395C56YfcZLKCC7BLV
 status: active
 merged_into: null
 display_name: 王震
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_VmI7isSyIsVPvhvkMHNks-
+        subject_person_id: p_QqduQ4bBt2W7EX3AgTxcR6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hGqH395C56YfcZLKCC7BLV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2mFX3jAp9mPIlZppBM0k9z
+          claim_id: c_VmI7isSyIsVPvhvkMHNks-
+          source_id: s_7E4LiCuAQUxBMvK1Q9nU5f
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7E4LiCuAQUxBMvK1Q9nU5f
+            source_type: api_record
+            title: 中国历代人物传记资料库：王忠嗣（CBDB 32662）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=32662&o=json
+            external_identifier: CBDB:32662
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:05.401Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_QqduQ4bBt2W7EX3AgTxcR6
+        status: active
+        display_name: 王忠嗣
+        merged_into_person_id: null
   children:
     - claim:
         id: c_yOTJh4DhyEFyh0TG7yngvN
@@ -123,8 +161,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_QqduQ4bBt2W7EX3AgTxcR6 | 王忠嗣 | accepted |
 | children | p_WaGRLd4ZChG41FGHC1dtHU | 王永 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王震（CBDB 155951）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=155951&o=json)
+- [中国历代人物传记资料库：王忠嗣（CBDB 32662）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=32662&o=json)

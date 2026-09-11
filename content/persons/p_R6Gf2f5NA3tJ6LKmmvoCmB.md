@@ -4,7 +4,7 @@ id: p_R6Gf2f5NA3tJ6LKmmvoCmB
 status: active
 merged_into: null
 display_name: 王才
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -166,7 +166,45 @@ relationships:
         status: active
         display_name: 王言
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_vjBe-sgJ7abXsmPeFopvtd
+        subject_person_id: p_R6Gf2f5NA3tJ6LKmmvoCmB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qz69kSDJ128SMxKWWsMnJ8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_koYswLldEQb58YSU8-tOqI
+          claim_id: c_vjBe-sgJ7abXsmPeFopvtd
+          source_id: s_9QRQSUwLCnFDyvPbdz11Ve
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Linde 7：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_9QRQSUwLCnFDyvPbdz11Ve
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三師（CBDB 147957）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=147957&o=json
+            external_identifier: CBDB:147957
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:52.561Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_qz69kSDJ128SMxKWWsMnJ8
+        status: active
+        display_name: 王三師
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,8 +231,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_6iUqKv7XhE5gAtVLAZMfff | 王言 | accepted |
+| children | p_qz69kSDJ128SMxKWWsMnJ8 | 王三師 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王才（CBDB 139417）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139417&o=json)
+- [中国历代人物传记资料库：王三師（CBDB 147957）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=147957&o=json)
 - [中国历代人物传记资料库：王言（CBDB 147956）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=147956&o=json)

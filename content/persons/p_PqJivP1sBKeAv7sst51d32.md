@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王士祜
 cbdb_id: 35062
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -309,6 +309,58 @@ relationships:
         status: active
         display_name: 王啟涫
         merged_into_person_id: null
+    - claim:
+        id: c_66MSQ51a9KMwngMNd31f6z
+        subject_person_id: p_PqJivP1sBKeAv7sst51d32
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pUXdNRAD1FvX6k67eRhUyH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xJrAZX7plT_VRypmIXZXsK
+          claim_id: c_66MSQ51a9KMwngMNd31f6z
+          source_id: s_FRxccvFRg6gk5acJEUQ2R5
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12768：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_pUXdNRAD1FvX6k67eRhUyH
+        status: active
+        display_name: 王啟㴶
+        merged_into_person_id: null
+    - claim:
+        id: c_hw5HZB6cXhqrkWtLqg3ck-
+        subject_person_id: p_PqJivP1sBKeAv7sst51d32
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RjENWQr8d6VRj3m6fLhm2i
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_owMu2nlOvLigWlzE8T1RqP
+          claim_id: c_hw5HZB6cXhqrkWtLqg3ck-
+          source_id: s_FRxccvFRg6gk5acJEUQ2R5
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12768：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_RjENWQr8d6VRj3m6fLhm2i
+        status: active
+        display_name: 王啟涫
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -335,6 +387,8 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_M6u6h5w5R3AY6pHo7M3ELf | 王与敕 | accepted |
+| children | p_pUXdNRAD1FvX6k67eRhUyH | 王啟㴶 | accepted |
+| children | p_RjENWQr8d6VRj3m6fLhm2i | 王啟涫 | accepted |
 | children | p_pUXdNRAD1FvX6k67eRhUyH | 王啟㴶 | accepted |
 | children | p_RjENWQr8d6VRj3m6fLhm2i | 王啟涫 | accepted |
 

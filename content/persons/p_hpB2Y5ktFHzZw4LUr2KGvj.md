@@ -4,7 +4,7 @@ id: p_hpB2Y5ktFHzZw4LUr2KGvj
 status: active
 merged_into: null
 display_name: 王用楨
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_gW5ClgZTRF44P-BOnw_BSn
+        subject_person_id: p_oZ4kQSFi4x4MxZ3DEL5Xbj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hpB2Y5ktFHzZw4LUr2KGvj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_128B9biG3SCqBi3RjuYvYI
+          claim_id: c_gW5ClgZTRF44P-BOnw_BSn
+          source_id: s_4y8cFGHpEpZcqM3DqnwKCq
+          stance: supports
+          locator: 嘉靖三十八年進士登科錄:一卷，第三甲第六十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4y8cFGHpEpZcqM3DqnwKCq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王纘宗（CBDB 324561）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324561&o=json
+            external_identifier: CBDB:324561
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:06.922Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_oZ4kQSFi4x4MxZ3DEL5Xbj
+        status: active
+        display_name: 王纘宗
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +238,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_oZ4kQSFi4x4MxZ3DEL5Xbj | 王纘宗 | accepted |
 | ancestors | p_C5baHBFGFpi4r39kKgCUFK | 王汾 | accepted |
 | ancestors | p_phM7XLeV2SMYTDK13TQXci | 王儒 | accepted |
 
@@ -208,3 +247,4 @@ relationships:
 - [中国历代人物传记资料库：王汾（CBDB 324560）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324560&o=json)
 - [中国历代人物传记资料库：王儒（CBDB 324559）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324559&o=json)
 - [中国历代人物传记资料库：王用楨（CBDB 204826）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204826&o=json)
+- [中国历代人物传记资料库：王纘宗（CBDB 324561）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324561&o=json)

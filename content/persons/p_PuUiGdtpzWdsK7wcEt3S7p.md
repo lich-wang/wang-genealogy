@@ -4,7 +4,7 @@ id: p_PuUiGdtpzWdsK7wcEt3S7p
 status: active
 merged_into: null
 display_name: 王以旂
-revision: 6
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -321,6 +321,43 @@ relationships:
         status: active
         display_name: 王民
         merged_into_person_id: null
+    - claim:
+        id: c_8sbv6rpKB2NmabZC2VTEJj
+        subject_person_id: p_ofwfED7cGNaG45dVNWJBNj
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_PuUiGdtpzWdsK7wcEt3S7p
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lW2T2Uer4nEf8mY34XCHF1
+          claim_id: c_8sbv6rpKB2NmabZC2VTEJj
+          source_id: s_8CgC8aDPZCSgGPCQ2Gv74E
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第三甲第四十八名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8CgC8aDPZCSgGPCQ2Gv74E
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王音也（277429）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=277429&o=json
+            external_identifier: CBDB:277429
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:07:02.332Z
+            metadata_json: null
+      object_person:
+        id: p_ofwfED7cGNaG45dVNWJBNj
+        status: active
+        display_name: 王䪧
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -347,6 +384,7 @@ relationships:
 | children | p_DRLN4b7szmfwfobm6Jeenj | 王管 | accepted |
 | ancestors | p_1n6udeiAV3WPwXHR7TEH2x | 王䪧 | accepted |
 | ancestors | p_xJsRqYi6bQ21m8ncMBogv4 | 王民 | accepted |
+| ancestors | p_ofwfED7cGNaG45dVNWJBNj | 王䪧 | accepted |
 
 ## 外部来源
 
@@ -356,3 +394,4 @@ relationships:
 - [中国历代人物传记资料库：王䪧（CBDB 526002）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526002&o=json)
 - [CBDB 中国历代人物传记资料库：王綸（277430）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=277430&o=json)
 - [CBDB 中国历代人物传记资料库：王民（277428）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=277428&o=json)
+- [CBDB 中国历代人物传记资料库：王音也（277429）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=277429&o=json)

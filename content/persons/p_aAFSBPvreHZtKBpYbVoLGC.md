@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王來賢
 cbdb_id: 205758
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_F5E816KORK9gEQVG5iunM8
+        subject_person_id: p_QnpAMHvuyLgE52HMUUdB1Q
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aAFSBPvreHZtKBpYbVoLGC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IaC7jgEeClKDl_h9PMAVlM
+          claim_id: c_F5E816KORK9gEQVG5iunM8
+          source_id: s_x8PPxyuPd6JN5n7t22Gjrm
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第二甲第十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_x8PPxyuPd6JN5n7t22Gjrm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王好義（CBDB 338030）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338030&o=json
+            external_identifier: CBDB:338030
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:08.348Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_QnpAMHvuyLgE52HMUUdB1Q
+        status: active
+        display_name: 王好義
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,11 +267,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_QnpAMHvuyLgE52HMUUdB1Q | 王好義 | accepted |
 | ancestors | p_Fi6YsLYSHhvvAgwEeFxrsc | 王華 | accepted |
 | ancestors | p_iWiRRfE7LECSLbXyBoUtix | 王澄 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王澄（CBDB 338028）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338028&o=json)
+- [中国历代人物传记资料库：王好義（CBDB 338030）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338030&o=json)
 - [中国历代人物传记资料库：王華（CBDB 338029）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338029&o=json)
 - [中国历代人物传记资料库：王來賢（CBDB 205758）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205758&o=json)

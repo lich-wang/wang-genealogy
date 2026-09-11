@@ -4,7 +4,7 @@ id: p_MPKDCVoTw3ezXKDrH5XZgB
 status: active
 merged_into: null
 display_name: 王希俊
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -219,6 +219,44 @@ relationships:
         status: active
         display_name: 王珽
         merged_into_person_id: null
+    - claim:
+        id: c_to6a9nb2rc37xWG7-cgwvh
+        subject_person_id: p_MPKDCVoTw3ezXKDrH5XZgB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PbvuePrA2559TTXG2H13x8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LCQcdpAVdF0c0hszwRjbkS
+          claim_id: c_to6a9nb2rc37xWG7-cgwvh
+          source_id: s_sZQ28WxxHgSK5hgKL5UEXW
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 345：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_sZQ28WxxHgSK5hgKL5UEXW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王九娘（CBDB 152415）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152415&o=json
+            external_identifier: CBDB:152415
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:53.368Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_PbvuePrA2559TTXG2H13x8
+        status: active
+        display_name: 王九娘
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -247,8 +285,10 @@ relationships:
 | parents | p_oj4YCBq7WzwEGyAQvPxBEo | 王履貞 | accepted |
 | children | p_A3UBftvcv8pqxG7C1kJFXP | 王瑱 | accepted |
 | children | p_YPo3GsDwCchR7VPXKzBjUe | 王珽 | accepted |
+| children | p_PbvuePrA2559TTXG2H13x8 | 王九娘 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王九娘（CBDB 152415）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152415&o=json)
 - [中国历代人物传记资料库：王瑱（CBDB 152417）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152417&o=json)
 - [中国历代人物传记资料库：王希俊（CBDB 140519）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140519&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 柳氏
 cbdb_id: 444926
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -115,6 +115,43 @@ relationships:
         status: active
         display_name: 王仁祐
         merged_into_person_id: null
+    - claim:
+        id: c_Z1dIyxr1GmuXEiKqtdNYjf
+        subject_person_id: p_pw5PbWZzfQQNgNYXwrhd1t
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_WQ5WNZ4pQzEpMo4mdqs5xb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sSBoGt7510amjbOMM7BqNK
+          claim_id: c_Z1dIyxr1GmuXEiKqtdNYjf
+          source_id: s_qnG6ovBLWZk7x5pVMmh3SK
+          stance: supports
+          locator: 舊唐書，2169：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_qnG6ovBLWZk7x5pVMmh3SK
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王仁祐（378895）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=378895&o=json
+            external_identifier: CBDB:378895
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:39:52.262Z
+            metadata_json: null
+      object_person:
+        id: p_pw5PbWZzfQQNgNYXwrhd1t
+        status: active
+        display_name: 王仁祐
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -135,6 +172,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_pw5PbWZzfQQNgNYXwrhd1t | 王仁祐 | accepted |
 | spouses | p_pw5PbWZzfQQNgNYXwrhd1t | 王仁祐 | accepted |
 
 ## 外部来源

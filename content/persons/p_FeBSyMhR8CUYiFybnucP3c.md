@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王秦客
 cbdb_id: 140839
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -173,7 +173,83 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_fIfjsjByMyNNUkVpPdLZFf
+        subject_person_id: p_FeBSyMhR8CUYiFybnucP3c
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_P5dzHJVD8yhzKzypAHxi6T
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XSOjpt_UShzGbvbL0lNqOQ
+          claim_id: c_fIfjsjByMyNNUkVpPdLZFf
+          source_id: s_6HuJQ8QHGFP27yE4p1fMug
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 34：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6HuJQ8QHGFP27yE4p1fMug
+            source_type: api_record
+            title: 中国历代人物传记资料库：王兼之（CBDB 153385）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153385&o=json
+            external_identifier: CBDB:153385
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:53.368Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_P5dzHJVD8yhzKzypAHxi6T
+        status: active
+        display_name: 王兼之
+        merged_into_person_id: null
+    - claim:
+        id: c_I8Fpw1JsPcXJHfOv7QDEdy
+        subject_person_id: p_FeBSyMhR8CUYiFybnucP3c
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PWDBkLLZPWy1X8Fv8YmdiM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EOvuBtrggSuTxvelcoR0kM
+          claim_id: c_I8Fpw1JsPcXJHfOv7QDEdy
+          source_id: s_2bmi1FCGRCv4EZitBzXMji
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 34：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_2bmi1FCGRCv4EZitBzXMji
+            source_type: api_record
+            title: 中国历代人物传记资料库：王照之（CBDB 153388）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153388&o=json
+            external_identifier: CBDB:153388
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:53.368Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_PWDBkLLZPWy1X8Fv8YmdiM
+        status: active
+        display_name: 王照之
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -236,9 +312,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_P5dzHJVD8yhzKzypAHxi6T | 王兼之 | accepted |
+| children | p_PWDBkLLZPWy1X8Fv8YmdiM | 王照之 | accepted |
 | ancestors | p_oLa6u987MQb63j3ya1tAqU | 王德素 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王德素（CBDB 153383）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153383&o=json)
+- [中国历代人物传记资料库：王兼之（CBDB 153385）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153385&o=json)
 - [中国历代人物传记资料库：王秦客（CBDB 140839）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140839&o=json)
+- [中国历代人物传记资料库：王照之（CBDB 153388）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153388&o=json)

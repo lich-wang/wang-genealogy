@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王希烈
 cbdb_id: 126546
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -130,6 +130,44 @@ relationships:
         status: active
         display_name: 王崇禎
         merged_into_person_id: null
+    - claim:
+        id: c_j492uCzw40vXzUhwBsyuAn
+        subject_person_id: p_QVYnzKQ3Qmo2oe1E9Nx6jF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_nqXSbp6gt3VE2aHb7rdeET
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4dpXp9Pj55lckUaapi45jV
+          claim_id: c_j492uCzw40vXzUhwBsyuAn
+          source_id: s_b74VyMLjfHrZSh78AJLfB7
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第二甲第四十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_b74VyMLjfHrZSh78AJLfB7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王紹肅（CBDB 315365）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315365&o=json
+            external_identifier: CBDB:315365
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:06.030Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_QVYnzKQ3Qmo2oe1E9Nx6jF
+        status: active
+        display_name: 王紹肅
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -150,8 +188,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_39p4Z47cj6Pu66BinzwEbo | 王崇禎 | accepted |
+| ancestors | p_QVYnzKQ3Qmo2oe1E9Nx6jF | 王紹肅 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王崇禎（CBDB 315366）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315366&o=json)
+- [中国历代人物传记资料库：王紹肅（CBDB 315365）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315365&o=json)
 - [中国历代人物传记资料库：王希烈（CBDB 126546）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126546&o=json)

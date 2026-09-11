@@ -4,7 +4,7 @@ id: p_aeWEfBiaXEc8NBAjLdxyDe
 status: active
 merged_into: null
 display_name: 王璠
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,44 @@ relationships:
         status: active
         display_name: 王鐸
         merged_into_person_id: null
+    - claim:
+        id: c_wSfbMaG5VuPjlHFAJBjaOH
+        subject_person_id: p_oC4rtp2QA8Eu4SzLXi3D5c
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_aeWEfBiaXEc8NBAjLdxyDe
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8egbIYLSqEUxBn_T71JsBV
+          claim_id: c_wSfbMaG5VuPjlHFAJBjaOH
+          source_id: s_X8ktLKm7GbA217oHhLB3q2
+          stance: supports
+          locator: 天順四年進士登科錄:一卷，第二甲第三十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_X8ktLKm7GbA217oHhLB3q2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德通（CBDB 313084）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313084&o=json
+            external_identifier: CBDB:313084
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:06.030Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_oC4rtp2QA8Eu4SzLXi3D5c
+        status: active
+        display_name: 王德通
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_SFZ4bgpN7HUNWVTQwjnX9y | 王懋 | accepted |
 | ancestors | p_2fdZ7nzVXE411ABM98Hv5W | 王鐸 | accepted |
+| ancestors | p_oC4rtp2QA8Eu4SzLXi3D5c | 王德通 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王德通（CBDB 313084）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313084&o=json)
 - [中国历代人物传记资料库：王鐸（CBDB 313095）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313095&o=json)
 - [中国历代人物传记资料库：王璠（CBDB 198758）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198758&o=json)
 - [中国历代人物传记资料库：王懋（CBDB 313107）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313107&o=json)

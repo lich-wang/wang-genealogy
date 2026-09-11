@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 李氏
 cbdb_id: 217734
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -69,7 +69,7 @@ properties:
           locator: Q65820432
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_jYgfVpA5NdEbCanRKQ1W2x
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：李氏（217734）
@@ -162,6 +162,32 @@ relationships:
         status: active
         display_name: 王之猷
         merged_into_person_id: null
+    - claim:
+        id: c_0_T-5DtRdhmzoLRcff_Mz7
+        subject_person_id: p_nVeRPzH9zM6X3E5H4rwVq1
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_5r1wESpKqnWgbhR5AChbjE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jtRDDvEfGebG1Nxz1gcS1h
+          claim_id: c_0_T-5DtRdhmzoLRcff_Mz7
+          source_id: s_jYgfVpA5NdEbCanRKQ1W2x
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第三甲第一百五十七名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_5r1wESpKqnWgbhR5AChbjE
+        status: active
+        display_name: 王之猷
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -182,6 +208,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_5r1wESpKqnWgbhR5AChbjE | 王之猷 | accepted |
 | spouses | p_5r1wESpKqnWgbhR5AChbjE | 王之猷 | accepted |
 
 ## 外部来源

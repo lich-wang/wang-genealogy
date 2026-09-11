@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王伯名
 cbdb_id: 287272
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:287272
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_BFd1P8nFiGUBgEC6WTNf7Y
             source_type: api_record
             title: 中国历代人物传记资料库：王伯名（CBDB 287272）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_-yyLSycdyI_pFe9IqB25gn
+        subject_person_id: p_or9qkt5GvAZ6kK92cAHRPW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_SoTpRzw7JQF2RgUdE8FLLB
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ENuYw-HU-uUlqPq5x56HqV
+          claim_id: c_-yyLSycdyI_pFe9IqB25gn
+          source_id: s_BFd1P8nFiGUBgEC6WTNf7Y
+          stance: supports
+          locator: 永樂十年進士登科錄:一卷，第三甲第六十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_SoTpRzw7JQF2RgUdE8FLLB
+        status: active
+        display_name: 王凱
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_SoTpRzw7JQF2RgUdE8FLLB | 王凱 | accepted |
 
 ## 外部来源
 

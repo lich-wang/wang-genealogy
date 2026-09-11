@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王士昌
 cbdb_id: 35069
-revision: 5
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -433,6 +433,43 @@ relationships:
         status: active
         display_name: 吴氏
         merged_into_person_id: null
+    - claim:
+        id: c_JOqTjlBZE8OVIOtDfAyEAa
+        subject_person_id: p_p67X5jLwzT8c9HGCZxfSPM
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_2upGeiN52eY6RGi8eXqg1R
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Sqko_6j3aOs7VpwkKuFNOz
+          claim_id: c_JOqTjlBZE8OVIOtDfAyEAa
+          source_id: s_gTbfSgeY7M4hDzwgyfS8g8
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第一百九十九名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_gTbfSgeY7M4hDzwgyfS8g8
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：吳氏（229790）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229790&o=json
+            external_identifier: CBDB:229790
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:07:06.872Z
+            metadata_json: null
+      object_person:
+        id: p_p67X5jLwzT8c9HGCZxfSPM
+        status: active
+        display_name: 吴氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_y1MIsiRVMerbdmy6iQ8u_2
@@ -533,6 +570,7 @@ relationships:
 | parents | p_JGPNTCh2uLQxj9gSB18kcX | 王宗沐 | accepted |
 | children | p_4T4YhsidVU2NFfdAtSPY8Z | 王立隆 | accepted |
 | spouses | p_p67X5jLwzT8c9HGCZxfSPM | 吴氏 | accepted |
+| spouses | p_p67X5jLwzT8c9HGCZxfSPM | 吴氏 | accepted |
 | ancestors | p_z3cDLC3QR4mmvqHtCQ8jY3 | 王訓 | accepted |
 | ancestors | p_GNLnPFw1Dr1HJibhmrHDQH | 王逸卿 | accepted |
 
@@ -548,3 +586,4 @@ relationships:
 - [CBDB 中国历代人物传记资料库：王士昌（35069）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35069&o=json)
 - [CBDB 中国历代人物传记资料库：王逸卿（222402）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222402&o=json)
 - [CBDB 中国历代人物传记资料库：王宗沐（35065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35065&o=json)
+- [CBDB 中国历代人物传记资料库：吳氏（229790）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229790&o=json)
