@@ -4,7 +4,7 @@ id: p_vM6985QJehceoGJD1bbJKF
 status: active
 merged_into: null
 display_name: 王澄
-revision: 10
+revision: 11
 properties:
   - predicate: name.primary
     recommended:
@@ -505,6 +505,117 @@ relationships:
         status: active
         display_name: 王潛
         merged_into_person_id: null
+    - claim:
+        id: c_7WcfKtNjr4gcVZKbKVCceE
+        subject_person_id: p_vM6985QJehceoGJD1bbJKF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_P97nvyR1xhyFMweJFfn2sM
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PsOHOnMqZwcbsbMhCyufMQ
+          claim_id: c_7WcfKtNjr4gcVZKbKVCceE
+          source_id: s_28QmCdaWPpWgN4jQ2KU2sF
+          stance: supports
+          locator: 宋濂全集，1606：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_28QmCdaWPpWgN4jQ2KU2sF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王慶（CBDB 134171）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134171&o=json
+            external_identifier: CBDB:134171
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.308Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_P97nvyR1xhyFMweJFfn2sM
+        status: active
+        display_name: 王慶
+        merged_into_person_id: null
+    - claim:
+        id: c_6fL-UoHKCSDJX5qtAOC1jb
+        subject_person_id: p_vM6985QJehceoGJD1bbJKF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_PJnAmKKKTDH36Qb3sE8tHM
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rS63wxMI6P0FHteBKqCNY_
+          claim_id: c_6fL-UoHKCSDJX5qtAOC1jb
+          source_id: s_yT1MonPFDuSGUMBZBrrrjb
+          stance: supports
+          locator: 宋濂全集，1606：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_yT1MonPFDuSGUMBZBrrrjb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王淦（CBDB 134191）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134191&o=json
+            external_identifier: CBDB:134191
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.317Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_PJnAmKKKTDH36Qb3sE8tHM
+        status: active
+        display_name: 王淦
+        merged_into_person_id: null
+    - claim:
+        id: c_5UyNgyFmhDIPkOfYlPmMbz
+        subject_person_id: p_vM6985QJehceoGJD1bbJKF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_pLWyb7aYJGN29nL8akgz85
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_h4PU6J2r2ZKPvv_ORSJ5Bk
+          claim_id: c_5UyNgyFmhDIPkOfYlPmMbz
+          source_id: s_b17FdwyjSvAxkGPvBuyap3
+          stance: supports
+          locator: 宋濂全集，1606：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_b17FdwyjSvAxkGPvBuyap3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王溫（CBDB 134180）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134180&o=json
+            external_identifier: CBDB:134180
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.312Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_pLWyb7aYJGN29nL8akgz85
+        status: active
+        display_name: 王溫
+        merged_into_person_id: null
   other: []
 ---
 
@@ -535,15 +646,21 @@ relationships:
 | descendants | p_ibLtNY57TKY2kousyXGR55 | 王澤 | accepted |
 | descendants | p_MEo2EuAoRqj8z9NEXK68tk | 王濠 | accepted |
 | descendants | p_nB8K3pn9j5dJy1VoGDE9sS | 王潛 | accepted |
+| descendants | p_P97nvyR1xhyFMweJFfn2sM | 王慶 | accepted |
+| descendants | p_PJnAmKKKTDH36Qb3sE8tHM | 王淦 | accepted |
+| descendants | p_pLWyb7aYJGN29nL8akgz85 | 王溫 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王澄（CBDB 100938）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100938&o=json)
 - [中国历代人物传记资料库：王恩（CBDB 134173）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134173&o=json)
+- [中国历代人物传记资料库：王淦（CBDB 134191）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134191&o=json)
 - [中国历代人物传记资料库：王濠（CBDB 134194）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134194&o=json)
 - [中国历代人物传记资料库：王溥（CBDB 134188）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134188&o=json)
 - [中国历代人物传记资料库：王淇（CBDB 134181）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134181&o=json)
 - [中国历代人物传记资料库：王潛（CBDB 134186）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134186&o=json)
+- [中国历代人物传记资料库：王慶（CBDB 134171）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134171&o=json)
+- [中国历代人物传记资料库：王溫（CBDB 134180）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134180&o=json)
 - [中国历代人物传记资料库：王涯（CBDB 134192）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134192&o=json)
 - [中国历代人物传记资料库：王沇（CBDB 134190）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134190&o=json)
 - [中国历代人物传记资料库：王應（CBDB 134166）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134166&o=json)

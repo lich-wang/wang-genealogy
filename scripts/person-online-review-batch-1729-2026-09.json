@@ -1,0 +1,49 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-11",
+  "queue_positions": [
+    17281,
+    17290
+  ],
+  "summary": {
+    "reviewed": 10,
+    "relationships_added": 4,
+    "manual_review": 0
+  },
+  "relationships": [
+    {
+      "subject": "p_wj2Tjigw2Pn6N4Z7KuUvkh",
+      "object": "p_p6RTY29514vD6isBsxvXYV",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_p6RTY29514vD6isBsxvXYV",
+      "object": "p_hZn11NBqXSGNTf3yf5NVd4",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_P6vps7EktSPmKP4jr1VTV9",
+      "object": "p_UrJznQmZF7mY3ST75yuPGB",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_v2aXxqS4dS7Mb5HadzZaWo",
+      "object": "p_P73D7Uet6EDsP44jQG3Nyi",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    }
+  ],
+  "unchanged": [
+    "p_P6LNk8B5uiXAQwdqQEiL1Y",
+    "p_p6P9bZiVGzYragULJzLyAW",
+    "p_p6RTSjcQuMQ4KLYLGZLR8d",
+    "p_p6WthEAEJDtM6KKi5BgsYU",
+    "p_p6zP6ehuKdE6HGjxY8WMp8",
+    "p_P73Mo5zsmWJwQok9zu53z1",
+    "p_p76YFsPZ3KKhHvEA2t4ZUx"
+  ]
+}

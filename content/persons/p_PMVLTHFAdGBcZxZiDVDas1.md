@@ -4,7 +4,7 @@ id: p_PMVLTHFAdGBcZxZiDVDas1
 status: active
 merged_into: null
 display_name: 王治瑋
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_etggokX0rW-fymK_Dx5KDT
+        subject_person_id: p_U3NK9uy3HWG3bWNCJcz1D7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PMVLTHFAdGBcZxZiDVDas1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iqi-RSqPyaCF6Dwt_4eudW
+          claim_id: c_etggokX0rW-fymK_Dx5KDT
+          source_id: s_T57AP7ShG7iKp48NdwFSEa
+          stance: supports
+          locator: "民國歙縣志: 十六卷，lgid=1163873：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_U3NK9uy3HWG3bWNCJcz1D7
+        status: active
+        display_name: 王正湖
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_U3NK9uy3HWG3bWNCJcz1D7 | 王正湖 | accepted |
 
 ## 外部来源
 

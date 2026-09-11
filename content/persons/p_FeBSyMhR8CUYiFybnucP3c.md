@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王秦客
 cbdb_id: 140839
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -177,7 +177,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_r08_tlswd07dAL7nRTzOcg
+        subject_person_id: p_oLa6u987MQb63j3ya1tAqU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_FeBSyMhR8CUYiFybnucP3c
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_D_V2y4u7TrpwF_LJw7riCs
+          claim_id: c_r08_tlswd07dAL7nRTzOcg
+          source_id: s_ggHXBc79NXCebBG2oHeKbN
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 34：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ggHXBc79NXCebBG2oHeKbN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德素（CBDB 153383）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153383&o=json
+            external_identifier: CBDB:153383
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.859Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_oLa6u987MQb63j3ya1tAqU
+        status: active
+        display_name: 王德素
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -199,7 +236,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_oLa6u987MQb63j3ya1tAqU | 王德素 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王德素（CBDB 153383）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153383&o=json)
 - [中国历代人物传记资料库：王秦客（CBDB 140839）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140839&o=json)

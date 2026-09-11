@@ -4,7 +4,7 @@ id: p_gyNUeFDDZGNowk91dtAr1B
 status: active
 merged_into: null
 display_name: 王惟賢
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -291,6 +291,43 @@ relationships:
         status: active
         display_name: 王宏
         merged_into_person_id: null
+    - claim:
+        id: c_zMTm8DZD4G2ga7A0NVfWAZ
+        subject_person_id: p_oTGg6HQBF9rGe9dd4P5FEh
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_gyNUeFDDZGNowk91dtAr1B
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8oNm5KOWiFTk-k8QALc1JK
+          claim_id: c_zMTm8DZD4G2ga7A0NVfWAZ
+          source_id: s_A84mzWCnBHR82ScVab221E
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第七十八名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_A84mzWCnBHR82ScVab221E
+            source_type: api_record
+            title: 中国历代人物传记资料库：王溥（CBDB 292739）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292739&o=json
+            external_identifier: CBDB:292739
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.413Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_oTGg6HQBF9rGe9dd4P5FEh
+        status: active
+        display_name: 王溥
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -316,11 +353,13 @@ relationships:
 | children | p_hJYN4oe1c1xPsQK1bDY1qs | 王佶 | accepted |
 | children | p_icYBEYR9zgQawiwAKaV75B | 王仔 | accepted |
 | ancestors | p_GxDL9ejJ5dxwKNZ9PCmbaa | 王宏 | accepted |
+| ancestors | p_oTGg6HQBF9rGe9dd4P5FEh | 王溥 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王宏（CBDB 292738）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292738&o=json)
 - [中国历代人物传记资料库：王佶（CBDB 292756）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292756&o=json)
+- [中国历代人物传记资料库：王溥（CBDB 292739）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292739&o=json)
 - [中国历代人物传记资料库：王伸（CBDB 292755）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292755&o=json)
 - [中国历代人物传记资料库：王惟賢（CBDB 202709）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202709&o=json)
 - [中国历代人物传记资料库：王錫（CBDB 292741）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292741&o=json)

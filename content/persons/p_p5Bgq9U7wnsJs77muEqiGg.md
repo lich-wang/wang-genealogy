@@ -4,7 +4,7 @@ id: p_p5Bgq9U7wnsJs77muEqiGg
 status: active
 merged_into: null
 display_name: 王履亨
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -167,6 +167,84 @@ relationships:
         status: active
         display_name: 王志偉
         merged_into_person_id: null
+    - claim:
+        id: c_bgXFBFz8nnGOra3ZZNti6n
+        subject_person_id: p_p5Bgq9U7wnsJs77muEqiGg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XwJujRc3mP4DpA3whzZo9X
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uwJEVBUx2YlUBI4zoAR_bF
+          claim_id: c_bgXFBFz8nnGOra3ZZNti6n
+          source_id: s_XP6yeB5bki4Uje1WNxPTGj
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13153：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_XwJujRc3mP4DpA3whzZo9X
+        status: active
+        display_name: 王志信
+        merged_into_person_id: null
+    - claim:
+        id: c_HP-UcIBspXAy3l6e2_Eifr
+        subject_person_id: p_p5Bgq9U7wnsJs77muEqiGg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PCaRNnmgun6m7zp9kLVRyR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_S3GmD06Qyjd9d47o9zrXIi
+          claim_id: c_HP-UcIBspXAy3l6e2_Eifr
+          source_id: s_XP6yeB5bki4Uje1WNxPTGj
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13153：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_PCaRNnmgun6m7zp9kLVRyR
+        status: active
+        display_name: 王志修
+        merged_into_person_id: null
+    - claim:
+        id: c_pCtOBnEAbcf_CTgMiZeqAM
+        subject_person_id: p_p5Bgq9U7wnsJs77muEqiGg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QJ6cYJsxNTMSB5ovszTk99
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1nh2a_fW01QS9NLcbZTNoF
+          claim_id: c_pCtOBnEAbcf_CTgMiZeqAM
+          source_id: s_XP6yeB5bki4Uje1WNxPTGj
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13153：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_QJ6cYJsxNTMSB5ovszTk99
+        status: active
+        display_name: 王志儀
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,6 +271,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_o8ekPajcAzxRbPTTH8DZgk | 王志偉 | accepted |
+| children | p_XwJujRc3mP4DpA3whzZo9X | 王志信 | accepted |
+| children | p_PCaRNnmgun6m7zp9kLVRyR | 王志修 | accepted |
+| children | p_QJ6cYJsxNTMSB5ovszTk99 | 王志儀 | accepted |
 
 ## 外部来源
 

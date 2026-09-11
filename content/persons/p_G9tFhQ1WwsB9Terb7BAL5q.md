@@ -4,7 +4,7 @@ id: p_G9tFhQ1WwsB9Terb7BAL5q
 status: active
 merged_into: null
 display_name: 王濬
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王彥和
         merged_into_person_id: null
+    - claim:
+        id: c_5gvg2o4mKw4a058rAmQg2t
+        subject_person_id: p_pMB8fGuLuD5hhsA391BD78
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_G9tFhQ1WwsB9Terb7BAL5q
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_s_KsGu60szu4lOmIYviupy
+          claim_id: c_5gvg2o4mKw4a058rAmQg2t
+          source_id: s_jE9YBjRJPke4T46PQApDBR
+          stance: supports
+          locator: 天順四年進士登科錄:一卷，第三甲第二十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_jE9YBjRJPke4T46PQApDBR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鳳儀（CBDB 316718）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316718&o=json
+            external_identifier: CBDB:316718
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.963Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_pMB8fGuLuD5hhsA391BD78
+        status: active
+        display_name: 王鳳儀
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_9wRMch85tEnfzHmGDnqVUg | 王亨 | accepted |
 | ancestors | p_6JRzPaC52GSsNCAyicPbAu | 王彥和 | accepted |
+| ancestors | p_pMB8fGuLuD5hhsA391BD78 | 王鳳儀 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鳳儀（CBDB 316718）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316718&o=json)
 - [中国历代人物传记资料库：王亨（CBDB 316729）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316729&o=json)
 - [中国历代人物传记资料库：王濬（CBDB 198786）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198786&o=json)
 - [中国历代人物传记资料库：王彥和（CBDB 316707）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316707&o=json)

@@ -4,7 +4,7 @@ id: p_PgLmsK4wd3z3BuDbC2kJpa
 status: active
 merged_into: null
 display_name: 王錫圭
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Me1kDbIajPwyGiw-TNbTML
+        subject_person_id: p_PgLmsK4wd3z3BuDbC2kJpa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NNN6o899F1M8yyQuHKMbNz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hbYrytrQXa42oHIJxkXl_T
+          claim_id: c_Me1kDbIajPwyGiw-TNbTML
+          source_id: s_1ZNLxBLx8G64HPqrJxhbrP
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第三十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NNN6o899F1M8yyQuHKMbNz
+        status: active
+        display_name: 王演疇
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_NNN6o899F1M8yyQuHKMbNz | 王演疇 | accepted |
 
 ## 外部来源
 

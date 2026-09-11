@@ -4,7 +4,7 @@ id: p_pawiQedQCdC5igfYt4Nugw
 status: active
 merged_into: null
 display_name: 王有榘
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_eFgE75onHiNlykQ-KmeYll
+        subject_person_id: p_zrXaaDsWqxxFV2uHJhKDmc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pawiQedQCdC5igfYt4Nugw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-zpn6vTFZG0XUO7JBWp0pN
+          claim_id: c_eFgE75onHiNlykQ-KmeYll
+          source_id: s_T29qKj5A3uJ4H8m6aZmtta
+          stance: supports
+          locator: 雲和縣志，lgid=369323：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zrXaaDsWqxxFV2uHJhKDmc
+        status: active
+        display_name: 王海澄
+        merged_into_person_id: null
   children:
     - claim:
         id: c_2hn1L-S22i4nEXgzHtTfxz
@@ -134,6 +160,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_zrXaaDsWqxxFV2uHJhKDmc | 王海澄 | accepted |
 | children | p_3D3zeA5mZtd9W6iunSH3Sv | 王良晟 | accepted |
 
 ## 外部来源

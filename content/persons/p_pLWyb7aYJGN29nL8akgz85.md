@@ -4,7 +4,7 @@ id: p_pLWyb7aYJGN29nL8akgz85
 status: active
 merged_into: null
 display_name: 王溫
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_5UyNgyFmhDIPkOfYlPmMbz
+        subject_person_id: p_vM6985QJehceoGJD1bbJKF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_pLWyb7aYJGN29nL8akgz85
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_h4PU6J2r2ZKPvv_ORSJ5Bk
+          claim_id: c_5UyNgyFmhDIPkOfYlPmMbz
+          source_id: s_b17FdwyjSvAxkGPvBuyap3
+          stance: supports
+          locator: 宋濂全集，1606：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vM6985QJehceoGJD1bbJKF
+        status: active
+        display_name: 王澄
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_vM6985QJehceoGJD1bbJKF | 王澄 | accepted |
 
 ## 外部来源
 

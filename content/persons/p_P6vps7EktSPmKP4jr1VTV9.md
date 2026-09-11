@@ -4,7 +4,7 @@ id: p_P6vps7EktSPmKP4jr1VTV9
 status: active
 merged_into: null
 display_name: 王積善
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_DAGXOjrfyk6LtU48T8IpQ4
+        subject_person_id: p_P6vps7EktSPmKP4jr1VTV9
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_UrJznQmZF7mY3ST75yuPGB
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cn-f3VpEov5M5A5GhZo6Tf
+          claim_id: c_DAGXOjrfyk6LtU48T8IpQ4
+          source_id: s_2DiQBERtqDt4wMQ6hRcW4h
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第四十一名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UrJznQmZF7mY3ST75yuPGB
+        status: active
+        display_name: 王豫
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_UrJznQmZF7mY3ST75yuPGB | 王豫 | accepted |
 
 ## 外部来源
 

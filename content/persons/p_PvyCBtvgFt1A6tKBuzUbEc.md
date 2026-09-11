@@ -4,7 +4,7 @@ id: p_PvyCBtvgFt1A6tKBuzUbEc
 status: active
 merged_into: null
 display_name: 王文正
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_qBPeLjx8Ya5DiihwakBXlE
+        subject_person_id: p_PvyCBtvgFt1A6tKBuzUbEc
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_CgzpCKBF2Cnch1g1qwE9Ao
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OT-Zqz1ldlq17NEQRXMuo5
+          claim_id: c_qBPeLjx8Ya5DiihwakBXlE
+          source_id: s_sG5Ltd7tZS8dvjK5HF191z
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第二甲第六十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_CgzpCKBF2Cnch1g1qwE9Ao
+        status: active
+        display_name: 王世能
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_CgzpCKBF2Cnch1g1qwE9Ao | 王世能 | accepted |
 
 ## 外部来源
 

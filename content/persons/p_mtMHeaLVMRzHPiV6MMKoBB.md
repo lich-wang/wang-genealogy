@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王慎术
 cbdb_id: 22056
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -180,7 +180,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_LHH21R_edP9fLpATMS1gy2
+        subject_person_id: p_oXazvgZDCU1eQZ2UVAEZ4j
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_mtMHeaLVMRzHPiV6MMKoBB
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7DNOlFNmb7MktE_SevKTtb
+          claim_id: c_LHH21R_edP9fLpATMS1gy2
+          source_id: s_e5drH5xPh5jbJyVbSxpyNA
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_e5drH5xPh5jbJyVbSxpyNA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王曙（CBDB 1877）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1877&o=json
+            external_identifier: CBDB:1877
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.368Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_oXazvgZDCU1eQZ2UVAEZ4j
+        status: active
+        display_name: 王曙
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -201,10 +238,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_8yGvQV64DEaN7zXdMCaL2M | 王益恭 | accepted |
+| ancestors | p_oXazvgZDCU1eQZ2UVAEZ4j | 王曙 | accepted |
 
 ## 外部来源
 
 - [维基数据：王慎术（Q45401760）](https://www.wikidata.org/wiki/Q45401760)
 - [维基数据：王益恭（Q45401756）](https://www.wikidata.org/wiki/Q45401756)
+- [中国历代人物传记资料库：王曙（CBDB 1877）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1877&o=json)
 - [CBDB 中国历代人物传记资料库：王慎術（22056）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22056&o=json)
 - [CBDB 中国历代人物传记资料库：王益恭（22054）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22054&o=json)

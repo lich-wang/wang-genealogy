@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王家卿
 cbdb_id: 205423
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_HJ_sl-X__tttTVeyxV1Eo5
+        subject_person_id: p_p6a6PegDLKhh6e58pdYza1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wfvFAbMeeGg2JCRsQFqRMn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jnsSkjQnmvVJpBdYSGGXuA
+          claim_id: c_HJ_sl-X__tttTVeyxV1Eo5
+          source_id: s_XfwDNprGL5qCa8v6BLE3vX
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第三甲第二百五十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_XfwDNprGL5qCa8v6BLE3vX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王稷（CBDB 332959）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332959&o=json
+            external_identifier: CBDB:332959
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.389Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_p6a6PegDLKhh6e58pdYza1
+        status: active
+        display_name: 王稷
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -192,9 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_p6a6PegDLKhh6e58pdYza1 | 王稷 | accepted |
 | ancestors | p_ckXg1snXR9eZpgBTHaU1bX | 王繡 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王稷（CBDB 332959）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332959&o=json)
 - [中国历代人物传记资料库：王家卿（CBDB 205423）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205423&o=json)
 - [中国历代人物传记资料库：王繡（CBDB 332958）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332958&o=json)

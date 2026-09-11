@@ -4,7 +4,7 @@ id: p_pP1ZFJ9Eu2YF7pkebSdPnY
 status: active
 merged_into: null
 display_name: 王家楨
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_B0NXwMRs5awPK8oq8TyyIv
+        subject_person_id: p_KK8vNXZj4epAzhpkfscadd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pP1ZFJ9Eu2YF7pkebSdPnY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-R5otOFnHHcEKSA6i7E4jU
+          claim_id: c_B0NXwMRs5awPK8oq8TyyIv
+          source_id: s_SKi2RipEpsUJKmALmK1wdn
+          stance: supports
+          locator: 紹興府志:八十卷，lgid=316871：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_KK8vNXZj4epAzhpkfscadd
+        status: active
+        display_name: 王士珪
+        merged_into_person_id: null
   children:
     - claim:
         id: c_p5bILWaiWAX3EURE8Zd8c5
@@ -134,6 +160,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_KK8vNXZj4epAzhpkfscadd | 王士珪 | accepted |
 | children | p_bqEoSPF37A64nsJ8LA87oR | 王德新 | accepted |
 
 ## 外部来源

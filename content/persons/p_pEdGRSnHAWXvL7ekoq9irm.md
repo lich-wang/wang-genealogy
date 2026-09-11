@@ -4,7 +4,7 @@ id: p_pEdGRSnHAWXvL7ekoq9irm
 status: active
 merged_into: null
 display_name: 王家賓
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,12 +129,116 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_vVdLGWnPCXzW5deVsA_a-j
+        subject_person_id: p_pEdGRSnHAWXvL7ekoq9irm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6HLttk3bZpmGZhdge9j9Vv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jbntWmGOmy9c7A7flU0Ud4
+          claim_id: c_vVdLGWnPCXzW5deVsA_a-j
+          source_id: s_n5SveC4vwRXeJFjECJn3hm
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12993：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_6HLttk3bZpmGZhdge9j9Vv
+        status: active
+        display_name: 王佑孚
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_uXkMY0K3v3ElCBoX2tvP5O
+        subject_person_id: p_pEdGRSnHAWXvL7ekoq9irm
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_J2FQREsJ82hioqJaNMDC39
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8bxUxRZl5-NAlZVPAJXEP1
+          claim_id: c_uXkMY0K3v3ElCBoX2tvP5O
+          source_id: s_n5SveC4vwRXeJFjECJn3hm
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12993：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_J2FQREsJ82hioqJaNMDC39
+        status: active
+        display_name: 王代昌
+        merged_into_person_id: null
+    - claim:
+        id: c_SGtXR4FIrXrTAD_qlIZCfM
+        subject_person_id: p_pEdGRSnHAWXvL7ekoq9irm
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_j2n3ygo1YiMXzXoDz14tZ3
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_G4TvBQA3y16gTDIAH3fIJA
+          claim_id: c_SGtXR4FIrXrTAD_qlIZCfM
+          source_id: s_n5SveC4vwRXeJFjECJn3hm
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12993：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_j2n3ygo1YiMXzXoDz14tZ3
+        status: active
+        display_name: 王代裕
+        merged_into_person_id: null
+    - claim:
+        id: c_6kN4SWKLXCND1ncxzn5B44
+        subject_person_id: p_pEdGRSnHAWXvL7ekoq9irm
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5G2qt9GaLPiCw5KRtPLsEg
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v1OW8P-ulUjmXjUSjOdJBt
+          claim_id: c_6kN4SWKLXCND1ncxzn5B44
+          source_id: s_n5SveC4vwRXeJFjECJn3hm
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12993：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5G2qt9GaLPiCw5KRtPLsEg
+        status: active
+        display_name: 王代興
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,6 +259,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_6HLttk3bZpmGZhdge9j9Vv | 王佑孚 | accepted |
+| descendants | p_J2FQREsJ82hioqJaNMDC39 | 王代昌 | accepted |
+| descendants | p_j2n3ygo1YiMXzXoDz14tZ3 | 王代裕 | accepted |
+| descendants | p_5G2qt9GaLPiCw5KRtPLsEg | 王代興 | accepted |
 
 ## 外部来源
 

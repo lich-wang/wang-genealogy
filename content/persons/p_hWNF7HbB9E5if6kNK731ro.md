@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王祿兆
 cbdb_id: 206985
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -205,6 +205,43 @@ relationships:
         status: active
         display_name: 王崇節
         merged_into_person_id: null
+    - claim:
+        id: c_Z0WSI_aqxMSqLzZcPwHHqx
+        subject_person_id: p_hWNF7HbB9E5if6kNK731ro
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pVQkcRuM7NhnjcWcLav1if
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Y2zt6ktyOxtBpsVvcoz43w
+          claim_id: c_Z0WSI_aqxMSqLzZcPwHHqx
+          source_id: s_RCHeuxtMU1jHegLq44JSWC
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第一百九十五名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_RCHeuxtMU1jHegLq44JSWC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇信（CBDB 225807）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225807&o=json
+            external_identifier: CBDB:225807
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.447Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_pVQkcRuM7NhnjcWcLav1if
+        status: active
+        display_name: 王崇信
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -268,11 +305,13 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_aZXBatcc6mdp3QRC5AaJD4 | 王光遠 | accepted |
 | children | p_1o4XKx8YTnpd6vNvapNi4H | 王崇節 | accepted |
+| children | p_pVQkcRuM7NhnjcWcLav1if | 王崇信 | accepted |
 | ancestors | p_AHERTQYCVyYdyM4voMz6Hc | 王經 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王崇節（CBDB 225809）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225809&o=json)
+- [中国历代人物传记资料库：王崇信（CBDB 225807）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225807&o=json)
 - [中国历代人物传记资料库：王光遠（CBDB 225797）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225797&o=json)
 - [中国历代人物传记资料库：王經（CBDB 225796）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225796&o=json)
 - [中国历代人物传记资料库：王祿兆（CBDB 206985）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206985&o=json)

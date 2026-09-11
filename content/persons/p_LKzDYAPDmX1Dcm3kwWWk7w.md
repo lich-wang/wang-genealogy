@@ -4,7 +4,7 @@ id: p_LKzDYAPDmX1Dcm3kwWWk7w
 status: active
 merged_into: null
 display_name: 王九言
-revision: 8
+revision: 9
 properties:
   - predicate: name.primary
     recommended:
@@ -477,6 +477,43 @@ relationships:
         status: active
         display_name: 王泂
         merged_into_person_id: null
+    - claim:
+        id: c_3rgqAKmaTl0fX8NqOqprVm
+        subject_person_id: p_LKzDYAPDmX1Dcm3kwWWk7w
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_P1NS2GLPdsVYS2wrERJNSV
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_whwTui_yHiDQ4Hvf9ZZvGc
+          claim_id: c_3rgqAKmaTl0fX8NqOqprVm
+          source_id: s_PZZwEeukYC78WHj63W9rnG
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，159 王九言墓志：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_PZZwEeukYC78WHj63W9rnG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王泌（CBDB 697037）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697037&o=json
+            external_identifier: CBDB:697037
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.712Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_P1NS2GLPdsVYS2wrERJNSV
+        status: active
+        display_name: 王泌
+        merged_into_person_id: null
   other: []
 ---
 
@@ -506,6 +543,7 @@ relationships:
 | descendants | p_DFWTbF2jFgwBH4V5tFWWur | 王澣 | accepted |
 | descendants | p_dJdPi1jtBi1sVHm1Qf19Hw | 王灝 | accepted |
 | descendants | p_i2w2r4pqgKCHbCESSyk39q | 王泂 | accepted |
+| descendants | p_P1NS2GLPdsVYS2wrERJNSV | 王泌 | accepted |
 
 ## 外部来源
 
@@ -514,6 +552,7 @@ relationships:
 - [中国历代人物传记资料库：王泂（CBDB 697036）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697036&o=json)
 - [中国历代人物传记资料库：王九言（CBDB 696905）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696905&o=json)
 - [中国历代人物传记资料库：王況（CBDB 697042）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697042&o=json)
+- [中国历代人物传记资料库：王泌（CBDB 697037）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697037&o=json)
 - [中国历代人物传记资料库：王淇（CBDB 697034）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697034&o=json)
 - [中国历代人物传记资料库：王嗣慶（CBDB 696907）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696907&o=json)
 - [中国历代人物传记资料库：王渥（CBDB 697043）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697043&o=json)

@@ -4,7 +4,7 @@ id: p_pEywX39NWKUq9nsDk1FUH7
 status: active
 merged_into: null
 display_name: 王明哲
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_fGoV2koOSYMvWbOJiIwzku
+        subject_person_id: p_pEywX39NWKUq9nsDk1FUH7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pTZB8fs7H6HDdDBGYmoZTE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GxG6mmOHrdmxosnp0RAxuR
+          claim_id: c_fGoV2koOSYMvWbOJiIwzku
+          source_id: s_9idBDsJ4YTcBai7gUxyEnL
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第三十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_pTZB8fs7H6HDdDBGYmoZTE
+        status: active
+        display_name: 王有恬
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_pTZB8fs7H6HDdDBGYmoZTE | 王有恬 | accepted |
 
 ## 外部来源
 

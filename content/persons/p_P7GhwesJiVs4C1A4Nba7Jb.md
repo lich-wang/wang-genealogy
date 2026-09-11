@@ -4,7 +4,7 @@ id: p_P7GhwesJiVs4C1A4Nba7Jb
 status: active
 merged_into: null
 display_name: 王紹
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_zKnNzxYUQ3P19zwoqjEz4G
+        subject_person_id: p_pcc8wxCUeTi3QxRCRXFAey
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_P7GhwesJiVs4C1A4Nba7Jb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-Ui12YhWvBP3lc_x7WTtri
+          claim_id: c_zKnNzxYUQ3P19zwoqjEz4G
+          source_id: s_AbTWeCLApEsbEvV8JY5ZLS
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_AbTWeCLApEsbEvV8JY5ZLS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王端（CBDB 32763）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=32763&o=json
+            external_identifier: CBDB:32763
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.056Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_pcc8wxCUeTi3QxRCRXFAey
+        status: active
+        display_name: 王端
+        merged_into_person_id: null
   children:
     - claim:
         id: c_yaDxf1keGSh0XZiCK1zWPf
@@ -204,6 +241,32 @@ relationships:
         status: active
         display_name: 王元泰
         merged_into_person_id: null
+    - claim:
+        id: c_tkIj7wZR4M5AZyDu5_mmQ5
+        subject_person_id: p_P7GhwesJiVs4C1A4Nba7Jb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_V1LBPRS1m59iq4ctexJZrQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hkirfuJGx1G2UXjz-wUt_8
+          claim_id: c_tkIj7wZR4M5AZyDu5_mmQ5
+          source_id: s_f6MYjnJ1VeCBG99gB6grRJ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_V1LBPRS1m59iq4ctexJZrQ
+        status: active
+        display_name: 王元質
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -229,11 +292,14 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_pcc8wxCUeTi3QxRCRXFAey | 王端 | accepted |
 | children | p_GW1C1LVqEGvNqAG7deAmJU | 王元弼 | accepted |
 | children | p_hc8ukjzJMvUTxWJLx4CRbn | 王元泰 | accepted |
+| children | p_V1LBPRS1m59iq4ctexJZrQ | 王元質 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王端（CBDB 32763）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=32763&o=json)
 - [中国历代人物传记资料库：王紹（CBDB 32762）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=32762&o=json)
 - [中国历代人物传记资料库：王元弼（CBDB 191271）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191271&o=json)
 - [中国历代人物传记资料库：王元泰（CBDB 191269）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191269&o=json)

@@ -4,7 +4,7 @@ id: p_oVNec56gH8tWivCLKAckvC
 status: active
 merged_into: null
 display_name: 王鰲永
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -106,7 +106,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_j337N-kxTPA6E5UdTCllhS
+        subject_person_id: p_oVNec56gH8tWivCLKAckvC
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_okg9A8tE1fuAD5wCQZkWM2
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CWNsXIwiKaFTJ7x_wXAFCq
+          claim_id: c_j337N-kxTPA6E5UdTCllhS
+          source_id: s_tVY8ZFb6z4wbDDK4Fbcxsw
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），192：玄孫;四世孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_okg9A8tE1fuAD5wCQZkWM2
+        status: active
+        display_name: 王作亮
+        merged_into_person_id: null
   other: []
 ---
 
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_okg9A8tE1fuAD5wCQZkWM2 | 王作亮 | accepted |
 
 ## 外部来源
 

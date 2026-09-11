@@ -4,7 +4,7 @@ id: p_PpLqnBNRrTw5b6vkG3TPK7
 status: active
 merged_into: null
 display_name: 王時可
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_-jecEuJ9BBL7ZPmZ8LlCeu
+        subject_person_id: p_oDCtFv3cf2CiUbXVcBy9FF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_PpLqnBNRrTw5b6vkG3TPK7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0R8xWLaYi1JQ2MInY5f-Tx
+          claim_id: c_-jecEuJ9BBL7ZPmZ8LlCeu
+          source_id: s_48w7agQBRvSUkP56U1snL5
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第六名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oDCtFv3cf2CiUbXVcBy9FF
+        status: active
+        display_name: 王廷榦
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_oDCtFv3cf2CiUbXVcBy9FF | 王廷榦 | accepted |
 
 ## 外部来源
 

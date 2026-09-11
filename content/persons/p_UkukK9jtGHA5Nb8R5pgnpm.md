@@ -4,7 +4,7 @@ id: p_UkukK9jtGHA5Nb8R5pgnpm
 status: active
 merged_into: null
 display_name: 王播
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -166,7 +166,44 @@ relationships:
         status: active
         display_name: 王恕
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_zIHwfD1dCn4wEWFDiMFD8l
+        subject_person_id: p_UkukK9jtGHA5Nb8R5pgnpm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PegFBQ8QQJ79Ew9RgWhWvv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_38X8c1UlL6Ip1kLbaPW-0s
+          claim_id: c_zIHwfD1dCn4wEWFDiMFD8l
+          source_id: s_QnhYN5PPjJyBfMWdofYW2C
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_QnhYN5PPjJyBfMWdofYW2C
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎮（CBDB 175911）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175911&o=json
+            external_identifier: CBDB:175911
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.195Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_PegFBQ8QQJ79Ew9RgWhWvv
+        status: active
+        display_name: 王鎮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_6YDDamD31FqdZsDuahyiXX | 王恕 | accepted |
+| children | p_PegFBQ8QQJ79Ew9RgWhWvv | 王鎮 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王播（CBDB 92109）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92109&o=json)
 - [中国历代人物传记资料库：王恕（CBDB 145608）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145608&o=json)
+- [中国历代人物传记资料库：王鎮（CBDB 175911）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175911&o=json)

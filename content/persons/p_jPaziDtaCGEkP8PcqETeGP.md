@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王遇龍
 cbdb_id: 38280
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_HWxm1aUciUchB5Spy1BOge
+        subject_person_id: p_pv61XtHSxxg2PJ1X8CE9a2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jPaziDtaCGEkP8PcqETeGP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bvO4Ov7qhg4qvdIeXvECYD
+          claim_id: c_HWxm1aUciUchB5Spy1BOge
+          source_id: s_wKTwhruwXx5t81q3BiBCST
+          stance: supports
+          locator: 寶祐登科錄：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_wKTwhruwXx5t81q3BiBCST
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昌辰（CBDB 136387）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136387&o=json
+            external_identifier: CBDB:136387
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.344Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_pv61XtHSxxg2PJ1X8CE9a2
+        status: active
+        display_name: 王昌辰
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_pv61XtHSxxg2PJ1X8CE9a2 | 王昌辰 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王昌辰（CBDB 136387）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136387&o=json)
 - [中国历代人物传记资料库：王遇龍（CBDB 38280）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38280&o=json)

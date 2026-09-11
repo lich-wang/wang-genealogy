@@ -4,7 +4,7 @@ id: p_RRZuE21H2Z9728UGo3kUPT
 status: active
 merged_into: null
 display_name: 王邦俊
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ko2ZDv8EvnKExXLwp7Rnsr
+        subject_person_id: p_p52NPJ3XEL4EMz8XmEty7C
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RRZuE21H2Z9728UGo3kUPT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6y_a_lisH3tkyWQqjzEjXh
+          claim_id: c_ko2ZDv8EvnKExXLwp7Rnsr
+          source_id: s_QfxaMSXNDnsAA16j7kZEA5
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第三甲第一百四十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_QfxaMSXNDnsAA16j7kZEA5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瀾（CBDB 214607）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214607&o=json
+            external_identifier: CBDB:214607
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.161Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_p52NPJ3XEL4EMz8XmEty7C
+        status: active
+        display_name: 王瀾
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +237,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_p52NPJ3XEL4EMz8XmEty7C | 王瀾 | accepted |
 | ancestors | p_jmJNUw1ejhwr4vyXkCpjV3 | 王鳳儀 | accepted |
 | ancestors | p_oEjk9MMP49z4GcDFBCjNtL | 王恕 | accepted |
 
@@ -207,4 +245,5 @@ relationships:
 
 - [中国历代人物传记资料库：王邦俊（CBDB 206190）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206190&o=json)
 - [中国历代人物传记资料库：王鳳儀（CBDB 214606）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214606&o=json)
+- [中国历代人物传记资料库：王瀾（CBDB 214607）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214607&o=json)
 - [中国历代人物传记资料库：王恕（CBDB 214605）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214605&o=json)

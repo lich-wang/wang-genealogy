@@ -4,7 +4,7 @@ id: p_pLBQ4Lr5Q5VkSkEccpnRyk
 status: active
 merged_into: null
 display_name: 王叡
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_xZvpOR3zM09ce3GpJYCYcB
+        subject_person_id: p_SKrX6A3YZp1GxrUFanBwYL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pLBQ4Lr5Q5VkSkEccpnRyk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zmruA2xHKLRt77V-PptVP-
+          claim_id: c_xZvpOR3zM09ce3GpJYCYcB
+          source_id: s_ntk53u5XLSBffeHe5eAWSP
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Yifeng12：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_SKrX6A3YZp1GxrUFanBwYL
+        status: active
+        display_name: 王憲
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_FKqgkvnx4EiEQdj_AjieiU
+        subject_person_id: p_pLBQ4Lr5Q5VkSkEccpnRyk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zJ1Pzko9B5NNeaFihXANes
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4m6ewkyBuB2XtsBov24ZZT
+          claim_id: c_FKqgkvnx4EiEQdj_AjieiU
+          source_id: s_ntk53u5XLSBffeHe5eAWSP
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Yifeng12：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zJ1Pzko9B5NNeaFihXANes
+        status: active
+        display_name: 王客僧
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_SKrX6A3YZp1GxrUFanBwYL | 王憲 | accepted |
+| children | p_zJ1Pzko9B5NNeaFihXANes | 王客僧 | accepted |
 
 ## 外部来源
 

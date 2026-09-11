@@ -4,7 +4,7 @@ id: p_Pu2x9TKf86JgQ9g7MASE5D
 status: active
 merged_into: null
 display_name: 王繼
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_y4-sJNIwFI7zR_Wc5KWX_E
+        subject_person_id: p_Pu2x9TKf86JgQ9g7MASE5D
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_VC8bBPzAyQehLYq3eBykXc
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_l6AfHvdF0ndAqvV1VWYq45
+          claim_id: c_y4-sJNIwFI7zR_Wc5KWX_E
+          source_id: s_29iEQ8GXjzhkszQfjf5tCj
+          stance: supports
+          locator: 嘉靖十七年進士登科錄:一卷，第二甲第七十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_VC8bBPzAyQehLYq3eBykXc
+        status: active
+        display_name: 王時儉
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_VC8bBPzAyQehLYq3eBykXc | 王時儉 | accepted |
 
 ## 外部来源
 

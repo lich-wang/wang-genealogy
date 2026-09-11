@@ -4,7 +4,7 @@ id: p_UjZpJ3nna6WnKHPp7DAt53
 status: active
 merged_into: null
 display_name: 王三聘
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_3q4B5wHp8u0fs_tr8HNQbF
+        subject_person_id: p_pBNZiURNhTvnzH774UY4Jb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UjZpJ3nna6WnKHPp7DAt53
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bz3NvJQD52xRNlA8rTUl0l
+          claim_id: c_3q4B5wHp8u0fs_tr8HNQbF
+          source_id: s_H4kgRTdbTVdJtFNPuG4pBb
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第三甲第二百名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_H4kgRTdbTVdJtFNPuG4pBb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玉（CBDB 298281）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298281&o=json
+            external_identifier: CBDB:298281
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.585Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_pBNZiURNhTvnzH774UY4Jb
+        status: active
+        display_name: 王玉
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +237,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_pBNZiURNhTvnzH774UY4Jb | 王玉 | accepted |
 | ancestors | p_71d1dBTdsdBJjjgDNyHHUE | 王連 | accepted |
 | ancestors | p_Mdksq8j5SVp3pVE2nRfG3X | 王宰 | accepted |
 
@@ -207,4 +245,5 @@ relationships:
 
 - [中国历代人物传记资料库：王連（CBDB 298278）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298278&o=json)
 - [中国历代人物传记资料库：王三聘（CBDB 203007）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203007&o=json)
+- [中国历代人物传记资料库：王玉（CBDB 298281）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298281&o=json)
 - [中国历代人物传记资料库：王宰（CBDB 298279）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298279&o=json)

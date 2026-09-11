@@ -4,7 +4,7 @@ id: p_pc4LCZPp8G9LfiCGLBLZBX
 status: active
 merged_into: null
 display_name: 王德成
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Bxtbt1LKv1D1JdFIbpMCWz
+        subject_person_id: p_pc4LCZPp8G9LfiCGLBLZBX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GGoCNoVNHxmsGgT4y3whCN
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_f9fkGwC7qEo028fIVFUjYd
+          claim_id: c_Bxtbt1LKv1D1JdFIbpMCWz
+          source_id: s_4todbyzG5q5AkB18diWaKZ
+          stance: supports
+          locator: 正统十年進士登科錄:一卷，第三甲第八十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GGoCNoVNHxmsGgT4y3whCN
+        status: active
+        display_name: 王瓖
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_GGoCNoVNHxmsGgT4y3whCN | 王瓖 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_phM7XLeV2SMYTDK13TQXci
 status: active
 merged_into: null
 display_name: 王儒
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_z8KbF2Dl_ePOWZMQmX6SFz
+        subject_person_id: p_phM7XLeV2SMYTDK13TQXci
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_hpB2Y5ktFHzZw4LUr2KGvj
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SpYi-DmtzG3R9Sft26mt7J
+          claim_id: c_z8KbF2Dl_ePOWZMQmX6SFz
+          source_id: s_xuS8dfXfxskivPNArysg96
+          stance: supports
+          locator: 嘉靖三十八年進士登科錄:一卷，第三甲第六十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hpB2Y5ktFHzZw4LUr2KGvj
+        status: active
+        display_name: 王用楨
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_hpB2Y5ktFHzZw4LUr2KGvj | 王用楨 | accepted |
 
 ## 外部来源
 

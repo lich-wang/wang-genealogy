@@ -4,7 +4,7 @@ id: p_nMTfTHCiK68GBCA9Zmyxva
 status: active
 merged_into: null
 display_name: 王光祖
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -171,6 +171,43 @@ relationships:
         status: active
         display_name: 王文
         merged_into_person_id: null
+    - claim:
+        id: c_bxH8ukUTo7inWf-WG0BeYm
+        subject_person_id: p_PADhC3kPizKDbh6s6tqmfH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_nMTfTHCiK68GBCA9Zmyxva
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TIGR9OVuX2BfzTfJlMyCBi
+          claim_id: c_bxH8ukUTo7inWf-WG0BeYm
+          source_id: s_brMtNfQPBQBrG9k3XkY9v7
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第四十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_brMtNfQPBQBrG9k3XkY9v7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玘（CBDB 306645）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306645&o=json
+            external_identifier: CBDB:306645
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.772Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_PADhC3kPizKDbh6s6tqmfH
+        status: active
+        display_name: 王玘
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_j2Qr14aEdifzKDjQ5pCzA6 | 王文 | accepted |
+| ancestors | p_PADhC3kPizKDbh6s6tqmfH | 王玘 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王光祖（CBDB 126518）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126518&o=json)
+- [中国历代人物传记资料库：王玘（CBDB 306645）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306645&o=json)
 - [中国历代人物传记资料库：王文（CBDB 306646）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306646&o=json)

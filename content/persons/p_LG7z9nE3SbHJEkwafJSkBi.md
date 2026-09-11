@@ -4,7 +4,7 @@ id: p_LG7z9nE3SbHJEkwafJSkBi
 status: active
 merged_into: null
 display_name: 王鐸
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_I1NlPLoI12ya_MACWX5CN-
+        subject_person_id: p_PFnZLXWBaZSZreaimdGwAe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LG7z9nE3SbHJEkwafJSkBi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rg1c628F704wbSCH_28UIv
+          claim_id: c_I1NlPLoI12ya_MACWX5CN-
+          source_id: s_2TVn1dFcpjb5BZcZ36Ds1b
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第七十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_2TVn1dFcpjb5BZcZ36Ds1b
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑀（CBDB 259316）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259316&o=json
+            external_identifier: CBDB:259316
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.455Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_PFnZLXWBaZSZreaimdGwAe
+        status: active
+        display_name: 王瑀
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_PFnZLXWBaZSZreaimdGwAe | 王瑀 | accepted |
 | ancestors | p_JVxcpfuVxrWmTe4RKzwMeJ | 王欽 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鐸（CBDB 200528）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200528&o=json)
 - [中国历代人物传记资料库：王欽（CBDB 259314）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259314&o=json)
+- [中国历代人物传记资料库：王瑀（CBDB 259316）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259316&o=json)

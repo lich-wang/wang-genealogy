@@ -4,7 +4,7 @@ id: p_pTB7HsH5CT4VpfKwtjMaNH
 status: active
 merged_into: null
 display_name: 王淵
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_W22EnvFTYQ5VDdR0QRQbog
+        subject_person_id: p_pTB7HsH5CT4VpfKwtjMaNH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pUwZmXJA98H12Cyv9Q6e5y
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Qc_tXU088C2SxJmc0HepQh
+          claim_id: c_W22EnvFTYQ5VDdR0QRQbog
+          source_id: s_Tu1VwVeXjMEWveB3L1tAHt
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_pUwZmXJA98H12Cyv9Q6e5y
+        status: active
+        display_name: 王時柯
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_pUwZmXJA98H12Cyv9Q6e5y | 王時柯 | accepted |
 
 ## 外部来源
 

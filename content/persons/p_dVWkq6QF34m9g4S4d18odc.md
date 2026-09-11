@@ -4,7 +4,7 @@ id: p_dVWkq6QF34m9g4S4d18odc
 status: active
 merged_into: null
 display_name: 王惟善
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_K2q3jHLcfgF3pB5OgVD3YV
+        subject_person_id: p_PJsc1cLHcqWGocH1mhQqqC
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_dVWkq6QF34m9g4S4d18odc
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MR0wOdTpS4F2RG1iXSZVPE
+          claim_id: c_K2q3jHLcfgF3pB5OgVD3YV
+          source_id: s_oSuHNHPKSr8vzZwNDi3bmn
+          stance: supports
+          locator: 景泰二年進士登科錄:一卷，第三甲第八十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_oSuHNHPKSr8vzZwNDi3bmn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子秀（CBDB 244186）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244186&o=json
+            external_identifier: CBDB:244186
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.026Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_PJsc1cLHcqWGocH1mhQqqC
+        status: active
+        display_name: 王子秀
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_7VdDxDNV8k1y8nwSyxJoga | 王胤賢 | accepted |
+| ancestors | p_PJsc1cLHcqWGocH1mhQqqC | 王子秀 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王惟善（CBDB 338654）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338654&o=json)
 - [中国历代人物传记资料库：王胤賢（CBDB 244197）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244197&o=json)
+- [中国历代人物传记资料库：王子秀（CBDB 244186）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244186&o=json)

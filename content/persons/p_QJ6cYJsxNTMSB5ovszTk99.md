@@ -4,7 +4,7 @@ id: p_QJ6cYJsxNTMSB5ovszTk99
 status: active
 merged_into: null
 display_name: 王志儀
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_pCtOBnEAbcf_CTgMiZeqAM
+        subject_person_id: p_p5Bgq9U7wnsJs77muEqiGg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QJ6cYJsxNTMSB5ovszTk99
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1nh2a_fW01QS9NLcbZTNoF
+          claim_id: c_pCtOBnEAbcf_CTgMiZeqAM
+          source_id: s_XP6yeB5bki4Uje1WNxPTGj
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13153：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_XP6yeB5bki4Uje1WNxPTGj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王履亨（CBDB 69443）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69443&o=json
+            external_identifier: CBDB:69443
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.272Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_p5Bgq9U7wnsJs77muEqiGg
+        status: active
+        display_name: 王履亨
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_p5Bgq9U7wnsJs77muEqiGg | 王履亨 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王履亨（CBDB 69443）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69443&o=json)
 - [中国历代人物传记资料库：王志儀（CBDB 526969）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526969&o=json)

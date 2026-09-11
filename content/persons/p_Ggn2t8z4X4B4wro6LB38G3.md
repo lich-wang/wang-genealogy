@@ -4,7 +4,7 @@ id: p_Ggn2t8z4X4B4wro6LB38G3
 status: active
 merged_into: null
 display_name: 王虔暢
-revision: 6
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -319,6 +319,80 @@ relationships:
         status: active
         display_name: 王雲
         merged_into_person_id: null
+    - claim:
+        id: c_QZfL-_mqSI5kgamSjqRXOQ
+        subject_person_id: p_omcnEPxMUJWQetwYnKCLjF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Ggn2t8z4X4B4wro6LB38G3
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PEs6kPf-iXfU1P9lOkXTc8
+          claim_id: c_QZfL-_mqSI5kgamSjqRXOQ
+          source_id: s_cCzKSa17QMxMtnFYQLNKef
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xiantong 56：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_cCzKSa17QMxMtnFYQLNKef
+            source_type: api_record
+            title: 中国历代人物传记资料库：王炅（CBDB 157068）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157068&o=json
+            external_identifier: CBDB:157068
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.901Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_omcnEPxMUJWQetwYnKCLjF
+        status: active
+        display_name: 王炅
+        merged_into_person_id: null
+    - claim:
+        id: c_by5WkTaV7Wdm7YhKo7_ZEB
+        subject_person_id: p_PtYEMqNo3Ja6CBRf3JpwLp
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Ggn2t8z4X4B4wro6LB38G3
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Vgee0uUD7LapQVgHlVCkyN
+          claim_id: c_by5WkTaV7Wdm7YhKo7_ZEB
+          source_id: s_xrt4f93dp6af9Q6LA6B4bQ
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xiantong 56：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_xrt4f93dp6af9Q6LA6B4bQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王希儁（CBDB 160576）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160576&o=json
+            external_identifier: CBDB:160576
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.942Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_PtYEMqNo3Ja6CBRf3JpwLp
+        status: active
+        display_name: 王希儁
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -345,12 +419,16 @@ relationships:
 | children | p_EwDgLH5GRgdhsBuSp5fGjy | 王處脩 | accepted |
 | children | p_H2DpSRdokD1K9UiqF5tCYj | 王處修 | accepted |
 | ancestors | p_BzEC3FxQZmQshcKpSR8HHx | 王雲 | accepted |
+| ancestors | p_omcnEPxMUJWQetwYnKCLjF | 王炅 | accepted |
+| ancestors | p_PtYEMqNo3Ja6CBRf3JpwLp | 王希儁 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王處溫（CBDB 160572）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160572&o=json)
 - [中国历代人物传记资料库：王處修（CBDB 160571）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160571&o=json)
 - [中国历代人物传记资料库：王處脩（CBDB 189914）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=189914&o=json)
+- [中国历代人物传记资料库：王炅（CBDB 157068）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157068&o=json)
 - [中国历代人物传记资料库：王璉（CBDB 160570）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160570&o=json)
 - [中国历代人物传记资料库：王虔暢（CBDB 142008）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142008&o=json)
+- [中国历代人物传记资料库：王希儁（CBDB 160576）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160576&o=json)
 - [中国历代人物传记资料库：王雲（CBDB 160565）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160565&o=json)

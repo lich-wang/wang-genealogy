@@ -4,7 +4,7 @@ id: p_YK4bpXQdAzwAFmUdFckAGb
 status: active
 merged_into: null
 display_name: 王仲建
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Kf87NMURJ9PKNuKZoXYVY5
+        subject_person_id: p_p6Cfh5FMfq4RGbk9EBSDYa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YK4bpXQdAzwAFmUdFckAGb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gItTbHiGTBS_Ixa8JAozNk
+          claim_id: c_Kf87NMURJ9PKNuKZoXYVY5
+          source_id: s_o35r9tq1fQ1NVice9bPWPa
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xiantong 47：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_o35r9tq1fQ1NVice9bPWPa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王坤（CBDB 160481）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160481&o=json
+            external_identifier: CBDB:160481
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.939Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_p6Cfh5FMfq4RGbk9EBSDYa
+        status: active
+        display_name: 王坤
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_p6Cfh5FMfq4RGbk9EBSDYa | 王坤 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王坤（CBDB 160481）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160481&o=json)
 - [中国历代人物传记资料库：王仲建（CBDB 141999）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141999&o=json)

@@ -4,7 +4,7 @@ id: p_oXazvgZDCU1eQZ2UVAEZ4j
 status: active
 merged_into: null
 display_name: 王曙
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -134,7 +134,85 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_cRQP2MzJHW6efUp5tQ6bID
+        subject_person_id: p_oXazvgZDCU1eQZ2UVAEZ4j
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_8x3h6NDAZh5tHyrWsrxPRc
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_96jrM12P8Fhczr9G1Y8aQd
+          claim_id: c_cRQP2MzJHW6efUp5tQ6bID
+          source_id: s_e5drH5xPh5jbJyVbSxpyNA
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1970：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_8x3h6NDAZh5tHyrWsrxPRc
+        status: active
+        display_name: 王慎言
+        merged_into_person_id: null
+    - claim:
+        id: c_tkiCJSJwuej2R2gIgFO9Q9
+        subject_person_id: p_oXazvgZDCU1eQZ2UVAEZ4j
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_R1Ny36Z2KzDUq48Pri3BeK
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XBs7Rmq0NEXDkVZPNQsrp4
+          claim_id: c_tkiCJSJwuej2R2gIgFO9Q9
+          source_id: s_e5drH5xPh5jbJyVbSxpyNA
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_R1Ny36Z2KzDUq48Pri3BeK
+        status: active
+        display_name: 王慎行
+        merged_into_person_id: null
+    - claim:
+        id: c_LHH21R_edP9fLpATMS1gy2
+        subject_person_id: p_oXazvgZDCU1eQZ2UVAEZ4j
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_mtMHeaLVMRzHPiV6MMKoBB
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7DNOlFNmb7MktE_SevKTtb
+          claim_id: c_LHH21R_edP9fLpATMS1gy2
+          source_id: s_e5drH5xPh5jbJyVbSxpyNA
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_mtMHeaLVMRzHPiV6MMKoBB
+        status: active
+        display_name: 王慎术
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_8x3h6NDAZh5tHyrWsrxPRc | 王慎言 | accepted |
+| descendants | p_R1Ny36Z2KzDUq48Pri3BeK | 王慎行 | accepted |
+| descendants | p_mtMHeaLVMRzHPiV6MMKoBB | 王慎术 | accepted |
 
 ## 外部来源
 

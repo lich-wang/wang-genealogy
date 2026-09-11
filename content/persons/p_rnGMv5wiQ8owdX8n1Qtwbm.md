@@ -4,7 +4,7 @@ id: p_rnGMv5wiQ8owdX8n1Qtwbm
 status: active
 merged_into: null
 display_name: 王嘉言
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -171,6 +171,43 @@ relationships:
         status: active
         display_name: 王室
         merged_into_person_id: null
+    - claim:
+        id: c_wxybOGtt1SA7R60Oe1jlnb
+        subject_person_id: p_PdjAKCdWFs1WD9c4aiR9nQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_rnGMv5wiQ8owdX8n1Qtwbm
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i2RtN_lJtxKU2blB_Ih4y9
+          claim_id: c_wxybOGtt1SA7R60Oe1jlnb
+          source_id: s_BnB6ivwajYr5Mu3FG1N4sp
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第六十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BnB6ivwajYr5Mu3FG1N4sp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王琥（CBDB 327853）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327853&o=json
+            external_identifier: CBDB:327853
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.262Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_PdjAKCdWFs1WD9c4aiR9nQ
+        status: active
+        display_name: 王琥
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_5X4eitoFo5XjwFMw6N8aoW | 王室 | accepted |
+| ancestors | p_PdjAKCdWFs1WD9c4aiR9nQ | 王琥 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王琥（CBDB 327853）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327853&o=json)
 - [中国历代人物传记资料库：王嘉言（CBDB 126780）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126780&o=json)
 - [中国历代人物传记资料库：王室（CBDB 327851）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327851&o=json)

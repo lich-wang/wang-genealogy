@@ -4,7 +4,7 @@ id: p_vs2bQpvZMdxn2V6wjvzkce
 status: active
 merged_into: null
 display_name: 王瓚
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_NfoEhYmlxVUBMdxOajv9ft
+        subject_person_id: p_pC9EkvHAEVnP4tzE8bJFvr
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vs2bQpvZMdxn2V6wjvzkce
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AxWNexdOHLQV8A5tCYljJP
+          claim_id: c_NfoEhYmlxVUBMdxOajv9ft
+          source_id: s_16BJEMJT3ANbQnLUL27J5v
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第二甲第五十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_16BJEMJT3ANbQnLUL27J5v
+            source_type: api_record
+            title: 中国历代人物传记资料库：王思恭（CBDB 255259）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255259&o=json
+            external_identifier: CBDB:255259
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.338Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_pC9EkvHAEVnP4tzE8bJFvr
+        status: active
+        display_name: 王思恭
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,11 +266,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_pC9EkvHAEVnP4tzE8bJFvr | 王思恭 | accepted |
 | ancestors | p_5fCfWXCbpeJ4sB1ZKzLvHs | 王孝義 | accepted |
 | ancestors | p_8EksMYjjUG8SyA5g98Kh2E | 王億 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王思恭（CBDB 255259）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255259&o=json)
 - [中国历代人物传记资料库：王孝義（CBDB 255256）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255256&o=json)
 - [中国历代人物传记资料库：王億（CBDB 255257）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255257&o=json)
 - [中国历代人物传记资料库：王瓚（CBDB 126891）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126891&o=json)

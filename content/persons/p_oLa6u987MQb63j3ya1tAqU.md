@@ -4,7 +4,7 @@ id: p_oLa6u987MQb63j3ya1tAqU
 status: active
 merged_into: null
 display_name: 王德素
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_9Ocm6eZpKTj4ZJSDt2-lDW
+        subject_person_id: p_oVGxgeqgB52Zexa9NQq2Wt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oLa6u987MQb63j3ya1tAqU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FFqPTmhBEJvQXO965e7xVZ
+          claim_id: c_9Ocm6eZpKTj4ZJSDt2-lDW
+          source_id: s_ggHXBc79NXCebBG2oHeKbN
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oVGxgeqgB52Zexa9NQq2Wt
+        status: active
+        display_name: 王續
+        merged_into_person_id: null
   children:
     - claim:
         id: c_mBcCCxfG6wGrdKBr7Y4_xg
@@ -148,11 +174,89 @@ relationships:
         status: active
         display_name: 王鼎
         merged_into_person_id: null
+    - claim:
+        id: c_QvItI0ZBfiv8eenDlER7H3
+        subject_person_id: p_oLa6u987MQb63j3ya1tAqU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pqzzh1X3bxvH2Jo1JoVnaj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_duEv6VMQvXOGle6-v8ljnq
+          claim_id: c_QvItI0ZBfiv8eenDlER7H3
+          source_id: s_ggHXBc79NXCebBG2oHeKbN
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_pqzzh1X3bxvH2Jo1JoVnaj
+        status: active
+        display_name: 王豫
+        merged_into_person_id: null
+    - claim:
+        id: c_X_ldpt4QGPURrcpOQ9ClGv
+        subject_person_id: p_oLa6u987MQb63j3ya1tAqU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qXM1948ABhTDWE1ENfxRY9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DjeGnNNaJNDWVgbIFaYLxG
+          claim_id: c_X_ldpt4QGPURrcpOQ9ClGv
+          source_id: s_ggHXBc79NXCebBG2oHeKbN
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qXM1948ABhTDWE1ENfxRY9
+        status: active
+        display_name: 王瑤
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_r08_tlswd07dAL7nRTzOcg
+        subject_person_id: p_oLa6u987MQb63j3ya1tAqU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_FeBSyMhR8CUYiFybnucP3c
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_D_V2y4u7TrpwF_LJw7riCs
+          claim_id: c_r08_tlswd07dAL7nRTzOcg
+          source_id: s_ggHXBc79NXCebBG2oHeKbN
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 34：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_FeBSyMhR8CUYiFybnucP3c
+        status: active
+        display_name: 王秦客
+        merged_into_person_id: null
   other: []
 ---
 
@@ -171,8 +275,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_oVGxgeqgB52Zexa9NQq2Wt | 王續 | accepted |
 | children | p_CfDJLGeQRm5GT5pz7Re9pe | 王瑜 | accepted |
 | children | p_Cyb8Y4r2NXehBqbUsk4xci | 王鼎 | accepted |
+| children | p_pqzzh1X3bxvH2Jo1JoVnaj | 王豫 | accepted |
+| children | p_qXM1948ABhTDWE1ENfxRY9 | 王瑤 | accepted |
+| descendants | p_FeBSyMhR8CUYiFybnucP3c | 王秦客 | accepted |
 
 ## 外部来源
 

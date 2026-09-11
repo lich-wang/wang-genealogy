@@ -4,7 +4,7 @@ id: p_Znen7jNez4DsQZ8W2U88iW
 status: active
 merged_into: null
 display_name: 王會
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -208,6 +208,43 @@ relationships:
         status: active
         display_name: 王瓚
         merged_into_person_id: null
+    - claim:
+        id: c_WQ93-2zlGqqXGWlWV4uQzZ
+        subject_person_id: p_oLHHb6jkM6de4hAURMWMmP
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Znen7jNez4DsQZ8W2U88iW
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_t6fx9Ktpve1u_KXTy0xuH8
+          claim_id: c_WQ93-2zlGqqXGWlWV4uQzZ
+          source_id: s_QAWPGKjTx4y3o5Ayoi8ijG
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第二甲第七十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_QAWPGKjTx4y3o5Ayoi8ijG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王綸（CBDB 305999）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305999&o=json
+            external_identifier: CBDB:305999
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.749Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_oLHHb6jkM6de4hAURMWMmP
+        status: active
+        display_name: 王綸
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_26uVgWbWAkUDcgWw8N6zSa | 王良玉 | accepted |
 | ancestors | p_CT7jdvGqGeXVjucR9B1hbL | 王瓚 | accepted |
+| ancestors | p_oLHHb6jkM6de4hAURMWMmP | 王綸 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王會（CBDB 126770）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126770&o=json)
 - [中国历代人物传记资料库：王良玉（CBDB 306001）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306001&o=json)
+- [中国历代人物传记资料库：王綸（CBDB 305999）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305999&o=json)
 - [中国历代人物传记资料库：王瓚（CBDB 306000）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306000&o=json)

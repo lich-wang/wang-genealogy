@@ -4,7 +4,7 @@ id: p_opsncCNzvaYHZ9E4vVyB8U
 status: active
 merged_into: null
 display_name: 王虎臣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_k6fAoTlGc__eM5gVQ0Cb2e
+        subject_person_id: p_Z3yJbfsSRLdEC1Qn6YY2V9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_opsncCNzvaYHZ9E4vVyB8U
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_X1JOI2QozJgDcVTOsyiFNv
+          claim_id: c_k6fAoTlGc__eM5gVQ0Cb2e
+          source_id: s_14mqU4xoQTzQQ4HiT5TkZA
+          stance: supports
+          locator: 元人傳記資料索引，1103：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Z3yJbfsSRLdEC1Qn6YY2V9
+        status: active
+        display_name: 王璋
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Z3yJbfsSRLdEC1Qn6YY2V9 | 王璋 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_cnxHgvNWzCNiTbu6SVUA3o
 status: active
 merged_into: null
 display_name: 王春
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_foX01O4HPgtEtpTtd03bqJ
+        subject_person_id: p_psesBqxpFDwKqz2PBTA4dC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cnxHgvNWzCNiTbu6SVUA3o
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rqpKYBNcQx2IgwiOoAqbLP
+          claim_id: c_foX01O4HPgtEtpTtd03bqJ
+          source_id: s_rj4Xn1Tt1t2oVSwfrw3wy5
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_rj4Xn1Tt1t2oVSwfrw3wy5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗器（CBDB 262581）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262581&o=json
+            external_identifier: CBDB:262581
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.593Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_psesBqxpFDwKqz2PBTA4dC
+        status: active
+        display_name: 王宗器
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_psesBqxpFDwKqz2PBTA4dC | 王宗器 | accepted |
 | ancestors | p_95awjgHBCHs1xjiDGEzzQZ | 王繼先 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王春（CBDB 198362）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198362&o=json)
 - [中国历代人物传记资料库：王繼先（CBDB 262570）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262570&o=json)
+- [中国历代人物传记资料库：王宗器（CBDB 262581）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262581&o=json)

@@ -4,7 +4,7 @@ id: p_xpckQ2G2t7wTNrXzHWsi53
 status: active
 merged_into: null
 display_name: 王霽
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_pZktPCA8Qv1SdvIJmksK1r
+        subject_person_id: p_oRgQrFftm4F4PSEdJVkRXn
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_xpckQ2G2t7wTNrXzHWsi53
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_488nRCLHiXX_RprBVspxm6
+          claim_id: c_pZktPCA8Qv1SdvIJmksK1r
+          source_id: s_BrJkuxJ5DkuUsDTWWZjWeT
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第三甲第九十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BrJkuxJ5DkuUsDTWWZjWeT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王才（CBDB 303976）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303976&o=json
+            external_identifier: CBDB:303976
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.697Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_oRgQrFftm4F4PSEdJVkRXn
+        status: active
+        display_name: 王才
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_MrBW6wRCgoY5prUKEsRfTq | 王廷賓 | accepted |
+| ancestors | p_oRgQrFftm4F4PSEdJVkRXn | 王才 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王才（CBDB 303976）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303976&o=json)
 - [中国历代人物传记资料库：王霽（CBDB 203388）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203388&o=json)
 - [中国历代人物传记资料库：王廷賓（CBDB 303978）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303978&o=json)

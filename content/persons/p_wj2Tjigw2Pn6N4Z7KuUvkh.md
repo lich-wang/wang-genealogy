@@ -4,7 +4,7 @@ id: p_wj2Tjigw2Pn6N4Z7KuUvkh
 status: active
 merged_into: null
 display_name: 王處存
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -167,6 +167,43 @@ relationships:
         status: active
         display_name: 王郜
         merged_into_person_id: null
+    - claim:
+        id: c_1IVNla1B9cu4TvbgE2j5Wg
+        subject_person_id: p_wj2Tjigw2Pn6N4Z7KuUvkh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_p6RTY29514vD6isBsxvXYV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V_Ognn7Utj5GBxevQUlAH2
+          claim_id: c_1IVNla1B9cu4TvbgE2j5Wg
+          source_id: s_n6FSqGToKu72xXFwsrjMiz
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_n6FSqGToKu72xXFwsrjMiz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鄴（CBDB 169146）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169146&o=json
+            external_identifier: CBDB:169146
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.229Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_p6RTY29514vD6isBsxvXYV
+        status: active
+        display_name: 王鄴
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_ca44NDxeepHheYRG3qRvfq | 王郜 | accepted |
+| children | p_p6RTY29514vD6isBsxvXYV | 王鄴 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王處存（CBDB 169693）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169693&o=json)
 - [中国历代人物传记资料库：王郜（CBDB 186844）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186844&o=json)
+- [中国历代人物传记资料库：王鄴（CBDB 169146）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169146&o=json)

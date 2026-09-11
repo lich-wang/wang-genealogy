@@ -4,7 +4,7 @@ id: p_SKrX6A3YZp1GxrUFanBwYL
 status: active
 merged_into: null
 display_name: 王憲
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_xZvpOR3zM09ce3GpJYCYcB
+        subject_person_id: p_SKrX6A3YZp1GxrUFanBwYL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pLBQ4Lr5Q5VkSkEccpnRyk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zmruA2xHKLRt77V-PptVP-
+          claim_id: c_xZvpOR3zM09ce3GpJYCYcB
+          source_id: s_ntk53u5XLSBffeHe5eAWSP
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Yifeng12：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ntk53u5XLSBffeHe5eAWSP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王叡（CBDB 142667）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142667&o=json
+            external_identifier: CBDB:142667
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.587Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_pLBQ4Lr5Q5VkSkEccpnRyk
+        status: active
+        display_name: 王叡
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -134,9 +171,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_pLBQ4Lr5Q5VkSkEccpnRyk | 王叡 | accepted |
 | descendants | p_2LmAoLQfacgJM3Ub6uRAgM | 王烈 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王烈（CBDB 139697）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139697&o=json)
+- [中国历代人物传记资料库：王叡（CBDB 142667）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142667&o=json)
 - [中国历代人物传记资料库：王憲（CBDB 148801）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148801&o=json)

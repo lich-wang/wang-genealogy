@@ -4,7 +4,7 @@ id: p_PzCR5khH48dxkyKzDoAsiq
 status: active
 merged_into: null
 display_name: 王瓚
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_S2OA1sflG00Uky6BXe0wLN
+        subject_person_id: p_oRkfEh3mM8juLYCKZ1pfmA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_PzCR5khH48dxkyKzDoAsiq
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rqD-N9KW5AzdzlkuL0Grfo
+          claim_id: c_S2OA1sflG00Uky6BXe0wLN
+          source_id: s_UBXV3HnYCDUoAR5HmgUA2S
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第一百七十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_UBXV3HnYCDUoAR5HmgUA2S
+            source_type: api_record
+            title: 中国历代人物传记资料库：王伯忠（CBDB 263441）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=263441&o=json
+            external_identifier: CBDB:263441
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.620Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_oRkfEh3mM8juLYCKZ1pfmA
+        status: active
+        display_name: 王伯忠
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_oRkfEh3mM8juLYCKZ1pfmA | 王伯忠 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王伯忠（CBDB 263441）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=263441&o=json)
 - [中国历代人物传记资料库：王瓚（CBDB 200846）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200846&o=json)

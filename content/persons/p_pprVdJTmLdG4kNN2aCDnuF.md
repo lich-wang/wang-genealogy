@@ -4,7 +4,7 @@ id: p_pprVdJTmLdG4kNN2aCDnuF
 status: active
 merged_into: null
 display_name: 王元佐
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_CppJXsr1KeO62RvNZm8n-Z
+        subject_person_id: p_qhG4rwqk2cG4MFWyR4xuTE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pprVdJTmLdG4kNN2aCDnuF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PcCv87PgR3nRuFVvLnT3W8
+          claim_id: c_CppJXsr1KeO62RvNZm8n-Z
+          source_id: s_jAU68tusz9pf7xe95V8486
+          stance: supports
+          locator: 錢塘縣志，lgid=219830：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qhG4rwqk2cG4MFWyR4xuTE
+        status: active
+        display_name: 王二瀛
+        merged_into_person_id: null
   children:
     - claim:
         id: c_ilysx57vj0hdtt8NbKv9Kj
@@ -134,6 +160,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qhG4rwqk2cG4MFWyR4xuTE | 王二瀛 | accepted |
 | children | p_ev4qDzh7MqpBr9oWtHwgx2 | 王道寧 | accepted |
 
 ## 外部来源

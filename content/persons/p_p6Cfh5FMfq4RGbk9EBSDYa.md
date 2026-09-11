@@ -4,7 +4,7 @@ id: p_p6Cfh5FMfq4RGbk9EBSDYa
 status: active
 merged_into: null
 display_name: 王坤
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Kf87NMURJ9PKNuKZoXYVY5
+        subject_person_id: p_p6Cfh5FMfq4RGbk9EBSDYa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YK4bpXQdAzwAFmUdFckAGb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gItTbHiGTBS_Ixa8JAozNk
+          claim_id: c_Kf87NMURJ9PKNuKZoXYVY5
+          source_id: s_o35r9tq1fQ1NVice9bPWPa
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xiantong 47：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_YK4bpXQdAzwAFmUdFckAGb
+        status: active
+        display_name: 王仲建
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_YK4bpXQdAzwAFmUdFckAGb | 王仲建 | accepted |
 
 ## 外部来源
 

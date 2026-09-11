@@ -4,7 +4,7 @@ id: p_omcnEPxMUJWQetwYnKCLjF
 status: active
 merged_into: null
 display_name: 王炅
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_p6VdfFyMGs82dQHcGsSkbr
+        subject_person_id: p_PtYEMqNo3Ja6CBRf3JpwLp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_omcnEPxMUJWQetwYnKCLjF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_atWzRlMX_h5F93u1tnegt3
+          claim_id: c_p6VdfFyMGs82dQHcGsSkbr
+          source_id: s_cCzKSa17QMxMtnFYQLNKef
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_PtYEMqNo3Ja6CBRf3JpwLp
+        status: active
+        display_name: 王希儁
+        merged_into_person_id: null
   children:
     - claim:
         id: c_ZiQ280jupInGBEaNpR7cse
@@ -152,7 +178,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_QZfL-_mqSI5kgamSjqRXOQ
+        subject_person_id: p_omcnEPxMUJWQetwYnKCLjF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Ggn2t8z4X4B4wro6LB38G3
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PEs6kPf-iXfU1P9lOkXTc8
+          claim_id: c_QZfL-_mqSI5kgamSjqRXOQ
+          source_id: s_cCzKSa17QMxMtnFYQLNKef
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xiantong 56：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Ggn2t8z4X4B4wro6LB38G3
+        status: active
+        display_name: 王虔暢
+        merged_into_person_id: null
   other: []
 ---
 
@@ -171,8 +223,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_PtYEMqNo3Ja6CBRf3JpwLp | 王希儁 | accepted |
 | children | p_BzEC3FxQZmQshcKpSR8HHx | 王雲 | accepted |
 | children | p_NPN1HCc8HN39xQCsFh3ViM | 王霞 | accepted |
+| descendants | p_Ggn2t8z4X4B4wro6LB38G3 | 王虔暢 | accepted |
 
 ## 外部来源
 

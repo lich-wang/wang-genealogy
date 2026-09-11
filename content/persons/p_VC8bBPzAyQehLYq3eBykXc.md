@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王時儉
 cbdb_id: 203083
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,6 +172,43 @@ relationships:
         status: active
         display_name: 王宗道
         merged_into_person_id: null
+    - claim:
+        id: c_y4-sJNIwFI7zR_Wc5KWX_E
+        subject_person_id: p_Pu2x9TKf86JgQ9g7MASE5D
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_VC8bBPzAyQehLYq3eBykXc
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_l6AfHvdF0ndAqvV1VWYq45
+          claim_id: c_y4-sJNIwFI7zR_Wc5KWX_E
+          source_id: s_29iEQ8GXjzhkszQfjf5tCj
+          stance: supports
+          locator: 嘉靖十七年進士登科錄:一卷，第二甲第七十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_29iEQ8GXjzhkszQfjf5tCj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繼（CBDB 299499）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299499&o=json
+            external_identifier: CBDB:299499
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.605Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Pu2x9TKf86JgQ9g7MASE5D
+        status: active
+        display_name: 王繼
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_JaCmStE8FQ4hMkB4kTj6HJ | 王宗道 | accepted |
+| ancestors | p_Pu2x9TKf86JgQ9g7MASE5D | 王繼 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王繼（CBDB 299499）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299499&o=json)
 - [中国历代人物传记资料库：王時儉（CBDB 203083）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203083&o=json)
 - [中国历代人物传记资料库：王宗道（CBDB 299498）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299498&o=json)

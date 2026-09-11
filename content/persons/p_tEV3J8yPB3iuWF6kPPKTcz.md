@@ -4,7 +4,7 @@ id: p_tEV3J8yPB3iuWF6kPPKTcz
 status: active
 merged_into: null
 display_name: 王政
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王寧
         merged_into_person_id: null
+    - claim:
+        id: c_7n1q9OgsELWNIFZSAmEZER
+        subject_person_id: p_oxN22cLhWgB5VUPBzRfa6s
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_tEV3J8yPB3iuWF6kPPKTcz
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_76W7vlGrxJl6ThkhwcbJp-
+          claim_id: c_7n1q9OgsELWNIFZSAmEZER
+          source_id: s_4c33TSsF54bjZB1eiHHn3g
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第三甲第一百一十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4c33TSsF54bjZB1eiHHn3g
+            source_type: api_record
+            title: 中国历代人物传记资料库：王得雄（CBDB 224125）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224125&o=json
+            external_identifier: CBDB:224125
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.426Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_oxN22cLhWgB5VUPBzRfa6s
+        status: active
+        display_name: 王得雄
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_cieoMVnBzJB9M1g8jnDdbx | 王廷言 | accepted |
 | ancestors | p_3e6sK146UAQHvzkeM4nnKp | 王寧 | accepted |
+| ancestors | p_oxN22cLhWgB5VUPBzRfa6s | 王得雄 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王得雄（CBDB 224125）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224125&o=json)
 - [中国历代人物传记资料库：王寧（CBDB 224127）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224127&o=json)
 - [中国历代人物传记资料库：王廷言（CBDB 224128）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224128&o=json)
 - [中国历代人物传记资料库：王政（CBDB 206851）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206851&o=json)

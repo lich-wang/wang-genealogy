@@ -4,7 +4,7 @@ id: p_p6RTY29514vD6isBsxvXYV
 status: active
 merged_into: null
 display_name: 王鄴
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_1IVNla1B9cu4TvbgE2j5Wg
+        subject_person_id: p_wj2Tjigw2Pn6N4Z7KuUvkh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_p6RTY29514vD6isBsxvXYV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V_Ognn7Utj5GBxevQUlAH2
+          claim_id: c_1IVNla1B9cu4TvbgE2j5Wg
+          source_id: s_n6FSqGToKu72xXFwsrjMiz
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wj2Tjigw2Pn6N4Z7KuUvkh
+        status: active
+        display_name: 王處存
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_1PkFmBqERvNdaoQO7GXXS_
+        subject_person_id: p_p6RTY29514vD6isBsxvXYV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hZn11NBqXSGNTf3yf5NVd4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0yvH5M4avMjDDWi42Wi3w0
+          claim_id: c_1PkFmBqERvNdaoQO7GXXS_
+          source_id: s_n6FSqGToKu72xXFwsrjMiz
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hZn11NBqXSGNTf3yf5NVd4
+        status: active
+        display_name: 王廷胤
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wj2Tjigw2Pn6N4Z7KuUvkh | 王處存 | accepted |
+| children | p_hZn11NBqXSGNTf3yf5NVd4 | 王廷胤 | accepted |
 
 ## 外部来源
 

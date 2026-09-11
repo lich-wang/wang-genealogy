@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王元某
 cbdb_id: 164378
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_M07ZswUZuHE-hU95BRqROs
+        subject_person_id: p_pi3jrpykNB14U478pgSEhq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QEnSBbCBpRMHUHBrWb25sE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2IGW88cob89Hmhrz14ckvU
+          claim_id: c_M07ZswUZuHE-hU95BRqROs
+          source_id: s_DZX4Y33F85LUjj7GuoCn67
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Kaiyuan160：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_DZX4Y33F85LUjj7GuoCn67
+            source_type: api_record
+            title: 中国历代人物传记资料库：王方（CBDB 143744）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143744&o=json
+            external_identifier: CBDB:143744
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.630Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_pi3jrpykNB14U478pgSEhq
+        status: active
+        display_name: 王方
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_pi3jrpykNB14U478pgSEhq | 王方 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王方（CBDB 143744）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143744&o=json)
 - [中国历代人物传记资料库：王元某（CBDB 164378）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=164378&o=json)

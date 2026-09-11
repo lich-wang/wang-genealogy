@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王演疇
 cbdb_id: 207468
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Me1kDbIajPwyGiw-TNbTML
+        subject_person_id: p_PgLmsK4wd3z3BuDbC2kJpa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NNN6o899F1M8yyQuHKMbNz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hbYrytrQXa42oHIJxkXl_T
+          claim_id: c_Me1kDbIajPwyGiw-TNbTML
+          source_id: s_1ZNLxBLx8G64HPqrJxhbrP
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第三十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1ZNLxBLx8G64HPqrJxhbrP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王錫圭（CBDB 232197）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232197&o=json
+            external_identifier: CBDB:232197
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.689Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_PgLmsK4wd3z3BuDbC2kJpa
+        status: active
+        display_name: 王錫圭
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -192,9 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_PgLmsK4wd3z3BuDbC2kJpa | 王錫圭 | accepted |
 | ancestors | p_DsiqR9Zkwj55qnXkeZkz5A | 王應斗 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王錫圭（CBDB 232197）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232197&o=json)
 - [中国历代人物传记资料库：王演疇（CBDB 207468）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207468&o=json)
 - [中国历代人物传记资料库：王應斗（CBDB 232195）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232195&o=json)

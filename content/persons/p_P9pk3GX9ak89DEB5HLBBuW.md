@@ -4,7 +4,7 @@ id: p_P9pk3GX9ak89DEB5HLBBuW
 status: active
 merged_into: null
 display_name: 王用
-revision: 9
+revision: 10
 properties:
   - predicate: name.primary
     recommended:
@@ -523,6 +523,58 @@ relationships:
         status: active
         display_name: 王年姐
         merged_into_person_id: null
+    - claim:
+        id: c_HFykWFJ6aZm8uiG5PriGvq
+        subject_person_id: p_P9pk3GX9ak89DEB5HLBBuW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_YmNxijr2RLEx7qAyDE6TES
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FYbV0_pLAv5g3LtJGP3efc
+          claim_id: c_HFykWFJ6aZm8uiG5PriGvq
+          source_id: s_R5j2N8JoCqAHGEsJpSCb1m
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，48：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_YmNxijr2RLEx7qAyDE6TES
+        status: active
+        display_name: 王外喜
+        merged_into_person_id: null
+    - claim:
+        id: c_jhKnUlpZMDpDtz0ExONmgQ
+        subject_person_id: p_P9pk3GX9ak89DEB5HLBBuW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Z9ox9JmKQWW1z9uPGahbve
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oDyApky3GARIX2Hii89okq
+          claim_id: c_jhKnUlpZMDpDtz0ExONmgQ
+          source_id: s_R5j2N8JoCqAHGEsJpSCb1m
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，48：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Z9ox9JmKQWW1z9uPGahbve
+        status: active
+        display_name: 王小喜留
+        merged_into_person_id: null
   other: []
 ---
 
@@ -553,6 +605,8 @@ relationships:
 | descendants | p_HZwkKexk2XLbosvJUAyZ7Y | 王七兒 | accepted |
 | descendants | p_ig5jJ8rtecrSaLZugvUeFb | 王傅喜 | accepted |
 | descendants | p_ii71MNmYm2yb9MzkjFFByN | 王年姐 | accepted |
+| descendants | p_YmNxijr2RLEx7qAyDE6TES | 王外喜 | accepted |
+| descendants | p_Z9ox9JmKQWW1z9uPGahbve | 王小喜留 | accepted |
 
 ## 外部来源
 

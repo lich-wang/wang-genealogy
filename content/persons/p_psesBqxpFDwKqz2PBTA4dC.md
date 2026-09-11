@@ -4,7 +4,7 @@ id: p_psesBqxpFDwKqz2PBTA4dC
 status: active
 merged_into: null
 display_name: 王宗器
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_foX01O4HPgtEtpTtd03bqJ
+        subject_person_id: p_psesBqxpFDwKqz2PBTA4dC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cnxHgvNWzCNiTbu6SVUA3o
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rqpKYBNcQx2IgwiOoAqbLP
+          claim_id: c_foX01O4HPgtEtpTtd03bqJ
+          source_id: s_rj4Xn1Tt1t2oVSwfrw3wy5
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_cnxHgvNWzCNiTbu6SVUA3o
+        status: active
+        display_name: 王春
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_cnxHgvNWzCNiTbu6SVUA3o | 王春 | accepted |
 
 ## 外部来源
 

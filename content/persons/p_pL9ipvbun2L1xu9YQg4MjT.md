@@ -4,7 +4,7 @@ id: p_pL9ipvbun2L1xu9YQg4MjT
 status: active
 merged_into: null
 display_name: 王舉
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -153,6 +153,32 @@ relationships:
         status: active
         display_name: 王嘉言
         merged_into_person_id: null
+    - claim:
+        id: c_INb6PG7EDc7qHy-sCjZqfv
+        subject_person_id: p_pL9ipvbun2L1xu9YQg4MjT
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_YNnM29jfUgNXMA2gCi8ghx
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9TswyypxaXfuVgLDDg3Xo_
+          claim_id: c_INb6PG7EDc7qHy-sCjZqfv
+          source_id: s_Ngz5ao8sU423GD9dmVN8ci
+          stance: supports
+          locator: 寶祐登科錄：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_YNnM29jfUgNXMA2gCi8ghx
+        status: active
+        display_name: 王桂發
+        merged_into_person_id: null
   other: []
 ---
 
@@ -173,6 +199,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_DmvAtzDarKwpQrK8485z6q | 王維 | accepted |
 | descendants | p_7xFeon8XjY4faqRLzNiUEf | 王嘉言 | accepted |
+| descendants | p_YNnM29jfUgNXMA2gCi8ghx | 王桂發 | accepted |
 
 ## 外部来源
 

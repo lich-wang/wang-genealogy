@@ -4,7 +4,7 @@ id: p_uwC7U2dhe6Kyw5xBECanBE
 status: active
 merged_into: null
 display_name: 王珍
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_mDnYVrPQ_OLPikcOR4pjt2
+        subject_person_id: p_PiGQRrZ25P7Jmsf8AnzTUr
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uwC7U2dhe6Kyw5xBECanBE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j-XHueNzO9Y8ZsEXF0Cge8
+          claim_id: c_mDnYVrPQ_OLPikcOR4pjt2
+          source_id: s_zCaK7Ajn8iTANBw3ydjYN4
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第八十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_zCaK7Ajn8iTANBw3ydjYN4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敬（CBDB 259408）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259408&o=json
+            external_identifier: CBDB:259408
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.460Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_PiGQRrZ25P7Jmsf8AnzTUr
+        status: active
+        display_name: 王敬
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_PiGQRrZ25P7Jmsf8AnzTUr | 王敬 | accepted |
 | ancestors | p_HaHWeAEQnbFtxnWDTKBdRZ | 王友才 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王敬（CBDB 259408）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259408&o=json)
 - [中国历代人物传记资料库：王友才（CBDB 259407）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259407&o=json)
 - [中国历代人物传记资料库：王珍（CBDB 200536）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200536&o=json)

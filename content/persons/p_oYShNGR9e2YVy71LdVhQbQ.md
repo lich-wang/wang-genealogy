@@ -4,7 +4,7 @@ id: p_oYShNGR9e2YVy71LdVhQbQ
 status: active
 merged_into: null
 display_name: 王一鳴
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,116 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_2RQpD2Tmm3hXbsZSrro3sa
+        subject_person_id: p_1NFpKAdMuHUnaxbGrqKLeD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oYShNGR9e2YVy71LdVhQbQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uosHinJhLsUHLFRAnDYOwe
+          claim_id: c_2RQpD2Tmm3hXbsZSrro3sa
+          source_id: s_Mrpj37C8DH4qVHGNGQntYM
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第七十四名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1NFpKAdMuHUnaxbGrqKLeD
+        status: active
+        display_name: 王追美
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_uZbjx4T-qVL-ATx6Fdm7zI
+        subject_person_id: p_oYShNGR9e2YVy71LdVhQbQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_s1G8THmnnjEDHat96956Pe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-OkdlXF-zAs9PYrNJx2lsS
+          claim_id: c_uZbjx4T-qVL-ATx6Fdm7zI
+          source_id: s_Mrpj37C8DH4qVHGNGQntYM
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第七十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_s1G8THmnnjEDHat96956Pe
+        status: active
+        display_name: 王封東
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c__O9ZF9-xKbQEVo6VuKC5gs
+        subject_person_id: p_sJoGCz3fLX1phN4S3RncbL
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_oYShNGR9e2YVy71LdVhQbQ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JG0CK5LoEPDhcOLuvDl4vo
+          claim_id: c__O9ZF9-xKbQEVo6VuKC5gs
+          source_id: s_Mrpj37C8DH4qVHGNGQntYM
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第七十四名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_sJoGCz3fLX1phN4S3RncbL
+        status: active
+        display_name: 王廷儒
+        merged_into_person_id: null
+    - claim:
+        id: c_t-8aQjzQ9qSwO3e4KZq57v
+        subject_person_id: p_T5goNvoNQpEkcLRFNrHQMZ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_oYShNGR9e2YVy71LdVhQbQ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2cmodu3518kBrCfqEVsayw
+          claim_id: c_t-8aQjzQ9qSwO3e4KZq57v
+          source_id: s_Mrpj37C8DH4qVHGNGQntYM
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第七十四名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_T5goNvoNQpEkcLRFNrHQMZ
+        status: active
+        display_name: 王同京
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +230,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_1NFpKAdMuHUnaxbGrqKLeD | 王追美 | accepted |
+| children | p_s1G8THmnnjEDHat96956Pe | 王封東 | accepted |
+| ancestors | p_sJoGCz3fLX1phN4S3RncbL | 王廷儒 | accepted |
+| ancestors | p_T5goNvoNQpEkcLRFNrHQMZ | 王同京 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_PhM2oQZ4qEKafFNZXsrBFR
 status: active
 merged_into: null
 display_name: 王泰來
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_9VKj8jsm4J3iuw1Eh_JpJZ
+        subject_person_id: p_znCpHkj9Wovs2kmQ9yEwwD
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_PhM2oQZ4qEKafFNZXsrBFR
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3D05i9thpWQ4rd-q5LyfpU
+          claim_id: c_9VKj8jsm4J3iuw1Eh_JpJZ
+          source_id: s_eQohZGfBJ8LJ4Gn22zb7Y9
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_znCpHkj9Wovs2kmQ9yEwwD
+        status: active
+        display_name: 王煥之
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_znCpHkj9Wovs2kmQ9yEwwD | 王煥之 | accepted |
 
 ## 外部来源
 

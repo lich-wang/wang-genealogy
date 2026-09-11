@@ -4,7 +4,7 @@ id: p_TXTXwSryWLUp2Edx6YAYPe
 status: active
 merged_into: null
 display_name: 王永年
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -172,6 +172,43 @@ relationships:
         status: active
         display_name: 王寧
         merged_into_person_id: null
+    - claim:
+        id: c_i5D7R3LE6k52D8_Ppsywb1
+        subject_person_id: p_TXTXwSryWLUp2Edx6YAYPe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_pC2CzgxCWVGh53LF21SEoo
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j5DUZ7TRL38zW2Tzb1fH1a
+          claim_id: c_i5D7R3LE6k52D8_Ppsywb1
+          source_id: s_ndg5vqE5puN1JQdZ7K94Yd
+          stance: supports
+          locator: 全宋文，卷 5677：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ndg5vqE5puN1JQdZ7K94Yd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王興祖（CBDB 385913）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385913&o=json
+            external_identifier: CBDB:385913
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:21.887Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_pC2CzgxCWVGh53LF21SEoo
+        status: active
+        display_name: 王興祖
+        merged_into_person_id: null
   other: []
 ---
 
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | descendants | p_25zytug1kFui17eu9pg9ot | 王寧 | accepted |
+| descendants | p_pC2CzgxCWVGh53LF21SEoo | 王興祖 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王寧（CBDB 386574）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386574&o=json)
+- [中国历代人物传记资料库：王興祖（CBDB 385913）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385913&o=json)
 - [中国历代人物传记资料库：王永年（CBDB 17656）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17656&o=json)

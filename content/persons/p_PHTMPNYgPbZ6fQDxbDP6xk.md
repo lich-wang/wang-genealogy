@@ -4,7 +4,7 @@ id: p_PHTMPNYgPbZ6fQDxbDP6xk
 status: active
 merged_into: null
 display_name: 王筠
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -133,7 +133,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_yDeIWJzl3V-uTtz6Mu8Rac
+        subject_person_id: p_XBdYGhhY6KYRHheCG3YBMX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_PHTMPNYgPbZ6fQDxbDP6xk
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wgwU67xYlibowkmvUoIWbk
+          claim_id: c_yDeIWJzl3V-uTtz6Mu8Rac
+          source_id: s_L4gt1vqqbGkgcb1Q4iqBZH
+          stance: supports
+          locator: 長安縣志，488：高祖;四世祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_XBdYGhhY6KYRHheCG3YBMX
+        status: active
+        display_name: 王平
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_XBdYGhhY6KYRHheCG3YBMX | 王平 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王衜
 cbdb_id: 19419
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -216,6 +216,43 @@ relationships:
         status: active
         display_name: 王象
         merged_into_person_id: null
+    - claim:
+        id: c_SV94VkRRNkOpMbgUS7Rcen
+        subject_person_id: p_JR5BeKFHjyY5p6yqfVc1XZ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_PfgA5W1G2Fv9NYWMemcshd
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_phgBxmrK_DFrjhvBXcctsD
+          claim_id: c_SV94VkRRNkOpMbgUS7Rcen
+          source_id: s_QxsvqMGN1tK1yhTCAMTnWZ
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，2014：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_QxsvqMGN1tK1yhTCAMTnWZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王夢龍（CBDB 19425）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19425&o=json
+            external_identifier: CBDB:19425
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.734Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_PfgA5W1G2Fv9NYWMemcshd
+        status: active
+        display_name: 王夢龍
+        merged_into_person_id: null
   other: []
 ---
 
@@ -237,8 +274,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | descendants | p_2kM1yTzwMkGpxWY3CwtJUi | 王象 | accepted |
+| descendants | p_PfgA5W1G2Fv9NYWMemcshd | 王夢龍 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王衜（CBDB 19419）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19419&o=json)
+- [中国历代人物传记资料库：王夢龍（CBDB 19425）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19425&o=json)
 - [中国历代人物传记资料库：王象（CBDB 19426）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19426&o=json)

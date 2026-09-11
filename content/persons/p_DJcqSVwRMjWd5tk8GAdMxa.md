@@ -4,7 +4,7 @@ id: p_DJcqSVwRMjWd5tk8GAdMxa
 status: active
 merged_into: null
 display_name: 王佐
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -176,6 +176,43 @@ relationships:
         status: active
         display_name: 王國祥
         merged_into_person_id: null
+    - claim:
+        id: c_k3BQPq0EoK8OKB-RnemAmX
+        subject_person_id: p_DJcqSVwRMjWd5tk8GAdMxa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PdrBQQQnPmoMPssgytt3Ma
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ay81tshaJ1tIpPwULOnWHJ
+          claim_id: c_k3BQPq0EoK8OKB-RnemAmX
+          source_id: s_pur8zxmSFmEqAsJd5EUQzP
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第一百九十名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_pur8zxmSFmEqAsJd5EUQzP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王國瑞（CBDB 229909）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229909&o=json
+            external_identifier: CBDB:229909
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.597Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_PdrBQQQnPmoMPssgytt3Ma
+        status: active
+        display_name: 王國瑞
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -239,11 +276,13 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_HMYgDEoVuyW9xCPbxcPZ9o | 王大才 | accepted |
 | children | p_7CDVStC37Bm3jkdzWufAMo | 王國祥 | accepted |
+| children | p_PdrBQQQnPmoMPssgytt3Ma | 王國瑞 | accepted |
 | ancestors | p_5tUGjNNTxa32Gu1p3k1bMA | 王良 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王大才（CBDB 229896）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229896&o=json)
+- [中国历代人物传记资料库：王國瑞（CBDB 229909）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229909&o=json)
 - [中国历代人物传记资料库：王國祥（CBDB 229907）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229907&o=json)
 - [中国历代人物传记资料库：王良（CBDB 229894）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229894&o=json)
 - [中国历代人物传记资料库：王佐（CBDB 207228）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207228&o=json)

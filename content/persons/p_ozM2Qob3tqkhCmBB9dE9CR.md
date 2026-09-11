@@ -4,7 +4,7 @@ id: p_ozM2Qob3tqkhCmBB9dE9CR
 status: active
 merged_into: null
 display_name: 王文秀
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_2dzZ5a7ZyxZ_ue5ewMOOu9
+        subject_person_id: p_ozM2Qob3tqkhCmBB9dE9CR
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_S9XZsVMSPPCYHPg3x3s7jm
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PWsYJ2fwEHVezS7mQVXeEG
+          claim_id: c_2dzZ5a7ZyxZ_ue5ewMOOu9
+          source_id: s_1CbAmw63HqkBqNxF96X8Lc
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第二甲第七十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_S9XZsVMSPPCYHPg3x3s7jm
+        status: active
+        display_name: 王彥奇
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_S9XZsVMSPPCYHPg3x3s7jm | 王彥奇 | accepted |
 
 ## 外部来源
 

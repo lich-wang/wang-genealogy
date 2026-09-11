@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王追美
 cbdb_id: 230473
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_2RQpD2Tmm3hXbsZSrro3sa
+        subject_person_id: p_1NFpKAdMuHUnaxbGrqKLeD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oYShNGR9e2YVy71LdVhQbQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uosHinJhLsUHLFRAnDYOwe
+          claim_id: c_2RQpD2Tmm3hXbsZSrro3sa
+          source_id: s_Mrpj37C8DH4qVHGNGQntYM
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第七十四名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Mrpj37C8DH4qVHGNGQntYM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王一鳴（CBDB 207264）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207264&o=json
+            external_identifier: CBDB:207264
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.915Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_oYShNGR9e2YVy71LdVhQbQ
+        status: active
+        display_name: 王一鳴
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_oYShNGR9e2YVy71LdVhQbQ | 王一鳴 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王一鳴（CBDB 207264）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207264&o=json)
 - [中国历代人物传记资料库：王追美（CBDB 230473）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230473&o=json)

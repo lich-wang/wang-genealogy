@@ -4,7 +4,7 @@ id: p_ejkhqRyi6zguVhFhs63Ax7
 status: active
 merged_into: null
 display_name: 王鏜
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王鑛
         merged_into_person_id: null
+    - claim:
+        id: c_8X2jwENaFRxfcsOlxXNCKB
+        subject_person_id: p_p9ZgpaMWe2Spo55Z6Q5EfJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ejkhqRyi6zguVhFhs63Ax7
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TADfeLDMj_8uS-fH1Ha-86
+          claim_id: c_8X2jwENaFRxfcsOlxXNCKB
+          source_id: s_fj9gGUQDx496dK3VboCtH4
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第三甲第一百零六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_fj9gGUQDx496dK3VboCtH4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玄（CBDB 297192）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297192&o=json
+            external_identifier: CBDB:297192
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.558Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_p9ZgpaMWe2Spo55Z6Q5EfJ
+        status: active
+        display_name: 王玄
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_EENMQg8ZujQT1unQPpMBb1 | 王介 | accepted |
 | ancestors | p_Gp3qfqFsLscRLVK1jJnGag | 王鑛 | accepted |
+| ancestors | p_p9ZgpaMWe2Spo55Z6Q5EfJ | 王玄 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王介（CBDB 297194）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297194&o=json)
 - [中国历代人物传记资料库：王鑛（CBDB 297193）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297193&o=json)
 - [中国历代人物传记资料库：王鏜（CBDB 202946）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202946&o=json)
+- [中国历代人物传记资料库：王玄（CBDB 297192）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297192&o=json)

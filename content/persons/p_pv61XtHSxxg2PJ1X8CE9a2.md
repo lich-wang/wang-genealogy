@@ -4,7 +4,7 @@ id: p_pv61XtHSxxg2PJ1X8CE9a2
 status: active
 merged_into: null
 display_name: 王昌辰
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,11 +73,63 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_HWxm1aUciUchB5Spy1BOge
+        subject_person_id: p_pv61XtHSxxg2PJ1X8CE9a2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jPaziDtaCGEkP8PcqETeGP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bvO4Ov7qhg4qvdIeXvECYD
+          claim_id: c_HWxm1aUciUchB5Spy1BOge
+          source_id: s_wKTwhruwXx5t81q3BiBCST
+          stance: supports
+          locator: 寶祐登科錄：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_jPaziDtaCGEkP8PcqETeGP
+        status: active
+        display_name: 王遇龍
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_x55StrIop2bmDXbHr3ZaLN
+        subject_person_id: p_1dbPFx8DinJSbnFHKJaKLg
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_pv61XtHSxxg2PJ1X8CE9a2
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8XCA4TGbOPvZ9kDz5MiUAu
+          claim_id: c_x55StrIop2bmDXbHr3ZaLN
+          source_id: s_wKTwhruwXx5t81q3BiBCST
+          stance: supports
+          locator: 寶祐登科錄：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1dbPFx8DinJSbnFHKJaKLg
+        status: active
+        display_name: 王之結
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_jPaziDtaCGEkP8PcqETeGP | 王遇龍 | accepted |
+| ancestors | p_1dbPFx8DinJSbnFHKJaKLg | 王之結 | accepted |
 
 ## 外部来源
 

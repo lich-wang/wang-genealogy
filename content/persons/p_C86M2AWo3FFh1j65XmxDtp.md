@@ -4,7 +4,7 @@ id: p_C86M2AWo3FFh1j65XmxDtp
 status: active
 merged_into: null
 display_name: 王潺
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王宇
         merged_into_person_id: null
+    - claim:
+        id: c_RIoLvgHW8CFFvhjhdbH1sr
+        subject_person_id: p_pU1UZiQDdXL4TbZ3t1wyFS
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_C86M2AWo3FFh1j65XmxDtp
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_60BWcY4t6cydAbLB99jXEw
+          claim_id: c_RIoLvgHW8CFFvhjhdbH1sr
+          source_id: s_dWJgFDGq45dmUHf1X4MDBn
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第九十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_dWJgFDGq45dmUHf1X4MDBn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王斌（CBDB 313570）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313570&o=json
+            external_identifier: CBDB:313570
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.910Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_pU1UZiQDdXL4TbZ3t1wyFS
+        status: active
+        display_name: 王斌
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_GLsUFUhPwGamaG8mG7dLop | 王鉞 | accepted |
 | ancestors | p_AqGz374Jy9khcjLrsbgz74 | 王宇 | accepted |
+| ancestors | p_pU1UZiQDdXL4TbZ3t1wyFS | 王斌 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王斌（CBDB 313570）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313570&o=json)
 - [中国历代人物传记资料库：王潺（CBDB 204037）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204037&o=json)
 - [中国历代人物传记资料库：王宇（CBDB 313571）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313571&o=json)
 - [中国历代人物传记资料库：王鉞（CBDB 313572）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313572&o=json)

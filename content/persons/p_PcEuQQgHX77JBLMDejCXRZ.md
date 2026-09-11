@@ -4,7 +4,7 @@ id: p_PcEuQQgHX77JBLMDejCXRZ
 status: active
 merged_into: null
 display_name: 王頎
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_u5nDoKPA6TxuSSjMruOceW
+        subject_person_id: p_WFnoT4AbtuEmwq5jbDJDqe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PcEuQQgHX77JBLMDejCXRZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cT63IdMkqkqJkabjyOUeLl
+          claim_id: c_u5nDoKPA6TxuSSjMruOceW
+          source_id: s_C1b7HWg38WNvktJWFRJvqU
+          stance: supports
+          locator: 全宋文，卷 5677：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WFnoT4AbtuEmwq5jbDJDqe
+        status: active
+        display_name: 王恬
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WFnoT4AbtuEmwq5jbDJDqe | 王恬 | accepted |
 
 ## 外部来源
 
