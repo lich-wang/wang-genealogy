@@ -4,7 +4,7 @@ id: p_2hJwbcefrPyv1Q4ce3xoc6
 status: active
 merged_into: null
 display_name: 王恂
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_3e2V5N3-jz-0gwNzeMQmaR
+        subject_person_id: p_UM99Zm3Rh6Z6EusvSaftqm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2hJwbcefrPyv1Q4ce3xoc6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aTZkNfzwFVzWVUFyA-1Tao
+          claim_id: c_3e2V5N3-jz-0gwNzeMQmaR
+          source_id: s_mVwkG4e4H3d4chjvn3BAU2
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第二甲第八十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UM99Zm3Rh6Z6EusvSaftqm
+        status: active
+        display_name: 王晟
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_weQwHWxLKflFlQlJK6sGpV
+        subject_person_id: p_RWBrjGVJfwPTdZnav1jS3T
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2hJwbcefrPyv1Q4ce3xoc6
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7cz0MEoYACT5ja9P0LmU0M
+          claim_id: c_weQwHWxLKflFlQlJK6sGpV
+          source_id: s_mVwkG4e4H3d4chjvn3BAU2
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第二甲第八十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RWBrjGVJfwPTdZnav1jS3T
+        status: active
+        display_name: 王德華
+        merged_into_person_id: null
+    - claim:
+        id: c_sCu90n1ovKd4Z-F0Mau1Il
+        subject_person_id: p_rRaCq5nUvTQ7NdSaoLR4Ju
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2hJwbcefrPyv1Q4ce3xoc6
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wRlqxsMjk8BhtZDTOVEXCi
+          claim_id: c_sCu90n1ovKd4Z-F0Mau1Il
+          source_id: s_mVwkG4e4H3d4chjvn3BAU2
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第二甲第八十三名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rRaCq5nUvTQ7NdSaoLR4Ju
+        status: active
+        display_name: 王忠吉
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_UM99Zm3Rh6Z6EusvSaftqm | 王晟 | accepted |
+| ancestors | p_RWBrjGVJfwPTdZnav1jS3T | 王德華 | accepted |
+| ancestors | p_rRaCq5nUvTQ7NdSaoLR4Ju | 王忠吉 | accepted |
 
 ## 外部来源
 

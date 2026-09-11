@@ -4,7 +4,7 @@ id: p_2wQZ4HH3qUsaPxm7C4niKV
 status: active
 merged_into: null
 display_name: 王言
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_tOJQyPUmtVeRMUjl2RZu3i
+        subject_person_id: p_wVxUNqb5LiTRFZz7R3Zy9W
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2wQZ4HH3qUsaPxm7C4niKV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VUR9dL3vM5SwKvXg6H11Fe
+          claim_id: c_tOJQyPUmtVeRMUjl2RZu3i
+          source_id: s_CbSVVPUWeW1qptLLBhXx8A
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第一百九十一名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wVxUNqb5LiTRFZz7R3Zy9W
+        status: active
+        display_name: 王世福
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_oMhWxZzVicLFejUs67h6ub
+        subject_person_id: p_FWwQe6BFSuiX29HZbYGUCq
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2wQZ4HH3qUsaPxm7C4niKV
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mjptz3iLWntv295tF1kHOY
+          claim_id: c_oMhWxZzVicLFejUs67h6ub
+          source_id: s_CbSVVPUWeW1qptLLBhXx8A
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第一百九十一名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_FWwQe6BFSuiX29HZbYGUCq
+        status: active
+        display_name: 王通
+        merged_into_person_id: null
+    - claim:
+        id: c_X_4QvQ5G3ezVwelGBoYLp-
+        subject_person_id: p_5ey4xHJWDuvWd4CK8d2uXx
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2wQZ4HH3qUsaPxm7C4niKV
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mzxXQeBlFmvaCeXrRud9la
+          claim_id: c_X_4QvQ5G3ezVwelGBoYLp-
+          source_id: s_CbSVVPUWeW1qptLLBhXx8A
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第一百九十一名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5ey4xHJWDuvWd4CK8d2uXx
+        status: active
+        display_name: 王銳
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wVxUNqb5LiTRFZz7R3Zy9W | 王世福 | accepted |
+| ancestors | p_FWwQe6BFSuiX29HZbYGUCq | 王通 | accepted |
+| ancestors | p_5ey4xHJWDuvWd4CK8d2uXx | 王銳 | accepted |
 
 ## 外部来源
 

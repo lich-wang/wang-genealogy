@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王懋竑
 cbdb_id: 35054
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -177,7 +177,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_icBqdUgSjFkTdNIKTQaCzz
+        subject_person_id: p_2M9mA2E12NE17Njj4eyQZ3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1jcRr27ZZeubBmW943XmGF
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3OipNuLN4b00Bk_9Ofn_2J
+          claim_id: c_icBqdUgSjFkTdNIKTQaCzz
+          source_id: s_Jj6JAEUcHjTN1PigDvMGg3
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13204：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Jj6JAEUcHjTN1PigDvMGg3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王凝鼎（CBDB 527045）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527045&o=json
+            external_identifier: CBDB:527045
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.341Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_2M9mA2E12NE17Njj4eyQZ3
+        status: active
+        display_name: 王凝鼎
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -199,7 +236,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_2M9mA2E12NE17Njj4eyQZ3 | 王凝鼎 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王懋竑（CBDB 35054）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35054&o=json)
+- [中国历代人物传记资料库：王凝鼎（CBDB 527045）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527045&o=json)

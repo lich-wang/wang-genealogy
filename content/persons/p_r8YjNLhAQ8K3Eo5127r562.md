@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王胡翰
 cbdb_id: 526022
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_34jfSgblLZo4ShCXaGE2zC
+        subject_person_id: p_2HerRhttycbbLEz6aNcNH6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_r8YjNLhAQ8K3Eo5127r562
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_X6jSgsBTYfkOn1UxFbnTzV
+          claim_id: c_34jfSgblLZo4ShCXaGE2zC
+          source_id: s_buwC6Xo3FSxnC2w51jBQzW
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），11927：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_buwC6Xo3FSxnC2w51jBQzW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瓊（CBDB 68264）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68264&o=json
+            external_identifier: CBDB:68264
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.063Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_2HerRhttycbbLEz6aNcNH6
+        status: active
+        display_name: 王瓊
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_2HerRhttycbbLEz6aNcNH6 | 王瓊 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王胡翰（CBDB 526022）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526022&o=json)
+- [中国历代人物传记资料库：王瓊（CBDB 68264）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68264&o=json)

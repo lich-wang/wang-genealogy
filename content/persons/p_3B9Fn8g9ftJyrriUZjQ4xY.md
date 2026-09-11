@@ -4,7 +4,7 @@ id: p_3B9Fn8g9ftJyrriUZjQ4xY
 status: active
 merged_into: null
 display_name: 王元浩
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_38Z4eqNn4Dahg_-KkmbAqj
+        subject_person_id: p_3B9Fn8g9ftJyrriUZjQ4xY
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_PgnoAWh3cGCvbB7v53hNcS
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZPnPI0uAGOHAL7iMp-MD1m
+          claim_id: c_38Z4eqNn4Dahg_-KkmbAqj
+          source_id: s_D1n66rCvN3eLFuvPqYUGrr
+          stance: supports
+          locator: 宣德五年進士登科錄:一卷，第三甲第二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_PgnoAWh3cGCvbB7v53hNcS
+        status: active
+        display_name: 王復
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_PgnoAWh3cGCvbB7v53hNcS | 王復 | accepted |
 
 ## 外部来源
 

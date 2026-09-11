@@ -4,7 +4,7 @@ id: p_31GJjua4EfPXgC5DoQLP6w
 status: active
 merged_into: null
 display_name: 王浩
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_DlLKY7g8A2QW6t5wieX3nj
+        subject_person_id: p_31GJjua4EfPXgC5DoQLP6w
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xJKLccMKyx3J1yop8GSGc1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PAQyRCDtRND4mwBQld9rNx
+          claim_id: c_DlLKY7g8A2QW6t5wieX3nj
+          source_id: s_G5GWWvKMh1SQ2ZV44Ekt55
+          stance: supports
+          locator: 蘇州府志，lgid=169690：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xJKLccMKyx3J1yop8GSGc1
+        status: active
+        display_name: 王如松
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_xJKLccMKyx3J1yop8GSGc1 | 王如松 | accepted |
 
 ## 外部来源
 

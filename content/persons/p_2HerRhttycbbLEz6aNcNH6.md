@@ -4,7 +4,7 @@ id: p_2HerRhttycbbLEz6aNcNH6
 status: active
 merged_into: null
 display_name: 王瓊
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,12 +129,90 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_pbFrd-FnGct99th-DVwSIX
+        subject_person_id: p_2HerRhttycbbLEz6aNcNH6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wrdhLZeCvH9L1aGLKPq3H1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Y5NjVDcNJF7cs5r_849NlO
+          claim_id: c_pbFrd-FnGct99th-DVwSIX
+          source_id: s_buwC6Xo3FSxnC2w51jBQzW
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），11927：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wrdhLZeCvH9L1aGLKPq3H1
+        status: active
+        display_name: 王如忠
+        merged_into_person_id: null
+    - claim:
+        id: c_34jfSgblLZo4ShCXaGE2zC
+        subject_person_id: p_2HerRhttycbbLEz6aNcNH6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_r8YjNLhAQ8K3Eo5127r562
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_X6jSgsBTYfkOn1UxFbnTzV
+          claim_id: c_34jfSgblLZo4ShCXaGE2zC
+          source_id: s_buwC6Xo3FSxnC2w51jBQzW
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），11927：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_r8YjNLhAQ8K3Eo5127r562
+        status: active
+        display_name: 王胡翰
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_duPbjlHZXC0ceWJ9tyNZeZ
+        subject_person_id: p_2HerRhttycbbLEz6aNcNH6
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_FS8ShMXmMoG7guR1LeJDkz
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KsFAADmFyjn7OOHmEQ0_Kj
+          claim_id: c_duPbjlHZXC0ceWJ9tyNZeZ
+          source_id: s_buwC6Xo3FSxnC2w51jBQzW
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），11927：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_FS8ShMXmMoG7guR1LeJDkz
+        status: active
+        display_name: 王壯
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_wrdhLZeCvH9L1aGLKPq3H1 | 王如忠 | accepted |
+| children | p_r8YjNLhAQ8K3Eo5127r562 | 王胡翰 | accepted |
+| descendants | p_FS8ShMXmMoG7guR1LeJDkz | 王壯 | accepted |
 
 ## 外部来源
 

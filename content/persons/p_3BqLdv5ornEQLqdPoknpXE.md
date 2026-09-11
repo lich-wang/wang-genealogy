@@ -4,7 +4,7 @@ id: p_3BqLdv5ornEQLqdPoknpXE
 status: active
 merged_into: null
 display_name: 王屏
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Lb9Aw9CzMd6BDTtJB39n8U
+        subject_person_id: p_xG6Uatb4hvJpHFBwk8TY1u
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3BqLdv5ornEQLqdPoknpXE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8EbPOSkgTrAJWvmVNYu-dl
+          claim_id: c_Lb9Aw9CzMd6BDTtJB39n8U
+          source_id: s_7w1N5HRLcjZW1QnPCRLxtB
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第七十四名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xG6Uatb4hvJpHFBwk8TY1u
+        status: active
+        display_name: 王祐
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_eRDIwMGOv6eKKb0Bz7_ZMj
+        subject_person_id: p_cCQdbNu8vKtiv9UU7u2aGs
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3BqLdv5ornEQLqdPoknpXE
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7zPiNuhIVExiv7T8oOtlM7
+          claim_id: c_eRDIwMGOv6eKKb0Bz7_ZMj
+          source_id: s_7w1N5HRLcjZW1QnPCRLxtB
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第七十四名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_cCQdbNu8vKtiv9UU7u2aGs
+        status: active
+        display_name: 王彥暉
+        merged_into_person_id: null
+    - claim:
+        id: c_EIeW9U_vnLSUXaN61GpRRf
+        subject_person_id: p_Dufhb5NoCZnQdaJkaB21gq
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3BqLdv5ornEQLqdPoknpXE
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7tNptHXdorI7F3qkPPTRhu
+          claim_id: c_EIeW9U_vnLSUXaN61GpRRf
+          source_id: s_7w1N5HRLcjZW1QnPCRLxtB
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第七十四名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Dufhb5NoCZnQdaJkaB21gq
+        status: active
+        display_name: 王璘
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xG6Uatb4hvJpHFBwk8TY1u | 王祐 | accepted |
+| ancestors | p_cCQdbNu8vKtiv9UU7u2aGs | 王彥暉 | accepted |
+| ancestors | p_Dufhb5NoCZnQdaJkaB21gq | 王璘 | accepted |
 
 ## 外部来源
 

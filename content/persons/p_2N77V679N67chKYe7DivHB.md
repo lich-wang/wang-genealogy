@@ -4,7 +4,7 @@ id: p_2N77V679N67chKYe7DivHB
 status: active
 merged_into: null
 display_name: 王槩
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,116 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_SXB8hJw8qrzX_48LD9Cid_
+        subject_person_id: p_H7kYUAXL18KkgnTsd1b4rh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2N77V679N67chKYe7DivHB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4p1o7tZimDiNq8giCAoThU
+          claim_id: c_SXB8hJw8qrzX_48LD9Cid_
+          source_id: s_B3XTLgN9zUiELnRumuLQTn
+          stance: supports
+          locator: 正统七年進士登科錄:一卷，第二甲第二十九名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_H7kYUAXL18KkgnTsd1b4rh
+        status: active
+        display_name: 王仲起
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_NQnMJj5ZaJzs9qR-FkXWX9
+        subject_person_id: p_2N77V679N67chKYe7DivHB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eeT9SQ93RGpf2B6Bihu6TP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WGwQmGOY3QRm1tvDcsTfI4
+          claim_id: c_NQnMJj5ZaJzs9qR-FkXWX9
+          source_id: s_B3XTLgN9zUiELnRumuLQTn
+          stance: supports
+          locator: 江西通志，lgid=1197568：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_eeT9SQ93RGpf2B6Bihu6TP
+        status: active
+        display_name: 王臣
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_K51MPS3M3Hmnhv3ryoMtav
+        subject_person_id: p_BMePZv32ALLP9B8K1qH7np
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2N77V679N67chKYe7DivHB
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UPRJ5FR5fsnt318Xe9oHOn
+          claim_id: c_K51MPS3M3Hmnhv3ryoMtav
+          source_id: s_B3XTLgN9zUiELnRumuLQTn
+          stance: supports
+          locator: 正统七年進士登科錄:一卷，第二甲第二十九名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_BMePZv32ALLP9B8K1qH7np
+        status: active
+        display_name: 王維嶽
+        merged_into_person_id: null
+    - claim:
+        id: c_hLccaMkmt-2dbbmsdEbFOd
+        subject_person_id: p_CeEMAf35RSqrtMuTHChVh4
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2N77V679N67chKYe7DivHB
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QKeq7Tz_pKgURaRMwg5eQ_
+          claim_id: c_hLccaMkmt-2dbbmsdEbFOd
+          source_id: s_B3XTLgN9zUiELnRumuLQTn
+          stance: supports
+          locator: 正统七年進士登科錄:一卷，第二甲第二十九名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_CeEMAf35RSqrtMuTHChVh4
+        status: active
+        display_name: 王子善
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +259,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_H7kYUAXL18KkgnTsd1b4rh | 王仲起 | accepted |
+| children | p_eeT9SQ93RGpf2B6Bihu6TP | 王臣 | accepted |
+| ancestors | p_BMePZv32ALLP9B8K1qH7np | 王維嶽 | accepted |
+| ancestors | p_CeEMAf35RSqrtMuTHChVh4 | 王子善 | accepted |
 
 ## 外部来源
 

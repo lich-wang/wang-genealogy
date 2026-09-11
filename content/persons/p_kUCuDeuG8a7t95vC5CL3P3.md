@@ -4,7 +4,7 @@ id: p_kUCuDeuG8a7t95vC5CL3P3
 status: active
 merged_into: null
 display_name: 王惟幾
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_z6dSEBkksBdmHiAqXLtAS2
+        subject_person_id: p_2Z5KsjF2Qv6FAxDM7L8oeW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_kUCuDeuG8a7t95vC5CL3P3
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BSTNfZV__mdlHRf_JpmGBo
+          claim_id: c_z6dSEBkksBdmHiAqXLtAS2
+          source_id: s_994toR8SiaEAkfdHLoJqGW
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第二百零九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_994toR8SiaEAkfdHLoJqGW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王深（CBDB 336608）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336608&o=json
+            external_identifier: CBDB:336608
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.492Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_2Z5KsjF2Qv6FAxDM7L8oeW
+        status: active
+        display_name: 王深
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_2Z5KsjF2Qv6FAxDM7L8oeW | 王深 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王深（CBDB 336608）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336608&o=json)
 - [中国历代人物传记资料库：王惟幾（CBDB 205658）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205658&o=json)

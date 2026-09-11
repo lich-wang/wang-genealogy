@@ -4,7 +4,7 @@ id: p_33joHpVQH9KnqRAf9nqpnS
 status: active
 merged_into: null
 display_name: 王誥
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_QZSTmA47uZrd2k5sOa9KNH
+        subject_person_id: p_33joHpVQH9KnqRAf9nqpnS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_epPvqgMmGoGqHpEYGAeBox
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-017qKr5sWvsrVPl5ix6fC
+          claim_id: c_QZSTmA47uZrd2k5sOa9KNH
+          source_id: s_ANGS7ChRjNE5dQPvG8Bhnt
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第三甲第二十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_epPvqgMmGoGqHpEYGAeBox
+        status: active
+        display_name: 王顯忠
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_epPvqgMmGoGqHpEYGAeBox | 王顯忠 | accepted |
 
 ## 外部来源
 

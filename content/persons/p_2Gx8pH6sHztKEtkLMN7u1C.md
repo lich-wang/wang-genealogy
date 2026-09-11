@@ -4,7 +4,7 @@ id: p_2Gx8pH6sHztKEtkLMN7u1C
 status: active
 merged_into: null
 display_name: 王瑭
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_1UKzRnMnxGfq_G4Hbg1Ll0
+        subject_person_id: p_MbP7H9snAG1vb4zQM8p7Mm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2Gx8pH6sHztKEtkLMN7u1C
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LicUsMSwT56nFx6KVZ3RO8
+          claim_id: c_1UKzRnMnxGfq_G4Hbg1Ll0
+          source_id: s_vXt7EfqfhFLQRHs9zkrC1p
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第五十八名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MbP7H9snAG1vb4zQM8p7Mm
+        status: active
+        display_name: 王臣
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_PQ8tZPbJeKMdQEJOotMrQx
+        subject_person_id: p_ZsWbFpaFZ39ZyA6adevEe1
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2Gx8pH6sHztKEtkLMN7u1C
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TeR_L00-rqQ-o8mNedfyCK
+          claim_id: c_PQ8tZPbJeKMdQEJOotMrQx
+          source_id: s_vXt7EfqfhFLQRHs9zkrC1p
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第五十八名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ZsWbFpaFZ39ZyA6adevEe1
+        status: active
+        display_name: 王嗣祖
+        merged_into_person_id: null
+    - claim:
+        id: c_Z6Hf5mrRp4ofn_3YgNCy36
+        subject_person_id: p_UvNQ81spqKpXR9rC6V8ZnV
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2Gx8pH6sHztKEtkLMN7u1C
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OdFzCMDGGGhOJygCrfVJg3
+          claim_id: c_Z6Hf5mrRp4ofn_3YgNCy36
+          source_id: s_vXt7EfqfhFLQRHs9zkrC1p
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第五十八名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UvNQ81spqKpXR9rC6V8ZnV
+        status: active
+        display_name: 王應哲
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_MbP7H9snAG1vb4zQM8p7Mm | 王臣 | accepted |
+| ancestors | p_ZsWbFpaFZ39ZyA6adevEe1 | 王嗣祖 | accepted |
+| ancestors | p_UvNQ81spqKpXR9rC6V8ZnV | 王應哲 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_2RzrzUqsutK3yv9cd9dwXj
 status: active
 merged_into: null
 display_name: 王允功
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,59 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_rHwtyaBbC4_12dI2Xget7M
+        subject_person_id: p_tuQz8K1QJhTDMtht3PXNax
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2RzrzUqsutK3yv9cd9dwXj
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4URDBVNgueUm0xB0OpELnz
+          claim_id: c_rHwtyaBbC4_12dI2Xget7M
+          source_id: s_ctSqJWMJMSBisWmAAWSuL9
+          stance: supports
+          locator: 紹興十八年同年小錄，157：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_tuQz8K1QJhTDMtht3PXNax
+        status: active
+        display_name: 王浹
+        merged_into_person_id: null
+    - claim:
+        id: c_K_gndFijUAO7y8VfB8peoJ
+        subject_person_id: p_u7GjygMhWqMXVVi3SrDkWR
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2RzrzUqsutK3yv9cd9dwXj
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4s_PIF3kkF6G5qFRJpCmNW
+          claim_id: c_K_gndFijUAO7y8VfB8peoJ
+          source_id: s_ctSqJWMJMSBisWmAAWSuL9
+          stance: supports
+          locator: 紹興十八年同年小錄，157：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_u7GjygMhWqMXVVi3SrDkWR
+        status: active
+        display_name: 王錫
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_tuQz8K1QJhTDMtht3PXNax | 王浹 | accepted |
+| ancestors | p_u7GjygMhWqMXVVi3SrDkWR | 王錫 | accepted |
 
 ## 外部来源
 

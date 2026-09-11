@@ -4,7 +4,7 @@ id: p_2M3Bp18QYjru654oK8qp9J
 status: active
 merged_into: null
 display_name: 王瀹
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_yFOiZA1GHQaFJ6HR4JvXG2
+        subject_person_id: p_vM6985QJehceoGJD1bbJKF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2M3Bp18QYjru654oK8qp9J
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SIrVaehwA8dj2UOd_eC61L
+          claim_id: c_yFOiZA1GHQaFJ6HR4JvXG2
+          source_id: s_K7a1s1KSf4be6uY4QxijWU
+          stance: supports
+          locator: 宋濂全集，1606：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vM6985QJehceoGJD1bbJKF
+        status: active
+        display_name: 王澄
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_vM6985QJehceoGJD1bbJKF | 王澄 | accepted |
 
 ## 外部来源
 

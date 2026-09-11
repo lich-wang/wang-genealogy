@@ -4,7 +4,7 @@ id: p_2iNYB7MMKmz6yPS4rjCAQD
 status: active
 merged_into: null
 display_name: 王彰
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_221Yq_WkBT272tI4JYR13X
+        subject_person_id: p_asrgtX2pUYpXvHRKiTx2Da
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2iNYB7MMKmz6yPS4rjCAQD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qYjnc5RrNDfp7xIySMh3-b
+          claim_id: c_221Yq_WkBT272tI4JYR13X
+          source_id: s_g2jrpdwRHB37XPK8y1Q56W
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第二甲第十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_asrgtX2pUYpXvHRKiTx2Da
+        status: active
+        display_name: 王聞凱
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_9uRmKTxCX40jlElr5Jvwe_
+        subject_person_id: p_9Nv1o3zSRkmnBR6jD8YwLZ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2iNYB7MMKmz6yPS4rjCAQD
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_r1xFG480ePKtzdpgbxqpPl
+          claim_id: c_9uRmKTxCX40jlElr5Jvwe_
+          source_id: s_g2jrpdwRHB37XPK8y1Q56W
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第二甲第十七名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_9Nv1o3zSRkmnBR6jD8YwLZ
+        status: active
+        display_name: 王致正
+        merged_into_person_id: null
+    - claim:
+        id: c_mTTsYXH5qwpZXk8oo_bCRH
+        subject_person_id: p_72o4rDD1BHyKkvsVS4def1
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2iNYB7MMKmz6yPS4rjCAQD
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yBYAm-M46ca9ToSKTxAQOo
+          claim_id: c_mTTsYXH5qwpZXk8oo_bCRH
+          source_id: s_g2jrpdwRHB37XPK8y1Q56W
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第二甲第十七名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_72o4rDD1BHyKkvsVS4def1
+        status: active
+        display_name: 王仁卿
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_asrgtX2pUYpXvHRKiTx2Da | 王聞凱 | accepted |
+| ancestors | p_9Nv1o3zSRkmnBR6jD8YwLZ | 王致正 | accepted |
+| ancestors | p_72o4rDD1BHyKkvsVS4def1 | 王仁卿 | accepted |
 
 ## 外部来源
 

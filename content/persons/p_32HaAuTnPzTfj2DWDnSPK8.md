@@ -4,7 +4,7 @@ id: p_32HaAuTnPzTfj2DWDnSPK8
 status: active
 merged_into: null
 display_name: 王宣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_orTEU72YoQvcqPjUkK188g
+        subject_person_id: p_MWMJXpzyEeq5R13wNCrRf3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_32HaAuTnPzTfj2DWDnSPK8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oMR3TnO6oad3By4O88I3lH
+          claim_id: c_orTEU72YoQvcqPjUkK188g
+          source_id: s_BjJN7NVQgmcfXMSrwk8heN
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Linde 64：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MWMJXpzyEeq5R13wNCrRf3
+        status: active
+        display_name: 王穆
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_uHPuAJAgPPNqqPik42Fc5E
+        subject_person_id: p_32HaAuTnPzTfj2DWDnSPK8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nnj6RXkzzxVB31PNFKMMTB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Qqa-2ds_5FGyz2n-w77TUP
+          claim_id: c_uHPuAJAgPPNqqPik42Fc5E
+          source_id: s_BjJN7NVQgmcfXMSrwk8heN
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Linde 64：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_nnj6RXkzzxVB31PNFKMMTB
+        status: active
+        display_name: 王敬賓
+        merged_into_person_id: null
+    - claim:
+        id: c_G9tUaWHS9ONKVfpoTfnPuy
+        subject_person_id: p_32HaAuTnPzTfj2DWDnSPK8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uvmhMuE79aBNYhw1VEDmkJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tzahoLOs1rV3-lif_Mfm75
+          claim_id: c_G9tUaWHS9ONKVfpoTfnPuy
+          source_id: s_BjJN7NVQgmcfXMSrwk8heN
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Linde 64：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uvmhMuE79aBNYhw1VEDmkJ
+        status: active
+        display_name: 王粲仁
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_MWMJXpzyEeq5R13wNCrRf3 | 王穆 | accepted |
+| children | p_nnj6RXkzzxVB31PNFKMMTB | 王敬賓 | accepted |
+| children | p_uvmhMuE79aBNYhw1VEDmkJ | 王粲仁 | accepted |
 
 ## 外部来源
 

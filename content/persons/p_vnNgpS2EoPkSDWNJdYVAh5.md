@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王資良
 cbdb_id: 200587
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,6 +172,43 @@ relationships:
         status: active
         display_name: 王志道
         merged_into_person_id: null
+    - claim:
+        id: c_I0nhlYiVluebJB0-E2z7lj
+        subject_person_id: p_2u2LwXhEf3GM21Ww1y4hab
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_vnNgpS2EoPkSDWNJdYVAh5
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v9YAQbQ77dIMhKjSAcBKK0
+          claim_id: c_I0nhlYiVluebJB0-E2z7lj
+          source_id: s_32C6t2Dj2gag3M2DwPqaa6
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第一百五十一名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_32C6t2Dj2gag3M2DwPqaa6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文煥（CBDB 260053）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260053&o=json
+            external_identifier: CBDB:260053
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.471Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_2u2LwXhEf3GM21Ww1y4hab
+        status: active
+        display_name: 王文煥
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_1qBzB6azv7B1r44CqXNnxZ | 王志道 | accepted |
+| ancestors | p_2u2LwXhEf3GM21Ww1y4hab | 王文煥 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王文煥（CBDB 260053）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260053&o=json)
 - [中国历代人物传记资料库：王志道（CBDB 260054）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260054&o=json)
 - [中国历代人物传记资料库：王資良（CBDB 200587）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200587&o=json)

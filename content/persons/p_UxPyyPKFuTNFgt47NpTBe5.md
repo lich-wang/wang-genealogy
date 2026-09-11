@@ -4,7 +4,7 @@ id: p_UxPyyPKFuTNFgt47NpTBe5
 status: active
 merged_into: null
 display_name: 王良
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_aSUFr8U1RusZfr4e_i75GM
+        subject_person_id: p_UxPyyPKFuTNFgt47NpTBe5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3c99mAbtCMe882FKM3LMji
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ptyzKgn9FzH8mc8p6xtxHp
+          claim_id: c_aSUFr8U1RusZfr4e_i75GM
+          source_id: s_2T2xWRGb8XqgmHCNfr1KU2
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第三甲第三十四名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_2T2xWRGb8XqgmHCNfr1KU2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王晏（CBDB 207868）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207868&o=json
+            external_identifier: CBDB:207868
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.933Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3c99mAbtCMe882FKM3LMji
+        status: active
+        display_name: 王晏
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_3c99mAbtCMe882FKM3LMji | 王晏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王良（CBDB 237223）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237223&o=json)
+- [中国历代人物传记资料库：王晏（CBDB 207868）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207868&o=json)

@@ -4,7 +4,7 @@ id: p_2oy62EEzX8avtnwM7s1tDJ
 status: active
 merged_into: null
 display_name: 王綸
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_QShgYdZtskdA69OkmeoAix
+        subject_person_id: p_x9Awku7CAnQGUksh5ZJJfC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2oy62EEzX8avtnwM7s1tDJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QzBHRfn5rX-qzQhEXnviMy
+          claim_id: c_QShgYdZtskdA69OkmeoAix
+          source_id: s_EMFDyqiwB7TGfKzHDKUFLZ
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第二甲第九名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_x9Awku7CAnQGUksh5ZJJfC
+        status: active
+        display_name: 王衛道
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_Ibv9YP8kbvKqyAacmdwox0
+        subject_person_id: p_8dgAxfFfVEMLHEpMDD9hvE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2oy62EEzX8avtnwM7s1tDJ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BVQxjP0HLW2XeBNAHM5y7h
+          claim_id: c_Ibv9YP8kbvKqyAacmdwox0
+          source_id: s_EMFDyqiwB7TGfKzHDKUFLZ
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第二甲第九名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_8dgAxfFfVEMLHEpMDD9hvE
+        status: active
+        display_name: 王賢佐
+        merged_into_person_id: null
+    - claim:
+        id: c_eeIaf8Enxb67OMUnC5-hBm
+        subject_person_id: p_ptGw2Ux5EUNCZB6gq3DCnB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2oy62EEzX8avtnwM7s1tDJ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pe-8DxAMiChQwVYSQFHPL_
+          claim_id: c_eeIaf8Enxb67OMUnC5-hBm
+          source_id: s_EMFDyqiwB7TGfKzHDKUFLZ
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第二甲第九名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ptGw2Ux5EUNCZB6gq3DCnB
+        status: active
+        display_name: 王拱仁
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_x9Awku7CAnQGUksh5ZJJfC | 王衛道 | accepted |
+| ancestors | p_8dgAxfFfVEMLHEpMDD9hvE | 王賢佐 | accepted |
+| ancestors | p_ptGw2Ux5EUNCZB6gq3DCnB | 王拱仁 | accepted |
 
 ## 外部来源
 

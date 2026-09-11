@@ -4,7 +4,7 @@ id: p_oDCtFv3cf2CiUbXVcBy9FF
 status: active
 merged_into: null
 display_name: 王廷榦
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,8 +142,82 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
-  descendants: []
+  ancestors:
+    - claim:
+        id: c_CBknzOnpJeVWavIbP9Rl2k
+        subject_person_id: p_2hBKyxrN1dj7d5F4o4qUat
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_oDCtFv3cf2CiUbXVcBy9FF
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_n97VSOGe9qMcddxJeNSj_Q
+          claim_id: c_CBknzOnpJeVWavIbP9Rl2k
+          source_id: s_P7CoYMX4u35GG1LGj3vDJN
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_P7CoYMX4u35GG1LGj3vDJN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王達（CBDB 291878）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291878&o=json
+            external_identifier: CBDB:291878
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.365Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_2hBKyxrN1dj7d5F4o4qUat
+        status: active
+        display_name: 王達
+        merged_into_person_id: null
+  descendants:
+    - claim:
+        id: c_t6HVtxRJKUgnuT5XbsQJeL
+        subject_person_id: p_oDCtFv3cf2CiUbXVcBy9FF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2pEjUDgmg6ACaWkcArzGmB
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2QZIJp0ydiNZNLKpvotN1Z
+          claim_id: c_t6HVtxRJKUgnuT5XbsQJeL
+          source_id: s_DQ9qFN5BNG97aT4nG3H4qe
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第六名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_DQ9qFN5BNG97aT4nG3H4qe
+            source_type: api_record
+            title: 中国历代人物传记资料库：王允元（CBDB 291911）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291911&o=json
+            external_identifier: CBDB:291911
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.381Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_2pEjUDgmg6ACaWkcArzGmB
+        status: active
+        display_name: 王允元
+        merged_into_person_id: null
   other: []
 ---
 
@@ -164,8 +238,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_11RhKLzn2Mi6Moy5jEp4MD | 王汝猷 | accepted |
+| ancestors | p_2hBKyxrN1dj7d5F4o4qUat | 王達 | accepted |
+| descendants | p_2pEjUDgmg6ACaWkcArzGmB | 王允元 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王達（CBDB 291878）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291878&o=json)
 - [中国历代人物传记资料库：王汝猷（CBDB 291880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291880&o=json)
 - [中国历代人物传记资料库：王廷榦（CBDB 126553）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126553&o=json)
+- [中国历代人物传记资料库：王允元（CBDB 291911）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291911&o=json)

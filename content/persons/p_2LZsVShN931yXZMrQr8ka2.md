@@ -4,7 +4,7 @@ id: p_2LZsVShN931yXZMrQr8ka2
 status: active
 merged_into: null
 display_name: 王家屏
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -167,10 +167,62 @@ relationships:
         status: active
         display_name: 王瀹初
         merged_into_person_id: null
+    - claim:
+        id: c_PuLrybaLD2VUpKzmgFUREA
+        subject_person_id: p_2LZsVShN931yXZMrQr8ka2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RpKKxnAZP6PhYn3M1e9p7D
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JmVBVcWRIXxU28BMKIXRCB
+          claim_id: c_PuLrybaLD2VUpKzmgFUREA
+          source_id: s_eCqLAt765eqmLNLZCcUgSa
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13619：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RpKKxnAZP6PhYn3M1e9p7D
+        status: active
+        display_name: 王湛初
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_SJZq811rOGCJRyPcOuIbz4
+        subject_person_id: p_2tigx8wrtYVEky82kcH7xs
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2LZsVShN931yXZMrQr8ka2
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8HFTDZ-WxGpN5k0Fzlh7nG
+          claim_id: c_SJZq811rOGCJRyPcOuIbz4
+          source_id: s_eCqLAt765eqmLNLZCcUgSa
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13619：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_2tigx8wrtYVEky82kcH7xs
+        status: active
+        display_name: 王石溪
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,6 +245,8 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_1iXYH9rLF83DNfU7T3VWBN | 王瀹初 | accepted |
+| children | p_RpKKxnAZP6PhYn3M1e9p7D | 王湛初 | accepted |
+| ancestors | p_2tigx8wrtYVEky82kcH7xs | 王石溪 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_2pUFp58kQxZiv37UYSDcqB
 status: active
 merged_into: null
 display_name: 王天
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_smUPS_Nid28ARb--7SLMnf
+        subject_person_id: p_N6PhY9mfw2dgNWgqVAXnLj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2pUFp58kQxZiv37UYSDcqB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ecCZrimtbA8ByWlkEManum
+          claim_id: c_smUPS_Nid28ARb--7SLMnf
+          source_id: s_EfXWDpLrLMEyYjyZRb9EJ5
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Taiji 5：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_N6PhY9mfw2dgNWgqVAXnLj
+        status: active
+        display_name: 王君卿
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_zLSs4xp_6sDG5L051FLfT6
+        subject_person_id: p_2pUFp58kQxZiv37UYSDcqB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_T6nczdJ6Q6Poy35FebKBVA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tdsc2I44-yfoPukyeqsKEK
+          claim_id: c_zLSs4xp_6sDG5L051FLfT6
+          source_id: s_EfXWDpLrLMEyYjyZRb9EJ5
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Taiji 5：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_T6nczdJ6Q6Poy35FebKBVA
+        status: active
+        display_name: 王惟儉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_N6PhY9mfw2dgNWgqVAXnLj | 王君卿 | accepted |
+| children | p_T6nczdJ6Q6Poy35FebKBVA | 王惟儉 | accepted |
 
 ## 外部来源
 

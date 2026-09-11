@@ -4,7 +4,7 @@ id: p_2QBKdoQihD7L78RRdUmqCg
 status: active
 merged_into: null
 display_name: 王士元
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_iNvRJqkHd52v0k7r5wIgNu
+        subject_person_id: p_5Q5kcbebUfut1oa58PJD9Q
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2QBKdoQihD7L78RRdUmqCg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ItwVf7WfxjlmXwsOMWeDPa
+          claim_id: c_iNvRJqkHd52v0k7r5wIgNu
+          source_id: s_RnmN5BwuQ1BAXVDgE4WDeM
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1387：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5Q5kcbebUfut1oa58PJD9Q
+        status: active
+        display_name: 王仁壽
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5Q5kcbebUfut1oa58PJD9Q | 王仁壽 | accepted |
 
 ## 外部来源
 

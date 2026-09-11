@@ -4,7 +4,7 @@ id: p_3DFKdwT8J87L9D41FmCZHV
 status: active
 merged_into: null
 display_name: 王伸
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c__2ri04Y6waX5KUitke3vdd
+        subject_person_id: p_WP2TCGKdqkuWFjHVRTiLcW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3DFKdwT8J87L9D41FmCZHV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6xLMs2hMom3DrCabCTPoTf
+          claim_id: c__2ri04Y6waX5KUitke3vdd
+          source_id: s_x26kLLVasxKXVf5WC5eTYm
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第二甲第五十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WP2TCGKdqkuWFjHVRTiLcW
+        status: active
+        display_name: 王志堅
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WP2TCGKdqkuWFjHVRTiLcW | 王志堅 | accepted |
 
 ## 外部来源
 

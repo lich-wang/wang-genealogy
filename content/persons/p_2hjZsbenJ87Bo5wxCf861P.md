@@ -4,7 +4,7 @@ id: p_2hjZsbenJ87Bo5wxCf861P
 status: active
 merged_into: null
 display_name: 王原吉
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_vf8nQqGX2Y35GjzNxv3usf
+        subject_person_id: p_2hjZsbenJ87Bo5wxCf861P
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nMT35SUBP5kHgrMqnHEGVw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZBFmhgXee6lMViC030OH9j
+          claim_id: c_vf8nQqGX2Y35GjzNxv3usf
+          source_id: s_oL5csJSw2bgBCPoxoaRmFd
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第一百三十八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_nMT35SUBP5kHgrMqnHEGVw
+        status: active
+        display_name: 王舜耕
+        merged_into_person_id: null
+    - claim:
+        id: c_DnpnUifP3kO4Plp7UHBD1x
+        subject_person_id: p_2hjZsbenJ87Bo5wxCf861P
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_neZGHyEuAgnr3hzP3cHchk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mqy1qB2fFzXIRdt19x0tBa
+          claim_id: c_DnpnUifP3kO4Plp7UHBD1x
+          source_id: s_oL5csJSw2bgBCPoxoaRmFd
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第二甲第十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_neZGHyEuAgnr3hzP3cHchk
+        status: active
+        display_name: 王舜漁
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_nMT35SUBP5kHgrMqnHEGVw | 王舜耕 | accepted |
+| children | p_neZGHyEuAgnr3hzP3cHchk | 王舜漁 | accepted |
 
 ## 外部来源
 

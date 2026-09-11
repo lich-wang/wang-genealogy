@@ -4,7 +4,7 @@ id: p_2xx94qCKtvAJwRfCf9kETN
 status: active
 merged_into: null
 display_name: 王貫一
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_99X_3urRizlIccsLmtt-6s
+        subject_person_id: p_WfqvT7GG42fj9cjwnb4MYo
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2xx94qCKtvAJwRfCf9kETN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NCmZKP9TklWgCX6hfXExMa
+          claim_id: c_99X_3urRizlIccsLmtt-6s
+          source_id: s_21wnqbJZb2NGFGT5Xa6MPX
+          stance: supports
+          locator: "民國歙縣志: 十六卷，lgid=1163687：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WfqvT7GG42fj9cjwnb4MYo
+        status: active
+        display_name: 王龍山
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_6x0LkIa1-J5jXVqEllL1Sv
+        subject_person_id: p_2xx94qCKtvAJwRfCf9kETN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GWmCnmdFGoQr7AymHY2XmC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0kq5np8RUglwlm-ieXp2F1
+          claim_id: c_6x0LkIa1-J5jXVqEllL1Sv
+          source_id: s_21wnqbJZb2NGFGT5Xa6MPX
+          stance: supports
+          locator: "民國歙縣志: 十六卷，lgid=1163687：子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GWmCnmdFGoQr7AymHY2XmC
+        status: active
+        display_name: 王煒
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WfqvT7GG42fj9cjwnb4MYo | 王龍山 | accepted |
+| children | p_GWmCnmdFGoQr7AymHY2XmC | 王煒 | accepted |
 
 ## 外部来源
 

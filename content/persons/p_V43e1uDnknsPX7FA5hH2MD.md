@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王廷吉
 cbdb_id: 262604
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_8v2f3RRR6UB64kNzZPdKt5
+        subject_person_id: p_V43e1uDnknsPX7FA5hH2MD
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2ivdyuT2PUd95aURm25j3Y
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-YifrCDzVYy-DakUpDecYu
+          claim_id: c_8v2f3RRR6UB64kNzZPdKt5
+          source_id: s_yBSfQfimThTBXufFM9ub6Q
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第八十三名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_yBSfQfimThTBXufFM9ub6Q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王俸（CBDB 200767）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200767&o=json
+            external_identifier: CBDB:200767
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.635Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_2ivdyuT2PUd95aURm25j3Y
+        status: active
+        display_name: 王俸
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_2ivdyuT2PUd95aURm25j3Y | 王俸 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王俸（CBDB 200767）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200767&o=json)
 - [中国历代人物传记资料库：王廷吉（CBDB 262604）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262604&o=json)

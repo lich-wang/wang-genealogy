@@ -4,7 +4,7 @@ id: p_HxJiGj8JHn8DhGEqa1wJaa
 status: active
 merged_into: null
 display_name: 王大綸
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_DDExLOZw-CBhbG2XosvsZ7
+        subject_person_id: p_HxJiGj8JHn8DhGEqa1wJaa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2LSGWLrXs7XnndXnW76V8U
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ulBp3xNfivQxawPqX1Vra2
+          claim_id: c_DDExLOZw-CBhbG2XosvsZ7
+          source_id: s_FzHANRPNeNFZ34nEd8FtEx
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第二十名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FzHANRPNeNFZ34nEd8FtEx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王統（CBDB 200725）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200725&o=json
+            external_identifier: CBDB:200725
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.631Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_2LSGWLrXs7XnndXnW76V8U
+        status: active
+        display_name: 王統
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_2LSGWLrXs7XnndXnW76V8U | 王統 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王大綸（CBDB 261990）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261990&o=json)
+- [中国历代人物传记资料库：王統（CBDB 200725）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200725&o=json)

@@ -4,7 +4,7 @@ id: p_USmQUSMYXi4KzQDYfEfPrB
 status: active
 merged_into: null
 display_name: 王三聘
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_VmbgkNE6CrxJ6RTQYkVMlu
+        subject_person_id: p_32qBUADizjGa3P7B3ZTimt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_USmQUSMYXi4KzQDYfEfPrB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WlYb0Drk7ecCCs_asjmMr6
+          claim_id: c_VmbgkNE6CrxJ6RTQYkVMlu
+          source_id: s_KsZnLRsXB29v8BDss4UGTC
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第三甲第八十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_KsZnLRsXB29v8BDss4UGTC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑤（CBDB 303942）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303942&o=json
+            external_identifier: CBDB:303942
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.695Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_32qBUADizjGa3P7B3ZTimt
+        status: active
+        display_name: 王瑤
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_32qBUADizjGa3P7B3ZTimt | 王瑤 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王三聘（CBDB 203385）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203385&o=json)
+- [中国历代人物传记资料库：王瑤（CBDB 303942）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303942&o=json)

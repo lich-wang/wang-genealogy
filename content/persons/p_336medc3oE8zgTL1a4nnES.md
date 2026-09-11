@@ -4,7 +4,7 @@ id: p_336medc3oE8zgTL1a4nnES
 status: active
 merged_into: null
 display_name: 王福
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_zpBqGOSRMAx0ZFt1aAjATm
+        subject_person_id: p_336medc3oE8zgTL1a4nnES
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_itRuYcr7YNktisBRNe8RYG
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZsvmolHDVlwgmdrkKt3bg9
+          claim_id: c_zpBqGOSRMAx0ZFt1aAjATm
+          source_id: s_7CxzdVGGUcd17QFAyphQsA
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第一百一十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_itRuYcr7YNktisBRNe8RYG
+        status: active
+        display_name: 王懋
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_itRuYcr7YNktisBRNe8RYG | 王懋 | accepted |
 
 ## 外部来源
 

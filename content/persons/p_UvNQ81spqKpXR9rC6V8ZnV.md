@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王應哲
 cbdb_id: 249259
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Z6Hf5mrRp4ofn_3YgNCy36
+        subject_person_id: p_UvNQ81spqKpXR9rC6V8ZnV
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2Gx8pH6sHztKEtkLMN7u1C
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OdFzCMDGGGhOJygCrfVJg3
+          claim_id: c_Z6Hf5mrRp4ofn_3YgNCy36
+          source_id: s_vXt7EfqfhFLQRHs9zkrC1p
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第五十八名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_vXt7EfqfhFLQRHs9zkrC1p
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑭（CBDB 199751）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199751&o=json
+            external_identifier: CBDB:199751
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.577Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_2Gx8pH6sHztKEtkLMN7u1C
+        status: active
+        display_name: 王瑭
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_2Gx8pH6sHztKEtkLMN7u1C | 王瑭 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王瑭（CBDB 199751）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199751&o=json)
 - [中国历代人物传记资料库：王應哲（CBDB 249259）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249259&o=json)

@@ -4,7 +4,7 @@ id: p_35wd94gwG3pzokf4a6CedM
 status: active
 merged_into: null
 display_name: 王登
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -134,7 +134,59 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Km3nzbGjOihJYtQghi6KDg
+        subject_person_id: p_35wd94gwG3pzokf4a6CedM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ABtiiFw9LGXZnTbrZS68pV
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0HtTgCLVWuEBR8HYxOIu6W
+          claim_id: c_Km3nzbGjOihJYtQghi6KDg
+          source_id: s_jnU1wrcswMwACQgeP5fatf
+          stance: supports
+          locator: 全宋文，卷 5677：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ABtiiFw9LGXZnTbrZS68pV
+        status: active
+        display_name: 王澐
+        merged_into_person_id: null
+    - claim:
+        id: c_XoAN5C9UkyQQPtrzS6La8c
+        subject_person_id: p_35wd94gwG3pzokf4a6CedM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Ccs9NajCd62mVKopumCjG5
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2OKQFqu5BgHEqa8V9AGgs4
+          claim_id: c_XoAN5C9UkyQQPtrzS6La8c
+          source_id: s_jnU1wrcswMwACQgeP5fatf
+          stance: supports
+          locator: 全宋文，卷 5677：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Ccs9NajCd62mVKopumCjG5
+        status: active
+        display_name: 王演
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_ABtiiFw9LGXZnTbrZS68pV | 王澐 | accepted |
+| descendants | p_Ccs9NajCd62mVKopumCjG5 | 王演 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_3zqRTvVoZ83XX9ehuTK1mN
 status: active
 merged_into: null
 display_name: 王義
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_3UX0TgTh4cWiOWFsaBibaO
+        subject_person_id: p_3zqRTvVoZ83XX9ehuTK1mN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2yQZFqgpXJgeoQtn7WfsC5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jhuKt2zDV_NwtsCFjTd6PU
+          claim_id: c_3UX0TgTh4cWiOWFsaBibaO
+          source_id: s_swTACms8KFk1ksLaDU531V
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第二百三十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_swTACms8KFk1ksLaDU531V
+            source_type: api_record
+            title: 中国历代人物传记资料库：王佐（CBDB 67292）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67292&o=json
+            external_identifier: CBDB:67292
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.986Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_2yQZFqgpXJgeoQtn7WfsC5
+        status: active
+        display_name: 王佐
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_2yQZFqgpXJgeoQtn7WfsC5 | 王佐 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王義（CBDB 253904）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253904&o=json)
+- [中国历代人物传记资料库：王佐（CBDB 67292）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67292&o=json)
