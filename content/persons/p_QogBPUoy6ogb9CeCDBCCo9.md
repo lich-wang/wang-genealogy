@@ -4,7 +4,7 @@ id: p_QogBPUoy6ogb9CeCDBCCo9
 status: active
 merged_into: null
 display_name: 王翰
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -116,6 +116,32 @@ relationships:
         status: active
         display_name: 王胤賢
         merged_into_person_id: null
+    - claim:
+        id: c_nfXhNCUE-DYICYGlfq0SG8
+        subject_person_id: p_QogBPUoy6ogb9CeCDBCCo9
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_tHYCzriS6LnJ4HHGiVfcHQ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5VI43fxMtPkL2vusgeWcvZ
+          claim_id: c_nfXhNCUE-DYICYGlfq0SG8
+          source_id: s_azDg5oRp8H68tqdEHuMs3b
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第二百零二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_tHYCzriS6LnJ4HHGiVfcHQ
+        status: active
+        display_name: 王汝清
+        merged_into_person_id: null
   other: []
 ---
 
@@ -135,6 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | descendants | p_FbvUfnrJsMZAACE7dBpnUs | 王胤賢 | accepted |
+| descendants | p_tHYCzriS6LnJ4HHGiVfcHQ | 王汝清 | accepted |
 
 ## 外部来源
 

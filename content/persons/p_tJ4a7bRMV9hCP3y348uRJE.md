@@ -4,7 +4,7 @@ id: p_tJ4a7bRMV9hCP3y348uRJE
 status: active
 merged_into: null
 display_name: 王學顏
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -208,6 +208,43 @@ relationships:
         status: active
         display_name: 王琦
         merged_into_person_id: null
+    - claim:
+        id: c_kDx9HnVUuZnNF19oLl7-E2
+        subject_person_id: p_pwgiCHEfC9Yf5hjCwnt6yK
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_tJ4a7bRMV9hCP3y348uRJE
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Jt2-zLVk9PvYKVDCecu8Ga
+          claim_id: c_kDx9HnVUuZnNF19oLl7-E2
+          source_id: s_JEDsCCfXzvg8zERK8HumXH
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第二甲第五十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_JEDsCCfXzvg8zERK8HumXH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝霖（CBDB 315441）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315441&o=json
+            external_identifier: CBDB:315441
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.944Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_pwgiCHEfC9Yf5hjCwnt6yK
+        status: active
+        display_name: 王汝霖
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_6U2hKWNf3zvZ6acQ4hYSRb | 王相 | accepted |
 | ancestors | p_GQt4Zp1x7qHbgJ6UWwdZ1E | 王琦 | accepted |
+| ancestors | p_pwgiCHEfC9Yf5hjCwnt6yK | 王汝霖 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王琦（CBDB 315442）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315442&o=json)
+- [中国历代人物传记资料库：王汝霖（CBDB 315441）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315441&o=json)
 - [中国历代人物传记资料库：王相（CBDB 315443）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315443&o=json)
 - [中国历代人物传记资料库：王學顏（CBDB 126840）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126840&o=json)

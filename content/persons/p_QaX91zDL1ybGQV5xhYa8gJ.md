@@ -4,7 +4,7 @@ id: p_QaX91zDL1ybGQV5xhYa8gJ
 status: active
 merged_into: null
 display_name: 王啟緒
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,11 +129,89 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_GxvVN195O6XMb4xAWWXCkR
+        subject_person_id: p_QaX91zDL1ybGQV5xhYa8gJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dSfCmDHBzje8uKE414BuMC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_h1BEUE6aBgzQJXf-z9WZsJ
+          claim_id: c_GxvVN195O6XMb4xAWWXCkR
+          source_id: s_a3SeBAa1ZuS2LQEwQYm8m9
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13044：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_dSfCmDHBzje8uKE414BuMC
+        status: active
+        display_name: 王羲長
+        merged_into_person_id: null
+    - claim:
+        id: c_YMHmRFdQuDgSEVBpiggFqt
+        subject_person_id: p_QaX91zDL1ybGQV5xhYa8gJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nNi2gaNrUKe9ojc5ByLPyP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__fwA58OmdKEYe6BkZ-TVKR
+          claim_id: c_YMHmRFdQuDgSEVBpiggFqt
+          source_id: s_a3SeBAa1ZuS2LQEwQYm8m9
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13044：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_nNi2gaNrUKe9ojc5ByLPyP
+        status: active
+        display_name: 王齡長
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_L1oomx-I6gKPJ7x7UpdP3y
+        subject_person_id: p_NGEjkN6rXMxTTPFZFq8Knw
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_QaX91zDL1ybGQV5xhYa8gJ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JyE1KXgeRIbUrYLrbMfwKu
+          claim_id: c_L1oomx-I6gKPJ7x7UpdP3y
+          source_id: s_a3SeBAa1ZuS2LQEwQYm8m9
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13044：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NGEjkN6rXMxTTPFZFq8Knw
+        status: active
+        display_name: 王𨹘
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_dSfCmDHBzje8uKE414BuMC | 王羲長 | accepted |
+| children | p_nNi2gaNrUKe9ojc5ByLPyP | 王齡長 | accepted |
+| ancestors | p_NGEjkN6rXMxTTPFZFq8Knw | 王𨹘 | accepted |
 
 ## 外部来源
 

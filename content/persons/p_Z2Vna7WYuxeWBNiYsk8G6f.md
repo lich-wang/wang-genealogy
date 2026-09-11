@@ -4,7 +4,7 @@ id: p_Z2Vna7WYuxeWBNiYsk8G6f
 status: active
 merged_into: null
 display_name: 王健
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王勗
         merged_into_person_id: null
+    - claim:
+        id: c_f3I_0PrhiRPO_uJ0zmGd5m
+        subject_person_id: p_QJyGeJYeYVZd8WUAKnrsuB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Z2Vna7WYuxeWBNiYsk8G6f
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XJM2Huz5fOuVYFO4VaMBOD
+          claim_id: c_f3I_0PrhiRPO_uJ0zmGd5m
+          source_id: s_Rv87eJtVNojXPBpMkxhgjT
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第四十三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Rv87eJtVNojXPBpMkxhgjT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王謐（CBDB 309957）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309957&o=json
+            external_identifier: CBDB:309957
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.832Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_QJyGeJYeYVZd8WUAKnrsuB
+        status: active
+        display_name: 王謐
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_2zGMamGixNkzuUEM2w1ndk | 王璇 | accepted |
 | ancestors | p_6odTqDAa4QAHFfyxN1rWGF | 王勗 | accepted |
+| ancestors | p_QJyGeJYeYVZd8WUAKnrsuB | 王謐 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王健（CBDB 203783）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203783&o=json)
+- [中国历代人物传记资料库：王謐（CBDB 309957）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309957&o=json)
 - [中国历代人物传记资料库：王勗（CBDB 309956）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309956&o=json)
 - [中国历代人物传记资料库：王璇（CBDB 309958）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309958&o=json)

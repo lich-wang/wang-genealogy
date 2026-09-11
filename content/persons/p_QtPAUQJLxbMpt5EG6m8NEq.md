@@ -4,7 +4,7 @@ id: p_QtPAUQJLxbMpt5EG6m8NEq
 status: active
 merged_into: null
 display_name: 王文貴
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_uRj3fAMo0s0l9tfz4xtyfB
+        subject_person_id: p_QtPAUQJLxbMpt5EG6m8NEq
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_kegtQkxMvsxG83EpfKScwb
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_d-HpKYeBsvwEZG_XswlY5-
+          claim_id: c_uRj3fAMo0s0l9tfz4xtyfB
+          source_id: s_iHunMM7feZ92sAgAAXzRQ3
+          stance: supports
+          locator: 弘治十八年進士登科錄:一卷，第三甲第六十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_kegtQkxMvsxG83EpfKScwb
+        status: active
+        display_name: 王昂
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_kegtQkxMvsxG83EpfKScwb | 王昂 | accepted |
 
 ## 外部来源
 

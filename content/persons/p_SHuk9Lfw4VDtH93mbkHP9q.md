@@ -4,7 +4,7 @@ id: p_SHuk9Lfw4VDtH93mbkHP9q
 status: active
 merged_into: null
 display_name: 王遴
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -208,6 +208,43 @@ relationships:
         status: active
         display_name: 王聰
         merged_into_person_id: null
+    - claim:
+        id: c_hWntOkMYJpEtyE307PXU2H
+        subject_person_id: p_QkZP95U7PRqUx5gJB8qTqT
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_SHuk9Lfw4VDtH93mbkHP9q
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Se6eS69DsHLwoIQJO72RKJ
+          claim_id: c_hWntOkMYJpEtyE307PXU2H
+          source_id: s_fjLUe49Nzx9dshBYqcMGn2
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第八十一名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_fjLUe49Nzx9dshBYqcMGn2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王富（CBDB 310361）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310361&o=json
+            external_identifier: CBDB:310361
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.840Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_QkZP95U7PRqUx5gJB8qTqT
+        status: active
+        display_name: 王富
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_vo5l_2EcjJAhReCy8ZUEoh
@@ -305,6 +342,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_BM46tZGN4EBcE7FUMvw1gL | 王宗義 | accepted |
 | ancestors | p_Lrg8CA8FD1SKX5BH3RgFHu | 王聰 | accepted |
+| ancestors | p_QkZP95U7PRqUx5gJB8qTqT | 王富 | accepted |
 | descendants | p_2U3W4bGNNEsSzYgVqnfWvT | 王仲鑰 | accepted |
 | descendants | p_BV2Vrh1oBrA8Ayyc9NL2Ef | 王伯鏞 | accepted |
 
@@ -312,6 +350,7 @@ relationships:
 
 - [中国历代人物传记资料库：王伯鏞（CBDB 528779）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=528779&o=json)
 - [中国历代人物传记资料库：王聰（CBDB 310362）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310362&o=json)
+- [中国历代人物传记资料库：王富（CBDB 310361）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310361&o=json)
 - [中国历代人物传记资料库：王遴（CBDB 124734）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=124734&o=json)
 - [中国历代人物传记资料库：王仲鑰（CBDB 528778）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=528778&o=json)
 - [中国历代人物传记资料库：王宗義（CBDB 310364）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310364&o=json)

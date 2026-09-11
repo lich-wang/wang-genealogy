@@ -4,7 +4,7 @@ id: p_qXj5QLQCNULbC7HTQtWA8Z
 status: active
 merged_into: null
 display_name: 王實
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_08mz8GEaBCWrB1KkSxTl4V
+        subject_person_id: p_qXj5QLQCNULbC7HTQtWA8Z
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ENp2zBhPwP2aKEL6iVVfT2
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vlhkfEvjd57KtdIZC4FoQl
+          claim_id: c_08mz8GEaBCWrB1KkSxTl4V
+          source_id: s_u82ywYqALhDxJffCKsKrP9
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第二百零五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ENp2zBhPwP2aKEL6iVVfT2
+        status: active
+        display_name: 王琢玉
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_ENp2zBhPwP2aKEL6iVVfT2 | 王琢玉 | accepted |
 
 ## 外部来源
 

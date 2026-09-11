@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王春復
 cbdb_id: 203136
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,6 +209,43 @@ relationships:
         status: active
         display_name: 王和
         merged_into_person_id: null
+    - claim:
+        id: c_8_UI0cvB7TQfFsV0KDE-oM
+        subject_person_id: p_qiVejsvjW7PKHf9fnAywPN
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_PBPvLNJEK4jPNCWDSKfDp5
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_y6ZO9Ws07b3QewAyCDWCKm
+          claim_id: c_8_UI0cvB7TQfFsV0KDE-oM
+          source_id: s_JnVfeY1b8kX24WpPPJFuMH
+          stance: supports
+          locator: 嘉靖十七年進士登科錄:一卷，第三甲第六十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_JnVfeY1b8kX24WpPPJFuMH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玘（CBDB 300352）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300352&o=json
+            external_identifier: CBDB:300352
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.621Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_qiVejsvjW7PKHf9fnAywPN
+        status: active
+        display_name: 王玘
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_djPzJATqP8N3fAgZuiGdme | 王琥 | accepted |
 | ancestors | p_AbVcjzx5u1oivmsbfrqHB3 | 王和 | accepted |
+| ancestors | p_qiVejsvjW7PKHf9fnAywPN | 王玘 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王春復（CBDB 203136）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203136&o=json)
 - [中国历代人物传记资料库：王和（CBDB 300353）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300353&o=json)
 - [中国历代人物传记资料库：王琥（CBDB 300354）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300354&o=json)
+- [中国历代人物传记资料库：王玘（CBDB 300352）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300352&o=json)

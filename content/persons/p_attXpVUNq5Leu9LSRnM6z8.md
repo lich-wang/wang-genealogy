@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王本梧
 cbdb_id: 69154
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -177,7 +177,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_nSqtOVEAfZ6yhm_l7Dyl0u
+        subject_person_id: p_QxgsQUaLQn2eDK3c3hjrCx
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_attXpVUNq5Leu9LSRnM6z8
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F3ieRttIaVPvvcHC-vGTuA
+          claim_id: c_nSqtOVEAfZ6yhm_l7Dyl0u
+          source_id: s_wprKHszdNvTj53NU7t2T2A
+          stance: supports
+          locator: 鄞縣志，lgid=243599：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_wprKHszdNvTj53NU7t2T2A
+            source_type: api_record
+            title: 中国历代人物传记资料库：王慶元（CBDB 694037）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=694037&o=json
+            external_identifier: CBDB:694037
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.667Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_QxgsQUaLQn2eDK3c3hjrCx
+        status: active
+        display_name: 王慶元
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_-_lheUaKX1Ppoy4fKYSm3Y
@@ -236,9 +273,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_QxgsQUaLQn2eDK3c3hjrCx | 王慶元 | accepted |
 | descendants | p_pAGNzZk71qnXQmm9C9NxeD | 王楫 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王本梧（CBDB 69154）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69154&o=json)
 - [中国历代人物传记资料库：王楫（CBDB 694042）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=694042&o=json)
+- [中国历代人物传记资料库：王慶元（CBDB 694037）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=694037&o=json)

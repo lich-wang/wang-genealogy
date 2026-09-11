@@ -4,7 +4,7 @@ id: p_HW595LoSX5sZYxTZGrBbPN
 status: active
 merged_into: null
 display_name: 王正宗
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_5GUbgDXf_FEvr6RoWNdj2Q
+        subject_person_id: p_qEzMiRzsrE1MGWNCLuPUfF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HW595LoSX5sZYxTZGrBbPN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lwI1JjFDA8H3pGrqDA3arc
+          claim_id: c_5GUbgDXf_FEvr6RoWNdj2Q
+          source_id: s_J8QwDBMDYGtWNGvZbGp58c
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第六十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_J8QwDBMDYGtWNGvZbGp58c
+            source_type: api_record
+            title: 中国历代人物传记资料库：王澍（CBDB 281261）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281261&o=json
+            external_identifier: CBDB:281261
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.049Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_qEzMiRzsrE1MGWNCLuPUfF
+        status: active
+        display_name: 王澍
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qEzMiRzsrE1MGWNCLuPUfF | 王澍 | accepted |
 | ancestors | p_9mGmBKBWVvuM4UFQGHQYV5 | 王從義 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王從義（CBDB 281259）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281259&o=json)
+- [中国历代人物传记资料库：王澍（CBDB 281261）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281261&o=json)
 - [中国历代人物传记资料库：王正宗（CBDB 201966）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201966&o=json)

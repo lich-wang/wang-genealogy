@@ -4,7 +4,7 @@ id: p_qTHZVE85zKMHBCYt3CAjW2
 status: active
 merged_into: null
 display_name: 王鎔
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_-dfBIkJSBFNIl8H-ZqtIPH
+        subject_person_id: p_kk5sE8tUMGDNiS98Q9q7LN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qTHZVE85zKMHBCYt3CAjW2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gz0VbuYfcs1hQH4BxxX9UU
+          claim_id: c_-dfBIkJSBFNIl8H-ZqtIPH
+          source_id: s_VdJ8ABfSKq3J5M323rRp5R
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_kk5sE8tUMGDNiS98Q9q7LN
+        status: active
+        display_name: 王景崇
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_UTVy1GBbrd6_8UPdjszTpd
+        subject_person_id: p_qTHZVE85zKMHBCYt3CAjW2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rxhNRdF7LRvYtsrGVcpWii
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xOAhBtzBmj6FB-5Vwg71ON
+          claim_id: c_UTVy1GBbrd6_8UPdjszTpd
+          source_id: s_VdJ8ABfSKq3J5M323rRp5R
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rxhNRdF7LRvYtsrGVcpWii
+        status: active
+        display_name: 王昭祚
+        merged_into_person_id: null
+    - claim:
+        id: c_i96_bp4Z5lsdQZhFoGI3hS
+        subject_person_id: p_qTHZVE85zKMHBCYt3CAjW2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pebpi3PGKLwZ11MfeomHpy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3enwSmLhLIy9AI2MBy2-ax
+          claim_id: c_i96_bp4Z5lsdQZhFoGI3hS
+          source_id: s_VdJ8ABfSKq3J5M323rRp5R
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_pebpi3PGKLwZ11MfeomHpy
+        status: active
+        display_name: 王昭誨
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_kk5sE8tUMGDNiS98Q9q7LN | 王景崇 | accepted |
+| children | p_rxhNRdF7LRvYtsrGVcpWii | 王昭祚 | accepted |
+| children | p_pebpi3PGKLwZ11MfeomHpy | 王昭誨 | accepted |
 
 ## 外部来源
 

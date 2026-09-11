@@ -4,7 +4,7 @@ id: p_QoJPmnH2p3TN2WeA18wP8z
 status: active
 merged_into: null
 display_name: 王凱
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,12 +73,116 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_4-9vs1F09CnFWVfwO1sMDz
+        subject_person_id: p_QoJPmnH2p3TN2WeA18wP8z
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TG677A2uqsLQn3jRYXYFJs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GGfpDglShaumpv0a_PMlTM
+          claim_id: c_4-9vs1F09CnFWVfwO1sMDz
+          source_id: s_1Zsci6iF4Arcot2TKBLMBo
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，987：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_TG677A2uqsLQn3jRYXYFJs
+        status: active
+        display_name: 王彭
+        merged_into_person_id: null
+    - claim:
+        id: c_aRbB3owAHsMJd_Hx_ppPHv
+        subject_person_id: p_QoJPmnH2p3TN2WeA18wP8z
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wDnLRYYNiPRiBw5GV82Djd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QEZTzu3oOwq-0qBpmRThQV
+          claim_id: c_aRbB3owAHsMJd_Hx_ppPHv
+          source_id: s_1Zsci6iF4Arcot2TKBLMBo
+          stance: supports
+          locator: 范太史集，卷四八《右監門衛大將軍妻孝感縣君王氏墓志銘》：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wDnLRYYNiPRiBw5GV82Djd
+        status: active
+        display_name: 王大方
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
-  descendants: []
+  ancestors:
+    - claim:
+        id: c_lw7PReM5HO93hBLAfMM1e-
+        subject_person_id: p_g1Zwm5njGBgG9tiNz4CK8m
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_QoJPmnH2p3TN2WeA18wP8z
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WUG2eBeyqcbUj4YJkrdtUI
+          claim_id: c_lw7PReM5HO93hBLAfMM1e-
+          source_id: s_1Zsci6iF4Arcot2TKBLMBo
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_g1Zwm5njGBgG9tiNz4CK8m
+        status: active
+        display_name: 王全斌
+        merged_into_person_id: null
+  descendants:
+    - claim:
+        id: c_jGVjjHq3a5Copwy-L40Jmz
+        subject_person_id: p_QoJPmnH2p3TN2WeA18wP8z
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_te7PsQUmMv5ookHDsggpFw
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aVlPmQYrQ2J60Jdb8o-gtO
+          claim_id: c_jGVjjHq3a5Copwy-L40Jmz
+          source_id: s_1Zsci6iF4Arcot2TKBLMBo
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1040：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_te7PsQUmMv5ookHDsggpFw
+        status: active
+        display_name: 王詵
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +201,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_TG677A2uqsLQn3jRYXYFJs | 王彭 | accepted |
+| children | p_wDnLRYYNiPRiBw5GV82Djd | 王大方 | accepted |
+| ancestors | p_g1Zwm5njGBgG9tiNz4CK8m | 王全斌 | accepted |
+| descendants | p_te7PsQUmMv5ookHDsggpFw | 王詵 | accepted |
 
 ## 外部来源
 

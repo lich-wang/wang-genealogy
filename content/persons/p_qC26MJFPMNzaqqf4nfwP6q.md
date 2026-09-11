@@ -4,7 +4,7 @@ id: p_qC26MJFPMNzaqqf4nfwP6q
 status: active
 merged_into: null
 display_name: 王立
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_aq-dxdxg3X5uLq1piR_zId
+        subject_person_id: p_qC26MJFPMNzaqqf4nfwP6q
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_x16f93HfojM6PV2fk1u7Vo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LPQZaohworXcoC4-sHRenp
+          claim_id: c_aq-dxdxg3X5uLq1piR_zId
+          source_id: s_rbdmVTG16K8KkPeuwqZAsj
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xianqing 39：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_x16f93HfojM6PV2fk1u7Vo
+        status: active
+        display_name: 王玄辯
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_x16f93HfojM6PV2fk1u7Vo | 王玄辯 | accepted |
 
 ## 外部来源
 

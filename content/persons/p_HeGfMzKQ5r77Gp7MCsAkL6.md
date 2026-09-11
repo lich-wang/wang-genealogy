@@ -4,7 +4,7 @@ id: p_HeGfMzKQ5r77Gp7MCsAkL6
 status: active
 merged_into: null
 display_name: 王仲舒
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -278,6 +278,80 @@ relationships:
         status: active
         display_name: 王復
         merged_into_person_id: null
+    - claim:
+        id: c_I_DtxsBalXhB-I2mLkd19u
+        subject_person_id: p_HeGfMzKQ5r77Gp7MCsAkL6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QsMHiHx445hmeqx5eEYc9b
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PopAPk2uXWudY20A1AUgcT
+          claim_id: c_I_DtxsBalXhB-I2mLkd19u
+          source_id: s_btb5mPpoogwo4S6yiCASmQ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_btb5mPpoogwo4S6yiCASmQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宏（CBDB 190801）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190801&o=json
+            external_identifier: CBDB:190801
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.338Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_QsMHiHx445hmeqx5eEYc9b
+        status: active
+        display_name: 王宏
+        merged_into_person_id: null
+    - claim:
+        id: c_wUPuomlS4a-T2Qrb6SFSMA
+        subject_person_id: p_HeGfMzKQ5r77Gp7MCsAkL6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QUgQkTrn8xZi1gEd2SrxTK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xcoyAp4JtMOz1bguu1OU95
+          claim_id: c_wUPuomlS4a-T2Qrb6SFSMA
+          source_id: s_tGGFTQP8s4zNaWGrS9fDFQ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_tGGFTQP8s4zNaWGrS9fDFQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王貞（CBDB 190800）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190800&o=json
+            external_identifier: CBDB:190800
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.337Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_QUgQkTrn8xZi1gEd2SrxTK
+        status: active
+        display_name: 王貞
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -307,11 +381,15 @@ relationships:
 | children | p_1PHWxnMBkTahyhe3mpQdE4 | 王泰 | accepted |
 | children | p_nAKMzF2Ukga3jR3vi2vLF8 | 王哲 | accepted |
 | children | p_oiaWF1Wm3SGjSjnkEZ6joz | 王復 | accepted |
+| children | p_QsMHiHx445hmeqx5eEYc9b | 王宏 | accepted |
+| children | p_QUgQkTrn8xZi1gEd2SrxTK | 王貞 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王復（CBDB 190803）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190803&o=json)
+- [中国历代人物传记资料库：王宏（CBDB 190801）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190801&o=json)
 - [中国历代人物传记资料库：王泰（CBDB 190802）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190802&o=json)
 - [中国历代人物传记资料库：王哲（CBDB 190799）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190799&o=json)
+- [中国历代人物传记资料库：王貞（CBDB 190800）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190800&o=json)
 - [中国历代人物传记资料库：王政（CBDB 190795）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190795&o=json)
 - [中国历代人物传记资料库：王仲舒（CBDB 91998）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=91998&o=json)

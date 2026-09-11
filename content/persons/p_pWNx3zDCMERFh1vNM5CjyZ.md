@@ -4,7 +4,7 @@ id: p_pWNx3zDCMERFh1vNM5CjyZ
 status: active
 merged_into: null
 display_name: 王韜
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_NIOd7T5vTSFV-T_3InlbEg
+        subject_person_id: p_wFwEfChnSXSZSJHjuMQKKW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pWNx3zDCMERFh1vNM5CjyZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tvL24Sh1zNxf3SUe-i4X5i
+          claim_id: c_NIOd7T5vTSFV-T_3InlbEg
+          source_id: s_z55Xx4XhFHrjXUB38hfRKL
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），9296：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wFwEfChnSXSZSJHjuMQKKW
+        status: active
+        display_name: 王昌桂
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wFwEfChnSXSZSJHjuMQKKW | 王昌桂 | accepted |
 
 ## 外部来源
 

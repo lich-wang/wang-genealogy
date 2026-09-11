@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王蒔蘭
 cbdb_id: 69391
-revision: 7
+revision: 8
 properties:
   - predicate: bio.summary
     recommended:
@@ -277,6 +277,43 @@ relationships:
         status: active
         display_name: 王應堯
         merged_into_person_id: null
+    - claim:
+        id: c_i59wrA34LgomOz493YH0Qx
+        subject_person_id: p_qVjpGfv4jCYF7jfo2xQeEY
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DHYbJsS7LE12BDd6qGrWUt
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MlKgahBvC6IdE1JHQXz99h
+          claim_id: c_i59wrA34LgomOz493YH0Qx
+          source_id: s_MPzMiaE2JRj61rSCHkRE1R
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13096：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MPzMiaE2JRj61rSCHkRE1R
+            source_type: api_record
+            title: 中国历代人物传记资料库：王思九（CBDB 526932）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526932&o=json
+            external_identifier: CBDB:526932
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.306Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_qVjpGfv4jCYF7jfo2xQeEY
+        status: active
+        display_name: 王思九
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_rvJL5TFtN2WKwh4d08cQr0
@@ -426,6 +463,43 @@ relationships:
         status: active
         display_name: 王世祺
         merged_into_person_id: null
+    - claim:
+        id: c_qbt99yXGYFf1RiKquDzGLa
+        subject_person_id: p_DHYbJsS7LE12BDd6qGrWUt
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qK3N4uKxzB8CyqZwBuRrTH
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XDvA2-vHRGtBCaJoehgxuA
+          claim_id: c_qbt99yXGYFf1RiKquDzGLa
+          source_id: s_W1Ez3zr3w99djNY8QGv1A8
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13096：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_W1Ez3zr3w99djNY8QGv1A8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世耿（CBDB 526925）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526925&o=json
+            external_identifier: CBDB:526925
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.304Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_qK3N4uKxzB8CyqZwBuRrTH
+        status: active
+        display_name: 王世耿
+        merged_into_person_id: null
   other: []
 ---
 
@@ -449,10 +523,12 @@ relationships:
 | children | p_KE1vu5k3VtgZrRQMPYY4WK | 王予彤 | accepted |
 | ancestors | p_dgp8k2g45uX342yUGpkNtj | 王承法 | accepted |
 | ancestors | p_fa8ewBKTQnXHUsssHpGU8J | 王應堯 | accepted |
+| ancestors | p_qVjpGfv4jCYF7jfo2xQeEY | 王思九 | accepted |
 | descendants | p_5nNKgjEiLhifykXD8rQVag | 王丙燽 | accepted |
 | descendants | p_A7GQGqeizjCQayLYiygXyu | 王世鈞 | accepted |
 | descendants | p_jXLdQjrTqzJVoYYSAATtw6 | 王世禟 | accepted |
 | descendants | p_Mi1Cd5NXJeSTnPg12mZdpx | 王世祺 | accepted |
+| descendants | p_qK3N4uKxzB8CyqZwBuRrTH | 王世耿 | accepted |
 
 ## 外部来源
 
@@ -460,9 +536,11 @@ relationships:
 - [中国历代人物传记资料库：王承法（CBDB 526931）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526931&o=json)
 - [中国历代人物传记资料库：王立誠（CBDB 526930）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526930&o=json)
 - [中国历代人物传记资料库：王蒔蘭（CBDB 69391）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69391&o=json)
+- [中国历代人物传记资料库：王世耿（CBDB 526925）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526925&o=json)
 - [中国历代人物传记资料库：王世鈞（CBDB 526926）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526926&o=json)
 - [中国历代人物传记资料库：王世祺（CBDB 526927）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526927&o=json)
 - [中国历代人物传记资料库：王世禟（CBDB 526929）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526929&o=json)
+- [中国历代人物传记资料库：王思九（CBDB 526932）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526932&o=json)
 - [中国历代人物传记资料库：王應堯（CBDB 526933）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526933&o=json)
 - [中国历代人物传记资料库：王予衮（CBDB 526923）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526923&o=json)
 - [中国历代人物传记资料库：王予彤（CBDB 526921）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526921&o=json)

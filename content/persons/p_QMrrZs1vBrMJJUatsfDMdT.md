@@ -4,7 +4,7 @@ id: p_QMrrZs1vBrMJJUatsfDMdT
 status: active
 merged_into: null
 display_name: 王珏
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -116,6 +116,32 @@ relationships:
         status: active
         display_name: 王之純
         merged_into_person_id: null
+    - claim:
+        id: c_u22-2ck8hSmXUzdC0ey0nb
+        subject_person_id: p_QMrrZs1vBrMJJUatsfDMdT
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_RSyHLCzgNL6rMFbB6oghwV
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9e_1rw1XdFnm45WR66IZIK
+          claim_id: c_u22-2ck8hSmXUzdC0ey0nb
+          source_id: s_D9PoCG1oG7MDk6ZGqSB6M4
+          stance: supports
+          locator: 寶祐登科錄：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RSyHLCzgNL6rMFbB6oghwV
+        status: active
+        display_name: 王朝佐
+        merged_into_person_id: null
   other: []
 ---
 
@@ -135,6 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | descendants | p_KUHUUuyG7febNqFiWGQsMx | 王之純 | accepted |
+| descendants | p_RSyHLCzgNL6rMFbB6oghwV | 王朝佐 | accepted |
 
 ## 外部来源
 

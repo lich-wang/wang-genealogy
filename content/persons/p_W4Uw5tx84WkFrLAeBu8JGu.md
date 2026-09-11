@@ -4,7 +4,7 @@ id: p_W4Uw5tx84WkFrLAeBu8JGu
 status: active
 merged_into: null
 display_name: 王嘉孝
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_ifI1I9XRbsgoVRwJvTFBg2
+        subject_person_id: p_Q4zHMaLc6WfcgCJNBJHez6
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_W4Uw5tx84WkFrLAeBu8JGu
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tO_ZKKWcSelgoKwakdkQQl
+          claim_id: c_ifI1I9XRbsgoVRwJvTFBg2
+          source_id: s_M3kPTG3QjBmsaoNGDg2P4J
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第三甲第一百六十一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_M3kPTG3QjBmsaoNGDg2P4J
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璋（CBDB 304773）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304773&o=json
+            external_identifier: CBDB:304773
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.734Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Q4zHMaLc6WfcgCJNBJHez6
+        status: active
+        display_name: 王璋
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_Q4zHMaLc6WfcgCJNBJHez6 | 王璋 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王嘉孝（CBDB 203440）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203440&o=json)
+- [中国历代人物传记资料库：王璋（CBDB 304773）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304773&o=json)

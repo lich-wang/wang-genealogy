@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王景秀
 cbdb_id: 141201
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -173,7 +173,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_f-6qU39UVC5DR3h0VOJ1P3
+        subject_person_id: p_Ns13EDRf3NQqio4T1cuSE8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pyf4sBuDxBZjfwC93u5Nsr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YcpVH7nHkqL91puP0aB_sK
+          claim_id: c_f-6qU39UVC5DR3h0VOJ1P3
+          source_id: s_hiuGfMjg4Kh9ATFSaABAWk
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dali 48：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_hiuGfMjg4Kh9ATFSaABAWk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王明德（CBDB 154993）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154993&o=json
+            external_identifier: CBDB:154993
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.873Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_pyf4sBuDxBZjfwC93u5Nsr
+        status: active
+        display_name: 王明德
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -199,7 +236,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_pyf4sBuDxBZjfwC93u5Nsr | 王明德 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王景秀（CBDB 141201）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141201&o=json)
+- [中国历代人物传记资料库：王明德（CBDB 154993）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154993&o=json)

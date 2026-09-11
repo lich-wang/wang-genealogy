@@ -4,7 +4,7 @@ id: p_TXTXwSryWLUp2Edx6YAYPe
 status: active
 merged_into: null
 display_name: 王永年
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -209,6 +209,43 @@ relationships:
         status: active
         display_name: 王興祖
         merged_into_person_id: null
+    - claim:
+        id: c_jsDA65iwvIpSnxmAUcPSM9
+        subject_person_id: p_TXTXwSryWLUp2Edx6YAYPe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_QPtFHPnLUxAqMigpNU1Ceu
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BV-dulDv0sIEhK8j_NnUcz
+          claim_id: c_jsDA65iwvIpSnxmAUcPSM9
+          source_id: s_9miH9QKJjcNdQKDp9YCjnS
+          stance: supports
+          locator: 全宋文，卷 5677：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_9miH9QKJjcNdQKDp9YCjnS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王光祖（CBDB 385912）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385912&o=json
+            external_identifier: CBDB:385912
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:21.886Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_QPtFHPnLUxAqMigpNU1Ceu
+        status: active
+        display_name: 王光祖
+        merged_into_person_id: null
   other: []
 ---
 
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | descendants | p_25zytug1kFui17eu9pg9ot | 王寧 | accepted |
 | descendants | p_pC2CzgxCWVGh53LF21SEoo | 王興祖 | accepted |
+| descendants | p_QPtFHPnLUxAqMigpNU1Ceu | 王光祖 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王光祖（CBDB 385912）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385912&o=json)
 - [中国历代人物传记资料库：王寧（CBDB 386574）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386574&o=json)
 - [中国历代人物传记资料库：王興祖（CBDB 385913）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385913&o=json)
 - [中国历代人物传记资料库：王永年（CBDB 17656）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17656&o=json)

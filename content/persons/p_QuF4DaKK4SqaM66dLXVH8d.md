@@ -4,7 +4,7 @@ id: p_QuF4DaKK4SqaM66dLXVH8d
 status: active
 merged_into: null
 display_name: 王億
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_CqWcd8SXHLdBe0lYgTwl4j
+        subject_person_id: p_QuF4DaKK4SqaM66dLXVH8d
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GXZCrH2ek2TqbFGJ8qqmqw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Bhp9xkE0dHWgxO8xi1ycrf
+          claim_id: c_CqWcd8SXHLdBe0lYgTwl4j
+          source_id: s_JV9KsRurtZYg171fJ7Lg7T
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第二甲第七十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GXZCrH2ek2TqbFGJ8qqmqw
+        status: active
+        display_name: 王宇
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_GXZCrH2ek2TqbFGJ8qqmqw | 王宇 | accepted |
 
 ## 外部来源
 

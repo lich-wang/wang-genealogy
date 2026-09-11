@@ -4,7 +4,7 @@ id: p_ppyWLxr8Sp6zZ7s3LPugbF
 status: active
 merged_into: null
 display_name: 王綬
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_k_SFAUdYMWZcp5kOrkqAEX
+        subject_person_id: p_qEZ5XAZtELsh4xjqgKuUd6
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ppyWLxr8Sp6zZ7s3LPugbF
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4wRX7j7WkxJ0MfROyMnzHf
+          claim_id: c_k_SFAUdYMWZcp5kOrkqAEX
+          source_id: s_ive934eT1oYiGVyXd3ETSt
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第六十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ive934eT1oYiGVyXd3ETSt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王英（CBDB 257670）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257670&o=json
+            external_identifier: CBDB:257670
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.426Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_qEZ5XAZtELsh4xjqgKuUd6
+        status: active
+        display_name: 王英
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_mJNJQFE9z1VKCuzwAbNY9W | 王信 | accepted |
+| ancestors | p_qEZ5XAZtELsh4xjqgKuUd6 | 王英 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王綬（CBDB 200972）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200972&o=json)
 - [中国历代人物传记资料库：王信（CBDB 257671）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257671&o=json)
+- [中国历代人物传记资料库：王英（CBDB 257670）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257670&o=json)

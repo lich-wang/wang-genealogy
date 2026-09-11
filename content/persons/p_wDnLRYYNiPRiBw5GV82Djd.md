@@ -4,7 +4,7 @@ id: p_wDnLRYYNiPRiBw5GV82Djd
 status: active
 merged_into: null
 display_name: 王大方
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_aRbB3owAHsMJd_Hx_ppPHv
+        subject_person_id: p_QoJPmnH2p3TN2WeA18wP8z
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wDnLRYYNiPRiBw5GV82Djd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QEZTzu3oOwq-0qBpmRThQV
+          claim_id: c_aRbB3owAHsMJd_Hx_ppPHv
+          source_id: s_1Zsci6iF4Arcot2TKBLMBo
+          stance: supports
+          locator: 范太史集，卷四八《右監門衛大將軍妻孝感縣君王氏墓志銘》：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1Zsci6iF4Arcot2TKBLMBo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王凱（CBDB 7379）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7379&o=json
+            external_identifier: CBDB:7379
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.481Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_QoJPmnH2p3TN2WeA18wP8z
+        status: active
+        display_name: 王凱
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_QoJPmnH2p3TN2WeA18wP8z | 王凱 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王大方（CBDB 17255）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17255&o=json)
+- [中国历代人物传记资料库：王凱（CBDB 7379）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7379&o=json)

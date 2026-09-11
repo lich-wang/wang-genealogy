@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王一之
 cbdb_id: 207376
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_HXZ7dolQPmoa9YFsqHzitX
+        subject_person_id: p_PW4TLfRz16NyX9w26Xsuko
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CLdF5UcaR98Rj51619NfpN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jl3_BnFsV_7be34mtz6mIe
+          claim_id: c_HXZ7dolQPmoa9YFsqHzitX
+          source_id: s_tPi6mJceVE6bdFiVmF35J4
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第一百九十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_tPi6mJceVE6bdFiVmF35J4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道明（CBDB 231806）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231806&o=json
+            external_identifier: CBDB:231806
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.666Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_PW4TLfRz16NyX9w26Xsuko
+        status: active
+        display_name: 王道明
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -192,9 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_PW4TLfRz16NyX9w26Xsuko | 王道明 | accepted |
 | ancestors | p_4XX99SLMtRTPLVocw8Sf51 | 王紘 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王道明（CBDB 231806）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231806&o=json)
 - [中国历代人物传记资料库：王紘（CBDB 231805）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231805&o=json)
 - [中国历代人物传记资料库：王一之（CBDB 207376）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207376&o=json)

@@ -4,7 +4,7 @@ id: p_qVjpGfv4jCYF7jfo2xQeEY
 status: active
 merged_into: null
 display_name: 王思九
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_i59wrA34LgomOz493YH0Qx
+        subject_person_id: p_qVjpGfv4jCYF7jfo2xQeEY
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DHYbJsS7LE12BDd6qGrWUt
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MlKgahBvC6IdE1JHQXz99h
+          claim_id: c_i59wrA34LgomOz493YH0Qx
+          source_id: s_MPzMiaE2JRj61rSCHkRE1R
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13096：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DHYbJsS7LE12BDd6qGrWUt
+        status: active
+        display_name: 王蒔蘭
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_DHYbJsS7LE12BDd6qGrWUt | 王蒔蘭 | accepted |
 
 ## 外部来源
 

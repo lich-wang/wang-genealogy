@@ -4,7 +4,7 @@ id: p_cWTwgVhpSA8gYnzbvXzbFc
 status: active
 merged_into: null
 display_name: 王定安
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王宣
         merged_into_person_id: null
+    - claim:
+        id: c_0HaNA2AObyohSMDuI0bSpU
+        subject_person_id: p_qBzHKHrauV76AwGPg8RSWu
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cWTwgVhpSA8gYnzbvXzbFc
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cIXBJXhWpedPIbOBPiCPcL
+          claim_id: c_0HaNA2AObyohSMDuI0bSpU
+          source_id: s_ECD3ZgWSAPGoQnoQ6so898
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第二十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ECD3ZgWSAPGoQnoQ6so898
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惟一（CBDB 255872）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255872&o=json
+            external_identifier: CBDB:255872
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.357Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_qBzHKHrauV76AwGPg8RSWu
+        status: active
+        display_name: 王惟一
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_8oBKd9ZtsRcyQgVCR1bekN | 王宣 | accepted |
+| ancestors | p_qBzHKHrauV76AwGPg8RSWu | 王惟一 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王定安（CBDB 200285）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200285&o=json)
+- [中国历代人物传记资料库：王惟一（CBDB 255872）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255872&o=json)
 - [中国历代人物传记资料库：王宣（CBDB 255873）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255873&o=json)

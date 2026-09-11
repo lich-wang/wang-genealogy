@@ -4,7 +4,7 @@ id: p_pYCAbF1Xi98jKsuGW8vvJD
 status: active
 merged_into: null
 display_name: 王原
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_rmqGl9HXql9SnQrf6bYT3t
+        subject_person_id: p_pYCAbF1Xi98jKsuGW8vvJD
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_La7EdP44YnMK6A7Gvg2W3D
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jofEk6W8dI9YMeEYiTf8FP
+          claim_id: c_rmqGl9HXql9SnQrf6bYT3t
+          source_id: s_1tBQZ3dKy7F72oNjnmvv7m
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第二甲第四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_La7EdP44YnMK6A7Gvg2W3D
+        status: active
+        display_name: 王積
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_La7EdP44YnMK6A7Gvg2W3D | 王積 | accepted |
 
 ## 外部来源
 

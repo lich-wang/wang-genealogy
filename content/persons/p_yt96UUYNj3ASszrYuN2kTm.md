@@ -4,7 +4,7 @@ id: p_yt96UUYNj3ASszrYuN2kTm
 status: active
 merged_into: null
 display_name: 王嘉賓
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_MOmOPMS61IGV8ROuVD7Lw3
+        subject_person_id: p_QEHQVSVhwwmdKZM4tKcH7N
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yt96UUYNj3ASszrYuN2kTm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-FNiHZhEPh-DSptGZjgNyc
+          claim_id: c_MOmOPMS61IGV8ROuVD7Lw3
+          source_id: s_gNoPh6G17PspbgktgrTs4X
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第二百四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_gNoPh6G17PspbgktgrTs4X
+            source_type: api_record
+            title: 中国历代人物传记资料库：王可久（CBDB 227987）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227987&o=json
+            external_identifier: CBDB:227987
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.541Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_QEHQVSVhwwmdKZM4tKcH7N
+        status: active
+        display_name: 王可久
+        merged_into_person_id: null
   children:
     - claim:
         id: c_efHYmSB7WcedeylGuutjXz
@@ -237,6 +274,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_QEHQVSVhwwmdKZM4tKcH7N | 王可久 | accepted |
 | children | p_eyEgZHjpFKo8sASqikaQ1F | 王體乾 | accepted |
 | ancestors | p_3ELQPBBWviZRmVrPZwBPKE | 王安 | accepted |
 | ancestors | p_5DS4VeCGL6A7bpkLY9jCoW | 王徽 | accepted |
@@ -246,4 +284,5 @@ relationships:
 - [中国历代人物传记资料库：王安（CBDB 227985）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227985&o=json)
 - [中国历代人物传记资料库：王徽（CBDB 227986）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227986&o=json)
 - [中国历代人物传记资料库：王嘉賓（CBDB 207120）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207120&o=json)
+- [中国历代人物传记资料库：王可久（CBDB 227987）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227987&o=json)
 - [中国历代人物传记资料库：王體乾（CBDB 227997）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227997&o=json)

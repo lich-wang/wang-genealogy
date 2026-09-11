@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王審瓊
 cbdb_id: 689254
-revision: 9
+revision: 10
 properties:
   - predicate: bio.summary
     recommended:
@@ -432,6 +432,43 @@ relationships:
         status: active
         display_name: 王婆憎
         merged_into_person_id: null
+    - claim:
+        id: c_INhAXLp4x1ecBvM-5c0edz
+        subject_person_id: p_s2Ci3S96sKz8q9W2YdX1pM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_QN76kLww6aXF2YK9ZiUjHm
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BBmOz6NrHFUHKNOfiYSoKM
+          claim_id: c_INhAXLp4x1ecBvM-5c0edz
+          source_id: s_81UwMqcv7wA9uLZ1C4PCpG
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，40/王審瓊墓誌：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_81UwMqcv7wA9uLZ1C4PCpG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大䔪（CBDB 689354）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689354&o=json
+            external_identifier: CBDB:689354
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.473Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_QN76kLww6aXF2YK9ZiUjHm
+        status: active
+        display_name: 王大䔪
+        merged_into_person_id: null
   other: []
 ---
 
@@ -459,9 +496,11 @@ relationships:
 | descendants | p_L9vz1h1VZQD3DMRUmJUjoq | 王要羅 | accepted |
 | descendants | p_nSJyU64RDm1XGBh2kWtdLx | 王疥姐 | accepted |
 | descendants | p_P9AZuQa6GrmDhsi8wm26FC | 王婆憎 | accepted |
+| descendants | p_QN76kLww6aXF2YK9ZiUjHm | 王大䔪 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王大䔪（CBDB 689354）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689354&o=json)
 - [中国历代人物传记资料库：王疥姐（CBDB 689359）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689359&o=json)
 - [中国历代人物传记资料库：王忙兒（CBDB 689334）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689334&o=json)
 - [中国历代人物传记资料库：王婆憎（CBDB 689361）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689361&o=json)

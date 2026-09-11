@@ -4,7 +4,7 @@ id: p_NCS3HnSp4Dd5E3wHDitrKB
 status: active
 merged_into: null
 display_name: 王慶祚
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -166,7 +166,44 @@ relationships:
         status: active
         display_name: 王子奇
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_HoK_ARM62n9RuMQZwvnea0
+        subject_person_id: p_NCS3HnSp4Dd5E3wHDitrKB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qLJJ2HRFjbNRgDjqX4mp4p
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pEDXRoRO3g6DEZp-cBpsEs
+          claim_id: c_HoK_ARM62n9RuMQZwvnea0
+          source_id: s_RzstKCn1L4LHmWkL6uqDo8
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Shengli 18：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_RzstKCn1L4LHmWkL6uqDo8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王望之（CBDB 140051）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140051&o=json
+            external_identifier: CBDB:140051
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.463Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_qLJJ2HRFjbNRgDjqX4mp4p
+        status: active
+        display_name: 王望之
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_7aKyC49Foj81yU2JAL4fyu | 王子奇 | accepted |
+| children | p_qLJJ2HRFjbNRgDjqX4mp4p | 王望之 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王慶祚（CBDB 140050）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140050&o=json)
+- [中国历代人物传记资料库：王望之（CBDB 140051）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140051&o=json)
 - [中国历代人物传记资料库：王子奇（CBDB 150087）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150087&o=json)

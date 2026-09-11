@@ -4,7 +4,7 @@ id: p_WFnoT4AbtuEmwq5jbDJDqe
 status: active
 merged_into: null
 display_name: 王恬
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -241,6 +241,43 @@ relationships:
         status: active
         display_name: 王頎
         merged_into_person_id: null
+    - claim:
+        id: c_qNo4Qw2ziKAMmZX7KsGNyy
+        subject_person_id: p_WFnoT4AbtuEmwq5jbDJDqe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QP3NwvKZSaBQQRph12F9S8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Qbswn1eoZ4hPNxteOYxn8A
+          claim_id: c_qNo4Qw2ziKAMmZX7KsGNyy
+          source_id: s_bTSXycdJZLGF666BU27ZvF
+          stance: supports
+          locator: 全宋文，卷 5677：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_bTSXycdJZLGF666BU27ZvF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王頤（CBDB 34068）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34068&o=json
+            external_identifier: CBDB:34068
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.076Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_QP3NwvKZSaBQQRph12F9S8
+        status: active
+        display_name: 王頤
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -269,10 +306,12 @@ relationships:
 | children | p_7Q3M1Hbtu1HLXLHWBytBjr | 王穎 | accepted |
 | children | p_atRhzDs4oFYS811oM1atCv | 王碩 | accepted |
 | children | p_PcEuQQgHX77JBLMDejCXRZ | 王頎 | accepted |
+| children | p_QP3NwvKZSaBQQRph12F9S8 | 王頤 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王頎（CBDB 385854）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385854&o=json)
 - [中国历代人物传记资料库：王碩（CBDB 384841）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=384841&o=json)
 - [中国历代人物传记资料库：王恬（CBDB 38258）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38258&o=json)
+- [中国历代人物传记资料库：王頤（CBDB 34068）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34068&o=json)
 - [中国历代人物传记资料库：王穎（CBDB 385852）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385852&o=json)

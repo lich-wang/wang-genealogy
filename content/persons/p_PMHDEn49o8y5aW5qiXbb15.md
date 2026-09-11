@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王琳
 cbdb_id: 91982
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -253,7 +253,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_cATFwfwrUAUz-34l-ff-qZ
+        subject_person_id: p_PMHDEn49o8y5aW5qiXbb15
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qivzHR7xYz6bzgiDCELpcc
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JQfxeX3iCbaOLbHEStL3CO
+          claim_id: c_cATFwfwrUAUz-34l-ff-qZ
+          source_id: s_LP44Qjv2T2zr3vYicedm3F
+          stance: supports
+          locator: Pers DB / 唐代人物知識ベース，pers00180：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_LP44Qjv2T2zr3vYicedm3F
+            source_type: api_record
+            title: 中国历代人物传记资料库：王祝（CBDB 92053）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92053&o=json
+            external_identifier: CBDB:92053
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:14.105Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_qivzHR7xYz6bzgiDCELpcc
+        status: active
+        display_name: 王祝
+        merged_into_person_id: null
   other: []
 ---
 
@@ -274,10 +311,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_oXeM1DhnzL8dBtmUo4Qtqd | 王晙 | accepted |
+| descendants | p_qivzHR7xYz6bzgiDCELpcc | 王祝 | accepted |
 
 ## 外部来源
 
 - [维基数据：王晙（Q45439660）](https://www.wikidata.org/wiki/Q45439660)
 - [维基数据：王琳（Q45438985）](https://www.wikidata.org/wiki/Q45438985)
+- [中国历代人物传记资料库：王祝（CBDB 92053）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92053&o=json)
 - [CBDB 中国历代人物传记资料库：王晙（91993）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=91993&o=json)
 - [CBDB 中国历代人物传记资料库：王琳（91982）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=91982&o=json)

@@ -4,7 +4,7 @@ id: p_yueT28KmtQMkrhqxZNWfyB
 status: active
 merged_into: null
 display_name: 王張顯
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_4GLAI3ACZEFbtd_idMH_gI
+        subject_person_id: p_yueT28KmtQMkrhqxZNWfyB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QeKezjrqjZ3pGuS4yx8R36
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hWKnxaHf4mfYhDfjEcPuWX
+          claim_id: c_4GLAI3ACZEFbtd_idMH_gI
+          source_id: s_FUpRVa8DUJPsKMfr5AoV61
+          stance: supports
+          locator: 嘉慶黟縣志，lgid=1166267：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FUpRVa8DUJPsKMfr5AoV61
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大度（CBDB 690956）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=690956&o=json
+            external_identifier: CBDB:690956
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.488Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_QeKezjrqjZ3pGuS4yx8R36
+        status: active
+        display_name: 王大度
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_QeKezjrqjZ3pGuS4yx8R36 | 王大度 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王大度（CBDB 690956）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=690956&o=json)
 - [中国历代人物传记资料库：王張顯（CBDB 690954）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=690954&o=json)

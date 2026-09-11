@@ -4,7 +4,7 @@ id: p_tqwNUi4YHEq3GLVvJB5D2K
 status: active
 merged_into: null
 display_name: 王杏
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_PLx3m2WVYm7kDiDLl9h2Ky
+        subject_person_id: p_Q6amHE4HK8gJDrscEZBJcD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tqwNUi4YHEq3GLVvJB5D2K
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jA12w5kCOCe0G3t8kAZrGt
+          claim_id: c_PLx3m2WVYm7kDiDLl9h2Ky
+          source_id: s_gRmJsUL1kRg7QCQLSHWn72
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第二百二十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_gRmJsUL1kRg7QCQLSHWn72
+            source_type: api_record
+            title: 中国历代人物传记资料库：王訓（CBDB 290695）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290695&o=json
+            external_identifier: CBDB:290695
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.341Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Q6amHE4HK8gJDrscEZBJcD
+        status: active
+        display_name: 王訓
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +237,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Q6amHE4HK8gJDrscEZBJcD | 王訓 | accepted |
 | ancestors | p_98yZgQvRBXf6iP69LRsUmh | 王綬 | accepted |
 | ancestors | p_bnZTTUXdQEkiwbHG6pPM7d | 王璨 | accepted |
 
@@ -208,3 +246,4 @@ relationships:
 - [中国历代人物传记资料库：王璨（CBDB 290693）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290693&o=json)
 - [中国历代人物传记资料库：王綬（CBDB 290694）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290694&o=json)
 - [中国历代人物传记资料库：王杏（CBDB 202611）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202611&o=json)
+- [中国历代人物传记资料库：王訓（CBDB 290695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290695&o=json)

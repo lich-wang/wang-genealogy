@@ -4,7 +4,7 @@ id: p_QkuBep2mwWaKEfbgHSG4N1
 status: active
 merged_into: null
 display_name: 王十六娘
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,59 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_sNsKK1JpVGRS1AmkOTHafB
+        subject_person_id: p_P1TExqFwAxCtJhwPxtQRWP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QkuBep2mwWaKEfbgHSG4N1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZTtJ4aiVw-dCwLgL15Y92K
+          claim_id: c_sNsKK1JpVGRS1AmkOTHafB
+          source_id: s_j2z8eeWbHkpsU4ip4mEKhQ
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Dazhong23：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_P1TExqFwAxCtJhwPxtQRWP
+        status: active
+        display_name: 王大唐
+        merged_into_person_id: null
+    - claim:
+        id: c_UTkAVTLpMuICyN_vApLkx-
+        subject_person_id: p_kKF3bcrN2PF97A45BMZbMB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QkuBep2mwWaKEfbgHSG4N1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cqPIzdhl7AZwvrfEw_y7Am
+          claim_id: c_UTkAVTLpMuICyN_vApLkx-
+          source_id: s_j2z8eeWbHkpsU4ip4mEKhQ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_kKF3bcrN2PF97A45BMZbMB
+        status: active
+        display_name: 王頊
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_P1TExqFwAxCtJhwPxtQRWP | 王大唐 | accepted |
+| parents | p_kKF3bcrN2PF97A45BMZbMB | 王頊 | accepted |
 
 ## 外部来源
 

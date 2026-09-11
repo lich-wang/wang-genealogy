@@ -4,7 +4,7 @@ id: p_Q5jiewEf7qr9FT4CBgkaYV
 status: active
 merged_into: null
 display_name: 王繼祖
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_DFjFv16CuHgL1WB56M1KqI
+        subject_person_id: p_PyEHQmuoeFWGbQR7iXh3pQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Q5jiewEf7qr9FT4CBgkaYV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_z0nNxrqUO5owCrPJ5cTbXX
+          claim_id: c_DFjFv16CuHgL1WB56M1KqI
+          source_id: s_y2NnK92PAoSpDzeYTPmBbr
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第二甲第四十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_y2NnK92PAoSpDzeYTPmBbr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鑑（CBDB 334034）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334034&o=json
+            external_identifier: CBDB:334034
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.429Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_PyEHQmuoeFWGbQR7iXh3pQ
+        status: active
+        display_name: 王鑑
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +237,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_PyEHQmuoeFWGbQR7iXh3pQ | 王鑑 | accepted |
 | ancestors | p_dmQnPb8XGYab6qzZ3xmK4r | 王寍 | accepted |
 | ancestors | p_FZxctikAy2KZyE9je3jt6J | 王彥文 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王繼祖（CBDB 205485）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205485&o=json)
+- [中国历代人物传记资料库：王鑑（CBDB 334034）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334034&o=json)
 - [中国历代人物传记资料库：王寍（CBDB 334031）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334031&o=json)
 - [中国历代人物传记资料库：王彥文（CBDB 334032）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334032&o=json)

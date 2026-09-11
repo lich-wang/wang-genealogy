@@ -4,7 +4,7 @@ id: p_Q8F1bACUG5zjQFJrLyFbx6
 status: active
 merged_into: null
 display_name: 王傑
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_MYg1MLtlVmnQmXn4NED-S1
+        subject_person_id: p_NSq22v18MetWG3Z7WXW4xn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Q8F1bACUG5zjQFJrLyFbx6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cdPqNNlsMr3lGxG7tNGfqf
+          claim_id: c_MYg1MLtlVmnQmXn4NED-S1
+          source_id: s_cdfksD3yCjTL9mQdv2rZ7K
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xiantian 2：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NSq22v18MetWG3Z7WXW4xn
+        status: active
+        display_name: 王山輝
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_NSq22v18MetWG3Z7WXW4xn | 王山輝 | accepted |
 
 ## 外部来源
 

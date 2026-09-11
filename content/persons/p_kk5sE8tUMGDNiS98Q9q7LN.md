@@ -4,7 +4,7 @@ id: p_kk5sE8tUMGDNiS98Q9q7LN
 status: active
 merged_into: null
 display_name: 王景崇
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -166,7 +166,44 @@ relationships:
         status: active
         display_name: 王紹鼎
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_-dfBIkJSBFNIl8H-ZqtIPH
+        subject_person_id: p_kk5sE8tUMGDNiS98Q9q7LN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qTHZVE85zKMHBCYt3CAjW2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gz0VbuYfcs1hQH4BxxX9UU
+          claim_id: c_-dfBIkJSBFNIl8H-ZqtIPH
+          source_id: s_VdJ8ABfSKq3J5M323rRp5R
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_VdJ8ABfSKq3J5M323rRp5R
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎔（CBDB 92111）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92111&o=json
+            external_identifier: CBDB:92111
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:14.138Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_qTHZVE85zKMHBCYt3CAjW2
+        status: active
+        display_name: 王鎔
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_BGZ3Xya3EBe2Q1KNp6DVk3 | 王紹鼎 | accepted |
+| children | p_qTHZVE85zKMHBCYt3CAjW2 | 王鎔 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王景崇（CBDB 169310）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169310&o=json)
+- [中国历代人物传记资料库：王鎔（CBDB 92111）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92111&o=json)
 - [中国历代人物传记资料库：王紹鼎（CBDB 159540）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159540&o=json)

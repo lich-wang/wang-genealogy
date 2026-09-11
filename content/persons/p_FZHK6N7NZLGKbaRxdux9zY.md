@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王佑賢
 cbdb_id: 120350
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -211,6 +211,43 @@ relationships:
         status: active
         display_name: 王璋
         merged_into_person_id: null
+    - claim:
+        id: c_CdWWqjsoRNRbLWROKWdD9g
+        subject_person_id: p_FZHK6N7NZLGKbaRxdux9zY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qNiLA2MCasPh7p1g4jgnpN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0NUIZsxbsY3nbONiSABcXf
+          claim_id: c_CdWWqjsoRNRbLWROKWdD9g
+          source_id: s_m7F1PmhnzPorDc5mXhjxQd
+          stance: supports
+          locator: 錢塘縣志，lgid=219873：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_m7F1PmhnzPorDc5mXhjxQd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遜（CBDB 702039）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702039&o=json
+            external_identifier: CBDB:702039
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.810Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_qNiLA2MCasPh7p1g4jgnpN
+        status: active
+        display_name: 王遜
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -237,8 +274,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_mVChwaqHjpkM6iD5JMHNQ8 | 王璋 | accepted |
+| children | p_qNiLA2MCasPh7p1g4jgnpN | 王遜 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王遜（CBDB 702039）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702039&o=json)
 - [中国历代人物传记资料库：王佑賢（CBDB 120350）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120350&o=json)
 - [中国历代人物传记资料库：王璋（CBDB 120347）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120347&o=json)

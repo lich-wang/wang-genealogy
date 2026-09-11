@@ -4,7 +4,7 @@ id: p_qo5VK1CeeyLVbmsSuofcsc
 status: active
 merged_into: null
 display_name: 王魯
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_zeotAMauKDorlyNAzd0rIK
+        subject_person_id: p_qo5VK1CeeyLVbmsSuofcsc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rnGMv5wiQ8owdX8n1Qtwbm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mp_uuFxz3VHEFwr_sCJNOy
+          claim_id: c_zeotAMauKDorlyNAzd0rIK
+          source_id: s_hF1yw9XY7gc18TAMpszZnX
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第六十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rnGMv5wiQ8owdX8n1Qtwbm
+        status: active
+        display_name: 王嘉言
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_rnGMv5wiQ8owdX8n1Qtwbm | 王嘉言 | accepted |
 
 ## 外部来源
 

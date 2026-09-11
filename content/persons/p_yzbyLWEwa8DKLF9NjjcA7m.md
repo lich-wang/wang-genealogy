@@ -4,7 +4,7 @@ id: p_yzbyLWEwa8DKLF9NjjcA7m
 status: active
 merged_into: null
 display_name: 王庭
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,43 @@ relationships:
         status: active
         display_name: 王恆沔
         merged_into_person_id: null
+    - claim:
+        id: c_Qe7DIL6Agky1MxKE72J5QS
+        subject_person_id: p_yzbyLWEwa8DKLF9NjjcA7m
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_q4aMAtNbQ3K9f3a8iJE1JN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Sw87fucqa7WmPHUN_dVgSY
+          claim_id: c_Qe7DIL6Agky1MxKE72J5QS
+          source_id: s_nW5YGs2mxTWa29CtrZej1e
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_nW5YGs2mxTWa29CtrZej1e
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恆滔（CBDB 191585）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191585&o=json
+            external_identifier: CBDB:191585
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.368Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_q4aMAtNbQ3K9f3a8iJE1JN
+        status: active
+        display_name: 王恆滔
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_gKWczJH1tdpTNRB1wvf53A | 王恆沔 | accepted |
+| children | p_q4aMAtNbQ3K9f3a8iJE1JN | 王恆滔 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王恆沔（CBDB 192521）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=192521&o=json)
+- [中国历代人物传记资料库：王恆滔（CBDB 191585）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191585&o=json)
 - [中国历代人物传记资料库：王庭（CBDB 156054）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=156054&o=json)

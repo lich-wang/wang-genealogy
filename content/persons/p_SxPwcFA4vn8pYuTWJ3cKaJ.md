@@ -4,7 +4,7 @@ id: p_SxPwcFA4vn8pYuTWJ3cKaJ
 status: active
 merged_into: null
 display_name: 王瑗達
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_TZhLXbKDkMujFpSCP450K-
+        subject_person_id: p_Q25VNfs1ZURsB9gRQKNKP4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_SxPwcFA4vn8pYuTWJ3cKaJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kC8S4PNC-WxvDAXyAdJj76
+          claim_id: c_TZhLXbKDkMujFpSCP450K-
+          source_id: s_b1bTNJ8JPz19r3yNpAnb2d
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yonghui 138：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_b1bTNJ8JPz19r3yNpAnb2d
+            source_type: api_record
+            title: 中国历代人物传记资料库：王盛（CBDB 147246）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=147246&o=json
+            external_identifier: CBDB:147246
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.731Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Q25VNfs1ZURsB9gRQKNKP4
+        status: active
+        display_name: 王盛
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Q25VNfs1ZURsB9gRQKNKP4 | 王盛 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王盛（CBDB 147246）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=147246&o=json)
 - [中国历代人物传记资料库：王瑗達（CBDB 139056）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139056&o=json)

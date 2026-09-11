@@ -4,7 +4,7 @@ id: p_qERW8MFNwQT1ZsjCDZMwyp
 status: active
 merged_into: null
 display_name: 王相
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_sd8R7xLl8Jo3YNgVWjMv_6
+        subject_person_id: p_qERW8MFNwQT1ZsjCDZMwyp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_n9JWi9Ws7kfdEieY3ME6s2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dkWJPiHMBAEk8to3FBzOk0
+          claim_id: c_sd8R7xLl8Jo3YNgVWjMv_6
+          source_id: s_xopVqbYAjWDvnKynGfq17L
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dali 51：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_n9JWi9Ws7kfdEieY3ME6s2
+        status: active
+        display_name: 王希晏
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_n9JWi9Ws7kfdEieY3ME6s2 | 王希晏 | accepted |
 
 ## 外部来源
 

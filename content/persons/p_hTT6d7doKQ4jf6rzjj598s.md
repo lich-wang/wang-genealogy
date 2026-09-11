@@ -4,7 +4,7 @@ id: p_hTT6d7doKQ4jf6rzjj598s
 status: active
 merged_into: null
 display_name: 王長卿
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_mIJMZYL5prJuSgt93dRykn
+        subject_person_id: p_hTT6d7doKQ4jf6rzjj598s
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QFDDtWcAnS5HdHiHH9q3dC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ksgaSlDRJBYkA2G1KN1Qod
+          claim_id: c_mIJMZYL5prJuSgt93dRykn
+          source_id: s_WBJ8F42FBcQJRt6ZQwSaUR
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #5174：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_WBJ8F42FBcQJRt6ZQwSaUR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王琰（CBDB 123376）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123376&o=json
+            external_identifier: CBDB:123376
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:14.931Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_QFDDtWcAnS5HdHiHH9q3dC
+        status: active
+        display_name: 王琰
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_QFDDtWcAnS5HdHiHH9q3dC | 王琰 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王琰（CBDB 123376）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123376&o=json)
 - [中国历代人物传记资料库：王長卿（CBDB 123377）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123377&o=json)

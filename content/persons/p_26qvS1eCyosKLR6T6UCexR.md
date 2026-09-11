@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王時舉
 cbdb_id: 68472
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,6 +129,43 @@ relationships:
         status: active
         display_name: 王紀
         merged_into_person_id: null
+    - claim:
+        id: c_wqcRBqDslSqWGt7kG9aHWz
+        subject_person_id: p_qJsuzF3D2EFDgfPvMtrnkn
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_26qvS1eCyosKLR6T6UCexR
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LdEL9XkYXJXjBRkDTm-T96
+          claim_id: c_wqcRBqDslSqWGt7kG9aHWz
+          source_id: s_Boz2JN3HkncAtwmCeE9sPr
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第七十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Boz2JN3HkncAtwmCeE9sPr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瓚（CBDB 327979）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327979&o=json
+            external_identifier: CBDB:327979
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.280Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_qJsuzF3D2EFDgfPvMtrnkn
+        status: active
+        display_name: 王瓚
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -149,8 +186,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_B8J4MJM8443j3KJ1vaz4JK | 王紀 | accepted |
+| ancestors | p_qJsuzF3D2EFDgfPvMtrnkn | 王瓚 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王紀（CBDB 327980）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327980&o=json)
 - [中国历代人物传记资料库：王時舉（CBDB 68472）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68472&o=json)
+- [中国历代人物传记资料库：王瓚（CBDB 327979）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327979&o=json)

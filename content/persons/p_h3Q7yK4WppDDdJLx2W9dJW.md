@@ -4,7 +4,7 @@ id: p_h3Q7yK4WppDDdJLx2W9dJW
 status: active
 merged_into: null
 display_name: 王圖
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_zFTmFPsJQQT2mO20_pmhLQ
+        subject_person_id: p_q3ewFUkH4tvUNYqQiNKdGz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_h3Q7yK4WppDDdJLx2W9dJW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1Xo0QKaMvJSGslnHmTpQBz
+          claim_id: c_zFTmFPsJQQT2mO20_pmhLQ
+          source_id: s_GJqFtVwAXXnju2DayqWmKq
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第四十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GJqFtVwAXXnju2DayqWmKq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王邦憲（CBDB 228102）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228102&o=json
+            external_identifier: CBDB:228102
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.552Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_q3ewFUkH4tvUNYqQiNKdGz
+        status: active
+        display_name: 王邦憲
+        merged_into_person_id: null
   children:
     - claim:
         id: c_KV-sRCyKgrBMmkZLGeTXxT
@@ -303,6 +340,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_q3ewFUkH4tvUNYqQiNKdGz | 王邦憲 | accepted |
 | children | p_1C9MSQ94Pw8CNN4oDdnF1n | 王毓玄 | accepted |
 | children | p_bG23UWqGUM28CjMMHeN157 | 王淑抃 | accepted |
 | ancestors | p_aRgUR2bV5G8GcADRgTUTHB | 王宗仁 | accepted |
@@ -310,6 +348,7 @@ relationships:
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王邦憲（CBDB 228102）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228102&o=json)
 - [中国历代人物传记资料库：王淑抃（CBDB 228114）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228114&o=json)
 - [中国历代人物传记资料库：王圖（CBDB 123710）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123710&o=json)
 - [中国历代人物传记资料库：王永寧（CBDB 228100）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228100&o=json)

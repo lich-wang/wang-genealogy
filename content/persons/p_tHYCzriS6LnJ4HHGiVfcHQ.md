@@ -4,7 +4,7 @@ id: p_tHYCzriS6LnJ4HHGiVfcHQ
 status: active
 merged_into: null
 display_name: 王汝清
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_nfXhNCUE-DYICYGlfq0SG8
+        subject_person_id: p_QogBPUoy6ogb9CeCDBCCo9
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_tHYCzriS6LnJ4HHGiVfcHQ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5VI43fxMtPkL2vusgeWcvZ
+          claim_id: c_nfXhNCUE-DYICYGlfq0SG8
+          source_id: s_azDg5oRp8H68tqdEHuMs3b
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第二百零二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_azDg5oRp8H68tqdEHuMs3b
+            source_type: api_record
+            title: 中国历代人物传记资料库：王翰（CBDB 266710）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266710&o=json
+            external_identifier: CBDB:266710
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.725Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_QogBPUoy6ogb9CeCDBCCo9
+        status: active
+        display_name: 王翰
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_FbvUfnrJsMZAACE7dBpnUs | 王胤賢 | accepted |
+| ancestors | p_QogBPUoy6ogb9CeCDBCCo9 | 王翰 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王翰（CBDB 266710）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266710&o=json)
 - [中国历代人物传记资料库：王汝清（CBDB 201079）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201079&o=json)
 - [中国历代人物传记资料库：王胤賢（CBDB 201978）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201978&o=json)

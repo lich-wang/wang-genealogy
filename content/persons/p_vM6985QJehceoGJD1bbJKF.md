@@ -4,7 +4,7 @@ id: p_vM6985QJehceoGJD1bbJKF
 status: active
 merged_into: null
 display_name: 王澄
-revision: 11
+revision: 12
 properties:
   - predicate: name.primary
     recommended:
@@ -616,6 +616,43 @@ relationships:
         status: active
         display_name: 王溫
         merged_into_person_id: null
+    - claim:
+        id: c_ul2Ul3BIkQ31qKTE16MwEX
+        subject_person_id: p_vM6985QJehceoGJD1bbJKF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qgLg9qsrb2hzM8tzo8Tq75
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8CnS8YmuTnidetBsIdvm8_
+          claim_id: c_ul2Ul3BIkQ31qKTE16MwEX
+          source_id: s_7NwGxsySQsceiF1gMaXvJn
+          stance: supports
+          locator: 宋濂全集，1606：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7NwGxsySQsceiF1gMaXvJn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王念（CBDB 134167）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134167&o=json
+            external_identifier: CBDB:134167
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.307Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_qgLg9qsrb2hzM8tzo8Tq75
+        status: active
+        display_name: 王念
+        merged_into_person_id: null
   other: []
 ---
 
@@ -649,6 +686,7 @@ relationships:
 | descendants | p_P97nvyR1xhyFMweJFfn2sM | 王慶 | accepted |
 | descendants | p_PJnAmKKKTDH36Qb3sE8tHM | 王淦 | accepted |
 | descendants | p_pLWyb7aYJGN29nL8akgz85 | 王溫 | accepted |
+| descendants | p_qgLg9qsrb2hzM8tzo8Tq75 | 王念 | accepted |
 
 ## 外部来源
 
@@ -656,6 +694,7 @@ relationships:
 - [中国历代人物传记资料库：王恩（CBDB 134173）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134173&o=json)
 - [中国历代人物传记资料库：王淦（CBDB 134191）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134191&o=json)
 - [中国历代人物传记资料库：王濠（CBDB 134194）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134194&o=json)
+- [中国历代人物传记资料库：王念（CBDB 134167）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134167&o=json)
 - [中国历代人物传记资料库：王溥（CBDB 134188）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134188&o=json)
 - [中国历代人物传记资料库：王淇（CBDB 134181）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134181&o=json)
 - [中国历代人物传记资料库：王潛（CBDB 134186）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134186&o=json)

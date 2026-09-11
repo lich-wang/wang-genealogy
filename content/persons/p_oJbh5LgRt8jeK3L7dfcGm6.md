@@ -4,7 +4,7 @@ id: p_oJbh5LgRt8jeK3L7dfcGm6
 status: active
 merged_into: null
 display_name: 王鍭
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_907WArwwd9JMVBh9ttafBD
+        subject_person_id: p_Q9zuFMKzedcz4UHwq7tKH2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oJbh5LgRt8jeK3L7dfcGm6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_g1b_0EsVCA6OlzRuE6IjWx
+          claim_id: c_907WArwwd9JMVBh9ttafBD
+          source_id: s_E7TYQ72axWC3jaNBPCtME8
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第三甲第十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_E7TYQ72axWC3jaNBPCtME8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王啟宏（CBDB 267887）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267887&o=json
+            external_identifier: CBDB:267887
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.788Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Q9zuFMKzedcz4UHwq7tKH2
+        status: active
+        display_name: 王啟宏
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +237,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Q9zuFMKzedcz4UHwq7tKH2 | 王啟宏 | accepted |
 | ancestors | p_6SkRzPvYC49deJJ5756Tsc | 王璋 | accepted |
 | ancestors | p_iu5CaCsZnkm6eqkDzztcwK | 王宗道 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鍭（CBDB 201147）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201147&o=json)
+- [中国历代人物传记资料库：王啟宏（CBDB 267887）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267887&o=json)
 - [中国历代人物传记资料库：王璋（CBDB 267886）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267886&o=json)
 - [中国历代人物传记资料库：王宗道（CBDB 267885）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267885&o=json)

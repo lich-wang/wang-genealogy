@@ -4,7 +4,7 @@ id: p_QBKChjB8EZBmXCdJfrfdLr
 status: active
 merged_into: null
 display_name: 王勝
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_6ZXyApVqjxziARYhjrvd2s
+        subject_person_id: p_QYLqXzV7q5bwD3DQYVejsg
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_QBKChjB8EZBmXCdJfrfdLr
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7---Ch4VyhAk495uhEN-u4
+          claim_id: c_6ZXyApVqjxziARYhjrvd2s
+          source_id: s_jYoF76MidxnwivZqfiMQCu
+          stance: supports
+          locator: 吳門補乘，lgid=177394：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_QYLqXzV7q5bwD3DQYVejsg
+        status: active
+        display_name: 王守成
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_QYLqXzV7q5bwD3DQYVejsg | 王守成 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_QNP9ruUBJM2h7tcYH7jhr9
 status: active
 merged_into: null
 display_name: 王珏
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_T9LznVGksfopKc858l1_DU
+        subject_person_id: p_QNP9ruUBJM2h7tcYH7jhr9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HKCnizxAApK3fsPh2jp46Q
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_I6iIsLecN59ko1Vtd3wra7
+          claim_id: c_T9LznVGksfopKc858l1_DU
+          source_id: s_Y5ptC4D9TXF96Eu4GsujwZ
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第二甲第七十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_HKCnizxAApK3fsPh2jp46Q
+        status: active
+        display_name: 王敎
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_HKCnizxAApK3fsPh2jp46Q | 王敎 | accepted |
 
 ## 外部来源
 

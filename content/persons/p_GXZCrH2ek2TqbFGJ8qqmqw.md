@@ -4,7 +4,7 @@ id: p_GXZCrH2ek2TqbFGJ8qqmqw
 status: active
 merged_into: null
 display_name: 王宇
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_CqWcd8SXHLdBe0lYgTwl4j
+        subject_person_id: p_QuF4DaKK4SqaM66dLXVH8d
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GXZCrH2ek2TqbFGJ8qqmqw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Bhp9xkE0dHWgxO8xi1ycrf
+          claim_id: c_CqWcd8SXHLdBe0lYgTwl4j
+          source_id: s_JV9KsRurtZYg171fJ7Lg7T
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第二甲第七十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_JV9KsRurtZYg171fJ7Lg7T
+            source_type: api_record
+            title: 中国历代人物传记资料库：王億（CBDB 315703）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315703&o=json
+            external_identifier: CBDB:315703
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.948Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_QuF4DaKK4SqaM66dLXVH8d
+        status: active
+        display_name: 王億
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +237,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_QuF4DaKK4SqaM66dLXVH8d | 王億 | accepted |
 | ancestors | p_BhzbpVnWNojWd9QYAz11EY | 王寶 | accepted |
 | ancestors | p_j2pBDD21Qom1eWLd3CawJw | 王慶 | accepted |
 
@@ -207,4 +245,5 @@ relationships:
 
 - [中国历代人物传记资料库：王寶（CBDB 315701）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315701&o=json)
 - [中国历代人物传记资料库：王慶（CBDB 315702）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315702&o=json)
+- [中国历代人物传记资料库：王億（CBDB 315703）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315703&o=json)
 - [中国历代人物传记资料库：王宇（CBDB 204187）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204187&o=json)

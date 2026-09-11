@@ -4,7 +4,7 @@ id: p_QvmpGGKpmPejSG2VgwKUAo
 status: active
 merged_into: null
 display_name: 王惠風
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,11 +72,63 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_8l37YgaSFUTbAwKI70BVq5
+        subject_person_id: p_qJNLQcarJnewc4Hd2y9HAz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QvmpGGKpmPejSG2VgwKUAo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_svPEfwm1wFlDS2j-ho8HVv
+          claim_id: c_8l37YgaSFUTbAwKI70BVq5
+          source_id: s_22sDkGjqcPctnCzQ7R64Af
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #3052：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qJNLQcarJnewc4Hd2y9HAz
+        status: active
+        display_name: 王衍
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_7o81BEI8uBBXxmE79nFhXX
+        subject_person_id: p_QvmpGGKpmPejSG2VgwKUAo
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_YK7ABNV6dntqReNgEsTPMp
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yhRO0n2oZYGAAyNVNRCbTO
+          claim_id: c_7o81BEI8uBBXxmE79nFhXX
+          source_id: s_22sDkGjqcPctnCzQ7R64Af
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #3052：丈夫"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_YK7ABNV6dntqReNgEsTPMp
+        status: active
+        display_name: 司马遹
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qJNLQcarJnewc4Hd2y9HAz | 王衍 | accepted |
+| spouses | p_YK7ABNV6dntqReNgEsTPMp | 司马遹 | accepted |
 
 ## 外部来源
 

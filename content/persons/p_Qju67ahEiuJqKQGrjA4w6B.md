@@ -4,7 +4,7 @@ id: p_Qju67ahEiuJqKQGrjA4w6B
 status: active
 merged_into: null
 display_name: 王庭芝
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_imq9fZNr_uVhFBnDNNp_eg
+        subject_person_id: p_RA5Q1hFsD4bFpuPrR9y5n3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Qju67ahEiuJqKQGrjA4w6B
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FQOFibhL9n_kaRbSDvt2MF
+          claim_id: c_imq9fZNr_uVhFBnDNNp_eg
+          source_id: s_DjECFUtiuZf73kK6pGREps
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 91：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RA5Q1hFsD4bFpuPrR9y5n3
+        status: active
+        display_name: 王哲
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_0uMZ2cqd0Twlf1T1czIYFe
+        subject_person_id: p_Qju67ahEiuJqKQGrjA4w6B
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JFaVuR7J1VpwQj6ZwnAgVN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XQtHSqr5q0h2Gti-CS-5mG
+          claim_id: c_0uMZ2cqd0Twlf1T1czIYFe
+          source_id: s_DjECFUtiuZf73kK6pGREps
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 91：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_JFaVuR7J1VpwQj6ZwnAgVN
+        status: active
+        display_name: 王僧護
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_RA5Q1hFsD4bFpuPrR9y5n3 | 王哲 | accepted |
+| children | p_JFaVuR7J1VpwQj6ZwnAgVN | 王僧護 | accepted |
 
 ## 外部来源
 

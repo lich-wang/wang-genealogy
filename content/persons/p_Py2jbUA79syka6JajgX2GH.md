@@ -4,7 +4,7 @@ id: p_Py2jbUA79syka6JajgX2GH
 status: active
 merged_into: null
 display_name: 王懿德
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,12 +129,116 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_RpMGtiTz43bXv47igUD6le
+        subject_person_id: p_Py2jbUA79syka6JajgX2GH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VYnbiHMWyGkDSsFyemhi7D
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uzM0cxjFOzjyaz7Qqkz3hg
+          claim_id: c_RpMGtiTz43bXv47igUD6le
+          source_id: s_fFA9vAN1NmcpsBXnJbP6NV
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），441：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_VYnbiHMWyGkDSsFyemhi7D
+        status: active
+        display_name: 王文恕
+        merged_into_person_id: null
+    - claim:
+        id: c_zHjxrzIa7Z_I5zPErGkJzT
+        subject_person_id: p_Py2jbUA79syka6JajgX2GH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ViM6AAA4AWWQB9Ff7ZJGxc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9ExFORJ_qQmV2y_2YTWi3e
+          claim_id: c_zHjxrzIa7Z_I5zPErGkJzT
+          source_id: s_fFA9vAN1NmcpsBXnJbP6NV
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），441：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ViM6AAA4AWWQB9Ff7ZJGxc
+        status: active
+        display_name: 王文謙
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_58IivdkIbKPwrI4daX6Atz
+        subject_person_id: p_Py2jbUA79syka6JajgX2GH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_c5NxeWaA7QxGoJJ3FMURwU
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_O2OvBLjwzejCfvDsUXGh1c
+          claim_id: c_58IivdkIbKPwrI4daX6Atz
+          source_id: s_fFA9vAN1NmcpsBXnJbP6NV
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），441：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_c5NxeWaA7QxGoJJ3FMURwU
+        status: active
+        display_name: 王守愚
+        merged_into_person_id: null
+    - claim:
+        id: c_PPBQKduTGd_Jz9bFcaW33T
+        subject_person_id: p_Py2jbUA79syka6JajgX2GH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_KQpKKedDE3nkD8dN6kRoLn
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FikfOSgevzoqdjQcos08s2
+          claim_id: c_PPBQKduTGd_Jz9bFcaW33T
+          source_id: s_fFA9vAN1NmcpsBXnJbP6NV
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），441：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_KQpKKedDE3nkD8dN6kRoLn
+        status: active
+        display_name: 王守堃
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,6 +259,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_VYnbiHMWyGkDSsFyemhi7D | 王文恕 | accepted |
+| children | p_ViM6AAA4AWWQB9Ff7ZJGxc | 王文謙 | accepted |
+| descendants | p_c5NxeWaA7QxGoJJ3FMURwU | 王守愚 | accepted |
+| descendants | p_KQpKKedDE3nkD8dN6kRoLn | 王守堃 | accepted |
 
 ## 外部来源
 

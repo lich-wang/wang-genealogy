@@ -4,7 +4,7 @@ id: p_XJXudkaLuCHVbmiCeKBv45
 status: active
 merged_into: null
 display_name: 王官
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王誠
         merged_into_person_id: null
+    - claim:
+        id: c_jLG_Br7Uba_ZmT_uemgoqY
+        subject_person_id: p_QLYY3wK54kAaQowKFrboE5
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_XJXudkaLuCHVbmiCeKBv45
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YPS00Qc_reTtmV_uWdvvBj
+          claim_id: c_jLG_Br7Uba_ZmT_uemgoqY
+          source_id: s_n972c1PRTFU2TJXgZJg3Rh
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第三十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_n972c1PRTFU2TJXgZJg3Rh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王清（CBDB 280987）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280987&o=json
+            external_identifier: CBDB:280987
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.035Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_QLYY3wK54kAaQowKFrboE5
+        status: active
+        display_name: 王清
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_6SDy3bF7CQQgYA5jaz9rmc | 王誠 | accepted |
+| ancestors | p_QLYY3wK54kAaQowKFrboE5 | 王清 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王誠（CBDB 280985）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280985&o=json)
 - [中国历代人物传记资料库：王官（CBDB 201950）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201950&o=json)
+- [中国历代人物传记资料库：王清（CBDB 280987）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280987&o=json)

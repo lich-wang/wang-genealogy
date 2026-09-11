@@ -4,7 +4,7 @@ id: p_Qi19at8PMDrxmYxJWwMtyG
 status: active
 merged_into: null
 display_name: 王樹桂
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -115,7 +115,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_xDn7rudUcj10Y1TxMuRMLj
+        subject_person_id: p_Qi19at8PMDrxmYxJWwMtyG
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_UP5UGFMjp7jZjLkQo114G2
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5Q9WYNb-0V_K5Mk-LBmgfP
+          claim_id: c_xDn7rudUcj10Y1TxMuRMLj
+          source_id: s_UdHF6sZ6uSYHpRhhw99nvo
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160869：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UP5UGFMjp7jZjLkQo114G2
+        status: active
+        display_name: 王根
+        merged_into_person_id: null
   other: []
 ---
 
@@ -135,6 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_FaBysRhu4YJQNPZBE1X6B1 | 王程 | accepted |
+| descendants | p_UP5UGFMjp7jZjLkQo114G2 | 王根 | accepted |
 
 ## 外部来源
 
