@@ -4,7 +4,7 @@ id: p_vwcVcqrGAsMahMr49PPDye
 status: active
 merged_into: null
 display_name: 王繼英
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -167,6 +167,44 @@ relationships:
         status: active
         display_name: 王遵度
         merged_into_person_id: null
+    - claim:
+        id: c_woJVql3S_3kDsB42hKzdsd
+        subject_person_id: p_vwcVcqrGAsMahMr49PPDye
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9nbVx1Fhdv4jLZaXCCiW8z
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-ckpkKymxJJ9ZHNFwtRFAQ
+          claim_id: c_woJVql3S_3kDsB42hKzdsd
+          source_id: s_9pPGNUSJq4f265yCfrCcpq
+          stance: supports
+          locator: 宋史：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_9pPGNUSJq4f265yCfrCcpq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遵誨（CBDB 45706）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=45706&o=json
+            external_identifier: CBDB:45706
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:47.307Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_9nbVx1Fhdv4jLZaXCCiW8z
+        status: active
+        display_name: 王遵誨
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,8 +231,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_vN3Wx2xwK2VjccJAXJQfxN | 王遵度 | accepted |
+| children | p_9nbVx1Fhdv4jLZaXCCiW8z | 王遵誨 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王繼英（CBDB 8144）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8144&o=json)
 - [中国历代人物传记资料库：王遵度（CBDB 98043）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=98043&o=json)
+- [中国历代人物传记资料库：王遵誨（CBDB 45706）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=45706&o=json)

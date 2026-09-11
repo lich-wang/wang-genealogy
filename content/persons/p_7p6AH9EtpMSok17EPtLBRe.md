@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王奉禮
 cbdb_id: 248662
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:248662
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_99JMG6RfkTryJsRQvDi3p4
             source_type: api_record
             title: 中国历代人物传记资料库：王奉禮（CBDB 248662）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_jszEWVRFkQO7iaVN-HSRnE
+        subject_person_id: p_7p6AH9EtpMSok17EPtLBRe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_xTwQsV9XKSmsGQePeW7Ut1
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oH5cbUvFrIj9-g-1X7YL5V
+          claim_id: c_jszEWVRFkQO7iaVN-HSRnE
+          source_id: s_99JMG6RfkTryJsRQvDi3p4
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第二甲第九十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xTwQsV9XKSmsGQePeW7Ut1
+        status: active
+        display_name: 王懋
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_xTwQsV9XKSmsGQePeW7Ut1 | 王懋 | accepted |
 
 ## 外部来源
 

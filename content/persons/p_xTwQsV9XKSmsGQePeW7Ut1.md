@@ -4,7 +4,7 @@ id: p_xTwQsV9XKSmsGQePeW7Ut1
 status: active
 merged_into: null
 display_name: 王懋
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,44 @@ relationships:
         status: active
         display_name: 王整
         merged_into_person_id: null
+    - claim:
+        id: c_jszEWVRFkQO7iaVN-HSRnE
+        subject_person_id: p_7p6AH9EtpMSok17EPtLBRe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_xTwQsV9XKSmsGQePeW7Ut1
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oH5cbUvFrIj9-g-1X7YL5V
+          claim_id: c_jszEWVRFkQO7iaVN-HSRnE
+          source_id: s_99JMG6RfkTryJsRQvDi3p4
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第二甲第九十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_99JMG6RfkTryJsRQvDi3p4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王奉禮（CBDB 248662）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248662&o=json
+            external_identifier: CBDB:248662
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:59.761Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_7p6AH9EtpMSok17EPtLBRe
+        status: active
+        display_name: 王奉禮
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_PEt7x529igvwnBDEaRjBZt | 王玘 | accepted |
 | ancestors | p_SwHKV5Y4jiVTDLuyMHygcN | 王整 | accepted |
+| ancestors | p_7p6AH9EtpMSok17EPtLBRe | 王奉禮 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王奉禮（CBDB 248662）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248662&o=json)
 - [中国历代人物传记资料库：王懋（CBDB 199698）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199698&o=json)
 - [中国历代人物传记资料库：王玘（CBDB 248664）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248664&o=json)
 - [中国历代人物传记资料库：王整（CBDB 248663）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248663&o=json)

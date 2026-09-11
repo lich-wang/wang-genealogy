@@ -4,7 +4,7 @@ id: p_QQuUCHcAyLfkuJKD8SYwNJ
 status: active
 merged_into: null
 display_name: 王繼光
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_-lqsjNrljWC41hMOLJ05M9
+        subject_person_id: p_5j714BoeSUb9hXn4A1cAts
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QQuUCHcAyLfkuJKD8SYwNJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YrZMa3Yh_sul3vqld8FnFv
+          claim_id: c_-lqsjNrljWC41hMOLJ05M9
+          source_id: s_ziNSz8LLfeDvbS9cuJ2RtN
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第三甲第五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ziNSz8LLfeDvbS9cuJ2RtN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王守默（CBDB 216142）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216142&o=json
+            external_identifier: CBDB:216142
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:56.502Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_5j714BoeSUb9hXn4A1cAts
+        status: active
+        display_name: 王守默
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -171,6 +209,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5j714BoeSUb9hXn4A1cAts | 王守默 | accepted |
 | ancestors | p_9EG2qB53B3aNC5rSnqrKuV | 王鑽 | accepted |
 | ancestors | p_a1LW3UXAK9wc1CYVZCMEiP | 王時敘 | accepted |
 
@@ -178,4 +217,5 @@ relationships:
 
 - [中国历代人物传记资料库：王繼光（CBDB 126878）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126878&o=json)
 - [中国历代人物传记资料库：王時敘（CBDB 216141）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216141&o=json)
+- [中国历代人物传记资料库：王守默（CBDB 216142）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216142&o=json)
 - [中国历代人物传记资料库：王鑽（CBDB 216140）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216140&o=json)

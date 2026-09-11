@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王士璋
 cbdb_id: 228291
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:228291
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_o6NPbqL9xWXrj7Q9QW1Pu6
             source_type: api_record
             title: 中国历代人物传记资料库：王士璋（CBDB 228291）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_t2AXiLBQKQaYm37msCBJEg
+        subject_person_id: p_MWFGy9uHg9NsSwK8c42QRv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7wW1HszyZJVtcha7euKGLM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_45YnZWOz9UQX-zTNS_tnCP
+          claim_id: c_t2AXiLBQKQaYm37msCBJEg
+          source_id: s_o6NPbqL9xWXrj7Q9QW1Pu6
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第二甲第五名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MWFGy9uHg9NsSwK8c42QRv
+        status: active
+        display_name: 王同休
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_MWFGy9uHg9NsSwK8c42QRv | 王同休 | accepted |
 
 ## 外部来源
 

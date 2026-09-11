@@ -4,7 +4,7 @@ id: p_gE38wphVgSX2ysH6WXuLZH
 status: active
 merged_into: null
 display_name: 王大禮
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -166,7 +166,45 @@ relationships:
         status: active
         display_name: 王朗
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_uELy3eN7RHEQlwwRdTM1Ds
+        subject_person_id: p_gE38wphVgSX2ysH6WXuLZH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_65VMUGA6qbK4R77Pu7xNTc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yhyzwSW8R1W06NyYA52gMg
+          claim_id: c_uELy3eN7RHEQlwwRdTM1Ds
+          source_id: s_4HXB65xMmkL2KJTr63Hvzo
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Xianheng2：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4HXB65xMmkL2KJTr63Hvzo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王起牧（CBDB 162481）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162481&o=json
+            external_identifier: CBDB:162481
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.741Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_65VMUGA6qbK4R77Pu7xNTc
+        status: active
+        display_name: 王起牧
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,8 +231,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_BBMZKVuEpxR5WRY9AieqFs | 王朗 | accepted |
+| children | p_65VMUGA6qbK4R77Pu7xNTc | 王起牧 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王大禮（CBDB 142599）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142599&o=json)
 - [中国历代人物传记资料库：王朗（CBDB 162480）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162480&o=json)
+- [中国历代人物传记资料库：王起牧（CBDB 162481）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162481&o=json)

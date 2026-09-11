@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王崇之
 cbdb_id: 126685
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -166,6 +166,44 @@ relationships:
         status: active
         display_name: 王景新
         merged_into_person_id: null
+    - claim:
+        id: c_g2HGx8TB1gloioqp-HWYdB
+        subject_person_id: p_62sxpvvL2SHMNJFhQgKL1f
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_sMjY6kwGmS2PR67RexN7yL
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bU3nMgMzvnxGVZ6VtKPWuU
+          claim_id: c_g2HGx8TB1gloioqp-HWYdB
+          source_id: s_b4cWnTpv8zCcETfDM7x6o4
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第一百一十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_b4cWnTpv8zCcETfDM7x6o4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王循理（CBDB 213503）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213503&o=json
+            external_identifier: CBDB:213503
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:56.502Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_62sxpvvL2SHMNJFhQgKL1f
+        status: active
+        display_name: 王循理
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -187,9 +225,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_efTyspVBuWnU6D3LVRN3aM | 王憲 | accepted |
 | ancestors | p_jUoataZ7j2qcdV3Biwj7GJ | 王景新 | accepted |
+| ancestors | p_62sxpvvL2SHMNJFhQgKL1f | 王循理 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王崇之（CBDB 126685）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126685&o=json)
 - [中国历代人物传记资料库：王景新（CBDB 213492）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213492&o=json)
 - [中国历代人物传记资料库：王憲（CBDB 213514）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213514&o=json)
+- [中国历代人物传记资料库：王循理（CBDB 213503）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213503&o=json)

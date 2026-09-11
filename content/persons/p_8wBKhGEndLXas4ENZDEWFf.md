@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王好敬
 cbdb_id: 236421
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:236421
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_T6Dc6LtLNyQ6W4CUgTa4zV
             source_type: api_record
             title: 中国历代人物传记资料库：王好敬（CBDB 236421）
@@ -87,7 +87,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_3sEII4VJ7AqobFljGFbGt9
+        subject_person_id: p_8wBKhGEndLXas4ENZDEWFf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fRd4kHJooaS9AErLa6rFp5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zPJ1le_POd6w98XY11dVCX
+          claim_id: c_3sEII4VJ7AqobFljGFbGt9
+          source_id: s_T6Dc6LtLNyQ6W4CUgTa4zV
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第一百五十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_fRd4kHJooaS9AErLa6rFp5
+        status: active
+        display_name: 王瀠
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_fRd4kHJooaS9AErLa6rFp5 | 王瀠 | accepted |
 
 ## 外部来源
 

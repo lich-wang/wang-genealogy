@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王叔雅
 cbdb_id: 141433
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -210,6 +210,44 @@ relationships:
         status: active
         display_name: 王承俊
         merged_into_person_id: null
+    - claim:
+        id: c_FcnkMf0mlbcnLJ0zn0XQEG
+        subject_person_id: p_7JzyVVbjHJGgH92y3q22jd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3WXtv2kcWPVKbpetC94s5m
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_btaLZMoot59bPjR7XoCW5l
+          claim_id: c_FcnkMf0mlbcnLJ0zn0XQEG
+          source_id: s_Yx33PerJhVWig6DXEguh7t
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yuanhe 33：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Yx33PerJhVWig6DXEguh7t
+            source_type: api_record
+            title: 中国历代人物传记资料库：王承後（CBDB 156460）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=156460&o=json
+            external_identifier: CBDB:156460
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.122Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_7JzyVVbjHJGgH92y3q22jd
+        status: active
+        display_name: 王承後
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -311,11 +349,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_MChXMWRFmDq4fix2Yw2gB9 | 王承俊 | accepted |
+| parents | p_7JzyVVbjHJGgH92y3q22jd | 王承後 | accepted |
 | ancestors | p_VVMD2KkQPfwmXGaKNcH2Uj | 王守節 | accepted |
 | ancestors | p_yqrJaC8jCWdEp4quZVwZHz | 王師感 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王承後（CBDB 156460）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=156460&o=json)
 - [中国历代人物传记资料库：王承俊（CBDB 189689）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=189689&o=json)
 - [中国历代人物传记资料库：王師感（CBDB 156458）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=156458&o=json)
 - [中国历代人物传记资料库：王守節（CBDB 156459）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=156459&o=json)

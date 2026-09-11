@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王道智
 cbdb_id: 139501
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -210,7 +210,45 @@ relationships:
         status: active
         display_name: 王君素
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_j_TJUDf_cVt7HyOKVjqjTB
+        subject_person_id: p_a1qoNPMF19KNJJgFTs1t1Y
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_87bzws3wHig727FcQ4Hrxj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qsuX0AhieQlCQJS9RlubY6
+          claim_id: c_j_TJUDf_cVt7HyOKVjqjTB
+          source_id: s_eYp5nC4n8CQfecFfpz28A6
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Qianfeng 22：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_eYp5nC4n8CQfecFfpz28A6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玄觀（CBDB 148174）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148174&o=json
+            external_identifier: CBDB:148174
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:52.561Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_87bzws3wHig727FcQ4Hrxj
+        status: active
+        display_name: 王玄觀
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -237,8 +275,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_bmbwdV3HEBP41vyQnog2Gc | 王君素 | accepted |
+| children | p_87bzws3wHig727FcQ4Hrxj | 王玄觀 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王道智（CBDB 139501）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139501&o=json)
 - [中国历代人物传记资料库：王君素（CBDB 148173）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148173&o=json)
+- [中国历代人物传记资料库：王玄觀（CBDB 148174）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148174&o=json)

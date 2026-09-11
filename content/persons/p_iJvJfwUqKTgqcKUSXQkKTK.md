@@ -4,7 +4,7 @@ id: p_iJvJfwUqKTgqcKUSXQkKTK
 status: active
 merged_into: null
 display_name: 王大任
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,44 @@ relationships:
         status: active
         display_name: 王彪
         merged_into_person_id: null
+    - claim:
+        id: c_TUyBs6TO3rA-iImpCz97m5
+        subject_person_id: p_8VyuiokV4LEJbF4q2Jtw26
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_iJvJfwUqKTgqcKUSXQkKTK
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NbbY1Q0NoTMTUNaLY7G-hB
+          claim_id: c_TUyBs6TO3rA-iImpCz97m5
+          source_id: s_SUG5T3ehNN1dT89b75CnjP
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第二百五十三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_SUG5T3ehNN1dT89b75CnjP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王至公（CBDB 318562）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318562&o=json
+            external_identifier: CBDB:318562
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:06.030Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_8VyuiokV4LEJbF4q2Jtw26
+        status: active
+        display_name: 王至公
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_3dg1PVXVExHpSS6KGA8n5K | 王熙 | accepted |
 | ancestors | p_d3NCtZk3Gsavn2pC1x34da | 王彪 | accepted |
+| ancestors | p_8VyuiokV4LEJbF4q2Jtw26 | 王至公 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王彪（CBDB 318561）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318561&o=json)
 - [中国历代人物传记资料库：王大任（CBDB 204398）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204398&o=json)
 - [中国历代人物传记资料库：王熙（CBDB 318564）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318564&o=json)
+- [中国历代人物传记资料库：王至公（CBDB 318562）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318562&o=json)

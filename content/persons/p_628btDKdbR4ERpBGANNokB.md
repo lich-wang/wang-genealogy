@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王咸熙
 cbdb_id: 21947
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -187,6 +187,32 @@ relationships:
         status: active
         display_name: 王德用
         merged_into_person_id: null
+    - claim:
+        id: c_rqxr0j_C40M9cFNlZsnZfz
+        subject_person_id: p_5H9kac1NHpV2vu5J2pvsAi
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_628btDKdbR4ERpBGANNokB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B4i8Hxi8nnoAEJBr3b617n
+          claim_id: c_rqxr0j_C40M9cFNlZsnZfz
+          source_id: s_RY2uDCo42d26UVABT5UsPF
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5H9kac1NHpV2vu5J2pvsAi
+        status: active
+        display_name: 王德用
+        merged_into_person_id: null
   children:
     - claim:
         id: c_qpXK9xJWUVZLQc7qhFveg2
@@ -265,6 +291,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_mDQwQDowHukUUJhyJA2Q4Z | 王德用 | accepted |
+| parents | p_5H9kac1NHpV2vu5J2pvsAi | 王德用 | accepted |
 | children | p_KX3HaGwtHE9r1pvSuRLLHX | 王渊 | accepted |
 
 ## 外部来源

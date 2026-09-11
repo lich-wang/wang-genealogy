@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王鳳靈
 cbdb_id: 126795
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,6 +129,44 @@ relationships:
         status: active
         display_name: 王文傑
         merged_into_person_id: null
+    - claim:
+        id: c_cWmK14z6dw7J2UPar_3Mfw
+        subject_person_id: p_6tt4hsMiMngzJX6wMc4JPH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ZyrbUQzJSc8r8t3Ud7TNAC
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JewLojOnxiGDQfT1Ztaw1f
+          claim_id: c_cWmK14z6dw7J2UPar_3Mfw
+          source_id: s_3YMBxmwCzaNCrRHY2Xab1A
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第二甲第九十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3YMBxmwCzaNCrRHY2Xab1A
+            source_type: api_record
+            title: 中国历代人物传记资料库：王止敬（CBDB 280405）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280405&o=json
+            external_identifier: CBDB:280405
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:02.295Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_6tt4hsMiMngzJX6wMc4JPH
+        status: active
+        display_name: 王止敬
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -149,8 +187,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_E9FN5LuN8Nu5my4V9KTU9e | 王文傑 | accepted |
+| ancestors | p_6tt4hsMiMngzJX6wMc4JPH | 王止敬 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鳳靈（CBDB 126795）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126795&o=json)
 - [中国历代人物传记资料库：王文傑（CBDB 280404）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280404&o=json)
+- [中国历代人物传记资料库：王止敬（CBDB 280405）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280405&o=json)

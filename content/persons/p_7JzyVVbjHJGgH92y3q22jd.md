@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王承後
 cbdb_id: 156460
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:156460
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_Yx33PerJhVWig6DXEguh7t
             source_type: api_record
             title: 中国历代人物传记资料库：王承後（CBDB 156460）
@@ -87,7 +87,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_FcnkMf0mlbcnLJ0zn0XQEG
+        subject_person_id: p_7JzyVVbjHJGgH92y3q22jd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3WXtv2kcWPVKbpetC94s5m
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_btaLZMoot59bPjR7XoCW5l
+          claim_id: c_FcnkMf0mlbcnLJ0zn0XQEG
+          source_id: s_Yx33PerJhVWig6DXEguh7t
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yuanhe 33：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_3WXtv2kcWPVKbpetC94s5m
+        status: active
+        display_name: 王叔雅
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_3WXtv2kcWPVKbpetC94s5m | 王叔雅 | accepted |
 
 ## 外部来源
 

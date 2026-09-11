@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王詔德
 cbdb_id: 16693
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:16693
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_bphoKM2R8QJhHNVWG6zCFC
             source_type: api_record
             title: 中国历代人物传记资料库：王詔德（CBDB 16693）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_3w3seqf6oB-IGwgLyiBLW7
+        subject_person_id: p_HJ3wsmqgAjiXeZYuaSpD4x
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4wv1yLC4dBTzNwodXFcqeM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DblWjirtG2RmMisMHf4fyx
+          claim_id: c_3w3seqf6oB-IGwgLyiBLW7
+          source_id: s_bphoKM2R8QJhHNVWG6zCFC
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1079;1081：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_HJ3wsmqgAjiXeZYuaSpD4x
+        status: active
+        display_name: 王愈
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_HJ3wsmqgAjiXeZYuaSpD4x | 王愈 | accepted |
 
 ## 外部来源
 

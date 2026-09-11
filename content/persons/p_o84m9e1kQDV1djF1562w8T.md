@@ -4,7 +4,7 @@ id: p_o84m9e1kQDV1djF1562w8T
 status: active
 merged_into: null
 display_name: 王璽
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -114,7 +114,45 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_DCMZEqht5oEDA_pYwKxF9r
+        subject_person_id: p_9uVXATu3GMhr4M4zzJo3Mk
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_o84m9e1kQDV1djF1562w8T
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__Wq0uNMaG5Rx6zCvU21oBw
+          claim_id: c_DCMZEqht5oEDA_pYwKxF9r
+          source_id: s_iPQ5pt2MS2ZhsQGQWBo8sY
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第三甲第七十八名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_iPQ5pt2MS2ZhsQGQWBo8sY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷亮（CBDB 331066）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331066&o=json
+            external_identifier: CBDB:331066
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:07.614Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_9uVXATu3GMhr4M4zzJo3Mk
+        status: active
+        display_name: 王廷亮
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -135,8 +173,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_GfRo7ojPV7D16XBUWZ7Rwa | 王紹 | accepted |
+| ancestors | p_9uVXATu3GMhr4M4zzJo3Mk | 王廷亮 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王紹（CBDB 331067）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331067&o=json)
+- [中国历代人物传记资料库：王廷亮（CBDB 331066）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331066&o=json)
 - [中国历代人物传记资料库：王璽（CBDB 126871）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126871&o=json)

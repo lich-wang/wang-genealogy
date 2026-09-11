@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 张氏
 cbdb_id: 37848
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -69,7 +69,7 @@ properties:
           locator: Q45429472
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_e2iBmBHnXFNVgLMEBAtdVZ
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：張氏（37848）
@@ -93,7 +93,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_ENjkpSNk5ZsKSKB9G9cQld
+        subject_person_id: p_9mXC5Vf3jEyoF6c6eS5VsK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_M9sDetT5acG1nDTAxFe7as
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__YF-Lbj3c1DoAqPQxfKF3D
+          claim_id: c_ENjkpSNk5ZsKSKB9G9cQld
+          source_id: s_e2iBmBHnXFNVgLMEBAtdVZ
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_M9sDetT5acG1nDTAxFe7as
+        status: active
+        display_name: 王之望
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -181,6 +207,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_M9sDetT5acG1nDTAxFe7as | 王之望 | accepted |
 | spouses | p_dugn9Y5GC1ysVBtTRs2WLM | 王纲 | accepted |
 
 ## 外部来源

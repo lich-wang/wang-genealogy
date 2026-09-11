@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王陳翼
 cbdb_id: 69519
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,45 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_wCYpZdV_sS4VBhssz-wDpJ
+        subject_person_id: p_8bF4i5x2ocJMKeudjfqjjX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_54VkfHNeJit8Q8Qe28BrtD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vnQkkAet-amW9QZ-SPE9EZ
+          claim_id: c_wCYpZdV_sS4VBhssz-wDpJ
+          source_id: s_f7ejUcAy9MsrXDPqLbF655
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #1148, HuWenKai #254：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_f7ejUcAy9MsrXDPqLbF655
+            source_type: api_record
+            title: 中国历代人物传记资料库：王蕙芳（CBDB 69516）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69516&o=json
+            external_identifier: CBDB:69516
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:48.831Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_54VkfHNeJit8Q8Qe28BrtD
+        status: active
+        display_name: 王蕙芳
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +149,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_54VkfHNeJit8Q8Qe28BrtD | 王蕙芳 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王陳翼（CBDB 69519）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69519&o=json)
+- [中国历代人物传记资料库：王蕙芳（CBDB 69516）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69516&o=json)

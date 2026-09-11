@@ -4,7 +4,7 @@ id: p_XkASXMtAcYaJTsp7v8xTAK
 status: active
 merged_into: null
 display_name: 王釗
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -176,6 +176,44 @@ relationships:
         status: active
         display_name: 王闢
         merged_into_person_id: null
+    - claim:
+        id: c_8CW7mAbXF5UsZ903W30vbL
+        subject_person_id: p_XkASXMtAcYaJTsp7v8xTAK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_989vxjzpGFfKGuLPd7EXx4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0uljC7gdJWNpuHsRZC1ard
+          claim_id: c_8CW7mAbXF5UsZ903W30vbL
+          source_id: s_LvUsreDtvDhmtq31JjYJcV
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_LvUsreDtvDhmtq31JjYJcV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王闡（CBDB 175808）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175808&o=json
+            external_identifier: CBDB:175808
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:39.240Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_989vxjzpGFfKGuLPd7EXx4
+        status: active
+        display_name: 王闡
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -202,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_1DrQjoCaBy8kCLHN3o7pc1 | 王頊 | accepted |
 | children | p_9QRchByBPwUZfBCV7KN6rH | 王闢 | accepted |
+| children | p_989vxjzpGFfKGuLPd7EXx4 | 王闡 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王闡（CBDB 175808）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175808&o=json)
 - [中国历代人物传记资料库：王闢（CBDB 175807）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175807&o=json)
 - [中国历代人物传记资料库：王頊（CBDB 175804）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175804&o=json)
 - [中国历代人物传记资料库：王釗（CBDB 175806）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175806&o=json)

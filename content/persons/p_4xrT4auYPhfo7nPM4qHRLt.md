@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 吴氏
 cbdb_id: 38653
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -77,7 +77,7 @@ properties:
           locator: Q45429732
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_RbaW1YdkRtPWeAGfeiozBb
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：吳氏（38653）
@@ -93,7 +93,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_oOrBfi43cDmd7Gr5hDy-JC
+        subject_person_id: p_4xrT4auYPhfo7nPM4qHRLt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xx9vuxYeyGz3S9KNvmjGws
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GibLDct9VPz_XCp0zVthnA
+          claim_id: c_oOrBfi43cDmd7Gr5hDy-JC
+          source_id: s_RbaW1YdkRtPWeAGfeiozBb
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_xx9vuxYeyGz3S9KNvmjGws
+        status: active
+        display_name: 王雱
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -212,6 +238,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_xx9vuxYeyGz3S9KNvmjGws | 王雱 | accepted |
 | spouses | p_fuv1kE3UCBeTFNiA6c9Tuw | 王安石 | accepted |
 
 ## 外部来源

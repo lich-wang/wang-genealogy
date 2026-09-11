@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王紹思
 cbdb_id: 524789
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:524789
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_Eg7rYV1QysKSrKCpqbJW7t
             source_type: api_record
             title: 中国历代人物传记资料库：王紹思（CBDB 524789）
@@ -91,7 +91,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_V0nq7IVQHmkt7sdmaHwt09
+        subject_person_id: p_1CAD7Cg5ACndjPsTMwMUQ7
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_7o2TASpnCzbdm18pkh4MB9
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_N7BvqbHFlg7GmRnXd9aDlB
+          claim_id: c_V0nq7IVQHmkt7sdmaHwt09
+          source_id: s_Eg7rYV1QysKSrKCpqbJW7t
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），11081：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1CAD7Cg5ACndjPsTMwMUQ7
+        status: merged
+        display_name: 王越
+        merged_into_person_id: p_SAKZSsVXkQRnwcLYqa1oYe
   descendants: []
   other: []
 ---
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_1CAD7Cg5ACndjPsTMwMUQ7 | 王越 | accepted |
 
 ## 外部来源
 

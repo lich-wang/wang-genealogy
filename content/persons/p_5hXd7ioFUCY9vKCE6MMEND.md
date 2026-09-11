@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王紀庸
 cbdb_id: 526841
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:526841
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_rKH3w7D3w6RsLH77kpkSh1
             source_type: api_record
             title: 中国历代人物传记资料库：王紀庸（CBDB 526841）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_parOzAkulQwR-RIYO63VJQ
+        subject_person_id: p_2y1eP1nsjw8ciu9GjNsB8J
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5hXd7ioFUCY9vKCE6MMEND
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XsQ2leC_1rDzev5ruJHdDt
+          claim_id: c_parOzAkulQwR-RIYO63VJQ
+          source_id: s_rKH3w7D3w6RsLH77kpkSh1
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13031：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_2y1eP1nsjw8ciu9GjNsB8J
+        status: active
+        display_name: 王恩綬
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_2y1eP1nsjw8ciu9GjNsB8J | 王恩綬 | accepted |
 
 ## 外部来源
 

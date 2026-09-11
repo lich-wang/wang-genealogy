@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王舉正
 cbdb_id: 8145
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:8145
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_2epzYKD53i1MPLgj9PNNF1
             source_type: api_record
             title: 中国历代人物传记资料库：王舉正（CBDB 8145）
@@ -86,8 +86,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_mYspRvYkc5DuMlDxqz-y1N
+        subject_person_id: p_WJHP8YxtLrW6oyDrhKZ1wB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6qFqzHC21Z9f8VhXAcZ1P4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5vBY0e8l51p1c86jEV--UL
+          claim_id: c_mYspRvYkc5DuMlDxqz-y1N
+          source_id: s_2epzYKD53i1MPLgj9PNNF1
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1473：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WJHP8YxtLrW6oyDrhKZ1wB
+        status: active
+        display_name: 王化基
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_EzbnHtCN6aSzuHQY3GD_sK
+        subject_person_id: p_6qFqzHC21Z9f8VhXAcZ1P4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HwMVovcNzpxWF4GaJygxAX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_smYZt_VyPafuQOnp14VDYt
+          claim_id: c_EzbnHtCN6aSzuHQY3GD_sK
+          source_id: s_2epzYKD53i1MPLgj9PNNF1
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1113：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_HwMVovcNzpxWF4GaJygxAX
+        status: active
+        display_name: 王誨
+        merged_into_person_id: null
+    - claim:
+        id: c_wckfM50vaIQjbvskX881Tw
+        subject_person_id: p_6qFqzHC21Z9f8VhXAcZ1P4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tK8MZ6JQNdfqFgybNcLcuk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RThJSY4sD9K2aV70-Xv-yh
+          claim_id: c_wckfM50vaIQjbvskX881Tw
+          source_id: s_2epzYKD53i1MPLgj9PNNF1
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1998：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_tK8MZ6JQNdfqFgybNcLcuk
+        status: active
+        display_name: 王誨說
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,6 +189,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WJHP8YxtLrW6oyDrhKZ1wB | 王化基 | accepted |
+| children | p_HwMVovcNzpxWF4GaJygxAX | 王誨 | accepted |
+| children | p_tK8MZ6JQNdfqFgybNcLcuk | 王誨說 | accepted |
 
 ## 外部来源
 

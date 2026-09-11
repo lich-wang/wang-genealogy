@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王命新
 cbdb_id: 207714
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -167,7 +167,45 @@ relationships:
         status: active
         display_name: 王鉞
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_SQaKiM5tB3dCrJ-tGVBCrf
+        subject_person_id: p_KesiNQLM6qJRi25qiHTy12
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8BV8yv249319uyHRhn3Xd8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JJki1CJ8BnrpyUEWRVvMfI
+          claim_id: c_SQaKiM5tB3dCrJ-tGVBCrf
+          source_id: s_8hDjf6V79UHfDWtiwWcPcJ
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第一百七十四名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8hDjf6V79UHfDWtiwWcPcJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玄彊（CBDB 234438）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234438&o=json
+            external_identifier: CBDB:234438
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.142Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_8BV8yv249319uyHRhn3Xd8
+        status: active
+        display_name: 王玄彊
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -267,6 +305,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_RBDo1mCVNx525KP3Mg5Mqx | 王鉞 | accepted |
+| children | p_8BV8yv249319uyHRhn3Xd8 | 王玄彊 | accepted |
 | ancestors | p_k1nHyvcBW8tbGGmQ6FqZyN | 王士傑 | accepted |
 | ancestors | p_s7MQmD5cpgcbsyV875LFvH | 王詔 | accepted |
 
@@ -274,5 +313,6 @@ relationships:
 
 - [中国历代人物传记资料库：王命新（CBDB 207714）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207714&o=json)
 - [中国历代人物传记资料库：王士傑（CBDB 234421）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234421&o=json)
+- [中国历代人物传记资料库：王玄彊（CBDB 234438）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234438&o=json)
 - [中国历代人物传记资料库：王鉞（CBDB 234423）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234423&o=json)
 - [中国历代人物传记资料库：王詔（CBDB 234422）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234422&o=json)

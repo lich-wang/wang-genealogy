@@ -4,7 +4,7 @@ id: p_Bo8MMr1AvoPCtWH71g8W6V
 status: active
 merged_into: null
 display_name: 王璧
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_kaEAxL9lFu9oxoDPq3Wm04
+        subject_person_id: p_8ZNRfFsK3rEkNpQdDz6act
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Bo8MMr1AvoPCtWH71g8W6V
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SPk5mx1wXL8FAWGX1Nikwl
+          claim_id: c_kaEAxL9lFu9oxoDPq3Wm04
+          source_id: s_P9rcd9SYRqyM5Qp4JcJpmA
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1267：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_P9rcd9SYRqyM5Qp4JcJpmA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王庭秀（CBDB 19082）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19082&o=json
+            external_identifier: CBDB:19082
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:44.071Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_8ZNRfFsK3rEkNpQdDz6act
+        status: active
+        display_name: 王庭秀
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +135,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_8ZNRfFsK3rEkNpQdDz6act | 王庭秀 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王璧（CBDB 19083）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19083&o=json)
+- [中国历代人物传记资料库：王庭秀（CBDB 19082）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19082&o=json)

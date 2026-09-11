@@ -4,7 +4,7 @@ id: p_9bZqf3V2npm9dP9beXpthm
 status: active
 merged_into: null
 display_name: 王貞
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -204,6 +204,44 @@ relationships:
         status: active
         display_name: 王思宗
         merged_into_person_id: null
+    - claim:
+        id: c_RJRFE5fmyF8nuuMMzSx9CV
+        subject_person_id: p_9bZqf3V2npm9dP9beXpthm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8jYo1fdfFX4BDATotixjbF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HuUJsUZA4OldGJc5TDY3UZ
+          claim_id: c_RJRFE5fmyF8nuuMMzSx9CV
+          source_id: s_E3AWhX54cxP3bUx2F4sXd1
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 104：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_E3AWhX54cxP3bUx2F4sXd1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王承賓（CBDB 153718）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153718&o=json
+            external_identifier: CBDB:153718
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:53.368Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_8jYo1fdfFX4BDATotixjbF
+        status: active
+        display_name: 王承賓
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -231,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_4mS26N2oYH39nwrnfB57sM | 王弼 | accepted |
 | children | p_6GXTkNcoLVkzyUhbuJTziS | 王思宗 | accepted |
+| children | p_8jYo1fdfFX4BDATotixjbF | 王承賓 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王弼（CBDB 153716）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153716&o=json)
+- [中国历代人物传记资料库：王承賓（CBDB 153718）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153718&o=json)
 - [中国历代人物传记资料库：王思宗（CBDB 153719）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153719&o=json)
 - [中国历代人物传记资料库：王貞（CBDB 140909）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140909&o=json)

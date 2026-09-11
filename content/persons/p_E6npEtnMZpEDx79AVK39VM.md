@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王力士
 cbdb_id: 139205
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -210,7 +210,45 @@ relationships:
         status: active
         display_name: 王褘
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_-SSvXLZifrRdi40k2aIp7-
+        subject_person_id: p_E6npEtnMZpEDx79AVK39VM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8P3qJoCvDN3hnL5Zt3pEfZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ydOodB1tL_8lKN8VcGdEv5
+          claim_id: c_-SSvXLZifrRdi40k2aIp7-
+          source_id: s_odUzCPMSCarRY8WvDgywip
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xianqing 138：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_odUzCPMSCarRY8WvDgywip
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大娘（CBDB 147626）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=147626&o=json
+            external_identifier: CBDB:147626
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:52.561Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_8P3qJoCvDN3hnL5Zt3pEfZ
+        status: active
+        display_name: 王大娘
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -237,8 +275,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_mPFv8uc9PS3tjm6CHqFLv7 | 王褘 | accepted |
+| children | p_8P3qJoCvDN3hnL5Zt3pEfZ | 王大娘 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王大娘（CBDB 147626）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=147626&o=json)
 - [中国历代人物传记资料库：王褘（CBDB 147627）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=147627&o=json)
 - [中国历代人物传记资料库：王力士（CBDB 139205）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139205&o=json)

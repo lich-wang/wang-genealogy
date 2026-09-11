@@ -4,7 +4,7 @@ id: p_QLg57kGsktZ3ogwQyMCe5D
 status: active
 merged_into: null
 display_name: 王濟
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -152,6 +152,44 @@ relationships:
         status: active
         display_name: 王希賢
         merged_into_person_id: null
+    - claim:
+        id: c_78XHnqKJHubF7e4O0Dmq8G
+        subject_person_id: p_94pBfwALAX3sUH1uWsCED7
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_QLg57kGsktZ3ogwQyMCe5D
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HP4YeNaXsGWpRv8Uru1qkI
+          claim_id: c_78XHnqKJHubF7e4O0Dmq8G
+          source_id: s_VJRuJ4TAtx8Zh4TLUYvQ13
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第二甲第四十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_VJRuJ4TAtx8Zh4TLUYvQ13
+            source_type: api_record
+            title: 中国历代人物传记资料库：王重理（CBDB 255101）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255101&o=json
+            external_identifier: CBDB:255101
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:00.581Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_94pBfwALAX3sUH1uWsCED7
+        status: active
+        display_name: 王重理
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -173,9 +211,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_uPy1xxHnaF5N46mHou6eoZ | 王禮 | accepted |
 | ancestors | p_Q77UD6T281bv2U6BNYSTjJ | 王希賢 | accepted |
+| ancestors | p_94pBfwALAX3sUH1uWsCED7 | 王重理 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王濟（CBDB 126843）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126843&o=json)
 - [中国历代人物传记资料库：王禮（CBDB 255104）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255104&o=json)
 - [中国历代人物传记资料库：王希賢（CBDB 255102）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255102&o=json)
+- [中国历代人物传记资料库：王重理（CBDB 255101）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255101&o=json)

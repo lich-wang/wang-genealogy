@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王宗禮
 cbdb_id: 267647
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:267647
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_H1WgEW5Q6TxFFnJLFcC9oN
             source_type: api_record
             title: 中国历代人物传记资料库：王宗禮（CBDB 267647）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_bn1KvavPOyaKj8ftsEuCKr
+        subject_person_id: p_6TDuB46V1FVbbvKyUq5cB8
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qLd4Pf4cDMmmQ6kBWSiJ8T
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JQ6Qq8xakvyGSfk_H4cwYX
+          claim_id: c_bn1KvavPOyaKj8ftsEuCKr
+          source_id: s_H1WgEW5Q6TxFFnJLFcC9oN
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第二甲第八十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qLd4Pf4cDMmmQ6kBWSiJ8T
+        status: active
+        display_name: 王壽
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_qLd4Pf4cDMmmQ6kBWSiJ8T | 王壽 | accepted |
 
 ## 外部来源
 

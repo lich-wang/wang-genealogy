@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王瀠
 cbdb_id: 207813
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_3sEII4VJ7AqobFljGFbGt9
+        subject_person_id: p_8wBKhGEndLXas4ENZDEWFf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fRd4kHJooaS9AErLa6rFp5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zPJ1le_POd6w98XY11dVCX
+          claim_id: c_3sEII4VJ7AqobFljGFbGt9
+          source_id: s_T6Dc6LtLNyQ6W4CUgTa4zV
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第一百五十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_T6Dc6LtLNyQ6W4CUgTa4zV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王好敬（CBDB 236421）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236421&o=json
+            external_identifier: CBDB:236421
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.856Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_8wBKhGEndLXas4ENZDEWFf
+        status: active
+        display_name: 王好敬
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,11 +267,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_8wBKhGEndLXas4ENZDEWFf | 王好敬 | accepted |
 | ancestors | p_45n56RiQTWtDC21tW3p7zG | 王寶 | accepted |
 | ancestors | p_8EVZxxAjXpWHbww1dEyK7t | 王希哲 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王寶（CBDB 236418）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236418&o=json)
+- [中国历代人物传记资料库：王好敬（CBDB 236421）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236421&o=json)
 - [中国历代人物传记资料库：王希哲（CBDB 236419）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236419&o=json)
 - [中国历代人物传记资料库：王瀠（CBDB 207813）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207813&o=json)

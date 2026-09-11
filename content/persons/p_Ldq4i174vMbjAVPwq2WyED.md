@@ -4,7 +4,7 @@ id: p_Ldq4i174vMbjAVPwq2WyED
 status: active
 merged_into: null
 display_name: 王處默
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,45 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_r52415CcCweDFyGCaqZnWe
+        subject_person_id: p_Ldq4i174vMbjAVPwq2WyED
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8q7EWpu1hSNBYo3c2qZ1Hi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JzhlguKfFCCX0rFi2SDZwy
+          claim_id: c_r52415CcCweDFyGCaqZnWe
+          source_id: s_YxFMM1rQuGiTvMznf9mU5A
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 94：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_YxFMM1rQuGiTvMznf9mU5A
+            source_type: api_record
+            title: 中国历代人物传记资料库：王心自在（CBDB 140899）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140899&o=json
+            external_identifier: CBDB:140899
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:39.240Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_8q7EWpu1hSNBYo3c2qZ1Hi
+        status: active
+        display_name: 王心自在
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +135,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_8q7EWpu1hSNBYo3c2qZ1Hi | 王心自在 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王處默（CBDB 153675）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153675&o=json)
+- [中国历代人物传记资料库：王心自在（CBDB 140899）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140899&o=json)

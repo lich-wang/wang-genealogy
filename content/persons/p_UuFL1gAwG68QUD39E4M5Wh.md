@@ -4,7 +4,7 @@ id: p_UuFL1gAwG68QUD39E4M5Wh
 status: active
 merged_into: null
 display_name: 王職
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_LJHkXuQG63_PkDCDGAVZGz
+        subject_person_id: p_5J7f6wYMRMxs7athYCFm1K
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UuFL1gAwG68QUD39E4M5Wh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RdSW0RafR7ao0P7xaquv1R
+          claim_id: c_LJHkXuQG63_PkDCDGAVZGz
+          source_id: s_q3DAjceohaS2PMGBemxMMs
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第三甲第二十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_q3DAjceohaS2PMGBemxMMs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王永臣（CBDB 213407）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213407&o=json
+            external_identifier: CBDB:213407
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:56.502Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_5J7f6wYMRMxs7athYCFm1K
+        status: active
+        display_name: 王永臣
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +238,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5J7f6wYMRMxs7athYCFm1K | 王永臣 | accepted |
 | ancestors | p_FtC1XQCji1YiVwcStMfdYg | 王林 | accepted |
 | ancestors | p_GzENjSejHuJfatAtYxzCDL | 王子良 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王林（CBDB 213405）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213405&o=json)
+- [中国历代人物传记资料库：王永臣（CBDB 213407）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213407&o=json)
 - [中国历代人物传记资料库：王職（CBDB 206108）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206108&o=json)
 - [中国历代人物传记资料库：王子良（CBDB 213406）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213406&o=json)

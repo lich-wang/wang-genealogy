@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王鬷
 cbdb_id: 1903
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:1903
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_MRaTnYLLP1EZjec7BF8yEM
             source_type: api_record
             title: 中国历代人物传记资料库：王鬷（CBDB 1903）
@@ -173,7 +173,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_10oLT2iOOghOiQFn7H_76E
+        subject_person_id: p_9epbfLViLxzdJRKQE2V4dh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iLUdeieVQDb1mxk8x28Vj3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4GBC5nNbZd9wW3KE7E4oHX
+          claim_id: c_10oLT2iOOghOiQFn7H_76E
+          source_id: s_MRaTnYLLP1EZjec7BF8yEM
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1338;1339：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iLUdeieVQDb1mxk8x28Vj3
+        status: active
+        display_name: 王正路
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -273,6 +299,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_iLUdeieVQDb1mxk8x28Vj3 | 王正路 | accepted |
 | descendants | p_5hHZn4JdRNtDFps6R7FtjP | 王遹 | accepted |
 | descendants | p_tNxDF9RNAwjuxwXQbHswdX | 王適 | accepted |
 

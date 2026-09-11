@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王怡政
 cbdb_id: 146314
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:146314
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_jj9pH1K8E1rHVwKkhYMsU8
             source_type: api_record
             title: 中国历代人物传记资料库：王怡政（CBDB 146314）
@@ -211,6 +211,58 @@ relationships:
         status: active
         display_name: 王景宣
         merged_into_person_id: null
+    - claim:
+        id: c_qCUWCD2W5wrokulQnjnBKN
+        subject_person_id: p_A14LP6YVSXyCHjhPT46BAe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Z3JaM8RvpbipsG5jk695wX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wzC3fp4Pm49BlypOWX7n6L
+          claim_id: c_qCUWCD2W5wrokulQnjnBKN
+          source_id: s_jj9pH1K8E1rHVwKkhYMsU8
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Z3JaM8RvpbipsG5jk695wX
+        status: active
+        display_name: 王景旻
+        merged_into_person_id: null
+    - claim:
+        id: c_CXp552PMGoSV9mROOY7e_B
+        subject_person_id: p_A14LP6YVSXyCHjhPT46BAe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_biiWR5qLgYM8Hhf9e9MAWT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Hx2MI-S2iKfb2oSG2fJUU3
+          claim_id: c_CXp552PMGoSV9mROOY7e_B
+          source_id: s_jj9pH1K8E1rHVwKkhYMsU8
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_biiWR5qLgYM8Hhf9e9MAWT
+        status: active
+        display_name: 王景厚
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -237,6 +289,8 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_u9yz959yzCmGhwzLGhKpCF | 王景宣 | accepted |
+| children | p_Z3JaM8RvpbipsG5jk695wX | 王景旻 | accepted |
+| children | p_biiWR5qLgYM8Hhf9e9MAWT | 王景厚 | accepted |
 
 ## 外部来源
 

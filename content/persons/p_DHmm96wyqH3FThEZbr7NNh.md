@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王應顯
 cbdb_id: 204039
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_d-RMlzuKBKT431jpIMLMGU
+        subject_person_id: p_6EDxBNb6A4KZM4GUSLwb5Y
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DHmm96wyqH3FThEZbr7NNh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xbJablzF53L5MW6w0OUY4e
+          claim_id: c_d-RMlzuKBKT431jpIMLMGU
+          source_id: s_sgFVx5SeDJ589PZCLwKjSP
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第九十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_sgFVx5SeDJ589PZCLwKjSP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王穹（CBDB 313621）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313621&o=json
+            external_identifier: CBDB:313621
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:06.030Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_6EDxBNb6A4KZM4GUSLwb5Y
+        status: active
+        display_name: 王穹
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,11 +267,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_6EDxBNb6A4KZM4GUSLwb5Y | 王穹 | accepted |
 | ancestors | p_A6GtM7UJhYUAHaRvVmsNu6 | 王亨 | accepted |
 | ancestors | p_DkQMvzrrjMDQb18zwSbimb | 王希德 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王亨（CBDB 313620）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313620&o=json)
+- [中国历代人物传记资料库：王穹（CBDB 313621）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313621&o=json)
 - [中国历代人物传记资料库：王希德（CBDB 313619）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313619&o=json)
 - [中国历代人物传记资料库：王應顯（CBDB 204039）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204039&o=json)

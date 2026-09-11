@@ -4,7 +4,7 @@ id: p_M8Qroy5aQXLqDgMFtrbejw
 status: active
 merged_into: null
 display_name: 王叔寧
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -171,6 +171,44 @@ relationships:
         status: active
         display_name: 王逸
         merged_into_person_id: null
+    - claim:
+        id: c_BC7Y9L60eFpVOfsJhE2PNK
+        subject_person_id: p_9wAPVGy1D3QZqQkHupd1oN
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_M8Qroy5aQXLqDgMFtrbejw
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xYEDXhxS8hO54krEpZtcp7
+          claim_id: c_BC7Y9L60eFpVOfsJhE2PNK
+          source_id: s_Zb8HrtBDTsX7Vey51QZzLq
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Yuanhe57：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Zb8HrtBDTsX7Vey51QZzLq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王承訓（CBDB 166173）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166173&o=json
+            external_identifier: CBDB:166173
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.741Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_9wAPVGy1D3QZqQkHupd1oN
+        status: active
+        display_name: 王承訓
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +231,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_icFiqV4qE727ZGi81Wiaj9 | 王逸 | accepted |
+| ancestors | p_9wAPVGy1D3QZqQkHupd1oN | 王承訓 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王承訓（CBDB 166173）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166173&o=json)
 - [中国历代人物传记资料库：王叔寧（CBDB 143282）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143282&o=json)
 - [中国历代人物传记资料库：王逸（CBDB 166174）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166174&o=json)

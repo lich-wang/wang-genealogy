@@ -4,7 +4,7 @@ id: p_rueH5VJGf9EEceCDH3UTnn
 status: active
 merged_into: null
 display_name: 王昭
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,44 @@ relationships:
         status: active
         display_name: 王士能
         merged_into_person_id: null
+    - claim:
+        id: c_j8aH-L6jvIBewJzcQDKo8d
+        subject_person_id: p_8R61WG1HqhQkUXiAnEs5Pk
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_rueH5VJGf9EEceCDH3UTnn
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_e6xd2dBlM3vetXoerO_gkD
+          claim_id: c_j8aH-L6jvIBewJzcQDKo8d
+          source_id: s_5XTyGy3raoz2f7GeuGbvHb
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第七十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5XTyGy3raoz2f7GeuGbvHb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王八恭（CBDB 209349）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209349&o=json
+            external_identifier: CBDB:209349
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:55.593Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_8R61WG1HqhQkUXiAnEs5Pk
+        status: active
+        display_name: 王八恭
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_LkHA7Eh6TZ3G6EVZV4TAQp | 王斌 | accepted |
 | ancestors | p_viPpL7R5p8gRoNswap98YZ | 王士能 | accepted |
+| ancestors | p_8R61WG1HqhQkUXiAnEs5Pk | 王八恭 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王八恭（CBDB 209349）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209349&o=json)
 - [中国历代人物传记资料库：王斌（CBDB 209360）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209360&o=json)
 - [中国历代人物传记资料库：王士能（CBDB 209338）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209338&o=json)
 - [中国历代人物传记资料库：王昭（CBDB 198949）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198949&o=json)

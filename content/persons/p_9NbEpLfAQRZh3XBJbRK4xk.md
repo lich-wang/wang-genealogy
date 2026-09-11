@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王公蒙
 cbdb_id: 258048
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:258048
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_c6ECLnk2zr9w6SJK4PX5WU
             source_type: api_record
             title: 中国历代人物传记资料库：王公蒙（CBDB 258048）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_uk1o9W6CHjCeS-CzUsKbOI
+        subject_person_id: p_9NbEpLfAQRZh3XBJbRK4xk
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_x8mQMeJnHp1fPict2xPV7L
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_P51cVcPI0TdWyaiMX8mqWM
+          claim_id: c_uk1o9W6CHjCeS-CzUsKbOI
+          source_id: s_c6ECLnk2zr9w6SJK4PX5WU
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第二甲第五十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_x8mQMeJnHp1fPict2xPV7L
+        status: active
+        display_name: 王中
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_x8mQMeJnHp1fPict2xPV7L | 王中 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王應嵩
 cbdb_id: 297016
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:297016
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_agwSEDVYMSq6DXoQuXA7JR
             source_type: api_record
             title: 中国历代人物传记资料库：王應嵩（CBDB 297016）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_LTSAT3hFo-Lja_avpyabYW
+        subject_person_id: p_5aaPocJjVfpX24FZAV17rS
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5zhGEimBSRibG2X8DZoDuG
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_N8dTmwuqyBYN_n8_ly1DsC
+          claim_id: c_LTSAT3hFo-Lja_avpyabYW
+          source_id: s_agwSEDVYMSq6DXoQuXA7JR
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第三甲第八十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5zhGEimBSRibG2X8DZoDuG
+        status: active
+        display_name: 王嘉元
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_5zhGEimBSRibG2X8DZoDuG | 王嘉元 | accepted |
 
 ## 外部来源
 

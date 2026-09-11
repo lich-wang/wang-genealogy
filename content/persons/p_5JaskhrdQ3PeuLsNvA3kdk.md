@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王所安
 cbdb_id: 280830
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:280830
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_BJVtRb6Lxo3nrv8NUhE8vs
             source_type: api_record
             title: 中国历代人物传记资料库：王所安（CBDB 280830）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c__cOmNc6lIxj3LThOyZcdSO
+        subject_person_id: p_5JaskhrdQ3PeuLsNvA3kdk
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_J9N7hzaFrJkzxknueiQ82Y
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jVlWCvWMvtjp03noCtuF6v
+          claim_id: c__cOmNc6lIxj3LThOyZcdSO
+          source_id: s_BJVtRb6Lxo3nrv8NUhE8vs
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第二百零七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_J9N7hzaFrJkzxknueiQ82Y
+        status: active
+        display_name: 王度
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_J9N7hzaFrJkzxknueiQ82Y | 王度 | accepted |
 
 ## 外部来源
 

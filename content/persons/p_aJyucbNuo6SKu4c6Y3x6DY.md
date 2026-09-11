@@ -4,7 +4,7 @@ id: p_aJyucbNuo6SKu4c6Y3x6DY
 status: active
 merged_into: null
 display_name: 王昭遠
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -127,7 +127,45 @@ relationships:
         status: active
         display_name: 王繼昇
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_iXl4USocAHz8XyhCP2fMKC
+        subject_person_id: p_aJyucbNuo6SKu4c6Y3x6DY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5FaPNgYpE7U714Zubq7h99
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Dl7haNyLMHozKtRERipA7t
+          claim_id: c_iXl4USocAHz8XyhCP2fMKC
+          source_id: s_arzVGif6nqPr9g8jo1NDtL
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，2068：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_arzVGif6nqPr9g8jo1NDtL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王懷英（CBDB 21987）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21987&o=json
+            external_identifier: CBDB:21987
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:44.071Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_5FaPNgYpE7U714Zubq7h99
+        status: active
+        display_name: 王懷英
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -153,7 +191,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_KdcqPruLqAjHwvyr7gXGsW | 王繼昇 | accepted |
+| children | p_5FaPNgYpE7U714Zubq7h99 | 王懷英 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王懷英（CBDB 21987）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21987&o=json)
 - [中国历代人物传记资料库：王昭遠（CBDB 37682）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37682&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王承訓
 cbdb_id: 166173
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:166173
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_Zb8HrtBDTsX7Vey51QZzLq
             source_type: api_record
             title: 中国历代人物传记资料库：王承訓（CBDB 166173）
@@ -129,7 +129,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_BC7Y9L60eFpVOfsJhE2PNK
+        subject_person_id: p_9wAPVGy1D3QZqQkHupd1oN
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_M8Qroy5aQXLqDgMFtrbejw
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xYEDXhxS8hO54krEpZtcp7
+          claim_id: c_BC7Y9L60eFpVOfsJhE2PNK
+          source_id: s_Zb8HrtBDTsX7Vey51QZzLq
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Yuanhe57：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_M8Qroy5aQXLqDgMFtrbejw
+        status: active
+        display_name: 王叔寧
+        merged_into_person_id: null
   other: []
 ---
 
@@ -149,6 +175,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_icFiqV4qE727ZGi81Wiaj9 | 王逸 | accepted |
+| descendants | p_M8Qroy5aQXLqDgMFtrbejw | 王叔寧 | accepted |
 
 ## 外部来源
 

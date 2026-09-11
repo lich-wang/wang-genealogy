@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王惟恕
 cbdb_id: 203695
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_dOrLV_pG9mXO3DAKXFybo8
+        subject_person_id: p_8r5zcHcdRUFJXRuzwFCDPp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xXSR8uBFHqUzBi2gqK2tw2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fmPtn4opHsTmd_dLQYS930
+          claim_id: c_dOrLV_pG9mXO3DAKXFybo8
+          source_id: s_N9P6JPNVouCZm66ku6vXfJ
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第二甲第十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_N9P6JPNVouCZm66ku6vXfJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑩之（CBDB 308699）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308699&o=json
+            external_identifier: CBDB:308699
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:05.361Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_8r5zcHcdRUFJXRuzwFCDPp
+        status: active
+        display_name: 王瑩之
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -192,9 +230,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_8r5zcHcdRUFJXRuzwFCDPp | 王瑩之 | accepted |
 | ancestors | p_98PafcwBqQVKP2h5jChxCd | 王廷表 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王廷表（CBDB 308698）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308698&o=json)
 - [中国历代人物传记资料库：王惟恕（CBDB 203695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203695&o=json)
+- [中国历代人物传记资料库：王瑩之（CBDB 308699）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308699&o=json)

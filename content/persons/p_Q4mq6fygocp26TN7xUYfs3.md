@@ -4,7 +4,7 @@ id: p_Q4mq6fygocp26TN7xUYfs3
 status: active
 merged_into: null
 display_name: 王弘祖
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_CogB1AJOUR1_NK-Oc4KBaN
+        subject_person_id: p_8EDFnNdhzDymseXpHLiztk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Q4mq6fygocp26TN7xUYfs3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fLuSIXbAkXHmzw87bBk9DM
+          claim_id: c_CogB1AJOUR1_NK-Oc4KBaN
+          source_id: s_RpFUfgLjZke4p125QL1oHk
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_RpFUfgLjZke4p125QL1oHk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應誥（CBDB 236256）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236256&o=json
+            external_identifier: CBDB:236256
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.856Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_8EDFnNdhzDymseXpHLiztk
+        status: active
+        display_name: 王應誥
+        merged_into_person_id: null
   children:
     - claim:
         id: c_vWW_djJY38J2Rli0G_U72a
@@ -238,6 +276,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_8EDFnNdhzDymseXpHLiztk | 王應誥 | accepted |
 | children | p_2bAFPA2B6z7Y79GVcB1qC2 | 王緒隆 | accepted |
 | ancestors | p_aDDye8gqV97KR7ZcVZmzpH | 王密 | accepted |
 | ancestors | p_JyZytS2CPhoEB38LQDTM3g | 王輔 | accepted |
@@ -248,3 +287,4 @@ relationships:
 - [中国历代人物传记资料库：王弘祖（CBDB 207804）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207804&o=json)
 - [中国历代人物传记资料库：王密（CBDB 236255）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236255&o=json)
 - [中国历代人物传记资料库：王緒隆（CBDB 236273）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236273&o=json)
+- [中国历代人物传记资料库：王應誥（CBDB 236256）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236256&o=json)

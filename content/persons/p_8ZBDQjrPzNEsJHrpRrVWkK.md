@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仲智
 cbdb_id: 240859
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -214,6 +214,32 @@ relationships:
         status: active
         display_name: 王恕
         merged_into_person_id: null
+    - claim:
+        id: c_xHCsy7M-tomSGYMsjlx-on
+        subject_person_id: p_8ZBDQjrPzNEsJHrpRrVWkK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_T2DCj9d6XKU4djHJMs2kSM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1wcExFNLQjUStNEosN4M_z
+          claim_id: c_xHCsy7M-tomSGYMsjlx-on
+          source_id: s_vB51GoqLZdVHHypmKy4CwU
+          stance: supports
+          locator: 正統十三年進士登科錄:一卷，第三甲第二十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_T2DCj9d6XKU4djHJMs2kSM
+        status: active
+        display_name: 王恕
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -239,6 +265,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_m8pEmRBSH6ayXuTKwEAjBF | 王惟真 | accepted |
 | children | p_e622FY31yMzCRE9JqUsUSG | 王恕 | accepted |
+| children | p_T2DCj9d6XKU4djHJMs2kSM | 王恕 | accepted |
 
 ## 外部来源
 

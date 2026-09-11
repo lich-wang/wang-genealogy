@@ -4,7 +4,7 @@ id: p_HJ3wsmqgAjiXeZYuaSpD4x
 status: active
 merged_into: null
 display_name: 王愈
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -99,7 +99,45 @@ relationships:
         status: active
         display_name: 王汝平
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_3w3seqf6oB-IGwgLyiBLW7
+        subject_person_id: p_HJ3wsmqgAjiXeZYuaSpD4x
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4wv1yLC4dBTzNwodXFcqeM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DblWjirtG2RmMisMHf4fyx
+          claim_id: c_3w3seqf6oB-IGwgLyiBLW7
+          source_id: s_bphoKM2R8QJhHNVWG6zCFC
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1079;1081：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_bphoKM2R8QJhHNVWG6zCFC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王詔德（CBDB 16693）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=16693&o=json
+            external_identifier: CBDB:16693
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:44.071Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_4wv1yLC4dBTzNwodXFcqeM
+        status: active
+        display_name: 王詔德
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +162,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_NMWVKSGm6E2DsVJoSMaM6W | 王汝平 | accepted |
+| children | p_4wv1yLC4dBTzNwodXFcqeM | 王詔德 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王愈（CBDB 16689）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=16689&o=json)
+- [中国历代人物传记资料库：王詔德（CBDB 16693）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=16693&o=json)

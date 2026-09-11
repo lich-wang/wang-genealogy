@@ -4,7 +4,7 @@ id: p_vMHM62tMEACNN1HhRp5f5c
 status: active
 merged_into: null
 display_name: 王玉
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,44 @@ relationships:
         status: active
         display_name: 王成
         merged_into_person_id: null
+    - claim:
+        id: c_gNoeiSQdQ1UgNPADNtLsfC
+        subject_person_id: p_8KMNS75NmgtFa5RvM34Uaa
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_vMHM62tMEACNN1HhRp5f5c
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BvpspuBTqt3Yk6skrrenum
+          claim_id: c_gNoeiSQdQ1UgNPADNtLsfC
+          source_id: s_GZYUnLh4Dzwccvd4B9Si5K
+          stance: supports
+          locator: 宣德五年進士登科錄:一卷，第三甲第五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GZYUnLh4Dzwccvd4B9Si5K
+            source_type: api_record
+            title: 中国历代人物传记资料库：王盛剛（CBDB 322436）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322436&o=json
+            external_identifier: CBDB:322436
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:06.030Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_8KMNS75NmgtFa5RvM34Uaa
+        status: active
+        display_name: 王盛剛
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_yhagHPLAgGF916n7f1YPNt | 王士嘉 | accepted |
 | ancestors | p_2g7jeCyiu9khfYZg9YYw87 | 王成 | accepted |
+| ancestors | p_8KMNS75NmgtFa5RvM34Uaa | 王盛剛 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王成（CBDB 322437）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322437&o=json)
+- [中国历代人物传记资料库：王盛剛（CBDB 322436）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322436&o=json)
 - [中国历代人物传记资料库：王士嘉（CBDB 322438）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322438&o=json)
 - [中国历代人物传记资料库：王玉（CBDB 204676）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204676&o=json)

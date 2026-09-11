@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 毕氏
 cbdb_id: 211357
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -77,7 +77,7 @@ properties:
           locator: Q65813497
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_GxeLkEJYqKPBDdaVPgF6HG
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：畢氏（211357）
@@ -172,6 +172,32 @@ relationships:
         status: active
         display_name: 王象乾
         merged_into_person_id: null
+    - claim:
+        id: c_TgRzaIDr7KpUgua7Kab9DO
+        subject_person_id: p_6B46xfsBHuon3WVtJCQRJK
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_F188zxtPQfzqFJEz9WJ3M7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MKfBCFb9nYAnQok2-kDgk5
+          claim_id: c_TgRzaIDr7KpUgua7Kab9DO
+          source_id: s_GxeLkEJYqKPBDdaVPgF6HG
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第二百三十二名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_F188zxtPQfzqFJEz9WJ3M7
+        status: active
+        display_name: 王象乾
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -193,6 +219,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_mNbLtBp7NLKek2NHmVT5fp | 王象乾 | accepted |
+| spouses | p_F188zxtPQfzqFJEz9WJ3M7 | 王象乾 | accepted |
 
 ## 外部来源
 

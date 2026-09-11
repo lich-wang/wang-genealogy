@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王所用
 cbdb_id: 207628
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -168,6 +168,44 @@ relationships:
         status: active
         display_name: 王玉汝
         merged_into_person_id: null
+    - claim:
+        id: c_Unjfbtv3gj4vVZciluadAu
+        subject_person_id: p_gEPN4Y1sSEhqz6ktqB2iGE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5wJSfvhwiQaqtpQNLNJgEs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kqFXBlU4oendfi7ldHrb-l
+          claim_id: c_Unjfbtv3gj4vVZciluadAu
+          source_id: s_qG1a9zQat7upAUrH1uxfDR
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第二甲第二十五名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_qG1a9zQat7upAUrH1uxfDR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王顯周（CBDB 232793）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232793&o=json
+            external_identifier: CBDB:232793
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.142Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_5wJSfvhwiQaqtpQNLNJgEs
+        status: active
+        display_name: 王顯周
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -267,6 +305,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_w9gVjzT4od7mCfqYHawSzG | 王玉汝 | accepted |
+| children | p_5wJSfvhwiQaqtpQNLNJgEs | 王顯周 | accepted |
 | ancestors | p_BT2N2Uv89nFrcJ7EvHA3Tt | 王問臣 | accepted |
 | ancestors | p_cMgegQDACuJnSsTmWAJHpr | 王瀛 | accepted |
 
@@ -274,5 +313,6 @@ relationships:
 
 - [中国历代人物传记资料库：王所用（CBDB 207628）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207628&o=json)
 - [中国历代人物传记资料库：王問臣（CBDB 232787）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232787&o=json)
+- [中国历代人物传记资料库：王顯周（CBDB 232793）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232793&o=json)
 - [中国历代人物传记资料库：王瀛（CBDB 232786）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232786&o=json)
 - [中国历代人物传记资料库：王玉汝（CBDB 232795）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232795&o=json)

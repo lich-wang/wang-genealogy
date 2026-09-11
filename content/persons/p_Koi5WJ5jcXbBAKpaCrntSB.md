@@ -4,7 +4,7 @@ id: p_Koi5WJ5jcXbBAKpaCrntSB
 status: active
 merged_into: null
 display_name: 王復
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -208,6 +208,44 @@ relationships:
         status: active
         display_name: 王遜
         merged_into_person_id: null
+    - claim:
+        id: c_fYgBUJAkDrUNa641LSKLes
+        subject_person_id: p_5eD81BdjRhAtWthjVpXoK3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Koi5WJ5jcXbBAKpaCrntSB
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7gPqPhLVXbA0GE9MLTVfHi
+          claim_id: c_fYgBUJAkDrUNa641LSKLes
+          source_id: s_m99e8WHFUpp44h3i2K98WT
+          stance: supports
+          locator: 正统七年進士登科錄:一卷，第二甲第十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_m99e8WHFUpp44h3i2K98WT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王得玉（CBDB 237574）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237574&o=json
+            external_identifier: CBDB:237574
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.856Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_5eD81BdjRhAtWthjVpXoK3
+        status: active
+        display_name: 王得玉
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_pgR8SLxunnSi6qPKCxtHNt | 王騏 | accepted |
 | ancestors | p_EXUMXpFadPPwv3VumQBd89 | 王遜 | accepted |
+| ancestors | p_5eD81BdjRhAtWthjVpXoK3 | 王得玉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王得玉（CBDB 237574）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237574&o=json)
 - [中国历代人物传记资料库：王復（CBDB 67655）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67655&o=json)
 - [中国历代人物传记资料库：王騏（CBDB 237575）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237575&o=json)
 - [中国历代人物传记资料库：王遜（CBDB 237573）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237573&o=json)

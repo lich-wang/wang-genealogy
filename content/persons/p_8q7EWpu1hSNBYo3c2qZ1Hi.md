@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王心自在
 cbdb_id: 140899
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:140899
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_YxFMM1rQuGiTvMznf9mU5A
             source_type: api_record
             title: 中国历代人物传记资料库：王心自在（CBDB 140899）
@@ -172,7 +172,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_r52415CcCweDFyGCaqZnWe
+        subject_person_id: p_Ldq4i174vMbjAVPwq2WyED
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8q7EWpu1hSNBYo3c2qZ1Hi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JzhlguKfFCCX0rFi2SDZwy
+          claim_id: c_r52415CcCweDFyGCaqZnWe
+          source_id: s_YxFMM1rQuGiTvMznf9mU5A
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 94：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Ldq4i174vMbjAVPwq2WyED
+        status: active
+        display_name: 王處默
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -199,6 +225,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Ldq4i174vMbjAVPwq2WyED | 王處默 | accepted |
 
 ## 外部来源
 

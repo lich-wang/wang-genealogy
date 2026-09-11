@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王英進
 cbdb_id: 158748
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_S_EINfaV6tEGcnT4Z3NLN0
+        subject_person_id: p_A1tXxgh42mmsn6d6eNs4nD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eqTLPp4L1yE8imCTDAgei5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YBvTvwUI8BVymC7d2RIHlQ
+          claim_id: c_S_EINfaV6tEGcnT4Z3NLN0
+          source_id: s_wfMJV9c3y3EUCMyNCj4o5B
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_wfMJV9c3y3EUCMyNCj4o5B
+            source_type: api_record
+            title: 中国历代人物传记资料库：王奉忠（CBDB 158747）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158747&o=json
+            external_identifier: CBDB:158747
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.122Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_A1tXxgh42mmsn6d6eNs4nD
+        status: active
+        display_name: 王奉忠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -148,9 +186,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_A1tXxgh42mmsn6d6eNs4nD | 王奉忠 | accepted |
 | descendants | p_xT91PgYZaQ28ZWS5H1F1Pb | 王文幹 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王奉忠（CBDB 158747）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158747&o=json)
 - [中国历代人物传记资料库：王文幹（CBDB 141823）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141823&o=json)
 - [中国历代人物传记资料库：王英進（CBDB 158748）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158748&o=json)

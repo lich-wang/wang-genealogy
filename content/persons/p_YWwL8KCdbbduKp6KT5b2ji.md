@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王育桐
 cbdb_id: 515705
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_5GeJfmWdZjD0pV16pgtGKw
+        subject_person_id: p_8ExfDapoZE3qRdeTeJrGdz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YWwL8KCdbbduKp6KT5b2ji
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_r6kenGt3H-01lgdaV6ipF4
+          claim_id: c_5GeJfmWdZjD0pV16pgtGKw
+          source_id: s_yPgEWZCEJ3y8RUWZxBbMr8
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1052：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_yPgEWZCEJ3y8RUWZxBbMr8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王可陞（CBDB 57820）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=57820&o=json
+            external_identifier: CBDB:57820
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:05.401Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_8ExfDapoZE3qRdeTeJrGdz
+        status: active
+        display_name: 王可陞
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +149,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_8ExfDapoZE3qRdeTeJrGdz | 王可陞 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王可陞（CBDB 57820）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=57820&o=json)
 - [中国历代人物传记资料库：王育桐（CBDB 515705）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=515705&o=json)

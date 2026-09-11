@@ -4,7 +4,7 @@ id: p_qLd4Pf4cDMmmQ6kBWSiJ8T
 status: active
 merged_into: null
 display_name: 王壽
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -217,6 +217,44 @@ relationships:
         status: active
         display_name: 王思義
         merged_into_person_id: null
+    - claim:
+        id: c_bn1KvavPOyaKj8ftsEuCKr
+        subject_person_id: p_6TDuB46V1FVbbvKyUq5cB8
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qLd4Pf4cDMmmQ6kBWSiJ8T
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JQ6Qq8xakvyGSfk_H4cwYX
+          claim_id: c_bn1KvavPOyaKj8ftsEuCKr
+          source_id: s_H1WgEW5Q6TxFFnJLFcC9oN
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第二甲第八十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_H1WgEW5Q6TxFFnJLFcC9oN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗禮（CBDB 267647）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267647&o=json
+            external_identifier: CBDB:267647
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:01.428Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_6TDuB46V1FVbbvKyUq5cB8
+        status: active
+        display_name: 王宗禮
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -240,6 +278,7 @@ relationships:
 | parents | p_8ncCPBjMxsJMBARy66EQjw | 王俊 | accepted |
 | children | p_U84FBZ7gdYAb1BPBWe3Ukm | 王廷蘭 | accepted |
 | ancestors | p_nXk2hY7EmJcMfmCBa8SJtx | 王思義 | accepted |
+| ancestors | p_6TDuB46V1FVbbvKyUq5cB8 | 王宗禮 | accepted |
 
 ## 外部来源
 
@@ -247,3 +286,4 @@ relationships:
 - [中国历代人物传记资料库：王壽（CBDB 201134）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201134&o=json)
 - [中国历代人物传记资料库：王思義（CBDB 267648）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267648&o=json)
 - [中国历代人物传记资料库：王廷蘭（CBDB 572480）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=572480&o=json)
+- [中国历代人物传记资料库：王宗禮（CBDB 267647）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267647&o=json)

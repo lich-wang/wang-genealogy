@@ -4,7 +4,7 @@ id: p_PRCQF2pTDCSVJ4uUwnRxT1
 status: active
 merged_into: null
 display_name: 王大合
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,44 @@ relationships:
         status: active
         display_name: 王翔
         merged_into_person_id: null
+    - claim:
+        id: c_NXESBYIpLLwQP_ow2c88S6
+        subject_person_id: p_5zVM9w7SHzMVEFNSw8CnuW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_PRCQF2pTDCSVJ4uUwnRxT1
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0ig5Z7lcSz2cMvUKRSIWGJ
+          claim_id: c_NXESBYIpLLwQP_ow2c88S6
+          source_id: s_VgYj36FgiWhQMHxFH4dbei
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第六十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_VgYj36FgiWhQMHxFH4dbei
+            source_type: api_record
+            title: 中国历代人物传记资料库：王本竪（CBDB 232702）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232702&o=json
+            external_identifier: CBDB:232702
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.142Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_5zVM9w7SHzMVEFNSw8CnuW
+        status: active
+        display_name: 王本竪
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_L1Hr72ZKdktC6H481ZmUUG | 王謠 | accepted |
 | ancestors | p_98Jso86aF8E7RjpQfR3sns | 王翔 | accepted |
+| ancestors | p_5zVM9w7SHzMVEFNSw8CnuW | 王本竪 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王本竪（CBDB 232702）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232702&o=json)
 - [中国历代人物传记资料库：王大合（CBDB 207604）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207604&o=json)
 - [中国历代人物传记资料库：王翔（CBDB 232701）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232701&o=json)
 - [中国历代人物传记资料库：王謠（CBDB 232703）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232703&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 刘氏
 cbdb_id: 246752
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,6 +172,32 @@ relationships:
         status: active
         display_name: 王璟
         merged_into_person_id: null
+    - claim:
+        id: c_6QC9p7ZzT3Ws_H-DQiqnky
+        subject_person_id: p_5cGUwGYGBQBf3ZNRJ6zVzU
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_WiwMbe5khxgYE1U6q8kKz5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XRay-epSTZzEXJwAPru4WG
+          claim_id: c_6QC9p7ZzT3Ws_H-DQiqnky
+          source_id: s_QvmYayo4YHyQ3r7jSjrV7L
+          stance: supports
+          locator: 成化八年進士登科錄:一卷，第三甲第八十七名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WiwMbe5khxgYE1U6q8kKz5
+        status: active
+        display_name: 王璟
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -193,6 +219,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_7koQzcggkeDLYupbQwieGE | 王璟 | accepted |
+| spouses | p_WiwMbe5khxgYE1U6q8kKz5 | 王璟 | accepted |
 
 ## 外部来源
 

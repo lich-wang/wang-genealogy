@@ -4,7 +4,7 @@ id: p_itRuYcr7YNktisBRNe8RYG
 status: active
 merged_into: null
 display_name: 王懋
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,44 @@ relationships:
         status: active
         display_name: 王福
         merged_into_person_id: null
+    - claim:
+        id: c_Hiq0kvGbMuFtbeG7RfBR_B
+        subject_person_id: p_57n6iXQPA9eJ7NL5fQNjQU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_itRuYcr7YNktisBRNe8RYG
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B4OIrefU2Yxinm0KYov6WB
+          claim_id: c_Hiq0kvGbMuFtbeG7RfBR_B
+          source_id: s_LCZNUUmjQAgjg7iKXW4yX1
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第一百一十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_LCZNUUmjQAgjg7iKXW4yX1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仲義（CBDB 281883）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281883&o=json
+            external_identifier: CBDB:281883
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:02.953Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_57n6iXQPA9eJ7NL5fQNjQU
+        status: active
+        display_name: 王仲義
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +202,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_336medc3oE8zgTL1a4nnES | 王福 | accepted |
+| ancestors | p_57n6iXQPA9eJ7NL5fQNjQU | 王仲義 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王福（CBDB 281884）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281884&o=json)
 - [中国历代人物传记资料库：王懋（CBDB 68131）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68131&o=json)
+- [中国历代人物传记资料库：王仲義（CBDB 281883）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281883&o=json)

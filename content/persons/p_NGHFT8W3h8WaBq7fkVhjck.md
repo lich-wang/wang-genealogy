@@ -4,7 +4,7 @@ id: p_NGHFT8W3h8WaBq7fkVhjck
 status: active
 merged_into: null
 display_name: 王立賢
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -176,6 +176,44 @@ relationships:
         status: active
         display_name: 王元灝
         merged_into_person_id: null
+    - claim:
+        id: c_todWTgBQ5oWF6ubqkmKFS-
+        subject_person_id: p_NGHFT8W3h8WaBq7fkVhjck
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6pyMUM1oTrfQh7K8R57Vk3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DBKV1skEea0kFosooL2vn7
+          claim_id: c_todWTgBQ5oWF6ubqkmKFS-
+          source_id: s_AvqcMX219RNMBPRpw8qz1J
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第一百一十二名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_AvqcMX219RNMBPRpw8qz1J
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元穎（CBDB 226933）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226933&o=json
+            external_identifier: CBDB:226933
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:57.241Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_6pyMUM1oTrfQh7K8R57Vk3
+        status: active
+        display_name: 王元穎
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -276,6 +314,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_MZb3xwrJh2KS7jR6a3sirM | 王佐 | accepted |
 | children | p_5jLfyqAscNGY6naDxfodG6 | 王元灝 | accepted |
+| children | p_6pyMUM1oTrfQh7K8R57Vk3 | 王元穎 | accepted |
 | ancestors | p_11fTNqG9anHNZWcmN5xUv7 | 王相 | accepted |
 | ancestors | p_agoK9ozBg4G6tRPS3t3oBp | 王清 | accepted |
 
@@ -285,4 +324,5 @@ relationships:
 - [中国历代人物传记资料库：王清（CBDB 226915）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226915&o=json)
 - [中国历代人物传记资料库：王相（CBDB 226917）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226917&o=json)
 - [中国历代人物传记资料库：王元灝（CBDB 226932）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226932&o=json)
+- [中国历代人物传记资料库：王元穎（CBDB 226933）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226933&o=json)
 - [中国历代人物传记资料库：王佐（CBDB 226918）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226918&o=json)
