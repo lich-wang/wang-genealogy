@@ -4,7 +4,7 @@ id: p_8wYVTk6QAtnjpPT2UKUeJ6
 status: active
 merged_into: null
 display_name: 王殊
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_OpeKbyt3066ch00FaDvQyd
+        subject_person_id: p_goJF8MJfNWY7M84o4rFghT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8wYVTk6QAtnjpPT2UKUeJ6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GxhJhSYHqJJRqzI4lRrx4E
+          claim_id: c_OpeKbyt3066ch00FaDvQyd
+          source_id: s_314xFm6LSL5L8y3s4DxF8C
+          stance: supports
+          locator: 宋史：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_goJF8MJfNWY7M84o4rFghT
+        status: active
+        display_name: 王師約
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_goJF8MJfNWY7M84o4rFghT | 王師約 | accepted |
 
 ## 外部来源
 

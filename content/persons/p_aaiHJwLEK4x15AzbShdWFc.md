@@ -4,7 +4,7 @@ id: p_aaiHJwLEK4x15AzbShdWFc
 status: active
 merged_into: null
 display_name: 王昇
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_3PxHYLSKJUKlhMV011sLUR
+        subject_person_id: p_wh2ANkJRUNPNHXxXs9uHvk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aaiHJwLEK4x15AzbShdWFc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aQRtGoszns6ELsWbUJIMr_
+          claim_id: c_3PxHYLSKJUKlhMV011sLUR
+          source_id: s_2puGC82E4CtAEoaDwfg4iN
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wh2ANkJRUNPNHXxXs9uHvk
+        status: active
+        display_name: 王嘉訓
+        merged_into_person_id: null
   children:
     - claim:
         id: c_U6vLtZKri71SbKd3B2zG_-
@@ -167,6 +193,58 @@ relationships:
         status: active
         display_name: 王佔
         merged_into_person_id: null
+    - claim:
+        id: c_nLRTGHnm7msupkiYlBQBVe
+        subject_person_id: p_aaiHJwLEK4x15AzbShdWFc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iYGpqxDN2u7r5p3m4PctY2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JGH5dPMj_eIN3wKFF9pdeQ
+          claim_id: c_nLRTGHnm7msupkiYlBQBVe
+          source_id: s_2puGC82E4CtAEoaDwfg4iN
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iYGpqxDN2u7r5p3m4PctY2
+        status: active
+        display_name: 王偵
+        merged_into_person_id: null
+    - claim:
+        id: c_pDkMR6LXh-p2yaCosfcuxN
+        subject_person_id: p_aaiHJwLEK4x15AzbShdWFc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gGhZnzQqFquVcub5heyPbK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UQurorCmoDHYi53Q5Cc-Qo
+          claim_id: c_pDkMR6LXh-p2yaCosfcuxN
+          source_id: s_2puGC82E4CtAEoaDwfg4iN
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_gGhZnzQqFquVcub5heyPbK
+        status: active
+        display_name: 王倬
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -192,7 +270,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wh2ANkJRUNPNHXxXs9uHvk | 王嘉訓 | accepted |
 | children | p_2oZpR2zCNuG4srzeA3Ud8T | 王佔 | accepted |
+| children | p_iYGpqxDN2u7r5p3m4PctY2 | 王偵 | accepted |
+| children | p_gGhZnzQqFquVcub5heyPbK | 王倬 | accepted |
 
 ## 外部来源
 

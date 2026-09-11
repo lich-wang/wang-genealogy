@@ -4,7 +4,7 @@ id: p_96KQuq1ZTf34yAWUr3nQms
 status: active
 merged_into: null
 display_name: 王思訥
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_4pjvCUx4iXVNp5bYgEMKG6
+        subject_person_id: p_c4R798ngEpyNwG9UaAoSHg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_96KQuq1ZTf34yAWUr3nQms
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SJRiM2w_5PRcG2a9FtGsNQ
+          claim_id: c_4pjvCUx4iXVNp5bYgEMKG6
+          source_id: s_qyXWu18LpCH4nNUUHkbWpk
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tiancewansui 6：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_c4R798ngEpyNwG9UaAoSHg
+        status: active
+        display_name: 王本
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_q3_KSzYz81XLWbkAqv2tGW
+        subject_person_id: p_96KQuq1ZTf34yAWUr3nQms
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_SLR3RXBx2oCuYBB1Jap45C
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RaUuwJ2WnoAekuOOhYBK7Y
+          claim_id: c_q3_KSzYz81XLWbkAqv2tGW
+          source_id: s_qyXWu18LpCH4nNUUHkbWpk
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tiancewansui 6：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_SLR3RXBx2oCuYBB1Jap45C
+        status: active
+        display_name: 王庭芝
+        merged_into_person_id: null
+    - claim:
+        id: c_ywE0IdC3u0I7j7bWQfCaDf
+        subject_person_id: p_96KQuq1ZTf34yAWUr3nQms
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RVRNrX9rKNd1gaaY5iE462
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pIavnUzMS9krLm5xcTftjD
+          claim_id: c_ywE0IdC3u0I7j7bWQfCaDf
+          source_id: s_qyXWu18LpCH4nNUUHkbWpk
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tiancewansui 6：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RVRNrX9rKNd1gaaY5iE462
+        status: active
+        display_name: 王庭訓
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_c4R798ngEpyNwG9UaAoSHg | 王本 | accepted |
+| children | p_SLR3RXBx2oCuYBB1Jap45C | 王庭芝 | accepted |
+| children | p_RVRNrX9rKNd1gaaY5iE462 | 王庭訓 | accepted |
 
 ## 外部来源
 

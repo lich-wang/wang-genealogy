@@ -4,7 +4,7 @@ id: p_92dJxsE25TGjV3u455Tj1Y
 status: active
 merged_into: null
 display_name: 王志善
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_NJ6Z74kJJo_j-8dDQiitZe
+        subject_person_id: p_92dJxsE25TGjV3u455Tj1Y
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_hqiWEXZWa5X9QnwMqYLvir
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__9a5mj214rFgY-0qDX53hc
+          claim_id: c_NJ6Z74kJJo_j-8dDQiitZe
+          source_id: s_M5QkyHLHqBoYq24hfMjY2E
+          stance: supports
+          locator: 宣德五年進士登科錄:一卷，第三甲第四十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hqiWEXZWa5X9QnwMqYLvir
+        status: active
+        display_name: 王通
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_hqiWEXZWa5X9QnwMqYLvir | 王通 | accepted |
 
 ## 外部来源
 

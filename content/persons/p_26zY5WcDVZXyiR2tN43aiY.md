@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王猷允
 cbdb_id: 299907
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_oDND4trIOX9L7BRj_oH5SG
+        subject_person_id: p_26zY5WcDVZXyiR2tN43aiY
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_acwBn4E2ueYuXmC3T9fy34
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IaeqE2HZgd0-8czO-R1H-c
+          claim_id: c_oDND4trIOX9L7BRj_oH5SG
+          source_id: s_5kvfUU16b6b7vdckWofLHL
+          stance: supports
+          locator: 嘉靖十七年進士登科錄:一卷，第三甲第十八名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5kvfUU16b6b7vdckWofLHL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王士翹（CBDB 203106）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203106&o=json
+            external_identifier: CBDB:203106
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.775Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_acwBn4E2ueYuXmC3T9fy34
+        status: active
+        display_name: 王士翹
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_acwBn4E2ueYuXmC3T9fy34 | 王士翹 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王士翹（CBDB 203106）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203106&o=json)
 - [中国历代人物传记资料库：王猷允（CBDB 299907）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299907&o=json)

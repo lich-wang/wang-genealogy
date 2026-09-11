@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王稷
 cbdb_id: 189639
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -287,6 +287,43 @@ relationships:
         status: active
         display_name: 王锷
         merged_into_person_id: null
+    - claim:
+        id: c_BlfNXQ6BkGybLiF7WLzyOE
+        subject_person_id: p_9QM78GueqiL1n7BJtefGvD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gzNfjAGXGNGgShinLATrJk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9S-nW9EPtJ0sornx7s_Xuu
+          claim_id: c_BlfNXQ6BkGybLiF7WLzyOE
+          source_id: s_LdSZNBpapSqUq4XVEG5rri
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_LdSZNBpapSqUq4XVEG5rri
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鍔（CBDB 186698）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186698&o=json
+            external_identifier: CBDB:186698
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.283Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_9QM78GueqiL1n7BJtefGvD
+        status: active
+        display_name: 王鍔
+        merged_into_person_id: null
   children:
     - claim:
         id: c_mKU1vBk1R1r9uPBaqwm4EB
@@ -380,6 +417,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_ThZ1fLjfnyC98szbw3tnMJ | 王锷 | accepted |
+| parents | p_9QM78GueqiL1n7BJtefGvD | 王鍔 | accepted |
 | children | p_HptMLAHHNTiRkt9PHs5tuR | 王叔泰 | accepted |
 
 ## 外部来源
@@ -387,6 +425,6 @@ relationships:
 - [维基数据：王锷（Q15930590）](https://www.wikidata.org/wiki/Q15930590)
 - [维基数据：王稷（Q16077527）](https://www.wikidata.org/wiki/Q16077527)
 - [维基数据：王叔泰（Q45501794）](https://www.wikidata.org/wiki/Q45501794)
+- [中国历代人物传记资料库：王鍔（CBDB 186698）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186698&o=json)
 - [中文维基百科：王稷 (唐朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%A8%B7_(%E5%94%90%E6%9C%9D))
-- [CBDB 中国历代人物传记资料库：王鍔（186698）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186698&o=json)
 - [CBDB 中国历代人物传记资料库：王稷（189639）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=189639&o=json)

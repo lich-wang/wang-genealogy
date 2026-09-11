@@ -4,7 +4,7 @@ id: p_cpa88FnT8xpUzJrWwpTN6E
 status: active
 merged_into: null
 display_name: 王好問
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_2PK_vCoPBALD0O6ynpSG_w
+        subject_person_id: p_cpa88FnT8xpUzJrWwpTN6E
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9VVDG6DC23nE1KHBNqwemc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ElZADY5pb3UYw1A9CwLdpp
+          claim_id: c_2PK_vCoPBALD0O6ynpSG_w
+          source_id: s_bWGNAwYDy21jDbZEDkndpN
+          stance: supports
+          locator: 南陽府志，lgid=878700：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_bWGNAwYDy21jDbZEDkndpN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王納諫（CBDB 555434）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555434&o=json
+            external_identifier: CBDB:555434
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.639Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_9VVDG6DC23nE1KHBNqwemc
+        status: active
+        display_name: 王納諫
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_9VVDG6DC23nE1KHBNqwemc | 王納諫 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王好問（CBDB 555422）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555422&o=json)
+- [中国历代人物传记资料库：王納諫（CBDB 555434）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555434&o=json)

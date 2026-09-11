@@ -4,7 +4,7 @@ id: p_PgnoAWh3cGCvbB7v53hNcS
 status: active
 merged_into: null
 display_name: 王復
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_E7XLA1QLMSB27qLoaVccHv
+        subject_person_id: p_8yEkMMZhbwZ7U5KkErHEa1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PgnoAWh3cGCvbB7v53hNcS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aKNB2W8t4x8oH5Bx-Cq3w8
+          claim_id: c_E7XLA1QLMSB27qLoaVccHv
+          source_id: s_ChM3EnsLAqB6vEggCX84uQ
+          stance: supports
+          locator: 宣德五年進士登科錄:一卷，第三甲第二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ChM3EnsLAqB6vEggCX84uQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王曛（CBDB 322412）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322412&o=json
+            external_identifier: CBDB:322412
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.121Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8yEkMMZhbwZ7U5KkErHEa1
+        status: active
+        display_name: 王曛
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_8yEkMMZhbwZ7U5KkErHEa1 | 王曛 | accepted |
 | ancestors | p_3B9Fn8g9ftJyrriUZjQ4xY | 王元浩 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王復（CBDB 204673）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204673&o=json)
+- [中国历代人物传记资料库：王曛（CBDB 322412）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322412&o=json)
 - [中国历代人物传记资料库：王元浩（CBDB 322410）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322410&o=json)

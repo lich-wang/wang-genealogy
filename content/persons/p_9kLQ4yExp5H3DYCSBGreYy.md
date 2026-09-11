@@ -4,7 +4,7 @@ id: p_9kLQ4yExp5H3DYCSBGreYy
 status: active
 merged_into: null
 display_name: 王成
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_av_DasqiAHT3KKVC7Jk9o6
+        subject_person_id: p_9kLQ4yExp5H3DYCSBGreYy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AW1UnMKkChx9rCs5vC2waN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tqjadcP12vH8DzpesnTvf1
+          claim_id: c_av_DasqiAHT3KKVC7Jk9o6
+          source_id: s_wDscmwezuKNvM97CmriQPE
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_AW1UnMKkChx9rCs5vC2waN
+        status: active
+        display_name: 王山
+        merged_into_person_id: null
+    - claim:
+        id: c_-_PRlKn0H822pPnAmjenjF
+        subject_person_id: p_9kLQ4yExp5H3DYCSBGreYy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tF9626TcFf87wu7nRHmwZL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rgQ7IHNGfvmXS-hX7_a7qs
+          claim_id: c_-_PRlKn0H822pPnAmjenjF
+          source_id: s_wDscmwezuKNvM97CmriQPE
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_tF9626TcFf87wu7nRHmwZL
+        status: active
+        display_name: 王秀
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_AW1UnMKkChx9rCs5vC2waN | 王山 | accepted |
+| children | p_tF9626TcFf87wu7nRHmwZL | 王秀 | accepted |
 
 ## 外部来源
 

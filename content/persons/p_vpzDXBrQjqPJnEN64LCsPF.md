@@ -4,7 +4,7 @@ id: p_vpzDXBrQjqPJnEN64LCsPF
 status: active
 merged_into: null
 display_name: 王臬
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -133,7 +133,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_5HJBqXucsLfejpoY2rSa2h
+        subject_person_id: p_9HwAdJGnojFgrqfjKCEfL9
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_vpzDXBrQjqPJnEN64LCsPF
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tbgtgIDRjNCcTM_kT6Yobq
+          claim_id: c_5HJBqXucsLfejpoY2rSa2h
+          source_id: s_1UDUD3D6FdAJiq4hTESMsb
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第二甲第十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1UDUD3D6FdAJiq4hTESMsb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王政（CBDB 279546）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279546&o=json
+            external_identifier: CBDB:279546
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.988Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_9HwAdJGnojFgrqfjKCEfL9
+        status: active
+        display_name: 王政
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_9HwAdJGnojFgrqfjKCEfL9 | 王政 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王臬（CBDB 34721）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34721&o=json)
+- [中国历代人物传记资料库：王政（CBDB 279546）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279546&o=json)

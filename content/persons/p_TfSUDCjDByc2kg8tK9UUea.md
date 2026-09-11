@@ -4,7 +4,7 @@ id: p_TfSUDCjDByc2kg8tK9UUea
 status: active
 merged_into: null
 display_name: 王璡
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_6_gPKUKpuDiZwsLIdByMlk
+        subject_person_id: p_TfSUDCjDByc2kg8tK9UUea
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AErBJCEERSbd6CuogcbqiX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mzyaHB5GZ_kruyLG3BBxhJ
+          claim_id: c_6_gPKUKpuDiZwsLIdByMlk
+          source_id: s_K2yscFMiwSjCWm9PHCCcHm
+          stance: supports
+          locator: 滸墅關志，lgid=176454：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_K2yscFMiwSjCWm9PHCCcHm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王篪（CBDB 550766）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=550766&o=json
+            external_identifier: CBDB:550766
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.501Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_AErBJCEERSbd6CuogcbqiX
+        status: active
+        display_name: 王篪
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_AErBJCEERSbd6CuogcbqiX | 王篪 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王篪（CBDB 550766）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=550766&o=json)
 - [中国历代人物传记资料库：王璡（CBDB 550758）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=550758&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王庭譔
 cbdb_id: 126634
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -177,7 +177,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_VW21vnwhIN71b0MHo9zzub
+        subject_person_id: p_9MsaeMMvmmFQ7uxt5jwtER
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9KoQkJpzmuFGWSKkeqbZoc
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_W4q9weVJKvMLxAoZKiHEkl
+          claim_id: c_VW21vnwhIN71b0MHo9zzub
+          source_id: s_8jsXcpNNYj3edFMcgCwyjQ
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第一甲第三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8jsXcpNNYj3edFMcgCwyjQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王善述（CBDB 218638）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218638&o=json
+            external_identifier: CBDB:218638
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.265Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_9MsaeMMvmmFQ7uxt5jwtER
+        status: active
+        display_name: 王善述
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -199,7 +236,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_9MsaeMMvmmFQ7uxt5jwtER | 王善述 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王善述（CBDB 218638）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218638&o=json)
 - [中国历代人物传记资料库：王庭譔（CBDB 126634）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126634&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王恪
 cbdb_id: 264939
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -225,6 +225,43 @@ relationships:
         status: active
         display_name: 王缜
         merged_into_person_id: null
+    - claim:
+        id: c_sP6Q_iQ2vi_UnDKyI_ZcUL
+        subject_person_id: p_zQAyFcVTh8uEFRKFQtkku9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9esUYZvNqsWNd3UXAh8qx5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LSNqF-BbQdiE3s5Ua1ee4C
+          claim_id: c_sP6Q_iQ2vi_UnDKyI_ZcUL
+          source_id: s_8nUwjmnF5xTmqZCNqzBRAK
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第二十四名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8nUwjmnF5xTmqZCNqzBRAK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王縝（CBDB 68275）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68275&o=json
+            external_identifier: CBDB:68275
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.064Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_9esUYZvNqsWNd3UXAh8qx5
+        status: active
+        display_name: 王縝
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -250,10 +287,12 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_YUKAdQiXr1DTx2KFsrYLgt | 王琛 | accepted |
 | children | p_GYXTdGzZ8zRdfAxpgeUm9N | 王缜 | accepted |
+| children | p_9esUYZvNqsWNd3UXAh8qx5 | 王縝 | accepted |
 
 ## 外部来源
 
 - [维基数据：王琛（Q45583436）](https://www.wikidata.org/wiki/Q45583436)
 - [维基数据：王恪（Q45583500）](https://www.wikidata.org/wiki/Q45583500)
 - [维基数据：王缜（Q15933343）](https://www.wikidata.org/wiki/Q15933343)
+- [中国历代人物传记资料库：王縝（CBDB 68275）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68275&o=json)
 - [CBDB 中国历代人物传记资料库：王恪（264939）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264939&o=json)

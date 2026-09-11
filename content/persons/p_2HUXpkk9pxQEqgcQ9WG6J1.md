@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王時迪
 cbdb_id: 212507
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_nKUB1pT-qHT8GFflCHosbp
+        subject_person_id: p_2HUXpkk9pxQEqgcQ9WG6J1
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_A4DQB8jxPM4hHSSP72EbgN
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_igZgXWYhdg-iLDX4VpSfD2
+          claim_id: c_nKUB1pT-qHT8GFflCHosbp
+          source_id: s_fn8gqdmgeo5JPqtpGG2pZp
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第二甲第十八名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_fn8gqdmgeo5JPqtpGG2pZp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王任（CBDB 206037）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206037&o=json
+            external_identifier: CBDB:206037
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.880Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_A4DQB8jxPM4hHSSP72EbgN
+        status: active
+        display_name: 王任
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_A4DQB8jxPM4hHSSP72EbgN | 王任 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王任（CBDB 206037）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206037&o=json)
 - [中国历代人物传记资料库：王時迪（CBDB 212507）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212507&o=json)

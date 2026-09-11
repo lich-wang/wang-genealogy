@@ -4,7 +4,7 @@ id: p_94dDbMbKJAD59aKbdEvHPz
 status: active
 merged_into: null
 display_name: 王愛
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_kmHSJ-wa1gGOgVT85c2wqE
+        subject_person_id: p_MpnPQPFrjgGqPhyc9PJ3Sr
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_94dDbMbKJAD59aKbdEvHPz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cBvuG36YhwJb9uvDIgzZ4T
+          claim_id: c_kmHSJ-wa1gGOgVT85c2wqE
+          source_id: s_ePLDEJ7rK62rXWD8VSG5vH
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第一百四十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MpnPQPFrjgGqPhyc9PJ3Sr
+        status: active
+        display_name: 王鐘
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_1sEz7YJRrd-q66yWNk4_F-
+        subject_person_id: p_7swUKsKoNEGAA5EpxnRxgf
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_94dDbMbKJAD59aKbdEvHPz
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0Du6OOA_zcVPA7u8yv_1Fw
+          claim_id: c_1sEz7YJRrd-q66yWNk4_F-
+          source_id: s_ePLDEJ7rK62rXWD8VSG5vH
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第一百四十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_7swUKsKoNEGAA5EpxnRxgf
+        status: active
+        display_name: 王祖壽
+        merged_into_person_id: null
+    - claim:
+        id: c_8ewmRqsX-rXyLosbn3t8P-
+        subject_person_id: p_d3CEFj65Tejb6yCUo7M2L2
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_94dDbMbKJAD59aKbdEvHPz
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NopDFXa8dIz7-d25q8C3ID
+          claim_id: c_8ewmRqsX-rXyLosbn3t8P-
+          source_id: s_ePLDEJ7rK62rXWD8VSG5vH
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第一百四十三名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_d3CEFj65Tejb6yCUo7M2L2
+        status: active
+        display_name: 王龍
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_MpnPQPFrjgGqPhyc9PJ3Sr | 王鐘 | accepted |
+| ancestors | p_7swUKsKoNEGAA5EpxnRxgf | 王祖壽 | accepted |
+| ancestors | p_d3CEFj65Tejb6yCUo7M2L2 | 王龍 | accepted |
 
 ## 外部来源
 

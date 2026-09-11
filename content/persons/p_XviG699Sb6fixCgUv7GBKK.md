@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 霍氏
 cbdb_id: 333597
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,6 +172,43 @@ relationships:
         status: active
         display_name: 王家屏
         merged_into_person_id: null
+    - claim:
+        id: c_DgFygS516dQxQ0vVNWvsb6
+        subject_person_id: p_92Q8Er9mM6EGgtSMmLeCqJ
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_XviG699Sb6fixCgUv7GBKK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XPXPeZehLWDmnIaPvWeN4e
+          claim_id: c_DgFygS516dQxQ0vVNWvsb6
+          source_id: s_RZ3fqWGaHLG4UgCtfgP2Lk
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第二甲第二名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_RZ3fqWGaHLG4UgCtfgP2Lk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王家屛（CBDB 126627）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126627&o=json
+            external_identifier: CBDB:126627
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.179Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_92Q8Er9mM6EGgtSMmLeCqJ
+        status: active
+        display_name: 王家屛
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -193,10 +230,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_bcrM1JDUkTLmV6rQDefNJN | 王家屏 | accepted |
+| spouses | p_92Q8Er9mM6EGgtSMmLeCqJ | 王家屛 | accepted |
 
 ## 外部来源
 
 - [维基数据：霍氏（Q65860927）](https://www.wikidata.org/wiki/Q65860927)
 - [维基数据：王家屏（Q15926237）](https://www.wikidata.org/wiki/Q15926237)
+- [中国历代人物传记资料库：王家屛（CBDB 126627）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126627&o=json)
 - [CBDB 中国历代人物传记资料库：霍氏（333597）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333597&o=json)
-- [CBDB 中国历代人物传记资料库：王家屛（126627）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126627&o=json)

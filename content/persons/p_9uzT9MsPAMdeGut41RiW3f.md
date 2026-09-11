@@ -4,7 +4,7 @@ id: p_9uzT9MsPAMdeGut41RiW3f
 status: active
 merged_into: null
 display_name: 王易從
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ACEXC5G9KEHnvt-fEUvcdW
+        subject_person_id: p_WG4LcJdg2iBTqvpZQpDp9o
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9uzT9MsPAMdeGut41RiW3f
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1IBILRSE-vVgDHgmiofRy_
+          claim_id: c_ACEXC5G9KEHnvt-fEUvcdW
+          source_id: s_LaQHp5mjAHgZukLwRbkP2p
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WG4LcJdg2iBTqvpZQpDp9o
+        status: active
+        display_name: 王慶
+        merged_into_person_id: null
   children:
     - claim:
         id: c_22MGDlHSpZ5YhjPw3bx6ah
@@ -167,6 +193,136 @@ relationships:
         status: active
         display_name: 王有
         merged_into_person_id: null
+    - claim:
+        id: c_UQFanduY7VoGuGKGSY3KRF
+        subject_person_id: p_9uzT9MsPAMdeGut41RiW3f
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kY6pJ3GE5CREHzY1UejctY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HeyZl51yndbu14CwCbYn_U
+          claim_id: c_UQFanduY7VoGuGKGSY3KRF
+          source_id: s_LaQHp5mjAHgZukLwRbkP2p
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_kY6pJ3GE5CREHzY1UejctY
+        status: active
+        display_name: 王定
+        merged_into_person_id: null
+    - claim:
+        id: c_azpVwg5b_n3q3nR63N2AUK
+        subject_person_id: p_9uzT9MsPAMdeGut41RiW3f
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BicmUi7ekUPjjKksC7EmTF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0RXymxa9xRBakTy5Ig9ZLu
+          claim_id: c_azpVwg5b_n3q3nR63N2AUK
+          source_id: s_LaQHp5mjAHgZukLwRbkP2p
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_BicmUi7ekUPjjKksC7EmTF
+        status: active
+        display_name: 王賓
+        merged_into_person_id: null
+    - claim:
+        id: c_a48-b-YoCr-rHJZ4ASMKao
+        subject_person_id: p_9uzT9MsPAMdeGut41RiW3f
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sxpr34sGsJoj4mmVWtEnzF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AZjDbBlN1MZtZPmi1vvB7V
+          claim_id: c_a48-b-YoCr-rHJZ4ASMKao
+          source_id: s_LaQHp5mjAHgZukLwRbkP2p
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_sxpr34sGsJoj4mmVWtEnzF
+        status: active
+        display_name: 王寔
+        merged_into_person_id: null
+    - claim:
+        id: c_Wr19yU6SKS_qclfgWnnBUR
+        subject_person_id: p_9uzT9MsPAMdeGut41RiW3f
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zCynFmee7tr2Rik4nbjkK7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Sy93lSrEa5kzadQg2m5HCe
+          claim_id: c_Wr19yU6SKS_qclfgWnnBUR
+          source_id: s_LaQHp5mjAHgZukLwRbkP2p
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zCynFmee7tr2Rik4nbjkK7
+        status: active
+        display_name: 王宥
+        merged_into_person_id: null
+    - claim:
+        id: c_LJBSM-0YJilw7CA7xocWJD
+        subject_person_id: p_9uzT9MsPAMdeGut41RiW3f
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iEHAUDfuL7tSdPpuW3tGoM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gfgpFeC-3WyDtdqVrXW3AQ
+          claim_id: c_LJBSM-0YJilw7CA7xocWJD
+          source_id: s_LaQHp5mjAHgZukLwRbkP2p
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iEHAUDfuL7tSdPpuW3tGoM
+        status: active
+        display_name: 王密
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -192,7 +348,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WG4LcJdg2iBTqvpZQpDp9o | 王慶 | accepted |
 | children | p_5zJU4hQNtKNxjMkZX5JFZM | 王有 | accepted |
+| children | p_kY6pJ3GE5CREHzY1UejctY | 王定 | accepted |
+| children | p_BicmUi7ekUPjjKksC7EmTF | 王賓 | accepted |
+| children | p_sxpr34sGsJoj4mmVWtEnzF | 王寔 | accepted |
+| children | p_zCynFmee7tr2Rik4nbjkK7 | 王宥 | accepted |
+| children | p_iEHAUDfuL7tSdPpuW3tGoM | 王密 | accepted |
 
 ## 外部来源
 

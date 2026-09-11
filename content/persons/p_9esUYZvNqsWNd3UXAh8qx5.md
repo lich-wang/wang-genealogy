@@ -4,7 +4,7 @@ id: p_9esUYZvNqsWNd3UXAh8qx5
 status: active
 merged_into: null
 display_name: 王縝
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,142 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_sP6Q_iQ2vi_UnDKyI_ZcUL
+        subject_person_id: p_zQAyFcVTh8uEFRKFQtkku9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9esUYZvNqsWNd3UXAh8qx5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LSNqF-BbQdiE3s5Ua1ee4C
+          claim_id: c_sP6Q_iQ2vi_UnDKyI_ZcUL
+          source_id: s_8nUwjmnF5xTmqZCNqzBRAK
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第二十四名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zQAyFcVTh8uEFRKFQtkku9
+        status: active
+        display_name: 王恪
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_xiLSN7RWcvlDhsyMULof4S
+        subject_person_id: p_9esUYZvNqsWNd3UXAh8qx5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iuNfYEiBwec72hde2awF32
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lXnpO_Tzlzz_FsiwzCCfYh
+          claim_id: c_xiLSN7RWcvlDhsyMULof4S
+          source_id: s_8nUwjmnF5xTmqZCNqzBRAK
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），11939：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iuNfYEiBwec72hde2awF32
+        status: active
+        display_name: 王弘久
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
-  ancestors: []
+  spouses:
+    - claim:
+        id: c_8khpCQpwaRNPt7lDmB7_U5
+        subject_person_id: p_9esUYZvNqsWNd3UXAh8qx5
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_EVLq7xAUTLGpaeFfQpgjH5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6iTVhtWv0oZdLH5PbuQBAy
+          claim_id: c_8khpCQpwaRNPt7lDmB7_U5
+          source_id: s_8nUwjmnF5xTmqZCNqzBRAK
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第二十四名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_EVLq7xAUTLGpaeFfQpgjH5
+        status: active
+        display_name: 周氏
+        merged_into_person_id: null
+  ancestors:
+    - claim:
+        id: c_40pBM4nXKvY-Fjqkhk4HVQ
+        subject_person_id: p_WWiatCTUQBMimYAeHSJjDW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9esUYZvNqsWNd3UXAh8qx5
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1WvENtP5XcizzwMw80Nn5y
+          claim_id: c_40pBM4nXKvY-Fjqkhk4HVQ
+          source_id: s_8nUwjmnF5xTmqZCNqzBRAK
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第二十四名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WWiatCTUQBMimYAeHSJjDW
+        status: active
+        display_name: 王纯礼
+        merged_into_person_id: null
+    - claim:
+        id: c_X8oOHF90L7SsXnn5ImHE5R
+        subject_person_id: p_YUKAdQiXr1DTx2KFsrYLgt
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9esUYZvNqsWNd3UXAh8qx5
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hAwj9jGYw27F9FbJfCyLk8
+          claim_id: c_X8oOHF90L7SsXnn5ImHE5R
+          source_id: s_8nUwjmnF5xTmqZCNqzBRAK
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第二十四名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_YUKAdQiXr1DTx2KFsrYLgt
+        status: active
+        display_name: 王琛
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +285,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_zQAyFcVTh8uEFRKFQtkku9 | 王恪 | accepted |
+| children | p_iuNfYEiBwec72hde2awF32 | 王弘久 | accepted |
+| spouses | p_EVLq7xAUTLGpaeFfQpgjH5 | 周氏 | accepted |
+| ancestors | p_WWiatCTUQBMimYAeHSJjDW | 王纯礼 | accepted |
+| ancestors | p_YUKAdQiXr1DTx2KFsrYLgt | 王琛 | accepted |
 
 ## 外部来源
 

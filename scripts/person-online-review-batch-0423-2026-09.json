@@ -1,0 +1,78 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-11",
+  "queue_positions": [
+    4221,
+    4230
+  ],
+  "summary": {
+    "reviewed": 10,
+    "relationships_added": 9,
+    "manual_review": 2
+  },
+  "relationships": [
+    {
+      "subject": "p_9APm5s4Qnt3Y1TuWpeSg1p",
+      "object": "p_gYCzF6vom9uRciu3ySukCo",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_9at3GZ21HMCWweDrYG8Wky",
+      "object": "p_PYVqWyV8rjtdfNYSbEwCgK",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_BtgHHrLDxTH7wTHXnHeht1",
+      "object": "p_9aVKxPyVaDrWCGVGCNZPGp",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_Xc9qEvyFBtpCZ2gJfJpwiL",
+      "object": "p_9aVKxPyVaDrWCGVGCNZPGp",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_D1uiKtejcBKo45taEXSY3A",
+      "object": "p_9B5ANk8vxa7D7phY5dTTsm",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_9B5ANk8vxa7D7phY5dTTsm",
+      "object": "p_oRDvznu4syTic9ZyER4cPh",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_9B5ANk8vxa7D7phY5dTTsm",
+      "object": "p_DTdjsS6QERsLdYy57NhSNT",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_9B5ANk8vxa7D7phY5dTTsm",
+      "object": "p_cPVM8ZBfFuRRTuH1YzPFBc",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_9B5ANk8vxa7D7phY5dTTsm",
+      "object": "p_rgk4fmEhMoSgMaFR2n8Pwk",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    }
+  ],
+  "unchanged": [
+    "p_9aaFKrz5Htk9sB2jNJK5cz",
+    "p_9Abaz6Hox2cJEBkriuoqxV",
+    "p_9abgTA6UbDf98KBJuEgQm1",
+    "p_9ACBwaJa1h59PDqx96yiSt",
+    "p_9aNh2EfWBWjg6L95x89y7T",
+    "p_9apt4wM5og3ETQPBhq5xA1"
+  ]
+}

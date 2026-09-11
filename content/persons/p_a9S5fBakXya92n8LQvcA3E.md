@@ -4,7 +4,7 @@ id: p_a9S5fBakXya92n8LQvcA3E
 status: active
 merged_into: null
 display_name: 王履仁
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_XlPdy3d23d9rOTODmW7Z0P
+        subject_person_id: p_XLytFyo2bEJHH5N4cVSyQc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_a9S5fBakXya92n8LQvcA3E
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ar1h5CxmyKThCChBFqxFFq
+          claim_id: c_XlPdy3d23d9rOTODmW7Z0P
+          source_id: s_vboDUKe5Bmot8LGHAXPFDL
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_XLytFyo2bEJHH5N4cVSyQc
+        status: active
+        display_name: 王約
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_6h1IwfS8Hxpm3swBeY7a9O
+        subject_person_id: p_a9S5fBakXya92n8LQvcA3E
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ah2M8P7hdEnYgAQ2Tp5XS1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7vKL664_7HQa6QXGHTA02P
+          claim_id: c_6h1IwfS8Hxpm3swBeY7a9O
+          source_id: s_vboDUKe5Bmot8LGHAXPFDL
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ah2M8P7hdEnYgAQ2Tp5XS1
+        status: active
+        display_name: 王省躬
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_XLytFyo2bEJHH5N4cVSyQc | 王約 | accepted |
+| children | p_ah2M8P7hdEnYgAQ2Tp5XS1 | 王省躬 | accepted |
 
 ## 外部来源
 

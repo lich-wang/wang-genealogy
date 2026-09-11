@@ -4,7 +4,7 @@ id: p_a2MgxrEcSzhbMSTAx75fb8
 status: active
 merged_into: null
 display_name: 王鉉
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_dwACFuc_k0qqoi19XiteGC
+        subject_person_id: p_24PyNib2E1k3cWE7XUriAS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_a2MgxrEcSzhbMSTAx75fb8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PEtrzDbUevLIO5OK9Cm8Cw
+          claim_id: c_dwACFuc_k0qqoi19XiteGC
+          source_id: s_7jwQZDGBhmgWHqs6bzeeYj
+          stance: supports
+          locator: 正统十年進士登科錄:一卷，第三甲第十八名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_24PyNib2E1k3cWE7XUriAS
+        status: active
+        display_name: 王處安
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_AUnQ0uPqzvs6pwyi7YdXOZ
+        subject_person_id: p_ASiHcqUfwmvxD62UQRVghp
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_a2MgxrEcSzhbMSTAx75fb8
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_moun9_DIKe6GvFOSgTgXhX
+          claim_id: c_AUnQ0uPqzvs6pwyi7YdXOZ
+          source_id: s_7jwQZDGBhmgWHqs6bzeeYj
+          stance: supports
+          locator: 正统十年進士登科錄:一卷，第三甲第十八名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ASiHcqUfwmvxD62UQRVghp
+        status: active
+        display_name: 王通甫
+        merged_into_person_id: null
+    - claim:
+        id: c_kNOWUdYVwp9uJRk0wR4XUj
+        subject_person_id: p_Dt651oiMocivbJt6r7DvrX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_a2MgxrEcSzhbMSTAx75fb8
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qc7okRXID0TZj_GVIP2kO3
+          claim_id: c_kNOWUdYVwp9uJRk0wR4XUj
+          source_id: s_7jwQZDGBhmgWHqs6bzeeYj
+          stance: supports
+          locator: 正统十年進士登科錄:一卷，第三甲第十八名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Dt651oiMocivbJt6r7DvrX
+        status: active
+        display_name: 王茂
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_24PyNib2E1k3cWE7XUriAS | 王處安 | accepted |
+| ancestors | p_ASiHcqUfwmvxD62UQRVghp | 王通甫 | accepted |
+| ancestors | p_Dt651oiMocivbJt6r7DvrX | 王茂 | accepted |
 
 ## 外部来源
 

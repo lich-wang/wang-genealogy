@@ -4,7 +4,7 @@ id: p_92Q8Er9mM6EGgtSMmLeCqJ
 status: active
 merged_into: null
 display_name: 王家屛
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,116 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_udLfwxu6waoA5ummIGkrfu
+        subject_person_id: p_wJnAf1dPfK6NuX3j1aUKFG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_92Q8Er9mM6EGgtSMmLeCqJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5G1UsT6u6OFHJIgvyRYMrk
+          claim_id: c_udLfwxu6waoA5ummIGkrfu
+          source_id: s_RZ3fqWGaHLG4UgCtfgP2Lk
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第二甲第二名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wJnAf1dPfK6NuX3j1aUKFG
+        status: active
+        display_name: 王宪武
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
-  ancestors: []
+  spouses:
+    - claim:
+        id: c_DgFygS516dQxQ0vVNWvsb6
+        subject_person_id: p_92Q8Er9mM6EGgtSMmLeCqJ
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_XviG699Sb6fixCgUv7GBKK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XPXPeZehLWDmnIaPvWeN4e
+          claim_id: c_DgFygS516dQxQ0vVNWvsb6
+          source_id: s_RZ3fqWGaHLG4UgCtfgP2Lk
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第二甲第二名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_XviG699Sb6fixCgUv7GBKK
+        status: active
+        display_name: 霍氏
+        merged_into_person_id: null
+  ancestors:
+    - claim:
+        id: c_Y3adLCWm94z5SwSwNM6ckW
+        subject_person_id: p_JCJBEueLs72MMGKKFXSBqw
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_92Q8Er9mM6EGgtSMmLeCqJ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E3VIf-OUkYx7AQ6NCz5dwX
+          claim_id: c_Y3adLCWm94z5SwSwNM6ckW
+          source_id: s_RZ3fqWGaHLG4UgCtfgP2Lk
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第二甲第二名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_JCJBEueLs72MMGKKFXSBqw
+        status: active
+        display_name: 王缙
+        merged_into_person_id: null
+    - claim:
+        id: c_rz3AG3hLxrsX4Gtu-zIQ6V
+        subject_person_id: p_n8gJ8LAH7u4tCjt15ALE93
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_92Q8Er9mM6EGgtSMmLeCqJ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BMN9nhrpQ0-W58lq2h4ycy
+          claim_id: c_rz3AG3hLxrsX4Gtu-zIQ6V
+          source_id: s_RZ3fqWGaHLG4UgCtfgP2Lk
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第二甲第二名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_n8gJ8LAH7u4tCjt15ALE93
+        status: active
+        display_name: 王朝用
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +259,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wJnAf1dPfK6NuX3j1aUKFG | 王宪武 | accepted |
+| spouses | p_XviG699Sb6fixCgUv7GBKK | 霍氏 | accepted |
+| ancestors | p_JCJBEueLs72MMGKKFXSBqw | 王缙 | accepted |
+| ancestors | p_n8gJ8LAH7u4tCjt15ALE93 | 王朝用 | accepted |
 
 ## 外部来源
 

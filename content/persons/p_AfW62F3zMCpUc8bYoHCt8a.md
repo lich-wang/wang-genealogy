@@ -4,7 +4,7 @@ id: p_AfW62F3zMCpUc8bYoHCt8a
 status: active
 merged_into: null
 display_name: 王仁行
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_FN3lehsdhmpJCT8Ew-FXW2
+        subject_person_id: p_AfW62F3zMCpUc8bYoHCt8a
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_78FBZC7wysqkRaewADsWxy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OnfqrocajNvVf4WvSdZJBi
+          claim_id: c_FN3lehsdhmpJCT8Ew-FXW2
+          source_id: s_Q6AK9A4LpZZRFBraMQXXtb
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Tianbao23：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_78FBZC7wysqkRaewADsWxy
+        status: active
+        display_name: 王梵相
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_78FBZC7wysqkRaewADsWxy | 王梵相 | accepted |
 
 ## 外部来源
 

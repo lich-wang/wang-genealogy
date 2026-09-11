@@ -4,7 +4,7 @@ id: p_He4MQneKrf3FsxiWWRGQhR
 status: active
 merged_into: null
 display_name: 王瓘
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_BStO3eGp2aO2MPkwdrSuzq
+        subject_person_id: p_8XfHTzQo9ieXi9sK4auTzd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_He4MQneKrf3FsxiWWRGQhR
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ENnUpGqRxRKQXSRBgA_6-x
+          claim_id: c_BStO3eGp2aO2MPkwdrSuzq
+          source_id: s_mBsqAnHRUMVuBPEQC6ZL6S
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第一百零四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_mBsqAnHRUMVuBPEQC6ZL6S
+            source_type: api_record
+            title: 中国历代人物传记资料库：王義剛（CBDB 270727）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270727&o=json
+            external_identifier: CBDB:270727
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.846Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8XfHTzQo9ieXi9sK4auTzd
+        status: active
+        display_name: 王義剛
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_1C9G5XBRDC7u6iXVfxU3HA | 王郁 | accepted |
+| ancestors | p_8XfHTzQo9ieXi9sK4auTzd | 王義剛 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王瓘（CBDB 198427）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198427&o=json)
+- [中国历代人物传记资料库：王義剛（CBDB 270727）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270727&o=json)
 - [中国历代人物传记资料库：王郁（CBDB 270738）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270738&o=json)

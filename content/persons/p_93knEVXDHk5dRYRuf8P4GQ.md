@@ -4,7 +4,7 @@ id: p_93knEVXDHk5dRYRuf8P4GQ
 status: active
 merged_into: null
 display_name: 王某贊
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_lSs0oYyP-ukTmpxss3WSOe
+        subject_person_id: p_93knEVXDHk5dRYRuf8P4GQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_MRcNDk25WD9q2qKW2Sg6T2
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_e360_PucLWMl0u57r9CAqE
+          claim_id: c_lSs0oYyP-ukTmpxss3WSOe
+          source_id: s_jK7td8gv5mcoMZA6GCyUx5
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，王誠墓誌：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MRcNDk25WD9q2qKW2Sg6T2
+        status: active
+        display_name: 王誠
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_MRcNDk25WD9q2qKW2Sg6T2 | 王誠 | accepted |
 
 ## 外部来源
 

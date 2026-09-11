@@ -4,7 +4,7 @@ id: p_HT1byH8rxSEHoPMAFQo6uz
 status: active
 merged_into: null
 display_name: 王翬
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -134,7 +134,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_z8x47C28FN7YiaoOIHxReB
+        subject_person_id: p_HT1byH8rxSEHoPMAFQo6uz
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9EteJc9sjHozpp9cf6nJZD
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_S7ucW_isvFaXmJP5MoGQOM
+          claim_id: c_z8x47C28FN7YiaoOIHxReB
+          source_id: s_GVq5q9SEGa86VL8ZiZYYXu
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），9371：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GVq5q9SEGa86VL8ZiZYYXu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玖（CBDB 522574）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=522574&o=json
+            external_identifier: CBDB:522574
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.320Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_9EteJc9sjHozpp9cf6nJZD
+        status: active
+        display_name: 王玖
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_9EteJc9sjHozpp9cf6nJZD | 王玖 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王翬（CBDB 65886）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=65886&o=json)
+- [中国历代人物传记资料库：王玖（CBDB 522574）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=522574&o=json)

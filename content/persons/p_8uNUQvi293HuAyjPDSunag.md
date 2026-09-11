@@ -4,7 +4,7 @@ id: p_8uNUQvi293HuAyjPDSunag
 status: active
 merged_into: null
 display_name: 王應超
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_ynVz7gj2LxAtxFW1_IgStV
+        subject_person_id: p_sgFwSYG2RsvjHFjEuyLwo4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8uNUQvi293HuAyjPDSunag
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jxADhuiyCCJw03jP2pD4a8
+          claim_id: c_ynVz7gj2LxAtxFW1_IgStV
+          source_id: s_QztKYy3xASZdxQsrCDfZS8
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160562：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_sgFwSYG2RsvjHFjEuyLwo4
+        status: active
+        display_name: 王煜文
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_UDuiKOk0-y7_szLL8HOtnC
+        subject_person_id: p_8uNUQvi293HuAyjPDSunag
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Wyi1p6q97DrtfBULc8fRhf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BnUdfMixAIYrG5jeQjp8tO
+          claim_id: c_UDuiKOk0-y7_szLL8HOtnC
+          source_id: s_QztKYy3xASZdxQsrCDfZS8
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160854：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Wyi1p6q97DrtfBULc8fRhf
+        status: active
+        display_name: 王佩蘇
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_dsM74jlk53AWe_RmCKoe1E
+        subject_person_id: p_Lag4sfewwEYeWDkfJpeQ26
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_8uNUQvi293HuAyjPDSunag
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6943FBaylj8RyDkdZ_itrz
+          claim_id: c_dsM74jlk53AWe_RmCKoe1E
+          source_id: s_QztKYy3xASZdxQsrCDfZS8
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160984：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Lag4sfewwEYeWDkfJpeQ26
+        status: active
+        display_name: 王廷槐
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_sgFwSYG2RsvjHFjEuyLwo4 | 王煜文 | accepted |
+| children | p_Wyi1p6q97DrtfBULc8fRhf | 王佩蘇 | accepted |
+| ancestors | p_Lag4sfewwEYeWDkfJpeQ26 | 王廷槐 | accepted |
 
 ## 外部来源
 

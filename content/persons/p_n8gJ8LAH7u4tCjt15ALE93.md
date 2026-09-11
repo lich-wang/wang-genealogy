@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王朝用
 cbdb_id: 333592
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -207,7 +207,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_rz3AG3hLxrsX4Gtu-zIQ6V
+        subject_person_id: p_n8gJ8LAH7u4tCjt15ALE93
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_92Q8Er9mM6EGgtSMmLeCqJ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BMN9nhrpQ0-W58lq2h4ycy
+          claim_id: c_rz3AG3hLxrsX4Gtu-zIQ6V
+          source_id: s_RZ3fqWGaHLG4UgCtfgP2Lk
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第二甲第二名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_RZ3fqWGaHLG4UgCtfgP2Lk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王家屛（CBDB 126627）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126627&o=json
+            external_identifier: CBDB:126627
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.179Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_92Q8Er9mM6EGgtSMmLeCqJ
+        status: active
+        display_name: 王家屛
+        merged_into_person_id: null
   other: []
 ---
 
@@ -228,10 +265,12 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_JCJBEueLs72MMGKKFXSBqw | 王缙 | accepted |
 | children | p_wJnAf1dPfK6NuX3j1aUKFG | 王宪武 | accepted |
+| descendants | p_92Q8Er9mM6EGgtSMmLeCqJ | 王家屛 | accepted |
 
 ## 外部来源
 
 - [维基数据：王朝用（Q45581362）](https://www.wikidata.org/wiki/Q45581362)
 - [维基数据：王缙（Q45581298）](https://www.wikidata.org/wiki/Q45581298)
 - [维基数据：王宪武（Q45581425）](https://www.wikidata.org/wiki/Q45581425)
+- [中国历代人物传记资料库：王家屛（CBDB 126627）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126627&o=json)
 - [CBDB 中国历代人物传记资料库：王朝用（333592）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333592&o=json)

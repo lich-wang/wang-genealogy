@@ -4,7 +4,7 @@ id: p_oDN8zXwLEiLaLbSQ6vv12L
 status: active
 merged_into: null
 display_name: 王朝倩
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -213,6 +213,43 @@ relationships:
         status: active
         display_name: 王公素
         merged_into_person_id: null
+    - claim:
+        id: c_w0zFqg9kl0PyH3Ae0NT6LC
+        subject_person_id: p_oDN8zXwLEiLaLbSQ6vv12L
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_a43TDwPpmcL99dwcyyrP2p
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FUuuwrqHUqJf7899Z6-BWh
+          claim_id: c_w0zFqg9kl0PyH3Ae0NT6LC
+          source_id: s_AE8D6z87JtgJJKKmDRCALz
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_AE8D6z87JtgJJKKmDRCALz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王公亮（CBDB 191743）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191743&o=json
+            external_identifier: CBDB:191743
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.377Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_a43TDwPpmcL99dwcyyrP2p
+        status: active
+        display_name: 王公亮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -240,10 +277,12 @@ relationships:
 | parents | p_28xJB3faHyeBYnKm1an3Ta | 王安 | accepted |
 | children | p_4mfqFZAqaNrXQSde1B1tdh | 王公政 | accepted |
 | children | p_8QVz9itWB7PRdTQDBqUY5F | 王公素 | accepted |
+| children | p_a43TDwPpmcL99dwcyyrP2p | 王公亮 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王安（CBDB 191741）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191741&o=json)
 - [中国历代人物传记资料库：王朝倩（CBDB 191740）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191740&o=json)
+- [中国历代人物传记资料库：王公亮（CBDB 191743）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191743&o=json)
 - [中国历代人物传记资料库：王公素（CBDB 191744）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191744&o=json)
 - [中国历代人物传记资料库：王公政（CBDB 146370）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=146370&o=json)

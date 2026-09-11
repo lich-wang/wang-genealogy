@@ -4,7 +4,7 @@ id: p_8Z1UQ2GEaLW3fJdsaEnJcd
 status: active
 merged_into: null
 display_name: 王哲
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_1N2mkv4ukXNxA73MxKU5c3
+        subject_person_id: p_qH965HRtNLEtPyefHwgvpn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8Z1UQ2GEaLW3fJdsaEnJcd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vS4Kzjgv4fYK1EkhDfWocF
+          claim_id: c_1N2mkv4ukXNxA73MxKU5c3
+          source_id: s_YEFc76BF7d689AbSJF4e5B
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第一百一十名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qH965HRtNLEtPyefHwgvpn
+        status: active
+        display_name: 王宗吉
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_n8KmYcvB0IOUaxbD_oWJlo
+        subject_person_id: p_bsxBFWWTq3r1yzvpU9nNr1
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_8Z1UQ2GEaLW3fJdsaEnJcd
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__75TYO-66ILGcxWiJQU2eV
+          claim_id: c_n8KmYcvB0IOUaxbD_oWJlo
+          source_id: s_YEFc76BF7d689AbSJF4e5B
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第一百一十名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_bsxBFWWTq3r1yzvpU9nNr1
+        status: active
+        display_name: 王湜
+        merged_into_person_id: null
+    - claim:
+        id: c_1dzAWuuwm-in9rRTZIK30R
+        subject_person_id: p_9BAMAYsYbLvwtewfm2SjBY
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_8Z1UQ2GEaLW3fJdsaEnJcd
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JbM5MyaXknJTTPSlimlGUG
+          claim_id: c_1dzAWuuwm-in9rRTZIK30R
+          source_id: s_YEFc76BF7d689AbSJF4e5B
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第一百一十名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_9BAMAYsYbLvwtewfm2SjBY
+        status: active
+        display_name: 王恭
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qH965HRtNLEtPyefHwgvpn | 王宗吉 | accepted |
+| ancestors | p_bsxBFWWTq3r1yzvpU9nNr1 | 王湜 | accepted |
+| ancestors | p_9BAMAYsYbLvwtewfm2SjBY | 王恭 | accepted |
 
 ## 外部来源
 

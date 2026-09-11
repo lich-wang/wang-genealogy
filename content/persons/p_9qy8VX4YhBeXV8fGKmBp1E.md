@@ -4,7 +4,7 @@ id: p_9qy8VX4YhBeXV8fGKmBp1E
 status: active
 merged_into: null
 display_name: 王經
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王仲榮
         merged_into_person_id: null
+    - claim:
+        id: c_rMGevI2ZReF6n7LH7yhnRk
+        subject_person_id: p_adQpnuZXKEbtiSQA8rxZYj
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9qy8VX4YhBeXV8fGKmBp1E
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TdoWNwxOeuWPDYZYy15zhv
+          claim_id: c_rMGevI2ZReF6n7LH7yhnRk
+          source_id: s_BNZga1SKKEqLRu47p5R198
+          stance: supports
+          locator: 成化八年進士登科錄:一卷，第三甲第一百四十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BNZga1SKKEqLRu47p5R198
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惟善（CBDB 247352）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247352&o=json
+            external_identifier: CBDB:247352
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.108Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_adQpnuZXKEbtiSQA8rxZYj
+        status: active
+        display_name: 王惟善
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_1Y9vSpLkuvgM5TzoTn8thR | 王讓 | accepted |
 | ancestors | p_2r9u5H4u4Vj7mDLqE83hi9 | 王仲榮 | accepted |
+| ancestors | p_adQpnuZXKEbtiSQA8rxZYj | 王惟善 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王經（CBDB 199619）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199619&o=json)
 - [中国历代人物传记资料库：王讓（CBDB 247354）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247354&o=json)
+- [中国历代人物传记资料库：王惟善（CBDB 247352）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247352&o=json)
 - [中国历代人物传记资料库：王仲榮（CBDB 247351）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247351&o=json)

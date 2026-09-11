@@ -4,7 +4,7 @@ id: p_ABhP9dLJkoCKUQ61Qu5HUw
 status: active
 merged_into: null
 display_name: 王昪
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ogHZjx3FluXIPM18IeyTIS
+        subject_person_id: p_AKZ2gftZZgX4FrpAuoEmrr
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ABhP9dLJkoCKUQ61Qu5HUw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sjCACd4XbgKX1YAd3zhvHO
+          claim_id: c_ogHZjx3FluXIPM18IeyTIS
+          source_id: s_3uUvSiF32n3jreDLQ9Ftpn
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_AKZ2gftZZgX4FrpAuoEmrr
+        status: active
+        display_name: 王大璡
+        merged_into_person_id: null
   children:
     - claim:
         id: c_f2qoN5eOUeWPjPMjS1Vaq1
@@ -163,6 +189,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_AKZ2gftZZgX4FrpAuoEmrr | 王大璡 | accepted |
 | children | p_6YDDamD31FqdZsDuahyiXX | 王恕 | accepted |
 
 ## 外部来源

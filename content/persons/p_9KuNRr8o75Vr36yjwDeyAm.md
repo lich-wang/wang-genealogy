@@ -4,7 +4,7 @@ id: p_9KuNRr8o75Vr36yjwDeyAm
 status: active
 merged_into: null
 display_name: 王應時
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_r6-lCLt6ab0q6hEnvdos9t
+        subject_person_id: p_9KuNRr8o75Vr36yjwDeyAm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Que1Sc9ugp524zabUcC6Bk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lqk90QISX27lbqdrJaIvo2
+          claim_id: c_r6-lCLt6ab0q6hEnvdos9t
+          source_id: s_ELwwMtVZvNEXahCJxGjJDF
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第二甲第五十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Que1Sc9ugp524zabUcC6Bk
+        status: active
+        display_name: 王體復
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_Que1Sc9ugp524zabUcC6Bk | 王體復 | accepted |
 
 ## 外部来源
 

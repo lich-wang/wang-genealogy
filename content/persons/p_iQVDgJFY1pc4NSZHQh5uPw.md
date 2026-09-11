@@ -4,7 +4,7 @@ id: p_iQVDgJFY1pc4NSZHQh5uPw
 status: active
 merged_into: null
 display_name: 王諝
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_BQXNPbabTcok73DUYP5GoP
+        subject_person_id: p_iQVDgJFY1pc4NSZHQh5uPw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_A39G1FQHHhWai3zdkp4x8V
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8xjTZ1DY1NGV-vjTEIElb2
+          claim_id: c_BQXNPbabTcok73DUYP5GoP
+          source_id: s_pWHiqL2UNhzCcvn6gaQSxk
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_pWHiqL2UNhzCcvn6gaQSxk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王思旭（CBDB 157515）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157515&o=json
+            external_identifier: CBDB:157515
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.906Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_A39G1FQHHhWai3zdkp4x8V
+        status: active
+        display_name: 王思旭
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -134,9 +171,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_A39G1FQHHhWai3zdkp4x8V | 王思旭 | accepted |
 | descendants | p_45sVsGucdcRmogpRJoCZis | 王敬仲 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王敬仲（CBDB 141578）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141578&o=json)
+- [中国历代人物传记资料库：王思旭（CBDB 157515）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157515&o=json)
 - [中国历代人物传记资料库：王諝（CBDB 157523）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157523&o=json)

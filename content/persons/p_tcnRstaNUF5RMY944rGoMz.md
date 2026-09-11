@@ -4,7 +4,7 @@ id: p_tcnRstaNUF5RMY944rGoMz
 status: active
 merged_into: null
 display_name: 王大用
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_Xmn-KRRwUEFAP8bZEvcQQi
+        subject_person_id: p_8Ufnk7dZGeRUNoEEdTAD4N
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_tcnRstaNUF5RMY944rGoMz
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uaRk4D-d27uoava2X6I1Fj
+          claim_id: c_Xmn-KRRwUEFAP8bZEvcQQi
+          source_id: s_xuoeU7rgbQtEBhK5LYgb8q
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第二甲第六十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_xuoeU7rgbQtEBhK5LYgb8q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王允中（CBDB 264445）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264445&o=json
+            external_identifier: CBDB:264445
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.639Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8Ufnk7dZGeRUNoEEdTAD4N
+        status: active
+        display_name: 王允中
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_8Ufnk7dZGeRUNoEEdTAD4N | 王允中 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王大用（CBDB 200906）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200906&o=json)
+- [中国历代人物传记资料库：王允中（CBDB 264445）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264445&o=json)

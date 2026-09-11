@@ -4,7 +4,7 @@ id: p_aFunzdiBCEEnCHq6Us158d
 status: active
 merged_into: null
 display_name: 王麟
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_S87XpqCXLirDYz_2TseVFN
+        subject_person_id: p_aFunzdiBCEEnCHq6Us158d
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_esnkJduB5GpM6eiD8Nh16h
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XdVpWwSM2vzInHutK72gpe
+          claim_id: c_S87XpqCXLirDYz_2TseVFN
+          source_id: s_SyPFB1pzQ1zjZ5DxuXsmM5
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第一百四十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_esnkJduB5GpM6eiD8Nh16h
+        status: active
+        display_name: 王之垣
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_esnkJduB5GpM6eiD8Nh16h | 王之垣 | accepted |
 
 ## 外部来源
 

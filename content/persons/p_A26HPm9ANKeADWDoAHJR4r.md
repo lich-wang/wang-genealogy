@@ -4,7 +4,7 @@ id: p_A26HPm9ANKeADWDoAHJR4r
 status: active
 merged_into: null
 display_name: 王孝瑜
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_PTBaImQiFSMG3G1RRdU2mE
+        subject_person_id: p_VpNFNPVux4KnRvRhNX7xmB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_A26HPm9ANKeADWDoAHJR4r
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QhfT55Pn6tFTbV5ROgovIk
+          claim_id: c_PTBaImQiFSMG3G1RRdU2mE
+          source_id: s_4V8aXpGeJ7MKPqr1cqdPqn
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yonghui 128：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_VpNFNPVux4KnRvRhNX7xmB
+        status: active
+        display_name: 王義
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_6bV39lZHwyXmFzVeBjvj7f
+        subject_person_id: p_A26HPm9ANKeADWDoAHJR4r
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QVjFE2QiM6nYiNQ7St51r1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iHfahB4s7uEz63EF0vlxjt
+          claim_id: c_6bV39lZHwyXmFzVeBjvj7f
+          source_id: s_4V8aXpGeJ7MKPqr1cqdPqn
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yonghui 128：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_QVjFE2QiM6nYiNQ7St51r1
+        status: active
+        display_name: 王仁恪
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_VpNFNPVux4KnRvRhNX7xmB | 王義 | accepted |
+| children | p_QVjFE2QiM6nYiNQ7St51r1 | 王仁恪 | accepted |
 
 ## 外部来源
 

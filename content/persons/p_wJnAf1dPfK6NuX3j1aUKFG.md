@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王宪武
 cbdb_id: 333593
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -225,6 +225,43 @@ relationships:
         status: active
         display_name: 王家屏
         merged_into_person_id: null
+    - claim:
+        id: c_udLfwxu6waoA5ummIGkrfu
+        subject_person_id: p_wJnAf1dPfK6NuX3j1aUKFG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_92Q8Er9mM6EGgtSMmLeCqJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5G1UsT6u6OFHJIgvyRYMrk
+          claim_id: c_udLfwxu6waoA5ummIGkrfu
+          source_id: s_RZ3fqWGaHLG4UgCtfgP2Lk
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第二甲第二名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_RZ3fqWGaHLG4UgCtfgP2Lk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王家屛（CBDB 126627）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126627&o=json
+            external_identifier: CBDB:126627
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.179Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_92Q8Er9mM6EGgtSMmLeCqJ
+        status: active
+        display_name: 王家屛
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -250,10 +287,12 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_n8gJ8LAH7u4tCjt15ALE93 | 王朝用 | accepted |
 | children | p_bcrM1JDUkTLmV6rQDefNJN | 王家屏 | accepted |
+| children | p_92Q8Er9mM6EGgtSMmLeCqJ | 王家屛 | accepted |
 
 ## 外部来源
 
 - [维基数据：王朝用（Q45581362）](https://www.wikidata.org/wiki/Q45581362)
 - [维基数据：王家屏（Q15926237）](https://www.wikidata.org/wiki/Q15926237)
 - [维基数据：王宪武（Q45581425）](https://www.wikidata.org/wiki/Q45581425)
+- [中国历代人物传记资料库：王家屛（CBDB 126627）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126627&o=json)
 - [CBDB 中国历代人物传记资料库：王憲武（333593）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333593&o=json)

@@ -4,7 +4,7 @@ id: p_aewufbD64G6Qk8r5aHNdhe
 status: active
 merged_into: null
 display_name: 王瀚
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_N3FzE8E0J-6n27A8gBulpj
+        subject_person_id: p_aewufbD64G6Qk8r5aHNdhe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DpuSp4mmLYMfmUMioXctjR
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ys-jYOFMV1zYBq9DExUkw3
+          claim_id: c_N3FzE8E0J-6n27A8gBulpj
+          source_id: s_N13F8FSUcxHs1MGFnPWZKn
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第二甲第六十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DpuSp4mmLYMfmUMioXctjR
+        status: active
+        display_name: 王堯封
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_DpuSp4mmLYMfmUMioXctjR | 王堯封 | accepted |
 
 ## 外部来源
 

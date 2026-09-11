@@ -4,7 +4,7 @@ id: p_AfDGGh6h4aUB2seMFJ2w8R
 status: active
 merged_into: null
 display_name: 王宇
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_jqytP4b1ow89RfSt_Z6Kmq
+        subject_person_id: p_CgEKz1NoAXQAHTMt7rq26j
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AfDGGh6h4aUB2seMFJ2w8R
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0PDqpw6ETqDty76jw5V_P4
+          claim_id: c_jqytP4b1ow89RfSt_Z6Kmq
+          source_id: s_2D4p66LisW9zuWaUxemQ21
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第二甲第二十六名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_CgEKz1NoAXQAHTMt7rq26j
+        status: active
+        display_name: 王希哲
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_Z5crrassfcZdayH1hHcx8B
+        subject_person_id: p_iN53V4mFM6PKNc4Xcrnzf6
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_AfDGGh6h4aUB2seMFJ2w8R
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Al9gSo94g0pErXHhHiBF_3
+          claim_id: c_Z5crrassfcZdayH1hHcx8B
+          source_id: s_2D4p66LisW9zuWaUxemQ21
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第二甲第二十六名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iN53V4mFM6PKNc4Xcrnzf6
+        status: active
+        display_name: 王敦本
+        merged_into_person_id: null
+    - claim:
+        id: c_62c2nEOxXXMOm-BpPKARNl
+        subject_person_id: p_ALnGH7uowije6trJgmryLj
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_AfDGGh6h4aUB2seMFJ2w8R
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_b--pm6-VqfMxRWx-MCRTfI
+          claim_id: c_62c2nEOxXXMOm-BpPKARNl
+          source_id: s_2D4p66LisW9zuWaUxemQ21
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第二甲第二十六名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ALnGH7uowije6trJgmryLj
+        status: active
+        display_name: 王友德
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_CgEKz1NoAXQAHTMt7rq26j | 王希哲 | accepted |
+| ancestors | p_iN53V4mFM6PKNc4Xcrnzf6 | 王敦本 | accepted |
+| ancestors | p_ALnGH7uowije6trJgmryLj | 王友德 | accepted |
 
 ## 外部来源
 

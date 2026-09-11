@@ -4,7 +4,7 @@ id: p_a6jmb3ajVms3ePYfHKWKGp
 status: active
 merged_into: null
 display_name: 王綱
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Pw4q_9yFOsyTmhuoAgjAWy
+        subject_person_id: p_a6jmb3ajVms3ePYfHKWKGp
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_NkAbTJ9d5SmH3apwzG6XBB
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_m253hcn4W_U2U1uacMk5JF
+          claim_id: c_Pw4q_9yFOsyTmhuoAgjAWy
+          source_id: s_ML9FjNANmmG3EfnYzWQVQd
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Zhenguan25：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NkAbTJ9d5SmH3apwzG6XBB
+        status: active
+        display_name: 王靈仙
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_NkAbTJ9d5SmH3apwzG6XBB | 王靈仙 | accepted |
 
 ## 外部来源
 

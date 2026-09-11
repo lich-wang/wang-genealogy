@@ -4,7 +4,7 @@ id: p_KwmWMeiQjGEdzbLEyCiVBf
 status: active
 merged_into: null
 display_name: 王可立
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_xwc0Jr4rjtNrbGo063Z0ZT
+        subject_person_id: p_94ag6NiU4Wc9zyDs7jya2c
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_KwmWMeiQjGEdzbLEyCiVBf
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yide6nfVztyc47Kf545Ca7
+          claim_id: c_xwc0Jr4rjtNrbGo063Z0ZT
+          source_id: s_nJLAiR3cf9AoVcn4SN3vXa
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第二百九十一名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_nJLAiR3cf9AoVcn4SN3vXa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廣（CBDB 318948）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318948&o=json
+            external_identifier: CBDB:318948
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.036Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_94ag6NiU4Wc9zyDs7jya2c
+        status: active
+        display_name: 王廣
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_94ag6NiU4Wc9zyDs7jya2c | 王廣 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王廣（CBDB 318948）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318948&o=json)
 - [中国历代人物传记资料库：王可立（CBDB 204430）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204430&o=json)

@@ -4,7 +4,7 @@ id: p_9xcg6CwbyTEQgcCr8e5FM9
 status: active
 merged_into: null
 display_name: 王侁
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,116 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_dVpVya96JIu_X3Yjy6mEbc
+        subject_person_id: p_guYr4ZdNuqkgdxQE2cH7Dh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9xcg6CwbyTEQgcCr8e5FM9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_O6CFaKRYBIC2gASqxJcdCh
+          claim_id: c_dVpVya96JIu_X3Yjy6mEbc
+          source_id: s_MHQj8p6JKDeBHpAZKz9dix
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changan 31：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_guYr4ZdNuqkgdxQE2cH7Dh
+        status: active
+        display_name: 王感
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_mb48isdvAa-cmOL7r4ite6
+        subject_person_id: p_9xcg6CwbyTEQgcCr8e5FM9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MoXDbNQNaeNKc9hN1zvHox
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1Yo3a4XYFE77XazbQ1ssPb
+          claim_id: c_mb48isdvAa-cmOL7r4ite6
+          source_id: s_MHQj8p6JKDeBHpAZKz9dix
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changan 31：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MoXDbNQNaeNKc9hN1zvHox
+        status: active
+        display_name: 王仙敬
+        merged_into_person_id: null
+    - claim:
+        id: c_q9M6vdbfWP8nLKo_Hn-xzJ
+        subject_person_id: p_9xcg6CwbyTEQgcCr8e5FM9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4bw3hL8tv3Hh7uNoH8iyNz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mGsSD3JJEwIMYfWEZjQPE2
+          claim_id: c_q9M6vdbfWP8nLKo_Hn-xzJ
+          source_id: s_MHQj8p6JKDeBHpAZKz9dix
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changan 31：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_4bw3hL8tv3Hh7uNoH8iyNz
+        status: active
+        display_name: 王仙童
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_90cZhO5LIUdysebEfQiXao
+        subject_person_id: p_fWQug9xQCTzMH5DTZi3S5g
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9xcg6CwbyTEQgcCr8e5FM9
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ULeQflznM3tyYQEVmIwqrV
+          claim_id: c_90cZhO5LIUdysebEfQiXao
+          source_id: s_MHQj8p6JKDeBHpAZKz9dix
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changan 31：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_fWQug9xQCTzMH5DTZi3S5g
+        status: active
+        display_name: 王僧
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +259,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_guYr4ZdNuqkgdxQE2cH7Dh | 王感 | accepted |
+| children | p_MoXDbNQNaeNKc9hN1zvHox | 王仙敬 | accepted |
+| children | p_4bw3hL8tv3Hh7uNoH8iyNz | 王仙童 | accepted |
+| ancestors | p_fWQug9xQCTzMH5DTZi3S5g | 王僧 | accepted |
 
 ## 外部来源
 

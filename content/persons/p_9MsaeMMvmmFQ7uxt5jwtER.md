@@ -4,7 +4,7 @@ id: p_9MsaeMMvmmFQ7uxt5jwtER
 status: active
 merged_into: null
 display_name: 王善述
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,59 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_VW21vnwhIN71b0MHo9zzub
+        subject_person_id: p_9MsaeMMvmmFQ7uxt5jwtER
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9KoQkJpzmuFGWSKkeqbZoc
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_W4q9weVJKvMLxAoZKiHEkl
+          claim_id: c_VW21vnwhIN71b0MHo9zzub
+          source_id: s_8jsXcpNNYj3edFMcgCwyjQ
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第一甲第三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_9KoQkJpzmuFGWSKkeqbZoc
+        status: active
+        display_name: 王庭譔
+        merged_into_person_id: null
+    - claim:
+        id: c_PGVJFTaLpnquIHXeCYadxn
+        subject_person_id: p_9MsaeMMvmmFQ7uxt5jwtER
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BehY6enP6cGJBMEXqAzGFc
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aGRhO4e-_g3HARQ1sQGbD9
+          claim_id: c_PGVJFTaLpnquIHXeCYadxn
+          source_id: s_8jsXcpNNYj3edFMcgCwyjQ
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第一百三十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_BehY6enP6cGJBMEXqAzGFc
+        status: active
+        display_name: 王庭諭
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_9KoQkJpzmuFGWSKkeqbZoc | 王庭譔 | accepted |
+| descendants | p_BehY6enP6cGJBMEXqAzGFc | 王庭諭 | accepted |
 
 ## 外部来源
 

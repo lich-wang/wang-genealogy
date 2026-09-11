@@ -4,7 +4,7 @@ id: p_x7nHkQedNcVpQxMo4X6md9
 status: active
 merged_into: null
 display_name: 王謙
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_u40i-IiBM6CXM3Oaho2YyL
+        subject_person_id: p_9kp1R9kMofV4byDaScDC99
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_x7nHkQedNcVpQxMo4X6md9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BtYIdey3CUa6GyQ5eTCIqo
+          claim_id: c_u40i-IiBM6CXM3Oaho2YyL
+          source_id: s_pthh45n9s6r2LCMHtgr5L5
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第一百九十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_pthh45n9s6r2LCMHtgr5L5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王希文（CBDB 253539）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253539&o=json
+            external_identifier: CBDB:253539
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.310Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_9kp1R9kMofV4byDaScDC99
+        status: active
+        display_name: 王希文
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_9kp1R9kMofV4byDaScDC99 | 王希文 | accepted |
 | ancestors | p_4v2LXAEJV5JBL6unrk4WXN | 王士能 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王謙（CBDB 200085）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200085&o=json)
 - [中国历代人物传记资料库：王士能（CBDB 253538）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253538&o=json)
+- [中国历代人物传记资料库：王希文（CBDB 253539）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253539&o=json)

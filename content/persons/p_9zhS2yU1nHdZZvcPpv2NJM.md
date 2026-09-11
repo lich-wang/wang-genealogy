@@ -4,7 +4,7 @@ id: p_9zhS2yU1nHdZZvcPpv2NJM
 status: active
 merged_into: null
 display_name: 王渥
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_1RYjEIf8-PWtXGT3stmQUe
+        subject_person_id: p_LKzDYAPDmX1Dcm3kwWWk7w
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9zhS2yU1nHdZZvcPpv2NJM
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fQ26WkCLV2NgwhBv62jZjy
+          claim_id: c_1RYjEIf8-PWtXGT3stmQUe
+          source_id: s_thk77d8ByQCJmegimMVSeY
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，159 王九言墓志：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_LKzDYAPDmX1Dcm3kwWWk7w
+        status: active
+        display_name: 王九言
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_LKzDYAPDmX1Dcm3kwWWk7w | 王九言 | accepted |
 
 ## 外部来源
 

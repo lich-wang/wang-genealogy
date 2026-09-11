@@ -4,7 +4,7 @@ id: p_aabBxXPLcM6N6VjGC9FrrY
 status: active
 merged_into: null
 display_name: 王琳
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_XRk4Q5iCT3-lIADkwSOPi9
+        subject_person_id: p_c9qMmjg6ShUcbRMz8upxQ9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aabBxXPLcM6N6VjGC9FrrY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Tcse5frLZiwaidZzCmRSoB
+          claim_id: c_XRk4Q5iCT3-lIADkwSOPi9
+          source_id: s_DxH93UieDPA9NdBmWVHZkb
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第二甲第六十名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_c9qMmjg6ShUcbRMz8upxQ9
+        status: active
+        display_name: 王景明
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_D3oudUJJnuH8bLDOJX-Uy9
+        subject_person_id: p_LwpbLAjs1GpyXx1VwqVnm9
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_aabBxXPLcM6N6VjGC9FrrY
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_N4Uj4JLrko1tTiJDiWkXgb
+          claim_id: c_D3oudUJJnuH8bLDOJX-Uy9
+          source_id: s_DxH93UieDPA9NdBmWVHZkb
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第二甲第六十名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_LwpbLAjs1GpyXx1VwqVnm9
+        status: active
+        display_name: 王福賜
+        merged_into_person_id: null
+    - claim:
+        id: c_XKQ9wtNVpy2de3TBnrr-hL
+        subject_person_id: p_iVsKoMKZ2pdBqdgY6tXGNE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_aabBxXPLcM6N6VjGC9FrrY
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LE8fjfR6krVH9WjE2o1_VX
+          claim_id: c_XKQ9wtNVpy2de3TBnrr-hL
+          source_id: s_DxH93UieDPA9NdBmWVHZkb
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第二甲第六十名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iVsKoMKZ2pdBqdgY6tXGNE
+        status: active
+        display_name: 王以曾
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_c9qMmjg6ShUcbRMz8upxQ9 | 王景明 | accepted |
+| ancestors | p_LwpbLAjs1GpyXx1VwqVnm9 | 王福賜 | accepted |
+| ancestors | p_iVsKoMKZ2pdBqdgY6tXGNE | 王以曾 | accepted |
 
 ## 外部来源
 

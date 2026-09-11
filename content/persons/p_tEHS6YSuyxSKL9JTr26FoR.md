@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王嗣美
 cbdb_id: 206544
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -134,7 +134,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_KYL6gXt30YidZixmukTT2P
+        subject_person_id: p_9WpcStsZRmHLcorTLRGwCH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_tEHS6YSuyxSKL9JTr26FoR
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NHRBQgyQvJa96_mtOVZVeJ
+          claim_id: c_KYL6gXt30YidZixmukTT2P
+          source_id: s_4n3PciZWcax2vJpWHcTDra
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第二十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4n3PciZWcax2vJpWHcTDra
+            source_type: api_record
+            title: 中国历代人物传记资料库：王朝雍（CBDB 219537）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219537&o=json
+            external_identifier: CBDB:219537
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.281Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_9WpcStsZRmHLcorTLRGwCH
+        status: active
+        display_name: 王朝雍
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_9WpcStsZRmHLcorTLRGwCH | 王朝雍 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王朝雍（CBDB 219537）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219537&o=json)
 - [中国历代人物传记资料库：王嗣美（CBDB 206544）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206544&o=json)

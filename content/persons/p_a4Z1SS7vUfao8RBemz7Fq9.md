@@ -4,7 +4,7 @@ id: p_a4Z1SS7vUfao8RBemz7Fq9
 status: active
 merged_into: null
 display_name: 王兆琛
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_N69PJI6e0JrPQop6d4kPjU
+        subject_person_id: p_a4Z1SS7vUfao8RBemz7Fq9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6n1BzC9EQ9oU7PGzVBSSwn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oWmM56HNJjvr9n8PBABl3K
+          claim_id: c_N69PJI6e0JrPQop6d4kPjU
+          source_id: s_brKMi5GwnBcw3HCt4kiPWS
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1869：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_6n1BzC9EQ9oU7PGzVBSSwn
+        status: active
+        display_name: 王丙归
+        merged_into_person_id: null
+    - claim:
+        id: c_LadpX5wmYiZATbRjvCnwlM
+        subject_person_id: p_a4Z1SS7vUfao8RBemz7Fq9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_93mcNiPtLm1MXFz8PQPE8k
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ODnzynw5W7T0w6LWKQ3G_d
+          claim_id: c_LadpX5wmYiZATbRjvCnwlM
+          source_id: s_brKMi5GwnBcw3HCt4kiPWS
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1869：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_93mcNiPtLm1MXFz8PQPE8k
+        status: active
+        display_name: 王伯平
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_6n1BzC9EQ9oU7PGzVBSSwn | 王丙归 | accepted |
+| children | p_93mcNiPtLm1MXFz8PQPE8k | 王伯平 | accepted |
 
 ## 外部来源
 

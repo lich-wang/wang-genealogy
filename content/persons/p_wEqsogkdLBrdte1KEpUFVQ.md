@@ -4,7 +4,7 @@ id: p_wEqsogkdLBrdte1KEpUFVQ
 status: active
 merged_into: null
 display_name: 王祐
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Bgpm8J0EZ9nqN9f8MRLPRC
+        subject_person_id: p_aeQuz9T27oQ8FHTk36tCX7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wEqsogkdLBrdte1KEpUFVQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pH_-4jfRPT5Z7RQHfnd11g
+          claim_id: c_Bgpm8J0EZ9nqN9f8MRLPRC
+          source_id: s_3bzL7xxo5wfo9JJxb3hVnV
+          stance: supports
+          locator: 宋史：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3bzL7xxo5wfo9JJxb3hVnV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王徹（CBDB 37837）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37837&o=json
+            external_identifier: CBDB:37837
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.268Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_aeQuz9T27oQ8FHTk36tCX7
+        status: active
+        display_name: 王徹
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -134,9 +171,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_aeQuz9T27oQ8FHTk36tCX7 | 王徹 | accepted |
 | descendants | p_7YfpL25vUrnwFFcc6SBg38 | 王博文 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王博文（CBDB 1860）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1860&o=json)
+- [中国历代人物传记资料库：王徹（CBDB 37837）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37837&o=json)
 - [中国历代人物传记资料库：王祐（CBDB 38358）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38358&o=json)

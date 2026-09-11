@@ -4,7 +4,7 @@ id: p_BVkBAP336H6h6hUZQK8J4m
 status: active
 merged_into: null
 display_name: 王珂
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_rzVMf8LOjL_gweeX6AzvOY
+        subject_person_id: p_8WSGHAfAoQ3TLEpo8p8wJU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BVkBAP336H6h6hUZQK8J4m
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_A6p6njNM1OG6k9bEjpNdgY
+          claim_id: c_rzVMf8LOjL_gweeX6AzvOY
+          source_id: s_7Kh4ohyjr1CuQj4gARXkoz
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7Kh4ohyjr1CuQj4gARXkoz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王重榮（CBDB 185355）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185355&o=json
+            external_identifier: CBDB:185355
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.243Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8WSGHAfAoQ3TLEpo8p8wJU
+        status: active
+        display_name: 王重榮
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_8WSGHAfAoQ3TLEpo8p8wJU | 王重榮 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王珂（CBDB 194808）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=194808&o=json)
+- [中国历代人物传记资料库：王重榮（CBDB 185355）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185355&o=json)

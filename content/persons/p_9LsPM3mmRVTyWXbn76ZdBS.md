@@ -4,7 +4,7 @@ id: p_9LsPM3mmRVTyWXbn76ZdBS
 status: active
 merged_into: null
 display_name: 王梓材
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -133,7 +133,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_BzjRJHPJ6S5YyZMj4N75Ic
+        subject_person_id: p_dxC9gW114KB1SftNyNvP7E
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9LsPM3mmRVTyWXbn76ZdBS
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wmj2pCEZe-ypdXrJuYP2vG
+          claim_id: c_BzjRJHPJ6S5YyZMj4N75Ic
+          source_id: s_K5SVxd8rNhNDGSsPDGw7bC
+          stance: supports
+          locator: 鄞縣志，lgid=243606：高祖;四世祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_dxC9gW114KB1SftNyNvP7E
+        status: active
+        display_name: 王炳
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_dxC9gW114KB1SftNyNvP7E | 王炳 | accepted |
 
 ## 外部来源
 

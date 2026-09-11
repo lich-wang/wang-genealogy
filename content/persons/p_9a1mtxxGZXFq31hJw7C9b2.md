@@ -4,7 +4,7 @@ id: p_9a1mtxxGZXFq31hJw7C9b2
 status: active
 merged_into: null
 display_name: 王材成
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Cq_Mga0oQicIlPR0dok8Hw
+        subject_person_id: p_zjQMXTGNWTchLi9wmdCnEK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9a1mtxxGZXFq31hJw7C9b2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pi2b9s9z-1XvCWGf1K2eXL
+          claim_id: c_Cq_Mga0oQicIlPR0dok8Hw
+          source_id: s_Hv42LH4eNaeHxnVq4ETXRr
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13179：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zjQMXTGNWTchLi9wmdCnEK
+        status: active
+        display_name: 王澤宏
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_zjQMXTGNWTchLi9wmdCnEK | 王澤宏 | accepted |
 
 ## 外部来源
 

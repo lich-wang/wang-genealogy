@@ -4,7 +4,7 @@ id: p_99gNXAHSy7CHUSg6MDVZmM
 status: active
 merged_into: null
 display_name: 王常
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_PZHhFeyFCfKk04JMfcWWQP
+        subject_person_id: p_SeER6gzsJFyEjnyJm77Ynj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_99gNXAHSy7CHUSg6MDVZmM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TRO7EtvFQMlgfnvJ_yenN9
+          claim_id: c_PZHhFeyFCfKk04JMfcWWQP
+          source_id: s_HNnvggNwswDJGWDv9EXqk2
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第五名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_SeER6gzsJFyEjnyJm77Ynj
+        status: active
+        display_name: 王有問
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_cCmpoFAZgsauG__j1yLYmG
+        subject_person_id: p_y9b65dPC5ByVDFyhVvtNXq
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_99gNXAHSy7CHUSg6MDVZmM
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_173M7UqPr86d76x4aTuMQX
+          claim_id: c_cCmpoFAZgsauG__j1yLYmG
+          source_id: s_HNnvggNwswDJGWDv9EXqk2
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第五名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_y9b65dPC5ByVDFyhVvtNXq
+        status: active
+        display_name: 王景中
+        merged_into_person_id: null
+    - claim:
+        id: c_AWIU2FW9Dpd9PvX0g6ShXT
+        subject_person_id: p_Qafs4uENg7bHttaTMzcQa2
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_99gNXAHSy7CHUSg6MDVZmM
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_r1b7JiO8Ulxqmd69O4WN7J
+          claim_id: c_AWIU2FW9Dpd9PvX0g6ShXT
+          source_id: s_HNnvggNwswDJGWDv9EXqk2
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第五名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Qafs4uENg7bHttaTMzcQa2
+        status: active
+        display_name: 王琰
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_SeER6gzsJFyEjnyJm77Ynj | 王有問 | accepted |
+| ancestors | p_y9b65dPC5ByVDFyhVvtNXq | 王景中 | accepted |
+| ancestors | p_Qafs4uENg7bHttaTMzcQa2 | 王琰 | accepted |
 
 ## 外部来源
 

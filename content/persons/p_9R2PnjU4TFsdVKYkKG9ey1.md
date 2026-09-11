@@ -4,7 +4,7 @@ id: p_9R2PnjU4TFsdVKYkKG9ey1
 status: active
 merged_into: null
 display_name: 王師
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,13 +128,143 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_F8JfAjLHKCg30DfwZU-voE
+        subject_person_id: p_qJfbazWMyfyRTkG1DCoppW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9R2PnjU4TFsdVKYkKG9ey1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Mi2vxYy9DmdVih_YVxiDZD
+          claim_id: c_F8JfAjLHKCg30DfwZU-voE
+          source_id: s_4GMYnMdeW3aw1wHLc1HKGC
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 33：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qJfbazWMyfyRTkG1DCoppW
+        status: active
+        display_name: 王隴
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_9lEn9KZ95bM8dn5wg_8mf8
+        subject_person_id: p_9R2PnjU4TFsdVKYkKG9ey1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qXxx9xLmZeLfa2PxAvYBgF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3NZVgDD8oEV1I6Wa_QbOcA
+          claim_id: c_9lEn9KZ95bM8dn5wg_8mf8
+          source_id: s_4GMYnMdeW3aw1wHLc1HKGC
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 33：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qXxx9xLmZeLfa2PxAvYBgF
+        status: active
+        display_name: 王福
+        merged_into_person_id: null
+    - claim:
+        id: c_1IGaYcDFN_3NF1o8nmC3H-
+        subject_person_id: p_9R2PnjU4TFsdVKYkKG9ey1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gHkFYbMpMFGLHwHzMxr2aZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RokfGAst5WdsQPQBwcesQb
+          claim_id: c_1IGaYcDFN_3NF1o8nmC3H-
+          source_id: s_4GMYnMdeW3aw1wHLc1HKGC
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 33：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_gHkFYbMpMFGLHwHzMxr2aZ
+        status: active
+        display_name: 王藏
+        merged_into_person_id: null
+    - claim:
+        id: c_peGkC1oQkumSmblYbGEvoJ
+        subject_person_id: p_9R2PnjU4TFsdVKYkKG9ey1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Co2DGBdwu7WgzJPTb77dhb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VmPQ5OKcYdx7HhaCgImBKg
+          claim_id: c_peGkC1oQkumSmblYbGEvoJ
+          source_id: s_4GMYnMdeW3aw1wHLc1HKGC
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 33：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Co2DGBdwu7WgzJPTb77dhb
+        status: active
+        display_name: 王思慶
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_up58a7T87P4kwMTOUlqQVI
+        subject_person_id: p_9R2PnjU4TFsdVKYkKG9ey1
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_uDYRKyMyfPzTyBM5v6wNw4
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WX17QMlBClDBuWS8lFC8mR
+          claim_id: c_up58a7T87P4kwMTOUlqQVI
+          source_id: s_4GMYnMdeW3aw1wHLc1HKGC
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 33：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uDYRKyMyfPzTyBM5v6wNw4
+        status: active
+        display_name: 王齊由
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,6 +285,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qJfbazWMyfyRTkG1DCoppW | 王隴 | accepted |
+| children | p_qXxx9xLmZeLfa2PxAvYBgF | 王福 | accepted |
+| children | p_gHkFYbMpMFGLHwHzMxr2aZ | 王藏 | accepted |
+| children | p_Co2DGBdwu7WgzJPTb77dhb | 王思慶 | accepted |
+| descendants | p_uDYRKyMyfPzTyBM5v6wNw4 | 王齊由 | accepted |
 
 ## 外部来源
 

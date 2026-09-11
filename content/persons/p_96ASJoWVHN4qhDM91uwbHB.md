@@ -4,7 +4,7 @@ id: p_96ASJoWVHN4qhDM91uwbHB
 status: active
 merged_into: null
 display_name: 王錫培
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_wZq5kvvV5YTpxxCtqupm9u
+        subject_person_id: p_96ASJoWVHN4qhDM91uwbHB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_EL2ZLeri5DQgtW249ANVHN
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F6yxoDD8GK2ih71pRrIHkm
+          claim_id: c_wZq5kvvV5YTpxxCtqupm9u
+          source_id: s_nDpCS3mzR6PXoFdTdGzBGm
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13139：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_EL2ZLeri5DQgtW249ANVHN
+        status: active
+        display_name: 王肇謙
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_EL2ZLeri5DQgtW249ANVHN | 王肇謙 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_A9HBUiPheNuZXSzS6uKNGM
 status: active
 merged_into: null
 display_name: 王重簡
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_1hCqSnYbwR-8zGDYRpGt0Z
+        subject_person_id: p_Z8DtSBjAEoUzy8cxQNFS2x
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_A9HBUiPheNuZXSzS6uKNGM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oSIoQ21Sm39xuM62YWy_Mr
+          claim_id: c_1hCqSnYbwR-8zGDYRpGt0Z
+          source_id: s_TqJvxYK9r8o8ewpfaMB22K
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Z8DtSBjAEoUzy8cxQNFS2x
+        status: active
+        display_name: 王縱
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Z8DtSBjAEoUzy8cxQNFS2x | 王縱 | accepted |
 
 ## 外部来源
 

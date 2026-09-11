@@ -4,7 +4,7 @@ id: p_pv2pDE9A1jj2uMGHCGpC7T
 status: active
 merged_into: null
 display_name: 王廷
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -180,7 +180,81 @@ relationships:
         status: active
         display_name: 王昺
         merged_into_person_id: null
-  descendants: []
+  descendants:
+    - claim:
+        id: c_MNMYOtVVXRQ3-XrkW3fPFk
+        subject_person_id: p_pv2pDE9A1jj2uMGHCGpC7T
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_8WqY814yTSDVKdHuN73Emp
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TZPA520tnmkZvQwCJcPNI3
+          claim_id: c_MNMYOtVVXRQ3-XrkW3fPFk
+          source_id: s_35Yxqty3QrBk1ZEWQwsdsZ
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第二甲第八名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_35Yxqty3QrBk1ZEWQwsdsZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王兆麟（CBDB 290832）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290832&o=json
+            external_identifier: CBDB:290832
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.352Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8WqY814yTSDVKdHuN73Emp
+        status: active
+        display_name: 王兆麟
+        merged_into_person_id: null
+    - claim:
+        id: c__38Pb5g2zViYNb5W458U7E
+        subject_person_id: p_pv2pDE9A1jj2uMGHCGpC7T
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_AekZyQ7TS4wN6cVKAwRb86
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3tVdbHs9MiNpn5GzzbU-3B
+          claim_id: c__38Pb5g2zViYNb5W458U7E
+          source_id: s_GWgJtbCgupBjz3MNCYM3GN
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第二甲第八名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GWgJtbCgupBjz3MNCYM3GN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王兆龍（CBDB 290830）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290830&o=json
+            external_identifier: CBDB:290830
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.352Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_AekZyQ7TS4wN6cVKAwRb86
+        status: active
+        display_name: 王兆龍
+        merged_into_person_id: null
   other: []
 ---
 
@@ -202,9 +276,13 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_56nMpgobEseCZRMmEFRumw | 王續之 | accepted |
 | ancestors | p_6AWFkDwvMEx3gmWMnZMPwe | 王昺 | accepted |
+| descendants | p_8WqY814yTSDVKdHuN73Emp | 王兆麟 | accepted |
+| descendants | p_AekZyQ7TS4wN6cVKAwRb86 | 王兆龍 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王昺（CBDB 209880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209880&o=json)
 - [中国历代人物传记资料库：王廷（CBDB 69148）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69148&o=json)
 - [中国历代人物传记资料库：王續之（CBDB 290827）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290827&o=json)
+- [中国历代人物传记资料库：王兆麟（CBDB 290832）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290832&o=json)
+- [中国历代人物传记资料库：王兆龍（CBDB 290830）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290830&o=json)

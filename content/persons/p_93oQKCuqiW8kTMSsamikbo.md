@@ -4,7 +4,7 @@ id: p_93oQKCuqiW8kTMSsamikbo
 status: active
 merged_into: null
 display_name: 王慥
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_iJY4f1pGKmuGbp2buXkP_x
+        subject_person_id: p_g2qc4piXEUaM3GmzDY5nSR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_93oQKCuqiW8kTMSsamikbo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v2-agw7zYWMrXmZFm8V4Nl
+          claim_id: c_iJY4f1pGKmuGbp2buXkP_x
+          source_id: s_WSoEjrFj9ddy8MgZxVMTx3
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_g2qc4piXEUaM3GmzDY5nSR
+        status: active
+        display_name: 王鎡
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_5P4RvokrZn1mO3baHmAq7H
+        subject_person_id: p_93oQKCuqiW8kTMSsamikbo
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uWPKRKaLtjXvJ5VxEWdjSy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OsbP3cCc8Bh11c_ZdOtaUE
+          claim_id: c_5P4RvokrZn1mO3baHmAq7H
+          source_id: s_WSoEjrFj9ddy8MgZxVMTx3
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uWPKRKaLtjXvJ5VxEWdjSy
+        status: active
+        display_name: 王滌
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_g2qc4piXEUaM3GmzDY5nSR | 王鎡 | accepted |
+| children | p_uWPKRKaLtjXvJ5VxEWdjSy | 王滌 | accepted |
 
 ## 外部来源
 

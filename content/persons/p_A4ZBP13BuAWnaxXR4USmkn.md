@@ -4,7 +4,7 @@ id: p_A4ZBP13BuAWnaxXR4USmkn
 status: active
 merged_into: null
 display_name: 王彬
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_7FJmuH01dlR5FKuB0fZ7E0
+        subject_person_id: p_A4ZBP13BuAWnaxXR4USmkn
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_h7fXGW2qXexjH8ke4RSdR3
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5bRT7UTIjbeoByz4RNy8z9
+          claim_id: c_7FJmuH01dlR5FKuB0fZ7E0
+          source_id: s_VG6hzm3AnPqJ1Zs9e6Fr1w
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第三甲第一百四十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_h7fXGW2qXexjH8ke4RSdR3
+        status: active
+        display_name: 王金
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_h7fXGW2qXexjH8ke4RSdR3 | 王金 | accepted |
 
 ## 外部来源
 

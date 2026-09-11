@@ -4,7 +4,7 @@ id: p_dq3acFriL2Ls2rg2CVb8Es
 status: active
 merged_into: null
 display_name: 王三錫
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Re9ugLsW9EINnRWnbV36WF
+        subject_person_id: p_9RFe9RzCfLtq53n3raxU8d
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dq3acFriL2Ls2rg2CVb8Es
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ADDOZXQdJ89h2eZMsKYsBe
+          claim_id: c_Re9ugLsW9EINnRWnbV36WF
+          source_id: s_89q4qpNWok5qa5JTYihq29
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_89q4qpNWok5qa5JTYihq29
+            source_type: api_record
+            title: 中国历代人物传记资料库：王綬（CBDB 316189）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316189&o=json
+            external_identifier: CBDB:316189
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.956Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_9RFe9RzCfLtq53n3raxU8d
+        status: active
+        display_name: 王綬
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_9RFe9RzCfLtq53n3raxU8d | 王綬 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王三錫（CBDB 204223）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204223&o=json)
+- [中国历代人物传记资料库：王綬（CBDB 316189）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316189&o=json)

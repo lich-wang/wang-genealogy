@@ -4,7 +4,7 @@ id: p_9SjxQ1HhMppQmPyJMc5Xha
 status: active
 merged_into: null
 display_name: 王述
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_qEBHQ2WdmTiLpUqGB3vqGs
+        subject_person_id: p_9SjxQ1HhMppQmPyJMc5Xha
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mLW4Uj954EJp3eBdLbHu1C
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HkHnn07YHtfyjTfXs7lvZC
+          claim_id: c_qEBHQ2WdmTiLpUqGB3vqGs
+          source_id: s_CFywKgyTykjQExJvKrWqqb
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yifeng 4：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_mLW4Uj954EJp3eBdLbHu1C
+        status: active
+        display_name: 王彥
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_mLW4Uj954EJp3eBdLbHu1C | 王彥 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_923xZ5qSMZFGgS46h7nLWU
 status: active
 merged_into: null
 display_name: 王樵
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -133,7 +133,59 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_W5gj3nmCx_8itkP3hEgRsQ
+        subject_person_id: p_Eb1QdbChXgN1GA8BEpt3kU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_923xZ5qSMZFGgS46h7nLWU
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6I31ULflWEwLVZt5G_UHB2
+          claim_id: c_W5gj3nmCx_8itkP3hEgRsQ
+          source_id: s_eb5Xn1ejYbkj9jFGqum44L
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第十五名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Eb1QdbChXgN1GA8BEpt3kU
+        status: active
+        display_name: 王鎮
+        merged_into_person_id: null
+    - claim:
+        id: c_bA8JxrQeQeYJ68A5jiv00C
+        subject_person_id: p_XJ6D4tBNDdCJKx5sTBjB7e
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_923xZ5qSMZFGgS46h7nLWU
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qPGyOjQM9c8V3o6nE3A0Ed
+          claim_id: c_bA8JxrQeQeYJ68A5jiv00C
+          source_id: s_eb5Xn1ejYbkj9jFGqum44L
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第十五名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_XJ6D4tBNDdCJKx5sTBjB7e
+        status: active
+        display_name: 王瀚
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_Eb1QdbChXgN1GA8BEpt3kU | 王鎮 | accepted |
+| ancestors | p_XJ6D4tBNDdCJKx5sTBjB7e | 王瀚 | accepted |
 
 ## 外部来源
 

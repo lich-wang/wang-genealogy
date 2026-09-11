@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王纯礼
 cbdb_id: 264936
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -143,7 +143,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_40pBM4nXKvY-Fjqkhk4HVQ
+        subject_person_id: p_WWiatCTUQBMimYAeHSJjDW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9esUYZvNqsWNd3UXAh8qx5
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1WvENtP5XcizzwMw80Nn5y
+          claim_id: c_40pBM4nXKvY-Fjqkhk4HVQ
+          source_id: s_8nUwjmnF5xTmqZCNqzBRAK
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第二十四名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8nUwjmnF5xTmqZCNqzBRAK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王縝（CBDB 68275）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68275&o=json
+            external_identifier: CBDB:68275
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.064Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_9esUYZvNqsWNd3UXAh8qx5
+        status: active
+        display_name: 王縝
+        merged_into_person_id: null
   other: []
 ---
 
@@ -163,9 +200,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_YUKAdQiXr1DTx2KFsrYLgt | 王琛 | accepted |
+| descendants | p_9esUYZvNqsWNd3UXAh8qx5 | 王縝 | accepted |
 
 ## 外部来源
 
 - [维基数据：王琛（Q45583436）](https://www.wikidata.org/wiki/Q45583436)
 - [维基数据：王纯礼（Q45583309）](https://www.wikidata.org/wiki/Q45583309)
+- [中国历代人物传记资料库：王縝（CBDB 68275）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68275&o=json)
 - [CBDB 中国历代人物传记资料库：王純禮（264936）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264936&o=json)

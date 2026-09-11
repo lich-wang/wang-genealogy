@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王以曾
 cbdb_id: 255289
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_XKQ9wtNVpy2de3TBnrr-hL
+        subject_person_id: p_iVsKoMKZ2pdBqdgY6tXGNE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_aabBxXPLcM6N6VjGC9FrrY
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LE8fjfR6krVH9WjE2o1_VX
+          claim_id: c_XKQ9wtNVpy2de3TBnrr-hL
+          source_id: s_DxH93UieDPA9NdBmWVHZkb
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第二甲第六十名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_DxH93UieDPA9NdBmWVHZkb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王琳（CBDB 126709）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126709&o=json
+            external_identifier: CBDB:126709
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.144Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_aabBxXPLcM6N6VjGC9FrrY
+        status: active
+        display_name: 王琳
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_aabBxXPLcM6N6VjGC9FrrY | 王琳 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王琳（CBDB 126709）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126709&o=json)
 - [中国历代人物传记资料库：王以曾（CBDB 255289）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255289&o=json)

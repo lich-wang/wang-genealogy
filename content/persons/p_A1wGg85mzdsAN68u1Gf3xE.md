@@ -4,7 +4,7 @@ id: p_A1wGg85mzdsAN68u1Gf3xE
 status: active
 merged_into: null
 display_name: 王璇
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_ny-TM6x0OAelg8rEHfQ_eQ
+        subject_person_id: p_A1wGg85mzdsAN68u1Gf3xE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QEv9JkrQeGsCuUNSrnAe4w
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YFxFoRMzNkiz2955nT0fXs
+          claim_id: c_ny-TM6x0OAelg8rEHfQ_eQ
+          source_id: s_AtLg71EAXT937KbMwJXjjn
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yonghui 18：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_QEv9JkrQeGsCuUNSrnAe4w
+        status: active
+        display_name: 王順孫
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_QEv9JkrQeGsCuUNSrnAe4w | 王順孫 | accepted |
 
 ## 外部来源
 

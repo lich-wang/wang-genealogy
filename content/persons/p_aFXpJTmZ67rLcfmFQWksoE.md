@@ -4,7 +4,7 @@ id: p_aFXpJTmZ67rLcfmFQWksoE
 status: active
 merged_into: null
 display_name: 王羽京
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_n5VJQmRFoFay1Pj04DYiMY
+        subject_person_id: p_N65QDJFDdhG9u5knhb7C1E
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aFXpJTmZ67rLcfmFQWksoE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WGg82PnC9LO5r7GykmbA_f
+          claim_id: c_n5VJQmRFoFay1Pj04DYiMY
+          source_id: s_XEky1Co1BUWvTeomQNSid9
+          stance: supports
+          locator: 南陽府志，lgid=878784：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_N65QDJFDdhG9u5knhb7C1E
+        status: active
+        display_name: 王之德
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_N65QDJFDdhG9u5knhb7C1E | 王之德 | accepted |
 
 ## 外部来源
 

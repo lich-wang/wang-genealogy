@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王元啟
 cbdb_id: 69073
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -177,7 +177,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_NCm8f8XIeWBi3mDUMtD1BY
+        subject_person_id: p_A7S6nvMvjgqk35bSmAAsKa
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cS8iRxUqSiwH1xDUypDuN2
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3w5fyQnkxngzsgReWg06Wo
+          claim_id: c_NCm8f8XIeWBi3mDUMtD1BY
+          source_id: s_EAZMGCSdNwsKe59raJft74
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12770：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_EAZMGCSdNwsKe59raJft74
+            source_type: api_record
+            title: 中国历代人物传记资料库：王承榮（CBDB 526685）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526685&o=json
+            external_identifier: CBDB:526685
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.333Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_A7S6nvMvjgqk35bSmAAsKa
+        status: active
+        display_name: 王承榮
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -199,7 +236,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_A7S6nvMvjgqk35bSmAAsKa | 王承榮 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王承榮（CBDB 526685）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526685&o=json)
 - [中国历代人物传记资料库：王元啟（CBDB 69073）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69073&o=json)

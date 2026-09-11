@@ -4,7 +4,7 @@ id: p_gH1Zf7c2UUGbFQrJkFjGFF
 status: active
 merged_into: null
 display_name: 王延
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -166,7 +166,81 @@ relationships:
         status: active
         display_name: 王則
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_5HLZ0E4MbS34lZHlJp6aHy
+        subject_person_id: p_gH1Zf7c2UUGbFQrJkFjGFF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_98MJXk1KqMV6MxjuZjTkdJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1y5Wj8s_M6WzbEHxpX50EF
+          claim_id: c_5HLZ0E4MbS34lZHlJp6aHy
+          source_id: s_aiAaZV3WC6v2SurFHq4CEB
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Qianfeng 2：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_aiAaZV3WC6v2SurFHq4CEB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敬本（CBDB 148121）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148121&o=json
+            external_identifier: CBDB:148121
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.755Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_98MJXk1KqMV6MxjuZjTkdJ
+        status: active
+        display_name: 王敬本
+        merged_into_person_id: null
+    - claim:
+        id: c_6Y6Mqm3s0ej6FCLpke-zw8
+        subject_person_id: p_gH1Zf7c2UUGbFQrJkFjGFF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aESp1nBMMyVwnp6eCu6H74
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SFxiMHKPJ8lYbpMH28G5Wd
+          claim_id: c_6Y6Mqm3s0ej6FCLpke-zw8
+          source_id: s_MpHbe4iUuPpaUfhj63KnbH
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Qianfeng 2：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MpHbe4iUuPpaUfhj63KnbH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敬業（CBDB 148122）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148122&o=json
+            external_identifier: CBDB:148122
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.757Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_aESp1nBMMyVwnp6eCu6H74
+        status: active
+        display_name: 王敬業
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,8 +267,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_5m89y2Q5Np1HJ8k52qc2BP | 王則 | accepted |
+| children | p_98MJXk1KqMV6MxjuZjTkdJ | 王敬本 | accepted |
+| children | p_aESp1nBMMyVwnp6eCu6H74 | 王敬業 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王敬本（CBDB 148121）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148121&o=json)
+- [中国历代人物传记资料库：王敬業（CBDB 148122）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148122&o=json)
 - [中国历代人物传记资料库：王延（CBDB 139481）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139481&o=json)
 - [中国历代人物传记资料库：王則（CBDB 148120）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148120&o=json)

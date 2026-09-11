@@ -4,7 +4,7 @@ id: p_9V8s84od5ZmB9RMgrFpSAN
 status: active
 merged_into: null
 display_name: 王濬
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,13 +72,65 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c__wlfLCv6Sy45zYDWmh3fsZ
+        subject_person_id: p_FYLvHDnSxXgRduKw9zQjET
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9V8s84od5ZmB9RMgrFpSAN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_coV-FQuXoQzNSCs1meuiYT
+          claim_id: c__wlfLCv6Sy45zYDWmh3fsZ
+          source_id: s_SJCVM2ubkk486ddmMLdHvC
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_FYLvHDnSxXgRduKw9zQjET
+        status: active
+        display_name: 王論
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_6_jSvF4RGUwfMj6AfYDPzm
+        subject_person_id: p_9V8s84od5ZmB9RMgrFpSAN
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_JbrJcaN3MdnZ95DCfhnHwS
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8sS037RTaY2pwmoyU8zRT1
+          claim_id: c_6_jSvF4RGUwfMj6AfYDPzm
+          source_id: s_SJCVM2ubkk486ddmMLdHvC
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Huichang 56：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_JbrJcaN3MdnZ95DCfhnHwS
+        status: active
+        display_name: 王惲
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_FYLvHDnSxXgRduKw9zQjET | 王論 | accepted |
+| descendants | p_JbrJcaN3MdnZ95DCfhnHwS | 王惲 | accepted |
 
 ## 外部来源
 

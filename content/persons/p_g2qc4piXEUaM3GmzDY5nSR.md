@@ -4,7 +4,7 @@ id: p_g2qc4piXEUaM3GmzDY5nSR
 status: active
 merged_into: null
 display_name: 王鎡
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -138,7 +138,44 @@ relationships:
         status: active
         display_name: 王晤
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_iJY4f1pGKmuGbp2buXkP_x
+        subject_person_id: p_g2qc4piXEUaM3GmzDY5nSR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_93oQKCuqiW8kTMSsamikbo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v2-agw7zYWMrXmZFm8V4Nl
+          claim_id: c_iJY4f1pGKmuGbp2buXkP_x
+          source_id: s_WSoEjrFj9ddy8MgZxVMTx3
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_WSoEjrFj9ddy8MgZxVMTx3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王慥（CBDB 175826）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175826&o=json
+            external_identifier: CBDB:175826
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.148Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_93oQKCuqiW8kTMSsamikbo
+        status: active
+        display_name: 王慥
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_2BHkEYekoT1S8S2R49LZgW | 王晤 | accepted |
+| children | p_93oQKCuqiW8kTMSsamikbo | 王慥 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王晤（CBDB 175822）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175822&o=json)
+- [中国历代人物传记资料库：王慥（CBDB 175826）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175826&o=json)
 - [中国历代人物传记资料库：王鎡（CBDB 175823）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175823&o=json)

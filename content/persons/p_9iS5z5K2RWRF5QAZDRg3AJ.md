@@ -4,7 +4,7 @@ id: p_9iS5z5K2RWRF5QAZDRg3AJ
 status: active
 merged_into: null
 display_name: 王鑰
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_WsxmjPdoAWbLrtlLoV7ZbM
+        subject_person_id: p_9iS5z5K2RWRF5QAZDRg3AJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_mhrvputkBEQ43wY64CJw5k
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_n8SE9X7zxvcybOpAxAaFoT
+          claim_id: c_WsxmjPdoAWbLrtlLoV7ZbM
+          source_id: s_rLCwqD9oTky6DHGpRR1MGp
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第二甲第五十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_mhrvputkBEQ43wY64CJw5k
+        status: active
+        display_name: 王乾亨
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_mhrvputkBEQ43wY64CJw5k | 王乾亨 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王惟恕
 cbdb_id: 203695
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -134,7 +134,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_tmPiO-P1kVcEgARlwOw-CE
+        subject_person_id: p_98PafcwBqQVKP2h5jChxCd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_xXSR8uBFHqUzBi2gqK2tw2
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hMXj9B0ojVr2_zJmBskAVf
+          claim_id: c_tmPiO-P1kVcEgARlwOw-CE
+          source_id: s_MLL26snfQXaQimJz399gsR
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第二甲第十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MLL26snfQXaQimJz399gsR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷表（CBDB 308698）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308698&o=json
+            external_identifier: CBDB:308698
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.798Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_98PafcwBqQVKP2h5jChxCd
+        status: active
+        display_name: 王廷表
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_98PafcwBqQVKP2h5jChxCd | 王廷表 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王廷表（CBDB 308698）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308698&o=json)
 - [中国历代人物传记资料库：王惟恕（CBDB 203695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203695&o=json)

@@ -4,7 +4,7 @@ id: p_qJfbazWMyfyRTkG1DCoppW
 status: active
 merged_into: null
 display_name: 王隴
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_F8JfAjLHKCg30DfwZU-voE
+        subject_person_id: p_qJfbazWMyfyRTkG1DCoppW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9R2PnjU4TFsdVKYkKG9ey1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Mi2vxYy9DmdVih_YVxiDZD
+          claim_id: c_F8JfAjLHKCg30DfwZU-voE
+          source_id: s_4GMYnMdeW3aw1wHLc1HKGC
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 33：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4GMYnMdeW3aw1wHLc1HKGC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王師（CBDB 140308）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140308&o=json
+            external_identifier: CBDB:140308
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.492Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_9R2PnjU4TFsdVKYkKG9ey1
+        status: active
+        display_name: 王師
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_9R2PnjU4TFsdVKYkKG9ey1 | 王師 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王隴（CBDB 151194）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151194&o=json)
+- [中国历代人物传记资料库：王師（CBDB 140308）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140308&o=json)

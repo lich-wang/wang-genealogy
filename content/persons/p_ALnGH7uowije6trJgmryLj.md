@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王友德
 cbdb_id: 236841
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_62c2nEOxXXMOm-BpPKARNl
+        subject_person_id: p_ALnGH7uowije6trJgmryLj
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_AfDGGh6h4aUB2seMFJ2w8R
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_b--pm6-VqfMxRWx-MCRTfI
+          claim_id: c_62c2nEOxXXMOm-BpPKARNl
+          source_id: s_2D4p66LisW9zuWaUxemQ21
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第二甲第二十六名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_2D4p66LisW9zuWaUxemQ21
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宇（CBDB 66976）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=66976&o=json
+            external_identifier: CBDB:66976
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.969Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_AfDGGh6h4aUB2seMFJ2w8R
+        status: active
+        display_name: 王宇
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_AfDGGh6h4aUB2seMFJ2w8R | 王宇 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王友德（CBDB 236841）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236841&o=json)
+- [中国历代人物传记资料库：王宇（CBDB 66976）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=66976&o=json)

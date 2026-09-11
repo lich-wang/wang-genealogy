@@ -4,7 +4,7 @@ id: p_AfuEzx374a7WNXTfcMcWwd
 status: active
 merged_into: null
 display_name: 王獻臣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c__Tr12bAUV9FL7T7DIPRKx6
+        subject_person_id: p_vmWmptGLTYqo5zFQQyE1ek
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AfuEzx374a7WNXTfcMcWwd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UPGd3S8IKwbP3L_n97l35E
+          claim_id: c__Tr12bAUV9FL7T7DIPRKx6
+          source_id: s_eiGJS5K3CYMceZonDwA3P8
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第一百名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vmWmptGLTYqo5zFQQyE1ek
+        status: active
+        display_name: 王瑾
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_36byLAiV8H3S4dK2WCljgS
+        subject_person_id: p_wUBGxrZa6P78WZVLrT2yi5
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_AfuEzx374a7WNXTfcMcWwd
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F4MzcQP6gzM8O6RYO6TXHS
+          claim_id: c_36byLAiV8H3S4dK2WCljgS
+          source_id: s_eiGJS5K3CYMceZonDwA3P8
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第一百名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wUBGxrZa6P78WZVLrT2yi5
+        status: active
+        display_name: 王文榮
+        merged_into_person_id: null
+    - claim:
+        id: c_ZDpmjeK0rnewSTSGnRjH_Z
+        subject_person_id: p_LbuKwgtm6zjB3poDp2uQZP
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_AfuEzx374a7WNXTfcMcWwd
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7XYXi5byx3_rDbns87JIfo
+          claim_id: c_ZDpmjeK0rnewSTSGnRjH_Z
+          source_id: s_eiGJS5K3CYMceZonDwA3P8
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第一百名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_LbuKwgtm6zjB3poDp2uQZP
+        status: active
+        display_name: 王成
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vmWmptGLTYqo5zFQQyE1ek | 王瑾 | accepted |
+| ancestors | p_wUBGxrZa6P78WZVLrT2yi5 | 王文榮 | accepted |
+| ancestors | p_LbuKwgtm6zjB3poDp2uQZP | 王成 | accepted |
 
 ## 外部来源
 

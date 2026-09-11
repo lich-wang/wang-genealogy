@@ -4,7 +4,7 @@ id: p_hqiWEXZWa5X9QnwMqYLvir
 status: active
 merged_into: null
 display_name: 王通
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_NJ6Z74kJJo_j-8dDQiitZe
+        subject_person_id: p_92dJxsE25TGjV3u455Tj1Y
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_hqiWEXZWa5X9QnwMqYLvir
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__9a5mj214rFgY-0qDX53hc
+          claim_id: c_NJ6Z74kJJo_j-8dDQiitZe
+          source_id: s_M5QkyHLHqBoYq24hfMjY2E
+          stance: supports
+          locator: 宣德五年進士登科錄:一卷，第三甲第四十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_M5QkyHLHqBoYq24hfMjY2E
+            source_type: api_record
+            title: 中国历代人物传记资料库：王志善（CBDB 322765）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322765&o=json
+            external_identifier: CBDB:322765
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.129Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_92dJxsE25TGjV3u455Tj1Y
+        status: active
+        display_name: 王志善
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_92dJxsE25TGjV3u455Tj1Y | 王志善 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王通（CBDB 204696）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204696&o=json)
+- [中国历代人物传记资料库：王志善（CBDB 322765）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322765&o=json)

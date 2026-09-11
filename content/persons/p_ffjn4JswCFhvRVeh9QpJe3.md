@@ -4,7 +4,7 @@ id: p_ffjn4JswCFhvRVeh9QpJe3
 status: active
 merged_into: null
 display_name: 王方諝
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -138,7 +138,44 @@ relationships:
         status: active
         display_name: 王弘義
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_KsNui5Ijb956HN3n69d3nZ
+        subject_person_id: p_ffjn4JswCFhvRVeh9QpJe3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_92on9Z7ZbHj2wBGtTrfGy3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_U25Lk5fOG2xeh6X58DjA9h
+          claim_id: c_KsNui5Ijb956HN3n69d3nZ
+          source_id: s_dZU34ztUDa4PPuWM3K5gBv
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_dZU34ztUDa4PPuWM3K5gBv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王眘（CBDB 175648）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175648&o=json
+            external_identifier: CBDB:175648
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.237Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_92on9Z7ZbHj2wBGtTrfGy3
+        status: active
+        display_name: 王眘
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_8bxLujAKdv5L436XQAo6GK | 王弘義 | accepted |
+| children | p_92on9Z7ZbHj2wBGtTrfGy3 | 王眘 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王方諝（CBDB 175647）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175647&o=json)
 - [中国历代人物传记资料库：王弘義（CBDB 175646）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175646&o=json)
+- [中国历代人物传记资料库：王眘（CBDB 175648）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175648&o=json)

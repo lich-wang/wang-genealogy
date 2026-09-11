@@ -4,7 +4,7 @@ id: p_9EQ7RpHJJENgpoTNeutQ15
 status: active
 merged_into: null
 display_name: 王珦
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_64B9Q2L1_4aXvu6jnUJ_kS
+        subject_person_id: p_SVG1ddZNL58D1StuN9eK9h
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9EQ7RpHJJENgpoTNeutQ15
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_R6MtoUkC-DwHD6kCkTPWJL
+          claim_id: c_64B9Q2L1_4aXvu6jnUJ_kS
+          source_id: s_7V4YP3YNCGruTEhfMNKbCt
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第二甲第四十六名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_SVG1ddZNL58D1StuN9eK9h
+        status: active
+        display_name: 王懷德
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_2tgIhGyi--jVquUat6bOfr
+        subject_person_id: p_WniQ5aD1dTCDBDynYPgLdF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9EQ7RpHJJENgpoTNeutQ15
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0BDqnc4viUcNvZB11sPGkG
+          claim_id: c_2tgIhGyi--jVquUat6bOfr
+          source_id: s_7V4YP3YNCGruTEhfMNKbCt
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第二甲第四十六名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WniQ5aD1dTCDBDynYPgLdF
+        status: active
+        display_name: 王舍英
+        merged_into_person_id: null
+    - claim:
+        id: c_yb5E0kWV7oTdz5RonLmdm6
+        subject_person_id: p_GjaW1yRuQmTJJRQN3c2uKv
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9EQ7RpHJJENgpoTNeutQ15
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qjdO70w8_uxLneE8FQNWwE
+          claim_id: c_yb5E0kWV7oTdz5RonLmdm6
+          source_id: s_7V4YP3YNCGruTEhfMNKbCt
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第二甲第四十六名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GjaW1yRuQmTJJRQN3c2uKv
+        status: active
+        display_name: 王彥良
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_SVG1ddZNL58D1StuN9eK9h | 王懷德 | accepted |
+| ancestors | p_WniQ5aD1dTCDBDynYPgLdF | 王舍英 | accepted |
+| ancestors | p_GjaW1yRuQmTJJRQN3c2uKv | 王彥良 | accepted |
 
 ## 外部来源
 

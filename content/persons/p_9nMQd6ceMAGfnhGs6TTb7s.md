@@ -4,7 +4,7 @@ id: p_9nMQd6ceMAGfnhGs6TTb7s
 status: active
 merged_into: null
 display_name: 王袞錫
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_M5ZiKJTPsEHi-8d_s2U2PX
+        subject_person_id: p_ftZ1PRscrPmBh4Qh3AiyfY
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9nMQd6ceMAGfnhGs6TTb7s
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MZWFxTDJop9sRjrhDbJAJs
+          claim_id: c_M5ZiKJTPsEHi-8d_s2U2PX
+          source_id: s_dSJCzs2ekrJDZHTqbsR9qZ
+          stance: supports
+          locator: 紹興府志:八十卷，Igid=316302：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ftZ1PRscrPmBh4Qh3AiyfY
+        status: active
+        display_name: 王思任
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_ftZ1PRscrPmBh4Qh3AiyfY | 王思任 | accepted |
 
 ## 外部来源
 

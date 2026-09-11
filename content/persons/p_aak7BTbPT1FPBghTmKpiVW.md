@@ -4,7 +4,7 @@ id: p_aak7BTbPT1FPBghTmKpiVW
 status: active
 merged_into: null
 display_name: 王收
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_j6c2XPZKAuDuOpeBQjDT6r
+        subject_person_id: p_Z9eKPAK6aboLcXL2xUEuDQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aak7BTbPT1FPBghTmKpiVW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pcnfpqO4C-FSDqHMt9Llh_
+          claim_id: c_j6c2XPZKAuDuOpeBQjDT6r
+          source_id: s_oNo9Hfx2vpoGM4Pu6R8WFy
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Z9eKPAK6aboLcXL2xUEuDQ
+        status: active
+        display_name: 王行古
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_x9sh-_7ncS48eemNN8jO-_
+        subject_person_id: p_aak7BTbPT1FPBghTmKpiVW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bdu1W8PsJpyj6YBFL29PeS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BL8621yMHW6bz7RpBWDxCR
+          claim_id: c_x9sh-_7ncS48eemNN8jO-_
+          source_id: s_oNo9Hfx2vpoGM4Pu6R8WFy
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_bdu1W8PsJpyj6YBFL29PeS
+        status: active
+        display_name: 王超
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Z9eKPAK6aboLcXL2xUEuDQ | 王行古 | accepted |
+| children | p_bdu1W8PsJpyj6YBFL29PeS | 王超 | accepted |
 
 ## 外部来源
 

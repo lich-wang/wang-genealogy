@@ -4,7 +4,7 @@ id: p_9wLmhipMJQC6WtLg2tjADA
 status: active
 merged_into: null
 display_name: 王惟修
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_MKPAvwFUzc_8AgwxjsxgvO
+        subject_person_id: p_9wLmhipMJQC6WtLg2tjADA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hqdVLMqKBsN3LPvQN6KMEN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WO1PlyeKBaywpdZU6XydwM
+          claim_id: c_MKPAvwFUzc_8AgwxjsxgvO
+          source_id: s_WHD8pSe69najqm9wKkQVT4
+          stance: supports
+          locator: "民國歙縣志: 十六卷，lgid=1163586：子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hqdVLMqKBsN3LPvQN6KMEN
+        status: active
+        display_name: 王崇浩
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_hqdVLMqKBsN3LPvQN6KMEN | 王崇浩 | accepted |
 
 ## 外部来源
 

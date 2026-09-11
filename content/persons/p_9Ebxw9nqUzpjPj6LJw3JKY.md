@@ -4,7 +4,7 @@ id: p_9Ebxw9nqUzpjPj6LJw3JKY
 status: active
 merged_into: null
 display_name: 王用
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,64 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_snpkYZN-VLIj4kwIWhu8k2
+        subject_person_id: p_8bLH6jDFtEPUQUPbN8XFMB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9Ebxw9nqUzpjPj6LJw3JKY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KruIZ16c81PaoEu3hr62pj
+          claim_id: c_snpkYZN-VLIj4kwIWhu8k2
+          source_id: s_Rma4qxGwFz8V88WW24kMWD
+          stance: supports
+          locator: 宣德八年進士登科錄:一卷，第二甲第十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_8bLH6jDFtEPUQUPbN8XFMB
+        status: active
+        display_name: 王思名
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_3U_VnvW1eg9k1Q1Z1eYmwA
+        subject_person_id: p_9ouQsZcUnaoXayzCQzDJCM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9Ebxw9nqUzpjPj6LJw3JKY
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j2vvBP8O7_xMG2-BzScY6q
+          claim_id: c_3U_VnvW1eg9k1Q1Z1eYmwA
+          source_id: s_Rma4qxGwFz8V88WW24kMWD
+          stance: supports
+          locator: 宣德八年進士登科錄:一卷，第二甲第十七名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_9ouQsZcUnaoXayzCQzDJCM
+        status: active
+        display_name: 王仲祥
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_8bLH6jDFtEPUQUPbN8XFMB | 王思名 | accepted |
+| ancestors | p_9ouQsZcUnaoXayzCQzDJCM | 王仲祥 | accepted |
 
 ## 外部来源
 

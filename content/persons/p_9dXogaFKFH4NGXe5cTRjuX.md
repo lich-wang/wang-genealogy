@@ -4,7 +4,7 @@ id: p_9dXogaFKFH4NGXe5cTRjuX
 status: active
 merged_into: null
 display_name: 王天佑
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_SDlOXIRjoehhPOV2Q4r8tP
+        subject_person_id: p_QF6A98m467UcszySjyeD7G
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9dXogaFKFH4NGXe5cTRjuX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ry9RdSDVqkVWE_77tFZHQH
+          claim_id: c_SDlOXIRjoehhPOV2Q4r8tP
+          source_id: s_BPhcejVbKqG8XeNh6BPqMV
+          stance: supports
+          locator: 元人傳記資料索引，914：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_QF6A98m467UcszySjyeD7G
+        status: active
+        display_name: 王政
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_f7ojD-vlO2xCuyQmfboet-
+        subject_person_id: p_9dXogaFKFH4NGXe5cTRjuX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vmc84hGLjE8k646JU69St7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_z0wAS99r83gC0nVC_e13gh
+          claim_id: c_f7ojD-vlO2xCuyQmfboet-
+          source_id: s_BPhcejVbKqG8XeNh6BPqMV
+          stance: supports
+          locator: 元人傳記資料索引，1270：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vmc84hGLjE8k646JU69St7
+        status: active
+        display_name: 王德元
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_QF6A98m467UcszySjyeD7G | 王政 | accepted |
+| children | p_vmc84hGLjE8k646JU69St7 | 王德元 | accepted |
 
 ## 外部来源
 

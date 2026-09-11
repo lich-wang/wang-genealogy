@@ -4,7 +4,7 @@ id: p_vM6985QJehceoGJD1bbJKF
 status: active
 merged_into: null
 display_name: 王澄
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -209,6 +209,43 @@ relationships:
         status: active
         display_name: 王瀹
         merged_into_person_id: null
+    - claim:
+        id: c_M1DDG8IpG1P4f0nSyOluJI
+        subject_person_id: p_vM6985QJehceoGJD1bbJKF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_A41SYFNqMRpiFQWr968GE9
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BCSx6vU66qaq9WiD_oyb39
+          claim_id: c_M1DDG8IpG1P4f0nSyOluJI
+          source_id: s_CMwGWyKHgyvt9D7oaqeNwz
+          stance: supports
+          locator: 宋濂全集，1606：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_CMwGWyKHgyvt9D7oaqeNwz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王淇（CBDB 134181）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134181&o=json
+            external_identifier: CBDB:134181
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.312Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_A41SYFNqMRpiFQWr968GE9
+        status: active
+        display_name: 王淇
+        merged_into_person_id: null
   other: []
 ---
 
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | descendants | p_2b14Pj9cMfbGVVm23QMpPW | 王應 | accepted |
 | descendants | p_2M3Bp18QYjru654oK8qp9J | 王瀹 | accepted |
+| descendants | p_A41SYFNqMRpiFQWr968GE9 | 王淇 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王澄（CBDB 100938）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100938&o=json)
+- [中国历代人物传记资料库：王淇（CBDB 134181）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134181&o=json)
 - [中国历代人物传记资料库：王應（CBDB 134166）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134166&o=json)
 - [中国历代人物传记资料库：王瀹（CBDB 134187）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134187&o=json)

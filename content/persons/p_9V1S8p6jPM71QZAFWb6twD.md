@@ -4,7 +4,7 @@ id: p_9V1S8p6jPM71QZAFWb6twD
 status: active
 merged_into: null
 display_name: 王禧
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_mUpsQDGlr_1s-vCfoLqk1X
+        subject_person_id: p_9V1S8p6jPM71QZAFWb6twD
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_USmQUSMYXi4KzQDYfEfPrB
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UBSo0bGMEo81jM0rbiKnaV
+          claim_id: c_mUpsQDGlr_1s-vCfoLqk1X
+          source_id: s_SH85YdWrk91hveG3Moo16D
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第三甲第八十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_USmQUSMYXi4KzQDYfEfPrB
+        status: active
+        display_name: 王三聘
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_USmQUSMYXi4KzQDYfEfPrB | 王三聘 | accepted |
 
 ## 外部来源
 
