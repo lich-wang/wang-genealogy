@@ -4,7 +4,7 @@ id: p_kFVLZcH5HhGCPzncqbfvAU
 status: active
 merged_into: null
 display_name: 王紹
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_XuiqqjzvIQIJvpYBf9WrOX
+        subject_person_id: p_kFVLZcH5HhGCPzncqbfvAU
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_NjPduXYBX7s59BpL4Ei7xQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IXIDSTAn27RbVzw-EWDX3E
+          claim_id: c_XuiqqjzvIQIJvpYBf9WrOX
+          source_id: s_OwKopGOCD7qZifFKSf2mxQ
+          stance: supports
+          locator: 正统十年進士登科錄:一卷，第三甲第五十名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_OwKopGOCD7qZifFKSf2mxQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：范氏(王紹妻)（CBDB 239749）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239749&o=json
+            external_identifier: CBDB:239749
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_NjPduXYBX7s59BpL4Ei7xQ
+        status: active
+        display_name: 范氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_HsNzWgVXWhRETHa_YDnbhu
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_nefeMLtgMPz4G3meRc7Z5Q | 王瓛 | accepted |
+| spouses | p_NjPduXYBX7s59BpL4Ei7xQ | 范氏 | accepted |
 | ancestors | p_QXWS8yJEnBh94xSEq6pZ6K | 王伯祥 | accepted |
 | ancestors | p_DbR6AZz63ppJQ3UojmKdb4 | 王彥禮 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：范氏(王紹妻)（CBDB 239749）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239749&o=json)
 - [中国历代人物传记资料库：王紹（CBDB 208052）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208052&o=json)

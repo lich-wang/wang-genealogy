@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王樹芳
 cbdb_id: 56686
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -90,7 +90,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_9OmvOsQV78vf3pYWmnl4y5
+        subject_person_id: p_X1MgmP3Hn1bFxABzXcA2W5
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_D9DjLw1YaEtrC3RZGNGJ9y
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FhVixIN2XMfQQSWGMGb0RI
+          claim_id: c_9OmvOsQV78vf3pYWmnl4y5
+          source_id: s_iL3ahCKsgcc4sQ504DAktq
+          stance: supports
+          locator: CBDB 双向互证（妻子 鄭蘊英）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_iL3ahCKsgcc4sQ504DAktq
+            source_type: api_record
+            title: 中国历代人物传记资料库：鄭蘊英（CBDB 56685）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56685&o=json
+            external_identifier: CBDB:56685
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_D9DjLw1YaEtrC3RZGNGJ9y
+        status: active
+        display_name: 鄭蘊英
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_D9DjLw1YaEtrC3RZGNGJ9y | 鄭蘊英 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王樹芳（CBDB 56686）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56686&o=json)
+- [中国历代人物传记资料库：鄭蘊英（CBDB 56685）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56685&o=json)

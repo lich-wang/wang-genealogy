@@ -4,7 +4,7 @@ id: p_WfKGNEwFj8S9f7DUKj8X6D
 status: active
 merged_into: null
 display_name: 王正己
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_Nyrk8ENkR_6TpndyqyavU-
+        subject_person_id: p_WfKGNEwFj8S9f7DUKj8X6D
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_ksmqetEKfDBjvzrd8ZgZEW
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4ikbPxwt3SjjOZkuPXMsva
+          claim_id: c_Nyrk8ENkR_6TpndyqyavU-
+          source_id: s_YueGSfenui1tO1wQyAC387
+          stance: supports
+          locator: CBDB 双向互证（妻子 樓氏(王正己妻)）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_YueGSfenui1tO1wQyAC387
+            source_type: api_record
+            title: 中国历代人物传记资料库：樓氏(王正己妻)（CBDB 35679）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35679&o=json
+            external_identifier: CBDB:35679
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ksmqetEKfDBjvzrd8ZgZEW
+        status: active
+        display_name: 樓氏
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -256,11 +293,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_LMN8U3w7r8FiSU2N778GMc | 王勳 | accepted |
+| spouses | p_ksmqetEKfDBjvzrd8ZgZEW | 樓氏 | accepted |
 | descendants | p_5o9Dk9gzYAokEQZKSrc378 | 王惟賢 | accepted |
 | descendants | p_AZ9sTjiiVDDjzecmG4UuBn | 王惟義 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：樓氏(王正己妻)（CBDB 35679）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35679&o=json)
 - [中国历代人物传记资料库：王惟賢（CBDB 19886）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19886&o=json)
 - [中国历代人物传记资料库：王惟義（CBDB 19887）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19887&o=json)
 - [中国历代人物传记资料库：王正己（CBDB 3948）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3948&o=json)

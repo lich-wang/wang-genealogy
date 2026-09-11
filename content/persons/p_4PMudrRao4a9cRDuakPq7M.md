@@ -4,7 +4,7 @@ id: p_4PMudrRao4a9cRDuakPq7M
 status: active
 merged_into: null
 display_name: 王同讚
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_lx3Aec4Xl4vkUrzNek6NLG
+        subject_person_id: p_4PMudrRao4a9cRDuakPq7M
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_FX6yxdESt8n2A1QVNyJNuM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kr2wt-tMJPy_df4Si52R1b
+          claim_id: c_lx3Aec4Xl4vkUrzNek6NLG
+          source_id: s_iogO198fZkjXmrhFLuj4hV
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第二甲第三十七名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_iogO198fZkjXmrhFLuj4hV
+            source_type: api_record
+            title: 中国历代人物传记资料库：唐氏(王同讚妻)（CBDB 326621）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326621&o=json
+            external_identifier: CBDB:326621
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_FX6yxdESt8n2A1QVNyJNuM
+        status: active
+        display_name: 唐氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_8BiRpqd0WOgYT-r5ewqBsH
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_BQt5KMQt85phWutCQLQcnd | 王叔中 | accepted |
+| spouses | p_FX6yxdESt8n2A1QVNyJNuM | 唐氏 | accepted |
 | ancestors | p_Mb2RND5RPdkBbHc3mLAQVY | 王寰 | accepted |
 | ancestors | p_nuYPnF5g2SSrFSB8SSV1Bo | 王綱 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：唐氏(王同讚妻)（CBDB 326621）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326621&o=json)
 - [中国历代人物传记资料库：王同讚（CBDB 204969）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204969&o=json)

@@ -4,7 +4,7 @@ id: p_kAYn8y3iQCatmSJGkXFLhh
 status: active
 merged_into: null
 display_name: 王紀
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_S7A8Bhl3Ye1w41yyuLWQHr
+        subject_person_id: p_kAYn8y3iQCatmSJGkXFLhh
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_ypNH71b91VARmip8v2M5SH
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZeZF_qSlblL0APmjFr8Ykm
+          claim_id: c_S7A8Bhl3Ye1w41yyuLWQHr
+          source_id: s_5udXhJkNmkD8M8eRvqTvDR
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第三甲第一百八十名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5udXhJkNmkD8M8eRvqTvDR
+            source_type: api_record
+            title: 中国历代人物传记资料库：范氏(王紀妻)（CBDB 278793）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278793&o=json
+            external_identifier: CBDB:278793
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ypNH71b91VARmip8v2M5SH
+        status: active
+        display_name: 范氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_XQ0k80M5YwzrxC0WR-RKqz
@@ -176,9 +213,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_KRx9f8uEzGo8ayLUHUrw9A | 王瓚 | accepted |
+| spouses | p_ypNH71b91VARmip8v2M5SH | 范氏 | accepted |
 | ancestors | p_NA54fprXiFWyN6SjGq5DrE | 王秀三 | accepted |
 | ancestors | p_xjifYg2kCZ8329T4F86wRS | 王斌 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：范氏(王紀妻)（CBDB 278793）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278793&o=json)
 - [中国历代人物传记资料库：王紀（CBDB 126621）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126621&o=json)

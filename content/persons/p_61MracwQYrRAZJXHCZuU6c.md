@@ -4,7 +4,7 @@ id: p_61MracwQYrRAZJXHCZuU6c
 status: active
 merged_into: null
 display_name: 王琪
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_wBwOKFki5KgM9hKfaNPc42
+        subject_person_id: p_61MracwQYrRAZJXHCZuU6c
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_KMSFacT3a6js48NftrG7BL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cU1DkWUS_DX3_go36gumX7
+          claim_id: c_wBwOKFki5KgM9hKfaNPc42
+          source_id: s_QMaZmUbiBNRQMTjPcdbGUj
+          stance: supports
+          locator: 元人傳記資料索引，12439：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_QMaZmUbiBNRQMTjPcdbGUj
+            source_type: api_record
+            title: 中国历代人物传记资料库：蔡氏(王琪妻)（CBDB 111639）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=111639&o=json
+            external_identifier: CBDB:111639
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_KMSFacT3a6js48NftrG7BL
+        status: active
+        display_name: 蔡氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_KMSFacT3a6js48NftrG7BL | 蔡氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：蔡氏(王琪妻)（CBDB 111639）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=111639&o=json)
 - [中国历代人物传记资料库：王琪（CBDB 100838）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100838&o=json)

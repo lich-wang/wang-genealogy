@@ -4,7 +4,7 @@ id: p_Kehe8ctFce5vCT9jie7MVt
 status: active
 merged_into: null
 display_name: 王伏興
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -132,7 +132,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_elLeXkOvRgTjR4sR0snI2i
+        subject_person_id: p_Kehe8ctFce5vCT9jie7MVt
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_tR4Gvb9MoXHimxNE5aXHQ4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_95VRGymo3z5w1OK_Tb7Lna
+          claim_id: c_elLeXkOvRgTjR4sR0snI2i
+          source_id: s_Z_dcmB6TLKG1TBJFg05E_J
+          stance: supports
+          locator: CBDB 双向互证（妻子 呂氏(王伏興之妻)）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Z_dcmB6TLKG1TBJFg05E_J
+            source_type: api_record
+            title: 中国历代人物传记资料库：呂氏(王伏興之妻)（CBDB 512474）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=512474&o=json
+            external_identifier: CBDB:512474
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_tR4Gvb9MoXHimxNE5aXHQ4
+        status: active
+        display_name: 呂氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_tR4Gvb9MoXHimxNE5aXHQ4 | 呂氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：呂氏(王伏興之妻)（CBDB 512474）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=512474&o=json)
 - [中国历代人物传记资料库：王伏興（CBDB 138814）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=138814&o=json)

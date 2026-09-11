@@ -4,7 +4,7 @@ id: p_awVba6ceCU97BSyUH4tnLy
 status: active
 merged_into: null
 display_name: 王貞
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -184,7 +184,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_D0jTZfRKjV7zotxlpeZswN
+        subject_person_id: p_awVba6ceCU97BSyUH4tnLy
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_8be6UEB7Xx5jEJpqV5asQ3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YMxH90tw5GbZzVwlc0o5nt
+          claim_id: c_D0jTZfRKjV7zotxlpeZswN
+          source_id: s_Ym9YWqipNcJbbOcit_BcEZ
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changan 19：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Ym9YWqipNcJbbOcit_BcEZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：秦氏(王貞妻)（CBDB 150354）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150354&o=json
+            external_identifier: CBDB:150354
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8be6UEB7Xx5jEJpqV5asQ3
+        status: active
+        display_name: 秦氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -209,7 +246,9 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_WDbStzk1vKSr1wJ371bPnz | 王義 | accepted |
 | children | p_TsNWxPtWYfbjArJ5iJazN1 | 王庭芝 | accepted |
+| spouses | p_8be6UEB7Xx5jEJpqV5asQ3 | 秦氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：秦氏(王貞妻)（CBDB 150354）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150354&o=json)
 - [中国历代人物传记资料库：王貞（CBDB 140124）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140124&o=json)

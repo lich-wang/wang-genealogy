@@ -4,7 +4,7 @@ id: p_35wd94gwG3pzokf4a6CedM
 status: active
 merged_into: null
 display_name: 王登
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -247,7 +247,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_Aehh6xCtWnFnF4v6JZuErN
+        subject_person_id: p_35wd94gwG3pzokf4a6CedM
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_AWHrZaKAHaZx3V7FVZzpXg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FgOaqW_IY7ybSe1A7mXk9K
+          claim_id: c_Aehh6xCtWnFnF4v6JZuErN
+          source_id: s_Iz0WYyrN04YzJVnnqNQ-9x
+          stance: supports
+          locator: 全宋文，卷 5677：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Iz0WYyrN04YzJVnnqNQ-9x
+            source_type: api_record
+            title: 中国历代人物传记资料库：陳氏(陳珫女)（CBDB 385798）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385798&o=json
+            external_identifier: CBDB:385798
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_AWHrZaKAHaZx3V7FVZzpXg
+        status: active
+        display_name: 陳氏
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -352,11 +389,13 @@ relationships:
 | children | p_bkMbqmq6U23rFXaG17Pxzk | 王師心 | accepted |
 | children | p_T2MYUrXuE1JG7HYKSj9LyT | 王師醇 | accepted |
 | children | p_VYtFzPbziddvD9zkw88Psz | 王師德 | accepted |
+| spouses | p_AWHrZaKAHaZx3V7FVZzpXg | 陳氏 | accepted |
 | descendants | p_ABtiiFw9LGXZnTbrZS68pV | 王澐 | accepted |
 | descendants | p_Ccs9NajCd62mVKopumCjG5 | 王演 | accepted |
 | descendants | p_WU918HK6TTpAXfqW367rRb | 王侊 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：陳氏(陳珫女)（CBDB 385798）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385798&o=json)
 - [中国历代人物传记资料库：王登（CBDB 10686）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10686&o=json)
 - [中国历代人物传记资料库：王師心（CBDB 1872）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1872&o=json)

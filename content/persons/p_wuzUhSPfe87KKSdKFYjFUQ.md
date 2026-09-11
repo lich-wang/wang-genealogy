@@ -4,7 +4,7 @@ id: p_wuzUhSPfe87KKSdKFYjFUQ
 status: active
 merged_into: null
 display_name: 王通
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -169,7 +169,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_BjrKKLhkTCtUZS4NOexB0M
+        subject_person_id: p_wuzUhSPfe87KKSdKFYjFUQ
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_MsDyTP1S6D1UQXnBkedUZb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NoIwTzHVReDsfSA0RbSeJY
+          claim_id: c_BjrKKLhkTCtUZS4NOexB0M
+          source_id: s_CgxwsgeRN6LP0D33vRbYl3
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Zhenguan 103：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_CgxwsgeRN6LP0D33vRbYl3
+            source_type: api_record
+            title: 中国历代人物传记资料库：趙氏(王通妻)（CBDB 146692）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=146692&o=json
+            external_identifier: CBDB:146692
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_MsDyTP1S6D1UQXnBkedUZb
+        status: active
+        display_name: 趙氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_MF2GxdYHLyw3qSgLPNcCmu | 王君德 | accepted |
+| spouses | p_MsDyTP1S6D1UQXnBkedUZb | 趙氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王君德（CBDB 146693）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=146693&o=json)
 - [中国历代人物传记资料库：王通（CBDB 138818）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=138818&o=json)
+- [中国历代人物传记资料库：趙氏(王通妻)（CBDB 146692）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=146692&o=json)

@@ -4,7 +4,7 @@ id: p_1R27M2czAahiFDCMUScN43
 status: active
 merged_into: null
 display_name: 王京
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_ZLdtkgMuO3T8m2Fo4i0kvk
+        subject_person_id: p_1R27M2czAahiFDCMUScN43
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_9xpvdq1k8Mjq7XSj6ypNHt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6RLcxZb1ze-3mG3wFuf4B0
+          claim_id: c_ZLdtkgMuO3T8m2Fo4i0kvk
+          source_id: s_TmnLQd6eZ6GgET9lWCtQ0J
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 216：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_TmnLQd6eZ6GgET9lWCtQ0J
+            source_type: api_record
+            title: 中国历代人物传记资料库：崔府君(王京夫)（CBDB 154277）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154277&o=json
+            external_identifier: CBDB:154277
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_9xpvdq1k8Mjq7XSj6ypNHt
+        status: active
+        display_name: 崔府君
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_LFbjukY6cbULQ1YEbXp6AA
@@ -234,9 +271,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_DSKsWKJmH5oHVZyhn4Ad7m | 王瑒 | accepted |
+| spouses | p_9xpvdq1k8Mjq7XSj6ypNHt | 崔府君 | accepted |
 | ancestors | p_S8HLtFDDBHcXVtx11UNHQB | 王道質 | accepted |
 | ancestors | p_aMH6LTAy41QNB3jZAPp6oX | 王仙客 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：崔府君(王京夫)（CBDB 154277）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154277&o=json)
 - [中国历代人物传记资料库：王京（CBDB 141020）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141020&o=json)

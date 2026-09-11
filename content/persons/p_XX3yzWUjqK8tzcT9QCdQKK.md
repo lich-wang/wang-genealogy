@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王玉京
 cbdb_id: 134681
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -90,7 +90,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_YP_5U71sgr1rQaDiSiXtKM
+        subject_person_id: p_XX3yzWUjqK8tzcT9QCdQKK
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_JB8HnSZUQrV5g4D5MvEhRA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ixh-M6ipeqtFSRrl3I3jFV
+          claim_id: c_YP_5U71sgr1rQaDiSiXtKM
+          source_id: s_sFC2WaMkwdQrTkVy-HFpkH
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #2747：丈夫"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_sFC2WaMkwdQrTkVy-HFpkH
+            source_type: api_record
+            title: 中国历代人物传记资料库：衛敬瑜（CBDB 134682）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134682&o=json
+            external_identifier: CBDB:134682
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_JB8HnSZUQrV5g4D5MvEhRA
+        status: active
+        display_name: 衛敬瑜
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_JB8HnSZUQrV5g4D5MvEhRA | 衛敬瑜 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王玉京（CBDB 134681）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134681&o=json)
+- [中国历代人物传记资料库：衛敬瑜（CBDB 134682）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134682&o=json)

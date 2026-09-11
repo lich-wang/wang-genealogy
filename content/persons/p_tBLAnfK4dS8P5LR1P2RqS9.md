@@ -4,7 +4,7 @@ id: p_tBLAnfK4dS8P5LR1P2RqS9
 status: active
 merged_into: null
 display_name: 王詔
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_M99tW7lY4_CY36g8BtEk10
+        subject_person_id: p_tBLAnfK4dS8P5LR1P2RqS9
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_dCwEFm8AmHLmcL4Eo4VJRE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_e1Gy9iYQZT-9I7376sGl2T
+          claim_id: c_M99tW7lY4_CY36g8BtEk10
+          source_id: s_LSR8TnFSX1GzV9OnRlA2jJ
+          stance: supports
+          locator: (乾隆)信陽州志，lgid=868513：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_LSR8TnFSX1GzV9OnRlA2jJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：袁瑀女（CBDB 211134）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211134&o=json
+            external_identifier: CBDB:211134
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_dCwEFm8AmHLmcL4Eo4VJRE
+        status: active
+        display_name: 袁瑀女
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -240,6 +277,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_wMVfyCLqy9dE7qvuBJu9CN | 王瑀 | accepted |
 | children | p_DoWNVNC6JZBAasWbqdoiCX | 王祖嫡 | accepted |
+| spouses | p_dCwEFm8AmHLmcL4Eo4VJRE | 袁瑀女 | accepted |
 | descendants | p_8ct24JW85LFaBwBesKXW2J | 王延世 | accepted |
 | descendants | p_FrJBqWgwUnRtuWZzhb2b4A | 王星奎 | accepted |
 | descendants | p_k9n3ojWfK8xWpfgXcejN2j | 王星璧 | accepted |
@@ -248,3 +286,4 @@ relationships:
 
 - [中国历代人物传记资料库：王延世（CBDB 555424）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555424&o=json)
 - [中国历代人物传记资料库：王詔（CBDB 211133）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211133&o=json)
+- [中国历代人物传记资料库：袁瑀女（CBDB 211134）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211134&o=json)

@@ -4,7 +4,7 @@ id: p_c3HeRQ2gB1HgRTMUsUmrLf
 status: active
 merged_into: null
 display_name: 王泰
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_uE3eLXne339EMhVMAWhnJY
+        subject_person_id: p_c3HeRQ2gB1HgRTMUsUmrLf
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_HzHyTPaCDtV5DHFFPuPSqa
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eOLAOAtyoTbjjK25Np1LRV
+          claim_id: c_uE3eLXne339EMhVMAWhnJY
+          source_id: s_qRKReX645ajgldbGNmc7Hm
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第七十三名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_qRKReX645ajgldbGNmc7Hm
+            source_type: api_record
+            title: 中国历代人物传记资料库：趙氏(王泰妻)（CBDB 256276）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256276&o=json
+            external_identifier: CBDB:256276
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_HzHyTPaCDtV5DHFFPuPSqa
+        status: active
+        display_name: 趙氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_ztoipjYwidjr8O1IB7LeqP
@@ -176,9 +213,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_D2gWNUt9uxgcP7sr6nNjBM | 王復政 | accepted |
+| spouses | p_HzHyTPaCDtV5DHFFPuPSqa | 趙氏 | accepted |
 | ancestors | p_NgFQ5Ve8Hj3c6F7E857w8s | 王文表 | accepted |
 | ancestors | p_weCDMTk8jRHv3CDvqJNajC | 王秉新 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王泰（CBDB 126647）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126647&o=json)
+- [中国历代人物传记资料库：趙氏(王泰妻)（CBDB 256276）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256276&o=json)

@@ -4,7 +4,7 @@ id: p_DVj3x7bTLNfdzZiuwDwTNz
 status: active
 merged_into: null
 display_name: 王應選
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_hpMTWDB69MIOXqPRgnho8M
+        subject_person_id: p_DVj3x7bTLNfdzZiuwDwTNz
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_KbGBHQQQbKRJiB323Cmdqx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cNr56flgO03oaHiRlg2P8T
+          claim_id: c_hpMTWDB69MIOXqPRgnho8M
+          source_id: s_El80vI06f8KErKKnrUKXiw
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第一甲第三名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_El80vI06f8KErKKnrUKXiw
+            source_type: api_record
+            title: 中国历代人物传记资料库：陳氏(王應選妻)（CBDB 212300）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212300&o=json
+            external_identifier: CBDB:212300
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_KbGBHQQQbKRJiB323Cmdqx
+        status: active
+        display_name: 陳氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_G9WKEKd2-oiCHhulONfELw
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_ihrtmmYxDE76Umzs4UE6Cs | 王亮采 | accepted |
+| spouses | p_KbGBHQQQbKRJiB323Cmdqx | 陳氏 | accepted |
 | ancestors | p_mK5D2X8Ro4CfZ376aeXdHw | 王鋼 | accepted |
 | ancestors | p_f9fKkrpc2WRdSRBHDWdsek | 王游 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：陳氏(王應選妻)（CBDB 212300）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212300&o=json)
 - [中国历代人物传记资料库：王應選（CBDB 206025）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206025&o=json)

@@ -4,7 +4,7 @@ id: p_fVVctU3oARvj93SKk81Eji
 status: active
 merged_into: null
 display_name: 王祐
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_2qZaCiANTtLudHgqhSWR1L
+        subject_person_id: p_fVVctU3oARvj93SKk81Eji
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_MFqt9n2LVyLYhLxLS4KsNk
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LMVg52V05b8ynZ1JaumguK
+          claim_id: c_2qZaCiANTtLudHgqhSWR1L
+          source_id: s_wZw6P6jDTiee7RE6XisZAc
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第二百一十二名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_wZw6P6jDTiee7RE6XisZAc
+            source_type: api_record
+            title: 中国历代人物传记资料库：戴氏(王祐妻)（CBDB 282817）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282817&o=json
+            external_identifier: CBDB:282817
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_MFqt9n2LVyLYhLxLS4KsNk
+        status: active
+        display_name: 戴氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_ROzlADA7Lc1o3vr6ayYpiF
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_rMH6azHPPfCWNVYvRKv58F | 王璲 | accepted |
+| spouses | p_MFqt9n2LVyLYhLxLS4KsNk | 戴氏 | accepted |
 | ancestors | p_UDVLaDy9kGf4256o9Lw5uU | 王子讓 | accepted |
 | ancestors | p_GancgNeQ6rSGRzjnYquakL | 王信 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：戴氏(王祐妻)（CBDB 282817）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282817&o=json)
 - [中国历代人物传记资料库：王祐（CBDB 202067）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202067&o=json)

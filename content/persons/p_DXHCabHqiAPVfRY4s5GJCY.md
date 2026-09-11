@@ -4,7 +4,7 @@ id: p_DXHCabHqiAPVfRY4s5GJCY
 status: active
 merged_into: null
 display_name: 王敬
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,118 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_56CFvv811cx9IGx3SbeFxk
+        subject_person_id: p_DXHCabHqiAPVfRY4s5GJCY
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_y59rBAGTTAoLpxwuumwATQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_y7DjAmXAJpY6xJQRcgoYD4
+          claim_id: c_56CFvv811cx9IGx3SbeFxk
+          source_id: s_KGKKD0fTGv8SZJ2VSp8Te1
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Chuigong8：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_KGKKD0fTGv8SZJ2VSp8Te1
+            source_type: api_record
+            title: 中国历代人物传记资料库：閻氏(王敬妻)（CBDB 162877）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162877&o=json
+            external_identifier: CBDB:162877
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_y59rBAGTTAoLpxwuumwATQ
+        status: active
+        display_name: 閻氏
+        merged_into_person_id: null
+    - claim:
+        id: c_85jxunX9S_Yy3EGYozvGpE
+        subject_person_id: p_DXHCabHqiAPVfRY4s5GJCY
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_YhDAa9tzbnb8jiFeKpLNhg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bwRbun85wugH8v22kLItLi
+          claim_id: c_85jxunX9S_Yy3EGYozvGpE
+          source_id: s_YxjV24jJnLD77clITvMUSc
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Chuigong8：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_YxjV24jJnLD77clITvMUSc
+            source_type: api_record
+            title: 中国历代人物传记资料库：郭氏(王敬妻)（CBDB 162878）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162878&o=json
+            external_identifier: CBDB:162878
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_YhDAa9tzbnb8jiFeKpLNhg
+        status: active
+        display_name: 郭氏
+        merged_into_person_id: null
+    - claim:
+        id: c_MYCm83NLa1DA508o-UoOW8
+        subject_person_id: p_DXHCabHqiAPVfRY4s5GJCY
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_zyXwwgy46r8C5YhZP4K9JK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VUUuKA1YThGFfoVv3O-8SG
+          claim_id: c_MYCm83NLa1DA508o-UoOW8
+          source_id: s_Wk2_aHmVpDK2wVB2qnPPVR
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Chuigong8：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Wk2_aHmVpDK2wVB2qnPPVR
+            source_type: api_record
+            title: 中国历代人物传记资料库：宋氏(王敬妻)（CBDB 162879）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162879&o=json
+            external_identifier: CBDB:162879
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_zyXwwgy46r8C5YhZP4K9JK
+        status: active
+        display_name: 宋氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -182,7 +293,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_RhB5HQ32Fj1Dq1FEySG5dM | 王貴 | accepted |
+| spouses | p_y59rBAGTTAoLpxwuumwATQ | 閻氏 | accepted |
+| spouses | p_YhDAa9tzbnb8jiFeKpLNhg | 郭氏 | accepted |
+| spouses | p_zyXwwgy46r8C5YhZP4K9JK | 宋氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：郭氏(王敬妻)（CBDB 162878）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162878&o=json)
+- [中国历代人物传记资料库：宋氏(王敬妻)（CBDB 162879）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162879&o=json)
 - [中国历代人物传记资料库：王敬（CBDB 142720）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142720&o=json)
+- [中国历代人物传记资料库：閻氏(王敬妻)（CBDB 162877）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162877&o=json)

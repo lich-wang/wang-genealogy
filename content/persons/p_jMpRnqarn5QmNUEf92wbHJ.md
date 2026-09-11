@@ -4,7 +4,7 @@ id: p_jMpRnqarn5QmNUEf92wbHJ
 status: active
 merged_into: null
 display_name: 王蘭亭
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_Oe7ez-ymxCILoKPDJkm-j9
+        subject_person_id: p_jMpRnqarn5QmNUEf92wbHJ
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_RUxQjxNeVEChHyh4xeFZaM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5pPxKhezWKAkduQwe_hmb6
+          claim_id: c_Oe7ez-ymxCILoKPDJkm-j9
+          source_id: s_VZMHo8dGZpkTgRPMLuuqh5
+          stance: supports
+          locator: 平陰縣志，lgid=630890：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_VZMHo8dGZpkTgRPMLuuqh5
+            source_type: api_record
+            title: 中国历代人物传记资料库：汝氏(王蘭亭妻)（CBDB 704003）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=704003&o=json
+            external_identifier: CBDB:704003
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_RUxQjxNeVEChHyh4xeFZaM
+        status: active
+        display_name: 汝氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_RUxQjxNeVEChHyh4xeFZaM | 汝氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：汝氏(王蘭亭妻)（CBDB 704003）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=704003&o=json)
 - [中国历代人物传记资料库：王蘭亭（CBDB 704002）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=704002&o=json)

@@ -4,7 +4,7 @@ id: p_pv61XtHSxxg2PJ1X8CE9a2
 status: active
 merged_into: null
 display_name: 王昌辰
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_Kkq7KQF5MZiXyNZYAfFWm9
+        subject_person_id: p_pv61XtHSxxg2PJ1X8CE9a2
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_Z6LwtFV4cUHEyRgoAA6C3G
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BftwtJCGfanQre9Ovs3aHP
+          claim_id: c_Kkq7KQF5MZiXyNZYAfFWm9
+          source_id: s_TbmfczavJQKYqMdGAFbt7r
+          stance: supports
+          locator: 寶祐登科錄：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_TbmfczavJQKYqMdGAFbt7r
+            source_type: api_record
+            title: 中国历代人物传记资料库：何氏(王昌辰妻)（CBDB 138350）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=138350&o=json
+            external_identifier: CBDB:138350
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Z6LwtFV4cUHEyRgoAA6C3G
+        status: active
+        display_name: 何氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_x55StrIop2bmDXbHr3ZaLN
@@ -150,8 +187,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_jPaziDtaCGEkP8PcqETeGP | 王遇龍 | accepted |
+| spouses | p_Z6LwtFV4cUHEyRgoAA6C3G | 何氏 | accepted |
 | ancestors | p_1dbPFx8DinJSbnFHKJaKLg | 王之結 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：何氏(王昌辰妻)（CBDB 138350）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=138350&o=json)
 - [中国历代人物传记资料库：王昌辰（CBDB 136387）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136387&o=json)

@@ -4,7 +4,7 @@ id: p_6YpXxeKRMWr6vVrAX9K1Tv
 status: active
 merged_into: null
 display_name: 王婉
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -184,7 +184,81 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_DMUzs8TZT_NCNMNZTh-Bsm
+        subject_person_id: p_6YpXxeKRMWr6vVrAX9K1Tv
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_A8R9VA4tXrbXvMSZmnc6tB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_334Pr9GkD6e4RSzYwfK4CG
+          claim_id: c_DMUzs8TZT_NCNMNZTh-Bsm
+          source_id: s_Gb5wsykvn68ckChrtv0pkC
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Yongchun3：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Gb5wsykvn68ckChrtv0pkC
+            source_type: api_record
+            title: 中国历代人物传记资料库：韋府君（CBDB 162756）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162756&o=json
+            external_identifier: CBDB:162756
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_A8R9VA4tXrbXvMSZmnc6tB
+        status: active
+        display_name: 韋府君
+        merged_into_person_id: null
+    - claim:
+        id: c_RjhO5NQTCA4WaeRrd1y4K-
+        subject_person_id: p_6YpXxeKRMWr6vVrAX9K1Tv
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_4nKunucn4H8khSLWF8xZoJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_t_ST7UPSFg6C8najAKhIZz
+          claim_id: c_RjhO5NQTCA4WaeRrd1y4K-
+          source_id: s_C33xQ9a-quEZtnxjSgUcCm
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Wansuitongtian4：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_C33xQ9a-quEZtnxjSgUcCm
+            source_type: api_record
+            title: 中国历代人物传记资料库：韋府君（CBDB 163174）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=163174&o=json
+            external_identifier: CBDB:163174
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_4nKunucn4H8khSLWF8xZoJ
+        status: active
+        display_name: 韋府君
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_gYKCA7BM6BSw7qyQhT27F_
@@ -261,9 +335,13 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_5jrDZnpuo7D8jQo9dtTQev | 王韶 | accepted |
 | parents | p_qU5ePg25AxmDuXd2vF94MX | 王元慎 | accepted |
+| spouses | p_A8R9VA4tXrbXvMSZmnc6tB | 韋府君 | accepted |
+| spouses | p_4nKunucn4H8khSLWF8xZoJ | 韋府君 | accepted |
 | ancestors | p_7fzzJxcbXZYkPTFPz4wvKh | 王緝 | accepted |
 | ancestors | p_5Np11bpUk1ewMpdWYFHGy2 | 王令思 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王婉（CBDB 142690）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142690&o=json)
+- [中国历代人物传记资料库：韋府君（CBDB 162756）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162756&o=json)
+- [中国历代人物传记资料库：韋府君（CBDB 163174）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=163174&o=json)

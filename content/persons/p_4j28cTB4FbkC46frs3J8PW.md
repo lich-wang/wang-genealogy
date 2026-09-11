@@ -4,7 +4,7 @@ id: p_4j28cTB4FbkC46frs3J8PW
 status: active
 merged_into: null
 display_name: 王俸
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_89hA-Y8vHXTMRedV5iNw_0
+        subject_person_id: p_4j28cTB4FbkC46frs3J8PW
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_YtCtdN7YNku3PyQRz98krw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qmSWWDZ1ZmgZXDVM3BQO4P
+          claim_id: c_89hA-Y8vHXTMRedV5iNw_0
+          source_id: s_1boo89w4uh_zPWwvfVOUBe
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第二甲第六十五名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1boo89w4uh_zPWwvfVOUBe
+            source_type: api_record
+            title: 中国历代人物传记资料库：顧氏(王俸妻)（CBDB 326926）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326926&o=json
+            external_identifier: CBDB:326926
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_YtCtdN7YNku3PyQRz98krw
+        status: active
+        display_name: 顧氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_KKdbVMNnrl22dwarzFuo-F
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_CYU3Lmv2NgFNx8uqhmJMJn | 王周 | accepted |
+| spouses | p_YtCtdN7YNku3PyQRz98krw | 顧氏 | accepted |
 | ancestors | p_ptHknkqPUqxkwUQH4M34f1 | 王賢 | accepted |
 | ancestors | p_b3DzMFD6PUKX3kbAmmh81b | 王瑜 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：顧氏(王俸妻)（CBDB 326926）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326926&o=json)
 - [中国历代人物传记资料库：王俸（CBDB 204993）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204993&o=json)

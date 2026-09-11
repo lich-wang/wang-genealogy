@@ -4,7 +4,7 @@ id: p_CcL9yeQgRriMhVY3hPmz5a
 status: active
 merged_into: null
 display_name: 王江
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_aPCzaFTlWwfrEm1F7yKEsl
+        subject_person_id: p_CcL9yeQgRriMhVY3hPmz5a
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_9ftKN7J8AGpsWHRUWyFnSU
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vOVuyngKAwcTDK3_zuVGpk
+          claim_id: c_aPCzaFTlWwfrEm1F7yKEsl
+          source_id: s_z3BWgZAULq_rjzMdFdIeqx
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第三甲第十名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_z3BWgZAULq_rjzMdFdIeqx
+            source_type: api_record
+            title: 中国历代人物传记资料库：李氏(王江妻)（CBDB 277072）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=277072&o=json
+            external_identifier: CBDB:277072
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_9ftKN7J8AGpsWHRUWyFnSU
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_yIximMe1s8Thu_9V9D0kZn
@@ -176,9 +213,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_TBRbQ4tV2WfCnjRSSpkfCv | 王釗 | accepted |
+| spouses | p_9ftKN7J8AGpsWHRUWyFnSU | 李氏 | accepted |
 | ancestors | p_FxBbEWyPCZJRS2BVCvKm1v | 王仲德 | accepted |
 | ancestors | p_UoL6tdmfZkcJmk3xo3DAA6 | 王遠 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：李氏(王江妻)（CBDB 277072）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=277072&o=json)
 - [中国历代人物传记资料库：王江（CBDB 126498）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126498&o=json)

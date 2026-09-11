@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王德宜
 cbdb_id: 54318
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -90,7 +90,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_J5hYFTPYRmwckkHEgvMtQg
+        subject_person_id: p_6f2299M3mLffa8gC5Pa17w
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_6B2b3AoJJ4GRp98v2g67YG
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Qs1-QJrVFVTxcg-UAT0eIr
+          claim_id: c_J5hYFTPYRmwckkHEgvMtQg
+          source_id: s_8YqRBC_S8FVsG68NyInXbP
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #1696, HuWenKai #251：丈夫"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8YqRBC_S8FVsG68NyInXbP
+            source_type: api_record
+            title: 中国历代人物传记资料库：汪農（CBDB 95504）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=95504&o=json
+            external_identifier: CBDB:95504
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_6B2b3AoJJ4GRp98v2g67YG
+        status: active
+        display_name: 汪農
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_6B2b3AoJJ4GRp98v2g67YG | 汪農 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：汪農（CBDB 95504）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=95504&o=json)
 - [中国历代人物传记资料库：王德宜（CBDB 54318）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54318&o=json)

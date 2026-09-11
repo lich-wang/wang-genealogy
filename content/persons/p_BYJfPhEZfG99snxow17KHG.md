@@ -4,7 +4,7 @@ id: p_BYJfPhEZfG99snxow17KHG
 status: active
 merged_into: null
 display_name: 王有功
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_e6pfsNMXpgE3akl_iL1Na1
+        subject_person_id: p_BYJfPhEZfG99snxow17KHG
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_JuG7rj7LupTMf9qir8KQTc
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_f-rYB5XDZDZnq4PNhJWwXn
+          claim_id: c_e6pfsNMXpgE3akl_iL1Na1
+          source_id: s_Py6vfnZ_8NaOSuOnTvesat
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第三甲第五十七名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Py6vfnZ_8NaOSuOnTvesat
+            source_type: api_record
+            title: 中国历代人物传记资料库：查氏(王有功妻)（CBDB 223502）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223502&o=json
+            external_identifier: CBDB:223502
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_JuG7rj7LupTMf9qir8KQTc
+        status: active
+        display_name: 查氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_j0jULzVQUkKvRVmnfUb2yW
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_D5ec5jupf1WyP5yU3NHEdT | 王寵光 | accepted |
+| spouses | p_JuG7rj7LupTMf9qir8KQTc | 查氏 | accepted |
 | ancestors | p_wox48YQwcFCA2THyUzZmJn | 王惠 | accepted |
 | ancestors | p_wrDFZ5uQWHdCUU75uJZddc | 王誥 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：查氏(王有功妻)（CBDB 223502）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223502&o=json)
 - [中国历代人物传记资料库：王有功（CBDB 206804）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206804&o=json)

@@ -4,7 +4,7 @@ id: p_4A5DBME64j8hrumwV1y25Y
 status: active
 merged_into: null
 display_name: 王錫命
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_oIsRrZvlBAYGrfn5oC2__G
+        subject_person_id: p_4A5DBME64j8hrumwV1y25Y
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_xHdtvEWoELfy6QGdeg8CEw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wwuWFQNHyfo2L7QOR5rZDV
+          claim_id: c_oIsRrZvlBAYGrfn5oC2__G
+          source_id: s_CIJjZW3Ubm-gg19hOnVGT3
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第二甲第四十四名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_CIJjZW3Ubm-gg19hOnVGT3
+            source_type: api_record
+            title: 中国历代人物传记资料库：錢氏(王錫命妻)（CBDB 326702）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326702&o=json
+            external_identifier: CBDB:326702
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_xHdtvEWoELfy6QGdeg8CEw
+        status: active
+        display_name: 錢氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_VcAyt06QowUf79B6lFrZ4X
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_9HDvakpcay3o3koSS4dhyb | 王鸞 | accepted |
+| spouses | p_xHdtvEWoELfy6QGdeg8CEw | 錢氏 | accepted |
 | ancestors | p_mJ1oWX1AnQGq5YCNtBdQ2y | 王欽 | accepted |
 | ancestors | p_jrVkcixySdzn2MbH6w2apg | 王玭 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：錢氏(王錫命妻)（CBDB 326702）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326702&o=json)
 - [中国历代人物传记资料库：王錫命（CBDB 204975）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204975&o=json)

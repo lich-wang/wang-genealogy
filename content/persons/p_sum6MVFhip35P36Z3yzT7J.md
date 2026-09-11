@@ -4,7 +4,7 @@ id: p_sum6MVFhip35P36Z3yzT7J
 status: active
 merged_into: null
 display_name: 王遇
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_Ds1jTp33Ihz0MKoPFqf6uc
+        subject_person_id: p_sum6MVFhip35P36Z3yzT7J
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_CNyj7yA6yaeSYkHZ358v8w
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_A55IQsN9uXOYqPNBTVrNb0
+          claim_id: c_Ds1jTp33Ihz0MKoPFqf6uc
+          source_id: s_-oOhEwGeRv_TBJ5audaZpS
+          stance: supports
+          locator: 宋史：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_-oOhEwGeRv_TBJ5audaZpS
+            source_type: api_record
+            title: 中国历代人物传记资料库：趙氏(王遇妻)（CBDB 121356）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121356&o=json
+            external_identifier: CBDB:121356
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_CNyj7yA6yaeSYkHZ358v8w
+        status: active
+        display_name: 趙氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_CNyj7yA6yaeSYkHZ358v8w | 趙氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王遇（CBDB 120137）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120137&o=json)
+- [中国历代人物传记资料库：趙氏(王遇妻)（CBDB 121356）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121356&o=json)

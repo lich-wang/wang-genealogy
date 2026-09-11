@@ -4,7 +4,7 @@ id: p_KTF8TNqVhiVNBbLepsymBT
 status: active
 merged_into: null
 display_name: 王錦
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -113,7 +113,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_IZc2nXxLZQO-5O3BZD0z5K
+        subject_person_id: p_KTF8TNqVhiVNBbLepsymBT
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_ftuX5MQdoXPyEcxF4b4iCt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tW2iLXOoMBdGwtbisMBuRu
+          claim_id: c_IZc2nXxLZQO-5O3BZD0z5K
+          source_id: s_WcR-mvwzQE99kdqTddY_rK
+          stance: supports
+          locator: 武功縣後志，lgid=1045879：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_WcR-mvwzQE99kdqTddY_rK
+            source_type: api_record
+            title: 中国历代人物传记资料库：馬氏(王錦妻)（CBDB 530908）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=530908&o=json
+            external_identifier: CBDB:530908
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ftuX5MQdoXPyEcxF4b4iCt
+        status: active
+        display_name: 馬氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_cCbG7j4L7Kcp7a5jCGanCJ | 王廷濟 | accepted |
+| spouses | p_ftuX5MQdoXPyEcxF4b4iCt | 馬氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：馬氏(王錦妻)（CBDB 530908）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=530908&o=json)
 - [中国历代人物传记资料库：王錦（CBDB 530907）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=530907&o=json)
 - [中国历代人物传记资料库：王廷濟（CBDB 530909）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=530909&o=json)

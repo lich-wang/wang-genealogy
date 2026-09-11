@@ -4,7 +4,7 @@ id: p_hnvFbFQMD3qoDJL59kCJv1
 status: active
 merged_into: null
 display_name: 王應麟
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_avewCdSF2-lOHSfrvIVSGC
+        subject_person_id: p_hnvFbFQMD3qoDJL59kCJv1
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_FGqHZ31NWg2R6Ke3yWJUS7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_t-q-FVNjZUX_7Bd7iwtMEJ
+          claim_id: c_avewCdSF2-lOHSfrvIVSGC
+          source_id: s_mj0NThQIF6g6PDsOkbQpIt
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第二百名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_mj0NThQIF6g6PDsOkbQpIt
+            source_type: api_record
+            title: 中国历代人物传记资料库：潘氏(王應麟妻)（CBDB 221575）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221575&o=json
+            external_identifier: CBDB:221575
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_FGqHZ31NWg2R6Ke3yWJUS7
+        status: active
+        display_name: 潘氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_QC7YHT9x8TUV_zScRuH_ED
@@ -234,9 +271,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_MpRHKYQgMhyeJ8uJAKZD2Z | 王榮貴 | accepted |
+| spouses | p_FGqHZ31NWg2R6Ke3yWJUS7 | 潘氏 | accepted |
 | ancestors | p_j6yFKCjZuRSKE6EaY7VL2H | 王先宗 | accepted |
 | ancestors | p_MJhP1yFLnhK4DCVH2JD1UB | 王質安 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：潘氏(王應麟妻)（CBDB 221575）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221575&o=json)
 - [中国历代人物传记资料库：王應麟（CBDB 126851）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126851&o=json)

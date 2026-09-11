@@ -4,7 +4,7 @@ id: p_7raFc89NNfxHdMDVAgGa2j
 status: active
 merged_into: null
 display_name: 王臨吉
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_XWFDUJAC6Kv5pp-DjTWy_3
+        subject_person_id: p_7raFc89NNfxHdMDVAgGa2j
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_AKXCGeZ2Jrwz8tGFASD6hd
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jGEQNehejlnflPQllQYA-I
+          claim_id: c_XWFDUJAC6Kv5pp-DjTWy_3
+          source_id: s_F-sg2uDYbwmhO_uYvv0Ze4
+          stance: supports
+          locator: 平陰縣志，lgid=630888：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_F-sg2uDYbwmhO_uYvv0Ze4
+            source_type: api_record
+            title: 中国历代人物传记资料库：張氏(王臨吉妻)（CBDB 703705）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703705&o=json
+            external_identifier: CBDB:703705
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_AKXCGeZ2Jrwz8tGFASD6hd
+        status: active
+        display_name: 張氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_AKXCGeZ2Jrwz8tGFASD6hd | 張氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王臨吉（CBDB 703704）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703704&o=json)
+- [中国历代人物传记资料库：張氏(王臨吉妻)（CBDB 703705）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703705&o=json)

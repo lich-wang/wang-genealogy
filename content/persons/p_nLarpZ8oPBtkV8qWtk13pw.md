@@ -4,7 +4,7 @@ id: p_nLarpZ8oPBtkV8qWtk13pw
 status: active
 merged_into: null
 display_name: 王才
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c__O_NaNUenxpbGaSHWY8sOL
+        subject_person_id: p_nLarpZ8oPBtkV8qWtk13pw
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_cipoHEnFXTQWDcWDcQ7pyV
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jFZ4fqEi1IacKrRwsonbxF
+          claim_id: c__O_NaNUenxpbGaSHWY8sOL
+          source_id: s_qWgGOO9ZTCQYmJk0CKp4_M
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yonglong 12：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_qWgGOO9ZTCQYmJk0CKp4_M
+            source_type: api_record
+            title: 中国历代人物传记资料库：張氏(王才妻)（CBDB 148997）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148997&o=json
+            external_identifier: CBDB:148997
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_cipoHEnFXTQWDcWDcQ7pyV
+        status: active
+        display_name: 張氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -182,7 +219,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_r99NDuC1Qi2kLpFwoa3C6h | 王彥 | accepted |
+| spouses | p_cipoHEnFXTQWDcWDcQ7pyV | 張氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王才（CBDB 139770）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139770&o=json)
+- [中国历代人物传记资料库：張氏(王才妻)（CBDB 148997）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148997&o=json)

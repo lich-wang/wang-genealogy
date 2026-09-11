@@ -4,7 +4,7 @@ id: p_83rVhbPky8ueHuLvNkatxw
 status: active
 merged_into: null
 display_name: 王恕
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_W3Rfh009SnoxeYL9Jz5ehA
+        subject_person_id: p_83rVhbPky8ueHuLvNkatxw
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_BrvKJJvH3MvQ2DqpL4qNAj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vIUMXmqBKiqKxIoWKJx4KA
+          claim_id: c_W3Rfh009SnoxeYL9Jz5ehA
+          source_id: s_b_7MnvPZECUX7Ih34AXxw6
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，80：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_b_7MnvPZECUX7Ih34AXxw6
+            source_type: api_record
+            title: 中国历代人物传记资料库：杜氏(王恕妻)（CBDB 699407）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699407&o=json
+            external_identifier: CBDB:699407
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_BrvKJJvH3MvQ2DqpL4qNAj
+        status: active
+        display_name: 杜氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_6r5VwfkrP2qbqzP6hHoNQi | 王弁 | accepted |
+| spouses | p_BrvKJJvH3MvQ2DqpL4qNAj | 杜氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：杜氏(王恕妻)（CBDB 699407）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699407&o=json)
 - [中国历代人物传记资料库：王恕（CBDB 699404）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699404&o=json)

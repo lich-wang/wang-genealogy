@@ -4,7 +4,7 @@ id: p_sfsKYpH8iJoAHuoaD9gXym
 status: active
 merged_into: null
 display_name: 王淳
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -139,7 +139,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_0rrRx3wCoUnlGKlVvFmlb7
+        subject_person_id: p_sfsKYpH8iJoAHuoaD9gXym
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_8n1kUJ7hBbdoNQpRaTs2kQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Gyutl5N-lEF7ljurUxiIDp
+          claim_id: c_0rrRx3wCoUnlGKlVvFmlb7
+          source_id: s_1XQc2-ESPuJppS3psTg2W8
+          stance: supports
+          locator: 紹興府志:八十卷，lgid=316843：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1XQc2-ESPuJppS3psTg2W8
+            source_type: api_record
+            title: 中国历代人物传记资料库：胡氏(王淳妻)（CBDB 570712）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570712&o=json
+            external_identifier: CBDB:570712
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8n1kUJ7hBbdoNQpRaTs2kQ
+        status: active
+        display_name: 胡氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -162,8 +199,10 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_W8DoULihsDdHq5QoSv38o7 | 王廷鑑 | accepted |
 | children | p_CtSVBmCmDig7VPF7gNP89q | 王棟 | accepted |
+| spouses | p_8n1kUJ7hBbdoNQpRaTs2kQ | 胡氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：胡氏(王淳妻)（CBDB 570712）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570712&o=json)
 - [中国历代人物传记资料库：王淳（CBDB 570711）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570711&o=json)
 - [中国历代人物传记资料库：王棟（CBDB 570713）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570713&o=json)

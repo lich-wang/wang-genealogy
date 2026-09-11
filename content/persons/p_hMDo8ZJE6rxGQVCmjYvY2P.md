@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王瑤湘
 cbdb_id: 55872
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -116,7 +116,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_gUqNG3B6LD4at6oUjt-S-3
+        subject_person_id: p_hMDo8ZJE6rxGQVCmjYvY2P
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_YY1rTePcdQsjShFEiKy3Ec
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AbDocODLmg9yWSuI2HSS4b
+          claim_id: c_gUqNG3B6LD4at6oUjt-S-3
+          source_id: s_WNPWb8292xk2dqpKE2UAtr
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #636, HuWenKai #245：丈夫"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_WNPWb8292xk2dqpKE2UAtr
+            source_type: api_record
+            title: 中国历代人物传记资料库：李孝先（CBDB 55876）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55876&o=json
+            external_identifier: CBDB:55876
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_YY1rTePcdQsjShFEiKy3Ec
+        status: active
+        display_name: 李孝先
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -138,7 +175,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_ZC2N1VEG8kbjb8AKsLuiLm | 王阜 | accepted |
+| spouses | p_YY1rTePcdQsjShFEiKy3Ec | 李孝先 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：李孝先（CBDB 55876）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55876&o=json)
 - [中国历代人物传记资料库：王瑤湘（CBDB 55872）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55872&o=json)

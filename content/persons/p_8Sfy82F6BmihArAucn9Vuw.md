@@ -4,7 +4,7 @@ id: p_8Sfy82F6BmihArAucn9Vuw
 status: active
 merged_into: null
 display_name: 王詔
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_-3np-FQRQ8IKp-AJKY7zy7
+        subject_person_id: p_8Sfy82F6BmihArAucn9Vuw
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_TemfgwrpFYqJXJgrCQQV3E
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bsq4f5H1mVTK8ggF2uL1Rc
+          claim_id: c_-3np-FQRQ8IKp-AJKY7zy7
+          source_id: s_tXr19Xoo72PTD1blJotUI5
+          stance: supports
+          locator: 正统七年進士登科錄:一卷，第三甲第十三名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_tXr19Xoo72PTD1blJotUI5
+            source_type: api_record
+            title: 中国历代人物传记资料库：曹氏(王詔妻)（CBDB 238055）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238055&o=json
+            external_identifier: CBDB:238055
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_TemfgwrpFYqJXJgrCQQV3E
+        status: active
+        display_name: 曹氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_yWCuPGOZbzaYemjnxj9u3c
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_Zr3cc57cGmUXGbD4psHLyS | 王仕復 | accepted |
+| spouses | p_TemfgwrpFYqJXJgrCQQV3E | 曹氏 | accepted |
 | ancestors | p_thNdzJMkJjjDe2Hr5mo9Hf | 王庶叔 | accepted |
 | ancestors | p_q88ScjyNJ3fMjZFYBwS46A | 王原簡 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：曹氏(王詔妻)（CBDB 238055）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238055&o=json)
 - [中国历代人物传记资料库：王詔（CBDB 67953）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67953&o=json)

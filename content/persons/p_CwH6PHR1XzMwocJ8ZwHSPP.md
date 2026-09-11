@@ -4,7 +4,7 @@ id: p_CwH6PHR1XzMwocJ8ZwHSPP
 status: active
 merged_into: null
 display_name: 王豪
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_iUZrhg4jH4BO1W9fESWP3E
+        subject_person_id: p_CwH6PHR1XzMwocJ8ZwHSPP
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_AS96G4T4Cjygo3FnLyszPK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Nj2NrNLtI1dKzRZvwSNkij
+          claim_id: c_iUZrhg4jH4BO1W9fESWP3E
+          source_id: s_GMmhSJCqKRKVoqLZEZn3kp
+          stance: supports
+          locator: 正統十三年進士登科錄:一卷，第三甲第七十五名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GMmhSJCqKRKVoqLZEZn3kp
+            source_type: api_record
+            title: 中国历代人物传记资料库：蔣氏(王豪妻)（CBDB 241292）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241292&o=json
+            external_identifier: CBDB:241292
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_AS96G4T4Cjygo3FnLyszPK
+        status: active
+        display_name: 蔣氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_WyOU09YG-gCFwh2X-kYSQF
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_jCmvSEJEzMCfHNSXJ1XAo8 | 王寧 | accepted |
+| spouses | p_AS96G4T4Cjygo3FnLyszPK | 蔣氏 | accepted |
 | ancestors | p_yL1B27xvickNJiY7j9s1xG | 王辛 | accepted |
 | ancestors | p_TH8m84MvA8fiu9ubysTSGe | 王順之 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：蔣氏(王豪妻)（CBDB 241292）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241292&o=json)
 - [中国历代人物传记资料库：王豪（CBDB 208164）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208164&o=json)

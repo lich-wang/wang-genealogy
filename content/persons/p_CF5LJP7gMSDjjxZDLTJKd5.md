@@ -4,7 +4,7 @@ id: p_CF5LJP7gMSDjjxZDLTJKd5
 status: active
 merged_into: null
 display_name: 王濟
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -154,7 +154,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_yh8-Tj5LfYJj-74pVyA9qR
+        subject_person_id: p_CF5LJP7gMSDjjxZDLTJKd5
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_CGgacbGZFCBxdmoDnHfJ5t
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3XbiXewH6Q9cgGIrCaYuXI
+          claim_id: c_yh8-Tj5LfYJj-74pVyA9qR
+          source_id: s_BVpjvZZIje8W7EH_PL7O3M
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第二甲第四十六名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BVpjvZZIje8W7EH_PL7O3M
+            source_type: api_record
+            title: 中国历代人物传记资料库：汪氏(王濟妻)（CBDB 270231）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270231&o=json
+            external_identifier: CBDB:270231
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_CGgacbGZFCBxdmoDnHfJ5t
+        status: active
+        display_name: 汪氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_cCMwg2vNfsFXh6vHW7mZhX
@@ -230,9 +267,11 @@ relationships:
 | parents | p_PGZtNCp6fX43UKKVunQyUd | 王文奎 | accepted |
 | children | p_qLcC4SmUNJ1rkkQyeeqtKk | 王廷陳 | accepted |
 | children | p_yJdXEyhNkYGEWdnouNB9Xu | 王廷瞻 | accepted |
+| spouses | p_CGgacbGZFCBxdmoDnHfJ5t | 汪氏 | accepted |
 | ancestors | p_uadUiUdJs2HHpEDqfmU928 | 王仲斌 | accepted |
 | ancestors | p_MtM5ZgKmZYVFMBTAMHqT8e | 王思旻 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：汪氏(王濟妻)（CBDB 270231）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270231&o=json)
 - [中国历代人物传记资料库：王濟（CBDB 34667）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34667&o=json)

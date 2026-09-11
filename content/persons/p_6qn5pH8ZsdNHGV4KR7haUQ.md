@@ -4,7 +4,7 @@ id: p_6qn5pH8ZsdNHGV4KR7haUQ
 status: active
 merged_into: null
 display_name: 王楫
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_Tug6NPnDj5QKxNLkJkoC7v
+        subject_person_id: p_6qn5pH8ZsdNHGV4KR7haUQ
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_2bXQnXMpJ1M2gFgVAinKc9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_S2ZfTnPuTnMtXLXgTS7lxX
+          claim_id: c_Tug6NPnDj5QKxNLkJkoC7v
+          source_id: s_ey6WF-xdB5eoQddldr9WiA
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第二甲第十三名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ey6WF-xdB5eoQddldr9WiA
+            source_type: api_record
+            title: 中国历代人物传记资料库：魏氏(王楫妻)（CBDB 250839）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250839&o=json
+            external_identifier: CBDB:250839
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_2bXQnXMpJ1M2gFgVAinKc9
+        status: active
+        display_name: 魏氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_E-RwGibhVavhBRfmlhHKC6
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_EMHJfmp35NiNjZCUBv8fjK | 王斌 | accepted |
+| spouses | p_2bXQnXMpJ1M2gFgVAinKc9 | 魏氏 | accepted |
 | ancestors | p_G3DTDFRp7rB1fxXrvPzkYn | 王好仁 | accepted |
 | ancestors | p_ZkRDExQ94Hd2C1M1HcPq39 | 王俊 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王楫（CBDB 199876）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199876&o=json)
+- [中国历代人物传记资料库：魏氏(王楫妻)（CBDB 250839）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250839&o=json)

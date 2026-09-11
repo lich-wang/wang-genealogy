@@ -4,7 +4,7 @@ id: p_AfuEzx374a7WNXTfcMcWwd
 status: active
 merged_into: null
 display_name: 王獻臣
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_ZqSyYBMBh0joAwN7WoD4aI
+        subject_person_id: p_AfuEzx374a7WNXTfcMcWwd
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_3XpQZsyy1MMzLgJ6d6jucq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ppo0Lnftp6iPVpsQC7HuSD
+          claim_id: c_ZqSyYBMBh0joAwN7WoD4aI
+          source_id: s_STFHG_Zfs2rzPH5gKYm0wl
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第一百名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_STFHG_Zfs2rzPH5gKYm0wl
+            source_type: api_record
+            title: 中国历代人物传记资料库：陳氏(王獻臣妻)（CBDB 265732）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265732&o=json
+            external_identifier: CBDB:265732
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3XpQZsyy1MMzLgJ6d6jucq
+        status: active
+        display_name: 陳氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_36byLAiV8H3S4dK2WCljgS
@@ -176,9 +213,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_vmWmptGLTYqo5zFQQyE1ek | 王瑾 | accepted |
+| spouses | p_3XpQZsyy1MMzLgJ6d6jucq | 陳氏 | accepted |
 | ancestors | p_wUBGxrZa6P78WZVLrT2yi5 | 王文榮 | accepted |
 | ancestors | p_LbuKwgtm6zjB3poDp2uQZP | 王成 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：陳氏(王獻臣妻)（CBDB 265732）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265732&o=json)
 - [中国历代人物传记资料库：王獻臣（CBDB 67807）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67807&o=json)

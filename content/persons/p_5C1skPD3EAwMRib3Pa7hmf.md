@@ -4,7 +4,7 @@ id: p_5C1skPD3EAwMRib3Pa7hmf
 status: active
 merged_into: null
 display_name: 王琰
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_kpAtnyDlS7gYwFqGRXtRXD
+        subject_person_id: p_5C1skPD3EAwMRib3Pa7hmf
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_cacqKhGmx2AukQiAPdxB5Y
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AWbNTAO9J5T0RjUxp0JzVS
+          claim_id: c_kpAtnyDlS7gYwFqGRXtRXD
+          source_id: s_F-ED8JzPUxqKI0x5JnP9xu
+          stance: supports
+          locator: 紹興府志:八十卷，lgid=316863：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_F-ED8JzPUxqKI0x5JnP9xu
+            source_type: api_record
+            title: 中国历代人物传记资料库：任氏(王琰妻)（CBDB 570934）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570934&o=json
+            external_identifier: CBDB:570934
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_cacqKhGmx2AukQiAPdxB5Y
+        status: active
+        display_name: 任氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_cacqKhGmx2AukQiAPdxB5Y | 任氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：任氏(王琰妻)（CBDB 570934）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570934&o=json)
 - [中国历代人物传记资料库：王琰（CBDB 570936）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570936&o=json)

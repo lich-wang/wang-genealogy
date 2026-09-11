@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王心自在
 cbdb_id: 140899
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -202,7 +202,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_oRQ-142a_WYwFfXKUN_Zq5
+        subject_person_id: p_8q7EWpu1hSNBYo3c2qZ1Hi
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_LBKKYPuYWyKQ6KwXnwxA8M
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jTEpTXQIRJ5d9ysDKBEyGU
+          claim_id: c_oRQ-142a_WYwFfXKUN_Zq5
+          source_id: s_5yCrBCDFmOSkxh_aTCKckU
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 94：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5yCrBCDFmOSkxh_aTCKckU
+            source_type: api_record
+            title: 中国历代人物传记资料库：朱某(王心自在夫)（CBDB 153672）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153672&o=json
+            external_identifier: CBDB:153672
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_LBKKYPuYWyKQ6KwXnwxA8M
+        status: active
+        display_name: 朱某
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -226,7 +263,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_Ldq4i174vMbjAVPwq2WyED | 王處默 | accepted |
+| spouses | p_LBKKYPuYWyKQ6KwXnwxA8M | 朱某 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王心自在（CBDB 140899）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140899&o=json)
+- [中国历代人物传记资料库：朱某(王心自在夫)（CBDB 153672）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153672&o=json)

@@ -4,7 +4,7 @@ id: p_2RzrzUqsutK3yv9cd9dwXj
 status: active
 merged_into: null
 display_name: 王允功
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_jBDLZz9E9S2Z9Oui9nNSMb
+        subject_person_id: p_2RzrzUqsutK3yv9cd9dwXj
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_4VoHteepWVzbqU7Vmbfk23
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IRM-a-_dQeOvyFqn7drJgH
+          claim_id: c_jBDLZz9E9S2Z9Oui9nNSMb
+          source_id: s_8GtPmcXQLdyHl_Q1WG7RWJ
+          stance: supports
+          locator: 紹興十八年同年小錄，157：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8GtPmcXQLdyHl_Q1WG7RWJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：莫氏(王允功妻)（CBDB 135565）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135565&o=json
+            external_identifier: CBDB:135565
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_4VoHteepWVzbqU7Vmbfk23
+        status: active
+        display_name: 莫氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_rHwtyaBbC4_12dI2Xget7M
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_Jzy9nZapWwZfBJyYh44MuQ | 王琮 | accepted |
+| spouses | p_4VoHteepWVzbqU7Vmbfk23 | 莫氏 | accepted |
 | ancestors | p_tuQz8K1QJhTDMtht3PXNax | 王浹 | accepted |
 | ancestors | p_u7GjygMhWqMXVVi3SrDkWR | 王錫 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：莫氏(王允功妻)（CBDB 135565）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135565&o=json)
 - [中国历代人物传记资料库：王允功（CBDB 23652）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23652&o=json)

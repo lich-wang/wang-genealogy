@@ -4,7 +4,7 @@ id: p_3c99mAbtCMe882FKM3LMji
 status: active
 merged_into: null
 display_name: 王晏
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_w87njq1dbBwHqbMGjjAN2u
+        subject_person_id: p_3c99mAbtCMe882FKM3LMji
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_C9DyFVcXTK7Zf1N7YEHdCK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8ktNEAR6RiF1umL_-q4AC-
+          claim_id: c_w87njq1dbBwHqbMGjjAN2u
+          source_id: s_oiyUdWS4pttE6hcKMJuuuS
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第三甲第三十四名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_oiyUdWS4pttE6hcKMJuuuS
+            source_type: api_record
+            title: 中国历代人物传记资料库：陳氏(王晏妻)（CBDB 237226）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237226&o=json
+            external_identifier: CBDB:237226
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_C9DyFVcXTK7Zf1N7YEHdCK
+        status: active
+        display_name: 陳氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_kLSd-q-C8pZxOfy-xXVbky
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_UxPyyPKFuTNFgt47NpTBe5 | 王良 | accepted |
+| spouses | p_C9DyFVcXTK7Zf1N7YEHdCK | 陳氏 | accepted |
 | ancestors | p_JgSFXmEpMe8Ep4fchKiKHD | 王思誠 | accepted |
 | ancestors | p_Y58x3VBCb7H2KXk7sWbnpV | 王鵬飛 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：陳氏(王晏妻)（CBDB 237226）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237226&o=json)
 - [中国历代人物传记资料库：王晏（CBDB 207868）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207868&o=json)

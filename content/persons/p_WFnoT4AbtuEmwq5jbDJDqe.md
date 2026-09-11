@@ -4,7 +4,7 @@ id: p_WFnoT4AbtuEmwq5jbDJDqe
 status: active
 merged_into: null
 display_name: 王恬
-revision: 7
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -344,7 +344,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_0RgZo2eSiiOKVDUbAZKevd
+        subject_person_id: p_WFnoT4AbtuEmwq5jbDJDqe
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_1hRe4yJwx1cWuPZopDscLA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_c2g9hkbZWqPsW4j7v5Txby
+          claim_id: c_0RgZo2eSiiOKVDUbAZKevd
+          source_id: s_77sqBT_qLHVQ6H2yiw2hK5
+          stance: supports
+          locator: 全宋文，卷 5677：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_77sqBT_qLHVQ6H2yiw2hK5
+            source_type: api_record
+            title: 中国历代人物传记资料库：呂氏 (呂師傳女)（CBDB 385851）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385851&o=json
+            external_identifier: CBDB:385851
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_1hRe4yJwx1cWuPZopDscLA
+        status: active
+        display_name: 呂氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -373,9 +410,11 @@ relationships:
 | children | p_PcEuQQgHX77JBLMDejCXRZ | 王頎 | accepted |
 | children | p_QP3NwvKZSaBQQRph12F9S8 | 王頤 | accepted |
 | children | p_MYmCtcLQMLLVJCWEXqgWgw | 王覬 | accepted |
+| spouses | p_1hRe4yJwx1cWuPZopDscLA | 呂氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：呂氏 (呂師傳女)（CBDB 385851）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385851&o=json)
 - [中国历代人物传记资料库：王覬（CBDB 385853）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385853&o=json)
 - [中国历代人物传记资料库：王頎（CBDB 385854）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385854&o=json)
 - [中国历代人物传记资料库：王碩（CBDB 384841）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=384841&o=json)

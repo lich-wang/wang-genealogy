@@ -4,7 +4,7 @@ id: p_M4qQMGtKYPyLVMGmE2YAH1
 status: active
 merged_into: null
 display_name: 王群
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_svV6Rdgzigh6fCUHg0I9FA
+        subject_person_id: p_M4qQMGtKYPyLVMGmE2YAH1
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_VxzdAPtyQmbqrvt34cszoD
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dXj1A9Jhqa0-Ln2S3krFYc
+          claim_id: c_svV6Rdgzigh6fCUHg0I9FA
+          source_id: s_k8otHySFIepCRdIjQSSeC4
+          stance: supports
+          locator: 芒洛冢墓遺文四編，孺人王氏墓志：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_k8otHySFIepCRdIjQSSeC4
+            source_type: api_record
+            title: 中国历代人物传记资料库：劉氏(王群妻)（CBDB 573352）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=573352&o=json
+            external_identifier: CBDB:573352
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_VxzdAPtyQmbqrvt34cszoD
+        status: active
+        display_name: 劉氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_8x3h6NDAZh5tHyrWsrxPRc | 王慎言 | accepted |
+| spouses | p_VxzdAPtyQmbqrvt34cszoD | 劉氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：劉氏(王群妻)（CBDB 573352）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=573352&o=json)
 - [中国历代人物传记资料库：王群（CBDB 573351）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=573351&o=json)

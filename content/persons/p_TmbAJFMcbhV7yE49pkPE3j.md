@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王思哲
 cbdb_id: 512894
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -90,7 +90,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_ARETZlwyQJJu35I_FhPHQ3
+        subject_person_id: p_TmbAJFMcbhV7yE49pkPE3j
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_vsRRekapTcZ6VLWQop1yh2
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hB5Svn-sqMWB0QmK0_Oka5
+          claim_id: c_ARETZlwyQJJu35I_FhPHQ3
+          source_id: s_CqTLkPqbXxwoaCU1zUoAi0
+          stance: supports
+          locator: 天津衛志，lgid=24694：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_CqTLkPqbXxwoaCU1zUoAi0
+            source_type: api_record
+            title: 中国历代人物传记资料库：孫氏(王思哲妻)（CBDB 512893）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=512893&o=json
+            external_identifier: CBDB:512893
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_vsRRekapTcZ6VLWQop1yh2
+        status: active
+        display_name: 孫氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_vsRRekapTcZ6VLWQop1yh2 | 孫氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：孫氏(王思哲妻)（CBDB 512893）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=512893&o=json)
 - [中国历代人物传记资料库：王思哲（CBDB 512894）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=512894&o=json)

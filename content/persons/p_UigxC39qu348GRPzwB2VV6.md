@@ -4,7 +4,7 @@ id: p_UigxC39qu348GRPzwB2VV6
 status: active
 merged_into: null
 display_name: 王理
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_t8Y40_j9mRsLy2P3LOhrUD
+        subject_person_id: p_UigxC39qu348GRPzwB2VV6
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_8J1kX9Aq2YxcruZovoQP7G
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sCLz0DLjE1jOgJyeKQ5N1U
+          claim_id: c_t8Y40_j9mRsLy2P3LOhrUD
+          source_id: s_JZR84oUvU8univAiB0NW5e
+          stance: supports
+          locator: 正统七年進士登科錄:一卷，第三甲第二十九名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_JZR84oUvU8univAiB0NW5e
+            source_type: api_record
+            title: 中国历代人物传记资料库：尹氏(王理妻)（CBDB 238215）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238215&o=json
+            external_identifier: CBDB:238215
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8J1kX9Aq2YxcruZovoQP7G
+        status: active
+        display_name: 尹氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_oLD9wyCqlHsRc8OTHodYJ8
@@ -176,9 +213,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_nZvn7tH7hwLzHZ4aSkjukU | 王充榮 | accepted |
+| spouses | p_8J1kX9Aq2YxcruZovoQP7G | 尹氏 | accepted |
 | ancestors | p_kAqmJC9XxgqbW9D1EEHmok | 王文江 | accepted |
 | ancestors | p_mk3dTkzG94aLkYaNf5KJ63 | 王希善 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王理（CBDB 126681）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126681&o=json)
+- [中国历代人物传记资料库：尹氏(王理妻)（CBDB 238215）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238215&o=json)

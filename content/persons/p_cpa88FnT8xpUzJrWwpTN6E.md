@@ -4,7 +4,7 @@ id: p_cpa88FnT8xpUzJrWwpTN6E
 status: active
 merged_into: null
 display_name: 王好問
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -113,7 +113,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_G3HyOchJmo7YPeEpDhDKUB
+        subject_person_id: p_cpa88FnT8xpUzJrWwpTN6E
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_m7eZMCpYgpMEKPkTcctMuN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_glYNN9FF6tpywZ3veUNFcl
+          claim_id: c_G3HyOchJmo7YPeEpDhDKUB
+          source_id: s_VBZ5Ncwzu-tmQZBo4DBs9P
+          stance: supports
+          locator: 南陽府志，lgid=878700：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_VBZ5Ncwzu-tmQZBo4DBs9P
+            source_type: api_record
+            title: 中国历代人物传记资料库：趙氏(王好問妻)（CBDB 555423）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555423&o=json
+            external_identifier: CBDB:555423
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_m7eZMCpYgpMEKPkTcctMuN
+        status: active
+        display_name: 趙氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_9VVDG6DC23nE1KHBNqwemc | 王納諫 | accepted |
+| spouses | p_m7eZMCpYgpMEKPkTcctMuN | 趙氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王好問（CBDB 555422）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555422&o=json)
 - [中国历代人物传记资料库：王納諫（CBDB 555434）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555434&o=json)
+- [中国历代人物传记资料库：趙氏(王好問妻)（CBDB 555423）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555423&o=json)

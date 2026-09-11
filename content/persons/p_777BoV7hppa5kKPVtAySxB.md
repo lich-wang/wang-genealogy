@@ -4,7 +4,7 @@ id: p_777BoV7hppa5kKPVtAySxB
 status: active
 merged_into: null
 display_name: 王觀
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_Qpg_GozRUe1HxLQaqtR1PL
+        subject_person_id: p_777BoV7hppa5kKPVtAySxB
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_yeDqUCDH4o1de5QMLEhDha
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-IDEnQ447fb25YtXpXKrU2
+          claim_id: c_Qpg_GozRUe1HxLQaqtR1PL
+          source_id: s_knI8Tu8VeO0hIbrOPDxxvA
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，146 崔中正夫人賈氏墓志：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_knI8Tu8VeO0hIbrOPDxxvA
+            source_type: api_record
+            title: 中国历代人物传记资料库：崔氏(王觀妻)（CBDB 696751）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696751&o=json
+            external_identifier: CBDB:696751
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_yeDqUCDH4o1de5QMLEhDha
+        status: active
+        display_name: 崔氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_yeDqUCDH4o1de5QMLEhDha | 崔氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：崔氏(王觀妻)（CBDB 696751）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696751&o=json)
 - [中国历代人物传记资料库：王觀（CBDB 683558）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=683558&o=json)

@@ -4,7 +4,7 @@ id: p_w23nYb8qHQAvs4dnvFLxF6
 status: active
 merged_into: null
 display_name: 王嘉言
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_YwMKUw2m2g4AvFA-7klMAq
+        subject_person_id: p_w23nYb8qHQAvs4dnvFLxF6
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_YqF5QitD9ZJTEKqo6iHroJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lxWH_drGdlSzWYXxyPyrYI
+          claim_id: c_YwMKUw2m2g4AvFA-7klMAq
+          source_id: s_9uHx_Odwiu_P467c8-McaI
+          stance: supports
+          locator: 牧齋有學集：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_9uHx_Odwiu_P467c8-McaI
+            source_type: api_record
+            title: 中国历代人物传记资料库：錢氏(王嘉言妻)（CBDB 338254）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338254&o=json
+            external_identifier: CBDB:338254
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_YqF5QitD9ZJTEKqo6iHroJ
+        status: active
+        display_name: 錢氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_cPByiJ9wXckn8oTbxdb6fC | 王世仁 | accepted |
+| spouses | p_YqF5QitD9ZJTEKqo6iHroJ | 錢氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：錢氏(王嘉言妻)（CBDB 338254）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338254&o=json)
 - [中国历代人物传记资料库：王嘉言（CBDB 338253）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338253&o=json)

@@ -4,7 +4,7 @@ id: p_2yQZFqgpXJgeoQtn7WfsC5
 status: active
 merged_into: null
 display_name: 王佐
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_jctCOn87jvPbxqe5d6QJeX
+        subject_person_id: p_2yQZFqgpXJgeoQtn7WfsC5
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_HPgC7g61tDn1j9zWwukpAY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nGKOy_PvfHTzJPGaB1No63
+          claim_id: c_jctCOn87jvPbxqe5d6QJeX
+          source_id: s_-PHRpKCpiqMQP_kBCfHcRJ
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第二百三十七名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_-PHRpKCpiqMQP_kBCfHcRJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：馬氏(王佐妻)（CBDB 253906）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253906&o=json
+            external_identifier: CBDB:253906
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_HPgC7g61tDn1j9zWwukpAY
+        status: active
+        display_name: 馬氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_4Fiz2Dn6okbWQMudAwOHOX
@@ -234,9 +271,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_3zqRTvVoZ83XX9ehuTK1mN | 王義 | accepted |
+| spouses | p_HPgC7g61tDn1j9zWwukpAY | 馬氏 | accepted |
 | ancestors | p_j6yJYYD4unD9Q4McpR5Pv8 | 王貴 | accepted |
 | ancestors | p_qTbXB97SFc7HLafkZNoqLg | 王珍 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：馬氏(王佐妻)（CBDB 253906）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253906&o=json)
 - [中国历代人物传记资料库：王佐（CBDB 67292）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67292&o=json)

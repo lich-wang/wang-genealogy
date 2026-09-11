@@ -4,7 +4,7 @@ id: p_4MQNbYanr85ZD5eECioUpp
 status: active
 merged_into: null
 display_name: 王守廉
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -184,7 +184,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_ksaKlXnXRZzXMMjnCd8x6j
+        subject_person_id: p_4MQNbYanr85ZD5eECioUpp
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_EQP19pzN4CLukeXUeZPK65
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OANcbrA2GqqAsBU55a7_aX
+          claim_id: c_ksaKlXnXRZzXMMjnCd8x6j
+          source_id: s_SsenI9BSvrV-S2PD2zIc2u
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yuanhe 133：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_SsenI9BSvrV-S2PD2zIc2u
+            source_type: api_record
+            title: 中国历代人物传记资料库：和氏(王守廉妻)（CBDB 157115）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157115&o=json
+            external_identifier: CBDB:157115
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_EQP19pzN4CLukeXUeZPK65
+        status: active
+        display_name: 和氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -209,7 +246,9 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_CHFMrQP33bcW5Sb2z1iSg4 | 王奉林 | accepted |
 | children | p_rkLXhSrQp42YWZ7vwKKqH5 | 王奉國 | accepted |
+| spouses | p_EQP19pzN4CLukeXUeZPK65 | 和氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：和氏(王守廉妻)（CBDB 157115）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157115&o=json)
 - [中国历代人物传记资料库：王守廉（CBDB 141446）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141446&o=json)

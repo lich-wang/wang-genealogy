@@ -4,7 +4,7 @@ id: p_DLG1zgaXP3p4Uge6Aa7xhu
 status: active
 merged_into: null
 display_name: 王慶
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -184,7 +184,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_Y_qFuYzZEmhbeVoLABpWhC
+        subject_person_id: p_DLG1zgaXP3p4Uge6Aa7xhu
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_MxyhE7t52tGXrJFdcPdLe8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i78rpA2hq7qW34umOR1LgU
+          claim_id: c_Y_qFuYzZEmhbeVoLABpWhC
+          source_id: s_YozQMWK0CC5Oe79Tx-8lJJ
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 134：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_YozQMWK0CC5Oe79Tx-8lJJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：呂氏(王慶妻)（CBDB 151612）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151612&o=json
+            external_identifier: CBDB:151612
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_MxyhE7t52tGXrJFdcPdLe8
+        status: active
+        display_name: 呂氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -209,7 +246,9 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_Hr5Q4L3jPiTBJ4oWBZVDbR | 王遏 | accepted |
 | children | p_8SbCCMPhrmycTk2h456Vi5 | 王璬 | accepted |
+| spouses | p_MxyhE7t52tGXrJFdcPdLe8 | 呂氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：呂氏(王慶妻)（CBDB 151612）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151612&o=json)
 - [中国历代人物传记资料库：王慶（CBDB 140408）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140408&o=json)

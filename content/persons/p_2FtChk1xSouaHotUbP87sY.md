@@ -4,7 +4,7 @@ id: p_2FtChk1xSouaHotUbP87sY
 status: active
 merged_into: null
 display_name: 王琮
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_IGm72xumteNv_zhhfjpJnb
+        subject_person_id: p_2FtChk1xSouaHotUbP87sY
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_SjiBjvNRWwVsLH5aLyiXWb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kZF0kWO7gNqKdtYrF_jfQ2
+          claim_id: c_IGm72xumteNv_zhhfjpJnb
+          source_id: s_P9HyXLr-u48GfSteREx0-b
+          stance: supports
+          locator: 正統十三年進士登科錄:一卷，第三甲第十四名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_P9HyXLr-u48GfSteREx0-b
+            source_type: api_record
+            title: 中国历代人物传记资料库：沈氏(王琮妻)（CBDB 240769）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240769&o=json
+            external_identifier: CBDB:240769
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_SjiBjvNRWwVsLH5aLyiXWb
+        status: active
+        display_name: 沈氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c__r6cXDLceIwCrtM1KCEUjb
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_2uTqfNAW7muauc9J9oQHEs | 王孟宜 | accepted |
+| spouses | p_SjiBjvNRWwVsLH5aLyiXWb | 沈氏 | accepted |
 | ancestors | p_VH94HvSK9LNwKLm3oKwP41 | 王茂華 | accepted |
 | ancestors | p_exfHCCQDDr69328nmnLRaH | 王文誠 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：沈氏(王琮妻)（CBDB 240769）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240769&o=json)
 - [中国历代人物传记资料库：王琮（CBDB 208122）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208122&o=json)

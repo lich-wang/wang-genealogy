@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王荀龍
 cbdb_id: 22245
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -127,7 +127,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_pAWbb40EeMOkNvBtECMb7v
+        subject_person_id: p_1KK9DvJk9t52KDW7tdEx3R
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_U7FRJcUGG85ngsevW6Z1fD
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Xps_LStzouozbtVHUUp5fX
+          claim_id: c_pAWbb40EeMOkNvBtECMb7v
+          source_id: s_8UC-_UJQrWYGR6NhNatEDo
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1843;1844：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8UC-_UJQrWYGR6NhNatEDo
+            source_type: api_record
+            title: 中国历代人物传记资料库：趙氏(王荀龍妻)（CBDB 5368）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5368&o=json
+            external_identifier: CBDB:5368
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_U7FRJcUGG85ngsevW6Z1fD
+        status: active
+        display_name: 趙氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -149,8 +186,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_1C431iKCJgXs4M4Foe9472 | 王巖叟 | accepted |
+| spouses | p_U7FRJcUGG85ngsevW6Z1fD | 趙氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王荀龍（CBDB 22245）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22245&o=json)
 - [中国历代人物传记资料库：王巖叟（CBDB 8154）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8154&o=json)
+- [中国历代人物传记资料库：趙氏(王荀龍妻)（CBDB 5368）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5368&o=json)

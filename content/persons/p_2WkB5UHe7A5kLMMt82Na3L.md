@@ -4,7 +4,7 @@ id: p_2WkB5UHe7A5kLMMt82Na3L
 status: active
 merged_into: null
 display_name: 王之士
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_CfuA4DMrYRXuvvvHjoETo0
+        subject_person_id: p_2WkB5UHe7A5kLMMt82Na3L
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_LzEELjJoPgtvqqg3hCWYLG
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5r0vP0tWiACqQVfkxn3TTm
+          claim_id: c_CfuA4DMrYRXuvvvHjoETo0
+          source_id: s_sTlfPV6lNaliVn8l6PydHO
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第二甲第六十四名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_sTlfPV6lNaliVn8l6PydHO
+            source_type: api_record
+            title: 中国历代人物传记资料库：韓氏(王之士妻)（CBDB 334259）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334259&o=json
+            external_identifier: CBDB:334259
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_LzEELjJoPgtvqqg3hCWYLG
+        status: active
+        display_name: 韓氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_lWAJitP5jAcigVs0Uhit8c
@@ -234,9 +271,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_an8AZhFejWmrpm1FYeSJN6 | 王陽 | accepted |
+| spouses | p_LzEELjJoPgtvqqg3hCWYLG | 韓氏 | accepted |
 | ancestors | p_CPD7SKaQjjP9hwueEGdFvK | 王晟 | accepted |
 | ancestors | p_jvFn64p1o8kXZW3RThKb7Q | 王誥 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：韓氏(王之士妻)（CBDB 334259）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334259&o=json)
 - [中国历代人物传记资料库：王之士（CBDB 126462）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126462&o=json)

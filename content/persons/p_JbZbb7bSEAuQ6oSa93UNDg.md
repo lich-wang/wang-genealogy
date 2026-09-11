@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王桷
 cbdb_id: 23857
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -170,7 +170,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_PYqsJEmHprCZSKo88A13RZ
+        subject_person_id: p_JbZbb7bSEAuQ6oSa93UNDg
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_pwfKiYihVoBq9gzwQBaKGi
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PMLQWRS-U0A7QwRTvSIaN8
+          claim_id: c_PYqsJEmHprCZSKo88A13RZ
+          source_id: s_uuARxSmJ5gfqcfFvEKGcqy
+          stance: supports
+          locator: 紹興十八年同年小錄，314：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_uuARxSmJ5gfqcfFvEKGcqy
+            source_type: api_record
+            title: 中国历代人物传记资料库：朱氏(王桷妻)（CBDB 135971）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135971&o=json
+            external_identifier: CBDB:135971
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_pwfKiYihVoBq9gzwQBaKGi
+        status: active
+        display_name: 朱氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_GJ9SRZsWG54UstgKZuLq2G | 王涇 | accepted |
+| spouses | p_pwfKiYihVoBq9gzwQBaKGi | 朱氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王涇（CBDB 23856）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23856&o=json)
 - [中国历代人物传记资料库：王桷（CBDB 23857）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23857&o=json)
+- [中国历代人物传记资料库：朱氏(王桷妻)（CBDB 135971）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135971&o=json)

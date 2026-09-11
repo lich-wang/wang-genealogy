@@ -4,7 +4,7 @@ id: p_AKiZ73AHqEtzATAkDq6m9S
 status: active
 merged_into: null
 display_name: 王瑛
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_sJndmJ9N10-UV3Nw3J0Tmh
+        subject_person_id: p_AKiZ73AHqEtzATAkDq6m9S
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_mP42sF7Pz1aHi6ct9ZxHBG
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_C9wFs5N2Kvw6qTNY6amZZw
+          claim_id: c_sJndmJ9N10-UV3Nw3J0Tmh
+          source_id: s_WOZe830AR-CTley6useY-y
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第一百九十四名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_WOZe830AR-CTley6useY-y
+            source_type: api_record
+            title: 中国历代人物传记资料库：韓氏(王瑛妻)（CBDB 294333）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294333&o=json
+            external_identifier: CBDB:294333
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_mP42sF7Pz1aHi6ct9ZxHBG
+        status: active
+        display_name: 韓氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_2uf8fSMtbkpT8qNe04XEXU
@@ -474,6 +511,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_Akvhk7vb2JMfzgR2hpBTHy | 王浦 | accepted |
 | children | p_ad32BrcoPU4xRMCM2tcFkg | 王同穀 | accepted |
+| spouses | p_mP42sF7Pz1aHi6ct9ZxHBG | 韓氏 | accepted |
 | ancestors | p_vRn2WKQKBd5Sg93jKcigfC | 王惠 | accepted |
 | ancestors | p_yNNNmbkNz4tjQELrTMo9G6 | 王誠 | accepted |
 | descendants | p_2EfMZkQk81KS57VSPMi2J4 | 王國棟 | accepted |
@@ -489,5 +527,6 @@ relationships:
 
 ## 外部来源
 
+- [中国历代人物传记资料库：韓氏(王瑛妻)（CBDB 294333）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294333&o=json)
 - [中国历代人物传记资料库：王國棟（CBDB 294343）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294343&o=json)
 - [中国历代人物传记资料库：王瑛（CBDB 126750）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126750&o=json)

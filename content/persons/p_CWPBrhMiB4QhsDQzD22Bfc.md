@@ -4,7 +4,7 @@ id: p_CWPBrhMiB4QhsDQzD22Bfc
 status: active
 merged_into: null
 display_name: 王美暢
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -329,7 +329,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_S0lKxSxEYUE6ioMFFse5DO
+        subject_person_id: p_CWPBrhMiB4QhsDQzD22Bfc
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_vhsgkg8rK4tFcG3j7fgaBX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_piBDGy5WPAC1VlGgoIcMv_
+          claim_id: c_S0lKxSxEYUE6ioMFFse5DO
+          source_id: s_fZHk_5fjjUWQiJPW2tc1Lx
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changan 54：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_fZHk_5fjjUWQiJPW2tc1Lx
+            source_type: api_record
+            title: 中国历代人物传记资料库：長孫氏(王美暢妻)（CBDB 140159）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140159&o=json
+            external_identifier: CBDB:140159
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_vhsgkg8rK4tFcG3j7fgaBX
+        status: active
+        display_name: 長孫氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -358,6 +395,7 @@ relationships:
 | children | p_keA1ABM5X5ny74ci5yWTeu | 王警 | accepted |
 | children | p_WS9553kGD2chRotK2V3Rw3 | 王翼 | accepted |
 | children | p_QvPhnczVXd8EJkAtkRAA2Q | 王芳媚 | accepted |
+| spouses | p_vhsgkg8rK4tFcG3j7fgaBX | 長孫氏 | accepted |
 
 ## 外部来源
 
@@ -366,3 +404,4 @@ relationships:
 - [中国历代人物传记资料库：王芳媚（CBDB 142971）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142971&o=json)
 - [中国历代人物传记资料库：王輝（CBDB 175850）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175850&o=json)
 - [中国历代人物传记资料库：王美暢（CBDB 150489）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150489&o=json)
+- [中国历代人物传记资料库：長孫氏(王美暢妻)（CBDB 140159）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140159&o=json)

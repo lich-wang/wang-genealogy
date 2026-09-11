@@ -4,7 +4,7 @@ id: p_2X56zUa2MYrGErZu5r54un
 status: active
 merged_into: null
 display_name: 王爕
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_HyURtRscJNKC5mIWuWc5Qq
+        subject_person_id: p_2X56zUa2MYrGErZu5r54un
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_wHFs225Fr73NNgbiYpYAoK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Wv0AmNCQ_d293JsFzMBZH8
+          claim_id: c_HyURtRscJNKC5mIWuWc5Qq
+          source_id: s_HtqC6QuUna3OkArQdcPPY_
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第一百一十四名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_HtqC6QuUna3OkArQdcPPY_
+            source_type: api_record
+            title: 中国历代人物传记资料库：許氏(王爕妻)（CBDB 328402）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328402&o=json
+            external_identifier: CBDB:328402
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_wHFs225Fr73NNgbiYpYAoK
+        status: active
+        display_name: 許氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_9g4LSQFa53lcxmy5tfl3TU
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_H8E9DJ6cL51HbCtFQ3ZmfS | 王楩 | accepted |
+| spouses | p_wHFs225Fr73NNgbiYpYAoK | 許氏 | accepted |
 | ancestors | p_pP89K6a61yquC5wjNZD3hv | 王鉞 | accepted |
 | ancestors | p_yfUcpUNSmQKywdUMLPWsyg | 王瑾 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王爕（CBDB 205106）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205106&o=json)
+- [中国历代人物传记资料库：許氏(王爕妻)（CBDB 328402）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328402&o=json)

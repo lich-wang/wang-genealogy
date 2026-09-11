@@ -4,7 +4,7 @@ id: p_GZ9FC3xVw4crRVvp7UDQTX
 status: active
 merged_into: null
 display_name: 王玭
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_3yu20W2uf_oHi-kL9VRAy1
+        subject_person_id: p_GZ9FC3xVw4crRVvp7UDQTX
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_GGpPpPGjxpqJed9SdSfz9D
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__CrSMmssTsNLy6dhL6NVmm
+          claim_id: c_3yu20W2uf_oHi-kL9VRAy1
+          source_id: s_v_mU_IssHuAIlrbgGpeAAP
+          stance: supports
+          locator: 正統十三年進士登科錄:一卷，第三甲第六十三名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_v_mU_IssHuAIlrbgGpeAAP
+            source_type: api_record
+            title: 中国历代人物传记资料库：蔡氏(王玭妻)（CBDB 241176）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241176&o=json
+            external_identifier: CBDB:241176
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GGpPpPGjxpqJed9SdSfz9D
+        status: active
+        display_name: 蔡氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_1zHiNnAtURpDwLysWfsXc-
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_6Tbz6rZoK81ZB5BwdE41k7 | 王興弼 | accepted |
+| spouses | p_GGpPpPGjxpqJed9SdSfz9D | 蔡氏 | accepted |
 | ancestors | p_EPVRDWZKonkLB1kZwcARVu | 王顯德 | accepted |
 | ancestors | p_kMQhT3dQbTnh3GYgpMAAPK | 王保民 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：蔡氏(王玭妻)（CBDB 241176）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241176&o=json)
 - [中国历代人物传记资料库：王玭（CBDB 208155）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208155&o=json)

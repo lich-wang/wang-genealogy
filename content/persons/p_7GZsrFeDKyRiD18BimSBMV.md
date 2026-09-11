@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_7GZsrFeDKyRiD18BimSBMV
+status: active
+merged_into: null
+display_name: 嚴遜
+revision: 1
+cbdb_id: 56491
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_Rl0OmiXucyWOalQPxf119m
+        subject_person_id: p_7GZsrFeDKyRiD18BimSBMV
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 嚴遜
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DFY7pcRSqA-tLYVeF9_rvO
+          claim_id: c_Rl0OmiXucyWOalQPxf119m
+          source_id: s_38_GD_17M5Zc8gBVrDxlWW
+          stance: supports
+          locator: CBDB:56491
+          quotation: null
+          interpretation_note: CBDB 明确记录的王玉芬配偶
+          source: &a1
+            id: s_38_GD_17M5Zc8gBVrDxlWW
+            source_type: api_record
+            title: 中国历代人物传记资料库：嚴遜（CBDB 56491）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56491&o=json
+            external_identifier: CBDB:56491
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses:
+    - claim:
+        id: c_IfppCTgDe5SnQdpwAmDiFw
+        subject_person_id: p_1yxK9F8DNq1ge3RKe9th3W
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_7GZsrFeDKyRiD18BimSBMV
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sIesulLGP6jd4FQ-XSSajl
+          claim_id: c_IfppCTgDe5SnQdpwAmDiFw
+          source_id: s_38_GD_17M5Zc8gBVrDxlWW
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #937, HuWenKai #232：丈夫"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1yxK9F8DNq1ge3RKe9th3W
+        status: active
+        display_name: 王玉芬
+        merged_into_person_id: null
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 嚴遜
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 嚴遜 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+| spouses | p_1yxK9F8DNq1ge3RKe9th3W | 王玉芬 | accepted |
+
+## 外部来源
+
+- [中国历代人物传记资料库：嚴遜（CBDB 56491）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56491&o=json)

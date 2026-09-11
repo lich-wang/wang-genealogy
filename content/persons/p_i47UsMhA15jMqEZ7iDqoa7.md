@@ -4,7 +4,7 @@ id: p_i47UsMhA15jMqEZ7iDqoa7
 status: active
 merged_into: null
 display_name: 王韋
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -210,7 +210,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_XbxL4kZFl4uwVJqRwxcUuN
+        subject_person_id: p_i47UsMhA15jMqEZ7iDqoa7
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_SKVGknfRvJ6NDiodCw2rYN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_L85FHgGjBZ-mbOP3zcWBSO
+          claim_id: c_XbxL4kZFl4uwVJqRwxcUuN
+          source_id: s_P5U3DqPi6-FpDdfUrbQYLl
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Xianheng24：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_P5U3DqPi6-FpDdfUrbQYLl
+            source_type: api_record
+            title: 中国历代人物传记资料库：狄氏(王韋妻)（CBDB 162533）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162533&o=json
+            external_identifier: CBDB:162533
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_SKVGknfRvJ6NDiodCw2rYN
+        status: active
+        display_name: 狄氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -236,7 +273,9 @@ relationships:
 | parents | p_zM5WDm525JzQAvPK8M51wr | 王敏 | accepted |
 | children | p_W8E9H72h3otQNNGaDnB1FU | 王景之 | accepted |
 | children | p_VCCsC6Ka6PLxT1974FrH4p | 王宏之 | accepted |
+| spouses | p_SKVGknfRvJ6NDiodCw2rYN | 狄氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：狄氏(王韋妻)（CBDB 162533）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162533&o=json)
 - [中国历代人物传记资料库：王韋（CBDB 142621）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142621&o=json)

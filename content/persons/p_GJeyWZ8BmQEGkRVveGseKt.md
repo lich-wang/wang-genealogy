@@ -4,7 +4,7 @@ id: p_GJeyWZ8BmQEGkRVveGseKt
 status: active
 merged_into: null
 display_name: 王方徹
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -195,7 +195,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_BFzksv8BLOe_xpdfAE22tj
+        subject_person_id: p_GJeyWZ8BmQEGkRVveGseKt
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_yMqgJHNnB9zFBCkrqHXWG3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ufgsrCxcjzX33dvO5F0EZb
+          claim_id: c_BFzksv8BLOe_xpdfAE22tj
+          source_id: s_QAH-dZcns6x62PMpk0k3gT
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Huichang 7：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_QAH-dZcns6x62PMpk0k3gT
+            source_type: api_record
+            title: 中国历代人物传记资料库：李氏(王方徹妻)（CBDB 158555）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158555&o=json
+            external_identifier: CBDB:158555
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_yMqgJHNnB9zFBCkrqHXWG3
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -220,8 +257,10 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_55kRYvfKuc5skQp3jaRLSP | 王元亮 | accepted |
 | children | p_xpqoa13dt91WrzFePwdVeE | 王慶章 | accepted |
+| spouses | p_yMqgJHNnB9zFBCkrqHXWG3 | 李氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：李氏(王方徹妻)（CBDB 158555）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158555&o=json)
 - [中国历代人物传记资料库：王方徹（CBDB 141793）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141793&o=json)
 - [中国历代人物传记资料库：王元亮（CBDB 158557）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158557&o=json)

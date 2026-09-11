@@ -4,7 +4,7 @@ id: p_x7QK6Yqt4A5YCYRDZUuZNJ
 status: active
 merged_into: null
 display_name: 王彭
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -195,7 +195,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_3wOInyvBsDTaGk_qd7GBVB
+        subject_person_id: p_x7QK6Yqt4A5YCYRDZUuZNJ
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_du4iGTiqUG7ZRmoGZJRfQU
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__xQF-4rwe2BqMGA5y4ZTG4
+          claim_id: c_3wOInyvBsDTaGk_qd7GBVB
+          source_id: s_73hHw0bDnXifQmDd3aFeRe
+          stance: supports
+          locator: 芒洛冢墓遺文，王彭墓志：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_73hHw0bDnXifQmDd3aFeRe
+            source_type: api_record
+            title: 中国历代人物传记资料库：宋氏(王彭妻)（CBDB 571648）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=571648&o=json
+            external_identifier: CBDB:571648
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_du4iGTiqUG7ZRmoGZJRfQU
+        status: active
+        display_name: 宋氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -220,8 +257,10 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_Fqahu1Tzm7wuLSu7e9txiu | 王與安 | accepted |
 | children | p_4xaLW5HVRkhKWDimLcBPZZ | 王秉 | accepted |
+| spouses | p_du4iGTiqUG7ZRmoGZJRfQU | 宋氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：宋氏(王彭妻)（CBDB 571648）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=571648&o=json)
 - [中国历代人物传记资料库：王秉（CBDB 571649）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=571649&o=json)
 - [中国历代人物传记资料库：王彭（CBDB 571644）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=571644&o=json)

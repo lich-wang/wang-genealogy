@@ -4,7 +4,7 @@ id: p_BXB9NPfGnpuNgxRvuHiZwL
 status: active
 merged_into: null
 display_name: 王恭
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -184,7 +184,81 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_X2anXc4oQFf5BdDy21BM47
+        subject_person_id: p_BXB9NPfGnpuNgxRvuHiZwL
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_SxKYi63GbSdegv7JbBFKXm
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XVrxKqZ0h_6tbSx_BFP2C3
+          claim_id: c_X2anXc4oQFf5BdDy21BM47
+          source_id: s_6oexU-F099Exzqpqy_eyol
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Yonghui25：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6oexU-F099Exzqpqy_eyol
+            source_type: api_record
+            title: 中国历代人物传记资料库：劉氏(王恭妻)（CBDB 162061）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162061&o=json
+            external_identifier: CBDB:162061
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_SxKYi63GbSdegv7JbBFKXm
+        status: active
+        display_name: 劉氏
+        merged_into_person_id: null
+    - claim:
+        id: c_qDmCTbjbYiFW7wlRtHLGEW
+        subject_person_id: p_BXB9NPfGnpuNgxRvuHiZwL
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_YD2tJJbGFJKtFbXE6p2Hhn
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8uo5HZW4Yw_jUqrXxo9QA3
+          claim_id: c_qDmCTbjbYiFW7wlRtHLGEW
+          source_id: s_JcPLV9-7WYZ9RfFUivVtiO
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Yonghui25：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_JcPLV9-7WYZ9RfFUivVtiO
+            source_type: api_record
+            title: 中国历代人物传记资料库：陳氏(王恭妻)（CBDB 162062）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162062&o=json
+            external_identifier: CBDB:162062
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_YD2tJJbGFJKtFbXE6p2Hhn
+        status: active
+        display_name: 陳氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -209,7 +283,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_Xa6Y2Lc85FtAk1pdXcvXpd | 王那仁 | accepted |
 | children | p_DNGJa9ezkKqyvBdn8a361a | 王武保 | accepted |
+| spouses | p_SxKYi63GbSdegv7JbBFKXm | 劉氏 | accepted |
+| spouses | p_YD2tJJbGFJKtFbXE6p2Hhn | 陳氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：陳氏(王恭妻)（CBDB 162062）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162062&o=json)
+- [中国历代人物传记资料库：劉氏(王恭妻)（CBDB 162061）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162061&o=json)
 - [中国历代人物传记资料库：王恭（CBDB 142430）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142430&o=json)

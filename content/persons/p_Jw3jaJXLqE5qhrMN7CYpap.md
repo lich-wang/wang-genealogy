@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王人鑑
 cbdb_id: 23100
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -170,7 +170,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_uV9jVcyXjVOIvejHupP8-E
+        subject_person_id: p_Jw3jaJXLqE5qhrMN7CYpap
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_2KVDRP63HeadS2GNiMepCB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7iRdL4zW5N9WmMSXNwoM3N
+          claim_id: c_uV9jVcyXjVOIvejHupP8-E
+          source_id: s_mtvx9pDwp4uB5vWze2QuHM
+          stance: supports
+          locator: 紹興十八年同年小錄，130：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_mtvx9pDwp4uB5vWze2QuHM
+            source_type: api_record
+            title: 中国历代人物传记资料库：李氏(王人鑑妻)（CBDB 135067）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135067&o=json
+            external_identifier: CBDB:135067
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_2KVDRP63HeadS2GNiMepCB
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_9krCz2yefFd538EMhsFrJJ | 王良翰 | accepted |
+| spouses | p_2KVDRP63HeadS2GNiMepCB | 李氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：李氏(王人鑑妻)（CBDB 135067）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135067&o=json)
 - [中国历代人物传记资料库：王良翰（CBDB 23103）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23103&o=json)
 - [中国历代人物传记资料库：王人鑑（CBDB 23100）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23100&o=json)

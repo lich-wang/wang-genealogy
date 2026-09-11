@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王師約
 cbdb_id: 3973
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -239,7 +239,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_WW4Gtp4QHQ7TCKIRQApqGg
+        subject_person_id: p_goJF8MJfNWY7M84o4rFghT
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_gRdHEePtmywULVqxgxsDgJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qthBiE6lbk0bkQ79XJmqT7
+          claim_id: c_WW4Gtp4QHQ7TCKIRQApqGg
+          source_id: s_hU7LQ4-q4rlAp0Iok0gpg4
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1849;1850：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_hU7LQ4-q4rlAp0Iok0gpg4
+            source_type: api_record
+            title: 中国历代人物传记资料库：趙氏(王師約妻)（CBDB 5138）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5138&o=json
+            external_identifier: CBDB:5138
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_gRdHEePtmywULVqxgxsDgJ
+        status: active
+        display_name: 趙氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -264,8 +301,10 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_8wYVTk6QAtnjpPT2UKUeJ6 | 王殊 | accepted |
 | children | p_Q3nWKrtrk1fxAXUkvipx72 | 王殖 | accepted |
+| spouses | p_gRdHEePtmywULVqxgxsDgJ | 趙氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王師約（CBDB 3973）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3973&o=json)
 - [中国历代人物传记资料库：王殊（CBDB 119729）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119729&o=json)
+- [中国历代人物传记资料库：趙氏(王師約妻)（CBDB 5138）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5138&o=json)

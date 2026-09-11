@@ -4,7 +4,7 @@ id: p_ePUgH55QWsG6Hauqd4raHD
 status: active
 merged_into: null
 display_name: 王文彪
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -299,7 +299,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_PK_NPtMGcGO4SVasan0Rs9
+        subject_person_id: p_ePUgH55QWsG6Hauqd4raHD
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_ASjdFfnyEymKMKB5FbDS7o
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5Om4UTNkmQkoQT8E-R4Ngu
+          claim_id: c_PK_NPtMGcGO4SVasan0Rs9
+          source_id: s_uBszQ5wD710IaQEbHdTj9q
+          stance: supports
+          locator: CBDB 双向互证（妻子 方氏）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_uBszQ5wD710IaQEbHdTj9q
+            source_type: api_record
+            title: 中国历代人物传记资料库：方氏（CBDB 437539）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437539&o=json
+            external_identifier: CBDB:437539
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ASjdFfnyEymKMKB5FbDS7o
+        status: active
+        display_name: 方氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_1OcEE4UfCvo3WTbCJDobAB
@@ -788,6 +825,7 @@ relationships:
 | children | p_FzH7EDCutEmYdBJqLD6PCS | 王止善 | accepted |
 | children | p_mjsTtKm7Gao8BjF3oH2t8q | 王壽康 | accepted |
 | children | p_2YC23aFAoQzB4MNQsLmfsH | 王尚雄 | accepted |
+| spouses | p_ASjdFfnyEymKMKB5FbDS7o | 方氏 | accepted |
 | ancestors | p_sxts7ZULvN5zK4kd5zfLWf | 王汾 | accepted |
 | ancestors | p_3E6CLd1DCJsVnmutKF1BFn | 王杓 | accepted |
 | descendants | p_1JRUmvaU3Up47BAzPVpNrj | 王廩 | accepted |
@@ -807,6 +845,7 @@ relationships:
 
 ## 外部来源
 
+- [中国历代人物传记资料库：方氏（CBDB 437539）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437539&o=json)
 - [中国历代人物传记资料库：王稠（CBDB 437551）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437551&o=json)
 - [中国历代人物传记资料库：王積（CBDB 437555）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437555&o=json)
 - [中国历代人物传记资料库：王建中（CBDB 437542）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437542&o=json)

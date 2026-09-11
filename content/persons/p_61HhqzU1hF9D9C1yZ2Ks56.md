@@ -4,7 +4,7 @@ id: p_61HhqzU1hF9D9C1yZ2Ks56
 status: active
 merged_into: null
 display_name: 王夢蘭
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_q7yP59IXx9OmG7UIVsGAZJ
+        subject_person_id: p_61HhqzU1hF9D9C1yZ2Ks56
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_F8dwG6MC1pbkQ1iiynCxKh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i-v24YuaGttDI_aYkV-toD
+          claim_id: c_q7yP59IXx9OmG7UIVsGAZJ
+          source_id: s_EpJwyuZhOaVSIc5t9Ftz8v
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #1168, HuWenKai #250：丈夫"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_EpJwyuZhOaVSIc5t9Ftz8v
+            source_type: api_record
+            title: 中国历代人物传记资料库：吳淂怡（CBDB 69594）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69594&o=json
+            external_identifier: CBDB:69594
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_F8dwG6MC1pbkQ1iiynCxKh
+        status: active
+        display_name: 吳淂怡
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_F8dwG6MC1pbkQ1iiynCxKh | 吳淂怡 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王夢蘭（CBDB 69593）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69593&o=json)
+- [中国历代人物传记资料库：吳淂怡（CBDB 69594）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69594&o=json)

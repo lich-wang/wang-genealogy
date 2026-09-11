@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王騶
 cbdb_id: 54270
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -128,7 +128,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_X7Kf3dbKyNRcSNEOlB1q24
+        subject_person_id: p_NZLA6g9uGGjPLH4EQ9Nhd9
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_sEX6BoyS2rpFEjZqz3MGwz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RCZ4SjUj1F7n22qiAuMK1m
+          claim_id: c_X7Kf3dbKyNRcSNEOlB1q24
+          source_id: s_tLeBL04m51Q2srxyk_vyn7
+          stance: supports
+          locator: CBDB 双向互证（妻子 李毓清）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_tLeBL04m51Q2srxyk_vyn7
+            source_type: api_record
+            title: 中国历代人物传记资料库：李毓清（CBDB 54266）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54266&o=json
+            external_identifier: CBDB:54266
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_sEX6BoyS2rpFEjZqz3MGwz
+        status: active
+        display_name: 李毓清
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -150,8 +187,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_GUtCqhQtZqm89xaA8Dtg9b | 王安福 | accepted |
+| spouses | p_sEX6BoyS2rpFEjZqz3MGwz | 李毓清 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：李毓清（CBDB 54266）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54266&o=json)
 - [中国历代人物传记资料库：王安福（CBDB 54271）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54271&o=json)
 - [中国历代人物传记资料库：王騶（CBDB 54270）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54270&o=json)

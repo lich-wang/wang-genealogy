@@ -4,7 +4,7 @@ id: p_gwVUKjMQycQaZ6UR2zvJFs
 status: active
 merged_into: null
 display_name: 王順
-revision: 4
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -258,7 +258,118 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_ynIvNd418Ne9Eoz2eo1wRE
+        subject_person_id: p_gwVUKjMQycQaZ6UR2zvJFs
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_bD2nZnRMZAtzYsqE7A7E4A
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lfZulczcBabX7_AkZF-iuH
+          claim_id: c_ynIvNd418Ne9Eoz2eo1wRE
+          source_id: s_wy249oNa3S_6UjKS2vW6bh
+          stance: supports
+          locator: 宋濂全集，1196：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_wy249oNa3S_6UjKS2vW6bh
+            source_type: api_record
+            title: 中国历代人物传记资料库：朱氏(王順妻)（CBDB 134049）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134049&o=json
+            external_identifier: CBDB:134049
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bD2nZnRMZAtzYsqE7A7E4A
+        status: active
+        display_name: 朱氏
+        merged_into_person_id: null
+    - claim:
+        id: c_XX9KmwPvsfIRV04YUUC0UU
+        subject_person_id: p_gwVUKjMQycQaZ6UR2zvJFs
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_8HmQFTyeG9WTRZBC9jwXXB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q1kXKuZ2pLk646Sc-HnxeN
+          claim_id: c_XX9KmwPvsfIRV04YUUC0UU
+          source_id: s_p8RI0eH4gmaeV3ZTGHIAnb
+          stance: supports
+          locator: 宋濂全集，1195：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_p8RI0eH4gmaeV3ZTGHIAnb
+            source_type: api_record
+            title: 中国历代人物传记资料库：諸助(王順妻)（CBDB 134050）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134050&o=json
+            external_identifier: CBDB:134050
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8HmQFTyeG9WTRZBC9jwXXB
+        status: active
+        display_name: 諸助
+        merged_into_person_id: null
+    - claim:
+        id: c_xcHg0E6mm57ve2IKKnU-dC
+        subject_person_id: p_gwVUKjMQycQaZ6UR2zvJFs
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_4YbFooAxoUMv2AAUpJ1fu1
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pwGYt19_R1MY-OmutLz7Eu
+          claim_id: c_xcHg0E6mm57ve2IKKnU-dC
+          source_id: s_8i8k0Rq7Q4eWYta1sppTVP
+          stance: supports
+          locator: 宋濂全集，1195：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8i8k0Rq7Q4eWYta1sppTVP
+            source_type: api_record
+            title: 中国历代人物传记资料库：何璉(王順妻)（CBDB 134051）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134051&o=json
+            external_identifier: CBDB:134051
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_4YbFooAxoUMv2AAUpJ1fu1
+        status: active
+        display_name: 何璉
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_X1zJkRUw5dmxm1ni7l1Sso
@@ -441,6 +552,9 @@ relationships:
 | children | p_8CGfGgBfrrBdemwbx49Lvf | 王演 | accepted |
 | children | p_btijS6X4NS7SnrgtkCfThv | 王淳 | accepted |
 | children | p_o5B1fX81D52tkYaod9JBHj | 王溢 | accepted |
+| spouses | p_bD2nZnRMZAtzYsqE7A7E4A | 朱氏 | accepted |
+| spouses | p_8HmQFTyeG9WTRZBC9jwXXB | 諸助 | accepted |
+| spouses | p_4YbFooAxoUMv2AAUpJ1fu1 | 何璉 | accepted |
 | ancestors | p_xKhBiXSv99m8MhpcWpPyAb | 王益之 | accepted |
 | ancestors | p_QLSeisJK24cmFFxc6B9i4K | 王文繼 | accepted |
 | descendants | p_u89tPzkDusF6SdK6p8sZk8 | 王至淑 | accepted |
@@ -450,6 +564,9 @@ relationships:
 
 ## 外部来源
 
+- [中国历代人物传记资料库：何璉(王順妻)（CBDB 134051）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134051&o=json)
 - [中国历代人物传记资料库：王淳（CBDB 134054）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134054&o=json)
 - [中国历代人物传记资料库：王順（CBDB 100852）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100852&o=json)
 - [中国历代人物传记资料库：王演（CBDB 134052）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134052&o=json)
+- [中国历代人物传记资料库：朱氏(王順妻)（CBDB 134049）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134049&o=json)
+- [中国历代人物传记资料库：諸助(王順妻)（CBDB 134050）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134050&o=json)

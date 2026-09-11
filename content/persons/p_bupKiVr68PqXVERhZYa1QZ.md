@@ -4,7 +4,7 @@ id: p_bupKiVr68PqXVERhZYa1QZ
 status: active
 merged_into: null
 display_name: 王守節
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -221,7 +221,81 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_E_BHQ7AYagRl9fNSpSG5_V
+        subject_person_id: p_bupKiVr68PqXVERhZYa1QZ
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_evqmFij4mN3HLv5Djn2jAB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q-GNibtPWaynZG2Lq7X55j
+          claim_id: c_E_BHQ7AYagRl9fNSpSG5_V
+          source_id: s_avUMt3LefrQnWSBirHSBMc
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Tianbao87：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_avUMt3LefrQnWSBirHSBMc
+            source_type: api_record
+            title: 中国历代人物传记资料库：斛斯氏(王守節妻)（CBDB 164874）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=164874&o=json
+            external_identifier: CBDB:164874
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_evqmFij4mN3HLv5Djn2jAB
+        status: active
+        display_name: 斛斯氏
+        merged_into_person_id: null
+    - claim:
+        id: c_fD1WQEgjQug0a9EdphNonJ
+        subject_person_id: p_bupKiVr68PqXVERhZYa1QZ
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_dH993M7mqQgLEoYCPRUqM5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ypyQ0uRuboCD-8-8AwN8CT
+          claim_id: c_fD1WQEgjQug0a9EdphNonJ
+          source_id: s_QzgjFLagWWJBman26sBn5i
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Tianbao87：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_QzgjFLagWWJBman26sBn5i
+            source_type: api_record
+            title: 中国历代人物传记资料库：朱氏(王守節妻)（CBDB 164875）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=164875&o=json
+            external_identifier: CBDB:164875
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_dH993M7mqQgLEoYCPRUqM5
+        status: active
+        display_name: 朱氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -247,8 +321,12 @@ relationships:
 | parents | p_iMaeGBttksVavqroPoetRm | 王弼 | accepted |
 | children | p_b4GtdfchNZbekMPMdK95Q1 | 王元俊 | accepted |
 | children | p_viQ1hMwDPCu7amp3wSnGmH | 王紹先 | accepted |
+| spouses | p_evqmFij4mN3HLv5Djn2jAB | 斛斯氏 | accepted |
+| spouses | p_dH993M7mqQgLEoYCPRUqM5 | 朱氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：斛斯氏(王守節妻)（CBDB 164874）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=164874&o=json)
 - [中国历代人物传记资料库：王守節（CBDB 143031）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143031&o=json)
 - [中国历代人物传记资料库：王元俊（CBDB 164876）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=164876&o=json)
+- [中国历代人物传记资料库：朱氏(王守節妻)（CBDB 164875）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=164875&o=json)

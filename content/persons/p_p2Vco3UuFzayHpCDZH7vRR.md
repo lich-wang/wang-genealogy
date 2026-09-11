@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王至順
 cbdb_id: 522152
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:522152
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_TTdGbJ5qpdF7fU2qPfqfNv
             source_type: api_record
             title: 中国历代人物传记资料库：王至順（CBDB 522152）
@@ -90,7 +90,33 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_r6ie_47kQgDvOrdJ_tBpv0
+        subject_person_id: p_p2Vco3UuFzayHpCDZH7vRR
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_gz7GQXBMKSZCnPJr5rqi7r
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0RVAe4y3W-SqMzMTDhCDnw
+          claim_id: c_r6ie_47kQgDvOrdJ_tBpv0
+          source_id: s_TTdGbJ5qpdF7fU2qPfqfNv
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），9180：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_gz7GQXBMKSZCnPJr5rqi7r
+        status: active
+        display_name: 李塨
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_gz7GQXBMKSZCnPJr5rqi7r | 李塨 | accepted |
 
 ## 外部来源
 

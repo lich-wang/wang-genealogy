@@ -4,7 +4,7 @@ id: p_EYrfu6prdEPRvFMWEDEnKy
 status: active
 merged_into: null
 display_name: 王朗
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_oyy6MOJ5mdsOs_-VKgnuPi
+        subject_person_id: p_EYrfu6prdEPRvFMWEDEnKy
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_v92Lfnh6nmhnJTbDdio6r9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GjqPY3DbzmM3y8YciAytn0
+          claim_id: c_oyy6MOJ5mdsOs_-VKgnuPi
+          source_id: s__sa0XOoyKIX1I0_rRzNIVh
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #3548, HuWenKai #86：丈夫"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s__sa0XOoyKIX1I0_rRzNIVh
+            source_type: api_record
+            title: 中国历代人物传记资料库：秦德澄（CBDB 120464）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120464&o=json
+            external_identifier: CBDB:120464
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_v92Lfnh6nmhnJTbDdio6r9
+        status: active
+        display_name: 秦德澄
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_FE6i55GXzPWLVER3EtdHfo | 王彥泓 | accepted |
+| spouses | p_v92Lfnh6nmhnJTbDdio6r9 | 秦德澄 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：秦德澄（CBDB 120464）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120464&o=json)
 - [中国历代人物传记资料库：王朗（CBDB 120455）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120455&o=json)

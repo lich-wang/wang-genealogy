@@ -4,7 +4,7 @@ id: p_G9ehKPfy4qHWDww9VqBgAg
 status: active
 merged_into: null
 display_name: 王嘉祥
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_MCF1CBtaTo_2JqJgWRifBf
+        subject_person_id: p_G9ehKPfy4qHWDww9VqBgAg
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_QjERUgyPRhDEjuFy4w9wU4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iCzbx5hKyGsqU5QTBuF5Fg
+          claim_id: c_MCF1CBtaTo_2JqJgWRifBf
+          source_id: s_Elifw1YnlEoYg89dk-zn0_
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第四十三名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Elifw1YnlEoYg89dk-zn0_
+            source_type: api_record
+            title: 中国历代人物传记资料库：虞氏(王嘉祥妻)（CBDB 327599）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327599&o=json
+            external_identifier: CBDB:327599
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_QjERUgyPRhDEjuFy4w9wU4
+        status: active
+        display_name: 虞氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_Mz8AAaUKpZ4lflghuVKwIu
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_pT7TCSRM8w3DVm9eJuF7tH | 王聘 | accepted |
+| spouses | p_QjERUgyPRhDEjuFy4w9wU4 | 虞氏 | accepted |
 | ancestors | p_kyk9i6qugNFcR16NKhmVa3 | 王琮 | accepted |
 | ancestors | p_QaMcRbPvFjSK5reVSLvNn3 | 王緯 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王嘉祥（CBDB 205047）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205047&o=json)
+- [中国历代人物传记资料库：虞氏(王嘉祥妻)（CBDB 327599）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327599&o=json)

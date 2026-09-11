@@ -4,7 +4,7 @@ id: p_xT91PgYZaQ28ZWS5H1F1Pb
 status: active
 merged_into: null
 display_name: 王文幹
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -210,7 +210,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_igO9gxT5_fGDFZyuaYUKRG
+        subject_person_id: p_xT91PgYZaQ28ZWS5H1F1Pb
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_1Sr2MeB1CXNNgUHXiuspj3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_d7fQo_WLl6TetCKpGBM74V
+          claim_id: c_igO9gxT5_fGDFZyuaYUKRG
+          source_id: s_ZzQV6T3ECP8qXsgp5zd4qq
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Huichang 37：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZzQV6T3ECP8qXsgp5zd4qq
+            source_type: api_record
+            title: 中国历代人物传记资料库：鄭氏(王文幹妻)（CBDB 158746）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158746&o=json
+            external_identifier: CBDB:158746
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_1Sr2MeB1CXNNgUHXiuspj3
+        status: active
+        display_name: 鄭氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_4PqXQF4-uVoMIWO6uNiQpB
@@ -288,9 +325,11 @@ relationships:
 | parents | p_iCYMvWqdPTMReNWcJw9Xs2 | 王臣端 | accepted |
 | children | p_dACwgZwbNR1ZJ5Htbc7g4U | 王義仙 | accepted |
 | children | p_FtuUTb6ACwBxcj5M1tKQTh | 王義立 | accepted |
+| spouses | p_1Sr2MeB1CXNNgUHXiuspj3 | 鄭氏 | accepted |
 | ancestors | p_A1tXxgh42mmsn6d6eNs4nD | 王奉忠 | accepted |
 | ancestors | p_eqTLPp4L1yE8imCTDAgei5 | 王英進 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王文幹（CBDB 141823）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141823&o=json)
+- [中国历代人物传记资料库：鄭氏(王文幹妻)（CBDB 158746）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158746&o=json)

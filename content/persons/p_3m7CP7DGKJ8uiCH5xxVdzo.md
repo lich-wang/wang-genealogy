@@ -4,7 +4,7 @@ id: p_3m7CP7DGKJ8uiCH5xxVdzo
 status: active
 merged_into: null
 display_name: 王極
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_mHDoexafn9QEIs9bys5LLr
+        subject_person_id: p_3m7CP7DGKJ8uiCH5xxVdzo
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_Jmv52evRijFLLQxKz1ZDNL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_patu10jgEnWZFqqbg0hn04
+          claim_id: c_mHDoexafn9QEIs9bys5LLr
+          source_id: s_WeCBIhGNK1-EjBivtC4Epw
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第十九名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_WeCBIhGNK1-EjBivtC4Epw
+            source_type: api_record
+            title: 中国历代人物传记资料库：邢氏(王極妻)（CBDB 312872）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312872&o=json
+            external_identifier: CBDB:312872
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Jmv52evRijFLLQxKz1ZDNL
+        status: active
+        display_name: 邢氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_y1bXLIsLbWKqoEUlPcB6iy
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_6EWBQvVPeb2Qhu8gDXSsQ8 | 王濟 | accepted |
+| spouses | p_Jmv52evRijFLLQxKz1ZDNL | 邢氏 | accepted |
 | ancestors | p_SCapGFun78ioyXRc2wafBu | 王臣 | accepted |
 | ancestors | p_zQApjdJ2Abk1P3JQMfcbuT | 王銳 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王極（CBDB 203985）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203985&o=json)
+- [中国历代人物传记资料库：邢氏(王極妻)（CBDB 312872）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312872&o=json)

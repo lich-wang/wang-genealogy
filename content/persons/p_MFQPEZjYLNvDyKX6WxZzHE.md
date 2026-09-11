@@ -4,7 +4,7 @@ id: p_MFQPEZjYLNvDyKX6WxZzHE
 status: active
 merged_into: null
 display_name: 王楷
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_rykpbYEMI3EEOwb-Zld7Ji
+        subject_person_id: p_MFQPEZjYLNvDyKX6WxZzHE
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_NCh8jEHuYmJFbKBSWvccG2
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UGFoRqsA8kl8iNyr_qpNA7
+          claim_id: c_rykpbYEMI3EEOwb-Zld7Ji
+          source_id: s_2sjo2S1TRZQvmWnSqKoKCk
+          stance: supports
+          locator: 南陽府志，lgid=878731：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_2sjo2S1TRZQvmWnSqKoKCk
+            source_type: api_record
+            title: 中国历代人物传记资料库：姚氏(王楷妻)（CBDB 556793）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=556793&o=json
+            external_identifier: CBDB:556793
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_NCh8jEHuYmJFbKBSWvccG2
+        status: active
+        display_name: 姚氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_wNUAExUMWJWXbHkZtZE1MW | 王周南 | accepted |
+| spouses | p_NCh8jEHuYmJFbKBSWvccG2 | 姚氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王楷（CBDB 556792）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=556792&o=json)
+- [中国历代人物传记资料库：姚氏(王楷妻)（CBDB 556793）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=556793&o=json)

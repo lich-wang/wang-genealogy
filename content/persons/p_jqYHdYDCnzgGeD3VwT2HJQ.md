@@ -4,7 +4,7 @@ id: p_jqYHdYDCnzgGeD3VwT2HJQ
 status: active
 merged_into: null
 display_name: 王恂
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_Z1kZDsN-_u5b3kVv1F_Guo
+        subject_person_id: p_jqYHdYDCnzgGeD3VwT2HJQ
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_9XUAubEfn666FrwKbbZdDZ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iSDnAIuRl6_MNzsfRxNxKT
+          claim_id: c_Z1kZDsN-_u5b3kVv1F_Guo
+          source_id: s_FjGKUyrHSDr98Q4DKWzCbd
+          stance: supports
+          locator: 宣德五年進士登科錄:一卷，第三甲第五十七名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FjGKUyrHSDr98Q4DKWzCbd
+            source_type: api_record
+            title: 中国历代人物传记资料库：張氏(王振妻)（CBDB 322904）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322904&o=json
+            external_identifier: CBDB:322904
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_9XUAubEfn666FrwKbbZdDZ
+        status: active
+        display_name: 張氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_B1IJcMg_hwz1SDLRRoKtEt
@@ -176,9 +213,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_NPL6P9BFMyJuLurCHCVYkH | 王貴華 | accepted |
+| spouses | p_9XUAubEfn666FrwKbbZdDZ | 張氏 | accepted |
 | ancestors | p_Qd1wdV68WZVJmfszU24bRK | 王琦 | accepted |
 | ancestors | p_ssHxbbtDC56vT3wSvtFyWj | 王文才 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王恂（CBDB 126598）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126598&o=json)
+- [中国历代人物传记资料库：張氏(王振妻)（CBDB 322904）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322904&o=json)

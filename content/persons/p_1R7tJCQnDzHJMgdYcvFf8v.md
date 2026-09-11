@@ -4,7 +4,7 @@ id: p_1R7tJCQnDzHJMgdYcvFf8v
 status: active
 merged_into: null
 display_name: 王椿
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -156,7 +156,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_HJNf8pL8sHoe8sTuyHYgtr
+        subject_person_id: p_1R7tJCQnDzHJMgdYcvFf8v
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_iyt32TZzYTCVxDHjKXqsyR
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_U7Mq4KlxmMujH5xqixNBh4
+          claim_id: c_HJNf8pL8sHoe8sTuyHYgtr
+          source_id: s_-HrTHNtl95AbP1q6jvhH-8
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第二甲第六十名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_-HrTHNtl95AbP1q6jvhH-8
+            source_type: api_record
+            title: 中国历代人物传记资料库：張氏(王椿妻)（CBDB 291530）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291530&o=json
+            external_identifier: CBDB:291530
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_iyt32TZzYTCVxDHjKXqsyR
+        status: active
+        display_name: 張氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_bGAux8ZUexVIUVH-2s3nPk
@@ -232,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_hPeC8d79fUWi5bNUMWcM89 | 王璘 | accepted |
 | children | p_rWbTFNGvrAGvijYCj882fN | 王夢龍 | accepted |
+| spouses | p_iyt32TZzYTCVxDHjKXqsyR | 張氏 | accepted |
 | ancestors | p_zsHWJNVYacVKr1iEB96F37 | 王復初 | accepted |
 | ancestors | p_8i21KJqpcnfH33nUAntUEA | 王鏞 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王椿（CBDB 202645）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202645&o=json)
+- [中国历代人物传记资料库：張氏(王椿妻)（CBDB 291530）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291530&o=json)

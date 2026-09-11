@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王祖
 cbdb_id: 143709
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -239,7 +239,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_Dpz6_89nLw1sfOxLIt103x
+        subject_person_id: p_mZq4zdR7q1GNcMA8vQFJ78
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_Xjc9j65CPFcuQ484zfE73P
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qXemXsQNtr6j8BuikjdCf_
+          claim_id: c_Dpz6_89nLw1sfOxLIt103x
+          source_id: s_NDtUmfppYduUwe6pqVP7GK
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Kaiyuan120：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_NDtUmfppYduUwe6pqVP7GK
+            source_type: api_record
+            title: 中国历代人物传记资料库：衡氏(王祖妻)（CBDB 164192）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=164192&o=json
+            external_identifier: CBDB:164192
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Xjc9j65CPFcuQ484zfE73P
+        status: active
+        display_name: 衡氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -264,8 +301,10 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_y2wPDE6dWkgB37QiaZyE55 | 王敬念 | accepted |
 | children | p_nN9WKKMeX1poVrzPB2Jdqz | 王元珪 | accepted |
+| spouses | p_Xjc9j65CPFcuQ484zfE73P | 衡氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：衡氏(王祖妻)（CBDB 164192）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=164192&o=json)
 - [中国历代人物传记资料库：王元珪（CBDB 164193）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=164193&o=json)
 - [中国历代人物传记资料库：王祖（CBDB 143709）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143709&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王審瓊
 cbdb_id: 689254
-revision: 13
+revision: 14
 properties:
   - predicate: bio.summary
     recommended:
@@ -207,7 +207,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_R6f1g9NDqUyYS-xBYCQX35
+        subject_person_id: p_s2Ci3S96sKz8q9W2YdX1pM
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_iZ1s2ZuGvhTd4EXAvXUyws
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__axV5UmOMvHN80P8BFei9s
+          claim_id: c_R6f1g9NDqUyYS-xBYCQX35
+          source_id: s_1cDCzqQupnAg-z_08invpW
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，40/王審瓊墓誌：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1cDCzqQupnAg-z_08invpW
+            source_type: api_record
+            title: 中国历代人物传记资料库：張氏(王審瓊妻)（CBDB 689299）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689299&o=json
+            external_identifier: CBDB:689299
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_iZ1s2ZuGvhTd4EXAvXUyws
+        status: active
+        display_name: 張氏
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -627,6 +664,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_ew3NkC6K589nn45EjmCt81 | 王知濬 | accepted |
 | children | p_XEBmM74iDRd9pWQEX3aW77 | 王知誨 | accepted |
+| spouses | p_iZ1s2ZuGvhTd4EXAvXUyws | 張氏 | accepted |
 | descendants | p_27uSqTLx5pXAroYbs1kCGZ | 王守旻 | accepted |
 | descendants | p_5KFz2XTNmFB2Vb5p3SFsG7 | 王翁喜 | accepted |
 | descendants | p_9cVZtJ85CH1LJNFC1g9w8T | 王忙兒 | accepted |
@@ -654,3 +692,4 @@ relationships:
 - [中国历代人物传记资料库：王要羅（CBDB 689360）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689360&o=json)
 - [中国历代人物传记资料库：王知誨（CBDB 689301）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689301&o=json)
 - [中国历代人物传记资料库：王知濬（CBDB 689300）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689300&o=json)
+- [中国历代人物传记资料库：張氏(王審瓊妻)（CBDB 689299）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689299&o=json)

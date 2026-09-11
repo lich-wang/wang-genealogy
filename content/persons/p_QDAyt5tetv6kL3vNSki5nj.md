@@ -4,7 +4,7 @@ id: p_QDAyt5tetv6kL3vNSki5nj
 status: active
 merged_into: null
 display_name: 王碩
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -132,7 +132,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_v_UFJQxrSW3yNRr8Cf2Bpn
+        subject_person_id: p_QDAyt5tetv6kL3vNSki5nj
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_GQHqn5hKXLnkDPec1dqHUx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nyE7yDt9S0Xp5mNUh9yNjb
+          claim_id: c_v_UFJQxrSW3yNRr8Cf2Bpn
+          source_id: s_Jm8Nt6i6Rr07tur9IL9SYp
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Jm8Nt6i6Rr07tur9IL9SYp
+            source_type: api_record
+            title: 中国历代人物传记资料库：陳池安（CBDB 39173）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=39173&o=json
+            external_identifier: CBDB:39173
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GQHqn5hKXLnkDPec1dqHUx
+        status: active
+        display_name: 陳池安
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_GQHqn5hKXLnkDPec1dqHUx | 陳池安 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：陳池安（CBDB 39173）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=39173&o=json)
 - [中国历代人物传记资料库：王碩（CBDB 26392）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26392&o=json)

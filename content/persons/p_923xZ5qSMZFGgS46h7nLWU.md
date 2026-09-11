@@ -4,7 +4,7 @@ id: p_923xZ5qSMZFGgS46h7nLWU
 status: active
 merged_into: null
 display_name: 王樵
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -195,7 +195,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_UI45gWUJ2T1_2-GWZ-W1IQ
+        subject_person_id: p_923xZ5qSMZFGgS46h7nLWU
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_bzdWKVmACjcFeJi9xUKPVd
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_e5pMxIpWNiqsafDqaMVZm9
+          claim_id: c_UI45gWUJ2T1_2-GWZ-W1IQ
+          source_id: s_1VcPrQTLXzm_bxAhN3MzsY
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第十五名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1VcPrQTLXzm_bxAhN3MzsY
+            source_type: api_record
+            title: 中国历代人物传记资料库：虞氏(王樵妻)（CBDB 309649）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309649&o=json
+            external_identifier: CBDB:309649
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bzdWKVmACjcFeJi9xUKPVd
+        status: active
+        display_name: 虞氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_W5gj3nmCx_8itkP3hEgRsQ
@@ -310,6 +347,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_vpzDXBrQjqPJnEN64LCsPF | 王臬 | accepted |
 | children | p_5Jy3mzrK4nD5ZKcdARUJuQ | 王肯堂 | accepted |
+| spouses | p_bzdWKVmACjcFeJi9xUKPVd | 虞氏 | accepted |
 | ancestors | p_Eb1QdbChXgN1GA8BEpt3kU | 王鎮 | accepted |
 | ancestors | p_XJ6D4tBNDdCJKx5sTBjB7e | 王瀚 | accepted |
 | descendants | p_FE6i55GXzPWLVER3EtdHfo | 王彥泓 | accepted |
@@ -319,3 +357,4 @@ relationships:
 - [中国历代人物传记资料库：王肯堂（CBDB 34722）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34722&o=json)
 - [中国历代人物传记资料库：王樵（CBDB 34720）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34720&o=json)
 - [中国历代人物传记资料库：王彥泓（CBDB 120462）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120462&o=json)
+- [中国历代人物传记资料库：虞氏(王樵妻)（CBDB 309649）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309649&o=json)

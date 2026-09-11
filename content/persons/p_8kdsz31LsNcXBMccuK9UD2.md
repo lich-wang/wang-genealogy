@@ -4,7 +4,7 @@ id: p_8kdsz31LsNcXBMccuK9UD2
 status: active
 merged_into: null
 display_name: 王恩
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_KBhVE-ETMNZFsVA00ig5W5
+        subject_person_id: p_8kdsz31LsNcXBMccuK9UD2
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_EDSV7MRRML1V8q8KrTjLj8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GL0uI3JnYrdEBpm0-NYB1g
+          claim_id: c_KBhVE-ETMNZFsVA00ig5W5
+          source_id: s_kKplK-lsY7XQCdIaue1qd3
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第六十二名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_kKplK-lsY7XQCdIaue1qd3
+            source_type: api_record
+            title: 中国历代人物传记资料库：徐氏(王恩妻)（CBDB 259209）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259209&o=json
+            external_identifier: CBDB:259209
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_EDSV7MRRML1V8q8KrTjLj8
+        status: active
+        display_name: 徐氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_6V_d6Rypa1XTx2phgVbpEB
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_o8zvgJXd9bgohC9oUj28Xv | 王敏 | accepted |
+| spouses | p_EDSV7MRRML1V8q8KrTjLj8 | 徐氏 | accepted |
 | ancestors | p_DSEvyAUUU5jVKEwuv4MsEy | 王貴學 | accepted |
 | ancestors | p_mMyJdAuQKEqWr5tm5De2Fi | 王士怡 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王恩（CBDB 200520）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200520&o=json)
+- [中国历代人物传记资料库：徐氏(王恩妻)（CBDB 259209）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259209&o=json)

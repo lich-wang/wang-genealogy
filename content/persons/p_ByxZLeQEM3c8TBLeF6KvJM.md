@@ -4,7 +4,7 @@ id: p_ByxZLeQEM3c8TBLeF6KvJM
 status: active
 merged_into: null
 display_name: 王繼
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_ND6rCZ98p-oN-Rj5Du03hw
+        subject_person_id: p_ByxZLeQEM3c8TBLeF6KvJM
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_cjiK3o1TfNAoRsoVVh6KnK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gMjUm6ROA3MEJu1jE7Oti3
+          claim_id: c_ND6rCZ98p-oN-Rj5Du03hw
+          source_id: s_E6-Ue4BT2vhRuOdBmgTNtr
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第三甲第九十一名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_E6-Ue4BT2vhRuOdBmgTNtr
+            source_type: api_record
+            title: 中国历代人物传记资料库：滕氏(王繼妻)（CBDB 237898）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237898&o=json
+            external_identifier: CBDB:237898
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_cjiK3o1TfNAoRsoVVh6KnK
+        status: active
+        display_name: 滕氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_KvqefautQPiS-oBj7LuymA
@@ -234,9 +271,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_cQ6E9KeRsocen3hrHfKcbk | 王廷器 | accepted |
+| spouses | p_cjiK3o1TfNAoRsoVVh6KnK | 滕氏 | accepted |
 | ancestors | p_CxyZa6TEKBz4MjoJnsZpoy | 王均玉 | accepted |
 | ancestors | p_3NRLKquAekXN46Pp8X3ioy | 王覺玉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：滕氏(王繼妻)（CBDB 237898）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237898&o=json)
 - [中国历代人物传记资料库：王繼（CBDB 126877）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126877&o=json)

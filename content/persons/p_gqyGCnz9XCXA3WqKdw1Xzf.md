@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王其仁
 cbdb_id: 136191
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -190,7 +190,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_5sXyEmP1M5EMgnd5BEzrZL
+        subject_person_id: p_gqyGCnz9XCXA3WqKdw1Xzf
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_3uJyMW5XZoMjyd6QhQ3poA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kw7iDCnyORdAOAzVVATD5P
+          claim_id: c_5sXyEmP1M5EMgnd5BEzrZL
+          source_id: s_QcMO59V2lsxdN0nC_cgNWD
+          stance: supports
+          locator: CBDB 双向互证（妻子 鄧氏(王玥母)）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_QcMO59V2lsxdN0nC_cgNWD
+            source_type: api_record
+            title: 中国历代人物传记资料库：鄧氏(王玥母)（CBDB 136192）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136192&o=json
+            external_identifier: CBDB:136192
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3uJyMW5XZoMjyd6QhQ3poA
+        status: active
+        display_name: 鄧氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -214,9 +251,11 @@ relationships:
 | children | p_3BLAEupnmgoMx9jqAGj5U3 | 王文羽 | accepted |
 | children | p_jJid7wVthUjvqYN45c4FGt | 王玥 | accepted |
 | children | p_iL6RAKnmLTU4wkzWYyrNXf | 王啟玉 | accepted |
+| spouses | p_3uJyMW5XZoMjyd6QhQ3poA | 鄧氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：鄧氏(王玥母)（CBDB 136192）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136192&o=json)
 - [中国历代人物传记资料库：王其仁（CBDB 136191）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136191&o=json)
 - [中国历代人物传记资料库：王文羽（CBDB 121806）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121806&o=json)
 - [中国历代人物传记资料库：王玥（CBDB 121804）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121804&o=json)

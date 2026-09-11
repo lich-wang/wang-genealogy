@@ -4,7 +4,7 @@ id: p_e8Z59Em5hbj5KfsGE7UhVQ
 status: active
 merged_into: null
 display_name: 王鑑
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_Z8yAYi9kojZHK3Af6ei6kr
+        subject_person_id: p_e8Z59Em5hbj5KfsGE7UhVQ
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_XcSXxfj3mZBJQivkT5yYZQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k5TBvhQLB7nb3wZpbTOi2S
+          claim_id: c_Z8yAYi9kojZHK3Af6ei6kr
+          source_id: s_-6DkGuAa8byyLAm-MyfaKu
+          stance: supports
+          locator: 嘉靖四十四年進士登科錄:一卷，第二甲第十七名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_-6DkGuAa8byyLAm-MyfaKu
+            source_type: api_record
+            title: 中国历代人物传记资料库：劉氏(王鑑妻)（CBDB 329593）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329593&o=json
+            external_identifier: CBDB:329593
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_XcSXxfj3mZBJQivkT5yYZQ
+        status: active
+        display_name: 劉氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_kxVvXDRE1DEY3cAKVGJ8o3
@@ -234,9 +271,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_yBv5FsmN9BCFNm7cQbu6uG | 王問 | accepted |
+| spouses | p_XcSXxfj3mZBJQivkT5yYZQ | 劉氏 | accepted |
 | ancestors | p_gH7wRC5BmANJJYsb5Tb9ge | 王宗 | accepted |
 | ancestors | p_P9eXDEa4P4ZWiNvC97WQT1 | 王澤 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：劉氏(王鑑妻)（CBDB 329593）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329593&o=json)
 - [中国历代人物传记资料库：王鑑（CBDB 126886）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126886&o=json)

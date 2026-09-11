@@ -4,7 +4,7 @@ id: p_5eqa2npzGNMyLY9apLyg93
 status: active
 merged_into: null
 display_name: 王儼
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_VhWg_64uu00jjaWtRNG0PV
+        subject_person_id: p_5eqa2npzGNMyLY9apLyg93
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_8C6sytTQSRKy1JrArNBF7Y
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sU4iidrFb9bWJT6n9sQQxI
+          claim_id: c_VhWg_64uu00jjaWtRNG0PV
+          source_id: s_RIyKYLZnDlqkwFPda6YkAa
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第二百三十一名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_RIyKYLZnDlqkwFPda6YkAa
+            source_type: api_record
+            title: 中国历代人物传记资料库：李氏(王儼妻)（CBDB 336836）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336836&o=json
+            external_identifier: CBDB:336836
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8C6sytTQSRKy1JrArNBF7Y
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_HTE-V5tc7jMrmxfNQH0RfL
@@ -176,9 +213,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_xaFW5n3rj8bBX5K7DicMLs | 王三成 | accepted |
+| spouses | p_8C6sytTQSRKy1JrArNBF7Y | 李氏 | accepted |
 | ancestors | p_CiQUwAvRuDMT5yXpH3NMmL | 王濬 | accepted |
 | ancestors | p_GXyYh4gFZuBGtFJXmM8AQz | 王孝 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：李氏(王儼妻)（CBDB 336836）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336836&o=json)
 - [中国历代人物传记资料库：王儼（CBDB 126890）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126890&o=json)

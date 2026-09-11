@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_9xpvdq1k8Mjq7XSj6ypNHt
+status: active
+merged_into: null
+display_name: 崔府君
+revision: 1
+cbdb_id: 154277
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_jRnENnUNXrOC5sDyNWgWJO
+        subject_person_id: p_9xpvdq1k8Mjq7XSj6ypNHt
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 崔府君
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4sTI7VyfmwaCuMSrJ2ijqh
+          claim_id: c_jRnENnUNXrOC5sDyNWgWJO
+          source_id: s_TmnLQd6eZ6GgET9lWCtQ0J
+          stance: supports
+          locator: CBDB:154277
+          quotation: null
+          interpretation_note: CBDB 明确记录的王京配偶
+          source: &a1
+            id: s_TmnLQd6eZ6GgET9lWCtQ0J
+            source_type: api_record
+            title: 中国历代人物传记资料库：崔府君(王京夫)（CBDB 154277）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154277&o=json
+            external_identifier: CBDB:154277
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses:
+    - claim:
+        id: c_ZLdtkgMuO3T8m2Fo4i0kvk
+        subject_person_id: p_1R27M2czAahiFDCMUScN43
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_9xpvdq1k8Mjq7XSj6ypNHt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6RLcxZb1ze-3mG3wFuf4B0
+          claim_id: c_ZLdtkgMuO3T8m2Fo4i0kvk
+          source_id: s_TmnLQd6eZ6GgET9lWCtQ0J
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 216：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1R27M2czAahiFDCMUScN43
+        status: active
+        display_name: 王京
+        merged_into_person_id: null
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 崔府君
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 崔府君 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+| spouses | p_1R27M2czAahiFDCMUScN43 | 王京 | accepted |
+
+## 外部来源
+
+- [中国历代人物传记资料库：崔府君(王京夫)（CBDB 154277）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154277&o=json)

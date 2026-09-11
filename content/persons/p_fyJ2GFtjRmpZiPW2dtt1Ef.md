@@ -4,7 +4,7 @@ id: p_fyJ2GFtjRmpZiPW2dtt1Ef
 status: active
 merged_into: null
 display_name: 王延祚
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_H_ANIfDxcvIRfyX_IDmpp_
+        subject_person_id: p_fyJ2GFtjRmpZiPW2dtt1Ef
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_PJ5KyVPyxWXtmhgkZxSAjV
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SPe0PRhYXuxme8MQFK2vbe
+          claim_id: c_H_ANIfDxcvIRfyX_IDmpp_
+          source_id: s_lxAArLYrzYSYKHJr83seEp
+          stance: supports
+          locator: 紹興府志:八十卷，lgid=316743：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_lxAArLYrzYSYKHJr83seEp
+            source_type: api_record
+            title: 中国历代人物传记资料库：黃氏(王延祚妻)（CBDB 563626）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=563626&o=json
+            external_identifier: CBDB:563626
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_PJ5KyVPyxWXtmhgkZxSAjV
+        status: active
+        display_name: 黃氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_UCndMG6JqMJZWH2roHzNuj | 王令高 | accepted |
+| spouses | p_PJ5KyVPyxWXtmhgkZxSAjV | 黃氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：黃氏(王延祚妻)（CBDB 563626）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=563626&o=json)
 - [中国历代人物传记资料库：王延祚（CBDB 563625）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=563625&o=json)

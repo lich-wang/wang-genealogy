@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_hXvLETRHA2FM9fWtb9ACsn
+status: active
+merged_into: null
+display_name: 龔氏
+revision: 1
+cbdb_id: 561649
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_kYG61sKfElOdT2NyDOrvEh
+        subject_person_id: p_hXvLETRHA2FM9fWtb9ACsn
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 龔氏
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-MP9AZ8QT3rPwDOBxG3C2C
+          claim_id: c_kYG61sKfElOdT2NyDOrvEh
+          source_id: s_4bmCQoUx4FGAQ-Qa6Jizfy
+          stance: supports
+          locator: CBDB:561649
+          quotation: null
+          interpretation_note: CBDB 明确记录的王廷璽配偶
+          source: &a1
+            id: s_4bmCQoUx4FGAQ-Qa6Jizfy
+            source_type: api_record
+            title: 中国历代人物传记资料库：龔氏(王廷璽妻)（CBDB 561649）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=561649&o=json
+            external_identifier: CBDB:561649
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses:
+    - claim:
+        id: c_tYDqG5Ege44aEtK_gHSEJ4
+        subject_person_id: p_9E2mDGKwTK9PnmoDvsMqS1
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_hXvLETRHA2FM9fWtb9ACsn
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SIx3JJwpRnGU46zXm25Z4q
+          claim_id: c_tYDqG5Ege44aEtK_gHSEJ4
+          source_id: s_4bmCQoUx4FGAQ-Qa6Jizfy
+          stance: supports
+          locator: 南陽府志，lgid=878867：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_9E2mDGKwTK9PnmoDvsMqS1
+        status: active
+        display_name: 王廷璽
+        merged_into_person_id: null
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 龔氏
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 龔氏 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+| spouses | p_9E2mDGKwTK9PnmoDvsMqS1 | 王廷璽 | accepted |
+
+## 外部来源
+
+- [中国历代人物传记资料库：龔氏(王廷璽妻)（CBDB 561649）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=561649&o=json)

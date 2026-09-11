@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王與安
 cbdb_id: 571645
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -170,7 +170,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_g7ozE-wzwincckgmIfB_Mk
+        subject_person_id: p_Fqahu1Tzm7wuLSu7e9txiu
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_eq2S75ncAEQCG37W386Tdg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kl9YuJYu5Gm05jglWWBDTp
+          claim_id: c_g7ozE-wzwincckgmIfB_Mk
+          source_id: s_55mynRwzSXqR0UUf7vFTFj
+          stance: supports
+          locator: 芒洛冢墓遺文，王彭墓志：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_55mynRwzSXqR0UUf7vFTFj
+            source_type: api_record
+            title: 中国历代人物传记资料库：陳氏(王與安妻)（CBDB 571647）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=571647&o=json
+            external_identifier: CBDB:571647
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_eq2S75ncAEQCG37W386Tdg
+        status: active
+        display_name: 陳氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_x7QK6Yqt4A5YCYRDZUuZNJ | 王彭 | accepted |
+| spouses | p_eq2S75ncAEQCG37W386Tdg | 陳氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：陳氏(王與安妻)（CBDB 571647）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=571647&o=json)
 - [中国历代人物传记资料库：王彭（CBDB 571644）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=571644&o=json)
 - [中国历代人物传记资料库：王與安（CBDB 571645）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=571645&o=json)

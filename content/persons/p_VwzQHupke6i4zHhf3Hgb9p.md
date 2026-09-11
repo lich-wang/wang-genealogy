@@ -4,7 +4,7 @@ id: p_VwzQHupke6i4zHhf3Hgb9p
 status: active
 merged_into: null
 display_name: 王相
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -132,7 +132,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_qRnAvXkLYzV9r0n-kUh2nA
+        subject_person_id: p_VwzQHupke6i4zHhf3Hgb9p
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_bUSu6ZpTQ9eba89jgnT6Nr
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tkbxmHjaVdP14aNk60eEaX
+          claim_id: c_qRnAvXkLYzV9r0n-kUh2nA
+          source_id: s_UjwqKmhbM_wkL4VP9zU_yz
+          stance: supports
+          locator: 元人傳記資料索引，12330：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_UjwqKmhbM_wkL4VP9zU_yz
+            source_type: api_record
+            title: 中国历代人物传记资料库：潘氏(王相妻)（CBDB 111536）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=111536&o=json
+            external_identifier: CBDB:111536
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bUSu6ZpTQ9eba89jgnT6Nr
+        status: active
+        display_name: 潘氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_bUSu6ZpTQ9eba89jgnT6Nr | 潘氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：潘氏(王相妻)（CBDB 111536）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=111536&o=json)
 - [中国历代人物传记资料库：王相（CBDB 100729）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100729&o=json)

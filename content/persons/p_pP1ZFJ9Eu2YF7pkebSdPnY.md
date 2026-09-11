@@ -4,7 +4,7 @@ id: p_pP1ZFJ9Eu2YF7pkebSdPnY
 status: active
 merged_into: null
 display_name: 王家楨
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -139,7 +139,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_fyW1TFQZQVb2PpOThghqld
+        subject_person_id: p_pP1ZFJ9Eu2YF7pkebSdPnY
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_Nw8rU459EMKgrDCLjsd6UZ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KEOGMehDBz394xDwCw9SFk
+          claim_id: c_fyW1TFQZQVb2PpOThghqld
+          source_id: s_3VSj6Y0ZlPdI7Ce4YKqJ5v
+          stance: supports
+          locator: 紹興府志:八十卷，lgid=316871：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3VSj6Y0ZlPdI7Ce4YKqJ5v
+            source_type: api_record
+            title: 中国历代人物传记资料库：翁氏(王家楨妻)（CBDB 570982）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570982&o=json
+            external_identifier: CBDB:570982
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Nw8rU459EMKgrDCLjsd6UZ
+        status: active
+        display_name: 翁氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -162,8 +199,10 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_KK8vNXZj4epAzhpkfscadd | 王士珪 | accepted |
 | children | p_bqEoSPF37A64nsJ8LA87oR | 王德新 | accepted |
+| spouses | p_Nw8rU459EMKgrDCLjsd6UZ | 翁氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王德新（CBDB 570986）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570986&o=json)
 - [中国历代人物传记资料库：王家楨（CBDB 570981）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570981&o=json)
+- [中国历代人物传记资料库：翁氏(王家楨妻)（CBDB 570982）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570982&o=json)

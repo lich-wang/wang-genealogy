@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王固己
 cbdb_id: 140737
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -239,7 +239,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_GwMV1dq0Y5nWnn7oBGtMc3
+        subject_person_id: p_acJL151CL8ZU3mDEqikzmS
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_peQPGfi2eE3jMDcomi2tBr
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_O6iPVHro4XkT1uGmXgyeR7
+          claim_id: c_GwMV1dq0Y5nWnn7oBGtMc3
+          source_id: s_iQzeHpqOTMaWHlbiTs-q2c
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 471：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_iQzeHpqOTMaWHlbiTs-q2c
+            source_type: api_record
+            title: 中国历代人物传记资料库：盧氏(王固己妻)（CBDB 152940）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152940&o=json
+            external_identifier: CBDB:152940
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_peQPGfi2eE3jMDcomi2tBr
+        status: active
+        display_name: 盧氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_xZwMUqeBSgarFHu_a5K1Qk
@@ -290,9 +327,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_4EU5hab5MGo71FXwq1jBL2 | 王方智 | accepted |
 | children | p_koZZSSkuaAbaVwbfLmgQGV | 王璵 | accepted |
+| spouses | p_peQPGfi2eE3jMDcomi2tBr | 盧氏 | accepted |
 | ancestors | p_yYWP56xYF7YEvgG32tAH3B | 王弘訓 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：盧氏(王固己妻)（CBDB 152940）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152940&o=json)
 - [中国历代人物传记资料库：王固己（CBDB 140737）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140737&o=json)
 - [中国历代人物传记资料库：王璵（CBDB 152944）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152944&o=json)

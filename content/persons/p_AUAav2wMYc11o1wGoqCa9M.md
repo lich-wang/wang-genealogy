@@ -4,7 +4,7 @@ id: p_AUAav2wMYc11o1wGoqCa9M
 status: active
 merged_into: null
 display_name: 王沂
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_gNzMA10zqM3mWLE9G1sZwf
+        subject_person_id: p_AUAav2wMYc11o1wGoqCa9M
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_ikbCC8MsJXPVyBkRJmpPq8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uobKjj1Jmf1oxVGH8tTMXr
+          claim_id: c_gNzMA10zqM3mWLE9G1sZwf
+          source_id: s_3PHH7BnT8eZ2mrUwVGHHMg
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第二甲第五名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3PHH7BnT8eZ2mrUwVGHHMg
+            source_type: api_record
+            title: 中国历代人物传记资料库：楊氏(王沂妻)（CBDB 247648）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247648&o=json
+            external_identifier: CBDB:247648
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ikbCC8MsJXPVyBkRJmpPq8
+        status: active
+        display_name: 楊氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_bd3bBOYtYGLFhn6pjQnN9b
@@ -203,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_MiT45BEZABeDdxC6DUoAF7 | 王㒜 | accepted |
 | parents | p_Zs5gecTe439MQSMXdKdr5j | 王㵰 | accepted |
+| spouses | p_ikbCC8MsJXPVyBkRJmpPq8 | 楊氏 | accepted |
 | ancestors | p_pkraRhhFphQavzPodgyG7o | 王友諒 | accepted |
 | ancestors | p_ytW3PF5bJ7iCcWzAC9C94F | 王守正 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王沂（CBDB 126526）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126526&o=json)
+- [中国历代人物传记资料库：楊氏(王沂妻)（CBDB 247648）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247648&o=json)

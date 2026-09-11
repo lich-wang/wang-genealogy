@@ -4,7 +4,7 @@ id: p_TwqNttrAJWC7sH4DG9Kbi9
 status: active
 merged_into: null
 display_name: 王令
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -195,7 +195,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_9AqYknM7fhFEvkylEvo7M5
+        subject_person_id: p_TwqNttrAJWC7sH4DG9Kbi9
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_Htri1XDjpuraKHCCtEFJ7i
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5wyDyXJrj0jEp861IFd3_7
+          claim_id: c_9AqYknM7fhFEvkylEvo7M5
+          source_id: s_XhfO9Q80a6fiBQ2Nq3Sw2S
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 339：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_XhfO9Q80a6fiBQ2Nq3Sw2S
+            source_type: api_record
+            title: 中国历代人物传记资料库：李氏(王令妻)（CBDB 152385）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152385&o=json
+            external_identifier: CBDB:152385
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Htri1XDjpuraKHCCtEFJ7i
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -220,8 +257,10 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_V6uZ3vaJQQPK3miTq334HU | 王了 | accepted |
 | children | p_A8FZFEXtNi6H1X64Qcc96n | 王尚賢 | accepted |
+| spouses | p_Htri1XDjpuraKHCCtEFJ7i | 李氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：李氏(王令妻)（CBDB 152385）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152385&o=json)
 - [中国历代人物传记资料库：王令（CBDB 140513）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140513&o=json)
 - [中国历代人物传记资料库：王尚賢（CBDB 152390）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152390&o=json)

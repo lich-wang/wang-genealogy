@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王用善
 cbdb_id: 555051
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -170,7 +170,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_GTuqF6HaW0efLDGp0CbsZB
+        subject_person_id: p_BZTq4h8J9i4P7ewhfmoDT2
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_FrM2ZGAKxFkY2nPqoCCHVX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_h739q-X3Ua3Rr2DEsiK9kI
+          claim_id: c_GTuqF6HaW0efLDGp0CbsZB
+          source_id: s_qclRHLY5obJt4ZGPdETV5W
+          stance: supports
+          locator: 南陽府志，lgid=878686：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_qclRHLY5obJt4ZGPdETV5W
+            source_type: api_record
+            title: 中国历代人物传记资料库：李氏(王用善妻)（CBDB 555092）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555092&o=json
+            external_identifier: CBDB:555092
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_FrM2ZGAKxFkY2nPqoCCHVX
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_cyN6q5bJsKD8Leae6zniwf | 王炎 | accepted |
+| spouses | p_FrM2ZGAKxFkY2nPqoCCHVX | 李氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：李氏(王用善妻)（CBDB 555092）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555092&o=json)
 - [中国历代人物传记资料库：王炎（CBDB 555058）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555058&o=json)
 - [中国历代人物传记资料库：王用善（CBDB 555051）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555051&o=json)

@@ -4,7 +4,7 @@ id: p_EsRDyFvEK3YaUwwwR2A4xp
 status: active
 merged_into: null
 display_name: 王璣
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_NJR1k5oNH8a8d6CI-Lvdjc
+        subject_person_id: p_EsRDyFvEK3YaUwwwR2A4xp
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_AZHUc1Wdu5ZWGMDfPkogp9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bRc2TLbhWKWhgesU6iZ6wf
+          claim_id: c_NJR1k5oNH8a8d6CI-Lvdjc
+          source_id: s_dV3D5Uy9ijzxJ8aJdEyMYx
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第一百五十九名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_dV3D5Uy9ijzxJ8aJdEyMYx
+            source_type: api_record
+            title: 中国历代人物传记资料库：余氏(王璣妻)（CBDB 290014）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290014&o=json
+            external_identifier: CBDB:290014
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_AZHUc1Wdu5ZWGMDfPkogp9
+        status: active
+        display_name: 余氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_9U64Y2kTvLL9FQeKFgSCwH
@@ -234,9 +271,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_oLGH5VdAkbTAKw9xdBWvfS | 王文暉 | accepted |
+| spouses | p_AZHUc1Wdu5ZWGMDfPkogp9 | 余氏 | accepted |
 | ancestors | p_w95Qyiy1Ei4ZGtAAFRrWXU | 王時言 | accepted |
 | ancestors | p_SKTCYUFHWsLRhaeZBL7nG7 | 王璽 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王璣（CBDB 126823）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126823&o=json)
+- [中国历代人物传记资料库：余氏(王璣妻)（CBDB 290014）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290014&o=json)

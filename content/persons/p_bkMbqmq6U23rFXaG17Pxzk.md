@@ -4,7 +4,7 @@ id: p_bkMbqmq6U23rFXaG17Pxzk
 status: active
 merged_into: null
 display_name: 王師心
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -195,7 +195,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_v9dsnmSBcscCs_t8s_mz7u
+        subject_person_id: p_bkMbqmq6U23rFXaG17Pxzk
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_uCC1DMixuQpxcRtk8o9HAJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_O1zpfJqYwDjINQOLPfl9ul
+          claim_id: c_v9dsnmSBcscCs_t8s_mz7u
+          source_id: s_GcHjL2yt-y82NmEAhfQuzq
+          stance: supports
+          locator: 全宋文，卷 4781：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GcHjL2yt-y82NmEAhfQuzq
+            source_type: api_record
+            title: 中国历代人物传记资料库：曹氏(王師心妻)（CBDB 385776）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385776&o=json
+            external_identifier: CBDB:385776
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_uCC1DMixuQpxcRtk8o9HAJ
+        status: active
+        display_name: 曹氏
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -491,6 +528,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_35wd94gwG3pzokf4a6CedM | 王登 | accepted |
 | children | p_QiMXSEFT7jvgqUvHpGQMA4 | 王淑 | accepted |
+| spouses | p_uCC1DMixuQpxcRtk8o9HAJ | 曹氏 | accepted |
 | descendants | p_64abNVCX3tB4hhRcKEd7HQ | 王樸 | accepted |
 | descendants | p_Y2T6JoxNT8QKokD985uNxg | 王楷 | accepted |
 | descendants | p_k6avUyaFcBkTE2cKwzPVLW | 王柄 | accepted |
@@ -504,6 +542,7 @@ relationships:
 
 ## 外部来源
 
+- [中国历代人物传记资料库：曹氏(王師心妻)（CBDB 385776）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385776&o=json)
 - [中国历代人物传记资料库：王樸（CBDB 385783）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385783&o=json)
 - [中国历代人物传记资料库：王師心（CBDB 1872）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1872&o=json)
 - [中国历代人物传记资料库：王淑（CBDB 385777）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385777&o=json)

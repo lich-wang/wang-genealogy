@@ -4,7 +4,7 @@ id: p_AT6TrLXfXNgCqXXBTHbNGY
 status: active
 merged_into: null
 display_name: 王佐
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_6nHAI1TissECsyH5MgxlNF
+        subject_person_id: p_AT6TrLXfXNgCqXXBTHbNGY
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_NqCzUj27xc4CPMGYFbUzFH
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ff7jFXZ23KDa99MFbdFQ1a
+          claim_id: c_6nHAI1TissECsyH5MgxlNF
+          source_id: s_liqDa0fj49BztmoE61c8Ys
+          stance: supports
+          locator: 紹興十八年同年小錄，84：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_liqDa0fj49BztmoE61c8Ys
+            source_type: api_record
+            title: 中国历代人物传记资料库：高氏(王佐妻)（CBDB 134740）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134740&o=json
+            external_identifier: CBDB:134740
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_NqCzUj27xc4CPMGYFbUzFH
+        status: active
+        display_name: 高氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -182,7 +219,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_S91UDmLopWwoam8e6F89Jc | 王俊彥 | accepted |
+| spouses | p_NqCzUj27xc4CPMGYFbUzFH | 高氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：高氏(王佐妻)（CBDB 134740）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134740&o=json)
 - [中国历代人物传记资料库：王佐（CBDB 13477）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13477&o=json)

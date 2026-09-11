@@ -4,7 +4,7 @@ id: p_VQ1xeirYSn3z8RccAqYWTS
 status: active
 merged_into: null
 display_name: 王業偉
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -113,7 +113,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_129asyctHrdsb6bmvVDG5H
+        subject_person_id: p_VQ1xeirYSn3z8RccAqYWTS
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_Pa4GvkxNdRsHFY4NeGPTCS
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yH5QJti-5dsjMy-3Tt_j6s
+          claim_id: c_129asyctHrdsb6bmvVDG5H
+          source_id: s_XG0Ra4vrnMh5CCiG_OgcvV
+          stance: supports
+          locator: 紹興府志:八十卷，lgid=316825：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_XG0Ra4vrnMh5CCiG_OgcvV
+            source_type: api_record
+            title: 中国历代人物传记资料库：施氏(王業偉妻)（CBDB 570499）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570499&o=json
+            external_identifier: CBDB:570499
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Pa4GvkxNdRsHFY4NeGPTCS
+        status: active
+        display_name: 施氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_fKNHKBLag79DPiTzJGUWh9 | 王振遠 | accepted |
+| spouses | p_Pa4GvkxNdRsHFY4NeGPTCS | 施氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：施氏(王業偉妻)（CBDB 570499）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570499&o=json)
 - [中国历代人物传记资料库：王業偉（CBDB 556672）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=556672&o=json)
 - [中国历代人物传记资料库：王振遠（CBDB 570500）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570500&o=json)

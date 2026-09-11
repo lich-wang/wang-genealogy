@@ -4,7 +4,7 @@ id: p_gT8Y6oM2Xv4kiuH3CHGLND
 status: active
 merged_into: null
 display_name: 王鳳徵
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -113,7 +113,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_F5uGKXTo001cs8_5lvBrON
+        subject_person_id: p_gT8Y6oM2Xv4kiuH3CHGLND
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_S18pHiP6i4y1coLRP6mnpL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3Hx1aIEyDsLD0DsFdjiICw
+          claim_id: c_F5uGKXTo001cs8_5lvBrON
+          source_id: s_ZKKrT3cohikeJZ0l3-eYAB
+          stance: supports
+          locator: (乾隆)信陽州志，lgid=868515：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZKKrT3cohikeJZ0l3-eYAB
+            source_type: api_record
+            title: 中国历代人物传记资料库：何氏(王鳳徵妻)（CBDB 557423）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=557423&o=json
+            external_identifier: CBDB:557423
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_S18pHiP6i4y1coLRP6mnpL
+        status: active
+        display_name: 何氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_oAxusOpjwzl-lWPxJY0U-1
@@ -161,9 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_1D9UJ3qbxhZuhm9688Gxjt | 王嗣祖 | accepted |
+| spouses | p_S18pHiP6i4y1coLRP6mnpL | 何氏 | accepted |
 | ancestors | p_TTntK269568eA9RALQmA43 | 王納言 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：何氏(王鳳徵妻)（CBDB 557423）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=557423&o=json)
 - [中国历代人物传记资料库：王鳳徵（CBDB 557421）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=557421&o=json)
 - [中国历代人物传记资料库：王嗣祖（CBDB 557424）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=557424&o=json)

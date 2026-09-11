@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王汶
 cbdb_id: 143322
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -432,6 +432,43 @@ relationships:
         status: active
         display_name: 蒋氏
         merged_into_person_id: null
+    - claim:
+        id: c_RhDT4PLTiABvnN6B7op0eZ
+        subject_person_id: p_xtyYrh2ceBwZ769mV4SDUW
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_y6ifpLXJGmJtEyYXPLQC4h
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KXB60rRdYhdU6aRkFl3Foy
+          claim_id: c_RhDT4PLTiABvnN6B7op0eZ
+          source_id: s_49ee0bS15E-hPWS0P2fnhA
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Baoli3：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_49ee0bS15E-hPWS0P2fnhA
+            source_type: api_record
+            title: 中国历代人物传记资料库：蔣氏(王汶妻)（CBDB 166396）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166396&o=json
+            external_identifier: CBDB:166396
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_y6ifpLXJGmJtEyYXPLQC4h
+        status: active
+        display_name: 蔣氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_0Hk3c9WNg7qfz_CSvSQZsI
@@ -510,6 +547,7 @@ relationships:
 | children | p_Z5BPr9m4u9GFwUQLtaQNNb | 王袞 | accepted |
 | spouses | p_Xn7YfLPB8jFLqE7voVoB2a | 蒋氏 | accepted |
 | spouses | p_Xn7YfLPB8jFLqE7voVoB2a | 蒋氏 | accepted |
+| spouses | p_y6ifpLXJGmJtEyYXPLQC4h | 蔣氏 | accepted |
 | ancestors | p_RQFRb7ZkfNHmmspp2wmJ84 | 王方泰 | accepted |
 | ancestors | p_Bj8bFyazic2NrpdNesGfKg | 王鸿 | accepted |
 
@@ -518,6 +556,7 @@ relationships:
 - [维基数据：蒋氏（Q65803570）](https://www.wikidata.org/wiki/Q65803570)
 - [维基数据：王袞（Q45537271）](https://www.wikidata.org/wiki/Q45537271)
 - [维基数据：王汶（Q45618566）](https://www.wikidata.org/wiki/Q45618566)
+- [中国历代人物传记资料库：蔣氏(王汶妻)（CBDB 166396）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166396&o=json)
 - [CBDB 中国历代人物传记资料库：王袞（141634）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141634&o=json)
 - [CBDB 中国历代人物传记资料库：王汶（143322）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143322&o=json)
 - [CBDB 中国历代人物传记资料库：王志悌（140994）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140994&o=json)

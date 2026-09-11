@@ -4,7 +4,7 @@ id: p_oXazvgZDCU1eQZ2UVAEZ4j
 status: active
 merged_into: null
 display_name: 王曙
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -169,7 +169,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_vnHKqzmOOMy3yjXRtDqC1s
+        subject_person_id: p_oXazvgZDCU1eQZ2UVAEZ4j
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_8anQvNHWgZmjr7kH33WSDn
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PJnM1jnAURzQWxzEnlDJDk
+          claim_id: c_vnHKqzmOOMy3yjXRtDqC1s
+          source_id: s_ma7O8FvVSAOgsJmEnYvizN
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，王曙夫人劉氏墓誌：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ma7O8FvVSAOgsJmEnYvizN
+            source_type: api_record
+            title: 中国历代人物传记资料库：劉氏(王益柔母)（CBDB 577084）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=577084&o=json
+            external_identifier: CBDB:577084
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8anQvNHWgZmjr7kH33WSDn
+        status: active
+        display_name: 劉氏
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -271,11 +308,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_9pzb9SHgZopgCnQ2EJxi5A | 王景純 | accepted |
+| spouses | p_8anQvNHWgZmjr7kH33WSDn | 劉氏 | accepted |
 | descendants | p_8x3h6NDAZh5tHyrWsrxPRc | 王慎言 | accepted |
 | descendants | p_R1Ny36Z2KzDUq48Pri3BeK | 王慎行 | accepted |
 | descendants | p_mtMHeaLVMRzHPiV6MMKoBB | 王慎术 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：劉氏(王益柔母)（CBDB 577084）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=577084&o=json)
 - [中国历代人物传记资料库：王景純（CBDB 22060）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22060&o=json)
 - [中国历代人物传记资料库：王曙（CBDB 1877）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1877&o=json)

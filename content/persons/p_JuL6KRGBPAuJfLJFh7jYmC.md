@@ -4,7 +4,7 @@ id: p_JuL6KRGBPAuJfLJFh7jYmC
 status: active
 merged_into: null
 display_name: 王居仁
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,81 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_k3mD_6YADOKto3Oh003MiB
+        subject_person_id: p_JuL6KRGBPAuJfLJFh7jYmC
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_6LbpfJW9bcMf9hfDL3m9ms
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YFFTesZAAmGfz-xCKyNktP
+          claim_id: c_k3mD_6YADOKto3Oh003MiB
+          source_id: s_OUz4bqCG8cxOFwLvI-CY-c
+          stance: supports
+          locator: CBDB 双向互证（妻子 卓氏(王居仁妻)）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_OUz4bqCG8cxOFwLvI-CY-c
+            source_type: api_record
+            title: 中国历代人物传记资料库：卓氏(王居仁妻)（CBDB 37668）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37668&o=json
+            external_identifier: CBDB:37668
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_6LbpfJW9bcMf9hfDL3m9ms
+        status: active
+        display_name: 卓氏
+        merged_into_person_id: null
+    - claim:
+        id: c_iHgLwnCzxPkdAdKk9fHjMx
+        subject_person_id: p_JuL6KRGBPAuJfLJFh7jYmC
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_CjC4SW7tdrT9xAY3iQdgQB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uJyEy2YCiw-179CG8Jp_6k
+          claim_id: c_iHgLwnCzxPkdAdKk9fHjMx
+          source_id: s_Phn90jYw3R4mE-OQdtp_vs
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1695;1696：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Phn90jYw3R4mE-OQdtp_vs
+            source_type: api_record
+            title: 中国历代人物传记资料库：卓氏(王居仁妻)（CBDB 45902）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=45902&o=json
+            external_identifier: CBDB:45902
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_CjC4SW7tdrT9xAY3iQdgQB
+        status: active
+        display_name: 卓氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +171,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_6LbpfJW9bcMf9hfDL3m9ms | 卓氏 | accepted |
+| spouses | p_CjC4SW7tdrT9xAY3iQdgQB | 卓氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王居仁（CBDB 37667）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37667&o=json)
+- [中国历代人物传记资料库：卓氏(王居仁妻)（CBDB 37668）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37668&o=json)
+- [中国历代人物传记资料库：卓氏(王居仁妻)（CBDB 45902）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=45902&o=json)

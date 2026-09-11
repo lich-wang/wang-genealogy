@@ -4,7 +4,7 @@ id: p_WJHP8YxtLrW6oyDrhKZ1wB
 status: active
 merged_into: null
 display_name: 王化基
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -282,7 +282,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_Enqo-XJs6CxefSlJEPioom
+        subject_person_id: p_WJHP8YxtLrW6oyDrhKZ1wB
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_g4Wz29pCfyxCWK2d3zj3Nm
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9lVOVLrU83vZixbCyZ4Yrx
+          claim_id: c_Enqo-XJs6CxefSlJEPioom
+          source_id: s_ACfVuCJhjSX4zS2n_6MnGY
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1473;1474：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ACfVuCJhjSX4zS2n_6MnGY
+            source_type: api_record
+            title: 中国历代人物传记资料库：宋氏(王化基妻)（CBDB 38348）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38348&o=json
+            external_identifier: CBDB:38348
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_g4Wz29pCfyxCWK2d3zj3Nm
+        status: active
+        display_name: 宋氏
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -346,10 +383,12 @@ relationships:
 | children | p_6jWTrg7djTw3fzrLbyNy1m | 王舉善 | accepted |
 | children | p_6qFqzHC21Z9f8VhXAcZ1P4 | 王舉正 | accepted |
 | children | p_LvEkX5XrjM8SRGb4HxWdgi | 王舉直 | accepted |
+| spouses | p_g4Wz29pCfyxCWK2d3zj3Nm | 宋氏 | accepted |
 | descendants | p_8mHMyrFjqZr1nrmVTR3TzK | 王詔 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：宋氏(王化基妻)（CBDB 38348）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38348&o=json)
 - [中国历代人物传记资料库：王彬（CBDB 3969）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3969&o=json)
 - [中国历代人物传记资料库：王化基（CBDB 8150）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8150&o=json)
 - [中国历代人物传记资料库：王舉善（CBDB 3945）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3945&o=json)

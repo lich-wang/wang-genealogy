@@ -4,7 +4,7 @@ id: p_9xcg6CwbyTEQgcCr8e5FM9
 status: active
 merged_into: null
 display_name: 王侁
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -210,7 +210,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_onoHROruPXydC3eoBejlCH
+        subject_person_id: p_9xcg6CwbyTEQgcCr8e5FM9
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_p8vCQF9D6ZH2rjfFnPyq9Y
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-Bzx7RUxF4nCycsx_YZQ7-
+          claim_id: c_onoHROruPXydC3eoBejlCH
+          source_id: s_ZChT-vNXy2vl2tqaORhRUR
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changan 31：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZChT-vNXy2vl2tqaORhRUR
+            source_type: api_record
+            title: 中国历代人物传记资料库：李氏(王侁妻)（CBDB 150412）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150412&o=json
+            external_identifier: CBDB:150412
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_p8vCQF9D6ZH2rjfFnPyq9Y
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_90cZhO5LIUdysebEfQiXao
@@ -262,8 +299,10 @@ relationships:
 | parents | p_guYr4ZdNuqkgdxQE2cH7Dh | 王感 | accepted |
 | children | p_MoXDbNQNaeNKc9hN1zvHox | 王仙敬 | accepted |
 | children | p_4bw3hL8tv3Hh7uNoH8iyNz | 王仙童 | accepted |
+| spouses | p_p8vCQF9D6ZH2rjfFnPyq9Y | 李氏 | accepted |
 | ancestors | p_fWQug9xQCTzMH5DTZi3S5g | 王僧 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：李氏(王侁妻)（CBDB 150412）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150412&o=json)
 - [中国历代人物传记资料库：王侁（CBDB 140136）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140136&o=json)

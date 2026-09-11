@@ -4,7 +4,7 @@ id: p_GGm15a95bmjM4yFUpB9QGR
 status: active
 merged_into: null
 display_name: 王儼
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,81 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_c6zHqsLUTcbzVO8KtdkJNK
+        subject_person_id: p_GGm15a95bmjM4yFUpB9QGR
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_GESQAGJzaDNT4HipsymGxE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cDHDHubb4ZcrV4zz_EfaXr
+          claim_id: c_c6zHqsLUTcbzVO8KtdkJNK
+          source_id: s_5l6oTR_kx8Np1DGpkZc_OG
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第一百九十名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5l6oTR_kx8Np1DGpkZc_OG
+            source_type: api_record
+            title: 中国历代人物传记资料库：李氏(王儼妻)（CBDB 250570）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250570&o=json
+            external_identifier: CBDB:250570
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GESQAGJzaDNT4HipsymGxE
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
+    - claim:
+        id: c_JHyN6Y7i5Ra1sQbgaMm6oX
+        subject_person_id: p_GGm15a95bmjM4yFUpB9QGR
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_s51M8sLy5wAXBjh6VtdSU2
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1wdjVxhgbMb18vn77u3xm0
+          claim_id: c_JHyN6Y7i5Ra1sQbgaMm6oX
+          source_id: s_yrDixpyitmYqKk-99Zm8sW
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第一百九十名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_yrDixpyitmYqKk-99Zm8sW
+            source_type: api_record
+            title: 中国历代人物传记资料库：劉氏(王儼妻)（CBDB 250571）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250571&o=json
+            external_identifier: CBDB:250571
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_s51M8sLy5wAXBjh6VtdSU2
+        status: active
+        display_name: 劉氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_Qz5gCpC5s71qt-DJKZ1DCJ
@@ -205,9 +279,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_P6jrnxynY7Dudu6LBvAAqQ | 王璟 | accepted |
+| spouses | p_GESQAGJzaDNT4HipsymGxE | 李氏 | accepted |
+| spouses | p_s51M8sLy5wAXBjh6VtdSU2 | 劉氏 | accepted |
 | ancestors | p_Bp3KS4gPG3CmtexRC9QaU9 | 王華一 | accepted |
 | ancestors | p_DTYKLNhucep7enqQCPhSbQ | 王安武 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：李氏(王儼妻)（CBDB 250570）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250570&o=json)
+- [中国历代人物传记资料库：劉氏(王儼妻)（CBDB 250571）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250571&o=json)
 - [中国历代人物传记资料库：王儼（CBDB 338703）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338703&o=json)

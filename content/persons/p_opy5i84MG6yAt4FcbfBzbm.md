@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王昔
 cbdb_id: 153907
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -90,7 +90,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_2_rXWYLHE71yyjF7dPea7E
+        subject_person_id: p_opy5i84MG6yAt4FcbfBzbm
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_1D47iA2UtneAm5tCwsJAWp
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xNzlbvVWWV6JxsflVvEe1b
+          claim_id: c_2_rXWYLHE71yyjF7dPea7E
+          source_id: s_fA6YH8gw5wWPc51HdfYQBs
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 140：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_fA6YH8gw5wWPc51HdfYQBs
+            source_type: api_record
+            title: 中国历代人物传记资料库：竇含（CBDB 140944）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140944&o=json
+            external_identifier: CBDB:140944
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_1D47iA2UtneAm5tCwsJAWp
+        status: active
+        display_name: 竇含
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_1D47iA2UtneAm5tCwsJAWp | 竇含 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：竇含（CBDB 140944）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140944&o=json)
 - [中国历代人物传记资料库：王昔（CBDB 153907）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153907&o=json)

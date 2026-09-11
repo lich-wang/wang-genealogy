@@ -4,7 +4,7 @@ id: p_4VsKp47S4dEaQLEugXcQo7
 status: active
 merged_into: null
 display_name: 王孟輝
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c__3t6ezswzzQZZdbCe9eWYk
+        subject_person_id: p_4VsKp47S4dEaQLEugXcQo7
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_ySAMwFr7FrHZjZDK9PZECC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jLMjmOsZgYbj5Xzg2Hd37X
+          claim_id: c__3t6ezswzzQZZdbCe9eWYk
+          source_id: s_15FrxamywefQWXwKE0l69w
+          stance: supports
+          locator: 平陰縣志，lgid=630877：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_15FrxamywefQWXwKE0l69w
+            source_type: api_record
+            title: 中国历代人物传记资料库：劉氏(王孟輝妻)（CBDB 702356）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702356&o=json
+            external_identifier: CBDB:702356
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ySAMwFr7FrHZjZDK9PZECC
+        status: active
+        display_name: 劉氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_ySAMwFr7FrHZjZDK9PZECC | 劉氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：劉氏(王孟輝妻)（CBDB 702356）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702356&o=json)
 - [中国历代人物传记资料库：王孟輝（CBDB 702353）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702353&o=json)

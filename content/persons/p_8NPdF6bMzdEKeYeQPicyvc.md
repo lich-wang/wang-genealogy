@@ -4,7 +4,7 @@ id: p_8NPdF6bMzdEKeYeQPicyvc
 status: active
 merged_into: null
 display_name: 王之翰
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_cTlAxgneIG-De64mVg4Zx8
+        subject_person_id: p_8NPdF6bMzdEKeYeQPicyvc
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_NjEG1p7o9UoaVB2sDwGpMi
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GgxCwCBNPiBZ-jBykHjc7z
+          claim_id: c_cTlAxgneIG-De64mVg4Zx8
+          source_id: s_s15kycUmEfV-XimOdn1jXw
+          stance: supports
+          locator: 嘉靖三十八年進士登科錄:一卷，第三甲第十七名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_s15kycUmEfV-XimOdn1jXw
+            source_type: api_record
+            title: 中国历代人物传记资料库：鄭氏(王之翰妻)（CBDB 324113）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324113&o=json
+            external_identifier: CBDB:324113
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_NjEG1p7o9UoaVB2sDwGpMi
+        status: active
+        display_name: 鄭氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_9wXRAegxz68MUZ59cC4mQu
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_mc7KWinz9eERjkDBrVhc1q | 王冀 | accepted |
+| spouses | p_NjEG1p7o9UoaVB2sDwGpMi | 鄭氏 | accepted |
 | ancestors | p_qQxo4PJcCGDhEyJ1zGZDrg | 王鑑 | accepted |
 | ancestors | p_xXxvLxt9L4wtt7W2n23QER | 王完 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王之翰（CBDB 204787）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204787&o=json)
+- [中国历代人物传记资料库：鄭氏(王之翰妻)（CBDB 324113）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324113&o=json)

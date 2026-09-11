@@ -4,7 +4,7 @@ id: p_FvL49f7jL5TpJZxAzyUdbZ
 status: active
 merged_into: null
 display_name: 王公權
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_ghsD6DIBcxLzKEHm5I8ssZ
+        subject_person_id: p_FvL49f7jL5TpJZxAzyUdbZ
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_cHDX3QW37R2hFtE1ebegsh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zFLcJ2WvlRPBRKE87uR1Cl
+          claim_id: c_ghsD6DIBcxLzKEHm5I8ssZ
+          source_id: s_1wjGRuNXCH7EB0_rzfbWFU
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，北宋卷 189 蘇昕墓誌：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1wjGRuNXCH7EB0_rzfbWFU
+            source_type: api_record
+            title: 中国历代人物传记资料库：蘇氏(王公權妻)（CBDB 699430）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699430&o=json
+            external_identifier: CBDB:699430
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_cHDX3QW37R2hFtE1ebegsh
+        status: active
+        display_name: 蘇氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_cHDX3QW37R2hFtE1ebegsh | 蘇氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：蘇氏(王公權妻)（CBDB 699430）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699430&o=json)
 - [中国历代人物传记资料库：王公權（CBDB 699427）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699427&o=json)

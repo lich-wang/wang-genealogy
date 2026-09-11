@@ -4,7 +4,7 @@ id: p_3vKgPJZPmMS9ZpS2a75EVV
 status: active
 merged_into: null
 display_name: 王稽
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_OjqKuLC2dGpa4F2rrtBtMf
+        subject_person_id: p_3vKgPJZPmMS9ZpS2a75EVV
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_m6EPDVJm31vYFqNffWhKzt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J9b7Hpi6nC1a_nVFXcshdq
+          claim_id: c_OjqKuLC2dGpa4F2rrtBtMf
+          source_id: s_ecbczwB_rkJfdaqnJW3Kaa
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第一百一十一名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ecbczwB_rkJfdaqnJW3Kaa
+            source_type: api_record
+            title: 中国历代人物传记资料库：黃氏(王稽妻)（CBDB 271462）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271462&o=json
+            external_identifier: CBDB:271462
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_m6EPDVJm31vYFqNffWhKzt
+        status: active
+        display_name: 黃氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_Q5_UAMNp5y2qeS4C__RbMd
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_CUFBtfXaFjfECLb8K9SuBv | 王忠 | accepted |
+| spouses | p_m6EPDVJm31vYFqNffWhKzt | 黃氏 | accepted |
 | ancestors | p_pMWbZtWz4H8GindQ15E5pN | 王寧 | accepted |
 | ancestors | p_hYg3mBY4z5L651ejsb35ci | 王仲和 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：黃氏(王稽妻)（CBDB 271462）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271462&o=json)
 - [中国历代人物传记资料库：王稽（CBDB 198434）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198434&o=json)

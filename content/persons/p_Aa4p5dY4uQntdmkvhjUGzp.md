@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 张廉穆
 cbdb_id: 142438
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,6 +172,43 @@ relationships:
         status: active
         display_name: 王君愕
         merged_into_person_id: null
+    - claim:
+        id: c_EEhK4WEWO6I16o2BZ2pOLU
+        subject_person_id: p_Aa4p5dY4uQntdmkvhjUGzp
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_vk9KCwPkD1kqN7yjb4iSjS
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_O22h5FlkarPL_hss2HHoSO
+          claim_id: c_EEhK4WEWO6I16o2BZ2pOLU
+          source_id: s_G0SgXP7z2MgZt6xH5wgNg4
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Yonghui33：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_G0SgXP7z2MgZt6xH5wgNg4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王君愕（CBDB 162072）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162072&o=json
+            external_identifier: CBDB:162072
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_vk9KCwPkD1kqN7yjb4iSjS
+        status: active
+        display_name: 王君愕
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -193,10 +230,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_mqHUTcoC6qKorpaLxPNwqB | 王君愕 | accepted |
+| spouses | p_vk9KCwPkD1kqN7yjb4iSjS | 王君愕 | accepted |
 
 ## 外部来源
 
 - [维基数据：王君愕（Q15909986）](https://www.wikidata.org/wiki/Q15909986)
 - [维基数据：张廉穆（Q45575293）](https://www.wikidata.org/wiki/Q45575293)
-- [CBDB 中国历代人物传记资料库：王君愕（162072）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162072&o=json)
+- [中国历代人物传记资料库：王君愕（CBDB 162072）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162072&o=json)
 - [CBDB 中国历代人物传记资料库：張廉穆（142438）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142438&o=json)

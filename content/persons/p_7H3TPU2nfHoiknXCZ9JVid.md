@@ -4,7 +4,7 @@ id: p_7H3TPU2nfHoiknXCZ9JVid
 status: active
 merged_into: null
 display_name: 王大化
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_2lTLKvrPIVXXJQEFMUvu6E
+        subject_person_id: p_7H3TPU2nfHoiknXCZ9JVid
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_7cPi3Pg4xUvnq8TGzpHCLb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FS2dZ0HFHiflUjxuPDgoee
+          claim_id: c_2lTLKvrPIVXXJQEFMUvu6E
+          source_id: s_I6JRwblYPno_yiRDi79PA4
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第二甲第八十一名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_I6JRwblYPno_yiRDi79PA4
+            source_type: api_record
+            title: 中国历代人物传记资料库：陳氏(王大化妻)（CBDB 283875）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283875&o=json
+            external_identifier: CBDB:283875
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_7cPi3Pg4xUvnq8TGzpHCLb
+        status: active
+        display_name: 陳氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_hraBz00qrsrneNr8Ha6RJ4
@@ -179,8 +216,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_e5Sidd4uLDXKV7G8RopKVW | 王睿 | accepted |
+| spouses | p_7cPi3Pg4xUvnq8TGzpHCLb | 陳氏 | accepted |
 | ancestors | p_vfBzh9Tg5w9fbvKCkKYmL6 | 王璉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：陳氏(王大化妻)（CBDB 283875）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283875&o=json)
 - [中国历代人物传记资料库：王大化（CBDB 202118）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202118&o=json)

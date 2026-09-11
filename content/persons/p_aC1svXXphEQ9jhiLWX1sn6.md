@@ -4,7 +4,7 @@ id: p_aC1svXXphEQ9jhiLWX1sn6
 status: active
 merged_into: null
 display_name: 王廷
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_voNY0qm_mpGAe6AXmW6VxF
+        subject_person_id: p_aC1svXXphEQ9jhiLWX1sn6
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_xmk7rrT541amNwiP2mV37s
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SyIJOJ2xT5WU0M0nuobHtz
+          claim_id: c_voNY0qm_mpGAe6AXmW6VxF
+          source_id: s_DogwJSlYrUrAmv_hQE7Arv
+          stance: supports
+          locator: 成化五年進士登科錄:一卷，第三甲第十九名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_DogwJSlYrUrAmv_hQE7Arv
+            source_type: api_record
+            title: 中国历代人物传记资料库：屈氏(王廷妻)（CBDB 243560）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243560&o=json
+            external_identifier: CBDB:243560
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_xmk7rrT541amNwiP2mV37s
+        status: active
+        display_name: 屈氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_yuq438VS7l3kD0JgWHCsUj
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_GZ11NySmttrD94bxvY4MjB | 王秀 | accepted |
+| spouses | p_xmk7rrT541amNwiP2mV37s | 屈氏 | accepted |
 | ancestors | p_V1QsLP2bY1JE56Aaj6MmJh | 王信 | accepted |
 | ancestors | p_KgveivKC2tAaFmjxPKfPPt | 王祥 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：屈氏(王廷妻)（CBDB 243560）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243560&o=json)
 - [中国历代人物传记资料库：王廷（CBDB 199332）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199332&o=json)

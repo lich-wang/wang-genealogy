@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王清蘭
 cbdb_id: 100193
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -90,7 +90,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_uSfA8afHkTU7mSig-ggt3G
+        subject_person_id: p_bm6LWSBAb2PXxQaQvhN3Lv
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_r6Zt6YEk8HgUCi73AL8s6L
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_21HHn0Xpz-EAtKTpQX9J-6
+          claim_id: c_uSfA8afHkTU7mSig-ggt3G
+          source_id: s_eYwJATp4a7IU24Esqx9fDI
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #1862, HuWenKai #239：丈夫"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_eYwJATp4a7IU24Esqx9fDI
+            source_type: api_record
+            title: 中国历代人物传记资料库：任大鯤（CBDB 100194）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100194&o=json
+            external_identifier: CBDB:100194
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_r6Zt6YEk8HgUCi73AL8s6L
+        status: active
+        display_name: 任大鯤
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_r6Zt6YEk8HgUCi73AL8s6L | 任大鯤 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：任大鯤（CBDB 100194）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100194&o=json)
 - [中国历代人物传记资料库：王清蘭（CBDB 100193）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100193&o=json)

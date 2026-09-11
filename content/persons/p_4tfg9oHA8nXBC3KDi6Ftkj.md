@@ -4,7 +4,7 @@ id: p_4tfg9oHA8nXBC3KDi6Ftkj
 status: active
 merged_into: null
 display_name: 王可大
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_1LshM5-3Q3O9IJDc1yyip6
+        subject_person_id: p_4tfg9oHA8nXBC3KDi6Ftkj
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_4oNxBLtDrmgbfP63e2Frt6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jSa3KYEWMKU_fuVZpD2TwW
+          claim_id: c_1LshM5-3Q3O9IJDc1yyip6
+          source_id: s_mVkW2goondD2xT6pynbbUv
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第二甲第八十三名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_mVkW2goondD2xT6pynbbUv
+            source_type: api_record
+            title: 中国历代人物传记资料库：朱氏(王可大妻)（CBDB 315815）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315815&o=json
+            external_identifier: CBDB:315815
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_4oNxBLtDrmgbfP63e2Frt6
+        status: active
+        display_name: 朱氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_UZUsuS1hwEDxUS3SQExcsa
@@ -202,6 +239,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_WtHSaGmBzhNmmSZGD4ByjL | 王鑾 | accepted |
+| spouses | p_4oNxBLtDrmgbfP63e2Frt6 | 朱氏 | accepted |
 | ancestors | p_w5C91WDSavr3ujcuxfQ8fs | 王信 | accepted |
 | ancestors | p_75UUBDKGozhsnJNXRNe48F | 王閔 | accepted |
 | descendants | p_bkZEV7s5emg2XrT2FCzbqF | 王萬禩 | accepted |
@@ -209,3 +247,4 @@ relationships:
 ## 外部来源
 
 - [中国历代人物传记资料库：王可大（CBDB 126483）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126483&o=json)
+- [中国历代人物传记资料库：朱氏(王可大妻)（CBDB 315815）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315815&o=json)

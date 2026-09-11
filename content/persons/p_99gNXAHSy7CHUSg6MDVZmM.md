@@ -4,7 +4,7 @@ id: p_99gNXAHSy7CHUSg6MDVZmM
 status: active
 merged_into: null
 display_name: 王常
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_TGRbjedQtDXfhHdzgzWr5V
+        subject_person_id: p_99gNXAHSy7CHUSg6MDVZmM
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_cJNQFLg5UpTKMjCMo18Ft5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1onoEkDuEBgrsWFDLvDto1
+          claim_id: c_TGRbjedQtDXfhHdzgzWr5V
+          source_id: s_xqdpEavh0GOQho0aV5i8Fe
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第五名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_xqdpEavh0GOQho0aV5i8Fe
+            source_type: api_record
+            title: 中国历代人物传记资料库：劉氏(王常妻)（CBDB 261537）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261537&o=json
+            external_identifier: CBDB:261537
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_cJNQFLg5UpTKMjCMo18Ft5
+        status: active
+        display_name: 劉氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_cCmpoFAZgsauG__j1yLYmG
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_SeER6gzsJFyEjnyJm77Ynj | 王有問 | accepted |
+| spouses | p_cJNQFLg5UpTKMjCMo18Ft5 | 劉氏 | accepted |
 | ancestors | p_y9b65dPC5ByVDFyhVvtNXq | 王景中 | accepted |
 | ancestors | p_Qafs4uENg7bHttaTMzcQa2 | 王琰 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：劉氏(王常妻)（CBDB 261537）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261537&o=json)
 - [中国历代人物传记资料库：王常（CBDB 198354）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198354&o=json)

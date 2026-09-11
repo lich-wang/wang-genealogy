@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王允初
 cbdb_id: 37701
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -116,7 +116,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_Yy9fFX9Mop8jSOjcPgvxDR
+        subject_person_id: p_EpF9g41LdnDgRy6vzi3Sev
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_HnsY26Mycy5f3XSQ8gYJfk
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PexdbOmfQsJn2cbrjzy_hd
+          claim_id: c_Yy9fFX9Mop8jSOjcPgvxDR
+          source_id: s_FVw6CYqbdOc84FS8pyXSLl
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1452;1453：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FVw6CYqbdOc84FS8pyXSLl
+            source_type: api_record
+            title: 中国历代人物传记资料库：謝氏(王允初妻)（CBDB 38270）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38270&o=json
+            external_identifier: CBDB:38270
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_HnsY26Mycy5f3XSQ8gYJfk
+        status: active
+        display_name: 謝氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -138,7 +175,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_g7fHJBLtK8y5q9D73vKWMM | 王致遠 | accepted |
+| spouses | p_HnsY26Mycy5f3XSQ8gYJfk | 謝氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王允初（CBDB 37701）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37701&o=json)
+- [中国历代人物传记资料库：謝氏(王允初妻)（CBDB 38270）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38270&o=json)

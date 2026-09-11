@@ -4,7 +4,7 @@ id: p_Dzmr4JaLF7L2JJGUiewcMk
 status: active
 merged_into: null
 display_name: 王宗望
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_HZsbkgnXHspOID_hjXAHw-
+        subject_person_id: p_Dzmr4JaLF7L2JJGUiewcMk
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_fUstE2172L567aVFEGPTgm
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v1GHqDQ8n7rxEbGGPh4N31
+          claim_id: c_HZsbkgnXHspOID_hjXAHw-
+          source_id: s_O-hm-ZffFRsQkJMD-8_SMu
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，北宋卷 210 李中吉墓誌：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_O-hm-ZffFRsQkJMD-8_SMu
+            source_type: api_record
+            title: 中国历代人物传记资料库：李氏(李中吉三女)（CBDB 701781）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=701781&o=json
+            external_identifier: CBDB:701781
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fUstE2172L567aVFEGPTgm
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_fUstE2172L567aVFEGPTgm | 李氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：李氏(李中吉三女)（CBDB 701781）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=701781&o=json)
 - [中国历代人物传记资料库：王宗望（CBDB 700511）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700511&o=json)

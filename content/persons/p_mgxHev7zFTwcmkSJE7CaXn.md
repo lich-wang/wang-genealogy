@@ -4,7 +4,7 @@ id: p_mgxHev7zFTwcmkSJE7CaXn
 status: active
 merged_into: null
 display_name: 王良玉
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -184,7 +184,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_QrpEtBbidXshsDAKeRoMmC
+        subject_person_id: p_mgxHev7zFTwcmkSJE7CaXn
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_Dg1WdBP4eJ21T75J5qorCA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_g-P8LWXNn_5Z2CKKpQ_juy
+          claim_id: c_QrpEtBbidXshsDAKeRoMmC
+          source_id: s_IFAmbO1xlKyIPra9UHIhTy
+          stance: supports
+          locator: CBDB 双向互证（妻子 陳貞）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_IFAmbO1xlKyIPra9UHIhTy
+            source_type: api_record
+            title: 中国历代人物传记资料库：陳貞（CBDB 437648）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437648&o=json
+            external_identifier: CBDB:437648
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Dg1WdBP4eJ21T75J5qorCA
+        status: active
+        display_name: 陳貞
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -528,6 +565,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_NxhVtsQFEKS3B7HARgTqxM | 王褘 | accepted |
 | children | p_pv2LvWNq1p1mi8bH9JeT5s | 王初 | accepted |
+| spouses | p_Dg1WdBP4eJ21T75J5qorCA | 陳貞 | accepted |
 | descendants | p_2AB1URRfbsHUZBcKrDjdbb | 王綱 | accepted |
 | descendants | p_CMt2fXZyZFD74yNHp3joRj | 王綸 | accepted |
 | descendants | p_g8LozYthDKqGsT34EKjN14 | 王紀 | accepted |
@@ -542,6 +580,7 @@ relationships:
 
 ## 外部来源
 
+- [中国历代人物传记资料库：陳貞（CBDB 437648）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437648&o=json)
 - [中国历代人物传记资料库：王綱（CBDB 437652）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437652&o=json)
 - [中国历代人物传记资料库：王紀（CBDB 437653）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437653&o=json)
 - [中国历代人物传记资料库：王良玉（CBDB 10725）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10725&o=json)

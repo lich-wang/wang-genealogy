@@ -4,7 +4,7 @@ id: p_KzB2C1aLBuDGmUVnrc9So3
 status: active
 merged_into: null
 display_name: 王珪
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_jdCha5D0hKTWs84EZhBoP3
+        subject_person_id: p_KzB2C1aLBuDGmUVnrc9So3
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_wFAf7mtDmixKTWRc67Dcqf
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Sb2JRfMhWRx71bl_oUveWJ
+          claim_id: c_jdCha5D0hKTWs84EZhBoP3
+          source_id: s_m259RK7Gsxe6ypFl1DUOzo
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，833;840：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_m259RK7Gsxe6ypFl1DUOzo
+            source_type: api_record
+            title: 中国历代人物传记资料库：鄭氏(王珪妻)（CBDB 38312）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38312&o=json
+            external_identifier: CBDB:38312
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_wFAf7mtDmixKTWRc67Dcqf
+        status: active
+        display_name: 鄭氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_vtiUXRLTVfBWNOFR1Nqxvu
@@ -308,6 +345,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_qtbxt55gw7F1hTWtEuCisP | 王準 | accepted |
+| spouses | p_wFAf7mtDmixKTWRc67Dcqf | 鄭氏 | accepted |
 | ancestors | p_PNfmbNyKR2auC4aeL1AuSM | 王永 | accepted |
 | ancestors | p_QZHN7XBFLhdEfKGuEPQEhp | 王贄 | accepted |
 | descendants | p_4cye1JFWBJQv2VQjyoi17i | 王㬇 | accepted |
@@ -318,3 +356,4 @@ relationships:
 - [中国历代人物传记资料库：王晟（CBDB 1869）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1869&o=json)
 - [中国历代人物传记资料库：王珪（CBDB 1845）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1845&o=json)
 - [中国历代人物传记资料库：王㬇（CBDB 1820）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1820&o=json)
+- [中国历代人物传记资料库：鄭氏(王珪妻)（CBDB 38312）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38312&o=json)

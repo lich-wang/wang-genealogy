@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王海朝
 cbdb_id: 143290
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -287,7 +287,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_kt1rajZ1dR422_MdH7QTcN
+        subject_person_id: p_GCUbRsVW8TQC8UPFJ4RVue
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_NsuLYWGMDN4Ho6Lw73DB78
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SGtWhMLu8ll6dkZD3WgPHd
+          claim_id: c_kt1rajZ1dR422_MdH7QTcN
+          source_id: s_-4w4i5PxYz1jZK6cFSJDA3
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Yuanhe65：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_-4w4i5PxYz1jZK6cFSJDA3
+            source_type: api_record
+            title: 中国历代人物传记资料库：揚氏(王海朝妻)（CBDB 166232）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166232&o=json
+            external_identifier: CBDB:166232
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_NsuLYWGMDN4Ho6Lw73DB78
+        status: active
+        display_name: 揚氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -313,6 +350,7 @@ relationships:
 | children | p_DxoGAcXvj7GVXEUMHUUA5z | 王詮 | accepted |
 | children | p_mfUAiE5928e8unf41fEhwH | 王均 | accepted |
 | children | p_tubeRxV3sBCQdXoc3GnJ6g | 王建 | accepted |
+| spouses | p_NsuLYWGMDN4Ho6Lw73DB78 | 揚氏 | accepted |
 
 ## 外部来源
 
@@ -320,3 +358,4 @@ relationships:
 - [中国历代人物传记资料库：王建（CBDB 166235）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166235&o=json)
 - [中国历代人物传记资料库：王均（CBDB 166234）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166234&o=json)
 - [中国历代人物传记资料库：王詮（CBDB 166233）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166233&o=json)
+- [中国历代人物传记资料库：揚氏(王海朝妻)（CBDB 166232）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166232&o=json)

@@ -4,7 +4,7 @@ id: p_FF1uMbfonZZUerwpoYGsZJ
 status: active
 merged_into: null
 display_name: 王郁
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_xxKH4AiuN-i2kowQ6kI5z8
+        subject_person_id: p_FF1uMbfonZZUerwpoYGsZJ
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_55w21bqueKgmZs52sCs4iP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_f2G88MJuv3Q-wIKijMHBao
+          claim_id: c_xxKH4AiuN-i2kowQ6kI5z8
+          source_id: s_VB0A4jJb36uZb3ZjZl_gmm
+          stance: supports
+          locator: 建文二年殿試登科錄:一卷，第三甲第四十三名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_VB0A4jJb36uZb3ZjZl_gmm
+            source_type: api_record
+            title: 中国历代人物传记资料库：高氏(王郁妻)（CBDB 254533）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254533&o=json
+            external_identifier: CBDB:254533
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_55w21bqueKgmZs52sCs4iP
+        status: active
+        display_name: 高氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_obaf0TOUgkp7Zt2zBnBCcG
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_ubGBvK1Bop9yB5KzQTMqqg | 王聚 | accepted |
+| spouses | p_55w21bqueKgmZs52sCs4iP | 高氏 | accepted |
 | ancestors | p_sNWwAL6to8rH1MBPLZwd3p | 王朝 | accepted |
 | ancestors | p_h6ur3n3rWfGs73DSqdakhr | 王通 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：高氏(王郁妻)（CBDB 254533）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254533&o=json)
 - [中国历代人物传记资料库：王郁（CBDB 200177）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200177&o=json)

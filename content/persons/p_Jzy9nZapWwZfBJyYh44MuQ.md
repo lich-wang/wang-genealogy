@@ -4,7 +4,7 @@ id: p_Jzy9nZapWwZfBJyYh44MuQ
 status: active
 merged_into: null
 display_name: 王琮
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -165,7 +165,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_twEfGS5QQIn6-a62xbZOZv
+        subject_person_id: p_Jzy9nZapWwZfBJyYh44MuQ
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_PHSPyYQCLYcPekwBmWH6Fu
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3__prFnJyXQHp2S7suNZma
+          claim_id: c_twEfGS5QQIn6-a62xbZOZv
+          source_id: s_A0XYSzJx-APyqzQMm4I8Pe
+          stance: supports
+          locator: 紹興十八年同年小錄，157：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_A0XYSzJx-APyqzQMm4I8Pe
+            source_type: api_record
+            title: 中国历代人物传记资料库：李氏(王允功母)（CBDB 135564）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135564&o=json
+            external_identifier: CBDB:135564
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_PHSPyYQCLYcPekwBmWH6Fu
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_X0KmWKEd5WRo58zsUYNlCp
@@ -215,9 +252,11 @@ relationships:
 | parents | p_u7GjygMhWqMXVVi3SrDkWR | 王錫 | accepted |
 | children | p_2RzrzUqsutK3yv9cd9dwXj | 王允功 | accepted |
 | children | p_TYvJo43BKA6x6Dqj2QR2PJ | 王允濟 | accepted |
+| spouses | p_PHSPyYQCLYcPekwBmWH6Fu | 李氏 | accepted |
 | ancestors | p_tuQz8K1QJhTDMtht3PXNax | 王浹 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：李氏(王允功母)（CBDB 135564）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135564&o=json)
 - [中国历代人物传记资料库：王琮（CBDB 23650）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23650&o=json)
 - [中国历代人物传记资料库：王允功（CBDB 23652）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23652&o=json)

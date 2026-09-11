@@ -4,7 +4,7 @@ id: p_uRs1dBvGfLVZFwWBK4Lb79
 status: active
 merged_into: null
 display_name: 王鉞
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_6IfosfyMYZU8X2fbl21mbI
+        subject_person_id: p_uRs1dBvGfLVZFwWBK4Lb79
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_HYVAjujGYv3JkhLZKrAv4f
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XRSxF5RXLMiPM93jkOpqJu
+          claim_id: c_6IfosfyMYZU8X2fbl21mbI
+          source_id: s_NIHrTbkGxCJkT32jWkjSo9
+          stance: supports
+          locator: 南陽府志，lgid=878826：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_NIHrTbkGxCJkT32jWkjSo9
+            source_type: api_record
+            title: 中国历代人物传记资料库：張氏(王鉞妻)（CBDB 558207）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=558207&o=json
+            external_identifier: CBDB:558207
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_HYVAjujGYv3JkhLZKrAv4f
+        status: active
+        display_name: 張氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_ziuSm1aJKT5bBGkVpgPe6D | 王肇基 | accepted |
+| spouses | p_HYVAjujGYv3JkhLZKrAv4f | 張氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鉞（CBDB 558206）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=558206&o=json)
+- [中国历代人物传记资料库：張氏(王鉞妻)（CBDB 558207）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=558207&o=json)

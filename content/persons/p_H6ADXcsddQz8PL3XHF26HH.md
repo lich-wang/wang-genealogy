@@ -4,7 +4,7 @@ id: p_H6ADXcsddQz8PL3XHF26HH
 status: active
 merged_into: null
 display_name: 王讓
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_QVJWwlq3zx_JD6EYQtenWd
+        subject_person_id: p_H6ADXcsddQz8PL3XHF26HH
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_EaJ6K3vUFDXXag6xf7Rw8V
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VGH1pE40aabHOfEu0rQOqz
+          claim_id: c_QVJWwlq3zx_JD6EYQtenWd
+          source_id: s_fbm2jyThna1zKpCSScM7hW
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第二甲第二十名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_fbm2jyThna1zKpCSScM7hW
+            source_type: api_record
+            title: 中国历代人物传记资料库：姜氏(王讓妻)（CBDB 326318）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326318&o=json
+            external_identifier: CBDB:326318
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_EaJ6K3vUFDXXag6xf7Rw8V
+        status: active
+        display_name: 姜氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_EHxhbmiwrmE4kqNRBqyiqd
@@ -176,9 +213,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_rQ3QkQ6Ppvi2nvZM6NWRzv | 王應橫 | accepted |
+| spouses | p_EaJ6K3vUFDXXag6xf7Rw8V | 姜氏 | accepted |
 | ancestors | p_ZfvKo5JYpUwjUfsAxry79D | 王普達 | accepted |
 | ancestors | p_J14w43hnTvbQMG981aghEQ | 王庭槐 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：姜氏(王讓妻)（CBDB 326318）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326318&o=json)
 - [中国历代人物传记资料库：王讓（CBDB 126898）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126898&o=json)

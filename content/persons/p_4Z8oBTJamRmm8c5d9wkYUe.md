@@ -4,7 +4,7 @@ id: p_4Z8oBTJamRmm8c5d9wkYUe
 status: active
 merged_into: null
 display_name: 王平
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_bIo9Ii29ISkxtKPtQ6R6Q2
+        subject_person_id: p_4Z8oBTJamRmm8c5d9wkYUe
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_P3Br8FZLaznPzknGcLswmP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9KhVARxI8XxoIAtGDi-84O
+          claim_id: c_bIo9Ii29ISkxtKPtQ6R6Q2
+          source_id: s_UuKSjlBzQZOhaHqwWABsY9
+          stance: supports
+          locator: 寶祐登科錄：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_UuKSjlBzQZOhaHqwWABsY9
+            source_type: api_record
+            title: 中国历代人物传记资料库：陳氏(王平妻)（CBDB 138570）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=138570&o=json
+            external_identifier: CBDB:138570
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_P3Br8FZLaznPzknGcLswmP
+        status: active
+        display_name: 陳氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_bM4d2obUr8KLPZj9i4AGa_
@@ -150,8 +187,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_PUBtfTr2QXW6N416Jn8KQA | 王剛中 | accepted |
+| spouses | p_P3Br8FZLaznPzknGcLswmP | 陳氏 | accepted |
 | ancestors | p_CqBg4yUCepcHAE8r6vCYuZ | 王必申 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：陳氏(王平妻)（CBDB 138570）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=138570&o=json)
 - [中国历代人物传记资料库：王平（CBDB 136599）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136599&o=json)

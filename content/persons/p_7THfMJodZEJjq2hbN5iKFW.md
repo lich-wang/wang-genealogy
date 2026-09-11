@@ -4,7 +4,7 @@ id: p_7THfMJodZEJjq2hbN5iKFW
 status: active
 merged_into: null
 display_name: 王秩
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_0HqfJz36KbEtU_-8eGHKFP
+        subject_person_id: p_7THfMJodZEJjq2hbN5iKFW
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_Rk6UZPGzGNsjxcm4q78tiz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gzGB9SwBicph3Q-59SkyHj
+          claim_id: c_0HqfJz36KbEtU_-8eGHKFP
+          source_id: s_QBh1En54nsFwLGrITRbmOA
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第一百五十五名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_QBh1En54nsFwLGrITRbmOA
+            source_type: api_record
+            title: 中国历代人物传记资料库：杭氏(王秩妻)（CBDB 260099）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260099&o=json
+            external_identifier: CBDB:260099
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Rk6UZPGzGNsjxcm4q78tiz
+        status: active
+        display_name: 杭氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_xBqVSJZ4O-r5ltFD2waRNT
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_t8KEZXxBW1dy3kvu8XnvuX | 王詁 | accepted |
+| spouses | p_Rk6UZPGzGNsjxcm4q78tiz | 杭氏 | accepted |
 | ancestors | p_bxxh23FAAimQ2ndoytUA4A | 王鼎 | accepted |
 | ancestors | p_y1nD4szFzD4sTFzaJzYuTv | 王玠 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：杭氏(王秩妻)（CBDB 260099）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260099&o=json)
 - [中国历代人物传记资料库：王秩（CBDB 200588）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200588&o=json)

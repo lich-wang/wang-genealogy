@@ -4,7 +4,7 @@ id: p_3Pt7K7E8EkVZMay1yZAJ4D
 status: active
 merged_into: null
 display_name: 王端
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_sKxftQLqygQpKgIddSg3dg
+        subject_person_id: p_3Pt7K7E8EkVZMay1yZAJ4D
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_8zLduEMqR7Q5fBdAL48Qxf
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wKN49KejzUquKqg62EqQ59
+          claim_id: c_sKxftQLqygQpKgIddSg3dg
+          source_id: s_TkroFV2tlG9Hz9H9zI_GHg
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，北宋204 林倩墓志：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_TkroFV2tlG9Hz9H9zI_GHg
+            source_type: api_record
+            title: 中国历代人物传记资料库：林氏(林倩二孫女)（CBDB 700122）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700122&o=json
+            external_identifier: CBDB:700122
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8zLduEMqR7Q5fBdAL48Qxf
+        status: active
+        display_name: 林氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_8zLduEMqR7Q5fBdAL48Qxf | 林氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：林氏(林倩二孫女)（CBDB 700122）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700122&o=json)
 - [中国历代人物传记资料库：王端（CBDB 700123）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700123&o=json)

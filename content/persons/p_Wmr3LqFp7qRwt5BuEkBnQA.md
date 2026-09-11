@@ -4,7 +4,7 @@ id: p_Wmr3LqFp7qRwt5BuEkBnQA
 status: active
 merged_into: null
 display_name: 王琳
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -206,7 +206,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_PO-aRK-hHQ908aoJfCBONS
+        subject_person_id: p_Wmr3LqFp7qRwt5BuEkBnQA
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_UzxC95e5kHJM5igkuL3pqc
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9pE4GecCFr0bSAGCnfBzOR
+          claim_id: c_PO-aRK-hHQ908aoJfCBONS
+          source_id: s_Ap2j2tyKRanyRv7vztEg4w
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，王琳及夫人徐氏墓誌：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Ap2j2tyKRanyRv7vztEg4w
+            source_type: api_record
+            title: 中国历代人物传记资料库：徐氏(王琳妻)（CBDB 578125）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578125&o=json
+            external_identifier: CBDB:578125
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_UzxC95e5kHJM5igkuL3pqc
+        status: active
+        display_name: 徐氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_evN6Uqy9Qz76j7ERhbea5o | 王正臣 | accepted |
 | children | p_SuM9SmgJZjcxcsNUmJk6Ao | 王虎臣 | accepted |
+| spouses | p_UzxC95e5kHJM5igkuL3pqc | 徐氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王虎臣（CBDB 578126）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578126&o=json)
 - [中国历代人物传记资料库：王琳（CBDB 578122）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578122&o=json)
 - [中国历代人物传记资料库：王正臣（CBDB 578127）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578127&o=json)
+- [中国历代人物传记资料库：徐氏(王琳妻)（CBDB 578125）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578125&o=json)

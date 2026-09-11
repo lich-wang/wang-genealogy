@@ -4,7 +4,7 @@ id: p_6EMaiK2d7QYsew9Vg9gPZP
 status: active
 merged_into: null
 display_name: 王華
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_KfwHaLgFNia0TScPuupOtU
+        subject_person_id: p_6EMaiK2d7QYsew9Vg9gPZP
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_zbpfchjodqKUG7ENoVMRrY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MGJOSVnm0wlOqfq5n93c-y
+          claim_id: c_KfwHaLgFNia0TScPuupOtU
+          source_id: s_BZYNVTt6ULpTLn27dbWkst
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第一百八十名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BZYNVTt6ULpTLn27dbWkst
+            source_type: api_record
+            title: 中国历代人物传记资料库：張氏(王華妻)（CBDB 250479）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250479&o=json
+            external_identifier: CBDB:250479
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_zbpfchjodqKUG7ENoVMRrY
+        status: active
+        display_name: 張氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_-A9Rsm7Q5hUQUb8AXcOMXY
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_dSXaHGfxZk39n9qckAbpLw | 王用政 | accepted |
+| spouses | p_zbpfchjodqKUG7ENoVMRrY | 張氏 | accepted |
 | ancestors | p_ty9PKEiXJ1CHxxCE6Rgx3y | 王文琬 | accepted |
 | ancestors | p_VHQt9Ff9m57VXky6pqUzLZ | 王仲敬 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王華（CBDB 199850）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199850&o=json)
+- [中国历代人物传记资料库：張氏(王華妻)（CBDB 250479）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250479&o=json)

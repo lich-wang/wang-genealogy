@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王德政
 cbdb_id: 97891
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -90,7 +90,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_qLKFasjkbLN9UB_IoMJIot
+        subject_person_id: p_6zPoVGUMejsmUJYp4c5UXR
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_iZZJeK5n8GCV2ttyXy6Hi4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZfZWP8-DqphdPJdQCXshKS
+          claim_id: c_qLKFasjkbLN9UB_IoMJIot
+          source_id: s_bLaH_OhKcwnXQUWRn9pVXb
+          stance: supports
+          locator: 元人傳記資料索引，8105：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_bLaH_OhKcwnXQUWRn9pVXb
+            source_type: api_record
+            title: 中国历代人物传记资料库：郭氏(王德政妻)（CBDB 107711）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=107711&o=json
+            external_identifier: CBDB:107711
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_iZZJeK5n8GCV2ttyXy6Hi4
+        status: active
+        display_name: 郭氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_iZZJeK5n8GCV2ttyXy6Hi4 | 郭氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：郭氏(王德政妻)（CBDB 107711）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=107711&o=json)
 - [中国历代人物传记资料库：王德政（CBDB 97891）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=97891&o=json)

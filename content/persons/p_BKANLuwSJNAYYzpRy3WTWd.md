@@ -4,7 +4,7 @@ id: p_BKANLuwSJNAYYzpRy3WTWd
 status: active
 merged_into: null
 display_name: 王九成
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -132,7 +132,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_v2orzmj4ggPxCMXNYtqwhU
+        subject_person_id: p_BKANLuwSJNAYYzpRy3WTWd
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_exELKvKH8p56fLoWWvVMy6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jhmS0Zg7xhGAWPPCguW_9m
+          claim_id: c_v2orzmj4ggPxCMXNYtqwhU
+          source_id: s_mgAp6PAuzh6BunRxkWXnIH
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_mgAp6PAuzh6BunRxkWXnIH
+            source_type: api_record
+            title: 中国历代人物传记资料库：袁氏(王九成妻)（CBDB 37840）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37840&o=json
+            external_identifier: CBDB:37840
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_exELKvKH8p56fLoWWvVMy6
+        status: active
+        display_name: 袁氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_exELKvKH8p56fLoWWvVMy6 | 袁氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王九成（CBDB 37822）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37822&o=json)
+- [中国历代人物传记资料库：袁氏(王九成妻)（CBDB 37840）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37840&o=json)

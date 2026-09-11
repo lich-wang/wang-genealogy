@@ -4,7 +4,7 @@ id: p_MaarZ214ZBKrhG7uraC6BF
 status: active
 merged_into: null
 display_name: 王政
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_vRoeyKoC6WmGdqox_GTIJE
+        subject_person_id: p_MaarZ214ZBKrhG7uraC6BF
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_9AfCQTsT8Ziy98dKmiF8k3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OAEsd9t1Wdi6nDRKUl6lbt
+          claim_id: c_vRoeyKoC6WmGdqox_GTIJE
+          source_id: s_jpv11DGM8oJTBG8iNcKD-d
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，80：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_jpv11DGM8oJTBG8iNcKD-d
+            source_type: api_record
+            title: 中国历代人物传记资料库：馮氏(王政妻)（CBDB 699410）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699410&o=json
+            external_identifier: CBDB:699410
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_9AfCQTsT8Ziy98dKmiF8k3
+        status: active
+        display_name: 馮氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_6r5VwfkrP2qbqzP6hHoNQi | 王弁 | accepted |
+| spouses | p_9AfCQTsT8Ziy98dKmiF8k3 | 馮氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：馮氏(王政妻)（CBDB 699410）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699410&o=json)
 - [中国历代人物传记资料库：王政（CBDB 699409）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699409&o=json)

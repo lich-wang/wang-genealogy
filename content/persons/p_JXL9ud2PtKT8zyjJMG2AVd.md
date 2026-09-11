@@ -4,7 +4,7 @@ id: p_JXL9ud2PtKT8zyjJMG2AVd
 status: active
 merged_into: null
 display_name: 王沺
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_VFpIBgW3YKfviFi70P9_nz
+        subject_person_id: p_JXL9ud2PtKT8zyjJMG2AVd
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_bJs9NRX6vPvoTESSHcbK4J
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8NFzrzjD3NgU7paT7B_Z6v
+          claim_id: c_VFpIBgW3YKfviFi70P9_nz
+          source_id: s_dKbtssG7RGOCAm2ySxX1NJ
+          stance: supports
+          locator: CBDB 双向互证（妻子 詹城）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_dKbtssG7RGOCAm2ySxX1NJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：詹城（CBDB 95258）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=95258&o=json
+            external_identifier: CBDB:95258
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bJs9NRX6vPvoTESSHcbK4J
+        status: active
+        display_name: 詹城
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_bJs9NRX6vPvoTESSHcbK4J | 詹城 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王沺（CBDB 69788）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69788&o=json)
+- [中国历代人物传记资料库：詹城（CBDB 95258）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=95258&o=json)

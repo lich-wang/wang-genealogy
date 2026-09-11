@@ -4,7 +4,7 @@ id: p_YvmVRP82QPj8sL7ho1iryw
 status: active
 merged_into: null
 display_name: 王瓘
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -104,7 +104,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_6Pp4GRTioLy9eIr45vtVFL
+        subject_person_id: p_YvmVRP82QPj8sL7ho1iryw
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_E5pNasC6MBsZzKMnNGBxpQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3pzY--ejR60ZvJc1ONvrdd
+          claim_id: c_6Pp4GRTioLy9eIr45vtVFL
+          source_id: s_CNJAYO6SWWusE5s3pNjMOR
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changan 50：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_CNJAYO6SWWusE5s3pNjMOR
+            source_type: api_record
+            title: 中国历代人物传记资料库：仵氏(王瓘妻)（CBDB 150473）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150473&o=json
+            external_identifier: CBDB:150473
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_E5pNasC6MBsZzKMnNGBxpQ
+        status: active
+        display_name: 仵氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_E5pNasC6MBsZzKMnNGBxpQ | 仵氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王瓘（CBDB 140155）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140155&o=json)
+- [中国历代人物传记资料库：仵氏(王瓘妻)（CBDB 150473）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150473&o=json)

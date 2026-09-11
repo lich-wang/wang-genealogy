@@ -4,7 +4,7 @@ id: p_1w2vyLJVVJajHeDaWVG8Nu
 status: active
 merged_into: null
 display_name: 王之臣
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_LpEMZVO9ZZXXSy4wgWqR8l
+        subject_person_id: p_1w2vyLJVVJajHeDaWVG8Nu
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_aGGPYhnbRF3c4BpnBXQ4GU
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sux-qjg88TNNo2dxdk_lXQ
+          claim_id: c_LpEMZVO9ZZXXSy4wgWqR8l
+          source_id: s_57XAAm0f6rMkmpIe4-T-4b
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第二甲第十一名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_57XAAm0f6rMkmpIe4-T-4b
+            source_type: api_record
+            title: 中国历代人物传记资料库：汪氏(王之臣妻)（CBDB 305352）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305352&o=json
+            external_identifier: CBDB:305352
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_aGGPYhnbRF3c4BpnBXQ4GU
+        status: active
+        display_name: 汪氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_D4kquOkFxs78jWz3_4d1GA
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_Wu57BG14u9G1YdRM7UC1bb | 王尚 | accepted |
+| spouses | p_aGGPYhnbRF3c4BpnBXQ4GU | 汪氏 | accepted |
 | ancestors | p_EAhcPdHUqn1cdvsTjdpctw | 王㬇 | accepted |
 | ancestors | p_n6B6dxMwRuYLUcZPJP3tCB | 王福宗 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：汪氏(王之臣妻)（CBDB 305352）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305352&o=json)
 - [中国历代人物传记资料库：王之臣（CBDB 203483）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203483&o=json)

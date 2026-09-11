@@ -4,7 +4,7 @@ id: p_Y4Z8MriUS7zq1XvbYHk82r
 status: active
 merged_into: null
 display_name: 王慕蘭
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_8D4Tj5yH5cdhMwFH_KuGrk
+        subject_person_id: p_Y4Z8MriUS7zq1XvbYHk82r
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_mtWQEAFjewQMpd6UAX7ALk
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hGkkEuAITl6QZiy26W1K9z
+          claim_id: c_8D4Tj5yH5cdhMwFH_KuGrk
+          source_id: s_rmONanl6WU4en6-GoalKlZ
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #1836, HuWenKai #389：妻子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_rmONanl6WU4en6-GoalKlZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：孟文輝（CBDB 100146）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100146&o=json
+            external_identifier: CBDB:100146
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_mtWQEAFjewQMpd6UAX7ALk
+        status: active
+        display_name: 孟文輝
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_mtWQEAFjewQMpd6UAX7ALk | 孟文輝 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：孟文輝（CBDB 100146）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100146&o=json)
 - [中国历代人物传记资料库：王慕蘭（CBDB 100147）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100147&o=json)

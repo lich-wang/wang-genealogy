@@ -4,7 +4,7 @@ id: p_ye9VLgV3pJbXBYdJ82vvQv
 status: active
 merged_into: null
 display_name: 王宣
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_B06LmDgC4IFTj2MqbW35Ri
+        subject_person_id: p_ye9VLgV3pJbXBYdJ82vvQv
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_Fef9GcY47kV37W9xnN8Y4B
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GdX1twDrZxMtJ0-gq2s1xZ
+          claim_id: c_B06LmDgC4IFTj2MqbW35Ri
+          source_id: s_FgVpp9DoHJPxjJX11NXrBz
+          stance: supports
+          locator: 正统十年進士登科錄:一卷，第三甲第五十一名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FgVpp9DoHJPxjJX11NXrBz
+            source_type: api_record
+            title: 中国历代人物传记资料库：冉氏(王宣妻)（CBDB 239756）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239756&o=json
+            external_identifier: CBDB:239756
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Fef9GcY47kV37W9xnN8Y4B
+        status: active
+        display_name: 冉氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_jiW_6ND5irjiJXvXOGgMWo
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_QyVQQbt4VbA4Hx7YZ8Kozc | 王宗麒 | accepted |
+| spouses | p_Fef9GcY47kV37W9xnN8Y4B | 冉氏 | accepted |
 | ancestors | p_GdkwrriQrXAGgdsuSrbHZQ | 王榮卿 | accepted |
 | ancestors | p_w3a1GFMuNLGG9tjSSVXjC4 | 王安性 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：冉氏(王宣妻)（CBDB 239756）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239756&o=json)
 - [中国历代人物传记资料库：王宣（CBDB 208053）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208053&o=json)

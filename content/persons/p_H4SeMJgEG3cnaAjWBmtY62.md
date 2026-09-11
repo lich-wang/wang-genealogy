@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王玉銳
 cbdb_id: 143519
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -197,7 +197,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_25cbZkI8pO0DGaRtMTPrWk
+        subject_person_id: p_H4SeMJgEG3cnaAjWBmtY62
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_wo5MpWPrqW2p6CjMXEjoQQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bN12GLmfkv6XPQkfUcapL_
+          claim_id: c_25cbZkI8pO0DGaRtMTPrWk
+          source_id: s_qfyYdyWa99aVw-TP5jUCaO
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Dazhong79：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_qfyYdyWa99aVw-TP5jUCaO
+            source_type: api_record
+            title: 中国历代人物传记资料库：姚氏(王玉銳妻)（CBDB 167726）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=167726&o=json
+            external_identifier: CBDB:167726
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_wo5MpWPrqW2p6CjMXEjoQQ
+        status: active
+        display_name: 姚氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_7Tyb5X48VtIwS0GA9fjanN
@@ -285,6 +322,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_uZ4EYk3nbtN3b8LJWgU9Ni | 王令之 | accepted |
 | children | p_DQmGrRn3w1VbM72gBRexhq | 王坦然 | accepted |
+| spouses | p_wo5MpWPrqW2p6CjMXEjoQQ | 姚氏 | accepted |
 | ancestors | p_qDnNVa92BoXYz45t67oCmJ | 王隥 | accepted |
 | descendants | p_3ZArzqHeQAQ866n7fJRWyU | 王洪汎 | accepted |
 
@@ -293,3 +331,4 @@ relationships:
 - [中国历代人物传记资料库：王洪汎（CBDB 167727）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=167727&o=json)
 - [中国历代人物传记资料库：王坦然（CBDB 512617）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=512617&o=json)
 - [中国历代人物传记资料库：王玉銳（CBDB 143519）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143519&o=json)
+- [中国历代人物传记资料库：姚氏(王玉銳妻)（CBDB 167726）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=167726&o=json)

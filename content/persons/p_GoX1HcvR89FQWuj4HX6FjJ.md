@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王郁蘭
 cbdb_id: 120984
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -116,7 +116,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_mQ0QsVkZKl5casbofGMOT8
+        subject_person_id: p_GoX1HcvR89FQWuj4HX6FjJ
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_A9vPkMB5KDt36nu14tLNb5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Mvi9crAfmEpVJ-DgBxwsDu
+          claim_id: c_mQ0QsVkZKl5casbofGMOT8
+          source_id: s_bitzfwXgcvBRBF2oEsdDNd
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #3925, HuWenKai #237：丈夫"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_bitzfwXgcvBRBF2oEsdDNd
+            source_type: api_record
+            title: 中国历代人物传记资料库：余泮英（CBDB 120991）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120991&o=json
+            external_identifier: CBDB:120991
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_A9vPkMB5KDt36nu14tLNb5
+        status: active
+        display_name: 余泮英
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -138,7 +175,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_3nGPUzBeHC81ChH8G5nAKD | 王葉塤 | accepted |
+| spouses | p_A9vPkMB5KDt36nu14tLNb5 | 余泮英 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王郁蘭（CBDB 120984）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120984&o=json)
+- [中国历代人物传记资料库：余泮英（CBDB 120991）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120991&o=json)

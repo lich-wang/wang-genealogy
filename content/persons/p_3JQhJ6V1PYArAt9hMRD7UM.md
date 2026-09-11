@@ -4,7 +4,7 @@ id: p_3JQhJ6V1PYArAt9hMRD7UM
 status: active
 merged_into: null
 display_name: 王鍊
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -210,7 +210,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_BUbnmi20O7DWEnQ0NMkKwg
+        subject_person_id: p_3JQhJ6V1PYArAt9hMRD7UM
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_C26pFhNM5tfh1M49m56p9M
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OjwuSo8lis1JhZ8dmUakYB
+          claim_id: c_BUbnmi20O7DWEnQ0NMkKwg
+          source_id: s_kNzGvRWzofYxaGhmXXwvTO
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_kNzGvRWzofYxaGhmXXwvTO
+            source_type: api_record
+            title: 中国历代人物传记资料库：李洞真（CBDB 145145）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145145&o=json
+            external_identifier: CBDB:145145
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_C26pFhNM5tfh1M49m56p9M
+        status: active
+        display_name: 李洞真
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -236,7 +273,9 @@ relationships:
 | parents | p_3sZPWogK9QRQPhpNWt3jQB | 王穎 | accepted |
 | children | p_roxoRSVD56KUF4GGHzN446 | 王仲言 | accepted |
 | children | p_z1gwfCLwJCD1A14uZpgWBV | 王仲武 | accepted |
+| spouses | p_C26pFhNM5tfh1M49m56p9M | 李洞真 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：李洞真（CBDB 145145）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145145&o=json)
 - [中国历代人物传记资料库：王鍊（CBDB 145376）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145376&o=json)

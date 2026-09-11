@@ -4,7 +4,7 @@ id: p_xD51Nz4rSAkq5zdMahqJPm
 status: active
 merged_into: null
 display_name: 王儔
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_LYXehTOd0s6MGkzjaVbCu7
+        subject_person_id: p_xD51Nz4rSAkq5zdMahqJPm
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_UVez4FnLWyc74fhAocnKqR
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MFqZPHHmyplb69HNGe5GYZ
+          claim_id: c_LYXehTOd0s6MGkzjaVbCu7
+          source_id: s_FGsawhBemoAIZxXVyOLhlK
+          stance: supports
+          locator: CBDB 双向互证（妻子 陳氏(陳正彚女)）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FGsawhBemoAIZxXVyOLhlK
+            source_type: api_record
+            title: 中国历代人物传记资料库：陳氏(陳正彚女)（CBDB 386577）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386577&o=json
+            external_identifier: CBDB:386577
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_UVez4FnLWyc74fhAocnKqR
+        status: active
+        display_name: 陳氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_6TstPQI4OICmR9KBSvofqN
@@ -161,9 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_5GnA47Cgm5MBJ7VM1ouCen | 王慶長 | accepted |
+| spouses | p_UVez4FnLWyc74fhAocnKqR | 陳氏 | accepted |
 | ancestors | p_Dbnj6E8kMUFP6rJiZMSDLw | 王說 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：陳氏(陳正彚女)（CBDB 386577）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386577&o=json)
 - [中国历代人物传记资料库：王儔（CBDB 37158）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37158&o=json)
 - [中国历代人物传记资料库：王說（CBDB 386572）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386572&o=json)

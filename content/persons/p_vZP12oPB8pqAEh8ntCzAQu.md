@@ -4,7 +4,7 @@ id: p_vZP12oPB8pqAEh8ntCzAQu
 status: active
 merged_into: null
 display_name: 王閏之
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -132,7 +132,33 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_yRZxZdDNkgFNo7Fmks6Jdx
+        subject_person_id: p_vZP12oPB8pqAEh8ntCzAQu
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_6bzjMpX2xVBeapMBqFLx24
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0c_l90jBos0RvJRs9YvaFF
+          claim_id: c_yRZxZdDNkgFNo7Fmks6Jdx
+          source_id: s_cgJEPk3e9BtA4iGGAM7HMk
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，23552;23555：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_6bzjMpX2xVBeapMBqFLx24
+        status: active
+        display_name: 蘇軾
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_6bzjMpX2xVBeapMBqFLx24 | 蘇軾 | accepted |
 
 ## 外部来源
 

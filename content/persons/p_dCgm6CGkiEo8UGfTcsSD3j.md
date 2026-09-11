@@ -4,7 +4,7 @@ id: p_dCgm6CGkiEo8UGfTcsSD3j
 status: active
 merged_into: null
 display_name: 王沅
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_sBMERQBejPvH1beTwL-eL8
+        subject_person_id: p_dCgm6CGkiEo8UGfTcsSD3j
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_KDimTzuHAnF3D7G1An5ygn
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Pmha4sDHpm_3-zKQB0kSnH
+          claim_id: c_sBMERQBejPvH1beTwL-eL8
+          source_id: s_sMFOeJPMvhHhO5wbTew1KX
+          stance: supports
+          locator: CBDB 双向互证（妻子 黃氏(王沅妻)）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_sMFOeJPMvhHhO5wbTew1KX
+            source_type: api_record
+            title: 中国历代人物传记资料库：黃氏(王沅妻)（CBDB 55557）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55557&o=json
+            external_identifier: CBDB:55557
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_KDimTzuHAnF3D7G1An5ygn
+        status: active
+        display_name: 黃氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_KDimTzuHAnF3D7G1An5ygn | 黃氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：黃氏(王沅妻)（CBDB 55557）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55557&o=json)
 - [中国历代人物传记资料库：王沅（CBDB 55558）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55558&o=json)

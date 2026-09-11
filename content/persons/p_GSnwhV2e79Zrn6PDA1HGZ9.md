@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王僎先
 cbdb_id: 143370
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -202,7 +202,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_EyuVugEVk9cEd1OR97oEcY
+        subject_person_id: p_GSnwhV2e79Zrn6PDA1HGZ9
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_VQhc59sgwzZ7rzfQ9XSa2F
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xNKhrl_OEvN3-Q2FywnO3h
+          claim_id: c_EyuVugEVk9cEd1OR97oEcY
+          source_id: s_xwqvH6kUqvD5nOMLbQ9oFZ
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Dahe42：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_xwqvH6kUqvD5nOMLbQ9oFZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：段公慶（CBDB 166738）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166738&o=json
+            external_identifier: CBDB:166738
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_VQhc59sgwzZ7rzfQ9XSa2F
+        status: active
+        display_name: 段公慶
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_XU6l0H49JgS71tTKI7FL-4
@@ -252,8 +289,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_uvDLYCA2qXPTtkXUzGxYPE | 王僎 | accepted |
+| spouses | p_VQhc59sgwzZ7rzfQ9XSa2F | 段公慶 | accepted |
 | ancestors | p_c8CSpNSPpzB9Q5r4UyXMsf | 王瑀 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：段公慶（CBDB 166738）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166738&o=json)
 - [中国历代人物传记资料库：王僎先（CBDB 143370）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143370&o=json)

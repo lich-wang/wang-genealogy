@@ -4,7 +4,7 @@ id: p_Z8DtSBjAEoUzy8cxQNFS2x
 status: active
 merged_into: null
 display_name: 王縱
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -310,7 +310,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_XDgLTCLsx5LnKtIk0cmiCW
+        subject_person_id: p_Z8DtSBjAEoUzy8cxQNFS2x
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_UNwjMBVao5oCHCb4EFz88B
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jyQsZ9cZ6NDiCy4c3sDNbE
+          claim_id: c_XDgLTCLsx5LnKtIk0cmiCW
+          source_id: s_Q04720Y7vd-d7GE874gOzd
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Q04720Y7vd-d7GE874gOzd
+            source_type: api_record
+            title: 中国历代人物传记资料库：石氏(石獻直女)（CBDB 144881）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=144881&o=json
+            external_identifier: CBDB:144881
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_UNwjMBVao5oCHCb4EFz88B
+        status: active
+        display_name: 石氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -339,9 +376,11 @@ relationships:
 | children | p_sVcDuMAtYkjArHqJ9B4mfg | 王重章 | accepted |
 | children | p_LeLvPSSradJ4p43xnshWpg | 王重盈 | accepted |
 | children | p_EfKko6jPFKQi6sfN7756JE | 王重益 | accepted |
+| spouses | p_UNwjMBVao5oCHCb4EFz88B | 石氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：石氏(石獻直女)（CBDB 144881）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=144881&o=json)
 - [中国历代人物传记资料库：王重簡（CBDB 185353）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185353&o=json)
 - [中国历代人物传记资料库：王重榮（CBDB 185355）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185355&o=json)
 - [中国历代人物传记资料库：王縱（CBDB 144879）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=144879&o=json)

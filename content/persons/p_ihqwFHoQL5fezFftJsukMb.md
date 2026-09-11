@@ -4,7 +4,7 @@ id: p_ihqwFHoQL5fezFftJsukMb
 status: active
 merged_into: null
 display_name: 王銳
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_w-v_AdZm1pnk4kCIPEaDXF
+        subject_person_id: p_ihqwFHoQL5fezFftJsukMb
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_rNBvTiWLAN4bLrCCab35T1
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sJ1O_4aUFBG8-QmxTj6Zls
+          claim_id: c_w-v_AdZm1pnk4kCIPEaDXF
+          source_id: s_ZHLvS1s3An6dpbCqnSv1cz
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第三甲第一百七十二名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZHLvS1s3An6dpbCqnSv1cz
+            source_type: api_record
+            title: 中国历代人物传记资料库：楊氏(王銳妻)（CBDB 285956）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285956&o=json
+            external_identifier: CBDB:285956
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_rNBvTiWLAN4bLrCCab35T1
+        status: active
+        display_name: 楊氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_B5TrRuBQm-qXxMdPUOGy1k
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_z8BnuYsiaLneHAb2Y8ZJ1g | 王通 | accepted |
+| spouses | p_rNBvTiWLAN4bLrCCab35T1 | 楊氏 | accepted |
 | ancestors | p_vMjpKHJoeuGDZhv3HdG2i8 | 王昇 | accepted |
 | ancestors | p_ksXbMH5SYnRtnnkU312q9h | 王紀 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王銳（CBDB 202276）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202276&o=json)
+- [中国历代人物传记资料库：楊氏(王銳妻)（CBDB 285956）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285956&o=json)

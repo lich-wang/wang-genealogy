@@ -4,7 +4,7 @@ id: p_D2oNcSP9ujVXCgNLvsNQq7
 status: active
 merged_into: null
 display_name: 王璽
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_29Z2xeqFsGB5MeUvJl3tzh
+        subject_person_id: p_D2oNcSP9ujVXCgNLvsNQq7
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_132hE535mH7wnjXqd1uQED
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YoOq3I1WwLGuuNmPL-KEUH
+          claim_id: c_29Z2xeqFsGB5MeUvJl3tzh
+          source_id: s_Na2tGSSgbugeO99xbnk7Yr
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第三甲第十七名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Na2tGSSgbugeO99xbnk7Yr
+            source_type: api_record
+            title: 中国历代人物传记资料库：劉氏(王璽妻)（CBDB 277150）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=277150&o=json
+            external_identifier: CBDB:277150
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_132hE535mH7wnjXqd1uQED
+        status: active
+        display_name: 劉氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_DC-4K8XJDjSw5JMl6LPQzU
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_XD3H4oXhmaonPt6uhjPXrk | 王卓越 | accepted |
+| spouses | p_132hE535mH7wnjXqd1uQED | 劉氏 | accepted |
 | ancestors | p_5jPSJ5bRFDJFyiiYFvL8Jy | 王率賓 | accepted |
 | ancestors | p_TfRE2PtormURx9X7QK28D9 | 王其智 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：劉氏(王璽妻)（CBDB 277150）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=277150&o=json)
 - [中国历代人物传记资料库：王璽（CBDB 201722）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201722&o=json)

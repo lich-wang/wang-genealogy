@@ -4,7 +4,7 @@ id: p_BoQ3bxPTXeG24V1AJeLzEL
 status: active
 merged_into: null
 display_name: 王沂若
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_yDr1nGIx4c4owjkbdunaAc
+        subject_person_id: p_BoQ3bxPTXeG24V1AJeLzEL
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_6ofX88ZkzKjrRRiUU8kTEZ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Kx0513duYq1Pk1N1ZHIIgn
+          claim_id: c_yDr1nGIx4c4owjkbdunaAc
+          source_id: s_DyKV-QDKzfIuTHY4K1nHf0
+          stance: supports
+          locator: 南陽府志，lgid=878671：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_DyKV-QDKzfIuTHY4K1nHf0
+            source_type: api_record
+            title: 中国历代人物传记资料库：馮氏(王沂若妻)（CBDB 551504）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551504&o=json
+            external_identifier: CBDB:551504
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_6ofX88ZkzKjrRRiUU8kTEZ
+        status: active
+        display_name: 馮氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_vMrpuYoGovfAHAbszUSEaq | 王模 | accepted |
+| spouses | p_6ofX88ZkzKjrRRiUU8kTEZ | 馮氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：馮氏(王沂若妻)（CBDB 551504）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551504&o=json)
 - [中国历代人物传记资料库：王沂若（CBDB 551503）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551503&o=json)

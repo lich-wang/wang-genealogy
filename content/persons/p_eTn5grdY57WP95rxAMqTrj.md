@@ -4,7 +4,7 @@ id: p_eTn5grdY57WP95rxAMqTrj
 status: active
 merged_into: null
 display_name: 王炎
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -184,7 +184,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_NzX_aN6yukd1XFcVpjY14c
+        subject_person_id: p_eTn5grdY57WP95rxAMqTrj
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_d8LcGRGpYmtFK4rJNpZqbF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MgLHWsScmeKWb_cwUAArNJ
+          claim_id: c_NzX_aN6yukd1XFcVpjY14c
+          source_id: s_20wRmTORb39s6BOszPUerM
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，683;684：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_20wRmTORb39s6BOszPUerM
+            source_type: api_record
+            title: 中国历代人物传记资料库：汪氏(王炎妻)（CBDB 39391）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=39391&o=json
+            external_identifier: CBDB:39391
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_d8LcGRGpYmtFK4rJNpZqbF
+        status: active
+        display_name: 汪氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -209,7 +246,9 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_RRsdpNBt4C7vWYviTZiLTp | 王橐 | accepted |
 | children | p_83TjrUjA3z5F7VVjyocHdu | 王恕 | accepted |
+| spouses | p_d8LcGRGpYmtFK4rJNpZqbF | 汪氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：汪氏(王炎妻)（CBDB 39391）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=39391&o=json)
 - [中国历代人物传记资料库：王炎（CBDB 16692）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=16692&o=json)

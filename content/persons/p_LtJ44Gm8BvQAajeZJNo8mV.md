@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王也先不華
 cbdb_id: 35492
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -127,7 +127,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_2jJOXrP4vor57kJaWFmcjn
+        subject_person_id: p_LtJ44Gm8BvQAajeZJNo8mV
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_9jNpu2wDMR2yhPHtfZN1Up
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_R7w-IHsmMMDEYBQ-DoS-CH
+          claim_id: c_2jJOXrP4vor57kJaWFmcjn
+          source_id: s_i4niC9MMSGPHcpiGKB2rjP
+          stance: supports
+          locator: CBDB 双向互证（妻子 孫氏(王也先不華妻)）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_i4niC9MMSGPHcpiGKB2rjP
+            source_type: api_record
+            title: 中国历代人物传记资料库：孫氏(王也先不華妻)（CBDB 35493）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35493&o=json
+            external_identifier: CBDB:35493
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_9jNpu2wDMR2yhPHtfZN1Up
+        status: active
+        display_name: 孫氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -149,8 +186,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_QekMNcgGqmPdfnigDWL4MC | 王翰 | accepted |
+| spouses | p_9jNpu2wDMR2yhPHtfZN1Up | 孫氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：孫氏(王也先不華妻)（CBDB 35493）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35493&o=json)
 - [中国历代人物传记资料库：王翰（CBDB 35495）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35495&o=json)
 - [中国历代人物传记资料库：王也先不華（CBDB 35492）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35492&o=json)

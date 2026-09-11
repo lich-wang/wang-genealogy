@@ -4,7 +4,7 @@ id: p_YMs6JZkbstNyaB91cBTq8e
 status: active
 merged_into: null
 display_name: 王珍
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -195,7 +195,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_HYHB5kbcO9ev9AeKDdKauQ
+        subject_person_id: p_YMs6JZkbstNyaB91cBTq8e
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_zdVaFEWko1nUbwGFSwMjAL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yc08ZFal6xMnhr5BD1v-3e
+          claim_id: c_HYHB5kbcO9ev9AeKDdKauQ
+          source_id: s_dETqcKeMcc6vKCe2bkfVz5
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Dali18：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_dETqcKeMcc6vKCe2bkfVz5
+            source_type: api_record
+            title: 中国历代人物传记资料库：元氏(王珍妻)（CBDB 165212）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=165212&o=json
+            external_identifier: CBDB:165212
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_zdVaFEWko1nUbwGFSwMjAL
+        status: active
+        display_name: 元氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -220,8 +257,10 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_2t2Hsz99a7Ud4ncfCN2zBF | 王奉珍 | accepted |
 | children | p_3kourbNuWNhGu69vBJXe7H | 王安國 | accepted |
+| spouses | p_zdVaFEWko1nUbwGFSwMjAL | 元氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王安國（CBDB 165213）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=165213&o=json)
 - [中国历代人物传记资料库：王珍（CBDB 143099）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143099&o=json)
+- [中国历代人物传记资料库：元氏(王珍妻)（CBDB 165212）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=165212&o=json)

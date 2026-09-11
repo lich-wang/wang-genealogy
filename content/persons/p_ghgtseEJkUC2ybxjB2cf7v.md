@@ -4,7 +4,7 @@ id: p_ghgtseEJkUC2ybxjB2cf7v
 status: active
 merged_into: null
 display_name: 王立道
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_QyjtZ_igryblQog6MaXq_4
+        subject_person_id: p_ghgtseEJkUC2ybxjB2cf7v
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_K4if1FnBjd9Nh5FkNdm7HQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mzvAJaBwvyjXXJkABYt_TP
+          claim_id: c_QyjtZ_igryblQog6MaXq_4
+          source_id: s_AGoIGqUd0bTdGY1t5tL6mI
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第二甲第三十八名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_AGoIGqUd0bTdGY1t5tL6mI
+            source_type: api_record
+            title: 中国历代人物传记资料库：唐氏(王立道妻)（CBDB 295412）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295412&o=json
+            external_identifier: CBDB:295412
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_K4if1FnBjd9Nh5FkNdm7HQ
+        status: active
+        display_name: 唐氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_8lb2PyCJM6McH2pG_wnzKU
@@ -234,9 +271,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_GSjakwc9qcDmQzVRm7NrP8 | 王表 | accepted |
+| spouses | p_K4if1FnBjd9Nh5FkNdm7HQ | 唐氏 | accepted |
 | ancestors | p_KhayJvfHv4EZubYePUZF8P | 王子輝 | accepted |
 | ancestors | p_wJemAUaKC2t74cEjRVqWg6 | 王冕 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：唐氏(王立道妻)（CBDB 295412）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295412&o=json)
 - [中国历代人物传记资料库：王立道（CBDB 34712）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34712&o=json)

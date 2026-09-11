@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_JKQrpEFnUYTLZ2RN8fLeic
+status: active
+merged_into: null
+display_name: 鄭氏
+revision: 1
+cbdb_id: 160463
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_6-M8CYysazdK7i2QefZGvH
+        subject_person_id: p_JKQrpEFnUYTLZ2RN8fLeic
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 鄭氏
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nAY5O9j2zlcMmwCLoXRjyw
+          claim_id: c_6-M8CYysazdK7i2QefZGvH
+          source_id: s_O7R3qFWOWJ9tf1FAInSMF9
+          stance: supports
+          locator: CBDB:160463
+          quotation: null
+          interpretation_note: CBDB 明确记录的王誕配偶
+          source: &a1
+            id: s_O7R3qFWOWJ9tf1FAInSMF9
+            source_type: api_record
+            title: 中国历代人物传记资料库：鄭氏(王誕妻)（CBDB 160463）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160463&o=json
+            external_identifier: CBDB:160463
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses:
+    - claim:
+        id: c_M6p5KOFNxbZ5UFgxdkk0Rn
+        subject_person_id: p_uLwVmgMC518Yd4ehoNd1de
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_JKQrpEFnUYTLZ2RN8fLeic
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-UdFUqVsh_HgQfqz4UjD6a
+          claim_id: c_M6p5KOFNxbZ5UFgxdkk0Rn
+          source_id: s_O7R3qFWOWJ9tf1FAInSMF9
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xiantong 45：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uLwVmgMC518Yd4ehoNd1de
+        status: active
+        display_name: 王誕
+        merged_into_person_id: null
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 鄭氏
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 鄭氏 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+| spouses | p_uLwVmgMC518Yd4ehoNd1de | 王誕 | accepted |
+
+## 外部来源
+
+- [中国历代人物传记资料库：鄭氏(王誕妻)（CBDB 160463）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160463&o=json)

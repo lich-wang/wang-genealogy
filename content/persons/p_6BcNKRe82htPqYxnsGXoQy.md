@@ -4,7 +4,7 @@ id: p_6BcNKRe82htPqYxnsGXoQy
 status: active
 merged_into: null
 display_name: 王用賓
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_iLytA5Yn0bKx3ZiFbuIHUd
+        subject_person_id: p_6BcNKRe82htPqYxnsGXoQy
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_SqY75r66LH44q86PW22K7z
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bTgjBJGHrXU_j3WOlm_LlA
+          claim_id: c_iLytA5Yn0bKx3ZiFbuIHUd
+          source_id: s_RrTgTOZYSvSFTFGedoKtXV
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第二甲第一百零六名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_RrTgTOZYSvSFTFGedoKtXV
+            source_type: api_record
+            title: 中国历代人物传记资料库：盧氏(王用賓妻)（CBDB 284142）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284142&o=json
+            external_identifier: CBDB:284142
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_SqY75r66LH44q86PW22K7z
+        status: active
+        display_name: 盧氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_f4tA2jDkgjaaPkhyeWr5iG
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_NuNTQZExjKcTBss2PH1NRS | 王懋 | accepted |
+| spouses | p_SqY75r66LH44q86PW22K7z | 盧氏 | accepted |
 | ancestors | p_7aUTPEtKBJQCs2MeHeH92w | 王福 | accepted |
 | ancestors | p_NG6up6tyYjPFB9nq4tmUEG | 王鑾 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：盧氏(王用賓妻)（CBDB 284142）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284142&o=json)
 - [中国历代人物传记资料库：王用賓（CBDB 202137）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202137&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王奕
 cbdb_id: 134093
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -213,7 +213,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_zLVI0-0VcwWeL3mCWd3E39
+        subject_person_id: p_E5T7DtMSUTdy3hJzYK7e45
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_6yPW5RZitv6vbu1vt4fVTo
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dfMSFrge1_0brqXLtv8XCi
+          claim_id: c_zLVI0-0VcwWeL3mCWd3E39
+          source_id: s_ET-FOBz8bxBYilfm45pEUE
+          stance: supports
+          locator: CBDB 双向互证（妻子 高氏(王奕妻)）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ET-FOBz8bxBYilfm45pEUE
+            source_type: api_record
+            title: 中国历代人物传记资料库：高氏(王奕妻)（CBDB 134092）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134092&o=json
+            external_identifier: CBDB:134092
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_6yPW5RZitv6vbu1vt4fVTo
+        status: active
+        display_name: 高氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -237,8 +274,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_Twe1TZKJwAM5y4NPmBAiBC | 王鞏 | accepted |
+| spouses | p_6yPW5RZitv6vbu1vt4fVTo | 高氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：高氏(王奕妻)（CBDB 134092）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134092&o=json)
 - [中国历代人物传记资料库：王鞏（CBDB 134094）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134094&o=json)
 - [中国历代人物传记资料库：王奕（CBDB 134093）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134093&o=json)

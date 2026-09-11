@@ -4,7 +4,7 @@ id: p_G5XZTGp3A73cVnQtTBjVpP
 status: active
 merged_into: null
 display_name: 王惠
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -195,7 +195,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_uONaLJWfYcOB1DYnLKMRYA
+        subject_person_id: p_G5XZTGp3A73cVnQtTBjVpP
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_25z6AQSkgZBPn8HDYEWRrE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ovcv-wl__KdCKYX7UrTQ6N
+          claim_id: c_uONaLJWfYcOB1DYnLKMRYA
+          source_id: s_EFrxs4dUexmFpG9D2nq9iv
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yonghui 142：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_EFrxs4dUexmFpG9D2nq9iv
+            source_type: api_record
+            title: 中国历代人物传记资料库：鄭氏(王惠妻)（CBDB 147262）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=147262&o=json
+            external_identifier: CBDB:147262
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_25z6AQSkgZBPn8HDYEWRrE
+        status: active
+        display_name: 鄭氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -220,8 +257,10 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_usDVSVNMMLPKsMgjFH23fr | 王理 | accepted |
 | children | p_3JiD5GQ2YjC1XsC5DCH9YN | 王文合 | accepted |
+| spouses | p_25z6AQSkgZBPn8HDYEWRrE | 鄭氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王惠（CBDB 139060）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139060&o=json)
 - [中国历代人物传记资料库：王文合（CBDB 147265）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=147265&o=json)
+- [中国历代人物传记资料库：鄭氏(王惠妻)（CBDB 147262）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=147262&o=json)

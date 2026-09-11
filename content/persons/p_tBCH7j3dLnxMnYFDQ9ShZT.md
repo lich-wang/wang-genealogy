@@ -4,7 +4,7 @@ id: p_tBCH7j3dLnxMnYFDQ9ShZT
 status: active
 merged_into: null
 display_name: 王以寧
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -113,7 +113,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_sBs4yupeDqiOrsm3IPkF8l
+        subject_person_id: p_tBCH7j3dLnxMnYFDQ9ShZT
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_G9Fgnfcmk4dsJjsPiPVFS9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NxvJEm_dIjUKKl2cB-MloM
+          claim_id: c_sBs4yupeDqiOrsm3IPkF8l
+          source_id: s_OEMbf92Y_ABu8ZMJy3aYiw
+          stance: supports
+          locator: 寶祐登科錄：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_OEMbf92Y_ABu8ZMJy3aYiw
+            source_type: api_record
+            title: 中国历代人物传记资料库：林氏(王以寧妻)（CBDB 138231）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=138231&o=json
+            external_identifier: CBDB:138231
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_G9Fgnfcmk4dsJjsPiPVFS9
+        status: active
+        display_name: 林氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_f4IssrwIoG-iZ8ZkYcUJ28
@@ -161,9 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_pPxxCTs7pEHku8hoGnoeUy | 王龍應 | accepted |
+| spouses | p_G9Fgnfcmk4dsJjsPiPVFS9 | 林氏 | accepted |
 | ancestors | p_5oPycHUW3mpNUYhM7rnWa6 | 王伯慶 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：林氏(王以寧妻)（CBDB 138231）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=138231&o=json)
 - [中国历代人物传记资料库：王龍應（CBDB 38435）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38435&o=json)
 - [中国历代人物传记资料库：王以寧（CBDB 136277）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136277&o=json)

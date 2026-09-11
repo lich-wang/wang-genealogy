@@ -4,7 +4,7 @@ id: p_jUfc5vCsBkQrPPCvwGCB11
 status: active
 merged_into: null
 display_name: 王堯臣
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_I_i5NGEAvgG_X2noA5GqB7
+        subject_person_id: p_jUfc5vCsBkQrPPCvwGCB11
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_sq5G8zDRgzGWpRT8ybQcQS
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HTftLdYXH9CrrZ4QpgzI3R
+          claim_id: c_I_i5NGEAvgG_X2noA5GqB7
+          source_id: s___9ZENazfJO3wJ6qKxvKip
+          stance: supports
+          locator: 紹興十八年同年小錄，136：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s___9ZENazfJO3wJ6qKxvKip
+            source_type: api_record
+            title: 中国历代人物传记资料库：林氏(王堯臣妻)（CBDB 135279）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135279&o=json
+            external_identifier: CBDB:135279
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_sq5G8zDRgzGWpRT8ybQcQS
+        status: active
+        display_name: 林氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_Xb3vZWf4sV8tg8bXGLmeNW
@@ -260,10 +297,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_TiUdEhG1LMC9f51Xgx1RW7 | 王鎰 | accepted |
+| spouses | p_sq5G8zDRgzGWpRT8ybQcQS | 林氏 | accepted |
 | ancestors | p_XNnEJW93RJQ51JNrQsQRTJ | 王彥 | accepted |
 | ancestors | p_k5osjTmtD6qGAxU1cpt1aP | 王文 | accepted |
 | descendants | p_E7YL8K8cBwHS7NPmFdwMBH | 王元應 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：林氏(王堯臣妻)（CBDB 135279）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135279&o=json)
 - [中国历代人物传记资料库：王堯臣（CBDB 23477）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23477&o=json)

@@ -4,7 +4,7 @@ id: p_91Pcfe43SKLM3QhSvGK4Ky
 status: active
 merged_into: null
 display_name: 王汝嘉
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -141,7 +141,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_CM6cr8m8DFnDV5VDDFAjov
+        subject_person_id: p_91Pcfe43SKLM3QhSvGK4Ky
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_pGHt8zA67SzmAGQuDxverm
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Yz7wQ98wwGvXspOu3IJxiU
+          claim_id: c_CM6cr8m8DFnDV5VDDFAjov
+          source_id: s_6LA8BncyOLRmQu3fX7pgf8
+          stance: supports
+          locator: 紹興十八年同年小錄，211：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6LA8BncyOLRmQu3fX7pgf8
+            source_type: api_record
+            title: 中国历代人物传记资料库：吳氏(王汝嘉妻)（CBDB 135768）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135768&o=json
+            external_identifier: CBDB:135768
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_pGHt8zA67SzmAGQuDxverm
+        status: active
+        display_name: 吳氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_8MRwXztEw6F7DDCzvcdtNu | 王鎬 | accepted |
+| spouses | p_pGHt8zA67SzmAGQuDxverm | 吳氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鎬（CBDB 23514）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23514&o=json)
 - [中国历代人物传记资料库：王汝嘉（CBDB 23515）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23515&o=json)
+- [中国历代人物传记资料库：吳氏(王汝嘉妻)（CBDB 135768）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135768&o=json)

@@ -4,7 +4,7 @@ id: p_5CduZYd3M32UzBRfFgkTNy
 status: active
 merged_into: null
 display_name: 王祿
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_56XjOHdGXEnnGmvYC48n7u
+        subject_person_id: p_5CduZYd3M32UzBRfFgkTNy
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_fpT3xisGvzXPznBAzXbZ9o
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KkCuo50Ln1vTwm3Zh7b0KU
+          claim_id: c_56XjOHdGXEnnGmvYC48n7u
+          source_id: s_QNwmsiKk4_hsYFd57ZyJku
+          stance: supports
+          locator: 成化八年進士登科錄:一卷，第二甲第六十八名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_QNwmsiKk4_hsYFd57ZyJku
+            source_type: api_record
+            title: 中国历代人物传记资料库：林氏(王祿妻)（CBDB 245778）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245778&o=json
+            external_identifier: CBDB:245778
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fpT3xisGvzXPznBAzXbZ9o
+        status: active
+        display_name: 林氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_ClVu-0E6DgN7futdSG-7hF
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_t5oHeornqu2QNuT9xayaao | 王英 | accepted |
+| spouses | p_fpT3xisGvzXPznBAzXbZ9o | 林氏 | accepted |
 | ancestors | p_nYBJ8DhUaL2NcKE4G7AVS7 | 王希遠 | accepted |
 | ancestors | p_mTzxwAEMxvLCjgbpNJPkQq | 王澤 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：林氏(王祿妻)（CBDB 245778）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245778&o=json)
 - [中国历代人物传记资料库：王祿（CBDB 199491）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199491&o=json)

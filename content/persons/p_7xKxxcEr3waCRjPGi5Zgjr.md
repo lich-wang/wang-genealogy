@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王紉佩
 cbdb_id: 71642
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -176,7 +176,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_UvfZnXwWUOcQLbOhpHJIfR
+        subject_person_id: p_7xKxxcEr3waCRjPGi5Zgjr
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_H3Pj4c8V2VSXHuqYevrZjs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Y3LMfvLhAQt-GpcIMK2MQ2
+          claim_id: c_UvfZnXwWUOcQLbOhpHJIfR
+          source_id: s_dKdyBtktSSjlFkwI7XJdtZ
+          stance: supports
+          locator: 明清婦女著作數據庫，4021：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_dKdyBtktSSjlFkwI7XJdtZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：江峰青（CBDB 75494）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=75494&o=json
+            external_identifier: CBDB:75494
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_H3Pj4c8V2VSXHuqYevrZjs
+        status: active
+        display_name: 江峰青
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -199,7 +236,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_H3Pj4c8V2VSXHuqYevrZjs | 江峰青 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：江峰青（CBDB 75494）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=75494&o=json)
 - [中国历代人物传记资料库：王紉佩（CBDB 71642）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71642&o=json)

@@ -4,7 +4,7 @@ id: p_5A4S7L1Jx9xxrAHuLA5JAa
 status: active
 merged_into: null
 display_name: 王錫之
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_qRFxZnHwtdu7cSWL221H5J
+        subject_person_id: p_5A4S7L1Jx9xxrAHuLA5JAa
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_mDFJkF2c8An1AZpcJgEM8N
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_emvTTIxmbTGvx3boI-Xaof
+          claim_id: c_qRFxZnHwtdu7cSWL221H5J
+          source_id: s_eV15F0TNvqszllQZxvZVmN
+          stance: supports
+          locator: 寶祐登科錄：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_eV15F0TNvqszllQZxvZVmN
+            source_type: api_record
+            title: 中国历代人物传记资料库：宋氏(王錫之妻)（CBDB 138301）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=138301&o=json
+            external_identifier: CBDB:138301
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_mDFJkF2c8An1AZpcJgEM8N
+        status: active
+        display_name: 宋氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_nk_PyXgODhobu4Uw5DMEV8
@@ -150,8 +187,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_68WHJYWPfgqWeruemt9EkX | 王南傑 | accepted |
+| spouses | p_mDFJkF2c8An1AZpcJgEM8N | 宋氏 | accepted |
 | ancestors | p_JfR97Qo9EtVxoy9abyHbHM | 王大鈞 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：宋氏(王錫之妻)（CBDB 138301）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=138301&o=json)
 - [中国历代人物传记资料库：王錫之（CBDB 136336）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136336&o=json)

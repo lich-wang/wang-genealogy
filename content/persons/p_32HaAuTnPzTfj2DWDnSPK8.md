@@ -4,7 +4,7 @@ id: p_32HaAuTnPzTfj2DWDnSPK8
 status: active
 merged_into: null
 display_name: 王宣
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -210,7 +210,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_LDIY1Sec8-FH6QcTazxndR
+        subject_person_id: p_32HaAuTnPzTfj2DWDnSPK8
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_JaB1Ya8rfLiRXjkgFHbjFJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KCMFiZ__alvuTzFLJkLCM3
+          claim_id: c_LDIY1Sec8-FH6QcTazxndR
+          source_id: s_7H9rR78EKvvOYi1mq-hNtw
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Linde 64：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7H9rR78EKvvOYi1mq-hNtw
+            source_type: api_record
+            title: 中国历代人物传记资料库：張氏(王宣妻)（CBDB 148094）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148094&o=json
+            external_identifier: CBDB:148094
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_JaB1Ya8rfLiRXjkgFHbjFJ
+        status: active
+        display_name: 張氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -236,7 +273,9 @@ relationships:
 | parents | p_MWMJXpzyEeq5R13wNCrRf3 | 王穆 | accepted |
 | children | p_nnj6RXkzzxVB31PNFKMMTB | 王敬賓 | accepted |
 | children | p_uvmhMuE79aBNYhw1VEDmkJ | 王粲仁 | accepted |
+| spouses | p_JaB1Ya8rfLiRXjkgFHbjFJ | 張氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王宣（CBDB 139473）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139473&o=json)
+- [中国历代人物传记资料库：張氏(王宣妻)（CBDB 148094）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148094&o=json)

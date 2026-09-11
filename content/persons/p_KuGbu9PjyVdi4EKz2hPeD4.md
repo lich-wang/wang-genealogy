@@ -4,7 +4,7 @@ id: p_KuGbu9PjyVdi4EKz2hPeD4
 status: active
 merged_into: null
 display_name: 王德
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -206,7 +206,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_IDXz1w0_H6HEc48IW3VLwl
+        subject_person_id: p_KuGbu9PjyVdi4EKz2hPeD4
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_hg4Gu6GsxgepF2CeMMq7az
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kQDKZOEnvYx5xXb0swMnmZ
+          claim_id: c_IDXz1w0_H6HEc48IW3VLwl
+          source_id: s_69aDynxgW_HwUjuAzuSmMs
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Zongzhang 24：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_69aDynxgW_HwUjuAzuSmMs
+            source_type: api_record
+            title: 中国历代人物传记资料库：劉氏(王德妻)（CBDB 148365）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148365&o=json
+            external_identifier: CBDB:148365
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_hg4Gu6GsxgepF2CeMMq7az
+        status: active
+        display_name: 劉氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_3DfKG7BYwWsHYvqY1uSxYR | 王思 | accepted |
 | children | p_eA4FrXeT3P8a3tixJUEnZZ | 王進 | accepted |
+| spouses | p_hg4Gu6GsxgepF2CeMMq7az | 劉氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：劉氏(王德妻)（CBDB 148365）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148365&o=json)
 - [中国历代人物传记资料库：王德（CBDB 139561）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139561&o=json)
 - [中国历代人物传记资料库：王進（CBDB 140060）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140060&o=json)
 - [中国历代人物传记资料库：王思（CBDB 140112）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140112&o=json)

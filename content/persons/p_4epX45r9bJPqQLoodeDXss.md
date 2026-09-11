@@ -4,7 +4,7 @@ id: p_4epX45r9bJPqQLoodeDXss
 status: active
 merged_into: null
 display_name: 王一陽
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,81 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_NlkvvbEPjv_-xQh-lbAFKT
+        subject_person_id: p_4epX45r9bJPqQLoodeDXss
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_SQtYU9yGDz4GaX8X8VgBaQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_przumMqnf9MPTyhiiqAKUA
+          claim_id: c_NlkvvbEPjv_-xQh-lbAFKT
+          source_id: s_eXjlmZtr4GLvSCxtKqZ81X
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第二甲第八十八名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_eXjlmZtr4GLvSCxtKqZ81X
+            source_type: api_record
+            title: 中国历代人物传记资料库：俞氏(王一陽妻)（CBDB 306148）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306148&o=json
+            external_identifier: CBDB:306148
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_SQtYU9yGDz4GaX8X8VgBaQ
+        status: active
+        display_name: 俞氏
+        merged_into_person_id: null
+    - claim:
+        id: c_wm6QwWjeSZmkvZ0PzIrCqr
+        subject_person_id: p_4epX45r9bJPqQLoodeDXss
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_utJUZx2cJXkW5Ne98B7ZGB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_I0M0RaU3t0IHHQ2---xa10
+          claim_id: c_wm6QwWjeSZmkvZ0PzIrCqr
+          source_id: s_OZYpPPNTessCr6H_LAR6hp
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第二甲第八十八名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_OZYpPPNTessCr6H_LAR6hp
+            source_type: api_record
+            title: 中国历代人物传记资料库：沈氏(王一陽妻)（CBDB 306149）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306149&o=json
+            external_identifier: CBDB:306149
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_utJUZx2cJXkW5Ne98B7ZGB
+        status: active
+        display_name: 沈氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_VdABGjujICj78RVPUUlW-_
@@ -205,9 +279,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_toP613bi74YEw4TLd3hMCu | 王遷 | accepted |
+| spouses | p_SQtYU9yGDz4GaX8X8VgBaQ | 俞氏 | accepted |
+| spouses | p_utJUZx2cJXkW5Ne98B7ZGB | 沈氏 | accepted |
 | ancestors | p_pJunG57MHAi2x423pkpYEA | 王珏 | accepted |
 | ancestors | p_TDSACRPuvvyZ91nEqE7y1X | 王輔 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：沈氏(王一陽妻)（CBDB 306149）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306149&o=json)
 - [中国历代人物传记资料库：王一陽（CBDB 203535）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203535&o=json)
+- [中国历代人物传记资料库：俞氏(王一陽妻)（CBDB 306148）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306148&o=json)

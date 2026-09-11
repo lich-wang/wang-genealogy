@@ -4,7 +4,7 @@ id: p_nTVozGACxLLaWGNjhMQxnM
 status: active
 merged_into: null
 display_name: 王肖翁
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -169,7 +169,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_R4jJkfSLcUxfGGpevzNauU
+        subject_person_id: p_nTVozGACxLLaWGNjhMQxnM
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_7iL2YaUSwb4m6n9tZWZ4k5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Jr84YymB7K92_kY6L879C_
+          claim_id: c_R4jJkfSLcUxfGGpevzNauU
+          source_id: s_7UCTNJaNxmObBFUHvI204B
+          stance: supports
+          locator: CBDB 双向互证（妻子 唐氏(王肖翁妻)）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7UCTNJaNxmObBFUHvI204B
+            source_type: api_record
+            title: 中国历代人物传记资料库：唐氏(王肖翁妻)（CBDB 386677）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386677&o=json
+            external_identifier: CBDB:386677
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_7iL2YaUSwb4m6n9tZWZ4k5
+        status: active
+        display_name: 唐氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_qSgaYiRKRtWJtKyBxreP_f
@@ -293,12 +330,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_jCAZd95vtUshZxHPbwJb25 | 王奇 | accepted |
+| spouses | p_7iL2YaUSwb4m6n9tZWZ4k5 | 唐氏 | accepted |
 | ancestors | p_hJs7Qvo7BVHkNfA4qF2GpU | 王佖 | accepted |
 | ancestors | p_Kay7m1G1NMGwAheD73rEbt | 王棟 | accepted |
 | ancestors | p_UvehpGMJTzc9aejBRt9mWN | 王淮 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：唐氏(王肖翁妻)（CBDB 386677）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386677&o=json)
 - [中国历代人物传记资料库：王佖（CBDB 10700）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10700&o=json)
 - [中国历代人物传记资料库：王棟（CBDB 10721）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10721&o=json)
 - [中国历代人物传记资料库：王奇（CBDB 386675）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386675&o=json)

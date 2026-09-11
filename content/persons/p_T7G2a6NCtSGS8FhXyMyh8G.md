@@ -4,7 +4,7 @@ id: p_T7G2a6NCtSGS8FhXyMyh8G
 status: active
 merged_into: null
 display_name: 王惠
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -113,7 +113,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_VK4IXGFVuzJcfBs37qjsN6
+        subject_person_id: p_T7G2a6NCtSGS8FhXyMyh8G
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_uBD36SyurHXJVLoxQUfBxW
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uZGAFaEs-BvBjIkhqa_jX5
+          claim_id: c_VK4IXGFVuzJcfBs37qjsN6
+          source_id: s_UVaZHMFylN-ic0KFXaTReX
+          stance: supports
+          locator: CBDB 双向互证（妻子 李靖真）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_UVaZHMFylN-ic0KFXaTReX
+            source_type: api_record
+            title: 中国历代人物传记资料库：李靖真（CBDB 28412）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28412&o=json
+            external_identifier: CBDB:28412
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_uBD36SyurHXJVLoxQUfBxW
+        status: active
+        display_name: 李靖真
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_eoDALUrJDc9dwWV48EE91t | 王逢 | accepted |
+| spouses | p_uBD36SyurHXJVLoxQUfBxW | 李靖真 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：李靖真（CBDB 28412）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28412&o=json)
 - [中国历代人物传记资料库：王逢（CBDB 28410）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28410&o=json)
 - [中国历代人物传记资料库：王惠（CBDB 28411）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28411&o=json)

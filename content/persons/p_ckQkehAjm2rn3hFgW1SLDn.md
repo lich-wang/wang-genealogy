@@ -4,7 +4,7 @@ id: p_ckQkehAjm2rn3hFgW1SLDn
 status: active
 merged_into: null
 display_name: 王平
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_-QEVzcMJSGHphU0yhfCqp0
+        subject_person_id: p_ckQkehAjm2rn3hFgW1SLDn
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_WftzYiuDBNrJGuYMiqD2Jh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4TDvzAsKJ7oTC6il7lSYLh
+          claim_id: c_-QEVzcMJSGHphU0yhfCqp0
+          source_id: s_qYm8ID5QA6nXvpux5U8FlM
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，585;586：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_qYm8ID5QA6nXvpux5U8FlM
+            source_type: api_record
+            title: 中国历代人物传记资料库：曾氏（CBDB 5136）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5136&o=json
+            external_identifier: CBDB:5136
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_WftzYiuDBNrJGuYMiqD2Jh
+        status: active
+        display_name: 曾氏
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -208,8 +245,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_epomT3DrAzh2aXobBoSETt | 王居政 | accepted |
+| spouses | p_WftzYiuDBNrJGuYMiqD2Jh | 曾氏 | accepted |
 | descendants | p_KyufmqFZJX9Ydoj45mR8n2 | 王泌 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：曾氏（CBDB 5136）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5136&o=json)
 - [中国历代人物传记资料库：王平（CBDB 1856）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1856&o=json)

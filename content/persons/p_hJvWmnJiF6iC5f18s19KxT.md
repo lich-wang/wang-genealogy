@@ -4,7 +4,7 @@ id: p_hJvWmnJiF6iC5f18s19KxT
 status: active
 merged_into: null
 display_name: 王元琰
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_heDMvomOscRKe73QWVqzeC
+        subject_person_id: p_hJvWmnJiF6iC5f18s19KxT
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_5TpmJ7CdMGGraLWyA6xBTM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OClxGiPwPlPNB0pCWR0mAk
+          claim_id: c_heDMvomOscRKe73QWVqzeC
+          source_id: s_UGQ7PXgFYmWK5yCRrxEfe7
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 485：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_UGQ7PXgFYmWK5yCRrxEfe7
+            source_type: api_record
+            title: 中国历代人物传记资料库：樊氏(王元琰妻)（CBDB 153005）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153005&o=json
+            external_identifier: CBDB:153005
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5TpmJ7CdMGGraLWyA6xBTM
+        status: active
+        display_name: 樊氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_Fx8QXqdT1H2Nnx76n52qHM
@@ -208,8 +245,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_V8TuRPJz1LKfD6dQy8Jxkx | 王方平 | accepted |
+| spouses | p_5TpmJ7CdMGGraLWyA6xBTM | 樊氏 | accepted |
 | ancestors | p_UeaYLpUuZp68RNcTFC71Ls | 王都 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：樊氏(王元琰妻)（CBDB 153005）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153005&o=json)
 - [中国历代人物传记资料库：王元琰（CBDB 140751）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140751&o=json)

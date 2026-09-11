@@ -4,7 +4,7 @@ id: p_vM6985QJehceoGJD1bbJKF
 status: active
 merged_into: null
 display_name: 王澄
-revision: 16
+revision: 18
 properties:
   - predicate: name.primary
     recommended:
@@ -207,7 +207,81 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_JJzzfE5iWMdMDfdLWnJi78
+        subject_person_id: p_vM6985QJehceoGJD1bbJKF
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_mayP9shGbtLtpPZP4Scu6w
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VQB3TIkimm81AI4teqmll5
+          claim_id: c_JJzzfE5iWMdMDfdLWnJi78
+          source_id: s_WxhotM-HNVWsfD2Y2VkXy6
+          stance: supports
+          locator: 宋濂全集，1606：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_WxhotM-HNVWsfD2Y2VkXy6
+            source_type: api_record
+            title: 中国历代人物传记资料库：鄭氏(王澄妻)（CBDB 134161）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134161&o=json
+            external_identifier: CBDB:134161
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_mayP9shGbtLtpPZP4Scu6w
+        status: active
+        display_name: 鄭氏
+        merged_into_person_id: null
+    - claim:
+        id: c_8VZp_pFMux6OO5Ya7RswYe
+        subject_person_id: p_vM6985QJehceoGJD1bbJKF
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_YWQ3nLCUB9JexBFUJoieeU
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2ULRmUwqwInpixQ3tPQIQj
+          claim_id: c_8VZp_pFMux6OO5Ya7RswYe
+          source_id: s_IYGOjhXfS-DfKkGHozpEjE
+          stance: supports
+          locator: 宋濂全集，1606：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_IYGOjhXfS-DfKkGHozpEjE
+            source_type: api_record
+            title: 中国历代人物传记资料库：周氏(王澄妻)（CBDB 134163）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134163&o=json
+            external_identifier: CBDB:134163
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_YWQ3nLCUB9JexBFUJoieeU
+        status: active
+        display_name: 周氏
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -1147,6 +1221,8 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_tSpXqwBE33pVWfFPYz5gPg | 王士麟 | accepted |
 | children | p_gFwBHF9Ka4CkfJcu6TEQy4 | 王子覺 | accepted |
+| spouses | p_mayP9shGbtLtpPZP4Scu6w | 鄭氏 | accepted |
+| spouses | p_YWQ3nLCUB9JexBFUJoieeU | 周氏 | accepted |
 | descendants | p_2b14Pj9cMfbGVVm23QMpPW | 王應 | accepted |
 | descendants | p_2M3Bp18QYjru654oK8qp9J | 王瀹 | accepted |
 | descendants | p_A41SYFNqMRpiFQWr968GE9 | 王淇 | accepted |
@@ -1198,3 +1274,5 @@ relationships:
 - [中国历代人物传记资料库：王瀹（CBDB 134187）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134187&o=json)
 - [中国历代人物传记资料库：王澤（CBDB 134176）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134176&o=json)
 - [中国历代人物传记资料库：王子覺（CBDB 134164）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134164&o=json)
+- [中国历代人物传记资料库：鄭氏(王澄妻)（CBDB 134161）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134161&o=json)
+- [中国历代人物传记资料库：周氏(王澄妻)（CBDB 134163）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134163&o=json)

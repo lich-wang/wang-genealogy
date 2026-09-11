@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王希濂
 cbdb_id: 120662
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -90,7 +90,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_tuyVNFl6ykHiIvdKrcbqIU
+        subject_person_id: p_UpuHAUk7xqL6Pf3zmdwvxE
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_FJN2yNGU1Fx3KDxpZc9j7m
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_caQ4EhVkQO3L5UXZE3PZf5
+          claim_id: c_tuyVNFl6ykHiIvdKrcbqIU
+          source_id: s_e7al6T8HGXAuq8keGPovDN
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #3681, HuWenKai #383：妻子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_e7al6T8HGXAuq8keGPovDN
+            source_type: api_record
+            title: 中国历代人物传记资料库：周綺（CBDB 83206）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=83206&o=json
+            external_identifier: CBDB:83206
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_FJN2yNGU1Fx3KDxpZc9j7m
+        status: active
+        display_name: 周綺
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_FJN2yNGU1Fx3KDxpZc9j7m | 周綺 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王希濂（CBDB 120662）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120662&o=json)
+- [中国历代人物传记资料库：周綺（CBDB 83206）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=83206&o=json)

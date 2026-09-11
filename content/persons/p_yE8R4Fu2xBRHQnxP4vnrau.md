@@ -4,7 +4,7 @@ id: p_yE8R4Fu2xBRHQnxP4vnrau
 status: active
 merged_into: null
 display_name: 王寧
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_Czx-sIwPNSGS29NmN3UOxj
+        subject_person_id: p_yE8R4Fu2xBRHQnxP4vnrau
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_KsgT5UMPaPDmQXhkv3U2N8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SruEEEWgkkr_eKwOHczejE
+          claim_id: c_Czx-sIwPNSGS29NmN3UOxj
+          source_id: s_2cxQLxByZBltlp6thWByG_
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第三甲第二百零六名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_2cxQLxByZBltlp6thWByG_
+            source_type: api_record
+            title: 中国历代人物传记资料库：楊氏(王寧妻)（CBDB 279056）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279056&o=json
+            external_identifier: CBDB:279056
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_KsgT5UMPaPDmQXhkv3U2N8
+        status: active
+        display_name: 楊氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_iemBz_6Y5hyZswpNKw4sGz
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_xFFdPdJwKEcff8qRsr4b53 | 王紹紀 | accepted |
+| spouses | p_KsgT5UMPaPDmQXhkv3U2N8 | 楊氏 | accepted |
 | ancestors | p_gmSkBYBnj6AUDqkC7pewDS | 王某選 | accepted |
 | ancestors | p_2EDQ55UQpfwb7UC1C3XQAT | 王郁文 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王寧（CBDB 201843）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201843&o=json)
+- [中国历代人物传记资料库：楊氏(王寧妻)（CBDB 279056）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279056&o=json)

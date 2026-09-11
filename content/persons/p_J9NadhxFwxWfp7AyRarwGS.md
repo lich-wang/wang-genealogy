@@ -4,7 +4,7 @@ id: p_J9NadhxFwxWfp7AyRarwGS
 status: active
 merged_into: null
 display_name: 王義
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_fMK1SP4fWTZGMdHm9QH4E4
+        subject_person_id: p_J9NadhxFwxWfp7AyRarwGS
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_r1BWPRikWTBYXrn9yZQrtw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vzoJIpbzgWxg61NXSNN1Iq
+          claim_id: c_fMK1SP4fWTZGMdHm9QH4E4
+          source_id: s__cNDzVsUsSsZ4nLbaHupf6
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第三甲第二百零九名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s__cNDzVsUsSsZ4nLbaHupf6
+            source_type: api_record
+            title: 中国历代人物传记资料库：李氏(王義妻)（CBDB 242212）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=242212&o=json
+            external_identifier: CBDB:242212
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_r1BWPRikWTBYXrn9yZQrtw
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_aEaXfGtnBlr6nXqSs9vzhd
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_ZSdmaffBtX3DKbv12A8Zie | 王輝 | accepted |
+| spouses | p_r1BWPRikWTBYXrn9yZQrtw | 李氏 | accepted |
 | ancestors | p_PjZjP8EDevdHKEtY8FrjQq | 王敏道 | accepted |
 | ancestors | p_x5eFQiYNR4age58MLJ5BPQ | 王思誠 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：李氏(王義妻)（CBDB 242212）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=242212&o=json)
 - [中国历代人物传记资料库：王義（CBDB 199241）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199241&o=json)

@@ -4,7 +4,7 @@ id: p_EG5yKUEaWTYurjNt333buJ
 status: active
 merged_into: null
 display_name: 王同皎
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_FvJENcvCOKm8Ogrsr8wajP
+        subject_person_id: p_EG5yKUEaWTYurjNt333buJ
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_2dRJyJE448fBvPvc9YM2KF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KWmDQNLmQt61euXYAQp1y6
+          claim_id: c_FvJENcvCOKm8Ogrsr8wajP
+          source_id: s_Jj6pCs4gtJFib3htowuQW9
+          stance: supports
+          locator: 新唐書，3653：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Jj6pCs4gtJFib3htowuQW9
+            source_type: api_record
+            title: 中国历代人物传记资料库：李氏(定安公主)（CBDB 192849）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=192849&o=json
+            external_identifier: CBDB:192849
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_2dRJyJE448fBvPvc9YM2KF
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -187,10 +224,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_P9grpQUuaJm36Kf1zD6ovz | 王知道 | accepted |
+| spouses | p_2dRJyJE448fBvPvc9YM2KF | 李氏 | accepted |
 | descendants | p_7wCLqcQbBY1uXQ63JU3AKf | 王訓 | accepted |
 | descendants | p_7QrhcSCpByfzYfPYz7zK5h | 王支某 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：李氏(定安公主)（CBDB 192849）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=192849&o=json)
 - [中国历代人物传记资料库：王同皎（CBDB 154781）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154781&o=json)
 - [中国历代人物传记资料库：王訓（CBDB 141157）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141157&o=json)

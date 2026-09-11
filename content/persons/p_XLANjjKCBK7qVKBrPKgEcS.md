@@ -4,7 +4,7 @@ id: p_XLANjjKCBK7qVKBrPKgEcS
 status: active
 merged_into: null
 display_name: 王堅
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -230,7 +230,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_1tUw1E45QJWiO7MvSwlLIM
+        subject_person_id: p_XLANjjKCBK7qVKBrPKgEcS
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_r4GYYa5kPSbCmZLu1J7GgJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NVpdsTKLwWcn2goZ8YrDZX
+          claim_id: c_1tUw1E45QJWiO7MvSwlLIM
+          source_id: s_YNK2xYnUNJCZZIe9R2K7uC
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_YNK2xYnUNJCZZIe9R2K7uC
+            source_type: api_record
+            title: 中国历代人物传记资料库：宇文氏(宇文荃女)（CBDB 145638）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145638&o=json
+            external_identifier: CBDB:145638
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_r4GYYa5kPSbCmZLu1J7GgJ
+        status: active
+        display_name: 宇文氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -256,9 +293,11 @@ relationships:
 | children | p_siyVkBP3BBDbeJ9Le2oaDN | 王仲康 | accepted |
 | children | p_f64t58x2UHRKvrzQmw1Cj5 | 王仲初 | accepted |
 | children | p_eJdKzNPvPGqGFk5vNPPWhh | 王仲詹 | accepted |
+| spouses | p_r4GYYa5kPSbCmZLu1J7GgJ | 宇文氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王堅（CBDB 186733）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186733&o=json)
 - [中国历代人物传记资料库：王岳（CBDB 186737）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186737&o=json)
 - [中国历代人物传记资料库：王仲康（CBDB 186739）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186739&o=json)
+- [中国历代人物传记资料库：宇文氏(宇文荃女)（CBDB 145638）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145638&o=json)

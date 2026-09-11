@@ -4,7 +4,7 @@ id: p_9qD8oY8HFNMMPkFU7baFfu
 status: active
 merged_into: null
 display_name: 王好問
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_swZxrkObMGBC9v0-6jm_V8
+        subject_person_id: p_9qD8oY8HFNMMPkFU7baFfu
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_BWsq8QANchL7g2spfZKYP9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WCWfa6Wmub3Xs1ygd2ZQoq
+          claim_id: c_swZxrkObMGBC9v0-6jm_V8
+          source_id: s_fwXCLiy5SaMqqXbJaIuJkw
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第二百一十名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_fwXCLiy5SaMqqXbJaIuJkw
+            source_type: api_record
+            title: 中国历代人物传记资料库：李氏(王好問妻)（CBDB 314779）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314779&o=json
+            external_identifier: CBDB:314779
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_BWsq8QANchL7g2spfZKYP9
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_S7vd2e3SwNXVlw_muQPqu5
@@ -234,9 +271,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_EYN9zgKtLzMkS4hMCxe1K9 | 王臣 | accepted |
+| spouses | p_BWsq8QANchL7g2spfZKYP9 | 李氏 | accepted |
 | ancestors | p_rMD7fcdsHtcbRUCp343sZb | 王欽 | accepted |
 | ancestors | p_J7eseMnAax6jNSf3U33SW2 | 王茂 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：李氏(王好問妻)（CBDB 314779）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314779&o=json)
 - [中国历代人物传记资料库：王好問（CBDB 126519）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126519&o=json)

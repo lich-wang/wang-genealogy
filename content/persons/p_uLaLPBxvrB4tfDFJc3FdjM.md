@@ -4,7 +4,7 @@ id: p_uLaLPBxvrB4tfDFJc3FdjM
 status: active
 merged_into: null
 display_name: 王媛
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_o5UcvWWdzXCwtR98okt962
+        subject_person_id: p_uLaLPBxvrB4tfDFJc3FdjM
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_482mrayReuPNnvLKwDoRof
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RqroPNR94x4ZfR9wOTE56c
+          claim_id: c_o5UcvWWdzXCwtR98okt962
+          source_id: s_u6YP3xRrx_jNa1lGG6PfFg
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_u6YP3xRrx_jNa1lGG6PfFg
+            source_type: api_record
+            title: 中国历代人物传记资料库：韋庸（CBDB 159918）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159918&o=json
+            external_identifier: CBDB:159918
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_482mrayReuPNnvLKwDoRof
+        status: active
+        display_name: 韋庸
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -182,7 +219,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_RpAdHFZNaiExFFHWwCkxTP | 王鄂 | accepted |
+| spouses | p_482mrayReuPNnvLKwDoRof | 韋庸 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王媛（CBDB 145882）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145882&o=json)
+- [中国历代人物传记资料库：韋庸（CBDB 159918）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159918&o=json)

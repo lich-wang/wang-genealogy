@@ -4,7 +4,7 @@ id: p_9XEdGwbtKfbYJcM1fkjEgY
 status: active
 merged_into: null
 display_name: 王運溪
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_STMMJSobcNiyvTsPpSiSaI
+        subject_person_id: p_9XEdGwbtKfbYJcM1fkjEgY
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_6gqW4VWEZzPEyoSTxPiot6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WZSG07xkvz8oQMzvbjNKsL
+          claim_id: c_STMMJSobcNiyvTsPpSiSaI
+          source_id: s_BD9ZkE_z3Z_eFiwsh6sim7
+          stance: supports
+          locator: 平陰縣志，lgid=630890：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BD9ZkE_z3Z_eFiwsh6sim7
+            source_type: api_record
+            title: 中国历代人物传记资料库：宋氏(王運溪妻)（CBDB 703989）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703989&o=json
+            external_identifier: CBDB:703989
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_6gqW4VWEZzPEyoSTxPiot6
+        status: active
+        display_name: 宋氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_6gqW4VWEZzPEyoSTxPiot6 | 宋氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：宋氏(王運溪妻)（CBDB 703989）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703989&o=json)
 - [中国历代人物传记资料库：王運溪（CBDB 703988）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703988&o=json)

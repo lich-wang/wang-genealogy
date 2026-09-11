@@ -4,7 +4,7 @@ id: p_3oKFdGHi8BKifcXxMMERFS
 status: active
 merged_into: null
 display_name: 王玹
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_DOMzALYRzPfMnC7bKfYoE1
+        subject_person_id: p_3oKFdGHi8BKifcXxMMERFS
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_jJ7oBEfLzsZ8MSWPD485w3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K8Lme5SiFC9qQ6H1b-W35Y
+          claim_id: c_DOMzALYRzPfMnC7bKfYoE1
+          source_id: s_gi7zpK2UL7sw1Fa0Wvhi4P
+          stance: supports
+          locator: 成化五年進士登科錄:一卷，第三甲第一百三十五名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_gi7zpK2UL7sw1Fa0Wvhi4P
+            source_type: api_record
+            title: 中国历代人物传记资料库：徐氏(王玹妻)（CBDB 244698）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244698&o=json
+            external_identifier: CBDB:244698
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_jJ7oBEfLzsZ8MSWPD485w3
+        status: active
+        display_name: 徐氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_mpklKYXezfPFNLgojVyGGD
@@ -176,9 +213,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_NpyCf5W5QfEUuJVcAPTPqZ | 王幹 | accepted |
+| spouses | p_jJ7oBEfLzsZ8MSWPD485w3 | 徐氏 | accepted |
 | ancestors | p_8gwx38wsbwGzuAiuAiCfu7 | 王能 | accepted |
 | ancestors | p_unC8WhgeCeKyeGrZqnVzs9 | 王貴 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王玹（CBDB 126600）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126600&o=json)
+- [中国历代人物传记资料库：徐氏(王玹妻)（CBDB 244698）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244698&o=json)

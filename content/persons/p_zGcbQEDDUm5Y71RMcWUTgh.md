@@ -4,7 +4,7 @@ id: p_zGcbQEDDUm5Y71RMcWUTgh
 status: active
 merged_into: null
 display_name: 王鎡
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_TO5JduJzodJV77d9quJPCi
+        subject_person_id: p_zGcbQEDDUm5Y71RMcWUTgh
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_An1eB7p5nNk1QDqNJqiSDj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WLiE9Kbq3j3fkrXAQSsKIo
+          claim_id: c_TO5JduJzodJV77d9quJPCi
+          source_id: s_E5Jpx280VFkf4M9FFhXCyW
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1278;1279：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_E5Jpx280VFkf4M9FFhXCyW
+            source_type: api_record
+            title: 中国历代人物传记资料库：孫氏(王鎡妻)（CBDB 5365）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5365&o=json
+            external_identifier: CBDB:5365
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_An1eB7p5nNk1QDqNJqiSDj
+        status: active
+        display_name: 孫氏
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -297,6 +334,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_An1eB7p5nNk1QDqNJqiSDj | 孫氏 | accepted |
 | descendants | p_1QHHB6mR2XonNZGYyLWjb3 | 王克昌 | accepted |
 | descendants | p_96WsJCaTh25kxTEjXjW8Ry | 王楠 | accepted |
 | descendants | p_MLyaRuTQgKXsigje69x5rP | 王汝昌 | accepted |
@@ -306,6 +344,7 @@ relationships:
 
 ## 外部来源
 
+- [中国历代人物传记资料库：孫氏(王鎡妻)（CBDB 5365）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5365&o=json)
 - [中国历代人物传记资料库：王伯昌（CBDB 30488）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30488&o=json)
 - [中国历代人物传记资料库：王克昌（CBDB 30487）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30487&o=json)
 - [中国历代人物传记资料库：王楠（CBDB 30492）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30492&o=json)

@@ -4,7 +4,7 @@ id: p_4PfjFLtLyYNM8C58Ah2PUW
 status: active
 merged_into: null
 display_name: 王淮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -104,7 +104,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_9-LecR0b6vyp7jcDcUUnRm
+        subject_person_id: p_4PfjFLtLyYNM8C58Ah2PUW
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_EDFy4V5vjvdQB2NseDcP32
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LGj5PQBq1iwWXcgOHgX_k8
+          claim_id: c_9-LecR0b6vyp7jcDcUUnRm
+          source_id: s_wBfkFKbDNCJdzguZbvgPGU
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_wBfkFKbDNCJdzguZbvgPGU
+            source_type: api_record
+            title: 中国历代人物传记资料库：元氏(元晟女)（CBDB 145369）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145369&o=json
+            external_identifier: CBDB:145369
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_EDFy4V5vjvdQB2NseDcP32
+        status: active
+        display_name: 元氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_EDFy4V5vjvdQB2NseDcP32 | 元氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王淮（CBDB 185898）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185898&o=json)
+- [中国历代人物传记资料库：元氏(元晟女)（CBDB 145369）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145369&o=json)

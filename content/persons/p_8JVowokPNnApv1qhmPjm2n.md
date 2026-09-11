@@ -4,7 +4,7 @@ id: p_8JVowokPNnApv1qhmPjm2n
 status: active
 merged_into: null
 display_name: 王嬌嬌
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -132,7 +132,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_hn5dFqUKrZgb4Cm_gRub5H
+        subject_person_id: p_8JVowokPNnApv1qhmPjm2n
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_enHjPjEWpkMSsUjBKXcUAJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ov9qcbz_6X0ii-piDObN3K
+          claim_id: c_hn5dFqUKrZgb4Cm_gRub5H
+          source_id: s_F4rQ1acaZQ2ft0ZtX0SDzy
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xiantong 38：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_F4rQ1acaZQ2ft0ZtX0SDzy
+            source_type: api_record
+            title: 中国历代人物传记资料库：楊籌（CBDB 160411）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160411&o=json
+            external_identifier: CBDB:160411
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_enHjPjEWpkMSsUjBKXcUAJ
+        status: active
+        display_name: 楊籌
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_enHjPjEWpkMSsUjBKXcUAJ | 楊籌 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王嬌嬌（CBDB 141990）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141990&o=json)
+- [中国历代人物传记资料库：楊籌（CBDB 160411）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160411&o=json)

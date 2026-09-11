@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_5KwG1755D5bESfCQsazhc9
+status: active
+merged_into: null
+display_name: 汪氏
+revision: 1
+cbdb_id: 295295
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_EHkjFWU5RJg3sidgF_x__f
+        subject_person_id: p_5KwG1755D5bESfCQsazhc9
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 汪氏
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B1-Y1jXSEBB4Brb2wj4Elr
+          claim_id: c_EHkjFWU5RJg3sidgF_x__f
+          source_id: s_HUeDuqYkJBocWIaWdX-8E9
+          stance: supports
+          locator: CBDB:295295
+          quotation: null
+          interpretation_note: CBDB 明确记录的王冕配偶
+          source: &a1
+            id: s_HUeDuqYkJBocWIaWdX-8E9
+            source_type: api_record
+            title: 中国历代人物传记资料库：汪氏(王冕妻)（CBDB 295295）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295295&o=json
+            external_identifier: CBDB:295295
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses:
+    - claim:
+        id: c_hgRePJBD6JSpxRJ9JxGTI2
+        subject_person_id: p_7XvdYNGwLHctu4cLzYQ7kr
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_5KwG1755D5bESfCQsazhc9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Jpmr_ksd5WBrWnj4QG0iC_
+          claim_id: c_hgRePJBD6JSpxRJ9JxGTI2
+          source_id: s_HUeDuqYkJBocWIaWdX-8E9
+          stance: supports
+          locator: 天順元年進士登科錄:一卷，第三甲第四十三名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_7XvdYNGwLHctu4cLzYQ7kr
+        status: active
+        display_name: 王冕
+        merged_into_person_id: null
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 汪氏
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 汪氏 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+| spouses | p_7XvdYNGwLHctu4cLzYQ7kr | 王冕 | accepted |
+
+## 外部来源
+
+- [中国历代人物传记资料库：汪氏(王冕妻)（CBDB 295295）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295295&o=json)

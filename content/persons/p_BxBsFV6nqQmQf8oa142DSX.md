@@ -4,7 +4,7 @@ id: p_BxBsFV6nqQmQf8oa142DSX
 status: active
 merged_into: null
 display_name: 王夢弼
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_NmCmA_3ZlYv0x2wQU3X7VA
+        subject_person_id: p_BxBsFV6nqQmQf8oa142DSX
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_QaV1aWWYJYFYMq26viuk5b
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q7b30h4eI-eG7aG_VBmzCy
+          claim_id: c_NmCmA_3ZlYv0x2wQU3X7VA
+          source_id: s_2iNytuBzRIrVRspGGKHbBV
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第三甲第一百一十四名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_2iNytuBzRIrVRspGGKHbBV
+            source_type: api_record
+            title: 中国历代人物传记资料库：周氏(王夢弼妻)（CBDB 297277）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297277&o=json
+            external_identifier: CBDB:297277
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_QaV1aWWYJYFYMq26viuk5b
+        status: active
+        display_name: 周氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_-69dAfW4NckQ5PhDizrdJU
@@ -234,9 +271,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_gQeCuqLFbJY887X7LuDmRP | 王世忠 | accepted |
+| spouses | p_QaV1aWWYJYFYMq26viuk5b | 周氏 | accepted |
 | ancestors | p_Jh96TMvNqfL8prQuCQkEVx | 王儶 | accepted |
 | ancestors | p_TobVzPD2rQQSqxAZuF8zkt | 王翃 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王夢弼（CBDB 126784）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126784&o=json)
+- [中国历代人物传记资料库：周氏(王夢弼妻)（CBDB 297277）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297277&o=json)

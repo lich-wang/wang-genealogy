@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王維齡
 cbdb_id: 120965
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -127,7 +127,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_FccgdJqTNHUMd-oHTcj554
+        subject_person_id: p_Ae2AyaTpa1d36ySH3SZ7t7
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_HX4xJ4V7oG3PruU9wcELKs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zWVlGkplMGcE3RAhQ4MFWl
+          claim_id: c_FccgdJqTNHUMd-oHTcj554
+          source_id: s_WleXy9BKbraVKtJu40SQwh
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #3923, HuWenKai #748：妻子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_WleXy9BKbraVKtJu40SQwh
+            source_type: api_record
+            title: 中国历代人物传记资料库：盧德儀（CBDB 73027）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=73027&o=json
+            external_identifier: CBDB:73027
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_HX4xJ4V7oG3PruU9wcELKs
+        status: active
+        display_name: 盧德儀
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -149,8 +186,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_nij3CyF938xG5q6589kczh | 王彥威 | accepted |
+| spouses | p_HX4xJ4V7oG3PruU9wcELKs | 盧德儀 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：盧德儀（CBDB 73027）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=73027&o=json)
 - [中国历代人物传记资料库：王維齡（CBDB 120965）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120965&o=json)
 - [中国历代人物传记资料库：王彥威（CBDB 71903）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71903&o=json)

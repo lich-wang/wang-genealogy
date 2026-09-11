@@ -4,7 +4,7 @@ id: p_7nLDqRUiM1HQGsWK6gxVHc
 status: active
 merged_into: null
 display_name: 王瑞
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_ofjHAwCTN5GSDtjc-zlKcB
+        subject_person_id: p_7nLDqRUiM1HQGsWK6gxVHc
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_WNALSz5VTnZfNEGwjyuoa9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bvqoNG-d8L2po2VcNztL2s
+          claim_id: c_ofjHAwCTN5GSDtjc-zlKcB
+          source_id: s_MWI2QG2H06LkCVnQVhRUBy
+          stance: supports
+          locator: 成化五年進士登科錄:一卷，第二甲第十六名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MWI2QG2H06LkCVnQVhRUBy
+            source_type: api_record
+            title: 中国历代人物传记资料库：吳氏(王瑞妻)（CBDB 242766）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=242766&o=json
+            external_identifier: CBDB:242766
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_WNALSz5VTnZfNEGwjyuoa9
+        status: active
+        display_name: 吳氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_0cQBpfe8170N0AcClH9RL4
@@ -176,9 +213,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_ZBwZdB8tEY2KUEfDHqhpeB | 王景 | accepted |
+| spouses | p_WNALSz5VTnZfNEGwjyuoa9 | 吳氏 | accepted |
 | ancestors | p_8hh6AFzwKDsJFPwN8t9CVF | 王華卿 | accepted |
 | ancestors | p_bwmZjjY7o3MxQTBoZTELxQ | 王偉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王瑞（CBDB 67734）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67734&o=json)
+- [中国历代人物传记资料库：吳氏(王瑞妻)（CBDB 242766）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=242766&o=json)

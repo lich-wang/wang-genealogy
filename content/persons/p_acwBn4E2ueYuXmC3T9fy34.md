@@ -4,7 +4,7 @@ id: p_acwBn4E2ueYuXmC3T9fy34
 status: active
 merged_into: null
 display_name: 王士翹
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_nQJq5MiSE3lss2tJZwCesx
+        subject_person_id: p_acwBn4E2ueYuXmC3T9fy34
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_3yGeDKUXUsQ9FwdhF1mY6J
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2Oi2BQYN9uEqrJYYKa2LfF
+          claim_id: c_nQJq5MiSE3lss2tJZwCesx
+          source_id: s_pGrVi-L_u6oav2A7eJPCxp
+          stance: supports
+          locator: 嘉靖十七年進士登科錄:一卷，第三甲第十八名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_pGrVi-L_u6oav2A7eJPCxp
+            source_type: api_record
+            title: 中国历代人物传记资料库：劉氏(王士翹妻)（CBDB 299912）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299912&o=json
+            external_identifier: CBDB:299912
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3yGeDKUXUsQ9FwdhF1mY6J
+        status: active
+        display_name: 劉氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_oDND4trIOX9L7BRj_oH5SG
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_EBfbydRv4JZEiVZULEada1 | 王寬 | accepted |
+| spouses | p_3yGeDKUXUsQ9FwdhF1mY6J | 劉氏 | accepted |
 | ancestors | p_26zY5WcDVZXyiR2tN43aiY | 王猷允 | accepted |
 | ancestors | p_DV9hi6YABUhE77uo5QhrzJ | 王槐兆 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：劉氏(王士翹妻)（CBDB 299912）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299912&o=json)
 - [中国历代人物传记资料库：王士翹（CBDB 203106）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203106&o=json)

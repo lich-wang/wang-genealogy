@@ -4,7 +4,7 @@ id: p_68bfPNUHA98KKMwPnJ12C3
 status: active
 merged_into: null
 display_name: 王謙
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_fw12tkpDhDinMIl9-wix2f
+        subject_person_id: p_68bfPNUHA98KKMwPnJ12C3
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_8cxn7qhC9RcaoQ98GdxCBt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gpr3q--43KQkJIGyc_c38Y
+          claim_id: c_fw12tkpDhDinMIl9-wix2f
+          source_id: s_jO2YNPSM6wvoRobLYVhJjT
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第二甲第三十七名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_jO2YNPSM6wvoRobLYVhJjT
+            source_type: api_record
+            title: 中国历代人物传记资料库：史氏(王謙妻)（CBDB 215868）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215868&o=json
+            external_identifier: CBDB:215868
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8cxn7qhC9RcaoQ98GdxCBt
+        status: active
+        display_name: 史氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_HXq9K3Gi3z30lVX15wdLgt
@@ -176,9 +213,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_uRxHoeETPENUnB4UpGZ636 | 王崇古 | accepted |
+| spouses | p_8cxn7qhC9RcaoQ98GdxCBt | 史氏 | accepted |
 | ancestors | p_n3VXQL5pitaZ4dih84qWf8 | 王馨 | accepted |
 | ancestors | p_WV7ubqMfsAHuJnpcg7NTN2 | 王瑤 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：史氏(王謙妻)（CBDB 215868）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215868&o=json)
 - [中国历代人物传记资料库：王謙（CBDB 124982）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=124982&o=json)

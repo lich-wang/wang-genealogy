@@ -4,7 +4,7 @@ id: p_oYShNGR9e2YVy71LdVhQbQ
 status: active
 merged_into: null
 display_name: 王一鳴
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -156,7 +156,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_dePtiQqWVXIw2Qt7lTXUTs
+        subject_person_id: p_oYShNGR9e2YVy71LdVhQbQ
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_WZzCD5VuiJqS4L6W4rg7D6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RFbBl8FTEvqV40K5VfrocR
+          claim_id: c_dePtiQqWVXIw2Qt7lTXUTs
+          source_id: s_qU1gW4p37XZ7ZDeVxd1xET
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第七十四名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_qU1gW4p37XZ7ZDeVxd1xET
+            source_type: api_record
+            title: 中国历代人物传记资料库：易氏(王一鳴妻)（CBDB 230475）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230475&o=json
+            external_identifier: CBDB:230475
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_WZzCD5VuiJqS4L6W4rg7D6
+        status: active
+        display_name: 易氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c__O9ZF9-xKbQEVo6VuKC5gs
@@ -232,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_1NFpKAdMuHUnaxbGrqKLeD | 王追美 | accepted |
 | children | p_s1G8THmnnjEDHat96956Pe | 王封東 | accepted |
+| spouses | p_WZzCD5VuiJqS4L6W4rg7D6 | 易氏 | accepted |
 | ancestors | p_sJoGCz3fLX1phN4S3RncbL | 王廷儒 | accepted |
 | ancestors | p_T5goNvoNQpEkcLRFNrHQMZ | 王同京 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王一鳴（CBDB 207264）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207264&o=json)
+- [中国历代人物传记资料库：易氏(王一鳴妻)（CBDB 230475）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230475&o=json)

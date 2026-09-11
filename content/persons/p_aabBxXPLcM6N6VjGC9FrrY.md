@@ -4,7 +4,7 @@ id: p_aabBxXPLcM6N6VjGC9FrrY
 status: active
 merged_into: null
 display_name: 王琳
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_JRRGn3FZEzCuT4A2bcOuRl
+        subject_person_id: p_aabBxXPLcM6N6VjGC9FrrY
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_wvLsfsu6Gt7b9HzRNKcwBz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hWRRcj2dcmHC9i_q_K3Pd1
+          claim_id: c_JRRGn3FZEzCuT4A2bcOuRl
+          source_id: s_BMv1R_ETwvqmefwk_vKjfK
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第二甲第六十名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BMv1R_ETwvqmefwk_vKjfK
+            source_type: api_record
+            title: 中国历代人物传记资料库：陳氏(王琳妻)（CBDB 255294）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255294&o=json
+            external_identifier: CBDB:255294
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_wvLsfsu6Gt7b9HzRNKcwBz
+        status: active
+        display_name: 陳氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_D3oudUJJnuH8bLDOJX-Uy9
@@ -176,9 +213,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_c9qMmjg6ShUcbRMz8upxQ9 | 王景明 | accepted |
+| spouses | p_wvLsfsu6Gt7b9HzRNKcwBz | 陳氏 | accepted |
 | ancestors | p_LwpbLAjs1GpyXx1VwqVnm9 | 王福賜 | accepted |
 | ancestors | p_iVsKoMKZ2pdBqdgY6tXGNE | 王以曾 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：陳氏(王琳妻)（CBDB 255294）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255294&o=json)
 - [中国历代人物传记资料库：王琳（CBDB 126709）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126709&o=json)

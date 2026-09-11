@@ -4,7 +4,7 @@ id: p_B3DCasoKhTkTKRRxYe4M21
 status: active
 merged_into: null
 display_name: 王子美
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_EAumQM_Y2kc56t0GdcxtwU
+        subject_person_id: p_B3DCasoKhTkTKRRxYe4M21
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_H3UvjGJ8a743XYTRkg3vEK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__0iK99jdocQLVdZDIeSd8O
+          claim_id: c_EAumQM_Y2kc56t0GdcxtwU
+          source_id: s_gq6b8Fdtrw1fP686i5EpVi
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #5081：妻子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_gq6b8Fdtrw1fP686i5EpVi
+            source_type: api_record
+            title: 中国历代人物传记资料库：文氏(王子美妻)（CBDB 123147）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123147&o=json
+            external_identifier: CBDB:123147
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_H3UvjGJ8a743XYTRkg3vEK
+        status: active
+        display_name: 文氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_H3UvjGJ8a743XYTRkg3vEK | 文氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王子美（CBDB 123150）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123150&o=json)
+- [中国历代人物传记资料库：文氏(王子美妻)（CBDB 123147）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123147&o=json)

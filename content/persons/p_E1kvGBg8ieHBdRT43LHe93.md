@@ -4,7 +4,7 @@ id: p_E1kvGBg8ieHBdRT43LHe93
 status: active
 merged_into: null
 display_name: 王存義
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_2Q9TLdPAYtwAxuBHtXrSnk
+        subject_person_id: p_E1kvGBg8ieHBdRT43LHe93
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_fAiDe3xc3BSdgKqANif79M
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_t1-LKUJ88Km1mPlBBPLZnp
+          claim_id: c_2Q9TLdPAYtwAxuBHtXrSnk
+          source_id: s_LAl44Jza-QGbFxWEi4UDmF
+          stance: supports
+          locator: 平陰縣志，lgid=630876：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_LAl44Jza-QGbFxWEi4UDmF
+            source_type: api_record
+            title: 中国历代人物传记资料库：項氏(王存義妻)（CBDB 702260）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702260&o=json
+            external_identifier: CBDB:702260
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fAiDe3xc3BSdgKqANif79M
+        status: active
+        display_name: 項氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_fAiDe3xc3BSdgKqANif79M | 項氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王存義（CBDB 702259）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702259&o=json)
+- [中国历代人物传记资料库：項氏(王存義妻)（CBDB 702260）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702260&o=json)

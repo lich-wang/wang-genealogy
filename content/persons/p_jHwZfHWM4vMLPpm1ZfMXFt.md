@@ -4,7 +4,7 @@ id: p_jHwZfHWM4vMLPpm1ZfMXFt
 status: active
 merged_into: null
 display_name: 王彝
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_34VUr4uXaVwuisfPD0h5_p
+        subject_person_id: p_jHwZfHWM4vMLPpm1ZfMXFt
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_TDtECwxi94xmGArH9Cawfo
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Bcjw-MC4ypKgq6vCVIuXhP
+          claim_id: c_34VUr4uXaVwuisfPD0h5_p
+          source_id: s_sF2O6Oe6O3tlgVgiIXjTd1
+          stance: supports
+          locator: 建文二年殿試登科錄:一卷，第三甲第十五名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_sF2O6Oe6O3tlgVgiIXjTd1
+            source_type: api_record
+            title: 中国历代人物传记资料库：周氏(王彝妻)（CBDB 254340）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254340&o=json
+            external_identifier: CBDB:254340
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_TDtECwxi94xmGArH9Cawfo
+        status: active
+        display_name: 周氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_OsqttvLGCmHlIQ03XVkiBE
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_Y3wRCa6Nb255jiaw4aNbxF | 王仕亨 | accepted |
+| spouses | p_TDtECwxi94xmGArH9Cawfo | 周氏 | accepted |
 | ancestors | p_EW8EydaZ8wxDcvfR19G4ZY | 王均稅 | accepted |
 | ancestors | p_EgkZNq9umBed7X2HqoE1NN | 王谷英 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王彝（CBDB 200153）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200153&o=json)
+- [中国历代人物传记资料库：周氏(王彝妻)（CBDB 254340）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254340&o=json)

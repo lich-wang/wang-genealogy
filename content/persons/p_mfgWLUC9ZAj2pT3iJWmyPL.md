@@ -4,7 +4,7 @@ id: p_mfgWLUC9ZAj2pT3iJWmyPL
 status: active
 merged_into: null
 display_name: 王洲
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_HLxxTAYVksPT1xNwx4Ef5t
+        subject_person_id: p_mfgWLUC9ZAj2pT3iJWmyPL
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_WmHFXsM1DhtyESqgPq432g
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_abxf9f01ckBzd25ckPjV1g
+          claim_id: c_HLxxTAYVksPT1xNwx4Ef5t
+          source_id: s_U42Y8CPwHd8idAuT7r_ooM
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #1838, HuWenKai #733：妻子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_U42Y8CPwHd8idAuT7r_ooM
+            source_type: api_record
+            title: 中国历代人物传记资料库：蔣佩玉（CBDB 100150）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100150&o=json
+            external_identifier: CBDB:100150
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_WmHFXsM1DhtyESqgPq432g
+        status: active
+        display_name: 蔣佩玉
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_WmHFXsM1DhtyESqgPq432g | 蔣佩玉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：蔣佩玉（CBDB 100150）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100150&o=json)
 - [中国历代人物传记资料库：王洲（CBDB 100151）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100151&o=json)

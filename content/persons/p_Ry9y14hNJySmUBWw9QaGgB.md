@@ -4,7 +4,7 @@ id: p_Ry9y14hNJySmUBWw9QaGgB
 status: active
 merged_into: null
 display_name: 王逸
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -132,7 +132,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_CcXMXDDuUg6siWJCWYilC2
+        subject_person_id: p_Ry9y14hNJySmUBWw9QaGgB
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_SjJ6uECtRN6PTDsLu344uv
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8uzNmr9CFRyZwczm9o2vx7
+          claim_id: c_CcXMXDDuUg6siWJCWYilC2
+          source_id: s_Be4_EkQVWCNs6FK2VsZMCW
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xianheng 53：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Be4_EkQVWCNs6FK2VsZMCW
+            source_type: api_record
+            title: 中国历代人物传记资料库：和氏(王逸妻)（CBDB 148568）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148568&o=json
+            external_identifier: CBDB:148568
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_SjJ6uECtRN6PTDsLu344uv
+        status: active
+        display_name: 和氏
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -181,8 +218,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_SjJ6uECtRN6PTDsLu344uv | 和氏 | accepted |
 | descendants | p_6jHSeBLmTJFKAdLmgdoTBB | 王行表 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：和氏(王逸妻)（CBDB 148568）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148568&o=json)
 - [中国历代人物传记资料库：王逸（CBDB 139632）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139632&o=json)

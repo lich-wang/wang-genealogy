@@ -4,7 +4,7 @@ id: p_BKktkDBxZW36NWWhLLkpwH
 status: active
 merged_into: null
 display_name: 王發
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_Q2W7QGFw9tWFzR0JCLQ671
+        subject_person_id: p_BKktkDBxZW36NWWhLLkpwH
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_kK6q5ZyB46nbch9D2dp3YD
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7pEB1L8GUjOAYl6pKKJxgo
+          claim_id: c_Q2W7QGFw9tWFzR0JCLQ671
+          source_id: s_TDR8Fgk8DVyINzEDxi0ojx
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_TDR8Fgk8DVyINzEDxi0ojx
+            source_type: api_record
+            title: 中国历代人物传记资料库：張氏(王發妻)（CBDB 37754）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37754&o=json
+            external_identifier: CBDB:37754
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_kK6q5ZyB46nbch9D2dp3YD
+        status: active
+        display_name: 張氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -151,7 +188,9 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_G5SQGh5AbvY3Ln1ftLHdsC | 王克存 | accepted |
 | children | p_swcbVTDLNjK4ibwNhCz7N9 | 王綯 | accepted |
+| spouses | p_kK6q5ZyB46nbch9D2dp3YD | 張氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王發（CBDB 3950）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3950&o=json)
+- [中国历代人物传记资料库：張氏(王發妻)（CBDB 37754）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37754&o=json)

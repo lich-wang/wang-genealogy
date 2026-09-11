@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王雲門
 cbdb_id: 119289
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -90,7 +90,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_c2R4KzMnvb_3JMCFygJSjR
+        subject_person_id: p_XqbVcUtFKJ7JiJPYBfC7gg
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_2oNWpwamoWf8YCWsM9sLYj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RjArw3YC_AUymqPxc5TMm5
+          claim_id: c_c2R4KzMnvb_3JMCFygJSjR
+          source_id: s_t3N-moEXoAbgOtZvrolMjN
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #3369, HuWenKai #406：妻子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_t3N-moEXoAbgOtZvrolMjN
+            source_type: api_record
+            title: 中国历代人物传记资料库：金莊（CBDB 119288）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119288&o=json
+            external_identifier: CBDB:119288
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_2oNWpwamoWf8YCWsM9sLYj
+        status: active
+        display_name: 金莊
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_2oNWpwamoWf8YCWsM9sLYj | 金莊 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：金莊（CBDB 119288）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119288&o=json)
 - [中国历代人物传记资料库：王雲門（CBDB 119289）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119289&o=json)

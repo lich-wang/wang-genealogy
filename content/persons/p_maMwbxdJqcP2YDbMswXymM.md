@@ -4,7 +4,7 @@ id: p_maMwbxdJqcP2YDbMswXymM
 status: active
 merged_into: null
 display_name: 王若滄
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -113,7 +113,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_7_RPUnBWWfxa2DDEACfz1I
+        subject_person_id: p_maMwbxdJqcP2YDbMswXymM
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_GenPCn8yZ1bx7AKE3wKR48
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DYAQU0EjdKD_ujFOOcRTLx
+          claim_id: c_7_RPUnBWWfxa2DDEACfz1I
+          source_id: s_m5YVGDqylyxq5Md-4fcBL5
+          stance: supports
+          locator: 吳門補乘，lgid=177495：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_m5YVGDqylyxq5Md-4fcBL5
+            source_type: api_record
+            title: 中国历代人物传记资料库：潘氏(王若滄妻)（CBDB 700850）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700850&o=json
+            external_identifier: CBDB:700850
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GenPCn8yZ1bx7AKE3wKR48
+        status: active
+        display_name: 潘氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_KnJjawX1JktF5ZKBYsvAoM | 王朝棟 | accepted |
+| spouses | p_GenPCn8yZ1bx7AKE3wKR48 | 潘氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：潘氏(王若滄妻)（CBDB 700850）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700850&o=json)
 - [中国历代人物传记资料库：王朝棟（CBDB 700938）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700938&o=json)
 - [中国历代人物传记资料库：王若滄（CBDB 700853）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700853&o=json)

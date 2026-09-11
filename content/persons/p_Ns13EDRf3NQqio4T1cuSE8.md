@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王景秀
 cbdb_id: 141201
-revision: 5
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -327,7 +327,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_MKYWbMgbYJt2BS92OdiEXW
+        subject_person_id: p_Ns13EDRf3NQqio4T1cuSE8
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_GCgR42SmAZsDj49L3Ea6KF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hlxrvQAorLm6QPvRrrxelR
+          claim_id: c_MKYWbMgbYJt2BS92OdiEXW
+          source_id: s_Dfx5Vu30ZVTiV-kS6yuS24
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dali 48：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Dfx5Vu30ZVTiV-kS6yuS24
+            source_type: api_record
+            title: 中国历代人物传记资料库：魏氏(王景秀妻)（CBDB 154991）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154991&o=json
+            external_identifier: CBDB:154991
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GCgR42SmAZsDj49L3Ea6KF
+        status: active
+        display_name: 魏氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -354,6 +391,7 @@ relationships:
 | children | p_gzSAA7pnJGSp9duTKAiL6T | 王端嚴 | accepted |
 | children | p_tsPhfJGWuwvUvkzZh1NoYQ | 王淨德 | accepted |
 | children | p_z2ZFB3TLvZP61HpWuEyQoa | 王十三娘 | accepted |
+| spouses | p_GCgR42SmAZsDj49L3Ea6KF | 魏氏 | accepted |
 
 ## 外部来源
 
@@ -362,3 +400,4 @@ relationships:
 - [中国历代人物传记资料库：王淨德（CBDB 154994）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154994&o=json)
 - [中国历代人物传记资料库：王明德（CBDB 154993）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154993&o=json)
 - [中国历代人物传记资料库：王十三娘（CBDB 154992）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154992&o=json)
+- [中国历代人物传记资料库：魏氏(王景秀妻)（CBDB 154991）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154991&o=json)

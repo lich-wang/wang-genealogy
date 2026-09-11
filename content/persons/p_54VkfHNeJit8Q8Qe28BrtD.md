@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王蕙芳
 cbdb_id: 69516
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -116,7 +116,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_FvN9yINUoBICu4RFha60sC
+        subject_person_id: p_54VkfHNeJit8Q8Qe28BrtD
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_gFteQeN8WXF48rQ1zSarFJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4tR_EBoJEGXcUE9kboFH9v
+          claim_id: c_FvN9yINUoBICu4RFha60sC
+          source_id: s_JhoBlSRFLDMUIcY0rp6-zh
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #1147, HuWenKai #491：丈夫"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_JhoBlSRFLDMUIcY0rp6-zh
+            source_type: api_record
+            title: 中国历代人物传记资料库：袁鴻（CBDB 85806）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=85806&o=json
+            external_identifier: CBDB:85806
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_gFteQeN8WXF48rQ1zSarFJ
+        status: active
+        display_name: 袁鴻
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -138,7 +175,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_8bF4i5x2ocJMKeudjfqjjX | 王陳翼 | accepted |
+| spouses | p_gFteQeN8WXF48rQ1zSarFJ | 袁鴻 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王蕙芳（CBDB 69516）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69516&o=json)
+- [中国历代人物传记资料库：袁鴻（CBDB 85806）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=85806&o=json)

@@ -4,7 +4,7 @@ id: p_v4yCpoZxQ1qj5eKS6Wqq7H
 status: active
 merged_into: null
 display_name: 王桂
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_tfvsTdozKELbGyUoX3GqBQ
+        subject_person_id: p_v4yCpoZxQ1qj5eKS6Wqq7H
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_z3vrX2sBVKGjcFvfZS4PET
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SiwOUUL7tmmOWKPFhk0lxV
+          claim_id: c_tfvsTdozKELbGyUoX3GqBQ
+          source_id: s_YoAXgPOEEL2nso9gAZC-70
+          stance: supports
+          locator: 麗水宋元墓誌集録，80：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_YoAXgPOEEL2nso9gAZC-70
+            source_type: api_record
+            title: 中国历代人物传记资料库：高氏(高懌次女)（CBDB 556128）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=556128&o=json
+            external_identifier: CBDB:556128
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_z3vrX2sBVKGjcFvfZS4PET
+        status: active
+        display_name: 高氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_z3vrX2sBVKGjcFvfZS4PET | 高氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：高氏(高懌次女)（CBDB 556128）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=556128&o=json)
 - [中国历代人物传记资料库：王桂（CBDB 555716）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555716&o=json)

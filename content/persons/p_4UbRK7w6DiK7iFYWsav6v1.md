@@ -4,7 +4,7 @@ id: p_4UbRK7w6DiK7iFYWsav6v1
 status: active
 merged_into: null
 display_name: 王都
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -182,7 +182,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_m0KzebUUmSEVwHqIrAM4qc
+        subject_person_id: p_4UbRK7w6DiK7iFYWsav6v1
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_6jY2yYhcd5uuuynd8grDYc
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_msLNjZoJozRfxV1qZ5ISlx
+          claim_id: c_m0KzebUUmSEVwHqIrAM4qc
+          source_id: s_ipltczx7wa8nwtWjNr6FWH
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第一百三十九名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ipltczx7wa8nwtWjNr6FWH
+            source_type: api_record
+            title: 中国历代人物传记资料库：張氏(王都妻)（CBDB 227295）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227295&o=json
+            external_identifier: CBDB:227295
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_6jY2yYhcd5uuuynd8grDYc
+        status: active
+        display_name: 張氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_eICVmrOV9ePLbKXqNOxAnP
@@ -259,9 +296,11 @@ relationships:
 | parents | p_FygGhfrnq3smeMksbXnbJf | 王雍熙 | accepted |
 | children | p_LCDZSEFLnkNUGBCXB5a5GQ | 王胤登 | accepted |
 | children | p_B6qxT3z1uEC6DSYrufjY7U | 王胤第 | accepted |
+| spouses | p_6jY2yYhcd5uuuynd8grDYc | 張氏 | accepted |
 | ancestors | p_o5jgd5GMnToyKrFHTbC9fH | 王英 | accepted |
 | ancestors | p_o6NSmGt2wjqPcWiQP6meF1 | 王崙 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王都（CBDB 207078）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207078&o=json)
+- [中国历代人物传记资料库：張氏(王都妻)（CBDB 227295）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227295&o=json)

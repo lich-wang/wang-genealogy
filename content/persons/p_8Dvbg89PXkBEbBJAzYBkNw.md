@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 沈瓒
 cbdb_id: 136038
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -374,6 +374,43 @@ relationships:
         status: active
         display_name: 王氏
         merged_into_person_id: null
+    - claim:
+        id: c_EtwWDzAkCTdUMou27mOudu
+        subject_person_id: p_8Dvbg89PXkBEbBJAzYBkNw
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_28qTJA5c3izFH9BnHuK4o4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hTB7MYXVOgJPZ7CmK78F6A
+          claim_id: c_EtwWDzAkCTdUMou27mOudu
+          source_id: s_Y5j3HVtIbuix5IKXJ6lQZB
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第二甲第八名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Y5j3HVtIbuix5IKXJ6lQZB
+            source_type: api_record
+            title: 中国历代人物传记资料库：周氏(沈瓚妻)（CBDB 228810）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228810&o=json
+            external_identifier: CBDB:228810
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_28qTJA5c3izFH9BnHuK4o4
+        status: active
+        display_name: 周氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -399,11 +436,13 @@ relationships:
 | --- | --- | --- | --- |
 | spouses | p_Ji6uf48BPmwCS3ik42iRg6 | 王氏 | accepted |
 | spouses | p_Ji6uf48BPmwCS3ik42iRg6 | 王氏 | accepted |
+| spouses | p_28qTJA5c3izFH9BnHuK4o4 | 周氏 | accepted |
 
 ## 外部来源
 
 - [维基数据：沈瓒（Q45482599）](https://www.wikidata.org/wiki/Q45482599)
 - [维基数据：王氏（Q65832507）](https://www.wikidata.org/wiki/Q65832507)
+- [中国历代人物传记资料库：周氏(沈瓚妻)（CBDB 228810）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228810&o=json)
 - [中文维基百科：沈瓚 (萬曆進士)](https://zh.wikipedia.org/wiki/%E6%B2%88%E7%93%9A_(%E8%90%AC%E6%9B%86%E9%80%B2%E5%A3%AB))
 - [CBDB 中国历代人物传记资料库：沈瓚（136038）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136038&o=json)
 - [CBDB 中国历代人物传记资料库：王氏（228811）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228811&o=json)

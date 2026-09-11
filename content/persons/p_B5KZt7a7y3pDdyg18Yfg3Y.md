@@ -4,7 +4,7 @@ id: p_B5KZt7a7y3pDdyg18Yfg3Y
 status: active
 merged_into: null
 display_name: 王方大
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -184,7 +184,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_7HQvAxlZ4DRAQbIyTHDYeg
+        subject_person_id: p_B5KZt7a7y3pDdyg18Yfg3Y
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_y8YDuqcGRWTq4ZvrjkRQ3P
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__ToMiJ6D7HJE9XMdn4MFvs
+          claim_id: c_7HQvAxlZ4DRAQbIyTHDYeg
+          source_id: s_3B5dYt6rqi11Xi63nU9npF
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Longshuo27：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3B5dYt6rqi11Xi63nU9npF
+            source_type: api_record
+            title: 中国历代人物传记资料库：姬氏(王方大妻)（CBDB 162292）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162292&o=json
+            external_identifier: CBDB:162292
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_y8YDuqcGRWTq4ZvrjkRQ3P
+        status: active
+        display_name: 姬氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -209,7 +246,9 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_5NN9787oFp3VzDZzys2LX2 | 王子唐 | accepted |
 | children | p_xEHw9dCD6Nqfs9ejJPDUUE | 王文貞 | accepted |
+| spouses | p_y8YDuqcGRWTq4ZvrjkRQ3P | 姬氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：姬氏(王方大妻)（CBDB 162292）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162292&o=json)
 - [中国历代人物传记资料库：王方大（CBDB 142534）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142534&o=json)

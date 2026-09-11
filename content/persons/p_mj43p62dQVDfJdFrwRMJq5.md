@@ -4,7 +4,7 @@ id: p_mj43p62dQVDfJdFrwRMJq5
 status: active
 merged_into: null
 display_name: 王學
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_z2C-OBybFSlbagRlno6xi8
+        subject_person_id: p_mj43p62dQVDfJdFrwRMJq5
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_NQyVzbqU794mopnoizCtyE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eXUTTvVQrz2e1L7n8QcXty
+          claim_id: c_z2C-OBybFSlbagRlno6xi8
+          source_id: s_4_PsIKgn46vi6IJNu9VKA0
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第六十九名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4_PsIKgn46vi6IJNu9VKA0
+            source_type: api_record
+            title: 中国历代人物传记资料库：某氏(王學妻)（CBDB 306922）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306922&o=json
+            external_identifier: CBDB:306922
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_NQyVzbqU794mopnoizCtyE
+        status: active
+        display_name: 某氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_jNrE0Aov0aUd1zDdd_881H
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_XWoQFU6m26umasN1nUqzCk | 王珵 | accepted |
+| spouses | p_NQyVzbqU794mopnoizCtyE | 某氏 | accepted |
 | ancestors | p_NqoNwLLj68W7dawMNBHSDK | 王素 | accepted |
 | ancestors | p_XAu3QsqAFjPkKsDGdU9zAQ | 王佐 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：某氏(王學妻)（CBDB 306922）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306922&o=json)
 - [中国历代人物传记资料库：王學（CBDB 203587）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203587&o=json)

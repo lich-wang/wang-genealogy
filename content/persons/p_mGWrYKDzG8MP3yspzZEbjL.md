@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王湘嬃
 cbdb_id: 121021
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -116,7 +116,33 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_RV7ScOypacU_LIleE0DfIM
+        subject_person_id: p_mGWrYKDzG8MP3yspzZEbjL
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_NbcyYvuaXAZPeebLbtb4m9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IAzaN7HatlOlMCzxmU0Qpb
+          claim_id: c_RV7ScOypacU_LIleE0DfIM
+          source_id: s_PzSYNY1tjqS6PFR9qVVW6d
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #4002, HuWenKai #241：丈夫"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NbcyYvuaXAZPeebLbtb4m9
+        status: active
+        display_name: 林模
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -138,6 +164,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_aNsr7zpTw5pr86NiEYQufP | 王果 | accepted |
+| spouses | p_NbcyYvuaXAZPeebLbtb4m9 | 林模 | accepted |
 
 ## 外部来源
 

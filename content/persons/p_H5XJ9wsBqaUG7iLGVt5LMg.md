@@ -4,7 +4,7 @@ id: p_H5XJ9wsBqaUG7iLGVt5LMg
 status: active
 merged_into: null
 display_name: 王崇禮
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -325,7 +325,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_h1Tn-LRv0L0ZNh2e8_dhqe
+        subject_person_id: p_H5XJ9wsBqaUG7iLGVt5LMg
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_FhLp679rPHbEkKCDdUsSbc
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Uijcux-g6vQKanW5NvscfV
+          claim_id: c_h1Tn-LRv0L0ZNh2e8_dhqe
+          source_id: s_bu3G_MOQRj7sRrpehnFENf
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 340：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_bu3G_MOQRj7sRrpehnFENf
+            source_type: api_record
+            title: 中国历代人物传记资料库：劉氏(王崇禮妻)（CBDB 152391）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152391&o=json
+            external_identifier: CBDB:152391
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_FhLp679rPHbEkKCDdUsSbc
+        status: active
+        display_name: 劉氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -355,8 +392,10 @@ relationships:
 | children | p_z5zJP5stLYzFPNkM4jetYc | 王元獻 | accepted |
 | children | p_fspPMgYwiJchRCTQFFm38t | 王元貢 | accepted |
 | children | p_QvFi1p7xLJZTbb1KrvtENM | 王元玼 | accepted |
+| spouses | p_FhLp679rPHbEkKCDdUsSbc | 劉氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：劉氏(王崇禮妻)（CBDB 152391）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152391&o=json)
 - [中国历代人物传记资料库：王崇禮（CBDB 140514）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140514&o=json)
 - [中国历代人物传记资料库：王元賓（CBDB 152399）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152399&o=json)

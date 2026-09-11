@@ -4,7 +4,7 @@ id: p_1vXY7qFFYMcnZjgBc9EDs8
 status: active
 merged_into: null
 display_name: 王佐
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_PuZXWxYXlUMJeJkrUuj8GI
+        subject_person_id: p_1vXY7qFFYMcnZjgBc9EDs8
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_LZa66noW4FLr3NMV38ZjMy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_75KOl4unryrJ5Cv7vB-2_a
+          claim_id: c_PuZXWxYXlUMJeJkrUuj8GI
+          source_id: s_UI3T6fIBZB8-LqwbIbnQ30
+          stance: supports
+          locator: 天順元年進士登科錄:一卷，第三甲第六十一名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_UI3T6fIBZB8-LqwbIbnQ30
+            source_type: api_record
+            title: 中国历代人物传记资料库：張氏(王佐妻)（CBDB 296967）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296967&o=json
+            external_identifier: CBDB:296967
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_LZa66noW4FLr3NMV38ZjMy
+        status: active
+        display_name: 張氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_M7_hie7WMtq86cP17g-bGk
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_e8GwzBVysey3Kb4uNTABDK | 王敬 | accepted |
+| spouses | p_LZa66noW4FLr3NMV38ZjMy | 張氏 | accepted |
 | ancestors | p_Dp8q3v4je1nMarPFQKSQZg | 王克善 | accepted |
 | ancestors | p_EqBrC3P6PFftiJvnAm14hu | 王希仁 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王佐（CBDB 198633）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198633&o=json)
+- [中国历代人物传记资料库：張氏(王佐妻)（CBDB 296967）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296967&o=json)

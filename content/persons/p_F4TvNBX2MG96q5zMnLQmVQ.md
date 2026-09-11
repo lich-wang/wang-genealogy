@@ -4,7 +4,7 @@ id: p_F4TvNBX2MG96q5zMnLQmVQ
 status: active
 merged_into: null
 display_name: 王應奎
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_Lw-ieJ5wQ2FJiwtO7Stgyk
+        subject_person_id: p_F4TvNBX2MG96q5zMnLQmVQ
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_7w8kW3ENHn7vAk7SQmuv6H
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4FjffQ5jzGSi5CojjzzsMj
+          claim_id: c_Lw-ieJ5wQ2FJiwtO7Stgyk
+          source_id: s_aJRxrfkelIlvrvNr8f2KCt
+          stance: supports
+          locator: 天順四年進士登科錄:一卷，第三甲第二十八名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_aJRxrfkelIlvrvNr8f2KCt
+            source_type: api_record
+            title: 中国历代人物传记资料库：應氏(王應奎妻)（CBDB 317074）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317074&o=json
+            external_identifier: CBDB:317074
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_7w8kW3ENHn7vAk7SQmuv6H
+        status: active
+        display_name: 應氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_298_gun6D2m3X_Y0-V1rbN
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_Vv43N2CuZqbv1NMT55dzSf | 王琴 | accepted |
+| spouses | p_7w8kW3ENHn7vAk7SQmuv6H | 應氏 | accepted |
 | ancestors | p_4fgWRd3JMryEEoWDYe3SxD | 王世達 | accepted |
 | ancestors | p_qQjh9wkA8nRsb7YY9rMuFw | 王思明 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王應奎（CBDB 198790）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198790&o=json)
+- [中国历代人物传记资料库：應氏(王應奎妻)（CBDB 317074）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317074&o=json)

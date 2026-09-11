@@ -4,7 +4,7 @@ id: p_7x8JYYpfNVCNz7epCoiZPm
 status: active
 merged_into: null
 display_name: 王廷輔
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_86eZdIxw5i6ALfhXzpvTN4
+        subject_person_id: p_7x8JYYpfNVCNz7epCoiZPm
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_Ki668d6NaaY43yHsBtpbn5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6jnZSJ7Sr_O7KJgFLFCFsO
+          claim_id: c_86eZdIxw5i6ALfhXzpvTN4
+          source_id: s_6EcocTdjv0_TbyBQqRhOZ6
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第二甲第二十八名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6EcocTdjv0_TbyBQqRhOZ6
+            source_type: api_record
+            title: 中国历代人物传记资料库：李氏(王廷輔妻)（CBDB 326522）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326522&o=json
+            external_identifier: CBDB:326522
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Ki668d6NaaY43yHsBtpbn5
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_-GKmA2wLLPGtQTtWh00iIz
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_UEhwLuzK5mRw1PBd3N1Kd9 | 王文盛 | accepted |
+| spouses | p_Ki668d6NaaY43yHsBtpbn5 | 李氏 | accepted |
 | ancestors | p_W3iJYzgHbrDvkxneDDVXwq | 王汝徵 | accepted |
 | ancestors | p_cy9QL3g4hhhRoKSspm9Yjh | 王慶忠 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：李氏(王廷輔妻)（CBDB 326522）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326522&o=json)
 - [中国历代人物传记资料库：王廷輔（CBDB 204965）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204965&o=json)

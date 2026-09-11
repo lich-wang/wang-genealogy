@@ -4,7 +4,7 @@ id: p_DYviEpoQ7QNEe7UQdPVSd4
 status: active
 merged_into: null
 display_name: 王以纁
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_tqjCV0HrsWpwB1Njzs4gM_
+        subject_person_id: p_DYviEpoQ7QNEe7UQdPVSd4
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_gAE7Y6mD8FN6PQfoSCLqU6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wHtj4nZc3o1ilXiEaK65xA
+          claim_id: c_tqjCV0HrsWpwB1Njzs4gM_
+          source_id: s_E4hPiD9AzsAhuci4rgn_ao
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第七十四名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_E4hPiD9AzsAhuci4rgn_ao
+            source_type: api_record
+            title: 中国历代人物传记资料库：段氏(王以纁妻)（CBDB 327947）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327947&o=json
+            external_identifier: CBDB:327947
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_gAE7Y6mD8FN6PQfoSCLqU6
+        status: active
+        display_name: 段氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_Ef9s1miXQLEf-PKYDiiINm
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_SJyiQsStHWbHq3jTTvu2vD | 王楫 | accepted |
+| spouses | p_gAE7Y6mD8FN6PQfoSCLqU6 | 段氏 | accepted |
 | ancestors | p_UmiM46iyTrzbnFK5RdENAL | 王能 | accepted |
 | ancestors | p_gSoKgcTCFAWExn64bcLa7C | 王詔 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：段氏(王以纁妻)（CBDB 327947）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327947&o=json)
 - [中国历代人物传记资料库：王以纁（CBDB 205075）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205075&o=json)

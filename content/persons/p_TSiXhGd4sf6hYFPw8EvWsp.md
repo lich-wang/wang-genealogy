@@ -4,7 +4,7 @@ id: p_TSiXhGd4sf6hYFPw8EvWsp
 status: active
 merged_into: null
 display_name: 王守琦
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -234,7 +234,81 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_FcjXf1gHj_WsGJgIkynQvX
+        subject_person_id: p_TSiXhGd4sf6hYFPw8EvWsp
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_iFdmQY65wry7H169vut7Uw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_o8Lc-LnTV79xqX9jbVvz9w
+          claim_id: c_FcjXf1gHj_WsGJgIkynQvX
+          source_id: s_cOMA54efcqBBTl4f4u_tQA
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dazhong 32：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_cOMA54efcqBBTl4f4u_tQA
+            source_type: api_record
+            title: 中国历代人物传记资料库：張氏(王守琦妻)（CBDB 159083）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159083&o=json
+            external_identifier: CBDB:159083
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_iFdmQY65wry7H169vut7Uw
+        status: active
+        display_name: 張氏
+        merged_into_person_id: null
+    - claim:
+        id: c_hzulg6VoxE_KhDAIXQTyyC
+        subject_person_id: p_TSiXhGd4sf6hYFPw8EvWsp
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_rZ1EKGukr2cc8BhGeQeHez
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JfIqdeIDNiugJjyJaeG6aq
+          claim_id: c_hzulg6VoxE_KhDAIXQTyyC
+          source_id: s_BZm0tEcMGEoutlqQ6BZrkM
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dazhong 32：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BZm0tEcMGEoutlqQ6BZrkM
+            source_type: api_record
+            title: 中国历代人物传记资料库：謝氏(王守琦妻)（CBDB 159084）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159084&o=json
+            external_identifier: CBDB:159084
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_rZ1EKGukr2cc8BhGeQeHez
+        status: active
+        display_name: 謝氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -261,7 +335,11 @@ relationships:
 | children | p_baMid58DQ36C4L4JRGTG3E | 王從盈 | accepted |
 | children | p_ouZb3u5M3MJFn5hChTsMKx | 王從祐 | accepted |
 | children | p_otC3NBGpEMdrpLf4GEKgEJ | 王允實 | accepted |
+| spouses | p_iFdmQY65wry7H169vut7Uw | 張氏 | accepted |
+| spouses | p_rZ1EKGukr2cc8BhGeQeHez | 謝氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王守琦（CBDB 141873）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141873&o=json)
+- [中国历代人物传记资料库：謝氏(王守琦妻)（CBDB 159084）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159084&o=json)
+- [中国历代人物传记资料库：張氏(王守琦妻)（CBDB 159083）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159083&o=json)

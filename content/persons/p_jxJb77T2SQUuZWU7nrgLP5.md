@@ -4,7 +4,7 @@ id: p_jxJb77T2SQUuZWU7nrgLP5
 status: active
 merged_into: null
 display_name: 王同倫
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_E3tywPGcWSlenKtGb4DeFx
+        subject_person_id: p_jxJb77T2SQUuZWU7nrgLP5
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_kjPSoZR76QsUF99CdurwiQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CYc192mpINZQS4LIKxsiCY
+          claim_id: c_E3tywPGcWSlenKtGb4DeFx
+          source_id: s_7oKKzDlWNKW3Qop3up64Rb
+          stance: supports
+          locator: 嘉靖三十五年進士登科錄:一卷，第三甲第一百三十五名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7oKKzDlWNKW3Qop3up64Rb
+            source_type: api_record
+            title: 中国历代人物传记资料库：張氏(王同倫妻)（CBDB 321410）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=321410&o=json
+            external_identifier: CBDB:321410
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_kjPSoZR76QsUF99CdurwiQ
+        status: active
+        display_name: 張氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_8niB_fcoS8Q6Z9SQ7ejgJa
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_kSZuSxLVRUx1AX2npsBxe9 | 王垽 | accepted |
+| spouses | p_kjPSoZR76QsUF99CdurwiQ | 張氏 | accepted |
 | ancestors | p_kK9zSdM9HPzF6bPSwAPxfV | 王昭 | accepted |
 | ancestors | p_Rwuy9n9CHqHdWUzkFfFBwF | 王煦 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王同倫（CBDB 204603）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204603&o=json)
+- [中国历代人物传记资料库：張氏(王同倫妻)（CBDB 321410）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=321410&o=json)

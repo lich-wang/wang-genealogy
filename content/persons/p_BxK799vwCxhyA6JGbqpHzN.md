@@ -4,7 +4,7 @@ id: p_BxK799vwCxhyA6JGbqpHzN
 status: active
 merged_into: null
 display_name: 王乾章
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_VqfeFZPwgypD6x9NjS4_b2
+        subject_person_id: p_BxK799vwCxhyA6JGbqpHzN
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_xGAJDTiHoTYx2rfQPURJ8V
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_a8a8Vvz9mgfpajWow2SdbA
+          claim_id: c_VqfeFZPwgypD6x9NjS4_b2
+          source_id: s_w7cUdMAY02Ss5zECq-g3RX
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第三名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_w7cUdMAY02Ss5zECq-g3RX
+            source_type: api_record
+            title: 中国历代人物传记资料库：鄭氏(王乾章妻)（CBDB 327154）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327154&o=json
+            external_identifier: CBDB:327154
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_xGAJDTiHoTYx2rfQPURJ8V
+        status: active
+        display_name: 鄭氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_-A8Eeb7-nOr8Zdojeg6XR1
@@ -234,9 +271,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_KEoDBUQZkr54B6QhQtTe7V | 王寬 | accepted |
+| spouses | p_xGAJDTiHoTYx2rfQPURJ8V | 鄭氏 | accepted |
 | ancestors | p_wm6KMTej7ugu8jJgRxzghC | 王得志 | accepted |
 | ancestors | p_RB7j1kQ2fDoPNyza5PRWdd | 王核 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王乾章（CBDB 126679）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126679&o=json)
+- [中国历代人物传记资料库：鄭氏(王乾章妻)（CBDB 327154）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327154&o=json)

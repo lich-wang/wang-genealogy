@@ -4,7 +4,7 @@ id: p_CJ4VyLGZZgJRk8JF6RcE65
 status: active
 merged_into: null
 display_name: 王儀
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_epBWsHaKJHhMgbVAh9BBZA
+        subject_person_id: p_CJ4VyLGZZgJRk8JF6RcE65
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_71hsEEucZkH8dnJyp7Cjvs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uixL8kRvLtjUoEbCyukRga
+          claim_id: c_epBWsHaKJHhMgbVAh9BBZA
+          source_id: s_qQ535tr9HED6pa9YdoCR0b
+          stance: supports
+          locator: 景泰二年進士登科錄:一卷，第三甲第九十三名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_qQ535tr9HED6pa9YdoCR0b
+            source_type: api_record
+            title: 中国历代人物传记资料库：匡氏(王儀妻)（CBDB 244975）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244975&o=json
+            external_identifier: CBDB:244975
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_71hsEEucZkH8dnJyp7Cjvs
+        status: active
+        display_name: 匡氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_IfTn4sa4whAk-p8aF1mydS
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_HCpgr1W9LMF6eGEBW7wXTQ | 王以誠 | accepted |
+| spouses | p_71hsEEucZkH8dnJyp7Cjvs | 匡氏 | accepted |
 | ancestors | p_LthjcxsctGA14WP74DMGD2 | 王守道 | accepted |
 | ancestors | p_1N1DMSNij1QVwie6MdHCh4 | 王士巽 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：匡氏(王儀妻)（CBDB 244975）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244975&o=json)
 - [中国历代人物传记资料库：王儀（CBDB 198242）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198242&o=json)

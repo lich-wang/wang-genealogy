@@ -4,7 +4,7 @@ id: p_feVTPN7HCaS1BxqehN6dAD
 status: active
 merged_into: null
 display_name: 王度
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_oq5KsK3gUJcwSi6V8FWMtA
+        subject_person_id: p_feVTPN7HCaS1BxqehN6dAD
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_1d3yFCQ4PyjGSXMCRimaCN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xMi4GRfAAiTPzRonui7yFJ
+          claim_id: c_oq5KsK3gUJcwSi6V8FWMtA
+          source_id: s_Vati1fdeBrTM_28hTbyScT
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第二百九十七名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Vati1fdeBrTM_28hTbyScT
+            source_type: api_record
+            title: 中国历代人物传记资料库：呂氏(王度妻)（CBDB 212088）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212088&o=json
+            external_identifier: CBDB:212088
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_1d3yFCQ4PyjGSXMCRimaCN
+        status: active
+        display_name: 呂氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_AeuIScV2qRnsNO8ZV-K9hO
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_gBwRWdErARQJVzB6EHJVfE | 王朝棟 | accepted |
+| spouses | p_1d3yFCQ4PyjGSXMCRimaCN | 呂氏 | accepted |
 | ancestors | p_m1y9NSRQiMJ2Dd2MjWHRAW | 王獻 | accepted |
 | ancestors | p_nNfNDpAPmaSEibBKUCYkZU | 王溥 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：呂氏(王度妻)（CBDB 212088）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212088&o=json)
 - [中国历代人物传记资料库：王度（CBDB 206012）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206012&o=json)

@@ -4,7 +4,7 @@ id: p_AfDGGh6h4aUB2seMFJ2w8R
 status: active
 merged_into: null
 display_name: 王宇
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_3ETNPiwnDAwR8r0xMuPZ6G
+        subject_person_id: p_AfDGGh6h4aUB2seMFJ2w8R
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_eKUYSkbT7Kb7s9PmD5W3PV
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__3wdNDC8z6oWlAEvKUrMD8
+          claim_id: c_3ETNPiwnDAwR8r0xMuPZ6G
+          source_id: s_fB1shKeQiCn-m-DBMUrrPE
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第二甲第二十六名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_fB1shKeQiCn-m-DBMUrrPE
+            source_type: api_record
+            title: 中国历代人物传记资料库：段氏(王宇妻)（CBDB 236845）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236845&o=json
+            external_identifier: CBDB:236845
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_eKUYSkbT7Kb7s9PmD5W3PV
+        status: active
+        display_name: 段氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_Z5crrassfcZdayH1hHcx8B
@@ -234,9 +271,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_CgEKz1NoAXQAHTMt7rq26j | 王希哲 | accepted |
+| spouses | p_eKUYSkbT7Kb7s9PmD5W3PV | 段氏 | accepted |
 | ancestors | p_iN53V4mFM6PKNc4Xcrnzf6 | 王敦本 | accepted |
 | ancestors | p_ALnGH7uowije6trJgmryLj | 王友德 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：段氏(王宇妻)（CBDB 236845）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236845&o=json)
 - [中国历代人物传记资料库：王宇（CBDB 66976）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=66976&o=json)

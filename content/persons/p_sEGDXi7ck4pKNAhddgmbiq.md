@@ -4,7 +4,7 @@ id: p_sEGDXi7ck4pKNAhddgmbiq
 status: active
 merged_into: null
 display_name: 王珹
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_m2wh-uSVn0As6pWrt3cRDc
+        subject_person_id: p_sEGDXi7ck4pKNAhddgmbiq
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_riqvV4HuDZfFbjH1MGXcaD
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tQVNXxe2dutII_TGDEA3eb
+          claim_id: c_m2wh-uSVn0As6pWrt3cRDc
+          source_id: s_ELBgkqSvmmDl51Vv4vvsXo
+          stance: supports
+          locator: CBDB 双向互证（妻子 趙氏(王珹妻)）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ELBgkqSvmmDl51Vv4vvsXo
+            source_type: api_record
+            title: 中国历代人物传记资料库：趙氏(王珹妻)（CBDB 437570）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437570&o=json
+            external_identifier: CBDB:437570
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_riqvV4HuDZfFbjH1MGXcaD
+        status: active
+        display_name: 趙氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_Kye7Asqoe0Fi-wqOMYn-to
@@ -408,6 +445,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_WU918HK6TTpAXfqW367rRb | 王侊 | accepted |
+| spouses | p_riqvV4HuDZfFbjH1MGXcaD | 趙氏 | accepted |
 | ancestors | p_XQD6YTcmUp8iw8hEQgNgEp | 王槐 | accepted |
 | ancestors | p_bkMbqmq6U23rFXaG17Pxzk | 王師心 | accepted |
 | ancestors | p_3qCiu5YYp75Z2KhRimvju5 | 王渷 | accepted |
@@ -423,3 +461,4 @@ relationships:
 - [中国历代人物传记资料库：王師心（CBDB 1872）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1872&o=json)
 - [中国历代人物传记资料库：王閑（CBDB 437572）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437572&o=json)
 - [中国历代人物传记资料库：王誾（CBDB 437574）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437574&o=json)
+- [中国历代人物传记资料库：趙氏(王珹妻)（CBDB 437570）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437570&o=json)

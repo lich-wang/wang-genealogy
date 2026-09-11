@@ -4,7 +4,7 @@ id: p_fngUDbgD5w2bFevKYCEogv
 status: active
 merged_into: null
 display_name: 王霽
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_iHmx6SecX27XfTNZiQe1VR
+        subject_person_id: p_fngUDbgD5w2bFevKYCEogv
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_K8PCCktUckGkJGwiDHGjzh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Crm9_fM_k71eDy0TNpVDza
+          claim_id: c_iHmx6SecX27XfTNZiQe1VR
+          source_id: s_T-wyj4Nmkktkblll0xQ1TI
+          stance: supports
+          locator: 天順四年進士登科錄:一卷，第三甲第九十名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_T-wyj4Nmkktkblll0xQ1TI
+            source_type: api_record
+            title: 中国历代人物传记资料库：曹氏(王霽妻)（CBDB 322919）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322919&o=json
+            external_identifier: CBDB:322919
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_K8PCCktUckGkJGwiDHGjzh
+        status: active
+        display_name: 曹氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_lpK_-Qm74mkH2d9p949JPx
@@ -234,9 +271,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_FX65EqFKSpj3D1AsBT3bfb | 王顯忠 | accepted |
+| spouses | p_K8PCCktUckGkJGwiDHGjzh | 曹氏 | accepted |
 | ancestors | p_ZP8SgXw3whHEPcVoNmGd6m | 王道亨 | accepted |
 | ancestors | p_SvPgtAZ6xmVpkyCuSarwR8 | 王以誠 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：曹氏(王霽妻)（CBDB 322919）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322919&o=json)
 - [中国历代人物传记资料库：王霽（CBDB 126885）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126885&o=json)

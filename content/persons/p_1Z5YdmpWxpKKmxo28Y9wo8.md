@@ -4,7 +4,7 @@ id: p_1Z5YdmpWxpKKmxo28Y9wo8
 status: active
 merged_into: null
 display_name: 王承裕
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -184,7 +184,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_FCt5Y7_gx7pd3wOOTjNgTD
+        subject_person_id: p_1Z5YdmpWxpKKmxo28Y9wo8
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_bCLYqbC5jToamiWdK9U2Ff
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_o_R2sF3K3HwfngaBVmKMwa
+          claim_id: c_FCt5Y7_gx7pd3wOOTjNgTD
+          source_id: s_r-n6Ym00ZzvFFbqQkL_tXZ
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 179：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_r-n6Ym00ZzvFFbqQkL_tXZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：高氏(王承裕妻)（CBDB 154081）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154081&o=json
+            external_identifier: CBDB:154081
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bCLYqbC5jToamiWdK9U2Ff
+        status: active
+        display_name: 高氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -209,7 +246,9 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_vGodDLkqQ8L94JmNsQ3LAT | 王素 | accepted |
 | children | p_gyQdjSQhiz5jrDrm6o3dVv | 王綰 | accepted |
+| spouses | p_bCLYqbC5jToamiWdK9U2Ff | 高氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：高氏(王承裕妻)（CBDB 154081）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154081&o=json)
 - [中国历代人物传记资料库：王承裕（CBDB 140983）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140983&o=json)

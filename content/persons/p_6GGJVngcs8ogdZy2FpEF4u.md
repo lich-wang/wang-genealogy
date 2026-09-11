@@ -4,7 +4,7 @@ id: p_6GGJVngcs8ogdZy2FpEF4u
 status: active
 merged_into: null
 display_name: 王煥
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_S8vvgbhumYf8uLgyzxot0S
+        subject_person_id: p_6GGJVngcs8ogdZy2FpEF4u
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_1DDzfsyLxno4VWmk3vfcFc
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wn50uz0DM3VjfDV1OO6Rz1
+          claim_id: c_S8vvgbhumYf8uLgyzxot0S
+          source_id: s_4wpFVmgMrF19cvvRzEuq0o
+          stance: supports
+          locator: 寶祐登科錄：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4wpFVmgMrF19cvvRzEuq0o
+            source_type: api_record
+            title: 中国历代人物传记资料库：陳氏(王煥妻)（CBDB 138430）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=138430&o=json
+            external_identifier: CBDB:138430
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_1DDzfsyLxno4VWmk3vfcFc
+        status: active
+        display_name: 陳氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_EpMB-fNu_gvQprUmP0A5GH
@@ -150,8 +187,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_x5chVJWUxFzThLSZwhLKJP | 王唐 | accepted |
+| spouses | p_1DDzfsyLxno4VWmk3vfcFc | 陳氏 | accepted |
 | ancestors | p_TyATMdhDLQE6uXtZeEgytP | 王璿 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：陳氏(王煥妻)（CBDB 138430）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=138430&o=json)
 - [中国历代人物传记资料库：王煥（CBDB 38800）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38800&o=json)

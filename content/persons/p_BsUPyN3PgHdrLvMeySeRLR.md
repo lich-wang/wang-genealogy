@@ -4,7 +4,7 @@ id: p_BsUPyN3PgHdrLvMeySeRLR
 status: active
 merged_into: null
 display_name: 王贄
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -132,7 +132,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_CZNePMuUmL-XS9Qs-5xTM8
+        subject_person_id: p_BsUPyN3PgHdrLvMeySeRLR
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_bAGg67KvvM5agjFGStoo5v
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6zFYknsReQ4NNHQYBt5Fwk
+          claim_id: c_CZNePMuUmL-XS9Qs-5xTM8
+          source_id: s_0Md-QDTLzKQWQVBv3O7u98
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1265;1266：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_0Md-QDTLzKQWQVBv3O7u98
+            source_type: api_record
+            title: 中国历代人物传记资料库：劉氏(王贄妻)（CBDB 5130）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5130&o=json
+            external_identifier: CBDB:5130
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_bAGg67KvvM5agjFGStoo5v
+        status: active
+        display_name: 劉氏
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -181,8 +218,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_bAGg67KvvM5agjFGStoo5v | 劉氏 | accepted |
 | descendants | p_f2PSyxKxCq1ou1TiLbgteQ | 王球 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：劉氏(王贄妻)（CBDB 5130）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5130&o=json)
 - [中国历代人物传记资料库：王贄（CBDB 1781）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1781&o=json)

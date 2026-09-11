@@ -4,7 +4,7 @@ id: p_7xFeon8XjY4faqRLzNiUEf
 status: active
 merged_into: null
 display_name: 王嘉言
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_6Rjr5xADEVPYidsa42OCcN
+        subject_person_id: p_7xFeon8XjY4faqRLzNiUEf
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_KcQb8EMTuKkBsCJVrXXva9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Qm62UenJsnHEuKSqIBkpyx
+          claim_id: c_6Rjr5xADEVPYidsa42OCcN
+          source_id: s_X45CYoLtr7WCyfDmwGlBfZ
+          stance: supports
+          locator: 寶祐登科錄：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_X45CYoLtr7WCyfDmwGlBfZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：蔣氏(王嘉言妻)（CBDB 138631）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=138631&o=json
+            external_identifier: CBDB:138631
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_KcQb8EMTuKkBsCJVrXXva9
+        status: active
+        display_name: 蔣氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_0qappXeItunHvqbNT2qrVy
@@ -177,8 +214,10 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_DmvAtzDarKwpQrK8485z6q | 王維 | accepted |
 | children | p_YNnM29jfUgNXMA2gCi8ghx | 王桂發 | accepted |
+| spouses | p_KcQb8EMTuKkBsCJVrXXva9 | 蔣氏 | accepted |
 | ancestors | p_pL9ipvbun2L1xu9YQg4MjT | 王舉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：蔣氏(王嘉言妻)（CBDB 138631）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=138631&o=json)
 - [中国历代人物传记资料库：王嘉言（CBDB 97833）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=97833&o=json)

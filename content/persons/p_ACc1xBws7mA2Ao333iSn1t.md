@@ -4,7 +4,7 @@ id: p_ACc1xBws7mA2Ao333iSn1t
 status: active
 merged_into: null
 display_name: 王三聘
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_sNYBM6V3Wemm82t67ouTds
+        subject_person_id: p_ACc1xBws7mA2Ao333iSn1t
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_7qHPv3dNV3pb6foTr1R6Mj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GjcW1j7DNu0AaBwVJls6ME
+          claim_id: c_sNYBM6V3Wemm82t67ouTds
+          source_id: s_QkoyttXMgGStu0CRNt48PH
+          stance: supports
+          locator: 嘉靖三十五年進士登科錄:一卷，第三甲第二十六名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_QkoyttXMgGStu0CRNt48PH
+            source_type: api_record
+            title: 中国历代人物传记资料库：任氏(王三聘妻)（CBDB 320260）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320260&o=json
+            external_identifier: CBDB:320260
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_7qHPv3dNV3pb6foTr1R6Mj
+        status: active
+        display_name: 任氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_jcUew3Lw5VRRZl-f1Jmb_2
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_W3hKLsZCb7JWaB6eMRG8um | 王沄 | accepted |
+| spouses | p_7qHPv3dNV3pb6foTr1R6Mj | 任氏 | accepted |
 | ancestors | p_UBvJGVLqxVxxgkGH1oiL2o | 王忠 | accepted |
 | ancestors | p_qwzu3ZKpNmFFiKcPJz3w4X | 王景華 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：任氏(王三聘妻)（CBDB 320260）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320260&o=json)
 - [中国历代人物传记资料库：王三聘（CBDB 204520）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204520&o=json)

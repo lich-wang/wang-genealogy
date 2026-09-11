@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王初桐
 cbdb_id: 100221
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -90,7 +90,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_zYEZkarRuA2Tg50mf_miWA
+        subject_person_id: p_xPXXSuoC2vsos6zKj5NVuB
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_8eUNyzhUpjzoTbu8wMtdiN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VQEn-J4PhNewi_7zdzeOpu
+          claim_id: c_zYEZkarRuA2Tg50mf_miWA
+          source_id: s_c1H5-sTMOo8X207asZfbiq
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #1874, HuWenKai #338：妻子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_c1H5-sTMOo8X207asZfbiq
+            source_type: api_record
+            title: 中国历代人物传记资料库：李湘芝（CBDB 100220）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100220&o=json
+            external_identifier: CBDB:100220
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8eUNyzhUpjzoTbu8wMtdiN
+        status: active
+        display_name: 李湘芝
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_8eUNyzhUpjzoTbu8wMtdiN | 李湘芝 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：李湘芝（CBDB 100220）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100220&o=json)
 - [中国历代人物传记资料库：王初桐（CBDB 100221）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100221&o=json)

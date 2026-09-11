@@ -4,7 +4,7 @@ id: p_GPJWbNZBxqcAyFkJPjejib
 status: active
 merged_into: null
 display_name: 王鎔
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_aAHAQZqC4myGjspT4EspAB
+        subject_person_id: p_GPJWbNZBxqcAyFkJPjejib
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_SBoMUBeLgvrBeJK5Sj2WFL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WuKB8vosC497OH_ogmFzwE
+          claim_id: c_aAHAQZqC4myGjspT4EspAB
+          source_id: s_e-ANLmc9ryQyu4K6T3PZzM
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第二甲第一百名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_e-ANLmc9ryQyu4K6T3PZzM
+            source_type: api_record
+            title: 中国历代人物传记资料库：姚氏(王鎔妻)（CBDB 280454）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280454&o=json
+            external_identifier: CBDB:280454
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_SBoMUBeLgvrBeJK5Sj2WFL
+        status: active
+        display_name: 姚氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_48Aawf1Zoy8m3867vUHiDX
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_JQSDqcZBSbRhiYBr5Yzafa | 王純 | accepted |
+| spouses | p_SBoMUBeLgvrBeJK5Sj2WFL | 姚氏 | accepted |
 | ancestors | p_nxBo2SnEXoxZTjrPEbFJoT | 王潛 | accepted |
 | ancestors | p_x3b1ooEbLk2BtuUQYLtrHK | 王琯 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鎔（CBDB 201918）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201918&o=json)
+- [中国历代人物传记资料库：姚氏(王鎔妻)（CBDB 280454）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280454&o=json)

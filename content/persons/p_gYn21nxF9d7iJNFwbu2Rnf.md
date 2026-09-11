@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王鳴臣
 cbdb_id: 126785
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -159,7 +159,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_vjfPj-e7D_6O-uYI6IeOSW
+        subject_person_id: p_gYn21nxF9d7iJNFwbu2Rnf
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_1oeS3ozES1xNf6Ww7VNcgB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q8aRUZLn-WhtdEYTfCHjJM
+          claim_id: c_vjfPj-e7D_6O-uYI6IeOSW
+          source_id: s_KBqF5TGVsWibwKkW8Cetxg
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第五十三名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_KBqF5TGVsWibwKkW8Cetxg
+            source_type: api_record
+            title: 中国历代人物传记资料库：蕭氏(王鳴臣妻)（CBDB 306738）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306738&o=json
+            external_identifier: CBDB:306738
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_1oeS3ozES1xNf6Ww7VNcgB
+        status: active
+        display_name: 蕭氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_HV8SthSQ8N1p06T-QTKTuU
@@ -234,9 +271,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_Y4FNMr5v5UBkNhYB7rhbfs | 王國賜 | accepted |
+| spouses | p_1oeS3ozES1xNf6Ww7VNcgB | 蕭氏 | accepted |
 | ancestors | p_qS7NvXbMFNn76qPYrgmG6D | 王大溪 | accepted |
 | ancestors | p_k34ZxihPVrsTG6XCDpNhfP | 王學漁 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鳴臣（CBDB 126785）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126785&o=json)
+- [中国历代人物传记资料库：蕭氏(王鳴臣妻)（CBDB 306738）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306738&o=json)

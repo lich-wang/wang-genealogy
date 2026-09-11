@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王忠傑
 cbdb_id: 120337
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -90,7 +90,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_MJFyjEVS8MfnU9nABl6Ly2
+        subject_person_id: p_sq13ujdQCKu9HYrusRYfu3
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_JzryqY1MDzkCiDFmHTYKiz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3IKELz267tfAw0_Yf9ADkO
+          claim_id: c_MJFyjEVS8MfnU9nABl6Ly2
+          source_id: s_1SEJPfCPBuZlaqgz-soGfV
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #4063, HuWenKai #338：妻子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1SEJPfCPBuZlaqgz-soGfV
+            source_type: api_record
+            title: 中国历代人物传记资料库：李湘鸞（CBDB 120330）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120330&o=json
+            external_identifier: CBDB:120330
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_JzryqY1MDzkCiDFmHTYKiz
+        status: active
+        display_name: 李湘鸞
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_JzryqY1MDzkCiDFmHTYKiz | 李湘鸞 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：李湘鸞（CBDB 120330）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120330&o=json)
 - [中国历代人物传记资料库：王忠傑（CBDB 120337）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120337&o=json)

@@ -4,7 +4,7 @@ id: p_77xZoKtiK3NRKg79yXDSya
 status: active
 merged_into: null
 display_name: 王璟
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_wpu5fgTcLRkDw40hcrHLVx
+        subject_person_id: p_77xZoKtiK3NRKg79yXDSya
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_iK1Jor2tKSMCw5YwfE1b41
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kdtzFqAVqibSVXQMvyk-8M
+          claim_id: c_wpu5fgTcLRkDw40hcrHLVx
+          source_id: s_4WFbBs4anY5vNvAP_sqKjc
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第三甲第六十一名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4WFbBs4anY5vNvAP_sqKjc
+            source_type: api_record
+            title: 中国历代人物传记资料库：劉氏(王璟妻)（CBDB 237460）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237460&o=json
+            external_identifier: CBDB:237460
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_iK1Jor2tKSMCw5YwfE1b41
+        status: active
+        display_name: 劉氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_40jwIpLAYSkwZaPyWLMOi0
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_xPMcLgCawstxHLrk7HL4Nq | 王本立 | accepted |
+| spouses | p_iK1Jor2tKSMCw5YwfE1b41 | 劉氏 | accepted |
 | ancestors | p_eHcMXDF8n8NPXXvbJdueDD | 王文 | accepted |
 | ancestors | p_oWKPrdFpk8uWf8iXGuzqMB | 王原清 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：劉氏(王璟妻)（CBDB 237460）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237460&o=json)
 - [中国历代人物传记资料库：王璟（CBDB 207889）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207889&o=json)

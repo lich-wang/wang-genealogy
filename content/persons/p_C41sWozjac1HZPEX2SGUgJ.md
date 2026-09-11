@@ -4,7 +4,7 @@ id: p_C41sWozjac1HZPEX2SGUgJ
 status: active
 merged_into: null
 display_name: 王朝佐
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_iCucFT5-ZN-T4KFCDzbTbM
+        subject_person_id: p_C41sWozjac1HZPEX2SGUgJ
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_tEnE1FhNsW61uxMtFrPHQq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EpLh_yPjEKEZFCniuhtTMX
+          claim_id: c_iCucFT5-ZN-T4KFCDzbTbM
+          source_id: s_4nEb0JdxB4GysTqqu5WnZy
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第二甲第四十七名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4nEb0JdxB4GysTqqu5WnZy
+            source_type: api_record
+            title: 中国历代人物传记资料库：蔡氏(王朝佐妻)（CBDB 267257）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267257&o=json
+            external_identifier: CBDB:267257
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_tEnE1FhNsW61uxMtFrPHQq
+        status: active
+        display_name: 蔡氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_0D3L_BiJDFQFX_MBHYivLX
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_Y1J494C1wxoCGbqWhaRwAG | 王平生 | accepted |
+| spouses | p_tEnE1FhNsW61uxMtFrPHQq | 蔡氏 | accepted |
 | ancestors | p_eJ2p8jByLja8epc6npZaLy | 王守正 | accepted |
 | ancestors | p_MS2BC7Md2q6hnAWb9KKCiV | 王旻 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：蔡氏(王朝佐妻)（CBDB 267257）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267257&o=json)
 - [中国历代人物传记资料库：王朝佐（CBDB 201113）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201113&o=json)

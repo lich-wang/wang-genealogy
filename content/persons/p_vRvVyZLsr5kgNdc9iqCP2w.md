@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_vRvVyZLsr5kgNdc9iqCP2w
+status: active
+merged_into: null
+display_name: 林氏
+revision: 1
+cbdb_id: 135071
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_8SSG6CtPTtjRtjA6KM_wN8
+        subject_person_id: p_vRvVyZLsr5kgNdc9iqCP2w
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 林氏
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iMf606qSIPRqw8HPDUrRLs
+          claim_id: c_8SSG6CtPTtjRtjA6KM_wN8
+          source_id: s_BMe6OzrUB1WCqHBgFPBHOZ
+          stance: supports
+          locator: CBDB:135071
+          quotation: null
+          interpretation_note: CBDB 明确记录的王亮功配偶
+          source: &a1
+            id: s_BMe6OzrUB1WCqHBgFPBHOZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：林氏(王亮功妻)（CBDB 135071）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135071&o=json
+            external_identifier: CBDB:135071
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses:
+    - claim:
+        id: c_J-mMjfriYyFxf31sWr-VMr
+        subject_person_id: p_ME2jsgBkJ6bMketskkKisN
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_vRvVyZLsr5kgNdc9iqCP2w
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TYbiayaDUOTm67UQ-AUsSY
+          claim_id: c_J-mMjfriYyFxf31sWr-VMr
+          source_id: s_BMe6OzrUB1WCqHBgFPBHOZ
+          stance: supports
+          locator: 紹興十八年同年小錄，132：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ME2jsgBkJ6bMketskkKisN
+        status: active
+        display_name: 王亮功
+        merged_into_person_id: null
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 林氏
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 林氏 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+| spouses | p_ME2jsgBkJ6bMketskkKisN | 王亮功 | accepted |
+
+## 外部来源
+
+- [中国历代人物传记资料库：林氏(王亮功妻)（CBDB 135071）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135071&o=json)

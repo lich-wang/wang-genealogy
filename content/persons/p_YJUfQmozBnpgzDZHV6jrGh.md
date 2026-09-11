@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 李氏
 cbdb_id: 140322
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -223,6 +223,80 @@ relationships:
         status: active
         display_name: 王将勗
         merged_into_person_id: null
+    - claim:
+        id: c_ZBTdmljsVFfjJpDCuKXH6v
+        subject_person_id: p_YJUfQmozBnpgzDZHV6jrGh
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_gYS6esox4kiQRvfGd9VMFM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_o56zDpILC5p0LOB5Oo1myI
+          claim_id: c_ZBTdmljsVFfjJpDCuKXH6v
+          source_id: s_R0iXDWk7pHcrcqIZQiVSzj
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 47：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_R0iXDWk7pHcrcqIZQiVSzj
+            source_type: api_record
+            title: 中国历代人物传记资料库：馬煒（CBDB 151254）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151254&o=json
+            external_identifier: CBDB:151254
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_gYS6esox4kiQRvfGd9VMFM
+        status: active
+        display_name: 馬煒
+        merged_into_person_id: null
+    - claim:
+        id: c_Y9kHXasZcC-4ksDuCuRb6w
+        subject_person_id: p_YJUfQmozBnpgzDZHV6jrGh
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_QCYzKg9uP932P5Ybf9j3aw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qXGZXzoRu5yFEsS6_iufu5
+          claim_id: c_Y9kHXasZcC-4ksDuCuRb6w
+          source_id: s_tNdo-3ykFFcMauiuxp69jX
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_tNdo-3ykFFcMauiuxp69jX
+            source_type: api_record
+            title: 中国历代人物传记资料库：温煒（CBDB 176074）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=176074&o=json
+            external_identifier: CBDB:176074
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_QCYzKg9uP932P5Ybf9j3aw
+        status: active
+        display_name: 温煒
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -246,11 +320,15 @@ relationships:
 | spouses | p_cDKZ9odWpBmQ6RH3xs3UzM | 王勗 | accepted |
 | spouses | p_cDKZ9odWpBmQ6RH3xs3UzM | 王勗 | accepted |
 | spouses | p_ELimFJDuCmQgYQUz8JcHYB | 王将勗 | accepted |
+| spouses | p_gYS6esox4kiQRvfGd9VMFM | 馬煒 | accepted |
+| spouses | p_QCYzKg9uP932P5Ybf9j3aw | 温煒 | accepted |
 
 ## 外部来源
 
 - [维基数据：李氏（Q65802952）](https://www.wikidata.org/wiki/Q65802952)
 - [维基数据：王将勗（Q45510314）](https://www.wikidata.org/wiki/Q45510314)
+- [中国历代人物传记资料库：馬煒（CBDB 151254）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151254&o=json)
 - [中国历代人物传记资料库：王勗（CBDB 151255）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151255&o=json)
+- [中国历代人物传记资料库：温煒（CBDB 176074）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=176074&o=json)
 - [CBDB 中国历代人物传记资料库：李氏（140322）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140322&o=json)
 - [CBDB 中国历代人物传记资料库：王將勗（194048）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=194048&o=json)

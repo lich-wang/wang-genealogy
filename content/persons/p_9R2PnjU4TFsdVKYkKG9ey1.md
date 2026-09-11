@@ -4,7 +4,7 @@ id: p_9R2PnjU4TFsdVKYkKG9ey1
 status: active
 merged_into: null
 display_name: 王師
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -236,7 +236,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_vP2pZ-GqIBKaMadqGDlgUB
+        subject_person_id: p_9R2PnjU4TFsdVKYkKG9ey1
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_Dwv6B5WWLjE9zkYK45FtM7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CbJqXV9CDaVLjxdD0Psis2
+          claim_id: c_vP2pZ-GqIBKaMadqGDlgUB
+          source_id: s_bj1v9UiFmY05Am0BsqLnvS
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 33：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_bj1v9UiFmY05Am0BsqLnvS
+            source_type: api_record
+            title: 中国历代人物传记资料库：楊氏(王師妻)（CBDB 151191）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151191&o=json
+            external_identifier: CBDB:151191
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Dwv6B5WWLjE9zkYK45FtM7
+        status: active
+        display_name: 楊氏
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -289,8 +326,10 @@ relationships:
 | children | p_qXxx9xLmZeLfa2PxAvYBgF | 王福 | accepted |
 | children | p_gHkFYbMpMFGLHwHzMxr2aZ | 王藏 | accepted |
 | children | p_Co2DGBdwu7WgzJPTb77dhb | 王思慶 | accepted |
+| spouses | p_Dwv6B5WWLjE9zkYK45FtM7 | 楊氏 | accepted |
 | descendants | p_uDYRKyMyfPzTyBM5v6wNw4 | 王齊由 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王師（CBDB 140308）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140308&o=json)
+- [中国历代人物传记资料库：楊氏(王師妻)（CBDB 151191）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151191&o=json)

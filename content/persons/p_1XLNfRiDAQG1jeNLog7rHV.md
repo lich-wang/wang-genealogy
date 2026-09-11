@@ -4,7 +4,7 @@ id: p_1XLNfRiDAQG1jeNLog7rHV
 status: active
 merged_into: null
 display_name: 王煥
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_rhMwuMUAIX3B2UBFO04_9P
+        subject_person_id: p_1XLNfRiDAQG1jeNLog7rHV
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_JZ9sa9wQLMVqCAy8XLfNy6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ayw5sPkt9pafidcIjilHpr
+          claim_id: c_rhMwuMUAIX3B2UBFO04_9P
+          source_id: s_2mf35hMwizD_w_0ayy5rMk
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第二百九十六名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_2mf35hMwizD_w_0ayy5rMk
+            source_type: api_record
+            title: 中国历代人物传记资料库：錢氏(王煥妻)（CBDB 212078）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212078&o=json
+            external_identifier: CBDB:212078
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_JZ9sa9wQLMVqCAy8XLfNy6
+        status: active
+        display_name: 錢氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_FF7_UarYgh67z2y8eu9iUR
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_jknx5y8EMt4htEH5Jaj242 | 王獻箴 | accepted |
+| spouses | p_JZ9sa9wQLMVqCAy8XLfNy6 | 錢氏 | accepted |
 | ancestors | p_F4C3RHk7ajq8Arq9LumZLd | 王勝鑑 | accepted |
 | ancestors | p_CFFUHRDXtKo3BiEuj6axMj | 王祺 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：錢氏(王煥妻)（CBDB 212078）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212078&o=json)
 - [中国历代人物传记资料库：王煥（CBDB 206011）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206011&o=json)

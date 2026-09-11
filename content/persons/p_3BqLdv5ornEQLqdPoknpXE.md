@@ -4,7 +4,7 @@ id: p_3BqLdv5ornEQLqdPoknpXE
 status: active
 merged_into: null
 display_name: 王屏
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_0SoUqE7Bs8AlPVTUrgj2dJ
+        subject_person_id: p_3BqLdv5ornEQLqdPoknpXE
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_o8c4bC8L1A92CoVxkpYjmr
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_l8Mz7vIpGWN5MHGQGTURcr
+          claim_id: c_0SoUqE7Bs8AlPVTUrgj2dJ
+          source_id: s_r0-RjdMysDNBAMv5oemWA1
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第七十四名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_r0-RjdMysDNBAMv5oemWA1
+            source_type: api_record
+            title: 中国历代人物传记资料库：趙氏(王屏妻)（CBDB 252360）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252360&o=json
+            external_identifier: CBDB:252360
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_o8c4bC8L1A92CoVxkpYjmr
+        status: active
+        display_name: 趙氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_eRDIwMGOv6eKKb0Bz7_ZMj
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_xG6Uatb4hvJpHFBwk8TY1u | 王祐 | accepted |
+| spouses | p_o8c4bC8L1A92CoVxkpYjmr | 趙氏 | accepted |
 | ancestors | p_cCQdbNu8vKtiv9UU7u2aGs | 王彥暉 | accepted |
 | ancestors | p_Dufhb5NoCZnQdaJkaB21gq | 王璘 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王屏（CBDB 199995）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199995&o=json)
+- [中国历代人物传记资料库：趙氏(王屏妻)（CBDB 252360）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252360&o=json)

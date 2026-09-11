@@ -4,7 +4,7 @@ id: p_m1KPPjDFuB77sgosg8dB61
 status: active
 merged_into: null
 display_name: 王有為
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_fo5vPbF2C8w5Bf8wq4149J
+        subject_person_id: p_m1KPPjDFuB77sgosg8dB61
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_8p8i7Z5DnFRpA5N3rwc9Uu
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qHEwMSge3CPbuNpSXrMTYw
+          claim_id: c_fo5vPbF2C8w5Bf8wq4149J
+          source_id: s_pTPMWo7IU3UPqK27qpyceS
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第二甲第五十二名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_pTPMWo7IU3UPqK27qpyceS
+            source_type: api_record
+            title: 中国历代人物传记资料库：何氏(王有為妻)（CBDB 309078）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309078&o=json
+            external_identifier: CBDB:309078
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8p8i7Z5DnFRpA5N3rwc9Uu
+        status: active
+        display_name: 何氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_sd0YGXVMt4mnOT0uaRgXnI
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_XiFFgCxGPLXnJMQFHkL5MX | 王鵬 | accepted |
+| spouses | p_8p8i7Z5DnFRpA5N3rwc9Uu | 何氏 | accepted |
 | ancestors | p_9nLDDR64tTe6Yf8U9FsNKb | 王紃 | accepted |
 | ancestors | p_ea1c741tbGsFRoxmHPKYXv | 王彥璋 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：何氏(王有為妻)（CBDB 309078）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309078&o=json)
 - [中国历代人物传记资料库：王有為（CBDB 203722）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203722&o=json)

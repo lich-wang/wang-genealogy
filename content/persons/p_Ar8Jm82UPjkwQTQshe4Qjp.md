@@ -4,7 +4,7 @@ id: p_Ar8Jm82UPjkwQTQshe4Qjp
 status: active
 merged_into: null
 display_name: 王和
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_hg1Aze9cBplAHczt6SvAtb
+        subject_person_id: p_Ar8Jm82UPjkwQTQshe4Qjp
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_6e5n3vfAdWxuDaRkJDj1gr
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qSF9Jj5CwR2B35pIJ_8xdP
+          claim_id: c_hg1Aze9cBplAHczt6SvAtb
+          source_id: s_4Gqmp4AbwWdo0JOkI1V_sr
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第一百零六名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4Gqmp4AbwWdo0JOkI1V_sr
+            source_type: api_record
+            title: 中国历代人物传记资料库：高氏(王和妻)（CBDB 252677）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252677&o=json
+            external_identifier: CBDB:252677
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_6e5n3vfAdWxuDaRkJDj1gr
+        status: active
+        display_name: 高氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c__2boz_jAaaLEkP-vc0EIqO
@@ -176,9 +213,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_BYDSNUPk7U99Wpw23cKFea | 王政 | accepted |
+| spouses | p_6e5n3vfAdWxuDaRkJDj1gr | 高氏 | accepted |
 | ancestors | p_ECAKHMRDs8Na2Nz3MQ9W4z | 王敬先 | accepted |
 | ancestors | p_bf9NCQmSwQEP6EKTE7LQQ5 | 王斌 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：高氏(王和妻)（CBDB 252677）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252677&o=json)
 - [中国历代人物传记资料库：王和（CBDB 126584）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126584&o=json)

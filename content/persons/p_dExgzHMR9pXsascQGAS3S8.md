@@ -4,7 +4,7 @@ id: p_dExgzHMR9pXsascQGAS3S8
 status: active
 merged_into: null
 display_name: 王景曜
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -184,7 +184,81 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_Sd1as67VPKmVAEnrPq2QR-
+        subject_person_id: p_dExgzHMR9pXsascQGAS3S8
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_Dr8mC2bH23nq92gbMQ56tL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MFAqavXSRELcPC9oev5Qpn
+          claim_id: c_Sd1as67VPKmVAEnrPq2QR-
+          source_id: s_t7PsG-XPS4t9B_2S9sFcsx
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 413：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_t7PsG-XPS4t9B_2S9sFcsx
+            source_type: api_record
+            title: 中国历代人物传记资料库：李氏(王景曜妻)（CBDB 152719）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152719&o=json
+            external_identifier: CBDB:152719
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Dr8mC2bH23nq92gbMQ56tL
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
+    - claim:
+        id: c_CnN64SmnYYeh6ijkw8jRsh
+        subject_person_id: p_dExgzHMR9pXsascQGAS3S8
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_ZgwMrGpb6HxXEWq5C3FHhE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bMS0SkRMtL5iT7j1Gs28bJ
+          claim_id: c_CnN64SmnYYeh6ijkw8jRsh
+          source_id: s_ukOOtAq3Hz3dkJ5lYNn9Ns
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 413：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ukOOtAq3Hz3dkJ5lYNn9Ns
+            source_type: api_record
+            title: 中国历代人物传记资料库：高氏(王景曜妻)（CBDB 152720）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152720&o=json
+            external_identifier: CBDB:152720
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ZgwMrGpb6HxXEWq5C3FHhE
+        status: active
+        display_name: 高氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -209,7 +283,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_qSBAn4LkCdEVnmE9AJKKUb | 王排須 | accepted |
 | children | p_EJ7K5yC1dfEgFXSMbvj8zT | 王右肱 | accepted |
+| spouses | p_Dr8mC2bH23nq92gbMQ56tL | 李氏 | accepted |
+| spouses | p_ZgwMrGpb6HxXEWq5C3FHhE | 高氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：高氏(王景曜妻)（CBDB 152720）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152720&o=json)
+- [中国历代人物传记资料库：李氏(王景曜妻)（CBDB 152719）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152719&o=json)
 - [中国历代人物传记资料库：王景曜（CBDB 140586）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140586&o=json)

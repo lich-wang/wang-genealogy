@@ -4,7 +4,7 @@ id: p_3h5g9NkXDMotNKCta4dEHB
 status: active
 merged_into: null
 display_name: 王秉彝
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_Nala4sU28JG2TyIorgdeSa
+        subject_person_id: p_3h5g9NkXDMotNKCta4dEHB
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_ARWLBiAH83mGQZaM2NfyK3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GILCkDnHeZOoc7HNBEpF9v
+          claim_id: c_Nala4sU28JG2TyIorgdeSa
+          source_id: s_NCj9eiGNLrXYdYa_aHwspq
+          stance: supports
+          locator: 天順元年進士登科錄:一卷，第三甲第一百五十五名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_NCj9eiGNLrXYdYa_aHwspq
+            source_type: api_record
+            title: 中国历代人物传记资料库：杜氏(王秉彝妻)（CBDB 305739）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305739&o=json
+            external_identifier: CBDB:305739
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ARWLBiAH83mGQZaM2NfyK3
+        status: active
+        display_name: 杜氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_RdMrJoKt89cNVK0Gdi27mG
@@ -176,9 +213,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_KwDq9LQwPdZFWKPBa6KCCm | 王暹 | accepted |
+| spouses | p_ARWLBiAH83mGQZaM2NfyK3 | 杜氏 | accepted |
 | ancestors | p_yYTE6LySnMjNoTFuLoRZx7 | 王道隆 | accepted |
 | ancestors | p_3r21ZhGz6JR2kZoJtUp6Dd | 王從義 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：杜氏(王秉彝妻)（CBDB 305739）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305739&o=json)
 - [中国历代人物传记资料库：王秉彝（CBDB 126588）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126588&o=json)

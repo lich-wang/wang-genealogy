@@ -4,7 +4,7 @@ id: p_7j83XKHhJr8JnHARH8PeYg
 status: active
 merged_into: null
 display_name: 王弼
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_VV2VQ0NgZBe8ufoVXBq3mm
+        subject_person_id: p_7j83XKHhJr8JnHARH8PeYg
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_zP5CdHNFsgFxbu7KfWeCUQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ixypQeFul2BaT8-GPDgOpC
+          claim_id: c_VV2VQ0NgZBe8ufoVXBq3mm
+          source_id: s_FGFI33nin_SCIOUKWouQ-f
+          stance: supports
+          locator: 宣德八年進士登科錄:一卷，第二甲第十三名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FGFI33nin_SCIOUKWouQ-f
+            source_type: api_record
+            title: 中国历代人物传记资料库：徐氏(王弼妻)（CBDB 231057）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231057&o=json
+            external_identifier: CBDB:231057
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_zP5CdHNFsgFxbu7KfWeCUQ
+        status: active
+        display_name: 徐氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_L8r8XO_Ahtq4A0LELA9tQc
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_HM6CQSrCCHQHgQcCZu6Jrx | 王道昇 | accepted |
+| spouses | p_zP5CdHNFsgFxbu7KfWeCUQ | 徐氏 | accepted |
 | ancestors | p_CJxNevghHWDgVDRMMrkHvk | 王義昭 | accepted |
 | ancestors | p_mQnEWgWNrxoPnGCySVmLJ4 | 王禮和 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王弼（CBDB 207304）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207304&o=json)
+- [中国历代人物传记资料库：徐氏(王弼妻)（CBDB 231057）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231057&o=json)

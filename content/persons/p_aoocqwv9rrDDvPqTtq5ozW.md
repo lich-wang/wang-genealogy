@@ -4,7 +4,7 @@ id: p_aoocqwv9rrDDvPqTtq5ozW
 status: active
 merged_into: null
 display_name: 王弁
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_R0SDWSa7AKvNfWH9hrClE6
+        subject_person_id: p_aoocqwv9rrDDvPqTtq5ozW
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_3ZBFnXj6nK21XoEDDtCLMn
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Wj-r0W34SU1G_DECz2uhEm
+          claim_id: c_R0SDWSa7AKvNfWH9hrClE6
+          source_id: s_1xZDuj4vcm8UuDZ5S8_jid
+          stance: supports
+          locator: 成化八年進士登科錄:一卷，第三甲第一百三十二名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1xZDuj4vcm8UuDZ5S8_jid
+            source_type: api_record
+            title: 中国历代人物传记资料库：劉氏(王弁妻)（CBDB 247212）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247212&o=json
+            external_identifier: CBDB:247212
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3ZBFnXj6nK21XoEDDtCLMn
+        status: active
+        display_name: 劉氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_G4dBwfLPJAh6VE3U0j1Gs4
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_PASiCHQs3ZcH2e9PXEScwH | 王效 | accepted |
+| spouses | p_3ZBFnXj6nK21XoEDDtCLMn | 劉氏 | accepted |
 | ancestors | p_1iLNF8d3FFcTQi9EKGEeud | 王欽德 | accepted |
 | ancestors | p_QJAsRGog2h7dd3f8oMy7iV | 王孟彝 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：劉氏(王弁妻)（CBDB 247212）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247212&o=json)
 - [中国历代人物传记资料库：王弁（CBDB 199608）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199608&o=json)

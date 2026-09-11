@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王御
 cbdb_id: 54316
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -90,7 +90,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_-PniC8bS24gaL-tQCjUmsr
+        subject_person_id: p_D3a6ys1WW9Fr6DZXPLMYia
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_ErxZwV2BfCn4t752YkW9gq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4gOCB28C5GiWNOMLzVbSJF
+          claim_id: c_-PniC8bS24gaL-tQCjUmsr
+          source_id: s_a0xiPiM-vOeCnZ9CMciusn
+          stance: supports
+          locator: CBDB 双向互证（妻子 汪紉）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_a0xiPiM-vOeCnZ9CMciusn
+            source_type: api_record
+            title: 中国历代人物传记资料库：汪紉（CBDB 54312）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54312&o=json
+            external_identifier: CBDB:54312
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ErxZwV2BfCn4t752YkW9gq
+        status: active
+        display_name: 汪紉
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_ErxZwV2BfCn4t752YkW9gq | 汪紉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：汪紉（CBDB 54312）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54312&o=json)
 - [中国历代人物传记资料库：王御（CBDB 54316）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54316&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王堯善
 cbdb_id: 26316
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -90,7 +90,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_ZCbG1_8OaefhEx_pQOaMM1
+        subject_person_id: p_moAmixdqSMn4ZxobbvbR7J
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_jWx75rapLkYprHwP2iDeee
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_T6AFgu2u2qqaZ5U9RmRWBV
+          claim_id: c_ZCbG1_8OaefhEx_pQOaMM1
+          source_id: s_QepNa7Pgrlkvsj2TANAf6f
+          stance: supports
+          locator: CBDB 双向互证（妻子 張太君）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_QepNa7Pgrlkvsj2TANAf6f
+            source_type: api_record
+            title: 中国历代人物传记资料库：張太君（CBDB 34086）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34086&o=json
+            external_identifier: CBDB:34086
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_jWx75rapLkYprHwP2iDeee
+        status: active
+        display_name: 張太君
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_q9pgx1xIxfuHffYIYHWmR8
@@ -148,9 +185,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_jWx75rapLkYprHwP2iDeee | 張太君 | accepted |
 | ancestors | p_3FwfmVLuawARCoZyhyo5mg | 王審琦 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王審琦（CBDB 3976）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3976&o=json)
 - [中国历代人物传记资料库：王堯善（CBDB 26316）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26316&o=json)
+- [中国历代人物传记资料库：張太君（CBDB 34086）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34086&o=json)

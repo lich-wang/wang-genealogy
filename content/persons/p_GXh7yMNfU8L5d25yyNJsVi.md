@@ -4,7 +4,7 @@ id: p_GXh7yMNfU8L5d25yyNJsVi
 status: active
 merged_into: null
 display_name: 王濟
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_KQdgrCNIngNdj3P-NEu1Gu
+        subject_person_id: p_GXh7yMNfU8L5d25yyNJsVi
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_ZeetPTLusJfHw751DDAAaW
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cpOyMyzcbn4-jFr7zFLayP
+          claim_id: c_KQdgrCNIngNdj3P-NEu1Gu
+          source_id: s_2BbzFTAal2pyxRfsh6lto9
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第七十七名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_2BbzFTAal2pyxRfsh6lto9
+            source_type: api_record
+            title: 中国历代人物传记资料库：李氏(王濟妻)（CBDB 259343）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259343&o=json
+            external_identifier: CBDB:259343
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ZeetPTLusJfHw751DDAAaW
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_p8fER1LBeVFoUiqtvOcu52
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_Yjvr1HxMf73RSYqrbeaxV5 | 王能 | accepted |
+| spouses | p_ZeetPTLusJfHw751DDAAaW | 李氏 | accepted |
 | ancestors | p_N4oCbP2dDsJQJUqXk7Hx9D | 王大 | accepted |
 | ancestors | p_LhcwXYvKdq6fztHdxjji7e | 王顯 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：李氏(王濟妻)（CBDB 259343）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259343&o=json)
 - [中国历代人物传记资料库：王濟（CBDB 200530）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200530&o=json)

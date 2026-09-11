@@ -4,7 +4,7 @@ id: p_481kQQwAFrYze548qXRkp6
 status: active
 merged_into: null
 display_name: 王章
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_W8E3RoqQMPm5Gr4k9kjV8-
+        subject_person_id: p_481kQQwAFrYze548qXRkp6
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_RV2Sqgm1uXEGoW8rEAG3gK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9uKUcfhmchTG5ydhL-wHpP
+          claim_id: c_W8E3RoqQMPm5Gr4k9kjV8-
+          source_id: s_UYB4zagTxQTgUz7jpmbPvI
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，王章、王虔、王珣墓誌：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_UYB4zagTxQTgUz7jpmbPvI
+            source_type: api_record
+            title: 中国历代人物传记资料库：李氏(王章妻)（CBDB 683880）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=683880&o=json
+            external_identifier: CBDB:683880
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_RV2Sqgm1uXEGoW8rEAG3gK
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -149,9 +186,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_RV2Sqgm1uXEGoW8rEAG3gK | 李氏 | accepted |
 | descendants | p_baPx7xrKQVVrCaN9KsE9x5 | 王虔 | accepted |
 | descendants | p_5aSsEU9814DJHEv44h4j5R | 王珣 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：李氏(王章妻)（CBDB 683880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=683880&o=json)
 - [中国历代人物传记资料库：王章（CBDB 683877）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=683877&o=json)

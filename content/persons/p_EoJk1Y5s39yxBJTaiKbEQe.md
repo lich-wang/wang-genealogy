@@ -4,7 +4,7 @@ id: p_EoJk1Y5s39yxBJTaiKbEQe
 status: active
 merged_into: null
 display_name: 王昊
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_pIHC5k19JOzov2trBE7u3g
+        subject_person_id: p_EoJk1Y5s39yxBJTaiKbEQe
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_aSdPG8ycM3vnoeBgDgVbHK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LuehjmmVOdrM8oqItOUxZv
+          claim_id: c_pIHC5k19JOzov2trBE7u3g
+          source_id: s_Sm6Sbv_V3Zn8I8rtkOfPjV
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第九十四名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Sm6Sbv_V3Zn8I8rtkOfPjV
+            source_type: api_record
+            title: 中国历代人物传记资料库：許氏(王昊妻)（CBDB 265671）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265671&o=json
+            external_identifier: CBDB:265671
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_aSdPG8ycM3vnoeBgDgVbHK
+        status: active
+        display_name: 許氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_kYxYm5jeDHlOwRWUIvvoXb
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_URk2BrLDKqiyhHZQPHt91g | 王貴 | accepted |
+| spouses | p_aSdPG8ycM3vnoeBgDgVbHK | 許氏 | accepted |
 | ancestors | p_evzD6qcskC5Si9w9ieb42z | 王思誠 | accepted |
 | ancestors | p_JyC3UvQ5oVNT52HSy7kSZc | 王添勝 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王昊（CBDB 200990）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200990&o=json)
+- [中国历代人物传记资料库：許氏(王昊妻)（CBDB 265671）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265671&o=json)

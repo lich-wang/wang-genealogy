@@ -4,7 +4,7 @@ id: p_XxZ2iw5GJ8V5KZzvCDoyCb
 status: active
 merged_into: null
 display_name: 王淨
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_t8Vrk0leKUvXysBL69BKh6
+        subject_person_id: p_XxZ2iw5GJ8V5KZzvCDoyCb
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_W4nh58zswmJ97A4idB5ywj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ziU9NygginJGDjfpufEKMY
+          claim_id: c_t8Vrk0leKUvXysBL69BKh6
+          source_id: s_fh1eU3tQo5TzOKrR8jqRB0
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Yonghui29：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_fh1eU3tQo5TzOKrR8jqRB0
+            source_type: api_record
+            title: 中国历代人物传记资料库：高士明（CBDB 162065）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162065&o=json
+            external_identifier: CBDB:162065
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_W4nh58zswmJ97A4idB5ywj
+        status: active
+        display_name: 高士明
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -182,7 +219,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_HevG7fhUJLFKNL48eqNtsn | 王通 | accepted |
+| spouses | p_W4nh58zswmJ97A4idB5ywj | 高士明 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：高士明（CBDB 162065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162065&o=json)
 - [中国历代人物传记资料库：王淨（CBDB 142434）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142434&o=json)

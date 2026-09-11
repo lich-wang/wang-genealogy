@@ -4,7 +4,7 @@ id: p_LQSpaYuFABavSyUN99eFKH
 status: active
 merged_into: null
 display_name: 王芬
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_5d7RrCdEio226tdHS4ZKqJ
+        subject_person_id: p_LQSpaYuFABavSyUN99eFKH
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_A7zgUdKyG24bM3SwAFQ9iY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dSUAg7F3fth-bPl3V3mpKI
+          claim_id: c_5d7RrCdEio226tdHS4ZKqJ
+          source_id: s_7T8QLcG3KP8XqsJhCEj9Uy
+          stance: supports
+          locator: CBDB 双向互证（丈夫 唐壽椿）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7T8QLcG3KP8XqsJhCEj9Uy
+            source_type: api_record
+            title: 中国历代人物传记资料库：唐壽椿（CBDB 56415）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56415&o=json
+            external_identifier: CBDB:56415
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_A7zgUdKyG24bM3SwAFQ9iY
+        status: active
+        display_name: 唐壽椿
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_A7zgUdKyG24bM3SwAFQ9iY | 唐壽椿 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：唐壽椿（CBDB 56415）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56415&o=json)
 - [中国历代人物传记资料库：王芬（CBDB 56413）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56413&o=json)

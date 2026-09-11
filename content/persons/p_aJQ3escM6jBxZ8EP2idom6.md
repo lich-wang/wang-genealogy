@@ -4,7 +4,7 @@ id: p_aJQ3escM6jBxZ8EP2idom6
 status: active
 merged_into: null
 display_name: 王玉汝
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -208,7 +208,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_N01bXvbsuZIRF0v_AzLa8v
+        subject_person_id: p_aJQ3escM6jBxZ8EP2idom6
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_WLy46FT22LhNj15c6qQBvE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZqsOJkiI6NaWpJvBckD4mA
+          claim_id: c_N01bXvbsuZIRF0v_AzLa8v
+          source_id: s_Ao7yvkBQNsGTaUG-YoVoez
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第二百零七名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Ao7yvkBQNsGTaUG-YoVoez
+            source_type: api_record
+            title: 中国历代人物传记资料库：鄧氏(王玉汝妻)（CBDB 294541）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294541&o=json
+            external_identifier: CBDB:294541
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_WLy46FT22LhNj15c6qQBvE
+        status: active
+        display_name: 鄧氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_JSGLjUB3q0UbSV2W0Gg1B8
@@ -286,9 +323,11 @@ relationships:
 | children | p_i4PxeuDCARRognnmhzQLN6 | 王所 | accepted |
 | children | p_bbRX9VDen2ibv9yFfhqCNU | 王前 | accepted |
 | children | p_eB9fimtnJCXW45zJ6gbMuD | 王在 | accepted |
+| spouses | p_WLy46FT22LhNj15c6qQBvE | 鄧氏 | accepted |
 | ancestors | p_RkUXHPuBh1QAWmMcbEHgCo | 王純 | accepted |
 | ancestors | p_e2QAybS7Rx5BKwEFZeMJDa | 王貞 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：鄧氏(王玉汝妻)（CBDB 294541）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294541&o=json)
 - [中国历代人物传记资料库：王玉汝（CBDB 202795）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202795&o=json)

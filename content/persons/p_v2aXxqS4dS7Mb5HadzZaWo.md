@@ -4,7 +4,7 @@ id: p_v2aXxqS4dS7Mb5HadzZaWo
 status: active
 merged_into: null
 display_name: 王騊
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -232,7 +232,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_QfXkr9VsHOmcKVUcZttWEI
+        subject_person_id: p_v2aXxqS4dS7Mb5HadzZaWo
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_FGzxnyy6AzAGgNhRhSW4Gz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6PBwvyj12fl_b-32KKeZ37
+          claim_id: c_QfXkr9VsHOmcKVUcZttWEI
+          source_id: s_pOH7y_9_HG1i__OdA8MEa1
+          stance: supports
+          locator: CBDB 双向互证（妻子 何道凈(王騊妻)）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_pOH7y_9_HG1i__OdA8MEa1
+            source_type: api_record
+            title: 中国历代人物传记资料库：何道凈(王騊妻)（CBDB 376048）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=376048&o=json
+            external_identifier: CBDB:376048
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_FGzxnyy6AzAGgNhRhSW4Gz
+        status: active
+        display_name: 何道凈
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -258,9 +295,11 @@ relationships:
 | parents | p_iHyn3vCZrGTDZpwukvNV36 | 王信 | accepted |
 | children | p_7DWPWiMKycFpMC1myLjX8S | 王琰 | accepted |
 | children | p_P73D7Uet6EDsP44jQG3Nyi | 王珽 | accepted |
+| spouses | p_FGzxnyy6AzAGgNhRhSW4Gz | 何道凈 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：何道凈(王騊妻)（CBDB 376048）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=376048&o=json)
 - [中国历代人物传记资料库：王騊（CBDB 339453）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=339453&o=json)
 - [中国历代人物传记资料库：王珽（CBDB 555474）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555474&o=json)
 - [中国历代人物传记资料库：王琰（CBDB 555477）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555477&o=json)

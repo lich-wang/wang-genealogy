@@ -4,7 +4,7 @@ id: p_buHPPD7o3Zg7opBbsnKMQ6
 status: active
 merged_into: null
 display_name: 王公素
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -314,7 +314,81 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_4WYWlGQOiY6D4ZxTeC0HkB
+        subject_person_id: p_buHPPD7o3Zg7opBbsnKMQ6
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_AJfn41DW2PAbcBNt5Ao2te
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wNWGl_UFpbO91dgR1SEiYo
+          claim_id: c_4WYWlGQOiY6D4ZxTeC0HkB
+          source_id: s__j3x3mcXAMxxq_aL0c6tZH
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s__j3x3mcXAMxxq_aL0c6tZH
+            source_type: api_record
+            title: 中国历代人物传记资料库：張氏(張允言女)（CBDB 143629）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143629&o=json
+            external_identifier: CBDB:143629
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_AJfn41DW2PAbcBNt5Ao2te
+        status: active
+        display_name: 張氏
+        merged_into_person_id: null
+    - claim:
+        id: c_CW4s3I7w0VL4b2tXNf8aSQ
+        subject_person_id: p_buHPPD7o3Zg7opBbsnKMQ6
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_GEq47ajcqPXR37HJEZ31yD
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gy3RlgIuoWrQEbiq0KqpJ6
+          claim_id: c_CW4s3I7w0VL4b2tXNf8aSQ
+          source_id: s_bOZoc-JnWGOePy923TOZNY
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dazhong 148：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_bOZoc-JnWGOePy923TOZNY
+            source_type: api_record
+            title: 中国历代人物传记资料库：高氏(王公素妻)（CBDB 159952）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159952&o=json
+            external_identifier: CBDB:159952
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GEq47ajcqPXR37HJEZ31yD
+        status: active
+        display_name: 高氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_hotDnTRPO_dSrBfedzKyiy
@@ -396,9 +470,13 @@ relationships:
 | children | p_rTKm9gKXpEpEKKBbMQ8SEt | 王惟贊 | accepted |
 | children | p_MWs6EEW7FHY4TkKq1iWt4F | 王惟昪 | accepted |
 | children | p_Jk9Z8FdFoJezZyQrk9vAuQ | 王惟乂 | accepted |
+| spouses | p_AJfn41DW2PAbcBNt5Ao2te | 張氏 | accepted |
+| spouses | p_GEq47ajcqPXR37HJEZ31yD | 高氏 | accepted |
 | ancestors | p_H8RkaRsCSo1M7nJtrw5SYf | 王簡 | accepted |
 | ancestors | p_SA68oKcizV46xwsBi5gVeS | 王瑤 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：高氏(王公素妻)（CBDB 159952）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159952&o=json)
 - [中国历代人物传记资料库：王公素（CBDB 141742）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141742&o=json)
+- [中国历代人物传记资料库：張氏(張允言女)（CBDB 143629）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143629&o=json)

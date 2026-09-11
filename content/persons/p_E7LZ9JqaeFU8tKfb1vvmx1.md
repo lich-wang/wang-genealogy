@@ -4,7 +4,7 @@ id: p_E7LZ9JqaeFU8tKfb1vvmx1
 status: active
 merged_into: null
 display_name: 王大用
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_UDPE_4uf-PuDYKYdy4iH82
+        subject_person_id: p_E7LZ9JqaeFU8tKfb1vvmx1
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_hVFge3x7Gx7qJZZfNAdHQS
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hoPoGQJi6h4CmOKgZs062l
+          claim_id: c_UDPE_4uf-PuDYKYdy4iH82
+          source_id: s_gvcnVpdxCHV4K3WeenDfXq
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第二百三十五名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_gvcnVpdxCHV4K3WeenDfXq
+            source_type: api_record
+            title: 中国历代人物传记资料库：李氏(王大用妻)（CBDB 336880）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336880&o=json
+            external_identifier: CBDB:336880
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_hVFge3x7Gx7qJZZfNAdHQS
+        status: active
+        display_name: 李氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_SR4znXUvSvcx9iLhZjXlL_
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_yLx83RnHcixF3ib2M1YL7h | 王堂 | accepted |
+| spouses | p_hVFge3x7Gx7qJZZfNAdHQS | 李氏 | accepted |
 | ancestors | p_zNUDBjJ3ojX2dNifSToFN7 | 王成 | accepted |
 | ancestors | p_LPVSMU6MUQo1EEcVxJXp52 | 王山 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：李氏(王大用妻)（CBDB 336880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336880&o=json)
 - [中国历代人物传记资料库：王大用（CBDB 205680）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205680&o=json)

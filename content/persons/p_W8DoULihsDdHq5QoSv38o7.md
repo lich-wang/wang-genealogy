@@ -4,7 +4,7 @@ id: p_W8DoULihsDdHq5QoSv38o7
 status: active
 merged_into: null
 display_name: 王廷鑑
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -113,7 +113,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_TeTUxKYKuMNXme96c-HkTR
+        subject_person_id: p_W8DoULihsDdHq5QoSv38o7
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_veDGpbgaxRa1da9P76R4yr
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WJ57T_G2UkQmgb8VhienmY
+          claim_id: c_TeTUxKYKuMNXme96c-HkTR
+          source_id: s_rWJgd4kuL-nQZrHkA5Xdto
+          stance: supports
+          locator: 紹興府志:八十卷，lgid=316843：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_rWJgd4kuL-nQZrHkA5Xdto
+            source_type: api_record
+            title: 中国历代人物传记资料库：范氏(王廷鑑妻)（CBDB 570709）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570709&o=json
+            external_identifier: CBDB:570709
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_veDGpbgaxRa1da9P76R4yr
+        status: active
+        display_name: 范氏
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -172,10 +209,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_sfsKYpH8iJoAHuoaD9gXym | 王淳 | accepted |
+| spouses | p_veDGpbgaxRa1da9P76R4yr | 范氏 | accepted |
 | descendants | p_CtSVBmCmDig7VPF7gNP89q | 王棟 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：范氏(王廷鑑妻)（CBDB 570709）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570709&o=json)
 - [中国历代人物传记资料库：王淳（CBDB 570711）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570711&o=json)
 - [中国历代人物传记资料库：王棟（CBDB 570713）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570713&o=json)
 - [中国历代人物传记资料库：王廷鑑（CBDB 570710）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570710&o=json)

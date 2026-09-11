@@ -4,7 +4,7 @@ id: p_8CKJNGVaripT3AVjGSTRgL
 status: active
 merged_into: null
 display_name: 王敞
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_fuGETem3pEJ8FAPlYvpZwv
+        subject_person_id: p_8CKJNGVaripT3AVjGSTRgL
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_SxootC8oVgPZs6v5mzddmZ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dPb4WjtcGgKSs5blnOcOGr
+          claim_id: c_fuGETem3pEJ8FAPlYvpZwv
+          source_id: s_uQ2xkm3VKiKpZpaJCf-lPK
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第二甲第九十三名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_uQ2xkm3VKiKpZpaJCf-lPK
+            source_type: api_record
+            title: 中国历代人物传记资料库：田氏(王敞妻)（CBDB 255596）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255596&o=json
+            external_identifier: CBDB:255596
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_SxootC8oVgPZs6v5mzddmZ
+        status: active
+        display_name: 田氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_eVMvXitzptXaZ85N05GfR-
@@ -234,9 +271,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_EPre6RwkxTdv7w3sC85r9v | 王忠 | accepted |
+| spouses | p_SxootC8oVgPZs6v5mzddmZ | 田氏 | accepted |
 | ancestors | p_9DwGjPApdqe1zoHq9wJJUF | 王國祥 | accepted |
 | ancestors | p_MVjZzxWsAgzkrKDUKxsADW | 王寧 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：田氏(王敞妻)（CBDB 255596）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255596&o=json)
 - [中国历代人物传记资料库：王敞（CBDB 126724）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126724&o=json)

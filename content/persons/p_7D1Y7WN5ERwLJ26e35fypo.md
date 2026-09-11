@@ -4,7 +4,7 @@ id: p_7D1Y7WN5ERwLJ26e35fypo
 status: active
 merged_into: null
 display_name: 王希賢
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_fLiVSF--0Y2f3fAl-vq_pu
+        subject_person_id: p_7D1Y7WN5ERwLJ26e35fypo
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_4wtubo8NYtGxkMFFTJaR7U
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k3HMF83VwLp0Xu-8Wl41m7
+          claim_id: c_fLiVSF--0Y2f3fAl-vq_pu
+          source_id: s_5wCTteJxSWkzXjGvFNHhqi
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第三甲第一百六十三名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5wCTteJxSWkzXjGvFNHhqi
+            source_type: api_record
+            title: 中国历代人物传记资料库：楊氏(王希賢妻)（CBDB 297872）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297872&o=json
+            external_identifier: CBDB:297872
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_4wtubo8NYtGxkMFFTJaR7U
+        status: active
+        display_name: 楊氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_oc4qLlHTRVfuSsZMcmGNZ2
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_VnWWyMNETF5CNaLsFiYtAd | 王肅 | accepted |
+| spouses | p_4wtubo8NYtGxkMFFTJaR7U | 楊氏 | accepted |
 | ancestors | p_QJQHNHpFHc52Kek4hVNKqE | 王有才 | accepted |
 | ancestors | p_Kn1Eb6H5Vah5YhsE3Y4hEt | 王泰 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王希賢（CBDB 202984）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202984&o=json)
+- [中国历代人物传记资料库：楊氏(王希賢妻)（CBDB 297872）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297872&o=json)

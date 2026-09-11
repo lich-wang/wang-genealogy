@@ -4,7 +4,7 @@ id: p_DpQiwc8xYXUruWevnbjJPo
 status: active
 merged_into: null
 display_name: 王仲
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -169,7 +169,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_-0dm9MXRggofDSHuhnjBMp
+        subject_person_id: p_DpQiwc8xYXUruWevnbjJPo
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_769o73ny55NTrot2CDbQDr
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_P1tBNKODvfcLokkk_EptxX
+          claim_id: c_-0dm9MXRggofDSHuhnjBMp
+          source_id: s_xQRzar5cU94ilG_gPV6uJ1
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiming 4：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_xQRzar5cU94ilG_gPV6uJ1
+            source_type: api_record
+            title: 中国历代人物传记资料库：淳于氏(王仲妻)（CBDB 146412）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=146412&o=json
+            external_identifier: CBDB:146412
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_769o73ny55NTrot2CDbQDr
+        status: active
+        display_name: 淳于氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_C4L8C9ZGQKbGE4WJu2C1p9 | 王基 | accepted |
+| spouses | p_769o73ny55NTrot2CDbQDr | 淳于氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：淳于氏(王仲妻)（CBDB 146412）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=146412&o=json)
 - [中国历代人物传记资料库：王基（CBDB 146414）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=146414&o=json)
 - [中国历代人物传记资料库：王仲（CBDB 138715）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=138715&o=json)

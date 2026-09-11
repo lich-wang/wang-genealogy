@@ -4,7 +4,7 @@ id: p_QZHN7XBFLhdEfKGuEPQEhp
 status: active
 merged_into: null
 display_name: 王贄
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -213,7 +213,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_9SwXgtenu6Mvap8NOsJfd_
+        subject_person_id: p_QZHN7XBFLhdEfKGuEPQEhp
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_QjasEDi9wDntJbhQ9Bbkdz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZtAhTNoSm7hY-9UWW3BTdV
+          claim_id: c_9SwXgtenu6Mvap8NOsJfd_
+          source_id: s_BodoIWfUDr61om4Hax06WL
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，835：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BodoIWfUDr61om4Hax06WL
+            source_type: api_record
+            title: 中国历代人物传记资料库：丘氏(王贄妻)（CBDB 37979）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37979&o=json
+            external_identifier: CBDB:37979
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_QjasEDi9wDntJbhQ9Bbkdz
+        status: active
+        display_name: 丘氏
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -275,10 +312,12 @@ relationships:
 | children | p_egyS5bPtB4BGpQ3ch7iPFq | 王罕 | accepted |
 | children | p_qtbxt55gw7F1hTWtEuCisP | 王準 | accepted |
 | children | p_St4Eey4EGBhVg2zh8anpZT | 王覃 | accepted |
+| spouses | p_QjasEDi9wDntJbhQ9Bbkdz | 丘氏 | accepted |
 | descendants | p_KzB2C1aLBuDGmUVnrc9So3 | 王珪 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：丘氏(王贄妻)（CBDB 37979）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37979&o=json)
 - [中国历代人物传记资料库：王珪（CBDB 1845）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1845&o=json)
 - [中国历代人物传记资料库：王罕（CBDB 1810）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1810&o=json)
 - [中国历代人物传记资料库：王永（CBDB 13516）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13516&o=json)

@@ -1,0 +1,103 @@
+---
+schema: wang-person/v1
+id: p_6BJQu6KCqkWtKF1mo8vb68
+status: active
+merged_into: null
+display_name: 俱氏
+revision: 1
+cbdb_id: 38232
+properties:
+  - predicate: name.primary
+    recommended:
+      claim:
+        id: c_wUoXLeOjQQ1LTfGKdC4dxQ
+        subject_person_id: p_6BJQu6KCqkWtKF1mo8vb68
+        claim_kind: property
+        predicate: name.primary
+        object_person_id: null
+        generation_count: null
+        parent_role: null
+        value_json:
+          text: 俱氏
+          language: zh-Hant
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_A-ZogRdhJjfj-DjEpz52QN
+          claim_id: c_wUoXLeOjQQ1LTfGKdC4dxQ
+          source_id: s_pgnOsB1reHck7CdMBwXV47
+          stance: supports
+          locator: CBDB:38232
+          quotation: null
+          interpretation_note: CBDB 明确记录的王淵配偶
+          source: &a1
+            id: s_pgnOsB1reHck7CdMBwXV47
+            source_type: api_record
+            title: 中国历代人物传记资料库：俱氏(王淵妻)（CBDB 38232）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38232&o=json
+            external_identifier: CBDB:38232
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person: null
+    alternatives: []
+relationships:
+  parents: []
+  children: []
+  adoptive_parents: []
+  adoptive_children: []
+  spouses:
+    - claim:
+        id: c_kXWmk6ueIRXcMD0pkcbvNb
+        subject_person_id: p_4DFXvaJGjrMh1AZPiFN3k7
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_6BJQu6KCqkWtKF1mo8vb68
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DqmdlzX_uyDMnaMYb97eQA
+          claim_id: c_kXWmk6ueIRXcMD0pkcbvNb
+          source_id: s_pgnOsB1reHck7CdMBwXV47
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，873;879：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_4DFXvaJGjrMh1AZPiFN3k7
+        status: active
+        display_name: 王淵
+        merged_into_person_id: null
+  ancestors: []
+  descendants: []
+  other: []
+---
+
+# 俱氏
+
+> 本文件是该人物的权威数据页。修改 front matter 并提交 Pull Request；正文用于人工阅读。
+
+## 基本信息
+
+| 字段 | 内容 | 状态 |
+| --- | --- | --- |
+| name.primary | 俱氏 | accepted |
+
+## 关联关系
+
+| 关系 | 人物 ID | 姓名 | 状态 |
+| --- | --- | --- | --- |
+| spouses | p_4DFXvaJGjrMh1AZPiFN3k7 | 王淵 | accepted |
+
+## 外部来源
+
+- [中国历代人物传记资料库：俱氏(王淵妻)（CBDB 38232）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38232&o=json)

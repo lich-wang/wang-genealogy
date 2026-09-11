@@ -4,7 +4,7 @@ id: p_45sVsGucdcRmogpRJoCZis
 status: active
 merged_into: null
 display_name: 王敬仲
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -314,7 +314,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_mlyDFeVHiGfeoXs9Hf1kLm
+        subject_person_id: p_45sVsGucdcRmogpRJoCZis
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_Qd6AWCK7WL3T8QgcG9THAp
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iYKqdw61AZTmjLseoB0023
+          claim_id: c_mlyDFeVHiGfeoXs9Hf1kLm
+          source_id: s_Xof7AfyMpzaXx47HeiZ3Oy
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Baoli 18：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Xof7AfyMpzaXx47HeiZ3Oy
+            source_type: api_record
+            title: 中国历代人物传记资料库：宇文氏(王敬仲妻)（CBDB 157514）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157514&o=json
+            external_identifier: CBDB:157514
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Qd6AWCK7WL3T8QgcG9THAp
+        status: active
+        display_name: 宇文氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_zPUAsouu1VbK0dDTFCP5EQ
@@ -396,9 +433,11 @@ relationships:
 | children | p_wa23QS7VDsuRFQLU4dEUBX | 王長衎 | accepted |
 | children | p_e4aZcGMSo1EDp2uhHFNjZ4 | 王中徹 | accepted |
 | children | p_wWod2ez1UU8RSHgsFxpJFe | 王小衢 | accepted |
+| spouses | p_Qd6AWCK7WL3T8QgcG9THAp | 宇文氏 | accepted |
 | ancestors | p_iQVDgJFY1pc4NSZHQh5uPw | 王諝 | accepted |
 | ancestors | p_A39G1FQHHhWai3zdkp4x8V | 王思旭 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王敬仲（CBDB 141578）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141578&o=json)
+- [中国历代人物传记资料库：宇文氏(王敬仲妻)（CBDB 157514）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157514&o=json)

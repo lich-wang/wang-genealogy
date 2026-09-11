@@ -4,7 +4,7 @@ id: p_4DFuV6CGsBNLfJsdyJ3xiy
 status: active
 merged_into: null
 display_name: 王廷簡
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_CbWnWNkQsxBiQRaa8A842B
+        subject_person_id: p_4DFuV6CGsBNLfJsdyJ3xiy
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_dehHPqBzmeR27nUp5P9VCc
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vmepAaTq4kpljXCfSeLOEM
+          claim_id: c_CbWnWNkQsxBiQRaa8A842B
+          source_id: s_dHIMtIpHSVKAuMq0XhGgJp
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第一百六十名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_dHIMtIpHSVKAuMq0XhGgJp
+            source_type: api_record
+            title: 中国历代人物传记资料库：凃氏(王廷簡妻)（CBDB 328852）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328852&o=json
+            external_identifier: CBDB:328852
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_dehHPqBzmeR27nUp5P9VCc
+        status: active
+        display_name: 凃氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_LhcPD8pAD9S2QXtrL9DKiy
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_HR4AmT7nnCGAtrL186TArG | 王聘 | accepted |
+| spouses | p_dehHPqBzmeR27nUp5P9VCc | 凃氏 | accepted |
 | ancestors | p_8UiJxE94RAsuCL5DgziXax | 王大端 | accepted |
 | ancestors | p_2Tkg2qP4pMvRyrcpAtc29W | 王禮冠 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：凃氏(王廷簡妻)（CBDB 328852）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328852&o=json)
 - [中国历代人物传记资料库：王廷簡（CBDB 205141）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205141&o=json)

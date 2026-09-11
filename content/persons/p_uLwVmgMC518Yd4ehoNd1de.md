@@ -4,7 +4,7 @@ id: p_uLwVmgMC518Yd4ehoNd1de
 status: active
 merged_into: null
 display_name: 王誕
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -288,7 +288,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_M6p5KOFNxbZ5UFgxdkk0Rn
+        subject_person_id: p_uLwVmgMC518Yd4ehoNd1de
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_JKQrpEFnUYTLZ2RN8fLeic
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-UdFUqVsh_HgQfqz4UjD6a
+          claim_id: c_M6p5KOFNxbZ5UFgxdkk0Rn
+          source_id: s_O7R3qFWOWJ9tf1FAInSMF9
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xiantong 45：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_O7R3qFWOWJ9tf1FAInSMF9
+            source_type: api_record
+            title: 中国历代人物传记资料库：鄭氏(王誕妻)（CBDB 160463）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160463&o=json
+            external_identifier: CBDB:160463
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_JKQrpEFnUYTLZ2RN8fLeic
+        status: active
+        display_name: 鄭氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -317,7 +354,9 @@ relationships:
 | children | p_F1nSFKsEcEyudCrCBf9N6K | 王留留 | accepted |
 | children | p_39hKySbW7rCCbNVGgcEod3 | 王豐兒 | accepted |
 | children | p_BBYaCB2FNMj3GGzAocZ7iE | 王雨雨 | accepted |
+| spouses | p_JKQrpEFnUYTLZ2RN8fLeic | 鄭氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王誕（CBDB 141997）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141997&o=json)
+- [中国历代人物传记资料库：鄭氏(王誕妻)（CBDB 160463）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=160463&o=json)

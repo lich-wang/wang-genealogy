@@ -4,7 +4,7 @@ id: p_27JjpyQuhoPy7ehfqeKG88
 status: active
 merged_into: null
 display_name: 王智
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_dhY0lQyoJ8SpPGnmbqopkb
+        subject_person_id: p_27JjpyQuhoPy7ehfqeKG88
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_dxfnHyDBZ8JmE7aHUMZh1d
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Pk9h5cV-CBjbWrlkP58QM0
+          claim_id: c_dhY0lQyoJ8SpPGnmbqopkb
+          source_id: s_MnD15cbgXygnd6OHfmCjTT
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xianheng 39：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MnD15cbgXygnd6OHfmCjTT
+            source_type: api_record
+            title: 中国历代人物传记资料库：張某(王智夫)（CBDB 148532）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148532&o=json
+            external_identifier: CBDB:148532
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_dxfnHyDBZ8JmE7aHUMZh1d
+        status: active
+        display_name: 張某
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -182,7 +219,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_zJibquaKXDF6eMKXvyGJ6H | 王音 | accepted |
+| spouses | p_dxfnHyDBZ8JmE7aHUMZh1d | 張某 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王智（CBDB 139618）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139618&o=json)
+- [中国历代人物传记资料库：張某(王智夫)（CBDB 148532）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148532&o=json)

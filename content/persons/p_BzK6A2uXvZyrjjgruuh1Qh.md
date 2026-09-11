@@ -4,7 +4,7 @@ id: p_BzK6A2uXvZyrjjgruuh1Qh
 status: active
 merged_into: null
 display_name: 王用汲
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_HEIMWH74PP20UqCzpJTPXf
+        subject_person_id: p_BzK6A2uXvZyrjjgruuh1Qh
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_BNHmdAdaaaA8aHyqThEAJT
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_O7F5VZ63_th3rpwdYHwQxU
+          claim_id: c_HEIMWH74PP20UqCzpJTPXf
+          source_id: s_P4FH-W09KCOniSfvMQCxqa
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第一百零四名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_P4FH-W09KCOniSfvMQCxqa
+            source_type: api_record
+            title: 中国历代人物传记资料库：許氏(王用汲妻)（CBDB 335480）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335480&o=json
+            external_identifier: CBDB:335480
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_BNHmdAdaaaA8aHyqThEAJT
+        status: active
+        display_name: 許氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_olIyo3YMos-CfvRJOHKjiI
@@ -234,9 +271,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_wFTS9Dws5nhZvJ8pXQTGVc | 王孫 | accepted |
+| spouses | p_BNHmdAdaaaA8aHyqThEAJT | 許氏 | accepted |
 | ancestors | p_5gxVMxVHEsmyHKD9hjsbp5 | 王晉和 | accepted |
 | ancestors | p_xpo8hw4fvJhVz9XuV1sULD | 王治 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王用汲（CBDB 126494）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126494&o=json)
+- [中国历代人物传记资料库：許氏(王用汲妻)（CBDB 335480）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335480&o=json)

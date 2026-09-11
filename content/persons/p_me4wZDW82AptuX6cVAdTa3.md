@@ -4,7 +4,7 @@ id: p_me4wZDW82AptuX6cVAdTa3
 status: active
 merged_into: null
 display_name: 王育仁
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_zi65hoRscufGlonMGBcn92
+        subject_person_id: p_me4wZDW82AptuX6cVAdTa3
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_ChnS3dmfKPLGWp2n5J2w59
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FBk-S_FtfstGeCTQ9eqDns
+          claim_id: c_zi65hoRscufGlonMGBcn92
+          source_id: s_lOIOYFSiErsjwGRBZP9G92
+          stance: supports
+          locator: 嘉靖三十八年進士登科錄:一卷，第三甲第四十三名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_lOIOYFSiErsjwGRBZP9G92
+            source_type: api_record
+            title: 中国历代人物传记资料库：曾氏(王育仁妻)（CBDB 324375）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324375&o=json
+            external_identifier: CBDB:324375
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ChnS3dmfKPLGWp2n5J2w59
+        status: active
+        display_name: 曾氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_9s5R10TTJ73S8Y-4VElhVq
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_TmfDTs3dgFgWzEaJva1cPF | 王親臣 | accepted |
+| spouses | p_ChnS3dmfKPLGWp2n5J2w59 | 曾氏 | accepted |
 | ancestors | p_uhy43vUK7iZvhpKmoJs64Z | 王學謹 | accepted |
 | ancestors | p_tG54NX3L9QgHMN5PPDpd1y | 王國成 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：曾氏(王育仁妻)（CBDB 324375）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324375&o=json)
 - [中国历代人物传记资料库：王育仁（CBDB 204809）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204809&o=json)

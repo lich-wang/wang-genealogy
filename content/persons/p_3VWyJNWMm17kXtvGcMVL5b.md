@@ -4,7 +4,7 @@ id: p_3VWyJNWMm17kXtvGcMVL5b
 status: active
 merged_into: null
 display_name: 王密
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_D4os8OEFs1MM4h-uCW2n1Q
+        subject_person_id: p_3VWyJNWMm17kXtvGcMVL5b
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_w41GC7aSQabnLka6UZ1VWz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6wtqERMQOyNaMfZKSwDPTs
+          claim_id: c_D4os8OEFs1MM4h-uCW2n1Q
+          source_id: s_uhWfe--aAJzZfnWureqceo
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第三甲第十五名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_uhWfe--aAJzZfnWureqceo
+            source_type: api_record
+            title: 中国历代人物传记资料库：趙氏(王密妻)（CBDB 284298）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284298&o=json
+            external_identifier: CBDB:284298
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_w41GC7aSQabnLka6UZ1VWz
+        status: active
+        display_name: 趙氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_eloTyXsJ334GLvJGici2Zb
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_CN2jDLgCox9JFiLJPyx2Za | 王鎮 | accepted |
+| spouses | p_w41GC7aSQabnLka6UZ1VWz | 趙氏 | accepted |
 | ancestors | p_DSxYDaaTU5JEJPeq3GSeg5 | 王聚 | accepted |
 | ancestors | p_r4MTRV1bEZ9nUwXyZp7sDF | 王溫 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王密（CBDB 202150）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202150&o=json)
+- [中国历代人物传记资料库：趙氏(王密妻)（CBDB 284298）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284298&o=json)

@@ -4,7 +4,7 @@ id: p_ausVk2oHKHbvJ2JzkigEra
 status: active
 merged_into: null
 display_name: 王行
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_YIG5J_1LkmdcUFdeo6qpbv
+        subject_person_id: p_ausVk2oHKHbvJ2JzkigEra
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_xWJ8nKXCsEgtHLHZDXQG96
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_b1gaBn-KjQoA1Jx3OBlPPL
+          claim_id: c_YIG5J_1LkmdcUFdeo6qpbv
+          source_id: s_bts9nLHYLuSt4XIDzOo8Cz
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Shengli16：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_bts9nLHYLuSt4XIDzOo8Cz
+            source_type: api_record
+            title: 中国历代人物传记资料库：牛氏(王行妻)（CBDB 163293）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=163293&o=json
+            external_identifier: CBDB:163293
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_xWJ8nKXCsEgtHLHZDXQG96
+        status: active
+        display_name: 牛氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_xWJ8nKXCsEgtHLHZDXQG96 | 牛氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：牛氏(王行妻)（CBDB 163293）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=163293&o=json)
 - [中国历代人物传记资料库：王行（CBDB 142298）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142298&o=json)

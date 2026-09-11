@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王豫齋
 cbdb_id: 120574
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -90,7 +90,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_imAXbB8cnafHxeBJI95G52
+        subject_person_id: p_G87xWTQArnxLSXAGEJ6t3a
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_43s1iDcz9DB4NuQV44Ckag
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NoDdgYscmzteoc2TOoQnKQ
+          claim_id: c_imAXbB8cnafHxeBJI95G52
+          source_id: s_1LbbGT0r64QeQbhtPMZ2J8
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #3574, HuWenKai #491：妻子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1LbbGT0r64QeQbhtPMZ2J8
+            source_type: api_record
+            title: 中国历代人物传记资料库：袁淑（CBDB 120572）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120572&o=json
+            external_identifier: CBDB:120572
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_43s1iDcz9DB4NuQV44Ckag
+        status: active
+        display_name: 袁淑
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_43s1iDcz9DB4NuQV44Ckag | 袁淑 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王豫齋（CBDB 120574）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120574&o=json)
+- [中国历代人物传记资料库：袁淑（CBDB 120572）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120572&o=json)

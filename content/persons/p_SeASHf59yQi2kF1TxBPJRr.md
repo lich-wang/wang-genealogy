@@ -4,7 +4,7 @@ id: p_SeASHf59yQi2kF1TxBPJRr
 status: active
 merged_into: null
 display_name: 王虛明
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_VXzO1YbtVHamjoDYYEfNS6
+        subject_person_id: p_SeASHf59yQi2kF1TxBPJRr
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_4tes6KDPDVx6G4bVMzwxNm
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_W0NQDz-aVQz9XhL4_TyIuk
+          claim_id: c_VXzO1YbtVHamjoDYYEfNS6
+          source_id: s__QKpA_VQywDTarTiajs-I6
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s__QKpA_VQywDTarTiajs-I6
+            source_type: api_record
+            title: 中国历代人物传记资料库：柳汶實（CBDB 185772）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185772&o=json
+            external_identifier: CBDB:185772
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_4tes6KDPDVx6G4bVMzwxNm
+        status: active
+        display_name: 柳汶實
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -182,7 +219,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_KQzasBZKpXzMFFGEmyJWEG | 王碕 | accepted |
+| spouses | p_4tes6KDPDVx6G4bVMzwxNm | 柳汶實 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：柳汶實（CBDB 185772）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185772&o=json)
 - [中国历代人物传记资料库：王虛明（CBDB 145077）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145077&o=json)

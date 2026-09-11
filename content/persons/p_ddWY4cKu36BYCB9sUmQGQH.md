@@ -4,7 +4,7 @@ id: p_ddWY4cKu36BYCB9sUmQGQH
 status: active
 merged_into: null
 display_name: 王勇
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_znfMa__4FhCGiQ0s2XTnwK
+        subject_person_id: p_ddWY4cKu36BYCB9sUmQGQH
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_WQnWovSFrYDkJc9QHdes5H
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GpksXVnH_TRLVaHyFsvfwC
+          claim_id: c_znfMa__4FhCGiQ0s2XTnwK
+          source_id: s_gOvKE5pPQU6BCvmROwC3Ps
+          stance: supports
+          locator: "海鹽縣志: 二十二卷(光緒)，lgid=294156：妻子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_gOvKE5pPQU6BCvmROwC3Ps
+            source_type: api_record
+            title: 中国历代人物传记资料库：沈氏(王大猷母)（CBDB 311221）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311221&o=json
+            external_identifier: CBDB:311221
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_WQnWovSFrYDkJc9QHdes5H
+        status: active
+        display_name: 沈氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_dBDSp35EhkaWHCV6D81q6n | 王大猷 | accepted |
+| spouses | p_WQnWovSFrYDkJc9QHdes5H | 沈氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：沈氏(王大猷母)（CBDB 311221）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311221&o=json)
 - [中国历代人物传记资料库：王勇（CBDB 311219）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311219&o=json)

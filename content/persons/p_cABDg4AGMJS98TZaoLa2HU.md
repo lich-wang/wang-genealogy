@@ -4,7 +4,7 @@ id: p_cABDg4AGMJS98TZaoLa2HU
 status: active
 merged_into: null
 display_name: 王佑
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_UV6cwvovPm6YJLNPg-jvqr
+        subject_person_id: p_cABDg4AGMJS98TZaoLa2HU
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_GqXdixiMXrUodSbD5Ca64R
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_H2nnnEEX2s4AxMQKlOqUyd
+          claim_id: c_UV6cwvovPm6YJLNPg-jvqr
+          source_id: s_qWfdh-0Enxv4t4CVgNumKn
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第一百九十一名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_qWfdh-0Enxv4t4CVgNumKn
+            source_type: api_record
+            title: 中国历代人物传记资料库：朱氏(王佑妻)（CBDB 257377）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257377&o=json
+            external_identifier: CBDB:257377
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GqXdixiMXrUodSbD5Ca64R
+        status: active
+        display_name: 朱氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_BCiw2ERALZOYFap5wu0UXb
@@ -176,9 +213,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_Wyqe2QSiKh31LC5bvKcMQt | 王敬 | accepted |
+| spouses | p_GqXdixiMXrUodSbD5Ca64R | 朱氏 | accepted |
 | ancestors | p_jMxby9DRySDmWrADAt51uc | 王新 | accepted |
 | ancestors | p_gJBDbRBCxbnfxx3U6Meh48 | 王士賢 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王佑（CBDB 67865）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67865&o=json)
+- [中国历代人物传记资料库：朱氏(王佑妻)（CBDB 257377）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257377&o=json)

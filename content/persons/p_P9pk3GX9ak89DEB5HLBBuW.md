@@ -4,7 +4,7 @@ id: p_P9pk3GX9ak89DEB5HLBBuW
 status: active
 merged_into: null
 display_name: 王用
-revision: 12
+revision: 13
 properties:
   - predicate: name.primary
     recommended:
@@ -224,7 +224,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_AeiesmgrGL791LWKk5uL_a
+        subject_person_id: p_P9pk3GX9ak89DEB5HLBBuW
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_SKAAS87vUb3PSuWpKJFHwQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IW7rVX6BPOfIBMsIFyLVVz
+          claim_id: c_AeiesmgrGL791LWKk5uL_a
+          source_id: s_Xl6-M3DqdXpgfyxo-6PNaB
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，48：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Xl6-M3DqdXpgfyxo-6PNaB
+            source_type: api_record
+            title: 中国历代人物传记资料库：孟氏(王用妻)（CBDB 699434）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699434&o=json
+            external_identifier: CBDB:699434
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_SKAAS87vUb3PSuWpKJFHwQ
+        status: active
+        display_name: 孟氏
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -671,6 +708,7 @@ relationships:
 | children | p_FpqHn8pwLrMWfy1VHw9FJa | 王信 | accepted |
 | children | p_kss91KaUX2qsiS3UfcBtty | 王習 | accepted |
 | children | p_zHYAkVdX4y5cAjrC4iFBG8 | 王重喜 | accepted |
+| spouses | p_SKAAS87vUb3PSuWpKJFHwQ | 孟氏 | accepted |
 | descendants | p_5MoCCJRcBFzHJznta14EJo | 王喜姑 | accepted |
 | descendants | p_AgH72LoZH5XqEbKoHmWF2B | 王羅兒 | accepted |
 | descendants | p_axq8URLSpJG5GjJ2ugi2TC | 王閏兒 | accepted |
@@ -686,6 +724,7 @@ relationships:
 
 ## 外部来源
 
+- [中国历代人物传记资料库：孟氏(王用妻)（CBDB 699434）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699434&o=json)
 - [中国历代人物传记资料库：王弁（CBDB 699373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699373&o=json)
 - [中国历代人物传记资料库：王傅喜（CBDB 699455）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699455&o=json)
 - [中国历代人物传记资料库：王江兒（CBDB 699464）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699464&o=json)

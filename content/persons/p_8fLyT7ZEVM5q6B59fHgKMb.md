@@ -4,7 +4,7 @@ id: p_8fLyT7ZEVM5q6B59fHgKMb
 status: active
 merged_into: null
 display_name: 王鎬
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_BBKLi0iOkivuXy2odx3elb
+        subject_person_id: p_8fLyT7ZEVM5q6B59fHgKMb
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_fgG89fq4pFU8AiEJQ5s24P
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yzmS7-jvN45YaqMD9f20Bh
+          claim_id: c_BBKLi0iOkivuXy2odx3elb
+          source_id: s_1ekqbWw_onRm52cOn7TxtA
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第一百七十四名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1ekqbWw_onRm52cOn7TxtA
+            source_type: api_record
+            title: 中国历代人物传记资料库：陳氏(王鎬妻)（CBDB 290154）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290154&o=json
+            external_identifier: CBDB:290154
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_fgG89fq4pFU8AiEJQ5s24P
+        status: active
+        display_name: 陳氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_yBO9jNe3UVFX6nbztsqu02
@@ -176,9 +213,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_gGs45wBLrz1PrQ7nJg3Ni8 | 王璋 | accepted |
+| spouses | p_fgG89fq4pFU8AiEJQ5s24P | 陳氏 | accepted |
 | ancestors | p_wKtE8zuLqyCAcUgFGmKLDZ | 王貴 | accepted |
 | ancestors | p_LG1H4ZU953vvpEe2T5EbAA | 王暹 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：陳氏(王鎬妻)（CBDB 290154）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290154&o=json)
 - [中国历代人物传记资料库：王鎬（CBDB 126866）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126866&o=json)

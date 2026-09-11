@@ -4,7 +4,7 @@ id: p_1Z5UnhG19fXLy7n6F1UwHg
 status: active
 merged_into: null
 display_name: 王納誨
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_N3ufDO6CYpv_Dor4bFbTSD
+        subject_person_id: p_1Z5UnhG19fXLy7n6F1UwHg
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_s1PHoruNVpfL6dYWTgnMR8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QMLvO0G52Y2hefSZXrtBkD
+          claim_id: c_N3ufDO6CYpv_Dor4bFbTSD
+          source_id: s_Ek5eqSHGBqiajNc-Wt4o_m
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第二甲第四十七名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Ek5eqSHGBqiajNc-Wt4o_m
+            source_type: api_record
+            title: 中国历代人物传记资料库：張氏(王納誨妻)（CBDB 270240）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270240&o=json
+            external_identifier: CBDB:270240
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_s1PHoruNVpfL6dYWTgnMR8
+        status: active
+        display_name: 張氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_3peR7UbAiTVYi1xU3ypp-c
@@ -176,9 +213,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_Qgi5dcqDryNPsU26Qm66Ka | 王琮 | accepted |
+| spouses | p_s1PHoruNVpfL6dYWTgnMR8 | 張氏 | accepted |
 | ancestors | p_F7Xf89xVagQzqZH86LPDkT | 王奉先 | accepted |
 | ancestors | p_W9geBzvuhL2GK1XqUmrkGC | 王鐸 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王納誨（CBDB 126660）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126660&o=json)
+- [中国历代人物传记资料库：張氏(王納誨妻)（CBDB 270240）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270240&o=json)

@@ -4,7 +4,7 @@ id: p_axvKJHczRE94VwEvMVemSc
 status: active
 merged_into: null
 display_name: 王一言
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_gquglzqH4m4bEvztzEIlI0
+        subject_person_id: p_axvKJHczRE94VwEvMVemSc
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_cr3AKwoRHTZQoXUZr51BF7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CpQATELDMw5MPU8rf-S5xT
+          claim_id: c_gquglzqH4m4bEvztzEIlI0
+          source_id: s_XOmK-Jb6NFEOj5tcqIDUPg
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第三甲第二百一十二名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_XOmK-Jb6NFEOj5tcqIDUPg
+            source_type: api_record
+            title: 中国历代人物传记资料库：施氏(王一言妻)（CBDB 298422）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298422&o=json
+            external_identifier: CBDB:298422
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_cr3AKwoRHTZQoXUZr51BF7
+        status: active
+        display_name: 施氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_fJNscDcDeJp3QQFEjVJUGH
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_iMDGVDoU4FmPtvJuYa8xHG | 王諭 | accepted |
+| spouses | p_cr3AKwoRHTZQoXUZr51BF7 | 施氏 | accepted |
 | ancestors | p_j5tPhm57yRfYMhoU5CNpTV | 王佐 | accepted |
 | ancestors | p_KMVQG8ESKc2GYAkUFotQJh | 王世雍 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：施氏(王一言妻)（CBDB 298422）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298422&o=json)
 - [中国历代人物传记资料库：王一言（CBDB 203015）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203015&o=json)

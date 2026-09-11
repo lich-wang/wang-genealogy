@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王天鐸
 cbdb_id: 28726
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -213,7 +213,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_3dYTixKMQSwnZthvPMt8UE
+        subject_person_id: p_VhEE1K9QYVSnK1V1eF11SZ
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_sD71to4STvwXGKqEqwHD4o
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7kmEQasx88r-GLv7ojvsmF
+          claim_id: c_3dYTixKMQSwnZthvPMt8UE
+          source_id: s_XlUfGlanytdCo5TvP5yhjH
+          stance: supports
+          locator: CBDB 双向互证（妻子 靳氏(王天鐸妻)）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_XlUfGlanytdCo5TvP5yhjH
+            source_type: api_record
+            title: 中国历代人物传记资料库：靳氏(王天鐸妻)（CBDB 28731）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28731&o=json
+            external_identifier: CBDB:28731
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_sD71to4STvwXGKqEqwHD4o
+        status: active
+        display_name: 靳氏
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -339,12 +376,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_61U19XTqYsz4yMA9zze9kQ | 王宇 | accepted |
+| spouses | p_sD71to4STvwXGKqEqwHD4o | 靳氏 | accepted |
 | descendants | p_b9QqZMYeTz5iwiHBnepPUw | 王重孫 | accepted |
 | descendants | p_bR58M5z5uimNJPKCzwsfSS | 王宜孫 | accepted |
 | descendants | p_Ys65mYTEgMHoCKTKksv9NP | 王振孫 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：靳氏(王天鐸妻)（CBDB 28731）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28731&o=json)
 - [中国历代人物传记资料库：王天鐸（CBDB 28726）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28726&o=json)
 - [中国历代人物传记资料库：王宜孫（CBDB 28735）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28735&o=json)
 - [中国历代人物传记资料库：王宇（CBDB 28727）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28727&o=json)

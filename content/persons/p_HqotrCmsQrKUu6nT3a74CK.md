@@ -4,7 +4,7 @@ id: p_HqotrCmsQrKUu6nT3a74CK
 status: active
 merged_into: null
 display_name: 王永
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c__YHImL035v-yzsZUgNqlmK
+        subject_person_id: p_HqotrCmsQrKUu6nT3a74CK
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_zF9b6MVnyJgFHUvPvKqRU3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Fqv2a-VTM0z1C-lH0-OTMH
+          claim_id: c__YHImL035v-yzsZUgNqlmK
+          source_id: s_5koCWdZQ26PjfayGfba3ey
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5koCWdZQ26PjfayGfba3ey
+            source_type: api_record
+            title: 中国历代人物传记资料库：郭氏(王忠立母)（CBDB 37789）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37789&o=json
+            external_identifier: CBDB:37789
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_zF9b6MVnyJgFHUvPvKqRU3
+        status: active
+        display_name: 郭氏
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -176,9 +213,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_jzoHdkm3G8KBKVV3oWtFDE | 王忠立 | accepted |
+| spouses | p_zF9b6MVnyJgFHUvPvKqRU3 | 郭氏 | accepted |
 | descendants | p_9zMW97J7BAC3TDNz5VbWCT | 王達 | accepted |
 | descendants | p_vfZA8CNHYRGPvaenX91t3P | 王德 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：郭氏(王忠立母)（CBDB 37789）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37789&o=json)
 - [中国历代人物传记资料库：王永（CBDB 37786）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37786&o=json)

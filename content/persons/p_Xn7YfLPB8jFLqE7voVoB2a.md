@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 蒋氏
 cbdb_id: 143330
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,6 +209,43 @@ relationships:
         status: active
         display_name: 王汶
         merged_into_person_id: null
+    - claim:
+        id: c_rGJhWNzSk11JzOYzmBHLT7
+        subject_person_id: p_Xn7YfLPB8jFLqE7voVoB2a
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_gC4w2KowFZ8UQ62gKNerwX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SASRPV1r8iKlIrVfvR62VT
+          claim_id: c_rGJhWNzSk11JzOYzmBHLT7
+          source_id: s_YJ5sinRIaoH1WKi2vZtlTQ
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Dahe1：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_YJ5sinRIaoH1WKi2vZtlTQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王某（CBDB 166476）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166476&o=json
+            external_identifier: CBDB:166476
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_gC4w2KowFZ8UQ62gKNerwX
+        status: active
+        display_name: 王某
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -231,10 +268,12 @@ relationships:
 | --- | --- | --- | --- |
 | spouses | p_xtyYrh2ceBwZ769mV4SDUW | 王汶 | accepted |
 | spouses | p_xtyYrh2ceBwZ769mV4SDUW | 王汶 | accepted |
+| spouses | p_gC4w2KowFZ8UQ62gKNerwX | 王某 | accepted |
 
 ## 外部来源
 
 - [维基数据：蒋氏（Q65803570）](https://www.wikidata.org/wiki/Q65803570)
 - [维基数据：王汶（Q45618566）](https://www.wikidata.org/wiki/Q45618566)
+- [中国历代人物传记资料库：王某（CBDB 166476）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166476&o=json)
 - [CBDB 中国历代人物传记资料库：蔣氏（143330）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143330&o=json)
 - [CBDB 中国历代人物传记资料库：王汶（143322）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143322&o=json)

@@ -4,7 +4,7 @@ id: p_7QnGBiPzUFUWD8rSwCwAQh
 status: active
 merged_into: null
 display_name: 王鈞
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -284,7 +284,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_6U30anhS3A_xYQHT-Etx1P
+        subject_person_id: p_7QnGBiPzUFUWD8rSwCwAQh
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_hDt1dBQpLhxLJc7ytN2m1U
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TQTzClk3_9wFsUpp0-P2hj
+          claim_id: c_6U30anhS3A_xYQHT-Etx1P
+          source_id: s_4z2KtNb98LuJtqvAK82dYq
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Dali27：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4z2KtNb98LuJtqvAK82dYq
+            source_type: api_record
+            title: 中国历代人物传记资料库：盧氏(王鈞妻)（CBDB 165255）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=165255&o=json
+            external_identifier: CBDB:165255
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_hDt1dBQpLhxLJc7ytN2m1U
+        status: active
+        display_name: 盧氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_H3x2GqcFs-FQEJLJMyC0VU
@@ -338,10 +375,12 @@ relationships:
 | children | p_5v9AuJb4c8dfuy6JYiZGbw | 王澡 | accepted |
 | children | p_A84W4Qt6NZjv8BXVPciqQL | 王沐 | accepted |
 | children | p_b5CJHTF3CJhC1Zauo4Pc4i | 王浰 | accepted |
+| spouses | p_hDt1dBQpLhxLJc7ytN2m1U | 盧氏 | accepted |
 | ancestors | p_VCCsC6Ka6PLxT1974FrH4p | 王宏之 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：盧氏(王鈞妻)（CBDB 165255）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=165255&o=json)
 - [中国历代人物传记资料库：王鈞（CBDB 143108）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143108&o=json)
 - [中国历代人物传记资料库：王淇（CBDB 165256）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=165256&o=json)
 - [中国历代人物传记资料库：王澡（CBDB 165258）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=165258&o=json)

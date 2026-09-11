@@ -4,7 +4,7 @@ id: p_TXTXwSryWLUp2Edx6YAYPe
 status: active
 merged_into: null
 display_name: 王永年
-revision: 7
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -169,7 +169,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_ALFp9tEveDOju23iv2tg5X
+        subject_person_id: p_TXTXwSryWLUp2Edx6YAYPe
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_jUWj7CHKQRqLgD32JVwuEf
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QsOaKhDBi3f1dC0Xt_xlGO
+          claim_id: c_ALFp9tEveDOju23iv2tg5X
+          source_id: s_eI2sVKyO2-BE8Hn7kTfQJp
+          stance: supports
+          locator: 全宋文，卷 5677：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_eI2sVKyO2-BE8Hn7kTfQJp
+            source_type: api_record
+            title: 中国历代人物传记资料库：温氏(王永年妻)（CBDB 385909）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385909&o=json
+            external_identifier: CBDB:385909
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_jUWj7CHKQRqLgD32JVwuEf
+        status: active
+        display_name: 温氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_qBN13wIXop_-FKnYOcIYZE
@@ -430,6 +467,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_Dbnj6E8kMUFP6rJiZMSDLw | 王說 | accepted |
+| spouses | p_jUWj7CHKQRqLgD32JVwuEf | 温氏 | accepted |
 | ancestors | p_99h5oMti42oRmbFeRv71GH | 王固 | accepted |
 | descendants | p_25zytug1kFui17eu9pg9ot | 王寧 | accepted |
 | descendants | p_pC2CzgxCWVGh53LF21SEoo | 王興祖 | accepted |
@@ -447,3 +485,4 @@ relationships:
 - [中国历代人物传记资料库：王說（CBDB 386572）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386572&o=json)
 - [中国历代人物传记资料库：王興祖（CBDB 385913）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385913&o=json)
 - [中国历代人物传记资料库：王永年（CBDB 17656）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17656&o=json)
+- [中国历代人物传记资料库：温氏(王永年妻)（CBDB 385909）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385909&o=json)

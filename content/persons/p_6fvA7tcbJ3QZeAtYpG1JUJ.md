@@ -4,7 +4,7 @@ id: p_6fvA7tcbJ3QZeAtYpG1JUJ
 status: active
 merged_into: null
 display_name: 王之臣
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_YqYB65PFjJIpZxHbs-hibI
+        subject_person_id: p_6fvA7tcbJ3QZeAtYpG1JUJ
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_mj2LC9jfcjqY6LZjHCg57v
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KaZFdrdAdBT8xdTNUh8eEI
+          claim_id: c_YqYB65PFjJIpZxHbs-hibI
+          source_id: s_rCGhH2lJbrfoGSlP22dgEz
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第一百二十六名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_rCGhH2lJbrfoGSlP22dgEz
+            source_type: api_record
+            title: 中国历代人物传记资料库：程氏(王之臣妻)（CBDB 335741）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335741&o=json
+            external_identifier: CBDB:335741
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_mj2LC9jfcjqY6LZjHCg57v
+        status: active
+        display_name: 程氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_bhq4rZFoKS3pVaxGwobRn4
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_ymucX7NT8ppRqzhncqq8Wc | 王鼎 | accepted |
+| spouses | p_mj2LC9jfcjqY6LZjHCg57v | 程氏 | accepted |
 | ancestors | p_fbjXbDTCEeuchZ6ouaWUGB | 王義 | accepted |
 | ancestors | p_W2yKNp1DGJcHNcHpAd1eMS | 王杭 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：程氏(王之臣妻)（CBDB 335741）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335741&o=json)
 - [中国历代人物传记资料库：王之臣（CBDB 205596）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205596&o=json)

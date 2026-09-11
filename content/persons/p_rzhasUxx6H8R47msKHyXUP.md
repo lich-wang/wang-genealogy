@@ -4,7 +4,7 @@ id: p_rzhasUxx6H8R47msKHyXUP
 status: active
 merged_into: null
 display_name: 王基
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_R-GZvH2o7OgcsZppneoDnn
+        subject_person_id: p_rzhasUxx6H8R47msKHyXUP
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_9e3XrZCdNg9aNU993vwsyx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cBYy2IvggWXdD1YvrBQzj0
+          claim_id: c_R-GZvH2o7OgcsZppneoDnn
+          source_id: s_sO8dENOXE275LyVuGM2NWi
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Changshou5：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_sO8dENOXE275LyVuGM2NWi
+            source_type: api_record
+            title: 中国历代人物传记资料库：皇甫氏(王基妻)（CBDB 163063）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=163063&o=json
+            external_identifier: CBDB:163063
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_9e3XrZCdNg9aNU993vwsyx
+        status: active
+        display_name: 皇甫氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -182,7 +219,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_cVFtE4wvJdhGmmQjDEJqE7 | 王孝政 | accepted |
+| spouses | p_9e3XrZCdNg9aNU993vwsyx | 皇甫氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：皇甫氏(王基妻)（CBDB 163063）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=163063&o=json)
 - [中国历代人物传记资料库：王基（CBDB 142772）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142772&o=json)

@@ -4,7 +4,7 @@ id: p_iCGpK2EFFBtX5h3QRnMMtL
 status: active
 merged_into: null
 display_name: 王世桂
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_9Xd8i_x8e7KOqRmNYMRgcP
+        subject_person_id: p_iCGpK2EFFBtX5h3QRnMMtL
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_nc3TL3FhJHeRQkfmW4tkCF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ixk_iA7bK0WS3EeKP4ghh9
+          claim_id: c_9Xd8i_x8e7KOqRmNYMRgcP
+          source_id: s_pBNQEAQFZI9LtSZmzyjqoF
+          stance: supports
+          locator: 武功縣後志，lgid=1045880：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_pBNQEAQFZI9LtSZmzyjqoF
+            source_type: api_record
+            title: 中国历代人物传记资料库：崔氏(王世桂妻)（CBDB 530927）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=530927&o=json
+            external_identifier: CBDB:530927
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_nc3TL3FhJHeRQkfmW4tkCF
+        status: active
+        display_name: 崔氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_nc3TL3FhJHeRQkfmW4tkCF | 崔氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：崔氏(王世桂妻)（CBDB 530927）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=530927&o=json)
 - [中国历代人物传记资料库：王世桂（CBDB 530926）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=530926&o=json)

@@ -4,7 +4,7 @@ id: p_hx7iGJRJAsCsAgYtQcK5NG
 status: active
 merged_into: null
 display_name: 王昶
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_d-ll2Rmgrid_YqomkTwrsO
+        subject_person_id: p_hx7iGJRJAsCsAgYtQcK5NG
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_RMBAgbHGtJKy5dC5huM3qf
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pwd9UiD8kk-63hIsbd3lPs
+          claim_id: c_d-ll2Rmgrid_YqomkTwrsO
+          source_id: s_HSRonpX-tZc_4TtnJ4Jr2u
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第三甲第一百一十四名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_HSRonpX-tZc_4TtnJ4Jr2u
+            source_type: api_record
+            title: 中国历代人物传记资料库：魏氏(王昶妻)（CBDB 240175）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240175&o=json
+            external_identifier: CBDB:240175
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_RMBAgbHGtJKy5dC5huM3qf
+        status: active
+        display_name: 魏氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_pQKD92oNaT6pKysLjKI8vg
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_pXhKxQ18tXJwqo1Ez5cWyA | 王麟 | accepted |
+| spouses | p_RMBAgbHGtJKy5dC5huM3qf | 魏氏 | accepted |
 | ancestors | p_T6bnNGBJQU3jsREwqmUX57 | 王恭 | accepted |
 | ancestors | p_xiKX93gQqium5L2n78Lr53 | 王友 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王昶（CBDB 199167）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199167&o=json)
+- [中国历代人物传记资料库：魏氏(王昶妻)（CBDB 240175）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240175&o=json)

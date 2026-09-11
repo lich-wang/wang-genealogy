@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王尚準
 cbdb_id: 185765
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -244,7 +244,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_6mam1XgDaMfakhaoIxvOpj
+        subject_person_id: p_PaQ5yP1i6ggstQ3reseLJo
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_mQ3xNSgJDxm26bPnWwopAA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nW_r-o6YOzsQW2sa8Y6gzC
+          claim_id: c_6mam1XgDaMfakhaoIxvOpj
+          source_id: s_fQHjjC9rRLeyrIhrmKB_g6
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_fQHjjC9rRLeyrIhrmKB_g6
+            source_type: api_record
+            title: 中国历代人物传记资料库：竇氏(竇雲昇女)（CBDB 144831）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=144831&o=json
+            external_identifier: CBDB:144831
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_mQ3xNSgJDxm26bPnWwopAA
+        status: active
+        display_name: 竇氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -269,9 +306,11 @@ relationships:
 | children | p_26NGcZpVYMgd8LBmgpqp1d | 王定和 | accepted |
 | children | p_5rHGpGBCFoFL3QgPEzj8DQ | 王定簡 | accepted |
 | children | p_spYpogBorf4HmU9rCheCWD | 王定禮 | accepted |
+| spouses | p_mQ3xNSgJDxm26bPnWwopAA | 竇氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：竇氏(竇雲昇女)（CBDB 144831）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=144831&o=json)
 - [中国历代人物传记资料库：王定和（CBDB 186151）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186151&o=json)
 - [中国历代人物传记资料库：王定簡（CBDB 186152）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186152&o=json)
 - [中国历代人物传记资料库：王定禮（CBDB 186153）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186153&o=json)

@@ -4,7 +4,7 @@ id: p_dushLD8QJLJynRyKBeici3
 status: active
 merged_into: null
 display_name: 王冷然
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_s311O_6M3l5KSdxEH-xuVo
+        subject_person_id: p_dushLD8QJLJynRyKBeici3
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_yHTfrsw89om362vC6LSyeg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xX799DiFYNRgqduFp-vN0e
+          claim_id: c_s311O_6M3l5KSdxEH-xuVo
+          source_id: s_HzofgJTyo6_VrqEQgz8ilT
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 2：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_HzofgJTyo6_VrqEQgz8ilT
+            source_type: api_record
+            title: 中国历代人物传记资料库：裴溥（CBDB 153272）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153272&o=json
+            external_identifier: CBDB:153272
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_yHTfrsw89om362vC6LSyeg
+        status: active
+        display_name: 裴溥
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -248,8 +285,10 @@ relationships:
 | parents | p_Fg3vtbfub5wpwSDzMxnYPv | 王義諶 | accepted |
 | children | p_MbXDhpLedM3vGmUtsNAeMN | 王仙官 | accepted |
 | children | p_jmczGKE1B57RJcS69ociHi | 王仙葩 | accepted |
+| spouses | p_yHTfrsw89om362vC6LSyeg | 裴溥 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：裴溥（CBDB 153272）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153272&o=json)
 - [中国历代人物传记资料库：王冷然（CBDB 140809）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140809&o=json)
 - [中国历代人物传记资料库：王仙葩（CBDB 153275）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153275&o=json)

@@ -4,7 +4,7 @@ id: p_W4c4cQK9DHN1AkS9oTwMLe
 status: active
 merged_into: null
 display_name: 王賓
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -184,7 +184,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_8AHkp2xG0K0r-XEca4EuP7
+        subject_person_id: p_W4c4cQK9DHN1AkS9oTwMLe
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_DwdwXPP3XJ264JCP39gMtn
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3yfFrFaVtWvfdV4Z45DPAF
+          claim_id: c_8AHkp2xG0K0r-XEca4EuP7
+          source_id: s_XzAb1F1DCxz6m9oftNsPix
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Shengwu 8：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_XzAb1F1DCxz6m9oftNsPix
+            source_type: api_record
+            title: 中国历代人物传记资料库：阮氏(王賓妻)（CBDB 154551）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154551&o=json
+            external_identifier: CBDB:154551
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_DwdwXPP3XJ264JCP39gMtn
+        status: active
+        display_name: 阮氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -209,7 +246,9 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_cRoBKjPjEZXjWG3ryj94j3 | 王子昂 | accepted |
 | children | p_RYJ3dJdN6PTPvLY2XQHXaP | 王從諫 | accepted |
+| spouses | p_DwdwXPP3XJ264JCP39gMtn | 阮氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：阮氏(王賓妻)（CBDB 154551）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154551&o=json)
 - [中国历代人物传记资料库：王賓（CBDB 141086）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141086&o=json)

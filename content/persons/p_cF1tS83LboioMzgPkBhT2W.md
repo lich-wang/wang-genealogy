@@ -4,7 +4,7 @@ id: p_cF1tS83LboioMzgPkBhT2W
 status: active
 merged_into: null
 display_name: 王選
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_1r_sVDdzCRl3HaR5ItA_J6
+        subject_person_id: p_cF1tS83LboioMzgPkBhT2W
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_ALE69A7iwJiKMjUHaxgrM5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mloyra98rZqer6uYvpife_
+          claim_id: c_1r_sVDdzCRl3HaR5ItA_J6
+          source_id: s_UEkKL4nxGGskiww3-jwy2_
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第四十八名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_UEkKL4nxGGskiww3-jwy2_
+            source_type: api_record
+            title: 中国历代人物传记资料库：劉氏(王選妻)（CBDB 265194）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265194&o=json
+            external_identifier: CBDB:265194
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ALE69A7iwJiKMjUHaxgrM5
+        status: active
+        display_name: 劉氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_PmCEnOIdkK4ND3oGvjfMPv
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_HBetaJRtzBcDVZP83F84Xv | 王稷時 | accepted |
+| spouses | p_ALE69A7iwJiKMjUHaxgrM5 | 劉氏 | accepted |
 | ancestors | p_xXfU17qq7kWf6RgD1JMA38 | 王學韶 | accepted |
 | ancestors | p_L2CxX6rmuHacqK1sdFNeMY | 王克和 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：劉氏(王選妻)（CBDB 265194）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265194&o=json)
 - [中国历代人物传记资料库：王選（CBDB 200963）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200963&o=json)

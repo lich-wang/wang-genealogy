@@ -4,7 +4,7 @@ id: p_fJbtRZx7s1XqSoTR8tLmBu
 status: active
 merged_into: null
 display_name: 王珉
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -130,7 +130,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_HUCpFfP4nOuZ14d-ze-m0w
+        subject_person_id: p_fJbtRZx7s1XqSoTR8tLmBu
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_jWhyM89PP9d3eMCukjP7Hb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UVQEVcuwn8xU87vL0mRHsm
+          claim_id: c_HUCpFfP4nOuZ14d-ze-m0w
+          source_id: s_nVrhIMPmgIm2IdKyiKAGc8
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第二甲第三十七名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_nVrhIMPmgIm2IdKyiKAGc8
+            source_type: api_record
+            title: 中国历代人物传记资料库：楊氏(王珉妻)（CBDB 295403）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295403&o=json
+            external_identifier: CBDB:295403
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_jWhyM89PP9d3eMCukjP7Hb
+        status: active
+        display_name: 楊氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_BBtKIhvUbuNB-Rftmo_nw_
@@ -205,9 +242,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_ZC9cZs12t7iJnxdJfx5Hj4 | 王思義 | accepted |
+| spouses | p_jWhyM89PP9d3eMCukjP7Hb | 楊氏 | accepted |
 | ancestors | p_qDMQBGR2e3tZ2gAPo7nDfp | 王政 | accepted |
 | ancestors | p_ndYRneWnvH2XvWCdzDoMVi | 王銓 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王珉（CBDB 202834）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202834&o=json)
+- [中国历代人物传记资料库：楊氏(王珉妻)（CBDB 295403）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295403&o=json)

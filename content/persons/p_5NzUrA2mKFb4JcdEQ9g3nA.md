@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王重瞻
 cbdb_id: 22193
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -116,7 +116,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_u1pMrC8UL6pi4bZRwzT35u
+        subject_person_id: p_5NzUrA2mKFb4JcdEQ9g3nA
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_rgqzvBh3HCwkQXS2HaLDJY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6ZggqolGii2QO4bGzkkrmJ
+          claim_id: c_u1pMrC8UL6pi4bZRwzT35u
+          source_id: s_V6GKn7BeqAVA3hOT4KysVs
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_V6GKn7BeqAVA3hOT4KysVs
+            source_type: api_record
+            title: 中国历代人物传记资料库：宋氏(王重瞻妻)（CBDB 38227）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38227&o=json
+            external_identifier: CBDB:38227
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_rgqzvBh3HCwkQXS2HaLDJY
+        status: active
+        display_name: 宋氏
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -212,11 +249,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_xXXn6fAPMxYTRtG6zG3M9K | 王仕榮 | accepted |
+| spouses | p_rgqzvBh3HCwkQXS2HaLDJY | 宋氏 | accepted |
 | descendants | p_4DFXvaJGjrMh1AZPiFN3k7 | 王淵 | accepted |
 | descendants | p_biGaLdBUf3ZqH93KQ7uZnx | 王懷信 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：宋氏(王重瞻妻)（CBDB 38227）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38227&o=json)
 - [中国历代人物传记资料库：王懷信（CBDB 22195）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22195&o=json)
 - [中国历代人物传记资料库：王淵（CBDB 8156）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8156&o=json)
 - [中国历代人物传记资料库：王重瞻（CBDB 22193）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22193&o=json)

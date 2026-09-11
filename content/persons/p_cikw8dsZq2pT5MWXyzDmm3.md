@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 唐玄宗
 cbdb_id: 19244
-revision: 2
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -155,6 +155,80 @@ relationships:
         status: active
         display_name: 王菱
         merged_into_person_id: null
+    - claim:
+        id: c_8Eh939l5KYF5ZUTXJWRz3y
+        subject_person_id: p_cikw8dsZq2pT5MWXyzDmm3
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_aBt529esxP2sL6zhvE1aQe
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wkbxFkIr1ud_-Gs-moQ2zs
+          claim_id: c_8Eh939l5KYF5ZUTXJWRz3y
+          source_id: s_LcEU3RK0Gw3d5x9D4vLwLN
+          stance: supports
+          locator: 舊唐書，2177：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_LcEU3RK0Gw3d5x9D4vLwLN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王氏(玄宗廢后)（CBDB 444908）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=444908&o=json
+            external_identifier: CBDB:444908
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_aBt529esxP2sL6zhvE1aQe
+        status: active
+        display_name: 王氏
+        merged_into_person_id: null
+    - claim:
+        id: c_n6DBlj7huL7LhDQE5WX_Gz
+        subject_person_id: p_cikw8dsZq2pT5MWXyzDmm3
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_5uJFSeCvpKSFCArxHJyW4T
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v0c9M1TbblbsNQcpwB6WsT
+          claim_id: c_n6DBlj7huL7LhDQE5WX_Gz
+          source_id: s_uPNsrJkZttJ_k-OiSYFTx5
+          stance: supports
+          locator: 新唐書，3659：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_uPNsrJkZttJ_k-OiSYFTx5
+            source_type: api_record
+            title: 中国历代人物传记资料库：董氏(唐玄宗嬪妃)（CBDB 444965）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=444965&o=json
+            external_identifier: CBDB:444965
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5uJFSeCvpKSFCArxHJyW4T
+        status: active
+        display_name: 董氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -176,10 +250,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_cPNuS7MwnPS5baKXaNvTnM | 王菱 | accepted |
+| spouses | p_aBt529esxP2sL6zhvE1aQe | 王氏 | accepted |
+| spouses | p_5uJFSeCvpKSFCArxHJyW4T | 董氏 | accepted |
 
 ## 外部来源
 
 - [维基数据：唐玄宗（Q9746）](https://www.wikidata.org/wiki/Q9746)
 - [维基数据：王菱（Q5374612）](https://www.wikidata.org/wiki/Q5374612)
+- [中国历代人物传记资料库：董氏(唐玄宗嬪妃)（CBDB 444965）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=444965&o=json)
+- [中国历代人物传记资料库：王氏(玄宗廢后)（CBDB 444908）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=444908&o=json)
 - [中文维基百科：唐玄宗](https://zh.wikipedia.org/wiki/%E5%94%90%E7%8E%84%E5%AE%97)
 - [CBDB 中国历代人物传记资料库：李隆基（19244）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19244&o=json)

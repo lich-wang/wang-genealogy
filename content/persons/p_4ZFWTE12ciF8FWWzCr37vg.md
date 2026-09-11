@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王保大
 cbdb_id: 22145
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -142,7 +142,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_mAaUp7ABIeCUhUMvdXQAq1
+        subject_person_id: p_4ZFWTE12ciF8FWWzCr37vg
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_W9NqmCeYHosGEvsaN6LHQf
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aa_iS5q7yboy9XLBcEHyo_
+          claim_id: c_mAaUp7ABIeCUhUMvdXQAq1
+          source_id: s_l0KjfcmogdwAn4Y2vtziSe
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_l0KjfcmogdwAn4Y2vtziSe
+            source_type: api_record
+            title: 中国历代人物传记资料库：吳氏(王保大妻)（CBDB 38070）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38070&o=json
+            external_identifier: CBDB:38070
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_W9NqmCeYHosGEvsaN6LHQf
+        status: active
+        display_name: 吳氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_lYqV1mI_PLbDws09bpddty
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_r8jMTz5d8EtW5WnsB75BCx | 王景齊 | accepted |
 | children | p_jRG5KQHBS9PPM75Rahm22N | 王莧 | accepted |
+| spouses | p_W9NqmCeYHosGEvsaN6LHQf | 吳氏 | accepted |
 | ancestors | p_UksH2GDrhL8wGMt6a6tBo9 | 王棠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王保大（CBDB 22145）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22145&o=json)
 - [中国历代人物传记资料库：王棠（CBDB 22138）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22138&o=json)
+- [中国历代人物传记资料库：吳氏(王保大妻)（CBDB 38070）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38070&o=json)

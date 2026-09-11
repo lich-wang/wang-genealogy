@@ -4,7 +4,7 @@ id: p_ATVLVYdrJfV8c2bGwEHBnG
 status: active
 merged_into: null
 display_name: 王偕
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_t4f2LqTcp9wTV4JWmZ7kig
+        subject_person_id: p_ATVLVYdrJfV8c2bGwEHBnG
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_WfSv1N5nyiB1R4yotDFaAL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_APxN14LXxlCth6k2MsZjut
+          claim_id: c_t4f2LqTcp9wTV4JWmZ7kig
+          source_id: s_Htfg1XcFR2qURzr6WvBvIx
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Zhenyuan27：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Htfg1XcFR2qURzr6WvBvIx
+            source_type: api_record
+            title: 中国历代人物传记资料库：楊氏(王偕妻)（CBDB 165518）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=165518&o=json
+            external_identifier: CBDB:165518
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_WfSv1N5nyiB1R4yotDFaAL
+        status: active
+        display_name: 楊氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -182,7 +219,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_ZWZ3nZDg2JiGnVuoyjy6p7 | 王梁卿 | accepted |
+| spouses | p_WfSv1N5nyiB1R4yotDFaAL | 楊氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王偕（CBDB 143165）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143165&o=json)
+- [中国历代人物传记资料库：楊氏(王偕妻)（CBDB 165518）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=165518&o=json)

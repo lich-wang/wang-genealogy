@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王异
 cbdb_id: 17423
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -215,7 +215,81 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_mdQJhS4rABsKkUnD1SQigZ
+        subject_person_id: p_C5gdwEP6JshLSxPa5isWtq
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_cCBM6eQwG73XBEbNJVYY3H
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3N7L1ab64SgaFVzH-HVyLm
+          claim_id: c_mdQJhS4rABsKkUnD1SQigZ
+          source_id: s_7xc2IoH7j0Zr1hHLOstc1L
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7xc2IoH7j0Zr1hHLOstc1L
+            source_type: api_record
+            title: 中国历代人物传记资料库：劉氏(王异妻)（CBDB 38571）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38571&o=json
+            external_identifier: CBDB:38571
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_cCBM6eQwG73XBEbNJVYY3H
+        status: active
+        display_name: 劉氏
+        merged_into_person_id: null
+    - claim:
+        id: c_SfQ11BQhCrQMB9XVAqjwZ7
+        subject_person_id: p_C5gdwEP6JshLSxPa5isWtq
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_KV7usuyqyMd5zCxkZhfMmL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MFWYtsT-i3lZatRvUbYKjn
+          claim_id: c_SfQ11BQhCrQMB9XVAqjwZ7
+          source_id: s_6iuiLUX9D_9JpSe_7Cs52N
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6iuiLUX9D_9JpSe_7Cs52N
+            source_type: api_record
+            title: 中国历代人物传记资料库：吳氏(王异妻)（CBDB 38573）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38573&o=json
+            external_identifier: CBDB:38573
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_KV7usuyqyMd5zCxkZhfMmL
+        status: active
+        display_name: 吳氏
+        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -302,6 +376,8 @@ relationships:
 | parents | p_AuvMJTzFGs5d4XX8kQYwFG | 王繼文 | accepted |
 | children | p_4Hjde84UDSxNby7XrvDD1E | 王寂 | accepted |
 | children | p_8pefMocZcx3Xt1bkSBWgB6 | 王宿 | accepted |
+| spouses | p_cCBM6eQwG73XBEbNJVYY3H | 劉氏 | accepted |
+| spouses | p_KV7usuyqyMd5zCxkZhfMmL | 吳氏 | accepted |
 | descendants | p_yapy3APS2bJCVFq3VNLaKZ | 王次翁 | accepted |
 | descendants | p_oQdo3Yj5bXCs9YNdo4dHqm | 王光祖 | accepted |
 
@@ -309,7 +385,9 @@ relationships:
 
 - [维基数据：王寂（Q45386119）](https://www.wikidata.org/wiki/Q45386119)
 - [维基数据：王异（Q45386110）](https://www.wikidata.org/wiki/Q45386110)
+- [中国历代人物传记资料库：劉氏(王异妻)（CBDB 38571）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38571&o=json)
 - [中国历代人物传记资料库：王光祖（CBDB 17437）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17437&o=json)
 - [中国历代人物传记资料库：王繼文（CBDB 17422）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17422&o=json)
 - [中国历代人物传记资料库：王宿（CBDB 17424）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17424&o=json)
+- [中国历代人物传记资料库：吳氏(王异妻)（CBDB 38573）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38573&o=json)
 - [CBDB 中国历代人物传记资料库：王异（17423）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17423&o=json)

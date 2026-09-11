@@ -4,7 +4,7 @@ id: p_NYf4fXj4n829cEBYm96jNc
 status: active
 merged_into: null
 display_name: 王養
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -210,7 +210,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_IXuHTXn6fny8VURjPFI1Gq
+        subject_person_id: p_NYf4fXj4n829cEBYm96jNc
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_Xw8doXPnr3YfStEE5modF7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-0RByTlzutJf4dugnr3oUs
+          claim_id: c_IXuHTXn6fny8VURjPFI1Gq
+          source_id: s_a2AnYuyeV-LBhaIuWHSXGD
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changan 28：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_a2AnYuyeV-LBhaIuWHSXGD
+            source_type: api_record
+            title: 中国历代人物传记资料库：成氏(王養妻)（CBDB 150401）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150401&o=json
+            external_identifier: CBDB:150401
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Xw8doXPnr3YfStEE5modF7
+        status: active
+        display_name: 成氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -236,7 +273,9 @@ relationships:
 | children | p_DoQDBLeafz9HbWNSCrxf7u | 王元恪 | accepted |
 | children | p_qBrQzWop7Du3CQJDjmTKQZ | 王元楷 | accepted |
 | children | p_CacHLDYLr3tuVp328AhoNN | 王元藏 | accepted |
+| spouses | p_Xw8doXPnr3YfStEE5modF7 | 成氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：成氏(王養妻)（CBDB 150401）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150401&o=json)
 - [中国历代人物传记资料库：王養（CBDB 140133）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140133&o=json)

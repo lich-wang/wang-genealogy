@@ -4,7 +4,7 @@ id: p_Q1HXQkSMAFHi7fYuKS8duv
 status: active
 merged_into: null
 display_name: 王蕙
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -132,7 +132,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_cDMjy9poTutGW-K8eCJrL6
+        subject_person_id: p_Q1HXQkSMAFHi7fYuKS8duv
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_sn42C8p7CP4y7NuAFEWEFM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OnZkGiE8HAn1uIYYCL_Go0
+          claim_id: c_cDMjy9poTutGW-K8eCJrL6
+          source_id: s_dwasf0PYMVgEHvcRwj05yZ
+          stance: supports
+          locator: CBDB 双向互证（妻子 戴氏(王蕙妻)）
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_dwasf0PYMVgEHvcRwj05yZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：戴氏(王蕙妻)（CBDB 386695）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386695&o=json
+            external_identifier: CBDB:386695
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_sn42C8p7CP4y7NuAFEWEFM
+        status: active
+        display_name: 戴氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_nvqs8_cIY5Rl0EQFo6rmic
@@ -218,10 +255,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_sn42C8p7CP4y7NuAFEWEFM | 戴氏 | accepted |
 | ancestors | p_26BJbufiHdX8oiM4dJs1K3 | 王琰 | accepted |
 | ancestors | p_TA3EM7RAXDxn6hGbgBVmnw | 王僑 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：戴氏(王蕙妻)（CBDB 386695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386695&o=json)
 - [中国历代人物传记资料库：王蕙（CBDB 386691）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386691&o=json)
 - [中国历代人物传记资料库：王琰（CBDB 386693）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386693&o=json)

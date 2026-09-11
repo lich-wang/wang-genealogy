@@ -4,7 +4,7 @@ id: p_xYAi4kPbDNtEHzbVT8xw3s
 status: active
 merged_into: null
 display_name: 王梧
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -76,7 +76,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_SDmcnNzZn7uaDgAik8rts2
+        subject_person_id: p_xYAi4kPbDNtEHzbVT8xw3s
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_u1DsFUzF94trv69FjBHApP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Dc2fdhEgiBvOmhR-YUdVGc
+          claim_id: c_SDmcnNzZn7uaDgAik8rts2
+          source_id: s_oFIgySuKiwf2a1yGi2mE6J
+          stance: supports
+          locator: 東都冢墓遺文，趙士宇妻王氏墓志：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_oFIgySuKiwf2a1yGi2mE6J
+            source_type: api_record
+            title: 中国历代人物传记资料库：趙氏(王梧妻)（CBDB 572761）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=572761&o=json
+            external_identifier: CBDB:572761
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_u1DsFUzF94trv69FjBHApP
+        status: active
+        display_name: 趙氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_u1DsFUzF94trv69FjBHApP | 趙氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王梧（CBDB 572763）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=572763&o=json)
+- [中国历代人物传记资料库：趙氏(王梧妻)（CBDB 572761）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=572761&o=json)

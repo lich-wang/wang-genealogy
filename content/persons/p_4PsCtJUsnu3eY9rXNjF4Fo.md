@@ -4,7 +4,7 @@ id: p_4PsCtJUsnu3eY9rXNjF4Fo
 status: active
 merged_into: null
 display_name: 王廷相
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -184,7 +184,44 @@ relationships:
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_BOnHapSPW0nruEEws3Kjgu
+        subject_person_id: p_4PsCtJUsnu3eY9rXNjF4Fo
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_nv6fz27s9bX9BToVnWd9my
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J3qAofQCjlmPYSfQ7-tK9z
+          claim_id: c_BOnHapSPW0nruEEws3Kjgu
+          source_id: s_8kvJeFaR0NCN7JbWrXKvmj
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第三甲第三十一名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8kvJeFaR0NCN7JbWrXKvmj
+            source_type: api_record
+            title: 中国历代人物传记资料库：劉氏(王廷相妻)（CBDB 271033）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271033&o=json
+            external_identifier: CBDB:271033
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_nv6fz27s9bX9BToVnWd9my
+        status: active
+        display_name: 劉氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_YXeFGqL18PAD3N0eTYsX-r
@@ -365,6 +402,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_BDJG2REu9qNBRNY8nyCZ1f | 王增 | accepted |
 | children | p_WWv2n9EGLNMjLmMAodhMav | 王旗 | accepted |
+| spouses | p_nv6fz27s9bX9BToVnWd9my | 劉氏 | accepted |
 | ancestors | p_5T63YxALgbHmj4Fr8Z5VTr | 王思義 | accepted |
 | ancestors | p_1uAG6a8dvWnZ4NjPRnGsn6 | 王實一 | accepted |
 | descendants | p_9BjemQ2sEPzfHjRymCew46 | 王孝吉 | accepted |
@@ -374,4 +412,5 @@ relationships:
 
 ## 外部来源
 
+- [中国历代人物传记资料库：劉氏(王廷相妻)（CBDB 271033）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271033&o=json)
 - [中国历代人物传记资料库：王廷相（CBDB 68246）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68246&o=json)

@@ -4,7 +4,7 @@ id: p_HmkBbL3A8MpbWct9UhADAQ
 status: active
 merged_into: null
 display_name: 王中正
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_TXoLCfN1STEBObOCUmyjJE
+        subject_person_id: p_HmkBbL3A8MpbWct9UhADAQ
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_dTS2S2ii7KBfBH17rTzSn5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Kp-K4Xp6BnJ_4HqjQtN_Sy
+          claim_id: c_TXoLCfN1STEBObOCUmyjJE
+          source_id: s_Uu2MYz2wbOw9gA6lew7GED
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1441;1442：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Uu2MYz2wbOw9gA6lew7GED
+            source_type: api_record
+            title: 中国历代人物传记资料库：施氏(王中正妻)（CBDB 38174）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38174&o=json
+            external_identifier: CBDB:38174
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_dTS2S2ii7KBfBH17rTzSn5
+        status: active
+        display_name: 施氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -182,7 +219,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_n6A1BTwey7dDo3Xt5YHJ8t | 王成 | accepted |
+| spouses | p_dTS2S2ii7KBfBH17rTzSn5 | 施氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：施氏(王中正妻)（CBDB 38174）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38174&o=json)
 - [中国历代人物传记资料库：王中正（CBDB 26364）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26364&o=json)

@@ -4,7 +4,7 @@ id: p_JML3zLgbrajmhN4fDU1Pka
 status: active
 merged_into: null
 display_name: 王交
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -102,7 +102,44 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
+  spouses:
+    - claim:
+        id: c_-kKIIKxw2RUTjEJ8XKL-Bu
+        subject_person_id: p_JML3zLgbrajmhN4fDU1Pka
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_qZkN8xrVwF2tSmSA9Y6KbW
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-7_MXwMEpLvPeT4tbzPVMJ
+          claim_id: c_-kKIIKxw2RUTjEJ8XKL-Bu
+          source_id: s_RcFCMmTChAEGIRPn-zOsB0
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第三甲第一百三十九名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_RcFCMmTChAEGIRPn-zOsB0
+            source_type: api_record
+            title: 中国历代人物传记资料库：費氏(王交妻)（CBDB 304533）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304533&o=json
+            external_identifier: CBDB:304533
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-11T06:08:33.163Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_qZkN8xrVwF2tSmSA9Y6KbW
+        status: active
+        display_name: 費氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_KTit0cTdSpuFfoG0VqQ6Mo
@@ -176,9 +213,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_zsVFNTYzGiADoYvqX8wVfc | 王嵱 | accepted |
+| spouses | p_qZkN8xrVwF2tSmSA9Y6KbW | 費氏 | accepted |
 | ancestors | p_KhQZ4rkBabwAVX8vrHF7JY | 王濂 | accepted |
 | ancestors | p_PWySVEEHd7WgHjTPbweChX | 王珫 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：費氏(王交妻)（CBDB 304533）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304533&o=json)
 - [中国历代人物传记资料库：王交（CBDB 126505）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126505&o=json)
