@@ -4,7 +4,7 @@ id: p_YaWmd84uDmuR4z7SAP4Eam
 status: active
 merged_into: null
 display_name: 王崇德
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Od3aGJSRMwW0cqM7E1PgjG
+        subject_person_id: p_YaWmd84uDmuR4z7SAP4Eam
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cDtAvQGzuVZRFeJxenEh2g
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GNOgFZb3AiomKz2ArQDlox
+          claim_id: c_Od3aGJSRMwW0cqM7E1PgjG
+          source_id: s_hQPa37YUT1hpcYJ1GEai5p
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第二百六十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_cDtAvQGzuVZRFeJxenEh2g
+        status: active
+        display_name: 王可信
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_cDtAvQGzuVZRFeJxenEh2g | 王可信 | accepted |
 
 ## 外部来源
 

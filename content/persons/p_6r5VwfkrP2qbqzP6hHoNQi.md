@@ -4,7 +4,7 @@ id: p_6r5VwfkrP2qbqzP6hHoNQi
 status: active
 merged_into: null
 display_name: 王弁
-revision: 6
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -502,6 +502,43 @@ relationships:
         status: active
         display_name: 王敬息
         merged_into_person_id: null
+    - claim:
+        id: c_ODAyegjYibd6KspEP7Qkw0
+        subject_person_id: p_6r5VwfkrP2qbqzP6hHoNQi
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_XQvuxj6yd7R5MCE98MGmti
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DTLIA398OAAVq2pefKKSyi
+          claim_id: c_ODAyegjYibd6KspEP7Qkw0
+          source_id: s_yEZeFBZGDsEk2W44jR42Jo
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，80：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_yEZeFBZGDsEk2W44jR42Jo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王青羅（CBDB 699426）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699426&o=json
+            external_identifier: CBDB:699426
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.583Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_XQvuxj6yd7R5MCE98MGmti
+        status: active
+        display_name: 王青羅
+        merged_into_person_id: null
   other: []
 ---
 
@@ -534,11 +571,13 @@ relationships:
 | descendants | p_BX84MnygPGnzNAEC8vVqh2 | 王忝喜 | accepted |
 | descendants | p_v4cVQTy66xpHpnivKPuhYH | 王慶喜 | accepted |
 | descendants | p_Ug8tVLHjYBKyJHh1LR369W | 王敬息 | accepted |
+| descendants | p_XQvuxj6yd7R5MCE98MGmti | 王青羅 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王弁（CBDB 699373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699373&o=json)
 - [中国历代人物传记资料库：王敬息（CBDB 699429）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699429&o=json)
+- [中国历代人物传记资料库：王青羅（CBDB 699426）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699426&o=json)
 - [中国历代人物传记资料库：王恕（CBDB 699404）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699404&o=json)
 - [中国历代人物传记资料库：王嵩（CBDB 699412）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699412&o=json)
 - [中国历代人物传记资料库：王息哥（CBDB 699422）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699422&o=json)

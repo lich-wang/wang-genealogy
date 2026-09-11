@@ -4,7 +4,7 @@ id: p_pLswWqSBPoyLmU6amLYFt3
 status: active
 merged_into: null
 display_name: 王漢忠
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_w-NqfgCeC1qQ3QkN8yRL-6
+        subject_person_id: p_pLswWqSBPoyLmU6amLYFt3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XviaqWWyDjdJ24E836cQV3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LVYG1LZUWT60szcEKcE1ET
+          claim_id: c_w-NqfgCeC1qQ3QkN8yRL-6
+          source_id: s_1DEMUPHjjsGoz38cCobuk6
+          stance: supports
+          locator: 宋史：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1DEMUPHjjsGoz38cCobuk6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王從政（CBDB 119735）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119735&o=json
+            external_identifier: CBDB:119735
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:14.889Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_XviaqWWyDjdJ24E836cQV3
+        status: active
+        display_name: 王從政
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_XviaqWWyDjdJ24E836cQV3 | 王從政 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王從政（CBDB 119735）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119735&o=json)
 - [中国历代人物传记资料库：王漢忠（CBDB 14839）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=14839&o=json)

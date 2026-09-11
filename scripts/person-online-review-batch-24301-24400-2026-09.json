@@ -1,0 +1,191 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-11",
+  "queue_positions": [
+    24301,
+    24400
+  ],
+  "summary": {
+    "reviewed": 100,
+    "relationships_added": 14,
+    "manual_review": 8
+  },
+  "relationships": [
+    {
+      "subject": "p_xnVNk7Yn6e863HGsnbGHpw",
+      "object": "p_U7JNj2nXJh2KN7f9tg3Czd",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_xNxqWv9Hmn4hXrvNdwjCoG",
+      "object": "p_jLj9x5Hx3ewwMHtmL6YHsw",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_xNxqWv9Hmn4hXrvNdwjCoG",
+      "object": "p_GsbVM3sDzY5NMmwXdfBsgF",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_xo3gN1AcnYp3rCvHMixt52",
+      "object": "p_GHVQL4hWHQRpyP8bz5zK2L",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_kkcDjFWAdTrMcKDVDJEh6n",
+      "object": "p_xorZAKBdJoRoE3U8q3SGL1",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_xpiQNZoQgcWtNfoW2kc14W",
+      "object": "p_9yrh3LG22eDzqwJQoBMgVx",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_N6pZvYhA9qiLVCaG277m17",
+      "object": "p_XPRj4BCsG46528uAyPcMx5",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_rtWrRgJEgo23nh8Eimw1Ru",
+      "object": "p_XPysYqDtsR4ZVXKPTLy38k",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_zjAp5GG3WSvDfuHDHGpQQJ",
+      "object": "p_xq77ND3Yirb2ZWfhHcArnK",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_hCzKn1nSfNfQRLjCB3DtBQ",
+      "object": "p_xq77ND3Yirb2ZWfhHcArnK",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_rdQpvSEbMvzFVt6su4bz6E",
+      "object": "p_xq77ND3Yirb2ZWfhHcArnK",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_XqFzP2HT1fnv6EsejBDm7i",
+      "object": "p_mJFG2VmWYuWZQLFEyB56Dh",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_XQSWj6Fjzoxw5CkhLWJYJK",
+      "object": "p_UehS2yfTZaFGBh7uxhHFCE",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_xQupwnQaJxHTxjJmcoKwGH",
+      "object": "p_m3yi9K5yZsVRwPPF1yaNKL",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    }
+  ],
+  "unchanged": [
+    "p_XMZWa26MMC6LxMpQ7MWtzL",
+    "p_xn1DXCEhLJdFDhDeqR5XXN",
+    "p_xN5ioUtabzDk3yjtPiayLj",
+    "p_xNB2eDmXDApBXE2R5DHXy8",
+    "p_XnCDo1YhExNmij5yB6DdD4",
+    "p_XNcFtTMv8J997qTpB2BFmV",
+    "p_XNdfXch4REivnT8HwSCVgS",
+    "p_xNErtCn12QHQGbJFf8djfD",
+    "p_xnGFFnHnr4ZeksnU9aB1i2",
+    "p_xnJ3bmzpaeQUGfS9xyTnj7",
+    "p_XNJyEfAoCU1n3KhpGFQfuG",
+    "p_xNKKVa5ZGjsP1jQr5xS4xC",
+    "p_XNnEJW93RJQ51JNrQsQRTJ",
+    "p_XNQsX2D4ahqbZkKDHgd2xC",
+    "p_XNrFBBHzH7BhTmD23UmrPu",
+    "p_xNtgZ5HvFySanKxwsVGhCA",
+    "p_xNTtSCiTiPXWFjv5o2yKUV",
+    "p_xNU127PqSojuuikGVKG1DX",
+    "p_xNuBMveoJNbM9ZvyqDs2xz",
+    "p_XNvK78DRQXQmP82kP83eZ8",
+    "p_xNwbioTCPBKPVgPFanV5YX",
+    "p_XnWWyie2QoqQEGKUXxSKDd",
+    "p_Xo2wg3u8d52gLzNfpom4KX",
+    "p_Xo5BBxYGh6HjDoLWn79Wzu",
+    "p_Xo72nBkt9GeaSUwYosPGVj",
+    "p_xo7hTR9H4WNNw9Qd7U3FCQ",
+    "p_XoFh3KSiNqKfArGybk6qB2",
+    "p_xoGon1d7EPuYfnNvDmqzuj",
+    "p_XoHfYYdbggdFF5AfAPZeC6",
+    "p_XoizBM2W9CaVyiGwPvdNeh",
+    "p_XojQ3t22aSH5uB3Vfqn2u5",
+    "p_xokY4h4MQqvycu91m47z1h",
+    "p_XoMHigZ4Qj3DQMJhuh1y5v",
+    "p_XoP9pWdAo4BBG4L6XDeXLX",
+    "p_XoVVkECraEv4BCefEyxtEU",
+    "p_xp7qE8ZYouPWQeWX5vQBwy",
+    "p_xP8KHngSxHHtgNpEWSNALK",
+    "p_Xp9Q5oCad9JcZJepjgLUib",
+    "p_xPbojpyVTMofenUxEX3sBq",
+    "p_xpckQ2G2t7wTNrXzHWsi53",
+    "p_xpCMhE1mdy8gK3X8UNabKH",
+    "p_xPgbX3RNQhX3Gbt5oLyqzL",
+    "p_XPgYCdMPbLmW8LUc1RXv9S",
+    "p_xpidspta13fj4dPrVjEV3u",
+    "p_xpiJsFwMLAr8AXmJ5B7CHm",
+    "p_xPMcLgCawstxHLrk7HL4Nq",
+    "p_XpMH1cL6CXgJt3oweEfNNU",
+    "p_xPmiN494Bnjps2pH9mwuz5",
+    "p_XPnWQxAUxzCBo5eEjYeKbU",
+    "p_xpo8hw4fvJhVz9XuV1sULD",
+    "p_XpobcFXHv3vkLcuPBH4SoR",
+    "p_xpoFWV9oq8fmAaWAAWJdjA",
+    "p_xppbRDm16pRuF6qgpJ8ugm",
+    "p_XPQGW4b2oZE9vHJ9vwQSw5",
+    "p_xpqoa13dt91WrzFePwdVeE",
+    "p_xPr6ii177JF1XvK4DBZoiX",
+    "p_xPRb5mvCeWwFd91eAHez77",
+    "p_Xpv2DvHR83UmxrngM7jBCU",
+    "p_xpWNJDy3AxiNdqBVQeMMtk",
+    "p_XPXPQehPutoQHEZ7jNN389",
+    "p_XPYMQebKat7iNEtunfToJN",
+    "p_XPz6CP8h5J9nx4QBC4c8n5",
+    "p_xQ4Qrf6pDsBFg1DhwiuSUK",
+    "p_Xq6rJyFdCzMmVq6RT6KPwq",
+    "p_XqBa48ZNhMJdPaXQzQeVFL",
+    "p_xQC9jeba1Ur5RLxK29JG6g",
+    "p_xqcESVAX36jaogYCBoGBPo",
+    "p_XQD6YTcmUp8iw8hEQgNgEp",
+    "p_xQGD9wzEMAZCH7mBvFtR3r",
+    "p_XQGjrV5D45HeHi4Uo992jU",
+    "p_XQGQH4oTQAhKL8xSCETP8D",
+    "p_XQHQ4eejzqBk7pX6VdA4FT",
+    "p_xQJcUMq6Rta463xss6UJxF",
+    "p_xQMRkjR9C9CorA7PcHSvNF",
+    "p_XqN4czQMzQZCC4HUjePVew",
+    "p_Xqo8L2ZL8rnoXryxnjrNge",
+    "p_xqoFC3Q7Vuco8Lnr3uUPM3",
+    "p_xQozRkdJWcKmdRdE64oc7E",
+    "p_xQp98p454Jq2GZrTADHptH",
+    "p_Xqpg7m72CbMAmY8AUfiCmv",
+    "p_XQPtvapXgFixvHPKvmUd3C",
+    "p_XqPxc5BrP8ALzZVqaQhK2x",
+    "p_XQqLDXb4qaMmJx1NoPU1gD",
+    "p_XqTzW8AdNtu8fccC8XCgtz",
+    "p_xQU5rF5HAHK82YFomNEUEd",
+    "p_xquaCm9dTvuToXNF1q5w35",
+    "p_XqUftKroWEihYfSBsLSsfY",
+    "p_xqumocvTvDRh3fKCkoqeZd",
+    "p_XQuneoJWjbriNCKAab3eyM"
+  ]
+}

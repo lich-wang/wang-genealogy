@@ -4,7 +4,7 @@ id: p_7nQdqDRU7gCLFFCzrrRkDE
 status: active
 merged_into: null
 display_name: 王錦
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王友道
         merged_into_person_id: null
+    - claim:
+        id: c_pkqhrJgkqSy3DLG6lgPEZh
+        subject_person_id: p_yBC5C2JQMnzo8GPxwr5Tb7
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_7nQdqDRU7gCLFFCzrrRkDE
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YjYjVd7y8TUe8tM1gHrvy9
+          claim_id: c_pkqhrJgkqSy3DLG6lgPEZh
+          source_id: s_7Q4fMbSUGSdkNZjf6rwb6e
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7Q4fMbSUGSdkNZjf6rwb6e
+            source_type: api_record
+            title: 中国历代人物传记资料库：王倫（CBDB 261850）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261850&o=json
+            external_identifier: CBDB:261850
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.566Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_yBC5C2JQMnzo8GPxwr5Tb7
+        status: active
+        display_name: 王倫
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_3JgQNSMUumi8nS4UFjk3Ak | 王通 | accepted |
 | ancestors | p_rgVM34AhoiLib36Ag9rXAh | 王友道 | accepted |
+| ancestors | p_yBC5C2JQMnzo8GPxwr5Tb7 | 王倫 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王錦（CBDB 200715）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200715&o=json)
+- [中国历代人物传记资料库：王倫（CBDB 261850）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261850&o=json)
 - [中国历代人物传记资料库：王通（CBDB 261851）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261851&o=json)
 - [中国历代人物传记资料库：王友道（CBDB 261849）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261849&o=json)

@@ -4,7 +4,7 @@ id: p_dQ1sDfXNogRpbAJzcsg5My
 status: active
 merged_into: null
 display_name: 王聰
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_LW6QzVeAgass6VXUyOZ7Pz
+        subject_person_id: p_yGUq9dnDLNfTAUD6QVNP1F
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_dQ1sDfXNogRpbAJzcsg5My
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_I1X2ZukyS8_xBrCOP6z3x2
+          claim_id: c_LW6QzVeAgass6VXUyOZ7Pz
+          source_id: s_1z9DzMb2hNHjWLCtzdNmNX
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第一百九十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1z9DzMb2hNHjWLCtzdNmNX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王思齊（CBDB 279775）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279775&o=json
+            external_identifier: CBDB:279775
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.991Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_yGUq9dnDLNfTAUD6QVNP1F
+        status: active
+        display_name: 王思齊
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_3NjU7eZvopD3jSxgGAoTdh | 王惟善 | accepted |
+| ancestors | p_yGUq9dnDLNfTAUD6QVNP1F | 王思齊 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王聰（CBDB 198493）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198493&o=json)
+- [中国历代人物传记资料库：王思齊（CBDB 279775）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279775&o=json)
 - [中国历代人物传记资料库：王惟善（CBDB 279786）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279786&o=json)

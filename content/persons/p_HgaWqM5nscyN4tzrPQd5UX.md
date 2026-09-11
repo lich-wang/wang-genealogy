@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王重賢
 cbdb_id: 202269
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_2iQ3b3s1ay1zNvclxECBif
+        subject_person_id: p_yeJtEcC7cBaU9sVyVGy7xj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HgaWqM5nscyN4tzrPQd5UX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zKXwMlGUHr0LkSWhFomm6v
+          claim_id: c_2iQ3b3s1ay1zNvclxECBif
+          source_id: s_Qd3RrwisKBNCET2WYrdjmq
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第三甲第一百六十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Qd3RrwisKBNCET2WYrdjmq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鉞（CBDB 285846）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285846&o=json
+            external_identifier: CBDB:285846
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.221Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_yeJtEcC7cBaU9sVyVGy7xj
+        status: active
+        display_name: 王鉞
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,6 +266,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_yeJtEcC7cBaU9sVyVGy7xj | 王鉞 | accepted |
 | ancestors | p_1gaZDQ7d8kFL8eFuBSCEFG | 王友信 | accepted |
 | ancestors | p_V1Lxrxvhjt1V6KGoR8pwse | 王安 | accepted |
 
@@ -236,4 +274,5 @@ relationships:
 
 - [中国历代人物传记资料库：王安（CBDB 285845）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285845&o=json)
 - [中国历代人物传记资料库：王友信（CBDB 285844）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285844&o=json)
+- [中国历代人物传记资料库：王鉞（CBDB 285846）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285846&o=json)
 - [中国历代人物传记资料库：王重賢（CBDB 202269）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202269&o=json)

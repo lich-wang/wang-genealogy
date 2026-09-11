@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王臣端
 cbdb_id: 158749
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_ir-oL7xtpfxED2_WxYhG5u
+        subject_person_id: p_iCYMvWqdPTMReNWcJw9Xs2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xT91PgYZaQ28ZWS5H1F1Pb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rkD97HRVO-sf3ZTh_PHAuJ
+          claim_id: c_ir-oL7xtpfxED2_WxYhG5u
+          source_id: s_1SQTm9bfti1Cf4E7AWrBph
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Huichang 37：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1SQTm9bfti1Cf4E7AWrBph
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文幹（CBDB 141823）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141823&o=json
+            external_identifier: CBDB:141823
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.569Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_xT91PgYZaQ28ZWS5H1F1Pb
+        status: active
+        display_name: 王文幹
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_xT91PgYZaQ28ZWS5H1F1Pb | 王文幹 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王臣端（CBDB 158749）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158749&o=json)
+- [中国历代人物传记资料库：王文幹（CBDB 141823）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141823&o=json)

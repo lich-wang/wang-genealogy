@@ -4,7 +4,7 @@ id: p_iKF3URQYd2AiG1hYtKBDpV
 status: active
 merged_into: null
 display_name: 王京
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_dxUrn47s_j1nFvoSMDxHla
+        subject_person_id: p_xsB7dQbxgv1VM3fErdpLd2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iKF3URQYd2AiG1hYtKBDpV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0vYL0qEqNGO8q2CYVlpk4y
+          claim_id: c_dxUrn47s_j1nFvoSMDxHla
+          source_id: s_zUcTHWJjqJSKESpZuPQkCR
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第七十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_zUcTHWJjqJSKESpZuPQkCR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王秉忠（CBDB 335213）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335213&o=json
+            external_identifier: CBDB:335213
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.453Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_xsB7dQbxgv1VM3fErdpLd2
+        status: active
+        display_name: 王秉忠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +237,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xsB7dQbxgv1VM3fErdpLd2 | 王秉忠 | accepted |
 | ancestors | p_f2xxX4LHcsdW9b4Aa96PA6 | 王治 | accepted |
 | ancestors | p_MBHRpaK8e4wuxL7rkxgYDe | 王奇 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王秉忠（CBDB 335213）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335213&o=json)
 - [中国历代人物传记资料库：王京（CBDB 205560）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205560&o=json)
 - [中国历代人物传记资料库：王奇（CBDB 335211）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335211&o=json)
 - [中国历代人物传记资料库：王治（CBDB 335212）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335212&o=json)

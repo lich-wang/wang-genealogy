@@ -4,7 +4,7 @@ id: p_y5QQERMue5GXm9s3UympLe
 status: active
 merged_into: null
 display_name: 王鑾
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_cmXaJ3o47q24cyxYyjDaq_
+        subject_person_id: p_y5QQERMue5GXm9s3UympLe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FW5JCUZhPbXLfg1SptJZHU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Tyah2Xtf0BcagMtBYm9EQK
+          claim_id: c_cmXaJ3o47q24cyxYyjDaq_
+          source_id: s_97Cz3HoECfnY1xMqGuMbBG
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），11697：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_FW5JCUZhPbXLfg1SptJZHU
+        status: active
+        display_name: 王範輅
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_FW5JCUZhPbXLfg1SptJZHU | 王範輅 | accepted |
 
 ## 外部来源
 

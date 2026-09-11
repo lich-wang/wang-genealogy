@@ -4,7 +4,7 @@ id: p_Xx6A1dBFzmqmxvBfyK7Bha
 status: active
 merged_into: null
 display_name: 王維
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_GAmWlYZOgwh0jO-CVC92rz
+        subject_person_id: p_Xx6A1dBFzmqmxvBfyK7Bha
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9WD2WpcaAMBVHNJjVMQ2UR
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zT9fGZ6oY8zLD50X6NAhVl
+          claim_id: c_GAmWlYZOgwh0jO-CVC92rz
+          source_id: s_3sDapsFdJk9xubFbS3R3T4
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第二甲第三十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_9WD2WpcaAMBVHNJjVMQ2UR
+        status: active
+        display_name: 王錄
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_9WD2WpcaAMBVHNJjVMQ2UR | 王錄 | accepted |
 
 ## 外部来源
 

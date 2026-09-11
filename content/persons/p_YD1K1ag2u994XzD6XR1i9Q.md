@@ -4,7 +4,7 @@ id: p_YD1K1ag2u994XzD6XR1i9Q
 status: active
 merged_into: null
 display_name: 王清
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_FsLOwf8n26HdNAw9lrdBX6
+        subject_person_id: p_YD1K1ag2u994XzD6XR1i9Q
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_655CGkFBuWbBdZzbbcQcR6
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cb6plCvMzZ7iTHGw5T4qLh
+          claim_id: c_FsLOwf8n26HdNAw9lrdBX6
+          source_id: s_VaKw2o3hH78D3Jc9RY4pXQ
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第二甲第七十八名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_655CGkFBuWbBdZzbbcQcR6
+        status: active
+        display_name: 王舜夫
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_655CGkFBuWbBdZzbbcQcR6 | 王舜夫 | accepted |
 
 ## 外部来源
 

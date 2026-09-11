@@ -4,7 +4,7 @@ id: p_XM9QNMLmGKfYJ3GSaLi11d
 status: active
 merged_into: null
 display_name: 王蘊
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -153,6 +153,58 @@ relationships:
         status: active
         display_name: 王正
         merged_into_person_id: null
+    - claim:
+        id: c_a0k1n_wAAceYLgOpsfPbx_
+        subject_person_id: p_XM9QNMLmGKfYJ3GSaLi11d
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qLoryMbMAG9Vho3wHxjS8E
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_slxcMqvSZS9zPc1Qyz0GwK
+          claim_id: c_a0k1n_wAAceYLgOpsfPbx_
+          source_id: s_y3UEciAhJvmsr7XUzLhMNX
+          stance: supports
+          locator: 紹興府志:八十卷，lgid=316700：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qLoryMbMAG9Vho3wHxjS8E
+        status: active
+        display_name: 王杞
+        merged_into_person_id: null
+    - claim:
+        id: c_hbWtKGTi5OT8uT_nxhXTEm
+        subject_person_id: p_XM9QNMLmGKfYJ3GSaLi11d
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ETdwCm54JGjgAZiDmfGBaU
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nlyf0kZFtQOr0iA7G5MSGd
+          claim_id: c_hbWtKGTi5OT8uT_nxhXTEm
+          source_id: s_y3UEciAhJvmsr7XUzLhMNX
+          stance: supports
+          locator: 紹興府志:八十卷，lgid=316700：玄孫;四世孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ETdwCm54JGjgAZiDmfGBaU
+        status: active
+        display_name: 王偉
+        merged_into_person_id: null
   other: []
 ---
 
@@ -173,6 +225,8 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_K9QEgp6JSKaffEKcTo7xe2 | 王賢 | accepted |
 | descendants | p_67QPdbGBEAuDLU32GCV69J | 王正 | accepted |
+| descendants | p_qLoryMbMAG9Vho3wHxjS8E | 王杞 | accepted |
+| descendants | p_ETdwCm54JGjgAZiDmfGBaU | 王偉 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王可信
 cbdb_id: 204413
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Od3aGJSRMwW0cqM7E1PgjG
+        subject_person_id: p_YaWmd84uDmuR4z7SAP4Eam
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cDtAvQGzuVZRFeJxenEh2g
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GNOgFZb3AiomKz2ArQDlox
+          claim_id: c_Od3aGJSRMwW0cqM7E1PgjG
+          source_id: s_hQPa37YUT1hpcYJ1GEai5p
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第二百六十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_hQPa37YUT1hpcYJ1GEai5p
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇德（CBDB 318728）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318728&o=json
+            external_identifier: CBDB:318728
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.021Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_YaWmd84uDmuR4z7SAP4Eam
+        status: active
+        display_name: 王崇德
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -172,6 +209,43 @@ relationships:
         status: active
         display_name: 王寅
         merged_into_person_id: null
+    - claim:
+        id: c_j4aqwjhf5RZ6H3QnrCcvA4
+        subject_person_id: p_XGUAYvnx1UBbBoMMQoDGBg
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cDtAvQGzuVZRFeJxenEh2g
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HqYhRQz9yQXeJI_dYSdkWL
+          claim_id: c_j4aqwjhf5RZ6H3QnrCcvA4
+          source_id: s_Mc9UhocFDyPdqyhSgokSej
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第二百六十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Mc9UhocFDyPdqyhSgokSej
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璧（CBDB 318726）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318726&o=json
+            external_identifier: CBDB:318726
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.019Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_XGUAYvnx1UBbBoMMQoDGBg
+        status: active
+        display_name: 王璧
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -192,9 +266,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_YaWmd84uDmuR4z7SAP4Eam | 王崇德 | accepted |
 | ancestors | p_Dt54odQN3CFe2bvZC88Thv | 王寅 | accepted |
+| ancestors | p_XGUAYvnx1UBbBoMMQoDGBg | 王璧 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王璧（CBDB 318726）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318726&o=json)
+- [中国历代人物传记资料库：王崇德（CBDB 318728）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318728&o=json)
 - [中国历代人物传记资料库：王可信（CBDB 204413）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204413&o=json)
 - [中国历代人物传记资料库：王寅（CBDB 318727）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318727&o=json)

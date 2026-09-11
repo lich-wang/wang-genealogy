@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王國翼
 cbdb_id: 207372
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,6 +209,43 @@ relationships:
         status: active
         display_name: 王宣
         merged_into_person_id: null
+    - claim:
+        id: c_9L5SOuLiPq6YxANeEbUTuW
+        subject_person_id: p_xQupwnQaJxHTxjJmcoKwGH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_m3yi9K5yZsVRwPPF1yaNKL
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xevslO-jTFGsmX-ZRq0265
+          claim_id: c_9L5SOuLiPq6YxANeEbUTuW
+          source_id: s_ucsy3CBbmsjjdzZ89T1WFV
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第一百□名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ucsy3CBbmsjjdzZ89T1WFV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鑑（CBDB 231791）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231791&o=json
+            external_identifier: CBDB:231791
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.660Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_xQupwnQaJxHTxjJmcoKwGH
+        status: active
+        display_name: 王鑑
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_he2wMHyNK6nBCLNJF5nWDE | 王志能 | accepted |
 | ancestors | p_M5KxKvuqpJd2c6xSCDSY4t | 王宣 | accepted |
+| ancestors | p_xQupwnQaJxHTxjJmcoKwGH | 王鑑 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王國翼（CBDB 207372）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207372&o=json)
+- [中国历代人物传记资料库：王鑑（CBDB 231791）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231791&o=json)
 - [中国历代人物传记资料库：王宣（CBDB 231792）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231792&o=json)
 - [中国历代人物传记资料库：王志能（CBDB 231793）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231793&o=json)

@@ -4,7 +4,7 @@ id: p_zjAp5GG3WSvDfuHDHGpQQJ
 status: active
 merged_into: null
 display_name: 王廷芳
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_jzw6Rj3GFnZZWZ86ScNz4m
+        subject_person_id: p_zjAp5GG3WSvDfuHDHGpQQJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_xq77ND3Yirb2ZWfhHcArnK
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wha989vdgE6GkXqn-xAe4j
+          claim_id: c_jzw6Rj3GFnZZWZ86ScNz4m
+          source_id: s_Cw2hEETiUKegMyTEr9G5M1
+          stance: supports
+          locator: 嘉靖十七年進士登科錄:一卷，第三甲第一百四十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Cw2hEETiUKegMyTEr9G5M1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德（CBDB 68161）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68161&o=json
+            external_identifier: CBDB:68161
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.057Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_xq77ND3Yirb2ZWfhHcArnK
+        status: active
+        display_name: 王德
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_xq77ND3Yirb2ZWfhHcArnK | 王德 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王德（CBDB 68161）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68161&o=json)
 - [中国历代人物传记资料库：王廷芳（CBDB 301179）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301179&o=json)

@@ -4,7 +4,7 @@ id: p_qmz4NNXH4HsWQ8MERWfsxY
 status: active
 merged_into: null
 display_name: 王易簡
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -114,7 +114,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_VjnpseZX5FTff7iRHmldpH
+        subject_person_id: p_xHqsdH7Q5dtTb5k8sD7nyo
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qmz4NNXH4HsWQ8MERWfsxY
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_H2n1TQeBF58_HcUhpiY6iV
+          claim_id: c_VjnpseZX5FTff7iRHmldpH
+          source_id: s_8XruKVoRfCPhtcxH52LLDp
+          stance: supports
+          locator: 宋史：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8XruKVoRfCPhtcxH52LLDp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遠（CBDB 120189）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120189&o=json
+            external_identifier: CBDB:120189
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:14.897Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_xHqsdH7Q5dtTb5k8sD7nyo
+        status: active
+        display_name: 王遠
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_BufH5DJwN8VnFNrdw7VT4J | 王貫 | accepted |
+| ancestors | p_xHqsdH7Q5dtTb5k8sD7nyo | 王遠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王貫（CBDB 24947）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24947&o=json)
 - [中国历代人物传记资料库：王易簡（CBDB 37656）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37656&o=json)
+- [中国历代人物传记资料库：王遠（CBDB 120189）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120189&o=json)

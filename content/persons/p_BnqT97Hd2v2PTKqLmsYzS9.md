@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王鼎爵
 cbdb_id: 124003
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_djUWjMIXXrkqCGZQtpXHl9
+        subject_person_id: p_y3wPwGRVQu8zpSRFXXRDEb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BnqT97Hd2v2PTKqLmsYzS9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8vBuvvXYX0UorZrtZXkuWR
+          claim_id: c_djUWjMIXXrkqCGZQtpXHl9
+          source_id: s_cb4NCj6AFA1rBgfugfXZ1F
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第二甲第九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_cb4NCj6AFA1rBgfugfXZ1F
+            source_type: api_record
+            title: 中国历代人物传记资料库：王夢祥（CBDB 326164）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326164&o=json
+            external_identifier: CBDB:326164
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.210Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_y3wPwGRVQu8zpSRFXXRDEb
+        status: active
+        display_name: 王夢祥
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -185,6 +222,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_y3wPwGRVQu8zpSRFXXRDEb | 王夢祥 | accepted |
 | ancestors | p_G3rbB3Jtpx8mub8VBuAMQk | 王湧 | accepted |
 | ancestors | p_tSRaibJgRN2rEB3L9W5CGU | 王侃 | accepted |
 
@@ -192,4 +230,5 @@ relationships:
 
 - [中国历代人物传记资料库：王鼎爵（CBDB 124003）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=124003&o=json)
 - [中国历代人物传记资料库：王侃（CBDB 333656）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333656&o=json)
+- [中国历代人物传记资料库：王夢祥（CBDB 326164）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326164&o=json)
 - [中国历代人物传记资料库：王湧（CBDB 333657）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333657&o=json)

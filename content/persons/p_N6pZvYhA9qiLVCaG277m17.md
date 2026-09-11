@@ -4,7 +4,7 @@ id: p_N6pZvYhA9qiLVCaG277m17
 status: active
 merged_into: null
 display_name: 王鋋
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -213,6 +213,43 @@ relationships:
         status: active
         display_name: 王遼
         merged_into_person_id: null
+    - claim:
+        id: c_et77PUbz2WoOtXtQVthMTe
+        subject_person_id: p_N6pZvYhA9qiLVCaG277m17
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XPRj4BCsG46528uAyPcMx5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zUc5jAns6VLIG6ayKwP_M8
+          claim_id: c_et77PUbz2WoOtXtQVthMTe
+          source_id: s_Mgxe4xqawJpBKDaJ1VMngu
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Mgxe4xqawJpBKDaJ1VMngu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王逷（CBDB 190482）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190482&o=json
+            external_identifier: CBDB:190482
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.329Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_XPRj4BCsG46528uAyPcMx5
+        status: active
+        display_name: 王逷
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -240,10 +277,12 @@ relationships:
 | parents | p_2BHkEYekoT1S8S2R49LZgW | 王晤 | accepted |
 | children | p_mahQpMiWhXV6E5tEhAnkVT | 王邁 | accepted |
 | children | p_QuDLhRTFiscsjeYScpJBuq | 王遼 | accepted |
+| children | p_XPRj4BCsG46528uAyPcMx5 | 王逷 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鋋（CBDB 169160）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169160&o=json)
 - [中国历代人物传记资料库：王遼（CBDB 195605）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=195605&o=json)
 - [中国历代人物传记资料库：王邁（CBDB 145342）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145342&o=json)
+- [中国历代人物传记资料库：王逷（CBDB 190482）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=190482&o=json)
 - [中国历代人物传记资料库：王晤（CBDB 175822）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175822&o=json)

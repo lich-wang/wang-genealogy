@@ -4,7 +4,7 @@ id: p_LBdGsbwqK1sHLezT3boLBb
 status: active
 merged_into: null
 display_name: 王紹
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_12vqDtMo__tO-lsl2ptlP4
+        subject_person_id: p_YaA4L9KPYthUAssTTYBQuu
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LBdGsbwqK1sHLezT3boLBb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_b87crxQEG8cJu4-4BvYEdF
+          claim_id: c_12vqDtMo__tO-lsl2ptlP4
+          source_id: s_2Cui8WApyt2V91jHFzzqSy
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第七十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_2Cui8WApyt2V91jHFzzqSy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王亨（CBDB 265423）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265423&o=json
+            external_identifier: CBDB:265423
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.679Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_YaA4L9KPYthUAssTTYBQuu
+        status: active
+        display_name: 王亨
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -115,6 +152,43 @@ relationships:
         status: active
         display_name: 王恕
         merged_into_person_id: null
+    - claim:
+        id: c_ESBo4IYA0ecHzFE261jyCP
+        subject_person_id: p_Y75XX8DkAqUSNJtKuDF2CJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_LBdGsbwqK1sHLezT3boLBb
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_r-5yAc1qmJBtOrz5A_QiJI
+          claim_id: c_ESBo4IYA0ecHzFE261jyCP
+          source_id: s_8sPxWmwFVMEx8PJVBMW7RK
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第七十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8sPxWmwFVMEx8PJVBMW7RK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昭（CBDB 265421）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265421&o=json
+            external_identifier: CBDB:265421
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.679Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Y75XX8DkAqUSNJtKuDF2CJ
+        status: active
+        display_name: 王昭
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -134,9 +208,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_YaA4L9KPYthUAssTTYBQuu | 王亨 | accepted |
 | ancestors | p_d6X5X9bjzcHYkKZwRaDPSR | 王恕 | accepted |
+| ancestors | p_Y75XX8DkAqUSNJtKuDF2CJ | 王昭 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王亨（CBDB 265423）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265423&o=json)
 - [中国历代人物传记资料库：王紹（CBDB 126695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126695&o=json)
 - [中国历代人物传记资料库：王恕（CBDB 265422）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265422&o=json)
+- [中国历代人物传记资料库：王昭（CBDB 265421）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265421&o=json)

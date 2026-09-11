@@ -4,7 +4,7 @@ id: p_xvq5gyYNJhRnWmUKTUZCtD
 status: active
 merged_into: null
 display_name: 王謙
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_6MkjHp6XVjQzja6DhxI4f2
+        subject_person_id: p_xvq5gyYNJhRnWmUKTUZCtD
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5841EMmKzggT2c8As9ptEU
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_daHQPFqOZpw5UK3OPHXR6-
+          claim_id: c_6MkjHp6XVjQzja6DhxI4f2
+          source_id: s_CqwsW5xgoF4JEB9CPDs7J9
+          stance: supports
+          locator: 成化十四年進士登科錄:一卷，第三甲第八十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5841EMmKzggT2c8As9ptEU
+        status: active
+        display_name: 王鯨
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_5841EMmKzggT2c8As9ptEU | 王鯨 | accepted |
 
 ## 外部来源
 

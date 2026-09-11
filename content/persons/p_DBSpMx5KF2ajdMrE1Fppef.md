@@ -4,7 +4,7 @@ id: p_DBSpMx5KF2ajdMrE1Fppef
 status: active
 merged_into: null
 display_name: 王奎
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -208,6 +208,43 @@ relationships:
         status: active
         display_name: 王珪
         merged_into_person_id: null
+    - claim:
+        id: c_1KV0UpCheApeSTy8WluWvz
+        subject_person_id: p_xZSbZhi5WNJakRFocSqLrP
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DBSpMx5KF2ajdMrE1Fppef
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CvpCy6AEFbPnUBGVRKO5yB
+          claim_id: c_1KV0UpCheApeSTy8WluWvz
+          source_id: s_dPdSHDxEFsKUgWaQYG6b7L
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第三甲第一百七十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_dPdSHDxEFsKUgWaQYG6b7L
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎬（CBDB 272404）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272404&o=json
+            external_identifier: CBDB:272404
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.887Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_xZSbZhi5WNJakRFocSqLrP
+        status: active
+        display_name: 王鎬
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_uV1YjCTPo5QWbEPfDKw9o3 | 王公甫 | accepted |
 | ancestors | p_6fP6yoQB92HAJJGNQ4imGY | 王珪 | accepted |
+| ancestors | p_xZSbZhi5WNJakRFocSqLrP | 王鎬 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王公甫（CBDB 272407）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272407&o=json)
 - [中国历代人物传记资料库：王珪（CBDB 272406）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272406&o=json)
+- [中国历代人物传记资料库：王鎬（CBDB 272404）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272404&o=json)
 - [中国历代人物传记资料库：王奎（CBDB 126602）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126602&o=json)

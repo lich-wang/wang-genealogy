@@ -4,7 +4,7 @@ id: p_r6pBWbK1n21iTCU2S5mqaD
 status: active
 merged_into: null
 display_name: 王文爟
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王汝猷
         merged_into_person_id: null
+    - claim:
+        id: c_LUq4IabvCewCp3U6k-Pp0N
+        subject_person_id: p_xs1wDFCYDK853L5LwfwWda
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_r6pBWbK1n21iTCU2S5mqaD
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k5qGYD06flqMsu9_juq5hD
+          claim_id: c_LUq4IabvCewCp3U6k-Pp0N
+          source_id: s_Z3xKza8MmkMvMjVJ9MRwLE
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第六十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Z3xKza8MmkMvMjVJ9MRwLE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎰（CBDB 231982）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231982&o=json
+            external_identifier: CBDB:231982
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.679Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_xs1wDFCYDK853L5LwfwWda
+        status: active
+        display_name: 王鎰
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_538CM7kYSwJEN5kqcMaMZJ | 王廷幹 | accepted |
 | ancestors | p_uYdyYvhACY66kGTVV38pka | 王汝猷 | accepted |
+| ancestors | p_xs1wDFCYDK853L5LwfwWda | 王鎰 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王汝猷（CBDB 231983）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231983&o=json)
 - [中国历代人物传记资料库：王廷幹（CBDB 231984）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231984&o=json)
 - [中国历代人物传记资料库：王文爟（CBDB 207417）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207417&o=json)
+- [中国历代人物传记资料库：王鎰（CBDB 231982）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231982&o=json)

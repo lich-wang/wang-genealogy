@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王九德
 cbdb_id: 206699
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_12igLEMyJcPfn69OUkbTn-
+        subject_person_id: p_Xuy9jPb62VMvUCJM1MazAP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7F2eLtMppfYhb1rX2t5C3R
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HQQ1yKBTmunvUM17JVhPPp
+          claim_id: c_12igLEMyJcPfn69OUkbTn-
+          source_id: s_SExJCqXrwRtYkVTP83XCL8
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第二百一十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_SExJCqXrwRtYkVTP83XCL8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷相（CBDB 221740）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221740&o=json
+            external_identifier: CBDB:221740
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.331Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Xuy9jPb62VMvUCJM1MazAP
+        status: active
+        display_name: 王廷相
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,6 +266,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Xuy9jPb62VMvUCJM1MazAP | 王廷相 | accepted |
 | ancestors | p_ELj7af6FP9ng738M3GQvto | 王政 | accepted |
 | ancestors | p_pBHcZmEwQwDgBxDERRkBDR | 王澄 | accepted |
 
@@ -236,4 +274,5 @@ relationships:
 
 - [中国历代人物传记资料库：王澄（CBDB 221739）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221739&o=json)
 - [中国历代人物传记资料库：王九德（CBDB 206699）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206699&o=json)
+- [中国历代人物传记资料库：王廷相（CBDB 221740）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221740&o=json)
 - [中国历代人物传记资料库：王政（CBDB 221737）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221737&o=json)

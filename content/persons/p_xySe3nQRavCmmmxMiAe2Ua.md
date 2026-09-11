@@ -4,7 +4,7 @@ id: p_xySe3nQRavCmmmxMiAe2Ua
 status: active
 merged_into: null
 display_name: 王政
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -141,7 +141,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_yTBC3aye04nMvM3YjDYOkj
+        subject_person_id: p_xySe3nQRavCmmmxMiAe2Ua
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1kPwo9xT5TtA5YmLc4QpXm
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xat9sM2FPxIjlv9X3hJ75g
+          claim_id: c_yTBC3aye04nMvM3YjDYOkj
+          source_id: s_YSTW4XFoc5vkMNRdLwC5y3
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第二甲第四十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1kPwo9xT5TtA5YmLc4QpXm
+        status: active
+        display_name: 王念
+        merged_into_person_id: null
   other: []
 ---
 
@@ -162,6 +188,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_bf9NCQmSwQEP6EKTE7LQQ5 | 王斌 | accepted |
 | children | p_WMDBx8YbaqrfbBxkSxgvG3 | 王和 | accepted |
+| descendants | p_1kPwo9xT5TtA5YmLc4QpXm | 王念 | accepted |
 
 ## 外部来源
 

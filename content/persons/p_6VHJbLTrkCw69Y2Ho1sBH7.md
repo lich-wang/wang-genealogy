@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王象节
 cbdb_id: 207553
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -203,6 +203,43 @@ relationships:
         status: active
         display_name: 王之辅
         merged_into_person_id: null
+    - claim:
+        id: c_bB5zJLVcQfIol2NECJgVIm
+        subject_person_id: p_XRchC4Q8Hy5af1i8tWw7Q5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6VHJbLTrkCw69Y2Ho1sBH7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Phc-0Z6ZgEQJEdlisijakN
+          claim_id: c_bB5zJLVcQfIol2NECJgVIm
+          source_id: s_6WT5gAno7eCVQdDVPgz6A2
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第一百九十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6WT5gAno7eCVQdDVPgz6A2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之輔（CBDB 232523）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232523&o=json
+            external_identifier: CBDB:232523
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.691Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_XRchC4Q8Hy5af1i8tWw7Q5
+        status: active
+        display_name: 王之輔
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -303,6 +340,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_VLPN2ybQtkqyCPrJiYL7vx | 王之辅 | accepted |
+| parents | p_XRchC4Q8Hy5af1i8tWw7Q5 | 王之輔 | accepted |
 | ancestors | p_m96bCuQFApTz79SaUYiwpQ | 王重光 | accepted |
 | ancestors | p_VwN7eG86JDxNDZrGUdF1Q5 | 王麟 | accepted |
 
@@ -311,5 +349,6 @@ relationships:
 - [维基数据：王象节（Q16075437）](https://www.wikidata.org/wiki/Q16075437)
 - [维基数据：王之辅（Q16075319）](https://www.wikidata.org/wiki/Q16075319)
 - [中国历代人物传记资料库：王麟（CBDB 232520）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232520&o=json)
+- [中国历代人物传记资料库：王之輔（CBDB 232523）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232523&o=json)
 - [中国历代人物传记资料库：王重光（CBDB 232522）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232522&o=json)
 - [CBDB 中国历代人物传记资料库：王象節（207553）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207553&o=json)

@@ -4,7 +4,7 @@ id: p_xudQJZpJJZhahsozMDV86i
 status: active
 merged_into: null
 display_name: 王茂瓊
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c__dkmYAnR6Xi0xY1aZa_xzE
+        subject_person_id: p_baPx7xrKQVVrCaN9KsE9x5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xudQJZpJJZhahsozMDV86i
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__yftycTAyp24Xu0tsysiDA
+          claim_id: c__dkmYAnR6Xi0xY1aZa_xzE
+          source_id: s_vBzDBqA84pq5oAn7YowZsE
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，王章、王虔、王珣墓誌：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_baPx7xrKQVVrCaN9KsE9x5
+        status: active
+        display_name: 王虔
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_baPx7xrKQVVrCaN9KsE9x5 | 王虔 | accepted |
 
 ## 外部来源
 

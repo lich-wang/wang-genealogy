@@ -4,7 +4,7 @@ id: p_v3b97W1yi7J7kSEqJr8m4E
 status: active
 merged_into: null
 display_name: 王玹
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_yVomOuItwIcCWSy6fXrzfi
+        subject_person_id: p_Y9VpT5a4bHRsBrje4LpbfA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_v3b97W1yi7J7kSEqJr8m4E
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6il5sz4nf8NWu1AsCR9Vzu
+          claim_id: c_yVomOuItwIcCWSy6fXrzfi
+          source_id: s_supKiBCeqfoZKnhWAj2v7T
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第一百六十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_supKiBCeqfoZKnhWAj2v7T
+            source_type: api_record
+            title: 中国历代人物传记资料库：王豫（CBDB 260235）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260235&o=json
+            external_identifier: CBDB:260235
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.486Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Y9VpT5a4bHRsBrje4LpbfA
+        status: active
+        display_name: 王豫
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +237,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Y9VpT5a4bHRsBrje4LpbfA | 王豫 | accepted |
 | ancestors | p_BbCkLEm6dMxpYfs2i2AZTe | 王樸 | accepted |
 | ancestors | p_hEsLuW6exDAGj1kfP5kxRw | 王佐 | accepted |
 
@@ -207,4 +245,5 @@ relationships:
 
 - [中国历代人物传记资料库：王樸（CBDB 260232）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260232&o=json)
 - [中国历代人物传记资料库：王玹（CBDB 200596）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200596&o=json)
+- [中国历代人物传记资料库：王豫（CBDB 260235）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260235&o=json)
 - [中国历代人物传记资料库：王佐（CBDB 260233）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260233&o=json)

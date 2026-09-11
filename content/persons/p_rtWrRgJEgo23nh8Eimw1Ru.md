@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王同福
 cbdb_id: 140942
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -285,6 +285,43 @@ relationships:
         status: active
         display_name: 王稅
         merged_into_person_id: null
+    - claim:
+        id: c_VuvlZaO5EUba-gzJMWo9o5
+        subject_person_id: p_rtWrRgJEgo23nh8Eimw1Ru
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XPysYqDtsR4ZVXKPTLy38k
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_32XX7oI-IymmrvFgqJKzn2
+          claim_id: c_VuvlZaO5EUba-gzJMWo9o5
+          source_id: s_65EkLqNPyTPo87Qn7FWbpn
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 138：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_65EkLqNPyTPo87Qn7FWbpn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王稹（CBDB 153903）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153903&o=json
+            external_identifier: CBDB:153903
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.867Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_XPysYqDtsR4ZVXKPTLy38k
+        status: active
+        display_name: 王稹
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -313,6 +350,7 @@ relationships:
 | parents | p_389dd5GP5rFAhVpSaMfiBr | 王思溫 | accepted |
 | children | p_P1CYF2gyDaKSQoJhGX65o8 | 王稷 | accepted |
 | children | p_ra85RyaZ4gyN3v1fbr8HX4 | 王稅 | accepted |
+| children | p_XPysYqDtsR4ZVXKPTLy38k | 王稹 | accepted |
 
 ## 外部来源
 
@@ -320,3 +358,4 @@ relationships:
 - [中国历代人物传记资料库：王稅（CBDB 153901）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153901&o=json)
 - [中国历代人物传记资料库：王思溫（CBDB 153900）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153900&o=json)
 - [中国历代人物传记资料库：王同福（CBDB 140942）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140942&o=json)
+- [中国历代人物传记资料库：王稹（CBDB 153903）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153903&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王堅叔
 cbdb_id: 136561
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -128,7 +128,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_LZQTxdmkHwECsUnsEpUuO-
+        subject_person_id: p_Y7xw69wqSLG2G9CDMuvsf4
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_WgNmx4b4KuLP378oSihf2n
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hmgYwfFijbwaCOdqsZ_h1O
+          claim_id: c_LZQTxdmkHwECsUnsEpUuO-
+          source_id: s_6oFGyBGH6oCWm8hKx7X3Kz
+          stance: supports
+          locator: 寶祐登科錄：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6oFGyBGH6oCWm8hKx7X3Kz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王延（CBDB 138041）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=138041&o=json
+            external_identifier: CBDB:138041
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.355Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Y7xw69wqSLG2G9CDMuvsf4
+        status: active
+        display_name: 王延
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -149,8 +186,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_kcQYXAtAdx71RQEhXoKNPK | 王剛中 | accepted |
+| ancestors | p_Y7xw69wqSLG2G9CDMuvsf4 | 王延 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王剛中（CBDB 38015）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38015&o=json)
 - [中国历代人物传记资料库：王堅叔（CBDB 136561）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136561&o=json)
+- [中国历代人物传记资料库：王延（CBDB 138041）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=138041&o=json)

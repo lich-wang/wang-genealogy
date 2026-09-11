@@ -4,7 +4,7 @@ id: p_XDFGKptw1EWAKBbTEUcvCN
 status: active
 merged_into: null
 display_name: 王銀
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_73TwUCaNvmGDE2Sj9UgBAy
+        subject_person_id: p_XDFGKptw1EWAKBbTEUcvCN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uQx6CsD653L6hRpaz3mPf9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qOhS3JptvL8TsEhaO5MoFp
+          claim_id: c_73TwUCaNvmGDE2Sj9UgBAy
+          source_id: s_g7PvXEm32PrkrhEsYaPNjG
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第二甲第八十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uQx6CsD653L6hRpaz3mPf9
+        status: active
+        display_name: 王同祖
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_uQx6CsD653L6hRpaz3mPf9 | 王同祖 | accepted |
 
 ## 外部来源
 

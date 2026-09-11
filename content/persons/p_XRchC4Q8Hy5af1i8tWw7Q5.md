@@ -4,7 +4,7 @@ id: p_XRchC4Q8Hy5af1i8tWw7Q5
 status: active
 merged_into: null
 display_name: 王之輔
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_bB5zJLVcQfIol2NECJgVIm
+        subject_person_id: p_XRchC4Q8Hy5af1i8tWw7Q5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6VHJbLTrkCw69Y2Ho1sBH7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Phc-0Z6ZgEQJEdlisijakN
+          claim_id: c_bB5zJLVcQfIol2NECJgVIm
+          source_id: s_6WT5gAno7eCVQdDVPgz6A2
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第一百九十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_6VHJbLTrkCw69Y2Ho1sBH7
+        status: active
+        display_name: 王象节
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_6VHJbLTrkCw69Y2Ho1sBH7 | 王象节 | accepted |
 
 ## 外部来源
 

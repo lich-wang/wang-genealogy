@@ -4,7 +4,7 @@ id: p_xGopDcAXJgrE5Lk3DZAkF3
 status: active
 merged_into: null
 display_name: 王文燁
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_7ACcHb4JGrZdBpyYjzkM0S
+        subject_person_id: p_oDCtFv3cf2CiUbXVcBy9FF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xGopDcAXJgrE5Lk3DZAkF3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZxQkF_tPjf18Ke_8x4_ZYs
+          claim_id: c_7ACcHb4JGrZdBpyYjzkM0S
+          source_id: s_B9S4ZW4dvd4HsF7CtNZXS6
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第六名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oDCtFv3cf2CiUbXVcBy9FF
+        status: active
+        display_name: 王廷榦
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_oDCtFv3cf2CiUbXVcBy9FF | 王廷榦 | accepted |
 
 ## 外部来源
 

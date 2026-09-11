@@ -4,7 +4,7 @@ id: p_WQq7QzkQTzLqnMJ812eWYA
 status: active
 merged_into: null
 display_name: 王之誥
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -148,6 +148,43 @@ relationships:
         status: active
         display_name: 王夢麟
         merged_into_person_id: null
+    - claim:
+        id: c_PlCn8zHT_-8pI02KPfl-_d
+        subject_person_id: p_WQq7QzkQTzLqnMJ812eWYA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XSJW73LZQQ3QSRoYSZBzFt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EVDywTmvrN9rnyikDoiBju
+          claim_id: c_PlCn8zHT_-8pI02KPfl-_d
+          source_id: s_yqbW9ZjhR1qvMP3vpJxysm
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），14137：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_yqbW9ZjhR1qvMP3vpJxysm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王夢舃（CBDB 528037）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=528037&o=json
+            external_identifier: CBDB:528037
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.349Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_XSJW73LZQQ3QSRoYSZBzFt
+        status: active
+        display_name: 王夢舃
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -247,6 +284,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_HxEM6RL9fRNSLHFJ3ioZEE | 王芳 | accepted |
 | children | p_AmqhuDVmsQBqJU7SL3xZMz | 王夢麟 | accepted |
+| children | p_XSJW73LZQQ3QSRoYSZBzFt | 王夢舃 | accepted |
 | ancestors | p_JQ2MtbSvxnZ2BtVWDiPUDG | 王俸 | accepted |
 | ancestors | p_TqbdmyxqR2Ucz5qM82wt26 | 王伯載 | accepted |
 
@@ -256,4 +294,5 @@ relationships:
 - [中国历代人物传记资料库：王芳（CBDB 307682）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307682&o=json)
 - [中国历代人物传记资料库：王俸（CBDB 307680）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307680&o=json)
 - [中国历代人物传记资料库：王夢麟（CBDB 528036）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=528036&o=json)
+- [中国历代人物传记资料库：王夢舃（CBDB 528037）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=528037&o=json)
 - [中国历代人物传记资料库：王之誥（CBDB 124361）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=124361&o=json)

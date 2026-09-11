@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王僧修
 cbdb_id: 175866
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_9jBicmIvsJvD9tsqHBA5N7
+        subject_person_id: p_XYgRDTMQMKLwMjzmrS4u9S
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2FfCNSZbmawkyTxk2zgdBv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xFacOXk-QPkL3U_Ko12XAg
+          claim_id: c_9jBicmIvsJvD9tsqHBA5N7
+          source_id: s_7pwdxXmyoz1AKHuC8L9wQ3
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7pwdxXmyoz1AKHuC8L9wQ3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王神念（CBDB 175838）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175838&o=json
+            external_identifier: CBDB:175838
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.155Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_XYgRDTMQMKLwMjzmrS4u9S
+        status: active
+        display_name: 王神念
+        merged_into_person_id: null
   children:
     - claim:
         id: c_4oULUTNxTeNnJDA6yzFgiG
@@ -192,9 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_XYgRDTMQMKLwMjzmrS4u9S | 王神念 | accepted |
 | children | p_6PF94LpiFwv7ZBPi4LiuxW | 王景孝 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王僧修（CBDB 175866）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175866&o=json)
+- [中国历代人物传记资料库：王神念（CBDB 175838）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175838&o=json)
 - [CBDB 中国历代人物传记资料库：王景孝（175867）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175867&o=json)

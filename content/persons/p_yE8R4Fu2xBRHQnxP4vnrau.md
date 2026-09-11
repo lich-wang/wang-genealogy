@@ -4,7 +4,7 @@ id: p_yE8R4Fu2xBRHQnxP4vnrau
 status: active
 merged_into: null
 display_name: 王寧
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_xSv-Ep-KvbMPH7w_QufvCv
+        subject_person_id: p_xFFdPdJwKEcff8qRsr4b53
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yE8R4Fu2xBRHQnxP4vnrau
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K6aIGbMTpxw76Pze_u0g11
+          claim_id: c_xSv-Ep-KvbMPH7w_QufvCv
+          source_id: s_dd11Ucp3nBYq5pLBRoWsZ8
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第三甲第二百零六名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xFFdPdJwKEcff8qRsr4b53
+        status: active
+        display_name: 王紹紀
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_iemBz_6Y5hyZswpNKw4sGz
+        subject_person_id: p_gmSkBYBnj6AUDqkC7pewDS
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_yE8R4Fu2xBRHQnxP4vnrau
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uby6xaCWTSlBwa27NZtNah
+          claim_id: c_iemBz_6Y5hyZswpNKw4sGz
+          source_id: s_dd11Ucp3nBYq5pLBRoWsZ8
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第三甲第二百零六名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_gmSkBYBnj6AUDqkC7pewDS
+        status: active
+        display_name: 王某選
+        merged_into_person_id: null
+    - claim:
+        id: c_rMcXaTlHmS0773bm1lM6YU
+        subject_person_id: p_2EDQ55UQpfwb7UC1C3XQAT
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_yE8R4Fu2xBRHQnxP4vnrau
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SZxy0L7T7JDFm1o4x2blKt
+          claim_id: c_rMcXaTlHmS0773bm1lM6YU
+          source_id: s_dd11Ucp3nBYq5pLBRoWsZ8
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第三甲第二百零六名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_2EDQ55UQpfwb7UC1C3XQAT
+        status: active
+        display_name: 王郁文
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xFFdPdJwKEcff8qRsr4b53 | 王紹紀 | accepted |
+| ancestors | p_gmSkBYBnj6AUDqkC7pewDS | 王某選 | accepted |
+| ancestors | p_2EDQ55UQpfwb7UC1C3XQAT | 王郁文 | accepted |
 
 ## 外部来源
 

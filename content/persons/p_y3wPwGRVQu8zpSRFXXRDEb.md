@@ -4,7 +4,7 @@ id: p_y3wPwGRVQu8zpSRFXXRDEb
 status: active
 merged_into: null
 display_name: 王夢祥
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_RaOiujhA9ozW2ksuruWFPu
+        subject_person_id: p_y3wPwGRVQu8zpSRFXXRDEb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Kf6CG7GiTEZFms57CWBMuQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SglsQLhJIKzBWTDro8KMHh
+          claim_id: c_RaOiujhA9ozW2ksuruWFPu
+          source_id: s_cb4NCj6AFA1rBgfugfXZ1F
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第一甲第二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Kf6CG7GiTEZFms57CWBMuQ
+        status: active
+        display_name: 王錫爵
+        merged_into_person_id: null
+    - claim:
+        id: c_djUWjMIXXrkqCGZQtpXHl9
+        subject_person_id: p_y3wPwGRVQu8zpSRFXXRDEb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BnqT97Hd2v2PTKqLmsYzS9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8vBuvvXYX0UorZrtZXkuWR
+          claim_id: c_djUWjMIXXrkqCGZQtpXHl9
+          source_id: s_cb4NCj6AFA1rBgfugfXZ1F
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第二甲第九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_BnqT97Hd2v2PTKqLmsYzS9
+        status: active
+        display_name: 王鼎爵
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_Kf6CG7GiTEZFms57CWBMuQ | 王錫爵 | accepted |
+| children | p_BnqT97Hd2v2PTKqLmsYzS9 | 王鼎爵 | accepted |
 
 ## 外部来源
 

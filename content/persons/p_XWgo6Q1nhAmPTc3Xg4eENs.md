@@ -4,7 +4,7 @@ id: p_XWgo6Q1nhAmPTc3Xg4eENs
 status: active
 merged_into: null
 display_name: 王翀
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_f_mVBER0JpmdngZ4anx_Pp
+        subject_person_id: p_y6LBWWQUDfvbAme5hkV5bP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XWgo6Q1nhAmPTc3Xg4eENs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-u8_p_mxT4mbs98WeyokjN
+          claim_id: c_f_mVBER0JpmdngZ4anx_Pp
+          source_id: s_V7bBK9Z5MA2Mm83Cscu51D
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第二甲第八十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_V7bBK9Z5MA2Mm83Cscu51D
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大韶（CBDB 264656）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264656&o=json
+            external_identifier: CBDB:264656
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.655Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_y6LBWWQUDfvbAme5hkV5bP
+        status: active
+        display_name: 王大韶
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_y6LBWWQUDfvbAme5hkV5bP | 王大韶 | accepted |
 | ancestors | p_1nAYMGDjjS8xNNpA1JXED9 | 王翼 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王翀（CBDB 200923）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200923&o=json)
+- [中国历代人物传记资料库：王大韶（CBDB 264656）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264656&o=json)
 - [中国历代人物传记资料库：王翼（CBDB 264655）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264655&o=json)

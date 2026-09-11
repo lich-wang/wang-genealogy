@@ -4,7 +4,7 @@ id: p_Z6vCWYnkMUoH1H52LSJS5y
 status: active
 merged_into: null
 display_name: 王俸
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王埜
         merged_into_person_id: null
+    - claim:
+        id: c_n0V3yXg0QVJ_NZcfz4DDtU
+        subject_person_id: p_xH9SLCYpqBrjCXHYBnFfAY
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Z6vCWYnkMUoH1H52LSJS5y
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_I2Pi-1IfiR1s2_QmLrGwS0
+          claim_id: c_n0V3yXg0QVJ_NZcfz4DDtU
+          source_id: s_1T4KroKndFrf38D2c2MAUA
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第三甲第一百五十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1T4KroKndFrf38D2c2MAUA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王澤（CBDB 304720）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304720&o=json
+            external_identifier: CBDB:304720
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.726Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_xH9SLCYpqBrjCXHYBnFfAY
+        status: active
+        display_name: 王澤
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_1vXBcYgVQiVxBH61v91xXQ | 王廉 | accepted |
 | ancestors | p_B9MBDhzV1N8hQ37qMA9DB5 | 王埜 | accepted |
+| ancestors | p_xH9SLCYpqBrjCXHYBnFfAY | 王澤 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王俸（CBDB 203437）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203437&o=json)
 - [中国历代人物传记资料库：王廉（CBDB 304722）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304722&o=json)
 - [中国历代人物传记资料库：王埜（CBDB 304721）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304721&o=json)
+- [中国历代人物传记资料库：王澤（CBDB 304720）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304720&o=json)

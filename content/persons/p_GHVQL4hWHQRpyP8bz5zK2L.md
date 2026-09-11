@@ -4,7 +4,7 @@ id: p_GHVQL4hWHQRpyP8bz5zK2L
 status: active
 merged_into: null
 display_name: 王澤
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王從善
         merged_into_person_id: null
+    - claim:
+        id: c_80o0wrk-eT3nG8RGc6lC0-
+        subject_person_id: p_xo3gN1AcnYp3rCvHMixt52
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GHVQL4hWHQRpyP8bz5zK2L
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vZMXtBYXVf8YzMcqVo8mKv
+          claim_id: c_80o0wrk-eT3nG8RGc6lC0-
+          source_id: s_SBzBe9yC6S8S8aC38vWy9E
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第三甲第四十一名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_SBzBe9yC6S8S8aC38vWy9E
+            source_type: api_record
+            title: 中国历代人物传记资料库：王和卿（CBDB 237284）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237284&o=json
+            external_identifier: CBDB:237284
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.830Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_xo3gN1AcnYp3rCvHMixt52
+        status: active
+        display_name: 王和卿
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_5c4qM7nrdVKGAvGun3bQkF | 王鳳 | accepted |
 | ancestors | p_vveUdSrNnRwKbTykZwZwL8 | 王從善 | accepted |
+| ancestors | p_xo3gN1AcnYp3rCvHMixt52 | 王和卿 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王從善（CBDB 237285）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237285&o=json)
 - [中国历代人物传记资料库：王鳳（CBDB 237286）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237286&o=json)
+- [中国历代人物传记资料库：王和卿（CBDB 237284）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237284&o=json)
 - [中国历代人物传记资料库：王澤（CBDB 207874）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207874&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王本固
 cbdb_id: 126484
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -166,6 +166,43 @@ relationships:
         status: active
         display_name: 王瑛
         merged_into_person_id: null
+    - claim:
+        id: c_O3xpxo4KkHHmIPgDlSXfTz
+        subject_person_id: p_xGgRsteHkxdd1G8uLRkZK5
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_QDMgaCLn9CeEes99W7dE45
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ntfCIcPkERurHIihFLnyZz
+          claim_id: c_O3xpxo4KkHHmIPgDlSXfTz
+          source_id: s_N386BzBQVQj9h7XFtfYeWf
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第三十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_N386BzBQVQj9h7XFtfYeWf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王信（CBDB 306579）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306579&o=json
+            external_identifier: CBDB:306579
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.768Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_xGgRsteHkxdd1G8uLRkZK5
+        status: active
+        display_name: 王信
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -187,9 +224,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_qktKkUGNYP4b8noG6768Wh | 王釗 | accepted |
 | ancestors | p_weCgmLZp1mLTAMT66ZFbbS | 王瑛 | accepted |
+| ancestors | p_xGgRsteHkxdd1G8uLRkZK5 | 王信 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王本固（CBDB 126484）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126484&o=json)
+- [中国历代人物传记资料库：王信（CBDB 306579）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306579&o=json)
 - [中国历代人物传记资料库：王瑛（CBDB 306580）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306580&o=json)
 - [中国历代人物传记资料库：王釗（CBDB 306581）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306581&o=json)

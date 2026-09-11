@@ -4,7 +4,7 @@ id: p_Y7xw69wqSLG2G9CDMuvsf4
 status: active
 merged_into: null
 display_name: 王延
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -116,6 +116,32 @@ relationships:
         status: active
         display_name: 王剛中
         merged_into_person_id: null
+    - claim:
+        id: c_LZQTxdmkHwECsUnsEpUuO-
+        subject_person_id: p_Y7xw69wqSLG2G9CDMuvsf4
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_WgNmx4b4KuLP378oSihf2n
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hmgYwfFijbwaCOdqsZ_h1O
+          claim_id: c_LZQTxdmkHwECsUnsEpUuO-
+          source_id: s_6oFGyBGH6oCWm8hKx7X3Kz
+          stance: supports
+          locator: 寶祐登科錄：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WgNmx4b4KuLP378oSihf2n
+        status: active
+        display_name: 王堅叔
+        merged_into_person_id: null
   other: []
 ---
 
@@ -135,6 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | descendants | p_kcQYXAtAdx71RQEhXoKNPK | 王剛中 | accepted |
+| descendants | p_WgNmx4b4KuLP378oSihf2n | 王堅叔 | accepted |
 
 ## 外部来源
 

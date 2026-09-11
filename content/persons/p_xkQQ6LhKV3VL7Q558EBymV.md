@@ -4,7 +4,7 @@ id: p_xkQQ6LhKV3VL7Q558EBymV
 status: active
 merged_into: null
 display_name: 王宜生
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_nmTDyKgLYf9JbB0Z6zH8Yf
+        subject_person_id: p_oBg2fph2HQeUi63Z2hsgrx
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_xkQQ6LhKV3VL7Q558EBymV
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Uil0zuG9R9_OvEgLaCHe_E
+          claim_id: c_nmTDyKgLYf9JbB0Z6zH8Yf
+          source_id: s_k5oLJFfnrDbYMsmmYYqo92
+          stance: supports
+          locator: 芒洛冢墓遺文四編，王魯翁墓志：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oBg2fph2HQeUi63Z2hsgrx
+        status: active
+        display_name: 王壽卿
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_oBg2fph2HQeUi63Z2hsgrx | 王壽卿 | accepted |
 
 ## 外部来源
 

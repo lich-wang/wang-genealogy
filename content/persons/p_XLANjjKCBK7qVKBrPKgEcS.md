@@ -4,7 +4,7 @@ id: p_XLANjjKCBK7qVKBrPKgEcS
 status: active
 merged_into: null
 display_name: 王堅
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -176,6 +176,58 @@ relationships:
         status: active
         display_name: 王仲康
         merged_into_person_id: null
+    - claim:
+        id: c_L9hkQ2ZlVOSgbcsirYqg4e
+        subject_person_id: p_XLANjjKCBK7qVKBrPKgEcS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_f64t58x2UHRKvrzQmw1Cj5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IwPifsmsRtcRFA0BuYsilV
+          claim_id: c_L9hkQ2ZlVOSgbcsirYqg4e
+          source_id: s_ECj7QkZf2eqrd31bgGYu9Z
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_f64t58x2UHRKvrzQmw1Cj5
+        status: active
+        display_name: 王仲初
+        merged_into_person_id: null
+    - claim:
+        id: c_94HVMsWo6E8QpW5zkYvzwg
+        subject_person_id: p_XLANjjKCBK7qVKBrPKgEcS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eJdKzNPvPGqGFk5vNPPWhh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yTlbzIqh68lwQ0Cyw_1ygH
+          claim_id: c_94HVMsWo6E8QpW5zkYvzwg
+          source_id: s_ECj7QkZf2eqrd31bgGYu9Z
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_eJdKzNPvPGqGFk5vNPPWhh
+        status: active
+        display_name: 王仲詹
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -202,6 +254,8 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_nLiT1zEiwV2dsUPbDKdS49 | 王岳 | accepted |
 | children | p_siyVkBP3BBDbeJ9Le2oaDN | 王仲康 | accepted |
+| children | p_f64t58x2UHRKvrzQmw1Cj5 | 王仲初 | accepted |
+| children | p_eJdKzNPvPGqGFk5vNPPWhh | 王仲詹 | accepted |
 
 ## 外部来源
 

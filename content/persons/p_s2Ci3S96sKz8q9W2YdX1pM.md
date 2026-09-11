@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王審瓊
 cbdb_id: 689254
-revision: 10
+revision: 11
 properties:
   - predicate: bio.summary
     recommended:
@@ -167,6 +167,43 @@ relationships:
         id: p_ew3NkC6K589nn45EjmCt81
         status: active
         display_name: 王知濬
+        merged_into_person_id: null
+    - claim:
+        id: c_3o9zApS3a2YfDT2el4GWW0
+        subject_person_id: p_s2Ci3S96sKz8q9W2YdX1pM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XEBmM74iDRd9pWQEX3aW77
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OAMJvuUFXVKv46xf14ZLx4
+          claim_id: c_3o9zApS3a2YfDT2el4GWW0
+          source_id: s_tKeBR8Nf39CktHF7UrjKCn
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，40/王審瓊墓誌：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_tKeBR8Nf39CktHF7UrjKCn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王知誨（CBDB 689301）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689301&o=json
+            external_identifier: CBDB:689301
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.471Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_XEBmM74iDRd9pWQEX3aW77
+        status: active
+        display_name: 王知誨
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
@@ -469,6 +506,43 @@ relationships:
         status: active
         display_name: 王大䔪
         merged_into_person_id: null
+    - claim:
+        id: c_ng9IcJj5DMM0PLgzZzpfMO
+        subject_person_id: p_s2Ci3S96sKz8q9W2YdX1pM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Y6hGSBTgj27TktBQCunLJM
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_79BH7aHwE-JzIt51UEbXpD
+          claim_id: c_ng9IcJj5DMM0PLgzZzpfMO
+          source_id: s_1N7PwP2h7DF3wGxNJQXpB5
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，40/王審瓊墓誌：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1N7PwP2h7DF3wGxNJQXpB5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王守忠（CBDB 689314）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689314&o=json
+            external_identifier: CBDB:689314
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.550Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Y6hGSBTgj27TktBQCunLJM
+        status: active
+        display_name: 王守忠
+        merged_into_person_id: null
   other: []
 ---
 
@@ -489,6 +563,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_ew3NkC6K589nn45EjmCt81 | 王知濬 | accepted |
+| children | p_XEBmM74iDRd9pWQEX3aW77 | 王知誨 | accepted |
 | descendants | p_27uSqTLx5pXAroYbs1kCGZ | 王守旻 | accepted |
 | descendants | p_5KFz2XTNmFB2Vb5p3SFsG7 | 王翁喜 | accepted |
 | descendants | p_9cVZtJ85CH1LJNFC1g9w8T | 王忙兒 | accepted |
@@ -497,6 +572,7 @@ relationships:
 | descendants | p_nSJyU64RDm1XGBh2kWtdLx | 王疥姐 | accepted |
 | descendants | p_P9AZuQa6GrmDhsi8wm26FC | 王婆憎 | accepted |
 | descendants | p_QN76kLww6aXF2YK9ZiUjHm | 王大䔪 | accepted |
+| descendants | p_Y6hGSBTgj27TktBQCunLJM | 王守忠 | accepted |
 
 ## 外部来源
 
@@ -506,7 +582,9 @@ relationships:
 - [中国历代人物传记资料库：王婆憎（CBDB 689361）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689361&o=json)
 - [中国历代人物传记资料库：王審瓊（CBDB 689254）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689254&o=json)
 - [中国历代人物传记资料库：王守旻（CBDB 689326）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689326&o=json)
+- [中国历代人物传记资料库：王守忠（CBDB 689314）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689314&o=json)
 - [中国历代人物传记资料库：王翁喜（CBDB 689353）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689353&o=json)
 - [中国历代人物传记资料库：王吳兒（CBDB 689333）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689333&o=json)
 - [中国历代人物传记资料库：王要羅（CBDB 689360）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689360&o=json)
+- [中国历代人物传记资料库：王知誨（CBDB 689301）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689301&o=json)
 - [中国历代人物传记资料库：王知濬（CBDB 689300）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689300&o=json)

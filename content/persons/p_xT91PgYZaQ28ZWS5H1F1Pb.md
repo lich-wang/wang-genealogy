@@ -4,7 +4,7 @@ id: p_xT91PgYZaQ28ZWS5H1F1Pb
 status: active
 merged_into: null
 display_name: 王文幹
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,142 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_ir-oL7xtpfxED2_WxYhG5u
+        subject_person_id: p_iCYMvWqdPTMReNWcJw9Xs2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xT91PgYZaQ28ZWS5H1F1Pb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rkD97HRVO-sf3ZTh_PHAuJ
+          claim_id: c_ir-oL7xtpfxED2_WxYhG5u
+          source_id: s_1SQTm9bfti1Cf4E7AWrBph
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Huichang 37：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iCYMvWqdPTMReNWcJw9Xs2
+        status: active
+        display_name: 王臣端
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_8UlfM8qardKKR3lpwH3mwf
+        subject_person_id: p_xT91PgYZaQ28ZWS5H1F1Pb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dACwgZwbNR1ZJ5Htbc7g4U
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zVs55QLiUgJI4dcOUMxmts
+          claim_id: c_8UlfM8qardKKR3lpwH3mwf
+          source_id: s_1SQTm9bfti1Cf4E7AWrBph
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Huichang 37：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_dACwgZwbNR1ZJ5Htbc7g4U
+        status: active
+        display_name: 王義仙
+        merged_into_person_id: null
+    - claim:
+        id: c_ijmvB9zbVZfDOGpDoh4RKa
+        subject_person_id: p_xT91PgYZaQ28ZWS5H1F1Pb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FtuUTb6ACwBxcj5M1tKQTh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qEnTV0r3VdDeleBZ6FkslQ
+          claim_id: c_ijmvB9zbVZfDOGpDoh4RKa
+          source_id: s_1SQTm9bfti1Cf4E7AWrBph
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Huichang 37：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_FtuUTb6ACwBxcj5M1tKQTh
+        status: active
+        display_name: 王義立
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_4PqXQF4-uVoMIWO6uNiQpB
+        subject_person_id: p_A1tXxgh42mmsn6d6eNs4nD
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_xT91PgYZaQ28ZWS5H1F1Pb
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WHlCDaTV-yakvThoX9_bWG
+          claim_id: c_4PqXQF4-uVoMIWO6uNiQpB
+          source_id: s_1SQTm9bfti1Cf4E7AWrBph
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Huichang 37：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_A1tXxgh42mmsn6d6eNs4nD
+        status: active
+        display_name: 王奉忠
+        merged_into_person_id: null
+    - claim:
+        id: c_YgH8N5PWU9xEWMkiPTZvm1
+        subject_person_id: p_eqTLPp4L1yE8imCTDAgei5
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_xT91PgYZaQ28ZWS5H1F1Pb
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_thzzfrkb6kuhlTQcbYMY6X
+          claim_id: c_YgH8N5PWU9xEWMkiPTZvm1
+          source_id: s_1SQTm9bfti1Cf4E7AWrBph
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Huichang 37：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_eqTLPp4L1yE8imCTDAgei5
+        status: active
+        display_name: 王英進
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +285,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_iCYMvWqdPTMReNWcJw9Xs2 | 王臣端 | accepted |
+| children | p_dACwgZwbNR1ZJ5Htbc7g4U | 王義仙 | accepted |
+| children | p_FtuUTb6ACwBxcj5M1tKQTh | 王義立 | accepted |
+| ancestors | p_A1tXxgh42mmsn6d6eNs4nD | 王奉忠 | accepted |
+| ancestors | p_eqTLPp4L1yE8imCTDAgei5 | 王英進 | accepted |
 
 ## 外部来源
 

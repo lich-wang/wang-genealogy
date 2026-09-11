@@ -4,7 +4,7 @@ id: p_xNxqWv9Hmn4hXrvNdwjCoG
 status: active
 merged_into: null
 display_name: 王有齡
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -167,6 +167,58 @@ relationships:
         status: active
         display_name: 王卿雲
         merged_into_person_id: null
+    - claim:
+        id: c_DVxwapXnBaD3Vl3UvzhelX
+        subject_person_id: p_xNxqWv9Hmn4hXrvNdwjCoG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jLj9x5Hx3ewwMHtmL6YHsw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XC81G-tig-RIEKNttfBZ-7
+          claim_id: c_DVxwapXnBaD3Vl3UvzhelX
+          source_id: s_FvitfWSLd4NM6p1mWGEoTJ
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），8721：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_jLj9x5Hx3ewwMHtmL6YHsw
+        status: active
+        display_name: 王見三
+        merged_into_person_id: null
+    - claim:
+        id: c_pRC16AAeXbMoss6rbQAoAv
+        subject_person_id: p_xNxqWv9Hmn4hXrvNdwjCoG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GsbVM3sDzY5NMmwXdfBsgF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bPIxX_Ldw2Jkm0YhCoMZWn
+          claim_id: c_pRC16AAeXbMoss6rbQAoAv
+          source_id: s_FvitfWSLd4NM6p1mWGEoTJ
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），8721：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GsbVM3sDzY5NMmwXdfBsgF
+        status: active
+        display_name: 王矞雲
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,6 +245,8 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_4Y6PHUUzRvgSDB6HwQxJqo | 王卿雲 | accepted |
+| children | p_jLj9x5Hx3ewwMHtmL6YHsw | 王見三 | accepted |
+| children | p_GsbVM3sDzY5NMmwXdfBsgF | 王矞雲 | accepted |
 
 ## 外部来源
 

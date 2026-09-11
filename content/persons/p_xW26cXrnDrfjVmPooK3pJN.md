@@ -4,7 +4,7 @@ id: p_xW26cXrnDrfjVmPooK3pJN
 status: active
 merged_into: null
 display_name: 王之俊
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_g75cEmOoynrVUm6OAp_mwD
+        subject_person_id: p_iXZtEyPro2rGmw242iDT2E
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xW26cXrnDrfjVmPooK3pJN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_S2HfmsNsIXSs_CIc-ZaQNG
+          claim_id: c_g75cEmOoynrVUm6OAp_mwD
+          source_id: s_oMYGjRarJMUx3FKLsdwj7P
+          stance: supports
+          locator: 紹興府志:八十卷，lgid=317109：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iXZtEyPro2rGmw242iDT2E
+        status: active
+        display_name: 王元輔
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_iXZtEyPro2rGmw242iDT2E | 王元輔 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_vF71zw6QtRwNeJCCHhLGQ3
 status: active
 merged_into: null
 display_name: 王惟善
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_aXIXIFUbh5ztjs7ulGQpKw
+        subject_person_id: p_yaWmfvLTxtb9qEq656GZEq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vF71zw6QtRwNeJCCHhLGQ3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UsycIDNDqeqXu597Dizf6N
+          claim_id: c_aXIXIFUbh5ztjs7ulGQpKw
+          source_id: s_jUvjr6HKGwymPjnSERLKb8
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第一百一十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_jUvjr6HKGwymPjnSERLKb8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王紘（CBDB 310742）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310742&o=json
+            external_identifier: CBDB:310742
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.844Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_yaWmfvLTxtb9qEq656GZEq
+        status: active
+        display_name: 王紘
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +237,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_yaWmfvLTxtb9qEq656GZEq | 王紘 | accepted |
 | ancestors | p_HDCNWautmCwMm5GuinNqs6 | 王迪 | accepted |
 | ancestors | p_oQsfGJvpB6D3cVd5wxtaBM | 王和 | accepted |
 
@@ -207,4 +245,5 @@ relationships:
 
 - [中国历代人物传记资料库：王迪（CBDB 310741）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310741&o=json)
 - [中国历代人物传记资料库：王和（CBDB 310739）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310739&o=json)
+- [中国历代人物传记资料库：王紘（CBDB 310742）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310742&o=json)
 - [中国历代人物传记资料库：王惟善（CBDB 203836）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203836&o=json)

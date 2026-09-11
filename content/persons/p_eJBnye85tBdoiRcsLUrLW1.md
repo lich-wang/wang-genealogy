@@ -4,7 +4,7 @@ id: p_eJBnye85tBdoiRcsLUrLW1
 status: active
 merged_into: null
 display_name: 王絳
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -213,6 +213,43 @@ relationships:
         status: active
         display_name: 王景
         merged_into_person_id: null
+    - claim:
+        id: c_K9uZrjpE3gq8DSHRUX5n_f
+        subject_person_id: p_eJBnye85tBdoiRcsLUrLW1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_y6WWM1FgMGi6MF5sh3nn1e
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QME9YCobZ9PP5mlJRDlNgF
+          claim_id: c_K9uZrjpE3gq8DSHRUX5n_f
+          source_id: s_ZRSu7DMvV4jbK4YQ6H1JQX
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZRSu7DMvV4jbK4YQ6H1JQX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王勛（CBDB 145231）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145231&o=json
+            external_identifier: CBDB:145231
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.659Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_y6WWM1FgMGi6MF5sh3nn1e
+        status: active
+        display_name: 王勛
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -240,6 +277,7 @@ relationships:
 | parents | p_CF7yfgasHmLpFwcb1NWfXr | 王伯倫 | accepted |
 | children | p_F1sDaCQr35NYU54Y7uiWGP | 王萇 | accepted |
 | children | p_gmQ5Y3wP2Q1jF9NzB2srAX | 王景 | accepted |
+| children | p_y6WWM1FgMGi6MF5sh3nn1e | 王勛 | accepted |
 
 ## 外部来源
 
@@ -247,3 +285,4 @@ relationships:
 - [中国历代人物传记资料库：王萇（CBDB 191192）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191192&o=json)
 - [中国历代人物传记资料库：王絳（CBDB 191190）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191190&o=json)
 - [中国历代人物传记资料库：王景（CBDB 191193）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191193&o=json)
+- [中国历代人物传记资料库：王勛（CBDB 145231）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145231&o=json)

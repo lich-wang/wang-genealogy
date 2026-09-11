@@ -4,7 +4,7 @@ id: p_xJkszbxvnJohtNkSwW6mRk
 status: active
 merged_into: null
 display_name: 王蒙
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_BORd3R7cbkKrL51YX5A11m
+        subject_person_id: p_xJkszbxvnJohtNkSwW6mRk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_P1dfjmbEcRUjawic9P8Mzq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FkfJKgmV5Xnfkz7QMrE1qk
+          claim_id: c_BORd3R7cbkKrL51YX5A11m
+          source_id: s_6pUqu12a94xLPVatFvJzk8
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，2007：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_P1dfjmbEcRUjawic9P8Mzq
+        status: active
+        display_name: 王與權
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_P1dfjmbEcRUjawic9P8Mzq | 王與權 | accepted |
 
 ## 外部来源
 

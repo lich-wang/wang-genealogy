@@ -4,7 +4,7 @@ id: p_xt7Rv4oxxKPySid4gC11sc
 status: active
 merged_into: null
 display_name: 王訓
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_nKblTNbjp2GvKpKSRjRtLz
+        subject_person_id: p_xt7Rv4oxxKPySid4gC11sc
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Uk3JWD2Whpfr1nbW4yeaJ2
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XlGMGTbTOJT_52gVhYYrw5
+          claim_id: c_nKblTNbjp2GvKpKSRjRtLz
+          source_id: s_Sp4QQk9F6ThMcS9rDbUEzN
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第五十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Uk3JWD2Whpfr1nbW4yeaJ2
+        status: active
+        display_name: 王應辰
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_Uk3JWD2Whpfr1nbW4yeaJ2 | 王應辰 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_oDCtFv3cf2CiUbXVcBy9FF
 status: active
 merged_into: null
 display_name: 王廷榦
-revision: 9
+revision: 10
 properties:
   - predicate: name.primary
     recommended:
@@ -212,6 +212,43 @@ relationships:
         id: p_gBimkCGQoGDQ7VZXasL4y6
         status: active
         display_name: 王文炯
+        merged_into_person_id: null
+    - claim:
+        id: c_7ACcHb4JGrZdBpyYjzkM0S
+        subject_person_id: p_oDCtFv3cf2CiUbXVcBy9FF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xGopDcAXJgrE5Lk3DZAkF3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZxQkF_tPjf18Ke_8x4_ZYs
+          claim_id: c_7ACcHb4JGrZdBpyYjzkM0S
+          source_id: s_B9S4ZW4dvd4HsF7CtNZXS6
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第六名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_B9S4ZW4dvd4HsF7CtNZXS6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文燁（CBDB 291899）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291899&o=json
+            external_identifier: CBDB:291899
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.378Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_xGopDcAXJgrE5Lk3DZAkF3
+        status: active
+        display_name: 王文燁
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
@@ -462,6 +499,7 @@ relationships:
 | parents | p_11RhKLzn2Mi6Moy5jEp4MD | 王汝猷 | accepted |
 | children | p_5gpPWrhVFmbfxwLkGyt6Up | 王文爟 | accepted |
 | children | p_gBimkCGQoGDQ7VZXasL4y6 | 王文炯 | accepted |
+| children | p_xGopDcAXJgrE5Lk3DZAkF3 | 王文燁 | accepted |
 | ancestors | p_2hBKyxrN1dj7d5F4o4qUat | 王達 | accepted |
 | descendants | p_2pEjUDgmg6ACaWkcArzGmB | 王允元 | accepted |
 | descendants | p_fagWpUqsWGi5ABdQASKVK9 | 王時陞 | accepted |
@@ -479,5 +517,6 @@ relationships:
 - [中国历代人物传记资料库：王廷榦（CBDB 126553）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126553&o=json)
 - [中国历代人物传记资料库：王文爟（CBDB 291900）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291900&o=json)
 - [中国历代人物传记资料库：王文炯（CBDB 291898）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291898&o=json)
+- [中国历代人物传记资料库：王文燁（CBDB 291899）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291899&o=json)
 - [中国历代人物传记资料库：王允亨（CBDB 291912）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291912&o=json)
 - [中国历代人物传记资料库：王允元（CBDB 291911）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291911&o=json)
