@@ -4,7 +4,7 @@ id: p_TDSACRPuvvyZ91nEqE7y1X
 status: active
 merged_into: null
 display_name: 王輔
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_hqZyVoU5XKRN_-Wmng1Bju
+        subject_person_id: p_TDSACRPuvvyZ91nEqE7y1X
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4epX45r9bJPqQLoodeDXss
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ved4MD7oO-GxLXjMa6sQrK
+          claim_id: c_hqZyVoU5XKRN_-Wmng1Bju
+          source_id: s_mQ2Mbm44EcchNqrBaH456s
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第二甲第八十八名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_mQ2Mbm44EcchNqrBaH456s
+            source_type: api_record
+            title: 中国历代人物传记资料库：王一陽（CBDB 203535）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203535&o=json
+            external_identifier: CBDB:203535
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.791Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_4epX45r9bJPqQLoodeDXss
+        status: active
+        display_name: 王一陽
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_4epX45r9bJPqQLoodeDXss | 王一陽 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王輔（CBDB 306144）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306144&o=json)
+- [中国历代人物传记资料库：王一陽（CBDB 203535）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203535&o=json)

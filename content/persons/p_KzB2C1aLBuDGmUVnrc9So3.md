@@ -4,7 +4,7 @@ id: p_KzB2C1aLBuDGmUVnrc9So3
 status: active
 merged_into: null
 display_name: 王珪
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -134,7 +134,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_8kvzEjBOxVn4veEnieLoS0
+        subject_person_id: p_KzB2C1aLBuDGmUVnrc9So3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4cye1JFWBJQv2VQjyoi17i
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3bvTGNDRUtinthcPVdMNc8
+          claim_id: c_8kvzEjBOxVn4veEnieLoS0
+          source_id: s_ZgyH83hJEC3GCk1HRZreAC
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZgyH83hJEC3GCk1HRZreAC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王㬇（CBDB 1820）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1820&o=json
+            external_identifier: CBDB:1820
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.285Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_4cye1JFWBJQv2VQjyoi17i
+        status: active
+        display_name: 王㬇
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_4cye1JFWBJQv2VQjyoi17i | 王㬇 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王珪（CBDB 1845）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1845&o=json)
+- [中国历代人物传记资料库：王㬇（CBDB 1820）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1820&o=json)

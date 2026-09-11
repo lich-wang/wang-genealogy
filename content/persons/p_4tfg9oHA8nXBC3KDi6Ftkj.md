@@ -4,7 +4,7 @@ id: p_4tfg9oHA8nXBC3KDi6Ftkj
 status: active
 merged_into: null
 display_name: 王可大
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,13 +72,117 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_xaJHtVgntSD6M7fMMUWbZ4
+        subject_person_id: p_WtHSaGmBzhNmmSZGD4ByjL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4tfg9oHA8nXBC3KDi6Ftkj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SpHsv5epu0XnhlEM5TRStb
+          claim_id: c_xaJHtVgntSD6M7fMMUWbZ4
+          source_id: s_33RLD1aJM1kGohTTTjF6wj
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第二甲第八十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WtHSaGmBzhNmmSZGD4ByjL
+        status: active
+        display_name: 王鑾
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
-  descendants: []
+  ancestors:
+    - claim:
+        id: c_UZUsuS1hwEDxUS3SQExcsa
+        subject_person_id: p_w5C91WDSavr3ujcuxfQ8fs
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4tfg9oHA8nXBC3KDi6Ftkj
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_X06judqrDFoacUu5Q3A7sx
+          claim_id: c_UZUsuS1hwEDxUS3SQExcsa
+          source_id: s_33RLD1aJM1kGohTTTjF6wj
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第二甲第八十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_w5C91WDSavr3ujcuxfQ8fs
+        status: active
+        display_name: 王信
+        merged_into_person_id: null
+    - claim:
+        id: c_TAbF5KMUOYT0iOGngaGqEt
+        subject_person_id: p_75UUBDKGozhsnJNXRNe48F
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4tfg9oHA8nXBC3KDi6Ftkj
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NIP8nxfab0aE8h3t2xWslG
+          claim_id: c_TAbF5KMUOYT0iOGngaGqEt
+          source_id: s_33RLD1aJM1kGohTTTjF6wj
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第二甲第八十三名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_75UUBDKGozhsnJNXRNe48F
+        status: active
+        display_name: 王閔
+        merged_into_person_id: null
+  descendants:
+    - claim:
+        id: c_eaejoDTgjvtoI8YYI3NAzR
+        subject_person_id: p_4tfg9oHA8nXBC3KDi6Ftkj
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bkZEV7s5emg2XrT2FCzbqF
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ONsel2uq_peUZQ3aaVNWgf
+          claim_id: c_eaejoDTgjvtoI8YYI3NAzR
+          source_id: s_33RLD1aJM1kGohTTTjF6wj
+          stance: supports
+          locator: 江南通志，lgid=65689：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_bkZEV7s5emg2XrT2FCzbqF
+        status: active
+        display_name: 王萬禩
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +201,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WtHSaGmBzhNmmSZGD4ByjL | 王鑾 | accepted |
+| ancestors | p_w5C91WDSavr3ujcuxfQ8fs | 王信 | accepted |
+| ancestors | p_75UUBDKGozhsnJNXRNe48F | 王閔 | accepted |
+| descendants | p_bkZEV7s5emg2XrT2FCzbqF | 王萬禩 | accepted |
 
 ## 外部来源
 

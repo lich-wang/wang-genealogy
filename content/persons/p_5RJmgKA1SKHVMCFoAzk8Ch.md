@@ -4,7 +4,7 @@ id: p_5RJmgKA1SKHVMCFoAzk8Ch
 status: active
 merged_into: null
 display_name: 王納言
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_yAZW-N9sUaAPnsCYPGlMO9
+        subject_person_id: p_4sb9wxGED3WQ2wGXi8FqHp
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5RJmgKA1SKHVMCFoAzk8Ch
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hH3znf1MQ8kIdovZtN6NCU
+          claim_id: c_yAZW-N9sUaAPnsCYPGlMO9
+          source_id: s_DpGPrMPYNC5Jt5pjde1HKA
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第五十八名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_DpGPrMPYNC5Jt5pjde1HKA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑜（CBDB 281212）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281212&o=json
+            external_identifier: CBDB:281212
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.047Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_4sb9wxGED3WQ2wGXi8FqHp
+        status: active
+        display_name: 王瑜
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_4sb9wxGED3WQ2wGXi8FqHp | 王瑜 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王納言（CBDB 126659）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126659&o=json)
+- [中国历代人物传记资料库：王瑜（CBDB 281212）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281212&o=json)

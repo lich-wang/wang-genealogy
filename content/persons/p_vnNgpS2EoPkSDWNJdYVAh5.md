@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王資良
 cbdb_id: 200587
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_hBQeio96ZF6lhcAVGB4MdJ
+        subject_person_id: p_3x4jebHTQ9Pn46x4TcE5WS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vnNgpS2EoPkSDWNJdYVAh5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yAA8WicZuVx-L1N8vrLoK6
+          claim_id: c_hBQeio96ZF6lhcAVGB4MdJ
+          source_id: s_5dSCsjLH47V5uunXrF3Ycj
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第一百五十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5dSCsjLH47V5uunXrF3Ycj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昇（CBDB 260055）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260055&o=json
+            external_identifier: CBDB:260055
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.473Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3x4jebHTQ9Pn46x4TcE5WS
+        status: active
+        display_name: 王昇
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,11 +266,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_3x4jebHTQ9Pn46x4TcE5WS | 王昇 | accepted |
 | ancestors | p_1qBzB6azv7B1r44CqXNnxZ | 王志道 | accepted |
 | ancestors | p_2u2LwXhEf3GM21Ww1y4hab | 王文煥 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王昇（CBDB 260055）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260055&o=json)
 - [中国历代人物传记资料库：王文煥（CBDB 260053）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260053&o=json)
 - [中国历代人物传记资料库：王志道（CBDB 260054）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260054&o=json)
 - [中国历代人物传记资料库：王資良（CBDB 200587）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200587&o=json)

@@ -4,7 +4,7 @@ id: p_4MQNbYanr85ZD5eECioUpp
 status: active
 merged_into: null
 display_name: 王守廉
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_eHAVLOY4wdHvSZBrbAH5Ui
+        subject_person_id: p_4MQNbYanr85ZD5eECioUpp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CHFMrQP33bcW5Sb2z1iSg4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ru3lH9zS79SjYGZW0Ar_2u
+          claim_id: c_eHAVLOY4wdHvSZBrbAH5Ui
+          source_id: s_Xt6EFxTaBxQFEMJ1NvSba4
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yuanhe 46：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_CHFMrQP33bcW5Sb2z1iSg4
+        status: active
+        display_name: 王奉林
+        merged_into_person_id: null
+    - claim:
+        id: c_bBeSBgrBlR-HHnSAAryZJ3
+        subject_person_id: p_4MQNbYanr85ZD5eECioUpp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rkLXhSrQp42YWZ7vwKKqH5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ah4_R-PF1OesTy-duo1f3M
+          claim_id: c_bBeSBgrBlR-HHnSAAryZJ3
+          source_id: s_Xt6EFxTaBxQFEMJ1NvSba4
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rkLXhSrQp42YWZ7vwKKqH5
+        status: active
+        display_name: 王奉國
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_CHFMrQP33bcW5Sb2z1iSg4 | 王奉林 | accepted |
+| children | p_rkLXhSrQp42YWZ7vwKKqH5 | 王奉國 | accepted |
 
 ## 外部来源
 

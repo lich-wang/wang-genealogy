@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王孟煦
 cbdb_id: 207153
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -134,7 +134,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_lfs-5VfBvqZDzRjLvga0vS
+        subject_person_id: p_3QV9NMYJ2zd7jKRpFyUmus
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Z1sXa1thNM94WHiooGYHug
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GufZgmAS9xNGpfgYLukCVr
+          claim_id: c_lfs-5VfBvqZDzRjLvga0vS
+          source_id: s_R4GMcpVWwnnjjxRjCJCR2i
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第一百六十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_R4GMcpVWwnnjjxRjCJCR2i
+            source_type: api_record
+            title: 中国历代人物传记资料库：王俊（CBDB 228572）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228572&o=json
+            external_identifier: CBDB:228572
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.562Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3QV9NMYJ2zd7jKRpFyUmus
+        status: active
+        display_name: 王俊
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_3QV9NMYJ2zd7jKRpFyUmus | 王俊 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王俊（CBDB 228572）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228572&o=json)
 - [中国历代人物传记资料库：王孟煦（CBDB 207153）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207153&o=json)

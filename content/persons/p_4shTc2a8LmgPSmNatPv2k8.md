@@ -4,7 +4,7 @@ id: p_4shTc2a8LmgPSmNatPv2k8
 status: active
 merged_into: null
 display_name: 王開甫
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_4ZEu8GYoKS6UdiTHeKJTdE
+        subject_person_id: p_xKo6KMEQJPRSCb1dZogeGq
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4shTc2a8LmgPSmNatPv2k8
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mSg-N9MKi_u_UrDmHK0YNO
+          claim_id: c_4ZEu8GYoKS6UdiTHeKJTdE
+          source_id: s_yVU59hN3WLNy5K5ybqm6Zy
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13140：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xKo6KMEQJPRSCb1dZogeGq
+        status: active
+        display_name: 王鉞
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_xKo6KMEQJPRSCb1dZogeGq | 王鉞 | accepted |
 
 ## 外部来源
 

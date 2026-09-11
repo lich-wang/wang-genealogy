@@ -4,7 +4,7 @@ id: p_3voEFztyjE9gBvRFtzzihf
 status: active
 merged_into: null
 display_name: 王柏
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -133,8 +133,60 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
-  descendants: []
+  ancestors:
+    - claim:
+        id: c_3xp1NkqsMJBxOT3KD4BRrF
+        subject_person_id: p_UJHNJUefP1hMoQv16JZ99z
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3voEFztyjE9gBvRFtzzihf
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wMUsiWPzqUZOHv7q_37MLW
+          claim_id: c_3xp1NkqsMJBxOT3KD4BRrF
+          source_id: s_pZFYSGMqe3azKLTFMuud9u
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UJHNJUefP1hMoQv16JZ99z
+        status: active
+        display_name: 王師愈
+        merged_into_person_id: null
+  descendants:
+    - claim:
+        id: c_4ZugZe_AlDuuQvmeIExOeB
+        subject_person_id: p_3voEFztyjE9gBvRFtzzihf
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_QDGt3MEV5PfFs8HB9rQeGK
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ek-hoLNFBxgKyfDB9G-rcS
+          claim_id: c_4ZugZe_AlDuuQvmeIExOeB
+          source_id: s_pZFYSGMqe3azKLTFMuud9u
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1363：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_QDGt3MEV5PfFs8HB9rQeGK
+        status: active
+        display_name: 王子章
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_UJHNJUefP1hMoQv16JZ99z | 王師愈 | accepted |
+| descendants | p_QDGt3MEV5PfFs8HB9rQeGK | 王子章 | accepted |
 
 ## 外部来源
 

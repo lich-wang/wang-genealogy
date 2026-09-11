@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 曹氏
 cbdb_id: 338009
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,6 +172,43 @@ relationships:
         status: active
         display_name: 王诏
         merged_into_person_id: null
+    - claim:
+        id: c_bshnrj6WwKF1E02sbr7BpF
+        subject_person_id: p_3NK6EhTAXgAtmFG5Dkqh4A
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_hPJPD72anHdssJJebWQ769
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SxPfhMdR7K-xNHu3-yjSqJ
+          claim_id: c_bshnrj6WwKF1E02sbr7BpF
+          source_id: s_pFJEtZMtXSRxJbNHTJPiqT
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第六十二名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_pFJEtZMtXSRxJbNHTJPiqT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王詔（CBDB 67938）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67938&o=json
+            external_identifier: CBDB:67938
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.033Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3NK6EhTAXgAtmFG5Dkqh4A
+        status: active
+        display_name: 王詔
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -193,10 +230,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_ARknwHLDtDNeZVf48qiF3F | 王诏 | accepted |
+| spouses | p_3NK6EhTAXgAtmFG5Dkqh4A | 王詔 | accepted |
 
 ## 外部来源
 
 - [维基数据：曹氏（Q65865711）](https://www.wikidata.org/wiki/Q65865711)
 - [维基数据：王诏（Q15928211）](https://www.wikidata.org/wiki/Q15928211)
+- [中国历代人物传记资料库：王詔（CBDB 67938）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67938&o=json)
 - [CBDB 中国历代人物传记资料库：曹氏（338009）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338009&o=json)
-- [CBDB 中国历代人物传记资料库：王詔（67938）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67938&o=json)

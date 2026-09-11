@@ -4,7 +4,7 @@ id: p_QDGt3MEV5PfFs8HB9rQeGK
 status: active
 merged_into: null
 display_name: 王子章
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_4ZugZe_AlDuuQvmeIExOeB
+        subject_person_id: p_3voEFztyjE9gBvRFtzzihf
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_QDGt3MEV5PfFs8HB9rQeGK
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ek-hoLNFBxgKyfDB9G-rcS
+          claim_id: c_4ZugZe_AlDuuQvmeIExOeB
+          source_id: s_pZFYSGMqe3azKLTFMuud9u
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1363：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_pZFYSGMqe3azKLTFMuud9u
+            source_type: api_record
+            title: 中国历代人物传记资料库：王柏（CBDB 10706）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10706&o=json
+            external_identifier: CBDB:10706
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.552Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3voEFztyjE9gBvRFtzzihf
+        status: active
+        display_name: 王柏
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_3voEFztyjE9gBvRFtzzihf | 王柏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王柏（CBDB 10706）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10706&o=json)
 - [中国历代人物传记资料库：王子章（CBDB 22220）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22220&o=json)

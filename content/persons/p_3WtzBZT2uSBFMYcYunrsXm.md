@@ -4,7 +4,7 @@ id: p_3WtzBZT2uSBFMYcYunrsXm
 status: active
 merged_into: null
 display_name: 王澤溥
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_wXAc7vovFGShCOp_-OZ32n
+        subject_person_id: p_3WtzBZT2uSBFMYcYunrsXm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Kv7FMHEC1WtEJafT3xgqLJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pI1NmfeXGPQ59Xh_cNSS6e
+          claim_id: c_wXAc7vovFGShCOp_-OZ32n
+          source_id: s_cE8JQ5PS4nXPs52zF53Ryg
+          stance: supports
+          locator: 雲和縣志，lgid=369323：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Kv7FMHEC1WtEJafT3xgqLJ
+        status: active
+        display_name: 王杏林
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_Kv7FMHEC1WtEJafT3xgqLJ | 王杏林 | accepted |
 
 ## 外部来源
 

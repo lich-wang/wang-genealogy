@@ -4,7 +4,7 @@ id: p_3kCgZeVuvZ2BjS2o8M9UxN
 status: active
 merged_into: null
 display_name: 王得
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_inkTNKRHAlxmc0LkXuekha
+        subject_person_id: p_3kCgZeVuvZ2BjS2o8M9UxN
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_v5g4H2q2EXrnEQmwfqdSHb
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZLgMI2M6bSgfQ6RvzxOg4G
+          claim_id: c_inkTNKRHAlxmc0LkXuekha
+          source_id: s_ZJC85z2W4p6LCYBq67GeB1
+          stance: supports
+          locator: 成化五年進士登科錄:一卷，第三甲第六十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_v5g4H2q2EXrnEQmwfqdSHb
+        status: active
+        display_name: 王溥
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_v5g4H2q2EXrnEQmwfqdSHb | 王溥 | accepted |
 
 ## 外部来源
 

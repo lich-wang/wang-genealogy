@@ -4,7 +4,7 @@ id: p_4RuP1y13HperNdMDJkN6MF
 status: active
 merged_into: null
 display_name: 王震
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -170,7 +170,59 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_Caz8eFh3I6XjKgWHQ8lBg9
+        subject_person_id: p_tyaMeFLDyyzL3DtTVsE3uu
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4RuP1y13HperNdMDJkN6MF
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UlvXNlbtTpPRyShSqLijje
+          claim_id: c_Caz8eFh3I6XjKgWHQ8lBg9
+          source_id: s_ryXjfBob4D77XXAGUgL5gi
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：高祖;四世祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_tyaMeFLDyyzL3DtTVsE3uu
+        status: active
+        display_name: 王旦
+        merged_into_person_id: null
+    - claim:
+        id: c_dErh-GIxC7Kbr33eF0bEuC
+        subject_person_id: p_h7s3yp9U2dC68kkp9tKxxX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4RuP1y13HperNdMDJkN6MF
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xvaSmqiN_cliaCV3LBkLW6
+          claim_id: c_dErh-GIxC7Kbr33eF0bEuC
+          source_id: s_ryXjfBob4D77XXAGUgL5gi
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_h7s3yp9U2dC68kkp9tKxxX
+        status: active
+        display_name: 王素
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,6 +245,8 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_26tLQutRv9RfwmDpym5T1E | 王從 | accepted |
+| ancestors | p_tyaMeFLDyyzL3DtTVsE3uu | 王旦 | accepted |
+| ancestors | p_h7s3yp9U2dC68kkp9tKxxX | 王素 | accepted |
 
 ## 外部来源
 

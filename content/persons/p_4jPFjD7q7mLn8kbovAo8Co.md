@@ -4,7 +4,7 @@ id: p_4jPFjD7q7mLn8kbovAo8Co
 status: active
 merged_into: null
 display_name: 王子卿
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_XQey28XBREBPN1zq7KEeaq
+        subject_person_id: p_D5k2hJYmZ56Jpetaajk95y
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4jPFjD7q7mLn8kbovAo8Co
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Qaw9O0h4GvVXxdW9oJxVLE
+          claim_id: c_XQey28XBREBPN1zq7KEeaq
+          source_id: s_J1LW8nTARrCNBpUrBJLbT5
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 38：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_D5k2hJYmZ56Jpetaajk95y
+        status: active
+        display_name: 王公度
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_D5k2hJYmZ56Jpetaajk95y | 王公度 | accepted |
 
 ## 外部来源
 

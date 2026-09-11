@@ -4,7 +4,7 @@ id: p_4AQB7B6yE1sFykYmmaZuh8
 status: active
 merged_into: null
 display_name: 王道光
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_aiM24aExe_cH0zOn7YicnN
+        subject_person_id: p_NP2A5pkQy4Coy8RvLsFQwk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4AQB7B6yE1sFykYmmaZuh8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5-dTscf9gb0ebsZwRemV3Y
+          claim_id: c_aiM24aExe_cH0zOn7YicnN
+          source_id: s_wEoYHAq7oQPpjnuMCPqcSE
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NP2A5pkQy4Coy8RvLsFQwk
+        status: active
+        display_name: 王瓚
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_0SOsYqglj8_ihQuhSerecB
+        subject_person_id: p_4AQB7B6yE1sFykYmmaZuh8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BXKs3dQXJSQDNmc22PJorR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ir2kG4Ztf8DCqQtwpCjXx5
+          claim_id: c_0SOsYqglj8_ihQuhSerecB
+          source_id: s_wEoYHAq7oQPpjnuMCPqcSE
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_BXKs3dQXJSQDNmc22PJorR
+        status: active
+        display_name: 王說
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_NP2A5pkQy4Coy8RvLsFQwk | 王瓚 | accepted |
+| children | p_BXKs3dQXJSQDNmc22PJorR | 王說 | accepted |
 
 ## 外部来源
 

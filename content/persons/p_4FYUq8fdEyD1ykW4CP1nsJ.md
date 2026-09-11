@@ -4,7 +4,7 @@ id: p_4FYUq8fdEyD1ykW4CP1nsJ
 status: active
 merged_into: null
 display_name: 王處溫
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_LbD1Yf5DjeRPkGFZCjlSTy
+        subject_person_id: p_Ggn2t8z4X4B4wro6LB38G3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4FYUq8fdEyD1ykW4CP1nsJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jKdIvo7skFgPOklvruVhP_
+          claim_id: c_LbD1Yf5DjeRPkGFZCjlSTy
+          source_id: s_K7GzGB34y9LV38gWsSGe88
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xiantong 56：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Ggn2t8z4X4B4wro6LB38G3
+        status: active
+        display_name: 王虔暢
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Ggn2t8z4X4B4wro6LB38G3 | 王虔暢 | accepted |
 
 ## 外部来源
 

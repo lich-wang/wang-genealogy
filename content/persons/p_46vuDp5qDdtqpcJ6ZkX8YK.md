@@ -4,7 +4,7 @@ id: p_46vuDp5qDdtqpcJ6ZkX8YK
 status: active
 merged_into: null
 display_name: 王思訥
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_hWlbRY8jKkwukua4nJHtvb
+        subject_person_id: p_T2JshioRPfxgoYHCxfDYxt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_46vuDp5qDdtqpcJ6ZkX8YK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cNP1oYaknCFrq8HRvql9LW
+          claim_id: c_hWlbRY8jKkwukua4nJHtvb
+          source_id: s_U99Gg7N16FefkhowDRfv35
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_T2JshioRPfxgoYHCxfDYxt
+        status: active
+        display_name: 王守忠
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_1mSp5rlrsqfEvj2umC0HMK
+        subject_person_id: p_46vuDp5qDdtqpcJ6ZkX8YK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_A2hQUfWqoWFMfuZUTLsrdK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qYI73E95c6Y8bvpT9TCEmW
+          claim_id: c_1mSp5rlrsqfEvj2umC0HMK
+          source_id: s_U99Gg7N16FefkhowDRfv35
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_A2hQUfWqoWFMfuZUTLsrdK
+        status: active
+        display_name: 王子遂
+        merged_into_person_id: null
+    - claim:
+        id: c_8alvT15voIDV9q6axfzYnh
+        subject_person_id: p_46vuDp5qDdtqpcJ6ZkX8YK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gHooJdYc6LX8SKTwqSMDsm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jYw8--9gi_yb6YcsqhIlJ6
+          claim_id: c_8alvT15voIDV9q6axfzYnh
+          source_id: s_U99Gg7N16FefkhowDRfv35
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_gHooJdYc6LX8SKTwqSMDsm
+        status: active
+        display_name: 王自勉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_T2JshioRPfxgoYHCxfDYxt | 王守忠 | accepted |
+| children | p_A2hQUfWqoWFMfuZUTLsrdK | 王子遂 | accepted |
+| children | p_gHooJdYc6LX8SKTwqSMDsm | 王自勉 | accepted |
 
 ## 外部来源
 

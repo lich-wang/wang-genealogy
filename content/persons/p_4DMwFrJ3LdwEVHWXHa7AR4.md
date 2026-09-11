@@ -4,7 +4,7 @@ id: p_4DMwFrJ3LdwEVHWXHa7AR4
 status: active
 merged_into: null
 display_name: 王珪
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,12 +73,64 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_icQ7U9gmx24aCJyCY0XZy9
+        subject_person_id: p_4DMwFrJ3LdwEVHWXHa7AR4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aQUm4rgRek7xJEszjxoqQS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QlwjOmso-bEOXShbOMqbPC
+          claim_id: c_icQ7U9gmx24aCJyCY0XZy9
+          source_id: s_nV4MaUuWGdefQd96RaG1Wf
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1560：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_aQUm4rgRek7xJEszjxoqQS
+        status: active
+        display_name: 王光祖
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Ez6WKrbF1dofFOBTlvzDCf
+        subject_person_id: p_4DMwFrJ3LdwEVHWXHa7AR4
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_eYTYqcoj54BTfQQyLN9VGt
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BfdhjA1cQ9qC6drvmCmvpW
+          claim_id: c_Ez6WKrbF1dofFOBTlvzDCf
+          source_id: s_nV4MaUuWGdefQd96RaG1Wf
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1034：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_eYTYqcoj54BTfQQyLN9VGt
+        status: active
+        display_name: 王稟
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_aQUm4rgRek7xJEszjxoqQS | 王光祖 | accepted |
+| descendants | p_eYTYqcoj54BTfQQyLN9VGt | 王稟 | accepted |
 
 ## 外部来源
 

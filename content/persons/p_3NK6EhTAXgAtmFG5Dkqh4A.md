@@ -4,7 +4,7 @@ id: p_3NK6EhTAXgAtmFG5Dkqh4A
 status: active
 merged_into: null
 display_name: 王詔
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,116 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_dEKOalLx5jmluTI1__SfQ5
+        subject_person_id: p_mkEUUStA3H6zxa8Vzv7LyH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3NK6EhTAXgAtmFG5Dkqh4A
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rKUpV2pr3s8XkG7N6JBbTr
+          claim_id: c_dEKOalLx5jmluTI1__SfQ5
+          source_id: s_pFJEtZMtXSRxJbNHTJPiqT
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第六十二名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_mkEUUStA3H6zxa8Vzv7LyH
+        status: active
+        display_name: 王昂
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses: []
-  ancestors: []
+  spouses:
+    - claim:
+        id: c_bshnrj6WwKF1E02sbr7BpF
+        subject_person_id: p_3NK6EhTAXgAtmFG5Dkqh4A
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_hPJPD72anHdssJJebWQ769
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SxPfhMdR7K-xNHu3-yjSqJ
+          claim_id: c_bshnrj6WwKF1E02sbr7BpF
+          source_id: s_pFJEtZMtXSRxJbNHTJPiqT
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第六十二名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hPJPD72anHdssJJebWQ769
+        status: active
+        display_name: 曹氏
+        merged_into_person_id: null
+  ancestors:
+    - claim:
+        id: c_t165Crl-QF54qr3EUU4H8y
+        subject_person_id: p_1a4kV9bnUd3Gc32RqHYR8N
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3NK6EhTAXgAtmFG5Dkqh4A
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yMqixIUqLH_4DUYiO6FXir
+          claim_id: c_t165Crl-QF54qr3EUU4H8y
+          source_id: s_pFJEtZMtXSRxJbNHTJPiqT
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第六十二名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1a4kV9bnUd3Gc32RqHYR8N
+        status: active
+        display_name: 王思义
+        merged_into_person_id: null
+    - claim:
+        id: c_prsKYW53kMMS3zjdZvrhy-
+        subject_person_id: p_nmksiEiPj8BciQGG5LZXMB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3NK6EhTAXgAtmFG5Dkqh4A
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aU0kJ8MgQOAffymZBZm1xy
+          claim_id: c_prsKYW53kMMS3zjdZvrhy-
+          source_id: s_pFJEtZMtXSRxJbNHTJPiqT
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第六十二名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_nmksiEiPj8BciQGG5LZXMB
+        status: active
+        display_name: 王理
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +259,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_mkEUUStA3H6zxa8Vzv7LyH | 王昂 | accepted |
+| spouses | p_hPJPD72anHdssJJebWQ769 | 曹氏 | accepted |
+| ancestors | p_1a4kV9bnUd3Gc32RqHYR8N | 王思义 | accepted |
+| ancestors | p_nmksiEiPj8BciQGG5LZXMB | 王理 | accepted |
 
 ## 外部来源
 

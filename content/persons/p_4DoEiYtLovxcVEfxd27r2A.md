@@ -4,7 +4,7 @@ id: p_4DoEiYtLovxcVEfxd27r2A
 status: active
 merged_into: null
 display_name: 王詔
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_oqgfpSBMRFSJrc7WA35bBL
+        subject_person_id: p_75am3pR1oJY4F4kK4X9iA5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4DoEiYtLovxcVEfxd27r2A
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_In1K1SmCGICByCWX4Boklq
+          claim_id: c_oqgfpSBMRFSJrc7WA35bBL
+          source_id: s_GJZqse6PD7fsyQFLGTszyQ
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第一百七十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_75am3pR1oJY4F4kK4X9iA5
+        status: active
+        display_name: 王崇德
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_7ErGET8eFNCAV2P7fR-ElW
+        subject_person_id: p_H4DK5Z2kFA82LhzNTjYgn3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4DoEiYtLovxcVEfxd27r2A
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EETexE_GNYiZloUeylQMjE
+          claim_id: c_7ErGET8eFNCAV2P7fR-ElW
+          source_id: s_GJZqse6PD7fsyQFLGTszyQ
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第一百七十七名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_H4DK5Z2kFA82LhzNTjYgn3
+        status: active
+        display_name: 王彥實
+        merged_into_person_id: null
+    - claim:
+        id: c_CPamfZU5YN9Zbpwwhu-hfU
+        subject_person_id: p_iyW16tEs3JTe2h3LSNsk98
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4DoEiYtLovxcVEfxd27r2A
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_H7rsGvXbuWKTIvMffbW1HM
+          claim_id: c_CPamfZU5YN9Zbpwwhu-hfU
+          source_id: s_GJZqse6PD7fsyQFLGTszyQ
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第一百七十七名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iyW16tEs3JTe2h3LSNsk98
+        status: active
+        display_name: 王智
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_75am3pR1oJY4F4kK4X9iA5 | 王崇德 | accepted |
+| ancestors | p_H4DK5Z2kFA82LhzNTjYgn3 | 王彥實 | accepted |
+| ancestors | p_iyW16tEs3JTe2h3LSNsk98 | 王智 | accepted |
 
 ## 外部来源
 

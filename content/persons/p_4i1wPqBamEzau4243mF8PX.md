@@ -4,7 +4,7 @@ id: p_4i1wPqBamEzau4243mF8PX
 status: active
 merged_into: null
 display_name: 王洧
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_X5qYvisdd_iIwjOC9thXZI
+        subject_person_id: p_4i1wPqBamEzau4243mF8PX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_dS2fybT134JWfvQgxwSUXh
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nsmKvr5ljLepPEBep3iWPE
+          claim_id: c_X5qYvisdd_iIwjOC9thXZI
+          source_id: s_9uptntn7WELuSF1sq5u9Ln
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第二甲第五十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_dS2fybT134JWfvQgxwSUXh
+        status: active
+        display_name: 王祺
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_dS2fybT134JWfvQgxwSUXh | 王祺 | accepted |
 
 ## 外部来源
 

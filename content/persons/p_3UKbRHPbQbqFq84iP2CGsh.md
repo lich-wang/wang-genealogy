@@ -4,7 +4,7 @@ id: p_3UKbRHPbQbqFq84iP2CGsh
 status: active
 merged_into: null
 display_name: 王惠
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_VuOxzJQ_Zn7oYVJRfvy1SK
+        subject_person_id: p_3UKbRHPbQbqFq84iP2CGsh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AsKndUgLV5THcrwWuRrJU9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_A6STMKcBt4WCgIjC_xBViu
+          claim_id: c_VuOxzJQ_Zn7oYVJRfvy1SK
+          source_id: s_nXyHsxGYf2p44C122wVknU
+          stance: supports
+          locator: 嘉靖三十八年進士登科錄:一卷，第三甲第一百零七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_AsKndUgLV5THcrwWuRrJU9
+        status: active
+        display_name: 王君賞
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_AsKndUgLV5THcrwWuRrJU9 | 王君賞 | accepted |
 
 ## 外部来源
 

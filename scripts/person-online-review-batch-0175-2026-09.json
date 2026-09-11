@@ -1,0 +1,91 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-11",
+  "queue_positions": [
+    1741,
+    1750
+  ],
+  "summary": {
+    "reviewed": 10,
+    "relationships_added": 11,
+    "manual_review": 0
+  },
+  "relationships": [
+    {
+      "subject": "p_4gLPUPHoYUNV5YPHPEmiwx",
+      "object": "p_RCQhQuX7PGCpAotpnDmWLC",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_ZpcYCX21cFGgpj8DaWwV25",
+      "object": "p_4gNLMaQqWEd6Tcr2zT2brF",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_4gNLMaQqWEd6Tcr2zT2brF",
+      "object": "p_VoLzwtN4e2pofEFYkpZCMW",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_4gNLMaQqWEd6Tcr2zT2brF",
+      "object": "p_N13cHvEfUQLu2AU9JvS3xk",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_4gNLMaQqWEd6Tcr2zT2brF",
+      "object": "p_PYScCSBT9W5sFMGc1Pn1Hk",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_4gNLMaQqWEd6Tcr2zT2brF",
+      "object": "p_gaRB6foh67PJ327C2wT8be",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_4gNLMaQqWEd6Tcr2zT2brF",
+      "object": "p_APDFto73DvLobTPBETbBQG",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_4gNLMaQqWEd6Tcr2zT2brF",
+      "object": "p_bC2WrnqF3JR3WBSr2D9bK7",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_4gNLMaQqWEd6Tcr2zT2brF",
+      "object": "p_8Pr8Us7tH6onXE7FuCHg4D",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_4gNLMaQqWEd6Tcr2zT2brF",
+      "object": "p_ZQPEPxJWGSr6hcKCHjFpPL",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_35PzL233nqJ85Q2BX1Q5dA",
+      "object": "p_4GriEgrqEP5KnKX7db7riC",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    }
+  ],
+  "unchanged": [
+    "p_4gfR6RPUQBS4iaJwfztHmd",
+    "p_4gH3D3nu9rhKEL8mT7DNe7",
+    "p_4GjMcXHKKCoWQ7DYALX5Ls",
+    "p_4goTpo5iS7ZGxNr8h4JZfQ",
+    "p_4GPTkPD22BJ2822B52JDP1",
+    "p_4GQNLzczjiQhcTQdXKzE6b",
+    "p_4GrG5FaQyEenDzmUQgMCs2"
+  ]
+}

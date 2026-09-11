@@ -4,7 +4,7 @@ id: p_3vKgPJZPmMS9ZpS2a75EVV
 status: active
 merged_into: null
 display_name: 王稽
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_PbeYU59NZ9vtobZMnEn7pX
+        subject_person_id: p_CUFBtfXaFjfECLb8K9SuBv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3vKgPJZPmMS9ZpS2a75EVV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_61aKV27ohw2u1-stWCLD3_
+          claim_id: c_PbeYU59NZ9vtobZMnEn7pX
+          source_id: s_ohc7t8WtVqFLyQtGXbDmnK
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第一百一十一名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_CUFBtfXaFjfECLb8K9SuBv
+        status: active
+        display_name: 王忠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_Q5_UAMNp5y2qeS4C__RbMd
+        subject_person_id: p_pMWbZtWz4H8GindQ15E5pN
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3vKgPJZPmMS9ZpS2a75EVV
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8fD3850E7_mE0NuVu77vQY
+          claim_id: c_Q5_UAMNp5y2qeS4C__RbMd
+          source_id: s_ohc7t8WtVqFLyQtGXbDmnK
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第一百一十一名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_pMWbZtWz4H8GindQ15E5pN
+        status: active
+        display_name: 王寧
+        merged_into_person_id: null
+    - claim:
+        id: c_OHynQjds4h8KydRL_S4gn4
+        subject_person_id: p_hYg3mBY4z5L651ejsb35ci
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3vKgPJZPmMS9ZpS2a75EVV
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FCp9KptP7IlbX0pVTasLTB
+          claim_id: c_OHynQjds4h8KydRL_S4gn4
+          source_id: s_ohc7t8WtVqFLyQtGXbDmnK
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第一百一十一名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hYg3mBY4z5L651ejsb35ci
+        status: active
+        display_name: 王仲和
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_CUFBtfXaFjfECLb8K9SuBv | 王忠 | accepted |
+| ancestors | p_pMWbZtWz4H8GindQ15E5pN | 王寧 | accepted |
+| ancestors | p_hYg3mBY4z5L651ejsb35ci | 王仲和 | accepted |
 
 ## 外部来源
 

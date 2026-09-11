@@ -4,7 +4,7 @@ id: p_4APHAkfxphUBchHMpLcHUx
 status: active
 merged_into: null
 display_name: 王勣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,12 +73,64 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_cFtF5x6zypoGJlYmOF3_Sh
+        subject_person_id: p_4APHAkfxphUBchHMpLcHUx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yy4N7cp3CuKBbXVu1CigcM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wHzFwHXAL4_2RAfoDbiRGX
+          claim_id: c_cFtF5x6zypoGJlYmOF3_Sh
+          source_id: s_4WBy56iMQbtKiuNCdXvkJD
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yifeng 28：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_yy4N7cp3CuKBbXVu1CigcM
+        status: active
+        display_name: 王文曉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_X8adPSQX20yfzvWkOyCdyv
+        subject_person_id: p_4APHAkfxphUBchHMpLcHUx
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DpKNJ3621m7pyCWFk9eCiZ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YVNglMSbFZY5-lFZ4Dn-XI
+          claim_id: c_X8adPSQX20yfzvWkOyCdyv
+          source_id: s_4WBy56iMQbtKiuNCdXvkJD
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yonglong 15：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DpKNJ3621m7pyCWFk9eCiZ
+        status: active
+        display_name: 王明
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_yy4N7cp3CuKBbXVu1CigcM | 王文曉 | accepted |
+| descendants | p_DpKNJ3621m7pyCWFk9eCiZ | 王明 | accepted |
 
 ## 外部来源
 

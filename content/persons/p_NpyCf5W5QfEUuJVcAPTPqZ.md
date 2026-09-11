@@ -4,7 +4,7 @@ id: p_NpyCf5W5QfEUuJVcAPTPqZ
 status: active
 merged_into: null
 display_name: 王幹
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_URIAKWPjdq3eJREjBEejro
+        subject_person_id: p_NpyCf5W5QfEUuJVcAPTPqZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3oKFdGHi8BKifcXxMMERFS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_noYnxOsi-xeVj62Zmsdige
+          claim_id: c_URIAKWPjdq3eJREjBEejro
+          source_id: s_xwLUvCYcBcqNBGD8AW62Dj
+          stance: supports
+          locator: 成化五年進士登科錄:一卷，第三甲第一百三十五名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_xwLUvCYcBcqNBGD8AW62Dj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玹（CBDB 126600）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126600&o=json
+            external_identifier: CBDB:126600
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.049Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3oKFdGHi8BKifcXxMMERFS
+        status: active
+        display_name: 王玹
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_3oKFdGHi8BKifcXxMMERFS | 王玹 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王幹（CBDB 244695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244695&o=json)
+- [中国历代人物传记资料库：王玹（CBDB 126600）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126600&o=json)

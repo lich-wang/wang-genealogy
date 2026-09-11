@@ -4,7 +4,7 @@ id: p_4WJALMeWFHaPvrNHD1eLGP
 status: active
 merged_into: null
 display_name: 王莘
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_BgtZ3AFesgVFFC5wD1yTfA
+        subject_person_id: p_4WJALMeWFHaPvrNHD1eLGP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_j8wPuwgWUGTVgAZXhVEGRs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GNGB3NXyIOZ53yFyriHc1c
+          claim_id: c_BgtZ3AFesgVFFC5wD1yTfA
+          source_id: s_GGNt832hGKQMNiNi3Jswk8
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1132：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_j8wPuwgWUGTVgAZXhVEGRs
+        status: active
+        display_name: 王銍
+        merged_into_person_id: null
+    - claim:
+        id: c_5-Soi6vS5A6dDJ0hEkDXai
+        subject_person_id: p_4WJALMeWFHaPvrNHD1eLGP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qkFD4oMYG6qDuASHfx34xa
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J-gybauD7BzH8x_y_GKWEZ
+          claim_id: c_5-Soi6vS5A6dDJ0hEkDXai
+          source_id: s_GGNt832hGKQMNiNi3Jswk8
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，925：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qkFD4oMYG6qDuASHfx34xa
+        status: active
+        display_name: 王鉒
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_j8wPuwgWUGTVgAZXhVEGRs | 王銍 | accepted |
+| children | p_qkFD4oMYG6qDuASHfx34xa | 王鉒 | accepted |
 
 ## 外部来源
 

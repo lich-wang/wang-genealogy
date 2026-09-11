@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王理
 cbdb_id: 337964
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -207,7 +207,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_prsKYW53kMMS3zjdZvrhy-
+        subject_person_id: p_nmksiEiPj8BciQGG5LZXMB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3NK6EhTAXgAtmFG5Dkqh4A
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aU0kJ8MgQOAffymZBZm1xy
+          claim_id: c_prsKYW53kMMS3zjdZvrhy-
+          source_id: s_pFJEtZMtXSRxJbNHTJPiqT
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第六十二名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_pFJEtZMtXSRxJbNHTJPiqT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王詔（CBDB 67938）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67938&o=json
+            external_identifier: CBDB:67938
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.033Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3NK6EhTAXgAtmFG5Dkqh4A
+        status: active
+        display_name: 王詔
+        merged_into_person_id: null
   other: []
 ---
 
@@ -228,10 +265,12 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_1a4kV9bnUd3Gc32RqHYR8N | 王思义 | accepted |
 | children | p_mkEUUStA3H6zxa8Vzv7LyH | 王昂 | accepted |
+| descendants | p_3NK6EhTAXgAtmFG5Dkqh4A | 王詔 | accepted |
 
 ## 外部来源
 
 - [维基数据：王昂（Q45539296）](https://www.wikidata.org/wiki/Q45539296)
 - [维基数据：王理（Q45538785）](https://www.wikidata.org/wiki/Q45538785)
 - [维基数据：王思义（Q45538216）](https://www.wikidata.org/wiki/Q45538216)
+- [中国历代人物传记资料库：王詔（CBDB 67938）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67938&o=json)
 - [CBDB 中国历代人物传记资料库：王理（337964）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337964&o=json)

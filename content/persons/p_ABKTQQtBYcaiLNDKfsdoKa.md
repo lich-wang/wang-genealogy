@@ -4,7 +4,7 @@ id: p_ABKTQQtBYcaiLNDKfsdoKa
 status: active
 merged_into: null
 display_name: 王夢良
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -133,7 +133,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_Vr1RhJxTkiDXQQP8rcyo2o
+        subject_person_id: p_3MMrFwPc3sNHUjFFNj9XNn
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ABKTQQtBYcaiLNDKfsdoKa
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0tWhRmhxBJzeNUEdX5xDe1
+          claim_id: c_Vr1RhJxTkiDXQQP8rcyo2o
+          source_id: s_eFQQHv5bnB1ATVA5uBm5vy
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，四九五  甘文望夫人吳氏壙記：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_eFQQHv5bnB1ATVA5uBm5vy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王國器（CBDB 578338）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578338&o=json
+            external_identifier: CBDB:578338
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.975Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3MMrFwPc3sNHUjFFNj9XNn
+        status: active
+        display_name: 王國器
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_3MMrFwPc3sNHUjFFNj9XNn | 王國器 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王國器（CBDB 578338）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578338&o=json)
 - [中国历代人物传记资料库：王夢良（CBDB 578337）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578337&o=json)

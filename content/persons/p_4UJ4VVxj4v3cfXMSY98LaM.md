@@ -4,7 +4,7 @@ id: p_4UJ4VVxj4v3cfXMSY98LaM
 status: active
 merged_into: null
 display_name: 王雄
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_nMdnq04ylIBuGAHx9Rl5jg
+        subject_person_id: p_4UJ4VVxj4v3cfXMSY98LaM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_a4oCdkGAPfaPsLi6y1N89U
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kv5Agjb_LQamDOHOlewrlT
+          claim_id: c_nMdnq04ylIBuGAHx9Rl5jg
+          source_id: s_WLmbnvsPjgQzqPv8hRcdCX
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第二甲第六十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_a4oCdkGAPfaPsLi6y1N89U
+        status: active
+        display_name: 王道純
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_a4oCdkGAPfaPsLi6y1N89U | 王道純 | accepted |
 
 ## 外部来源
 

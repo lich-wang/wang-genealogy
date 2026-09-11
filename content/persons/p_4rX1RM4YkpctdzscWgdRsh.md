@@ -4,7 +4,7 @@ id: p_4rX1RM4YkpctdzscWgdRsh
 status: active
 merged_into: null
 display_name: 王綸
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_uWYEThEwjwWSrgz6W13qnx
+        subject_person_id: p_wqJCDPhDuiWCbHqgtTnEn4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4rX1RM4YkpctdzscWgdRsh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bClc29gGYhHDIDnA8vVfl5
+          claim_id: c_uWYEThEwjwWSrgz6W13qnx
+          source_id: s_tniXLNayvNhe4q9rD3xh4y
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第六十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wqJCDPhDuiWCbHqgtTnEn4
+        status: active
+        display_name: 王琮
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_rSuyLcDvDOGLHTkgTo4kLe
+        subject_person_id: p_ZkPW8egCF3X51BkY1Q26ri
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4rX1RM4YkpctdzscWgdRsh
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ad9859HKFmnY09mU5jfaZk
+          claim_id: c_rSuyLcDvDOGLHTkgTo4kLe
+          source_id: s_tniXLNayvNhe4q9rD3xh4y
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第六十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ZkPW8egCF3X51BkY1Q26ri
+        status: active
+        display_name: 王浩
+        merged_into_person_id: null
+    - claim:
+        id: c_PGh1AyfCRJ21QxgarVvczi
+        subject_person_id: p_hr4owVcxQc5APCerqkGqH3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4rX1RM4YkpctdzscWgdRsh
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8TIJMC5NCqoISq8ZJyOQC0
+          claim_id: c_PGh1AyfCRJ21QxgarVvczi
+          source_id: s_tniXLNayvNhe4q9rD3xh4y
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第六十三名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hr4owVcxQc5APCerqkGqH3
+        status: active
+        display_name: 王佑
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wqJCDPhDuiWCbHqgtTnEn4 | 王琮 | accepted |
+| ancestors | p_ZkPW8egCF3X51BkY1Q26ri | 王浩 | accepted |
+| ancestors | p_hr4owVcxQc5APCerqkGqH3 | 王佑 | accepted |
 
 ## 外部来源
 

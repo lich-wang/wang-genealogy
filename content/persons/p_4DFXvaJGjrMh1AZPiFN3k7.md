@@ -4,7 +4,7 @@ id: p_4DFXvaJGjrMh1AZPiFN3k7
 status: active
 merged_into: null
 display_name: 王淵
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,116 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_85PUJCJvmJakWEHLvdFptw
+        subject_person_id: p_biGaLdBUf3ZqH93KQ7uZnx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4DFXvaJGjrMh1AZPiFN3k7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_x1k2YkfBFdI5CgRVKXVPXe
+          claim_id: c_85PUJCJvmJakWEHLvdFptw
+          source_id: s_NU9snLL9YRryUoX5Cw8uxa
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，873;877：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_biGaLdBUf3ZqH93KQ7uZnx
+        status: active
+        display_name: 王懷信
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_6X0-g5iJrFThZsbROFVWka
+        subject_person_id: p_4DFXvaJGjrMh1AZPiFN3k7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JPAuYuPPYN5hwLqZJ733sk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QGOVZ2oStNny650005H914
+          claim_id: c_6X0-g5iJrFThZsbROFVWka
+          source_id: s_NU9snLL9YRryUoX5Cw8uxa
+          stance: supports
+          locator: 宋史：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_JPAuYuPPYN5hwLqZJ733sk
+        status: active
+        display_name: 王倚
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_atsPDev6Vc3BAk6b3u3fTT
+        subject_person_id: p_5NzUrA2mKFb4JcdEQ9g3nA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4DFXvaJGjrMh1AZPiFN3k7
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ruOjCoSu2XDLvsTl_S-KSj
+          claim_id: c_atsPDev6Vc3BAk6b3u3fTT
+          source_id: s_NU9snLL9YRryUoX5Cw8uxa
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，873;874：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5NzUrA2mKFb4JcdEQ9g3nA
+        status: active
+        display_name: 王重瞻
+        merged_into_person_id: null
+    - claim:
+        id: c_8SF36si3-DvOCFZZod-NIb
+        subject_person_id: p_xXXn6fAPMxYTRtG6zG3M9K
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4DFXvaJGjrMh1AZPiFN3k7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iShQMKUmWL7Kmc32ntQlhH
+          claim_id: c_8SF36si3-DvOCFZZod-NIb
+          source_id: s_NU9snLL9YRryUoX5Cw8uxa
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，873;876：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xXXn6fAPMxYTRtG6zG3M9K
+        status: active
+        display_name: 王仕榮
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +259,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_biGaLdBUf3ZqH93KQ7uZnx | 王懷信 | accepted |
+| children | p_JPAuYuPPYN5hwLqZJ733sk | 王倚 | accepted |
+| ancestors | p_5NzUrA2mKFb4JcdEQ9g3nA | 王重瞻 | accepted |
+| ancestors | p_xXXn6fAPMxYTRtG6zG3M9K | 王仕榮 | accepted |
 
 ## 外部来源
 

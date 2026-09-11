@@ -4,7 +4,7 @@ id: p_3UJL9TRRM8rdMVuE1sfdFG
 status: active
 merged_into: null
 display_name: 王延貴
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_9Wf_UMJr42kve0MvONycW3
+        subject_person_id: p_3UJL9TRRM8rdMVuE1sfdFG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5cXgvbeFMDihkMnt3zvFS6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mVSYx-K3_scC4Nn35nycm9
+          claim_id: c_9Wf_UMJr42kve0MvONycW3
+          source_id: s_Ad4eVnK6LKE2d4mQG9pQg7
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，一一九 王德倫墓誌：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5cXgvbeFMDihkMnt3zvFS6
+        status: active
+        display_name: 王德倫
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_5cXgvbeFMDihkMnt3zvFS6 | 王德倫 | accepted |
 
 ## 外部来源
 

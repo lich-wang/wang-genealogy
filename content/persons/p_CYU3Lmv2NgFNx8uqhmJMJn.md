@@ -4,7 +4,7 @@ id: p_CYU3Lmv2NgFNx8uqhmJMJn
 status: active
 merged_into: null
 display_name: 王周
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_c8koLmQAzj6H9NTXzRsOmo
+        subject_person_id: p_CYU3Lmv2NgFNx8uqhmJMJn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4j28cTB4FbkC46frs3J8PW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zkGN_FVoFU7M5yi_OkRtiL
+          claim_id: c_c8koLmQAzj6H9NTXzRsOmo
+          source_id: s_Zrb5Fnnx5w1Cpuv9PTChnJ
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第二甲第六十五名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Zrb5Fnnx5w1Cpuv9PTChnJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王俸（CBDB 204993）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204993&o=json
+            external_identifier: CBDB:204993
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.846Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_4j28cTB4FbkC46frs3J8PW
+        status: active
+        display_name: 王俸
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_4j28cTB4FbkC46frs3J8PW | 王俸 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王俸（CBDB 204993）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204993&o=json)
 - [中国历代人物传记资料库：王周（CBDB 326924）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326924&o=json)

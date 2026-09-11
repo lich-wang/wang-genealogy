@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王伯靈
 cbdb_id: 524722
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c__3jzRE2t11pX2b1dR86peQ
+        subject_person_id: p_qrB9yk468HAt4XCx39fKAA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3vv94kaBWa8sUxdLF8B6cN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_G1V_IYqjix71FThVP12BQU
+          claim_id: c__3jzRE2t11pX2b1dR86peQ
+          source_id: s_pYNPwMic5enMTAbLgLaDrN
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），11008：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_pYNPwMic5enMTAbLgLaDrN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王偉（CBDB 67398）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67398&o=json
+            external_identifier: CBDB:67398
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.992Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3vv94kaBWa8sUxdLF8B6cN
+        status: active
+        display_name: 王偉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_3vv94kaBWa8sUxdLF8B6cN | 王偉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王伯靈（CBDB 524722）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=524722&o=json)
+- [中国历代人物传记资料库：王偉（CBDB 67398）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67398&o=json)

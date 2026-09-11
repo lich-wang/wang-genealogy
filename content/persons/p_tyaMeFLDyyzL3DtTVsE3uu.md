@@ -4,7 +4,7 @@ id: p_tyaMeFLDyyzL3DtTVsE3uu
 status: active
 merged_into: null
 display_name: 王旦
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -134,7 +134,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Caz8eFh3I6XjKgWHQ8lBg9
+        subject_person_id: p_tyaMeFLDyyzL3DtTVsE3uu
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4RuP1y13HperNdMDJkN6MF
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UlvXNlbtTpPRyShSqLijje
+          claim_id: c_Caz8eFh3I6XjKgWHQ8lBg9
+          source_id: s_ryXjfBob4D77XXAGUgL5gi
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：高祖;四世祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ryXjfBob4D77XXAGUgL5gi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王震（CBDB 3947）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3947&o=json
+            external_identifier: CBDB:3947
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.425Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_4RuP1y13HperNdMDJkN6MF
+        status: active
+        display_name: 王震
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_4RuP1y13HperNdMDJkN6MF | 王震 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王旦（CBDB 8153）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8153&o=json)
+- [中国历代人物传记资料库：王震（CBDB 3947）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3947&o=json)

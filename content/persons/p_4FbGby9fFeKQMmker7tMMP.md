@@ -4,7 +4,7 @@ id: p_4FbGby9fFeKQMmker7tMMP
 status: active
 merged_into: null
 display_name: 王珩
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_6NT56CaO4mSUIh9ohCmHin
+        subject_person_id: p_f7t9X2kJV7EUtQDpi6JhvW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4FbGby9fFeKQMmker7tMMP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3hX4-w4ITQ9FCfwCGtBCj3
+          claim_id: c_6NT56CaO4mSUIh9ohCmHin
+          source_id: s_MUxq2FyJ4QRyAx99MTCU4A
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第一百七十八名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_f7t9X2kJV7EUtQDpi6JhvW
+        status: active
+        display_name: 王惟政
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_XuET9YqkCUvX67n1AtMo2a
+        subject_person_id: p_j1wUhScLR6C7kS8y5jb1Dh
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4FbGby9fFeKQMmker7tMMP
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HA6AwfTqgryaToBvgbSNNh
+          claim_id: c_XuET9YqkCUvX67n1AtMo2a
+          source_id: s_MUxq2FyJ4QRyAx99MTCU4A
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第一百七十八名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_j1wUhScLR6C7kS8y5jb1Dh
+        status: active
+        display_name: 王成甫
+        merged_into_person_id: null
+    - claim:
+        id: c_pRFxPcT9hMkmSWDx1gAOqX
+        subject_person_id: p_5irbCXc8aiHfE8e3NuCuzA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4FbGby9fFeKQMmker7tMMP
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qRV3UNdx1MjKJqFJgpL8sH
+          claim_id: c_pRFxPcT9hMkmSWDx1gAOqX
+          source_id: s_MUxq2FyJ4QRyAx99MTCU4A
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第一百七十八名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5irbCXc8aiHfE8e3NuCuzA
+        status: active
+        display_name: 王翥
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_f7t9X2kJV7EUtQDpi6JhvW | 王惟政 | accepted |
+| ancestors | p_j1wUhScLR6C7kS8y5jb1Dh | 王成甫 | accepted |
+| ancestors | p_5irbCXc8aiHfE8e3NuCuzA | 王翥 | accepted |
 
 ## 外部来源
 

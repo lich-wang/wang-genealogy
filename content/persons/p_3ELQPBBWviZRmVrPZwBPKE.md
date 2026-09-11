@@ -4,7 +4,7 @@ id: p_3ELQPBBWviZRmVrPZwBPKE
 status: active
 merged_into: null
 display_name: 王安
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_jKn94yQPVnJjr3DyaPrC93
+        subject_person_id: p_3ELQPBBWviZRmVrPZwBPKE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_yt96UUYNj3ASszrYuN2kTm
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tbgmQLzdC0ow8FX-d6PbWp
+          claim_id: c_jKn94yQPVnJjr3DyaPrC93
+          source_id: s_psH1mztdPrjAXLN1kMWfLt
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第二百四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_yt96UUYNj3ASszrYuN2kTm
+        status: active
+        display_name: 王嘉賓
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_yt96UUYNj3ASszrYuN2kTm | 王嘉賓 | accepted |
 
 ## 外部来源
 

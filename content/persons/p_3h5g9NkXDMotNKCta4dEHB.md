@@ -4,7 +4,7 @@ id: p_3h5g9NkXDMotNKCta4dEHB
 status: active
 merged_into: null
 display_name: 王秉彝
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_zcnupXnZpF3XDSY3zdFhFe
+        subject_person_id: p_KwDq9LQwPdZFWKPBa6KCCm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3h5g9NkXDMotNKCta4dEHB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_u8-H5cr82Zb1TnQaKcLg0q
+          claim_id: c_zcnupXnZpF3XDSY3zdFhFe
+          source_id: s_EEE5e95wfR1tnUXaLTJN3U
+          stance: supports
+          locator: 天順元年進士登科錄:一卷，第三甲第一百五十五名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_KwDq9LQwPdZFWKPBa6KCCm
+        status: active
+        display_name: 王暹
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_RdMrJoKt89cNVK0Gdi27mG
+        subject_person_id: p_yYTE6LySnMjNoTFuLoRZx7
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3h5g9NkXDMotNKCta4dEHB
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HSfFsRY1KM3wUtbZxoJsTZ
+          claim_id: c_RdMrJoKt89cNVK0Gdi27mG
+          source_id: s_EEE5e95wfR1tnUXaLTJN3U
+          stance: supports
+          locator: 天順元年進士登科錄:一卷，第三甲第一百五十五名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_yYTE6LySnMjNoTFuLoRZx7
+        status: active
+        display_name: 王道隆
+        merged_into_person_id: null
+    - claim:
+        id: c_Ov5uXVBjtH1D7gUvIjtkQD
+        subject_person_id: p_3r21ZhGz6JR2kZoJtUp6Dd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3h5g9NkXDMotNKCta4dEHB
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fRJbWgxqFlR115M4OLL0fF
+          claim_id: c_Ov5uXVBjtH1D7gUvIjtkQD
+          source_id: s_EEE5e95wfR1tnUXaLTJN3U
+          stance: supports
+          locator: 天順元年進士登科錄:一卷，第三甲第一百五十五名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_3r21ZhGz6JR2kZoJtUp6Dd
+        status: active
+        display_name: 王從義
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_KwDq9LQwPdZFWKPBa6KCCm | 王暹 | accepted |
+| ancestors | p_yYTE6LySnMjNoTFuLoRZx7 | 王道隆 | accepted |
+| ancestors | p_3r21ZhGz6JR2kZoJtUp6Dd | 王從義 | accepted |
 
 ## 外部来源
 

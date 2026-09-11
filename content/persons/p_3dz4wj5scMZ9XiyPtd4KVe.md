@@ -4,7 +4,7 @@ id: p_3dz4wj5scMZ9XiyPtd4KVe
 status: active
 merged_into: null
 display_name: 王九疇
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -134,7 +134,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_DQ3_WW8VwAyanWuosvDQqR
+        subject_person_id: p_3dz4wj5scMZ9XiyPtd4KVe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_7GRQwiPgLTYEqHaPBw3xMh
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NtfnI3TqEw2_WWgAqm07zP
+          claim_id: c_DQ3_WW8VwAyanWuosvDQqR
+          source_id: s_eZhWCFoH3vKp76YRWjmHVM
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1355;1356：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_7GRQwiPgLTYEqHaPBw3xMh
+        status: active
+        display_name: 王鴻志
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_7GRQwiPgLTYEqHaPBw3xMh | 王鴻志 | accepted |
 
 ## 外部来源
 

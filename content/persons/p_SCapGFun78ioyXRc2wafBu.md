@@ -4,7 +4,7 @@ id: p_SCapGFun78ioyXRc2wafBu
 status: active
 merged_into: null
 display_name: 王臣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_y1bXLIsLbWKqoEUlPcB6iy
+        subject_person_id: p_SCapGFun78ioyXRc2wafBu
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3m7CP7DGKJ8uiCH5xxVdzo
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cBhEBapxWXJwhNENu3tm4s
+          claim_id: c_y1bXLIsLbWKqoEUlPcB6iy
+          source_id: s_bZsmvVZ8aVw1owZkSWkXLZ
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第十九名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_bZsmvVZ8aVw1owZkSWkXLZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王極（CBDB 203985）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203985&o=json
+            external_identifier: CBDB:203985
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.810Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3m7CP7DGKJ8uiCH5xxVdzo
+        status: active
+        display_name: 王極
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_3m7CP7DGKJ8uiCH5xxVdzo | 王極 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王臣（CBDB 312868）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312868&o=json)
+- [中国历代人物传记资料库：王極（CBDB 203985）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203985&o=json)

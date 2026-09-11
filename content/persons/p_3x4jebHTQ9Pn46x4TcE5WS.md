@@ -4,7 +4,7 @@ id: p_3x4jebHTQ9Pn46x4TcE5WS
 status: active
 merged_into: null
 display_name: 王昇
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_hBQeio96ZF6lhcAVGB4MdJ
+        subject_person_id: p_3x4jebHTQ9Pn46x4TcE5WS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vnNgpS2EoPkSDWNJdYVAh5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yAA8WicZuVx-L1N8vrLoK6
+          claim_id: c_hBQeio96ZF6lhcAVGB4MdJ
+          source_id: s_5dSCsjLH47V5uunXrF3Ycj
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第一百五十一名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vnNgpS2EoPkSDWNJdYVAh5
+        status: active
+        display_name: 王資良
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_vnNgpS2EoPkSDWNJdYVAh5 | 王資良 | accepted |
 
 ## 外部来源
 

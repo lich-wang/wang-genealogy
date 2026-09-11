@@ -4,7 +4,7 @@ id: p_HgS7cZb3A16c7c921dAmTd
 status: active
 merged_into: null
 display_name: 王誨之
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_dk9DN_Mk3pjFMJ5dzAgAm1
+        subject_person_id: p_HgS7cZb3A16c7c921dAmTd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3Fn4ByBA6F2pjAp1gsjBZR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EugipLO_TenD3D2KCU_6Zb
+          claim_id: c_dk9DN_Mk3pjFMJ5dzAgAm1
+          source_id: s_Ck3mffSvLZrwY7zV1sBMvU
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Ck3mffSvLZrwY7zV1sBMvU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王知（CBDB 195041）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=195041&o=json
+            external_identifier: CBDB:195041
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.298Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3Fn4ByBA6F2pjAp1gsjBZR
+        status: active
+        display_name: 王知
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_3Fn4ByBA6F2pjAp1gsjBZR | 王知 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王誨之（CBDB 194934）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=194934&o=json)
+- [中国历代人物传记资料库：王知（CBDB 195041）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=195041&o=json)

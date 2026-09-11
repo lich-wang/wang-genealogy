@@ -4,7 +4,7 @@ id: p_4mfqFZAqaNrXQSde1B1tdh
 status: active
 merged_into: null
 display_name: 王公政
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_NhlUvDxki6199yT31eyWyK
+        subject_person_id: p_oDN8zXwLEiLaLbSQ6vv12L
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4mfqFZAqaNrXQSde1B1tdh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hsn853mqAemf0f0D6cYGKN
+          claim_id: c_NhlUvDxki6199yT31eyWyK
+          source_id: s_1xMUgcy4qkABRtK5Kk7NfJ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oDN8zXwLEiLaLbSQ6vv12L
+        status: active
+        display_name: 王朝倩
+        merged_into_person_id: null
   children:
     - claim:
         id: c_1_zJ7jMSH6UV1yM0AhevtD
@@ -167,6 +193,58 @@ relationships:
         status: active
         display_name: 王小僧
         merged_into_person_id: null
+    - claim:
+        id: c_UWOKrppiQYW9NQTfNPkNG2
+        subject_person_id: p_4mfqFZAqaNrXQSde1B1tdh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_czF9XHUt5A4cC1osw9EnPx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eAfLSx9yi1Ekleg03oDp0J
+          claim_id: c_UWOKrppiQYW9NQTfNPkNG2
+          source_id: s_1xMUgcy4qkABRtK5Kk7NfJ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_czF9XHUt5A4cC1osw9EnPx
+        status: active
+        display_name: 王弘楚
+        merged_into_person_id: null
+    - claim:
+        id: c_1HC7PKbvK1NQ-M6hmeQl1-
+        subject_person_id: p_4mfqFZAqaNrXQSde1B1tdh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5MFNtmdjra5Fsfwe2kEr2G
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FpLCphO553DkkkSscEvzKw
+          claim_id: c_1HC7PKbvK1NQ-M6hmeQl1-
+          source_id: s_1xMUgcy4qkABRtK5Kk7NfJ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5MFNtmdjra5Fsfwe2kEr2G
+        status: active
+        display_name: 王弘立
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -192,7 +270,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_oDN8zXwLEiLaLbSQ6vv12L | 王朝倩 | accepted |
 | children | p_2xFRA1ir6pEtdjnDjvBbC6 | 王小僧 | accepted |
+| children | p_czF9XHUt5A4cC1osw9EnPx | 王弘楚 | accepted |
+| children | p_5MFNtmdjra5Fsfwe2kEr2G | 王弘立 | accepted |
 
 ## 外部来源
 

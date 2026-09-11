@@ -4,7 +4,7 @@ id: p_7QnGBiPzUFUWD8rSwCwAQh
 status: active
 merged_into: null
 display_name: 王鈞
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_KDr0LQth7v7Nem-IJvWAW4
+        subject_person_id: p_7QnGBiPzUFUWD8rSwCwAQh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3UsnYALpsLqLgKX6vUBvrD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Urt2w1hbiiztdmH19DnZvQ
+          claim_id: c_KDr0LQth7v7Nem-IJvWAW4
+          source_id: s_dRTXLFNFKDpJZN66tKKwpB
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Dali27：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_dRTXLFNFKDpJZN66tKKwpB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王淇（CBDB 165256）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=165256&o=json
+            external_identifier: CBDB:165256
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.974Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3UsnYALpsLqLgKX6vUBvrD
+        status: active
+        display_name: 王淇
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_3UsnYALpsLqLgKX6vUBvrD | 王淇 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鈞（CBDB 143108）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143108&o=json)
+- [中国历代人物传记资料库：王淇（CBDB 165256）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=165256&o=json)

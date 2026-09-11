@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王閎孚
 cbdb_id: 22252
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_tfWssOFHnWwsx1-eoa7vGG
+        subject_person_id: p_4BkGHtvzcUNjJNE6pJ3kaG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3rJ4b8B5Qn454CaBQJpg4y
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vs5AfoQ-hH7SSnBLXjh6zR
+          claim_id: c_tfWssOFHnWwsx1-eoa7vGG
+          source_id: s_WiBM1HnJdBz1iaEyNSw3A4
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1905：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_WiBM1HnJdBz1iaEyNSw3A4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王黼（CBDB 8146）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8146&o=json
+            external_identifier: CBDB:8146
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.491Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_4BkGHtvzcUNjJNE6pJ3kaG
+        status: active
+        display_name: 王黼
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_4BkGHtvzcUNjJNE6pJ3kaG | 王黼 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王黼（CBDB 8146）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8146&o=json)
 - [中国历代人物传记资料库：王閎孚（CBDB 22252）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22252&o=json)

@@ -4,7 +4,7 @@ id: p_hDMEBENPW78b4jLLVDro5V
 status: active
 merged_into: null
 display_name: 王詩正
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_OPuGRFRdAkXUfbdp9_npQC
+        subject_person_id: p_4LBcmFmaPS2VnVfdjABdKw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hDMEBENPW78b4jLLVDro5V
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dA0waLt_njJ0z10-Qy3d2e
+          claim_id: c_OPuGRFRdAkXUfbdp9_npQC
+          source_id: s_ap7EabmaHPEY44fFFf3zJY
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13171：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ap7EabmaHPEY44fFFf3zJY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王錱（CBDB 69460）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69460&o=json
+            external_identifier: CBDB:69460
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.280Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_4LBcmFmaPS2VnVfdjABdKw
+        status: active
+        display_name: 王錱
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_4LBcmFmaPS2VnVfdjABdKw | 王錱 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王詩正（CBDB 527007）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527007&o=json)
+- [中国历代人物传记资料库：王錱（CBDB 69460）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69460&o=json)

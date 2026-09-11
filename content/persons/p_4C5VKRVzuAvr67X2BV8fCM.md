@@ -4,7 +4,7 @@ id: p_4C5VKRVzuAvr67X2BV8fCM
 status: active
 merged_into: null
 display_name: 王仲亨
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_M4KxMxk8phSLXOPT0EiZ0q
+        subject_person_id: p_4C5VKRVzuAvr67X2BV8fCM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Zv9iBHh6zJnNFQipkrhq3H
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_b86fjnoK59mGLdwi8VJS_c
+          claim_id: c_M4KxMxk8phSLXOPT0EiZ0q
+          source_id: s_uP29PrTEmYii49WH6cPBB1
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第三甲第二百零二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Zv9iBHh6zJnNFQipkrhq3H
+        status: active
+        display_name: 王億
+        merged_into_person_id: null
+    - claim:
+        id: c_zJPsioIIWHmSmanfz5X2qf
+        subject_person_id: p_4C5VKRVzuAvr67X2BV8fCM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gVNWQ2fsh1sB6kRPqwK7Rn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nK0ltOWpCX8GdGIEglacgT
+          claim_id: c_zJPsioIIWHmSmanfz5X2qf
+          source_id: s_uP29PrTEmYii49WH6cPBB1
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第二甲第二十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_gVNWQ2fsh1sB6kRPqwK7Rn
+        status: active
+        display_name: 王儉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_Zv9iBHh6zJnNFQipkrhq3H | 王億 | accepted |
+| children | p_gVNWQ2fsh1sB6kRPqwK7Rn | 王儉 | accepted |
 
 ## 外部来源
 

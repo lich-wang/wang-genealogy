@@ -4,7 +4,7 @@ id: p_3e6sK146UAQHvzkeM4nnKp
 status: active
 merged_into: null
 display_name: 王寧
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_36o7RAm0aJzb64yjr0pKTE
+        subject_person_id: p_3e6sK146UAQHvzkeM4nnKp
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_tEV3J8yPB3iuWF6kPPKTcz
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nu7rhGdE4MZDEwXtP6__HM
+          claim_id: c_36o7RAm0aJzb64yjr0pKTE
+          source_id: s_puq4Vz1TBLmaZWUFeaDx2B
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第三甲第一百一十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_tEV3J8yPB3iuWF6kPPKTcz
+        status: active
+        display_name: 王政
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_tEV3J8yPB3iuWF6kPPKTcz | 王政 | accepted |
 
 ## 外部来源
 

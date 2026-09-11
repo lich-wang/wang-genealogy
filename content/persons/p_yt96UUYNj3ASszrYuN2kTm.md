@@ -4,7 +4,7 @@ id: p_yt96UUYNj3ASszrYuN2kTm
 status: active
 merged_into: null
 display_name: 王嘉賓
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_jKn94yQPVnJjr3DyaPrC93
+        subject_person_id: p_3ELQPBBWviZRmVrPZwBPKE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_yt96UUYNj3ASszrYuN2kTm
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tbgmQLzdC0ow8FX-d6PbWp
+          claim_id: c_jKn94yQPVnJjr3DyaPrC93
+          source_id: s_psH1mztdPrjAXLN1kMWfLt
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第二百四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_psH1mztdPrjAXLN1kMWfLt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王安（CBDB 227985）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227985&o=json
+            external_identifier: CBDB:227985
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.538Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3ELQPBBWviZRmVrPZwBPKE
+        status: active
+        display_name: 王安
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_3ELQPBBWviZRmVrPZwBPKE | 王安 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王安（CBDB 227985）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227985&o=json)
 - [中国历代人物传记资料库：王嘉賓（CBDB 207120）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207120&o=json)

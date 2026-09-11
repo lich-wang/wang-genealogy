@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王沁
 cbdb_id: 191076
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Q-PkDvfmXwbk3MdcBCJden
+        subject_person_id: p_4ms3zQzj6wikwvfLy2y12w
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bbtkRepz65zt6fY1dTLEkm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NFvrloq6N4pNUM2bfAPfYH
+          claim_id: c_Q-PkDvfmXwbk3MdcBCJden
+          source_id: s_Ru2GckTrZK3DV4thPTNQHN
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Ru2GckTrZK3DV4thPTNQHN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彝（CBDB 191077）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191077&o=json
+            external_identifier: CBDB:191077
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.347Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_4ms3zQzj6wikwvfLy2y12w
+        status: active
+        display_name: 王彝
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_4ms3zQzj6wikwvfLy2y12w | 王彝 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王沁（CBDB 191076）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191076&o=json)
+- [中国历代人物传记资料库：王彝（CBDB 191077）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191077&o=json)

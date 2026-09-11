@@ -4,7 +4,7 @@ id: p_kY6pJ3GE5CREHzY1UejctY
 status: active
 merged_into: null
 display_name: 王定
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_UdE3sl7wvh2EexO7E4MeWM
+        subject_person_id: p_kY6pJ3GE5CREHzY1UejctY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3MV6yZKdTh6BgYBCM4HjhN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_66jUqv3pUv753Ua8K_3ET3
+          claim_id: c_UdE3sl7wvh2EexO7E4MeWM
+          source_id: s_9b17asnDsANoTCQAPz6hZT
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_9b17asnDsANoTCQAPz6hZT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王逢（CBDB 175948）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175948&o=json
+            external_identifier: CBDB:175948
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.214Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3MV6yZKdTh6BgYBCM4HjhN
+        status: active
+        display_name: 王逢
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_3MV6yZKdTh6BgYBCM4HjhN | 王逢 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王定（CBDB 145052）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145052&o=json)
+- [中国历代人物传记资料库：王逢（CBDB 175948）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175948&o=json)

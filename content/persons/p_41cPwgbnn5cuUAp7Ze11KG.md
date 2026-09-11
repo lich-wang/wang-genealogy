@@ -4,7 +4,7 @@ id: p_41cPwgbnn5cuUAp7Ze11KG
 status: active
 merged_into: null
 display_name: 王猷定
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_KstbcDcYHAaU4DdQCRqygA
+        subject_person_id: p_9p45qRD8U1NYJ8Phf9QUi2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_41cPwgbnn5cuUAp7Ze11KG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2g_2J5qXdz9xftArZEeRO-
+          claim_id: c_KstbcDcYHAaU4DdQCRqygA
+          source_id: s_zrq62YGGayCQXGMmSub9RY
+          stance: supports
+          locator: 小腆紀傳:六十五卷：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_9p45qRD8U1NYJ8Phf9QUi2
+        status: active
+        display_name: 王時熙
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_9p45qRD8U1NYJ8Phf9QUi2 | 王時熙 | accepted |
 
 ## 外部来源
 

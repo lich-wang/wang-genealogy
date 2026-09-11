@@ -4,7 +4,7 @@ id: p_rtD6bGUYxh1w6MBByvNhUR
 status: active
 merged_into: null
 display_name: 王維哲
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_ebo0HZ_j8lJ6UHiuCSevqM
+        subject_person_id: p_rtD6bGUYxh1w6MBByvNhUR
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3sCXvZnf2K3JGPtkmiPk7P
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HNes5OXuLtMe8m7L9lISqh
+          claim_id: c_ebo0HZ_j8lJ6UHiuCSevqM
+          source_id: s_UbMDK3watKgmMGbKALPCAi
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第二甲第四十八名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_UbMDK3watKgmMGbKALPCAi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王齊（CBDB 198292）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198292&o=json
+            external_identifier: CBDB:198292
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.481Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3sCXvZnf2K3JGPtkmiPk7P
+        status: active
+        display_name: 王齊
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_3sCXvZnf2K3JGPtkmiPk7P | 王齊 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王齊（CBDB 198292）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198292&o=json)
 - [中国历代人物传记资料库：王維哲（CBDB 252924）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252924&o=json)

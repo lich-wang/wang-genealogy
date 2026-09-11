@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王長衎
 cbdb_id: 185430
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_JptlETxnwmM8YPPHxV2raX
+        subject_person_id: p_45sVsGucdcRmogpRJoCZis
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wa23QS7VDsuRFQLU4dEUBX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ekWonkDzAJ3GbzqviZFtLj
+          claim_id: c_JptlETxnwmM8YPPHxV2raX
+          source_id: s_ejeYaJmbMLDqJz5NGmDtQp
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ejeYaJmbMLDqJz5NGmDtQp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敬仲（CBDB 141578）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141578&o=json
+            external_identifier: CBDB:141578
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.560Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_45sVsGucdcRmogpRJoCZis
+        status: active
+        display_name: 王敬仲
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_45sVsGucdcRmogpRJoCZis | 王敬仲 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王敬仲（CBDB 141578）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141578&o=json)
 - [中国历代人物传记资料库：王長衎（CBDB 185430）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185430&o=json)

@@ -4,7 +4,7 @@ id: p_MRcNDk25WD9q2qKW2Sg6T2
 status: active
 merged_into: null
 display_name: 王誠
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_mYJDy-wlp3l7V-6wYImO9n
+        subject_person_id: p_MRcNDk25WD9q2qKW2Sg6T2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4AFKu7y5cKNe6h7aSeSk26
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZIqfvTnZuXQQ9etFsxWKpf
+          claim_id: c_mYJDy-wlp3l7V-6wYImO9n
+          source_id: s_v9ruH9BS5qvkvSzL2gx5DB
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，王誠墓誌：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_v9ruH9BS5qvkvSzL2gx5DB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王婢兒（CBDB 696182）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696182&o=json
+            external_identifier: CBDB:696182
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.545Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_4AFKu7y5cKNe6h7aSeSk26
+        status: active
+        display_name: 王婢兒
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_4AFKu7y5cKNe6h7aSeSk26 | 王婢兒 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王婢兒（CBDB 696182）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696182&o=json)
 - [中国历代人物传记资料库：王誠（CBDB 696155）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696155&o=json)

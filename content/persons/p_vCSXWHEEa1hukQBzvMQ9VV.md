@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王承偓
 cbdb_id: 17751
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -187,6 +187,43 @@ relationships:
         status: active
         display_name: 王审琦
         merged_into_person_id: null
+    - claim:
+        id: c_Gwmjy2PNXcFprWVTaDrWKe
+        subject_person_id: p_3FwfmVLuawARCoZyhyo5mg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vCSXWHEEa1hukQBzvMQ9VV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZTjBTzPoI1fRaJB1X3nuM8
+          claim_id: c_Gwmjy2PNXcFprWVTaDrWKe
+          source_id: s_kXDqY3oX1V5PnHzqot3UVv
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1711：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_kXDqY3oX1V5PnHzqot3UVv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王審琦（CBDB 3976）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3976&o=json
+            external_identifier: CBDB:3976
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.439Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3FwfmVLuawARCoZyhyo5mg
+        status: active
+        display_name: 王審琦
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -212,10 +249,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_jhAXJEb1U9Ldt73n9uUeLS | 王审琦 | accepted |
+| parents | p_3FwfmVLuawARCoZyhyo5mg | 王審琦 | accepted |
 
 ## 外部来源
 
 - [维基数据：王承偓（Q45387113）](https://www.wikidata.org/wiki/Q45387113)
 - [维基数据：王审琦（Q15940340）](https://www.wikidata.org/wiki/Q15940340)
+- [中国历代人物传记资料库：王審琦（CBDB 3976）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3976&o=json)
 - [CBDB 中国历代人物传记资料库：王承偓（17751）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17751&o=json)
-- [CBDB 中国历代人物传记资料库：王審琦（3976）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3976&o=json)

@@ -4,7 +4,7 @@ id: p_3JQhJ6V1PYArAt9hMRD7UM
 status: active
 merged_into: null
 display_name: 王鍊
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_L3Bmhab-YsAxmoN0Q1_dpc
+        subject_person_id: p_3sZPWogK9QRQPhpNWt3jQB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3JQhJ6V1PYArAt9hMRD7UM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E51HxyG3cYQl-UhmmQsCAt
+          claim_id: c_L3Bmhab-YsAxmoN0Q1_dpc
+          source_id: s_9cH4Wz7cVkGPVnRJQsf5ei
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_3sZPWogK9QRQPhpNWt3jQB
+        status: active
+        display_name: 王穎
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_hk4BHK6lST4mDMtdoQrmdJ
+        subject_person_id: p_3JQhJ6V1PYArAt9hMRD7UM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_roxoRSVD56KUF4GGHzN446
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HXFAl6DFRpKX3CLQN2JFGi
+          claim_id: c_hk4BHK6lST4mDMtdoQrmdJ
+          source_id: s_9cH4Wz7cVkGPVnRJQsf5ei
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_roxoRSVD56KUF4GGHzN446
+        status: active
+        display_name: 王仲言
+        merged_into_person_id: null
+    - claim:
+        id: c_mGrFK6Qts53mfk8wQy3KBQ
+        subject_person_id: p_3JQhJ6V1PYArAt9hMRD7UM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_z1gwfCLwJCD1A14uZpgWBV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_x5PMeSnIAFZ69wgW9MiLon
+          claim_id: c_mGrFK6Qts53mfk8wQy3KBQ
+          source_id: s_9cH4Wz7cVkGPVnRJQsf5ei
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_z1gwfCLwJCD1A14uZpgWBV
+        status: active
+        display_name: 王仲武
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_3sZPWogK9QRQPhpNWt3jQB | 王穎 | accepted |
+| children | p_roxoRSVD56KUF4GGHzN446 | 王仲言 | accepted |
+| children | p_z1gwfCLwJCD1A14uZpgWBV | 王仲武 | accepted |
 
 ## 外部来源
 

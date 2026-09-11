@@ -4,7 +4,7 @@ id: p_3vv94kaBWa8sUxdLF8B6cN
 status: active
 merged_into: null
 display_name: 王偉
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c__3jzRE2t11pX2b1dR86peQ
+        subject_person_id: p_qrB9yk468HAt4XCx39fKAA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3vv94kaBWa8sUxdLF8B6cN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_G1V_IYqjix71FThVP12BQU
+          claim_id: c__3jzRE2t11pX2b1dR86peQ
+          source_id: s_pYNPwMic5enMTAbLgLaDrN
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），11008：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qrB9yk468HAt4XCx39fKAA
+        status: active
+        display_name: 王伯靈
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qrB9yk468HAt4XCx39fKAA | 王伯靈 | accepted |
 
 ## 外部来源
 

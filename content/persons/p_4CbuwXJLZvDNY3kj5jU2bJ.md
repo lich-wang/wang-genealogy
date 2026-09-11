@@ -4,7 +4,7 @@ id: p_4CbuwXJLZvDNY3kj5jU2bJ
 status: active
 merged_into: null
 display_name: 王興
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_SjivEcU00K2b4CeRUMUxZQ
+        subject_person_id: p_4CbuwXJLZvDNY3kj5jU2bJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_rHZA1vHL86M3xxNwokeU6D
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IfhVzoKxIAM8oj4KjEqPUy
+          claim_id: c_SjivEcU00K2b4CeRUMUxZQ
+          source_id: s_x8UAEP6fJyFw1pXLLbd44D
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第三甲第二十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rHZA1vHL86M3xxNwokeU6D
+        status: active
+        display_name: 王時濟
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_rHZA1vHL86M3xxNwokeU6D | 王時濟 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_DSxYDaaTU5JEJPeq3GSeg5
 status: active
 merged_into: null
 display_name: 王聚
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_eloTyXsJ334GLvJGici2Zb
+        subject_person_id: p_DSxYDaaTU5JEJPeq3GSeg5
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3VWyJNWMm17kXtvGcMVL5b
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Yxgqh426PaAQx3BrO8SpVn
+          claim_id: c_eloTyXsJ334GLvJGici2Zb
+          source_id: s_LMA8xHJ4EXr524gv8VeY3b
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第三甲第十五名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_LMA8xHJ4EXr524gv8VeY3b
+            source_type: api_record
+            title: 中国历代人物传记资料库：王密（CBDB 202150）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202150&o=json
+            external_identifier: CBDB:202150
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.725Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3VWyJNWMm17kXtvGcMVL5b
+        status: active
+        display_name: 王密
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_3VWyJNWMm17kXtvGcMVL5b | 王密 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王聚（CBDB 284294）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284294&o=json)
+- [中国历代人物传记资料库：王密（CBDB 202150）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202150&o=json)

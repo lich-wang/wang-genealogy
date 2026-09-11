@@ -4,7 +4,7 @@ id: p_3JiD5GQ2YjC1XsC5DCH9YN
 status: active
 merged_into: null
 display_name: 王文合
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_rkq_lxbs8MoN4-HXXjN34x
+        subject_person_id: p_G5XZTGp3A73cVnQtTBjVpP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3JiD5GQ2YjC1XsC5DCH9YN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Lhv9Gq6sWqSMd5RZOISLm_
+          claim_id: c_rkq_lxbs8MoN4-HXXjN34x
+          source_id: s_A2r5scrcLCaj5LQ1aFHKc1
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yonghui 142：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_G5XZTGp3A73cVnQtTBjVpP
+        status: active
+        display_name: 王惠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_G5XZTGp3A73cVnQtTBjVpP | 王惠 | accepted |
 
 ## 外部来源
 
