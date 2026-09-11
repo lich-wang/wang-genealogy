@@ -4,7 +4,7 @@ id: p_56i4DUP2wFzJ6ymmACpTVE
 status: active
 merged_into: null
 display_name: 王福榮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_SiEDIj6H0xZK2WWNveHPEl
+        subject_person_id: p_56i4DUP2wFzJ6ymmACpTVE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_zAh17pTJy9yoR9V9ArCvL7
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2OuPG8SkJPGJvNY2wiSTiB
+          claim_id: c_SiEDIj6H0xZK2WWNveHPEl
+          source_id: s_zCfT17oF19rm1KB3EEqwHC
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第五十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zAh17pTJy9yoR9V9ArCvL7
+        status: active
+        display_name: 王楠
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_zAh17pTJy9yoR9V9ArCvL7 | 王楠 | accepted |
 
 ## 外部来源
 

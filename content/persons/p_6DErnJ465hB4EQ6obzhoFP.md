@@ -4,7 +4,7 @@ id: p_6DErnJ465hB4EQ6obzhoFP
 status: active
 merged_into: null
 display_name: 王言
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_rFLzB1izre5hQnt3Iqe2NJ
+        subject_person_id: p_Bhg3TbAuVgAYzQ5KGEKiHP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6DErnJ465hB4EQ6obzhoFP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zcQczRVUi-BLQlw4irqs5I
+          claim_id: c_rFLzB1izre5hQnt3Iqe2NJ
+          source_id: s_5zcswoRuK7oFRUJUGyavEE
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第二甲第六十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Bhg3TbAuVgAYzQ5KGEKiHP
+        status: active
+        display_name: 王鏊
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_Ypc17nFnPNufgWHOnGmRnN
+        subject_person_id: p_G7kZZDk33AXi5PJYjYnxWD
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6DErnJ465hB4EQ6obzhoFP
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5BpTo0vLOtWFT-zNnBvUfh
+          claim_id: c_Ypc17nFnPNufgWHOnGmRnN
+          source_id: s_5zcswoRuK7oFRUJUGyavEE
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第二甲第六十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_G7kZZDk33AXi5PJYjYnxWD
+        status: active
+        display_name: 王玉
+        merged_into_person_id: null
+    - claim:
+        id: c_oUDrKQbdGuRXMzngA-AN76
+        subject_person_id: p_NjzXH9fFmDBUBL4MtDy5kZ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6DErnJ465hB4EQ6obzhoFP
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tUzzUYoY1yHQ-_EyG6lX4R
+          claim_id: c_oUDrKQbdGuRXMzngA-AN76
+          source_id: s_5zcswoRuK7oFRUJUGyavEE
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第二甲第六十三名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NjzXH9fFmDBUBL4MtDy5kZ
+        status: active
+        display_name: 王震
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Bhg3TbAuVgAYzQ5KGEKiHP | 王鏊 | accepted |
+| ancestors | p_G7kZZDk33AXi5PJYjYnxWD | 王玉 | accepted |
+| ancestors | p_NjzXH9fFmDBUBL4MtDy5kZ | 王震 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_LKzDYAPDmX1Dcm3kwWWk7w
 status: active
 merged_into: null
 display_name: 王九言
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_po21id6_4q80KmzAHogFON
+        subject_person_id: p_LKzDYAPDmX1Dcm3kwWWk7w
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5RBiZ6FFWAyKXQ4ceyXGgd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ephCCOpZ16nWnG8j_LyTBt
+          claim_id: c_po21id6_4q80KmzAHogFON
+          source_id: s_yFkRvNoqVCR1E6mAvPZevM
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，159 王九言墓志：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_yFkRvNoqVCR1E6mAvPZevM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正民（CBDB 697006）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697006&o=json
+            external_identifier: CBDB:697006
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.707Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5RBiZ6FFWAyKXQ4ceyXGgd
+        status: active
+        display_name: 王正民
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_5RBiZ6FFWAyKXQ4ceyXGgd | 王正民 | accepted |
 | descendants | p_1aEwesssoYpd2ncPJ3YUoM | 王淇 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王九言（CBDB 696905）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696905&o=json)
 - [中国历代人物传记资料库：王淇（CBDB 697034）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697034&o=json)
+- [中国历代人物传记资料库：王正民（CBDB 697006）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697006&o=json)

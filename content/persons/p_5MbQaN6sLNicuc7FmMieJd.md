@@ -4,7 +4,7 @@ id: p_5MbQaN6sLNicuc7FmMieJd
 status: active
 merged_into: null
 display_name: 王文錦
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,13 +128,117 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_KLoI_Xy2bb4ckBK6p17fTi
+        subject_person_id: p_3BvBua6ZTDGv4MpNMX8be5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5MbQaN6sLNicuc7FmMieJd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_khd4ORc4d8NWWIF52awoh0
+          claim_id: c_KLoI_Xy2bb4ckBK6p17fTi
+          source_id: s_gcATuP6CQr39pk8hp1ieE8
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1042：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_3BvBua6ZTDGv4MpNMX8be5
+        status: active
+        display_name: 王炳榮
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
-  descendants: []
+  ancestors:
+    - claim:
+        id: c_Z2VKfE8P0nPVO1DL97nlDt
+        subject_person_id: p_tNvdP123bDbFgE6LHR9Qrp
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5MbQaN6sLNicuc7FmMieJd
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DmgTw04cvtdB14VxsApzvo
+          claim_id: c_Z2VKfE8P0nPVO1DL97nlDt
+          source_id: s_gcATuP6CQr39pk8hp1ieE8
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1042：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_tNvdP123bDbFgE6LHR9Qrp
+        status: active
+        display_name: 王盛言
+        merged_into_person_id: null
+  descendants:
+    - claim:
+        id: c_qJ26vzVGhzdy7_kvPFKfH7
+        subject_person_id: p_5MbQaN6sLNicuc7FmMieJd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DZWt9AM7bc3P3e9fG5Py1x
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lfHwsD6zVKQjeg-hV2SpHJ
+          claim_id: c_qJ26vzVGhzdy7_kvPFKfH7
+          source_id: s_gcATuP6CQr39pk8hp1ieE8
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1042：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DZWt9AM7bc3P3e9fG5Py1x
+        status: active
+        display_name: 王保琪
+        merged_into_person_id: null
+    - claim:
+        id: c_UQjkKGjzw8q3xY2kZAbFAC
+        subject_person_id: p_5MbQaN6sLNicuc7FmMieJd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_2CN1rb9zH543xRBstFNPXh
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JWYUiLuFLxMmLzeDhaEtA4
+          claim_id: c_UQjkKGjzw8q3xY2kZAbFAC
+          source_id: s_gcATuP6CQr39pk8hp1ieE8
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1042：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_2CN1rb9zH543xRBstFNPXh
+        status: active
+        display_name: 王保璐
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,6 +259,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_3BvBua6ZTDGv4MpNMX8be5 | 王炳榮 | accepted |
+| ancestors | p_tNvdP123bDbFgE6LHR9Qrp | 王盛言 | accepted |
+| descendants | p_DZWt9AM7bc3P3e9fG5Py1x | 王保琪 | accepted |
+| descendants | p_2CN1rb9zH543xRBstFNPXh | 王保璐 | accepted |
 
 ## 外部来源
 

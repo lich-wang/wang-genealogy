@@ -4,7 +4,7 @@ id: p_4YYoAHWMp3Bi3iGGbeFDZQ
 status: active
 merged_into: null
 display_name: 王倉
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_8hV55ec2xJLxbr43XRQOhe
+        subject_person_id: p_jqkNaPM6oKD7E6QNnfSZbA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4YYoAHWMp3Bi3iGGbeFDZQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Fi6Gb0T79Ohq_fEpsKjm0R
+          claim_id: c_8hV55ec2xJLxbr43XRQOhe
+          source_id: s_myh5kEKgZXyRw9RsbCULRP
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_jqkNaPM6oKD7E6QNnfSZbA
+        status: active
+        display_name: 王翊
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_0QVOTJeNajLT5PMDXloW5Y
+        subject_person_id: p_4YYoAHWMp3Bi3iGGbeFDZQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FAZ6o2kej8gegK9CExMqrS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Kv75od_mhp2HQnt0Nd5IUw
+          claim_id: c_0QVOTJeNajLT5PMDXloW5Y
+          source_id: s_myh5kEKgZXyRw9RsbCULRP
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_FAZ6o2kej8gegK9CExMqrS
+        status: active
+        display_name: 王叔仲
+        merged_into_person_id: null
+    - claim:
+        id: c_trZPV886ITEXDmCijSvWja
+        subject_person_id: p_4YYoAHWMp3Bi3iGGbeFDZQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yBtPvdFHB94uiBW1TdCCXp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OkEr4nWFt-WixWYBrfsEpX
+          claim_id: c_trZPV886ITEXDmCijSvWja
+          source_id: s_myh5kEKgZXyRw9RsbCULRP
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_yBtPvdFHB94uiBW1TdCCXp
+        status: active
+        display_name: 王敬仲
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_jqkNaPM6oKD7E6QNnfSZbA | 王翊 | accepted |
+| children | p_FAZ6o2kej8gegK9CExMqrS | 王叔仲 | accepted |
+| children | p_yBtPvdFHB94uiBW1TdCCXp | 王敬仲 | accepted |
 
 ## 外部来源
 

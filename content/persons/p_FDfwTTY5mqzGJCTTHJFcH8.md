@@ -4,7 +4,7 @@ id: p_FDfwTTY5mqzGJCTTHJFcH8
 status: active
 merged_into: null
 display_name: 王一夔
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,43 @@ relationships:
         status: active
         display_name: 王理
         merged_into_person_id: null
+    - claim:
+        id: c_TtCQid02pOyLN5eC6rFKEI
+        subject_person_id: p_4xVHszHged8ZkuPtDKcT7D
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_FDfwTTY5mqzGJCTTHJFcH8
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_n2ZIuJ-s2KVNRSVuutk9Gg
+          claim_id: c_TtCQid02pOyLN5eC6rFKEI
+          source_id: s_SB86Da77TfNw1HCW44jRqp
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第二甲第二十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_SB86Da77TfNw1HCW44jRqp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鏜（CBDB 308777）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308777&o=json
+            external_identifier: CBDB:308777
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.799Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_4xVHszHged8ZkuPtDKcT7D
+        status: active
+        display_name: 王鏜
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_4P232SRs9q3PwKhwXTXK8X | 王理 | accepted |
+| ancestors | p_4xVHszHged8ZkuPtDKcT7D | 王鏜 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王理（CBDB 308776）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308776&o=json)
+- [中国历代人物传记资料库：王鏜（CBDB 308777）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308777&o=json)
 - [中国历代人物传记资料库：王一夔（CBDB 203700）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203700&o=json)

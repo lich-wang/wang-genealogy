@@ -4,7 +4,7 @@ id: p_5B4suypXr1H38m3G8Gpz1b
 status: active
 merged_into: null
 display_name: 王貴
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_igOCY-_G5SEBBmiEHJCaDg
+        subject_person_id: p_5B4suypXr1H38m3G8Gpz1b
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_g1ZQp25f7TDHH92Q6ePC8K
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V-wBZhfV4xXMp5-cMZfh6h
+          claim_id: c_igOCY-_G5SEBBmiEHJCaDg
+          source_id: s_uch6cdgWh3qREth5P5dYko
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第一百二十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_g1ZQp25f7TDHH92Q6ePC8K
+        status: active
+        display_name: 王應詔
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_g1ZQp25f7TDHH92Q6ePC8K | 王應詔 | accepted |
 
 ## 外部来源
 

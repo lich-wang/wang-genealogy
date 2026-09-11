@@ -4,7 +4,7 @@ id: p_4Z8oBTJamRmm8c5d9wkYUe
 status: active
 merged_into: null
 display_name: 王平
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,11 +73,63 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_PM-piDXML8pklvZKctwM_8
+        subject_person_id: p_4Z8oBTJamRmm8c5d9wkYUe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PUBtfTr2QXW6N416Jn8KQA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HG4Q0mUIQTFp7E_ld14XTA
+          claim_id: c_PM-piDXML8pklvZKctwM_8
+          source_id: s_qJVQKAQQ8YxTGVSctLKJep
+          stance: supports
+          locator: 寶祐登科錄：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_PUBtfTr2QXW6N416Jn8KQA
+        status: active
+        display_name: 王剛中
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_bM4d2obUr8KLPZj9i4AGa_
+        subject_person_id: p_CqBg4yUCepcHAE8r6vCYuZ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4Z8oBTJamRmm8c5d9wkYUe
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BWNXFmqD1EtGgt-wejbn8L
+          claim_id: c_bM4d2obUr8KLPZj9i4AGa_
+          source_id: s_qJVQKAQQ8YxTGVSctLKJep
+          stance: supports
+          locator: 寶祐登科錄：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_CqBg4yUCepcHAE8r6vCYuZ
+        status: active
+        display_name: 王必申
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_PUBtfTr2QXW6N416Jn8KQA | 王剛中 | accepted |
+| ancestors | p_CqBg4yUCepcHAE8r6vCYuZ | 王必申 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_6BcNKRe82htPqYxnsGXoQy
 status: active
 merged_into: null
 display_name: 王用賓
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_7mgjT_ApbHai_E2l2rQxZl
+        subject_person_id: p_NuNTQZExjKcTBss2PH1NRS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6BcNKRe82htPqYxnsGXoQy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cc13neTgqZN_zjF6G6jn83
+          claim_id: c_7mgjT_ApbHai_E2l2rQxZl
+          source_id: s_jrE49LbHYi16DqAT581UjL
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第二甲第一百零六名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NuNTQZExjKcTBss2PH1NRS
+        status: active
+        display_name: 王懋
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_f4tA2jDkgjaaPkhyeWr5iG
+        subject_person_id: p_7aUTPEtKBJQCs2MeHeH92w
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6BcNKRe82htPqYxnsGXoQy
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5AV7j_36IaMb_fZjL-qvv3
+          claim_id: c_f4tA2jDkgjaaPkhyeWr5iG
+          source_id: s_jrE49LbHYi16DqAT581UjL
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第二甲第一百零六名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_7aUTPEtKBJQCs2MeHeH92w
+        status: active
+        display_name: 王福
+        merged_into_person_id: null
+    - claim:
+        id: c_O-0Rojrn7OskN7p07ucBZd
+        subject_person_id: p_NG6up6tyYjPFB9nq4tmUEG
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6BcNKRe82htPqYxnsGXoQy
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xOEPGEm7uBi8_em6_RKm-x
+          claim_id: c_O-0Rojrn7OskN7p07ucBZd
+          source_id: s_jrE49LbHYi16DqAT581UjL
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第二甲第一百零六名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NG6up6tyYjPFB9nq4tmUEG
+        status: active
+        display_name: 王鑾
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_NuNTQZExjKcTBss2PH1NRS | 王懋 | accepted |
+| ancestors | p_7aUTPEtKBJQCs2MeHeH92w | 王福 | accepted |
+| ancestors | p_NG6up6tyYjPFB9nq4tmUEG | 王鑾 | accepted |
 
 ## 外部来源
 

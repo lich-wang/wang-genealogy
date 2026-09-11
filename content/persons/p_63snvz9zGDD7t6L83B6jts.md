@@ -4,7 +4,7 @@ id: p_63snvz9zGDD7t6L83B6jts
 status: active
 merged_into: null
 display_name: 王治
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_XZhaukh_iQ5ypUbvC-m4ST
+        subject_person_id: p_o32S14d2HC7tUArdjG9ggX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_63snvz9zGDD7t6L83B6jts
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K8tfhCNf3Y29eOvPMuaZvj
+          claim_id: c_XZhaukh_iQ5ypUbvC-m4ST
+          source_id: s_cdo2KwLcBLEECDXBmtt1f3
+          stance: supports
+          locator: "(民國)續修陝西通志稿: 二百二十四卷 卷首一卷，lgid=1018936：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_o32S14d2HC7tUArdjG9ggX
+        status: active
+        display_name: 王朝欽
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_GSiDlKv29fyOps3as4t1cJ
+        subject_person_id: p_63snvz9zGDD7t6L83B6jts
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QYPqTmphVo7sw5eAHZQbmS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8cY0DI4AiuL6IqQwb78CCO
+          claim_id: c_GSiDlKv29fyOps3as4t1cJ
+          source_id: s_cdo2KwLcBLEECDXBmtt1f3
+          stance: supports
+          locator: "(民國)續修陝西通志稿: 二百二十四卷 卷首一卷，lgid=1018936：子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_QYPqTmphVo7sw5eAHZQbmS
+        status: active
+        display_name: 王進泰
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_o32S14d2HC7tUArdjG9ggX | 王朝欽 | accepted |
+| children | p_QYPqTmphVo7sw5eAHZQbmS | 王進泰 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_PeNwc61mxTnzddmv7sBFLN
 status: active
 merged_into: null
 display_name: 王延
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_Fu8C3PKU-_EFvpOddk8fnY
+        subject_person_id: p_6AWFkDwvMEx3gmWMnZMPwe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_PeNwc61mxTnzddmv7sBFLN
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vbY5fw4YUoQrofgG8Z6JR9
+          claim_id: c_Fu8C3PKU-_EFvpOddk8fnY
+          source_id: s_SUs9UsZEYNukhuLWGV3uqc
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第九十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_SUs9UsZEYNukhuLWGV3uqc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昺（CBDB 209880）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209880&o=json
+            external_identifier: CBDB:209880
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.985Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_6AWFkDwvMEx3gmWMnZMPwe
+        status: active
+        display_name: 王昺
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_6AWFkDwvMEx3gmWMnZMPwe | 王昺 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王昺（CBDB 209880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209880&o=json)
 - [中国历代人物传记资料库：王延（CBDB 205861）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205861&o=json)

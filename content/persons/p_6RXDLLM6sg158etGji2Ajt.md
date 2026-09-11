@@ -4,7 +4,7 @@ id: p_6RXDLLM6sg158etGji2Ajt
 status: active
 merged_into: null
 display_name: 王震
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_-XeV-xFjpJMcwgSjtCsnac
+        subject_person_id: p_ZBSqCJ2UQvXiJRMKwjXZvU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6RXDLLM6sg158etGji2Ajt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FI8cEmaI9xXUbbGwLrPLML
+          claim_id: c_-XeV-xFjpJMcwgSjtCsnac
+          source_id: s_aQPEiFDKhXewR97dFD4wYj
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Jinglong 32：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ZBSqCJ2UQvXiJRMKwjXZvU
+        status: active
+        display_name: 王師順
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_lmVSz5orEXQvYiEX1uWkjc
+        subject_person_id: p_6RXDLLM6sg158etGji2Ajt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GdMD2U5cMXJm7vvjZhwJqE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VLjgoYnSM-3bXRBWG_P9tp
+          claim_id: c_lmVSz5orEXQvYiEX1uWkjc
+          source_id: s_aQPEiFDKhXewR97dFD4wYj
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Jinglong 32：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GdMD2U5cMXJm7vvjZhwJqE
+        status: active
+        display_name: 王仲玄
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ZBSqCJ2UQvXiJRMKwjXZvU | 王師順 | accepted |
+| children | p_GdMD2U5cMXJm7vvjZhwJqE | 王仲玄 | accepted |
 
 ## 外部来源
 

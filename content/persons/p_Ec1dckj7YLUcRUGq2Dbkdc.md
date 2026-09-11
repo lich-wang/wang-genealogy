@@ -4,7 +4,7 @@ id: p_Ec1dckj7YLUcRUGq2Dbkdc
 status: active
 merged_into: null
 display_name: 王尚絅
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -133,7 +133,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_I4u4rSNWBBck4VMQTI4Mjp
+        subject_person_id: p_4yGj1H3gVFynqBDVX7MFH7
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Ec1dckj7YLUcRUGq2Dbkdc
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MCMYCbZfg2UO-za8aUSk65
+          claim_id: c_I4u4rSNWBBck4VMQTI4Mjp
+          source_id: s_9AKBa4f5bA2MRFAVm9yroq
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第二甲第六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_9AKBa4f5bA2MRFAVm9yroq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王斌（CBDB 269866）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=269866&o=json
+            external_identifier: CBDB:269866
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.819Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_4yGj1H3gVFynqBDVX7MFH7
+        status: active
+        display_name: 王斌
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_4yGj1H3gVFynqBDVX7MFH7 | 王斌 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王斌（CBDB 269866）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=269866&o=json)
 - [中国历代人物传记资料库：王尚絅（CBDB 126574）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126574&o=json)

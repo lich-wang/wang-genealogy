@@ -4,7 +4,7 @@ id: p_6FiYr9HtsB6xqct233x4x9
 status: active
 merged_into: null
 display_name: 王旭
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_zZJdBbpP60OD7yWxglg3MF
+        subject_person_id: p_6aKQmuB1xaRvMcBNGSGgUM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6FiYr9HtsB6xqct233x4x9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_r-hDVqN4gHeJGr01p2yOg6
+          claim_id: c_zZJdBbpP60OD7yWxglg3MF
+          source_id: s_LCV6R6ezTfM5qzJM1HMKtV
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_6aKQmuB1xaRvMcBNGSGgUM
+        status: active
+        display_name: 王齐望
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_6aKQmuB1xaRvMcBNGSGgUM | 王齐望 | accepted |
 
 ## 外部来源
 

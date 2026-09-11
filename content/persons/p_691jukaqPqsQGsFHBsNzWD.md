@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王至善
 cbdb_id: 201900
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -171,7 +171,81 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_AMvbzb8uod9EthqN1N2Zh_
+        subject_person_id: p_6EF1hrXQZDRZAqFX8G7qFM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_691jukaqPqsQGsFHBsNzWD
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LaPs5jxVxvN9MEz3jFYmyL
+          claim_id: c_AMvbzb8uod9EthqN1N2Zh_
+          source_id: s_EgtZR3CwDb1Ehcs8hR8rae
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第二甲第七十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_EgtZR3CwDb1Ehcs8hR8rae
+            source_type: api_record
+            title: 中国历代人物传记资料库：王忠（CBDB 280169）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280169&o=json
+            external_identifier: CBDB:280169
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.996Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_6EF1hrXQZDRZAqFX8G7qFM
+        status: active
+        display_name: 王忠
+        merged_into_person_id: null
+    - claim:
+        id: c_nyFHwNSpaTNQs4EgVFa0j-
+        subject_person_id: p_6q1SgNy52JcJwzEFwj269z
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_691jukaqPqsQGsFHBsNzWD
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_evx4zBhRPkPa5LSsc0h9yY
+          claim_id: c_nyFHwNSpaTNQs4EgVFa0j-
+          source_id: s_HnEcKc2r6kPzHKekpVe1PD
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第二甲第七十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_HnEcKc2r6kPzHKekpVe1PD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文貴（CBDB 280168）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280168&o=json
+            external_identifier: CBDB:280168
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.995Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_6q1SgNy52JcJwzEFwj269z
+        status: active
+        display_name: 王文貴
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +267,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_1N7Z4wmfmL9xzTY7zGpnMb | 王信 | accepted |
+| ancestors | p_6EF1hrXQZDRZAqFX8G7qFM | 王忠 | accepted |
+| ancestors | p_6q1SgNy52JcJwzEFwj269z | 王文貴 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王文貴（CBDB 280168）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280168&o=json)
 - [中国历代人物传记资料库：王信（CBDB 280170）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280170&o=json)
 - [中国历代人物传记资料库：王至善（CBDB 201900）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201900&o=json)
+- [中国历代人物传记资料库：王忠（CBDB 280169）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280169&o=json)

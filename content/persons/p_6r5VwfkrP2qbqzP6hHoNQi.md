@@ -4,7 +4,7 @@ id: p_6r5VwfkrP2qbqzP6hHoNQi
 status: active
 merged_into: null
 display_name: 王弁
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,13 +128,232 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_1OHAXHpjFV22VT0CWrooUc
+        subject_person_id: p_P9pk3GX9ak89DEB5HLBBuW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6r5VwfkrP2qbqzP6hHoNQi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vJKyaqOXtmGrQwZhN5yl6F
+          claim_id: c_1OHAXHpjFV22VT0CWrooUc
+          source_id: s_ebyTGK7ELo3HAFB92wqGA3
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，48：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_P9pk3GX9ak89DEB5HLBBuW
+        status: active
+        display_name: 王用
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_YY5ESALB744lunxe8mUsiq
+        subject_person_id: p_6r5VwfkrP2qbqzP6hHoNQi
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5JKRo5JKyD3NiBVQf4W2yC
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q-6AECJldfqvAaCSuzJJFi
+          claim_id: c_YY5ESALB744lunxe8mUsiq
+          source_id: s_GQo86c3An7v5VQRTF7ttgL
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，80：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GQo86c3An7v5VQRTF7ttgL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王息哥（CBDB 699422）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699422&o=json
+            external_identifier: CBDB:699422
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.581Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5JKRo5JKyD3NiBVQf4W2yC
+        status: active
+        display_name: 王息哥
+        merged_into_person_id: null
+    - claim:
+        id: c_4bes_dAwnGjL668jgi9nH-
+        subject_person_id: p_6r5VwfkrP2qbqzP6hHoNQi
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_zmKmGw5eGTqLZuiR7yMU8M
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lenBn35G69blenUXGfIprV
+          claim_id: c_4bes_dAwnGjL668jgi9nH-
+          source_id: s_ebyTGK7ELo3HAFB92wqGA3
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，80：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zmKmGw5eGTqLZuiR7yMU8M
+        status: active
+        display_name: 王助哥
+        merged_into_person_id: null
+    - claim:
+        id: c_JgLoYSpeTgV-rFDPC5UUnb
+        subject_person_id: p_6r5VwfkrP2qbqzP6hHoNQi
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_9bkZAush33tNhmRnx5M2Df
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_u2QEy-Xc0QBqmLmbz6aj00
+          claim_id: c_JgLoYSpeTgV-rFDPC5UUnb
+          source_id: s_ebyTGK7ELo3HAFB92wqGA3
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，80：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_9bkZAush33tNhmRnx5M2Df
+        status: active
+        display_name: 王張住
+        merged_into_person_id: null
+    - claim:
+        id: c_pTVph8FIvQgo4iAcHg-ZZG
+        subject_person_id: p_6r5VwfkrP2qbqzP6hHoNQi
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qUV1Lh3kQf6nGxjSa7CTzK
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RPQ95Ti1fL0sLX_WOgfmi-
+          claim_id: c_pTVph8FIvQgo4iAcHg-ZZG
+          source_id: s_ebyTGK7ELo3HAFB92wqGA3
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，80：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qUV1Lh3kQf6nGxjSa7CTzK
+        status: active
+        display_name: 王勃兒
+        merged_into_person_id: null
+    - claim:
+        id: c_uMFK0I2Ggaz8c3gxqgltJ3
+        subject_person_id: p_6r5VwfkrP2qbqzP6hHoNQi
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_vd8kpM5xBWhGP9F2B4Ngun
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Sg4MkeXphb3C7SHwgr3m-x
+          claim_id: c_uMFK0I2Ggaz8c3gxqgltJ3
+          source_id: s_ebyTGK7ELo3HAFB92wqGA3
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，80：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vd8kpM5xBWhGP9F2B4Ngun
+        status: active
+        display_name: 王楊姐
+        merged_into_person_id: null
+    - claim:
+        id: c_DqU0OptDtQYE7zEWBoAI3f
+        subject_person_id: p_6r5VwfkrP2qbqzP6hHoNQi
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BX84MnygPGnzNAEC8vVqh2
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DglvRUeMZBxPyeAn_4ZGj3
+          claim_id: c_DqU0OptDtQYE7zEWBoAI3f
+          source_id: s_ebyTGK7ELo3HAFB92wqGA3
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，80：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_BX84MnygPGnzNAEC8vVqh2
+        status: active
+        display_name: 王忝喜
+        merged_into_person_id: null
+    - claim:
+        id: c_UTDXhjELwkSE89tV6X8w6l
+        subject_person_id: p_6r5VwfkrP2qbqzP6hHoNQi
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_v4cVQTy66xpHpnivKPuhYH
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8_hENWbGXJwsJ2LvLVXQ3n
+          claim_id: c_UTDXhjELwkSE89tV6X8w6l
+          source_id: s_ebyTGK7ELo3HAFB92wqGA3
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，80：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_v4cVQTy66xpHpnivKPuhYH
+        status: active
+        display_name: 王慶喜
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,7 +374,16 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_P9pk3GX9ak89DEB5HLBBuW | 王用 | accepted |
+| descendants | p_5JKRo5JKyD3NiBVQf4W2yC | 王息哥 | accepted |
+| descendants | p_zmKmGw5eGTqLZuiR7yMU8M | 王助哥 | accepted |
+| descendants | p_9bkZAush33tNhmRnx5M2Df | 王張住 | accepted |
+| descendants | p_qUV1Lh3kQf6nGxjSa7CTzK | 王勃兒 | accepted |
+| descendants | p_vd8kpM5xBWhGP9F2B4Ngun | 王楊姐 | accepted |
+| descendants | p_BX84MnygPGnzNAEC8vVqh2 | 王忝喜 | accepted |
+| descendants | p_v4cVQTy66xpHpnivKPuhYH | 王慶喜 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王弁（CBDB 699373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699373&o=json)
+- [中国历代人物传记资料库：王息哥（CBDB 699422）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699422&o=json)

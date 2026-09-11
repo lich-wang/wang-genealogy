@@ -4,7 +4,7 @@ id: p_JyQEqHYoQpEFEvojfsp6Dp
 status: active
 merged_into: null
 display_name: 王鑄
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_2m3Hb9_0S3ik4hzXTiy5-r
+        subject_person_id: p_6RPHj2j4cH1L4YTjuMhCpn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JyQEqHYoQpEFEvojfsp6Dp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xHDaru8je7Qw-tbJTllbJh
+          claim_id: c_2m3Hb9_0S3ik4hzXTiy5-r
+          source_id: s_QZUQfDNG45gtkNvmB8J354
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_QZUQfDNG45gtkNvmB8J354
+            source_type: api_record
+            title: 中国历代人物传记资料库：王起（CBDB 92061）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92061&o=json
+            external_identifier: CBDB:92061
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:14.110Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_6RPHj2j4cH1L4YTjuMhCpn
+        status: active
+        display_name: 王起
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_6RPHj2j4cH1L4YTjuMhCpn | 王起 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王起（CBDB 92061）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92061&o=json)
 - [中国历代人物传记资料库：王鑄（CBDB 175922）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175922&o=json)

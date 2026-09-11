@@ -4,7 +4,7 @@ id: p_5DyZb4VPN6kQ3yNqbGjxpz
 status: active
 merged_into: null
 display_name: 王邵
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_nEouT8fbGDBTnKWbTl7vTA
+        subject_person_id: p_WPVAqcRtnt1HvYAsfmkMSQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5DyZb4VPN6kQ3yNqbGjxpz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dhy1nJjXfDNVeXuU7BgihN
+          claim_id: c_nEouT8fbGDBTnKWbTl7vTA
+          source_id: s_djtoCsz5bs8P8NA1pp3FyJ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WPVAqcRtnt1HvYAsfmkMSQ
+        status: active
+        display_name: 王松年
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_7pSv6_A2fQ60Ig2JAPf9tj
+        subject_person_id: p_5DyZb4VPN6kQ3yNqbGjxpz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AdgrHD2drpt44saj1nVHwe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1-Z2TNRzuK3BBMz8QoDCnk
+          claim_id: c_7pSv6_A2fQ60Ig2JAPf9tj
+          source_id: s_djtoCsz5bs8P8NA1pp3FyJ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_AdgrHD2drpt44saj1nVHwe
+        status: active
+        display_name: 王孝京
+        merged_into_person_id: null
+    - claim:
+        id: c_SB2gHCyIs95YOu_Coqk4Nk
+        subject_person_id: p_5DyZb4VPN6kQ3yNqbGjxpz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_45U8WA4P34ndoiEMxk4qRw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_w_KptxIKdKQB7oozbevjVO
+          claim_id: c_SB2gHCyIs95YOu_Coqk4Nk
+          source_id: s_djtoCsz5bs8P8NA1pp3FyJ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_45U8WA4P34ndoiEMxk4qRw
+        status: active
+        display_name: 王孝柔
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WPVAqcRtnt1HvYAsfmkMSQ | 王松年 | accepted |
+| children | p_AdgrHD2drpt44saj1nVHwe | 王孝京 | accepted |
+| children | p_45U8WA4P34ndoiEMxk4qRw | 王孝柔 | accepted |
 
 ## 外部来源
 

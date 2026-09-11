@@ -4,7 +4,7 @@ id: p_ymucX7NT8ppRqzhncqq8Wc
 status: active
 merged_into: null
 display_name: 王鼎
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_3ZYrusuQNlPR9llvgoPLE3
+        subject_person_id: p_ymucX7NT8ppRqzhncqq8Wc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6fvA7tcbJ3QZeAtYpG1JUJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1kh-CBvkcsPIj-ifrZF5h7
+          claim_id: c_3ZYrusuQNlPR9llvgoPLE3
+          source_id: s_HcH3xQmb7zb9n2w7Xu1CjS
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第一百二十六名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_HcH3xQmb7zb9n2w7Xu1CjS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之臣（CBDB 205596）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205596&o=json
+            external_identifier: CBDB:205596
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.866Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_6fvA7tcbJ3QZeAtYpG1JUJ
+        status: active
+        display_name: 王之臣
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_6fvA7tcbJ3QZeAtYpG1JUJ | 王之臣 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鼎（CBDB 335738）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335738&o=json)
+- [中国历代人物传记资料库：王之臣（CBDB 205596）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205596&o=json)

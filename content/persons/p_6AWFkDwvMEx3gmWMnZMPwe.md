@@ -4,7 +4,7 @@ id: p_6AWFkDwvMEx3gmWMnZMPwe
 status: active
 merged_into: null
 display_name: 王昺
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -116,6 +116,58 @@ relationships:
         status: active
         display_name: 王遵
         merged_into_person_id: null
+    - claim:
+        id: c_s36NOFEQu6lf4Sx_6e0Um9
+        subject_person_id: p_6AWFkDwvMEx3gmWMnZMPwe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_pv2pDE9A1jj2uMGHCGpC7T
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_scV3fKCNzuQtMWFnLNf0ZD
+          claim_id: c_s36NOFEQu6lf4Sx_6e0Um9
+          source_id: s_SUs9UsZEYNukhuLWGV3uqc
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第二甲第八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_pv2pDE9A1jj2uMGHCGpC7T
+        status: active
+        display_name: 王廷
+        merged_into_person_id: null
+    - claim:
+        id: c_Fu8C3PKU-_EFvpOddk8fnY
+        subject_person_id: p_6AWFkDwvMEx3gmWMnZMPwe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_PeNwc61mxTnzddmv7sBFLN
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vbY5fw4YUoQrofgG8Z6JR9
+          claim_id: c_Fu8C3PKU-_EFvpOddk8fnY
+          source_id: s_SUs9UsZEYNukhuLWGV3uqc
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第九十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_PeNwc61mxTnzddmv7sBFLN
+        status: active
+        display_name: 王延
+        merged_into_person_id: null
   other: []
 ---
 
@@ -135,6 +187,8 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | descendants | p_2LvZRKXC4bvnUqu11G57yb | 王遵 | accepted |
+| descendants | p_pv2pDE9A1jj2uMGHCGpC7T | 王廷 | accepted |
+| descendants | p_PeNwc61mxTnzddmv7sBFLN | 王延 | accepted |
 
 ## 外部来源
 

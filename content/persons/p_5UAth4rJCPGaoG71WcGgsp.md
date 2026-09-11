@@ -4,7 +4,7 @@ id: p_5UAth4rJCPGaoG71WcGgsp
 status: active
 merged_into: null
 display_name: 王權
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,85 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_3XPiotZaktaU9nP23_Tdt4
+        subject_person_id: p_5UAth4rJCPGaoG71WcGgsp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qbMsKJz49VxDT7JG8FhSHx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0rdGx-J4d2H1On94eLlUUX
+          claim_id: c_3XPiotZaktaU9nP23_Tdt4
+          source_id: s_b4y5Ah8FMs1dAAQC1d3wNR
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qbMsKJz49VxDT7JG8FhSHx
+        status: active
+        display_name: 王牟
+        merged_into_person_id: null
+    - claim:
+        id: c_oR-GGFj1QXLvoQwcVZwO8g
+        subject_person_id: p_5UAth4rJCPGaoG71WcGgsp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PPCjb3WLAXAZdvH2wXG32m
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yhnToYyV2dpzOab680Ed3X
+          claim_id: c_oR-GGFj1QXLvoQwcVZwO8g
+          source_id: s_b4y5Ah8FMs1dAAQC1d3wNR
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_PPCjb3WLAXAZdvH2wXG32m
+        status: active
+        display_name: 王釗
+        merged_into_person_id: null
+    - claim:
+        id: c_QDmRot14lkIciDzI-vJ17d
+        subject_person_id: p_5UAth4rJCPGaoG71WcGgsp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wGQGzDMTTEQQ5geZtLTc1w
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HsMv8N6-1q6N5z6viA8JUh
+          claim_id: c_QDmRot14lkIciDzI-vJ17d
+          source_id: s_b4y5Ah8FMs1dAAQC1d3wNR
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wGQGzDMTTEQQ5geZtLTc1w
+        status: active
+        display_name: 王遠
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_qbMsKJz49VxDT7JG8FhSHx | 王牟 | accepted |
+| children | p_PPCjb3WLAXAZdvH2wXG32m | 王釗 | accepted |
+| children | p_wGQGzDMTTEQQ5geZtLTc1w | 王遠 | accepted |
 
 ## 外部来源
 

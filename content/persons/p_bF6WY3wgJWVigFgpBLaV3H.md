@@ -4,7 +4,7 @@ id: p_bF6WY3wgJWVigFgpBLaV3H
 status: active
 merged_into: null
 display_name: 王璽
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_LfEinVRzYAVCn_mf5oHGD-
+        subject_person_id: p_5CsnxPJ1Pqskb685MNmLx9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bF6WY3wgJWVigFgpBLaV3H
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UAY42Qb6NjwF-Mt8z5hFeq
+          claim_id: c_LfEinVRzYAVCn_mf5oHGD-
+          source_id: s_HnV2yB88d2LDzZ44BKY5Y3
+          stance: supports
+          locator: 正統十三年進士登科錄:一卷，第三甲第五十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_HnV2yB88d2LDzZ44BKY5Y3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎬（CBDB 241137）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241137&o=json
+            external_identifier: CBDB:241137
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.945Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5CsnxPJ1Pqskb685MNmLx9
+        status: active
+        display_name: 王鎬
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -192,9 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5CsnxPJ1Pqskb685MNmLx9 | 王鎬 | accepted |
 | ancestors | p_32BLPDKJangJT5tNVMnCFe | 王永福 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鎬（CBDB 241137）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241137&o=json)
 - [中国历代人物传记资料库：王璽（CBDB 126869）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126869&o=json)
 - [中国历代人物传记资料库：王永福（CBDB 241135）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241135&o=json)

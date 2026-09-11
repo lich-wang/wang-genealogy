@@ -4,7 +4,7 @@ id: p_74Qzh7hdC512soxk6XYfNt
 status: active
 merged_into: null
 display_name: 王治
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Xs_HNafvM65L-iDyhyKwjf
+        subject_person_id: p_74Qzh7hdC512soxk6XYfNt
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6BLmMzExpHB3EP6zKJh8SE
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_m0oPV2qq5psy60izKvwBwz
+          claim_id: c_Xs_HNafvM65L-iDyhyKwjf
+          source_id: s_gaztM4GMiEKreNCSo69iEP
+          stance: supports
+          locator: "元和唯亭志: 二十卷，lgid=179032：祖父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_gaztM4GMiEKreNCSo69iEP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王時亨（CBDB 702873）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702873&o=json
+            external_identifier: CBDB:702873
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.816Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_6BLmMzExpHB3EP6zKJh8SE
+        status: active
+        display_name: 王時亨
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_6BLmMzExpHB3EP6zKJh8SE | 王時亨 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王時亨（CBDB 702873）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702873&o=json)
 - [中国历代人物传记资料库：王治（CBDB 702862）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702862&o=json)

@@ -4,7 +4,7 @@ id: p_Np4Z8JvLtkdK8vcDcqWsz6
 status: active
 merged_into: null
 display_name: 王瑨
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_uSB3k9rP5zg7kQ1aLYRXOB
+        subject_person_id: p_5LwB9XKRJm64ZCjFd863w9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Np4Z8JvLtkdK8vcDcqWsz6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Qspwv6ef6C4fIOc9LRC7ky
+          claim_id: c_uSB3k9rP5zg7kQ1aLYRXOB
+          source_id: s_FvucsFNBb8yA87oPznDAn4
+          stance: supports
+          locator: 宣德八年進士登科錄:一卷，第三甲第三十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FvucsFNBb8yA87oPznDAn4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王斌（CBDB 231534）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231534&o=json
+            external_identifier: CBDB:231534
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.646Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5LwB9XKRJm64ZCjFd863w9
+        status: active
+        display_name: 王斌
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5LwB9XKRJm64ZCjFd863w9 | 王斌 | accepted |
 | ancestors | p_4VBuRT184rpPLq35WX6voU | 王福 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王斌（CBDB 231534）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231534&o=json)
 - [中国历代人物传记资料库：王福（CBDB 231531）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231531&o=json)
 - [中国历代人物传记资料库：王瑨（CBDB 207341）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207341&o=json)

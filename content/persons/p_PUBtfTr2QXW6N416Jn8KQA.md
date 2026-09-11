@@ -4,7 +4,7 @@ id: p_PUBtfTr2QXW6N416Jn8KQA
 status: active
 merged_into: null
 display_name: 王剛中
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_PM-piDXML8pklvZKctwM_8
+        subject_person_id: p_4Z8oBTJamRmm8c5d9wkYUe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PUBtfTr2QXW6N416Jn8KQA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HG4Q0mUIQTFp7E_ld14XTA
+          claim_id: c_PM-piDXML8pklvZKctwM_8
+          source_id: s_qJVQKAQQ8YxTGVSctLKJep
+          stance: supports
+          locator: 寶祐登科錄：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_qJVQKAQQ8YxTGVSctLKJep
+            source_type: api_record
+            title: 中国历代人物传记资料库：王平（CBDB 136599）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136599&o=json
+            external_identifier: CBDB:136599
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.346Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_4Z8oBTJamRmm8c5d9wkYUe
+        status: active
+        display_name: 王平
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_4Z8oBTJamRmm8c5d9wkYUe | 王平 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王剛中（CBDB 38017）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38017&o=json)
+- [中国历代人物传记资料库：王平（CBDB 136599）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136599&o=json)

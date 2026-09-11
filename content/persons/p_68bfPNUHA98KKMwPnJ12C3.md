@@ -4,7 +4,7 @@ id: p_68bfPNUHA98KKMwPnJ12C3
 status: active
 merged_into: null
 display_name: 王謙
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_1NDRlcLlQpXVJoy7_kUuF5
+        subject_person_id: p_uRxHoeETPENUnB4UpGZ636
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_68bfPNUHA98KKMwPnJ12C3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gvbsKpU1r9rlDHokifAAo5
+          claim_id: c_1NDRlcLlQpXVJoy7_kUuF5
+          source_id: s_HXFJiTCNt1A5HD2f7yj48e
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第二甲第三十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uRxHoeETPENUnB4UpGZ636
+        status: active
+        display_name: 王崇古
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_HXq9K3Gi3z30lVX15wdLgt
+        subject_person_id: p_n3VXQL5pitaZ4dih84qWf8
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_68bfPNUHA98KKMwPnJ12C3
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B2ejinfs5fCpdAbYogRzYI
+          claim_id: c_HXq9K3Gi3z30lVX15wdLgt
+          source_id: s_HXFJiTCNt1A5HD2f7yj48e
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第二甲第三十七名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_n3VXQL5pitaZ4dih84qWf8
+        status: active
+        display_name: 王馨
+        merged_into_person_id: null
+    - claim:
+        id: c_YrWR8A5JcuTl1RBg1A07kl
+        subject_person_id: p_WV7ubqMfsAHuJnpcg7NTN2
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_68bfPNUHA98KKMwPnJ12C3
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_df9_UvqVUCgJFzvDEeHOLz
+          claim_id: c_YrWR8A5JcuTl1RBg1A07kl
+          source_id: s_HXFJiTCNt1A5HD2f7yj48e
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第二甲第三十七名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WV7ubqMfsAHuJnpcg7NTN2
+        status: active
+        display_name: 王瑤
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_uRxHoeETPENUnB4UpGZ636 | 王崇古 | accepted |
+| ancestors | p_n3VXQL5pitaZ4dih84qWf8 | 王馨 | accepted |
+| ancestors | p_WV7ubqMfsAHuJnpcg7NTN2 | 王瑤 | accepted |
 
 ## 外部来源
 

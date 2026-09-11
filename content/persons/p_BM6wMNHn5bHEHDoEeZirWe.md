@@ -4,7 +4,7 @@ id: p_BM6wMNHn5bHEHDoEeZirWe
 status: active
 merged_into: null
 display_name: 王恭
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_2Rg34TV_OsYBV27dJybaRs
+        subject_person_id: p_BM6wMNHn5bHEHDoEeZirWe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5cJbXaZPVCfH9EZ6651kPP
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xxLp0JHgp2-PJxhIqylXoF
+          claim_id: c_2Rg34TV_OsYBV27dJybaRs
+          source_id: s_tbav4zYN2TCDsypeHCvKiB
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第一百七十八名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_tbav4zYN2TCDsypeHCvKiB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王一鳳（CBDB 205635）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205635&o=json
+            external_identifier: CBDB:205635
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.868Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5cJbXaZPVCfH9EZ6651kPP
+        status: active
+        display_name: 王一鳳
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_5cJbXaZPVCfH9EZ6651kPP | 王一鳳 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王恭（CBDB 336279）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336279&o=json)
+- [中国历代人物传记资料库：王一鳳（CBDB 205635）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205635&o=json)

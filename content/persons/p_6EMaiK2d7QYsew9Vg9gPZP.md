@@ -4,7 +4,7 @@ id: p_6EMaiK2d7QYsew9Vg9gPZP
 status: active
 merged_into: null
 display_name: 王華
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_imeFj_bjg4ONGm85_2Ng4S
+        subject_person_id: p_dSXaHGfxZk39n9qckAbpLw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6EMaiK2d7QYsew9Vg9gPZP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_luxAdm4IeT2eGs0EbRwLSU
+          claim_id: c_imeFj_bjg4ONGm85_2Ng4S
+          source_id: s_U4WGeE3TRg6Y2JCL5J84jy
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第一百八十名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_dSXaHGfxZk39n9qckAbpLw
+        status: active
+        display_name: 王用政
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_-A9Rsm7Q5hUQUb8AXcOMXY
+        subject_person_id: p_ty9PKEiXJ1CHxxCE6Rgx3y
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6EMaiK2d7QYsew9Vg9gPZP
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__WMXllYjHh-oPbrFiNaxq1
+          claim_id: c_-A9Rsm7Q5hUQUb8AXcOMXY
+          source_id: s_U4WGeE3TRg6Y2JCL5J84jy
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第一百八十名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ty9PKEiXJ1CHxxCE6Rgx3y
+        status: active
+        display_name: 王文琬
+        merged_into_person_id: null
+    - claim:
+        id: c_8WSaJfGd35vZZ1IhWAUbM0
+        subject_person_id: p_VHQt9Ff9m57VXky6pqUzLZ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6EMaiK2d7QYsew9Vg9gPZP
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ey7YTbGTdppv_zv2RtUIBF
+          claim_id: c_8WSaJfGd35vZZ1IhWAUbM0
+          source_id: s_U4WGeE3TRg6Y2JCL5J84jy
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第一百八十名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_VHQt9Ff9m57VXky6pqUzLZ
+        status: active
+        display_name: 王仲敬
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_dSXaHGfxZk39n9qckAbpLw | 王用政 | accepted |
+| ancestors | p_ty9PKEiXJ1CHxxCE6Rgx3y | 王文琬 | accepted |
+| ancestors | p_VHQt9Ff9m57VXky6pqUzLZ | 王仲敬 | accepted |
 
 ## 外部来源
 

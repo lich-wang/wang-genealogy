@@ -4,7 +4,7 @@ id: p_4wJCgbadTAePpZ2BNEDAoG
 status: active
 merged_into: null
 display_name: 王憲
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,142 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_60qAvW-spV_zzdNT1pZkXk
+        subject_person_id: p_rR2pkPMo5WGEMnvA2UogPQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4wJCgbadTAePpZ2BNEDAoG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tKSX25XywiK2A4nP_A25LU
+          claim_id: c_60qAvW-spV_zzdNT1pZkXk
+          source_id: s_j9QtHgAMFKQAVkqGX1LKYM
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第九十二名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rR2pkPMo5WGEMnvA2UogPQ
+        status: active
+        display_name: 王智
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_E0tAvWkRgyDv9HVVwcDXdU
+        subject_person_id: p_4wJCgbadTAePpZ2BNEDAoG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZCfGVDKighqeDmYkscbvFX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UJadP5G0UkErCTgDCdDeGx
+          claim_id: c_E0tAvWkRgyDv9HVVwcDXdU
+          source_id: s_j9QtHgAMFKQAVkqGX1LKYM
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），11899：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ZCfGVDKighqeDmYkscbvFX
+        status: active
+        display_name: 王汝中
+        merged_into_person_id: null
+    - claim:
+        id: c_3-r_A48O7XEWKLn4alVog2
+        subject_person_id: p_4wJCgbadTAePpZ2BNEDAoG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_a55izxWr7XvDUXinjUvb7x
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2e1foLIDFQUCdRgBBUeI4J
+          claim_id: c_3-r_A48O7XEWKLn4alVog2
+          source_id: s_j9QtHgAMFKQAVkqGX1LKYM
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），11899：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_a55izxWr7XvDUXinjUvb7x
+        status: active
+        display_name: 王汝成
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_gaBzOPXjciBHhvdXZWtYNP
+        subject_person_id: p_uxhVLerRTcA9k5jQSTXvFT
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4wJCgbadTAePpZ2BNEDAoG
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j8BpcUGgV6808XOE_xR4iN
+          claim_id: c_gaBzOPXjciBHhvdXZWtYNP
+          source_id: s_j9QtHgAMFKQAVkqGX1LKYM
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第九十二名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uxhVLerRTcA9k5jQSTXvFT
+        status: active
+        display_name: 王敬祖
+        merged_into_person_id: null
+    - claim:
+        id: c_rgPMLaB2mn06Unpl6bsdJw
+        subject_person_id: p_JW6QLVzTN64649V23d5qrG
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4wJCgbadTAePpZ2BNEDAoG
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Xz5YePrYH32_p4tS_CzfKl
+          claim_id: c_rgPMLaB2mn06Unpl6bsdJw
+          source_id: s_j9QtHgAMFKQAVkqGX1LKYM
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第九十二名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_JW6QLVzTN64649V23d5qrG
+        status: active
+        display_name: 王海
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +256,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_rR2pkPMo5WGEMnvA2UogPQ | 王智 | accepted |
+| children | p_ZCfGVDKighqeDmYkscbvFX | 王汝中 | accepted |
+| children | p_a55izxWr7XvDUXinjUvb7x | 王汝成 | accepted |
+| ancestors | p_uxhVLerRTcA9k5jQSTXvFT | 王敬祖 | accepted |
+| ancestors | p_JW6QLVzTN64649V23d5qrG | 王海 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_5KXqnGcUb8SEM8grnPHtW7
 status: active
 merged_into: null
 display_name: 王溫
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c__uezu-YI2L0irVS4z71zBp
+        subject_person_id: p_5KXqnGcUb8SEM8grnPHtW7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_n18iFte87Ls38E8g6NHVog
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QoB_38S5xvkQeRGfumsgyS
+          claim_id: c__uezu-YI2L0irVS4z71zBp
+          source_id: s_VXhvcxgsHrJaAdC2nBui3k
+          stance: supports
+          locator: 宋史：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_n18iFte87Ls38E8g6NHVog
+        status: active
+        display_name: 王延德
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_n18iFte87Ls38E8g6NHVog | 王延德 | accepted |
 
 ## 外部来源
 

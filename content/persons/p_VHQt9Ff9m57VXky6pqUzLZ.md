@@ -4,7 +4,7 @@ id: p_VHQt9Ff9m57VXky6pqUzLZ
 status: active
 merged_into: null
 display_name: 王仲敬
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_8WSaJfGd35vZZ1IhWAUbM0
+        subject_person_id: p_VHQt9Ff9m57VXky6pqUzLZ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6EMaiK2d7QYsew9Vg9gPZP
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ey7YTbGTdppv_zv2RtUIBF
+          claim_id: c_8WSaJfGd35vZZ1IhWAUbM0
+          source_id: s_U4WGeE3TRg6Y2JCL5J84jy
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第三甲第一百八十名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_U4WGeE3TRg6Y2JCL5J84jy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王華（CBDB 199850）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199850&o=json
+            external_identifier: CBDB:199850
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.580Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_6EMaiK2d7QYsew9Vg9gPZP
+        status: active
+        display_name: 王華
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_6EMaiK2d7QYsew9Vg9gPZP | 王華 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王華（CBDB 199850）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199850&o=json)
 - [中国历代人物传记资料库：王仲敬（CBDB 250475）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250475&o=json)

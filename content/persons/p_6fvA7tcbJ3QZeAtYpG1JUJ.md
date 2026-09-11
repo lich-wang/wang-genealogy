@@ -4,7 +4,7 @@ id: p_6fvA7tcbJ3QZeAtYpG1JUJ
 status: active
 merged_into: null
 display_name: 王之臣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_3ZYrusuQNlPR9llvgoPLE3
+        subject_person_id: p_ymucX7NT8ppRqzhncqq8Wc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6fvA7tcbJ3QZeAtYpG1JUJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1kh-CBvkcsPIj-ifrZF5h7
+          claim_id: c_3ZYrusuQNlPR9llvgoPLE3
+          source_id: s_HcH3xQmb7zb9n2w7Xu1CjS
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第一百二十六名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ymucX7NT8ppRqzhncqq8Wc
+        status: active
+        display_name: 王鼎
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_bhq4rZFoKS3pVaxGwobRn4
+        subject_person_id: p_fbjXbDTCEeuchZ6ouaWUGB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6fvA7tcbJ3QZeAtYpG1JUJ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oMiaq3HXY9Eas5AeEVm7Os
+          claim_id: c_bhq4rZFoKS3pVaxGwobRn4
+          source_id: s_HcH3xQmb7zb9n2w7Xu1CjS
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第一百二十六名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_fbjXbDTCEeuchZ6ouaWUGB
+        status: active
+        display_name: 王義
+        merged_into_person_id: null
+    - claim:
+        id: c_1olBEoF0Sxj6rq7VbTRG_t
+        subject_person_id: p_W2yKNp1DGJcHNcHpAd1eMS
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6fvA7tcbJ3QZeAtYpG1JUJ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oIqVZBWbj2b4QYb846hQKe
+          claim_id: c_1olBEoF0Sxj6rq7VbTRG_t
+          source_id: s_HcH3xQmb7zb9n2w7Xu1CjS
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第一百二十六名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_W2yKNp1DGJcHNcHpAd1eMS
+        status: active
+        display_name: 王杭
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ymucX7NT8ppRqzhncqq8Wc | 王鼎 | accepted |
+| ancestors | p_fbjXbDTCEeuchZ6ouaWUGB | 王義 | accepted |
+| ancestors | p_W2yKNp1DGJcHNcHpAd1eMS | 王杭 | accepted |
 
 ## 外部来源
 

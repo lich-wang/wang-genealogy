@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王一之
 cbdb_id: 207376
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -134,7 +134,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_iFD7eo344iemRLQl3TUs6k
+        subject_person_id: p_4XX99SLMtRTPLVocw8Sf51
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_CLdF5UcaR98Rj51619NfpN
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IdRATzdY7VjDpL53VdAK8u
+          claim_id: c_iFD7eo344iemRLQl3TUs6k
+          source_id: s_m9o1JNqRxDZAu4E276BJjL
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第一百九十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_m9o1JNqRxDZAu4E276BJjL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王紘（CBDB 231805）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231805&o=json
+            external_identifier: CBDB:231805
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.665Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_4XX99SLMtRTPLVocw8Sf51
+        status: active
+        display_name: 王紘
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_4XX99SLMtRTPLVocw8Sf51 | 王紘 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王紘（CBDB 231805）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231805&o=json)
 - [中国历代人物传记资料库：王一之（CBDB 207376）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207376&o=json)

@@ -4,7 +4,7 @@ id: p_N8A5uBxQ6WYAScVBd1MwWK
 status: active
 merged_into: null
 display_name: 王納言
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_MDquL3GF6hbpKiS2q4NXWV
+        subject_person_id: p_5qEzsE79D6PfvuW1bJkxqf
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_N8A5uBxQ6WYAScVBd1MwWK
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lhhVwF99nrVy_uqm1w3myN
+          claim_id: c_MDquL3GF6hbpKiS2q4NXWV
+          source_id: s_isK9fzZK118auRjgiuAJHS
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第八十一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_isK9fzZK118auRjgiuAJHS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王澍（CBDB 328020）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328020&o=json
+            external_identifier: CBDB:328020
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.285Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5qEzsE79D6PfvuW1bJkxqf
+        status: active
+        display_name: 王澍
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_5qEzsE79D6PfvuW1bJkxqf | 王澍 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王納言（CBDB 205080）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205080&o=json)
+- [中国历代人物传记资料库：王澍（CBDB 328020）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328020&o=json)

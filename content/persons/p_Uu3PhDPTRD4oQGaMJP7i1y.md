@@ -4,7 +4,7 @@ id: p_Uu3PhDPTRD4oQGaMJP7i1y
 status: active
 merged_into: null
 display_name: 王繼明
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_j2NwN8nyXrjP3pOENtZ3Cj
+        subject_person_id: p_5sMmYXtRexRwYuYUk2GvGP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Uu3PhDPTRD4oQGaMJP7i1y
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fzDgg2Xm8C_VpWdHi4646b
+          claim_id: c_j2NwN8nyXrjP3pOENtZ3Cj
+          source_id: s_EGuP7RatW83eAhWrCGqvxP
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第三甲第一百八十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_EGuP7RatW83eAhWrCGqvxP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王允文（CBDB 215078）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215078&o=json
+            external_identifier: CBDB:215078
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.180Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5sMmYXtRexRwYuYUk2GvGP
+        status: active
+        display_name: 王允文
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5sMmYXtRexRwYuYUk2GvGP | 王允文 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王繼明（CBDB 126880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126880&o=json)
+- [中国历代人物传记资料库：王允文（CBDB 215078）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215078&o=json)

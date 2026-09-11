@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王明
 cbdb_id: 1855
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -197,6 +197,43 @@ relationships:
         status: active
         display_name: 王扶
         merged_into_person_id: null
+    - claim:
+        id: c_tFeyhgZkyRa9wCzYzxqz3s
+        subject_person_id: p_b2BNKpQqMbC3xJGHf9un3N
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5iw33cL248sw6QfTEUKPQC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9lzLUCVmw3FGUnmKDjvrr8
+          claim_id: c_tFeyhgZkyRa9wCzYzxqz3s
+          source_id: s_1773FMqJV6f26ykoAZKMiD
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1773FMqJV6f26ykoAZKMiD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王掞（CBDB 37906）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37906&o=json
+            external_identifier: CBDB:37906
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.290Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5iw33cL248sw6QfTEUKPQC
+        status: active
+        display_name: 王掞
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -223,9 +260,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_Myr7yL2y4NUdhUtw1bG9bq | 王扶 | accepted |
+| children | p_5iw33cL248sw6QfTEUKPQC | 王掞 | accepted |
 
 ## 外部来源
 
 - [维基数据：王扶（Q45359463）](https://www.wikidata.org/wiki/Q45359463)
 - [维基数据：王明（Q28414907）](https://www.wikidata.org/wiki/Q28414907)
+- [中国历代人物传记资料库：王掞（CBDB 37906）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37906&o=json)
 - [CBDB 中国历代人物传记资料库：王明（1855）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1855&o=json)

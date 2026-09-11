@@ -4,7 +4,7 @@ id: p_6tdTGr8WHYZiKQmeHZ5QVe
 status: active
 merged_into: null
 display_name: 王宗源
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_yqVBxl6TKrbhv9mN-6Mxrw
+        subject_person_id: p_6tdTGr8WHYZiKQmeHZ5QVe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EAKJt6kT5T4F5kcYrF9f6y
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_H8UDji4tvPsw1D6PXfr_J8
+          claim_id: c_yqVBxl6TKrbhv9mN-6Mxrw
+          source_id: s_jj2yA4oddQ1UkNSUdd2TXN
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_EAKJt6kT5T4F5kcYrF9f6y
+        status: active
+        display_name: 王玠
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_EAKJt6kT5T4F5kcYrF9f6y | 王玠 | accepted |
 
 ## 外部来源
 

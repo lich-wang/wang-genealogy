@@ -4,7 +4,7 @@ id: p_W5zx3veyZyjG5gBNh4mu99
 status: active
 merged_into: null
 display_name: 王道正
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_zHeUdL4Dq7ZSNa6qnGIfDn
+        subject_person_id: p_67wcNBy6jc6GHKoznNP6E9
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_W5zx3veyZyjG5gBNh4mu99
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CSD1TYu21Q33Li1gOyqw_r
+          claim_id: c_zHeUdL4Dq7ZSNa6qnGIfDn
+          source_id: s_WYFfdaup3UvMbVzh3Xd4Pt
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第一百五十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_WYFfdaup3UvMbVzh3Xd4Pt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宣（CBDB 230462）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230462&o=json
+            external_identifier: CBDB:230462
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.611Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_67wcNBy6jc6GHKoznNP6E9
+        status: active
+        display_name: 王宣
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_67wcNBy6jc6GHKoznNP6E9 | 王宣 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王道正（CBDB 207263）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207263&o=json)
+- [中国历代人物传记资料库：王宣（CBDB 230462）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230462&o=json)

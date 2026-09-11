@@ -4,7 +4,7 @@ id: p_5PGL3HfhnkubibTnY8wvjU
 status: active
 merged_into: null
 display_name: 王釴
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,116 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_xxfov5577hMKb-afEX7AHx
+        subject_person_id: p_MjhM3ee1A3Kj24vm13PmPv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5PGL3HfhnkubibTnY8wvjU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rngz0zozoSZfLU7iOtVPyF
+          claim_id: c_xxfov5577hMKb-afEX7AHx
+          source_id: s_5MV8WK4AC29qwKVdS7RJGr
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第六十五名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_MjhM3ee1A3Kj24vm13PmPv
+        status: active
+        display_name: 王昇
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_0wnuR5F000xLlLvMRbvl3n
+        subject_person_id: p_5PGL3HfhnkubibTnY8wvjU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7yxFYuCPP32o5cFEtkkhZX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Zq9NEl3ePtTL3ScPfNLGiv
+          claim_id: c_0wnuR5F000xLlLvMRbvl3n
+          source_id: s_5MV8WK4AC29qwKVdS7RJGr
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第六十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_7yxFYuCPP32o5cFEtkkhZX
+        status: active
+        display_name: 王治
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_s7kZCEzuEj4Qk11tD5a-qb
+        subject_person_id: p_Mb1gBfifYJJm1XEHgSa3aa
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5PGL3HfhnkubibTnY8wvjU
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7LmhLy3JoeIKAka7Hu18g2
+          claim_id: c_s7kZCEzuEj4Qk11tD5a-qb
+          source_id: s_5MV8WK4AC29qwKVdS7RJGr
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第六十五名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Mb1gBfifYJJm1XEHgSa3aa
+        status: active
+        display_name: 王智
+        merged_into_person_id: null
+    - claim:
+        id: c_9Av50HmydSe3Hk4HAXV1sH
+        subject_person_id: p_TBZtLKQdaJM24ctzM119k8
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5PGL3HfhnkubibTnY8wvjU
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZGOA-ItL9mQaUBuqf0LuPI
+          claim_id: c_9Av50HmydSe3Hk4HAXV1sH
+          source_id: s_5MV8WK4AC29qwKVdS7RJGr
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第六十五名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_TBZtLKQdaJM24ctzM119k8
+        status: active
+        display_name: 王瓉
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +230,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_MjhM3ee1A3Kj24vm13PmPv | 王昇 | accepted |
+| children | p_7yxFYuCPP32o5cFEtkkhZX | 王治 | accepted |
+| ancestors | p_Mb1gBfifYJJm1XEHgSa3aa | 王智 | accepted |
+| ancestors | p_TBZtLKQdaJM24ctzM119k8 | 王瓉 | accepted |
 
 ## 外部来源
 

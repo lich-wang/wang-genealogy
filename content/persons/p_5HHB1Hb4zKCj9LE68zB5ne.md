@@ -4,7 +4,7 @@ id: p_5HHB1Hb4zKCj9LE68zB5ne
 status: active
 merged_into: null
 display_name: 王文炳
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_SSXo7MLjMwSClmhGIjorFi
+        subject_person_id: p_pRE8tgS2kdZDvfTt1GWCyR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5HHB1Hb4zKCj9LE68zB5ne
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xRFsuPzksa_cZGy922NGpr
+          claim_id: c_SSXo7MLjMwSClmhGIjorFi
+          source_id: s_mH73qQseyDbuSt264sdqpQ
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第七十四名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_pRE8tgS2kdZDvfTt1GWCyR
+        status: active
+        display_name: 王慶環
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_RxxdsHy_Nwyi3snCOZ3kHg
+        subject_person_id: p_NwosFpCuQh3ufUu48APSSq
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5HHB1Hb4zKCj9LE68zB5ne
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YEtSpjLoFNLgQFWmBm0osG
+          claim_id: c_RxxdsHy_Nwyi3snCOZ3kHg
+          source_id: s_mH73qQseyDbuSt264sdqpQ
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第七十四名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NwosFpCuQh3ufUu48APSSq
+        status: active
+        display_name: 王仁聞
+        merged_into_person_id: null
+    - claim:
+        id: c_UPpdArIxHvkA9wBvqGI_2L
+        subject_person_id: p_RH36Q687DBQKL7KyTH1YhU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5HHB1Hb4zKCj9LE68zB5ne
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MnW08-JBlK1cXZQogOp_NB
+          claim_id: c_UPpdArIxHvkA9wBvqGI_2L
+          source_id: s_mH73qQseyDbuSt264sdqpQ
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第七十四名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RH36Q687DBQKL7KyTH1YhU
+        status: active
+        display_name: 王惟賢
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_pRE8tgS2kdZDvfTt1GWCyR | 王慶環 | accepted |
+| ancestors | p_NwosFpCuQh3ufUu48APSSq | 王仁聞 | accepted |
+| ancestors | p_RH36Q687DBQKL7KyTH1YhU | 王惟賢 | accepted |
 
 ## 外部来源
 

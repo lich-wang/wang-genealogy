@@ -4,7 +4,7 @@ id: p_6HFYHDHS5E6MnCtz3M49ZT
 status: active
 merged_into: null
 display_name: 王瑞蘭
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_f1_phE4R-qHn9yCYMEPaY4
+        subject_person_id: p_4EsUVoMJDcYh5gBjunDRDk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6HFYHDHS5E6MnCtz3M49ZT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cGZS0wYMSRL1qIfLEQccWu
+          claim_id: c_f1_phE4R-qHn9yCYMEPaY4
+          source_id: s_rLpL5RcLC3Z52ZuYT4zhcD
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #2330, HuWenKai #245：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_4EsUVoMJDcYh5gBjunDRDk
+        status: active
+        display_name: 王有為
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_4EsUVoMJDcYh5gBjunDRDk | 王有為 | accepted |
 
 ## 外部来源
 

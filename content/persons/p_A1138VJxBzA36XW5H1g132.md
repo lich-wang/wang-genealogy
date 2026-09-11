@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王與定
 cbdb_id: 136385
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Kzf77WNXFXbBgVdUH1kxrZ
+        subject_person_id: p_A1138VJxBzA36XW5H1g132
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_56uyEnAkJaHCKdt6ziQAbm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hwAYjDsWjzoXyoj7LMMLA3
+          claim_id: c_Kzf77WNXFXbBgVdUH1kxrZ
+          source_id: s_CZd8TEaokZWVhzuyKovVdC
+          stance: supports
+          locator: 寶祐登科錄：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_CZd8TEaokZWVhzuyKovVdC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王里（CBDB 12912）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12912&o=json
+            external_identifier: CBDB:12912
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.614Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_56uyEnAkJaHCKdt6ziQAbm
+        status: active
+        display_name: 王里
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_56uyEnAkJaHCKdt6ziQAbm | 王里 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王里（CBDB 12912）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12912&o=json)
 - [中国历代人物传记资料库：王與定（CBDB 136385）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136385&o=json)

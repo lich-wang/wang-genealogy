@@ -4,7 +4,7 @@ id: p_5vDjPyewsQNr1vDc9fypfb
 status: active
 merged_into: null
 display_name: 王時
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c__8VYJDp5WyOuHSYPBVGT_e
+        subject_person_id: p_sWM26QxsGWgD9MLXJD13Qg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5vDjPyewsQNr1vDc9fypfb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_onk5gySy4M2Y8XTG1YjrAI
+          claim_id: c__8VYJDp5WyOuHSYPBVGT_e
+          source_id: s_SG9XzYnQAGNaRPC96Wixq5
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第五十一名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_sWM26QxsGWgD9MLXJD13Qg
+        status: active
+        display_name: 王銘
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_yVfLQE0vxe5WemzeD2jN4Y
+        subject_person_id: p_7H5sKM7Vx6wD3u24Rj15gq
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5vDjPyewsQNr1vDc9fypfb
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XMYXwvSRnqbPKuIX6Phfhq
+          claim_id: c_yVfLQE0vxe5WemzeD2jN4Y
+          source_id: s_SG9XzYnQAGNaRPC96Wixq5
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第五十一名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_7H5sKM7Vx6wD3u24Rj15gq
+        status: active
+        display_name: 王成存
+        merged_into_person_id: null
+    - claim:
+        id: c_uzLZuMknesdCb3ief1vNuw
+        subject_person_id: p_uBXKr7aw9L8KHt1hsJgX2b
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5vDjPyewsQNr1vDc9fypfb
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EOVFYhD7JmnU3bGYRRM9H3
+          claim_id: c_uzLZuMknesdCb3ief1vNuw
+          source_id: s_SG9XzYnQAGNaRPC96Wixq5
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第五十一名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uBXKr7aw9L8KHt1hsJgX2b
+        status: active
+        display_name: 王瑄
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_sWM26QxsGWgD9MLXJD13Qg | 王銘 | accepted |
+| ancestors | p_7H5sKM7Vx6wD3u24Rj15gq | 王成存 | accepted |
+| ancestors | p_uBXKr7aw9L8KHt1hsJgX2b | 王瑄 | accepted |
 
 ## 外部来源
 

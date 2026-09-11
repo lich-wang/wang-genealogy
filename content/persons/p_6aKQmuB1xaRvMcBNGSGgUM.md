@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王齐望
 cbdb_id: 175855
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -166,7 +166,44 @@ relationships:
         status: active
         display_name: 王崇基
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_zZJdBbpP60OD7yWxglg3MF
+        subject_person_id: p_6aKQmuB1xaRvMcBNGSGgUM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6FiYr9HtsB6xqct233x4x9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_r-hDVqN4gHeJGr01p2yOg6
+          claim_id: c_zZJdBbpP60OD7yWxglg3MF
+          source_id: s_LCV6R6ezTfM5qzJM1HMKtV
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_LCV6R6ezTfM5qzJM1HMKtV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王旭（CBDB 175856）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175856&o=json
+            external_identifier: CBDB:175856
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.164Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_6FiYr9HtsB6xqct233x4x9
+        status: active
+        display_name: 王旭
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -192,9 +229,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_JfWbDHNGFyJz6Cq8yoPLva | 王崇基 | accepted |
+| children | p_6FiYr9HtsB6xqct233x4x9 | 王旭 | accepted |
 
 ## 外部来源
 
 - [维基数据：王崇基（Q45422606）](https://www.wikidata.org/wiki/Q45422606)
 - [维基数据：王齐望（Q45677679）](https://www.wikidata.org/wiki/Q45677679)
+- [中国历代人物传记资料库：王旭（CBDB 175856）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175856&o=json)
 - [CBDB 中国历代人物传记资料库：王齊望（175855）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175855&o=json)

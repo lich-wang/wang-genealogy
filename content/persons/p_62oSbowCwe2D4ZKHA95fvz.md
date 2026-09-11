@@ -4,7 +4,7 @@ id: p_62oSbowCwe2D4ZKHA95fvz
 status: active
 merged_into: null
 display_name: 王士祿
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_w53oub_mKclw2ydwyuvrzG
+        subject_person_id: p_62oSbowCwe2D4ZKHA95fvz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nCZ6MySHgyQbXVik85AWPx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KMa-m8YHEyePfxlVcYF-0d
+          claim_id: c_w53oub_mKclw2ydwyuvrzG
+          source_id: s_eKiRAQszeL6yob4tQww771
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12777：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_nCZ6MySHgyQbXVik85AWPx
+        status: active
+        display_name: 王啟浣
+        merged_into_person_id: null
+    - claim:
+        id: c_x02sfnMGL7VONSIXDQLY41
+        subject_person_id: p_62oSbowCwe2D4ZKHA95fvz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_18VWWVtKhkMLcAnQxRUhqA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5nO5BNct49NzW2K7-WLLcN
+          claim_id: c_x02sfnMGL7VONSIXDQLY41
+          source_id: s_eKiRAQszeL6yob4tQww771
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12777：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_18VWWVtKhkMLcAnQxRUhqA
+        status: active
+        display_name: 王啟演
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_nCZ6MySHgyQbXVik85AWPx | 王啟浣 | accepted |
+| children | p_18VWWVtKhkMLcAnQxRUhqA | 王啟演 | accepted |
 
 ## 外部来源
 

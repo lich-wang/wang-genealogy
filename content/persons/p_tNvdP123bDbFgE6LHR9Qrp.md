@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王盛言
 cbdb_id: 515677
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Z2VKfE8P0nPVO1DL97nlDt
+        subject_person_id: p_tNvdP123bDbFgE6LHR9Qrp
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5MbQaN6sLNicuc7FmMieJd
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DmgTw04cvtdB14VxsApzvo
+          claim_id: c_Z2VKfE8P0nPVO1DL97nlDt
+          source_id: s_gcATuP6CQr39pk8hp1ieE8
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1042：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_gcATuP6CQr39pk8hp1ieE8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文錦（CBDB 57810）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=57810&o=json
+            external_identifier: CBDB:57810
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.812Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5MbQaN6sLNicuc7FmMieJd
+        status: active
+        display_name: 王文錦
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_5MbQaN6sLNicuc7FmMieJd | 王文錦 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王盛言（CBDB 515677）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=515677&o=json)
+- [中国历代人物传记资料库：王文錦（CBDB 57810）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=57810&o=json)

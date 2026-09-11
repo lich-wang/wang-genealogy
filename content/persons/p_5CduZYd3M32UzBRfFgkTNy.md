@@ -4,7 +4,7 @@ id: p_5CduZYd3M32UzBRfFgkTNy
 status: active
 merged_into: null
 display_name: 王祿
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_-j2z-l9JM3nHa0w4FrRHRH
+        subject_person_id: p_t5oHeornqu2QNuT9xayaao
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5CduZYd3M32UzBRfFgkTNy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6Ng43zi1PIEtc3lp8TFQo5
+          claim_id: c_-j2z-l9JM3nHa0w4FrRHRH
+          source_id: s_VYJvgz4n1AbQdfJrLeEkYN
+          stance: supports
+          locator: 成化八年進士登科錄:一卷，第二甲第六十八名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_t5oHeornqu2QNuT9xayaao
+        status: active
+        display_name: 王英
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_ClVu-0E6DgN7futdSG-7hF
+        subject_person_id: p_nYBJ8DhUaL2NcKE4G7AVS7
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5CduZYd3M32UzBRfFgkTNy
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dpz9nZJ4vRQmBCgN1EdE5_
+          claim_id: c_ClVu-0E6DgN7futdSG-7hF
+          source_id: s_VYJvgz4n1AbQdfJrLeEkYN
+          stance: supports
+          locator: 成化八年進士登科錄:一卷，第二甲第六十八名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_nYBJ8DhUaL2NcKE4G7AVS7
+        status: active
+        display_name: 王希遠
+        merged_into_person_id: null
+    - claim:
+        id: c_eErsknKe6DJMlVpEf-H9_3
+        subject_person_id: p_mTzxwAEMxvLCjgbpNJPkQq
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5CduZYd3M32UzBRfFgkTNy
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fbEQpyfowcJAOH5nW_ZOtD
+          claim_id: c_eErsknKe6DJMlVpEf-H9_3
+          source_id: s_VYJvgz4n1AbQdfJrLeEkYN
+          stance: supports
+          locator: 成化八年進士登科錄:一卷，第二甲第六十八名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_mTzxwAEMxvLCjgbpNJPkQq
+        status: active
+        display_name: 王澤
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_t5oHeornqu2QNuT9xayaao | 王英 | accepted |
+| ancestors | p_nYBJ8DhUaL2NcKE4G7AVS7 | 王希遠 | accepted |
+| ancestors | p_mTzxwAEMxvLCjgbpNJPkQq | 王澤 | accepted |
 
 ## 外部来源
 

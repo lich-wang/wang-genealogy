@@ -4,7 +4,7 @@ id: p_4YPpT3FsjmJcCtKisbPRgC
 status: active
 merged_into: null
 display_name: 王啟茹
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_wdGJTxjWEJOqw5XEKzc2yX
+        subject_person_id: p_gPG8QG52N3Yy4R76LFMbm4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4YPpT3FsjmJcCtKisbPRgC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BHbc3lGmi7PSmeFjmc6XD3
+          claim_id: c_wdGJTxjWEJOqw5XEKzc2yX
+          source_id: s_pKZFFUNYBmdKakzT1qRTtP
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160562：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_gPG8QG52N3Yy4R76LFMbm4
+        status: active
+        display_name: 王祺
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_gPG8QG52N3Yy4R76LFMbm4 | 王祺 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_5pYb5XTgHHLxK22eWK3gGJ
 status: active
 merged_into: null
 display_name: 王胤
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_ESscrSmKwRTyOM5P7ZclQR
+        subject_person_id: p_5pYb5XTgHHLxK22eWK3gGJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nZ6oVMjM9PndsMQA7hdBnN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_T-OR_FUseURIanwdfunqDJ
+          claim_id: c_ESscrSmKwRTyOM5P7ZclQR
+          source_id: s_uqTPXPLZ1jq81Zv8LxfMNp
+          stance: supports
+          locator: 萬曆二年進士登科錄:一卷，第三甲第一百一十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_nZ6oVMjM9PndsMQA7hdBnN
+        status: active
+        display_name: 王致中
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_nZ6oVMjM9PndsMQA7hdBnN | 王致中 | accepted |
 
 ## 外部来源
 

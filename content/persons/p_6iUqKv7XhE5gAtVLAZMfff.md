@@ -4,7 +4,7 @@ id: p_6iUqKv7XhE5gAtVLAZMfff
 status: active
 merged_into: null
 display_name: 王言
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_rdTG9WWG7rhKk9o1WimjlG
+        subject_person_id: p_6iUqKv7XhE5gAtVLAZMfff
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_R6Gf2f5NA3tJ6LKmmvoCmB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-YIUjTJD8qeQBp-oxjys1Q
+          claim_id: c_rdTG9WWG7rhKk9o1WimjlG
+          source_id: s_NBbohnhSLasNKVjyz5PprT
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Linde 7：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_R6Gf2f5NA3tJ6LKmmvoCmB
+        status: active
+        display_name: 王才
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_R6Gf2f5NA3tJ6LKmmvoCmB | 王才 | accepted |
 
 ## 外部来源
 

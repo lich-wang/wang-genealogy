@@ -4,7 +4,7 @@ id: p_emRFonnZuCJKKPb7oDivvy
 status: active
 merged_into: null
 display_name: 王道直
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_CoPF9n7WeliGRoh4fqm7D2
+        subject_person_id: p_5g7L2cx4uEGXE6LnD5Pz5F
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_emRFonnZuCJKKPb7oDivvy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_huOjUs1s-CVAWXguO5mMrR
+          claim_id: c_CoPF9n7WeliGRoh4fqm7D2
+          source_id: s_VpqdCQeZzzvdm8X8ssSNqu
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第六十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_VpqdCQeZzzvdm8X8ssSNqu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王獻（CBDB 313336）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313336&o=json
+            external_identifier: CBDB:313336
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.904Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5g7L2cx4uEGXE6LnD5Pz5F
+        status: active
+        display_name: 王獻
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5g7L2cx4uEGXE6LnD5Pz5F | 王獻 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王道直（CBDB 204021）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204021&o=json)
+- [中国历代人物传记资料库：王獻（CBDB 313336）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313336&o=json)

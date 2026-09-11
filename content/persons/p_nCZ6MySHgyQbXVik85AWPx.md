@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王啟浣
 cbdb_id: 526689
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_w53oub_mKclw2ydwyuvrzG
+        subject_person_id: p_62oSbowCwe2D4ZKHA95fvz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nCZ6MySHgyQbXVik85AWPx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KMa-m8YHEyePfxlVcYF-0d
+          claim_id: c_w53oub_mKclw2ydwyuvrzG
+          source_id: s_eKiRAQszeL6yob4tQww771
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12777：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_eKiRAQszeL6yob4tQww771
+            source_type: api_record
+            title: 中国历代人物传记资料库：王士祿（CBDB 35060）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35060&o=json
+            external_identifier: CBDB:35060
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.111Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_62oSbowCwe2D4ZKHA95fvz
+        status: active
+        display_name: 王士祿
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_62oSbowCwe2D4ZKHA95fvz | 王士祿 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王啟浣（CBDB 526689）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526689&o=json)
+- [中国历代人物传记资料库：王士祿（CBDB 35060）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35060&o=json)

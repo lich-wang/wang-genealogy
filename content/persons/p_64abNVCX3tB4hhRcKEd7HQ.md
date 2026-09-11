@@ -4,7 +4,7 @@ id: p_64abNVCX3tB4hhRcKEd7HQ
 status: active
 merged_into: null
 display_name: 王樸
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_hsAMI5UK8G8AV7yRW-qSdn
+        subject_person_id: p_bkMbqmq6U23rFXaG17Pxzk
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_64abNVCX3tB4hhRcKEd7HQ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bMSm3RrfaVaweVYjkLxCCJ
+          claim_id: c_hsAMI5UK8G8AV7yRW-qSdn
+          source_id: s_Lvp4AYfFSArAaajLLf871i
+          stance: supports
+          locator: 全宋文，卷 4781：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_bkMbqmq6U23rFXaG17Pxzk
+        status: active
+        display_name: 王師心
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_bkMbqmq6U23rFXaG17Pxzk | 王師心 | accepted |
 
 ## 外部来源
 

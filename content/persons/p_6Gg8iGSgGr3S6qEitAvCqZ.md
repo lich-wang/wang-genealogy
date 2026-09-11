@@ -4,7 +4,7 @@ id: p_6Gg8iGSgGr3S6qEitAvCqZ
 status: active
 merged_into: null
 display_name: 王政
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_NB9c6CYYK_LGDwMEfHr2R1
+        subject_person_id: p_TE83LvMQ2327xyiTcM2LFF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6Gg8iGSgGr3S6qEitAvCqZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_o-2HyFjwgWEivEsuUPX-zj
+          claim_id: c_NB9c6CYYK_LGDwMEfHr2R1
+          source_id: s_EDAR71GKiVBtQ9XHGXTeMe
+          stance: supports
+          locator: 建文二年殿試登科錄:一卷，第三甲第四十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_TE83LvMQ2327xyiTcM2LFF
+        status: active
+        display_name: 王勝
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c__P5_wABqDKkWBpGORsT4AB
+        subject_person_id: p_rEB5DmBZbyXKxLzhqJfXn4
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6Gg8iGSgGr3S6qEitAvCqZ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sEbnVGI0vbjr1fO60pg1QD
+          claim_id: c__P5_wABqDKkWBpGORsT4AB
+          source_id: s_EDAR71GKiVBtQ9XHGXTeMe
+          stance: supports
+          locator: 建文二年殿試登科錄:一卷，第三甲第四十七名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rEB5DmBZbyXKxLzhqJfXn4
+        status: active
+        display_name: 王谷堡
+        merged_into_person_id: null
+    - claim:
+        id: c_cn3mUn4226UhrV2BOnlRmQ
+        subject_person_id: p_d5sjQXxXxUwPFvxWCDybzP
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6Gg8iGSgGr3S6qEitAvCqZ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-ayq7pwaM3tiFwMUyqv2UL
+          claim_id: c_cn3mUn4226UhrV2BOnlRmQ
+          source_id: s_EDAR71GKiVBtQ9XHGXTeMe
+          stance: supports
+          locator: 建文二年殿試登科錄:一卷，第三甲第四十七名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_d5sjQXxXxUwPFvxWCDybzP
+        status: active
+        display_name: 王景春
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_TE83LvMQ2327xyiTcM2LFF | 王勝 | accepted |
+| ancestors | p_rEB5DmBZbyXKxLzhqJfXn4 | 王谷堡 | accepted |
+| ancestors | p_d5sjQXxXxUwPFvxWCDybzP | 王景春 | accepted |
 
 ## 外部来源
 

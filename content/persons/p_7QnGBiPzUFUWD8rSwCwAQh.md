@@ -4,7 +4,7 @@ id: p_7QnGBiPzUFUWD8rSwCwAQh
 status: active
 merged_into: null
 display_name: 王鈞
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -167,6 +167,43 @@ relationships:
         status: active
         display_name: 王淇
         merged_into_person_id: null
+    - claim:
+        id: c_WpmLisiYS0iOLFduX5szUH
+        subject_person_id: p_7QnGBiPzUFUWD8rSwCwAQh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5v9AuJb4c8dfuy6JYiZGbw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_a2pnVrMJSUWIZpbV1lM11l
+          claim_id: c_WpmLisiYS0iOLFduX5szUH
+          source_id: s_NyfQ7g8pkEBn8sf7Esf8Cf
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Dali27：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_NyfQ7g8pkEBn8sf7Esf8Cf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王澡（CBDB 165258）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=165258&o=json
+            external_identifier: CBDB:165258
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.975Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5v9AuJb4c8dfuy6JYiZGbw
+        status: active
+        display_name: 王澡
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_3UsnYALpsLqLgKX6vUBvrD | 王淇 | accepted |
+| children | p_5v9AuJb4c8dfuy6JYiZGbw | 王澡 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鈞（CBDB 143108）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143108&o=json)
 - [中国历代人物传记资料库：王淇（CBDB 165256）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=165256&o=json)
+- [中国历代人物传记资料库：王澡（CBDB 165258）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=165258&o=json)

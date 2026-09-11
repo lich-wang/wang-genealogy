@@ -4,7 +4,7 @@ id: p_5kuHajLKusqxx5JvUhh1Cx
 status: active
 merged_into: null
 display_name: 王嵩
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_B-VZRcsc8TN4nyFan6zHNy
+        subject_person_id: p_Ja9V86DWfB2KcCaKcsrWYK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5kuHajLKusqxx5JvUhh1Cx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UhhZXDgV7st8Bl7knkxE4X
+          claim_id: c_B-VZRcsc8TN4nyFan6zHNy
+          source_id: s_nBVP4dFA1MA6CCHEuPvitg
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Ja9V86DWfB2KcCaKcsrWYK
+        status: active
+        display_name: 王微
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_GLLzpcPKTZjf4TTV8YHu09
+        subject_person_id: p_5kuHajLKusqxx5JvUhh1Cx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_i6LB7dmUuVLem1AdJiTz1J
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_x9xYxbGB4gY7Q0yqArTZCC
+          claim_id: c_GLLzpcPKTZjf4TTV8YHu09
+          source_id: s_nBVP4dFA1MA6CCHEuPvitg
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_i6LB7dmUuVLem1AdJiTz1J
+        status: active
+        display_name: 王適
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Ja9V86DWfB2KcCaKcsrWYK | 王微 | accepted |
+| children | p_i6LB7dmUuVLem1AdJiTz1J | 王適 | accepted |
 
 ## 外部来源
 

@@ -1,0 +1,84 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-11",
+  "queue_positions": [
+    2941,
+    2950
+  ],
+  "summary": {
+    "reviewed": 10,
+    "relationships_added": 10,
+    "manual_review": 2
+  },
+  "relationships": [
+    {
+      "subject": "p_o5zbhk9zqoTnVZKCQ6tg1P",
+      "object": "p_6R4YTzy4gN7ktu6qi2jm97",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_P9pk3GX9ak89DEB5HLBBuW",
+      "object": "p_6r5VwfkrP2qbqzP6hHoNQi",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_6r5VwfkrP2qbqzP6hHoNQi",
+      "object": "p_zmKmGw5eGTqLZuiR7yMU8M",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_6r5VwfkrP2qbqzP6hHoNQi",
+      "object": "p_9bkZAush33tNhmRnx5M2Df",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_6r5VwfkrP2qbqzP6hHoNQi",
+      "object": "p_qUV1Lh3kQf6nGxjSa7CTzK",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_6r5VwfkrP2qbqzP6hHoNQi",
+      "object": "p_vd8kpM5xBWhGP9F2B4Ngun",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_6r5VwfkrP2qbqzP6hHoNQi",
+      "object": "p_BX84MnygPGnzNAEC8vVqh2",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_6r5VwfkrP2qbqzP6hHoNQi",
+      "object": "p_v4cVQTy66xpHpnivKPuhYH",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_6RCMAmhm7ABKUBxzvWbX1A",
+      "object": "p_v5q8hACD2MdAUcJvnY39At",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_6rmKu2tnL9PKGQ8F3tuNWr",
+      "object": "p_q65LjSR3e6s3Y3D1bpqPNS",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    }
+  ],
+  "unchanged": [
+    "p_6r5h5xbo56CZTEfuAJvcgr",
+    "p_6R8p6Ln66p5QPGpAnBLjzp",
+    "p_6rkGEcj3bsPGZRfTBXA3KR",
+    "p_6rmNH9TpfJz2BMZQnh16Lg",
+    "p_6Rn3P6sCARfenYM6rpAuiR",
+    "p_6rnqmt253Y1C4MpdcFKKWZ"
+  ]
+}

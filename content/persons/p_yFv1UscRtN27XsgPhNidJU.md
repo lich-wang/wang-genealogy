@@ -4,7 +4,7 @@ id: p_yFv1UscRtN27XsgPhNidJU
 status: active
 merged_into: null
 display_name: 王禎
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_vaMkQmcxFLn-NY40l5AAXu
+        subject_person_id: p_yFv1UscRtN27XsgPhNidJU
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5AUJjM5DJaTK73XoVdx2Mm
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_o3e3C2LBIWa5D0W4-QqD5G
+          claim_id: c_vaMkQmcxFLn-NY40l5AAXu
+          source_id: s_5KJAr2EEoaMkEH3WrA7h4Q
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第一百五十四名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5KJAr2EEoaMkEH3WrA7h4Q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王縉（CBDB 201041）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201041&o=json
+            external_identifier: CBDB:201041
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.650Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5AUJjM5DJaTK73XoVdx2Mm
+        status: active
+        display_name: 王縉
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_5AUJjM5DJaTK73XoVdx2Mm | 王縉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王縉（CBDB 201041）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201041&o=json)
 - [中国历代人物传记资料库：王禎（CBDB 266253）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266253&o=json)

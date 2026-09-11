@@ -4,7 +4,7 @@ id: p_n18iFte87Ls38E8g6NHVog
 status: active
 merged_into: null
 display_name: 王延德
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c__uezu-YI2L0irVS4z71zBp
+        subject_person_id: p_5KXqnGcUb8SEM8grnPHtW7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_n18iFte87Ls38E8g6NHVog
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QoB_38S5xvkQeRGfumsgyS
+          claim_id: c__uezu-YI2L0irVS4z71zBp
+          source_id: s_VXhvcxgsHrJaAdC2nBui3k
+          stance: supports
+          locator: 宋史：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_VXhvcxgsHrJaAdC2nBui3k
+            source_type: api_record
+            title: 中国历代人物传记资料库：王溫（CBDB 121460）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121460&o=json
+            external_identifier: CBDB:121460
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:14.914Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5KXqnGcUb8SEM8grnPHtW7
+        status: active
+        display_name: 王溫
+        merged_into_person_id: null
   children:
     - claim:
         id: c_WY3SYphbSli0oMYgTrNprq
@@ -229,11 +266,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5KXqnGcUb8SEM8grnPHtW7 | 王溫 | accepted |
 | children | p_1w4qc4tD5umhv2Nv4ed24E | 王應昌 | accepted |
 | ancestors | p_22p4KGDghvo8rsfY2RMJjr | 王璋 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王溫（CBDB 121460）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121460&o=json)
 - [中国历代人物传记资料库：王延德（CBDB 39400）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=39400&o=json)
 - [中国历代人物传记资料库：王應昌（CBDB 38349）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38349&o=json)
 - [中国历代人物传记资料库：王璋（CBDB 121461）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121461&o=json)

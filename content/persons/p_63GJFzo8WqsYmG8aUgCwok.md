@@ -4,7 +4,7 @@ id: p_63GJFzo8WqsYmG8aUgCwok
 status: active
 merged_into: null
 display_name: 王義端
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_8AJHK2oqrkcMDAiO40KP3K
+        subject_person_id: p_8Dg6XHckcaLtCF8z4S2GGo
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_63GJFzo8WqsYmG8aUgCwok
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MGAszY_WHj5Gn9bnN-1EQM
+          claim_id: c_8AJHK2oqrkcMDAiO40KP3K
+          source_id: s_BZduwUDcb6RpuwpVLbxMxw
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Chuigong 25：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_8Dg6XHckcaLtCF8z4S2GGo
+        status: active
+        display_name: 王行威
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_8Dg6XHckcaLtCF8z4S2GGo | 王行威 | accepted |
 
 ## 外部来源
 

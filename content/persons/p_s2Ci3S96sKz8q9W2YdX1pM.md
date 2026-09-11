@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王審瓊
 cbdb_id: 689254
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -173,6 +173,43 @@ relationships:
         status: active
         display_name: 王守旻
         merged_into_person_id: null
+    - claim:
+        id: c_tl_6SUe4PfV_yH_K4MkcAK
+        subject_person_id: p_s2Ci3S96sKz8q9W2YdX1pM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5KFz2XTNmFB2Vb5p3SFsG7
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8td2mseel_66JyFUi0bouc
+          claim_id: c_tl_6SUe4PfV_yH_K4MkcAK
+          source_id: s_x1UqLrBAP1f2uqUwP1KbwE
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，40/王審瓊墓誌：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_x1UqLrBAP1f2uqUwP1KbwE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王翁喜（CBDB 689353）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689353&o=json
+            external_identifier: CBDB:689353
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.472Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5KFz2XTNmFB2Vb5p3SFsG7
+        status: active
+        display_name: 王翁喜
+        merged_into_person_id: null
   other: []
 ---
 
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | descendants | p_27uSqTLx5pXAroYbs1kCGZ | 王守旻 | accepted |
+| descendants | p_5KFz2XTNmFB2Vb5p3SFsG7 | 王翁喜 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王審瓊（CBDB 689254）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689254&o=json)
 - [中国历代人物传记资料库：王守旻（CBDB 689326）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689326&o=json)
+- [中国历代人物传记资料库：王翁喜（CBDB 689353）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689353&o=json)

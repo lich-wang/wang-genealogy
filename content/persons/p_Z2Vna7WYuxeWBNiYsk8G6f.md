@@ -4,7 +4,7 @@ id: p_Z2Vna7WYuxeWBNiYsk8G6f
 status: active
 merged_into: null
 display_name: 王健
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_E-gUYv5xxUHu5RA3h4gMt1
+        subject_person_id: p_6odTqDAa4QAHFfyxN1rWGF
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Z2Vna7WYuxeWBNiYsk8G6f
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HyzvZu-N0fDZtHexpSktbj
+          claim_id: c_E-gUYv5xxUHu5RA3h4gMt1
+          source_id: s_jMaGBARtmiyKPDxvRKEaF2
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第四十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_jMaGBARtmiyKPDxvRKEaF2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王勗（CBDB 309956）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309956&o=json
+            external_identifier: CBDB:309956
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.831Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_6odTqDAa4QAHFfyxN1rWGF
+        status: active
+        display_name: 王勗
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_2zGMamGixNkzuUEM2w1ndk | 王璇 | accepted |
+| ancestors | p_6odTqDAa4QAHFfyxN1rWGF | 王勗 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王健（CBDB 203783）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203783&o=json)
+- [中国历代人物传记资料库：王勗（CBDB 309956）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309956&o=json)
 - [中国历代人物传记资料库：王璇（CBDB 309958）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309958&o=json)

@@ -4,7 +4,7 @@ id: p_pv2pDE9A1jj2uMGHCGpC7T
 status: active
 merged_into: null
 display_name: 王廷
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,11 +101,85 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_3kcCNHi3zmA6_NKyCirGNk
+        subject_person_id: p_pv2pDE9A1jj2uMGHCGpC7T
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_56nMpgobEseCZRMmEFRumw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bgozAdy9HPRxYj9gR0RsZ9
+          claim_id: c_3kcCNHi3zmA6_NKyCirGNk
+          source_id: s_n3PVAp7p3NaZiZLgN6nEHs
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第二甲第八名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_n3PVAp7p3NaZiZLgN6nEHs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王續之（CBDB 290827）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290827&o=json
+            external_identifier: CBDB:290827
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.351Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_56nMpgobEseCZRMmEFRumw
+        status: active
+        display_name: 王續之
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_s36NOFEQu6lf4Sx_6e0Um9
+        subject_person_id: p_6AWFkDwvMEx3gmWMnZMPwe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_pv2pDE9A1jj2uMGHCGpC7T
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_scV3fKCNzuQtMWFnLNf0ZD
+          claim_id: c_s36NOFEQu6lf4Sx_6e0Um9
+          source_id: s_SUs9UsZEYNukhuLWGV3uqc
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第二甲第八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_SUs9UsZEYNukhuLWGV3uqc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昺（CBDB 209880）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209880&o=json
+            external_identifier: CBDB:209880
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.985Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_6AWFkDwvMEx3gmWMnZMPwe
+        status: active
+        display_name: 王昺
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_56nMpgobEseCZRMmEFRumw | 王續之 | accepted |
+| ancestors | p_6AWFkDwvMEx3gmWMnZMPwe | 王昺 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王昺（CBDB 209880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209880&o=json)
 - [中国历代人物传记资料库：王廷（CBDB 69148）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69148&o=json)
+- [中国历代人物传记资料库：王續之（CBDB 290827）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290827&o=json)

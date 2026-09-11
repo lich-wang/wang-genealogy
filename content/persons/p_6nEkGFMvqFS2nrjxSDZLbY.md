@@ -4,7 +4,7 @@ id: p_6nEkGFMvqFS2nrjxSDZLbY
 status: active
 merged_into: null
 display_name: 王洧
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -114,7 +114,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_B7yk29jZE4VYcCIhddbYS5
+        subject_person_id: p_5S7P9KLyyLw7ZRuNbx66kY
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6nEkGFMvqFS2nrjxSDZLbY
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KNbcCNroQL-1KnZaQ56wNH
+          claim_id: c_B7yk29jZE4VYcCIhddbYS5
+          source_id: s_E66uYzszXuE2BTq1DyQLav
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第一百五十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_E66uYzszXuE2BTq1DyQLav
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禮（CBDB 260071）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260071&o=json
+            external_identifier: CBDB:260071
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.474Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5S7P9KLyyLw7ZRuNbx66kY
+        status: active
+        display_name: 王禮
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_43jCdaQscpAsd5Gw1VzpwH | 王宸 | accepted |
+| ancestors | p_5S7P9KLyyLw7ZRuNbx66kY | 王禮 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王宸（CBDB 260073）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260073&o=json)
+- [中国历代人物传记资料库：王禮（CBDB 260071）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260071&o=json)
 - [中国历代人物传记资料库：王洧（CBDB 126589）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126589&o=json)

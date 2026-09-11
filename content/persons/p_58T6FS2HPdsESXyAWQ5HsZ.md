@@ -4,7 +4,7 @@ id: p_58T6FS2HPdsESXyAWQ5HsZ
 status: active
 merged_into: null
 display_name: 王吉甫
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_B2417emsSUxDTsvkAPbQN6
+        subject_person_id: p_58T6FS2HPdsESXyAWQ5HsZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GBJny92BjTJrCUatL2dF1X
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_O81292x2E-mYh5SwFlEnCy
+          claim_id: c_B2417emsSUxDTsvkAPbQN6
+          source_id: s_oJweWCL2PxjJbK2zRjDYF6
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第三十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GBJny92BjTJrCUatL2dF1X
+        status: active
+        display_name: 王鑑
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_GBJny92BjTJrCUatL2dF1X | 王鑑 | accepted |
 
 ## 外部来源
 

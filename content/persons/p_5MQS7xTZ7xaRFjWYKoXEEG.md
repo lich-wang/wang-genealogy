@@ -4,7 +4,7 @@ id: p_5MQS7xTZ7xaRFjWYKoXEEG
 status: active
 merged_into: null
 display_name: 王序
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_KUy9k_heECT3r42OQa-ho0
+        subject_person_id: p_VXctFzdW1A9SQFV1nH5uCc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5MQS7xTZ7xaRFjWYKoXEEG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LXUDjCrlHzJfD19syY6D1V
+          claim_id: c_KUy9k_heECT3r42OQa-ho0
+          source_id: s_nUcJwoZm9zoYm8ziRTQn3w
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第二百零五名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_VXctFzdW1A9SQFV1nH5uCc
+        status: active
+        display_name: 王章
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_1ZxumKXSqY-j1174C3HQiG
+        subject_person_id: p_Mf2cCNPP13nfvHrxcNv96C
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5MQS7xTZ7xaRFjWYKoXEEG
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XeoDcuzyMB_VhBP3OIQPRA
+          claim_id: c_1ZxumKXSqY-j1174C3HQiG
+          source_id: s_nUcJwoZm9zoYm8ziRTQn3w
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第二百零五名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Mf2cCNPP13nfvHrxcNv96C
+        status: active
+        display_name: 王仁美
+        merged_into_person_id: null
+    - claim:
+        id: c_FfVjgZXzvfWG-j4ZA8n6pV
+        subject_person_id: p_8MqHrKyQJm4DCK5auZ9vkj
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5MQS7xTZ7xaRFjWYKoXEEG
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tIOMhsDxg4pDcHf0SV5zKs
+          claim_id: c_FfVjgZXzvfWG-j4ZA8n6pV
+          source_id: s_nUcJwoZm9zoYm8ziRTQn3w
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第二百零五名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_8MqHrKyQJm4DCK5auZ9vkj
+        status: active
+        display_name: 王讓
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_VXctFzdW1A9SQFV1nH5uCc | 王章 | accepted |
+| ancestors | p_Mf2cCNPP13nfvHrxcNv96C | 王仁美 | accepted |
+| ancestors | p_8MqHrKyQJm4DCK5auZ9vkj | 王讓 | accepted |
 
 ## 外部来源
 

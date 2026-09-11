@@ -4,7 +4,7 @@ id: p_TyATMdhDLQE6uXtZeEgytP
 status: active
 merged_into: null
 display_name: 王璿
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_EpMB-fNu_gvQprUmP0A5GH
+        subject_person_id: p_TyATMdhDLQE6uXtZeEgytP
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6GGJVngcs8ogdZy2FpEF4u
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TC2bLV4pDpTUDnUPxMR1tb
+          claim_id: c_EpMB-fNu_gvQprUmP0A5GH
+          source_id: s_PYdJ3bPsrZPp2Ae2zELaqV
+          stance: supports
+          locator: 寶祐登科錄：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_PYdJ3bPsrZPp2Ae2zELaqV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王煥（CBDB 38800）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38800&o=json
+            external_identifier: CBDB:38800
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.557Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_6GGJVngcs8ogdZy2FpEF4u
+        status: active
+        display_name: 王煥
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_6GGJVngcs8ogdZy2FpEF4u | 王煥 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王煥（CBDB 38800）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38800&o=json)
 - [中国历代人物传记资料库：王璿（CBDB 137926）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=137926&o=json)

@@ -4,7 +4,7 @@ id: p_DVCr6jBgLiL3jTMuxyZfR5
 status: active
 merged_into: null
 display_name: 王世功
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_t5HhD-BYEgPWZgF4zp8HmV
+        subject_person_id: p_DVCr6jBgLiL3jTMuxyZfR5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_61JNS28QvWNfnHMN93DFjd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K_DH43sQEqmguT3_naGCd1
+          claim_id: c_t5HhD-BYEgPWZgF4zp8HmV
+          source_id: s_2wK9PQAmDW98FtfX9yAE7L
+          stance: supports
+          locator: 上虞縣志，lgid=324917：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_2wK9PQAmDW98FtfX9yAE7L
+            source_type: api_record
+            title: 中国历代人物传记资料库：王毓麟（CBDB 703139）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703139&o=json
+            external_identifier: CBDB:703139
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.824Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_61JNS28QvWNfnHMN93DFjd
+        status: active
+        display_name: 王毓麟
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_61JNS28QvWNfnHMN93DFjd | 王毓麟 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王世功（CBDB 703138）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703138&o=json)
+- [中国历代人物传记资料库：王毓麟（CBDB 703139）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703139&o=json)

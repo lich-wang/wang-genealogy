@@ -4,7 +4,7 @@ id: p_5HF86Mdn1hRVvioKu3fMwZ
 status: active
 merged_into: null
 display_name: 王進
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_f0DWkUGse7B-O5RG4cX8wy
+        subject_person_id: p_5HF86Mdn1hRVvioKu3fMwZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sYsyPv2au4jkiLDduGaa8o
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_l66bo6DvM1XN_O8eOZsYQV
+          claim_id: c_f0DWkUGse7B-O5RG4cX8wy
+          source_id: s_bAYtCJYF4UnZr9TQ8TpHBY
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13106：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_sYsyPv2au4jkiLDduGaa8o
+        status: active
+        display_name: 王得陞
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +152,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_sYsyPv2au4jkiLDduGaa8o | 王得陞 | accepted |
 
 ## 外部来源
 

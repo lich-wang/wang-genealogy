@@ -4,7 +4,7 @@ id: p_Lurfy4QMHhzD8PMMpjSfCa
 status: active
 merged_into: null
 display_name: 王宗會
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_JMw2K2ycbZoRG5gRFeuq06
+        subject_person_id: p_5p9v79QfKWB44J7p15t9Pi
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Lurfy4QMHhzD8PMMpjSfCa
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hOMBfO-Ng7jVZdPdSltnUj
+          claim_id: c_JMw2K2ycbZoRG5gRFeuq06
+          source_id: s_HgXvLSw7i2CSHf88M1TqhG
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第一百二十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_HgXvLSw7i2CSHf88M1TqhG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惠（CBDB 317277）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317277&o=json
+            external_identifier: CBDB:317277
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.971Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5p9v79QfKWB44J7p15t9Pi
+        status: active
+        display_name: 王惠
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_5p9v79QfKWB44J7p15t9Pi | 王惠 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王惠（CBDB 317277）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317277&o=json)
 - [中国历代人物传记资料库：王宗會（CBDB 204306）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204306&o=json)

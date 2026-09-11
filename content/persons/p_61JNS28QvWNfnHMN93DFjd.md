@@ -4,7 +4,7 @@ id: p_61JNS28QvWNfnHMN93DFjd
 status: active
 merged_into: null
 display_name: 王毓麟
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_t5HhD-BYEgPWZgF4zp8HmV
+        subject_person_id: p_DVCr6jBgLiL3jTMuxyZfR5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_61JNS28QvWNfnHMN93DFjd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K_DH43sQEqmguT3_naGCd1
+          claim_id: c_t5HhD-BYEgPWZgF4zp8HmV
+          source_id: s_2wK9PQAmDW98FtfX9yAE7L
+          stance: supports
+          locator: 上虞縣志，lgid=324917：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DVCr6jBgLiL3jTMuxyZfR5
+        status: active
+        display_name: 王世功
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_NNl-tAfLpV7uiRU8zRHq-C
+        subject_person_id: p_61JNS28QvWNfnHMN93DFjd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_C6hRPeByiiyGTFCEf9Tocw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6A3QnOvOLXp1MVG569cTgv
+          claim_id: c_NNl-tAfLpV7uiRU8zRHq-C
+          source_id: s_2wK9PQAmDW98FtfX9yAE7L
+          stance: supports
+          locator: 上虞縣志，lgid=324918：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_C6hRPeByiiyGTFCEf9Tocw
+        status: active
+        display_name: 王舍
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_DVCr6jBgLiL3jTMuxyZfR5 | 王世功 | accepted |
+| children | p_C6hRPeByiiyGTFCEf9Tocw | 王舍 | accepted |
 
 ## 外部来源
 

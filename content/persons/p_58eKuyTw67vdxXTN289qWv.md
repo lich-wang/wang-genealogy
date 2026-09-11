@@ -4,7 +4,7 @@ id: p_58eKuyTw67vdxXTN289qWv
 status: active
 merged_into: null
 display_name: 王守言
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_k_OZ8xuydNH4mxIgQwbMkQ
+        subject_person_id: p_58eKuyTw67vdxXTN289qWv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7R4n26F86UHbBJWQVDXKxm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gldJ_nV0s9sbnyDmTqJqen
+          claim_id: c_k_OZ8xuydNH4mxIgQwbMkQ
+          source_id: s_4gpK9QVaKZiFw24XEk6HV6
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Tianbao13：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_7R4n26F86UHbBJWQVDXKxm
+        status: active
+        display_name: 王希祥
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_7R4n26F86UHbBJWQVDXKxm | 王希祥 | accepted |
 
 ## 外部来源
 

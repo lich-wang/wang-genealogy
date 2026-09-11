@@ -4,7 +4,7 @@ id: p_5A4S7L1Jx9xxrAHuLA5JAa
 status: active
 merged_into: null
 display_name: 王錫之
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,11 +73,63 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_ctsib9LpPcmOyyqtisv2Z9
+        subject_person_id: p_5A4S7L1Jx9xxrAHuLA5JAa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_68WHJYWPfgqWeruemt9EkX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XaayrctJ3xuYZJ7ujx2dHQ
+          claim_id: c_ctsib9LpPcmOyyqtisv2Z9
+          source_id: s_TxMbuzCVKn2FVmxyAnqsrn
+          stance: supports
+          locator: 寶祐登科錄：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_68WHJYWPfgqWeruemt9EkX
+        status: active
+        display_name: 王南傑
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_nk_PyXgODhobu4Uw5DMEV8
+        subject_person_id: p_JfR97Qo9EtVxoy9abyHbHM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5A4S7L1Jx9xxrAHuLA5JAa
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-3MtUoUQELa8_GL0ocJ-95
+          claim_id: c_nk_PyXgODhobu4Uw5DMEV8
+          source_id: s_TxMbuzCVKn2FVmxyAnqsrn
+          stance: supports
+          locator: 寶祐登科錄：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_JfR97Qo9EtVxoy9abyHbHM
+        status: active
+        display_name: 王大鈞
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_68WHJYWPfgqWeruemt9EkX | 王南傑 | accepted |
+| ancestors | p_JfR97Qo9EtVxoy9abyHbHM | 王大鈞 | accepted |
 
 ## 外部来源
 

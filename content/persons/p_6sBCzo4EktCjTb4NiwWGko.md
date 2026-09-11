@@ -4,7 +4,7 @@ id: p_6sBCzo4EktCjTb4NiwWGko
 status: active
 merged_into: null
 display_name: 王傑
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -129,11 +129,141 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_PaDzQCbKo0hW2Tq88RVrgn
+        subject_person_id: p_6sBCzo4EktCjTb4NiwWGko
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Jj9MyHrAhxttVzzbCt67ZT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_D_GHLDjM2p441DsMYDQkMN
+          claim_id: c_PaDzQCbKo0hW2Tq88RVrgn
+          source_id: s_HCahiMsh5E8CcBDkdkb7uC
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），42：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Jj9MyHrAhxttVzzbCt67ZT
+        status: active
+        display_name: 王堉時
+        merged_into_person_id: null
+    - claim:
+        id: c_j5Sznayqe-IcRDF0CnSNX0
+        subject_person_id: p_6sBCzo4EktCjTb4NiwWGko
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cWLSoXHQ8UHEBUXaxRR6Dn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jBVf-Cgtd4-mFLCeLP_kTs
+          claim_id: c_j5Sznayqe-IcRDF0CnSNX0
+          source_id: s_HCahiMsh5E8CcBDkdkb7uC
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），42：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_cWLSoXHQ8UHEBUXaxRR6Dn
+        status: active
+        display_name: 王垿時
+        merged_into_person_id: null
+    - claim:
+        id: c_9wrTfZC9jnoJKZS7-mDIiq
+        subject_person_id: p_6sBCzo4EktCjTb4NiwWGko
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_m6JqkVZNfJm95LmoghtH9J
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_luyti-UWYSSfJTi9pzYEPQ
+          claim_id: c_9wrTfZC9jnoJKZS7-mDIiq
+          source_id: s_HCahiMsh5E8CcBDkdkb7uC
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），42：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_m6JqkVZNfJm95LmoghtH9J
+        status: active
+        display_name: 王嵊時
+        merged_into_person_id: null
+    - claim:
+        id: c_GuyCxEGaBC64K7EJ3iMG0F
+        subject_person_id: p_6sBCzo4EktCjTb4NiwWGko
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9goUKx6KDft2sN3Lztv7SU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_r8d1fmvuNA3_qmKKjmnVXH
+          claim_id: c_GuyCxEGaBC64K7EJ3iMG0F
+          source_id: s_HCahiMsh5E8CcBDkdkb7uC
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），42：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_9goUKx6KDft2sN3Lztv7SU
+        status: active
+        display_name: 王塽時
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_GrNd4b261r-Ku8TSZJTzu5
+        subject_person_id: p_fLj7eCRaVcvbsywEcVLYML
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6sBCzo4EktCjTb4NiwWGko
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VJZgV2T_9Sx8sQEBz3rhvJ
+          claim_id: c_GrNd4b261r-Ku8TSZJTzu5
+          source_id: s_HCahiMsh5E8CcBDkdkb7uC
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），42：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_fLj7eCRaVcvbsywEcVLYML
+        status: active
+        display_name: 王象峰
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_ou98lCH6mGeKl3KkcUut0m
@@ -172,6 +302,110 @@ relationships:
         status: active
         display_name: 王騫
         merged_into_person_id: null
+    - claim:
+        id: c_xaH44zYP4dIN-Ht3abLDIE
+        subject_person_id: p_6sBCzo4EktCjTb4NiwWGko
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_PfGFDCNNBR7Cd8j1MzPf9H
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OzyTl9HLVpXyw_o1iA4y23
+          claim_id: c_xaH44zYP4dIN-Ht3abLDIE
+          source_id: s_HCahiMsh5E8CcBDkdkb7uC
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），42：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_PfGFDCNNBR7Cd8j1MzPf9H
+        status: active
+        display_name: 王駎
+        merged_into_person_id: null
+    - claim:
+        id: c_q5M1-xEG-xo_cqJlqryDYi
+        subject_person_id: p_6sBCzo4EktCjTb4NiwWGko
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_EVGWpjKLyBvzRAMy57D9Lb
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ir7XHm7U5DYqi9pjH8rlC7
+          claim_id: c_q5M1-xEG-xo_cqJlqryDYi
+          source_id: s_HCahiMsh5E8CcBDkdkb7uC
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），42：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_EVGWpjKLyBvzRAMy57D9Lb
+        status: active
+        display_name: 王駉
+        merged_into_person_id: null
+    - claim:
+        id: c_Y90IcH3mBEwf2_vA5vu-Fq
+        subject_person_id: p_6sBCzo4EktCjTb4NiwWGko
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_NKgsdPaBjLGpAMZmm31dtQ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oHSBShGLILaa0aRydcegl8
+          claim_id: c_Y90IcH3mBEwf2_vA5vu-Fq
+          source_id: s_HCahiMsh5E8CcBDkdkb7uC
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），42：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NKgsdPaBjLGpAMZmm31dtQ
+        status: active
+        display_name: 王騊
+        merged_into_person_id: null
+    - claim:
+        id: c_miUdseEjtDou8Rx-Y_B2RG
+        subject_person_id: p_6sBCzo4EktCjTb4NiwWGko
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_sToGREbRK53VoAMWgwySDt
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YqNMdL1usZUa98HkjElPie
+          claim_id: c_miUdseEjtDou8Rx-Y_B2RG
+          source_id: s_HCahiMsh5E8CcBDkdkb7uC
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），42：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_sToGREbRK53VoAMWgwySDt
+        status: active
+        display_name: 王驌
+        merged_into_person_id: null
   other: []
 ---
 
@@ -192,7 +426,16 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_Jj9MyHrAhxttVzzbCt67ZT | 王堉時 | accepted |
+| children | p_cWLSoXHQ8UHEBUXaxRR6Dn | 王垿時 | accepted |
+| children | p_m6JqkVZNfJm95LmoghtH9J | 王嵊時 | accepted |
+| children | p_9goUKx6KDft2sN3Lztv7SU | 王塽時 | accepted |
+| ancestors | p_fLj7eCRaVcvbsywEcVLYML | 王象峰 | accepted |
 | descendants | p_1rMKMgmHRPEBfLv4UG994w | 王騫 | accepted |
+| descendants | p_PfGFDCNNBR7Cd8j1MzPf9H | 王駎 | accepted |
+| descendants | p_EVGWpjKLyBvzRAMy57D9Lb | 王駉 | accepted |
+| descendants | p_NKgsdPaBjLGpAMZmm31dtQ | 王騊 | accepted |
+| descendants | p_sToGREbRK53VoAMWgwySDt | 王驌 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_5cJbXaZPVCfH9EZ6651kPP
 status: active
 merged_into: null
 display_name: 王一鳳
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,64 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_KN47_EdhdsszJH58Oz4Ccr
+        subject_person_id: p_D3z8LjQkLgGxFGKKZZcbKs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5cJbXaZPVCfH9EZ6651kPP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RDrcJdx3jbbcWSWKLS6y4r
+          claim_id: c_KN47_EdhdsszJH58Oz4Ccr
+          source_id: s_tbav4zYN2TCDsypeHCvKiB
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第一百七十八名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_D3z8LjQkLgGxFGKKZZcbKs
+        status: active
+        display_name: 王繼仁
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_2Rg34TV_OsYBV27dJybaRs
+        subject_person_id: p_BM6wMNHn5bHEHDoEeZirWe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5cJbXaZPVCfH9EZ6651kPP
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xxLp0JHgp2-PJxhIqylXoF
+          claim_id: c_2Rg34TV_OsYBV27dJybaRs
+          source_id: s_tbav4zYN2TCDsypeHCvKiB
+          stance: supports
+          locator: 隆慶二年進士登科錄:一卷，第三甲第一百七十八名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_BM6wMNHn5bHEHDoEeZirWe
+        status: active
+        display_name: 王恭
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_D3z8LjQkLgGxFGKKZZcbKs | 王繼仁 | accepted |
+| ancestors | p_BM6wMNHn5bHEHDoEeZirWe | 王恭 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_6fP6yoQB92HAJJGNQ4imGY
 status: active
 merged_into: null
 display_name: 王珪
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Pf7iF7W4aIGw7ExxxPppqW
+        subject_person_id: p_6fP6yoQB92HAJJGNQ4imGY
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DBSpMx5KF2ajdMrE1Fppef
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B_tfmZC9pGQo3S2vF5z2jB
+          claim_id: c_Pf7iF7W4aIGw7ExxxPppqW
+          source_id: s_oYF7ZLmmtS2oBi57enr1RW
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第三甲第一百七十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DBSpMx5KF2ajdMrE1Fppef
+        status: active
+        display_name: 王奎
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_DBSpMx5KF2ajdMrE1Fppef | 王奎 | accepted |
 
 ## 外部来源
 

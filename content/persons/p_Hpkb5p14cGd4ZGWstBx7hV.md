@@ -4,7 +4,7 @@ id: p_Hpkb5p14cGd4ZGWstBx7hV
 status: active
 merged_into: null
 display_name: 王晤
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_UK0CfDiPPErGw1kkrdtMYR
+        subject_person_id: p_Hpkb5p14cGd4ZGWstBx7hV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5xuS9KuBCdZJ3SiNJXQuXd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E5ensFUw06qcSOFg26SZCW
+          claim_id: c_UK0CfDiPPErGw1kkrdtMYR
+          source_id: s_aA6Gp6aLH7DnMqVRdDgtuP
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_aA6Gp6aLH7DnMqVRdDgtuP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王湘（CBDB 191815）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191815&o=json
+            external_identifier: CBDB:191815
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.381Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5xuS9KuBCdZJ3SiNJXQuXd
+        status: active
+        display_name: 王湘
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_5xuS9KuBCdZJ3SiNJXQuXd | 王湘 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王晤（CBDB 191809）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191809&o=json)
+- [中国历代人物传记资料库：王湘（CBDB 191815）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191815&o=json)

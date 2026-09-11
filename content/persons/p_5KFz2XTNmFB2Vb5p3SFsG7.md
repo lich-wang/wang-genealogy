@@ -4,7 +4,7 @@ id: p_5KFz2XTNmFB2Vb5p3SFsG7
 status: active
 merged_into: null
 display_name: 王翁喜
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_tl_6SUe4PfV_yH_K4MkcAK
+        subject_person_id: p_s2Ci3S96sKz8q9W2YdX1pM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5KFz2XTNmFB2Vb5p3SFsG7
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8td2mseel_66JyFUi0bouc
+          claim_id: c_tl_6SUe4PfV_yH_K4MkcAK
+          source_id: s_x1UqLrBAP1f2uqUwP1KbwE
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，40/王審瓊墓誌：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_s2Ci3S96sKz8q9W2YdX1pM
+        status: active
+        display_name: 王審瓊
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_s2Ci3S96sKz8q9W2YdX1pM | 王審瓊 | accepted |
 
 ## 外部来源
 

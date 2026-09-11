@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王編
 cbdb_id: 207578
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -134,7 +134,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_rvmrAiUkDAjS1wzZddEwI5
+        subject_person_id: p_5brz9c1G1GjK83wnzr6oiQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_VFz621JQvzkevtvTagNpXa
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_P0fGRE1CERGuW4fA5GUhhX
+          claim_id: c_rvmrAiUkDAjS1wzZddEwI5
+          source_id: s_eWYJkm3aY98rny7Xxcigw6
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第二甲第十五名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_eWYJkm3aY98rny7Xxcigw6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敷（CBDB 232608）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232608&o=json
+            external_identifier: CBDB:232608
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.697Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_5brz9c1G1GjK83wnzr6oiQ
+        status: active
+        display_name: 王敷
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_5brz9c1G1GjK83wnzr6oiQ | 王敷 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王編（CBDB 207578）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207578&o=json)
+- [中国历代人物传记资料库：王敷（CBDB 232608）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232608&o=json)

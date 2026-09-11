@@ -4,7 +4,7 @@ id: p_6Ed3HaMSzFY5mCk231e1KC
 status: active
 merged_into: null
 display_name: 王子麟
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,8 +128,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_1EhrSX6M2Vo3kWhElWlrZR
+        subject_person_id: p_ZYfU6f6WCfWM3Z9QvkLsmh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6Ed3HaMSzFY5mCk231e1KC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_z0kxKJzVnNft3s9GxP9za9
+          claim_id: c_1EhrSX6M2Vo3kWhElWlrZR
+          source_id: s_35JFKhC7B9WWpbqPc5QvEr
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 62：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ZYfU6f6WCfWM3Z9QvkLsmh
+        status: active
+        display_name: 王元綱
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_f45d7Z1bIBVeCvy1Gp2FH5
+        subject_person_id: p_6Ed3HaMSzFY5mCk231e1KC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XWEaqMrZaQqSFFSScpR4sc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9EYkjQghE10vnp0vDHtot5
+          claim_id: c_f45d7Z1bIBVeCvy1Gp2FH5
+          source_id: s_35JFKhC7B9WWpbqPc5QvEr
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 62：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_XWEaqMrZaQqSFFSScpR4sc
+        status: active
+        display_name: 王冲之
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ZYfU6f6WCfWM3Z9QvkLsmh | 王元綱 | accepted |
+| children | p_XWEaqMrZaQqSFFSScpR4sc | 王冲之 | accepted |
 
 ## 外部来源
 

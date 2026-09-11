@@ -4,7 +4,7 @@ id: p_jAZa72xQV94hCgdDQtVTKA
 status: active
 merged_into: null
 display_name: 王銳
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Rdr7FPPgpjZMoGEL0_BKf6
+        subject_person_id: p_jAZa72xQV94hCgdDQtVTKA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6GY2aGzgx7a1G29Cw6N2Jv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wPBYjkxQ9ckjRSDTnAIpGB
+          claim_id: c_Rdr7FPPgpjZMoGEL0_BKf6
+          source_id: s_sqFzrQfGDUhoV1ycTDWczt
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第二百零七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_sqFzrQfGDUhoV1ycTDWczt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王漸（CBDB 204365）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204365&o=json
+            external_identifier: CBDB:204365
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.823Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_6GY2aGzgx7a1G29Cw6N2Jv
+        status: active
+        display_name: 王漸
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_6GY2aGzgx7a1G29Cw6N2Jv | 王漸 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王漸（CBDB 204365）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204365&o=json)
 - [中国历代人物传记资料库：王銳（CBDB 318102）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318102&o=json)
