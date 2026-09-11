@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王念孙
 cbdb_id: 34190
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -381,6 +381,44 @@ relationships:
         status: active
         display_name: 王葆定
         merged_into_person_id: null
+    - claim:
+        id: c_GfNT9U2e4KS6RSr5oCeLa0
+        subject_person_id: p_7ZLkhM6fzxrjvBYHUXQTJQ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_LrSjCJH5KFUsjKjho27isL
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_61sfbK0YNwq5haF1zxQSqY
+          claim_id: c_GfNT9U2e4KS6RSr5oCeLa0
+          source_id: s_aahccQ6BtV2yCGuKP3B8eC
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），9165：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_aahccQ6BtV2yCGuKP3B8eC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王葆和（CBDB 522134）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=522134&o=json
+            external_identifier: CBDB:522134
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:17.868Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_LrSjCJH5KFUsjKjho27isL
+        status: active
+        display_name: 王葆和
+        merged_into_person_id: null
   other: []
 ---
 
@@ -405,6 +443,7 @@ relationships:
 | children | p_x9CQGixzEkUnA7H8VckBPu | 王引之 | accepted |
 | children | p_pXsKr1gsPZgzsPgk6zPHaG | 王氏 | accepted |
 | descendants | p_bRYczJhitqag5U92p8zknK | 王葆定 | accepted |
+| descendants | p_LrSjCJH5KFUsjKjho27isL | 王葆和 | accepted |
 
 ## 外部来源
 
@@ -413,4 +452,5 @@ relationships:
 - [维基数据：王氏（Q13688131）](https://www.wikidata.org/wiki/Q13688131)
 - [维基数据：王引之（Q11573061）](https://www.wikidata.org/wiki/Q11573061)
 - [中国历代人物传记资料库：王葆定（CBDB 522135）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=522135&o=json)
+- [中国历代人物传记资料库：王葆和（CBDB 522134）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=522134&o=json)
 - [CBDB 中国历代人物传记资料库：王念孫（34190）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34190&o=json)

@@ -4,7 +4,7 @@ id: p_KRJzmY18UWZPSeL3isfUAa
 status: active
 merged_into: null
 display_name: 王行果
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -318,7 +318,45 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_4uS8NxKVqKbbgdH4Yvfohn
+        subject_person_id: p_M4YBTQCHyro2Kzp6DGJmjw
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_KRJzmY18UWZPSeL3isfUAa
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0LIg6Vxjh8oaU-SY-FRkHp
+          claim_id: c_4uS8NxKVqKbbgdH4Yvfohn
+          source_id: s_X6Jpke3yM1Ne1bCyeBf5FA
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Jinglong 27：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_X6Jpke3yM1Ne1bCyeBf5FA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元季（CBDB 150803）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150803&o=json
+            external_identifier: CBDB:150803
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:53.368Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_M4YBTQCHyro2Kzp6DGJmjw
+        status: active
+        display_name: 王元季
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -345,6 +383,7 @@ relationships:
 | children | p_inW3YFWZZ4cbGzjyNYmXsr | 王曔 | accepted |
 | children | p_svhbmD3B5AhUY8EYXEpT81 | 王晦 | accepted |
 | children | p_tecxCc8AdS9udfaQ1CDwan | 王晙 | accepted |
+| ancestors | p_M4YBTQCHyro2Kzp6DGJmjw | 王元季 | accepted |
 
 ## 外部来源
 
@@ -354,3 +393,4 @@ relationships:
 - [中国历代人物传记资料库：王暟（CBDB 150807）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150807&o=json)
 - [中国历代人物传记资料库：王行果（CBDB 140254）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140254&o=json)
 - [中国历代人物传记资料库：王有方（CBDB 150804）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150804&o=json)
+- [中国历代人物传记资料库：王元季（CBDB 150803）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150803&o=json)

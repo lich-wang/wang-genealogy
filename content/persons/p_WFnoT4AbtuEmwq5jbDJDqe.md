@@ -4,7 +4,7 @@ id: p_WFnoT4AbtuEmwq5jbDJDqe
 status: active
 merged_into: null
 display_name: 王恬
-revision: 6
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -304,6 +304,44 @@ relationships:
         status: active
         display_name: 王頤
         merged_into_person_id: null
+    - claim:
+        id: c_U2PIitXyiGxPEyM4DRo--q
+        subject_person_id: p_WFnoT4AbtuEmwq5jbDJDqe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MYmCtcLQMLLVJCWEXqgWgw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2z9Cfo0WwMeL8mUY5XBfLN
+          claim_id: c_U2PIitXyiGxPEyM4DRo--q
+          source_id: s_v81pFNAkQR56MkBoeoUH7Y
+          stance: supports
+          locator: 全宋文，卷 5677：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_v81pFNAkQR56MkBoeoUH7Y
+            source_type: api_record
+            title: 中国历代人物传记资料库：王覬（CBDB 385853）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385853&o=json
+            external_identifier: CBDB:385853
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:21.809Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_MYmCtcLQMLLVJCWEXqgWgw
+        status: active
+        display_name: 王覬
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -334,9 +372,11 @@ relationships:
 | children | p_atRhzDs4oFYS811oM1atCv | 王碩 | accepted |
 | children | p_PcEuQQgHX77JBLMDejCXRZ | 王頎 | accepted |
 | children | p_QP3NwvKZSaBQQRph12F9S8 | 王頤 | accepted |
+| children | p_MYmCtcLQMLLVJCWEXqgWgw | 王覬 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王覬（CBDB 385853）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385853&o=json)
 - [中国历代人物传记资料库：王頎（CBDB 385854）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=385854&o=json)
 - [中国历代人物传记资料库：王碩（CBDB 384841）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=384841&o=json)
 - [中国历代人物传记资料库：王恬（CBDB 38258）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38258&o=json)

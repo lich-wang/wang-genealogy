@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王志楓
 cbdb_id: 526695
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:526695
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_4Ls4Kmx3x4QqojNFABJxVp
             source_type: api_record
             title: 中国历代人物传记资料库：王志楓（CBDB 526695）
@@ -91,7 +91,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_sjO54CUAtgAif2qn4f5Ezw
+        subject_person_id: p_LFgZ3CGAxkGiYoYL8yH9TP
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_kKBU67KW3DWC3GgsXJTwPQ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SnuVRlD262ZUJS7_TJpZgF
+          claim_id: c_sjO54CUAtgAif2qn4f5Ezw
+          source_id: s_4Ls4Kmx3x4QqojNFABJxVp
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12801：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_LFgZ3CGAxkGiYoYL8yH9TP
+        status: active
+        display_name: 王以銜
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_LFgZ3CGAxkGiYoYL8yH9TP | 王以銜 | accepted |
 
 ## 外部来源
 

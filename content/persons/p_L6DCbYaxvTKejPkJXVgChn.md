@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王升
 cbdb_id: 246749
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -207,7 +207,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_FcGFa2Y5ZAyX0QYE686r5c
+        subject_person_id: p_L6DCbYaxvTKejPkJXVgChn
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_WiwMbe5khxgYE1U6q8kKz5
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QcPN_A6OjDWFldepdX_Buh
+          claim_id: c_FcGFa2Y5ZAyX0QYE686r5c
+          source_id: s_vYGKv5e2x1htavkJLyVnKL
+          stance: supports
+          locator: 成化八年進士登科錄:一卷，第三甲第八十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WiwMbe5khxgYE1U6q8kKz5
+        status: active
+        display_name: 王璟
+        merged_into_person_id: null
   other: []
 ---
 
@@ -228,6 +254,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_sWnQEKdTJEEDPqzmGjNy9f | 王海 | accepted |
 | children | p_sw3d858SSyyvRPzeeoi5f5 | 王纲 | accepted |
+| descendants | p_WiwMbe5khxgYE1U6q8kKz5 | 王璟 | accepted |
 
 ## 外部来源
 

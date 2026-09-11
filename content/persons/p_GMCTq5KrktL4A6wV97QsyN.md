@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王德表
 cbdb_id: 92112
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -575,7 +575,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_grhiL18B5mg3k0sbzeGy_g
+        subject_person_id: p_JRxQLCdnELN71C7FFfG44D
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GMCTq5KrktL4A6wV97QsyN
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5GQmKNfrRoHvWlRqdLrTvN
+          claim_id: c_grhiL18B5mg3k0sbzeGy_g
+          source_id: s_gp6KaZNcX3D9D72CBP646a
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Shengli 28：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_gp6KaZNcX3D9D72CBP646a
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王子傑（150134）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150134&o=json
+            external_identifier: CBDB:150134
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:14:48.103Z
+            metadata_json: null
+      object_person:
+        id: p_JRxQLCdnELN71C7FFfG44D
+        status: active
+        display_name: 王子杰
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -602,6 +639,7 @@ relationships:
 | children | p_65Sv25s3dJsDY8HXQATSAi | 王洛客 | accepted |
 | children | p_MHnJiH3KT72B1d43pNjdsL | 王昱 | accepted |
 | children | p_JxF3daBH3pwTrX7Fy6gSs3 | 王昌 | accepted |
+| ancestors | p_JRxQLCdnELN71C7FFfG44D | 王子杰 | accepted |
 
 ## 外部来源
 
@@ -613,3 +651,4 @@ relationships:
 - [CBDB 中国历代人物传记资料库：王景（92088）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92088&o=json)
 - [CBDB 中国历代人物传记资料库：王洛客（146283）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=146283&o=json)
 - [CBDB 中国历代人物传记资料库：王信（150135）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150135&o=json)
+- [CBDB 中国历代人物传记资料库：王子傑（150134）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150134&o=json)

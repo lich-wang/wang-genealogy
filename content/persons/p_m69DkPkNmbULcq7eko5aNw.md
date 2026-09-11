@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王居
 cbdb_id: 312136
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:312136
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_UJAoeaY3HmhmD9gApV75WN
             source_type: api_record
             title: 中国历代人物传记资料库：王居（CBDB 312136）
@@ -129,7 +129,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Tbuy1GCMEq0aui6NCGTwE-
+        subject_person_id: p_m69DkPkNmbULcq7eko5aNw
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_1FCXxHhqD3wzUFWARQDXSE
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5N0ytlK39ubKOWY3nqlvpN
+          claim_id: c_Tbuy1GCMEq0aui6NCGTwE-
+          source_id: s_UJAoeaY3HmhmD9gApV75WN
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第二甲第四十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_1FCXxHhqD3wzUFWARQDXSE
+        status: active
+        display_name: 王道行
+        merged_into_person_id: null
   other: []
 ---
 
@@ -149,6 +175,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_oaNDfLCNACocvS6e5dX6tR | 王鼎 | accepted |
+| descendants | p_1FCXxHhqD3wzUFWARQDXSE | 王道行 | accepted |
 
 ## 外部来源
 

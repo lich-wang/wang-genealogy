@@ -4,7 +4,7 @@ id: p_z5fd9doZBpHnhM7XG6sUvg
 status: active
 merged_into: null
 display_name: 王佺
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -204,6 +204,82 @@ relationships:
         status: active
         display_name: 王中和
         merged_into_person_id: null
+    - claim:
+        id: c_UC_klhGAR3VdmIhcVQqQpH
+        subject_person_id: p_z5fd9doZBpHnhM7XG6sUvg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JXS7WxyCeaBXvxcHq83ALZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ggm6NxNBVqfRMuV3CSWsOv
+          claim_id: c_UC_klhGAR3VdmIhcVQqQpH
+          source_id: s_ZhGL5Xcvwrw85zDhBGXQ5R
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yuanhe 148：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZhGL5Xcvwrw85zDhBGXQ5R
+            source_type: api_record
+            title: 中国历代人物传记资料库：王十一娘子（CBDB 157223）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157223&o=json
+            external_identifier: CBDB:157223
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.122Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_JXS7WxyCeaBXvxcHq83ALZ
+        status: active
+        display_name: 王十一娘子
+        merged_into_person_id: null
+    - claim:
+        id: c_tvho6qH7EAHB-8SLkJC7nV
+        subject_person_id: p_z5fd9doZBpHnhM7XG6sUvg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kj7xLVAdnL38cq8xDTKsqF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Yk3KfFGOscMbdaLMOPpHEr
+          claim_id: c_tvho6qH7EAHB-8SLkJC7nV
+          source_id: s_MCYxkZEfp8k1XxDvQs3Mu8
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Yuanhe 148：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MCYxkZEfp8k1XxDvQs3Mu8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王叔遇（CBDB 157224）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157224&o=json
+            external_identifier: CBDB:157224
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.122Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_kj7xLVAdnL38cq8xDTKsqF
+        status: active
+        display_name: 王叔遇
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -231,9 +307,13 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_LZDyxwkDn7hMScsFxGBinn | 王金 | accepted |
 | children | p_wYatJZEPhxC13F1U63sYX7 | 王中和 | accepted |
+| children | p_JXS7WxyCeaBXvxcHq83ALZ | 王十一娘子 | accepted |
+| children | p_kj7xLVAdnL38cq8xDTKsqF | 王叔遇 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王金（CBDB 157222）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157222&o=json)
 - [中国历代人物传记资料库：王佺（CBDB 141115）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141115&o=json)
+- [中国历代人物传记资料库：王十一娘子（CBDB 157223）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157223&o=json)
+- [中国历代人物传记资料库：王叔遇（CBDB 157224）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157224&o=json)
 - [中国历代人物传记资料库：王中和（CBDB 157225）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157225&o=json)

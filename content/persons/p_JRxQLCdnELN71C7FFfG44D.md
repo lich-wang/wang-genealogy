@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王子杰
 cbdb_id: 150134
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -173,7 +173,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_grhiL18B5mg3k0sbzeGy_g
+        subject_person_id: p_JRxQLCdnELN71C7FFfG44D
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_GMCTq5KrktL4A6wV97QsyN
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5GQmKNfrRoHvWlRqdLrTvN
+          claim_id: c_grhiL18B5mg3k0sbzeGy_g
+          source_id: s_gp6KaZNcX3D9D72CBP646a
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Shengli 28：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GMCTq5KrktL4A6wV97QsyN
+        status: active
+        display_name: 王德表
+        merged_into_person_id: null
   other: []
 ---
 
@@ -193,6 +219,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_N6bQh9pnDkScrvHDXa2Wts | 王信 | accepted |
+| descendants | p_GMCTq5KrktL4A6wV97QsyN | 王德表 | accepted |
 
 ## 外部来源
 

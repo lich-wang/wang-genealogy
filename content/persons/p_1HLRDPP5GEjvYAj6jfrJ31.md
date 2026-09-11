@@ -4,7 +4,7 @@ id: p_1HLRDPP5GEjvYAj6jfrJ31
 status: merged
 merged_into: p_6BymFd7sw6j7GAmg7erqPj
 display_name: 王智興
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -352,6 +352,43 @@ relationships:
         status: active
         display_name: 王晏宝
         merged_into_person_id: null
+    - claim:
+        id: c_odKkpoJZ1HBSgPrFTSu7pg
+        subject_person_id: p_1HLRDPP5GEjvYAj6jfrJ31
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_L9wgabBW76ENxwGEnK8E56
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gFn4oreaEfCklA8MOxlH-0
+          claim_id: c_odKkpoJZ1HBSgPrFTSu7pg
+          source_id: s_8aD7uS49eEWfUkcg57nGWT
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8aD7uS49eEWfUkcg57nGWT
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王晏恭（184944）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184944&o=json
+            external_identifier: CBDB:184944
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:42.543Z
+            metadata_json: null
+      object_person:
+        id: p_L9wgabBW76ENxwGEnK8E56
+        status: active
+        display_name: 王晏恭
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -383,6 +420,7 @@ relationships:
 | children | p_HgVy44kEGbjeLMZt16FcbN | 王宰 | accepted |
 | children | p_hrNsSN4wVj9jcL4eC2GhRW | 王晏斌 | accepted |
 | children | p_iVXKWi9f5gNuEVGc79EzBF | 王晏宝 | accepted |
+| children | p_L9wgabBW76ENxwGEnK8E56 | 王晏恭 | accepted |
 
 ## 外部来源
 
@@ -391,5 +429,6 @@ relationships:
 - [CBDB 中国历代人物传记资料库：王晏寶（184943）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184943&o=json)
 - [CBDB 中国历代人物传记资料库：王晏斌（184947）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184947&o=json)
 - [CBDB 中国历代人物传记资料库：王晏臯（184942）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184942&o=json)
+- [CBDB 中国历代人物传记资料库：王晏恭（184944）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184944&o=json)
 - [CBDB 中国历代人物传记资料库：王晏深（184946）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184946&o=json)
 - [CBDB 中国历代人物传记资料库：王晏宰（184941）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184941&o=json)

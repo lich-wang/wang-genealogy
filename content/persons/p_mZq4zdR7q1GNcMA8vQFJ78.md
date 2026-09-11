@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王祖
 cbdb_id: 143709
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:143709
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_QoKVw3cyuBecJzY4aLqCh3
             source_type: api_record
             title: 中国历代人物传记资料库：王祖（CBDB 143709）
@@ -172,7 +172,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Q7mpSEsPP9LLRGTfJ76JFI
+        subject_person_id: p_y2wPDE6dWkgB37QiaZyE55
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mZq4zdR7q1GNcMA8vQFJ78
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_s__tbvRWrMiRK5nwoAP6KK
+          claim_id: c_Q7mpSEsPP9LLRGTfJ76JFI
+          source_id: s_QoKVw3cyuBecJzY4aLqCh3
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Kaiyuan120：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_y2wPDE6dWkgB37QiaZyE55
+        status: active
+        display_name: 王敬念
+        merged_into_person_id: null
   children:
     - claim:
         id: c_U2ND0xTUUVTA2D8nfRKoyy
@@ -236,6 +262,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_y2wPDE6dWkgB37QiaZyE55 | 王敬念 | accepted |
 | children | p_nN9WKKMeX1poVrzPB2Jdqz | 王元珪 | accepted |
 
 ## 外部来源

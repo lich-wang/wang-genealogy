@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王承衍
 cbdb_id: 3939
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -555,6 +555,43 @@ relationships:
         status: active
         display_name: 魏国大长公主
         merged_into_person_id: null
+    - claim:
+        id: c_4ai0iDPt4uBTfwDSb-YNnK
+        subject_person_id: p_kPcJSE7EkV4dMvXgKH8AyL
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_6MGDJDsMfhoCMpi8TCXnFR
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aYxSDlc4exmWrNzuje88XR
+          claim_id: c_4ai0iDPt4uBTfwDSb-YNnK
+          source_id: s_TKm2Nf2ZwafwrCESnAhsxP
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1707;1708：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_TKm2Nf2ZwafwrCESnAhsxP
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：趙氏（37660）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37660&o=json
+            external_identifier: CBDB:37660
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:48.551Z
+            metadata_json: null
+      object_person:
+        id: p_kPcJSE7EkV4dMvXgKH8AyL
+        status: active
+        display_name: 魏国大长公主
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -583,6 +620,7 @@ relationships:
 | children | p_KFkPjiE1rx8LUbA89gQMuB | 王世雄 | accepted |
 | children | p_g8hsSNbpb5At2Fke7RoQLi | 王世安 | accepted |
 | spouses | p_kPcJSE7EkV4dMvXgKH8AyL | 魏国大长公主 | accepted |
+| spouses | p_kPcJSE7EkV4dMvXgKH8AyL | 魏国大长公主 | accepted |
 
 ## 外部来源
 
@@ -596,3 +634,4 @@ relationships:
 - [中国历代人物传记资料库：王審琦（CBDB 3976）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3976&o=json)
 - [中文维基百科：王承衍](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%89%BF%E8%A1%8D)
 - [CBDB 中国历代人物传记资料库：王承衍（3939）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3939&o=json)
+- [CBDB 中国历代人物传记资料库：趙氏（37660）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37660&o=json)

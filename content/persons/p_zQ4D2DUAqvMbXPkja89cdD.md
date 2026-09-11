@@ -4,7 +4,7 @@ id: p_zQ4D2DUAqvMbXPkja89cdD
 status: active
 merged_into: null
 display_name: 王元逵
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -241,6 +241,44 @@ relationships:
         status: active
         display_name: 王紹鼎
         merged_into_person_id: null
+    - claim:
+        id: c_2xlLEpS1Ag-rDJ10RrT2jW
+        subject_person_id: p_zQ4D2DUAqvMbXPkja89cdD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_moogC2kGGcmo7q9fCE4K5B
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RkVYZ_W33yhCzGG1Hl6WHV
+          claim_id: c_2xlLEpS1Ag-rDJ10RrT2jW
+          source_id: s_MudoCqNJh3U2q62vnjihHN
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MudoCqNJh3U2q62vnjihHN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王紹孚（CBDB 185013）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185013&o=json
+            external_identifier: CBDB:185013
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:39.240Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_moogC2kGGcmo7q9fCE4K5B
+        status: active
+        display_name: 王紹孚
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -306,11 +344,13 @@ relationships:
 | parents | p_36VqJ7FLLuHKS3quQPFxPU | 王庭湊 | accepted |
 | children | p_43NmJrgNPyJwDEy9AneDsx | 王紹烈 | accepted |
 | children | p_BGZ3Xya3EBe2Q1KNp6DVk3 | 王紹鼎 | accepted |
+| children | p_moogC2kGGcmo7q9fCE4K5B | 王紹孚 | accepted |
 | ancestors | p_EzMUKy9VQQxtLyAvd3YBRM | 王昇朝 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王紹鼎（CBDB 159540）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159540&o=json)
+- [中国历代人物传记资料库：王紹孚（CBDB 185013）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185013&o=json)
 - [中国历代人物传记资料库：王紹烈（CBDB 159539）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159539&o=json)
 - [中国历代人物传记资料库：王昇朝（CBDB 159541）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159541&o=json)
 - [中国历代人物传记资料库：王庭湊（CBDB 159537）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=159537&o=json)

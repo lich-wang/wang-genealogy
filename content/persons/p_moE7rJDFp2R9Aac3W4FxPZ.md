@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王友亮
 cbdb_id: 58603
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:58603
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_NUj526A7RkfPNCRdD3geau
             source_type: api_record
             title: 中国历代人物传记资料库：王友亮（CBDB 58603）
@@ -172,7 +172,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_OtGib9DGAUU_f1djHyHZ7a
+        subject_person_id: p_cBGCXtQ6wkhv554viPc99n
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_moE7rJDFp2R9Aac3W4FxPZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jtEhnoo6keGQ76sxUkZ8Qz
+          claim_id: c_OtGib9DGAUU_f1djHyHZ7a
+          source_id: s_NUj526A7RkfPNCRdD3geau
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160868：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_cBGCXtQ6wkhv554viPc99n
+        status: active
+        display_name: 王文德
+        merged_into_person_id: null
   children:
     - claim:
         id: c_9oZIAqF8CB0_BArxstbkd0
@@ -212,10 +238,114 @@ relationships:
         status: active
         display_name: 王行恕
         merged_into_person_id: null
+    - claim:
+        id: c_f8oO-8tOZq4pDTJ73URUEy
+        subject_person_id: p_moE7rJDFp2R9Aac3W4FxPZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Q7ggBttVytDDHAgopL9CKb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GcDMRKBPLyP7ebT0KH9XLe
+          claim_id: c_f8oO-8tOZq4pDTJ73URUEy
+          source_id: s_NUj526A7RkfPNCRdD3geau
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160868：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Q7ggBttVytDDHAgopL9CKb
+        status: active
+        display_name: 王鳳生
+        merged_into_person_id: null
+    - claim:
+        id: c_MYn4vHxMjI6aETykkIHyYR
+        subject_person_id: p_moE7rJDFp2R9Aac3W4FxPZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mR8y3PTiCrMPbVWSCQfHXh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xP4DtbYyOJxnHZuUxzAWEl
+          claim_id: c_MYn4vHxMjI6aETykkIHyYR
+          source_id: s_NUj526A7RkfPNCRdD3geau
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1863：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_mR8y3PTiCrMPbVWSCQfHXh
+        status: active
+        display_name: 王麟生
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_CYsscfKwGi11svPitq35t_
+        subject_person_id: p_oXsn4KEBt43c38UqC37ERZ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_moE7rJDFp2R9Aac3W4FxPZ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aS_Yxh1MNAbYVNSyNXn-GP
+          claim_id: c_CYsscfKwGi11svPitq35t_
+          source_id: s_NUj526A7RkfPNCRdD3geau
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1863：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oXsn4KEBt43c38UqC37ERZ
+        status: active
+        display_name: 王啟仁
+        merged_into_person_id: null
+    - claim:
+        id: c_Bo0tAbdx38ijfkQJWqoBr-
+        subject_person_id: p_v5Be2QPiA238LSM91E6roL
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_moE7rJDFp2R9Aac3W4FxPZ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jI0gG8_YzIdfUoZUuCDONN
+          claim_id: c_Bo0tAbdx38ijfkQJWqoBr-
+          source_id: s_NUj526A7RkfPNCRdD3geau
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1863：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_v5Be2QPiA238LSM91E6roL
+        status: active
+        display_name: 王士鏡
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -237,7 +367,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_cBGCXtQ6wkhv554viPc99n | 王文德 | accepted |
 | children | p_a3Z77DL9GxcG2NAvX5dG2G | 王行恕 | accepted |
+| children | p_Q7ggBttVytDDHAgopL9CKb | 王鳳生 | accepted |
+| children | p_mR8y3PTiCrMPbVWSCQfHXh | 王麟生 | accepted |
+| ancestors | p_oXsn4KEBt43c38UqC37ERZ | 王啟仁 | accepted |
+| ancestors | p_v5Be2QPiA238LSM91E6roL | 王士鏡 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 卫氏
 cbdb_id: 308154
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -77,7 +77,7 @@ properties:
           locator: Q65832553
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_uKF46Z26U4Zt7sgNBVxKSq
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：衛氏（308154）
@@ -172,6 +172,32 @@ relationships:
         status: active
         display_name: 王国光
         merged_into_person_id: null
+    - claim:
+        id: c_OvldpaIXZpK7vK-eqNJLrh
+        subject_person_id: p_JuyWBFNLh4xbgCexQHVSLh
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_fAeAj1ECenpg29AWYPB25D
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_McYdASh4sCsQ0HI0xg5Cbh
+          claim_id: c_OvldpaIXZpK7vK-eqNJLrh
+          source_id: s_uKF46Z26U4Zt7sgNBVxKSq
+          stance: supports
+          locator: 嘉靖二十三年登科錄:一卷，第三甲第一百八十九名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_fAeAj1ECenpg29AWYPB25D
+        status: active
+        display_name: 王國光
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -193,6 +219,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_fpg1YKR3GH9Cg5FPGdQZW7 | 王国光 | accepted |
+| spouses | p_fAeAj1ECenpg29AWYPB25D | 王國光 | accepted |
 
 ## 外部来源
 

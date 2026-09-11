@@ -4,7 +4,7 @@ id: p_cBGCXtQ6wkhv554viPc99n
 status: active
 merged_into: null
 display_name: 王文德
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -99,6 +99,44 @@ relationships:
         id: p_pfkAJ6LT6dUqP7JHbgQTA7
         status: active
         display_name: 王廷言
+        merged_into_person_id: null
+    - claim:
+        id: c_OtGib9DGAUU_f1djHyHZ7a
+        subject_person_id: p_cBGCXtQ6wkhv554viPc99n
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_moE7rJDFp2R9Aac3W4FxPZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jtEhnoo6keGQ76sxUkZ8Qz
+          claim_id: c_OtGib9DGAUU_f1djHyHZ7a
+          source_id: s_NUj526A7RkfPNCRdD3geau
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160868：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_NUj526A7RkfPNCRdD3geau
+            source_type: api_record
+            title: 中国历代人物传记资料库：王友亮（CBDB 58603）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=58603&o=json
+            external_identifier: CBDB:58603
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:05.401Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_moE7rJDFp2R9Aac3W4FxPZ
+        status: active
+        display_name: 王友亮
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
@@ -265,6 +303,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_pfkAJ6LT6dUqP7JHbgQTA7 | 王廷言 | accepted |
+| children | p_moE7rJDFp2R9Aac3W4FxPZ | 王友亮 | accepted |
 | ancestors | p_oXsn4KEBt43c38UqC37ERZ | 王啟仁 | accepted |
 | descendants | p_8SfbNUa9c5K4NMLzzfdGZb | 王汝成 | accepted |
 | descendants | p_Q7ggBttVytDDHAgopL9CKb | 王鳳生 | accepted |
@@ -275,3 +314,4 @@ relationships:
 
 - [中国历代人物传记资料库：王汝成（CBDB 696858）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696858&o=json)
 - [中国历代人物传记资料库：王文德（CBDB 696857）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696857&o=json)
+- [中国历代人物传记资料库：王友亮（CBDB 58603）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=58603&o=json)

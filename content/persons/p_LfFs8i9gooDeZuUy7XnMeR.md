@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王三至
 cbdb_id: 211374
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:211374
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_zQVBAQp3QWGGLFmJ8TEPbA
             source_type: api_record
             title: 中国历代人物传记资料库：王三至（CBDB 211374）
@@ -87,7 +87,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_LbTEPakxaCGsayPS9gHkV1
+        subject_person_id: p_LfFs8i9gooDeZuUy7XnMeR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JpKAwvv1MK7gdEG1QmEGyd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kLpGodz4J8xsO3OjhH6wsX
+          claim_id: c_LbTEPakxaCGsayPS9gHkV1
+          source_id: s_zQVBAQp3QWGGLFmJ8TEPbA
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第二百三十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_JpKAwvv1MK7gdEG1QmEGyd
+        status: active
+        display_name: 王湘
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_JpKAwvv1MK7gdEG1QmEGyd | 王湘 | accepted |
 
 ## 外部来源
 

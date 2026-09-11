@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仁長
 cbdb_id: 193632
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:193632
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_Fo23FEuezL66w6xmMr9LzP
             source_type: api_record
             title: 中国历代人物传记资料库：王仁長（CBDB 193632）
@@ -129,7 +129,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_JdypdW8WY5Hztz7jFxs5yz
+        subject_person_id: p_tZW44NfiePoNXF2LiFTkkb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_m27sxFV9XUMPKTcePfzjXM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__1_v72GFHbq1ulaP9ghBHQ
+          claim_id: c_JdypdW8WY5Hztz7jFxs5yz
+          source_id: s_Fo23FEuezL66w6xmMr9LzP
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_tZW44NfiePoNXF2LiFTkkb
+        status: active
+        display_name: 王如寶
+        merged_into_person_id: null
   children:
     - claim:
         id: c_RkSI-0zaIgBrTEzeQsRQ1P
@@ -192,6 +218,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_tZW44NfiePoNXF2LiFTkkb | 王如寶 | accepted |
 | children | p_BBjh54oy2Rk6bDUmYwzsdA | 王逢 | accepted |
 
 ## 外部来源

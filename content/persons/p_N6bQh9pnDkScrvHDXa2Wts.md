@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王信
 cbdb_id: 150135
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -319,11 +319,63 @@ relationships:
         status: active
         display_name: 王表
         merged_into_person_id: null
+    - claim:
+        id: c_EclMmHdDaQrX13vYWWHaDA
+        subject_person_id: p_N6bQh9pnDkScrvHDXa2Wts
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2QzaHREwKpSyXNbQkJ4Bk3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uE2X-lbc4FB4NWDsgjsyLQ
+          claim_id: c_EclMmHdDaQrX13vYWWHaDA
+          source_id: s_t12j9uut9cE85A2EB1mrNy
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_2QzaHREwKpSyXNbQkJ4Bk3
+        status: active
+        display_name: 王表
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_iwn1RR2K75JATGlH8mNw2b
+        subject_person_id: p_N6bQh9pnDkScrvHDXa2Wts
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_NQEG3VEtv6G5kdckYDLpGN
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_28hMSOZLuoiHGLJ_f9vHuu
+          claim_id: c_iwn1RR2K75JATGlH8mNw2b
+          source_id: s_t12j9uut9cE85A2EB1mrNy
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 28：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NQEG3VEtv6G5kdckYDLpGN
+        status: active
+        display_name: 王之渙
+        merged_into_person_id: null
   other: []
 ---
 
@@ -345,6 +397,8 @@ relationships:
 | parents | p_JRxQLCdnELN71C7FFfG44D | 王子杰 | accepted |
 | children | p_GMCTq5KrktL4A6wV97QsyN | 王德表 | accepted |
 | children | p_2QzaHREwKpSyXNbQkJ4Bk3 | 王表 | accepted |
+| children | p_2QzaHREwKpSyXNbQkJ4Bk3 | 王表 | accepted |
+| descendants | p_NQEG3VEtv6G5kdckYDLpGN | 王之渙 | accepted |
 
 ## 外部来源
 

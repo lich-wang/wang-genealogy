@@ -4,7 +4,7 @@ id: p_rT3bK3RVCNfBJPQAtdAstK
 status: active
 merged_into: null
 display_name: 王鳴鳳
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_zZYegs89PNKd1kjC4IkdAw
+        subject_person_id: p_LKUBnXvN3RatPV3fcj6pke
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rT3bK3RVCNfBJPQAtdAstK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_g7CpL2soqIrskgKQ8Shpld
+          claim_id: c_zZYegs89PNKd1kjC4IkdAw
+          source_id: s_4WbTstvWRE2aWdGPMZvcZD
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第三甲第一百三十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4WbTstvWRE2aWdGPMZvcZD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珎（CBDB 285493）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285493&o=json
+            external_identifier: CBDB:285493
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:02.953Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_LKUBnXvN3RatPV3fcj6pke
+        status: active
+        display_name: 王珎
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +238,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_LKUBnXvN3RatPV3fcj6pke | 王珎 | accepted |
 | ancestors | p_dgdij9AEju2hv2VB29LPgp | 王文 | accepted |
 | ancestors | p_wt9HqwjxBb7Gi8N39gvfH3 | 王鎮 | accepted |
 
@@ -207,4 +246,5 @@ relationships:
 
 - [中国历代人物传记资料库：王鳴鳳（CBDB 202244）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202244&o=json)
 - [中国历代人物传记资料库：王文（CBDB 285492）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285492&o=json)
+- [中国历代人物传记资料库：王珎（CBDB 285493）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285493&o=json)
 - [中国历代人物传记资料库：王鎮（CBDB 285491）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285491&o=json)

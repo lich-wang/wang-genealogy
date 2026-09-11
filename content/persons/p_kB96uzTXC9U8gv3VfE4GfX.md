@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王重鼎
 cbdb_id: 235148
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:235148
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_KWurt4YbwEb1xbZniiTdN9
             source_type: api_record
             title: 中国历代人物传记资料库：王重鼎（CBDB 235148）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_V1Rdj_DNVVQwW1OyS-nUNx
+        subject_person_id: p_kB96uzTXC9U8gv3VfE4GfX
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_WP2TCGKdqkuWFjHVRTiLcW
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cr_fFTmZoy6KCqeOQ3V433
+          claim_id: c_V1Rdj_DNVVQwW1OyS-nUNx
+          source_id: s_KWurt4YbwEb1xbZniiTdN9
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第二甲第五十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WP2TCGKdqkuWFjHVRTiLcW
+        status: active
+        display_name: 王志堅
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_WP2TCGKdqkuWFjHVRTiLcW | 王志堅 | accepted |
 
 ## 外部来源
 

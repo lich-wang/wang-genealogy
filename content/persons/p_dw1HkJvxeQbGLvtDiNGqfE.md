@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王惟寧
 cbdb_id: 204346
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,6 +209,44 @@ relationships:
         status: active
         display_name: 王文達
         merged_into_person_id: null
+    - claim:
+        id: c_3j4wUEs2u5miskiFy-xRQP
+        subject_person_id: p_Khzg6KKAHWYJwQcZ9DnzkS
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_dw1HkJvxeQbGLvtDiNGqfE
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_93byrH5e_daKtQT7Ezk9V5
+          claim_id: c_3j4wUEs2u5miskiFy-xRQP
+          source_id: s_p8A1ybHAaQ6iuunjvAMZ7T
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第一百七十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_p8A1ybHAaQ6iuunjvAMZ7T
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恭政（CBDB 317768）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317768&o=json
+            external_identifier: CBDB:317768
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:06.030Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_Khzg6KKAHWYJwQcZ9DnzkS
+        status: active
+        display_name: 王恭政
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_adU4MrMDVi49ue2hfZefvu | 王官 | accepted |
 | ancestors | p_TcUcycSfKD7VSNkWy8cSDi | 王文達 | accepted |
+| ancestors | p_Khzg6KKAHWYJwQcZ9DnzkS | 王恭政 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王恭政（CBDB 317768）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317768&o=json)
 - [中国历代人物传记资料库：王官（CBDB 317770）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317770&o=json)
 - [中国历代人物传记资料库：王惟寧（CBDB 204346）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204346&o=json)
 - [中国历代人物传记资料库：王文達（CBDB 317769）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317769&o=json)

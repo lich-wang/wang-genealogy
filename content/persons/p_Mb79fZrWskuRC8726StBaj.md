@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王謝
 cbdb_id: 118116
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:118116
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_UZuZZ29v7xFGJZu4ubyWgF
             source_type: api_record
             title: 中国历代人物传记资料库：王謝（CBDB 118116）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_OC7_QedM5KG9ju-2tYukxC
+        subject_person_id: p_ZKp8y8TgyzFJLWQwkFwGZQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Mb79fZrWskuRC8726StBaj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ybYqHPnFv0r2EMVqkSEYVe
+          claim_id: c_OC7_QedM5KG9ju-2tYukxC
+          source_id: s_UZuZZ29v7xFGJZu4ubyWgF
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #1940, HuWenKai #256：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ZKp8y8TgyzFJLWQwkFwGZQ
+        status: active
+        display_name: 王大楏
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ZKp8y8TgyzFJLWQwkFwGZQ | 王大楏 | accepted |
 
 ## 外部来源
 

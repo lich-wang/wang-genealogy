@@ -4,7 +4,7 @@ id: p_MkN2fuPTu4u4GXiJ2MF3JH
 status: active
 merged_into: null
 display_name: 王貞
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -204,6 +204,44 @@ relationships:
         status: active
         display_name: 王文質
         merged_into_person_id: null
+    - claim:
+        id: c_9g6tE8GCJo8TzqHjxxfovF
+        subject_person_id: p_MkN2fuPTu4u4GXiJ2MF3JH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kxJep3Hkyd2rahFzGBczvP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UbWlGJxnA4YbRp9SRf9egG
+          claim_id: c_9g6tE8GCJo8TzqHjxxfovF
+          source_id: s_suiLugVWjtYJThHT5dRVM5
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Changshou 21：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_suiLugVWjtYJThHT5dRVM5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王蕭韶（CBDB 149688）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=149688&o=json
+            external_identifier: CBDB:149688
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:53.368Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_kxJep3Hkyd2rahFzGBczvP
+        status: active
+        display_name: 王蕭韶
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -231,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_8ijC7CC8gzesF4vwbE5oHm | 王義 | accepted |
 | children | p_b8H4aR4pJtzL6EUvA55cyk | 王文質 | accepted |
+| children | p_kxJep3Hkyd2rahFzGBczvP | 王蕭韶 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王文質（CBDB 149687）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=149687&o=json)
+- [中国历代人物传记资料库：王蕭韶（CBDB 149688）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=149688&o=json)
 - [中国历代人物传记资料库：王義（CBDB 149686）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=149686&o=json)
 - [中国历代人物传记资料库：王貞（CBDB 91989）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=91989&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王玉佩
 cbdb_id: 69124
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -130,7 +130,45 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_4oQ4XIF_-AVzrtimArLTLL
+        subject_person_id: p_ufZP78fAjpAL3GSLCQvWtA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LFA2NDjKJrFyob1xrNhED4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_De0FN8nHtFifjn1LZsYm7Z
+          claim_id: c_4oQ4XIF_-AVzrtimArLTLL
+          source_id: s_5kret5HRaQMYdB9fsZuHRc
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12822：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5kret5HRaQMYdB9fsZuHRc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王映榮（CBDB 526705）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526705&o=json
+            external_identifier: CBDB:526705
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:18.829Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_LFA2NDjKJrFyob1xrNhED4
+        status: active
+        display_name: 王映榮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,7 +193,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_LFA2NDjKJrFyob1xrNhED4 | 王映榮 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王映榮（CBDB 526705）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526705&o=json)
 - [中国历代人物传记资料库：王玉佩（CBDB 69124）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69124&o=json)

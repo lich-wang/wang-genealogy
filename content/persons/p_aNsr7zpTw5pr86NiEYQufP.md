@@ -4,7 +4,7 @@ id: p_aNsr7zpTw5pr86NiEYQufP
 status: active
 merged_into: null
 display_name: 王果
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -112,6 +112,44 @@ relationships:
         status: active
         display_name: 王湘娥
         merged_into_person_id: null
+    - claim:
+        id: c_VK-9vqWd2Fjeg9oxDYmsvG
+        subject_person_id: p_aNsr7zpTw5pr86NiEYQufP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mGWrYKDzG8MP3yspzZEbjL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sGYKxB92cMEGTzN59EI_PL
+          claim_id: c_VK-9vqWd2Fjeg9oxDYmsvG
+          source_id: s_PzSYNY1tjqS6PFR9qVVW6d
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #4002, HuWenKai #241：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_PzSYNY1tjqS6PFR9qVVW6d
+            source_type: api_record
+            title: 中国历代人物传记资料库：王湘嬃（CBDB 121021）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121021&o=json
+            external_identifier: CBDB:121021
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:51.722Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_mGWrYKDzG8MP3yspzZEbjL
+        status: active
+        display_name: 王湘嬃
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -136,8 +174,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_jHw1ZP6CKrMSaDwjpFt5do | 王湘娥 | accepted |
+| children | p_mGWrYKDzG8MP3yspzZEbjL | 王湘嬃 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王果（CBDB 121025）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121025&o=json)
 - [中国历代人物传记资料库：王湘娥（CBDB 121031）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121031&o=json)
+- [中国历代人物传记资料库：王湘嬃（CBDB 121021）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121021&o=json)

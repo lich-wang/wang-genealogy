@@ -4,7 +4,7 @@ id: p_YPLFCFq4wshZxcCaGTvWhA
 status: active
 merged_into: null
 display_name: 王常
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,44 @@ relationships:
         status: active
         display_name: 王思敬
         merged_into_person_id: null
+    - claim:
+        id: c_DV3-eHYRE9OsTshSyNEKPI
+        subject_person_id: p_LXVSMfmUiLLAkLsMQXrEbf
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_YPLFCFq4wshZxcCaGTvWhA
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VNVV0X_lps17dcOTaHVsEV
+          claim_id: c_DV3-eHYRE9OsTshSyNEKPI
+          source_id: s_NJYFnv81qQpFAYvPP3f3BJ
+          stance: supports
+          locator: 正統十三年進士登科錄:一卷，第二甲第十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_NJYFnv81qQpFAYvPP3f3BJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王隱卿（CBDB 240367）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240367&o=json
+            external_identifier: CBDB:240367
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:59.761Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_LXVSMfmUiLLAkLsMQXrEbf
+        status: active
+        display_name: 王隱卿
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_C5Fmj2W6LjNNLVnMBPi6k6 | 王汝為 | accepted |
 | ancestors | p_GP3BzV5HnSBguScGwgcJbu | 王思敬 | accepted |
+| ancestors | p_LXVSMfmUiLLAkLsMQXrEbf | 王隱卿 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王常（CBDB 208095）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208095&o=json)
 - [中国历代人物传记资料库：王汝為（CBDB 240369）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240369&o=json)
 - [中国历代人物传记资料库：王思敬（CBDB 240368）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240368&o=json)
+- [中国历代人物传记资料库：王隱卿（CBDB 240367）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240367&o=json)

@@ -4,7 +4,7 @@ id: p_JL51TddY85M5VjjQdk9Dbd
 status: active
 merged_into: null
 display_name: 王衡
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -152,6 +152,44 @@ relationships:
         status: active
         display_name: 王貴
         merged_into_person_id: null
+    - claim:
+        id: c_hwb9VjhFiye2CO9ZQoL-A6
+        subject_person_id: p_mxMEcjfeSZUgdtaXm76A75
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_JL51TddY85M5VjjQdk9Dbd
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qiJPlaCQCaWpSDk2jccJEN
+          claim_id: c_hwb9VjhFiye2CO9ZQoL-A6
+          source_id: s_Z7EwEAkDLAH13ZFu9nr6Q2
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第一百五十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Z7EwEAkDLAH13ZFu9nr6Q2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禮道（CBDB 217159）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217159&o=json
+            external_identifier: CBDB:217159
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:56.502Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_mxMEcjfeSZUgdtaXm76A75
+        status: active
+        display_name: 王禮道
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -173,9 +211,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_12DEVgMDKmXWxrfKEnUPE7 | 王琅 | accepted |
 | ancestors | p_gw3KieyBR7NUwBKxqS6EP8 | 王貴 | accepted |
+| ancestors | p_mxMEcjfeSZUgdtaXm76A75 | 王禮道 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王貴（CBDB 217170）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217170&o=json)
 - [中国历代人物传记资料库：王衡（CBDB 124006）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=124006&o=json)
 - [中国历代人物传记资料库：王琅（CBDB 217181）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217181&o=json)
+- [中国历代人物传记资料库：王禮道（CBDB 217159）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217159&o=json)

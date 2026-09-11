@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王忠立
 cbdb_id: 37791
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:37791
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_DzLjBnKnCWDYYK7tQM8DCx
             source_type: api_record
             title: 中国历代人物传记资料库：王忠立（CBDB 37791）
@@ -166,7 +166,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_NpjESgB_L-cvpfUAf1gMH4
+        subject_person_id: p_jzoHdkm3G8KBKVV3oWtFDE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_vfZA8CNHYRGPvaenX91t3P
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zWTL1YkUU6SmSRfKG6Ivp-
+          claim_id: c_NpjESgB_L-cvpfUAf1gMH4
+          source_id: s_DzLjBnKnCWDYYK7tQM8DCx
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1192;1195：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vfZA8CNHYRGPvaenX91t3P
+        status: active
+        display_name: 王德
+        merged_into_person_id: null
   other: []
 ---
 
@@ -187,6 +213,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_HqotrCmsQrKUu6nT3a74CK | 王永 | accepted |
 | children | p_9zMW97J7BAC3TDNz5VbWCT | 王達 | accepted |
+| descendants | p_vfZA8CNHYRGPvaenX91t3P | 王德 | accepted |
 
 ## 外部来源
 

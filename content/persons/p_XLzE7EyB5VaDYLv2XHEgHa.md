@@ -4,7 +4,7 @@ id: p_XLzE7EyB5VaDYLv2XHEgHa
 status: active
 merged_into: null
 display_name: 王佐
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -255,6 +255,43 @@ relationships:
         status: active
         display_name: 王棋
         merged_into_person_id: null
+    - claim:
+        id: c_VgHYqcBvOY0ilVgBZfaeH6
+        subject_person_id: p_LhDftPTdBSJ1CGALBq6bm6
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_XLzE7EyB5VaDYLv2XHEgHa
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j8AZhR0yDWqTPw5_h_LeCW
+          claim_id: c_VgHYqcBvOY0ilVgBZfaeH6
+          source_id: s_4YQ9r3CVSoUk3P8YrMEEJd
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第二甲第十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4YQ9r3CVSoUk3P8YrMEEJd
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王銘（222284）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222284&o=json
+            external_identifier: CBDB:222284
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:59.059Z
+            metadata_json: null
+      object_person:
+        id: p_LhDftPTdBSJ1CGALBq6bm6
+        status: active
+        display_name: 王铭
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -279,11 +316,13 @@ relationships:
 | children | p_FgnH5Tex3eEM8HgEHgSdm9 | 王道貞 | accepted |
 | spouses | p_1j4ypMFN2MQYt4wr2fiPkA | 张氏 | accepted |
 | ancestors | p_onvVrjmfvkdjFcgNLVKCma | 王棋 | accepted |
+| ancestors | p_LhDftPTdBSJ1CGALBq6bm6 | 王铭 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王道貞（CBDB 524359）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=524359&o=json)
 - [中国历代人物传记资料库：王佐（CBDB 67281）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67281&o=json)
 - [CBDB 中国历代人物传记资料库：王鸞（222285）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222285&o=json)
+- [CBDB 中国历代人物传记资料库：王銘（222284）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222284&o=json)
 - [CBDB 中国历代人物传记资料库：王棋（222283）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222283&o=json)
 - [CBDB 中国历代人物传记资料库：張氏（222288）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222288&o=json)

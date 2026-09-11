@@ -4,7 +4,7 @@ id: p_Ca3HVLeA27vo1Jq5CxZ5ag
 status: active
 merged_into: null
 display_name: 王繼先
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -204,6 +204,44 @@ relationships:
         status: active
         display_name: 王守道
         merged_into_person_id: null
+    - claim:
+        id: c_4RDtEAchVPQuRuJraoPE6J
+        subject_person_id: p_Ca3HVLeA27vo1Jq5CxZ5ag
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_L3pQ6oY4DCaGrGPCP5mYmq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_obN2kR6WP0O7ZyGG67AgwP
+          claim_id: c_4RDtEAchVPQuRuJraoPE6J
+          source_id: s_vWooyweuNmCcWqKPFLiAJQ
+          stance: supports
+          locator: 宋史：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_vWooyweuNmCcWqKPFLiAJQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王悅道（CBDB 119733）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119733&o=json
+            external_identifier: CBDB:119733
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:51.102Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_L3pQ6oY4DCaGrGPCP5mYmq
+        status: active
+        display_name: 王悅道
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -231,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_9EmE8HnUzDNEFtwVVXAMQB | 王安道 | accepted |
 | children | p_o6NJCbdVfAes5uyoP8PCfZ | 王守道 | accepted |
+| children | p_L3pQ6oY4DCaGrGPCP5mYmq | 王悅道 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王安道（CBDB 119742）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119742&o=json)
 - [中国历代人物传记资料库：王繼先（CBDB 38418）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38418&o=json)
 - [中国历代人物传记资料库：王守道（CBDB 119743）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119743&o=json)
+- [中国历代人物传记资料库：王悅道（CBDB 119733）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119733&o=json)

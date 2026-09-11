@@ -4,7 +4,7 @@ id: p_uxPkZUqsvSYKoUuB2wuXGH
 status: active
 merged_into: null
 display_name: 王鐶
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,45 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_58--UJQ2dUSsUkQDOeq2-z
+        subject_person_id: p_mFjnSDjQyLtEFJz89osNQM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_uxPkZUqsvSYKoUuB2wuXGH
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qiTRo1Tod-VgBsA6Dah3Ak
+          claim_id: c_58--UJQ2dUSsUkQDOeq2-z
+          source_id: s_pRJzwknxkLQG6L3DRfYtt1
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第一百九十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_pRJzwknxkLQG6L3DRfYtt1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王思江（CBDB 260516）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260516&o=json
+            external_identifier: CBDB:260516
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:00.581Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_mFjnSDjQyLtEFJz89osNQM
+        status: active
+        display_name: 王思江
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +202,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_rFTZAq6ze35imaHPVmA96A | 王公權 | accepted |
+| ancestors | p_mFjnSDjQyLtEFJz89osNQM | 王思江 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王公權（CBDB 260517）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260517&o=json)
 - [中国历代人物传记资料库：王鐶（CBDB 200621）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200621&o=json)
+- [中国历代人物传记资料库：王思江（CBDB 260516）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260516&o=json)

@@ -4,7 +4,7 @@ id: p_DhXJg1QUSd5Fvqo5eHzd45
 status: active
 merged_into: null
 display_name: 王宇
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_izKiuPL40dgywPDd9sMR5W
+        subject_person_id: p_kmpABikpWftaJACcFD3yJ1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DhXJg1QUSd5Fvqo5eHzd45
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ohSU0hJbjf1lFLZE9JKQmL
+          claim_id: c_izKiuPL40dgywPDd9sMR5W
+          source_id: s_vkd7AEwfWrQDLC88pSas2j
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第三十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_vkd7AEwfWrQDLC88pSas2j
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繼德（CBDB 327528）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327528&o=json
+            external_identifier: CBDB:327528
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:06.922Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_kmpABikpWftaJACcFD3yJ1
+        status: active
+        display_name: 王繼德
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +238,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_kmpABikpWftaJACcFD3yJ1 | 王繼德 | accepted |
 | ancestors | p_5479G2XFAVCuDDDRS2B8rJ | 王俊 | accepted |
 | ancestors | p_BaCEpLmBh9gdSdwyoef2DV | 王文 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王繼德（CBDB 327528）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327528&o=json)
 - [中国历代人物传记资料库：王俊（CBDB 327526）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327526&o=json)
 - [中国历代人物传记资料库：王文（CBDB 327527）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327527&o=json)
 - [中国历代人物传记资料库：王宇（CBDB 205042）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205042&o=json)

@@ -4,7 +4,7 @@ id: p_NQEG3VEtv6G5kdckYDLpGN
 status: active
 merged_into: null
 display_name: 王之渙
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -244,7 +244,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_iwn1RR2K75JATGlH8mNw2b
+        subject_person_id: p_N6bQh9pnDkScrvHDXa2Wts
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_NQEG3VEtv6G5kdckYDLpGN
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_28hMSOZLuoiHGLJ_f9vHuu
+          claim_id: c_iwn1RR2K75JATGlH8mNw2b
+          source_id: s_t12j9uut9cE85A2EB1mrNy
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 28：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_t12j9uut9cE85A2EB1mrNy
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王信（150135）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150135&o=json
+            external_identifier: CBDB:150135
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:10:15.257Z
+            metadata_json: null
+      object_person:
+        id: p_N6bQh9pnDkScrvHDXa2Wts
+        status: active
+        display_name: 王信
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -269,6 +306,7 @@ relationships:
 | parents | p_H1kxsA34h16JyK7Sd8Hoip | 王昱 | accepted |
 | children | p_74AVJogdybebtFT6DXvEhJ | 王羽 | accepted |
 | children | p_wbHeRmUVNL1hW3DAPaSxH5 | 王炎 | accepted |
+| ancestors | p_N6bQh9pnDkScrvHDXa2Wts | 王信 | accepted |
 
 ## 外部来源
 
@@ -276,3 +314,4 @@ relationships:
 - [中国历代人物传记资料库：王羽（CBDB 153367）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153367&o=json)
 - [中国历代人物传记资料库：王昱（CBDB 153365）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153365&o=json)
 - [中国历代人物传记资料库：王之渙（CBDB 91975）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=91975&o=json)
+- [CBDB 中国历代人物传记资料库：王信（150135）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150135&o=json)

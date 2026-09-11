@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王以銜
 cbdb_id: 69103
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -178,7 +178,45 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_sjO54CUAtgAif2qn4f5Ezw
+        subject_person_id: p_LFgZ3CGAxkGiYoYL8yH9TP
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_kKBU67KW3DWC3GgsXJTwPQ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SnuVRlD262ZUJS7_TJpZgF
+          claim_id: c_sjO54CUAtgAif2qn4f5Ezw
+          source_id: s_4Ls4Kmx3x4QqojNFABJxVp
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12801：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4Ls4Kmx3x4QqojNFABJxVp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王志楓（CBDB 526695）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526695&o=json
+            external_identifier: CBDB:526695
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:18.829Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_kKBU67KW3DWC3GgsXJTwPQ
+        status: active
+        display_name: 王志楓
+        merged_into_person_id: null
   other: []
 ---
 
@@ -199,7 +237,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_kKBU67KW3DWC3GgsXJTwPQ | 王志楓 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王以銜（CBDB 69103）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69103&o=json)
+- [中国历代人物传记资料库：王志楓（CBDB 526695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526695&o=json)

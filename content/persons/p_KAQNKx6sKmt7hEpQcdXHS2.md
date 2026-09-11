@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王簡能
 cbdb_id: 157705
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:157705
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_LogN1TGrQ1GK2oyJbAP1QC
             source_type: api_record
             title: 中国历代人物传记资料库：王簡能（CBDB 157705）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_gCxU6c1PGstLDbuw4kgWKN
+        subject_person_id: p_WC2JBqdBvry1DrN3B8Rwf7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KAQNKx6sKmt7hEpQcdXHS2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KZa8k1TG5Cws55yFoGkJ1e
+          claim_id: c_gCxU6c1PGstLDbuw4kgWKN
+          source_id: s_LogN1TGrQ1GK2oyJbAP1QC
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dahe 26：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_WC2JBqdBvry1DrN3B8Rwf7
+        status: active
+        display_name: 王逖
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WC2JBqdBvry1DrN3B8Rwf7 | 王逖 | accepted |
 
 ## 外部来源
 

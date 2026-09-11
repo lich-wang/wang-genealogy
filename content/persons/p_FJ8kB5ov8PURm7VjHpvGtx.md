@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王自超
 cbdb_id: 71587
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -214,7 +214,45 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_Wkbq5CK5t_ZA09GmusCkQt
+        subject_person_id: p_kF2uBhCu8BFeymL42FWUdW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_FJ8kB5ov8PURm7VjHpvGtx
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Xsl3W3ooKH9_FBLlWcuLTU
+          claim_id: c_Wkbq5CK5t_ZA09GmusCkQt
+          source_id: s_RJ6WcEF4mMY5Jdkx3A7BNX
+          stance: supports
+          locator: 紹興府志:八十卷，Igid=316285：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_RJ6WcEF4mMY5Jdkx3A7BNX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王舜鼎（CBDB 342107）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=342107&o=json
+            external_identifier: CBDB:342107
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:10.160Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_kF2uBhCu8BFeymL42FWUdW
+        status: active
+        display_name: 王舜鼎
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -237,8 +275,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_aTm4JhEeSSom8FhiPPYik7 | 王亹 | accepted |
+| ancestors | p_kF2uBhCu8BFeymL42FWUdW | 王舜鼎 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王舜鼎（CBDB 342107）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=342107&o=json)
 - [中国历代人物传记资料库：王亹（CBDB 556624）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=556624&o=json)
 - [中国历代人物传记资料库：王自超（CBDB 71587）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71587&o=json)

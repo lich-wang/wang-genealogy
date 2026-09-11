@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王嘉柔
 cbdb_id: 205854
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -210,6 +210,44 @@ relationships:
         status: active
         display_name: 王道
         merged_into_person_id: null
+    - claim:
+        id: c_Z1Wl5sZGjclQGxBB0JGFe3
+        subject_person_id: p_KqcphAEnogCKRbv8TNBY9D
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Eo3x5BVMmizyxxEaJmawa5
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_H1GJxU-96CT5OTFE_Z2lZb
+          claim_id: c_Z1Wl5sZGjclQGxBB0JGFe3
+          source_id: s_y4ecSDKCyeu9kV4WPKWWTc
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第八十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_y4ecSDKCyeu9kV4WPKWWTc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王峘（CBDB 209784）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209784&o=json
+            external_identifier: CBDB:209784
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:55.593Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_KqcphAEnogCKRbv8TNBY9D
+        status: active
+        display_name: 王峘
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -232,9 +270,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_1VkGu8uv668PXiV6BFFStb | 王漟 | accepted |
 | ancestors | p_tLcb48Ag5AxJAgsh7zfPuD | 王道 | accepted |
+| ancestors | p_KqcphAEnogCKRbv8TNBY9D | 王峘 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王道（CBDB 209783）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209783&o=json)
+- [中国历代人物传记资料库：王峘（CBDB 209784）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209784&o=json)
 - [中国历代人物传记资料库：王嘉柔（CBDB 205854）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205854&o=json)
 - [中国历代人物传记资料库：王漟（CBDB 209785）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209785&o=json)

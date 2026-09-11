@@ -4,7 +4,7 @@ id: p_SbS7EDk9cP5WPJaxzN9VFv
 status: active
 merged_into: null
 display_name: 王著
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,45 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_RkdHo_L6N_TUpd1t2JW9M7
+        subject_person_id: p_SbS7EDk9cP5WPJaxzN9VFv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JsftmCutiY1jUzBJV78ksL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nH_XSdsKaSS25Avl-61pDz
+          claim_id: c_RkdHo_L6N_TUpd1t2JW9M7
+          source_id: s_eFhswNdB17TrNVr5kjFWB7
+          stance: supports
+          locator: 宋史：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_eFhswNdB17TrNVr5kjFWB7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嗣復（CBDB 119746）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119746&o=json
+            external_identifier: CBDB:119746
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:51.722Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_JsftmCutiY1jUzBJV78ksL
+        status: active
+        display_name: 王嗣復
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -163,9 +201,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_JsftmCutiY1jUzBJV78ksL | 王嗣復 | accepted |
 | ancestors | p_8NZNv7f7tQow6sK17omZEp | 王賁 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王賁（CBDB 38805）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38805&o=json)
+- [中国历代人物传记资料库：王嗣復（CBDB 119746）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119746&o=json)
 - [中国历代人物传记资料库：王著（CBDB 38965）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38965&o=json)

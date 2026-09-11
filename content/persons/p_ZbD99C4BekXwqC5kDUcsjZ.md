@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王必达
 cbdb_id: 69135
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -253,6 +253,44 @@ relationships:
         status: active
         display_name: 王誠立
         merged_into_person_id: null
+    - claim:
+        id: c_DkXOTMOW7f6P0oY75FJqio
+        subject_person_id: p_kRPN2xt1MreSurta52z3PH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZbD99C4BekXwqC5kDUcsjZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mTq253QaoGJQFAgOKWOX1g
+          claim_id: c_DkXOTMOW7f6P0oY75FJqio
+          source_id: s_MxKLcwwGMmgMm1Y5KEe8Ld
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12833：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MxKLcwwGMmgMm1Y5KEe8Ld
+            source_type: api_record
+            title: 中国历代人物传记资料库：王誠立（CBDB 526715）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526715&o=json
+            external_identifier: CBDB:526715
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:18.829Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_kRPN2xt1MreSurta52z3PH
+        status: active
+        display_name: 王誠立
+        merged_into_person_id: null
   children:
     - claim:
         id: c_vjJmi5185yevrypuKQsbC2
@@ -439,6 +477,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_kRPN2xt1MreSurta52z3PH | 王誠立 | accepted |
 | parents | p_kRPN2xt1MreSurta52z3PH | 王誠立 | accepted |
 | children | p_qWH96bdUhnLQK216UEEajc | 王鹏运 | accepted |
 | children | p_iFTHomc2Wt9CNV2GS5Hguz | 王維豫 | accepted |

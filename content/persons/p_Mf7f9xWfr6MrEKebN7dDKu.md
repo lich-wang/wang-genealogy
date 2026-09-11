@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王式曾
 cbdb_id: 513575
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:513575
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_8BQyf2cJR7w7WZEm17SNfg
             source_type: api_record
             title: 中国历代人物传记资料库：王式曾（CBDB 513575）
@@ -91,7 +91,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_CBeM20kI704ctS4lOeRkQc
+        subject_person_id: p_tebqY22pd9wZzkQFGZaaDe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Mf7f9xWfr6MrEKebN7dDKu
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QCn0JoeRvW7j50fxrKD9vU
+          claim_id: c_CBeM20kI704ctS4lOeRkQc
+          source_id: s_8BQyf2cJR7w7WZEm17SNfg
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），71：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_tebqY22pd9wZzkQFGZaaDe
+        status: active
+        display_name: 王熙
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_tebqY22pd9wZzkQFGZaaDe | 王熙 | accepted |
 
 ## 外部来源
 

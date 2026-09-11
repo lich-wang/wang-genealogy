@@ -4,7 +4,7 @@ id: p_ftZ1PRscrPmBh4Qh3AiyfY
 status: active
 merged_into: null
 display_name: 王思任
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -230,6 +230,43 @@ relationships:
         status: active
         display_name: 王岳起
         merged_into_person_id: null
+    - claim:
+        id: c_f_v0Vm0SteIqDfNTpfop44
+        subject_person_id: p_ftZ1PRscrPmBh4Qh3AiyfY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_K3V5746zGx9VVTC42VpP31
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iknXNGRe2OBxI8AhP2_tes
+          claim_id: c_f_v0Vm0SteIqDfNTpfop44
+          source_id: s_HFWp7igmPi2rYKAePKgRuC
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #684, HuWenKai #255：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_HFWp7igmPi2rYKAePKgRuC
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王靜淑（55730）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55730&o=json
+            external_identifier: CBDB:55730
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:10.921Z
+            metadata_json: null
+      object_person:
+        id: p_K3V5746zGx9VVTC42VpP31
+        status: active
+        display_name: 王静淑
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -295,6 +332,7 @@ relationships:
 | children | p_9Pusq65KpMmMVKf8JdS8fy | 王端淑 | accepted |
 | children | p_DqeZRrh1AHPNm4EUNSCfwn | 王玉映 | accepted |
 | children | p_mXELR8x6DfcQqAZ9zCdekg | 王岳起 | accepted |
+| children | p_K3V5746zGx9VVTC42VpP31 | 王静淑 | accepted |
 | descendants | p_9nMQd6ceMAGfnhGs6TTb7s | 王袞錫 | accepted |
 
 ## 外部来源
@@ -303,3 +341,4 @@ relationships:
 - [中国历代人物传记资料库：王袞錫（CBDB 556726）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=556726&o=json)
 - [中国历代人物传记资料库：王思任（CBDB 71875）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71875&o=json)
 - [中国历代人物传记资料库：王玉映（CBDB 570150）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570150&o=json)
+- [CBDB 中国历代人物传记资料库：王靜淑（55730）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55730&o=json)

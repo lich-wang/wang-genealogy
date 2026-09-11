@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王娙
 cbdb_id: 134849
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:134849
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_jWKCCMtaeomBLrRN1MuieC
             source_type: api_record
             title: 中国历代人物传记资料库：王娙（CBDB 134849）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_IweYNdieBpXe-Ee0pT9fpg
+        subject_person_id: p_2qPS6547Y8EHmCpuJ52roe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MuBDBkHv9HCTN2p95387f6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ne7woVFc12W6Tnt94a3NaU
+          claim_id: c_IweYNdieBpXe-Ee0pT9fpg
+          source_id: s_jWKCCMtaeomBLrRN1MuieC
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #5504：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_2qPS6547Y8EHmCpuJ52roe
+        status: active
+        display_name: 王雪窗
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_2qPS6547Y8EHmCpuJ52roe | 王雪窗 | accepted |
 
 ## 外部来源
 

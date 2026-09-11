@@ -4,7 +4,7 @@ id: p_JhT8MPbcy6fqyD8xKqm8c7
 status: active
 merged_into: null
 display_name: 王奎
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -181,6 +181,44 @@ relationships:
         status: active
         display_name: 王思惠
         merged_into_person_id: null
+    - claim:
+        id: c_E2TMULANxk71TJry5dFxYj
+        subject_person_id: p_MapFCRSj4F74rQYp7uGbuB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_JhT8MPbcy6fqyD8xKqm8c7
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Bs8_Y757uiFcAtMDfjTkPP
+          claim_id: c_E2TMULANxk71TJry5dFxYj
+          source_id: s_5T5M1oyFcvp1AzkC7h7kez
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5T5M1oyFcvp1AzkC7h7kez
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仲超（CBDB 261839）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261839&o=json
+            external_identifier: CBDB:261839
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:01.428Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_MapFCRSj4F74rQYp7uGbuB
+        status: active
+        display_name: 王仲超
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -203,9 +241,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_g6tTV8xspEG83C3EPVzpm7 | 王乾溥 | accepted |
 | ancestors | p_g8XCS3Mm7vNB6WdvCP6osQ | 王思惠 | accepted |
+| ancestors | p_MapFCRSj4F74rQYp7uGbuB | 王仲超 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王奎（CBDB 200714）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200714&o=json)
 - [中国历代人物传记资料库：王乾溥（CBDB 261841）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261841&o=json)
 - [中国历代人物传记资料库：王思惠（CBDB 261840）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261840&o=json)
+- [中国历代人物传记资料库：王仲超（CBDB 261839）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261839&o=json)

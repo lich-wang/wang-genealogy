@@ -4,7 +4,7 @@ id: p_WJHP8YxtLrW6oyDrhKZ1wB
 status: active
 merged_into: null
 display_name: 王化基
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -205,6 +205,44 @@ relationships:
         status: active
         display_name: 王舉正
         merged_into_person_id: null
+    - claim:
+        id: c_KDhnk0ZBOsX8orQr4seCKC
+        subject_person_id: p_WJHP8YxtLrW6oyDrhKZ1wB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LvEkX5XrjM8SRGb4HxWdgi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ePr4KTBn6hMpbk60OCFFA1
+          claim_id: c_KDhnk0ZBOsX8orQr4seCKC
+          source_id: s_rLKPGJvNj3TGrSyQivnWG4
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1473;1476：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_rLKPGJvNj3TGrSyQivnWG4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王舉直（CBDB 38343）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38343&o=json
+            external_identifier: CBDB:38343
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:46.515Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_LvEkX5XrjM8SRGb4HxWdgi
+        status: active
+        display_name: 王舉直
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -232,9 +270,11 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_6jWTrg7djTw3fzrLbyNy1m | 王舉善 | accepted |
 | children | p_6qFqzHC21Z9f8VhXAcZ1P4 | 王舉正 | accepted |
+| children | p_LvEkX5XrjM8SRGb4HxWdgi | 王舉直 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王化基（CBDB 8150）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8150&o=json)
 - [中国历代人物传记资料库：王舉善（CBDB 3945）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3945&o=json)
 - [中国历代人物传记资料库：王舉正（CBDB 8145）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8145&o=json)
+- [中国历代人物传记资料库：王舉直（CBDB 38343）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38343&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王舍宗
 cbdb_id: 265527
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:265527
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_jLjjw6ep6SRP3pGqFNZZs6
             source_type: api_record
             title: 中国历代人物传记资料库：王舍宗（CBDB 265527）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_vgksFmgEaQY8bLNp0f0fxj
+        subject_person_id: p_K7SU9AP7GmKVZSjKE1oq1N
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_NMRFUBeVmvdX6z58cRugYK
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hy8cSiBEmLrWFx37gLmfyD
+          claim_id: c_vgksFmgEaQY8bLNp0f0fxj
+          source_id: s_jLjjw6ep6SRP3pGqFNZZs6
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第八十一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NMRFUBeVmvdX6z58cRugYK
+        status: active
+        display_name: 王弘
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_NMRFUBeVmvdX6z58cRugYK | 王弘 | accepted |
 
 ## 外部来源
 

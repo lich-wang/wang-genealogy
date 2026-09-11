@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王表
 cbdb_id: 153364
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -181,6 +181,43 @@ relationships:
             external_identifier: Q45587008
             license_code: CC0-1.0
             accessed_at: 2026-09-05T00:38:02.679Z
+            metadata_json: null
+      object_person:
+        id: p_N6bQh9pnDkScrvHDXa2Wts
+        status: active
+        display_name: 王信
+        merged_into_person_id: null
+    - claim:
+        id: c_EclMmHdDaQrX13vYWWHaDA
+        subject_person_id: p_N6bQh9pnDkScrvHDXa2Wts
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2QzaHREwKpSyXNbQkJ4Bk3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uE2X-lbc4FB4NWDsgjsyLQ
+          claim_id: c_EclMmHdDaQrX13vYWWHaDA
+          source_id: s_t12j9uut9cE85A2EB1mrNy
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_t12j9uut9cE85A2EB1mrNy
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王信（150135）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150135&o=json
+            external_identifier: CBDB:150135
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:10:15.257Z
             metadata_json: null
       object_person:
         id: p_N6bQh9pnDkScrvHDXa2Wts
@@ -379,6 +416,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_N6bQh9pnDkScrvHDXa2Wts | 王信 | accepted |
 | parents | p_N6bQh9pnDkScrvHDXa2Wts | 王信 | accepted |
 | children | p_MHnJiH3KT72B1d43pNjdsL | 王昱 | accepted |
 | children | p_E9ytpKcjGYRd1XZGve34gy | 王景 | accepted |

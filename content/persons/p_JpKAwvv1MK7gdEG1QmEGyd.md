@@ -4,7 +4,7 @@ id: p_JpKAwvv1MK7gdEG1QmEGyd
 status: active
 merged_into: null
 display_name: 王湘
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_LbTEPakxaCGsayPS9gHkV1
+        subject_person_id: p_LfFs8i9gooDeZuUy7XnMeR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JpKAwvv1MK7gdEG1QmEGyd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kLpGodz4J8xsO3OjhH6wsX
+          claim_id: c_LbTEPakxaCGsayPS9gHkV1
+          source_id: s_zQVBAQp3QWGGLFmJ8TEPbA
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第二百三十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_zQVBAQp3QWGGLFmJ8TEPbA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三至（CBDB 211374）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211374&o=json
+            external_identifier: CBDB:211374
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:55.593Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_LfFs8i9gooDeZuUy7XnMeR
+        status: active
+        display_name: 王三至
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +238,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_LfFs8i9gooDeZuUy7XnMeR | 王三至 | accepted |
 | ancestors | p_2VzKy4YwQz7AyQLgZ3PwP8 | 王集 | accepted |
 | ancestors | p_oDyYQMWWKHbk5i3EWe5MJK | 王輔 | accepted |
 
@@ -207,4 +246,5 @@ relationships:
 
 - [中国历代人物传记资料库：王輔（CBDB 211373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211373&o=json)
 - [中国历代人物传记资料库：王集（CBDB 211372）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211372&o=json)
+- [中国历代人物传记资料库：王三至（CBDB 211374）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211374&o=json)
 - [中国历代人物传记资料库：王湘（CBDB 205964）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205964&o=json)

@@ -4,7 +4,7 @@ id: p_5RJmgKA1SKHVMCFoAzk8Ch
 status: active
 merged_into: null
 display_name: 王納言
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -152,6 +152,44 @@ relationships:
         status: active
         display_name: 王瑜
         merged_into_person_id: null
+    - claim:
+        id: c_u_WhDyX1dLcV3itPfwA1Ol
+        subject_person_id: p_MHFMLg9XBL92vDxr2BeKpg
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_5RJmgKA1SKHVMCFoAzk8Ch
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_G8v8c9QO76DazORjhKqTmN
+          claim_id: c_u_WhDyX1dLcV3itPfwA1Ol
+          source_id: s_GCy6Ym45x7EPHfb8XyFrf3
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第五十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GCy6Ym45x7EPHfb8XyFrf3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王守敬（CBDB 281211）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281211&o=json
+            external_identifier: CBDB:281211
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:02.953Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_MHFMLg9XBL92vDxr2BeKpg
+        status: active
+        display_name: 王守敬
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -173,9 +211,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_Hx9Ukkpxmi3iZhqXQH36DB | 王隆 | accepted |
 | ancestors | p_4sb9wxGED3WQ2wGXi8FqHp | 王瑜 | accepted |
+| ancestors | p_MHFMLg9XBL92vDxr2BeKpg | 王守敬 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王隆（CBDB 281213）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281213&o=json)
 - [中国历代人物传记资料库：王納言（CBDB 126659）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126659&o=json)
+- [中国历代人物传记资料库：王守敬（CBDB 281211）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281211&o=json)
 - [中国历代人物传记资料库：王瑜（CBDB 281212）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281212&o=json)

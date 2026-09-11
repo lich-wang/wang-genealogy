@@ -4,7 +4,7 @@ id: p_yfs4AMpkp3NQmpWdTLnP5v
 status: active
 merged_into: null
 display_name: 王豎
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,45 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_1NraDKIinbtehgNP6zfsqw
+        subject_person_id: p_kJwuC7eG7QHYw312mUGBuA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_yfs4AMpkp3NQmpWdTLnP5v
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q19JuCI22yfY2hcmETb8vX
+          claim_id: c_1NraDKIinbtehgNP6zfsqw
+          source_id: s_sEBhW68TsLPqVtHvXc77V4
+          stance: supports
+          locator: 天順元年進士登科錄:一卷，第三甲第九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_sEBhW68TsLPqVtHvXc77V4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王福善（CBDB 291652）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291652&o=json
+            external_identifier: CBDB:291652
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:03.722Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_kJwuC7eG7QHYw312mUGBuA
+        status: active
+        display_name: 王福善
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +202,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_HrLVrZ6v865GiJPseaqUKx | 王子中 | accepted |
+| ancestors | p_kJwuC7eG7QHYw312mUGBuA | 王福善 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王福善（CBDB 291652）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291652&o=json)
 - [中国历代人物传记资料库：王豎（CBDB 198592）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198592&o=json)
 - [中国历代人物传记资料库：王子中（CBDB 291663）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291663&o=json)

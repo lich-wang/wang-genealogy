@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王恩綬
 cbdb_id: 69327
-revision: 5
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -521,6 +521,44 @@ relationships:
         status: active
         display_name: 王鏡煜
         merged_into_person_id: null
+    - claim:
+        id: c_mT5LLYApl6g5iBqkHmZYaE
+        subject_person_id: p_2y1eP1nsjw8ciu9GjNsB8J
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_MB43FiRJiVc8tKimxFGerU
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_m5KkY9CZ8LnRX6HouKflS9
+          claim_id: c_mT5LLYApl6g5iBqkHmZYaE
+          source_id: s_Vs4Bmy8Py7AwHLQU1X7QLx
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13031：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Vs4Bmy8Py7AwHLQU1X7QLx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鏡涵（CBDB 526846）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526846&o=json
+            external_identifier: CBDB:526846
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:18.829Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_MB43FiRJiVc8tKimxFGerU
+        status: active
+        display_name: 王鏡涵
+        merged_into_person_id: null
   other: []
 ---
 
@@ -550,6 +588,7 @@ relationships:
 | descendants | p_1nfJqagcvUJ1YUw4314f5h | 王鏡蓉 | accepted |
 | descendants | p_BEW5rWi4QNcAkVZCqQEsFa | 王鏡熙 | accepted |
 | descendants | p_cdT9uSxMHD1CPUjpQz3AW1 | 王鏡煜 | accepted |
+| descendants | p_MB43FiRJiVc8tKimxFGerU | 王鏡涵 | accepted |
 
 ## 外部来源
 
@@ -559,6 +598,7 @@ relationships:
 - [中国历代人物传记资料库：王賡陛（CBDB 526845）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526845&o=json)
 - [中国历代人物传记资料库：王紀庸（CBDB 526841）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526841&o=json)
 - [中国历代人物传记资料库：王家錦（CBDB 526842）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526842&o=json)
+- [中国历代人物传记资料库：王鏡涵（CBDB 526846）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526846&o=json)
 - [中国历代人物传记资料库：王鏡蓉（CBDB 526849）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526849&o=json)
 - [中国历代人物传记资料库：王鏡熙（CBDB 526848）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526848&o=json)
 - [中国历代人物传记资料库：王鏡煜（CBDB 526847）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526847&o=json)

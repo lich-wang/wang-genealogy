@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王士鏡
 cbdb_id: 517394
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,45 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Bo0tAbdx38ijfkQJWqoBr-
+        subject_person_id: p_v5Be2QPiA238LSM91E6roL
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_moE7rJDFp2R9Aac3W4FxPZ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jI0gG8_YzIdfUoZUuCDONN
+          claim_id: c_Bo0tAbdx38ijfkQJWqoBr-
+          source_id: s_NUj526A7RkfPNCRdD3geau
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1863：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_NUj526A7RkfPNCRdD3geau
+            source_type: api_record
+            title: 中国历代人物传记资料库：王友亮（CBDB 58603）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=58603&o=json
+            external_identifier: CBDB:58603
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:05.401Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_moE7rJDFp2R9Aac3W4FxPZ
+        status: active
+        display_name: 王友亮
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +149,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_moE7rJDFp2R9Aac3W4FxPZ | 王友亮 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王士鏡（CBDB 517394）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=517394&o=json)
+- [中国历代人物传记资料库：王友亮（CBDB 58603）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=58603&o=json)

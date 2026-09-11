@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王九寧
 cbdb_id: 271244
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:271244
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_D5oEHoK84Hx84LhGQvL3V8
             source_type: api_record
             title: 中国历代人物传记资料库：王九寧（CBDB 271244）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_sQh5j30-ioMkLAZf9v51Rm
+        subject_person_id: p_K55LvWgVMjnD8qfjKuA7Rr
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_U9mkTVdbhdN8j3G86uAN6S
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VffzePujHQo6AophRu1oKa
+          claim_id: c_sQh5j30-ioMkLAZf9v51Rm
+          source_id: s_D5oEHoK84Hx84LhGQvL3V8
+          stance: supports
+          locator: 弘治十五年進士登科錄:一卷，第三甲第五十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_U9mkTVdbhdN8j3G86uAN6S
+        status: active
+        display_name: 王注
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_U9mkTVdbhdN8j3G86uAN6S | 王注 | accepted |
 
 ## 外部来源
 

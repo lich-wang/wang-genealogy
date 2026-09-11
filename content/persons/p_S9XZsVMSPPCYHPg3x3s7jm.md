@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王彥奇
 cbdb_id: 126594
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -166,6 +166,44 @@ relationships:
         status: active
         display_name: 王文秀
         merged_into_person_id: null
+    - claim:
+        id: c_L8c3QA3vt5b6K0CfxAN1Bc
+        subject_person_id: p_MBrPDvYR34aq1wQnSM6vm3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_S9XZsVMSPPCYHPg3x3s7jm
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4jf2Be_8JXx8rjcvpQJdRL
+          claim_id: c_L8c3QA3vt5b6K0CfxAN1Bc
+          source_id: s_Pu3hwbRB8d9afw7MPV3Jw8
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第二甲第七十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Pu3hwbRB8d9afw7MPV3Jw8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王才傑（CBDB 261596）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261596&o=json
+            external_identifier: CBDB:261596
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:00.581Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_MBrPDvYR34aq1wQnSM6vm3
+        status: active
+        display_name: 王才傑
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -187,9 +225,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_ZqnLzRT9XT7NL5ciADvB8h | 王景先 | accepted |
 | ancestors | p_ozM2Qob3tqkhCmBB9dE9CR | 王文秀 | accepted |
+| ancestors | p_MBrPDvYR34aq1wQnSM6vm3 | 王才傑 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王才傑（CBDB 261596）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261596&o=json)
 - [中国历代人物传记资料库：王景先（CBDB 261598）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261598&o=json)
 - [中国历代人物传记资料库：王文秀（CBDB 261597）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261597&o=json)
 - [中国历代人物传记资料库：王彥奇（CBDB 126594）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126594&o=json)

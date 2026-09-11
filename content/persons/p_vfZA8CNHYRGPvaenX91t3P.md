@@ -4,7 +4,7 @@ id: p_vfZA8CNHYRGPvaenX91t3P
 status: active
 merged_into: null
 display_name: 王德
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -282,6 +282,44 @@ relationships:
         status: active
         display_name: 王永
         merged_into_person_id: null
+    - claim:
+        id: c_NpjESgB_L-cvpfUAf1gMH4
+        subject_person_id: p_jzoHdkm3G8KBKVV3oWtFDE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_vfZA8CNHYRGPvaenX91t3P
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zWTL1YkUU6SmSRfKG6Ivp-
+          claim_id: c_NpjESgB_L-cvpfUAf1gMH4
+          source_id: s_DzLjBnKnCWDYYK7tQM8DCx
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1192;1195：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_DzLjBnKnCWDYYK7tQM8DCx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王忠立（CBDB 37791）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37791&o=json
+            external_identifier: CBDB:37791
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:46.515Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_jzoHdkm3G8KBKVV3oWtFDE
+        status: active
+        display_name: 王忠立
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -307,6 +345,7 @@ relationships:
 | children | p_JMwztXuJpn7tLK5ZwtCDp1 | 王琪 | accepted |
 | children | p_skvKr4qmtq2k4txSa5VE5H | 王順 | accepted |
 | ancestors | p_HqotrCmsQrKUu6nT3a74CK | 王永 | accepted |
+| ancestors | p_jzoHdkm3G8KBKVV3oWtFDE | 王忠立 | accepted |
 
 ## 外部来源
 
@@ -315,3 +354,4 @@ relationships:
 - [中国历代人物传记资料库：王琪（CBDB 38419）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38419&o=json)
 - [中国历代人物传记资料库：王順（CBDB 119715）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119715&o=json)
 - [中国历代人物传记资料库：王永（CBDB 37786）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37786&o=json)
+- [中国历代人物传记资料库：王忠立（CBDB 37791）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37791&o=json)

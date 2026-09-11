@@ -4,7 +4,7 @@ id: p_yUh5Ys3GsJr5X9EvLigP9m
 status: active
 merged_into: null
 display_name: 王璧
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_nEok3-7d4U5lsiPo3e4BQ1
+        subject_person_id: p_kaRFgEVMADyEpNGFyiYQu5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yUh5Ys3GsJr5X9EvLigP9m
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uJxC-1aLtf-UYAkFgxC0UX
+          claim_id: c_nEok3-7d4U5lsiPo3e4BQ1
+          source_id: s_7tmLAYXPNhkFwWnLjNweWN
+          stance: supports
+          locator: 正統十三年進士登科錄:一卷，第三甲第四十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7tmLAYXPNhkFwWnLjNweWN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝義（CBDB 241030）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241030&o=json
+            external_identifier: CBDB:241030
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:59.761Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_kaRFgEVMADyEpNGFyiYQu5
+        status: active
+        display_name: 王汝義
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +238,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_kaRFgEVMADyEpNGFyiYQu5 | 王汝義 | accepted |
 | ancestors | p_mDr8LUHaJgHotM51VUQz8e | 王佐 | accepted |
 | ancestors | p_yrbtFUQmi2x2die1oYwa7b | 王斌 | accepted |
 
@@ -207,4 +246,5 @@ relationships:
 
 - [中国历代人物传记资料库：王璧（CBDB 208145）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208145&o=json)
 - [中国历代人物传记资料库：王斌（CBDB 241028）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241028&o=json)
+- [中国历代人物传记资料库：王汝義（CBDB 241030）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241030&o=json)
 - [中国历代人物传记资料库：王佐（CBDB 241029）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241029&o=json)

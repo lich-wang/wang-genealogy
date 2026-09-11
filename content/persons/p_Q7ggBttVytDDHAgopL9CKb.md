@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王鳳生
 cbdb_id: 56490
-revision: 5
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,7 +172,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_f8oO-8tOZq4pDTJ73URUEy
+        subject_person_id: p_moE7rJDFp2R9Aac3W4FxPZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Q7ggBttVytDDHAgopL9CKb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GcDMRKBPLyP7ebT0KH9XLe
+          claim_id: c_f8oO-8tOZq4pDTJ73URUEy
+          source_id: s_NUj526A7RkfPNCRdD3geau
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160868：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_NUj526A7RkfPNCRdD3geau
+            source_type: api_record
+            title: 中国历代人物传记资料库：王友亮（CBDB 58603）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=58603&o=json
+            external_identifier: CBDB:58603
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:05.401Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_moE7rJDFp2R9Aac3W4FxPZ
+        status: active
+        display_name: 王友亮
+        merged_into_person_id: null
   children:
     - claim:
         id: c_EEZZ-hfHlIDfAJQy7gkI1y
@@ -349,6 +387,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_moE7rJDFp2R9Aac3W4FxPZ | 王友亮 | accepted |
 | children | p_1z83GLfcsWE9Kuamp9WTj3 | 王世某 | accepted |
 | children | p_1yxK9F8DNq1ge3RKe9th3W | 王玉芬 | accepted |
 | children | p_9tNwVp4keF8zTML59sHoNo | 王世翰 | accepted |
@@ -360,4 +399,5 @@ relationships:
 - [中国历代人物传记资料库：王世翰（CBDB 517435）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=517435&o=json)
 - [中国历代人物传记资料库：王世某（CBDB 517434）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=517434&o=json)
 - [中国历代人物传记资料库：王文德（CBDB 696857）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696857&o=json)
+- [中国历代人物传记资料库：王友亮（CBDB 58603）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=58603&o=json)
 - [中国历代人物传记资料库：王玉芬（CBDB 56489）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56489&o=json)

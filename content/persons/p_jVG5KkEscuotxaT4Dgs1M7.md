@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王乃祜
 cbdb_id: 526919
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:526919
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_8Qa3VR58U7497bQMY2hG2A
             source_type: api_record
             title: 中国历代人物传记资料库：王乃祜（CBDB 526919）
@@ -91,7 +91,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_F8aIJbPkp__Ma9GA5yFdXS
+        subject_person_id: p_DHYbJsS7LE12BDd6qGrWUt
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_jVG5KkEscuotxaT4Dgs1M7
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XVjcQligt6fMUYSqoGBfZg
+          claim_id: c_F8aIJbPkp__Ma9GA5yFdXS
+          source_id: s_8Qa3VR58U7497bQMY2hG2A
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13096：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DHYbJsS7LE12BDd6qGrWUt
+        status: active
+        display_name: 王蒔蘭
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_DHYbJsS7LE12BDd6qGrWUt | 王蒔蘭 | accepted |
 
 ## 外部来源
 

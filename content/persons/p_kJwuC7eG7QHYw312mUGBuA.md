@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王福善
 cbdb_id: 291652
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:291652
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_sEBhW68TsLPqVtHvXc77V4
             source_type: api_record
             title: 中国历代人物传记资料库：王福善（CBDB 291652）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_1NraDKIinbtehgNP6zfsqw
+        subject_person_id: p_kJwuC7eG7QHYw312mUGBuA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_yfs4AMpkp3NQmpWdTLnP5v
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q19JuCI22yfY2hcmETb8vX
+          claim_id: c_1NraDKIinbtehgNP6zfsqw
+          source_id: s_sEBhW68TsLPqVtHvXc77V4
+          stance: supports
+          locator: 天順元年進士登科錄:一卷，第三甲第九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_yfs4AMpkp3NQmpWdTLnP5v
+        status: active
+        display_name: 王豎
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_yfs4AMpkp3NQmpWdTLnP5v | 王豎 | accepted |
 
 ## 外部来源
 
