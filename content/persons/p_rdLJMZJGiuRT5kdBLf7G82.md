@@ -4,7 +4,7 @@ id: p_rdLJMZJGiuRT5kdBLf7G82
 status: active
 merged_into: null
 display_name: 王晦
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_ybpYEKb2IzQeJZDiQqy2Bs
+        subject_person_id: p_rdLJMZJGiuRT5kdBLf7G82
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vhZhEsHnnpAf5fLh3NYY5b
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0cKUqzm6dmncf6_ZNkvOSY
+          claim_id: c_ybpYEKb2IzQeJZDiQqy2Bs
+          source_id: s_94T8jvheJfnkbukw41Py42
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1207：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vhZhEsHnnpAf5fLh3NYY5b
+        status: active
+        display_name: 王澤
+        merged_into_person_id: null
+    - claim:
+        id: c_uMhWJU3M-0mRlpxtxR_tyo
+        subject_person_id: p_rdLJMZJGiuRT5kdBLf7G82
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_k7BrFTNYAi2RVwi6VX8Am2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EOsA9IPdVrAdTk3ogVvP8C
+          claim_id: c_uMhWJU3M-0mRlpxtxR_tyo
+          source_id: s_94T8jvheJfnkbukw41Py42
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1244：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_k7BrFTNYAi2RVwi6VX8Am2
+        status: active
+        display_name: 王濤
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_vhZhEsHnnpAf5fLh3NYY5b | 王澤 | accepted |
+| children | p_k7BrFTNYAi2RVwi6VX8Am2 | 王濤 | accepted |
 
 ## 外部来源
 

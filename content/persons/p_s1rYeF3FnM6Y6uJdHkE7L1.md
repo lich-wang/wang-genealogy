@@ -4,7 +4,7 @@ id: p_s1rYeF3FnM6Y6uJdHkE7L1
 status: active
 merged_into: null
 display_name: 王元宗
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_jDTTs25uFD0-7SZ_gxbEOX
+        subject_person_id: p_vLSVF2E29bhtHRC3R3t1gA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_s1rYeF3FnM6Y6uJdHkE7L1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fOiizkvDp1oPPhDjlUqnGx
+          claim_id: c_jDTTs25uFD0-7SZ_gxbEOX
+          source_id: s_etKkh4aaKQuNG8z1kh77JY
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Longshuo 5：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vLSVF2E29bhtHRC3R3t1gA
+        status: active
+        display_name: 王朗
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vLSVF2E29bhtHRC3R3t1gA | 王朗 | accepted |
 
 ## 外部来源
 

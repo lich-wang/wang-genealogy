@@ -4,7 +4,7 @@ id: p_MQQyuFRHwHza48Rxy8cmUZ
 status: active
 merged_into: null
 display_name: 王重光
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -170,7 +170,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c__CaclHSql_OfByQExdf2p2
+        subject_person_id: p_rj597A434g3oGr3CMXf786
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_MQQyuFRHwHza48Rxy8cmUZ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mdS8bHeknsJ1xgQzRdWnm9
+          claim_id: c__CaclHSql_OfByQExdf2p2
+          source_id: s_RjgKeCqHcGF2Gi7ZP6P4ho
+          stance: supports
+          locator: 嘉靖二十年進士登科錄:一卷，第二甲第四十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_RjgKeCqHcGF2Gi7ZP6P4ho
+            source_type: api_record
+            title: 中国历代人物传记资料库：王伍（CBDB 302567）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302567&o=json
+            external_identifier: CBDB:302567
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.651Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_rj597A434g3oGr3CMXf786
+        status: active
+        display_name: 王伍
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_HsZLwARimgLZK7ZmEpSEFy | 王麟 | accepted |
+| ancestors | p_rj597A434g3oGr3CMXf786 | 王伍 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王麟（CBDB 302568）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302568&o=json)
+- [中国历代人物传记资料库：王伍（CBDB 302567）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302567&o=json)
 - [中国历代人物传记资料库：王重光（CBDB 126622）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126622&o=json)

@@ -4,7 +4,7 @@ id: p_s22BANzPKS7jJngRpdtYFA
 status: active
 merged_into: null
 display_name: 王遵
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_afdIvry7rmYS2r4B-0R7uf
+        subject_person_id: p_qCDtQiLmeEnX8dr3rpqXVC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_s22BANzPKS7jJngRpdtYFA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CieW-Sa_ssGiHHJ7ba8XO6
+          claim_id: c_afdIvry7rmYS2r4B-0R7uf
+          source_id: s_Z9V6eCqppaJk8NfGKE7JJW
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Huichang 17：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qCDtQiLmeEnX8dr3rpqXVC
+        status: active
+        display_name: 王頊
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qCDtQiLmeEnX8dr3rpqXVC | 王頊 | accepted |
 
 ## 外部来源
 

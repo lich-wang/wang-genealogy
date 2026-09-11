@@ -4,7 +4,7 @@ id: p_HKCnizxAApK3fsPh2jp46Q
 status: active
 merged_into: null
 display_name: 王敎
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -208,6 +208,43 @@ relationships:
         status: active
         display_name: 王文
         merged_into_person_id: null
+    - claim:
+        id: c_fjHhbZruVp9yMUMziYMC4M
+        subject_person_id: p_R6wW2aK6nTQsK5MeGQR4um
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_HKCnizxAApK3fsPh2jp46Q
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qDBMVW9GF9ZA1Fcfvl2xA2
+          claim_id: c_fjHhbZruVp9yMUMziYMC4M
+          source_id: s_5exRb7j4mWCMXjK4yFGNxM
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第二甲第七十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5exRb7j4mWCMXjK4yFGNxM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王綱（CBDB 208720）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208720&o=json
+            external_identifier: CBDB:208720
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.954Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_R6wW2aK6nTQsK5MeGQR4um
+        status: active
+        display_name: 王綱
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_QNP9ruUBJM2h7tcYH7jhr9 | 王珏 | accepted |
 | ancestors | p_CkFDPSEHazB3k2HW5xVGAd | 王文 | accepted |
+| ancestors | p_R6wW2aK6nTQsK5MeGQR4um | 王綱 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王綱（CBDB 208720）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208720&o=json)
 - [中国历代人物传记资料库：王敎（CBDB 126675）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126675&o=json)
 - [中国历代人物传记资料库：王珏（CBDB 208722）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208722&o=json)
 - [中国历代人物传记资料库：王文（CBDB 208721）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208721&o=json)

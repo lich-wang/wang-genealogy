@@ -4,7 +4,7 @@ id: p_wgfYedxmMy9VG8HzciXPDK
 status: active
 merged_into: null
 display_name: 王貞伯
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -250,6 +250,43 @@ relationships:
         status: active
         display_name: 王師甫
         merged_into_person_id: null
+    - claim:
+        id: c_JQX9VkruwDQ8dW7cbzF2Jv
+        subject_person_id: p_wgfYedxmMy9VG8HzciXPDK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_r4ZUZWMDNoU7uRCn4abADP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rzqc0JosPegoUM3f45jOpG
+          claim_id: c_JQX9VkruwDQ8dW7cbzF2Jv
+          source_id: s_6EKZZtrb21kksyaSV5LwYM
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6EKZZtrb21kksyaSV5LwYM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王藩（CBDB 175695）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175695&o=json
+            external_identifier: CBDB:175695
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.061Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_r4ZUZWMDNoU7uRCn4abADP
+        status: active
+        display_name: 王藩
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -278,10 +315,12 @@ relationships:
 | children | p_Cn69EMt8ooB5ikYYJQTWaC | 王葆 | accepted |
 | children | p_iSxLyB45PSS63juDYWmSoG | 王蔚 | accepted |
 | children | p_n2fdAY63xr4h7bBuBGkvKc | 王師甫 | accepted |
+| children | p_r4ZUZWMDNoU7uRCn4abADP | 王藩 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王葆（CBDB 175693）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175693&o=json)
+- [中国历代人物传记资料库：王藩（CBDB 175695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175695&o=json)
 - [中国历代人物传记资料库：王蕘（CBDB 175696）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175696&o=json)
 - [中国历代人物传记资料库：王師甫（CBDB 175694）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175694&o=json)
 - [中国历代人物传记资料库：王蔚（CBDB 192827）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=192827&o=json)

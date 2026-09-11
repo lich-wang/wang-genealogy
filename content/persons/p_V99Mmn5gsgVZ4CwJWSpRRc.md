@@ -4,7 +4,7 @@ id: p_V99Mmn5gsgVZ4CwJWSpRRc
 status: active
 merged_into: null
 display_name: 王賓
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王榮
         merged_into_person_id: null
+    - claim:
+        id: c_ijq9Z3ntOPzXvLUOI178Ka
+        subject_person_id: p_R34uSpR6TYLYd5FHAwpGjA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_V99Mmn5gsgVZ4CwJWSpRRc
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JHNUXyeqxpCZ8Ti24jQhJv
+          claim_id: c_ijq9Z3ntOPzXvLUOI178Ka
+          source_id: s_XZLb3Kmv4Cy4oZTJXxYEyb
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第三甲第八十七名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_XZLb3Kmv4Cy4oZTJXxYEyb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王本宗（CBDB 237431）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237431&o=json
+            external_identifier: CBDB:237431
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.838Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_R34uSpR6TYLYd5FHAwpGjA
+        status: active
+        display_name: 王本宗
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_Lj8WT4nJBhsqQXhWW65SRH | 王志善 | accepted |
 | ancestors | p_MiEEDBF7PKuPDDgJBY2FPs | 王榮 | accepted |
+| ancestors | p_R34uSpR6TYLYd5FHAwpGjA | 王本宗 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王本宗（CBDB 237431）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237431&o=json)
 - [中国历代人物传记资料库：王賓（CBDB 199150）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199150&o=json)
 - [中国历代人物传记资料库：王榮（CBDB 237420）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237420&o=json)
 - [中国历代人物传记资料库：王志善（CBDB 237442）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237442&o=json)

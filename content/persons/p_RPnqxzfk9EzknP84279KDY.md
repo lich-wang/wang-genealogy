@@ -4,7 +4,7 @@ id: p_RPnqxzfk9EzknP84279KDY
 status: active
 merged_into: null
 display_name: 王標
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_WgyXiswuVivakTFMEYX_iR
+        subject_person_id: p_zrXaaDsWqxxFV2uHJhKDmc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RPnqxzfk9EzknP84279KDY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IEkUjngPTzoTtoO7p7Q0el
+          claim_id: c_WgyXiswuVivakTFMEYX_iR
+          source_id: s_AjFCNBwCLuzGm1A7cVSNWe
+          stance: supports
+          locator: 雲和縣志，lgid=369323：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zrXaaDsWqxxFV2uHJhKDmc
+        status: active
+        display_name: 王海澄
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_zrXaaDsWqxxFV2uHJhKDmc | 王海澄 | accepted |
 
 ## 外部来源
 

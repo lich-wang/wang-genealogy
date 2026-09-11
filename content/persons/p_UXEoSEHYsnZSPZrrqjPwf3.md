@@ -4,7 +4,7 @@ id: p_UXEoSEHYsnZSPZrrqjPwf3
 status: active
 merged_into: null
 display_name: 王輔
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王榮
         merged_into_person_id: null
+    - claim:
+        id: c_u4PghzHVGylbAc0s4dPGK_
+        subject_person_id: p_rJvZ3yktmFxrApnpKx2dQ3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_UXEoSEHYsnZSPZrrqjPwf3
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_n0tng6dMapyp68Lxdscm7O
+          claim_id: c_u4PghzHVGylbAc0s4dPGK_
+          source_id: s_ZMedo3CSZPMa4aqsohGbXN
+          stance: supports
+          locator: 成化八年進士登科錄:一卷，第三甲第十五名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZMedo3CSZPMa4aqsohGbXN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王整（CBDB 246025）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246025&o=json
+            external_identifier: CBDB:246025
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.079Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_rJvZ3yktmFxrApnpKx2dQ3
+        status: active
+        display_name: 王整
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_pdjXPPpE6u8B1ajFAKge7T | 王禮 | accepted |
 | ancestors | p_5RFV7J2odPpRKDCszp2uRB | 王榮 | accepted |
+| ancestors | p_rJvZ3yktmFxrApnpKx2dQ3 | 王整 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王輔（CBDB 199509）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199509&o=json)
 - [中国历代人物传记资料库：王禮（CBDB 246027）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246027&o=json)
 - [中国历代人物传记资料库：王榮（CBDB 246026）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246026&o=json)
+- [中国历代人物传记资料库：王整（CBDB 246025）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246025&o=json)

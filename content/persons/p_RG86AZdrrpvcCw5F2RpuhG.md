@@ -4,7 +4,7 @@ id: p_RG86AZdrrpvcCw5F2RpuhG
 status: active
 merged_into: null
 display_name: 王文仁
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_PTqRf_Q0N_RAf7taXsM7yN
+        subject_person_id: p_UEDD8MQGv452ANehDJnqv4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RG86AZdrrpvcCw5F2RpuhG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SK2zR_a834Dein12WlKyxb
+          claim_id: c_PTqRf_Q0N_RAf7taXsM7yN
+          source_id: s_L1xS3GbeMRQ7Ji6hnia1FW
+          stance: supports
+          locator: 瓜洲志，Igid=124458：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UEDD8MQGv452ANehDJnqv4
+        status: active
+        display_name: 王元臣
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_UEDD8MQGv452ANehDJnqv4 | 王元臣 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王缙
 cbdb_id: 32175
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -324,6 +324,43 @@ relationships:
         status: active
         display_name: 王处廉
         merged_into_person_id: null
+    - claim:
+        id: c_3VcUUluWeMQouhds4B6dFT
+        subject_person_id: p_S4N2Cev8cRhe7jcPfNaRgM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_g6dF114X12m5d8tCHGiM7v
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XBbuPetI0VZ7IfD5jbDMEC
+          claim_id: c_3VcUUluWeMQouhds4B6dFT
+          source_id: s_S3QZnAK5T62oAi1ZixcCai
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_S3QZnAK5T62oAi1ZixcCai
+            source_type: api_record
+            title: 中国历代人物传记资料库：王處廉（CBDB 32173）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=32173&o=json
+            external_identifier: CBDB:32173
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.047Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_S4N2Cev8cRhe7jcPfNaRgM
+        status: active
+        display_name: 王處廉
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -481,6 +518,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_LhrXSwBKuTqBng4RsWfQ9E | 王处廉 | accepted |
+| parents | p_S4N2Cev8cRhe7jcPfNaRgM | 王處廉 | accepted |
 | ancestors | p_n2VhJYKthxCZqxJ3FGvsKN | 王胄 | accepted |
 | ancestors | p_3D1DXfRjgxbNyEkFbBWiyC | 王知节 | accepted |
 | ancestors | p_N2rq6fTeXyPByDHvE3nio9 | 王儒贤 | accepted |
@@ -488,5 +526,6 @@ relationships:
 ## 外部来源
 
 - [维基数据：王缙（Q5946567）](https://www.wikidata.org/wiki/Q5946567)
+- [中国历代人物传记资料库：王處廉（CBDB 32173）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=32173&o=json)
 - [中文维基百科：王缙](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BC%99)
 - [CBDB 中国历代人物传记资料库：王縉（32175）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=32175&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王汝述
 cbdb_id: 204086
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,6 +209,43 @@ relationships:
         status: active
         display_name: 王琨
         merged_into_person_id: null
+    - claim:
+        id: c_OWtlACQY3JTozgJ2pAEYO-
+        subject_person_id: p_ruT6UfVTT9uBucoR57Joub
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_FJ5VCJ2dfQ9YvKZT3bmX4c
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kU63GeBHvywzsAomBJSITl
+          claim_id: c_OWtlACQY3JTozgJ2pAEYO-
+          source_id: s_qLm7X7Ms7gKp8VPvKKrje8
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第一百五十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_qLm7X7Ms7gKp8VPvKKrje8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王克厚（CBDB 314220）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314220&o=json
+            external_identifier: CBDB:314220
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.920Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ruT6UfVTT9uBucoR57Joub
+        status: active
+        display_name: 王克厚
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_jp7Who27nqLM3Z2dWPqF3U | 王銓 | accepted |
 | ancestors | p_hNxUudbeswjm4CQkTUbcQo | 王琨 | accepted |
+| ancestors | p_ruT6UfVTT9uBucoR57Joub | 王克厚 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王克厚（CBDB 314220）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314220&o=json)
 - [中国历代人物传记资料库：王琨（CBDB 314221）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314221&o=json)
 - [中国历代人物传记资料库：王銓（CBDB 314222）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314222&o=json)
 - [中国历代人物传记资料库：王汝述（CBDB 204086）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204086&o=json)

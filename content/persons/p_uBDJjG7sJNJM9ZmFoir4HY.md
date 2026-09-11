@@ -4,7 +4,7 @@ id: p_uBDJjG7sJNJM9ZmFoir4HY
 status: active
 merged_into: null
 display_name: 王貫
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王用
         merged_into_person_id: null
+    - claim:
+        id: c_mnglRwweBaG3wLo9addzGw
+        subject_person_id: p_s29PC4nMJW5xCBGgXWLf8A
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_uBDJjG7sJNJM9ZmFoir4HY
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2DPzYCstCI_0cxgwrspzlR
+          claim_id: c_mnglRwweBaG3wLo9addzGw
+          source_id: s_JMCJjFGF8bvnVKPcdwfcRW
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第一百八十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_JMCJjFGF8bvnVKPcdwfcRW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王漢卿（CBDB 260339）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260339&o=json
+            external_identifier: CBDB:260339
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.495Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_s29PC4nMJW5xCBGgXWLf8A
+        status: active
+        display_name: 王漢卿
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_qXXWkVN4cPuCaB8LQ1BWBn | 王玘 | accepted |
 | ancestors | p_CeCa7jWt9YpcLn1ipWZEJ7 | 王用 | accepted |
+| ancestors | p_s29PC4nMJW5xCBGgXWLf8A | 王漢卿 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王貫（CBDB 200606）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200606&o=json)
+- [中国历代人物传记资料库：王漢卿（CBDB 260339）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260339&o=json)
 - [中国历代人物传记资料库：王玘（CBDB 260341）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260341&o=json)
 - [中国历代人物传记资料库：王用（CBDB 260340）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260340&o=json)

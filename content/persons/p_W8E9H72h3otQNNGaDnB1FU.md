@@ -4,7 +4,7 @@ id: p_W8E9H72h3otQNNGaDnB1FU
 status: active
 merged_into: null
 display_name: 王景之
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -241,6 +241,80 @@ relationships:
         status: active
         display_name: 王愔
         merged_into_person_id: null
+    - claim:
+        id: c_oooScxtP_j_TRRzEi5f8QS
+        subject_person_id: p_W8E9H72h3otQNNGaDnB1FU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rE9nJB28ro8YEGQnteMhEe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rVmw972hflXKhIq3JR3mqE
+          claim_id: c_oooScxtP_j_TRRzEi5f8QS
+          source_id: s_rdRkgHRkWobkBo9v3Rymwg
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Jinglong 28：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_rdRkgHRkWobkBo9v3Rymwg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恆（CBDB 150815）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150815&o=json
+            external_identifier: CBDB:150815
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.825Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_rE9nJB28ro8YEGQnteMhEe
+        status: active
+        display_name: 王恆
+        merged_into_person_id: null
+    - claim:
+        id: c_Y4mysEzCtb6VHr5DFggBHG
+        subject_person_id: p_W8E9H72h3otQNNGaDnB1FU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RhL5jLMV7rLQgzTsbZAmem
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8q8CwwJCPZ1KLVEMTY5zv5
+          claim_id: c_Y4mysEzCtb6VHr5DFggBHG
+          source_id: s_TX9eeQg2fp1xwhURRZkz3F
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Jinglong 28：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_TX9eeQg2fp1xwhURRZkz3F
+            source_type: api_record
+            title: 中国历代人物传记资料库：王怡（CBDB 150814）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150814&o=json
+            external_identifier: CBDB:150814
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.824Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_RhL5jLMV7rLQgzTsbZAmem
+        status: active
+        display_name: 王怡
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -269,10 +343,14 @@ relationships:
 | parents | p_i47UsMhA15jMqEZ7iDqoa7 | 王韋 | accepted |
 | children | p_FYXgYaQ9GXDdcYokEoSMmM | 王懌 | accepted |
 | children | p_p9mzdy1irhE4XfhGMPnKSu | 王愔 | accepted |
+| children | p_rE9nJB28ro8YEGQnteMhEe | 王恆 | accepted |
+| children | p_RhL5jLMV7rLQgzTsbZAmem | 王怡 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王恆（CBDB 150815）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150815&o=json)
 - [中国历代人物传记资料库：王景之（CBDB 140255）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140255&o=json)
 - [中国历代人物传记资料库：王韋（CBDB 142621）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142621&o=json)
+- [中国历代人物传记资料库：王怡（CBDB 150814）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150814&o=json)
 - [中国历代人物传记资料库：王懌（CBDB 150816）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150816&o=json)
 - [中国历代人物传记资料库：王愔（CBDB 150818）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150818&o=json)

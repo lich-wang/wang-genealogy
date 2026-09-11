@@ -4,7 +4,7 @@ id: p_DVJuaQ4fqcXMz2HJX35bCQ
 status: active
 merged_into: null
 display_name: 王一魁
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -217,6 +217,43 @@ relationships:
         status: active
         display_name: 王平
         merged_into_person_id: null
+    - claim:
+        id: c_Kzuo40AusUC2V2FBtGPEcN
+        subject_person_id: p_Rs4iVjw5c4LdbvYywk1bLT
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DVJuaQ4fqcXMz2HJX35bCQ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1Vmpu-nNY9T0aPrbU9AyQg
+          claim_id: c_Kzuo40AusUC2V2FBtGPEcN
+          source_id: s_61oG8RsMzKRxPF3nTy582F
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第二甲第二百三十一名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_61oG8RsMzKRxPF3nTy582F
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瓘（CBDB 230375）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230375&o=json
+            external_identifier: CBDB:230375
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.603Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Rs4iVjw5c4LdbvYywk1bLT
+        status: active
+        display_name: 王瓘
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -240,10 +277,12 @@ relationships:
 | parents | p_6Yn1HjpWop229REQ9NGBi2 | 王承光 | accepted |
 | children | p_HAPwpvZBVPzcnguyVmhnBB | 王夢熊 | accepted |
 | ancestors | p_JYdYtadGp7FCR1QziP7DkZ | 王平 | accepted |
+| ancestors | p_Rs4iVjw5c4LdbvYywk1bLT | 王瓘 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王承光（CBDB 230377）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230377&o=json)
+- [中国历代人物传记资料库：王瓘（CBDB 230375）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230375&o=json)
 - [中国历代人物传记资料库：王夢熊（CBDB 230386）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230386&o=json)
 - [中国历代人物传记资料库：王平（CBDB 230376）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230376&o=json)
 - [中国历代人物传记资料库：王一魁（CBDB 207258）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207258&o=json)

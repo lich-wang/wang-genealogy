@@ -4,7 +4,7 @@ id: p_XJXudkaLuCHVbmiCeKBv45
 status: active
 merged_into: null
 display_name: 王官
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_-R72gV9C361EQCzsADpPrG
+        subject_person_id: p_RQpo9Kr6EeUuDNSVEJ5Qs2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XJXudkaLuCHVbmiCeKBv45
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_e8Wb7itaolHGz1EDWLiAcx
+          claim_id: c_-R72gV9C361EQCzsADpPrG
+          source_id: s_nhVzFWj9zSZEt9UDw1GYD7
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第三十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_nhVzFWj9zSZEt9UDw1GYD7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文進（CBDB 280988）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280988&o=json
+            external_identifier: CBDB:280988
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.036Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_RQpo9Kr6EeUuDNSVEJ5Qs2
+        status: active
+        display_name: 王文進
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,6 +237,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_RQpo9Kr6EeUuDNSVEJ5Qs2 | 王文進 | accepted |
 | ancestors | p_6SDy3bF7CQQgYA5jaz9rmc | 王誠 | accepted |
 | ancestors | p_QLYY3wK54kAaQowKFrboE5 | 王清 | accepted |
 
@@ -208,3 +246,4 @@ relationships:
 - [中国历代人物传记资料库：王誠（CBDB 280985）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280985&o=json)
 - [中国历代人物传记资料库：王官（CBDB 201950）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201950&o=json)
 - [中国历代人物传记资料库：王清（CBDB 280987）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280987&o=json)
+- [中国历代人物传记资料库：王文進（CBDB 280988）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280988&o=json)

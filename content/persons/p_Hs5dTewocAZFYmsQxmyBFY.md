@@ -4,7 +4,7 @@ id: p_Hs5dTewocAZFYmsQxmyBFY
 status: active
 merged_into: null
 display_name: 王紳
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王吉
         merged_into_person_id: null
+    - claim:
+        id: c_DVquuj-ROEUb8wUzsMKTAa
+        subject_person_id: p_r7LepFMkECFWYe8Q6h2L8C
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Hs5dTewocAZFYmsQxmyBFY
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_G--64IOO-f0IsLMoehrgJx
+          claim_id: c_DVquuj-ROEUb8wUzsMKTAa
+          source_id: s_FATeHYM6fQRAALXPwB3hQV
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第三十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_FATeHYM6fQRAALXPwB3hQV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惟德（CBDB 288733）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288733&o=json
+            external_identifier: CBDB:288733
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.300Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_r7LepFMkECFWYe8Q6h2L8C
+        status: active
+        display_name: 王惟德
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_KQX7wZ6kGeHGXVBXr7RepL | 王國寧 | accepted |
 | ancestors | p_cDhkwNASo4LnZoHgKrkdpx | 王吉 | accepted |
+| ancestors | p_r7LepFMkECFWYe8Q6h2L8C | 王惟德 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王國寧（CBDB 288735）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288735&o=json)
 - [中国历代人物传记资料库：王吉（CBDB 288734）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288734&o=json)
 - [中国历代人物传记资料库：王紳（CBDB 202472）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202472&o=json)
+- [中国历代人物传记资料库：王惟德（CBDB 288733）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288733&o=json)

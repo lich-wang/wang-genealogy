@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王道增
 cbdb_id: 206547
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_G1qtdfhXiC6hcvi1ipdyxl
+        subject_person_id: p_RYeG6QXC3LvzmPc5LSo3Tt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zZbuHXnqm4wRFTtwvCX7hA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dfn6RTjudN38mHGMoyvEdk
+          claim_id: c_G1qtdfhXiC6hcvi1ipdyxl
+          source_id: s_4oPXT5i77e8Jgr9bqR3YfP
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第二十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4oPXT5i77e8Jgr9bqR3YfP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王澍（CBDB 219569）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219569&o=json
+            external_identifier: CBDB:219569
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.287Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_RYeG6QXC3LvzmPc5LSo3Tt
+        status: active
+        display_name: 王澍
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -192,9 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_RYeG6QXC3LvzmPc5LSo3Tt | 王澍 | accepted |
 | ancestors | p_GPvXA4LriUiQYx6qpSspPM | 王賓 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王賓（CBDB 219567）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219567&o=json)
 - [中国历代人物传记资料库：王道增（CBDB 206547）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206547&o=json)
+- [中国历代人物传记资料库：王澍（CBDB 219569）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219569&o=json)

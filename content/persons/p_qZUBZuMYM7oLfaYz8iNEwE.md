@@ -4,7 +4,7 @@ id: p_qZUBZuMYM7oLfaYz8iNEwE
 status: active
 merged_into: null
 display_name: 王文錦
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_7ZGPGtNFH9CfBSm-ClZXAM
+        subject_person_id: p_XBdYGhhY6KYRHheCG3YBMX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qZUBZuMYM7oLfaYz8iNEwE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PDDLv5JFsH-0LtSwmL3aun
+          claim_id: c_7ZGPGtNFH9CfBSm-ClZXAM
+          source_id: s_C44wAJN6xXBT6W4ZTrZceE
+          stance: supports
+          locator: 陝西通志，lgid=1018935-1018936：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_XBdYGhhY6KYRHheCG3YBMX
+        status: active
+        display_name: 王平
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_XBdYGhhY6KYRHheCG3YBMX | 王平 | accepted |
 
 ## 外部来源
 

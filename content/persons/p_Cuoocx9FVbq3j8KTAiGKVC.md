@@ -4,7 +4,7 @@ id: p_Cuoocx9FVbq3j8KTAiGKVC
 status: active
 merged_into: null
 display_name: 王春
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王成
         merged_into_person_id: null
+    - claim:
+        id: c_ui-A4RYYuURpJ2CPILU9tb
+        subject_person_id: p_RvHkZ87vJrtd4xeo9Z6XNM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Cuoocx9FVbq3j8KTAiGKVC
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QhOZm6WuPhCWtbUdLKt1qK
+          claim_id: c_ui-A4RYYuURpJ2CPILU9tb
+          source_id: s_WXvbLwCMt8qUfgeBSUZFxV
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第三甲第三十三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_WXvbLwCMt8qUfgeBSUZFxV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王信（CBDB 268114）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268114&o=json
+            external_identifier: CBDB:268114
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.794Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_RvHkZ87vJrtd4xeo9Z6XNM
+        status: active
+        display_name: 王信
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_Hyw8SQGaRE528RGN3TPgxc | 王榮 | accepted |
 | ancestors | p_BeExBVBoLALEyg1y8qcCQ5 | 王成 | accepted |
+| ancestors | p_RvHkZ87vJrtd4xeo9Z6XNM | 王信 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王成（CBDB 268113）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268113&o=json)
 - [中国历代人物传记资料库：王春（CBDB 201159）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201159&o=json)
 - [中国历代人物传记资料库：王榮（CBDB 268115）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268115&o=json)
+- [中国历代人物传记资料库：王信（CBDB 268114）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268114&o=json)

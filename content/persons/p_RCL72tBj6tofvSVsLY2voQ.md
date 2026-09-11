@@ -4,7 +4,7 @@ id: p_RCL72tBj6tofvSVsLY2voQ
 status: active
 merged_into: null
 display_name: 王希孟
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -170,7 +170,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_lzmTaT4dPxxBYWb0pCx03K
+        subject_person_id: p_SbrXp7MmBDQe8Ew48WyHUM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_RCL72tBj6tofvSVsLY2voQ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xDvR7NE5qmHPAK95HumIDC
+          claim_id: c_lzmTaT4dPxxBYWb0pCx03K
+          source_id: s_m21docN3irQGPH5tihRQvg
+          stance: supports
+          locator: 弘治十八年進士登科錄:一卷，第三甲第九十一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_m21docN3irQGPH5tihRQvg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敬（CBDB 274560）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274560&o=json
+            external_identifier: CBDB:274560
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.927Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_SbrXp7MmBDQe8Ew48WyHUM
+        status: active
+        display_name: 王敬
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_1AkPLN4jpbDDRN9hsKXn8b | 王安 | accepted |
+| ancestors | p_SbrXp7MmBDQe8Ew48WyHUM | 王敬 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王安（CBDB 274561）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274561&o=json)
+- [中国历代人物传记资料库：王敬（CBDB 274560）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274560&o=json)
 - [中国历代人物传记资料库：王希孟（CBDB 126545）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126545&o=json)

@@ -4,7 +4,7 @@ id: p_VocUX3MNnhbxZwU1f4zNjN
 status: active
 merged_into: null
 display_name: 王輿
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_5iQ-4hclAYRJx6dUS_PYy3
+        subject_person_id: p_rGht5PzVe7FNDGMpfHDHsN
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_VocUX3MNnhbxZwU1f4zNjN
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BbK3Kn8jftam9E3z_3uWGQ
+          claim_id: c_5iQ-4hclAYRJx6dUS_PYy3
+          source_id: s_DeXY7t3uvB4251CEVCGv5g
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_DeXY7t3uvB4251CEVCGv5g
+            source_type: api_record
+            title: 中国历代人物传记资料库：王幹（CBDB 312779）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312779&o=json
+            external_identifier: CBDB:312779
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.882Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_rGht5PzVe7FNDGMpfHDHsN
+        status: active
+        display_name: 王幹
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_rGht5PzVe7FNDGMpfHDHsN | 王幹 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王幹（CBDB 312779）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312779&o=json)
 - [中国历代人物传记资料库：王輿（CBDB 203979）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203979&o=json)

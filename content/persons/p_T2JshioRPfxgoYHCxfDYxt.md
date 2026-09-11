@@ -4,7 +4,7 @@ id: p_T2JshioRPfxgoYHCxfDYxt
 status: active
 merged_into: null
 display_name: 王守忠
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -213,6 +213,43 @@ relationships:
         status: active
         display_name: 王仲璋
         merged_into_person_id: null
+    - claim:
+        id: c_KNxwxz9w4u0bGtDaJouQkP
+        subject_person_id: p_T2JshioRPfxgoYHCxfDYxt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rMGD3X3Jy1G7DwLK9bM7tA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XlHRT7vKSyNTfOxydx1jTE
+          claim_id: c_KNxwxz9w4u0bGtDaJouQkP
+          source_id: s_qo1JYQyZDHttCzzUABDvwp
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_qo1JYQyZDHttCzzUABDvwp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王愛景（CBDB 175749）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175749&o=json
+            external_identifier: CBDB:175749
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.254Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_rMGD3X3Jy1G7DwLK9bM7tA
+        status: active
+        display_name: 王愛景
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -240,9 +277,11 @@ relationships:
 | parents | p_d3rRMY3j92nB8V1GyfMiLc | 王同人 | accepted |
 | children | p_46vuDp5qDdtqpcJ6ZkX8YK | 王思訥 | accepted |
 | children | p_EYZbMdgB89m9nTMAVEYZW1 | 王仲璋 | accepted |
+| children | p_rMGD3X3Jy1G7DwLK9bM7tA | 王愛景 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王愛景（CBDB 175749）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175749&o=json)
 - [中国历代人物传记资料库：王守忠（CBDB 175748）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175748&o=json)
 - [中国历代人物传记资料库：王思訥（CBDB 175750）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175750&o=json)
 - [中国历代人物传记资料库：王同人（CBDB 175747）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175747&o=json)

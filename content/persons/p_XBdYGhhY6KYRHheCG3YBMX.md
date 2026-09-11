@@ -4,7 +4,7 @@ id: p_XBdYGhhY6KYRHheCG3YBMX
 status: active
 merged_into: null
 display_name: 王平
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -176,6 +176,43 @@ relationships:
         status: active
         display_name: 王文明
         merged_into_person_id: null
+    - claim:
+        id: c_7ZGPGtNFH9CfBSm-ClZXAM
+        subject_person_id: p_XBdYGhhY6KYRHheCG3YBMX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qZUBZuMYM7oLfaYz8iNEwE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PDDLv5JFsH-0LtSwmL3aun
+          claim_id: c_7ZGPGtNFH9CfBSm-ClZXAM
+          source_id: s_C44wAJN6xXBT6W4ZTrZceE
+          stance: supports
+          locator: 陝西通志，lgid=1018935-1018936：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_C44wAJN6xXBT6W4ZTrZceE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文錦（CBDB 578611）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578611&o=json
+            external_identifier: CBDB:578611
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.979Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_qZUBZuMYM7oLfaYz8iNEwE
+        status: active
+        display_name: 王文錦
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -313,6 +350,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_fB4krwdYrXiiabiLDNJxxM | 王文秀 | accepted |
 | children | p_mt8x55Aed4m7muRJx2xwnA | 王文明 | accepted |
+| children | p_qZUBZuMYM7oLfaYz8iNEwE | 王文錦 | accepted |
 | descendants | p_f4cg3hpvnGXJ6e7M3o4JU8 | 王𠠹 | accepted |
 | descendants | p_JNN9WR7n7FEn9er8Z1w33L | 王㔠 | accepted |
 | descendants | p_PHTMPNYgPbZ6fQDxbDP6xk | 王筠 | accepted |
@@ -320,6 +358,7 @@ relationships:
 ## 外部来源
 
 - [中国历代人物传记资料库：王平（CBDB 578608）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578608&o=json)
+- [中国历代人物传记资料库：王文錦（CBDB 578611）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578611&o=json)
 - [中国历代人物传记资料库：王文明（CBDB 578610）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578610&o=json)
 - [中国历代人物传记资料库：王文秀（CBDB 578609）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=578609&o=json)
 - [中国历代人物传记资料库：王筠（CBDB 70471）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=70471&o=json)

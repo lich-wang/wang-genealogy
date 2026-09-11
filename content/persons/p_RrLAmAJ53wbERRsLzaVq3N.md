@@ -4,7 +4,7 @@ id: p_RrLAmAJ53wbERRsLzaVq3N
 status: active
 merged_into: null
 display_name: 王煒
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,64 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Gl4hYoh_aFg-dJW5HAjjWo
+        subject_person_id: p_HXk3y1PfVW8CfdPTWH9M9P
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RrLAmAJ53wbERRsLzaVq3N
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Tz8jr35VKV8HHE19utJA29
+          claim_id: c_Gl4hYoh_aFg-dJW5HAjjWo
+          source_id: s_ueKRmgQtBBGaX8bNh3YAmE
+          stance: supports
+          locator: "海鹽縣志: 二十二卷(光緒)，lgid=294177：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_HXk3y1PfVW8CfdPTWH9M9P
+        status: active
+        display_name: 王家穎
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_hGCWLMFU1ACV5wHgZeGjA1
+        subject_person_id: p_nxJFc4B8M3dbCmgETXFL25
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_RrLAmAJ53wbERRsLzaVq3N
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k2ZLuKfn_SLfjX_WXvWb5j
+          claim_id: c_hGCWLMFU1ACV5wHgZeGjA1
+          source_id: s_ueKRmgQtBBGaX8bNh3YAmE
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #659, HuWenKai #242：祖父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_nxJFc4B8M3dbCmgETXFL25
+        status: active
+        display_name: 王叔元
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_HXk3y1PfVW8CfdPTWH9M9P | 王家穎 | accepted |
+| ancestors | p_nxJFc4B8M3dbCmgETXFL25 | 王叔元 | accepted |
 
 ## 外部来源
 

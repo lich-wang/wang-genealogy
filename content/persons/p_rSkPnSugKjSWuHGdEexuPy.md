@@ -4,7 +4,7 @@ id: p_rSkPnSugKjSWuHGdEexuPy
 status: active
 merged_into: null
 display_name: 王思武
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Ya7i4-QieFAcIVWKfqVwog
+        subject_person_id: p_rSkPnSugKjSWuHGdEexuPy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TrSRnr43crmLj8TffkPdvL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-lQlPSq50anr1GK2C2s8Fm
+          claim_id: c_Ya7i4-QieFAcIVWKfqVwog
+          source_id: s_9sBEaGJ4t3oy45d8nTrL5J
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Zhenguan 94：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_TrSRnr43crmLj8TffkPdvL
+        status: active
+        display_name: 王仁則
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_TrSRnr43crmLj8TffkPdvL | 王仁則 | accepted |
 
 ## 外部来源
 

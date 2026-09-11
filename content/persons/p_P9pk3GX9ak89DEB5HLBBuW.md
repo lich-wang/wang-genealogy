@@ -4,7 +4,7 @@ id: p_P9pk3GX9ak89DEB5HLBBuW
 status: active
 merged_into: null
 display_name: 王用
-revision: 10
+revision: 11
 properties:
   - predicate: name.primary
     recommended:
@@ -575,6 +575,43 @@ relationships:
         status: active
         display_name: 王小喜留
         merged_into_person_id: null
+    - claim:
+        id: c_2diGJ_HkkcU9kchuLvUpOB
+        subject_person_id: p_P9pk3GX9ak89DEB5HLBBuW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qZu1af9VxRfDN8W2dtA7bn
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_I2vzddjgA5LPcEYTSjnbN3
+          claim_id: c_2diGJ_HkkcU9kchuLvUpOB
+          source_id: s_Fb6mBKVrvf3Gc5xJSfvWTY
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，48：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Fb6mBKVrvf3Gc5xJSfvWTY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王江兒（CBDB 699464）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699464&o=json
+            external_identifier: CBDB:699464
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.586Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_qZu1af9VxRfDN8W2dtA7bn
+        status: active
+        display_name: 王江兒
+        merged_into_person_id: null
   other: []
 ---
 
@@ -607,11 +644,13 @@ relationships:
 | descendants | p_ii71MNmYm2yb9MzkjFFByN | 王年姐 | accepted |
 | descendants | p_YmNxijr2RLEx7qAyDE6TES | 王外喜 | accepted |
 | descendants | p_Z9ox9JmKQWW1z9uPGahbve | 王小喜留 | accepted |
+| descendants | p_qZu1af9VxRfDN8W2dtA7bn | 王江兒 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王弁（CBDB 699373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699373&o=json)
 - [中国历代人物传记资料库：王傅喜（CBDB 699455）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699455&o=json)
+- [中国历代人物传记资料库：王江兒（CBDB 699464）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699464&o=json)
 - [中国历代人物传记资料库：王栲栳兒（CBDB 699451）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699451&o=json)
 - [中国历代人物传记资料库：王六姐（CBDB 699469）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699469&o=json)
 - [中国历代人物传记资料库：王羅兒（CBDB 699460）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699460&o=json)

@@ -4,7 +4,7 @@ id: p_C6bjLHSAeHHQGuDzPtzHHm
 status: active
 merged_into: null
 display_name: 王聰
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王貴
         merged_into_person_id: null
+    - claim:
+        id: c_jx3LNNMgSeUr94Hl0PU9Ux
+        subject_person_id: p_RkPochgzxpvFA64tQ3kM3F
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_C6bjLHSAeHHQGuDzPtzHHm
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Wo_SYRnWJWE11tgdWhQVLR
+          claim_id: c_jx3LNNMgSeUr94Hl0PU9Ux
+          source_id: s_nnhBBUcMvYukzUeCSGGjA8
+          stance: supports
+          locator: 天順四年進士登科錄:一卷，第三甲第五十八名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_nnhBBUcMvYukzUeCSGGjA8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王雲（CBDB 320029）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320029&o=json
+            external_identifier: CBDB:320029
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.046Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_RkPochgzxpvFA64tQ3kM3F
+        status: active
+        display_name: 王雲
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_5U2hJxhV3aXwYznzKRDy72 | 王俊 | accepted |
 | ancestors | p_ia6RSiRfMMZkxba2rTyXJg | 王貴 | accepted |
+| ancestors | p_RkPochgzxpvFA64tQ3kM3F | 王雲 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王聰（CBDB 198814）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198814&o=json)
 - [中国历代人物传记资料库：王貴（CBDB 320018）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320018&o=json)
 - [中国历代人物传记资料库：王俊（CBDB 320040）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320040&o=json)
+- [中国历代人物传记资料库：王雲（CBDB 320029）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320029&o=json)

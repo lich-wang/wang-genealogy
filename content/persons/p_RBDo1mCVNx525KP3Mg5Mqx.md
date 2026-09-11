@@ -4,7 +4,7 @@ id: p_RBDo1mCVNx525KP3Mg5Mqx
 status: active
 merged_into: null
 display_name: 王鉞
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_FIY87YS9brHm8k-ImycOTD
+        subject_person_id: p_RBDo1mCVNx525KP3Mg5Mqx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KesiNQLM6qJRi25qiHTy12
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EH9l9zgNhhzXsWPcCcqiFK
+          claim_id: c_FIY87YS9brHm8k-ImycOTD
+          source_id: s_LvQUHn3wqMLHWJ277GDesV
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第一百七十四名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_KesiNQLM6qJRi25qiHTy12
+        status: active
+        display_name: 王命新
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_KesiNQLM6qJRi25qiHTy12 | 王命新 | accepted |
 
 ## 外部来源
 

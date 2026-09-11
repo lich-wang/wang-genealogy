@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王𬘘
 cbdb_id: 32178
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -206,6 +206,43 @@ relationships:
         status: active
         display_name: 王处廉
         merged_into_person_id: null
+    - claim:
+        id: c_Rsa4ryC4oc9FaDmkXh2yFa
+        subject_person_id: p_S4N2Cev8cRhe7jcPfNaRgM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jcRs628fmTNgkA6qAAYtH9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ORG7N3wJ5bXTfl562IGYOF
+          claim_id: c_Rsa4ryC4oc9FaDmkXh2yFa
+          source_id: s_S3QZnAK5T62oAi1ZixcCai
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_S3QZnAK5T62oAi1ZixcCai
+            source_type: api_record
+            title: 中国历代人物传记资料库：王處廉（CBDB 32173）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=32173&o=json
+            external_identifier: CBDB:32173
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.047Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_S4N2Cev8cRhe7jcPfNaRgM
+        status: active
+        display_name: 王處廉
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -231,11 +268,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_LhrXSwBKuTqBng4RsWfQ9E | 王处廉 | accepted |
+| parents | p_S4N2Cev8cRhe7jcPfNaRgM | 王處廉 | accepted |
 
 ## 外部来源
 
 - [维基数据：王𬘘（Q45421044）](https://www.wikidata.org/wiki/Q45421044)
 - [維基數據：王处廉（Q45421031）](https://www.wikidata.org/wiki/Q45421031)
+- [中国历代人物传记资料库：王處廉（CBDB 32173）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=32173&o=json)
 - [中文维基文库：新唐書/卷072中](https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7072%E4%B8%AD)
-- [CBDB 中国历代人物传记资料库：王處廉（32173）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=32173&o=json)
 - [CBDB 中国历代人物传记资料库：王紞（32178）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=32178&o=json)

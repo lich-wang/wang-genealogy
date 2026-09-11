@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王惠忠
 cbdb_id: 140752
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -248,6 +248,43 @@ relationships:
         status: active
         display_name: 王謙
         merged_into_person_id: null
+    - claim:
+        id: c_3uEBM9DokkYVenFi2OtneH
+        subject_person_id: p_YN2bi35jN8EKBymoEEUjxN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rik64ggwrZJYQxKGEo3ucr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DvrqtsbkLCwI4YL-p29_ix
+          claim_id: c_3uEBM9DokkYVenFi2OtneH
+          source_id: s_96XL3YscTyFK1NjJnsrWTr
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 486：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_96XL3YscTyFK1NjJnsrWTr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王堅（CBDB 153009）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153009&o=json
+            external_identifier: CBDB:153009
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.856Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_rik64ggwrZJYQxKGEo3ucr
+        status: active
+        display_name: 王堅
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -275,9 +312,11 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_JcLDd2AkhQG4nQStq42FNC | 王溥 | accepted |
 | children | p_NS1mz4neVtmCjgNPA3zWwT | 王謙 | accepted |
+| children | p_rik64ggwrZJYQxKGEo3ucr | 王堅 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王惠忠（CBDB 140752）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140752&o=json)
+- [中国历代人物传记资料库：王堅（CBDB 153009）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153009&o=json)
 - [中国历代人物传记资料库：王溥（CBDB 153010）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153010&o=json)
 - [中国历代人物传记资料库：王謙（CBDB 153011）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153011&o=json)

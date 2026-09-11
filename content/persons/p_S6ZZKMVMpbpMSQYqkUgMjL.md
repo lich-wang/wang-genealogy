@@ -4,7 +4,7 @@ id: p_S6ZZKMVMpbpMSQYqkUgMjL
 status: active
 merged_into: null
 display_name: 王晞亮
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -153,6 +153,32 @@ relationships:
         status: active
         display_name: 王太沖
         merged_into_person_id: null
+    - claim:
+        id: c_VJ4vUUH0OWTC991l3PQUNs
+        subject_person_id: p_S6ZZKMVMpbpMSQYqkUgMjL
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_e8fyUGVWsewm8vpP5EJCF4
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CYoah6yESkJfaTJgvWiwix
+          claim_id: c_VJ4vUUH0OWTC991l3PQUNs
+          source_id: s_x1FrR6DF9GxLpn7La1NHdM
+          stance: supports
+          locator: 寶祐登科錄：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_e8fyUGVWsewm8vpP5EJCF4
+        status: active
+        display_name: 王民望
+        merged_into_person_id: null
   other: []
 ---
 
@@ -173,6 +199,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_Fo5H89gRd1G7FrWqXFVXtt | 王節 | accepted |
 | descendants | p_2cNRhGJDHAsgPbraYrpQmk | 王太沖 | accepted |
+| descendants | p_e8fyUGVWsewm8vpP5EJCF4 | 王民望 | accepted |
 
 ## 外部来源
 

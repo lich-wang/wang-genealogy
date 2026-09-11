@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王時儉
 cbdb_id: 203083
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_URqAOpyRYOCgONjQ4538Js
+        subject_person_id: p_rLGPWGvpfkyHQHmKKEMECW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VC8bBPzAyQehLYq3eBykXc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rtyQa2s94J13v7lqq8S2M_
+          claim_id: c_URqAOpyRYOCgONjQ4538Js
+          source_id: s_y5BosZXGh6a3zPCcNM7ZwN
+          stance: supports
+          locator: 嘉靖十七年進士登科錄:一卷，第二甲第七十九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_y5BosZXGh6a3zPCcNM7ZwN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王縉（CBDB 299500）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299500&o=json
+            external_identifier: CBDB:299500
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.606Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_rLGPWGvpfkyHQHmKKEMECW
+        status: active
+        display_name: 王縉
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,11 +266,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_rLGPWGvpfkyHQHmKKEMECW | 王縉 | accepted |
 | ancestors | p_JaCmStE8FQ4hMkB4kTj6HJ | 王宗道 | accepted |
 | ancestors | p_Pu2x9TKf86JgQ9g7MASE5D | 王繼 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王繼（CBDB 299499）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299499&o=json)
+- [中国历代人物传记资料库：王縉（CBDB 299500）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299500&o=json)
 - [中国历代人物传记资料库：王時儉（CBDB 203083）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203083&o=json)
 - [中国历代人物传记资料库：王宗道（CBDB 299498）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299498&o=json)

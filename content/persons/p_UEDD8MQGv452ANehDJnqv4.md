@@ -4,7 +4,7 @@ id: p_UEDD8MQGv452ANehDJnqv4
 status: active
 merged_into: null
 display_name: 王元臣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_PTqRf_Q0N_RAf7taXsM7yN
+        subject_person_id: p_UEDD8MQGv452ANehDJnqv4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RG86AZdrrpvcCw5F2RpuhG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SK2zR_a834Dein12WlKyxb
+          claim_id: c_PTqRf_Q0N_RAf7taXsM7yN
+          source_id: s_L1xS3GbeMRQ7Ji6hnia1FW
+          stance: supports
+          locator: 瓜洲志，Igid=124458：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_L1xS3GbeMRQ7Ji6hnia1FW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文仁（CBDB 551058）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551058&o=json
+            external_identifier: CBDB:551058
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.505Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_RG86AZdrrpvcCw5F2RpuhG
+        status: active
+        display_name: 王文仁
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_RG86AZdrrpvcCw5F2RpuhG | 王文仁 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王文仁（CBDB 551058）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551058&o=json)
 - [中国历代人物传记资料库：王元臣（CBDB 551057）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551057&o=json)

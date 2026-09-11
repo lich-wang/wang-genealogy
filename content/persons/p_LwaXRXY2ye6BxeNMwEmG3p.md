@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王孫熙
 cbdb_id: 341964
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_DdGbMt03SP8swDYZhpPwVl
+        subject_person_id: p_LwaXRXY2ye6BxeNMwEmG3p
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qZde1YWyoymUECzGfFP5xG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CDoLQqXj3WbP4wHu0mlItK
+          claim_id: c_DdGbMt03SP8swDYZhpPwVl
+          source_id: s_Yocg3ZtRGwJuob28J67uy4
+          stance: supports
+          locator: 江南通志，lgid=65753：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Yocg3ZtRGwJuob28J67uy4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元瑞（CBDB 341777）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=341777&o=json
+            external_identifier: CBDB:341777
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.704Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_qZde1YWyoymUECzGfFP5xG
+        status: active
+        display_name: 王元瑞
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_qZde1YWyoymUECzGfFP5xG | 王元瑞 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王孫熙（CBDB 341964）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=341964&o=json)
+- [中国历代人物传记资料库：王元瑞（CBDB 341777）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=341777&o=json)

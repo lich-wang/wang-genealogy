@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王友玉
 cbdb_id: 143321
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -178,7 +178,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_HfGd_9Bz6OxBPkNcWwu-mi
+        subject_person_id: p_xnFCV6EtnypuEAvQtMf7G3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_SA1Cy3AMjvA4DEqRLoYzP9
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BYH9XoEPH18-w9PLaQgrlk
+          claim_id: c_HfGd_9Bz6OxBPkNcWwu-mi
+          source_id: s_5dj9PmvfN9RriuwAhNp9Rh
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Baoli2：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5dj9PmvfN9RriuwAhNp9Rh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文某（CBDB 166390）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166390&o=json
+            external_identifier: CBDB:166390
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.986Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_SA1Cy3AMjvA4DEqRLoYzP9
+        status: active
+        display_name: 王文某
+        merged_into_person_id: null
   other: []
 ---
 
@@ -199,7 +236,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_SA1Cy3AMjvA4DEqRLoYzP9 | 王文某 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王文某（CBDB 166390）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166390&o=json)
 - [中国历代人物传记资料库：王友玉（CBDB 143321）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143321&o=json)

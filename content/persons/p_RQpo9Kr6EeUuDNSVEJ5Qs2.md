@@ -4,7 +4,7 @@ id: p_RQpo9Kr6EeUuDNSVEJ5Qs2
 status: active
 merged_into: null
 display_name: 王文進
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_-R72gV9C361EQCzsADpPrG
+        subject_person_id: p_RQpo9Kr6EeUuDNSVEJ5Qs2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XJXudkaLuCHVbmiCeKBv45
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_e8Wb7itaolHGz1EDWLiAcx
+          claim_id: c_-R72gV9C361EQCzsADpPrG
+          source_id: s_nhVzFWj9zSZEt9UDw1GYD7
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第三十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_XJXudkaLuCHVbmiCeKBv45
+        status: active
+        display_name: 王官
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_XJXudkaLuCHVbmiCeKBv45 | 王官 | accepted |
 
 ## 外部来源
 

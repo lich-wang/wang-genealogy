@@ -4,7 +4,7 @@ id: p_rqM74DkLDiMSiVKLPpFCkD
 status: active
 merged_into: null
 display_name: 王惟一
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_mhPFGh8Tcn6OCQPwy45Ds_
+        subject_person_id: p_rqM74DkLDiMSiVKLPpFCkD
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ABKTQQtBYcaiLNDKfsdoKa
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DfVV9gNaOQOQ7ovt0hRjJt
+          claim_id: c_mhPFGh8Tcn6OCQPwy45Ds_
+          source_id: s_Gmg6CxitXWzCLxo9Pojk44
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，四九五  甘文望夫人吳氏壙記：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ABKTQQtBYcaiLNDKfsdoKa
+        status: active
+        display_name: 王夢良
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_ABKTQQtBYcaiLNDKfsdoKa | 王夢良 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_oBg2fph2HQeUi63Z2hsgrx
 status: active
 merged_into: null
 display_name: 王壽卿
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -204,6 +204,43 @@ relationships:
         status: active
         display_name: 王增
         merged_into_person_id: null
+    - claim:
+        id: c_qtn_5yFFWWZ0PkvR9Y5mfE
+        subject_person_id: p_oBg2fph2HQeUi63Z2hsgrx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_r23Mjh17v9LxSiwxUqwmHn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zE1ORa-cvPwU9vaNjRIGJL
+          claim_id: c_qtn_5yFFWWZ0PkvR9Y5mfE
+          source_id: s_VKy9QTDkP8u4QRDMKh5dhz
+          stance: supports
+          locator: 芒洛冢墓遺文四編，王魯翁墓志：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_VKy9QTDkP8u4QRDMKh5dhz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王垍（CBDB 573318）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=573318&o=json
+            external_identifier: CBDB:573318
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.898Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_r23Mjh17v9LxSiwxUqwmHn
+        status: active
+        display_name: 王垍
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -268,10 +305,12 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_pQjpjr9KSjEKYM5W2R2irU | 王劭 | accepted |
 | children | p_qTF39NbQHAL7sMgCZfcHxN | 王增 | accepted |
+| children | p_r23Mjh17v9LxSiwxUqwmHn | 王垍 | accepted |
 | ancestors | p_fhGLq1GVtXqSnULUHt98dB | 王宗立 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王垍（CBDB 573318）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=573318&o=json)
 - [中国历代人物传记资料库：王劭（CBDB 573316）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=573316&o=json)
 - [中国历代人物传记资料库：王壽卿（CBDB 38223）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38223&o=json)
 - [中国历代人物传记资料库：王增（CBDB 573317）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=573317&o=json)

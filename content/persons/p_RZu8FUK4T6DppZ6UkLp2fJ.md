@@ -4,7 +4,7 @@ id: p_RZu8FUK4T6DppZ6UkLp2fJ
 status: active
 merged_into: null
 display_name: 王寶
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_dp-2e34sMixmTRrYndyyb_
+        subject_person_id: p_RZu8FUK4T6DppZ6UkLp2fJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_EbU5HxFXjQt3D8gkdNvhGE
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mdC18t3JDO9k8Olx0TqFk-
+          claim_id: c_dp-2e34sMixmTRrYndyyb_
+          source_id: s_uYtdjwrZsaCBP22Z2x9cH5
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第二甲第五十三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_EbU5HxFXjQt3D8gkdNvhGE
+        status: active
+        display_name: 王之麟
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_EbU5HxFXjQt3D8gkdNvhGE | 王之麟 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_r1Eok1MVUkgv9Psaq8rq3F
 status: active
 merged_into: null
 display_name: 王紹祖
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_ovm0NcPqlVE50miEGV8TCT
+        subject_person_id: p_TXTXwSryWLUp2Edx6YAYPe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_r1Eok1MVUkgv9Psaq8rq3F
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VA_m0_9UKExHktVKIYC_kF
+          claim_id: c_ovm0NcPqlVE50miEGV8TCT
+          source_id: s_8ofiJ5JfznNAojkrW1ajzR
+          stance: supports
+          locator: 全宋文，卷 5677：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_TXTXwSryWLUp2Edx6YAYPe
+        status: active
+        display_name: 王永年
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_TXTXwSryWLUp2Edx6YAYPe | 王永年 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_WF551B42q65ujmx95gTJGt
 status: active
 merged_into: null
 display_name: 王綖
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -208,6 +208,43 @@ relationships:
         status: active
         display_name: 王福榮
         merged_into_person_id: null
+    - claim:
+        id: c_cCoHWVg6otc4naNeIT6LyY
+        subject_person_id: p_RCPYt29wJNBVHLBjSXqQWe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_WF551B42q65ujmx95gTJGt
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__feYknd9qAcD8wZewpV9go
+          claim_id: c_cCoHWVg6otc4naNeIT6LyY
+          source_id: s_X4tsEkaPh9rAC2QzUXjUG8
+          stance: supports
+          locator: 弘治十八年進士登科錄:一卷，第二甲第十一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_X4tsEkaPh9rAC2QzUXjUG8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王貴（CBDB 272831）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272831&o=json
+            external_identifier: CBDB:272831
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.893Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_RCPYt29wJNBVHLBjSXqQWe
+        status: active
+        display_name: 王貴
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_mCtAQA38FjMf51Dp9sA6Hp | 王溥 | accepted |
 | ancestors | p_4645iYbkHLJUi3dawpW4di | 王福榮 | accepted |
+| ancestors | p_RCPYt29wJNBVHLBjSXqQWe | 王貴 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王福榮（CBDB 272830）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272830&o=json)
+- [中国历代人物传记资料库：王貴（CBDB 272831）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272831&o=json)
 - [中国历代人物传记资料库：王溥（CBDB 272832）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272832&o=json)
 - [中国历代人物传记资料库：王綖（CBDB 126771）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126771&o=json)

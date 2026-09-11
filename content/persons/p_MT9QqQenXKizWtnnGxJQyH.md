@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王輦
 cbdb_id: 205182
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,7 +129,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_GTyKZ3w_Znap-K66YHd5l9
+        subject_person_id: p_rhYt9t4gYuDEpCnQq4aywZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MT9QqQenXKizWtnnGxJQyH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k8EY4a8Gz_njIp-qBgVYRu
+          claim_id: c_GTyKZ3w_Znap-K66YHd5l9
+          source_id: s_SzSeGZ9EqJCgsqiPZLij7C
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第二百零九名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_SzSeGZ9EqJCgsqiPZLij7C
+            source_type: api_record
+            title: 中国历代人物传记资料库：王利（CBDB 329344）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329344&o=json
+            external_identifier: CBDB:329344
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.319Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_rhYt9t4gYuDEpCnQq4aywZ
+        status: active
+        display_name: 王利
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,11 +266,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_rhYt9t4gYuDEpCnQq4aywZ | 王利 | accepted |
 | ancestors | p_fB2f5kPaQE17EaQLtLH8C3 | 王憲 | accepted |
 | ancestors | p_gWZRdtNLriuX74JT7yL7TH | 王佐 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王利（CBDB 329344）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329344&o=json)
 - [中国历代人物传记资料库：王輦（CBDB 205182）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205182&o=json)
 - [中国历代人物传记资料库：王憲（CBDB 329341）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329341&o=json)
 - [中国历代人物传记资料库：王佐（CBDB 329342）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329342&o=json)

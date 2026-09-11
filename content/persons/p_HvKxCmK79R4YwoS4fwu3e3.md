@@ -4,7 +4,7 @@ id: p_HvKxCmK79R4YwoS4fwu3e3
 status: active
 merged_into: null
 display_name: 王璽
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,43 @@ relationships:
         status: active
         display_name: 王克銘
         merged_into_person_id: null
+    - claim:
+        id: c_KZWR-Fyg4HIGxLc2AY9RN4
+        subject_person_id: p_sBg3cskAEC4VP4zx8fzJFq
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_HvKxCmK79R4YwoS4fwu3e3
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E7A6DgOGmvo5mDXTdGie1a
+          claim_id: c_KZWR-Fyg4HIGxLc2AY9RN4
+          source_id: s_r744nw9fMLvCXKQJavt4qE
+          stance: supports
+          locator: 天順四年進士登科錄:一卷，第三甲第一百零二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_r744nw9fMLvCXKQJavt4qE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王六（CBDB 324096）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324096&o=json
+            external_identifier: CBDB:324096
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.159Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_sBg3cskAEC4VP4zx8fzJFq
+        status: active
+        display_name: 王六
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_q794sLSCL4J2grKV4vicPg | 王時佐 | accepted |
 | ancestors | p_Gf7GU7Np8Jdkb6BBsuBjFS | 王克銘 | accepted |
+| ancestors | p_sBg3cskAEC4VP4zx8fzJFq | 王六 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王克銘（CBDB 324108）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324108&o=json)
+- [中国历代人物传记资料库：王六（CBDB 324096）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324096&o=json)
 - [中国历代人物传记资料库：王時佐（CBDB 324119）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324119&o=json)
 - [中国历代人物传记资料库：王璽（CBDB 198852）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198852&o=json)

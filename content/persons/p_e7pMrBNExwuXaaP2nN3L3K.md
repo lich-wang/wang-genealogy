@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王恩注
 cbdb_id: 343468
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -86,7 +86,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_7i9m4UaRxfhPQyKpRjgdz7
+        subject_person_id: p_S5BzyH9t7zFnWJULzKKDHD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_e7pMrBNExwuXaaP2nN3L3K
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hMsfLg0aXP804r8sXLqVzZ
+          claim_id: c_7i9m4UaRxfhPQyKpRjgdz7
+          source_id: s_N1brtA1g5JB3LW7kMfiipR
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160565：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_N1brtA1g5JB3LW7kMfiipR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王佩蘭（CBDB 551491）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551491&o=json
+            external_identifier: CBDB:551491
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.602Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_S5BzyH9t7zFnWJULzKKDHD
+        status: active
+        display_name: 王佩蘭
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_S5BzyH9t7zFnWJULzKKDHD | 王佩蘭 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王恩注（CBDB 343468）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=343468&o=json)
+- [中国历代人物传记资料库：王佩蘭（CBDB 551491）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551491&o=json)

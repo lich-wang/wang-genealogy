@@ -4,7 +4,7 @@ id: p_T2DCj9d6XKU4djHJMs2kSM
 status: active
 merged_into: null
 display_name: 王恕
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -204,6 +204,43 @@ relationships:
         status: active
         display_name: 王承裕
         merged_into_person_id: null
+    - claim:
+        id: c_PlaOK-v-kwb-SP3IULbI90
+        subject_person_id: p_T2DCj9d6XKU4djHJMs2kSM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Rt8zszeV3ee7gT623mGP46
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9dCrBEC12oiTUP5Ft9PemV
+          claim_id: c_PlaOK-v-kwb-SP3IULbI90
+          source_id: s_LtkxDWZVxbk8hKaa71BMa1
+          stance: supports
+          locator: 王文恪公集:三十六卷，29.5a：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_LtkxDWZVxbk8hKaa71BMa1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王承祥（CBDB 264048）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264048&o=json
+            external_identifier: CBDB:264048
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.632Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Rt8zszeV3ee7gT623mGP46
+        status: active
+        display_name: 王承祥
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_GuMVVJrYyjeKWA3Y94GdUk | 王承祜 | accepted |
 | children | p_j4RsuRBKFYJbK5j9md2YXD | 王承裕 | accepted |
+| children | p_Rt8zszeV3ee7gT623mGP46 | 王承祥 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王承祜（CBDB 264044）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264044&o=json)
+- [中国历代人物传记资料库：王承祥（CBDB 264048）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264048&o=json)
 - [中国历代人物传记资料库：王承裕（CBDB 67772）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67772&o=json)
 - [中国历代人物传记资料库：王恕（CBDB 62505）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=62505&o=json)

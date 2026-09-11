@@ -4,7 +4,7 @@ id: p_r7UvWenhP43z4nowVRc2BP
 status: active
 merged_into: null
 display_name: 王希仙
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_G_EALxAHzKFY-c8V_3aFi5
+        subject_person_id: p_r7UvWenhP43z4nowVRc2BP
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_YmdsA8EmYfF27LWV9ms1VW
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ClHGl4_LDpVHmfDzvvwESg
+          claim_id: c_G_EALxAHzKFY-c8V_3aFi5
+          source_id: s_L6xZiK78HFM936BTAdqguQ
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第三甲第十八名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_YmdsA8EmYfF27LWV9ms1VW
+        status: active
+        display_name: 王孝忠
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_YmdsA8EmYfF27LWV9ms1VW | 王孝忠 | accepted |
 
 ## 外部来源
 

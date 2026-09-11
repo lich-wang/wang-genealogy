@@ -4,7 +4,7 @@ id: p_SbrXp7MmBDQe8Ew48WyHUM
 status: active
 merged_into: null
 display_name: 王敬
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_lzmTaT4dPxxBYWb0pCx03K
+        subject_person_id: p_SbrXp7MmBDQe8Ew48WyHUM
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_RCL72tBj6tofvSVsLY2voQ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xDvR7NE5qmHPAK95HumIDC
+          claim_id: c_lzmTaT4dPxxBYWb0pCx03K
+          source_id: s_m21docN3irQGPH5tihRQvg
+          stance: supports
+          locator: 弘治十八年進士登科錄:一卷，第三甲第九十一名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_RCL72tBj6tofvSVsLY2voQ
+        status: active
+        display_name: 王希孟
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_RCL72tBj6tofvSVsLY2voQ | 王希孟 | accepted |
 
 ## 外部来源
 
