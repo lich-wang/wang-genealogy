@@ -4,7 +4,7 @@ id: p_77xZoKtiK3NRKg79yXDSya
 status: active
 merged_into: null
 display_name: 王璟
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_wBKFHZj6dbtOvXT1mg8RbU
+        subject_person_id: p_xPMcLgCawstxHLrk7HL4Nq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_77xZoKtiK3NRKg79yXDSya
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uBZGGBLF5ILGVdVAE_mb4_
+          claim_id: c_wBKFHZj6dbtOvXT1mg8RbU
+          source_id: s_RVFBxD1wdCHL5QQhGSeNeN
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第三甲第六十一名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xPMcLgCawstxHLrk7HL4Nq
+        status: active
+        display_name: 王本立
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_40jwIpLAYSkwZaPyWLMOi0
+        subject_person_id: p_eHcMXDF8n8NPXXvbJdueDD
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_77xZoKtiK3NRKg79yXDSya
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-vXlmAivEGPlq-BA21XsK4
+          claim_id: c_40jwIpLAYSkwZaPyWLMOi0
+          source_id: s_RVFBxD1wdCHL5QQhGSeNeN
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第三甲第六十一名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_eHcMXDF8n8NPXXvbJdueDD
+        status: active
+        display_name: 王文
+        merged_into_person_id: null
+    - claim:
+        id: c_wFqklOD0EhTgeXDkDBFiBE
+        subject_person_id: p_oWKPrdFpk8uWf8iXGuzqMB
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_77xZoKtiK3NRKg79yXDSya
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0FPAzByuxdSZyQmIClax_h
+          claim_id: c_wFqklOD0EhTgeXDkDBFiBE
+          source_id: s_RVFBxD1wdCHL5QQhGSeNeN
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第三甲第六十一名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oWKPrdFpk8uWf8iXGuzqMB
+        status: active
+        display_name: 王原清
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xPMcLgCawstxHLrk7HL4Nq | 王本立 | accepted |
+| ancestors | p_eHcMXDF8n8NPXXvbJdueDD | 王文 | accepted |
+| ancestors | p_oWKPrdFpk8uWf8iXGuzqMB | 王原清 | accepted |
 
 ## 外部来源
 

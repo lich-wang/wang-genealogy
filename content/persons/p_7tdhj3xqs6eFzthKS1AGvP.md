@@ -4,7 +4,7 @@ id: p_7tdhj3xqs6eFzthKS1AGvP
 status: active
 merged_into: null
 display_name: 王璘
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_3fAWzm0F_22INWk_aEkJVH
+        subject_person_id: p_aR7p28hCpPSCDFnd7Y6HJL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7tdhj3xqs6eFzthKS1AGvP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lxwcSWZoj-XmkeqREpwNFY
+          claim_id: c_3fAWzm0F_22INWk_aEkJVH
+          source_id: s_eR9PHtQEPTH88NL4Vr3m5H
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第一百四十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_aR7p28hCpPSCDFnd7Y6HJL
+        status: active
+        display_name: 王秉惠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_e4uAVQ-CVv4wTaZO9RuTNU
+        subject_person_id: p_x6G3XwPgqHG14t88dwo3Vd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_7tdhj3xqs6eFzthKS1AGvP
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DYx4UdK3cTN3rjU8_aPwep
+          claim_id: c_e4uAVQ-CVv4wTaZO9RuTNU
+          source_id: s_eR9PHtQEPTH88NL4Vr3m5H
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第一百四十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_x6G3XwPgqHG14t88dwo3Vd
+        status: active
+        display_name: 王文姜
+        merged_into_person_id: null
+    - claim:
+        id: c_AX0PSc24WcNPmtRDeV_PK9
+        subject_person_id: p_w6cWAgmTWF9XZ318UHjSya
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_7tdhj3xqs6eFzthKS1AGvP
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Tkw-y2BNCjDSFZdHBsVjRM
+          claim_id: c_AX0PSc24WcNPmtRDeV_PK9
+          source_id: s_eR9PHtQEPTH88NL4Vr3m5H
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第一百四十三名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_w6cWAgmTWF9XZ318UHjSya
+        status: active
+        display_name: 王思與
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_aR7p28hCpPSCDFnd7Y6HJL | 王秉惠 | accepted |
+| ancestors | p_x6G3XwPgqHG14t88dwo3Vd | 王文姜 | accepted |
+| ancestors | p_w6cWAgmTWF9XZ318UHjSya | 王思與 | accepted |
 
 ## 外部来源
 

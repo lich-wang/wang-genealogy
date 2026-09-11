@@ -4,7 +4,7 @@ id: p_7aKyC49Foj81yU2JAL4fyu
 status: active
 merged_into: null
 display_name: 王子奇
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,164 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_TaZk0-0zOHEXoNQqGGiwWd
+        subject_person_id: p_AdgrHD2drpt44saj1nVHwe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7aKyC49Foj81yU2JAL4fyu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_je6roKwkY0PHG3ZFOicAQo
+          claim_id: c_TaZk0-0zOHEXoNQqGGiwWd
+          source_id: s_jD1DQDPJHvcnrhPP4C6vAU
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_AdgrHD2drpt44saj1nVHwe
+        status: active
+        display_name: 王孝京
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_k6fzCBZ6Sf4Wu1a-agCGT1
+        subject_person_id: p_7aKyC49Foj81yU2JAL4fyu
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NCS3HnSp4Dd5E3wHDitrKB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-MUuFc-yK05sKQdRwo74Xk
+          claim_id: c_k6fzCBZ6Sf4Wu1a-agCGT1
+          source_id: s_jD1DQDPJHvcnrhPP4C6vAU
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Shengli 17：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NCS3HnSp4Dd5E3wHDitrKB
+        status: active
+        display_name: 王慶祚
+        merged_into_person_id: null
+    - claim:
+        id: c_J3MtByDzbPvrDhG89VELo5
+        subject_person_id: p_7aKyC49Foj81yU2JAL4fyu
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FZBVJd6jbuAX1MdG4pCguo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SQA8Of3wxxiP3yE7ufATMK
+          claim_id: c_J3MtByDzbPvrDhG89VELo5
+          source_id: s_jD1DQDPJHvcnrhPP4C6vAU
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_FZBVJd6jbuAX1MdG4pCguo
+        status: active
+        display_name: 王慶賢
+        merged_into_person_id: null
+    - claim:
+        id: c_ULXlUDoUJJeJ3Ss2n9nual
+        subject_person_id: p_7aKyC49Foj81yU2JAL4fyu
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HbKpidhDiRmUPur5YohRi2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1vxx4nSbxIMk0_GMqD7_Cb
+          claim_id: c_ULXlUDoUJJeJ3Ss2n9nual
+          source_id: s_jD1DQDPJHvcnrhPP4C6vAU
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_HbKpidhDiRmUPur5YohRi2
+        status: active
+        display_name: 王慶符
+        merged_into_person_id: null
+    - claim:
+        id: c_xj3lbrLiwBLh7DEz1Yq2iY
+        subject_person_id: p_7aKyC49Foj81yU2JAL4fyu
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iu9UaxBeRfU2eFCxfWLHRN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OYetepeUkKhPYAtT5Ann45
+          claim_id: c_xj3lbrLiwBLh7DEz1Yq2iY
+          source_id: s_jD1DQDPJHvcnrhPP4C6vAU
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iu9UaxBeRfU2eFCxfWLHRN
+        status: active
+        display_name: 王慶詵
+        merged_into_person_id: null
+    - claim:
+        id: c_PqjhfglAfa9vuXjO36DDFy
+        subject_person_id: p_7aKyC49Foj81yU2JAL4fyu
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UK93VBS5BK4cKhhMFBCUAP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EMfO4Hh0oKF5byhrFFG_AX
+          claim_id: c_PqjhfglAfa9vuXjO36DDFy
+          source_id: s_jD1DQDPJHvcnrhPP4C6vAU
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UK93VBS5BK4cKhhMFBCUAP
+        status: active
+        display_name: 王慶玄
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +253,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_AdgrHD2drpt44saj1nVHwe | 王孝京 | accepted |
+| children | p_NCS3HnSp4Dd5E3wHDitrKB | 王慶祚 | accepted |
+| children | p_FZBVJd6jbuAX1MdG4pCguo | 王慶賢 | accepted |
+| children | p_HbKpidhDiRmUPur5YohRi2 | 王慶符 | accepted |
+| children | p_iu9UaxBeRfU2eFCxfWLHRN | 王慶詵 | accepted |
+| children | p_UK93VBS5BK4cKhhMFBCUAP | 王慶玄 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 张氏
 cbdb_id: 333177
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,6 +172,43 @@ relationships:
         status: active
         display_name: 王轼
         merged_into_person_id: null
+    - claim:
+        id: c_67biqzvgcgpynP-C_2Fo7K
+        subject_person_id: p_8kvzu18KWCHGBJbrWxW4b9
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_bwYb87M6DFugTWUd97Rhq5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7kYBibFEaYZkBck7c163yc
+          claim_id: c_67biqzvgcgpynP-C_2Fo7K
+          source_id: s_dizqWBK4gRWFn4mBpUaSGR
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第十二名：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_dizqWBK4gRWFn4mBpUaSGR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王軾（CBDB 67466）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67466&o=json
+            external_identifier: CBDB:67466
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.995Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8kvzu18KWCHGBJbrWxW4b9
+        status: active
+        display_name: 王軾
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -193,10 +230,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_NPncefunYMmyKCiKheCMKZ | 王轼 | accepted |
+| spouses | p_8kvzu18KWCHGBJbrWxW4b9 | 王軾 | accepted |
 
 ## 外部来源
 
 - [维基数据：王轼（Q15912162）](https://www.wikidata.org/wiki/Q15912162)
 - [维基数据：张氏（Q65860464）](https://www.wikidata.org/wiki/Q65860464)
-- [CBDB 中国历代人物传记资料库：王軾（67466）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67466&o=json)
+- [中国历代人物传记资料库：王軾（CBDB 67466）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67466&o=json)
 - [CBDB 中国历代人物传记资料库：張氏（333177）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333177&o=json)

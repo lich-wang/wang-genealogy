@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王原相
 cbdb_id: 205067
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -294,7 +294,44 @@ relationships:
         status: active
         display_name: 赵氏
         merged_into_person_id: null
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_eceXXTDt7-K24kv73kNLGp
+        subject_person_id: p_88E2kZdSA7Md5JrUtxLyqj
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ghyYDQ5eZ8uxN8ip6BX7KC
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_z8YzETCHuCuMygCI6NP29Q
+          claim_id: c_eceXXTDt7-K24kv73kNLGp
+          source_id: s_gLGAQQLeWBCDGaANhZ8L57
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第六十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_gLGAQQLeWBCDGaANhZ8L57
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑤（CBDB 327865）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327865&o=json
+            external_identifier: CBDB:327865
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.267Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_88E2kZdSA7Md5JrUtxLyqj
+        status: active
+        display_name: 王瑤
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -317,11 +354,13 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_2ER4qeybN68kj6wmWDD4De | 王渐逵 | accepted |
 | spouses | p_hCnqrGYXkPvJd8A849zxFy | 赵氏 | accepted |
+| ancestors | p_88E2kZdSA7Md5JrUtxLyqj | 王瑤 | accepted |
 
 ## 外部来源
 
 - [维基数据：王渐逵（Q15895449）](https://www.wikidata.org/wiki/Q15895449)
 - [维基数据：王原相（Q45551627）](https://www.wikidata.org/wiki/Q45551627)
 - [维基数据：赵氏（Q65854661）](https://www.wikidata.org/wiki/Q65854661)
+- [中国历代人物传记资料库：王瑤（CBDB 327865）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327865&o=json)
 - [中文维基百科：王原相](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8E%9F%E7%9B%B8)
 - [CBDB 中国历代人物传记资料库：王原相（205067）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205067&o=json)

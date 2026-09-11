@@ -4,7 +4,7 @@ id: p_ve3PDbNGqaNQgddGuw2C43
 status: active
 merged_into: null
 display_name: 王燁
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -77,7 +77,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_zh-ojBupqgN1Dvx6DYv-_X
+        subject_person_id: p_75n4ono3HYazm2Qe1pxMfA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ve3PDbNGqaNQgddGuw2C43
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZerQxkteLPp24BzhRBanVF
+          claim_id: c_zh-ojBupqgN1Dvx6DYv-_X
+          source_id: s_Ric6MnHmh2hRXCVaVbcptK
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第三甲第八十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Ric6MnHmh2hRXCVaVbcptK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王衷（CBDB 296929）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296929&o=json
+            external_identifier: CBDB:296929
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.529Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_75n4ono3HYazm2Qe1pxMfA
+        status: active
+        display_name: 王衷
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_75n4ono3HYazm2Qe1pxMfA | 王衷 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王燁（CBDB 126822）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126822&o=json)
+- [中国历代人物传记资料库：王衷（CBDB 296929）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296929&o=json)

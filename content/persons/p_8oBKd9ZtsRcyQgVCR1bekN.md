@@ -4,7 +4,7 @@ id: p_8oBKd9ZtsRcyQgVCR1bekN
 status: active
 merged_into: null
 display_name: 王宣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_xL423APGZyuuW-hGgu5dtd
+        subject_person_id: p_8oBKd9ZtsRcyQgVCR1bekN
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cWTwgVhpSA8gYnzbvXzbFc
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0ZGNTQ8CSL-7_PYesNz2Z0
+          claim_id: c_xL423APGZyuuW-hGgu5dtd
+          source_id: s_5RdHAuAGTnHQ8r8vnqdzvD
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第二十八名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_cWTwgVhpSA8gYnzbvXzbFc
+        status: active
+        display_name: 王定安
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_cWTwgVhpSA8gYnzbvXzbFc | 王定安 | accepted |
 
 ## 外部来源
 

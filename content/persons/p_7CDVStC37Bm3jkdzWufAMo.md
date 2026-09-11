@@ -4,7 +4,7 @@ id: p_7CDVStC37Bm3jkdzWufAMo
 status: active
 merged_into: null
 display_name: 王國祥
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ly3Pb8eB8Jk0YdPGqgER57
+        subject_person_id: p_DJcqSVwRMjWd5tk8GAdMxa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7CDVStC37Bm3jkdzWufAMo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_03PIt4qujquFUR_88toxpm
+          claim_id: c_ly3Pb8eB8Jk0YdPGqgER57
+          source_id: s_CkYUU6XYgf6aGXMHUFCdzP
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第一百九十名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DJcqSVwRMjWd5tk8GAdMxa
+        status: active
+        display_name: 王佐
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_DJcqSVwRMjWd5tk8GAdMxa | 王佐 | accepted |
 
 ## 外部来源
 

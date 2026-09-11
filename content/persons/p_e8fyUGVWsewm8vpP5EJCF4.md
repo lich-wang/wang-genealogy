@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王民望
 cbdb_id: 136440
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_R30nqXl1Khd5LlsoOCB389
+        subject_person_id: p_e8fyUGVWsewm8vpP5EJCF4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6yFP175w8qJgJRVTRiUkab
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZocaPGW4hxoGCSOZRYaGUq
+          claim_id: c_R30nqXl1Khd5LlsoOCB389
+          source_id: s_efjbH4VURWrYSiJRiFkgFR
+          stance: supports
+          locator: 寶祐登科錄：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_efjbH4VURWrYSiJRiFkgFR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王一奇（CBDB 12910）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12910&o=json
+            external_identifier: CBDB:12910
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.613Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_6yFP175w8qJgJRVTRiUkab
+        status: active
+        display_name: 王一奇
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_6yFP175w8qJgJRVTRiUkab | 王一奇 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王民望（CBDB 136440）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136440&o=json)
+- [中国历代人物传记资料库：王一奇（CBDB 12910）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12910&o=json)

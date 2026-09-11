@@ -4,7 +4,7 @@ id: p_7K8PDevVjMrMSJG9pemnzS
 status: active
 merged_into: null
 display_name: 王輔臣
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,70 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_8d6-fWzssad08FmMr-uwOy
+        subject_person_id: p_7K8PDevVjMrMSJG9pemnzS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6Wb9m8HN2pMSFqzaxKuxbF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_T2WhAFaYhu0C-1p6OiIPY5
+          claim_id: c_8d6-fWzssad08FmMr-uwOy
+          source_id: s_q8uyhTg8Z4v9Nk5mTpnnRB
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），5363：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_q8uyhTg8Z4v9Nk5mTpnnRB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繼貞（CBDB 520475）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=520475&o=json
+            external_identifier: CBDB:520475
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.314Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_6Wb9m8HN2pMSFqzaxKuxbF
+        status: active
+        display_name: 王繼貞
+        merged_into_person_id: null
+    - claim:
+        id: c_LrYIxsFgdr14v6iHMiddR9
+        subject_person_id: p_7K8PDevVjMrMSJG9pemnzS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yACyJMyRRSG9nPLiR6teqQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_r90o1HZOBPwstYsYY_mqGp
+          claim_id: c_LrYIxsFgdr14v6iHMiddR9
+          source_id: s_5BQSt3bFJhYVuZSKmuwJKR
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），5363：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_yACyJMyRRSG9nPLiR6teqQ
+        status: active
+        display_name: 王吉貞
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,7 +189,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_6Wb9m8HN2pMSFqzaxKuxbF | 王繼貞 | accepted |
+| children | p_yACyJMyRRSG9nPLiR6teqQ | 王吉貞 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王輔臣（CBDB 62015）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=62015&o=json)
+- [中国历代人物传记资料库：王繼貞（CBDB 520475）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=520475&o=json)

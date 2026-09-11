@@ -1,0 +1,84 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-11",
+  "queue_positions": [
+    3511,
+    3520
+  ],
+  "summary": {
+    "reviewed": 10,
+    "relationships_added": 10,
+    "manual_review": 4
+  },
+  "relationships": [
+    {
+      "subject": "p_ynWdfZUbfQVgjARghmAXHi",
+      "object": "p_7SVdDrTGrqKd7fHd7JZ1J7",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_g2dCFSh3L1jfkgQ2AnHkcm",
+      "object": "p_7SVdDrTGrqKd7fHd7JZ1J7",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_Pmst9sDnARAD4KrAUMx2Lv",
+      "object": "p_7SVdDrTGrqKd7fHd7JZ1J7",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_eYTYqcoj54BTfQQyLN9VGt",
+      "object": "p_7SVydL41UGsuFHeEEHBj78",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_x6G3XwPgqHG14t88dwo3Vd",
+      "object": "p_7tdhj3xqs6eFzthKS1AGvP",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_w6cWAgmTWF9XZ318UHjSya",
+      "object": "p_7tdhj3xqs6eFzthKS1AGvP",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_aR7p28hCpPSCDFnd7Y6HJL",
+      "object": "p_7tdhj3xqs6eFzthKS1AGvP",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_bxxh23FAAimQ2ndoytUA4A",
+      "object": "p_7THfMJodZEJjq2hbN5iKFW",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_y1nD4szFzD4sTFzaJzYuTv",
+      "object": "p_7THfMJodZEJjq2hbN5iKFW",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_t8KEZXxBW1dy3kvu8XnvuX",
+      "object": "p_7THfMJodZEJjq2hbN5iKFW",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    }
+  ],
+  "unchanged": [
+    "p_7sUC7gxLgC5hpzjEzPgGuH",
+    "p_7sZNjwMqvL59PRZhNDpau4",
+    "p_7t5WVtNjG29EpGWq1dDNv9",
+    "p_7ti6hEZ9GGw3TL96PZAiSk",
+    "p_7TjynaiBHaTr3dJ4MjFP1c",
+    "p_7tkaZRmVFVWoHakj3kDfaq"
+  ]
+}

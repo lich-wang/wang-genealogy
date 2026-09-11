@@ -4,7 +4,7 @@ id: p_7iitVAMc3DKp3oMEVJh77W
 status: active
 merged_into: null
 display_name: 王能
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Mj9NhUOZ1oLhNoCbcMtLby
+        subject_person_id: p_7iitVAMc3DKp3oMEVJh77W
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qcp613MEZvW9QYvDGgbu1f
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GwXvgwZkOyrbLT78ssoJgW
+          claim_id: c_Mj9NhUOZ1oLhNoCbcMtLby
+          source_id: s_nWM2yTRXMjw7b8yX7AKvg8
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第三甲第十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qcp613MEZvW9QYvDGgbu1f
+        status: active
+        display_name: 王寅
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_qcp613MEZvW9QYvDGgbu1f | 王寅 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_7Qx8tPaJDp6J13vc9TLoHG
 status: active
 merged_into: null
 display_name: 王承寯
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ozIy0dUvJGfpcDOugdtN-j
+        subject_person_id: p_VYq1odoAzsDJtNyT1TGYgS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7Qx8tPaJDp6J13vc9TLoHG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Lpj5duZja-UE0yg7wJcWnV
+          claim_id: c_ozIy0dUvJGfpcDOugdtN-j
+          source_id: s_oh4koM31dgMn3FpegXptqi
+          stance: supports
+          locator: "海鹽縣志: 二十二卷(光緒)，lgid=293886：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_VYq1odoAzsDJtNyT1TGYgS
+        status: active
+        display_name: 王顯一
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_VYq1odoAzsDJtNyT1TGYgS | 王顯一 | accepted |
 
 ## 外部来源
 

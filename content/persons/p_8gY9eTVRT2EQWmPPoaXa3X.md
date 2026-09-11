@@ -4,7 +4,7 @@ id: p_8gY9eTVRT2EQWmPPoaXa3X
 status: active
 merged_into: null
 display_name: 王經
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,12 +73,64 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_fWXZAr-xrHITdNKtGW1ASs
+        subject_person_id: p_8gY9eTVRT2EQWmPPoaXa3X
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_netpjn2vvpbP4gRNZK5nnW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_arHMdzxH67c5uhvW4A5FTm
+          claim_id: c_fWXZAr-xrHITdNKtGW1ASs
+          source_id: s_ACJ8vLgd7tcqS4LiqB3W8Z
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第二百二十七名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_netpjn2vvpbP4gRNZK5nnW
+        status: active
+        display_name: 王畿
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_bWdcdvmRyCUu0T0NatsDEs
+        subject_person_id: p_8gY9eTVRT2EQWmPPoaXa3X
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_desA1uacXT6D2CosVe2Mmy
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XRRcbGB4rwl04cf8MC88kU
+          claim_id: c_bWdcdvmRyCUu0T0NatsDEs
+          source_id: s_ACJ8vLgd7tcqS4LiqB3W8Z
+          stance: supports
+          locator: 萬曆二十年壬辰科進士歷履便覽:一卷，第三甲第二百四十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_desA1uacXT6D2CosVe2Mmy
+        status: active
+        display_name: 王应吉
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_netpjn2vvpbP4gRNZK5nnW | 王畿 | accepted |
+| descendants | p_desA1uacXT6D2CosVe2Mmy | 王应吉 | accepted |
 
 ## 外部来源
 

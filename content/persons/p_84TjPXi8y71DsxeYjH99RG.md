@@ -4,7 +4,7 @@ id: p_84TjPXi8y71DsxeYjH99RG
 status: active
 merged_into: null
 display_name: 王龍
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_qumh4sIxPQGtRfRYI75kOD
+        subject_person_id: p_84TjPXi8y71DsxeYjH99RG
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DA2QvREynL5ZUoyG8V9cNp
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PzRovKNnj9NRz5P-vzWp5g
+          claim_id: c_qumh4sIxPQGtRfRYI75kOD
+          source_id: s_49xgzFB5NBr4mo8s3DtWKL
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第二甲第三十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DA2QvREynL5ZUoyG8V9cNp
+        status: active
+        display_name: 王春澤
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_DA2QvREynL5ZUoyG8V9cNp | 王春澤 | accepted |
 
 ## 外部来源
 

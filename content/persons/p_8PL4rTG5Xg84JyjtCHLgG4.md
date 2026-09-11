@@ -4,7 +4,7 @@ id: p_8PL4rTG5Xg84JyjtCHLgG4
 status: active
 merged_into: null
 display_name: 王謙言
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_IwBcGh7lCOqegRo67cUCnV
+        subject_person_id: p_kWSA4pVK578quoZM6ya5Ji
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8PL4rTG5Xg84JyjtCHLgG4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MKq5SY0wGbB54y7XOD-9mM
+          claim_id: c_IwBcGh7lCOqegRo67cUCnV
+          source_id: s_Gtv58d7QoXVKsBKF6Up77V
+          stance: supports
+          locator: 江西通志，Igid=1197629：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_kWSA4pVK578quoZM6ya5Ji
+        status: active
+        display_name: 王其宖
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_kWSA4pVK578quoZM6ya5Ji | 王其宖 | accepted |
 
 ## 外部来源
 

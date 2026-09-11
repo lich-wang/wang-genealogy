@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王紹某
 cbdb_id: 278854
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_VxlN4EbBh1B7TFsyTSeiPY
+        subject_person_id: p_493jjNvpMG2MDc1hCwrQiK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_87vQWSqin1Cc8rN4TeH3X4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_blwvgHJqux9_g7PWDbgZC6
+          claim_id: c_VxlN4EbBh1B7TFsyTSeiPY
+          source_id: s_KQ6ArrG8dTNSX2Tu6p17mt
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第三甲第一百八十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_KQ6ArrG8dTNSX2Tu6p17mt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王完（CBDB 201827）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201827&o=json
+            external_identifier: CBDB:201827
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.695Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_87vQWSqin1Cc8rN4TeH3X4
+        status: active
+        display_name: 王完
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_87vQWSqin1Cc8rN4TeH3X4 | 王完 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王紹某（CBDB 278854）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278854&o=json)
+- [中国历代人物传记资料库：王完（CBDB 201827）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201827&o=json)

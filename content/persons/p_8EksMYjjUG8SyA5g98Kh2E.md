@@ -4,7 +4,7 @@ id: p_8EksMYjjUG8SyA5g98Kh2E
 status: active
 merged_into: null
 display_name: 王億
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_c5Zcdji6-K96wNUfP1Mmd9
+        subject_person_id: p_8EksMYjjUG8SyA5g98Kh2E
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_vs2bQpvZMdxn2V6wjvzkce
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oA2AX9Dw6JCL2rwITPHPS-
+          claim_id: c_c5Zcdji6-K96wNUfP1Mmd9
+          source_id: s_JyrGitooCVTqANFwiBYCtv
+          stance: supports
+          locator: 成化十七年進士登科錄:一卷，第二甲第五十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vs2bQpvZMdxn2V6wjvzkce
+        status: active
+        display_name: 王瓚
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_vs2bQpvZMdxn2V6wjvzkce | 王瓚 | accepted |
 
 ## 外部来源
 

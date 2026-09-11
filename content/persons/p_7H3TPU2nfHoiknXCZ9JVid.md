@@ -4,7 +4,7 @@ id: p_7H3TPU2nfHoiknXCZ9JVid
 status: active
 merged_into: null
 display_name: 王大化
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,64 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_u_joNMUQi4X2U0AI5aSm4t
+        subject_person_id: p_e5Sidd4uLDXKV7G8RopKVW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7H3TPU2nfHoiknXCZ9JVid
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nZrXtLUyLPImFMstQ8at4D
+          claim_id: c_u_joNMUQi4X2U0AI5aSm4t
+          source_id: s_wCW9jRjL1KypShYP5kjEUG
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第二甲第八十一名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_e5Sidd4uLDXKV7G8RopKVW
+        status: active
+        display_name: 王睿
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_hraBz00qrsrneNr8Ha6RJ4
+        subject_person_id: p_vfBzh9Tg5w9fbvKCkKYmL6
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_7H3TPU2nfHoiknXCZ9JVid
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k87wSlljI_u1kJCVoGMf8E
+          claim_id: c_hraBz00qrsrneNr8Ha6RJ4
+          source_id: s_wCW9jRjL1KypShYP5kjEUG
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第二甲第八十一名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_vfBzh9Tg5w9fbvKCkKYmL6
+        status: active
+        display_name: 王璉
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_e5Sidd4uLDXKV7G8RopKVW | 王睿 | accepted |
+| ancestors | p_vfBzh9Tg5w9fbvKCkKYmL6 | 王璉 | accepted |
 
 ## 外部来源
 

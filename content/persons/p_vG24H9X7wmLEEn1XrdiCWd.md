@@ -4,7 +4,7 @@ id: p_vG24H9X7wmLEEn1XrdiCWd
 status: active
 merged_into: null
 display_name: 王戩
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_FEbVvq9kXgKmcxwujVfCXv
+        subject_person_id: p_8dUxja16QufvjZN3pxCyUU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vG24H9X7wmLEEn1XrdiCWd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EWJE8oil2vaqHfAqAPf7UR
+          claim_id: c_FEbVvq9kXgKmcxwujVfCXv
+          source_id: s_oyfc5UUZtcBsh5HEGaSNXK
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_oyfc5UUZtcBsh5HEGaSNXK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王連（CBDB 169867）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169867&o=json
+            external_identifier: CBDB:169867
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.025Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8dUxja16QufvjZN3pxCyUU
+        status: active
+        display_name: 王連
+        merged_into_person_id: null
   children:
     - claim:
         id: c_34lRrnIRRY1q5tMms6ZQdM
@@ -163,9 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_8dUxja16QufvjZN3pxCyUU | 王連 | accepted |
 | children | p_65g8o6f3iNCjHS9Q5ojrP4 | 王公淑 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王公淑（CBDB 144996）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=144996&o=json)
 - [中国历代人物传记资料库：王戩（CBDB 169453）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169453&o=json)
+- [中国历代人物传记资料库：王連（CBDB 169867）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169867&o=json)

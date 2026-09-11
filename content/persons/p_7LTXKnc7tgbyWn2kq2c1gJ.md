@@ -4,7 +4,7 @@ id: p_7LTXKnc7tgbyWn2kq2c1gJ
 status: active
 merged_into: null
 display_name: 王貴
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_o-3igfWnx-xDL6rlaQmRQl
+        subject_person_id: p_7LTXKnc7tgbyWn2kq2c1gJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_o9X4e64D4iKX33c4myBcBe
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Iab5Z17MrmQDyxha3trxA3
+          claim_id: c_o-3igfWnx-xDL6rlaQmRQl
+          source_id: s_1W8kE8oJ4E9W3JKdLy74oz
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第三甲第一百一十一名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_o9X4e64D4iKX33c4myBcBe
+        status: active
+        display_name: 王繼禮
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_o9X4e64D4iKX33c4myBcBe | 王繼禮 | accepted |
 
 ## 外部来源
 

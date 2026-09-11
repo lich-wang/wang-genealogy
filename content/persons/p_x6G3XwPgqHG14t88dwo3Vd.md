@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王文姜
 cbdb_id: 274753
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_e4uAVQ-CVv4wTaZO9RuTNU
+        subject_person_id: p_x6G3XwPgqHG14t88dwo3Vd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_7tdhj3xqs6eFzthKS1AGvP
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DYx4UdK3cTN3rjU8_aPwep
+          claim_id: c_e4uAVQ-CVv4wTaZO9RuTNU
+          source_id: s_eR9PHtQEPTH88NL4Vr3m5H
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第一百四十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_eR9PHtQEPTH88NL4Vr3m5H
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璘（CBDB 198460）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198460&o=json
+            external_identifier: CBDB:198460
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.495Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_7tdhj3xqs6eFzthKS1AGvP
+        status: active
+        display_name: 王璘
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_7tdhj3xqs6eFzthKS1AGvP | 王璘 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王璘（CBDB 198460）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198460&o=json)
 - [中国历代人物传记资料库：王文姜（CBDB 274753）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274753&o=json)

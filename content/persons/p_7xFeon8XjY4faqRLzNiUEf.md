@@ -4,7 +4,7 @@ id: p_7xFeon8XjY4faqRLzNiUEf
 status: active
 merged_into: null
 display_name: 王嘉言
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_8l9EWpDb3wSsRSNhsDhKFr
+        subject_person_id: p_DmvAtzDarKwpQrK8485z6q
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7xFeon8XjY4faqRLzNiUEf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MTJT6ZPZFoN2DOcm4G3r-P
+          claim_id: c_8l9EWpDb3wSsRSNhsDhKFr
+          source_id: s_8FdnMSTGJqAjC99c9f51nQ
+          stance: supports
+          locator: 寶祐登科錄：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DmvAtzDarKwpQrK8485z6q
+        status: active
+        display_name: 王維
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_YqQk4hJf-337VI16q89eZz
+        subject_person_id: p_7xFeon8XjY4faqRLzNiUEf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YNnM29jfUgNXMA2gCi8ghx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oxoMAzhrOf8Ih5A82xly4Q
+          claim_id: c_YqQk4hJf-337VI16q89eZz
+          source_id: s_8FdnMSTGJqAjC99c9f51nQ
+          stance: supports
+          locator: 寶祐登科錄：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_YNnM29jfUgNXMA2gCi8ghx
+        status: active
+        display_name: 王桂發
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_0qappXeItunHvqbNT2qrVy
+        subject_person_id: p_pL9ipvbun2L1xu9YQg4MjT
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_7xFeon8XjY4faqRLzNiUEf
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Hcjcz4XvRHq7eIgAgED6I6
+          claim_id: c_0qappXeItunHvqbNT2qrVy
+          source_id: s_8FdnMSTGJqAjC99c9f51nQ
+          stance: supports
+          locator: 寶祐登科錄：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_pL9ipvbun2L1xu9YQg4MjT
+        status: active
+        display_name: 王舉
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_DmvAtzDarKwpQrK8485z6q | 王維 | accepted |
+| children | p_YNnM29jfUgNXMA2gCi8ghx | 王桂發 | accepted |
+| ancestors | p_pL9ipvbun2L1xu9YQg4MjT | 王舉 | accepted |
 
 ## 外部来源
 

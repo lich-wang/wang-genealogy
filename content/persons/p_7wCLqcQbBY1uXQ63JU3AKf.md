@@ -4,7 +4,7 @@ id: p_7wCLqcQbBY1uXQ63JU3AKf
 status: active
 merged_into: null
 display_name: 王訓
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,116 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_vTVLZXUDIdJ_lBD-cVHqb6
+        subject_person_id: p_Lr8L9s9EF6He1HszkYXFMW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7wCLqcQbBY1uXQ63JU3AKf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xI6xnyF_cd48Cgk4mbHxJ0
+          claim_id: c_vTVLZXUDIdJ_lBD-cVHqb6
+          source_id: s_opASS8N2VcwCXB51vGEx7L
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dali 3：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Lr8L9s9EF6He1HszkYXFMW
+        status: active
+        display_name: 王繇
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_ktiCuiNXrxVYzo9LbxC-f2
+        subject_person_id: p_7wCLqcQbBY1uXQ63JU3AKf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7QrhcSCpByfzYfPYz7zK5h
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kAtZpKvwh88GKLxA8aYnqc
+          claim_id: c_ktiCuiNXrxVYzo9LbxC-f2
+          source_id: s_opASS8N2VcwCXB51vGEx7L
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_7QrhcSCpByfzYfPYz7zK5h
+        status: active
+        display_name: 王支某
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_e7nsiy2GYK2pt_56DFpLpn
+        subject_person_id: p_P9grpQUuaJm36Kf1zD6ovz
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_7wCLqcQbBY1uXQ63JU3AKf
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Sx5qpWWKAzZFZcAZv0D1vA
+          claim_id: c_e7nsiy2GYK2pt_56DFpLpn
+          source_id: s_opASS8N2VcwCXB51vGEx7L
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dali 3：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_P9grpQUuaJm36Kf1zD6ovz
+        status: active
+        display_name: 王知道
+        merged_into_person_id: null
+    - claim:
+        id: c_c0s0FhQlV3M0DMCs5r-I53
+        subject_person_id: p_EG5yKUEaWTYurjNt333buJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_7wCLqcQbBY1uXQ63JU3AKf
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Aw88KdfXUrsCupiL6TPrGu
+          claim_id: c_c0s0FhQlV3M0DMCs5r-I53
+          source_id: s_opASS8N2VcwCXB51vGEx7L
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dali 3：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_EG5yKUEaWTYurjNt333buJ
+        status: active
+        display_name: 王同皎
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +259,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Lr8L9s9EF6He1HszkYXFMW | 王繇 | accepted |
+| children | p_7QrhcSCpByfzYfPYz7zK5h | 王支某 | accepted |
+| ancestors | p_P9grpQUuaJm36Kf1zD6ovz | 王知道 | accepted |
+| ancestors | p_EG5yKUEaWTYurjNt333buJ | 王同皎 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_T8qVejs68cwHjWufCSe9Fn
 status: active
 merged_into: null
 display_name: 王燕
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -208,7 +208,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_W753IMwnt3VR28wCenY-be
+        subject_person_id: p_T8qVejs68cwHjWufCSe9Fn
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_8rAev43WJzH4LWYaXVRuce
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ec7qaHevBISFNoUyhGaQ8Z
+          claim_id: c_W753IMwnt3VR28wCenY-be
+          source_id: s_1MHcE13ucuB2M6MGsC3cZG
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13177：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_1MHcE13ucuB2M6MGsC3cZG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王守曾（CBDB 527013）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527013&o=json
+            external_identifier: CBDB:527013
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.334Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8rAev43WJzH4LWYaXVRuce
+        status: active
+        display_name: 王守曾
+        merged_into_person_id: null
   other: []
 ---
 
@@ -231,9 +268,11 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_2mtGKG4ErXixRJHPUBFMdq | 王如久 | accepted |
 | children | p_5PEQ7JWAtNw462QP1XE3iP | 王如璋 | accepted |
+| descendants | p_8rAev43WJzH4LWYaXVRuce | 王守曾 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王如久（CBDB 527010）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527010&o=json)
 - [中国历代人物传记资料库：王如璋（CBDB 527012）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527012&o=json)
+- [中国历代人物传记资料库：王守曾（CBDB 527013）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=527013&o=json)
 - [中国历代人物传记资料库：王燕（CBDB 69465）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69465&o=json)

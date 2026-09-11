@@ -4,7 +4,7 @@ id: p_6yFP175w8qJgJRVTRiUkab
 status: active
 merged_into: null
 display_name: 王一奇
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,64 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_R30nqXl1Khd5LlsoOCB389
+        subject_person_id: p_e8fyUGVWsewm8vpP5EJCF4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6yFP175w8qJgJRVTRiUkab
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZocaPGW4hxoGCSOZRYaGUq
+          claim_id: c_R30nqXl1Khd5LlsoOCB389
+          source_id: s_efjbH4VURWrYSiJRiFkgFR
+          stance: supports
+          locator: 寶祐登科錄：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_e8fyUGVWsewm8vpP5EJCF4
+        status: active
+        display_name: 王民望
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_P9AsrYPvpDxHhqk0IC9KRN
+        subject_person_id: p_Fo5H89gRd1G7FrWqXFVXtt
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6yFP175w8qJgJRVTRiUkab
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fo6gQ5hTfW3V9MYYxDXCnD
+          claim_id: c_P9AsrYPvpDxHhqk0IC9KRN
+          source_id: s_efjbH4VURWrYSiJRiFkgFR
+          stance: supports
+          locator: 寶祐登科錄：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Fo5H89gRd1G7FrWqXFVXtt
+        status: active
+        display_name: 王節
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_e8fyUGVWsewm8vpP5EJCF4 | 王民望 | accepted |
+| ancestors | p_Fo5H89gRd1G7FrWqXFVXtt | 王節 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_XfUfoqNSdQJyRHuVYTStwP
 status: active
 merged_into: null
 display_name: 王于源
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ukvGDQzJRhm-2D0Ye9EDk8
+        subject_person_id: p_8quWaCC7CHAAr3NJxY23fH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XfUfoqNSdQJyRHuVYTStwP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_liGp0d6baHWBhDM0pYUPaR
+          claim_id: c_ukvGDQzJRhm-2D0Ye9EDk8
+          source_id: s_c9cdxyyJapjRdfd3F43KP5
+          stance: supports
+          locator: "海鹽縣志: 二十二卷(光緒)，lgid=294347：子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_c9cdxyyJapjRdfd3F43KP5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王曾厚（CBDB 692802）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=692802&o=json
+            external_identifier: CBDB:692802
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.506Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8quWaCC7CHAAr3NJxY23fH
+        status: active
+        display_name: 王曾厚
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_8quWaCC7CHAAr3NJxY23fH | 王曾厚 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王曾厚（CBDB 692802）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=692802&o=json)
 - [中国历代人物传记资料库：王于源（CBDB 696142）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696142&o=json)

@@ -4,7 +4,7 @@ id: p_7QnGBiPzUFUWD8rSwCwAQh
 status: active
 merged_into: null
 display_name: 王鈞
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_UXN_msUQTAVUqXCqR5GNsQ
+        subject_person_id: p_sd3hcMsGVmiPNhPP7xuPH6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7QnGBiPzUFUWD8rSwCwAQh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bXLrjDgmDIlhJlBhx341gR
+          claim_id: c_UXN_msUQTAVUqXCqR5GNsQ
+          source_id: s_y7B65XeE2bvCsAck3T9oCY
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Dali27：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_sd3hcMsGVmiPNhPP7xuPH6
+        status: active
+        display_name: 王悌
+        merged_into_person_id: null
   children:
     - claim:
         id: c_KDr0LQth7v7Nem-IJvWAW4
@@ -204,10 +230,88 @@ relationships:
         status: active
         display_name: 王澡
         merged_into_person_id: null
+    - claim:
+        id: c_aPAb25Cg_1_svAtf4__xT4
+        subject_person_id: p_7QnGBiPzUFUWD8rSwCwAQh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_A84W4Qt6NZjv8BXVPciqQL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Onff6NKNhJuGKzrp1lfLwq
+          claim_id: c_aPAb25Cg_1_svAtf4__xT4
+          source_id: s_y7B65XeE2bvCsAck3T9oCY
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Dali27：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_A84W4Qt6NZjv8BXVPciqQL
+        status: active
+        display_name: 王沐
+        merged_into_person_id: null
+    - claim:
+        id: c_JcL8JDVYUTY3T2fTE_jMtl
+        subject_person_id: p_7QnGBiPzUFUWD8rSwCwAQh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_b5CJHTF3CJhC1Zauo4Pc4i
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gnlxfahdkBHOugA16ZeBVt
+          claim_id: c_JcL8JDVYUTY3T2fTE_jMtl
+          source_id: s_y7B65XeE2bvCsAck3T9oCY
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Dali27：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_b5CJHTF3CJhC1Zauo4Pc4i
+        status: active
+        display_name: 王浰
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_H3x2GqcFs-FQEJLJMyC0VU
+        subject_person_id: p_VCCsC6Ka6PLxT1974FrH4p
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_7QnGBiPzUFUWD8rSwCwAQh
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-0f1VEGpwDwmIOT5RsuxBA
+          claim_id: c_H3x2GqcFs-FQEJLJMyC0VU
+          source_id: s_y7B65XeE2bvCsAck3T9oCY
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Dali27：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_VCCsC6Ka6PLxT1974FrH4p
+        status: active
+        display_name: 王宏之
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -229,8 +333,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_sd3hcMsGVmiPNhPP7xuPH6 | 王悌 | accepted |
 | children | p_3UsnYALpsLqLgKX6vUBvrD | 王淇 | accepted |
 | children | p_5v9AuJb4c8dfuy6JYiZGbw | 王澡 | accepted |
+| children | p_A84W4Qt6NZjv8BXVPciqQL | 王沐 | accepted |
+| children | p_b5CJHTF3CJhC1Zauo4Pc4i | 王浰 | accepted |
+| ancestors | p_VCCsC6Ka6PLxT1974FrH4p | 王宏之 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_6YDDamD31FqdZsDuahyiXX
 status: active
 merged_into: null
 display_name: 王恕
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_f2qoN5eOUeWPjPMjS1Vaq1
+        subject_person_id: p_ABhP9dLJkoCKUQ61Qu5HUw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6YDDamD31FqdZsDuahyiXX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XSj6GBFjPBumSlK4MHA9Qj
+          claim_id: c_f2qoN5eOUeWPjPMjS1Vaq1
+          source_id: s_mdsYqnaUWb8rvkx4qY5hGx
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ABhP9dLJkoCKUQ61Qu5HUw
+        status: active
+        display_name: 王昪
+        merged_into_person_id: null
   children:
     - claim:
         id: c_qc0G9b0U9hdcctYO7sX_08
@@ -167,6 +193,58 @@ relationships:
         status: active
         display_name: 王起
         merged_into_person_id: null
+    - claim:
+        id: c_0fCIyzTTzB13jax4fu3kLQ
+        subject_person_id: p_6YDDamD31FqdZsDuahyiXX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UkukK9jtGHA5Nb8R5pgnpm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SZ8HnIfaoEpJEuN_g4KCSl
+          claim_id: c_0fCIyzTTzB13jax4fu3kLQ
+          source_id: s_mdsYqnaUWb8rvkx4qY5hGx
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_UkukK9jtGHA5Nb8R5pgnpm
+        status: active
+        display_name: 王播
+        merged_into_person_id: null
+    - claim:
+        id: c_VWwXM_N-A7Ay4cjWAx7CSJ
+        subject_person_id: p_6YDDamD31FqdZsDuahyiXX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NY9FvB3yAdnE8DMFcVHXxx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_O52vG0vxG6OvbhRW6FYPN0
+          claim_id: c_VWwXM_N-A7Ay4cjWAx7CSJ
+          source_id: s_mdsYqnaUWb8rvkx4qY5hGx
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_NY9FvB3yAdnE8DMFcVHXxx
+        status: active
+        display_name: 王炎
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -192,7 +270,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ABhP9dLJkoCKUQ61Qu5HUw | 王昪 | accepted |
 | children | p_6RPHj2j4cH1L4YTjuMhCpn | 王起 | accepted |
+| children | p_UkukK9jtGHA5Nb8R5pgnpm | 王播 | accepted |
+| children | p_NY9FvB3yAdnE8DMFcVHXxx | 王炎 | accepted |
 
 ## 外部来源
 

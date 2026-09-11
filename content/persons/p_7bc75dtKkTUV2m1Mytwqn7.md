@@ -4,7 +4,7 @@ id: p_7bc75dtKkTUV2m1Mytwqn7
 status: active
 merged_into: null
 display_name: 王昊
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_bzF5khWKy_HNm7eyp5QH-T
+        subject_person_id: p_5cXgvbeFMDihkMnt3zvFS6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7bc75dtKkTUV2m1Mytwqn7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_w0vR8Sdb1czd4y2pZ8n6Bv
+          claim_id: c_bzF5khWKy_HNm7eyp5QH-T
+          source_id: s_jdGWkMsJEEoLtuiSobVMSP
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，一一九 王德倫墓誌：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5cXgvbeFMDihkMnt3zvFS6
+        status: active
+        display_name: 王德倫
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5cXgvbeFMDihkMnt3zvFS6 | 王德倫 | accepted |
 
 ## 外部来源
 

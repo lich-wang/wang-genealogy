@@ -4,7 +4,7 @@ id: p_U5FMQEkajEK4bTGxWx93U5
 status: active
 merged_into: null
 display_name: 王善
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_-Gxu4IqY1VnTeQ1iaiZz-Z
+        subject_person_id: p_U5FMQEkajEK4bTGxWx93U5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8djKPSryCKKAhjwQnxe8qo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QtXF4xGK1l7pmFfNdvy5fy
+          claim_id: c_-Gxu4IqY1VnTeQ1iaiZz-Z
+          source_id: s_ZabM26HyCMvhpHCTN1b54k
+          stance: supports
+          locator: 元人傳記資料索引，1292：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZabM26HyCMvhpHCTN1b54k
+            source_type: api_record
+            title: 中国历代人物传记资料库：王慶端（CBDB 101432）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101432&o=json
+            external_identifier: CBDB:101432
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:14.844Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8djKPSryCKKAhjwQnxe8qo
+        status: active
+        display_name: 王慶端
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_8djKPSryCKKAhjwQnxe8qo | 王慶端 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王慶端（CBDB 101432）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101432&o=json)
 - [中国历代人物传记资料库：王善（CBDB 100815）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100815&o=json)

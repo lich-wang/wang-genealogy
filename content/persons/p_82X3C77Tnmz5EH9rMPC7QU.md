@@ -4,7 +4,7 @@ id: p_82X3C77Tnmz5EH9rMPC7QU
 status: active
 merged_into: null
 display_name: 王洧
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_Q4r7A5vWB0wHX7HimjMTQm
+        subject_person_id: p_zq12paWxqfRQfLAfsBmo4u
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_82X3C77Tnmz5EH9rMPC7QU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hopYUu0kCg_nZ0STahtf_c
+          claim_id: c_Q4r7A5vWB0wHX7HimjMTQm
+          source_id: s_681Av3E8NoHxucgmpQNawx
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zq12paWxqfRQfLAfsBmo4u
+        status: active
+        display_name: 王眾仲
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_VXfBlKFZ203kFmSzxSz1CE
+        subject_person_id: p_82X3C77Tnmz5EH9rMPC7QU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xtaUB5KBLd2G7QtFg9eDxi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uG8Rftcd9qSlOCik-gzHFD
+          claim_id: c_VXfBlKFZ203kFmSzxSz1CE
+          source_id: s_681Av3E8NoHxucgmpQNawx
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xtaUB5KBLd2G7QtFg9eDxi
+        status: active
+        display_name: 王鉅
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_zq12paWxqfRQfLAfsBmo4u | 王眾仲 | accepted |
+| children | p_xtaUB5KBLd2G7QtFg9eDxi | 王鉅 | accepted |
 
 ## 外部来源
 

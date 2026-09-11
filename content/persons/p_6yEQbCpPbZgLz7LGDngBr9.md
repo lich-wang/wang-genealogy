@@ -4,7 +4,7 @@ id: p_6yEQbCpPbZgLz7LGDngBr9
 status: active
 merged_into: null
 display_name: 王茂蔭
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,85 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_ehYC88No5d5TntPryHFJPG
+        subject_person_id: p_6yEQbCpPbZgLz7LGDngBr9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2Zy8egjMHWy8uWeDrKu4fe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3AeGY7JUjAXeRhYJM2dn3S
+          claim_id: c_ehYC88No5d5TntPryHFJPG
+          source_id: s_FU1VmgaFchy2vPp6w3C66B
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1870：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_2Zy8egjMHWy8uWeDrKu4fe
+        status: active
+        display_name: 王銘詔
+        merged_into_person_id: null
+    - claim:
+        id: c_qu9STn0AJaxr4pW0sfo8Hi
+        subject_person_id: p_6yEQbCpPbZgLz7LGDngBr9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yZdHK4UPwANa5PXiSDBPAq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-rhaxjMxkk9CjyLPsS9r9G
+          claim_id: c_qu9STn0AJaxr4pW0sfo8Hi
+          source_id: s_FU1VmgaFchy2vPp6w3C66B
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1870：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_yZdHK4UPwANa5PXiSDBPAq
+        status: active
+        display_name: 王銘慎
+        merged_into_person_id: null
+    - claim:
+        id: c_Jj1hWI7ZZGFGGJ_jy0FRSh
+        subject_person_id: p_6yEQbCpPbZgLz7LGDngBr9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZeMPLGWdgcpBtkgQYevy4o
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LKx8mMrdtPPaHpucr1Z_aw
+          claim_id: c_Jj1hWI7ZZGFGGJ_jy0FRSh
+          source_id: s_FU1VmgaFchy2vPp6w3C66B
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1870：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ZeMPLGWdgcpBtkgQYevy4o
+        status: active
+        display_name: 王銘鎮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_2Zy8egjMHWy8uWeDrKu4fe | 王銘詔 | accepted |
+| children | p_yZdHK4UPwANa5PXiSDBPAq | 王銘慎 | accepted |
+| children | p_ZeMPLGWdgcpBtkgQYevy4o | 王銘鎮 | accepted |
 
 ## 外部来源
 

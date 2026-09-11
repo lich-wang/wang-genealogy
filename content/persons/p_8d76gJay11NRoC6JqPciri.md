@@ -4,7 +4,7 @@ id: p_8d76gJay11NRoC6JqPciri
 status: active
 merged_into: null
 display_name: 王景
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_bNPDgWuhJNNud8n17Yv63R
+        subject_person_id: p_gguC4Xmh69wZBNPqg1hfFU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8d76gJay11NRoC6JqPciri
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ndRIHyPjfA-McAuoXn62Xt
+          claim_id: c_bNPDgWuhJNNud8n17Yv63R
+          source_id: s_LLuAxyJhBi3Y6P9yCBgLxr
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），10347：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_gguC4Xmh69wZBNPqg1hfFU
+        status: active
+        display_name: 王必莊
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_vBpIKZz5FxGN76FtiRCcDZ
+        subject_person_id: p_8d76gJay11NRoC6JqPciri
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mdCPh7Kdgpn2pj8xrt7XbD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GmoTYMTOR50ldh6D8K5yuK
+          claim_id: c_vBpIKZz5FxGN76FtiRCcDZ
+          source_id: s_LLuAxyJhBi3Y6P9yCBgLxr
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），10347：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_mdCPh7Kdgpn2pj8xrt7XbD
+        status: active
+        display_name: 王荊
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_nOKJANtGaDSs-Svwdze9Ny
+        subject_person_id: p_rnm6Pi1QLGqv37hqRgJB2u
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_8d76gJay11NRoC6JqPciri
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Xpv4jScSKhbxpYVy-wJsyR
+          claim_id: c_nOKJANtGaDSs-Svwdze9Ny
+          source_id: s_LLuAxyJhBi3Y6P9yCBgLxr
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），10347：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_rnm6Pi1QLGqv37hqRgJB2u
+        status: active
+        display_name: 王可仕
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_gguC4Xmh69wZBNPqg1hfFU | 王必莊 | accepted |
+| children | p_mdCPh7Kdgpn2pj8xrt7XbD | 王荊 | accepted |
+| ancestors | p_rnm6Pi1QLGqv37hqRgJB2u | 王可仕 | accepted |
 
 ## 外部来源
 

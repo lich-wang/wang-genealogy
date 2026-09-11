@@ -4,7 +4,7 @@ id: p_MCBLRdp5Dr3WhuKd5gEr5C
 status: active
 merged_into: null
 display_name: 王誠
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_xFg1w6CYrU0IZDN-VeqxHb
+        subject_person_id: p_MCBLRdp5Dr3WhuKd5gEr5C
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_7XvdYNGwLHctu4cLzYQ7kr
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5qq72mXBCEbw__DVlj7ZTt
+          claim_id: c_xFg1w6CYrU0IZDN-VeqxHb
+          source_id: s_wFAosYYDj6D1VR7Gxa42bv
+          stance: supports
+          locator: 天順元年進士登科錄:一卷，第三甲第四十三名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_wFAosYYDj6D1VR7Gxa42bv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王冕（CBDB 198620）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198620&o=json
+            external_identifier: CBDB:198620
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.504Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_7XvdYNGwLHctu4cLzYQ7kr
+        status: active
+        display_name: 王冕
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_7XvdYNGwLHctu4cLzYQ7kr | 王冕 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王誠（CBDB 295262）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295262&o=json)
+- [中国历代人物传记资料库：王冕（CBDB 198620）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198620&o=json)

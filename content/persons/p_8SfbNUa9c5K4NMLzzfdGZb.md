@@ -4,7 +4,7 @@ id: p_8SfbNUa9c5K4NMLzzfdGZb
 status: active
 merged_into: null
 display_name: 王汝成
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,64 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_8dqImfJ7CtMCUVj8Cygbwc
+        subject_person_id: p_pfkAJ6LT6dUqP7JHbgQTA7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8SfbNUa9c5K4NMLzzfdGZb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UfIy5HezkpRbZ55_Gx2JjK
+          claim_id: c_8dqImfJ7CtMCUVj8Cygbwc
+          source_id: s_WDHRNSfWYaS6zatBbZJCD3
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160868：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_pfkAJ6LT6dUqP7JHbgQTA7
+        status: active
+        display_name: 王廷言
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_YXr-ptwX2kWf5INXSM4lzN
+        subject_person_id: p_cBGCXtQ6wkhv554viPc99n
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_8SfbNUa9c5K4NMLzzfdGZb
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7jS6FGMK_G0qMxczpTOXHm
+          claim_id: c_YXr-ptwX2kWf5INXSM4lzN
+          source_id: s_WDHRNSfWYaS6zatBbZJCD3
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160868：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_cBGCXtQ6wkhv554viPc99n
+        status: active
+        display_name: 王文德
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_pfkAJ6LT6dUqP7JHbgQTA7 | 王廷言 | accepted |
+| ancestors | p_cBGCXtQ6wkhv554viPc99n | 王文德 | accepted |
 
 ## 外部来源
 

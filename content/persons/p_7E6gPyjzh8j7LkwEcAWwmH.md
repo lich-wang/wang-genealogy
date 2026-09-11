@@ -4,7 +4,7 @@ id: p_7E6gPyjzh8j7LkwEcAWwmH
 status: active
 merged_into: null
 display_name: 王清
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_3IAk_d_ZLZ_E5PwcNadXoe
+        subject_person_id: p_fPJxFS18uHAM4wH2bHoPQT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7E6gPyjzh8j7LkwEcAWwmH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-rW4ZvSJ3HidS3Q0yZru1t
+          claim_id: c_3IAk_d_ZLZ_E5PwcNadXoe
+          source_id: s_nVLEsovCk3fqXGYbyog1XR
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_fPJxFS18uHAM4wH2bHoPQT
+        status: active
+        display_name: 王毅
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_WrsAbDOYO4gsW1chPXU_fC
+        subject_person_id: p_7E6gPyjzh8j7LkwEcAWwmH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yw8Ldi3TsRvFBDPd73FPjN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PWElb7QMXOsnhQrsnQmFPo
+          claim_id: c_WrsAbDOYO4gsW1chPXU_fC
+          source_id: s_nVLEsovCk3fqXGYbyog1XR
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_yw8Ldi3TsRvFBDPd73FPjN
+        status: active
+        display_name: 王玉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_fPJxFS18uHAM4wH2bHoPQT | 王毅 | accepted |
+| children | p_yw8Ldi3TsRvFBDPd73FPjN | 王玉 | accepted |
 
 ## 外部来源
 

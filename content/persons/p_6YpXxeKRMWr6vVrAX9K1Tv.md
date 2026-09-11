@@ -4,7 +4,7 @@ id: p_6YpXxeKRMWr6vVrAX9K1Tv
 status: active
 merged_into: null
 display_name: 王婉
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,116 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_RClD--BvNdvHueMGgY3BIW
+        subject_person_id: p_5jrDZnpuo7D8jQo9dtTQev
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6YpXxeKRMWr6vVrAX9K1Tv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HrGoC59xYgY86nrLiUJb5u
+          claim_id: c_RClD--BvNdvHueMGgY3BIW
+          source_id: s_KFkS5hiMaGh1959L5ARJrJ
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Yongchun3：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5jrDZnpuo7D8jQo9dtTQev
+        status: active
+        display_name: 王韶
+        merged_into_person_id: null
+    - claim:
+        id: c_lUU91kRDPdyYARkO7aTffP
+        subject_person_id: p_qU5ePg25AxmDuXd2vF94MX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6YpXxeKRMWr6vVrAX9K1Tv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DgHzhPhBwAOlmMygY8ixpn
+          claim_id: c_lUU91kRDPdyYARkO7aTffP
+          source_id: s_KFkS5hiMaGh1959L5ARJrJ
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Wansuitongtian4：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_qU5ePg25AxmDuXd2vF94MX
+        status: active
+        display_name: 王元慎
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_gYKCA7BM6BSw7qyQhT27F_
+        subject_person_id: p_7fzzJxcbXZYkPTFPz4wvKh
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6YpXxeKRMWr6vVrAX9K1Tv
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-_w-YAnXY5WczcK-iUUD1U
+          claim_id: c_gYKCA7BM6BSw7qyQhT27F_
+          source_id: s_KFkS5hiMaGh1959L5ARJrJ
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Wansuitongtian4：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_7fzzJxcbXZYkPTFPz4wvKh
+        status: active
+        display_name: 王緝
+        merged_into_person_id: null
+    - claim:
+        id: c_wrmhPIT-rrK-DR7WfYZyms
+        subject_person_id: p_5Np11bpUk1ewMpdWYFHGy2
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_6YpXxeKRMWr6vVrAX9K1Tv
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NSHzodfNdrkusSbSkt8y7L
+          claim_id: c_wrmhPIT-rrK-DR7WfYZyms
+          source_id: s_KFkS5hiMaGh1959L5ARJrJ
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Wansuitongtian4：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_5Np11bpUk1ewMpdWYFHGy2
+        status: active
+        display_name: 王令思
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,6 +259,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5jrDZnpuo7D8jQo9dtTQev | 王韶 | accepted |
+| parents | p_qU5ePg25AxmDuXd2vF94MX | 王元慎 | accepted |
+| ancestors | p_7fzzJxcbXZYkPTFPz4wvKh | 王緝 | accepted |
+| ancestors | p_5Np11bpUk1ewMpdWYFHGy2 | 王令思 | accepted |
 
 ## 外部来源
 

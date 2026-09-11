@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王原道
 cbdb_id: 333144
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -207,7 +207,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_0jCFZJZSgeFydVRtxv_SYt
+        subject_person_id: p_vxysH4B8xpbAGBTVKY3Dh2
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_8kvzu18KWCHGBJbrWxW4b9
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_s2ohmAhsfsZrh0PxPv1WV0
+          claim_id: c_0jCFZJZSgeFydVRtxv_SYt
+          source_id: s_dizqWBK4gRWFn4mBpUaSGR
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第十二名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_dizqWBK4gRWFn4mBpUaSGR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王軾（CBDB 67466）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67466&o=json
+            external_identifier: CBDB:67466
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.995Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8kvzu18KWCHGBJbrWxW4b9
+        status: active
+        display_name: 王軾
+        merged_into_person_id: null
   other: []
 ---
 
@@ -228,10 +265,12 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_s2Sv6MvyL71fwz1JqSBrir | 王仁 | accepted |
 | children | p_7Tia4RakEpFHiC5SDiDZSG | 王让 | accepted |
+| descendants | p_8kvzu18KWCHGBJbrWxW4b9 | 王軾 | accepted |
 
 ## 外部来源
 
 - [维基数据：王让（Q45561003）](https://www.wikidata.org/wiki/Q45561003)
 - [维基数据：王仁（Q45559885）](https://www.wikidata.org/wiki/Q45559885)
 - [维基数据：王原道（Q45560451）](https://www.wikidata.org/wiki/Q45560451)
+- [中国历代人物传记资料库：王軾（CBDB 67466）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67466&o=json)
 - [CBDB 中国历代人物传记资料库：王原道（333144）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333144&o=json)

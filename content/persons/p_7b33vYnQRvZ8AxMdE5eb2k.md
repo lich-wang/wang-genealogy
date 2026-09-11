@@ -4,7 +4,7 @@ id: p_7b33vYnQRvZ8AxMdE5eb2k
 status: active
 merged_into: null
 display_name: 王暉
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_sxzv_2lW4P1zIB9urVP_ke
+        subject_person_id: p_7b33vYnQRvZ8AxMdE5eb2k
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_nuBK1wsMvCBFXuA1nKxaa5
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_p2WN54kaYlq75_IJe_QHxk
+          claim_id: c_sxzv_2lW4P1zIB9urVP_ke
+          source_id: s_MpQgsmxtdHpRhDHdW8cVeo
+          stance: supports
+          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第二百一十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_nuBK1wsMvCBFXuA1nKxaa5
+        status: active
+        display_name: 王納講
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_nuBK1wsMvCBFXuA1nKxaa5 | 王納講 | accepted |
 
 ## 外部来源
 

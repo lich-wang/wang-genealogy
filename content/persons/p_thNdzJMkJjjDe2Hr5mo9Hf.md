@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王庶叔
 cbdb_id: 238050
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_yWCuPGOZbzaYemjnxj9u3c
+        subject_person_id: p_thNdzJMkJjjDe2Hr5mo9Hf
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_8Sfy82F6BmihArAucn9Vuw
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gVovzc0hVshq8sfNb5XsZJ
+          claim_id: c_yWCuPGOZbzaYemjnxj9u3c
+          source_id: s_p1CXfyPv5LXzNzgR3qcWyx
+          stance: supports
+          locator: 正统七年進士登科錄:一卷，第三甲第十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_p1CXfyPv5LXzNzgR3qcWyx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王詔（CBDB 67953）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67953&o=json
+            external_identifier: CBDB:67953
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.035Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8Sfy82F6BmihArAucn9Vuw
+        status: active
+        display_name: 王詔
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_8Sfy82F6BmihArAucn9Vuw | 王詔 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王庶叔（CBDB 238050）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238050&o=json)
+- [中国历代人物传记资料库：王詔（CBDB 67953）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67953&o=json)

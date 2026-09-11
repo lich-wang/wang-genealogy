@@ -4,7 +4,7 @@ id: p_tdH923W47W8dKqdDiYNAZ8
 status: active
 merged_into: null
 display_name: 王楨
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_2CISb8iQa7aSFb3tK2-T88
+        subject_person_id: p_7XpW6Mhs2mSCn7hHeLnWwf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tdH923W47W8dKqdDiYNAZ8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Vf67gHXHx-Fx_6SwPyQNe_
+          claim_id: c_2CISb8iQa7aSFb3tK2-T88
+          source_id: s_4DW59uY7TnV8ucER98VTyk
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4DW59uY7TnV8ucER98VTyk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王秉新（CBDB 327256）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327256&o=json
+            external_identifier: CBDB:327256
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.239Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_7XpW6Mhs2mSCn7hHeLnWwf
+        status: active
+        display_name: 王秉新
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_EHi1hI1cdWz6sB9URiDUkM
+        subject_person_id: p_8mWC3Ei8pVYwAqDq7qoacC
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_tdH923W47W8dKqdDiYNAZ8
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LAzYvqb6sbgBP73p_zkta3
+          claim_id: c_EHi1hI1cdWz6sB9URiDUkM
+          source_id: s_cPBKrXKqx1neLYBD3fDUpD
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_cPBKrXKqx1neLYBD3fDUpD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正仁（CBDB 327254）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327254&o=json
+            external_identifier: CBDB:327254
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:20.237Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8mWC3Ei8pVYwAqDq7qoacC
+        status: active
+        display_name: 王正仁
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,7 +200,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_7XpW6Mhs2mSCn7hHeLnWwf | 王秉新 | accepted |
+| ancestors | p_8mWC3Ei8pVYwAqDq7qoacC | 王正仁 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王秉新（CBDB 327256）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327256&o=json)
 - [中国历代人物传记资料库：王楨（CBDB 205021）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205021&o=json)
+- [中国历代人物传记资料库：王正仁（CBDB 327254）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327254&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王瀠
 cbdb_id: 207813
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,6 +172,43 @@ relationships:
         status: active
         display_name: 王寶
         merged_into_person_id: null
+    - claim:
+        id: c_4pRzmEMY6n7BdS3JR_3YR3
+        subject_person_id: p_8EVZxxAjXpWHbww1dEyK7t
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_fRd4kHJooaS9AErLa6rFp5
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iIYiTLwNScA0pxgPkPV0wB
+          claim_id: c_4pRzmEMY6n7BdS3JR_3YR3
+          source_id: s_ZFJTmG9pUDoC1cKoGx1HQW
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第一百五十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZFJTmG9pUDoC1cKoGx1HQW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王希哲（CBDB 236419）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236419&o=json
+            external_identifier: CBDB:236419
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.780Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8EVZxxAjXpWHbww1dEyK7t
+        status: active
+        display_name: 王希哲
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_45n56RiQTWtDC21tW3p7zG | 王寶 | accepted |
+| ancestors | p_8EVZxxAjXpWHbww1dEyK7t | 王希哲 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王寶（CBDB 236418）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236418&o=json)
+- [中国历代人物传记资料库：王希哲（CBDB 236419）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236419&o=json)
 - [中国历代人物传记资料库：王瀠（CBDB 207813）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207813&o=json)

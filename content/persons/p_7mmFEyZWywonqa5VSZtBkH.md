@@ -4,7 +4,7 @@ id: p_7mmFEyZWywonqa5VSZtBkH
 status: active
 merged_into: null
 display_name: 王宗靖
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_2G0R0kP4oQTnHg8amLI7Cm
+        subject_person_id: p_7mmFEyZWywonqa5VSZtBkH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oKtgLK3Hc3EvgppJQNGw5k
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QeyTyninIaSTQ-55oOaqB8
+          claim_id: c_2G0R0kP4oQTnHg8amLI7Cm
+          source_id: s_w1YnkyRZphMzkRJWxURuiC
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第三甲第二百六十五名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_oKtgLK3Hc3EvgppJQNGw5k
+        status: active
+        display_name: 王堦
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_oKtgLK3Hc3EvgppJQNGw5k | 王堦 | accepted |
 
 ## 外部来源
 

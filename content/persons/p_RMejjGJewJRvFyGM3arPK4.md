@@ -4,7 +4,7 @@ id: p_RMejjGJewJRvFyGM3arPK4
 status: active
 merged_into: null
 display_name: 王傳
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,12 +128,86 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Ipn_53riyWpwNAIt7NIv-X
+        subject_person_id: p_76zy8a3P4X496DVsdChzJX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RMejjGJewJRvFyGM3arPK4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vxxXoEJ0jVAq-ieWTpi9gZ
+          claim_id: c_Ipn_53riyWpwNAIt7NIv-X
+          source_id: s_P27XVLDE1sgkVrKWQ8LHeb
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第二甲第十三名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_P27XVLDE1sgkVrKWQ8LHeb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璽（CBDB 247748）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247748&o=json
+            external_identifier: CBDB:247748
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.132Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_76zy8a3P4X496DVsdChzJX
+        status: active
+        display_name: 王璽
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_PoegNcaVsMI7YaWkbACDG9
+        subject_person_id: p_7Yja38GWcuBt14xXp8sQcE
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_RMejjGJewJRvFyGM3arPK4
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xTacdUOfTaVn-FILFsMJN5
+          claim_id: c_PoegNcaVsMI7YaWkbACDG9
+          source_id: s_oSszWEg5kMiHPQWYSM9SdB
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第二甲第十三名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_oSszWEg5kMiHPQWYSM9SdB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王榮（CBDB 247747）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247747&o=json
+            external_identifier: CBDB:247747
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:18.130Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_7Yja38GWcuBt14xXp8sQcE
+        status: active
+        display_name: 王榮
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -155,7 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_76zy8a3P4X496DVsdChzJX | 王璽 | accepted |
+| ancestors | p_7Yja38GWcuBt14xXp8sQcE | 王榮 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王傳（CBDB 126769）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126769&o=json)
+- [中国历代人物传记资料库：王榮（CBDB 247747）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247747&o=json)
+- [中国历代人物传记资料库：王璽（CBDB 247748）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247748&o=json)

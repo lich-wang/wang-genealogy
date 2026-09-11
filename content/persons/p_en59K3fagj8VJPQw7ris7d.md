@@ -4,7 +4,7 @@ id: p_en59K3fagj8VJPQw7ris7d
 status: active
 merged_into: null
 display_name: 王崇術
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -167,6 +167,43 @@ relationships:
         status: active
         display_name: 王奇哲
         merged_into_person_id: null
+    - claim:
+        id: c_TOK-Q0GNXA8kVjSoH5zO2b
+        subject_person_id: p_en59K3fagj8VJPQw7ris7d
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8BAXAmN3c1qU7v7x4QBzHT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ASAy9GuCVjK05GGKwTohyy
+          claim_id: c_TOK-Q0GNXA8kVjSoH5zO2b
+          source_id: s_r75FDHPqKxdm57SekgvidP
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_r75FDHPqKxdm57SekgvidP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王棲榮（CBDB 194723）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=194723&o=json
+            external_identifier: CBDB:194723
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.298Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8BAXAmN3c1qU7v7x4QBzHT
+        status: active
+        display_name: 王棲榮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_1D7RB15BHLuwCjT8rR8VHQ | 王奇哲 | accepted |
+| children | p_8BAXAmN3c1qU7v7x4QBzHT | 王棲榮 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王崇術（CBDB 145041）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145041&o=json)
+- [中国历代人物传记资料库：王棲榮（CBDB 194723）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=194723&o=json)
 - [中国历代人物传记资料库：王奇哲（CBDB 194722）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=194722&o=json)

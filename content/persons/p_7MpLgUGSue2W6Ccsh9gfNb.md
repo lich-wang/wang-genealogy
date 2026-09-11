@@ -4,7 +4,7 @@ id: p_7MpLgUGSue2W6Ccsh9gfNb
 status: active
 merged_into: null
 display_name: 王日就
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,12 +129,90 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_gDmYixlsQ-TOfCu4aTAIW9
+        subject_person_id: p_7MpLgUGSue2W6Ccsh9gfNb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EJoYUDSpGy9qXR9GD9MGoz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_n1IcJqN8kSYUqxqAvJ_JRG
+          claim_id: c_gDmYixlsQ-TOfCu4aTAIW9
+          source_id: s_rZJWnUa2z8Emu46wDh3zmm
+          stance: supports
+          locator: 呂祖謙全集，11.175：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_EJoYUDSpGy9qXR9GD9MGoz
+        status: active
+        display_name: 王偊
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_8JtAwaFK1kWGLtoYvsdRxI
+        subject_person_id: p_7MpLgUGSue2W6Ccsh9gfNb
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_XgVNfnbjDhs17LibMkTB9W
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EWWouB40KmgqXDwsfB4efh
+          claim_id: c_8JtAwaFK1kWGLtoYvsdRxI
+          source_id: s_rZJWnUa2z8Emu46wDh3zmm
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_XgVNfnbjDhs17LibMkTB9W
+        status: active
+        display_name: 王中孚
+        merged_into_person_id: null
+    - claim:
+        id: c_i5XEZz3CUVFjlU9Z2xGlit
+        subject_person_id: p_7MpLgUGSue2W6Ccsh9gfNb
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_gYNKCExs3QMdfmbcBBVu57
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MY-3Cyje7SyC6krbYIqImi
+          claim_id: c_i5XEZz3CUVFjlU9Z2xGlit
+          source_id: s_rZJWnUa2z8Emu46wDh3zmm
+          stance: supports
+          locator: 呂祖謙全集，11.175：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_gYNKCExs3QMdfmbcBBVu57
+        status: active
+        display_name: 王中實
+        merged_into_person_id: null
   other: []
 ---
 
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_EJoYUDSpGy9qXR9GD9MGoz | 王偊 | accepted |
+| descendants | p_XgVNfnbjDhs17LibMkTB9W | 王中孚 | accepted |
+| descendants | p_gYNKCExs3QMdfmbcBBVu57 | 王中實 | accepted |
 
 ## 外部来源
 

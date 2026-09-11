@@ -4,7 +4,7 @@ id: p_9per95yktK3i7Q899v63sD
 status: active
 merged_into: null
 display_name: 王士龍
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_8hr4hrYq_PgERbeps3bU4-
+        subject_person_id: p_74Qzh7hdC512soxk6XYfNt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9per95yktK3i7Q899v63sD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NJnMc5Tk4Ok7eDuoLzDNyu
+          claim_id: c_8hr4hrYq_PgERbeps3bU4-
+          source_id: s_UsVrp5n2y8sTGy2FoXs3bM
+          stance: supports
+          locator: "元和唯亭志: 二十卷，lgid=179030：子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_UsVrp5n2y8sTGy2FoXs3bM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王治（CBDB 702862）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702862&o=json
+            external_identifier: CBDB:702862
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.814Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_74Qzh7hdC512soxk6XYfNt
+        status: active
+        display_name: 王治
+        merged_into_person_id: null
   children:
     - claim:
         id: c_lK0ZVu_GiLrPFu4XeR32hi
@@ -134,9 +171,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_74Qzh7hdC512soxk6XYfNt | 王治 | accepted |
 | children | p_6BLmMzExpHB3EP6zKJh8SE | 王時亨 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王時亨（CBDB 702873）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702873&o=json)
 - [中国历代人物传记资料库：王士龍（CBDB 702863）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702863&o=json)
+- [中国历代人物传记资料库：王治（CBDB 702862）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702862&o=json)

@@ -4,7 +4,7 @@ id: p_8Aqc68C8fXRQi969oTgMa3
 status: active
 merged_into: null
 display_name: 王旻
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_bva0_eAD_aCxQF2ONg_jXF
+        subject_person_id: p_C2PvigzGNHG78CUU5HNtSJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8Aqc68C8fXRQi969oTgMa3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1FChK9Y3P3YGFONvck2w5P
+          claim_id: c_bva0_eAD_aCxQF2ONg_jXF
+          source_id: s_DXg8oyZdP5SXnRvZ3N2vD9
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_C2PvigzGNHG78CUU5HNtSJ
+        status: active
+        display_name: 王振
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_WD-g3WJUZttoz6YjdnO9vr
+        subject_person_id: p_8Aqc68C8fXRQi969oTgMa3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hpEQRWT5BuCAx5iC3W6giV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-gu-wdjqDZC-ILoygbq4Vb
+          claim_id: c_WD-g3WJUZttoz6YjdnO9vr
+          source_id: s_DXg8oyZdP5SXnRvZ3N2vD9
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hpEQRWT5BuCAx5iC3W6giV
+        status: active
+        display_name: 王陵
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_C2PvigzGNHG78CUU5HNtSJ | 王振 | accepted |
+| children | p_hpEQRWT5BuCAx5iC3W6giV | 王陵 | accepted |
 
 ## 外部来源
 

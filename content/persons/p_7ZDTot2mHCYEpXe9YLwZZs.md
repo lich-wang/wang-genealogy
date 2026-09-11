@@ -4,7 +4,7 @@ id: p_7ZDTot2mHCYEpXe9YLwZZs
 status: active
 merged_into: null
 display_name: 王業
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_eX9zUHhcaZgWhOZ9LZV9IV
+        subject_person_id: p_JMTBrHHf3Ax27PTfG4rkZA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7ZDTot2mHCYEpXe9YLwZZs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aAeUxTiSp9M6VH9LVnwWK1
+          claim_id: c_eX9zUHhcaZgWhOZ9LZV9IV
+          source_id: s_Ku7LWpVqP3Bb5dh1yP9ouV
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第二百三十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_JMTBrHHf3Ax27PTfG4rkZA
+        status: active
+        display_name: 王仲仁
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_YoOgN_gpGazQyW49A1GxMn
+        subject_person_id: p_m3Gb3UM7zU4sBM6mpqFpmA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_7ZDTot2mHCYEpXe9YLwZZs
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KGk2ZxdIoM0Urwb7767Pyd
+          claim_id: c_YoOgN_gpGazQyW49A1GxMn
+          source_id: s_Ku7LWpVqP3Bb5dh1yP9ouV
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第二百三十七名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_m3Gb3UM7zU4sBM6mpqFpmA
+        status: active
+        display_name: 王增
+        merged_into_person_id: null
+    - claim:
+        id: c_lY0fp4tSdqqp3xfBRaZcWu
+        subject_person_id: p_FSFHNsd7jBYr9uTN9TLryA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_7ZDTot2mHCYEpXe9YLwZZs
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_grCSFL1quZ5BwMnyTaF-jt
+          claim_id: c_lY0fp4tSdqqp3xfBRaZcWu
+          source_id: s_Ku7LWpVqP3Bb5dh1yP9ouV
+          stance: supports
+          locator: 嘉靖三十二年進士登科錄:一卷，第三甲第二百三十七名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_FSFHNsd7jBYr9uTN9TLryA
+        status: active
+        display_name: 王琦
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_JMTBrHHf3Ax27PTfG4rkZA | 王仲仁 | accepted |
+| ancestors | p_m3Gb3UM7zU4sBM6mpqFpmA | 王增 | accepted |
+| ancestors | p_FSFHNsd7jBYr9uTN9TLryA | 王琦 | accepted |
 
 ## 外部来源
 

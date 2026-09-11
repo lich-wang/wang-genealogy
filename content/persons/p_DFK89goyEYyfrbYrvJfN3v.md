@@ -4,7 +4,7 @@ id: p_DFK89goyEYyfrbYrvJfN3v
 status: active
 merged_into: null
 display_name: 王襲
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_v_MQElRvKIJjDi2SNOSXKu
+        subject_person_id: p_7g3Vf9QWCJCw4r1p1UKdJR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DFK89goyEYyfrbYrvJfN3v
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KFzPmAOCAROCtZH22pStGm
+          claim_id: c_v_MQElRvKIJjDi2SNOSXKu
+          source_id: s_xDrXrMDDK4ht9SgT7nP8bT
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_xDrXrMDDK4ht9SgT7nP8bT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王叡（CBDB 175896）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175896&o=json
+            external_identifier: CBDB:175896
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.185Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_7g3Vf9QWCJCw4r1p1UKdJR
+        status: active
+        display_name: 王叡
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_7g3Vf9QWCJCw4r1p1UKdJR | 王叡 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王叡（CBDB 175896）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175896&o=json)
 - [中国历代人物传记资料库：王襲（CBDB 175897）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175897&o=json)

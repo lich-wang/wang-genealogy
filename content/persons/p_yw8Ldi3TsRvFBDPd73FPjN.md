@@ -4,7 +4,7 @@ id: p_yw8Ldi3TsRvFBDPd73FPjN
 status: active
 merged_into: null
 display_name: 王玉
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_WrsAbDOYO4gsW1chPXU_fC
+        subject_person_id: p_7E6gPyjzh8j7LkwEcAWwmH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yw8Ldi3TsRvFBDPd73FPjN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PWElb7QMXOsnhQrsnQmFPo
+          claim_id: c_WrsAbDOYO4gsW1chPXU_fC
+          source_id: s_nVLEsovCk3fqXGYbyog1XR
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_nVLEsovCk3fqXGYbyog1XR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王清（CBDB 169430）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169430&o=json
+            external_identifier: CBDB:169430
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.016Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_7E6gPyjzh8j7LkwEcAWwmH
+        status: active
+        display_name: 王清
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_7E6gPyjzh8j7LkwEcAWwmH | 王清 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王清（CBDB 169430）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169430&o=json)
 - [中国历代人物传记资料库：王玉（CBDB 143515）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143515&o=json)

@@ -4,7 +4,7 @@ id: p_88WC4Q1BzPCRUnQHKcX984
 status: active
 merged_into: null
 display_name: 王福
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_o6AXaeEwx0ojpTKfPP2-Gg
+        subject_person_id: p_88WC4Q1BzPCRUnQHKcX984
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_HFQK5L8YrnKx1CYJmv1MtZ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VEbvH_VRHbn-qS2iXNyMkk
+          claim_id: c_o6AXaeEwx0ojpTKfPP2-Gg
+          source_id: s_UPM7btK78ccPWgZ4akAvDK
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，一二四 王汲墓誌：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_HFQK5L8YrnKx1CYJmv1MtZ
+        status: active
+        display_name: 王汲
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_HFQK5L8YrnKx1CYJmv1MtZ | 王汲 | accepted |
 
 ## 外部来源
 

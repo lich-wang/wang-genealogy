@@ -4,7 +4,7 @@ id: p_8jb38Wu9u5AatYJn3UaMsM
 status: active
 merged_into: null
 display_name: 王日新
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,8 +100,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_5WxG7A3HA9Jr3h6Vzcz9u-
+        subject_person_id: p_Hu6UFzbADC4tBdbNGcJyW4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8jb38Wu9u5AatYJn3UaMsM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Pt746-wqPzJ0UHQXGRqLBE
+          claim_id: c_5WxG7A3HA9Jr3h6Vzcz9u-
+          source_id: s_SyB5HGjSVhCMX3rywmiE46
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Hu6UFzbADC4tBdbNGcJyW4
+        status: active
+        display_name: 王翁慶
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_QdD2b1-8E0d2li8YzDtyD5
+        subject_person_id: p_8jb38Wu9u5AatYJn3UaMsM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cZX36FsZfyp13UCG1A5dAD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GipEEFj7q30lCCWglr-JdO
+          claim_id: c_QdD2b1-8E0d2li8YzDtyD5
+          source_id: s_SyB5HGjSVhCMX3rywmiE46
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_cZX36FsZfyp13UCG1A5dAD
+        status: active
+        display_name: 王子建
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,6 +178,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Hu6UFzbADC4tBdbNGcJyW4 | 王翁慶 | accepted |
+| children | p_cZX36FsZfyp13UCG1A5dAD | 王子建 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王伽
 cbdb_id: 148775
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_MCbIz1yNWq8AAa_wfbYj79
+        subject_person_id: p_bqziQixDk7cRhyVnUP2TRf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8a23gwaWGoMWfZGVZ2r2p4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1EtNsoF82rvGpDdB6Y1nhN
+          claim_id: c_MCbIz1yNWq8AAa_wfbYj79
+          source_id: s_ELhxQGiRV46JkMokkuSyyN
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Xianheng 112：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ELhxQGiRV46JkMokkuSyyN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王郎（CBDB 139689）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139689&o=json
+            external_identifier: CBDB:139689
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:04.191Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8a23gwaWGoMWfZGVZ2r2p4
+        status: active
+        display_name: 王郎
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_8a23gwaWGoMWfZGVZ2r2p4 | 王郎 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王伽（CBDB 148775）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148775&o=json)
+- [中国历代人物传记资料库：王郎（CBDB 139689）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139689&o=json)

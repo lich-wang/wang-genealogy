@@ -4,7 +4,7 @@ id: p_8fLyT7ZEVM5q6B59fHgKMb
 status: active
 merged_into: null
 display_name: 王鎬
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_fNrU73mImhYyMxqxoO9bBd
+        subject_person_id: p_gGs45wBLrz1PrQ7nJg3Ni8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8fLyT7ZEVM5q6B59fHgKMb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1Kl4Ky_cPKQXecj3YfJY1U
+          claim_id: c_fNrU73mImhYyMxqxoO9bBd
+          source_id: s_zQhfYZPNcGJvYKAzCCCRiq
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第一百七十四名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_gGs45wBLrz1PrQ7nJg3Ni8
+        status: active
+        display_name: 王璋
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_yBO9jNe3UVFX6nbztsqu02
+        subject_person_id: p_wKtE8zuLqyCAcUgFGmKLDZ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_8fLyT7ZEVM5q6B59fHgKMb
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BWCZhJLAPGDTK_YGg3FKxh
+          claim_id: c_yBO9jNe3UVFX6nbztsqu02
+          source_id: s_zQhfYZPNcGJvYKAzCCCRiq
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第一百七十四名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wKtE8zuLqyCAcUgFGmKLDZ
+        status: active
+        display_name: 王貴
+        merged_into_person_id: null
+    - claim:
+        id: c_t-CWTPMPiQduFeVkhwc5i_
+        subject_person_id: p_LG1H4ZU953vvpEe2T5EbAA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_8fLyT7ZEVM5q6B59fHgKMb
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__LebMCPWIL5ZBgM2SqUZJ4
+          claim_id: c_t-CWTPMPiQduFeVkhwc5i_
+          source_id: s_zQhfYZPNcGJvYKAzCCCRiq
+          stance: supports
+          locator: 嘉靖八年進士登科錄:一卷，第三甲第一百七十四名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_LG1H4ZU953vvpEe2T5EbAA
+        status: active
+        display_name: 王暹
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_gGs45wBLrz1PrQ7nJg3Ni8 | 王璋 | accepted |
+| ancestors | p_wKtE8zuLqyCAcUgFGmKLDZ | 王貴 | accepted |
+| ancestors | p_LG1H4ZU953vvpEe2T5EbAA | 王暹 | accepted |
 
 ## 外部来源
 

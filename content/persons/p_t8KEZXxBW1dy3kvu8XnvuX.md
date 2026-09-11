@@ -4,7 +4,7 @@ id: p_t8KEZXxBW1dy3kvu8XnvuX
 status: active
 merged_into: null
 display_name: 王詁
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_i1W2nh0h3BJksLSD7NyHak
+        subject_person_id: p_t8KEZXxBW1dy3kvu8XnvuX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7THfMJodZEJjq2hbN5iKFW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bBaLhYRXNPay0NcLruQYtD
+          claim_id: c_i1W2nh0h3BJksLSD7NyHak
+          source_id: s_tHp2FnyoXei6ksmFF82P9Q
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第一百五十五名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_tHp2FnyoXei6ksmFF82P9Q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王秩（CBDB 200588）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200588&o=json
+            external_identifier: CBDB:200588
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.620Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_7THfMJodZEJjq2hbN5iKFW
+        status: active
+        display_name: 王秩
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_7THfMJodZEJjq2hbN5iKFW | 王秩 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王詁（CBDB 260097）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260097&o=json)
+- [中国历代人物传记资料库：王秩（CBDB 200588）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200588&o=json)

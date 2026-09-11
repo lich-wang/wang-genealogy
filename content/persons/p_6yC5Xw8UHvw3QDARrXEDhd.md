@@ -4,7 +4,7 @@ id: p_6yC5Xw8UHvw3QDARrXEDhd
 status: active
 merged_into: null
 display_name: 王若訥
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_HO9hkg0JdWXlE7wuv51dx6
+        subject_person_id: p_6yC5Xw8UHvw3QDARrXEDhd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_XCLa5C3r2Cp73DgJP5xw8d
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dL0joohahtYKVyIa-5kN7j
+          claim_id: c_HO9hkg0JdWXlE7wuv51dx6
+          source_id: s_P8fgfeJcxsTzaLA7yM3fGT
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，2045：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_XCLa5C3r2Cp73DgJP5xw8d
+        status: active
+        display_name: 王龍澤
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_XCLa5C3r2Cp73DgJP5xw8d | 王龍澤 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_GbYj3F7dkvznndKuLNKMtn
 status: active
 merged_into: null
 display_name: 王士恕
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_W4Zo10xtlTh9rliu8P0l93
+        subject_person_id: p_GbYj3F7dkvznndKuLNKMtn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7DvAV4NZwhgvkYo2NFGPz1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4MOoN_AsY2JWcIp6dSpPTG
+          claim_id: c_W4Zo10xtlTh9rliu8P0l93
+          source_id: s_iVWHgoCbJ36o6UkwJ3F9kL
+          stance: supports
+          locator: "民國歙縣志: 十六卷，lgid=1163962：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_iVWHgoCbJ36o6UkwJ3F9kL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王謨（CBDB 684537）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=684537&o=json
+            external_identifier: CBDB:684537
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.307Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_7DvAV4NZwhgvkYo2NFGPz1
+        status: active
+        display_name: 王謨
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_7DvAV4NZwhgvkYo2NFGPz1 | 王謨 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王謨（CBDB 684537）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=684537&o=json)
 - [中国历代人物传记资料库：王士恕（CBDB 684539）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=684539&o=json)

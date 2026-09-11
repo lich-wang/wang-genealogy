@@ -4,7 +4,7 @@ id: p_6r5VwfkrP2qbqzP6hHoNQi
 status: active
 merged_into: null
 display_name: 王弁
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -155,7 +155,44 @@ relationships:
         status: active
         display_name: 王用
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_1qsg9YVdP30Mv6aBY1nVGi
+        subject_person_id: p_6r5VwfkrP2qbqzP6hHoNQi
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_83rVhbPky8ueHuLvNkatxw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_T_Ci592og3O9VOpSUcU0j3
+          claim_id: c_1qsg9YVdP30Mv6aBY1nVGi
+          source_id: s_GJTKd6mk1Pyc52M5cLSuJo
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，80：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GJTKd6mk1Pyc52M5cLSuJo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恕（CBDB 699404）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699404&o=json
+            external_identifier: CBDB:699404
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:27.757Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_83rVhbPky8ueHuLvNkatxw
+        status: active
+        display_name: 王恕
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -375,6 +412,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_P9pk3GX9ak89DEB5HLBBuW | 王用 | accepted |
+| children | p_83rVhbPky8ueHuLvNkatxw | 王恕 | accepted |
 | descendants | p_5JKRo5JKyD3NiBVQf4W2yC | 王息哥 | accepted |
 | descendants | p_zmKmGw5eGTqLZuiR7yMU8M | 王助哥 | accepted |
 | descendants | p_9bkZAush33tNhmRnx5M2Df | 王張住 | accepted |
@@ -386,4 +424,5 @@ relationships:
 ## 外部来源
 
 - [中国历代人物传记资料库：王弁（CBDB 699373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699373&o=json)
+- [中国历代人物传记资料库：王恕（CBDB 699404）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699404&o=json)
 - [中国历代人物传记资料库：王息哥（CBDB 699422）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=699422&o=json)

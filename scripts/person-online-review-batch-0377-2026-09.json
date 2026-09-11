@@ -1,0 +1,78 @@
+{
+  "schema": "wang-person-online-review-batch/v1",
+  "reviewer": "luna",
+  "reviewed_at": "2026-09-11",
+  "queue_positions": [
+    3761,
+    3770
+  ],
+  "summary": {
+    "reviewed": 10,
+    "relationships_added": 9,
+    "manual_review": 1
+  },
+  "relationships": [
+    {
+      "subject": "p_9DwGjPApdqe1zoHq9wJJUF",
+      "object": "p_8CKJNGVaripT3AVjGSTRgL",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_MVjZzxWsAgzkrKDUKxsADW",
+      "object": "p_8CKJNGVaripT3AVjGSTRgL",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_EPre6RwkxTdv7w3sC85r9v",
+      "object": "p_8CKJNGVaripT3AVjGSTRgL",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_8CRhEiT8Pich4ngDid6FVh",
+      "object": "p_2nye6BM6PDRwcFsFBhjHhi",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 3
+    },
+    {
+      "subject": "p_tBLAnfK4dS8P5LR1P2RqS9",
+      "object": "p_8ct24JW85LFaBwBesKXW2J",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    },
+    {
+      "subject": "p_DoWNVNC6JZBAasWbqdoiCX",
+      "object": "p_8ct24JW85LFaBwBesKXW2J",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_8ct24JW85LFaBwBesKXW2J",
+      "object": "p_FrJBqWgwUnRtuWZzhb2b4A",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_8ct24JW85LFaBwBesKXW2J",
+      "object": "p_k9n3ojWfK8xWpfgXcejN2j",
+      "predicate": "kinship.father_of",
+      "generation_count": null
+    },
+    {
+      "subject": "p_8cVjN2F6e4z4TDW3w4YdEg",
+      "object": "p_CvioAH4pK1gg7UWTM6DCMS",
+      "predicate": "kinship.ancestor_of",
+      "generation_count": 2
+    }
+  ],
+  "unchanged": [
+    "p_8CJFeTpK8MJ11yEnUGi9hH",
+    "p_8CjGtGBjr3D9um9jXJA3bH",
+    "p_8cN14Y7wVKNAox7cmqz7PN",
+    "p_8cnaNyE1an38qKY4DKCxTn",
+    "p_8CrGgZFsEEfZmXjqVHHouZ",
+    "p_8CWuqp8jpSzXJ9LjrR2XoB"
+  ]
+}

@@ -4,7 +4,7 @@ id: p_7PCyUHEB7pUTPT7oxrjg3q
 status: active
 merged_into: null
 display_name: 王瑄
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_7QpTO054UdoHMa_zJiDWHx
+        subject_person_id: p_7PCyUHEB7pUTPT7oxrjg3q
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_zZwvDUs3YgX6S9BozMt7RC
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_keIhghaM2s87FWHaHHSyXH
+          claim_id: c_7QpTO054UdoHMa_zJiDWHx
+          source_id: s_kh7Rwn6J5EGRaN9pmgY6hD
+          stance: supports
+          locator: 嘉靖三十八年進士登科錄:一卷，第三甲第一百七十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_zZwvDUs3YgX6S9BozMt7RC
+        status: active
+        display_name: 王楫
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_zZwvDUs3YgX6S9BozMt7RC | 王楫 | accepted |
 
 ## 外部来源
 

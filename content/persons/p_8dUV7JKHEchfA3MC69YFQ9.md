@@ -4,7 +4,7 @@ id: p_8dUV7JKHEchfA3MC69YFQ9
 status: active
 merged_into: null
 display_name: 王亶
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_R4vkDT81fz3zX9HMS0onD_
+        subject_person_id: p_8dUV7JKHEchfA3MC69YFQ9
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ziFePMbdNLKAgyGGN4BwgX
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Auq7ByUPgoH6KuvOVnl6DQ
+          claim_id: c_R4vkDT81fz3zX9HMS0onD_
+          source_id: s_D6f6WSR9knTFSk7iYS5fkC
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第三甲第十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_ziFePMbdNLKAgyGGN4BwgX
+        status: active
+        display_name: 王洙
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_ziFePMbdNLKAgyGGN4BwgX | 王洙 | accepted |
 
 ## 外部来源
 

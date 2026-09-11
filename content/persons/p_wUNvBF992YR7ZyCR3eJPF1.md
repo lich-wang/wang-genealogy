@@ -4,7 +4,7 @@ id: p_wUNvBF992YR7ZyCR3eJPF1
 status: active
 merged_into: null
 display_name: 王疇
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_N3MF_Gyg3RbyL1IFHvNCum
+        subject_person_id: p_7YfpL25vUrnwFFcc6SBg38
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wUNvBF992YR7ZyCR3eJPF1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5FUyvf6g1-5apS1_UIASXg
+          claim_id: c_N3MF_Gyg3RbyL1IFHvNCum
+          source_id: s_mQaAmDqENzDB2HX8BBBFyG
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1285：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_mQaAmDqENzDB2HX8BBBFyG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王博文（CBDB 1860）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1860&o=json
+            external_identifier: CBDB:1860
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.351Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_7YfpL25vUrnwFFcc6SBg38
+        status: active
+        display_name: 王博文
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_7YfpL25vUrnwFFcc6SBg38 | 王博文 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王博文（CBDB 1860）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1860&o=json)
 - [中国历代人物传记资料库：王疇（CBDB 1771）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1771&o=json)

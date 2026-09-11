@@ -4,7 +4,7 @@ id: p_8cCQbEMY8ZpE4BQETGuGc3
 status: active
 merged_into: null
 display_name: 王源
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_RghN1lBqa-9s3WeqcxxciK
+        subject_person_id: p_8cCQbEMY8ZpE4BQETGuGc3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_7wzTGA3qgQYcchPFctGbYw
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5mBiN3cQOCF3vzCoKJemfp
+          claim_id: c_RghN1lBqa-9s3WeqcxxciK
+          source_id: s_4xxvavE1fm4FZqLMfztadX
+          stance: supports
+          locator: 嘉靖十四年進士登科錄:一卷，第三甲第一百五十一名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4xxvavE1fm4FZqLMfztadX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應期（CBDB 202976）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202976&o=json
+            external_identifier: CBDB:202976
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.768Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_7wzTGA3qgQYcchPFctGbYw
+        status: active
+        display_name: 王應期
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_7wzTGA3qgQYcchPFctGbYw | 王應期 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王應期（CBDB 202976）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202976&o=json)
 - [中国历代人物传记资料库：王源（CBDB 297730）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297730&o=json)

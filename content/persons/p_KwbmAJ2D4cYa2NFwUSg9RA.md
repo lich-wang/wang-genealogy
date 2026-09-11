@@ -4,7 +4,7 @@ id: p_KwbmAJ2D4cYa2NFwUSg9RA
 status: active
 merged_into: null
 display_name: 王溥
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_IXf84VUIPmRLUKOMYOEfNA
+        subject_person_id: p_75587XqogBQaW5G74KzAUa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KwbmAJ2D4cYa2NFwUSg9RA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_T3erZD3RnetiUi-13Cdslp
+          claim_id: c_IXf84VUIPmRLUKOMYOEfNA
+          source_id: s_fPj9F5vVSoDjTWHQZskLG1
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1026：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_fPj9F5vVSoDjTWHQZskLG1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王延祚（CBDB 22069）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22069&o=json
+            external_identifier: CBDB:22069
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.816Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_75587XqogBQaW5G74KzAUa
+        status: active
+        display_name: 王延祚
+        merged_into_person_id: null
   children:
     - claim:
         id: c_-Nm-w0p9Tzre2GRXxkT4ER
@@ -192,9 +229,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_75587XqogBQaW5G74KzAUa | 王延祚 | accepted |
 | children | p_dTXH6ubpBbfKsj26LKdQqL | 王貽正 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王溥（CBDB 8152）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8152&o=json)
+- [中国历代人物传记资料库：王延祚（CBDB 22069）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22069&o=json)
 - [中国历代人物传记资料库：王貽永（CBDB 1829）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1829&o=json)

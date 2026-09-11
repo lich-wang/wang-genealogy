@@ -4,7 +4,7 @@ id: p_8FQahN2M34nM7B4mb79g6G
 status: active
 merged_into: null
 display_name: 王燮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,59 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_MdZb1qJ8DkK3lzyEIr5BI9
+        subject_person_id: p_8FQahN2M34nM7B4mb79g6G
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_L41jgvNQ6w8JjJzaNKsowV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5cex85Ci-9t0SWtza50cSp
+          claim_id: c_MdZb1qJ8DkK3lzyEIr5BI9
+          source_id: s_4x6YQGwimhjCQTNP9mrxyS
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13213：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_L41jgvNQ6w8JjJzaNKsowV
+        status: active
+        display_name: 王綏圻
+        merged_into_person_id: null
+    - claim:
+        id: c_qVybeqBIM3NX2E5Dp5KOOI
+        subject_person_id: p_8FQahN2M34nM7B4mb79g6G
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xrBWsuTJASiC9n8hS1Ba4D
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VlIc1iiuIXiiLdCuJOiSnZ
+          claim_id: c_qVybeqBIM3NX2E5Dp5KOOI
+          source_id: s_4x6YQGwimhjCQTNP9mrxyS
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13213：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xrBWsuTJASiC9n8hS1Ba4D
+        status: active
+        display_name: 王綏垣
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +207,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_L41jgvNQ6w8JjJzaNKsowV | 王綏圻 | accepted |
+| children | p_xrBWsuTJASiC9n8hS1Ba4D | 王綏垣 | accepted |
 
 ## 外部来源
 

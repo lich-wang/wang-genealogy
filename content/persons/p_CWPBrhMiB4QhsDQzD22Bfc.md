@@ -4,7 +4,7 @@ id: p_CWPBrhMiB4QhsDQzD22Bfc
 status: active
 merged_into: null
 display_name: 王美暢
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -148,6 +148,43 @@ relationships:
         status: active
         display_name: 王玢
         merged_into_person_id: null
+    - claim:
+        id: c_VAbSHG22dZ_6_Ossa8UP7o
+        subject_person_id: p_CWPBrhMiB4QhsDQzD22Bfc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8FHiW23J39Chbi8scGXN4o
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vJ0g7m2lVCup4aCYO_H6d0
+          claim_id: c_VAbSHG22dZ_6_Ossa8UP7o
+          source_id: s_3x6QuTDFvBJQEh1BBVxzaZ
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3x6QuTDFvBJQEh1BBVxzaZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王弼（CBDB 175848）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175848&o=json
+            external_identifier: CBDB:175848
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.162Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8FHiW23J39Chbi8scGXN4o
+        status: active
+        display_name: 王弼
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -173,9 +210,11 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_5KHvdsjKfdht29UH2RE6Zz | 王輝 | accepted |
 | children | p_6GfcoaCQXYnuXJ4AhCP9h6 | 王玢 | accepted |
+| children | p_8FHiW23J39Chbi8scGXN4o | 王弼 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王弼（CBDB 175848）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175848&o=json)
 - [中国历代人物传记资料库：王玢（CBDB 175849）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175849&o=json)
 - [中国历代人物传记资料库：王輝（CBDB 175850）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175850&o=json)
 - [中国历代人物传记资料库：王美暢（CBDB 150489）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150489&o=json)

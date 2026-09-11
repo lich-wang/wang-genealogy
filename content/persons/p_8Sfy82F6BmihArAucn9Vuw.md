@@ -4,7 +4,7 @@ id: p_8Sfy82F6BmihArAucn9Vuw
 status: active
 merged_into: null
 display_name: 王詔
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,12 +100,90 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_B8o3gYbeOxx3Z0i4cWDPD-
+        subject_person_id: p_Zr3cc57cGmUXGbD4psHLyS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8Sfy82F6BmihArAucn9Vuw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lMQPsnar_3FC8lH_0YSEwB
+          claim_id: c_B8o3gYbeOxx3Z0i4cWDPD-
+          source_id: s_p1CXfyPv5LXzNzgR3qcWyx
+          stance: supports
+          locator: 正统七年進士登科錄:一卷，第三甲第十三名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Zr3cc57cGmUXGbD4psHLyS
+        status: active
+        display_name: 王仕復
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_yWCuPGOZbzaYemjnxj9u3c
+        subject_person_id: p_thNdzJMkJjjDe2Hr5mo9Hf
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_8Sfy82F6BmihArAucn9Vuw
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gVovzc0hVshq8sfNb5XsZJ
+          claim_id: c_yWCuPGOZbzaYemjnxj9u3c
+          source_id: s_p1CXfyPv5LXzNzgR3qcWyx
+          stance: supports
+          locator: 正统七年進士登科錄:一卷，第三甲第十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_thNdzJMkJjjDe2Hr5mo9Hf
+        status: active
+        display_name: 王庶叔
+        merged_into_person_id: null
+    - claim:
+        id: c_5luk-4dAwn2nVFRk78s6yB
+        subject_person_id: p_q88ScjyNJ3fMjZFYBwS46A
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_8Sfy82F6BmihArAucn9Vuw
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JmUGfu-YyF7rwnP7C5TgZ-
+          claim_id: c_5luk-4dAwn2nVFRk78s6yB
+          source_id: s_p1CXfyPv5LXzNzgR3qcWyx
+          stance: supports
+          locator: 正统七年進士登科錄:一卷，第三甲第十三名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_q88ScjyNJ3fMjZFYBwS46A
+        status: active
+        display_name: 王原簡
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -126,6 +204,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Zr3cc57cGmUXGbD4psHLyS | 王仕復 | accepted |
+| ancestors | p_thNdzJMkJjjDe2Hr5mo9Hf | 王庶叔 | accepted |
+| ancestors | p_q88ScjyNJ3fMjZFYBwS46A | 王原簡 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王德完
 cbdb_id: 126817
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -214,7 +214,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_qZjhk6R-W3_TcQYwv2wYEm
+        subject_person_id: p_82LH4zvWB91eefqaMKXniR
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_E9W2DShq5Qkj6ZiKVB1xLN
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ji92IWL7SbZpKrkL-o-_S5
+          claim_id: c_qZjhk6R-W3_TcQYwv2wYEm
+          source_id: s_DrUt1DB8kmE4KrqBE3PvNP
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第四十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_DrUt1DB8kmE4KrqBE3PvNP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世官（CBDB 230035）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230035&o=json
+            external_identifier: CBDB:230035
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.599Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_82LH4zvWB91eefqaMKXniR
+        status: active
+        display_name: 王世官
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -237,8 +274,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_2njDB7hmvoYHNUkzktGMvR | 王梁 | accepted |
+| ancestors | p_82LH4zvWB91eefqaMKXniR | 王世官 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王德完（CBDB 126817）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126817&o=json)
 - [中国历代人物传记资料库：王梁（CBDB 230036）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230036&o=json)
+- [中国历代人物传记资料库：王世官（CBDB 230035）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230035&o=json)

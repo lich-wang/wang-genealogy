@@ -4,7 +4,7 @@ id: p_vLSVF2E29bhtHRC3R3t1gA
 status: active
 merged_into: null
 display_name: 王朗
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_q1jb7RXJWAmJlV58YqBiLp
+        subject_person_id: p_vLSVF2E29bhtHRC3R3t1gA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7P6hd2dfTpaZ5XPHJrY2v9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BwA2L2dxQmEa4WILl-A4kH
+          claim_id: c_q1jb7RXJWAmJlV58YqBiLp
+          source_id: s_j3aE2AHGxmutrYB7cF8Q4D
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Longshuo 5：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_j3aE2AHGxmutrYB7cF8Q4D
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元卿（CBDB 147704）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=147704&o=json
+            external_identifier: CBDB:147704
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:15.744Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_7P6hd2dfTpaZ5XPHJrY2v9
+        status: active
+        display_name: 王元卿
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_7P6hd2dfTpaZ5XPHJrY2v9 | 王元卿 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王朗（CBDB 139242）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139242&o=json)
+- [中国历代人物传记资料库：王元卿（CBDB 147704）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=147704&o=json)

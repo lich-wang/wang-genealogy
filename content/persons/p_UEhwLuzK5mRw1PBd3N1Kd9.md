@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王文盛
 cbdb_id: 326520
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -87,7 +87,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_raLXSXSDBzDzUgJl3MdIxj
+        subject_person_id: p_UEhwLuzK5mRw1PBd3N1Kd9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7x8JYYpfNVCNz7epCoiZPm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k5sMag1ncVE3mWDtXQJpWP
+          claim_id: c_raLXSXSDBzDzUgJl3MdIxj
+          source_id: s_3p6BBfq8bjfMZEGQHAGUKU
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第二甲第二十八名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3p6BBfq8bjfMZEGQHAGUKU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷輔（CBDB 204965）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204965&o=json
+            external_identifier: CBDB:204965
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:16.843Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_7x8JYYpfNVCNz7epCoiZPm
+        status: active
+        display_name: 王廷輔
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,7 +148,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_7x8JYYpfNVCNz7epCoiZPm | 王廷輔 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王廷輔（CBDB 204965）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204965&o=json)
 - [中国历代人物传记资料库：王文盛（CBDB 326520）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326520&o=json)

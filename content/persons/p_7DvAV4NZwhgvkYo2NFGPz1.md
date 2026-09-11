@@ -4,7 +4,7 @@ id: p_7DvAV4NZwhgvkYo2NFGPz1
 status: active
 merged_into: null
 display_name: 王謨
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,64 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_W4Zo10xtlTh9rliu8P0l93
+        subject_person_id: p_GbYj3F7dkvznndKuLNKMtn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7DvAV4NZwhgvkYo2NFGPz1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4MOoN_AsY2JWcIp6dSpPTG
+          claim_id: c_W4Zo10xtlTh9rliu8P0l93
+          source_id: s_iVWHgoCbJ36o6UkwJ3F9kL
+          stance: supports
+          locator: "民國歙縣志: 十六卷，lgid=1163962：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_GbYj3F7dkvznndKuLNKMtn
+        status: active
+        display_name: 王士恕
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_NlPeDV1Om2zi0Q3OSlxMSr
+        subject_person_id: p_iM1B1oYqK2XseAuiGpcZ7v
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_7DvAV4NZwhgvkYo2NFGPz1
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__0_nFrm69eys1rXCvG2wJr
+          claim_id: c_NlPeDV1Om2zi0Q3OSlxMSr
+          source_id: s_iVWHgoCbJ36o6UkwJ3F9kL
+          stance: supports
+          locator: "民國歙縣志: 十六卷，lgid=1163962：祖父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iM1B1oYqK2XseAuiGpcZ7v
+        status: active
+        display_name: 王學健
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_GbYj3F7dkvznndKuLNKMtn | 王士恕 | accepted |
+| ancestors | p_iM1B1oYqK2XseAuiGpcZ7v | 王學健 | accepted |
 
 ## 外部来源
 

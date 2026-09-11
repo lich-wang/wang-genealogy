@@ -4,7 +4,7 @@ id: p_8ct24JW85LFaBwBesKXW2J
 status: active
 merged_into: null
 display_name: 王延世
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,12 +72,116 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_3DXEVTXlqcslPyr8z9x6-L
+        subject_person_id: p_DoWNVNC6JZBAasWbqdoiCX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8ct24JW85LFaBwBesKXW2J
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gQJskFBSwI4wiivhMYmKLL
+          claim_id: c_3DXEVTXlqcslPyr8z9x6-L
+          source_id: s_DpXnKmpa5iqAqQ81mNyebu
+          stance: supports
+          locator: (乾隆)信陽州志，lgid=868493：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DoWNVNC6JZBAasWbqdoiCX
+        status: active
+        display_name: 王祖嫡
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_iZuufjKS4oHNF-B5j6AG8e
+        subject_person_id: p_8ct24JW85LFaBwBesKXW2J
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FrJBqWgwUnRtuWZzhb2b4A
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pBbCV8R-vaQPFJshuiboUO
+          claim_id: c_iZuufjKS4oHNF-B5j6AG8e
+          source_id: s_DpXnKmpa5iqAqQ81mNyebu
+          stance: supports
+          locator: (乾隆)信陽州志，lgid=868493：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_FrJBqWgwUnRtuWZzhb2b4A
+        status: active
+        display_name: 王星奎
+        merged_into_person_id: null
+    - claim:
+        id: c_b0rm7lQBRm6KdsAHKEq2X6
+        subject_person_id: p_8ct24JW85LFaBwBesKXW2J
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_k9n3ojWfK8xWpfgXcejN2j
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sFRnbSN5WQIRg3GDaOoN7E
+          claim_id: c_b0rm7lQBRm6KdsAHKEq2X6
+          source_id: s_DpXnKmpa5iqAqQ81mNyebu
+          stance: supports
+          locator: (乾隆)信陽州志，Wang Xing bi：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_k9n3ojWfK8xWpfgXcejN2j
+        status: active
+        display_name: 王星璧
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_0yWO7nVLJWfDdKBXQK7OFv
+        subject_person_id: p_tBLAnfK4dS8P5LR1P2RqS9
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_8ct24JW85LFaBwBesKXW2J
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IMlZuu0mdHOTh5bzrny7zx
+          claim_id: c_0yWO7nVLJWfDdKBXQK7OFv
+          source_id: s_DpXnKmpa5iqAqQ81mNyebu
+          stance: supports
+          locator: (乾隆)信陽州志，lgid=868493：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_tBLAnfK4dS8P5LR1P2RqS9
+        status: active
+        display_name: 王詔
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -97,6 +201,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_DoWNVNC6JZBAasWbqdoiCX | 王祖嫡 | accepted |
+| children | p_FrJBqWgwUnRtuWZzhb2b4A | 王星奎 | accepted |
+| children | p_k9n3ojWfK8xWpfgXcejN2j | 王星璧 | accepted |
+| ancestors | p_tBLAnfK4dS8P5LR1P2RqS9 | 王詔 | accepted |
 
 ## 外部来源
 

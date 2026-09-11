@@ -4,7 +4,7 @@ id: p_7Vg6fwwANVLx1wDXDAmRg9
 status: active
 merged_into: null
 display_name: 王洪
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_4c1j48kPVeF-fWLHw2s_Xw
+        subject_person_id: p_7Vg6fwwANVLx1wDXDAmRg9
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_e7c3DhdEJw2765tvQyZA4M
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aV4raMB6_VpZwzhDinT8UX
+          claim_id: c_4c1j48kPVeF-fWLHw2s_Xw
+          source_id: s_hs4NuTNZFNqhZQWgeTy2X6
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第二百零六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_e7c3DhdEJw2765tvQyZA4M
+        status: active
+        display_name: 王梅
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_e7c3DhdEJw2765tvQyZA4M | 王梅 | accepted |
 
 ## 外部来源
 

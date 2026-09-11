@@ -4,7 +4,7 @@ id: p_738t8jZyTZKAPviDCRrrJx
 status: active
 merged_into: null
 display_name: 王平
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,85 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_wqXjB9S-MLY2JmFdCGL3HT
+        subject_person_id: p_738t8jZyTZKAPviDCRrrJx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JEt5oMRgwuJEJYSBjWuL8C
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hVbQe-JsEVVRHOXa-PMtyr
+          claim_id: c_wqXjB9S-MLY2JmFdCGL3HT
+          source_id: s_GPNRKDZJP3EbeT9neoB5Aa
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_JEt5oMRgwuJEJYSBjWuL8C
+        status: active
+        display_name: 王仕詮
+        merged_into_person_id: null
+    - claim:
+        id: c_Wm_wAGRJjIqpaZVXVljtUa
+        subject_person_id: p_738t8jZyTZKAPviDCRrrJx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YKWQahTTsBHcoqavMS6dC1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B1yUAFdjJy4omZj-rM2K2C
+          claim_id: c_Wm_wAGRJjIqpaZVXVljtUa
+          source_id: s_GPNRKDZJP3EbeT9neoB5Aa
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Zhenyuan 98：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_YKWQahTTsBHcoqavMS6dC1
+        status: active
+        display_name: 王仕
+        merged_into_person_id: null
+    - claim:
+        id: c_-jp6c0wgetqe4-Prg6fmDb
+        subject_person_id: p_738t8jZyTZKAPviDCRrrJx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xxLqtCkGz1VyvafqyUJGDb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XbqXYnT1R_LZaBBW8I49WQ
+          claim_id: c_-jp6c0wgetqe4-Prg6fmDb
+          source_id: s_GPNRKDZJP3EbeT9neoB5Aa
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Zhenyuan 98：嗣子(作為繼承人的兒子)
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xxLqtCkGz1VyvafqyUJGDb
+        status: active
+        display_name: 王詮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,6 +233,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_JEt5oMRgwuJEJYSBjWuL8C | 王仕詮 | accepted |
+| children | p_YKWQahTTsBHcoqavMS6dC1 | 王仕 | accepted |
+| children | p_xxLqtCkGz1VyvafqyUJGDb | 王詮 | accepted |
 
 ## 外部来源
 

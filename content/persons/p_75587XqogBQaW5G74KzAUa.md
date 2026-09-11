@@ -4,7 +4,7 @@ id: p_75587XqogBQaW5G74KzAUa
 status: active
 merged_into: null
 display_name: 王延祚
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,13 +72,91 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_kXzuYefU9p_nSyUIcEkxfK
+        subject_person_id: p_JCa3R39d4XcRY2MuE9xDyZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_75587XqogBQaW5G74KzAUa
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CJkyEIXlrGabQoFgKtLBcG
+          claim_id: c_kXzuYefU9p_nSyUIcEkxfK
+          source_id: s_fPj9F5vVSoDjTWHQZskLG1
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，822;823：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_JCa3R39d4XcRY2MuE9xDyZ
+        status: active
+        display_name: 王建福
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_IXf84VUIPmRLUKOMYOEfNA
+        subject_person_id: p_75587XqogBQaW5G74KzAUa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KwbmAJ2D4cYa2NFwUSg9RA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_T3erZD3RnetiUi-13Cdslp
+          claim_id: c_IXf84VUIPmRLUKOMYOEfNA
+          source_id: s_fPj9F5vVSoDjTWHQZskLG1
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，1026：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_KwbmAJ2D4cYa2NFwUSg9RA
+        status: active
+        display_name: 王溥
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_-E57S4rXlbdWNCQ1E2lPC-
+        subject_person_id: p_75587XqogBQaW5G74KzAUa
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_LWouE38zrijcXXQPG5ma9Z
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KTXRRMYaiC5NhasipRJ0I5
+          claim_id: c_-E57S4rXlbdWNCQ1E2lPC-
+          source_id: s_fPj9F5vVSoDjTWHQZskLG1
+          stance: supports
+          locator: 新出宋代墓志碑刻輯錄，一二三 王貽矩墓誌：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_LWouE38zrijcXXQPG5ma9Z
+        status: active
+        display_name: 王貽矩
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,6 +175,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_JCa3R39d4XcRY2MuE9xDyZ | 王建福 | accepted |
+| children | p_KwbmAJ2D4cYa2NFwUSg9RA | 王溥 | accepted |
+| descendants | p_LWouE38zrijcXXQPG5ma9Z | 王貽矩 | accepted |
 
 ## 外部来源
 

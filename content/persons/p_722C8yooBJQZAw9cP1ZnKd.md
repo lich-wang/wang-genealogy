@@ -4,7 +4,7 @@ id: p_722C8yooBJQZAw9cP1ZnKd
 status: active
 merged_into: null
 display_name: 王之春
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_Wwhn6iq0j3xLIWyNn8O46H
+        subject_person_id: p_iC9eyW5EGTjEu2z7hi9uMs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_722C8yooBJQZAw9cP1ZnKd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9imiwMXEFLSxuH0xFp3352
+          claim_id: c_Wwhn6iq0j3xLIWyNn8O46H
+          source_id: s_a9hEXQ2vi6RpiEMLeLUFyK
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160984：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_iC9eyW5EGTjEu2z7hi9uMs
+        status: active
+        display_name: 王士階
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_MN5ZPNg3Kku4nhZZcb8OFO
+        subject_person_id: p_722C8yooBJQZAw9cP1ZnKd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FYQb99EiX4ELJ1Y5NrCF89
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hZitajB9kFsvTgsecMY15-
+          claim_id: c_MN5ZPNg3Kku4nhZZcb8OFO
+          source_id: s_a9hEXQ2vi6RpiEMLeLUFyK
+          stance: supports
+          locator: (道光)徽州府志:十六卷卷首一卷，lgid=1160984：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_FYQb99EiX4ELJ1Y5NrCF89
+        status: active
+        display_name: 王德新
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,6 +149,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_iC9eyW5EGTjEu2z7hi9uMs | 王士階 | accepted |
+| children | p_FYQb99EiX4ELJ1Y5NrCF89 | 王德新 | accepted |
 
 ## 外部来源
 

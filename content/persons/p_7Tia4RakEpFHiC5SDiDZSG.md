@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王让
 cbdb_id: 333155
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -214,6 +214,43 @@ relationships:
         status: active
         display_name: 王轼
         merged_into_person_id: null
+    - claim:
+        id: c_SlIRY1cxrOG4IMFRMHoLxK
+        subject_person_id: p_7Tia4RakEpFHiC5SDiDZSG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8kvzu18KWCHGBJbrWxW4b9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mxZ85apvdDYOI48VbQKDVR
+          claim_id: c_SlIRY1cxrOG4IMFRMHoLxK
+          source_id: s_dizqWBK4gRWFn4mBpUaSGR
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第十二名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_dizqWBK4gRWFn4mBpUaSGR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王軾（CBDB 67466）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67466&o=json
+            external_identifier: CBDB:67466
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.995Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_8kvzu18KWCHGBJbrWxW4b9
+        status: active
+        display_name: 王軾
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -239,10 +276,12 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_vxysH4B8xpbAGBTVKY3Dh2 | 王原道 | accepted |
 | children | p_NPncefunYMmyKCiKheCMKZ | 王轼 | accepted |
+| children | p_8kvzu18KWCHGBJbrWxW4b9 | 王軾 | accepted |
 
 ## 外部来源
 
 - [维基数据：王让（Q45561003）](https://www.wikidata.org/wiki/Q45561003)
 - [维基数据：王轼（Q15912162）](https://www.wikidata.org/wiki/Q15912162)
 - [维基数据：王原道（Q45560451）](https://www.wikidata.org/wiki/Q45560451)
+- [中国历代人物传记资料库：王軾（CBDB 67466）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67466&o=json)
 - [CBDB 中国历代人物传记资料库：王讓（333155）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333155&o=json)
