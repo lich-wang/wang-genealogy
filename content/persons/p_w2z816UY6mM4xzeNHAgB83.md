@@ -4,7 +4,7 @@ id: p_w2z816UY6mM4xzeNHAgB83
 status: active
 merged_into: null
 display_name: 王渙
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -110,7 +110,45 @@ relationships:
         status: active
         display_name: 王京
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_cL16qh1EJrXg4BQ4SHXP9b
+        subject_person_id: p_w2z816UY6mM4xzeNHAgB83
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bVxT7EN2J5N6Hv8i7T9bhX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_brBxxVjZaHBRGDzuSAVvMW
+          claim_id: c_cL16qh1EJrXg4BQ4SHXP9b
+          source_id: s_6H5yiBaFAFmKGatFHmHp4P
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），11574：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_6H5yiBaFAFmKGatFHmHp4P
+            source_type: api_record
+            title: 中国历代人物传记资料库：王挻（CBDB 525668）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=525668&o=json
+            external_identifier: CBDB:525668
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:17.868Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_bVxT7EN2J5N6Hv8i7T9bhX
+        status: active
+        display_name: 王挻
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -172,10 +210,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_PbcMSPmGuF3fVvYFwz57Eb | 王京 | accepted |
+| children | p_bVxT7EN2J5N6Hv8i7T9bhX | 王挻 | accepted |
 | ancestors | p_d3GLG2yi3SZLVMfnxLc5V7 | 王在明 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王渙（CBDB 67928）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67928&o=json)
 - [中国历代人物传记资料库：王京（CBDB 269144）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=269144&o=json)
+- [中国历代人物传记资料库：王挻（CBDB 525668）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=525668&o=json)
 - [中国历代人物传记资料库：王在明（CBDB 269143）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=269143&o=json)

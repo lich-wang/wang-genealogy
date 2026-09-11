@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王羊仁
 cbdb_id: 140591
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:140591
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_V8FtTHBomZRp6a49JiPHGD
             source_type: api_record
             title: 中国历代人物传记资料库：王羊仁（CBDB 140591）
@@ -172,7 +172,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_s7uPcGJidiRsUpG3S3qE0-
+        subject_person_id: p_S8zFCFRhPAyAgMLdMswdEY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bbA2A1GrfUE3UHbSpwtEYz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JTNOvhfWx2Fya9eThljBXC
+          claim_id: c_s7uPcGJidiRsUpG3S3qE0-
+          source_id: s_V8FtTHBomZRp6a49JiPHGD
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 418：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_S8zFCFRhPAyAgMLdMswdEY
+        status: active
+        display_name: 王羊
+        merged_into_person_id: null
   children:
     - claim:
         id: c_E0Xkh_k5Ao0gGuFz0umFuk
@@ -236,6 +262,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_S8zFCFRhPAyAgMLdMswdEY | 王羊 | accepted |
 | children | p_d9QrNwuRoU7z7WjDwXbPD8 | 王惟忠 | accepted |
 
 ## 外部来源

@@ -4,7 +4,7 @@ id: p_EaFxi6NHrChzwLEA1T89LT
 status: active
 merged_into: null
 display_name: 王道成
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -152,6 +152,44 @@ relationships:
         status: active
         display_name: 王輅
         merged_into_person_id: null
+    - claim:
+        id: c_AayupScFnO0kIVNNPYIYbL
+        subject_person_id: p_bGtwBsMuUAuXoi2ok9LjRY
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_EaFxi6NHrChzwLEA1T89LT
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FIFnmAj8sck9ZkK_1qN5s2
+          claim_id: c_AayupScFnO0kIVNNPYIYbL
+          source_id: s_BaK1qyg6QggR9879DKj7jz
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第一百零七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BaK1qyg6QggR9879DKj7jz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王武才（CBDB 210018）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210018&o=json
+            external_identifier: CBDB:210018
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:55.593Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_bGtwBsMuUAuXoi2ok9LjRY
+        status: active
+        display_name: 王武才
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -173,9 +211,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_4CkBCwtn2nCSmzMrTCZ7Ut | 王廷宣 | accepted |
 | ancestors | p_F2TBF6uaD1hXaVg2JLva61 | 王輅 | accepted |
+| ancestors | p_bGtwBsMuUAuXoi2ok9LjRY | 王武才 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王道成（CBDB 126745）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126745&o=json)
 - [中国历代人物传记资料库：王輅（CBDB 210019）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210019&o=json)
 - [中国历代人物传记资料库：王廷宣（CBDB 210020）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210020&o=json)
+- [中国历代人物传记资料库：王武才（CBDB 210018）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210018&o=json)

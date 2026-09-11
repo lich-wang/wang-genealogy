@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王命時
 cbdb_id: 69275
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,7 +172,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_iqOT2NoOSMWHETdN8F-sKh
+        subject_person_id: p_BPeJE9N6JeBj6prtdov1ny
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_V9Mdqt7Q4vUXMLyaLoUhgr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xZ5IiY00Op0hTueqmSxiXR
+          claim_id: c_iqOT2NoOSMWHETdN8F-sKh
+          source_id: s_LH3XyNi1JP9h3Yc5mbo5bV
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12977：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_LH3XyNi1JP9h3Yc5mbo5bV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世輔（CBDB 526809）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526809&o=json
+            external_identifier: CBDB:526809
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:18.829Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_BPeJE9N6JeBj6prtdov1ny
+        status: active
+        display_name: 王世輔
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -275,6 +313,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_BPeJE9N6JeBj6prtdov1ny | 王世輔 | accepted |
 | descendants | p_54xBrU98KE5YhvFiAMJ6A2 | 王孝輅 | accepted |
 | descendants | p_59ArzFs44vkWcsELWr4q9e | 王符雯 | accepted |
 
@@ -282,4 +321,5 @@ relationships:
 
 - [中国历代人物传记资料库：王符雯（CBDB 526811）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526811&o=json)
 - [中国历代人物传记资料库：王命時（CBDB 69275）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69275&o=json)
+- [中国历代人物传记资料库：王世輔（CBDB 526809）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526809&o=json)
 - [中国历代人物传记资料库：王孝輅（CBDB 526810）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526810&o=json)

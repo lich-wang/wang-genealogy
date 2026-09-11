@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仕通
 cbdb_id: 266618
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:266618
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_mNwbC98JoKYdVthNo7ZA5S
             source_type: api_record
             title: 中国历代人物传记资料库：王仕通（CBDB 266618）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Z9lHY_7BGIlmdeIMVVsapJ
+        subject_person_id: p_BtWvuGRFMDiFf3wNmLonU8
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_wt4Rncm14h6MrnGgfPy2hA
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__KJ4nI75D-UqO_kOxrD0cN
+          claim_id: c_Z9lHY_7BGIlmdeIMVVsapJ
+          source_id: s_mNwbC98JoKYdVthNo7ZA5S
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第三甲第一百九十一名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_wt4Rncm14h6MrnGgfPy2hA
+        status: active
+        display_name: 王用才
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_wt4Rncm14h6MrnGgfPy2hA | 王用才 | accepted |
 
 ## 外部来源
 

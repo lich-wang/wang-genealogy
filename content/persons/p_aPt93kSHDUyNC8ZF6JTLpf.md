@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 陈安石
 cbdb_id: 17
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -162,6 +162,32 @@ relationships:
         status: active
         display_name: 王氏
         merged_into_person_id: null
+    - claim:
+        id: c_SVr0rVxgWZVBdAoQXp5Fnu
+        subject_person_id: p_aPt93kSHDUyNC8ZF6JTLpf
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_2SPbMq35G8ocJgxHXsAm94
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_b45oaKGIxG74uVr-BcPNEW
+          claim_id: c_SVr0rVxgWZVBdAoQXp5Fnu
+          source_id: s_zHw44da223wjYSNZs8E9Rc
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，14235;14236：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_2SPbMq35G8ocJgxHXsAm94
+        status: active
+        display_name: 王氏
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -182,6 +208,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_2SPbMq35G8ocJgxHXsAm94 | 王氏 | accepted |
 | spouses | p_2SPbMq35G8ocJgxHXsAm94 | 王氏 | accepted |
 
 ## 外部来源

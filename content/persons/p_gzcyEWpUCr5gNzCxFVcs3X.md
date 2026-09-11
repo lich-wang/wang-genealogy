@@ -4,7 +4,7 @@ id: p_gzcyEWpUCr5gNzCxFVcs3X
 status: active
 merged_into: null
 display_name: 王冕
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -166,7 +166,45 @@ relationships:
         status: active
         display_name: 王佐
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_jrZ8kHxditgxKxLgQZEHyx
+        subject_person_id: p_gzcyEWpUCr5gNzCxFVcs3X
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AWp5c4QJAbEnSizgBNeQ9C
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v0sSMaEa-LSqFAX3KlhZBr
+          claim_id: c_jrZ8kHxditgxKxLgQZEHyx
+          source_id: s_WkG9Bh9W8bS8m8gcAuBbRm
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），11547：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_WkG9Bh9W8bS8m8gcAuBbRm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王西星（CBDB 525644）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=525644&o=json
+            external_identifier: CBDB:525644
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:17.868Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_AWp5c4QJAbEnSizgBNeQ9C
+        status: active
+        display_name: 王西星
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -267,6 +305,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_JE1CTFgDMfCNG8v2QBPhTa | 王佐 | accepted |
+| children | p_AWp5c4QJAbEnSizgBNeQ9C | 王西星 | accepted |
 | ancestors | p_67qMPLTYasCb3s1pUyvhCX | 王珉 | accepted |
 | ancestors | p_edNbGPMXY5fR7hqPMkj3RX | 王鑑 | accepted |
 
@@ -275,4 +314,5 @@ relationships:
 - [中国历代人物传记资料库：王鑑（CBDB 281721）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281721&o=json)
 - [中国历代人物传记资料库：王冕（CBDB 67901）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67901&o=json)
 - [中国历代人物传记资料库：王珉（CBDB 281722）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281722&o=json)
+- [中国历代人物传记资料库：王西星（CBDB 525644）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=525644&o=json)
 - [中国历代人物传记资料库：王佐（CBDB 281723）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281723&o=json)

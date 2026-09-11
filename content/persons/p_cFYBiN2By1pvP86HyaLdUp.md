@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王曰敏
 cbdb_id: 283925
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:283925
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_A7mQcDzdZYPVUaQGnRjmgK
             source_type: api_record
             title: 中国历代人物传记资料库：王曰敏（CBDB 283925）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_OGv3XXBEwNJv1a5EFNaqyg
+        subject_person_id: p_cFYBiN2By1pvP86HyaLdUp
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_uQx6CsD653L6hRpaz3mPf9
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_omqu2RVSLGA68eCG-zMHYZ
+          claim_id: c_OGv3XXBEwNJv1a5EFNaqyg
+          source_id: s_A7mQcDzdZYPVUaQGnRjmgK
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第二甲第八十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_uQx6CsD653L6hRpaz3mPf9
+        status: active
+        display_name: 王同祖
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_uQx6CsD653L6hRpaz3mPf9 | 王同祖 | accepted |
 
 ## 外部来源
 

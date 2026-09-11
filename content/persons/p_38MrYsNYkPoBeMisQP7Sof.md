@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王经
 cbdb_id: 200712
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -353,6 +353,43 @@ relationships:
         status: active
         display_name: 陆氏
         merged_into_person_id: null
+    - claim:
+        id: c_4he0Fxres93ue0u3RytLzP
+        subject_person_id: p_bb58h5qHPT8SmjUn6k6pDy
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_38MrYsNYkPoBeMisQP7Sof
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kFDi-L2nBNqo46WIidah_t
+          claim_id: c_4he0Fxres93ue0u3RytLzP
+          source_id: s_AuBiM4j61VYY91xcSYEp7f
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第四名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_AuBiM4j61VYY91xcSYEp7f
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：陸氏（261821）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261821&o=json
+            external_identifier: CBDB:261821
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:18.905Z
+            metadata_json: null
+      object_person:
+        id: p_bb58h5qHPT8SmjUn6k6pDy
+        status: active
+        display_name: 陆氏
+        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_y-XIZr6HZubm3Soprb2_b4
@@ -391,6 +428,44 @@ relationships:
         status: active
         display_name: 王可旺
         merged_into_person_id: null
+    - claim:
+        id: c_b_C6FvGPNmXv6STnkneZ6w
+        subject_person_id: p_CpK3WbF33v6JpDHLmG41fn
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_38MrYsNYkPoBeMisQP7Sof
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5uyFu41KFABSiFr8ajywwP
+          claim_id: c_b_C6FvGPNmXv6STnkneZ6w
+          source_id: s_Gb22MMkveB8NT49ZLePakq
+          stance: supports
+          locator: 弘治三年進士登科錄:一卷，第三甲第四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Gb22MMkveB8NT49ZLePakq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王志一（CBDB 261817）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261817&o=json
+            external_identifier: CBDB:261817
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:01.428Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_CpK3WbF33v6JpDHLmG41fn
+        status: active
+        display_name: 王志一
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -415,7 +490,9 @@ relationships:
 | parents | p_ehZuBZd9shSeUtjtamrVMy | 王理 | accepted |
 | children | p_aXikAW5GmUNHUB4Mexh2vK | 王龙溪 | accepted |
 | spouses | p_bb58h5qHPT8SmjUn6k6pDy | 陆氏 | accepted |
+| spouses | p_bb58h5qHPT8SmjUn6k6pDy | 陆氏 | accepted |
 | ancestors | p_GSmwJBLeFLbzGBorXyeZgE | 王可旺 | accepted |
+| ancestors | p_CpK3WbF33v6JpDHLmG41fn | 王志一 | accepted |
 
 ## 外部来源
 
@@ -424,5 +501,7 @@ relationships:
 - [维基数据：王理（Q45448352）](https://www.wikidata.org/wiki/Q45448352)
 - [维基数据：王龙溪（Q11573179）](https://www.wikidata.org/wiki/Q11573179)
 - [中国历代人物传记资料库：王理（CBDB 261819）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261819&o=json)
+- [中国历代人物传记资料库：王志一（CBDB 261817）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261817&o=json)
+- [CBDB 中国历代人物传记资料库：陸氏（261821）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261821&o=json)
 - [CBDB 中国历代人物传记资料库：王經（200712）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200712&o=json)
 - [CBDB 中国历代人物传记资料库：王可旺（261818）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261818&o=json)

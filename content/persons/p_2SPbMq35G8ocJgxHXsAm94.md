@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王氏
 cbdb_id: 5380
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -310,6 +310,43 @@ relationships:
         status: active
         display_name: 陈安石
         merged_into_person_id: null
+    - claim:
+        id: c_SVr0rVxgWZVBdAoQXp5Fnu
+        subject_person_id: p_aPt93kSHDUyNC8ZF6JTLpf
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_2SPbMq35G8ocJgxHXsAm94
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_b45oaKGIxG74uVr-BcPNEW
+          claim_id: c_SVr0rVxgWZVBdAoQXp5Fnu
+          source_id: s_zHw44da223wjYSNZs8E9Rc
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，14235;14236：妻子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_zHw44da223wjYSNZs8E9Rc
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：陳安石（17）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17&o=json
+            external_identifier: CBDB:17
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:07:09.918Z
+            metadata_json: null
+      object_person:
+        id: p_aPt93kSHDUyNC8ZF6JTLpf
+        status: active
+        display_name: 陈安石
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -334,11 +371,13 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_kx3JCi5hvZyKiyizeGH3KR | 王曙 | accepted |
 | spouses | p_aPt93kSHDUyNC8ZF6JTLpf | 陈安石 | accepted |
+| spouses | p_aPt93kSHDUyNC8ZF6JTLpf | 陈安石 | accepted |
 
 ## 外部来源
 
 - [维基数据：陈安石（Q45354659）](https://www.wikidata.org/wiki/Q45354659)
 - [维基数据：王氏（Q45364876）](https://www.wikidata.org/wiki/Q45364876)
 - [维基数据：王曙（Q16077251）](https://www.wikidata.org/wiki/Q16077251)
+- [CBDB 中国历代人物传记资料库：陳安石（17）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17&o=json)
 - [CBDB 中国历代人物传记资料库：王氏（5380）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5380&o=json)
 - [CBDB 中国历代人物传记资料库：王曙（1877）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1877&o=json)

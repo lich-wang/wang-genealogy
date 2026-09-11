@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王大韶
 cbdb_id: 226560
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -208,7 +208,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Crb6ewyVzkQmPCrQFrr3c6
+        subject_person_id: p_b4bisUW9C7vmM7GVAbGAqe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_YcgZGHB8b41JUksSD6hCbG
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_00VG6qtYA6gv0uALVpc5Sr
+          claim_id: c_Crb6ewyVzkQmPCrQFrr3c6
+          source_id: s_dMHH8ff3GjpjK53w9ptE9K
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第二百三十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_YcgZGHB8b41JUksSD6hCbG
+        status: active
+        display_name: 王宗蓁
+        merged_into_person_id: null
   other: []
 ---
 
@@ -229,6 +255,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_vHxGMJM43NcWPazz5BoCUS | 王易 | accepted |
 | children | p_qbWcARBwiNzFhFH7v3oZN5 | 王桥 | accepted |
+| descendants | p_YcgZGHB8b41JUksSD6hCbG | 王宗蓁 | accepted |
 
 ## 外部来源
 

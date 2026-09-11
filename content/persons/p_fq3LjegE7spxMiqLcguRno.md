@@ -4,7 +4,7 @@ id: p_fq3LjegE7spxMiqLcguRno
 status: active
 merged_into: null
 display_name: 王績
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -143,6 +143,44 @@ relationships:
         status: active
         display_name: 王敏
         merged_into_person_id: null
+    - claim:
+        id: c_EGIp7W9Be_O-4828Xw18X9
+        subject_person_id: p_c99FmWSZNQoUeyW6dwBrna
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_fq3LjegE7spxMiqLcguRno
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HumG3fgGLMaxJnTwR8J9Iw
+          claim_id: c_EGIp7W9Be_O-4828Xw18X9
+          source_id: s_ALoGTWeD7yTc4oBNe5JF3G
+          stance: supports
+          locator: 景泰五年進士登科錄:一卷，第三甲第五十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ALoGTWeD7yTc4oBNe5JF3G
+            source_type: api_record
+            title: 中国历代人物传记资料库：王九山（CBDB 266149）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266149&o=json
+            external_identifier: CBDB:266149
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:01.428Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_c99FmWSZNQoUeyW6dwBrna
+        status: active
+        display_name: 王九山
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +202,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_AsBzx2nQCYur1hztbo92mA | 王敏 | accepted |
+| ancestors | p_c99FmWSZNQoUeyW6dwBrna | 王九山 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王績（CBDB 198391）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198391&o=json)
+- [中国历代人物传记资料库：王九山（CBDB 266149）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266149&o=json)
 - [中国历代人物传记资料库：王敏（CBDB 266160）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266160&o=json)

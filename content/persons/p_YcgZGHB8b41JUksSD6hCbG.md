@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王宗蓁
 cbdb_id: 207031
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -487,6 +487,43 @@ relationships:
         status: active
         display_name: 王易
         merged_into_person_id: null
+    - claim:
+        id: c_Crb6ewyVzkQmPCrQFrr3c6
+        subject_person_id: p_b4bisUW9C7vmM7GVAbGAqe
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_YcgZGHB8b41JUksSD6hCbG
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_00VG6qtYA6gv0uALVpc5Sr
+          claim_id: c_Crb6ewyVzkQmPCrQFrr3c6
+          source_id: s_dMHH8ff3GjpjK53w9ptE9K
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第二百三十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_dMHH8ff3GjpjK53w9ptE9K
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王韶（226560）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226560&o=json
+            external_identifier: CBDB:226560
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:59.065Z
+            metadata_json: null
+      object_person:
+        id: p_b4bisUW9C7vmM7GVAbGAqe
+        status: active
+        display_name: 王大韶
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -513,6 +550,7 @@ relationships:
 | children | p_eTKLECHdx4a5sjD8ucAPHW | 王致 | accepted |
 | spouses | p_31fj3DYMMpcFqtcy8MYe53 | 杨氏 | accepted |
 | ancestors | p_vHxGMJM43NcWPazz5BoCUS | 王易 | accepted |
+| ancestors | p_b4bisUW9C7vmM7GVAbGAqe | 王大韶 | accepted |
 
 ## 外部来源
 
@@ -524,5 +562,6 @@ relationships:
 - [维基数据：杨氏（Q65830582）](https://www.wikidata.org/wiki/Q65830582)
 - [中文维基百科：王宗蓁](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%97%E8%93%81)
 - [CBDB 中国历代人物传记资料库：王橋（226562）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226562&o=json)
+- [CBDB 中国历代人物传记资料库：王韶（226560）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226560&o=json)
 - [CBDB 中国历代人物传记资料库：王易（226559）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226559&o=json)
 - [CBDB 中国历代人物传记资料库：王宗蓁（207031）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207031&o=json)

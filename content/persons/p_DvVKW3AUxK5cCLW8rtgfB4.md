@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王湯孫
 cbdb_id: 207629
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -129,8 +129,84 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_YZme0_6I4w56b_v4hEB-op
+        subject_person_id: p_CoUh8uj5CWroLH246QDHok
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DvVKW3AUxK5cCLW8rtgfB4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_411eFGuroxg-2Blds9E_W7
+          claim_id: c_YZme0_6I4w56b_v4hEB-op
+          source_id: s_zFRHFG3ZspqhhMqJmnhMop
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第二十二名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_zFRHFG3ZspqhhMqJmnhMop
+            source_type: api_record
+            title: 中国历代人物传记资料库：王而縉（CBDB 232799）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232799&o=json
+            external_identifier: CBDB:232799
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.142Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_CoUh8uj5CWroLH246QDHok
+        status: active
+        display_name: 王而縉
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_2EPCbnrw-aaHrdz2TCObqX
+        subject_person_id: p_DvVKW3AUxK5cCLW8rtgfB4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aBsKvmg78SuxNAjHJSK1uw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V1v5z8tZ2Ajuw1sGRtG1z_
+          claim_id: c_2EPCbnrw-aaHrdz2TCObqX
+          source_id: s_MNPgQhcRbXbae8pyL2RrN7
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第二十二名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MNPgQhcRbXbae8pyL2RrN7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王㣧震（CBDB 232805）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232805&o=json
+            external_identifier: CBDB:232805
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.142Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_aBsKvmg78SuxNAjHJSK1uw
+        status: active
+        display_name: 王㣧震
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -172,6 +248,44 @@ relationships:
         status: active
         display_name: 王士任
         merged_into_person_id: null
+    - claim:
+        id: c_HQpoRit5A7ZVPEuDn2QkMT
+        subject_person_id: p_ayr63C9j4FCs6LB1rxnwhd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DvVKW3AUxK5cCLW8rtgfB4
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oGCnaOkACxIIb5Qk2-_KmM
+          claim_id: c_HQpoRit5A7ZVPEuDn2QkMT
+          source_id: s_vGnnELESJEYGSZJYfYyxsG
+          stance: supports
+          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第二十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_vGnnELESJEYGSZJYfYyxsG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王季卿（CBDB 232797）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232797&o=json
+            external_identifier: CBDB:232797
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.142Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_ayr63C9j4FCs6LB1rxnwhd
+        status: active
+        display_name: 王季卿
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -192,9 +306,15 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_CoUh8uj5CWroLH246QDHok | 王而縉 | accepted |
+| children | p_aBsKvmg78SuxNAjHJSK1uw | 王㣧震 | accepted |
 | ancestors | p_8e2K3VWTefmXzfc1EdNEe7 | 王士任 | accepted |
+| ancestors | p_ayr63C9j4FCs6LB1rxnwhd | 王季卿 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王而縉（CBDB 232799）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232799&o=json)
+- [中国历代人物传记资料库：王季卿（CBDB 232797）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232797&o=json)
 - [中国历代人物传记资料库：王士任（CBDB 232798）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232798&o=json)
 - [中国历代人物传记资料库：王湯孫（CBDB 207629）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207629&o=json)
+- [中国历代人物传记资料库：王㣧震（CBDB 232805）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232805&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王企孫
 cbdb_id: 324336
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:324336
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_rKoh5L8nub14GGEWFvvGCw
             source_type: api_record
             title: 中国历代人物传记资料库：王企孫（CBDB 324336）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_p5eF1i0-aFPGSEa-2NUTWk
+        subject_person_id: p_Cg9bCFiwbwFZ5DeCWev5Vs
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_SVNZL8P3EB13LuNV5sxppY
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6QeZe-xDDnOKCXlHQGFr1F
+          claim_id: c_p5eF1i0-aFPGSEa-2NUTWk
+          source_id: s_rKoh5L8nub14GGEWFvvGCw
+          stance: supports
+          locator: 嘉靖三十八年進士登科錄:一卷，第三甲第四十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_SVNZL8P3EB13LuNV5sxppY
+        status: active
+        display_name: 王天爵
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_SVNZL8P3EB13LuNV5sxppY | 王天爵 | accepted |
 
 ## 外部来源
 

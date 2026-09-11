@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王伯珍
 cbdb_id: 260602
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:260602
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_jFoED3mFQE9hyaunhtB1DQ
             source_type: api_record
             title: 中国历代人物传记资料库：王伯珍（CBDB 260602）
@@ -87,7 +87,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_PmtgW0oggDzIT9lerLoeXx
+        subject_person_id: p_BXVMCk3TEgxQzDvmdzMdk1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FQCEz5vy6uJ3wtmEBbiQFJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Zn8VSecQZWFmR4isw9Wti_
+          claim_id: c_PmtgW0oggDzIT9lerLoeXx
+          source_id: s_jFoED3mFQE9hyaunhtB1DQ
+          stance: supports
+          locator: 成化二十三年進士登科錄:一卷，第三甲第二百零八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_FQCEz5vy6uJ3wtmEBbiQFJ
+        status: active
+        display_name: 王希旦
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_FQCEz5vy6uJ3wtmEBbiQFJ | 王希旦 | accepted |
 
 ## 外部来源
 

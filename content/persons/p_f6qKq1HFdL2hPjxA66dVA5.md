@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王承仙
 cbdb_id: 143147
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -248,6 +248,44 @@ relationships:
         status: active
         display_name: 王子榮
         merged_into_person_id: null
+    - claim:
+        id: c_XCVJAoabXJiA9hwaOvZEGp
+        subject_person_id: p_f6qKq1HFdL2hPjxA66dVA5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aDqKKWJMDQsLDczHH5NCrD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ce7W5NCrYctkDUUEwUiUCa
+          claim_id: c_XCVJAoabXJiA9hwaOvZEGp
+          source_id: s_Wz5fhKLAobtdoWpayoVb8Y
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Zhenyuan8：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Wz5fhKLAobtdoWpayoVb8Y
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子寬（CBDB 165436）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=165436&o=json
+            external_identifier: CBDB:165436
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.741Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_aDqKKWJMDQsLDczHH5NCrD
+        status: active
+        display_name: 王子寬
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -275,9 +313,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_eL6KQKz3E9hQyixEmUeCF1 | 王景 | accepted |
 | children | p_bVkqiTBwNe8T954n5P6aEg | 王子榮 | accepted |
+| children | p_aDqKKWJMDQsLDczHH5NCrD | 王子寬 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王承仙（CBDB 143147）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143147&o=json)
 - [中国历代人物传记资料库：王景（CBDB 165435）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=165435&o=json)
+- [中国历代人物传记资料库：王子寬（CBDB 165436）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=165436&o=json)
 - [中国历代人物传记资料库：王子榮（CBDB 165437）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=165437&o=json)

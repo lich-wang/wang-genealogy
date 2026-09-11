@@ -4,7 +4,7 @@ id: p_wiB79NcNQHJ368q4MoQvKy
 status: active
 merged_into: null
 display_name: 王曾
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -110,7 +110,45 @@ relationships:
         status: active
         display_name: 王象
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_-QbgvotqfXEkMtWvQ99WMx
+        subject_person_id: p_wiB79NcNQHJ368q4MoQvKy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CJanQ26LPweM6g5VScYwJ4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fxBAEafd8euBgGs_WIdouD
+          claim_id: c_-QbgvotqfXEkMtWvQ99WMx
+          source_id: s_oFkhdhAiDC8VqDwBKqZ1QB
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_oFkhdhAiDC8VqDwBKqZ1QB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王諸（CBDB 158215）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158215&o=json
+            external_identifier: CBDB:158215
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.122Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_CJanQ26LPweM6g5VScYwJ4
+        status: active
+        display_name: 王諸
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +173,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_8g8Qs1D562BbS3RLayRcPg | 王象 | accepted |
+| children | p_CJanQ26LPweM6g5VScYwJ4 | 王諸 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王曾（CBDB 158214）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158214&o=json)
 - [中国历代人物传记资料库：王象（CBDB 158213）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158213&o=json)
+- [中国历代人物传记资料库：王諸（CBDB 158215）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158215&o=json)

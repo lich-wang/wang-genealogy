@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王珮珩
 cbdb_id: 121083
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:121083
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_nMEo3A3KBCzArbcsQCBcK5
             source_type: api_record
             title: 中国历代人物传记资料库：王珮珩（CBDB 121083）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_BwWWy95nx0X0u8BTjtCqsF
+        subject_person_id: p_6ioi1JGP9ujG2Ba6LZFo8F
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_avxzCZFXtVznAV6TJioG4e
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_inBFLxskgsLsKe6SVxmNH_
+          claim_id: c_BwWWy95nx0X0u8BTjtCqsF
+          source_id: s_nMEo3A3KBCzArbcsQCBcK5
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #4169, HuWenKai #232：父"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_6ioi1JGP9ujG2Ba6LZFo8F
+        status: active
+        display_name: 王呂廬
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_6ioi1JGP9ujG2Ba6LZFo8F | 王呂廬 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王恩綬
 cbdb_id: 69327
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -288,6 +288,44 @@ relationships:
         status: active
         display_name: 王忠廕
         merged_into_person_id: null
+    - claim:
+        id: c_FE_SrJFpU9St1KG40OW9O_
+        subject_person_id: p_2y1eP1nsjw8ciu9GjNsB8J
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CizWXhM8V9jWVXN61mXFR5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kssOcOJJax6Itn31HToMhk
+          claim_id: c_FE_SrJFpU9St1KG40OW9O_
+          source_id: s_ZeiHZNoBF9XeRw3nqb9rVG
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13031：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZeiHZNoBF9XeRw3nqb9rVG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王賡陛（CBDB 526845）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526845&o=json
+            external_identifier: CBDB:526845
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:18.829Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_CizWXhM8V9jWVXN61mXFR5
+        status: active
+        display_name: 王賡陛
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -331,6 +369,82 @@ relationships:
         status: active
         display_name: 王鏡蓉
         merged_into_person_id: null
+    - claim:
+        id: c_Sn3Z6P8VPL1tGbanwnu29o
+        subject_person_id: p_2y1eP1nsjw8ciu9GjNsB8J
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BEW5rWi4QNcAkVZCqQEsFa
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qn468ehyVe34rA84D-GQgX
+          claim_id: c_Sn3Z6P8VPL1tGbanwnu29o
+          source_id: s_md5xnkqHryENMuGSQiHdhN
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13031：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_md5xnkqHryENMuGSQiHdhN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鏡熙（CBDB 526848）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526848&o=json
+            external_identifier: CBDB:526848
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:18.829Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_BEW5rWi4QNcAkVZCqQEsFa
+        status: active
+        display_name: 王鏡熙
+        merged_into_person_id: null
+    - claim:
+        id: c_K-J_GQ0SYHkqckEoZaHJOM
+        subject_person_id: p_2y1eP1nsjw8ciu9GjNsB8J
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cdT9uSxMHD1CPUjpQz3AW1
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IbBLF0EkEzv11Igykdc_mv
+          claim_id: c_K-J_GQ0SYHkqckEoZaHJOM
+          source_id: s_K1HNkPHQsFk7jqvcExNWBg
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），13031：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_K1HNkPHQsFk7jqvcExNWBg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鏡煜（CBDB 526847）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526847&o=json
+            external_identifier: CBDB:526847
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:18.829Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_cdT9uSxMHD1CPUjpQz3AW1
+        status: active
+        display_name: 王鏡煜
+        merged_into_person_id: null
   other: []
 ---
 
@@ -354,12 +468,18 @@ relationships:
 | parents | p_1tCSH4qvU8Gxs2zqiHmkFr | 王鼎汾 | accepted |
 | children | p_5hXd7ioFUCY9vKCE6MMEND | 王紀庸 | accepted |
 | children | p_6L1VRPkbwRV5iRh3M3H1BR | 王忠廕 | accepted |
+| children | p_CizWXhM8V9jWVXN61mXFR5 | 王賡陛 | accepted |
 | descendants | p_1nfJqagcvUJ1YUw4314f5h | 王鏡蓉 | accepted |
+| descendants | p_BEW5rWi4QNcAkVZCqQEsFa | 王鏡熙 | accepted |
+| descendants | p_cdT9uSxMHD1CPUjpQz3AW1 | 王鏡煜 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鼎汾（CBDB 526843）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526843&o=json)
 - [中国历代人物传记资料库：王恩綬（CBDB 69327）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69327&o=json)
+- [中国历代人物传记资料库：王賡陛（CBDB 526845）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526845&o=json)
 - [中国历代人物传记资料库：王紀庸（CBDB 526841）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526841&o=json)
 - [中国历代人物传记资料库：王鏡蓉（CBDB 526849）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526849&o=json)
+- [中国历代人物传记资料库：王鏡熙（CBDB 526848）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526848&o=json)
+- [中国历代人物传记资料库：王鏡煜（CBDB 526847）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526847&o=json)
 - [中国历代人物传记资料库：王忠廕（CBDB 526840）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526840&o=json)

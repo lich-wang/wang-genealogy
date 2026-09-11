@@ -4,7 +4,7 @@ id: p_SVNZL8P3EB13LuNV5sxppY
 status: active
 merged_into: null
 display_name: 王天爵
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_COxS7jrr0HQmzg5KtJRfke
+        subject_person_id: p_BZ632SwpqzGW4p9bQ7s6FS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_SVNZL8P3EB13LuNV5sxppY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WGy1LhWLS-sX6c-QdC4LLu
+          claim_id: c_COxS7jrr0HQmzg5KtJRfke
+          source_id: s_ZMW58ooJeCqNM9XCcCLDqk
+          stance: supports
+          locator: 嘉靖三十八年進士登科錄:一卷，第三甲第四十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZMW58ooJeCqNM9XCcCLDqk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷政（CBDB 324338）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324338&o=json
+            external_identifier: CBDB:324338
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:06.922Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_BZ632SwpqzGW4p9bQ7s6FS
+        status: active
+        display_name: 王廷政
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -171,6 +209,44 @@ relationships:
         status: active
         display_name: 王鶴
         merged_into_person_id: null
+    - claim:
+        id: c_p5eF1i0-aFPGSEa-2NUTWk
+        subject_person_id: p_Cg9bCFiwbwFZ5DeCWev5Vs
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_SVNZL8P3EB13LuNV5sxppY
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6QeZe-xDDnOKCXlHQGFr1F
+          claim_id: c_p5eF1i0-aFPGSEa-2NUTWk
+          source_id: s_rKoh5L8nub14GGEWFvvGCw
+          stance: supports
+          locator: 嘉靖三十八年進士登科錄:一卷，第三甲第四十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_rKoh5L8nub14GGEWFvvGCw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王企孫（CBDB 324336）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324336&o=json
+            external_identifier: CBDB:324336
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:06.922Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_Cg9bCFiwbwFZ5DeCWev5Vs
+        status: active
+        display_name: 王企孫
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -192,9 +268,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_BZ632SwpqzGW4p9bQ7s6FS | 王廷政 | accepted |
 | ancestors | p_E2HwHr2pi9WqbFQAvC6jo7 | 王鶴 | accepted |
+| ancestors | p_Cg9bCFiwbwFZ5DeCWev5Vs | 王企孫 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鶴（CBDB 324337）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324337&o=json)
+- [中国历代人物传记资料库：王企孫（CBDB 324336）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324336&o=json)
 - [中国历代人物传记资料库：王天爵（CBDB 126474）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126474&o=json)
+- [中国历代人物传记资料库：王廷政（CBDB 324338）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324338&o=json)

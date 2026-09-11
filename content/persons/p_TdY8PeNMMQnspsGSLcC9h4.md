@@ -4,7 +4,7 @@ id: p_TdY8PeNMMQnspsGSLcC9h4
 status: active
 merged_into: null
 display_name: 王思
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -166,7 +166,45 @@ relationships:
         status: active
         display_name: 王俅
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_4NpPJv7Viz5P3QHKUd_kjF
+        subject_person_id: p_TdY8PeNMMQnspsGSLcC9h4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BfTcsezxUjkjWXrta7fNsQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fqLska1rBsxlnB_Vv0LgIL
+          claim_id: c_4NpPJv7Viz5P3QHKUd_kjF
+          source_id: s_wELpt2EBp4Qnnr56eLuAnn
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），11715：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_wELpt2EBp4Qnnr56eLuAnn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王束（CBDB 525762）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=525762&o=json
+            external_identifier: CBDB:525762
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:17.868Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_BfTcsezxUjkjWXrta7fNsQ
+        status: active
+        display_name: 王束
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -304,6 +342,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_xxLayHX5L9RnRbPwYHogx1 | 王俅 | accepted |
+| children | p_BfTcsezxUjkjWXrta7fNsQ | 王束 | accepted |
 | ancestors | p_df3D1hnAYfz6QUPt2SDfRN | 王直 | accepted |
 | ancestors | p_EwYTzmDgseqeuVk6USGALi | 王稹 | accepted |
 | ancestors | p_PgGP8n81XBb5kcs7D54q73 | 王直 | accepted |
@@ -311,6 +350,7 @@ relationships:
 ## 外部来源
 
 - [中国历代人物传记资料库：王俅（CBDB 276674）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276674&o=json)
+- [中国历代人物传记资料库：王束（CBDB 525762）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=525762&o=json)
 - [中国历代人物传记资料库：王思（CBDB 68065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68065&o=json)
 - [中国历代人物传记资料库：王稹（CBDB 276673）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276673&o=json)
 - [中国历代人物传记资料库：王直（CBDB 276672）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276672&o=json)

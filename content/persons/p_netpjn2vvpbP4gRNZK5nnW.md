@@ -4,7 +4,7 @@ id: p_netpjn2vvpbP4gRNZK5nnW
 status: active
 merged_into: null
 display_name: 王畿
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -166,7 +166,44 @@ relationships:
         status: active
         display_name: 王經
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_888FzvLEYSpB4IdTtDiJVM
+        subject_person_id: p_netpjn2vvpbP4gRNZK5nnW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_D3uVxqQFBH491G6DL79z4g
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YC4qV6kz5UEg2nvkQYRP_b
+          claim_id: c_888FzvLEYSpB4IdTtDiJVM
+          source_id: s_a17eQX1cUDwJwmRVnQj2MU
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第二百二十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_a17eQX1cUDwJwmRVnQj2MU
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王應楨（294872）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294872&o=json
+            external_identifier: CBDB:294872
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:15.571Z
+            metadata_json: null
+      object_person:
+        id: p_D3uVxqQFBH491G6DL79z4g
+        status: active
+        display_name: 王应桢
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -247,6 +284,44 @@ relationships:
         status: active
         display_name: 王繼炳
         merged_into_person_id: null
+    - claim:
+        id: c_XiQ4qMyf-fcE-YK-Vb6xBO
+        subject_person_id: p_netpjn2vvpbP4gRNZK5nnW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bqD63aFdZJi7bNMGkx1CRn
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__L0Ru-GxD5vB-oBAdMy5Kr
+          claim_id: c_XiQ4qMyf-fcE-YK-Vb6xBO
+          source_id: s_n575Pge4P8TP3yRBKaL9Gu
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第二百二十七名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_n575Pge4P8TP3yRBKaL9Gu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繼耀（CBDB 294880）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294880&o=json
+            external_identifier: CBDB:294880
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:03.722Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_bqD63aFdZJi7bNMGkx1CRn
+        status: active
+        display_name: 王繼耀
+        merged_into_person_id: null
   other: []
 ---
 
@@ -268,12 +343,16 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_8gY9eTVRT2EQWmPPoaXa3X | 王經 | accepted |
+| children | p_D3uVxqQFBH491G6DL79z4g | 王应桢 | accepted |
 | ancestors | p_nk86JnBN3H44SSosh8zCKQ | 王可旺 | accepted |
 | descendants | p_4uQcLGsJMcc6S6nmViKGi7 | 王繼炳 | accepted |
+| descendants | p_bqD63aFdZJi7bNMGkx1CRn | 王繼耀 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王畿（CBDB 126814）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126814&o=json)
 - [中国历代人物传记资料库：王繼炳（CBDB 294879）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294879&o=json)
+- [中国历代人物传记资料库：王繼耀（CBDB 294880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294880&o=json)
 - [中国历代人物传记资料库：王經（CBDB 232114）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232114&o=json)
 - [中国历代人物传记资料库：王可旺（CBDB 294860）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294860&o=json)
+- [CBDB 中国历代人物传记资料库：王應楨（294872）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294872&o=json)

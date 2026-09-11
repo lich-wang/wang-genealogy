@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 李氏
 cbdb_id: 154150
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -77,7 +77,7 @@ properties:
           locator: Q65805411
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_kFDbesSL1u6MpZteKAfmDA
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：李氏（154150）
@@ -172,6 +172,32 @@ relationships:
         status: active
         display_name: 王志悌
         merged_into_person_id: null
+    - claim:
+        id: c_1705_ESTq-t7kiB99CtHjq
+        subject_person_id: p_a3GyCfQsaAPkPQhLi9t2Z8
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_KXD6a4zaL9E1N69hTNkTMP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ujlRXPfQutXmFO-h6csnDK
+          claim_id: c_1705_ESTq-t7kiB99CtHjq
+          source_id: s_kFDbesSL1u6MpZteKAfmDA
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Tianbao 190：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_KXD6a4zaL9E1N69hTNkTMP
+        status: active
+        display_name: 王志悌
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -192,6 +218,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| spouses | p_KXD6a4zaL9E1N69hTNkTMP | 王志悌 | accepted |
 | spouses | p_KXD6a4zaL9E1N69hTNkTMP | 王志悌 | accepted |
 
 ## 外部来源

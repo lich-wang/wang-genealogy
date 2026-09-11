@@ -4,7 +4,7 @@ id: p_qmz4NNXH4HsWQ8MERWfsxY
 status: active
 merged_into: null
 display_name: 王易簡
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -110,7 +110,45 @@ relationships:
         status: active
         display_name: 王貫
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_5L9Nh36Gi02Cot53nFIVS9
+        subject_person_id: p_qmz4NNXH4HsWQ8MERWfsxY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cHbKNe3kPG6fQWfMB3HA4t
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xxV3L2a9bQshsw7q-xjVUn
+          claim_id: c_5L9Nh36Gi02Cot53nFIVS9
+          source_id: s_n3bDgcKjfxwZMUY6qdEd5g
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_n3bDgcKjfxwZMUY6qdEd5g
+            source_type: api_record
+            title: 中国历代人物传记资料库：王景讓（CBDB 38080）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38080&o=json
+            external_identifier: CBDB:38080
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:46.515Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_cHbKNe3kPG6fQWfMB3HA4t
+        status: active
+        display_name: 王景讓
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -172,10 +210,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_BufH5DJwN8VnFNrdw7VT4J | 王貫 | accepted |
+| children | p_cHbKNe3kPG6fQWfMB3HA4t | 王景讓 | accepted |
 | ancestors | p_xHqsdH7Q5dtTb5k8sD7nyo | 王遠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王貫（CBDB 24947）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24947&o=json)
+- [中国历代人物传记资料库：王景讓（CBDB 38080）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38080&o=json)
 - [中国历代人物传记资料库：王易簡（CBDB 37656）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37656&o=json)
 - [中国历代人物传记资料库：王遠（CBDB 120189）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120189&o=json)

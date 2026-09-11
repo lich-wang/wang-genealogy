@@ -4,7 +4,7 @@ id: p_Wi1semPtGkaEHz1tXWTdxD
 status: active
 merged_into: null
 display_name: 王謨
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_vulGqIFhlBBko4ryL2YB6L
+        subject_person_id: p_CiJPDmrHnjH3i1SjFztPki
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Wi1semPtGkaEHz1tXWTdxD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6apS9gBBXW5WqJQbn8VLOs
+          claim_id: c_vulGqIFhlBBko4ryL2YB6L
+          source_id: s_quLEK74L2K6x8bwri4J2A4
+          stance: supports
+          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第十六名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_quLEK74L2K6x8bwri4J2A4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王邦益（CBDB 327287）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327287&o=json
+            external_identifier: CBDB:327287
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:06.922Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_CiJPDmrHnjH3i1SjFztPki
+        status: active
+        display_name: 王邦益
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -229,11 +267,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_CiJPDmrHnjH3i1SjFztPki | 王邦益 | accepted |
 | ancestors | p_69SYtuUR4i7SPHKoTQHLk5 | 王冕 | accepted |
 | ancestors | p_NnpsuXJ58mcKjR3mWtcn4i | 王琳 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王邦益（CBDB 327287）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327287&o=json)
 - [中国历代人物传记资料库：王琳（CBDB 327284）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327284&o=json)
 - [中国历代人物传记资料库：王冕（CBDB 327285）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327285&o=json)
 - [中国历代人物传记资料库：王謨（CBDB 126858）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126858&o=json)

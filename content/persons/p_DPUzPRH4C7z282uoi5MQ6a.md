@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王志用
 cbdb_id: 143395
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -210,7 +210,45 @@ relationships:
         status: active
         display_name: 王俊
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_RNlDD2LZB5_XFDvg-CeeVL
+        subject_person_id: p_DPUzPRH4C7z282uoi5MQ6a
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Au1WeZMnymhKU4NdK9p1ii
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AYEFHnZ628bGlAnsWjlBmd
+          claim_id: c_RNlDD2LZB5_XFDvg-CeeVL
+          source_id: s_ZKprD1RMoyVLmD7RvkBsGz
+          stance: supports
+          locator: 唐代墓誌彙編續集，(XJ)Kaicheng13：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ZKprD1RMoyVLmD7RvkBsGz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王公諫（CBDB 166869）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166869&o=json
+            external_identifier: CBDB:166869
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.741Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_Au1WeZMnymhKU4NdK9p1ii
+        status: active
+        display_name: 王公諫
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -274,10 +312,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_ioGHNK9QMBciCWWxNXM9HN | 王俊 | accepted |
+| children | p_Au1WeZMnymhKU4NdK9p1ii | 王公諫 | accepted |
 | ancestors | p_FoG33WZRA2VaDZVLo9UXti | 王仙 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王公諫（CBDB 166869）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166869&o=json)
 - [中国历代人物传记资料库：王俊（CBDB 169044）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169044&o=json)
 - [中国历代人物传记资料库：王仙（CBDB 169042）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169042&o=json)
 - [中国历代人物传记资料库：王志用（CBDB 143395）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143395&o=json)

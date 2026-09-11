@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王時習
 cbdb_id: 202373
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,6 +209,44 @@ relationships:
         status: active
         display_name: 王誠
         merged_into_person_id: null
+    - claim:
+        id: c_STGafRP1nyxniRZP0YNCCW
+        subject_person_id: p_D3iizU76zuq4k823LE7ekz
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_s2J6v6Z1BCr8cEtWSejd2v
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4_pxYaHPCGJ3SfOYhYiff4
+          claim_id: c_STGafRP1nyxniRZP0YNCCW
+          source_id: s_YpdEuzKCaPFdh96h2pNEaR
+          stance: supports
+          locator: 永樂十年進士登科錄:一卷，第三甲第三十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_YpdEuzKCaPFdh96h2pNEaR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王啟賢（CBDB 287083）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287083&o=json
+            external_identifier: CBDB:287083
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:02.953Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_D3iizU76zuq4k823LE7ekz
+        status: active
+        display_name: 王啟賢
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_SeUwbsi3ek9as5xjE9GYzB | 王敏道 | accepted |
 | ancestors | p_duE2PBHEvrNuc5jHv2HX4E | 王誠 | accepted |
+| ancestors | p_D3iizU76zuq4k823LE7ekz | 王啟賢 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王誠（CBDB 287082）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287082&o=json)
 - [中国历代人物传记资料库：王敏道（CBDB 287084）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287084&o=json)
+- [中国历代人物传记资料库：王啟賢（CBDB 287083）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287083&o=json)
 - [中国历代人物传记资料库：王時習（CBDB 202373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202373&o=json)

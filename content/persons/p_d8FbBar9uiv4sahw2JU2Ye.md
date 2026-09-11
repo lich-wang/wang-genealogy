@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王修泰
 cbdb_id: 526700
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -92,7 +92,45 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_rLnct0io-f_CNUJTUbonCw
+        subject_person_id: p_d8FbBar9uiv4sahw2JU2Ye
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bdjfnB4ngXGiLnaEFv7KV8
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YviCOQr5nizk6hQaLldvMn
+          claim_id: c_rLnct0io-f_CNUJTUbonCw
+          source_id: s_Kb2gNMBSPpG7oSZuEwbwAB
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12803：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Kb2gNMBSPpG7oSZuEwbwAB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王永章（CBDB 69105）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69105&o=json
+            external_identifier: CBDB:69105
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:34.254Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_bdjfnB4ngXGiLnaEFv7KV8
+        status: active
+        display_name: 王永章
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,7 +149,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_bdjfnB4ngXGiLnaEFv7KV8 | 王永章 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王修泰（CBDB 526700）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526700&o=json)
+- [中国历代人物传记资料库：王永章（CBDB 69105）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69105&o=json)

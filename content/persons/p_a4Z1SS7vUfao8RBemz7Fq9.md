@@ -4,7 +4,7 @@ id: p_a4Z1SS7vUfao8RBemz7Fq9
 status: active
 merged_into: null
 display_name: 王兆琛
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -220,6 +220,44 @@ relationships:
         status: active
         display_name: 王垚辰
         merged_into_person_id: null
+    - claim:
+        id: c_VT2LBdC0FcZVQXvGnB5oCb
+        subject_person_id: p_a4Z1SS7vUfao8RBemz7Fq9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AV8G5CWD8su9QpsaxD7iHh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_y65sVFcZvMaRhTbArLXzbV
+          claim_id: c_VT2LBdC0FcZVQXvGnB5oCb
+          source_id: s_ebKCcCmBQHZhmBW9gwAexy
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），1869：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ebKCcCmBQHZhmBW9gwAexy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王伯溎（CBDB 517405）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=517405&o=json
+            external_identifier: CBDB:517405
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:16.852Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_AV8G5CWD8su9QpsaxD7iHh
+        status: active
+        display_name: 王伯溎
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -248,8 +286,10 @@ relationships:
 | children | p_6n1BzC9EQ9oU7PGzVBSSwn | 王丙归 | accepted |
 | children | p_93mcNiPtLm1MXFz8PQPE8k | 王伯平 | accepted |
 | children | p_6rHbEjM3MjCSTbn135WZGu | 王垚辰 | accepted |
+| children | p_AV8G5CWD8su9QpsaxD7iHh | 王伯溎 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王伯溎（CBDB 517405）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=517405&o=json)
 - [中国历代人物传记资料库：王垚辰（CBDB 517407）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=517407&o=json)
 - [中国历代人物传记资料库：王兆琛（CBDB 58608）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=58608&o=json)

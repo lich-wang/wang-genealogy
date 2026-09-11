@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王希夔
 cbdb_id: 207197
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -167,7 +167,45 @@ relationships:
         status: active
         display_name: 王俊民
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_Qp39_qLvPZhHxPZBST_rwt
+        subject_person_id: p_p7XKo89NhBCAZto4tXob1s
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ck2BrVefon5H9bCvfyBGcG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WBrju0YN-eORVPtJj5jiKI
+          claim_id: c_Qp39_qLvPZhHxPZBST_rwt
+          source_id: s_XzFAX3thEiuiBTS8wWnuHb
+          stance: supports
+          locator: 萬曆丙戌科進士同年總錄，第三甲第二百五十名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_XzFAX3thEiuiBTS8wWnuHb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王奇樑（CBDB 229382）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229382&o=json
+            external_identifier: CBDB:229382
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.142Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_ck2BrVefon5H9bCvfyBGcG
+        status: active
+        display_name: 王奇樑
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -230,10 +268,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_fsKE1F67GJMdBZo9s2p2SK | 王俊民 | accepted |
+| children | p_ck2BrVefon5H9bCvfyBGcG | 王奇樑 | accepted |
 | ancestors | p_B5xFopjtCjwah51mcq9cJA | 王廷錦 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王俊民（CBDB 229376）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229376&o=json)
+- [中国历代人物传记资料库：王奇樑（CBDB 229382）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229382&o=json)
 - [中国历代人物传记资料库：王廷錦（CBDB 229373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229373&o=json)
 - [中国历代人物传记资料库：王希夔（CBDB 207197）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207197&o=json)

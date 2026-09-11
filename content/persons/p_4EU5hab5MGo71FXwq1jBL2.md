@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王方智
 cbdb_id: 152942
-revision: 8
+revision: 9
 properties:
   - predicate: bio.summary
     recommended:
@@ -385,6 +385,44 @@ relationships:
         status: active
         display_name: 王固已
         merged_into_person_id: null
+    - claim:
+        id: c_hlwaHuQykJWpn_wHNausUf
+        subject_person_id: p_4EU5hab5MGo71FXwq1jBL2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_acJL151CL8ZU3mDEqikzmS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FToC6tZ1txwqxFs1PS_NQH
+          claim_id: c_hlwaHuQykJWpn_wHNausUf
+          source_id: s_D1gG2bqcGeVVKDsDwya71E
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 471：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_D1gG2bqcGeVVKDsDwya71E
+            source_type: api_record
+            title: 中国历代人物传记资料库：王固己（CBDB 140737）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140737&o=json
+            external_identifier: CBDB:140737
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:39.240Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_acJL151CL8ZU3mDEqikzmS
+        status: active
+        display_name: 王固己
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -416,11 +454,13 @@ relationships:
 | children | p_oBD3Lrd2Yz8RsfjH7h4B9D | 王固信 | accepted |
 | children | p_RH1Cuusc2PR1U4ny6cUVDC | 王固忠 | accepted |
 | children | p_YcGe1EwkxkPepA3TaEP5HB | 王固已 | accepted |
+| children | p_acJL151CL8ZU3mDEqikzmS | 王固己 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王方智（CBDB 152942）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152942&o=json)
 - [中国历代人物传记资料库：王固基（CBDB 175653）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175653&o=json)
+- [中国历代人物传记资料库：王固己（CBDB 140737）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140737&o=json)
 - [中国历代人物传记资料库：王固廉（CBDB 175657）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175657&o=json)
 - [中国历代人物传记资料库：王固信（CBDB 175654）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175654&o=json)
 - [中国历代人物传记资料库：王固業（CBDB 175656）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175656&o=json)

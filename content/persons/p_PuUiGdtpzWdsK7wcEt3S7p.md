@@ -4,7 +4,7 @@ id: p_PuUiGdtpzWdsK7wcEt3S7p
 status: active
 merged_into: null
 display_name: 王以旂
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_SmFiuzZK10Rkaw9xQucYlS
+        subject_person_id: p_BdmxytotV7zqZnEBKrEUyP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PuUiGdtpzWdsK7wcEt3S7p
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HkYj7LW8rVxG-K4c4zbgNv
+          claim_id: c_SmFiuzZK10Rkaw9xQucYlS
+          source_id: s_yMMxyo8vRCvjeb5kyddaVn
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第三甲第四十八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_yMMxyo8vRCvjeb5kyddaVn
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王綸（277430）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=277430&o=json
+            external_identifier: CBDB:277430
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:40.784Z
+            metadata_json: null
+      object_person:
+        id: p_BdmxytotV7zqZnEBKrEUyP
+        status: active
+        display_name: 王纶
+        merged_into_person_id: null
   children:
     - claim:
         id: c_qLZhxs4vrZkRSvRgQNUz1W
@@ -267,6 +304,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_BdmxytotV7zqZnEBKrEUyP | 王纶 | accepted |
 | children | p_8rcZWL4qM4Zmnf26YD6MXf | 王簧 | accepted |
 | ancestors | p_1n6udeiAV3WPwXHR7TEH2x | 王䪧 | accepted |
 | ancestors | p_xJsRqYi6bQ21m8ncMBogv4 | 王民 | accepted |
@@ -276,4 +314,5 @@ relationships:
 - [中国历代人物传记资料库：王簧（CBDB 526004）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526004&o=json)
 - [中国历代人物传记资料库：王以旂（CBDB 68257）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68257&o=json)
 - [中国历代人物传记资料库：王䪧（CBDB 526002）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526002&o=json)
+- [CBDB 中国历代人物传记资料库：王綸（277430）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=277430&o=json)
 - [CBDB 中国历代人物传记资料库：王民（277428）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=277428&o=json)

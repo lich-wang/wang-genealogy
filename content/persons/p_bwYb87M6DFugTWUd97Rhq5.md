@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 张氏
 cbdb_id: 333177
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -77,7 +77,7 @@ properties:
           locator: Q65860464
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_fczo2JCMLo6Q6J3gkaUXcH
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：張氏（333177）
@@ -209,6 +209,32 @@ relationships:
         status: active
         display_name: 王軾
         merged_into_person_id: null
+    - claim:
+        id: c_dUbce7ezT0LuL3W3OzhR6B
+        subject_person_id: p_bwYb87M6DFugTWUd97Rhq5
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_8kvzu18KWCHGBJbrWxW4b9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8oysvfpSSjTBx6rE9tvEM5
+          claim_id: c_dUbce7ezT0LuL3W3OzhR6B
+          source_id: s_fczo2JCMLo6Q6J3gkaUXcH
+          stance: supports
+          locator: 天順八年進士登科錄:一卷，第三甲第十二名：丈夫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_8kvzu18KWCHGBJbrWxW4b9
+        status: active
+        display_name: 王軾
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -230,6 +256,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_NPncefunYMmyKCiKheCMKZ | 王轼 | accepted |
+| spouses | p_8kvzu18KWCHGBJbrWxW4b9 | 王軾 | accepted |
 | spouses | p_8kvzu18KWCHGBJbrWxW4b9 | 王軾 | accepted |
 
 ## 外部来源

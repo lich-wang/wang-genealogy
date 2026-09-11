@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王待仙
 cbdb_id: 157933
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:157933
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_3YKrmX9kQ2AQrn5xobhdLo
             source_type: api_record
             title: 中国历代人物传记资料库：王待仙（CBDB 157933）
@@ -86,8 +86,60 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_uLgXVpfWpizaK9x8ULX8VN
+        subject_person_id: p_JqP7tTBXa3J64HEAAAchh1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_a3b4xpmtfkDqmManPEL8yB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NOGUxNHciVj7qjH2cCYVzT
+          claim_id: c_uLgXVpfWpizaK9x8ULX8VN
+          source_id: s_3YKrmX9kQ2AQrn5xobhdLo
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_JqP7tTBXa3J64HEAAAchh1
+        status: active
+        display_name: 王師襲
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_yOm3N-jEkloSvD7FuyCB_c
+        subject_person_id: p_a3b4xpmtfkDqmManPEL8yB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xz2i3ijCN6yWhdomSwkBZS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jbrTWn3Pq1Miwr4Nj9G9nC
+          claim_id: c_yOm3N-jEkloSvD7FuyCB_c
+          source_id: s_3YKrmX9kQ2AQrn5xobhdLo
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_xz2i3ijCN6yWhdomSwkBZS
+        status: active
+        display_name: 王智溫
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -148,6 +200,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_JqP7tTBXa3J64HEAAAchh1 | 王師襲 | accepted |
+| children | p_xz2i3ijCN6yWhdomSwkBZS | 王智溫 | accepted |
 | descendants | p_nK9apVMeY253DbErnUEdp9 | 王翼 | accepted |
 
 ## 外部来源

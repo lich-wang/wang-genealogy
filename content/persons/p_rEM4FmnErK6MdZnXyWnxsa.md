@@ -4,7 +4,7 @@ id: p_rEM4FmnErK6MdZnXyWnxsa
 status: active
 merged_into: null
 display_name: 王浩
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,83 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_QVyHgWPx0Hj7JKwqH6Ykgj
+        subject_person_id: p_aULDL9FHh7UyyVDwfCgNFk
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_rEM4FmnErK6MdZnXyWnxsa
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LJDS9SV65UTfNSD74CsdDj
+          claim_id: c_QVyHgWPx0Hj7JKwqH6Ykgj
+          source_id: s_MbZPRJD6NTqL8v9312rw2n
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第三甲第九十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_MbZPRJD6NTqL8v9312rw2n
+            source_type: api_record
+            title: 中国历代人物传记资料库：王祥三（CBDB 237753）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237753&o=json
+            external_identifier: CBDB:237753
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.856Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_aULDL9FHh7UyyVDwfCgNFk
+        status: active
+        display_name: 王祥三
+        merged_into_person_id: null
+    - claim:
+        id: c_ROp_BavqnF0zdUX-e-i3tk
+        subject_person_id: p_BqDq4L3E3GjiDCE9rn6Q3x
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_rEM4FmnErK6MdZnXyWnxsa
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nUb5NF-jcndGqFz9QAcus9
+          claim_id: c_ROp_BavqnF0zdUX-e-i3tk
+          source_id: s_favK9qAJ4H8T7WEcDw6gAy
+          stance: supports
+          locator: 成化二年進士登科錄:一卷，第三甲第九十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_favK9qAJ4H8T7WEcDw6gAy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仲彬（CBDB 237764）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237764&o=json
+            external_identifier: CBDB:237764
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:58.856Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_BqDq4L3E3GjiDCE9rn6Q3x
+        status: active
+        display_name: 王仲彬
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -164,8 +240,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_13RmhF22e6LFRmpmecd8LK | 王忠 | accepted |
+| ancestors | p_aULDL9FHh7UyyVDwfCgNFk | 王祥三 | accepted |
+| ancestors | p_BqDq4L3E3GjiDCE9rn6Q3x | 王仲彬 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王浩（CBDB 199153）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199153&o=json)
+- [中国历代人物传记资料库：王祥三（CBDB 237753）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237753&o=json)
 - [中国历代人物传记资料库：王忠（CBDB 237775）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237775&o=json)
+- [中国历代人物传记资料库：王仲彬（CBDB 237764）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237764&o=json)

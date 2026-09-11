@@ -4,7 +4,7 @@ id: p_uQx6CsD653L6hRpaz3mPf9
 status: active
 merged_into: null
 display_name: 王同祖
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -245,6 +245,44 @@ relationships:
         status: active
         display_name: 王復
         merged_into_person_id: null
+    - claim:
+        id: c_OGv3XXBEwNJv1a5EFNaqyg
+        subject_person_id: p_cFYBiN2By1pvP86HyaLdUp
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_uQx6CsD653L6hRpaz3mPf9
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_omqu2RVSLGA68eCG-zMHYZ
+          claim_id: c_OGv3XXBEwNJv1a5EFNaqyg
+          source_id: s_A7mQcDzdZYPVUaQGnRjmgK
+          stance: supports
+          locator: 正德十六年登科錄:一卷，第二甲第八十六名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_A7mQcDzdZYPVUaQGnRjmgK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王曰敏（CBDB 283925）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283925&o=json
+            external_identifier: CBDB:283925
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:02.953Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_cFYBiN2By1pvP86HyaLdUp
+        status: active
+        display_name: 王曰敏
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -269,6 +307,7 @@ relationships:
 | parents | p_XDFGKptw1EWAKBbTEUcvCN | 王銀 | accepted |
 | children | p_tXZASZkZUbtAHM4Rg6fiXV | 王逢年 | accepted |
 | ancestors | p_8u6YwJLN4LLPN3hh45YHPS | 王復 | accepted |
+| ancestors | p_cFYBiN2By1pvP86HyaLdUp | 王曰敏 | accepted |
 
 ## 外部来源
 
@@ -276,3 +315,4 @@ relationships:
 - [中国历代人物传记资料库：王復（CBDB 283924）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283924&o=json)
 - [中国历代人物传记资料库：王同祖（CBDB 126516）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126516&o=json)
 - [中国历代人物传记资料库：王銀（CBDB 283926）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283926&o=json)
+- [中国历代人物传记资料库：王曰敏（CBDB 283925）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283925&o=json)

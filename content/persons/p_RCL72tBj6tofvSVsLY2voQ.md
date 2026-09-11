@@ -4,7 +4,7 @@ id: p_RCL72tBj6tofvSVsLY2voQ
 status: active
 merged_into: null
 display_name: 王希孟
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -208,6 +208,44 @@ relationships:
         status: active
         display_name: 王敬
         merged_into_person_id: null
+    - claim:
+        id: c_HXh731ZS2LeJ1onQTtANsk
+        subject_person_id: p_cDWthnmfmZUMrDM5JdsS9A
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_RCL72tBj6tofvSVsLY2voQ
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_npn0OaQR40XOt5eYBPs-Tf
+          claim_id: c_HXh731ZS2LeJ1onQTtANsk
+          source_id: s_gC1Y8VVz5WzoURkNQC9JgQ
+          stance: supports
+          locator: 弘治十八年進士登科錄:一卷，第三甲第九十一名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_gC1Y8VVz5WzoURkNQC9JgQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王十二（CBDB 274559）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274559&o=json
+            external_identifier: CBDB:274559
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:02.295Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_cDWthnmfmZUMrDM5JdsS9A
+        status: active
+        display_name: 王十二
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -231,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_1AkPLN4jpbDDRN9hsKXn8b | 王安 | accepted |
 | ancestors | p_SbrXp7MmBDQe8Ew48WyHUM | 王敬 | accepted |
+| ancestors | p_cDWthnmfmZUMrDM5JdsS9A | 王十二 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王安（CBDB 274561）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274561&o=json)
 - [中国历代人物传记资料库：王敬（CBDB 274560）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274560&o=json)
+- [中国历代人物传记资料库：王十二（CBDB 274559）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274559&o=json)
 - [中国历代人物传记资料库：王希孟（CBDB 126545）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126545&o=json)

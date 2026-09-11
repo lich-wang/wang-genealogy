@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王繼耀
 cbdb_id: 294880
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:294880
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_n575Pge4P8TP3yRBKaL9Gu
             source_type: api_record
             title: 中国历代人物传记资料库：王繼耀（CBDB 294880）
@@ -91,7 +91,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_XiQ4qMyf-fcE-YK-Vb6xBO
+        subject_person_id: p_netpjn2vvpbP4gRNZK5nnW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bqD63aFdZJi7bNMGkx1CRn
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__L0Ru-GxD5vB-oBAdMy5Kr
+          claim_id: c_XiQ4qMyf-fcE-YK-Vb6xBO
+          source_id: s_n575Pge4P8TP3yRBKaL9Gu
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第二百二十七名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_netpjn2vvpbP4gRNZK5nnW
+        status: active
+        display_name: 王畿
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| ancestors | p_netpjn2vvpbP4gRNZK5nnW | 王畿 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王纶
 cbdb_id: 277430
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -214,6 +214,32 @@ relationships:
         status: active
         display_name: 王以旗
         merged_into_person_id: null
+    - claim:
+        id: c_SmFiuzZK10Rkaw9xQucYlS
+        subject_person_id: p_BdmxytotV7zqZnEBKrEUyP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PuUiGdtpzWdsK7wcEt3S7p
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HkYj7LW8rVxG-K4c4zbgNv
+          claim_id: c_SmFiuzZK10Rkaw9xQucYlS
+          source_id: s_yMMxyo8vRCvjeb5kyddaVn
+          stance: supports
+          locator: 正德六年進士登科錄:一卷，第三甲第四十八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_PuUiGdtpzWdsK7wcEt3S7p
+        status: active
+        display_name: 王以旂
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -239,6 +265,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_ofwfED7cGNaG45dVNWJBNj | 王䪧 | accepted |
 | children | p_xTUQkpHtgJpkRB8hx9DSUD | 王以旗 | accepted |
+| children | p_PuUiGdtpzWdsK7wcEt3S7p | 王以旂 | accepted |
 
 ## 外部来源
 

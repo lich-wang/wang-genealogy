@@ -4,7 +4,7 @@ id: p_fG2ZSSsFcXdaZWCtjXUkRA
 status: active
 merged_into: null
 display_name: 王朝卿
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,45 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ea0Na1NdvVvMraA0ZnWa2P
+        subject_person_id: p_Ax72Y4zqcv4L6DYQUb7Eu1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fG2ZSSsFcXdaZWCtjXUkRA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_msZo5tFpgNTaJpxtvNXTse
+          claim_id: c_ea0Na1NdvVvMraA0ZnWa2P
+          source_id: s_7dQp2P8fLbfxicMWn9gZ66
+          stance: supports
+          locator: 弘治九年進士登科錄:一卷，第二甲第十八名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7dQp2P8fLbfxicMWn9gZ66
+            source_type: api_record
+            title: 中国历代人物传记资料库：王久壽（CBDB 266956）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266956&o=json
+            external_identifier: CBDB:266956
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:01.428Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_Ax72Y4zqcv4L6DYQUb7Eu1
+        status: active
+        display_name: 王久壽
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,11 +238,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Ax72Y4zqcv4L6DYQUb7Eu1 | 王久壽 | accepted |
 | ancestors | p_BUfZ9JvByTmN3dTk3K7qux | 王日新 | accepted |
 | ancestors | p_V45WbqCNMktzeMrC6QJpfq | 王穩 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王朝卿（CBDB 201090）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201090&o=json)
+- [中国历代人物传记资料库：王久壽（CBDB 266956）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266956&o=json)
 - [中国历代人物传记资料库：王日新（CBDB 266954）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266954&o=json)
 - [中国历代人物传记资料库：王穩（CBDB 266955）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266955&o=json)

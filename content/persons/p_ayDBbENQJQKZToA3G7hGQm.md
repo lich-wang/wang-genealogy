@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 谢氏
 cbdb_id: 5305
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -161,7 +161,7 @@ properties:
           locator: Q45364634
           quotation: null
           interpretation_note: null
-          source:
+          source: &a2
             id: s_9pBeLoowJaNiChuJLaFPPm
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：謝氏（5305）
@@ -177,7 +177,33 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_mKWE8KtcDGfNAzeHDRl8h4
+        subject_person_id: p_ayDBbENQJQKZToA3G7hGQm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_94q1e1836gtMmWzZkszZK7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_L6otbDiIqh_NaP0vkGck4E
+          claim_id: c_mKWE8KtcDGfNAzeHDRl8h4
+          source_id: s_9pBeLoowJaNiChuJLaFPPm
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，812;815：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a2
+      object_person:
+        id: p_94q1e1836gtMmWzZkszZK7
+        status: active
+        display_name: 王益
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -297,6 +323,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_94q1e1836gtMmWzZkszZK7 | 王益 | accepted |
 | spouses | p_qhr63u6HvGLzGzcHEvaWtZ | 王用之 | accepted |
 
 ## 外部来源

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仕倫
 cbdb_id: 141674
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -173,7 +173,83 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_pOQTY3kwYaV8kSoocVUHor
+        subject_person_id: p_kVMprEyYd61FrSnBQEVsST
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_C89ZcHAtcAChfdorhCWMWA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hCMNrWQgbop0ul-JYkMrTT
+          claim_id: c_pOQTY3kwYaV8kSoocVUHor
+          source_id: s_piJQKrm1v1DesS4UdmKoJo
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dahe 94：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_piJQKrm1v1DesS4UdmKoJo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗志（CBDB 158109）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158109&o=json
+            external_identifier: CBDB:158109
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.122Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_C89ZcHAtcAChfdorhCWMWA
+        status: active
+        display_name: 王宗志
+        merged_into_person_id: null
+    - claim:
+        id: c_dl3XCwPd2Vgv9NDhFByv5s
+        subject_person_id: p_kVMprEyYd61FrSnBQEVsST
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CPb2pfWGKo6yfsuhL9bKLn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kxhiwbXpip0NS4bVNzTBF0
+          claim_id: c_dl3XCwPd2Vgv9NDhFByv5s
+          source_id: s_YDs2JHRNhDj6Q6QE6TZyUe
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dahe 94：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_YDs2JHRNhDj6Q6QE6TZyUe
+            source_type: api_record
+            title: 中国历代人物传记资料库：王劉老（CBDB 158108）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158108&o=json
+            external_identifier: CBDB:158108
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:54.122Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_CPb2pfWGKo6yfsuhL9bKLn
+        status: active
+        display_name: 王劉老
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -273,11 +349,15 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_C89ZcHAtcAChfdorhCWMWA | 王宗志 | accepted |
+| children | p_CPb2pfWGKo6yfsuhL9bKLn | 王劉老 | accepted |
 | ancestors | p_C649FKyy6vwpLVe271ivnZ | 王恩 | accepted |
 | ancestors | p_uzLPWq66u7cfNYyrb8gQ8t | 王璆 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王恩（CBDB 158106）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158106&o=json)
+- [中国历代人物传记资料库：王劉老（CBDB 158108）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158108&o=json)
 - [中国历代人物传记资料库：王璆（CBDB 158110）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158110&o=json)
 - [中国历代人物传记资料库：王仕倫（CBDB 141674）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141674&o=json)
+- [中国历代人物传记资料库：王宗志（CBDB 158109）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158109&o=json)

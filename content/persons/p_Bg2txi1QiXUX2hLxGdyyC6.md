@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王茂焜
 cbdb_id: 526727
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:526727
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_NqLjCgR7ciGSRZ8Gy92e2m
             source_type: api_record
             title: 中国历代人物传记资料库：王茂焜（CBDB 526727）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_8IYVuEXP_T-2rx4llEa3Kt
+        subject_person_id: p_attXpVUNq5Leu9LSRnM6z8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Bg2txi1QiXUX2hLxGdyyC6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HngNcTARH3Yide_8bNTcf3
+          claim_id: c_8IYVuEXP_T-2rx4llEa3Kt
+          source_id: s_NqLjCgR7ciGSRZ8Gy92e2m
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），12852：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_attXpVUNq5Leu9LSRnM6z8
+        status: active
+        display_name: 王本梧
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_attXpVUNq5Leu9LSRnM6z8 | 王本梧 | accepted |
 
 ## 外部来源
 

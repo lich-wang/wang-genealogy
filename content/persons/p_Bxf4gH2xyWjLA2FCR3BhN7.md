@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王松龄
 cbdb_id: 36706
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -274,6 +274,58 @@ relationships:
         status: active
         display_name: 王中
         merged_into_person_id: null
+    - claim:
+        id: c_YMcfe3Kj75JX36EvjhO29T
+        subject_person_id: p_Bxf4gH2xyWjLA2FCR3BhN7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TXR4BZHWFYBdp9oHRn9hCf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FBst7_XA7DZuXKEHwPaWVB
+          claim_id: c_YMcfe3Kj75JX36EvjhO29T
+          source_id: s_AX6PgDBCeaR1gEucMkzDv9
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_TXR4BZHWFYBdp9oHRn9hCf
+        status: active
+        display_name: 王聿
+        merged_into_person_id: null
+    - claim:
+        id: c_tRGZ1VvOhuT9ncrBojG9yx
+        subject_person_id: p_Bxf4gH2xyWjLA2FCR3BhN7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kdXLrKQ2gAzwQuRiYauex1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MtGiF9UcrHfRrqLHQetLLk
+          claim_id: c_tRGZ1VvOhuT9ncrBojG9yx
+          source_id: s_AX6PgDBCeaR1gEucMkzDv9
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_kdXLrKQ2gAzwQuRiYauex1
+        status: active
+        display_name: 王中
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -336,6 +388,8 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_zAMNQJueCwPPKR5vjoLaAD | 王彦博 | accepted |
 | children | p_3Jpz1MJr19NoGHADTpC82d | 王串 | accepted |
+| children | p_TXR4BZHWFYBdp9oHRn9hCf | 王聿 | accepted |
+| children | p_kdXLrKQ2gAzwQuRiYauex1 | 王中 | accepted |
 | children | p_TXR4BZHWFYBdp9oHRn9hCf | 王聿 | accepted |
 | children | p_kdXLrKQ2gAzwQuRiYauex1 | 王中 | accepted |
 | ancestors | p_tJA4SGo5rnDTPZB6FnPcWP | 周氏 | accepted |

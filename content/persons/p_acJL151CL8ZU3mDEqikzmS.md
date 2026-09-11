@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王固己
 cbdb_id: 140737
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:140737
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_D1gG2bqcGeVVKDsDwya71E
             source_type: api_record
             title: 中国历代人物传记资料库：王固己（CBDB 140737）
@@ -172,7 +172,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_hlwaHuQykJWpn_wHNausUf
+        subject_person_id: p_4EU5hab5MGo71FXwq1jBL2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_acJL151CL8ZU3mDEqikzmS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FToC6tZ1txwqxFs1PS_NQH
+          claim_id: c_hlwaHuQykJWpn_wHNausUf
+          source_id: s_D1gG2bqcGeVVKDsDwya71E
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 471：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_4EU5hab5MGo71FXwq1jBL2
+        status: active
+        display_name: 王方智
+        merged_into_person_id: null
   children:
     - claim:
         id: c_HRRBMuD5c3IGbghuT4Y4mG
@@ -214,7 +240,33 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_xZwMUqeBSgarFHu_a5K1Qk
+        subject_person_id: p_yYWP56xYF7YEvgG32tAH3B
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_acJL151CL8ZU3mDEqikzmS
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eAaG-hFldefnhHbaSgEVHK
+          claim_id: c_xZwMUqeBSgarFHu_a5K1Qk
+          source_id: s_D1gG2bqcGeVVKDsDwya71E
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Kaiyuan 471：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_yYWP56xYF7YEvgG32tAH3B
+        status: active
+        display_name: 王弘訓
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -236,7 +288,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_4EU5hab5MGo71FXwq1jBL2 | 王方智 | accepted |
 | children | p_koZZSSkuaAbaVwbfLmgQGV | 王璵 | accepted |
+| ancestors | p_yYWP56xYF7YEvgG32tAH3B | 王弘訓 | accepted |
 
 ## 外部来源
 

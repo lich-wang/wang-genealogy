@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王应桢
 cbdb_id: 294872
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -187,6 +187,32 @@ relationships:
         status: active
         display_name: 王龙溪
         merged_into_person_id: null
+    - claim:
+        id: c_888FzvLEYSpB4IdTtDiJVM
+        subject_person_id: p_netpjn2vvpbP4gRNZK5nnW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_D3uVxqQFBH491G6DL79z4g
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YC4qV6kz5UEg2nvkQYRP_b
+          claim_id: c_888FzvLEYSpB4IdTtDiJVM
+          source_id: s_a17eQX1cUDwJwmRVnQj2MU
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第二百二十七名：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_netpjn2vvpbP4gRNZK5nnW
+        status: active
+        display_name: 王畿
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -212,6 +238,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_aXikAW5GmUNHUB4Mexh2vK | 王龙溪 | accepted |
+| parents | p_netpjn2vvpbP4gRNZK5nnW | 王畿 | accepted |
 
 ## 外部来源
 

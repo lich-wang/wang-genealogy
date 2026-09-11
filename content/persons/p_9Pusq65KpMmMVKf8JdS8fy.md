@@ -4,7 +4,7 @@ id: p_9Pusq65KpMmMVKf8JdS8fy
 status: active
 merged_into: null
 display_name: 王端淑
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -185,6 +185,43 @@ relationships:
         status: active
         display_name: 丁肇圣
         merged_into_person_id: null
+    - claim:
+        id: c_1CyBjhs6Mje9YpMRQy0MKn
+        subject_person_id: p_aiZ62BS2EQTso11n9YhdVB
+        claim_kind: relationship
+        predicate: kinship.spouse_of
+        object_person_id: p_9Pusq65KpMmMVKf8JdS8fy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_M4Z__cfKWxRoRmHYjVQxyW
+          claim_id: c_1CyBjhs6Mje9YpMRQy0MKn
+          source_id: s_7sLuYRBFnRNQ5pc2to67Vp
+          stance: supports
+          locator: "明清婦女著作數據庫，MQWW PoetID #685, HuWenKai #248：妻子"
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_7sLuYRBFnRNQ5pc2to67Vp
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：丁肇聖（122753）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=122753&o=json
+            external_identifier: CBDB:122753
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:05.016Z
+            metadata_json: null
+      object_person:
+        id: p_aiZ62BS2EQTso11n9YhdVB
+        status: active
+        display_name: 丁肇圣
+        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -209,7 +246,9 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_ftZ1PRscrPmBh4Qh3AiyfY | 王思任 | accepted |
 | spouses | p_aiZ62BS2EQTso11n9YhdVB | 丁肇圣 | accepted |
+| spouses | p_aiZ62BS2EQTso11n9YhdVB | 丁肇圣 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王端淑（CBDB 55720）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55720&o=json)
+- [CBDB 中国历代人物传记资料库：丁肇聖（122753）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=122753&o=json)

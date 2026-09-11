@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王必申
 cbdb_id: 138084
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:138084
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_Ct2KzBxbNVbawmJ1nsud2Q
             source_type: api_record
             title: 中国历代人物传记资料库：王必申（CBDB 138084）
@@ -130,6 +130,32 @@ relationships:
         status: active
         display_name: 王平
         merged_into_person_id: null
+    - claim:
+        id: c__MKNuX57m10k06_Qros1PU
+        subject_person_id: p_CqBg4yUCepcHAE8r6vCYuZ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_PUBtfTr2QXW6N416Jn8KQA
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WVqQqytuKS6YXa-5ko44ud
+          claim_id: c__MKNuX57m10k06_Qros1PU
+          source_id: s_Ct2KzBxbNVbawmJ1nsud2Q
+          stance: supports
+          locator: 寶祐登科錄：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_PUBtfTr2QXW6N416Jn8KQA
+        status: active
+        display_name: 王剛中
+        merged_into_person_id: null
   other: []
 ---
 
@@ -149,6 +175,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | descendants | p_4Z8oBTJamRmm8c5d9wkYUe | 王平 | accepted |
+| descendants | p_PUBtfTr2QXW6N416Jn8KQA | 王剛中 | accepted |
 
 ## 外部来源
 

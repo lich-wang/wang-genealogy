@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王惠軒
 cbdb_id: 286915
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:286915
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_esaG4QePU7fJzzdJkwZ7nP
             source_type: api_record
             title: 中国历代人物传记资料库：王惠軒（CBDB 286915）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_9u0ca2Tmrw3nDQC5kS4UV3
+        subject_person_id: p_aiJicNJ3TZ1ED5soZKgnCk
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_51C8Kh4aNymAeDywG3epKL
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0H9ywFxrjpFL1B1mX5XStn
+          claim_id: c_9u0ca2Tmrw3nDQC5kS4UV3
+          source_id: s_esaG4QePU7fJzzdJkwZ7nP
+          stance: supports
+          locator: 永樂十年進士登科錄:一卷，第三甲第十七名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_51C8Kh4aNymAeDywG3epKL
+        status: active
+        display_name: 王嗣先
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_51C8Kh4aNymAeDywG3epKL | 王嗣先 | accepted |
 
 ## 外部来源
 

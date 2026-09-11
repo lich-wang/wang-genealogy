@@ -4,7 +4,7 @@ id: p_P7zJqgvbYP5g8TxtNP9GCp
 status: active
 merged_into: null
 display_name: 王文
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,44 @@ relationships:
         status: active
         display_name: 王藹
         merged_into_person_id: null
+    - claim:
+        id: c_WDhWC8GoGd2mzhe0Y4oWgk
+        subject_person_id: p_AtoiyTSmhg8fECkw869467
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_P7zJqgvbYP5g8TxtNP9GCp
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5gyT2Ehj9ONghBiIuyHJH8
+          claim_id: c_WDhWC8GoGd2mzhe0Y4oWgk
+          source_id: s_XZ8c1buUDUGwoQFEm1HsX3
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第一百八十六名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_XZ8c1buUDUGwoQFEm1HsX3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王邦美（CBDB 282555）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282555&o=json
+            external_identifier: CBDB:282555
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:02.953Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_AtoiyTSmhg8fECkw869467
+        status: active
+        display_name: 王邦美
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_qtS2vTEe75QERPYH2wknEH | 王朝用 | accepted |
 | ancestors | p_8bydW1RBsCGXdQ9TVpKH76 | 王藹 | accepted |
+| ancestors | p_AtoiyTSmhg8fECkw869467 | 王邦美 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王藹（CBDB 282556）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282556&o=json)
+- [中国历代人物传记资料库：王邦美（CBDB 282555）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282555&o=json)
 - [中国历代人物传记资料库：王朝用（CBDB 282557）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282557&o=json)
 - [中国历代人物传记资料库：王文（CBDB 202049）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202049&o=json)

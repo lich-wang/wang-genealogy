@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王希遷
 cbdb_id: 191564
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -205,6 +205,82 @@ relationships:
         status: active
         display_name: 王國寶
         merged_into_person_id: null
+    - claim:
+        id: c_NWnFSEGxA_fIAXMuaoHgNF
+        subject_person_id: p_GYZYeCEFAABsTQwFy7Lrmg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AXamSgwf97zhzK183EkDQr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jrzD5VbLbZ-rat-DuESACr
+          claim_id: c_NWnFSEGxA_fIAXMuaoHgNF
+          source_id: s_VC3qjP64CSPChsLoTgKJau
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_VC3qjP64CSPChsLoTgKJau
+            source_type: api_record
+            title: 中国历代人物传记资料库：王國文（CBDB 191567）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191567&o=json
+            external_identifier: CBDB:191567
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:40.348Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_AXamSgwf97zhzK183EkDQr
+        status: active
+        display_name: 王國文
+        merged_into_person_id: null
+    - claim:
+        id: c_1nsOQb8dmcsu1sEBFzeNAQ
+        subject_person_id: p_GYZYeCEFAABsTQwFy7Lrmg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_C3p1cFLrDARjSJNznWKi2x
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9OYH6kpsAqMetH-MRPpAsW
+          claim_id: c_1nsOQb8dmcsu1sEBFzeNAQ
+          source_id: s_yyaWbjtw8cTpe9QtgpsDjf
+          stance: supports
+          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_yyaWbjtw8cTpe9QtgpsDjf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王國實（CBDB 191566）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191566&o=json
+            external_identifier: CBDB:191566
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:40.348Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_C3p1cFLrDARjSJNznWKi2x
+        status: active
+        display_name: 王國實
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -231,9 +307,13 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_9K68Hg6LWRw6qDHq2f6Rbj | 王國良 | accepted |
 | children | p_e5MQ5CBhn9uF5QffiX1yWB | 王國寶 | accepted |
+| children | p_AXamSgwf97zhzK183EkDQr | 王國文 | accepted |
+| children | p_C3p1cFLrDARjSJNznWKi2x | 王國實 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王國寶（CBDB 191568）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191568&o=json)
 - [中国历代人物传记资料库：王國良（CBDB 191565）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191565&o=json)
+- [中国历代人物传记资料库：王國實（CBDB 191566）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191566&o=json)
+- [中国历代人物传记资料库：王國文（CBDB 191567）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191567&o=json)
 - [中国历代人物传记资料库：王希遷（CBDB 191564）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191564&o=json)

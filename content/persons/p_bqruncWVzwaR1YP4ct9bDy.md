@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王像
 cbdb_id: 219510
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:219510
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_13vWpAhMkWELSTUR5oEyvF
             source_type: api_record
             title: 中国历代人物传记资料库：王像（CBDB 219510）
@@ -92,7 +92,33 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_P8gEfUFA1-6VX3HgJA7evC
+        subject_person_id: p_bqruncWVzwaR1YP4ct9bDy
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_TEYvtaRNz7eTYDE23W5t5H
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6hvY3S-Rn_sr-Js-xI3yKV
+          claim_id: c_P8gEfUFA1-6VX3HgJA7evC
+          source_id: s_13vWpAhMkWELSTUR5oEyvF
+          stance: supports
+          locator: 萬曆八年進士登科錄:一卷，第三甲第二十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_TEYvtaRNz7eTYDE23W5t5H
+        status: active
+        display_name: 王守素
+        merged_into_person_id: null
   other: []
 ---
 
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_TEYvtaRNz7eTYDE23W5t5H | 王守素 | accepted |
 
 ## 外部来源
 

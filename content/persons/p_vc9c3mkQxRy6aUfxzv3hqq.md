@@ -4,7 +4,7 @@ id: p_vc9c3mkQxRy6aUfxzv3hqq
 status: active
 merged_into: null
 display_name: 王三接
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -180,6 +180,44 @@ relationships:
         status: active
         display_name: 王俊
         merged_into_person_id: null
+    - claim:
+        id: c_gccDFZZDsQV7tGJYARSh7u
+        subject_person_id: p_BH6i3mTKcB47JQvKoKiYBL
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_vc9c3mkQxRy6aUfxzv3hqq
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-9PxFFBG_0prEOMs6dWgKc
+          claim_id: c_gccDFZZDsQV7tGJYARSh7u
+          source_id: s_q2j5CmWFENRMJ9Tez51pA2
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第一百八十三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_q2j5CmWFENRMJ9Tez51pA2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王從宣（CBDB 311387）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311387&o=json
+            external_identifier: CBDB:311387
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:05.361Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_BH6i3mTKcB47JQvKoKiYBL
+        status: active
+        display_name: 王從宣
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -202,9 +240,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_qsqNNxC6SQb2oA7yPxzojc | 王相 | accepted |
 | ancestors | p_YieZ1UoCG2GNbpNMx4NkYV | 王俊 | accepted |
+| ancestors | p_BH6i3mTKcB47JQvKoKiYBL | 王從宣 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王從宣（CBDB 311387）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311387&o=json)
 - [中国历代人物传记资料库：王俊（CBDB 311388）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311388&o=json)
 - [中国历代人物传记资料库：王三接（CBDB 203882）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203882&o=json)
 - [中国历代人物传记资料库：王相（CBDB 311389）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311389&o=json)

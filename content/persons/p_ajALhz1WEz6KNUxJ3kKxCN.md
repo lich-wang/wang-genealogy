@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王墿
 cbdb_id: 154914
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:154914
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_Ze84aqJciFhJRArNw6NFwa
             source_type: api_record
             title: 中国历代人物传记资料库：王墿（CBDB 154914）
@@ -86,7 +86,33 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_b7V2xULt9mWlQOQJ5P7RDz
+        subject_person_id: p_hBA95seF4jfn429UmR76Q6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ajALhz1WEz6KNUxJ3kKxCN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VShmjXLPG0niQ_L2U2D3Vl
+          claim_id: c_b7V2xULt9mWlQOQJ5P7RDz
+          source_id: s_Ze84aqJciFhJRArNw6NFwa
+          stance: supports
+          locator: 唐代墓誌匯編:二卷，Dali 30：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_hBA95seF4jfn429UmR76Q6
+        status: active
+        display_name: 王守質
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -111,6 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_hBA95seF4jfn429UmR76Q6 | 王守質 | accepted |
 
 ## 外部来源
 

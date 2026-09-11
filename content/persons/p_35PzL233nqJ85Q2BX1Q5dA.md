@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王良柱
 cbdb_id: 202803
-revision: 6
+revision: 7
 properties:
   - predicate: bio.summary
     recommended:
@@ -321,6 +321,44 @@ relationships:
         status: active
         display_name: 王繼曾
         merged_into_person_id: null
+    - claim:
+        id: c_Ioj-LR2jxH3sMOeG0K6ESP
+        subject_person_id: p_35PzL233nqJ85Q2BX1Q5dA
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_BFDV7acnCdY6xJ5FNvZKDJ
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QArHPpbJfl1npm2cdXCzLe
+          claim_id: c_Ioj-LR2jxH3sMOeG0K6ESP
+          source_id: s_EJjg7n8GF9A8XPRGBhYj5p
+          stance: supports
+          locator: 嘉靖十一年進士登科錄:一卷，第三甲第二百一十九名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_EJjg7n8GF9A8XPRGBhYj5p
+            source_type: api_record
+            title: 中国历代人物传记资料库：王墀京（CBDB 294725）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294725&o=json
+            external_identifier: CBDB:294725
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:03.722Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_BFDV7acnCdY6xJ5FNvZKDJ
+        status: active
+        display_name: 王墀京
+        merged_into_person_id: null
   other: []
 ---
 
@@ -345,9 +383,11 @@ relationships:
 | children | p_4GriEgrqEP5KnKX7db7riC | 王點 | accepted |
 | ancestors | p_gVSd52s65yGFeVvBTqbk7q | 王錞 | accepted |
 | descendants | p_JyQurP22g37oU9bmwXM9Eq | 王繼曾 | accepted |
+| descendants | p_BFDV7acnCdY6xJ5FNvZKDJ | 王墀京 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王墀京（CBDB 294725）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294725&o=json)
 - [中国历代人物传记资料库：王錞（CBDB 294711）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294711&o=json)
 - [中国历代人物传记资料库：王點（CBDB 294719）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294719&o=json)
 - [中国历代人物传记资料库：王海（CBDB 294712）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294712&o=json)
