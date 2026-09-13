@@ -4,7 +4,7 @@ id: p_BBweSvxkb8aEuMzniE5DAz
 status: active
 merged_into: null
 display_name: 王正億
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -140,7 +140,7 @@ relationships:
         subject_person_id: p_BBweSvxkb8aEuMzniE5DAz
         claim_kind: relationship
         predicate: kinship.ancestor_of
-        object_person_id: p_XM6mAGcrGG9zdfhaW7wsMr
+        object_person_id: p_acKqaubEQQzaaYDjdFQ4eL
         generation_count: 2
         parent_role: null
         value_json: null
@@ -157,7 +157,7 @@ relationships:
           interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
           source: *a1
       object_person:
-        id: p_XM6mAGcrGG9zdfhaW7wsMr
+        id: p_acKqaubEQQzaaYDjdFQ4eL
         status: active
         display_name: 王先通
         merged_into_person_id: null
@@ -181,7 +181,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| descendants | p_XM6mAGcrGG9zdfhaW7wsMr | 王先通 | accepted |
+| descendants | p_acKqaubEQQzaaYDjdFQ4eL | 王先通 | accepted |
 
 ## 外部来源
 

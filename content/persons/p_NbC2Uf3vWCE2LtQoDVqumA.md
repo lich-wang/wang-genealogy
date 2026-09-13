@@ -4,7 +4,7 @@ id: p_NbC2Uf3vWCE2LtQoDVqumA
 status: active
 merged_into: null
 display_name: 王华
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:

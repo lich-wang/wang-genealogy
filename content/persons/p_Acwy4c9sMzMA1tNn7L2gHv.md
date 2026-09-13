@@ -4,7 +4,7 @@ id: p_Acwy4c9sMzMA1tNn7L2gHv
 status: active
 merged_into: null
 display_name: 王業泰
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -75,7 +75,7 @@ relationships:
   parents:
     - claim:
         id: c_Mlge-fAJhsO9FJ4-7C536p
-        subject_person_id: p_XM6mAGcrGG9zdfhaW7wsMr
+        subject_person_id: p_acKqaubEQQzaaYDjdFQ4eL
         claim_kind: relationship
         predicate: kinship.father_of
         object_person_id: p_Acwy4c9sMzMA1tNn7L2gHv
@@ -95,7 +95,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a1
       object_person:
-        id: p_XM6mAGcrGG9zdfhaW7wsMr
+        id: p_acKqaubEQQzaaYDjdFQ4eL
         status: active
         display_name: 王先通
         merged_into_person_id: null
@@ -123,7 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_XM6mAGcrGG9zdfhaW7wsMr | 王先通 | accepted |
+| parents | p_acKqaubEQQzaaYDjdFQ4eL | 王先通 | accepted |
 
 ## 外部来源
 

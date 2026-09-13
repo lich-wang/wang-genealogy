@@ -4,7 +4,7 @@ id: p_TQiMhGLRXGBc7HWBFHEr7P
 status: active
 merged_into: null
 display_name: 王守仁
-revision: 1
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -1059,6 +1059,121 @@ relationships:
         status: active
         display_name: 王业泰
         merged_into_person_id: null
+    - claim:
+        id: c_eLsojTOE0bFNJXQ5KqPzHg
+        subject_person_id: p_TQiMhGLRXGBc7HWBFHEr7P
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DsQugLMn8y74PZ78X3Ldak
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_udiqjrxKcZ2YYCYj9Feip3
+          claim_id: c_eLsojTOE0bFNJXQ5KqPzHg
+          source_id: s_yUmzrSxNNCC7j1D7AdYPLL
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），11920：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: &a1
+            id: s_yUmzrSxNNCC7j1D7AdYPLL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王守仁（CBDB 30374）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30374&o=json
+            external_identifier: CBDB:30374
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.028Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_DsQugLMn8y74PZ78X3Ldak
+        status: active
+        display_name: 王承學
+        merged_into_person_id: null
+    - claim:
+        id: c_Ohpu1w3aUcjDOxYJAzuQwV
+        subject_person_id: p_TQiMhGLRXGBc7HWBFHEr7P
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DHmLm5HngcTLKcAaUV6Q4L
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_l0x0M7hhHPv_LvdrmcrYBS
+          claim_id: c_Ohpu1w3aUcjDOxYJAzuQwV
+          source_id: s_yUmzrSxNNCC7j1D7AdYPLL
+          stance: supports
+          locator: 紹興府志:八十卷，Igid=316150：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_DHmLm5HngcTLKcAaUV6Q4L
+        status: active
+        display_name: 王先进
+        merged_into_person_id: null
+    - claim:
+        id: c_cHxvSDNfirKexugUgCIn_C
+        subject_person_id: p_TQiMhGLRXGBc7HWBFHEr7P
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_cfbSo699FQEfuoc3FoGXE2
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K5dvHbEp0qgea2pQj-Ejk1
+          claim_id: c_cHxvSDNfirKexugUgCIn_C
+          source_id: s_yUmzrSxNNCC7j1D7AdYPLL
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），11920：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_cfbSo699FQEfuoc3FoGXE2
+        status: active
+        display_name: 王先鋐
+        merged_into_person_id: null
+    - claim:
+        id: c_MwKhylwZ37-noHMx9548uQ
+        subject_person_id: p_TQiMhGLRXGBc7HWBFHEr7P
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Vwh1UfYLcTAoFT9fJr6gFo
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_l_eoScMAFN0kS1GqotFuQm
+          claim_id: c_MwKhylwZ37-noHMx9548uQ
+          source_id: s_yUmzrSxNNCC7j1D7AdYPLL
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），11920：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_Vwh1UfYLcTAoFT9fJr6gFo
+        status: active
+        display_name: 王先鐸
+        merged_into_person_id: null
   other: []
 ---
 
@@ -1090,15 +1205,19 @@ relationships:
 | descendants | p_zgWjAeM1N1EqCXTXQW9HkX | 王承勋 | accepted |
 | descendants | p_acKqaubEQQzaaYDjdFQ4eL | 王先通 | accepted |
 | descendants | p_UbtBRRnvS6QEr8KxT77fMG | 王业泰 | accepted |
+| descendants | p_DsQugLMn8y74PZ78X3Ldak | 王承學 | accepted |
+| descendants | p_DHmLm5HngcTLKcAaUV6Q4L | 王先进 | accepted |
+| descendants | p_cfbSo699FQEfuoc3FoGXE2 | 王先鋐 | accepted |
+| descendants | p_Vwh1UfYLcTAoFT9fJr6gFo | 王先鐸 | accepted |
 
 ## 外部来源
 
 - [維基數據：王华（Q15924849）](https://www.wikidata.org/wiki/Q15924849)
 - [維基數據：王守仁（Q378462）](https://www.wikidata.org/wiki/Q378462)
 - [維基數據：王正亿（Q15944660）](https://www.wikidata.org/wiki/Q15944660)
+- [中国历代人物传记资料库：王守仁（CBDB 30374）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30374&o=json)
 - [中文维基百科：王守仁](https://zh.wikipedia.org/wiki/王守仁)
 - [中文维基百科：王陽明](https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%99%BD%E6%98%8E)
 - [中文维基百科：余姚王氏](https://zh.wikipedia.org/wiki/%E4%BD%99%E5%A7%9A%E7%8E%8B%E6%B0%8F)
 - [CBDB 中国历代人物传记资料库：王華（30373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30373&o=json)
-- [CBDB 中国历代人物传记资料库：王守仁（30374）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30374&o=json)
 - [CBDB 中国历代人物传记资料库：王正億（30375）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30375&o=json)

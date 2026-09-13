@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王天叙
 cbdb_id: 254715
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:

@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_XM6mAGcrGG9zdfhaW7wsMr
-status: active
-merged_into: null
+status: merged
+merged_into: p_acKqaubEQQzaaYDjdFQ4eL
 display_name: 王先通
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -73,122 +73,11 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children:
-    - claim:
-        id: c_Mlge-fAJhsO9FJ4-7C536p
-        subject_person_id: p_XM6mAGcrGG9zdfhaW7wsMr
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_Acwy4c9sMzMA1tNn7L2gHv
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_aBE9b4-pp9M7NuFKNteTai
-          claim_id: c_Mlge-fAJhsO9FJ4-7C536p
-          source_id: s_av1SdCRBNnMztJE72pTbb9
-          stance: supports
-          locator: 紹興府志:八十卷，Igid=316394：父
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_av1SdCRBNnMztJE72pTbb9
-            source_type: api_record
-            title: 中国历代人物传记资料库：王業泰（CBDB 561379）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=561379&o=json
-            external_identifier: CBDB:561379
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-09T00:03:25.739Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
-      object_person:
-        id: p_Acwy4c9sMzMA1tNn7L2gHv
-        status: active
-        display_name: 王業泰
-        merged_into_person_id: null
+  children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors:
-    - claim:
-        id: c_Sjy443atB3yn8M5TQakqSz
-        subject_person_id: p_D3ZKwNoKjeEJXSHgQd8CdC
-        claim_kind: relationship
-        predicate: kinship.ancestor_of
-        object_person_id: p_XM6mAGcrGG9zdfhaW7wsMr
-        generation_count: 3
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_aAecKYJVUbbMwVRo2eGg9T
-          claim_id: c_Sjy443atB3yn8M5TQakqSz
-          source_id: s_yUmzrSxNNCC7j1D7AdYPLL
-          stance: supports
-          locator: 紹興府志:八十卷，Igid=316150：曾孫; 重孫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_yUmzrSxNNCC7j1D7AdYPLL
-            source_type: api_record
-            title: 中国历代人物传记资料库：王守仁（CBDB 30374）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30374&o=json
-            external_identifier: CBDB:30374
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-09T00:03:12.028Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
-      object_person:
-        id: p_D3ZKwNoKjeEJXSHgQd8CdC
-        status: active
-        display_name: 王守仁
-        merged_into_person_id: null
-    - claim:
-        id: c_sjQo8ZhYcY-ydgaCoN0-wr
-        subject_person_id: p_BBweSvxkb8aEuMzniE5DAz
-        claim_kind: relationship
-        predicate: kinship.ancestor_of
-        object_person_id: p_XM6mAGcrGG9zdfhaW7wsMr
-        generation_count: 2
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_V3Ca1aDywB3ENSgBaFtVtN
-          claim_id: c_sjQo8ZhYcY-ydgaCoN0-wr
-          source_id: s_sNByfog5uCk8UbxUtFzMf2
-          stance: supports
-          locator: CBDB 双向互证（孫 王先通 ⇄ 祖父 王正億）
-          quotation: null
-          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
-          source:
-            id: s_sNByfog5uCk8UbxUtFzMf2
-            source_type: api_record
-            title: 中国历代人物传记资料库：王正億（CBDB 30375）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30375&o=json
-            external_identifier: CBDB:30375
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-09T00:03:12.030Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
-      object_person:
-        id: p_BBweSvxkb8aEuMzniE5DAz
-        status: active
-        display_name: 王正億
-        merged_into_person_id: null
+  ancestors: []
   descendants: []
   other: []
 ---
@@ -208,13 +97,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| children | p_Acwy4c9sMzMA1tNn7L2gHv | 王業泰 | accepted |
-| ancestors | p_D3ZKwNoKjeEJXSHgQd8CdC | 王守仁 | accepted |
-| ancestors | p_BBweSvxkb8aEuMzniE5DAz | 王正億 | accepted |
 
 ## 外部来源
 
-- [中国历代人物传记资料库：王守仁（CBDB 30374）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30374&o=json)
 - [中国历代人物传记资料库：王先通（CBDB 30379）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30379&o=json)
-- [中国历代人物传记资料库：王業泰（CBDB 561379）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=561379&o=json)
-- [中国历代人物传记资料库：王正億（CBDB 30375）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30375&o=json)

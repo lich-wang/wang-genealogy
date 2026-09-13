@@ -4,7 +4,7 @@ id: p_cGRfNcadJhvW1K3GcfaQqB
 status: active
 merged_into: null
 display_name: 鍾琰
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:

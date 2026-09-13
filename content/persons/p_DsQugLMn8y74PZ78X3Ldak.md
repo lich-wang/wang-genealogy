@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王承學
 cbdb_id: 526011
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -82,7 +82,7 @@ relationships:
   ancestors:
     - claim:
         id: c_eLsojTOE0bFNJXQ5KqPzHg
-        subject_person_id: p_D3ZKwNoKjeEJXSHgQd8CdC
+        subject_person_id: p_TQiMhGLRXGBc7HWBFHEr7P
         claim_kind: relationship
         predicate: kinship.ancestor_of
         object_person_id: p_DsQugLMn8y74PZ78X3Ldak
@@ -113,7 +113,7 @@ relationships:
             metadata_json:
               source_release: CBDB 2026-09-05
       object_person:
-        id: p_D3ZKwNoKjeEJXSHgQd8CdC
+        id: p_TQiMhGLRXGBc7HWBFHEr7P
         status: active
         display_name: 王守仁
         merged_into_person_id: null
@@ -136,7 +136,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| ancestors | p_D3ZKwNoKjeEJXSHgQd8CdC | 王守仁 | accepted |
+| ancestors | p_TQiMhGLRXGBc7HWBFHEr7P | 王守仁 | accepted |
 
 ## 外部来源
 

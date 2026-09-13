@@ -4,7 +4,7 @@ id: p_acKqaubEQQzaaYDjdFQ4eL
 status: active
 merged_into: null
 display_name: 王先通
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -298,6 +298,43 @@ relationships:
         status: active
         display_name: 王业耀
         merged_into_person_id: null
+    - claim:
+        id: c_Mlge-fAJhsO9FJ4-7C536p
+        subject_person_id: p_acKqaubEQQzaaYDjdFQ4eL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Acwy4c9sMzMA1tNn7L2gHv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aBE9b4-pp9M7NuFKNteTai
+          claim_id: c_Mlge-fAJhsO9FJ4-7C536p
+          source_id: s_av1SdCRBNnMztJE72pTbb9
+          stance: supports
+          locator: 紹興府志:八十卷，Igid=316394：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_av1SdCRBNnMztJE72pTbb9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王業泰（CBDB 561379）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=561379&o=json
+            external_identifier: CBDB:561379
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:25.739Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Acwy4c9sMzMA1tNn7L2gHv
+        status: active
+        display_name: 王業泰
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -377,6 +414,43 @@ relationships:
         status: active
         display_name: 王守仁
         merged_into_person_id: null
+    - claim:
+        id: c_sjQo8ZhYcY-ydgaCoN0-wr
+        subject_person_id: p_BBweSvxkb8aEuMzniE5DAz
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_acKqaubEQQzaaYDjdFQ4eL
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V3Ca1aDywB3ENSgBaFtVtN
+          claim_id: c_sjQo8ZhYcY-ydgaCoN0-wr
+          source_id: s_sNByfog5uCk8UbxUtFzMf2
+          stance: supports
+          locator: CBDB 双向互证（孫 王先通 ⇄ 祖父 王正億）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_sNByfog5uCk8UbxUtFzMf2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正億（CBDB 30375）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30375&o=json
+            external_identifier: CBDB:30375
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.030Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_BBweSvxkb8aEuMzniE5DAz
+        status: active
+        display_name: 王正億
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -400,8 +474,12 @@ relationships:
 | children | p_UbtBRRnvS6QEr8KxT77fMG | 王业泰 | accepted |
 | children | p_je8NyYYjAr8umjXDg3TkJY | 王业盛 | accepted |
 | children | p_bPZKnxp2HexKh3HJLbRwVw | 王业耀 | accepted |
+| children | p_Acwy4c9sMzMA1tNn7L2gHv | 王業泰 | accepted |
 | ancestors | p_TQiMhGLRXGBc7HWBFHEr7P | 王守仁 | accepted |
+| ancestors | p_BBweSvxkb8aEuMzniE5DAz | 王正億 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王業泰（CBDB 561379）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=561379&o=json)
+- [中国历代人物传记资料库：王正億（CBDB 30375）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30375&o=json)
 - [中文维基百科：余姚王氏](https://zh.wikipedia.org/wiki/%E4%BD%99%E5%A7%9A%E7%8E%8B%E6%B0%8F)
