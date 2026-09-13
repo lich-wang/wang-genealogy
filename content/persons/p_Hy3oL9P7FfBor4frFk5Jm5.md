@@ -4,7 +4,7 @@ id: p_Hy3oL9P7FfBor4frFk5Jm5
 status: active
 merged_into: null
 display_name: 王拱辰
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -473,7 +473,44 @@ relationships:
         display_name: 薛氏
         merged_into_person_id: null
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_alj7tdqgSkQ4fKgAv-gmFc
+        subject_person_id: p_Hy3oL9P7FfBor4frFk5Jm5
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_3Ai1qkYjUBdtWJB4qPpmzV
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_34eFT1mxj2vOUP1fQlHAyW
+          claim_id: c_alj7tdqgSkQ4fKgAv-gmFc
+          source_id: s_K58g1dFPD1BQpDPDwmjsyE
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，939：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_K58g1dFPD1BQpDPDwmjsyE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王拱辰（CBDB 1847）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1847&o=json
+            external_identifier: CBDB:1847
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.336Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_3Ai1qkYjUBdtWJB4qPpmzV
+        status: active
+        display_name: 王湘
+        merged_into_person_id: null
   other: []
 ---
 
@@ -498,6 +535,7 @@ relationships:
 | children | p_2hnAsxvMgKbcJuXTakDDKw | 王端甫 | accepted |
 | children | p_5ZE787qDs7qUr1N75PbFLL | 王正甫 | accepted |
 | spouses | p_f323eQKL5YoD7qUUbCDtT7 | 薛氏 | accepted |
+| descendants | p_3Ai1qkYjUBdtWJB4qPpmzV | 王湘 | accepted |
 
 ## 外部来源
 
@@ -506,6 +544,6 @@ relationships:
 - [维基数据：王拱辰（Q15932959）](https://www.wikidata.org/wiki/Q15932959)
 - [维基数据：王正甫（Q45406236）](https://www.wikidata.org/wiki/Q45406236)
 - [维基数据：薛氏（Q45428395）](https://www.wikidata.org/wiki/Q45428395)
+- [中国历代人物传记资料库：王拱辰（CBDB 1847）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1847&o=json)
 - [中文维基百科：王拱辰](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%8B%B1%E8%BE%B0)
 - [CBDB 中国历代人物传记资料库：王代恕（12850）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12850&o=json)
-- [CBDB 中国历代人物传记资料库：王拱辰（1847）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1847&o=json)

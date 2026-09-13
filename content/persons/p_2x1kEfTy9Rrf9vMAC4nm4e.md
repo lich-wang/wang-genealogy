@@ -4,7 +4,7 @@ id: p_2x1kEfTy9Rrf9vMAC4nm4e
 status: active
 merged_into: null
 display_name: 孫氏
-revision: 1
+revision: 2
 cbdb_id: 36923
 properties:
   - predicate: bio.summary

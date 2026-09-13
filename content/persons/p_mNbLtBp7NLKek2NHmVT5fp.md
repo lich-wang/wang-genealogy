@@ -4,7 +4,7 @@ id: p_mNbLtBp7NLKek2NHmVT5fp
 status: active
 merged_into: null
 display_name: 王象乾
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -397,7 +397,81 @@ relationships:
         status: active
         display_name: 孟氏
         merged_into_person_id: null
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_dacegnjVI6qa-9JLNXbQ-4
+        subject_person_id: p_ekUUUcSyzN6WhRbt4eNPox
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_mNbLtBp7NLKek2NHmVT5fp
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_McT5s5_9gR4hp74QaBvI49
+          claim_id: c_dacegnjVI6qa-9JLNXbQ-4
+          source_id: s_UPbhN87m2i3NV2QMsCPaZa
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第二百三十二名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_UPbhN87m2i3NV2QMsCPaZa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王重光（CBDB 220262）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220262&o=json
+            external_identifier: CBDB:220262
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:17.298Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_ekUUUcSyzN6WhRbt4eNPox
+        status: active
+        display_name: 王重光
+        merged_into_person_id: null
+    - claim:
+        id: c_P17Pj_2krE8r923oIzfvdK
+        subject_person_id: p_dFBcsKbnFVcHN4YTvXeRwY
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_mNbLtBp7NLKek2NHmVT5fp
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__OUH7KFisnfMSIxF4-4c71
+          claim_id: c_P17Pj_2krE8r923oIzfvdK
+          source_id: s_3zCeacwcDkrZyMjH7kCBJZ
+          stance: supports
+          locator: 隆慶五年進士登科錄:一卷，第三甲第二百三十二名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3zCeacwcDkrZyMjH7kCBJZ
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王麟（220261）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220261&o=json
+            external_identifier: CBDB:220261
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:09.445Z
+            metadata_json: null
+      object_person:
+        id: p_dFBcsKbnFVcHN4YTvXeRwY
+        status: active
+        display_name: 王麟
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -422,6 +496,8 @@ relationships:
 | parents | p_5yFg7DjLcFzFQKDBRDnwdx | 王之垣 | accepted |
 | spouses | p_6B46xfsBHuon3WVtJCQRJK | 毕氏 | accepted |
 | spouses | p_a5vJPZn1znnbX98EG3cueA | 孟氏 | accepted |
+| ancestors | p_ekUUUcSyzN6WhRbt4eNPox | 王重光 | accepted |
+| ancestors | p_dFBcsKbnFVcHN4YTvXeRwY | 王麟 | accepted |
 
 ## 外部来源
 
@@ -429,5 +505,7 @@ relationships:
 - [维基数据：孟氏（Q65813503）](https://www.wikidata.org/wiki/Q65813503)
 - [维基数据：王象乾（Q15915390）](https://www.wikidata.org/wiki/Q15915390)
 - [维基数据：王之垣（Q15942432）](https://www.wikidata.org/wiki/Q15942432)
+- [中国历代人物传记资料库：王重光（CBDB 220262）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220262&o=json)
 - [中文维基百科：王象乾](https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%B1%A1%E4%B9%BE)
+- [CBDB 中国历代人物传记资料库：王麟（220261）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220261&o=json)
 - [CBDB 中国历代人物传记资料库：王象乾（65764）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=65764&o=json)

@@ -4,7 +4,7 @@ id: p_6LbpfJW9bcMf9hfDL3m9ms
 status: active
 merged_into: null
 display_name: 卓氏
-revision: 1
+revision: 2
 cbdb_id: 37668
 properties:
   - predicate: bio.summary

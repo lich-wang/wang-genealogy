@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_FEnWPueR4JdQ6oG85JsBb9
-status: active
-merged_into: null
+status: merged
+merged_into: p_2x1kEfTy9Rrf9vMAC4nm4e
 display_name: 孫氏
-revision: 1
+revision: 2
 cbdb_id: 45894
 properties:
   - predicate: bio.summary
@@ -77,33 +77,7 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses:
-    - claim:
-        id: c_uRgQki0YKD69hEz7785w3r
-        subject_person_id: p_qdfj8n9aJt992f6xYnsVk6
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_FEnWPueR4JdQ6oG85JsBb9
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_v3kQYKP7wdyUluPBMz0sa8
-          claim_id: c_uRgQki0YKD69hEz7785w3r
-          source_id: s_5WzXYgSEmu9NOwaeGTuDqD
-          stance: supports
-          locator: 宋人傳記資料索引(電子版)，1405;1406：妻子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_qdfj8n9aJt992f6xYnsVk6
-        status: active
-        display_name: 王之道
-        merged_into_person_id: null
+  spouses: []
   ancestors: []
   descendants: []
   other: []
@@ -124,7 +98,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| spouses | p_qdfj8n9aJt992f6xYnsVk6 | 王之道 | accepted |
 
 ## 外部来源
 

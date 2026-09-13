@@ -4,7 +4,7 @@ id: p_1x4VQAiYkuNn8gpLF4qLiZ
 status: active
 merged_into: null
 display_name: 王謨
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,7 @@ relationships:
         subject_person_id: p_1x4VQAiYkuNn8gpLF4qLiZ
         claim_kind: relationship
         predicate: kinship.father_of
-        object_person_id: p_tiptZjLSdHLsMK1CEEqc1u
+        object_person_id: p_Uu3urkECTiPumEtH6sBydY
         generation_count: null
         parent_role: father
         value_json: null
@@ -96,7 +96,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a1
       object_person:
-        id: p_tiptZjLSdHLsMK1CEEqc1u
+        id: p_Uu3urkECTiPumEtH6sBydY
         status: active
         display_name: 王邦瑞
         merged_into_person_id: null
@@ -123,7 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| children | p_tiptZjLSdHLsMK1CEEqc1u | 王邦瑞 | accepted |
+| children | p_Uu3urkECTiPumEtH6sBydY | 王邦瑞 | accepted |
 
 ## 外部来源
 

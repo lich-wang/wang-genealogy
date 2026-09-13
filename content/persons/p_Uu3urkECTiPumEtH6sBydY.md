@@ -4,7 +4,7 @@ id: p_Uu3urkECTiPumEtH6sBydY
 status: active
 merged_into: null
 display_name: 王邦瑞
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -224,6 +224,43 @@ relationships:
         status: active
         display_name: 王谟
         merged_into_person_id: null
+    - claim:
+        id: c_7Iv02TIzzUC1FfTkB0TTnx
+        subject_person_id: p_1x4VQAiYkuNn8gpLF4qLiZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Uu3urkECTiPumEtH6sBydY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3faNux_h-Rt7-BfP8j83Px
+          claim_id: c_7Iv02TIzzUC1FfTkB0TTnx
+          source_id: s_5rJTS5Q3CWPFSymLruJRRY
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第一百九十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5rJTS5Q3CWPFSymLruJRRY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王謨（CBDB 282595）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282595&o=json
+            external_identifier: CBDB:282595
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.099Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_1x4VQAiYkuNn8gpLF4qLiZ
+        status: active
+        display_name: 王謨
+        merged_into_person_id: null
   children:
     - claim:
         id: c_EWhysFK5odYAWw6MCkAAvs
@@ -379,7 +416,81 @@ relationships:
         status: active
         display_name: 冀氏
         merged_into_person_id: null
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_U7jlnMw2h3KpMb7K5TUF01
+        subject_person_id: p_maJdePo4uDP9CC2Adrq9Ld
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Uu3urkECTiPumEtH6sBydY
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q6PLa4aC1oBpYg1Rmm6AfK
+          claim_id: c_U7jlnMw2h3KpMb7K5TUF01
+          source_id: s_5KPYFRbULkbSJMvJ2XopFM
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第一百九十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5KPYFRbULkbSJMvJ2XopFM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王臣（CBDB 282594）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282594&o=json
+            external_identifier: CBDB:282594
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.099Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_maJdePo4uDP9CC2Adrq9Ld
+        status: active
+        display_name: 王臣
+        merged_into_person_id: null
+    - claim:
+        id: c_YCNkwDDFsk1KP0tNX8jYEV
+        subject_person_id: p_hhC7WcHCPL6E8fvMUH5DQ3
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Uu3urkECTiPumEtH6sBydY
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TAyF2D_SFIczsnwtbFUoIm
+          claim_id: c_YCNkwDDFsk1KP0tNX8jYEV
+          source_id: s_8cX77Uk8hKfz8zUMehuKPY
+          stance: supports
+          locator: 正德十二年進士登科錄:一卷，第三甲第一百九十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_8cX77Uk8hKfz8zUMehuKPY
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王璘（282593）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282593&o=json
+            external_identifier: CBDB:282593
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_hhC7WcHCPL6E8fvMUH5DQ3
+        status: active
+        display_name: 王璘
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -402,8 +513,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_fubDQJjS45y6q3DDqG3cmV | 王谟 | accepted |
+| parents | p_1x4VQAiYkuNn8gpLF4qLiZ | 王謨 | accepted |
 | children | p_KbE3VYwBQk3rLuTGnVB2me | 王正国 | accepted |
 | spouses | p_a8J62hxLLTLH3EGQFsXGiw | 冀氏 | accepted |
+| ancestors | p_maJdePo4uDP9CC2Adrq9Ld | 王臣 | accepted |
+| ancestors | p_hhC7WcHCPL6E8fvMUH5DQ3 | 王璘 | accepted |
 
 ## 外部来源
 
@@ -411,5 +525,8 @@ relationships:
 - [维基数据：王邦瑞（Q15909508）](https://www.wikidata.org/wiki/Q15909508)
 - [维基数据：王谟（Q45613879）](https://www.wikidata.org/wiki/Q45613879)
 - [维基数据：王正国（Q16906097）](https://www.wikidata.org/wiki/Q16906097)
+- [中国历代人物传记资料库：王臣（CBDB 282594）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282594&o=json)
+- [中国历代人物传记资料库：王謨（CBDB 282595）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282595&o=json)
 - [中文维基百科：王邦瑞](https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%82%A6%E7%91%9E)
 - [CBDB 中国历代人物传记资料库：王邦瑞（68262）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68262&o=json)
+- [CBDB 中国历代人物传记资料库：王璘（282593）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282593&o=json)

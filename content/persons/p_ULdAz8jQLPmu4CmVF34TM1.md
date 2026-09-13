@@ -4,7 +4,7 @@ id: p_ULdAz8jQLPmu4CmVF34TM1
 status: active
 merged_into: null
 display_name: 郭氏
-revision: 1
+revision: 2
 cbdb_id: 163699
 properties:
   - predicate: bio.summary

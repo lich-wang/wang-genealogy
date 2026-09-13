@@ -4,7 +4,7 @@ id: p_eJ5xPSqX9C5GQJFJ6vhqFc
 status: active
 merged_into: null
 display_name: 王洙
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:

@@ -4,7 +4,7 @@ id: p_4nKunucn4H8khSLWF8xZoJ
 status: active
 merged_into: null
 display_name: 韋府君
-revision: 1
+revision: 2
 cbdb_id: 163174
 properties:
   - predicate: bio.summary

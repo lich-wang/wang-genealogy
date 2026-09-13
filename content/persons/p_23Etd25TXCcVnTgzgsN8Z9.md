@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 石氏
 cbdb_id: 311231
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,32 +172,6 @@ relationships:
         status: active
         display_name: 王宗茂
         merged_into_person_id: null
-    - claim:
-        id: c_uwdjwufMVL6UnSuYb7aM4Y
-        subject_person_id: p_23Etd25TXCcVnTgzgsN8Z9
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_UZa7SsGRtxBt58y2K3aT16
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_YqezNeHhp8omKP2nUyiEf5
-          claim_id: c_uwdjwufMVL6UnSuYb7aM4Y
-          source_id: s_A7AdSTvuk8Yo6JW9QTS3s6
-          stance: supports
-          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第一百六十七名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_UZa7SsGRtxBt58y2K3aT16
-        status: active
-        display_name: 王宗茂
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -219,7 +193,6 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_5MNkBJnN6bmTG5ZPZ7LvWS | 王宗茂 | accepted |
-| spouses | p_UZa7SsGRtxBt58y2K3aT16 | 王宗茂 | accepted |
 
 ## 外部来源
 

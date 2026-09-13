@@ -4,7 +4,7 @@ id: p_qdfj8n9aJt992f6xYnsVk6
 status: active
 merged_into: null
 display_name: 王之道
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -196,43 +196,6 @@ relationships:
         status: active
         display_name: 孫氏
         merged_into_person_id: null
-    - claim:
-        id: c_uRgQki0YKD69hEz7785w3r
-        subject_person_id: p_qdfj8n9aJt992f6xYnsVk6
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_FEnWPueR4JdQ6oG85JsBb9
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_v3kQYKP7wdyUluPBMz0sa8
-          claim_id: c_uRgQki0YKD69hEz7785w3r
-          source_id: s_5WzXYgSEmu9NOwaeGTuDqD
-          stance: supports
-          locator: 宋人傳記資料索引(電子版)，1405;1406：妻子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_5WzXYgSEmu9NOwaeGTuDqD
-            source_type: api_record
-            title: 中国历代人物传记资料库：孫氏(王之道妻)（CBDB 45894）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=45894&o=json
-            external_identifier: CBDB:45894
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
-      object_person:
-        id: p_FEnWPueR4JdQ6oG85JsBb9
-        status: active
-        display_name: 孫氏
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -257,10 +220,8 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_XLkZGVxRBQSEaHVjzv1aDG | 王奇 | accepted |
 | spouses | p_2x1kEfTy9Rrf9vMAC4nm4e | 孫氏 | accepted |
-| spouses | p_FEnWPueR4JdQ6oG85JsBb9 | 孫氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：孫氏(王之道妻)（CBDB 36923）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36923&o=json)
-- [中国历代人物传记资料库：孫氏(王之道妻)（CBDB 45894）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=45894&o=json)
 - [中国历代人物传记资料库：王之道（CBDB 1786）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1786&o=json)

@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_WU89T3dCoRMDk6eTHgawKb
-status: active
-merged_into: null
+status: merged
+merged_into: p_Hy3oL9P7FfBor4frFk5Jm5
 display_name: 王拱辰
-revision: 5
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -128,128 +128,13 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents:
-    - claim:
-        id: c_U96dfAZ_m17I3PyyZQ9pf3
-        subject_person_id: p_H3E5VxBaQfqgvzveq3gJSK
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_WU89T3dCoRMDk6eTHgawKb
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_WBdPMA_OcM8taWEz-fW6BA
-          claim_id: c_U96dfAZ_m17I3PyyZQ9pf3
-          source_id: s_K58g1dFPD1BQpDPDwmjsyE
-          stance: supports
-          locator: 宋人傳記資料索引(電子版)，1779;1780：父
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_H3E5VxBaQfqgvzveq3gJSK
-        status: active
-        display_name: 王代恕
-        merged_into_person_id: null
+  parents: []
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses:
-    - claim:
-        id: c_Icsk86jYQ931rRDAmU4ugu
-        subject_person_id: p_WU89T3dCoRMDk6eTHgawKb
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_f323eQKL5YoD7qUUbCDtT7
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_mvbc3B68MoGhedzJ81kUw1
-          claim_id: c_Icsk86jYQ931rRDAmU4ugu
-          source_id: s_K58g1dFPD1BQpDPDwmjsyE
-          stance: supports
-          locator: 宋人傳記資料索引(電子版)，1779;1782：妻子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_f323eQKL5YoD7qUUbCDtT7
-        status: active
-        display_name: 薛氏
-        merged_into_person_id: null
-    - claim:
-        id: c_xRwOjO3vwyx_UAaZS8oKoL
-        subject_person_id: p_WU89T3dCoRMDk6eTHgawKb
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_MqmYrQwS5PiaGbgqSqmqwy
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_kiodmMEvKM1ntzZzytNgxp
-          claim_id: c_xRwOjO3vwyx_UAaZS8oKoL
-          source_id: s_5ZrLfDQ45Rusuy_eEdz802
-          stance: supports
-          locator: CBDB 双向互证（妻子 薛氏(王拱辰妻)）
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_5ZrLfDQ45Rusuy_eEdz802
-            source_type: api_record
-            title: 中国历代人物传记资料库：薛氏(王拱辰妻)（CBDB 37628）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37628&o=json
-            external_identifier: CBDB:37628
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
-      object_person:
-        id: p_MqmYrQwS5PiaGbgqSqmqwy
-        status: active
-        display_name: 薛氏
-        merged_into_person_id: null
+  spouses: []
   ancestors: []
-  descendants:
-    - claim:
-        id: c_alj7tdqgSkQ4fKgAv-gmFc
-        subject_person_id: p_WU89T3dCoRMDk6eTHgawKb
-        claim_kind: relationship
-        predicate: kinship.ancestor_of
-        object_person_id: p_3Ai1qkYjUBdtWJB4qPpmzV
-        generation_count: 3
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_34eFT1mxj2vOUP1fQlHAyW
-          claim_id: c_alj7tdqgSkQ4fKgAv-gmFc
-          source_id: s_K58g1dFPD1BQpDPDwmjsyE
-          stance: supports
-          locator: 宋人傳記資料索引(電子版)，939：曾孫; 重孫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_3Ai1qkYjUBdtWJB4qPpmzV
-        status: active
-        display_name: 王湘
-        merged_into_person_id: null
+  descendants: []
   other: []
 ---
 
@@ -270,12 +155,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_H3E5VxBaQfqgvzveq3gJSK | 王代恕 | accepted |
-| spouses | p_f323eQKL5YoD7qUUbCDtT7 | 薛氏 | accepted |
-| spouses | p_MqmYrQwS5PiaGbgqSqmqwy | 薛氏 | accepted |
-| descendants | p_3Ai1qkYjUBdtWJB4qPpmzV | 王湘 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王拱辰（CBDB 1847）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1847&o=json)
-- [中国历代人物传记资料库：薛氏(王拱辰妻)（CBDB 37628）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37628&o=json)

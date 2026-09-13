@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_MQQyuFRHwHza48Rxy8cmUZ
-status: active
-merged_into: null
+status: merged
+merged_into: p_2XaF6KrMwGSDeaU76DAGrz
 display_name: 王重光
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -128,160 +128,12 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents:
-    - claim:
-        id: c_hDoiPfn4Jyme0wT4rZ8vh1
-        subject_person_id: p_HsZLwARimgLZK7ZmEpSEFy
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_MQQyuFRHwHza48Rxy8cmUZ
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_BiukDAx8a3qCf6SYkG43_k
-          claim_id: c_hDoiPfn4Jyme0wT4rZ8vh1
-          source_id: s_ydEZ6b84QcVDHVMxRwv2Xp
-          stance: supports
-          locator: 嘉靖二十年進士登科錄:一卷，第二甲第四十九名：子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_ydEZ6b84QcVDHVMxRwv2Xp
-            source_type: api_record
-            title: 中国历代人物传记资料库：王麟（CBDB 302568）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302568&o=json
-            external_identifier: CBDB:302568
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-09T00:03:19.652Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
-      object_person:
-        id: p_HsZLwARimgLZK7ZmEpSEFy
-        status: active
-        display_name: 王麟
-        merged_into_person_id: null
+  parents: []
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses:
-    - claim:
-        id: c_4PHQ1NSxtxLCBuBa4vgLhj
-        subject_person_id: p_WaKa6JHUL1dsMJ9AnNt9VH
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_MQQyuFRHwHza48Rxy8cmUZ
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_3VRLpbPTG09qOLLw8MpSUk
-          claim_id: c_4PHQ1NSxtxLCBuBa4vgLhj
-          source_id: s_RnvspjNKb1hfE2okJ5fn4P
-          stance: supports
-          locator: 嘉靖二十年進士登科錄:一卷，第二甲第四十九名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_RnvspjNKb1hfE2okJ5fn4P
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：劉氏（302574）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302574&o=json
-            external_identifier: CBDB:302574
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:00:04.733Z
-            metadata_json: null
-      object_person:
-        id: p_WaKa6JHUL1dsMJ9AnNt9VH
-        status: active
-        display_name: 刘氏
-        merged_into_person_id: null
-  ancestors:
-    - claim:
-        id: c__CaclHSql_OfByQExdf2p2
-        subject_person_id: p_rj597A434g3oGr3CMXf786
-        claim_kind: relationship
-        predicate: kinship.ancestor_of
-        object_person_id: p_MQQyuFRHwHza48Rxy8cmUZ
-        generation_count: 2
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_mdS8bHeknsJ1xgQzRdWnm9
-          claim_id: c__CaclHSql_OfByQExdf2p2
-          source_id: s_RjgKeCqHcGF2Gi7ZP6P4ho
-          stance: supports
-          locator: 嘉靖二十年進士登科錄:一卷，第二甲第四十九名：孫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_RjgKeCqHcGF2Gi7ZP6P4ho
-            source_type: api_record
-            title: 中国历代人物传记资料库：王伍（CBDB 302567）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302567&o=json
-            external_identifier: CBDB:302567
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-09T00:03:19.651Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
-      object_person:
-        id: p_rj597A434g3oGr3CMXf786
-        status: active
-        display_name: 王伍
-        merged_into_person_id: null
-    - claim:
-        id: c__X5KIwEdKwgAD0jvIkkktG
-        subject_person_id: p_VTPD5ERN4nKpvDScS6wxja
-        claim_kind: relationship
-        predicate: kinship.ancestor_of
-        object_person_id: p_MQQyuFRHwHza48Rxy8cmUZ
-        generation_count: 3
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_tqaNPZKAO3uEO110zAJl07
-          claim_id: c__X5KIwEdKwgAD0jvIkkktG
-          source_id: s_NsH2JrA7zFChzTypXUmby7
-          stance: supports
-          locator: 嘉靖二十年進士登科錄:一卷，第二甲第四十九名：曾孫; 重孫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_NsH2JrA7zFChzTypXUmby7
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王貴（302566）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302566&o=json
-            external_identifier: CBDB:302566
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
-      object_person:
-        id: p_VTPD5ERN4nKpvDScS6wxja
-        status: active
-        display_name: 王贵
-        merged_into_person_id: null
+  spouses: []
+  ancestors: []
   descendants: []
   other: []
 ---
@@ -303,15 +155,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_HsZLwARimgLZK7ZmEpSEFy | 王麟 | accepted |
-| spouses | p_WaKa6JHUL1dsMJ9AnNt9VH | 刘氏 | accepted |
-| ancestors | p_rj597A434g3oGr3CMXf786 | 王伍 | accepted |
-| ancestors | p_VTPD5ERN4nKpvDScS6wxja | 王贵 | accepted |
 
 ## 外部来源
 
-- [中国历代人物传记资料库：王麟（CBDB 302568）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302568&o=json)
-- [中国历代人物传记资料库：王伍（CBDB 302567）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302567&o=json)
 - [中国历代人物传记资料库：王重光（CBDB 126622）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126622&o=json)
-- [CBDB 中国历代人物传记资料库：劉氏（302574）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302574&o=json)
-- [CBDB 中国历代人物传记资料库：王貴（302566）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302566&o=json)

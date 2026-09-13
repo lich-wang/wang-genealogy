@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王贵
 cbdb_id: 302566
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -158,7 +158,7 @@ relationships:
         subject_person_id: p_VTPD5ERN4nKpvDScS6wxja
         claim_kind: relationship
         predicate: kinship.ancestor_of
-        object_person_id: p_MQQyuFRHwHza48Rxy8cmUZ
+        object_person_id: p_2XaF6KrMwGSDeaU76DAGrz
         generation_count: 3
         parent_role: null
         value_json: null
@@ -175,7 +175,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a2
       object_person:
-        id: p_MQQyuFRHwHza48Rxy8cmUZ
+        id: p_2XaF6KrMwGSDeaU76DAGrz
         status: active
         display_name: 王重光
         merged_into_person_id: null
@@ -198,7 +198,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_XwKHLH17io2m6CKt414qzT | 王伍 | accepted |
-| descendants | p_MQQyuFRHwHza48Rxy8cmUZ | 王重光 | accepted |
+| descendants | p_2XaF6KrMwGSDeaU76DAGrz | 王重光 | accepted |
 
 ## 外部来源
 

@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_MqmYrQwS5PiaGbgqSqmqwy
-status: active
-merged_into: null
+status: merged
+merged_into: p_f323eQKL5YoD7qUUbCDtT7
 display_name: 薛氏
-revision: 1
+revision: 2
 cbdb_id: 37628
 properties:
   - predicate: bio.summary
@@ -77,33 +77,7 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses:
-    - claim:
-        id: c_xRwOjO3vwyx_UAaZS8oKoL
-        subject_person_id: p_WU89T3dCoRMDk6eTHgawKb
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_MqmYrQwS5PiaGbgqSqmqwy
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_kiodmMEvKM1ntzZzytNgxp
-          claim_id: c_xRwOjO3vwyx_UAaZS8oKoL
-          source_id: s_5ZrLfDQ45Rusuy_eEdz802
-          stance: supports
-          locator: CBDB 双向互证（妻子 薛氏(王拱辰妻)）
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_WU89T3dCoRMDk6eTHgawKb
-        status: active
-        display_name: 王拱辰
-        merged_into_person_id: null
+  spouses: []
   ancestors: []
   descendants: []
   other: []
@@ -124,7 +98,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| spouses | p_WU89T3dCoRMDk6eTHgawKb | 王拱辰 | accepted |
 
 ## 外部来源
 

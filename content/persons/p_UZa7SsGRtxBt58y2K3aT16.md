@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_UZa7SsGRtxBt58y2K3aT16
-status: active
-merged_into: null
+status: merged
+merged_into: p_5MNkBJnN6bmTG5ZPZ7LvWS
 display_name: 王宗茂
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -128,160 +128,12 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents:
-    - claim:
-        id: c_fjCOoMAprIstb0zuneWS2E
-        subject_person_id: p_qaTudBQjqzBHb8gcyj7pGE
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_UZa7SsGRtxBt58y2K3aT16
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_VQF6OdvTgfOvf0r_celxWy
-          claim_id: c_fjCOoMAprIstb0zuneWS2E
-          source_id: s_WcDL1WukU8epB8L7NQ8iLe
-          stance: supports
-          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第一百六十七名：子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_WcDL1WukU8epB8L7NQ8iLe
-            source_type: api_record
-            title: 中国历代人物传记资料库：王橋（CBDB 311228）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311228&o=json
-            external_identifier: CBDB:311228
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-09T00:03:19.854Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
-      object_person:
-        id: p_qaTudBQjqzBHb8gcyj7pGE
-        status: active
-        display_name: 王橋
-        merged_into_person_id: null
+  parents: []
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses:
-    - claim:
-        id: c_uwdjwufMVL6UnSuYb7aM4Y
-        subject_person_id: p_23Etd25TXCcVnTgzgsN8Z9
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_UZa7SsGRtxBt58y2K3aT16
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_YqezNeHhp8omKP2nUyiEf5
-          claim_id: c_uwdjwufMVL6UnSuYb7aM4Y
-          source_id: s_A7AdSTvuk8Yo6JW9QTS3s6
-          stance: supports
-          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第一百六十七名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_A7AdSTvuk8Yo6JW9QTS3s6
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：石氏（311231）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311231&o=json
-            external_identifier: CBDB:311231
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T01:59:43.267Z
-            metadata_json: null
-      object_person:
-        id: p_23Etd25TXCcVnTgzgsN8Z9
-        status: active
-        display_name: 石氏
-        merged_into_person_id: null
-  ancestors:
-    - claim:
-        id: c_4El0qWGdKymuJGrKPRTZe1
-        subject_person_id: p_3LRj5EkYSjQMyam6XvjeR8
-        claim_kind: relationship
-        predicate: kinship.ancestor_of
-        object_person_id: p_UZa7SsGRtxBt58y2K3aT16
-        generation_count: 3
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_J72ODo2Tnd-X8e99xyVBnr
-          claim_id: c_4El0qWGdKymuJGrKPRTZe1
-          source_id: s_tD8qmCD6x3S1FfsSBb7NAE
-          stance: supports
-          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第一百六十七名：曾孫; 重孫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_tD8qmCD6x3S1FfsSBb7NAE
-            source_type: api_record
-            title: 中国历代人物传记资料库：王易（CBDB 311226）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311226&o=json
-            external_identifier: CBDB:311226
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-09T00:03:19.853Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
-      object_person:
-        id: p_3LRj5EkYSjQMyam6XvjeR8
-        status: active
-        display_name: 王易
-        merged_into_person_id: null
-    - claim:
-        id: c_cTHp-mq-DIZr9G6_Qfn-Jl
-        subject_person_id: p_RobundHCGLnqmnT1fWZW6M
-        claim_kind: relationship
-        predicate: kinship.ancestor_of
-        object_person_id: p_UZa7SsGRtxBt58y2K3aT16
-        generation_count: 2
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_XAZajZ1LJkTitzLz6kUUHx
-          claim_id: c_cTHp-mq-DIZr9G6_Qfn-Jl
-          source_id: s_WYEH1i8wcy7H91mQyB3qLj
-          stance: supports
-          locator: 嘉靖二十六年進士登科錄:一卷，第三甲第一百六十七名：孫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_WYEH1i8wcy7H91mQyB3qLj
-            source_type: api_record
-            title: 中国历代人物传记资料库：王大韶（CBDB 311227）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311227&o=json
-            external_identifier: CBDB:311227
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-09T00:03:19.853Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
-      object_person:
-        id: p_RobundHCGLnqmnT1fWZW6M
-        status: active
-        display_name: 王大韶
-        merged_into_person_id: null
+  spouses: []
+  ancestors: []
   descendants: []
   other: []
 ---
@@ -303,15 +155,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_qaTudBQjqzBHb8gcyj7pGE | 王橋 | accepted |
-| spouses | p_23Etd25TXCcVnTgzgsN8Z9 | 石氏 | accepted |
-| ancestors | p_3LRj5EkYSjQMyam6XvjeR8 | 王易 | accepted |
-| ancestors | p_RobundHCGLnqmnT1fWZW6M | 王大韶 | accepted |
 
 ## 外部来源
 
-- [中国历代人物传记资料库：王大韶（CBDB 311227）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311227&o=json)
-- [中国历代人物传记资料库：王橋（CBDB 311228）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311228&o=json)
-- [中国历代人物传记资料库：王易（CBDB 311226）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311226&o=json)
 - [中国历代人物传记资料库：王宗茂（CBDB 68496）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68496&o=json)
-- [CBDB 中国历代人物传记资料库：石氏（311231）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311231&o=json)

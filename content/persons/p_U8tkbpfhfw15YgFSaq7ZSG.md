@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_U8tkbpfhfw15YgFSaq7ZSG
-status: active
-merged_into: null
+status: merged
+merged_into: p_hEEpn7U7EKTTeFP3ixWWbm
 display_name: 王禔
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -76,44 +76,7 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses:
-    - claim:
-        id: c_RVbq2zcx5gDp2LCO30A_2-
-        subject_person_id: p_WYN9msC554wb8dtjBJ3Ga4
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_U8tkbpfhfw15YgFSaq7ZSG
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_yo0e5gaJGJzE0Samz84vI3
-          claim_id: c_RVbq2zcx5gDp2LCO30A_2-
-          source_id: s_ATTtADGT3pRCt1mbAJ8kNB
-          stance: supports
-          locator: 宋人傳記資料索引(電子版)：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_ATTtADGT3pRCt1mbAJ8kNB
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：張氏（38576）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38576&o=json
-            external_identifier: CBDB:38576
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:06:17.511Z
-            metadata_json: null
-      object_person:
-        id: p_WYN9msC554wb8dtjBJ3Ga4
-        status: active
-        display_name: 张氏
-        merged_into_person_id: null
+  spouses: []
   ancestors: []
   descendants: []
   other: []
@@ -134,9 +97,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| spouses | p_WYN9msC554wb8dtjBJ3Ga4 | 张氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王禔（CBDB 17426）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17426&o=json)
-- [CBDB 中国历代人物传记资料库：張氏（38576）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38576&o=json)

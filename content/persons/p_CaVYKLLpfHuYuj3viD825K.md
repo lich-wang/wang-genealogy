@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_CaVYKLLpfHuYuj3viD825K
-status: active
-merged_into: null
+status: merged
+merged_into: p_svNoVTBbnvNZLtqQbge32p
 display_name: 王氏
-revision: 1
+revision: 2
 cbdb_id: 41576
 properties:
   - predicate: bio.summary
@@ -77,33 +77,7 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses:
-    - claim:
-        id: c_r3SLTE5u7hTngNETYqif3o
-        subject_person_id: p_JnkpTWbJcvJCtHDJoXUsKb
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_CaVYKLLpfHuYuj3viD825K
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_yzSj5xWR3MfSJdPqHSRFTf
-          claim_id: c_r3SLTE5u7hTngNETYqif3o
-          source_id: s_fI2YwpIxtnTgeUKCKwlXiM
-          stance: supports
-          locator: 宋人傳記資料索引(電子版)，6317;6318：妻子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_JnkpTWbJcvJCtHDJoXUsKb
-        status: active
-        display_name: 吴安持
-        merged_into_person_id: null
+  spouses: []
   ancestors: []
   descendants: []
   other: []
@@ -124,7 +98,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| spouses | p_JnkpTWbJcvJCtHDJoXUsKb | 吴安持 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_ma56j3xFL2iP3FzuSAfpHk
 status: active
 merged_into: null
 display_name: 王政君
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:

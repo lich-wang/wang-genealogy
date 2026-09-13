@@ -4,7 +4,7 @@ id: p_NuT9NrbF95GBrUJnPKKH1H
 status: active
 merged_into: null
 display_name: 王銳
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,7 @@ relationships:
         subject_person_id: p_NuT9NrbF95GBrUJnPKKH1H
         claim_kind: relationship
         predicate: kinship.father_of
-        object_person_id: p_H3E5VxBaQfqgvzveq3gJSK
+        object_person_id: p_a9s6qMS7fehs4Q1KsCtRbY
         generation_count: null
         parent_role: father
         value_json: null
@@ -133,7 +133,7 @@ relationships:
             metadata_json:
               source_release: CBDB 2026-09-05
       object_person:
-        id: p_H3E5VxBaQfqgvzveq3gJSK
+        id: p_a9s6qMS7fehs4Q1KsCtRbY
         status: active
         display_name: 王代恕
         merged_into_person_id: null
@@ -161,7 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_qM3x6kx3VpqHy4njLErPrG | 王祚 | accepted |
-| children | p_H3E5VxBaQfqgvzveq3gJSK | 王代恕 | accepted |
+| children | p_a9s6qMS7fehs4Q1KsCtRbY | 王代恕 | accepted |
 
 ## 外部来源
 

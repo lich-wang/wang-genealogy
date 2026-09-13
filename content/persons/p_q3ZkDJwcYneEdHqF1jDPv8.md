@@ -4,7 +4,7 @@ id: p_q3ZkDJwcYneEdHqF1jDPv8
 status: active
 merged_into: null
 display_name: 王洋
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:

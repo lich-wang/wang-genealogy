@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_fGrZaFxBB3nnx1rYYKLtZE
-status: active
-merged_into: null
+status: merged
+merged_into: p_5yFg7DjLcFzFQKDBRDnwdx
 display_name: 王之垣
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -73,33 +73,7 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children:
-    - claim:
-        id: c_dFHk5UMzKDOWwYzZswXZ_V
-        subject_person_id: p_fGrZaFxBB3nnx1rYYKLtZE
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_F188zxtPQfzqFJEz9WJ3M7
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_oA4_jRBupurZoSkNoEaptS
-          claim_id: c_dFHk5UMzKDOWwYzZswXZ_V
-          source_id: s_mmcgLQPmy3Q4M5xVZEb4UB
-          stance: supports
-          locator: 隆慶五年進士登科錄:一卷，第三甲第二百三十二名：子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_F188zxtPQfzqFJEz9WJ3M7
-        status: active
-        display_name: 王象乾
-        merged_into_person_id: null
+  children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -123,7 +97,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| children | p_F188zxtPQfzqFJEz9WJ3M7 | 王象乾 | accepted |
 
 ## 外部来源
 

@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_ZJx55htsCzvqQx9NKbdtiR
-status: active
-merged_into: null
+status: merged
+merged_into: p_ULdAz8jQLPmu4CmVF34TM1
 display_name: 郭氏
-revision: 1
+revision: 2
 cbdb_id: 163700
 properties:
   - predicate: bio.summary
@@ -77,33 +77,7 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses:
-    - claim:
-        id: c_qbTqCWYQl4b4aaI4x_CZ3A
-        subject_person_id: p_cb2pzan14ZR1ECvrVUNese
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_ZJx55htsCzvqQx9NKbdtiR
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_lX1yaoMObM11tmqwrTjVgy
-          claim_id: c_qbTqCWYQl4b4aaI4x_CZ3A
-          source_id: s_GFw5cd_ATfUq0-2ddxyqns
-          stance: supports
-          locator: 唐代墓誌彙編續集，(XJ)Kaiyuan6：妻子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_cb2pzan14ZR1ECvrVUNese
-        status: active
-        display_name: 王胡
-        merged_into_person_id: null
+  spouses: []
   ancestors: []
   descendants: []
   other: []
@@ -124,7 +98,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| spouses | p_cb2pzan14ZR1ECvrVUNese | 王胡 | accepted |
 
 ## 外部来源
 

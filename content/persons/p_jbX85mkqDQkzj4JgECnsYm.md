@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_jbX85mkqDQkzj4JgECnsYm
-status: active
-merged_into: null
+status: merged
+merged_into: p_ma56j3xFL2iP3FzuSAfpHk
 display_name: 王政君
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -76,33 +76,7 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses:
-    - claim:
-        id: c_DP6Tflyz8gGnuR9j6y7ytY
-        subject_person_id: p_jbX85mkqDQkzj4JgECnsYm
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_uKaMLxEP9pJu7gJCicb8eT
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_v9DeTv3R7IOcJCfWeP_Ioz
-          claim_id: c_DP6Tflyz8gGnuR9j6y7ytY
-          source_id: s_UjpzJUQKYhB1TnDbKQPBN3
-          stance: supports
-          locator: "明清婦女著作數據庫，MQWW PoetID #2700：丈夫"
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_uKaMLxEP9pJu7gJCicb8eT
-        status: active
-        display_name: 劉奭
-        merged_into_person_id: null
+  spouses: []
   ancestors: []
   descendants: []
   other: []
@@ -123,7 +97,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| spouses | p_uKaMLxEP9pJu7gJCicb8eT | 劉奭 | accepted |
 
 ## 外部来源
 

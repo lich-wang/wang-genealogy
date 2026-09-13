@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 孟氏
 cbdb_id: 211358
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,32 +172,6 @@ relationships:
         status: active
         display_name: 王象乾
         merged_into_person_id: null
-    - claim:
-        id: c_E9h11jIIj94QKTU4AkgXrb
-        subject_person_id: p_a5vJPZn1znnbX98EG3cueA
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_F188zxtPQfzqFJEz9WJ3M7
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_SpoJRr3R4xuwEE4In4n1qx
-          claim_id: c_E9h11jIIj94QKTU4AkgXrb
-          source_id: s_GaxDV9z9Ec1yBmMTLzgF4i
-          stance: supports
-          locator: 隆慶五年進士登科錄:一卷，第三甲第二百三十二名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_F188zxtPQfzqFJEz9WJ3M7
-        status: active
-        display_name: 王象乾
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -219,7 +193,6 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_mNbLtBp7NLKek2NHmVT5fp | 王象乾 | accepted |
-| spouses | p_F188zxtPQfzqFJEz9WJ3M7 | 王象乾 | accepted |
 
 ## 外部来源
 

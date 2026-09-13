@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王禔
 cbdb_id: 20093
-revision: 6
+revision: 7
 properties:
   - predicate: bio.summary
     recommended:

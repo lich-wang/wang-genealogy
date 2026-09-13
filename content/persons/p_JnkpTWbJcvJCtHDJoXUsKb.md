@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 吴安持
 cbdb_id: 1957
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -191,43 +191,6 @@ relationships:
         status: active
         display_name: 王氏
         merged_into_person_id: null
-    - claim:
-        id: c_r3SLTE5u7hTngNETYqif3o
-        subject_person_id: p_JnkpTWbJcvJCtHDJoXUsKb
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_CaVYKLLpfHuYuj3viD825K
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_yzSj5xWR3MfSJdPqHSRFTf
-          claim_id: c_r3SLTE5u7hTngNETYqif3o
-          source_id: s_fI2YwpIxtnTgeUKCKwlXiM
-          stance: supports
-          locator: 宋人傳記資料索引(電子版)，6317;6318：妻子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_fI2YwpIxtnTgeUKCKwlXiM
-            source_type: api_record
-            title: 中国历代人物传记资料库：王氏(吳安持妻)（CBDB 41576）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=41576&o=json
-            external_identifier: CBDB:41576
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-11T06:08:33.163Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
-      object_person:
-        id: p_CaVYKLLpfHuYuj3viD825K
-        status: active
-        display_name: 王氏
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -249,11 +212,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_svNoVTBbnvNZLtqQbge32p | 王氏 | accepted |
-| spouses | p_CaVYKLLpfHuYuj3viD825K | 王氏 | accepted |
 
 ## 外部来源
 
 - [维基数据：吴安持（Q45359877）](https://www.wikidata.org/wiki/Q45359877)
 - [維基數據：王氏（Q45431126）](https://www.wikidata.org/wiki/Q45431126)
-- [中国历代人物传记资料库：王氏(吳安持妻)（CBDB 41576）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=41576&o=json)
+- [CBDB 中国历代人物传记资料库：王氏（41576）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=41576&o=json)
 - [CBDB 中国历代人物传记资料库：吳安持（1957）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1957&o=json)

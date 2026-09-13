@@ -4,7 +4,7 @@ id: p_FPPus9AT8wmb1wjQX27Ny9
 status: active
 merged_into: null
 display_name: 王伍
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -84,7 +84,7 @@ relationships:
         subject_person_id: p_FPPus9AT8wmb1wjQX27Ny9
         claim_kind: relationship
         predicate: kinship.ancestor_of
-        object_person_id: p_esnkJduB5GpM6eiD8Nh16h
+        object_person_id: p_5yFg7DjLcFzFQKDBRDnwdx
         generation_count: 3
         parent_role: null
         value_json: null
@@ -101,7 +101,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a1
       object_person:
-        id: p_esnkJduB5GpM6eiD8Nh16h
+        id: p_5yFg7DjLcFzFQKDBRDnwdx
         status: active
         display_name: 王之垣
         merged_into_person_id: null
@@ -123,7 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| descendants | p_esnkJduB5GpM6eiD8Nh16h | 王之垣 | accepted |
+| descendants | p_5yFg7DjLcFzFQKDBRDnwdx | 王之垣 | accepted |
 
 ## 外部来源
 

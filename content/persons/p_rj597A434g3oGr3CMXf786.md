@@ -4,7 +4,7 @@ id: p_rj597A434g3oGr3CMXf786
 status: active
 merged_into: null
 display_name: 王伍
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -84,7 +84,7 @@ relationships:
         subject_person_id: p_rj597A434g3oGr3CMXf786
         claim_kind: relationship
         predicate: kinship.ancestor_of
-        object_person_id: p_MQQyuFRHwHza48Rxy8cmUZ
+        object_person_id: p_2XaF6KrMwGSDeaU76DAGrz
         generation_count: 2
         parent_role: null
         value_json: null
@@ -101,7 +101,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a1
       object_person:
-        id: p_MQQyuFRHwHza48Rxy8cmUZ
+        id: p_2XaF6KrMwGSDeaU76DAGrz
         status: active
         display_name: 王重光
         merged_into_person_id: null
@@ -123,7 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| descendants | p_MQQyuFRHwHza48Rxy8cmUZ | 王重光 | accepted |
+| descendants | p_2XaF6KrMwGSDeaU76DAGrz | 王重光 | accepted |
 
 ## 外部来源
 

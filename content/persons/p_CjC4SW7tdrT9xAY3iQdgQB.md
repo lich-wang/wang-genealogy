@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_CjC4SW7tdrT9xAY3iQdgQB
-status: active
-merged_into: null
+status: merged
+merged_into: p_6LbpfJW9bcMf9hfDL3m9ms
 display_name: 卓氏
-revision: 1
+revision: 2
 cbdb_id: 45902
 properties:
   - predicate: bio.summary
@@ -77,33 +77,7 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses:
-    - claim:
-        id: c_iHgLwnCzxPkdAdKk9fHjMx
-        subject_person_id: p_JuL6KRGBPAuJfLJFh7jYmC
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_CjC4SW7tdrT9xAY3iQdgQB
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_uJyEy2YCiw-179CG8Jp_6k
-          claim_id: c_iHgLwnCzxPkdAdKk9fHjMx
-          source_id: s_Phn90jYw3R4mE-OQdtp_vs
-          stance: supports
-          locator: 宋人傳記資料索引(電子版)，1695;1696：妻子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_JuL6KRGBPAuJfLJFh7jYmC
-        status: active
-        display_name: 王居仁
-        merged_into_person_id: null
+  spouses: []
   ancestors: []
   descendants: []
   other: []
@@ -124,7 +98,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| spouses | p_JuL6KRGBPAuJfLJFh7jYmC | 王居仁 | accepted |
 
 ## 外部来源
 

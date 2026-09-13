@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王湘
 cbdb_id: 22015
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -228,7 +228,7 @@ relationships:
   ancestors:
     - claim:
         id: c_alj7tdqgSkQ4fKgAv-gmFc
-        subject_person_id: p_WU89T3dCoRMDk6eTHgawKb
+        subject_person_id: p_Hy3oL9P7FfBor4frFk5Jm5
         claim_kind: relationship
         predicate: kinship.ancestor_of
         object_person_id: p_3Ai1qkYjUBdtWJB4qPpmzV
@@ -259,7 +259,7 @@ relationships:
             metadata_json:
               source_release: CBDB 2026-09-05
       object_person:
-        id: p_WU89T3dCoRMDk6eTHgawKb
+        id: p_Hy3oL9P7FfBor4frFk5Jm5
         status: active
         display_name: 王拱辰
         merged_into_person_id: null
@@ -285,7 +285,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_t4r6xJhA7S53USBaqKsA6D | 王敏文 | accepted |
-| ancestors | p_WU89T3dCoRMDk6eTHgawKb | 王拱辰 | accepted |
+| ancestors | p_Hy3oL9P7FfBor4frFk5Jm5 | 王拱辰 | accepted |
 
 ## 外部来源
 

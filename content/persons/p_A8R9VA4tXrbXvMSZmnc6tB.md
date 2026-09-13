@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_A8R9VA4tXrbXvMSZmnc6tB
-status: active
-merged_into: null
+status: merged
+merged_into: p_4nKunucn4H8khSLWF8xZoJ
 display_name: 韋府君
-revision: 1
+revision: 2
 cbdb_id: 162756
 properties:
   - predicate: bio.summary
@@ -77,33 +77,7 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses:
-    - claim:
-        id: c_DMUzs8TZT_NCNMNZTh-Bsm
-        subject_person_id: p_6YpXxeKRMWr6vVrAX9K1Tv
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_A8R9VA4tXrbXvMSZmnc6tB
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_334Pr9GkD6e4RSzYwfK4CG
-          claim_id: c_DMUzs8TZT_NCNMNZTh-Bsm
-          source_id: s_Gb5wsykvn68ckChrtv0pkC
-          stance: supports
-          locator: 唐代墓誌彙編續集，(XJ)Yongchun3：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_6YpXxeKRMWr6vVrAX9K1Tv
-        status: active
-        display_name: 王婉
-        merged_into_person_id: null
+  spouses: []
   ancestors: []
   descendants: []
   other: []
@@ -124,7 +98,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| spouses | p_6YpXxeKRMWr6vVrAX9K1Tv | 王婉 | accepted |
 
 ## 外部来源
 

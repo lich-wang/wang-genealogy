@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_34Pm5kyXJob8i5wZAh622B
-status: active
-merged_into: null
+status: merged
+merged_into: p_q3ZkDJwcYneEdHqF1jDPv8
 display_name: 王洋
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -132,44 +132,7 @@ relationships:
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses:
-    - claim:
-        id: c_BEiT8gKNqTCb26nXX0Z1x2
-        subject_person_id: p_4i3jHPAhfhAhxjuPATCoyQ
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_34Pm5kyXJob8i5wZAh622B
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_-efwkhsxjEZXkwAOxqEQkS
-          claim_id: c_BEiT8gKNqTCb26nXX0Z1x2
-          source_id: s_oVAzmPBkyJYTr557Ng41iJ
-          stance: supports
-          locator: CBDB 双向互证（丈夫 王洋 ⇄ 妻子 李珏）
-          quotation: null
-          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
-          source:
-            id: s_oVAzmPBkyJYTr557Ng41iJ
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：李珏（5236）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5236&o=json
-            external_identifier: CBDB:5236
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:00:17.740Z
-            metadata_json: null
-      object_person:
-        id: p_4i3jHPAhfhAhxjuPATCoyQ
-        status: active
-        display_name: 李珏
-        merged_into_person_id: null
+  spouses: []
   ancestors: []
   descendants: []
   other: []
@@ -192,9 +155,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| spouses | p_4i3jHPAhfhAhxjuPATCoyQ | 李珏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王洋（CBDB 15443）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=15443&o=json)
-- [CBDB 中国历代人物传记资料库：李珏（5236）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5236&o=json)
