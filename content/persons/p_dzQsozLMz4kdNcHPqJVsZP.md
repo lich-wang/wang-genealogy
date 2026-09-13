@@ -4,7 +4,7 @@ id: p_dzQsozLMz4kdNcHPqJVsZP
 status: active
 merged_into: null
 display_name: 王旦
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -203,6 +203,43 @@ relationships:
         id: p_VX8j1TBEJ9LitV97mrstMS
         status: active
         display_name: 王素
+        merged_into_person_id: null
+    - claim:
+        id: c_82IodU4KWAqpxdHLp5Q2Px
+        subject_person_id: p_dzQsozLMz4kdNcHPqJVsZP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dYvHHiu3FBujjP1HrpE6gG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fgczewv78bUrDOYpCSWrKu
+          claim_id: c_82IodU4KWAqpxdHLp5Q2Px
+          source_id: s_8i3-E7MR7jbmL6AbT6bnXS
+          stance: supports
+          locator: 宋史·卷二百八十二·王旦：三子：雍，冲，素。
+          quotation: null
+          interpretation_note: 依据《宋史·王旦传》；CBDB 17840 亦记父王旦。
+          source:
+            id: s_8i3-E7MR7jbmL6AbT6bnXS
+            source_type: website
+            title: 维基文库：宋史·卷二百八十二·王旦
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/宋史/卷282
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-13T11:39:35.127Z
+            metadata_json: null
+      object_person:
+        id: p_dYvHHiu3FBujjP1HrpE6gG
+        status: active
+        display_name: 王冲
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
@@ -415,6 +452,7 @@ relationships:
 | parents | p_wEqsogkdLBrdte1KEpUFVQ | 王祐 | accepted |
 | children | p_WE1MjHX5dTWFtBPANaJMmP | 王雍 | accepted |
 | children | p_VX8j1TBEJ9LitV97mrstMS | 王素 | accepted |
+| children | p_dYvHHiu3FBujjP1HrpE6gG | 王冲 | accepted |
 | ancestors | p_aeQuz9T27oQ8FHTk36tCX7 | 王徹 | accepted |
 | ancestors | p_GNHXsNxDAH8x9cA2NzPigP | 王言 | accepted |
 | descendants | p_XJ584hRRgmwC1emz21vE1F | 王鞏 | accepted |
