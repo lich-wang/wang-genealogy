@@ -4,7 +4,7 @@ id: p_vxG12H9PgmJDThFhescZgi
 status: active
 merged_into: null
 display_name: 王曠
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_FIN1bj_vtPKsLh2tTwnh5e
+        subject_person_id: p_vxG12H9PgmJDThFhescZgi
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VCkK1jW79rQ6D9gE1Q4vrU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__re8axZvISEv5HGdn_RZkE
+          claim_id: c_FIN1bj_vtPKsLh2tTwnh5e
+          source_id: s_3X9-Y9RMVHu5yqbvwZB62D
+          stance: supports
+          locator: 晋书·卷八十·王羲之传：父曠，淮南太守。
+          quotation: null
+          interpretation_note: 依据《晋书·王羲之传》正史原文复核补充。
+          source:
+            id: s_3X9-Y9RMVHu5yqbvwZB62D
+            source_type: website
+            title: 维基文库：晋书·卷八十·王羲之
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/晉書/卷080
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-13T11:16:42.454Z
+            metadata_json: null
+      object_person:
+        id: p_VCkK1jW79rQ6D9gE1Q4vrU
+        status: active
+        display_name: 王羲之
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_VCkK1jW79rQ6D9gE1Q4vrU | 王羲之 | accepted |
 
 ## 外部来源
 
+- [维基文库：晋书·卷八十·王羲之](https://zh.wikisource.org/wiki/晉書/卷080)
 - [中国历代人物传记资料库：王曠（CBDB 25792）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25792&o=json)
