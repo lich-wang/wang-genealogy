@@ -37,6 +37,7 @@ npm run dev:contribution # GitHub OAuth / PR Worker
 
 ## 部署
 
+- 生产站点：https://history.wang
 - 源码：GitHub
 - 前端：Cloudflare Pages
 - 数据与版本：Git 仓库中的人物 Markdown
@@ -57,7 +58,7 @@ npm run dev:contribution # GitHub OAuth / PR Worker
 
 ## 尚未确定
 
-- 正式项目名称与域名
+- 正式项目名称
 - 代码许可证
 - 用户投稿数据许可证
 - 管理员、维护者和普通贡献者的最终权限边界

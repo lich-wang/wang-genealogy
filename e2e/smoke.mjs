@@ -66,7 +66,13 @@ try {
     log(false, '首页找不到搜索框');
   }
 
-  // 4. Open the 王安石 search result and verify provenance content
+  // 4. Use an exact query before opening 王安石. The broad 王 query above is
+  // intentionally allowed to return only the highest-ranked subset.
+  await search.fill('王安石');
+  await search.press('Enter');
+  await page
+    .waitForSelector('.result-list a[href*="/persons/"]', { timeout: 15000 })
+    .catch(() => {});
   const personLink = page.locator('.result-list a[href*="/persons/"]', { hasText: '王安石' }).first();
   if (await personLink.count()) {
     await personLink.click();
@@ -167,7 +173,11 @@ try {
 
     // Clicking a line opens what that relationship rests on.
     if (await page.locator('.tree-edge').count()) {
-      await page.locator('.tree-edge').first().click();
+      // React Flow's transparent interaction path is the real pointer target;
+      // dispatching on it also bubbles through the edge's click handler.
+      const interactionPath = page.locator('.tree-edge .react-flow__edge-interaction').first();
+      if (await interactionPath.count()) await interactionPath.dispatchEvent('click');
+      else await page.locator('.tree-edge').first().dispatchEvent('click');
       const detail = await page
         .waitForSelector('.tree-detail', { timeout: 10000 })
         .then(() => true)
@@ -220,9 +230,12 @@ try {
   if (await sourceLink.count()) {
     await sourceLink.click();
     await page.waitForLoadState('networkidle');
-    await page.waitForTimeout(500);
+    const hasSourceClaim = await page
+      .waitForSelector('.source-page .source-claims .claim-card', { timeout: 15000 })
+      .then(() => true)
+      .catch(() => false);
     const srcText = await page.locator('body').innerText();
-    log(/引用此来源的(?:主张|资料)|引用此來源的(?:主張|資料)/.test(srcText), '来源页渲染了引用该来源的资料');
+    log(hasSourceClaim, '来源页渲染了引用该来源的资料');
     log(!/Failed to fetch/i.test(srcText), '来源页没有 "Failed to fetch"');
   } else {
     log(false, '人物页找不到来源链接');
