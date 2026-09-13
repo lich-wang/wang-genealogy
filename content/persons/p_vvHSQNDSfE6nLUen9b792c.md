@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王正言（755年—818年），史料所见人物。本项目依据《中国历代人物传记资料库：王正言（CBDB 145035）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王正言（755年—818年），唐人物。籍贯河清，曾任巡官、左千牛衛長史。（中国历代人物传记资料库 CBDB 145035）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_fR_ldEC7lFJRh0X-f6xLFW
           claim_id: c_MRdN2L1vYQJg3oVEPEZvA9
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:145035
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_yFtdrRTKZK4FJvv5BPQZW9
             source_type: api_record
@@ -252,7 +252,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王正言（755年—818年），史料所见人物。本项目依据《中国历代人物传记资料库：王正言（CBDB 145035）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王正言（755年—818年），唐人物。籍贯河清，曾任巡官、左千牛衛長史。（中国历代人物传记资料库 CBDB 145035） | accepted |
 | birth.date | 755年 | accepted |
 | death.date | 818年 | accepted |
 | name.primary | 王正言 | accepted |

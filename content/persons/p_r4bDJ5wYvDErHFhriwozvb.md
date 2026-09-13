@@ -51,7 +51,7 @@ properties:
           locator: CBDB:342565
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a2
+          source:
             id: s_J4e7kFQtZvepAdndsKGBzG
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王之都（342565）
@@ -76,11 +76,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王之都，明人物。明清進士進士，籍贯新城，入仕進士。（中国历代人物传记资料库 CBDB 342565）
-          language: zh-Hans
+          text: 王之都（1564年—1615年），字爾章，號曙峯，山東濟南府新城縣人，明朝政治人物。
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
         - id: cs_axM8UUJpLK8Z9YHjx2gX6M
           claim_id: c_UunREWjDVPRwDw51FVvg18
@@ -90,14 +90,25 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
-        - id: cs_cGX-iurnl0O7SRw8JdpWdw
+        - id: cs_twEnKFCVfWlYKMKn1CAptl
           claim_id: c_UunREWjDVPRwDw51FVvg18
-          source_id: s_J4e7kFQtZvepAdndsKGBzG
+          source_id: s_5oEf-nrtbsUF9LFyQmCfuG
           stance: supports
-          locator: CBDB:342565
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: *a2
+          locator: 导言
+          quotation: 王之都（1564年—1615年），字爾章，號曙峯，山東濟南府新城
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_5oEf-nrtbsUF9LFyQmCfuG
+            source_type: website
+            title: 中文维基百科：王之都
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B9%8B%E9%83%BD
+            external_identifier: Q16075337
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-13T09:29:27.764Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -165,7 +176,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王之都 | accepted |
-| bio.summary | 王之都，明人物。明清進士進士，籍贯新城，入仕進士。（中国历代人物传记资料库 CBDB 342565） | accepted |
+| bio.summary | 王之都（1564年—1615年），字爾章，號曙峯，山東濟南府新城縣人，明朝政治人物。 | accepted |
 
 ## 关联关系
 
@@ -177,4 +188,5 @@ relationships:
 
 - [维基数据：王耿光（Q45610509）](https://www.wikidata.org/wiki/Q45610509)
 - [维基数据：王之都（Q16075337）](https://www.wikidata.org/wiki/Q16075337)
+- [中文维基百科：王之都](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B9%8B%E9%83%BD)
 - [CBDB 中国历代人物传记资料库：王之都（342565）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=342565&o=json)

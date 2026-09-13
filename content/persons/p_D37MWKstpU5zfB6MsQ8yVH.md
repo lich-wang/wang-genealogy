@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王聯晉，史料所见人物。本项目依据《中国历代人物传记资料库：王聯晉（CBDB 67230）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: "王聯晉，清人物。籍贯合州，入仕監生: 蔭監(含明代官生、恩生，或清代恩廕生、難廕生)，曾任工部營繕司郎中、員外郎、知府。（中国历代人物传记资料库 CBDB 67230）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_o3RWLuIx2gvm1zxoeECKqM
           claim_id: c_PDkyB1MqWtvG7qVnMBBCk2
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:67230
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_6aw87DXTHLECHBrKBeLNQE
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王聯晉，史料所见人物。本项目依据《中国历代人物传记资料库：王聯晉（CBDB 67230）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王聯晉，清人物。籍贯合州，入仕監生: 蔭監(含明代官生、恩生，或清代恩廕生、難廕生)，曾任工部營繕司郎中、員外郎、知府。（中国历代人物传记资料库 CBDB 67230） | accepted |
 | name.primary | 王聯晉 | accepted |
 
 ## 关联关系

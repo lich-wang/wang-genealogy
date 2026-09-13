@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王敬銘（1668年—1721年），史料所见人物。本项目依据《中国历代人物传记资料库：王敬銘（CBDB 72046）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王敬銘（1668年—1721年），清人物。明清進士進士，籍贯嘉定，身份为畫家，入仕進士。（中国历代人物传记资料库 CBDB 72046）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_GPda7nIsMpzE1KVSGAW6UU
           claim_id: c_857b2BoqhnZQ1Dh3qc7d25
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:72046
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_eifBzrHD5V2P78Q5sU4ra7
             source_type: api_record
@@ -178,7 +178,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王敬銘（1668年—1721年），史料所见人物。本项目依据《中国历代人物传记资料库：王敬銘（CBDB 72046）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王敬銘（1668年—1721年），清人物。明清進士進士，籍贯嘉定，身份为畫家，入仕進士。（中国历代人物传记资料库 CBDB 72046） | accepted |
 | birth.date | 1668年 | accepted |
 | death.date | 1721年 | accepted |
 | name.primary | 王敬銘 | accepted |

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王命時（1613年—1701年），史料所见人物。本项目依据《中国历代人物传记资料库：王命時（CBDB 69275）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王命時（1613年—1701年），清人物。籍贯祥符，身份为腐儒。（中国历代人物传记资料库 CBDB 69275）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_891qeUVcH9_JAazPVtMva9
           claim_id: c_2fzQ3zn46n6JMmKKjFUuNX
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:69275
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_j14MZZPTSdRGzQ4L48QGQ2
             source_type: api_record
@@ -520,7 +520,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王命時（1613年—1701年），史料所见人物。本项目依据《中国历代人物传记资料库：王命時（CBDB 69275）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王命時（1613年—1701年），清人物。籍贯祥符，身份为腐儒。（中国历代人物传记资料库 CBDB 69275） | accepted |
 | birth.date | 1613年 | accepted |
 | death.date | 1701年 | accepted |
 | name.primary | 王命時 | accepted |

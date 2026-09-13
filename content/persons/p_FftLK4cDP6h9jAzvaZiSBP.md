@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王洪宣，史料所见人物。本项目依据《中国历代人物传记资料库：王洪宣（CBDB 280908）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王洪宣，明人物。景泰五年進士，籍贯吉水。（中国历代人物传记资料库 CBDB 280908）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_1D67Obwvmh2lruNvXids2T
           claim_id: c_fCintTgzKwoMzWKyVF1Wy2
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:280908
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_kRUB7yxijcJLBaGQMJZ1rn
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王洪宣，史料所见人物。本项目依据《中国历代人物传记资料库：王洪宣（CBDB 280908）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王洪宣，明人物。景泰五年進士，籍贯吉水。（中国历代人物传记资料库 CBDB 280908） | accepted |
 | name.primary | 王洪宣 | accepted |
 
 ## 关联关系

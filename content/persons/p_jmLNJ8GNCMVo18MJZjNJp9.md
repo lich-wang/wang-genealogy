@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王巽申（生于1210年），史料所见人物。本项目依据《中国历代人物传记资料库：王巽申（CBDB 37953）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王巽申（生于1210年），宋人物。寶祐進士，籍贯石泉軍，入仕進士。（中国历代人物传记资料库 CBDB 37953）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_hwdaBz9Lrn6C-umTfcfE-r
           claim_id: c_YU9Ejfj6dvMnmwvF56xepr
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:37953
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_mGB753qMJea3HTFFbPMEw7
             source_type: api_record
@@ -172,7 +172,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王巽申（生于1210年），史料所见人物。本项目依据《中国历代人物传记资料库：王巽申（CBDB 37953）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王巽申（生于1210年），宋人物。寶祐進士，籍贯石泉軍，入仕進士。（中国历代人物传记资料库 CBDB 37953） | accepted |
 | birth.date | 1210年 | accepted |
 | name.primary | 王巽申 | accepted |
 

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王光燮（1711年—1779年），史料所见人物。本项目依据《中国历代人物传记资料库：王光燮（CBDB 54398）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王光燮（1711年—1779年），清人物。明清進士進士，籍贯陽湖，入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 54398）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_npzKBDFeHcsNfDcVu05b0K
           claim_id: c_3GTahJeGs68WHeuUdSRvT9
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:54398
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_hwniq3cPH2PR193W7bm9yE
             source_type: api_record
@@ -178,7 +178,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王光燮（1711年—1779年），史料所见人物。本项目依据《中国历代人物传记资料库：王光燮（CBDB 54398）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王光燮（1711年—1779年），清人物。明清進士進士，籍贯陽湖，入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 54398） | accepted |
 | birth.date | 1711年 | accepted |
 | death.date | 1779年 | accepted |
 | name.primary | 王光燮 | accepted |

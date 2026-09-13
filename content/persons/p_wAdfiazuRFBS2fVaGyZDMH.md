@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王弘（379年—432年），史料所见人物。本项目依据《王弘》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王弘（379年—432年），字休元，琅邪臨沂（今山東臨沂）人。東晉末官員，亦是劉宋的開國功臣，在劉宋官至太保。東晉丞相王導曾孫，衞將軍、東亭侯王珣之子。
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
-        - id: cs_fLXbUdeUgZEZMNGPD5DENl
+        - id: cs_Wim4Z3QXs9PFIi1ARuPfir
           claim_id: c_a3g1ZUDQpNi756MnEuqtAS
-          source_id: s_581foiPcqchzRod141ue3p
+          source_id: s_M7Ifjjt64LZR45z4JHzXlJ
           stance: supports
-          locator: Q557716
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_581foiPcqchzRod141ue3p
-            source_type: api_record
-            title: 维基数据：王弘（Q557716）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王弘（379年—432年），字休元，琅邪臨沂（今山東臨沂）人。東
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_M7Ifjjt64LZR45z4JHzXlJ
+            source_type: website
+            title: 中文维基百科：王弘 (六朝)
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q557716
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BC%98_(%E5%85%AD%E6%9C%9D)
             external_identifier: Q557716
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:09:58.886Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BC%98_(%E5%85%AD%E6%9C%9D)
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-13T09:29:27.764Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -155,7 +154,19 @@ properties:
           locator: Q557716
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_581foiPcqchzRod141ue3p
+            source_type: api_record
+            title: 维基数据：王弘（Q557716）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q557716
+            external_identifier: Q557716
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:09:58.886Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BC%98_(%E5%85%AD%E6%9C%9D)
       object_person: null
     alternatives: []
 relationships:
@@ -407,7 +418,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王弘（379年—432年），史料所见人物。本项目依据《王弘》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王弘（379年—432年），字休元，琅邪臨沂（今山東臨沂）人。東晉末官員，亦是劉宋的開國功臣，在劉宋官至太保。東晉丞相王導曾孫，衞將軍、東亭侯王珣之子。 | accepted |
 | birth.date | 379年 | accepted |
 | death.date | 432年 | accepted |
 | name.primary | 王弘 | accepted |
@@ -427,5 +438,6 @@ relationships:
 - [维基数据：王僧达（Q13219054）](https://www.wikidata.org/wiki/Q13219054)
 - [维基数据：王锡 (刘宋)（Q15934611）](https://www.wikidata.org/wiki/Q15934611)
 - [维基数据：王珣（Q15902305）](https://www.wikidata.org/wiki/Q15902305)
+- [中文维基百科：王弘 (六朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BC%98_(%E5%85%AD%E6%9C%9D))
 - [中文维基百科：王僧亮](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%83%A7%E4%BA%AE)
 - [中文维基文库：新唐書/卷072中](https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7072%E4%B8%AD)

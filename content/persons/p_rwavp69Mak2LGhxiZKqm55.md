@@ -56,20 +56,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王继恭，史料所见人物。本项目依据《王继恭》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王继恭（？—939年8月29日），五代十国時期人物，祖籍光州固始（今河南省固始县），闽惠宗王延钧之子。母亲劉華。 王继恭官至试大理评事。通文年间，官至威武军节度使。康宗王继鹏派他上书后晋告知嗣位之事。
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
-        - id: cs_vmoRAxPp2zL81UhbL0Ygbt
+        - id: cs_oVPokStvYfhZheASD05cCw
           claim_id: c_zxXKPrnBb3FUYAu2a7QkjV
-          source_id: s_EmhXihF5VcFp9Gmx34kMJ8
+          source_id: s_4Z1k66iR6-1ylccoRPgjdi
           stance: supports
-          locator: Q16260251
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: *a1
+          locator: 导言
+          quotation: 王继恭（？—939年8月29日），五代十国時期人物，祖籍光州固始
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_4Z1k66iR6-1ylccoRPgjdi
+            source_type: website
+            title: 中文维基百科：王继恭
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BB%A7%E6%81%AD
+            external_identifier: Q16260251
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-13T09:29:27.764Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -138,7 +149,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王继恭 | accepted |
-| bio.summary | 王继恭，史料所见人物。本项目依据《王继恭》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王继恭（？—939年8月29日），五代十国時期人物，祖籍光州固始（今河南省固始县），闽惠宗王延钧之子。母亲劉華。 王继恭官至试大理评事。通文年间，官至威武军节度使。康宗王继鹏派他上书后晋告知嗣位之事。 | accepted |
 
 ## 关联关系
 
@@ -150,3 +161,4 @@ relationships:
 
 - [维基数据：王继恭（Q16260251）](https://www.wikidata.org/wiki/Q16260251)
 - [维基数据：王延钧（Q2109927）](https://www.wikidata.org/wiki/Q2109927)
+- [中文维基百科：王继恭](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BB%A7%E6%81%AD)

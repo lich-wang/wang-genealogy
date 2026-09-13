@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王來賢（生于1539年），史料所见人物。本项目依据《中国历代人物传记资料库：王來賢（CBDB 205758）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王來賢（生于1539年），明人物。明清進士進士，籍贯臨安衛，入仕進士，曾任分守道、主事、道員。（中国历代人物传记资料库 CBDB 205758）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_Hihk3_BNNOXI4RDJ6_amP_
           claim_id: c_kCks2Y9NDRW2MY6PGyJGFF
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:205758
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_nG3u1fXHMKXkKULdi4uZVa
             source_type: api_record
@@ -247,7 +247,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王來賢（生于1539年），史料所见人物。本项目依据《中国历代人物传记资料库：王來賢（CBDB 205758）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王來賢（生于1539年），明人物。明清進士進士，籍贯臨安衛，入仕進士，曾任分守道、主事、道員。（中国历代人物传记资料库 CBDB 205758） | accepted |
 | birth.date | 1539年 | accepted |
 | name.primary | 王來賢 | accepted |
 

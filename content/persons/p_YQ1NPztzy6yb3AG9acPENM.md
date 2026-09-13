@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王鉌，史料所见人物。本项目依据《中国历代人物传记资料库：王鉌（CBDB 39049）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王鉌，宋人物。籍贯潁昌府，入仕進士，曾任判司簿尉、少師、中書舍人。（中国历代人物传记资料库 CBDB 39049）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_OUgInVXfCQq4RTNC3Ln3yi
           claim_id: c_FBx2EHP1QGEQGLCL4TB8iV
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:39049
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_Qj7CjT2Ct9Dc8dzHA9iJ7z
             source_type: api_record
@@ -129,7 +129,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王鉌，史料所见人物。本项目依据《中国历代人物传记资料库：王鉌（CBDB 39049）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王鉌，宋人物。籍贯潁昌府，入仕進士，曾任判司簿尉、少師、中書舍人。（中国历代人物传记资料库 CBDB 39049） | accepted |
 | name.primary | 王鉌 | accepted |
 
 ## 关联关系

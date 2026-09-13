@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王世纓，史料所见人物。本项目依据《中国历代人物传记资料库：王世纓（CBDB 413723）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王世纓，清人物。曾任訓導。（中国历代人物传记资料库 CBDB 413723）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_rF0Be2lwVdb_zAST6X6sFt
           claim_id: c_9LF4xgtPiWtyLiGf7jFfDn
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:413723
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_pxpYwGQ2iWu3Q5HQt59HwY
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王世纓，史料所见人物。本项目依据《中国历代人物传记资料库：王世纓（CBDB 413723）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王世纓，清人物。曾任訓導。（中国历代人物传记资料库 CBDB 413723） | accepted |
 | name.primary | 王世纓 | accepted |
 
 ## 关联关系

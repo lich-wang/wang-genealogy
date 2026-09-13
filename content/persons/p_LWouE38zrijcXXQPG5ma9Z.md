@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王貽矩（977年—1027年），史料所见人物。本项目依据《中国历代人物传记资料库：王貽矩（CBDB 22072）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王貽矩（977年—1027年），宋人物。籍贯開封，入仕進士，曾任朝奉郎、大理寺丞、秘書省校書郎。（中国历代人物传记资料库 CBDB 22072）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_486qEuUKRa8IbYb6w1_6Zd
           claim_id: c_uEdjExfxguRL1kWKRN6JyK
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:22072
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_xhNPMmQriQJUpdLr7DHpNy
             source_type: api_record
@@ -326,7 +326,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王貽矩（977年—1027年），史料所见人物。本项目依据《中国历代人物传记资料库：王貽矩（CBDB 22072）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王貽矩（977年—1027年），宋人物。籍贯開封，入仕進士，曾任朝奉郎、大理寺丞、秘書省校書郎。（中国历代人物传记资料库 CBDB 22072） | accepted |
 | birth.date | 977年 | accepted |
 | death.date | 1027年 | accepted |
 | name.primary | 王貽矩 | accepted |

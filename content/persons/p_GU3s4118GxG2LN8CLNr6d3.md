@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王之栻（卒于1644年），史料所见人物。本项目依据《中国历代人物传记资料库：王之栻（CBDB 519659）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王之栻（卒于1644年），清人物。籍贯武進，身份为死國難，入仕縣學生員，曾任職方司主事。（中国历代人物传记资料库 CBDB 519659）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_sn5YIHdeYcIRYGXT1C8Ooz
           claim_id: c_r1nuevBp2UJZx2yrjdoTtC
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:519659
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_cdjeWtbDKRYdormNgVSx1J
             source_type: api_record
@@ -173,7 +173,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王之栻（卒于1644年），史料所见人物。本项目依据《中国历代人物传记资料库：王之栻（CBDB 519659）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王之栻（卒于1644年），清人物。籍贯武進，身份为死國難，入仕縣學生員，曾任職方司主事。（中国历代人物传记资料库 CBDB 519659） | accepted |
 | death.date | 1644年 | accepted |
 | name.primary | 王之栻 | accepted |
 

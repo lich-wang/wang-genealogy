@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王命爵（生于1549年），史料所见人物。本项目依据《中国历代人物传记资料库：王命爵（CBDB 206334）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王命爵（生于1549年），明人物。明清進士進士，籍贯廬陵，入仕進士，曾任典史、知府、知縣。（中国历代人物传记资料库 CBDB 206334）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_ffvsnJrrDWAkdYVxAOAfoD
           claim_id: c_mnZ4Rd9kBNL6aaM81uVyu3
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:206334
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_SS7muVuDqj1J7yQsMSmkvX
             source_type: api_record
@@ -246,7 +246,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王命爵（生于1549年），史料所见人物。本项目依据《中国历代人物传记资料库：王命爵（CBDB 206334）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王命爵（生于1549年），明人物。明清進士進士，籍贯廬陵，入仕進士，曾任典史、知府、知縣。（中国历代人物传记资料库 CBDB 206334） | accepted |
 | birth.date | 1549年 | accepted |
 | name.primary | 王命爵 | accepted |
 

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王衍謙（1846年—1897年），史料所见人物。本项目依据《中国历代人物传记资料库：王衍謙（CBDB 71897）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王衍謙（1846年—1897年），清人物。籍贯觀城。（中国历代人物传记资料库 CBDB 71897）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs__XVsh_6s_ze2MFLlwuLy02
           claim_id: c_bJRFC5P9zNNDed3h9A9gtq
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:71897
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_V2FN5stJ5TB8t4QSd6HSEF
             source_type: api_record
@@ -178,7 +178,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王衍謙（1846年—1897年），史料所见人物。本项目依据《中国历代人物传记资料库：王衍謙（CBDB 71897）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王衍謙（1846年—1897年），清人物。籍贯觀城。（中国历代人物传记资料库 CBDB 71897） | accepted |
 | birth.date | 1846年 | accepted |
 | death.date | 1897年 | accepted |
 | name.primary | 王衍謙 | accepted |

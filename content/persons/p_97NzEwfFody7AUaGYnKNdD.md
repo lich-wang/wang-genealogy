@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王應宣，史料所见人物。本项目依据《中国历代人物传记资料库：王應宣（CBDB 414639）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王應宣，清人物。曾任知縣。（中国历代人物传记资料库 CBDB 414639）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_pDcPNx1w7d6Z_0o5bt2c0k
           claim_id: c_ycpNkNW3AR43aVoMq6dSXF
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:414639
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_J55P5R6V8dSStoDEjho8f4
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王應宣，史料所见人物。本项目依据《中国历代人物传记资料库：王應宣（CBDB 414639）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王應宣，清人物。曾任知縣。（中国历代人物传记资料库 CBDB 414639） | accepted |
 | name.primary | 王應宣 | accepted |
 
 ## 关联关系

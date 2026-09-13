@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王鑑之（1440年—1519年），史料所见人物。本项目依据《中国历代人物传记资料库：王鑑之（CBDB 126887）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王鑑之（1440年—1519年），明人物。明清進士進士，籍贯山陰，入仕進士，曾任大理寺丞、督學政、經略。（中国历代人物传记资料库 CBDB 126887）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_tMDETwH2U4sNuULqz04LLT
           claim_id: c_SNoBLZVx1AcrKnJzV1EMux
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:126887
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_yVFwpMn5jWhWM5FcMtUb81
             source_type: api_record
@@ -290,7 +290,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王鑑之（1440年—1519年），史料所见人物。本项目依据《中国历代人物传记资料库：王鑑之（CBDB 126887）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王鑑之（1440年—1519年），明人物。明清進士進士，籍贯山陰，入仕進士，曾任大理寺丞、督學政、經略。（中国历代人物传记资料库 CBDB 126887） | accepted |
 | birth.date | 1440年 | accepted |
 | death.date | 1519年 | accepted |
 | name.primary | 王鑑之 | accepted |

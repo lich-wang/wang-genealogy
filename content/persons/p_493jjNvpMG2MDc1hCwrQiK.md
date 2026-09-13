@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王紹某，史料所见人物。本项目依据《中国历代人物传记资料库：王紹某（CBDB 278854）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王紹某，明人物。正德六年進士，籍贯遂寧，曾任七品散官。（中国历代人物传记资料库 CBDB 278854）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_vPTGlm9TNJ3a7_FNj4d-Fc
           claim_id: c_ergDnq4RHZseRE8zbSDehR
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:278854
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_n62Ax4Yzxp432YMURbmk2j
             source_type: api_record
@@ -129,7 +129,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王紹某，史料所见人物。本项目依据《中国历代人物传记资料库：王紹某（CBDB 278854）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王紹某，明人物。正德六年進士，籍贯遂寧，曾任七品散官。（中国历代人物传记资料库 CBDB 278854） | accepted |
 | name.primary | 王紹某 | accepted |
 
 ## 关联关系

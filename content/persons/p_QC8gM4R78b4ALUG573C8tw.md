@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王明贞（1906年11月18日—2010年8月28日），史料所见人物。本项目依据《王明贞》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王明贞（1906年11月18日—2010年8月28日），女，江苏苏州人，中国物理学家，清华大学第一位女性教授。是乔治·乌伦贝克的学生。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_UWYjqjVROgajSMHCwC0S4F
+        - id: cs_rrtCOiSKxwQB5-11YMobuK
           claim_id: c_vJcfKzKrH2n8DewCMaFvMo
-          source_id: s_tmHCmvEMPsE5UH3YGfsgVW
+          source_id: s_kiYC9USa9vyPhawLLlpYwX
           stance: supports
-          locator: Q56005549
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_tmHCmvEMPsE5UH3YGfsgVW
-            source_type: api_record
-            title: 维基数据：王明贞（Q56005549）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王明贞（1906年11月18日—2010年8月28日），女，江苏
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_kiYC9USa9vyPhawLLlpYwX
+            source_type: website
+            title: 中文维基百科：王明贞
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q56005549
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%98%8E%E8%B4%9E
             external_identifier: Q56005549
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:06:50.151Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%98%8E%E8%B4%9E
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-13T09:29:27.764Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -212,7 +211,19 @@ relationships:
           locator: P22（父）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a1
+            id: s_tmHCmvEMPsE5UH3YGfsgVW
+            source_type: api_record
+            title: 维基数据：王明贞（Q56005549）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q56005549
+            external_identifier: Q56005549
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:50.151Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%98%8E%E8%B4%9E
       object_person:
         id: p_LXKFHguzJ5DjK8ySHadw6f
         status: active
@@ -280,7 +291,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王明贞（1906年11月18日—2010年8月28日），史料所见人物。本项目依据《王明贞》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王明贞（1906年11月18日—2010年8月28日），女，江苏苏州人，中国物理学家，清华大学第一位女性教授。是乔治·乌伦贝克的学生。 | accepted |
 | birth.date | 1906年11月18日 | accepted |
 | death.date | 2010年8月28日 | accepted |
 | name.primary | 王明贞 | accepted |
@@ -297,3 +308,4 @@ relationships:
 - [维基数据：王季同（Q61306471）](https://www.wikidata.org/wiki/Q61306471)
 - [维基数据：王明贞（Q56005549）](https://www.wikidata.org/wiki/Q56005549)
 - [维基数据：俞启忠（Q61306665）](https://www.wikidata.org/wiki/Q61306665)
+- [中文维基百科：王明贞](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%98%8E%E8%B4%9E)

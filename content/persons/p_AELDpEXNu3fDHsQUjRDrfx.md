@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王杲之（卒于825年），史料所见人物。本项目依据《中国历代人物传记资料库：王杲之（CBDB 186580）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王杲之（卒于825年），唐人物。曾任未詳。（中国历代人物传记资料库 CBDB 186580）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_n9dvzoiTt5445Bgq9RUnCb
           claim_id: c_tkTN8r4Dd7y2FTgDNA6fn7
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:186580
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_jV4K75aJjACRtn3yLrKH7G
             source_type: api_record
@@ -135,7 +135,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王杲之（卒于825年），史料所见人物。本项目依据《中国历代人物传记资料库：王杲之（CBDB 186580）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王杲之（卒于825年），唐人物。曾任未詳。（中国历代人物传记资料库 CBDB 186580） | accepted |
 | death.date | 825年 | accepted |
 | name.primary | 王杲之 | accepted |
 

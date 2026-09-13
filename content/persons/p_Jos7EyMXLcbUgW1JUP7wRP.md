@@ -51,7 +51,7 @@ properties:
           locator: CBDB:194206
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a2
+          source:
             id: s_eQLo2XY2oexKGs9uzk4ZyB
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王士平（194206）
@@ -76,11 +76,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王士平（卒于831年），唐人物。籍贯河南，曾任大將軍。（中国历代人物传记资料库 CBDB 194206）
+          text: 王士平（?—?），契丹怒皆部人，唐朝官员。成德节度使王武俊第三子。唐德宗的驸马。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
         - id: cs_aGE1GDnhvsQ95q5EXmQV8n
           claim_id: c_5Tc45Ntq83gYyU4eiaQNtB
@@ -90,14 +90,25 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
-        - id: cs_p9NGTT9KPmoZSAKUVCGJEO
+        - id: cs_YPuvZZgmV2hIAvhC_GIcH0
           claim_id: c_5Tc45Ntq83gYyU4eiaQNtB
-          source_id: s_eQLo2XY2oexKGs9uzk4ZyB
+          source_id: s_0q0j2pjl3swzaTyIyP4vze
           stance: supports
-          locator: CBDB:194206
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: *a2
+          locator: 导言
+          quotation: 王士平（?—?），契丹怒皆部人，唐朝官员。成德节度使王武俊第三子
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_0q0j2pjl3swzaTyIyP4vze
+            source_type: website
+            title: 中文维基百科：王士平
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E5%B9%B3
+            external_identifier: Q45518506
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-13T09:29:27.764Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: death.date
@@ -213,7 +224,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王士平 | accepted |
-| bio.summary | 王士平（卒于831年），唐人物。籍贯河南，曾任大將軍。（中国历代人物传记资料库 CBDB 194206） | accepted |
+| bio.summary | 王士平（?—?），契丹怒皆部人，唐朝官员。成德节度使王武俊第三子。唐德宗的驸马。 | accepted |
 | death.date | 831年 | accepted |
 
 ## 关联关系
@@ -226,5 +237,6 @@ relationships:
 
 - [维基数据：王士平（Q45518506）](https://www.wikidata.org/wiki/Q45518506)
 - [维基数据：王武俊（Q7967676）](https://www.wikidata.org/wiki/Q7967676)
+- [中文维基百科：王士平](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E5%B9%B3)
 - [CBDB 中国历代人物传记资料库：王士平（194206）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=194206&o=json)
 - [CBDB 中国历代人物传记资料库：王武俊（191752）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191752&o=json)

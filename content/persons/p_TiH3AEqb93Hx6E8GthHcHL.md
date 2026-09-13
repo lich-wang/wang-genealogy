@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王惟諴（生于1777年），史料所见人物。本项目依据《中国历代人物传记资料库：王惟諴（CBDB 61605）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王惟諴（生于1777年），清人物。籍贯海豐，入仕鄉貢舉人，曾任布政使、按察使、太僕寺卿。（中国历代人物传记资料库 CBDB 61605）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_8-zfSC9ysaFajKz76y5r1l
           claim_id: c_ahzSCPJAvbvZTWUSvYa1Yu
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:61605
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_CSjZ6BGtwURK3XGduDR6zS
             source_type: api_record
@@ -135,7 +135,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王惟諴（生于1777年），史料所见人物。本项目依据《中国历代人物传记资料库：王惟諴（CBDB 61605）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王惟諴（生于1777年），清人物。籍贯海豐，入仕鄉貢舉人，曾任布政使、按察使、太僕寺卿。（中国历代人物传记资料库 CBDB 61605） | accepted |
 | birth.date | 1777年 | accepted |
 | name.primary | 王惟諴 | accepted |
 

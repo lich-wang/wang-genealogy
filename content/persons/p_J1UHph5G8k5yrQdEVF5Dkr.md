@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王廷前，史料所见人物。本项目依据《中国历代人物传记资料库：王廷前（CBDB 414455）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王廷前，清人物。曾任訓導。（中国历代人物传记资料库 CBDB 414455）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_WzbQ59ERYV7wAW0w7g0pXm
           claim_id: c_RNMoBtrMgknj8xNT9fktq5
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:414455
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_AR1quuTB5KubsLGptSNA16
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王廷前，史料所见人物。本项目依据《中国历代人物传记资料库：王廷前（CBDB 414455）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王廷前，清人物。曾任訓導。（中国历代人物传记资料库 CBDB 414455） | accepted |
 | name.primary | 王廷前 | accepted |
 
 ## 关联关系

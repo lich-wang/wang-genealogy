@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王允修，史料所见人物。本项目依据《中国历代人物传记资料库：王允修（CBDB 342251）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王允修，明人物。明清進士進士，籍贯容城，入仕進士。（中国历代人物传记资料库 CBDB 342251）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_IIalIHJOpw-tlNwYMUvhUo
           claim_id: c_RHnuZBXEtPG8QR5KL5h8MJ
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:342251
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_XbXPr1EHu7ydKB552G2JRx
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王允修，史料所见人物。本项目依据《中国历代人物传记资料库：王允修（CBDB 342251）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王允修，明人物。明清進士進士，籍贯容城，入仕進士。（中国历代人物传记资料库 CBDB 342251） | accepted |
 | name.primary | 王允修 | accepted |
 
 ## 关联关系

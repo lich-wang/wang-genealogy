@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王昭余，史料所见人物。本项目依据《中国历代人物传记资料库：王昭余（CBDB 35028）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王昭余，金人物。籍贯玉田，入仕封贈。（中国历代人物传记资料库 CBDB 35028）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_bMc_Bw1TOKdlyPWdeqp2A5
           claim_id: c_H9yLnemxvwQLLRGP8oxny4
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:35028
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_nKWJDiQHhC61xgbckZqbPH
             source_type: api_record
@@ -129,7 +129,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王昭余，史料所见人物。本项目依据《中国历代人物传记资料库：王昭余（CBDB 35028）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王昭余，金人物。籍贯玉田，入仕封贈。（中国历代人物传记资料库 CBDB 35028） | accepted |
 | name.primary | 王昭余 | accepted |
 
 ## 关联关系

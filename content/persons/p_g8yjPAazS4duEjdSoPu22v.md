@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王通（584年—618年），隋人物。籍贯龍門，入仕徵辟。（中国历代人物传记资料库 CBDB 11965）
+          text: 王通（584年—617年），字仲淹，谥号文中子，外號王孔子，绛州龙门县（今山西河津市）人，隋朝大儒。著作等身，三十三歲離世。
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
         - id: cs_8686iWzjzPKSLwCYNJDbFt
           claim_id: c_8vUH1XgAAim98ws5CUFdK5
@@ -44,24 +44,24 @@ properties:
             accessed_at: 2026-08-24T02:48:43.288Z
             metadata_json:
               zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%80%9A_(%E9%9A%8B%E6%9C%9D)
-        - id: cs_xOh8BpUp9AIqvrX1U4X1JK
+        - id: cs_LJTqbCo_MIiH9pNMPzmKn2
           claim_id: c_8vUH1XgAAim98ws5CUFdK5
-          source_id: s_rxH1mb4ysDMZcdEp858Epm
+          source_id: s_ptEyjeGsjZ41Z8ARokrrPu
           stance: supports
-          locator: CBDB:11965
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_rxH1mb4ysDMZcdEp858Epm
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王通（11965）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
+          locator: 导言
+          quotation: 王通（584年—617年），字仲淹，谥号文中子，外號王孔子，绛州
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_ptEyjeGsjZ41Z8ARokrrPu
+            source_type: website
+            title: 中文维基百科：王通 (隋朝)
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=11965&o=json
-            external_identifier: CBDB:11965
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T02:48:43.425Z
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%80%9A_(%E9%9A%8B%E6%9C%9D)
+            external_identifier: Q11573223
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-13T09:29:27.764Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -175,7 +175,18 @@ properties:
           locator: Q11573223
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_rxH1mb4ysDMZcdEp858Epm
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王通（11965）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=11965&o=json
+            external_identifier: CBDB:11965
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T02:48:43.425Z
+            metadata_json: null
         - id: cs_mzsFEWk4vVzPVGaAqbHTix
           claim_id: c_1gNPWTbWVQmwbAQHXWaA3i
           source_id: s_XEyVmsJi464FkLSXdRq3Hb
@@ -707,7 +718,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王通（584年—618年），隋人物。籍贯龍門，入仕徵辟。（中国历代人物传记资料库 CBDB 11965） | accepted |
+| bio.summary | 王通（584年—617年），字仲淹，谥号文中子，外號王孔子，绛州龙门县（今山西河津市）人，隋朝大儒。著作等身，三十三歲離世。 | accepted |
 | birth.date | 584年 | accepted |
 | death.date | 618年 | accepted |
 | name.primary | 王通 | accepted |
@@ -733,6 +744,7 @@ relationships:
 - [中文维基百科：王勃](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8B%83)
 - [中文维基百科：王勮](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8B%AE)
 - [中文维基百科：王通 (南朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%80%9A_(%E5%8D%97%E6%9C%9D))
+- [中文维基百科：王通 (隋朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%80%9A_(%E9%9A%8B%E6%9C%9D))
 - [中文维基百科：王助 (唐朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8A%A9_(%E5%94%90%E6%9C%9D))
 - [中文维基文库：《旧唐书》卷一百九十上](https://zh.wikisource.org/zh-hant/%E8%88%8A%E5%94%90%E6%9B%B8/%E5%8D%B7190%E4%B8%8A)
 - [CBDB 中国历代人物传记资料库：王福郊（30884）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30884&o=json)

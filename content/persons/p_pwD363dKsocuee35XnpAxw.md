@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王继严，史料所见人物。本项目依据《王继严》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王继严（？—941年），五代十国時期光州固始（今河南固始）人，閩國惠宗王延钧之子。母亲劉華。 王继严官至检校尚书、户部员外郎。康宗王继鹏封他为建王，判六军诸卫事。深得士卒之心，康宗猜忌，罢除他的兵权。
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_JUh125Z2O-XCNrcF31Qrof
+        - id: cs_fuBwhwAfFPmopJT5cY-2-_
           claim_id: c_QSjE1h5tZgBurEcYMUJ75G
-          source_id: s_tmY55Xifxk8PU3d94KpPxg
+          source_id: s_Z36_sAzP8l0KuYsvX9yf86
           stance: supports
-          locator: Q16077290
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_tmY55Xifxk8PU3d94KpPxg
-            source_type: api_record
-            title: 维基数据：王继严（Q16077290）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王继严（？—941年），五代十国時期光州固始（今河南固始）人，閩
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_Z36_sAzP8l0KuYsvX9yf86
+            source_type: website
+            title: 中文维基百科：王继严
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q16077290
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BB%A7%E4%B8%A5
             external_identifier: Q16077290
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BB%A7%E4%B8%A5
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-13T09:29:27.764Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -69,7 +68,19 @@ properties:
           locator: Q16077290
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: *a1
+          source: &a1
+            id: s_tmY55Xifxk8PU3d94KpPxg
+            source_type: api_record
+            title: 维基数据：王继严（Q16077290）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16077290
+            external_identifier: Q16077290
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BB%A7%E4%B8%A5
       object_person: null
     alternatives: []
 relationships:
@@ -137,7 +148,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王继严，史料所见人物。本项目依据《王继严》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王继严（？—941年），五代十国時期光州固始（今河南固始）人，閩國惠宗王延钧之子。母亲劉華。 王继严官至检校尚书、户部员外郎。康宗王继鹏封他为建王，判六军诸卫事。深得士卒之心，康宗猜忌，罢除他的兵权。 | accepted |
 | name.primary | 王继严 | accepted |
 
 ## 关联关系
@@ -150,3 +161,4 @@ relationships:
 
 - [维基数据：王继严（Q16077290）](https://www.wikidata.org/wiki/Q16077290)
 - [维基数据：王延钧（Q2109927）](https://www.wikidata.org/wiki/Q2109927)
+- [中文维基百科：王继严](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%BB%A7%E4%B8%A5)

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王肇慶，史料所见人物。本项目依据《中国历代人物传记资料库：王肇慶（CBDB 61081）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王肇慶，清人物。曾任都督僉事、都指揮僉事、錦衣衛指揮使。（中国历代人物传记资料库 CBDB 61081）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_kVkqiPUif1IJZN-IxCbsIA
           claim_id: c_Kwqk2KMG9dLp9P2wME7hui
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:61081
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_eKr99xQViSbzNapdybwKbN
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王肇慶，史料所见人物。本项目依据《中国历代人物传记资料库：王肇慶（CBDB 61081）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王肇慶，清人物。曾任都督僉事、都指揮僉事、錦衣衛指揮使。（中国历代人物传记资料库 CBDB 61081） | accepted |
 | name.primary | 王肇慶 | accepted |
 
 ## 关联关系

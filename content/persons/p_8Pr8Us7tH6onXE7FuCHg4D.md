@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王郴（卒于959年），史料所见人物。本项目依据《中国历代人物传记资料库：王郴（CBDB 186851）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王郴（卒于959年），五代人物。籍贯曲陽。（中国历代人物传记资料库 CBDB 186851）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_Wp6Eg8kKux5XuJm3TVTI-O
           claim_id: c_U7KsWNChV6DUv26RxbBQYQ
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:186851
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_1HJXCvnkHcPr9NJRAXBAA2
             source_type: api_record
@@ -172,7 +172,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王郴（卒于959年），史料所见人物。本项目依据《中国历代人物传记资料库：王郴（CBDB 186851）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王郴（卒于959年），五代人物。籍贯曲陽。（中国历代人物传记资料库 CBDB 186851） | accepted |
 | death.date | 959年 | accepted |
 | name.primary | 王郴 | accepted |
 

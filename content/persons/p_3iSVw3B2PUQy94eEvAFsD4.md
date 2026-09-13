@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王慶瀾（生于1720年），史料所见人物。本项目依据《中国历代人物传记资料库：王慶瀾（CBDB 71607）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王慶瀾（生于1720年），清人物。籍贯祥符。（中国历代人物传记资料库 CBDB 71607）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_f6CsWhNAt0JqJnan0xdspV
           claim_id: c_PA5ksPHPSm7sNF8kDPH6AY
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:71607
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_1wKvVxrN7NZNLydif9jx5Q
             source_type: api_record
@@ -135,7 +135,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王慶瀾（生于1720年），史料所见人物。本项目依据《中国历代人物传记资料库：王慶瀾（CBDB 71607）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王慶瀾（生于1720年），清人物。籍贯祥符。（中国历代人物传记资料库 CBDB 71607） | accepted |
 | birth.date | 1720年 | accepted |
 | name.primary | 王慶瀾 | accepted |
 

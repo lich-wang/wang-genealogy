@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王孟南，史料所见人物。本项目依据《中国历代人物传记资料库：王孟南（CBDB 239760）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王孟南，明人物。正统十年進士，籍贯長壽。（中国历代人物传记资料库 CBDB 239760）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_WWBrk25E1HdHiGssEXIZjC
           claim_id: c_q312EYWRvPUrPGijSQy7aQ
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:239760
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_y3FjtrEebErQqpJ1aLke8u
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王孟南，史料所见人物。本项目依据《中国历代人物传记资料库：王孟南（CBDB 239760）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王孟南，明人物。正统十年進士，籍贯長壽。（中国历代人物传记资料库 CBDB 239760） | accepted |
 | name.primary | 王孟南 | accepted |
 
 ## 关联关系

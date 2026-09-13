@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王興秀（卒于1269年），史料所见人物。本项目依据《中国历代人物传记资料库：王興秀（CBDB 117613）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王興秀（卒于1269年），元人物。入仕軍功補官，曾任萬戶、軍民招撫使。（中国历代人物传记资料库 CBDB 117613）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_Ov10aiVfa07Uwti5eAn_RO
           claim_id: c_D9A2mHzCfTVFmwTLKHRS64
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:117613
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_WG8qBKyHB2CtKRQZs7j9MG
             source_type: api_record
@@ -135,7 +135,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王興秀（卒于1269年），史料所见人物。本项目依据《中国历代人物传记资料库：王興秀（CBDB 117613）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王興秀（卒于1269年），元人物。入仕軍功補官，曾任萬戶、軍民招撫使。（中国历代人物传记资料库 CBDB 117613） | accepted |
 | death.date | 1269年 | accepted |
 | name.primary | 王興秀 | accepted |
 

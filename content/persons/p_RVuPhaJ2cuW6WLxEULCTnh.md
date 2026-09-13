@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王東儒，史料所见人物。本项目依据《中国历代人物传记资料库：王東儒（CBDB 343359）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王東儒，明人物。明清進士進士，籍贯濟陽，入仕進士。（中国历代人物传记资料库 CBDB 343359）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_JUYVR4Pb-_Iuj-F9a2gowF
           claim_id: c_MB8DG6FPQCVUxK5ofLvuyL
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:343359
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_F5xFUPYFQ4DZnP8CpvjAAE
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王東儒，史料所见人物。本项目依据《中国历代人物传记资料库：王東儒（CBDB 343359）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王東儒，明人物。明清進士進士，籍贯濟陽，入仕進士。（中国历代人物传记资料库 CBDB 343359） | accepted |
 | name.primary | 王東儒 | accepted |
 
 ## 关联关系

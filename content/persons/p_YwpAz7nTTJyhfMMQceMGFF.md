@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王叔簡，史料所见人物。本项目依据《中国历代人物传记资料库：王叔簡（CBDB 37648）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王叔簡，宋人物。籍贯渠江，入仕進士，曾任殿中省尚輦奉御、上輕車都尉、著作佐郎。（中国历代人物传记资料库 CBDB 37648）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_8pntdUYV2MaSAmNU7yOLMG
           claim_id: c_K7pESbq3dd5gbSG6koR5RZ
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:37648
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_rJebidVov6CAaqHvVXBBn5
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王叔簡，史料所见人物。本项目依据《中国历代人物传记资料库：王叔簡（CBDB 37648）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王叔簡，宋人物。籍贯渠江，入仕進士，曾任殿中省尚輦奉御、上輕車都尉、著作佐郎。（中国历代人物传记资料库 CBDB 37648） | accepted |
 | name.primary | 王叔簡 | accepted |
 
 ## 关联关系

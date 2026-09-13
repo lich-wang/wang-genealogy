@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王士璣，史料所见人物。本项目依据《中国历代人物传记资料库：王士璣（CBDB 228290）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王士璣，明人物。萬曆丙戌科進士進士，籍贯晉江。（中国历代人物传记资料库 CBDB 228290）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_OD_nRMqLLEVFirH5ULdkT-
           claim_id: c_96WM1E3XAYdSxq5mqNW7Ln
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:228290
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_Btt61F5Ra2rWenM8ZMhUrE
             source_type: api_record
@@ -130,7 +130,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王士璣，史料所见人物。本项目依据《中国历代人物传记资料库：王士璣（CBDB 228290）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王士璣，明人物。萬曆丙戌科進士進士，籍贯晉江。（中国历代人物传记资料库 CBDB 228290） | accepted |
 | name.primary | 王士璣 | accepted |
 
 ## 关联关系

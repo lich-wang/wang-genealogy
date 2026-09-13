@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王枟芳（生于1714年），史料所见人物。本项目依据《中国历代人物传记资料库：王枟芳（CBDB 71736）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王枟芳（生于1714年），清人物。籍贯蒲縣。（中国历代人物传记资料库 CBDB 71736）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_nKND7-7DMry4z73LjrZ5Vu
           claim_id: c_E9FkphjXxDxcZ49gD2aarh
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:71736
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_GKMHujDVr4DofTLbtXFppc
             source_type: api_record
@@ -135,7 +135,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王枟芳（生于1714年），史料所见人物。本项目依据《中国历代人物传记资料库：王枟芳（CBDB 71736）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王枟芳（生于1714年），清人物。籍贯蒲縣。（中国历代人物传记资料库 CBDB 71736） | accepted |
 | birth.date | 1714年 | accepted |
 | name.primary | 王枟芳 | accepted |
 

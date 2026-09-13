@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王時昶，史料所见人物。本项目依据《中国历代人物传记资料库：王時昶（CBDB 287098）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王時昶，明人物。永樂十年進士，籍贯南康。（中国历代人物传记资料库 CBDB 287098）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_ZhvxWBNhNW1YC2v0ecD8JI
           claim_id: c_9fuhSAF3P51Nc3G4nn5Qec
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:287098
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_grEP1NoZpmkgEMxmfXFRGJ
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王時昶，史料所见人物。本项目依据《中国历代人物传记资料库：王時昶（CBDB 287098）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王時昶，明人物。永樂十年進士，籍贯南康。（中国历代人物传记资料库 CBDB 287098） | accepted |
 | name.primary | 王時昶 | accepted |
 
 ## 关联关系

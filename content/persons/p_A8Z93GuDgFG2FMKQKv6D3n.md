@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王鯆，史料所见人物。本项目依据《中国历代人物传记资料库：王鯆（CBDB 252489）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王鯆，明人物。成化十四年進士，籍贯祥符。（中国历代人物传记资料库 CBDB 252489）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_FRhnavD2KGg211AOmzDbs5
           claim_id: c_4ZvjBJMDLwbjcw61b2CqwA
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:252489
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_zJ5hCniN67ES78bGkCSFFu
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王鯆，史料所见人物。本项目依据《中国历代人物传记资料库：王鯆（CBDB 252489）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王鯆，明人物。成化十四年進士，籍贯祥符。（中国历代人物传记资料库 CBDB 252489） | accepted |
 | name.primary | 王鯆 | accepted |
 
 ## 关联关系

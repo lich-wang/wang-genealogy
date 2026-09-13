@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王從復（卒于858年），史料所见人物。本项目依据《中国历代人物传记资料库：王從復（CBDB 185297）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王從復（卒于858年），唐人物。籍贯襄陽。（中国历代人物传记资料库 CBDB 185297）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_o1zdNOygixAgHADn5OcHSX
           claim_id: c_wnv1f2ctqdFF3oEcr5A1HC
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:185297
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_RUDyN54bVNUBSSQJqRqvUt
             source_type: api_record
@@ -173,7 +173,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王從復（卒于858年），史料所见人物。本项目依据《中国历代人物传记资料库：王從復（CBDB 185297）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王從復（卒于858年），唐人物。籍贯襄陽。（中国历代人物传记资料库 CBDB 185297） | accepted |
 | death.date | 858年 | accepted |
 | name.primary | 王從復 | accepted |
 

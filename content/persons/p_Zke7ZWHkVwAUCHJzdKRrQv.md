@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王如辰（1626年—1692年），史料所见人物。本项目依据《中国历代人物传记资料库：王如辰（CBDB 71637）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王如辰（1626年—1692年），清人物。明清進士進士，籍贯膠州直隸州，入仕進士，曾任司員外郎、學政、知縣。（中国历代人物传记资料库 CBDB 71637）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_HTruwVgJcEnHmQOu_YNsOR
           claim_id: c_52JQrWYd2XKCZBigKBCGcF
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:71637
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_Bnj72vFMHpuS5kNWwxiiN6
             source_type: api_record
@@ -252,7 +252,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王如辰（1626年—1692年），史料所见人物。本项目依据《中国历代人物传记资料库：王如辰（CBDB 71637）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王如辰（1626年—1692年），清人物。明清進士進士，籍贯膠州直隸州，入仕進士，曾任司員外郎、學政、知縣。（中国历代人物传记资料库 CBDB 71637） | accepted |
 | birth.date | 1626年 | accepted |
 | death.date | 1692年 | accepted |
 | name.primary | 王如辰 | accepted |

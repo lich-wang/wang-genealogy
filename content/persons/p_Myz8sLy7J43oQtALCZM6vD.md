@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王贄弘，史料所见人物。本项目依据《中国历代人物传记资料库：王贄弘（CBDB 383250）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王贄弘，唐人物。曾任州刺史。（中国历代人物传记资料库 CBDB 383250）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_-mVBgsLQaXCHq7aD8-QXyA
           claim_id: c_f1AKwF1RBjY4Um7eDM2sp5
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:383250
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_JXr3ejjE62jFn2GNMEcx9L
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王贄弘，史料所见人物。本项目依据《中国历代人物传记资料库：王贄弘（CBDB 383250）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王贄弘，唐人物。曾任州刺史。（中国历代人物传记资料库 CBDB 383250） | accepted |
 | name.primary | 王贄弘 | accepted |
 
 ## 关联关系

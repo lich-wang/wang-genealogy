@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王師約（1044年—1102年），史料所见人物。本项目依据《中国历代人物传记资料库：王師約（CBDB 3973）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王師約（1044年—1102年），宋人物。籍贯洛陽，身份为業進士，入仕尚宗女 = 駙馬，曾任觀察使、節度觀察留後、樞密院都承旨。（中国历代人物传记资料库 CBDB 3973）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_USOCOmuj1coFGeUFO2P12s
           claim_id: c_tP61CGzDJTMuEDUJNJjEkB
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:3973
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_VtgWLkpGQtAeU3kVJLsmjD
             source_type: api_record
@@ -290,7 +290,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王師約（1044年—1102年），史料所见人物。本项目依据《中国历代人物传记资料库：王師約（CBDB 3973）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王師約（1044年—1102年），宋人物。籍贯洛陽，身份为業進士，入仕尚宗女 = 駙馬，曾任觀察使、節度觀察留後、樞密院都承旨。（中国历代人物传记资料库 CBDB 3973） | accepted |
 | birth.date | 1044年 | accepted |
 | death.date | 1102年 | accepted |
 | name.primary | 王師約 | accepted |

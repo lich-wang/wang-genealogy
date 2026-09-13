@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 同安公主，史料所见人物。本项目依据《同安公主》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 同安公主（560年代—650年代652年后），李氏，唐高祖李渊同母姐妹，李昞和独孤氏之女。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_yvY5q8g-P6oZSyS3w2518k
+        - id: cs_8QT9a8fgN36SnW72vMzzri
           claim_id: c_wQyMC6N-SUOcgDmmTgdC9N
-          source_id: s_mSbffPsh7E5HNYBd1cy7gj
+          source_id: s_MZEzlNsiuVxO-P-Ar45S3k
           stance: supports
-          locator: Q10917554
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_mSbffPsh7E5HNYBd1cy7gj
-            source_type: api_record
-            title: 维基数据：同安公主（Q10917554）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 同安公主（560年代—650年代652年后），李氏，唐高祖李渊同
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_MZEzlNsiuVxO-P-Ar45S3k
+            source_type: website
+            title: 中文维基百科：同安公主
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q10917554
+            canonical_url: https://zh.wikipedia.org/wiki/%E5%90%8C%E5%AE%89%E5%85%AC%E4%B8%BB
             external_identifier: Q10917554
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E5%90%8C%E5%AE%89%E5%85%AC%E4%B8%BB
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-13T09:29:27.764Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -69,7 +68,19 @@ properties:
           locator: Q10917554
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: *a1
+          source: &a1
+            id: s_mSbffPsh7E5HNYBd1cy7gj
+            source_type: api_record
+            title: 维基数据：同安公主（Q10917554）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q10917554
+            external_identifier: Q10917554
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E5%90%8C%E5%AE%89%E5%85%AC%E4%B8%BB
       object_person: null
     alternatives: []
 relationships:
@@ -137,7 +148,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 同安公主，史料所见人物。本项目依据《同安公主》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 同安公主（560年代—650年代652年后），李氏，唐高祖李渊同母姐妹，李昞和独孤氏之女。 | accepted |
 | name.primary | 同安公主 | accepted |
 
 ## 关联关系
@@ -150,3 +161,4 @@ relationships:
 
 - [维基数据：同安公主（Q10917554）](https://www.wikidata.org/wiki/Q10917554)
 - [维基数据：王裕（Q25918183）](https://www.wikidata.org/wiki/Q25918183)
+- [中文维基百科：同安公主](https://zh.wikipedia.org/wiki/%E5%90%8C%E5%AE%89%E5%85%AC%E4%B8%BB)

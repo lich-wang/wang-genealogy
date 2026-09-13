@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王敦仁，史料所见人物。本项目依据《中国历代人物传记资料库：王敦仁（CBDB 221779）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王敦仁，明人物。萬曆八年進士，籍贯滄州，曾任訓導。（中国历代人物传记资料库 CBDB 221779）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_JCZIIbgak1065qN-MOQcnX
           claim_id: c_hCNsE13XkFH6HtMm4dBzMA
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:221779
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_6ELgxnvFADDEvRkfZSUazQ
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王敦仁，史料所见人物。本项目依据《中国历代人物传记资料库：王敦仁（CBDB 221779）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王敦仁，明人物。萬曆八年進士，籍贯滄州，曾任訓導。（中国历代人物传记资料库 CBDB 221779） | accepted |
 | name.primary | 王敦仁 | accepted |
 
 ## 关联关系

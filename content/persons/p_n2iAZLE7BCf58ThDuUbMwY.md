@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王堯年，史料所见人物。本项目依据《中国历代人物传记资料库：王堯年（CBDB 301850）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王堯年，明人物。嘉靖十七年進士，籍贯鹿邑。（中国历代人物传记资料库 CBDB 301850）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_nppLj9njTLnLvFWYHgIBoQ
           claim_id: c_rHDVH732CfE3r5M3BWbMGC
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:301850
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_WZviwNeoSUPX9Zhhp61Tdy
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王堯年，史料所见人物。本项目依据《中国历代人物传记资料库：王堯年（CBDB 301850）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王堯年，明人物。嘉靖十七年進士，籍贯鹿邑。（中国历代人物传记资料库 CBDB 301850） | accepted |
 | name.primary | 王堯年 | accepted |
 
 ## 关联关系

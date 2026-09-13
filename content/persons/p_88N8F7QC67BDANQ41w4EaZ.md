@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王顯仁（生于1547年），史料所见人物。本项目依据《中国历代人物传记资料库：王顯仁（CBDB 206702）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王顯仁（生于1547年），明人物。萬曆八年進士，籍贯滄州，入仕進士。（中国历代人物传记资料库 CBDB 206702）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_h4_tYf4QGOwgOB4luSfWmW
           claim_id: c_w3JzrzmcpeJJMzZ24HT6Uk
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:206702
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_DDvaoD7JCbooMxb5v2KyVo
             source_type: api_record
@@ -246,7 +246,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王顯仁（生于1547年），史料所见人物。本项目依据《中国历代人物传记资料库：王顯仁（CBDB 206702）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王顯仁（生于1547年），明人物。萬曆八年進士，籍贯滄州，入仕進士。（中国历代人物传记资料库 CBDB 206702） | accepted |
 | birth.date | 1547年 | accepted |
 | name.primary | 王顯仁 | accepted |
 

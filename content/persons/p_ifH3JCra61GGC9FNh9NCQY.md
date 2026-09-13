@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王錫韓，史料所见人物。本项目依据《中国历代人物传记资料库：王錫韓（CBDB 343816）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王錫韓，清人物。明清進士進士，籍贯太平，入仕進士，曾任教諭、訓導、知縣。（中国历代人物传记资料库 CBDB 343816）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_q4cho68AvLx9Wjtxyy-yva
           claim_id: c_sb2b1ZCt93EKUkh7iUG5Lw
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:343816
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_S6k47Hh2f7DH6AYMb1EJLK
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王錫韓，史料所见人物。本项目依据《中国历代人物传记资料库：王錫韓（CBDB 343816）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王錫韓，清人物。明清進士進士，籍贯太平，入仕進士，曾任教諭、訓導、知縣。（中国历代人物传记资料库 CBDB 343816） | accepted |
 | name.primary | 王錫韓 | accepted |
 
 ## 关联关系

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王守質（716年—771年），史料所见人物。本项目依据《中国历代人物传记资料库：王守質（CBDB 141183）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王守質（716年—771年），唐人物。籍贯長安，曾任太僕少卿。（中国历代人物传记资料库 CBDB 141183）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_33CgP_EKZtUaWngOKfEWDf
           claim_id: c_wFiBdtaaG9A6HDNxApMWS5
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:141183
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_Z5ByfRC5hZ23M11YadT11U
             source_type: api_record
@@ -403,7 +403,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王守質（716年—771年），史料所见人物。本项目依据《中国历代人物传记资料库：王守質（CBDB 141183）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王守質（716年—771年），唐人物。籍贯長安，曾任太僕少卿。（中国历代人物传记资料库 CBDB 141183） | accepted |
 | birth.date | 716年 | accepted |
 | death.date | 771年 | accepted |
 | name.primary | 王守質 | accepted |

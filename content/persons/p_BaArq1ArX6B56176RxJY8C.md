@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王頌霖（卒于1913年），史料所见人物。本项目依据《中国历代人物传记资料库：王頌霖（CBDB 71959）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王頌霖（卒于1913年），中華民國人物。籍贯武進。（中国历代人物传记资料库 CBDB 71959）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_3iiIigmIIHTxv1mb6Mi_7K
           claim_id: c_GVreNUDWG8H35MptxSYYhS
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:71959
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_nAFXy6NkQv1zhXzGBAzGRV
             source_type: api_record
@@ -135,7 +135,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王頌霖（卒于1913年），史料所见人物。本项目依据《中国历代人物传记资料库：王頌霖（CBDB 71959）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王頌霖（卒于1913年），中華民國人物。籍贯武進。（中国历代人物传记资料库 CBDB 71959） | accepted |
 | death.date | 1913年 | accepted |
 | name.primary | 王頌霖 | accepted |
 

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王曾祥（1699年—1756年），史料所见人物。本项目依据《中国历代人物传记资料库：王曾祥（CBDB 72088）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王曾祥（1699年—1756年），清人物。籍贯仁和。（中国历代人物传记资料库 CBDB 72088）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_3oG0ox19WgthoV42C454oP
           claim_id: c_BvcBvMJXRMN3xJNWwT1Pmy
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:72088
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_cBZd8ZBVP2m7EAqChUVX6A
             source_type: api_record
@@ -178,7 +178,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王曾祥（1699年—1756年），史料所见人物。本项目依据《中国历代人物传记资料库：王曾祥（CBDB 72088）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王曾祥（1699年—1756年），清人物。籍贯仁和。（中国历代人物传记资料库 CBDB 72088） | accepted |
 | birth.date | 1699年 | accepted |
 | death.date | 1756年 | accepted |
 | name.primary | 王曾祥 | accepted |

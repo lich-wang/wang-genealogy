@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 金皇后，史料所见人物。本项目依据《金皇后》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 金皇后（?—?），闽惠宗王延钧的继室，在清远公主去世后娶其为妻。溫和贤惠，姿色秀麗，可是王延钧却不喜她寡淡无味。后来，王延钧喜欢了父亲王审知的侍女陳金鳳，王延钧对金氏宠幸越来越衰减。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_wmAkgQUi0HIspNtplOUskJ
+        - id: cs_IxS7rQoDzrQ8wSEOAoQ_kI
           claim_id: c_amx7K8cRo9wHUAW4EMVSzk
-          source_id: s_b6smEGf7R8PSuAj6a239Gy
+          source_id: s_ByhOokW-uwdDgWA4Q04rlU
           stance: supports
-          locator: Q6470281
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_b6smEGf7R8PSuAj6a239Gy
-            source_type: api_record
-            title: 维基数据：金皇后（Q6470281）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 金皇后（?—?），闽惠宗王延钧的继室，在清远公主去世后娶其为妻。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_ByhOokW-uwdDgWA4Q04rlU
+            source_type: website
+            title: 中文维基百科：金皇后
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q6470281
+            canonical_url: https://zh.wikipedia.org/wiki/%E9%87%91%E7%9A%87%E5%90%8E
             external_identifier: Q6470281
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E9%87%91%E7%9A%87%E5%90%8E
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-13T09:29:27.764Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -69,7 +68,19 @@ properties:
           locator: Q6470281
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: *a1
+          source: &a1
+            id: s_b6smEGf7R8PSuAj6a239Gy
+            source_type: api_record
+            title: 维基数据：金皇后（Q6470281）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q6470281
+            external_identifier: Q6470281
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E9%87%91%E7%9A%87%E5%90%8E
       object_person: null
     alternatives: []
 relationships:
@@ -137,7 +148,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 金皇后，史料所见人物。本项目依据《金皇后》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 金皇后（?—?），闽惠宗王延钧的继室，在清远公主去世后娶其为妻。溫和贤惠，姿色秀麗，可是王延钧却不喜她寡淡无味。后来，王延钧喜欢了父亲王审知的侍女陳金鳳，王延钧对金氏宠幸越来越衰减。 | accepted |
 | name.primary | 金皇后 | accepted |
 
 ## 关联关系
@@ -150,3 +161,4 @@ relationships:
 
 - [维基数据：金皇后（Q6470281）](https://www.wikidata.org/wiki/Q6470281)
 - [维基数据：王延钧（Q2109927）](https://www.wikidata.org/wiki/Q2109927)
+- [中文维基百科：金皇后](https://zh.wikipedia.org/wiki/%E9%87%91%E7%9A%87%E5%90%8E)

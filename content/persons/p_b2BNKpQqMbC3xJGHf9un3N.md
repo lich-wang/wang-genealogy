@@ -76,11 +76,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王明（919年—991年），宋人物。籍贯成安，入仕薦舉 (保任,保舉)，曾任三司使、刺史、禮部侍郎。（中国历代人物传记资料库 CBDB 1855）
-          language: zh-Hans
+          text: 王明（919年—991年），字如晦，大名成安人，宋朝軍事人物。曾參與討平南汉末代皇帝劉鋹。
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
         - id: cs_ofKM1M4wQWzdbZZSZGMrwq
           claim_id: c_1eWpBpJ1CaTXLo3qGC77fX
@@ -90,14 +90,25 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
-        - id: cs_oWUeqX3gLO5Pap_b4Q_o_I
+        - id: cs_45GR7PMp_00gGcvgNcMVDe
           claim_id: c_1eWpBpJ1CaTXLo3qGC77fX
-          source_id: s_aL4EcP94aV8eKfMQDR86hi
+          source_id: s_HJ7w1Zf0ZWPa39Hvk82VQQ
           stance: supports
-          locator: CBDB:1855
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: *a2
+          locator: 导言
+          quotation: 王明（919年—991年），字如晦，大名成安人，宋朝軍事人物。曾
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_HJ7w1Zf0ZWPa39Hvk82VQQ
+            source_type: website
+            title: 中文维基百科：王明 (宋朝)
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%98%8E_(%E5%AE%8B%E6%9C%9D)
+            external_identifier: Q28414907
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-13T09:29:27.764Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -311,7 +322,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王明 | accepted |
-| bio.summary | 王明（919年—991年），宋人物。籍贯成安，入仕薦舉 (保任,保舉)，曾任三司使、刺史、禮部侍郎。（中国历代人物传记资料库 CBDB 1855） | accepted |
+| bio.summary | 王明（919年—991年），字如晦，大名成安人，宋朝軍事人物。曾參與討平南汉末代皇帝劉鋹。 | accepted |
 | birth.date | 919年 | accepted |
 | death.date | 991年 | accepted |
 
@@ -329,4 +340,5 @@ relationships:
 - [维基数据：王扶（Q45359463）](https://www.wikidata.org/wiki/Q45359463)
 - [维基数据：王明（Q28414907）](https://www.wikidata.org/wiki/Q28414907)
 - [中国历代人物传记资料库：王掞（CBDB 37906）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37906&o=json)
+- [中文维基百科：王明 (宋朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%98%8E_(%E5%AE%8B%E6%9C%9D))
 - [CBDB 中国历代人物传记资料库：王明（1855）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1855&o=json)

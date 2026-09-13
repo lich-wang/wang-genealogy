@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王伾（卒于806年），史料所见人物。本项目依据《中国历代人物传记资料库：王伾（CBDB 189642）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王伾（卒于806年），唐人物。身份为書法家，曾任州司馬。（中国历代人物传记资料库 CBDB 189642）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_Qu7yD9SanxK1v99tdtotEI
           claim_id: c_AG7AyZKHz2TFCVENjejFEH
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:189642
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_v44LgUSRCSMPX4pvi9X6dk
             source_type: api_record
@@ -135,7 +135,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王伾（卒于806年），史料所见人物。本项目依据《中国历代人物传记资料库：王伾（CBDB 189642）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王伾（卒于806年），唐人物。身份为書法家，曾任州司馬。（中国历代人物传记资料库 CBDB 189642） | accepted |
 | death.date | 806年 | accepted |
 | name.primary | 王伾 | accepted |
 

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王汝賓（生于1481年），史料所见人物。本项目依据《中国历代人物传记资料库：王汝賓（CBDB 202144）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王汝賓（生于1481年），明人物。明清進士進士，籍贯德化，入仕進士。（中国历代人物传记资料库 CBDB 202144）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_TPTYhEJCraI3N87rrkW_Oa
           claim_id: c_WwU3PY47HJzV664MoFx9Tx
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:202144
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_vh76r1Mykg5pyG8i5yRcC5
             source_type: api_record
@@ -246,7 +246,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王汝賓（生于1481年），史料所见人物。本项目依据《中国历代人物传记资料库：王汝賓（CBDB 202144）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王汝賓（生于1481年），明人物。明清進士進士，籍贯德化，入仕進士。（中国历代人物传记资料库 CBDB 202144） | accepted |
 | birth.date | 1481年 | accepted |
 | name.primary | 王汝賓 | accepted |
 

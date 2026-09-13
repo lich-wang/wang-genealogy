@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王溉槐，史料所见人物。本项目依据《中国历代人物传记资料库：王溉槐（CBDB 235464）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王溉槐，明人物。籍贯東光，入仕庠生。（中国历代人物传记资料库 CBDB 235464）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_ksKc-8MdtcNv65wKJlP-1O
           claim_id: c_R6BAjqFGXG36pcm5CMw2q5
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:235464
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_QXYD7rdXyT5aDJJeaSJ1rk
             source_type: api_record
@@ -130,7 +130,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王溉槐，史料所见人物。本项目依据《中国历代人物传记资料库：王溉槐（CBDB 235464）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王溉槐，明人物。籍贯東光，入仕庠生。（中国历代人物传记资料库 CBDB 235464） | accepted |
 | name.primary | 王溉槐 | accepted |
 
 ## 关联关系

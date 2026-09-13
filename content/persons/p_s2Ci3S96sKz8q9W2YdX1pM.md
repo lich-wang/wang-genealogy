@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王審瓊（卒于1005年），史料所见人物。本项目依据《中国历代人物传记资料库：王審瓊（CBDB 689254）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王審瓊（卒于1005年），宋人物。籍贯屯留。（中国历代人物传记资料库 CBDB 689254）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_ieF6d1sbPrGfYyYOTdeJE9
           claim_id: c_8h3uiuagtJcbnh5hVBhF6R
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:689254
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_JfVqmXA6KZKbZCUe4FFA5i
             source_type: api_record
@@ -654,7 +654,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王審瓊（卒于1005年），史料所见人物。本项目依据《中国历代人物传记资料库：王審瓊（CBDB 689254）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王審瓊（卒于1005年），宋人物。籍贯屯留。（中国历代人物传记资料库 CBDB 689254） | accepted |
 | death.date | 1005年 | accepted |
 | name.primary | 王審瓊 | accepted |
 

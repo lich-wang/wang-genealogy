@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王啟焜（1730年—1798年），史料所见人物。本项目依据《中国历代人物传记资料库：王啟焜（CBDB 61563）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王啟焜（1730年—1798年），清人物。籍贯嘉善，入仕監生，曾任差遣、縣丞、知府。（中国历代人物传记资料库 CBDB 61563）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_G5d62E0tal4YLwZMW11JMP
           claim_id: c_z1cMq4qMwbnJkN43sC2XhN
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:61563
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_4Z2tmQufeAC3dRLMaJm4b5
             source_type: api_record
@@ -178,7 +178,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王啟焜（1730年—1798年），史料所见人物。本项目依据《中国历代人物传记资料库：王啟焜（CBDB 61563）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王啟焜（1730年—1798年），清人物。籍贯嘉善，入仕監生，曾任差遣、縣丞、知府。（中国历代人物传记资料库 CBDB 61563） | accepted |
 | birth.date | 1730年 | accepted |
 | death.date | 1798年 | accepted |
 | name.primary | 王啟焜 | accepted |

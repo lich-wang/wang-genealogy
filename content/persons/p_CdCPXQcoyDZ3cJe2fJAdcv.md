@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王連三（生于1845年），史料所见人物。本项目依据《中国历代人物传记资料库：王連三（CBDB 61587）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王連三（生于1845年），清人物。籍贯鄧州，入仕恩蔭、蔭補，曾任軍統領、鎮總兵。（中国历代人物传记资料库 CBDB 61587）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_47eoKycccgPS3P1Hbn6vZ4
           claim_id: c_U1iozuCnZ86oJVQSQt7CLc
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:61587
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_D1sqK2YBg8KMB93QpbdXJ5
             source_type: api_record
@@ -135,7 +135,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王連三（生于1845年），史料所见人物。本项目依据《中国历代人物传记资料库：王連三（CBDB 61587）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王連三（生于1845年），清人物。籍贯鄧州，入仕恩蔭、蔭補，曾任軍統領、鎮總兵。（中国历代人物传记资料库 CBDB 61587） | accepted |
 | birth.date | 1845年 | accepted |
 | name.primary | 王連三 | accepted |
 

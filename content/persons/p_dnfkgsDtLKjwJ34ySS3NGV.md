@@ -51,7 +51,7 @@ properties:
           locator: CBDB:196170
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a2
+          source:
             id: s_iM9Nk8MUETox3ohoZg8FyV
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王士則（196170）
@@ -76,11 +76,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王士则（卒于831年），唐人物。籍贯河南，曾任州刺史、團練使、左神武軍將軍。（中国历代人物传记资料库 CBDB 196170）
+          text: 王士则（?—?），唐朝将领，王武俊的儿子，王士真的弟弟，王士平异母兄。 建中三年（782年），王武俊国号赵，以恒州为真定府，命王士真留守兼元帅，以王士清司武尚书、王士则司文侍郎。其兄王士真死后，王承宗既立为节度使，不容叔父，王士则奔于京师，担任神策大将军。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
         - id: cs_5GRhgGMPQraR9FeRbziKr6
           claim_id: c_63QUWgr5E7uFjxCiQhXgG3
@@ -90,14 +90,25 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
-        - id: cs_gs8P3ZjflqP3C6Uz8OK0oD
+        - id: cs_KrJW7_E3QIw4x2hagMgWai
           claim_id: c_63QUWgr5E7uFjxCiQhXgG3
-          source_id: s_iM9Nk8MUETox3ohoZg8FyV
+          source_id: s_YGwZhHUTmTXYKP-RO2_RMk
           stance: supports
-          locator: CBDB:196170
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: *a2
+          locator: 导言
+          quotation: 王士则（?—?），唐朝将领，王武俊的儿子，王士真的弟弟，王士平异
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_YGwZhHUTmTXYKP-RO2_RMk
+            source_type: website
+            title: 中文维基百科：王士則
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E5%89%87
+            external_identifier: Q45630024
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-13T09:29:27.764Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: death.date
@@ -213,7 +224,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王士则 | accepted |
-| bio.summary | 王士则（卒于831年），唐人物。籍贯河南，曾任州刺史、團練使、左神武軍將軍。（中国历代人物传记资料库 CBDB 196170） | accepted |
+| bio.summary | 王士则（?—?），唐朝将领，王武俊的儿子，王士真的弟弟，王士平异母兄。 建中三年（782年），王武俊国号赵，以恒州为真定府，命王士真留守兼元帅，以王士清司武尚书、王士则司文侍郎。其兄王士真死后，王承宗既立为节度使，不容叔父，王士则奔于京师，担任神策大将军。 | accepted |
 | death.date | 831年 | accepted |
 
 ## 关联关系
@@ -226,5 +237,6 @@ relationships:
 
 - [维基数据：王士则（Q45630024）](https://www.wikidata.org/wiki/Q45630024)
 - [维基数据：王武俊（Q7967676）](https://www.wikidata.org/wiki/Q7967676)
+- [中文维基百科：王士則](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E5%89%87)
 - [CBDB 中国历代人物传记资料库：王士則（196170）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=196170&o=json)
 - [CBDB 中国历代人物传记资料库：王武俊（191752）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191752&o=json)

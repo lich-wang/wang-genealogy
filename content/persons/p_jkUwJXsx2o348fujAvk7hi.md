@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王化龍（卒于1797年），史料所见人物。本项目依据《中国历代人物传记资料库：王化龍（CBDB 69098）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王化龍（卒于1797年），清人物。籍贯固原州，入仕武舉進士，曾任標前營都司、督標中營都司、營都司。（中国历代人物传记资料库 CBDB 69098）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_asikHf7pD31ZWPFbyDCTAE
           claim_id: c_2yP5ftugxBtjLZztfoD69D
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:69098
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_JMPW7BoL6NGowxaATCGmCK
             source_type: api_record
@@ -173,7 +173,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王化龍（卒于1797年），史料所见人物。本项目依据《中国历代人物传记资料库：王化龍（CBDB 69098）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王化龍（卒于1797年），清人物。籍贯固原州，入仕武舉進士，曾任標前營都司、督標中營都司、營都司。（中国历代人物传记资料库 CBDB 69098） | accepted |
 | death.date | 1797年 | accepted |
 | name.primary | 王化龍 | accepted |
 

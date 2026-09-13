@@ -51,7 +51,7 @@ properties:
           locator: CBDB:126525
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a2
+          source:
             id: s_seeMM8M9x8R9M4bJsokGPr
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王汶（126525）
@@ -76,11 +76,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王汶（1433年—1489年），明人物。明清進士進士，籍贯義烏，身份为藏書家，入仕進士。（中国历代人物传记资料库 CBDB 126525）
-          language: zh-Hant
+          text: 王汶（1433年—1489年），字允達，浙江義烏人。明朝官员。
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
         - id: cs_9MGPCUaLXPqjrvwzXCyaof
           claim_id: c_Ymi8Ya4YsKH8h46kMw3fjF
@@ -90,14 +90,25 @@ properties:
           quotation: null
           interpretation_note: 维基数据条目描述
           source: *a1
-        - id: cs_qGRM2A7X2sBktPPz8ir8R-
+        - id: cs_dG11rQyCLbpYJ3ZAf9ShJB
           claim_id: c_Ymi8Ya4YsKH8h46kMw3fjF
-          source_id: s_seeMM8M9x8R9M4bJsokGPr
+          source_id: s_qoPd3eaMPKd02TYOucqhRH
           stance: supports
-          locator: CBDB:126525
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: *a2
+          locator: 导言
+          quotation: 王汶（1433年—1489年），字允達，浙江義烏人。明朝官员。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_qoPd3eaMPKd02TYOucqhRH
+            source_type: website
+            title: 中文维基百科：王汶
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%B1%B6
+            external_identifier: Q15897288
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-13T09:29:27.764Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -250,7 +261,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王汶 | accepted |
-| bio.summary | 王汶（1433年—1489年），明人物。明清進士進士，籍贯義烏，身份为藏書家，入仕進士。（中国历代人物传记资料库 CBDB 126525） | accepted |
+| bio.summary | 王汶（1433年—1489年），字允達，浙江義烏人。明朝官员。 | accepted |
 | birth.date | 1433年 | accepted |
 | death.date | 1489年 | accepted |
 
@@ -265,5 +276,6 @@ relationships:
 
 - [维基数据：王汶（Q15897288）](https://www.wikidata.org/wiki/Q15897288)
 - [中国历代人物传记资料库：王紳（CBDB 252814）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252814&o=json)
+- [中文维基百科：王汶](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%B1%B6)
 - [CBDB 中国历代人物传记资料库：王稌（437664）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437664&o=json)
 - [CBDB 中国历代人物传记资料库：王汶（126525）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126525&o=json)

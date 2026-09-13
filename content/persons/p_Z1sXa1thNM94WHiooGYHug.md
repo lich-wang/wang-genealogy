@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王孟煦（生于1559年），史料所见人物。本项目依据《中国历代人物传记资料库：王孟煦（CBDB 207153）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王孟煦（生于1559年），明人物。萬曆丙戌科進士進士，籍贯安邱，入仕進士，曾任翰林庶吉士、兵部觀政。（中国历代人物传记资料库 CBDB 207153）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_3OG8klQnXIa52AJMuXIJiL
           claim_id: c_iAjEf2eSnJ5uNLkqHsGPDw
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:207153
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_nqL6Q2bA84FTye6FwFmPJM
             source_type: api_record
@@ -246,7 +246,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王孟煦（生于1559年），史料所见人物。本项目依据《中国历代人物传记资料库：王孟煦（CBDB 207153）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王孟煦（生于1559年），明人物。萬曆丙戌科進士進士，籍贯安邱，入仕進士，曾任翰林庶吉士、兵部觀政。（中国历代人物传记资料库 CBDB 207153） | accepted |
 | birth.date | 1559年 | accepted |
 | name.primary | 王孟煦 | accepted |
 

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王寥（卒于775年），史料所见人物。本项目依据《中国历代人物传记资料库：王寥（CBDB 175950）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王寥（卒于775年），唐人物。籍贯咸陽，曾任衛錄事參軍。（中国历代人物传记资料库 CBDB 175950）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_9298Uw19N9T9hPiFYPKvql
           claim_id: c_GFzMS9FEk57Yhe9WqyWpCV
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:175950
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_GeEGyGyeFYxAwxoJSi5ZFc
             source_type: api_record
@@ -173,7 +173,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王寥（卒于775年），史料所见人物。本项目依据《中国历代人物传记资料库：王寥（CBDB 175950）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王寥（卒于775年），唐人物。籍贯咸陽，曾任衛錄事參軍。（中国历代人物传记资料库 CBDB 175950） | accepted |
 | death.date | 775年 | accepted |
 | name.primary | 王寥 | accepted |
 

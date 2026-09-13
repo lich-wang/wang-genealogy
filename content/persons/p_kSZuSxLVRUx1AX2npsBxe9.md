@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王垽，史料所见人物。本项目依据《中国历代人物传记资料库：王垽（CBDB 321405）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王垽，明人物。嘉靖三十五年進士，籍贯輝縣，曾任府同知。（中国历代人物传记资料库 CBDB 321405）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_GfnQ8_e0Dkr7gsM-CVayyy
           claim_id: c_71gcMF13hM6giBtrF773fW
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:321405
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_5i1N75EASUW2u3BKYQvk8t
             source_type: api_record
@@ -129,7 +129,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王垽，史料所见人物。本项目依据《中国历代人物传记资料库：王垽（CBDB 321405）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王垽，明人物。嘉靖三十五年進士，籍贯輝縣，曾任府同知。（中国历代人物传记资料库 CBDB 321405） | accepted |
 | name.primary | 王垽 | accepted |
 
 ## 关联关系

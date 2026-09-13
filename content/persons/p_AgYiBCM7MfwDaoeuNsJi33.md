@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王惟寅（1194年—1255年），史料所见人物。本项目依据《中国历代人物传记资料库：王惟寅（CBDB 25801）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王惟寅（1194年—1255年），宋人物。籍贯嵊縣，身份为理學家、孝子/孝女，入仕恩蔭、蔭補，曾任迪功郎。（中国历代人物传记资料库 CBDB 25801）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_a1hZG00ODScBCf8RD7TSYR
           claim_id: c_tfFqGU7J1ri8MAuKexXk21
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:25801
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_nnWHjL1gZBt4aC7M6aKnfS
             source_type: api_record
@@ -215,7 +215,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王惟寅（1194年—1255年），史料所见人物。本项目依据《中国历代人物传记资料库：王惟寅（CBDB 25801）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王惟寅（1194年—1255年），宋人物。籍贯嵊縣，身份为理學家、孝子/孝女，入仕恩蔭、蔭補，曾任迪功郎。（中国历代人物传记资料库 CBDB 25801） | accepted |
 | birth.date | 1194年 | accepted |
 | death.date | 1255年 | accepted |
 | name.primary | 王惟寅 | accepted |

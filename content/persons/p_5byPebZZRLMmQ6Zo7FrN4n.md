@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王學濂，史料所见人物。本项目依据《中国历代人物传记资料库：王學濂（CBDB 343661）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王學濂，清人物。明清進士進士，籍贯仁和，入仕進士。（中国历代人物传记资料库 CBDB 343661）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_hjdp_Ua_uDI-i6IBtlQxE9
           claim_id: c_bFZRErKiY5y1MxWxNSWGhz
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:343661
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_X2YTRB1py7U2LtTYaC36Dr
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王學濂，史料所见人物。本项目依据《中国历代人物传记资料库：王學濂（CBDB 343661）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王學濂，清人物。明清進士進士，籍贯仁和，入仕進士。（中国历代人物传记资料库 CBDB 343661） | accepted |
 | name.primary | 王學濂 | accepted |
 
 ## 关联关系

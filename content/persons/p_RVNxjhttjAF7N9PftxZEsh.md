@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王惟詢（1783年—1825年），史料所见人物。本项目依据《中国历代人物传记资料库：王惟詢（CBDB 439129）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王惟詢（1783年—1825年），清人物。籍贯海豐，入仕進士，曾任編修、同考官、鄉試考官。（中国历代人物传记资料库 CBDB 439129）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_ta60JTEm1tj0tqWfZYuW3i
           claim_id: c_quJQXkK6c148GyKZMh83vu
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:439129
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_47nDe2TJZmjbCkxrG8bAGJ
             source_type: api_record
@@ -178,7 +178,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王惟詢（1783年—1825年），史料所见人物。本项目依据《中国历代人物传记资料库：王惟詢（CBDB 439129）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王惟詢（1783年—1825年），清人物。籍贯海豐，入仕進士，曾任編修、同考官、鄉試考官。（中国历代人物传记资料库 CBDB 439129） | accepted |
 | birth.date | 1783年 | accepted |
 | death.date | 1825年 | accepted |
 | name.primary | 王惟詢 | accepted |

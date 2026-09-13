@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王甫禮，史料所见人物。本项目依据《中国历代人物传记资料库：王甫禮（CBDB 337144）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王甫禮，明人物。天順八年進士。（中国历代人物传记资料库 CBDB 337144）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_DOd2LAyiMucXkfkYXzzI27
           claim_id: c_mhhLYHF5DTnqDs4vuzaBaj
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:337144
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_LGp9qscXZ3JgaK3KFVoDVK
             source_type: api_record
@@ -129,7 +129,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王甫禮，史料所见人物。本项目依据《中国历代人物传记资料库：王甫禮（CBDB 337144）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王甫禮，明人物。天順八年進士。（中国历代人物传记资料库 CBDB 337144） | accepted |
 | name.primary | 王甫禮 | accepted |
 
 ## 关联关系

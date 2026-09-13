@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王心安（卒于1871年），史料所见人物。本项目依据《中国历代人物传记资料库：王心安（CBDB 69027）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王心安（卒于1871年），清人物。籍贯襄陽府，入仕軍功補授(軍功)。（中国历代人物传记资料库 CBDB 69027）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_1z_nVp7JY0D0lHG7SkrErn
           claim_id: c_fJ2FWfxdBY3UMq1B7gAVQJ
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:69027
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_N8EK37yscPW29hL3AVmaQc
             source_type: api_record
@@ -135,7 +135,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王心安（卒于1871年），史料所见人物。本项目依据《中国历代人物传记资料库：王心安（CBDB 69027）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王心安（卒于1871年），清人物。籍贯襄陽府，入仕軍功補授(軍功)。（中国历代人物传记资料库 CBDB 69027） | accepted |
 | death.date | 1871年 | accepted |
 | name.primary | 王心安 | accepted |
 

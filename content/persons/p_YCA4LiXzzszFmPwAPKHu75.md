@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王宣詔，史料所见人物。本项目依据《中国历代人物传记资料库：王宣詔（CBDB 29995）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王宣詔，清人物。籍贯寶坻。（中国历代人物传记资料库 CBDB 29995）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_cIMTd0OM6CveGQ_uOXeOar
           claim_id: c_xReWFPXaBReskYE9AsCYGD
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:29995
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_nYsSuEmF31hfvGppPoW1vQ
             source_type: api_record
@@ -130,7 +130,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王宣詔，史料所见人物。本项目依据《中国历代人物传记资料库：王宣詔（CBDB 29995）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王宣詔，清人物。籍贯寶坻。（中国历代人物传记资料库 CBDB 29995） | accepted |
 | name.primary | 王宣詔 | accepted |
 
 ## 关联关系

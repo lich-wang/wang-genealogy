@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王萱齡，史料所见人物。本项目依据《中国历代人物传记资料库：王萱齡（CBDB 69440）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王萱齡，清人物。籍贯昌平州，身份为小學家－訓詁學，入仕副貢生，曾任縣教諭。（中国历代人物传记资料库 CBDB 69440）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_OCz5f1IlsWu3-Uv4uuWg1e
           claim_id: c_uWw6Qu2qjHEJj1zC7mcrNY
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:69440
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_xJiG38fmGjiSjq2NgsbcWf
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王萱齡，史料所见人物。本项目依据《中国历代人物传记资料库：王萱齡（CBDB 69440）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王萱齡，清人物。籍贯昌平州，身份为小學家－訓詁學，入仕副貢生，曾任縣教諭。（中国历代人物传记资料库 CBDB 69440） | accepted |
 | name.primary | 王萱齡 | accepted |
 
 ## 关联关系

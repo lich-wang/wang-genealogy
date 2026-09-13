@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王春復（生于1507年），史料所见人物。本项目依据《中国历代人物传记资料库：王春復（CBDB 203136）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王春復（生于1507年），明人物。明清進士進士，籍贯晉江，入仕進士，曾任主事。（中国历代人物传记资料库 CBDB 203136）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_yWr7bHfcTgu1xFl75JdBpy
           claim_id: c_Q5ooeULdr4Vqgj37razk3b
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:203136
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_NfGK3AwkKbEP1unU1PKMcc
             source_type: api_record
@@ -246,7 +246,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王春復（生于1507年），史料所见人物。本项目依据《中国历代人物传记资料库：王春復（CBDB 203136）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王春復（生于1507年），明人物。明清進士進士，籍贯晉江，入仕進士，曾任主事。（中国历代人物传记资料库 CBDB 203136） | accepted |
 | birth.date | 1507年 | accepted |
 | name.primary | 王春復 | accepted |
 

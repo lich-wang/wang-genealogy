@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王良柱（生于1501年），史料所见人物。本项目依据《中国历代人物传记资料库：王良柱（CBDB 202803）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王良柱（生于1501年），明人物。嘉靖十一年進士，籍贯南安，入仕進士，曾任工部郎中、工部員外郎、吏部觀政。（中国历代人物传记资料库 CBDB 202803）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_KmM7cG4xFlmTGsID8oh-IL
           claim_id: c_WZvu3CM5pXarAkwN5p9W1P
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:202803
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_Mv5dxPVUorJgLKNwkRHiB4
             source_type: api_record
@@ -738,7 +738,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王良柱（生于1501年），史料所见人物。本项目依据《中国历代人物传记资料库：王良柱（CBDB 202803）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王良柱（生于1501年），明人物。嘉靖十一年進士，籍贯南安，入仕進士，曾任工部郎中、工部員外郎、吏部觀政。（中国历代人物传记资料库 CBDB 202803） | accepted |
 | birth.date | 1501年 | accepted |
 | name.primary | 王良柱 | accepted |
 

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王式旦（1641年—1685年），史料所见人物。本项目依据《中国历代人物传记资料库：王式旦（CBDB 71520）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王式旦（1641年—1685年），清人物。籍贯寶應。（中国历代人物传记资料库 CBDB 71520）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_n0t7q5nuFpoFIEbDn9NuIw
           claim_id: c_xvcwQb7axxyxAQXHpRErU8
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:71520
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_o83M5Zk9QvSEuAz9YJ7QaE
             source_type: api_record
@@ -178,7 +178,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王式旦（1641年—1685年），史料所见人物。本项目依据《中国历代人物传记资料库：王式旦（CBDB 71520）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王式旦（1641年—1685年），清人物。籍贯寶應。（中国历代人物传记资料库 CBDB 71520） | accepted |
 | birth.date | 1641年 | accepted |
 | death.date | 1685年 | accepted |
 | name.primary | 王式旦 | accepted |

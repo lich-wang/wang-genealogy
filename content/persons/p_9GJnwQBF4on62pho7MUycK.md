@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王洤（1190年—1237年），史料所见人物。本项目依据《中国历代人物传记资料库：王洤（CBDB 22205）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: "王洤（1190年—1237年），宋人物。籍贯襄陽，入仕恩蔭: 大禮蔭補，曾任朝奉郎、迪功郎、通判。（中国历代人物传记资料库 CBDB 22205）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_uwlcnnf7XCfcRhj1KCDfd_
           claim_id: c_3uGnJkL9F4JLp9k8BycADq
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:22205
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_p8XRvMhcki9qMC8B2TFFJh
             source_type: api_record
@@ -216,7 +216,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王洤（1190年—1237年），史料所见人物。本项目依据《中国历代人物传记资料库：王洤（CBDB 22205）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王洤（1190年—1237年），宋人物。籍贯襄陽，入仕恩蔭: 大禮蔭補，曾任朝奉郎、迪功郎、通判。（中国历代人物传记资料库 CBDB 22205） | accepted |
 | birth.date | 1190年 | accepted |
 | death.date | 1237年 | accepted |
 | name.primary | 王洤 | accepted |

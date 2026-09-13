@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王恭立（1925年—2015年4月14日），史料所见人物。本项目依据《王恭立》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王恭立（1925年—2015年4月14日），英文名Kung-Lee Wang，籍貫浙江奉化，美国百人会创始人。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_TWnxm8s7BDUtNGD4qDMQfB
+        - id: cs_brTXjIYS8o6ntb_inglyqV
           claim_id: c_2JkpwSLepkifQc_OY-WxFw
-          source_id: s_uxsSJH87bh4q6gezPBZg8x
+          source_id: s_KHfo1jnynWtMRZxsfWohov
           stance: supports
-          locator: Q23888312
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_uxsSJH87bh4q6gezPBZg8x
-            source_type: api_record
-            title: 维基数据：王恭立（Q23888312）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王恭立（1925年—2015年4月14日），英文名Kung-Le
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_KHfo1jnynWtMRZxsfWohov
+            source_type: website
+            title: 中文维基百科：王恭立
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q23888312
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%AD%E7%AB%8B
             external_identifier: Q23888312
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%AD%E7%AB%8B
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-13T09:29:27.764Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -69,7 +68,19 @@ properties:
           locator: Q23888312
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: *a1
+          source: &a1
+            id: s_uxsSJH87bh4q6gezPBZg8x
+            source_type: api_record
+            title: 维基数据：王恭立（Q23888312）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q23888312
+            external_identifier: Q23888312
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%AD%E7%AB%8B
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -192,7 +203,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王恭立（1925年—2015年4月14日），史料所见人物。本项目依据《王恭立》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王恭立（1925年—2015年4月14日），英文名Kung-Lee Wang，籍貫浙江奉化，美国百人会创始人。 | accepted |
 | name.primary | 王恭立 | accepted |
 | birth.date | 1925年 | accepted |
 | death.date | 2015年4月14日 | accepted |
@@ -206,4 +217,5 @@ relationships:
 ## 外部来源
 
 - [维基数据：王恭立（Q23888312）](https://www.wikidata.org/wiki/Q23888312)
+- [中文维基百科：王恭立](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%AD%E7%AB%8B)
 - [中文维基百科：王正黼](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%AD%A3%E9%BB%BC)

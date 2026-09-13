@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王延禧，史料所见人物。本项目依据《中国历代人物传记资料库：王延禧（CBDB 17916）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王延禧，宋人物。籍贯鉅野。（中国历代人物传记资料库 CBDB 17916）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_DHXE4UH5v0DZgkmfcWWx90
           claim_id: c_zRw9N5cR1xkQzDBVPE6y9Z
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:17916
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_5fgk9p9GvkFSq66KLWrARt
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王延禧，史料所见人物。本项目依据《中国历代人物传记资料库：王延禧（CBDB 17916）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王延禧，宋人物。籍贯鉅野。（中国历代人物传记资料库 CBDB 17916） | accepted |
 | name.primary | 王延禧 | accepted |
 
 ## 关联关系

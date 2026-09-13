@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王睃，史料所见人物。本项目依据《中国历代人物传记资料库：王睃（CBDB 380410）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王睃，唐人物。曾任州刺史。（中国历代人物传记资料库 CBDB 380410）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs__F0JIEq-GlO8Djk2Kv58ju
           claim_id: c_EJpc4LXRJFeY2qvrEbsJDf
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:380410
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_gDZmkBB39Jhe5LD3L5ixgF
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王睃，史料所见人物。本项目依据《中国历代人物传记资料库：王睃（CBDB 380410）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王睃，唐人物。曾任州刺史。（中国历代人物传记资料库 CBDB 380410） | accepted |
 | name.primary | 王睃 | accepted |
 
 ## 关联关系

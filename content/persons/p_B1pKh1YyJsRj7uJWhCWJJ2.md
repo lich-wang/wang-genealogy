@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王沔之，史料所见人物。本项目依据《中国历代人物传记资料库：王沔之（CBDB 38953）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王沔之，宋人物。籍贯常山，曾任秘書郎、監門、開封府左軍巡院。（中国历代人物传记资料库 CBDB 38953）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_0UGFq_htlhlc99XQDg5Twn
           claim_id: c_tVSAyRVUbuUbH1GohaDDqV
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:38953
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_aBAcJvHHmqL47SfJHZRaqW
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王沔之，史料所见人物。本项目依据《中国历代人物传记资料库：王沔之（CBDB 38953）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王沔之，宋人物。籍贯常山，曾任秘書郎、監門、開封府左軍巡院。（中国历代人物传记资料库 CBDB 38953） | accepted |
 | name.primary | 王沔之 | accepted |
 
 ## 关联关系

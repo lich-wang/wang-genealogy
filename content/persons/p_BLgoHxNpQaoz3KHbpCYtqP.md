@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 许氏，史料所见人物。本项目依据《许氏》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 许氏，王象春繼妻。维基数据以独立条目 Q65837810 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_7TBeoBQ-jEOcpwkd2mkl42
           claim_id: c_C8nC_Mtg_IlyNp01lr4Naq
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: Q65837810
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
           source: &a1
             id: s_DLnV5a3bEc8QDbtdRuuPio
             source_type: api_record
@@ -201,7 +201,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 许氏，史料所见人物。本项目依据《许氏》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 许氏，王象春繼妻。维基数据以独立条目 Q65837810 收录该人物。 | accepted |
 | name.primary | 许氏 | accepted |
 
 ## 关联关系

@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 陈宝琛（1848—1935），中華民國人物。明清進士進士，籍贯閩縣，入仕進士，曾任旗漢軍副都統。（中国历代人物传记资料库 CBDB 54950）
+          text: 陈宝琛（1848年10月25日—1935年3月5日），字敬嘉，原字長庵，改字伯潛，號弢庵、陶庵。同治七年（1868年）進士，選翰林院庶吉士，授編修。福建福州府閩县螺洲人。溥儀帝師。
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_deuMEttwX3OFcwDgTZDDHq
+        - id: cs_noSahZ3IRit74TurdA5KoA
           claim_id: c_bPEuw9tGjw49e1hTk-sU8I
-          source_id: s_Q256UN3vKt1BUZhzEH5s3q
+          source_id: s_AR6WkDv3zqbcL8JjZA2ztI
           stance: supports
-          locator: CBDB:54950
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_Q256UN3vKt1BUZhzEH5s3q
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：陳寶琛（54950）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
+          locator: 导言
+          quotation: 陈宝琛（1848年10月25日—1935年3月5日），字敬嘉，原
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_AR6WkDv3zqbcL8JjZA2ztI
+            source_type: website
+            title: 中文维基百科：陳寶琛
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54950&o=json
-            external_identifier: CBDB:54950
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
+            canonical_url: https://zh.wikipedia.org/wiki/%E9%99%B3%E5%AF%B6%E7%90%9B
+            external_identifier: Q701792
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-13T09:29:27.764Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,7 +69,7 @@ properties:
           locator: Q701792
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a2
+          source: &a1
             id: s_XY2F4YXRNVHzWd4PeSw5S3
             source_type: api_record
             title: 维基数据：陈宝琛（Q701792）
@@ -89,7 +89,18 @@ properties:
           locator: CBDB:54950
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: *a1
+          source:
+            id: s_Q256UN3vKt1BUZhzEH5s3q
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：陳寶琛（54950）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54950&o=json
+            external_identifier: CBDB:54950
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -137,7 +148,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source: *a1
       object_person:
         id: p_KNpy1dBQaf6eznujgBFGp1
         status: active
@@ -156,7 +167,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 陈宝琛（1848—1935），中華民國人物。明清進士進士，籍贯閩縣，入仕進士，曾任旗漢軍副都統。（中国历代人物传记资料库 CBDB 54950） | accepted |
+| bio.summary | 陈宝琛（1848年10月25日—1935年3月5日），字敬嘉，原字長庵，改字伯潛，號弢庵、陶庵。同治七年（1868年）進士，選翰林院庶吉士，授編修。福建福州府閩县螺洲人。溥儀帝師。 | accepted |
 | name.primary | 陈宝琛 | accepted |
 
 ## 关联关系
@@ -169,4 +180,5 @@ relationships:
 
 - [维基数据：陈宝琛（Q701792）](https://www.wikidata.org/wiki/Q701792)
 - [维基数据：王眉寿（Q98060447）](https://www.wikidata.org/wiki/Q98060447)
+- [中文维基百科：陳寶琛](https://zh.wikipedia.org/wiki/%E9%99%B3%E5%AF%B6%E7%90%9B)
 - [CBDB 中国历代人物传记资料库：陳寶琛（54950）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54950&o=json)

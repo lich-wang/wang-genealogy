@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王衍慶，史料所见人物。本项目依据《中国历代人物传记资料库：王衍慶（CBDB 439474）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王衍慶，清人物。籍贯聊城，入仕鄉貢舉人，曾任知縣、海防同知、縣知縣。（中国历代人物传记资料库 CBDB 439474）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_i-XD1y3m7bRQlsNm7sKGE2
           claim_id: c_GGfkBHJQpZhDQeKV3t8qH9
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:439474
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_coTQf1PnZs5PZfdCNza9U5
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王衍慶，史料所见人物。本项目依据《中国历代人物传记资料库：王衍慶（CBDB 439474）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王衍慶，清人物。籍贯聊城，入仕鄉貢舉人，曾任知縣、海防同知、縣知縣。（中国历代人物传记资料库 CBDB 439474） | accepted |
 | name.primary | 王衍慶 | accepted |
 
 ## 关联关系

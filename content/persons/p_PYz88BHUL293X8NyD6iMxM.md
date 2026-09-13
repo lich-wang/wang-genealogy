@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王世鏜（1868年—1933年），史料所见人物。本项目依据《中国历代人物传记资料库：王世鏜（CBDB 71477）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王世鏜（1868年—1933年），中華民國人物。籍贯天津。（中国历代人物传记资料库 CBDB 71477）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_mr8a1hNXORY_MY_6oiozC_
           claim_id: c_PJhG4vafJbmarCYSEEdUEN
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:71477
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_uQC7LL83p4WYvbbqzVqQuK
             source_type: api_record
@@ -178,7 +178,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王世鏜（1868年—1933年），史料所见人物。本项目依据《中国历代人物传记资料库：王世鏜（CBDB 71477）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王世鏜（1868年—1933年），中華民國人物。籍贯天津。（中国历代人物传记资料库 CBDB 71477） | accepted |
 | birth.date | 1868年 | accepted |
 | death.date | 1933年 | accepted |
 | name.primary | 王世鏜 | accepted |

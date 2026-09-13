@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王鍃（生于1442年），史料所见人物。本项目依据《中国历代人物传记资料库：王鍃（CBDB 199647）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王鍃（生于1442年），明人物。成化十一年進士，籍贯慈溪，入仕進士。（中国历代人物传记资料库 CBDB 199647）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_99lwWR-EghKK6cWWZWQdc2
           claim_id: c_46gJF2ZoQkHjYKG84WExyB
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:199647
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_ujotuErWBYZKYB7SBkb6Dx
             source_type: api_record
@@ -246,7 +246,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王鍃（生于1442年），史料所见人物。本项目依据《中国历代人物传记资料库：王鍃（CBDB 199647）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王鍃（生于1442年），明人物。成化十一年進士，籍贯慈溪，入仕進士。（中国历代人物传记资料库 CBDB 199647） | accepted |
 | birth.date | 1442年 | accepted |
 | name.primary | 王鍃 | accepted |
 

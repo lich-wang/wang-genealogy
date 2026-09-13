@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王應遴（卒于1644年），史料所见人物。本项目依据《中国历代人物传记资料库：王應遴（CBDB 439078）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王應遴（卒于1644年），明人物。籍贯山陰，身份为戲曲作家，入仕薦舉 (保任,保舉)，曾任大理寺評事、禮部員外郎、玉牒纂修官。（中国历代人物传记资料库 CBDB 439078）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_5EpaMRwkK477E33NyZJVIQ
           claim_id: c_edadcLCvrB1FuRDeoG97b7
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:439078
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_XTBe1MmjhEfFPjjqJHBDKT
             source_type: api_record
@@ -209,7 +209,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王應遴（卒于1644年），史料所见人物。本项目依据《中国历代人物传记资料库：王應遴（CBDB 439078）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王應遴（卒于1644年），明人物。籍贯山陰，身份为戲曲作家，入仕薦舉 (保任,保舉)，曾任大理寺評事、禮部員外郎、玉牒纂修官。（中国历代人物传记资料库 CBDB 439078） | accepted |
 | death.date | 1644年 | accepted |
 | name.primary | 王應遴 | accepted |
 

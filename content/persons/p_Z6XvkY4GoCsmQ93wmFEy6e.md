@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王實甫（卒于1324年），史料所见人物。本项目依据《中国历代人物传记资料库：王實甫（CBDB 690977）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王實甫（卒于1324年），元人物。籍贯大都河間等路，身份为戲曲作家。（中国历代人物传记资料库 CBDB 690977）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_NTKgJj_zC1HYjrsFmbPTm0
           claim_id: c_QFsruAc7QBptmvn2FeQjwQ
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:690977
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_h7aXEnRSvWGo1u4YE5NZH6
             source_type: api_record
@@ -135,7 +135,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王實甫（卒于1324年），史料所见人物。本项目依据《中国历代人物传记资料库：王實甫（CBDB 690977）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王實甫（卒于1324年），元人物。籍贯大都河間等路，身份为戲曲作家。（中国历代人物传记资料库 CBDB 690977） | accepted |
 | death.date | 1324年 | accepted |
 | name.primary | 王實甫 | accepted |
 

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王庭秀，史料所见人物。本项目依据《中国历代人物传记资料库：王庭秀（CBDB 19082）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王庭秀，宋人物。籍贯慈溪，入仕胥吏出職，曾任朝請郎、直秘閣、中書門下省檢正諸房公事。（中国历代人物传记资料库 CBDB 19082）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_5xN50O76o28Od2KiA_Pt-u
           claim_id: c_m2HEH88HAZaSmBy7QaiRqz
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:19082
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_P9rcd9SYRqyM5Qp4JcJpmA
             source_type: api_record
@@ -167,7 +167,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王庭秀，史料所见人物。本项目依据《中国历代人物传记资料库：王庭秀（CBDB 19082）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王庭秀，宋人物。籍贯慈溪，入仕胥吏出職，曾任朝請郎、直秘閣、中書門下省檢正諸房公事。（中国历代人物传记资料库 CBDB 19082） | accepted |
 | name.primary | 王庭秀 | accepted |
 
 ## 关联关系

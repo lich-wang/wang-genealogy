@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王紹孚（卒于908年），史料所见人物。本项目依据《中国历代人物传记资料库：王紹孚（CBDB 185013）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王紹孚（卒于908年），唐人物。籍贯晉陽，曾任大將軍。（中国历代人物传记资料库 CBDB 185013）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_bfbU1DgJsF7PhydTXXU_-i
           claim_id: c_f4eDCLKdjA8m8EtXpxymJQ
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:185013
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_MudoCqNJh3U2q62vnjihHN
             source_type: api_record
@@ -173,7 +173,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王紹孚（卒于908年），史料所见人物。本项目依据《中国历代人物传记资料库：王紹孚（CBDB 185013）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王紹孚（卒于908年），唐人物。籍贯晉陽，曾任大將軍。（中国历代人物传记资料库 CBDB 185013） | accepted |
 | death.date | 908年 | accepted |
 | name.primary | 王紹孚 | accepted |
 

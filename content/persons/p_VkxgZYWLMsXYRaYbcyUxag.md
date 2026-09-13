@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王勒爾敬安，史料所见人物。本项目依据《中国历代人物传记资料库：王勒爾敬安（CBDB 513258）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王勒爾敬安，清人物。籍贯江寧府，曾任協領。（中国历代人物传记资料库 CBDB 513258）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_d5u5MmfJ-jfRwpI-3gk69P
           claim_id: c_8g7baghgxurhir8CLpUHHL
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:513258
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_t92NYoFBMqkNYvuZE2GjBD
             source_type: api_record
@@ -129,7 +129,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王勒爾敬安，史料所见人物。本项目依据《中国历代人物传记资料库：王勒爾敬安（CBDB 513258）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王勒爾敬安，清人物。籍贯江寧府，曾任協領。（中国历代人物传记资料库 CBDB 513258） | accepted |
 | name.primary | 王勒爾敬安 | accepted |
 
 ## 关联关系

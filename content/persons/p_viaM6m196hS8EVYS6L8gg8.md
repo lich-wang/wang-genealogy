@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王宣化（生于1535年），史料所见人物。本项目依据《中国历代人物传记资料库：王宣化（CBDB 205636）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王宣化（生于1535年），明人物。明清進士進士，籍贯淄川，入仕進士。（中国历代人物传记资料库 CBDB 205636）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_4DI8tHq--ahJHUSoKbWY1p
           claim_id: c_7Jp5gPmMCvNASjWBWp3hDs
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:205636
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_3Py7G31HfcSzJAysw32J6Y
             source_type: api_record
@@ -247,7 +247,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王宣化（生于1535年），史料所见人物。本项目依据《中国历代人物传记资料库：王宣化（CBDB 205636）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王宣化（生于1535年），明人物。明清進士進士，籍贯淄川，入仕進士。（中国历代人物传记资料库 CBDB 205636） | accepted |
 | birth.date | 1535年 | accepted |
 | name.primary | 王宣化 | accepted |
 

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王思軾，史料所见人物。本项目依据《中国历代人物传记资料库：王思軾（CBDB 343462）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王思軾，清人物。明清進士進士，籍贯興國，入仕進士，曾任檢討、鄉試考官、庶子。（中国历代人物传记资料库 CBDB 343462）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_N40Unzfv61I-Rf4u3PjKrT
           claim_id: c_cDD2o1JSPBm5LnDNFuqFk7
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:343462
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_tAQRqdHf4rHW2VSpMVHT25
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王思軾，史料所见人物。本项目依据《中国历代人物传记资料库：王思軾（CBDB 343462）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王思軾，清人物。明清進士進士，籍贯興國，入仕進士，曾任檢討、鄉試考官、庶子。（中国历代人物传记资料库 CBDB 343462） | accepted |
 | name.primary | 王思軾 | accepted |
 
 ## 关联关系

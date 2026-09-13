@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王世仕，史料所见人物。本项目依据《中国历代人物传记资料库：王世仕（CBDB 343175）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王世仕，清人物。明清進士進士，籍贯貴築，入仕進士，曾任檢討、鄉試考官。（中国历代人物传记资料库 CBDB 343175）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_IPDTG7o5S1PoE9i0tbbasy
           claim_id: c_P5i5V3GZ3GXz81F3daQNBY
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:343175
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_S3oqvyjjB5ZwMBisBMqRU1
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王世仕，史料所见人物。本项目依据《中国历代人物传记资料库：王世仕（CBDB 343175）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王世仕，清人物。明清進士進士，籍贯貴築，入仕進士，曾任檢討、鄉試考官。（中国历代人物传记资料库 CBDB 343175） | accepted |
 | name.primary | 王世仕 | accepted |
 
 ## 关联关系

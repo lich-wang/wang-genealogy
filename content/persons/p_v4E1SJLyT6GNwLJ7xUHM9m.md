@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 倪葆春，史料所见人物。本项目依据《倪葆春》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 倪葆春（1899年—1997年），浙江鄞县（今宁波）人，中国医学家，中国整形外科先驱，上海第一医科大学创始人之一。妻子是医学家王淑贞。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_EMRLO34yQ7gK0u_pczRHVs
+        - id: cs_5BH9EHsfhtBjnO2FEywAR_
           claim_id: c_R4answFXRLE3g-ipe8gWxa
-          source_id: s_VDJCa5FFajTShL1aP46XKs
+          source_id: s_bweErgdLcbBEV1Uo7_2qbO
           stance: supports
-          locator: Q10888386
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_VDJCa5FFajTShL1aP46XKs
-            source_type: api_record
-            title: 维基数据：倪葆春（Q10888386）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 倪葆春（1899年—1997年），浙江鄞县（今宁波）人，中国医学
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_bweErgdLcbBEV1Uo7_2qbO
+            source_type: website
+            title: 中文维基百科：倪葆春
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q10888386
+            canonical_url: https://zh.wikipedia.org/wiki/%E5%80%AA%E8%91%86%E6%98%A5
             external_identifier: Q10888386
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E5%80%AA%E8%91%86%E6%98%A5
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-13T09:29:27.764Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -69,7 +68,19 @@ properties:
           locator: Q10888386
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: *a1
+          source: &a1
+            id: s_VDJCa5FFajTShL1aP46XKs
+            source_type: api_record
+            title: 维基数据：倪葆春（Q10888386）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q10888386
+            external_identifier: Q10888386
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E5%80%AA%E8%91%86%E6%98%A5
       object_person: null
     alternatives: []
 relationships:
@@ -136,7 +147,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 倪葆春，史料所见人物。本项目依据《倪葆春》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 倪葆春（1899年—1997年），浙江鄞县（今宁波）人，中国医学家，中国整形外科先驱，上海第一医科大学创始人之一。妻子是医学家王淑贞。 | accepted |
 | name.primary | 倪葆春 | accepted |
 
 ## 关联关系
@@ -148,4 +159,5 @@ relationships:
 ## 外部来源
 
 - [维基数据：倪葆春（Q10888386）](https://www.wikidata.org/wiki/Q10888386)
+- [中文维基百科：倪葆春](https://zh.wikipedia.org/wiki/%E5%80%AA%E8%91%86%E6%98%A5)
 - [中文维基百科：王淑贞](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%B7%91%E8%B4%9E)

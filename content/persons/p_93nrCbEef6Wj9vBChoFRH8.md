@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王曼（前75年—前28年），史料所见人物。本项目依据《維基數據：王曼》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王曼（？—？），字元卿，東平陵（今山東濟南東）人，西汉政治人物。濟北王田安後裔，孝元皇后王政君的哥哥，陽平侯王禁的次子。
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
-        - id: cs_lkTOtGAatGaMW8Ms1Jp8kE
+        - id: cs_8BBFCaF7_q8uiEEw8SH1F2
           claim_id: c_tYUPn53cCKqJ1KG6n199za
-          source_id: s_MictB3JRMX32T52R1AmwXq
+          source_id: s_ZR3FvtYnKnW7JMjHgiod2e
           stance: supports
-          locator: Q2461598
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_MictB3JRMX32T52R1AmwXq
-            source_type: api_record
-            title: 維基數據：王曼（Q2461598）
-            creator: 維基數據貢獻者
+          locator: 导言
+          quotation: 王曼（？—？），字元卿，東平陵（今山東濟南東）人，西汉政治人物。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_ZR3FvtYnKnW7JMjHgiod2e
+            source_type: website
+            title: 中文维基百科：王曼
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q2461598
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%9B%BC
             external_identifier: Q2461598
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T02:10:36.049Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%9B%BC
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-13T09:29:27.764Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -155,7 +154,19 @@ properties:
           locator: Q2461598
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_MictB3JRMX32T52R1AmwXq
+            source_type: api_record
+            title: 維基數據：王曼（Q2461598）
+            creator: 維基數據貢獻者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q2461598
+            external_identifier: Q2461598
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:10:36.049Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%9B%BC
       object_person: null
     alternatives: []
 relationships:
@@ -406,7 +417,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王曼（前75年—前28年），史料所见人物。本项目依据《維基數據：王曼》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王曼（？—？），字元卿，東平陵（今山東濟南東）人，西汉政治人物。濟北王田安後裔，孝元皇后王政君的哥哥，陽平侯王禁的次子。 | accepted |
 | birth.date | 前75年 | accepted |
 | death.date | 前28年 | accepted |
 | name.primary | 王曼 | accepted |
@@ -425,4 +436,5 @@ relationships:
 - [維基數據：王曼（Q2461598）](https://www.wikidata.org/wiki/Q2461598)
 - [維基數據：王莽（Q7250）](https://www.wikidata.org/wiki/Q7250)
 - [中文维基百科：功显君](https://zh.wikipedia.org/wiki/%E5%8A%9F%E6%98%BE%E5%90%9B)
+- [中文维基百科：王曼](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%9B%BC)
 - [中文维基百科：王莽](https://zh.wikipedia.org/wiki/王莽)

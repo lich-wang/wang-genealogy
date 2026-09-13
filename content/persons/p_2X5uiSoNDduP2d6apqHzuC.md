@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王拱安（生于1012年），史料所见人物。本项目依据《中国历代人物传记资料库：王拱安（CBDB 22236）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王拱安（生于1012年），宋人物。籍贯咸平，曾任將作監主簿。（中国历代人物传记资料库 CBDB 22236）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_fr2SNYJEUlOQ17Ml1BQSEo
           claim_id: c_uo9UGu7Gyg6oQccEMe3J9A
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:22236
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_dQQAw2M3XqMbNe7mGg3yPz
             source_type: api_record
@@ -135,7 +135,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王拱安（生于1012年），史料所见人物。本项目依据《中国历代人物传记资料库：王拱安（CBDB 22236）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王拱安（生于1012年），宋人物。籍贯咸平，曾任將作監主簿。（中国历代人物传记资料库 CBDB 22236） | accepted |
 | birth.date | 1012年 | accepted |
 | name.primary | 王拱安 | accepted |
 

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王龜（卒于874年），史料所见人物。本项目依据《中国历代人物传记资料库：王龜（CBDB 92015）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王龜（卒于874年），唐人物。籍贯太原，身份为詩人、工於文，曾任兵部郎中、祠部郎中、觀察使。（中国历代人物传记资料库 CBDB 92015）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_lti3Y9uyKiFkFg0Iqg7jnu
           claim_id: c_UAW4aSzuVtdbby9QzdeLT8
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:92015
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_V48YG1mqzks8H9S3zPmL1e
             source_type: api_record
@@ -172,7 +172,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王龜（卒于874年），史料所见人物。本项目依据《中国历代人物传记资料库：王龜（CBDB 92015）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王龜（卒于874年），唐人物。籍贯太原，身份为詩人、工於文，曾任兵部郎中、祠部郎中、觀察使。（中国历代人物传记资料库 CBDB 92015） | accepted |
 | death.date | 874年 | accepted |
 | name.primary | 王龜 | accepted |
 

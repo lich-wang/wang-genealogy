@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王仁福（1819年—1867年），史料所见人物。本项目依据《中国历代人物传记资料库：王仁福（CBDB 69082）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王仁福（1819年—1867年），清人物。籍贯吳縣，曾任河務同知、經歷、廳同知。（中国历代人物传记资料库 CBDB 69082）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_D2YZ_CdI9k7zpQYSLGN2p8
           claim_id: c_t41kzdy2v4ZaC1t85toc3H
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:69082
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_r9vxfzjNd9TiQdLNfGhx9e
             source_type: api_record
@@ -215,7 +215,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王仁福（1819年—1867年），史料所见人物。本项目依据《中国历代人物传记资料库：王仁福（CBDB 69082）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王仁福（1819年—1867年），清人物。籍贯吳縣，曾任河務同知、經歷、廳同知。（中国历代人物传记资料库 CBDB 69082） | accepted |
 | birth.date | 1819年 | accepted |
 | death.date | 1867年 | accepted |
 | name.primary | 王仁福 | accepted |

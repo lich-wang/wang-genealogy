@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王應嵩，史料所见人物。本项目依据《中国历代人物传记资料库：王應嵩（CBDB 297016）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王應嵩，明人物。嘉靖十四年進士，入仕貢生 = 貢監生 (明清賓貢,功貢)，曾任教諭、訓導。（中国历代人物传记资料库 CBDB 297016）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_qBl3C9l8sClyJbqIko0dmF
           claim_id: c_N55fSg4p3SGtrJPcfRrARd
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:297016
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_agwSEDVYMSq6DXoQuXA7JR
             source_type: api_record
@@ -130,7 +130,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王應嵩，史料所见人物。本项目依据《中国历代人物传记资料库：王應嵩（CBDB 297016）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王應嵩，明人物。嘉靖十四年進士，入仕貢生 = 貢監生 (明清賓貢,功貢)，曾任教諭、訓導。（中国历代人物传记资料库 CBDB 297016） | accepted |
 | name.primary | 王應嵩 | accepted |
 
 ## 关联关系

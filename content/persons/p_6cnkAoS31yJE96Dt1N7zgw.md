@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王思廉（1238年—1320年），史料所见人物。本项目依据《中国历代人物传记资料库：王思廉（CBDB 101278）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王思廉（1238年—1320年），元人物。籍贯獲鹿，身份为宦官，曾任工部尚書、翰林國史院待制、翰林國史院學士承旨。（中国历代人物传记资料库 CBDB 101278）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_4PZ2uJKRvIGq4QWF1z1EJ0
           claim_id: c_SSmJ41NV4Px3Msjttc7z6s
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:101278
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_mwwFvgbSA3wNJ1GJ5DYNRQ
             source_type: api_record
@@ -178,7 +178,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王思廉（1238年—1320年），史料所见人物。本项目依据《中国历代人物传记资料库：王思廉（CBDB 101278）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王思廉（1238年—1320年），元人物。籍贯獲鹿，身份为宦官，曾任工部尚書、翰林國史院待制、翰林國史院學士承旨。（中国历代人物传记资料库 CBDB 101278） | accepted |
 | birth.date | 1238年 | accepted |
 | death.date | 1320年 | accepted |
 | name.primary | 王思廉 | accepted |

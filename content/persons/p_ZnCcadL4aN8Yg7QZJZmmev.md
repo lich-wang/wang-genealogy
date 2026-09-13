@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王依崇阿（1844年—1898年），史料所见人物。本项目依据《中国历代人物传记资料库：王依崇阿（CBDB 60938）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王依崇阿（1844年—1898年），清人物。籍贯漢軍鑲黃旗，曾任城副總管、軍馬隊全營翼長。（中国历代人物传记资料库 CBDB 60938）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_fGWquhDwKYpFlnd5RLz1ao
           claim_id: c_EswUzmPuaZuWSBXXU55kjs
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:60938
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_TyYt6wgzYBg8X6XukXrA2B
             source_type: api_record
@@ -292,7 +292,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王依崇阿（1844年—1898年），史料所见人物。本项目依据《中国历代人物传记资料库：王依崇阿（CBDB 60938）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王依崇阿（1844年—1898年），清人物。籍贯漢軍鑲黃旗，曾任城副總管、軍馬隊全營翼長。（中国历代人物传记资料库 CBDB 60938） | accepted |
 | birth.date | 1844年 | accepted |
 | death.date | 1898年 | accepted |
 | name.primary | 王依崇阿 | accepted |

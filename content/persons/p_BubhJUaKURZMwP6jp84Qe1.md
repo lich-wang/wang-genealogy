@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王槍，史料所见人物。本项目依据《中国历代人物传记资料库：王槍（CBDB 29208）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王槍，元人物。籍贯寧晉。（中国历代人物传记资料库 CBDB 29208）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_1O12eiD9pYD_R9-axlmvZh
           claim_id: c_PeneukHjANxksf9iP8F87Z
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:29208
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
             id: s_XDKWUeHVDggkETLH3ZWMBg
             source_type: api_record
@@ -92,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王槍，史料所见人物。本项目依据《中国历代人物传记资料库：王槍（CBDB 29208）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王槍，元人物。籍贯寧晉。（中国历代人物传记资料库 CBDB 29208） | accepted |
 | name.primary | 王槍 | accepted |
 
 ## 关联关系
