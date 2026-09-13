@@ -4,7 +4,7 @@ id: p_dzQsozLMz4kdNcHPqJVsZP
 status: active
 merged_into: null
 display_name: 王旦
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_dnB5ajBXK0DxJPJQrsttDw
+        subject_person_id: p_wEqsogkdLBrdte1KEpUFVQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dzQsozLMz4kdNcHPqJVsZP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__CADAwv7JNuzubW2Bm4TkK
+          claim_id: c_dnB5ajBXK0DxJPJQrsttDw
+          source_id: s_8i3-E7MR7jbmL6AbT6bnXS
+          stance: supports
+          locator: 宋史·卷二百八十二·王旦：父祐，尚書兵部侍郎。
+          quotation: null
+          interpretation_note: 依据《宋史·王旦传》正史原文复核补充。
+          source:
+            id: s_8i3-E7MR7jbmL6AbT6bnXS
+            source_type: website
+            title: 维基文库：宋史·卷二百八十二·王旦
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/宋史/卷282
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-13T11:29:13.490Z
+            metadata_json: null
+      object_person:
+        id: p_wEqsogkdLBrdte1KEpUFVQ
+        status: active
+        display_name: 王祐
+        merged_into_person_id: null
   children:
     - claim:
         id: c_PoCtsqs2iBLB7uF65ixZhX
@@ -170,7 +207,81 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_TXrUrgxP7RYlGnyne5ZmmV
+        subject_person_id: p_aeQuz9T27oQ8FHTk36tCX7
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_dzQsozLMz4kdNcHPqJVsZP
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9wI1KHW4GaSYYjoRI1-VZ6
+          claim_id: c_TXrUrgxP7RYlGnyne5ZmmV
+          source_id: s_3bzL7xxo5wfo9JJxb3hVnV
+          stance: supports
+          locator: 宋史：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_3bzL7xxo5wfo9JJxb3hVnV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王徹（CBDB 37837）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37837&o=json
+            external_identifier: CBDB:37837
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.268Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_aeQuz9T27oQ8FHTk36tCX7
+        status: active
+        display_name: 王徹
+        merged_into_person_id: null
+    - claim:
+        id: c_06XTxGZADEIYx3xipToNuJ
+        subject_person_id: p_GNHXsNxDAH8x9cA2NzPigP
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_dzQsozLMz4kdNcHPqJVsZP
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ciT7FA1gvBsTGTXrQVaOu4
+          claim_id: c_06XTxGZADEIYx3xipToNuJ
+          source_id: s_GLF3W15r49867jAKaPcYZP
+          stance: supports
+          locator: 宋史：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_GLF3W15r49867jAKaPcYZP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王言（CBDB 17837）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17837&o=json
+            external_identifier: CBDB:17837
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.683Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_GNHXsNxDAH8x9cA2NzPigP
+        status: active
+        display_name: 王言
+        merged_into_person_id: null
   descendants:
     - claim:
         id: c_s1BE32AvFXZLbCxhDUzKgB
@@ -209,6 +320,80 @@ relationships:
         status: active
         display_name: 王鞏
         merged_into_person_id: null
+    - claim:
+        id: c_Caz8eFh3I6XjKgWHQ8lBg9
+        subject_person_id: p_dzQsozLMz4kdNcHPqJVsZP
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_4RuP1y13HperNdMDJkN6MF
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UlvXNlbtTpPRyShSqLijje
+          claim_id: c_Caz8eFh3I6XjKgWHQ8lBg9
+          source_id: s_ryXjfBob4D77XXAGUgL5gi
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：高祖;四世祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ryXjfBob4D77XXAGUgL5gi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王震（CBDB 3947）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3947&o=json
+            external_identifier: CBDB:3947
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.425Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_4RuP1y13HperNdMDJkN6MF
+        status: active
+        display_name: 王震
+        merged_into_person_id: null
+    - claim:
+        id: c_t8anNLd0vlVjDGjGZnA9y6
+        subject_person_id: p_dzQsozLMz4kdNcHPqJVsZP
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_TM1Cuq1eEZmtPXBv2xPrq5
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0TZV_OVxi8s01jVfFiZ7Gl
+          claim_id: c_t8anNLd0vlVjDGjGZnA9y6
+          source_id: s_5xz8dMhtr743npVHmN1U7m
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)，592;593：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_5xz8dMhtr743npVHmN1U7m
+            source_type: api_record
+            title: 中国历代人物传记资料库：王奧（CBDB 38645）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38645&o=json
+            external_identifier: CBDB:38645
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:12.522Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_TM1Cuq1eEZmtPXBv2xPrq5
+        status: active
+        display_name: 王奧
+        merged_into_person_id: null
   other: []
 ---
 
@@ -227,12 +412,22 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wEqsogkdLBrdte1KEpUFVQ | 王祐 | accepted |
 | children | p_WE1MjHX5dTWFtBPANaJMmP | 王雍 | accepted |
 | children | p_VX8j1TBEJ9LitV97mrstMS | 王素 | accepted |
+| ancestors | p_aeQuz9T27oQ8FHTk36tCX7 | 王徹 | accepted |
+| ancestors | p_GNHXsNxDAH8x9cA2NzPigP | 王言 | accepted |
 | descendants | p_XJ584hRRgmwC1emz21vE1F | 王鞏 | accepted |
+| descendants | p_4RuP1y13HperNdMDJkN6MF | 王震 | accepted |
+| descendants | p_TM1Cuq1eEZmtPXBv2xPrq5 | 王奧 | accepted |
 
 ## 外部来源
 
+- [维基文库：宋史·卷二百八十二·王旦](https://zh.wikisource.org/wiki/宋史/卷282)
+- [中国历代人物传记资料库：王奧（CBDB 38645）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38645&o=json)
+- [中国历代人物传记资料库：王徹（CBDB 37837）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37837&o=json)
+- [中国历代人物传记资料库：王言（CBDB 17837）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17837&o=json)
+- [中国历代人物传记资料库：王震（CBDB 3947）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3947&o=json)
 - [中文维基百科：王旦](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%97%A6)
 - [中文维基百科：王鞏](https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%9E%8F)
 - [中文维基百科：王素 (北宋)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%B4%A0_(%E5%8C%97%E5%AE%8B))

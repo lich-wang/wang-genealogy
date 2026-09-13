@@ -4,7 +4,7 @@ id: p_wEqsogkdLBrdte1KEpUFVQ
 status: active
 merged_into: null
 display_name: 王祐
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -185,6 +185,43 @@ relationships:
         status: active
         display_name: 王懿
         merged_into_person_id: null
+    - claim:
+        id: c_dnB5ajBXK0DxJPJQrsttDw
+        subject_person_id: p_wEqsogkdLBrdte1KEpUFVQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dzQsozLMz4kdNcHPqJVsZP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__CADAwv7JNuzubW2Bm4TkK
+          claim_id: c_dnB5ajBXK0DxJPJQrsttDw
+          source_id: s_8i3-E7MR7jbmL6AbT6bnXS
+          stance: supports
+          locator: 宋史·卷二百八十二·王旦：父祐，尚書兵部侍郎。
+          quotation: null
+          interpretation_note: 依据《宋史·王旦传》正史原文复核补充。
+          source:
+            id: s_8i3-E7MR7jbmL6AbT6bnXS
+            source_type: website
+            title: 维基文库：宋史·卷二百八十二·王旦
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/宋史/卷282
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-13T11:29:13.490Z
+            metadata_json: null
+      object_person:
+        id: p_dzQsozLMz4kdNcHPqJVsZP
+        status: active
+        display_name: 王旦
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -285,11 +322,13 @@ relationships:
 | parents | p_aeQuz9T27oQ8FHTk36tCX7 | 王徹 | accepted |
 | children | p_GrcPU22YikfiRPALs5F2kU | 王旭 | accepted |
 | children | p_XcKs2bGERUGdK6cYqHFdDh | 王懿 | accepted |
+| children | p_dzQsozLMz4kdNcHPqJVsZP | 王旦 | accepted |
 | ancestors | p_GNHXsNxDAH8x9cA2NzPigP | 王言 | accepted |
 | descendants | p_7YfpL25vUrnwFFcc6SBg38 | 王博文 | accepted |
 
 ## 外部来源
 
+- [维基文库：宋史·卷二百八十二·王旦](https://zh.wikisource.org/wiki/宋史/卷282)
 - [中国历代人物传记资料库：王博文（CBDB 1860）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1860&o=json)
 - [中国历代人物传记资料库：王徹（CBDB 37837）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37837&o=json)
 - [中国历代人物传记资料库：王旭（CBDB 17838）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17838&o=json)

@@ -4,7 +4,7 @@ id: p_4RuP1y13HperNdMDJkN6MF
 status: active
 merged_into: null
 display_name: 王震
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -199,7 +199,7 @@ relationships:
   ancestors:
     - claim:
         id: c_Caz8eFh3I6XjKgWHQ8lBg9
-        subject_person_id: p_tyaMeFLDyyzL3DtTVsE3uu
+        subject_person_id: p_dzQsozLMz4kdNcHPqJVsZP
         claim_kind: relationship
         predicate: kinship.ancestor_of
         object_person_id: p_4RuP1y13HperNdMDJkN6MF
@@ -219,7 +219,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a1
       object_person:
-        id: p_tyaMeFLDyyzL3DtTVsE3uu
+        id: p_dzQsozLMz4kdNcHPqJVsZP
         status: active
         display_name: 王旦
         merged_into_person_id: null
@@ -272,7 +272,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_26tLQutRv9RfwmDpym5T1E | 王從 | accepted |
 | children | p_MWAK3SJTta3quLLmo1xEow | 王仰 | accepted |
-| ancestors | p_tyaMeFLDyyzL3DtTVsE3uu | 王旦 | accepted |
+| ancestors | p_dzQsozLMz4kdNcHPqJVsZP | 王旦 | accepted |
 | ancestors | p_h7s3yp9U2dC68kkp9tKxxX | 王素 | accepted |
 
 ## 外部来源

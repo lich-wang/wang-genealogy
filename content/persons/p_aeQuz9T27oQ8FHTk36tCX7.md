@@ -4,7 +4,7 @@ id: p_aeQuz9T27oQ8FHTk36tCX7
 status: active
 merged_into: null
 display_name: 王徹
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -136,7 +136,7 @@ relationships:
         subject_person_id: p_aeQuz9T27oQ8FHTk36tCX7
         claim_kind: relationship
         predicate: kinship.ancestor_of
-        object_person_id: p_tyaMeFLDyyzL3DtTVsE3uu
+        object_person_id: p_dzQsozLMz4kdNcHPqJVsZP
         generation_count: 2
         parent_role: null
         value_json: null
@@ -153,7 +153,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a1
       object_person:
-        id: p_tyaMeFLDyyzL3DtTVsE3uu
+        id: p_dzQsozLMz4kdNcHPqJVsZP
         status: active
         display_name: 王旦
         merged_into_person_id: null
@@ -177,7 +177,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_wEqsogkdLBrdte1KEpUFVQ | 王祐 | accepted |
 | descendants | p_JSCcx9nvR4fcq9DRADJkRg | 王克臣 | accepted |
-| descendants | p_tyaMeFLDyyzL3DtTVsE3uu | 王旦 | accepted |
+| descendants | p_dzQsozLMz4kdNcHPqJVsZP | 王旦 | accepted |
 
 ## 外部来源
 
