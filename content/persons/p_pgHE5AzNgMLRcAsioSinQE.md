@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_pgHE5AzNgMLRcAsioSinQE
-status: active
-merged_into: null
+status: merged
+merged_into: p_Ev9rPKJUrkBKAQXV6D6QqB
 display_name: 王丹
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -72,64 +72,7 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents:
-    - claim:
-        id: c_FF95sCrYW9o3F6pZM9aQPT
-        subject_person_id: p_BS59WtwbAaqRXm83dBaHiL
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_pgHE5AzNgMLRcAsioSinQE
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 3
-      sources:
-        - id: cs_7oQ5iBj7frMDToQ6GdDxqo
-          claim_id: c_FF95sCrYW9o3F6pZM9aQPT
-          source_id: s_tUBJ6CGFTo89Ahc3RGMuv1
-          stance: supports
-          locator: P40（子女）
-          quotation: null
-          interpretation_note: null
-          source:
-            id: s_tUBJ6CGFTo89Ahc3RGMuv1
-            source_type: api_record
-            title: 维基数据：王立（Q672221）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q672221
-            external_identifier: Q672221
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T02:49:36.543Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%AB%8B_(%E8%A5%BF%E6%B1%89)
-        - id: cs_tcu1iBRPYkcNaw3GSAWBvA
-          claim_id: c_FF95sCrYW9o3F6pZM9aQPT
-          source_id: s_vbnpi7UzDnDYzPizAgGFx8
-          stance: supports
-          locator: P22（父）
-          quotation: null
-          interpretation_note: null
-          source:
-            id: s_vbnpi7UzDnDYzPizAgGFx8
-            source_type: api_record
-            title: 维基数据：王丹（Q16077401）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q16077401
-            external_identifier: Q16077401
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:10:09.879Z
-            metadata_json: null
-      object_person:
-        id: p_BS59WtwbAaqRXm83dBaHiL
-        status: active
-        display_name: 王立
-        merged_into_person_id: null
+  parents: []
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -154,9 +97,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_BS59WtwbAaqRXm83dBaHiL | 王立 | accepted |
 
 ## 外部来源
 
 - [维基数据：王丹（Q16077401）](https://www.wikidata.org/wiki/Q16077401)
-- [维基数据：王立（Q672221）](https://www.wikidata.org/wiki/Q672221)

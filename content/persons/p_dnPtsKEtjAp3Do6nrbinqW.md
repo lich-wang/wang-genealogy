@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 钱大昕
 cbdb_id: 29876
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -199,44 +199,6 @@ relationships:
         status: active
         display_name: 王舜英
         merged_into_person_id: null
-    - claim:
-        id: c_V62z2ZDDYg110I9Yl02EVP
-        subject_person_id: p_Jun3pZ1BMQpwyok4KhGLAv
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_dnPtsKEtjAp3Do6nrbinqW
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_fsLxuv4XXjUog1O3ejIosP
-          claim_id: c_V62z2ZDDYg110I9Yl02EVP
-          source_id: s_tvsjn4J5b6YZSac65GAynk
-          stance: supports
-          locator: 人名權威資料（中央研究院歷史語言研究所），9394：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_tvsjn4J5b6YZSac65GAynk
-            source_type: api_record
-            title: 中国历代人物传记资料库：王舜英（CBDB 522616）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=522616&o=json
-            external_identifier: CBDB:522616
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:18:17.868Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
-      object_person:
-        id: p_Jun3pZ1BMQpwyok4KhGLAv
-        status: active
-        display_name: 王舜英
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -259,13 +221,11 @@ relationships:
 | --- | --- | --- | --- |
 | spouses | p_PC1VEQ6MT1vrSB4BCFa8jk | 王恭人 | accepted |
 | spouses | p_Jun3pZ1BMQpwyok4KhGLAv | 王舜英 | accepted |
-| spouses | p_Jun3pZ1BMQpwyok4KhGLAv | 王舜英 | accepted |
 
 ## 外部来源
 
 - [维基数据：钱大昕（Q7267607）](https://www.wikidata.org/wiki/Q7267607)
 - [维基数据：王恭人（Q45416835）](https://www.wikidata.org/wiki/Q45416835)
-- [中国历代人物传记资料库：王舜英（CBDB 522616）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=522616&o=json)
 - [中文维基百科：钱大昕](https://zh.wikipedia.org/wiki/%E9%92%B1%E5%A4%A7%E6%98%95)
 - [CBDB 中国历代人物传记资料库：錢大昕（29876）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29876&o=json)
 - [CBDB 中国历代人物传记资料库：王恭人（29896）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29896&o=json)

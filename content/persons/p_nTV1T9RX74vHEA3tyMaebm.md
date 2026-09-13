@@ -4,7 +4,7 @@ id: p_nTV1T9RX74vHEA3tyMaebm
 status: active
 merged_into: null
 display_name: 王與齡
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -185,43 +185,6 @@ relationships:
         status: active
         display_name: 高氏
         merged_into_person_id: null
-    - claim:
-        id: c_SbIiTwOlhjzCYWu0Mp1PGv
-        subject_person_id: p_b83k4g1WnCibKe1zSFCq2F
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_nTV1T9RX74vHEA3tyMaebm
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_V3ffv-e09Aco0c21T05jCA
-          claim_id: c_SbIiTwOlhjzCYWu0Mp1PGv
-          source_id: s_7CMPdP7RS21ee1D3SqqcGM
-          stance: supports
-          locator: 嘉靖八年進士登科錄:一卷，第三甲第一百七十七名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_7CMPdP7RS21ee1D3SqqcGM
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：高氏（290192）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290192&o=json
-            external_identifier: CBDB:290192
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T01:59:53.717Z
-            metadata_json: null
-      object_person:
-        id: p_b83k4g1WnCibKe1zSFCq2F
-        status: active
-        display_name: 高氏
-        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_Iz3YiirdX4EPqZsHBstDgE
@@ -298,11 +261,9 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_KHASkzeAzAbrH4KC5REzz6 | 王爵 | accepted |
 | spouses | p_b83k4g1WnCibKe1zSFCq2F | 高氏 | accepted |
-| spouses | p_b83k4g1WnCibKe1zSFCq2F | 高氏 | accepted |
 | ancestors | p_FxDnZ7tzsLrvZRviCHaK5y | 王睿 | accepted |
 | ancestors | p_qa4sYo9q4waHmECZyCZ8M3 | 王文 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王與齡（CBDB 68464）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68464&o=json)
-- [CBDB 中国历代人物传记资料库：高氏（290192）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290192&o=json)

@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_WiwMbe5khxgYE1U6q8kKz5
-status: active
-merged_into: null
+status: merged
+merged_into: p_7koQzcggkeDLYupbQwieGE
 display_name: 王璟
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -128,160 +128,12 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents:
-    - claim:
-        id: c_P0uudqNTOIcKVu6-nWdmyq
-        subject_person_id: p_sw3d858SSyyvRPzeeoi5f5
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_WiwMbe5khxgYE1U6q8kKz5
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_q8gl2p1kffLDisSWpSPGfZ
-          claim_id: c_P0uudqNTOIcKVu6-nWdmyq
-          source_id: s_r9QnLpEBAEg45SiFrhK6aC
-          stance: supports
-          locator: 成化八年進士登科錄:一卷，第三甲第八十七名：子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_r9QnLpEBAEg45SiFrhK6aC
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王綱（246750）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246750&o=json
-            external_identifier: CBDB:246750
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T01:59:52.244Z
-            metadata_json: null
-      object_person:
-        id: p_sw3d858SSyyvRPzeeoi5f5
-        status: active
-        display_name: 王纲
-        merged_into_person_id: null
+  parents: []
   children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses:
-    - claim:
-        id: c_6QC9p7ZzT3Ws_H-DQiqnky
-        subject_person_id: p_5cGUwGYGBQBf3ZNRJ6zVzU
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_WiwMbe5khxgYE1U6q8kKz5
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_XRay-epSTZzEXJwAPru4WG
-          claim_id: c_6QC9p7ZzT3Ws_H-DQiqnky
-          source_id: s_QvmYayo4YHyQ3r7jSjrV7L
-          stance: supports
-          locator: 成化八年進士登科錄:一卷，第三甲第八十七名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_QvmYayo4YHyQ3r7jSjrV7L
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：劉氏（246752）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246752&o=json
-            external_identifier: CBDB:246752
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T01:59:55.531Z
-            metadata_json: null
-      object_person:
-        id: p_5cGUwGYGBQBf3ZNRJ6zVzU
-        status: active
-        display_name: 刘氏
-        merged_into_person_id: null
-  ancestors:
-    - claim:
-        id: c_jzBZM4q3y-u_wWeWtAC_mg
-        subject_person_id: p_sWnQEKdTJEEDPqzmGjNy9f
-        claim_kind: relationship
-        predicate: kinship.ancestor_of
-        object_person_id: p_WiwMbe5khxgYE1U6q8kKz5
-        generation_count: 3
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_z7UeROAB2yyss5G7_8bTsm
-          claim_id: c_jzBZM4q3y-u_wWeWtAC_mg
-          source_id: s_wnRKRAKdo4c1dUyNyrNHnN
-          stance: supports
-          locator: 成化八年進士登科錄:一卷，第三甲第八十七名：曾孫; 重孫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_wnRKRAKdo4c1dUyNyrNHnN
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王海（246748）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246748&o=json
-            external_identifier: CBDB:246748
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
-      object_person:
-        id: p_sWnQEKdTJEEDPqzmGjNy9f
-        status: active
-        display_name: 王海
-        merged_into_person_id: null
-    - claim:
-        id: c_FcGFa2Y5ZAyX0QYE686r5c
-        subject_person_id: p_L6DCbYaxvTKejPkJXVgChn
-        claim_kind: relationship
-        predicate: kinship.ancestor_of
-        object_person_id: p_WiwMbe5khxgYE1U6q8kKz5
-        generation_count: 2
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_QcPN_A6OjDWFldepdX_Buh
-          claim_id: c_FcGFa2Y5ZAyX0QYE686r5c
-          source_id: s_vYGKv5e2x1htavkJLyVnKL
-          stance: supports
-          locator: 成化八年進士登科錄:一卷，第三甲第八十七名：孫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_vYGKv5e2x1htavkJLyVnKL
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王昇（246749）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246749&o=json
-            external_identifier: CBDB:246749
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:06:57.640Z
-            metadata_json: null
-      object_person:
-        id: p_L6DCbYaxvTKejPkJXVgChn
-        status: active
-        display_name: 王升
-        merged_into_person_id: null
+  spouses: []
+  ancestors: []
   descendants: []
   other: []
 ---
@@ -303,15 +155,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_sw3d858SSyyvRPzeeoi5f5 | 王纲 | accepted |
-| spouses | p_5cGUwGYGBQBf3ZNRJ6zVzU | 刘氏 | accepted |
-| ancestors | p_sWnQEKdTJEEDPqzmGjNy9f | 王海 | accepted |
-| ancestors | p_L6DCbYaxvTKejPkJXVgChn | 王升 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王璟（CBDB 67987）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67987&o=json)
-- [CBDB 中国历代人物传记资料库：劉氏（246752）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246752&o=json)
-- [CBDB 中国历代人物传记资料库：王綱（246750）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246750&o=json)
-- [CBDB 中国历代人物传记资料库：王海（246748）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246748&o=json)
-- [CBDB 中国历代人物传记资料库：王昇（246749）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246749&o=json)

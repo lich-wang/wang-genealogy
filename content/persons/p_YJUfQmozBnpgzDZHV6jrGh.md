@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 李氏
 cbdb_id: 140322
-revision: 5
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -199,58 +199,6 @@ relationships:
         display_name: 王勗
         merged_into_person_id: null
     - claim:
-        id: c_xF9SDEymKOkBB5ypKojmx7
-        subject_person_id: p_YJUfQmozBnpgzDZHV6jrGh
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_cDKZ9odWpBmQ6RH3xs3UzM
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_tR0Sr9CAhVRqmHCOP2tF2M
-          claim_id: c_xF9SDEymKOkBB5ypKojmx7
-          source_id: s_GfMGSQkwGeLC59AEiWNiKr
-          stance: supports
-          locator: 唐代墓誌匯編:二卷，Kaiyuan 47：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_cDKZ9odWpBmQ6RH3xs3UzM
-        status: active
-        display_name: 王勗
-        merged_into_person_id: null
-    - claim:
-        id: c_0FRpsNt0LcxVFXwrsF_K0I
-        subject_person_id: p_YJUfQmozBnpgzDZHV6jrGh
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_ELimFJDuCmQgYQUz8JcHYB
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_4TzPOQQIZkQADVrvgT6yS8
-          claim_id: c_0FRpsNt0LcxVFXwrsF_K0I
-          source_id: s_GfMGSQkwGeLC59AEiWNiKr
-          stance: supports
-          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_ELimFJDuCmQgYQUz8JcHYB
-        status: active
-        display_name: 王将勗
-        merged_into_person_id: null
-    - claim:
         id: c_ZBTdmljsVFfjJpDCuKXH6v
         subject_person_id: p_YJUfQmozBnpgzDZHV6jrGh
         claim_kind: relationship
@@ -346,8 +294,6 @@ relationships:
 | --- | --- | --- | --- |
 | spouses | p_ELimFJDuCmQgYQUz8JcHYB | 王将勗 | accepted |
 | spouses | p_cDKZ9odWpBmQ6RH3xs3UzM | 王勗 | accepted |
-| spouses | p_cDKZ9odWpBmQ6RH3xs3UzM | 王勗 | accepted |
-| spouses | p_ELimFJDuCmQgYQUz8JcHYB | 王将勗 | accepted |
 | spouses | p_gYS6esox4kiQRvfGd9VMFM | 馬煒 | accepted |
 | spouses | p_QCYzKg9uP932P5Ybf9j3aw | 温煒 | accepted |
 

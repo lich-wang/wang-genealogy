@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王澄
 cbdb_id: 186695
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -340,59 +340,6 @@ relationships:
         display_name: 王氏
         merged_into_person_id: null
     - claim:
-        id: c_1sVdvNTZ88wj9oMMcnFfE4
-        subject_person_id: p_c8C8PQBtyD8TinfV8tVU4U
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_cFrrQD9w9e7DqR4q2v5s6z
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_XHuKsPK3WYCE7aJXJq6spz
-          claim_id: c_1sVdvNTZ88wj9oMMcnFfE4
-          source_id: s_wjVLxMLRqXwKjCian14tbq
-          stance: supports
-          locator: P40（子女）
-          quotation: null
-          interpretation_note: null
-          source: *a2
-        - id: cs_xRCghxNFKiEhVW8qjPjzJW
-          claim_id: c_1sVdvNTZ88wj9oMMcnFfE4
-          source_id: s_ELbYmvnAeXE2jBrVG7SHyn
-          stance: supports
-          locator: P22（父）
-          quotation: null
-          interpretation_note: null
-          source:
-            id: s_ELbYmvnAeXE2jBrVG7SHyn
-            source_type: api_record
-            title: 维基数据：王氏（Q65803842）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65803842
-            external_identifier: Q65803842
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:07:04.029Z
-            metadata_json: null
-        - id: cs_DMrksE3HJqgNzomT8p88VJ
-          claim_id: c_1sVdvNTZ88wj9oMMcnFfE4
-          source_id: s_HmJsV2rPiCVdpEMRJrZ3CS
-          stance: supports
-          locator: 亲属关系：女兒
-          quotation: null
-          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
-          source: *a1
-      object_person:
-        id: p_cFrrQD9w9e7DqR4q2v5s6z
-        status: active
-        display_name: 王氏
-        merged_into_person_id: null
-    - claim:
         id: c_G8nJ2KXx6BW2muG95gGDkk
         subject_person_id: p_c8C8PQBtyD8TinfV8tVU4U
         claim_kind: relationship
@@ -512,7 +459,6 @@ relationships:
 | parents | p_tbdF719iaM43dCPwE1ecxt | 王敬同 | accepted |
 | children | p_ThZ1fLjfnyC98szbw3tnMJ | 王锷 | accepted |
 | children | p_FkG1TtDRuH3sDgFUz4V9Z7 | 王氏 | accepted |
-| children | p_cFrrQD9w9e7DqR4q2v5s6z | 王氏 | accepted |
 | children | p_1N6xv9M4BsN9VGrAgKCpoh | 王某 | accepted |
 | children | p_9QM78GueqiL1n7BJtefGvD | 王鍔 | accepted |
 
@@ -523,7 +469,6 @@ relationships:
 - [维基数据：王敬同（Q45685614）](https://www.wikidata.org/wiki/Q45685614)
 - [维基数据：王某（Q45587690）](https://www.wikidata.org/wiki/Q45587690)
 - [维基数据：王氏（Q65803780）](https://www.wikidata.org/wiki/Q65803780)
-- [维基数据：王氏（Q65803842）](https://www.wikidata.org/wiki/Q65803842)
 - [中国历代人物传记资料库：王鍔（CBDB 186698）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186698&o=json)
 - [CBDB 中国历代人物传记资料库：王澄（186695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186695&o=json)
 - [CBDB 中国历代人物传记资料库：王敬同（186696）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186696&o=json)

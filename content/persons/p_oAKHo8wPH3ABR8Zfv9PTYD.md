@@ -4,7 +4,7 @@ id: p_oAKHo8wPH3ABR8Zfv9PTYD
 status: active
 merged_into: null
 display_name: 王咸
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -149,62 +149,6 @@ properties:
 relationships:
   parents:
     - claim:
-        id: c_FJyDroexUxxuXLGnh2aU6e
-        subject_person_id: p_ZP94X9ZiCDzHEcmm3AEhf7
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_oAKHo8wPH3ABR8Zfv9PTYD
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 2
-      sources:
-        - id: cs_BuDEtn4jDqLxzxu8Kt4K4h
-          claim_id: c_FJyDroexUxxuXLGnh2aU6e
-          source_id: s_re5443GiK77DyELXXkpCRQ
-          stance: supports
-          locator: 条文：条文识读（父）
-          quotation: 王訢之孙，王谭之子
-          interpretation_note: null
-          source:
-            id: s_re5443GiK77DyELXXkpCRQ
-            source_type: website
-            title: 中文维基百科：王咸
-            creator: 维基百科贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%92%B8
-            external_identifier: null
-            license_code: CC-BY-SA-4.0
-            accessed_at: 2026-08-25T02:25:41.582Z
-            metadata_json: null
-        - id: cs_QS9ET4r8KBesCLqT8zHzgi
-          claim_id: c_FJyDroexUxxuXLGnh2aU6e
-          source_id: s_Fef2ZczK2quyD229J6BnWG
-          stance: supports
-          locator: 条文：条文识读（父）
-          quotation: 王訢之孙，王谭之子。
-          interpretation_note: null
-          source:
-            id: s_Fef2ZczK2quyD229J6BnWG
-            source_type: website
-            title: 中文维基百科：王咸
-            creator: 维基百科贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%92%B8
-            external_identifier: null
-            license_code: CC-BY-SA-4.0
-            accessed_at: 2026-08-25T09:54:06.629Z
-            metadata_json: null
-      object_person:
-        id: p_ZP94X9ZiCDzHEcmm3AEhf7
-        status: active
-        display_name: 王谭
-        merged_into_person_id: null
-    - claim:
         id: c_ZVnAsXT8a7vMLXTS1xXMM3
         subject_person_id: p_ZRPHhvQCC2prhC64nEgE7Z
         claim_kind: relationship
@@ -286,7 +230,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_ZP94X9ZiCDzHEcmm3AEhf7 | 王谭 | accepted |
 | parents | p_ZRPHhvQCC2prhC64nEgE7Z | 王谭 | accepted |
 
 ## 外部来源

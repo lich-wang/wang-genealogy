@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 谢道韫
 cbdb_id: 134836
-revision: 3
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -89,7 +89,7 @@ properties:
           locator: Q8044361
           quotation: null
           interpretation_note: null
-          source: &a1
+          source:
             id: s_rooNr82sBkVcuvNxr7FNYJ
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：謝道韞（134836）
@@ -319,69 +319,6 @@ relationships:
         status: active
         display_name: 王凝之
         merged_into_person_id: null
-    - claim:
-        id: c_5BwbohUlD7CGgo8tUySPK2
-        subject_person_id: p_sP9ryPn6dBbmpQnxPNMPhv
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_EqbrV19BGLaVPSHLLe15u8
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_7kgH-1RTVEPATXLi1WTfKD
-          claim_id: c_5BwbohUlD7CGgo8tUySPK2
-          source_id: s_fJntZw9Gt6yhZohKxv3V4N
-          stance: supports
-          locator: "明清婦女著作數據庫，MQWW PoetID #2001, HuWenKai #10：妻子"
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_fJntZw9Gt6yhZohKxv3V4N
-            source_type: api_record
-            title: 中国历代人物传记资料库：王凝之（CBDB 134837）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134837&o=json
-            external_identifier: CBDB:134837
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-09T00:03:15.333Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
-      object_person:
-        id: p_sP9ryPn6dBbmpQnxPNMPhv
-        status: active
-        display_name: 王凝之
-        merged_into_person_id: null
-    - claim:
-        id: c_TSQkEHcq0Dyjf_FbDlOBtZ
-        subject_person_id: p_EqbrV19BGLaVPSHLLe15u8
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_sP9ryPn6dBbmpQnxPNMPhv
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_eLRza_cIHfg2bpvVJboGAC
-          claim_id: c_TSQkEHcq0Dyjf_FbDlOBtZ
-          source_id: s_rooNr82sBkVcuvNxr7FNYJ
-          stance: supports
-          locator: "明清婦女著作數據庫，MQWW PoetID #2001, HuWenKai #10：丈夫"
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_sP9ryPn6dBbmpQnxPNMPhv
-        status: active
-        display_name: 王凝之
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -403,14 +340,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_euM8vAaSVjgAC2CHZ5oZsj | 王凝之 | accepted |
-| spouses | p_sP9ryPn6dBbmpQnxPNMPhv | 王凝之 | accepted |
-| spouses | p_sP9ryPn6dBbmpQnxPNMPhv | 王凝之 | accepted |
 
 ## 外部来源
 
 - [维基数据：谢道韫（Q8044361）](https://www.wikidata.org/wiki/Q8044361)
 - [維基數據：王凝之（Q16077602）](https://www.wikidata.org/wiki/Q16077602)
-- [中国历代人物传记资料库：王凝之（CBDB 134837）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134837&o=json)
 - [中文维基百科：王凝之](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%87%9D%E4%B9%8B)
 - [中文维基百科：謝道韞](https://zh.wikipedia.org/wiki/%E8%AC%9D%E9%81%93%E9%9F%9E)
+- [CBDB 中国历代人物传记资料库：王凝之（134837）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134837&o=json)
 - [CBDB 中国历代人物传记资料库：謝道韞（134836）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134836&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王象春
 cbdb_id: 126731
-revision: 6
+revision: 8
 properties:
   - predicate: bio.summary
     recommended:
@@ -257,43 +257,6 @@ relationships:
         status: active
         display_name: 王之猷
         merged_into_person_id: null
-    - claim:
-        id: c_srw-kduXEtMvR4TfqavRl4
-        subject_person_id: p_JZJHnTC5Znx9rLyewc5xYL
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_1vwHH8EjSEP1q2oifpwF8P
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_S3Am0cAI49Se-7Xu6EgPTO
-          claim_id: c_srw-kduXEtMvR4TfqavRl4
-          source_id: s_ZqAg3AHmhi8gpf24naFFD2
-          stance: supports
-          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第二百四十名：子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_ZqAg3AHmhi8gpf24naFFD2
-            source_type: api_record
-            title: 中国历代人物传记资料库：王之猷（CBDB 235517）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235517&o=json
-            external_identifier: CBDB:235517
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-09T00:03:17.762Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
-      object_person:
-        id: p_JZJHnTC5Znx9rLyewc5xYL
-        status: active
-        display_name: 王之猷
-        merged_into_person_id: null
   children:
     - claim:
         id: c_HhDvnz39PiiwwCtKs2rTMG
@@ -503,80 +466,6 @@ relationships:
         status: active
         display_name: 许氏
         merged_into_person_id: null
-    - claim:
-        id: c_A0kelLciiWY0jVS4XosCcL
-        subject_person_id: p_ASsdnhPYAoL9SLjnhJbTur
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_1vwHH8EjSEP1q2oifpwF8P
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_F2nkSljYEUohOirEMAsdFx
-          claim_id: c_A0kelLciiWY0jVS4XosCcL
-          source_id: s_gMNCGGi88T2BA2qhP79M29
-          stance: supports
-          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第二百四十名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_gMNCGGi88T2BA2qhP79M29
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：李氏（235519）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235519&o=json
-            external_identifier: CBDB:235519
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
-      object_person:
-        id: p_ASsdnhPYAoL9SLjnhJbTur
-        status: active
-        display_name: 李氏
-        merged_into_person_id: null
-    - claim:
-        id: c_QWroA73HXXJU4UUOFtqKhb
-        subject_person_id: p_BLgoHxNpQaoz3KHbpCYtqP
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_1vwHH8EjSEP1q2oifpwF8P
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_ep5H_Gkc0k5s-xKh8hrP9O
-          claim_id: c_QWroA73HXXJU4UUOFtqKhb
-          source_id: s_YnHcTNMeJvZcz61ZN3bnWU
-          stance: supports
-          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第二百四十名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_YnHcTNMeJvZcz61ZN3bnWU
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：許氏（235521）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235521&o=json
-            external_identifier: CBDB:235521
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
-      object_person:
-        id: p_BLgoHxNpQaoz3KHbpCYtqP
-        status: active
-        display_name: 许氏
-        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_i-WvnRcfGXrVBbrUgfFtW2
@@ -674,11 +563,8 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_5r1wESpKqnWgbhR5AChbjE | 王之猷 | accepted |
-| parents | p_JZJHnTC5Znx9rLyewc5xYL | 王之猷 | accepted |
 | children | p_SJszcC3GPqM5cNM4c1NSV1 | 王山立 | accepted |
 | children | p_Jsqf6zQkwPaxjwq4HY5tQX | 王与文 | accepted |
-| spouses | p_ASsdnhPYAoL9SLjnhJbTur | 李氏 | accepted |
-| spouses | p_BLgoHxNpQaoz3KHbpCYtqP | 许氏 | accepted |
 | spouses | p_ASsdnhPYAoL9SLjnhJbTur | 李氏 | accepted |
 | spouses | p_BLgoHxNpQaoz3KHbpCYtqP | 许氏 | accepted |
 | ancestors | p_ekUUUcSyzN6WhRbt4eNPox | 王重光 | accepted |
@@ -692,10 +578,7 @@ relationships:
 - [维基数据：王与文（Q45461070）](https://www.wikidata.org/wiki/Q45461070)
 - [维基数据：王之猷（Q16075308）](https://www.wikidata.org/wiki/Q16075308)
 - [维基数据：许氏（Q65837810）](https://www.wikidata.org/wiki/Q65837810)
-- [中国历代人物传记资料库：王之猷（CBDB 235517）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235517&o=json)
 - [中国历代人物传记资料库：王重光（CBDB 220262）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220262&o=json)
 - [中文维基百科：王象春](https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%B1%A1%E6%98%A5)
-- [CBDB 中国历代人物传记资料库：李氏（235519）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235519&o=json)
 - [CBDB 中国历代人物传记资料库：王麟（220261）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220261&o=json)
 - [CBDB 中国历代人物传记资料库：王象春（126731）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126731&o=json)
-- [CBDB 中国历代人物传记资料库：許氏（235521）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235521&o=json)

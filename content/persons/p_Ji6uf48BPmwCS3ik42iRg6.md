@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王氏
 cbdb_id: 228811
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -211,32 +211,6 @@ relationships:
         status: active
         display_name: 沈瓒
         merged_into_person_id: null
-    - claim:
-        id: c_UQLJznasR725WCKmT4Afn8
-        subject_person_id: p_Ji6uf48BPmwCS3ik42iRg6
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_8Dvbg89PXkBEbBJAzYBkNw
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_rZLMQ_YTS9lgL1Nj4GdEOc
-          claim_id: c_UQLJznasR725WCKmT4Afn8
-          source_id: s_UYJr2ASoCJzioeXWTq1K2i
-          stance: supports
-          locator: 萬曆丙戌科進士同年總錄，第二甲第八名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_8Dvbg89PXkBEbBJAzYBkNw
-        status: active
-        display_name: 沈瓒
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -257,7 +231,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| spouses | p_8Dvbg89PXkBEbBJAzYBkNw | 沈瓒 | accepted |
 | spouses | p_8Dvbg89PXkBEbBJAzYBkNw | 沈瓒 | accepted |
 
 ## 外部来源

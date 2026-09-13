@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王镇之
 cbdb_id: 25809
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -114,7 +114,7 @@ relationships:
   parents:
     - claim:
         id: c_yC6CD6MEZqR48D9Kpwvf6V
-        subject_person_id: p_1WQmTU233ach8AxuTKh3jA
+        subject_person_id: p_CF5TBeQK8jUMNAF7f5R2Qx
         claim_kind: relationship
         predicate: kinship.father_of
         object_person_id: p_LxhtV5ZaxRczGWApHrVc5K
@@ -202,7 +202,7 @@ relationships:
             accessed_at: 2026-08-24T03:18:14.542Z
             metadata_json: null
       object_person:
-        id: p_1WQmTU233ach8AxuTKh3jA
+        id: p_CF5TBeQK8jUMNAF7f5R2Qx
         status: active
         display_name: 王随之
         merged_into_person_id: null
@@ -230,7 +230,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_1WQmTU233ach8AxuTKh3jA | 王随之 | accepted |
+| parents | p_CF5TBeQK8jUMNAF7f5R2Qx | 王随之 | accepted |
 
 ## 外部来源
 

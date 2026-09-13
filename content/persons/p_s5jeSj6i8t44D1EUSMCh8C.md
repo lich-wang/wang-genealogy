@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 董氏
 cbdb_id: 314682
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,32 +209,6 @@ relationships:
         status: active
         display_name: 王鈇
         merged_into_person_id: null
-    - claim:
-        id: c_HBxntL-qYtbKjvLF3O6WIp
-        subject_person_id: p_s5jeSj6i8t44D1EUSMCh8C
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_KdnEK5JvxzCLuhzpo1b35X
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_x2ZLCmqBkaguHcd4R_PXPC
-          claim_id: c_HBxntL-qYtbKjvLF3O6WIp
-          source_id: s_XYGnCxGjB2KPDxiwaxnLmH
-          stance: supports
-          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第二百名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_KdnEK5JvxzCLuhzpo1b35X
-        status: active
-        display_name: 王鈇
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -256,7 +230,6 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_jWRBXNs9hNQYimujJ64LcZ | 王𫓧 | accepted |
-| spouses | p_KdnEK5JvxzCLuhzpo1b35X | 王鈇 | accepted |
 | spouses | p_KdnEK5JvxzCLuhzpo1b35X | 王鈇 | accepted |
 
 ## 外部来源

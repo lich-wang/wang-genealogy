@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_MpZ2LnFZgx3bSNmDDeFm8J
-status: active
-merged_into: null
+status: merged
+merged_into: p_AKu7Q79dhYjH69pKrRtR5y
 display_name: 王之翰
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -73,33 +73,7 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children:
-    - claim:
-        id: c_dtOXYB6KNzuINAxjhauIY1
-        subject_person_id: p_MpZ2LnFZgx3bSNmDDeFm8J
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_hkxRnkwdABHFBvtuuQxejY
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_j3woo5HgpsuPaX1Z6FtiW0
-          claim_id: c_dtOXYB6KNzuINAxjhauIY1
-          source_id: s_QNQ48niAEyW4zuW8Qy1dTJ
-          stance: supports
-          locator: 嘉靖四十四年進士登科錄:一卷，第三甲第四十七名：子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_hkxRnkwdABHFBvtuuQxejY
-        status: active
-        display_name: 王象坤
-        merged_into_person_id: null
+  children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -123,7 +97,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| children | p_hkxRnkwdABHFBvtuuQxejY | 王象坤 | accepted |
 
 ## 外部来源
 

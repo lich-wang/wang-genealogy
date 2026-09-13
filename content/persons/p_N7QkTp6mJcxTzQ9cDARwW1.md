@@ -4,7 +4,7 @@ id: p_N7QkTp6mJcxTzQ9cDARwW1
 status: active
 merged_into: null
 display_name: 王定保
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 吴氏
 cbdb_id: 5135
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -276,32 +276,6 @@ relationships:
         status: active
         display_name: 王令
         merged_into_person_id: null
-    - claim:
-        id: c_Tbk_30XMh6O-QIFlaJUuNU
-        subject_person_id: p_H57wFvKcGMBv78q4Myh1Bn
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_4g3xdD6NPZ5iQggyuwkBGV
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_bTbtygXBn7csZZbb_Hjt_w
-          claim_id: c_Tbk_30XMh6O-QIFlaJUuNU
-          source_id: s_h7DN2KUR3A1fW3nCqDREcn
-          stance: supports
-          locator: 宋人傳記資料索引(電子版)，600;601：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_4g3xdD6NPZ5iQggyuwkBGV
-        status: active
-        display_name: 王令
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -324,7 +298,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| spouses | p_4g3xdD6NPZ5iQggyuwkBGV | 王令 | accepted |
 | spouses | p_4g3xdD6NPZ5iQggyuwkBGV | 王令 | accepted |
 
 ## 外部来源

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王道貞
 cbdb_id: 524359
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -77,7 +77,7 @@ relationships:
   parents:
     - claim:
         id: c_4hBOwxqBwLyfaAn9GP-I8o
-        subject_person_id: p_XLzE7EyB5VaDYLv2XHEgHa
+        subject_person_id: p_bZ12YW1VvZ8wACEDC3JXA6
         claim_kind: relationship
         predicate: kinship.father_of
         object_person_id: p_FgnH5Tex3eEM8HgEHgSdm9
@@ -109,7 +109,7 @@ relationships:
             metadata_json:
               source_release: CBDB 2026-08-29
       object_person:
-        id: p_XLzE7EyB5VaDYLv2XHEgHa
+        id: p_bZ12YW1VvZ8wACEDC3JXA6
         status: active
         display_name: 王佐
         merged_into_person_id: null
@@ -137,7 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_XLzE7EyB5VaDYLv2XHEgHa | 王佐 | accepted |
+| parents | p_bZ12YW1VvZ8wACEDC3JXA6 | 王佐 | accepted |
 
 ## 外部来源
 

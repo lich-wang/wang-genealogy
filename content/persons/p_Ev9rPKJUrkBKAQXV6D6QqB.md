@@ -4,7 +4,7 @@ id: p_Ev9rPKJUrkBKAQXV6D6QqB
 status: active
 merged_into: null
 display_name: 王丹
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:

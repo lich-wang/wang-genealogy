@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王彦成
 cbdb_id: 240857
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -157,7 +157,7 @@ relationships:
         subject_person_id: p_1LjXtHaC5ZgBX5ntEmabuX
         claim_kind: relationship
         predicate: kinship.ancestor_of
-        object_person_id: p_T2DCj9d6XKU4djHJMs2kSM
+        object_person_id: p_e622FY31yMzCRE9JqUsUSG
         generation_count: 3
         parent_role: null
         value_json: null
@@ -174,7 +174,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a2
       object_person:
-        id: p_T2DCj9d6XKU4djHJMs2kSM
+        id: p_e622FY31yMzCRE9JqUsUSG
         status: active
         display_name: 王恕
         merged_into_person_id: null
@@ -197,7 +197,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_m8pEmRBSH6ayXuTKwEAjBF | 王惟真 | accepted |
-| descendants | p_T2DCj9d6XKU4djHJMs2kSM | 王恕 | accepted |
+| descendants | p_e622FY31yMzCRE9JqUsUSG | 王恕 | accepted |
 
 ## 外部来源
 

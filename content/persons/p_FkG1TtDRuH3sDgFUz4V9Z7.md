@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王氏
 cbdb_id: 145252
-revision: 3
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -257,11 +257,11 @@ relationships:
         display_name: 卢惕
         merged_into_person_id: null
     - claim:
-        id: c_yKDJmenef2mHJ8JqeohBhR
-        subject_person_id: p_Hr9mf3hFTf1JYmwnu4JWuS
+        id: c_DEDC4DpL5czPZFsXQZ4A6F
+        subject_person_id: p_FkG1TtDRuH3sDgFUz4V9Z7
         claim_kind: relationship
         predicate: kinship.spouse_of
-        object_person_id: p_FkG1TtDRuH3sDgFUz4V9Z7
+        object_person_id: p_o13vNKQ64b31uTKeAY1uL2
         generation_count: null
         parent_role: null
         value_json: null
@@ -269,29 +269,67 @@ relationships:
         confidence: medium
         current_revision: 1
       sources:
-        - id: cs_vJ7cRz0tA0axOl7DLuHK18
-          claim_id: c_yKDJmenef2mHJ8JqeohBhR
-          source_id: s_fWvvFL1XPY9XPGfj5zKbLi
+        - id: cs_yeDJjwo8Sc1dGRaN9vN9DM
+          claim_id: c_DEDC4DpL5czPZFsXQZ4A6F
+          source_id: s_LQ3jQ7m1BQGXNtg2zYLhxe
           stance: supports
-          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：妻子
+          locator: P26（配偶）
           quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          interpretation_note: null
           source:
-            id: s_fWvvFL1XPY9XPGfj5zKbLi
+            id: s_LQ3jQ7m1BQGXNtg2zYLhxe
             source_type: api_record
-            title: CBDB 中国历代人物传记资料库：盧惕（185864）
+            title: 维基数据：李收（Q45685708）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45685708
+            external_identifier: Q45685708
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+        - id: cs_FP6r2Yo1teWi3SsVPXcWeQ
+          claim_id: c_DEDC4DpL5czPZFsXQZ4A6F
+          source_id: s_ELbYmvnAeXE2jBrVG7SHyn
+          stance: supports
+          locator: P26（配偶）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_ELbYmvnAeXE2jBrVG7SHyn
+            source_type: api_record
+            title: 维基数据：王氏（Q65803842）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65803842
+            external_identifier: Q65803842
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:04.029Z
+            metadata_json: null
+        - id: cs_rrTkY2zEpXbjDMLQSL3bwS
+          claim_id: c_DEDC4DpL5czPZFsXQZ4A6F
+          source_id: s_D53zH68YiQ3Dw5JqK6Kdfo
+          stance: supports
+          locator: 亲属关系：丈夫
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
+          source:
+            id: s_D53zH68YiQ3Dw5JqK6Kdfo
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王氏（145522）
             creator: China Biographical Database (CBDB)
             publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185864&o=json
-            external_identifier: CBDB:185864
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145522&o=json
+            external_identifier: CBDB:145522
             license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
+            accessed_at: 2026-09-05T02:07:04.190Z
             metadata_json: null
       object_person:
-        id: p_Hr9mf3hFTf1JYmwnu4JWuS
+        id: p_o13vNKQ64b31uTKeAY1uL2
         status: active
-        display_name: 卢惕
+        display_name: 李收
         merged_into_person_id: null
   ancestors: []
   descendants: []
@@ -316,13 +354,15 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_c8C8PQBtyD8TinfV8tVU4U | 王澄 | accepted |
 | spouses | p_Hr9mf3hFTf1JYmwnu4JWuS | 卢惕 | accepted |
-| spouses | p_Hr9mf3hFTf1JYmwnu4JWuS | 卢惕 | accepted |
+| spouses | p_o13vNKQ64b31uTKeAY1uL2 | 李收 | accepted |
 
 ## 外部来源
 
+- [维基数据：李收（Q45685708）](https://www.wikidata.org/wiki/Q45685708)
 - [维基数据：卢惕（Q45655083）](https://www.wikidata.org/wiki/Q45655083)
 - [维基数据：王澄（Q45685584）](https://www.wikidata.org/wiki/Q45685584)
 - [维基数据：王氏（Q65803780）](https://www.wikidata.org/wiki/Q65803780)
-- [CBDB 中国历代人物传记资料库：盧惕（185864）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185864&o=json)
+- [维基数据：王氏（Q65803842）](https://www.wikidata.org/wiki/Q65803842)
 - [CBDB 中国历代人物传记资料库：王澄（186695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=186695&o=json)
 - [CBDB 中国历代人物传记资料库：王氏（145252）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145252&o=json)
+- [CBDB 中国历代人物传记资料库：王氏（145522）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145522&o=json)

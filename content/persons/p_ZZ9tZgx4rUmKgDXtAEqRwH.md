@@ -4,7 +4,7 @@ id: p_ZZ9tZgx4rUmKgDXtAEqRwH
 status: active
 merged_into: null
 display_name: 王祖道
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -225,7 +225,122 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_55Gw-J8ANHaC8DUVloT-1Q
+        subject_person_id: p_ZZ9tZgx4rUmKgDXtAEqRwH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Qa61NZVoSxfEH9opac7xGu
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E0DLutYDx1zy0LjqGJxfLB
+          claim_id: c_55Gw-J8ANHaC8DUVloT-1Q
+          source_id: s_DKwEihoKaeDdokgXg515QL
+          stance: supports
+          locator: CBDB 双向互证（曾孫; 重孫 王西應 ⇄ 曾祖 王祖道）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: &a1
+            id: s_DKwEihoKaeDdokgXg515QL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王祖道（CBDB 1902）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1902&o=json
+            external_identifier: CBDB:1902
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.384Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_Qa61NZVoSxfEH9opac7xGu
+        status: active
+        display_name: 王西應
+        merged_into_person_id: null
+    - claim:
+        id: c_h5wQfhGPVVLshqKkYdcyJk
+        subject_person_id: p_ZZ9tZgx4rUmKgDXtAEqRwH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_hEEpn7U7EKTTeFP3ixWWbm
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yJlnOvMQ041D6t8jmBB0kl
+          claim_id: c_h5wQfhGPVVLshqKkYdcyJk
+          source_id: s_DKwEihoKaeDdokgXg515QL
+          stance: supports
+          locator: CBDB 双向互证（玄孫;四世孫 王禔 ⇄ 高祖;四世祖 王祖道）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_hEEpn7U7EKTTeFP3ixWWbm
+        status: active
+        display_name: 王禔
+        merged_into_person_id: null
+    - claim:
+        id: c_nf3ctKDf1ZTjblo6kVtu6I
+        subject_person_id: p_ZZ9tZgx4rUmKgDXtAEqRwH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_dimTrX27PvxL2MX3Rq63kM
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rapuYx8BFS-ys-ccmC99Wf
+          claim_id: c_nf3ctKDf1ZTjblo6kVtu6I
+          source_id: s_DKwEihoKaeDdokgXg515QL
+          stance: supports
+          locator: CBDB 双向互证（玄孫;四世孫 王龍從 ⇄ 高祖;四世祖 王祖道）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_dimTrX27PvxL2MX3Rq63kM
+        status: active
+        display_name: 王龍從
+        merged_into_person_id: null
+    - claim:
+        id: c_TQHG2ye5GtlwLWjunv9SQI
+        subject_person_id: p_ZZ9tZgx4rUmKgDXtAEqRwH
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_y2SSgfQnNofghB5exGpzn6
+        generation_count: 4
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XyQcmJ_ny0ZZ1IyqXO5ief
+          claim_id: c_TQHG2ye5GtlwLWjunv9SQI
+          source_id: s_DKwEihoKaeDdokgXg515QL
+          stance: supports
+          locator: CBDB 双向互证（玄孫;四世孫 王龍應 ⇄ 高祖;四世祖 王祖道）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source: *a1
+      object_person:
+        id: p_y2SSgfQnNofghB5exGpzn6
+        status: active
+        display_name: 王龍應
+        merged_into_person_id: null
   other: []
 ---
 
@@ -246,10 +361,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_z5u3jCA88DDJrzfkRCxrEK | 王孝先 | accepted |
+| descendants | p_Qa61NZVoSxfEH9opac7xGu | 王西應 | accepted |
+| descendants | p_hEEpn7U7EKTTeFP3ixWWbm | 王禔 | accepted |
+| descendants | p_dimTrX27PvxL2MX3Rq63kM | 王龍從 | accepted |
+| descendants | p_y2SSgfQnNofghB5exGpzn6 | 王龍應 | accepted |
 
 ## 外部来源
 
 - [维基数据：王孝先（Q45360363）](https://www.wikidata.org/wiki/Q45360363)
 - [维基数据：王祖道（Q15891192）](https://www.wikidata.org/wiki/Q15891192)
+- [中国历代人物传记资料库：王祖道（CBDB 1902）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1902&o=json)
 - [中文维基百科：王祖道](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%A5%96%E9%81%93)
-- [CBDB 中国历代人物传记资料库：王祖道（1902）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1902&o=json)

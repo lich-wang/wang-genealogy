@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王某
 cbdb_id: 153872
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -191,43 +191,6 @@ relationships:
         status: active
         display_name: 李氏
         merged_into_person_id: null
-    - claim:
-        id: c_ilNB6gGXiRbLCNGzgWdFXT
-        subject_person_id: p_s92BnuiYU99B9CbbcpkN5z
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_MsHVjVc63eV8A8rm6FJdQR
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_mUlBTBgZxhhttELlkmgSE9
-          claim_id: c_ilNB6gGXiRbLCNGzgWdFXT
-          source_id: s_oQtwPumURyxwA6cHx8wRTZ
-          stance: supports
-          locator: 唐代墓誌匯編:二卷，Tianbao 134：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_oQtwPumURyxwA6cHx8wRTZ
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：李氏（140938）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140938&o=json
-            external_identifier: CBDB:140938
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T02:50:04.054Z
-            metadata_json: null
-      object_person:
-        id: p_s92BnuiYU99B9CbbcpkN5z
-        status: active
-        display_name: 李氏
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -248,7 +211,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| spouses | p_s92BnuiYU99B9CbbcpkN5z | 李氏 | accepted |
 | spouses | p_s92BnuiYU99B9CbbcpkN5z | 李氏 | accepted |
 
 ## 外部来源

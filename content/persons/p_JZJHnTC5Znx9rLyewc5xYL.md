@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_JZJHnTC5Znx9rLyewc5xYL
-status: active
-merged_into: null
+status: merged
+merged_into: p_5r1wESpKqnWgbhR5AChbjE
 display_name: 王之猷
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -73,33 +73,7 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children:
-    - claim:
-        id: c_srw-kduXEtMvR4TfqavRl4
-        subject_person_id: p_JZJHnTC5Znx9rLyewc5xYL
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_1vwHH8EjSEP1q2oifpwF8P
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_S3Am0cAI49Se-7Xu6EgPTO
-          claim_id: c_srw-kduXEtMvR4TfqavRl4
-          source_id: s_ZqAg3AHmhi8gpf24naFFD2
-          stance: supports
-          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第二百四十名：子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_1vwHH8EjSEP1q2oifpwF8P
-        status: active
-        display_name: 王象春
-        merged_into_person_id: null
+  children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -123,7 +97,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| children | p_1vwHH8EjSEP1q2oifpwF8P | 王象春 | accepted |
 
 ## 外部来源
 

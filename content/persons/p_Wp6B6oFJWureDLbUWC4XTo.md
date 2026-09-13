@@ -4,7 +4,7 @@ id: p_Wp6B6oFJWureDLbUWC4XTo
 status: active
 merged_into: null
 display_name: 王鏊
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -469,6 +469,82 @@ relationships:
         status: active
         display_name: 王延索
         merged_into_person_id: null
+    - claim:
+        id: c_5WES65O26RFH5q6DEHRqUI
+        subject_person_id: p_Wp6B6oFJWureDLbUWC4XTo
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7EWnYXtmTk1oqLCDzLFor6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RCm2Dt2pbdmOfqWLKumahC
+          claim_id: c_5WES65O26RFH5q6DEHRqUI
+          source_id: s_JxPuxpW3BgPDyZtaXRXHyA
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），11510：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_JxPuxpW3BgPDyZtaXRXHyA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王延詰（CBDB 525608）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=525608&o=json
+            external_identifier: CBDB:525608
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:17.868Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_7EWnYXtmTk1oqLCDzLFor6
+        status: active
+        display_name: 王延詰
+        merged_into_person_id: null
+    - claim:
+        id: c_MKRB8q1onXWGTeQT5YCHu1
+        subject_person_id: p_Wp6B6oFJWureDLbUWC4XTo
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7sL8RLmuiFfTvhgxv4U3Hi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_X2THtR_H5h1Cky5oxDmwvT
+          claim_id: c_MKRB8q1onXWGTeQT5YCHu1
+          source_id: s_SENcTgQS9UC8H3qnKDcdL4
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），11510：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_SENcTgQS9UC8H3qnKDcdL4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王延昭（CBDB 525607）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=525607&o=json
+            external_identifier: CBDB:525607
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:17.868Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_7sL8RLmuiFfTvhgxv4U3Hi
+        status: active
+        display_name: 王延昭
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -547,7 +623,44 @@ relationships:
         status: active
         display_name: 吴氏
         merged_into_person_id: null
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_JCnzOaELW9JqiLAvRf3oZ2
+        subject_person_id: p_rfNi35kMF1FSma9nVH7tNg
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Wp6B6oFJWureDLbUWC4XTo
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Idh88eQzm0XrqJwdGpO3Ew
+          claim_id: c_JCnzOaELW9JqiLAvRf3oZ2
+          source_id: s_nZGqGfQ2NF4qEVQNq979KR
+          stance: supports
+          locator: 成化十一年進士登科錄:一卷，第一甲第三名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_nZGqGfQ2NF4qEVQNq979KR
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王彥祥（34584）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34584&o=json
+            external_identifier: CBDB:34584
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_rfNi35kMF1FSma9nVH7tNg
+        status: active
+        display_name: 王彦祥
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -573,7 +686,10 @@ relationships:
 | children | p_Mc1TgdkLLeMac37TuMJkgg | 王延 | accepted |
 | children | p_8LsJEYCjbbE642tn4yUoiz | 王延陵 | accepted |
 | children | p_rzWVYhxBK9oeQF6on3qVdy | 王延索 | accepted |
+| children | p_7EWnYXtmTk1oqLCDzLFor6 | 王延詰 | accepted |
+| children | p_7sL8RLmuiFfTvhgxv4U3Hi | 王延昭 | accepted |
 | spouses | p_jhEZERf87Yu1gr8MbYEspe | 吴氏 | accepted |
+| ancestors | p_rfNi35kMF1FSma9nVH7tNg | 王彦祥 | accepted |
 
 ## 外部来源
 
@@ -583,5 +699,8 @@ relationships:
 - [维基数据：王延陵（Q45426546）](https://www.wikidata.org/wiki/Q45426546)
 - [维基数据：王延索（Q45426587）](https://www.wikidata.org/wiki/Q45426587)
 - [维基数据：吴氏（Q65851495）](https://www.wikidata.org/wiki/Q65851495)
+- [中国历代人物传记资料库：王延詰（CBDB 525608）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=525608&o=json)
+- [中国历代人物传记资料库：王延昭（CBDB 525607）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=525607&o=json)
 - [中文维基百科：王鏊](https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%8F%8A)
 - [CBDB 中国历代人物传记资料库：王鏊（34579）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34579&o=json)
+- [CBDB 中国历代人物传记资料库：王彥祥（34584）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34584&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王惟直
 cbdb_id: 264034
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -157,7 +157,7 @@ relationships:
         subject_person_id: p_tcWDCYEjZBxpgXVNCyJD9U
         claim_kind: relationship
         predicate: kinship.ancestor_of
-        object_person_id: p_j4RsuRBKFYJbK5j9md2YXD
+        object_person_id: p_Un98x3Kw7vbgE1taigN1AK
         generation_count: 3
         parent_role: null
         value_json: null
@@ -185,7 +185,7 @@ relationships:
             metadata_json:
               source_release: CBDB 2026-09-05
       object_person:
-        id: p_j4RsuRBKFYJbK5j9md2YXD
+        id: p_Un98x3Kw7vbgE1taigN1AK
         status: active
         display_name: 王承裕
         merged_into_person_id: null
@@ -208,7 +208,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_g1bs6h5k4Pu2preBv8KZPd | 王仲智 | accepted |
-| descendants | p_j4RsuRBKFYJbK5j9md2YXD | 王承裕 | accepted |
+| descendants | p_Un98x3Kw7vbgE1taigN1AK | 王承裕 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王伯庠
 cbdb_id: 17444
-revision: 4
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -287,32 +287,6 @@ relationships:
         status: active
         display_name: 王次翁
         merged_into_person_id: null
-    - claim:
-        id: c_1jmE7vnVvBaTf4w6NSkbOE
-        subject_person_id: p_yapy3APS2bJCVFq3VNLaKZ
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_iwBVuUwJmW9x68bfe9dwKN
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_q4ZuUySm_3Z23sBKVeUDLu
-          claim_id: c_1jmE7vnVvBaTf4w6NSkbOE
-          source_id: s_o6fwhY8EBNrs3ZN82gocSx
-          stance: supports
-          locator: CBDB 双向互证（父 王次翁 ⇄ 子 王伯庠）
-          quotation: null
-          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
-          source: *a1
-      object_person:
-        id: p_yapy3APS2bJCVFq3VNLaKZ
-        status: active
-        display_name: 王次翁
-        merged_into_person_id: null
   children:
     - claim:
         id: c_sRuw8zNmXP3qo6TL7kRveL
@@ -541,32 +515,6 @@ relationships:
         status: active
         display_name: 成氏
         merged_into_person_id: null
-    - claim:
-        id: c_pnA37mqdPLwd3K0Mnoncqi
-        subject_person_id: p_iwBVuUwJmW9x68bfe9dwKN
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_ifKdzffE4TJqKt3GDfHGnh
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs__grlQoRoRm89IkDDPCRTho
-          claim_id: c_pnA37mqdPLwd3K0Mnoncqi
-          source_id: s_o6fwhY8EBNrs3ZN82gocSx
-          stance: supports
-          locator: 宋人傳記資料索引(電子版)，1660;1661：妻子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_ifKdzffE4TJqKt3GDfHGnh
-        status: active
-        display_name: 成氏
-        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -653,11 +601,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_4Ggi24K5h2C2ehfArZY8Pm | 王次翁 | accepted |
-| parents | p_yapy3APS2bJCVFq3VNLaKZ | 王次翁 | accepted |
 | children | p_21iPF9Hs9mqcdz5y5kcuFG | 王星 | accepted |
 | children | p_XmKEvprHRjSYX3Q3owLScL | 王有大 | accepted |
 | children | p_wU8P88JFTt3L9W3HaP1MeX | 王正大 | accepted |
-| spouses | p_ifKdzffE4TJqKt3GDfHGnh | 成氏 | accepted |
 | spouses | p_ifKdzffE4TJqKt3GDfHGnh | 成氏 | accepted |
 | descendants | p_BNwUqa2o85K46GSroyK3pt | 王鑐 | accepted |
 | descendants | p_fXWz2M53NvNrZMDr9MQ56a | 王梴 | accepted |

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王之翰
 cbdb_id: 217735
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:

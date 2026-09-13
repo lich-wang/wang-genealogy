@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王宗性
 cbdb_id: 203595
-revision: 5
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -289,43 +289,6 @@ relationships:
         status: active
         display_name: 孙氏
         merged_into_person_id: null
-    - claim:
-        id: c_RVR1Qundngc1TqcBDnNvET
-        subject_person_id: p_r9c7S6Y8RCf1UeMz9VaCpH
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_ABHWjEscFjoCVEgF2qr4dX
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_6pjG-98vIgAPHHFF32GYJi
-          claim_id: c_RVR1Qundngc1TqcBDnNvET
-          source_id: s_NrZMMzMrjJSts5CBapGWx9
-          stance: supports
-          locator: 嘉靖二十三年登科錄:一卷，第三甲第八十一名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_NrZMMzMrjJSts5CBapGWx9
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：孫氏（307068）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307068&o=json
-            external_identifier: CBDB:307068
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
-      object_person:
-        id: p_r9c7S6Y8RCf1UeMz9VaCpH
-        status: active
-        display_name: 孙氏
-        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_-taggiuwzZv4BT5wi2Pkq-
@@ -423,7 +386,6 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_jgqvj6yRuFScRYzYpcimRZ | 王士彦 | accepted |
 | spouses | p_r9c7S6Y8RCf1UeMz9VaCpH | 孙氏 | accepted |
-| spouses | p_r9c7S6Y8RCf1UeMz9VaCpH | 孙氏 | accepted |
 | ancestors | p_941b793yF1uZG7jyN114nF | 王綱 | accepted |
 | ancestors | p_U1vbELeED3P5A251WNQQjj | 王璟 | accepted |
 
@@ -435,6 +397,5 @@ relationships:
 - [中国历代人物传记资料库：王綱（CBDB 307063）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307063&o=json)
 - [中国历代人物传记资料库：王璟（CBDB 307064）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307064&o=json)
 - [中文维基百科：王宗性](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%97%E6%80%A7)
-- [CBDB 中国历代人物传记资料库：孫氏（307068）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307068&o=json)
 - [CBDB 中国历代人物传记资料库：王士彥（307065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307065&o=json)
 - [CBDB 中国历代人物传记资料库：王宗性（203595）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203595&o=json)

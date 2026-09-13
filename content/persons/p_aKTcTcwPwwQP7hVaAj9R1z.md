@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_aKTcTcwPwwQP7hVaAj9R1z
-status: active
-merged_into: null
+status: merged
+merged_into: p_fCpXRw3ympYVRWdSX3T5cq
 display_name: 王福畤
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -101,81 +101,7 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children:
-    - claim:
-        id: c_DNiHgsaW880llpxudCqj4u
-        subject_person_id: p_aKTcTcwPwwQP7hVaAj9R1z
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_LgY66MYi17pkCoQsrEyB9E
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_2jmY1VwklQEACeEDX9ooHF
-          claim_id: c_DNiHgsaW880llpxudCqj4u
-          source_id: s_NPG2X8ZwMAngCotJDyiN6K
-          stance: supports
-          locator: Pers DB / 唐代人物知識ベース，pers00241：父
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_NPG2X8ZwMAngCotJDyiN6K
-            source_type: api_record
-            title: 中国历代人物传记资料库：王勃（CBDB 30982）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30982&o=json
-            external_identifier: CBDB:30982
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-09T00:03:12.044Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
-      object_person:
-        id: p_LgY66MYi17pkCoQsrEyB9E
-        status: active
-        display_name: 王勃
-        merged_into_person_id: null
-    - claim:
-        id: c_I7GcMLvM42yIYv2_wD74MG
-        subject_person_id: p_aKTcTcwPwwQP7hVaAj9R1z
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_1HFrXhR5k8Wh7RX7Cyq9Qe
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_FqOefTZQCn0PW9P8FJFCj8
-          claim_id: c_I7GcMLvM42yIYv2_wD74MG
-          source_id: s_sxWU5J97Qmr6taVwc4mMrt
-          stance: supports
-          locator: Pers DB / 唐代人物知識ベース，pers00097：父
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_sxWU5J97Qmr6taVwc4mMrt
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王助（91979）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=91979&o=json
-            external_identifier: CBDB:91979
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T02:49:04.950Z
-            metadata_json: null
-      object_person:
-        id: p_1HFrXhR5k8Wh7RX7Cyq9Qe
-        status: active
-        display_name: 王助
-        merged_into_person_id: null
+  children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -200,11 +126,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| children | p_LgY66MYi17pkCoQsrEyB9E | 王勃 | accepted |
-| children | p_1HFrXhR5k8Wh7RX7Cyq9Qe | 王助 | accepted |
 
 ## 外部来源
 
-- [中国历代人物传记资料库：王勃（CBDB 30982）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30982&o=json)
 - [中国历代人物传记资料库：王福畤（CBDB 30885）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30885&o=json)
-- [CBDB 中国历代人物传记资料库：王助（91979）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=91979&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王彦祥
 cbdb_id: 34584
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -157,7 +157,7 @@ relationships:
         subject_person_id: p_rfNi35kMF1FSma9nVH7tNg
         claim_kind: relationship
         predicate: kinship.ancestor_of
-        object_person_id: p_D4z9mWRZWdetNdzRfwASCL
+        object_person_id: p_Wp6B6oFJWureDLbUWC4XTo
         generation_count: 3
         parent_role: null
         value_json: null
@@ -174,7 +174,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a2
       object_person:
-        id: p_D4z9mWRZWdetNdzRfwASCL
+        id: p_Wp6B6oFJWureDLbUWC4XTo
         status: active
         display_name: 王鏊
         merged_into_person_id: null
@@ -197,7 +197,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_P2y97jJhXVBL5SrVuPH2Jb | 王逵 | accepted |
-| descendants | p_D4z9mWRZWdetNdzRfwASCL | 王鏊 | accepted |
+| descendants | p_Wp6B6oFJWureDLbUWC4XTo | 王鏊 | accepted |
 
 ## 外部来源
 

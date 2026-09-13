@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_Q7ZnKzk1uz2jTGR32Sk1WY
-status: active
-merged_into: null
+status: merged
+merged_into: p_2N77V679N67chKYe7DivHB
 display_name: 王槩
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -73,33 +73,7 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children:
-    - claim:
-        id: c_4XLhq4fKK0sB5Rrrc4a3y-
-        subject_person_id: p_Q7ZnKzk1uz2jTGR32Sk1WY
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_eeT9SQ93RGpf2B6Bihu6TP
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_-dk5EFqou6s5gACicMhMcI
-          claim_id: c_4XLhq4fKK0sB5Rrrc4a3y-
-          source_id: s_VrX1Vwa1mCGdW2GSK1rLvP
-          stance: supports
-          locator: 成化五年進士登科錄:一卷，第二甲第六十二名：子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_eeT9SQ93RGpf2B6Bihu6TP
-        status: active
-        display_name: 王臣
-        merged_into_person_id: null
+  children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -123,7 +97,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| children | p_eeT9SQ93RGpf2B6Bihu6TP | 王臣 | accepted |
 
 ## 外部来源
 

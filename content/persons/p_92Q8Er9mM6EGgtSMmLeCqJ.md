@@ -4,7 +4,7 @@ id: p_92Q8Er9mM6EGgtSMmLeCqJ
 status: active
 merged_into: null
 display_name: 王家屛
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -222,43 +222,6 @@ relationships:
         status: active
         display_name: 李氏
         merged_into_person_id: null
-    - claim:
-        id: c_UVFC6vu4gQIRpMSZQBTy94
-        subject_person_id: p_XviG699Sb6fixCgUv7GBKK
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_92Q8Er9mM6EGgtSMmLeCqJ
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_cQj_dSqT46WON1U4fe2bYQ
-          claim_id: c_UVFC6vu4gQIRpMSZQBTy94
-          source_id: s_sFCsMMu4JKu5vJyBJtq55s
-          stance: supports
-          locator: 隆慶二年進士登科錄:一卷，第二甲第二名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_sFCsMMu4JKu5vJyBJtq55s
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：霍氏（333597）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333597&o=json
-            external_identifier: CBDB:333597
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T01:59:55.532Z
-            metadata_json: null
-      object_person:
-        id: p_XviG699Sb6fixCgUv7GBKK
-        status: active
-        display_name: 霍氏
-        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_Y3adLCWm94z5SwSwNM6ckW
@@ -336,12 +299,10 @@ relationships:
 | parents | p_wJnAf1dPfK6NuX3j1aUKFG | 王宪武 | accepted |
 | spouses | p_XviG699Sb6fixCgUv7GBKK | 霍氏 | accepted |
 | spouses | p_EkbtB6W15MsQZYuHoEPBhi | 李氏 | accepted |
-| spouses | p_XviG699Sb6fixCgUv7GBKK | 霍氏 | accepted |
 | ancestors | p_JCJBEueLs72MMGKKFXSBqw | 王缙 | accepted |
 | ancestors | p_n8gJ8LAH7u4tCjt15ALE93 | 王朝用 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王家屛（CBDB 126627）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126627&o=json)
-- [CBDB 中国历代人物传记资料库：霍氏（333597）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333597&o=json)
 - [CBDB 中国历代人物传记资料库：李氏（333598）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333598&o=json)

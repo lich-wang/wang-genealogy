@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_eEW7hHSgi5M9G3JPcBdrw8
-status: active
-merged_into: null
+status: merged
+merged_into: p_AuDnp3tfDdGY8Do4f11kBs
 display_name: 王徽之
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -72,44 +72,7 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents:
-    - claim:
-        id: c_10meSp_HxtSSlkFI3D8idR
-        subject_person_id: p_VCkK1jW79rQ6D9gE1Q4vrU
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_eEW7hHSgi5M9G3JPcBdrw8
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_3q-H8NgxlgQQlU0xo4EzXZ
-          claim_id: c_10meSp_HxtSSlkFI3D8idR
-          source_id: s_3X9-Y9RMVHu5yqbvwZB62D
-          stance: supports
-          locator: 晋书·卷八十·王羲之传：子徽之。
-          quotation: null
-          interpretation_note: 依据《晋书·王羲之传》正史原文复核补充。
-          source:
-            id: s_3X9-Y9RMVHu5yqbvwZB62D
-            source_type: website
-            title: 维基文库：晋书·卷八十·王羲之
-            creator: 维基文库贡献者
-            publisher: 维基媒体基金会
-            published_at_text: null
-            canonical_url: https://zh.wikisource.org/wiki/晉書/卷080
-            external_identifier: null
-            license_code: CC-BY-SA-4.0
-            accessed_at: 2026-09-13T11:16:42.454Z
-            metadata_json: null
-      object_person:
-        id: p_VCkK1jW79rQ6D9gE1Q4vrU
-        status: active
-        display_name: 王羲之
-        merged_into_person_id: null
+  parents: []
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -134,9 +97,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_VCkK1jW79rQ6D9gE1Q4vrU | 王羲之 | accepted |
 
 ## 外部来源
 
-- [维基文库：晋书·卷八十·王羲之](https://zh.wikisource.org/wiki/晉書/卷080)
 - [中国历代人物传记资料库：王徽之（CBDB 25794）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25794&o=json)

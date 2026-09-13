@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王孟华
 cbdb_id: 302966
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -157,7 +157,7 @@ relationships:
         subject_person_id: p_QF2bE4nFJ23UCeYuUNVU4y
         claim_kind: relationship
         predicate: kinship.ancestor_of
-        object_person_id: p_4GbPExDFna3bpZBzyQEK5D
+        object_person_id: p_CqGGoAHd4xav6yj4gHyTHE
         generation_count: 3
         parent_role: null
         value_json: null
@@ -174,7 +174,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a2
       object_person:
-        id: p_4GbPExDFna3bpZBzyQEK5D
+        id: p_CqGGoAHd4xav6yj4gHyTHE
         status: active
         display_name: 王崇古
         merged_into_person_id: null
@@ -197,7 +197,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_ptMfEt1rAT4WiPXRdKXa9c | 王馨 | accepted |
-| descendants | p_4GbPExDFna3bpZBzyQEK5D | 王崇古 | accepted |
+| descendants | p_CqGGoAHd4xav6yj4gHyTHE | 王崇古 | accepted |
 
 ## 外部来源
 

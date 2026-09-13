@@ -4,7 +4,7 @@ id: p_56q5oQWe8juXsC1XW2nxj3
 status: active
 merged_into: null
 display_name: 王瓘
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:

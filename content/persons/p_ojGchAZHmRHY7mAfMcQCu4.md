@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王珣
 cbdb_id: 134773
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -361,43 +361,6 @@ relationships:
             metadata_json: null
       object_person:
         id: p_8QRkdSq3az8C44oyD2PR6v
-        status: active
-        display_name: 王洽
-        merged_into_person_id: null
-    - claim:
-        id: c_bMNymk2CCofzJ2hoNZf2se
-        subject_person_id: p_fb8X23RNE9753gC8n3u93u
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_ojGchAZHmRHY7mAfMcQCu4
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_UDyqQKsh_QEt8npIOtPMm1
-          claim_id: c_bMNymk2CCofzJ2hoNZf2se
-          source_id: s_6qpUVTMJGSpwcKxjH4JiGU
-          stance: supports
-          locator: "明清婦女著作數據庫，MQWW PoetID #2005：子"
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_6qpUVTMJGSpwcKxjH4JiGU
-            source_type: api_record
-            title: 中国历代人物传记资料库：王洽（CBDB 25790）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25790&o=json
-            external_identifier: CBDB:25790
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-09T00:03:11.919Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
-      object_person:
-        id: p_fb8X23RNE9753gC8n3u93u
         status: active
         display_name: 王洽
         merged_into_person_id: null
@@ -997,7 +960,6 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_8QRkdSq3az8C44oyD2PR6v | 王洽 | accepted |
-| parents | p_fb8X23RNE9753gC8n3u93u | 王洽 | accepted |
 | children | p_Q4SbfiALT23z9i8MhGMH44 | 王曇首 | accepted |
 | children | p_wAdfiazuRFBS2fVaGyZDMH | 王弘 | accepted |
 | children | p_BS6tfbsbL6jCqXBZQKiLeW | 王虞 | accepted |
@@ -1014,9 +976,9 @@ relationships:
 - [维基数据：王抑（Q22814904）](https://www.wikidata.org/wiki/Q22814904)
 - [维基数据：王虞（Q22814906）](https://www.wikidata.org/wiki/Q22814906)
 - [維基數據：王洽（Q15915744）](https://www.wikidata.org/wiki/Q15915744)
-- [中国历代人物传记资料库：王洽（CBDB 25790）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25790&o=json)
 - [中文维基百科：琅邪王氏世系圖](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F%E4%B8%96%E7%B3%BB%E5%9C%96)
 - [中文维基百科：王僧亮](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%83%A7%E4%BA%AE)
 - [中文维基百科：王珣](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%8F%A3)
 - [中文维基文库：新唐書/卷072中](https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7072%E4%B8%AD)
+- [CBDB 中国历代人物传记资料库：王洽（25790）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25790&o=json)
 - [CBDB 中国历代人物传记资料库：王珣（134773）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134773&o=json)

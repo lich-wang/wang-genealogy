@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王惟真
 cbdb_id: 240858
-revision: 3
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -163,7 +163,7 @@ relationships:
         subject_person_id: p_m8pEmRBSH6ayXuTKwEAjBF
         claim_kind: relationship
         predicate: kinship.father_of
-        object_person_id: p_8ZBDQjrPzNEsJHrpRrVWkK
+        object_person_id: p_g1bs6h5k4Pu2preBv8KZPd
         generation_count: null
         parent_role: father
         value_json: null
@@ -199,7 +199,7 @@ relationships:
           interpretation_note: null
           source: *a2
       object_person:
-        id: p_8ZBDQjrPzNEsJHrpRrVWkK
+        id: p_g1bs6h5k4Pu2preBv8KZPd
         status: active
         display_name: 王仲智
         merged_into_person_id: null
@@ -213,7 +213,7 @@ relationships:
         subject_person_id: p_m8pEmRBSH6ayXuTKwEAjBF
         claim_kind: relationship
         predicate: kinship.ancestor_of
-        object_person_id: p_T2DCj9d6XKU4djHJMs2kSM
+        object_person_id: p_e622FY31yMzCRE9JqUsUSG
         generation_count: 2
         parent_role: null
         value_json: null
@@ -230,7 +230,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a1
       object_person:
-        id: p_T2DCj9d6XKU4djHJMs2kSM
+        id: p_e622FY31yMzCRE9JqUsUSG
         status: active
         display_name: 王恕
         merged_into_person_id: null
@@ -253,8 +253,8 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_1LjXtHaC5ZgBX5ntEmabuX | 王彦成 | accepted |
-| children | p_8ZBDQjrPzNEsJHrpRrVWkK | 王仲智 | accepted |
-| descendants | p_T2DCj9d6XKU4djHJMs2kSM | 王恕 | accepted |
+| children | p_g1bs6h5k4Pu2preBv8KZPd | 王仲智 | accepted |
+| descendants | p_e622FY31yMzCRE9JqUsUSG | 王恕 | accepted |
 
 ## 外部来源
 

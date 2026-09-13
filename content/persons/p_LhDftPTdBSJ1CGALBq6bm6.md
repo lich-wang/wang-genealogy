@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王铭
 cbdb_id: 222284
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -213,7 +213,7 @@ relationships:
         subject_person_id: p_LhDftPTdBSJ1CGALBq6bm6
         claim_kind: relationship
         predicate: kinship.ancestor_of
-        object_person_id: p_XLzE7EyB5VaDYLv2XHEgHa
+        object_person_id: p_bZ12YW1VvZ8wACEDC3JXA6
         generation_count: 2
         parent_role: null
         value_json: null
@@ -230,7 +230,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a1
       object_person:
-        id: p_XLzE7EyB5VaDYLv2XHEgHa
+        id: p_bZ12YW1VvZ8wACEDC3JXA6
         status: active
         display_name: 王佐
         merged_into_person_id: null
@@ -254,7 +254,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_onvVrjmfvkdjFcgNLVKCma | 王棋 | accepted |
 | children | p_2JBV3UP1jjSL1hUd6uRUK3 | 王鸾 | accepted |
-| descendants | p_XLzE7EyB5VaDYLv2XHEgHa | 王佐 | accepted |
+| descendants | p_bZ12YW1VvZ8wACEDC3JXA6 | 王佐 | accepted |
 
 ## 外部来源
 

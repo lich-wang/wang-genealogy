@@ -4,7 +4,7 @@ id: p_5QEFg5NX8fdCTZoicRnKAT
 status: active
 merged_into: null
 display_name: 王韶
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -432,11 +432,196 @@ relationships:
         status: active
         display_name: 王宷
         merged_into_person_id: null
+    - claim:
+        id: c_CvIJ8nLv90dO8104do0P8y
+        subject_person_id: p_5QEFg5NX8fdCTZoicRnKAT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LmvwBv9Vm8BVkEPgL1A7GT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2Qk3xsC2LI6Y37OcO9TJtb
+          claim_id: c_CvIJ8nLv90dO8104do0P8y
+          source_id: s_SuP77rXdnxgEoJn67ps2ms
+          stance: supports
+          locator: CBDB 双向互证（父 王韶 ⇄ 子 王寀）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_SuP77rXdnxgEoJn67ps2ms
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寀（CBDB 12047）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12047&o=json
+            external_identifier: CBDB:12047
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.573Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_LmvwBv9Vm8BVkEPgL1A7GT
+        status: active
+        display_name: 王寀
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_XO8_GYeepXSmZ-d_VSLAK0
+        subject_person_id: p_5QEFg5NX8fdCTZoicRnKAT
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_DCTkDfQk8qHYiFjuEH45Mr
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gVqCXVicYP0bCstTcSSyb0
+          claim_id: c_XO8_GYeepXSmZ-d_VSLAK0
+          source_id: s_4z3F8MMmD2S1em5Hn7hH1H
+          stance: supports
+          locator: 宋史：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4z3F8MMmD2S1em5Hn7hH1H
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遂（CBDB 12053）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12053&o=json
+            external_identifier: CBDB:12053
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.582Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_DCTkDfQk8qHYiFjuEH45Mr
+        status: active
+        display_name: 王遂
+        merged_into_person_id: null
+    - claim:
+        id: c_gQs2rSgXMnMIJF4BtcRIFT
+        subject_person_id: p_5QEFg5NX8fdCTZoicRnKAT
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_i5579JHLY2cRuS7YHKZJ5T
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Jj-YVsjUzEaUdz__op241l
+          claim_id: c_gQs2rSgXMnMIJF4BtcRIFT
+          source_id: s_JiBcFyQDVHFNQoKUexCzy3
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_JiBcFyQDVHFNQoKUexCzy3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王萬樞（CBDB 12051）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12051&o=json
+            external_identifier: CBDB:12051
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.578Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_i5579JHLY2cRuS7YHKZJ5T
+        status: active
+        display_name: 王萬樞
+        merged_into_person_id: null
+    - claim:
+        id: c_S-xJfs1YNUPJ-fZl-3HHpQ
+        subject_person_id: p_5QEFg5NX8fdCTZoicRnKAT
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_dU6PvGgbaH45Bh79md732t
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__aLKlteanDBRHztAsOW7Yr
+          claim_id: c_S-xJfs1YNUPJ-fZl-3HHpQ
+          source_id: s_c3num1yraFAopsmZwfvCcU
+          stance: supports
+          locator: CBDB 双向互证（祖父 王韶 ⇄ 孫 王彥隆）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_c3num1yraFAopsmZwfvCcU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彥隆（CBDB 17821）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17821&o=json
+            external_identifier: CBDB:17821
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.681Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_dU6PvGgbaH45Bh79md732t
+        status: active
+        display_name: 王彥隆
+        merged_into_person_id: null
+    - claim:
+        id: c_7SZbOcbPhqTrQsUG0gglhh
+        subject_person_id: p_5QEFg5NX8fdCTZoicRnKAT
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_dyP3M6jKAWf84mA6g7crLs
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_99qjTKmk63U4E3kaLCHw8n
+          claim_id: c_7SZbOcbPhqTrQsUG0gglhh
+          source_id: s_T2Wc2EYYQNBLKSamaLsReD
+          stance: supports
+          locator: CBDB 双向互证（祖父 王韶 ⇄ 孫 王彥融）
+          quotation: null
+          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
+          source:
+            id: s_T2Wc2EYYQNBLKSamaLsReD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彥融（CBDB 1927）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1927&o=json
+            external_identifier: CBDB:1927
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:11.407Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_dyP3M6jKAWf84mA6g7crLs
+        status: active
+        display_name: 王彥融
+        merged_into_person_id: null
   other: []
 ---
 
@@ -461,6 +646,11 @@ relationships:
 | children | p_8HNFAVKa8AYbQkkggbtSC6 | 王厚 | accepted |
 | children | p_mAJ21aJb3djY2SYmAvV1Fj | 王采 | accepted |
 | children | p_j7cTzgP8kPH4PuJJT6Phja | 王宷 | accepted |
+| children | p_LmvwBv9Vm8BVkEPgL1A7GT | 王寀 | accepted |
+| descendants | p_DCTkDfQk8qHYiFjuEH45Mr | 王遂 | accepted |
+| descendants | p_i5579JHLY2cRuS7YHKZJ5T | 王萬樞 | accepted |
+| descendants | p_dU6PvGgbaH45Bh79md732t | 王彥隆 | accepted |
+| descendants | p_dyP3M6jKAWf84mA6g7crLs | 王彥融 | accepted |
 
 ## 外部来源
 
@@ -469,5 +659,10 @@ relationships:
 - [维基数据：王韶（Q10417893）](https://www.wikidata.org/wiki/Q10417893)
 - [维基数据：王宷（Q45493354）](https://www.wikidata.org/wiki/Q45493354)
 - [维基数据：王世规（Q45387330）](https://www.wikidata.org/wiki/Q45387330)
+- [中国历代人物传记资料库：王寀（CBDB 12047）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12047&o=json)
+- [中国历代人物传记资料库：王遂（CBDB 12053）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12053&o=json)
+- [中国历代人物传记资料库：王萬樞（CBDB 12051）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12051&o=json)
+- [中国历代人物传记资料库：王彥隆（CBDB 17821）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17821&o=json)
+- [中国历代人物传记资料库：王彥融（CBDB 1927）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1927&o=json)
 - [中文维基百科：王韶 (宋朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%9F%B6_(%E5%AE%8B%E6%9C%9D))
 - [CBDB 中国历代人物传记资料库：王韶（1865）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1865&o=json)

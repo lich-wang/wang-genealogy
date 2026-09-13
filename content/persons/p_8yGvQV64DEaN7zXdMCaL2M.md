@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王益恭
 cbdb_id: 22054
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -463,43 +463,6 @@ relationships:
         status: active
         display_name: 李氏
         merged_into_person_id: null
-    - claim:
-        id: c_5F5hoaQeK2teSYdkmBS6JU
-        subject_person_id: p_98QQdRkf8cCt61bD928i6c
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_8yGvQV64DEaN7zXdMCaL2M
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_SL-_USgNv8VxrhD60gYi7K
-          claim_id: c_5F5hoaQeK2teSYdkmBS6JU
-          source_id: s_FCp7TCuZ2zry8caZmGkPTT
-          stance: supports
-          locator: 散見宋金元墓誌地券輯錄六編，宋李氏墓誌：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_FCp7TCuZ2zry8caZmGkPTT
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：李氏（577087）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=577087&o=json
-            external_identifier: CBDB:577087
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:07:26.107Z
-            metadata_json: null
-      object_person:
-        id: p_98QQdRkf8cCt61bD928i6c
-        status: active
-        display_name: 李氏
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -527,7 +490,6 @@ relationships:
 | children | p_R1Ny36Z2KzDUq48Pri3BeK | 王慎行 | accepted |
 | children | p_mtMHeaLVMRzHPiV6MMKoBB | 王慎术 | accepted |
 | spouses | p_98QQdRkf8cCt61bD928i6c | 李氏 | accepted |
-| spouses | p_98QQdRkf8cCt61bD928i6c | 李氏 | accepted |
 
 ## 外部来源
 
@@ -536,6 +498,5 @@ relationships:
 - [维基数据：王慎言（Q45363017）](https://www.wikidata.org/wiki/Q45363017)
 - [维基数据：王曙（Q16077251）](https://www.wikidata.org/wiki/Q16077251)
 - [维基数据：王益恭（Q45401756）](https://www.wikidata.org/wiki/Q45401756)
-- [CBDB 中国历代人物传记资料库：李氏（577087）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=577087&o=json)
 - [CBDB 中国历代人物传记资料库：王曙（1877）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1877&o=json)
 - [CBDB 中国历代人物传记资料库：王益恭（22054）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22054&o=json)

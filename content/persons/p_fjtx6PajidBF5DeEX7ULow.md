@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_fjtx6PajidBF5DeEX7ULow
-status: active
-merged_into: null
+status: merged
+merged_into: p_ZZ9tZgx4rUmKgDXtAEqRwH
 display_name: 王祖道
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -101,142 +101,12 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children:
-    - claim:
-        id: c_-LGpBOhsFSbjhTpNboMs8W
-        subject_person_id: p_fjtx6PajidBF5DeEX7ULow
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_z5u3jCA88DDJrzfkRCxrEK
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_epbFr9kZN67k7AsmDtW61j
-          claim_id: c_-LGpBOhsFSbjhTpNboMs8W
-          source_id: s_DKwEihoKaeDdokgXg515QL
-          stance: supports
-          locator: 宋人傳記資料索引(電子版)，1627：子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_z5u3jCA88DDJrzfkRCxrEK
-        status: active
-        display_name: 王孝先
-        merged_into_person_id: null
+  children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants:
-    - claim:
-        id: c_55Gw-J8ANHaC8DUVloT-1Q
-        subject_person_id: p_fjtx6PajidBF5DeEX7ULow
-        claim_kind: relationship
-        predicate: kinship.ancestor_of
-        object_person_id: p_Qa61NZVoSxfEH9opac7xGu
-        generation_count: 3
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_E0DLutYDx1zy0LjqGJxfLB
-          claim_id: c_55Gw-J8ANHaC8DUVloT-1Q
-          source_id: s_DKwEihoKaeDdokgXg515QL
-          stance: supports
-          locator: CBDB 双向互证（曾孫; 重孫 王西應 ⇄ 曾祖 王祖道）
-          quotation: null
-          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
-          source: *a1
-      object_person:
-        id: p_Qa61NZVoSxfEH9opac7xGu
-        status: active
-        display_name: 王西應
-        merged_into_person_id: null
-    - claim:
-        id: c_h5wQfhGPVVLshqKkYdcyJk
-        subject_person_id: p_fjtx6PajidBF5DeEX7ULow
-        claim_kind: relationship
-        predicate: kinship.ancestor_of
-        object_person_id: p_hEEpn7U7EKTTeFP3ixWWbm
-        generation_count: 4
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_yJlnOvMQ041D6t8jmBB0kl
-          claim_id: c_h5wQfhGPVVLshqKkYdcyJk
-          source_id: s_DKwEihoKaeDdokgXg515QL
-          stance: supports
-          locator: CBDB 双向互证（玄孫;四世孫 王禔 ⇄ 高祖;四世祖 王祖道）
-          quotation: null
-          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
-          source: *a1
-      object_person:
-        id: p_hEEpn7U7EKTTeFP3ixWWbm
-        status: active
-        display_name: 王禔
-        merged_into_person_id: null
-    - claim:
-        id: c_nf3ctKDf1ZTjblo6kVtu6I
-        subject_person_id: p_fjtx6PajidBF5DeEX7ULow
-        claim_kind: relationship
-        predicate: kinship.ancestor_of
-        object_person_id: p_dimTrX27PvxL2MX3Rq63kM
-        generation_count: 4
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_rapuYx8BFS-ys-ccmC99Wf
-          claim_id: c_nf3ctKDf1ZTjblo6kVtu6I
-          source_id: s_DKwEihoKaeDdokgXg515QL
-          stance: supports
-          locator: CBDB 双向互证（玄孫;四世孫 王龍從 ⇄ 高祖;四世祖 王祖道）
-          quotation: null
-          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
-          source: *a1
-      object_person:
-        id: p_dimTrX27PvxL2MX3Rq63kM
-        status: active
-        display_name: 王龍從
-        merged_into_person_id: null
-    - claim:
-        id: c_TQHG2ye5GtlwLWjunv9SQI
-        subject_person_id: p_fjtx6PajidBF5DeEX7ULow
-        claim_kind: relationship
-        predicate: kinship.ancestor_of
-        object_person_id: p_y2SSgfQnNofghB5exGpzn6
-        generation_count: 4
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_XyQcmJ_ny0ZZ1IyqXO5ief
-          claim_id: c_TQHG2ye5GtlwLWjunv9SQI
-          source_id: s_DKwEihoKaeDdokgXg515QL
-          stance: supports
-          locator: CBDB 双向互证（玄孫;四世孫 王龍應 ⇄ 高祖;四世祖 王祖道）
-          quotation: null
-          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
-          source: *a1
-      object_person:
-        id: p_y2SSgfQnNofghB5exGpzn6
-        status: active
-        display_name: 王龍應
-        merged_into_person_id: null
+  descendants: []
   other: []
 ---
 
@@ -256,11 +126,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| children | p_z5u3jCA88DDJrzfkRCxrEK | 王孝先 | accepted |
-| descendants | p_Qa61NZVoSxfEH9opac7xGu | 王西應 | accepted |
-| descendants | p_hEEpn7U7EKTTeFP3ixWWbm | 王禔 | accepted |
-| descendants | p_dimTrX27PvxL2MX3Rq63kM | 王龍從 | accepted |
-| descendants | p_y2SSgfQnNofghB5exGpzn6 | 王龍應 | accepted |
 
 ## 外部来源
 

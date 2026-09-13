@@ -4,7 +4,7 @@ id: p_fCpXRw3ympYVRWdSX3T5cq
 status: active
 merged_into: null
 display_name: 王福畤
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:

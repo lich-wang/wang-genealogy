@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 张氏
 cbdb_id: 37848
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -99,7 +99,7 @@ relationships:
         subject_person_id: p_9mXC5Vf3jEyoF6c6eS5VsK
         claim_kind: relationship
         predicate: kinship.father_of
-        object_person_id: p_M9sDetT5acG1nDTAxFe7as
+        object_person_id: p_EWAx1K1Zcs56idxSXpA1ot
         generation_count: null
         parent_role: father
         value_json: null
@@ -116,7 +116,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a1
       object_person:
-        id: p_M9sDetT5acG1nDTAxFe7as
+        id: p_EWAx1K1Zcs56idxSXpA1ot
         status: active
         display_name: 王之望
         merged_into_person_id: null
@@ -207,7 +207,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| children | p_M9sDetT5acG1nDTAxFe7as | 王之望 | accepted |
+| children | p_EWAx1K1Zcs56idxSXpA1ot | 王之望 | accepted |
 | spouses | p_dugn9Y5GC1ysVBtTRs2WLM | 王纲 | accepted |
 
 ## 外部来源

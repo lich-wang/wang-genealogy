@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 劉奭
 cbdb_id: 135026
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -194,7 +194,7 @@ properties:
           locator: Q7232
           quotation: null
           interpretation_note: null
-          source: &a1
+          source:
             id: s_Qb4QPKxAESFyxeAB2NtXJm
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：劉奭（135026）
@@ -463,32 +463,6 @@ relationships:
         status: active
         display_name: 王政君
         merged_into_person_id: null
-    - claim:
-        id: c_jHrYC76l9wASk5aA3d0FJl
-        subject_person_id: p_uKaMLxEP9pJu7gJCicb8eT
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_jbX85mkqDQkzj4JgECnsYm
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_cmTXtOL49xIwr_oVCJYScw
-          claim_id: c_jHrYC76l9wASk5aA3d0FJl
-          source_id: s_Qb4QPKxAESFyxeAB2NtXJm
-          stance: supports
-          locator: "明清婦女著作數據庫，MQWW PoetID #2700：妻子"
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_jbX85mkqDQkzj4JgECnsYm
-        status: active
-        display_name: 王政君
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -514,7 +488,6 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_ma56j3xFL2iP3FzuSAfpHk | 王政君 | accepted |
-| spouses | p_jbX85mkqDQkzj4JgECnsYm | 王政君 | accepted |
 | spouses | p_jbX85mkqDQkzj4JgECnsYm | 王政君 | accepted |
 
 ## 外部来源

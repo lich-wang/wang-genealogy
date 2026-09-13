@@ -4,7 +4,7 @@ id: p_Un98x3Kw7vbgE1taigN1AK
 status: active
 merged_into: null
 display_name: 王承裕
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -127,62 +127,6 @@ properties:
 relationships:
   parents:
     - claim:
-        id: c_JMhR58WmvvRzmDcQF9L5nr
-        subject_person_id: p_mLBwCR2GVoDmj97sEa96gF
-        claim_kind: relationship
-        predicate: kinship.parent_of
-        object_person_id: p_Un98x3Kw7vbgE1taigN1AK
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 2
-      sources:
-        - id: cs_F9MgK1ndM4k5Pg9VxnQhPP
-          claim_id: c_JMhR58WmvvRzmDcQF9L5nr
-          source_id: s_jtfaEuPXv7uhbwkyMkx8ng
-          stance: supports
-          locator: P40（子女）
-          quotation: null
-          interpretation_note: null
-          source:
-            id: s_jtfaEuPXv7uhbwkyMkx8ng
-            source_type: api_record
-            title: 维基数据：王恕（Q45545428）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45545428
-            external_identifier: Q45545428
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:00:10.748Z
-            metadata_json: null
-        - id: cs_HeAGFAkh1WAZzHsUMVEcrK
-          claim_id: c_JMhR58WmvvRzmDcQF9L5nr
-          source_id: s_5rkXUyJcjjf1SehC3fSzKE
-          stance: supports
-          locator: P22（父）
-          quotation: null
-          interpretation_note: null
-          source:
-            id: s_5rkXUyJcjjf1SehC3fSzKE
-            source_type: api_record
-            title: 维基数据：王承裕（Q15941024）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q15941024
-            external_identifier: Q15941024
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:48:40.526Z
-            metadata_json: null
-      object_person:
-        id: p_mLBwCR2GVoDmj97sEa96gF
-        status: active
-        display_name: 王恕
-        merged_into_person_id: null
-    - claim:
         id: c_gJbdJximJp8mxi4rbDQfps
         subject_person_id: p_e622FY31yMzCRE9JqUsUSG
         claim_kind: relationship
@@ -298,7 +242,70 @@ relationships:
         status: active
         display_name: 张氏
         merged_into_person_id: null
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_coMJK_CGabCn2hpm6AoWcd
+        subject_person_id: p_tcWDCYEjZBxpgXVNCyJD9U
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Un98x3Kw7vbgE1taigN1AK
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dmGOZGV6cpn9yqqI69iH9V
+          claim_id: c_coMJK_CGabCn2hpm6AoWcd
+          source_id: s_KwAAbYEBjQwNhkLyALJnCV
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第二甲第二十三名：曾祖
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: &a1
+            id: s_KwAAbYEBjQwNhkLyALJnCV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王承裕（CBDB 67772）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67772&o=json
+            external_identifier: CBDB:67772
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:13.017Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_tcWDCYEjZBxpgXVNCyJD9U
+        status: active
+        display_name: 王惟直
+        merged_into_person_id: null
+    - claim:
+        id: c_9Rflp-BBJRdjs7XTJPMdgF
+        subject_person_id: p_g1bs6h5k4Pu2preBv8KZPd
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_Un98x3Kw7vbgE1taigN1AK
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mAeAH8g3lm4iH3VnyAvnXm
+          claim_id: c_9Rflp-BBJRdjs7XTJPMdgF
+          source_id: s_KwAAbYEBjQwNhkLyALJnCV
+          stance: supports
+          locator: 弘治六年進士登科錄:一卷，第二甲第二十三名：祖父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a1
+      object_person:
+        id: p_g1bs6h5k4Pu2preBv8KZPd
+        status: active
+        display_name: 王仲智
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -319,15 +326,15 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_mLBwCR2GVoDmj97sEa96gF | 王恕 | accepted |
 | parents | p_e622FY31yMzCRE9JqUsUSG | 王恕 | accepted |
 | spouses | p_Qd35J9Vr9qLhrzFStDP4Qn | 张氏 | accepted |
+| ancestors | p_tcWDCYEjZBxpgXVNCyJD9U | 王惟直 | accepted |
+| ancestors | p_g1bs6h5k4Pu2preBv8KZPd | 王仲智 | accepted |
 
 ## 外部来源
 
 - [维基数据：王承裕（Q15941024）](https://www.wikidata.org/wiki/Q15941024)
-- [维基数据：王恕（Q45545428）](https://www.wikidata.org/wiki/Q45545428)
 - [维基数据：张氏（Q65870769）](https://www.wikidata.org/wiki/Q65870769)
+- [中国历代人物传记资料库：王承裕（CBDB 67772）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67772&o=json)
 - [中文维基百科：王承裕](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%89%BF%E8%A3%95)
-- [CBDB 中国历代人物传记资料库：王承裕（67772）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67772&o=json)
 - [CBDB 中国历代人物传记资料库：王恕（62505）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=62505&o=json)

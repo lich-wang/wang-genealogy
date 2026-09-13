@@ -4,7 +4,7 @@ id: p_GbQy8jfgKbMEuvvPBZA4FY
 status: active
 merged_into: null
 display_name: 王訢
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -107,119 +107,6 @@ relationships:
   parents: []
   children:
     - claim:
-        id: c_cce7KvwGEuNNziwVsUC3RM
-        subject_person_id: p_GbQy8jfgKbMEuvvPBZA4FY
-        claim_kind: relationship
-        predicate: kinship.parent_of
-        object_person_id: p_ZP94X9ZiCDzHEcmm3AEhf7
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 2
-      sources:
-        - id: cs_8jjbMNfAMYamrmoPKf1n31
-          claim_id: c_cce7KvwGEuNNziwVsUC3RM
-          source_id: s_DznT9DAEC7bb8kuqDw4nRf
-          stance: supports
-          locator: 条文：条文识读（子）
-          quotation: 爵位傳給了他的兒子王谭
-          interpretation_note: null
-          source:
-            id: s_DznT9DAEC7bb8kuqDw4nRf
-            source_type: website
-            title: 中文维基百科：王訢
-            creator: 维基百科贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%A8%A2
-            external_identifier: null
-            license_code: CC-BY-SA-4.0
-            accessed_at: 2026-08-25T01:51:54.260Z
-            metadata_json: null
-        - id: cs_HTf1i2Lenp9pHgj1MZJ2Mn
-          claim_id: c_cce7KvwGEuNNziwVsUC3RM
-          source_id: s_VfmVFKwFJKiNpueJKNTZ2G
-          stance: supports
-          locator: 条文：条文识读（子）
-          quotation: 爵位傳給了他的兒子王谭
-          interpretation_note: null
-          source:
-            id: s_VfmVFKwFJKiNpueJKNTZ2G
-            source_type: website
-            title: 中文维基百科：王訢
-            creator: 维基百科贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%A8%A2
-            external_identifier: null
-            license_code: CC-BY-SA-4.0
-            accessed_at: 2026-08-24T12:13:52.823Z
-            metadata_json: null
-        - id: cs_WWpHC915ENHkE7fRcN7i8x
-          claim_id: c_cce7KvwGEuNNziwVsUC3RM
-          source_id: s_7piLDqGhoTp1aat5CHHZso
-          stance: supports
-          locator: 条文：条文识读（子）
-          quotation: 爵位傳給了他的兒子王谭
-          interpretation_note: null
-          source:
-            id: s_7piLDqGhoTp1aat5CHHZso
-            source_type: website
-            title: 中文维基百科：王訢
-            creator: 维基百科贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%A8%A2
-            external_identifier: null
-            license_code: CC-BY-SA-4.0
-            accessed_at: 2026-08-25T09:56:38.010Z
-            metadata_json: null
-        - id: cs_ma1sGUNMDGdPi9cftmdGrm
-          claim_id: c_cce7KvwGEuNNziwVsUC3RM
-          source_id: s_Q97wqhXZHN9TMRegXK9zif
-          stance: supports
-          locator: 条文：条文识读（子）
-          quotation: 爵位傳給了他的兒子王谭
-          interpretation_note: null
-          source:
-            id: s_Q97wqhXZHN9TMRegXK9zif
-            source_type: website
-            title: 中文维基百科：王訢
-            creator: 维基百科贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%A8%A2
-            external_identifier: null
-            license_code: CC-BY-SA-4.0
-            accessed_at: 2026-08-24T12:09:22.684Z
-            metadata_json: null
-        - id: cs_yVD7Z5HXCdVazK2Fmx2b1F
-          claim_id: c_cce7KvwGEuNNziwVsUC3RM
-          source_id: s_E6rn6Mk7gDjK78xK6EEmqz
-          stance: supports
-          locator: 条文：条文识读（子）
-          quotation: 爵位傳給了他的兒子王谭
-          interpretation_note: null
-          source:
-            id: s_E6rn6Mk7gDjK78xK6EEmqz
-            source_type: website
-            title: 中文维基百科：王訢
-            creator: 维基百科贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%A8%A2
-            external_identifier: null
-            license_code: CC-BY-SA-4.0
-            accessed_at: 2026-08-25T02:27:19.220Z
-            metadata_json: null
-      object_person:
-        id: p_ZP94X9ZiCDzHEcmm3AEhf7
-        status: active
-        display_name: 王谭
-        merged_into_person_id: null
-    - claim:
         id: c_WECdat98Vx3R14jm4D8H1a
         subject_person_id: p_GbQy8jfgKbMEuvvPBZA4FY
         claim_kind: relationship
@@ -299,7 +186,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| children | p_ZP94X9ZiCDzHEcmm3AEhf7 | 王谭 | accepted |
 | children | p_ZRPHhvQCC2prhC64nEgE7Z | 王谭 | accepted |
 
 ## 外部来源

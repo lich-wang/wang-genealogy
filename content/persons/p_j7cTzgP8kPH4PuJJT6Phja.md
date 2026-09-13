@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王宷
 cbdb_id: 119740
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -77,7 +77,7 @@ properties:
           locator: Q45493354
           quotation: null
           interpretation_note: null
-          source: &a2
+          source:
             id: s_qcX1VjDMhbTXr7Psa249QR
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：王宷（119740）
@@ -149,32 +149,6 @@ relationships:
         status: active
         display_name: 王韶
         merged_into_person_id: null
-    - claim:
-        id: c_3lIVjO6v_sT4Kpqti14c39
-        subject_person_id: p_f5uvxnPRT14yx91yn4yLGC
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_j7cTzgP8kPH4PuJJT6Phja
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_KIHBTZ4KCsp_ktFg-VD4Oh
-          claim_id: c_3lIVjO6v_sT4Kpqti14c39
-          source_id: s_qcX1VjDMhbTXr7Psa249QR
-          stance: supports
-          locator: 宋史：父
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
-      object_person:
-        id: p_f5uvxnPRT14yx91yn4yLGC
-        status: active
-        display_name: 王韶
-        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -200,7 +174,6 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_5QEFg5NX8fdCTZoicRnKAT | 王韶 | accepted |
-| parents | p_f5uvxnPRT14yx91yn4yLGC | 王韶 | accepted |
 
 ## 外部来源
 

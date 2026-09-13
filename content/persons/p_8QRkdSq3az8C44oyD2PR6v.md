@@ -4,7 +4,7 @@ id: p_8QRkdSq3az8C44oyD2PR6v
 status: active
 merged_into: null
 display_name: 王洽
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:

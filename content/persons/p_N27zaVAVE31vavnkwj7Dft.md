@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王伯永
 cbdb_id: 272142
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -157,7 +157,7 @@ relationships:
         subject_person_id: p_N27zaVAVE31vavnkwj7Dft
         claim_kind: relationship
         predicate: kinship.ancestor_of
-        object_person_id: p_4z4yWZGdPhnbVEAyL9QgnJ
+        object_person_id: p_YFXpD1H4mYzD71g98dxSNt
         generation_count: 3
         parent_role: null
         value_json: null
@@ -174,7 +174,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a2
       object_person:
-        id: p_4z4yWZGdPhnbVEAyL9QgnJ
+        id: p_YFXpD1H4mYzD71g98dxSNt
         status: active
         display_name: 王爌
         merged_into_person_id: null
@@ -197,7 +197,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_255t2nDMrWzFXS93NLqNE3 | 王宗 | accepted |
-| descendants | p_4z4yWZGdPhnbVEAyL9QgnJ | 王爌 | accepted |
+| descendants | p_YFXpD1H4mYzD71g98dxSNt | 王爌 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_LmvwBv9Vm8BVkEPgL1A7GT
 status: active
 merged_into: null
 display_name: 王寀
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -131,7 +131,7 @@ relationships:
   parents:
     - claim:
         id: c_CvIJ8nLv90dO8104do0P8y
-        subject_person_id: p_f5uvxnPRT14yx91yn4yLGC
+        subject_person_id: p_5QEFg5NX8fdCTZoicRnKAT
         claim_kind: relationship
         predicate: kinship.father_of
         object_person_id: p_LmvwBv9Vm8BVkEPgL1A7GT
@@ -151,7 +151,7 @@ relationships:
           interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
           source: *a1
       object_person:
-        id: p_f5uvxnPRT14yx91yn4yLGC
+        id: p_5QEFg5NX8fdCTZoicRnKAT
         status: active
         display_name: 王韶
         merged_into_person_id: null
@@ -255,7 +255,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_f5uvxnPRT14yx91yn4yLGC | 王韶 | accepted |
+| parents | p_5QEFg5NX8fdCTZoicRnKAT | 王韶 | accepted |
 | children | p_dyP3M6jKAWf84mA6g7crLs | 王彥融 | accepted |
 | descendants | p_i5579JHLY2cRuS7YHKZJ5T | 王萬樞 | accepted |
 

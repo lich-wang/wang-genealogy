@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王西應
 cbdb_id: 20092
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -82,7 +82,7 @@ relationships:
   ancestors:
     - claim:
         id: c_55Gw-J8ANHaC8DUVloT-1Q
-        subject_person_id: p_fjtx6PajidBF5DeEX7ULow
+        subject_person_id: p_ZZ9tZgx4rUmKgDXtAEqRwH
         claim_kind: relationship
         predicate: kinship.ancestor_of
         object_person_id: p_Qa61NZVoSxfEH9opac7xGu
@@ -113,7 +113,7 @@ relationships:
             metadata_json:
               source_release: CBDB 2026-09-05
       object_person:
-        id: p_fjtx6PajidBF5DeEX7ULow
+        id: p_ZZ9tZgx4rUmKgDXtAEqRwH
         status: active
         display_name: 王祖道
         merged_into_person_id: null
@@ -136,7 +136,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| ancestors | p_fjtx6PajidBF5DeEX7ULow | 王祖道 | accepted |
+| ancestors | p_ZZ9tZgx4rUmKgDXtAEqRwH | 王祖道 | accepted |
 
 ## 外部来源
 

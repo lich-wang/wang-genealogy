@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王洤
 cbdb_id: 22205
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -168,7 +168,7 @@ relationships:
   ancestors:
     - claim:
         id: c_1Ao7qJ_E-l7FrOrqLgg7ao
-        subject_person_id: p_M9sDetT5acG1nDTAxFe7as
+        subject_person_id: p_EWAx1K1Zcs56idxSXpA1ot
         claim_kind: relationship
         predicate: kinship.ancestor_of
         object_person_id: p_9GJnwQBF4on62pho7MUycK
@@ -200,7 +200,7 @@ relationships:
             metadata_json:
               source_release: CBDB 2026-08-29
       object_person:
-        id: p_M9sDetT5acG1nDTAxFe7as
+        id: p_EWAx1K1Zcs56idxSXpA1ot
         status: active
         display_name: 王之望
         merged_into_person_id: null
@@ -225,7 +225,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| ancestors | p_M9sDetT5acG1nDTAxFe7as | 王之望 | accepted |
+| ancestors | p_EWAx1K1Zcs56idxSXpA1ot | 王之望 | accepted |
 
 ## 外部来源
 

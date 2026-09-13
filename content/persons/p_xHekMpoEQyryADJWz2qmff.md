@@ -4,7 +4,7 @@ id: p_xHekMpoEQyryADJWz2qmff
 status: active
 merged_into: null
 display_name: 王立轂
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -75,7 +75,7 @@ relationships:
   parents:
     - claim:
         id: c_PHYXoubcmIqudMeLnXmpFf
-        subject_person_id: p_K23baGuNzCVmxSWXhhYJ4B
+        subject_person_id: p_ZHWKRzPsbezhFJuM1r6DbE
         claim_kind: relationship
         predicate: kinship.father_of
         object_person_id: p_xHekMpoEQyryADJWz2qmff
@@ -95,7 +95,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a1
       object_person:
-        id: p_K23baGuNzCVmxSWXhhYJ4B
+        id: p_ZHWKRzPsbezhFJuM1r6DbE
         status: active
         display_name: 王士性
         merged_into_person_id: null
@@ -123,7 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_K23baGuNzCVmxSWXhhYJ4B | 王士性 | accepted |
+| parents | p_ZHWKRzPsbezhFJuM1r6DbE | 王士性 | accepted |
 
 ## 外部来源
 

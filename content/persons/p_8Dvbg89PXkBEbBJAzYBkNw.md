@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 沈瓒
 cbdb_id: 136038
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -338,43 +338,6 @@ relationships:
         display_name: 王氏
         merged_into_person_id: null
     - claim:
-        id: c_UQLJznasR725WCKmT4Afn8
-        subject_person_id: p_Ji6uf48BPmwCS3ik42iRg6
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_8Dvbg89PXkBEbBJAzYBkNw
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_rZLMQ_YTS9lgL1Nj4GdEOc
-          claim_id: c_UQLJznasR725WCKmT4Afn8
-          source_id: s_UYJr2ASoCJzioeXWTq1K2i
-          stance: supports
-          locator: 萬曆丙戌科進士同年總錄，第二甲第八名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_UYJr2ASoCJzioeXWTq1K2i
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王氏（228811）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228811&o=json
-            external_identifier: CBDB:228811
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:40:20.992Z
-            metadata_json: null
-      object_person:
-        id: p_Ji6uf48BPmwCS3ik42iRg6
-        status: active
-        display_name: 王氏
-        merged_into_person_id: null
-    - claim:
         id: c_EtwWDzAkCTdUMou27mOudu
         subject_person_id: p_8Dvbg89PXkBEbBJAzYBkNw
         claim_kind: relationship
@@ -434,7 +397,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| spouses | p_Ji6uf48BPmwCS3ik42iRg6 | 王氏 | accepted |
 | spouses | p_Ji6uf48BPmwCS3ik42iRg6 | 王氏 | accepted |
 | spouses | p_28qTJA5c3izFH9BnHuK4o4 | 周氏 | accepted |
 

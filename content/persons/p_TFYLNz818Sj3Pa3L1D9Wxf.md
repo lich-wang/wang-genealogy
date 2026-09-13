@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 郭氏
 cbdb_id: 334084
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -162,32 +162,6 @@ relationships:
         status: active
         display_name: 王汝鲁
         merged_into_person_id: null
-    - claim:
-        id: c_lLBjKN4j4-Ib-nryWoYWfA
-        subject_person_id: p_TFYLNz818Sj3Pa3L1D9Wxf
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_iRoPCMQGG7T8QWQEfbMdBx
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_n92HLQtZTiRQVMrr3berXP
-          claim_id: c_lLBjKN4j4-Ib-nryWoYWfA
-          source_id: s_VjMEu9hqNMPKzNzwuWHnML
-          stance: supports
-          locator: 隆慶二年進士登科錄:一卷，第二甲第四十七名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_iRoPCMQGG7T8QWQEfbMdBx
-        status: active
-        display_name: 王汝鲁
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -208,7 +182,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| spouses | p_iRoPCMQGG7T8QWQEfbMdBx | 王汝鲁 | accepted |
 | spouses | p_iRoPCMQGG7T8QWQEfbMdBx | 王汝鲁 | accepted |
 
 ## 外部来源

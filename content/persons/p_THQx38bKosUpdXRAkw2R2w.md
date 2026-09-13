@@ -4,7 +4,7 @@ id: p_THQx38bKosUpdXRAkw2R2w
 status: active
 merged_into: null
 display_name: 王世貞
-revision: 7
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -131,7 +131,7 @@ relationships:
   parents:
     - claim:
         id: c_wCyvr4itBFQwQSLKU_IaX2
-        subject_person_id: p_ssAqXP1XN82W3Z1XD178zK
+        subject_person_id: p_rhWqaakmtKs2T99dEuZoHh
         claim_kind: relationship
         predicate: kinship.father_of
         object_person_id: p_THQx38bKosUpdXRAkw2R2w
@@ -162,7 +162,7 @@ relationships:
             metadata_json:
               source_release: CBDB 2026-09-05
       object_person:
-        id: p_ssAqXP1XN82W3Z1XD178zK
+        id: p_rhWqaakmtKs2T99dEuZoHh
         status: active
         display_name: 王忬
         merged_into_person_id: null
@@ -377,7 +377,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_ssAqXP1XN82W3Z1XD178zK | 王忬 | accepted |
+| parents | p_rhWqaakmtKs2T99dEuZoHh | 王忬 | accepted |
 | children | p_JmAYb8swKSWn43Xra4JyV8 | 王士驌 | accepted |
 | children | p_hK8MQg1VHThMWPaSJ1KJ6o | 王士騏 | accepted |
 | spouses | p_zeZuZNMwnhZ83ze1SKiLnN | 魏氏 | accepted |

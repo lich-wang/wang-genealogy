@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王贞淑
 cbdb_id: 123026
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -236,43 +236,6 @@ relationships:
         status: active
         display_name: 陈仪春
         merged_into_person_id: null
-    - claim:
-        id: c_gBlhtPbp2mp_j-Ynq9nev4
-        subject_person_id: p_uMPMUBWKq1jiRk6LFHTei1
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_H2nZeMmMCtwnjqap2CdN61
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_ty9vVwo5tACEquTJMj5fmq
-          claim_id: c_gBlhtPbp2mp_j-Ynq9nev4
-          source_id: s_Qs6yzr7rS6e4RbxCcP4eRs
-          stance: supports
-          locator: "明清婦女著作數據庫，MQWW PoetID #5239：妻子"
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_Qs6yzr7rS6e4RbxCcP4eRs
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：陳儀春（123038）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123038&o=json
-            external_identifier: CBDB:123038
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:07:20.663Z
-            metadata_json: null
-      object_person:
-        id: p_uMPMUBWKq1jiRk6LFHTei1
-        status: active
-        display_name: 陈仪春
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -295,13 +258,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_WgJjrR3eV8FZmEbV9t77oX | 王思任 | accepted |
 | spouses | p_uMPMUBWKq1jiRk6LFHTei1 | 陈仪春 | accepted |
-| spouses | p_uMPMUBWKq1jiRk6LFHTei1 | 陈仪春 | accepted |
 
 ## 外部来源
 
 - [维基数据：陈仪春（Q45663286）](https://www.wikidata.org/wiki/Q45663286)
 - [维基数据：王思任（Q15938368）](https://www.wikidata.org/wiki/Q15938368)
 - [维基数据：王贞淑（Q45662658）](https://www.wikidata.org/wiki/Q45662658)
-- [CBDB 中国历代人物传记资料库：陳儀春（123038）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123038&o=json)
 - [CBDB 中国历代人物传记资料库：王思任（71875）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71875&o=json)
 - [CBDB 中国历代人物传记资料库：王貞淑（123026）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123026&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王晙
 cbdb_id: 91993
-revision: 2
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -207,9 +207,9 @@ relationships:
         status: active
         display_name: 王方庆
         merged_into_person_id: null
-    - claim:
+    - claim: &a2
         id: c_SUyG4VCA3o6n5hcn5L5VqY
-        subject_person_id: p_oXeM1DhnzL8dBtmUo4Qtqd
+        subject_person_id: p_PyPYdgPJF9TEybjfkDt91f
         claim_kind: relationship
         predicate: kinship.parent_of
         object_person_id: p_PyPYdgPJF9TEybjfkDt91f
@@ -278,44 +278,7 @@ relationships:
             accessed_at: 2026-08-24T04:05:31.027Z
             metadata_json: null
       object_person:
-        id: p_oXeM1DhnzL8dBtmUo4Qtqd
-        status: active
-        display_name: 王晙
-        merged_into_person_id: null
-    - claim:
-        id: c_jYFUb13XBoiBLQeq-E9795
-        subject_person_id: p_oXeM1DhnzL8dBtmUo4Qtqd
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_PyPYdgPJF9TEybjfkDt91f
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_RxKR1tQL_Lfo6VHP7gnOYj
-          claim_id: c_jYFUb13XBoiBLQeq-E9795
-          source_id: s_T1ghCs1VBUTNw5nSgpKgZg
-          stance: supports
-          locator: Pers DB / 唐代人物知識ベース，pers00115：子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_T1ghCs1VBUTNw5nSgpKgZg
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王琳（91982）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=91982&o=json
-            external_identifier: CBDB:91982
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T04:07:43.980Z
-            metadata_json: null
-      object_person:
-        id: p_oXeM1DhnzL8dBtmUo4Qtqd
+        id: p_PyPYdgPJF9TEybjfkDt91f
         status: active
         display_name: 王晙
         merged_into_person_id: null
@@ -639,11 +602,138 @@ relationships:
         status: active
         display_name: 王侗
         merged_into_person_id: null
+    - claim: *a2
+      sources:
+        - id: cs_MptggR4FcjmMYqXwavN4Eo
+          claim_id: c_SUyG4VCA3o6n5hcn5L5VqY
+          source_id: s_T1ghCs1VBUTNw5nSgpKgZg
+          stance: supports
+          locator: 亲属关系：子
+          quotation: null
+          interpretation_note: CBDB 注明此条来源：Pers DB / 唐代人物知識ベース
+          source:
+            id: s_T1ghCs1VBUTNw5nSgpKgZg
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王琳（91982）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=91982&o=json
+            external_identifier: CBDB:91982
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T04:07:43.980Z
+            metadata_json: null
+        - id: cs_h9XZw5somtAPzPXG4XZmjA
+          claim_id: c_SUyG4VCA3o6n5hcn5L5VqY
+          source_id: s_4GtVCfCGU2oMvNkWfi1429
+          stance: supports
+          locator: P40（子女）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_4GtVCfCGU2oMvNkWfi1429
+            source_type: api_record
+            title: 维基数据：王琳（Q45438985）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45438985
+            external_identifier: Q45438985
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T04:07:43.809Z
+            metadata_json: null
+        - id: cs_kjNJNqQCoZC63yM6cBox69
+          claim_id: c_SUyG4VCA3o6n5hcn5L5VqY
+          source_id: s_EXcmMaeYVJwk593LFj6s41
+          stance: supports
+          locator: P22（父）
+          quotation: null
+          interpretation_note: null
+          source:
+            id: s_EXcmMaeYVJwk593LFj6s41
+            source_type: api_record
+            title: 维基数据：王晙（Q45439660）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45439660
+            external_identifier: Q45439660
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T04:05:31.027Z
+            metadata_json: null
+      object_person:
+        id: p_PyPYdgPJF9TEybjfkDt91f
+        status: active
+        display_name: 王晙
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_Xi7sfk7cqVzkelophS10UR
+        subject_person_id: p_PyPYdgPJF9TEybjfkDt91f
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_vt9u4K3V19Gr4t4KHNh8JT
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GgB6YEt9X1YkLCzoz-0XDD
+          claim_id: c_Xi7sfk7cqVzkelophS10UR
+          source_id: s_T1ghCs1VBUTNw5nSgpKgZg
+          stance: supports
+          locator: Pers DB / 唐代人物知識ベース，pers00171：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: &a3
+            id: s_T1ghCs1VBUTNw5nSgpKgZg
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王琳（91982）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=91982&o=json
+            external_identifier: CBDB:91982
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T04:07:43.980Z
+            metadata_json: null
+      object_person:
+        id: p_vt9u4K3V19Gr4t4KHNh8JT
+        status: active
+        display_name: 王宠
+        merged_into_person_id: null
+    - claim:
+        id: c_RJsGu9Z0_GDSz0GT7aD8pI
+        subject_person_id: p_PyPYdgPJF9TEybjfkDt91f
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_qivzHR7xYz6bzgiDCELpcc
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_f5rEmG_1kGfjqQkG5BDvgj
+          claim_id: c_RJsGu9Z0_GDSz0GT7aD8pI
+          source_id: s_T1ghCs1VBUTNw5nSgpKgZg
+          stance: supports
+          locator: Pers DB / 唐代人物知識ベース，pers00180：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source: *a3
+      object_person:
+        id: p_qivzHR7xYz6bzgiDCELpcc
+        status: active
+        display_name: 王祝
+        merged_into_person_id: null
   other: []
 ---
 
@@ -663,12 +753,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_ZSBMnefxQNX4zwGDPTrYX5 | 王方庆 | accepted |
-| parents | p_oXeM1DhnzL8dBtmUo4Qtqd | 王晙 | accepted |
-| parents | p_oXeM1DhnzL8dBtmUo4Qtqd | 王晙 | accepted |
+| parents | p_PyPYdgPJF9TEybjfkDt91f | 王晙 | accepted |
 | parents | p_PMHDEn49o8y5aW5qiXbb15 | 王琳 | accepted |
 | children | p_NEX3V7ji6CnpRpuLcDnCPx | 王份 | accepted |
 | children | p_DbKg6Z6wj4BMKWgbEDKMoY | 王佾 | accepted |
 | children | p_4x7eJgoh5LankFk1Sq6um4 | 王侗 | accepted |
+| children | p_PyPYdgPJF9TEybjfkDt91f | 王晙 | accepted |
+| descendants | p_vt9u4K3V19Gr4t4KHNh8JT | 王宠 | accepted |
+| descendants | p_qivzHR7xYz6bzgiDCELpcc | 王祝 | accepted |
 
 ## 外部来源
 

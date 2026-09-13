@@ -4,7 +4,7 @@ id: p_ke9yjosuiX8LZiiCh781g5
 status: active
 merged_into: null
 display_name: 王俭
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -676,7 +676,7 @@ relationships:
         subject_person_id: p_ke9yjosuiX8LZiiCh781g5
         claim_kind: relationship
         predicate: kinship.ancestor_of
-        object_person_id: p_342p55dQ1D6NeRnwK3dn2t
+        object_person_id: p_EZc8eia6jBCUiA6dx8URB6
         generation_count: null
         parent_role: null
         value_json: null
@@ -704,7 +704,7 @@ relationships:
             accessed_at: 2026-09-01T02:14:52.386Z
             metadata_json: null
       object_person:
-        id: p_342p55dQ1D6NeRnwK3dn2t
+        id: p_EZc8eia6jBCUiA6dx8URB6
         status: active
         display_name: 王承
         merged_into_person_id: null
@@ -735,7 +735,7 @@ relationships:
 | descendants | p_PGJAWHxYxJtx3aVz4EvhUR | 王衮 | accepted |
 | descendants | p_U2ihFkTS2oHBxQi9y7idZL | 王蕣华 | accepted |
 | descendants | p_5xzanYUMr9aPJq4AE4VLrN | 王训 | accepted |
-| descendants | p_342p55dQ1D6NeRnwK3dn2t | 王承 | accepted |
+| descendants | p_EZc8eia6jBCUiA6dx8URB6 | 王承 | accepted |
 
 ## 外部来源
 

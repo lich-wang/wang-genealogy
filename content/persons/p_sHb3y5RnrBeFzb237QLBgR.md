@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 祁德莞
 cbdb_id: 123315
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -161,32 +161,6 @@ relationships:
         status: active
         display_name: 王岳起
         merged_into_person_id: null
-    - claim:
-        id: c_Hs1TEIoFLCV-SHTyPfdVpA
-        subject_person_id: p_sHb3y5RnrBeFzb237QLBgR
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_mXELR8x6DfcQqAZ9zCdekg
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_MPhZSNYY5K0kraNYyCS0R-
-          claim_id: c_Hs1TEIoFLCV-SHTyPfdVpA
-          source_id: s_jdfzgj8mY946x86qEj174o
-          stance: supports
-          locator: "明清婦女著作數據庫，MQWW PoetID #5155：丈夫"
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_mXELR8x6DfcQqAZ9zCdekg
-        status: active
-        display_name: 王岳起
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -207,7 +181,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| spouses | p_mXELR8x6DfcQqAZ9zCdekg | 王岳起 | accepted |
 | spouses | p_mXELR8x6DfcQqAZ9zCdekg | 王岳起 | accepted |
 
 ## 外部来源

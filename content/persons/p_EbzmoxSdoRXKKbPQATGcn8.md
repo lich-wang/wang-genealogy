@@ -4,7 +4,7 @@ id: p_EbzmoxSdoRXKKbPQATGcn8
 status: active
 merged_into: null
 display_name: 王嬙
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -103,43 +103,6 @@ relationships:
         status: active
         display_name: 呼韩邪
         merged_into_person_id: null
-    - claim:
-        id: c_JQhuzJo_kE5XpTWLfORNXq
-        subject_person_id: p_iKtnQwHk19L953BUFn9ANP
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_EbzmoxSdoRXKKbPQATGcn8
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_O1Aflt7kakn2nrFu6jLTTQ
-          claim_id: c_JQhuzJo_kE5XpTWLfORNXq
-          source_id: s_JwMtY89YFL5MF2cHv8vDAo
-          stance: supports
-          locator: "明清婦女著作數據庫，MQWW PoetID #1988：妻子"
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_JwMtY89YFL5MF2cHv8vDAo
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：呼韩邪（135319）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135319&o=json
-            external_identifier: CBDB:135319
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T02:49:07.024Z
-            metadata_json: null
-      object_person:
-        id: p_iKtnQwHk19L953BUFn9ANP
-        status: active
-        display_name: 呼韩邪
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -161,9 +124,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_iKtnQwHk19L953BUFn9ANP | 呼韩邪 | accepted |
-| spouses | p_iKtnQwHk19L953BUFn9ANP | 呼韩邪 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王嬙（CBDB 135318）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135318&o=json)
-- [CBDB 中国历代人物传记资料库：呼韩邪（135319）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135319&o=json)

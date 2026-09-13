@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 孙氏
 cbdb_id: 236880
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,32 +172,6 @@ relationships:
         status: active
         display_name: 王竑
         merged_into_person_id: null
-    - claim:
-        id: c_33qnAPbQsjll0z3RqfnJyR
-        subject_person_id: p_xtFwKEaqPdvp16DkbDgGzk
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_DNERe7qJNb3V7E5Uc4DPd7
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_vmk3RSeAq28XZup3SdZkAn
-          claim_id: c_33qnAPbQsjll0z3RqfnJyR
-          source_id: s_uyMqx86LVgdGn3q8eyKwoP
-          stance: supports
-          locator: 正統四年進士登科錄:一卷，第二甲第三十名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_DNERe7qJNb3V7E5Uc4DPd7
-        status: active
-        display_name: 王竑
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -219,7 +193,6 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_eFMUZgTCSMLNfAAU1Qe6q2 | 王竑 | accepted |
-| spouses | p_DNERe7qJNb3V7E5Uc4DPd7 | 王竑 | accepted |
 
 ## 外部来源
 

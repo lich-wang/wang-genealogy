@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 张氏
 cbdb_id: 264042
-revision: 3
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,69 +172,6 @@ relationships:
         status: active
         display_name: 王承裕
         merged_into_person_id: null
-    - claim:
-        id: c_ckXLpNyv6I-XgoCRhaEuw8
-        subject_person_id: p_j4RsuRBKFYJbK5j9md2YXD
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_Qd35J9Vr9qLhrzFStDP4Qn
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_8FT3yM9IZanvI1oirezeha
-          claim_id: c_ckXLpNyv6I-XgoCRhaEuw8
-          source_id: s_KwAAbYEBjQwNhkLyALJnCV
-          stance: supports
-          locator: 弘治六年進士登科錄:一卷，第二甲第二十三名：妻子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_KwAAbYEBjQwNhkLyALJnCV
-            source_type: api_record
-            title: 中国历代人物传记资料库：王承裕（CBDB 67772）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67772&o=json
-            external_identifier: CBDB:67772
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-09T00:03:13.017Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
-      object_person:
-        id: p_j4RsuRBKFYJbK5j9md2YXD
-        status: active
-        display_name: 王承裕
-        merged_into_person_id: null
-    - claim:
-        id: c_h_V8GEi3T-xKJl6-RDlWfh
-        subject_person_id: p_Qd35J9Vr9qLhrzFStDP4Qn
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_j4RsuRBKFYJbK5j9md2YXD
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_aTNhu6cxC0qdynJxtrCPZ2
-          claim_id: c_h_V8GEi3T-xKJl6-RDlWfh
-          source_id: s_d4fM3ZJGKsQRoE6t5pmvQt
-          stance: supports
-          locator: 弘治六年進士登科錄:一卷，第二甲第二十三名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_j4RsuRBKFYJbK5j9md2YXD
-        status: active
-        display_name: 王承裕
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -256,12 +193,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_Un98x3Kw7vbgE1taigN1AK | 王承裕 | accepted |
-| spouses | p_j4RsuRBKFYJbK5j9md2YXD | 王承裕 | accepted |
-| spouses | p_j4RsuRBKFYJbK5j9md2YXD | 王承裕 | accepted |
 
 ## 外部来源
 
 - [维基数据：王承裕（Q15941024）](https://www.wikidata.org/wiki/Q15941024)
 - [维基数据：张氏（Q65870769）](https://www.wikidata.org/wiki/Q65870769)
-- [中国历代人物传记资料库：王承裕（CBDB 67772）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67772&o=json)
+- [CBDB 中国历代人物传记资料库：王承裕（67772）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67772&o=json)
 - [CBDB 中国历代人物传记资料库：張氏（264042）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264042&o=json)

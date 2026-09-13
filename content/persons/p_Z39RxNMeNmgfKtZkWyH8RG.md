@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_Z39RxNMeNmgfKtZkWyH8RG
-status: active
-merged_into: null
+status: merged
+merged_into: p_UJPhj5P9hBPHFeDYwqUADb
 display_name: 王範
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:

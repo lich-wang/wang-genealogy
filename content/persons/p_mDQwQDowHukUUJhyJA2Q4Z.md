@@ -4,7 +4,7 @@ id: p_mDQwQDowHukUUJhyJA2Q4Z
 status: active
 merged_into: null
 display_name: 王德用
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:

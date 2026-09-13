@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_ssAqXP1XN82W3Z1XD178zK
-status: active
-merged_into: null
+status: merged
+merged_into: p_rhWqaakmtKs2T99dEuZoHh
 display_name: 王忬
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -73,59 +73,7 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children:
-    - claim:
-        id: c_wCyvr4itBFQwQSLKU_IaX2
-        subject_person_id: p_ssAqXP1XN82W3Z1XD178zK
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_THQx38bKosUpdXRAkw2R2w
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_CLA9dpQvvkP6iYCMVvO0dF
-          claim_id: c_wCyvr4itBFQwQSLKU_IaX2
-          source_id: s_EGYNzhpNhAqJTrdrD1CqfF
-          stance: supports
-          locator: 嘉靖二十六年進士登科錄:一卷，第二甲第八十名：子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_THQx38bKosUpdXRAkw2R2w
-        status: active
-        display_name: 王世貞
-        merged_into_person_id: null
-    - claim:
-        id: c_xl-AqZU-aI9GyzK9r2CDxT
-        subject_person_id: p_ssAqXP1XN82W3Z1XD178zK
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_38CvMQkfBCMzR3DNrBhBQJ
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_aTf9t25ClJSqphH5zIvWdt
-          claim_id: c_xl-AqZU-aI9GyzK9r2CDxT
-          source_id: s_EGYNzhpNhAqJTrdrD1CqfF
-          stance: supports
-          locator: 嘉靖三十八年進士登科錄:一卷，第三甲第一百四十七名：子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_38CvMQkfBCMzR3DNrBhBQJ
-        status: active
-        display_name: 王世懋
-        merged_into_person_id: null
+  children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -149,8 +97,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| children | p_THQx38bKosUpdXRAkw2R2w | 王世貞 | accepted |
-| children | p_38CvMQkfBCMzR3DNrBhBQJ | 王世懋 | accepted |
 
 ## 外部来源
 

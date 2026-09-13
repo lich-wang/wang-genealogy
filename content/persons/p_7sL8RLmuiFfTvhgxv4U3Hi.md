@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王延昭
 cbdb_id: 525607
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -77,7 +77,7 @@ relationships:
   parents:
     - claim:
         id: c_MKRB8q1onXWGTeQT5YCHu1
-        subject_person_id: p_D4z9mWRZWdetNdzRfwASCL
+        subject_person_id: p_Wp6B6oFJWureDLbUWC4XTo
         claim_kind: relationship
         predicate: kinship.father_of
         object_person_id: p_7sL8RLmuiFfTvhgxv4U3Hi
@@ -109,7 +109,7 @@ relationships:
             metadata_json:
               source_release: CBDB 2026-08-29
       object_person:
-        id: p_D4z9mWRZWdetNdzRfwASCL
+        id: p_Wp6B6oFJWureDLbUWC4XTo
         status: active
         display_name: 王鏊
         merged_into_person_id: null
@@ -137,7 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_D4z9mWRZWdetNdzRfwASCL | 王鏊 | accepted |
+| parents | p_Wp6B6oFJWureDLbUWC4XTo | 王鏊 | accepted |
 
 ## 外部来源
 

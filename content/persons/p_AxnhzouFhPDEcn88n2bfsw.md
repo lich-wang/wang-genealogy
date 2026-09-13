@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_AxnhzouFhPDEcn88n2bfsw
-status: active
-merged_into: null
+status: merged
+merged_into: p_trUE1ub3cUR7dMLX7JC1NK
 display_name: 王宗沐
-revision: 6
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -128,198 +128,12 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents:
-    - claim:
-        id: c_KnSaUXHZl60NmPnm2VRf70
-        subject_person_id: p_aZ1ZKEEFmDKA3BH7yDPbwn
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_AxnhzouFhPDEcn88n2bfsw
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_cwZ5858z1H_ZDXqY6TmYEH
-          claim_id: c_KnSaUXHZl60NmPnm2VRf70
-          source_id: s_Ujx5eoXq93uMqfFyALE9ET
-          stance: supports
-          locator: 嘉靖二十三年登科錄:一卷，第二甲第四十三名：子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_Ujx5eoXq93uMqfFyALE9ET
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王訓（305709）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305709&o=json
-            external_identifier: CBDB:305709
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T01:59:39.081Z
-            metadata_json: null
-      object_person:
-        id: p_aZ1ZKEEFmDKA3BH7yDPbwn
-        status: active
-        display_name: 王训
-        merged_into_person_id: null
-  children:
-    - claim:
-        id: c_f7G65wmyUyyhwA_4zBOa4a
-        subject_person_id: p_AxnhzouFhPDEcn88n2bfsw
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_F5eJWEbAr7A8TPLP4MEWxZ
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_AWUZcarGgZ_PdFylV9kdqM
-          claim_id: c_f7G65wmyUyyhwA_4zBOa4a
-          source_id: s_C9gTjBqW8ZfLCwvkN3sRxD
-          stance: supports
-          locator: 臨海縣志，lgid=353152：父
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_C9gTjBqW8ZfLCwvkN3sRxD
-            source_type: api_record
-            title: 中国历代人物传记资料库：王士業（CBDB 222410）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222410&o=json
-            external_identifier: CBDB:222410
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:16:57.241Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
-      object_person:
-        id: p_F5eJWEbAr7A8TPLP4MEWxZ
-        status: active
-        display_name: 王士業
-        merged_into_person_id: null
+  parents: []
+  children: []
   adoptive_parents: []
   adoptive_children: []
-  spouses:
-    - claim:
-        id: c_mlQkqtdkS1l_nfLQOC5dbr
-        subject_person_id: p_ox7yiximghECqCRKNggNvk
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_AxnhzouFhPDEcn88n2bfsw
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_1jmyRid1XrwPI4s9ZcgGn5
-          claim_id: c_mlQkqtdkS1l_nfLQOC5dbr
-          source_id: s_cGaqYxCpTDcUzNoW1L3HHJ
-          stance: supports
-          locator: 嘉靖二十三年登科錄:一卷，第二甲第四十三名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_cGaqYxCpTDcUzNoW1L3HHJ
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：秦氏（305711）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305711&o=json
-            external_identifier: CBDB:305711
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T01:59:42.305Z
-            metadata_json: null
-      object_person:
-        id: p_ox7yiximghECqCRKNggNvk
-        status: active
-        display_name: 秦氏
-        merged_into_person_id: null
-  ancestors:
-    - claim:
-        id: c_ChJ1BhkNAAKSmtvzlDh8Fy
-        subject_person_id: p_SwDsuB67vTqP193VDVu7Pk
-        claim_kind: relationship
-        predicate: kinship.ancestor_of
-        object_person_id: p_AxnhzouFhPDEcn88n2bfsw
-        generation_count: 2
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_3ag3k9ervYK8Cy6xaAEgh6
-          claim_id: c_ChJ1BhkNAAKSmtvzlDh8Fy
-          source_id: s_5BWU5G5x9tf7D5oDHRBoUy
-          stance: supports
-          locator: 嘉靖二十三年登科錄:一卷，第二甲第四十三名：孫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_5BWU5G5x9tf7D5oDHRBoUy
-            source_type: api_record
-            title: 中国历代人物传记资料库：王逸卿（CBDB 305708）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305708&o=json
-            external_identifier: CBDB:305708
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-09T00:03:19.744Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
-      object_person:
-        id: p_SwDsuB67vTqP193VDVu7Pk
-        status: active
-        display_name: 王逸卿
-        merged_into_person_id: null
-    - claim:
-        id: c_PggZSAbKbSQm2Ep8G0gIw-
-        subject_person_id: p_VkzS7RnDgwBF356dDv2J9B
-        claim_kind: relationship
-        predicate: kinship.ancestor_of
-        object_person_id: p_AxnhzouFhPDEcn88n2bfsw
-        generation_count: 3
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_zqnWP4YhmDBrPsKXF3wFuP
-          claim_id: c_PggZSAbKbSQm2Ep8G0gIw-
-          source_id: s_bDNxHGv8qYSaEYp3MUXwws
-          stance: supports
-          locator: 嘉靖二十三年登科錄:一卷，第二甲第四十三名：曾孫; 重孫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_bDNxHGv8qYSaEYp3MUXwws
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王纉（305707）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305707&o=json
-            external_identifier: CBDB:305707
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
-      object_person:
-        id: p_VkzS7RnDgwBF356dDv2J9B
-        status: active
-        display_name: 王纉
-        merged_into_person_id: null
+  spouses: []
+  ancestors: []
   descendants: []
   other: []
 ---
@@ -341,17 +155,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_aZ1ZKEEFmDKA3BH7yDPbwn | 王训 | accepted |
-| children | p_F5eJWEbAr7A8TPLP4MEWxZ | 王士業 | accepted |
-| spouses | p_ox7yiximghECqCRKNggNvk | 秦氏 | accepted |
-| ancestors | p_SwDsuB67vTqP193VDVu7Pk | 王逸卿 | accepted |
-| ancestors | p_VkzS7RnDgwBF356dDv2J9B | 王纉 | accepted |
 
 ## 外部来源
 
-- [中国历代人物传记资料库：王士業（CBDB 222410）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222410&o=json)
-- [中国历代人物传记资料库：王逸卿（CBDB 305708）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305708&o=json)
 - [中国历代人物传记资料库：王宗沐（CBDB 35065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35065&o=json)
-- [CBDB 中国历代人物传记资料库：秦氏（305711）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305711&o=json)
-- [CBDB 中国历代人物传记资料库：王訓（305709）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305709&o=json)
-- [CBDB 中国历代人物传记资料库：王纉（305707）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305707&o=json)

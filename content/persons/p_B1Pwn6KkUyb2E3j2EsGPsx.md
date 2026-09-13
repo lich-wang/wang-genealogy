@@ -4,7 +4,7 @@ id: p_B1Pwn6KkUyb2E3j2EsGPsx
 status: active
 merged_into: null
 display_name: 王耆之
-revision: 2
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:

@@ -4,7 +4,7 @@ id: p_KdnEK5JvxzCLuhzpo1b35X
 status: active
 merged_into: null
 display_name: 王鈇
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -211,43 +211,6 @@ relationships:
         status: active
         display_name: 董氏
         merged_into_person_id: null
-    - claim:
-        id: c_HBxntL-qYtbKjvLF3O6WIp
-        subject_person_id: p_s5jeSj6i8t44D1EUSMCh8C
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_KdnEK5JvxzCLuhzpo1b35X
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_x2ZLCmqBkaguHcd4R_PXPC
-          claim_id: c_HBxntL-qYtbKjvLF3O6WIp
-          source_id: s_XYGnCxGjB2KPDxiwaxnLmH
-          stance: supports
-          locator: 嘉靖二十九年進士登科錄:一卷，第三甲第二百名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_XYGnCxGjB2KPDxiwaxnLmH
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：董氏（314682）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314682&o=json
-            external_identifier: CBDB:314682
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:00:04.723Z
-            metadata_json: null
-      object_person:
-        id: p_s5jeSj6i8t44D1EUSMCh8C
-        status: active
-        display_name: 董氏
-        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_NKyWt6MX2EKGnybfQ7OuJq
@@ -325,11 +288,9 @@ relationships:
 | parents | p_ajPx8SrP67WXjyut5BBExs | 王睿 | accepted |
 | children | p_HQy7vtEDUTxgNWHNN2RZwr | 王汝祐 | accepted |
 | spouses | p_s5jeSj6i8t44D1EUSMCh8C | 董氏 | accepted |
-| spouses | p_s5jeSj6i8t44D1EUSMCh8C | 董氏 | accepted |
 | ancestors | p_DVNNLPmEVGyTSGBSmMLJfi | 王邦治 | accepted |
 | ancestors | p_XafvmbqFiWanFhRfKjJh1p | 王通 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鈇（CBDB 67912）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67912&o=json)
-- [CBDB 中国历代人物传记资料库：董氏（314682）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314682&o=json)

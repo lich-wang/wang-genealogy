@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_oasX6enFsyptdBGLBCSBKD
-status: active
-merged_into: null
+status: merged
+merged_into: p_N7QkTp6mJcxTzQ9cDARwW1
 display_name: 王定保
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,44 +100,7 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents:
-    - claim:
-        id: c_8kjz7cmpj8le3DCaqxUxuT
-        subject_person_id: p_y4dNYbnSoNQWgsQv58a1Vc
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_oasX6enFsyptdBGLBCSBKD
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_lcKTBT-3FXbytFz5_mt6mO
-          claim_id: c_8kjz7cmpj8le3DCaqxUxuT
-          source_id: s_nkb3AmfUTwSx39T4Er3QnB
-          stance: supports
-          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_nkb3AmfUTwSx39T4Er3QnB
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王蕘（175916）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175916&o=json
-            external_identifier: CBDB:175916
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T01:59:50.133Z
-            metadata_json: null
-      object_person:
-        id: p_y4dNYbnSoNQWgsQv58a1Vc
-        status: active
-        display_name: 王荛
-        merged_into_person_id: null
+  parents: []
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -163,9 +126,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_y4dNYbnSoNQWgsQv58a1Vc | 王荛 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王定保（CBDB 175918）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175918&o=json)
-- [CBDB 中国历代人物传记资料库：王蕘（175916）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175916&o=json)

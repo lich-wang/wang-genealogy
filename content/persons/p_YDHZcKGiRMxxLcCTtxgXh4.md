@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 陈氏
 cbdb_id: 252225
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -173,32 +173,6 @@ relationships:
         status: active
         display_name: 王倬
         merged_into_person_id: null
-    - claim:
-        id: c_P7VyiMR4w1gfkSFEi-fM04
-        subject_person_id: p_YDHZcKGiRMxxLcCTtxgXh4
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_2CY82LiLunPZpBKWzpBz3S
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_mdxoKWiS6uMDxFZQ9mnmGx
-          claim_id: c_P7VyiMR4w1gfkSFEi-fM04
-          source_id: s_EBeeMngiQGN21uM1P5RCkw
-          stance: supports
-          locator: 成化十四年進士登科錄:一卷，第三甲第五十九名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_2CY82LiLunPZpBKWzpBz3S
-        status: active
-        display_name: 王倬
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -219,7 +193,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| spouses | p_2CY82LiLunPZpBKWzpBz3S | 王倬 | accepted |
 | spouses | p_2CY82LiLunPZpBKWzpBz3S | 王倬 | accepted |
 
 ## 外部来源

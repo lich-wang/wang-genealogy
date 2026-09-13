@@ -4,7 +4,7 @@ id: p_UJPhj5P9hBPHFeDYwqUADb
 status: active
 merged_into: null
 display_name: 王敔
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:

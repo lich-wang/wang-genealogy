@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 葛氏
 cbdb_id: 272146
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,32 +172,6 @@ relationships:
         status: active
         display_name: 王爌
         merged_into_person_id: null
-    - claim:
-        id: c_0cxvDewgxn1R927gAG9Bm9
-        subject_person_id: p_wx8pV5FXm9qYnA5ZT1tswN
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_4z4yWZGdPhnbVEAyL9QgnJ
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_pfyhLnndMFXrkXD2KNbT1U
-          claim_id: c_0cxvDewgxn1R927gAG9Bm9
-          source_id: s_4MaWeKY4dNjyyMrfWPZQkB
-          stance: supports
-          locator: 弘治十五年進士登科錄:一卷，第三甲第一百四十三名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_4z4yWZGdPhnbVEAyL9QgnJ
-        status: active
-        display_name: 王爌
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -219,7 +193,6 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_YFXpD1H4mYzD71g98dxSNt | 王爌 | accepted |
-| spouses | p_4z4yWZGdPhnbVEAyL9QgnJ | 王爌 | accepted |
 
 ## 外部来源
 

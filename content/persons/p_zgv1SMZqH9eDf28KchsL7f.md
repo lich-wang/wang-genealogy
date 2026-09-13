@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王承禋
 cbdb_id: 264049
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -77,7 +77,7 @@ relationships:
   parents:
     - claim:
         id: c_lEV296fxoGCKiOCKq7r6iE
-        subject_person_id: p_T2DCj9d6XKU4djHJMs2kSM
+        subject_person_id: p_e622FY31yMzCRE9JqUsUSG
         claim_kind: relationship
         predicate: kinship.father_of
         object_person_id: p_zgv1SMZqH9eDf28KchsL7f
@@ -109,7 +109,7 @@ relationships:
             metadata_json:
               source_release: CBDB 2026-08-29
       object_person:
-        id: p_T2DCj9d6XKU4djHJMs2kSM
+        id: p_e622FY31yMzCRE9JqUsUSG
         status: active
         display_name: 王恕
         merged_into_person_id: null
@@ -137,7 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_T2DCj9d6XKU4djHJMs2kSM | 王恕 | accepted |
+| parents | p_e622FY31yMzCRE9JqUsUSG | 王恕 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_GuMVVJrYyjeKWA3Y94GdUk
 status: active
 merged_into: null
 display_name: 王承祜
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -75,7 +75,7 @@ relationships:
   parents:
     - claim:
         id: c_MG5ECdH-GoztBwC8j60Rq8
-        subject_person_id: p_T2DCj9d6XKU4djHJMs2kSM
+        subject_person_id: p_e622FY31yMzCRE9JqUsUSG
         claim_kind: relationship
         predicate: kinship.father_of
         object_person_id: p_GuMVVJrYyjeKWA3Y94GdUk
@@ -95,7 +95,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a1
       object_person:
-        id: p_T2DCj9d6XKU4djHJMs2kSM
+        id: p_e622FY31yMzCRE9JqUsUSG
         status: active
         display_name: 王恕
         merged_into_person_id: null
@@ -123,7 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_T2DCj9d6XKU4djHJMs2kSM | 王恕 | accepted |
+| parents | p_e622FY31yMzCRE9JqUsUSG | 王恕 | accepted |
 
 ## 外部来源
 

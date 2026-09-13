@@ -4,7 +4,7 @@ id: p_euM8vAaSVjgAC2CHZ5oZsj
 status: active
 merged_into: null
 display_name: 王凝之
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:

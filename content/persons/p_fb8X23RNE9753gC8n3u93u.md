@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_fb8X23RNE9753gC8n3u93u
-status: active
-merged_into: null
+status: merged
+merged_into: p_8QRkdSq3az8C44oyD2PR6v
 display_name: 王洽
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -73,33 +73,7 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children:
-    - claim:
-        id: c_bMNymk2CCofzJ2hoNZf2se
-        subject_person_id: p_fb8X23RNE9753gC8n3u93u
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_ojGchAZHmRHY7mAfMcQCu4
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_UDyqQKsh_QEt8npIOtPMm1
-          claim_id: c_bMNymk2CCofzJ2hoNZf2se
-          source_id: s_6qpUVTMJGSpwcKxjH4JiGU
-          stance: supports
-          locator: "明清婦女著作數據庫，MQWW PoetID #2005：子"
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_ojGchAZHmRHY7mAfMcQCu4
-        status: active
-        display_name: 王珣
-        merged_into_person_id: null
+  children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -123,7 +97,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| children | p_ojGchAZHmRHY7mAfMcQCu4 | 王珣 | accepted |
 
 ## 外部来源
 

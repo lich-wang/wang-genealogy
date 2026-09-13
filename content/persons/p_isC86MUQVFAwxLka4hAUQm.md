@@ -4,7 +4,7 @@ id: p_isC86MUQVFAwxLka4hAUQm
 status: active
 merged_into: null
 display_name: 王恁
-revision: 2
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -115,9 +115,9 @@ properties:
     alternatives: []
 relationships:
   parents:
-    - claim:
+    - claim: &a2
         id: c_yYd8mNPPwnN8Kci7U8sDUj
-        subject_person_id: p_YC1TwQRY7uJP9GEZJCoGCU
+        subject_person_id: p_isC86MUQVFAwxLka4hAUQm
         claim_kind: relationship
         predicate: kinship.father_of
         object_person_id: p_isC86MUQVFAwxLka4hAUQm
@@ -148,9 +148,9 @@ relationships:
             accessed_at: 2026-09-06T22:33:22.403Z
             metadata_json: null
       object_person:
-        id: p_YC1TwQRY7uJP9GEZJCoGCU
+        id: p_isC86MUQVFAwxLka4hAUQm
         status: active
-        display_name: 王蘊玉
+        display_name: 王恁
         merged_into_person_id: null
   children:
     - claim:
@@ -380,6 +380,32 @@ relationships:
         status: active
         display_name: 王审邽
         merged_into_person_id: null
+    - claim: *a2
+      sources:
+        - id: cs_GAYhs29gbfiu9528soMAw8
+          claim_id: c_yYd8mNPPwnN8Kci7U8sDUj
+          source_id: s_5tzRE_QlQ1kU-SkOBxEd8a
+          stance: supports
+          locator: 导言：父親
+          quotation: 據說，他家本來是琅琊郡人，王恁的曾祖父王曄為光州定城縣令，遂遷居河南，成為固始人。祖父王友、父親王蘊玉和他都在固始務農。
+          interpretation_note: 条文明确称王蘊玉为王恁的父亲。
+          source:
+            id: s_5tzRE_QlQ1kU-SkOBxEd8a
+            source_type: website
+            title: 中文维基百科：王恁
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%81
+            external_identifier: Q10414256
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-06T22:33:22.403Z
+            metadata_json: null
+      object_person:
+        id: p_isC86MUQVFAwxLka4hAUQm
+        status: active
+        display_name: 王恁
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -461,10 +487,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_YC1TwQRY7uJP9GEZJCoGCU | 王蘊玉 | accepted |
+| parents | p_isC86MUQVFAwxLka4hAUQm | 王恁 | accepted |
 | children | p_AoyiXMcFCT7FwHgBRpLSXs | 王潮 | accepted |
 | children | p_8YMP7N65fqbbLv9pMGphFA | 王审知 | accepted |
 | children | p_MuYkDS8mpb2qZmr2nMXp8j | 王审邽 | accepted |
+| children | p_isC86MUQVFAwxLka4hAUQm | 王恁 | accepted |
 | spouses | p_swGTfUWn8frJNKHxALMCy1 | 秦國太夫人 | accepted |
 
 ## 外部来源

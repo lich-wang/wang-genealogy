@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 许氏
 cbdb_id: 235521
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -77,7 +77,7 @@ properties:
           locator: CBDB:235521
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a2
+          source:
             id: s_YnHcTNMeJvZcz61ZN3bnWU
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：許氏（235521）
@@ -162,32 +162,6 @@ relationships:
         status: active
         display_name: 王象春
         merged_into_person_id: null
-    - claim:
-        id: c_QWroA73HXXJU4UUOFtqKhb
-        subject_person_id: p_BLgoHxNpQaoz3KHbpCYtqP
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_1vwHH8EjSEP1q2oifpwF8P
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_ep5H_Gkc0k5s-xKh8hrP9O
-          claim_id: c_QWroA73HXXJU4UUOFtqKhb
-          source_id: s_YnHcTNMeJvZcz61ZN3bnWU
-          stance: supports
-          locator: 萬曆三十八年庚戌科序齒錄:一卷，第三甲第二百四十名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
-      object_person:
-        id: p_1vwHH8EjSEP1q2oifpwF8P
-        status: active
-        display_name: 王象春
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -208,7 +182,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| spouses | p_1vwHH8EjSEP1q2oifpwF8P | 王象春 | accepted |
 | spouses | p_1vwHH8EjSEP1q2oifpwF8P | 王象春 | accepted |
 
 ## 外部来源

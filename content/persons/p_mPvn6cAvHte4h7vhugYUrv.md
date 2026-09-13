@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_mPvn6cAvHte4h7vhugYUrv
-status: active
-merged_into: null
+status: merged
+merged_into: p_aJyucbNuo6SKu4c6Y3x6DY
 display_name: 王昭遠
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,44 +128,7 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents:
-    - claim:
-        id: c_INEL5Vfn5TbCHYf-jQ8D5e
-        subject_person_id: p_KdcqPruLqAjHwvyr7gXGsW
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_mPvn6cAvHte4h7vhugYUrv
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_h1JLJDH6u1RocL943HijKk
-          claim_id: c_INEL5Vfn5TbCHYf-jQ8D5e
-          source_id: s_uC4WJXKbFJAC7KghSUo3CJ
-          stance: supports
-          locator: 宋人傳記資料索引(電子版)，1792：子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_uC4WJXKbFJAC7KghSUo3CJ
-            source_type: api_record
-            title: 中国历代人物传记资料库：王繼昇（CBDB 1780）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1780&o=json
-            external_identifier: CBDB:1780
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-09T00:03:11.241Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
-      object_person:
-        id: p_KdcqPruLqAjHwvyr7gXGsW
-        status: active
-        display_name: 王繼昇
-        merged_into_person_id: null
+  parents: []
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -192,9 +155,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_KdcqPruLqAjHwvyr7gXGsW | 王繼昇 | accepted |
 
 ## 外部来源
 
-- [中国历代人物传记资料库：王繼昇（CBDB 1780）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1780&o=json)
 - [中国历代人物传记资料库：王昭遠（CBDB 21981）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21981&o=json)

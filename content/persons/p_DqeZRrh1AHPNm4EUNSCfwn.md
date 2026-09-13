@@ -4,7 +4,7 @@ id: p_DqeZRrh1AHPNm4EUNSCfwn
 status: active
 merged_into: null
 display_name: 王玉映
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -75,7 +75,7 @@ relationships:
   parents:
     - claim:
         id: c_6ll1CkN1mC7D_BnLsHS506
-        subject_person_id: p_ftZ1PRscrPmBh4Qh3AiyfY
+        subject_person_id: p_WgJjrR3eV8FZmEbV9t77oX
         claim_kind: relationship
         predicate: kinship.father_of
         object_person_id: p_DqeZRrh1AHPNm4EUNSCfwn
@@ -95,7 +95,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a1
       object_person:
-        id: p_ftZ1PRscrPmBh4Qh3AiyfY
+        id: p_WgJjrR3eV8FZmEbV9t77oX
         status: active
         display_name: 王思任
         merged_into_person_id: null
@@ -160,7 +160,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_ftZ1PRscrPmBh4Qh3AiyfY | 王思任 | accepted |
+| parents | p_WgJjrR3eV8FZmEbV9t77oX | 王思任 | accepted |
 | spouses | p_Cy53nL4Pa1eRX5pD6cTCzT | 丁睿 | accepted |
 
 ## 外部来源

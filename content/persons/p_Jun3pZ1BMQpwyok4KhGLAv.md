@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王舜英
 cbdb_id: 522616
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -116,44 +116,6 @@ relationships:
         status: active
         display_name: 钱大昕
         merged_into_person_id: null
-    - claim:
-        id: c_V62z2ZDDYg110I9Yl02EVP
-        subject_person_id: p_Jun3pZ1BMQpwyok4KhGLAv
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_dnPtsKEtjAp3Do6nrbinqW
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_fsLxuv4XXjUog1O3ejIosP
-          claim_id: c_V62z2ZDDYg110I9Yl02EVP
-          source_id: s_tvsjn4J5b6YZSac65GAynk
-          stance: supports
-          locator: 人名權威資料（中央研究院歷史語言研究所），9394：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_tvsjn4J5b6YZSac65GAynk
-            source_type: api_record
-            title: 中国历代人物传记资料库：王舜英（CBDB 522616）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=522616&o=json
-            external_identifier: CBDB:522616
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:18:17.868Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
-      object_person:
-        id: p_dnPtsKEtjAp3Do6nrbinqW
-        status: active
-        display_name: 钱大昕
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -174,7 +136,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| spouses | p_dnPtsKEtjAp3Do6nrbinqW | 钱大昕 | accepted |
 | spouses | p_dnPtsKEtjAp3Do6nrbinqW | 钱大昕 | accepted |
 
 ## 外部来源

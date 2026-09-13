@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 某氏
 cbdb_id: 38684
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -173,32 +173,6 @@ relationships:
         status: active
         display_name: 王安礼
         merged_into_person_id: null
-    - claim:
-        id: c_LgYFfMZ9LkZVtR3DZ8I1pD
-        subject_person_id: p_o8a2xb1NaoHmv169uvto5o
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_KTTATWUQ3F1m45Pemb3S7n
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_r4tqdGWffw3igEQ0_Xty-R
-          claim_id: c_LgYFfMZ9LkZVtR3DZ8I1pD
-          source_id: s_D56b7BYeReTGfEgGs9vS7C
-          stance: supports
-          locator: 宋人傳記資料索引(電子版)，1543;1544：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_KTTATWUQ3F1m45Pemb3S7n
-        status: active
-        display_name: 王安礼
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -219,7 +193,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| spouses | p_KTTATWUQ3F1m45Pemb3S7n | 王安礼 | accepted |
 | spouses | p_KTTATWUQ3F1m45Pemb3S7n | 王安礼 | accepted |
 
 ## 外部来源

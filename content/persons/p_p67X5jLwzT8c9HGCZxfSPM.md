@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 吴氏
 cbdb_id: 229790
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -162,32 +162,6 @@ relationships:
         status: active
         display_name: 王士昌
         merged_into_person_id: null
-    - claim:
-        id: c_JOqTjlBZE8OVIOtDfAyEAa
-        subject_person_id: p_p67X5jLwzT8c9HGCZxfSPM
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_2upGeiN52eY6RGi8eXqg1R
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_Sqko_6j3aOs7VpwkKuFNOz
-          claim_id: c_JOqTjlBZE8OVIOtDfAyEAa
-          source_id: s_gTbfSgeY7M4hDzwgyfS8g8
-          stance: supports
-          locator: 萬曆丙戌科進士同年總錄，第三甲第一百九十九名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_2upGeiN52eY6RGi8eXqg1R
-        status: active
-        display_name: 王士昌
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -208,7 +182,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| spouses | p_2upGeiN52eY6RGi8eXqg1R | 王士昌 | accepted |
 | spouses | p_2upGeiN52eY6RGi8eXqg1R | 王士昌 | accepted |
 
 ## 外部来源

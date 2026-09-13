@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王异
 cbdb_id: 17423
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -305,7 +305,7 @@ relationships:
         subject_person_id: p_C5gdwEP6JshLSxPa5isWtq
         claim_kind: relationship
         predicate: kinship.ancestor_of
-        object_person_id: p_yapy3APS2bJCVFq3VNLaKZ
+        object_person_id: p_4Ggi24K5h2C2ehfArZY8Pm
         generation_count: 3
         parent_role: null
         value_json: null
@@ -322,7 +322,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a2
       object_person:
-        id: p_yapy3APS2bJCVFq3VNLaKZ
+        id: p_4Ggi24K5h2C2ehfArZY8Pm
         status: active
         display_name: 王次翁
         merged_into_person_id: null
@@ -386,7 +386,7 @@ relationships:
 | children | p_8pefMocZcx3Xt1bkSBWgB6 | 王宿 | accepted |
 | spouses | p_cCBM6eQwG73XBEbNJVYY3H | 劉氏 | accepted |
 | spouses | p_KV7usuyqyMd5zCxkZhfMmL | 吳氏 | accepted |
-| descendants | p_yapy3APS2bJCVFq3VNLaKZ | 王次翁 | accepted |
+| descendants | p_4Ggi24K5h2C2ehfArZY8Pm | 王次翁 | accepted |
 | descendants | p_oQdo3Yj5bXCs9YNdo4dHqm | 王光祖 | accepted |
 
 ## 外部来源

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 崔氏
 cbdb_id: 154151
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -77,7 +77,7 @@ properties:
           locator: Q65805412
           quotation: null
           interpretation_note: null
-          source: &a2
+          source:
             id: s_g976X44Q93pkoABpTU6h3j
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：崔氏（154151）
@@ -172,32 +172,6 @@ relationships:
         status: active
         display_name: 王志悌
         merged_into_person_id: null
-    - claim:
-        id: c_uA2mVQ1HPqiWBq_eQedofp
-        subject_person_id: p_sJy5HhqgLH3dD5PKotzG8r
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_KXD6a4zaL9E1N69hTNkTMP
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_qXpccsQllI6ld_d4Q3TY1B
-          claim_id: c_uA2mVQ1HPqiWBq_eQedofp
-          source_id: s_g976X44Q93pkoABpTU6h3j
-          stance: supports
-          locator: 唐代墓誌匯編:二卷，Tianbao 190：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
-      object_person:
-        id: p_KXD6a4zaL9E1N69hTNkTMP
-        status: active
-        display_name: 王志悌
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -218,7 +192,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| spouses | p_KXD6a4zaL9E1N69hTNkTMP | 王志悌 | accepted |
 | spouses | p_KXD6a4zaL9E1N69hTNkTMP | 王志悌 | accepted |
 
 ## 外部来源

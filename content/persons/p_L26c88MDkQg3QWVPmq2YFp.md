@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王铭
 cbdb_id: 21996
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -187,32 +187,6 @@ relationships:
         status: active
         display_name: 王之望
         merged_into_person_id: null
-    - claim:
-        id: c_VJim6l0WOZ6xvEudwPHvd7
-        subject_person_id: p_M9sDetT5acG1nDTAxFe7as
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_L26c88MDkQg3QWVPmq2YFp
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_8Oithq_GaY_sF8CbzpC7ou
-          claim_id: c_VJim6l0WOZ6xvEudwPHvd7
-          source_id: s_VTt4DiWSj2j363MveoxEiB
-          stance: supports
-          locator: CBDB 双向互证（父 王之望 ⇄ 子 王銘）
-          quotation: null
-          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
-          source: *a1
-      object_person:
-        id: p_M9sDetT5acG1nDTAxFe7as
-        status: active
-        display_name: 王之望
-        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -238,7 +212,6 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_EWAx1K1Zcs56idxSXpA1ot | 王之望 | accepted |
-| parents | p_M9sDetT5acG1nDTAxFe7as | 王之望 | accepted |
 
 ## 外部来源
 

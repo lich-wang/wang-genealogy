@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王理
 cbdb_id: 232113
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:

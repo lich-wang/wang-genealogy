@@ -4,7 +4,7 @@ id: p_AuDnp3tfDdGY8Do4f11kBs
 status: active
 merged_into: null
 display_name: 王徽之
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:

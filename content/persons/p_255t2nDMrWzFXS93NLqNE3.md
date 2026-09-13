@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王宗
 cbdb_id: 272143
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -213,7 +213,7 @@ relationships:
         subject_person_id: p_255t2nDMrWzFXS93NLqNE3
         claim_kind: relationship
         predicate: kinship.ancestor_of
-        object_person_id: p_4z4yWZGdPhnbVEAyL9QgnJ
+        object_person_id: p_YFXpD1H4mYzD71g98dxSNt
         generation_count: 2
         parent_role: null
         value_json: null
@@ -230,7 +230,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a1
       object_person:
-        id: p_4z4yWZGdPhnbVEAyL9QgnJ
+        id: p_YFXpD1H4mYzD71g98dxSNt
         status: active
         display_name: 王爌
         merged_into_person_id: null
@@ -254,7 +254,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_N27zaVAVE31vavnkwj7Dft | 王伯永 | accepted |
 | children | p_Zc7mv2e4ZRM13rfjpkZkya | 王玼 | accepted |
-| descendants | p_4z4yWZGdPhnbVEAyL9QgnJ | 王爌 | accepted |
+| descendants | p_YFXpD1H4mYzD71g98dxSNt | 王爌 | accepted |
 
 ## 外部来源
 

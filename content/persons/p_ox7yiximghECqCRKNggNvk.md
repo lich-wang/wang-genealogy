@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 秦氏
 cbdb_id: 305711
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,32 +172,6 @@ relationships:
         status: active
         display_name: 王宗沐
         merged_into_person_id: null
-    - claim:
-        id: c_mlQkqtdkS1l_nfLQOC5dbr
-        subject_person_id: p_ox7yiximghECqCRKNggNvk
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_AxnhzouFhPDEcn88n2bfsw
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_1jmyRid1XrwPI4s9ZcgGn5
-          claim_id: c_mlQkqtdkS1l_nfLQOC5dbr
-          source_id: s_cGaqYxCpTDcUzNoW1L3HHJ
-          stance: supports
-          locator: 嘉靖二十三年登科錄:一卷，第二甲第四十三名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_AxnhzouFhPDEcn88n2bfsw
-        status: active
-        display_name: 王宗沐
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -219,7 +193,6 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_trUE1ub3cUR7dMLX7JC1NK | 王宗沐 | accepted |
-| spouses | p_AxnhzouFhPDEcn88n2bfsw | 王宗沐 | accepted |
 
 ## 外部来源
 

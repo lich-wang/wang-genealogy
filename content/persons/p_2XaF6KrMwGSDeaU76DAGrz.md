@@ -4,7 +4,7 @@ id: p_2XaF6KrMwGSDeaU76DAGrz
 status: active
 merged_into: null
 display_name: 王重光
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:

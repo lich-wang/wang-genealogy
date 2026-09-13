@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 薛氏
 cbdb_id: 140005
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -353,32 +353,6 @@ relationships:
         status: active
         display_name: 王府君
         merged_into_person_id: null
-    - claim:
-        id: c_i50LMuhvTI8amwExFDIJFy
-        subject_person_id: p_r944Nj55R6LMbB2CMXdjC7
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_PrWK41ukxCufULdQG38iQM
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_hG8u_gAX3DP2tAJX7QOsTU
-          claim_id: c_i50LMuhvTI8amwExFDIJFy
-          source_id: s_D2uq9qPZEDYPyXqkZuCFjL
-          stance: supports
-          locator: 唐代墓誌匯編:二卷，Wansuitongtian 14：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_PrWK41ukxCufULdQG38iQM
-        status: active
-        display_name: 王府君
-        merged_into_person_id: null
   ancestors: []
   descendants:
     - claim:
@@ -430,7 +404,6 @@ relationships:
 | children | p_E9ytpKcjGYRd1XZGve34gy | 王景 | accepted |
 | children | p_65Sv25s3dJsDY8HXQATSAi | 王洛客 | accepted |
 | children | p_JxF3daBH3pwTrX7Fy6gSs3 | 王昌 | accepted |
-| spouses | p_PrWK41ukxCufULdQG38iQM | 王府君 | accepted |
 | spouses | p_PrWK41ukxCufULdQG38iQM | 王府君 | accepted |
 | descendants | p_SSTJUCFgcoSjH84AQbMYES | 王之豫 | accepted |
 

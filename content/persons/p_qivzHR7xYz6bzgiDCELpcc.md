@@ -4,7 +4,7 @@ id: p_qivzHR7xYz6bzgiDCELpcc
 status: active
 merged_into: null
 display_name: 王祝
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -106,7 +106,7 @@ relationships:
         merged_into_person_id: null
     - claim:
         id: c_RJsGu9Z0_GDSz0GT7aD8pI
-        subject_person_id: p_oXeM1DhnzL8dBtmUo4Qtqd
+        subject_person_id: p_PyPYdgPJF9TEybjfkDt91f
         claim_kind: relationship
         predicate: kinship.ancestor_of
         object_person_id: p_qivzHR7xYz6bzgiDCELpcc
@@ -137,7 +137,7 @@ relationships:
             accessed_at: 2026-08-24T04:07:43.980Z
             metadata_json: null
       object_person:
-        id: p_oXeM1DhnzL8dBtmUo4Qtqd
+        id: p_PyPYdgPJF9TEybjfkDt91f
         status: active
         display_name: 王晙
         merged_into_person_id: null
@@ -161,7 +161,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_PMHDEn49o8y5aW5qiXbb15 | 王琳 | accepted |
-| ancestors | p_oXeM1DhnzL8dBtmUo4Qtqd | 王晙 | accepted |
+| ancestors | p_PyPYdgPJF9TEybjfkDt91f | 王晙 | accepted |
 
 ## 外部来源
 

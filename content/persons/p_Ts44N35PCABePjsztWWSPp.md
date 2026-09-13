@@ -4,7 +4,7 @@ id: p_Ts44N35PCABePjsztWWSPp
 status: active
 merged_into: null
 display_name: 王氏
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:

@@ -4,7 +4,7 @@ id: p_eFMUZgTCSMLNfAAU1Qe6q2
 status: active
 merged_into: null
 display_name: 王竑
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -303,7 +303,81 @@ relationships:
         status: active
         display_name: 孙氏
         merged_into_person_id: null
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_aveRf0RC1KtHuO53fyY0mI
+        subject_person_id: p_C9xm5jCmEkeQHuYEcbM82J
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_eFMUZgTCSMLNfAAU1Qe6q2
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yscaS50b--sE8ffGNFj3Yz
+          claim_id: c_aveRf0RC1KtHuO53fyY0mI
+          source_id: s_aUtqpncrA5mpaxDZBmduGw
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第二甲第三十名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_aUtqpncrA5mpaxDZBmduGw
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王景（236876）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236876&o=json
+            external_identifier: CBDB:236876
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_C9xm5jCmEkeQHuYEcbM82J
+        status: active
+        display_name: 王景
+        merged_into_person_id: null
+    - claim:
+        id: c_I_UobZfpY94ucUxIZDVlZ2
+        subject_person_id: p_yaK3v157GQYGTQP5RhE7JJ
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_eFMUZgTCSMLNfAAU1Qe6q2
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mm3jwbzAtrLX8DqTv0n1_k
+          claim_id: c_I_UobZfpY94ucUxIZDVlZ2
+          source_id: s_HKKP3v91AaD88vdZnQWk2v
+          stance: supports
+          locator: 正統四年進士登科錄:一卷，第二甲第三十名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_HKKP3v91AaD88vdZnQWk2v
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王俊卿（236877）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236877&o=json
+            external_identifier: CBDB:236877
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:38.977Z
+            metadata_json: null
+      object_person:
+        id: p_yaK3v157GQYGTQP5RhE7JJ
+        status: active
+        display_name: 王俊卿
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -327,6 +401,8 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_wxNC97go3Ly1JHGAcv6FvX | 王佐 | accepted |
 | spouses | p_xtFwKEaqPdvp16DkbDgGzk | 孙氏 | accepted |
+| ancestors | p_C9xm5jCmEkeQHuYEcbM82J | 王景 | accepted |
+| ancestors | p_yaK3v157GQYGTQP5RhE7JJ | 王俊卿 | accepted |
 
 ## 外部来源
 
@@ -335,3 +411,5 @@ relationships:
 - [维基数据：王佐（Q45527630）](https://www.wikidata.org/wiki/Q45527630)
 - [中文维基百科：王竑](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%AB%91)
 - [CBDB 中国历代人物传记资料库：王竑（67649）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67649&o=json)
+- [CBDB 中国历代人物传记资料库：王景（236876）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236876&o=json)
+- [CBDB 中国历代人物传记资料库：王俊卿（236877）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236877&o=json)

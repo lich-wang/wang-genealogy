@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_bpGefiQoXGhW6VKMGWt7wh
-status: active
-merged_into: null
+status: merged
+merged_into: p_kSaLSFJv26CRusQkp6QMsj
 display_name: 王恂
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,44 +128,7 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents:
-    - claim:
-        id: c_u2NnbnOVOiwhwwM2BppJ0i
-        subject_person_id: p_Ko86R3TKut3FD1aGj75nhU
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_bpGefiQoXGhW6VKMGWt7wh
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_bTHnlHv4rd6LZ_MbqB83FB
-          claim_id: c_u2NnbnOVOiwhwwM2BppJ0i
-          source_id: s_5Ymd16fJp5zWHvrGyJgQJ5
-          stance: supports
-          locator: 元人傳記資料索引，534：子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_5Ymd16fJp5zWHvrGyJgQJ5
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王良（100680）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100680&o=json
-            external_identifier: CBDB:100680
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T01:59:13.349Z
-            metadata_json: null
-      object_person:
-        id: p_Ko86R3TKut3FD1aGj75nhU
-        status: active
-        display_name: 王良
-        merged_into_person_id: null
+  parents: []
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -192,9 +155,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_Ko86R3TKut3FD1aGj75nhU | 王良 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王恂（CBDB 100722）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100722&o=json)
-- [CBDB 中国历代人物传记资料库：王良（100680）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100680&o=json)

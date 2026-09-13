@@ -4,7 +4,7 @@ id: p_EZc8eia6jBCUiA6dx8URB6
 status: active
 merged_into: null
 display_name: 王承
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -228,7 +228,44 @@ relationships:
   adoptive_parents: []
   adoptive_children: []
   spouses: []
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_GDD1GHxVEN7koLBorWxgFg
+        subject_person_id: p_ke9yjosuiX8LZiiCh781g5
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_EZc8eia6jBCUiA6dx8URB6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 2
+      sources:
+        - id: cs_xurcFzhBAd5bece6k79a8F
+          claim_id: c_GDD1GHxVEN7koLBorWxgFg
+          source_id: s_8LTWKKntYNPK94hBz6b43z
+          stance: supports
+          locator: 王承传
+          quotation: 承祖儉及父暕嘗為此職，三世為國師。
+          interpretation_note: null
+          source:
+            id: s_8LTWKKntYNPK94hBz6b43z
+            source_type: book
+            title: 中文维基文库：《梁书》卷四十一
+            creator: null
+            publisher: 维基文库
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/zh-hant/%E6%A2%81%E6%9B%B8/%E5%8D%B741
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-01T02:14:52.386Z
+            metadata_json: null
+      object_person:
+        id: p_ke9yjosuiX8LZiiCh781g5
+        status: active
+        display_name: 王俭
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -251,11 +288,13 @@ relationships:
 | parents | p_LChbCBLeq9EqBGmzWw9UvF | 王湛 | accepted |
 | parents | p_1PVoebznd6BJv1usnGBu3r | 王暕 | accepted |
 | children | p_vQ9yMNREp7heDRfM21DYGw | 王述 | accepted |
+| ancestors | p_ke9yjosuiX8LZiiCh781g5 | 王俭 | accepted |
 
 ## 外部来源
 
 - [维基数据：王承（Q28691175）](https://www.wikidata.org/wiki/Q28691175)
 - [维基数据：王暕（Q11572875）](https://www.wikidata.org/wiki/Q11572875)
 - [中文维基百科：王承 (南梁)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%89%BF_(%E5%8D%97%E6%A2%81))
+- [中文维基文库：《梁书》卷四十一](https://zh.wikisource.org/zh-hant/%E6%A2%81%E6%9B%B8/%E5%8D%B741)
 - [中文维基文库：晉書/卷075](https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7075)
 - [中文维基文库：新唐書/卷072中](https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7072%E4%B8%AD)

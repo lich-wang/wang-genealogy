@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王岳起
 cbdb_id: 123316
-revision: 4
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -187,43 +187,6 @@ relationships:
         status: active
         display_name: 王思任
         merged_into_person_id: null
-    - claim:
-        id: c_g2JavvqRciaDXr4FyOcmEB
-        subject_person_id: p_ftZ1PRscrPmBh4Qh3AiyfY
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_mXELR8x6DfcQqAZ9zCdekg
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_4MUc429ZLHuIC2VuxzmssA
-          claim_id: c_g2JavvqRciaDXr4FyOcmEB
-          source_id: s_wzB8H1VeEUUxxH32LdLqx3
-          stance: supports
-          locator: "明清婦女著作數據庫，MQWW PoetID #1201, HuWenKai #472：子"
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_wzB8H1VeEUUxxH32LdLqx3
-            source_type: api_record
-            title: 中国历代人物传记资料库：王思任（CBDB 71875）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71875&o=json
-            external_identifier: CBDB:71875
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-09T00:03:13.907Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
-      object_person:
-        id: p_ftZ1PRscrPmBh4Qh3AiyfY
-        status: active
-        display_name: 王思任
-        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -292,43 +255,6 @@ relationships:
         status: active
         display_name: 祁德莞
         merged_into_person_id: null
-    - claim:
-        id: c_Hs1TEIoFLCV-SHTyPfdVpA
-        subject_person_id: p_sHb3y5RnrBeFzb237QLBgR
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_mXELR8x6DfcQqAZ9zCdekg
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_MPhZSNYY5K0kraNYyCS0R-
-          claim_id: c_Hs1TEIoFLCV-SHTyPfdVpA
-          source_id: s_jdfzgj8mY946x86qEj174o
-          stance: supports
-          locator: "明清婦女著作數據庫，MQWW PoetID #5155：丈夫"
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_jdfzgj8mY946x86qEj174o
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：祁德莞（123315）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123315&o=json
-            external_identifier: CBDB:123315
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:07:21.983Z
-            metadata_json: null
-      object_person:
-        id: p_sHb3y5RnrBeFzb237QLBgR
-        status: active
-        display_name: 祁德莞
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -350,8 +276,6 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_WgJjrR3eV8FZmEbV9t77oX | 王思任 | accepted |
-| parents | p_ftZ1PRscrPmBh4Qh3AiyfY | 王思任 | accepted |
-| spouses | p_sHb3y5RnrBeFzb237QLBgR | 祁德莞 | accepted |
 | spouses | p_sHb3y5RnrBeFzb237QLBgR | 祁德莞 | accepted |
 
 ## 外部来源
@@ -359,6 +283,5 @@ relationships:
 - [维基数据：祁德莞（Q45674598）](https://www.wikidata.org/wiki/Q45674598)
 - [维基数据：王思任（Q15938368）](https://www.wikidata.org/wiki/Q15938368)
 - [维基数据：王岳起（Q45674638）](https://www.wikidata.org/wiki/Q45674638)
-- [中国历代人物传记资料库：王思任（CBDB 71875）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71875&o=json)
-- [CBDB 中国历代人物传记资料库：祁德莞（123315）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123315&o=json)
+- [CBDB 中国历代人物传记资料库：王思任（71875）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71875&o=json)
 - [CBDB 中国历代人物传记资料库：王岳起（123316）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123316&o=json)

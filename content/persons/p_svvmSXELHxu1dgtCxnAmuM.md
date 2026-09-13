@@ -4,7 +4,7 @@ id: p_svvmSXELHxu1dgtCxnAmuM
 status: active
 merged_into: null
 display_name: 王曠
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:

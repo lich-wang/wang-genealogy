@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王纉
 cbdb_id: 305707
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -157,7 +157,7 @@ relationships:
         subject_person_id: p_VkzS7RnDgwBF356dDv2J9B
         claim_kind: relationship
         predicate: kinship.ancestor_of
-        object_person_id: p_AxnhzouFhPDEcn88n2bfsw
+        object_person_id: p_trUE1ub3cUR7dMLX7JC1NK
         generation_count: 3
         parent_role: null
         value_json: null
@@ -174,7 +174,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a2
       object_person:
-        id: p_AxnhzouFhPDEcn88n2bfsw
+        id: p_trUE1ub3cUR7dMLX7JC1NK
         status: active
         display_name: 王宗沐
         merged_into_person_id: null
@@ -197,7 +197,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_GNLnPFw1Dr1HJibhmrHDQH | 王逸卿 | accepted |
-| descendants | p_AxnhzouFhPDEcn88n2bfsw | 王宗沐 | accepted |
+| descendants | p_trUE1ub3cUR7dMLX7JC1NK | 王宗沐 | accepted |
 
 ## 外部来源
 

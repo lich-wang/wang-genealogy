@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 李氏
 cbdb_id: 577087
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -115,32 +115,6 @@ relationships:
         status: active
         display_name: 王益恭
         merged_into_person_id: null
-    - claim:
-        id: c_5F5hoaQeK2teSYdkmBS6JU
-        subject_person_id: p_98QQdRkf8cCt61bD928i6c
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_8yGvQV64DEaN7zXdMCaL2M
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_SL-_USgNv8VxrhD60gYi7K
-          claim_id: c_5F5hoaQeK2teSYdkmBS6JU
-          source_id: s_FCp7TCuZ2zry8caZmGkPTT
-          stance: supports
-          locator: 散見宋金元墓誌地券輯錄六編，宋李氏墓誌：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_8yGvQV64DEaN7zXdMCaL2M
-        status: active
-        display_name: 王益恭
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -161,7 +135,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| spouses | p_8yGvQV64DEaN7zXdMCaL2M | 王益恭 | accepted |
 | spouses | p_8yGvQV64DEaN7zXdMCaL2M | 王益恭 | accepted |
 
 ## 外部来源

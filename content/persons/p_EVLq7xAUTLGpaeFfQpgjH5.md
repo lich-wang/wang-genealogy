@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 周氏
 cbdb_id: 264941
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -209,32 +209,6 @@ relationships:
         status: active
         display_name: 王縝
         merged_into_person_id: null
-    - claim:
-        id: c_gRWEM67A9ap50BYDZZFp8b
-        subject_person_id: p_EVLq7xAUTLGpaeFfQpgjH5
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_9esUYZvNqsWNd3UXAh8qx5
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_gAM9U5JCbHO7zfWemJpsg9
-          claim_id: c_gRWEM67A9ap50BYDZZFp8b
-          source_id: s_DXADjq46Wg2BZwimXWUefF
-          stance: supports
-          locator: 弘治六年進士登科錄:一卷，第三甲第二十四名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_9esUYZvNqsWNd3UXAh8qx5
-        status: active
-        display_name: 王縝
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -256,7 +230,6 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_GYXTdGzZ8zRdfAxpgeUm9N | 王缜 | accepted |
-| spouses | p_9esUYZvNqsWNd3UXAh8qx5 | 王縝 | accepted |
 | spouses | p_9esUYZvNqsWNd3UXAh8qx5 | 王縝 | accepted |
 
 ## 外部来源

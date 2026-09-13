@@ -4,7 +4,7 @@ id: p_9hqaAttpMTjD5ynf4T1ycM
 status: active
 merged_into: null
 display_name: 王端淑
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:

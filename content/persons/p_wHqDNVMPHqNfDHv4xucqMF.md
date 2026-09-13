@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王留孙
 cbdb_id: 35271
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -271,43 +271,6 @@ relationships:
         status: active
         display_name: 王炎午
         merged_into_person_id: null
-    - claim:
-        id: c_bANA1kGKl7tkch2af4pROs
-        subject_person_id: p_15eeBkVsaekxgLBnZp3VuC
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_wHqDNVMPHqNfDHv4xucqMF
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_MFs0iFCMPs9hreCQqSuFH7
-          claim_id: c_bANA1kGKl7tkch2af4pROs
-          source_id: s_DAHNRvZ4JWoGtAPgXnN5BQ
-          stance: supports
-          locator: 宋人傳記資料索引(電子版)，1673;1676：子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_DAHNRvZ4JWoGtAPgXnN5BQ
-            source_type: api_record
-            title: 中国历代人物传记资料库：王炎午（CBDB 35269）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35269&o=json
-            external_identifier: CBDB:35269
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-09T00:03:12.118Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
-      object_person:
-        id: p_15eeBkVsaekxgLBnZp3VuC
-        status: active
-        display_name: 王炎午
-        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -335,11 +298,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_mWjKoqisRyZQ6GFgu4smAa | 王炎午 | accepted |
-| parents | p_15eeBkVsaekxgLBnZp3VuC | 王炎午 | accepted |
 
 ## 外部来源
 
 - [维基数据：王留孙（Q45426010）](https://www.wikidata.org/wiki/Q45426010)
 - [维基数据：王炎午（Q10415648）](https://www.wikidata.org/wiki/Q10415648)
-- [中国历代人物传记资料库：王炎午（CBDB 35269）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35269&o=json)
 - [CBDB 中国历代人物传记资料库：王留孫（35271）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35271&o=json)
+- [CBDB 中国历代人物传记资料库：王炎午（35269）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35269&o=json)

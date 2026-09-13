@@ -1,11 +1,11 @@
 ---
 schema: wang-person/v1
 id: p_8ZBDQjrPzNEsJHrpRrVWkK
-status: active
-merged_into: null
+status: merged
+merged_into: p_g1bs6h5k4Pu2preBv8KZPd
 display_name: 王仲智
 cbdb_id: 240859
-revision: 3
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -31,7 +31,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source: &a2
+          source:
             id: s_FUQz5AGTdZDWThBYY1AEr4
             source_type: api_record
             title: 维基数据：王仲智（Q45459440）
@@ -111,135 +111,8 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents:
-    - claim:
-        id: c_Jv9RULJNH2TaXY9B9HTSqv
-        subject_person_id: p_m8pEmRBSH6ayXuTKwEAjBF
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_8ZBDQjrPzNEsJHrpRrVWkK
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_5Rehfvm9LbMZSMz8oaoK5e
-          claim_id: c_Jv9RULJNH2TaXY9B9HTSqv
-          source_id: s_FUQz5AGTdZDWThBYY1AEr4
-          stance: supports
-          locator: P22（父）
-          quotation: null
-          interpretation_note: null
-          source: *a2
-        - id: cs_EY8sHiRJV4CnCivKbmBn7j
-          claim_id: c_Jv9RULJNH2TaXY9B9HTSqv
-          source_id: s_7UCYwv12hL8uoTS1hCGekt
-          stance: supports
-          locator: P40（子女）
-          quotation: null
-          interpretation_note: null
-          source:
-            id: s_7UCYwv12hL8uoTS1hCGekt
-            source_type: api_record
-            title: 维基数据：王惟真（Q45459375）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45459375
-            external_identifier: Q45459375
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:06:38.809Z
-            metadata_json: null
-      object_person:
-        id: p_m8pEmRBSH6ayXuTKwEAjBF
-        status: active
-        display_name: 王惟真
-        merged_into_person_id: null
-  children:
-    - claim:
-        id: c_L52JNFrutHfMJEb3mv1fZn
-        subject_person_id: p_8ZBDQjrPzNEsJHrpRrVWkK
-        claim_kind: relationship
-        predicate: kinship.parent_of
-        object_person_id: p_e622FY31yMzCRE9JqUsUSG
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 2
-      sources:
-        - id: cs_Lk2D5DJJhCqMcgseX73X6F
-          claim_id: c_L52JNFrutHfMJEb3mv1fZn
-          source_id: s_FUQz5AGTdZDWThBYY1AEr4
-          stance: supports
-          locator: P40（子女）
-          quotation: null
-          interpretation_note: null
-          source:
-            id: s_FUQz5AGTdZDWThBYY1AEr4
-            source_type: api_record
-            title: 维基数据：王仲智（Q45459440）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45459440
-            external_identifier: Q45459440
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:59:33.526Z
-            metadata_json: null
-        - id: cs_yYeERNh4M2HtM1kG5yZ26h
-          claim_id: c_L52JNFrutHfMJEb3mv1fZn
-          source_id: s_y8cQS6Bt2mgqcJ8DjKNQ1m
-          stance: supports
-          locator: P22（父）
-          quotation: null
-          interpretation_note: null
-          source:
-            id: s_y8cQS6Bt2mgqcJ8DjKNQ1m
-            source_type: api_record
-            title: 维基数据：王恕（Q15904547）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q15904547
-            external_identifier: Q15904547
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:46:34.053Z
-            metadata_json: null
-      object_person:
-        id: p_e622FY31yMzCRE9JqUsUSG
-        status: active
-        display_name: 王恕
-        merged_into_person_id: null
-    - claim:
-        id: c_xHCsy7M-tomSGYMsjlx-on
-        subject_person_id: p_8ZBDQjrPzNEsJHrpRrVWkK
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_T2DCj9d6XKU4djHJMs2kSM
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_1wcExFNLQjUStNEosN4M_z
-          claim_id: c_xHCsy7M-tomSGYMsjlx-on
-          source_id: s_vB51GoqLZdVHHypmKy4CwU
-          stance: supports
-          locator: 正統十三年進士登科錄:一卷，第三甲第二十六名：子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_T2DCj9d6XKU4djHJMs2kSM
-        status: active
-        display_name: 王恕
-        merged_into_person_id: null
+  parents: []
+  children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -263,13 +136,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_m8pEmRBSH6ayXuTKwEAjBF | 王惟真 | accepted |
-| children | p_e622FY31yMzCRE9JqUsUSG | 王恕 | accepted |
-| children | p_T2DCj9d6XKU4djHJMs2kSM | 王恕 | accepted |
 
 ## 外部来源
 
-- [维基数据：王恕（Q15904547）](https://www.wikidata.org/wiki/Q15904547)
-- [维基数据：王惟真（Q45459375）](https://www.wikidata.org/wiki/Q45459375)
 - [维基数据：王仲智（Q45459440）](https://www.wikidata.org/wiki/Q45459440)
 - [CBDB 中国历代人物传记资料库：王仲智（240859）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240859&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王静淑
 cbdb_id: 55730
-revision: 3
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -168,32 +168,6 @@ relationships:
         status: active
         display_name: 王思任
         merged_into_person_id: null
-    - claim:
-        id: c_f_v0Vm0SteIqDfNTpfop44
-        subject_person_id: p_ftZ1PRscrPmBh4Qh3AiyfY
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_K3V5746zGx9VVTC42VpP31
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_iknXNGRe2OBxI8AhP2_tes
-          claim_id: c_f_v0Vm0SteIqDfNTpfop44
-          source_id: s_HFWp7igmPi2rYKAePKgRuC
-          stance: supports
-          locator: "明清婦女著作數據庫，MQWW PoetID #684, HuWenKai #255：父"
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
-      object_person:
-        id: p_ftZ1PRscrPmBh4Qh3AiyfY
-        status: active
-        display_name: 王思任
-        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -262,32 +236,6 @@ relationships:
         status: active
         display_name: 陈树勷
         merged_into_person_id: null
-    - claim:
-        id: c_ntpdye7VqV21an580SmDn3
-        subject_person_id: p_K3V5746zGx9VVTC42VpP31
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_39GWjbzJQtkejPEWb4G4LN
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_G8njSp2A2dJBjilaQAB-XS
-          claim_id: c_ntpdye7VqV21an580SmDn3
-          source_id: s_HFWp7igmPi2rYKAePKgRuC
-          stance: supports
-          locator: "明清婦女著作數據庫，MQWW PoetID #684, HuWenKai #255：丈夫"
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
-      object_person:
-        id: p_39GWjbzJQtkejPEWb4G4LN
-        status: active
-        display_name: 陈树勷
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -309,8 +257,6 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_WgJjrR3eV8FZmEbV9t77oX | 王思任 | accepted |
-| parents | p_ftZ1PRscrPmBh4Qh3AiyfY | 王思任 | accepted |
-| spouses | p_39GWjbzJQtkejPEWb4G4LN | 陈树勷 | accepted |
 | spouses | p_39GWjbzJQtkejPEWb4G4LN | 陈树勷 | accepted |
 
 ## 外部来源

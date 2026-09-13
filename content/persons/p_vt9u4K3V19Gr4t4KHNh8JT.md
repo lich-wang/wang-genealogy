@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王宠
 cbdb_id: 92046
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -307,7 +307,7 @@ relationships:
   ancestors:
     - claim:
         id: c_Xi7sfk7cqVzkelophS10UR
-        subject_person_id: p_oXeM1DhnzL8dBtmUo4Qtqd
+        subject_person_id: p_PyPYdgPJF9TEybjfkDt91f
         claim_kind: relationship
         predicate: kinship.ancestor_of
         object_person_id: p_vt9u4K3V19Gr4t4KHNh8JT
@@ -338,7 +338,7 @@ relationships:
             accessed_at: 2026-08-24T04:07:43.980Z
             metadata_json: null
       object_person:
-        id: p_oXeM1DhnzL8dBtmUo4Qtqd
+        id: p_PyPYdgPJF9TEybjfkDt91f
         status: active
         display_name: 王晙
         merged_into_person_id: null
@@ -400,7 +400,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_4HKPieD6fbNJ6PWBDrdsH7 | 王曒 | accepted |
 | children | p_2NTHSuTRAQfY7rnLH41fx7 | 王仲连 | accepted |
-| ancestors | p_oXeM1DhnzL8dBtmUo4Qtqd | 王晙 | accepted |
+| ancestors | p_PyPYdgPJF9TEybjfkDt91f | 王晙 | accepted |
 | ancestors | p_PMHDEn49o8y5aW5qiXbb15 | 王琳 | accepted |
 
 ## 外部来源

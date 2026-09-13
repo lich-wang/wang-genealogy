@@ -4,7 +4,7 @@ id: p_9kvwNC8EwFdL41MBGhg7HG
 status: active
 merged_into: null
 display_name: 王獻之
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:

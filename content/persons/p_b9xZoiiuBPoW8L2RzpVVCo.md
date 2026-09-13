@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王廙
 cbdb_id: 25806
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -765,101 +765,6 @@ relationships:
         display_name: 王羡之
         merged_into_person_id: null
     - claim:
-        id: c_5dHJZAXCPbRUeVMRiCX1DM
-        subject_person_id: p_b9xZoiiuBPoW8L2RzpVVCo
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_xgQoPQTLieHrbiQJtTGE2i
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 3
-      sources:
-        - id: cs_XLCYq3JpjPMuxKPqoYUhoJ
-          claim_id: c_5dHJZAXCPbRUeVMRiCX1DM
-          source_id: s_QT63YvTeLcMe92WmNdtDzy
-          stance: supports
-          locator: 亲属关系：三子
-          quotation: null
-          interpretation_note: CBDB 注明此条来源：未知
-          source:
-            id: s_QT63YvTeLcMe92WmNdtDzy
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王廙（25806）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25806&o=json
-            external_identifier: CBDB:25806
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T02:48:51.125Z
-            metadata_json: null
-        - id: cs_iBiWcyn1ZemoLNCoAsc1fr
-          claim_id: c_5dHJZAXCPbRUeVMRiCX1DM
-          source_id: s_SFuhPkjgMH7UeWM99KjEjG
-          stance: supports
-          locator: P40（子女）
-          quotation: null
-          interpretation_note: null
-          source:
-            id: s_SFuhPkjgMH7UeWM99KjEjG
-            source_type: api_record
-            title: 维基数据：王廙（Q15911516）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q15911516
-            external_identifier: Q15911516
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T02:48:50.988Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%99
-        - id: cs_XZ4SMw2vUGoVSU7GgXywrN
-          claim_id: c_5dHJZAXCPbRUeVMRiCX1DM
-          source_id: s_fZZnVMJS1BvMgsjgFYgEC7
-          stance: supports
-          locator: P22（父）
-          quotation: null
-          interpretation_note: null
-          source:
-            id: s_fZZnVMJS1BvMgsjgFYgEC7
-            source_type: api_record
-            title: 维基数据：王耆之（Q45408771）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45408771
-            external_identifier: Q45408771
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:10:06.504Z
-            metadata_json: null
-        - id: cs_5M7aeg3mxKA5mg7Lu9JzD5
-          claim_id: c_5dHJZAXCPbRUeVMRiCX1DM
-          source_id: s_hk8MPY3rkcCg1LVBw7zyLy
-          stance: supports
-          locator: 亲属关系：父
-          quotation: null
-          interpretation_note: CBDB 注明此条来源：未知
-          source:
-            id: s_hk8MPY3rkcCg1LVBw7zyLy
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王耆之（25807）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25807&o=json
-            external_identifier: CBDB:25807
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:10:06.684Z
-            metadata_json: null
-      object_person:
-        id: p_xgQoPQTLieHrbiQJtTGE2i
-        status: active
-        display_name: 王耆之
-        merged_into_person_id: null
-    - claim:
         id: c_Y447XW2AYX6BKYdB7HDsgs
         subject_person_id: p_b9xZoiiuBPoW8L2RzpVVCo
         claim_kind: relationship
@@ -1113,7 +1018,6 @@ relationships:
 | parents | p_zgLSxM6Df6WmD94BCp19kQ | 王正 | accepted |
 | children | p_RCHyAEEBXGnYRgeH85Q9u7 | 王胡之 | accepted |
 | children | p_tvxspDevCFDe9RfbqL4x9n | 王羡之 | accepted |
-| children | p_xgQoPQTLieHrbiQJtTGE2i | 王耆之 | accepted |
 | children | p_HoL33yJw3gGVUsKMHupmDF | 王颐之 | accepted |
 | children | p_B1Pwn6KkUyb2E3j2EsGPsx | 王耆之 | accepted |
 | descendants | p_oQBH3N18DrD8VHPR7ymsan | 王和之 | accepted |
@@ -1122,13 +1026,11 @@ relationships:
 
 - [维基数据：王胡之（Q19825735）](https://www.wikidata.org/wiki/Q19825735)
 - [维基数据：王耆之（Q22814794）](https://www.wikidata.org/wiki/Q22814794)
-- [维基数据：王耆之（Q45408771）](https://www.wikidata.org/wiki/Q45408771)
 - [维基数据：王羡之（Q22814801）](https://www.wikidata.org/wiki/Q22814801)
 - [维基数据：王廙（Q15911516）](https://www.wikidata.org/wiki/Q15911516)
 - [維基數據：王正（Q22814789）](https://www.wikidata.org/wiki/Q22814789)
 - [中文维基百科：琅邪王氏](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F)
 - [中文维基百科：王和之](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%92%8C%E4%B9%8B)
 - [中文维基百科：王廙](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%99)
-- [CBDB 中国历代人物传记资料库：王耆之（25807）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25807&o=json)
 - [CBDB 中国历代人物传记资料库：王廙（25806）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25806&o=json)
 - [CBDB 中国历代人物传记资料库：王正（25791）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25791&o=json)

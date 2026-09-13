@@ -4,7 +4,7 @@ id: p_3NK6EhTAXgAtmFG5Dkqh4A
 status: active
 merged_into: null
 display_name: 王詔
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -185,43 +185,6 @@ relationships:
         status: active
         display_name: 曹氏
         merged_into_person_id: null
-    - claim:
-        id: c_apvTmgeWQNt-2MqtyrTiUN
-        subject_person_id: p_hPJPD72anHdssJJebWQ769
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_3NK6EhTAXgAtmFG5Dkqh4A
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_4VO6386N6xPo0UI3XIQxcR
-          claim_id: c_apvTmgeWQNt-2MqtyrTiUN
-          source_id: s_NF9gbpTmGsbbZBoXvMnjDg
-          stance: supports
-          locator: 天順八年進士登科錄:一卷，第三甲第六十二名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_NF9gbpTmGsbbZBoXvMnjDg
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：曹氏（338009）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338009&o=json
-            external_identifier: CBDB:338009
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T01:59:55.496Z
-            metadata_json: null
-      object_person:
-        id: p_hPJPD72anHdssJJebWQ769
-        status: active
-        display_name: 曹氏
-        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_t165Crl-QF54qr3EUU4H8y
@@ -298,11 +261,9 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_mkEUUStA3H6zxa8Vzv7LyH | 王昂 | accepted |
 | spouses | p_hPJPD72anHdssJJebWQ769 | 曹氏 | accepted |
-| spouses | p_hPJPD72anHdssJJebWQ769 | 曹氏 | accepted |
 | ancestors | p_1a4kV9bnUd3Gc32RqHYR8N | 王思义 | accepted |
 | ancestors | p_nmksiEiPj8BciQGG5LZXMB | 王理 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王詔（CBDB 67938）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67938&o=json)
-- [CBDB 中国历代人物传记资料库：曹氏（338009）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338009&o=json)

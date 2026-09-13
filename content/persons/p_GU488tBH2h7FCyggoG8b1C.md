@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_GU488tBH2h7FCyggoG8b1C
-status: active
-merged_into: null
+status: merged
+merged_into: p_JfWbDHNGFyJz6Cq8yoPLva
 display_name: 王崇基
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -73,118 +73,7 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children:
-    - claim:
-        id: c_ZraI7Zm287kyV4wczT7nsZ
-        subject_person_id: p_GU488tBH2h7FCyggoG8b1C
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_6aKQmuB1xaRvMcBNGSGgUM
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_3efMvKlZ3eaOZH_t4VlLGu
-          claim_id: c_ZraI7Zm287kyV4wczT7nsZ
-          source_id: s_dBAfnRcpqG7NrGSKmqBytQ
-          stance: supports
-          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_dBAfnRcpqG7NrGSKmqBytQ
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王齊望（175855）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175855&o=json
-            external_identifier: CBDB:175855
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
-      object_person:
-        id: p_6aKQmuB1xaRvMcBNGSGgUM
-        status: active
-        display_name: 王齐望
-        merged_into_person_id: null
-    - claim:
-        id: c_d_wf0R-v0YjqjIQ_sGQPbW
-        subject_person_id: p_GU488tBH2h7FCyggoG8b1C
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_dWRWFHgxvJBT5TEBKBQG8N
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_C3kjlYhlZQGefItgaLqBtr
-          claim_id: c_d_wf0R-v0YjqjIQ_sGQPbW
-          source_id: s_X8R4xhQrFxhSP9ScwaJD1M
-          stance: supports
-          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_X8R4xhQrFxhSP9ScwaJD1M
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王尚逸（175854）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175854&o=json
-            external_identifier: CBDB:175854
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
-      object_person:
-        id: p_dWRWFHgxvJBT5TEBKBQG8N
-        status: active
-        display_name: 王尚逸
-        merged_into_person_id: null
-    - claim:
-        id: c_fTWswsTSIQ6lcfUxqCBUFT
-        subject_person_id: p_GU488tBH2h7FCyggoG8b1C
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_ZRQGakw1b52uVgFa6TPuo2
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_xOSzYHhA1JdQn38i4dfMNp
-          claim_id: c_fTWswsTSIQ6lcfUxqCBUFT
-          source_id: s_EU81XzzSRVgkEejznEAcvy
-          stance: supports
-          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_EU81XzzSRVgkEejznEAcvy
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王體仁（175853）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175853&o=json
-            external_identifier: CBDB:175853
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
-      object_person:
-        id: p_ZRQGakw1b52uVgFa6TPuo2
-        status: active
-        display_name: 王体仁
-        merged_into_person_id: null
+  children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -208,13 +97,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| children | p_6aKQmuB1xaRvMcBNGSGgUM | 王齐望 | accepted |
-| children | p_dWRWFHgxvJBT5TEBKBQG8N | 王尚逸 | accepted |
-| children | p_ZRQGakw1b52uVgFa6TPuo2 | 王体仁 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王崇基（CBDB 157631）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=157631&o=json)
-- [CBDB 中国历代人物传记资料库：王齊望（175855）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175855&o=json)
-- [CBDB 中国历代人物传记资料库：王尚逸（175854）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175854&o=json)
-- [CBDB 中国历代人物传记资料库：王體仁（175853）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175853&o=json)

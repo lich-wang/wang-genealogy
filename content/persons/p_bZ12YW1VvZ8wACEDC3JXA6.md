@@ -4,7 +4,7 @@ id: p_bZ12YW1VvZ8wACEDC3JXA6
 status: active
 merged_into: null
 display_name: 王佐
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -243,7 +243,45 @@ relationships:
         status: active
         display_name: 王鸾
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_4hBOwxqBwLyfaAn9GP-I8o
+        subject_person_id: p_bZ12YW1VvZ8wACEDC3JXA6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FgnH5Tex3eEM8HgEHgSdm9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vv6-d6P-mPBrjQBmLCZdwC
+          claim_id: c_4hBOwxqBwLyfaAn9GP-I8o
+          source_id: s_Wjtp8tAobXMopg3HgXxk7b
+          stance: supports
+          locator: 人名權威資料（中央研究院歷史語言研究所），10886：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_Wjtp8tAobXMopg3HgXxk7b
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道貞（CBDB 524359）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=524359&o=json
+            external_identifier: CBDB:524359
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:18:17.868Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
+      object_person:
+        id: p_FgnH5Tex3eEM8HgEHgSdm9
+        status: active
+        display_name: 王道貞
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -322,7 +360,81 @@ relationships:
         status: active
         display_name: 张氏
         merged_into_person_id: null
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_nS6VYsTgAQK6aB7Cwelkhj
+        subject_person_id: p_onvVrjmfvkdjFcgNLVKCma
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bZ12YW1VvZ8wACEDC3JXA6
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ouKNX2ujm9YGnwMX0CO8C8
+          claim_id: c_nS6VYsTgAQK6aB7Cwelkhj
+          source_id: s_BgtjiioWMxd6kDi9yjCApu
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第二甲第十四名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_BgtjiioWMxd6kDi9yjCApu
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王棋（222283）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222283&o=json
+            external_identifier: CBDB:222283
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_onvVrjmfvkdjFcgNLVKCma
+        status: active
+        display_name: 王棋
+        merged_into_person_id: null
+    - claim:
+        id: c_VgHYqcBvOY0ilVgBZfaeH6
+        subject_person_id: p_LhDftPTdBSJ1CGALBq6bm6
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_bZ12YW1VvZ8wACEDC3JXA6
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j8AZhR0yDWqTPw5_h_LeCW
+          claim_id: c_VgHYqcBvOY0ilVgBZfaeH6
+          source_id: s_4YQ9r3CVSoUk3P8YrMEEJd
+          stance: supports
+          locator: 萬曆十一年進士登科錄:一卷，第二甲第十四名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_4YQ9r3CVSoUk3P8YrMEEJd
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王銘（222284）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222284&o=json
+            external_identifier: CBDB:222284
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:59.059Z
+            metadata_json: null
+      object_person:
+        id: p_LhDftPTdBSJ1CGALBq6bm6
+        status: active
+        display_name: 王铭
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -345,12 +457,18 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_2JBV3UP1jjSL1hUd6uRUK3 | 王鸾 | accepted |
+| children | p_FgnH5Tex3eEM8HgEHgSdm9 | 王道貞 | accepted |
 | spouses | p_1j4ypMFN2MQYt4wr2fiPkA | 张氏 | accepted |
+| ancestors | p_onvVrjmfvkdjFcgNLVKCma | 王棋 | accepted |
+| ancestors | p_LhDftPTdBSJ1CGALBq6bm6 | 王铭 | accepted |
 
 ## 外部来源
 
 - [维基数据：王鸾（Q45580943）](https://www.wikidata.org/wiki/Q45580943)
 - [维基数据：王佐（Q15928723）](https://www.wikidata.org/wiki/Q15928723)
 - [维基数据：张氏（Q65825389）](https://www.wikidata.org/wiki/Q65825389)
+- [中国历代人物传记资料库：王道貞（CBDB 524359）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=524359&o=json)
 - [中文维基百科：王佐 (萬曆癸未進士)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BD%90_(%E8%90%AC%E6%9B%86%E7%99%B8%E6%9C%AA%E9%80%B2%E5%A3%AB))
+- [CBDB 中国历代人物传记资料库：王銘（222284）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222284&o=json)
+- [CBDB 中国历代人物传记资料库：王棋（222283）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222283&o=json)
 - [CBDB 中国历代人物传记资料库：王佐（67281）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67281&o=json)

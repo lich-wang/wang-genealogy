@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王汶
 cbdb_id: 143322
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -407,32 +407,6 @@ relationships:
         display_name: 蒋氏
         merged_into_person_id: null
     - claim:
-        id: c_A_lNx2GLPPtQ-dX8SsZd8l
-        subject_person_id: p_xtyYrh2ceBwZ769mV4SDUW
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_Xn7YfLPB8jFLqE7voVoB2a
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_Eng9rEAQvdMl0eA_0DwRNg
-          claim_id: c_A_lNx2GLPPtQ-dX8SsZd8l
-          source_id: s_D8w8e3qEd4BTNNFf9B4T12
-          stance: supports
-          locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：妻子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_Xn7YfLPB8jFLqE7voVoB2a
-        status: active
-        display_name: 蒋氏
-        merged_into_person_id: null
-    - claim:
         id: c_RhDT4PLTiABvnN6B7op0eZ
         subject_person_id: p_xtyYrh2ceBwZ769mV4SDUW
         claim_kind: relationship
@@ -545,7 +519,6 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_KXD6a4zaL9E1N69hTNkTMP | 王志悌 | accepted |
 | children | p_Z5BPr9m4u9GFwUQLtaQNNb | 王袞 | accepted |
-| spouses | p_Xn7YfLPB8jFLqE7voVoB2a | 蒋氏 | accepted |
 | spouses | p_Xn7YfLPB8jFLqE7voVoB2a | 蒋氏 | accepted |
 | spouses | p_y6ifpLXJGmJtEyYXPLQC4h | 蔣氏 | accepted |
 | ancestors | p_RQFRb7ZkfNHmmspp2wmJ84 | 王方泰 | accepted |

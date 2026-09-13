@@ -4,7 +4,7 @@ id: p_6Fd9RZJkiLMNbHMJLar9HR
 status: active
 merged_into: null
 display_name: 王之模
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -80,7 +80,7 @@ relationships:
   ancestors:
     - claim:
         id: c_DLwnihAdMh_dJAItQjOHsP
-        subject_person_id: p_4GbPExDFna3bpZBzyQEK5D
+        subject_person_id: p_CqGGoAHd4xav6yj4gHyTHE
         claim_kind: relationship
         predicate: kinship.ancestor_of
         object_person_id: p_6Fd9RZJkiLMNbHMJLar9HR
@@ -100,7 +100,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a1
       object_person:
-        id: p_4GbPExDFna3bpZBzyQEK5D
+        id: p_CqGGoAHd4xav6yj4gHyTHE
         status: active
         display_name: 王崇古
         merged_into_person_id: null
@@ -123,7 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| ancestors | p_4GbPExDFna3bpZBzyQEK5D | 王崇古 | accepted |
+| ancestors | p_CqGGoAHd4xav6yj4gHyTHE | 王崇古 | accepted |
 
 ## 外部来源
 

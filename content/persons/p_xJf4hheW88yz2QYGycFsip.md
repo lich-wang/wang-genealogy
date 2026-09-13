@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王學可
 cbdb_id: 22257
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -77,7 +77,7 @@ relationships:
   parents:
     - claim:
         id: c_uGW6DdS60uK6R8qaDC-XAj
-        subject_person_id: p_M9sDetT5acG1nDTAxFe7as
+        subject_person_id: p_EWAx1K1Zcs56idxSXpA1ot
         claim_kind: relationship
         predicate: kinship.father_of
         object_person_id: p_xJf4hheW88yz2QYGycFsip
@@ -109,7 +109,7 @@ relationships:
             metadata_json:
               source_release: CBDB 2026-08-29
       object_person:
-        id: p_M9sDetT5acG1nDTAxFe7as
+        id: p_EWAx1K1Zcs56idxSXpA1ot
         status: active
         display_name: 王之望
         merged_into_person_id: null
@@ -137,7 +137,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_M9sDetT5acG1nDTAxFe7as | 王之望 | accepted |
+| parents | p_EWAx1K1Zcs56idxSXpA1ot | 王之望 | accepted |
 
 ## 外部来源
 

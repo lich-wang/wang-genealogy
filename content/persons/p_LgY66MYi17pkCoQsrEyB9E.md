@@ -1,10 +1,10 @@
 ---
 schema: wang-person/v1
 id: p_LgY66MYi17pkCoQsrEyB9E
-status: active
-merged_into: null
+status: merged
+merged_into: p_3rXpgVa7b3w2KvtV9muyJp
 display_name: 王勃
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -128,33 +128,7 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents:
-    - claim:
-        id: c_DNiHgsaW880llpxudCqj4u
-        subject_person_id: p_aKTcTcwPwwQP7hVaAj9R1z
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_LgY66MYi17pkCoQsrEyB9E
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_2jmY1VwklQEACeEDX9ooHF
-          claim_id: c_DNiHgsaW880llpxudCqj4u
-          source_id: s_NPG2X8ZwMAngCotJDyiN6K
-          stance: supports
-          locator: Pers DB / 唐代人物知識ベース，pers00241：父
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_aKTcTcwPwwQP7hVaAj9R1z
-        status: active
-        display_name: 王福畤
-        merged_into_person_id: null
+  parents: []
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -181,7 +155,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_aKTcTcwPwwQP7hVaAj9R1z | 王福畤 | accepted |
 
 ## 外部来源
 

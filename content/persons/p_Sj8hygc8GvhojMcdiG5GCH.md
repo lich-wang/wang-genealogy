@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王槐起
 cbdb_id: 123340
-revision: 4
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -187,43 +187,6 @@ relationships:
         status: active
         display_name: 王思任
         merged_into_person_id: null
-    - claim:
-        id: c_OAuumB6UYwd1egRqb7M-MZ
-        subject_person_id: p_ftZ1PRscrPmBh4Qh3AiyfY
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_Sj8hygc8GvhojMcdiG5GCH
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_hMNrxWxc1LEaOwenjJhw9M
-          claim_id: c_OAuumB6UYwd1egRqb7M-MZ
-          source_id: s_wzB8H1VeEUUxxH32LdLqx3
-          stance: supports
-          locator: CBDB 双向互证（子 王槐起 ⇄ 父 王思任）
-          quotation: null
-          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
-          source:
-            id: s_wzB8H1VeEUUxxH32LdLqx3
-            source_type: api_record
-            title: 中国历代人物传记资料库：王思任（CBDB 71875）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71875&o=json
-            external_identifier: CBDB:71875
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-09T00:03:13.907Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
-      object_person:
-        id: p_ftZ1PRscrPmBh4Qh3AiyfY
-        status: active
-        display_name: 王思任
-        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -281,32 +244,6 @@ relationships:
         status: active
         display_name: 陈德卿
         merged_into_person_id: null
-    - claim:
-        id: c_ZQWv4tXG_OqXGw79if6u5c
-        subject_person_id: p_Sj8hygc8GvhojMcdiG5GCH
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_C8S76xL9QeVY84yBo32FLj
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_BI6eM0-98j80UnKUQkwxXH
-          claim_id: c_ZQWv4tXG_OqXGw79if6u5c
-          source_id: s_Mzx6GHSLqTuVLs67XBw7DL
-          stance: supports
-          locator: "明清婦女著作數據庫，MQWW PoetID #5157：妻子"
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_C8S76xL9QeVY84yBo32FLj
-        status: active
-        display_name: 陈德卿
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -328,8 +265,6 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_WgJjrR3eV8FZmEbV9t77oX | 王思任 | accepted |
-| parents | p_ftZ1PRscrPmBh4Qh3AiyfY | 王思任 | accepted |
-| spouses | p_C8S76xL9QeVY84yBo32FLj | 陈德卿 | accepted |
 | spouses | p_C8S76xL9QeVY84yBo32FLj | 陈德卿 | accepted |
 
 ## 外部来源
@@ -337,5 +272,5 @@ relationships:
 - [维基数据：陈德卿（Q45675173）](https://www.wikidata.org/wiki/Q45675173)
 - [维基数据：王槐起（Q45675252）](https://www.wikidata.org/wiki/Q45675252)
 - [维基数据：王思任（Q15938368）](https://www.wikidata.org/wiki/Q15938368)
-- [中国历代人物传记资料库：王思任（CBDB 71875）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71875&o=json)
 - [CBDB 中国历代人物传记资料库：王槐起（123340）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123340&o=json)
+- [CBDB 中国历代人物传记资料库：王思任（71875）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71875&o=json)

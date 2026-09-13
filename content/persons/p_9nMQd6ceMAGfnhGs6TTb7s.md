@@ -4,7 +4,7 @@ id: p_9nMQd6ceMAGfnhGs6TTb7s
 status: active
 merged_into: null
 display_name: 王袞錫
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -80,7 +80,7 @@ relationships:
   ancestors:
     - claim:
         id: c_M5ZiKJTPsEHi-8d_s2U2PX
-        subject_person_id: p_ftZ1PRscrPmBh4Qh3AiyfY
+        subject_person_id: p_WgJjrR3eV8FZmEbV9t77oX
         claim_kind: relationship
         predicate: kinship.ancestor_of
         object_person_id: p_9nMQd6ceMAGfnhGs6TTb7s
@@ -100,7 +100,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a1
       object_person:
-        id: p_ftZ1PRscrPmBh4Qh3AiyfY
+        id: p_WgJjrR3eV8FZmEbV9t77oX
         status: active
         display_name: 王思任
         merged_into_person_id: null
@@ -123,7 +123,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| ancestors | p_ftZ1PRscrPmBh4Qh3AiyfY | 王思任 | accepted |
+| ancestors | p_WgJjrR3eV8FZmEbV9t77oX | 王思任 | accepted |
 
 ## 外部来源
 

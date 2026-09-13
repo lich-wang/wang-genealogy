@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王琳
 cbdb_id: 91982
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -156,100 +156,6 @@ relationships:
   parents: []
   children:
     - claim:
-        id: c_J2t23GrWqAqtrLQuKp2jJM
-        subject_person_id: p_PMHDEn49o8y5aW5qiXbb15
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_oXeM1DhnzL8dBtmUo4Qtqd
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 2
-      sources:
-        - id: cs_7T1b2iMLtAaJoRpRrQErZw
-          claim_id: c_J2t23GrWqAqtrLQuKp2jJM
-          source_id: s_EXcmMaeYVJwk593LFj6s41
-          stance: supports
-          locator: P22（父）
-          quotation: null
-          interpretation_note: null
-          source:
-            id: s_EXcmMaeYVJwk593LFj6s41
-            source_type: api_record
-            title: 维基数据：王晙（Q45439660）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45439660
-            external_identifier: Q45439660
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T04:05:31.027Z
-            metadata_json: null
-        - id: cs_kFgLJ8Uk15M6A2DG1Yhtsd
-          claim_id: c_J2t23GrWqAqtrLQuKp2jJM
-          source_id: s_ncsTj4zGGPHFgrCZYwyE47
-          stance: supports
-          locator: 亲属关系：父
-          quotation: null
-          interpretation_note: CBDB 注明此条来源：Pers DB / 唐代人物知識ベース
-          source:
-            id: s_ncsTj4zGGPHFgrCZYwyE47
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王晙（91993）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=91993&o=json
-            external_identifier: CBDB:91993
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T04:05:31.346Z
-            metadata_json: null
-        - id: cs_pCXN6E6HsxVK5x9xHPKd4X
-          claim_id: c_J2t23GrWqAqtrLQuKp2jJM
-          source_id: s_4GtVCfCGU2oMvNkWfi1429
-          stance: supports
-          locator: P40（子女）
-          quotation: null
-          interpretation_note: null
-          source:
-            id: s_4GtVCfCGU2oMvNkWfi1429
-            source_type: api_record
-            title: 维基数据：王琳（Q45438985）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45438985
-            external_identifier: Q45438985
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T04:07:43.809Z
-            metadata_json: null
-        - id: cs_wMnqWpqfNkBQK22d1PeemZ
-          claim_id: c_J2t23GrWqAqtrLQuKp2jJM
-          source_id: s_T1ghCs1VBUTNw5nSgpKgZg
-          stance: supports
-          locator: 亲属关系：子
-          quotation: null
-          interpretation_note: CBDB 注明此条来源：Pers DB / 唐代人物知識ベース
-          source:
-            id: s_T1ghCs1VBUTNw5nSgpKgZg
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王琳（91982）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=91982&o=json
-            external_identifier: CBDB:91982
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T04:07:43.980Z
-            metadata_json: null
-      object_person:
-        id: p_oXeM1DhnzL8dBtmUo4Qtqd
-        status: active
-        display_name: 王晙
-        merged_into_person_id: null
-    - claim:
         id: c_3fhzNLXA4LV6QYPyGyYkO3
         subject_person_id: p_PMHDEn49o8y5aW5qiXbb15
         claim_kind: relationship
@@ -362,15 +268,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| children | p_oXeM1DhnzL8dBtmUo4Qtqd | 王晙 | accepted |
 | children | p_PyPYdgPJF9TEybjfkDt91f | 王晙 | accepted |
 | descendants | p_qivzHR7xYz6bzgiDCELpcc | 王祝 | accepted |
 | descendants | p_vt9u4K3V19Gr4t4KHNh8JT | 王宠 | accepted |
 
 ## 外部来源
 
-- [维基数据：王晙（Q45439660）](https://www.wikidata.org/wiki/Q45439660)
 - [维基数据：王琳（Q45438985）](https://www.wikidata.org/wiki/Q45438985)
 - [中国历代人物传记资料库：王祝（CBDB 92053）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92053&o=json)
-- [CBDB 中国历代人物传记资料库：王晙（91993）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=91993&o=json)
 - [CBDB 中国历代人物传记资料库：王琳（91982）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=91982&o=json)

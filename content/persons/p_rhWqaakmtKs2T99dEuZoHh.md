@@ -4,7 +4,7 @@ id: p_rhWqaakmtKs2T99dEuZoHh
 status: active
 merged_into: null
 display_name: 王忬
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -479,6 +479,43 @@ relationships:
         status: active
         display_name: 王世懋
         merged_into_person_id: null
+    - claim:
+        id: c_wCyvr4itBFQwQSLKU_IaX2
+        subject_person_id: p_rhWqaakmtKs2T99dEuZoHh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_THQx38bKosUpdXRAkw2R2w
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CLA9dpQvvkP6iYCMVvO0dF
+          claim_id: c_wCyvr4itBFQwQSLKU_IaX2
+          source_id: s_EGYNzhpNhAqJTrdrD1CqfF
+          stance: supports
+          locator: 嘉靖二十六年進士登科錄:一卷，第二甲第八十名：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_EGYNzhpNhAqJTrdrD1CqfF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王忬（CBDB 309375）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309375&o=json
+            external_identifier: CBDB:309375
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-09T00:03:19.811Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_THQx38bKosUpdXRAkw2R2w
+        status: active
+        display_name: 王世貞
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -564,6 +601,7 @@ relationships:
 | parents | p_2CY82LiLunPZpBKWzpBz3S | 王倬 | accepted |
 | children | p_g5KSSBRpZ9iAzVfbXmLaWQ | 王世贞 | accepted |
 | children | p_38CvMQkfBCMzR3DNrBhBQJ | 王世懋 | accepted |
+| children | p_THQx38bKosUpdXRAkw2R2w | 王世貞 | accepted |
 | spouses | p_YWv9ovjSZF1xX3E39uVtwt | 郁氏 | accepted |
 
 ## 外部来源
@@ -573,10 +611,10 @@ relationships:
 - [维基数据：郁氏（Q65827493）](https://www.wikidata.org/wiki/Q65827493)
 - [維基數據：王世贞（Q6127545）](https://www.wikidata.org/wiki/Q6127545)
 - [維基數據：王忬（Q15933350）](https://www.wikidata.org/wiki/Q15933350)
+- [中国历代人物传记资料库：王忬（CBDB 309375）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309375&o=json)
 - [中文维基百科：王世懋](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E6%87%8B)
 - [中文维基百科：王世贞](https://zh.wikipedia.org/wiki/王世贞)
 - [中文维基百科：王世贞](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E8%B4%9E)
 - [中文维基百科：王忬](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BF%AC)
 - [CBDB 中国历代人物传记资料库：王世懋（34719）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34719&o=json)
 - [CBDB 中国历代人物传记资料库：王世貞（34717）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34717&o=json)
-- [CBDB 中国历代人物传记资料库：王忬（309375）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309375&o=json)

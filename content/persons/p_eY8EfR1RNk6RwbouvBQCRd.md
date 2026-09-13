@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王承宗
 cbdb_id: 169026
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -278,59 +278,6 @@ relationships:
         merged_into_person_id: null
   children:
     - claim:
-        id: c_5JLQhUEM6qMCYkvVNbGNtG
-        subject_person_id: p_eY8EfR1RNk6RwbouvBQCRd
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_eFSd3jJHrd28uRai1VP2x5
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_nqZXGUaLtTJcSBeMNJmypi
-          claim_id: c_5JLQhUEM6qMCYkvVNbGNtG
-          source_id: s_B3DgWR2fHr7eJGLbWkQ9BD
-          stance: supports
-          locator: P40（子女）
-          quotation: null
-          interpretation_note: null
-          source: *a1
-        - id: cs_N1MpY4bpCh2Ji6CWmvvYj2
-          claim_id: c_5JLQhUEM6qMCYkvVNbGNtG
-          source_id: s_MnF4hbFMrVzvCRMB1pDcN8
-          stance: supports
-          locator: P22（父）
-          quotation: null
-          interpretation_note: null
-          source:
-            id: s_MnF4hbFMrVzvCRMB1pDcN8
-            source_type: api_record
-            title: 维基数据：王氏（Q65803664）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65803664
-            external_identifier: Q65803664
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json: null
-        - id: cs_SfJri3pzW9VNWf1AQ3n3Ln
-          claim_id: c_5JLQhUEM6qMCYkvVNbGNtG
-          source_id: s_k7j5o648JbsKc9SZWnKL5x
-          stance: supports
-          locator: 亲属关系：女兒
-          quotation: null
-          interpretation_note: CBDB 注明此条来源：唐代墓誌彙編續集
-          source: *a2
-      object_person:
-        id: p_eFSd3jJHrd28uRai1VP2x5
-        status: active
-        display_name: 王氏
-        merged_into_person_id: null
-    - claim:
         id: c_fDnCe8WaXiCPDDwV8maaaB
         subject_person_id: p_eY8EfR1RNk6RwbouvBQCRd
         claim_kind: relationship
@@ -507,7 +454,6 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_X1UCfgUyoJHi8W8xdH58BE | 王士真 | accepted |
-| children | p_eFSd3jJHrd28uRai1VP2x5 | 王氏 | accepted |
 | children | p_Ts44N35PCABePjsztWWSPp | 王氏 | accepted |
 | children | p_PdXHh7pDrGLEbKLAE4sy9G | 王知感 | accepted |
 | children | p_uiopQQNfoS7m2dtHM9yXTB | 王知信 | accepted |
@@ -516,7 +462,6 @@ relationships:
 
 - [维基数据：王承宗（Q7967386）](https://www.wikidata.org/wiki/Q7967386)
 - [维基数据：王士真（Q20026517）](https://www.wikidata.org/wiki/Q20026517)
-- [维基数据：王氏（Q65803664）](https://www.wikidata.org/wiki/Q65803664)
 - [维基数据：王氏（Q65803894）](https://www.wikidata.org/wiki/Q65803894)
 - [维基数据：王知感（Q45636169）](https://www.wikidata.org/wiki/Q45636169)
 - [维基数据：王知信（Q45636232）](https://www.wikidata.org/wiki/Q45636232)

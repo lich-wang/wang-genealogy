@@ -4,7 +4,7 @@ id: p_3rXpgVa7b3w2KvtV9muyJp
 status: active
 merged_into: null
 display_name: 王勃
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:

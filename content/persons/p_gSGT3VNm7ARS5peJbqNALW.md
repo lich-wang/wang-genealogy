@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王明
 cbdb_id: 217866
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -157,7 +157,7 @@ relationships:
         subject_person_id: p_gSGT3VNm7ARS5peJbqNALW
         claim_kind: relationship
         predicate: kinship.ancestor_of
-        object_person_id: p_K23baGuNzCVmxSWXhhYJ4B
+        object_person_id: p_ZHWKRzPsbezhFJuM1r6DbE
         generation_count: 3
         parent_role: null
         value_json: null
@@ -174,7 +174,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a2
       object_person:
-        id: p_K23baGuNzCVmxSWXhhYJ4B
+        id: p_ZHWKRzPsbezhFJuM1r6DbE
         status: active
         display_name: 王士性
         merged_into_person_id: null
@@ -197,7 +197,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_tc8tLCyEu49sXcAYbw2GP6 | 王訚 | accepted |
-| descendants | p_K23baGuNzCVmxSWXhhYJ4B | 王士性 | accepted |
+| descendants | p_ZHWKRzPsbezhFJuM1r6DbE | 王士性 | accepted |
 
 ## 外部来源
 

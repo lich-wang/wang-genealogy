@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 赵氏
 cbdb_id: 327870
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -162,32 +162,6 @@ relationships:
         status: active
         display_name: 王原相
         merged_into_person_id: null
-    - claim:
-        id: c_SG6wsjwlFhIDJXnPRh8bCo
-        subject_person_id: p_hCnqrGYXkPvJd8A849zxFy
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_ghyYDQ5eZ8uxN8ip6BX7KC
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_ebpuinnQfHTwOUEqFVjyjC
-          claim_id: c_SG6wsjwlFhIDJXnPRh8bCo
-          source_id: s_Fd495i8KJ8DFv3fppa6u6D
-          stance: supports
-          locator: 嘉靖四十一年進士登科錄:一卷，第三甲第六十六名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_ghyYDQ5eZ8uxN8ip6BX7KC
-        status: active
-        display_name: 王原相
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -208,7 +182,6 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| spouses | p_ghyYDQ5eZ8uxN8ip6BX7KC | 王原相 | accepted |
 | spouses | p_ghyYDQ5eZ8uxN8ip6BX7KC | 王原相 | accepted |
 
 ## 外部来源

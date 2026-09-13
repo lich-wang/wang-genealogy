@@ -4,7 +4,7 @@ id: p_AzchV2gadaNThZJMv4i97k
 status: active
 merged_into: null
 display_name: 王輝
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:

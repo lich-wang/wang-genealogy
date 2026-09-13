@@ -4,7 +4,7 @@ id: p_CDzewbvc57C3MHsFxzq2nG
 status: active
 merged_into: null
 display_name: 王羲之
-revision: 1
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:

@@ -4,7 +4,7 @@ id: p_ZHWKRzPsbezhFJuM1r6DbE
 status: active
 merged_into: null
 display_name: 王士性
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -224,7 +224,44 @@ relationships:
         status: active
         display_name: 王宗果
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_PHYXoubcmIqudMeLnXmpFf
+        subject_person_id: p_ZHWKRzPsbezhFJuM1r6DbE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xHekMpoEQyryADJWz2qmff
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dpCvT0mf2_hO_U2P4pzEmz
+          claim_id: c_PHYXoubcmIqudMeLnXmpFf
+          source_id: s_B84tG19fbAZaBR8qXKc9vm
+          stance: supports
+          locator: 臨海縣志，lgid=353171：父
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_B84tG19fbAZaBR8qXKc9vm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王立轂（CBDB 702399）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702399&o=json
+            external_identifier: CBDB:702399
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-08T23:54:06.615Z
+            metadata_json:
+              source_release: CBDB 2026-09-05
+      object_person:
+        id: p_xHekMpoEQyryADJWz2qmff
+        status: active
+        display_name: 王立轂
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -303,7 +340,81 @@ relationships:
         status: active
         display_name: 赵氏
         merged_into_person_id: null
-  ancestors: []
+  ancestors:
+    - claim:
+        id: c_XqhZQirKmKPuTLfyiKMSPQ
+        subject_person_id: p_gSGT3VNm7ARS5peJbqNALW
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ZHWKRzPsbezhFJuM1r6DbE
+        generation_count: 3
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_r5_APwP7L-jis3zEj2z4E-
+          claim_id: c_XqhZQirKmKPuTLfyiKMSPQ
+          source_id: s_KaxcQyEUjWPJNvEJZwHUrS
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第三甲第一百六十九名：曾孫; 重孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_KaxcQyEUjWPJNvEJZwHUrS
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王明（217866）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217866&o=json
+            external_identifier: CBDB:217866
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
+      object_person:
+        id: p_gSGT3VNm7ARS5peJbqNALW
+        status: active
+        display_name: 王明
+        merged_into_person_id: null
+    - claim:
+        id: c__8Stv11ss-Es03WX2U3GeN
+        subject_person_id: p_tc8tLCyEu49sXcAYbw2GP6
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_ZHWKRzPsbezhFJuM1r6DbE
+        generation_count: 2
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vRxg2tCumYQoGl4-9bm3p7
+          claim_id: c__8Stv11ss-Es03WX2U3GeN
+          source_id: s_ub9ZomX4NcFY5GpeLj5pja
+          stance: supports
+          locator: 萬曆五年進士登科錄:一卷，第三甲第一百六十九名：孫
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_ub9ZomX4NcFY5GpeLj5pja
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王誾（217867）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217867&o=json
+            external_identifier: CBDB:217867
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:07:00.598Z
+            metadata_json: null
+      object_person:
+        id: p_tc8tLCyEu49sXcAYbw2GP6
+        status: active
+        display_name: 王訚
+        merged_into_person_id: null
   descendants: []
   other: []
 ---
@@ -326,12 +437,18 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_zN5CkYRsAqXYKS76qUps77 | 王宗果 | accepted |
+| children | p_xHekMpoEQyryADJWz2qmff | 王立轂 | accepted |
 | spouses | p_SyGzt2QVX9p9429Xmvya6D | 赵氏 | accepted |
+| ancestors | p_gSGT3VNm7ARS5peJbqNALW | 王明 | accepted |
+| ancestors | p_tc8tLCyEu49sXcAYbw2GP6 | 王訚 | accepted |
 
 ## 外部来源
 
 - [维基数据：王士性（Q15711200）](https://www.wikidata.org/wiki/Q15711200)
 - [维基数据：王宗果（Q45614499）](https://www.wikidata.org/wiki/Q45614499)
 - [维基数据：赵氏（Q65820612）](https://www.wikidata.org/wiki/Q65820612)
+- [中国历代人物传记资料库：王立轂（CBDB 702399）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702399&o=json)
 - [中文维基百科：王士性](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E6%80%A7)
+- [CBDB 中国历代人物传记资料库：王明（217866）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217866&o=json)
 - [CBDB 中国历代人物传记资料库：王士性（35066）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35066&o=json)
+- [CBDB 中国历代人物传记资料库：王誾（217867）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217867&o=json)

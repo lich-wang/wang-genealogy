@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王士業
 cbdb_id: 222410
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -77,7 +77,7 @@ relationships:
   parents:
     - claim:
         id: c_f7G65wmyUyyhwA_4zBOa4a
-        subject_person_id: p_AxnhzouFhPDEcn88n2bfsw
+        subject_person_id: p_trUE1ub3cUR7dMLX7JC1NK
         claim_kind: relationship
         predicate: kinship.father_of
         object_person_id: p_F5eJWEbAr7A8TPLP4MEWxZ
@@ -109,7 +109,7 @@ relationships:
             metadata_json:
               source_release: CBDB 2026-08-29
       object_person:
-        id: p_AxnhzouFhPDEcn88n2bfsw
+        id: p_trUE1ub3cUR7dMLX7JC1NK
         status: active
         display_name: 王宗沐
         merged_into_person_id: null
@@ -174,7 +174,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_AxnhzouFhPDEcn88n2bfsw | 王宗沐 | accepted |
+| parents | p_trUE1ub3cUR7dMLX7JC1NK | 王宗沐 | accepted |
 | children | p_ESAiyK1MzC1QuuqZB5wjNx | 王立墀 | accepted |
 
 ## 外部来源

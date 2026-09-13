@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 姚氏
 cbdb_id: 122994
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -69,7 +69,7 @@ properties:
           locator: Q65800574
           quotation: null
           interpretation_note: null
-          source: &a2
+          source:
             id: s_DW3csh1DK9A8Jk861FCXf3
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：姚氏（122994）
@@ -172,32 +172,6 @@ relationships:
         status: active
         display_name: 王思任
         merged_into_person_id: null
-    - claim:
-        id: c_9mXMQX-9DM2GG1FBiwIJjc
-        subject_person_id: p_SkgdAvuwzjHa75Hc3PGyxP
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_ftZ1PRscrPmBh4Qh3AiyfY
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_oF0zRsNIaXHIZYOPpcriMC
-          claim_id: c_9mXMQX-9DM2GG1FBiwIJjc
-          source_id: s_DW3csh1DK9A8Jk861FCXf3
-          stance: supports
-          locator: CBDB 双向互证（丈夫 王思任 ⇄ 妻子 姚氏(王端淑母)）
-          quotation: null
-          interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
-          source: *a2
-      object_person:
-        id: p_ftZ1PRscrPmBh4Qh3AiyfY
-        status: active
-        display_name: 王思任
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -219,7 +193,6 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_WgJjrR3eV8FZmEbV9t77oX | 王思任 | accepted |
-| spouses | p_ftZ1PRscrPmBh4Qh3AiyfY | 王思任 | accepted |
 
 ## 外部来源
 

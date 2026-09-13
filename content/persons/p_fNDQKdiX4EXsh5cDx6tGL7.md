@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王咸融
 cbdb_id: 119747
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -187,32 +187,6 @@ relationships:
         status: active
         display_name: 王德用
         merged_into_person_id: null
-    - claim:
-        id: c_njD54nyMHRjdOlU9wj_M3k
-        subject_person_id: p_5H9kac1NHpV2vu5J2pvsAi
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_fNDQKdiX4EXsh5cDx6tGL7
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_W-RwBrUlXqiSR8tNeP4pEF
-          claim_id: c_njD54nyMHRjdOlU9wj_M3k
-          source_id: s_4jEKYr1b3sefvVFW4AJoyn
-          stance: supports
-          locator: 宋史：父
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_5H9kac1NHpV2vu5J2pvsAi
-        status: active
-        display_name: 王德用
-        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -238,7 +212,6 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_mDQwQDowHukUUJhyJA2Q4Z | 王德用 | accepted |
-| parents | p_5H9kac1NHpV2vu5J2pvsAi | 王德用 | accepted |
 
 ## 外部来源
 

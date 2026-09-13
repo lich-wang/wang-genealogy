@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王孝先
 cbdb_id: 2130
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -187,43 +187,6 @@ relationships:
         status: active
         display_name: 王祖道
         merged_into_person_id: null
-    - claim:
-        id: c_-LGpBOhsFSbjhTpNboMs8W
-        subject_person_id: p_fjtx6PajidBF5DeEX7ULow
-        claim_kind: relationship
-        predicate: kinship.father_of
-        object_person_id: p_z5u3jCA88DDJrzfkRCxrEK
-        generation_count: null
-        parent_role: father
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_epbFr9kZN67k7AsmDtW61j
-          claim_id: c_-LGpBOhsFSbjhTpNboMs8W
-          source_id: s_DKwEihoKaeDdokgXg515QL
-          stance: supports
-          locator: 宋人傳記資料索引(電子版)，1627：子
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_DKwEihoKaeDdokgXg515QL
-            source_type: api_record
-            title: 中国历代人物传记资料库：王祖道（CBDB 1902）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1902&o=json
-            external_identifier: CBDB:1902
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-09T00:03:11.384Z
-            metadata_json:
-              source_release: CBDB 2026-09-05
-      object_person:
-        id: p_fjtx6PajidBF5DeEX7ULow
-        status: active
-        display_name: 王祖道
-        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -249,11 +212,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_ZZ9tZgx4rUmKgDXtAEqRwH | 王祖道 | accepted |
-| parents | p_fjtx6PajidBF5DeEX7ULow | 王祖道 | accepted |
 
 ## 外部来源
 
 - [维基数据：王孝先（Q45360363）](https://www.wikidata.org/wiki/Q45360363)
 - [维基数据：王祖道（Q15891192）](https://www.wikidata.org/wiki/Q15891192)
-- [中国历代人物传记资料库：王祖道（CBDB 1902）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1902&o=json)
 - [CBDB 中国历代人物传记资料库：王孝先（2130）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=2130&o=json)
+- [CBDB 中国历代人物传记资料库：王祖道（1902）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1902&o=json)

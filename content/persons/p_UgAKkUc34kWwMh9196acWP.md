@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 赵氏
 cbdb_id: 38577
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -172,32 +172,6 @@ relationships:
         status: active
         display_name: 王次翁
         merged_into_person_id: null
-    - claim:
-        id: c_du_9w-6waC5uGu6t1-bajd
-        subject_person_id: p_UgAKkUc34kWwMh9196acWP
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_yapy3APS2bJCVFq3VNLaKZ
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_Evi5GLTlaH-tWlTidxUWX0
-          claim_id: c_du_9w-6waC5uGu6t1-bajd
-          source_id: s_BsD52qWHw6ncn7UiFQJ5tx
-          stance: supports
-          locator: 宋人傳記資料索引(電子版)，1517;1526：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
-      object_person:
-        id: p_yapy3APS2bJCVFq3VNLaKZ
-        status: active
-        display_name: 王次翁
-        merged_into_person_id: null
   ancestors: []
   descendants: []
   other: []
@@ -219,7 +193,6 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_4Ggi24K5h2C2ehfArZY8Pm | 王次翁 | accepted |
-| spouses | p_yapy3APS2bJCVFq3VNLaKZ | 王次翁 | accepted |
 
 ## 外部来源
 

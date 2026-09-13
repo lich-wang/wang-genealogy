@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王倬
 cbdb_id: 126663
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -520,80 +520,6 @@ relationships:
         status: active
         display_name: 陈氏
         merged_into_person_id: null
-    - claim:
-        id: c_deSYdxDXsNgFTGeZle_P9t
-        subject_person_id: p_oXgB7fWB5Zz4xW1VtwDtA9
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_2CY82LiLunPZpBKWzpBz3S
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_U75HLlHfOjbJHdAUzWr9bc
-          claim_id: c_deSYdxDXsNgFTGeZle_P9t
-          source_id: s_dWXqmkYByTaDkcvnSCZy9k
-          stance: supports
-          locator: 成化十四年進士登科錄:一卷，第三甲第五十九名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_dWXqmkYByTaDkcvnSCZy9k
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：陳氏（252226）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252226&o=json
-            external_identifier: CBDB:252226
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:10:16.602Z
-            metadata_json: null
-      object_person:
-        id: p_oXgB7fWB5Zz4xW1VtwDtA9
-        status: active
-        display_name: 陈氏
-        merged_into_person_id: null
-    - claim:
-        id: c_P7VyiMR4w1gfkSFEi-fM04
-        subject_person_id: p_YDHZcKGiRMxxLcCTtxgXh4
-        claim_kind: relationship
-        predicate: kinship.spouse_of
-        object_person_id: p_2CY82LiLunPZpBKWzpBz3S
-        generation_count: null
-        parent_role: null
-        value_json: null
-        status: accepted
-        confidence: medium
-        current_revision: 1
-      sources:
-        - id: cs_mdxoKWiS6uMDxFZQ9mnmGx
-          claim_id: c_P7VyiMR4w1gfkSFEi-fM04
-          source_id: s_EBeeMngiQGN21uM1P5RCkw
-          stance: supports
-          locator: 成化十四年進士登科錄:一卷，第三甲第五十九名：丈夫
-          quotation: null
-          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source:
-            id: s_EBeeMngiQGN21uM1P5RCkw
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：陳氏（252225）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252225&o=json
-            external_identifier: CBDB:252225
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T00:38:02.850Z
-            metadata_json: null
-      object_person:
-        id: p_YDHZcKGiRMxxLcCTtxgXh4
-        status: active
-        display_name: 陈氏
-        merged_into_person_id: null
   ancestors:
     - claim:
         id: c_HagACvArdUbMIcEStRSN5x
@@ -746,8 +672,6 @@ relationships:
 | children | p_rhWqaakmtKs2T99dEuZoHh | 王忬 | accepted |
 | spouses | p_oXgB7fWB5Zz4xW1VtwDtA9 | 陈氏 | accepted |
 | spouses | p_YDHZcKGiRMxxLcCTtxgXh4 | 陈氏 | accepted |
-| spouses | p_oXgB7fWB5Zz4xW1VtwDtA9 | 陈氏 | accepted |
-| spouses | p_YDHZcKGiRMxxLcCTtxgXh4 | 陈氏 | accepted |
 | ancestors | p_gH1X7mqhSnv3LstMzbAkAu | 王质 | accepted |
 | ancestors | p_jFuufzfY72LPXJ1cXZRs83 | 王琳 | accepted |
 | descendants | p_Dh9CnuPaa166GMCnTFvEL4 | 王士骐 | accepted |
@@ -763,6 +687,5 @@ relationships:
 - [中文维基百科：王士騏](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E9%A8%8F)
 - [中文维基百科：王世懋](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E6%87%8B)
 - [中文维基百科：王倬 (成化進士)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%80%AC_(%E6%88%90%E5%8C%96%E9%80%B2%E5%A3%AB))
-- [CBDB 中国历代人物传记资料库：陳氏（252225）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252225&o=json)
 - [CBDB 中国历代人物传记资料库：陳氏（252226）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252226&o=json)
 - [CBDB 中国历代人物传记资料库：王倬（126663）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126663&o=json)
