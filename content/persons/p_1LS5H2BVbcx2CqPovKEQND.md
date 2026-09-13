@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王仁贍（917年—982年），宋人物。中国历代人物传记资料库（CBDB）以人物编号 1831 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王仁贍（917年—982年），宋人物。籍贯方城，入仕軍員轉補，曾任三司使、同知樞密院事、防禦使。（中国历代人物传记资料库 CBDB 1831）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_sTd9D31HdcTsF9PHpkN0Sy
           claim_id: c_ukB3qojGVAKh3t4wZGhZfP
@@ -156,19 +156,7 @@ properties:
           locator: CBDB:1831
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（1-100）｜历史性依据：CBDB 卒年 = 982
-          source:
-            id: s_5kgHHQty7pzBFUF4UdegMv
-            source_type: api_record
-            title: 中国历代人物传记资料库：王仁贍（CBDB 1831）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1831&o=json
-            external_identifier: CBDB:1831
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:16:05.401Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -194,7 +182,19 @@ relationships:
           locator: 宋人傳記資料索引(電子版)，1789：子
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source:
+            id: s_5kgHHQty7pzBFUF4UdegMv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仁贍（CBDB 1831）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1831&o=json
+            external_identifier: CBDB:1831
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:05.401Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
       object_person:
         id: p_yDXgJkK3YLkSAxGCAykuAo
         status: active
@@ -253,7 +253,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王仁贍（917年—982年），宋人物。中国历代人物传记资料库（CBDB）以人物编号 1831 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王仁贍（917年—982年），宋人物。籍贯方城，入仕軍員轉補，曾任三司使、同知樞密院事、防禦使。（中国历代人物传记资料库 CBDB 1831） | accepted |
 | birth.date | 917年 | accepted |
 | death.date | 982年 | accepted |
 | name.primary | 王仁贍 | accepted |

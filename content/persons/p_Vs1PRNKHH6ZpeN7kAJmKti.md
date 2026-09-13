@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王氏（1123年—1173年），汪浩妻。维基数据以独立条目 Q45364774 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王氏（1123年—1173年），宋人物。籍贯金華，入仕封贈。（中国历代人物传记资料库 CBDB 5347）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_fVBg3M75YcrQPoc-lTLLXV
+        - id: cs_tnwUMbAEhFMYcZcg1qfuUw
           claim_id: c_TPMkT5k2UaUPnq7e7KitFv
-          source_id: s_sWCnmYdFgCgATu31i6USy7
+          source_id: s_D9bFN1kDtNLab2fq1CfJ6H
           stance: supports
-          locator: Q45364774
+          locator: CBDB:5347
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_sWCnmYdFgCgATu31i6USy7
+            id: s_D9bFN1kDtNLab2fq1CfJ6H
             source_type: api_record
-            title: 维基数据：王氏（Q45364774）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：王氏（5347）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45364774
-            external_identifier: Q45364774
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:06:10.721Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5347&o=json
+            external_identifier: CBDB:5347
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:10.889Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -153,7 +153,18 @@ properties:
           locator: Q45364774
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_sWCnmYdFgCgATu31i6USy7
+            source_type: api_record
+            title: 维基数据：王氏（Q45364774）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45364774
+            external_identifier: Q45364774
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:10.721Z
+            metadata_json: null
         - id: cs_H6wV2sainYJLNPhEEZWMGw
           claim_id: c_DzGr6nFSMGSt1oon17jqZe
           source_id: s_D9bFN1kDtNLab2fq1CfJ6H
@@ -161,18 +172,7 @@ properties:
           locator: Q45364774
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_D9bFN1kDtNLab2fq1CfJ6H
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王氏（5347）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5347&o=json
-            external_identifier: CBDB:5347
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:06:10.889Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -197,7 +197,7 @@ relationships:
           locator: P22（父）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_uh6v1vHe3adkH488fVvxA8
           claim_id: c_3pAWjvkNTGpFR8Xcsv73BB
           source_id: s_D7NNZLUFKQfdTjRPpLvri2
@@ -281,7 +281,7 @@ relationships:
           locator: P40（子女）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_Y8KdLiXbvKM9dbZXfLh1P3
           claim_id: c_gE5m9BQPGY1MT2hWUZQMT5
           source_id: s_D9bFN1kDtNLab2fq1CfJ6H
@@ -289,7 +289,7 @@ relationships:
           locator: 亲属关系：次子
           quotation: null
           interpretation_note: CBDB 注明此条来源：全宋文
-          source: *a2
+          source: *a1
       object_person:
         id: p_rKbSXrMPsXrsgH3rEyJQWC
         status: active
@@ -334,7 +334,7 @@ relationships:
           locator: P40（子女）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_SPT64iUdXtWL5zkGEpTjLp
           claim_id: c_aBkB8rCgnfn8XVAnDj39n5
           source_id: s_D9bFN1kDtNLab2fq1CfJ6H
@@ -342,7 +342,7 @@ relationships:
           locator: 亲属关系：三子
           quotation: null
           interpretation_note: CBDB 注明此条来源：全宋文
-          source: *a2
+          source: *a1
       object_person:
         id: p_FHzForQjehyXym2DCZNHZb
         status: active
@@ -387,7 +387,7 @@ relationships:
           locator: P40（子女）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_zPDDMFEsFJFxLW8mvCBc8W
           claim_id: c_Azwvf97KVuCxAnSzug19ya
           source_id: s_D9bFN1kDtNLab2fq1CfJ6H
@@ -395,7 +395,7 @@ relationships:
           locator: 亲属关系：四子
           quotation: null
           interpretation_note: CBDB 注明此条来源：全宋文
-          source: *a2
+          source: *a1
       object_person:
         id: p_nX4FXjfZf2fUq1GBCDe676
         status: active
@@ -440,7 +440,7 @@ relationships:
           locator: P40（子女）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_63MFDzAYAJ8qSfvnt26wKC
           claim_id: c_33QsLfNLtcDDpnoLco2wRj
           source_id: s_D9bFN1kDtNLab2fq1CfJ6H
@@ -448,7 +448,7 @@ relationships:
           locator: 亲属关系：五子
           quotation: null
           interpretation_note: CBDB 注明此条来源：全宋文
-          source: *a2
+          source: *a1
       object_person:
         id: p_uS9LkL33E2eRuSRGTz9KbD
         status: active
@@ -496,7 +496,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_GU74n8uFNqSFxG7yM3NVZv
           claim_id: c_AihMf3GuKuNDGcSTrkBbpE
           source_id: s_D9bFN1kDtNLab2fq1CfJ6H
@@ -504,7 +504,7 @@ relationships:
           locator: 亲属关系：丈夫
           quotation: null
           interpretation_note: CBDB 注明此条来源：未知
-          source: *a2
+          source: *a1
       object_person:
         id: p_AoBir6hSMNLuhQPCTPedCQ
         status: active
@@ -523,7 +523,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王氏（1123年—1173年），汪浩妻。维基数据以独立条目 Q45364774 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王氏（1123年—1173年），宋人物。籍贯金華，入仕封贈。（中国历代人物传记资料库 CBDB 5347） | accepted |
 | birth.date | 1123年 | accepted |
 | death.date | 1173年 | accepted |
 | name.primary | 王氏 | accepted |

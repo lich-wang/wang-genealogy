@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王駜，宋人物。中国历代人物传记资料库（CBDB）以人物编号 13962 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王駜，宋人物。籍贯臨川，入仕進士。（中国历代人物传记资料库 CBDB 13962）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_4m_s3hQMP_s6904s_q-3jc
           claim_id: c_K41pzzmF26exJ5eznA3m6B
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:13962
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_VRJU3hXuF9oUcJSDBTLKon
             source_type: api_record
             title: 中国历代人物传记资料库：王駜（CBDB 13962）
@@ -70,19 +70,7 @@ properties:
           locator: CBDB:13962
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（901-1000）｜历史性依据：CBDB 朝代 = 宋
-          source:
-            id: s_VRJU3hXuF9oUcJSDBTLKon
-            source_type: api_record
-            title: 中国历代人物传记资料库：王駜（CBDB 13962）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13962&o=json
-            external_identifier: CBDB:13962
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:16:44.071Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -104,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王駜，宋人物。中国历代人物传记资料库（CBDB）以人物编号 13962 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王駜，宋人物。籍贯臨川，入仕進士。（中国历代人物传记资料库 CBDB 13962） | accepted |
 | name.primary | 王駜 | accepted |
 
 ## 关联关系

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王退思（卒于820年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任丞。中国历代人物传记资料库（CBDB）以人物编号 175525 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王退思（卒于820年），唐人物。籍贯咸陽，曾任丞。（中国历代人物传记资料库 CBDB 175525）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_1zEr5kReKZakGPHmPpLp9D
           claim_id: c_MG2iBeFM391taB2WXTCkny
@@ -265,7 +265,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王退思（卒于820年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任丞。中国历代人物传记资料库（CBDB）以人物编号 175525 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王退思（卒于820年），唐人物。籍贯咸陽，曾任丞。（中国历代人物传记资料库 CBDB 175525） | accepted |
 | death.date | 820年 | accepted |
 | name.primary | 王退思 | accepted |
 

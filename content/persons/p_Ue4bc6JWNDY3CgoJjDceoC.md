@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王丕，宋人物。CBDB 记录其籍贯记录为鉅野，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 26228 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王丕，宋人物。籍贯鉅野，入仕進士。（中国历代人物传记资料库 CBDB 26228）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_keQ8BayeD6UFxB5GnP4aRE
           claim_id: c_i9tesbodRKdZjTEujDH7Cg
@@ -317,7 +317,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王丕，宋人物。CBDB 记录其籍贯记录为鉅野，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 26228 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王丕，宋人物。籍贯鉅野，入仕進士。（中国历代人物传记资料库 CBDB 26228） | accepted |
 | name.primary | 王丕 | accepted |
 
 ## 关联关系

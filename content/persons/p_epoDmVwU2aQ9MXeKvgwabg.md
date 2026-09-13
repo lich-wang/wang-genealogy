@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王罕（卒于820年），唐人物。CBDB 记录其籍贯记录为咸陽。中国历代人物传记资料库（CBDB）以人物编号 175622 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王罕（卒于820年），唐人物。籍贯咸陽。（中国历代人物传记资料库 CBDB 175622）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_B1EkzTcq9dAfRJ9kHw4yAd
           claim_id: c_nthnjo4uHTN4d7UAUrSTEe
@@ -453,7 +453,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王罕（卒于820年），唐人物。CBDB 记录其籍贯记录为咸陽。中国历代人物传记资料库（CBDB）以人物编号 175622 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王罕（卒于820年），唐人物。籍贯咸陽。（中国历代人物传记资料库 CBDB 175622） | accepted |
 | death.date | 820年 | accepted |
 | name.primary | 王罕 | accepted |
 

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王铎，宋人物。CBDB 记录其籍贯记录为臨海，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 3984 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王铎，宋人物。籍贯臨海，入仕進士。（中国历代人物传记资料库 CBDB 3984）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_7gk9Dk6R4mFGjhAKM4oSbK
           claim_id: c_S1sERDFHtMLcveMBvqfWJi
@@ -230,7 +230,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王铎，宋人物。CBDB 记录其籍贯记录为臨海，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 3984 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王铎，宋人物。籍贯臨海，入仕進士。（中国历代人物传记资料库 CBDB 3984） | accepted |
 | name.primary | 王铎 | accepted |
 
 ## 关联关系

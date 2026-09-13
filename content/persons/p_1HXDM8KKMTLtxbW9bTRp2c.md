@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王瑞珎，明人物。中国历代人物传记资料库（CBDB）以人物编号 325294 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王瑞珎，明人物。嘉靖三十八年進士。（中国历代人物传记资料库 CBDB 325294）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_FfxtCFTFdPgwXFtElWxYSl
           claim_id: c_4dFjGiySF18n5NfoeuHz94
@@ -70,19 +70,7 @@ properties:
           locator: CBDB:325294
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（3801-3900）｜历史性依据：CBDB 朝代 = 明
-          source:
-            id: s_DgiF7AhuQdKAwC6RSnWK49
-            source_type: api_record
-            title: 中国历代人物传记资料库：王瑞珎（CBDB 325294）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325294&o=json
-            external_identifier: CBDB:325294
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:17:06.922Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -113,7 +101,19 @@ relationships:
           locator: 嘉靖三十八年進士登科錄:一卷，第三甲第一百三十五名：孫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source:
+            id: s_DgiF7AhuQdKAwC6RSnWK49
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑞珎（CBDB 325294）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325294&o=json
+            external_identifier: CBDB:325294
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:06.922Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
       object_person:
         id: p_N1zXfVAzsHV9UYAEDLb5C7
         status: active
@@ -130,7 +130,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王瑞珎，明人物。中国历代人物传记资料库（CBDB）以人物编号 325294 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王瑞珎，明人物。嘉靖三十八年進士。（中国历代人物传记资料库 CBDB 325294） | accepted |
 | name.primary | 王瑞珎 | accepted |
 
 ## 关联关系

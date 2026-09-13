@@ -17,30 +17,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王世選（卒于1661年），降清的明朝官員。维基数据以独立条目 Q138859293 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王世選（?—1661年)，明末清初將領，陝西榆林人。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
-        - id: cs_imC4Nq4n52pSFnGbgJNGKe
+        - id: cs_V_SkLLSzM8pkG8OCKX3FmB
           claim_id: c_8hxXA6FvVLRBkoARt8NoyL
-          source_id: s_c7D5KQtYrg5sC5ZY7miyK9
+          source_id: s_FSOKnxlOshyMBihmpYT2wd
           stance: supports
-          locator: Q138859293
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          locator: 导言
+          quotation: 王世選（?—1661年)，明末清初將領，陝西榆林人。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
           source:
-            id: s_c7D5KQtYrg5sC5ZY7miyK9
-            source_type: api_record
-            title: 维基数据：王世選（Q138859293）
-            creator: 维基数据贡献者
+            id: s_FSOKnxlOshyMBihmpYT2wd
+            source_type: website
+            title: 中文维基百科：王世選
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q138859293
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E9%81%B8
             external_identifier: Q138859293
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:46:17.387Z
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -143,7 +143,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王世選（卒于1661年），降清的明朝官員。维基数据以独立条目 Q138859293 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王世選（?—1661年)，明末清初將領，陝西榆林人。 | accepted |
 | death.date | 1661年 | accepted |
 | name.primary | 王世選 | accepted |
 
@@ -155,3 +155,4 @@ relationships:
 ## 外部来源
 
 - [维基数据：王世選（Q138859293）](https://www.wikidata.org/wiki/Q138859293)
+- [中文维基百科：王世選](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E9%81%B8)

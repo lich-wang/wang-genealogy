@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王婁，明人物。中国历代人物传记资料库（CBDB）以人物编号 261845 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王婁，明人物。弘治三年進士，籍贯安福。（中国历代人物传记资料库 CBDB 261845）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_QYxBzlCsT40lXuoQ4qhfNv
           claim_id: c_ExPh8PUWjwnyPqYXUh5DQ1
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:261845
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_QnrWbNE8QHQcQQBtforKf5
             source_type: api_record
             title: 中国历代人物传记资料库：王婁（CBDB 261845）
@@ -70,19 +70,7 @@ properties:
           locator: CBDB:261845
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（3101-3200）｜历史性依据：CBDB 朝代 = 明
-          source:
-            id: s_QnrWbNE8QHQcQQBtforKf5
-            source_type: api_record
-            title: 中国历代人物传记资料库：王婁（CBDB 261845）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261845&o=json
-            external_identifier: CBDB:261845
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:17:01.428Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -104,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王婁，明人物。中国历代人物传记资料库（CBDB）以人物编号 261845 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王婁，明人物。弘治三年進士，籍贯安福。（中国历代人物传记资料库 CBDB 261845） | accepted |
 | name.primary | 王婁 | accepted |
 
 ## 关联关系

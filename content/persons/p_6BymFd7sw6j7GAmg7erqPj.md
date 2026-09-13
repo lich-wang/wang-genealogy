@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王智兴（758年—836年），唐人物。CBDB 记录其籍贯记录为懷州，身份包括詩人，曾任節度副使、節度使。中国历代人物传记资料库（CBDB）以人物编号 92090 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王智兴（758年—836年），唐人物。籍贯懷州，身份为詩人，曾任節度副使、節度使、州刺史。（中国历代人物传记资料库 CBDB 92090）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_aHtowQ1aacJr7Qgq9Rmp6q
           claim_id: c_RuDUH7ThxKN8HNysDsYXjB
@@ -699,7 +699,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王智兴（758年—836年），唐人物。CBDB 记录其籍贯记录为懷州，身份包括詩人，曾任節度副使、節度使。中国历代人物传记资料库（CBDB）以人物编号 92090 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王智兴（758年—836年），唐人物。籍贯懷州，身份为詩人，曾任節度副使、節度使、州刺史。（中国历代人物传记资料库 CBDB 92090） | accepted |
 | birth.date | 758年 | accepted |
 | death.date | 836年 | accepted |
 | name.primary | 王智兴 | accepted |

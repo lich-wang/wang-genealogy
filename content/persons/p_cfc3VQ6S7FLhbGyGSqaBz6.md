@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王罕，東晉人物。CBDB 记录其籍贯记录为江寧，身份包括士人。中国历代人物传记资料库（CBDB）以人物编号 30875 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王罕，東晉人物。籍贯江寧，身份为士人。（中国历代人物传记资料库 CBDB 30875）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_if8nhv97X12usD2hw1dH3b
           claim_id: c_bFfLzdX5cKRMaaCERtqN4V
@@ -317,7 +317,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王罕，東晉人物。CBDB 记录其籍贯记录为江寧，身份包括士人。中国历代人物传记资料库（CBDB）以人物编号 30875 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王罕，東晉人物。籍贯江寧，身份为士人。（中国历代人物传记资料库 CBDB 30875） | accepted |
 | name.primary | 王罕 | accepted |
 
 ## 关联关系

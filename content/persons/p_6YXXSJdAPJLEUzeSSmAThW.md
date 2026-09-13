@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 盖氏，王恕妻。维基数据以独立条目 Q65843577 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 盖氏，明人物。正統十三年進士。（中国历代人物传记资料库 CBDB 240861）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_8Li_l7WHm2U3IYkRFwXrJj
+        - id: cs_V-6F1fFIos9LdWSlAVqMjj
           claim_id: c_AXgdmthU35F_AZYzo-5TaB
-          source_id: s_k7SorsMfMYAC4VuGiSYZNF
+          source_id: s_3h3nFT4G4FpBiqDaquKS13
           stance: supports
-          locator: Q65843577
+          locator: CBDB:240861
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_k7SorsMfMYAC4VuGiSYZNF
+            id: s_3h3nFT4G4FpBiqDaquKS13
             source_type: api_record
-            title: 维基数据：盖氏（Q65843577）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：蓋氏（240861）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65843577
-            external_identifier: Q65843577
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:59:37.417Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240861&o=json
+            external_identifier: CBDB:240861
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:37.604Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,7 +69,18 @@ properties:
           locator: Q65843577
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_k7SorsMfMYAC4VuGiSYZNF
+            source_type: api_record
+            title: 维基数据：盖氏（Q65843577）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65843577
+            external_identifier: Q65843577
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:37.417Z
+            metadata_json: null
         - id: cs_NTuXJ2Yz6nh6Q5rQrwLpCH
           claim_id: c_rsQ6Czce6kLypXSuNf39pF
           source_id: s_3h3nFT4G4FpBiqDaquKS13
@@ -77,18 +88,7 @@ properties:
           locator: Q65843577
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_3h3nFT4G4FpBiqDaquKS13
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：蓋氏（240861）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240861&o=json
-            external_identifier: CBDB:240861
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T01:59:37.604Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -192,7 +192,7 @@ relationships:
           locator: 正統十三年進士登科錄:一卷，第三甲第二十六名：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_T2DCj9d6XKU4djHJMs2kSM
         status: active
@@ -211,7 +211,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 盖氏，王恕妻。维基数据以独立条目 Q65843577 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 盖氏，明人物。正統十三年進士。（中国历代人物传记资料库 CBDB 240861） | accepted |
 | name.primary | 盖氏 | accepted |
 
 ## 关联关系

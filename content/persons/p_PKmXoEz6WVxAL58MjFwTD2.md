@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王景信，明人物。中国历代人物传记资料库（CBDB）以人物编号 257072 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王景信，史料所见人物。本项目依据《中国历代人物传记资料库：王景信（CBDB 257072）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_6KSTqCs-k3SPGn6oBebl4V
           claim_id: c_SphWMhZxTbEW5eby2qAeNq
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:257072
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: &a1
             id: s_irHFsBsd3Vj6JT14getcVT
             source_type: api_record
@@ -70,19 +70,7 @@ properties:
           locator: CBDB:257072
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（3001-3100）｜历史性依据：CBDB 朝代 = 明
-          source:
-            id: s_irHFsBsd3Vj6JT14getcVT
-            source_type: api_record
-            title: 中国历代人物传记资料库：王景信（CBDB 257072）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257072&o=json
-            external_identifier: CBDB:257072
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:17:00.581Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -113,7 +101,19 @@ relationships:
           locator: 成化十七年進士登科錄:一卷，第三甲第一百五十七名：孫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: &a2
+            id: s_irHFsBsd3Vj6JT14getcVT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王景信（CBDB 257072）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257072&o=json
+            external_identifier: CBDB:257072
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:00.581Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
       object_person:
         id: p_FebULYZ1Mok5osGeZL97Vp
         status: active
@@ -139,7 +139,7 @@ relationships:
           locator: 正德十二年進士登科錄:一卷，第三甲第四十七名：孫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_vDzf6isJ8G9fr8y7scc2fq
         status: active
@@ -156,7 +156,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王景信，明人物。中国历代人物传记资料库（CBDB）以人物编号 257072 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王景信，史料所见人物。本项目依据《中国历代人物传记资料库：王景信（CBDB 257072）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 王景信 | accepted |
 
 ## 关联关系

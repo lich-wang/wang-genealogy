@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王弘訓，南北朝人物。CBDB 记录其籍贯记录为河南。中国历代人物传记资料库（CBDB）以人物编号 152941 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王弘訓，南北朝人物。籍贯臨沂。（中国历代人物传记资料库 CBDB 152941）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_Qz4fOprIO4yBCcogFQiF3N
           claim_id: c_eH61k13pf6fxn56yU4FqqD
@@ -70,19 +70,7 @@ properties:
           locator: CBDB:152941
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（2101-2200）｜历史性依据：CBDB 朝代 = 南北朝
-          source:
-            id: s_r7EDbM1bneMsxyVzj8CZd6
-            source_type: api_record
-            title: 中国历代人物传记资料库：王弘訓（CBDB 152941）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152941&o=json
-            external_identifier: CBDB:152941
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:16:53.368Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -108,7 +96,19 @@ relationships:
           locator: 亲属关系：子
           quotation: null
           interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
-          source: *a1
+          source: &a2
+            id: s_r7EDbM1bneMsxyVzj8CZd6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王弘訓（CBDB 152941）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=152941&o=json
+            external_identifier: CBDB:152941
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:53.368Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
       object_person:
         id: p_4EU5hab5MGo71FXwq1jBL2
         status: active
@@ -171,7 +171,7 @@ relationships:
           locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：子
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_4EU5hab5MGo71FXwq1jBL2
         status: active
@@ -231,7 +231,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王弘訓，南北朝人物。CBDB 记录其籍贯记录为河南。中国历代人物传记资料库（CBDB）以人物编号 152941 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王弘訓，南北朝人物。籍贯臨沂。（中国历代人物传记资料库 CBDB 152941） | accepted |
 | name.primary | 王弘訓 | accepted |
 
 ## 关联关系

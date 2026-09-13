@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王承宗（8世纪—820年），唐人物。CBDB 记录其籍贯记录为岐州，曾任節度使。中国历代人物传记资料库（CBDB）以人物编号 169026 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王承宗（780年代—820年），契丹人。成德節度使王士真之子，官副太使。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_wRPAGexEaEJMsh8MMLZ9WG
           claim_id: c_jbFmAkVB9aaSHMjRTFFsQi
@@ -31,7 +31,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source: &a2
+          source: &a1
             id: s_B3DgWR2fHr7eJGLbWkQ9BD
             source_type: api_record
             title: 维基数据：王承宗（Q7967386）
@@ -44,24 +44,24 @@ properties:
             accessed_at: 2026-09-05T02:06:22.442Z
             metadata_json:
               zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%89%BF%E5%AE%97
-        - id: cs_uP16kxH-V4xmA1trVU-IZg
+        - id: cs_eaw_gpnOsE6XwUwMA1OkUb
           claim_id: c_jbFmAkVB9aaSHMjRTFFsQi
-          source_id: s_k7j5o648JbsKc9SZWnKL5x
+          source_id: s_yJu1_In6XfZ5OWoC0QEqpK
           stance: supports
-          locator: CBDB:169026
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_k7j5o648JbsKc9SZWnKL5x
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王承宗（169026）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
+          locator: 导言
+          quotation: 王承宗（780年代—820年），契丹人。成德節度使王士真之子，官
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_yJu1_In6XfZ5OWoC0QEqpK
+            source_type: website
+            title: 中文维基百科：王承宗
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169026&o=json
-            external_identifier: CBDB:169026
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:06:22.583Z
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%89%BF%E5%AE%97
+            external_identifier: Q7967386
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -175,7 +175,18 @@ properties:
           locator: Q7967386
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_k7j5o648JbsKc9SZWnKL5x
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王承宗（169026）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169026&o=json
+            external_identifier: CBDB:169026
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:22.583Z
+            metadata_json: null
         - id: cs_pGaz5Z4oE6nA8rKrbBpvXQ
           claim_id: c_5X2qpAAAFoJeexHAseNeyQ
           source_id: s_B3DgWR2fHr7eJGLbWkQ9BD
@@ -240,7 +251,7 @@ relationships:
           locator: P22（父）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source: *a1
         - id: cs_CiiHhSviMfGTegiGDYZUHt
           claim_id: c_1JCvEcJ64YEpo8fS1eDfT3
           source_id: s_8JcMUxTCwkNV6cEXnmYv9n
@@ -286,7 +297,7 @@ relationships:
           locator: P40（子女）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source: *a1
         - id: cs_N1MpY4bpCh2Ji6CWmvvYj2
           claim_id: c_5JLQhUEM6qMCYkvVNbGNtG
           source_id: s_MnF4hbFMrVzvCRMB1pDcN8
@@ -313,7 +324,7 @@ relationships:
           locator: 亲属关系：女兒
           quotation: null
           interpretation_note: CBDB 注明此条来源：唐代墓誌彙編續集
-          source: *a1
+          source: *a2
       object_person:
         id: p_eFSd3jJHrd28uRai1VP2x5
         status: active
@@ -339,7 +350,7 @@ relationships:
           locator: P40（子女）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source: *a1
         - id: cs_chePAEKzkCzAKA1CkTU8NT
           claim_id: c_fDnCe8WaXiCPDDwV8maaaB
           source_id: s_U3WXgTHC7bwj1AAavjP1i3
@@ -384,7 +395,7 @@ relationships:
           locator: P40（子女）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source: *a1
         - id: cs_7ZwnL88UT5ku8cszxjL1L3
           claim_id: c_DKSBzHFbGxzbbj3GeiXW3R
           source_id: s_HAvTrBp2cJjn4dVC7SJMJ2
@@ -411,7 +422,7 @@ relationships:
           locator: 亲属关系：子
           quotation: null
           interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
-          source: *a1
+          source: *a2
       object_person:
         id: p_PdXHh7pDrGLEbKLAE4sy9G
         status: active
@@ -437,7 +448,7 @@ relationships:
           locator: P40（子女）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source: *a1
         - id: cs_jDmtBHdKnge92jAfqzoN9Z
           claim_id: c_fMmQqwpamhTM9jWWqcCV9q
           source_id: s_qqSg5FqCABAxomqyLLqBiz
@@ -464,7 +475,7 @@ relationships:
           locator: 亲属关系：子
           quotation: null
           interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
-          source: *a1
+          source: *a2
       object_person:
         id: p_uiopQQNfoS7m2dtHM9yXTB
         status: active
@@ -486,7 +497,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王承宗（8世纪—820年），唐人物。CBDB 记录其籍贯记录为岐州，曾任節度使。中国历代人物传记资料库（CBDB）以人物编号 169026 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王承宗（780年代—820年），契丹人。成德節度使王士真之子，官副太使。 | accepted |
 | birth.date | 8世纪 | accepted |
 | death.date | 820年 | accepted |
 | name.primary | 王承宗 | accepted |
@@ -509,5 +520,6 @@ relationships:
 - [维基数据：王氏（Q65803894）](https://www.wikidata.org/wiki/Q65803894)
 - [维基数据：王知感（Q45636169）](https://www.wikidata.org/wiki/Q45636169)
 - [维基数据：王知信（Q45636232）](https://www.wikidata.org/wiki/Q45636232)
+- [中文维基百科：王承宗](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%89%BF%E5%AE%97)
 - [CBDB 中国历代人物传记资料库：王承宗（169026）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169026&o=json)
 - [CBDB 中国历代人物传记资料库：王士真（169076）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=169076&o=json)

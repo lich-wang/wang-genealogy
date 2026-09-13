@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王朝用，宋人物。CBDB 记录其籍贯记录为安福。中国历代人物传记资料库（CBDB）以人物编号 35272 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王朝用，宋人物。籍贯安福。（中国历代人物传记资料库 CBDB 35272）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_EZz5qgpuRxs8j4G6VhQ1Ha
           claim_id: c_BvnBdihZMbGzBeU87QTi4y
@@ -227,7 +227,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王朝用，宋人物。CBDB 记录其籍贯记录为安福。中国历代人物传记资料库（CBDB）以人物编号 35272 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王朝用，宋人物。籍贯安福。（中国历代人物传记资料库 CBDB 35272） | accepted |
 | name.primary | 王朝用 | accepted |
 
 ## 关联关系

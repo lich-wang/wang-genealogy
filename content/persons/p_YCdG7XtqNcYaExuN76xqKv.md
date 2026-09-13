@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王瑶，明人物。CBDB 记录其籍贯记录为蒲州。中国历代人物传记资料库（CBDB）以人物编号 302968 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王瑶，明人物。嘉靖二十年進士，籍贯蒲州。（中国历代人物传记资料库 CBDB 302968）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_sd1QvtA3hRvJPB9qanaJF4
           claim_id: c_3VJPMWm6BHRXzpGAAk5TGx
@@ -267,7 +267,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王瑶，明人物。CBDB 记录其籍贯记录为蒲州。中国历代人物传记资料库（CBDB）以人物编号 302968 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王瑶，明人物。嘉靖二十年進士，籍贯蒲州。（中国历代人物传记资料库 CBDB 302968） | accepted |
 | name.primary | 王瑶 | accepted |
 
 ## 关联关系

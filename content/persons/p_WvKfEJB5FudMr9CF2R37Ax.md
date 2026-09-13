@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王尔达（1693年—1768年），清人物。CBDB 记录其籍贯记录为嘉定，身份包括士人，入仕记录为學校: 生員(庠生)。中国历代人物传记资料库（CBDB）以人物编号 29897 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: "王尔达（1693年—1768年），清人物。籍贯嘉定，身份为士人，入仕學校: 生員(庠生)。（中国历代人物传记资料库 CBDB 29897）"
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_2SMLnwgNq9YdJfQ6MnnFP8
           claim_id: c_WvoqDvE5FiGcwqgtF3VRnH
@@ -359,7 +359,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王尔达（1693年—1768年），清人物。CBDB 记录其籍贯记录为嘉定，身份包括士人，入仕记录为學校: 生員(庠生)。中国历代人物传记资料库（CBDB）以人物编号 29897 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王尔达（1693年—1768年），清人物。籍贯嘉定，身份为士人，入仕學校: 生員(庠生)。（中国历代人物传记资料库 CBDB 29897） | accepted |
 | birth.date | 1693年 | accepted |
 | death.date | 1768年 | accepted |
 | name.primary | 王尔达 | accepted |

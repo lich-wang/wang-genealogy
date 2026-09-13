@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王渶（卒于783年），唐人物。CBDB 记录其籍贯记录为咸陽。中国历代人物传记资料库（CBDB）以人物编号 175531 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王渶（卒于783年），唐人物。籍贯咸陽。（中国历代人物传记资料库 CBDB 175531）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_Bio6f9DvDQcVwtes5E4tMW
           claim_id: c_1CJdnDiCC8sqM6GwK3FDao
@@ -547,7 +547,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王渶（卒于783年），唐人物。CBDB 记录其籍贯记录为咸陽。中国历代人物传记资料库（CBDB）以人物编号 175531 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王渶（卒于783年），唐人物。籍贯咸陽。（中国历代人物传记资料库 CBDB 175531） | accepted |
 | death.date | 783年 | accepted |
 | name.primary | 王渶 | accepted |
 

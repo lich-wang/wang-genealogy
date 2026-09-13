@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 于氏，王之垣妻。维基数据以独立条目 Q65855527 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 于氏，明人物。嘉靖四十一年進士。（中国历代人物传记资料库 CBDB 328692）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_wsLY6NMe45hFUcmNmKJN9Z
+        - id: cs_7Y6-E5govdyj0kzIVSOtw2
           claim_id: c_gMZrtzqWkOSiQHZCYuUR2n
-          source_id: s_Vn2PFdnx6m2x53sH6UbEG3
+          source_id: s_6ymMX8xcNFyLEUsMd9uNjX
           stance: supports
-          locator: Q65855527
+          locator: CBDB:328692
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_Vn2PFdnx6m2x53sH6UbEG3
+            id: s_6ymMX8xcNFyLEUsMd9uNjX
             source_type: api_record
-            title: 维基数据：于氏（Q65855527）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：于氏（328692）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65855527
-            external_identifier: Q65855527
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:00:04.556Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328692&o=json
+            external_identifier: CBDB:328692
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:04.717Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,7 +69,18 @@ properties:
           locator: Q65855527
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_Vn2PFdnx6m2x53sH6UbEG3
+            source_type: api_record
+            title: 维基数据：于氏（Q65855527）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65855527
+            external_identifier: Q65855527
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:04.556Z
+            metadata_json: null
         - id: cs_WLqC7hQF33gah6dSAVDgny
           claim_id: c_tLpyBx11fSVGSGDkEdWJww
           source_id: s_6ymMX8xcNFyLEUsMd9uNjX
@@ -77,18 +88,7 @@ properties:
           locator: Q65855527
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_6ymMX8xcNFyLEUsMd9uNjX
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：于氏（328692）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328692&o=json
-            external_identifier: CBDB:328692
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:00:04.717Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -192,7 +192,7 @@ relationships:
           locator: 嘉靖四十一年進士登科錄:一卷，第三甲第一百四十五名：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_esnkJduB5GpM6eiD8Nh16h
         status: active
@@ -211,7 +211,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 于氏，王之垣妻。维基数据以独立条目 Q65855527 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 于氏，明人物。嘉靖四十一年進士。（中国历代人物传记资料库 CBDB 328692） | accepted |
 | name.primary | 于氏 | accepted |
 
 ## 关联关系

@@ -18,20 +18,20 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王晏斌（卒于854年），唐人物。中国历代人物传记资料库（CBDB）以人物编号 184947 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王晏斌（卒于854年），史料所见人物。本项目依据《王晏斌》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_BeEhqns1Bftdm2rAJcsNDS
+        - id: cs_ZHyfwCiwFbPwjQVuSpp7NM
           claim_id: c_qGAobSZuiykTJrqXfwEHyq
           source_id: s_NbnvMKFf1XpDayAMaJZZwv
           stance: supports
-          locator: null
+          locator: Q45603793
           quotation: null
-          interpretation_note: null
-          source: &a2
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_NbnvMKFf1XpDayAMaJZZwv
             source_type: api_record
             title: 维基数据：王晏斌（Q45603793）
@@ -42,25 +42,6 @@ properties:
             external_identifier: Q45603793
             license_code: CC0-1.0
             accessed_at: 2026-09-05T02:06:42.360Z
-            metadata_json: null
-        - id: cs_Vzn0Pl8kCn59U4HuF_OcPK
-          claim_id: c_qGAobSZuiykTJrqXfwEHyq
-          source_id: s_RR2hojuNLEJtH66Nm4RzL4
-          stance: supports
-          locator: CBDB:184947
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_RR2hojuNLEJtH66Nm4RzL4
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王晏斌（184947）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184947&o=json
-            external_identifier: CBDB:184947
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:06:42.531Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -130,7 +111,18 @@ properties:
           locator: Q45603793
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_RR2hojuNLEJtH66Nm4RzL4
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王晏斌（184947）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184947&o=json
+            external_identifier: CBDB:184947
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:42.531Z
+            metadata_json: null
         - id: cs_VNyeEVJkGGVHboFnq1nUCd
           claim_id: c_QzQ4XaGA2UrkF69vKCh1fE
           source_id: s_NbnvMKFf1XpDayAMaJZZwv
@@ -138,18 +130,7 @@ properties:
           locator: Q45603793
           quotation: null
           interpretation_note: null
-          source:
-            id: s_NbnvMKFf1XpDayAMaJZZwv
-            source_type: api_record
-            title: 维基数据：王晏斌（Q45603793）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45603793
-            external_identifier: Q45603793
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:06:42.360Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -194,7 +175,18 @@ relationships:
           locator: P22（父）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source:
+            id: s_NbnvMKFf1XpDayAMaJZZwv
+            source_type: api_record
+            title: 维基数据：王晏斌（Q45603793）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45603793
+            external_identifier: Q45603793
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:42.360Z
+            metadata_json: null
       object_person:
         id: p_6BymFd7sw6j7GAmg7erqPj
         status: active
@@ -220,7 +212,7 @@ relationships:
           locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_1HLRDPP5GEjvYAj6jfrJ31
         status: merged
@@ -243,7 +235,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王晏斌（卒于854年），唐人物。中国历代人物传记资料库（CBDB）以人物编号 184947 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王晏斌（卒于854年），史料所见人物。本项目依据《王晏斌》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | death.date | 854年 | accepted |
 | name.primary | 王晏斌 | accepted |
 

@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 吴氏，王鴻儒妻。维基数据以独立条目 Q65863384 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 吴氏，明人物。成化二十三年進士。（中国历代人物传记资料库 CBDB 257537）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_pzY_jk2WdRuuP75KQaxNi6
+        - id: cs_xbzzm7CCEPzsifwWdH4zAT
           claim_id: c_G-NFzHHzHdXShH5bp_ZVai
-          source_id: s_bjFw9T2cPPGvXnE3wAqLf9
+          source_id: s_fqUNTVGzHys351QW9qwD5C
           stance: supports
-          locator: Q65863384
+          locator: CBDB:257537
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_bjFw9T2cPPGvXnE3wAqLf9
+            id: s_fqUNTVGzHys351QW9qwD5C
             source_type: api_record
-            title: 维基数据：吴氏（Q65863384）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：吳氏（257537）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65863384
-            external_identifier: Q65863384
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:00:05.625Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257537&o=json
+            external_identifier: CBDB:257537
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:05.942Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,18 +69,7 @@ properties:
           locator: Q65863384
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_fqUNTVGzHys351QW9qwD5C
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：吳氏（257537）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257537&o=json
-            external_identifier: CBDB:257537
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:00:05.942Z
-            metadata_json: null
+          source: *a1
         - id: cs_k5Ko4X5V4bjGT5Koj67ad7
           claim_id: c_8UM8NxpHHPaz6vpXSEvexP
           source_id: s_bjFw9T2cPPGvXnE3wAqLf9
@@ -88,7 +77,18 @@ properties:
           locator: Q65863384
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_bjFw9T2cPPGvXnE3wAqLf9
+            source_type: api_record
+            title: 维基数据：吴氏（Q65863384）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65863384
+            external_identifier: Q65863384
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:05.625Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -229,7 +229,7 @@ relationships:
           locator: 成化二十三年進士登科錄:一卷，第二甲第八名：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_bwdhzsnM77a9YN3tYyTmwB
         status: active
@@ -248,7 +248,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 吴氏，王鴻儒妻。维基数据以独立条目 Q65863384 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 吴氏，明人物。成化二十三年進士。（中国历代人物传记资料库 CBDB 257537） | accepted |
 | name.primary | 吴氏 | accepted |
 
 ## 关联关系

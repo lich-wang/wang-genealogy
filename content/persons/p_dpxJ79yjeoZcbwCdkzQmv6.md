@@ -18,32 +18,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王珪（571年—639年），隋末唐初政治人物。维基数据以独立条目 Q1562454 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王珪（571年—639年），字叔玠，出于乌丸王氏。王僧辩孙、王顗子，唐朝宰相。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_XmaGHrh7Z6XA4yXzKfB9Ko
+        - id: cs_D37GMaVGdiypM7LW0Zz7KF
           claim_id: c_Xu9eAQ62LxUGJirBcwC88g
-          source_id: s_pb1L8DCLiqYrJ4pXTXG8ce
+          source_id: s_iaW2fvKjSmbn5VSfkIiep7
           stance: supports
-          locator: Q1562454
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
-          source: &a1
-            id: s_pb1L8DCLiqYrJ4pXTXG8ce
-            source_type: api_record
-            title: 维基数据：王珪（Q1562454）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王珪（571年—639年），字叔玠，出于乌丸王氏。王僧辩孙、王顗
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_iaW2fvKjSmbn5VSfkIiep7
+            source_type: website
+            title: 中文维基百科：王珪 (唐朝)
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q1562454
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%8F%AA_(%E5%94%90%E6%9C%9D)
             external_identifier: Q1562454
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:58:53.404Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%8F%AA_(%E5%94%90%E6%9C%9D)
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -156,7 +155,19 @@ properties:
           locator: Q1562454
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_pb1L8DCLiqYrJ4pXTXG8ce
+            source_type: api_record
+            title: 维基数据：王珪（Q1562454）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q1562454
+            external_identifier: Q1562454
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:58:53.404Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%8F%AA_(%E5%94%90%E6%9C%9D)
         - id: cs_pTmLowmQdyUVYa98bykwNr
           claim_id: c_9XAYCJe9fPhFjK1z4PUef3
           source_id: s_oDcKaN4z8r7MvCks95jRoK
@@ -200,7 +211,7 @@ relationships:
           locator: P22（父）
           quotation: null
           interpretation_note: null
-          source: &a2
+          source: &a1
             id: s_pb1L8DCLiqYrJ4pXTXG8ce
             source_type: api_record
             title: 维基数据：王珪（Q1562454）
@@ -447,7 +458,7 @@ relationships:
           locator: P40（子女）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source: *a1
         - id: cs_MkyFEAj7DPhrXFQJiGF54g
           claim_id: c_zvH7gzuJVabq3n5A8JhkpD
           source_id: s_oDcKaN4z8r7MvCks95jRoK
@@ -488,7 +499,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王珪（571年—639年），隋末唐初政治人物。维基数据以独立条目 Q1562454 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王珪（571年—639年），字叔玠，出于乌丸王氏。王僧辩孙、王顗子，唐朝宰相。 | accepted |
 | birth.date | 571年 | accepted |
 | death.date | 639年 | accepted |
 | name.primary | 王珪 | accepted |
@@ -510,6 +521,7 @@ relationships:
 - [维基数据：王敬直（Q10414698）](https://www.wikidata.org/wiki/Q10414698)
 - [维基数据：王氏（Q65874579）](https://www.wikidata.org/wiki/Q65874579)
 - [维基数据：王𫖮（Q28413506）](https://www.wikidata.org/wiki/Q28413506)
+- [中文维基百科：王珪 (唐朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%8F%AA_(%E5%94%90%E6%9C%9D))
 - [CBDB 中国历代人物传记资料库：李氏（135652）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135652&o=json)
 - [CBDB 中国历代人物传记资料库：王珪（33013）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33013&o=json)
 - [CBDB 中国历代人物传记资料库：王顗（33012）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33012&o=json)

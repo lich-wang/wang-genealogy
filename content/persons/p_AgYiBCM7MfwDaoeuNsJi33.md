@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王惟寅（1194年—1255年），宋人物。中国历代人物传记资料库（CBDB）以人物编号 25801 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王惟寅（1194年—1255年），史料所见人物。本项目依据《中国历代人物传记资料库：王惟寅（CBDB 25801）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_a1hZG00ODScBCf8RD7TSYR
           claim_id: c_tfFqGU7J1ri8MAuKexXk21
@@ -30,8 +30,8 @@ properties:
           stance: supports
           locator: CBDB:25801
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_nnWHjL1gZBt4aC7M6aKnfS
             source_type: api_record
             title: 中国历代人物传记资料库：王惟寅（CBDB 25801）
@@ -156,19 +156,7 @@ properties:
           locator: CBDB:25801
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（1-100）｜历史性依据：CBDB 卒年 = 1255
-          source:
-            id: s_nnWHjL1gZBt4aC7M6aKnfS
-            source_type: api_record
-            title: 中国历代人物传记资料库：王惟寅（CBDB 25801）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25801&o=json
-            external_identifier: CBDB:25801
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:16:05.401Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -227,7 +215,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王惟寅（1194年—1255年），宋人物。中国历代人物传记资料库（CBDB）以人物编号 25801 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王惟寅（1194年—1255年），史料所见人物。本项目依据《中国历代人物传记资料库：王惟寅（CBDB 25801）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | birth.date | 1194年 | accepted |
 | death.date | 1255年 | accepted |
 | name.primary | 王惟寅 | accepted |

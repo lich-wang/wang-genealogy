@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王菱（卒于724年），中国古代历史人物。维基数据以独立条目 Q5374612 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王菱（卒于724年），中国古代历史人物。维基数据以独立条目 Q5374612 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_UkA0fOWyRfWAUWTKrU4afY
           claim_id: c_9gEeoHS9ET8YCnK1xLmMms
@@ -287,7 +287,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王菱（卒于724年），中国古代历史人物。维基数据以独立条目 Q5374612 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王菱（卒于724年），中国古代历史人物。维基数据以独立条目 Q5374612 收录该人物。 | accepted |
 | death.date | 724年 | accepted |
 | name.alias | 王皇后 | accepted |
 | name.primary | 王菱 | accepted |

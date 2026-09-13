@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王宗性（生于1518年），明人物。CBDB 记录其籍贯记录为沂州，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 203595 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
-          language: zh-Hans
+          text: 王宗性（1516年—？），字繼善，山東兗州府沂州人，軍籍，明朝政治人物。
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_ajoJYZ9DXdBXu2sx8T11x6
           claim_id: c_LC8UGxNzyhbAKpxou2FufD
@@ -31,7 +31,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source: &a2
+          source: &a1
             id: s_fhNQgV3E9dkVpKA3u7TQhA
             source_type: api_record
             title: 维基数据：王宗性（Q45458696）
@@ -44,24 +44,24 @@ properties:
             accessed_at: 2026-09-05T02:06:54.113Z
             metadata_json:
               zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%97%E6%80%A7
-        - id: cs_s1kLX4nQDMJc365PeJg1Il
+        - id: cs_Iarq5SkqiMFBqG3RZbiEmL
           claim_id: c_LC8UGxNzyhbAKpxou2FufD
-          source_id: s_XcL5zA1ST4but5njM3qAfP
+          source_id: s_t1lc5gKEXLz2qMLPiIYkeJ
           stance: supports
-          locator: CBDB:203595
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_XcL5zA1ST4but5njM3qAfP
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王宗性（203595）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
+          locator: 导言
+          quotation: 王宗性（1516年—？），字繼善，山東兗州府沂州人，軍籍，明朝政
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_t1lc5gKEXLz2qMLPiIYkeJ
+            source_type: website
+            title: 中文维基百科：王宗性
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203595&o=json
-            external_identifier: CBDB:203595
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:06:54.262Z
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%97%E6%80%A7
+            external_identifier: Q45458696
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -152,7 +152,18 @@ properties:
           locator: Q45458696
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_XcL5zA1ST4but5njM3qAfP
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王宗性（203595）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203595&o=json
+            external_identifier: CBDB:203595
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:54.262Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -196,7 +207,7 @@ relationships:
           locator: P22（父）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source: *a1
         - id: cs_nRf6EqFxjfUj1gqGP5dAPh
           claim_id: c_9HQwkGS6MbcyzRmLo8Hcmc
           source_id: s_mSwGzHWH1XVALasnCo5Qnh
@@ -245,7 +256,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source: *a1
         - id: cs_6PTksNqi7dxVav2pnfaWsU
           claim_id: c_4K6rLSbFBj2PbXr6YfnG6E
           source_id: s_ZYkDppFkR2CG22htW5Bskt
@@ -272,7 +283,7 @@ relationships:
           locator: 亲属关系：妻子
           quotation: null
           interpretation_note: CBDB 注明此条来源：嘉靖二十三年登科錄:一卷
-          source: *a1
+          source: *a2
       object_person:
         id: p_r9c7S6Y8RCf1UeMz9VaCpH
         status: active
@@ -402,7 +413,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王宗性（生于1518年），明人物。CBDB 记录其籍贯记录为沂州，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 203595 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王宗性（1516年—？），字繼善，山東兗州府沂州人，軍籍，明朝政治人物。 | accepted |
 | birth.date | 1518年 | accepted |
 | name.primary | 王宗性 | accepted |
 
@@ -423,6 +434,7 @@ relationships:
 - [维基数据：王宗性（Q45458696）](https://www.wikidata.org/wiki/Q45458696)
 - [中国历代人物传记资料库：王綱（CBDB 307063）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307063&o=json)
 - [中国历代人物传记资料库：王璟（CBDB 307064）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307064&o=json)
+- [中文维基百科：王宗性](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%97%E6%80%A7)
 - [CBDB 中国历代人物传记资料库：孫氏（307068）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307068&o=json)
 - [CBDB 中国历代人物传记资料库：王士彥（307065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307065&o=json)
 - [CBDB 中国历代人物传记资料库：王宗性（203595）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203595&o=json)

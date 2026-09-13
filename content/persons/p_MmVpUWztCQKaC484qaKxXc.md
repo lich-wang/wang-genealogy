@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王汝濂（生于1534年），明人物。中国历代人物传记资料库（CBDB）以人物编号 205966 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王汝濂（生于1534年），史料所见人物。本项目依据《中国历代人物传记资料库：王汝濂（CBDB 205966）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs__U-rpymhRh7rxm87fw1k5J
           claim_id: c_L8r44g1tMcDGH7qGQY3m14
@@ -30,8 +30,8 @@ properties:
           stance: supports
           locator: CBDB:205966
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_ZciW7GUxUz51DqwGXD8dM7
             source_type: api_record
             title: 中国历代人物传记资料库：王汝濂（CBDB 205966）
@@ -113,19 +113,7 @@ properties:
           locator: CBDB:205966
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（801-900）｜历史性依据：CBDB 生年 = 1534
-          source:
-            id: s_ZciW7GUxUz51DqwGXD8dM7
-            source_type: api_record
-            title: 中国历代人物传记资料库：王汝濂（CBDB 205966）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205966&o=json
-            external_identifier: CBDB:205966
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:16:43.132Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -258,7 +246,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王汝濂（生于1534年），明人物。中国历代人物传记资料库（CBDB）以人物编号 205966 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王汝濂（生于1534年），史料所见人物。本项目依据《中国历代人物传记资料库：王汝濂（CBDB 205966）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | birth.date | 1534年 | accepted |
 | name.primary | 王汝濂 | accepted |
 

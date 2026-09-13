@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王兒姁，史料所见人物。本项目依据《王兒姁》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王兒姁（?—?），右扶风槐里人，中國古代西漢時期皇族女性，為汉景帝刘启的妃嬪。 王兒姁的母亲臧儿是燕王臧荼的孙女，臧儿将长女王娡和次女兒姁都送入当时太子刘启的宫中。王兒姁為太子劉啟生了四個兒子：广川王刘越、胶东王刘寄、清河王刘乘、常山王刘舜。
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_kAAFbeoZmhdHGMF-_C_l66
+        - id: cs_7RnOLeEGlpGwfhzgIIHrB1
           claim_id: c_4u1zeARfT75v5he58C7wzC
-          source_id: s_XaJ4zmShinLkdVNBs8CQR9
+          source_id: s_MXHbDufsIbafh16CJeGyeq
           stance: supports
-          locator: Q8253153
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_XaJ4zmShinLkdVNBs8CQR9
-            source_type: api_record
-            title: 维基数据：王兒姁（Q8253153）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王兒姁（?—?），右扶风槐里人，中國古代西漢時期皇族女性，為汉景
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_MXHbDufsIbafh16CJeGyeq
+            source_type: website
+            title: 中文维基百科：王兒姁
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q8253153
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%85%92%E5%A7%81
             external_identifier: Q8253153
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:40:02.167Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%85%92%E5%A7%81
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -69,7 +68,19 @@ properties:
           locator: Q8253153
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_XaJ4zmShinLkdVNBs8CQR9
+            source_type: api_record
+            title: 维基数据：王兒姁（Q8253153）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q8253153
+            external_identifier: Q8253153
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:40:02.167Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%85%92%E5%A7%81
       object_person: null
     alternatives: []
 relationships:
@@ -302,7 +313,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王兒姁，史料所见人物。本项目依据《王兒姁》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王兒姁（?—?），右扶风槐里人，中國古代西漢時期皇族女性，為汉景帝刘启的妃嬪。 王兒姁的母亲臧儿是燕王臧荼的孙女，臧儿将长女王娡和次女兒姁都送入当时太子刘启的宫中。王兒姁為太子劉啟生了四個兒子：广川王刘越、胶东王刘寄、清河王刘乘、常山王刘舜。 | accepted |
 | name.primary | 王兒姁 | accepted |
 
 ## 关联关系
@@ -317,4 +328,5 @@ relationships:
 - [维基数据：汉景帝（Q7224）](https://www.wikidata.org/wiki/Q7224)
 - [维基数据：王兒姁（Q8253153）](https://www.wikidata.org/wiki/Q8253153)
 - [维基数据：王仲（Q10412154）](https://www.wikidata.org/wiki/Q10412154)
+- [中文维基百科：王兒姁](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%85%92%E5%A7%81)
 - [中文维基百科：王仲](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BB%B2)

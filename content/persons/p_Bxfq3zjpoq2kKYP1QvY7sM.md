@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王世融，宋人物。CBDB 记录其籍贯记录为海北州，入仕记录为軍員轉補，曾任尚書左僕射。中国历代人物传记资料库（CBDB）以人物编号 3972 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王世融，宋人物。籍贯洛陽，入仕軍員轉補，曾任尚書左僕射。（中国历代人物传记资料库 CBDB 3972）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_5y9wy3Rf5QzWoZ3C72FNih
           claim_id: c_FrU4M7X5pKhFqPmecyuXbn
@@ -247,7 +247,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王世融，宋人物。CBDB 记录其籍贯记录为海北州，入仕记录为軍員轉補，曾任尚書左僕射。中国历代人物传记资料库（CBDB）以人物编号 3972 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王世融，宋人物。籍贯洛陽，入仕軍員轉補，曾任尚書左僕射。（中国历代人物传记资料库 CBDB 3972） | accepted |
 | name.primary | 王世融 | accepted |
 
 ## 关联关系

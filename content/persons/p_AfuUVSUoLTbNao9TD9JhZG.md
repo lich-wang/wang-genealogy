@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王仁东（1852年—1917年），中華民國人物。CBDB 记录其籍贯记录为閩縣。中国历代人物传记资料库（CBDB）以人物编号 71402 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王仁东（1852年—1917年），中華民國人物。籍贯閩縣。（中国历代人物传记资料库 CBDB 71402）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_myw1f4mWxc6KrZ9KK62QkX
           claim_id: c_2SrX2K9r1dmKa8auCdtMJJ
@@ -352,7 +352,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王仁东（1852年—1917年），中華民國人物。CBDB 记录其籍贯记录为閩縣。中国历代人物传记资料库（CBDB）以人物编号 71402 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王仁东（1852年—1917年），中華民國人物。籍贯閩縣。（中国历代人物传记资料库 CBDB 71402） | accepted |
 | birth.date | 1852年 | accepted |
 | death.date | 1917年 | accepted |
 | name.primary | 王仁东 | accepted |

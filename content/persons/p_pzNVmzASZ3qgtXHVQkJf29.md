@@ -17,19 +17,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 蕭咸，史料所见人物。本项目依据《王閎》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 蕭咸：王閎（？—30年），王莽叔父平阿侯王譚之子，王去疾之弟，娶蕭咸之女。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
         - id: cs_k4scbq2uAGmhGVmErE5I4q
           claim_id: c_n46c8uBUcGR21q7ZAioL51
           source_id: s_SP8WDfbBZYkJQYGqt3dyWU
           stance: supports
-          locator: null
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          locator: 导言
+          quotation: 蕭咸：王閎（？—30年），王莽叔父平阿侯王譚之子，王去疾之弟，娶
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
           source: &a1
             id: s_SP8WDfbBZYkJQYGqt3dyWU
             source_type: website
@@ -146,7 +146,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 蕭咸，史料所见人物。本项目依据《王閎》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 蕭咸：王閎（？—30年），王莽叔父平阿侯王譚之子，王去疾之弟，娶蕭咸之女。 | accepted |
 | name.primary | 蕭咸 | accepted |
 
 ## 关联关系

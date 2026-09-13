@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王𫖮，隋人物。CBDB 记录其籍贯记录为長安，曾任侍中。中国历代人物传记资料库（CBDB）以人物编号 33012 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王𫖮，隋人物。籍贯長安，曾任侍中。（中国历代人物传记资料库 CBDB 33012）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_8tHJ4w2fsn7nJdD1M1oVvY
           claim_id: c_qv37pv7hPf1MXCmyMnhXLd
@@ -337,7 +337,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王𫖮，隋人物。CBDB 记录其籍贯记录为長安，曾任侍中。中国历代人物传记资料库（CBDB）以人物编号 33012 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王𫖮，隋人物。籍贯長安，曾任侍中。（中国历代人物传记资料库 CBDB 33012） | accepted |
 | name.primary | 王𫖮 | accepted |
 
 ## 关联关系

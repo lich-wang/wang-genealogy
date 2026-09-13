@@ -18,32 +18,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 劉衎，西汉皇帝。维基数据以独立条目 Q7244 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 劉衎：漢平帝劉衎（kàn）（公元前9年—6年2月3日），原名劉箕子，后改名衎，漢朝皇帝（公元前1年10月17日－公元6年2月3日在位），其正式諡號為「孝平皇帝」，後世省略「孝」字稱「漢平帝」。
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_T0V78zCfnEckEfx5KEI2y3
+        - id: cs_Ied0W3yn4G2JDPA3jG3Rkf
           claim_id: c_w1ItXaE1x_VX2RbTYZ6SUW
-          source_id: s_Zs6r2fMKtHm4F2PDw3HW26
+          source_id: s_gGyowW4IKXvyB4qgJA4uoP
           stance: supports
-          locator: Q7244
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
-          source: &a1
-            id: s_Zs6r2fMKtHm4F2PDw3HW26
-            source_type: api_record
-            title: 维基数据：汉平帝（Q7244）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 劉衎：漢平帝劉衎（kàn）（公元前9年—6年2月3日），原名劉箕
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_gGyowW4IKXvyB4qgJA4uoP
+            source_type: website
+            title: 中文维基百科：汉平帝
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q7244
+            canonical_url: https://zh.wikipedia.org/wiki/%E6%B1%89%E5%B9%B3%E5%B8%9D
             external_identifier: Q7244
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T02:49:33.656Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E6%B1%89%E5%B9%B3%E5%B8%9D
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.alias
@@ -147,7 +146,19 @@ properties:
           locator: Q7244
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_Zs6r2fMKtHm4F2PDw3HW26
+            source_type: api_record
+            title: 维基数据：汉平帝（Q7244）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q7244
+            external_identifier: Q7244
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:49:33.656Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E6%B1%89%E5%B9%B3%E5%B8%9D
       object_person: null
     alternatives: []
 relationships:
@@ -265,7 +276,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 劉衎，西汉皇帝。维基数据以独立条目 Q7244 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 劉衎：漢平帝劉衎（kàn）（公元前9年—6年2月3日），原名劉箕子，后改名衎，漢朝皇帝（公元前1年10月17日－公元6年2月3日在位），其正式諡號為「孝平皇帝」，後世省略「孝」字稱「漢平帝」。 | accepted |
 | name.alias | 汉平帝 | accepted |
 | name.primary | 劉衎 | accepted |
 
@@ -279,5 +290,6 @@ relationships:
 
 - [维基数据：汉平帝（Q7244）](https://www.wikidata.org/wiki/Q7244)
 - [維基數據：孝平王皇后（Q712297）](https://www.wikidata.org/wiki/Q712297)
+- [中文维基百科：汉平帝](https://zh.wikipedia.org/wiki/%E6%B1%89%E5%B9%B3%E5%B8%9D)
 - [中文维基百科：孝平王皇后](https://zh.wikipedia.org/wiki/%E5%AD%9D%E5%B9%B3%E7%8E%8B%E7%9A%87%E5%90%8E)
 - [CBDB 中国历代人物传记资料库：劉衎（339517）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=339517&o=json)

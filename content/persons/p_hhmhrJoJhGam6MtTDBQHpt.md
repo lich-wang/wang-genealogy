@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王辂，明人物。CBDB 记录其籍贯记录为崑山。中国历代人物传记资料库（CBDB）以人物编号 250185 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王辂，明人物。成化十一年進士，籍贯崑山。（中国历代人物传记资料库 CBDB 250185）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_4NDJ4TgLMnypEzFwRw7Hpv
           claim_id: c_WQDVP3Em74MqzAT9KoZZtV
@@ -449,7 +449,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王辂，明人物。CBDB 记录其籍贯记录为崑山。中国历代人物传记资料库（CBDB）以人物编号 250185 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王辂，明人物。成化十一年進士，籍贯崑山。（中国历代人物传记资料库 CBDB 250185） | accepted |
 | name.primary | 王辂 | accepted |
 
 ## 关联关系

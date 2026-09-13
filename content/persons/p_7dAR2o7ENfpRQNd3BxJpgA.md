@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王协，东晋大臣。维基数据以独立条目 Q16905932 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王协（？—？），字敬祖，琅邪临沂人，王导第四子，王悦、王恬、王洽的弟弟，王劭、王荟的哥哥。王协任晋元帝抚军参军，承袭父亲的爵位武冈侯，早年去世，没有儿子，以弟弟王劭的儿子王謐为嗣子。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 7
+        current_revision: 8
       sources:
-        - id: cs_31pGQBkPjzOvzGP5nSdN4G
+        - id: cs_2nWNIYrDLnMRXuBFCXGlBp
           claim_id: c_WiDAwJZB1TF28PVWQNTzMQ
-          source_id: s_9qeKynCJhBZDivp5GWzynh
+          source_id: s_3TSuAUcd14Gdu44q-w5M35
           stance: supports
-          locator: Q16905932
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
-          source: &a1
-            id: s_9qeKynCJhBZDivp5GWzynh
-            source_type: api_record
-            title: 維基數據：王协（Q16905932）
-            creator: 維基數據貢獻者
+          locator: 导言
+          quotation: 王协（？—？），字敬祖，琅邪临沂人，王导第四子，王悦、王恬、王洽
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_3TSuAUcd14Gdu44q-w5M35
+            source_type: website
+            title: 中文维基百科：王协 (东晋)
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q16905932
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8D%8F_(%E4%B8%9C%E6%99%8B)
             external_identifier: Q16905932
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T02:10:09.321Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8D%8F_(%E4%B8%9C%E6%99%8B)
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: historical.period
@@ -108,7 +107,19 @@ properties:
           locator: Q16905932
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_9qeKynCJhBZDivp5GWzynh
+            source_type: api_record
+            title: 維基數據：王协（Q16905932）
+            creator: 維基數據貢獻者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16905932
+            external_identifier: Q16905932
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:10:09.321Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8D%8F_(%E4%B8%9C%E6%99%8B)
       object_person: null
     alternatives: []
 relationships:
@@ -453,7 +464,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王协，东晋大臣。维基数据以独立条目 Q16905932 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王协（？—？），字敬祖，琅邪临沂人，王导第四子，王悦、王恬、王洽的弟弟，王劭、王荟的哥哥。王协任晋元帝抚军参军，承袭父亲的爵位武冈侯，早年去世，没有儿子，以弟弟王劭的儿子王謐为嗣子。 | accepted |
 | historical.period | 东晋 | accepted |
 | name.primary | 王协 | accepted |
 

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王先进（1590年代—1640年），明人物。CBDB 记录其籍贯记录为餘姚。中国历代人物传记资料库（CBDB）以人物编号 30378 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王先进（1590年代—1640年），明人物。籍贯餘姚。（中国历代人物传记资料库 CBDB 30378）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_mGRGU67fKYU5eKRMR4aboM
           claim_id: c_tivVtKzFUeAwZJmkF1VE6G
@@ -345,7 +345,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王先进（1590年代—1640年），明人物。CBDB 记录其籍贯记录为餘姚。中国历代人物传记资料库（CBDB）以人物编号 30378 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王先进（1590年代—1640年），明人物。籍贯餘姚。（中国历代人物传记资料库 CBDB 30378） | accepted |
 | birth.date | 1590年代 | accepted |
 | death.date | 1640年 | accepted |
 | name.primary | 王先进 | accepted |

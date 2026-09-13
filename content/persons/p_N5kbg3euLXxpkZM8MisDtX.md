@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王慎（卒于931年），唐人物。CBDB 记录其曾任州長史。中国历代人物传记资料库（CBDB）以人物编号 175411 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王慎（卒于931年），唐人物。曾任州長史。（中国历代人物传记资料库 CBDB 175411）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_s9hjUyQ3PQVNPvsz7NEC9C
           claim_id: c_htiPujdoPs6uVAzXDFTEvf
@@ -547,7 +547,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王慎（卒于931年），唐人物。CBDB 记录其曾任州長史。中国历代人物传记资料库（CBDB）以人物编号 175411 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王慎（卒于931年），唐人物。曾任州長史。（中国历代人物传记资料库 CBDB 175411） | accepted |
 | death.date | 931年 | accepted |
 | name.primary | 王慎 | accepted |
 

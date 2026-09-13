@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王仁，東漢人物。CBDB 记录其籍贯记录为沂水。中国历代人物传记资料库（CBDB）以人物编号 25783 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王仁，東漢人物。籍贯沂水。（中国历代人物传记资料库 CBDB 25783）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_XDWXBCdV2A8jeu3n6tV7TA
           claim_id: c_qf8ipHX33XwJ7NJ6oPXwkQ
@@ -362,7 +362,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王仁，東漢人物。CBDB 记录其籍贯记录为沂水。中国历代人物传记资料库（CBDB）以人物编号 25783 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王仁，東漢人物。籍贯沂水。（中国历代人物传记资料库 CBDB 25783） | accepted |
 | name.primary | 王仁 | accepted |
 
 ## 关联关系

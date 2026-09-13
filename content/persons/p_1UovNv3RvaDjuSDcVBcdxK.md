@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王令傑，宋人物。中国历代人物传记资料库（CBDB）以人物编号 14933 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 王令傑，宋人物。籍贯開封。（中国历代人物传记资料库 CBDB 14933）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_O3BrXqvqSK9RGCqEiboNZD
           claim_id: c_4Fn2ruXnjR2HaJ14mhdAwu
@@ -70,19 +70,7 @@ properties:
           locator: CBDB:14933
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（901-1000）｜历史性依据：CBDB 朝代 = 宋
-          source:
-            id: s_dCcrudZqwWkWRGsPA8H59W
-            source_type: api_record
-            title: 中国历代人物传记资料库：王令傑（CBDB 14933）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=14933&o=json
-            external_identifier: CBDB:14933
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:16:44.071Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -107,7 +95,19 @@ relationships:
           locator: CBDB 双向互证（父 王守斌 ⇄ 子 王令傑）
           quotation: null
           interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
-          source: *a1
+          source:
+            id: s_dCcrudZqwWkWRGsPA8H59W
+            source_type: api_record
+            title: 中国历代人物传记资料库：王令傑（CBDB 14933）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=14933&o=json
+            external_identifier: CBDB:14933
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:44.071Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
       object_person:
         id: p_k56NV9rgDghGTPDaQfrfU6
         status: active
@@ -130,7 +130,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王令傑，宋人物。中国历代人物传记资料库（CBDB）以人物编号 14933 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王令傑，宋人物。籍贯開封。（中国历代人物传记资料库 CBDB 14933） | accepted |
 | name.primary | 王令傑 | accepted |
 
 ## 关联关系

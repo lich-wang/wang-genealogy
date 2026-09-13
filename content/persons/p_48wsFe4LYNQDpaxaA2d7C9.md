@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王奉光，史料所见人物。本项目依据《王奉光》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王奉光（？—前47年），長陵（今陕西省咸阳市渭城区）人，西汉政治人物。
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_1UjwVk2Z1w0W8jZlsOrnPA
+        - id: cs_G66Ryp_GyoLOQNz3YNkLua
           claim_id: c_4ZsjFPhQcIm0St7W0WwzJb
-          source_id: s_CRkZtiQNjrzRWKNRG3mnRb
+          source_id: s_esQGkPiLmpiO_z8TUITLc1
           stance: supports
-          locator: Q30942125
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_CRkZtiQNjrzRWKNRG3mnRb
-            source_type: api_record
-            title: 维基数据：王奉光（Q30942125）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王奉光（？—前47年），長陵（今陕西省咸阳市渭城区）人，西汉政治
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_esQGkPiLmpiO_z8TUITLc1
+            source_type: website
+            title: 中文维基百科：王奉光
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q30942125
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A5%89%E5%85%89
             external_identifier: Q30942125
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:17:51.250Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A5%89%E5%85%89
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -69,7 +68,19 @@ properties:
           locator: Q30942125
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_CRkZtiQNjrzRWKNRG3mnRb
+            source_type: api_record
+            title: 维基数据：王奉光（Q30942125）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q30942125
+            external_identifier: Q30942125
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:17:51.250Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A5%89%E5%85%89
       object_person: null
     alternatives: []
 relationships:
@@ -281,7 +292,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王奉光，史料所见人物。本项目依据《王奉光》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王奉光（？—前47年），長陵（今陕西省咸阳市渭城区）人，西汉政治人物。 | accepted |
 | name.primary | 王奉光 | accepted |
 
 ## 关联关系

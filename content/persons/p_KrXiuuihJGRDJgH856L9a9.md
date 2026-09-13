@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王之涣（688年—742年），中国唐朝诗人。维基数据以独立条目 Q707247 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王之涣（688年—742年），中国唐朝诗人。维基数据以独立条目 Q707247 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_TgtT6rVB_AHGW-8UmEfDcq
           claim_id: c_d3Q4ND51dgSjXk9EenxfCq
@@ -644,7 +644,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王之涣（688年—742年），中国唐朝诗人。维基数据以独立条目 Q707247 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王之涣（688年—742年），中国唐朝诗人。维基数据以独立条目 Q707247 收录该人物。 | accepted |
 | birth.date | 688年 | accepted |
 | death.date | 742年 | accepted |
 | name.alias | 季凌 | accepted |

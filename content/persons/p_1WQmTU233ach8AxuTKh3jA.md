@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王随之，東晉人物。CBDB 记录其籍贯记录为剡縣。中国历代人物传记资料库（CBDB）以人物编号 25808 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王随之，東晉人物。籍贯剡縣。（中国历代人物传记资料库 CBDB 25808）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_xHP1s55vwFRunCTdjD3B5z
           claim_id: c_TH6rEiXh1RwCnHQS8QZDVw
@@ -317,7 +317,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王随之，東晉人物。CBDB 记录其籍贯记录为剡縣。中国历代人物传记资料库（CBDB）以人物编号 25808 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王随之，東晉人物。籍贯剡縣。（中国历代人物传记资料库 CBDB 25808） | accepted |
 | name.primary | 王随之 | accepted |
 
 ## 关联关系

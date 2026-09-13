@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王得山，元人物。中国历代人物传记资料库（CBDB）以人物编号 101335 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王得山，史料所见人物。本项目依据《中国历代人物传记资料库：王得山（CBDB 101335）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_C6-0Vxuw1VhieD77dsTiIA
           claim_id: c_ppS3p9G7Juh7e2EnB9YE4R
@@ -30,8 +30,8 @@ properties:
           stance: supports
           locator: CBDB:101335
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_tffvjUKmP7NMrayPHMooDb
             source_type: api_record
             title: 中国历代人物传记资料库：王得山（CBDB 101335）
@@ -70,19 +70,7 @@ properties:
           locator: CBDB:101335
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（1701-1800）｜历史性依据：CBDB 朝代 = 元
-          source:
-            id: s_tffvjUKmP7NMrayPHMooDb
-            source_type: api_record
-            title: 中国历代人物传记资料库：王得山（CBDB 101335）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101335&o=json
-            external_identifier: CBDB:101335
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:16:50.362Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -104,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王得山，元人物。中国历代人物传记资料库（CBDB）以人物编号 101335 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王得山，史料所见人物。本项目依据《中国历代人物传记资料库：王得山（CBDB 101335）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 王得山 | accepted |
 
 ## 关联关系

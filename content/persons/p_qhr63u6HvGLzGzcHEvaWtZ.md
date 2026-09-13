@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王用之，宋人物。CBDB 记录其籍贯记录为臨川，入仕记录为封贈，曾任國公、防禦使。中国历代人物传记资料库（CBDB）以人物编号 18553 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王用之，宋人物。籍贯臨川，入仕封贈，曾任國公、防禦使、太師。（中国历代人物传记资料库 CBDB 18553）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_sotAYM53NkedCp7KtNX7jG
           claim_id: c_VeCQGGhjLUamUaFwm1VZkt
@@ -599,7 +599,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王用之，宋人物。CBDB 记录其籍贯记录为臨川，入仕记录为封贈，曾任國公、防禦使。中国历代人物传记资料库（CBDB）以人物编号 18553 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王用之，宋人物。籍贯臨川，入仕封贈，曾任國公、防禦使、太師。（中国历代人物传记资料库 CBDB 18553） | accepted |
 | name.primary | 王用之 | accepted |
 
 ## 关联关系

@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王亮（5世纪—510年），琅邪临沂人，南朝人。维基数据以独立条目 Q11572903 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王亮（5世纪—510年），字奉叔，琅邪临沂人，南朝人，晋丞相王导的六世孙。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_mTzag5-x5xJu543HvAQkLy
+        - id: cs_XIAC-tD2OzMl4Z-sHjfrlB
           claim_id: c_GykMMcddR72iZv2B3ZrzZY
-          source_id: s_LPRKxSnkjAdksMP14r5Wkj
+          source_id: s_6VmF-vXcRwzVG13wr-ILM8
           stance: supports
-          locator: Q11572903
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
-          source: &a1
-            id: s_LPRKxSnkjAdksMP14r5Wkj
-            source_type: api_record
-            title: 维基数据：王亮（Q11572903）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王亮（5世纪—510年），字奉叔，琅邪临沂人，南朝人，晋丞相王导
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_6VmF-vXcRwzVG13wr-ILM8
+            source_type: website
+            title: 中文维基百科：王亮 (南朝)
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q11572903
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BA%AE_(%E5%8D%97%E6%9C%9D)
             external_identifier: Q11572903
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:25:29.260Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BA%AE_(%E5%8D%97%E6%9C%9D)
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -155,7 +154,19 @@ properties:
           locator: Q11572903
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_LPRKxSnkjAdksMP14r5Wkj
+            source_type: api_record
+            title: 维基数据：王亮（Q11572903）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q11572903
+            external_identifier: Q11572903
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:25:29.260Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BA%AE_(%E5%8D%97%E6%9C%9D)
       object_person: null
     alternatives: []
 relationships:
@@ -384,7 +395,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王亮（5世纪—510年），琅邪临沂人，南朝人。维基数据以独立条目 Q11572903 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王亮（5世纪—510年），字奉叔，琅邪临沂人，南朝人，晋丞相王导的六世孙。 | accepted |
 | birth.date | 5世纪 | accepted |
 | death.date | 510年 | accepted |
 | name.primary | 王亮 | accepted |

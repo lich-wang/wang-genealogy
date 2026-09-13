@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王升，明人物。中国历代人物传记资料库（CBDB）以人物编号 246749 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王升，明人物。成化八年進士。（中国历代人物传记资料库 CBDB 246749）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_SnciPHp2AGcqTN3y3Vq39p
           claim_id: c_846PaeBRbnBmN786Y3293x
@@ -245,7 +245,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王升，明人物。中国历代人物传记资料库（CBDB）以人物编号 246749 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王升，明人物。成化八年進士。（中国历代人物传记资料库 CBDB 246749） | accepted |
 | name.primary | 王升 | accepted |
 
 ## 关联关系

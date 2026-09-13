@@ -17,30 +17,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王建（767年—830年），史料所见人物。本项目依据《王建》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王建（767年—830年），字仲初，颍川（今河南许昌）人，唐朝进士、诗人。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
-        - id: cs_k-GyQhqAdFKDqnOrxdsrug
+        - id: cs_5letdjZOCzmQuA-poC8Hp3
           claim_id: c_W9kk4X7D5QVXicsrhgbjI3
-          source_id: s_tDoz9C8xkMX5Tr13VjZwFa
+          source_id: s_VZrXeykligMXv2z7VeB8yD
           stance: supports
-          locator: Q4133151
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_tDoz9C8xkMX5Tr13VjZwFa
-            source_type: api_record
-            title: 维基数据：王建（Q4133151）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王建（767年—830年），字仲初，颍川（今河南许昌）人，唐朝进
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_VZrXeykligMXv2z7VeB8yD
+            source_type: website
+            title: 中文维基百科：王建 (唐朝)
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q4133151
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA_(%E5%94%90%E6%9C%9D)
             external_identifier: Q4133151
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:49:45.578Z
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -72,7 +72,18 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_tDoz9C8xkMX5Tr13VjZwFa
+            source_type: api_record
+            title: 维基数据：王建（Q4133151）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q4133151
+            external_identifier: Q4133151
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:49:45.578Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: death.date
@@ -174,7 +185,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王建（767年—830年），史料所见人物。本项目依据《王建》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王建（767年—830年），字仲初，颍川（今河南许昌）人，唐朝进士、诗人。 | accepted |
 | birth.date | 767年 | accepted |
 | death.date | 830年 | accepted |
 | name.primary | 王建 | accepted |
@@ -187,3 +198,4 @@ relationships:
 ## 外部来源
 
 - [维基数据：王建（Q4133151）](https://www.wikidata.org/wiki/Q4133151)
+- [中文维基百科：王建 (唐朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%BA_(%E5%94%90%E6%9C%9D))

@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王继恩（卒于999年），中國北宋時代宦官。维基数据以独立条目 Q10416428 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王继恩（卒于999年），中國北宋時代宦官。维基数据以独立条目 Q10416428 收录该人物。
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
         - id: cs_PoOR1hmIVemc_RSwpriYwp
           claim_id: c_MziXsory6vSr83EiMWQYgM
@@ -30,7 +30,7 @@ properties:
           locator: Q10416428
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
-          source:
+          source: &a1
             id: s_kBrEWAG5DnGJuvP8YMAroD
             source_type: api_record
             title: 维基数据：王继恩（Q10416428）
@@ -110,18 +110,7 @@ properties:
           locator: Q10416428
           quotation: null
           interpretation_note: null
-          source:
-            id: s_kBrEWAG5DnGJuvP8YMAroD
-            source_type: api_record
-            title: 维基数据：王继恩（Q10416428）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q10416428
-            external_identifier: Q10416428
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:44:50.282Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -199,7 +188,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王继恩（卒于999年），中國北宋時代宦官。维基数据以独立条目 Q10416428 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王继恩（卒于999年），中國北宋時代宦官。维基数据以独立条目 Q10416428 收录该人物。 | accepted |
 | death.date | 999年 | accepted |
 | name.primary | 王继恩 | accepted |
 

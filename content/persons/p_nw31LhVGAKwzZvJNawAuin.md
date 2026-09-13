@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王续（卒于672年），唐人物。CBDB 记录其籍贯记录为京兆府，曾任令。中国历代人物传记资料库（CBDB）以人物编号 175442 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王续（卒于672年），唐人物。籍贯臨沂，曾任令。（中国历代人物传记资料库 CBDB 175442）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_6jCiV6ZR2rMxYw3G4fJHfv
           claim_id: c_9RNmKAaknuukX6BC1F5fgz
@@ -360,7 +360,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王续（卒于672年），唐人物。CBDB 记录其籍贯记录为京兆府，曾任令。中国历代人物传记资料库（CBDB）以人物编号 175442 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王续（卒于672年），唐人物。籍贯臨沂，曾任令。（中国历代人物传记资料库 CBDB 175442） | accepted |
 | death.date | 672年 | accepted |
 | name.primary | 王续 | accepted |
 

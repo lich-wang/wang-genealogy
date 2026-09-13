@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王棣（卒于1109年），宋人物。CBDB 记录其籍贯记录为臨川，曾任資政殿學士、顯謨閣待制。中国历代人物传记资料库（CBDB）以人物编号 22210 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王棣（卒于1109年），宋人物。籍贯臨川，曾任資政殿學士、顯謨閣待制、權知開封府事。（中国历代人物传记资料库 CBDB 22210）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_LYAi5JC25SF4Vua1h23thg
           claim_id: c_q1wD8f5f3h4tQzhxvR5am8
@@ -292,7 +292,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王棣（卒于1109年），宋人物。CBDB 记录其籍贯记录为臨川，曾任資政殿學士、顯謨閣待制。中国历代人物传记资料库（CBDB）以人物编号 22210 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王棣（卒于1109年），宋人物。籍贯臨川，曾任資政殿學士、顯謨閣待制、權知開封府事。（中国历代人物传记资料库 CBDB 22210） | accepted |
 | death.date | 1109年 | accepted |
 | name.primary | 王棣 | accepted |
 

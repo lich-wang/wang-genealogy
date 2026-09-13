@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王凤（卒于前21年），西汉大司马。维基数据以独立条目 Q1930926 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王凤（卒于前21年），西汉大司马。维基数据以独立条目 Q1930926 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_RlWlMkgFF7FAIUD93iAvw_
           claim_id: c_KXN5PhMEk5735Kp2wTwP1L
@@ -306,7 +306,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王凤（卒于前21年），西汉大司马。维基数据以独立条目 Q1930926 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王凤（卒于前21年），西汉大司马。维基数据以独立条目 Q1930926 收录该人物。 | accepted |
 | death.date | 前21年 | accepted |
 | historical.period | 西汉 | accepted |
 | name.primary | 王凤 | accepted |

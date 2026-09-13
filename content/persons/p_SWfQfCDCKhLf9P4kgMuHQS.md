@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王立程，明人物。CBDB 记录其籍贯记录为臨海，入仕记录为科舉: 鄉貢舉人。中国历代人物传记资料库（CBDB）以人物编号 702263 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王立程，明人物。籍贯臨海，入仕鄉貢舉人。（中国历代人物传记资料库 CBDB 702263）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_oZN3iE7kJ89XUp7wwfejHW
           claim_id: c_jnMYzzN0Srj63cV7FlR1QR
@@ -154,7 +154,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王立程，明人物。CBDB 记录其籍贯记录为臨海，入仕记录为科舉: 鄉貢舉人。中国历代人物传记资料库（CBDB）以人物编号 702263 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王立程，明人物。籍贯臨海，入仕鄉貢舉人。（中国历代人物传记资料库 CBDB 702263） | accepted |
 | name.primary | 王立程 | accepted |
 
 ## 关联关系

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王延陵，明人物。CBDB 记录其籍贯记录为吳縣，入仕记录为恩蔭、蔭補(籠統)。中国历代人物传记资料库（CBDB）以人物编号 34587 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王延陵，明人物。籍贯吳縣，入仕恩蔭、蔭補。（中国历代人物传记资料库 CBDB 34587）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_TGdAP66EN5gqb3s2aiguuv
           claim_id: c_pgmeZpxKGEgBvG7V5DpSmb
@@ -230,7 +230,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王延陵，明人物。CBDB 记录其籍贯记录为吳縣，入仕记录为恩蔭、蔭補(籠統)。中国历代人物传记资料库（CBDB）以人物编号 34587 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王延陵，明人物。籍贯吳縣，入仕恩蔭、蔭補。（中国历代人物传记资料库 CBDB 34587） | accepted |
 | name.primary | 王延陵 | accepted |
 
 ## 关联关系

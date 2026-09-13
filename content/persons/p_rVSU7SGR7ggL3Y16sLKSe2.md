@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王褒（513年—576年），南北朝人物。CBDB 记录其籍贯记录为京兆府，曾任司空。中国历代人物传记资料库（CBDB）以人物编号 157867 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王褒（513年—576年），南北朝人物。籍贯臨沂，曾任司空。（中国历代人物传记资料库 CBDB 157867）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_7x31pA8njDYEyB7L6r9qr8
           claim_id: c_agXNLUrCsWsqNBajW3nhv1
@@ -560,7 +560,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王褒（513年—576年），南北朝人物。CBDB 记录其籍贯记录为京兆府，曾任司空。中国历代人物传记资料库（CBDB）以人物编号 157867 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王褒（513年—576年），南北朝人物。籍贯臨沂，曾任司空。（中国历代人物传记资料库 CBDB 157867） | accepted |
 | birth.date | 513年 | accepted |
 | death.date | 576年 | accepted |
 | name.primary | 王褒 | accepted |

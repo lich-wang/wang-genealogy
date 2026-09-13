@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王勔（卒于697年），唐人物。CBDB 记录其籍贯记录为龍門，身份包括詩人，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 30980 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王勔（卒于697年），唐人物。籍贯龍門，身份为詩人，入仕進士。（中国历代人物传记资料库 CBDB 30980）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_NsQiCP4biK4NxtWNYWv6WQ
           claim_id: c_CauwhshWzc6H3VMEKPRqgp
@@ -265,7 +265,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王勔（卒于697年），唐人物。CBDB 记录其籍贯记录为龍門，身份包括詩人，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 30980 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王勔（卒于697年），唐人物。籍贯龍門，身份为詩人，入仕進士。（中国历代人物传记资料库 CBDB 30980） | accepted |
 | death.date | 697年 | accepted |
 | name.primary | 王勔 | accepted |
 

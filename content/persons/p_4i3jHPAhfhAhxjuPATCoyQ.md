@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 李珏，宋人物。CBDB 记录其籍贯记录为山陽，入仕记录为封贈。中国历代人物传记资料库（CBDB）以人物编号 5236 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 李珏（1089—1150），宋人物。籍贯山陽，入仕封贈。（中国历代人物传记资料库 CBDB 5236）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_NUb2oz4G7DiHZ9g2EgtA6s
           claim_id: c_hm8SMqqOACQu1ISQBuUhVR
@@ -211,7 +211,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 李珏，宋人物。CBDB 记录其籍贯记录为山陽，入仕记录为封贈。中国历代人物传记资料库（CBDB）以人物编号 5236 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 李珏（1089—1150），宋人物。籍贯山陽，入仕封贈。（中国历代人物传记资料库 CBDB 5236） | accepted |
 | name.primary | 李珏 | accepted |
 
 ## 关联关系

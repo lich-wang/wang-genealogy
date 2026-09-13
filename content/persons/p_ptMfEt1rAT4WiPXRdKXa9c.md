@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王馨，明人物。CBDB 记录其曾任教諭、中書舍人。中国历代人物传记资料库（CBDB）以人物编号 302967 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王馨，明人物。嘉靖二十年進士，曾任教諭、中書舍人。（中国历代人物传记资料库 CBDB 302967）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_MXEgZHsrvDifMYPDg1tBMk
           claim_id: c_1NTZASHnnPVXJrgvGmzmki
@@ -245,7 +245,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王馨，明人物。CBDB 记录其曾任教諭、中書舍人。中国历代人物传记资料库（CBDB）以人物编号 302967 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王馨，明人物。嘉靖二十年進士，曾任教諭、中書舍人。（中国历代人物传记资料库 CBDB 302967） | accepted |
 | name.primary | 王馨 | accepted |
 
 ## 关联关系

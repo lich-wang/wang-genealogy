@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王氏，周彥先妻。维基数据以独立条目 Q45363781 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王氏，宋人物。籍贯臨川。（中国历代人物传记资料库 CBDB 5026）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_-2EXsk0pY2Jo-hu6AwSMGF
+        - id: cs_CA1GH4PyUlACw9Aq22nYRi
           claim_id: c_87M1kevPqwpQWd8gi1mT5u
-          source_id: s_jeDdSAyJ7vfh56zT6wNp69
+          source_id: s_56gWHoLHokafQRXA3gGi64
           stance: supports
-          locator: Q45363781
+          locator: CBDB:5026
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_jeDdSAyJ7vfh56zT6wNp69
+            id: s_56gWHoLHokafQRXA3gGi64
             source_type: api_record
-            title: 维基数据：王氏（Q45363781）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：王氏（5026）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45363781
-            external_identifier: Q45363781
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:18:12.734Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5026&o=json
+            external_identifier: CBDB:5026
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:18:12.880Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,7 +69,18 @@ properties:
           locator: Q45363781
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_jeDdSAyJ7vfh56zT6wNp69
+            source_type: api_record
+            title: 维基数据：王氏（Q45363781）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45363781
+            external_identifier: Q45363781
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:18:12.734Z
+            metadata_json: null
         - id: cs_FAcvBhHmK24KhXCXwQ4B5y
           claim_id: c_s1teMPvg9iEfnwbCGM9rzm
           source_id: s_56gWHoLHokafQRXA3gGi64
@@ -77,18 +88,7 @@ properties:
           locator: Q45363781
           quotation: null
           interpretation_note: null
-          source:
-            id: s_56gWHoLHokafQRXA3gGi64
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王氏（5026）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5026&o=json
-            external_identifier: CBDB:5026
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:18:12.880Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -298,7 +298,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王氏，周彥先妻。维基数据以独立条目 Q45363781 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王氏，宋人物。籍贯臨川。（中国历代人物传记资料库 CBDB 5026） | accepted |
 | name.primary | 王氏 | accepted |
 
 ## 关联关系

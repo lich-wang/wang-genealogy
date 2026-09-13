@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王中（1160年—1203年），司馬遵妻。维基数据以独立条目 Q45364007 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王中（1160年—1203年），司馬遵妻。维基数据以独立条目 Q45364007 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
         - id: cs_pXyRp-V6sJQqYbpTmGXEIW
           claim_id: c_6Jh6EZHxX73rLZF8FxcSdW
@@ -30,7 +30,7 @@ properties:
           locator: Q45364007
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
-          source:
+          source: &a1
             id: s_Un3RW6fkGn6hesws2TmFvn
             source_type: api_record
             title: 维基数据：王中（Q45364007）
@@ -152,18 +152,7 @@ properties:
           locator: Q45364007
           quotation: null
           interpretation_note: null
-          source:
-            id: s_Un3RW6fkGn6hesws2TmFvn
-            source_type: api_record
-            title: 维基数据：王中（Q45364007）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45364007
-            external_identifier: Q45364007
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:50:02.562Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -185,7 +174,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王中（1160年—1203年），司馬遵妻。维基数据以独立条目 Q45364007 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王中（1160年—1203年），司馬遵妻。维基数据以独立条目 Q45364007 收录该人物。 | accepted |
 | birth.date | 1160年 | accepted |
 | death.date | 1203年 | accepted |
 | name.primary | 王中 | accepted |

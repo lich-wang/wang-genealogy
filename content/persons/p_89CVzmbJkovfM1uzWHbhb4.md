@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 周彦先，宋人物。CBDB 记录其籍贯记录为海陵，入仕记录为恩蔭、蔭補(籠統)，曾任殿中省、右侍禁。中国历代人物传记资料库（CBDB）以人物编号 3250 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 周彦先，宋人物。籍贯海陵，入仕恩蔭、蔭補，曾任殿中省、右侍禁、巡檢使。（中国历代人物传记资料库 CBDB 3250）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_tN-Ne-C6Km3TiClyFlsvVI
           claim_id: c_kAToF0AmhX_TEzFI754R5W
@@ -241,7 +241,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 周彦先，宋人物。CBDB 记录其籍贯记录为海陵，入仕记录为恩蔭、蔭補(籠統)，曾任殿中省、右侍禁。中国历代人物传记资料库（CBDB）以人物编号 3250 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 周彦先，宋人物。籍贯海陵，入仕恩蔭、蔭補，曾任殿中省、右侍禁、巡檢使。（中国历代人物传记资料库 CBDB 3250） | accepted |
 | name.primary | 周彦先 | accepted |
 
 ## 关联关系

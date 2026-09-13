@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王洤（1190年—1237年），宋人物。中国历代人物传记资料库（CBDB）以人物编号 22205 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王洤（1190年—1237年），史料所见人物。本项目依据《中国历代人物传记资料库：王洤（CBDB 22205）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_uwlcnnf7XCfcRhj1KCDfd_
           claim_id: c_3uGnJkL9F4JLp9k8BycADq
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:22205
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: &a1
             id: s_p8XRvMhcki9qMC8B2TFFJh
             source_type: api_record
@@ -156,19 +156,7 @@ properties:
           locator: CBDB:22205
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（1-100）｜历史性依据：CBDB 卒年 = 1237
-          source:
-            id: s_p8XRvMhcki9qMC8B2TFFJh
-            source_type: api_record
-            title: 中国历代人物传记资料库：王洤（CBDB 22205）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22205&o=json
-            external_identifier: CBDB:22205
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:16:05.401Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -198,7 +186,19 @@ relationships:
           locator: 宋人傳記資料索引(電子版)：祖父
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source:
+            id: s_p8XRvMhcki9qMC8B2TFFJh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王洤（CBDB 22205）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22205&o=json
+            external_identifier: CBDB:22205
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:05.401Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
       object_person:
         id: p_M9sDetT5acG1nDTAxFe7as
         status: active
@@ -216,7 +216,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王洤（1190年—1237年），宋人物。中国历代人物传记资料库（CBDB）以人物编号 22205 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王洤（1190年—1237年），史料所见人物。本项目依据《中国历代人物传记资料库：王洤（CBDB 22205）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | birth.date | 1190年 | accepted |
 | death.date | 1237年 | accepted |
 | name.primary | 王洤 | accepted |

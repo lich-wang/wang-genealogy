@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王延，史料所见人物。本项目依据《王延》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王延（？—23年），西汉外戚，新朝宗室，王莽的安新公王舜之子，弟弟王匡、王林。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_tTZukrEBJFcYD4IOA9qt5U
+        - id: cs_hOIfo3-5yA_CZGqEr8oDZ0
           claim_id: c_5DRac0rHNf9iJvSuOJknX3
-          source_id: s_pUoNec1H4MR94jBE4cd3WG
+          source_id: s_tJ_CUZGZRiL0p6HnAA0ZIe
           stance: supports
-          locator: Q26209960
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_pUoNec1H4MR94jBE4cd3WG
-            source_type: api_record
-            title: 维基数据：王延（Q26209960）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王延（？—23年），西汉外戚，新朝宗室，王莽的安新公王舜之子，弟
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_tJ_CUZGZRiL0p6HnAA0ZIe
+            source_type: website
+            title: 中文维基百科：王延 (西汉)
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q26209960
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6_(%E8%A5%BF%E6%B1%89)
             external_identifier: Q26209960
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:25:35.687Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6_(%E8%A5%BF%E6%B1%89)
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -69,7 +68,19 @@ properties:
           locator: Q26209960
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_pUoNec1H4MR94jBE4cd3WG
+            source_type: api_record
+            title: 维基数据：王延（Q26209960）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q26209960
+            external_identifier: Q26209960
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:25:35.687Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6_(%E8%A5%BF%E6%B1%89)
       object_person: null
     alternatives: []
 relationships:
@@ -187,7 +198,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王延，史料所见人物。本项目依据《王延》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王延（？—23年），西汉外戚，新朝宗室，王莽的安新公王舜之子，弟弟王匡、王林。 | accepted |
 | name.primary | 王延 | accepted |
 
 ## 关联关系

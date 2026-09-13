@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王延政（10世纪—951年），殷国皇帝、闽国皇帝。维基数据以独立条目 Q8012995 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 王延政：閩天德帝王延政（？—951年），五代十国時期閩國末任君主，也是殷国唯一君主。
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
-        - id: cs_LN_UjJHCEV5GXSaKblRN8M
+        - id: cs_RVMdkSFHGGx3UtOR9O-oYL
           claim_id: c_ooq471LHaSmB85nU33tQaC
-          source_id: s_gZ4uY8cJU9Kz276s8a6nyy
+          source_id: s_6aP5lZdGC67Hm1m16RZ2PU
           stance: supports
-          locator: Q8012995
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
-          source: &a1
-            id: s_gZ4uY8cJU9Kz276s8a6nyy
-            source_type: api_record
-            title: 维基数据：王延政（Q8012995）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王延政：閩天德帝王延政（？—951年），五代十国時期閩國末任君主
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_6aP5lZdGC67Hm1m16RZ2PU
+            source_type: website
+            title: 中文维基百科：王延政
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q8012995
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E6%94%BF
             external_identifier: Q8012995
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:06:03.014Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E6%94%BF
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -251,7 +250,19 @@ relationships:
           locator: P40（子女）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a1
+            id: s_gZ4uY8cJU9Kz276s8a6nyy
+            source_type: api_record
+            title: 维基数据：王延政（Q8012995）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q8012995
+            external_identifier: Q8012995
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:03.014Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E6%94%BF
         - id: cs_6SEaheZ5CExGCS6jrWH7GM
           claim_id: c_HfqMAd2JBNDefKRrNpsoGh
           source_id: s_RNftsmftEDKBTmG4LmWxGj
@@ -339,7 +350,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王延政（10世纪—951年），殷国皇帝、闽国皇帝。维基数据以独立条目 Q8012995 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王延政：閩天德帝王延政（？—951年），五代十国時期閩國末任君主，也是殷国唯一君主。 | accepted |
 | birth.date | 10世纪 | accepted |
 | death.date | 951年 | accepted |
 | name.primary | 王延政 | accepted |
@@ -358,3 +369,4 @@ relationships:
 - [维基数据：王审知（Q708354）](https://www.wikidata.org/wiki/Q708354)
 - [维基数据：王延政（Q8012995）](https://www.wikidata.org/wiki/Q8012995)
 - [维基数据：张皇后 (王延政)（Q8256407）](https://www.wikidata.org/wiki/Q8256407)
+- [中文维基百科：王延政](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%B6%E6%94%BF)

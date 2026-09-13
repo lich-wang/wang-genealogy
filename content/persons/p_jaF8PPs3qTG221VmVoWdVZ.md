@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王允之（303年—342年），史料所见人物。本项目依据《王允之》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王允之（303年—342年），字淵猷，琅琊臨沂（今山東臨沂）人。出身於琅琊王氏，東晉時官員，是晉朝撫軍將軍王舒之子。官至衞將軍。
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_Svrox6ygIm9Qqws2zA5F_V
+        - id: cs_6Dj_BeEx9WGNAqc_VKuFOR
           claim_id: c_gqUWsV9PJp_mFXUbWOOSjc
-          source_id: s_EM1EiXNFdd2En4S8CVu33q
+          source_id: s_tHjeUmEucrrYIT7v7ydt8R
           stance: supports
-          locator: Q15912763
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_EM1EiXNFdd2En4S8CVu33q
-            source_type: api_record
-            title: 维基数据：王允之（Q15912763）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王允之（303年—342年），字淵猷，琅琊臨沂（今山東臨沂）人。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_tHjeUmEucrrYIT7v7ydt8R
+            source_type: website
+            title: 中文维基百科：王允之
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q15912763
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%85%81%E4%B9%8B
             external_identifier: Q15912763
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:18:10.844Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%85%81%E4%B9%8B
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -155,7 +154,19 @@ properties:
           locator: Q15912763
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_EM1EiXNFdd2En4S8CVu33q
+            source_type: api_record
+            title: 维基数据：王允之（Q15912763）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q15912763
+            external_identifier: Q15912763
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:18:10.844Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%85%81%E4%B9%8B
       object_person: null
     alternatives: []
 relationships:
@@ -387,7 +398,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王允之（303年—342年），史料所见人物。本项目依据《王允之》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王允之（303年—342年），字淵猷，琅琊臨沂（今山東臨沂）人。出身於琅琊王氏，東晉時官員，是晉朝撫軍將軍王舒之子。官至衞將軍。 | accepted |
 | birth.date | 303年 | accepted |
 | death.date | 342年 | accepted |
 | name.primary | 王允之 | accepted |

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 萧长懋（458年—493年），南齊人物。CBDB 记录其籍贯记录为丹徒，身份包括宗子，入仕记录为世襲(替)。中国历代人物传记资料库（CBDB）以人物编号 34006 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 萧长懋（458年—493年），南齊人物。籍贯丹徒，身份为宗子，入仕世襲(替)，曾任教授、教諭。（中国历代人物传记资料库 CBDB 34006）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_UJRvgam4hEw1AXDb2zyPrU
           claim_id: c_caQ6gvC215UQeDmK7h1df8
@@ -389,7 +389,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 萧长懋（458年—493年），南齊人物。CBDB 记录其籍贯记录为丹徒，身份包括宗子，入仕记录为世襲(替)。中国历代人物传记资料库（CBDB）以人物编号 34006 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 萧长懋（458年—493年），南齊人物。籍贯丹徒，身份为宗子，入仕世襲(替)，曾任教授、教諭。（中国历代人物传记资料库 CBDB 34006） | accepted |
 | birth.date | 458年 | accepted |
 | death.date | 493年 | accepted |
 | name.primary | 萧长懋 | accepted |

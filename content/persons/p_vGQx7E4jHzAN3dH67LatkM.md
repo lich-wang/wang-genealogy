@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王有则（1820年—1882年），蒋介石外祖父。维基数据以独立条目 Q18228415 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王有则（1820年—1882年），蒋介石外祖父。维基数据以独立条目 Q18228415 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
         - id: cs_Zey3SYZPOJh7PvAPPRyIRE
           claim_id: c_GKiGeQ5SqVCC8i4LFgScgd
@@ -30,7 +30,7 @@ properties:
           locator: Q18228415
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
-          source:
+          source: &a1
             id: s_B19yevtyrKbFNN7YGHv44r
             source_type: api_record
             title: 维基数据：王有则（Q18228415）
@@ -155,19 +155,7 @@ properties:
           locator: Q18228415
           quotation: null
           interpretation_note: null
-          source:
-            id: s_B19yevtyrKbFNN7YGHv44r
-            source_type: api_record
-            title: 维基数据：王有则（Q18228415）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q18228415
-            external_identifier: Q18228415
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:59:21.514Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%9C%89%E5%89%87
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -246,7 +234,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王有则（1820年—1882年），蒋介石外祖父。维基数据以独立条目 Q18228415 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王有则（1820年—1882年），蒋介石外祖父。维基数据以独立条目 Q18228415 收录该人物。 | accepted |
 | birth.date | 1820年 | accepted |
 | death.date | 1882年 | accepted |
 | name.primary | 王有则 | accepted |

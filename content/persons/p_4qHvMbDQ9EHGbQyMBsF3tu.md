@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 新安穆公主，史料所见人物。本项目依据《新安穆公主》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 新安穆公主（?—?），中国南北朝梁朝公主，梁文帝萧顺之之女，梁武帝萧衍之妹。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_wb_5zI1O0EomOJzfsCpJYT
+        - id: cs_Fufyig-tFqPqtokI9DwN-X
           claim_id: c_xS7t0YwQ-pMoiFq43B9SdO
-          source_id: s_rWWhxEeN4eFtDMhhXLwnvf
+          source_id: s_CoPsPCuJlQbnSesFZ-oEf_
           stance: supports
-          locator: Q16603434
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_rWWhxEeN4eFtDMhhXLwnvf
-            source_type: api_record
-            title: 维基数据：新安穆公主（Q16603434）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 新安穆公主（?—?），中国南北朝梁朝公主，梁文帝萧顺之之女，梁武
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_CoPsPCuJlQbnSesFZ-oEf_
+            source_type: website
+            title: 中文维基百科：新安穆公主
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q16603434
+            canonical_url: https://zh.wikipedia.org/wiki/%E6%96%B0%E5%AE%89%E7%A9%86%E5%85%AC%E4%B8%BB
             external_identifier: Q16603434
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:31:50.786Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E6%96%B0%E5%AE%89%E7%A9%86%E5%85%AC%E4%B8%BB
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -69,7 +68,19 @@ properties:
           locator: Q16603434
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_rWWhxEeN4eFtDMhhXLwnvf
+            source_type: api_record
+            title: 维基数据：新安穆公主（Q16603434）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16603434
+            external_identifier: Q16603434
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:31:50.786Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E6%96%B0%E5%AE%89%E7%A9%86%E5%85%AC%E4%B8%BB
       object_person: null
     alternatives: []
 relationships:
@@ -244,7 +255,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 新安穆公主，史料所见人物。本项目依据《新安穆公主》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 新安穆公主（?—?），中国南北朝梁朝公主，梁文帝萧顺之之女，梁武帝萧衍之妹。 | accepted |
 | name.primary | 新安穆公主 | accepted |
 
 ## 关联关系

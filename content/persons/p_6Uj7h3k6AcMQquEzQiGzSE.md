@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王颐，明人物。CBDB 记录其籍贯记录为濬縣，曾任陰陽訓術。中国历代人物传记资料库（CBDB）以人物编号 326773 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王颐，明人物。景泰二年進士，籍贯濬縣，曾任陰陽訓術。（中国历代人物传记资料库 CBDB 326773）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_nR7tNfgM1LPL1Ut2gbrd5b
           claim_id: c_QXHCZG7p79pJCXUBb17rUp
@@ -256,7 +256,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王颐，明人物。CBDB 记录其籍贯记录为濬縣，曾任陰陽訓術。中国历代人物传记资料库（CBDB）以人物编号 326773 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王颐，明人物。景泰二年進士，籍贯濬縣，曾任陰陽訓術。（中国历代人物传记资料库 CBDB 326773） | accepted |
 | name.primary | 王颐 | accepted |
 
 ## 关联关系

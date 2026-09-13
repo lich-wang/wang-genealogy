@@ -17,30 +17,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王恂（1235年—1281年），史料所见人物。本项目依据《王恂》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王恂（1235年—1281年），字敬甫，祖籍中山唐县，元朝数学家。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
-        - id: cs_8nr7AVNDRYFVQ4jUhpyAl3
+        - id: cs_YL5P_yNXuC6h6_WeBDUhmw
           claim_id: c_zI1fxeaKgimKpdzbhZBACS
-          source_id: s_5JsKoH93gordmDjAEdt3gr
+          source_id: s_ymHzm_5l1uABFdZVH8gOo6
           stance: supports
-          locator: Q11573072
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_5JsKoH93gordmDjAEdt3gr
-            source_type: api_record
-            title: 维基数据：王恂（Q11573072）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王恂（1235年—1281年），字敬甫，祖籍中山唐县，元朝数学家
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_ymHzm_5l1uABFdZVH8gOo6
+            source_type: website
+            title: 中文维基百科：王恂 (元朝)
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q11573072
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%82_(%E5%85%83%E6%9C%9D)
             external_identifier: Q11573072
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:45:14.157Z
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -72,7 +72,18 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_5JsKoH93gordmDjAEdt3gr
+            source_type: api_record
+            title: 维基数据：王恂（Q11573072）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q11573072
+            external_identifier: Q11573072
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:45:14.157Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: death.date
@@ -231,7 +242,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王恂（1235年—1281年），史料所见人物。本项目依据《王恂》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王恂（1235年—1281年），字敬甫，祖籍中山唐县，元朝数学家。 | accepted |
 | birth.date | 1235年 | accepted |
 | death.date | 1281年 | accepted |
 | name.primary | 王恂 | accepted |
@@ -246,3 +257,4 @@ relationships:
 
 - [维基数据：王良（Q45649173）](https://www.wikidata.org/wiki/Q45649173)
 - [维基数据：王恂（Q11573072）](https://www.wikidata.org/wiki/Q11573072)
+- [中文维基百科：王恂 (元朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%82_(%E5%85%83%E6%9C%9D))

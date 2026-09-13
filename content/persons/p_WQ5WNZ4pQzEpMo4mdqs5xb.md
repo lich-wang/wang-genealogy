@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 柳氏，唐人物。CBDB 记录其身份包括外戚，曾任國夫人。中国历代人物传记资料库（CBDB）以人物编号 444926 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 柳氏，唐人物。身份为外戚，曾任國夫人。（中国历代人物传记资料库 CBDB 444926）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_xLLzo8ixBfK_rqeKQixeDp
           claim_id: c_41f8c_M8zfCnrzWQ8bAJzO
@@ -165,7 +165,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 柳氏，唐人物。CBDB 记录其身份包括外戚，曾任國夫人。中国历代人物传记资料库（CBDB）以人物编号 444926 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 柳氏，唐人物。身份为外戚，曾任國夫人。（中国历代人物传记资料库 CBDB 444926） | accepted |
 | name.primary | 柳氏 | accepted |
 
 ## 关联关系

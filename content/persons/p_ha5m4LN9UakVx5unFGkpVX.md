@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王迺（卒于820年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任州刺史。中国历代人物传记资料库（CBDB）以人物编号 175472 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王迺（卒于820年），唐人物。籍贯咸陽，曾任州刺史。（中国历代人物传记资料库 CBDB 175472）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_ZBKB2NB3zZXeFRCu9bcMoG
           claim_id: c_wY6XRy5KRS4bCKPu15MxHN
@@ -547,7 +547,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王迺（卒于820年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任州刺史。中国历代人物传记资料库（CBDB）以人物编号 175472 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王迺（卒于820年），唐人物。籍贯咸陽，曾任州刺史。（中国历代人物传记资料库 CBDB 175472） | accepted |
 | death.date | 820年 | accepted |
 | name.primary | 王迺 | accepted |
 

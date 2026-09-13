@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 沈大荣，明人物。中国历代人物传记资料库（CBDB）以人物编号 56146 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 沈大荣，史料所见人物。本项目依据《沈大荣》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_T3PhN34DlYpNs0P97hSTCi
+        - id: cs_28J76iEA4FawqGZGPO_vxC
           claim_id: c_214FDe4x7CzRPkeVA8XS6W
-          source_id: s_v91SBnfSCT61WFMJkDe42K
+          source_id: s_7wUHAqaE8r5JFjZaBz2kP5
           stance: supports
-          locator: CBDB:56146
+          locator: Q45510360
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: &a1
-            id: s_v91SBnfSCT61WFMJkDe42K
+            id: s_7wUHAqaE8r5JFjZaBz2kP5
             source_type: api_record
-            title: CBDB 中国历代人物传记资料库：沈大榮（56146）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
+            title: 维基数据：沈大荣（Q45510360）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56146&o=json
-            external_identifier: CBDB:56146
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:14:46.788Z
+            canonical_url: https://www.wikidata.org/wiki/Q45510360
+            external_identifier: Q45510360
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:14:46.649Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,18 +69,7 @@ properties:
           locator: Q45510360
           quotation: null
           interpretation_note: null
-          source:
-            id: s_7wUHAqaE8r5JFjZaBz2kP5
-            source_type: api_record
-            title: 维基数据：沈大荣（Q45510360）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45510360
-            external_identifier: Q45510360
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:14:46.649Z
-            metadata_json: null
+          source: *a1
         - id: cs_iPy4wg3XRcVK6kd8i84f3b
           claim_id: c_YACzG1PALBxJURkCyxY9Q6
           source_id: s_v91SBnfSCT61WFMJkDe42K
@@ -88,7 +77,18 @@ properties:
           locator: Q45510360
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_v91SBnfSCT61WFMJkDe42K
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：沈大榮（56146）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=56146&o=json
+            external_identifier: CBDB:56146
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:14:46.788Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -211,7 +211,7 @@ relationships:
           locator: 吳江沈氏家譜：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_8bp8UFt5ftmZi9Ry3T9KQh
         status: active
@@ -230,7 +230,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 沈大荣，明人物。中国历代人物传记资料库（CBDB）以人物编号 56146 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 沈大荣，史料所见人物。本项目依据《沈大荣》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 沈大荣 | accepted |
 
 ## 关联关系

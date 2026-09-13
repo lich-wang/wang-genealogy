@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王俌（卒于746年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任州刺史。中国历代人物传记资料库（CBDB）以人物编号 175453 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王俌（？—756年），字灵龟，唐朝官员，出自琅琊王氏。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_Ln1AcHiYL2pJg8kCGHdzwp
           claim_id: c_JU2K9CsXdYtNEasApNKQ6A
@@ -44,24 +44,24 @@ properties:
             accessed_at: 2026-08-24T04:07:27.013Z
             metadata_json:
               zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BF%8C_(%E5%94%90%E6%9C%9D)
-        - id: cs_5uzndQDZFkaG6jgvQOneMd
+        - id: cs_9viEmONoYuGMKTx-RDo99B
           claim_id: c_JU2K9CsXdYtNEasApNKQ6A
-          source_id: s_nB16U2nhz9j6YJvQSAZzMC
+          source_id: s_iaS3E5Wc_eRH0UjraSreQF
           stance: supports
-          locator: CBDB:175453
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_nB16U2nhz9j6YJvQSAZzMC
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王俌（175453）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
+          locator: 导言
+          quotation: 王俌（？—756年），字灵龟，唐朝官员，出自琅琊王氏。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_iaS3E5Wc_eRH0UjraSreQF
+            source_type: website
+            title: 中文维基百科：王俌 (唐朝)
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175453&o=json
-            external_identifier: CBDB:175453
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T04:07:27.181Z
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BF%8C_(%E5%94%90%E6%9C%9D)
+            external_identifier: Q45660547
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -132,7 +132,18 @@ properties:
           locator: Q45660547
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_nB16U2nhz9j6YJvQSAZzMC
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王俌（175453）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175453&o=json
+            external_identifier: CBDB:175453
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T04:07:27.181Z
+            metadata_json: null
         - id: cs_zMAFCPvNwpHgmaQVD1KoR2
           claim_id: c_Jvrrj45cyzF1FfL2sBrd3z
           source_id: s_vyWmh7JBAZcLjsXumeRUjc
@@ -1029,7 +1040,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王俌（卒于746年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任州刺史。中国历代人物传记资料库（CBDB）以人物编号 175453 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王俌（？—756年），字灵龟，唐朝官员，出自琅琊王氏。 | accepted |
 | death.date | 746年 | accepted |
 | name.primary | 王俌 | accepted |
 
@@ -1059,6 +1070,7 @@ relationships:
 - [维基数据：王润（Q45663208）](https://www.wikidata.org/wiki/Q45663208)
 - [维基数据：王晞（Q45660489）](https://www.wikidata.org/wiki/Q45660489)
 - [维基数据：王沼（Q45662809）](https://www.wikidata.org/wiki/Q45662809)
+- [中文维基百科：王俌 (唐朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BF%8C_(%E5%94%90%E6%9C%9D))
 - [CBDB 中国历代人物传记资料库：王澄（175470）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175470&o=json)
 - [CBDB 中国历代人物传记资料库：王俌（175453）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175453&o=json)
 - [CBDB 中国历代人物传记资料库：王淮（175485）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175485&o=json)

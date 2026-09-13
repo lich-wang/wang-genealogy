@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王倬（1447年—1521年），明人物。CBDB 记录其籍贯记录为崑山，身份包括良吏;循吏，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 126663 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
-          language: zh-Hans
+          text: 王倬（1447年—1521年），字用檢，號質菴，直隸蘇州府崑山縣軍籍，太倉州人，明朝政治人物。
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_GsNPzFcBk8S6XqPZB3LWp6
           claim_id: c_kHdiW6qUPERKqW9KZ4Wt99
@@ -44,24 +44,24 @@ properties:
             accessed_at: 2026-08-24T02:49:55.454Z
             metadata_json:
               zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%80%AC_(%E6%88%90%E5%8C%96%E9%80%B2%E5%A3%AB)
-        - id: cs_fl7zysK_sz0hVGXtWoRzdB
+        - id: cs_KFNLuZLws61Ce_t1m2ZQDU
           claim_id: c_kHdiW6qUPERKqW9KZ4Wt99
-          source_id: s_KiKcwY7ixByX4xMwNVCevX
+          source_id: s_lOYINfiWPyeEgancdt8v-N
           stance: supports
-          locator: CBDB:126663
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_KiKcwY7ixByX4xMwNVCevX
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王倬（126663）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
+          locator: 导言
+          quotation: 王倬（1447年—1521年），字用檢，號質菴，直隸蘇州府崑山縣
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_lOYINfiWPyeEgancdt8v-N
+            source_type: website
+            title: 中文维基百科：王倬 (成化進士)
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126663&o=json
-            external_identifier: CBDB:126663
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T02:49:55.585Z
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%80%AC_(%E6%88%90%E5%8C%96%E9%80%B2%E5%A3%AB)
+            external_identifier: Q20063835
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -195,7 +195,18 @@ properties:
           locator: Q20063835
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a1
+            id: s_KiKcwY7ixByX4xMwNVCevX
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王倬（126663）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126663&o=json
+            external_identifier: CBDB:126663
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T02:49:55.585Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -722,7 +733,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王倬（1447年—1521年），明人物。CBDB 记录其籍贯记录为崑山，身份包括良吏;循吏，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 126663 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王倬（1447年—1521年），字用檢，號質菴，直隸蘇州府崑山縣軍籍，太倉州人，明朝政治人物。 | accepted |
 | birth.date | 1447年 | accepted |
 | death.date | 1521年 | accepted |
 | name.primary | 王倬 | accepted |
@@ -751,6 +762,7 @@ relationships:
 - [維基數據：王忬（Q15933350）](https://www.wikidata.org/wiki/Q15933350)
 - [中文维基百科：王士騏](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E9%A8%8F)
 - [中文维基百科：王世懋](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E6%87%8B)
+- [中文维基百科：王倬 (成化進士)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%80%AC_(%E6%88%90%E5%8C%96%E9%80%B2%E5%A3%AB))
 - [CBDB 中国历代人物传记资料库：陳氏（252225）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252225&o=json)
 - [CBDB 中国历代人物传记资料库：陳氏（252226）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252226&o=json)
 - [CBDB 中国历代人物传记资料库：王倬（126663）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126663&o=json)

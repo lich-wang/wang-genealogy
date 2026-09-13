@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 刘氏，明人物。中国历代人物传记资料库（CBDB）以人物编号 246752 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 刘氏，明人物。成化八年進士。（中国历代人物传记资料库 CBDB 246752）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_rC8R12vHe9J3aO4omo1psB
           claim_id: c_l5YblI3TZfhAccv7lMqlaC
@@ -211,7 +211,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 刘氏，明人物。中国历代人物传记资料库（CBDB）以人物编号 246752 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 刘氏，明人物。成化八年進士。（中国历代人物传记资料库 CBDB 246752） | accepted |
 | name.primary | 刘氏 | accepted |
 
 ## 关联关系

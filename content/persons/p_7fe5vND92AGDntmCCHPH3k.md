@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王怿，史料所见人物。本项目依据《王怿》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王怿（？—？），琅邪临沂（今山东省临沂市）人，东晋中外大都督、太傅、丞相、始兴文献公王导的孙子，督浙江东五郡、镇军将军、会稽内史、散骑常侍王荟的儿子，王廞的兄弟。 王怿是个白痴，不能分辨豆和麦，当时都认为他是殷道矜一类的人，没有肯与之通婚的。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_2Ucyg-2-0OZGinP9K2eyfY
+        - id: cs_0dyKNsFdG6pQMSuIx1Cj-j
           claim_id: c_8_rLimVguO9g0HaGKGJWZ9
-          source_id: s_rojxgG2YrTFGQAfRUD1Q66
+          source_id: s_UWFE-mQacTfxLvKCZEf-iO
           stance: supports
-          locator: Q18118173
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_rojxgG2YrTFGQAfRUD1Q66
-            source_type: api_record
-            title: 维基数据：王怿（Q18118173）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王怿（？—？），琅邪临沂（今山东省临沂市）人，东晋中外大都督、太
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_UWFE-mQacTfxLvKCZEf-iO
+            source_type: website
+            title: 中文维基百科：王怿
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q18118173
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%80%BF
             external_identifier: Q18118173
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T02:49:02.510Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%80%BF
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -69,7 +68,19 @@ properties:
           locator: Q18118173
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_rojxgG2YrTFGQAfRUD1Q66
+            source_type: api_record
+            title: 维基数据：王怿（Q18118173）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q18118173
+            external_identifier: Q18118173
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:49:02.510Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%80%BF
       object_person: null
     alternatives: []
 relationships:
@@ -264,7 +275,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王怿，史料所见人物。本项目依据《王怿》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王怿（？—？），琅邪临沂（今山东省临沂市）人，东晋中外大都督、太傅、丞相、始兴文献公王导的孙子，督浙江东五郡、镇军将军、会稽内史、散骑常侍王荟的儿子，王廞的兄弟。 王怿是个白痴，不能分辨豆和麦，当时都认为他是殷道矜一类的人，没有肯与之通婚的。 | accepted |
 | name.primary | 王怿 | accepted |
 
 ## 关联关系
@@ -281,3 +292,4 @@ relationships:
 - [維基數據：王薈（Q15921815）](https://www.wikidata.org/wiki/Q15921815)
 - [中文维基百科：琅邪王氏世系圖](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F%E4%B8%96%E7%B3%BB%E5%9C%96)
 - [中文维基百科：王琨 (南朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%90%A8_(%E5%8D%97%E6%9C%9D))
+- [中文维基百科：王怿](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%80%BF)

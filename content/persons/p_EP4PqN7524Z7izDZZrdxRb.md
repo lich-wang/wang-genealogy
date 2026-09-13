@@ -18,20 +18,20 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王图炜，清人物。中国历代人物传记资料库（CBDB）以人物编号 69624 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王图炜，史料所见人物。本项目依据《王图炜》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_G2TJKG8aZDb9DVUp2Eew4e
+        - id: cs_muznT059bwn-dK_eMKHpAr
           claim_id: c_HiGK683dyHpqDwMZ84pkPp
           source_id: s_Y4nNKnvPxM2f8ATUiGJ3W8
           stance: supports
-          locator: null
+          locator: Q45676566
           quotation: null
-          interpretation_note: null
-          source:
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_Y4nNKnvPxM2f8ATUiGJ3W8
             source_type: api_record
             title: 维基数据：王图炜（Q45676566）
@@ -42,25 +42,6 @@ properties:
             external_identifier: Q45676566
             license_code: CC0-1.0
             accessed_at: 2026-09-05T01:59:40.609Z
-            metadata_json: null
-        - id: cs_iv5-TboYKdwcYb8SRmgLDX
-          claim_id: c_HiGK683dyHpqDwMZ84pkPp
-          source_id: s_QnxKVSMA7aD6BcY9DgUy7u
-          stance: supports
-          locator: CBDB:69624
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_QnxKVSMA7aD6BcY9DgUy7u
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王圖煒（69624）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69624&o=json
-            external_identifier: CBDB:69624
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T01:59:40.771Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -88,7 +69,18 @@ properties:
           locator: Q45676566
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_QnxKVSMA7aD6BcY9DgUy7u
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王圖煒（69624）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69624&o=json
+            external_identifier: CBDB:69624
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:40.771Z
+            metadata_json: null
         - id: cs_U8pXZAq7EVYx3grwRCK3dC
           claim_id: c_JxkHk9dmHMNM3C33AQdZSC
           source_id: s_Y4nNKnvPxM2f8ATUiGJ3W8
@@ -96,18 +88,7 @@ properties:
           locator: Q45676566
           quotation: null
           interpretation_note: null
-          source:
-            id: s_Y4nNKnvPxM2f8ATUiGJ3W8
-            source_type: api_record
-            title: 维基数据：王图炜（Q45676566）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45676566
-            external_identifier: Q45676566
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:59:40.609Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -324,7 +305,7 @@ relationships:
           locator: 亲属关系：妻子
           quotation: null
           interpretation_note: CBDB 注明此条来源：明清婦女著作數據庫
-          source: *a1
+          source: *a2
       object_person:
         id: p_FGUECt8UEJVxrFA7xCMHw4
         status: active
@@ -380,7 +361,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王图炜，清人物。中国历代人物传记资料库（CBDB）以人物编号 69624 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王图炜，史料所见人物。本项目依据《王图炜》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 王图炜 | accepted |
 
 ## 关联关系

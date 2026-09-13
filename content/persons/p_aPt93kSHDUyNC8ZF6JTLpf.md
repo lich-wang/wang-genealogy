@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "陈安石，宋人物。CBDB 记录其籍贯记录为河陽，入仕记录为科舉: 進士(籠統)，曾任尚書省戶部侍郎、光祿寺丞。中国历代人物传记资料库（CBDB）以人物编号 17 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 陈安石（1014—1094），宋人物。籍贯河陽，入仕進士，曾任尚書省戶部侍郎、光祿寺丞、輕車都尉。（中国历代人物传记资料库 CBDB 17）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
         - id: cs_3DO5Gx_Wb85vu0Z3YTUevA
           claim_id: c_wCefsf4q8VcpHH8FzkxcQV
@@ -201,7 +201,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 陈安石，宋人物。CBDB 记录其籍贯记录为河陽，入仕记录为科舉: 進士(籠統)，曾任尚書省戶部侍郎、光祿寺丞。中国历代人物传记资料库（CBDB）以人物编号 17 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 陈安石（1014—1094），宋人物。籍贯河陽，入仕進士，曾任尚書省戶部侍郎、光祿寺丞、輕車都尉。（中国历代人物传记资料库 CBDB 17） | accepted |
 | name.primary | 陈安石 | accepted |
 
 ## 关联关系

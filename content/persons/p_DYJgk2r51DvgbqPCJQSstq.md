@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王凯泰（1823年—1875年），清朝政治人物。维基数据以独立条目 Q11151785 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王凯泰（1823年—1875年），清朝政治人物。维基数据以独立条目 Q11151785 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_GxDGPRk8FD-cjTEDMXxaWC
           claim_id: c_QYZbRPNzZsa7Q9V1UQqz9v
@@ -174,7 +174,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王凯泰（1823年—1875年），清朝政治人物。维基数据以独立条目 Q11151785 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王凯泰（1823年—1875年），清朝政治人物。维基数据以独立条目 Q11151785 收录该人物。 | accepted |
 | birth.date | 1823年 | accepted |
 | death.date | 1875年 | accepted |
 | name.primary | 王凯泰 | accepted |

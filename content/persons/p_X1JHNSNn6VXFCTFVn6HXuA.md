@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王涣（967年—1056年），北宋禮部侍郎。维基数据以独立条目 Q45362965 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 王涣（967年—1056年），宋人物。籍贯虞城，曾任起居郎、太子賓客、尚書省工部屯田司員外郎。（中国历代人物传记资料库 CBDB 3957）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_6JpHlDBmNpIb92CCzP096d
+        - id: cs_OICRSIkLib8ZUtKbrIS8Yu
           claim_id: c_ep4DYV5yftMvVzqpPxZ1L8
-          source_id: s_GDCh7KN73yY43YCNHFB3qh
+          source_id: s_VfErtMxHoQqfgD66dDrBwg
           stance: supports
-          locator: Q45362965
+          locator: CBDB:3957
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_GDCh7KN73yY43YCNHFB3qh
+            id: s_VfErtMxHoQqfgD66dDrBwg
             source_type: api_record
-            title: 维基数据：王涣（Q45362965）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：王渙（3957）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45362965
-            external_identifier: Q45362965
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:07:12.061Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3957&o=json
+            external_identifier: CBDB:3957
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:07:12.214Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -153,7 +153,18 @@ properties:
           locator: Q45362965
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_GDCh7KN73yY43YCNHFB3qh
+            source_type: api_record
+            title: 维基数据：王涣（Q45362965）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45362965
+            external_identifier: Q45362965
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:12.061Z
+            metadata_json: null
         - id: cs_vbXypXDmBZsgHUF3wcRhnT
           claim_id: c_3eX2nzWBRMLyS9n4NDt6xX
           source_id: s_VfErtMxHoQqfgD66dDrBwg
@@ -161,18 +172,7 @@ properties:
           locator: Q45362965
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_VfErtMxHoQqfgD66dDrBwg
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王渙（3957）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3957&o=json
-            external_identifier: CBDB:3957
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:07:12.214Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -216,7 +216,7 @@ relationships:
           locator: P22（父）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_vkWs7MzXd3R1BURtxQgFpt
           claim_id: c_CXRfRM3tvwko6vT5kFjCr8
           source_id: s_k4sFmeLJCYGtEaPGKsQ95C
@@ -281,7 +281,7 @@ relationships:
           locator: P40（子女）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_gvmxc3ncNvddr8E3GA77Zo
           claim_id: c_dxCj9VLAx4WGU4Ccy7bwQC
           source_id: s_VfErtMxHoQqfgD66dDrBwg
@@ -289,7 +289,7 @@ relationships:
           locator: 亲属关系：子
           quotation: null
           interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
-          source: *a2
+          source: *a1
       object_person:
         id: p_MEivvR5reMbS3HUwNHUjJE
         status: active
@@ -334,7 +334,7 @@ relationships:
           locator: P40（子女）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_q7nHGp5W7Haq3e8SnZfDUr
           claim_id: c_CbtYv6u2bpKx7Rpczin2Wd
           source_id: s_VfErtMxHoQqfgD66dDrBwg
@@ -342,7 +342,7 @@ relationships:
           locator: 亲属关系：女兒
           quotation: null
           interpretation_note: CBDB 注明此条来源：未知
-          source: *a2
+          source: *a1
       object_person:
         id: p_PnvF56a5LLxKLR6qhb9dGi
         status: active
@@ -364,7 +364,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王涣（967年—1056年），北宋禮部侍郎。维基数据以独立条目 Q45362965 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王涣（967年—1056年），宋人物。籍贯虞城，曾任起居郎、太子賓客、尚書省工部屯田司員外郎。（中国历代人物传记资料库 CBDB 3957） | accepted |
 | birth.date | 967年 | accepted |
 | death.date | 1056年 | accepted |
 | name.primary | 王涣 | accepted |

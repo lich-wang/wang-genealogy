@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王渎，宋人物。CBDB 记录其籍贯记录为虞城，入仕记录为科舉: 進士(籠統)，曾任門下省給事中、上輕車都尉。中国历代人物传记资料库（CBDB）以人物编号 3986 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王渎，宋人物。籍贯虞城，入仕進士，曾任門下省給事中、上輕車都尉、太常寺博士。（中国历代人物传记资料库 CBDB 3986）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_47EadKC5g93v3onjNQm3se
           claim_id: c_a5yKEkPsx7c2aeXyj9NLnP
@@ -391,7 +391,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王渎，宋人物。CBDB 记录其籍贯记录为虞城，入仕记录为科舉: 進士(籠統)，曾任門下省給事中、上輕車都尉。中国历代人物传记资料库（CBDB）以人物编号 3986 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王渎，宋人物。籍贯虞城，入仕進士，曾任門下省給事中、上輕車都尉、太常寺博士。（中国历代人物传记资料库 CBDB 3986） | accepted |
 | name.primary | 王渎 | accepted |
 
 ## 关联关系

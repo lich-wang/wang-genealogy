@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王弘福，唐人物。CBDB 记录其籍贯记录为萬年，曾任司農卿。中国历代人物传记资料库（CBDB）以人物编号 151252 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
-          language: zh-Hant
+          text: 王弘福，唐人物。籍贯杜陵，曾任司農卿。（中国历代人物传记资料库 CBDB 151252）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_CB7HVPfYQX5xqTiEYN32p8
           claim_id: c_K31k62GhRkEwmEbfEStm9p
@@ -305,7 +305,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王弘福，唐人物。CBDB 记录其籍贯记录为萬年，曾任司農卿。中国历代人物传记资料库（CBDB）以人物编号 151252 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王弘福，唐人物。籍贯杜陵，曾任司農卿。（中国历代人物传记资料库 CBDB 151252） | accepted |
 | name.primary | 王弘福 | accepted |
 
 ## 关联关系

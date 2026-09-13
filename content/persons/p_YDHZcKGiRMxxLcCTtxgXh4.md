@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 陈氏，王倬妻。维基数据以独立条目 Q65856924 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 陈氏，明人物。成化十四年進士。（中国历代人物传记资料库 CBDB 252225）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_nazGSBbl-a8AnthN0IoHs8
+        - id: cs_a7ak4fkqc98E_cbmJzacAX
           claim_id: c_HtRJ6Djekh0Ptn4KUht_hy
-          source_id: s_KtmQidBDmujUswQ4ZqGwCR
+          source_id: s_EBeeMngiQGN21uM1P5RCkw
           stance: supports
-          locator: Q65856924
+          locator: CBDB:252225
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_KtmQidBDmujUswQ4ZqGwCR
+            id: s_EBeeMngiQGN21uM1P5RCkw
             source_type: api_record
-            title: 维基数据：陈氏（Q65856924）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：陳氏（252225）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65856924
-            external_identifier: Q65856924
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T00:38:02.679Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252225&o=json
+            external_identifier: CBDB:252225
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T00:38:02.850Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,18 +69,7 @@ properties:
           locator: Q65856924
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_EBeeMngiQGN21uM1P5RCkw
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：陳氏（252225）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252225&o=json
-            external_identifier: CBDB:252225
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T00:38:02.850Z
-            metadata_json: null
+          source: *a1
         - id: cs_Y48QA3SR9H1JjK3RPizgb6
           claim_id: c_EwydwTa6N36vXU8pxsF6Y9
           source_id: s_KtmQidBDmujUswQ4ZqGwCR
@@ -88,7 +77,18 @@ properties:
           locator: Q65856924
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_KtmQidBDmujUswQ4ZqGwCR
+            source_type: api_record
+            title: 维基数据：陈氏（Q65856924）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65856924
+            external_identifier: Q65856924
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T00:38:02.679Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -193,7 +193,7 @@ relationships:
           locator: 成化十四年進士登科錄:一卷，第三甲第五十九名：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_2CY82LiLunPZpBKWzpBz3S
         status: active
@@ -212,7 +212,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 陈氏，王倬妻。维基数据以独立条目 Q65856924 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 陈氏，明人物。成化十四年進士。（中国历代人物传记资料库 CBDB 252225） | accepted |
 | name.primary | 陈氏 | accepted |
 
 ## 关联关系

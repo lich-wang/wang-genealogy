@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王缜（1463年—1523年），明朝官员。维基数据以独立条目 Q15933343 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王缜（1463年—1523年），明朝官员。维基数据以独立条目 Q15933343 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_Jv1J0v1yLBg6FHL3wl6d78
           claim_id: c_XMKu81mS1MbHZx8VApf4sB
@@ -305,7 +305,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王缜（1463年—1523年），明朝官员。维基数据以独立条目 Q15933343 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王缜（1463年—1523年），明朝官员。维基数据以独立条目 Q15933343 收录该人物。 | accepted |
 | birth.date | 1463年 | accepted |
 | death.date | 1523年 | accepted |
 | name.primary | 王缜 | accepted |

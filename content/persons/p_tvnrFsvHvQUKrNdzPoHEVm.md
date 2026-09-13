@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王益之，宋人物。CBDB 记录其籍贯记录为金華，身份包括經學家—漢學，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 22239 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
-          language: zh-Hant
+          text: 王益之，字行甫，金华人，尝官大理司直，南宋史学家。
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_bqxwom48Dn2EqHjY6FRNEo
           claim_id: c_sZeciKNfG9p89XZM51WBCH
@@ -31,7 +31,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source: &a2
+          source: &a1
             id: s_hGdsQz7aqgwRprM8Z69YpF
             source_type: api_record
             title: 维基数据：王益之（Q18905525）
@@ -44,24 +44,24 @@ properties:
             accessed_at: 2026-09-05T02:06:06.804Z
             metadata_json:
               zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%9B%8A%E4%B9%8B
-        - id: cs_ehK-I3AOm4IE3fU2gey4ZU
+        - id: cs_I7uT-XS4jcsXAXbOfvc9-d
           claim_id: c_sZeciKNfG9p89XZM51WBCH
-          source_id: s_gXKt8x2CzaZnCb1hs7YGLa
+          source_id: s_4V46zWSA_5aG2VplafwWJA
           stance: supports
-          locator: CBDB:22239
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_gXKt8x2CzaZnCb1hs7YGLa
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王益之（22239）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
+          locator: 导言
+          quotation: 王益之，字行甫，金华人，尝官大理司直，南宋史学家。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_4V46zWSA_5aG2VplafwWJA
+            source_type: website
+            title: 中文维基百科：王益之
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22239&o=json
-            external_identifier: CBDB:22239
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:06:06.970Z
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%9B%8A%E4%B9%8B
+            external_identifier: Q18905525
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -109,7 +109,18 @@ properties:
           locator: Q18905525
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_gXKt8x2CzaZnCb1hs7YGLa
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王益之（22239）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22239&o=json
+            external_identifier: CBDB:22239
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:06.970Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -134,7 +145,7 @@ relationships:
           locator: P22（父）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source: *a1
         - id: cs_ZJDtt5CCGAiWgjGM3gnviF
           claim_id: c_pqUq1nA5e1kb3gxCyiH2Ko
           source_id: s_D7NNZLUFKQfdTjRPpLvri2
@@ -195,7 +206,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王益之，宋人物。CBDB 记录其籍贯记录为金華，身份包括經學家—漢學，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 22239 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王益之，字行甫，金华人，尝官大理司直，南宋史学家。 | accepted |
 | name.primary | 王益之 | accepted |
 
 ## 关联关系
@@ -208,5 +219,6 @@ relationships:
 
 - [维基数据：王师古（Q45369091）](https://www.wikidata.org/wiki/Q45369091)
 - [维基数据：王益之（Q18905525）](https://www.wikidata.org/wiki/Q18905525)
+- [中文维基百科：王益之](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%9B%8A%E4%B9%8B)
 - [CBDB 中国历代人物传记资料库：王師古（10688）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10688&o=json)
 - [CBDB 中国历代人物传记资料库：王益之（22239）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22239&o=json)

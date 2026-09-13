@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王伯庠（1106年—1173年），宋人物。CBDB 记录其籍贯记录为章丘，入仕记录为科舉: 進士(籠統)，曾任安撫使、左朝請大夫。中国历代人物传记资料库（CBDB）以人物编号 17444 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王伯庠（1106年—1173年），字伯禮。南宋儒学者、诗人、政治人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_cXy3G8TdCKRUkNbWVJ8Cgi
           claim_id: c_nH4ENhd6tuQq35C3pSNdbp
@@ -44,24 +44,24 @@ properties:
             accessed_at: 2026-09-05T01:58:55.754Z
             metadata_json:
               zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BC%AF%E5%BA%A0
-        - id: cs_AMTxyqTjNFEvFUZ7INtTiz
+        - id: cs_Gz53bTkgqN-76PJKmxtVgl
           claim_id: c_nH4ENhd6tuQq35C3pSNdbp
-          source_id: s_o6fwhY8EBNrs3ZN82gocSx
+          source_id: s_EpoUAE32giHboEg11dbi1e
           stance: supports
-          locator: CBDB:17444
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_o6fwhY8EBNrs3ZN82gocSx
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王伯庠（17444）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
+          locator: 导言
+          quotation: 王伯庠（1106年—1173年），字伯禮。南宋儒学者、诗人、政治
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_EpoUAE32giHboEg11dbi1e
+            source_type: website
+            title: 中文维基百科：王伯庠
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17444&o=json
-            external_identifier: CBDB:17444
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T01:58:55.897Z
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BC%AF%E5%BA%A0
+            external_identifier: Q18110186
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -195,7 +195,18 @@ properties:
           locator: Q18110186
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a1
+            id: s_o6fwhY8EBNrs3ZN82gocSx
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王伯庠（17444）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17444&o=json
+            external_identifier: CBDB:17444
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:58:55.897Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -632,7 +643,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王伯庠（1106年—1173年），宋人物。CBDB 记录其籍贯记录为章丘，入仕记录为科舉: 進士(籠統)，曾任安撫使、左朝請大夫。中国历代人物传记资料库（CBDB）以人物编号 17444 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王伯庠（1106年—1173年），字伯禮。南宋儒学者、诗人、政治人物。 | accepted |
 | birth.date | 1106年 | accepted |
 | death.date | 1173年 | accepted |
 | name.primary | 王伯庠 | accepted |
@@ -660,5 +671,6 @@ relationships:
 - [维基数据：王有大（Q45426566）](https://www.wikidata.org/wiki/Q45426566)
 - [维基数据：王正大（Q45426607）](https://www.wikidata.org/wiki/Q45426607)
 - [中国历代人物传记资料库：王梴（CBDB 17447）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17447&o=json)
+- [中文维基百科：王伯庠](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BC%AF%E5%BA%A0)
 - [CBDB 中国历代人物传记资料库：王伯庠（17444）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17444&o=json)
 - [CBDB 中国历代人物传记资料库：王次翁（1908）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1908&o=json)

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王麟，明人物。CBDB 记录其曾任都察院右副都御史、戶部主事。中国历代人物传记资料库（CBDB）以人物编号 220261 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王麟，明人物。隆慶五年進士，曾任都察院右副都御史、戶部主事、戶部左侍郎。（中国历代人物传记资料库 CBDB 220261）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_5494Kqae9FdXQAF8tqSKF4
           claim_id: c_pGLuwhHobES9F1Ptp7GL8P
@@ -364,7 +364,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王麟，明人物。CBDB 记录其曾任都察院右副都御史、戶部主事。中国历代人物传记资料库（CBDB）以人物编号 220261 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王麟，明人物。隆慶五年進士，曾任都察院右副都御史、戶部主事、戶部左侍郎。（中国历代人物传记资料库 CBDB 220261） | accepted |
 | name.primary | 王麟 | accepted |
 
 ## 关联关系

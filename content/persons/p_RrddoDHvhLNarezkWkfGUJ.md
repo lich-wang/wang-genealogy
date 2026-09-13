@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王珤，明人物。中国历代人物传记资料库（CBDB）以人物编号 279738 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王珤，明人物。正德十二年進士。（中国历代人物传记资料库 CBDB 279738）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_394CKK9hL1xEU4E9vEFgCT
           claim_id: c_rZZ7ysTGe64x41Jx4uQpGj
@@ -256,7 +256,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王珤，明人物。中国历代人物传记资料库（CBDB）以人物编号 279738 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王珤，明人物。正德十二年進士。（中国历代人物传记资料库 CBDB 279738） | accepted |
 | name.primary | 王珤 | accepted |
 
 ## 关联关系

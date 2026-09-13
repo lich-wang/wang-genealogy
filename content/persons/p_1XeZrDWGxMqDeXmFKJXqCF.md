@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王宗訓，清人物。中国历代人物传记资料库（CBDB）以人物编号 414313 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王宗訓，清人物。曾任訓導。（中国历代人物传记资料库 CBDB 414313）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_hNiSCYWMmoHwYYzh04MX2K
           claim_id: c_74f3ux8UsxYAHxE6AJZ74b
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:414313
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_wVv73ySokDkC1PhwT1h5ak
             source_type: api_record
             title: 中国历代人物传记资料库：王宗訓（CBDB 414313）
@@ -70,19 +70,7 @@ properties:
           locator: CBDB:414313
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（5401-5500）｜历史性依据：CBDB 朝代 = 清
-          source:
-            id: s_wVv73ySokDkC1PhwT1h5ak
-            source_type: api_record
-            title: 中国历代人物传记资料库：王宗訓（CBDB 414313）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=414313&o=json
-            external_identifier: CBDB:414313
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:17:32.727Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -104,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王宗訓，清人物。中国历代人物传记资料库（CBDB）以人物编号 414313 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王宗訓，清人物。曾任訓導。（中国历代人物传记资料库 CBDB 414313） | accepted |
 | name.primary | 王宗訓 | accepted |
 
 ## 关联关系

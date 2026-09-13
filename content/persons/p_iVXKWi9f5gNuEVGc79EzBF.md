@@ -18,20 +18,20 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王晏宝（卒于854年），唐人物。中国历代人物传记资料库（CBDB）以人物编号 184943 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王晏宝（卒于854年），史料所见人物。本项目依据《王晏宝》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_Up8fQUQvdFjtDym1E9CGb8
+        - id: cs_jZ9iN5SRkTi5yi3XVw2O8c
           claim_id: c_bHvq2y7QNMXuB6W46gcTCQ
           source_id: s_64XeMFRrpqodXsZKs2NNK9
           stance: supports
-          locator: null
+          locator: Q45603535
           quotation: null
-          interpretation_note: null
-          source: &a2
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_64XeMFRrpqodXsZKs2NNK9
             source_type: api_record
             title: 维基数据：王晏宝（Q45603535）
@@ -42,25 +42,6 @@ properties:
             external_identifier: Q45603535
             license_code: CC0-1.0
             accessed_at: 2026-09-05T02:06:40.541Z
-            metadata_json: null
-        - id: cs_k80qRx9atCuU66pnvFy3HM
-          claim_id: c_bHvq2y7QNMXuB6W46gcTCQ
-          source_id: s_yNY1NrAj3295GrzhL3CDMT
-          stance: supports
-          locator: CBDB:184943
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_yNY1NrAj3295GrzhL3CDMT
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王晏寶（184943）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184943&o=json
-            external_identifier: CBDB:184943
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:06:40.709Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -130,18 +111,7 @@ properties:
           locator: Q45603535
           quotation: null
           interpretation_note: null
-          source:
-            id: s_64XeMFRrpqodXsZKs2NNK9
-            source_type: api_record
-            title: 维基数据：王晏宝（Q45603535）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45603535
-            external_identifier: Q45603535
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:06:40.541Z
-            metadata_json: null
+          source: *a1
         - id: cs_qkQyt7b8LTaq3vcNDKQyma
           claim_id: c_PrAhPXXdxcCkwja98F5JW3
           source_id: s_yNY1NrAj3295GrzhL3CDMT
@@ -149,7 +119,18 @@ properties:
           locator: Q45603535
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_yNY1NrAj3295GrzhL3CDMT
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王晏寶（184943）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=184943&o=json
+            external_identifier: CBDB:184943
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:40.709Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -194,7 +175,18 @@ relationships:
           locator: P22（父）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source:
+            id: s_64XeMFRrpqodXsZKs2NNK9
+            source_type: api_record
+            title: 维基数据：王晏宝（Q45603535）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45603535
+            external_identifier: Q45603535
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:40.541Z
+            metadata_json: null
       object_person:
         id: p_6BymFd7sw6j7GAmg7erqPj
         status: active
@@ -220,7 +212,7 @@ relationships:
           locator: 唐五代人物傳記與社會網絡資料庫(1.0版)：父
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_1HLRDPP5GEjvYAj6jfrJ31
         status: merged
@@ -243,7 +235,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王晏宝（卒于854年），唐人物。中国历代人物传记资料库（CBDB）以人物编号 184943 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王晏宝（卒于854年），史料所见人物。本项目依据《王晏宝》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | death.date | 854年 | accepted |
 | name.primary | 王晏宝 | accepted |
 

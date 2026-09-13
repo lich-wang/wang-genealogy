@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王耆之，東晉人物。CBDB 记录其籍贯记录为剡縣。中国历代人物传记资料库（CBDB）以人物编号 25807 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王耆之，東晉人物。籍贯剡縣。（中国历代人物传记资料库 CBDB 25807）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_7pLcvVDCaaWvWuFCJ8e4r3
           claim_id: c_Qmza5zH1BGhxPQJBge732G
@@ -318,7 +318,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王耆之，東晉人物。CBDB 记录其籍贯记录为剡縣。中国历代人物传记资料库（CBDB）以人物编号 25807 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王耆之，東晉人物。籍贯剡縣。（中国历代人物传记资料库 CBDB 25807） | accepted |
 | name.primary | 王耆之 | accepted |
 
 ## 关联关系

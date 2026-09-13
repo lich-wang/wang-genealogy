@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 郁氏，王忬妻。维基数据以独立条目 Q65827493 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 郁氏，明人物。嘉靖二十年進士。（中国历代人物传记资料库 CBDB 303469）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_D86xVia_UgfPirPpmU0-Iv
+        - id: cs_YiDOdQTXd4POgoemtLxydg
           claim_id: c_sApEVOwogB0TDPb-MTKhvc
-          source_id: s_aNsEFzGJdC3p8QXwCZdg5G
+          source_id: s_aUmSHk5KEdquBJsxYqi7Vn
           stance: supports
-          locator: Q65827493
+          locator: CBDB:303469
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_aNsEFzGJdC3p8QXwCZdg5G
+            id: s_aUmSHk5KEdquBJsxYqi7Vn
             source_type: api_record
-            title: 维基数据：郁氏（Q65827493）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：郁氏（303469）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65827493
-            external_identifier: Q65827493
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T00:38:02.679Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303469&o=json
+            external_identifier: CBDB:303469
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T00:38:02.861Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,18 +69,7 @@ properties:
           locator: Q65827493
           quotation: null
           interpretation_note: null
-          source:
-            id: s_aUmSHk5KEdquBJsxYqi7Vn
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：郁氏（303469）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303469&o=json
-            external_identifier: CBDB:303469
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T00:38:02.861Z
-            metadata_json: null
+          source: *a1
         - id: cs_xAKA2p3Pk6rU52Ms8RA9dS
           claim_id: c_NufCsC2o36hMTGriZNvYkf
           source_id: s_aNsEFzGJdC3p8QXwCZdg5G
@@ -88,7 +77,18 @@ properties:
           locator: Q65827493
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_aNsEFzGJdC3p8QXwCZdg5G
+            source_type: api_record
+            title: 维基数据：郁氏（Q65827493）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65827493
+            external_identifier: Q65827493
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T00:38:02.679Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -167,7 +167,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 郁氏，王忬妻。维基数据以独立条目 Q65827493 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 郁氏，明人物。嘉靖二十年進士。（中国历代人物传记资料库 CBDB 303469） | accepted |
 | name.primary | 郁氏 | accepted |
 
 ## 关联关系

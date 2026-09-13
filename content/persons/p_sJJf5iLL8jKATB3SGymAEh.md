@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王珏（1112年—1164年），宋人物。CBDB 记录其籍贯记录为烏程，身份包括良吏;循吏，入仕记录为科舉學校: 恩賜出身、特賜出身等。中国历代人物传记资料库（CBDB）以人物编号 1796 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: "王珏（1112年—1164年），宋人物。籍贯烏程，身份为良吏;循吏，入仕科舉學校: 恩賜出身、特賜出身等，曾任提舉、總領、奉直郎。（中国历代人物传记资料库 CBDB 1796）"
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_pfArdDyLK4zK2uTpmo4zLP
           claim_id: c_bYUzFBtoj5L26U8w9wGQb2
@@ -438,7 +438,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王珏（1112年—1164年），宋人物。CBDB 记录其籍贯记录为烏程，身份包括良吏;循吏，入仕记录为科舉學校: 恩賜出身、特賜出身等。中国历代人物传记资料库（CBDB）以人物编号 1796 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王珏（1112年—1164年），宋人物。籍贯烏程，身份为良吏;循吏，入仕科舉學校: 恩賜出身、特賜出身等，曾任提舉、總領、奉直郎。（中国历代人物传记资料库 CBDB 1796） | accepted |
 | birth.date | 1112年 | accepted |
 | death.date | 1164年 | accepted |
 | name.primary | 王珏 | accepted |

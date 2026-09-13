@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王培龄（生于1506年），明人物。CBDB 记录其籍贯记录为鄉寧，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 202447 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王培龄（生于1506年），明人物。明清進士進士，籍贯鄉寧，入仕進士。（中国历代人物传记资料库 CBDB 202447）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_oiSPCKYXDWaiFF6M7Ad9kq
           claim_id: c_ZyBjvnD37jb5op9H6xxHuX
@@ -365,7 +365,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王培龄（生于1506年），明人物。CBDB 记录其籍贯记录为鄉寧，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 202447 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王培龄（生于1506年），明人物。明清進士進士，籍贯鄉寧，入仕進士。（中国历代人物传记资料库 CBDB 202447） | accepted |
 | birth.date | 1506年 | accepted |
 | name.primary | 王培龄 | accepted |
 

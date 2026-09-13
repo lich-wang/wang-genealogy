@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 司马道福，史料所见人物。本项目依据《司马道福》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 司马道福（?—?），中国東晋簡文帝司馬昱第三女，母親贵人徐氏。
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_pXZZ353ZaEQECFaB6hwPOb
+        - id: cs_ESpR70MqI3UbYBrtSeCslK
           claim_id: c_usdAjMidasLEe1VMuKYZWr
-          source_id: s_VXA9vLDhCqnmqj7qtBxspn
+          source_id: s_VWmBNdbRoCVaeX34v-n8wJ
           stance: supports
-          locator: Q10916700
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_VXA9vLDhCqnmqj7qtBxspn
-            source_type: api_record
-            title: 维基数据：司马道福（Q10916700）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 司马道福（?—?），中国東晋簡文帝司馬昱第三女，母親贵人徐氏。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_VWmBNdbRoCVaeX34v-n8wJ
+            source_type: website
+            title: 中文维基百科：司马道福
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q10916700
+            canonical_url: https://zh.wikipedia.org/wiki/%E5%8F%B8%E9%A9%AC%E9%81%93%E7%A6%8F
             external_identifier: Q10916700
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T02:49:10.674Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E5%8F%B8%E9%A9%AC%E9%81%93%E7%A6%8F
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -69,7 +68,19 @@ properties:
           locator: Q10916700
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_VXA9vLDhCqnmqj7qtBxspn
+            source_type: api_record
+            title: 维基数据：司马道福（Q10916700）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q10916700
+            external_identifier: Q10916700
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:49:10.674Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E5%8F%B8%E9%A9%AC%E9%81%93%E7%A6%8F
       object_person: null
     alternatives: []
 relationships:
@@ -244,7 +255,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 司马道福，史料所见人物。本项目依据《司马道福》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 司马道福（?—?），中国東晋簡文帝司馬昱第三女，母親贵人徐氏。 | accepted |
 | name.primary | 司马道福 | accepted |
 
 ## 关联关系

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王承仙（709年—786年），唐人物。中国历代人物传记资料库（CBDB）以人物编号 143147 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王承仙（709年—786年），史料所见人物。本项目依据《中国历代人物传记资料库：王承仙（CBDB 143147）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_23UZfAKUt0-074_tLpFUoy
           claim_id: c_GLWupCgeer4N2qwJLFVDEL
@@ -30,8 +30,8 @@ properties:
           stance: supports
           locator: CBDB:143147
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_WGpC3C87zLCZsew7QC3LQN
             source_type: api_record
             title: 中国历代人物传记资料库：王承仙（CBDB 143147）
@@ -156,19 +156,7 @@ properties:
           locator: CBDB:143147
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（401-500）｜历史性依据：CBDB 卒年 = 786
-          source:
-            id: s_WGpC3C87zLCZsew7QC3LQN
-            source_type: api_record
-            title: 中国历代人物传记资料库：王承仙（CBDB 143147）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143147&o=json
-            external_identifier: CBDB:143147
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:16:39.240Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -302,7 +290,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王承仙（709年—786年），唐人物。中国历代人物传记资料库（CBDB）以人物编号 143147 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王承仙（709年—786年），史料所见人物。本项目依据《中国历代人物传记资料库：王承仙（CBDB 143147）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | birth.date | 709年 | accepted |
 | death.date | 786年 | accepted |
 | name.primary | 王承仙 | accepted |

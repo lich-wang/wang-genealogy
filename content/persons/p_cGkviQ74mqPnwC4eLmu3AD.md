@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王侁（卒于746年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任州刺史。中国历代人物传记资料库（CBDB）以人物编号 175526 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王侁（卒于746年），唐人物。籍贯咸陽，曾任州刺史。（中国历代人物传记资料库 CBDB 175526）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_XM1pzv7R6P5KbsxK2mT7Hh
           claim_id: c_8WUPT83c7D9Zk4XGHmjgms
@@ -584,7 +584,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王侁（卒于746年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任州刺史。中国历代人物传记资料库（CBDB）以人物编号 175526 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王侁（卒于746年），唐人物。籍贯咸陽，曾任州刺史。（中国历代人物传记资料库 CBDB 175526） | accepted |
 | death.date | 746年 | accepted |
 | name.primary | 王侁 | accepted |
 

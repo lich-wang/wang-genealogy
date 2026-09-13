@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王冲（989年—1056年），宋人物。CBDB 记录其籍贯记录为虞城，入仕记录为科舉: 進士(籠統)，曾任尚書省兵部職方司員外郎、尚書省工部屯田司郎中。中国历代人物传记资料库（CBDB）以人物编号 15752 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王冲（989年—1056年），宋人物。籍贯虞城，入仕進士，曾任尚書省兵部職方司員外郎、尚書省工部屯田司郎中、尚書省工部屯田司員外郎。（中国历代人物传记资料库 CBDB 15752）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_8gJoPJfwoMo3r8sdo7mWYu
           claim_id: c_dchajYXv2GtNjcrFSGeo9D
@@ -367,7 +367,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王冲（989年—1056年），宋人物。CBDB 记录其籍贯记录为虞城，入仕记录为科舉: 進士(籠統)，曾任尚書省兵部職方司員外郎、尚書省工部屯田司郎中。中国历代人物传记资料库（CBDB）以人物编号 15752 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王冲（989年—1056年），宋人物。籍贯虞城，入仕進士，曾任尚書省兵部職方司員外郎、尚書省工部屯田司郎中、尚書省工部屯田司員外郎。（中国历代人物传记资料库 CBDB 15752） | accepted |
 | birth.date | 989年 | accepted |
 | death.date | 1056年 | accepted |
 | name.primary | 王冲 | accepted |

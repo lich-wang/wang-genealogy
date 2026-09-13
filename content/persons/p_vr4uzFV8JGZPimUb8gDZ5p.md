@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王厚之（1131年—1204年），南宋乾道二年（1166）进士。金石学家（1131-1204）。维基数据以独立条目 Q45362948 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王厚之（1131年—1204年），南宋乾道二年（1166）进士。金石学家（1131-1204）。维基数据以独立条目 Q45362948 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
         - id: cs_2wq41dgLcx6NGMluBWji6U
           claim_id: c_v5W96DR7nCEPyBgvjkRPZj
@@ -30,7 +30,7 @@ properties:
           locator: Q45362948
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
-          source:
+          source: &a1
             id: s_vhd5qZwoUBQh91rkStTUk1
             source_type: api_record
             title: 维基数据：王厚之（Q45362948）
@@ -152,18 +152,7 @@ properties:
           locator: Q45362948
           quotation: null
           interpretation_note: null
-          source:
-            id: s_vhd5qZwoUBQh91rkStTUk1
-            source_type: api_record
-            title: 维基数据：王厚之（Q45362948）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45362948
-            external_identifier: Q45362948
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:50:00.551Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -185,7 +174,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王厚之（1131年—1204年），南宋乾道二年（1166）进士。金石学家（1131-1204）。维基数据以独立条目 Q45362948 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王厚之（1131年—1204年），南宋乾道二年（1166）进士。金石学家（1131-1204）。维基数据以独立条目 Q45362948 收录该人物。 | accepted |
 | birth.date | 1131年 | accepted |
 | death.date | 1204年 | accepted |
 | name.primary | 王厚之 | accepted |

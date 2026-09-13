@@ -18,20 +18,20 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 呼韩邪（卒于前29年），西漢人物。中国历代人物传记资料库（CBDB）以人物编号 135319 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 呼韩邪（卒于前29年），史料所见人物。本项目依据《呼韩邪单于》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
-        - id: cs_Ln28emw1GKF7Lk6BKi18xD
+        - id: cs_1U2yF4GI3YTggQUXH1-qV7
           claim_id: c_9X37E8wt1gvwQnGo9Kvv7N
           source_id: s_tt64m15imFQFQQLcD1gFgc
           stance: supports
-          locator: null
+          locator: Q2986904
           quotation: null
-          interpretation_note: null
-          source:
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_tt64m15imFQFQQLcD1gFgc
             source_type: api_record
             title: 维基数据：呼韩邪单于（Q2986904）
@@ -44,25 +44,6 @@ properties:
             accessed_at: 2026-08-24T02:49:06.877Z
             metadata_json:
               zh_wikipedia: https://zh.wikipedia.org/wiki/%E5%91%BC%E9%9F%93%E9%82%AA%E5%96%AE%E4%BA%8E
-        - id: cs_ohCJBk3dt_5rrp2ozsT3Tk
-          claim_id: c_9X37E8wt1gvwQnGo9Kvv7N
-          source_id: s_JwMtY89YFL5MF2cHv8vDAo
-          stance: supports
-          locator: CBDB:135319
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_JwMtY89YFL5MF2cHv8vDAo
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：呼韩邪（135319）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135319&o=json
-            external_identifier: CBDB:135319
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T02:49:07.024Z
-            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: death.date
@@ -190,19 +171,7 @@ properties:
           locator: Q2986904
           quotation: null
           interpretation_note: null
-          source:
-            id: s_tt64m15imFQFQQLcD1gFgc
-            source_type: api_record
-            title: 维基数据：呼韩邪单于（Q2986904）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q2986904
-            external_identifier: Q2986904
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T02:49:06.877Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E5%91%BC%E9%9F%93%E9%82%AA%E5%96%AE%E4%BA%8E
+          source: *a1
         - id: cs_GTYU6yJgD8VAFsnJf2ANrP
           claim_id: c_nr145MjWrDsXXQWfHWEALt
           source_id: s_JwMtY89YFL5MF2cHv8vDAo
@@ -210,7 +179,18 @@ properties:
           locator: Q2986904
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_JwMtY89YFL5MF2cHv8vDAo
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：呼韩邪（135319）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135319&o=json
+            external_identifier: CBDB:135319
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T02:49:07.024Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -562,7 +542,7 @@ relationships:
           locator: "明清婦女著作數據庫，MQWW PoetID #1988：妻子"
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_EbzmoxSdoRXKKbPQATGcn8
         status: active
@@ -581,7 +561,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 呼韩邪（卒于前29年），西漢人物。中国历代人物传记资料库（CBDB）以人物编号 135319 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 呼韩邪（卒于前29年），史料所见人物。本项目依据《呼韩邪单于》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | death.date | 前29年 | accepted |
 | name.alias | 呼韩邪单于 | accepted |
 | name.primary | 呼韩邪 | accepted |

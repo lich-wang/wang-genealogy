@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王琮，史料所见人物。本项目依据《王琮》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王琮（?—?），琅邪郡临沂县（今山东省临沂西北）人，中国南北朝时南朝梁人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_cXl5NhyA-w5Id9Zd7efkhP
+        - id: cs__DFo3bMIzhyZXQgNaw06Vq
           claim_id: c_jyaMg5Rp5PjPia3W4CWgCn
-          source_id: s_JS6b1ao8wan8kNXGkVC2QY
+          source_id: s_wg6D2P25lPbUjOEdzxLMRD
           stance: supports
-          locator: Q47182733
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_JS6b1ao8wan8kNXGkVC2QY
-            source_type: api_record
-            title: 维基数据：王琮（Q47182733）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王琮（?—?），琅邪郡临沂县（今山东省临沂西北）人，中国南北朝时
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_wg6D2P25lPbUjOEdzxLMRD
+            source_type: website
+            title: 中文维基百科：王琮 (南梁)
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q47182733
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%90%AE_(%E5%8D%97%E6%A2%81)
             external_identifier: Q47182733
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:59:58.103Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%90%AE_(%E5%8D%97%E6%A2%81)
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -69,7 +68,19 @@ properties:
           locator: Q47182733
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_JS6b1ao8wan8kNXGkVC2QY
+            source_type: api_record
+            title: 维基数据：王琮（Q47182733）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q47182733
+            external_identifier: Q47182733
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:59:58.103Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%90%AE_(%E5%8D%97%E6%A2%81)
       object_person: null
     alternatives: []
 relationships:
@@ -316,7 +327,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王琮，史料所见人物。本项目依据《王琮》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王琮（?—?），琅邪郡临沂县（今山东省临沂西北）人，中国南北朝时南朝梁人物。 | accepted |
 | name.primary | 王琮 | accepted |
 
 ## 关联关系

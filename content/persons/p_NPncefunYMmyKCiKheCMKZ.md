@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王轼（1439年—1506年），天順進士。维基数据以独立条目 Q15912162 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王轼（1439年—1506年），天順進士。维基数据以独立条目 Q15912162 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_3msyW3x3Wrh5GW_CyC5CA1
           claim_id: c_EQPJgVTeownAYdrqbsFViL
@@ -305,7 +305,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王轼（1439年—1506年），天順進士。维基数据以独立条目 Q15912162 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王轼（1439年—1506年），天順進士。维基数据以独立条目 Q15912162 收录该人物。 | accepted |
 | birth.date | 1439年 | accepted |
 | death.date | 1506年 | accepted |
 | name.primary | 王轼 | accepted |

@@ -17,30 +17,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王元超（卒于1891年），史料所见人物。本项目依据《王元超》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王元超（？—1891年），字小尹，安徽省廬州府舒城縣人，清朝政治人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
-        - id: cs_XH4zEwcLyXJ4CESIkfA8fF
+        - id: cs_CUJzlJU1uQhOmlB9nEpkVq
           claim_id: c_Q8PoOwVnnKr4drFxY1r7uK
-          source_id: s_1NNEC7AtEf6DDYFBLcHHEr
+          source_id: s_zH7YAGU2zhaldlEq0HF3DY
           stance: supports
-          locator: Q15929730
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_1NNEC7AtEf6DDYFBLcHHEr
-            source_type: api_record
-            title: 维基数据：王元超（Q15929730）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王元超（？—1891年），字小尹，安徽省廬州府舒城縣人，清朝政治
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_zH7YAGU2zhaldlEq0HF3DY
+            source_type: website
+            title: 中文维基百科：王元超
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q15929730
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%85%83%E8%B6%85
             external_identifier: Q15929730
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:47:35.753Z
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -72,7 +72,18 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_1NNEC7AtEf6DDYFBLcHHEr
+            source_type: api_record
+            title: 维基数据：王元超（Q15929730）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q15929730
+            external_identifier: Q15929730
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:47:35.753Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -132,7 +143,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王元超（卒于1891年），史料所见人物。本项目依据《王元超》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王元超（？—1891年），字小尹，安徽省廬州府舒城縣人，清朝政治人物。 | accepted |
 | death.date | 1891年 | accepted |
 | name.primary | 王元超 | accepted |
 
@@ -144,3 +155,4 @@ relationships:
 ## 外部来源
 
 - [维基数据：王元超（Q15929730）](https://www.wikidata.org/wiki/Q15929730)
+- [中文维基百科：王元超](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%85%83%E8%B6%85)

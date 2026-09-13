@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王让，明人物。CBDB 记录其籍贯记录为公安。中国历代人物传记资料库（CBDB）以人物编号 333155 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王让，明人物。天順八年進士，籍贯公安。（中国历代人物传记资料库 CBDB 333155）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_wLB2cwq6K588h7FYBbyMnX
           claim_id: c_ZyB5W7BAWHx2NYi2432812
@@ -267,7 +267,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王让，明人物。CBDB 记录其籍贯记录为公安。中国历代人物传记资料库（CBDB）以人物编号 333155 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王让，明人物。天順八年進士，籍贯公安。（中国历代人物传记资料库 CBDB 333155） | accepted |
 | name.primary | 王让 | accepted |
 
 ## 关联关系

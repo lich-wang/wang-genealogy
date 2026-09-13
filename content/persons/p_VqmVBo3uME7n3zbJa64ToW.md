@@ -18,32 +18,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 萧纲，南北朝时期梁朝皇帝。维基数据以独立条目 Q1140994 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 萧纲（503—551），南梁人物。籍贯丹徒，入仕繼位。（中国历代人物传记资料库 CBDB 33251）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
-        - id: cs_Y-KvRSeFYe2i_1Gp0AtEO_
+        - id: cs_aQmmZJip_u5jarNx8-Pug-
           claim_id: c_umyMjeiyxWuLHf3zQq9szN
-          source_id: s_3H6y8sQcxUsP9WeT25e3a4
+          source_id: s_fYTEWByYHfTMBLVTCFFFMj
           stance: supports
-          locator: Q1140994
+          locator: CBDB:33251
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_3H6y8sQcxUsP9WeT25e3a4
+            id: s_fYTEWByYHfTMBLVTCFFFMj
             source_type: api_record
-            title: 维基数据：萧纲（Q1140994）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：蕭綱（33251）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q1140994
-            external_identifier: Q1140994
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:39:56.865Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E6%A2%81%E7%AE%80%E6%96%87%E5%B8%9D
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33251&o=json
+            external_identifier: CBDB:33251
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:39:57.014Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -70,7 +69,19 @@ properties:
           locator: Q1140994
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_3H6y8sQcxUsP9WeT25e3a4
+            source_type: api_record
+            title: 维基数据：萧纲（Q1140994）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q1140994
+            external_identifier: Q1140994
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:39:56.865Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E6%A2%81%E7%AE%80%E6%96%87%E5%B8%9D
         - id: cs_S3dSqwmzwVSQMLP9WRAjpT
           claim_id: c_S9DyC9B8ANosqJwTMXHi9i
           source_id: s_fYTEWByYHfTMBLVTCFFFMj
@@ -78,18 +89,7 @@ properties:
           locator: Q1140994
           quotation: null
           interpretation_note: null
-          source:
-            id: s_fYTEWByYHfTMBLVTCFFFMj
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：蕭綱（33251）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33251&o=json
-            external_identifier: CBDB:33251
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:39:57.014Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -264,7 +264,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 萧纲，南北朝时期梁朝皇帝。维基数据以独立条目 Q1140994 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 萧纲（503—551），南梁人物。籍贯丹徒，入仕繼位。（中国历代人物传记资料库 CBDB 33251） | accepted |
 | name.primary | 萧纲 | accepted |
 
 ## 关联关系

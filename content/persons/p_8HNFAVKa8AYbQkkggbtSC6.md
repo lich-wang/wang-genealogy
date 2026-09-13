@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王厚，宋人物。CBDB 记录其籍贯记录为德安，入仕记录为募入軍伍，曾任節度使、兩省。中国历代人物传记资料库（CBDB）以人物编号 17819 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王厚（—1106年），字處道。汉族江右民系。北宋江州德安縣（今屬江西）人。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_oxqz9nwffeMQcFNLkPHS8X
           claim_id: c_SP6ByHum6D27Ue8mLnpQPZ
@@ -44,24 +44,24 @@ properties:
             accessed_at: 2026-09-05T01:58:55.754Z
             metadata_json:
               zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8E%9A
-        - id: cs_ydyxdIFNgIXKXccch1FYAQ
+        - id: cs_WWukcJMISMZBmwYMEE6f4r
           claim_id: c_SP6ByHum6D27Ue8mLnpQPZ
-          source_id: s_A7g9L9wbW2dAoDu7qQBTfk
+          source_id: s_3dxtpNP9JAt-htQWQci2yQ
           stance: supports
-          locator: CBDB:17819
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_A7g9L9wbW2dAoDu7qQBTfk
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王厚（17819）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
+          locator: 导言
+          quotation: 王厚（—1106年），字處道。汉族江右民系。北宋江州德安縣（今屬
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_3dxtpNP9JAt-htQWQci2yQ
+            source_type: website
+            title: 中文维基百科：王厚
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17819&o=json
-            external_identifier: CBDB:17819
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T01:58:55.927Z
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8E%9A
+            external_identifier: Q16260160
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -89,7 +89,18 @@ properties:
           locator: Q16260160
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a1
+            id: s_A7g9L9wbW2dAoDu7qQBTfk
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王厚（17819）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17819&o=json
+            external_identifier: CBDB:17819
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:58:55.927Z
+            metadata_json: null
         - id: cs_r6AqNfTLZ6F2zUMqD87p6k
           claim_id: c_ypwLweP6QaJLgF5bWxBxCu
           source_id: s_VDFSJUyL239Cxq3r4NHqVv
@@ -259,7 +270,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王厚，宋人物。CBDB 记录其籍贯记录为德安，入仕记录为募入軍伍，曾任節度使、兩省。中国历代人物传记资料库（CBDB）以人物编号 17819 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王厚（—1106年），字處道。汉族江右民系。北宋江州德安縣（今屬江西）人。 | accepted |
 | name.primary | 王厚 | accepted |
 
 ## 关联关系
@@ -274,5 +285,6 @@ relationships:
 
 - [维基数据：王厚（Q16260160）](https://www.wikidata.org/wiki/Q16260160)
 - [维基数据：王韶（Q10417893）](https://www.wikidata.org/wiki/Q10417893)
+- [中文维基百科：王厚](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8E%9A)
 - [CBDB 中国历代人物传记资料库：王厚（17819）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17819&o=json)
 - [CBDB 中国历代人物传记资料库：王韶（1865）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1865&o=json)

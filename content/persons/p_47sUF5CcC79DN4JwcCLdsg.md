@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王兴，王莽之子。维基数据以独立条目 Q17026272 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王兴，王莽之子。维基数据以独立条目 Q17026272 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 7
+        current_revision: 8
       sources:
         - id: cs_voDL7NiHEWEcZrT0Ee3rXc
           claim_id: c_AnM8W8yFhEUNNHx7adrF9X
@@ -262,7 +262,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王兴，王莽之子。维基数据以独立条目 Q17026272 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王兴，王莽之子。维基数据以独立条目 Q17026272 收录该人物。 | accepted |
 | name.primary | 王兴 | accepted |
 
 ## 关联关系

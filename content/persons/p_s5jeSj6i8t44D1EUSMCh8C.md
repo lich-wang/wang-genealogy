@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 董氏，王鈇妻。维基数据以独立条目 Q65839782 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 董氏，明人物。嘉靖二十九年進士。（中国历代人物传记资料库 CBDB 314682）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_qmpayB09GN7oNAKS8NKIa-
+        - id: cs_QF3e_cD4tN49jeJKVgkN5R
           claim_id: c_FFcZ0Ed22o9wOri1zQK8Dm
-          source_id: s_B6U4sCWWXFAJNGh8K5V5bP
+          source_id: s_XYGnCxGjB2KPDxiwaxnLmH
           stance: supports
-          locator: Q65839782
+          locator: CBDB:314682
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_B6U4sCWWXFAJNGh8K5V5bP
+            id: s_XYGnCxGjB2KPDxiwaxnLmH
             source_type: api_record
-            title: 维基数据：董氏（Q65839782）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：董氏（314682）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65839782
-            external_identifier: Q65839782
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:00:04.556Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314682&o=json
+            external_identifier: CBDB:314682
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:04.723Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,18 +69,7 @@ properties:
           locator: Q65839782
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_XYGnCxGjB2KPDxiwaxnLmH
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：董氏（314682）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314682&o=json
-            external_identifier: CBDB:314682
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:00:04.723Z
-            metadata_json: null
+          source: *a1
         - id: cs_ZHpxFFEwgoui89MVd7pb63
           claim_id: c_vLrV6KxuS8xdcZ1wPgXsEU
           source_id: s_B6U4sCWWXFAJNGh8K5V5bP
@@ -88,7 +77,18 @@ properties:
           locator: Q65839782
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_B6U4sCWWXFAJNGh8K5V5bP
+            source_type: api_record
+            title: 维基数据：董氏（Q65839782）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65839782
+            external_identifier: Q65839782
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:04.556Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -229,7 +229,7 @@ relationships:
           locator: 嘉靖二十九年進士登科錄:一卷，第三甲第二百名：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_KdnEK5JvxzCLuhzpo1b35X
         status: active
@@ -248,7 +248,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 董氏，王鈇妻。维基数据以独立条目 Q65839782 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 董氏，明人物。嘉靖二十九年進士。（中国历代人物传记资料库 CBDB 314682） | accepted |
 | name.primary | 董氏 | accepted |
 
 ## 关联关系

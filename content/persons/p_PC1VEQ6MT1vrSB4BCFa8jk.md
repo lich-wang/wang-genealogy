@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王恭人（1728年—1767年），清人物。CBDB 记录其籍贯记录为嘉定，入仕记录为封贈。中国历代人物传记资料库（CBDB）以人物编号 29896 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王恭人（1728年—1767年），清人物。籍贯嘉定，入仕封贈。（中国历代人物传记资料库 CBDB 29896）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_o62ZBo1ej7qME16hzPPYLC
           claim_id: c_b7TpY129PdsfggzCtEQGcZ
@@ -331,7 +331,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王恭人（1728年—1767年），清人物。CBDB 记录其籍贯记录为嘉定，入仕记录为封贈。中国历代人物传记资料库（CBDB）以人物编号 29896 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王恭人（1728年—1767年），清人物。籍贯嘉定，入仕封贈。（中国历代人物传记资料库 CBDB 29896） | accepted |
 | birth.date | 1728年 | accepted |
 | death.date | 1767年 | accepted |
 | name.primary | 王恭人 | accepted |

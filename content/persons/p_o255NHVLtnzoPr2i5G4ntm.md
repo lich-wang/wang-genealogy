@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王贯之（967年—1028年），宋人物。CBDB 记录其籍贯记录为臨川，入仕记录为科舉: 進士(籠統)，曾任大理寺丞、通判。中国历代人物传记资料库（CBDB）以人物编号 3965 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
-          language: zh-Hans
+          text: 王贯之（967年—1028年），宋人物。籍贯臨川，入仕進士，曾任大理寺丞、通判、尚書省禮部主客司。（中国历代人物传记资料库 CBDB 3965）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_nU1AkYPauWXXN8TcmXHE2w
           claim_id: c_M9oQK8ZRcAQ1bneQEjV3wk
@@ -495,7 +495,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王贯之（967年—1028年），宋人物。CBDB 记录其籍贯记录为臨川，入仕记录为科舉: 進士(籠統)，曾任大理寺丞、通判。中国历代人物传记资料库（CBDB）以人物编号 3965 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王贯之（967年—1028年），宋人物。籍贯臨川，入仕進士，曾任大理寺丞、通判、尚書省禮部主客司。（中国历代人物传记资料库 CBDB 3965） | accepted |
 | birth.date | 967年 | accepted |
 | death.date | 1028年 | accepted |
 | name.primary | 王贯之 | accepted |

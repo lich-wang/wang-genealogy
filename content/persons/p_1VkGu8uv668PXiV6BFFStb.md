@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王漟，明人物。中国历代人物传记资料库（CBDB）以人物编号 209785 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王漟，明人物。隆慶五年進士，籍贯潛山，曾任府同知。（中国历代人物传记资料库 CBDB 209785）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs__hINzB1bTJ_wVdYt-h4UTX
           claim_id: c_BzULTV2GoZGCfphii3f1JE
@@ -70,19 +70,7 @@ properties:
           locator: CBDB:209785
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（2401-2500）｜历史性依据：CBDB 朝代 = 明
-          source:
-            id: s_oM5BoRBp5PtPWyQxg9MHHZ
-            source_type: api_record
-            title: 中国历代人物传记资料库：王漟（CBDB 209785）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209785&o=json
-            external_identifier: CBDB:209785
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:16:55.593Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -108,7 +96,19 @@ relationships:
           locator: 隆慶五年進士登科錄:一卷，第三甲第八十六名：子
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source:
+            id: s_oM5BoRBp5PtPWyQxg9MHHZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王漟（CBDB 209785）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209785&o=json
+            external_identifier: CBDB:209785
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:55.593Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
       object_person:
         id: p_Eo3x5BVMmizyxxEaJmawa5
         status: active
@@ -130,7 +130,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王漟，明人物。中国历代人物传记资料库（CBDB）以人物编号 209785 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王漟，明人物。隆慶五年進士，籍贯潛山，曾任府同知。（中国历代人物传记资料库 CBDB 209785） | accepted |
 | name.primary | 王漟 | accepted |
 
 ## 关联关系

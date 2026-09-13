@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王安仁（1015年—1051年），宋人物。CBDB 记录其籍贯记录为臨川，身份包括經學家，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 21944 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王安仁（1015年—1051年），宋人物。籍贯臨川，身份为經學家，入仕進士，曾任司戶參軍。（中国历代人物传记资料库 CBDB 21944）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_4vTgPQGDcv3v8fo1rGNz1s
           claim_id: c_qrTGeCH6HpRm9pFR8XrxuD
@@ -307,7 +307,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王安仁（1015年—1051年），宋人物。CBDB 记录其籍贯记录为臨川，身份包括經學家，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 21944 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王安仁（1015年—1051年），宋人物。籍贯臨川，身份为經學家，入仕進士，曾任司戶參軍。（中国历代人物传记资料库 CBDB 21944） | accepted |
 | birth.date | 1015年 | accepted |
 | death.date | 1051年 | accepted |
 | name.primary | 王安仁 | accepted |

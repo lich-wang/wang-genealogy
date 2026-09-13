@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王玄，五代人物。CBDB 记录其籍贯记录为平棘，身份包括富豪，入仕记录为封贈。中国历代人物传记资料库（CBDB）以人物编号 21949 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 王玄，五代人物。籍贯平棘，身份为富豪，入仕封贈，曾任國公、太師。（中国历代人物传记资料库 CBDB 21949）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_tpTXKXhz3VNi6SDdKXFN8r
           claim_id: c_1zSr26MAVDV5u71ipK8fY1
@@ -220,7 +220,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王玄，五代人物。CBDB 记录其籍贯记录为平棘，身份包括富豪，入仕记录为封贈。中国历代人物传记资料库（CBDB）以人物编号 21949 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王玄，五代人物。籍贯平棘，身份为富豪，入仕封贈，曾任國公、太師。（中国历代人物传记资料库 CBDB 21949） | accepted |
 | name.primary | 王玄 | accepted |
 
 ## 关联关系

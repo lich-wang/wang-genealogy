@@ -18,20 +18,20 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王悌，史料所见人物。中国历代人物传记资料库（CBDB）以人物编号 154140 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王悌，史料所见人物。本项目依据《王悌》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_v66FdjZn1yoeXqT7cCSGPR
+        - id: cs_uTtrQFAdj5gH3ob_cggQj0
           claim_id: c_hAZF5EvUjPPk2WQGBUt2Gi
           source_id: s_V15eaYzTFQ4AiHYps8Tkxg
           stance: supports
-          locator: null
+          locator: Q45623393
           quotation: null
-          interpretation_note: null
-          source:
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_V15eaYzTFQ4AiHYps8Tkxg
             source_type: api_record
             title: 维基数据：王悌（Q45623393）
@@ -42,25 +42,6 @@ properties:
             external_identifier: Q45623393
             license_code: CC0-1.0
             accessed_at: 2026-08-24T04:07:46.887Z
-            metadata_json: null
-        - id: cs_cB7thDgWdHpdxwSGFKJLdi
-          claim_id: c_hAZF5EvUjPPk2WQGBUt2Gi
-          source_id: s_Tv9NbTZt8C6DfbDVjHJEuC
-          stance: supports
-          locator: CBDB:154140
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_Tv9NbTZt8C6DfbDVjHJEuC
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王悌（154140）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154140&o=json
-            external_identifier: CBDB:154140
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T04:07:47.029Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -88,7 +69,18 @@ properties:
           locator: Q45623393
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_Tv9NbTZt8C6DfbDVjHJEuC
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王悌（154140）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=154140&o=json
+            external_identifier: CBDB:154140
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T04:07:47.029Z
+            metadata_json: null
         - id: cs_MGMHctv5Wa6DHoMDxJPRnZ
           claim_id: c_bCS2Qx9G6UcQmA6Gze4iad
           source_id: s_V15eaYzTFQ4AiHYps8Tkxg
@@ -96,18 +88,7 @@ properties:
           locator: Q45623393
           quotation: null
           interpretation_note: null
-          source:
-            id: s_V15eaYzTFQ4AiHYps8Tkxg
-            source_type: api_record
-            title: 维基数据：王悌（Q45623393）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45623393
-            external_identifier: Q45623393
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T04:07:46.887Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -204,7 +185,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王悌，史料所见人物。中国历代人物传记资料库（CBDB）以人物编号 154140 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王悌，史料所见人物。本项目依据《王悌》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 王悌 | accepted |
 
 ## 关联关系

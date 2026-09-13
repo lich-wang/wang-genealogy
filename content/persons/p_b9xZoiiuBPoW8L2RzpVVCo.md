@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王廙（276年—322年），東晉人物。CBDB 记录其籍贯记录为剡縣。中国历代人物传记资料库（CBDB）以人物编号 25806 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王廙（276年—322年11月4日），字世将。琅邪临沂（今山东临沂）人。晉朝官員，書法家、畫家、音樂家。東晉丞相王導的堂弟，「書聖」王羲之的叔父，王廙在東晉官至荊州刺史。
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_9XZJ5rMbDAA1GEuwWRVaXq
           claim_id: c_sfZaCTzFn4nkdwbgZxgSqP
@@ -44,24 +44,24 @@ properties:
             accessed_at: 2026-08-24T02:48:50.988Z
             metadata_json:
               zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%99
-        - id: cs_rsb7ctJA3F0rOY2lrzfBZ6
+        - id: cs_bcOQn7oHtfqMOXHI6lNqhX
           claim_id: c_sfZaCTzFn4nkdwbgZxgSqP
-          source_id: s_QT63YvTeLcMe92WmNdtDzy
+          source_id: s_TebGMphV2JJwkwnNfcWwiU
           stance: supports
-          locator: CBDB:25806
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_QT63YvTeLcMe92WmNdtDzy
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王廙（25806）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
+          locator: 导言
+          quotation: 王廙（276年—322年11月4日），字世将。琅邪临沂（今山东临
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_TebGMphV2JJwkwnNfcWwiU
+            source_type: website
+            title: 中文维基百科：王廙
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25806&o=json
-            external_identifier: CBDB:25806
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T02:48:51.125Z
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%99
+            external_identifier: Q15911516
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -175,7 +175,18 @@ properties:
           locator: Q15911516
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_QT63YvTeLcMe92WmNdtDzy
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王廙（25806）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25806&o=json
+            external_identifier: CBDB:25806
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T02:48:51.125Z
+            metadata_json: null
         - id: cs_mzcjMjHAi9sgxLUEEJzCT8
           claim_id: c_SdcHRDdPwy7DgzQP5pWHNi
           source_id: s_SFuhPkjgMH7UeWM99KjEjG
@@ -1090,7 +1101,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王廙（276年—322年），東晉人物。CBDB 记录其籍贯记录为剡縣。中国历代人物传记资料库（CBDB）以人物编号 25806 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王廙（276年—322年11月4日），字世将。琅邪临沂（今山东临沂）人。晉朝官員，書法家、畫家、音樂家。東晉丞相王導的堂弟，「書聖」王羲之的叔父，王廙在東晉官至荊州刺史。 | accepted |
 | birth.date | 276年 | accepted |
 | death.date | 322年 | accepted |
 | name.primary | 王廙 | accepted |
@@ -1117,6 +1128,7 @@ relationships:
 - [維基數據：王正（Q22814789）](https://www.wikidata.org/wiki/Q22814789)
 - [中文维基百科：琅邪王氏](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F)
 - [中文维基百科：王和之](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%92%8C%E4%B9%8B)
+- [中文维基百科：王廙](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%99)
 - [CBDB 中国历代人物传记资料库：王耆之（25807）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25807&o=json)
 - [CBDB 中国历代人物传记资料库：王廙（25806）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25806&o=json)
 - [CBDB 中国历代人物传记资料库：王正（25791）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25791&o=json)

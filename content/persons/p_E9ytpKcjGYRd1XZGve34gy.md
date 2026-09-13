@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王景，唐人物。CBDB 记录其籍贯记录为太原，身份包括詩人，曾任司門員外郎、縣主簿。中国历代人物传记资料库（CBDB）以人物编号 92088 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王景，唐人物。籍贯太原，身份为詩人，曾任司門員外郎、縣主簿、州刺史。（中国历代人物传记资料库 CBDB 92088）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_WZo2KJMHexYgrEynCHTeWC
           claim_id: c_PcAi3Ndy3Qp6gFDJEiKNVd
@@ -447,7 +447,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王景，唐人物。CBDB 记录其籍贯记录为太原，身份包括詩人，曾任司門員外郎、縣主簿。中国历代人物传记资料库（CBDB）以人物编号 92088 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王景，唐人物。籍贯太原，身份为詩人，曾任司門員外郎、縣主簿、州刺史。（中国历代人物传记资料库 CBDB 92088） | accepted |
 | name.primary | 王景 | accepted |
 
 ## 关联关系

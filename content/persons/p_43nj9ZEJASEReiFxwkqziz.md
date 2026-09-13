@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 周前，中国核医学家。维基数据以独立条目 Q109348678 收录该人物。
+          text: 周前（1926年—2024年3月16日），女，上海人，中国核医学家，曾任北京协和医院教授、博士生导师。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_32HGggReIfeQuaJlRmRzf3
+        - id: cs_osMhozDzNasPNWHEIcJQOU
           claim_id: c_uo5v2_Y9F1TASajfP5_OU-
-          source_id: s_cf4ZP1otVdewFdKzTPVgcj
+          source_id: s_aSXptmSEPqTTaRoFT6TBZr
           stance: supports
-          locator: Q109348678
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
-          source: &a1
-            id: s_cf4ZP1otVdewFdKzTPVgcj
-            source_type: api_record
-            title: 维基数据：周前（Q109348678）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 周前（1926年—2024年3月16日），女，上海人，中国核医学
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_aSXptmSEPqTTaRoFT6TBZr
+            source_type: website
+            title: 中文维基百科：周前
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q109348678
+            canonical_url: https://zh.wikipedia.org/wiki/%E5%91%A8%E5%89%8D
             external_identifier: Q109348678
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E5%91%A8%E5%89%8D
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -69,7 +68,19 @@ properties:
           locator: Q109348678
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: *a1
+          source: &a1
+            id: s_cf4ZP1otVdewFdKzTPVgcj
+            source_type: api_record
+            title: 维基数据：周前（Q109348678）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q109348678
+            external_identifier: Q109348678
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E5%91%A8%E5%89%8D
       object_person: null
     alternatives: []
 relationships:
@@ -136,7 +147,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 周前，中国核医学家。维基数据以独立条目 Q109348678 收录该人物。 | accepted |
+| bio.summary | 周前（1926年—2024年3月16日），女，上海人，中国核医学家，曾任北京协和医院教授、博士生导师。 | accepted |
 | name.primary | 周前 | accepted |
 
 ## 关联关系
@@ -149,3 +160,4 @@ relationships:
 
 - [维基数据：周前（Q109348678）](https://www.wikidata.org/wiki/Q109348678)
 - [中文维基百科：王世真](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E7%9C%9F)
+- [中文维基百科：周前](https://zh.wikipedia.org/wiki/%E5%91%A8%E5%89%8D)

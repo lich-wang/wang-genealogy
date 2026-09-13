@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王谷，宋人物。CBDB 记录其籍贯记录为開封。中国历代人物传记资料库（CBDB）以人物编号 36881 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王谷，宋人物。籍贯開封。（中国历代人物传记资料库 CBDB 36881）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_BZiUkqvTsvdRef2yR6sWEk
           claim_id: c_Rt7CnjLzEwFgDEL6xAsgjF
@@ -204,7 +204,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王谷，宋人物。CBDB 记录其籍贯记录为開封。中国历代人物传记资料库（CBDB）以人物编号 36881 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王谷，宋人物。籍贯開封。（中国历代人物传记资料库 CBDB 36881） | accepted |
 | name.primary | 王谷 | accepted |
 
 ## 关联关系

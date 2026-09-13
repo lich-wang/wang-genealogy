@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王遂，王莽高祖父。维基数据以独立条目 Q2047554 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王遂（?—?），字伯纪，济南郡东平陵县（今山东省章丘市西）人，西汉政治人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_GoI5rNbdWDbOqNRUR4WaNb
+        - id: cs_a9Mt4Fh949FKReOj2yVz6c
           claim_id: c_3Q7T8XWWCLm2DzCRgemTiZ
-          source_id: s_KmS3dL2ih2RbiaB2MWtKLs
+          source_id: s_-dEDrrA50AO1F0RrenzSh0
           stance: supports
-          locator: Q2047554
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
-          source: &a1
-            id: s_KmS3dL2ih2RbiaB2MWtKLs
-            source_type: api_record
-            title: 维基数据：王遂（Q2047554）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王遂（?—?），字伯纪，济南郡东平陵县（今山东省章丘市西）人，西
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_-dEDrrA50AO1F0RrenzSh0
+            source_type: website
+            title: 中文维基百科：王遂 (汉朝)
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q2047554
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%81%82_(%E6%B1%89%E6%9C%9D)
             external_identifier: Q2047554
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:10:17.813Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%81%82_(%E6%B1%89%E6%9C%9D)
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -69,7 +68,19 @@ properties:
           locator: Q2047554
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_KmS3dL2ih2RbiaB2MWtKLs
+            source_type: api_record
+            title: 维基数据：王遂（Q2047554）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q2047554
+            external_identifier: Q2047554
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:10:17.813Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%81%82_(%E6%B1%89%E6%9C%9D)
       object_person: null
     alternatives: []
 relationships:
@@ -168,7 +179,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王遂，王莽高祖父。维基数据以独立条目 Q2047554 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王遂（?—?），字伯纪，济南郡东平陵县（今山东省章丘市西）人，西汉政治人物。 | accepted |
 | name.primary | 王遂 | accepted |
 
 ## 关联关系

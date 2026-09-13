@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王希淮（1217年—1275年），宋人物。CBDB 记录其籍贯记录为安福，身份包括地方士人/鄉紳。中国历代人物传记资料库（CBDB）以人物编号 35270 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王希淮（1217年—1275年），宋人物。籍贯安福，身份为地方士人/鄉紳。（中国历代人物传记资料库 CBDB 35270）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_DDPX5M67xqCtdPHuBq9qGV
           claim_id: c_8BpVFWQTFrT3orGz9BZ9FE
@@ -442,7 +442,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王希淮（1217年—1275年），宋人物。CBDB 记录其籍贯记录为安福，身份包括地方士人/鄉紳。中国历代人物传记资料库（CBDB）以人物编号 35270 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王希淮（1217年—1275年），宋人物。籍贯安福，身份为地方士人/鄉紳。（中国历代人物传记资料库 CBDB 35270） | accepted |
 | birth.date | 1217年 | accepted |
 | death.date | 1275年 | accepted |
 | name.primary | 王希淮 | accepted |

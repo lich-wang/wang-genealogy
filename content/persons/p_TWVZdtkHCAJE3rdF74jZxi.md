@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王之咸（695年—751年），唐人物。CBDB 记录其籍贯记录为洛陽，曾任州刺史、司士。中国历代人物传记资料库（CBDB）以人物编号 146035 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王之咸（695年—751年），唐人物。籍贯洛陽，曾任州刺史、司士。（中国历代人物传记资料库 CBDB 146035）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_SqhckmqJfLVwu28P1XKd5a
           claim_id: c_NVfBnSizaz4qUrsWK637G1
@@ -590,7 +590,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王之咸（695年—751年），唐人物。CBDB 记录其籍贯记录为洛陽，曾任州刺史、司士。中国历代人物传记资料库（CBDB）以人物编号 146035 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王之咸（695年—751年），唐人物。籍贯洛陽，曾任州刺史、司士。（中国历代人物传记资料库 CBDB 146035） | accepted |
 | birth.date | 695年 | accepted |
 | death.date | 751年 | accepted |
 | name.primary | 王之咸 | accepted |

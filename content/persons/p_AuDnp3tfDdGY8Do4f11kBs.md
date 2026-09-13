@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王徽之（生于338年），东晋时期书法家、名士。维基数据以独立条目 Q15928529 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 王徽之（338年—386年），字子猷，東晉名士、書法家，王羲之第五子。曾歷任車騎參軍、大司馬、黃門侍郎，後來辭官退居山陰縣（今浙江省紹興市）。有子王楨之。 王徽之是書法名家，自幼從父學習，有「徽之得其勢」的評價，後世傳帖《承嫂病不減帖》、《新月帖》等。
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_Ki9X0JAsWF1W946pszfKTE
+        - id: cs_igZcS2_LrO6x-Tcw3sre9L
           claim_id: c_wrhHj4Erj7Mjh7zaGAhAGk
-          source_id: s_zPYxEpH8gHaJEAKuT5R6M3
+          source_id: s_XXFBWQnA8ouYTlLi5PlYjW
           stance: supports
-          locator: Q15928529
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
-          source: &a1
-            id: s_zPYxEpH8gHaJEAKuT5R6M3
-            source_type: api_record
-            title: 維基數據：王徽之（Q15928529）
-            creator: 維基數據貢獻者
+          locator: 导言
+          quotation: 王徽之（338年—386年），字子猷，東晉名士、書法家，王羲之第
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_XXFBWQnA8ouYTlLi5PlYjW
+            source_type: website
+            title: 中文维基百科：王徽之
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q15928529
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BE%BD%E4%B9%8B
             external_identifier: Q15928529
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T02:10:13.674Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BE%BD%E4%B9%8B
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -151,7 +150,19 @@ properties:
           locator: Q15928529
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_zPYxEpH8gHaJEAKuT5R6M3
+            source_type: api_record
+            title: 維基數據：王徽之（Q15928529）
+            creator: 維基數據貢獻者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q15928529
+            external_identifier: Q15928529
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:10:13.674Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BE%BD%E4%B9%8B
       object_person: null
     alternatives: []
 relationships:
@@ -384,7 +395,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王徽之（生于338年），东晋时期书法家、名士。维基数据以独立条目 Q15928529 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王徽之（338年—386年），字子猷，東晉名士、書法家，王羲之第五子。曾歷任車騎參軍、大司馬、黃門侍郎，後來辭官退居山陰縣（今浙江省紹興市）。有子王楨之。 王徽之是書法名家，自幼從父學習，有「徽之得其勢」的評價，後世傳帖《承嫂病不減帖》、《新月帖》等。 | accepted |
 | birth.date | 338年 | accepted |
 | historical.period | 东晋 | accepted |
 | name.primary | 王徽之 | accepted |
@@ -401,6 +412,7 @@ relationships:
 - [维基数据：王桢之（Q15956125）](https://www.wikidata.org/wiki/Q15956125)
 - [維基數據：王徽之（Q15928529）](https://www.wikidata.org/wiki/Q15928529)
 - [維基數據：王羲之（Q378564）](https://www.wikidata.org/wiki/Q378564)
+- [中文维基百科：王徽之](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BE%BD%E4%B9%8B)
 - [中文维基百科：王羲之](https://zh.wikipedia.org/wiki/王羲之)
 - [中文维基百科：王桢之](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%A1%A2%E4%B9%8B)
 - [CBDB 中国历代人物传记资料库：王徽之（25794）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25794&o=json)

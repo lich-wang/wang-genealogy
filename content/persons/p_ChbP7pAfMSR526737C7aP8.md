@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王瀣（1871年—1944年），中華民國人物。CBDB 记录其籍贯记录为南京。中国历代人物传记资料库（CBDB）以人物编号 71301 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王瀣（1871年—1944年），中華民國人物。籍贯南京。（中国历代人物传记资料库 CBDB 71301）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_bNuUglQJp-Q116hC_fLoHN
           claim_id: c_r8S5h7UaLsVisPc7UuuFQF
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:71301
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_VMBkLig9K8Dpp62EYDj6MA
             source_type: api_record
             title: 中国历代人物传记资料库：王瀣（CBDB 71301）
@@ -156,19 +156,7 @@ properties:
           locator: CBDB:71301
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（1-100）｜历史性依据：CBDB 卒年 = 1944
-          source:
-            id: s_VMBkLig9K8Dpp62EYDj6MA
-            source_type: api_record
-            title: 中国历代人物传记资料库：王瀣（CBDB 71301）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71301&o=json
-            external_identifier: CBDB:71301
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:16:34.254Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -190,7 +178,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王瀣（1871年—1944年），中華民國人物。CBDB 记录其籍贯记录为南京。中国历代人物传记资料库（CBDB）以人物编号 71301 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王瀣（1871年—1944年），中華民國人物。籍贯南京。（中国历代人物传记资料库 CBDB 71301） | accepted |
 | birth.date | 1871年 | accepted |
 | death.date | 1944年 | accepted |
 | name.primary | 王瀣 | accepted |

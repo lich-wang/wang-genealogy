@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 李氏，王之猷妻。维基数据以独立条目 Q65820432 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 李氏，明人物。萬曆五年進士。（中国历代人物传记资料库 CBDB 217734）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_RltyYNc0538-j02LAOdu4n
+        - id: cs_HhtR0jSWb2cyFgXv6yabhV
           claim_id: c_EQ2wpZ_t6dNsCkfjC6eBci
-          source_id: s_FmCaExmBx5NXeFkAjLnQYm
+          source_id: s_jYgfVpA5NdEbCanRKQ1W2x
           stance: supports
-          locator: Q65820432
+          locator: CBDB:217734
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_FmCaExmBx5NXeFkAjLnQYm
+            id: s_jYgfVpA5NdEbCanRKQ1W2x
             source_type: api_record
-            title: 维基数据：李氏（Q65820432）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：李氏（217734）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65820432
-            external_identifier: Q65820432
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:07:06.712Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217734&o=json
+            external_identifier: CBDB:217734
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:07:06.884Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,18 +69,7 @@ properties:
           locator: Q65820432
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_jYgfVpA5NdEbCanRKQ1W2x
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：李氏（217734）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217734&o=json
-            external_identifier: CBDB:217734
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:07:06.884Z
-            metadata_json: null
+          source: *a1
         - id: cs_EyF5idGHrF11BxETWjcTmu
           claim_id: c_rACTMDGgSZFUKT8t7CCa11
           source_id: s_FmCaExmBx5NXeFkAjLnQYm
@@ -88,7 +77,18 @@ properties:
           locator: Q65820432
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_FmCaExmBx5NXeFkAjLnQYm
+            source_type: api_record
+            title: 维基数据：李氏（Q65820432）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65820432
+            external_identifier: Q65820432
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:06.712Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -137,7 +137,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_KXaKdcDyBSt4b6M8g2MnTj
           claim_id: c_EjtQ2j2buhUHVqpPMtMnnp
           source_id: s_fTSBwdBbGaM2F5XBW7sb2z
@@ -182,7 +182,7 @@ relationships:
           locator: 萬曆五年進士登科錄:一卷，第三甲第一百五十七名：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_5r1wESpKqnWgbhR5AChbjE
         status: active
@@ -201,7 +201,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 李氏，王之猷妻。维基数据以独立条目 Q65820432 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 李氏，明人物。萬曆五年進士。（中国历代人物传记资料库 CBDB 217734） | accepted |
 | name.primary | 李氏 | accepted |
 
 ## 关联关系

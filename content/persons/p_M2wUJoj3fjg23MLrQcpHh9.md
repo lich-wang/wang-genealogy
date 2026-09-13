@@ -18,32 +18,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 劉徹（前155年6月7日—前86年3月27日），中国汉朝皇帝。维基数据以独立条目 Q7225 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 劉徹（前155年6月7日—前86年3月27日），西漢人物。籍贯長安，入仕繼位。（中国历代人物传记资料库 CBDB 16626）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
-        - id: cs_wIvOMpW6eaVBHl4TVmNVet
+        - id: cs_8wy7P9CPrUvrf6llrlFRRy
           claim_id: c_ss681PP5TTp6baG3YPFRai
-          source_id: s_JWomymJEpcvT2hLi58R4Ta
+          source_id: s_U5nHZRsqxmfZe2AUJHC84U
           stance: supports
-          locator: Q7225
+          locator: CBDB:16626
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_JWomymJEpcvT2hLi58R4Ta
+            id: s_U5nHZRsqxmfZe2AUJHC84U
             source_type: api_record
-            title: 维基数据：汉武帝（Q7225）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：劉徹（16626）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q7225
-            external_identifier: Q7225
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:25:11.210Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E6%B1%89%E6%AD%A6%E5%B8%9D
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=16626&o=json
+            external_identifier: CBDB:16626
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:25:11.356Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -214,18 +213,7 @@ properties:
           locator: Q7225
           quotation: null
           interpretation_note: null
-          source:
-            id: s_U5nHZRsqxmfZe2AUJHC84U
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：劉徹（16626）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=16626&o=json
-            external_identifier: CBDB:16626
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:25:11.356Z
-            metadata_json: null
+          source: *a1
         - id: cs_vh93XPNm2F6gAfz1Ct9MkH
           claim_id: c_6S3LEQ939ZNpLvL716tZTB
           source_id: s_JWomymJEpcvT2hLi58R4Ta
@@ -233,7 +221,19 @@ properties:
           locator: Q7225
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_JWomymJEpcvT2hLi58R4Ta
+            source_type: api_record
+            title: 维基数据：汉武帝（Q7225）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q7225
+            external_identifier: Q7225
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:25:11.210Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E6%B1%89%E6%AD%A6%E5%B8%9D
       object_person: null
     alternatives: []
 relationships:
@@ -313,7 +313,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 劉徹（前155年6月7日—前86年3月27日），中国汉朝皇帝。维基数据以独立条目 Q7225 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 劉徹（前155年6月7日—前86年3月27日），西漢人物。籍贯長安，入仕繼位。（中国历代人物传记资料库 CBDB 16626） | accepted |
 | birth.date | 前155年6月7日 | accepted |
 | death.date | 前86年3月27日 | accepted |
 | name.alias | 汉武帝 | accepted |

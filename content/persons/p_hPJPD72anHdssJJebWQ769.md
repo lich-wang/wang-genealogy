@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 曹氏，明人物。中国历代人物传记资料库（CBDB）以人物编号 338009 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 曹氏，明人物。天順八年進士。（中国历代人物传记资料库 CBDB 338009）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_CsfLRPxVXMv3N113v-Qj1A
           claim_id: c_OWlpYkMrPI9gmxqYfu7F9k
@@ -248,7 +248,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 曹氏，明人物。中国历代人物传记资料库（CBDB）以人物编号 338009 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 曹氏，明人物。天順八年進士。（中国历代人物传记资料库 CBDB 338009） | accepted |
 | name.primary | 曹氏 | accepted |
 
 ## 关联关系

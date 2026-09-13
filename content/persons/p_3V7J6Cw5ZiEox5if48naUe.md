@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 陆氏，王僑妻。维基数据以独立条目 Q65854461 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 陆氏，明人物。成化十一年進士。（中国历代人物传记资料库 CBDB 250189）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_-jEEbSNQTARghnx4bDQDdp
+        - id: cs_r0Y4XH6wF2Un9vskjUnbd4
           claim_id: c_nU9OmHavw03u9XNDCBT8b5
-          source_id: s_FQeY6Qr6MJ1qdBEGWEzwQr
+          source_id: s_iqBQydHWpyFyGCFQii14sH
           stance: supports
-          locator: Q65854461
+          locator: CBDB:250189
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_FQeY6Qr6MJ1qdBEGWEzwQr
+            id: s_iqBQydHWpyFyGCFQii14sH
             source_type: api_record
-            title: 维基数据：陆氏（Q65854461）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：陸氏（250189）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65854461
-            external_identifier: Q65854461
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:18:15.720Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250189&o=json
+            external_identifier: CBDB:250189
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:18:15.865Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,7 +69,18 @@ properties:
           locator: Q65854461
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_FQeY6Qr6MJ1qdBEGWEzwQr
+            source_type: api_record
+            title: 维基数据：陆氏（Q65854461）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65854461
+            external_identifier: Q65854461
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:18:15.720Z
+            metadata_json: null
         - id: cs_tuAr3v8N3TH9zSdFQBj89N
           claim_id: c_rJLQD876fKJB8s65BMpCur
           source_id: s_iqBQydHWpyFyGCFQii14sH
@@ -77,18 +88,7 @@ properties:
           locator: Q65854461
           quotation: null
           interpretation_note: null
-          source:
-            id: s_iqBQydHWpyFyGCFQii14sH
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：陸氏（250189）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250189&o=json
-            external_identifier: CBDB:250189
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:18:15.865Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -224,7 +224,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 陆氏，王僑妻。维基数据以独立条目 Q65854461 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 陆氏，明人物。成化十一年進士。（中国历代人物传记资料库 CBDB 250189） | accepted |
 | name.primary | 陆氏 | accepted |
 
 ## 关联关系

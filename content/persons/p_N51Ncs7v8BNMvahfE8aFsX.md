@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 张府君，王氏夫。维基数据以独立条目 Q65806936 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 张府君，王氏夫。维基数据以独立条目 Q65806936 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_ostlfuqvtTmUm6Q1sCqlKd
           claim_id: c_TYtdPykgR7Otw0n-vEiLYH
@@ -185,7 +185,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 张府君，王氏夫。维基数据以独立条目 Q65806936 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 张府君，王氏夫。维基数据以独立条目 Q65806936 收录该人物。 | accepted |
 | name.primary | 张府君 | accepted |
 
 ## 关联关系

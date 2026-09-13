@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王祥，西晉人物。CBDB 记录其籍贯记录为沂水。中国历代人物传记资料库（CBDB）以人物编号 25785 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王祥，西晉人物。籍贯沂水。（中国历代人物传记资料库 CBDB 25785）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_QvBxWMfB4Fpi19KFdXQhp2
           claim_id: c_fYfDA2FeciLSb9o5MAJoKv
@@ -129,7 +129,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王祥，西晉人物。CBDB 记录其籍贯记录为沂水。中国历代人物传记资料库（CBDB）以人物编号 25785 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王祥，西晉人物。籍贯沂水。（中国历代人物传记资料库 CBDB 25785） | accepted |
 | name.primary | 王祥 | accepted |
 
 ## 关联关系

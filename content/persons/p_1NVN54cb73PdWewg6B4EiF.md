@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王世則，宋人物。中国历代人物传记资料库（CBDB）以人物编号 38429 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 王世則，宋人物。籍贯長沙，身份为史學家，入仕進士，曾任右正言、左正言、直史館。（中国历代人物传记资料库 CBDB 38429）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_r_bPim59hZD8WMUWSvQTGd
           claim_id: c_B7Ch362nD3itxAi7taiQAB
@@ -70,19 +70,7 @@ properties:
           locator: CBDB:38429
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（1301-1400）｜历史性依据：CBDB 朝代 = 宋
-          source:
-            id: s_6GRJpP3W4Be27WCiTT5jHS
-            source_type: api_record
-            title: 中国历代人物传记资料库：王世則（CBDB 38429）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38429&o=json
-            external_identifier: CBDB:38429
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:16:47.307Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -150,7 +138,19 @@ relationships:
           locator: 芒洛冢墓遺文四編，王魯翁墓志：曾孫; 重孫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source:
+            id: s_6GRJpP3W4Be27WCiTT5jHS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世則（CBDB 38429）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38429&o=json
+            external_identifier: CBDB:38429
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:47.307Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
       object_person:
         id: p_oBg2fph2HQeUi63Z2hsgrx
         status: active
@@ -167,7 +167,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王世則，宋人物。中国历代人物传记资料库（CBDB）以人物编号 38429 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王世則，宋人物。籍贯長沙，身份为史學家，入仕進士，曾任右正言、左正言、直史館。（中国历代人物传记资料库 CBDB 38429） | accepted |
 | name.primary | 王世則 | accepted |
 
 ## 关联关系

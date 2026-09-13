@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 魏国大长公主，宋人物。CBDB 记录其曾任大長公主。中国历代人物传记资料库（CBDB）以人物编号 37660 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 魏国大长公主（卒於1008），宋人物。曾任大長公主。（中国历代人物传记资料库 CBDB 37660）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
         - id: cs_iIwrFaVLDB-31rSZ-GWk2y
           claim_id: c_tQ5pfywI9fp6kxXUrFN3Mb
@@ -202,7 +202,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 魏国大长公主，宋人物。CBDB 记录其曾任大長公主。中国历代人物传记资料库（CBDB）以人物编号 37660 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 魏国大长公主（卒於1008），宋人物。曾任大長公主。（中国历代人物传记资料库 CBDB 37660） | accepted |
 | name.primary | 魏国大长公主 | accepted |
 
 ## 关联关系

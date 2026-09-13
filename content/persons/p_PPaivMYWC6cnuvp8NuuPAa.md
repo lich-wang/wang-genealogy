@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王妨，史料所见人物。本项目依据《王妨》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王妨（？—18年），新朝宗室，西汉外戚，王莽之孫女，王宇之女。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_L7DHTUe7ppV5Lo3tPA8MWK
+        - id: cs_Y4uyZ0Sn2xChZWxTxr5EwB
           claim_id: c_icc00H5hGueR1OAD6c9BBa
-          source_id: s_gEFXUqMQpzZAsb6ztrMY4E
+          source_id: s_PbXh56QnRiAj284mEgvSR1
           stance: supports
-          locator: Q26210120
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_gEFXUqMQpzZAsb6ztrMY4E
-            source_type: api_record
-            title: 维基数据：王妨（Q26210120）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王妨（？—18年），新朝宗室，西汉外戚，王莽之孫女，王宇之女。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_PbXh56QnRiAj284mEgvSR1
+            source_type: website
+            title: 中文维基百科：王妨
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q26210120
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A6%A8
             external_identifier: Q26210120
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T02:49:58.777Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A6%A8
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -69,7 +68,19 @@ properties:
           locator: Q26210120
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_gEFXUqMQpzZAsb6ztrMY4E
+            source_type: api_record
+            title: 维基数据：王妨（Q26210120）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q26210120
+            external_identifier: Q26210120
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:49:58.777Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A6%A8
       object_person: null
     alternatives: []
 relationships:
@@ -299,7 +310,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王妨，史料所见人物。本项目依据《王妨》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王妨（？—18年），新朝宗室，西汉外戚，王莽之孫女，王宇之女。 | accepted |
 | name.primary | 王妨 | accepted |
 
 ## 关联关系

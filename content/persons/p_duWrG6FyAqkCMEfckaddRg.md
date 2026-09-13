@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王守竞（1904年—1984年），史料所见人物。本项目依据《王守竞》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王守竞（1904年—1984年），男，江苏吴县人，中国原子分子物理学家。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
-        - id: cs_C8n0Rx9a4B25JRcY2F-NYZ
+        - id: cs_qOrLiaHoH94XkOoEKiz3hT
           claim_id: c_fgARdRkA2dZPhdWLF2Ds1e
-          source_id: s_Ey6it7G6ec12JYcsCqdFQi
+          source_id: s_qo6JtpCOfEuRTppZKiRj9J
           stance: supports
-          locator: Q109174393
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_Ey6it7G6ec12JYcsCqdFQi
-            source_type: api_record
-            title: 维基数据：王守竞（Q109174393）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王守竞（1904年—1984年），男，江苏吴县人，中国原子分子物
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_qo6JtpCOfEuRTppZKiRj9J
+            source_type: website
+            title: 中文维基百科：王守竞
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q109174393
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%88%E7%AB%9E
             external_identifier: Q109174393
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:06:50.151Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%88%E7%AB%9E
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -73,7 +72,19 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a1
+            id: s_Ey6it7G6ec12JYcsCqdFQi
+            source_type: api_record
+            title: 维基数据：王守竞（Q109174393）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q109174393
+            external_identifier: Q109174393
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:50.151Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%88%E7%AB%9E
       object_person: null
     alternatives: []
   - predicate: death.date
@@ -269,7 +280,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王守竞（1904年—1984年），史料所见人物。本项目依据《王守竞》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王守竞（1904年—1984年），男，江苏吴县人，中国原子分子物理学家。 | accepted |
 | birth.date | 1904年 | accepted |
 | death.date | 1984年 | accepted |
 | name.primary | 王守竞 | accepted |
@@ -286,3 +297,4 @@ relationships:
 - [维基数据：王季同（Q61306471）](https://www.wikidata.org/wiki/Q61306471)
 - [维基数据：王守竞（Q109174393）](https://www.wikidata.org/wiki/Q109174393)
 - [维基数据：王義翹（Q5217566）](https://www.wikidata.org/wiki/Q5217566)
+- [中文维基百科：王守竞](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%88%E7%AB%9E)

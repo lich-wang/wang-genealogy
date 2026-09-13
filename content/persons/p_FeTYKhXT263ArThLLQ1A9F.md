@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王世彦，宋人物。CBDB 记录其籍贯记录为開封。中国历代人物传记资料库（CBDB）以人物编号 17779 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王世彦，宋人物。籍贯開封。（中国历代人物传记资料库 CBDB 17779）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_vDca9Gqbz9Fem4aoDetHj1
           claim_id: c_34JKHcSSwLYJg2CLshbcQN
@@ -299,7 +299,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王世彦，宋人物。CBDB 记录其籍贯记录为開封。中国历代人物传记资料库（CBDB）以人物编号 17779 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王世彦，宋人物。籍贯開封。（中国历代人物传记资料库 CBDB 17779） | accepted |
 | name.primary | 王世彦 | accepted |
 
 ## 关联关系

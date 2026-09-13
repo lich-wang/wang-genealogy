@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王谷祥（1501年—1568年），明代画家。维基数据以独立条目 Q3566068 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王谷祥（1501年—1568年），明代画家。维基数据以独立条目 Q3566068 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_EketHvFp7u6any5ZmOzjFl
           claim_id: c_xLJFAPNzUM1qELeUyDgDzY
@@ -174,7 +174,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王谷祥（1501年—1568年），明代画家。维基数据以独立条目 Q3566068 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王谷祥（1501年—1568年），明代画家。维基数据以独立条目 Q3566068 收录该人物。 | accepted |
 | birth.date | 1501年 | accepted |
 | death.date | 1568年 | accepted |
 | name.primary | 王谷祥 | accepted |

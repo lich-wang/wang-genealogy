@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王坦（卒于807年），唐人物。CBDB 记录其籍贯记录为京兆府。中国历代人物传记资料库（CBDB）以人物编号 175366 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王坦（卒于807年），唐人物。籍贯臨沂。（中国历代人物传记资料库 CBDB 175366）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_Kva5rLJ8s4QYNC2nhXKGad
           claim_id: c_RuyD5XmNrnxGQqFEmVnGks
@@ -265,7 +265,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王坦（卒于807年），唐人物。CBDB 记录其籍贯记录为京兆府。中国历代人物传记资料库（CBDB）以人物编号 175366 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王坦（卒于807年），唐人物。籍贯臨沂。（中国历代人物传记资料库 CBDB 175366） | accepted |
 | death.date | 807年 | accepted |
 | name.primary | 王坦 | accepted |
 

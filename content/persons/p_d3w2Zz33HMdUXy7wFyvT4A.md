@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王恕，元人物。CBDB 记录其籍贯记录为槁城，身份包括農民。中国历代人物传记资料库（CBDB）以人物编号 29509 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王恕，元人物。籍贯槁城，身份为農民。（中国历代人物传记资料库 CBDB 29509）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_WN6mDMB3d4mdM3gzgxyxX1
           claim_id: c_L8L8bYyLPt4iju4Ze2hTRq
@@ -204,7 +204,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王恕，元人物。CBDB 记录其籍贯记录为槁城，身份包括農民。中国历代人物传记资料库（CBDB）以人物编号 29509 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王恕，元人物。籍贯槁城，身份为農民。（中国历代人物传记资料库 CBDB 29509） | accepted |
 | name.primary | 王恕 | accepted |
 
 ## 关联关系

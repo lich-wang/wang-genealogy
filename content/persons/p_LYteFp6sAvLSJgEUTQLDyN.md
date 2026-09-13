@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王令溫（895年—956年），后唐武官。维基数据以独立条目 Q137585924 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王令溫（895年—956年），后唐武官。维基数据以独立条目 Q137585924 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_FlSD4l2wDhFHMA3jtuQXH_
           claim_id: c_3tLioycnRMpZmBH3QyEPJw
@@ -174,7 +174,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王令溫（895年—956年），后唐武官。维基数据以独立条目 Q137585924 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王令溫（895年—956年），后唐武官。维基数据以独立条目 Q137585924 收录该人物。 | accepted |
 | birth.date | 895年 | accepted |
 | death.date | 956年 | accepted |
 | name.primary | 王令溫 | accepted |

@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 陈氏，王正思妻。维基数据以独立条目 Q65812299 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 陈氏，明人物。嘉靖八年進士。（中国历代人物传记资料库 CBDB 288235）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs__lTek8wTZabgUqDpVeogzd
+        - id: cs_GMuxqja-hg3Z2lVU9FJAvW
           claim_id: c_BYavutTGEKxKtZtl1XzDjA
-          source_id: s_JiqaqGzZJtQT8Loteqo9xa
+          source_id: s_cNCEyU5UGc24MjGBbr8Vy9
           stance: supports
-          locator: Q65812299
+          locator: CBDB:288235
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_JiqaqGzZJtQT8Loteqo9xa
+            id: s_cNCEyU5UGc24MjGBbr8Vy9
             source_type: api_record
-            title: 维基数据：陈氏（Q65812299）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：陳氏（288235）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65812299
-            external_identifier: Q65812299
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:25:32.932Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288235&o=json
+            external_identifier: CBDB:288235
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:25:33.085Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,18 +69,7 @@ properties:
           locator: Q65812299
           quotation: null
           interpretation_note: null
-          source:
-            id: s_cNCEyU5UGc24MjGBbr8Vy9
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：陳氏（288235）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288235&o=json
-            external_identifier: CBDB:288235
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:25:33.085Z
-            metadata_json: null
+          source: *a1
         - id: cs_zed7HrLwhoekJ5mqKKRHPM
           claim_id: c_VrDMaL6xgxRAdhi5q1F3pW
           source_id: s_JiqaqGzZJtQT8Loteqo9xa
@@ -88,7 +77,18 @@ properties:
           locator: Q65812299
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_JiqaqGzZJtQT8Loteqo9xa
+            source_type: api_record
+            title: 维基数据：陈氏（Q65812299）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65812299
+            external_identifier: Q65812299
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:25:32.932Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -205,7 +205,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 陈氏，王正思妻。维基数据以独立条目 Q65812299 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 陈氏，明人物。嘉靖八年進士。（中国历代人物传记资料库 CBDB 288235） | accepted |
 | name.primary | 陈氏 | accepted |
 
 ## 关联关系

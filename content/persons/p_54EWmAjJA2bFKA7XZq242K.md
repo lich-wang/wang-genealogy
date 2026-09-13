@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 孙婉，孙中山之次女。维基数据以独立条目 Q4164300 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 孙婉，孙中山之次女。维基数据以独立条目 Q4164300 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
         - id: cs_bj5c9jA6R6eggssz0Sr0Y6
           claim_id: c_ktXfJ8z3qqjsnNGpJTucPO
@@ -148,7 +148,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 孙婉，孙中山之次女。维基数据以独立条目 Q4164300 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 孙婉，孙中山之次女。维基数据以独立条目 Q4164300 收录该人物。 | accepted |
 | name.primary | 孙婉 | accepted |
 
 ## 关联关系

@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 吴氏（1035年—1093年），王令妻。维基数据以独立条目 Q45364104 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 吴氏（1035年—1093年），宋人物。籍贯金谿，入仕封贈。（中国历代人物传记资料库 CBDB 5135）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_npcAAjhWPv3oYbQXtEwmaS
+        - id: cs_j01LnABSNV62eIhFd3iMOb
           claim_id: c_WLJ4MEAr3aEh5hHu5vZZM6
-          source_id: s_GAyno7PFX3Cw6UaDPzzWaV
+          source_id: s_h7DN2KUR3A1fW3nCqDREcn
           stance: supports
-          locator: Q45364104
+          locator: CBDB:5135
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_GAyno7PFX3Cw6UaDPzzWaV
+            id: s_h7DN2KUR3A1fW3nCqDREcn
             source_type: api_record
-            title: 维基数据：吴氏（Q45364104）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：吳氏（5135）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45364104
-            external_identifier: Q45364104
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:25:36.508Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5135&o=json
+            external_identifier: CBDB:5135
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:25:36.661Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -153,18 +153,7 @@ properties:
           locator: Q45364104
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_h7DN2KUR3A1fW3nCqDREcn
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：吳氏（5135）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5135&o=json
-            external_identifier: CBDB:5135
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:25:36.661Z
-            metadata_json: null
+          source: *a1
         - id: cs_f3uPPvyLxWrE4StLcUmwSp
           claim_id: c_uufACPNHMRAoLNgo1mFRJQ
           source_id: s_GAyno7PFX3Cw6UaDPzzWaV
@@ -172,7 +161,18 @@ properties:
           locator: Q45364104
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_GAyno7PFX3Cw6UaDPzzWaV
+            source_type: api_record
+            title: 维基数据：吴氏（Q45364104）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45364104
+            external_identifier: Q45364104
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:25:36.508Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -296,7 +296,7 @@ relationships:
           locator: 宋人傳記資料索引(電子版)，600;601：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_4g3xdD6NPZ5iQggyuwkBGV
         status: active
@@ -315,7 +315,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 吴氏（1035年—1093年），王令妻。维基数据以独立条目 Q45364104 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 吴氏（1035年—1093年），宋人物。籍贯金谿，入仕封贈。（中国历代人物传记资料库 CBDB 5135） | accepted |
 | birth.date | 1035年 | accepted |
 | death.date | 1093年 | accepted |
 | name.primary | 吴氏 | accepted |

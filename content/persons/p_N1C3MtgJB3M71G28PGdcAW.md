@@ -18,32 +18,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 劉啟（前187年—前140年3月6日），中国汉朝皇帝。维基数据以独立条目 Q7224 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 劉啟（前187年—前140年3月6日），西漢人物。籍贯長安，入仕繼位。（中国历代人物传记资料库 CBDB 16625）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
-        - id: cs_ePt4M9P2vSYiywXVJhfJAe
+        - id: cs_cSd8_UsU1KD_ePhyshqdPA
           claim_id: c_8sUsWZokh6e2A8MDzaKiNx
-          source_id: s_xKz9UBNSopYgDsfwuwRFm8
+          source_id: s_tx8SMFTtbsbWuV4B3tptRv
           stance: supports
-          locator: Q7224
+          locator: CBDB:16625
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_xKz9UBNSopYgDsfwuwRFm8
+            id: s_tx8SMFTtbsbWuV4B3tptRv
             source_type: api_record
-            title: 维基数据：汉景帝（Q7224）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：劉啟（16625）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q7224
-            external_identifier: Q7224
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:31:31.982Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E6%B1%89%E6%99%AF%E5%B8%9D
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=16625&o=json
+            external_identifier: CBDB:16625
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:31:32.143Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -214,18 +213,7 @@ properties:
           locator: Q7224
           quotation: null
           interpretation_note: null
-          source:
-            id: s_tx8SMFTtbsbWuV4B3tptRv
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：劉啟（16625）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=16625&o=json
-            external_identifier: CBDB:16625
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:31:32.143Z
-            metadata_json: null
+          source: *a1
         - id: cs_z3objM6CzrDaKY6CDakQVk
           claim_id: c_BwSewQxZvTPRxPyH6Xfbpx
           source_id: s_xKz9UBNSopYgDsfwuwRFm8
@@ -233,7 +221,19 @@ properties:
           locator: Q7224
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_xKz9UBNSopYgDsfwuwRFm8
+            source_type: api_record
+            title: 维基数据：汉景帝（Q7224）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q7224
+            external_identifier: Q7224
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:31:31.982Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E6%B1%89%E6%99%AF%E5%B8%9D
       object_person: null
     alternatives: []
 relationships:
@@ -371,7 +371,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 劉啟（前187年—前140年3月6日），中国汉朝皇帝。维基数据以独立条目 Q7224 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 劉啟（前187年—前140年3月6日），西漢人物。籍贯長安，入仕繼位。（中国历代人物传记资料库 CBDB 16625） | accepted |
 | birth.date | 前187年 | accepted |
 | death.date | 前140年3月6日 | accepted |
 | name.alias | 汉景帝 | accepted |

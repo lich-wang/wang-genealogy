@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王权（卒于922年），唐人物。CBDB 记录其籍贯记录为太原，曾任兵部尚書。中国历代人物传记资料库（CBDB）以人物编号 175917 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王权（卒于922年），唐人物。籍贯太原，曾任兵部尚書。（中国历代人物传记资料库 CBDB 175917）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_i4wUf4RKvf2NMxPgvUTv1v
           claim_id: c_PZU4tPRxLRSG7JEeimx5ih
@@ -236,7 +236,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王权（卒于922年），唐人物。CBDB 记录其籍贯记录为太原，曾任兵部尚書。中国历代人物传记资料库（CBDB）以人物编号 175917 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王权（卒于922年），唐人物。籍贯太原，曾任兵部尚書。（中国历代人物传记资料库 CBDB 175917） | accepted |
 | death.date | 922年 | accepted |
 | name.primary | 王权 | accepted |
 

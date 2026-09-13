@@ -17,30 +17,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王漱芳（1901年—1943年），史料所见人物。本项目依据《王漱芳》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王漱芳（1901年—1943年）贵州省盘县人，中华民国政治人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
-        - id: cs_hfxQmeOacvc3dKerTANIe8
+        - id: cs_iNkMd3H77did54RX22Lqmz
           claim_id: c_o8KZz_LP0Dxp_aE4iVJCpw
-          source_id: s_Q9CfzDVMEuC6L5HaKVN2o9
+          source_id: s_RQQH7G5gnwevUNYZoyIB5N
           stance: supports
-          locator: Q15913216
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_Q9CfzDVMEuC6L5HaKVN2o9
-            source_type: api_record
-            title: 维基数据：王漱芳（Q15913216）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王漱芳（1901年—1943年）贵州省盘县人，中华民国政治人物。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_RQQH7G5gnwevUNYZoyIB5N
+            source_type: website
+            title: 中文维基百科：王漱芳
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q15913216
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%BC%B1%E8%8A%B3
             external_identifier: Q15913216
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:47:10.709Z
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -72,7 +72,18 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_Q9CfzDVMEuC6L5HaKVN2o9
+            source_type: api_record
+            title: 维基数据：王漱芳（Q15913216）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q15913216
+            external_identifier: Q15913216
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:47:10.709Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: death.date
@@ -174,7 +185,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王漱芳（1901年—1943年），史料所见人物。本项目依据《王漱芳》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王漱芳（1901年—1943年）贵州省盘县人，中华民国政治人物。 | accepted |
 | birth.date | 1901年 | accepted |
 | death.date | 1943年 | accepted |
 | name.primary | 王漱芳 | accepted |
@@ -187,3 +198,4 @@ relationships:
 ## 外部来源
 
 - [维基数据：王漱芳（Q15913216）](https://www.wikidata.org/wiki/Q15913216)
+- [中文维基百科：王漱芳](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%BC%B1%E8%8A%B3)

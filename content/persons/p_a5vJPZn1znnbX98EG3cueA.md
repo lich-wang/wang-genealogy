@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 孟氏，王象乾繼妻。维基数据以独立条目 Q65813503 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 孟氏，明人物。隆慶五年進士。（中国历代人物传记资料库 CBDB 211358）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_GDvqmUFCji_yd1YaOjyBJn
+        - id: cs_044iuHQg3LOmVRi_cAA1ln
           claim_id: c_2Yd1JgTg4f8hclF4T21WTs
-          source_id: s_MzXxqz8aUWWNokAKywHBGv
+          source_id: s_GaxDV9z9Ec1yBmMTLzgF4i
           stance: supports
-          locator: Q65813503
+          locator: CBDB:211358
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_MzXxqz8aUWWNokAKywHBGv
+            id: s_GaxDV9z9Ec1yBmMTLzgF4i
             source_type: api_record
-            title: 维基数据：孟氏（Q65813503）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：孟氏（211358）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65813503
-            external_identifier: Q65813503
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:59:42.169Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211358&o=json
+            external_identifier: CBDB:211358
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:42.326Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,7 +69,18 @@ properties:
           locator: Q65813503
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_MzXxqz8aUWWNokAKywHBGv
+            source_type: api_record
+            title: 维基数据：孟氏（Q65813503）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65813503
+            external_identifier: Q65813503
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:42.169Z
+            metadata_json: null
         - id: cs_UAF4wNNxKC5jDnKkAqW67V
           claim_id: c_jTyciD2YtRCSHE81JW1ekc
           source_id: s_GaxDV9z9Ec1yBmMTLzgF4i
@@ -77,18 +88,7 @@ properties:
           locator: Q65813503
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_GaxDV9z9Ec1yBmMTLzgF4i
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：孟氏（211358）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211358&o=json
-            external_identifier: CBDB:211358
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T01:59:42.326Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -192,7 +192,7 @@ relationships:
           locator: 隆慶五年進士登科錄:一卷，第三甲第二百三十二名：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_F188zxtPQfzqFJEz9WJ3M7
         status: active
@@ -211,7 +211,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 孟氏，王象乾繼妻。维基数据以独立条目 Q65813503 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 孟氏，明人物。隆慶五年進士。（中国历代人物传记资料库 CBDB 211358） | accepted |
 | name.primary | 孟氏 | accepted |
 
 ## 关联关系

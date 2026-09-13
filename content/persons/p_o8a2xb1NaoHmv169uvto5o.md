@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 某氏，王安禮妻。维基数据以独立条目 Q45431694 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 某氏，宋人物。曾任郡夫人。（中国历代人物传记资料库 CBDB 38684）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_4qWsPHa_tox3S_K01W7W0L
+        - id: cs_i80PT9KEO8rpMtinGQiijH
           claim_id: c_g9ptL3ueX2xnb8zwKcxF8m
-          source_id: s_Z9W9UnhbASPNU6Vwok1vCQ
+          source_id: s_D56b7BYeReTGfEgGs9vS7C
           stance: supports
-          locator: Q45431694
+          locator: CBDB:38684
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_Z9W9UnhbASPNU6Vwok1vCQ
+            id: s_D56b7BYeReTGfEgGs9vS7C
             source_type: api_record
-            title: 维基数据：某氏（Q45431694）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：某氏（38684）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45431694
-            external_identifier: Q45431694
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:09:58.886Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38684&o=json
+            external_identifier: CBDB:38684
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:09:59.040Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,7 +69,18 @@ properties:
           locator: Q45431694
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_Z9W9UnhbASPNU6Vwok1vCQ
+            source_type: api_record
+            title: 维基数据：某氏（Q45431694）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45431694
+            external_identifier: Q45431694
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:09:58.886Z
+            metadata_json: null
         - id: cs_nHoC7HHwBJyLJaHJe3Z79s
           claim_id: c_CY5TJBYhnCVBd49RvgSXVP
           source_id: s_D56b7BYeReTGfEgGs9vS7C
@@ -77,18 +88,7 @@ properties:
           locator: Q45431694
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_D56b7BYeReTGfEgGs9vS7C
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：某氏（38684）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38684&o=json
-            external_identifier: CBDB:38684
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:09:59.040Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -193,7 +193,7 @@ relationships:
           locator: 宋人傳記資料索引(電子版)，1543;1544：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_KTTATWUQ3F1m45Pemb3S7n
         status: active
@@ -212,7 +212,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 某氏，王安禮妻。维基数据以独立条目 Q45431694 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 某氏，宋人物。曾任郡夫人。（中国历代人物传记资料库 CBDB 38684） | accepted |
 | name.primary | 某氏 | accepted |
 
 ## 关联关系

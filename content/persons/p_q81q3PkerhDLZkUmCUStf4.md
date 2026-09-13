@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 刘氏，王希淮妻。维基数据以独立条目 Q45426174 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 刘氏，宋人物。籍贯安福，身份为農民，入仕封贈，曾任孺人。（中国历代人物传记资料库 CBDB 35275）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_Lx4ZL17EPhnTMrVDyO8D9V
+        - id: cs_4z2GgFXN6XVXyofHdzGBCo
           claim_id: c_MQkGHNVSU9JlAQfX-YC-dO
-          source_id: s_ep36P9gCF7924Pn4ot1Fzb
+          source_id: s_k3j135431HV2A9TKwHw3v8
           stance: supports
-          locator: Q45426174
+          locator: CBDB:35275
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_ep36P9gCF7924Pn4ot1Fzb
+            id: s_k3j135431HV2A9TKwHw3v8
             source_type: api_record
-            title: 维基数据：刘氏（Q45426174）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：劉氏（35275）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45426174
-            external_identifier: Q45426174
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:06:15.653Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35275&o=json
+            external_identifier: CBDB:35275
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:15.825Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,18 +69,7 @@ properties:
           locator: Q45426174
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_k3j135431HV2A9TKwHw3v8
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：劉氏（35275）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35275&o=json
-            external_identifier: CBDB:35275
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:06:15.825Z
-            metadata_json: null
+          source: *a1
         - id: cs_qNRz2mPZid86JtAnkxqo28
           claim_id: c_JuNr2MFpDcE6eXYu7gXJDg
           source_id: s_ep36P9gCF7924Pn4ot1Fzb
@@ -88,7 +77,18 @@ properties:
           locator: Q45426174
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_ep36P9gCF7924Pn4ot1Fzb
+            source_type: api_record
+            title: 维基数据：刘氏（Q45426174）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45426174
+            external_identifier: Q45426174
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:15.653Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -173,7 +173,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_TgApbZd9M5zU1j9wVDTdgh
           claim_id: c_R1rfuLqiBrmfSxXbRhRFLQ
           source_id: s_6HuB69fFUFh7QQ1s2c3Ajy
@@ -218,7 +218,7 @@ relationships:
           locator: CBDB 双向互证（丈夫 王希淮 ⇄ 妻子 劉氏(王希淮妻)）
           quotation: null
           interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
-          source: *a2
+          source: *a1
       object_person:
         id: p_Nz48pSWAW4LPxqPoD9gVkb
         status: active
@@ -237,7 +237,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 刘氏，王希淮妻。维基数据以独立条目 Q45426174 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 刘氏，宋人物。籍贯安福，身份为農民，入仕封贈，曾任孺人。（中国历代人物传记资料库 CBDB 35275） | accepted |
 | name.primary | 刘氏 | accepted |
 
 ## 关联关系

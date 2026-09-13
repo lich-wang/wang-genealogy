@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王安国（1028年—1074年），宋人物。CBDB 记录其籍贯记录为臨川，身份包括思想家，入仕记录为科舉學校: 恩賜出身、特賜出身等。中国历代人物传记资料库（CBDB）以人物编号 7076 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: "王安国（1028年—1074年），宋人物。籍贯臨川，身份为思想家，入仕科舉學校: 恩賜出身、特賜出身等，曾任禮儀院、三司判官、崇文院校書。（中国历代人物传记资料库 CBDB 7076）"
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_suiPAZBgAWoX6z2VGE9ZLe
           claim_id: c_je5ZWSbQ7aMPAJQ5dWMxN3
@@ -539,7 +539,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王安国（1028年—1074年），宋人物。CBDB 记录其籍贯记录为臨川，身份包括思想家，入仕记录为科舉學校: 恩賜出身、特賜出身等。中国历代人物传记资料库（CBDB）以人物编号 7076 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王安国（1028年—1074年），宋人物。籍贯臨川，身份为思想家，入仕科舉學校: 恩賜出身、特賜出身等，曾任禮儀院、三司判官、崇文院校書。（中国历代人物传记资料库 CBDB 7076） | accepted |
 | birth.date | 1028年 | accepted |
 | death.date | 1074年 | accepted |
 | name.primary | 王安国 | accepted |

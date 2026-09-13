@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王德彬，明人物。中国历代人物传记资料库（CBDB）以人物编号 280952 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王德彬，史料所见人物。本项目依据《中国历代人物传记资料库：王德彬（CBDB 280952）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_bYQaxt1JNUrGsuSWqG9zzm
           claim_id: c_gzfF5KeNWtkG5921A84DaF
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:280952
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: &a1
             id: s_QDn97QGQ5CPD1GbNjCagCV
             source_type: api_record
@@ -70,19 +70,7 @@ properties:
           locator: CBDB:280952
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（3201-3300）｜历史性依据：CBDB 朝代 = 明
-          source:
-            id: s_QDn97QGQ5CPD1GbNjCagCV
-            source_type: api_record
-            title: 中国历代人物传记资料库：王德彬（CBDB 280952）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280952&o=json
-            external_identifier: CBDB:280952
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:17:02.295Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -113,7 +101,19 @@ relationships:
           locator: 景泰五年進士登科錄:一卷，第三甲第二百零八名：曾孫; 重孫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source:
+            id: s_QDn97QGQ5CPD1GbNjCagCV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德彬（CBDB 280952）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280952&o=json
+            external_identifier: CBDB:280952
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:02.295Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
       object_person:
         id: p_VSNhYvRvJzPMQs1xDCfb9J
         status: active
@@ -130,7 +130,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王德彬，明人物。中国历代人物传记资料库（CBDB）以人物编号 280952 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王德彬，史料所见人物。本项目依据《中国历代人物传记资料库：王德彬（CBDB 280952）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 王德彬 | accepted |
 
 ## 关联关系

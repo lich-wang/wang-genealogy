@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王涛（卒于783年），唐人物。CBDB 记录其籍贯记录为咸陽。中国历代人物传记资料库（CBDB）以人物编号 175594 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王涛（卒于783年），唐人物。籍贯咸陽。（中国历代人物传记资料库 CBDB 175594）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_N26hGrgLUmS597ts5bfAY6
           claim_id: c_863DT6wQ4qnwP84ACctLBL
@@ -641,7 +641,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王涛（卒于783年），唐人物。CBDB 记录其籍贯记录为咸陽。中国历代人物传记资料库（CBDB）以人物编号 175594 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王涛（卒于783年），唐人物。籍贯咸陽。（中国历代人物传记资料库 CBDB 175594） | accepted |
 | death.date | 783年 | accepted |
 | name.primary | 王涛 | accepted |
 

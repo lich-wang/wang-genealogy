@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王晊（卒于709年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任殿中侍御史。中国历代人物传记资料库（CBDB）以人物编号 175566 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王晊（卒于709年），唐人物。籍贯咸陽，曾任殿中侍御史。（中国历代人物传记资料库 CBDB 175566）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_FQTKB5e1n4acMQq8tUkxHx
           claim_id: c_pgjiX8eiPpazoBL72DTkLt
@@ -548,7 +548,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王晊（卒于709年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任殿中侍御史。中国历代人物传记资料库（CBDB）以人物编号 175566 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王晊（卒于709年），唐人物。籍贯咸陽，曾任殿中侍御史。（中国历代人物传记资料库 CBDB 175566） | accepted |
 | death.date | 709年 | accepted |
 | name.primary | 王晊 | accepted |
 

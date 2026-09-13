@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 刘彧，南朝刘宋皇帝。维基数据以独立条目 Q718195 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 刘彧，南朝刘宋皇帝。维基数据以独立条目 Q718195 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
         - id: cs_v2WZzQGM14Z_OccBmm2N-G
           claim_id: c_W-PcWUBaCnomkJzvCJfB0D
@@ -169,7 +169,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 刘彧，南朝刘宋皇帝。维基数据以独立条目 Q718195 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 刘彧，南朝刘宋皇帝。维基数据以独立条目 Q718195 收录该人物。 | accepted |
 | name.primary | 刘彧 | accepted |
 
 ## 关联关系

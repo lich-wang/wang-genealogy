@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王原道，明人物。中国历代人物传记资料库（CBDB）以人物编号 333144 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王原道，明人物。天順八年進士。（中国历代人物传记资料库 CBDB 333144）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_tv1q3zFRFHNBrv8deLgP2q
           claim_id: c_LWHxvKNvnR4hbabmJpYxKi
@@ -256,7 +256,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王原道，明人物。中国历代人物传记资料库（CBDB）以人物编号 333144 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王原道，明人物。天順八年進士。（中国历代人物传记资料库 CBDB 333144） | accepted |
 | name.primary | 王原道 | accepted |
 
 ## 关联关系

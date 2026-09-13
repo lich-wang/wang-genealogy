@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 赵氏，王次翁妻。维基数据以独立条目 Q45431223 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 赵氏，宋人物。曾任郡夫人。（中国历代人物传记资料库 CBDB 38577）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_VRJme0HulHvHQyx92cMCqr
+        - id: cs_MByBJFyGonjfpBMQZW1AQz
           claim_id: c_8e5DtVHGp-RGgDPWboV26R
-          source_id: s_5CcEvRp8FMuE9r4XUoi4Hy
+          source_id: s_BsD52qWHw6ncn7UiFQJ5tx
           stance: supports
-          locator: Q45431223
+          locator: CBDB:38577
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_5CcEvRp8FMuE9r4XUoi4Hy
+            id: s_BsD52qWHw6ncn7UiFQJ5tx
             source_type: api_record
-            title: 维基数据：赵氏（Q45431223）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：趙氏（38577）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45431223
-            external_identifier: Q45431223
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:59:02.834Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38577&o=json
+            external_identifier: CBDB:38577
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:02.989Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,7 +69,18 @@ properties:
           locator: Q45431223
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_5CcEvRp8FMuE9r4XUoi4Hy
+            source_type: api_record
+            title: 维基数据：赵氏（Q45431223）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45431223
+            external_identifier: Q45431223
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:02.834Z
+            metadata_json: null
         - id: cs_EY5tfoA8e4UEDPYV44ftge
           claim_id: c_J2kZK863iTXVJP37MSFeEM
           source_id: s_BsD52qWHw6ncn7UiFQJ5tx
@@ -77,18 +88,7 @@ properties:
           locator: Q45431223
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_BsD52qWHw6ncn7UiFQJ5tx
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：趙氏（38577）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38577&o=json
-            external_identifier: CBDB:38577
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T01:59:02.989Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -192,7 +192,7 @@ relationships:
           locator: 宋人傳記資料索引(電子版)，1517;1526：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_yapy3APS2bJCVFq3VNLaKZ
         status: active
@@ -211,7 +211,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 赵氏，王次翁妻。维基数据以独立条目 Q45431223 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 赵氏，宋人物。曾任郡夫人。（中国历代人物传记资料库 CBDB 38577） | accepted |
 | name.primary | 赵氏 | accepted |
 
 ## 关联关系

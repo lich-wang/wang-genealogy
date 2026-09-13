@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 张廉穆，唐人物。CBDB 记录其籍贯记录为京兆府。中国历代人物传记资料库（CBDB）以人物编号 142438 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 张廉穆（602—654），唐人物。籍贯南陽。（中国历代人物传记资料库 CBDB 142438）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_BlgDORckr7Ooz-FZlZpTyb
           claim_id: c_8Po7YqSl_T4M5ADF1mMI8j
@@ -222,7 +222,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 张廉穆，唐人物。CBDB 记录其籍贯记录为京兆府。中国历代人物传记资料库（CBDB）以人物编号 142438 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 张廉穆（602—654），唐人物。籍贯南陽。（中国历代人物传记资料库 CBDB 142438） | accepted |
 | name.primary | 张廉穆 | accepted |
 
 ## 关联关系

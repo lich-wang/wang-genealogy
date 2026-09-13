@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 李氏，王代恕妻。维基数据以独立条目 Q45364337 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 李氏（979—1031），宋人物。籍贯尉氏，入仕封贈，曾任郡太君。（中国历代人物传记资料库 CBDB 5209）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_HYvktnN_QKQBu8wS5KhjXo
+        - id: cs_Q0nfYq73c4C3iABGlXAsAA
           claim_id: c_TrorhBDNVvS2iR9JRyhTpn
-          source_id: s_4jmgQkE9YE83WSJTSSGnn5
+          source_id: s_8BQ9yVvbv6wTsDsk1Wki7f
           stance: supports
-          locator: Q45364337
+          locator: CBDB:5209
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_4jmgQkE9YE83WSJTSSGnn5
+            id: s_8BQ9yVvbv6wTsDsk1Wki7f
             source_type: api_record
-            title: 维基数据：李氏（Q45364337）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：李氏（5209）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45364337
-            external_identifier: Q45364337
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:00:00.249Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5209&o=json
+            external_identifier: CBDB:5209
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:00.418Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,18 +69,7 @@ properties:
           locator: Q45364337
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_8BQ9yVvbv6wTsDsk1Wki7f
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：李氏（5209）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5209&o=json
-            external_identifier: CBDB:5209
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:00:00.418Z
-            metadata_json: null
+          source: *a1
         - id: cs_c3MYjrAHL8Nf3negS7itc2
           claim_id: c_Xb76ZZReYbieCLfAFECy6n
           source_id: s_4jmgQkE9YE83WSJTSSGnn5
@@ -88,7 +77,18 @@ properties:
           locator: Q45364337
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_4jmgQkE9YE83WSJTSSGnn5
+            source_type: api_record
+            title: 维基数据：李氏（Q45364337）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45364337
+            external_identifier: Q45364337
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:00.249Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -192,7 +192,7 @@ relationships:
           locator: 宋人傳記資料索引(電子版)，1514;1515：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_H3E5VxBaQfqgvzveq3gJSK
         status: active
@@ -211,7 +211,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 李氏，王代恕妻。维基数据以独立条目 Q45364337 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 李氏（979—1031），宋人物。籍贯尉氏，入仕封贈，曾任郡太君。（中国历代人物传记资料库 CBDB 5209） | accepted |
 | name.primary | 李氏 | accepted |
 
 ## 关联关系

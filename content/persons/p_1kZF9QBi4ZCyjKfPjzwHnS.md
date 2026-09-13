@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王天叙，明人物。CBDB 记录其籍贯记录为餘姚。中国历代人物传记资料库（CBDB）以人物编号 254715 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王天叙，明人物。成化十七年進士，籍贯餘姚。（中国历代人物传记资料库 CBDB 254715）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_LAt8Y3w8x1NYmtAF8KPR7u
           claim_id: c_5cnKDQUz5rLzWdEX8ZRZXi
@@ -372,7 +372,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王天叙，明人物。CBDB 记录其籍贯记录为餘姚。中国历代人物传记资料库（CBDB）以人物编号 254715 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王天叙，明人物。成化十七年進士，籍贯餘姚。（中国历代人物传记资料库 CBDB 254715） | accepted |
 | name.primary | 王天叙 | accepted |
 
 ## 关联关系

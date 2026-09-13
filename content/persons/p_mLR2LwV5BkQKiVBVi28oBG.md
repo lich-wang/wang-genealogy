@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王缙（卒于780年），唐人物。CBDB 记录其曾任太子詹事、州刺史。中国历代人物传记资料库（CBDB）以人物编号 184938 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王缙（卒于780年），唐人物。曾任太子詹事、州刺史。（中国历代人物传记资料库 CBDB 184938）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_yU5D3PR6aQEbfADWEvvZPd
           claim_id: c_Fb7jLVgcUB38uxkrpTYNvF
@@ -270,7 +270,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王缙（卒于780年），唐人物。CBDB 记录其曾任太子詹事、州刺史。中国历代人物传记资料库（CBDB）以人物编号 184938 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王缙（卒于780年），唐人物。曾任太子詹事、州刺史。（中国历代人物传记资料库 CBDB 184938） | accepted |
 | death.date | 780年 | accepted |
 | name.primary | 王缙 | accepted |
 

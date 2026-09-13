@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王倜（卒于916年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任直弘文館。中国历代人物传记资料库（CBDB）以人物编号 175546 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王倜（卒于916年），唐人物。籍贯咸陽，曾任直弘文館。（中国历代人物传记资料库 CBDB 175546）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_ME3iSRFtn8SFSo1xQHKTDZ
           claim_id: c_BPkAePfLfEN4yNeFHJRvG9
@@ -265,7 +265,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王倜（卒于916年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任直弘文館。中国历代人物传记资料库（CBDB）以人物编号 175546 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王倜（卒于916年），唐人物。籍贯咸陽，曾任直弘文館。（中国历代人物传记资料库 CBDB 175546） | accepted |
 | death.date | 916年 | accepted |
 | name.primary | 王倜 | accepted |
 

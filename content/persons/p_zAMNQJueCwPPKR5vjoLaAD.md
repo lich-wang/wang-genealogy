@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王彦博（1035年—1055年），宋人物。CBDB 记录其籍贯记录为鉅野，身份包括未仕而卒、未參加科舉而卒。中国历代人物传记资料库（CBDB）以人物编号 26229 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王彦博（1035年—1055年），宋人物。籍贯鉅野，身份为未仕而卒、未參加科舉而卒。（中国历代人物传记资料库 CBDB 26229）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_kiMkw6PMMWeT2VqmiCFwcF
           claim_id: c_i81nvnjPZb4JSh42vMcdP1
@@ -513,7 +513,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王彦博（1035年—1055年），宋人物。CBDB 记录其籍贯记录为鉅野，身份包括未仕而卒、未參加科舉而卒。中国历代人物传记资料库（CBDB）以人物编号 26229 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王彦博（1035年—1055年），宋人物。籍贯鉅野，身份为未仕而卒、未參加科舉而卒。（中国历代人物传记资料库 CBDB 26229） | accepted |
 | birth.date | 1035年 | accepted |
 | death.date | 1055年 | accepted |
 | name.primary | 王彦博 | accepted |

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 蒋季锡，清人物。CBDB 记录其籍贯记录为常熟，身份包括畫家。中国历代人物传记资料库（CBDB）以人物编号 55820 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 蒋季锡，清人物。籍贯常熟，身份为畫家。（中国历代人物传记资料库 CBDB 55820）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
         - id: cs_aJw-OjYlqOsUAXkuUbasYB
           claim_id: c_4dq7v1vomGdlkF9TwmyJ6l
@@ -227,7 +227,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 蒋季锡，清人物。CBDB 记录其籍贯记录为常熟，身份包括畫家。中国历代人物传记资料库（CBDB）以人物编号 55820 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 蒋季锡，清人物。籍贯常熟，身份为畫家。（中国历代人物传记资料库 CBDB 55820） | accepted |
 | name.primary | 蒋季锡 | accepted |
 
 ## 关联关系

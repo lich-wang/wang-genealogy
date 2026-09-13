@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 陆氏，王畿母。维基数据以独立条目 Q65818538 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 陆氏，明人物。弘治三年進士。（中国历代人物传记资料库 CBDB 261821）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_c8OeTSy2_MpbD48o5I88lt
+        - id: cs_gFLDskPsE_lM5S86VUNSjz
           claim_id: c_vrk4_G4u5FEmmwVv5Eckr-
-          source_id: s_ZUFtHbEdRzzD45azR6mv5z
+          source_id: s_AuBiM4j61VYY91xcSYEp7f
           stance: supports
-          locator: Q65818538
+          locator: CBDB:261821
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_ZUFtHbEdRzzD45azR6mv5z
+            id: s_AuBiM4j61VYY91xcSYEp7f
             source_type: api_record
-            title: 维基数据：陆氏（Q65818538）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：陸氏（261821）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65818538
-            external_identifier: Q65818538
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:06:18.752Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261821&o=json
+            external_identifier: CBDB:261821
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:18.905Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,18 +69,7 @@ properties:
           locator: Q65818538
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_AuBiM4j61VYY91xcSYEp7f
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：陸氏（261821）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261821&o=json
-            external_identifier: CBDB:261821
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:06:18.905Z
-            metadata_json: null
+          source: *a1
         - id: cs_xpCNATAvijGM2fAubCaH2X
           claim_id: c_URvmALA6ZNtA51o1THqFPr
           source_id: s_ZUFtHbEdRzzD45azR6mv5z
@@ -88,7 +77,18 @@ properties:
           locator: Q65818538
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_ZUFtHbEdRzzD45azR6mv5z
+            source_type: api_record
+            title: 维基数据：陆氏（Q65818538）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65818538
+            external_identifier: Q65818538
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:18.752Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -137,7 +137,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_8pA1AT7avxKLsbvdZZAfcv
           claim_id: c_JQ1PJ16hMTvLGaUeXB8Hnv
           source_id: s_ZYSuVXhQ51wXx8FMPigG2D
@@ -182,7 +182,7 @@ relationships:
           locator: 弘治三年進士登科錄:一卷，第三甲第四名：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_38MrYsNYkPoBeMisQP7Sof
         status: active
@@ -201,7 +201,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 陆氏，王畿母。维基数据以独立条目 Q65818538 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 陆氏，明人物。弘治三年進士。（中国历代人物传记资料库 CBDB 261821） | accepted |
 | name.primary | 陆氏 | accepted |
 
 ## 关联关系

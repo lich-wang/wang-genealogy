@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王廷扬（1866年—1937年），清朝人，中國歷代人物傳記資料庫編號=71555。维基数据以独立条目 Q15928604 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王廷扬（1866年—1937年），清朝人，中國歷代人物傳記資料庫編號=71555。维基数据以独立条目 Q15928604 收录该人物。
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_5mJ50aWpFuaA3QX25zwDzU
           claim_id: c_aEdP3EpxNw1Vn1RFEeRJrm
@@ -174,7 +174,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王廷扬（1866年—1937年），清朝人，中國歷代人物傳記資料庫編號=71555。维基数据以独立条目 Q15928604 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王廷扬（1866年—1937年），清朝人，中國歷代人物傳記資料庫編號=71555。维基数据以独立条目 Q15928604 收录该人物。 | accepted |
 | birth.date | 1866年 | accepted |
 | death.date | 1937年 | accepted |
 | name.primary | 王廷扬 | accepted |

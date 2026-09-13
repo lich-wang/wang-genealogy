@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王伍，明人物。中国历代人物传记资料库（CBDB）以人物编号 217730 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 王伍，明人物。萬曆五年進士。（中国历代人物传记资料库 CBDB 217730）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_B2rz5RTJm8tqGpDMGMTo4j
           claim_id: c_Rmu1MCy1Pn8L56AKef7vwC
@@ -246,7 +246,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王伍，明人物。中国历代人物传记资料库（CBDB）以人物编号 217730 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王伍，明人物。萬曆五年進士。（中国历代人物传记资料库 CBDB 217730） | accepted |
 | name.primary | 王伍 | accepted |
 
 ## 关联关系

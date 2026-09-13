@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 蒋倩，唐人物。CBDB 记录其籍贯记录为河南。中国历代人物传记资料库（CBDB）以人物编号 145354 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 蒋倩（卒於822），唐人物。籍贯河南。（中国历代人物传记资料库 CBDB 145354）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_lavszR86T3qriHBaOSfFlS
           claim_id: c_JhvAjPW-O99Cck6iTKYEIs
@@ -211,7 +211,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 蒋倩，唐人物。CBDB 记录其籍贯记录为河南。中国历代人物传记资料库（CBDB）以人物编号 145354 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 蒋倩（卒於822），唐人物。籍贯河南。（中国历代人物传记资料库 CBDB 145354） | accepted |
 | name.primary | 蒋倩 | accepted |
 
 ## 关联关系

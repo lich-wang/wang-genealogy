@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王渊（卒于1085年），宋人物。CBDB 记录其籍贯记录为管城，身份包括富豪，入仕记录为軍員轉補。中国历代人物传记资料库（CBDB）以人物编号 3998 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 王渊（卒于1085年），宋人物。籍贯管城，身份为富豪，入仕軍員轉補，曾任皇城使、閤門通事舍人、閤門祗候。（中国历代人物传记资料库 CBDB 3998）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_XVto2CVmfP2NYko1CboDQT
           claim_id: c_ffX5o4ySmVqygVmm31UH88
@@ -235,7 +235,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王渊（卒于1085年），宋人物。CBDB 记录其籍贯记录为管城，身份包括富豪，入仕记录为軍員轉補。中国历代人物传记资料库（CBDB）以人物编号 3998 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王渊（卒于1085年），宋人物。籍贯管城，身份为富豪，入仕軍員轉補，曾任皇城使、閤門通事舍人、閤門祗候。（中国历代人物传记资料库 CBDB 3998） | accepted |
 | death.date | 1085年 | accepted |
 | name.primary | 王渊 | accepted |
 

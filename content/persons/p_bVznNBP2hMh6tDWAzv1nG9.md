@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王钻，明人物。CBDB 记录其籍贯记录为黃縣，曾任衛經歷。中国历代人物传记资料库（CBDB）以人物编号 262449 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王钻，明人物。弘治三年進士，籍贯黃縣，曾任衛經歷。（中国历代人物传记资料库 CBDB 262449）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_rAvwkqtBXjPY12gtvjBUEW
           claim_id: c_FVa2c19emo5ePSMCWnoMar
@@ -278,7 +278,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王钻，明人物。CBDB 记录其籍贯记录为黃縣，曾任衛經歷。中国历代人物传记资料库（CBDB）以人物编号 262449 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王钻，明人物。弘治三年進士，籍贯黃縣，曾任衛經歷。（中国历代人物传记资料库 CBDB 262449） | accepted |
 | name.primary | 王钻 | accepted |
 
 ## 关联关系

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王纲（1073年—1127年），宋人物。CBDB 记录其籍贯记录为閩縣，入仕记录为科舉: 進士(籠統)，曾任殿中省丞、右承議郎。中国历代人物传记资料库（CBDB）以人物编号 21993 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王纲（1073年—1127年），宋人物。籍贯穀城，入仕進士，曾任殿中省丞、右承議郎、太常寺博士。（中国历代人物传记资料库 CBDB 21993）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_b6BPnHuozzK8daa1Lmxtsg
           claim_id: c_qhxG6rYehf5XFCdoX1r8eN
@@ -397,7 +397,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王纲（1073年—1127年），宋人物。CBDB 记录其籍贯记录为閩縣，入仕记录为科舉: 進士(籠統)，曾任殿中省丞、右承議郎。中国历代人物传记资料库（CBDB）以人物编号 21993 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王纲（1073年—1127年），宋人物。籍贯穀城，入仕進士，曾任殿中省丞、右承議郎、太常寺博士。（中国历代人物传记资料库 CBDB 21993） | accepted |
 | birth.date | 1073年 | accepted |
 | death.date | 1127年 | accepted |
 | name.primary | 王纲 | accepted |

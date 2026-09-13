@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王惕（卒于861年），唐人物。CBDB 记录其籍贯记录为洛陽。中国历代人物传记资料库（CBDB）以人物编号 191405 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王惕（卒于861年），唐人物。籍贯太原。（中国历代人物传记资料库 CBDB 191405）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_5PJyBqzCrQu8BaTcRR1b2k
           claim_id: c_GsCFAV1xawtMijDJEMAv6Z
@@ -265,7 +265,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王惕（卒于861年），唐人物。CBDB 记录其籍贯记录为洛陽。中国历代人物传记资料库（CBDB）以人物编号 191405 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王惕（卒于861年），唐人物。籍贯太原。（中国历代人物传记资料库 CBDB 191405） | accepted |
 | death.date | 861年 | accepted |
 | name.primary | 王惕 | accepted |
 

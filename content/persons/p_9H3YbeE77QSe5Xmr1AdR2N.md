@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王實，中国古代历史人物。维基数据以独立条目 Q38975814 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王實，中国古代历史人物。维基数据以独立条目 Q38975814 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_LTJlnJ1VaqXHVtxMCHJ1OB
           claim_id: c_3nAudu3Q8wGYNrpo4v9SEu
@@ -337,7 +337,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王實，中国古代历史人物。维基数据以独立条目 Q38975814 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王實，中国古代历史人物。维基数据以独立条目 Q38975814 收录该人物。 | accepted |
 | name.primary | 王實 | accepted |
 
 ## 关联关系

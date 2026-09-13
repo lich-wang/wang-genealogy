@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "曾兆鳌，清人物。CBDB 记录其籍贯记录为閩縣，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 374642 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 曾兆鳌，清人物。明清進士進士，籍贯閩縣，入仕進士。（中国历代人物传记资料库 CBDB 374642）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
         - id: cs_bw_paPPukaa2nxT6Gyu_sZ
           claim_id: c_2Hwu5GWONcfLnn9vghfRwA
@@ -156,7 +156,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 曾兆鳌，清人物。CBDB 记录其籍贯记录为閩縣，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 374642 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 曾兆鳌，清人物。明清進士進士，籍贯閩縣，入仕進士。（中国历代人物传记资料库 CBDB 374642） | accepted |
 | name.primary | 曾兆鳌 | accepted |
 
 ## 关联关系

@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王嘏，史料所见人物。本项目依据《王嘏》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王嘏（4世紀—？），字伟世，琅邪临沂（今山东省临沂市）人，东晋中外大都督、太傅、丞相、始兴文献公王导的曾孙，东晋丹杨尹、始兴郡公王混的长子，王诞的哥哥。 王混死后，王嘏承袭为始兴郡公，娶鄱阳公主，历任中领军、侍中、左户尚书，死后由儿子王恢袭爵。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_qLePyUyQ-wB-J6xVvjf9pS
+        - id: cs_otw9cJwegKaHC8uI4x1OR1
           claim_id: c_UqRR_4THF2KPrRrHv2dhl2
-          source_id: s_WmuRV1fsqQo64BrHaRUPiR
+          source_id: s_WssXZz6rAyl5pbUBz1nASn
           stance: supports
-          locator: Q18118172
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_WmuRV1fsqQo64BrHaRUPiR
-            source_type: api_record
-            title: 维基数据：王嘏（Q18118172）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王嘏（4世紀—？），字伟世，琅邪临沂（今山东省临沂市）人，东晋中
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_WssXZz6rAyl5pbUBz1nASn
+            source_type: website
+            title: 中文维基百科：王嘏
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q18118172
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%98%8F
             external_identifier: Q18118172
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:09:53.246Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%98%8F
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -69,7 +68,19 @@ properties:
           locator: Q18118172
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_WmuRV1fsqQo64BrHaRUPiR
+            source_type: api_record
+            title: 维基数据：王嘏（Q18118172）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q18118172
+            external_identifier: Q18118172
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:09:53.246Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%98%8F
       object_person: null
     alternatives: []
 relationships:
@@ -398,7 +409,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王嘏，史料所见人物。本项目依据《王嘏》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王嘏（4世紀—？），字伟世，琅邪临沂（今山东省临沂市）人，东晋中外大都督、太傅、丞相、始兴文献公王导的曾孙，东晋丹杨尹、始兴郡公王混的长子，王诞的哥哥。 王混死后，王嘏承袭为始兴郡公，娶鄱阳公主，历任中领军、侍中、左户尚书，死后由儿子王恢袭爵。 | accepted |
 | name.primary | 王嘏 | accepted |
 
 ## 关联关系
@@ -417,3 +428,4 @@ relationships:
 - [维基数据：王偃（Q11572909）](https://www.wikidata.org/wiki/Q11572909)
 - [中文维基百科：琅邪王氏世系圖](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F%E4%B8%96%E7%B3%BB%E5%9C%96)
 - [中文维基百科：鄱陽公主](https://zh.wikipedia.org/wiki/%E9%84%B1%E9%99%BD%E5%85%AC%E4%B8%BB)
+- [中文维基百科：王嘏](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%98%8F)

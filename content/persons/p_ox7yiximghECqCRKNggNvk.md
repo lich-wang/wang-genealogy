@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 秦氏，王宗沐妻。维基数据以独立条目 Q65829777 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 秦氏，明人物。嘉靖二十三年進士。（中国历代人物传记资料库 CBDB 305711）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_FS8mNTL6R8g8HOmOfgiW1U
+        - id: cs_wb1rNvKUGVyX0lgjpJa8Sd
           claim_id: c_JH2sUpuEkHoP4eKC8gwLtv
-          source_id: s_a5pFTW9aQEBFYKT1XQDG4Q
+          source_id: s_cGaqYxCpTDcUzNoW1L3HHJ
           stance: supports
-          locator: Q65829777
+          locator: CBDB:305711
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_a5pFTW9aQEBFYKT1XQDG4Q
+            id: s_cGaqYxCpTDcUzNoW1L3HHJ
             source_type: api_record
-            title: 维基数据：秦氏（Q65829777）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：秦氏（305711）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65829777
-            external_identifier: Q65829777
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:59:42.169Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305711&o=json
+            external_identifier: CBDB:305711
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:42.305Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,18 +69,7 @@ properties:
           locator: Q65829777
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_cGaqYxCpTDcUzNoW1L3HHJ
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：秦氏（305711）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305711&o=json
-            external_identifier: CBDB:305711
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T01:59:42.305Z
-            metadata_json: null
+          source: *a1
         - id: cs_oS1KHn6BnLtykiA5MesQgy
           claim_id: c_77RkyjqGHwCPD2MTCwHXvu
           source_id: s_a5pFTW9aQEBFYKT1XQDG4Q
@@ -88,7 +77,18 @@ properties:
           locator: Q65829777
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_a5pFTW9aQEBFYKT1XQDG4Q
+            source_type: api_record
+            title: 维基数据：秦氏（Q65829777）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65829777
+            external_identifier: Q65829777
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:42.169Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -192,7 +192,7 @@ relationships:
           locator: 嘉靖二十三年登科錄:一卷，第二甲第四十三名：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_AxnhzouFhPDEcn88n2bfsw
         status: active
@@ -211,7 +211,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 秦氏，王宗沐妻。维基数据以独立条目 Q65829777 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 秦氏，明人物。嘉靖二十三年進士。（中国历代人物传记资料库 CBDB 305711） | accepted |
 | name.primary | 秦氏 | accepted |
 
 ## 关联关系

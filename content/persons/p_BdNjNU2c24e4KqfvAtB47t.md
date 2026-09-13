@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王鸿年（1874年—1946年1月12日），近代中國外交官。维基数据以独立条目 Q116214235 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王鸿年（1874年—1946年1月12日），近代中國外交官。维基数据以独立条目 Q116214235 收录该人物。
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_51ty1k8xDs9EDMYwoIrOGt
           claim_id: c_UQLKpGMXvPm9u2YCQjUFGK
@@ -174,7 +174,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王鸿年（1874年—1946年1月12日），近代中國外交官。维基数据以独立条目 Q116214235 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王鸿年（1874年—1946年1月12日），近代中國外交官。维基数据以独立条目 Q116214235 收录该人物。 | accepted |
 | birth.date | 1874年 | accepted |
 | death.date | 1946年1月12日 | accepted |
 | name.primary | 王鸿年 | accepted |

@@ -17,30 +17,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王英冕（1869年—1894年），史料所见人物。本项目依据《王英冕》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王英冕（?—?），字迈卿，江蘇省鎮江府丹陽縣人，清朝政治人物，進士出身。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
-        - id: cs_qiWXBJnGMnhCr9NVb5K2gw
+        - id: cs_sU26ZDccdVJ4aIJ0bpy_z7
           claim_id: c_XQA3c3gyJMXqGm29RiEgpN
-          source_id: s_kDzFUKVkx53JKXNnaj912v
+          source_id: s_LxpTduAcJT_Kq6rkk1oz8x
           stance: supports
-          locator: Q15944586
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_kDzFUKVkx53JKXNnaj912v
-            source_type: api_record
-            title: 维基数据：王英冕（Q15944586）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王英冕（?—?），字迈卿，江蘇省鎮江府丹陽縣人，清朝政治人物，進
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_LxpTduAcJT_Kq6rkk1oz8x
+            source_type: website
+            title: 中文维基百科：王英冕
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q15944586
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%8B%B1%E5%86%95
             external_identifier: Q15944586
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:48:45.295Z
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -72,7 +72,18 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_kDzFUKVkx53JKXNnaj912v
+            source_type: api_record
+            title: 维基数据：王英冕（Q15944586）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q15944586
+            external_identifier: Q15944586
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:48:45.295Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: death.date
@@ -174,7 +185,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王英冕（1869年—1894年），史料所见人物。本项目依据《王英冕》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王英冕（?—?），字迈卿，江蘇省鎮江府丹陽縣人，清朝政治人物，進士出身。 | accepted |
 | birth.date | 1869年 | accepted |
 | death.date | 1894年 | accepted |
 | name.primary | 王英冕 | accepted |
@@ -187,3 +198,4 @@ relationships:
 ## 外部来源
 
 - [维基数据：王英冕（Q15944586）](https://www.wikidata.org/wiki/Q15944586)
+- [中文维基百科：王英冕](https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%8B%B1%E5%86%95)

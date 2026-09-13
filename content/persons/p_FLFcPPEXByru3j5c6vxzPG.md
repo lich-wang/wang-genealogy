@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王览（生于206年），西晉人物。CBDB 记录其籍贯记录为沂水。中国历代人物传记资料库（CBDB）以人物编号 25786 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王览（生于206年），西晉人物。籍贯沂水。（中国历代人物传记资料库 CBDB 25786）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_LbSBaQ7kz2k1zvFWtVkgVF
           claim_id: c_o9LzMAZPrDTBBHgwUckoM7
@@ -1522,7 +1522,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王览（生于206年），西晉人物。CBDB 记录其籍贯记录为沂水。中国历代人物传记资料库（CBDB）以人物编号 25786 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王览（生于206年），西晉人物。籍贯沂水。（中国历代人物传记资料库 CBDB 25786） | accepted |
 | birth.date | 206年 | accepted |
 | name.primary | 王览 | accepted |
 

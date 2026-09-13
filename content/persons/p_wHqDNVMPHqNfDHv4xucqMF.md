@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王留孙（1208年—1268年），元人物。CBDB 记录其籍贯记录为安福州。中国历代人物传记资料库（CBDB）以人物编号 35271 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王留孙（1208年—1268年），元人物。籍贯安福州。（中国历代人物传记资料库 CBDB 35271）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_xf6mcPX4CycMLMN8T7cBib
           claim_id: c_1mjU79w7ywhvtf7DtGCXoZ
@@ -325,7 +325,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王留孙（1208年—1268年），元人物。CBDB 记录其籍贯记录为安福州。中国历代人物传记资料库（CBDB）以人物编号 35271 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王留孙（1208年—1268年），元人物。籍贯安福州。（中国历代人物传记资料库 CBDB 35271） | accepted |
 | birth.date | 1208年 | accepted |
 | death.date | 1268年 | accepted |
 | name.primary | 王留孙 | accepted |

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王之翰，明人物。CBDB 记录其籍贯记录为新城，入仕记录为監生(籠統)，曾任禮部郎中。中国历代人物传记资料库（CBDB）以人物编号 217735 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 王之翰，明人物。萬曆五年進士，籍贯新城，入仕監生，曾任禮部郎中。（中国历代人物传记资料库 CBDB 217735）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_G1sjwV86goH2kJW2942P6d
           claim_id: c_EV4rCyrB7Y3yJe3kibtywP
@@ -242,7 +242,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王之翰，明人物。CBDB 记录其籍贯记录为新城，入仕记录为監生(籠統)，曾任禮部郎中。中国历代人物传记资料库（CBDB）以人物编号 217735 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王之翰，明人物。萬曆五年進士，籍贯新城，入仕監生，曾任禮部郎中。（中国历代人物传记资料库 CBDB 217735） | accepted |
 | name.primary | 王之翰 | accepted |
 
 ## 关联关系

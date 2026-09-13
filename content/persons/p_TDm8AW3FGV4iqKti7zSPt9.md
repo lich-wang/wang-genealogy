@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王某（卒于598年），南北朝人物。CBDB 记录其籍贯记录为京兆府。中国历代人物传记资料库（CBDB）以人物编号 193614 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王某（卒于598年），南北朝人物。籍贯臨沂。（中国历代人物传记资料库 CBDB 193614）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_41ZupbJUoNS15FWLMkz9FY
           claim_id: c_zuLtwYeSePGH6KM5Eec8y7
@@ -360,7 +360,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王某（卒于598年），南北朝人物。CBDB 记录其籍贯记录为京兆府。中国历代人物传记资料库（CBDB）以人物编号 193614 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王某（卒于598年），南北朝人物。籍贯臨沂。（中国历代人物传记资料库 CBDB 193614） | accepted |
 | death.date | 598年 | accepted |
 | name.primary | 王某 | accepted |
 

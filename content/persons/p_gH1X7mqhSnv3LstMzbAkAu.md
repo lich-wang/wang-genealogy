@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王质，明人物。中国历代人物传记资料库（CBDB）以人物编号 250183 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王质，明人物。成化十一年進士。（中国历代人物传记资料库 CBDB 250183）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_9Q9cVi23UoiALHxHVgcjB2
           claim_id: c_3RUDrzAUmWKyi8ofuH9rdH
@@ -248,7 +248,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王质，明人物。中国历代人物传记资料库（CBDB）以人物编号 250183 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王质，明人物。成化十一年進士。（中国历代人物传记资料库 CBDB 250183） | accepted |
 | name.primary | 王质 | accepted |
 
 ## 关联关系

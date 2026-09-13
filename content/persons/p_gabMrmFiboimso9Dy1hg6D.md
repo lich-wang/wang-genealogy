@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王匡，史料所见人物。本项目依据《維基數據：王匡》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王匡（?—?），是中国新朝皇帝王莽的庶子。他的生母为王莽的妾增秩。王莽的妾室增秩、怀能、开明，和增秩的儿子王匡、女儿王曄，怀能的儿子王兴，开明的女儿王捷，都留在了新都国。地皇二年（21年），孝睦皇后和三子王安先后去世，王莽假托王安上表，请求这些弟弟妹妹到京城常安受封。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_ksoE5n93OikGHH87rf6kzB
+        - id: cs_Y2cQyDpWEhmTvH3LaA0mxW
           claim_id: c_JgrtMHmLBoZ7WmrR3hPQ5s
-          source_id: s_jqYwn6sCp3EEtn4XUs9aAq
+          source_id: s_SFXXnvFZhYmVqqSAQ7mdKX
           stance: supports
-          locator: Q10412750
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_jqYwn6sCp3EEtn4XUs9aAq
-            source_type: api_record
-            title: 維基數據：王匡（Q10412750）
-            creator: 維基數據貢獻者
+          locator: 导言
+          quotation: 王匡（?—?），是中国新朝皇帝王莽的庶子。他的生母为王莽的妾增秩
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_SFXXnvFZhYmVqqSAQ7mdKX
+            source_type: website
+            title: 中文维基百科：王匡 (王莽之子)
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q10412750
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8C%A1_(%E7%8E%8B%E8%8E%BD%E4%B9%8B%E5%AD%90)
             external_identifier: Q10412750
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T02:10:38.657Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8C%A1_(%E7%8E%8B%E8%8E%BD%E4%B9%8B%E5%AD%90)
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -69,7 +68,19 @@ properties:
           locator: Q10412750
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_jqYwn6sCp3EEtn4XUs9aAq
+            source_type: api_record
+            title: 維基數據：王匡（Q10412750）
+            creator: 維基數據貢獻者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q10412750
+            external_identifier: Q10412750
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:10:38.657Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8C%A1_(%E7%8E%8B%E8%8E%BD%E4%B9%8B%E5%AD%90)
       object_person: null
     alternatives: []
 relationships:
@@ -168,7 +179,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王匡，史料所见人物。本项目依据《維基數據：王匡》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王匡（?—?），是中国新朝皇帝王莽的庶子。他的生母为王莽的妾增秩。王莽的妾室增秩、怀能、开明，和增秩的儿子王匡、女儿王曄，怀能的儿子王兴，开明的女儿王捷，都留在了新都国。地皇二年（21年），孝睦皇后和三子王安先后去世，王莽假托王安上表，请求这些弟弟妹妹到京城常安受封。 | accepted |
 | name.primary | 王匡 | accepted |
 
 ## 关联关系
@@ -181,4 +192,5 @@ relationships:
 
 - [維基數據：王匡（Q10412750）](https://www.wikidata.org/wiki/Q10412750)
 - [維基數據：王莽（Q7250）](https://www.wikidata.org/wiki/Q7250)
+- [中文维基百科：王匡 (王莽之子)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8C%A1_(%E7%8E%8B%E8%8E%BD%E4%B9%8B%E5%AD%90))
 - [中文维基百科：王莽](https://zh.wikipedia.org/wiki/王莽)

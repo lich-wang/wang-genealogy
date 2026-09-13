@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王长文（卒于819年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任使。中国历代人物传记资料库（CBDB）以人物编号 175463 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王长文（卒于819年），唐人物。籍贯咸陽，曾任使。（中国历代人物传记资料库 CBDB 175463）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_2t1sD3bbEW2w4QEsFPTtea
           claim_id: c_LBJ2ob3gZ6Usd2bhhJ1V7R
@@ -735,7 +735,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王长文（卒于819年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任使。中国历代人物传记资料库（CBDB）以人物编号 175463 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王长文（卒于819年），唐人物。籍贯咸陽，曾任使。（中国历代人物传记资料库 CBDB 175463） | accepted |
 | death.date | 819年 | accepted |
 | name.primary | 王长文 | accepted |
 

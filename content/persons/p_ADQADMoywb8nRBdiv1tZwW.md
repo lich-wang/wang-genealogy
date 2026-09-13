@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王绎，唐人物。CBDB 记录其籍贯记录为河東。中国历代人物传记资料库（CBDB）以人物编号 32176 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王绎，唐人物。籍贯河東。（中国历代人物传记资料库 CBDB 32176）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_AYJ7FsHk95SAHjMQrJ17AY
           claim_id: c_WmnLdt1zc3PTAwbXQ7ogG8
@@ -223,7 +223,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王绎，唐人物。CBDB 记录其籍贯记录为河東。中国历代人物传记资料库（CBDB）以人物编号 32176 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王绎，唐人物。籍贯河東。（中国历代人物传记资料库 CBDB 32176） | accepted |
 | name.primary | 王绎 | accepted |
 
 ## 关联关系

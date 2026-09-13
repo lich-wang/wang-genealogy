@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王必达（1821年—1881年），清人物。CBDB 记录其籍贯记录为臨桂，入仕记录为科舉: 鄉貢舉人，曾任按察使、兵備道。中国历代人物传记资料库（CBDB）以人物编号 69135 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王必达（1821年—1881年），清人物。籍贯臨桂，入仕鄉貢舉人，曾任按察使、兵備道、縣知縣。（中国历代人物传记资料库 CBDB 69135）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_73xDUUoGmfMawKH3BJTeUM
           claim_id: c_4Q1KA6oF1T2X7w2xnaWmcF
@@ -506,7 +506,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王必达（1821年—1881年），清人物。CBDB 记录其籍贯记录为臨桂，入仕记录为科舉: 鄉貢舉人，曾任按察使、兵備道。中国历代人物传记资料库（CBDB）以人物编号 69135 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王必达（1821年—1881年），清人物。籍贯臨桂，入仕鄉貢舉人，曾任按察使、兵備道、縣知縣。（中国历代人物传记资料库 CBDB 69135） | accepted |
 | birth.date | 1821年 | accepted |
 | death.date | 1881年 | accepted |
 | name.primary | 王必达 | accepted |

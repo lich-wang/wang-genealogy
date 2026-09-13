@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王添（卒于820年），唐人物。CBDB 记录其籍贯记录为京兆府，曾任司農卿。中国历代人物传记资料库（CBDB）以人物编号 175407 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王添（卒于820年），唐人物。籍贯臨沂，曾任司農卿。（中国历代人物传记资料库 CBDB 175407）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_dJWrCM25TDfD6Cgv8La9gH
           claim_id: c_eHMxAw2eVhLYv4K2X4F1Jb
@@ -829,7 +829,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王添（卒于820年），唐人物。CBDB 记录其籍贯记录为京兆府，曾任司農卿。中国历代人物传记资料库（CBDB）以人物编号 175407 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王添（卒于820年），唐人物。籍贯臨沂，曾任司農卿。（中国历代人物传记资料库 CBDB 175407） | accepted |
 | death.date | 820年 | accepted |
 | name.primary | 王添 | accepted |
 

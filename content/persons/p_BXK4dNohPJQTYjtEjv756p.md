@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王延钧（卒于935年11月17日），閩國人物。CBDB 记录其籍贯记录为南安，身份包括統治者，入仕记录为弑君自立。中国历代人物传记资料库（CBDB）以人物编号 11521 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王延钧（卒于935年11月17日），閩國人物。籍贯南安，身份为統治者，入仕弑君自立。（中国历代人物传记资料库 CBDB 11521）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_GcpJZSFUHRNVhcsU57wmvN
           claim_id: c_u2sShKbQXzvEJzZ6iF2Sai
@@ -639,7 +639,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王延钧（卒于935年11月17日），閩國人物。CBDB 记录其籍贯记录为南安，身份包括統治者，入仕记录为弑君自立。中国历代人物传记资料库（CBDB）以人物编号 11521 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王延钧（卒于935年11月17日），閩國人物。籍贯南安，身份为統治者，入仕弑君自立。（中国历代人物传记资料库 CBDB 11521） | accepted |
 | death.date | 935年11月17日 | accepted |
 | name.primary | 王延钧 | accepted |
 

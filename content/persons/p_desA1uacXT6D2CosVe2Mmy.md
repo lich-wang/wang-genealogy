@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王应吉（生于1554年），明人物。CBDB 记录其籍贯记录为山陰，入仕记录为科舉: 進士(籠統)，曾任中書舍人。中国历代人物传记资料库（CBDB）以人物编号 207445 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王应吉（生于1554年），明人物。明清進士進士，籍贯嵊縣，入仕進士，曾任中書舍人。（中国历代人物传记资料库 CBDB 207445）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_w8B4sdNrMwACR9uePULGgt
           claim_id: c_CTmp3XZtL9i9s5Ku3D4C3w
@@ -324,7 +324,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王应吉（生于1554年），明人物。CBDB 记录其籍贯记录为山陰，入仕记录为科舉: 進士(籠統)，曾任中書舍人。中国历代人物传记资料库（CBDB）以人物编号 207445 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王应吉（生于1554年），明人物。明清進士進士，籍贯嵊縣，入仕進士，曾任中書舍人。（中国历代人物传记资料库 CBDB 207445） | accepted |
 | birth.date | 1554年 | accepted |
 | name.primary | 王应吉 | accepted |
 

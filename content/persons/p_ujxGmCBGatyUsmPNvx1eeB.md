@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王绅（1360年—1400年），明人物。CBDB 记录其籍贯记录为南京，身份包括儒學、孝子/孝女，入仕记录为徵辟。中国历代人物传记资料库（CBDB）以人物编号 28112 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王绅（1360年—1400年），明人物。籍贯義烏，身份为儒學、孝子/孝女，入仕徵辟，曾任國子博士、府文學。（中国历代人物传记资料库 CBDB 28112）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_xe4wpJobLX4zDRqfZRsaqo
           claim_id: c_dsGERDMtMFBKCp2JsrsjVm
@@ -691,7 +691,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王绅（1360年—1400年），明人物。CBDB 记录其籍贯记录为南京，身份包括儒學、孝子/孝女，入仕记录为徵辟。中国历代人物传记资料库（CBDB）以人物编号 28112 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王绅（1360年—1400年），明人物。籍贯義烏，身份为儒學、孝子/孝女，入仕徵辟，曾任國子博士、府文學。（中国历代人物传记资料库 CBDB 28112） | accepted |
 | birth.date | 1360年 | accepted |
 | death.date | 1400年 | accepted |
 | name.primary | 王绅 | accepted |

@@ -17,30 +17,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王有宏（1853年—1911年），史料所见人物。本项目依据《王有宏》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王有宏（1853年—1911年），字金波，男，直隸天津人，清朝軍事將領。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
-        - id: cs_nXN-OMpei9AaJn8oSHX-jS
+        - id: cs_GwU4CQSnvkF8VKXzBy4BGi
           claim_id: c_WuYIz-FyPdwutVyp57dYQW
-          source_id: s_nM493En2b55bqtZQFPJqF3
+          source_id: s_OR5b1LYdq8s2Q00auEv67C
           stance: supports
-          locator: Q15921161
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_nM493En2b55bqtZQFPJqF3
-            source_type: api_record
-            title: 维基数据：王有宏（Q15921161）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王有宏（1853年—1911年），字金波，男，直隸天津人，清朝軍
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_OR5b1LYdq8s2Q00auEv67C
+            source_type: website
+            title: 中文维基百科：王有宏
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q15921161
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%9C%89%E5%AE%8F
             external_identifier: Q15921161
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:47:23.624Z
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -72,7 +72,18 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_nM493En2b55bqtZQFPJqF3
+            source_type: api_record
+            title: 维基数据：王有宏（Q15921161）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q15921161
+            external_identifier: Q15921161
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:47:23.624Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: death.date
@@ -174,7 +185,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王有宏（1853年—1911年），史料所见人物。本项目依据《王有宏》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王有宏（1853年—1911年），字金波，男，直隸天津人，清朝軍事將領。 | accepted |
 | birth.date | 1853年 | accepted |
 | death.date | 1911年 | accepted |
 | name.primary | 王有宏 | accepted |
@@ -187,3 +198,4 @@ relationships:
 ## 外部来源
 
 - [维基数据：王有宏（Q15921161）](https://www.wikidata.org/wiki/Q15921161)
+- [中文维基百科：王有宏](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%9C%89%E5%AE%8F)

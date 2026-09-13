@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王敏文，宋人物。CBDB 记录其籍贯记录为峨眉，曾任轉運副使。中国历代人物传记资料库（CBDB）以人物编号 1854 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王敏文，宋人物。籍贯峨眉，曾任轉運副使。（中国历代人物传记资料库 CBDB 1854）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_cTr1Q5DyfqTayehbk3DzTA
           claim_id: c_88Ye9oxtnYUCo6p8rkyhH1
@@ -246,7 +246,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王敏文，宋人物。CBDB 记录其籍贯记录为峨眉，曾任轉運副使。中国历代人物传记资料库（CBDB）以人物编号 1854 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王敏文，宋人物。籍贯峨眉，曾任轉運副使。（中国历代人物传记资料库 CBDB 1854） | accepted |
 | name.primary | 王敏文 | accepted |
 
 ## 关联关系

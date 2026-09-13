@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王涉（卒于23年），史料所见人物。本项目依据《王涉》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王涉（？—23年），新朝宗室，王莽七叔曲阳侯王根之子。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_IobFqJG6-wFletxli0F1d3
+        - id: cs_LzRDP9JcyoOwGMZWGd2SQh
           claim_id: c_krb8ksZbFr3ehpNcpYsYZJ
-          source_id: s_78qq1bRj68RuV8ojGzTVK5
+          source_id: s_rS7Ft5lV2hMTDpNsPN0u6u
           stance: supports
-          locator: Q11573158
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_78qq1bRj68RuV8ojGzTVK5
-            source_type: api_record
-            title: 维基数据：王涉（Q11573158）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王涉（？—23年），新朝宗室，王莽七叔曲阳侯王根之子。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_rS7Ft5lV2hMTDpNsPN0u6u
+            source_type: website
+            title: 中文维基百科：王涉
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q11573158
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%B6%89
             external_identifier: Q11573158
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:10:19.655Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%B6%89
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: death.date
@@ -112,7 +111,19 @@ properties:
           locator: Q11573158
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_78qq1bRj68RuV8ojGzTVK5
+            source_type: api_record
+            title: 维基数据：王涉（Q11573158）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q11573158
+            external_identifier: Q11573158
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:10:19.655Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%B6%89
       object_person: null
     alternatives: []
 relationships:
@@ -230,7 +241,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王涉（卒于23年），史料所见人物。本项目依据《王涉》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王涉（？—23年），新朝宗室，王莽七叔曲阳侯王根之子。 | accepted |
 | death.date | 23年 | accepted |
 | name.primary | 王涉 | accepted |
 

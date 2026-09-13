@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王树中（1868年—1916年），清朝政治人物。维基数据以独立条目 Q15937857 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王树中（1868年—1916年），清朝政治人物。维基数据以独立条目 Q15937857 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_L8DLhbKcRhJt2V5XJB3uar
           claim_id: c_6sSD47bwNLbjGLB78nDLRB
@@ -174,7 +174,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王树中（1868年—1916年），清朝政治人物。维基数据以独立条目 Q15937857 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王树中（1868年—1916年），清朝政治人物。维基数据以独立条目 Q15937857 收录该人物。 | accepted |
 | birth.date | 1868年 | accepted |
 | death.date | 1916年 | accepted |
 | name.primary | 王树中 | accepted |

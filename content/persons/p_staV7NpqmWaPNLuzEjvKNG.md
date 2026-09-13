@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王宗寶，明人物。中国历代人物传记资料库（CBDB）以人物编号 221967 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王宗寶，史料所见人物。本项目依据《中国历代人物传记资料库：王宗寶（CBDB 221967）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_UDJ8S2pzhXD4BWFCBTP9-5
           claim_id: c_TJKkUBJ7K8tK6XSGeDnA4h
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:221967
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: &a1
             id: s_t47BV8TEC9aNcfVnpVDK74
             source_type: api_record
@@ -70,19 +70,7 @@ properties:
           locator: CBDB:221967
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（2601-2700）｜历史性依据：CBDB 朝代 = 明
-          source:
-            id: s_t47BV8TEC9aNcfVnpVDK74
-            source_type: api_record
-            title: 中国历代人物传记资料库：王宗寶（CBDB 221967）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221967&o=json
-            external_identifier: CBDB:221967
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:16:57.241Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -108,7 +96,19 @@ relationships:
           locator: 萬曆八年進士登科錄:一卷，第三甲第二百三十四名：子
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source:
+            id: s_t47BV8TEC9aNcfVnpVDK74
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗寶（CBDB 221967）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221967&o=json
+            external_identifier: CBDB:221967
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:57.241Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
       object_person:
         id: p_nF3Cd5KS3rMLe16oeKeJ6Q
         status: active
@@ -130,7 +130,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王宗寶，明人物。中国历代人物传记资料库（CBDB）以人物编号 221967 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王宗寶，史料所见人物。本项目依据《中国历代人物传记资料库：王宗寶（CBDB 221967）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 王宗寶 | accepted |
 
 ## 关联关系

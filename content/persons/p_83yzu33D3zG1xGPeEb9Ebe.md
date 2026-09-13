@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王傅，明人物。CBDB 记录其籍贯记录为番禺，曾任州學正。中国历代人物传记资料库（CBDB）以人物编号 279739 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王傅，明人物。正德十二年進士，籍贯番禺，曾任州學正。（中国历代人物传记资料库 CBDB 279739）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_vVuUmnDNZ94efs7UtoVWwP
           claim_id: c_PQPVQ3NbKQeWt3EvCA2CDq
@@ -278,7 +278,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王傅，明人物。CBDB 记录其籍贯记录为番禺，曾任州學正。中国历代人物传记资料库（CBDB）以人物编号 279739 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王傅，明人物。正德十二年進士，籍贯番禺，曾任州學正。（中国历代人物传记资料库 CBDB 279739） | accepted |
 | name.primary | 王傅 | accepted |
 
 ## 关联关系

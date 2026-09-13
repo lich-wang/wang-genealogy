@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 张氏，王國光妻。维基数据以独立条目 Q65832548 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
-          language: zh-Hant
+          text: 张氏，明人物。嘉靖二十三年進士。（中国历代人物传记资料库 CBDB 308153）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs__vUi4rPKSQuZiZlIINjM7V
+        - id: cs_NoxAISHCJiGvb55kxJvHrK
           claim_id: c_GnzKyjXe1OWYo5R4nERQk4
-          source_id: s_82PnCHB2WdDp2rZC6q5XsJ
+          source_id: s_eHg7tHUDweN1C9jj2CK2AF
           stance: supports
-          locator: Q65832548
+          locator: CBDB:308153
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_82PnCHB2WdDp2rZC6q5XsJ
+            id: s_eHg7tHUDweN1C9jj2CK2AF
             source_type: api_record
-            title: 维基数据：张氏（Q65832548）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：張氏（308153）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65832548
-            external_identifier: Q65832548
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:59:36.411Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308153&o=json
+            external_identifier: CBDB:308153
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:36.576Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,18 +69,7 @@ properties:
           locator: Q65832548
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_eHg7tHUDweN1C9jj2CK2AF
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：張氏（308153）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308153&o=json
-            external_identifier: CBDB:308153
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T01:59:36.576Z
-            metadata_json: null
+          source: *a1
         - id: cs_nNQaQ18Bb5RMmXvQ2q1PDK
           claim_id: c_22uTc2miFaCNy9JXFqb7ES
           source_id: s_82PnCHB2WdDp2rZC6q5XsJ
@@ -88,7 +77,18 @@ properties:
           locator: Q65832548
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_82PnCHB2WdDp2rZC6q5XsJ
+            source_type: api_record
+            title: 维基数据：张氏（Q65832548）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65832548
+            external_identifier: Q65832548
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:36.411Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -229,7 +229,7 @@ relationships:
           locator: 嘉靖二十三年登科錄:一卷，第三甲第一百八十九名：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_fAeAj1ECenpg29AWYPB25D
         status: active
@@ -248,7 +248,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 张氏，王國光妻。维基数据以独立条目 Q65832548 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 张氏，明人物。嘉靖二十三年進士。（中国历代人物传记资料库 CBDB 308153） | accepted |
 | name.primary | 张氏 | accepted |
 
 ## 关联关系

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 姚氏，王端淑母。维基数据以独立条目 Q65800574 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 姚氏，王端淑母。维基数据以独立条目 Q65800574 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_sxZlQ6hzS8Dj0CdsgdyK0p
           claim_id: c_vOkT0ZdUAjE2m-M6JjEM4w
@@ -211,7 +211,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 姚氏，王端淑母。维基数据以独立条目 Q65800574 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 姚氏，王端淑母。维基数据以独立条目 Q65800574 收录该人物。 | accepted |
 | name.primary | 姚氏 | accepted |
 
 ## 关联关系

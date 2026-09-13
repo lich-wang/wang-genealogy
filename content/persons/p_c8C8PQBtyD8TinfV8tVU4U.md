@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王澄（卒于773年），唐人物。CBDB 记录其籍贯记录为河南府，曾任州司馬。中国历代人物传记资料库（CBDB）以人物编号 186695 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王澄（卒于773年），唐人物。籍贯河中府，曾任州司馬。（中国历代人物传记资料库 CBDB 186695）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_jbemo1Gxo3QgmaJ9rquZnT
           claim_id: c_n49WMgn13NAp6A5USJPL1D
@@ -501,7 +501,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王澄（卒于773年），唐人物。CBDB 记录其籍贯记录为河南府，曾任州司馬。中国历代人物传记资料库（CBDB）以人物编号 186695 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王澄（卒于773年），唐人物。籍贯河中府，曾任州司馬。（中国历代人物传记资料库 CBDB 186695） | accepted |
 | death.date | 773年 | accepted |
 | name.primary | 王澄 | accepted |
 

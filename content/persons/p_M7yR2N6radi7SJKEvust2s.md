@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王临，宋人物。CBDB 记录其籍贯记录为洹水，入仕记录为科舉: 進士(籠統)，曾任朝請大夫、太常寺博士。中国历代人物传记资料库（CBDB）以人物编号 2133 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王临，宋人物。籍贯麗水，入仕進士，曾任朝請大夫、太常寺博士、天章閣待制。（中国历代人物传记资料库 CBDB 2133）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_FEkz9NhHC5SweMuJDKE6HZ
           claim_id: c_rtm6PcF6gZSjD1t5UY2H68
@@ -174,7 +174,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王临，宋人物。CBDB 记录其籍贯记录为洹水，入仕记录为科舉: 進士(籠統)，曾任朝請大夫、太常寺博士。中国历代人物传记资料库（CBDB）以人物编号 2133 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王临，宋人物。籍贯麗水，入仕進士，曾任朝請大夫、太常寺博士、天章閣待制。（中国历代人物传记资料库 CBDB 2133） | accepted |
 | name.primary | 王临 | accepted |
 
 ## 关联关系

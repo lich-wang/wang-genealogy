@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王期古（生于1532年），明人物。中国历代人物传记资料库（CBDB）以人物编号 204782 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王期古（生于1532年），史料所见人物。本项目依据《中国历代人物传记资料库：王期古（CBDB 204782）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_yYb-1pVyF_fsMCDj4CLPr6
           claim_id: c_5zJhWkMDkRY8UCmujAjH1S
@@ -30,8 +30,8 @@ properties:
           stance: supports
           locator: CBDB:204782
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_vTEotz3xJ459ST4EDWc78v
             source_type: api_record
             title: 中国历代人物传记资料库：王期古（CBDB 204782）
@@ -113,19 +113,7 @@ properties:
           locator: CBDB:204782
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（701-800）｜历史性依据：CBDB 生年 = 1532
-          source:
-            id: s_vTEotz3xJ459ST4EDWc78v
-            source_type: api_record
-            title: 中国历代人物传记资料库：王期古（CBDB 204782）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204782&o=json
-            external_identifier: CBDB:204782
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:16:42.210Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -258,7 +246,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王期古（生于1532年），明人物。中国历代人物传记资料库（CBDB）以人物编号 204782 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王期古（生于1532年），史料所见人物。本项目依据《中国历代人物传记资料库：王期古（CBDB 204782）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | birth.date | 1532年 | accepted |
 | name.primary | 王期古 | accepted |
 

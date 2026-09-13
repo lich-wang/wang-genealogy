@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王膺（卒于837年），唐人物。CBDB 记录其籍贯记录为萬年。中国历代人物传记资料库（CBDB）以人物编号 186789 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
-          language: zh-Hant
+          text: 王膺（卒于837年），唐人物。籍贯洛陽。（中国历代人物传记资料库 CBDB 186789）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_njp2o5mSMVXn2jXq6jZD4L
           claim_id: c_L4Q8xcWXuPvXEpAF7XTKV5
@@ -265,7 +265,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王膺（卒于837年），唐人物。CBDB 记录其籍贯记录为萬年。中国历代人物传记资料库（CBDB）以人物编号 186789 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王膺（卒于837年），唐人物。籍贯洛陽。（中国历代人物传记资料库 CBDB 186789） | accepted |
 | death.date | 837年 | accepted |
 | name.primary | 王膺 | accepted |
 

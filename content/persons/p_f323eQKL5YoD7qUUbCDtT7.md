@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 薛氏，王拱辰妻。维基数据以独立条目 Q45428395 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 薛氏，宋人物。曾任郡君。（中国历代人物传记资料库 CBDB 45905）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_uUHaFQuUGVucxmaGOp8C9O
+        - id: cs_i0SrpyJ1fQn_dsRu30S013
           claim_id: c_qgWCmQdap3iVjWZKP5-kme
-          source_id: s_TSxGMjwbFuiwR5Zn6EkafT
+          source_id: s_KVMZ1KV24Xw9AmofgkjjNx
           stance: supports
-          locator: Q45428395
+          locator: CBDB:45905
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_TSxGMjwbFuiwR5Zn6EkafT
+            id: s_KVMZ1KV24Xw9AmofgkjjNx
             source_type: api_record
-            title: 维基数据：薛氏（Q45428395）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：薛氏（45905）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45428395
-            external_identifier: Q45428395
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:00:07.031Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=45905&o=json
+            external_identifier: CBDB:45905
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:07.179Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,18 +69,7 @@ properties:
           locator: Q45428395
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_KVMZ1KV24Xw9AmofgkjjNx
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：薛氏（45905）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=45905&o=json
-            external_identifier: CBDB:45905
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:00:07.179Z
-            metadata_json: null
+          source: *a1
         - id: cs_rkm1QrNuS3bmmfhAGMcSy1
           claim_id: c_UHRrZw2XVrTMv6xC9MHj1r
           source_id: s_TSxGMjwbFuiwR5Zn6EkafT
@@ -88,7 +77,18 @@ properties:
           locator: Q45428395
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_TSxGMjwbFuiwR5Zn6EkafT
+            source_type: api_record
+            title: 维基数据：薛氏（Q45428395）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45428395
+            external_identifier: Q45428395
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:07.031Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -229,7 +229,7 @@ relationships:
           locator: 宋人傳記資料索引(電子版)，1779;1782：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_WU89T3dCoRMDk6eTHgawKb
         status: active
@@ -248,7 +248,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 薛氏，王拱辰妻。维基数据以独立条目 Q45428395 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 薛氏，宋人物。曾任郡君。（中国历代人物传记资料库 CBDB 45905） | accepted |
 | name.primary | 薛氏 | accepted |
 
 ## 关联关系

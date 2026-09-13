@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王武俊（735年—801年8月9日），唐人物。CBDB 记录其籍贯记录为萬年，曾任節度使、中書令。中国历代人物传记资料库（CBDB）以人物编号 191752 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
-          language: zh-Hant
+          text: 王武俊（735年—801年），字元英，契丹怒皆部人。唐將領。成德節度使。
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_KMHapNz2wGs1NGF7YWe4Hg
           claim_id: c_49mwH7ikLA46CPZJSCWBfY
@@ -31,7 +31,7 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source: &a2
+          source: &a1
             id: s_c7zbsk2y4rB9uNmsVojoyp
             source_type: api_record
             title: 维基数据：王武俊（Q7967676）
@@ -44,24 +44,24 @@ properties:
             accessed_at: 2026-09-05T02:06:22.442Z
             metadata_json:
               zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%AD%A6%E4%BF%8A
-        - id: cs_ZRUtGWPCNJA6ZCE3rkx8gs
+        - id: cs_cUkCh4cKHh2GrAfqJCUun7
           claim_id: c_49mwH7ikLA46CPZJSCWBfY
-          source_id: s_mMp7PA549b87u7vum9HFuz
+          source_id: s_vkiUFsrsBuOOL3LmI-iujI
           stance: supports
-          locator: CBDB:191752
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_mMp7PA549b87u7vum9HFuz
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王武俊（191752）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
+          locator: 导言
+          quotation: 王武俊（735年—801年），字元英，契丹怒皆部人。唐將領。成德
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_vkiUFsrsBuOOL3LmI-iujI
+            source_type: website
+            title: 中文维基百科：王武俊
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191752&o=json
-            external_identifier: CBDB:191752
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:06:22.594Z
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%AD%A6%E4%BF%8A
+            external_identifier: Q7967676
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -175,7 +175,18 @@ properties:
           locator: Q7967676
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_mMp7PA549b87u7vum9HFuz
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王武俊（191752）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191752&o=json
+            external_identifier: CBDB:191752
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:22.594Z
+            metadata_json: null
         - id: cs_Wj2bCMVPBKz5x8jNC4dXX5
           claim_id: c_wEFJQFPDosK72AiDkmxGGK
           source_id: s_c7zbsk2y4rB9uNmsVojoyp
@@ -241,7 +252,7 @@ relationships:
           locator: P40（子女）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source: *a1
         - id: cs_xVPB46RgQEkej41S14NMYV
           claim_id: c_ZmQiZJhVBfAUgBjY36dHTi
           source_id: s_mMp7PA549b87u7vum9HFuz
@@ -249,7 +260,7 @@ relationships:
           locator: 亲属关系：子
           quotation: null
           interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
-          source: *a1
+          source: *a2
       object_person:
         id: p_X1UCfgUyoJHi8W8xdH58BE
         status: active
@@ -275,7 +286,7 @@ relationships:
           locator: P40（子女）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source: *a1
         - id: cs_wXkVCtcqALbYZkYFrmbw3W
           claim_id: c_1it3h17o21BKNbQAwYAy5C
           source_id: s_EZnZNViEzmDDooGjCB1RZR
@@ -303,7 +314,7 @@ relationships:
           locator: 亲属关系：子
           quotation: null
           interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
-          source: *a1
+          source: *a2
       object_person:
         id: p_dnfkgsDtLKjwJ34ySS3NGV
         status: active
@@ -329,7 +340,7 @@ relationships:
           locator: P40（子女）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source: *a1
         - id: cs_r11rPbCUXT6Za2Vgj8fbWc
           claim_id: c_9okQ4heiJq4ZXmGkbkg9cV
           source_id: s_xK7nL72589no6XA5gNtMqX
@@ -357,7 +368,7 @@ relationships:
           locator: 亲属关系：子
           quotation: null
           interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
-          source: *a1
+          source: *a2
       object_person:
         id: p_1g8czDJ9H3DnuHTjo653vD
         status: active
@@ -383,7 +394,7 @@ relationships:
           locator: P40（子女）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source: *a1
         - id: cs_3PCxJwYEX1urUmxnz3N8ky
           claim_id: c_pMRXcjGGTDqsiBrWcwYTMA
           source_id: s_wQGD9z6dYDUR55Gi2dyWjt
@@ -411,7 +422,7 @@ relationships:
           locator: 亲属关系：子
           quotation: null
           interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
-          source: *a1
+          source: *a2
       object_person:
         id: p_Jos7EyMXLcbUgW1JUP7wRP
         status: active
@@ -433,7 +444,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王武俊（735年—801年8月9日），唐人物。CBDB 记录其籍贯记录为萬年，曾任節度使、中書令。中国历代人物传记资料库（CBDB）以人物编号 191752 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王武俊（735年—801年），字元英，契丹怒皆部人。唐將領。成德節度使。 | accepted |
 | birth.date | 735年 | accepted |
 | death.date | 801年8月9日 | accepted |
 | name.primary | 王武俊 | accepted |
@@ -454,4 +465,5 @@ relationships:
 - [维基数据：王士则（Q45630024）](https://www.wikidata.org/wiki/Q45630024)
 - [维基数据：王士真（Q20026517）](https://www.wikidata.org/wiki/Q20026517)
 - [维基数据：王武俊（Q7967676）](https://www.wikidata.org/wiki/Q7967676)
+- [中文维基百科：王武俊](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%AD%A6%E4%BF%8A)
 - [CBDB 中国历代人物传记资料库：王武俊（191752）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=191752&o=json)

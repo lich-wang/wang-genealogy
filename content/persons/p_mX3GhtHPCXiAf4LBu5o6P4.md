@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 史致蕃，清人物。明清進士進士，籍贯宛平，入仕進士，曾任布政使、按察使、鄉試考官。（中国历代人物传记资料库 CBDB 62775）
+          text: 史致蕃（1796年—19世纪？），字德滋，号椒圃，清朝政治人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_I1byjulXcC_pT3ie5n1UmD
+        - id: cs_yaWtY10v1Gt2ShGMUTzgc_
           claim_id: c_SEa7fVnDLasDfvbHb7z16f
-          source_id: s_Fk5PqBFSrCuFK12PLr3b1d
+          source_id: s_iBUxAIkZkzms1Wkt_lh-wy
           stance: supports
-          locator: CBDB:62775
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_Fk5PqBFSrCuFK12PLr3b1d
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：史致蕃（62775）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
+          locator: 导言
+          quotation: 史致蕃（1796年—19世纪？），字德滋，号椒圃，清朝政治人物。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_iBUxAIkZkzms1Wkt_lh-wy
+            source_type: website
+            title: 中文维基百科：史致蕃
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=62775&o=json
-            external_identifier: CBDB:62775
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T08:06:50.055Z
+            canonical_url: https://zh.wikipedia.org/wiki/%E5%8F%B2%E8%87%B4%E8%95%83
+            external_identifier: Q13688950
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,7 +69,7 @@ properties:
           locator: Q13688950
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: &a2
+          source: &a1
             id: s_CC7x2cYhAh7m1CUb8G1iVZ
             source_type: api_record
             title: 维基数据：史致蕃（Q13688950）
@@ -89,7 +89,18 @@ properties:
           locator: CBDB:62775
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: *a1
+          source:
+            id: s_Fk5PqBFSrCuFK12PLr3b1d
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：史致蕃（62775）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=62775&o=json
+            external_identifier: CBDB:62775
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -137,7 +148,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source: *a1
       object_person:
         id: p_Rqtj2SNyBdvLmz523jMBP7
         status: active
@@ -156,7 +167,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 史致蕃，清人物。明清進士進士，籍贯宛平，入仕進士，曾任布政使、按察使、鄉試考官。（中国历代人物传记资料库 CBDB 62775） | accepted |
+| bio.summary | 史致蕃（1796年—19世纪？），字德滋，号椒圃，清朝政治人物。 | accepted |
 | name.primary | 史致蕃 | accepted |
 
 ## 关联关系
@@ -169,4 +180,5 @@ relationships:
 
 - [维基数据：史致蕃（Q13688950）](https://www.wikidata.org/wiki/Q13688950)
 - [维基数据：王氏（Q13688975）](https://www.wikidata.org/wiki/Q13688975)
+- [中文维基百科：史致蕃](https://zh.wikipedia.org/wiki/%E5%8F%B2%E8%87%B4%E8%95%83)
 - [CBDB 中国历代人物传记资料库：史致蕃（62775）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=62775&o=json)

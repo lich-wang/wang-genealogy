@@ -18,20 +18,20 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王藻（生于5世纪），宋(劉)人物。中国历代人物传记资料库（CBDB）以人物编号 120215 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王藻（生于5世纪），史料所见人物。本项目依据《王藻》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_JfShXHyeLsxLazSwDxNyqE
+        - id: cs_OeWtsWl_Rh2gbhJWJdW0-D
           claim_id: c_rV7sWrCu3FVhGsdj7bP9Fz
           source_id: s_7WZ1bXXFFGZBWP4R1KQMS4
           stance: supports
-          locator: null
+          locator: Q22814742
           quotation: null
-          interpretation_note: null
-          source:
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_7WZ1bXXFFGZBWP4R1KQMS4
             source_type: api_record
             title: 维基数据：王藻（Q22814742）
@@ -44,25 +44,6 @@ properties:
             accessed_at: 2026-08-24T03:17:48.465Z
             metadata_json:
               zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%97%BB_(%E5%8A%89%E5%AE%8B)
-        - id: cs_tzpApk14Qxp6q_CWMbjSCP
-          claim_id: c_rV7sWrCu3FVhGsdj7bP9Fz
-          source_id: s_MFnYy28dp1YpBTNugLeP4g
-          stance: supports
-          locator: CBDB:120215
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_MFnYy28dp1YpBTNugLeP4g
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王藻（120215）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120215&o=json
-            external_identifier: CBDB:120215
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:17:48.624Z
-            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -132,7 +113,18 @@ properties:
           locator: Q22814742
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_MFnYy28dp1YpBTNugLeP4g
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王藻（120215）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120215&o=json
+            external_identifier: CBDB:120215
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:17:48.624Z
+            metadata_json: null
         - id: cs_sr99kjozf5xWZRwC9a3u5q
           claim_id: c_EYkzNjQgujGmpK8MdFRFCr
           source_id: s_7WZ1bXXFFGZBWP4R1KQMS4
@@ -140,19 +132,7 @@ properties:
           locator: Q22814742
           quotation: null
           interpretation_note: null
-          source:
-            id: s_7WZ1bXXFFGZBWP4R1KQMS4
-            source_type: api_record
-            title: 维基数据：王藻（Q22814742）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q22814742
-            external_identifier: Q22814742
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:17:48.465Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%97%BB_(%E5%8A%89%E5%AE%8B)
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -659,7 +639,7 @@ relationships:
           locator: 明清婦女著作數據庫，MQWW PoetID#5598：妻子
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_fUCHacNBi6Jb94qtKQ928C
         status: active
@@ -678,7 +658,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王藻（生于5世纪），宋(劉)人物。中国历代人物传记资料库（CBDB）以人物编号 120215 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王藻（生于5世纪），史料所见人物。本项目依据《王藻》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | birth.date | 5世纪 | accepted |
 | name.primary | 王藻 | accepted |
 

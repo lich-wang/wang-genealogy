@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王源茂（卒于819年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任州刺史。中国历代人物传记资料库（CBDB）以人物编号 175456 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王源茂（卒于819年），唐人物。籍贯咸陽，曾任州刺史。（中国历代人物传记资料库 CBDB 175456）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_BGd6hG6fuzb1L6bFyhKzQG
           claim_id: c_LBj7ADa6WCjxJYTrNw2t9B
@@ -359,7 +359,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王源茂（卒于819年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任州刺史。中国历代人物传记资料库（CBDB）以人物编号 175456 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王源茂（卒于819年），唐人物。籍贯咸陽，曾任州刺史。（中国历代人物传记资料库 CBDB 175456） | accepted |
 | death.date | 819年 | accepted |
 | name.primary | 王源茂 | accepted |
 

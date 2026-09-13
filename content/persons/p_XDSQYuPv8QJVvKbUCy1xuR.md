@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王瓘，宋人物。CBDB 记录其籍贯记录为鄞縣，身份包括藏書家，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 1842 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王瓘，宋人物。籍贯鄞縣，身份为藏書家，入仕進士，曾任提舉市舶司官、轉運司判官。（中国历代人物传记资料库 CBDB 1842）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_wf6PJTJoFpuBeeeAx5RmoZ
           claim_id: c_2JiH7rCW1Xrq3FVxUVefSR
@@ -204,7 +204,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王瓘，宋人物。CBDB 记录其籍贯记录为鄞縣，身份包括藏書家，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 1842 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王瓘，宋人物。籍贯鄞縣，身份为藏書家，入仕進士，曾任提舉市舶司官、轉運司判官。（中国历代人物传记资料库 CBDB 1842） | accepted |
 | name.primary | 王瓘 | accepted |
 
 ## 关联关系

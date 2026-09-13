@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "蔡卞，宋人物。CBDB 记录其籍贯记录为仙遊，入仕记录为科舉: 進士(籠統)，曾任知樞密院事、朝奉郎。中国历代人物传记资料库（CBDB）以人物编号 8131 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 蔡卞（1048年—1117年），字元度，仙游人，北宋政治人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_DBTI-_4w-iM7aqmcrlqMxI
+        - id: cs_mz3R1SBTDi6X8RIi7icV-_
           claim_id: c_b8LojipvYKry8ApAYTtU5N
-          source_id: s_JLMmSf3V24KKkZ9mZknGrq
+          source_id: s_lbadl3rzCoQwsTGLDnzAlO
           stance: supports
-          locator: CBDB:8131
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_JLMmSf3V24KKkZ9mZknGrq
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：蔡卞（8131）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
+          locator: 导言
+          quotation: 蔡卞（1048年—1117年），字元度，仙游人，北宋政治人物。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_lbadl3rzCoQwsTGLDnzAlO
+            source_type: website
+            title: 中文维基百科：蔡卞
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8131&o=json
-            external_identifier: CBDB:8131
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T00:46:30.840Z
+            canonical_url: https://zh.wikipedia.org/wiki/%E8%94%A1%E5%8D%9E
+            external_identifier: Q4391249
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,7 +69,18 @@ properties:
           locator: Q4391249
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_JLMmSf3V24KKkZ9mZknGrq
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：蔡卞（8131）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8131&o=json
+            external_identifier: CBDB:8131
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T00:46:30.840Z
+            metadata_json: null
         - id: cs_gibTDQSp2oZu7KG2FuH4v9
           claim_id: c_nYb264G5ddqb7xvDLbsHLN
           source_id: s_H4i1budjUUBriE5uAeSH3U
@@ -168,7 +179,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 蔡卞，宋人物。CBDB 记录其籍贯记录为仙遊，入仕记录为科舉: 進士(籠統)，曾任知樞密院事、朝奉郎。中国历代人物传记资料库（CBDB）以人物编号 8131 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 蔡卞（1048年—1117年），字元度，仙游人，北宋政治人物。 | accepted |
 | name.primary | 蔡卞 | accepted |
 
 ## 关联关系
@@ -181,4 +192,5 @@ relationships:
 
 - [维基数据：蔡卞（Q4391249）](https://www.wikidata.org/wiki/Q4391249)
 - [维基数据：王氏 (福國夫人)（Q141259120）](https://www.wikidata.org/wiki/Q141259120)
+- [中文维基百科：蔡卞](https://zh.wikipedia.org/wiki/%E8%94%A1%E5%8D%9E)
 - [CBDB 中国历代人物传记资料库：蔡卞（8131）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8131&o=json)

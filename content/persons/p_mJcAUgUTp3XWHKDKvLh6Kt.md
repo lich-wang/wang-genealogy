@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王贺，王莽曾祖父。维基数据以独立条目 Q2360216 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王贺，王莽曾祖父。维基数据以独立条目 Q2360216 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_Z7EPrNtvRiFOVJlV8himwi
           claim_id: c_KhGfzDTrSu6D93f38SWm8E
@@ -284,7 +284,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王贺，王莽曾祖父。维基数据以独立条目 Q2360216 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王贺，王莽曾祖父。维基数据以独立条目 Q2360216 收录该人物。 | accepted |
 | name.primary | 王贺 | accepted |
 
 ## 关联关系

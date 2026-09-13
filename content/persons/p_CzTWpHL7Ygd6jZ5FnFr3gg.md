@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王鸿绪（1645年—1723年），清朝史學家、康熙帝親信。维基数据以独立条目 Q15913275 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王鸿绪（1645年—1723年），清朝史學家、康熙帝親信。维基数据以独立条目 Q15913275 收录该人物。
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_Sqoujb6FvBSN4Af5K_cAPo
           claim_id: c_3ZDeKo7zUCwDh51nUDAoDU
@@ -343,7 +343,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王鸿绪（1645年—1723年），清朝史學家、康熙帝親信。维基数据以独立条目 Q15913275 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王鸿绪（1645年—1723年），清朝史學家、康熙帝親信。维基数据以独立条目 Q15913275 收录该人物。 | accepted |
 | birth.date | 1645年 | accepted |
 | death.date | 1723年 | accepted |
 | name.primary | 王鸿绪 | accepted |

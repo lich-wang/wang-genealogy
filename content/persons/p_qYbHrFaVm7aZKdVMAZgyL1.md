@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王应斌，明人物。CBDB 记录其籍贯记录为山陰，入仕记录为科舉: 武舉人，曾任都司。中国历代人物传记资料库（CBDB）以人物编号 294875 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王应斌，明人物。嘉靖十一年進士，籍贯山陰，入仕武舉人，曾任都司。（中国历代人物传记资料库 CBDB 294875）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_2W2vxjzUnZF8KZqew3YgmA
           claim_id: c_PD7pNRNVFE3korsmJxtHwr
@@ -230,7 +230,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王应斌，明人物。CBDB 记录其籍贯记录为山陰，入仕记录为科舉: 武舉人，曾任都司。中国历代人物传记资料库（CBDB）以人物编号 294875 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王应斌，明人物。嘉靖十一年進士，籍贯山陰，入仕武舉人，曾任都司。（中国历代人物传记资料库 CBDB 294875） | accepted |
 | name.primary | 王应斌 | accepted |
 
 ## 关联关系

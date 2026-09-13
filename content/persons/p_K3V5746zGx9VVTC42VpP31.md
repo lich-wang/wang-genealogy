@@ -18,20 +18,20 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王静淑，清人物。中国历代人物传记资料库（CBDB）以人物编号 55730 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王静淑，史料所见人物。本项目依据《王静淑》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_Jg6prb2nGEYQJZKHnGgN1D
+        - id: cs_7gkuwmTGk0xCF-j7JVcMQ-
           claim_id: c_eFKvmzDskBA4WrrUe8NKqP
           source_id: s_dZPTaHr6jaic2aGU4hDfRM
           stance: supports
-          locator: null
+          locator: Q45485756
           quotation: null
-          interpretation_note: null
-          source: &a2
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_dZPTaHr6jaic2aGU4hDfRM
             source_type: api_record
             title: 维基数据：王静淑（Q45485756）
@@ -42,25 +42,6 @@ properties:
             external_identifier: Q45485756
             license_code: CC0-1.0
             accessed_at: 2026-09-05T02:00:10.748Z
-            metadata_json: null
-        - id: cs_EAb8TwvEMxjaD8WnLus6Iv
-          claim_id: c_eFKvmzDskBA4WrrUe8NKqP
-          source_id: s_HFWp7igmPi2rYKAePKgRuC
-          stance: supports
-          locator: CBDB:55730
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_HFWp7igmPi2rYKAePKgRuC
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王靜淑（55730）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55730&o=json
-            external_identifier: CBDB:55730
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:00:10.921Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -88,7 +69,18 @@ properties:
           locator: Q45485756
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_HFWp7igmPi2rYKAePKgRuC
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王靜淑（55730）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55730&o=json
+            external_identifier: CBDB:55730
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:10.921Z
+            metadata_json: null
         - id: cs_tk5J6No6M25AFh8MyMSDb2
           claim_id: c_shUruAsaJDgq8Uj6aefBqQ
           source_id: s_dZPTaHr6jaic2aGU4hDfRM
@@ -96,18 +88,7 @@ properties:
           locator: Q45485756
           quotation: null
           interpretation_note: null
-          source:
-            id: s_dZPTaHr6jaic2aGU4hDfRM
-            source_type: api_record
-            title: 维基数据：王静淑（Q45485756）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45485756
-            external_identifier: Q45485756
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:00:10.748Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -207,7 +188,7 @@ relationships:
           locator: "明清婦女著作數據庫，MQWW PoetID #684, HuWenKai #255：父"
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_ftZ1PRscrPmBh4Qh3AiyfY
         status: active
@@ -237,7 +218,18 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source:
+            id: s_dZPTaHr6jaic2aGU4hDfRM
+            source_type: api_record
+            title: 维基数据：王静淑（Q45485756）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45485756
+            external_identifier: Q45485756
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:10.748Z
+            metadata_json: null
         - id: cs_ugcV1LD6iejcpE7g7viePg
           claim_id: c_7xxw84zVT6EJNbZH8bDPzz
           source_id: s_TeSZTvrheVTa7PgrrzU9ny
@@ -264,7 +256,7 @@ relationships:
           locator: 亲属关系：丈夫
           quotation: null
           interpretation_note: CBDB 注明此条来源：明清婦女著作數據庫
-          source: *a1
+          source: *a2
       object_person:
         id: p_39GWjbzJQtkejPEWb4G4LN
         status: active
@@ -290,7 +282,7 @@ relationships:
           locator: "明清婦女著作數據庫，MQWW PoetID #684, HuWenKai #255：丈夫"
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_39GWjbzJQtkejPEWb4G4LN
         status: active
@@ -309,7 +301,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王静淑，清人物。中国历代人物传记资料库（CBDB）以人物编号 55730 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王静淑，史料所见人物。本项目依据《王静淑》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 王静淑 | accepted |
 
 ## 关联关系

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王侨（生于1439年），明人物。CBDB 记录其籍贯记录为崑山，入仕记录为科舉: 進士(籠統)，曾任知縣。中国历代人物传记资料库（CBDB）以人物编号 199828 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王侨（生于1439年），明人物。成化十一年進士，籍贯崑山，入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 199828）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_KJGK6hqfJRw8R9mo4RQJ65
           claim_id: c_wRUf532NGjWPXg2AkRL48D
@@ -587,7 +587,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王侨（生于1439年），明人物。CBDB 记录其籍贯记录为崑山，入仕记录为科舉: 進士(籠統)，曾任知縣。中国历代人物传记资料库（CBDB）以人物编号 199828 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王侨（生于1439年），明人物。成化十一年進士，籍贯崑山，入仕進士，曾任知縣。（中国历代人物传记资料库 CBDB 199828） | accepted |
 | birth.date | 1439年 | accepted |
 | name.primary | 王侨 | accepted |
 

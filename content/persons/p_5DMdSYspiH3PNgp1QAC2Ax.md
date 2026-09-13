@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王存夫，唐人物。CBDB 记录其籍贯记录为臨沂，曾任挽郎。中国历代人物传记资料库（CBDB）以人物编号 157874 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王存夫，唐人物。籍贯臨湍，曾任挽郎。（中国历代人物传记资料库 CBDB 157874）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_FBsHjcmg4ktSGqFp48XFgd
           claim_id: c_X5i48yKHKnTqLoBnhAvM7P
@@ -223,7 +223,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王存夫，唐人物。CBDB 记录其籍贯记录为臨沂，曾任挽郎。中国历代人物传记资料库（CBDB）以人物编号 157874 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王存夫，唐人物。籍贯臨湍，曾任挽郎。（中国历代人物传记资料库 CBDB 157874） | accepted |
 | name.primary | 王存夫 | accepted |
 
 ## 关联关系

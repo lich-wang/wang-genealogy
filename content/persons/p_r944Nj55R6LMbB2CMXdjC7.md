@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 薛氏（627年—696年），薛卿女。维基数据以独立条目 Q65802894 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 薛氏（627年—696年），周人物。籍贯龍門。（中国历代人物传记资料库 CBDB 140005）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_2ytTKmHdkF0Iqef1B0ZkuP
+        - id: cs_H-NqdZo_6cT3AjXN2NS2CU
           claim_id: c_i6GLWjVqr6CaYxL9qegNCr
-          source_id: s_qvLiLkfNdCSbh3c65bpEx7
+          source_id: s_D2uq9qPZEDYPyXqkZuCFjL
           stance: supports
-          locator: Q65802894
+          locator: CBDB:140005
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_qvLiLkfNdCSbh3c65bpEx7
+            id: s_D2uq9qPZEDYPyXqkZuCFjL
             source_type: api_record
-            title: 维基数据：薛氏（Q65802894）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：薛氏（140005）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65802894
-            external_identifier: Q65802894
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:10:23.482Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140005&o=json
+            external_identifier: CBDB:140005
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:10:23.644Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -153,18 +153,7 @@ properties:
           locator: Q65802894
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_D2uq9qPZEDYPyXqkZuCFjL
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：薛氏（140005）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140005&o=json
-            external_identifier: CBDB:140005
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:10:23.644Z
-            metadata_json: null
+          source: *a1
         - id: cs_k4N1EjdaiX2kaZ5p6Jk5eC
           claim_id: c_chNdfvxfSD3j1ZX4AL53Yi
           source_id: s_qvLiLkfNdCSbh3c65bpEx7
@@ -172,7 +161,18 @@ properties:
           locator: Q65802894
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_qvLiLkfNdCSbh3c65bpEx7
+            source_type: api_record
+            title: 维基数据：薛氏（Q65802894）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65802894
+            external_identifier: Q65802894
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:10:23.482Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -198,7 +198,7 @@ relationships:
           locator: 唐代墓誌匯編:二卷，Wansuitongtian 14：子
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_E9ytpKcjGYRd1XZGve34gy
         status: active
@@ -224,7 +224,7 @@ relationships:
           locator: 唐代墓誌匯編:二卷，Wansuitongtian 14：子
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_65Sv25s3dJsDY8HXQATSAi
         status: active
@@ -250,7 +250,7 @@ relationships:
           locator: 唐代墓誌匯編:二卷，Wansuitongtian 14：子
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_JxF3daBH3pwTrX7Fy6gSs3
         status: active
@@ -373,7 +373,7 @@ relationships:
           locator: 唐代墓誌匯編:二卷，Wansuitongtian 14：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_PrWK41ukxCufULdQG38iQM
         status: active
@@ -401,7 +401,7 @@ relationships:
           locator: 唐代墓誌匯編:二卷，Wansuitongtian 14：孫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_SSTJUCFgcoSjH84AQbMYES
         status: active
@@ -418,7 +418,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 薛氏（627年—696年），薛卿女。维基数据以独立条目 Q65802894 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 薛氏（627年—696年），周人物。籍贯龍門。（中国历代人物传记资料库 CBDB 140005） | accepted |
 | birth.date | 627年 | accepted |
 | death.date | 696年 | accepted |
 | name.primary | 薛氏 | accepted |

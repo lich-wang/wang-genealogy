@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王（卒于1644年），明人物。CBDB 记录其籍贯记录为長垣。中国历代人物传记资料库（CBDB）以人物编号 35032 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王（卒于1644年），明人物。籍贯長垣。（中国历代人物传记资料库 CBDB 35032）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_dqp7CitxETfgJVunD9c9wL
           claim_id: c_tCYfhQ2qqNSEhJnEj6NuGh
@@ -272,7 +272,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王（卒于1644年），明人物。CBDB 记录其籍贯记录为長垣。中国历代人物传记资料库（CBDB）以人物编号 35032 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王（卒于1644年），明人物。籍贯長垣。（中国历代人物传记资料库 CBDB 35032） | accepted |
 | death.date | 1644年 | accepted |
 | name.primary | 王 | accepted |
 

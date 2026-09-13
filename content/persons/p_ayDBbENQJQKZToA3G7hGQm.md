@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 谢氏（964年—1053年），王用之妻。维基数据以独立条目 Q45364634 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 谢氏（964年—1053年），宋人物。曾任國夫人。（中国历代人物传记资料库 CBDB 5305）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_ge0bZmzsi7FVi7Esksf8sC
+        - id: cs_kEKbeZG3WMxiGtMq8O3UO_
           claim_id: c_EDTzTWuHNzQsgoPAAZADy6
-          source_id: s_ZAbz2BGqkU8KTFc8tUrYq4
+          source_id: s_9pBeLoowJaNiChuJLaFPPm
           stance: supports
-          locator: Q45364634
+          locator: CBDB:5305
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_ZAbz2BGqkU8KTFc8tUrYq4
+            id: s_9pBeLoowJaNiChuJLaFPPm
             source_type: api_record
-            title: 维基数据：谢氏（Q45364634）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：謝氏（5305）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45364634
-            external_identifier: Q45364634
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T02:49:15.741Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5305&o=json
+            external_identifier: CBDB:5305
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T02:49:15.877Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -153,7 +153,18 @@ properties:
           locator: Q45364634
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_ZAbz2BGqkU8KTFc8tUrYq4
+            source_type: api_record
+            title: 维基数据：谢氏（Q45364634）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45364634
+            external_identifier: Q45364634
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:49:15.741Z
+            metadata_json: null
         - id: cs_p37KSnzF3qdYEHYkEbnM3n
           claim_id: c_84ab9TW9yoHRLZsuDWH4fU
           source_id: s_9pBeLoowJaNiChuJLaFPPm
@@ -161,18 +172,7 @@ properties:
           locator: Q45364634
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_9pBeLoowJaNiChuJLaFPPm
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：謝氏（5305）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5305&o=json
-            external_identifier: CBDB:5305
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T02:49:15.877Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -198,7 +198,7 @@ relationships:
           locator: 宋人傳記資料索引(電子版)，812;815：子
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_94q1e1836gtMmWzZkszZK7
         status: active
@@ -314,7 +314,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 谢氏（964年—1053年），王用之妻。维基数据以独立条目 Q45364634 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 谢氏（964年—1053年），宋人物。曾任國夫人。（中国历代人物传记资料库 CBDB 5305） | accepted |
 | birth.date | 964年 | accepted |
 | death.date | 1053年 | accepted |
 | name.primary | 谢氏 | accepted |

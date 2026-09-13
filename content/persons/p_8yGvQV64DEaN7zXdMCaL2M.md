@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王益恭（992年—1065年），宋人物。CBDB 记录其籍贯记录为洛陽，入仕记录为恩蔭、蔭補(籠統)，曾任司農寺少卿、特進。中国历代人物传记资料库（CBDB）以人物编号 22054 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王益恭（992年—1065年），宋人物。籍贯洛陽，入仕恩蔭、蔭補，曾任司農寺少卿、特進、衛尉寺丞。（中国历代人物传记资料库 CBDB 22054）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_yy6vs6H4X4B6C2iQx4C6ZM
           claim_id: c_GDrQ2BLMg86fKaZf8V31UY
@@ -513,7 +513,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王益恭（992年—1065年），宋人物。CBDB 记录其籍贯记录为洛陽，入仕记录为恩蔭、蔭補(籠統)，曾任司農寺少卿、特進。中国历代人物传记资料库（CBDB）以人物编号 22054 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王益恭（992年—1065年），宋人物。籍贯洛陽，入仕恩蔭、蔭補，曾任司農寺少卿、特進、衛尉寺丞。（中国历代人物传记资料库 CBDB 22054） | accepted |
 | birth.date | 992年 | accepted |
 | death.date | 1065年 | accepted |
 | name.primary | 王益恭 | accepted |

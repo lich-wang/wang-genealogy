@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王罴（5世纪—553年），南北朝人物。CBDB 记录其籍贯记录为萬年，曾任尚書。中国历代人物传记资料库（CBDB）以人物编号 175927 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王罴（5世纪—553年），南北朝人物。籍贯杜陵，曾任尚書。（中国历代人物传记资料库 CBDB 175927）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_88dt6RGmfwMyfrym8zeajp
           claim_id: c_uyDiwFAF3Qw3tS7DzWGqKN
@@ -323,7 +323,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王罴（5世纪—553年），南北朝人物。CBDB 记录其籍贯记录为萬年，曾任尚書。中国历代人物传记资料库（CBDB）以人物编号 175927 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王罴（5世纪—553年），南北朝人物。籍贯杜陵，曾任尚書。（中国历代人物传记资料库 CBDB 175927） | accepted |
 | birth.date | 5世纪 | accepted |
 | death.date | 553年 | accepted |
 | name.primary | 王罴 | accepted |

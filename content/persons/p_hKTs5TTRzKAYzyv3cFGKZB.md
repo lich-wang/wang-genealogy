@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王晔（卒于709年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任殿中侍御史、縣令。中国历代人物传记资料库（CBDB）以人物编号 175576 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王晔（卒于709年），唐人物。籍贯咸陽，曾任殿中侍御史、縣令。（中国历代人物传记资料库 CBDB 175576）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_fKCPwh3u3Z48QL952oA8y1
           claim_id: c_efrVvKXMHKD3cvLj9Y4qRs
@@ -360,7 +360,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王晔（卒于709年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任殿中侍御史、縣令。中国历代人物传记资料库（CBDB）以人物编号 175576 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王晔（卒于709年），唐人物。籍贯咸陽，曾任殿中侍御史、縣令。（中国历代人物传记资料库 CBDB 175576） | accepted |
 | death.date | 709年 | accepted |
 | name.primary | 王晔 | accepted |
 

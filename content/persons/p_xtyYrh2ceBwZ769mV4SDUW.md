@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王汶（748年—824年），唐人物。CBDB 记录其籍贯记录为臨沂。中国历代人物传记资料库（CBDB）以人物编号 143322 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王汶（748年—824年），唐人物。籍贯臨湍。（中国历代人物传记资料库 CBDB 143322）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_sJF3e9uA42Y8wXPu2nZ6Vx
           claim_id: c_WLBRwUuFdF27yVozXD4o9x
@@ -534,7 +534,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王汶（748年—824年），唐人物。CBDB 记录其籍贯记录为臨沂。中国历代人物传记资料库（CBDB）以人物编号 143322 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王汶（748年—824年），唐人物。籍贯臨湍。（中国历代人物传记资料库 CBDB 143322） | accepted |
 | birth.date | 748年 | accepted |
 | death.date | 824年 | accepted |
 | name.primary | 王汶 | accepted |

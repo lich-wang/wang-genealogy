@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王氏（583年—664年），王鼒女。维基数据以独立条目 Q65803421 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王氏（583年—664年），唐人物。籍贯京兆府。（中国历代人物传记资料库 CBDB 142553）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_ExClD9jDVTyxCUjhmBDLNR
+        - id: cs_bQJkqG13JV4jI79yLhiHfe
           claim_id: c_KgB3keoX5K6Pr328MT45QU
-          source_id: s_r7H32GbHUPLBw16hbysxBV
+          source_id: s_ZeMytsihpgExDAqJChsrfe
           stance: supports
-          locator: Q65803421
+          locator: CBDB:142553
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_r7H32GbHUPLBw16hbysxBV
+            id: s_ZeMytsihpgExDAqJChsrfe
             source_type: api_record
-            title: 维基数据：王氏（Q65803421）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：王氏（142553）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65803421
-            external_identifier: Q65803421
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T04:03:06.357Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142553&o=json
+            external_identifier: CBDB:142553
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T04:03:06.514Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -153,18 +153,7 @@ properties:
           locator: Q65803421
           quotation: null
           interpretation_note: null
-          source:
-            id: s_ZeMytsihpgExDAqJChsrfe
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王氏（142553）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142553&o=json
-            external_identifier: CBDB:142553
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T04:03:06.514Z
-            metadata_json: null
+          source: *a1
         - id: cs_EizMKPS7nBFBRW8nMBWJDq
           claim_id: c_drKykcYaj3MLNER4QHkBMh
           source_id: s_r7H32GbHUPLBw16hbysxBV
@@ -172,7 +161,18 @@ properties:
           locator: Q65803421
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_r7H32GbHUPLBw16hbysxBV
+            source_type: api_record
+            title: 维基数据：王氏（Q65803421）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65803421
+            external_identifier: Q65803421
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T04:03:06.357Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -363,7 +363,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王氏（583年—664年），王鼒女。维基数据以独立条目 Q65803421 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王氏（583年—664年），唐人物。籍贯京兆府。（中国历代人物传记资料库 CBDB 142553） | accepted |
 | birth.date | 583年 | accepted |
 | death.date | 664年 | accepted |
 | name.primary | 王氏 | accepted |

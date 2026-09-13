@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王恬（生于314年），东晋大臣将领。维基数据以独立条目 Q15927256 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 王恬（314年—349年），字敬豫，原字仲豫，小字螭虎，琅琊郡臨沂县（今山東臨沂）人，東晉丞相王導次子。官至後將軍。
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 7
+        current_revision: 8
       sources:
-        - id: cs_eerKJ1tQjPh4cwC2on6Bo9
+        - id: cs_1jRjyVaA8Fj82GhMpKs5Tk
           claim_id: c_ZpDK4JaLFkNTYYHvZWF4w7
-          source_id: s_2FafAvni6gBSLVweT5oH5V
+          source_id: s_eVMxzupNXAH44KqzWYM6bJ
           stance: supports
-          locator: Q15927256
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
-          source: &a1
-            id: s_2FafAvni6gBSLVweT5oH5V
-            source_type: api_record
-            title: 維基數據：王恬（Q15927256）
-            creator: 維基數據貢獻者
+          locator: 导言
+          quotation: 王恬（314年—349年），字敬豫，原字仲豫，小字螭虎，琅琊郡臨
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_eVMxzupNXAH44KqzWYM6bJ
+            source_type: website
+            title: 中文维基百科：王恬
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q15927256
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%AC
             external_identifier: Q15927256
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T02:10:06.973Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%AC
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -151,7 +150,19 @@ properties:
           locator: Q15927256
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_2FafAvni6gBSLVweT5oH5V
+            source_type: api_record
+            title: 維基數據：王恬（Q15927256）
+            creator: 維基數據貢獻者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q15927256
+            external_identifier: Q15927256
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:10:06.973Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%AC
       object_person: null
     alternatives: []
 relationships:
@@ -707,7 +718,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王恬（生于314年），东晋大臣将领。维基数据以独立条目 Q15927256 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王恬（314年—349年），字敬豫，原字仲豫，小字螭虎，琅琊郡臨沂县（今山東臨沂）人，東晉丞相王導次子。官至後將軍。 | accepted |
 | birth.date | 314年 | accepted |
 | historical.period | 东晋 | accepted |
 | name.primary | 王恬 | accepted |
@@ -731,4 +742,5 @@ relationships:
 - [中文维基百科：琅邪王氏世系圖](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F%E4%B8%96%E7%B3%BB%E5%9C%96)
 - [中文维基百科：王導](https://zh.wikipedia.org/wiki/王導)
 - [中文维基百科：王女宗](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A5%B3%E5%AE%97)
+- [中文维基百科：王恬](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%AC)
 - [中文维基文库：新唐書/卷072中](https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7072%E4%B8%AD)

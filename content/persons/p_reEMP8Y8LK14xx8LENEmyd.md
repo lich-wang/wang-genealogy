@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王惠风（生于3世纪），王惠風﹐晉人﹐女。蘭閨寶錄有著錄。维基数据以独立条目 Q21094103 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王惠风（生于3世纪），王惠風﹐晉人﹐女。蘭閨寶錄有著錄。维基数据以独立条目 Q21094103 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_BG7xILDegqg9TdsoTVK3r4
           claim_id: c_ApLkD2g6rsCiwkgN48gCBD
@@ -420,7 +420,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王惠风（生于3世纪），王惠風﹐晉人﹐女。蘭閨寶錄有著錄。维基数据以独立条目 Q21094103 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王惠风（生于3世纪），王惠風﹐晉人﹐女。蘭閨寶錄有著錄。维基数据以独立条目 Q21094103 收录该人物。 | accepted |
 | birth.date | 3世纪 | accepted |
 | name.primary | 王惠风 | accepted |
 

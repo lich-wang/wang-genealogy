@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王韶之（380年—435年），中国古代历史人物。维基数据以独立条目 Q5212674 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王韶之（380年—435年），中国古代历史人物。维基数据以独立条目 Q5212674 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_sLh4i31RAFaSPqb3L7-gqn
           claim_id: c_GqUMS3Mgj8jvXdzEWVb4Yd
@@ -403,7 +403,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王韶之（380年—435年），中国古代历史人物。维基数据以独立条目 Q5212674 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王韶之（380年—435年），中国古代历史人物。维基数据以独立条目 Q5212674 收录该人物。 | accepted |
 | birth.date | 380年 | accepted |
 | death.date | 435年 | accepted |
 | name.primary | 王韶之 | accepted |

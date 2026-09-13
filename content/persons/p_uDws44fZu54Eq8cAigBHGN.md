@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 阎氏，王時中妻。维基数据以独立条目 Q65869000 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
-          language: zh-Hant
+          text: 阎氏，明人物。弘治三年進士。（中国历代人物传记资料库 CBDB 262451）
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_D9L3_1NfH1MgvP6K_1hseN
+        - id: cs_LoKF17hZ_29LIEzn8tDtRM
           claim_id: c_QXEs3oiRfgq3oVnQ52Hsrz
-          source_id: s_kmC97kGDVVwQFRHMuqZKMU
+          source_id: s_WR4FVLexzdT5jvPbjG2tFA
           stance: supports
-          locator: Q65869000
+          locator: CBDB:262451
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_kmC97kGDVVwQFRHMuqZKMU
+            id: s_WR4FVLexzdT5jvPbjG2tFA
             source_type: api_record
-            title: 维基数据：阎氏（Q65869000）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：閻氏（262451）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65869000
-            external_identifier: Q65869000
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:59:43.085Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262451&o=json
+            external_identifier: CBDB:262451
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:43.275Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,7 +69,18 @@ properties:
           locator: Q65869000
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_kmC97kGDVVwQFRHMuqZKMU
+            source_type: api_record
+            title: 维基数据：阎氏（Q65869000）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65869000
+            external_identifier: Q65869000
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:43.085Z
+            metadata_json: null
         - id: cs_eNohPDm4iYp7Gygft44SaQ
           claim_id: c_24sjYChaGK8uE9BPbhJTMU
           source_id: s_WR4FVLexzdT5jvPbjG2tFA
@@ -77,18 +88,7 @@ properties:
           locator: Q65869000
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_WR4FVLexzdT5jvPbjG2tFA
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：閻氏（262451）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262451&o=json
-            external_identifier: CBDB:262451
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T01:59:43.275Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -229,7 +229,7 @@ relationships:
           locator: 弘治三年進士登科錄:一卷，第三甲第六十五名：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_fEfMjJL54WdS6wVP79X5vL
         status: active
@@ -248,7 +248,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 阎氏，王時中妻。维基数据以独立条目 Q65869000 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 阎氏，明人物。弘治三年進士。（中国历代人物传记资料库 CBDB 262451） | accepted |
 | name.primary | 阎氏 | accepted |
 
 ## 关联关系

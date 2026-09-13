@@ -17,30 +17,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王显（卒于515年），北魏刺史。维基数据以独立条目 Q135684642 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王显（5世纪？—515年），字世荣，北魏阳平郡乐平县（今山东省聊城市西）人。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
-        - id: cs_bVGWtifyo-OLVg1_SVwqqI
+        - id: cs_YcgTTy75lp5AWcYKHmJDa2
           claim_id: c_AsfRcaab8zWoEiz3KoBJKE
-          source_id: s_sEyd861iSeGKm46HRCJBiX
+          source_id: s_njFK6lCDebByqoPGYG-DmP
           stance: supports
-          locator: Q135684642
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          locator: 导言
+          quotation: 王显（5世纪？—515年），字世荣，北魏阳平郡乐平县（今山东省聊
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
           source:
-            id: s_sEyd861iSeGKm46HRCJBiX
-            source_type: api_record
-            title: 维基数据：王显（Q135684642）
-            creator: 维基数据贡献者
+            id: s_njFK6lCDebByqoPGYG-DmP
+            source_type: website
+            title: 中文维基百科：王显 (北魏)
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q135684642
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%98%BE_(%E5%8C%97%E9%AD%8F)
             external_identifier: Q135684642
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:46:09.808Z
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -143,7 +143,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王显（卒于515年），北魏刺史。维基数据以独立条目 Q135684642 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王显（5世纪？—515年），字世荣，北魏阳平郡乐平县（今山东省聊城市西）人。 | accepted |
 | death.date | 515年 | accepted |
 | name.primary | 王显 | accepted |
 
@@ -155,3 +155,4 @@ relationships:
 ## 外部来源
 
 - [维基数据：王显（Q135684642）](https://www.wikidata.org/wiki/Q135684642)
+- [中文维基百科：王显 (北魏)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%98%BE_(%E5%8C%97%E9%AD%8F))

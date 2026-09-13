@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王璞，宋人物。CBDB 记录其籍贯记录为長溪，入仕记录为科舉: 進士(籠統)，曾任禮儀院、太常寺博士。中国历代人物传记资料库（CBDB）以人物编号 20096 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王璞，宋人物。籍贯長溪，入仕進士，曾任禮儀院、太常寺博士、太常寺丞。（中国历代人物传记资料库 CBDB 20096）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_yuoptUyrJHQSb36QjLsXtm
           claim_id: c_9Ay7X3aTDGZLkq88j528ph
@@ -193,7 +193,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王璞，宋人物。CBDB 记录其籍贯记录为長溪，入仕记录为科舉: 進士(籠統)，曾任禮儀院、太常寺博士。中国历代人物传记资料库（CBDB）以人物编号 20096 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王璞，宋人物。籍贯長溪，入仕進士，曾任禮儀院、太常寺博士、太常寺丞。（中国历代人物传记资料库 CBDB 20096） | accepted |
 | name.primary | 王璞 | accepted |
 
 ## 关联关系

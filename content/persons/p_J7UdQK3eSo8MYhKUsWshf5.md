@@ -17,30 +17,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王汝璧（1746年—1806年），史料所见人物。本项目依据《王汝璧》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王汝璧（？—1806年），字鎮之，四川重慶府銅梁縣，清朝官員。官至刑部侍郎。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
-        - id: cs_gvAuQEGPvOaUDZj35iT0yc
+        - id: cs_hycL4phMPqkYQfzLi8WMJY
           claim_id: c_Vmh0b5GwtxWuAjOige5Q-K
-          source_id: s_N2ePYF7V8fNJW2XdVhJCBn
+          source_id: s_qxJzNzy9bMyfzZDTRZqRP3
           stance: supports
-          locator: Q15914779
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_N2ePYF7V8fNJW2XdVhJCBn
-            source_type: api_record
-            title: 维基数据：王汝璧（Q15914779）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王汝璧（？—1806年），字鎮之，四川重慶府銅梁縣，清朝官員。官
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_qxJzNzy9bMyfzZDTRZqRP3
+            source_type: website
+            title: 中文维基百科：王汝璧
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q15914779
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%B1%9D%E7%92%A7
             external_identifier: Q15914779
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:47:14.516Z
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -72,7 +72,18 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_N2ePYF7V8fNJW2XdVhJCBn
+            source_type: api_record
+            title: 维基数据：王汝璧（Q15914779）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q15914779
+            external_identifier: Q15914779
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:47:14.516Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: death.date
@@ -174,7 +185,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王汝璧（1746年—1806年），史料所见人物。本项目依据《王汝璧》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王汝璧（？—1806年），字鎮之，四川重慶府銅梁縣，清朝官員。官至刑部侍郎。 | accepted |
 | birth.date | 1746年 | accepted |
 | death.date | 1806年 | accepted |
 | name.primary | 王汝璧 | accepted |
@@ -187,3 +198,4 @@ relationships:
 ## 外部来源
 
 - [维基数据：王汝璧（Q15914779）](https://www.wikidata.org/wiki/Q15914779)
+- [中文维基百科：王汝璧](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%B1%9D%E7%92%A7)

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王希倩（卒于746年），唐人物。CBDB 记录其籍贯记录为京兆府，曾任州刺史。中国历代人物传记资料库（CBDB）以人物编号 175399 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王希倩（卒于746年），唐人物。籍贯臨沂，曾任州刺史。（中国历代人物传记资料库 CBDB 175399）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_fBFEFPLT3s5JAymRVsicWM
           claim_id: c_ed2UM57M4w4ixNCBcUFTMM
@@ -359,7 +359,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王希倩（卒于746年），唐人物。CBDB 记录其籍贯记录为京兆府，曾任州刺史。中国历代人物传记资料库（CBDB）以人物编号 175399 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王希倩（卒于746年），唐人物。籍贯臨沂，曾任州刺史。（中国历代人物传记资料库 CBDB 175399） | accepted |
 | death.date | 746年 | accepted |
 | name.primary | 王希倩 | accepted |
 

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 孺子婴，汉朝皇帝。维基数据以独立条目 Q7247 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 孺子婴，汉朝皇帝。维基数据以独立条目 Q7247 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_StcJoZAXflUzileeXBxam4
           claim_id: c_fXkpCXav8ArD-Go5kz_P_3
@@ -188,7 +188,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 孺子婴，汉朝皇帝。维基数据以独立条目 Q7247 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 孺子婴，汉朝皇帝。维基数据以独立条目 Q7247 收录该人物。 | accepted |
 | name.primary | 孺子婴 | accepted |
 
 ## 关联关系

@@ -17,30 +17,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王恁（?—?），唐朝光州固始縣人，五代十国之閩國开国國王太祖王審知的父親。據說，他家本來是琅琊郡人，王恁的曾祖父王曄為光州定城縣令，遂遷居河南，成為固始人。祖父王友、父親王蘊玉和他都在固始務農。
-          language: zh-Hant
+          text: 王恁（卒于884年），史料所见人物。本项目依据《王恁》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_CWZr5DGdmtfFlRaWtq2J0P
+        - id: cs_vkHx0kuOqvOPf1hZqKh5-y
           claim_id: c_VZonwiDWbmGE0DoofAnscd
-          source_id: s_5tzRE_QlQ1kU-SkOBxEd8a
+          source_id: s_RqEZvF3HBBL9kjQtbUJk14
           stance: supports
-          locator: 导言
-          quotation: 王恁（?—?），唐朝光州固始縣人，五代十国之閩國开国國王太祖王審
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
-          source:
-            id: s_5tzRE_QlQ1kU-SkOBxEd8a
-            source_type: website
-            title: 中文维基百科：王恁
-            creator: 维基百科贡献者
+          locator: Q10414256
+          quotation: null
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
+            id: s_RqEZvF3HBBL9kjQtbUJk14
+            source_type: api_record
+            title: 维基数据：王恁（Q10414256）
+            creator: 维基数据贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%81
+            canonical_url: https://www.wikidata.org/wiki/Q10414256
             external_identifier: Q10414256
-            license_code: CC-BY-SA-4.0
-            accessed_at: 2026-09-06T22:33:22.403Z
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:44:43.213Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -110,18 +110,7 @@ properties:
           locator: Q10414256
           quotation: null
           interpretation_note: null
-          source:
-            id: s_RqEZvF3HBBL9kjQtbUJk14
-            source_type: api_record
-            title: 维基数据：王恁（Q10414256）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q10414256
-            external_identifier: Q10414256
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:44:43.213Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -464,7 +453,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王恁（?—?），唐朝光州固始縣人，五代十国之閩國开国國王太祖王審知的父親。據說，他家本來是琅琊郡人，王恁的曾祖父王曄為光州定城縣令，遂遷居河南，成為固始人。祖父王友、父親王蘊玉和他都在固始務農。 | accepted |
+| bio.summary | 王恁（卒于884年），史料所见人物。本项目依据《王恁》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | death.date | 884年 | accepted |
 | name.primary | 王恁 | accepted |
 

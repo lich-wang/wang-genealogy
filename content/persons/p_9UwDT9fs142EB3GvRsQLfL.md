@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王承寿，宋人物。CBDB 记录其籍贯记录为德安。中国历代人物传记资料库（CBDB）以人物编号 24463 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王承寿，宋人物。籍贯德安。（中国历代人物传记资料库 CBDB 24463）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_9We3fhsjJSr79zkC8P5MfF
           claim_id: c_nRKZUWy3VvFPgc6tYZ17fv
@@ -227,7 +227,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王承寿，宋人物。CBDB 记录其籍贯记录为德安。中国历代人物传记资料库（CBDB）以人物编号 24463 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王承寿，宋人物。籍贯德安。（中国历代人物传记资料库 CBDB 24463） | accepted |
 | name.primary | 王承寿 | accepted |
 
 ## 关联关系

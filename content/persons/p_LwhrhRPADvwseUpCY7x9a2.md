@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 谢氏，谢氏尼(王肃妻)﹐北魏(南北朝)人﹐女﹐又名谢氏(王肃妻)。古今女史﹐历朝名媛诗词﹐名媛诗归﹐名媛尺牍﹐伽蓝记有著录。维基数据以独立条目 Q121097508 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 谢氏，谢氏尼(王肃妻)﹐北魏(南北朝)人﹐女﹐又名谢氏(王肃妻)。古今女史﹐历朝名媛诗词﹐名媛诗归﹐名媛尺牍﹐伽蓝记有著录。维基数据以独立条目 Q121097508 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
         - id: cs_I6b3Ez_bMmkw-3eznqIJoW
           claim_id: c_TxdAZFlVvwhCBh7RtRh6mC
@@ -147,7 +147,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 谢氏，谢氏尼(王肃妻)﹐北魏(南北朝)人﹐女﹐又名谢氏(王肃妻)。古今女史﹐历朝名媛诗词﹐名媛诗归﹐名媛尺牍﹐伽蓝记有著录。维基数据以独立条目 Q121097508 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 谢氏，谢氏尼(王肃妻)﹐北魏(南北朝)人﹐女﹐又名谢氏(王肃妻)。古今女史﹐历朝名媛诗词﹐名媛诗归﹐名媛尺牍﹐伽蓝记有著录。维基数据以独立条目 Q121097508 收录该人物。 | accepted |
 | name.primary | 谢氏 | accepted |
 
 ## 关联关系

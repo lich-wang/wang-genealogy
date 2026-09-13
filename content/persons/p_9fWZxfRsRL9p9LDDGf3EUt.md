@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王承俊，宋人物。CBDB 记录其籍贯记录为海北州，曾任尚書左右丞。中国历代人物传记资料库（CBDB）以人物编号 17752 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王承俊，宋人物。籍贯洛陽，曾任尚書左右丞。（中国历代人物传记资料库 CBDB 17752）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_e248dgQSC1jVrrjq1GDTbe
           claim_id: c_dXj1c71RQ2yJHdMUGPawMm
@@ -241,7 +241,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王承俊，宋人物。CBDB 记录其籍贯记录为海北州，曾任尚書左右丞。中国历代人物传记资料库（CBDB）以人物编号 17752 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王承俊，宋人物。籍贯洛陽，曾任尚書左右丞。（中国历代人物传记资料库 CBDB 17752） | accepted |
 | name.primary | 王承俊 | accepted |
 
 ## 关联关系

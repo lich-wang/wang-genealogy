@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王某，史料所见人物。中国历代人物传记资料库（CBDB）以人物编号 153872 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王某，史料所见人物。本项目依据《王某》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_DausYEbybl-rcTt7R4mhH1
+        - id: cs__4-j6YSJE4umTcxXcoxxjE
           claim_id: c_8t7SmdMiIB88KnXFl62-P9
-          source_id: s_J6gDRaatX6skAwJ21qTHkA
+          source_id: s_68yxNaGUG8Ei3HCceKQwEh
           stance: supports
-          locator: CBDB:153872
+          locator: Q65805369
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: &a1
-            id: s_J6gDRaatX6skAwJ21qTHkA
+            id: s_68yxNaGUG8Ei3HCceKQwEh
             source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王某（153872）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
+            title: 维基数据：王某（Q65805369）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153872&o=json
-            external_identifier: CBDB:153872
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:10:15.266Z
+            canonical_url: https://www.wikidata.org/wiki/Q65805369
+            external_identifier: Q65805369
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:10:15.108Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,7 +69,18 @@ properties:
           locator: Q65805369
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_J6gDRaatX6skAwJ21qTHkA
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王某（153872）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153872&o=json
+            external_identifier: CBDB:153872
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:10:15.266Z
+            metadata_json: null
         - id: cs_t2NoQJKHy6CggWf4XF4E7K
           claim_id: c_ZWorYnY7PvPu7v21BQ7vBE
           source_id: s_68yxNaGUG8Ei3HCceKQwEh
@@ -77,18 +88,7 @@ properties:
           locator: Q65805369
           quotation: null
           interpretation_note: null
-          source:
-            id: s_68yxNaGUG8Ei3HCceKQwEh
-            source_type: api_record
-            title: 维基数据：王某（Q65805369）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65805369
-            external_identifier: Q65805369
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:10:15.108Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -241,7 +241,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王某，史料所见人物。中国历代人物传记资料库（CBDB）以人物编号 153872 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王某，史料所见人物。本项目依据《王某》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 王某 | accepted |
 
 ## 关联关系

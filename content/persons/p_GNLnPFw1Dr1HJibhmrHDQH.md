@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王逸卿，明人物。CBDB 记录其曾任都察院右副都御史、通議大夫。中国历代人物传记资料库（CBDB）以人物编号 222402 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 王逸卿，明人物。萬曆十一年進士，曾任都察院右副都御史、通議大夫。（中国历代人物传记资料库 CBDB 222402）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_tyWNwuDaMd2vLN3yGK8W4V
           claim_id: c_Fwq2VDLcpAoMkgf3AFSQg1
@@ -297,7 +297,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王逸卿，明人物。CBDB 记录其曾任都察院右副都御史、通議大夫。中国历代人物传记资料库（CBDB）以人物编号 222402 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王逸卿，明人物。萬曆十一年進士，曾任都察院右副都御史、通議大夫。（中国历代人物传记资料库 CBDB 222402） | accepted |
 | name.primary | 王逸卿 | accepted |
 
 ## 关联关系

@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王偃（403年—456年），史料所见人物。本项目依据《王偃》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王偃（403年—456年2月28日），字子游，，琅邪郡临沂县（今山东省临沂市）人，东晋中外大都督、太傅、丞相、始兴文献公王导的玄孙，东晋丹杨尹、始兴郡公王混的孙子，东晋中领军、侍中、左户尚书、始兴郡公王嘏的儿子。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_7HHDjuhdGFfYrBELdZRCUc
+        - id: cs_MVSt3yzH6QCSlYTZF-2YzC
           claim_id: c_S2I4jJnU-ZeYDzBpAmsRU4
-          source_id: s_T9oFeHgKECyHSzfi1GR4bB
+          source_id: s__mOKO-JraT14zMx7myif5t
           stance: supports
-          locator: Q11572909
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_T9oFeHgKECyHSzfi1GR4bB
-            source_type: api_record
-            title: 维基数据：王偃（Q11572909）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王偃（403年—456年2月28日），字子游，，琅邪郡临沂县（今
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s__mOKO-JraT14zMx7myif5t
+            source_type: website
+            title: 中文维基百科：王偃
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q11572909
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%81%83
             external_identifier: Q11572909
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:14:27.598Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%81%83
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -155,7 +154,19 @@ properties:
           locator: Q11572909
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_T9oFeHgKECyHSzfi1GR4bB
+            source_type: api_record
+            title: 维基数据：王偃（Q11572909）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q11572909
+            external_identifier: Q11572909
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:14:27.598Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%81%83
       object_person: null
     alternatives: []
 relationships:
@@ -1185,7 +1196,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王偃（403年—456年），史料所见人物。本项目依据《王偃》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王偃（403年—456年2月28日），字子游，，琅邪郡临沂县（今山东省临沂市）人，东晋中外大都督、太傅、丞相、始兴文献公王导的玄孙，东晋丹杨尹、始兴郡公王混的孙子，东晋中领军、侍中、左户尚书、始兴郡公王嘏的儿子。 | accepted |
 | birth.date | 403年 | accepted |
 | death.date | 456年 | accepted |
 | name.primary | 王偃 | accepted |
@@ -1219,3 +1230,4 @@ relationships:
 - [中文维基百科：王彻](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BD%BB)
 - [中文维基百科：王亮 (南朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BA%AE_(%E5%8D%97%E6%9C%9D))
 - [中文维基百科：王憲嫄](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%86%B2%E5%AB%84)
+- [中文维基百科：王偃](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%81%83)

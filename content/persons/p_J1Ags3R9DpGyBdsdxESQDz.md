@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王份（446年—524年），南梁人物。CBDB 记录其籍贯记录为臨沂。中国历代人物传记资料库（CBDB）以人物编号 31159 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王份（446年—524年），表字季文，琅邪郡臨沂县人，南朝宋、南朝齐、南朝梁政治人物。梁武帝时尚书左仆射。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_Kwsy3QXLX8HvtH642cSww1
           claim_id: c_d2S2YzHLvGnAZXU6RFJhgw
@@ -44,24 +44,24 @@ properties:
             accessed_at: 2026-08-24T03:17:44.222Z
             metadata_json:
               zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BB%BD
-        - id: cs_fGCiUqHBxB4-BWsI4MBlpd
+        - id: cs_TlqK4kDY4gI1mDzjxfZWSU
           claim_id: c_d2S2YzHLvGnAZXU6RFJhgw
-          source_id: s_AwPzEdt8NzYFmwnC4MqVCo
+          source_id: s_FCl4eauAYcid0jbj1JY0iD
           stance: supports
-          locator: CBDB:31159
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_AwPzEdt8NzYFmwnC4MqVCo
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王份（31159）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
+          locator: 导言
+          quotation: 王份（446年—524年），表字季文，琅邪郡臨沂县人，南朝宋、南
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_FCl4eauAYcid0jbj1JY0iD
+            source_type: website
+            title: 中文维基百科：王份
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=31159&o=json
-            external_identifier: CBDB:31159
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:17:44.366Z
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BB%BD
+            external_identifier: Q11572894
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -175,7 +175,18 @@ properties:
           locator: Q11572894
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_AwPzEdt8NzYFmwnC4MqVCo
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王份（31159）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=31159&o=json
+            external_identifier: CBDB:31159
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:17:44.366Z
+            metadata_json: null
         - id: cs_xYcA7je3AsFptB3hwaA3Uy
           claim_id: c_WEDhrP48MkLjyDCERQPMjH
           source_id: s_eWqE2LxNnvBDzBqW4JgEyT
@@ -406,7 +417,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王份（446年—524年），南梁人物。CBDB 记录其籍贯记录为臨沂。中国历代人物传记资料库（CBDB）以人物编号 31159 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王份（446年—524年），表字季文，琅邪郡臨沂县人，南朝宋、南朝齐、南朝梁政治人物。梁武帝时尚书左仆射。 | accepted |
 | birth.date | 446年 | accepted |
 | death.date | 524年 | accepted |
 | name.primary | 王份 | accepted |
@@ -425,6 +436,7 @@ relationships:
 - [维基数据：王粹（Q22814769）](https://www.wikidata.org/wiki/Q22814769)
 - [维基数据：王份（Q11572894）](https://www.wikidata.org/wiki/Q11572894)
 - [维基数据：王琳（Q22814773）](https://www.wikidata.org/wiki/Q22814773)
+- [中文维基百科：王份](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BB%BD)
 - [中文维基百科：王銓 (南梁)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%8A%93_(%E5%8D%97%E6%A2%81))
 - [中文维基百科：王通 (南朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%80%9A_(%E5%8D%97%E6%9C%9D))
 - [CBDB 中国历代人物传记资料库：王份（31159）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=31159&o=json)

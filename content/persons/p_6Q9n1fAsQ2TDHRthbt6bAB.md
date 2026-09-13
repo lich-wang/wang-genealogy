@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王一宁（卒于1452年），大学士。维基数据以独立条目 Q15926038 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王一宁（卒于1452年），大学士。维基数据以独立条目 Q15926038 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
         - id: cs_n68rxAOCMqt4OF8VqJ_0kR
           claim_id: c_sUKi3iXQTG1tamj3JcpRU3
@@ -30,7 +30,7 @@ properties:
           locator: Q15926038
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
-          source:
+          source: &a1
             id: s_FiMuQQsU1ew2x6jf2tRh9T
             source_type: api_record
             title: 维基数据：王一宁（Q15926038）
@@ -110,18 +110,7 @@ properties:
           locator: Q15926038
           quotation: null
           interpretation_note: null
-          source:
-            id: s_FiMuQQsU1ew2x6jf2tRh9T
-            source_type: api_record
-            title: 维基数据：王一宁（Q15926038）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q15926038
-            external_identifier: Q15926038
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:47:28.997Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -143,7 +132,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王一宁（卒于1452年），大学士。维基数据以独立条目 Q15926038 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王一宁（卒于1452年），大学士。维基数据以独立条目 Q15926038 收录该人物。 | accepted |
 | death.date | 1452年 | accepted |
 | name.primary | 王一宁 | accepted |
 

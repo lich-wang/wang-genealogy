@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王钦臣，宋人物。CBDB 记录其籍贯记录为宋城，身份包括藏書家、版本學家，入仕记录为科舉學校: 恩賜出身、特賜出身等。中国历代人物传记资料库（CBDB）以人物编号 1767 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: "王钦臣，宋人物。籍贯宋城，身份为藏書家、版本學家，入仕科舉學校: 恩賜出身、特賜出身等，曾任尚書省工部侍郎、待制、提舉宮觀。（中国历代人物传记资料库 CBDB 1767）"
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_q3yL3ajm4u6ERpqR1jMFc2
           claim_id: c_r6kio8W7kWtsTMPnpPXHD6
@@ -204,7 +204,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王钦臣，宋人物。CBDB 记录其籍贯记录为宋城，身份包括藏書家、版本學家，入仕记录为科舉學校: 恩賜出身、特賜出身等。中国历代人物传记资料库（CBDB）以人物编号 1767 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王钦臣，宋人物。籍贯宋城，身份为藏書家、版本學家，入仕科舉學校: 恩賜出身、特賜出身等，曾任尚書省工部侍郎、待制、提舉宮觀。（中国历代人物传记资料库 CBDB 1767） | accepted |
 | name.primary | 王钦臣 | accepted |
 
 ## 关联关系

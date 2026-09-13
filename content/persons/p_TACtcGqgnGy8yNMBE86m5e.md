@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王士喜，清人物。CBDB 记录其籍贯记录为新城，身份包括士人，入仕记录为貢生: 歲貢、常貢、挨貢。中国历代人物传记资料库（CBDB）以人物编号 35061 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: "王士喜，清人物。籍贯新城，身份为士人，入仕貢生: 歲貢、常貢、挨貢。（中国历代人物传记资料库 CBDB 35061）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_CPKZFP6CAz2o1YEQhWkgCM
           claim_id: c_x86JrZco1hC1uf5eFB1cW4
@@ -166,7 +166,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王士喜，清人物。CBDB 记录其籍贯记录为新城，身份包括士人，入仕记录为貢生: 歲貢、常貢、挨貢。中国历代人物传记资料库（CBDB）以人物编号 35061 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王士喜，清人物。籍贯新城，身份为士人，入仕貢生: 歲貢、常貢、挨貢。（中国历代人物传记资料库 CBDB 35061） | accepted |
 | name.primary | 王士喜 | accepted |
 
 ## 关联关系

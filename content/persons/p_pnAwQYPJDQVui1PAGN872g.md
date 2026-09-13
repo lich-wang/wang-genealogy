@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 吴氏（998年—1063年），王益妻。维基数据以独立条目 Q45364102 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 吴氏（998年—1063年），王益妻。维基数据以独立条目 Q45364102 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_Rq93e7vFHhJASrNgeXUHTs
           claim_id: c_VvB4KBsJYQbPZcBBHEkuvB
@@ -268,7 +268,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 吴氏（998年—1063年），王益妻。维基数据以独立条目 Q45364102 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 吴氏（998年—1063年），王益妻。维基数据以独立条目 Q45364102 收录该人物。 | accepted |
 | birth.date | 998年 | accepted |
 | death.date | 1063年 | accepted |
 | name.primary | 吴氏 | accepted |

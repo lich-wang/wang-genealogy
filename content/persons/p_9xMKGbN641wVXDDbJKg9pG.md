@@ -18,20 +18,20 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王骞（474年—522年），史料所见人物。中国历代人物传记资料库（CBDB）以人物编号 162328 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王骞（474年—522年），史料所见人物。本项目依据《王骞》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_y9sFdkkiYhBunfmag8q88L
+        - id: cs_75YRGpZnzL-d-NXGtssFlN
           claim_id: c_Me1pozFhpqxTJYGQVS1Rms
           source_id: s_hN7mMMPFoaPmFX6y22ybCS
           stance: supports
-          locator: null
+          locator: Q11573249
           quotation: null
-          interpretation_note: null
-          source:
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_hN7mMMPFoaPmFX6y22ybCS
             source_type: api_record
             title: 维基数据：王骞（Q11573249）
@@ -44,25 +44,6 @@ properties:
             accessed_at: 2026-08-24T03:25:00.210Z
             metadata_json:
               zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%AA%9E
-        - id: cs_c4NCN95WVlcCpzUa2V8MtU
-          claim_id: c_Me1pozFhpqxTJYGQVS1Rms
-          source_id: s_S4peaJjvuRGMYwY2Gt4cog
-          stance: supports
-          locator: CBDB:162328
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_S4peaJjvuRGMYwY2Gt4cog
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王騫（162328）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162328&o=json
-            external_identifier: CBDB:162328
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:25:00.363Z
-            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -175,19 +156,7 @@ properties:
           locator: Q11573249
           quotation: null
           interpretation_note: null
-          source:
-            id: s_hN7mMMPFoaPmFX6y22ybCS
-            source_type: api_record
-            title: 维基数据：王骞（Q11573249）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q11573249
-            external_identifier: Q11573249
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:25:00.210Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%AA%9E
+          source: *a1
         - id: cs_ywEiW2sCPmHhSCkiMS1JEU
           claim_id: c_2t8K5E3T8DC6Kvf1NJTh9C
           source_id: s_S4peaJjvuRGMYwY2Gt4cog
@@ -195,7 +164,18 @@ properties:
           locator: Q11573249
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_S4peaJjvuRGMYwY2Gt4cog
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王騫（162328）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162328&o=json
+            external_identifier: CBDB:162328
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:25:00.363Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -581,7 +561,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王骞（474年—522年），史料所见人物。中国历代人物传记资料库（CBDB）以人物编号 162328 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王骞（474年—522年），史料所见人物。本项目依据《王骞》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | birth.date | 474年 | accepted |
 | death.date | 522年 | accepted |
 | name.primary | 王骞 | accepted |

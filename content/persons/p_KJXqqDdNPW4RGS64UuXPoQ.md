@@ -18,20 +18,20 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王融（卒于968年），五代人物。中国历代人物传记资料库（CBDB）以人物编号 175413 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王融（卒于968年），史料所见人物。本项目依据《王融》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_ySAu99QPc8c33t1ZqhYmau
+        - id: cs_fXip5t1cQt0B55WtgI7DT7
           claim_id: c_2r67JHR3NS5JgPEEC56S6V
           source_id: s_QzGv652HdHZWP8Ys6BgoYX
           stance: supports
-          locator: null
+          locator: Q45658168
           quotation: null
-          interpretation_note: null
-          source:
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_QzGv652HdHZWP8Ys6BgoYX
             source_type: api_record
             title: 维基数据：王融（Q45658168）
@@ -42,25 +42,6 @@ properties:
             external_identifier: Q45658168
             license_code: CC0-1.0
             accessed_at: 2026-08-24T04:45:00.629Z
-            metadata_json: null
-        - id: cs_cLvUaUXokAMlY9MijxDvJf
-          claim_id: c_2r67JHR3NS5JgPEEC56S6V
-          source_id: s_a2S5JUFb43zC9J3GnE1VPF
-          stance: supports
-          locator: CBDB:175413
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_a2S5JUFb43zC9J3GnE1VPF
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王融（175413）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175413&o=json
-            external_identifier: CBDB:175413
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T04:45:00.946Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -130,7 +111,18 @@ properties:
           locator: Q45658168
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_a2S5JUFb43zC9J3GnE1VPF
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王融（175413）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175413&o=json
+            external_identifier: CBDB:175413
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T04:45:00.946Z
+            metadata_json: null
         - id: cs_SHVQPPENaExFQqvRQip2TR
           claim_id: c_QJn9snJyTBi1bbaTaTuPmS
           source_id: s_QzGv652HdHZWP8Ys6BgoYX
@@ -138,18 +130,7 @@ properties:
           locator: Q45658168
           quotation: null
           interpretation_note: null
-          source:
-            id: s_QzGv652HdHZWP8Ys6BgoYX
-            source_type: api_record
-            title: 维基数据：王融（Q45658168）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45658168
-            external_identifier: Q45658168
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T04:45:00.629Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -265,7 +246,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王融（卒于968年），五代人物。中国历代人物传记资料库（CBDB）以人物编号 175413 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王融（卒于968年），史料所见人物。本项目依据《王融》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | death.date | 968年 | accepted |
 | name.primary | 王融 | accepted |
 

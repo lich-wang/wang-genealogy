@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王宇（前1世纪—3年），史料所见人物。本项目依据《維基數據：王宇》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王宇（前1世纪—3年），字长孙，东平陵（今山东济南东）人，汉朝外戚，王莽的长子，母亲是王莽的正妻王氏。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_owv5r5KiSz_y4av8b6NY3Q
+        - id: cs_c_Gsc-ruoZsbpl_7UXwBqI
           claim_id: c_zvpJNGNS47fLZFczg3fmXn
-          source_id: s_kPy78YAH2rcamYu2JAoZan
+          source_id: s_88CM8_JpqGp03lbTfq6gtl
           stance: supports
-          locator: Q11573020
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_kPy78YAH2rcamYu2JAoZan
-            source_type: api_record
-            title: 維基數據：王宇（Q11573020）
-            creator: 維基數據貢獻者
+          locator: 导言
+          quotation: 王宇（前1世纪—3年），字长孙，东平陵（今山东济南东）人，汉朝外
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_88CM8_JpqGp03lbTfq6gtl
+            source_type: website
+            title: 中文维基百科：王宇 (汉朝)
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q11573020
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%87_(%E6%B1%89%E6%9C%9D)
             external_identifier: Q11573020
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T02:10:39.617Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%87_(%E6%B1%89%E6%9C%9D)
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -155,7 +154,19 @@ properties:
           locator: Q11573020
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_kPy78YAH2rcamYu2JAoZan
+            source_type: api_record
+            title: 維基數據：王宇（Q11573020）
+            creator: 維基數據貢獻者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q11573020
+            external_identifier: Q11573020
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:10:39.617Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%87_(%E6%B1%89%E6%9C%9D)
       object_person: null
     alternatives: []
 relationships:
@@ -884,7 +895,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王宇（前1世纪—3年），史料所见人物。本项目依据《維基數據：王宇》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王宇（前1世纪—3年），字长孙，东平陵（今山东济南东）人，汉朝外戚，王莽的长子，母亲是王莽的正妻王氏。 | accepted |
 | birth.date | 前1世纪 | accepted |
 | death.date | 3年 | accepted |
 | name.primary | 王宇 | accepted |
@@ -920,4 +931,5 @@ relationships:
 - [中文维基百科：王莽](https://zh.wikipedia.org/wiki/王莽)
 - [中文维基百科：王千](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8D%83)
 - [中文维基百科：王寿 (新朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AF%BF_(%E6%96%B0%E6%9C%9D))
+- [中文维基百科：王宇 (汉朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%87_(%E6%B1%89%E6%9C%9D))
 - [中文维基百科：王宗 (新朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%97_(%E6%96%B0%E6%9C%9D))

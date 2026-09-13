@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王氏（829年—862年），王?女。维基数据以独立条目 Q65803736 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王氏（829年—862年），唐人物。籍贯洛陽。（中国历代人物传记资料库 CBDB 145042）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_U7e7IwOJFXC3FDfw7L6Pvf
+        - id: cs_IqCYUvMUjAbsnB2vgpr0kF
           claim_id: c_qqb8UKkXNh5mnTLzEN38Zp
-          source_id: s_c4uVey87A2zx6teBmVLE1H
+          source_id: s_H5TKVd31MLa5cxmhtTp8K1
           stance: supports
-          locator: Q65803736
+          locator: CBDB:145042
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_c4uVey87A2zx6teBmVLE1H
+            id: s_H5TKVd31MLa5cxmhtTp8K1
             source_type: api_record
-            title: 维基数据：王氏（Q65803736）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：王氏（145042）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65803736
-            external_identifier: Q65803736
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:25:31.044Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145042&o=json
+            external_identifier: CBDB:145042
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:25:31.201Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -153,18 +153,7 @@ properties:
           locator: Q65803736
           quotation: null
           interpretation_note: null
-          source:
-            id: s_H5TKVd31MLa5cxmhtTp8K1
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王氏（145042）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145042&o=json
-            external_identifier: CBDB:145042
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:25:31.201Z
-            metadata_json: null
+          source: *a1
         - id: cs_RwSX7mZVwTahUgMxDhc4Vj
           claim_id: c_kW9EQ2AHWugW5PvdYcAUBg
           source_id: s_c4uVey87A2zx6teBmVLE1H
@@ -172,7 +161,18 @@ properties:
           locator: Q65803736
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_c4uVey87A2zx6teBmVLE1H
+            source_type: api_record
+            title: 维基数据：王氏（Q65803736）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65803736
+            external_identifier: Q65803736
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:25:31.044Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -288,7 +288,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王氏（829年—862年），王?女。维基数据以独立条目 Q65803736 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王氏（829年—862年），唐人物。籍贯洛陽。（中国历代人物传记资料库 CBDB 145042） | accepted |
 | birth.date | 829年 | accepted |
 | death.date | 862年 | accepted |
 | name.primary | 王氏 | accepted |

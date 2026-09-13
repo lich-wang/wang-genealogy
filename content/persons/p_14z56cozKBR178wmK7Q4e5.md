@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王公達，五代人物。中国历代人物传记资料库（CBDB）以人物编号 24511 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王公達，五代人物。籍贯穀城。（中国历代人物传记资料库 CBDB 24511）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_pmvXxTyni1h8Igh4fbtfMx
           claim_id: c_9bCTDDDCxREraQEaLLC3cB
@@ -70,19 +70,7 @@ properties:
           locator: CBDB:24511
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（1001-1100）｜历史性依据：CBDB 朝代 = 五代
-          source:
-            id: s_orQ5SG5thqraHR1PvLfjcG
-            source_type: api_record
-            title: 中国历代人物传记资料库：王公達（CBDB 24511）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24511&o=json
-            external_identifier: CBDB:24511
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:16:45.019Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -108,7 +96,19 @@ relationships:
           locator: CBDB 双向互证（子 王居能 ⇄ 父 王公達）
           quotation: null
           interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
-          source: *a1
+          source:
+            id: s_orQ5SG5thqraHR1PvLfjcG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王公達（CBDB 24511）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24511&o=json
+            external_identifier: CBDB:24511
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:16:45.019Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
       object_person:
         id: p_8SCUxCTEuLH7vvbDx2aiwc
         status: active
@@ -130,7 +130,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王公達，五代人物。中国历代人物传记资料库（CBDB）以人物编号 24511 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王公達，五代人物。籍贯穀城。（中国历代人物传记资料库 CBDB 24511） | accepted |
 | name.primary | 王公達 | accepted |
 
 ## 关联关系

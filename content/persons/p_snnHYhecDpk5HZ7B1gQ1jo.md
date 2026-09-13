@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王琏，明人物。CBDB 记录其曾任知縣。中国历代人物传记资料库（CBDB）以人物编号 262448 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王琏，明人物。弘治三年進士，曾任知縣。（中国历代人物传记资料库 CBDB 262448）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_9Fa4XDPEB5sZ6pAo6SkiES
           claim_id: c_puEVvtdHm1HQ7VzYj7wwo4
@@ -256,7 +256,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王琏，明人物。CBDB 记录其曾任知縣。中国历代人物传记资料库（CBDB）以人物编号 262448 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王琏，明人物。弘治三年進士，曾任知縣。（中国历代人物传记资料库 CBDB 262448） | accepted |
 | name.primary | 王琏 | accepted |
 
 ## 关联关系

@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王氏 (福國夫人)，北宋王安石次女，封福國夫人，嫁蔡卞。维基数据以独立条目 Q141259120 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王氏 (福國夫人)，北宋王安石次女，封福國夫人，嫁蔡卞。维基数据以独立条目 Q141259120 收录该人物。
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
         - id: cs_vr2MN_-N848zlMoSJsX-jR
           claim_id: c_1paQ2zJYQRQr9H4L1Dn8HV
@@ -30,7 +30,7 @@ properties:
           locator: Q141259120
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
-          source:
+          source: &a1
             id: s_8DGrmqJ7HkaASjju5cd8mF
             source_type: api_record
             title: 维基数据：王氏 (福國夫人)（Q141259120）
@@ -68,18 +68,7 @@ properties:
           locator: Q141259120
           quotation: null
           interpretation_note: null
-          source:
-            id: s_8DGrmqJ7HkaASjju5cd8mF
-            source_type: api_record
-            title: 维基数据：王氏 (福國夫人)（Q141259120）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q141259120
-            external_identifier: Q141259120
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T00:38:01.055Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -215,7 +204,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王氏 (福國夫人)，北宋王安石次女，封福國夫人，嫁蔡卞。维基数据以独立条目 Q141259120 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王氏 (福國夫人)，北宋王安石次女，封福國夫人，嫁蔡卞。维基数据以独立条目 Q141259120 收录该人物。 | accepted |
 | name.primary | 王氏 (福國夫人) | accepted |
 
 ## 关联关系

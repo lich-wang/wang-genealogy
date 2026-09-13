@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王宠，唐人物。CBDB 记录其籍贯记录为咸陽，身份包括工於文。中国历代人物传记资料库（CBDB）以人物编号 92046 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王宠，唐人物。籍贯咸陽，身份为工於文。（中国历代人物传记资料库 CBDB 92046）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_zFVXt9WA9NUawadb7PpFbK
           claim_id: c_QXCHmcnoRnexGfxtRXfinD
@@ -391,7 +391,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王宠，唐人物。CBDB 记录其籍贯记录为咸陽，身份包括工於文。中国历代人物传记资料库（CBDB）以人物编号 92046 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王宠，唐人物。籍贯咸陽，身份为工於文。（中国历代人物传记资料库 CBDB 92046） | accepted |
 | name.primary | 王宠 | accepted |
 
 ## 关联关系

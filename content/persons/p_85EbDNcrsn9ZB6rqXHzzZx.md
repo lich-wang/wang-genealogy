@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王承祐，宋人物。CBDB 记录其籍贯记录为海北州，曾任如京使、尚書省禮部祠部司郎中。中国历代人物传记资料库（CBDB）以人物编号 17749 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王承祐，宋人物。籍贯開封，曾任如京使、尚書省禮部祠部司郎中。（中国历代人物传记资料库 CBDB 17749）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_HC8dY5acRREc9R6nsyJLJ4
           claim_id: c_GNQZ9toA6bAMW9a4p39j7e
@@ -294,7 +294,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王承祐，宋人物。CBDB 记录其籍贯记录为海北州，曾任如京使、尚書省禮部祠部司郎中。中国历代人物传记资料库（CBDB）以人物编号 17749 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王承祐，宋人物。籍贯開封，曾任如京使、尚書省禮部祠部司郎中。（中国历代人物传记资料库 CBDB 17749） | accepted |
 | name.primary | 王承祐 | accepted |
 
 ## 关联关系

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王允則，宋人物。中国历代人物传记资料库（CBDB）以人物编号 36566 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王允則，史料所见人物。本项目依据《中国历代人物传记资料库：王允則（CBDB 36566）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_cRQzVUKQbkQ-coz2c8FdSz
           claim_id: c_3mB9HCBuNt2oQP49Ea7Mj7
@@ -30,8 +30,8 @@ properties:
           stance: supports
           locator: CBDB:36566
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_HnvqDvoncwikDusMQAHAb9
             source_type: api_record
             title: 中国历代人物传记资料库：王允則（CBDB 36566）
@@ -70,19 +70,7 @@ properties:
           locator: CBDB:36566
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（1101-1200）｜历史性依据：CBDB 朝代 = 宋
-          source:
-            id: s_HnvqDvoncwikDusMQAHAb9
-            source_type: api_record
-            title: 中国历代人物传记资料库：王允則（CBDB 36566）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36566&o=json
-            external_identifier: CBDB:36566
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:16:45.707Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -104,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王允則，宋人物。中国历代人物传记资料库（CBDB）以人物编号 36566 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王允則，史料所见人物。本项目依据《中国历代人物传记资料库：王允則（CBDB 36566）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 王允則 | accepted |
 
 ## 关联关系

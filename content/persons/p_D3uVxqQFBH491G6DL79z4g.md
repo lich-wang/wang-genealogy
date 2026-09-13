@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王应桢，明人物。CBDB 记录其籍贯记录为山陰，入仕记录为科舉: 鄉貢舉人，曾任知縣。中国历代人物传记资料库（CBDB）以人物编号 294872 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王应桢，明人物。嘉靖十一年進士，籍贯山陰，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 294872）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_qry3vP8kbf7r6okRaZDozR
           claim_id: c_bwd7GKKCiPDtBaNbXuR8i8
@@ -230,7 +230,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王应桢，明人物。CBDB 记录其籍贯记录为山陰，入仕记录为科舉: 鄉貢舉人，曾任知縣。中国历代人物传记资料库（CBDB）以人物编号 294872 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王应桢，明人物。嘉靖十一年進士，籍贯山陰，入仕鄉貢舉人，曾任知縣。（中国历代人物传记资料库 CBDB 294872） | accepted |
 | name.primary | 王应桢 | accepted |
 
 ## 关联关系

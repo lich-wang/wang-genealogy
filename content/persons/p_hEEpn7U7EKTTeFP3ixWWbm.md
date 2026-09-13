@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王禔，宋人物。CBDB 记录其籍贯记录为長溪，入仕记录为科舉: 特奏名進士、特奏名諸科 、大挑，曾任府、太子太師。中国历代人物传记资料库（CBDB）以人物编号 20093 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王禔，宋人物。籍贯長溪，入仕特奏名進士、特奏名諸科 、大挑，曾任府、太子太師。（中国历代人物传记资料库 CBDB 20093）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_JoDu7zPNa5LPPTNyn1GUQM
           claim_id: c_5Lqus1Jg7KpKg4Lpi6RT1C
@@ -451,7 +451,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王禔，宋人物。CBDB 记录其籍贯记录为長溪，入仕记录为科舉: 特奏名進士、特奏名諸科 、大挑，曾任府、太子太師。中国历代人物传记资料库（CBDB）以人物编号 20093 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王禔，宋人物。籍贯長溪，入仕特奏名進士、特奏名諸科 、大挑，曾任府、太子太師。（中国历代人物传记资料库 CBDB 20093） | accepted |
 | name.primary | 王禔 | accepted |
 
 ## 关联关系

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 蒋氏，蔣清女。维基数据以独立条目 Q65803570 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 蒋氏，蔣清女。维基数据以独立条目 Q65803570 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_3vhD6ealhhrlPhsdGIs8f9
           claim_id: c_Iefyk3Y-EaJHlA1HZO4-o2
@@ -259,7 +259,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 蒋氏，蔣清女。维基数据以独立条目 Q65803570 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 蒋氏，蔣清女。维基数据以独立条目 Q65803570 收录该人物。 | accepted |
 | name.primary | 蒋氏 | accepted |
 
 ## 关联关系

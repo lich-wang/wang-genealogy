@@ -17,30 +17,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王廣之（425年—497年），史料所见人物。本项目依据《王廣之》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王廣之（425年—497年），字林之，南北朝沛郡相縣（今安徽省濉溪县西北）人。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
-        - id: cs_wANl_-aZgS_FOIx1KRv449
+        - id: cs_9Fd-Xpt0Nkrb9VJcN5G8ym
           claim_id: c_nNk7G7JIV21VSXNFWsbDCx
-          source_id: s_KS5EvyPpAu4VXaiSnUNN1V
+          source_id: s_0sAsdXl9bzK8tethOEFldb
           stance: supports
-          locator: Q11573053
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_KS5EvyPpAu4VXaiSnUNN1V
-            source_type: api_record
-            title: 维基数据：王廣之（Q11573053）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王廣之（425年—497年），字林之，南北朝沛郡相縣（今安徽省濉
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_0sAsdXl9bzK8tethOEFldb
+            source_type: website
+            title: 中文维基百科：王廣之
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q11573053
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%A3%E4%B9%8B
             external_identifier: Q11573053
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:45:10.750Z
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -72,7 +72,18 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_KS5EvyPpAu4VXaiSnUNN1V
+            source_type: api_record
+            title: 维基数据：王廣之（Q11573053）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q11573053
+            external_identifier: Q11573053
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:45:10.750Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: death.date
@@ -174,7 +185,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王廣之（425年—497年），史料所见人物。本项目依据《王廣之》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王廣之（425年—497年），字林之，南北朝沛郡相縣（今安徽省濉溪县西北）人。 | accepted |
 | birth.date | 425年 | accepted |
 | death.date | 497年 | accepted |
 | name.primary | 王廣之 | accepted |
@@ -187,3 +198,4 @@ relationships:
 ## 外部来源
 
 - [维基数据：王廣之（Q11573053）](https://www.wikidata.org/wiki/Q11573053)
+- [中文维基百科：王廣之](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BB%A3%E4%B9%8B)

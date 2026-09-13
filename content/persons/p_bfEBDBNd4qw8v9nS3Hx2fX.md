@@ -18,20 +18,20 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王彦范（卒于968年），五代人物。中国历代人物传记资料库（CBDB）以人物编号 175414 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王彦范（卒于968年），史料所见人物。本项目依据《王彦范》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_yuf4g1Pg6X8FPtPGh7J5Yz
+        - id: cs_8brNYICiglasd4qljDNSoA
           claim_id: c_DwZgJs2aVMWDtzW44gaR2E
           source_id: s_F3SibBTvZHGkqyNZaneBpj
           stance: supports
-          locator: null
+          locator: Q45658226
           quotation: null
-          interpretation_note: null
-          source:
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_F3SibBTvZHGkqyNZaneBpj
             source_type: api_record
             title: 维基数据：王彦范（Q45658226）
@@ -42,25 +42,6 @@ properties:
             external_identifier: Q45658226
             license_code: CC0-1.0
             accessed_at: 2026-08-24T04:45:00.630Z
-            metadata_json: null
-        - id: cs_prJrALmKzRWSqHs2qZejxW
-          claim_id: c_DwZgJs2aVMWDtzW44gaR2E
-          source_id: s_x3hnSCk9PkRWs8kuJnFL6X
-          stance: supports
-          locator: CBDB:175414
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_x3hnSCk9PkRWs8kuJnFL6X
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王彥範（175414）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175414&o=json
-            external_identifier: CBDB:175414
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T04:45:00.951Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -130,18 +111,7 @@ properties:
           locator: Q45658226
           quotation: null
           interpretation_note: null
-          source:
-            id: s_F3SibBTvZHGkqyNZaneBpj
-            source_type: api_record
-            title: 维基数据：王彦范（Q45658226）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45658226
-            external_identifier: Q45658226
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T04:45:00.630Z
-            metadata_json: null
+          source: *a1
         - id: cs_AkVsDDc7gn9nyDQJ8a54Ks
           claim_id: c_CD1HgwA9D3fL3DJoYoXunz
           source_id: s_x3hnSCk9PkRWs8kuJnFL6X
@@ -149,7 +119,18 @@ properties:
           locator: Q45658226
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_x3hnSCk9PkRWs8kuJnFL6X
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王彥範（175414）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175414&o=json
+            external_identifier: CBDB:175414
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T04:45:00.951Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -265,7 +246,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王彦范（卒于968年），五代人物。中国历代人物传记资料库（CBDB）以人物编号 175414 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王彦范（卒于968年），史料所见人物。本项目依据《王彦范》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | death.date | 968年 | accepted |
 | name.primary | 王彦范 | accepted |
 

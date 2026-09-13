@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王慎行，宋人物。CBDB 记录其籍贯记录为洛陽，曾任朝奉郎、國子監博士。中国历代人物传记资料库（CBDB）以人物编号 22055 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王慎行，宋人物。籍贯洛陽，曾任朝奉郎、國子監博士、上騎都尉。（中国历代人物传记资料库 CBDB 22055）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_PRrhqGwa2j4BJyev1s3Trp
           claim_id: c_2wiuAfM6CnWEzWETDiQTu8
@@ -230,7 +230,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王慎行，宋人物。CBDB 记录其籍贯记录为洛陽，曾任朝奉郎、國子監博士。中国历代人物传记资料库（CBDB）以人物编号 22055 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王慎行，宋人物。籍贯洛陽，曾任朝奉郎、國子監博士、上騎都尉。（中国历代人物传记资料库 CBDB 22055） | accepted |
 | name.primary | 王慎行 | accepted |
 
 ## 关联关系

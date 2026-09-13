@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王公冕，明人物。中国历代人物传记资料库（CBDB）以人物编号 332833 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王公冕，明人物。天順八年進士，籍贯臨海。（中国历代人物传记资料库 CBDB 332833）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_K8PcDea7dXHdUrMP-C_0Z4
           claim_id: c_smq1R5GXgQ1LJRsGfCBpRU
@@ -70,19 +70,7 @@ properties:
           locator: CBDB:332833
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（3901-4000）｜历史性依据：CBDB 朝代 = 明
-          source:
-            id: s_BeCPfxPwTWaNXSBC4aVkaA
-            source_type: api_record
-            title: 中国历代人物传记资料库：王公冕（CBDB 332833）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332833&o=json
-            external_identifier: CBDB:332833
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:17:07.614Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -108,7 +96,19 @@ relationships:
           locator: 天順八年進士登科錄:一卷，第三甲第九名：子
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source:
+            id: s_BeCPfxPwTWaNXSBC4aVkaA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王公冕（CBDB 332833）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332833&o=json
+            external_identifier: CBDB:332833
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:07.614Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
       object_person:
         id: p_3mAauYa8M61LZB5CiRWcsN
         status: active
@@ -130,7 +130,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王公冕，明人物。中国历代人物传记资料库（CBDB）以人物编号 332833 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王公冕，明人物。天順八年進士，籍贯臨海。（中国历代人物传记资料库 CBDB 332833） | accepted |
 | name.primary | 王公冕 | accepted |
 
 ## 关联关系

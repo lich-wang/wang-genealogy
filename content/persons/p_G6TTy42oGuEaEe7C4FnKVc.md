@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 陈玉，清人物。中国历代人物传记资料库（CBDB）以人物编号 100029 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 陈玉，史料所见人物。本项目依据《陈玉》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_wnG7dfO0PWfk8hWtV9Mc4c
+        - id: cs_p9ct30v3rm65cjhaXjap6V
           claim_id: c_4HoSrZ0awKMhbSXnxO9-9a
-          source_id: s_Cj8bPn2vFwwXM8em8h2ayZ
+          source_id: s_WiYg6V21HqmxK3FU1ZaNig
           stance: supports
-          locator: CBDB:100029
+          locator: Q45611291
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: &a1
-            id: s_Cj8bPn2vFwwXM8em8h2ayZ
+            id: s_WiYg6V21HqmxK3FU1ZaNig
             source_type: api_record
-            title: CBDB 中国历代人物传记资料库：陳玉（100029）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
+            title: 维基数据：陈玉（Q45611291）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100029&o=json
-            external_identifier: CBDB:100029
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T01:59:17.869Z
+            canonical_url: https://www.wikidata.org/wiki/Q45611291
+            external_identifier: Q45611291
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:17.691Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,7 +69,18 @@ properties:
           locator: Q45611291
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_Cj8bPn2vFwwXM8em8h2ayZ
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：陳玉（100029）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100029&o=json
+            external_identifier: CBDB:100029
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:17.869Z
+            metadata_json: null
         - id: cs_MHYHuCTS3YdCgL7zSMQR4X
           claim_id: c_3t5recXkVtQq3EWivJvXRu
           source_id: s_WiYg6V21HqmxK3FU1ZaNig
@@ -77,18 +88,7 @@ properties:
           locator: Q45611291
           quotation: null
           interpretation_note: null
-          source:
-            id: s_WiYg6V21HqmxK3FU1ZaNig
-            source_type: api_record
-            title: 维基数据：陈玉（Q45611291）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45611291
-            external_identifier: Q45611291
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:59:17.691Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -173,7 +173,7 @@ relationships:
           locator: "明清婦女著作數據庫，MQWW PoetID #1770, HuWenKai #576：丈夫"
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_ZyHjRaen1EDymdU7e3vR6e
         status: active
@@ -192,7 +192,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 陈玉，清人物。中国历代人物传记资料库（CBDB）以人物编号 100029 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 陈玉，史料所见人物。本项目依据《陈玉》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 陈玉 | accepted |
 
 ## 关联关系

@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 陈仪春，明人物。中国历代人物传记资料库（CBDB）以人物编号 123038 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 陈仪春，史料所见人物。本项目依据《陈仪春》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_UUOPSAsXgfH0iADLAuE4DZ
+        - id: cs_gPiOMorF0k8F93C_vXENXF
           claim_id: c_0HR7goY-LHKEKIXNpyNMEy
-          source_id: s_Qs6yzr7rS6e4RbxCcP4eRs
+          source_id: s_9X78QxJNPvr6JG9B2uhHfj
           stance: supports
-          locator: CBDB:123038
+          locator: Q45663286
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: &a1
-            id: s_Qs6yzr7rS6e4RbxCcP4eRs
+            id: s_9X78QxJNPvr6JG9B2uhHfj
             source_type: api_record
-            title: CBDB 中国历代人物传记资料库：陳儀春（123038）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
+            title: 维基数据：陈仪春（Q45663286）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123038&o=json
-            external_identifier: CBDB:123038
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:07:20.663Z
+            canonical_url: https://www.wikidata.org/wiki/Q45663286
+            external_identifier: Q45663286
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:20.507Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,18 +69,7 @@ properties:
           locator: Q45663286
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_9X78QxJNPvr6JG9B2uhHfj
-            source_type: api_record
-            title: 维基数据：陈仪春（Q45663286）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45663286
-            external_identifier: Q45663286
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:07:20.507Z
-            metadata_json: null
+          source: *a1
         - id: cs_pDffcLkTNnqDB2Uv7GD5Ts
           claim_id: c_j4fC2ieNtQ7KzfdZJfSPFt
           source_id: s_Qs6yzr7rS6e4RbxCcP4eRs
@@ -88,7 +77,18 @@ properties:
           locator: Q45663286
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_Qs6yzr7rS6e4RbxCcP4eRs
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：陳儀春（123038）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123038&o=json
+            external_identifier: CBDB:123038
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:07:20.663Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -136,7 +136,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source: *a1
         - id: cs_cUqrSxpjDksyy8XdpxNWbh
           claim_id: c_H49E6DVD6gTLKCi4zS6Z7i
           source_id: s_4W7zpJ6YbUVPw2Mp3oSU2f
@@ -181,7 +181,7 @@ relationships:
           locator: "明清婦女著作數據庫，MQWW PoetID #5239：妻子"
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_H2nZeMmMCtwnjqap2CdN61
         status: active
@@ -200,7 +200,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 陈仪春，明人物。中国历代人物传记资料库（CBDB）以人物编号 123038 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 陈仪春，史料所见人物。本项目依据《陈仪春》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 陈仪春 | accepted |
 
 ## 关联关系

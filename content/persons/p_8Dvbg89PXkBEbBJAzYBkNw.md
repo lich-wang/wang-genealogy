@@ -18,32 +18,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 沈瓒（1558年—1612年），明朝政治人物。维基数据以独立条目 Q45482599 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 沈瓒（1558年—1612年），明人物。明清進士進士，籍贯吳江，身份为曲作家，入仕進士。（中国历代人物传记资料库 CBDB 136038）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
-        - id: cs_DKhFs96tXI_GB14kYKaheR
+        - id: cs_xAEPbPfjfDJn-oTnGc6iMu
           claim_id: c_EdY3ARNoBDTC75NWtAGKbW
-          source_id: s_sMGGGQaTDVjkqfScfjPKDm
+          source_id: s_DZa1yjt1v6UD3XfUvudCZU
           stance: supports
-          locator: Q45482599
+          locator: CBDB:136038
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_sMGGGQaTDVjkqfScfjPKDm
+            id: s_DZa1yjt1v6UD3XfUvudCZU
             source_type: api_record
-            title: 维基数据：沈瓒（Q45482599）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：沈瓚（136038）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45482599
-            external_identifier: Q45482599
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:31:59.359Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E6%B2%88%E7%93%9A_(%E8%90%AC%E6%9B%86%E9%80%B2%E5%A3%AB)
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136038&o=json
+            external_identifier: CBDB:136038
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:31:59.519Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -195,7 +194,19 @@ properties:
           locator: Q45482599
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_sMGGGQaTDVjkqfScfjPKDm
+            source_type: api_record
+            title: 维基数据：沈瓒（Q45482599）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45482599
+            external_identifier: Q45482599
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:31:59.359Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E6%B2%88%E7%93%9A_(%E8%90%AC%E6%9B%86%E9%80%B2%E5%A3%AB)
         - id: cs_bV67P9JrQe4544ctGUW4NB
           claim_id: c_71jhSVFokoKKLvxJq3BtzV
           source_id: s_DZa1yjt1v6UD3XfUvudCZU
@@ -203,18 +214,7 @@ properties:
           locator: Q45482599
           quotation: null
           interpretation_note: null
-          source:
-            id: s_DZa1yjt1v6UD3XfUvudCZU
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：沈瓚（136038）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136038&o=json
-            external_identifier: CBDB:136038
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:31:59.519Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -424,7 +424,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 沈瓒（1558年—1612年），明朝政治人物。维基数据以独立条目 Q45482599 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 沈瓒（1558年—1612年），明人物。明清進士進士，籍贯吳江，身份为曲作家，入仕進士。（中国历代人物传记资料库 CBDB 136038） | accepted |
 | birth.date | 1558年 | accepted |
 | death.date | 1612年 | accepted |
 | historical.period | 明朝 | accepted |

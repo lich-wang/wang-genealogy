@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王瑤芬（1800年—1883年），清人物。中国历代人物传记资料库（CBDB）以人物编号 54422 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王瑤芬（1800年—1883年），清人物。籍贯江寧。（中国历代人物传记资料库 CBDB 54422）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_cvvg7rSmzoMekmcdNXbR2h
           claim_id: c_6a28kAAcQ6cMvcMTi2n8pq
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:54422
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_HNFaDvA7feBJC6Un4DdQbw
             source_type: api_record
             title: 中国历代人物传记资料库：王瑤芬（CBDB 54422）
@@ -156,19 +156,7 @@ properties:
           locator: CBDB:54422
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（1-100）｜历史性依据：CBDB 卒年 = 1883
-          source:
-            id: s_HNFaDvA7feBJC6Un4DdQbw
-            source_type: api_record
-            title: 中国历代人物传记资料库：王瑤芬（CBDB 54422）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54422&o=json
-            external_identifier: CBDB:54422
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:16:05.401Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -227,7 +215,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王瑤芬（1800年—1883年），清人物。中国历代人物传记资料库（CBDB）以人物编号 54422 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王瑤芬（1800年—1883年），清人物。籍贯江寧。（中国历代人物传记资料库 CBDB 54422） | accepted |
 | birth.date | 1800年 | accepted |
 | death.date | 1883年 | accepted |
 | name.primary | 王瑤芬 | accepted |

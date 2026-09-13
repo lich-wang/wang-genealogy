@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王通（584年—618年），隋人物。CBDB 记录其籍贯记录为龍門，入仕记录为徵辟。中国历代人物传记资料库（CBDB）以人物编号 11965 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王通（584年—618年），隋人物。籍贯龍門，入仕徵辟。（中国历代人物传记资料库 CBDB 11965）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_8686iWzjzPKSLwCYNJDbFt
           claim_id: c_8vUH1XgAAim98ws5CUFdK5
@@ -707,7 +707,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王通（584年—618年），隋人物。CBDB 记录其籍贯记录为龍門，入仕记录为徵辟。中国历代人物传记资料库（CBDB）以人物编号 11965 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王通（584年—618年），隋人物。籍贯龍門，入仕徵辟。（中国历代人物传记资料库 CBDB 11965） | accepted |
 | birth.date | 584年 | accepted |
 | death.date | 618年 | accepted |
 | name.primary | 王通 | accepted |

@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王氏（1017年—1038年），陳安石妻。维基数据以独立条目 Q45364876 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王氏（1017年—1038年），宋人物。籍贯洛陽，入仕封贈。（中国历代人物传记资料库 CBDB 5380）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_iygzp3QBOAQmegipHq9C-G
+        - id: cs_wfapDsB6SphOsTcVRsU36S
           claim_id: c_s32EsgfZNW6gWtTNg3QLdR
-          source_id: s_TFt1iKpr1WP5SnuqPvEY9j
+          source_id: s_PuAJWu4MNmrZ2JcmfKcT3W
           stance: supports
-          locator: Q45364876
+          locator: CBDB:5380
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_TFt1iKpr1WP5SnuqPvEY9j
+            id: s_PuAJWu4MNmrZ2JcmfKcT3W
             source_type: api_record
-            title: 维基数据：王氏（Q45364876）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：王氏（5380）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45364876
-            external_identifier: Q45364876
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:00:17.572Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5380&o=json
+            external_identifier: CBDB:5380
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:17.755Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -153,18 +153,7 @@ properties:
           locator: Q45364876
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_PuAJWu4MNmrZ2JcmfKcT3W
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王氏（5380）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5380&o=json
-            external_identifier: CBDB:5380
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:00:17.755Z
-            metadata_json: null
+          source: *a1
         - id: cs_fJhLPeg5D413XmCv5KrNbe
           claim_id: c_DPMACe1dL67bu3M1cDSh5C
           source_id: s_TFt1iKpr1WP5SnuqPvEY9j
@@ -172,7 +161,18 @@ properties:
           locator: Q45364876
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_TFt1iKpr1WP5SnuqPvEY9j
+            source_type: api_record
+            title: 维基数据：王氏（Q45364876）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45364876
+            external_identifier: Q45364876
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:17.572Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -276,7 +276,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_nAZ67V77oY4g2Gi6iJ2EPx
           claim_id: c_LFuEGw4N76WNPe877DcMdf
           source_id: s_uT7rQc9RE3KNJYZUmJEYXj
@@ -304,7 +304,7 @@ relationships:
           locator: 亲属关系：丈夫
           quotation: null
           interpretation_note: CBDB 注明此条来源：宋人傳記資料索引(電子版)
-          source: *a2
+          source: *a1
       object_person:
         id: p_aPt93kSHDUyNC8ZF6JTLpf
         status: active
@@ -360,7 +360,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王氏（1017年—1038年），陳安石妻。维基数据以独立条目 Q45364876 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王氏（1017年—1038年），宋人物。籍贯洛陽，入仕封贈。（中国历代人物传记资料库 CBDB 5380） | accepted |
 | birth.date | 1017年 | accepted |
 | death.date | 1038年 | accepted |
 | name.primary | 王氏 | accepted |

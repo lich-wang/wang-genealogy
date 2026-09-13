@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 张氏，王禔妻。维基数据以独立条目 Q45431160 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 张氏，宋人物。曾任國夫人、郡夫人。（中国历代人物传记资料库 CBDB 38576）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_ERdEZetLmPibxbkRCScaGz
+        - id: cs_gfhx8PpnbJNbEL25uLtYKE
           claim_id: c_-N8cnfPldDE1UZ5QzMJMYl
-          source_id: s_CPovKVGqVGK8Z54VxMmbzC
+          source_id: s_ATTtADGT3pRCt1mbAJ8kNB
           stance: supports
-          locator: Q45431160
+          locator: CBDB:38576
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_CPovKVGqVGK8Z54VxMmbzC
+            id: s_ATTtADGT3pRCt1mbAJ8kNB
             source_type: api_record
-            title: 维基数据：张氏（Q45431160）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：張氏（38576）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45431160
-            external_identifier: Q45431160
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:06:17.362Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38576&o=json
+            external_identifier: CBDB:38576
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:06:17.511Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,7 +69,18 @@ properties:
           locator: Q45431160
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_CPovKVGqVGK8Z54VxMmbzC
+            source_type: api_record
+            title: 维基数据：张氏（Q45431160）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45431160
+            external_identifier: Q45431160
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:06:17.362Z
+            metadata_json: null
         - id: cs_oEQn9tSpCXNaSTWuJaJHtN
           claim_id: c_HtJSKuKu3GK5nh25P4fBUb
           source_id: s_ATTtADGT3pRCt1mbAJ8kNB
@@ -77,18 +88,7 @@ properties:
           locator: Q45431160
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_ATTtADGT3pRCt1mbAJ8kNB
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：張氏（38576）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38576&o=json
-            external_identifier: CBDB:38576
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:06:17.511Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -114,7 +114,7 @@ relationships:
           locator: 宋人傳記資料索引(電子版)，1517;1525：子
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_yapy3APS2bJCVFq3VNLaKZ
         status: active
@@ -162,7 +162,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
       object_person:
         id: p_hEEpn7U7EKTTeFP3ixWWbm
         status: active
@@ -188,7 +188,7 @@ relationships:
           locator: 宋人傳記資料索引(電子版)：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_U8tkbpfhfw15YgFSaq7ZSG
         status: active
@@ -207,7 +207,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 张氏，王禔妻。维基数据以独立条目 Q45431160 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 张氏，宋人物。曾任國夫人、郡夫人。（中国历代人物传记资料库 CBDB 38576） | accepted |
 | name.primary | 张氏 | accepted |
 
 ## 关联关系

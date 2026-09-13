@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王劭，东晋大臣。维基数据以独立条目 Q15924805 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 王劭（？—？），字敬倫，小字大奴。琅邪臨沂（今山東臨沂）人。東晉丞相王導的第五子。東晉時期官員及書法家。
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 7
+        current_revision: 8
       sources:
-        - id: cs_QdUmFa-jK8K3hYAQkE2Iyw
+        - id: cs_zz9EiuGXwo8JyEkPWzp_VL
           claim_id: c_4HijhYCrRHRRdjkVo9227m
-          source_id: s_1JiRN6Tio7gTdVd3W5i1Qm
+          source_id: s_xRB64udGf5Ez5TBgCWDE61
           stance: supports
-          locator: Q15924805
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
-          source: &a1
-            id: s_1JiRN6Tio7gTdVd3W5i1Qm
-            source_type: api_record
-            title: 維基數據：王劭（Q15924805）
-            creator: 維基數據貢獻者
+          locator: 导言
+          quotation: 王劭（？—？），字敬倫，小字大奴。琅邪臨沂（今山東臨沂）人。東晉
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_xRB64udGf5Ez5TBgCWDE61
+            source_type: website
+            title: 中文维基百科：王劭 (東晉)
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q15924805
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8A%AD_(%E6%9D%B1%E6%99%89)
             external_identifier: Q15924805
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T02:10:05.954Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8A%AD_(%E6%9D%B1%E6%99%89)
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: historical.period
@@ -108,7 +107,19 @@ properties:
           locator: Q15924805
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_1JiRN6Tio7gTdVd3W5i1Qm
+            source_type: api_record
+            title: 維基數據：王劭（Q15924805）
+            creator: 維基數據貢獻者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q15924805
+            external_identifier: Q15924805
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:10:05.954Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8A%AD_(%E6%9D%B1%E6%99%89)
       object_person: null
     alternatives: []
 relationships:
@@ -798,7 +809,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王劭，东晋大臣。维基数据以独立条目 Q15924805 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王劭（？—？），字敬倫，小字大奴。琅邪臨沂（今山東臨沂）人。東晉丞相王導的第五子。東晉時期官員及書法家。 | accepted |
 | historical.period | 东晋 | accepted |
 | name.primary | 王劭 | accepted |
 
@@ -825,5 +836,6 @@ relationships:
 - [中文维基百科：琅邪王氏世系圖](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F%E4%B8%96%E7%B3%BB%E5%9C%96)
 - [中文维基百科：王導](https://zh.wikipedia.org/wiki/王導)
 - [中文维基百科：王恢 (右卫将军)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%A2_(%E5%8F%B3%E5%8D%AB%E5%B0%86%E5%86%9B))
+- [中文维基百科：王劭 (東晉)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8A%AD_(%E6%9D%B1%E6%99%89))
 - [中文维基百科：王智 (南朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%99%BA_(%E5%8D%97%E6%9C%9D))
 - [中文维基文库：新唐書/卷072中](https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7072%E4%B8%AD)

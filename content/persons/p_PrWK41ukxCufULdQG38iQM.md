@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王府君，薛氏夫。维基数据以独立条目 Q65804745 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王府君，史料所见人物。曾任縣令。（中国历代人物传记资料库 CBDB 149909）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_WkMCimkseu5DZyX0JFENLg
+        - id: cs_7Ih8pPu3bj_PWlYyrhtpgd
           claim_id: c_1t15pZcp6b_yFPBbibVXx2
-          source_id: s_8q2xSPaM4vbd9mPFhUTiWm
+          source_id: s_ijC2hVHJ61Rf6z4Bdcv8Yn
           stance: supports
-          locator: Q65804745
+          locator: CBDB:149909
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_8q2xSPaM4vbd9mPFhUTiWm
+            id: s_ijC2hVHJ61Rf6z4Bdcv8Yn
             source_type: api_record
-            title: 维基数据：王府君（Q65804745）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：王府君（149909）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65804745
-            external_identifier: Q65804745
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:14:51.276Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=149909&o=json
+            external_identifier: CBDB:149909
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:14:51.426Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,7 +69,18 @@ properties:
           locator: Q65804745
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_8q2xSPaM4vbd9mPFhUTiWm
+            source_type: api_record
+            title: 维基数据：王府君（Q65804745）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65804745
+            external_identifier: Q65804745
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:14:51.276Z
+            metadata_json: null
         - id: cs_ducuKQTZ1Kf83JD5Mbsq2r
           claim_id: c_CBCwsVKbJaJu5E2xwuKj4Z
           source_id: s_ijC2hVHJ61Rf6z4Bdcv8Yn
@@ -77,18 +88,7 @@ properties:
           locator: Q65804745
           quotation: null
           interpretation_note: null
-          source:
-            id: s_ijC2hVHJ61Rf6z4Bdcv8Yn
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王府君（149909）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=149909&o=json
-            external_identifier: CBDB:149909
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:14:51.426Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -241,7 +241,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王府君，薛氏夫。维基数据以独立条目 Q65804745 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王府君，史料所见人物。曾任縣令。（中国历代人物传记资料库 CBDB 149909） | accepted |
 | name.primary | 王府君 | accepted |
 
 ## 关联关系

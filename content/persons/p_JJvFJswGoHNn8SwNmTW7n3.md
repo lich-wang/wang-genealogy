@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王音，史料所见人物。本项目依据《王音》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王音（？—前15年），魏郡元城（今河北省大名县）人，西汉官员。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
-        - id: cs_aAXH_TbzrYSlsr5CXtVanG
+        - id: cs_NqR8tgd4LlWmkcYKM8deiw
           claim_id: c_ei2gPttYiPE5nDcP3cg0-I
-          source_id: s_g45xdbCoR9CUTg7tTAyPvM
+          source_id: s_L1QNKyFscysL2hL-shS2lx
           stance: supports
-          locator: Q2142877
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_g45xdbCoR9CUTg7tTAyPvM
-            source_type: api_record
-            title: 维基数据：王音（Q2142877）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王音（？—前15年），魏郡元城（今河北省大名县）人，西汉官员。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_L1QNKyFscysL2hL-shS2lx
+            source_type: website
+            title: 中文维基百科：王音
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q2142877
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%9F%B3
             external_identifier: Q2142877
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:14:51.276Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%9F%B3
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -69,7 +68,19 @@ properties:
           locator: Q2142877
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_g45xdbCoR9CUTg7tTAyPvM
+            source_type: api_record
+            title: 维基数据：王音（Q2142877）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q2142877
+            external_identifier: Q2142877
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:14:51.276Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%9F%B3
       object_person: null
     alternatives: []
 relationships:
@@ -207,7 +218,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王音，史料所见人物。本项目依据《王音》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王音（？—前15年），魏郡元城（今河北省大名县）人，西汉官员。 | accepted |
 | name.primary | 王音 | accepted |
 
 ## 关联关系
@@ -222,3 +233,4 @@ relationships:
 - [维基数据：王弘（Q2168087）](https://www.wikidata.org/wiki/Q2168087)
 - [维基数据：王舜（Q10955413）](https://www.wikidata.org/wiki/Q10955413)
 - [维基数据：王音（Q2142877）](https://www.wikidata.org/wiki/Q2142877)
+- [中文维基百科：王音](https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%9F%B3)

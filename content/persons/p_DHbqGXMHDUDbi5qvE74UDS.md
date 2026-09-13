@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王奂（生于435年），齐尚书左仆射、使持节、镇北将军、雍州刺史。维基数据以独立条目 Q22814768 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 王奂（435年—493年4月26日），字道明，小字彦孙，琅邪郡临沂县（今山东省临沂市）人，南朝齐武帝时担任尚书右仆射。王僧朗之孙，王粹之子。因堂叔公王球無嗣而出繼為其嗣孫。
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_cms9ockawZl9fIoR1WtsNG
+        - id: cs_opY4TGaDqkRqk9B9oS0W33
           claim_id: c_GZzevWnbWUftuZ6xJdPJhn
-          source_id: s_3zRe6TULU1Be3ts4o7dG7u
+          source_id: s_pbFJbUsFJCXZt6gLIe1Vqm
           stance: supports
-          locator: Q22814768
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
-          source: &a1
-            id: s_3zRe6TULU1Be3ts4o7dG7u
-            source_type: api_record
-            title: 维基数据：王奂（Q22814768）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王奂（435年—493年4月26日），字道明，小字彦孙，琅邪郡临
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_pbFJbUsFJCXZt6gLIe1Vqm
+            source_type: website
+            title: 中文维基百科：王奂
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q22814768
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A5%82
             external_identifier: Q22814768
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:17:48.465Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A5%82
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -112,7 +111,19 @@ properties:
           locator: Q22814768
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_3zRe6TULU1Be3ts4o7dG7u
+            source_type: api_record
+            title: 维基数据：王奂（Q22814768）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q22814768
+            external_identifier: Q22814768
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:17:48.465Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A5%82
       object_person: null
     alternatives: []
 relationships:
@@ -738,7 +749,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王奂（生于435年），齐尚书左仆射、使持节、镇北将军、雍州刺史。维基数据以独立条目 Q22814768 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王奂（435年—493年4月26日），字道明，小字彦孙，琅邪郡临沂县（今山东省临沂市）人，南朝齐武帝时担任尚书右仆射。王僧朗之孙，王粹之子。因堂叔公王球無嗣而出繼為其嗣孫。 | accepted |
 | birth.date | 435年 | accepted |
 | name.primary | 王奂 | accepted |
 
@@ -766,6 +777,7 @@ relationships:
 - [维基数据：王肃（Q4273020）](https://www.wikidata.org/wiki/Q4273020)
 - [中文维基百科：琅邪王氏世系圖](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F%E4%B8%96%E7%B3%BB%E5%9C%96)
 - [中文维基百科：王秉 (幽州刺史)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%A7%89_(%E5%B9%BD%E5%B7%9E%E5%88%BA%E5%8F%B2))
+- [中文维基百科：王奂](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A5%82)
 - [中文维基百科：王衍 (南北朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%A1%8D_(%E5%8D%97%E5%8C%97%E6%9C%9D))
 - [中文维基文库：《全齊文》卷十二·王奂](https://zh.wikisource.org/wiki/%E5%85%A8%E9%BD%8A%E6%96%87/%E5%8D%B7%E5%8D%81%E4%BA%8C)
 - [中文维基文库：南齊書/卷49](https://zh.wikisource.org/wiki/%E5%8D%97%E9%BD%8A%E6%9B%B8/%E5%8D%B749)

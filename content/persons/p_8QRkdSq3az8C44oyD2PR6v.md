@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王洽（323年—358年），东晋大臣。维基数据以独立条目 Q15915744 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王洽（323年—358年），东晋大臣。维基数据以独立条目 Q15915744 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_HdbjIFn1bMR3O_PiiEth4h
           claim_id: c_T1oJxtFvfs2AWaZmjprGFQ
@@ -770,7 +770,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王洽（323年—358年），东晋大臣。维基数据以独立条目 Q15915744 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王洽（323年—358年），东晋大臣。维基数据以独立条目 Q15915744 收录该人物。 | accepted |
 | birth.date | 323年 | accepted |
 | death.date | 358年 | accepted |
 | historical.period | 东晋 | accepted |

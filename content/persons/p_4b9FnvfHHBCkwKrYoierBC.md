@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王履湜（1651年—1699年），清人物。中国历代人物传记资料库（CBDB）以人物编号 72207 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王履湜（1651年—1699年），史料所见人物。本项目依据《中国历代人物传记资料库：王履湜（CBDB 72207）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_sGoN1shpm10oQmJQJiDhUe
           claim_id: c_S3sRvLx7q39qhQtPsc2p77
@@ -30,8 +30,8 @@ properties:
           stance: supports
           locator: CBDB:72207
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_vfn5NrdNp4k8aLjiXJXVzJ
             source_type: api_record
             title: 中国历代人物传记资料库：王履湜（CBDB 72207）
@@ -156,19 +156,7 @@ properties:
           locator: CBDB:72207
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（301-400）｜历史性依据：CBDB 卒年 = 1699
-          source:
-            id: s_vfn5NrdNp4k8aLjiXJXVzJ
-            source_type: api_record
-            title: 中国历代人物传记资料库：王履湜（CBDB 72207）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=72207&o=json
-            external_identifier: CBDB:72207
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:16:37.980Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -190,7 +178,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王履湜（1651年—1699年），清人物。中国历代人物传记资料库（CBDB）以人物编号 72207 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王履湜（1651年—1699年），史料所见人物。本项目依据《中国历代人物传记资料库：王履湜（CBDB 72207）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | birth.date | 1651年 | accepted |
 | death.date | 1699年 | accepted |
 | name.primary | 王履湜 | accepted |

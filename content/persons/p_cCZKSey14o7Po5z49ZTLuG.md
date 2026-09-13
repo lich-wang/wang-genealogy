@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王之駿，清人物。中国历代人物传记资料库（CBDB）以人物编号 54866 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王之駿，史料所见人物。本项目依据《中国历代人物传记资料库：王之駿（CBDB 54866）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_O2mM8MdIc42ZL1NtjbiN6l
           claim_id: c_p7jdNYTCAgg9NDnjBQDsLh
@@ -30,8 +30,8 @@ properties:
           stance: supports
           locator: CBDB:54866
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_jC2GJt89LExLCbkwtF6THS
             source_type: api_record
             title: 中国历代人物传记资料库：王之駿（CBDB 54866）
@@ -70,19 +70,7 @@ properties:
           locator: CBDB:54866
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（1301-1400）｜历史性依据：CBDB 朝代 = 清
-          source:
-            id: s_jC2GJt89LExLCbkwtF6THS
-            source_type: api_record
-            title: 中国历代人物传记资料库：王之駿（CBDB 54866）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54866&o=json
-            external_identifier: CBDB:54866
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:16:47.307Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -104,7 +92,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王之駿，清人物。中国历代人物传记资料库（CBDB）以人物编号 54866 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王之駿，史料所见人物。本项目依据《中国历代人物传记资料库：王之駿（CBDB 54866）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 王之駿 | accepted |
 
 ## 关联关系

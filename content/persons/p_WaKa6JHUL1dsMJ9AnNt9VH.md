@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 刘氏，王重光妻。维基数据以独立条目 Q65826549 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 刘氏，明人物。嘉靖二十年進士。（中国历代人物传记资料库 CBDB 302574）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_jtSiE7WbjOz2E00YASLpH7
+        - id: cs__GYuUKpvmn1TvIKStfl0Kv
           claim_id: c_97m0qNM3vzjqOkvF0k3kYt
-          source_id: s_xbvJPZKBmDn4533nnHprzM
+          source_id: s_RnvspjNKb1hfE2okJ5fn4P
           stance: supports
-          locator: Q65826549
+          locator: CBDB:302574
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_xbvJPZKBmDn4533nnHprzM
+            id: s_RnvspjNKb1hfE2okJ5fn4P
             source_type: api_record
-            title: 维基数据：刘氏（Q65826549）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：劉氏（302574）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65826549
-            external_identifier: Q65826549
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:00:04.556Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302574&o=json
+            external_identifier: CBDB:302574
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:04.733Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,7 +69,18 @@ properties:
           locator: Q65826549
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_xbvJPZKBmDn4533nnHprzM
+            source_type: api_record
+            title: 维基数据：刘氏（Q65826549）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65826549
+            external_identifier: Q65826549
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:04.556Z
+            metadata_json: null
         - id: cs_fSid8mJn7whA4eUMeP2eK7
           claim_id: c_KJQAMy6982XDNymov3ZduJ
           source_id: s_RnvspjNKb1hfE2okJ5fn4P
@@ -77,18 +88,7 @@ properties:
           locator: Q65826549
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_RnvspjNKb1hfE2okJ5fn4P
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：劉氏（302574）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302574&o=json
-            external_identifier: CBDB:302574
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:00:04.733Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -192,7 +192,7 @@ relationships:
           locator: 嘉靖二十年進士登科錄:一卷，第二甲第四十九名：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_MQQyuFRHwHza48Rxy8cmUZ
         status: active
@@ -211,7 +211,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 刘氏，王重光妻。维基数据以独立条目 Q65826549 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 刘氏，明人物。嘉靖二十年進士。（中国历代人物传记资料库 CBDB 302574） | accepted |
 | name.primary | 刘氏 | accepted |
 
 ## 关联关系

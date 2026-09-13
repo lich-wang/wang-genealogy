@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王文淑，宋人物。CBDB 记录其籍贯记录为臨川，入仕记录为封贈，曾任縣君、縣太君。中国历代人物传记资料库（CBDB）以人物编号 5011 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王文淑，宋人物。籍贯臨川，入仕封贈，曾任縣君、縣太君。（中国历代人物传记资料库 CBDB 5011）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_M5ZJA9Db5dri4t4kok8Rag
           claim_id: c_aN9GepTJnFcvB2qCscEWrR
@@ -343,7 +343,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王文淑，宋人物。CBDB 记录其籍贯记录为臨川，入仕记录为封贈，曾任縣君、縣太君。中国历代人物传记资料库（CBDB）以人物编号 5011 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王文淑，宋人物。籍贯臨川，入仕封贈，曾任縣君、縣太君。（中国历代人物传记资料库 CBDB 5011） | accepted |
 | name.primary | 王文淑 | accepted |
 
 ## 关联关系

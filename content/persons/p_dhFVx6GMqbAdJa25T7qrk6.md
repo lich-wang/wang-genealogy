@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 齐氏，宋人物。CBDB 记录其籍贯记录为蒲陰，入仕记录为封贈。中国历代人物传记资料库（CBDB）以人物编号 5399 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 齐氏（1011—1065），宋人物。籍贯蒲陰，入仕封贈。（中国历代人物传记资料库 CBDB 5399）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_YzOpbh5srdH3QMaKsLutOH
           claim_id: c_qESltLrX-Namt_gMzMtSag
@@ -211,7 +211,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 齐氏，宋人物。CBDB 记录其籍贯记录为蒲陰，入仕记录为封贈。中国历代人物传记资料库（CBDB）以人物编号 5399 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 齐氏（1011—1065），宋人物。籍贯蒲陰，入仕封贈。（中国历代人物传记资料库 CBDB 5399） | accepted |
 | name.primary | 齐氏 | accepted |
 
 ## 关联关系

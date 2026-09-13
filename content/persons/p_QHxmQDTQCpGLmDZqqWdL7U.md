@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王弦，唐人物。CBDB 记录其籍贯记录为河東。中国历代人物传记资料库（CBDB）以人物编号 32177 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王弦，唐人物。籍贯河東。（中国历代人物传记资料库 CBDB 32177）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_xZfLvdZpPVbF4EmAXb8PX7
           claim_id: c_jcETHD11eZLkHzLkCShT2u
@@ -223,7 +223,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王弦，唐人物。CBDB 记录其籍贯记录为河東。中国历代人物传记资料库（CBDB）以人物编号 32177 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王弦，唐人物。籍贯河東。（中国历代人物传记资料库 CBDB 32177） | accepted |
 | name.primary | 王弦 | accepted |
 
 ## 关联关系

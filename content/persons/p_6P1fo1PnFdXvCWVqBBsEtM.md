@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王铨，陳人物。CBDB 记录其籍贯记录为江都。中国历代人物传记资料库（CBDB）以人物编号 31160 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王铨，陳人物。籍贯江都。（中国历代人物传记资料库 CBDB 31160）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_ESokYE9yWbEZzdQPdGQ5Y2
           claim_id: c_iZPeFHsQzJGx7k6w2jdRWX
@@ -356,7 +356,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王铨，陳人物。CBDB 记录其籍贯记录为江都。中国历代人物传记资料库（CBDB）以人物编号 31160 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王铨，陳人物。籍贯江都。（中国历代人物传记资料库 CBDB 31160） | accepted |
 | name.primary | 王铨 | accepted |
 
 ## 关联关系

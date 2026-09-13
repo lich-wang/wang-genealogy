@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 陈树勷，明人物。中国历代人物传记资料库（CBDB）以人物编号 55734 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 陈树勷，史料所见人物。本项目依据《陈树勷》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_BhQxoaFqMJuxcw2cJ0aD_M
+        - id: cs_lKTCxEF44JrQy7xzKPS9xe
           claim_id: c_4U91sVb0vovUS3k68BGStw
-          source_id: s_gJ5QQs2J1za1EPMkDa5BLa
+          source_id: s_TeSZTvrheVTa7PgrrzU9ny
           stance: supports
-          locator: CBDB:55734
+          locator: Q45486010
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: &a1
-            id: s_gJ5QQs2J1za1EPMkDa5BLa
+            id: s_TeSZTvrheVTa7PgrrzU9ny
             source_type: api_record
-            title: CBDB 中国历代人物传记资料库：陳樹勷（55734）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
+            title: 维基数据：陈树勷（Q45486010）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55734&o=json
-            external_identifier: CBDB:55734
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:07:17.951Z
+            canonical_url: https://www.wikidata.org/wiki/Q45486010
+            external_identifier: Q45486010
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:17.760Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,18 +69,7 @@ properties:
           locator: Q45486010
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_TeSZTvrheVTa7PgrrzU9ny
-            source_type: api_record
-            title: 维基数据：陈树勷（Q45486010）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45486010
-            external_identifier: Q45486010
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:07:17.760Z
-            metadata_json: null
+          source: *a1
         - id: cs_YBrgRmM39qx5xG8zfB8hFo
           claim_id: c_c9caDXVe69JwDEVmsCo8cG
           source_id: s_gJ5QQs2J1za1EPMkDa5BLa
@@ -88,7 +77,18 @@ properties:
           locator: Q45486010
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_gJ5QQs2J1za1EPMkDa5BLa
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：陳樹勷（55734）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55734&o=json
+            external_identifier: CBDB:55734
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:07:17.951Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -136,7 +136,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source: *a1
         - id: cs_L3CcLZQ7AuoTvL56Pt7FJk
           claim_id: c_7xxw84zVT6EJNbZH8bDPzz
           source_id: s_HFWp7igmPi2rYKAePKgRuC
@@ -211,7 +211,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 陈树勷，明人物。中国历代人物传记资料库（CBDB）以人物编号 55734 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 陈树勷，史料所见人物。本项目依据《陈树勷》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 陈树勷 | accepted |
 
 ## 关联关系

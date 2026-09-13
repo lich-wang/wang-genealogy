@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王儇（卒于746年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任挽郎。中国历代人物传记资料库（CBDB）以人物编号 175577 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王儇（卒于746年），唐人物。籍贯咸陽，曾任挽郎。（中国历代人物传记资料库 CBDB 175577）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_tBj4LsvQQWv88r5qcBoU8S
           claim_id: c_uj3nLesHe4Gqi8GKwn72zs
@@ -265,7 +265,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王儇（卒于746年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任挽郎。中国历代人物传记资料库（CBDB）以人物编号 175577 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王儇（卒于746年），唐人物。籍贯咸陽，曾任挽郎。（中国历代人物传记资料库 CBDB 175577） | accepted |
 | death.date | 746年 | accepted |
 | name.primary | 王儇 | accepted |
 

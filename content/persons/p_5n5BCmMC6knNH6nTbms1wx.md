@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王靖，金人物。CBDB 记录其籍贯记录为槁城，身份包括農民。中国历代人物传记资料库（CBDB）以人物编号 29508 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王靖，金人物。籍贯槁城，身份为農民。（中国历代人物传记资料库 CBDB 29508）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_cbHsWMc9AiPidS5rbkKuar
           claim_id: c_gapVnm5LDzCgzD4ryQ6NBm
@@ -185,7 +185,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王靖，金人物。CBDB 记录其籍贯记录为槁城，身份包括農民。中国历代人物传记资料库（CBDB）以人物编号 29508 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王靖，金人物。籍贯槁城，身份为農民。（中国历代人物传记资料库 CBDB 29508） | accepted |
 | name.primary | 王靖 | accepted |
 
 ## 关联关系

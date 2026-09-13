@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 李氏（705年—748年），李滌女。维基数据以独立条目 Q65803036 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 李氏（705年—748年），唐人物。籍贯河南。（中国历代人物传记资料库 CBDB 140938）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_eq1erwIQZhD2Rd3BfCuQhP
+        - id: cs_AdhgOsc8t1EKvcazkSYdIt
           claim_id: c_4CZuy8dFDfuQpMUQAXa5Xa
-          source_id: s_egtZh3vh3J3HT1dWkQDr59
+          source_id: s_oQtwPumURyxwA6cHx8wRTZ
           stance: supports
-          locator: Q65803036
+          locator: CBDB:140938
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_egtZh3vh3J3HT1dWkQDr59
+            id: s_oQtwPumURyxwA6cHx8wRTZ
             source_type: api_record
-            title: 维基数据：李氏（Q65803036）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：李氏（140938）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65803036
-            external_identifier: Q65803036
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T02:50:03.924Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140938&o=json
+            external_identifier: CBDB:140938
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T02:50:04.054Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -153,7 +153,18 @@ properties:
           locator: Q65803036
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_egtZh3vh3J3HT1dWkQDr59
+            source_type: api_record
+            title: 维基数据：李氏（Q65803036）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65803036
+            external_identifier: Q65803036
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:50:03.924Z
+            metadata_json: null
         - id: cs_oxmWgxdJ4iahVeKN53TjRj
           claim_id: c_f7uwzvvbuLy5HZC3yL9fyd
           source_id: s_oQtwPumURyxwA6cHx8wRTZ
@@ -161,18 +172,7 @@ properties:
           locator: Q65803036
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_oQtwPumURyxwA6cHx8wRTZ
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：李氏（140938）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140938&o=json
-            external_identifier: CBDB:140938
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T02:50:04.054Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -198,7 +198,7 @@ relationships:
           locator: 唐代墓誌匯編:二卷，Tianbao 134：嗣子(作為繼承人的兒子)
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_74AVJogdybebtFT6DXvEhJ
         status: active
@@ -321,7 +321,7 @@ relationships:
           locator: 唐代墓誌匯編:二卷，Tianbao 134：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_MsHVjVc63eV8A8rm6FJdQR
         status: active
@@ -340,7 +340,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 李氏（705年—748年），李滌女。维基数据以独立条目 Q65803036 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 李氏（705年—748年），唐人物。籍贯河南。（中国历代人物传记资料库 CBDB 140938） | accepted |
 | birth.date | 705年 | accepted |
 | death.date | 748年 | accepted |
 | name.primary | 李氏 | accepted |

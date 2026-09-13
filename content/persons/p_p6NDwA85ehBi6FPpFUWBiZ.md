@@ -18,20 +18,20 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王规（生于492年），史料所见人物。中国历代人物传记资料库（CBDB）以人物编号 162329 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王规（生于492年），史料所见人物。本项目依据《王规》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_U6B7TnGLQ83krY3ubMNcnz
+        - id: cs_3s9RqD9L37CQGX0gKkq5uX
           claim_id: c_SN3MKN8q64j4J4ST8a35Xw
           source_id: s_2PBtrEh1zDAZWj4V8jNPMP
           stance: supports
-          locator: null
+          locator: Q10416918
           quotation: null
-          interpretation_note: null
-          source:
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_2PBtrEh1zDAZWj4V8jNPMP
             source_type: api_record
             title: 维基数据：王规（Q10416918）
@@ -44,25 +44,6 @@ properties:
             accessed_at: 2026-08-24T03:31:30.337Z
             metadata_json:
               zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%A6%8F_(%E5%8D%97%E6%9C%9D)
-        - id: cs_qNX6lqvlB3N1leQcoQMZzE
-          claim_id: c_SN3MKN8q64j4J4ST8a35Xw
-          source_id: s_SnkR9yZW7gPGGLASgku6ZG
-          stance: supports
-          locator: CBDB:162329
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_SnkR9yZW7gPGGLASgku6ZG
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王規（162329）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162329&o=json
-            external_identifier: CBDB:162329
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:31:30.522Z
-            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -132,19 +113,7 @@ properties:
           locator: Q10416918
           quotation: null
           interpretation_note: null
-          source:
-            id: s_2PBtrEh1zDAZWj4V8jNPMP
-            source_type: api_record
-            title: 维基数据：王规（Q10416918）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q10416918
-            external_identifier: Q10416918
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:31:30.337Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%A6%8F_(%E5%8D%97%E6%9C%9D)
+          source: *a1
         - id: cs_x1867Ffgf1FEmFqBTjPN5J
           claim_id: c_YFTdL31C2MScMLz8sfBp7J
           source_id: s_SnkR9yZW7gPGGLASgku6ZG
@@ -152,7 +121,18 @@ properties:
           locator: Q10416918
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_SnkR9yZW7gPGGLASgku6ZG
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王規（162329）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162329&o=json
+            external_identifier: CBDB:162329
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:31:30.522Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -404,7 +384,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王规（生于492年），史料所见人物。中国历代人物传记资料库（CBDB）以人物编号 162329 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王规（生于492年），史料所见人物。本项目依据《王规》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | birth.date | 492年 | accepted |
 | name.primary | 王规 | accepted |
 

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王氏（卒于655年），唐人物。CBDB 记录其入仕记录为冊封爲妃嬪，曾任皇后、皇太子妃。中国历代人物传记资料库（CBDB）以人物编号 444806 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王氏（卒于655年），唐人物。入仕冊封爲妃嬪，曾任皇后、皇太子妃、王妃。（中国历代人物传记资料库 CBDB 444806）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_4Vv4TRw5_l9D09nqwHdkTq
           claim_id: c_j4K3oGc8gL0BKNhkZ0MGwk
@@ -73,7 +73,18 @@ properties:
           locator: null
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_LTdVBZPPZSBmRenkYm3fQF
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王氏（444806）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=444806&o=json
+            external_identifier: CBDB:444806
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T04:00:00.115Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -100,18 +111,7 @@ properties:
           locator: CBDB:444806
           quotation: null
           interpretation_note: null
-          source:
-            id: s_LTdVBZPPZSBmRenkYm3fQF
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王氏（444806）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=444806&o=json
-            external_identifier: CBDB:444806
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T04:00:00.115Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -226,7 +226,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王氏（卒于655年），唐人物。CBDB 记录其入仕记录为冊封爲妃嬪，曾任皇后、皇太子妃。中国历代人物传记资料库（CBDB）以人物编号 444806 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王氏（卒于655年），唐人物。入仕冊封爲妃嬪，曾任皇后、皇太子妃、王妃。（中国历代人物传记资料库 CBDB 444806） | accepted |
 | death.date | 655年 | accepted |
 | name.primary | 王氏 | accepted |
 

@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王氏，沈瓚繼妻。维基数据以独立条目 Q65832507 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 王氏，明人物。萬曆丙戌科進士進士。（中国历代人物传记资料库 CBDB 228811）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_-K310vSn6d_9uB-5zzipg6
+        - id: cs_QP7BhiorzkDF0M8Fe0S7gF
           claim_id: c_weF6gEfnQT5f8Z9hFs2qaS
-          source_id: s_m1TKJNLw3Z58D4pD5w3sRw
+          source_id: s_UYJr2ASoCJzioeXWTq1K2i
           stance: supports
-          locator: Q65832507
+          locator: CBDB:228811
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_m1TKJNLw3Z58D4pD5w3sRw
+            id: s_UYJr2ASoCJzioeXWTq1K2i
             source_type: api_record
-            title: 维基数据：王氏（Q65832507）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：王氏（228811）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65832507
-            external_identifier: Q65832507
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:40:20.804Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228811&o=json
+            external_identifier: CBDB:228811
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:40:20.992Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,18 +69,7 @@ properties:
           locator: Q65832507
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_UYJr2ASoCJzioeXWTq1K2i
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王氏（228811）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228811&o=json
-            external_identifier: CBDB:228811
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:40:20.992Z
-            metadata_json: null
+          source: *a1
         - id: cs_xVJdc11TfbTCZEttJiUfEd
           claim_id: c_odX2xgvAZS5nTNhvBYVf8N
           source_id: s_m1TKJNLw3Z58D4pD5w3sRw
@@ -88,7 +77,18 @@ properties:
           locator: Q65832507
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_m1TKJNLw3Z58D4pD5w3sRw
+            source_type: api_record
+            title: 维基数据：王氏（Q65832507）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65832507
+            external_identifier: Q65832507
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:40:20.804Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -231,7 +231,7 @@ relationships:
           locator: 萬曆丙戌科進士同年總錄，第二甲第八名：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_8Dvbg89PXkBEbBJAzYBkNw
         status: active
@@ -250,7 +250,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王氏，沈瓚繼妻。维基数据以独立条目 Q65832507 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王氏，明人物。萬曆丙戌科進士進士。（中国历代人物传记资料库 CBDB 228811） | accepted |
 | name.primary | 王氏 | accepted |
 
 ## 关联关系

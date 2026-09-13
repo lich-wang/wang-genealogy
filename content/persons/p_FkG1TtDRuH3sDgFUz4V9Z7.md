@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王氏（卒于810年），王澄女。维基数据以独立条目 Q65803780 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王氏（卒于810年），唐人物。籍贯河南府。（中国历代人物传记资料库 CBDB 145252）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_uU1LLpDQkIuoKGXR6K0ZOY
+        - id: cs_4PKJJC0V9DaVrg61wjgRDl
           claim_id: c_iFz2kVhjTxpAxKwjRzjR3G
-          source_id: s_PTsQuwWX6iChr4rf66ZztN
+          source_id: s_3f8UP9pJr7FH9cdZ6rSzrZ
           stance: supports
-          locator: Q65803780
+          locator: CBDB:145252
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_PTsQuwWX6iChr4rf66ZztN
+            id: s_3f8UP9pJr7FH9cdZ6rSzrZ
             source_type: api_record
-            title: 维基数据：王氏（Q65803780）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：王氏（145252）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65803780
-            external_identifier: Q65803780
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:07:04.029Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145252&o=json
+            external_identifier: CBDB:145252
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:07:04.187Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -111,7 +111,18 @@ properties:
           locator: Q65803780
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_PTsQuwWX6iChr4rf66ZztN
+            source_type: api_record
+            title: 维基数据：王氏（Q65803780）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65803780
+            external_identifier: Q65803780
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:04.029Z
+            metadata_json: null
         - id: cs_ai4vuKyM33Z3FBqjqT7pyi
           claim_id: c_1NF87sVFpQQxFAWtWRe43k
           source_id: s_3f8UP9pJr7FH9cdZ6rSzrZ
@@ -119,18 +130,7 @@ properties:
           locator: Q65803780
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_3f8UP9pJr7FH9cdZ6rSzrZ
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王氏（145252）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=145252&o=json
-            external_identifier: CBDB:145252
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:07:04.187Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -174,7 +174,7 @@ relationships:
           locator: P22（父）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_YQucbG3n9hiwnLeHVv8cba
           claim_id: c_H3CKCf9jmCUJzmtGPEKehL
           source_id: s_HmJsV2rPiCVdpEMRJrZ3CS
@@ -223,7 +223,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_G2rqt2q12C68xVQPXU9XJA
           claim_id: c_mjVwM62vKQL4EV4coNDENn
           source_id: s_VuBmUMHDjHucVSdUXoEuU3
@@ -250,7 +250,7 @@ relationships:
           locator: 亲属关系：丈夫
           quotation: null
           interpretation_note: CBDB 注明此条来源：唐五代人物傳記與社會網絡資料庫(1.0版)
-          source: *a2
+          source: *a1
       object_person:
         id: p_Hr9mf3hFTf1JYmwnu4JWuS
         status: active
@@ -306,7 +306,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王氏（卒于810年），王澄女。维基数据以独立条目 Q65803780 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王氏（卒于810年），唐人物。籍贯河南府。（中国历代人物传记资料库 CBDB 145252） | accepted |
 | death.date | 810年 | accepted |
 | name.primary | 王氏 | accepted |
 

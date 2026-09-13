@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王乙（978年—1050年），宋人物。CBDB 记录其籍贯记录为元城，身份包括武將，入仕记录为科舉: 舉進士、諸科不第。中国历代人物传记资料库（CBDB）以人物编号 22199 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
-          language: zh-Hans
+          text: 王乙（978年—1050年），宋人物。籍贯元城，身份为武將，入仕舉進士、諸科不第，曾任尚書左右丞、司天監冬官正、閤門祗候。（中国历代人物传记资料库 CBDB 22199）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_wqzJd5yD34oZ1EpZPpCosk
           claim_id: c_Hf8GwGPxd8J4BSx9u8E7BZ
@@ -401,7 +401,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王乙（978年—1050年），宋人物。CBDB 记录其籍贯记录为元城，身份包括武將，入仕记录为科舉: 舉進士、諸科不第。中国历代人物传记资料库（CBDB）以人物编号 22199 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王乙（978年—1050年），宋人物。籍贯元城，身份为武將，入仕舉進士、諸科不第，曾任尚書左右丞、司天監冬官正、閤門祗候。（中国历代人物传记资料库 CBDB 22199） | accepted |
 | birth.date | 978年 | accepted |
 | death.date | 1050年 | accepted |
 | name.primary | 王乙 | accepted |

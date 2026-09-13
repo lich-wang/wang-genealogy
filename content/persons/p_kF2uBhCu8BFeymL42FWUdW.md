@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王舜鼎，明人物。中国历代人物传记资料库（CBDB）以人物编号 342107 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王舜鼎，史料所见人物。本项目依据《中国历代人物传记资料库：王舜鼎（CBDB 342107）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_ekOtqKqDPPGrF5QueMoF6A
           claim_id: c_aR59RQ7EztHXhTe4VgU6MX
@@ -30,7 +30,7 @@ properties:
           stance: supports
           locator: CBDB:342107
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
           source: &a1
             id: s_RJ6WcEF4mMY5Jdkx3A7BNX
             source_type: api_record
@@ -70,19 +70,7 @@ properties:
           locator: CBDB:342107
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（4201-4300）｜历史性依据：CBDB 朝代 = 明
-          source:
-            id: s_RJ6WcEF4mMY5Jdkx3A7BNX
-            source_type: api_record
-            title: 中国历代人物传记资料库：王舜鼎（CBDB 342107）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=342107&o=json
-            external_identifier: CBDB:342107
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:17:10.160Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -150,7 +138,19 @@ relationships:
           locator: 紹興府志:八十卷，Igid=316285：孫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source:
+            id: s_RJ6WcEF4mMY5Jdkx3A7BNX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王舜鼎（CBDB 342107）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=342107&o=json
+            external_identifier: CBDB:342107
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-06T01:17:10.160Z
+            metadata_json:
+              source_release: CBDB 2026-08-29
       object_person:
         id: p_FJ8kB5ov8PURm7VjHpvGtx
         status: active
@@ -167,7 +167,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王舜鼎，明人物。中国历代人物传记资料库（CBDB）以人物编号 342107 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王舜鼎，史料所见人物。本项目依据《中国历代人物传记资料库：王舜鼎（CBDB 342107）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 王舜鼎 | accepted |
 
 ## 关联关系

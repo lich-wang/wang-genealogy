@@ -18,20 +18,20 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王子杰，史料所见人物。中国历代人物传记资料库（CBDB）以人物编号 150134 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王子杰，史料所见人物。本项目依据《王子杰》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_6susSFfeG5gRRLG661xMUk
+        - id: cs_8SkCJSgDkZCiAGi7HPWJbc
           claim_id: c_415K896qkB4rR3v2uiQKNW
           source_id: s_X4jSCHW5ju9iPgUYTgtTpw
           stance: supports
-          locator: null
+          locator: Q45678395
           quotation: null
-          interpretation_note: null
-          source:
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_X4jSCHW5ju9iPgUYTgtTpw
             source_type: api_record
             title: 维基数据：王子杰（Q45678395）
@@ -42,25 +42,6 @@ properties:
             external_identifier: Q45678395
             license_code: CC0-1.0
             accessed_at: 2026-08-24T03:14:47.952Z
-            metadata_json: null
-        - id: cs_lXjzQEk2q1JE7GD2R1HoM9
-          claim_id: c_415K896qkB4rR3v2uiQKNW
-          source_id: s_gp6KaZNcX3D9D72CBP646a
-          stance: supports
-          locator: CBDB:150134
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_gp6KaZNcX3D9D72CBP646a
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王子傑（150134）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150134&o=json
-            external_identifier: CBDB:150134
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:14:48.103Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -88,7 +69,18 @@ properties:
           locator: Q45678395
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_gp6KaZNcX3D9D72CBP646a
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王子傑（150134）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=150134&o=json
+            external_identifier: CBDB:150134
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:14:48.103Z
+            metadata_json: null
         - id: cs_FX1No15wVQ83ACpCH4p9JN
           claim_id: c_nh591fi3VRnj57ZWwKiiiJ
           source_id: s_X4jSCHW5ju9iPgUYTgtTpw
@@ -96,18 +88,7 @@ properties:
           locator: Q45678395
           quotation: null
           interpretation_note: null
-          source:
-            id: s_X4jSCHW5ju9iPgUYTgtTpw
-            source_type: api_record
-            title: 维基数据：王子杰（Q45678395）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45678395
-            external_identifier: Q45678395
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:14:47.952Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -194,7 +175,7 @@ relationships:
           locator: 唐代墓誌匯編:二卷，Shengli 28：孫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_GMCTq5KrktL4A6wV97QsyN
         status: active
@@ -211,7 +192,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王子杰，史料所见人物。中国历代人物传记资料库（CBDB）以人物编号 150134 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王子杰，史料所见人物。本项目依据《王子杰》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 王子杰 | accepted |
 
 ## 关联关系

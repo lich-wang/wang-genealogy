@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王氏，吳安持妻。维基数据以独立条目 Q45431126 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王氏，吳安持妻。维基数据以独立条目 Q45431126 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_ohCm8ERL03r3-S9SoFbhYv
           claim_id: c_HP8oK3qh5JiZ88BdFdKCKM
@@ -279,7 +279,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王氏，吳安持妻。维基数据以独立条目 Q45431126 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王氏，吳安持妻。维基数据以独立条目 Q45431126 收录该人物。 | accepted |
 | name.primary | 王氏 | accepted |
 
 ## 关联关系

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 丁肇圣，清人物。CBDB 记录其籍贯记录为山陰。中国历代人物传记资料库（CBDB）以人物编号 122753 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 丁肇圣，清人物。籍贯山陰。（中国历代人物传记资料库 CBDB 122753）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_twRDyOb2GF99Fmd3N7SDY2
           claim_id: c_Og8XFrb1SpV_s13OecxRIY
@@ -248,7 +248,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 丁肇圣，清人物。CBDB 记录其籍贯记录为山陰。中国历代人物传记资料库（CBDB）以人物编号 122753 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 丁肇圣，清人物。籍贯山陰。（中国历代人物传记资料库 CBDB 122753） | accepted |
 | name.primary | 丁肇圣 | accepted |
 
 ## 关联关系

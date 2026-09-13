@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王仲连（卒于694年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任府錄事參軍。中国历代人物传记资料库（CBDB）以人物编号 175540 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王仲连（卒于694年），唐人物。籍贯咸陽，曾任府錄事參軍。（中国历代人物传记资料库 CBDB 175540）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_xyN94uWgQ2XpzP6Q3P8vTB
           claim_id: c_K3KeHqw2CyroNcgCaoNo1J
@@ -359,7 +359,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王仲连（卒于694年），唐人物。CBDB 记录其籍贯记录为咸陽，曾任府錄事參軍。中国历代人物传记资料库（CBDB）以人物编号 175540 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王仲连（卒于694年），唐人物。籍贯咸陽，曾任府錄事參軍。（中国历代人物传记资料库 CBDB 175540） | accepted |
 | death.date | 694年 | accepted |
 | name.primary | 王仲连 | accepted |
 

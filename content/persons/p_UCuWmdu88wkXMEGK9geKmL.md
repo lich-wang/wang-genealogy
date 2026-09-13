@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王象蒙（生于1552年），明人物。CBDB 记录其籍贯记录为新城，入仕记录为科舉: 進士(籠統)，曾任大理寺丞。中国历代人物传记资料库（CBDB）以人物编号 206595 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王象蒙（生于1552年），明人物。明清進士進士，籍贯新城，入仕進士，曾任大理寺丞。（中国历代人物传记资料库 CBDB 206595）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_XBDQHPZ3dHLv3MReN57FZB
           claim_id: c_Pvt83iWTc727Vhdn5B9XWp
@@ -381,7 +381,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王象蒙（生于1552年），明人物。CBDB 记录其籍贯记录为新城，入仕记录为科舉: 進士(籠統)，曾任大理寺丞。中国历代人物传记资料库（CBDB）以人物编号 206595 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王象蒙（生于1552年），明人物。明清進士進士，籍贯新城，入仕進士，曾任大理寺丞。（中国历代人物传记资料库 CBDB 206595） | accepted |
 | birth.date | 1552年 | accepted |
 | name.primary | 王象蒙 | accepted |
 

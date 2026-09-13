@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王树枏（1851年—1936年），中国晚清与民国时期官员、散文家、学者（约1851～1936）。维基数据以独立条目 Q15912653 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王树枏（1851年—1936年），中国晚清与民国时期官员、散文家、学者（约1851～1936）。维基数据以独立条目 Q15912653 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_3iUDx_vDXKS0t3x9FV5KXt
           claim_id: c_3neAp2WHn81QQ6pytHRcLA
@@ -174,7 +174,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王树枏（1851年—1936年），中国晚清与民国时期官员、散文家、学者（约1851～1936）。维基数据以独立条目 Q15912653 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王树枏（1851年—1936年），中国晚清与民国时期官员、散文家、学者（约1851～1936）。维基数据以独立条目 Q15912653 收录该人物。 | accepted |
 | birth.date | 1851年 | accepted |
 | death.date | 1936年 | accepted |
 | name.primary | 王树枏 | accepted |

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王聯豫（生于1858年），清人物。中国历代人物传记资料库（CBDB）以人物编号 64438 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: "王聯豫（生于1858年），清人物。籍贯內務府正白旗包衣，入仕監生: 例監(附監生)，曾任道監察御史、鹽運使銜、知府。（中国历代人物传记资料库 CBDB 64438）"
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_d-0FY8bIScvg_KrkjBWKjg
           claim_id: c_h98vA3Yo1NuKXN6nGWusMx
@@ -31,7 +31,7 @@ properties:
           locator: CBDB:64438
           quotation: null
           interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          source: &a1
             id: s_1JSNJQTqL6wGi4F64hJdc5
             source_type: api_record
             title: 中国历代人物传记资料库：王聯豫（CBDB 64438）
@@ -113,19 +113,7 @@ properties:
           locator: CBDB:64438
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（1401-1500）｜历史性依据：CBDB 朝代 = 清
-          source:
-            id: s_1JSNJQTqL6wGi4F64hJdc5
-            source_type: api_record
-            title: 中国历代人物传记资料库：王聯豫（CBDB 64438）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=64438&o=json
-            external_identifier: CBDB:64438
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:16:48.148Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -147,7 +135,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王聯豫（生于1858年），清人物。中国历代人物传记资料库（CBDB）以人物编号 64438 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王聯豫（生于1858年），清人物。籍贯內務府正白旗包衣，入仕監生: 例監(附監生)，曾任道監察御史、鹽運使銜、知府。（中国历代人物传记资料库 CBDB 64438） | accepted |
 | birth.date | 1858年 | accepted |
 | name.primary | 王聯豫 | accepted |
 

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王濬（卒于733年），唐人物。CBDB 记录其籍贯记录为河南府，曾任丞。中国历代人物传记资料库（CBDB）以人物编号 175390 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王濬（卒于733年），唐人物。籍贯臨沂，曾任丞。（中国历代人物传记资料库 CBDB 175390）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_6jQs9BANGoqDN4XBLpfHnC
           claim_id: c_xjpUtFy16iAzaGprDFt2cq
@@ -208,7 +208,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王濬（卒于733年），唐人物。CBDB 记录其籍贯记录为河南府，曾任丞。中国历代人物传记资料库（CBDB）以人物编号 175390 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王濬（卒于733年），唐人物。籍贯臨沂，曾任丞。（中国历代人物传记资料库 CBDB 175390） | accepted |
 | death.date | 733年 | accepted |
 | name.primary | 王濬 | accepted |
 

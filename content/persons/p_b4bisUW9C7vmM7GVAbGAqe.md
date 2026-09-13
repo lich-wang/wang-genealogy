@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王大韶，明人物。CBDB 记录其曾任戶部主事、提刑按察使司僉事。中国历代人物传记资料库（CBDB）以人物编号 226560 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 王大韶，明人物。萬曆丙戌科進士進士，曾任戶部主事、提刑按察使司僉事。（中国历代人物传记资料库 CBDB 226560）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_WSDMJQvrJ1bUPVjDo2hN3W
           claim_id: c_yAn9qcJBWwmfGgPSij11Az
@@ -246,7 +246,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王大韶，明人物。CBDB 记录其曾任戶部主事、提刑按察使司僉事。中国历代人物传记资料库（CBDB）以人物编号 226560 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王大韶，明人物。萬曆丙戌科進士進士，曾任戶部主事、提刑按察使司僉事。（中国历代人物传记资料库 CBDB 226560） | accepted |
 | name.primary | 王大韶 | accepted |
 
 ## 关联关系

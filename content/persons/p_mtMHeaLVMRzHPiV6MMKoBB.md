@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王慎术，宋人物。CBDB 记录其籍贯记录为洛陽，曾任中散大夫。中国历代人物传记资料库（CBDB）以人物编号 22056 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王慎术，宋人物。籍贯洛陽，曾任中散大夫。（中国历代人物传记资料库 CBDB 22056）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_bu74nrZk7jMdHKnPcxBZUu
           claim_id: c_gXYet5HpzKo7EtLsjCRxXd
@@ -230,7 +230,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王慎术，宋人物。CBDB 记录其籍贯记录为洛陽，曾任中散大夫。中国历代人物传记资料库（CBDB）以人物编号 22056 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王慎术，宋人物。籍贯洛陽，曾任中散大夫。（中国历代人物传记资料库 CBDB 22056） | accepted |
 | name.primary | 王慎术 | accepted |
 
 ## 关联关系

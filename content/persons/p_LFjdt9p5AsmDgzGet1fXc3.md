@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王广渊，宋人物。CBDB 记录其籍贯记录为洹水，身份包括王安石新法支持者，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 1844 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王广渊，宋人物。籍贯洹水，身份为王安石新法支持者，入仕進士，曾任三館、右諫議大夫、轉運使。（中国历代人物传记资料库 CBDB 1844）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_HDHxZAgrcwtqj1VhVFKdbh
           claim_id: c_uVk2wFZ4RtvWxEieiJDF5o
@@ -264,7 +264,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王广渊，宋人物。CBDB 记录其籍贯记录为洹水，身份包括王安石新法支持者，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 1844 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王广渊，宋人物。籍贯洹水，身份为王安石新法支持者，入仕進士，曾任三館、右諫議大夫、轉運使。（中国历代人物传记资料库 CBDB 1844） | accepted |
 | name.primary | 王广渊 | accepted |
 
 ## 关联关系

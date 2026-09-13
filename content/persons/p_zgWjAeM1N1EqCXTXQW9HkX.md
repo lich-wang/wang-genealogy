@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王承勋（1560年代—1620年代），明人物。CBDB 记录其籍贯记录为餘姚，曾任總督漕運。中国历代人物传记资料库（CBDB）以人物编号 30377 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王承勋（1560年代—1620年代），明人物。籍贯餘姚，曾任總督漕運。（中国历代人物传记资料库 CBDB 30377）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_ScSEzNkJfEAR5pu827z7Ji
           claim_id: c_47vphTJCiF6oWuGb4tjk2J
@@ -710,7 +710,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王承勋（1560年代—1620年代），明人物。CBDB 记录其籍贯记录为餘姚，曾任總督漕運。中国历代人物传记资料库（CBDB）以人物编号 30377 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王承勋（1560年代—1620年代），明人物。籍贯餘姚，曾任總督漕運。（中国历代人物传记资料库 CBDB 30377） | accepted |
 | birth.date | 1560年代 | accepted |
 | death.date | 1620年代 | accepted |
 | name.primary | 王承勋 | accepted |

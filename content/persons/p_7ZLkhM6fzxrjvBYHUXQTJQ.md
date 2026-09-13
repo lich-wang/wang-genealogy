@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王念孙（1744年—1832年），清人物。CBDB 记录其籍贯记录为高郵州，身份包括小學家－訓詁學、小學家－音韻學，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 34190 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王念孙（1744年—1832年），清人物。明清進士進士，籍贯高郵州，身份为小學家－訓詁學、小學家－音韻學，入仕進士。（中国历代人物传记资料库 CBDB 34190）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_42kNLKCweGntddZQ8RGDLg
           claim_id: c_jPdb5BdPF3ReAQANWqEpyB
@@ -468,7 +468,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王念孙（1744年—1832年），清人物。CBDB 记录其籍贯记录为高郵州，身份包括小學家－訓詁學、小學家－音韻學，入仕记录为科舉: 進士(籠統)。中国历代人物传记资料库（CBDB）以人物编号 34190 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王念孙（1744年—1832年），清人物。明清進士進士，籍贯高郵州，身份为小學家－訓詁學、小學家－音韻學，入仕進士。（中国历代人物传记资料库 CBDB 34190） | accepted |
 | birth.date | 1744年 | accepted |
 | death.date | 1832年 | accepted |
 | name.primary | 王念孙 | accepted |

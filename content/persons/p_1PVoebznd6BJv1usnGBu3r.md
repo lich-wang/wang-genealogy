@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王暕（477年—523年），史料所见人物。本项目依据《王暕》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王暕（477年—523年12月14日），字思晦，琅邪郡临沂县（今山东省临沂市）人，王儉之子。 生於宋順帝昇明元年（477年），“風神警拔，有成人之度。”二十歲時娶淮南公主。任昉《為蕭揚州薦薦士表》稱：“竊見秘書丞琅玡臣王暕，年二十一，字思晦，七葉重光，海內冠冕。
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_FX0lys8apKGZ1UsSMGnBCh
+        - id: cs_eFc02ZHd7FSDqrQPL52_Si
           claim_id: c_Rt4aRkJGD4gTjuoLEp2YXi
-          source_id: s_KsjikQPijPc5BkNwV19tro
+          source_id: s_mBumxVQjdByAt6ioDiIoWl
           stance: supports
-          locator: Q11572875
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_KsjikQPijPc5BkNwV19tro
-            source_type: api_record
-            title: 维基数据：王暕（Q11572875）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王暕（477年—523年12月14日），字思晦，琅邪郡临沂县（今
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_mBumxVQjdByAt6ioDiIoWl
+            source_type: website
+            title: 中文维基百科：王暕
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q11572875
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%9A%95
             external_identifier: Q11572875
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:24:58.732Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%9A%95
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -155,7 +154,19 @@ properties:
           locator: Q11572875
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a1
+            id: s_KsjikQPijPc5BkNwV19tro
+            source_type: api_record
+            title: 维基数据：王暕（Q11572875）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q11572875
+            external_identifier: Q11572875
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:24:58.732Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%9A%95
       object_person: null
     alternatives: []
 relationships:
@@ -696,7 +707,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王暕（477年—523年），史料所见人物。本项目依据《王暕》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王暕（477年—523年12月14日），字思晦，琅邪郡临沂县（今山东省临沂市）人，王儉之子。 生於宋順帝昇明元年（477年），“風神警拔，有成人之度。”二十歲時娶淮南公主。任昉《為蕭揚州薦薦士表》稱：“竊見秘書丞琅玡臣王暕，年二十一，字思晦，七葉重光，海內冠冕。 | accepted |
 | birth.date | 477年 | accepted |
 | death.date | 523年 | accepted |
 | name.primary | 王暕 | accepted |
@@ -722,5 +733,6 @@ relationships:
 - [中文维基百科：琅邪王氏世系圖](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F%E4%B8%96%E7%B3%BB%E5%9C%96)
 - [中文维基百科：王承 (南梁)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%89%BF_(%E5%8D%97%E6%A2%81))
 - [中文维基百科：王衮](https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%A1%AE)
+- [中文维基百科：王暕](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%9A%95)
 - [中文维基百科：王训 (南梁)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%AE%AD_(%E5%8D%97%E6%A2%81))
 - [中文维基文库：《梁书》卷四十一](https://zh.wikisource.org/zh-hant/%E6%A2%81%E6%9B%B8/%E5%8D%B741)

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王志悌，唐人物。CBDB 记录其籍贯记录为臨沂。中国历代人物传记资料库（CBDB）以人物编号 140994 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王志悌，唐人物。籍贯臨沂，曾任未詳。（中国历代人物传记资料库 CBDB 140994）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_ZXX2ziB5cGo72vzjE9J3WG
           claim_id: c_CofWULbBDDVB74Qywq3AQ5
@@ -690,7 +690,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王志悌，唐人物。CBDB 记录其籍贯记录为臨沂。中国历代人物传记资料库（CBDB）以人物编号 140994 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王志悌，唐人物。籍贯臨沂，曾任未詳。（中国历代人物传记资料库 CBDB 140994） | accepted |
 | name.primary | 王志悌 | accepted |
 
 ## 关联关系

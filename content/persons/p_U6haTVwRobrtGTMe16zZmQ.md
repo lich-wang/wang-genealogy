@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王振璋（1782年—1855年），清人物。中国历代人物传记资料库（CBDB）以人物编号 71951 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王振璋（1782年—1855年），史料所见人物。本项目依据《中国历代人物传记资料库：王振璋（CBDB 71951）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_CVXAzcDzba1654inuiCjco
           claim_id: c_BumooSpvZPaLCvUesB77H6
@@ -30,8 +30,8 @@ properties:
           stance: supports
           locator: CBDB:71951
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source:
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_vdSmoz7itoHp472neoNn8X
             source_type: api_record
             title: 中国历代人物传记资料库：王振璋（CBDB 71951）
@@ -156,19 +156,7 @@ properties:
           locator: CBDB:71951
           quotation: null
           interpretation_note: CBDB 2026-08-29 Luna 审核通过人物批量导入（201-300）｜历史性依据：CBDB 卒年 = 1855
-          source:
-            id: s_vdSmoz7itoHp472neoNn8X
-            source_type: api_record
-            title: 中国历代人物传记资料库：王振璋（CBDB 71951）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71951&o=json
-            external_identifier: CBDB:71951
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-06T01:16:36.789Z
-            metadata_json:
-              source_release: CBDB 2026-08-29
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -190,7 +178,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王振璋（1782年—1855年），清人物。中国历代人物传记资料库（CBDB）以人物编号 71951 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王振璋（1782年—1855年），史料所见人物。本项目依据《中国历代人物传记资料库：王振璋（CBDB 71951）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | birth.date | 1782年 | accepted |
 | death.date | 1855年 | accepted |
 | name.primary | 王振璋 | accepted |

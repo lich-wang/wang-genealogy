@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 孙氏，王竑妻。维基数据以独立条目 Q65838942 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 孙氏，明人物。正統四年進士。（中国历代人物传记资料库 CBDB 236880）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_gQEdBYTnLH10aJg5lOb9yX
+        - id: cs_2oi2ZN79fWod6spsAKPOmu
           claim_id: c_PEJ8C_Axd9vglPN3060jsY
-          source_id: s_M9J8nPtTtGBKZ6WAGAHwPe
+          source_id: s_uyMqx86LVgdGn3q8eyKwoP
           stance: supports
-          locator: Q65838942
+          locator: CBDB:236880
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_M9J8nPtTtGBKZ6WAGAHwPe
+            id: s_uyMqx86LVgdGn3q8eyKwoP
             source_type: api_record
-            title: 维基数据：孙氏（Q65838942）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：孫氏（236880）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65838942
-            external_identifier: Q65838942
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:59:36.412Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236880&o=json
+            external_identifier: CBDB:236880
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:36.554Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,18 +69,7 @@ properties:
           locator: Q65838942
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_uyMqx86LVgdGn3q8eyKwoP
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：孫氏（236880）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236880&o=json
-            external_identifier: CBDB:236880
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T01:59:36.554Z
-            metadata_json: null
+          source: *a1
         - id: cs_v1Xn6yZQCrHoTAYML1zVxs
           claim_id: c_LAmfKi7BKEVeVkReSqC3Kp
           source_id: s_M9J8nPtTtGBKZ6WAGAHwPe
@@ -88,7 +77,18 @@ properties:
           locator: Q65838942
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_M9J8nPtTtGBKZ6WAGAHwPe
+            source_type: api_record
+            title: 维基数据：孙氏（Q65838942）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65838942
+            external_identifier: Q65838942
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:36.412Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -192,7 +192,7 @@ relationships:
           locator: 正統四年進士登科錄:一卷，第二甲第三十名：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_DNERe7qJNb3V7E5Uc4DPd7
         status: active
@@ -211,7 +211,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 孙氏，王竑妻。维基数据以独立条目 Q65838942 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 孙氏，明人物。正統四年進士。（中国历代人物传记资料库 CBDB 236880） | accepted |
 | name.primary | 孙氏 | accepted |
 
 ## 关联关系

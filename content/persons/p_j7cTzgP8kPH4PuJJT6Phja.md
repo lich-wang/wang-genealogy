@@ -18,20 +18,20 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王宷，宋人物。中国历代人物传记资料库（CBDB）以人物编号 119740 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王宷，史料所见人物。本项目依据《王宷》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_ZTwFpypynzBfB47s8Lerhm
+        - id: cs_Ad3xydVCoNqT3cFPr9O7s7
           claim_id: c_yrFdRCroXW1oPvUSKUoRT1
           source_id: s_ok3rTXH2RMUEFz3KCXmNLB
           stance: supports
-          locator: null
+          locator: Q45493354
           quotation: null
-          interpretation_note: null
-          source:
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_ok3rTXH2RMUEFz3KCXmNLB
             source_type: api_record
             title: 维基数据：王宷（Q45493354）
@@ -42,25 +42,6 @@ properties:
             external_identifier: Q45493354
             license_code: CC0-1.0
             accessed_at: 2026-09-05T01:59:04.864Z
-            metadata_json: null
-        - id: cs_D5nDJEx-SYeLjPB4jHSRQa
-          claim_id: c_yrFdRCroXW1oPvUSKUoRT1
-          source_id: s_qcX1VjDMhbTXr7Psa249QR
-          stance: supports
-          locator: CBDB:119740
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_qcX1VjDMhbTXr7Psa249QR
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王宷（119740）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119740&o=json
-            external_identifier: CBDB:119740
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T01:59:05.048Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -88,18 +69,7 @@ properties:
           locator: Q45493354
           quotation: null
           interpretation_note: null
-          source:
-            id: s_ok3rTXH2RMUEFz3KCXmNLB
-            source_type: api_record
-            title: 维基数据：王宷（Q45493354）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45493354
-            external_identifier: Q45493354
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:59:04.864Z
-            metadata_json: null
+          source: *a1
         - id: cs_r4an5CADJ1a54fFhJj389A
           claim_id: c_5wv42PQCpKeSbyLCL5eNSk
           source_id: s_qcX1VjDMhbTXr7Psa249QR
@@ -107,7 +77,18 @@ properties:
           locator: Q45493354
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_qcX1VjDMhbTXr7Psa249QR
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王宷（119740）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119740&o=json
+            external_identifier: CBDB:119740
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:05.048Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -188,7 +169,7 @@ relationships:
           locator: 宋史：父
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a1
+          source: *a2
       object_person:
         id: p_f5uvxnPRT14yx91yn4yLGC
         status: active
@@ -211,7 +192,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王宷，宋人物。中国历代人物传记资料库（CBDB）以人物编号 119740 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王宷，史料所见人物。本项目依据《王宷》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 王宷 | accepted |
 
 ## 关联关系

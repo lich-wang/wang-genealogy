@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王閎（卒于前29年），史料所见人物。本项目依据《王閎》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王閎（？—30年），王莽叔父平阿侯王譚之子，王去疾之弟，娶蕭咸之女。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_P39lwsauxy28NNFGAqJLgo
+        - id: cs_9M7mRJDtdtn8FnpF9AY0Rm
           claim_id: c_DzEiqd9LKRtj1Hj2V5PKG9
-          source_id: s_WwjQZvXuBAP3ZNtF9TGJtG
+          source_id: s_iobdZkp8DcRhGXjxQx3HwG
           stance: supports
-          locator: Q11572883
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_WwjQZvXuBAP3ZNtF9TGJtG
-            source_type: api_record
-            title: 维基数据：王閎（Q11572883）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王閎（？—30年），王莽叔父平阿侯王譚之子，王去疾之弟，娶蕭咸之
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_iobdZkp8DcRhGXjxQx3HwG
+            source_type: website
+            title: 中文维基百科：王閎
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q11572883
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%96%8E
             external_identifier: Q11572883
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:10:19.655Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%96%8E
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: death.date
@@ -112,7 +111,19 @@ properties:
           locator: Q11572883
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_WwjQZvXuBAP3ZNtF9TGJtG
+            source_type: api_record
+            title: 维基数据：王閎（Q11572883）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q11572883
+            external_identifier: Q11572883
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:10:19.655Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%96%8E
       object_person: null
     alternatives: []
 relationships:
@@ -286,7 +297,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王閎（卒于前29年），史料所见人物。本项目依据《王閎》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王閎（？—30年），王莽叔父平阿侯王譚之子，王去疾之弟，娶蕭咸之女。 | accepted |
 | death.date | 前29年 | accepted |
 | name.primary | 王閎 | accepted |
 

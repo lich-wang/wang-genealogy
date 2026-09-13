@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 何妙音，明人物。CBDB 记录其籍贯记录为義烏，入仕记录为封贈。中国历代人物传记资料库（CBDB）以人物编号 28108 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 何妙音（1322—1377），明人物。籍贯義烏，入仕封贈。（中国历代人物传记资料库 CBDB 28108）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_IQCyIoN1C628h6EwtuGeRW
           claim_id: c_li4Xq2sCF24wKWnpVtfQBP
@@ -211,7 +211,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 何妙音，明人物。CBDB 记录其籍贯记录为義烏，入仕记录为封贈。中国历代人物传记资料库（CBDB）以人物编号 28108 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 何妙音（1322—1377），明人物。籍贯義烏，入仕封贈。（中国历代人物传记资料库 CBDB 28108） | accepted |
 | name.primary | 何妙音 | accepted |
 
 ## 关联关系

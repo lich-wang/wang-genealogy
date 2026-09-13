@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王凝之（生于334年），东晋大臣。维基数据以独立条目 Q16077602 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 王凝之（334年—399年），字叔平，琅邪郡临沂县（今山东省临沂市）人，东晋書法家王羲之次子，亦知名書法家，工草書、隸書。 王凝之歷任江州刺史、左将军、会稽内史等职，迷信五斗米道。
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_Oh-zg45rhfrskjtoGd5wJw
+        - id: cs_mh7OLnJKVqKnjQyoefC3Ol
           claim_id: c_M6MRkdmVEcspp6dHKieFWX
-          source_id: s_4id4JzG8i2kMoebswpshNH
+          source_id: s_ranLa0u29NWVyiGHjTtS_q
           stance: supports
-          locator: Q16077602
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
-          source: &a1
-            id: s_4id4JzG8i2kMoebswpshNH
-            source_type: api_record
-            title: 維基數據：王凝之（Q16077602）
-            creator: 維基數據貢獻者
+          locator: 导言
+          quotation: 王凝之（334年—399年），字叔平，琅邪郡临沂县（今山东省临沂
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_ranLa0u29NWVyiGHjTtS_q
+            source_type: website
+            title: 中文维基百科：王凝之
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q16077602
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%87%9D%E4%B9%8B
             external_identifier: Q16077602
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T02:10:15.077Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%87%9D%E4%B9%8B
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -151,7 +150,19 @@ properties:
           locator: Q16077602
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_4id4JzG8i2kMoebswpshNH
+            source_type: api_record
+            title: 維基數據：王凝之（Q16077602）
+            creator: 維基數據貢獻者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16077602
+            external_identifier: Q16077602
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:10:15.077Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%87%9D%E4%B9%8B
       object_person: null
     alternatives: []
 relationships:
@@ -517,7 +528,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王凝之（生于334年），东晋大臣。维基数据以独立条目 Q16077602 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王凝之（334年—399年），字叔平，琅邪郡临沂县（今山东省临沂市）人，东晋書法家王羲之次子，亦知名書法家，工草書、隸書。 王凝之歷任江州刺史、左将军、会稽内史等职，迷信五斗米道。 | accepted |
 | birth.date | 334年 | accepted |
 | historical.period | 东晋 | accepted |
 | name.primary | 王凝之 | accepted |

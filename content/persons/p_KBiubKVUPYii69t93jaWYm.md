@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王秀，東晉人物。CBDB 记录其籍贯记录为江寧，身份包括士人。中国历代人物传记资料库（CBDB）以人物编号 30876 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王秀，東晉人物。籍贯江寧，身份为士人。（中国历代人物传记资料库 CBDB 30876）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_QSKwbQ2f8DZWL5iwUW28X1
           claim_id: c_VTo9EPuhDE3cG1td3hDDGb
@@ -411,7 +411,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王秀，東晉人物。CBDB 记录其籍贯记录为江寧，身份包括士人。中国历代人物传记资料库（CBDB）以人物编号 30876 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王秀，東晉人物。籍贯江寧，身份为士人。（中国历代人物传记资料库 CBDB 30876） | accepted |
 | name.primary | 王秀 | accepted |
 
 ## 关联关系

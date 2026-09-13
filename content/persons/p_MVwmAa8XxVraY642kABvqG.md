@@ -18,20 +18,20 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王停停，唐人物。中国历代人物传记资料库（CBDB）以人物编号 158879 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王停停，史料所见人物。本项目依据《王停停》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_w43dg2Qrm8Mhz7e8sHJNcm
+        - id: cs_IxExWD36_y9DFxs4YOhKyY
           claim_id: c_129SAEGBBEb5xFBj7QfyJy
           source_id: s_JQAN3kQwet2zn9oBN3QM41
           stance: supports
-          locator: null
+          locator: Q45582648
           quotation: null
-          interpretation_note: null
-          source:
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_JQAN3kQwet2zn9oBN3QM41
             source_type: api_record
             title: 维基数据：王停停（Q45582648）
@@ -42,25 +42,6 @@ properties:
             external_identifier: Q45582648
             license_code: CC0-1.0
             accessed_at: 2026-08-24T03:31:58.059Z
-            metadata_json: null
-        - id: cs_49aZk4fW6mqMyr5R56jbXj
-          claim_id: c_129SAEGBBEb5xFBj7QfyJy
-          source_id: s_ttgDPFKtcUuwgBiox4Wb12
-          stance: supports
-          locator: CBDB:158879
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_ttgDPFKtcUuwgBiox4Wb12
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王停停（158879）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158879&o=json
-            external_identifier: CBDB:158879
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T03:31:58.199Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -88,18 +69,7 @@ properties:
           locator: Q45582648
           quotation: null
           interpretation_note: null
-          source:
-            id: s_JQAN3kQwet2zn9oBN3QM41
-            source_type: api_record
-            title: 维基数据：王停停（Q45582648）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45582648
-            external_identifier: Q45582648
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:31:58.059Z
-            metadata_json: null
+          source: *a1
         - id: cs_ta55WgZ13y8QZiSyosdL2b
           claim_id: c_VMfMbQBNxp7ekycXKanFvJ
           source_id: s_ttgDPFKtcUuwgBiox4Wb12
@@ -107,7 +77,18 @@ properties:
           locator: Q45582648
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_ttgDPFKtcUuwgBiox4Wb12
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王停停（158879）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158879&o=json
+            external_identifier: CBDB:158879
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T03:31:58.199Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -223,7 +204,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王停停，唐人物。中国历代人物传记资料库（CBDB）以人物编号 158879 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王停停，史料所见人物。本项目依据《王停停》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 王停停 | accepted |
 
 ## 关联关系

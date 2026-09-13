@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 吴安持，宋人物。CBDB 记录其籍贯记录为浦城，身份包括入元祐黨籍者，入仕记录为恩蔭、蔭補(籠統)。中国历代人物传记资料库（CBDB）以人物编号 1957 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 吴安持，宋人物。籍贯新鄭，身份为入元祐黨籍者，入仕恩蔭、蔭補，曾任尚書省工部侍郎、朝散郎、司農寺少卿。（中国历代人物传记资料库 CBDB 1957）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_X7FS1KvnbeaeqRQUlCjRRy
           claim_id: c_8WqywOLXCDXcJi1uBFlkob
@@ -241,7 +241,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 吴安持，宋人物。CBDB 记录其籍贯记录为浦城，身份包括入元祐黨籍者，入仕记录为恩蔭、蔭補(籠統)。中国历代人物传记资料库（CBDB）以人物编号 1957 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 吴安持，宋人物。籍贯新鄭，身份为入元祐黨籍者，入仕恩蔭、蔭補，曾任尚書省工部侍郎、朝散郎、司農寺少卿。（中国历代人物传记资料库 CBDB 1957） | accepted |
 | name.primary | 吴安持 | accepted |
 
 ## 关联关系

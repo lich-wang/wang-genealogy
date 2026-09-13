@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王黝儿，唐人物。CBDB 记录其籍贯记录为河南府。中国历代人物传记资料库（CBDB）以人物编号 158881 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王黝儿，唐人物。籍贯晉陽。（中国历代人物传记资料库 CBDB 158881）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_6TAWttPGqrRK5BD1eki2n7
           claim_id: c_jFkwk7hQRs9dk6s2AVKEmx
@@ -223,7 +223,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王黝儿，唐人物。CBDB 记录其籍贯记录为河南府。中国历代人物传记资料库（CBDB）以人物编号 158881 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王黝儿，唐人物。籍贯晉陽。（中国历代人物传记资料库 CBDB 158881） | accepted |
 | name.primary | 王黝儿 | accepted |
 
 ## 关联关系

@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王忬（1507年—1560年），史料所见人物。本项目依据《維基數據：王忬》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王忬（1507年—1560年），字民應，號思質，直隸蘇州府太倉州（今江蘇太倉市）人。嘉靖辛丑進士，累官薊遼總督，因得罪權臣嚴嵩，被羅織罪名，下獄處決。隆慶初平反。有子王世貞、王世懋。
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
-        - id: cs_OfexCtigWWXfAn6SP2kHdZ
+        - id: cs_Lv1grVIV9zBtor2KLHq5cB
           claim_id: c_5AregtYgYY2JwW4bN9jY2G
-          source_id: s_iRGPH9fBgt77am5AHhsbYv
+          source_id: s_Cq0vlDU8cMbG8GymefPHzD
           stance: supports
-          locator: Q15933350
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_iRGPH9fBgt77am5AHhsbYv
-            source_type: api_record
-            title: 維基數據：王忬（Q15933350）
-            creator: 維基數據貢獻者
+          locator: 导言
+          quotation: 王忬（1507年—1560年），字民應，號思質，直隸蘇州府太倉州
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_Cq0vlDU8cMbG8GymefPHzD
+            source_type: website
+            title: 中文维基百科：王忬
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q15933350
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BF%AC
             external_identifier: Q15933350
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T02:10:21.964Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BF%AC
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -155,7 +154,19 @@ properties:
           locator: Q15933350
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_iRGPH9fBgt77am5AHhsbYv
+            source_type: api_record
+            title: 維基數據：王忬（Q15933350）
+            creator: 維基數據貢獻者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q15933350
+            external_identifier: Q15933350
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:10:21.964Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BF%AC
       object_person: null
     alternatives: []
 relationships:
@@ -541,7 +552,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王忬（1507年—1560年），史料所见人物。本项目依据《維基數據：王忬》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王忬（1507年—1560年），字民應，號思質，直隸蘇州府太倉州（今江蘇太倉市）人。嘉靖辛丑進士，累官薊遼總督，因得罪權臣嚴嵩，被羅織罪名，下獄處決。隆慶初平反。有子王世貞、王世懋。 | accepted |
 | birth.date | 1507年 | accepted |
 | death.date | 1560年 | accepted |
 | name.primary | 王忬 | accepted |
@@ -565,6 +576,7 @@ relationships:
 - [中文维基百科：王世懋](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E6%87%8B)
 - [中文维基百科：王世贞](https://zh.wikipedia.org/wiki/王世贞)
 - [中文维基百科：王世贞](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E8%B4%9E)
+- [中文维基百科：王忬](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BF%AC)
 - [CBDB 中国历代人物传记资料库：王世懋（34719）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34719&o=json)
 - [CBDB 中国历代人物传记资料库：王世貞（34717）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34717&o=json)
 - [CBDB 中国历代人物传记资料库：王忬（309375）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309375&o=json)

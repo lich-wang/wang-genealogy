@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 郑𫝬，唐人物。CBDB 记录其籍贯记录为河南。中国历代人物传记资料库（CBDB）以人物编号 145488 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 郑𫝬（766—814），唐人物。籍贯洛陽。（中国历代人物传记资料库 CBDB 145488）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
         - id: cs_ChxVdt_Au-hoy4OCc5b5Sa
           claim_id: c_TnF2D8ac6tJQWn3WnmGc47
@@ -204,7 +204,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 郑𫝬，唐人物。CBDB 记录其籍贯记录为河南。中国历代人物传记资料库（CBDB）以人物编号 145488 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 郑𫝬（766—814），唐人物。籍贯洛陽。（中国历代人物传记资料库 CBDB 145488） | accepted |
 | name.primary | 郑𫝬 | accepted |
 
 ## 关联关系

@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 吴氏，王士昌妻。维基数据以独立条目 Q65833363 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 吴氏，明人物。萬曆丙戌科進士進士。（中国历代人物传记资料库 CBDB 229790）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_Fpc7rnwzsvIAn8CTWeZSm3
+        - id: cs_diuM3BLxiqIDle0Z6Du7G9
           claim_id: c_SgOXV9ntOFioFkD7iefas5
-          source_id: s_5hNJBSQqRZAFYqPJdrg7y8
+          source_id: s_gTbfSgeY7M4hDzwgyfS8g8
           stance: supports
-          locator: Q65833363
+          locator: CBDB:229790
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_5hNJBSQqRZAFYqPJdrg7y8
+            id: s_gTbfSgeY7M4hDzwgyfS8g8
             source_type: api_record
-            title: 维基数据：吴氏（Q65833363）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：吳氏（229790）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65833363
-            external_identifier: Q65833363
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:07:06.713Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229790&o=json
+            external_identifier: CBDB:229790
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:07:06.872Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,18 +69,7 @@ properties:
           locator: Q65833363
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_gTbfSgeY7M4hDzwgyfS8g8
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：吳氏（229790）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229790&o=json
-            external_identifier: CBDB:229790
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:07:06.872Z
-            metadata_json: null
+          source: *a1
         - id: cs_kX5iEUUdDd9LeNqZmXd1wh
           claim_id: c_v7AFHmgs6vMwyJku4Xz1fq
           source_id: s_5hNJBSQqRZAFYqPJdrg7y8
@@ -88,7 +77,18 @@ properties:
           locator: Q65833363
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_5hNJBSQqRZAFYqPJdrg7y8
+            source_type: api_record
+            title: 维基数据：吴氏（Q65833363）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65833363
+            external_identifier: Q65833363
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:07:06.713Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -137,7 +137,7 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: *a2
         - id: cs_vxHwadvZFMAELH4T4rSAK5
           claim_id: c_SrXwn6FLJQU5NtEibtTJY9
           source_id: s_QDf5bGrRNUHiV2PX3ECFrx
@@ -182,7 +182,7 @@ relationships:
           locator: 萬曆丙戌科進士同年總錄，第三甲第一百九十九名：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_2upGeiN52eY6RGi8eXqg1R
         status: active
@@ -201,7 +201,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 吴氏，王士昌妻。维基数据以独立条目 Q65833363 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 吴氏，明人物。萬曆丙戌科進士進士。（中国历代人物传记资料库 CBDB 229790） | accepted |
 | name.primary | 吴氏 | accepted |
 
 ## 关联关系

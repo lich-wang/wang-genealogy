@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王与胤（1589年—1644年），明人物。CBDB 记录其籍贯记录为新城，身份包括死國難，曾任廵按監察御史、茶馬御史。中国历代人物传记资料库（CBDB）以人物编号 61087 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王与胤（1589年—1644年），明人物。籍贯新城，身份为死國難，曾任廵按監察御史、茶馬御史。（中国历代人物传记资料库 CBDB 61087）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_tPdDLUC4XVwY85X1xJ8uks
           claim_id: c_cRED9Fhb7uVEJ1syaVfSnA
@@ -274,7 +274,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王与胤（1589年—1644年），明人物。CBDB 记录其籍贯记录为新城，身份包括死國難，曾任廵按監察御史、茶馬御史。中国历代人物传记资料库（CBDB）以人物编号 61087 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王与胤（1589年—1644年），明人物。籍贯新城，身份为死國難，曾任廵按監察御史、茶馬御史。（中国历代人物传记资料库 CBDB 61087） | accepted |
 | birth.date | 1589年 | accepted |
 | death.date | 1644年 | accepted |
 | name.primary | 王与胤 | accepted |

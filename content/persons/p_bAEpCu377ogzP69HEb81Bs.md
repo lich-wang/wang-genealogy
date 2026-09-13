@@ -18,32 +18,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王超，北宋時期將領。维基数据以独立条目 Q16077506 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王超（951年—1012年），趙州人、北宋时期将领，身長七尺。
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_CFGwdovhG418avZRHVFBCu
+        - id: cs_o0Oag6wMhlDkY-X8GaZO-1
           claim_id: c_bQTWTPAznog4kpWAfuxTKL
-          source_id: s_zDkWjZZtLbX6M9LxBcAf7Z
+          source_id: s_BGjyO4tTh0t7aVJB0UvOLR
           stance: supports
-          locator: Q16077506
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
-          source: &a1
-            id: s_zDkWjZZtLbX6M9LxBcAf7Z
-            source_type: api_record
-            title: 维基数据：王超（Q16077506）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王超（951年—1012年），趙州人、北宋时期将领，身長七尺。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_BGjyO4tTh0t7aVJB0UvOLR
+            source_type: website
+            title: 中文维基百科：王超 (北宋)
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q16077506
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%B6%85_(%E5%8C%97%E5%AE%8B)
             external_identifier: Q16077506
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:58:55.754Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%B6%85_(%E5%8C%97%E5%AE%8B)
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -89,7 +88,19 @@ properties:
           locator: Q16077506
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a1
+            id: s_zDkWjZZtLbX6M9LxBcAf7Z
+            source_type: api_record
+            title: 维基数据：王超（Q16077506）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16077506
+            external_identifier: Q16077506
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:58:55.754Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%B6%85_(%E5%8C%97%E5%AE%8B)
       object_person: null
     alternatives: []
 relationships:
@@ -288,7 +299,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王超，北宋時期將領。维基数据以独立条目 Q16077506 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王超（951年—1012年），趙州人、北宋时期将领，身長七尺。 | accepted |
 | name.primary | 王超 | accepted |
 
 ## 关联关系
@@ -305,5 +316,6 @@ relationships:
 - [维基数据：王德用（Q10414172）](https://www.wikidata.org/wiki/Q10414172)
 - [维基数据：王玄（Q45401566）](https://www.wikidata.org/wiki/Q45401566)
 - [中国历代人物传记资料库：王方（CBDB 21948）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21948&o=json)
+- [中文维基百科：王超 (北宋)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%B6%85_(%E5%8C%97%E5%AE%8B))
 - [CBDB 中国历代人物传记资料库：王超（7077）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7077&o=json)
 - [CBDB 中国历代人物传记资料库：王玄（21949）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21949&o=json)

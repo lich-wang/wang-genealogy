@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王世安，宋人物。CBDB 记录其籍贯记录为海北州，曾任尚書左僕射、尚書左右丞。中国历代人物传记资料库（CBDB）以人物编号 17756 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王世安，宋人物。籍贯洛陽，曾任尚書左僕射、尚書左右丞、閤門通事舍人。（中国历代人物传记资料库 CBDB 17756）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_C2HeGKrfDDskYDidCqSbzb
           claim_id: c_8TtGTxxgNyCAonLmBgxAHJ
@@ -247,7 +247,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王世安，宋人物。CBDB 记录其籍贯记录为海北州，曾任尚書左僕射、尚書左右丞。中国历代人物传记资料库（CBDB）以人物编号 17756 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王世安，宋人物。籍贯洛陽，曾任尚書左僕射、尚書左右丞、閤門通事舍人。（中国历代人物传记资料库 CBDB 17756） | accepted |
 | name.primary | 王世安 | accepted |
 
 ## 关联关系

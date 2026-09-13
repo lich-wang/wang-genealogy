@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王娡（前172年—前125年），史料所见人物。本项目依据《孝景王皇后》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王娡：孝景皇后王娡（zhì）（前2世纪—前126年6月25日），右扶风槐里人，漢景帝劉啟第二任皇后。生修成君金俗、平阳公主、汉武帝刘彻、南宫公主、隆虑公主。 她的事迹主要出自《史记》和《汉书》，但未提及她的名字。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_uDwDteniijSg0qJA31KjDx
+        - id: cs_x35Iy0fXBA5kLOwx0kCWJg
           claim_id: c_3XYzvdQarZ6YJDaPs6nd1L
-          source_id: s_2cEcyZRMgcs4AGUHbs86Gz
+          source_id: s_S_-dvz1ipU6DB0Lt3bubNK
           stance: supports
-          locator: Q448012
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_2cEcyZRMgcs4AGUHbs86Gz
-            source_type: api_record
-            title: 维基数据：孝景王皇后（Q448012）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王娡：孝景皇后王娡（zhì）（前2世纪—前126年6月25日），
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_S_-dvz1ipU6DB0Lt3bubNK
+            source_type: website
+            title: 中文维基百科：孝景王皇后
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q448012
+            canonical_url: https://zh.wikipedia.org/wiki/%E5%AD%9D%E6%99%AF%E7%8E%8B%E7%9A%87%E5%90%8E
             external_identifier: Q448012
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:31:31.982Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E5%AD%9D%E6%99%AF%E7%8E%8B%E7%9A%87%E5%90%8E
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -194,7 +193,19 @@ properties:
           locator: Q448012
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_2cEcyZRMgcs4AGUHbs86Gz
+            source_type: api_record
+            title: 维基数据：孝景王皇后（Q448012）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q448012
+            external_identifier: Q448012
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T03:31:31.982Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E5%AD%9D%E6%99%AF%E7%8E%8B%E7%9A%87%E5%90%8E
       object_person: null
     alternatives: []
 relationships:
@@ -465,7 +476,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王娡（前172年—前125年），史料所见人物。本项目依据《孝景王皇后》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王娡：孝景皇后王娡（zhì）（前2世纪—前126年6月25日），右扶风槐里人，漢景帝劉啟第二任皇后。生修成君金俗、平阳公主、汉武帝刘彻、南宫公主、隆虑公主。 她的事迹主要出自《史记》和《汉书》，但未提及她的名字。 | accepted |
 | birth.date | 前172年 | accepted |
 | death.date | 前125年 | accepted |
 | name.alias | 孝景王皇后 | accepted |

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王略，唐人物。CBDB 记录其籍贯记录为河南府，曾任縣令。中国历代人物传记资料库（CBDB）以人物编号 158876 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王略，唐人物。籍贯晉陽，曾任縣令。（中国历代人物传记资料库 CBDB 158876）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_F2X3ePEmzmMg68UbJarBAR
           claim_id: c_rY6BPM74D3gDz4A3KA1fBt
@@ -505,7 +505,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王略，唐人物。CBDB 记录其籍贯记录为河南府，曾任縣令。中国历代人物传记资料库（CBDB）以人物编号 158876 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王略，唐人物。籍贯晉陽，曾任縣令。（中国历代人物传记资料库 CBDB 158876） | accepted |
 | name.primary | 王略 | accepted |
 
 ## 关联关系

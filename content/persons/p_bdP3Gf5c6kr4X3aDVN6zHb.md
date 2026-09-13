@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王应奎（1684年—1760年），清朝中期詩人、散文家。维基数据以独立条目 Q16077487 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王应奎（1684年—1760年），清朝中期詩人、散文家。维基数据以独立条目 Q16077487 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_kLIsUPrsojAJEhTL_llQxk
           claim_id: c_LKpU6F5zUc2eypAK9EKeXn
@@ -174,7 +174,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王应奎（1684年—1760年），清朝中期詩人、散文家。维基数据以独立条目 Q16077487 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王应奎（1684年—1760年），清朝中期詩人、散文家。维基数据以独立条目 Q16077487 收录该人物。 | accepted |
 | birth.date | 1684年 | accepted |
 | death.date | 1760年 | accepted |
 | name.primary | 王应奎 | accepted |

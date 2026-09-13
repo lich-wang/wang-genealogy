@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王世伦（卒于1036年），宋人物。CBDB 记录其籍贯记录为江都。中国历代人物传记资料库（CBDB）以人物编号 22201 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王世伦（卒于1036年），宋人物。籍贯江都。（中国历代人物传记资料库 CBDB 22201）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_jS1ZxGkd7hcuQiiHJCz6CE
           claim_id: c_mACCgr1ApMBYDD3xTfh1Ft
@@ -360,7 +360,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王世伦（卒于1036年），宋人物。CBDB 记录其籍贯记录为江都。中国历代人物传记资料库（CBDB）以人物编号 22201 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王世伦（卒于1036年），宋人物。籍贯江都。（中国历代人物传记资料库 CBDB 22201） | accepted |
 | death.date | 1036年 | accepted |
 | name.primary | 王世伦 | accepted |
 

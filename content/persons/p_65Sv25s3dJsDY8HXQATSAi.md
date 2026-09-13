@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王洛客（653年—712年），唐人物。CBDB 记录其籍贯记录为河南府，曾任監察御史、上柱國。中国历代人物传记资料库（CBDB）以人物编号 146283 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王洛客（653年—712年），唐人物。籍贯河南府，曾任監察御史、上柱國、著作郎。（中国历代人物传记资料库 CBDB 146283）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_2uAqzCoWUXomGoRrGZm9fd
           claim_id: c_t9fm1rM2vJULFJ6TFnw2JF
@@ -400,7 +400,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王洛客（653年—712年），唐人物。CBDB 记录其籍贯记录为河南府，曾任監察御史、上柱國。中国历代人物传记资料库（CBDB）以人物编号 146283 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王洛客（653年—712年），唐人物。籍贯河南府，曾任監察御史、上柱國、著作郎。（中国历代人物传记资料库 CBDB 146283） | accepted |
 | birth.date | 653年 | accepted |
 | death.date | 712年 | accepted |
 | name.primary | 王洛客 | accepted |

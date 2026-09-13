@@ -17,19 +17,19 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王遐，史料所见人物。本项目依据《王簡姬》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王遐：王简姬（？—？），太原郡晋阳县（今山西省太原市）人，光祿勳王遐之女。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
         - id: cs_IFplTx-GKgtIb_bMarBnE_
           claim_id: c_SebIa3tjbEIKxY7BlogF2B
           source_id: s_knBCwsmEyoBkdNf4Utu8A8
           stance: supports
-          locator: null
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          locator: 导言
+          quotation: 王遐：王简姬（？—？），太原郡晋阳县（今山西省太原市）人，光祿勳
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
           source: &a1
             id: s_knBCwsmEyoBkdNf4Utu8A8
             source_type: website
@@ -146,7 +146,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王遐，史料所见人物。本项目依据《王簡姬》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王遐：王简姬（？—？），太原郡晋阳县（今山西省太原市）人，光祿勳王遐之女。 | accepted |
 | name.primary | 王遐 | accepted |
 
 ## 关联关系

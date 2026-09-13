@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王理，明人物。CBDB 记录其曾任監察御史、知縣。中国历代人物传记资料库（CBDB）以人物编号 232113 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王理，明人物。曾任監察御史、知縣。（中国历代人物传记资料库 CBDB 232113）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_Vx42eZQLghfswX17ENX6yC
           claim_id: c_Wbrdb4aLeuNGfgCdkcQoAL
@@ -272,7 +272,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王理，明人物。CBDB 记录其曾任監察御史、知縣。中国历代人物传记资料库（CBDB）以人物编号 232113 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王理，明人物。曾任監察御史、知縣。（中国历代人物传记资料库 CBDB 232113） | accepted |
 | name.primary | 王理 | accepted |
 
 ## 关联关系

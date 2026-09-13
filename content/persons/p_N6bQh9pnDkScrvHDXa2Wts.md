@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王信，唐人物。CBDB 记录其籍贯记录为絳州，曾任著作佐郎。中国历代人物传记资料库（CBDB）以人物编号 150135 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王信，唐人物。籍贯合宮，曾任著作佐郎。（中国历代人物传记资料库 CBDB 150135）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_PGC8uvTNjTvEJ3o8gwo26t
           claim_id: c_6JZoqQsu3ZvCQAtH3a3AFH
@@ -387,7 +387,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王信，唐人物。CBDB 记录其籍贯记录为絳州，曾任著作佐郎。中国历代人物传记资料库（CBDB）以人物编号 150135 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王信，唐人物。籍贯合宮，曾任著作佐郎。（中国历代人物传记资料库 CBDB 150135） | accepted |
 | name.primary | 王信 | accepted |
 
 ## 关联关系

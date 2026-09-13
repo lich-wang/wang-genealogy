@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王彬（278年—336年），史料所见人物。本项目依据《王彬》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
-          language: zh-Hans
+          text: 王彬（278年—336年），字世儒，琅琊臨沂（今山東臨沂）人。晉朝官員，東晉初年權臣王敦和王導的堂弟，荊州刺史王廙的弟弟。父亲是王正，祖父是王览。长兄王曠。
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_PJPgkNxD71qHY0kUYdcjdb
+        - id: cs_HDLodE-03H4ef3r9qsUk5M
           claim_id: c_8aRPYKNcpF4YUU4d8f7ckp
-          source_id: s_MSLWTYMMo3HjJXeTvwXQCJ
+          source_id: s_CDay8ld6vUO2YhuUaZ4fFj
           stance: supports
-          locator: Q15909509
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_MSLWTYMMo3HjJXeTvwXQCJ
-            source_type: api_record
-            title: 维基数据：王彬（Q15909509）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王彬（278年—336年），字世儒，琅琊臨沂（今山東臨沂）人。晉
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_CDay8ld6vUO2YhuUaZ4fFj
+            source_type: website
+            title: 中文维基百科：王彬 (晋朝)
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q15909509
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BD%AC_(%E6%99%8B%E6%9C%9D)
             external_identifier: Q15909509
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T02:48:49.429Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BD%AC_(%E6%99%8B%E6%9C%9D)
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -155,7 +154,19 @@ properties:
           locator: Q15909509
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_MSLWTYMMo3HjJXeTvwXQCJ
+            source_type: api_record
+            title: 维基数据：王彬（Q15909509）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q15909509
+            external_identifier: Q15909509
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:48:49.429Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BD%AC_(%E6%99%8B%E6%9C%9D)
       object_person: null
     alternatives: []
 relationships:
@@ -540,7 +551,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王彬（278年—336年），史料所见人物。本项目依据《王彬》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王彬（278年—336年），字世儒，琅琊臨沂（今山東臨沂）人。晉朝官員，東晉初年權臣王敦和王導的堂弟，荊州刺史王廙的弟弟。父亲是王正，祖父是王览。长兄王曠。 | accepted |
 | birth.date | 278年 | accepted |
 | death.date | 336年 | accepted |
 | name.primary | 王彬 | accepted |
@@ -562,5 +573,6 @@ relationships:
 - [维基数据：王興之（Q15935307）](https://www.wikidata.org/wiki/Q15935307)
 - [維基數據：王正（Q22814789）](https://www.wikidata.org/wiki/Q22814789)
 - [中文维基百科：琅邪王氏](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F)
+- [中文维基百科：王彬 (晋朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BD%AC_(%E6%99%8B%E6%9C%9D))
 - [中文维基百科：王興之](https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%88%88%E4%B9%8B)
 - [中文维基文库：新唐書/卷072中](https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7072%E4%B8%AD)

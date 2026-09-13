@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王穆，东晋大臣。维基数据以独立条目 Q16906171 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王穆，东晋大臣。维基数据以独立条目 Q16906171 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_tbvq9rDBMcXFZJhlsHKiU8
           claim_id: c_HMJS7Cy6K1ivAvAgDYKnV9
@@ -609,7 +609,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王穆，东晋大臣。维基数据以独立条目 Q16906171 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王穆，东晋大臣。维基数据以独立条目 Q16906171 收录该人物。 | accepted |
 | historical.period | 东晋 | accepted |
 | name.primary | 王穆 | accepted |
 

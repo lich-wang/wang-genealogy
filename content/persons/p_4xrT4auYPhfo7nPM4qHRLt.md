@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 吴氏，王安石妻。维基数据以独立条目 Q45429732 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 吴氏，宋人物。曾任國夫人。（中国历代人物传记资料库 CBDB 38653）
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_9S8Cj1jBFcjzTUCE0Tt5cq
+        - id: cs_Ax_uyjymgjQtnx53MR-LGw
           claim_id: c_u1NPMUCHfw1c6fdYZ8kPM3
-          source_id: s_oJR9fF5Z8BvPZJNP7SLAtc
+          source_id: s_RbaW1YdkRtPWeAGfeiozBb
           stance: supports
-          locator: Q45429732
+          locator: CBDB:38653
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_oJR9fF5Z8BvPZJNP7SLAtc
+            id: s_RbaW1YdkRtPWeAGfeiozBb
             source_type: api_record
-            title: 维基数据：吴氏（Q45429732）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：吳氏（38653）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45429732
-            external_identifier: Q45429732
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T02:49:29.511Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38653&o=json
+            external_identifier: CBDB:38653
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T02:49:29.644Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,7 +69,18 @@ properties:
           locator: Q45429732
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_oJR9fF5Z8BvPZJNP7SLAtc
+            source_type: api_record
+            title: 维基数据：吴氏（Q45429732）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45429732
+            external_identifier: Q45429732
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:49:29.511Z
+            metadata_json: null
         - id: cs_e8a4cFqN5moYKWd4dZU4U5
           claim_id: c_R9Zt2EopDqm8BkVMe86yfN
           source_id: s_RbaW1YdkRtPWeAGfeiozBb
@@ -77,18 +88,7 @@ properties:
           locator: Q45429732
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_RbaW1YdkRtPWeAGfeiozBb
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：吳氏（38653）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38653&o=json
-            external_identifier: CBDB:38653
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-08-24T02:49:29.644Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -114,7 +114,7 @@ relationships:
           locator: 宋人傳記資料索引(電子版)：子
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_xx9vuxYeyGz3S9KNvmjGws
         status: active
@@ -268,7 +268,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 吴氏，王安石妻。维基数据以独立条目 Q45429732 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 吴氏，宋人物。曾任國夫人。（中国历代人物传记资料库 CBDB 38653） | accepted |
 | name.primary | 吴氏 | accepted |
 
 ## 关联关系

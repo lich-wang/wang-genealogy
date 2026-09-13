@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王缋（卒于672年），唐人物。CBDB 记录其籍贯记录为京兆府，曾任王府法曹參軍。中国历代人物传记资料库（CBDB）以人物编号 175448 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王缋（卒于672年），唐人物。籍贯臨沂，曾任王府法曹參軍。（中国历代人物传记资料库 CBDB 175448）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_t8oSzYR6X2C1pvDCkX9H9p
           claim_id: c_1EY8WpFEhkfeSkhDGAuacC
@@ -360,7 +360,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王缋（卒于672年），唐人物。CBDB 记录其籍贯记录为京兆府，曾任王府法曹參軍。中国历代人物传记资料库（CBDB）以人物编号 175448 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王缋（卒于672年），唐人物。籍贯臨沂，曾任王府法曹參軍。（中国历代人物传记资料库 CBDB 175448） | accepted |
 | death.date | 672年 | accepted |
 | name.primary | 王缋 | accepted |
 

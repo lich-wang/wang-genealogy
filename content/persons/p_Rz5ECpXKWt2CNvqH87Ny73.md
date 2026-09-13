@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王傑 (北周)（515年—579年），中国古代历史人物。维基数据以独立条目 Q11572910 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王傑 (北周)（515年—579年），中国古代历史人物。维基数据以独立条目 Q11572910 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_wbWOhdCfvU9Y92_dspTy0n
           claim_id: c_sdw7zAy8UEcSGv2MoSvBvf
@@ -174,7 +174,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王傑 (北周)（515年—579年），中国古代历史人物。维基数据以独立条目 Q11572910 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王傑 (北周)（515年—579年），中国古代历史人物。维基数据以独立条目 Q11572910 收录该人物。 | accepted |
 | birth.date | 515年 | accepted |
 | death.date | 579年 | accepted |
 | name.primary | 王傑 (北周) | accepted |

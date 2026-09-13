@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王纲（卒于894年），唐人物。CBDB 记录其籍贯记录为京兆府。中国历代人物传记资料库（CBDB）以人物编号 175422 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王纲（卒于894年），唐人物。籍贯臨沂。（中国历代人物传记资料库 CBDB 175422）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_H2FCM8NUeL7ky26rQ2uKwm
           claim_id: c_ssGbXV7p6LHmN53DESLTFX
@@ -265,7 +265,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王纲（卒于894年），唐人物。CBDB 记录其籍贯记录为京兆府。中国历代人物传记资料库（CBDB）以人物编号 175422 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王纲（卒于894年），唐人物。籍贯臨沂。（中国历代人物传记资料库 CBDB 175422） | accepted |
 | death.date | 894年 | accepted |
 | name.primary | 王纲 | accepted |
 

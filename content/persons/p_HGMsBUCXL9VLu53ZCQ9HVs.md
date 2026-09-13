@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王恭玮（1920年—1942年4月17日），史料所见人物。本项目依据《王恭玮》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王恭玮（1920年—1942年4月17日†），中华民国大陆时期外交官，外交家王正廷第六子。因抗日战争殉职而闻名。二战中国“抗日外交九烈士”之一。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_eFEBk_iyEdbc8fKId3dUKO
+        - id: cs_GkBkLgS_m48l3cZyjQAuzC
           claim_id: c_rDgNDAK7KcE0uOY9DLSTwJ
-          source_id: s_GhqQyCpS37UyGohQP48oKt
+          source_id: s_u-xDCgx5GIalhWJ4pu7M1V
           stance: supports
-          locator: Q18654595
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_GhqQyCpS37UyGohQP48oKt
-            source_type: api_record
-            title: 维基数据：王恭玮（Q18654595）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 王恭玮（1920年—1942年4月17日†），中华民国大陆时期外
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_u-xDCgx5GIalhWJ4pu7M1V
+            source_type: website
+            title: 中文维基百科：王恭玮
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q18654595
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%AD%E7%8E%AE
             external_identifier: Q18654595
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T08:06:50.055Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%AD%E7%8E%AE
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -69,7 +68,19 @@ properties:
           locator: Q18654595
           quotation: null
           interpretation_note: 导入亲属人物姓名
-          source: *a1
+          source: &a1
+            id: s_GhqQyCpS37UyGohQP48oKt
+            source_type: api_record
+            title: 维基数据：王恭玮（Q18654595）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q18654595
+            external_identifier: Q18654595
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T08:06:50.055Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%AD%E7%8E%AE
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -193,7 +204,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王恭玮（1920年—1942年4月17日），史料所见人物。本项目依据《王恭玮》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王恭玮（1920年—1942年4月17日†），中华民国大陆时期外交官，外交家王正廷第六子。因抗日战争殉职而闻名。二战中国“抗日外交九烈士”之一。 | accepted |
 | name.primary | 王恭玮 | accepted |
 | birth.date | 1920年 | accepted |
 | death.date | 1942年4月17日 | accepted |
@@ -208,3 +219,4 @@ relationships:
 
 - [维基数据：王恭玮（Q18654595）](https://www.wikidata.org/wiki/Q18654595)
 - [维基数据：王正廷（Q6127766）](https://www.wikidata.org/wiki/Q6127766)
+- [中文维基百科：王恭玮](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%AD%E7%8E%AE)

@@ -17,11 +17,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王曇首（394年—430年），中国古代历史人物。维基数据以独立条目 Q11573106 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王曇首（394年—430年），中国古代历史人物。维基数据以独立条目 Q11573106 收录该人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
         - id: cs_D-f9bGhn1KAyVgPnugAU2k
           claim_id: c_fohUn5X5B6kDw3RQEhsGJ6
@@ -446,7 +446,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王曇首（394年—430年），中国古代历史人物。维基数据以独立条目 Q11573106 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王曇首（394年—430年），中国古代历史人物。维基数据以独立条目 Q11573106 收录该人物。 | accepted |
 | birth.date | 394年 | accepted |
 | death.date | 430年 | accepted |
 | name.primary | 王曇首 | accepted |

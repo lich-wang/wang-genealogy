@@ -18,20 +18,20 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王贞淑，明人物。中国历代人物传记资料库（CBDB）以人物编号 123026 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王贞淑，史料所见人物。本项目依据《王贞淑》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_Qc6xajKpjADG26QC6ufD7Y
+        - id: cs_DXEWGNm3HVvb8hAgPmj21-
           claim_id: c_4Vdwx8EjZbGF2A75rDNFV5
           source_id: s_GWy8NVeiDkvyLN5b6N5CTi
           stance: supports
-          locator: null
+          locator: Q45662658
           quotation: null
-          interpretation_note: null
-          source: &a2
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
+          source: &a1
             id: s_GWy8NVeiDkvyLN5b6N5CTi
             source_type: api_record
             title: 维基数据：王贞淑（Q45662658）
@@ -42,25 +42,6 @@ properties:
             external_identifier: Q45662658
             license_code: CC0-1.0
             accessed_at: 2026-09-05T02:00:12.194Z
-            metadata_json: null
-        - id: cs_CLYph4retDRLjtOMucDkuA
-          claim_id: c_4Vdwx8EjZbGF2A75rDNFV5
-          source_id: s_4W7zpJ6YbUVPw2Mp3oSU2f
-          stance: supports
-          locator: CBDB:123026
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
-          source: &a1
-            id: s_4W7zpJ6YbUVPw2Mp3oSU2f
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：王貞淑（123026）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123026&o=json
-            external_identifier: CBDB:123026
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T02:00:12.336Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -88,7 +69,18 @@ properties:
           locator: Q45662658
           quotation: null
           interpretation_note: null
-          source: *a1
+          source: &a2
+            id: s_4W7zpJ6YbUVPw2Mp3oSU2f
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：王貞淑（123026）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=123026&o=json
+            external_identifier: CBDB:123026
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T02:00:12.336Z
+            metadata_json: null
         - id: cs_htV9W819TUkkyCVjeb5iPY
           claim_id: c_GED9rocaoWDsByySGVV1gr
           source_id: s_GWy8NVeiDkvyLN5b6N5CTi
@@ -96,18 +88,7 @@ properties:
           locator: Q45662658
           quotation: null
           interpretation_note: null
-          source:
-            id: s_GWy8NVeiDkvyLN5b6N5CTi
-            source_type: api_record
-            title: 维基数据：王贞淑（Q45662658）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
-            published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q45662658
-            external_identifier: Q45662658
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T02:00:12.194Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -211,7 +192,18 @@ relationships:
           locator: P26（配偶）
           quotation: null
           interpretation_note: null
-          source: *a2
+          source:
+            id: s_GWy8NVeiDkvyLN5b6N5CTi
+            source_type: api_record
+            title: 维基数据：王贞淑（Q45662658）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q45662658
+            external_identifier: Q45662658
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T02:00:12.194Z
+            metadata_json: null
         - id: cs_XHw2TtnH4xpwJvAPgvSAqf
           claim_id: c_H49E6DVD6gTLKCi4zS6Z7i
           source_id: s_9X78QxJNPvr6JG9B2uhHfj
@@ -238,7 +230,7 @@ relationships:
           locator: 亲属关系：丈夫
           quotation: null
           interpretation_note: CBDB 注明此条来源：明清婦女著作數據庫
-          source: *a1
+          source: *a2
       object_person:
         id: p_uMPMUBWKq1jiRk6LFHTei1
         status: active
@@ -294,7 +286,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王贞淑，明人物。中国历代人物传记资料库（CBDB）以人物编号 123026 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王贞淑，史料所见人物。本项目依据《王贞淑》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
 | name.primary | 王贞淑 | accepted |
 
 ## 关联关系

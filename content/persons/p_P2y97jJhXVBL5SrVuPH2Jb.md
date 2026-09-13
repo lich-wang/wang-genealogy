@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王逵，明人物。CBDB 记录其籍贯记录为吳縣，身份包括地方士人/鄉紳，入仕记录为封贈。中国历代人物传记资料库（CBDB）以人物编号 34583 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王逵，明人物。籍贯吳縣，身份为地方士人/鄉紳，入仕封贈。（中国历代人物传记资料库 CBDB 34583）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_yWTWGc5vmNtQ5jc4uUqqm3
           claim_id: c_F3W4DVdxt6JQYYre2HwPBH
@@ -227,7 +227,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王逵，明人物。CBDB 记录其籍贯记录为吳縣，身份包括地方士人/鄉紳，入仕记录为封贈。中国历代人物传记资料库（CBDB）以人物编号 34583 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王逵，明人物。籍贯吳縣，身份为地方士人/鄉紳，入仕封贈。（中国历代人物传记资料库 CBDB 34583） | accepted |
 | name.primary | 王逵 | accepted |
 
 ## 关联关系

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王豫，宋人物。CBDB 记录其籍贯记录为館陶，身份包括經學家—易經，曾任大理寺丞。中国历代人物传记资料库（CBDB）以人物编号 3996 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王豫，宋人物。籍贯館陶，身份为經學家—易經，曾任大理寺丞。（中国历代人物传记资料库 CBDB 3996）
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_U9g7K9WVmauEnAVpHn4whZ
           claim_id: c_rjrc9EZ3LMjdYP8zHvG7JC
@@ -204,7 +204,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王豫，宋人物。CBDB 记录其籍贯记录为館陶，身份包括經學家—易經，曾任大理寺丞。中国历代人物传记资料库（CBDB）以人物编号 3996 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王豫，宋人物。籍贯館陶，身份为經學家—易經，曾任大理寺丞。（中国历代人物传记资料库 CBDB 3996） | accepted |
 | name.primary | 王豫 | accepted |
 
 ## 关联关系

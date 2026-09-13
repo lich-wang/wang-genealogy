@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王安（生于前1世纪），新迁王。维基数据以独立条目 Q16077230 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王安（前1世纪—21年），汉朝外戚，王莽的三子，母亲是王莽的正妻王氏，东平陵（今山东济南东）人。 公元4年，王安被封为褒新侯，9年，新朝建立，因为王安恍惚糊涂，王莽立四子王临为太子，将王安封为新嘉辟。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 7
+        current_revision: 8
       sources:
-        - id: cs_vhdJsj0mQWZIF3tIjWCo68
+        - id: cs_SSGx8awzp2Z22h0eubtrht
           claim_id: c_Q7oTE7osdewWRK54TichJB
-          source_id: s_GDyyZ7HwY2KheG7HfWnc6S
+          source_id: s_yOCLSpbERijbFpPkKZ8OnN
           stance: supports
-          locator: Q16077230
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
-          source: &a1
-            id: s_GDyyZ7HwY2KheG7HfWnc6S
-            source_type: api_record
-            title: 維基數據：王安（Q16077230）
-            creator: 維基數據貢獻者
+          locator: 导言
+          quotation: 王安（前1世纪—21年），汉朝外戚，王莽的三子，母亲是王莽的正妻
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_yOCLSpbERijbFpPkKZ8OnN
+            source_type: website
+            title: 中文维基百科：王安 (新朝)
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q16077230
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%89_(%E6%96%B0%E6%9C%9D)
             external_identifier: Q16077230
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T02:10:41.286Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%89_(%E6%96%B0%E6%9C%9D)
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -112,7 +111,19 @@ properties:
           locator: Q16077230
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_GDyyZ7HwY2KheG7HfWnc6S
+            source_type: api_record
+            title: 維基數據：王安（Q16077230）
+            creator: 維基數據貢獻者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q16077230
+            external_identifier: Q16077230
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:10:41.286Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%89_(%E6%96%B0%E6%9C%9D)
       object_person: null
     alternatives: []
 relationships:
@@ -267,7 +278,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王安（生于前1世纪），新迁王。维基数据以独立条目 Q16077230 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王安（前1世纪—21年），汉朝外戚，王莽的三子，母亲是王莽的正妻王氏，东平陵（今山东济南东）人。 公元4年，王安被封为褒新侯，9年，新朝建立，因为王安恍惚糊涂，王莽立四子王临为太子，将王安封为新嘉辟。 | accepted |
 | birth.date | 前1世纪 | accepted |
 | name.primary | 王安 | accepted |
 

@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王正国（卒于1601年），明人物。CBDB 记录其籍贯记录为宜陽，入仕记录为科舉: 進士(籠統)，曾任兵科右給事中、大理寺左少卿。中国历代人物传记资料库（CBDB）以人物编号 68263 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王正国（卒于1601年），明人物。明清進士進士，籍贯宜陽，入仕進士，曾任兵科右給事中、大理寺左少卿、讀卷官。（中国历代人物传记资料库 CBDB 68263）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_k1yARrKEiKCZRNqG3xJXAr
           claim_id: c_ujifhKr5biTLMJeSaBDiBY
@@ -377,7 +377,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王正国（卒于1601年），明人物。CBDB 记录其籍贯记录为宜陽，入仕记录为科舉: 進士(籠統)，曾任兵科右給事中、大理寺左少卿。中国历代人物传记资料库（CBDB）以人物编号 68263 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王正国（卒于1601年），明人物。明清進士進士，籍贯宜陽，入仕進士，曾任兵科右給事中、大理寺左少卿、讀卷官。（中国历代人物传记资料库 CBDB 68263） | accepted |
 | death.date | 1601年 | accepted |
 | name.primary | 王正国 | accepted |
 

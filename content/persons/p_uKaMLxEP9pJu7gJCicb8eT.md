@@ -18,32 +18,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 劉奭（前74年—前32年7月6日），中国汉朝（西汉）皇帝。维基数据以独立条目 Q7232 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
-          language: zh-Hans
+          text: 劉奭：汉元帝劉奭（shì）（前75年—前33年7月8日），漢朝皇帝，其正式諡號為「孝元皇帝」，後世省略「孝」字稱「漢元帝」。汉宣帝长子，生于民间，母恭哀皇后许平君。宣帝死后继位，在位16年（前48年－前33年）。
+          language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
-        - id: cs_kf4YMbWfaxewGlYjkApYmz
+        - id: cs_6cP9Qr7qdkFqtIAhqAn5Ci
           claim_id: c_HCY42EmRsey7yKJjSTpxZa
-          source_id: s_YeMvVQSCqJeSwAtk2nP7kb
+          source_id: s_eTwIBWQ1MaVrkHxXZ0r_lA
           stance: supports
-          locator: Q7232
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
-          source: &a1
-            id: s_YeMvVQSCqJeSwAtk2nP7kb
-            source_type: api_record
-            title: 维基数据：汉元帝（Q7232）
-            creator: 维基数据贡献者
+          locator: 导言
+          quotation: 劉奭：汉元帝劉奭（shì）（前75年—前33年7月8日），漢朝皇
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
+          source:
+            id: s_eTwIBWQ1MaVrkHxXZ0r_lA
+            source_type: website
+            title: 中文维基百科：汉元帝
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q7232
+            canonical_url: https://zh.wikipedia.org/wiki/%E6%B1%89%E5%85%83%E5%B8%9D
             external_identifier: Q7232
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T02:48:36.997Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E6%B1%89%E5%85%83%E5%B8%9D
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: birth.date
@@ -195,7 +194,7 @@ properties:
           locator: Q7232
           quotation: null
           interpretation_note: null
-          source: &a2
+          source: &a1
             id: s_Qb4QPKxAESFyxeAB2NtXJm
             source_type: api_record
             title: CBDB 中国历代人物传记资料库：劉奭（135026）
@@ -253,7 +252,19 @@ properties:
           locator: Q7232
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_YeMvVQSCqJeSwAtk2nP7kb
+            source_type: api_record
+            title: 维基数据：汉元帝（Q7232）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q7232
+            external_identifier: Q7232
+            license_code: CC0-1.0
+            accessed_at: 2026-08-24T02:48:36.997Z
+            metadata_json:
+              zh_wikipedia: https://zh.wikipedia.org/wiki/%E6%B1%89%E5%85%83%E5%B8%9D
         - id: cs_mv3wmqu4Yp2FtbmBzuK9Y7
           claim_id: c_4WEzdG2fBVcTPMbrZe3BvE
           source_id: s_Qb4QPKxAESFyxeAB2NtXJm
@@ -472,7 +483,7 @@ relationships:
           locator: "明清婦女著作數據庫，MQWW PoetID #2700：妻子"
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_jbX85mkqDQkzj4JgECnsYm
         status: active
@@ -491,7 +502,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 劉奭（前74年—前32年7月6日），中国汉朝（西汉）皇帝。维基数据以独立条目 Q7232 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 劉奭：汉元帝劉奭（shì）（前75年—前33年7月8日），漢朝皇帝，其正式諡號為「孝元皇帝」，後世省略「孝」字稱「漢元帝」。汉宣帝长子，生于民间，母恭哀皇后许平君。宣帝死后继位，在位16年（前48年－前33年）。 | accepted |
 | birth.date | 前74年 | accepted |
 | death.date | 前32年7月6日 | accepted |
 | historical.period | 西汉 | accepted |
@@ -511,5 +522,6 @@ relationships:
 - [维基数据：汉元帝（Q7232）](https://www.wikidata.org/wiki/Q7232)
 - [維基數據：王政君（Q701379）](https://www.wikidata.org/wiki/Q701379)
 - [中国历代人物传记资料库：王政君（CBDB 135028）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135028&o=json)
+- [中文维基百科：汉元帝](https://zh.wikipedia.org/wiki/%E6%B1%89%E5%85%83%E5%B8%9D)
 - [中文维基百科：王政君](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%94%BF%E5%90%9B)
 - [CBDB 中国历代人物传记资料库：劉奭（135026）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135026&o=json)

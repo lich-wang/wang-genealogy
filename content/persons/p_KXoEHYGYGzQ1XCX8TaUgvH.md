@@ -17,32 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王弘，新 代官僚。维基数据以独立条目 Q2168087 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 王弘（?—?），魏郡元城（今河北大名东）人，西汉政治人物。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
-        - id: cs_XXvliQp4grd7ZPu1hPYaOZ
+        - id: cs_QVpmzcFDg8ilL4OlGELV5L
           claim_id: c_CHNTgn2rD8Sm3B5aH8J4JM
-          source_id: s_t8EeUpQe1W5PXZJpHYqA6h
+          source_id: s_etq4f81M5pUxOfzC2UyFz-
           stance: supports
-          locator: Q2168087
-          quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          locator: 导言
+          quotation: 王弘（?—?），魏郡元城（今河北大名东）人，西汉政治人物。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikipedia。
           source:
-            id: s_t8EeUpQe1W5PXZJpHYqA6h
-            source_type: api_record
-            title: 维基数据：王弘（Q2168087）
-            creator: 维基数据贡献者
+            id: s_etq4f81M5pUxOfzC2UyFz-
+            source_type: website
+            title: 中文维基百科：王弘 (西汉)
+            creator: 维基百科贡献者
             publisher: Wikimedia Foundation
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q2168087
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BC%98_(%E8%A5%BF%E6%B1%89)
             external_identifier: Q2168087
-            license_code: CC0-1.0
-            accessed_at: 2026-08-24T03:10:17.813Z
-            metadata_json:
-              zh_wikipedia: https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BC%98_(%E8%A5%BF%E6%B1%89)
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-11T10:29:31.867Z
+            metadata_json: null
       object_person: null
     alternatives: []
   - predicate: name.primary
@@ -219,7 +218,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王弘，新 代官僚。维基数据以独立条目 Q2168087 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王弘（?—?），魏郡元城（今河北大名东）人，西汉政治人物。 | accepted |
 | name.primary | 王弘 | accepted |
 
 ## 关联关系
@@ -234,3 +233,4 @@ relationships:
 - [维基数据：王贺（Q2360216）](https://www.wikidata.org/wiki/Q2360216)
 - [维基数据：王弘（Q2168087）](https://www.wikidata.org/wiki/Q2168087)
 - [维基数据：王音（Q2142877）](https://www.wikidata.org/wiki/Q2142877)
+- [中文维基百科：王弘 (西汉)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%BC%98_(%E8%A5%BF%E6%B1%89))

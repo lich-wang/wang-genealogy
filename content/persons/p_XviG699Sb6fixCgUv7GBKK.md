@@ -18,30 +18,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 霍氏，王家屏妻。维基数据以独立条目 Q65860927 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。
+          text: 霍氏，明人物。隆慶二年進士。（中国历代人物传记资料库 CBDB 333597）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
-        - id: cs_PbW5eeEkRGBewizw7GUoLD
+        - id: cs_wdKHWIiWsavTLErgWCh01H
           claim_id: c_QjU5dTsUBp3KPiFLnW8TLo
-          source_id: s_1qw6oPd83gXSfUuu5BPBbe
+          source_id: s_sFCsMMu4JKu5vJyBJtq55s
           stance: supports
-          locator: Q65860927
+          locator: CBDB:333597
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 wikidata。
+          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 cbdb。
           source: &a1
-            id: s_1qw6oPd83gXSfUuu5BPBbe
+            id: s_sFCsMMu4JKu5vJyBJtq55s
             source_type: api_record
-            title: 维基数据：霍氏（Q65860927）
-            creator: 维基数据贡献者
-            publisher: Wikimedia Foundation
+            title: CBDB 中国历代人物传记资料库：霍氏（333597）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
             published_at_text: null
-            canonical_url: https://www.wikidata.org/wiki/Q65860927
-            external_identifier: Q65860927
-            license_code: CC0-1.0
-            accessed_at: 2026-09-05T01:59:55.359Z
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333597&o=json
+            external_identifier: CBDB:333597
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-05T01:59:55.532Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -69,7 +69,18 @@ properties:
           locator: Q65860927
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_1qw6oPd83gXSfUuu5BPBbe
+            source_type: api_record
+            title: 维基数据：霍氏（Q65860927）
+            creator: 维基数据贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://www.wikidata.org/wiki/Q65860927
+            external_identifier: Q65860927
+            license_code: CC0-1.0
+            accessed_at: 2026-09-05T01:59:55.359Z
+            metadata_json: null
         - id: cs_DjHZgsG5CB5iLg9V63qtgY
           claim_id: c_uUK9xhNBu1J9iqaeZZxUvR
           source_id: s_sFCsMMu4JKu5vJyBJtq55s
@@ -77,18 +88,7 @@ properties:
           locator: Q65860927
           quotation: null
           interpretation_note: null
-          source: &a2
-            id: s_sFCsMMu4JKu5vJyBJtq55s
-            source_type: api_record
-            title: CBDB 中国历代人物传记资料库：霍氏（333597）
-            creator: China Biographical Database (CBDB)
-            publisher: Harvard University / Academia Sinica / Peking University
-            published_at_text: null
-            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333597&o=json
-            external_identifier: CBDB:333597
-            license_code: CC-BY-NC-SA-4.0
-            accessed_at: 2026-09-05T01:59:55.532Z
-            metadata_json: null
+          source: *a1
       object_person: null
     alternatives: []
 relationships:
@@ -229,7 +229,7 @@ relationships:
           locator: 隆慶二年進士登科錄:一卷，第二甲第二名：丈夫
           quotation: null
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
-          source: *a2
+          source: *a1
       object_person:
         id: p_92Q8Er9mM6EGgtSMmLeCqJ
         status: active
@@ -248,7 +248,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 霍氏，王家屏妻。维基数据以独立条目 Q65860927 收录该人物；当前资料页据此确认其身份，其他生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 霍氏，明人物。隆慶二年進士。（中国历代人物传记资料库 CBDB 333597） | accepted |
 | name.primary | 霍氏 | accepted |
 
 ## 关联关系

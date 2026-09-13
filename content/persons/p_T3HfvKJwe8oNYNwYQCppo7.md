@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: "王广心（生于1610年），清人物。CBDB 记录其籍贯记录为華亭，入仕记录为科舉: 進士(籠統)，曾任行人司行人、巡漕御史。中国历代人物传记资料库（CBDB）以人物编号 61089 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。"
+          text: 王广心（生于1610年），清人物。明清進士進士，籍贯華亭，入仕進士，曾任行人司行人、巡漕御史、主事。（中国历代人物传记资料库 CBDB 61089）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
         - id: cs_driYA1fBwZZLhQx7Gxt7fE
           claim_id: c_tgf61qsi894PBDVxG1NdPG
@@ -456,7 +456,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王广心（生于1610年），清人物。CBDB 记录其籍贯记录为華亭，入仕记录为科舉: 進士(籠統)，曾任行人司行人、巡漕御史。中国历代人物传记资料库（CBDB）以人物编号 61089 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王广心（生于1610年），清人物。明清進士進士，籍贯華亭，入仕進士，曾任行人司行人、巡漕御史、主事。（中国历代人物传记资料库 CBDB 61089） | accepted |
 | birth.date | 1610年 | accepted |
 | name.primary | 王广心 | accepted |
 

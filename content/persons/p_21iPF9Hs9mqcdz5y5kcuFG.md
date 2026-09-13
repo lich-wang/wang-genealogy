@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王星，宋人物。CBDB 记录其籍贯记录为鄞縣，身份包括早卒(未成年而卒)、未婚而卒。中国历代人物传记资料库（CBDB）以人物编号 35584 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王星，宋人物。籍贯鄞縣，身份为早卒(未成年而卒)、未婚而卒。（中国历代人物传记资料库 CBDB 35584）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_WQpDG6usk1hbCgb2yxEMCn
           claim_id: c_SGEwKUvTwX5eVrxRkj7WVN
@@ -194,7 +194,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王星，宋人物。CBDB 记录其籍贯记录为鄞縣，身份包括早卒(未成年而卒)、未婚而卒。中国历代人物传记资料库（CBDB）以人物编号 35584 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王星，宋人物。籍贯鄞縣，身份为早卒(未成年而卒)、未婚而卒。（中国历代人物传记资料库 CBDB 35584） | accepted |
 | name.primary | 王星 | accepted |
 
 ## 关联关系

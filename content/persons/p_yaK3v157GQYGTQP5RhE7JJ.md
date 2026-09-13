@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王俊卿，明人物。CBDB 记录其曾任百戶。中国历代人物传记资料库（CBDB）以人物编号 236877 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王俊卿，明人物。正統四年進士，曾任百戶。（中国历代人物传记资料库 CBDB 236877）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_Htp8d3buXBdpQx6yPycz3U
           claim_id: c_ZpEoBp23RLjBWRsk34C3G4
@@ -245,7 +245,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王俊卿，明人物。CBDB 记录其曾任百戶。中国历代人物传记资料库（CBDB）以人物编号 236877 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王俊卿，明人物。正統四年進士，曾任百戶。（中国历代人物传记资料库 CBDB 236877） | accepted |
 | name.primary | 王俊卿 | accepted |
 
 ## 关联关系

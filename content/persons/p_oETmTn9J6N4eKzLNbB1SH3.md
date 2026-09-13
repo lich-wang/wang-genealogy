@@ -18,11 +18,11 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王昶（卒于856年），唐人物。CBDB 记录其籍贯记录为咸陽，身份包括詩人，曾任太子詹事。中国历代人物传记资料库（CBDB）以人物编号 175465 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。
+          text: 王昶（卒于856年），唐人物。籍贯咸陽，身份为詩人，曾任太子詹事。（中国历代人物传记资料库 CBDB 175465）
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
         - id: cs_3SujH99D1iBKqdQJnccvbz
           claim_id: c_gTNHP4RDcM1h1i2Fe7oJR8
@@ -359,7 +359,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王昶（卒于856年），唐人物。CBDB 记录其籍贯记录为咸陽，身份包括詩人，曾任太子詹事。中国历代人物传记资料库（CBDB）以人物编号 175465 收录其独立传记记录；未列明的生平细节仍待可靠史料补充。 | accepted |
+| bio.summary | 王昶（卒于856年），唐人物。籍贯咸陽，身份为詩人，曾任太子詹事。（中国历代人物传记资料库 CBDB 175465） | accepted |
 | death.date | 856年 | accepted |
 | name.primary | 王昶 | accepted |
 
