@@ -73,11 +73,14 @@ try {
   await page
     .waitForSelector('.result-list a[href*="/persons/"]', { timeout: 15000 })
     .catch(() => {});
-  const personLink = page.locator('.result-list a[href*="/persons/"]', { hasText: '王安石' }).first();
+  const personLink = page
+    .locator('.result-list .result-main > a[href*="/persons/"]', { hasText: /^王安石$/ })
+    .first();
   if (await personLink.count()) {
     await personLink.click();
-    await page.waitForLoadState('networkidle');
-    await page.waitForFunction(() => document.body.innerText.includes('王安石'), { timeout: 15000 }).catch(() => {});
+    // SPA navigation keeps the search page text visible until the person JSON
+    // resolves, so wait for the actual person-page root rather than the name.
+    await page.waitForSelector('.person-page', { timeout: 15000 }).catch(() => {});
     const pText = await page.locator('body').innerText();
     log(pText.includes('王安石'), '人物页显示“王安石”');
     log(/规范姓名|規範姓名/.test(pText), '人物页以字段形式展示基本信息');
