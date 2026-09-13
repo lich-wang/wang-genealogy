@@ -4,7 +4,7 @@ id: p_ZCFBggnkNHAtiFjGNwBVSK
 status: active
 merged_into: null
 display_name: 王珪
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -108,7 +108,7 @@ relationships:
   ancestors:
     - claim:
         id: c_3nZvh_jBrJ3CSL3x9pNhZm
-        subject_person_id: p_94q1e1836gtMmWzZkszZK7
+        subject_person_id: p_TCJasuo9M43ytz26ea5oSn
         claim_kind: relationship
         predicate: kinship.ancestor_of
         object_person_id: p_ZCFBggnkNHAtiFjGNwBVSK
@@ -128,7 +128,7 @@ relationships:
           interpretation_note: Luna 在线复核：CBDB 底本未知，经 Wikidata 双向核对后采纳。
           source: *a1
       object_person:
-        id: p_94q1e1836gtMmWzZkszZK7
+        id: p_TCJasuo9M43ytz26ea5oSn
         status: active
         display_name: 王益
         merged_into_person_id: null
@@ -178,7 +178,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| ancestors | p_94q1e1836gtMmWzZkszZK7 | 王益 | accepted |
+| ancestors | p_TCJasuo9M43ytz26ea5oSn | 王益 | accepted |
 | descendants | p_1kmCRjxjheRUcKs82v5c1r | 王庭椿 | accepted |
 
 ## 外部来源

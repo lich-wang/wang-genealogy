@@ -4,7 +4,7 @@ id: p_3jndG2hj7kt16dVBTqH186
 status: active
 merged_into: null
 display_name: 王雱
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -325,6 +325,43 @@ relationships:
         status: active
         display_name: 王安石
         merged_into_person_id: null
+    - claim:
+        id: c_oOrBfi43cDmd7Gr5hDy-JC
+        subject_person_id: p_4xrT4auYPhfo7nPM4qHRLt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3jndG2hj7kt16dVBTqH186
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GibLDct9VPz_XCp0zVthnA
+          claim_id: c_oOrBfi43cDmd7Gr5hDy-JC
+          source_id: s_RbaW1YdkRtPWeAGfeiozBb
+          stance: supports
+          locator: 宋人傳記資料索引(電子版)：子
+          quotation: null
+          interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
+          source:
+            id: s_RbaW1YdkRtPWeAGfeiozBb
+            source_type: api_record
+            title: CBDB 中国历代人物传记资料库：吳氏（38653）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38653&o=json
+            external_identifier: CBDB:38653
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-08-24T02:49:29.644Z
+            metadata_json: null
+      object_person:
+        id: p_4xrT4auYPhfo7nPM4qHRLt
+        status: active
+        display_name: 吴氏
+        merged_into_person_id: null
   children:
     - claim:
         id: c_6JpLR5vaSs2JrbcLmBPGaB
@@ -484,6 +521,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_fuv1kE3UCBeTFNiA6c9Tuw | 王安石 | accepted |
+| parents | p_4xrT4auYPhfo7nPM4qHRLt | 吴氏 | accepted |
 | children | p_u4eFkZcAi2Wj3khZrTyMM4 | 王棣 | accepted |
 | spouses | p_mP4eY1Vv1A5GcUoNeqNM9S | 蕭氏 | accepted |
 
@@ -497,3 +535,4 @@ relationships:
 - [CBDB 中国历代人物传记资料库](https://cbdb.fas.harvard.edu)
 - [CBDB 中国历代人物传记资料库：王棣（22210）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22210&o=json)
 - [CBDB 中国历代人物传记资料库：王雱（3968）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3968&o=json)
+- [CBDB 中国历代人物传记资料库：吳氏（38653）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38653&o=json)

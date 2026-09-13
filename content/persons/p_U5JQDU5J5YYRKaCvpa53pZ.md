@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王明
 cbdb_id: 18552
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -311,7 +311,7 @@ relationships:
         subject_person_id: p_U5JQDU5J5YYRKaCvpa53pZ
         claim_kind: relationship
         predicate: kinship.ancestor_of
-        object_person_id: p_94q1e1836gtMmWzZkszZK7
+        object_person_id: p_TCJasuo9M43ytz26ea5oSn
         generation_count: 2
         parent_role: null
         value_json: null
@@ -328,7 +328,7 @@ relationships:
           interpretation_note: Luna 在线复核 CBDB 实时 API 后补全；关系端点按 CBDB ID 唯一映射。
           source: *a1
       object_person:
-        id: p_94q1e1836gtMmWzZkszZK7
+        id: p_TCJasuo9M43ytz26ea5oSn
         status: active
         display_name: 王益
         merged_into_person_id: null
@@ -352,7 +352,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_qhr63u6HvGLzGzcHEvaWtZ | 王用之 | accepted |
 | children | p_o255NHVLtnzoPr2i5G4ntm | 王贯之 | accepted |
-| descendants | p_94q1e1836gtMmWzZkszZK7 | 王益 | accepted |
+| descendants | p_TCJasuo9M43ytz26ea5oSn | 王益 | accepted |
 
 ## 外部来源
 
