@@ -4,7 +4,7 @@ id: p_9EmE8HnUzDNEFtwVVXAMQB
 status: active
 merged_into: null
 display_name: 王安道
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -55,12 +55,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王安道，史料所见人物。本项目依据《中国历代人物传记资料库：王安道（CBDB 119742）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王安道，南宋臨安人，佞幸王繼先之子，官至武泰軍承宣使（《宋史·卷四百七十·王繼先傳》：子安道，武泰軍承宣使）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
+        - id: cs_AGWLj0aKHQO1mbKGQCLSUt
+          claim_id: c_KWYD5kLAMM1jmVXzP4xjDh
+          source_id: s_X-gv7AEcUF4kEaDgqHe3wN
+          stance: supports
+          locator: 宋史/卷470·王安道
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_X-gv7AEcUF4kEaDgqHe3wN
+            source_type: website
+            title: 维基文库：宋史/卷470·王安道
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/宋史/卷470
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:19:12.294Z
+            metadata_json: null
         - id: cs_Ipj-SIxJSGtCd_jPnUZD2Y
           claim_id: c_KWYD5kLAMM1jmVXzP4xjDh
           source_id: s_BQaGAwdkqNx8YfVSS1C4GA
@@ -117,7 +136,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王安道 | accepted |
-| bio.summary | 王安道，史料所见人物。本项目依据《中国历代人物传记资料库：王安道（CBDB 119742）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王安道，南宋臨安人，佞幸王繼先之子，官至武泰軍承宣使（《宋史·卷四百七十·王繼先傳》：子安道，武泰軍承宣使）。 | accepted |
 
 ## 关联关系
 
@@ -127,4 +146,5 @@ relationships:
 
 ## 外部来源
 
+- [维基文库：宋史/卷470·王安道](https://zh.wikisource.org/wiki/宋史/卷470)
 - [中国历代人物传记资料库：王安道（CBDB 119742）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119742&o=json)

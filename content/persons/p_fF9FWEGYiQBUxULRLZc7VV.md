@@ -4,7 +4,7 @@ id: p_fF9FWEGYiQBUxULRLZc7VV
 status: active
 merged_into: null
 display_name: 王兴
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,30 +17,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王兴，史料所见人物。本项目依据《中文维基文库：晋书/卷043》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王興，西晉琅邪臨沂人，司徒王戎之子（庶出），為王戎所不齒（《晉書·卷四十三·王戎傳》：子興，戎所不齒）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_CJBO3fqNbLx4Y4HxGOaNNQ
+        - id: cs_lgL3OltjChFR7Zm6EHNCwV
           claim_id: c_-i9qTyY5BgHE3NHqzkJsYM
-          source_id: s_JD6UVYC1Xi1MZdmU6G54bf
+          source_id: s_cWKSZdaIz9IRoXlp3WAWkI
           stance: supports
-          locator: null
+          locator: 晉書/卷043·王兴
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_JD6UVYC1Xi1MZdmU6G54bf
-            source_type: book
-            title: 中文维基文库：晋书/卷043
-            creator: null
-            publisher: 维基文库
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_cWKSZdaIz9IRoXlp3WAWkI
+            source_type: website
+            title: 维基文库：晉書/卷043·王兴
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
             published_at_text: null
-            canonical_url: https://zh.wikisource.org/zh-hans/%E6%99%89%E6%9B%B8/%E5%8D%B7043
+            canonical_url: https://zh.wikisource.org/wiki/晉書/卷043
             external_identifier: null
             license_code: CC-BY-SA-4.0
-            accessed_at: 2026-09-01T00:05:58.769Z
+            accessed_at: 2026-09-14T02:19:12.294Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -68,7 +68,18 @@ properties:
           locator: CBDB:null
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_JD6UVYC1Xi1MZdmU6G54bf
+            source_type: book
+            title: 中文维基文库：晋书/卷043
+            creator: null
+            publisher: 维基文库
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/zh-hans/%E6%99%89%E6%9B%B8/%E5%8D%B7043
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-01T00:05:58.769Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -127,7 +138,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王兴，史料所见人物。本项目依据《中文维基文库：晋书/卷043》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王興，西晉琅邪臨沂人，司徒王戎之子（庶出），為王戎所不齒（《晉書·卷四十三·王戎傳》：子興，戎所不齒）。 | accepted |
 | name.primary | 王兴 | accepted |
 
 ## 关联关系
@@ -138,4 +149,5 @@ relationships:
 
 ## 外部来源
 
+- [维基文库：晉書/卷043·王兴](https://zh.wikisource.org/wiki/晉書/卷043)
 - [中文维基文库：晋书/卷043](https://zh.wikisource.org/zh-hans/%E6%99%89%E6%9B%B8/%E5%8D%B7043)

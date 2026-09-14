@@ -4,7 +4,7 @@ id: p_GBxqJxU8VyzAAjKPNqvAg5
 status: active
 merged_into: null
 display_name: 王寂
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,30 +17,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王寂，史料所见人物。本项目依据《中文维基文库：《南齐书》卷三十三》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王寂，字子玄，南朝齊琅邪臨沂人，司空王僧虔之子，性迅動，好文章（《南齊書·卷三十三·王僧虔傳》：子寂，字子玄，性迅動，好文章）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_shXjGsRRfmzXPTV27SjHwD
+        - id: cs_tlZPtHVWqRabCxZzuxYqS3
           claim_id: c_bMweAGel1EHNfqOlwUu38y
-          source_id: s_Yc4Brf3FPtoDH2p7rwr13h
+          source_id: s_UmUHWI14bLVWPl0IBMw9ZU
           stance: supports
-          locator: null
+          locator: 南齊書/卷33·王寂
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_Yc4Brf3FPtoDH2p7rwr13h
-            source_type: book
-            title: 中文维基文库：《南齐书》卷三十三
-            creator: null
-            publisher: 维基文库
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_UmUHWI14bLVWPl0IBMw9ZU
+            source_type: website
+            title: 维基文库：南齊書/卷33·王寂
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
             published_at_text: null
-            canonical_url: https://zh.wikisource.org/zh/%E5%8D%97%E9%BD%8A%E6%9B%B8/%E5%8D%B733
+            canonical_url: https://zh.wikisource.org/wiki/南齊書/卷33
             external_identifier: null
             license_code: CC-BY-SA-4.0
-            accessed_at: 2026-09-01T02:14:51.112Z
+            accessed_at: 2026-09-14T02:19:12.294Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -68,7 +68,18 @@ properties:
           locator: CBDB:null
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_Yc4Brf3FPtoDH2p7rwr13h
+            source_type: book
+            title: 中文维基文库：《南齐书》卷三十三
+            creator: null
+            publisher: 维基文库
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/zh/%E5%8D%97%E9%BD%8A%E6%9B%B8/%E5%8D%B733
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-01T02:14:51.112Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -127,7 +138,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王寂，史料所见人物。本项目依据《中文维基文库：《南齐书》卷三十三》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王寂，字子玄，南朝齊琅邪臨沂人，司空王僧虔之子，性迅動，好文章（《南齊書·卷三十三·王僧虔傳》：子寂，字子玄，性迅動，好文章）。 | accepted |
 | name.primary | 王寂 | accepted |
 
 ## 关联关系
@@ -138,4 +149,5 @@ relationships:
 
 ## 外部来源
 
+- [维基文库：南齊書/卷33·王寂](https://zh.wikisource.org/wiki/南齊書/卷33)
 - [中文维基文库：《南齐书》卷三十三](https://zh.wikisource.org/zh/%E5%8D%97%E9%BD%8A%E6%9B%B8/%E5%8D%B733)

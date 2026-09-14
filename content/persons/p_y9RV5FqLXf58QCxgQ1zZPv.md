@@ -4,7 +4,7 @@ id: p_y9RV5FqLXf58QCxgQ1zZPv
 status: active
 merged_into: null
 display_name: 王晏之
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,30 +17,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王晏之，史料所见人物。本项目依据《琅邪王氏》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王晏之，東晉琅邪臨沂人，王舒之子，蘇峻之亂時為護軍參軍，遇害（《晉書·卷七十六·王舒傳》：子晏之，蘇峻時為護軍參軍，被害）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
-        - id: cs_MVZNmC9G1TQ_YF1kdfEXPC
+        - id: cs_tDRJtZsu853ggFt55-oAdX
           claim_id: c_ChQ-YrBRSDXb4ASMWD0IdD
-          source_id: s_3Q66jhvLbAGSzPLRaQhwaV
+          source_id: s_evegpqenfps8ZxxKB_hgzY
           stance: supports
-          locator: null
+          locator: 晉書/卷076·王晏之
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_3Q66jhvLbAGSzPLRaQhwaV
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_evegpqenfps8ZxxKB_hgzY
             source_type: website
-            title: 中文维基百科：琅邪王氏
-            creator: 维基百科贡献者
-            publisher: Wikimedia Foundation
+            title: 维基文库：晉書/卷076·王晏之
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
             published_at_text: null
-            canonical_url: https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F
+            canonical_url: https://zh.wikisource.org/wiki/晉書/卷076
             external_identifier: null
             license_code: CC-BY-SA-4.0
-            accessed_at: 2026-08-24T12:07:14.478Z
+            accessed_at: 2026-09-14T02:19:12.294Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -68,7 +68,18 @@ properties:
           locator: CBDB:null
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_3Q66jhvLbAGSzPLRaQhwaV
+            source_type: website
+            title: 中文维基百科：琅邪王氏
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-08-24T12:07:14.478Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -203,7 +214,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王晏之，史料所见人物。本项目依据《琅邪王氏》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王晏之，東晉琅邪臨沂人，王舒之子，蘇峻之亂時為護軍參軍，遇害（《晉書·卷七十六·王舒傳》：子晏之，蘇峻時為護軍參軍，被害）。 | accepted |
 | name.primary | 王晏之 | accepted |
 
 ## 关联关系
@@ -214,4 +225,5 @@ relationships:
 
 ## 外部来源
 
+- [维基文库：晉書/卷076·王晏之](https://zh.wikisource.org/wiki/晉書/卷076)
 - [中文维基百科：琅邪王氏](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F)

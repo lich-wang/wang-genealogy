@@ -4,7 +4,7 @@ id: p_RCHyAEEBXGnYRgeH85Q9u7
 status: active
 merged_into: null
 display_name: 王胡之
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,12 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王胡之，史料所见人物。本项目依据《王胡之》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王胡之，字修齡，東晉琅邪臨沂人，王廙之弟，弱冠有聲譽，歷郡守、侍中、丹陽尹（《晉書·卷七十六·王廙傳》：弟胡之，字修齡，弱冠有聲譽，歷郡守、侍中、丹陽尹）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
+        - id: cs_ECjV9PHDrGwaPSLCaWkuIe
+          claim_id: c_mL9Afk3KmE5p1HvpvF6TJL
+          source_id: s_evegpqenfps8ZxxKB_hgzY
+          stance: supports
+          locator: 晉書/卷076·王胡之
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_evegpqenfps8ZxxKB_hgzY
+            source_type: website
+            title: 维基文库：晉書/卷076·王胡之
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/晉書/卷076
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:19:12.294Z
+            metadata_json: null
         - id: cs_ndjoEGGg3vuF8zf-8d1OrS
           claim_id: c_mL9Afk3KmE5p1HvpvF6TJL
           source_id: s_7wixopF9tTM3FbW5c1L2ze
@@ -416,7 +435,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王胡之，史料所见人物。本项目依据《王胡之》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王胡之，字修齡，東晉琅邪臨沂人，王廙之弟，弱冠有聲譽，歷郡守、侍中、丹陽尹（《晉書·卷七十六·王廙傳》：弟胡之，字修齡，弱冠有聲譽，歷郡守、侍中、丹陽尹）。 | accepted |
 | name.primary | 王胡之 | accepted |
 
 ## 关联关系
@@ -433,5 +452,6 @@ relationships:
 - [维基数据：王胡之（Q19825735）](https://www.wikidata.org/wiki/Q19825735)
 - [维基数据：王茂之（Q22814793）](https://www.wikidata.org/wiki/Q22814793)
 - [维基数据：王廙（Q15911516）](https://www.wikidata.org/wiki/Q15911516)
+- [维基文库：晉書/卷076·王胡之](https://zh.wikisource.org/wiki/晉書/卷076)
 - [中文维基百科：琅邪王氏](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F)
 - [中文维基百科：王和之](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%92%8C%E4%B9%8B)

@@ -4,7 +4,7 @@ id: p_LChbCBLeq9EqBGmzWw9UvF
 status: active
 merged_into: null
 display_name: 王湛
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,30 +17,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王湛，史料所见人物。本项目依据《太原王氏》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王湛，字處沖，西晉太原晉陽人，王昶之子、王渾之弟，官至汝南內史（《三國志·卷二十七·王昶傳》）；性簡素，寡嗜欲，善談《易》（《晉書·王湛傳》）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
-        - id: cs_uXiygkc3RGZ0ZfcuCwTc3J
+        - id: cs_o5kNmWfIGeQScKb31Fk4A8
           claim_id: c_7OMgqOrJDC1GvFhOdSWJVC
-          source_id: s_8v3HEWJMg8p43rd4zxNR9r
+          source_id: s_C-9WtiyqUJ1O1zND60bFmD
           stance: supports
-          locator: null
+          locator: 三國志/卷27·王湛
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_8v3HEWJMg8p43rd4zxNR9r
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_C-9WtiyqUJ1O1zND60bFmD
             source_type: website
-            title: 中文维基百科：太原王氏
-            creator: 维基百科贡献者
-            publisher: Wikimedia Foundation
+            title: 维基文库：三國志/卷27·王湛
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
             published_at_text: null
-            canonical_url: https://zh.wikipedia.org/wiki/%E5%A4%AA%E5%8E%9F%E7%8E%8B%E6%B0%8F
+            canonical_url: https://zh.wikisource.org/wiki/三國志/卷27
             external_identifier: null
             license_code: CC-BY-SA-4.0
-            accessed_at: 2026-08-24T12:07:15.556Z
+            accessed_at: 2026-09-14T02:19:12.294Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -68,7 +68,18 @@ properties:
           locator: Q15923621
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_8v3HEWJMg8p43rd4zxNR9r
+            source_type: website
+            title: 中文维基百科：太原王氏
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E5%A4%AA%E5%8E%9F%E7%8E%8B%E6%B0%8F
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-08-24T12:07:15.556Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -183,7 +194,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王湛，史料所见人物。本项目依据《太原王氏》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王湛，字處沖，西晉太原晉陽人，王昶之子、王渾之弟，官至汝南內史（《三國志·卷二十七·王昶傳》）；性簡素，寡嗜欲，善談《易》（《晉書·王湛傳》）。 | accepted |
 | name.primary | 王湛 | accepted |
 
 ## 关联关系
@@ -195,6 +206,7 @@ relationships:
 
 ## 外部来源
 
+- [维基文库：三國志/卷27·王湛](https://zh.wikisource.org/wiki/三國志/卷27)
 - [中文维基百科：太原王氏](https://zh.wikipedia.org/wiki/%E5%A4%AA%E5%8E%9F%E7%8E%8B%E6%B0%8F)
 - [中文维基文库：晉書/卷075](https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7075)
 - [中文维基文库：新唐書/卷072中](https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7072%E4%B8%AD)

@@ -4,7 +4,7 @@ id: p_KDHyoyPThS4k5UPMDPZAU5
 status: active
 merged_into: null
 display_name: 王爽
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,30 +17,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王爽，史料所见人物。本项目依据《王濛 (东晋)》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王爽，字季明，東晉琅邪臨沂人，司徒左長史王濛之孫、王蘊之子、王恭之弟，強正有志力，歷給事黃門侍郎、侍中。孝武帝崩時拒王國寶夜入，後隨王恭起兵，恭敗被誅（《晉書·卷九十三·王蘊傳》：恭弟爽，字季明）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
-        - id: cs_luVRS5V7O_Q96WvM1X2otY
+        - id: cs_YPZfPENtmIkponzZgC_kUs
           claim_id: c_C4K5LHKLj72uqMl7hyEo2q
-          source_id: s_qizSpVQSptPQEGDzdT1AtG
+          source_id: s_Vac7Ed2Ad-RCiFcgvI5j7V
           stance: supports
-          locator: null
+          locator: 晉書/卷093·王爽
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_qizSpVQSptPQEGDzdT1AtG
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_Vac7Ed2Ad-RCiFcgvI5j7V
             source_type: website
-            title: 中文维基百科：王濛 (东晋)
-            creator: 维基百科贡献者
-            publisher: Wikimedia Foundation
+            title: 维基文库：晉書/卷093·王爽
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
             published_at_text: null
-            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%BF%9B_(%E4%B8%9C%E6%99%8B)
+            canonical_url: https://zh.wikisource.org/wiki/晉書/卷093
             external_identifier: null
             license_code: CC-BY-SA-4.0
-            accessed_at: 2026-08-24T12:07:21.980Z
+            accessed_at: 2026-09-14T02:19:12.294Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -68,14 +68,25 @@ properties:
           locator: Q48881655
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_qizSpVQSptPQEGDzdT1AtG
+            source_type: website
+            title: 中文维基百科：王濛 (东晋)
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%BF%9B_(%E4%B8%9C%E6%99%8B)
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-08-24T12:07:21.980Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
   parents:
     - claim:
         id: c_WZYEzMC6GLf8cYrnkYXdbW
-        subject_person_id: p_bvfS4Dfw6Yxku7ijMc2RS6
+        subject_person_id: p_qJsVZWZ5yFRfpnVBWG3GAo
         claim_kind: relationship
         predicate: kinship.parent_of
         object_person_id: p_KDHyoyPThS4k5UPMDPZAU5
@@ -86,6 +97,25 @@ relationships:
         confidence: medium
         current_revision: 2
       sources:
+        - id: cs_79DdkE7tu3nFdFXyhWi0Zd
+          claim_id: c_WZYEzMC6GLf8cYrnkYXdbW
+          source_id: s_Vac7Ed2Ad-RCiFcgvI5j7V
+          stance: supports
+          locator: 晉書·卷九十三·王蘊傳：恭弟爽，字季明。
+          quotation: null
+          interpretation_note: 王爽为东晋王蕴之子、王恭之弟，正史原文改链。
+          source:
+            id: s_Vac7Ed2Ad-RCiFcgvI5j7V
+            source_type: website
+            title: 维基文库：晉書·卷九十三·王蘊傳
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/晉書/卷093
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:19:12.294Z
+            metadata_json: null
         - id: cs_ufQ2bLjWf67NRNButDcS4d
           claim_id: c_WZYEzMC6GLf8cYrnkYXdbW
           source_id: s_FLBmfzHfd7MqvBFe8CkFeq
@@ -163,9 +193,9 @@ relationships:
             accessed_at: 2026-08-25T09:54:34.959Z
             metadata_json: null
       object_person:
-        id: p_bvfS4Dfw6Yxku7ijMc2RS6
+        id: p_qJsVZWZ5yFRfpnVBWG3GAo
         status: active
-        display_name: 王蘊
+        display_name: 王蘊 (晉朝)
         merged_into_person_id: null
   children: []
   adoptive_parents: []
@@ -184,15 +214,16 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王爽，史料所见人物。本项目依据《王濛 (东晋)》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王爽，字季明，東晉琅邪臨沂人，司徒左長史王濛之孫、王蘊之子、王恭之弟，強正有志力，歷給事黃門侍郎、侍中。孝武帝崩時拒王國寶夜入，後隨王恭起兵，恭敗被誅（《晉書·卷九十三·王蘊傳》：恭弟爽，字季明）。 | accepted |
 | name.primary | 王爽 | accepted |
 
 ## 关联关系
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
-| parents | p_bvfS4Dfw6Yxku7ijMc2RS6 | 王蘊 | accepted |
+| parents | p_qJsVZWZ5yFRfpnVBWG3GAo | 王蘊 (晉朝) | accepted |
 
 ## 外部来源
 
+- [维基文库：晉書·卷九十三·王蘊傳](https://zh.wikisource.org/wiki/晉書/卷093)
 - [中文维基百科：王濛 (东晋)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%BF%9B_(%E4%B8%9C%E6%99%8B))

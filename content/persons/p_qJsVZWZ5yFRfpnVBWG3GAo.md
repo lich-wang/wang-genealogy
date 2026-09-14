@@ -4,7 +4,7 @@ id: p_qJsVZWZ5yFRfpnVBWG3GAo
 status: active
 merged_into: null
 display_name: 王蘊 (晉朝)
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -373,6 +373,119 @@ relationships:
         status: active
         display_name: 王恭
         merged_into_person_id: null
+    - claim:
+        id: c_WZYEzMC6GLf8cYrnkYXdbW
+        subject_person_id: p_qJsVZWZ5yFRfpnVBWG3GAo
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_KDHyoyPThS4k5UPMDPZAU5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 2
+      sources:
+        - id: cs_79DdkE7tu3nFdFXyhWi0Zd
+          claim_id: c_WZYEzMC6GLf8cYrnkYXdbW
+          source_id: s_Vac7Ed2Ad-RCiFcgvI5j7V
+          stance: supports
+          locator: 晉書·卷九十三·王蘊傳：恭弟爽，字季明。
+          quotation: null
+          interpretation_note: 王爽为东晋王蕴之子、王恭之弟，正史原文改链。
+          source:
+            id: s_Vac7Ed2Ad-RCiFcgvI5j7V
+            source_type: website
+            title: 维基文库：晉書·卷九十三·王蘊傳
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/晉書/卷093
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:19:12.294Z
+            metadata_json: null
+        - id: cs_ufQ2bLjWf67NRNButDcS4d
+          claim_id: c_WZYEzMC6GLf8cYrnkYXdbW
+          source_id: s_FLBmfzHfd7MqvBFe8CkFeq
+          stance: supports
+          locator: 条文：王蘊子
+          quotation: 王爽，王蘊子，官至侍中。後參與王恭起兵，王恭兵敗後被誅殺。
+          interpretation_note: null
+          source:
+            id: s_FLBmfzHfd7MqvBFe8CkFeq
+            source_type: website
+            title: 中文维基百科：王濛 (东晋)
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%BF%9B_(%E4%B8%9C%E6%99%8B)
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-08-24T12:13:36.095Z
+            metadata_json: null
+        - id: cs_1At1uS9U3FtwdPUXuASTQy
+          claim_id: c_WZYEzMC6GLf8cYrnkYXdbW
+          source_id: s_e2jc7Bb9DND1V2JQQsW35p
+          stance: supports
+          locator: 条文：王蘊子
+          quotation: 王爽，王蘊子，官至侍中。後參與王恭起兵，王恭兵敗後被誅殺。
+          interpretation_note: null
+          source:
+            id: s_e2jc7Bb9DND1V2JQQsW35p
+            source_type: website
+            title: 中文维基百科：王濛 (东晋)
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%BF%9B_(%E4%B8%9C%E6%99%8B)
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-08-25T01:51:35.794Z
+            metadata_json: null
+        - id: cs_Sxbd81UzSWBLsui1sHwMmi
+          claim_id: c_WZYEzMC6GLf8cYrnkYXdbW
+          source_id: s_XGxL8B3AfBW3CJcuoSNg2G
+          stance: supports
+          locator: 条文：王蘊子
+          quotation: 王爽，王蘊子，官至侍中。後參與王恭起兵，王恭兵敗後被誅殺。
+          interpretation_note: null
+          source:
+            id: s_XGxL8B3AfBW3CJcuoSNg2G
+            source_type: website
+            title: 中文维基百科：王濛 (东晋)
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%BF%9B_(%E4%B8%9C%E6%99%8B)
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-08-25T02:25:54.034Z
+            metadata_json: null
+        - id: cs_xd1GbxJKyTaaWC1e9UNHw8
+          claim_id: c_WZYEzMC6GLf8cYrnkYXdbW
+          source_id: s_86MPdYHvmEK1YxdBMsRrwM
+          stance: supports
+          locator: 条文：王蘊子
+          quotation: 王爽，王蘊子，官至侍中。後參與王恭起兵，王恭兵敗後被誅殺。
+          interpretation_note: null
+          source:
+            id: s_86MPdYHvmEK1YxdBMsRrwM
+            source_type: website
+            title: 中文维基百科：王濛 (东晋)
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%BF%9B_(%E4%B8%9C%E6%99%8B)
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-08-25T09:54:34.959Z
+            metadata_json: null
+      object_person:
+        id: p_KDHyoyPThS4k5UPMDPZAU5
+        status: active
+        display_name: 王爽
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -401,6 +514,7 @@ relationships:
 | parents | p_3bM8PH72KLRFNj3e74B58y | 王蒙 | accepted |
 | children | p_JcvnUMHyH7VB1FB3Nnqkw8 | 王法慧 | accepted |
 | children | p_Zbe4ZVzH5jwyD12bQNjrZx | 王恭 | accepted |
+| children | p_KDHyoyPThS4k5UPMDPZAU5 | 王爽 | accepted |
 
 ## 外部来源
 
@@ -408,5 +522,7 @@ relationships:
 - [维基数据：王恭（Q4390514）](https://www.wikidata.org/wiki/Q4390514)
 - [维基数据：王蒙（Q15908648）](https://www.wikidata.org/wiki/Q15908648)
 - [维基数据：王蘊 (晉朝)（Q15919655）](https://www.wikidata.org/wiki/Q15919655)
+- [维基文库：晉書·卷九十三·王蘊傳](https://zh.wikisource.org/wiki/晉書/卷093)
+- [中文维基百科：王濛 (东晋)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%BF%9B_(%E4%B8%9C%E6%99%8B))
 - [中文维基文库：《晋书》卷八十四](https://zh.wikisource.org/zh-hant/%E6%99%89%E6%9B%B8/%E5%8D%B7084)
 - [中文维基文库：《晋书》卷九十三](https://zh.wikisource.org/wiki/%E6%99%89%E6%9B%B8/%E5%8D%B7093)
