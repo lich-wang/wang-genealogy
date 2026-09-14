@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王貞婦
 cbdb_id: 121555
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -18,12 +18,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王貞婦，史料所见人物。本项目依据《中国历代人物传记资料库：王貞婦（CBDB 121555）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王貞婦，臨海人，夫家臨海。南宋末德祐二年元兵入浙東，舅、姑、夫皆死，被元將所掠，誓死不從，於嵊縣青楓嶺齧指出血書石，投絕壑而死。宋末節烈，《宋史·列女傳》載之（《宋史·卷四百六十》）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
+        - id: cs_dvy9ivTghsBuJ_YrMPTaRA
+          claim_id: c_ooEpM1hknuMmVzVPmyg9Wf
+          source_id: s_e6SkRtocvgIOQcvvhL2O-3
+          stance: supports
+          locator: 宋史/卷460·王貞婦傳
+          quotation: null
+          interpretation_note: 依正史列传原文重写简介。
+          source:
+            id: s_e6SkRtocvgIOQcvvhL2O-3
+            source_type: website
+            title: 维基文库：宋史/卷460·王貞婦
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/宋史/卷460
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:01:15.894Z
+            metadata_json: null
         - id: cs_RvTBDuIp9D1dLdxxx6o0-T
           claim_id: c_ooEpM1hknuMmVzVPmyg9Wf
           source_id: s_LLgeLsLgyzSV9s18Qfvn4m
@@ -92,7 +111,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王貞婦，史料所见人物。本项目依据《中国历代人物传记资料库：王貞婦（CBDB 121555）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王貞婦，臨海人，夫家臨海。南宋末德祐二年元兵入浙東，舅、姑、夫皆死，被元將所掠，誓死不從，於嵊縣青楓嶺齧指出血書石，投絕壑而死。宋末節烈，《宋史·列女傳》載之（《宋史·卷四百六十》）。 | accepted |
 | name.primary | 王貞婦 | accepted |
 
 ## 关联关系
@@ -102,4 +121,5 @@ relationships:
 
 ## 外部来源
 
+- [维基文库：宋史/卷460·王貞婦](https://zh.wikisource.org/wiki/宋史/卷460)
 - [中国历代人物传记资料库：王貞婦（CBDB 121555）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121555&o=json)

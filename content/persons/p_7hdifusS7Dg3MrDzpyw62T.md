@@ -4,7 +4,7 @@ id: p_7hdifusS7Dg3MrDzpyw62T
 status: active
 merged_into: null
 display_name: 王誕
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -55,12 +55,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王誕，史料所见人物。本项目依据《中国历代人物传记资料库：王誕（CBDB 468023）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王誕，字茂世，琅邪臨沂人，祖王恬、父王混，太保王弘從兄。少有才藻，晉末劉宋間歷吳國內史、尚書吏部郎，襲爵雉鄉侯（《宋書·王誕傳》）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
+        - id: cs_H4-nnrJ2D_TCP3Cc6Jfxs1
+          claim_id: c_hELK7sp37vZeSFcRxMTNSN
+          source_id: s_qRdKZeUVl8id3V9uA7_0GZ
+          stance: supports
+          locator: 宋書/卷52·王誕傳
+          quotation: null
+          interpretation_note: 依正史列传原文重写简介。
+          source:
+            id: s_qRdKZeUVl8id3V9uA7_0GZ
+            source_type: website
+            title: 维基文库：宋書/卷52·王誕
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/宋書/卷52
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:01:15.894Z
+            metadata_json: null
         - id: cs_vjfchXnmUKyqePIu2F8pOo
           claim_id: c_hELK7sp37vZeSFcRxMTNSN
           source_id: s_YwGVHfyYw8PYR2V1Swhw2n
@@ -91,7 +110,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王誕 | accepted |
-| bio.summary | 王誕，史料所见人物。本项目依据《中国历代人物传记资料库：王誕（CBDB 468023）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王誕，字茂世，琅邪臨沂人，祖王恬、父王混，太保王弘從兄。少有才藻，晉末劉宋間歷吳國內史、尚書吏部郎，襲爵雉鄉侯（《宋書·王誕傳》）。 | accepted |
 
 ## 关联关系
 
@@ -100,4 +119,5 @@ relationships:
 
 ## 外部来源
 
+- [维基文库：宋書/卷52·王誕](https://zh.wikisource.org/wiki/宋書/卷52)
 - [中国历代人物传记资料库：王誕（CBDB 468023）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=468023&o=json)

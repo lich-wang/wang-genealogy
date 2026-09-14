@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王敬則
 cbdb_id: 465974
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -18,12 +18,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王敬則，史料所见人物。本项目依据《中国历代人物传记资料库：王敬則（CBDB 465974）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王敬則，晉陵南沙人。南齊名將，出身寒微，少善拍張跳刀，事宋明帝，助蕭道成建齊，累遷大司馬，封尋陽郡公。永明中自舉兵反，敗誅（《南齊書·王敬則傳》）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
+        - id: cs_k5VENtamif39D2dExXtT5d
+          claim_id: c_MsbPQQqxj1mN5t8q4E1Z7E
+          source_id: s_QaWy_wU5dZP25AHqQ_S1DW
+          stance: supports
+          locator: 南齊書/卷26·王敬則傳
+          quotation: null
+          interpretation_note: 依正史列传原文重写简介。
+          source:
+            id: s_QaWy_wU5dZP25AHqQ_S1DW
+            source_type: website
+            title: 维基文库：南齊書/卷26·王敬則
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/南齊書/卷26
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:01:15.894Z
+            metadata_json: null
         - id: cs_lMe9RAGrqlp4BzRm9rxI8x
           claim_id: c_MsbPQQqxj1mN5t8q4E1Z7E
           source_id: s_ySi6opWBrmwADKUUL9cKKY
@@ -92,7 +111,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王敬則，史料所见人物。本项目依据《中国历代人物传记资料库：王敬則（CBDB 465974）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王敬則，晉陵南沙人。南齊名將，出身寒微，少善拍張跳刀，事宋明帝，助蕭道成建齊，累遷大司馬，封尋陽郡公。永明中自舉兵反，敗誅（《南齊書·王敬則傳》）。 | accepted |
 | name.primary | 王敬則 | accepted |
 
 ## 关联关系
@@ -102,4 +121,5 @@ relationships:
 
 ## 外部来源
 
+- [维基文库：南齊書/卷26·王敬則](https://zh.wikisource.org/wiki/南齊書/卷26)
 - [中国历代人物传记资料库：王敬則（CBDB 465974）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=465974&o=json)

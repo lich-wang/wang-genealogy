@@ -4,7 +4,7 @@ id: p_U8fdrFj4dVFL2uf2xmXoLK
 status: active
 merged_into: null
 display_name: 王慧龍
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,30 +17,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王慧龍，史料所见人物。本项目依据《太原王氏》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王慧龍，自云太原晉陽人，東晉尚書僕射王愉之孫、散騎侍郎王緝之子。因劉裕誅王氏，年十四亡命，北魏太武帝時歷龍驤將軍、滎陽太守，與南朝宋對壘（《魏書·王慧龍傳》）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
-        - id: cs_0XnuGDAkX8B2LGEQpo6h_8
+        - id: cs_o30RoUYmH0ccmVsy7a2iQ7
           claim_id: c_bQUyOtQbJWrYOe08Edysr9
-          source_id: s_8v3HEWJMg8p43rd4zxNR9r
+          source_id: s_73mFR9WRE8i3FTH2ZoE44M
           stance: supports
-          locator: null
+          locator: 魏書/卷38·王慧龍傳
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_8v3HEWJMg8p43rd4zxNR9r
+          interpretation_note: 依正史列传原文重写简介。
+          source:
+            id: s_73mFR9WRE8i3FTH2ZoE44M
             source_type: website
-            title: 中文维基百科：太原王氏
-            creator: 维基百科贡献者
-            publisher: Wikimedia Foundation
+            title: 维基文库：魏書/卷38·王慧龍
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
             published_at_text: null
-            canonical_url: https://zh.wikipedia.org/wiki/%E5%A4%AA%E5%8E%9F%E7%8E%8B%E6%B0%8F
+            canonical_url: https://zh.wikisource.org/wiki/魏書/卷38
             external_identifier: null
             license_code: CC-BY-SA-4.0
-            accessed_at: 2026-08-24T12:07:15.556Z
+            accessed_at: 2026-09-14T02:01:15.894Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -68,7 +68,18 @@ properties:
           locator: Q14994487
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_8v3HEWJMg8p43rd4zxNR9r
+            source_type: website
+            title: 中文维基百科：太原王氏
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E5%A4%AA%E5%8E%9F%E7%8E%8B%E6%B0%8F
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-08-24T12:07:15.556Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -183,7 +194,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王慧龍，史料所见人物。本项目依据《太原王氏》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王慧龍，自云太原晉陽人，東晉尚書僕射王愉之孫、散騎侍郎王緝之子。因劉裕誅王氏，年十四亡命，北魏太武帝時歷龍驤將軍、滎陽太守，與南朝宋對壘（《魏書·王慧龍傳》）。 | accepted |
 | name.primary | 王慧龍 | accepted |
 
 ## 关联关系
@@ -195,5 +206,6 @@ relationships:
 
 ## 外部来源
 
+- [维基文库：魏書/卷38·王慧龍](https://zh.wikisource.org/wiki/魏書/卷38)
 - [中文维基百科：太原王氏](https://zh.wikipedia.org/wiki/%E5%A4%AA%E5%8E%9F%E7%8E%8B%E6%B0%8F)
 - [中文维基文库：新唐書/卷072中](https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7072%E4%B8%AD)

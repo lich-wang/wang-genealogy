@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王溫舒
 cbdb_id: 462482
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -18,12 +18,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王溫舒，史料所见人物。本项目依据《中国历代人物传记资料库：王溫舒（CBDB 462482）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王溫舒，陽陵人。漢代酷吏，事張湯，以治獄至廷尉史，歷廣平都尉、河內太守、中尉。以嚴酷誅殺、族滅豪強著稱，後坐罪自殺（《史記》《漢書》酷吏列傳）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
+        - id: cs_fspOoPhbknRQ9YIr_7T9Wq
+          claim_id: c_rKy9JEsHiiCgRSzoU3GF8B
+          source_id: s_hzck2VseZXZHf2bd-a2vmP
+          stance: supports
+          locator: 漢書/卷090·王溫舒傳
+          quotation: null
+          interpretation_note: 依正史列传原文重写简介。
+          source:
+            id: s_hzck2VseZXZHf2bd-a2vmP
+            source_type: website
+            title: 维基文库：漢書/卷090·王溫舒
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/漢書/卷090
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:01:15.894Z
+            metadata_json: null
         - id: cs_mtETnRlcyKzsNARR3uFQjN
           claim_id: c_rKy9JEsHiiCgRSzoU3GF8B
           source_id: s_X739nt8LHwAPdvzaV2F1U2
@@ -92,7 +111,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王溫舒，史料所见人物。本项目依据《中国历代人物传记资料库：王溫舒（CBDB 462482）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王溫舒，陽陵人。漢代酷吏，事張湯，以治獄至廷尉史，歷廣平都尉、河內太守、中尉。以嚴酷誅殺、族滅豪強著稱，後坐罪自殺（《史記》《漢書》酷吏列傳）。 | accepted |
 | name.primary | 王溫舒 | accepted |
 
 ## 关联关系
@@ -102,4 +121,5 @@ relationships:
 
 ## 外部来源
 
+- [维基文库：漢書/卷090·王溫舒](https://zh.wikisource.org/wiki/漢書/卷090)
 - [中国历代人物传记资料库：王溫舒（CBDB 462482）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=462482&o=json)

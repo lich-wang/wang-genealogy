@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王弘贄
 cbdb_id: 414508
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -18,12 +18,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王弘贄，史料所见人物。本项目依据《中国历代人物传记资料库：王弘贄（CBDB 414508）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王弘贄，後唐宿將，歷合、階二州刺史、右千牛衛將軍、衛州刺史。末帝時閔帝出奔至衛州，弘贄受石敬瑭指使，執閔帝，旋被害（《新五代史·王弘贄傳》）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
+        - id: cs_QauxV-7v6uSfF_sUk8Ye0x
+          claim_id: c_fDdc3JEH7DHxiH3EQuSTPm
+          source_id: s_VwKc3L1Vf_hkWbFx36aGwz
+          stance: supports
+          locator: 新五代史/卷48·王弘贄傳
+          quotation: null
+          interpretation_note: 依正史列传原文重写简介。
+          source:
+            id: s_VwKc3L1Vf_hkWbFx36aGwz
+            source_type: website
+            title: 维基文库：新五代史/卷48·王弘贄
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/新五代史/卷48
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:01:15.894Z
+            metadata_json: null
         - id: cs_6dBRytu0PRwBlo3PrGUp-S
           claim_id: c_fDdc3JEH7DHxiH3EQuSTPm
           source_id: s_X3PprutME9kWQV3VixgA6H
@@ -92,7 +111,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王弘贄，史料所见人物。本项目依据《中国历代人物传记资料库：王弘贄（CBDB 414508）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王弘贄，後唐宿將，歷合、階二州刺史、右千牛衛將軍、衛州刺史。末帝時閔帝出奔至衛州，弘贄受石敬瑭指使，執閔帝，旋被害（《新五代史·王弘贄傳》）。 | accepted |
 | name.primary | 王弘贄 | accepted |
 
 ## 关联关系
@@ -102,4 +121,5 @@ relationships:
 
 ## 外部来源
 
+- [维基文库：新五代史/卷48·王弘贄](https://zh.wikisource.org/wiki/新五代史/卷48)
 - [中国历代人物传记资料库：王弘贄（CBDB 414508）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=414508&o=json)

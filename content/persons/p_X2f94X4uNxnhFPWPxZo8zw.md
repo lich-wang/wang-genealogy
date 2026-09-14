@@ -4,7 +4,7 @@ id: p_X2f94X4uNxnhFPWPxZo8zw
 status: active
 merged_into: null
 display_name: 王接
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,12 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王接，史料所见人物。本项目依据《王接》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王接，字祖遊，河東猗氏人，漢京兆尹王尊十世孫，父王蔚。晉儒學之士，博通經傳，歷尚書郎，著《後漢書》等（《晉書·王接傳》）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
+        - id: cs_Eh7qeoKQTFLDbBH6R_3TPP
+          claim_id: c_P95pcZf7xuvdgE7u6KTH8w
+          source_id: s_M2zXfoeyH4ouPj927v0THp
+          stance: supports
+          locator: 晉書/卷051·王接傳
+          quotation: null
+          interpretation_note: 依正史列传原文重写简介。
+          source:
+            id: s_M2zXfoeyH4ouPj927v0THp
+            source_type: website
+            title: 维基文库：晉書/卷051·王接
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/晉書/卷051
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:01:15.894Z
+            metadata_json: null
         - id: cs_S8WuQ9UD2Q66dtZyX3BvO7
           claim_id: c_P95pcZf7xuvdgE7u6KTH8w
           source_id: s_Qq2MHNS29J3Mh73Kbv3g3R
@@ -186,7 +205,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王接，史料所见人物。本项目依据《王接》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王接，字祖遊，河東猗氏人，漢京兆尹王尊十世孫，父王蔚。晉儒學之士，博通經傳，歷尚書郎，著《後漢書》等（《晉書·王接傳》）。 | accepted |
 | name.primary | 王接 | accepted |
 
 ## 关联关系
@@ -199,5 +218,6 @@ relationships:
 
 - [维基数据：王接（Q16260249）](https://www.wikidata.org/wiki/Q16260249)
 - [维基数据：王无故（Q94998288）](https://www.wikidata.org/wiki/Q94998288)
+- [维基文库：晉書/卷051·王接](https://zh.wikisource.org/wiki/晉書/卷051)
 - [中文维基百科：王接 (汉朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%8E%A5_(%E6%B1%89%E6%9C%9D))
 - [中文维基百科：王迺始](https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%BF%BA%E5%A7%8B)

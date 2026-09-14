@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王世充
 cbdb_id: 134932
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -18,12 +18,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王世充，史料所见人物。本项目依据《中国历代人物传记资料库：王世充（CBDB 134932）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王世充，字行滿，本姓支，西域胡人，祖支頹耨，父收隨母嫁霸城王氏而冒姓。隋末據東都洛陽，武德二年僭稱鄭帝，武德四年為李世民所敗而降，後被誅（《舊唐書》《新唐書》本傳）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
+        - id: cs_o6oIwbpr5wBgEHZumknh3Z
+          claim_id: c_Mr7FGByzxXq93txD2QKK1A
+          source_id: s_7HuHn_JyjHczxdpsB4x0F7
+          stance: supports
+          locator: 舊唐書/卷54·王世充傳
+          quotation: null
+          interpretation_note: 依正史列传原文重写简介。
+          source:
+            id: s_7HuHn_JyjHczxdpsB4x0F7
+            source_type: website
+            title: 维基文库：舊唐書/卷54·王世充
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/舊唐書/卷54
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:01:15.894Z
+            metadata_json: null
         - id: cs_q5R7ZlPE7g0iASCiyoE4Km
           claim_id: c_Mr7FGByzxXq93txD2QKK1A
           source_id: s_2wD6DVmePzEaszma2PUrR7
@@ -92,7 +111,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王世充，史料所见人物。本项目依据《中国历代人物传记资料库：王世充（CBDB 134932）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王世充，字行滿，本姓支，西域胡人，祖支頹耨，父收隨母嫁霸城王氏而冒姓。隋末據東都洛陽，武德二年僭稱鄭帝，武德四年為李世民所敗而降，後被誅（《舊唐書》《新唐書》本傳）。 | accepted |
 | name.primary | 王世充 | accepted |
 
 ## 关联关系
@@ -102,4 +121,5 @@ relationships:
 
 ## 外部来源
 
+- [维基文库：舊唐書/卷54·王世充](https://zh.wikisource.org/wiki/舊唐書/卷54)
 - [中国历代人物传记资料库：王世充（CBDB 134932）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134932&o=json)

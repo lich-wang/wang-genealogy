@@ -4,7 +4,7 @@ id: p_N6TjHB2dg3mYH6Mm8kKBXM
 status: active
 merged_into: null
 display_name: 王准之
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,30 +17,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王准之，史料所见人物。本项目依据《中文维基文库：新唐書/卷072中》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王准之，字元曾，琅邪臨沂人，高祖王彬、曾祖王彪之。博學多識，掌朝儀故事，世稱「王氏青箱學」。劉宋歷御史中丞、侍中（《宋書·王准之傳》）。
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_wF1qrxVSUSuUTGtbtSKU4E
+        - id: cs_yQP0PLIaJhx6Kghi_zy-HZ
           claim_id: c_aVQcT73BsMugA8j71Ke-k_
-          source_id: s_XmK4uXKaoBAKcwvzzk8Dzr
+          source_id: s_PfH0DzsstU7EWlhBKstpt4
           stance: supports
-          locator: null
+          locator: 宋書/卷60·王准之傳
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_XmK4uXKaoBAKcwvzzk8Dzr
-            source_type: book
-            title: 中文维基文库：新唐書/卷072中
-            creator: null
-            publisher: 维基文库
+          interpretation_note: 依正史列传原文重写简介。
+          source:
+            id: s_PfH0DzsstU7EWlhBKstpt4
+            source_type: website
+            title: 维基文库：宋書/卷60·王准之
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
             published_at_text: null
-            canonical_url: https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7072%E4%B8%AD
+            canonical_url: https://zh.wikisource.org/wiki/宋書/卷60
             external_identifier: null
             license_code: CC-BY-SA-4.0
-            accessed_at: 2026-08-25T10:12:55.026Z
+            accessed_at: 2026-09-14T02:01:15.894Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -68,7 +68,18 @@ properties:
           locator: CBDB:null
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_XmK4uXKaoBAKcwvzzk8Dzr
+            source_type: book
+            title: 中文维基文库：新唐書/卷072中
+            creator: null
+            publisher: 维基文库
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7072%E4%B8%AD
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-08-25T10:12:55.026Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -164,7 +175,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王准之，史料所见人物。本项目依据《中文维基文库：新唐書/卷072中》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王准之，字元曾，琅邪臨沂人，高祖王彬、曾祖王彪之。博學多識，掌朝儀故事，世稱「王氏青箱學」。劉宋歷御史中丞、侍中（《宋書·王准之傳》）。 | accepted |
 | name.primary | 王准之 | accepted |
 
 ## 关联关系
@@ -176,4 +187,5 @@ relationships:
 
 ## 外部来源
 
+- [维基文库：宋書/卷60·王准之](https://zh.wikisource.org/wiki/宋書/卷60)
 - [中文维基文库：新唐書/卷072中](https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7072%E4%B8%AD)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王文殊
 cbdb_id: 148708
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -18,12 +18,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王文殊，史料所见人物。本项目依据《中国历代人物传记资料库：王文殊（CBDB 148708）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王文殊，吳興故鄣人。南齊孝子，父沒於虜，思慕泣血、蔬食山谷三十餘年，太守孔琇之上表，鬱林王詔牓其門，改所居為「孝行里」（《南齊書·孝義列傳》）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
+        - id: cs_rErVByRUnhK2B6CrVRZBPV
+          claim_id: c_LuzJwobfHN3JazcmwUmXFF
+          source_id: s_5SWJCD0cbkpyVGJIjS6TAV
+          stance: supports
+          locator: 南齊書/卷55·王文殊傳
+          quotation: null
+          interpretation_note: 依正史列传原文重写简介。
+          source:
+            id: s_5SWJCD0cbkpyVGJIjS6TAV
+            source_type: website
+            title: 维基文库：南齊書/卷55·王文殊
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/南齊書/卷55
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:01:15.894Z
+            metadata_json: null
         - id: cs_CL6c7DSxhzx1iGgC-O8-6m
           claim_id: c_LuzJwobfHN3JazcmwUmXFF
           source_id: s_jk9qe1azLz3b1SCAendeUs
@@ -129,7 +148,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王文殊，史料所见人物。本项目依据《中国历代人物传记资料库：王文殊（CBDB 148708）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王文殊，吳興故鄣人。南齊孝子，父沒於虜，思慕泣血、蔬食山谷三十餘年，太守孔琇之上表，鬱林王詔牓其門，改所居為「孝行里」（《南齊書·孝義列傳》）。 | accepted |
 | name.primary | 王文殊 | accepted |
 
 ## 关联关系
@@ -140,5 +159,6 @@ relationships:
 
 ## 外部来源
 
+- [维基文库：南齊書/卷55·王文殊](https://zh.wikisource.org/wiki/南齊書/卷55)
 - [中国历代人物传记资料库：王儉（CBDB 139670）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139670&o=json)
 - [中国历代人物传记资料库：王文殊（CBDB 148708）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=148708&o=json)

@@ -4,7 +4,7 @@ id: p_7sKHLRmyHaJEZP9bWPkGMN
 status: active
 merged_into: null
 display_name: 王秀之
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -55,12 +55,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王秀之，史料所见人物。本项目依据《中国历代人物传记资料库：王秀之（CBDB 497228）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王秀之，字伯奮，琅邪臨沂人，祖王裕、父王瓚之。南齊廉吏，歷晉平太守、吳興太守、侍中，以「恐富求歸」見稱（《南齊書·王秀之傳》）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
+        - id: cs_mvXcT7-C_4NgtnkkHJGoLf
+          claim_id: c_ZnKQFVGEXxtVqfxzEdGxFj
+          source_id: s_ZVdeu3-kfK2cfTRC1zJCNQ
+          stance: supports
+          locator: 南齊書/卷46·王秀之傳
+          quotation: null
+          interpretation_note: 依正史列传原文重写简介。
+          source:
+            id: s_ZVdeu3-kfK2cfTRC1zJCNQ
+            source_type: website
+            title: 维基文库：南齊書/卷46·王秀之
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/南齊書/卷46
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:01:15.894Z
+            metadata_json: null
         - id: cs_0Mmj_VMEt_yQkrrmzzJF4x
           claim_id: c_ZnKQFVGEXxtVqfxzEdGxFj
           source_id: s_PXwQH3AtnJYEA5uBvFqHRh
@@ -91,7 +110,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王秀之 | accepted |
-| bio.summary | 王秀之，史料所见人物。本项目依据《中国历代人物传记资料库：王秀之（CBDB 497228）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王秀之，字伯奮，琅邪臨沂人，祖王裕、父王瓚之。南齊廉吏，歷晉平太守、吳興太守、侍中，以「恐富求歸」見稱（《南齊書·王秀之傳》）。 | accepted |
 
 ## 关联关系
 
@@ -100,4 +119,5 @@ relationships:
 
 ## 外部来源
 
+- [维基文库：南齊書/卷46·王秀之](https://zh.wikisource.org/wiki/南齊書/卷46)
 - [中国历代人物传记资料库：王秀之（CBDB 497228）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=497228&o=json)

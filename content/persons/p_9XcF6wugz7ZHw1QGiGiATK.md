@@ -4,7 +4,7 @@ id: p_9XcF6wugz7ZHw1QGiGiATK
 status: active
 merged_into: null
 display_name: 王僧辯
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -55,12 +55,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王僧辯，史料所见人物。本项目依据《中国历代人物传记资料库：王僧辯（CBDB 465999）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王僧辯，字君才，太原祁人，右衛將軍王神念之子。梁末名將，大都督，太清中平定侯景之亂，歷侍中、太尉、大司馬。承聖四年為陳霸先所襲，敗死（《梁書·王僧辯傳》）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
+        - id: cs_KL2P7dH2qCVab2uCCf60iC
+          claim_id: c_1hJsNSa4ehNXKRoV3X87gq
+          source_id: s_Ri4bkGzrK_Uq2p8x7s7mA9
+          stance: supports
+          locator: 梁書/卷45·王僧辯傳
+          quotation: null
+          interpretation_note: 依正史列传原文重写简介。
+          source:
+            id: s_Ri4bkGzrK_Uq2p8x7s7mA9
+            source_type: website
+            title: 维基文库：梁書/卷45·王僧辯
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/梁書/卷45
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:01:15.894Z
+            metadata_json: null
         - id: cs_wamCPYWxRpMzJXF3oR_oht
           claim_id: c_1hJsNSa4ehNXKRoV3X87gq
           source_id: s_JiBnDmK9ZLdsDEcrUCX69A
@@ -91,7 +110,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王僧辯 | accepted |
-| bio.summary | 王僧辯，史料所见人物。本项目依据《中国历代人物传记资料库：王僧辯（CBDB 465999）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王僧辯，字君才，太原祁人，右衛將軍王神念之子。梁末名將，大都督，太清中平定侯景之亂，歷侍中、太尉、大司馬。承聖四年為陳霸先所襲，敗死（《梁書·王僧辯傳》）。 | accepted |
 
 ## 关联关系
 
@@ -100,4 +119,5 @@ relationships:
 
 ## 外部来源
 
+- [维基文库：梁書/卷45·王僧辯](https://zh.wikisource.org/wiki/梁書/卷45)
 - [中国历代人物传记资料库：王僧辯（CBDB 465999）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=465999&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王凌
 cbdb_id: 413982
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -18,12 +18,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王凌，史料所见人物。本项目依据《中国历代人物传记资料库：王凌（CBDB 413982）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王凌，字彥雲，太原祁人，漢司徒王允之从子。曹魏重臣，歷青兗刺史、豫州刺史、司空、太尉，都督揚州諸軍事，封南鄉侯。嘉平三年與令狐愚謀立楚王曹彪，事泄被誅（《三國志·魏書·王凌傳》）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 6
+        current_revision: 7
       sources:
+        - id: cs_0EMTu1z-5gw7OcHpvXWQtx
+          claim_id: c_7x8EDHQ2hYtRiRSnCFf4UX
+          source_id: s_uajB2KM0-UzQUZIUTN5ISp
+          stance: supports
+          locator: 三國志/卷28·王凌傳
+          quotation: null
+          interpretation_note: 依正史列传原文重写简介。
+          source:
+            id: s_uajB2KM0-UzQUZIUTN5ISp
+            source_type: website
+            title: 维基文库：三國志/卷28·王凌
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/三國志/卷28
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:01:15.894Z
+            metadata_json: null
         - id: cs_2IoDC1im4aA5ihECuJlYFW
           claim_id: c_7x8EDHQ2hYtRiRSnCFf4UX
           source_id: s_uDGaJi8D7Y2qp9PaY59gXx
@@ -129,7 +148,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王凌，史料所见人物。本项目依据《中国历代人物传记资料库：王凌（CBDB 413982）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王凌，字彥雲，太原祁人，漢司徒王允之从子。曹魏重臣，歷青兗刺史、豫州刺史、司空、太尉，都督揚州諸軍事，封南鄉侯。嘉平三年與令狐愚謀立楚王曹彪，事泄被誅（《三國志·魏書·王凌傳》）。 | accepted |
 | name.primary | 王凌 | accepted |
 
 ## 关联关系
@@ -141,4 +160,5 @@ relationships:
 ## 外部来源
 
 - [维基文库：後漢書·卷六十六·王允傳](https://zh.wikisource.org/wiki/後漢書/卷66)
+- [维基文库：三國志/卷28·王凌](https://zh.wikisource.org/wiki/三國志/卷28)
 - [中国历代人物传记资料库：王凌（CBDB 413982）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=413982&o=json)
