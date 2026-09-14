@@ -4,7 +4,7 @@ id: p_3ctN3Ag7tAGFBEB9PuLpDo
 status: active
 merged_into: null
 display_name: 王參
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,43 @@ relationships:
         status: active
         display_name: 王孝忠
         merged_into_person_id: null
+    - claim:
+        id: c_ykjbLZtvpxZvXJExPfWrMA
+        subject_person_id: p_3ctN3Ag7tAGFBEB9PuLpDo
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7hTd4se5JjDN6aXiCCsbw7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6frG_4JoqQIc7XrymbGSPr
+          claim_id: c_ykjbLZtvpxZvXJExPfWrMA
+          source_id: s_RXBgpz0khogFkkw9x87mFP
+          stance: supports
+          locator: CBDB：兄弟 王孝忠（201152）之父／母 王參
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王孝友 与 王孝忠 为同胞（CBDB 记「兄」），王孝忠 之父／母即 王孝友 之父／母。
+          source:
+            id: s_RXBgpz0khogFkkw9x87mFP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王孝友（CBDB 267975）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267975&o=json
+            external_identifier: CBDB:267975
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7hTd4se5JjDN6aXiCCsbw7
+        status: active
+        display_name: 王孝友
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_YmdsA8EmYfF27LWV9ms1VW | 王孝忠 | accepted |
+| children | p_7hTd4se5JjDN6aXiCCsbw7 | 王孝友 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王參（CBDB 267969）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267969&o=json)
+- [中国历代人物传记资料库：王孝友（CBDB 267975）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267975&o=json)

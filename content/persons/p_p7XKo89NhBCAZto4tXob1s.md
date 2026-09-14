@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王希夔
 cbdb_id: 207197
-revision: 6
+revision: 9
 properties:
   - predicate: bio.summary
     recommended:
@@ -312,7 +312,118 @@ relationships:
         display_name: 王曰貴
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_yoOkE4Ha7wZSltbMutNJQC
+        subject_person_id: p_DPLB7GTcBTLEeL51Yhrdfa
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_p7XKo89NhBCAZto4tXob1s
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-Smy14QZRV3zBW9XwYZyvy
+          claim_id: c_yoOkE4Ha7wZSltbMutNJQC
+          source_id: s_kAubSKIMyjN52k7Iqcz9fL
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207197 王希夔）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_kAubSKIMyjN52k7Iqcz9fL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王希稷（CBDB 229381）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229381&o=json
+            external_identifier: CBDB:229381
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DPLB7GTcBTLEeL51Yhrdfa
+        status: active
+        display_name: 王希稷
+        merged_into_person_id: null
+    - claim:
+        id: c_r2bGa8eTiz9sYVYbbtXbEm
+        subject_person_id: p_oWugPyGUAqLAbUqc22RLQq
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_p7XKo89NhBCAZto4tXob1s
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7L2VIxK7vLYyv4rtBcVW3r
+          claim_id: c_r2bGa8eTiz9sYVYbbtXbEm
+          source_id: s_LJcfKcqCF86In8M8YHaqb4
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207197 王希夔）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_LJcfKcqCF86In8M8YHaqb4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王希召（CBDB 229380）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229380&o=json
+            external_identifier: CBDB:229380
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oWugPyGUAqLAbUqc22RLQq
+        status: active
+        display_name: 王希召
+        merged_into_person_id: null
+    - claim:
+        id: c_3ztvDX4td0H0KG1cUeSwgM
+        subject_person_id: p_p7XKo89NhBCAZto4tXob1s
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wV8pamxkJYQEijY58WsJFP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pHkJqLkKXWQWbVJhGtvopa
+          claim_id: c_3ztvDX4td0H0KG1cUeSwgM
+          source_id: s_r03DFzz7yIjAP16wV9FrQL
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207197 王希夔）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_r03DFzz7yIjAP16wV9FrQL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王希周（CBDB 229379）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229379&o=json
+            external_identifier: CBDB:229379
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wV8pamxkJYQEijY58WsJFP
+        status: active
+        display_name: 王希周
+        merged_into_person_id: null
 ---
 
 # 王希夔
@@ -336,6 +447,9 @@ relationships:
 | children | p_mmnCaAQw2e5jVUAxsHQnXb | 王奇榜 | accepted |
 | ancestors | p_B5xFopjtCjwah51mcq9cJA | 王廷錦 | accepted |
 | ancestors | p_fryYWsicokQBj86CTS3JAf | 王曰貴 | accepted |
+| other | p_DPLB7GTcBTLEeL51Yhrdfa | 王希稷 | accepted |
+| other | p_oWugPyGUAqLAbUqc22RLQq | 王希召 | accepted |
+| other | p_wV8pamxkJYQEijY58WsJFP | 王希周 | accepted |
 
 ## 外部来源
 
@@ -343,5 +457,8 @@ relationships:
 - [中国历代人物传记资料库：王奇榜（CBDB 229383）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229383&o=json)
 - [中国历代人物传记资料库：王奇樑（CBDB 229382）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229382&o=json)
 - [中国历代人物传记资料库：王廷錦（CBDB 229373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229373&o=json)
+- [中国历代人物传记资料库：王希稷（CBDB 229381）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229381&o=json)
 - [中国历代人物传记资料库：王希夔（CBDB 207197）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207197&o=json)
+- [中国历代人物传记资料库：王希召（CBDB 229380）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229380&o=json)
+- [中国历代人物传记资料库：王希周（CBDB 229379）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229379&o=json)
 - [中国历代人物传记资料库：王曰貴（CBDB 229374）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229374&o=json)

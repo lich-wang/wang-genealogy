@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王納講
 cbdb_id: 204128
-revision: 4
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -236,7 +236,81 @@ relationships:
         display_name: 王宏德
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_woCLtUJL8rx3vZgXAPDIBp
+        subject_person_id: p_4YXKWy6SMNaEJM1R3UmhPJ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nuBK1wsMvCBFXuA1nKxaa5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_npV2x3bt9Ee72bpnfZYs5T
+          claim_id: c_woCLtUJL8rx3vZgXAPDIBp
+          source_id: s_ecJlww7cxlIb8gxfM5lkzo
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204128 王納講）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ecJlww7cxlIb8gxfM5lkzo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王納言（CBDB 314799）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314799&o=json
+            external_identifier: CBDB:314799
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4YXKWy6SMNaEJM1R3UmhPJ
+        status: active
+        display_name: 王納言
+        merged_into_person_id: null
+    - claim:
+        id: c_ECX2OmDeEF0R20bEf1fEtx
+        subject_person_id: p_Q6z2Rzm5XaJUBN19vPaCM4
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nuBK1wsMvCBFXuA1nKxaa5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_f8IJdpBk5jveB7CumlvMRT
+          claim_id: c_ECX2OmDeEF0R20bEf1fEtx
+          source_id: s_vK3H6VgR_M2_-f02KzKOm8
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204128 王納講）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_vK3H6VgR_M2_-f02KzKOm8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王納議（CBDB 314800）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314800&o=json
+            external_identifier: CBDB:314800
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Q6z2Rzm5XaJUBN19vPaCM4
+        status: active
+        display_name: 王納議
+        merged_into_person_id: null
 ---
 
 # 王納講
@@ -258,10 +332,14 @@ relationships:
 | parents | p_CsFdH8PxFCRt2fMScjK1Yr | 王儒 | accepted |
 | ancestors | p_7b33vYnQRvZ8AxMdE5eb2k | 王暉 | accepted |
 | ancestors | p_ijbex4t9VLqLfFA3i5CSdB | 王宏德 | accepted |
+| other | p_4YXKWy6SMNaEJM1R3UmhPJ | 王納言 | accepted |
+| other | p_Q6z2Rzm5XaJUBN19vPaCM4 | 王納議 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王宏德（CBDB 314792）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314792&o=json)
 - [中国历代人物传记资料库：王暉（CBDB 314791）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314791&o=json)
 - [中国历代人物传记资料库：王納講（CBDB 204128）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204128&o=json)
+- [中国历代人物传记资料库：王納言（CBDB 314799）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314799&o=json)
+- [中国历代人物传记资料库：王納議（CBDB 314800）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314800&o=json)
 - [中国历代人物传记资料库：王儒（CBDB 314793）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314793&o=json)

@@ -4,7 +4,7 @@ id: p_3BqLdv5ornEQLqdPoknpXE
 status: active
 merged_into: null
 display_name: 王屏
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,81 @@ relationships:
         display_name: 王璘
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_YWZdi2BKTWMArr7HbyAB_L
+        subject_person_id: p_3BqLdv5ornEQLqdPoknpXE
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_jG2RSY6E84mjGaik9Hn6qk
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bMSGFeUx6rgspdZqtA7_lp
+          claim_id: c_YWZdi2BKTWMArr7HbyAB_L
+          source_id: s_JBwyXfRThbwJZyqkEfB2hQ
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199995 王屏）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_JBwyXfRThbwJZyqkEfB2hQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王幹（CBDB 252361）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252361&o=json
+            external_identifier: CBDB:252361
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jG2RSY6E84mjGaik9Hn6qk
+        status: active
+        display_name: 王幹
+        merged_into_person_id: null
+    - claim:
+        id: c_yyMUIfFsMSO_GN-_p0SDHL
+        subject_person_id: p_3BqLdv5ornEQLqdPoknpXE
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_v5Zg5veSk3WFL4Q7CvgAYw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mmUpdtZKJAIujCGcdtU23o
+          claim_id: c_yyMUIfFsMSO_GN-_p0SDHL
+          source_id: s_liIQ6WdSf7f2ZVrb085G6K
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199995 王屏）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_liIQ6WdSf7f2ZVrb085G6K
+            source_type: api_record
+            title: 中国历代人物传记资料库：王翊（CBDB 252362）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252362&o=json
+            external_identifier: CBDB:252362
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_v5Zg5veSk3WFL4Q7CvgAYw
+        status: active
+        display_name: 王翊
+        merged_into_person_id: null
 ---
 
 # 王屏
@@ -245,8 +319,12 @@ relationships:
 | spouses | p_o8c4bC8L1A92CoVxkpYjmr | 趙氏 | accepted |
 | ancestors | p_cCQdbNu8vKtiv9UU7u2aGs | 王彥暉 | accepted |
 | ancestors | p_Dufhb5NoCZnQdaJkaB21gq | 王璘 | accepted |
+| other | p_jG2RSY6E84mjGaik9Hn6qk | 王幹 | accepted |
+| other | p_v5Zg5veSk3WFL4Q7CvgAYw | 王翊 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王幹（CBDB 252361）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252361&o=json)
 - [中国历代人物传记资料库：王屏（CBDB 199995）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199995&o=json)
+- [中国历代人物传记资料库：王翊（CBDB 252362）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252362&o=json)
 - [中国历代人物传记资料库：趙氏(王屏妻)（CBDB 252360）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252360&o=json)

@@ -4,7 +4,7 @@ id: p_7kt2c6LEEJXJ45MmJkyvhy
 status: active
 merged_into: null
 display_name: 王允
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,44 @@ relationships:
         display_name: 王世英
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_UYQe2BBYOHTZboBOulk6WS
+        subject_person_id: p_7kt2c6LEEJXJ45MmJkyvhy
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_8Ng7wAK9NQE1MKqCL4abM4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_d084gRH0_6KxbXIkBaiDX0
+          claim_id: c_UYQe2BBYOHTZboBOulk6WS
+          source_id: s_uG6jQOwEXnT6sMIMEcIPh8
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 208031 王允）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_uG6jQOwEXnT6sMIMEcIPh8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王信（CBDB 239501）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239501&o=json
+            external_identifier: CBDB:239501
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8Ng7wAK9NQE1MKqCL4abM4
+        status: active
+        display_name: 王信
+        merged_into_person_id: null
 ---
 
 # 王允
@@ -245,8 +282,10 @@ relationships:
 | spouses | p_WN27M58uY6ww61Pz9TqM6T | 邊氏 | accepted |
 | ancestors | p_QYyri3inTANJdu1XAKFvzs | 王士賢 | accepted |
 | ancestors | p_8ixzNz11z7hHgCLNaEVY5A | 王世英 | accepted |
+| other | p_8Ng7wAK9NQE1MKqCL4abM4 | 王信 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：邊氏(王允妻)（CBDB 239500）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239500&o=json)
+- [中国历代人物传记资料库：王信（CBDB 239501）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239501&o=json)
 - [中国历代人物传记资料库：王允（CBDB 208031）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208031&o=json)

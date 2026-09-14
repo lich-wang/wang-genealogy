@@ -4,7 +4,7 @@ id: p_gAAfv7JQBPfPSFmCq4BBah
 status: active
 merged_into: null
 display_name: 王天民
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,81 @@ relationships:
         display_name: 王友
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Ms0yyPGYI2I2BJO4hl2M13
+        subject_person_id: p_CqX3BzLzHv3jDGLuzAesBg
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gAAfv7JQBPfPSFmCq4BBah
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qSIh7T7TEbBhxfy3TNj3J4
+          claim_id: c_Ms0yyPGYI2I2BJO4hl2M13
+          source_id: s_aNnLrmUjD5XNWFbi0DKHlo
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202040 王天民）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_aNnLrmUjD5XNWFbi0DKHlo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王秀民（CBDB 282428）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282428&o=json
+            external_identifier: CBDB:282428
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CqX3BzLzHv3jDGLuzAesBg
+        status: active
+        display_name: 王秀民
+        merged_into_person_id: null
+    - claim:
+        id: c_xKwyKWkh4SaRrrLyofF8dO
+        subject_person_id: p_GLW35f938RorNH5gD1QSmK
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gAAfv7JQBPfPSFmCq4BBah
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ghFlflJROyLFDAPaVqCGJo
+          claim_id: c_xKwyKWkh4SaRrrLyofF8dO
+          source_id: s_kkhlFosBydSeUJ_qaCPDJC
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202040 王天民）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_kkhlFosBydSeUJ_qaCPDJC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王俊民（CBDB 282427）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282427&o=json
+            external_identifier: CBDB:282427
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GLW35f938RorNH5gD1QSmK
+        status: active
+        display_name: 王俊民
+        merged_into_person_id: null
 ---
 
 # 王天民
@@ -240,10 +314,14 @@ relationships:
 | parents | p_CCMezUv4HjuKUC99JaW7qa | 王鉉 | accepted |
 | ancestors | p_dG1qVyR3CcDvrMD78uYNRN | 王英 | accepted |
 | ancestors | p_LwbAH81xe9Q4cWwWWuz7Bf | 王友 | accepted |
+| other | p_CqX3BzLzHv3jDGLuzAesBg | 王秀民 | accepted |
+| other | p_GLW35f938RorNH5gD1QSmK | 王俊民 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王俊民（CBDB 282427）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282427&o=json)
 - [中国历代人物传记资料库：王天民（CBDB 202040）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202040&o=json)
+- [中国历代人物传记资料库：王秀民（CBDB 282428）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282428&o=json)
 - [中国历代人物传记资料库：王鉉（CBDB 282424）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282424&o=json)
 - [中国历代人物传记资料库：王英（CBDB 282423）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282423&o=json)
 - [中国历代人物传记资料库：王友（CBDB 282422）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282422&o=json)

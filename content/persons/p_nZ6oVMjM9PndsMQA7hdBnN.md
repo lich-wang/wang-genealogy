@@ -4,7 +4,7 @@ id: p_nZ6oVMjM9PndsMQA7hdBnN
 status: active
 merged_into: null
 display_name: 王致中
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,118 @@ relationships:
         display_name: 王良貴
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_9EtDT34ENw40xgjGM9EqwA
+        subject_person_id: p_8ZAAkFtprZpFjUiPcs2EKG
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nZ6oVMjM9PndsMQA7hdBnN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NNj07qIrP9Zc7rTyPUouwh
+          claim_id: c_9EtDT34ENw40xgjGM9EqwA
+          source_id: s_45K1T755vUhPOn--x9gQX_
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206164 王致中）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_45K1T755vUhPOn--x9gQX_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王建中（CBDB 214286）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214286&o=json
+            external_identifier: CBDB:214286
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8ZAAkFtprZpFjUiPcs2EKG
+        status: active
+        display_name: 王建中
+        merged_into_person_id: null
+    - claim:
+        id: c_tGfkWaZjaMgZMFt1lHtRtw
+        subject_person_id: p_Hsu81w62CyDWAH8ckMUWpc
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nZ6oVMjM9PndsMQA7hdBnN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TGitQ90MCuXR2i2Og9PWVo
+          claim_id: c_tGfkWaZjaMgZMFt1lHtRtw
+          source_id: s_p57qJ76-UaxJOQnbwZMn-6
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206164 王致中）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_p57qJ76-UaxJOQnbwZMn-6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王立中（CBDB 214287）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214287&o=json
+            external_identifier: CBDB:214287
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Hsu81w62CyDWAH8ckMUWpc
+        status: active
+        display_name: 王立中
+        merged_into_person_id: null
+    - claim:
+        id: c_wD_4wK2JrEbguCjXp-DsOm
+        subject_person_id: p_nZ6oVMjM9PndsMQA7hdBnN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qZVUJP1g7SnCf6ZeRGtd5a
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XkDiX3ie20Q3-f2wxMrk9U
+          claim_id: c_wD_4wK2JrEbguCjXp-DsOm
+          source_id: s_zZqZdlpaoeE1lQZ20KHwea
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206164 王致中）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_zZqZdlpaoeE1lQZ20KHwea
+            source_type: api_record
+            title: 中国历代人物传记资料库：王行中（CBDB 214288）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214288&o=json
+            external_identifier: CBDB:214288
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qZVUJP1g7SnCf6ZeRGtd5a
+        status: active
+        display_name: 王行中
+        merged_into_person_id: null
 ---
 
 # 王致中
@@ -240,10 +351,16 @@ relationships:
 | parents | p_5pYb5XTgHHLxK22eWK3gGJ | 王胤 | accepted |
 | ancestors | p_jmJMKk4hxjP633ncw7da1H | 王鐸 | accepted |
 | ancestors | p_JSUFzTfqsf7A7viCabR9FU | 王良貴 | accepted |
+| other | p_8ZAAkFtprZpFjUiPcs2EKG | 王建中 | accepted |
+| other | p_Hsu81w62CyDWAH8ckMUWpc | 王立中 | accepted |
+| other | p_qZVUJP1g7SnCf6ZeRGtd5a | 王行中 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鐸（CBDB 214279）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214279&o=json)
+- [中国历代人物传记资料库：王建中（CBDB 214286）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214286&o=json)
+- [中国历代人物传记资料库：王立中（CBDB 214287）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214287&o=json)
 - [中国历代人物传记资料库：王良貴（CBDB 214280）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214280&o=json)
+- [中国历代人物传记资料库：王行中（CBDB 214288）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214288&o=json)
 - [中国历代人物传记资料库：王胤（CBDB 214282）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214282&o=json)
 - [中国历代人物传记资料库：王致中（CBDB 206164）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206164&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王茂孚
 cbdb_id: 324569
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_lClS1SC21U7fEqEy8iOzo2
+        subject_person_id: p_oZ4kQSFi4x4MxZ3DEL5Xbj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_g9VGzJxeEjCUMANz6T7gPv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LK0QPk4LOoaPvOxQvk0mTi
+          claim_id: c_lClS1SC21U7fEqEy8iOzo2
+          source_id: s_N7UidzKA1FuuGTNrtZ8xWu
+          stance: supports
+          locator: CBDB：兄弟 王用楨（204826）之父／母 王纘宗
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王茂孚 与 王用楨 为同胞（CBDB 记「弟」），王用楨 之父／母即 王茂孚 之父／母。
+          source:
+            id: s_N7UidzKA1FuuGTNrtZ8xWu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王茂孚（CBDB 324569）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324569&o=json
+            external_identifier: CBDB:324569
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oZ4kQSFi4x4MxZ3DEL5Xbj
+        status: active
+        display_name: 王纘宗
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_47H70x8d6E5ZJtNHv6Wfc1
+        subject_person_id: p_g9VGzJxeEjCUMANz6T7gPv
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hpB2Y5ktFHzZw4LUr2KGvj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2oOISs7HE3d7kFj6lDr9U2
+          claim_id: c_47H70x8d6E5ZJtNHv6Wfc1
+          source_id: s_N7UidzKA1FuuGTNrtZ8xWu
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204826 王用楨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_N7UidzKA1FuuGTNrtZ8xWu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王茂孚（CBDB 324569）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324569&o=json
+            external_identifier: CBDB:324569
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hpB2Y5ktFHzZw4LUr2KGvj
+        status: active
+        display_name: 王用楨
+        merged_into_person_id: null
 ---
 
 # 王茂孚
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_oZ4kQSFi4x4MxZ3DEL5Xbj | 王纘宗 | accepted |
+| other | p_hpB2Y5ktFHzZw4LUr2KGvj | 王用楨 | accepted |
 
 ## 外部来源
 

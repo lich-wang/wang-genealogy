@@ -4,7 +4,7 @@ id: p_zGcbQEDDUm5Y71RMcWUTgh
 status: active
 merged_into: null
 display_name: 王鎡
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,81 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_-4Iurf7FmqAFfKondTddVR
+        subject_person_id: p_zGcbQEDDUm5Y71RMcWUTgh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BhEbkutZzdq81JKBUd4yf2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_Lct82yt_nVf5Zx8vRxYGwG
+          claim_id: c_-4Iurf7FmqAFfKondTddVR
+          source_id: s_F3J8PIGLP12ILnWEuAQR0Z
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 22083）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_F3J8PIGLP12ILnWEuAQR0Z
+            source_type: api_record
+            title: 中国历代人物传记资料库：王溉（CBDB 22084）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22084&o=json
+            external_identifier: CBDB:22084
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BhEbkutZzdq81JKBUd4yf2
+        status: active
+        display_name: 王溉
+        merged_into_person_id: null
+    - claim:
+        id: c_xXHvRlhLypi_mZkbBw9yp8
+        subject_person_id: p_zGcbQEDDUm5Y71RMcWUTgh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_W1LEmDt7Cy4U7h4c6TyDxX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_8vXjYYb3HC9KlNndAJJwNj
+          claim_id: c_xXHvRlhLypi_mZkbBw9yp8
+          source_id: s_C1K32TwMvaQGRxNxd2mXRS
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 22083）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_C1K32TwMvaQGRxNxd2mXRS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王渥（CBDB 30482）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30482&o=json
+            external_identifier: CBDB:30482
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_W1LEmDt7Cy4U7h4c6TyDxX
+        status: active
+        display_name: 王渥
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -334,6 +408,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_BhEbkutZzdq81JKBUd4yf2 | 王溉 | accepted |
+| children | p_W1LEmDt7Cy4U7h4c6TyDxX | 王渥 | accepted |
 | spouses | p_An1eB7p5nNk1QDqNJqiSDj | 孫氏 | accepted |
 | descendants | p_1QHHB6mR2XonNZGYyLWjb3 | 王克昌 | accepted |
 | descendants | p_96WsJCaTh25kxTEjXjW8Ry | 王楠 | accepted |
@@ -346,7 +422,9 @@ relationships:
 
 - [中国历代人物传记资料库：孫氏(王鎡妻)（CBDB 5365）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5365&o=json)
 - [中国历代人物传记资料库：王伯昌（CBDB 30488）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30488&o=json)
+- [中国历代人物传记资料库：王溉（CBDB 22084）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22084&o=json)
 - [中国历代人物传记资料库：王克昌（CBDB 30487）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30487&o=json)
 - [中国历代人物传记资料库：王楠（CBDB 30492）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30492&o=json)
 - [中国历代人物传记资料库：王汝昌（CBDB 30491）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30491&o=json)
+- [中国历代人物传记资料库：王渥（CBDB 30482）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30482&o=json)
 - [中国历代人物传记资料库：王鎡（CBDB 22083）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22083&o=json)

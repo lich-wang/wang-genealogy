@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王以修
 cbdb_id: 126492
-revision: 3
+revision: 11
 properties:
   - predicate: bio.summary
     recommended:
@@ -268,7 +268,303 @@ relationships:
         display_name: 王庚吉
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_kcP3uiIUnZfE8BML8yps89
+        subject_person_id: p_2QL6KGVBsKUC9RoVJau8Ax
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_5joJqoMyociS4kycpuaY9i
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_229UpYXBbPD1UvnemaAxr4
+          claim_id: c_kcP3uiIUnZfE8BML8yps89
+          source_id: s_uQdnokxkfExSusOVE39OC1
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126492 王以修）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_uQdnokxkfExSusOVE39OC1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王以孚（CBDB 331771）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331771&o=json
+            external_identifier: CBDB:331771
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2QL6KGVBsKUC9RoVJau8Ax
+        status: active
+        display_name: 王以孚
+        merged_into_person_id: null
+    - claim:
+        id: c_ycr2rO1dKmFA1Kskehkcnc
+        subject_person_id: p_4uqEpzsZPn5Pq8rwSNhRpH
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_5joJqoMyociS4kycpuaY9i
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Bp2nJQKg9TCg2qa2A5NAdO
+          claim_id: c_ycr2rO1dKmFA1Kskehkcnc
+          source_id: s_O-l33pGcw32zsci6EQy-c7
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126492 王以修）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_O-l33pGcw32zsci6EQy-c7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王以作（CBDB 331779）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331779&o=json
+            external_identifier: CBDB:331779
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4uqEpzsZPn5Pq8rwSNhRpH
+        status: active
+        display_name: 王以作
+        merged_into_person_id: null
+    - claim:
+        id: c_HWi6WPODLiy1DUYO0nCrwu
+        subject_person_id: p_5joJqoMyociS4kycpuaY9i
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_9e4AiV7Lt25AgF3mSfcLTp
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cGlsynw_iGit-uAiL6u8qC
+          claim_id: c_HWi6WPODLiy1DUYO0nCrwu
+          source_id: s_pep39zOuSyLCSQbroVnCzW
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126492 王以修）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_pep39zOuSyLCSQbroVnCzW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王以新（CBDB 331775）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331775&o=json
+            external_identifier: CBDB:331775
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9e4AiV7Lt25AgF3mSfcLTp
+        status: active
+        display_name: 王以新
+        merged_into_person_id: null
+    - claim:
+        id: c_488lrhjCu9bN-UVMsO1ffh
+        subject_person_id: p_5joJqoMyociS4kycpuaY9i
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_FProLURjrk172yUAp4kieh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DNzj_6O1kwutiZXKj4yCGA
+          claim_id: c_488lrhjCu9bN-UVMsO1ffh
+          source_id: s_mMKobAdDZ9-jz8wReo81O3
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126492 王以修）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_mMKobAdDZ9-jz8wReo81O3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王以寧（CBDB 331774）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331774&o=json
+            external_identifier: CBDB:331774
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FProLURjrk172yUAp4kieh
+        status: active
+        display_name: 王以寧
+        merged_into_person_id: null
+    - claim:
+        id: c_wJvdEVY2Z9-Bv0z0PsXW-z
+        subject_person_id: p_5joJqoMyociS4kycpuaY9i
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_GwmQLsEiZEWwQxfjMTkiM2
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_W4slsZBMZFj14HL-WWsX3M
+          claim_id: c_wJvdEVY2Z9-Bv0z0PsXW-z
+          source_id: s_h25HfqsslgogZyhaCpT8eC
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126492 王以修）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_h25HfqsslgogZyhaCpT8eC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王以莊（CBDB 331772）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331772&o=json
+            external_identifier: CBDB:331772
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GwmQLsEiZEWwQxfjMTkiM2
+        status: active
+        display_name: 王以莊
+        merged_into_person_id: null
+    - claim:
+        id: c_Jo3HMzMyvRgPqmXMpGnkBZ
+        subject_person_id: p_5joJqoMyociS4kycpuaY9i
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_L52cJTMPzAejZtPYFGPNJo
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AthC95NyOvH2yV-XY3SG4G
+          claim_id: c_Jo3HMzMyvRgPqmXMpGnkBZ
+          source_id: s_qg_a_74HrTtwVWg1Yvp0SG
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126492 王以修）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_qg_a_74HrTtwVWg1Yvp0SG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王以第（CBDB 331770）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331770&o=json
+            external_identifier: CBDB:331770
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_L52cJTMPzAejZtPYFGPNJo
+        status: active
+        display_name: 王以第
+        merged_into_person_id: null
+    - claim:
+        id: c_p4I3_q4tsuOEtodezLdsFl
+        subject_person_id: p_5joJqoMyociS4kycpuaY9i
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_NagG8yzgxihG7BrC5mFCcE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PFFzZKn56T5SFdNwoshhJP
+          claim_id: c_p4I3_q4tsuOEtodezLdsFl
+          source_id: s_mW6A0MLfifLdgqEc97Kdf4
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126492 王以修）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_mW6A0MLfifLdgqEc97Kdf4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王以充（CBDB 331773）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331773&o=json
+            external_identifier: CBDB:331773
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NagG8yzgxihG7BrC5mFCcE
+        status: active
+        display_name: 王以充
+        merged_into_person_id: null
+    - claim:
+        id: c_TBe17KKNfVu2ltKf37e2ih
+        subject_person_id: p_5joJqoMyociS4kycpuaY9i
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_jnF7A5Ubvx97C6nt3zpqmi
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4WZy4TEvU8KZZmFzvNei4z
+          claim_id: c_TBe17KKNfVu2ltKf37e2ih
+          source_id: s_mXgKwft1gNQPmcSqmLmMmV
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126492 王以修）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_mXgKwft1gNQPmcSqmLmMmV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王以貞（CBDB 331776）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331776&o=json
+            external_identifier: CBDB:331776
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jnF7A5Ubvx97C6nt3zpqmi
+        status: active
+        display_name: 王以貞
+        merged_into_person_id: null
 ---
 
 # 王以修
@@ -291,8 +587,24 @@ relationships:
 | parents | p_iHMh7eWrNMdmn3tpjzgVvy | 王言中 | accepted |
 | spouses | p_SWQ67RhzMxUrd13nz1Qq5T | 朱氏 | accepted |
 | ancestors | p_nYT5NgJhG44Ck13GqWDgfJ | 王庚吉 | accepted |
+| other | p_2QL6KGVBsKUC9RoVJau8Ax | 王以孚 | accepted |
+| other | p_4uqEpzsZPn5Pq8rwSNhRpH | 王以作 | accepted |
+| other | p_9e4AiV7Lt25AgF3mSfcLTp | 王以新 | accepted |
+| other | p_FProLURjrk172yUAp4kieh | 王以寧 | accepted |
+| other | p_GwmQLsEiZEWwQxfjMTkiM2 | 王以莊 | accepted |
+| other | p_L52cJTMPzAejZtPYFGPNJo | 王以第 | accepted |
+| other | p_NagG8yzgxihG7BrC5mFCcE | 王以充 | accepted |
+| other | p_jnF7A5Ubvx97C6nt3zpqmi | 王以貞 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王以充（CBDB 331773）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331773&o=json)
+- [中国历代人物传记资料库：王以第（CBDB 331770）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331770&o=json)
+- [中国历代人物传记资料库：王以孚（CBDB 331771）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331771&o=json)
+- [中国历代人物传记资料库：王以寧（CBDB 331774）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331774&o=json)
+- [中国历代人物传记资料库：王以新（CBDB 331775）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331775&o=json)
 - [中国历代人物传记资料库：王以修（CBDB 126492）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126492&o=json)
+- [中国历代人物传记资料库：王以貞（CBDB 331776）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331776&o=json)
+- [中国历代人物传记资料库：王以莊（CBDB 331772）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331772&o=json)
+- [中国历代人物传记资料库：王以作（CBDB 331779）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331779&o=json)
 - [中国历代人物传记资料库：朱氏(王以修妻)（CBDB 331768）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331768&o=json)

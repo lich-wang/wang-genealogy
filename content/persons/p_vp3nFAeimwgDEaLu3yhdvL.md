@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王嗣盛
 cbdb_id: 219546
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_qZI1UdGRTSsZR9oel1NFCW
+        subject_person_id: p_NF9HbHTtZ8ow78qFYfTJ3z
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vp3nFAeimwgDEaLu3yhdvL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V0YktuhksMQJR9KflW8KFX
+          claim_id: c_qZI1UdGRTSsZR9oel1NFCW
+          source_id: s_5Gp8jOxvad4dpX5j6JZ1dL
+          stance: supports
+          locator: CBDB：兄弟 王嗣美（206544）之父／母 王傳
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王嗣盛 与 王嗣美 为同胞（CBDB 记「兄」），王嗣美 之父／母即 王嗣盛 之父／母。
+          source:
+            id: s_5Gp8jOxvad4dpX5j6JZ1dL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嗣盛（CBDB 219546）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219546&o=json
+            external_identifier: CBDB:219546
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NF9HbHTtZ8ow78qFYfTJ3z
+        status: active
+        display_name: 王傳
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_SAIBAvpbKz_ZZV8ESPsaYL
+        subject_person_id: p_tEHS6YSuyxSKL9JTr26FoR
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vp3nFAeimwgDEaLu3yhdvL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7bkwO8xkSXCQBZFx0JOesK
+          claim_id: c_SAIBAvpbKz_ZZV8ESPsaYL
+          source_id: s_5Gp8jOxvad4dpX5j6JZ1dL
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206544 王嗣美）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_5Gp8jOxvad4dpX5j6JZ1dL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嗣盛（CBDB 219546）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219546&o=json
+            external_identifier: CBDB:219546
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_tEHS6YSuyxSKL9JTr26FoR
+        status: active
+        display_name: 王嗣美
+        merged_into_person_id: null
 ---
 
 # 王嗣盛
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_NF9HbHTtZ8ow78qFYfTJ3z | 王傳 | accepted |
+| other | p_tEHS6YSuyxSKL9JTr26FoR | 王嗣美 | accepted |
 
 ## 外部来源
 

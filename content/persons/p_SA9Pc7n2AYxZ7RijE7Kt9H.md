@@ -4,7 +4,7 @@ id: p_SA9Pc7n2AYxZ7RijE7Kt9H
 status: active
 merged_into: null
 display_name: 王通
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,80 @@ relationships:
         status: active
         display_name: 王雲
         merged_into_person_id: null
+    - claim:
+        id: c_9y_L5RpmdfV5niKElP_RNq
+        subject_person_id: p_SA9Pc7n2AYxZ7RijE7Kt9H
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Nr2hwJmwAZeMSAFRBKvRi5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vdYLt52GWgy8g2diN8Tyvz
+          claim_id: c_9y_L5RpmdfV5niKElP_RNq
+          source_id: s_5yf1Do-XQ4ahD3JpFqxHmh
+          stance: supports
+          locator: CBDB：兄弟 王雲（201331）之父／母 王通
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王霓 与 王雲 为同胞（CBDB 记「兄」），王雲 之父／母即 王霓 之父／母。
+          source:
+            id: s_5yf1Do-XQ4ahD3JpFqxHmh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王霓（CBDB 270652）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270652&o=json
+            external_identifier: CBDB:270652
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Nr2hwJmwAZeMSAFRBKvRi5
+        status: active
+        display_name: 王霓
+        merged_into_person_id: null
+    - claim:
+        id: c_pny3ZNMEGEgEU_P7RsCEa7
+        subject_person_id: p_SA9Pc7n2AYxZ7RijE7Kt9H
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mf1q4db1p2ptsEKQidLGnS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lI7SAJda5JK9mdcx5Zj91Q
+          claim_id: c_pny3ZNMEGEgEU_P7RsCEa7
+          source_id: s_B_iBZNfsRLL267yKgvCE40
+          stance: supports
+          locator: CBDB：兄弟 王雲（201331）之父／母 王通
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王霽 与 王雲 为同胞（CBDB 记「兄」），王雲 之父／母即 王霽 之父／母。
+          source:
+            id: s_B_iBZNfsRLL267yKgvCE40
+            source_type: api_record
+            title: 中国历代人物传记资料库：王霽（CBDB 270653）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270653&o=json
+            external_identifier: CBDB:270653
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mf1q4db1p2ptsEKQidLGnS
+        status: active
+        display_name: 王霽
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +209,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_kuyuiJHgUznyGsvyFU7zw8 | 王雲 | accepted |
+| children | p_Nr2hwJmwAZeMSAFRBKvRi5 | 王霓 | accepted |
+| children | p_mf1q4db1p2ptsEKQidLGnS | 王霽 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王霽（CBDB 270653）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270653&o=json)
+- [中国历代人物传记资料库：王霓（CBDB 270652）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270652&o=json)
 - [中国历代人物传记资料库：王通（CBDB 270648）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270648&o=json)
 - [中国历代人物传记资料库：王雲（CBDB 201331）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201331&o=json)

@@ -4,7 +4,7 @@ id: p_9KuNRr8o75Vr36yjwDeyAm
 status: active
 merged_into: null
 display_name: 王應時
-revision: 2
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,191 @@ relationships:
         status: active
         display_name: 王體復
         merged_into_person_id: null
+    - claim:
+        id: c_nQMBnIUSO7V7E3fSvWmBU4
+        subject_person_id: p_9KuNRr8o75Vr36yjwDeyAm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7c57vbsCX5amL8hcYm4eB1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iQh0iJBH0lZDIxzb2zVpC3
+          claim_id: c_nQMBnIUSO7V7E3fSvWmBU4
+          source_id: s_LsATLxlRJimzbeqkTzHBJ8
+          stance: supports
+          locator: CBDB：兄弟 王體復（205493）之父／母 王應時
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王體泰 与 王體復 为同胞（CBDB 记「兄」），王體復 之父／母即 王體泰 之父／母。
+          source:
+            id: s_LsATLxlRJimzbeqkTzHBJ8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王體泰（CBDB 334179）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334179&o=json
+            external_identifier: CBDB:334179
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7c57vbsCX5amL8hcYm4eB1
+        status: active
+        display_name: 王體泰
+        merged_into_person_id: null
+    - claim:
+        id: c_QQcFd9lgSSirbmGC7M78HB
+        subject_person_id: p_9KuNRr8o75Vr36yjwDeyAm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_92XH4vNeTuBz9QdW81YGcZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tG5WVVhuEjqFwG0txRCblu
+          claim_id: c_QQcFd9lgSSirbmGC7M78HB
+          source_id: s_IDOqFmQRzMy_X4aupGeblT
+          stance: supports
+          locator: CBDB：兄弟 王體復（205493）之父／母 王應時
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王體震 与 王體復 为同胞（CBDB 记「弟」），王體復 之父／母即 王體震 之父／母。
+          source:
+            id: s_IDOqFmQRzMy_X4aupGeblT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王體震（CBDB 334178）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334178&o=json
+            external_identifier: CBDB:334178
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_92XH4vNeTuBz9QdW81YGcZ
+        status: active
+        display_name: 王體震
+        merged_into_person_id: null
+    - claim:
+        id: c_CeyaTYu9DrWfQ6BWfgDf7q
+        subject_person_id: p_9KuNRr8o75Vr36yjwDeyAm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9kNW5uYfeXVFmwU7j4A6re
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J1_H78Dx5kya2YyDFOuR2R
+          claim_id: c_CeyaTYu9DrWfQ6BWfgDf7q
+          source_id: s_B3qSkgTVJSZ_BKj8SUwowT
+          stance: supports
+          locator: CBDB：兄弟 王體復（205493）之父／母 王應時
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王體巽 与 王體復 为同胞（CBDB 记「兄」），王體復 之父／母即 王體巽 之父／母。
+          source:
+            id: s_B3qSkgTVJSZ_BKj8SUwowT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王體巽（CBDB 334182）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334182&o=json
+            external_identifier: CBDB:334182
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9kNW5uYfeXVFmwU7j4A6re
+        status: active
+        display_name: 王體巽
+        merged_into_person_id: null
+    - claim:
+        id: c_RgeJaOdJV54i1SmKm5Megi
+        subject_person_id: p_9KuNRr8o75Vr36yjwDeyAm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aXPBK6LgA91CQ9KrtgwDbN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Jj5q_WvtrzJwOdZcN85EXS
+          claim_id: c_RgeJaOdJV54i1SmKm5Megi
+          source_id: s_kC_OjskgomyODoDhpffB8b
+          stance: supports
+          locator: CBDB：兄弟 王體復（205493）之父／母 王應時
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王體乾 与 王體復 为同胞（CBDB 记「弟」），王體復 之父／母即 王體乾 之父／母。
+          source:
+            id: s_kC_OjskgomyODoDhpffB8b
+            source_type: api_record
+            title: 中国历代人物传记资料库：王體乾（CBDB 334176）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334176&o=json
+            external_identifier: CBDB:334176
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aXPBK6LgA91CQ9KrtgwDbN
+        status: active
+        display_name: 王體乾
+        merged_into_person_id: null
+    - claim:
+        id: c_1o6F2H__ioR-JRWZCr-H_y
+        subject_person_id: p_9KuNRr8o75Vr36yjwDeyAm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nh77ph8B2fBSHWBwBLmhkS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_40rGxp0PF4SKqmhfatpGhH
+          claim_id: c_1o6F2H__ioR-JRWZCr-H_y
+          source_id: s_gwSMXANPcbJi4gPngSorMZ
+          stance: supports
+          locator: CBDB：兄弟 王體復（205493）之父／母 王應時
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王體益 与 王體復 为同胞（CBDB 记「兄」），王體復 之父／母即 王體益 之父／母。
+          source:
+            id: s_gwSMXANPcbJi4gPngSorMZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王體益（CBDB 334181）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334181&o=json
+            external_identifier: CBDB:334181
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nh77ph8B2fBSHWBwBLmhkS
+        status: active
+        display_name: 王體益
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +309,17 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_Que1Sc9ugp524zabUcC6Bk | 王體復 | accepted |
+| children | p_7c57vbsCX5amL8hcYm4eB1 | 王體泰 | accepted |
+| children | p_92XH4vNeTuBz9QdW81YGcZ | 王體震 | accepted |
+| children | p_9kNW5uYfeXVFmwU7j4A6re | 王體巽 | accepted |
+| children | p_aXPBK6LgA91CQ9KrtgwDbN | 王體乾 | accepted |
+| children | p_nh77ph8B2fBSHWBwBLmhkS | 王體益 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王體乾（CBDB 334176）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334176&o=json)
+- [中国历代人物传记资料库：王體泰（CBDB 334179）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334179&o=json)
+- [中国历代人物传记资料库：王體巽（CBDB 334182）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334182&o=json)
+- [中国历代人物传记资料库：王體益（CBDB 334181）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334181&o=json)
+- [中国历代人物传记资料库：王體震（CBDB 334178）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334178&o=json)
 - [中国历代人物传记资料库：王應時（CBDB 334172）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334172&o=json)

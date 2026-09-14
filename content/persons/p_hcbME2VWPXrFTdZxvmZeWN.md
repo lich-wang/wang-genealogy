@@ -4,7 +4,7 @@ id: p_hcbME2VWPXrFTdZxvmZeWN
 status: active
 merged_into: null
 display_name: 王宗望
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_-RUByL4cHBg0yoGIaZFoCK
+        subject_person_id: p_PYM7TF8n5zz54ZhKXXXqUT
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hcbME2VWPXrFTdZxvmZeWN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_StW55cYeWZ1POe1DVnqyD1
+          claim_id: c_-RUByL4cHBg0yoGIaZFoCK
+          source_id: s_4iuSFE0_g_X_mG9HGv81Av
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 37631 王萬章）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_4iuSFE0_g_X_mG9HGv81Av
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗望（CBDB 37629）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37629&o=json
+            external_identifier: CBDB:37629
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PYM7TF8n5zz54ZhKXXXqUT
+        status: active
+        display_name: 王萬章
+        merged_into_person_id: null
 ---
 
 # 王宗望
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_PYM7TF8n5zz54ZhKXXXqUT | 王萬章 | accepted |
 
 ## 外部来源
 

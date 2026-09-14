@@ -4,7 +4,7 @@ id: p_518MAjgWUyHuRmraWVNPiT
 status: active
 merged_into: null
 display_name: 王銳
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_4fXWk9Vt2aq-UYnv5fqzQ1
+        subject_person_id: p_Hgxi33jEZJCNUrJvtuJpZh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_518MAjgWUyHuRmraWVNPiT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ztus67iVAGZxj3y02cPv36
+          claim_id: c_4fXWk9Vt2aq-UYnv5fqzQ1
+          source_id: s_TLxC_cA2NMXvx0yj4V8G4S
+          stance: supports
+          locator: CBDB：兄弟 王欽（198425）之父／母 王庭哲
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王銳 与 王欽 为同胞（CBDB 记「兄」），王欽 之父／母即 王銳 之父／母。
+          source:
+            id: s_TLxC_cA2NMXvx0yj4V8G4S
+            source_type: api_record
+            title: 中国历代人物传记资料库：王銳（CBDB 270528）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270528&o=json
+            external_identifier: CBDB:270528
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Hgxi33jEZJCNUrJvtuJpZh
+        status: active
+        display_name: 王庭哲
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_dykVTSEFnTAjC7sFjU-ICU
+        subject_person_id: p_518MAjgWUyHuRmraWVNPiT
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nr8RYEFav3WB5L5BxkUtUu
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_W8nUP_TTsW8fCU7pfRMBGb
+          claim_id: c_dykVTSEFnTAjC7sFjU-ICU
+          source_id: s_TLxC_cA2NMXvx0yj4V8G4S
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198425 王欽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_TLxC_cA2NMXvx0yj4V8G4S
+            source_type: api_record
+            title: 中国历代人物传记资料库：王銳（CBDB 270528）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270528&o=json
+            external_identifier: CBDB:270528
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nr8RYEFav3WB5L5BxkUtUu
+        status: active
+        display_name: 王欽
+        merged_into_person_id: null
 ---
 
 # 王銳
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Hgxi33jEZJCNUrJvtuJpZh | 王庭哲 | accepted |
+| other | p_nr8RYEFav3WB5L5BxkUtUu | 王欽 | accepted |
 
 ## 外部来源
 

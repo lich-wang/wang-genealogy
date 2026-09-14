@@ -4,7 +4,7 @@ id: p_5AUJjM5DJaTK73XoVdx2Mm
 status: active
 merged_into: null
 display_name: 王縉
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,44 @@ relationships:
         display_name: 王英
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_sPaedT6rptaGkq1s0Epu28
+        subject_person_id: p_5AUJjM5DJaTK73XoVdx2Mm
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_GGvBfRTcsyF3cmnrENyGsK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E6EUs-QfqGQ67ZP6lTU_2Q
+          claim_id: c_sPaedT6rptaGkq1s0Epu28
+          source_id: s_SnonyjwmyVpxtrDGFyVDDj
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201041 王縉）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_SnonyjwmyVpxtrDGFyVDDj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王經（CBDB 266259）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266259&o=json
+            external_identifier: CBDB:266259
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GGvBfRTcsyF3cmnrENyGsK
+        status: active
+        display_name: 王經
+        merged_into_person_id: null
 ---
 
 # 王縉
@@ -245,8 +282,10 @@ relationships:
 | spouses | p_W8pJKSbJ29viQBFYPNGKPo | 郭氏 | accepted |
 | ancestors | p_yFv1UscRtN27XsgPhNidJU | 王禎 | accepted |
 | ancestors | p_NkHNKQEGBGM2L8QVxJbe8U | 王英 | accepted |
+| other | p_GGvBfRTcsyF3cmnrENyGsK | 王經 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：郭氏(王縉妻)（CBDB 266258）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266258&o=json)
 - [中国历代人物传记资料库：王縉（CBDB 201041）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201041&o=json)
+- [中国历代人物传记资料库：王經（CBDB 266259）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266259&o=json)

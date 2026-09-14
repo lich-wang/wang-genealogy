@@ -4,7 +4,7 @@ id: p_v4RrPC9uPkhUh6Z6g5833f
 status: active
 merged_into: null
 display_name: 王世某
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_wO9L1CewSQ6XDkMnUQNqkH
+        subject_person_id: p_Jj8dkQubs7taj8bUq4RoTF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_v4RrPC9uPkhUh6Z6g5833f
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0BzhIyE-aCWGKo7RtvKWUN
+          claim_id: c_wO9L1CewSQ6XDkMnUQNqkH
+          source_id: s_1Vfk9o1agldG7QF7cPMdSa
+          stance: supports
+          locator: CBDB：兄弟 王世文（201664）之父／母 王鯨
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王世某 与 王世文 为同胞（CBDB 记「兄」），王世文 之父／母即 王世某 之父／母。
+          source:
+            id: s_1Vfk9o1agldG7QF7cPMdSa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世某（CBDB 276007）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276007&o=json
+            external_identifier: CBDB:276007
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Jj8dkQubs7taj8bUq4RoTF
+        status: active
+        display_name: 王鯨
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_A6uGRqDUHkw0pIISoe7SjV
+        subject_person_id: p_HPi9LMn5Kw5811QG1EqGfq
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_v4RrPC9uPkhUh6Z6g5833f
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VnZnlesDFYazM5tk2kvQiO
+          claim_id: c_A6uGRqDUHkw0pIISoe7SjV
+          source_id: s_1Vfk9o1agldG7QF7cPMdSa
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201664 王世文）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_1Vfk9o1agldG7QF7cPMdSa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世某（CBDB 276007）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276007&o=json
+            external_identifier: CBDB:276007
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HPi9LMn5Kw5811QG1EqGfq
+        status: active
+        display_name: 王世文
+        merged_into_person_id: null
 ---
 
 # 王世某
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Jj8dkQubs7taj8bUq4RoTF | 王鯨 | accepted |
+| other | p_HPi9LMn5Kw5811QG1EqGfq | 王世文 | accepted |
 
 ## 外部来源
 

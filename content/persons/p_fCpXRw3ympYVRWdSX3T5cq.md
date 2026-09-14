@@ -4,7 +4,7 @@ id: p_fCpXRw3ympYVRWdSX3T5cq
 status: active
 merged_into: null
 display_name: 王福畤
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -761,6 +761,43 @@ relationships:
         status: active
         display_name: 王勔
         merged_into_person_id: null
+    - claim:
+        id: c_tHwFh-C_jRJu5nS4CvMuwd
+        subject_person_id: p_fCpXRw3ympYVRWdSX3T5cq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UvT6rfvfyeQtGV2w2picuQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oNnGu0F1i7PA3fVDx_Zlli
+          claim_id: c_tHwFh-C_jRJu5nS4CvMuwd
+          source_id: s_lMIAyIqn0ypYjz7YEc3DZB
+          stance: supports
+          locator: CBDB：兄弟 王勃（30982）之父／母 王福畤
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王勮 与 王勃 为同胞（CBDB 记「弟」），王勃 之父／母即 王勮 之父／母。
+          source:
+            id: s_lMIAyIqn0ypYjz7YEc3DZB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王勮（CBDB 92110）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92110&o=json
+            external_identifier: CBDB:92110
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_UvT6rfvfyeQtGV2w2picuQ
+        status: active
+        display_name: 王勮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -790,6 +827,7 @@ relationships:
 | children | p_3CDBAkcgG1mnkdjqn6afQr | 王勮 | accepted |
 | children | p_1HFrXhR5k8Wh7RX7Cyq9Qe | 王助 | accepted |
 | children | p_7Pig6Y7VUyvmBD1MUwthZa | 王勔 | accepted |
+| children | p_UvT6rfvfyeQtGV2w2picuQ | 王勮 | accepted |
 
 ## 外部来源
 
@@ -800,6 +838,7 @@ relationships:
 - [维基文库：新唐書/卷201·王福畤](https://zh.wikisource.org/wiki/新唐書/卷201)
 - [維基數據：王勃（Q1275321）](https://www.wikidata.org/wiki/Q1275321)
 - [維基數據：王福畤（Q18905529）](https://www.wikidata.org/wiki/Q18905529)
+- [中国历代人物传记资料库：王勮（CBDB 92110）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92110&o=json)
 - [中文维基百科：王勃](https://zh.wikipedia.org/wiki/王勃)
 - [中文维基百科：王勃](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8B%83)
 - [中文维基百科：王勮](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8B%AE)

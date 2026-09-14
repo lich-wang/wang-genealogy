@@ -4,7 +4,7 @@ id: p_RV7rHymbjAuMVkCqKsJaax
 status: active
 merged_into: null
 display_name: 王陶
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -193,6 +193,43 @@ relationships:
         status: active
         display_name: 王寧
         merged_into_person_id: null
+    - claim:
+        id: c_nt90rst9BA3asRX_b59NQE
+        subject_person_id: p_RV7rHymbjAuMVkCqKsJaax
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kipnbgKAQxDFwKijYNoqua
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_tNYNLGMNhg6eFGE628t_XY
+          claim_id: c_nt90rst9BA3asRX_b59NQE
+          source_id: s_OsAqRirv7XfeL64dyR-uyV
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 22123）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_OsAqRirv7XfeL64dyR-uyV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寔（CBDB 22124）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22124&o=json
+            external_identifier: CBDB:22124
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kipnbgKAQxDFwKijYNoqua
+        status: active
+        display_name: 王寔
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -220,8 +257,10 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_XxbY91RiCBrsB5eVREE1y2 | 王應 | accepted |
 | children | p_aFMUYGj8BUSGRCS44jePEP | 王寧 | accepted |
+| children | p_kipnbgKAQxDFwKijYNoqua | 王寔 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王寧（CBDB 99963）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=99963&o=json)
+- [中国历代人物传记资料库：王寔（CBDB 22124）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22124&o=json)
 - [中国历代人物传记资料库：王陶（CBDB 22123）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22123&o=json)

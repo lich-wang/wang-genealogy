@@ -4,7 +4,7 @@ id: p_t96uJdhxP4zNu73j7EBZxP
 status: active
 merged_into: null
 display_name: 王桓
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_wnkCIhzReKydesQcWLYVUl
+        subject_person_id: p_aBrfrjfaJYaR7SroBPRHWS
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_t96uJdhxP4zNu73j7EBZxP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_t8zrzoRAJEF_iFz30Ydg79
+          claim_id: c_wnkCIhzReKydesQcWLYVUl
+          source_id: s_RlKYYQ4WGJCTn_w4btpX8o
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 28785 王構）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_RlKYYQ4WGJCTn_w4btpX8o
+            source_type: api_record
+            title: 中国历代人物传记资料库：王桓（CBDB 100763）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=100763&o=json
+            external_identifier: CBDB:100763
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aBrfrjfaJYaR7SroBPRHWS
+        status: active
+        display_name: 王構
+        merged_into_person_id: null
 ---
 
 # 王桓
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_aBrfrjfaJYaR7SroBPRHWS | 王構 | accepted |
 
 ## 外部来源
 

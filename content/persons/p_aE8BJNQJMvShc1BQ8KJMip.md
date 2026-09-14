@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王士昭
 cbdb_id: 201216
-revision: 4
+revision: 8
 properties:
   - predicate: bio.summary
     recommended:
@@ -236,7 +236,155 @@ relationships:
         display_name: 王真壽
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_-AH9aVv_m6z-b53BdwNgsL
+        subject_person_id: p_514fUU2vAuZjP5Wr7Lhwn6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_aE8BJNQJMvShc1BQ8KJMip
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aqPjrMOUX9OAwJiv1sPjPe
+          claim_id: c_-AH9aVv_m6z-b53BdwNgsL
+          source_id: s_kgchoG_CwPUCzKYYy9-COu
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201216 王士昭）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_kgchoG_CwPUCzKYYy9-COu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昺（CBDB 268963）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268963&o=json
+            external_identifier: CBDB:268963
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_514fUU2vAuZjP5Wr7Lhwn6
+        status: active
+        display_name: 王昺
+        merged_into_person_id: null
+    - claim:
+        id: c_R9an_AN3LNrH0XfF7PXzmx
+        subject_person_id: p_aE8BJNQJMvShc1BQ8KJMip
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_g9ETCs2LWZEoZ1BLCdT7cG
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SzTAmLWJumS76TVgwpuHq0
+          claim_id: c_R9an_AN3LNrH0XfF7PXzmx
+          source_id: s_ryQrJ1I_zG7dgtFI2mJgxm
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201216 王士昭）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ryQrJ1I_zG7dgtFI2mJgxm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昱（CBDB 268962）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268962&o=json
+            external_identifier: CBDB:268962
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_g9ETCs2LWZEoZ1BLCdT7cG
+        status: active
+        display_name: 王昱
+        merged_into_person_id: null
+    - claim:
+        id: c_N_j9mkvG6leDKrCabu2FAB
+        subject_person_id: p_aE8BJNQJMvShc1BQ8KJMip
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mTMqZ927NNCJL74Eug1aL5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OSsoN_HPyNgPM81VhwdSQz
+          claim_id: c_N_j9mkvG6leDKrCabu2FAB
+          source_id: s_Tr5UobupPAGTnU0GsLftZ0
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201216 王士昭）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Tr5UobupPAGTnU0GsLftZ0
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昆（CBDB 268964）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268964&o=json
+            external_identifier: CBDB:268964
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mTMqZ927NNCJL74Eug1aL5
+        status: active
+        display_name: 王昆
+        merged_into_person_id: null
+    - claim:
+        id: c_W6Cv2AxdG2kURZZmumRCjp
+        subject_person_id: p_aE8BJNQJMvShc1BQ8KJMip
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_psDTG8148fihHUZuCyHaw2
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2aLL4y_XzKjGdxI1T6mA-B
+          claim_id: c_W6Cv2AxdG2kURZZmumRCjp
+          source_id: s_C3dCSdA7OlD8SlbSaMAqfQ
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201216 王士昭）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_C3dCSdA7OlD8SlbSaMAqfQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昊（CBDB 268966）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268966&o=json
+            external_identifier: CBDB:268966
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_psDTG8148fihHUZuCyHaw2
+        status: active
+        display_name: 王昊
+        merged_into_person_id: null
 ---
 
 # 王士昭
@@ -258,10 +406,18 @@ relationships:
 | parents | p_h6BmB86zBMykMHbjPtNFFj | 王傑 | accepted |
 | ancestors | p_ePoaNUZHXuctz23XN1xPv5 | 王珤 | accepted |
 | ancestors | p_mTBJ2X7pVJNNipQjLFjpMJ | 王真壽 | accepted |
+| other | p_514fUU2vAuZjP5Wr7Lhwn6 | 王昺 | accepted |
+| other | p_g9ETCs2LWZEoZ1BLCdT7cG | 王昱 | accepted |
+| other | p_mTMqZ927NNCJL74Eug1aL5 | 王昆 | accepted |
+| other | p_psDTG8148fihHUZuCyHaw2 | 王昊 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王珤（CBDB 268955）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268955&o=json)
+- [中国历代人物传记资料库：王昺（CBDB 268963）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268963&o=json)
+- [中国历代人物传记资料库：王昊（CBDB 268966）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268966&o=json)
 - [中国历代人物传记资料库：王傑（CBDB 268957）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268957&o=json)
+- [中国历代人物传记资料库：王昆（CBDB 268964）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268964&o=json)
 - [中国历代人物传记资料库：王士昭（CBDB 201216）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201216&o=json)
+- [中国历代人物传记资料库：王昱（CBDB 268962）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268962&o=json)
 - [中国历代人物传记资料库：王真壽（CBDB 268956）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268956&o=json)

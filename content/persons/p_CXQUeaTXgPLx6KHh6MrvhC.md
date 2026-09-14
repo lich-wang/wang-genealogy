@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王原析
 cbdb_id: 327873
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_c6qnbVn1uFpWXxBYShCDdo
+        subject_person_id: p_2ER4qeybN68kj6wmWDD4De
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_CXQUeaTXgPLx6KHh6MrvhC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ok0R6asr19fMG3xEWNLrgN
+          claim_id: c_c6qnbVn1uFpWXxBYShCDdo
+          source_id: s_hD7cec05IfOtTBMIZ_7pnW
+          stance: supports
+          locator: CBDB：兄弟 王原相（205067）之父／母 王渐逵
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王原析 与 王原相 为同胞（CBDB 记「兄」），王原相 之父／母即 王原析 之父／母。
+          source:
+            id: s_hD7cec05IfOtTBMIZ_7pnW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王原析（CBDB 327873）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327873&o=json
+            external_identifier: CBDB:327873
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2ER4qeybN68kj6wmWDD4De
+        status: active
+        display_name: 王渐逵
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_NUhv01lSWuCRf28Ig42nCm
+        subject_person_id: p_CXQUeaTXgPLx6KHh6MrvhC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ghyYDQ5eZ8uxN8ip6BX7KC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FdyYPpMaG0yILEhB760_Dl
+          claim_id: c_NUhv01lSWuCRf28Ig42nCm
+          source_id: s_hD7cec05IfOtTBMIZ_7pnW
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205067 王原相）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hD7cec05IfOtTBMIZ_7pnW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王原析（CBDB 327873）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327873&o=json
+            external_identifier: CBDB:327873
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ghyYDQ5eZ8uxN8ip6BX7KC
+        status: active
+        display_name: 王原相
+        merged_into_person_id: null
 ---
 
 # 王原析
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_2ER4qeybN68kj6wmWDD4De | 王渐逵 | accepted |
+| other | p_ghyYDQ5eZ8uxN8ip6BX7KC | 王原相 | accepted |
 
 ## 外部来源
 

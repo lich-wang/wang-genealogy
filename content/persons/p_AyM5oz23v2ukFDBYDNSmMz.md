@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王春瀾
 cbdb_id: 308959
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_L4PWTwMMJ32oH8OTWxxRuQ
+        subject_person_id: p_EfJdyGwVk7PiJrwsDYXbLo
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AyM5oz23v2ukFDBYDNSmMz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-ocb7WLUqh6plZMuADm1cH
+          claim_id: c_L4PWTwMMJ32oH8OTWxxRuQ
+          source_id: s_8AFiw2Q8s3Ve3KAMjpWEY5
+          stance: supports
+          locator: CBDB：兄弟 王春澤（126604）之父／母 王豸
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王春瀾 与 王春澤 为同胞（CBDB 记「弟」），王春澤 之父／母即 王春瀾 之父／母。
+          source:
+            id: s_8AFiw2Q8s3Ve3KAMjpWEY5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王春瀾（CBDB 308959）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308959&o=json
+            external_identifier: CBDB:308959
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EfJdyGwVk7PiJrwsDYXbLo
+        status: active
+        display_name: 王豸
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_GsipsiSdK0-sHz02NXXAoE
+        subject_person_id: p_AyM5oz23v2ukFDBYDNSmMz
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_DA2QvREynL5ZUoyG8V9cNp
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2P9C8nx8tCB4AO51YIj6Mm
+          claim_id: c_GsipsiSdK0-sHz02NXXAoE
+          source_id: s_8AFiw2Q8s3Ve3KAMjpWEY5
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126604 王春澤）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_8AFiw2Q8s3Ve3KAMjpWEY5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王春瀾（CBDB 308959）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308959&o=json
+            external_identifier: CBDB:308959
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DA2QvREynL5ZUoyG8V9cNp
+        status: active
+        display_name: 王春澤
+        merged_into_person_id: null
 ---
 
 # 王春瀾
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_EfJdyGwVk7PiJrwsDYXbLo | 王豸 | accepted |
+| other | p_DA2QvREynL5ZUoyG8V9cNp | 王春澤 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王枚士
 cbdb_id: 30033
-revision: 3
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -198,7 +198,81 @@ relationships:
         status: active
         display_name: 王采
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_S9KMpjGHZsGXXG-x6Ga8LM
+        subject_person_id: p_Tz4YpWKtJXjcMJNGcixnvv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_E3jyn3iMhLxX8MiuCHAoAQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_l95BQM6Fqz4miqZIIbqyVu
+          claim_id: c_S9KMpjGHZsGXXG-x6Ga8LM
+          source_id: s_mbijOCLK28elS388ZEyyFP
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 30033）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_mbijOCLK28elS388ZEyyFP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王讚（CBDB 30041）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30041&o=json
+            external_identifier: CBDB:30041
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_E3jyn3iMhLxX8MiuCHAoAQ
+        status: active
+        display_name: 王讚
+        merged_into_person_id: null
+    - claim:
+        id: c_kWlK0_lN2pqjpVCjrjlBeQ
+        subject_person_id: p_Tz4YpWKtJXjcMJNGcixnvv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_apGG5rHXP233Se1GfXy3BU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_JOQp2sRlFZZ1c5T4le1w04
+          claim_id: c_kWlK0_lN2pqjpVCjrjlBeQ
+          source_id: s_R29CaeXMMeoutZJFFhhsUL
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 30033）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_R29CaeXMMeoutZJFFhhsUL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王讌（CBDB 30042）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30042&o=json
+            external_identifier: CBDB:30042
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_apGG5rHXP233Se1GfXy3BU
+        status: active
+        display_name: 王讌
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -262,6 +336,8 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_ZrVPMZwm7fGRq1QgALGJYj | 王采 | accepted |
+| children | p_E3jyn3iMhLxX8MiuCHAoAQ | 王讚 | accepted |
+| children | p_apGG5rHXP233Se1GfXy3BU | 王讌 | accepted |
 | spouses | p_GaoYSbCZyFzrURv52a2Qf9 | 解宜人 | accepted |
 
 ## 外部来源
@@ -269,3 +345,5 @@ relationships:
 - [中国历代人物传记资料库：解宜人（CBDB 30039）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30039&o=json)
 - [中国历代人物传记资料库：王采（CBDB 30038）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30038&o=json)
 - [中国历代人物传记资料库：王枚士（CBDB 30033）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30033&o=json)
+- [中国历代人物传记资料库：王讌（CBDB 30042）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30042&o=json)
+- [中国历代人物传记资料库：王讚（CBDB 30041）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30041&o=json)

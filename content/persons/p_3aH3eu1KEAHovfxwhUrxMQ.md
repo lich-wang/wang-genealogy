@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王敏尚
 cbdb_id: 134098
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -160,7 +160,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_5BYU0nh1idgbXo3g_AgyQw
+        subject_person_id: p_Twe1TZKJwAM5y4NPmBAiBC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3aH3eu1KEAHovfxwhUrxMQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_20P1C5MUYg63gDZOv0LMvE
+          claim_id: c_5BYU0nh1idgbXo3g_AgyQw
+          source_id: s_eKGcrHSLcW7PAC2cyCET80
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 134094）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_eKGcrHSLcW7PAC2cyCET80
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敏尚（CBDB 134098）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134098&o=json
+            external_identifier: CBDB:134098
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Twe1TZKJwAM5y4NPmBAiBC
+        status: active
+        display_name: 王鞏
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -187,6 +224,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Twe1TZKJwAM5y4NPmBAiBC | 王鞏 | accepted |
 
 ## 外部来源
 

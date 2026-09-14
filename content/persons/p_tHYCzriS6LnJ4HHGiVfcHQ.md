@@ -4,7 +4,7 @@ id: p_tHYCzriS6LnJ4HHGiVfcHQ
 status: active
 merged_into: null
 display_name: 王汝清
-revision: 5
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -176,6 +176,80 @@ relationships:
         status: active
         display_name: 王胤賢
         merged_into_person_id: null
+    - claim:
+        id: c_Tdwk-Hwb1RYhzjhu8761KB
+        subject_person_id: p_tHYCzriS6LnJ4HHGiVfcHQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iR6ghYs4fGeWgymwd4mhPE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8NoHUPsazU4YY2b0-8DUB6
+          claim_id: c_Tdwk-Hwb1RYhzjhu8761KB
+          source_id: s_ns2RMEEq5aPQ0uF_SrTpkh
+          stance: supports
+          locator: CBDB：兄弟 王胤賢（201978）之父／母 王汝清
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王胤明 与 王胤賢 为同胞（CBDB 记「兄」），王胤賢 之父／母即 王胤明 之父／母。
+          source:
+            id: s_ns2RMEEq5aPQ0uF_SrTpkh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王胤明（CBDB 281437）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281437&o=json
+            external_identifier: CBDB:281437
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_iR6ghYs4fGeWgymwd4mhPE
+        status: active
+        display_name: 王胤明
+        merged_into_person_id: null
+    - claim:
+        id: c_Dj96bYcgApL-iIs6drOdgA
+        subject_person_id: p_tHYCzriS6LnJ4HHGiVfcHQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tB2GKH36Qa99v4obBzfSMp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Vw1DCxCF0GxkWp7fn8pUwO
+          claim_id: c_Dj96bYcgApL-iIs6drOdgA
+          source_id: s_US-czxC7m-BKNAwNRZcC-V
+          stance: supports
+          locator: CBDB：兄弟 王胤賢（201978）之父／母 王汝清
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王胤勤 与 王胤賢 为同胞（CBDB 记「兄」），王胤賢 之父／母即 王胤勤 之父／母。
+          source:
+            id: s_US-czxC7m-BKNAwNRZcC-V
+            source_type: api_record
+            title: 中国历代人物传记资料库：王胤勤（CBDB 281438）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281438&o=json
+            external_identifier: CBDB:281438
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_tB2GKH36Qa99v4obBzfSMp
+        status: active
+        display_name: 王胤勤
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -256,7 +330,44 @@ relationships:
         display_name: 王翯
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_KG7jr3qpvuqel7c3zlUiY1
+        subject_person_id: p_gWoRusN1yZ4Gkp9hmVUDgp
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_tHYCzriS6LnJ4HHGiVfcHQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qRYc8C-3ZSl4Rg7bhY99G5
+          claim_id: c_KG7jr3qpvuqel7c3zlUiY1
+          source_id: s_bcHEI74KYWJjvFER5kizJ9
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201079 王汝清）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_bcHEI74KYWJjvFER5kizJ9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝洪（CBDB 266714）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266714&o=json
+            external_identifier: CBDB:266714
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_gWoRusN1yZ4Gkp9hmVUDgp
+        status: active
+        display_name: 王汝洪
+        merged_into_person_id: null
 ---
 
 # 王汝清
@@ -277,13 +388,19 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_uKE1GZcJjjWN4cHRBMP9aK | 王璿 | accepted |
 | children | p_FbvUfnrJsMZAACE7dBpnUs | 王胤賢 | accepted |
+| children | p_iR6ghYs4fGeWgymwd4mhPE | 王胤明 | accepted |
+| children | p_tB2GKH36Qa99v4obBzfSMp | 王胤勤 | accepted |
 | ancestors | p_QogBPUoy6ogb9CeCDBCCo9 | 王翰 | accepted |
 | ancestors | p_icAExCAPzEDDYhxquU8A5n | 王翯 | accepted |
+| other | p_gWoRusN1yZ4Gkp9hmVUDgp | 王汝洪 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王翰（CBDB 266710）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266710&o=json)
 - [中国历代人物传记资料库：王翯（CBDB 266709）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266709&o=json)
+- [中国历代人物传记资料库：王汝洪（CBDB 266714）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266714&o=json)
 - [中国历代人物传记资料库：王汝清（CBDB 201079）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201079&o=json)
 - [中国历代人物传记资料库：王璿（CBDB 266711）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266711&o=json)
+- [中国历代人物传记资料库：王胤明（CBDB 281437）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281437&o=json)
+- [中国历代人物传记资料库：王胤勤（CBDB 281438）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281438&o=json)
 - [中国历代人物传记资料库：王胤賢（CBDB 201978）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201978&o=json)

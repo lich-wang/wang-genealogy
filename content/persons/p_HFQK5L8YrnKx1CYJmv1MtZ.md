@@ -4,7 +4,7 @@ id: p_HFQK5L8YrnKx1CYJmv1MtZ
 status: active
 merged_into: null
 display_name: 王汲
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -205,6 +205,43 @@ relationships:
         status: active
         display_name: 王尚辭
         merged_into_person_id: null
+    - claim:
+        id: c_FSaDL5H-g7JqKhOfhWx0os
+        subject_person_id: p_HFQK5L8YrnKx1CYJmv1MtZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3JKfW8zU9aAN6L1FmP3X5i
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_NvQyhR6c7V_Fc3VfhvAKJB
+          claim_id: c_FSaDL5H-g7JqKhOfhWx0os
+          source_id: s_TuoT1Xx4PWRSkynDL00V2x
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 26509）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_TuoT1Xx4PWRSkynDL00V2x
+            source_type: api_record
+            title: 中国历代人物传记资料库：王尚恭（CBDB 26511）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26511&o=json
+            external_identifier: CBDB:26511
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3JKfW8zU9aAN6L1FmP3X5i
+        status: active
+        display_name: 王尚恭
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -269,6 +306,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_uxbPbmbrZFoELk9U2exDek | 王明藻 | accepted |
 | children | p_NiDwYtQeM1mw9R2BpSH12J | 王尚辭 | accepted |
+| children | p_3JKfW8zU9aAN6L1FmP3X5i | 王尚恭 | accepted |
 | ancestors | p_88WC4Q1BzPCRUnQHKcX984 | 王福 | accepted |
 
 ## 外部来源
@@ -277,3 +315,4 @@ relationships:
 - [中国历代人物传记资料库：王汲（CBDB 26509）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26509&o=json)
 - [中国历代人物传记资料库：王明藻（CBDB 26508）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26508&o=json)
 - [中国历代人物传记资料库：王尚辭（CBDB 696765）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696765&o=json)
+- [中国历代人物传记资料库：王尚恭（CBDB 26511）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26511&o=json)

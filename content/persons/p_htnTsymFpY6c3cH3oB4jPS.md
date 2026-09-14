@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王繼學
 cbdb_id: 285309
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_OF8QmEvTPOXK7D3Kcn8BzM
+        subject_person_id: p_DvsaKspxRerxZLHeLLb8JP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_htnTsymFpY6c3cH3oB4jPS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FhJrLkhZQ1B-1X0xJiw1ls
+          claim_id: c_OF8QmEvTPOXK7D3Kcn8BzM
+          source_id: s__RqUDlq_9_tZmGIwzrOerj
+          stance: supports
+          locator: CBDB：兄弟 王繼禮（202226）之父／母 王景惠
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王繼學 与 王繼禮 为同胞（CBDB 记「弟」），王繼禮 之父／母即 王繼學 之父／母。
+          source:
+            id: s__RqUDlq_9_tZmGIwzrOerj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繼學（CBDB 285309）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285309&o=json
+            external_identifier: CBDB:285309
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DvsaKspxRerxZLHeLLb8JP
+        status: active
+        display_name: 王景惠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_7N0qfMnlVwOEhpoWIzQl29
+        subject_person_id: p_htnTsymFpY6c3cH3oB4jPS
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_o9X4e64D4iKX33c4myBcBe
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sp0uW0qzsTQ6mMFXQFczeR
+          claim_id: c_7N0qfMnlVwOEhpoWIzQl29
+          source_id: s__RqUDlq_9_tZmGIwzrOerj
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202226 王繼禮）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__RqUDlq_9_tZmGIwzrOerj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繼學（CBDB 285309）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285309&o=json
+            external_identifier: CBDB:285309
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_o9X4e64D4iKX33c4myBcBe
+        status: active
+        display_name: 王繼禮
+        merged_into_person_id: null
 ---
 
 # 王繼學
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_DvsaKspxRerxZLHeLLb8JP | 王景惠 | accepted |
+| other | p_o9X4e64D4iKX33c4myBcBe | 王繼禮 | accepted |
 
 ## 外部来源
 

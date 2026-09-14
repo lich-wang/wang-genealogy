@@ -4,7 +4,7 @@ id: p_HYyUvME69gA6T2zhKJ2JfN
 status: active
 merged_into: null
 display_name: 王彥章
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_wjzv7hux1WBBV8LziJdoyk
+        subject_person_id: p_ZqnLzRT9XT7NL5ciADvB8h
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HYyUvME69gA6T2zhKJ2JfN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_p8lJmOEFLKE42njR-jRgvt
+          claim_id: c_wjzv7hux1WBBV8LziJdoyk
+          source_id: s_-BkixD5YLJDgDG5a4m2B9t
+          stance: supports
+          locator: CBDB：兄弟 王彥奇（126594）之父／母 王景先
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王彥章 与 王彥奇 为同胞（CBDB 记「兄」），王彥奇 之父／母即 王彥章 之父／母。
+          source:
+            id: s_-BkixD5YLJDgDG5a4m2B9t
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彥章（CBDB 261602）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261602&o=json
+            external_identifier: CBDB:261602
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZqnLzRT9XT7NL5ciADvB8h
+        status: active
+        display_name: 王景先
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_XzGX-rByVtMzSvz2omNi96
+        subject_person_id: p_HYyUvME69gA6T2zhKJ2JfN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_S9XZsVMSPPCYHPg3x3s7jm
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kY3cUJ7aKq3BX1t2iaSH9E
+          claim_id: c_XzGX-rByVtMzSvz2omNi96
+          source_id: s_-BkixD5YLJDgDG5a4m2B9t
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126594 王彥奇）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_-BkixD5YLJDgDG5a4m2B9t
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彥章（CBDB 261602）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261602&o=json
+            external_identifier: CBDB:261602
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_S9XZsVMSPPCYHPg3x3s7jm
+        status: active
+        display_name: 王彥奇
+        merged_into_person_id: null
 ---
 
 # 王彥章
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ZqnLzRT9XT7NL5ciADvB8h | 王景先 | accepted |
+| other | p_S9XZsVMSPPCYHPg3x3s7jm | 王彥奇 | accepted |
 
 ## 外部来源
 

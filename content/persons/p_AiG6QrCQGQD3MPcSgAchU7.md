@@ -4,7 +4,7 @@ id: p_AiG6QrCQGQD3MPcSgAchU7
 status: active
 merged_into: null
 display_name: 王宸
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -190,7 +190,44 @@ relationships:
         display_name: 王成
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_kqKNZId7aAAdZ1y57uSqOW
+        subject_person_id: p_AiG6QrCQGQD3MPcSgAchU7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Qz2nGxEyAmswGVBFabC8kg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_q1RajOEwZwUCitrK1_8OZG
+          claim_id: c_kqKNZId7aAAdZ1y57uSqOW
+          source_id: s_YSql0YjCNpQh6SQOi1QZ_G
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126630 王宸）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_YSql0YjCNpQh6SQOi1QZ_G
+            source_type: api_record
+            title: 中国历代人物传记资料库：王官（CBDB 261744）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261744&o=json
+            external_identifier: CBDB:261744
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Qz2nGxEyAmswGVBFabC8kg
+        status: active
+        display_name: 王官
+        merged_into_person_id: null
 ---
 
 # 王宸
@@ -211,10 +248,12 @@ relationships:
 | parents | p_jCK8R3MaCsiE6Le8VKcP4N | 王霖 | accepted |
 | ancestors | p_5wuv4yjMrao5f2DNDqdSNF | 王能 | accepted |
 | ancestors | p_NUGZxG8CRGQAZaz13iyc8P | 王成 | accepted |
+| other | p_Qz2nGxEyAmswGVBFabC8kg | 王官 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王宸（CBDB 126630）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126630&o=json)
 - [中国历代人物传记资料库：王成（CBDB 261737）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261737&o=json)
+- [中国历代人物传记资料库：王官（CBDB 261744）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261744&o=json)
 - [中国历代人物传记资料库：王霖（CBDB 261739）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261739&o=json)
 - [中国历代人物传记资料库：王能（CBDB 261738）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261738&o=json)

@@ -4,7 +4,7 @@ id: p_FZsZBsVgtXYBR7R5He9YWs
 status: active
 merged_into: null
 display_name: 王嘉言
-revision: 4
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,118 @@ relationships:
         display_name: 王岱
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_eljWd13iqViywUBQzLp6zV
+        subject_person_id: p_CQpanbYc9L4SQ7yTi4cv2B
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_FZsZBsVgtXYBR7R5He9YWs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tkFXjZ_b3DtzWlYIstCrh4
+          claim_id: c_eljWd13iqViywUBQzLp6zV
+          source_id: s_pzOcgMz15d3BgIgdpllyFr
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204590 王嘉言）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_pzOcgMz15d3BgIgdpllyFr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用言（CBDB 321241）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=321241&o=json
+            external_identifier: CBDB:321241
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CQpanbYc9L4SQ7yTi4cv2B
+        status: active
+        display_name: 王用言
+        merged_into_person_id: null
+    - claim:
+        id: c_ZxOheO4O4cD1X94poy6Cx7
+        subject_person_id: p_CqRLubCAJw2W8PMASBJVc6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_FZsZBsVgtXYBR7R5He9YWs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gdm178j5KmRhO1Zbx9np-7
+          claim_id: c_ZxOheO4O4cD1X94poy6Cx7
+          source_id: s_Tli5fbZc67TWwuo1x2LMyN
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204590 王嘉言）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Tli5fbZc67TWwuo1x2LMyN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王巽言（CBDB 321239）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=321239&o=json
+            external_identifier: CBDB:321239
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CqRLubCAJw2W8PMASBJVc6
+        status: active
+        display_name: 王巽言
+        merged_into_person_id: null
+    - claim:
+        id: c_320zxElSJ2OoSWWaM7LHC3
+        subject_person_id: p_CyCQkBsjyMATib6ZPd3cVm
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_FZsZBsVgtXYBR7R5He9YWs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kHEnw_VFHfwIZ3dl18NZMc
+          claim_id: c_320zxElSJ2OoSWWaM7LHC3
+          source_id: s_oEkEmXqOVuyVyUKsjBurcr
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204590 王嘉言）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_oEkEmXqOVuyVyUKsjBurcr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王陳言（CBDB 321238）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=321238&o=json
+            external_identifier: CBDB:321238
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CyCQkBsjyMATib6ZPd3cVm
+        status: active
+        display_name: 王陳言
+        merged_into_person_id: null
 ---
 
 # 王嘉言
@@ -240,10 +351,16 @@ relationships:
 | parents | p_PRKaEr8menL16CrSqqwL5J | 王濂 | accepted |
 | ancestors | p_3GmjVqXwCvyZ6SHEhrxTD4 | 王俊 | accepted |
 | ancestors | p_AVMJo9PKsBpCg5KUfRwzbu | 王岱 | accepted |
+| other | p_CQpanbYc9L4SQ7yTi4cv2B | 王用言 | accepted |
+| other | p_CqRLubCAJw2W8PMASBJVc6 | 王巽言 | accepted |
+| other | p_CyCQkBsjyMATib6ZPd3cVm | 王陳言 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王陳言（CBDB 321238）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=321238&o=json)
 - [中国历代人物传记资料库：王岱（CBDB 321234）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=321234&o=json)
 - [中国历代人物传记资料库：王嘉言（CBDB 204590）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204590&o=json)
 - [中国历代人物传记资料库：王俊（CBDB 321233）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=321233&o=json)
 - [中国历代人物传记资料库：王濂（CBDB 321235）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=321235&o=json)
+- [中国历代人物传记资料库：王巽言（CBDB 321239）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=321239&o=json)
+- [中国历代人物传记资料库：王用言（CBDB 321241）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=321241&o=json)

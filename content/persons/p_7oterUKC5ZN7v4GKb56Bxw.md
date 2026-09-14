@@ -4,7 +4,7 @@ id: p_7oterUKC5ZN7v4GKb56Bxw
 status: active
 merged_into: null
 display_name: 王容
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_qLbXQsoobiCUQ8OimZkHIU
+        subject_person_id: p_oYefTot2EGCYoXmKyUe9cv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7oterUKC5ZN7v4GKb56Bxw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UZw6z4-OjziyXAVQqErb4t
+          claim_id: c_qLbXQsoobiCUQ8OimZkHIU
+          source_id: s_WbxjHDVXPL9tlhLYVGe98o
+          stance: supports
+          locator: CBDB：兄弟 王宬（199813）之父／母 王孟瓛
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王容 与 王宬 为同胞（CBDB 记「兄」），王宬 之父／母即 王容 之父／母。
+          source:
+            id: s_WbxjHDVXPL9tlhLYVGe98o
+            source_type: api_record
+            title: 中国历代人物传记资料库：王容（CBDB 250018）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250018&o=json
+            external_identifier: CBDB:250018
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oYefTot2EGCYoXmKyUe9cv
+        status: active
+        display_name: 王孟瓛
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_uJeX4sks2Hp_yF17uT1Q38
+        subject_person_id: p_7oterUKC5ZN7v4GKb56Bxw
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_XU2HBZFhmiBGAyoKHD4B6w
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rtM_LZrKeqaUl9sBrnTPHI
+          claim_id: c_uJeX4sks2Hp_yF17uT1Q38
+          source_id: s_WbxjHDVXPL9tlhLYVGe98o
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199813 王宬）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_WbxjHDVXPL9tlhLYVGe98o
+            source_type: api_record
+            title: 中国历代人物传记资料库：王容（CBDB 250018）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250018&o=json
+            external_identifier: CBDB:250018
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_XU2HBZFhmiBGAyoKHD4B6w
+        status: active
+        display_name: 王宬
+        merged_into_person_id: null
 ---
 
 # 王容
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_oYefTot2EGCYoXmKyUe9cv | 王孟瓛 | accepted |
+| other | p_XU2HBZFhmiBGAyoKHD4B6w | 王宬 | accepted |
 
 ## 外部来源
 

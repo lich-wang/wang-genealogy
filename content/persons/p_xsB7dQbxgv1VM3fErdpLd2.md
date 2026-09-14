@@ -4,7 +4,7 @@ id: p_xsB7dQbxgv1VM3fErdpLd2
 status: active
 merged_into: null
 display_name: 王秉忠
-revision: 2
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,191 @@ relationships:
         status: active
         display_name: 王京
         merged_into_person_id: null
+    - claim:
+        id: c_PxrDyZNmE5SGJ0AAH6MaQ0
+        subject_person_id: p_xsB7dQbxgv1VM3fErdpLd2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_K6KFSk49rs3QwV3cdFfGHE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sAOtPtUlRJaVYBezKYo8zg
+          claim_id: c_PxrDyZNmE5SGJ0AAH6MaQ0
+          source_id: s_DEcYY_a1eBl7Z1MkXkb5E7
+          stance: supports
+          locator: CBDB：兄弟 王京（205560）之父／母 王秉忠
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王室 与 王京 为同胞（CBDB 记「兄」），王京 之父／母即 王室 之父／母。
+          source:
+            id: s_DEcYY_a1eBl7Z1MkXkb5E7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王室（CBDB 335216）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335216&o=json
+            external_identifier: CBDB:335216
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_K6KFSk49rs3QwV3cdFfGHE
+        status: active
+        display_name: 王室
+        merged_into_person_id: null
+    - claim:
+        id: c_pvhJHbO8yPj_0SXkv2NwOG
+        subject_person_id: p_xsB7dQbxgv1VM3fErdpLd2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Q527cKhMMVb4xYodAVogys
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7Sw-rGx3FLP-1KdxyA-7ah
+          claim_id: c_pvhJHbO8yPj_0SXkv2NwOG
+          source_id: s_DX_KKGuL9uponP75cWbKTw
+          stance: supports
+          locator: CBDB：兄弟 王京（205560）之父／母 王秉忠
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王郡 与 王京 为同胞（CBDB 记「兄」），王京 之父／母即 王郡 之父／母。
+          source:
+            id: s_DX_KKGuL9uponP75cWbKTw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王郡（CBDB 335217）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335217&o=json
+            external_identifier: CBDB:335217
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Q527cKhMMVb4xYodAVogys
+        status: active
+        display_name: 王郡
+        merged_into_person_id: null
+    - claim:
+        id: c_8xhird6g-132SoYC4SuD-A
+        subject_person_id: p_xsB7dQbxgv1VM3fErdpLd2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XXXBy3DnjSzXDzw4sMPEXi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7lhQ6snNPrDEopV9PqKn-f
+          claim_id: c_8xhird6g-132SoYC4SuD-A
+          source_id: s_WckXsPH4Xnwj3OpZXWOFyk
+          stance: supports
+          locator: CBDB：兄弟 王京（205560）之父／母 王秉忠
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王都 与 王京 为同胞（CBDB 记「兄」），王京 之父／母即 王都 之父／母。
+          source:
+            id: s_WckXsPH4Xnwj3OpZXWOFyk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王都（CBDB 335222）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335222&o=json
+            external_identifier: CBDB:335222
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_XXXBy3DnjSzXDzw4sMPEXi
+        status: active
+        display_name: 王都
+        merged_into_person_id: null
+    - claim:
+        id: c_mKUobZM4SXZZbzmQ0EwHT4
+        subject_person_id: p_xsB7dQbxgv1VM3fErdpLd2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_q4g9sLmiDe5US8bucydqYK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_M_EN7kNSFfJs5xXeateNRk
+          claim_id: c_mKUobZM4SXZZbzmQ0EwHT4
+          source_id: s_JdKQakw1fdEI4juyRMkI3M
+          stance: supports
+          locator: CBDB：兄弟 王京（205560）之父／母 王秉忠
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王邑 与 王京 为同胞（CBDB 记「兄」），王京 之父／母即 王邑 之父／母。
+          source:
+            id: s_JdKQakw1fdEI4juyRMkI3M
+            source_type: api_record
+            title: 中国历代人物传记资料库：王邑（CBDB 335218）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335218&o=json
+            external_identifier: CBDB:335218
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_q4g9sLmiDe5US8bucydqYK
+        status: active
+        display_name: 王邑
+        merged_into_person_id: null
+    - claim:
+        id: c_F5WIV01ocfy1Fw4uTz-mo_
+        subject_person_id: p_xsB7dQbxgv1VM3fErdpLd2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wNoPwYvGN85CLiHRyBxSyu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yiPKzYG4sqK7wNVqEmWL12
+          claim_id: c_F5WIV01ocfy1Fw4uTz-mo_
+          source_id: s_DiZSWO4QuHQMD28vUojC0s
+          stance: supports
+          locator: CBDB：兄弟 王京（205560）之父／母 王秉忠
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王啚 与 王京 为同胞（CBDB 记「兄」），王京 之父／母即 王啚 之父／母。
+          source:
+            id: s_DiZSWO4QuHQMD28vUojC0s
+            source_type: api_record
+            title: 中国历代人物传记资料库：王啚（CBDB 335219）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335219&o=json
+            external_identifier: CBDB:335219
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wNoPwYvGN85CLiHRyBxSyu
+        status: active
+        display_name: 王啚
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +309,17 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_iKF3URQYd2AiG1hYtKBDpV | 王京 | accepted |
+| children | p_K6KFSk49rs3QwV3cdFfGHE | 王室 | accepted |
+| children | p_Q527cKhMMVb4xYodAVogys | 王郡 | accepted |
+| children | p_XXXBy3DnjSzXDzw4sMPEXi | 王都 | accepted |
+| children | p_q4g9sLmiDe5US8bucydqYK | 王邑 | accepted |
+| children | p_wNoPwYvGN85CLiHRyBxSyu | 王啚 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王啚（CBDB 335219）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335219&o=json)
 - [中国历代人物传记资料库：王秉忠（CBDB 335213）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335213&o=json)
+- [中国历代人物传记资料库：王都（CBDB 335222）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335222&o=json)
+- [中国历代人物传记资料库：王郡（CBDB 335217）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335217&o=json)
+- [中国历代人物传记资料库：王室（CBDB 335216）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335216&o=json)
+- [中国历代人物传记资料库：王邑（CBDB 335218）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335218&o=json)

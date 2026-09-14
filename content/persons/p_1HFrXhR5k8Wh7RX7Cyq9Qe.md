@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王助
 cbdb_id: 91979
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -344,7 +344,44 @@ relationships:
         display_name: 王通
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_i2okTFD0JCP3kLRR7ddglh
+        subject_person_id: p_1HFrXhR5k8Wh7RX7Cyq9Qe
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_UvT6rfvfyeQtGV2w2picuQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ISMfm0GWaTzzJbG8bVgTJU
+          claim_id: c_i2okTFD0JCP3kLRR7ddglh
+          source_id: s_lMIAyIqn0ypYjz7YEc3DZB
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 91979 王助）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_lMIAyIqn0ypYjz7YEc3DZB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王勮（CBDB 92110）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92110&o=json
+            external_identifier: CBDB:92110
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_UvT6rfvfyeQtGV2w2picuQ
+        status: active
+        display_name: 王勮
+        merged_into_person_id: null
 ---
 
 # 王助
@@ -365,11 +402,13 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_fCpXRw3ympYVRWdSX3T5cq | 王福畤 | accepted |
 | ancestors | p_g8yjPAazS4duEjdSoPu22v | 王通 | accepted |
+| other | p_UvT6rfvfyeQtGV2w2picuQ | 王勮 | accepted |
 
 ## 外部来源
 
 - [维基数据：王助（Q45438791）](https://www.wikidata.org/wiki/Q45438791)
 - [維基數據：王福畤（Q18905529）](https://www.wikidata.org/wiki/Q18905529)
+- [中国历代人物传记资料库：王勮（CBDB 92110）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92110&o=json)
 - [中文维基百科：王助 (唐朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8A%A9_(%E5%94%90%E6%9C%9D))
 - [CBDB 中国历代人物传记资料库：王福畤（30885）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30885&o=json)
 - [CBDB 中国历代人物传记资料库：王助（91979）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=91979&o=json)

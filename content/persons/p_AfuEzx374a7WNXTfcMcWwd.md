@@ -4,7 +4,7 @@ id: p_AfuEzx374a7WNXTfcMcWwd
 status: active
 merged_into: null
 display_name: 王獻臣
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -194,7 +194,81 @@ relationships:
         display_name: 王成
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_JErgejrt8E4OC6Bb6_b-F6
+        subject_person_id: p_AfuEzx374a7WNXTfcMcWwd
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_KDpb7Vx8XfqRVqdRsUpFyd
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_q7MhE_hAg9jQjIp2-mT88a
+          claim_id: c_JErgejrt8E4OC6Bb6_b-F6
+          source_id: s_LikcoNueijENcxPAnBAS7c
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 67807 王獻臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_LikcoNueijENcxPAnBAS7c
+            source_type: api_record
+            title: 中国历代人物传记资料库：王獻夫（CBDB 265734）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265734&o=json
+            external_identifier: CBDB:265734
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KDpb7Vx8XfqRVqdRsUpFyd
+        status: active
+        display_name: 王獻夫
+        merged_into_person_id: null
+    - claim:
+        id: c__geqtjaQ3vY5_60tmM0vin
+        subject_person_id: p_AfuEzx374a7WNXTfcMcWwd
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dTF8SyB54g9jSjGqYL8185
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5oDOhTPeFLa8CeNMsdZXNH
+          claim_id: c__geqtjaQ3vY5_60tmM0vin
+          source_id: s_DYxhxUCLJJHHIMrqvh5si1
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 67807 王獻臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_DYxhxUCLJJHHIMrqvh5si1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王獻民（CBDB 265733）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265733&o=json
+            external_identifier: CBDB:265733
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dTF8SyB54g9jSjGqYL8185
+        status: active
+        display_name: 王獻民
+        merged_into_person_id: null
 ---
 
 # 王獻臣
@@ -216,8 +290,12 @@ relationships:
 | spouses | p_3XpQZsyy1MMzLgJ6d6jucq | 陳氏 | accepted |
 | ancestors | p_wUBGxrZa6P78WZVLrT2yi5 | 王文榮 | accepted |
 | ancestors | p_LbuKwgtm6zjB3poDp2uQZP | 王成 | accepted |
+| other | p_KDpb7Vx8XfqRVqdRsUpFyd | 王獻夫 | accepted |
+| other | p_dTF8SyB54g9jSjGqYL8185 | 王獻民 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：陳氏(王獻臣妻)（CBDB 265732）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265732&o=json)
 - [中国历代人物传记资料库：王獻臣（CBDB 67807）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67807&o=json)
+- [中国历代人物传记资料库：王獻夫（CBDB 265734）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265734&o=json)
+- [中国历代人物传记资料库：王獻民（CBDB 265733）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265733&o=json)

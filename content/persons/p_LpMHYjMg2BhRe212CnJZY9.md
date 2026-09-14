@@ -4,7 +4,7 @@ id: p_LpMHYjMg2BhRe212CnJZY9
 status: active
 merged_into: null
 display_name: 王凱
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,81 @@ relationships:
         display_name: 王郁
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_iVSG5d48hgfAjkml-63AIQ
+        subject_person_id: p_LpMHYjMg2BhRe212CnJZY9
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ZEHF2Z9HLeYrfnNXDKL7sN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_M0G3Qf4aPxbzhqPck7aVsm
+          claim_id: c_iVSG5d48hgfAjkml-63AIQ
+          source_id: s__BBXafZC4A0YJ7KVgpqJzU
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207962 王凱）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__BBXafZC4A0YJ7KVgpqJzU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王原（CBDB 238514）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238514&o=json
+            external_identifier: CBDB:238514
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZEHF2Z9HLeYrfnNXDKL7sN
+        status: active
+        display_name: 王原
+        merged_into_person_id: null
+    - claim:
+        id: c_fOXLI3NvCJy7ZDyLSO1cT7
+        subject_person_id: p_LpMHYjMg2BhRe212CnJZY9
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mCp2CE5cWVcFX6hFKr6Bi7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UUO6yXARnGKughSaYH39YC
+          claim_id: c_fOXLI3NvCJy7ZDyLSO1cT7
+          source_id: s_wMj4VmwCKPSQBjBi-vW6Z4
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207962 王凱）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_wMj4VmwCKPSQBjBi-vW6Z4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王名（CBDB 238513）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238513&o=json
+            external_identifier: CBDB:238513
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mCp2CE5cWVcFX6hFKr6Bi7
+        status: active
+        display_name: 王名
+        merged_into_person_id: null
 ---
 
 # 王凱
@@ -240,10 +314,14 @@ relationships:
 | parents | p_dMddXN9MM9RH4e355Y4XBH | 王俊 | accepted |
 | ancestors | p_bRutZZe45GNMmTrfNCtLZZ | 王士安 | accepted |
 | ancestors | p_vaqbBTbe1jFUgkiqDsCnTY | 王郁 | accepted |
+| other | p_ZEHF2Z9HLeYrfnNXDKL7sN | 王原 | accepted |
+| other | p_mCp2CE5cWVcFX6hFKr6Bi7 | 王名 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王俊（CBDB 238510）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238510&o=json)
 - [中国历代人物传记资料库：王凱（CBDB 207962）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207962&o=json)
+- [中国历代人物传记资料库：王名（CBDB 238513）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238513&o=json)
 - [中国历代人物传记资料库：王士安（CBDB 238507）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238507&o=json)
 - [中国历代人物传记资料库：王郁（CBDB 238508）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238508&o=json)
+- [中国历代人物传记资料库：王原（CBDB 238514）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238514&o=json)

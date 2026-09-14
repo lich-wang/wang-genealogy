@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王琲
 cbdb_id: 266767
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_RZ2kH8hhUCcVD8irZQX5WK
+        subject_person_id: p_NkjrkfLSubJRquGWk6KTAC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NGbd2mH7UDvFHQwaMK5Ckp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7AnxVLp1F3V18oC7SaQY3A
+          claim_id: c_RZ2kH8hhUCcVD8irZQX5WK
+          source_id: s_lqcLr7sdcqfD_LP7HiuXG8
+          stance: supports
+          locator: CBDB：兄弟 王瓚（126892）之父／母 王祚
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王琲 与 王瓚 为同胞（CBDB 记「弟」），王瓚 之父／母即 王琲 之父／母。
+          source:
+            id: s_lqcLr7sdcqfD_LP7HiuXG8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王琲（CBDB 266767）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266767&o=json
+            external_identifier: CBDB:266767
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NkjrkfLSubJRquGWk6KTAC
+        status: active
+        display_name: 王祚
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_PxSV_FNBRZ73jFb1iZo-y4
+        subject_person_id: p_NGbd2mH7UDvFHQwaMK5Ckp
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_aJMiNXJSvn8avCPNUFL6Jr
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pMwsjI1uowIufC6I856A_P
+          claim_id: c_PxSV_FNBRZ73jFb1iZo-y4
+          source_id: s_lqcLr7sdcqfD_LP7HiuXG8
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126892 王瓚）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_lqcLr7sdcqfD_LP7HiuXG8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王琲（CBDB 266767）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266767&o=json
+            external_identifier: CBDB:266767
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aJMiNXJSvn8avCPNUFL6Jr
+        status: active
+        display_name: 王瓚
+        merged_into_person_id: null
 ---
 
 # 王琲
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_NkjrkfLSubJRquGWk6KTAC | 王祚 | accepted |
+| other | p_aJMiNXJSvn8avCPNUFL6Jr | 王瓚 | accepted |
 
 ## 外部来源
 

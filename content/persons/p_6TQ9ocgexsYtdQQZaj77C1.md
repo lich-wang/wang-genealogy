@@ -4,7 +4,7 @@ id: p_6TQ9ocgexsYtdQQZaj77C1
 status: active
 merged_into: null
 display_name: 王鐵
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_NR8Eem1-XMqNmbYB_kuWP4
+        subject_person_id: p_Q9zuFMKzedcz4UHwq7tKH2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6TQ9ocgexsYtdQQZaj77C1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mMaXRurv8Wm45W8aF1uEjZ
+          claim_id: c_NR8Eem1-XMqNmbYB_kuWP4
+          source_id: s_9DnY6olHoUxOwMtQEoWFUH
+          stance: supports
+          locator: CBDB：兄弟 王鍭（201147）之父／母 王啟宏
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鐵 与 王鍭 为同胞（CBDB 记「兄」），王鍭 之父／母即 王鐵 之父／母。
+          source:
+            id: s_9DnY6olHoUxOwMtQEoWFUH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鐵（CBDB 267898）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267898&o=json
+            external_identifier: CBDB:267898
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Q9zuFMKzedcz4UHwq7tKH2
+        status: active
+        display_name: 王啟宏
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_0gILqhNmtaKIQaYZg1xJOb
+        subject_person_id: p_6TQ9ocgexsYtdQQZaj77C1
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_oJbh5LgRt8jeK3L7dfcGm6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__esx9gXVNNJViE3bWpY7_8
+          claim_id: c_0gILqhNmtaKIQaYZg1xJOb
+          source_id: s_9DnY6olHoUxOwMtQEoWFUH
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201147 王鍭）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_9DnY6olHoUxOwMtQEoWFUH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鐵（CBDB 267898）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267898&o=json
+            external_identifier: CBDB:267898
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oJbh5LgRt8jeK3L7dfcGm6
+        status: active
+        display_name: 王鍭
+        merged_into_person_id: null
 ---
 
 # 王鐵
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Q9zuFMKzedcz4UHwq7tKH2 | 王啟宏 | accepted |
+| other | p_oJbh5LgRt8jeK3L7dfcGm6 | 王鍭 | accepted |
 
 ## 外部来源
 

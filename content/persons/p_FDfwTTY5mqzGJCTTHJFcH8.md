@@ -4,7 +4,7 @@ id: p_FDfwTTY5mqzGJCTTHJFcH8
 status: active
 merged_into: null
 display_name: 王一夔
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,81 @@ relationships:
         display_name: 王鏜
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_8KdIh7f4ljzI3JqK5Qdh9C
+        subject_person_id: p_FDfwTTY5mqzGJCTTHJFcH8
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_TBydJme7YoHhFCuggKw6FV
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-BSNxz56p9oM3GKT7HUeqn
+          claim_id: c_8KdIh7f4ljzI3JqK5Qdh9C
+          source_id: s_pO0n08pfcVmCmnvKVUSZ-_
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203700 王一夔）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_pO0n08pfcVmCmnvKVUSZ-_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王一尹（CBDB 308782）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308782&o=json
+            external_identifier: CBDB:308782
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_TBydJme7YoHhFCuggKw6FV
+        status: active
+        display_name: 王一尹
+        merged_into_person_id: null
+    - claim:
+        id: c_JS4x5Pkn8Haco2l7cB9miC
+        subject_person_id: p_FDfwTTY5mqzGJCTTHJFcH8
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Zct7DGKt3pyCoL8pnTZaR8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__4rNIIDtgvCqfSJ8_7s0qw
+          claim_id: c_JS4x5Pkn8Haco2l7cB9miC
+          source_id: s_QRgvUIg-g2Qc0YOdDbN3jt
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203700 王一夔）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_QRgvUIg-g2Qc0YOdDbN3jt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王一龍（CBDB 308781）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308781&o=json
+            external_identifier: CBDB:308781
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Zct7DGKt3pyCoL8pnTZaR8
+        status: active
+        display_name: 王一龍
+        merged_into_person_id: null
 ---
 
 # 王一夔
@@ -241,10 +315,14 @@ relationships:
 | parents | p_1iSvDHtRHkxhgvj9Gg5W8M | 王仲貴 | accepted |
 | ancestors | p_4P232SRs9q3PwKhwXTXK8X | 王理 | accepted |
 | ancestors | p_4xVHszHged8ZkuPtDKcT7D | 王鏜 | accepted |
+| other | p_TBydJme7YoHhFCuggKw6FV | 王一尹 | accepted |
+| other | p_Zct7DGKt3pyCoL8pnTZaR8 | 王一龍 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王理（CBDB 308776）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308776&o=json)
 - [中国历代人物传记资料库：王鏜（CBDB 308777）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308777&o=json)
 - [中国历代人物传记资料库：王一夔（CBDB 203700）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203700&o=json)
+- [中国历代人物传记资料库：王一龍（CBDB 308781）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308781&o=json)
+- [中国历代人物传记资料库：王一尹（CBDB 308782）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308782&o=json)
 - [中国历代人物传记资料库：王仲貴（CBDB 308778）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308778&o=json)

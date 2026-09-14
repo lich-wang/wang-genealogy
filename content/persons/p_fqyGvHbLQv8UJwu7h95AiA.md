@@ -4,7 +4,7 @@ id: p_fqyGvHbLQv8UJwu7h95AiA
 status: active
 merged_into: null
 display_name: 王運新
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_jufJgZ1CAtcsh_R29y4Nio
+        subject_person_id: p_RBDo1mCVNx525KP3Mg5Mqx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fqyGvHbLQv8UJwu7h95AiA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6G3eVdmCLNsSPQrlhzRYRH
+          claim_id: c_jufJgZ1CAtcsh_R29y4Nio
+          source_id: s_cyheDKQt-BmQp-ITL09Bbh
+          stance: supports
+          locator: CBDB：兄弟 王命新（207714）之父／母 王鉞
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王運新 与 王命新 为同胞（CBDB 记「兄」），王命新 之父／母即 王運新 之父／母。
+          source:
+            id: s_cyheDKQt-BmQp-ITL09Bbh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王運新（CBDB 234431）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234431&o=json
+            external_identifier: CBDB:234431
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_RBDo1mCVNx525KP3Mg5Mqx
+        status: active
+        display_name: 王鉞
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_uLL-BP8NeWuI6shKOuGQR9
+        subject_person_id: p_KesiNQLM6qJRi25qiHTy12
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fqyGvHbLQv8UJwu7h95AiA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5Jfm-MoYPaOFqt1yVHyGMa
+          claim_id: c_uLL-BP8NeWuI6shKOuGQR9
+          source_id: s_cyheDKQt-BmQp-ITL09Bbh
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207714 王命新）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_cyheDKQt-BmQp-ITL09Bbh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王運新（CBDB 234431）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234431&o=json
+            external_identifier: CBDB:234431
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KesiNQLM6qJRi25qiHTy12
+        status: active
+        display_name: 王命新
+        merged_into_person_id: null
 ---
 
 # 王運新
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_RBDo1mCVNx525KP3Mg5Mqx | 王鉞 | accepted |
+| other | p_KesiNQLM6qJRi25qiHTy12 | 王命新 | accepted |
 
 ## 外部来源
 

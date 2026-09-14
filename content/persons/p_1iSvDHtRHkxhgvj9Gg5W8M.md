@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仲貴
 cbdb_id: 308778
-revision: 2
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -114,6 +114,80 @@ relationships:
         status: active
         display_name: 王一夔
         merged_into_person_id: null
+    - claim:
+        id: c_yUxn_uqqB71R0UWJ1RSTUV
+        subject_person_id: p_1iSvDHtRHkxhgvj9Gg5W8M
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TBydJme7YoHhFCuggKw6FV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Dl37dHotQvznT-K8a3K9Y9
+          claim_id: c_yUxn_uqqB71R0UWJ1RSTUV
+          source_id: s_pO0n08pfcVmCmnvKVUSZ-_
+          stance: supports
+          locator: CBDB：兄弟 王一夔（203700）之父／母 王仲貴
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王一尹 与 王一夔 为同胞（CBDB 记「兄」），王一夔 之父／母即 王一尹 之父／母。
+          source:
+            id: s_pO0n08pfcVmCmnvKVUSZ-_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王一尹（CBDB 308782）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308782&o=json
+            external_identifier: CBDB:308782
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_TBydJme7YoHhFCuggKw6FV
+        status: active
+        display_name: 王一尹
+        merged_into_person_id: null
+    - claim:
+        id: c_bszDW-TJYtgI9Nh4-p7gaT
+        subject_person_id: p_1iSvDHtRHkxhgvj9Gg5W8M
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Zct7DGKt3pyCoL8pnTZaR8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UM_AYdu9n081w3pUsGwHE7
+          claim_id: c_bszDW-TJYtgI9Nh4-p7gaT
+          source_id: s_QRgvUIg-g2Qc0YOdDbN3jt
+          stance: supports
+          locator: CBDB：兄弟 王一夔（203700）之父／母 王仲貴
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王一龍 与 王一夔 为同胞（CBDB 记「兄」），王一夔 之父／母即 王一龍 之父／母。
+          source:
+            id: s_QRgvUIg-g2Qc0YOdDbN3jt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王一龍（CBDB 308781）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308781&o=json
+            external_identifier: CBDB:308781
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Zct7DGKt3pyCoL8pnTZaR8
+        status: active
+        display_name: 王一龍
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -138,7 +212,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_FDfwTTY5mqzGJCTTHJFcH8 | 王一夔 | accepted |
+| children | p_TBydJme7YoHhFCuggKw6FV | 王一尹 | accepted |
+| children | p_Zct7DGKt3pyCoL8pnTZaR8 | 王一龍 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王一龍（CBDB 308781）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308781&o=json)
+- [中国历代人物传记资料库：王一尹（CBDB 308782）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308782&o=json)
 - [中国历代人物传记资料库：王仲貴（CBDB 308778）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308778&o=json)

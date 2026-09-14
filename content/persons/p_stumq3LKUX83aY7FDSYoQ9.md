@@ -4,7 +4,7 @@ id: p_stumq3LKUX83aY7FDSYoQ9
 status: active
 merged_into: null
 display_name: 王紹先
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,118 @@ relationships:
         display_name: 王用賢
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_7aIGOiDDo4mRVRu1b9aUB2
+        subject_person_id: p_8ZyPWhFTG5KhhhubTquXQD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_stumq3LKUX83aY7FDSYoQ9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tivBu7o_0roQWv0a8kcAZZ
+          claim_id: c_7aIGOiDDo4mRVRu1b9aUB2
+          source_id: s_vtSy3A54TT4pxL4PzVakr1
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206726 王紹先）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_vtSy3A54TT4pxL4PzVakr1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王紹慶（CBDB 222281）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222281&o=json
+            external_identifier: CBDB:222281
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8ZyPWhFTG5KhhhubTquXQD
+        status: active
+        display_name: 王紹慶
+        merged_into_person_id: null
+    - claim:
+        id: c_6zFZ0tTOAPt_3Zc4KRhqUJ
+        subject_person_id: p_8kzSpprqvBVxvPECr52ZAv
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_stumq3LKUX83aY7FDSYoQ9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wti3nyf5GoP2GtHYCu6m3v
+          claim_id: c_6zFZ0tTOAPt_3Zc4KRhqUJ
+          source_id: s_IeYYSJvKDHhZ4U76YyTzFW
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206726 王紹先）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_IeYYSJvKDHhZ4U76YyTzFW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王紹基（CBDB 222280）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222280&o=json
+            external_identifier: CBDB:222280
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8kzSpprqvBVxvPECr52ZAv
+        status: active
+        display_name: 王紹基
+        merged_into_person_id: null
+    - claim:
+        id: c_eVWhAfvyXy1phHIT4cDwaw
+        subject_person_id: p_G1ykgCfKWZQhXAt9QemUyd
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_stumq3LKUX83aY7FDSYoQ9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qCjdklvK-Hw2FC0Yc1_myL
+          claim_id: c_eVWhAfvyXy1phHIT4cDwaw
+          source_id: s_0_h0FChb9_0eJrFbV_xotM
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206726 王紹先）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0_h0FChb9_0eJrFbV_xotM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王紹績（CBDB 222279）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222279&o=json
+            external_identifier: CBDB:222279
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_G1ykgCfKWZQhXAt9QemUyd
+        status: active
+        display_name: 王紹績
+        merged_into_person_id: null
 ---
 
 # 王紹先
@@ -245,8 +356,14 @@ relationships:
 | spouses | p_pkpzoUkjchaQHfYiALSDMh | 雒氏 | accepted |
 | ancestors | p_U6gQS1uZx6TnaacuyLTD96 | 王懋 | accepted |
 | ancestors | p_Ub1fRrchPGg2dwmwMQ21yb | 王用賢 | accepted |
+| other | p_8ZyPWhFTG5KhhhubTquXQD | 王紹慶 | accepted |
+| other | p_8kzSpprqvBVxvPECr52ZAv | 王紹基 | accepted |
+| other | p_G1ykgCfKWZQhXAt9QemUyd | 王紹績 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：雒氏(王紹先妻)（CBDB 222278）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222278&o=json)
+- [中国历代人物传记资料库：王紹基（CBDB 222280）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222280&o=json)
+- [中国历代人物传记资料库：王紹績（CBDB 222279）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222279&o=json)
+- [中国历代人物传记资料库：王紹慶（CBDB 222281）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222281&o=json)
 - [中国历代人物传记资料库：王紹先（CBDB 206726）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206726&o=json)

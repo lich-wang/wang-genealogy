@@ -4,7 +4,7 @@ id: p_vM6985QJehceoGJD1bbJKF
 status: active
 merged_into: null
 display_name: 王澄
-revision: 18
+revision: 19
 properties:
   - predicate: name.primary
     recommended:
@@ -204,6 +204,43 @@ relationships:
         id: p_gFwBHF9Ka4CkfJcu6TEQy4
         status: active
         display_name: 王子覺
+        merged_into_person_id: null
+    - claim:
+        id: c_PEVs8DLVjw80OuTNYzUdl5
+        subject_person_id: p_vM6985QJehceoGJD1bbJKF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RC9D1koJn7NhwnkB8qmAHS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_O7gi2LxcEHMcp4wlWy30Pv
+          claim_id: c_PEVs8DLVjw80OuTNYzUdl5
+          source_id: s_SRVgAKyeFlgqKHILF_xbEf
+          stance: supports
+          locator: CBDB：兄弟 王士麟（101037）之父／母 王澄
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王士偉 与 王士麟 为同胞（CBDB 记「兄」），王士麟 之父／母即 王士偉 之父／母。
+          source:
+            id: s_SRVgAKyeFlgqKHILF_xbEf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王士偉（CBDB 101032）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101032&o=json
+            external_identifier: CBDB:101032
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_RC9D1koJn7NhwnkB8qmAHS
+        status: active
+        display_name: 王士偉
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
@@ -1221,6 +1258,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_tSpXqwBE33pVWfFPYz5gPg | 王士麟 | accepted |
 | children | p_gFwBHF9Ka4CkfJcu6TEQy4 | 王子覺 | accepted |
+| children | p_RC9D1koJn7NhwnkB8qmAHS | 王士偉 | accepted |
 | spouses | p_mayP9shGbtLtpPZP4Scu6w | 鄭氏 | accepted |
 | spouses | p_YWQ3nLCUB9JexBFUJoieeU | 周氏 | accepted |
 | descendants | p_2b14Pj9cMfbGVVm23QMpPW | 王應 | accepted |
@@ -1267,6 +1305,7 @@ relationships:
 - [中国历代人物传记资料库：王潛（CBDB 134186）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134186&o=json)
 - [中国历代人物传记资料库：王慶（CBDB 134171）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134171&o=json)
 - [中国历代人物传记资料库：王士麟（CBDB 101037）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101037&o=json)
+- [中国历代人物传记资料库：王士偉（CBDB 101032）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101032&o=json)
 - [中国历代人物传记资料库：王溫（CBDB 134180）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134180&o=json)
 - [中国历代人物传记资料库：王涯（CBDB 134192）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134192&o=json)
 - [中国历代人物传记资料库：王沇（CBDB 134190）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134190&o=json)

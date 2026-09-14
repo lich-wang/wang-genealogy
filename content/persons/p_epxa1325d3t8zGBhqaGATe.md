@@ -4,7 +4,7 @@ id: p_epxa1325d3t8zGBhqaGATe
 status: active
 merged_into: null
 display_name: 王錦
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,44 @@ relationships:
         display_name: 王景道
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_-Lye6FEQII0G9iaRQ4B-WL
+        subject_person_id: p_4DBPgFDtrEYdZbGdhqcUCp
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_epxa1325d3t8zGBhqaGATe
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_prR5c0Q9ynPFFFzGkz2Yku
+          claim_id: c_-Lye6FEQII0G9iaRQ4B-WL
+          source_id: s_tCPbB-Pfwzex73wwJKCoLC
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199393 王錦）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_tCPbB-Pfwzex73wwJKCoLC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎣（CBDB 244359）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244359&o=json
+            external_identifier: CBDB:244359
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4DBPgFDtrEYdZbGdhqcUCp
+        status: active
+        display_name: 王鎣
+        merged_into_person_id: null
 ---
 
 # 王錦
@@ -245,8 +282,10 @@ relationships:
 | spouses | p_ydw3XdFP7dn8p1rcW2K4d1 | 焦氏 | accepted |
 | ancestors | p_HQwCgPv1NvwspN18mM5u4K | 王尚文 | accepted |
 | ancestors | p_1CnDV1uXu2cPKxk5ki1EED | 王景道 | accepted |
+| other | p_4DBPgFDtrEYdZbGdhqcUCp | 王鎣 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：焦氏(王錦妻)（CBDB 244357）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244357&o=json)
 - [中国历代人物传记资料库：王錦（CBDB 199393）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199393&o=json)
+- [中国历代人物传记资料库：王鎣（CBDB 244359）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244359&o=json)

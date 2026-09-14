@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王敏中
 cbdb_id: 37560
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,7 +74,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_YnAFwcCTaOtN4Q7BM6n5zc
+        subject_person_id: p_Hw9gy67gpeydJLtoAg5qH1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_t96wegbjJf44k7ip1qSp8G
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_uV_o6TmoFGEkWH_nfTHzN-
+          claim_id: c_YnAFwcCTaOtN4Q7BM6n5zc
+          source_id: s_LuEE5XVnRr-Lxfc_a9yn0i
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1916）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_LuEE5XVnRr-Lxfc_a9yn0i
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敏中（CBDB 37560）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37560&o=json
+            external_identifier: CBDB:37560
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Hw9gy67gpeydJLtoAg5qH1
+        status: active
+        display_name: 王惟正
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -99,6 +136,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Hw9gy67gpeydJLtoAg5qH1 | 王惟正 | accepted |
 
 ## 外部来源
 

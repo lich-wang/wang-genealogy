@@ -4,7 +4,7 @@ id: p_h7s3yp9U2dC68kkp9tKxxX
 status: active
 merged_into: null
 display_name: 王素
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_omJ31EGD-doV0W5xd1LC4X
+        subject_person_id: p_h7s3yp9U2dC68kkp9tKxxX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_reVhHJuQGQdgAXe8gyAcne
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_JIL1Ya5OWNeEFoSeWHT_yD
+          claim_id: c_omJ31EGD-doV0W5xd1LC4X
+          source_id: s_kvGcVc9qvzEanggyeM6b7A
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1881）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_kvGcVc9qvzEanggyeM6b7A
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鞏（CBDB 7084）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7084&o=json
+            external_identifier: CBDB:7084
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_reVhHJuQGQdgAXe8gyAcne
+        status: active
+        display_name: 王鞏
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -218,10 +255,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_reVhHJuQGQdgAXe8gyAcne | 王鞏 | accepted |
 | descendants | p_4RuP1y13HperNdMDJkN6MF | 王震 | accepted |
 | descendants | p_NkwdWFbz4GCHgPxuqUzLFi | 王珉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鞏（CBDB 7084）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7084&o=json)
 - [中国历代人物传记资料库：王素（CBDB 1881）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1881&o=json)
 - [中国历代人物传记资料库：王震（CBDB 3947）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3947&o=json)

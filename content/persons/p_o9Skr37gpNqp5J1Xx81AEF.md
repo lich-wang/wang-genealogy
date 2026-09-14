@@ -4,7 +4,7 @@ id: p_o9Skr37gpNqp5J1Xx81AEF
 status: active
 merged_into: null
 display_name: 王儼
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -192,7 +192,81 @@ relationships:
         display_name: 王麟昭
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_cQxsRgBFUysOObXSLiqUh9
+        subject_person_id: p_A4EUEFdw1QJgH3Q73hDNbn
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_o9Skr37gpNqp5J1Xx81AEF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ISX5RMz-15RXDiL4-_FIUT
+          claim_id: c_cQxsRgBFUysOObXSLiqUh9
+          source_id: s_3ptCQ68xoixgqJTQS0--nv
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126888 王儼）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_3ptCQ68xoixgqJTQS0--nv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王民表（CBDB 237912）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237912&o=json
+            external_identifier: CBDB:237912
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_A4EUEFdw1QJgH3Q73hDNbn
+        status: active
+        display_name: 王民表
+        merged_into_person_id: null
+    - claim:
+        id: c_0YStDEJs2Culd9T5ZVEcoI
+        subject_person_id: p_o9Skr37gpNqp5J1Xx81AEF
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xDRKNL87aAnnFXNPmawwGJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HSzyp9QK5NgcYDt9DTigaQ
+          claim_id: c_0YStDEJs2Culd9T5ZVEcoI
+          source_id: s_BchYNd7o2xQmn9hYotRy1y
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126888 王儼）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_BchYNd7o2xQmn9hYotRy1y
+            source_type: api_record
+            title: 中国历代人物传记资料库：王民彝（CBDB 237911）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237911&o=json
+            external_identifier: CBDB:237911
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xDRKNL87aAnnFXNPmawwGJ
+        status: active
+        display_name: 王民彝
+        merged_into_person_id: null
 ---
 
 # 王儼
@@ -213,10 +287,14 @@ relationships:
 | parents | p_jgwf2uNVHXZcoqA2QFFrzJ | 王彥瑞 | accepted |
 | ancestors | p_JKkrL45mghx3yN3Xd9pH7X | 王復初 | accepted |
 | ancestors | p_2MCcNR2xN2nrBoeM5CGALr | 王麟昭 | accepted |
+| other | p_A4EUEFdw1QJgH3Q73hDNbn | 王民表 | accepted |
+| other | p_xDRKNL87aAnnFXNPmawwGJ | 王民彝 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王復初（CBDB 237904）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237904&o=json)
 - [中国历代人物传记资料库：王麟昭（CBDB 237905）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237905&o=json)
+- [中国历代人物传记资料库：王民表（CBDB 237912）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237912&o=json)
+- [中国历代人物传记资料库：王民彝（CBDB 237911）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237911&o=json)
 - [中国历代人物传记资料库：王儼（CBDB 126888）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126888&o=json)
 - [中国历代人物传记资料库：王彥瑞（CBDB 237906）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237906&o=json)

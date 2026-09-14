@@ -4,7 +4,7 @@ id: p_b8SGcyTheZi2msHVoNPNmG
 status: active
 merged_into: null
 display_name: 王庭筠
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -137,6 +137,43 @@ relationships:
         status: active
         display_name: 王衜
         merged_into_person_id: null
+    - claim:
+        id: c_5Es1p1ac1jRgsDdYk_d-7j
+        subject_person_id: p_b8SGcyTheZi2msHVoNPNmG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_211MwoLnK9afQPV2TgL5U9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q1f--0cawtq6pWe62V8qdx
+          claim_id: c_5Es1p1ac1jRgsDdYk_d-7j
+          source_id: s_C5s8ImF0OzmvN-kLlOFqxF
+          stance: supports
+          locator: CBDB：兄弟 王衜（19419）之父／母 王庭筠
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王衎 与 王衜 为同胞（CBDB 记「弟」），王衜 之父／母即 王衎 之父／母。
+          source:
+            id: s_C5s8ImF0OzmvN-kLlOFqxF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王衎（CBDB 1923）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1923&o=json
+            external_identifier: CBDB:1923
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_211MwoLnK9afQPV2TgL5U9
+        status: active
+        display_name: 王衎
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -162,8 +199,10 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_6cU9fnGBqi4srFwLZdWmQC | 王居中 | accepted |
 | children | p_JR5BeKFHjyY5p6yqfVc1XZ | 王衜 | accepted |
+| children | p_211MwoLnK9afQPV2TgL5U9 | 王衎 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王居中（CBDB 24482）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24482&o=json)
+- [中国历代人物传记资料库：王衎（CBDB 1923）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1923&o=json)
 - [中国历代人物传记资料库：王庭筠（CBDB 24483）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=24483&o=json)

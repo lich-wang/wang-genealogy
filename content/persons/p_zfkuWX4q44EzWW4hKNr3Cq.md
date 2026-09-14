@@ -4,7 +4,7 @@ id: p_zfkuWX4q44EzWW4hKNr3Cq
 status: active
 merged_into: null
 display_name: 王元禮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_murtpNOxzEyvFJlpqLvn0x
+        subject_person_id: p_8US8SW91TW7rxE4FPNsHyC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zfkuWX4q44EzWW4hKNr3Cq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_7WfO5io6bpY4X_tmLMmil5
+          claim_id: c_murtpNOxzEyvFJlpqLvn0x
+          source_id: s_xGUPh4o5YJt3ANc6iE7Nam
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 55266）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_xGUPh4o5YJt3ANc6iE7Nam
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元禮（CBDB 55264）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55264&o=json
+            external_identifier: CBDB:55264
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8US8SW91TW7rxE4FPNsHyC
+        status: active
+        display_name: 王松壑
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +192,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_8US8SW91TW7rxE4FPNsHyC | 王松壑 | accepted |
 
 ## 外部来源
 

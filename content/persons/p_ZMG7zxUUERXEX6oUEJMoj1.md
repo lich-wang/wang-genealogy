@@ -4,7 +4,7 @@ id: p_ZMG7zxUUERXEX6oUEJMoj1
 status: active
 merged_into: null
 display_name: 王公弼
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_QRTUoEw_I7z7r-PvDR0eyi
+        subject_person_id: p_71Hi4GJJudhNG7GFzK1uDa
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ZMG7zxUUERXEX6oUEJMoj1
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qTxBKoqxznoZyIYGsyJVSQ
+          claim_id: c_QRTUoEw_I7z7r-PvDR0eyi
+          source_id: s_zb_ayYcGStHGSbvZ-TI-lT
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 38290 王公弼）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_zb_ayYcGStHGSbvZ-TI-lT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王公佐（CBDB 38289）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38289&o=json
+            external_identifier: CBDB:38289
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_71Hi4GJJudhNG7GFzK1uDa
+        status: active
+        display_name: 王公佐
+        merged_into_person_id: null
 ---
 
 # 王公弼
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_71Hi4GJJudhNG7GFzK1uDa | 王公佐 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王公弼（CBDB 38290）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38290&o=json)
+- [中国历代人物传记资料库：王公佐（CBDB 38289）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38289&o=json)

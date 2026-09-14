@@ -4,7 +4,7 @@ id: p_zAh17pTJy9yoR9V9ArCvL7
 status: active
 merged_into: null
 display_name: 王楠
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,44 @@ relationships:
         display_name: 王聚
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_8Yp1vySb-Cb2FllY6vQL8Q
+        subject_person_id: p_CHRyp7op73QmWwQx6deKgx
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zAh17pTJy9yoR9V9ArCvL7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_x0YPHB7Jmxc2wJ3IUDNnPS
+          claim_id: c_8Yp1vySb-Cb2FllY6vQL8Q
+          source_id: s_B9IW_JK5mnBnCOsm4tn2gm
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203575 王楠）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_B9IW_JK5mnBnCOsm4tn2gm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王松（CBDB 306733）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306733&o=json
+            external_identifier: CBDB:306733
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CHRyp7op73QmWwQx6deKgx
+        status: active
+        display_name: 王松
+        merged_into_person_id: null
 ---
 
 # 王楠
@@ -240,6 +277,7 @@ relationships:
 | parents | p_HRhvUU4qCYj6R73J2eH5D9 | 王崇 | accepted |
 | ancestors | p_56i4DUP2wFzJ6ymmACpTVE | 王福榮 | accepted |
 | ancestors | p_fd9uj7Lqzrgnx5zjkGE8Mh | 王聚 | accepted |
+| other | p_CHRyp7op73QmWwQx6deKgx | 王松 | accepted |
 
 ## 外部来源
 
@@ -247,3 +285,4 @@ relationships:
 - [中国历代人物传记资料库：王福榮（CBDB 306727）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306727&o=json)
 - [中国历代人物传记资料库：王聚（CBDB 306729）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306729&o=json)
 - [中国历代人物传记资料库：王楠（CBDB 203575）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203575&o=json)
+- [中国历代人物传记资料库：王松（CBDB 306733）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306733&o=json)

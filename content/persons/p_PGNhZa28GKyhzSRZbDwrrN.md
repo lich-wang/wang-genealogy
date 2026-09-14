@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王時良
 cbdb_id: 299508
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_uospjSxpph_8huDMmIt1M7
+        subject_person_id: p_rLGPWGvpfkyHQHmKKEMECW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PGNhZa28GKyhzSRZbDwrrN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mgIMKFKM-t6AW2uO37-DTk
+          claim_id: c_uospjSxpph_8huDMmIt1M7
+          source_id: s_eiMVW7zgVVtzlw0UQcwYOQ
+          stance: supports
+          locator: CBDB：兄弟 王時儉（203083）之父／母 王縉
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王時良 与 王時儉 为同胞（CBDB 记「弟」），王時儉 之父／母即 王時良 之父／母。
+          source:
+            id: s_eiMVW7zgVVtzlw0UQcwYOQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王時良（CBDB 299508）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299508&o=json
+            external_identifier: CBDB:299508
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rLGPWGvpfkyHQHmKKEMECW
+        status: active
+        display_name: 王縉
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_62YiWn9FIeCwWbXEo9-Gj9
+        subject_person_id: p_PGNhZa28GKyhzSRZbDwrrN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_VC8bBPzAyQehLYq3eBykXc
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_17p3vzilp4H_1EczLJDyjk
+          claim_id: c_62YiWn9FIeCwWbXEo9-Gj9
+          source_id: s_eiMVW7zgVVtzlw0UQcwYOQ
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203083 王時儉）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_eiMVW7zgVVtzlw0UQcwYOQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王時良（CBDB 299508）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299508&o=json
+            external_identifier: CBDB:299508
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VC8bBPzAyQehLYq3eBykXc
+        status: active
+        display_name: 王時儉
+        merged_into_person_id: null
 ---
 
 # 王時良
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_rLGPWGvpfkyHQHmKKEMECW | 王縉 | accepted |
+| other | p_VC8bBPzAyQehLYq3eBykXc | 王時儉 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_PEt7x529igvwnBDEaRjBZt
 status: active
 merged_into: null
 display_name: 王玘
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,80 @@ relationships:
         status: active
         display_name: 王懋
         merged_into_person_id: null
+    - claim:
+        id: c_z2xu3nY_HGD5Ds1AaEfr7X
+        subject_person_id: p_PEt7x529igvwnBDEaRjBZt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LzwTC7rjboeY7nbXhQjcvS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ap3a6noQZe5wp2iMdZNyVz
+          claim_id: c_z2xu3nY_HGD5Ds1AaEfr7X
+          source_id: s_EEr5iRraHNEIH2YmGvNyKe
+          stance: supports
+          locator: CBDB：兄弟 王懋（199698）之父／母 王玘
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王東蒙 与 王懋 为同胞（CBDB 记「兄」），王懋 之父／母即 王東蒙 之父／母。
+          source:
+            id: s_EEr5iRraHNEIH2YmGvNyKe
+            source_type: api_record
+            title: 中国历代人物传记资料库：王東蒙（CBDB 248669）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248669&o=json
+            external_identifier: CBDB:248669
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_LzwTC7rjboeY7nbXhQjcvS
+        status: active
+        display_name: 王東蒙
+        merged_into_person_id: null
+    - claim:
+        id: c_6wF6FHe6QmVqXwHhUTxitA
+        subject_person_id: p_PEt7x529igvwnBDEaRjBZt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_V4e1nc6vnnM1JHKJ6qWc9L
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wtXk7mHpJR-KQ376clrTaz
+          claim_id: c_6wF6FHe6QmVqXwHhUTxitA
+          source_id: s_npF9mu6Qnz34_dE_50UPgf
+          stance: supports
+          locator: CBDB：兄弟 王懋（199698）之父／母 王玘
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王東泰 与 王懋 为同胞（CBDB 记「兄」），王懋 之父／母即 王東泰 之父／母。
+          source:
+            id: s_npF9mu6Qnz34_dE_50UPgf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王東泰（CBDB 248668）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248668&o=json
+            external_identifier: CBDB:248668
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_V4e1nc6vnnM1JHKJ6qWc9L
+        status: active
+        display_name: 王東泰
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_xTwQsV9XKSmsGQePeW7Ut1 | 王懋 | accepted |
+| children | p_LzwTC7rjboeY7nbXhQjcvS | 王東蒙 | accepted |
+| children | p_V4e1nc6vnnM1JHKJ6qWc9L | 王東泰 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王東蒙（CBDB 248669）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248669&o=json)
+- [中国历代人物传记资料库：王東泰（CBDB 248668）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248668&o=json)
 - [中国历代人物传记资料库：王玘（CBDB 248664）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248664&o=json)

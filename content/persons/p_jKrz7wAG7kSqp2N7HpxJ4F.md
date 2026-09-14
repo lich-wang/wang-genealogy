@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王喬桂
 cbdb_id: 205629
-revision: 3
+revision: 11
 properties:
   - predicate: bio.summary
     recommended:
@@ -198,7 +198,303 @@ relationships:
         display_name: 王鉉
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_7AMG5-Gqgem-vMH4gRBNbt
+        subject_person_id: p_5GeMoJJhpE92oG3UVTidXd
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_jKrz7wAG7kSqp2N7HpxJ4F
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_e-WRWmRH5Z6NzjDl9iYN4c
+          claim_id: c_7AMG5-Gqgem-vMH4gRBNbt
+          source_id: s_UIVtspGVlY7S7vWZsB1mcr
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205629 王喬桂）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_UIVtspGVlY7S7vWZsB1mcr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王喬衡（CBDB 336213）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336213&o=json
+            external_identifier: CBDB:336213
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5GeMoJJhpE92oG3UVTidXd
+        status: active
+        display_name: 王喬衡
+        merged_into_person_id: null
+    - claim:
+        id: c_p-4V8ZFrSfsBdeE3kTpkzZ
+        subject_person_id: p_BUq7TSsCycZT1HmRToqf1z
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_jKrz7wAG7kSqp2N7HpxJ4F
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fAWh4oZdw8XjdJAsnI0qRy
+          claim_id: c_p-4V8ZFrSfsBdeE3kTpkzZ
+          source_id: s_gD8lFnaaLCRVIq7EgDXyhU
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205629 王喬桂）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_gD8lFnaaLCRVIq7EgDXyhU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王喬蒙（CBDB 336216）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336216&o=json
+            external_identifier: CBDB:336216
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BUq7TSsCycZT1HmRToqf1z
+        status: active
+        display_name: 王喬蒙
+        merged_into_person_id: null
+    - claim:
+        id: c_BOFl8xLALF9tne9sLDfZJB
+        subject_person_id: p_VFNVFNQyHa5ZXuDHP9YNHh
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_jKrz7wAG7kSqp2N7HpxJ4F
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8-Fi4KPY0weFT0OzL-k7z_
+          claim_id: c_BOFl8xLALF9tne9sLDfZJB
+          source_id: s_aufONB8pJRYLC63YDOBCyW
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205629 王喬桂）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_aufONB8pJRYLC63YDOBCyW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王喬舄（CBDB 336219）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336219&o=json
+            external_identifier: CBDB:336219
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VFNVFNQyHa5ZXuDHP9YNHh
+        status: active
+        display_name: 王喬舄
+        merged_into_person_id: null
+    - claim:
+        id: c_aAd8ReWMLsf9FtqY78RhDM
+        subject_person_id: p_WqJDkNSx24noTdeiAMZFh4
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_jKrz7wAG7kSqp2N7HpxJ4F
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kzK5L2XS-ZJGEHYU-795hl
+          claim_id: c_aAd8ReWMLsf9FtqY78RhDM
+          source_id: s_-eRM_zt5kjhwc4pa_dsHrh
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205629 王喬桂）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_-eRM_zt5kjhwc4pa_dsHrh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王喬崐（CBDB 336215）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336215&o=json
+            external_identifier: CBDB:336215
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_WqJDkNSx24noTdeiAMZFh4
+        status: active
+        display_name: 王喬崐
+        merged_into_person_id: null
+    - claim:
+        id: c_0VEYF5BGRNwtRt8d0WVRYY
+        subject_person_id: p_hk9Pe88BsF6fs7c8ZyZfzF
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_jKrz7wAG7kSqp2N7HpxJ4F
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9jjKQ5pqjm6w3Btur7qgLl
+          claim_id: c_0VEYF5BGRNwtRt8d0WVRYY
+          source_id: s_khpgD4c4xDdWV7CtbsltWT
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205629 王喬桂）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_khpgD4c4xDdWV7CtbsltWT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王喬華（CBDB 336214）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336214&o=json
+            external_identifier: CBDB:336214
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hk9Pe88BsF6fs7c8ZyZfzF
+        status: active
+        display_name: 王喬華
+        merged_into_person_id: null
+    - claim:
+        id: c_NrfpdOsc2pNKKWvy2Fq_AA
+        subject_person_id: p_jKrz7wAG7kSqp2N7HpxJ4F
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nfahEgLJEZz6sAMjVDU6dk
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J02-44EnXT6R5z_7b7CffS
+          claim_id: c_NrfpdOsc2pNKKWvy2Fq_AA
+          source_id: s_KytMHLYRn9NBLOaA7OZeYA
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205629 王喬桂）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_KytMHLYRn9NBLOaA7OZeYA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王喬吳（CBDB 336217）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336217&o=json
+            external_identifier: CBDB:336217
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nfahEgLJEZz6sAMjVDU6dk
+        status: active
+        display_name: 王喬吳
+        merged_into_person_id: null
+    - claim:
+        id: c_QhEzI_EX9_tm2INE7EZJ8E
+        subject_person_id: p_jKrz7wAG7kSqp2N7HpxJ4F
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_rj45wUnM66zQJm57kueciq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IQAmv35TptFmdcXwbbnquV
+          claim_id: c_QhEzI_EX9_tm2INE7EZJ8E
+          source_id: s_tk9-FtwKuuSH9WfCdc7VtN
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205629 王喬桂）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_tk9-FtwKuuSH9WfCdc7VtN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王喬岱（CBDB 336212）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336212&o=json
+            external_identifier: CBDB:336212
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rj45wUnM66zQJm57kueciq
+        status: active
+        display_name: 王喬岱
+        merged_into_person_id: null
+    - claim:
+        id: c_SR1acd55dXL6oBN0y7q_QS
+        subject_person_id: p_jKrz7wAG7kSqp2N7HpxJ4F
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_tJedeQ9sVgsMumRysQrVeQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_P9NkQ2hmCWoEmmzsnL7BZd
+          claim_id: c_SR1acd55dXL6oBN0y7q_QS
+          source_id: s_xfSLehCpi5R9v7yPRbV_-y
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205629 王喬桂）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_xfSLehCpi5R9v7yPRbV_-y
+            source_type: api_record
+            title: 中国历代人物传记资料库：王喬岷（CBDB 336218）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336218&o=json
+            external_identifier: CBDB:336218
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_tJedeQ9sVgsMumRysQrVeQ
+        status: active
+        display_name: 王喬岷
+        merged_into_person_id: null
 ---
 
 # 王喬桂
@@ -219,9 +515,25 @@ relationships:
 | --- | --- | --- | --- |
 | ancestors | p_Ju73n9Da4DPjDAANyypFhq | 王璞 | accepted |
 | ancestors | p_V9nhsgCgfLH75JgYRWPEgK | 王鉉 | accepted |
+| other | p_5GeMoJJhpE92oG3UVTidXd | 王喬衡 | accepted |
+| other | p_BUq7TSsCycZT1HmRToqf1z | 王喬蒙 | accepted |
+| other | p_VFNVFNQyHa5ZXuDHP9YNHh | 王喬舄 | accepted |
+| other | p_WqJDkNSx24noTdeiAMZFh4 | 王喬崐 | accepted |
+| other | p_hk9Pe88BsF6fs7c8ZyZfzF | 王喬華 | accepted |
+| other | p_nfahEgLJEZz6sAMjVDU6dk | 王喬吳 | accepted |
+| other | p_rj45wUnM66zQJm57kueciq | 王喬岱 | accepted |
+| other | p_tJedeQ9sVgsMumRysQrVeQ | 王喬岷 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王璞（CBDB 336207）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336207&o=json)
+- [中国历代人物传记资料库：王喬岱（CBDB 336212）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336212&o=json)
 - [中国历代人物传记资料库：王喬桂（CBDB 205629）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205629&o=json)
+- [中国历代人物传记资料库：王喬衡（CBDB 336213）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336213&o=json)
+- [中国历代人物传记资料库：王喬華（CBDB 336214）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336214&o=json)
+- [中国历代人物传记资料库：王喬崐（CBDB 336215）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336215&o=json)
+- [中国历代人物传记资料库：王喬蒙（CBDB 336216）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336216&o=json)
+- [中国历代人物传记资料库：王喬岷（CBDB 336218）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336218&o=json)
+- [中国历代人物传记资料库：王喬吳（CBDB 336217）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336217&o=json)
+- [中国历代人物传记资料库：王喬舄（CBDB 336219）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336219&o=json)
 - [中国历代人物传记资料库：王鉉（CBDB 336206）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336206&o=json)

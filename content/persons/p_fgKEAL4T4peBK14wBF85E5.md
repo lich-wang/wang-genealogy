@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王燕緒
 cbdb_id: 136115
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -81,7 +81,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_7St-65LUJk_RNVpv_YkI6J
+        subject_person_id: p_QaX91zDL1ybGQV5xhYa8gJ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fgKEAL4T4peBK14wBF85E5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ybt1bT3X3LxJYt040P3zuc
+          claim_id: c_7St-65LUJk_RNVpv_YkI6J
+          source_id: s_gg33oh_OzHrNDAQhm7DBM_
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 69340 王啟緒）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_gg33oh_OzHrNDAQhm7DBM_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王燕緒（CBDB 136115）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=136115&o=json
+            external_identifier: CBDB:136115
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_QaX91zDL1ybGQV5xhYa8gJ
+        status: active
+        display_name: 王啟緒
+        merged_into_person_id: null
 ---
 
 # 王燕緒
@@ -99,6 +136,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_QaX91zDL1ybGQV5xhYa8gJ | 王啟緒 | accepted |
 
 ## 外部来源
 

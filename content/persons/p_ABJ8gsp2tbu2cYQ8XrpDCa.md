@@ -4,7 +4,7 @@ id: p_ABJ8gsp2tbu2cYQ8XrpDCa
 status: active
 merged_into: null
 display_name: 王种
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_DTHBzObp2NuG70jQeCG4qc
+        subject_person_id: p_CUFBtfXaFjfECLb8K9SuBv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ABJ8gsp2tbu2cYQ8XrpDCa
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F8wuTXrm3dfPT3xPTW1omj
+          claim_id: c_DTHBzObp2NuG70jQeCG4qc
+          source_id: s_ZJ-sG_9c9ZnrOfmXF9kHqz
+          stance: supports
+          locator: CBDB：兄弟 王稽（198434）之父／母 王忠
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王种 与 王稽 为同胞（CBDB 记「兄」），王稽 之父／母即 王种 之父／母。
+          source:
+            id: s_ZJ-sG_9c9ZnrOfmXF9kHqz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王种（CBDB 271517）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271517&o=json
+            external_identifier: CBDB:271517
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CUFBtfXaFjfECLb8K9SuBv
+        status: active
+        display_name: 王忠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ebRT9zCkoGFx85iq4cg9aU
+        subject_person_id: p_3vKgPJZPmMS9ZpS2a75EVV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ABJ8gsp2tbu2cYQ8XrpDCa
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_avsfr5EsIdODzV-vtbnxpy
+          claim_id: c_ebRT9zCkoGFx85iq4cg9aU
+          source_id: s_ZJ-sG_9c9ZnrOfmXF9kHqz
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198434 王稽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ZJ-sG_9c9ZnrOfmXF9kHqz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王种（CBDB 271517）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271517&o=json
+            external_identifier: CBDB:271517
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3vKgPJZPmMS9ZpS2a75EVV
+        status: active
+        display_name: 王稽
+        merged_into_person_id: null
 ---
 
 # 王种
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_CUFBtfXaFjfECLb8K9SuBv | 王忠 | accepted |
+| other | p_3vKgPJZPmMS9ZpS2a75EVV | 王稽 | accepted |
 
 ## 外部来源
 

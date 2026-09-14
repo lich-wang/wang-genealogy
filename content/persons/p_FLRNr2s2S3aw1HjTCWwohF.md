@@ -4,7 +4,7 @@ id: p_FLRNr2s2S3aw1HjTCWwohF
 status: active
 merged_into: null
 display_name: 王回
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -155,7 +155,44 @@ relationships:
         status: active
         display_name: 王佃
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_Y5r2z_Fb_jA8ORPjkacUU7
+        subject_person_id: p_FLRNr2s2S3aw1HjTCWwohF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CcSeYesqggrZm5aEhuP8DZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_LvPPhJD9O5rtmnFm9nkURL
+          claim_id: c_Y5r2z_Fb_jA8ORPjkacUU7
+          source_id: s_0QRfGzeI0_8CkBmQaNViSl
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 22031）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_0QRfGzeI0_8CkBmQaNViSl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王自適（CBDB 22032）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22032&o=json
+            external_identifier: CBDB:22032
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CcSeYesqggrZm5aEhuP8DZ
+        status: active
+        display_name: 王自適
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -182,7 +219,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_RLNXQixvSPqbwRP8oYU2Vm | 王佃 | accepted |
+| children | p_CcSeYesqggrZm5aEhuP8DZ | 王自適 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王回（CBDB 22031）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22031&o=json)
+- [中国历代人物传记资料库：王自適（CBDB 22032）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22032&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王繼和
 cbdb_id: 254107
-revision: 2
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -113,6 +113,117 @@ relationships:
         status: active
         display_name: 王高
         merged_into_person_id: null
+    - claim:
+        id: c_sF987AcMxX-QBzb62C9Dd-
+        subject_person_id: p_HuYEH2YSebAHXaYh9GTn72
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2pfuJRufpgRKEJpaePui7C
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YlWLJRbCbM4zbMi3WFjDhh
+          claim_id: c_sF987AcMxX-QBzb62C9Dd-
+          source_id: s_MC968GsYGjHrdxEkZtujsZ
+          stance: supports
+          locator: CBDB：兄弟 王高（126625）之父／母 王繼和
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王彥輝 与 王高 为同胞（CBDB 记「兄」），王高 之父／母即 王彥輝 之父／母。
+          source:
+            id: s_MC968GsYGjHrdxEkZtujsZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彥輝（CBDB 254112）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254112&o=json
+            external_identifier: CBDB:254112
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2pfuJRufpgRKEJpaePui7C
+        status: active
+        display_name: 王彥輝
+        merged_into_person_id: null
+    - claim:
+        id: c_zXj2i7B_5aq8l7zkQT8XRR
+        subject_person_id: p_HuYEH2YSebAHXaYh9GTn72
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FKyKqw6YjwEf5zNLcAE8rh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_P_70gCGsgLomSryhDw98oa
+          claim_id: c_zXj2i7B_5aq8l7zkQT8XRR
+          source_id: s_zz9PUwX4STyJwROgebqQRK
+          stance: supports
+          locator: CBDB：兄弟 王高（126625）之父／母 王繼和
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王彥清 与 王高 为同胞（CBDB 记「兄」），王高 之父／母即 王彥清 之父／母。
+          source:
+            id: s_zz9PUwX4STyJwROgebqQRK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彥清（CBDB 254111）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254111&o=json
+            external_identifier: CBDB:254111
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FKyKqw6YjwEf5zNLcAE8rh
+        status: active
+        display_name: 王彥清
+        merged_into_person_id: null
+    - claim:
+        id: c_QOh96sXpunCU1zMaWFXI-w
+        subject_person_id: p_HuYEH2YSebAHXaYh9GTn72
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_c8cNWHX855ThCyxu9d1ngq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_L3FZGeKYYZMXED8PM0mrRc
+          claim_id: c_QOh96sXpunCU1zMaWFXI-w
+          source_id: s_MO0mjo2EHpoig3_C-c4G0Q
+          stance: supports
+          locator: CBDB：兄弟 王高（126625）之父／母 王繼和
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王彥政 与 王高 为同胞（CBDB 记「弟」），王高 之父／母即 王彥政 之父／母。
+          source:
+            id: s_MO0mjo2EHpoig3_C-c4G0Q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彥政（CBDB 254110）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254110&o=json
+            external_identifier: CBDB:254110
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_c8cNWHX855ThCyxu9d1ngq
+        status: active
+        display_name: 王彥政
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -137,8 +248,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_AUQVWk8JE4APmBfj8pSMKj | 王高 | accepted |
+| children | p_2pfuJRufpgRKEJpaePui7C | 王彥輝 | accepted |
+| children | p_FKyKqw6YjwEf5zNLcAE8rh | 王彥清 | accepted |
+| children | p_c8cNWHX855ThCyxu9d1ngq | 王彥政 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王高（CBDB 126625）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126625&o=json)
 - [中国历代人物传记资料库：王繼和（CBDB 254107）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254107&o=json)
+- [中国历代人物传记资料库：王彥輝（CBDB 254112）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254112&o=json)
+- [中国历代人物传记资料库：王彥清（CBDB 254111）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254111&o=json)
+- [中国历代人物传记资料库：王彥政（CBDB 254110）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254110&o=json)

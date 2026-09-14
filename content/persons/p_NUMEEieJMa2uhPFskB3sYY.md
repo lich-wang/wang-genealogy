@@ -4,7 +4,7 @@ id: p_NUMEEieJMa2uhPFskB3sYY
 status: active
 merged_into: null
 display_name: 王良玉
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -308,6 +308,43 @@ relationships:
         status: active
         display_name: 王祎
         merged_into_person_id: null
+    - claim:
+        id: c_VYNlql--yrl99N2XAI22sr
+        subject_person_id: p_NUMEEieJMa2uhPFskB3sYY
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_ZQzQZXVugxhW1siLgRcKU4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MP-RoMkZ5hPOOb_BmizDr_
+          claim_id: c_VYNlql--yrl99N2XAI22sr
+          source_id: s_E7-eoPJEXZ6RqCZKiuwzJS
+          stance: supports
+          locator: CBDB：兄弟 王祎（10725）之父／母 王良玉
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王良珉 与 王祎 为同胞（CBDB 记「兄」），王祎 之父／母即 王良珉 之父／母。
+          source:
+            id: s_E7-eoPJEXZ6RqCZKiuwzJS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王良珉（CBDB 28104）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28104&o=json
+            external_identifier: CBDB:28104
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZQzQZXVugxhW1siLgRcKU4
+        status: active
+        display_name: 王良珉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -335,11 +372,13 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_tn1b4sFK11HfyNj5sFGjLZ | 王炎泽 | accepted |
 | children | p_DNgcd12SMQT8sYhCTYL1PG | 王祎 | accepted |
+| children | p_ZQzQZXVugxhW1siLgRcKU4 | 王良珉 | accepted |
 
 ## 外部来源
 
 - [维基数据：王良玉（Q45369207）](https://www.wikidata.org/wiki/Q45369207)
 - [维基数据：王炎泽（Q45369204）](https://www.wikidata.org/wiki/Q45369204)
 - [维基数据：王祎（Q15934970）](https://www.wikidata.org/wiki/Q15934970)
+- [中国历代人物传记资料库：王良珉（CBDB 28104）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28104&o=json)
 - [CBDB 中国历代人物传记资料库：王良玉（10725）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10725&o=json)
 - [CBDB 中国历代人物传记资料库：王炎澤（10724）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10724&o=json)

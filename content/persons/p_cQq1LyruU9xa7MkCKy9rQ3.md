@@ -4,7 +4,7 @@ id: p_cQq1LyruU9xa7MkCKy9rQ3
 status: active
 merged_into: null
 display_name: 王嶽
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,118 @@ relationships:
         display_name: 王資善
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_c5AVurS4Q8NXM8XjcTPZIG
+        subject_person_id: p_5iSwXjQ17T4B8recu4fPLC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_cQq1LyruU9xa7MkCKy9rQ3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nYbYV1FOo9i0RcEmwHKJoj
+          claim_id: c_c5AVurS4Q8NXM8XjcTPZIG
+          source_id: s_pMxgO5afyLH8pBhSiismUF
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 199663 王嶽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_pMxgO5afyLH8pBhSiismUF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仰極（CBDB 248133）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248133&o=json
+            external_identifier: CBDB:248133
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5iSwXjQ17T4B8recu4fPLC
+        status: active
+        display_name: 王仰極
+        merged_into_person_id: null
+    - claim:
+        id: c_T7tFaYVSnf2rTKP4nV56ob
+        subject_person_id: p_cQq1LyruU9xa7MkCKy9rQ3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_r9qyhdN8LJVyrTK8Knmhs3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uhIxa2ocwjoU6OLl8Xr55g
+          claim_id: c_T7tFaYVSnf2rTKP4nV56ob
+          source_id: s_0ev_AS6BcGACymK_uBRMT2
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 199663 王嶽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0ev_AS6BcGACymK_uBRMT2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仰觀（CBDB 248135）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248135&o=json
+            external_identifier: CBDB:248135
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_r9qyhdN8LJVyrTK8Knmhs3
+        status: active
+        display_name: 王仰觀
+        merged_into_person_id: null
+    - claim:
+        id: c_-YdKCW--9T1O-tIr20R901
+        subject_person_id: p_cQq1LyruU9xa7MkCKy9rQ3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xqWpBi5zAmPQJpQbszJ4fG
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5IM-cVagjInnrNxUYgymFJ
+          claim_id: c_-YdKCW--9T1O-tIr20R901
+          source_id: s_h_Nm-x1xKq27dM95LyMpVo
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 199663 王嶽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_h_Nm-x1xKq27dM95LyMpVo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仰文（CBDB 248134）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248134&o=json
+            external_identifier: CBDB:248134
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xqWpBi5zAmPQJpQbszJ4fG
+        status: active
+        display_name: 王仰文
+        merged_into_person_id: null
 ---
 
 # 王嶽
@@ -245,8 +356,14 @@ relationships:
 | spouses | p_VfhCAGmScV1Ww7WRACtCNH | 劉氏 | accepted |
 | ancestors | p_YyT6AeK4EyXH1THz1a4YvT | 王茂春 | accepted |
 | ancestors | p_TdtTDBShmb1aCgpxE3qjM3 | 王資善 | accepted |
+| other | p_5iSwXjQ17T4B8recu4fPLC | 王仰極 | accepted |
+| other | p_r9qyhdN8LJVyrTK8Knmhs3 | 王仰觀 | accepted |
+| other | p_xqWpBi5zAmPQJpQbszJ4fG | 王仰文 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：劉氏(王嶽妻)（CBDB 248131）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248131&o=json)
+- [中国历代人物传记资料库：王仰觀（CBDB 248135）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248135&o=json)
+- [中国历代人物传记资料库：王仰極（CBDB 248133）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248133&o=json)
+- [中国历代人物传记资料库：王仰文（CBDB 248134）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248134&o=json)
 - [中国历代人物传记资料库：王嶽（CBDB 199663）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199663&o=json)

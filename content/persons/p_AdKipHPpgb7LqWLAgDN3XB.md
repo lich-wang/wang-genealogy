@@ -4,7 +4,7 @@ id: p_AdKipHPpgb7LqWLAgDN3XB
 status: active
 merged_into: null
 display_name: 王績
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ZDaSuHK9ftCwh7-DLbUQqg
+        subject_person_id: p_KQX7wZ6kGeHGXVBXr7RepL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AdKipHPpgb7LqWLAgDN3XB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sii_KTwjAY2MukvT0KIggI
+          claim_id: c_ZDaSuHK9ftCwh7-DLbUQqg
+          source_id: s_54mkPpGjEfSovZ1V98TYAR
+          stance: supports
+          locator: CBDB：兄弟 王紳（202472）之父／母 王國寧
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王績 与 王紳 为同胞（CBDB 记「兄」），王紳 之父／母即 王績 之父／母。
+          source:
+            id: s_54mkPpGjEfSovZ1V98TYAR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王績（CBDB 288739）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288739&o=json
+            external_identifier: CBDB:288739
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KQX7wZ6kGeHGXVBXr7RepL
+        status: active
+        display_name: 王國寧
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_6hh2swYnDowJ5q01LOMMfa
+        subject_person_id: p_AdKipHPpgb7LqWLAgDN3XB
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Hs5dTewocAZFYmsQxmyBFY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZQPxftxFdiRb214pUJNlBN
+          claim_id: c_6hh2swYnDowJ5q01LOMMfa
+          source_id: s_54mkPpGjEfSovZ1V98TYAR
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202472 王紳）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_54mkPpGjEfSovZ1V98TYAR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王績（CBDB 288739）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288739&o=json
+            external_identifier: CBDB:288739
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Hs5dTewocAZFYmsQxmyBFY
+        status: active
+        display_name: 王紳
+        merged_into_person_id: null
 ---
 
 # 王績
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_KQX7wZ6kGeHGXVBXr7RepL | 王國寧 | accepted |
+| other | p_Hs5dTewocAZFYmsQxmyBFY | 王紳 | accepted |
 
 ## 外部来源
 

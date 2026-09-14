@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王子春
 cbdb_id: 134478
-revision: 2
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -113,6 +113,80 @@ relationships:
         status: active
         display_name: 王舜
         merged_into_person_id: null
+    - claim:
+        id: c_u3JBZlp55I1TmawdEzzxHz
+        subject_person_id: p_b49QcsPcaH8znQNTnPoNws
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GFHkg45BCRTRm88WrHdtGN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AmOTGzdqgtUO6jOBgqmbQo
+          claim_id: c_u3JBZlp55I1TmawdEzzxHz
+          source_id: s_TqoUlp3KjAxjvalnK-bCw_
+          stance: supports
+          locator: CBDB：兄弟 王舜（134474）之父／母 王子春
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王璠 与 王舜 为同胞（CBDB 记「姊」），王舜 之父／母即 王璠 之父／母。
+          source:
+            id: s_TqoUlp3KjAxjvalnK-bCw_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璠（CBDB 134477）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134477&o=json
+            external_identifier: CBDB:134477
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GFHkg45BCRTRm88WrHdtGN
+        status: active
+        display_name: 王璠
+        merged_into_person_id: null
+    - claim:
+        id: c_fJW0z_X_C8LQlOJINpmmCv
+        subject_person_id: p_b49QcsPcaH8znQNTnPoNws
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aH8C1ySszEgLrBC59RTgjv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YIIHOXXe4XpFcCwm9_Kitl
+          claim_id: c_fJW0z_X_C8LQlOJINpmmCv
+          source_id: s_QPuRbmzuqQ__Kyne_nl2hK
+          stance: supports
+          locator: CBDB：兄弟 王舜（134474）之父／母 王子春
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王粲 与 王舜 为同胞（CBDB 记「姊」），王舜 之父／母即 王粲 之父／母。
+          source:
+            id: s_QPuRbmzuqQ__Kyne_nl2hK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王粲（CBDB 134476）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134476&o=json
+            external_identifier: CBDB:134476
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aH8C1ySszEgLrBC59RTgjv
+        status: active
+        display_name: 王粲
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -137,8 +211,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_hAjGXkMpctpHSU49zJp6aP | 王舜 | accepted |
+| children | p_GFHkg45BCRTRm88WrHdtGN | 王璠 | accepted |
+| children | p_aH8C1ySszEgLrBC59RTgjv | 王粲 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王粲（CBDB 134476）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134476&o=json)
+- [中国历代人物传记资料库：王璠（CBDB 134477）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134477&o=json)
 - [中国历代人物传记资料库：王舜（CBDB 134474）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134474&o=json)
 - [中国历代人物传记资料库：王子春（CBDB 134478）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134478&o=json)

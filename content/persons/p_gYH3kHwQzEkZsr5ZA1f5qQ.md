@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王天舜
 cbdb_id: 324345
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_oXroi0IAuwBw94CKbCB383
+        subject_person_id: p_BZ632SwpqzGW4p9bQ7s6FS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gYH3kHwQzEkZsr5ZA1f5qQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OPhVaSY_ExTJheKTAXQnsP
+          claim_id: c_oXroi0IAuwBw94CKbCB383
+          source_id: s__ynHeNBiv4PPTUUDiXF3xW
+          stance: supports
+          locator: CBDB：兄弟 王天爵（126474）之父／母 王廷政
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王天舜 与 王天爵 为同胞（CBDB 记「兄」），王天爵 之父／母即 王天舜 之父／母。
+          source:
+            id: s__ynHeNBiv4PPTUUDiXF3xW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王天舜（CBDB 324345）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324345&o=json
+            external_identifier: CBDB:324345
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BZ632SwpqzGW4p9bQ7s6FS
+        status: active
+        display_name: 王廷政
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_SSbTlaMlC5o3o0PGog2qU2
+        subject_person_id: p_SVNZL8P3EB13LuNV5sxppY
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gYH3kHwQzEkZsr5ZA1f5qQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_C6-IgfiKfd_Pp5fI-YUcLt
+          claim_id: c_SSbTlaMlC5o3o0PGog2qU2
+          source_id: s__ynHeNBiv4PPTUUDiXF3xW
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126474 王天爵）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__ynHeNBiv4PPTUUDiXF3xW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王天舜（CBDB 324345）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324345&o=json
+            external_identifier: CBDB:324345
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_SVNZL8P3EB13LuNV5sxppY
+        status: active
+        display_name: 王天爵
+        merged_into_person_id: null
 ---
 
 # 王天舜
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_BZ632SwpqzGW4p9bQ7s6FS | 王廷政 | accepted |
+| other | p_SVNZL8P3EB13LuNV5sxppY | 王天爵 | accepted |
 
 ## 外部来源
 

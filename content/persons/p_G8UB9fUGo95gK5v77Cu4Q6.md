@@ -4,7 +4,7 @@ id: p_G8UB9fUGo95gK5v77Cu4Q6
 status: active
 merged_into: null
 display_name: 王機
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,118 @@ relationships:
         display_name: 王鉞
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Seh2fX04YezhlrPiEDt9Vu
+        subject_person_id: p_G8UB9fUGo95gK5v77Cu4Q6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_PKLtpPAo6poSetxCuJo41k
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_I_xR-f1shAeh6GQ6GP5xp-
+          claim_id: c_Seh2fX04YezhlrPiEDt9Vu
+          source_id: s_hVWIGhUcp53HP3Zu-u8dST
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200214 王機）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hVWIGhUcp53HP3Zu-u8dST
+            source_type: api_record
+            title: 中国历代人物传记资料库：王椐（CBDB 254954）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254954&o=json
+            external_identifier: CBDB:254954
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PKLtpPAo6poSetxCuJo41k
+        status: active
+        display_name: 王椐
+        merged_into_person_id: null
+    - claim:
+        id: c_QoBegqZdjMn_k5D2ElTisG
+        subject_person_id: p_G8UB9fUGo95gK5v77Cu4Q6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_S96tZ7d3dKfu3Hc5ofu6ZH
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NTki1aYjEDiT84WA8DVslx
+          claim_id: c_QoBegqZdjMn_k5D2ElTisG
+          source_id: s_SEWqfYkbMw_oyqwvHFGIOQ
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200214 王機）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_SEWqfYkbMw_oyqwvHFGIOQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王柌（CBDB 254953）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254953&o=json
+            external_identifier: CBDB:254953
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_S96tZ7d3dKfu3Hc5ofu6ZH
+        status: active
+        display_name: 王柌
+        merged_into_person_id: null
+    - claim:
+        id: c_ZceeYuoS6JQb10p_ji8YZj
+        subject_person_id: p_G8UB9fUGo95gK5v77Cu4Q6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_iWeMomEw1RbNhWSYdX7awh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GDRV7i4AdjgKQkqcC2imgJ
+          claim_id: c_ZceeYuoS6JQb10p_ji8YZj
+          source_id: s_oX2K1rR4GHA761Crdh6lm9
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200214 王機）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_oX2K1rR4GHA761Crdh6lm9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王柏（CBDB 254952）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254952&o=json
+            external_identifier: CBDB:254952
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_iWeMomEw1RbNhWSYdX7awh
+        status: active
+        display_name: 王柏
+        merged_into_person_id: null
 ---
 
 # 王機
@@ -245,8 +356,14 @@ relationships:
 | spouses | p_oBjY9MfZi5thmW69NmwGdo | 周氏 | accepted |
 | ancestors | p_P3kCAftKu9Diu16RUgNNEE | 王伯儲 | accepted |
 | ancestors | p_UFdLLZo5Ts9VJEAG5Gmb5P | 王鉞 | accepted |
+| other | p_PKLtpPAo6poSetxCuJo41k | 王椐 | accepted |
+| other | p_S96tZ7d3dKfu3Hc5ofu6ZH | 王柌 | accepted |
+| other | p_iWeMomEw1RbNhWSYdX7awh | 王柏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王柏（CBDB 254952）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254952&o=json)
+- [中国历代人物传记资料库：王柌（CBDB 254953）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254953&o=json)
 - [中国历代人物传记资料库：王機（CBDB 200214）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200214&o=json)
+- [中国历代人物传记资料库：王椐（CBDB 254954）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254954&o=json)
 - [中国历代人物传记资料库：周氏(王機妻)（CBDB 254951）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254951&o=json)

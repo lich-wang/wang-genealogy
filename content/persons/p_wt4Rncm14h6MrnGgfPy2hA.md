@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王用才
 cbdb_id: 201069
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -236,7 +236,44 @@ relationships:
         display_name: 王仕通
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_j53hX14RTeUEuo0qdS2NPI
+        subject_person_id: p_5iaX7DSScmrC23GFCU66NX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wt4Rncm14h6MrnGgfPy2hA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EqPrJZdJTkfD_wUoiBnD6r
+          claim_id: c_j53hX14RTeUEuo0qdS2NPI
+          source_id: s_q1sug0m1_46MpFTXDeAtaN
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201069 王用才）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_q1sug0m1_46MpFTXDeAtaN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用中（CBDB 266623）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266623&o=json
+            external_identifier: CBDB:266623
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5iaX7DSScmrC23GFCU66NX
+        status: active
+        display_name: 王用中
+        merged_into_person_id: null
 ---
 
 # 王用才
@@ -258,10 +295,12 @@ relationships:
 | parents | p_gXfhfHsBNGd6LAU2tNCWn5 | 王輪 | accepted |
 | ancestors | p_Kh33dUoJaJZLSbXRtcKgR3 | 王子秀 | accepted |
 | ancestors | p_BtWvuGRFMDiFf3wNmLonU8 | 王仕通 | accepted |
+| other | p_5iaX7DSScmrC23GFCU66NX | 王用中 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王輪（CBDB 266620）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266620&o=json)
 - [中国历代人物传记资料库：王仕通（CBDB 266618）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266618&o=json)
 - [中国历代人物传记资料库：王用才（CBDB 201069）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201069&o=json)
+- [中国历代人物传记资料库：王用中（CBDB 266623）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266623&o=json)
 - [中国历代人物传记资料库：王子秀（CBDB 266619）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266619&o=json)

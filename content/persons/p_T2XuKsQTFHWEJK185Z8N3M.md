@@ -4,7 +4,7 @@ id: p_T2XuKsQTFHWEJK185Z8N3M
 status: active
 merged_into: null
 display_name: 王存仁
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ekFQXbcVJtljVS_p_p0L7z
+        subject_person_id: p_WB4oNw1ycyU9xM4j8SWNsC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_T2XuKsQTFHWEJK185Z8N3M
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CsoxHg2fGjrTUsYOzIUq_T
+          claim_id: c_ekFQXbcVJtljVS_p_p0L7z
+          source_id: s_SlE25spWskTIz5Qd-Xs8_0
+          stance: supports
+          locator: CBDB：兄弟 王嘉謨（203092）之父／母 王孜
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王存仁 与 王嘉謨 为同胞（CBDB 记「弟」），王嘉謨 之父／母即 王存仁 之父／母。
+          source:
+            id: s_SlE25spWskTIz5Qd-Xs8_0
+            source_type: api_record
+            title: 中国历代人物传记资料库：王存仁（CBDB 299653）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299653&o=json
+            external_identifier: CBDB:299653
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_WB4oNw1ycyU9xM4j8SWNsC
+        status: active
+        display_name: 王孜
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_g1y_fLLkRGm3Gpua6i8KAZ
+        subject_person_id: p_T2XuKsQTFHWEJK185Z8N3M
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_pg2fYMa25vFJ1qFwgpCHBx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qXoBGesRkh6CA-AWYjq7JH
+          claim_id: c_g1y_fLLkRGm3Gpua6i8KAZ
+          source_id: s_SlE25spWskTIz5Qd-Xs8_0
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203092 王嘉謨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_SlE25spWskTIz5Qd-Xs8_0
+            source_type: api_record
+            title: 中国历代人物传记资料库：王存仁（CBDB 299653）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299653&o=json
+            external_identifier: CBDB:299653
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_pg2fYMa25vFJ1qFwgpCHBx
+        status: active
+        display_name: 王嘉謨
+        merged_into_person_id: null
 ---
 
 # 王存仁
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WB4oNw1ycyU9xM4j8SWNsC | 王孜 | accepted |
+| other | p_pg2fYMa25vFJ1qFwgpCHBx | 王嘉謨 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_trFxBpoFBzxzdZ7N4GC2uT
 status: active
 merged_into: null
 display_name: 王元禮
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_FBLilPBUcwvCEfSfOI6YC_
+        subject_person_id: p_trFxBpoFBzxzdZ7N4GC2uT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6txg6ZLYthq2n2oYYfNbqL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_94lH30si23s7mdlGbquFEf
+          claim_id: c_FBLilPBUcwvCEfSfOI6YC_
+          source_id: s_xoN70a057EvxWIThFoHBcC
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 35382）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_xoN70a057EvxWIThFoHBcC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王亨（CBDB 35387）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35387&o=json
+            external_identifier: CBDB:35387
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6txg6ZLYthq2n2oYYfNbqL
+        status: active
+        display_name: 王亨
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_6txg6ZLYthq2n2oYYfNbqL | 王亨 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王亨（CBDB 35387）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35387&o=json)
 - [中国历代人物传记资料库：王元禮（CBDB 35382）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35382&o=json)

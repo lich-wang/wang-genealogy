@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王齊玉
 cbdb_id: 288683
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -113,6 +113,43 @@ relationships:
         status: active
         display_name: 王鉅
         merged_into_person_id: null
+    - claim:
+        id: c_2DKCjMhf3ppW0059WRPzRZ
+        subject_person_id: p_BnBLKLfaqxcVPEz4Mit3Zc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5fr5i6aUxfem5HbVkKJ9sw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_59J8TNoNkt_qiri7XWnTRe
+          claim_id: c_2DKCjMhf3ppW0059WRPzRZ
+          source_id: s_9y_1do6w0CogBiBeTcLRhI
+          stance: supports
+          locator: CBDB：兄弟 王鉅（202468）之父／母 王齊玉
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王傑 与 王鉅 为同胞（CBDB 记「弟」），王鉅 之父／母即 王傑 之父／母。
+          source:
+            id: s_9y_1do6w0CogBiBeTcLRhI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王傑（CBDB 288688）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288688&o=json
+            external_identifier: CBDB:288688
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5fr5i6aUxfem5HbVkKJ9sw
+        status: active
+        display_name: 王傑
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -137,8 +174,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_hdA2EX5rq1DHua8Wnk5XqK | 王鉅 | accepted |
+| children | p_5fr5i6aUxfem5HbVkKJ9sw | 王傑 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王傑（CBDB 288688）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288688&o=json)
 - [中国历代人物传记资料库：王鉅（CBDB 202468）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202468&o=json)
 - [中国历代人物传记资料库：王齊玉（CBDB 288683）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288683&o=json)

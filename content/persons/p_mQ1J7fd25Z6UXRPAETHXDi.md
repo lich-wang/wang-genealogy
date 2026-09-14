@@ -4,7 +4,7 @@ id: p_mQ1J7fd25Z6UXRPAETHXDi
 status: active
 merged_into: null
 display_name: 王純
-revision: 3
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -250,7 +250,155 @@ relationships:
         display_name: 王原行
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_rWiB0rhr1uSLnwcENOQHDm
+        subject_person_id: p_Gmzeou7Y49kGbG82r2gQNS
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mQ1J7fd25Z6UXRPAETHXDi
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v7d-BgQeXPXbSISatkLCKP
+          claim_id: c_rWiB0rhr1uSLnwcENOQHDm
+          source_id: s_o54-bjt3Ja9XiBeh3pzpKx
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126657 王純）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_o54-bjt3Ja9XiBeh3pzpKx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王弘幹（CBDB 257397）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257397&o=json
+            external_identifier: CBDB:257397
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Gmzeou7Y49kGbG82r2gQNS
+        status: active
+        display_name: 王弘幹
+        merged_into_person_id: null
+    - claim:
+        id: c_kM6nKXaIytAo1PXQVtypKu
+        subject_person_id: p_Lapj5jtB5AXtEr4MGXMdKr
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mQ1J7fd25Z6UXRPAETHXDi
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rB7_q3EpUnZbdSKBCykOpk
+          claim_id: c_kM6nKXaIytAo1PXQVtypKu
+          source_id: s_Uzz14pxSQvZux2119WvjQ5
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126657 王純）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Uzz14pxSQvZux2119WvjQ5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王弘範（CBDB 257399）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257399&o=json
+            external_identifier: CBDB:257399
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Lapj5jtB5AXtEr4MGXMdKr
+        status: active
+        display_name: 王弘範
+        merged_into_person_id: null
+    - claim:
+        id: c_54U9u4DdpCAclhK1-G0osm
+        subject_person_id: p_MeUpJzteMYS7QRkNyZy94E
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mQ1J7fd25Z6UXRPAETHXDi
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MorpOS6qiGzAoYYhPnahCo
+          claim_id: c_54U9u4DdpCAclhK1-G0osm
+          source_id: s_0XupweTQFKj3kKPjEsEyKc
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126657 王純）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0XupweTQFKj3kKPjEsEyKc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王弘學（CBDB 257396）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257396&o=json
+            external_identifier: CBDB:257396
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MeUpJzteMYS7QRkNyZy94E
+        status: active
+        display_name: 王弘學
+        merged_into_person_id: null
+    - claim:
+        id: c_slDQ1R-Insee17SbvebdBd
+        subject_person_id: p_mQ1J7fd25Z6UXRPAETHXDi
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_sESRoWJizs7MHuiDbBsH4y
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VL9xPvWGtsJ3eIwzsvKbpm
+          claim_id: c_slDQ1R-Insee17SbvebdBd
+          source_id: s_vfiEdiwPEsog69o0TZCs3h
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126657 王純）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_vfiEdiwPEsog69o0TZCs3h
+            source_type: api_record
+            title: 中国历代人物传记资料库：王弘度（CBDB 257398）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257398&o=json
+            external_identifier: CBDB:257398
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_sESRoWJizs7MHuiDbBsH4y
+        status: active
+        display_name: 王弘度
+        merged_into_person_id: null
 ---
 
 # 王純
@@ -274,8 +422,16 @@ relationships:
 | spouses | p_jBhHK9ZvdStwR6we27kdf6 | 張氏 | accepted |
 | ancestors | p_uNt9MKU5sxjzvcF5HvENJs | 王嗣宗 | accepted |
 | ancestors | p_ExnSXbEBng6rEeQSBJdPNS | 王原行 | accepted |
+| other | p_Gmzeou7Y49kGbG82r2gQNS | 王弘幹 | accepted |
+| other | p_Lapj5jtB5AXtEr4MGXMdKr | 王弘範 | accepted |
+| other | p_MeUpJzteMYS7QRkNyZy94E | 王弘學 | accepted |
+| other | p_sESRoWJizs7MHuiDbBsH4y | 王弘度 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王純（CBDB 126657）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126657&o=json)
+- [中国历代人物传记资料库：王弘度（CBDB 257398）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257398&o=json)
+- [中国历代人物传记资料库：王弘範（CBDB 257399）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257399&o=json)
+- [中国历代人物传记资料库：王弘幹（CBDB 257397）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257397&o=json)
+- [中国历代人物传记资料库：王弘學（CBDB 257396）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257396&o=json)
 - [中国历代人物传记资料库：張氏(王純妻)（CBDB 257395）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257395&o=json)

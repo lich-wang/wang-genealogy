@@ -4,7 +4,7 @@ id: p_YyANARVNyNvBnk5riMJd4z
 status: active
 merged_into: null
 display_name: 王庶
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -213,6 +213,43 @@ relationships:
         status: active
         display_name: 王之奇
         merged_into_person_id: null
+    - claim:
+        id: c_7R7TRG7l2OKYZbqMuJkWeb
+        subject_person_id: p_YyANARVNyNvBnk5riMJd4z
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cDXcgiX7Uo6NbRZKNL5dpP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_LO0ZAp8hcyRCtFkuFm9Vnr
+          claim_id: c_7R7TRG7l2OKYZbqMuJkWeb
+          source_id: s_cuCFE6z5YCWv7bb3AhkGCx
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1878）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_cuCFE6z5YCWv7bb3AhkGCx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之荀（CBDB 13757）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13757&o=json
+            external_identifier: CBDB:13757
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cDXcgiX7Uo6NbRZKNL5dpP
+        status: active
+        display_name: 王之荀
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -240,6 +277,7 @@ relationships:
 | parents | p_NWD6tzMxEyomjXxFXMQ1yX | 王茂 | accepted |
 | children | p_8NZ4VgcCXbsb12m8DpzJUp | 王之道 | accepted |
 | children | p_dGeVmKUMk8CpVvhVSEDqhC | 王之奇 | accepted |
+| children | p_cDXcgiX7Uo6NbRZKNL5dpP | 王之荀 | accepted |
 
 ## 外部来源
 
@@ -247,3 +285,4 @@ relationships:
 - [中国历代人物传记资料库：王庶（CBDB 1878）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1878&o=json)
 - [中国历代人物传记资料库：王之道（CBDB 13758）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13758&o=json)
 - [中国历代人物传记资料库：王之奇（CBDB 13756）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13756&o=json)
+- [中国历代人物传记资料库：王之荀（CBDB 13757）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13757&o=json)

@@ -4,7 +4,7 @@ id: p_Hs5dTewocAZFYmsQxmyBFY
 status: active
 merged_into: null
 display_name: 王紳
-revision: 4
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,155 @@ relationships:
         display_name: 王惟德
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_6hh2swYnDowJ5q01LOMMfa
+        subject_person_id: p_AdKipHPpgb7LqWLAgDN3XB
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Hs5dTewocAZFYmsQxmyBFY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZQPxftxFdiRb214pUJNlBN
+          claim_id: c_6hh2swYnDowJ5q01LOMMfa
+          source_id: s_54mkPpGjEfSovZ1V98TYAR
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202472 王紳）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_54mkPpGjEfSovZ1V98TYAR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王績（CBDB 288739）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288739&o=json
+            external_identifier: CBDB:288739
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_AdKipHPpgb7LqWLAgDN3XB
+        status: active
+        display_name: 王績
+        merged_into_person_id: null
+    - claim:
+        id: c_vbY-FmR7GcyI0gVu5HKzEb
+        subject_person_id: p_Hs5dTewocAZFYmsQxmyBFY
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_atfBE8SW3zcBDXScoRSUhL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1uLjGcUkiZ3vHhE_k-aoKA
+          claim_id: c_vbY-FmR7GcyI0gVu5HKzEb
+          source_id: s_Tp7-DuHPcuSKYN1PN_1VYF
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202472 王紳）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Tp7-DuHPcuSKYN1PN_1VYF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王緒（CBDB 288742）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288742&o=json
+            external_identifier: CBDB:288742
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_atfBE8SW3zcBDXScoRSUhL
+        status: active
+        display_name: 王緒
+        merged_into_person_id: null
+    - claim:
+        id: c_qTXtc5CV0z1gDn7RZlfmef
+        subject_person_id: p_Hs5dTewocAZFYmsQxmyBFY
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_eWBmW9UuYE2fe3KZ1jvovA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6WlLs_E2dJSpVK4A-m11BG
+          claim_id: c_qTXtc5CV0z1gDn7RZlfmef
+          source_id: s_rG2DRVGY5y8xWx_kVCHUFj
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202472 王紳）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_rG2DRVGY5y8xWx_kVCHUFj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王紌（CBDB 288740）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288740&o=json
+            external_identifier: CBDB:288740
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_eWBmW9UuYE2fe3KZ1jvovA
+        status: active
+        display_name: 王紌
+        merged_into_person_id: null
+    - claim:
+        id: c_u7dCKZRoCLxTG5ig1dRTE_
+        subject_person_id: p_Hs5dTewocAZFYmsQxmyBFY
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gX4GGz8AVWcWAUz4K38wbr
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RBVivYbzRT5ZYMCigir0Fh
+          claim_id: c_u7dCKZRoCLxTG5ig1dRTE_
+          source_id: s_rsVm2qlzoTa_bm0YhbNMa6
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202472 王紳）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_rsVm2qlzoTa_bm0YhbNMa6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王縉（CBDB 288738）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288738&o=json
+            external_identifier: CBDB:288738
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_gX4GGz8AVWcWAUz4K38wbr
+        status: active
+        display_name: 王縉
+        merged_into_person_id: null
 ---
 
 # 王紳
@@ -240,10 +388,18 @@ relationships:
 | parents | p_KQX7wZ6kGeHGXVBXr7RepL | 王國寧 | accepted |
 | ancestors | p_cDhkwNASo4LnZoHgKrkdpx | 王吉 | accepted |
 | ancestors | p_r7LepFMkECFWYe8Q6h2L8C | 王惟德 | accepted |
+| other | p_AdKipHPpgb7LqWLAgDN3XB | 王績 | accepted |
+| other | p_atfBE8SW3zcBDXScoRSUhL | 王緒 | accepted |
+| other | p_eWBmW9UuYE2fe3KZ1jvovA | 王紌 | accepted |
+| other | p_gX4GGz8AVWcWAUz4K38wbr | 王縉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王國寧（CBDB 288735）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288735&o=json)
+- [中国历代人物传记资料库：王績（CBDB 288739）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288739&o=json)
 - [中国历代人物传记资料库：王吉（CBDB 288734）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288734&o=json)
+- [中国历代人物传记资料库：王縉（CBDB 288738）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288738&o=json)
+- [中国历代人物传记资料库：王紌（CBDB 288740）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288740&o=json)
 - [中国历代人物传记资料库：王紳（CBDB 202472）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202472&o=json)
 - [中国历代人物传记资料库：王惟德（CBDB 288733）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288733&o=json)
+- [中国历代人物传记资料库：王緒（CBDB 288742）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288742&o=json)

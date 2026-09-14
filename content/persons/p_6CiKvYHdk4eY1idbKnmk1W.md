@@ -4,7 +4,7 @@ id: p_6CiKvYHdk4eY1idbKnmk1W
 status: active
 merged_into: null
 display_name: 王宮用
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -196,7 +196,118 @@ relationships:
         display_name: 王端
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_FOXTEne_B8yIVYisVcKz4E
+        subject_person_id: p_6CiKvYHdk4eY1idbKnmk1W
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_9oJ79qNMX8CxSfZ1CRrVu1
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TXrA220dJft2AyHTLvOCbu
+          claim_id: c_FOXTEne_B8yIVYisVcKz4E
+          source_id: s_I7URrZkwsfZVANEjLUjPeq
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204347 王宮用）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_I7URrZkwsfZVANEjLUjPeq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷用（CBDB 317786）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317786&o=json
+            external_identifier: CBDB:317786
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9oJ79qNMX8CxSfZ1CRrVu1
+        status: active
+        display_name: 王廷用
+        merged_into_person_id: null
+    - claim:
+        id: c_SNhoT2s1Zs7pdOM7l3PegL
+        subject_person_id: p_6CiKvYHdk4eY1idbKnmk1W
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_X7L62Kzkk53vhzp71GgoTP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yUhSulYDY696pUfQktvoJk
+          claim_id: c_SNhoT2s1Zs7pdOM7l3PegL
+          source_id: s_dr8QemTBOu2HY61dTYHo10
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204347 王宮用）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_dr8QemTBOu2HY61dTYHo10
+            source_type: api_record
+            title: 中国历代人物传记资料库：王君用（CBDB 317784）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317784&o=json
+            external_identifier: CBDB:317784
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_X7L62Kzkk53vhzp71GgoTP
+        status: active
+        display_name: 王君用
+        merged_into_person_id: null
+    - claim:
+        id: c_jp2xKZ1F3vgSgdW9X9YMvp
+        subject_person_id: p_6CiKvYHdk4eY1idbKnmk1W
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dDTf6ZBEvQU9wGCyMFhaRm
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wXPOYMZd-wDE73xIRyp0Kh
+          claim_id: c_jp2xKZ1F3vgSgdW9X9YMvp
+          source_id: s_2bSifL1mxPaoUNlWyxDVjq
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204347 王宮用）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_2bSifL1mxPaoUNlWyxDVjq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王朝用（CBDB 317783）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317783&o=json
+            external_identifier: CBDB:317783
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dDTf6ZBEvQU9wGCyMFhaRm
+        status: active
+        display_name: 王朝用
+        merged_into_person_id: null
 ---
 
 # 王宮用
@@ -218,8 +329,14 @@ relationships:
 | parents | p_gv3jP8cXzjr19Yf1aibXF5 | 王隆 | accepted |
 | spouses | p_JcxJZbBeiX9ni5uV8DKYRZ | 李氏 | accepted |
 | ancestors | p_75hb8dHaPJ6PrfY474yWrc | 王端 | accepted |
+| other | p_9oJ79qNMX8CxSfZ1CRrVu1 | 王廷用 | accepted |
+| other | p_X7L62Kzkk53vhzp71GgoTP | 王君用 | accepted |
+| other | p_dDTf6ZBEvQU9wGCyMFhaRm | 王朝用 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：李氏(王宮用妻)（CBDB 317782）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317782&o=json)
+- [中国历代人物传记资料库：王朝用（CBDB 317783）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317783&o=json)
 - [中国历代人物传记资料库：王宮用（CBDB 204347）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204347&o=json)
+- [中国历代人物传记资料库：王君用（CBDB 317784）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317784&o=json)
+- [中国历代人物传记资料库：王廷用（CBDB 317786）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317786&o=json)

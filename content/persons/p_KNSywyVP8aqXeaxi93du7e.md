@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王大忠
 cbdb_id: 264452
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_8U9pJHmEFBfehi2xFVg5Fo
+        subject_person_id: p_2hYFczFXSMMXJ25M18ZPJD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KNSywyVP8aqXeaxi93du7e
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dWMxV_C8odfwaE_dE4CQfq
+          claim_id: c_8U9pJHmEFBfehi2xFVg5Fo
+          source_id: s_Slzw9h9O6HuXmww2VEzYFR
+          stance: supports
+          locator: CBDB：兄弟 王大用（200906）之父／母 王乂衡
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王大忠 与 王大用 为同胞（CBDB 记「弟」），王大用 之父／母即 王大忠 之父／母。
+          source:
+            id: s_Slzw9h9O6HuXmww2VEzYFR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大忠（CBDB 264452）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264452&o=json
+            external_identifier: CBDB:264452
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2hYFczFXSMMXJ25M18ZPJD
+        status: active
+        display_name: 王乂衡
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ATt8MLZ3BLyaPg6Y_xxy-d
+        subject_person_id: p_KNSywyVP8aqXeaxi93du7e
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_tcnRstaNUF5RMY944rGoMz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DJf5kwk8ZgLvbYZ3Bsxna4
+          claim_id: c_ATt8MLZ3BLyaPg6Y_xxy-d
+          source_id: s_Slzw9h9O6HuXmww2VEzYFR
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200906 王大用）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Slzw9h9O6HuXmww2VEzYFR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大忠（CBDB 264452）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264452&o=json
+            external_identifier: CBDB:264452
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_tcnRstaNUF5RMY944rGoMz
+        status: active
+        display_name: 王大用
+        merged_into_person_id: null
 ---
 
 # 王大忠
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_2hYFczFXSMMXJ25M18ZPJD | 王乂衡 | accepted |
+| other | p_tcnRstaNUF5RMY944rGoMz | 王大用 | accepted |
 
 ## 外部来源
 

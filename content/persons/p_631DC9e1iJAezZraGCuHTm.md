@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王應晉
 cbdb_id: 208840
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_2E2Sqm1siHT4bkJ3q2eEe8
+        subject_person_id: p_9wJmZu8ZKLBaT7U97D7E3V
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_631DC9e1iJAezZraGCuHTm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ygjTWxJNikhz6w6es1TbGO
+          claim_id: c_2E2Sqm1siHT4bkJ3q2eEe8
+          source_id: s__wxaBkXRFLQBBeHJ-8lqk4
+          stance: supports
+          locator: CBDB：兄弟 王應乾（205803）之父／母 王文錦
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王應晉 与 王應乾 为同胞（CBDB 记「兄」），王應乾 之父／母即 王應晉 之父／母。
+          source:
+            id: s__wxaBkXRFLQBBeHJ-8lqk4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應晉（CBDB 208840）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208840&o=json
+            external_identifier: CBDB:208840
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9wJmZu8ZKLBaT7U97D7E3V
+        status: active
+        display_name: 王文錦
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_9rpgvg1k1_FMxWHCkOavvx
+        subject_person_id: p_631DC9e1iJAezZraGCuHTm
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_svtNF7GBN4DZNA4eqhmCDp
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fBhwSKxvNdhvwUR9k9dD9D
+          claim_id: c_9rpgvg1k1_FMxWHCkOavvx
+          source_id: s__wxaBkXRFLQBBeHJ-8lqk4
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205803 王應乾）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__wxaBkXRFLQBBeHJ-8lqk4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應晉（CBDB 208840）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208840&o=json
+            external_identifier: CBDB:208840
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_svtNF7GBN4DZNA4eqhmCDp
+        status: active
+        display_name: 王應乾
+        merged_into_person_id: null
 ---
 
 # 王應晉
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_9wJmZu8ZKLBaT7U97D7E3V | 王文錦 | accepted |
+| other | p_svtNF7GBN4DZNA4eqhmCDp | 王應乾 | accepted |
 
 ## 外部来源
 

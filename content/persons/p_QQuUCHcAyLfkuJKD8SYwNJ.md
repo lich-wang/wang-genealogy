@@ -4,7 +4,7 @@ id: p_QQuUCHcAyLfkuJKD8SYwNJ
 status: active
 merged_into: null
 display_name: 王繼光
-revision: 3
+revision: 10
 properties:
   - predicate: name.primary
     recommended:
@@ -191,7 +191,266 @@ relationships:
         display_name: 王時敘
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_M4UGzaeBhsWrJ0BrnAC0Gr
+        subject_person_id: p_7zRiJP33ULQAgv5FxEE6tQ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_QQuUCHcAyLfkuJKD8SYwNJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ilKc4v4DapbNiHpXblGIlP
+          claim_id: c_M4UGzaeBhsWrJ0BrnAC0Gr
+          source_id: s_oB-ewlPJyOF7ziPUDxl2iI
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126878 王繼光）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_oB-ewlPJyOF7ziPUDxl2iI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王啟光（CBDB 216146）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216146&o=json
+            external_identifier: CBDB:216146
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7zRiJP33ULQAgv5FxEE6tQ
+        status: active
+        display_name: 王啟光
+        merged_into_person_id: null
+    - claim:
+        id: c_YDU-nuVeQittvNQxT2ERv6
+        subject_person_id: p_8JkFNe2nzMeDg7thTkkyLK
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_QQuUCHcAyLfkuJKD8SYwNJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KY7vsq8OYW3Yzv3--wL5aw
+          claim_id: c_YDU-nuVeQittvNQxT2ERv6
+          source_id: s_HPfn05k688APrUqOxCES1Q
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126878 王繼光）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_HPfn05k688APrUqOxCES1Q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王有光（CBDB 216145）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216145&o=json
+            external_identifier: CBDB:216145
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8JkFNe2nzMeDg7thTkkyLK
+        status: active
+        display_name: 王有光
+        merged_into_person_id: null
+    - claim:
+        id: c_TzfvLkjgB04ASPp9rNP4Zw
+        subject_person_id: p_ADQB6UfhwkDeNHDwJWLs5k
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_QQuUCHcAyLfkuJKD8SYwNJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dkZn4ErDzdXwaiheQ5edOF
+          claim_id: c_TzfvLkjgB04ASPp9rNP4Zw
+          source_id: s_F1GaWAY0arXCkpU5HsqLDm
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126878 王繼光）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_F1GaWAY0arXCkpU5HsqLDm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王四光（CBDB 216147）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216147&o=json
+            external_identifier: CBDB:216147
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ADQB6UfhwkDeNHDwJWLs5k
+        status: active
+        display_name: 王四光
+        merged_into_person_id: null
+    - claim:
+        id: c_zm35uHd7VYzYi4CLLWn4N9
+        subject_person_id: p_De6ycMChEYkiyPKqZL9gGr
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_QQuUCHcAyLfkuJKD8SYwNJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hNZJ7RkEQ-OwWkz0AoVRV5
+          claim_id: c_zm35uHd7VYzYi4CLLWn4N9
+          source_id: s_B7tm_xsiwbQtEUFclGglXj
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126878 王繼光）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_B7tm_xsiwbQtEUFclGglXj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王天光（CBDB 216151）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216151&o=json
+            external_identifier: CBDB:216151
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_De6ycMChEYkiyPKqZL9gGr
+        status: active
+        display_name: 王天光
+        merged_into_person_id: null
+    - claim:
+        id: c_psHpLInXe355Sd9KzCWwD9
+        subject_person_id: p_QQuUCHcAyLfkuJKD8SYwNJ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_QkLJq9StKfSmR67MDizXZg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VrTK-9ZxAs1IupL6YmnlhY
+          claim_id: c_psHpLInXe355Sd9KzCWwD9
+          source_id: s_HYEjf6kCUUB0gwyJBUChQK
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126878 王繼光）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_HYEjf6kCUUB0gwyJBUChQK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王紹光（CBDB 216152）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216152&o=json
+            external_identifier: CBDB:216152
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_QkLJq9StKfSmR67MDizXZg
+        status: active
+        display_name: 王紹光
+        merged_into_person_id: null
+    - claim:
+        id: c_ij04hNXKF1XS_FRyLtMoQA
+        subject_person_id: p_QQuUCHcAyLfkuJKD8SYwNJ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Tzp1hs3CZ8gsSsQLzx3NAN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XHVywQ0iU_lnz9_wEFXNia
+          claim_id: c_ij04hNXKF1XS_FRyLtMoQA
+          source_id: s_coadWzpJoZLpapse0Xfl8q
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126878 王繼光）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_coadWzpJoZLpapse0Xfl8q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王承光（CBDB 216149）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216149&o=json
+            external_identifier: CBDB:216149
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Tzp1hs3CZ8gsSsQLzx3NAN
+        status: active
+        display_name: 王承光
+        merged_into_person_id: null
+    - claim:
+        id: c_lwXXxYuAUIe5ngJBBH9ZPy
+        subject_person_id: p_QQuUCHcAyLfkuJKD8SYwNJ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_VK2d9GME8RrEDHBKEwKP51
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_laslakYq3TnFvWp40vydKa
+          claim_id: c_lwXXxYuAUIe5ngJBBH9ZPy
+          source_id: s_7OtoAgZWb7McQEn0cn96gx
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126878 王繼光）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_7OtoAgZWb7McQEn0cn96gx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王輝光（CBDB 216150）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216150&o=json
+            external_identifier: CBDB:216150
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VK2d9GME8RrEDHBKEwKP51
+        status: active
+        display_name: 王輝光
+        merged_into_person_id: null
 ---
 
 # 王繼光
@@ -212,10 +471,24 @@ relationships:
 | parents | p_5j714BoeSUb9hXn4A1cAts | 王守默 | accepted |
 | ancestors | p_9EG2qB53B3aNC5rSnqrKuV | 王鑽 | accepted |
 | ancestors | p_a1LW3UXAK9wc1CYVZCMEiP | 王時敘 | accepted |
+| other | p_7zRiJP33ULQAgv5FxEE6tQ | 王啟光 | accepted |
+| other | p_8JkFNe2nzMeDg7thTkkyLK | 王有光 | accepted |
+| other | p_ADQB6UfhwkDeNHDwJWLs5k | 王四光 | accepted |
+| other | p_De6ycMChEYkiyPKqZL9gGr | 王天光 | accepted |
+| other | p_QkLJq9StKfSmR67MDizXZg | 王紹光 | accepted |
+| other | p_Tzp1hs3CZ8gsSsQLzx3NAN | 王承光 | accepted |
+| other | p_VK2d9GME8RrEDHBKEwKP51 | 王輝光 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王承光（CBDB 216149）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216149&o=json)
+- [中国历代人物传记资料库：王輝光（CBDB 216150）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216150&o=json)
 - [中国历代人物传记资料库：王繼光（CBDB 126878）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126878&o=json)
+- [中国历代人物传记资料库：王啟光（CBDB 216146）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216146&o=json)
+- [中国历代人物传记资料库：王紹光（CBDB 216152）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216152&o=json)
 - [中国历代人物传记资料库：王時敘（CBDB 216141）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216141&o=json)
 - [中国历代人物传记资料库：王守默（CBDB 216142）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216142&o=json)
+- [中国历代人物传记资料库：王四光（CBDB 216147）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216147&o=json)
+- [中国历代人物传记资料库：王天光（CBDB 216151）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216151&o=json)
+- [中国历代人物传记资料库：王有光（CBDB 216145）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216145&o=json)
 - [中国历代人物传记资料库：王鑽（CBDB 216140）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216140&o=json)

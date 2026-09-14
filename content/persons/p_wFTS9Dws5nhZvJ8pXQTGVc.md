@@ -4,7 +4,7 @@ id: p_wFTS9Dws5nhZvJ8pXQTGVc
 status: active
 merged_into: null
 display_name: 王孫
-revision: 2
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,191 @@ relationships:
         status: active
         display_name: 王用汲
         merged_into_person_id: null
+    - claim:
+        id: c_6oQDfFIyaNnIm55SLKeevr
+        subject_person_id: p_wFTS9Dws5nhZvJ8pXQTGVc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LiqkD4efNPSpUEDn51rahu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gWNK9gqD3adIHigOwQQ7df
+          claim_id: c_6oQDfFIyaNnIm55SLKeevr
+          source_id: s_1nEFzAcaiDeqd0TG4tMhYe
+          stance: supports
+          locator: CBDB：兄弟 王用汲（126494）之父／母 王孫
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王用榮 与 王用汲 为同胞（CBDB 记「弟」），王用汲 之父／母即 王用榮 之父／母。
+          source:
+            id: s_1nEFzAcaiDeqd0TG4tMhYe
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用榮（CBDB 335481）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335481&o=json
+            external_identifier: CBDB:335481
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_LiqkD4efNPSpUEDn51rahu
+        status: active
+        display_name: 王用榮
+        merged_into_person_id: null
+    - claim:
+        id: c_Ca3QSyLqXJZvrARhkPJHC7
+        subject_person_id: p_wFTS9Dws5nhZvJ8pXQTGVc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TXTY7PztPA2krJJxYNSjmn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WI5P6hniQDoSpEZX6M9_4Z
+          claim_id: c_Ca3QSyLqXJZvrARhkPJHC7
+          source_id: s_IOHqsj-3am3zALEZZn8Eot
+          stance: supports
+          locator: CBDB：兄弟 王用汲（126494）之父／母 王孫
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王用脩 与 王用汲 为同胞（CBDB 记「兄」），王用汲 之父／母即 王用脩 之父／母。
+          source:
+            id: s_IOHqsj-3am3zALEZZn8Eot
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用脩（CBDB 335483）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335483&o=json
+            external_identifier: CBDB:335483
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_TXTY7PztPA2krJJxYNSjmn
+        status: active
+        display_name: 王用脩
+        merged_into_person_id: null
+    - claim:
+        id: c_eE6zuWAbnMfLhdrq3RL56G
+        subject_person_id: p_wFTS9Dws5nhZvJ8pXQTGVc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YEGmKaFkY2XKW39GDxDELP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-1BcIEMuXGUgDE5ZSfxoUK
+          claim_id: c_eE6zuWAbnMfLhdrq3RL56G
+          source_id: s_a5kW0gNqQem_TAxCe-SBWY
+          stance: supports
+          locator: CBDB：兄弟 王用汲（126494）之父／母 王孫
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王珊 与 王用汲 为同胞（CBDB 记「兄」），王用汲 之父／母即 王珊 之父／母。
+          source:
+            id: s_a5kW0gNqQem_TAxCe-SBWY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珊（CBDB 335485）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335485&o=json
+            external_identifier: CBDB:335485
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_YEGmKaFkY2XKW39GDxDELP
+        status: active
+        display_name: 王珊
+        merged_into_person_id: null
+    - claim:
+        id: c_3GqZSBsNbeSINcgXiHh1AW
+        subject_person_id: p_wFTS9Dws5nhZvJ8pXQTGVc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tPb4jnJNyBNoZsGAFq5vQF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_le8wbDOYNZOdUhO3ylrFAU
+          claim_id: c_3GqZSBsNbeSINcgXiHh1AW
+          source_id: s_JJRe6iQ2FN06a5BJDkIFS4
+          stance: supports
+          locator: CBDB：兄弟 王用汲（126494）之父／母 王孫
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王琚 与 王用汲 为同胞（CBDB 记「兄」），王用汲 之父／母即 王琚 之父／母。
+          source:
+            id: s_JJRe6iQ2FN06a5BJDkIFS4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王琚（CBDB 335484）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335484&o=json
+            external_identifier: CBDB:335484
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_tPb4jnJNyBNoZsGAFq5vQF
+        status: active
+        display_name: 王琚
+        merged_into_person_id: null
+    - claim:
+        id: c_wNUPxSFKScBz62NwG6lCbv
+        subject_person_id: p_wFTS9Dws5nhZvJ8pXQTGVc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zbB7243CZBDeQfXX6v32PE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tPLdPATIoRlUVeSTTHRjE8
+          claim_id: c_wNUPxSFKScBz62NwG6lCbv
+          source_id: s_6A-uSjvHLAbZE3ugAQa3D3
+          stance: supports
+          locator: CBDB：兄弟 王用汲（126494）之父／母 王孫
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王用華 与 王用汲 为同胞（CBDB 记「弟」），王用汲 之父／母即 王用華 之父／母。
+          source:
+            id: s_6A-uSjvHLAbZE3ugAQa3D3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用華（CBDB 335482）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335482&o=json
+            external_identifier: CBDB:335482
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zbB7243CZBDeQfXX6v32PE
+        status: active
+        display_name: 王用華
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +320,18 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_BzK6A2uXvZyrjjgruuh1Qh | 王用汲 | accepted |
+| children | p_LiqkD4efNPSpUEDn51rahu | 王用榮 | accepted |
+| children | p_TXTY7PztPA2krJJxYNSjmn | 王用脩 | accepted |
+| children | p_YEGmKaFkY2XKW39GDxDELP | 王珊 | accepted |
+| children | p_tPb4jnJNyBNoZsGAFq5vQF | 王琚 | accepted |
+| children | p_zbB7243CZBDeQfXX6v32PE | 王用華 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王琚（CBDB 335484）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335484&o=json)
+- [中国历代人物传记资料库：王珊（CBDB 335485）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335485&o=json)
 - [中国历代人物传记资料库：王孫（CBDB 335478）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335478&o=json)
+- [中国历代人物传记资料库：王用華（CBDB 335482）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335482&o=json)
 - [中国历代人物传记资料库：王用汲（CBDB 126494）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126494&o=json)
+- [中国历代人物传记资料库：王用榮（CBDB 335481）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335481&o=json)
+- [中国历代人物传记资料库：王用脩（CBDB 335483）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335483&o=json)

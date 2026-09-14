@@ -4,7 +4,7 @@ id: p_EoXnHjFHxPjhcD8KsqKTGz
 status: active
 merged_into: null
 display_name: 王訪
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -137,6 +137,117 @@ relationships:
         status: active
         display_name: 王慎德
         merged_into_person_id: null
+    - claim:
+        id: c_B64viaws0gKMk7lbJ_Gzpn
+        subject_person_id: p_EoXnHjFHxPjhcD8KsqKTGz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1rsBmJMnfUUA8cUj9MSas9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__Hb3pkaF3slj928ePOcmoV
+          claim_id: c_B64viaws0gKMk7lbJ_Gzpn
+          source_id: s_IDcgGpdRAzau5HKCjHtkuN
+          stance: supports
+          locator: CBDB：兄弟 王慎德（206584）之父／母 王訪
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王懷德 与 王慎德 为同胞（CBDB 记「兄」），王慎德 之父／母即 王懷德 之父／母。
+          source:
+            id: s_IDcgGpdRAzau5HKCjHtkuN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王懷德（CBDB 220122）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220122&o=json
+            external_identifier: CBDB:220122
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1rsBmJMnfUUA8cUj9MSas9
+        status: active
+        display_name: 王懷德
+        merged_into_person_id: null
+    - claim:
+        id: c__6ir0QfBgSlBRFJEaTIMsJ
+        subject_person_id: p_EoXnHjFHxPjhcD8KsqKTGz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2MNp4FiL1e2KpcmYGABrhM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i8hy6MhDxQ1euSCRqm6gx5
+          claim_id: c__6ir0QfBgSlBRFJEaTIMsJ
+          source_id: s_CQzFAQZYqBduwwtBxvuWRU
+          stance: supports
+          locator: CBDB：兄弟 王慎德（206584）之父／母 王訪
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王袞 与 王慎德 为同胞（CBDB 记「弟」），王慎德 之父／母即 王袞 之父／母。
+          source:
+            id: s_CQzFAQZYqBduwwtBxvuWRU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王袞（CBDB 220120）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220120&o=json
+            external_identifier: CBDB:220120
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2MNp4FiL1e2KpcmYGABrhM
+        status: active
+        display_name: 王袞
+        merged_into_person_id: null
+    - claim:
+        id: c_f5bhF68ZltyxMxp012b734
+        subject_person_id: p_EoXnHjFHxPjhcD8KsqKTGz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VPuBs39GBsBjBKyqSBQVtk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hjbUb5KO5KmMboFE6K6VfL
+          claim_id: c_f5bhF68ZltyxMxp012b734
+          source_id: s_nQSv3EvoWgjKTiPpJ7GZ4a
+          stance: supports
+          locator: CBDB：兄弟 王慎德（206584）之父／母 王訪
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王恆德 与 王慎德 为同胞（CBDB 记「兄」），王慎德 之父／母即 王恆德 之父／母。
+          source:
+            id: s_nQSv3EvoWgjKTiPpJ7GZ4a
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恆德（CBDB 220121）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220121&o=json
+            external_identifier: CBDB:220121
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VPuBs39GBsBjBKyqSBQVtk
+        status: active
+        display_name: 王恆德
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -162,8 +273,14 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_MvdGFnhj1EQnLBNV2b5DR9 | 王宥 | accepted |
 | children | p_1NRJDMaRvyp9yNoVJiZmjE | 王慎德 | accepted |
+| children | p_1rsBmJMnfUUA8cUj9MSas9 | 王懷德 | accepted |
+| children | p_2MNp4FiL1e2KpcmYGABrhM | 王袞 | accepted |
+| children | p_VPuBs39GBsBjBKyqSBQVtk | 王恆德 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王訪（CBDB 220117）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220117&o=json)
+- [中国历代人物传记资料库：王袞（CBDB 220120）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220120&o=json)
+- [中国历代人物传记资料库：王恆德（CBDB 220121）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220121&o=json)
+- [中国历代人物传记资料库：王懷德（CBDB 220122）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220122&o=json)
 - [中国历代人物传记资料库：王慎德（CBDB 206584）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206584&o=json)

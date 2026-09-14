@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王民熙
 cbdb_id: 210124
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Rflc3Ug8C9E6UAx44eQq-3
+        subject_person_id: p_THa8fUajs7gLagomkz7Gpb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oBLDjR5Hdjeu8G8S7GFHUw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NuzAcDcF7IHjQiHKMNHJgI
+          claim_id: c_Rflc3Ug8C9E6UAx44eQq-3
+          source_id: s_5ha-T59rutJ-IBSqYqDpyW
+          stance: supports
+          locator: CBDB：兄弟 王民順（205877）之父／母 王勑
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王民熙 与 王民順 为同胞（CBDB 记「弟」），王民順 之父／母即 王民熙 之父／母。
+          source:
+            id: s_5ha-T59rutJ-IBSqYqDpyW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王民熙（CBDB 210124）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210124&o=json
+            external_identifier: CBDB:210124
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_THa8fUajs7gLagomkz7Gpb
+        status: active
+        display_name: 王勑
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_qmyXGeFhSiRrOne-55MMTv
+        subject_person_id: p_j9BHN5bLCRAdnEfQP7Yp6q
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_oBLDjR5Hdjeu8G8S7GFHUw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_floMD8IuSSH_sNAI8NyF9S
+          claim_id: c_qmyXGeFhSiRrOne-55MMTv
+          source_id: s_5ha-T59rutJ-IBSqYqDpyW
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205877 王民順）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_5ha-T59rutJ-IBSqYqDpyW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王民熙（CBDB 210124）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210124&o=json
+            external_identifier: CBDB:210124
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_j9BHN5bLCRAdnEfQP7Yp6q
+        status: active
+        display_name: 王民順
+        merged_into_person_id: null
 ---
 
 # 王民熙
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_THa8fUajs7gLagomkz7Gpb | 王勑 | accepted |
+| other | p_j9BHN5bLCRAdnEfQP7Yp6q | 王民順 | accepted |
 
 ## 外部来源
 

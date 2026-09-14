@@ -4,7 +4,7 @@ id: p_7ZkuLBZx4sM3DaTb2XEViR
 status: active
 merged_into: null
 display_name: 王渙之
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -182,6 +182,43 @@ relationships:
         status: active
         display_name: 王植
         merged_into_person_id: null
+    - claim:
+        id: c_5onQ1w-YXd00yHfOAb4TLj
+        subject_person_id: p_7ZkuLBZx4sM3DaTb2XEViR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BRMKrqE4np29XpJWPGHFyv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_09HenkXD2kJrLzBKiIJE3v
+          claim_id: c_5onQ1w-YXd00yHfOAb4TLj
+          source_id: s_DZI66sw4KA9P4zNz2AblOA
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 26612）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_DZI66sw4KA9P4zNz2AblOA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王樅（CBDB 33935）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33935&o=json
+            external_identifier: CBDB:33935
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BRMKrqE4np29XpJWPGHFyv
+        status: active
+        display_name: 王樅
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -235,8 +272,10 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_BxVQChzbJa8u9Vm5XHoDpw | 王介 | accepted |
 | children | p_AwTHuydM7sL7parZyqt7Q8 | 王植 | accepted |
+| children | p_BRMKrqE4np29XpJWPGHFyv | 王樅 | accepted |
 | descendants | p_hDE1dEk7zop9PqWvJVDDap | 王光逢 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王樅（CBDB 33935）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33935&o=json)
 - [中国历代人物传记资料库：王渙之（CBDB 26612）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26612&o=json)

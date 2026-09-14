@@ -4,7 +4,7 @@ id: p_DH3cdxEBekGFnLswxt2AJm
 status: active
 merged_into: null
 display_name: 王惟
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,117 @@ relationships:
         status: active
         display_name: 王鼎
         merged_into_person_id: null
+    - claim:
+        id: c_JoyPbRWw2dcbRbas9fOKYs
+        subject_person_id: p_DH3cdxEBekGFnLswxt2AJm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kpKZa5Rui7RBUb1WeJKFuc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ci0w0hw-JxuXsxoRhSw727
+          claim_id: c_JoyPbRWw2dcbRbas9fOKYs
+          source_id: s_Bzd9Vb_Jyqc9NDN05SC2oX
+          stance: supports
+          locator: CBDB：兄弟 王鼎（67757）之父／母 王惟
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鼐 与 王鼎 为同胞（CBDB 记「兄」），王鼎 之父／母即 王鼐 之父／母。
+          source:
+            id: s_Bzd9Vb_Jyqc9NDN05SC2oX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鼐（CBDB 263533）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=263533&o=json
+            external_identifier: CBDB:263533
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kpKZa5Rui7RBUb1WeJKFuc
+        status: active
+        display_name: 王鼐
+        merged_into_person_id: null
+    - claim:
+        id: c_KjiKWLmlFaW9SEFwiDu3DA
+        subject_person_id: p_DH3cdxEBekGFnLswxt2AJm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rZeCJCHw9xk17KFtzkMuLH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RRBFHjk09-52eUhpI1oQck
+          claim_id: c_KjiKWLmlFaW9SEFwiDu3DA
+          source_id: s_hwvl-kcdZLYlZU5MlyyR3V
+          stance: supports
+          locator: CBDB：兄弟 王鼎（67757）之父／母 王惟
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鏞 与 王鼎 为同胞（CBDB 记「弟」），王鼎 之父／母即 王鏞 之父／母。
+          source:
+            id: s_hwvl-kcdZLYlZU5MlyyR3V
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鏞（CBDB 263532）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=263532&o=json
+            external_identifier: CBDB:263532
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rZeCJCHw9xk17KFtzkMuLH
+        status: active
+        display_name: 王鏞
+        merged_into_person_id: null
+    - claim:
+        id: c_MqHOl9GwOh0xtgS8uGUi9o
+        subject_person_id: p_DH3cdxEBekGFnLswxt2AJm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vNmUWpNro5HZDiJA77F6D7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fECMxL1u39jV4azqYNBy6I
+          claim_id: c_MqHOl9GwOh0xtgS8uGUi9o
+          source_id: s_Z_xaNNmTDyqqs9qHtlHxAI
+          stance: supports
+          locator: CBDB：兄弟 王鼎（67757）之父／母 王惟
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鎮 与 王鼎 为同胞（CBDB 记「兄」），王鼎 之父／母即 王鎮 之父／母。
+          source:
+            id: s_Z_xaNNmTDyqqs9qHtlHxAI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎮（CBDB 263534）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=263534&o=json
+            external_identifier: CBDB:263534
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vNmUWpNro5HZDiJA77F6D7
+        status: active
+        display_name: 王鎮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +246,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_3aWXbEScEDV2akyzL58TPm | 王鼎 | accepted |
+| children | p_kpKZa5Rui7RBUb1WeJKFuc | 王鼐 | accepted |
+| children | p_rZeCJCHw9xk17KFtzkMuLH | 王鏞 | accepted |
+| children | p_vNmUWpNro5HZDiJA77F6D7 | 王鎮 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鼎（CBDB 67757）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67757&o=json)
+- [中国历代人物传记资料库：王鼐（CBDB 263533）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=263533&o=json)
 - [中国历代人物传记资料库：王惟（CBDB 263529）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=263529&o=json)
+- [中国历代人物传记资料库：王鏞（CBDB 263532）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=263532&o=json)
+- [中国历代人物传记资料库：王鎮（CBDB 263534）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=263534&o=json)

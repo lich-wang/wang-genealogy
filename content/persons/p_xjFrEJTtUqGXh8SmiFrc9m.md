@@ -4,7 +4,7 @@ id: p_xjFrEJTtUqGXh8SmiFrc9m
 status: active
 merged_into: null
 display_name: 王光濟
-revision: 4
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,118 @@ relationships:
         display_name: 王勛
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_OFpZPQqy8ti81Aj4aMl2nW
+        subject_person_id: p_4s3ZpaUEZnwkHi8NgfSik5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xjFrEJTtUqGXh8SmiFrc9m
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eHHRJLGj_e9fKurS3koVAN
+          claim_id: c_OFpZPQqy8ti81Aj4aMl2nW
+          source_id: s_xXwhnUqmEkIYEh9J652KaX
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202037 王光濟）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_xXwhnUqmEkIYEh9J652KaX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恭濟（CBDB 282382）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282382&o=json
+            external_identifier: CBDB:282382
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4s3ZpaUEZnwkHi8NgfSik5
+        status: active
+        display_name: 王恭濟
+        merged_into_person_id: null
+    - claim:
+        id: c_NOHAglivbG7RriHpWb2NXp
+        subject_person_id: p_APBHWXmdcgA8u6TNkgqZ3s
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xjFrEJTtUqGXh8SmiFrc9m
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0k7UVFGKyLWb1XfTLsqd40
+          claim_id: c_NOHAglivbG7RriHpWb2NXp
+          source_id: s_GH52LIPfgFcqpsA9-YFZXY
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202037 王光濟）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_GH52LIPfgFcqpsA9-YFZXY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惠濟（CBDB 282381）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282381&o=json
+            external_identifier: CBDB:282381
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_APBHWXmdcgA8u6TNkgqZ3s
+        status: active
+        display_name: 王惠濟
+        merged_into_person_id: null
+    - claim:
+        id: c_oK1oxwp8YoQf9mDPe5U30H
+        subject_person_id: p_sM3TGmmZiDwSdJPqv629wp
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xjFrEJTtUqGXh8SmiFrc9m
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_euJobNuQtmvx733Pf8WKF3
+          claim_id: c_oK1oxwp8YoQf9mDPe5U30H
+          source_id: s_M5GenNjgWAEEDLKG58qRbh
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202037 王光濟）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_M5GenNjgWAEEDLKG58qRbh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王慶濟（CBDB 282383）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282383&o=json
+            external_identifier: CBDB:282383
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_sM3TGmmZiDwSdJPqv629wp
+        status: active
+        display_name: 王慶濟
+        merged_into_person_id: null
 ---
 
 # 王光濟
@@ -240,10 +351,16 @@ relationships:
 | parents | p_N8KkzPBYZP1o7g6fiUXXY5 | 王鎬 | accepted |
 | ancestors | p_7gQ1A5JJhdgVDMXJML3ofq | 王璔 | accepted |
 | ancestors | p_Ggo2BpyyhfrE6os3unF236 | 王勛 | accepted |
+| other | p_4s3ZpaUEZnwkHi8NgfSik5 | 王恭濟 | accepted |
+| other | p_APBHWXmdcgA8u6TNkgqZ3s | 王惠濟 | accepted |
+| other | p_sM3TGmmZiDwSdJPqv629wp | 王慶濟 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王恭濟（CBDB 282382）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282382&o=json)
 - [中国历代人物传记资料库：王光濟（CBDB 202037）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202037&o=json)
 - [中国历代人物传记资料库：王鎬（CBDB 282378）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282378&o=json)
+- [中国历代人物传记资料库：王惠濟（CBDB 282381）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282381&o=json)
+- [中国历代人物传记资料库：王慶濟（CBDB 282383）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282383&o=json)
 - [中国历代人物传记资料库：王勛（CBDB 282376）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282376&o=json)
 - [中国历代人物传记资料库：王璔（CBDB 282377）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282377&o=json)

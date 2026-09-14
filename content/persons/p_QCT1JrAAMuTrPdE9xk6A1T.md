@@ -4,7 +4,7 @@ id: p_QCT1JrAAMuTrPdE9xk6A1T
 status: active
 merged_into: null
 display_name: 王銘
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_6pRkEzbNNpEQq1oT9JU9T5
+        subject_person_id: p_mkEUUStA3H6zxa8Vzv7LyH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QCT1JrAAMuTrPdE9xk6A1T
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qgYGRDU88im-HSk4_YR5g5
+          claim_id: c_6pRkEzbNNpEQq1oT9JU9T5
+          source_id: s_eREpNRDUeZq1XF9qCK4zG4
+          stance: supports
+          locator: CBDB：兄弟 王詔（67938）之父／母 王昂
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王銘 与 王詔 为同胞（CBDB 记「弟」），王詔 之父／母即 王銘 之父／母。
+          source:
+            id: s_eREpNRDUeZq1XF9qCK4zG4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王銘（CBDB 338020）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338020&o=json
+            external_identifier: CBDB:338020
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mkEUUStA3H6zxa8Vzv7LyH
+        status: active
+        display_name: 王昂
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_eeGXq48k8kxALtINSxk9B2
+        subject_person_id: p_3NK6EhTAXgAtmFG5Dkqh4A
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_QCT1JrAAMuTrPdE9xk6A1T
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lI-hghq0tC4jFinRK2h8jL
+          claim_id: c_eeGXq48k8kxALtINSxk9B2
+          source_id: s_eREpNRDUeZq1XF9qCK4zG4
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 67938 王詔）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_eREpNRDUeZq1XF9qCK4zG4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王銘（CBDB 338020）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338020&o=json
+            external_identifier: CBDB:338020
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3NK6EhTAXgAtmFG5Dkqh4A
+        status: active
+        display_name: 王詔
+        merged_into_person_id: null
 ---
 
 # 王銘
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_mkEUUStA3H6zxa8Vzv7LyH | 王昂 | accepted |
+| other | p_3NK6EhTAXgAtmFG5Dkqh4A | 王詔 | accepted |
 
 ## 外部来源
 

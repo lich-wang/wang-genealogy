@@ -4,7 +4,7 @@ id: p_kBqE6QprrhgLRYUsgfWdoz
 status: active
 merged_into: null
 display_name: 王建
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,44 @@ relationships:
         display_name: 王仕恭
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_cFc32_a2trOeh5vevBhbq5
+        subject_person_id: p_DrX1CF3RKxMrGUy578cf2P
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kBqE6QprrhgLRYUsgfWdoz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_z9KinS8qcI4vr5Ei7WJmJz
+          claim_id: c_cFc32_a2trOeh5vevBhbq5
+          source_id: s_VRBpNSHzKIHTVT1oCb8PNs
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 199946 王建）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_VRBpNSHzKIHTVT1oCb8PNs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王選（CBDB 251788）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251788&o=json
+            external_identifier: CBDB:251788
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DrX1CF3RKxMrGUy578cf2P
+        status: active
+        display_name: 王選
+        merged_into_person_id: null
 ---
 
 # 王建
@@ -245,8 +282,10 @@ relationships:
 | spouses | p_V6qLt7p3ECKTGwiRCVRL1F | 萬氏 | accepted |
 | ancestors | p_C1g4JvF6DrkWJiGETqWFZx | 王天麒 | accepted |
 | ancestors | p_HPaT4GWNxvXDDALDWZMKbD | 王仕恭 | accepted |
+| other | p_DrX1CF3RKxMrGUy578cf2P | 王選 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：萬氏(王建妻)（CBDB 251785）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251785&o=json)
 - [中国历代人物传记资料库：王建（CBDB 199946）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199946&o=json)
+- [中国历代人物传记资料库：王選（CBDB 251788）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251788&o=json)

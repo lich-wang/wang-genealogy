@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王彥民
 cbdb_id: 204329
-revision: 4
+revision: 8
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,155 @@ relationships:
         display_name: 王經
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_-shq1Z6BzxxbcqkcB09cVH
+        subject_person_id: p_5AQ57q8Z41Z9KKNQtp5g66
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_FS8BiVQ7A5TRPBTnfjAmZ6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_f4g7JR7LjsZli79_2AEUDZ
+          claim_id: c_-shq1Z6BzxxbcqkcB09cVH
+          source_id: s_Txi3--nmH8k7nVfkwhbgUZ
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204329 王彥民）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Txi3--nmH8k7nVfkwhbgUZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王慧民（CBDB 317553）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317553&o=json
+            external_identifier: CBDB:317553
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5AQ57q8Z41Z9KKNQtp5g66
+        status: active
+        display_name: 王慧民
+        merged_into_person_id: null
+    - claim:
+        id: c_ub9oEg57nVmhR3FWGzzD_G
+        subject_person_id: p_FS8BiVQ7A5TRPBTnfjAmZ6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Fnv67uFCSFJ5Sm8ddu8RjV
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OS9zClhFWGj6GRqwQ2AVuc
+          claim_id: c_ub9oEg57nVmhR3FWGzzD_G
+          source_id: s_7zfdXGZuYe-2F8Irlxd0xA
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204329 王彥民）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_7zfdXGZuYe-2F8Irlxd0xA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王秀民（CBDB 317550）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317550&o=json
+            external_identifier: CBDB:317550
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Fnv67uFCSFJ5Sm8ddu8RjV
+        status: active
+        display_name: 王秀民
+        merged_into_person_id: null
+    - claim:
+        id: c_NVnNqgsNjesmNtdu385-4o
+        subject_person_id: p_FS8BiVQ7A5TRPBTnfjAmZ6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dGuAVLco7EADQ1XGJAMxiy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_b8pjmnL7xY5tEs7Hkw9PoC
+          claim_id: c_NVnNqgsNjesmNtdu385-4o
+          source_id: s_ntTkxeA0B0pks4yWNhys0O
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204329 王彥民）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ntTkxeA0B0pks4yWNhys0O
+            source_type: api_record
+            title: 中国历代人物传记资料库：王獻民（CBDB 317548）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317548&o=json
+            external_identifier: CBDB:317548
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dGuAVLco7EADQ1XGJAMxiy
+        status: active
+        display_name: 王獻民
+        merged_into_person_id: null
+    - claim:
+        id: c_Lw8hF4qGLDgr8U8-V95fWa
+        subject_person_id: p_FS8BiVQ7A5TRPBTnfjAmZ6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gNzirGbzFJFud81V2K8nsj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4Hl32qIylo_hysTX1kn49e
+          claim_id: c_Lw8hF4qGLDgr8U8-V95fWa
+          source_id: s_cMaPWGZQNcyp0EUcoFbmTH
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204329 王彥民）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_cMaPWGZQNcyp0EUcoFbmTH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王俊民（CBDB 317549）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317549&o=json
+            external_identifier: CBDB:317549
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_gNzirGbzFJFud81V2K8nsj
+        status: active
+        display_name: 王俊民
+        merged_into_person_id: null
 ---
 
 # 王彥民
@@ -257,10 +405,18 @@ relationships:
 | parents | p_N5iAhWP4KE2AcDLMVJFVJe | 王宗周 | accepted |
 | ancestors | p_4mTgcqgV1YrxCPCjedbhut | 王夢祥 | accepted |
 | ancestors | p_jugC94mpVdjoMWSQQHj1Na | 王經 | accepted |
+| other | p_5AQ57q8Z41Z9KKNQtp5g66 | 王慧民 | accepted |
+| other | p_Fnv67uFCSFJ5Sm8ddu8RjV | 王秀民 | accepted |
+| other | p_dGuAVLco7EADQ1XGJAMxiy | 王獻民 | accepted |
+| other | p_gNzirGbzFJFud81V2K8nsj | 王俊民 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王慧民（CBDB 317553）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317553&o=json)
 - [中国历代人物传记资料库：王經（CBDB 317544）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317544&o=json)
+- [中国历代人物传记资料库：王俊民（CBDB 317549）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317549&o=json)
 - [中国历代人物传记资料库：王夢祥（CBDB 317543）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317543&o=json)
+- [中国历代人物传记资料库：王獻民（CBDB 317548）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317548&o=json)
+- [中国历代人物传记资料库：王秀民（CBDB 317550）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317550&o=json)
 - [中国历代人物传记资料库：王彥民（CBDB 204329）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204329&o=json)
 - [中国历代人物传记资料库：王宗周（CBDB 317545）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317545&o=json)

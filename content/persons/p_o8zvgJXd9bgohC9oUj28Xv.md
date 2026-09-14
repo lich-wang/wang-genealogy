@@ -4,7 +4,7 @@ id: p_o8zvgJXd9bgohC9oUj28Xv
 status: active
 merged_into: null
 display_name: 王敏
-revision: 2
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,191 @@ relationships:
         status: active
         display_name: 王恩
         merged_into_person_id: null
+    - claim:
+        id: c_oL2aLYLJvwQPJdKfHr-scU
+        subject_person_id: p_o8zvgJXd9bgohC9oUj28Xv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5YjEERsh7utx747aGfmRrp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_h-SZ-EhbVOmwspWkM0gf2h
+          claim_id: c_oL2aLYLJvwQPJdKfHr-scU
+          source_id: s_h-uqWDKlUda85K2nqBAAte
+          stance: supports
+          locator: CBDB：兄弟 王恩（200520）之父／母 王敏
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王綺 与 王恩 为同胞（CBDB 记「弟」），王恩 之父／母即 王綺 之父／母。
+          source:
+            id: s_h-uqWDKlUda85K2nqBAAte
+            source_type: api_record
+            title: 中国历代人物传记资料库：王綺（CBDB 259212）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259212&o=json
+            external_identifier: CBDB:259212
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5YjEERsh7utx747aGfmRrp
+        status: active
+        display_name: 王綺
+        merged_into_person_id: null
+    - claim:
+        id: c_L6cffzsTMuvGPpg50tqrJj
+        subject_person_id: p_o8zvgJXd9bgohC9oUj28Xv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_871R56bHgEcfhFwd2Rmtqb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nGiBtE-VMAqlbxi406PRCK
+          claim_id: c_L6cffzsTMuvGPpg50tqrJj
+          source_id: s_dIknCPMkSeTnR9Kmz86J3j
+          stance: supports
+          locator: CBDB：兄弟 王恩（200520）之父／母 王敏
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王統 与 王恩 为同胞（CBDB 记「兄」），王恩 之父／母即 王統 之父／母。
+          source:
+            id: s_dIknCPMkSeTnR9Kmz86J3j
+            source_type: api_record
+            title: 中国历代人物传记资料库：王統（CBDB 259215）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259215&o=json
+            external_identifier: CBDB:259215
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_871R56bHgEcfhFwd2Rmtqb
+        status: active
+        display_name: 王統
+        merged_into_person_id: null
+    - claim:
+        id: c_lxuprRp3ypK0QEla2j577Q
+        subject_person_id: p_o8zvgJXd9bgohC9oUj28Xv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aNYYLf4AMVAXh7vdBQNd7w
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_s7LyoRd-uKJU0i__unj8UD
+          claim_id: c_lxuprRp3ypK0QEla2j577Q
+          source_id: s_QTy-lHZ-JAZK6sR8_RIhid
+          stance: supports
+          locator: CBDB：兄弟 王恩（200520）之父／母 王敏
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王紞 与 王恩 为同胞（CBDB 记「弟」），王恩 之父／母即 王紞 之父／母。
+          source:
+            id: s_QTy-lHZ-JAZK6sR8_RIhid
+            source_type: api_record
+            title: 中国历代人物传记资料库：王紞（CBDB 259210）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259210&o=json
+            external_identifier: CBDB:259210
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aNYYLf4AMVAXh7vdBQNd7w
+        status: active
+        display_name: 王紞
+        merged_into_person_id: null
+    - claim:
+        id: c_WBi4bEOF3gP6o3lIGsFDcP
+        subject_person_id: p_o8zvgJXd9bgohC9oUj28Xv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fJpSBsp4YbiCQbFDsDv75G
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_P11uOGEzku5B7gtUN_Dw-A
+          claim_id: c_WBi4bEOF3gP6o3lIGsFDcP
+          source_id: s_fymQ6DewAXqIHt7Rx0qF41
+          stance: supports
+          locator: CBDB：兄弟 王恩（200520）之父／母 王敏
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王繹 与 王恩 为同胞（CBDB 记「弟」），王恩 之父／母即 王繹 之父／母。
+          source:
+            id: s_fymQ6DewAXqIHt7Rx0qF41
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繹（CBDB 259214）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259214&o=json
+            external_identifier: CBDB:259214
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fJpSBsp4YbiCQbFDsDv75G
+        status: active
+        display_name: 王繹
+        merged_into_person_id: null
+    - claim:
+        id: c_srFOQz7eja3nw-YJ58P1P2
+        subject_person_id: p_o8zvgJXd9bgohC9oUj28Xv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_x6mSJVfYmA6MT11XwJbPWF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__KdrZbl_s1IGBF2PeO9V5A
+          claim_id: c_srFOQz7eja3nw-YJ58P1P2
+          source_id: s_yR3Z4H8lSg0YJwqH8XHEsP
+          stance: supports
+          locator: CBDB：兄弟 王恩（200520）之父／母 王敏
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王紳 与 王恩 为同胞（CBDB 记「弟」），王恩 之父／母即 王紳 之父／母。
+          source:
+            id: s_yR3Z4H8lSg0YJwqH8XHEsP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王紳（CBDB 259211）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259211&o=json
+            external_identifier: CBDB:259211
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_x6mSJVfYmA6MT11XwJbPWF
+        status: active
+        display_name: 王紳
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +320,18 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_8kdsz31LsNcXBMccuK9UD2 | 王恩 | accepted |
+| children | p_5YjEERsh7utx747aGfmRrp | 王綺 | accepted |
+| children | p_871R56bHgEcfhFwd2Rmtqb | 王統 | accepted |
+| children | p_aNYYLf4AMVAXh7vdBQNd7w | 王紞 | accepted |
+| children | p_fJpSBsp4YbiCQbFDsDv75G | 王繹 | accepted |
+| children | p_x6mSJVfYmA6MT11XwJbPWF | 王紳 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王紞（CBDB 259210）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259210&o=json)
 - [中国历代人物传记资料库：王恩（CBDB 200520）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200520&o=json)
 - [中国历代人物传记资料库：王敏（CBDB 259206）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259206&o=json)
+- [中国历代人物传记资料库：王綺（CBDB 259212）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259212&o=json)
+- [中国历代人物传记资料库：王紳（CBDB 259211）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259211&o=json)
+- [中国历代人物传记资料库：王統（CBDB 259215）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259215&o=json)
+- [中国历代人物传记资料库：王繹（CBDB 259214）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259214&o=json)

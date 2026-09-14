@@ -4,7 +4,7 @@ id: p_mgxHev7zFTwcmkSJE7CaXn
 status: active
 merged_into: null
 display_name: 王良玉
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -181,6 +181,43 @@ relationships:
         id: p_pv2LvWNq1p1mi8bH9JeT5s
         status: active
         display_name: 王初
+        merged_into_person_id: null
+    - claim:
+        id: c_Je7jQ_8jNtR33x26mtximx
+        subject_person_id: p_mgxHev7zFTwcmkSJE7CaXn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xTfgwP195usJ93B9R8xhUq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WRZU2wMqr9Zeamy_EaEHao
+          claim_id: c_Je7jQ_8jNtR33x26mtximx
+          source_id: s_9UyeB-LrJ9vGwf2Y1yAJex
+          stance: supports
+          locator: CBDB：兄弟 王褘（10726）之父／母 王良玉
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王補 与 王褘 为同胞（CBDB 记「兄」），王褘 之父／母即 王補 之父／母。
+          source:
+            id: s_9UyeB-LrJ9vGwf2Y1yAJex
+            source_type: api_record
+            title: 中国历代人物传记资料库：王補（CBDB 28107）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28107&o=json
+            external_identifier: CBDB:28107
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xTfgwP195usJ93B9R8xhUq
+        status: active
+        display_name: 王補
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
@@ -565,6 +602,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_NxhVtsQFEKS3B7HARgTqxM | 王褘 | accepted |
 | children | p_pv2LvWNq1p1mi8bH9JeT5s | 王初 | accepted |
+| children | p_xTfgwP195usJ93B9R8xhUq | 王補 | accepted |
 | spouses | p_Dg1WdBP4eJ21T75J5qorCA | 陳貞 | accepted |
 | descendants | p_2AB1URRfbsHUZBcKrDjdbb | 王綱 | accepted |
 | descendants | p_CMt2fXZyZFD74yNHp3joRj | 王綸 | accepted |
@@ -581,6 +619,7 @@ relationships:
 ## 外部来源
 
 - [中国历代人物传记资料库：陳貞（CBDB 437648）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437648&o=json)
+- [中国历代人物传记资料库：王補（CBDB 28107）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28107&o=json)
 - [中国历代人物传记资料库：王綱（CBDB 437652）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437652&o=json)
 - [中国历代人物传记资料库：王紀（CBDB 437653）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437653&o=json)
 - [中国历代人物传记资料库：王良玉（CBDB 10725）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10725&o=json)

@@ -4,7 +4,7 @@ id: p_iskDeJeft2jBXoGuuwVC1n
 status: active
 merged_into: null
 display_name: 王道行
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ypGjgcEW708fNZSHLymNFD
+        subject_person_id: p_XR5LUae2NCUcyYpQzrdDhk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iskDeJeft2jBXoGuuwVC1n
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J0ZUVFkA006PxU4oRABurD
+          claim_id: c_ypGjgcEW708fNZSHLymNFD
+          source_id: s_ehgI0kOEVgdkmX4onqAJoN
+          stance: supports
+          locator: CBDB：兄弟 王順行（207643）之父／母 王希樂
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王道行 与 王順行 为同胞（CBDB 记「兄」），王順行 之父／母即 王道行 之父／母。
+          source:
+            id: s_ehgI0kOEVgdkmX4onqAJoN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道行（CBDB 233003）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233003&o=json
+            external_identifier: CBDB:233003
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_XR5LUae2NCUcyYpQzrdDhk
+        status: active
+        display_name: 王希樂
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_wzYgSI5zpc9TFsaiU1HQkI
+        subject_person_id: p_iskDeJeft2jBXoGuuwVC1n
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xFXiQ1xtVHC3hhy55VEnSX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2A4R10xuQ8zE5_Bl5CkDxf
+          claim_id: c_wzYgSI5zpc9TFsaiU1HQkI
+          source_id: s_ehgI0kOEVgdkmX4onqAJoN
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207643 王順行）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ehgI0kOEVgdkmX4onqAJoN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道行（CBDB 233003）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233003&o=json
+            external_identifier: CBDB:233003
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xFXiQ1xtVHC3hhy55VEnSX
+        status: active
+        display_name: 王順行
+        merged_into_person_id: null
 ---
 
 # 王道行
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_XR5LUae2NCUcyYpQzrdDhk | 王希樂 | accepted |
+| other | p_xFXiQ1xtVHC3hhy55VEnSX | 王順行 | accepted |
 
 ## 外部来源
 

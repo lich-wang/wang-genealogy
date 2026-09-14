@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王就問
 cbdb_id: 226714
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_BigaxgAuWUy8Zgy-XlCtEF
+        subject_person_id: p_17jUtXnoMjU3kpESe25w4v
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qx4GH8cZcsffEAKAWxt1PT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_spamNWuAeNlk1TkH7MTYY-
+          claim_id: c_BigaxgAuWUy8Zgy-XlCtEF
+          source_id: s_JSyWUKosI0exWhUrDnNAb_
+          stance: supports
+          locator: CBDB：兄弟 王就學（126705）之父／母 王道生
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王就問 与 王就學 为同胞（CBDB 记「兄」），王就學 之父／母即 王就問 之父／母。
+          source:
+            id: s_JSyWUKosI0exWhUrDnNAb_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王就問（CBDB 226714）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226714&o=json
+            external_identifier: CBDB:226714
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_17jUtXnoMjU3kpESe25w4v
+        status: active
+        display_name: 王道生
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_mOD1EkLdkQ3R5ewz1SXd1P
+        subject_person_id: p_Wgw4bGM6hG66ToMF6agV3N
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qx4GH8cZcsffEAKAWxt1PT
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3pbGMdIe6IKConFzqZbeI1
+          claim_id: c_mOD1EkLdkQ3R5ewz1SXd1P
+          source_id: s_JSyWUKosI0exWhUrDnNAb_
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126705 王就學）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_JSyWUKosI0exWhUrDnNAb_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王就問（CBDB 226714）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226714&o=json
+            external_identifier: CBDB:226714
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Wgw4bGM6hG66ToMF6agV3N
+        status: active
+        display_name: 王就學
+        merged_into_person_id: null
 ---
 
 # 王就問
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_17jUtXnoMjU3kpESe25w4v | 王道生 | accepted |
+| other | p_Wgw4bGM6hG66ToMF6agV3N | 王就學 | accepted |
 
 ## 外部来源
 

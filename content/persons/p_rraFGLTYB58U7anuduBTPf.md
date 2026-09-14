@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王宗睿
 cbdb_id: 240892
-revision: 2
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -113,6 +113,80 @@ relationships:
         status: active
         display_name: 王芳
         merged_into_person_id: null
+    - claim:
+        id: c_BxYB3tP2yPZs7ollYk7CWK
+        subject_person_id: p_rraFGLTYB58U7anuduBTPf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JxHXaVu4pEEMwDNPDgBMZB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vD-TdOeUBw6yUKT3Z5FHGV
+          claim_id: c_BxYB3tP2yPZs7ollYk7CWK
+          source_id: s_1Fj9hOrvmUcNt2yPKQaGKR
+          stance: supports
+          locator: CBDB：兄弟 王芳（208133）之父／母 王宗睿
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王立 与 王芳 为同胞（CBDB 记「兄」），王芳 之父／母即 王立 之父／母。
+          source:
+            id: s_1Fj9hOrvmUcNt2yPKQaGKR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王立（CBDB 240896）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240896&o=json
+            external_identifier: CBDB:240896
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JxHXaVu4pEEMwDNPDgBMZB
+        status: active
+        display_name: 王立
+        merged_into_person_id: null
+    - claim:
+        id: c_DDrFrgswSFBjh-Wbetb4-R
+        subject_person_id: p_rraFGLTYB58U7anuduBTPf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ksG3Fz76mqPbvBKEnoXz5Z
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_S8WlfRXcZU8KgIlVKNDtN0
+          claim_id: c_DDrFrgswSFBjh-Wbetb4-R
+          source_id: s_r0oaWHZx3oNdbP6nQvTZbz
+          stance: supports
+          locator: CBDB：兄弟 王芳（208133）之父／母 王宗睿
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王仁 与 王芳 为同胞（CBDB 记「兄」），王芳 之父／母即 王仁 之父／母。
+          source:
+            id: s_r0oaWHZx3oNdbP6nQvTZbz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仁（CBDB 240895）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240895&o=json
+            external_identifier: CBDB:240895
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ksG3Fz76mqPbvBKEnoXz5Z
+        status: active
+        display_name: 王仁
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -137,8 +211,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_oJFhqGsSYkYTeGZ7iNnAnA | 王芳 | accepted |
+| children | p_JxHXaVu4pEEMwDNPDgBMZB | 王立 | accepted |
+| children | p_ksG3Fz76mqPbvBKEnoXz5Z | 王仁 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王芳（CBDB 208133）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208133&o=json)
+- [中国历代人物传记资料库：王立（CBDB 240896）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240896&o=json)
+- [中国历代人物传记资料库：王仁（CBDB 240895）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240895&o=json)
 - [中国历代人物传记资料库：王宗睿（CBDB 240892）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240892&o=json)

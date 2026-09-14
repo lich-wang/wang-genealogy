@@ -4,7 +4,7 @@ id: p_8yEkMMZhbwZ7U5KkErHEa1
 status: active
 merged_into: null
 display_name: 王曛
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,117 @@ relationships:
         status: active
         display_name: 王復
         merged_into_person_id: null
+    - claim:
+        id: c__YPXqBL4G0Zjq7SktEQRyY
+        subject_person_id: p_8yEkMMZhbwZ7U5KkErHEa1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7UnD933xA6nLNUs4TGF4jP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_o3rVEfzTqLu664DCt9XRwW
+          claim_id: c__YPXqBL4G0Zjq7SktEQRyY
+          source_id: s_C2W96XLed9-2ZgGBxMxmDj
+          stance: supports
+          locator: CBDB：兄弟 王復（204673）之父／母 王曛
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王來 与 王復 为同胞（CBDB 记「弟」），王復 之父／母即 王來 之父／母。
+          source:
+            id: s_C2W96XLed9-2ZgGBxMxmDj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王來（CBDB 322415）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322415&o=json
+            external_identifier: CBDB:322415
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7UnD933xA6nLNUs4TGF4jP
+        status: active
+        display_name: 王來
+        merged_into_person_id: null
+    - claim:
+        id: c_X-WFK6bevsj9ZpzkRmdQB2
+        subject_person_id: p_8yEkMMZhbwZ7U5KkErHEa1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QzAbcHGSDqV43mwRCeQXJW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pWXxyFs0zsZPPuivkZ4TDu
+          claim_id: c_X-WFK6bevsj9ZpzkRmdQB2
+          source_id: s_qn1EVVJEc9XgjrOLoRKMFe
+          stance: supports
+          locator: CBDB：兄弟 王復（204673）之父／母 王曛
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王謙 与 王復 为同胞（CBDB 记「兄」），王復 之父／母即 王謙 之父／母。
+          source:
+            id: s_qn1EVVJEc9XgjrOLoRKMFe
+            source_type: api_record
+            title: 中国历代人物传记资料库：王謙（CBDB 322417）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322417&o=json
+            external_identifier: CBDB:322417
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_QzAbcHGSDqV43mwRCeQXJW
+        status: active
+        display_name: 王謙
+        merged_into_person_id: null
+    - claim:
+        id: c_9YYlt_JmTjN-Ch-x4OY9vl
+        subject_person_id: p_8yEkMMZhbwZ7U5KkErHEa1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WimAa966h9CQCAcmYPid3X
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IQcacJIF30RmDcCzO-q2qH
+          claim_id: c_9YYlt_JmTjN-Ch-x4OY9vl
+          source_id: s_f9hZ9u0Bhf8thKfIvgnGQJ
+          stance: supports
+          locator: CBDB：兄弟 王復（204673）之父／母 王曛
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鼎 与 王復 为同胞（CBDB 记「兄」），王復 之父／母即 王鼎 之父／母。
+          source:
+            id: s_f9hZ9u0Bhf8thKfIvgnGQJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鼎（CBDB 322416）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322416&o=json
+            external_identifier: CBDB:322416
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_WimAa966h9CQCAcmYPid3X
+        status: active
+        display_name: 王鼎
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +235,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_PgnoAWh3cGCvbB7v53hNcS | 王復 | accepted |
+| children | p_7UnD933xA6nLNUs4TGF4jP | 王來 | accepted |
+| children | p_QzAbcHGSDqV43mwRCeQXJW | 王謙 | accepted |
+| children | p_WimAa966h9CQCAcmYPid3X | 王鼎 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鼎（CBDB 322416）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322416&o=json)
+- [中国历代人物传记资料库：王來（CBDB 322415）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322415&o=json)
+- [中国历代人物传记资料库：王謙（CBDB 322417）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322417&o=json)
 - [中国历代人物传记资料库：王曛（CBDB 322412）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322412&o=json)

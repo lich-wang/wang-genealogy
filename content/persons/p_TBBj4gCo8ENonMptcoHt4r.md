@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王獻芝
 cbdb_id: 202753
-revision: 4
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -236,7 +236,81 @@ relationships:
         display_name: 王永良
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_bdAwaqvSSyedu6lRqoRmy8
+        subject_person_id: p_8NNXcU697EyG2t4kiCgT7R
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_TBBj4gCo8ENonMptcoHt4r
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xdAe8qRXNONeQ0SSO4An2H
+          claim_id: c_bdAwaqvSSyedu6lRqoRmy8
+          source_id: s_4TDEWStf6CDscLg7Eog-AM
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202753 王獻芝）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_4TDEWStf6CDscLg7Eog-AM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王獻葵（CBDB 293685）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293685&o=json
+            external_identifier: CBDB:293685
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8NNXcU697EyG2t4kiCgT7R
+        status: active
+        display_name: 王獻葵
+        merged_into_person_id: null
+    - claim:
+        id: c_cWrp9R62uOOnDkzOLdSsrP
+        subject_person_id: p_TBBj4gCo8ENonMptcoHt4r
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dHkYVq8hstdshh16PiHJD8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_n8hzm4kbhmUHMw2c-MFtTI
+          claim_id: c_cWrp9R62uOOnDkzOLdSsrP
+          source_id: s_6WRT5W184s2omcH-AmI8LI
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202753 王獻芝）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_6WRT5W184s2omcH-AmI8LI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王獻蓋（CBDB 293687）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293687&o=json
+            external_identifier: CBDB:293687
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dHkYVq8hstdshh16PiHJD8
+        status: active
+        display_name: 王獻蓋
+        merged_into_person_id: null
 ---
 
 # 王獻芝
@@ -258,10 +332,14 @@ relationships:
 | parents | p_ydgJ4dzTCX4s92aDhwsv4k | 王寵 | accepted |
 | ancestors | p_CfBpw258HLcQeTLTcYJMD7 | 王瑗 | accepted |
 | ancestors | p_psVhFC7ave4jJ5nVVeJckB | 王永良 | accepted |
+| other | p_8NNXcU697EyG2t4kiCgT7R | 王獻葵 | accepted |
+| other | p_dHkYVq8hstdshh16PiHJD8 | 王獻蓋 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王寵（CBDB 293682）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293682&o=json)
+- [中国历代人物传记资料库：王獻蓋（CBDB 293687）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293687&o=json)
+- [中国历代人物传记资料库：王獻葵（CBDB 293685）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293685&o=json)
 - [中国历代人物传记资料库：王獻芝（CBDB 202753）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202753&o=json)
 - [中国历代人物传记资料库：王永良（CBDB 293680）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293680&o=json)
 - [中国历代人物传记资料库：王瑗（CBDB 293681）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293681&o=json)

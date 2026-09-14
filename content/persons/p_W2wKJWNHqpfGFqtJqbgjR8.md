@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王嘉彥
 cbdb_id: 18657
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -75,7 +75,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Pv89MC0LkK8RGsjhJ6mUDK
+        subject_person_id: p_W2wKJWNHqpfGFqtJqbgjR8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FwGqE2uFh1sgszbsuvDdd4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_hw7PzwZG-6BD5FYiIRLZl7
+          claim_id: c_Pv89MC0LkK8RGsjhJ6mUDK
+          source_id: s_WOANBp4lJ_J2yM7b6RkHNR
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 18657）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_WOANBp4lJ_J2yM7b6RkHNR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王樞（CBDB 561792）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=561792&o=json
+            external_identifier: CBDB:561792
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FwGqE2uFh1sgszbsuvDdd4
+        status: active
+        display_name: 王樞
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -99,7 +136,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_FwGqE2uFh1sgszbsuvDdd4 | 王樞 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王嘉彥（CBDB 18657）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18657&o=json)
+- [中国历代人物传记资料库：王樞（CBDB 561792）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=561792&o=json)

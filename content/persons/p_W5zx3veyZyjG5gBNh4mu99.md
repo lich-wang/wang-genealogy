@@ -4,7 +4,7 @@ id: p_W5zx3veyZyjG5gBNh4mu99
 status: active
 merged_into: null
 display_name: 王道正
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,81 @@ relationships:
         display_name: 王欽
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_rZ28YwR303868FPsmdXf2m
+        subject_person_id: p_Gw7B8bAAtRnjKzBrTNyQYT
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_W5zx3veyZyjG5gBNh4mu99
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZIhjKA5wcUy7gblVgxLFdF
+          claim_id: c_rZ28YwR303868FPsmdXf2m
+          source_id: s_LpXM_mqiNbduHepMYc_fmA
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207263 王道正）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_LpXM_mqiNbduHepMYc_fmA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道和（CBDB 230469）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230469&o=json
+            external_identifier: CBDB:230469
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Gw7B8bAAtRnjKzBrTNyQYT
+        status: active
+        display_name: 王道和
+        merged_into_person_id: null
+    - claim:
+        id: c_iasUsINd-zUyrz88jN0agk
+        subject_person_id: p_U26ovq52qrynked8W9csNM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_W5zx3veyZyjG5gBNh4mu99
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VCx6gA8gfNuiPy44ytF4Im
+          claim_id: c_iasUsINd-zUyrz88jN0agk
+          source_id: s_askL24cBKrt9V-TPuSMCX3
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207263 王道正）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_askL24cBKrt9V-TPuSMCX3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道弘（CBDB 230470）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230470&o=json
+            external_identifier: CBDB:230470
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_U26ovq52qrynked8W9csNM
+        status: active
+        display_name: 王道弘
+        merged_into_person_id: null
 ---
 
 # 王道正
@@ -240,9 +314,13 @@ relationships:
 | parents | p_oi69GxTCLN4PZnkGTuscEx | 王經 | accepted |
 | ancestors | p_67wcNBy6jc6GHKoznNP6E9 | 王宣 | accepted |
 | ancestors | p_GVdJXGRvXB9DxN69cdCCHG | 王欽 | accepted |
+| other | p_Gw7B8bAAtRnjKzBrTNyQYT | 王道和 | accepted |
+| other | p_U26ovq52qrynked8W9csNM | 王道弘 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王道和（CBDB 230469）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230469&o=json)
+- [中国历代人物传记资料库：王道弘（CBDB 230470）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230470&o=json)
 - [中国历代人物传记资料库：王道正（CBDB 207263）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207263&o=json)
 - [中国历代人物传记资料库：王經（CBDB 230464）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230464&o=json)
 - [中国历代人物传记资料库：王欽（CBDB 230463）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230463&o=json)

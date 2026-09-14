@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王偶
 cbdb_id: 298818
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_W5xRdpibi1blE78quN1Sdc
+        subject_person_id: p_1v36CPdP8tsG1X5DfhzMf4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QE4D5w4qGuBkMD37cTA1Pi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QuZRpoFbjuaQDMp3yuvpxh
+          claim_id: c_W5xRdpibi1blE78quN1Sdc
+          source_id: s_BIU0ZOccC8OsznPJkqw0Wa
+          stance: supports
+          locator: CBDB：兄弟 王健（203037）之父／母 王瓚
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王偶 与 王健 为同胞（CBDB 记「弟」），王健 之父／母即 王偶 之父／母。
+          source:
+            id: s_BIU0ZOccC8OsznPJkqw0Wa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王偶（CBDB 298818）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298818&o=json
+            external_identifier: CBDB:298818
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1v36CPdP8tsG1X5DfhzMf4
+        status: active
+        display_name: 王瓚
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_t9djoJ_1UzVpWj8oDOb9J1
+        subject_person_id: p_QE4D5w4qGuBkMD37cTA1Pi
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_sVZp7AN2wCm1EcSo9rSyTJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jD4VIGGW1-Jq1EjLEXQF3E
+          claim_id: c_t9djoJ_1UzVpWj8oDOb9J1
+          source_id: s_BIU0ZOccC8OsznPJkqw0Wa
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203037 王健）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_BIU0ZOccC8OsznPJkqw0Wa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王偶（CBDB 298818）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298818&o=json
+            external_identifier: CBDB:298818
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_sVZp7AN2wCm1EcSo9rSyTJ
+        status: active
+        display_name: 王健
+        merged_into_person_id: null
 ---
 
 # 王偶
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_1v36CPdP8tsG1X5DfhzMf4 | 王瓚 | accepted |
+| other | p_sVZp7AN2wCm1EcSo9rSyTJ | 王健 | accepted |
 
 ## 外部来源
 

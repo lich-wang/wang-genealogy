@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王光佐
 cbdb_id: 201648
-revision: 3
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -199,7 +199,81 @@ relationships:
         display_name: 王彥常
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_4hJOTtKBCfedxTAJVUqGA8
+        subject_person_id: p_43iz8zXuv3uGf9Xq8n94JD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hgNMo84ydGRxnNtLqHjNYL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mbjpEB9cauZhAqSt0QDOEu
+          claim_id: c_4hJOTtKBCfedxTAJVUqGA8
+          source_id: s_SApntJKlTUvgroF_SkzxC5
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201648 王光佐）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_SApntJKlTUvgroF_SkzxC5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王光仕（CBDB 275621）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=275621&o=json
+            external_identifier: CBDB:275621
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_43iz8zXuv3uGf9Xq8n94JD
+        status: active
+        display_name: 王光仕
+        merged_into_person_id: null
+    - claim:
+        id: c_0-BXLj3Hly0xn9SJAtgd7v
+        subject_person_id: p_aGdGkp2dMBSExgBGBbzFsu
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hgNMo84ydGRxnNtLqHjNYL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K4qLMjHqaI3cxhc87wv94D
+          claim_id: c_0-BXLj3Hly0xn9SJAtgd7v
+          source_id: s_rNfgx8CCm8YL4LGTebqwLV
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201648 王光佐）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_rNfgx8CCm8YL4LGTebqwLV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王光儒（CBDB 275622）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=275622&o=json
+            external_identifier: CBDB:275622
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aGdGkp2dMBSExgBGBbzFsu
+        status: active
+        display_name: 王光儒
+        merged_into_person_id: null
 ---
 
 # 王光佐
@@ -220,9 +294,13 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_3pGecEKBQ7L7i74yoHX3og | 王京幾 | accepted |
 | ancestors | p_cHxaP3PsESPsJ7Myn1gf2Z | 王彥常 | accepted |
+| other | p_43iz8zXuv3uGf9Xq8n94JD | 王光仕 | accepted |
+| other | p_aGdGkp2dMBSExgBGBbzFsu | 王光儒 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王光儒（CBDB 275622）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=275622&o=json)
+- [中国历代人物传记资料库：王光仕（CBDB 275621）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=275621&o=json)
 - [中国历代人物传记资料库：王光佐（CBDB 201648）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201648&o=json)
 - [中国历代人物传记资料库：王京幾（CBDB 275614）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=275614&o=json)
 - [中国历代人物传记资料库：王彥常（CBDB 275612）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=275612&o=json)

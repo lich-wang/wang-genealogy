@@ -4,7 +4,7 @@ id: p_P3bk3vpKCZxTvFzWKE93mj
 status: active
 merged_into: null
 display_name: 王麟
-revision: 2
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,191 @@ relationships:
         status: active
         display_name: 王宏
         merged_into_person_id: null
+    - claim:
+        id: c_Xon7OH9ys2G2GLwlnmngYv
+        subject_person_id: p_P3bk3vpKCZxTvFzWKE93mj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6SWf882NNoMs9TT22ducd7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iHhcErCIohEazLS4HG3n6o
+          claim_id: c_Xon7OH9ys2G2GLwlnmngYv
+          source_id: s_BqLAL_O6eoSGacmhZddDMm
+          stance: supports
+          locator: CBDB：兄弟 王宏（199484）之父／母 王麟
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王寧 与 王宏 为同胞（CBDB 记「弟」），王宏 之父／母即 王寧 之父／母。
+          source:
+            id: s_BqLAL_O6eoSGacmhZddDMm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寧（CBDB 245700）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245700&o=json
+            external_identifier: CBDB:245700
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6SWf882NNoMs9TT22ducd7
+        status: active
+        display_name: 王寧
+        merged_into_person_id: null
+    - claim:
+        id: c_Jy1SIwonwbeSLJoZJLvjni
+        subject_person_id: p_P3bk3vpKCZxTvFzWKE93mj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8YQoJ9ap7XQ9u851x9wtF6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j_Tut4UVuB8jd8LcxeGz8l
+          claim_id: c_Jy1SIwonwbeSLJoZJLvjni
+          source_id: s_iGh4gea0mwfSsO_9-DribX
+          stance: supports
+          locator: CBDB：兄弟 王宏（199484）之父／母 王麟
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王安 与 王宏 为同胞（CBDB 记「弟」），王宏 之父／母即 王安 之父／母。
+          source:
+            id: s_iGh4gea0mwfSsO_9-DribX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王安（CBDB 245701）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245701&o=json
+            external_identifier: CBDB:245701
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8YQoJ9ap7XQ9u851x9wtF6
+        status: active
+        display_name: 王安
+        merged_into_person_id: null
+    - claim:
+        id: c_DPd0IRlkNlORa8EfqytW68
+        subject_person_id: p_P3bk3vpKCZxTvFzWKE93mj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BmWgCLqoG2bs8skh9MjSZT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fI_80hwTCUd67dN7544Xz4
+          claim_id: c_DPd0IRlkNlORa8EfqytW68
+          source_id: s_13mK4eiRjF8YlrrRnd5UFX
+          stance: supports
+          locator: CBDB：兄弟 王宏（199484）之父／母 王麟
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王寬 与 王宏 为同胞（CBDB 记「兄」），王宏 之父／母即 王寬 之父／母。
+          source:
+            id: s_13mK4eiRjF8YlrrRnd5UFX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寬（CBDB 245704）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245704&o=json
+            external_identifier: CBDB:245704
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BmWgCLqoG2bs8skh9MjSZT
+        status: active
+        display_name: 王寬
+        merged_into_person_id: null
+    - claim:
+        id: c_ouAi-0CSQ7-oZH9YGIOZ5w
+        subject_person_id: p_P3bk3vpKCZxTvFzWKE93mj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MPBiL1iM5rKucTNCufCi87
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_414hS6cbocpwUBtFZ3aFQ8
+          claim_id: c_ouAi-0CSQ7-oZH9YGIOZ5w
+          source_id: s_6W_7RkfMxqnou77KqQ9KiB
+          stance: supports
+          locator: CBDB：兄弟 王宏（199484）之父／母 王麟
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王容 与 王宏 为同胞（CBDB 记「弟」），王宏 之父／母即 王容 之父／母。
+          source:
+            id: s_6W_7RkfMxqnou77KqQ9KiB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王容（CBDB 245703）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245703&o=json
+            external_identifier: CBDB:245703
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MPBiL1iM5rKucTNCufCi87
+        status: active
+        display_name: 王容
+        merged_into_person_id: null
+    - claim:
+        id: c_d6SRSk-sK3jIetXjjRne87
+        subject_person_id: p_P3bk3vpKCZxTvFzWKE93mj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_e83ucJicuv1MxVjgd5jQ2Q
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1Q6DuKpKtVCo5uI-jQYxXF
+          claim_id: c_d6SRSk-sK3jIetXjjRne87
+          source_id: s_f6Bbhpx1b3EB41lplD3lwi
+          stance: supports
+          locator: CBDB：兄弟 王宏（199484）之父／母 王麟
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王實 与 王宏 为同胞（CBDB 记「弟」），王宏 之父／母即 王實 之父／母。
+          source:
+            id: s_f6Bbhpx1b3EB41lplD3lwi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王實（CBDB 245702）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245702&o=json
+            external_identifier: CBDB:245702
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_e83ucJicuv1MxVjgd5jQ2Q
+        status: active
+        display_name: 王實
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +309,17 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_wEuXW2QRPfavvbFYPCJ1DK | 王宏 | accepted |
+| children | p_6SWf882NNoMs9TT22ducd7 | 王寧 | accepted |
+| children | p_8YQoJ9ap7XQ9u851x9wtF6 | 王安 | accepted |
+| children | p_BmWgCLqoG2bs8skh9MjSZT | 王寬 | accepted |
+| children | p_MPBiL1iM5rKucTNCufCi87 | 王容 | accepted |
+| children | p_e83ucJicuv1MxVjgd5jQ2Q | 王實 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王安（CBDB 245701）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245701&o=json)
+- [中国历代人物传记资料库：王寬（CBDB 245704）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245704&o=json)
 - [中国历代人物传记资料库：王麟（CBDB 245697）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245697&o=json)
+- [中国历代人物传记资料库：王寧（CBDB 245700）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245700&o=json)
+- [中国历代人物传记资料库：王容（CBDB 245703）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245703&o=json)
+- [中国历代人物传记资料库：王實（CBDB 245702）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245702&o=json)

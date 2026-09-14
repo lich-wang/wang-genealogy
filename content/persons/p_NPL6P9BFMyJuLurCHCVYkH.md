@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王貴華
 cbdb_id: 322902
-revision: 2
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -113,6 +113,80 @@ relationships:
         status: active
         display_name: 王恂
         merged_into_person_id: null
+    - claim:
+        id: c_2L6aNQV2YhdVLrqB8jqP29
+        subject_person_id: p_NPL6P9BFMyJuLurCHCVYkH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_69Wd3aw3CTX56SjzuzKuQY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1znCDtEEA3qt86yx2xNxQi
+          claim_id: c_2L6aNQV2YhdVLrqB8jqP29
+          source_id: s_2KfOeEs30hFTN3jHI1JSmC
+          stance: supports
+          locator: CBDB：兄弟 王恂（126598）之父／母 王貴華
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王思忠 与 王恂 为同胞（CBDB 记「弟」），王恂 之父／母即 王思忠 之父／母。
+          source:
+            id: s_2KfOeEs30hFTN3jHI1JSmC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王思忠（CBDB 322906）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322906&o=json
+            external_identifier: CBDB:322906
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_69Wd3aw3CTX56SjzuzKuQY
+        status: active
+        display_name: 王思忠
+        merged_into_person_id: null
+    - claim:
+        id: c_gbpJmvNH67WfyxHVSWphL8
+        subject_person_id: p_NPL6P9BFMyJuLurCHCVYkH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_y6pBzeVgTjUtyAuzCyRoUb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_t9MCXuwcfu8O6oBNZOnCqq
+          claim_id: c_gbpJmvNH67WfyxHVSWphL8
+          source_id: s_DQbUJs200jJW5o-6aRg-i9
+          stance: supports
+          locator: CBDB：兄弟 王恂（126598）之父／母 王貴華
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王思聰 与 王恂 为同胞（CBDB 记「弟」），王恂 之父／母即 王思聰 之父／母。
+          source:
+            id: s_DQbUJs200jJW5o-6aRg-i9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王思聰（CBDB 322905）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322905&o=json
+            external_identifier: CBDB:322905
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_y6pBzeVgTjUtyAuzCyRoUb
+        status: active
+        display_name: 王思聰
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -137,8 +211,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_jqYHdYDCnzgGeD3VwT2HJQ | 王恂 | accepted |
+| children | p_69Wd3aw3CTX56SjzuzKuQY | 王思忠 | accepted |
+| children | p_y6pBzeVgTjUtyAuzCyRoUb | 王思聰 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王貴華（CBDB 322902）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322902&o=json)
+- [中国历代人物传记资料库：王思聰（CBDB 322905）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322905&o=json)
+- [中国历代人物传记资料库：王思忠（CBDB 322906）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322906&o=json)
 - [中国历代人物传记资料库：王恂（CBDB 126598）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126598&o=json)

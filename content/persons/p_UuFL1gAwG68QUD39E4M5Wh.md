@@ -4,7 +4,7 @@ id: p_UuFL1gAwG68QUD39E4M5Wh
 status: active
 merged_into: null
 display_name: 王職
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,81 @@ relationships:
         display_name: 王子良
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_8Vobx8-yyt3ZI5V9FWJdzR
+        subject_person_id: p_PjdxRKZX4FRuWpDcu9UUDV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_UuFL1gAwG68QUD39E4M5Wh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3dldEBCsxirxHhtzGtW8qe
+          claim_id: c_8Vobx8-yyt3ZI5V9FWJdzR
+          source_id: s_tBEAPfSSafOFvKBrv1PDAm
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206108 王職）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_tBEAPfSSafOFvKBrv1PDAm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王聆（CBDB 213413）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213413&o=json
+            external_identifier: CBDB:213413
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PjdxRKZX4FRuWpDcu9UUDV
+        status: active
+        display_name: 王聆
+        merged_into_person_id: null
+    - claim:
+        id: c_aq_RGVN-mbh9qmBlNoFSG_
+        subject_person_id: p_UuFL1gAwG68QUD39E4M5Wh
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_eoQ2Pe39un8i36axBmqEvr
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_g04yG0kE8A5bJfpznDKYLd
+          claim_id: c_aq_RGVN-mbh9qmBlNoFSG_
+          source_id: s_Z-b3oNFgCfYZslErJDczeO
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206108 王職）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Z-b3oNFgCfYZslErJDczeO
+            source_type: api_record
+            title: 中国历代人物传记资料库：王聘（CBDB 213412）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213412&o=json
+            external_identifier: CBDB:213412
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_eoQ2Pe39un8i36axBmqEvr
+        status: active
+        display_name: 王聘
+        merged_into_person_id: null
 ---
 
 # 王職
@@ -241,10 +315,14 @@ relationships:
 | parents | p_5J7f6wYMRMxs7athYCFm1K | 王永臣 | accepted |
 | ancestors | p_FtC1XQCji1YiVwcStMfdYg | 王林 | accepted |
 | ancestors | p_GzENjSejHuJfatAtYxzCDL | 王子良 | accepted |
+| other | p_PjdxRKZX4FRuWpDcu9UUDV | 王聆 | accepted |
+| other | p_eoQ2Pe39un8i36axBmqEvr | 王聘 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王林（CBDB 213405）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213405&o=json)
+- [中国历代人物传记资料库：王聆（CBDB 213413）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213413&o=json)
+- [中国历代人物传记资料库：王聘（CBDB 213412）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213412&o=json)
 - [中国历代人物传记资料库：王永臣（CBDB 213407）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213407&o=json)
 - [中国历代人物传记资料库：王職（CBDB 206108）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206108&o=json)
 - [中国历代人物传记资料库：王子良（CBDB 213406）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213406&o=json)

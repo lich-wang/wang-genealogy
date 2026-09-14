@@ -4,7 +4,7 @@ id: p_2yQZFqgpXJgeoQtn7WfsC5
 status: active
 merged_into: null
 display_name: 王佐
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -250,7 +250,81 @@ relationships:
         display_name: 王珍
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_wJ0Wm6pIpEU5b3GSeJyTLT
+        subject_person_id: p_2yQZFqgpXJgeoQtn7WfsC5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_CDeHkFitHyn9G4YYa82Q3y
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_R63E6LWaR9CAu84ZUUL-D-
+          claim_id: c_wJ0Wm6pIpEU5b3GSeJyTLT
+          source_id: s_IGoIXYsI96u2--igKF1O7p
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 67292 王佐）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_IGoIXYsI96u2--igKF1O7p
+            source_type: api_record
+            title: 中国历代人物传记资料库：王佩（CBDB 253908）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253908&o=json
+            external_identifier: CBDB:253908
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CDeHkFitHyn9G4YYa82Q3y
+        status: active
+        display_name: 王佩
+        merged_into_person_id: null
+    - claim:
+        id: c_Ghcqk057-QJCZ5e_cs9f20
+        subject_person_id: p_2yQZFqgpXJgeoQtn7WfsC5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_N957SmPtDLFciomgY2RBic
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Dd9PAWENUe5TFXTesOiHqs
+          claim_id: c_Ghcqk057-QJCZ5e_cs9f20
+          source_id: s_AK5YPkcArh8fPPFsLIxNfv
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 67292 王佐）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_AK5YPkcArh8fPPFsLIxNfv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敖（CBDB 253907）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253907&o=json
+            external_identifier: CBDB:253907
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_N957SmPtDLFciomgY2RBic
+        status: active
+        display_name: 王敖
+        merged_into_person_id: null
 ---
 
 # 王佐
@@ -274,8 +348,12 @@ relationships:
 | spouses | p_HPgC7g61tDn1j9zWwukpAY | 馬氏 | accepted |
 | ancestors | p_j6yJYYD4unD9Q4McpR5Pv8 | 王貴 | accepted |
 | ancestors | p_qTbXB97SFc7HLafkZNoqLg | 王珍 | accepted |
+| other | p_CDeHkFitHyn9G4YYa82Q3y | 王佩 | accepted |
+| other | p_N957SmPtDLFciomgY2RBic | 王敖 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：馬氏(王佐妻)（CBDB 253906）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253906&o=json)
+- [中国历代人物传记资料库：王敖（CBDB 253907）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253907&o=json)
+- [中国历代人物传记资料库：王佩（CBDB 253908）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253908&o=json)
 - [中国历代人物传记资料库：王佐（CBDB 67292）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67292&o=json)

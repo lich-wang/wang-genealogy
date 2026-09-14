@@ -4,7 +4,7 @@ id: p_TmfDTs3dgFgWzEaJva1cPF
 status: active
 merged_into: null
 display_name: 王親臣
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,43 @@ relationships:
         status: active
         display_name: 王育仁
         merged_into_person_id: null
+    - claim:
+        id: c_mP0F72DDWtdemgIF-3iexx
+        subject_person_id: p_TmfDTs3dgFgWzEaJva1cPF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yuJsD4Y8xBGzggDCT99o44
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wwssSCi-XS_f9X6VR6SRkt
+          claim_id: c_mP0F72DDWtdemgIF-3iexx
+          source_id: s_4qL5vshGJE48Mm_466EFdC
+          stance: supports
+          locator: CBDB：兄弟 王育仁（204809）之父／母 王親臣
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王育德 与 王育仁 为同胞（CBDB 记「弟」），王育仁 之父／母即 王育德 之父／母。
+          source:
+            id: s_4qL5vshGJE48Mm_466EFdC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王育德（CBDB 324376）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324376&o=json
+            external_identifier: CBDB:324376
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_yuJsD4Y8xBGzggDCT99o44
+        status: active
+        display_name: 王育德
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_me4wZDW82AptuX6cVAdTa3 | 王育仁 | accepted |
+| children | p_yuJsD4Y8xBGzggDCT99o44 | 王育德 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王親臣（CBDB 324372）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324372&o=json)
+- [中国历代人物传记资料库：王育德（CBDB 324376）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324376&o=json)
 - [中国历代人物传记资料库：王育仁（CBDB 204809）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204809&o=json)

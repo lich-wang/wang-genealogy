@@ -4,7 +4,7 @@ id: p_BeKUgyXWUJu4r2UviMduG1
 status: active
 merged_into: null
 display_name: 王富
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,80 @@ relationships:
         status: active
         display_name: 王再聘
         merged_into_person_id: null
+    - claim:
+        id: c_OaTtfrheVxBPK_Z4vTb_xm
+        subject_person_id: p_BeKUgyXWUJu4r2UviMduG1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5o8FodsPP8caXE1th2gWNd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kbz5tUAR6LdZBwDM45BMPf
+          claim_id: c_OaTtfrheVxBPK_Z4vTb_xm
+          source_id: s_i6ocaupl6_YN8LXKi-dMCJ
+          stance: supports
+          locator: CBDB：兄弟 王再聘（206273）之父／母 王富
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王來聘 与 王再聘 为同胞（CBDB 记「弟」），王再聘 之父／母即 王來聘 之父／母。
+          source:
+            id: s_i6ocaupl6_YN8LXKi-dMCJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王來聘（CBDB 215650）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215650&o=json
+            external_identifier: CBDB:215650
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5o8FodsPP8caXE1th2gWNd
+        status: active
+        display_name: 王來聘
+        merged_into_person_id: null
+    - claim:
+        id: c_kQx_ts-wf44rKIatVlnyG4
+        subject_person_id: p_BeKUgyXWUJu4r2UviMduG1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GRBi2UPVAtGfnCR6APTJnk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sLyxvBDSuO3B3Up1ffvC-q
+          claim_id: c_kQx_ts-wf44rKIatVlnyG4
+          source_id: s_VMdZdyRrOsxCoswLfznTAj
+          stance: supports
+          locator: CBDB：兄弟 王再聘（206273）之父／母 王富
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王三聘 与 王再聘 为同胞（CBDB 记「弟」），王再聘 之父／母即 王三聘 之父／母。
+          source:
+            id: s_VMdZdyRrOsxCoswLfznTAj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三聘（CBDB 215651）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215651&o=json
+            external_identifier: CBDB:215651
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GRBi2UPVAtGfnCR6APTJnk
+        status: active
+        display_name: 王三聘
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_Eh3kPKaSjnmi4kvdvTFveB | 王再聘 | accepted |
+| children | p_5o8FodsPP8caXE1th2gWNd | 王來聘 | accepted |
+| children | p_GRBi2UPVAtGfnCR6APTJnk | 王三聘 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王富（CBDB 215645）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215645&o=json)
+- [中国历代人物传记资料库：王來聘（CBDB 215650）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215650&o=json)
+- [中国历代人物传记资料库：王三聘（CBDB 215651）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215651&o=json)

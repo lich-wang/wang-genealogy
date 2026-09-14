@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王如堯
 cbdb_id: 226069
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_nEajGnSJJlFYO04v4d_u51
+        subject_person_id: p_F5hazwzcVncNtpZFL7kuXD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UkPp61zPoKXswTkME5j3Ce
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kODxNyop8JxLndgmujJ7eD
+          claim_id: c_nEajGnSJJlFYO04v4d_u51
+          source_id: s_OYgoguSPH1T7QD2GIzzLUN
+          stance: supports
+          locator: CBDB：兄弟 王如堅（126521）之父／母 王端昌
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王如堯 与 王如堅 为同胞（CBDB 记「弟」），王如堅 之父／母即 王如堯 之父／母。
+          source:
+            id: s_OYgoguSPH1T7QD2GIzzLUN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王如堯（CBDB 226069）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226069&o=json
+            external_identifier: CBDB:226069
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_F5hazwzcVncNtpZFL7kuXD
+        status: active
+        display_name: 王端昌
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_bJw4DVGLnxadByM7vKJqDr
+        subject_person_id: p_4A86HEw8MTfsRuaTJeDAXg
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_UkPp61zPoKXswTkME5j3Ce
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ly4vPZXxxYTiT_bDkB428b
+          claim_id: c_bJw4DVGLnxadByM7vKJqDr
+          source_id: s_OYgoguSPH1T7QD2GIzzLUN
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126521 王如堅）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_OYgoguSPH1T7QD2GIzzLUN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王如堯（CBDB 226069）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226069&o=json
+            external_identifier: CBDB:226069
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4A86HEw8MTfsRuaTJeDAXg
+        status: active
+        display_name: 王如堅
+        merged_into_person_id: null
 ---
 
 # 王如堯
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_F5hazwzcVncNtpZFL7kuXD | 王端昌 | accepted |
+| other | p_4A86HEw8MTfsRuaTJeDAXg | 王如堅 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_G1Ug4TzjKE3SJeEyp3nW9G
 status: active
 merged_into: null
 display_name: 王郇
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_WzFStDhrVDTeEjbGZzwqlY
+        subject_person_id: p_6jw2H1KWkaDQExePFFB6Yj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_G1Ug4TzjKE3SJeEyp3nW9G
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3rODCgkJxVQTpl1K0SVRwH
+          claim_id: c_WzFStDhrVDTeEjbGZzwqlY
+          source_id: s_GPOlhq3cEXtNbfJ0VPGUfa
+          stance: supports
+          locator: CBDB：兄弟 王本儉（199945）之父／母 王孟良
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王郇 与 王本儉 为同胞（CBDB 记「兄」），王本儉 之父／母即 王郇 之父／母。
+          source:
+            id: s_GPOlhq3cEXtNbfJ0VPGUfa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王郇（CBDB 251778）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251778&o=json
+            external_identifier: CBDB:251778
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6jw2H1KWkaDQExePFFB6Yj
+        status: active
+        display_name: 王孟良
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_iVp3jup2i4_FLk6ylb0b6o
+        subject_person_id: p_9PrBQcpmCF997Qgs2oiS3t
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_G1Ug4TzjKE3SJeEyp3nW9G
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_biDpl4Tvc3cU8Py52VyLDU
+          claim_id: c_iVp3jup2i4_FLk6ylb0b6o
+          source_id: s_GPOlhq3cEXtNbfJ0VPGUfa
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199945 王本儉）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_GPOlhq3cEXtNbfJ0VPGUfa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王郇（CBDB 251778）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251778&o=json
+            external_identifier: CBDB:251778
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9PrBQcpmCF997Qgs2oiS3t
+        status: active
+        display_name: 王本儉
+        merged_into_person_id: null
 ---
 
 # 王郇
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_6jw2H1KWkaDQExePFFB6Yj | 王孟良 | accepted |
+| other | p_9PrBQcpmCF997Qgs2oiS3t | 王本儉 | accepted |
 
 ## 外部来源
 

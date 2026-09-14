@@ -4,7 +4,7 @@ id: p_5vDjPyewsQNr1vDc9fypfb
 status: active
 merged_into: null
 display_name: 王時
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,44 @@ relationships:
         display_name: 王瑄
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_VxjDUb9ngrx0kY3Rez5Vh2
+        subject_person_id: p_5vDjPyewsQNr1vDc9fypfb
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_MR6zD8ShT9jNw6AJicDyKJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_d6mcDMp15YFWNpYDLLVH19
+          claim_id: c_VxjDUb9ngrx0kY3Rez5Vh2
+          source_id: s_AncK0I7X17Mlu7zw4eHs8L
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200965 王時）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_AncK0I7X17Mlu7zw4eHs8L
+            source_type: api_record
+            title: 中国历代人物传记资料库：王暉（CBDB 265227）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265227&o=json
+            external_identifier: CBDB:265227
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MR6zD8ShT9jNw6AJicDyKJ
+        status: active
+        display_name: 王暉
+        merged_into_person_id: null
 ---
 
 # 王時
@@ -245,8 +282,10 @@ relationships:
 | spouses | p_niHzL2T3WQcxx2CDx5VzfP | 李氏 | accepted |
 | ancestors | p_7H5sKM7Vx6wD3u24Rj15gq | 王成存 | accepted |
 | ancestors | p_uBXKr7aw9L8KHt1hsJgX2b | 王瑄 | accepted |
+| other | p_MR6zD8ShT9jNw6AJicDyKJ | 王暉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：李氏(王時妻)（CBDB 265224）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265224&o=json)
+- [中国历代人物传记资料库：王暉（CBDB 265227）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265227&o=json)
 - [中国历代人物传记资料库：王時（CBDB 200965）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200965&o=json)

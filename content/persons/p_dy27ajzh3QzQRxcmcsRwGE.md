@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王岏
 cbdb_id: 332877
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_vpkBmV6u9sLlIJtDKCC35n
+        subject_person_id: p_1bhXJAXaVpf689XsatKT86
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dy27ajzh3QzQRxcmcsRwGE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tfyoipd5wvlZq4df1YZ8JK
+          claim_id: c_vpkBmV6u9sLlIJtDKCC35n
+          source_id: s_l3JHEU8bsb4nXF7KGUz4-2
+          stance: supports
+          locator: CBDB：兄弟 王崇（198899）之父／母 王公冕
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王岏 与 王崇 为同胞（CBDB 记「兄」），王崇 之父／母即 王岏 之父／母。
+          source:
+            id: s_l3JHEU8bsb4nXF7KGUz4-2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王岏（CBDB 332877）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332877&o=json
+            external_identifier: CBDB:332877
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1bhXJAXaVpf689XsatKT86
+        status: active
+        display_name: 王公冕
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_RKRjspA-hR0ebFpVBeIlYW
+        subject_person_id: p_3mAauYa8M61LZB5CiRWcsN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dy27ajzh3QzQRxcmcsRwGE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qVxwBLtK_mZIdjLHEnM8uO
+          claim_id: c_RKRjspA-hR0ebFpVBeIlYW
+          source_id: s_l3JHEU8bsb4nXF7KGUz4-2
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198899 王崇）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_l3JHEU8bsb4nXF7KGUz4-2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王岏（CBDB 332877）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332877&o=json
+            external_identifier: CBDB:332877
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3mAauYa8M61LZB5CiRWcsN
+        status: active
+        display_name: 王崇
+        merged_into_person_id: null
 ---
 
 # 王岏
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_1bhXJAXaVpf689XsatKT86 | 王公冕 | accepted |
+| other | p_3mAauYa8M61LZB5CiRWcsN | 王崇 | accepted |
 
 ## 外部来源
 

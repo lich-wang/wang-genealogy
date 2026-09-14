@@ -4,7 +4,7 @@ id: p_MYfB6EjPV6suNsFDBxvTEo
 status: active
 merged_into: null
 display_name: 王鼎
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_xem3c3v-UjU7R9525VlytZ
+        subject_person_id: p_Fx8NWUCXJhWjRm2zT2EzHi
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_MYfB6EjPV6suNsFDBxvTEo
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xr7YwX4jg95Q39f9wY_rBb
+          claim_id: c_xem3c3v-UjU7R9525VlytZ
+          source_id: s_NCOvo8jGTmwdLig4vyuVSV
+          stance: supports
+          locator: CBDB 亲属：兄弟（KinPerson 550870 王鼎）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_NCOvo8jGTmwdLig4vyuVSV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王觀（CBDB 550871）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=550871&o=json
+            external_identifier: CBDB:550871
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Fx8NWUCXJhWjRm2zT2EzHi
+        status: active
+        display_name: 王觀
+        merged_into_person_id: null
 ---
 
 # 王鼎
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_UQEEqtuYzcUvSGyTq4Y74D | 王宗源 | accepted |
+| other | p_Fx8NWUCXJhWjRm2zT2EzHi | 王觀 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鼎（CBDB 550870）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=550870&o=json)
+- [中国历代人物传记资料库：王觀（CBDB 550871）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=550871&o=json)

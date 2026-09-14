@@ -4,7 +4,7 @@ id: p_Q1HXQkSMAFHi7fYuKS8duv
 status: active
 merged_into: null
 display_name: 王蕙
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_OEsIXaEVYjVmtrMTwaSPdn
+        subject_person_id: p_Q1HXQkSMAFHi7fYuKS8duv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4H3CFz5B9C5wCxTWKJ4ugX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs__geuIrBYmZ_7nET70PliEn
+          claim_id: c_OEsIXaEVYjVmtrMTwaSPdn
+          source_id: s_kKCa3DaaOJLau9Amff2nAJ
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 386691）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_kKCa3DaaOJLau9Amff2nAJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元功（CBDB 386697）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386697&o=json
+            external_identifier: CBDB:386697
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4H3CFz5B9C5wCxTWKJ4ugX
+        status: active
+        display_name: 王元功
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -255,6 +292,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_4H3CFz5B9C5wCxTWKJ4ugX | 王元功 | accepted |
 | spouses | p_sn42C8p7CP4y7NuAFEWEFM | 戴氏 | accepted |
 | ancestors | p_26BJbufiHdX8oiM4dJs1K3 | 王琰 | accepted |
 | ancestors | p_TA3EM7RAXDxn6hGbgBVmnw | 王僑 | accepted |
@@ -264,3 +302,4 @@ relationships:
 - [中国历代人物传记资料库：戴氏(王蕙妻)（CBDB 386695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386695&o=json)
 - [中国历代人物传记资料库：王蕙（CBDB 386691）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386691&o=json)
 - [中国历代人物传记资料库：王琰（CBDB 386693）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386693&o=json)
+- [中国历代人物传记资料库：王元功（CBDB 386697）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386697&o=json)

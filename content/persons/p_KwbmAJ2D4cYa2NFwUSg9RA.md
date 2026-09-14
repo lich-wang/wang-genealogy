@@ -4,7 +4,7 @@ id: p_KwbmAJ2D4cYa2NFwUSg9RA
 status: active
 merged_into: null
 display_name: 王溥
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -204,6 +204,80 @@ relationships:
         status: active
         display_name: 王貽正
         merged_into_person_id: null
+    - claim:
+        id: c_H7moyqlh2kBQCYUdzSvk77
+        subject_person_id: p_KwbmAJ2D4cYa2NFwUSg9RA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NK5gxr8vgCy1mkUyJ4gMWs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_LQ1az6vbfkWCIx0ZnujFNp
+          claim_id: c_H7moyqlh2kBQCYUdzSvk77
+          source_id: s_8SsDj-_g-H6uQS6nwTiyy_
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 8152）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_8SsDj-_g-H6uQS6nwTiyy_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王貽慶（CBDB 22071）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22071&o=json
+            external_identifier: CBDB:22071
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NK5gxr8vgCy1mkUyJ4gMWs
+        status: active
+        display_name: 王貽慶
+        merged_into_person_id: null
+    - claim:
+        id: c_pSfVj67HlT83cZdEvmXowW
+        subject_person_id: p_KwbmAJ2D4cYa2NFwUSg9RA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_p6x1d3BsTeDKvxNNP35LQX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_In9_r771XyBMNql1rePKJl
+          claim_id: c_pSfVj67HlT83cZdEvmXowW
+          source_id: s_VCjQ19RD-nsnT1R7pdsTaO
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 8152）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_VCjQ19RD-nsnT1R7pdsTaO
+            source_type: api_record
+            title: 中国历代人物传记资料库：王貽孫（CBDB 22070）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22070&o=json
+            external_identifier: CBDB:22070
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_p6x1d3BsTeDKvxNNP35LQX
+        status: active
+        display_name: 王貽孫
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -268,6 +342,8 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_75587XqogBQaW5G74KzAUa | 王延祚 | accepted |
 | children | p_dTXH6ubpBbfKsj26LKdQqL | 王貽正 | accepted |
+| children | p_NK5gxr8vgCy1mkUyJ4gMWs | 王貽慶 | accepted |
+| children | p_p6x1d3BsTeDKvxNNP35LQX | 王貽孫 | accepted |
 | descendants | p_PHmf79xTwWuj1qPnsJFVAk | 王渙 | accepted |
 
 ## 外部来源
@@ -275,4 +351,6 @@ relationships:
 - [中国历代人物传记资料库：王渙（CBDB 570907）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=570907&o=json)
 - [中国历代人物传记资料库：王溥（CBDB 8152）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8152&o=json)
 - [中国历代人物传记资料库：王延祚（CBDB 22069）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22069&o=json)
+- [中国历代人物传记资料库：王貽慶（CBDB 22071）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22071&o=json)
+- [中国历代人物传记资料库：王貽孫（CBDB 22070）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22070&o=json)
 - [中国历代人物传记资料库：王貽永（CBDB 1829）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1829&o=json)

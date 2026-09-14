@@ -4,7 +4,7 @@ id: p_jrr2Fwz4x5hKA8iAkHGgin
 status: active
 merged_into: null
 display_name: 王文信
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,43 @@ relationships:
         status: active
         display_name: 王鉉
         merged_into_person_id: null
+    - claim:
+        id: c_5YFH0vroxcteNE7mKbcit0
+        subject_person_id: p_jrr2Fwz4x5hKA8iAkHGgin
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6xoDhEeUc4DrFbTWjXFWRL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_52StUz2uUt8vF2MJN_nFUy
+          claim_id: c_5YFH0vroxcteNE7mKbcit0
+          source_id: s_bJbkAbs9qdhi3Ju8JQ2fYk
+          stance: supports
+          locator: CBDB：兄弟 王鉉（200018）之父／母 王文信
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鍈 与 王鉉 为同胞（CBDB 记「兄」），王鉉 之父／母即 王鍈 之父／母。
+          source:
+            id: s_bJbkAbs9qdhi3Ju8JQ2fYk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鍈（CBDB 252704）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252704&o=json
+            external_identifier: CBDB:252704
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6xoDhEeUc4DrFbTWjXFWRL
+        status: active
+        display_name: 王鍈
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_2LCs128HMx8dbvsEorc8ou | 王鉉 | accepted |
+| children | p_6xoDhEeUc4DrFbTWjXFWRL | 王鍈 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王文信（CBDB 252699）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252699&o=json)
 - [中国历代人物传记资料库：王鉉（CBDB 200018）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200018&o=json)
+- [中国历代人物传记资料库：王鍈（CBDB 252704）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252704&o=json)

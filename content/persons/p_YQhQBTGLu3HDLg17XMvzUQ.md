@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王褒德
 cbdb_id: 221974
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_GA3kLo7ejuq4sPXD-neTWu
+        subject_person_id: p_staV7NpqmWaPNLuzEjvKNG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YQhQBTGLu3HDLg17XMvzUQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6qusCl_nMdYEM19ndvgzqZ
+          claim_id: c_GA3kLo7ejuq4sPXD-neTWu
+          source_id: s_I5hjSIbLWynpB5pAi4-Kpo
+          stance: supports
+          locator: CBDB：兄弟 王應霖（206714）之父／母 王宗寶
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王褒德 与 王應霖 为同胞（CBDB 记「弟」），王應霖 之父／母即 王褒德 之父／母。
+          source:
+            id: s_I5hjSIbLWynpB5pAi4-Kpo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王褒德（CBDB 221974）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221974&o=json
+            external_identifier: CBDB:221974
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_staV7NpqmWaPNLuzEjvKNG
+        status: active
+        display_name: 王宗寶
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_zTQKUyfGyqj-TzbA24U8DZ
+        subject_person_id: p_YQhQBTGLu3HDLg17XMvzUQ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nF3Cd5KS3rMLe16oeKeJ6Q
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E5c0CEvRxAmJxkCkGfsA2o
+          claim_id: c_zTQKUyfGyqj-TzbA24U8DZ
+          source_id: s_I5hjSIbLWynpB5pAi4-Kpo
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206714 王應霖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_I5hjSIbLWynpB5pAi4-Kpo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王褒德（CBDB 221974）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221974&o=json
+            external_identifier: CBDB:221974
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nF3Cd5KS3rMLe16oeKeJ6Q
+        status: active
+        display_name: 王應霖
+        merged_into_person_id: null
 ---
 
 # 王褒德
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_staV7NpqmWaPNLuzEjvKNG | 王宗寶 | accepted |
+| other | p_nF3Cd5KS3rMLe16oeKeJ6Q | 王應霖 | accepted |
 
 ## 外部来源
 

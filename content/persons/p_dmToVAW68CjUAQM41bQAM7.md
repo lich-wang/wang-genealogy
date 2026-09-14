@@ -4,7 +4,7 @@ id: p_dmToVAW68CjUAQM41bQAM7
 status: active
 merged_into: null
 display_name: 王世雍
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,81 @@ relationships:
         display_name: 王端
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_5OrQbWPPhfH6WE6uJq3ySQ
+        subject_person_id: p_dmToVAW68CjUAQM41bQAM7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_uaU9mnVmH8FrRuJRbj78gj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__F86n5zuDuIuQgaTYxJrTO
+          claim_id: c_5OrQbWPPhfH6WE6uJq3ySQ
+          source_id: s_UXX-L-znyHZ5ay1mHXhT_V
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202939 王世雍）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_UXX-L-znyHZ5ay1mHXhT_V
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世熙（CBDB 297050）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297050&o=json
+            external_identifier: CBDB:297050
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_uaU9mnVmH8FrRuJRbj78gj
+        status: active
+        display_name: 王世熙
+        merged_into_person_id: null
+    - claim:
+        id: c_otc90KowNTWMf3rhM3qZtR
+        subject_person_id: p_dmToVAW68CjUAQM41bQAM7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wWndUNGpbW4TvjdEdb6T1z
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jz5B6nqJVTg0lcfTxKhWtj
+          claim_id: c_otc90KowNTWMf3rhM3qZtR
+          source_id: s_mVYvFuXlFesKCusKDh0zqu
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202939 王世雍）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_mVYvFuXlFesKCusKDh0zqu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世泰（CBDB 297051）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297051&o=json
+            external_identifier: CBDB:297051
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wWndUNGpbW4TvjdEdb6T1z
+        status: active
+        display_name: 王世泰
+        merged_into_person_id: null
 ---
 
 # 王世雍
@@ -245,8 +319,12 @@ relationships:
 | spouses | p_ACkmrw3zyTDSeFERb4XAsg | 郭氏 | accepted |
 | ancestors | p_XkZdnDcNgm4x11EVgh6CqK | 王釗 | accepted |
 | ancestors | p_u69LKR4SQaEEAYJvCcdg5V | 王端 | accepted |
+| other | p_uaU9mnVmH8FrRuJRbj78gj | 王世熙 | accepted |
+| other | p_wWndUNGpbW4TvjdEdb6T1z | 王世泰 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：郭氏(王世雍妻)（CBDB 297049）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297049&o=json)
+- [中国历代人物传记资料库：王世泰（CBDB 297051）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297051&o=json)
+- [中国历代人物传记资料库：王世熙（CBDB 297050）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297050&o=json)
 - [中国历代人物传记资料库：王世雍（CBDB 202939）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202939&o=json)

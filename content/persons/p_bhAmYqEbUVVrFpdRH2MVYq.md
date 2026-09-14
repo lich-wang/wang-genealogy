@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王侁
 cbdb_id: 39569
-revision: 2
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -330,7 +330,118 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_8OUvNEHY9aaRxPsBeVYKxt
+        subject_person_id: p_559GDDXajW6Q117N9S9Zba
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_bhAmYqEbUVVrFpdRH2MVYq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_m3kpuUpJHAFZ_Z30n5Hpyf
+          claim_id: c_8OUvNEHY9aaRxPsBeVYKxt
+          source_id: s_pYrqRcwzyh78gendiWHnG4
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 39569 王侁）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_pYrqRcwzyh78gendiWHnG4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王備（CBDB 119751）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119751&o=json
+            external_identifier: CBDB:119751
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_559GDDXajW6Q117N9S9Zba
+        status: active
+        display_name: 王備
+        merged_into_person_id: null
+    - claim:
+        id: c_F93dVVtRqPMq0S0aB9snij
+        subject_person_id: p_9xMBcMTmbpXrzbV1ZAH8Ph
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_bhAmYqEbUVVrFpdRH2MVYq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YknZ1Mxjf5yCib6unG9oYH
+          claim_id: c_F93dVVtRqPMq0S0aB9snij
+          source_id: s_ccmkxs9SMr5J5IDUbgeAeN
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 39569 王侁）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ccmkxs9SMr5J5IDUbgeAeN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王偃（CBDB 119752）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119752&o=json
+            external_identifier: CBDB:119752
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9xMBcMTmbpXrzbV1ZAH8Ph
+        status: active
+        display_name: 王偃
+        merged_into_person_id: null
+    - claim:
+        id: c__EqfAj_2ax7Zst9CQf7e6v
+        subject_person_id: p_bhAmYqEbUVVrFpdRH2MVYq
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_n2GXBGk9F2kqiQVMZYGah6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9OcJZ0cd57e1aE_cQ4GbOb
+          claim_id: c__EqfAj_2ax7Zst9CQf7e6v
+          source_id: s_I19WJI-9h-qBcYrSIbWed8
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 39569 王侁）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_I19WJI-9h-qBcYrSIbWed8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王僎（CBDB 119750）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119750&o=json
+            external_identifier: CBDB:119750
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_n2GXBGk9F2kqiQVMZYGah6
+        status: active
+        display_name: 王僎
+        merged_into_person_id: null
 ---
 
 # 王侁
@@ -352,11 +463,17 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_6R94tR4BFCymhDkQ193mDd | 王朴 | accepted |
 | parents | p_NjuqxHYFowP8erFGeN3Z21 | 王樸 | accepted |
+| other | p_559GDDXajW6Q117N9S9Zba | 王備 | accepted |
+| other | p_9xMBcMTmbpXrzbV1ZAH8Ph | 王偃 | accepted |
+| other | p_n2GXBGk9F2kqiQVMZYGah6 | 王僎 | accepted |
 
 ## 外部来源
 
 - [维基数据：王朴（Q11573113）](https://www.wikidata.org/wiki/Q11573113)
 - [维基数据：王侁（Q10412293）](https://www.wikidata.org/wiki/Q10412293)
+- [中国历代人物传记资料库：王備（CBDB 119751）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119751&o=json)
 - [中国历代人物传记资料库：王樸（CBDB 39576）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=39576&o=json)
+- [中国历代人物传记资料库：王偃（CBDB 119752）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119752&o=json)
+- [中国历代人物传记资料库：王僎（CBDB 119750）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119750&o=json)
 - [中文维基百科：王侁](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BE%81)
 - [CBDB 中国历代人物传记资料库：王侁（39569）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=39569&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王岳錫
 cbdb_id: 206741
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,44 @@ relationships:
         display_name: 王縉
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_HkXVaJuM2vdG0uvAl-axwr
+        subject_person_id: p_3ZDZmq5CVsJU9PVY6GZ6uT
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RKkqJtmY8xpK68H9TU7V2h
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cbduya9Rkw-xYa_-gSfwXG
+          claim_id: c_HkXVaJuM2vdG0uvAl-axwr
+          source_id: s_muQ4HH1CeoHELCSPcMMK8v
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206741 王岳錫）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_muQ4HH1CeoHELCSPcMMK8v
+            source_type: api_record
+            title: 中国历代人物传记资料库：王申錫（CBDB 222536）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222536&o=json
+            external_identifier: CBDB:222536
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3ZDZmq5CVsJU9PVY6GZ6uT
+        status: active
+        display_name: 王申錫
+        merged_into_person_id: null
 ---
 
 # 王岳錫
@@ -257,10 +294,12 @@ relationships:
 | parents | p_VoTEz62YCbTPVvreKQ83nM | 王价 | accepted |
 | ancestors | p_2SQ76ktBHXkxeeRXd8mxUn | 王簡 | accepted |
 | ancestors | p_JeB3hwSR896jhFPxZ6KM4b | 王縉 | accepted |
+| other | p_3ZDZmq5CVsJU9PVY6GZ6uT | 王申錫 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王价（CBDB 222533）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222533&o=json)
 - [中国历代人物传记资料库：王簡（CBDB 222532）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222532&o=json)
 - [中国历代人物传记资料库：王縉（CBDB 222531）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222531&o=json)
+- [中国历代人物传记资料库：王申錫（CBDB 222536）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222536&o=json)
 - [中国历代人物传记资料库：王岳錫（CBDB 206741）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206741&o=json)

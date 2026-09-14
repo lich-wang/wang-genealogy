@@ -4,7 +4,7 @@ id: p_1dZvkuZQM68RGosi7sKQG6
 status: active
 merged_into: null
 display_name: 王牧
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_6xNbh47lkGj3T4xRgIc27g
+        subject_person_id: p_HJQdCKF1NWQxF4BJ2ijpLL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1dZvkuZQM68RGosi7sKQG6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_URNRvPrCQCNRdUriXfdGAR
+          claim_id: c_6xNbh47lkGj3T4xRgIc27g
+          source_id: s_LKFt_1TXE4GrCPXinbPnM-
+          stance: supports
+          locator: CBDB：兄弟 王育（208149）之父／母 王珪
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王牧 与 王育 为同胞（CBDB 记「弟」），王育 之父／母即 王牧 之父／母。
+          source:
+            id: s_LKFt_1TXE4GrCPXinbPnM-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王牧（CBDB 241088）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241088&o=json
+            external_identifier: CBDB:241088
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HJQdCKF1NWQxF4BJ2ijpLL
+        status: active
+        display_name: 王珪
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_x7uGk8oT1w7QzCtSp7sXjS
+        subject_person_id: p_1dZvkuZQM68RGosi7sKQG6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_HYHpKaJa17iu8Upo6wdU7W
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AskI4clAO0d0M9RsCxzQHc
+          claim_id: c_x7uGk8oT1w7QzCtSp7sXjS
+          source_id: s_LKFt_1TXE4GrCPXinbPnM-
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 208149 王育）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_LKFt_1TXE4GrCPXinbPnM-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王牧（CBDB 241088）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241088&o=json
+            external_identifier: CBDB:241088
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HYHpKaJa17iu8Upo6wdU7W
+        status: active
+        display_name: 王育
+        merged_into_person_id: null
 ---
 
 # 王牧
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_HJQdCKF1NWQxF4BJ2ijpLL | 王珪 | accepted |
+| other | p_HYHpKaJa17iu8Upo6wdU7W | 王育 | accepted |
 
 ## 外部来源
 

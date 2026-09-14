@@ -4,7 +4,7 @@ id: p_yoJ8xkA6RKn5KTuDeY1X7C
 status: active
 merged_into: null
 display_name: 王正功
-revision: 1
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,118 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_WAVF8y9rzVfmnWeahB5N8a
+        subject_person_id: p_yoJ8xkA6RKn5KTuDeY1X7C
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Pvbhr3LE5rh7bWATKZco7S
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_-r1B-tu6MtqzFwjAmX2Q6l
+          claim_id: c_WAVF8y9rzVfmnWeahB5N8a
+          source_id: s_J7DwMpwX1Ro5HXfV965DYB
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 19876）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_J7DwMpwX1Ro5HXfV965DYB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王深（CBDB 35687）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35687&o=json
+            external_identifier: CBDB:35687
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Pvbhr3LE5rh7bWATKZco7S
+        status: active
+        display_name: 王深
+        merged_into_person_id: null
+    - claim:
+        id: c_jN0drFBQdbhxqQIEMex3Ax
+        subject_person_id: p_yoJ8xkA6RKn5KTuDeY1X7C
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_r9heHG2FojCpHTWKX5G61W
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_lGg7pFjv0vST6ntSiRUamH
+          claim_id: c_jN0drFBQdbhxqQIEMex3Ax
+          source_id: s_dZjPNCND1lk1VU339fiv8c
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 19876）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_dZjPNCND1lk1VU339fiv8c
+            source_type: api_record
+            title: 中国历代人物传记资料库：王泌（CBDB 35689）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35689&o=json
+            external_identifier: CBDB:35689
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_r9heHG2FojCpHTWKX5G61W
+        status: active
+        display_name: 王泌
+        merged_into_person_id: null
+    - claim:
+        id: c_FPwOgCfDvIU2dHlEwBBFsD
+        subject_person_id: p_yoJ8xkA6RKn5KTuDeY1X7C
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rA8Xm6td4MjUKdatRd96Gp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_WrpyLrrPJFshWpalTz6wiN
+          claim_id: c_FPwOgCfDvIU2dHlEwBBFsD
+          source_id: s_afTVIigjOitREv0jvvb1mJ
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 19876）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_afTVIigjOitREv0jvvb1mJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王洙（CBDB 19877）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19877&o=json
+            external_identifier: CBDB:19877
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rA8Xm6td4MjUKdatRd96Gp
+        status: active
+        display_name: 王洙
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,7 +266,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_Pvbhr3LE5rh7bWATKZco7S | 王深 | accepted |
+| children | p_r9heHG2FojCpHTWKX5G61W | 王泌 | accepted |
+| children | p_rA8Xm6td4MjUKdatRd96Gp | 王洙 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王泌（CBDB 35689）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35689&o=json)
+- [中国历代人物传记资料库：王深（CBDB 35687）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35687&o=json)
 - [中国历代人物传记资料库：王正功（CBDB 19876）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19876&o=json)
+- [中国历代人物传记资料库：王洙（CBDB 19877）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19877&o=json)

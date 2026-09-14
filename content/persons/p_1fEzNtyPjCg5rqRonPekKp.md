@@ -4,7 +4,7 @@ id: p_1fEzNtyPjCg5rqRonPekKp
 status: active
 merged_into: null
 display_name: 王澤
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -126,6 +126,80 @@ relationships:
         status: active
         display_name: 王崑
         merged_into_person_id: null
+    - claim:
+        id: c_7WcyCZ-_1b5NpKjdfZIHDc
+        subject_person_id: p_1fEzNtyPjCg5rqRonPekKp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_786rPa2cye1V5UjnNigPhV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NDGw_iYAOY-i8X0aachsze
+          claim_id: c_7WcyCZ-_1b5NpKjdfZIHDc
+          source_id: s_I93RjexzBWrCyZEEg9xv6h
+          stance: supports
+          locator: CBDB：兄弟 王嶽（200389）之父／母 王澤
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王崙 与 王嶽 为同胞（CBDB 记「兄」），王嶽 之父／母即 王崙 之父／母。
+          source:
+            id: s_I93RjexzBWrCyZEEg9xv6h
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崙（CBDB 257078）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257078&o=json
+            external_identifier: CBDB:257078
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_786rPa2cye1V5UjnNigPhV
+        status: active
+        display_name: 王崙
+        merged_into_person_id: null
+    - claim:
+        id: c_TTMRgZc09vJ68jGILDWlsP
+        subject_person_id: p_1fEzNtyPjCg5rqRonPekKp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8TvUMMPffQgp4RCcfKc6UW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hdWAdaY7XeJI4QxrllQ5gA
+          claim_id: c_TTMRgZc09vJ68jGILDWlsP
+          source_id: s_ee3Ly-Bb_sn5nWIkoXS0JI
+          stance: supports
+          locator: CBDB：兄弟 王崑（201957）之父／母 王澤
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王嶧 与 王崑 为同胞（CBDB 记「兄」），王崑 之父／母即 王嶧 之父／母。
+          source:
+            id: s_ee3Ly-Bb_sn5nWIkoXS0JI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嶧（CBDB 281110）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281110&o=json
+            external_identifier: CBDB:281110
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8TvUMMPffQgp4RCcfKc6UW
+        status: active
+        display_name: 王嶧
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -151,7 +225,11 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_FebULYZ1Mok5osGeZL97Vp | 王嶽 | accepted |
 | children | p_vDzf6isJ8G9fr8y7scc2fq | 王崑 | accepted |
+| children | p_786rPa2cye1V5UjnNigPhV | 王崙 | accepted |
+| children | p_8TvUMMPffQgp4RCcfKc6UW | 王嶧 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王崙（CBDB 257078）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257078&o=json)
+- [中国历代人物传记资料库：王嶧（CBDB 281110）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281110&o=json)
 - [中国历代人物传记资料库：王澤（CBDB 257073）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257073&o=json)

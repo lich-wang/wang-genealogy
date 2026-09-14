@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王辂
 cbdb_id: 250185
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -359,6 +359,80 @@ relationships:
         status: active
         display_name: 王侨
         merged_into_person_id: null
+    - claim:
+        id: c_whiGyPpMX5Hk6F1fF7OuOs
+        subject_person_id: p_hhmhrJoJhGam6MtTDBQHpt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_77GuFxNmZXLwnvYV6Z7Evu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FrSmn1iZT81pgHonK2PDnR
+          claim_id: c_whiGyPpMX5Hk6F1fF7OuOs
+          source_id: s_KExEzB0FuIL0Vt9cRXvsw1
+          stance: supports
+          locator: CBDB：兄弟 王侨（199828）之父／母 王辂
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王倬 与 王侨 为同胞（CBDB 记「兄」），王侨 之父／母即 王倬 之父／母。
+          source:
+            id: s_KExEzB0FuIL0Vt9cRXvsw1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王倬（CBDB 250191）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250191&o=json
+            external_identifier: CBDB:250191
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_77GuFxNmZXLwnvYV6Z7Evu
+        status: active
+        display_name: 王倬
+        merged_into_person_id: null
+    - claim:
+        id: c_si0VVKol6u1Drr5HL9gR3l
+        subject_person_id: p_hhmhrJoJhGam6MtTDBQHpt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZEJD4GeHuakT9KGYa2Fo6D
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PH-JfNHHtCqOupEIhTR0ln
+          claim_id: c_si0VVKol6u1Drr5HL9gR3l
+          source_id: s_xfMQ4c2s2u_lPVb2KJ0w1j
+          stance: supports
+          locator: CBDB：兄弟 王侨（199828）之父／母 王辂
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王偡 与 王侨 为同胞（CBDB 记「兄」），王侨 之父／母即 王偡 之父／母。
+          source:
+            id: s_xfMQ4c2s2u_lPVb2KJ0w1j
+            source_type: api_record
+            title: 中国历代人物传记资料库：王偡（CBDB 250190）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250190&o=json
+            external_identifier: CBDB:250190
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZEJD4GeHuakT9KGYa2Fo6D
+        status: active
+        display_name: 王偡
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -459,6 +533,8 @@ relationships:
 | parents | p_jFuufzfY72LPXJ1cXZRs83 | 王琳 | accepted |
 | children | p_2CY82LiLunPZpBKWzpBz3S | 王倬 | accepted |
 | children | p_U2Fggori7BCBLtrGmDkhHG | 王侨 | accepted |
+| children | p_77GuFxNmZXLwnvYV6Z7Evu | 王倬 | accepted |
+| children | p_ZEJD4GeHuakT9KGYa2Fo6D | 王偡 | accepted |
 | descendants | p_g5KSSBRpZ9iAzVfbXmLaWQ | 王世贞 | accepted |
 | descendants | p_38CvMQkfBCMzR3DNrBhBQJ | 王世懋 | accepted |
 
@@ -468,6 +544,8 @@ relationships:
 - [维基数据：王辂（Q45443021）](https://www.wikidata.org/wiki/Q45443021)
 - [维基数据：王侨（Q19856054）](https://www.wikidata.org/wiki/Q19856054)
 - [维基数据：王倬（Q20063835）](https://www.wikidata.org/wiki/Q20063835)
+- [中国历代人物传记资料库：王偡（CBDB 250190）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250190&o=json)
+- [中国历代人物传记资料库：王倬（CBDB 250191）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250191&o=json)
 - [中文维基百科：王僑 (成化進士)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%83%91_(%E6%88%90%E5%8C%96%E9%80%B2%E5%A3%AB))
 - [中文维基百科：王世懋](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E6%87%8B)
 - [中文维基百科：王世贞](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E8%B4%9E)

@@ -4,7 +4,7 @@ id: p_qa6zyTPAhVF9kXZGFH1sFs
 status: active
 merged_into: null
 display_name: 王言
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_WYJT9KD-W_SEf_E8hBQzLx
+        subject_person_id: p_7HAN6MZgrNF637x89HuFkG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qa6zyTPAhVF9kXZGFH1sFs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rZETDyYPd7QgWcEkhPtr6B
+          claim_id: c_WYJT9KD-W_SEf_E8hBQzLx
+          source_id: s_KCzO3E6roVit1wWcezF94h
+          stance: supports
+          locator: CBDB：兄弟 王心（203250）之父／母 王浩
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王言 与 王心 为同胞（CBDB 记「弟」），王心 之父／母即 王言 之父／母。
+          source:
+            id: s_KCzO3E6roVit1wWcezF94h
+            source_type: api_record
+            title: 中国历代人物传记资料库：王言（CBDB 301987）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301987&o=json
+            external_identifier: CBDB:301987
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7HAN6MZgrNF637x89HuFkG
+        status: active
+        display_name: 王浩
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_kooZdAoVBElONbsqQirgRg
+        subject_person_id: p_GQ1GXZbABMzPSWjdERZQAa
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qa6zyTPAhVF9kXZGFH1sFs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IkKNIgQdWT06Y3kQwYSvMp
+          claim_id: c_kooZdAoVBElONbsqQirgRg
+          source_id: s_KCzO3E6roVit1wWcezF94h
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203250 王心）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_KCzO3E6roVit1wWcezF94h
+            source_type: api_record
+            title: 中国历代人物传记资料库：王言（CBDB 301987）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301987&o=json
+            external_identifier: CBDB:301987
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GQ1GXZbABMzPSWjdERZQAa
+        status: active
+        display_name: 王心
+        merged_into_person_id: null
 ---
 
 # 王言
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_7HAN6MZgrNF637x89HuFkG | 王浩 | accepted |
+| other | p_GQ1GXZbABMzPSWjdERZQAa | 王心 | accepted |
 
 ## 外部来源
 

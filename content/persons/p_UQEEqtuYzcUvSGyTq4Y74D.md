@@ -4,7 +4,7 @@ id: p_UQEEqtuYzcUvSGyTq4Y74D
 status: active
 merged_into: null
 display_name: 王宗源
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -111,12 +111,86 @@ relationships:
         status: active
         display_name: 王鼎
         merged_into_person_id: null
+    - claim:
+        id: c_uB8TRgx2pNI3QixcQfQY0Q
+        subject_person_id: p_UQEEqtuYzcUvSGyTq4Y74D
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Fx8NWUCXJhWjRm2zT2EzHi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mmH1Sb3m2QlTujuEZwr0ky
+          claim_id: c_uB8TRgx2pNI3QixcQfQY0Q
+          source_id: s_NCOvo8jGTmwdLig4vyuVSV
+          stance: supports
+          locator: CBDB：兄弟 王鼎（550870）之父／母 王宗源
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王觀 与 王鼎 为同胞（CBDB 记「兄弟」），王鼎 之父／母即 王觀 之父／母。
+          source:
+            id: s_NCOvo8jGTmwdLig4vyuVSV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王觀（CBDB 550871）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=550871&o=json
+            external_identifier: CBDB:550871
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Fx8NWUCXJhWjRm2zT2EzHi
+        status: active
+        display_name: 王觀
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_RL0pULIDCKJjJcg_p-du0Z
+        subject_person_id: p_JaU6ebYAsJXn5gSf3SqDt6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_UQEEqtuYzcUvSGyTq4Y74D
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BX6OxucseRLtVw9LukAFRH
+          claim_id: c_RL0pULIDCKJjJcg_p-du0Z
+          source_id: s_NoHfYlZr3nganXT330FUkM
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 550868 王宗源）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_NoHfYlZr3nganXT330FUkM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗濂（CBDB 550869）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=550869&o=json
+            external_identifier: CBDB:550869
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JaU6ebYAsJXn5gSf3SqDt6
+        status: active
+        display_name: 王宗濂
+        merged_into_person_id: null
 ---
 
 # 王宗源
@@ -135,8 +209,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_MYfB6EjPV6suNsFDBxvTEo | 王鼎 | accepted |
+| children | p_Fx8NWUCXJhWjRm2zT2EzHi | 王觀 | accepted |
+| other | p_JaU6ebYAsJXn5gSf3SqDt6 | 王宗濂 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鼎（CBDB 550870）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=550870&o=json)
+- [中国历代人物传记资料库：王觀（CBDB 550871）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=550871&o=json)
+- [中国历代人物传记资料库：王宗濂（CBDB 550869）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=550869&o=json)
 - [中国历代人物传记资料库：王宗源（CBDB 550868）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=550868&o=json)

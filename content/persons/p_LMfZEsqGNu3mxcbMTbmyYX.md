@@ -4,7 +4,7 @@ id: p_LMfZEsqGNu3mxcbMTbmyYX
 status: active
 merged_into: null
 display_name: 王紹宗
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_spdEsbGZAbh-Tu_HPiX_YE
+        subject_person_id: p_A2EMNbQxoarsXyJ1tgWmwY
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_LMfZEsqGNu3mxcbMTbmyYX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v4PW0QthqCTs1e2yHX_bBd
+          claim_id: c_spdEsbGZAbh-Tu_HPiX_YE
+          source_id: s_UioLG5Z5sijO1S0HDWm0Ui
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 149251 王紹宗）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_UioLG5Z5sijO1S0HDWm0Ui
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玄宗（CBDB 139327）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139327&o=json
+            external_identifier: CBDB:139327
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_A2EMNbQxoarsXyJ1tgWmwY
+        status: active
+        display_name: 王玄宗
+        merged_into_person_id: null
 ---
 
 # 王紹宗
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_A2EMNbQxoarsXyJ1tgWmwY | 王玄宗 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王紹宗（CBDB 149251）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=149251&o=json)
+- [中国历代人物传记资料库：王玄宗（CBDB 139327）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139327&o=json)

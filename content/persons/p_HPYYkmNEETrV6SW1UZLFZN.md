@@ -4,7 +4,7 @@ id: p_HPYYkmNEETrV6SW1UZLFZN
 status: active
 merged_into: null
 display_name: 王次張
-revision: 2
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -166,7 +166,192 @@ relationships:
         status: active
         display_name: 王衣
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_oEA4pI2gSFdFacHVjVhmXX
+        subject_person_id: p_HPYYkmNEETrV6SW1UZLFZN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_E95JkxTpHXKYNeGAK17Hnh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_v4wJ0RD1B53B5LMFtHMRSf
+          claim_id: c_oEA4pI2gSFdFacHVjVhmXX
+          source_id: s_Pig7eSY0JlRhlQ8n056Nz-
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1907）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_Pig7eSY0JlRhlQ8n056Nz-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王延之（CBDB 37229）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37229&o=json
+            external_identifier: CBDB:37229
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_E95JkxTpHXKYNeGAK17Hnh
+        status: active
+        display_name: 王延之
+        merged_into_person_id: null
+    - claim:
+        id: c_ZhTSLm8L0le2f8c4H6bdS2
+        subject_person_id: p_HPYYkmNEETrV6SW1UZLFZN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HDSbm8QwAf1JmzzkJwNqL4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_dxikkFvOAGVpaPOl43jhrt
+          claim_id: c_ZhTSLm8L0le2f8c4H6bdS2
+          source_id: s_1yturjw3EwMlhxpEZOIg4g
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1907）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_1yturjw3EwMlhxpEZOIg4g
+            source_type: api_record
+            title: 中国历代人物传记资料库：王延壽（CBDB 37228）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37228&o=json
+            external_identifier: CBDB:37228
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HDSbm8QwAf1JmzzkJwNqL4
+        status: active
+        display_name: 王延壽
+        merged_into_person_id: null
+    - claim:
+        id: c_dzeI16XxzxKuHmRbGQCwc0
+        subject_person_id: p_HPYYkmNEETrV6SW1UZLFZN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HdmcH8BjjMFEQA7zt2VkuG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_kiYXY6Uo-Py2i5hx7H6her
+          claim_id: c_dzeI16XxzxKuHmRbGQCwc0
+          source_id: s_SQQq3bhOzWmdCNLykWJVTQ
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1907）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_SQQq3bhOzWmdCNLykWJVTQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王延嗣（CBDB 37231）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37231&o=json
+            external_identifier: CBDB:37231
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HdmcH8BjjMFEQA7zt2VkuG
+        status: active
+        display_name: 王延嗣
+        merged_into_person_id: null
+    - claim:
+        id: c_ZGbZGHrtR_3xQH3_XU86_1
+        subject_person_id: p_HPYYkmNEETrV6SW1UZLFZN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_L97FaTacZUx9pipmMAKhKv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_5NZZhEDuMZrc9dk6P_wche
+          claim_id: c_ZGbZGHrtR_3xQH3_XU86_1
+          source_id: s_Xc8HKVyaAAubWXgZspedNR
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1907）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_Xc8HKVyaAAubWXgZspedNR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王富（CBDB 37230）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37230&o=json
+            external_identifier: CBDB:37230
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_L97FaTacZUx9pipmMAKhKv
+        status: active
+        display_name: 王富
+        merged_into_person_id: null
+    - claim:
+        id: c_2UmL6nydfAjxDV339IWBZ1
+        subject_person_id: p_HPYYkmNEETrV6SW1UZLFZN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_i6PsNAL5BGSKvCh41naGSM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_7yFe9l0LX6VFgLK4PTI37j
+          claim_id: c_2UmL6nydfAjxDV339IWBZ1
+          source_id: s_frbkdIZnLDYdqjhBh-zgVQ
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1907）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_frbkdIZnLDYdqjhBh-zgVQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王延年（CBDB 37227）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37227&o=json
+            external_identifier: CBDB:37227
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_i6PsNAL5BGSKvCh41naGSM
+        status: active
+        display_name: 王延年
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,8 +378,18 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_FLQGQnP9Y6pdiGNaaECMWj | 王衣 | accepted |
+| children | p_E95JkxTpHXKYNeGAK17Hnh | 王延之 | accepted |
+| children | p_HDSbm8QwAf1JmzzkJwNqL4 | 王延壽 | accepted |
+| children | p_HdmcH8BjjMFEQA7zt2VkuG | 王延嗣 | accepted |
+| children | p_L97FaTacZUx9pipmMAKhKv | 王富 | accepted |
+| children | p_i6PsNAL5BGSKvCh41naGSM | 王延年 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王次張（CBDB 1907）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1907&o=json)
+- [中国历代人物传记资料库：王富（CBDB 37230）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37230&o=json)
+- [中国历代人物传记资料库：王延年（CBDB 37227）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37227&o=json)
+- [中国历代人物传记资料库：王延壽（CBDB 37228）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37228&o=json)
+- [中国历代人物传记资料库：王延嗣（CBDB 37231）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37231&o=json)
+- [中国历代人物传记资料库：王延之（CBDB 37229）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37229&o=json)
 - [中国历代人物传记资料库：王衣（CBDB 3959）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3959&o=json)

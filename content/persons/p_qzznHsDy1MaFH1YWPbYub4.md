@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王培龄
 cbdb_id: 202447
-revision: 4
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -354,7 +354,81 @@ relationships:
         display_name: 王文
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_HzIGae6YYBbaOrexfHDAzI
+        subject_person_id: p_XsdoaMXkbaKgPk427Juuva
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qzznHsDy1MaFH1YWPbYub4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_f45P9ZMl2XsFvq0doV1srB
+          claim_id: c_HzIGae6YYBbaOrexfHDAzI
+          source_id: s_w12YWO7q00PhyNuAJJ0zzo
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202447 王培齡）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_w12YWO7q00PhyNuAJJ0zzo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王延齡（CBDB 288338）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288338&o=json
+            external_identifier: CBDB:288338
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_XsdoaMXkbaKgPk427Juuva
+        status: active
+        display_name: 王延齡
+        merged_into_person_id: null
+    - claim:
+        id: c_WZ3uxjkapR3b4YcxOesusY
+        subject_person_id: p_dP3bbqg6GCtoDDpAsegVgd
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qzznHsDy1MaFH1YWPbYub4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TYfjbRnWcnCNKxzHTQD0nS
+          claim_id: c_WZ3uxjkapR3b4YcxOesusY
+          source_id: s_hxG5N9gOKsRQW5M27sUZcj
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202447 王培齡）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hxG5N9gOKsRQW5M27sUZcj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王永齡（CBDB 288340）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288340&o=json
+            external_identifier: CBDB:288340
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dP3bbqg6GCtoDDpAsegVgd
+        status: active
+        display_name: 王永齡
+        merged_into_person_id: null
 ---
 
 # 王培龄
@@ -377,12 +451,16 @@ relationships:
 | spouses | p_NoAq9miu6kdHMYDNaGmzDr | 崔氏 | accepted |
 | ancestors | p_FxDnZ7tzsLrvZRviCHaK5y | 王睿 | accepted |
 | ancestors | p_qa4sYo9q4waHmECZyCZ8M3 | 王文 | accepted |
+| other | p_XsdoaMXkbaKgPk427Juuva | 王延齡 | accepted |
+| other | p_dP3bbqg6GCtoDDpAsegVgd | 王永齡 | accepted |
 
 ## 外部来源
 
 - [维基数据：崔氏（Q65812398）](https://www.wikidata.org/wiki/Q65812398)
 - [维基数据：王爵（Q45449767）](https://www.wikidata.org/wiki/Q45449767)
 - [维基数据：王培龄（Q45690317）](https://www.wikidata.org/wiki/Q45690317)
+- [中国历代人物传记资料库：王延齡（CBDB 288338）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288338&o=json)
+- [中国历代人物传记资料库：王永齡（CBDB 288340）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288340&o=json)
 - [CBDB 中国历代人物传记资料库：王爵（288334）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288334&o=json)
 - [CBDB 中国历代人物传记资料库：王培齡（202447）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202447&o=json)
 - [CBDB 中国历代人物传记资料库：王睿（288332）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288332&o=json)

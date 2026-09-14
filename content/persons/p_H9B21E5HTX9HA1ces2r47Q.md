@@ -4,7 +4,7 @@ id: p_H9B21E5HTX9HA1ces2r47Q
 status: active
 merged_into: null
 display_name: 王恩
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_YMAhUZ7PRYcWaiI076VtgR
+        subject_person_id: p_xJckw5M7s3953PwfjKtPgj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_H9B21E5HTX9HA1ces2r47Q
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_--ceHj7Ex4HmJ3862q2Ifp
+          claim_id: c_YMAhUZ7PRYcWaiI076VtgR
+          source_id: s_91bDv5JJC4f_mIa25xYd91
+          stance: supports
+          locator: CBDB：兄弟 王惠（200679）之父／母 王東溪
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王恩 与 王惠 为同胞（CBDB 记「弟」），王惠 之父／母即 王恩 之父／母。
+          source:
+            id: s_91bDv5JJC4f_mIa25xYd91
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恩（CBDB 261345）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261345&o=json
+            external_identifier: CBDB:261345
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xJckw5M7s3953PwfjKtPgj
+        status: active
+        display_name: 王東溪
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_6fygquFtzwFYIdqoqIFYg0
+        subject_person_id: p_H9B21E5HTX9HA1ces2r47Q
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Z5nYxV4Tqg6P2c2jCvDNPx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fhD659ss8ZQhBIX5weOtTh
+          claim_id: c_6fygquFtzwFYIdqoqIFYg0
+          source_id: s_91bDv5JJC4f_mIa25xYd91
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200679 王惠）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_91bDv5JJC4f_mIa25xYd91
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恩（CBDB 261345）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261345&o=json
+            external_identifier: CBDB:261345
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Z5nYxV4Tqg6P2c2jCvDNPx
+        status: active
+        display_name: 王惠
+        merged_into_person_id: null
 ---
 
 # 王恩
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xJckw5M7s3953PwfjKtPgj | 王東溪 | accepted |
+| other | p_Z5nYxV4Tqg6P2c2jCvDNPx | 王惠 | accepted |
 
 ## 外部来源
 

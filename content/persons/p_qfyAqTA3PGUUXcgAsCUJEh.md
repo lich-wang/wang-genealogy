@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王正思
 cbdb_id: 202442
-revision: 3
+revision: 15
 properties:
   - predicate: bio.summary
     recommended:
@@ -520,7 +520,451 @@ relationships:
         display_name: 王衮
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_97mAW4S35Thp3EcdeoTBud
+        subject_person_id: p_1DemQ3cETzf9rm573UCMCc
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qfyAqTA3PGUUXcgAsCUJEh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YvnGwLfiI9TAibFuGHMcym
+          claim_id: c_97mAW4S35Thp3EcdeoTBud
+          source_id: s_ZeYYv1YBVNRY0xw3OX2KJ3
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202442 王正思）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ZeYYv1YBVNRY0xw3OX2KJ3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正憲（CBDB 288244）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288244&o=json
+            external_identifier: CBDB:288244
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1DemQ3cETzf9rm573UCMCc
+        status: active
+        display_name: 王正憲
+        merged_into_person_id: null
+    - claim:
+        id: c_BDCqaA8vHjhaEWYUILLpjN
+        subject_person_id: p_38VuGNMDLRxpmK7VMHQV8o
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qfyAqTA3PGUUXcgAsCUJEh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8l_P7myj1Ql4lzy2vfo6yJ
+          claim_id: c_BDCqaA8vHjhaEWYUILLpjN
+          source_id: s_xy_6UN9nBYZj5s49h4gpZT
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202442 王正思）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_xy_6UN9nBYZj5s49h4gpZT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正恩（CBDB 288238）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288238&o=json
+            external_identifier: CBDB:288238
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_38VuGNMDLRxpmK7VMHQV8o
+        status: active
+        display_name: 王正恩
+        merged_into_person_id: null
+    - claim:
+        id: c_cLDAU6OizxR40f1dP66IQZ
+        subject_person_id: p_3H2pvSwY7BTk2d4U92vGWc
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qfyAqTA3PGUUXcgAsCUJEh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BvAYkTm9iAEhIx55_Jb7Ef
+          claim_id: c_cLDAU6OizxR40f1dP66IQZ
+          source_id: s_m-97zw21Re_VCsLFYMErFd
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202442 王正思）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_m-97zw21Re_VCsLFYMErFd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正惠（CBDB 288245）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288245&o=json
+            external_identifier: CBDB:288245
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3H2pvSwY7BTk2d4U92vGWc
+        status: active
+        display_name: 王正惠
+        merged_into_person_id: null
+    - claim:
+        id: c_ZOYIGTxfMlvDa88orgh2mR
+        subject_person_id: p_DrREsodMXFDmdLaQeKfWTA
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qfyAqTA3PGUUXcgAsCUJEh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_D7U1BuJDfcdjxojUe92WXq
+          claim_id: c_ZOYIGTxfMlvDa88orgh2mR
+          source_id: s_a6AhphJf1tpc8oj6-7piob
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202442 王正思）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_a6AhphJf1tpc8oj6-7piob
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正懋（CBDB 288240）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288240&o=json
+            external_identifier: CBDB:288240
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DrREsodMXFDmdLaQeKfWTA
+        status: active
+        display_name: 王正懋
+        merged_into_person_id: null
+    - claim:
+        id: c_4d9wraKJ5GZM8rX9YyM80_
+        subject_person_id: p_EExA6L61UQPhZmUjRyFxA4
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qfyAqTA3PGUUXcgAsCUJEh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uE4zwoPK0XtUgmuD1TaSax
+          claim_id: c_4d9wraKJ5GZM8rX9YyM80_
+          source_id: s_2vba9S-vJmqF1AUKIfXFSc
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202442 王正思）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_2vba9S-vJmqF1AUKIfXFSc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正志（CBDB 288237）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288237&o=json
+            external_identifier: CBDB:288237
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EExA6L61UQPhZmUjRyFxA4
+        status: active
+        display_name: 王正志
+        merged_into_person_id: null
+    - claim:
+        id: c_1oQ8VIF-0CZfg7Fvz95erV
+        subject_person_id: p_QoPib81xPBfCvkNBtFaDo1
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qfyAqTA3PGUUXcgAsCUJEh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RkvNn4pWiT1DG9guy7TcgS
+          claim_id: c_1oQ8VIF-0CZfg7Fvz95erV
+          source_id: s_0OPTPMCoM0qGz2Jiu4NHld
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202442 王正思）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0OPTPMCoM0qGz2Jiu4NHld
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正感（CBDB 288249）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288249&o=json
+            external_identifier: CBDB:288249
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_QoPib81xPBfCvkNBtFaDo1
+        status: active
+        display_name: 王正感
+        merged_into_person_id: null
+    - claim:
+        id: c_Er2ISpNgvX1RzpsLavpXxG
+        subject_person_id: p_UD9d69cLNkG1VULRmzDMuT
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qfyAqTA3PGUUXcgAsCUJEh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tYty0NA97MR-w0UfxxMgnm
+          claim_id: c_Er2ISpNgvX1RzpsLavpXxG
+          source_id: s_TSMiPLl2ZmZZEXUmAAu1HQ
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202442 王正思）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_TSMiPLl2ZmZZEXUmAAu1HQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正忠（CBDB 288239）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288239&o=json
+            external_identifier: CBDB:288239
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_UD9d69cLNkG1VULRmzDMuT
+        status: active
+        display_name: 王正忠
+        merged_into_person_id: null
+    - claim:
+        id: c_9RfgUyRPhtGwpgyJ9Oz8lj
+        subject_person_id: p_VMfJ7shNckRbZ44L1dBiPG
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qfyAqTA3PGUUXcgAsCUJEh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E5cJ5RtdT7AC6v_L1ftPh3
+          claim_id: c_9RfgUyRPhtGwpgyJ9Oz8lj
+          source_id: s_BJHDNWcZiXiOtia2b8AhFP
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202442 王正思）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_BJHDNWcZiXiOtia2b8AhFP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正心（CBDB 288236）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288236&o=json
+            external_identifier: CBDB:288236
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VMfJ7shNckRbZ44L1dBiPG
+        status: active
+        display_name: 王正心
+        merged_into_person_id: null
+    - claim:
+        id: c_cV_2m4HXaDCLcpv8hRGyyU
+        subject_person_id: p_bgApJpgEHo6suKrC5oUDFS
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qfyAqTA3PGUUXcgAsCUJEh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BSYbQCccJjZAceoKox-AIs
+          claim_id: c_cV_2m4HXaDCLcpv8hRGyyU
+          source_id: s_0dqdOeHpYx5R-Uv3Xm1_K_
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202442 王正思）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0dqdOeHpYx5R-Uv3Xm1_K_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正忞（CBDB 288246）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288246&o=json
+            external_identifier: CBDB:288246
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_bgApJpgEHo6suKrC5oUDFS
+        status: active
+        display_name: 王正忞
+        merged_into_person_id: null
+    - claim:
+        id: c_h8ubhkJekKVDcuvlhbE39i
+        subject_person_id: p_dueMo6SGbbHSQaQsnutfLk
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qfyAqTA3PGUUXcgAsCUJEh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1nVzqTfGOUX9xCW0nlKoJW
+          claim_id: c_h8ubhkJekKVDcuvlhbE39i
+          source_id: s_c3repBhv59qbAl42b8K9_I
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202442 王正思）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_c3repBhv59qbAl42b8K9_I
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正愈（CBDB 288243）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288243&o=json
+            external_identifier: CBDB:288243
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dueMo6SGbbHSQaQsnutfLk
+        status: active
+        display_name: 王正愈
+        merged_into_person_id: null
+    - claim:
+        id: c_w3Q4hRe6NoWrrjxFroEA3X
+        subject_person_id: p_qE4krPbiYsM5UCqBF74cpS
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qfyAqTA3PGUUXcgAsCUJEh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uvsTNKquJPLJ5D-WbjdFFk
+          claim_id: c_w3Q4hRe6NoWrrjxFroEA3X
+          source_id: s_UbpL5YSqc3UASJjmZ7Ti2u
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202442 王正思）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_UbpL5YSqc3UASJjmZ7Ti2u
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正恕（CBDB 288242）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288242&o=json
+            external_identifier: CBDB:288242
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qE4krPbiYsM5UCqBF74cpS
+        status: active
+        display_name: 王正恕
+        merged_into_person_id: null
+    - claim:
+        id: c_bVffYi8MIGNR5zbyvdnZTL
+        subject_person_id: p_qfyAqTA3PGUUXcgAsCUJEh
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_w5aKZ9LJHKfHBfzJKoqr6E
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oP6lTH1ZcOHV2st10OHofZ
+          claim_id: c_bVffYi8MIGNR5zbyvdnZTL
+          source_id: s_VGr4zoEaRDqLNbtlMLs9yO
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202442 王正思）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_VGr4zoEaRDqLNbtlMLs9yO
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正愚（CBDB 288247）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288247&o=json
+            external_identifier: CBDB:288247
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_w5aKZ9LJHKfHBfzJKoqr6E
+        status: active
+        display_name: 王正愚
+        merged_into_person_id: null
 ---
 
 # 王正思
@@ -545,6 +989,18 @@ relationships:
 | ancestors | p_PGJAWHxYxJtx3aVz4EvhUR | 王衮 | accepted |
 | ancestors | p_sgvxiNtEF15kwvGBJ1JQTz | 王天敘 | accepted |
 | ancestors | p_ykr41UEw3NbJSps62ktjHo | 王衮 | accepted |
+| other | p_1DemQ3cETzf9rm573UCMCc | 王正憲 | accepted |
+| other | p_38VuGNMDLRxpmK7VMHQV8o | 王正恩 | accepted |
+| other | p_3H2pvSwY7BTk2d4U92vGWc | 王正惠 | accepted |
+| other | p_DrREsodMXFDmdLaQeKfWTA | 王正懋 | accepted |
+| other | p_EExA6L61UQPhZmUjRyFxA4 | 王正志 | accepted |
+| other | p_QoPib81xPBfCvkNBtFaDo1 | 王正感 | accepted |
+| other | p_UD9d69cLNkG1VULRmzDMuT | 王正忠 | accepted |
+| other | p_VMfJ7shNckRbZ44L1dBiPG | 王正心 | accepted |
+| other | p_bgApJpgEHo6suKrC5oUDFS | 王正忞 | accepted |
+| other | p_dueMo6SGbbHSQaQsnutfLk | 王正愈 | accepted |
+| other | p_qE4krPbiYsM5UCqBF74cpS | 王正恕 | accepted |
+| other | p_w5aKZ9LJHKfHBfzJKoqr6E | 王正愚 | accepted |
 
 ## 外部来源
 
@@ -552,6 +1008,18 @@ relationships:
 - [维基数据：王守礼（Q45444931）](https://www.wikidata.org/wiki/Q45444931)
 - [维基数据：王正思（Q16077354）](https://www.wikidata.org/wiki/Q16077354)
 - [中国历代人物传记资料库：王天敘（CBDB 288231）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288231&o=json)
+- [中国历代人物传记资料库：王正恩（CBDB 288238）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288238&o=json)
+- [中国历代人物传记资料库：王正感（CBDB 288249）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288249&o=json)
+- [中国历代人物传记资料库：王正惠（CBDB 288245）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288245&o=json)
+- [中国历代人物传记资料库：王正懋（CBDB 288240）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288240&o=json)
+- [中国历代人物传记资料库：王正忞（CBDB 288246）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288246&o=json)
+- [中国历代人物传记资料库：王正恕（CBDB 288242）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288242&o=json)
+- [中国历代人物传记资料库：王正憲（CBDB 288244）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288244&o=json)
+- [中国历代人物传记资料库：王正心（CBDB 288236）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288236&o=json)
+- [中国历代人物传记资料库：王正愚（CBDB 288247）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288247&o=json)
+- [中国历代人物传记资料库：王正愈（CBDB 288243）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288243&o=json)
+- [中国历代人物传记资料库：王正志（CBDB 288237）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288237&o=json)
+- [中国历代人物传记资料库：王正忠（CBDB 288239）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288239&o=json)
 - [中文维基百科：王正思](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%AD%A3%E6%80%9D)
 - [CBDB 中国历代人物传记资料库：陳氏（288235）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288235&o=json)
 - [CBDB 中国历代人物传记资料库：王袞（288232）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288232&o=json)

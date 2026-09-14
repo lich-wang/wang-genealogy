@@ -4,7 +4,7 @@ id: p_HRB6JYhQLj6r8mmLxbphsR
 status: active
 merged_into: null
 display_name: 王用章
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -191,7 +191,44 @@ relationships:
         display_name: 王善忠
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_4tRRExTPNbjSge3yp6k68V
+        subject_person_id: p_HRB6JYhQLj6r8mmLxbphsR
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ohgQBp6e9vW9YPaH5kLSaL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DJstf9syRmzv8rD7qldBkZ
+          claim_id: c_4tRRExTPNbjSge3yp6k68V
+          source_id: s_V1wBlldaNrkOI1WSQjGNZa
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126495 王用章）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_V1wBlldaNrkOI1WSQjGNZa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用化（CBDB 333041）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333041&o=json
+            external_identifier: CBDB:333041
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ohgQBp6e9vW9YPaH5kLSaL
+        status: active
+        display_name: 王用化
+        merged_into_person_id: null
 ---
 
 # 王用章
@@ -212,10 +249,12 @@ relationships:
 | parents | p_R5xXVMm2VFc9ZSK17QQRYB | 王綱 | accepted |
 | ancestors | p_431rGKm37v1gY69WsAauGK | 王俊 | accepted |
 | ancestors | p_Wz9m4ecxdF3qNvU7bSo9YM | 王善忠 | accepted |
+| other | p_ohgQBp6e9vW9YPaH5kLSaL | 王用化 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王綱（CBDB 333037）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333037&o=json)
 - [中国历代人物传记资料库：王俊（CBDB 333036）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333036&o=json)
 - [中国历代人物传记资料库：王善忠（CBDB 333035）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333035&o=json)
+- [中国历代人物传记资料库：王用化（CBDB 333041）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333041&o=json)
 - [中国历代人物传记资料库：王用章（CBDB 126495）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126495&o=json)

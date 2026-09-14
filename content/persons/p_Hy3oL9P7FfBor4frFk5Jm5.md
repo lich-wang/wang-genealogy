@@ -4,7 +4,7 @@ id: p_Hy3oL9P7FfBor4frFk5Jm5
 status: active
 merged_into: null
 display_name: 王拱辰
-revision: 2
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -394,6 +394,80 @@ relationships:
         status: active
         display_name: 王正甫
         merged_into_person_id: null
+    - claim:
+        id: c_lIvrpTgI46Nn4-Dbxek-np
+        subject_person_id: p_Hy3oL9P7FfBor4frFk5Jm5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2X5uiSoNDduP2d6apqHzuC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_ev7sTtgDi_Eh1E069nttJr
+          claim_id: c_lIvrpTgI46Nn4-Dbxek-np
+          source_id: s_cMNSum-GO5CgdqNfE8v1Mt
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 12850）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_cMNSum-GO5CgdqNfE8v1Mt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王拱安（CBDB 22236）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22236&o=json
+            external_identifier: CBDB:22236
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2X5uiSoNDduP2d6apqHzuC
+        status: active
+        display_name: 王拱安
+        merged_into_person_id: null
+    - claim:
+        id: c_jMmU6wNMasLu6DH2OgtDLW
+        subject_person_id: p_Hy3oL9P7FfBor4frFk5Jm5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_u62LKUyfEkGuhsTSB7MsDc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_2QTaFmExKElZokF17zBrqB
+          claim_id: c_jMmU6wNMasLu6DH2OgtDLW
+          source_id: s_-GBDigBx0KcHwiWlKIz9_S
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 12850）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_-GBDigBx0KcHwiWlKIz9_S
+            source_type: api_record
+            title: 中国历代人物传记资料库：王拱巳（CBDB 22237）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22237&o=json
+            external_identifier: CBDB:22237
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_u62LKUyfEkGuhsTSB7MsDc
+        status: active
+        display_name: 王拱巳
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -534,6 +608,8 @@ relationships:
 | parents | p_a9s6qMS7fehs4Q1KsCtRbY | 王代恕 | accepted |
 | children | p_2hnAsxvMgKbcJuXTakDDKw | 王端甫 | accepted |
 | children | p_5ZE787qDs7qUr1N75PbFLL | 王正甫 | accepted |
+| children | p_2X5uiSoNDduP2d6apqHzuC | 王拱安 | accepted |
+| children | p_u62LKUyfEkGuhsTSB7MsDc | 王拱巳 | accepted |
 | spouses | p_f323eQKL5YoD7qUUbCDtT7 | 薛氏 | accepted |
 | descendants | p_3Ai1qkYjUBdtWJB4qPpmzV | 王湘 | accepted |
 
@@ -544,6 +620,8 @@ relationships:
 - [维基数据：王拱辰（Q15932959）](https://www.wikidata.org/wiki/Q15932959)
 - [维基数据：王正甫（Q45406236）](https://www.wikidata.org/wiki/Q45406236)
 - [维基数据：薛氏（Q45428395）](https://www.wikidata.org/wiki/Q45428395)
+- [中国历代人物传记资料库：王拱安（CBDB 22236）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22236&o=json)
 - [中国历代人物传记资料库：王拱辰（CBDB 1847）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1847&o=json)
+- [中国历代人物传记资料库：王拱巳（CBDB 22237）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22237&o=json)
 - [中文维基百科：王拱辰](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%8B%B1%E8%BE%B0)
 - [CBDB 中国历代人物传记资料库：王代恕（12850）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12850&o=json)

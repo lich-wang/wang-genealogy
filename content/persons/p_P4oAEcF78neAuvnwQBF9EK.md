@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王文貫
 cbdb_id: 25596
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -118,7 +118,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_f8hK2c41z_zsavaFvuv4vY
+        subject_person_id: p_P4oAEcF78neAuvnwQBF9EK
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xokY4h4MQqvycu91m47z1h
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BDn2WnnnJ7Uv6-9auQrluC
+          claim_id: c_f8hK2c41z_zsavaFvuv4vY
+          source_id: s_cO1NoyEBD23tScjiOpqfIm
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 25596 王文貫）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_cO1NoyEBD23tScjiOpqfIm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王安道（CBDB 38670）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38670&o=json
+            external_identifier: CBDB:38670
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xokY4h4MQqvycu91m47z1h
+        status: active
+        display_name: 王安道
+        merged_into_person_id: null
 ---
 
 # 王文貫
@@ -137,8 +174,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_RA8LBgUDtrLLPDFgrdefPD | 王時敘 | accepted |
+| other | p_xokY4h4MQqvycu91m47z1h | 王安道 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王安道（CBDB 38670）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38670&o=json)
 - [中国历代人物传记资料库：王時敘（CBDB 25588）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25588&o=json)
 - [中国历代人物传记资料库：王文貫（CBDB 25596）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25596&o=json)

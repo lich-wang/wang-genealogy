@@ -4,7 +4,7 @@ id: p_hqiWEXZWa5X9QnwMqYLvir
 status: active
 merged_into: null
 display_name: 王通
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,44 @@ relationships:
         display_name: 王甫
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_TZHFOvdSqQPUTCov97mrkX
+        subject_person_id: p_hqiWEXZWa5X9QnwMqYLvir
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_z6N7vWd7R775SMLRQS7Wdq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YM41XcN_I7ZbJQTrSuoSN7
+          claim_id: c_TZHFOvdSqQPUTCov97mrkX
+          source_id: s_sWHGScjkgoWk1sSsmsH3BF
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204696 王通）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_sWHGScjkgoWk1sSsmsH3BF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文貴（CBDB 322769）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322769&o=json
+            external_identifier: CBDB:322769
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_z6N7vWd7R775SMLRQS7Wdq
+        status: active
+        display_name: 王文貴
+        merged_into_person_id: null
 ---
 
 # 王通
@@ -241,10 +278,12 @@ relationships:
 | parents | p_mfQXgp9oZ7quC2KtJAEAjv | 王順卿 | accepted |
 | ancestors | p_92dJxsE25TGjV3u455Tj1Y | 王志善 | accepted |
 | ancestors | p_FBovsB9N57hRsRrpxfH5Gt | 王甫 | accepted |
+| other | p_z6N7vWd7R775SMLRQS7Wdq | 王文貴 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王甫（CBDB 322764）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322764&o=json)
 - [中国历代人物传记资料库：王順卿（CBDB 322766）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322766&o=json)
 - [中国历代人物传记资料库：王通（CBDB 204696）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204696&o=json)
+- [中国历代人物传记资料库：王文貴（CBDB 322769）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322769&o=json)
 - [中国历代人物传记资料库：王志善（CBDB 322765）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322765&o=json)

@@ -4,7 +4,7 @@ id: p_211MwoLnK9afQPV2TgL5U9
 status: active
 merged_into: null
 display_name: 王衎
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_5Es1p1ac1jRgsDdYk_d-7j
+        subject_person_id: p_b8SGcyTheZi2msHVoNPNmG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_211MwoLnK9afQPV2TgL5U9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q1f--0cawtq6pWe62V8qdx
+          claim_id: c_5Es1p1ac1jRgsDdYk_d-7j
+          source_id: s_C5s8ImF0OzmvN-kLlOFqxF
+          stance: supports
+          locator: CBDB：兄弟 王衜（19419）之父／母 王庭筠
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王衎 与 王衜 为同胞（CBDB 记「弟」），王衜 之父／母即 王衎 之父／母。
+          source:
+            id: s_C5s8ImF0OzmvN-kLlOFqxF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王衎（CBDB 1923）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1923&o=json
+            external_identifier: CBDB:1923
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_b8SGcyTheZi2msHVoNPNmG
+        status: active
+        display_name: 王庭筠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_komm-ukcQRhnC98CQnq_Y6
+        subject_person_id: p_211MwoLnK9afQPV2TgL5U9
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_JR5BeKFHjyY5p6yqfVc1XZ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lwz1u1ctCw7qHcfGWkR8Me
+          claim_id: c_komm-ukcQRhnC98CQnq_Y6
+          source_id: s_C5s8ImF0OzmvN-kLlOFqxF
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 19419 王衜）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_C5s8ImF0OzmvN-kLlOFqxF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王衎（CBDB 1923）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1923&o=json
+            external_identifier: CBDB:1923
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JR5BeKFHjyY5p6yqfVc1XZ
+        status: active
+        display_name: 王衜
+        merged_into_person_id: null
 ---
 
 # 王衎
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_b8SGcyTheZi2msHVoNPNmG | 王庭筠 | accepted |
+| other | p_JR5BeKFHjyY5p6yqfVc1XZ | 王衜 | accepted |
 
 ## 外部来源
 

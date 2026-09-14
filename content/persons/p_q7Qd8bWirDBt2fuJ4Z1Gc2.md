@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王氏
 cbdb_id: 444806
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -215,7 +215,44 @@ relationships:
         merged_into_person_id: null
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_3XTcWF7zg5D7cGSZ_NjJz2
+        subject_person_id: p_SWML8bniWE5duih6zfBZ9o
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_q7Qd8bWirDBt2fuJ4Z1Gc2
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PHAoL6map17gl5wriEGdrM
+          claim_id: c_3XTcWF7zg5D7cGSZ_NjJz2
+          source_id: s_M75g-OqmTHyeY5mJdQGD0j
+          stance: supports
+          locator: CBDB 亲属：妹（KinPerson 444806 王氏(高宗廢后)）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_M75g-OqmTHyeY5mJdQGD0j
+            source_type: api_record
+            title: 中国历代人物传记资料库：王全信（CBDB 444949）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=444949&o=json
+            external_identifier: CBDB:444949
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_SWML8bniWE5duih6zfBZ9o
+        status: active
+        display_name: 王全信
+        merged_into_person_id: null
 ---
 
 # 王氏
@@ -236,8 +273,10 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_pw5PbWZzfQQNgNYXwrhd1t | 王仁祐 | accepted |
 | spouses | p_FX11CB9tTLVt3GMiHYtDmL | 唐高宗 | accepted |
+| other | p_SWML8bniWE5duih6zfBZ9o | 王全信 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王全信（CBDB 444949）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=444949&o=json)
 - [CBDB 中国历代人物传记资料库：王仁祐（378895）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=378895&o=json)
 - [CBDB 中国历代人物传记资料库：王氏（444806）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=444806&o=json)

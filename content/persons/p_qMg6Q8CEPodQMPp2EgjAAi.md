@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王以通
 cbdb_id: 206705
-revision: 4
+revision: 9
 properties:
   - predicate: bio.summary
     recommended:
@@ -237,7 +237,192 @@ relationships:
         display_name: 王茂績
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_rt-TacK-UdvC42TLSTMwki
+        subject_person_id: p_FvNGBpFmFGjg8XdjJiMSuX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qMg6Q8CEPodQMPp2EgjAAi
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9sopCrq_11nFDR0WQUabXX
+          claim_id: c_rt-TacK-UdvC42TLSTMwki
+          source_id: s_Q1_-X_1NHkbIfvpv_vgK8x
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206705 王以通）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Q1_-X_1NHkbIfvpv_vgK8x
+            source_type: api_record
+            title: 中国历代人物传记资料库：王以道（CBDB 221824）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221824&o=json
+            external_identifier: CBDB:221824
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FvNGBpFmFGjg8XdjJiMSuX
+        status: active
+        display_name: 王以道
+        merged_into_person_id: null
+    - claim:
+        id: c_wqEiaO83ZUpYKujNu2X4gy
+        subject_person_id: p_k2Exjy1AEH6WNgAjMikVB8
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qMg6Q8CEPodQMPp2EgjAAi
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_47y7Jc0SqlVgc9V9Jxo2sZ
+          claim_id: c_wqEiaO83ZUpYKujNu2X4gy
+          source_id: s_8xvXJyEitY3j7i24AGZcJI
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206705 王以通）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_8xvXJyEitY3j7i24AGZcJI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王以選（CBDB 221828）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221828&o=json
+            external_identifier: CBDB:221828
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_k2Exjy1AEH6WNgAjMikVB8
+        status: active
+        display_name: 王以選
+        merged_into_person_id: null
+    - claim:
+        id: c_yoUTIi4RQ_9UIU4oxXmgaT
+        subject_person_id: p_m1vwRj9QZiJwCT2gjJ4qtS
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qMg6Q8CEPodQMPp2EgjAAi
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YltmFM6S3yvK_N7yE87gPK
+          claim_id: c_yoUTIi4RQ_9UIU4oxXmgaT
+          source_id: s_psrESDwd6SuDEMWTPwz3F9
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206705 王以通）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_psrESDwd6SuDEMWTPwz3F9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王以述（CBDB 221826）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221826&o=json
+            external_identifier: CBDB:221826
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_m1vwRj9QZiJwCT2gjJ4qtS
+        status: active
+        display_name: 王以述
+        merged_into_person_id: null
+    - claim:
+        id: c_1EV5r6GD8nbf4HMRIBvdGz
+        subject_person_id: p_qMg6Q8CEPodQMPp2EgjAAi
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_w2CrDojLjguoFVya645ZBC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TQCir28W3RiPOi0SVY1p0b
+          claim_id: c_1EV5r6GD8nbf4HMRIBvdGz
+          source_id: s_0QXtJdwz3CV3eYQWgpRMgi
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206705 王以通）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0QXtJdwz3CV3eYQWgpRMgi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王以逸（CBDB 221823）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221823&o=json
+            external_identifier: CBDB:221823
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_w2CrDojLjguoFVya645ZBC
+        status: active
+        display_name: 王以逸
+        merged_into_person_id: null
+    - claim:
+        id: c_NCxCBnX_Hppc5u1f9KAprr
+        subject_person_id: p_qMg6Q8CEPodQMPp2EgjAAi
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xW2aUnUjDzbCx8Aq8j2zFY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_w1QH5MWVFK5-aE6-A1XqWK
+          claim_id: c_NCxCBnX_Hppc5u1f9KAprr
+          source_id: s_-V7k9IemK4uLkY4ksEHwml
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206705 王以通）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_-V7k9IemK4uLkY4ksEHwml
+            source_type: api_record
+            title: 中国历代人物传记资料库：王以週（CBDB 221825）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221825&o=json
+            external_identifier: CBDB:221825
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xW2aUnUjDzbCx8Aq8j2zFY
+        status: active
+        display_name: 王以週
+        merged_into_person_id: null
 ---
 
 # 王以通
@@ -259,10 +444,20 @@ relationships:
 | parents | p_BtPUy8Ayd7XFTp2c4HBHNK | 王榮 | accepted |
 | ancestors | p_JHYkG4D5bDS11ywRtQogJy | 王進宗 | accepted |
 | ancestors | p_prHqmerzCM6YpbMCaZuJpq | 王茂績 | accepted |
+| other | p_FvNGBpFmFGjg8XdjJiMSuX | 王以道 | accepted |
+| other | p_k2Exjy1AEH6WNgAjMikVB8 | 王以選 | accepted |
+| other | p_m1vwRj9QZiJwCT2gjJ4qtS | 王以述 | accepted |
+| other | p_w2CrDojLjguoFVya645ZBC | 王以逸 | accepted |
+| other | p_xW2aUnUjDzbCx8Aq8j2zFY | 王以週 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王進宗（CBDB 221818）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221818&o=json)
 - [中国历代人物传记资料库：王茂績（CBDB 221817）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221817&o=json)
 - [中国历代人物传记资料库：王榮（CBDB 221819）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221819&o=json)
+- [中国历代人物传记资料库：王以道（CBDB 221824）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221824&o=json)
+- [中国历代人物传记资料库：王以述（CBDB 221826）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221826&o=json)
 - [中国历代人物传记资料库：王以通（CBDB 206705）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206705&o=json)
+- [中国历代人物传记资料库：王以選（CBDB 221828）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221828&o=json)
+- [中国历代人物传记资料库：王以逸（CBDB 221823）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221823&o=json)
+- [中国历代人物传记资料库：王以週（CBDB 221825）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221825&o=json)

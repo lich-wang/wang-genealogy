@@ -4,7 +4,7 @@ id: p_VrERyQJSNSaviohGQW1ath
 status: active
 merged_into: null
 display_name: 王錦
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_RywlcEm7V5JnHY60nbU1-_
+        subject_person_id: p_fbcjmX688Gs2kLT5MbYSLr
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VrERyQJSNSaviohGQW1ath
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gyIHnG5bnbpFO6WP7k6Xfk
+          claim_id: c_RywlcEm7V5JnHY60nbU1-_
+          source_id: s_PGIx2bFwM_LJb-H06e7TfS
+          stance: supports
+          locator: CBDB：兄弟 王盧（198449）之父／母 王伯堅
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王錦 与 王盧 为同胞（CBDB 记「兄」），王盧 之父／母即 王錦 之父／母。
+          source:
+            id: s_PGIx2bFwM_LJb-H06e7TfS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王錦（CBDB 273651）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273651&o=json
+            external_identifier: CBDB:273651
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fbcjmX688Gs2kLT5MbYSLr
+        status: active
+        display_name: 王伯堅
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_6deNXBJ2SypA1W-GR1xk88
+        subject_person_id: p_VrERyQJSNSaviohGQW1ath
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_YZgMMK2h5d44s5CGoUpM7o
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_892izHmdfigfYzafCuRGYx
+          claim_id: c_6deNXBJ2SypA1W-GR1xk88
+          source_id: s_PGIx2bFwM_LJb-H06e7TfS
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198449 王盧）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_PGIx2bFwM_LJb-H06e7TfS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王錦（CBDB 273651）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273651&o=json
+            external_identifier: CBDB:273651
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_YZgMMK2h5d44s5CGoUpM7o
+        status: active
+        display_name: 王盧
+        merged_into_person_id: null
 ---
 
 # 王錦
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_fbcjmX688Gs2kLT5MbYSLr | 王伯堅 | accepted |
+| other | p_YZgMMK2h5d44s5CGoUpM7o | 王盧 | accepted |
 
 ## 外部来源
 

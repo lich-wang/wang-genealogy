@@ -4,7 +4,7 @@ id: p_MJ11nWNxmz8EbmbR1EQcQT
 status: active
 merged_into: null
 display_name: 王漸
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_dQza32aNEVEzM2P9zK3Vay
+        subject_person_id: p_UidqakXpG7WU72BqWJwGkC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MJ11nWNxmz8EbmbR1EQcQT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9t1orp5-KfDLndzcfy6hmh
+          claim_id: c_dQza32aNEVEzM2P9zK3Vay
+          source_id: s_hXZMT_GHY7C6dQ4NIQp-BI
+          stance: supports
+          locator: CBDB：兄弟 王治（69158）之父／母 王鎧
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王漸 与 王治 为同胞（CBDB 记「兄」），王治 之父／母即 王漸 之父／母。
+          source:
+            id: s_hXZMT_GHY7C6dQ4NIQp-BI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王漸（CBDB 318703）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318703&o=json
+            external_identifier: CBDB:318703
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_UidqakXpG7WU72BqWJwGkC
+        status: active
+        display_name: 王鎧
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_McwDHLpUEf0ILaxH50s9uH
+        subject_person_id: p_MJ11nWNxmz8EbmbR1EQcQT
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_YMRfqBqGcb2AtmuSSgfQHF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__33W5TrxguIZ8Xohk3rhDS
+          claim_id: c_McwDHLpUEf0ILaxH50s9uH
+          source_id: s_hXZMT_GHY7C6dQ4NIQp-BI
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 69158 王治）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hXZMT_GHY7C6dQ4NIQp-BI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王漸（CBDB 318703）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318703&o=json
+            external_identifier: CBDB:318703
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_YMRfqBqGcb2AtmuSSgfQHF
+        status: active
+        display_name: 王治
+        merged_into_person_id: null
 ---
 
 # 王漸
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_UidqakXpG7WU72BqWJwGkC | 王鎧 | accepted |
+| other | p_YMRfqBqGcb2AtmuSSgfQHF | 王治 | accepted |
 
 ## 外部来源
 

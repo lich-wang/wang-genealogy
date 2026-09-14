@@ -4,7 +4,7 @@ id: p_3voEFztyjE9gBvRFtzzihf
 status: active
 merged_into: null
 display_name: 王柏
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -187,7 +187,81 @@ relationships:
         status: active
         display_name: 王子章
         merged_into_person_id: null
-  other: []
+  other:
+    - claim:
+        id: c_N2kEdRr-_5cM_Ikx3HcnSI
+        subject_person_id: p_3voEFztyjE9gBvRFtzzihf
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kYGpXaLiEitGpz5LcQi99e
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SWgCbI9oo8jbdabi8ewQt6
+          claim_id: c_N2kEdRr-_5cM_Ikx3HcnSI
+          source_id: s_g2UE1xthB45-jk5smV_kNN
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 10706 王柏）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_g2UE1xthB45-jk5smV_kNN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王相（CBDB 10708）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10708&o=json
+            external_identifier: CBDB:10708
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kYGpXaLiEitGpz5LcQi99e
+        status: active
+        display_name: 王相
+        merged_into_person_id: null
+    - claim:
+        id: c_dLOJRPxQbGLrCu5J8A3qMN
+        subject_person_id: p_3voEFztyjE9gBvRFtzzihf
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xJ2AEUyPMTTohuC4wiNdBg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_m0MuamNacGqiQIWYjb-zIB
+          claim_id: c_dLOJRPxQbGLrCu5J8A3qMN
+          source_id: s_oOrmdEhh4v-HNQLCS56hzJ
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 10706 王柏）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_oOrmdEhh4v-HNQLCS56hzJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王桐（CBDB 10707）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10707&o=json
+            external_identifier: CBDB:10707
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xJ2AEUyPMTTohuC4wiNdBg
+        status: active
+        display_name: 王桐
+        merged_into_person_id: null
 ---
 
 # 王柏
@@ -209,7 +283,11 @@ relationships:
 | --- | --- | --- | --- |
 | ancestors | p_UJHNJUefP1hMoQv16JZ99z | 王師愈 | accepted |
 | descendants | p_QDGt3MEV5PfFs8HB9rQeGK | 王子章 | accepted |
+| other | p_kYGpXaLiEitGpz5LcQi99e | 王相 | accepted |
+| other | p_xJ2AEUyPMTTohuC4wiNdBg | 王桐 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王柏（CBDB 10706）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10706&o=json)
+- [中国历代人物传记资料库：王桐（CBDB 10707）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10707&o=json)
+- [中国历代人物传记资料库：王相（CBDB 10708）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10708&o=json)

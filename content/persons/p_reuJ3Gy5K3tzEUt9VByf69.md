@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王理
 cbdb_id: 232113
-revision: 4
+revision: 9
 properties:
   - predicate: bio.summary
     recommended:
@@ -204,6 +204,191 @@ relationships:
         status: active
         display_name: 王经
         merged_into_person_id: null
+    - claim:
+        id: c_m3GUOWnTgd25xmVMz9fIQ0
+        subject_person_id: p_reuJ3Gy5K3tzEUt9VByf69
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5zKA592TVKrv8zepYJBGH3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cWYnqjbxR9-YMtMnfuLrB_
+          claim_id: c_m3GUOWnTgd25xmVMz9fIQ0
+          source_id: s_vVih2t2UQfzaeOQlhqKSLW
+          stance: supports
+          locator: CBDB：兄弟 王经（200712）之父／母 王理
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王紘 与 王经 为同胞（CBDB 记「弟」），王经 之父／母即 王紘 之父／母。
+          source:
+            id: s_vVih2t2UQfzaeOQlhqKSLW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王紘（CBDB 261824）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261824&o=json
+            external_identifier: CBDB:261824
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5zKA592TVKrv8zepYJBGH3
+        status: active
+        display_name: 王紘
+        merged_into_person_id: null
+    - claim:
+        id: c_Pk2bjF-aIAcokESYDjCc5p
+        subject_person_id: p_reuJ3Gy5K3tzEUt9VByf69
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8aHVLxCWUuY4us7itEkDZ6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FZHu4uHi8tiIYurYBFZmlS
+          claim_id: c_Pk2bjF-aIAcokESYDjCc5p
+          source_id: s_oEbLGtHqelH-73ePgaqfyB
+          stance: supports
+          locator: CBDB：兄弟 王经（200712）之父／母 王理
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王緯 与 王经 为同胞（CBDB 记「兄」），王经 之父／母即 王緯 之父／母。
+          source:
+            id: s_oEbLGtHqelH-73ePgaqfyB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王緯（CBDB 261827）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261827&o=json
+            external_identifier: CBDB:261827
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8aHVLxCWUuY4us7itEkDZ6
+        status: active
+        display_name: 王緯
+        merged_into_person_id: null
+    - claim:
+        id: c_gLNwQVnVNDg-Byp-FNPLfI
+        subject_person_id: p_reuJ3Gy5K3tzEUt9VByf69
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JS1G53C1QMjizFBKEct46z
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1G5givqvSQCutFzFqB-kRS
+          claim_id: c_gLNwQVnVNDg-Byp-FNPLfI
+          source_id: s_l2dt9k1hX48LV7LshWqnDZ
+          stance: supports
+          locator: CBDB：兄弟 王经（200712）之父／母 王理
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王樂 与 王经 为同胞（CBDB 记「弟」），王经 之父／母即 王樂 之父／母。
+          source:
+            id: s_l2dt9k1hX48LV7LshWqnDZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王樂（CBDB 261826）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261826&o=json
+            external_identifier: CBDB:261826
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JS1G53C1QMjizFBKEct46z
+        status: active
+        display_name: 王樂
+        merged_into_person_id: null
+    - claim:
+        id: c_58oeSMvF12xOcqSbiQcXsc
+        subject_person_id: p_reuJ3Gy5K3tzEUt9VByf69
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZWzKr6U2RRimwmUHcSSTU5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7C-OAUru9amrSCOKLnTBp_
+          claim_id: c_58oeSMvF12xOcqSbiQcXsc
+          source_id: s_qeb2wts86rhZYu49RdEw-U
+          stance: supports
+          locator: CBDB：兄弟 王经（200712）之父／母 王理
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王維 与 王经 为同胞（CBDB 记「弟」），王经 之父／母即 王維 之父／母。
+          source:
+            id: s_qeb2wts86rhZYu49RdEw-U
+            source_type: api_record
+            title: 中国历代人物传记资料库：王維（CBDB 261822）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261822&o=json
+            external_identifier: CBDB:261822
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZWzKr6U2RRimwmUHcSSTU5
+        status: active
+        display_name: 王維
+        merged_into_person_id: null
+    - claim:
+        id: c_xMgCrBUPqowEL9D7Lz4JVK
+        subject_person_id: p_reuJ3Gy5K3tzEUt9VByf69
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uB1vpTbKYYq2fsLiLVmyxB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kVpZyzo2UiQDkpA98kSSaa
+          claim_id: c_xMgCrBUPqowEL9D7Lz4JVK
+          source_id: s_vJABm17b8yVRr2Z1JT5K6f
+          stance: supports
+          locator: CBDB：兄弟 王经（200712）之父／母 王理
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王綵 与 王经 为同胞（CBDB 记「弟」），王经 之父／母即 王綵 之父／母。
+          source:
+            id: s_vJABm17b8yVRr2Z1JT5K6f
+            source_type: api_record
+            title: 中国历代人物传记资料库：王綵（CBDB 261823）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261823&o=json
+            external_identifier: CBDB:261823
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_uB1vpTbKYYq2fsLiLVmyxB
+        status: active
+        display_name: 王綵
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -281,6 +466,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_GSmwJBLeFLbzGBorXyeZgE | 王可旺 | accepted |
 | children | p_38MrYsNYkPoBeMisQP7Sof | 王经 | accepted |
+| children | p_5zKA592TVKrv8zepYJBGH3 | 王紘 | accepted |
+| children | p_8aHVLxCWUuY4us7itEkDZ6 | 王緯 | accepted |
+| children | p_JS1G53C1QMjizFBKEct46z | 王樂 | accepted |
+| children | p_ZWzKr6U2RRimwmUHcSSTU5 | 王維 | accepted |
+| children | p_uB1vpTbKYYq2fsLiLVmyxB | 王綵 | accepted |
 | descendants | p_netpjn2vvpbP4gRNZK5nnW | 王畿 | accepted |
 | descendants | p_desA1uacXT6D2CosVe2Mmy | 王应吉 | accepted |
 
@@ -289,4 +479,9 @@ relationships:
 - [维基数据：王经（Q45553378）](https://www.wikidata.org/wiki/Q45553378)
 - [维基数据：王可旺（Q45448288）](https://www.wikidata.org/wiki/Q45448288)
 - [维基数据：王理（Q45448352）](https://www.wikidata.org/wiki/Q45448352)
+- [中国历代人物传记资料库：王綵（CBDB 261823）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261823&o=json)
+- [中国历代人物传记资料库：王紘（CBDB 261824）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261824&o=json)
+- [中国历代人物传记资料库：王樂（CBDB 261826）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261826&o=json)
+- [中国历代人物传记资料库：王維（CBDB 261822）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261822&o=json)
+- [中国历代人物传记资料库：王緯（CBDB 261827）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261827&o=json)
 - [CBDB 中国历代人物传记资料库：王理（232113）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232113&o=json)

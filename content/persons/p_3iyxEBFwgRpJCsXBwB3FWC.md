@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王恩民
 cbdb_id: 205656
-revision: 4
+revision: 11
 properties:
   - predicate: bio.summary
     recommended:
@@ -236,7 +236,266 @@ relationships:
         display_name: 王錀
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_vV2AWLbXe9VljMi8CNbxCF
+        subject_person_id: p_21crTBmbnQ3eub1vWBszZY
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_3iyxEBFwgRpJCsXBwB3FWC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QvKMI3-O-tEVZJFCSuh5BF
+          claim_id: c_vV2AWLbXe9VljMi8CNbxCF
+          source_id: s_bXvnpNdUZO7bV5v6HlrKeI
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205656 王恩民）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_bXvnpNdUZO7bV5v6HlrKeI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王愛民（CBDB 336587）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336587&o=json
+            external_identifier: CBDB:336587
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_21crTBmbnQ3eub1vWBszZY
+        status: active
+        display_name: 王愛民
+        merged_into_person_id: null
+    - claim:
+        id: c_a_TqCxS3SfGhDPH2CZgo4W
+        subject_person_id: p_3iyxEBFwgRpJCsXBwB3FWC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_5So77ddT4L6CBhEAEPt9uq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eS1AMq590PpuDX0Qusghak
+          claim_id: c_a_TqCxS3SfGhDPH2CZgo4W
+          source_id: s_mjWipdAC8I9NaLiJ-HcW4c
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205656 王恩民）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_mjWipdAC8I9NaLiJ-HcW4c
+            source_type: api_record
+            title: 中国历代人物传记资料库：王佑民（CBDB 336584）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336584&o=json
+            external_identifier: CBDB:336584
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5So77ddT4L6CBhEAEPt9uq
+        status: active
+        display_name: 王佑民
+        merged_into_person_id: null
+    - claim:
+        id: c_S0X-v1KlIPLcKnSTqpw0Dy
+        subject_person_id: p_3iyxEBFwgRpJCsXBwB3FWC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_C1XmMPpPDBPssN8EgrCHd9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EzD7IrkXVD7np1RfyGkC7j
+          claim_id: c_S0X-v1KlIPLcKnSTqpw0Dy
+          source_id: s_gQ7oTSryekJMcgEVZNrzM5
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205656 王恩民）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_gQ7oTSryekJMcgEVZNrzM5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王治民（CBDB 336586）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336586&o=json
+            external_identifier: CBDB:336586
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_C1XmMPpPDBPssN8EgrCHd9
+        status: active
+        display_name: 王治民
+        merged_into_person_id: null
+    - claim:
+        id: c_388RhocbfJBhA5xiuUSuxP
+        subject_person_id: p_3iyxEBFwgRpJCsXBwB3FWC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Et2f23vzjwkjLTZafX5Vhb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MnhipR_kK_MXp7PUbq2Xfl
+          claim_id: c_388RhocbfJBhA5xiuUSuxP
+          source_id: s_1eedV7tV5O4qRGFkKsQvci
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205656 王恩民）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_1eedV7tV5O4qRGFkKsQvci
+            source_type: api_record
+            title: 中国历代人物传记资料库：王養民（CBDB 336585）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336585&o=json
+            external_identifier: CBDB:336585
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Et2f23vzjwkjLTZafX5Vhb
+        status: active
+        display_name: 王養民
+        merged_into_person_id: null
+    - claim:
+        id: c_JxsneOmepd13LoHUB9xaYJ
+        subject_person_id: p_3iyxEBFwgRpJCsXBwB3FWC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_G7vRwojaJ61PX4ZNyFj6SG
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sVqikXoxVsAvB2fNtVbFmM
+          claim_id: c_JxsneOmepd13LoHUB9xaYJ
+          source_id: s_Q_-memrdUcrlEGUYiuvc6m
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205656 王恩民）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Q_-memrdUcrlEGUYiuvc6m
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正民（CBDB 336589）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336589&o=json
+            external_identifier: CBDB:336589
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_G7vRwojaJ61PX4ZNyFj6SG
+        status: active
+        display_name: 王正民
+        merged_into_person_id: null
+    - claim:
+        id: c_8bcgGGsm1iL_MR4KkInd8k
+        subject_person_id: p_3iyxEBFwgRpJCsXBwB3FWC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_TjXb1UwWVHKDutCc7gfqPV
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rnCp2SfuutW09CEWVI7rk4
+          claim_id: c_8bcgGGsm1iL_MR4KkInd8k
+          source_id: s_4wQ12HzoszXz9sYey6g9GO
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205656 王恩民）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_4wQ12HzoszXz9sYey6g9GO
+            source_type: api_record
+            title: 中国历代人物传记资料库：王安民（CBDB 336583）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336583&o=json
+            external_identifier: CBDB:336583
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_TjXb1UwWVHKDutCc7gfqPV
+        status: active
+        display_name: 王安民
+        merged_into_person_id: null
+    - claim:
+        id: c_NOIXPfnhGmU81Y5Rd582sE
+        subject_person_id: p_3iyxEBFwgRpJCsXBwB3FWC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_eErBnoUA72i9MbXQ6Ltd9h
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_D4NCEfBDlR7DXJeTCS4PZU
+          claim_id: c_NOIXPfnhGmU81Y5Rd582sE
+          source_id: s_1qgdCW8o8zODvP7xlvQXT-
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205656 王恩民）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_1qgdCW8o8zODvP7xlvQXT-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王濟民（CBDB 336590）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336590&o=json
+            external_identifier: CBDB:336590
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_eErBnoUA72i9MbXQ6Ltd9h
+        status: active
+        display_name: 王濟民
+        merged_into_person_id: null
 ---
 
 # 王恩民
@@ -258,10 +517,24 @@ relationships:
 | parents | p_rzdGCJdbAnivH2NuEMbZHX | 王世學 | accepted |
 | ancestors | p_JXKdLRZMZ2YY2MD7Q6D8KL | 王纓 | accepted |
 | ancestors | p_tQBiADTVUbgCwCe4Xfthvg | 王錀 | accepted |
+| other | p_21crTBmbnQ3eub1vWBszZY | 王愛民 | accepted |
+| other | p_5So77ddT4L6CBhEAEPt9uq | 王佑民 | accepted |
+| other | p_C1XmMPpPDBPssN8EgrCHd9 | 王治民 | accepted |
+| other | p_Et2f23vzjwkjLTZafX5Vhb | 王養民 | accepted |
+| other | p_G7vRwojaJ61PX4ZNyFj6SG | 王正民 | accepted |
+| other | p_TjXb1UwWVHKDutCc7gfqPV | 王安民 | accepted |
+| other | p_eErBnoUA72i9MbXQ6Ltd9h | 王濟民 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王愛民（CBDB 336587）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336587&o=json)
+- [中国历代人物传记资料库：王安民（CBDB 336583）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336583&o=json)
 - [中国历代人物传记资料库：王恩民（CBDB 205656）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205656&o=json)
+- [中国历代人物传记资料库：王濟民（CBDB 336590）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336590&o=json)
 - [中国历代人物传记资料库：王錀（CBDB 336578）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336578&o=json)
 - [中国历代人物传记资料库：王世學（CBDB 336580）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336580&o=json)
+- [中国历代人物传记资料库：王養民（CBDB 336585）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336585&o=json)
 - [中国历代人物传记资料库：王纓（CBDB 336579）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336579&o=json)
+- [中国历代人物传记资料库：王佑民（CBDB 336584）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336584&o=json)
+- [中国历代人物传记资料库：王正民（CBDB 336589）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336589&o=json)
+- [中国历代人物传记资料库：王治民（CBDB 336586）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336586&o=json)

@@ -4,7 +4,7 @@ id: p_sha79QPrXDRqUC6cHGUngv
 status: active
 merged_into: null
 display_name: 王鈞
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_rQAoAnwp5KQT4NEv9-P9vx
+        subject_person_id: p_EENMQg8ZujQT1unQPpMBb1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sha79QPrXDRqUC6cHGUngv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rLu0YWkGq5klm57lg6YB13
+          claim_id: c_rQAoAnwp5KQT4NEv9-P9vx
+          source_id: s_-WwlTZNMdn1osjHOPABwTo
+          stance: supports
+          locator: CBDB：兄弟 王鏜（202946）之父／母 王介
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鈞 与 王鏜 为同胞（CBDB 记「弟」），王鏜 之父／母即 王鈞 之父／母。
+          source:
+            id: s_-WwlTZNMdn1osjHOPABwTo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鈞（CBDB 297200）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297200&o=json
+            external_identifier: CBDB:297200
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EENMQg8ZujQT1unQPpMBb1
+        status: active
+        display_name: 王介
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_k1sss2savlkIXE9szOaptz
+        subject_person_id: p_ejkhqRyi6zguVhFhs63Ax7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_sha79QPrXDRqUC6cHGUngv
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tzV9sBbYZv1eKGTCyFho2m
+          claim_id: c_k1sss2savlkIXE9szOaptz
+          source_id: s_-WwlTZNMdn1osjHOPABwTo
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202946 王鏜）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_-WwlTZNMdn1osjHOPABwTo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鈞（CBDB 297200）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297200&o=json
+            external_identifier: CBDB:297200
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ejkhqRyi6zguVhFhs63Ax7
+        status: active
+        display_name: 王鏜
+        merged_into_person_id: null
 ---
 
 # 王鈞
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_EENMQg8ZujQT1unQPpMBb1 | 王介 | accepted |
+| other | p_ejkhqRyi6zguVhFhs63Ax7 | 王鏜 | accepted |
 
 ## 外部来源
 

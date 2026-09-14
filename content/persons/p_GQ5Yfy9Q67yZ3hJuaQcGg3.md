@@ -4,7 +4,7 @@ id: p_GQ5Yfy9Q67yZ3hJuaQcGg3
 status: active
 merged_into: null
 display_name: 王三接
-revision: 4
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -247,7 +247,155 @@ relationships:
         display_name: 王訓
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Vpr1kRiGqOBni2yVGQMWL8
+        subject_person_id: p_F4mEENCe5fqMjF9B3i9Jc5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_GQ5Yfy9Q67yZ3hJuaQcGg3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0mxDo6AH45K_EQfhuh-crI
+          claim_id: c_Vpr1kRiGqOBni2yVGQMWL8
+          source_id: s_vNrnECc7km1ko-slX1INls
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126450 王三接）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_vNrnECc7km1ko-slX1INls
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三重（CBDB 297446）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297446&o=json
+            external_identifier: CBDB:297446
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_F4mEENCe5fqMjF9B3i9Jc5
+        status: active
+        display_name: 王三重
+        merged_into_person_id: null
+    - claim:
+        id: c_03V4cO3in_Gwy3sads4RgW
+        subject_person_id: p_GQ5Yfy9Q67yZ3hJuaQcGg3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Hsu6GW2N5ZuX4ke5idnMuG
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GJjmtn9QLfqfeiuGpisH-t
+          claim_id: c_03V4cO3in_Gwy3sads4RgW
+          source_id: s_KHTK5I1LGrj_VghOQ-G0WU
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126450 王三接）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_KHTK5I1LGrj_VghOQ-G0WU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三顧（CBDB 287530）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287530&o=json
+            external_identifier: CBDB:287530
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Hsu6GW2N5ZuX4ke5idnMuG
+        status: active
+        display_name: 王三顧
+        merged_into_person_id: null
+    - claim:
+        id: c_eRcwSsONIPrsRBZ3eulTs7
+        subject_person_id: p_GQ5Yfy9Q67yZ3hJuaQcGg3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dd6GmTW3dYfUwhtHVftk8d
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_r5t1UgHQOt7Dx_6VXXbwoS
+          claim_id: c_eRcwSsONIPrsRBZ3eulTs7
+          source_id: s_IfgZgNcYG0qp0yAdsxZERG
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126450 王三接）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_IfgZgNcYG0qp0yAdsxZERG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三聘（CBDB 287531）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287531&o=json
+            external_identifier: CBDB:287531
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dd6GmTW3dYfUwhtHVftk8d
+        status: active
+        display_name: 王三聘
+        merged_into_person_id: null
+    - claim:
+        id: c_89IMeMsWx47s8EHuwKB4vJ
+        subject_person_id: p_GQ5Yfy9Q67yZ3hJuaQcGg3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ig2JoQCfVj1gy83tSkXmVm
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bp6hIEyjfuvde29yRGEy-j
+          claim_id: c_89IMeMsWx47s8EHuwKB4vJ
+          source_id: s_YqLIpDIK5YqWhH90iKi3uD
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126450 王三接）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_YqLIpDIK5YqWhH90iKi3uD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王任用（CBDB 287527）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287527&o=json
+            external_identifier: CBDB:287527
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ig2JoQCfVj1gy83tSkXmVm
+        status: active
+        display_name: 王任用
+        merged_into_person_id: null
 ---
 
 # 王三接
@@ -270,10 +418,18 @@ relationships:
 | parents | p_VmxMBQPfyxUr32ATQz1Ta9 | 王時暘 | accepted |
 | ancestors | p_7DDdFFCB5CtuqJpi5fHXjA | 王恢 | accepted |
 | ancestors | p_EceEHftq1dAuWXPD2WaHe8 | 王訓 | accepted |
+| other | p_F4mEENCe5fqMjF9B3i9Jc5 | 王三重 | accepted |
+| other | p_Hsu6GW2N5ZuX4ke5idnMuG | 王三顧 | accepted |
+| other | p_dd6GmTW3dYfUwhtHVftk8d | 王三聘 | accepted |
+| other | p_ig2JoQCfVj1gy83tSkXmVm | 王任用 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王恢（CBDB 287523）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287523&o=json)
+- [中国历代人物传记资料库：王任用（CBDB 287527）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287527&o=json)
+- [中国历代人物传记资料库：王三顧（CBDB 287530）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287530&o=json)
 - [中国历代人物传记资料库：王三接（CBDB 126450）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126450&o=json)
+- [中国历代人物传记资料库：王三聘（CBDB 287531）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287531&o=json)
+- [中国历代人物传记资料库：王三重（CBDB 297446）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297446&o=json)
 - [中国历代人物传记资料库：王時暘（CBDB 287524）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287524&o=json)
 - [中国历代人物传记资料库：王訓（CBDB 287522）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287522&o=json)

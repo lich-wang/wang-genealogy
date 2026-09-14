@@ -4,7 +4,7 @@ id: p_chSBQQ7ZATo3cFML7RosLG
 status: active
 merged_into: null
 display_name: 王佐
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_WT97IUJYMNezNM2ym-UzBD
+        subject_person_id: p_pY4bR9vVd19RvXkc3AZrMW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_chSBQQ7ZATo3cFML7RosLG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CI74bQSyAWKRf02a1lu6eR
+          claim_id: c_WT97IUJYMNezNM2ym-UzBD
+          source_id: s_YaOIBIPnFSSZFn8AYrSVQG
+          stance: supports
+          locator: CBDB：兄弟 王偡（204670）之父／母 王彥禎
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王佐 与 王偡 为同胞（CBDB 记「兄」），王偡 之父／母即 王佐 之父／母。
+          source:
+            id: s_YaOIBIPnFSSZFn8AYrSVQG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王佐（CBDB 322381）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322381&o=json
+            external_identifier: CBDB:322381
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_pY4bR9vVd19RvXkc3AZrMW
+        status: active
+        display_name: 王彥禎
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_OzIOsPvx-rL_MRKCHbwL9U
+        subject_person_id: p_Lt4MQ464DWHGJk9hxD73Kf
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_chSBQQ7ZATo3cFML7RosLG
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iCdekaPCZCrla3hKdwsiSV
+          claim_id: c_OzIOsPvx-rL_MRKCHbwL9U
+          source_id: s_YaOIBIPnFSSZFn8AYrSVQG
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204670 王偡）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_YaOIBIPnFSSZFn8AYrSVQG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王佐（CBDB 322381）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322381&o=json
+            external_identifier: CBDB:322381
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Lt4MQ464DWHGJk9hxD73Kf
+        status: active
+        display_name: 王偡
+        merged_into_person_id: null
 ---
 
 # 王佐
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_pY4bR9vVd19RvXkc3AZrMW | 王彥禎 | accepted |
+| other | p_Lt4MQ464DWHGJk9hxD73Kf | 王偡 | accepted |
 
 ## 外部来源
 

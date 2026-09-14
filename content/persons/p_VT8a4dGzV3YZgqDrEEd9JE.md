@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王應官
 cbdb_id: 219867
-revision: 2
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -114,6 +114,117 @@ relationships:
         status: active
         display_name: 王鑰
         merged_into_person_id: null
+    - claim:
+        id: c_tHdSUGNi9e2yesJ6HD3q9s
+        subject_person_id: p_VT8a4dGzV3YZgqDrEEd9JE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JbPyp7b1PmaBZmpNQmvd6D
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Py5xxXVYGVl1Wvg3gOsiV0
+          claim_id: c_tHdSUGNi9e2yesJ6HD3q9s
+          source_id: s_8vNxBlPle26ARVDz1i4SXg
+          stance: supports
+          locator: CBDB：兄弟 王鑰（206568）之父／母 王應官
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鈍 与 王鑰 为同胞（CBDB 记「弟」），王鑰 之父／母即 王鈍 之父／母。
+          source:
+            id: s_8vNxBlPle26ARVDz1i4SXg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鈍（CBDB 219873）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219873&o=json
+            external_identifier: CBDB:219873
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JbPyp7b1PmaBZmpNQmvd6D
+        status: active
+        display_name: 王鈍
+        merged_into_person_id: null
+    - claim:
+        id: c_kK9e2zvEAxEZ7k4cBE9h1E
+        subject_person_id: p_VT8a4dGzV3YZgqDrEEd9JE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_arWg97Pk8q4gsFhEmPc2dz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Z-8UCQZZ1NBXr3UtTfHxzY
+          claim_id: c_kK9e2zvEAxEZ7k4cBE9h1E
+          source_id: s_ioj6FfRq9_kE0lrwCysqpd
+          stance: supports
+          locator: CBDB：兄弟 王鑰（206568）之父／母 王應官
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鏞 与 王鑰 为同胞（CBDB 记「兄」），王鑰 之父／母即 王鏞 之父／母。
+          source:
+            id: s_ioj6FfRq9_kE0lrwCysqpd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鏞（CBDB 219874）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219874&o=json
+            external_identifier: CBDB:219874
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_arWg97Pk8q4gsFhEmPc2dz
+        status: active
+        display_name: 王鏞
+        merged_into_person_id: null
+    - claim:
+        id: c_07SYb6z5_0KpUstXrriIS1
+        subject_person_id: p_VT8a4dGzV3YZgqDrEEd9JE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oCasV61or1PP2X4aeTPyPB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0tYVOEJgxcja1YCQhWs7f2
+          claim_id: c_07SYb6z5_0KpUstXrriIS1
+          source_id: s_5HFqI1kJAOT5W8XfdEDu4-
+          stance: supports
+          locator: CBDB：兄弟 王鑰（206568）之父／母 王應官
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鑛 与 王鑰 为同胞（CBDB 记「弟」），王鑰 之父／母即 王鑛 之父／母。
+          source:
+            id: s_5HFqI1kJAOT5W8XfdEDu4-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鑛（CBDB 219872）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219872&o=json
+            external_identifier: CBDB:219872
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oCasV61or1PP2X4aeTPyPB
+        status: active
+        display_name: 王鑛
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -138,7 +249,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_Hq41nXPS6acQQdhAZabmC1 | 王鑰 | accepted |
+| children | p_JbPyp7b1PmaBZmpNQmvd6D | 王鈍 | accepted |
+| children | p_arWg97Pk8q4gsFhEmPc2dz | 王鏞 | accepted |
+| children | p_oCasV61or1PP2X4aeTPyPB | 王鑛 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鈍（CBDB 219873）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219873&o=json)
+- [中国历代人物传记资料库：王鑛（CBDB 219872）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219872&o=json)
 - [中国历代人物传记资料库：王應官（CBDB 219867）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219867&o=json)
+- [中国历代人物传记资料库：王鏞（CBDB 219874）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219874&o=json)

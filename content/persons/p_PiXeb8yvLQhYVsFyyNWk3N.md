@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王獻言
 cbdb_id: 312070
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_pDpp7Hf4Da2D8Dh-lbZIuq
+        subject_person_id: p_gGjZBHoDDbj9pFHekYZYqw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PiXeb8yvLQhYVsFyyNWk3N
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AytnTkvrIJL-_NF1HkOiCp
+          claim_id: c_pDpp7Hf4Da2D8Dh-lbZIuq
+          source_id: s_S30K0VoSPed0jxv7uoWm8g
+          stance: supports
+          locator: CBDB：兄弟 王獻圖（203927）之父／母 王灌
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王獻言 与 王獻圖 为同胞（CBDB 记「兄」），王獻圖 之父／母即 王獻言 之父／母。
+          source:
+            id: s_S30K0VoSPed0jxv7uoWm8g
+            source_type: api_record
+            title: 中国历代人物传记资料库：王獻言（CBDB 312070）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312070&o=json
+            external_identifier: CBDB:312070
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_gGjZBHoDDbj9pFHekYZYqw
+        status: active
+        display_name: 王灌
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_kyzUTkj8dGRFGIQqpdLI9u
+        subject_person_id: p_PiXeb8yvLQhYVsFyyNWk3N
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qCF2nAdW3AwQM2sNjTW55F
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UclxswhD86fhHad-yzUPk5
+          claim_id: c_kyzUTkj8dGRFGIQqpdLI9u
+          source_id: s_S30K0VoSPed0jxv7uoWm8g
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203927 王獻圖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_S30K0VoSPed0jxv7uoWm8g
+            source_type: api_record
+            title: 中国历代人物传记资料库：王獻言（CBDB 312070）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312070&o=json
+            external_identifier: CBDB:312070
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qCF2nAdW3AwQM2sNjTW55F
+        status: active
+        display_name: 王獻圖
+        merged_into_person_id: null
 ---
 
 # 王獻言
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_gGjZBHoDDbj9pFHekYZYqw | 王灌 | accepted |
+| other | p_qCF2nAdW3AwQM2sNjTW55F | 王獻圖 | accepted |
 
 ## 外部来源
 

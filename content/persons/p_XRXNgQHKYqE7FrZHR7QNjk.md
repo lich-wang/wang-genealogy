@@ -4,7 +4,7 @@ id: p_XRXNgQHKYqE7FrZHR7QNjk
 status: active
 merged_into: null
 display_name: 王素
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Ps0kauePMz2fI2hIhLKrzl
+        subject_person_id: p_7JLmg2prJ3YdMcEXWFLKXR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XRXNgQHKYqE7FrZHR7QNjk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ki72gEWK0NIxV8LPbJSJ-V
+          claim_id: c_Ps0kauePMz2fI2hIhLKrzl
+          source_id: s_9tPZ9qh8atQo_Y8VxK8EAa
+          stance: supports
+          locator: CBDB：兄弟 王京（199375）之父／母 王學古
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王素 与 王京 为同胞（CBDB 记「兄」），王京 之父／母即 王素 之父／母。
+          source:
+            id: s_9tPZ9qh8atQo_Y8VxK8EAa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王素（CBDB 244153）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244153&o=json
+            external_identifier: CBDB:244153
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7JLmg2prJ3YdMcEXWFLKXR
+        status: active
+        display_name: 王學古
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_XTjG3pvypqmRZAbCWSwdXt
+        subject_person_id: p_BENHjYLLrgUUA56P1EQsxJ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_XRXNgQHKYqE7FrZHR7QNjk
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3fj7_xZXB2T-TZoCikAWLl
+          claim_id: c_XTjG3pvypqmRZAbCWSwdXt
+          source_id: s_9tPZ9qh8atQo_Y8VxK8EAa
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199375 王京）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_9tPZ9qh8atQo_Y8VxK8EAa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王素（CBDB 244153）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244153&o=json
+            external_identifier: CBDB:244153
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BENHjYLLrgUUA56P1EQsxJ
+        status: active
+        display_name: 王京
+        merged_into_person_id: null
 ---
 
 # 王素
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_7JLmg2prJ3YdMcEXWFLKXR | 王學古 | accepted |
+| other | p_BENHjYLLrgUUA56P1EQsxJ | 王京 | accepted |
 
 ## 外部来源
 

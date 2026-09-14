@@ -4,7 +4,7 @@ id: p_bGr6oW3hdV82DMLPiZb28N
 status: active
 merged_into: null
 display_name: 王泮
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -190,7 +190,44 @@ relationships:
         display_name: 王紘
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_-kw-KjTy9305fQBTrXpm6I
+        subject_person_id: p_bGr6oW3hdV82DMLPiZb28N
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hwzFAo7QZH1KXSNzLqx1YA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kbkcrZC8ULP-DhXL0OoZe2
+          claim_id: c_-kw-KjTy9305fQBTrXpm6I
+          source_id: s_wO3kaUHy1JvvMie4RvnmFU
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126558 王泮）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_wO3kaUHy1JvvMie4RvnmFU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王濂（CBDB 212336）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212336&o=json
+            external_identifier: CBDB:212336
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hwzFAo7QZH1KXSNzLqx1YA
+        status: active
+        display_name: 王濂
+        merged_into_person_id: null
 ---
 
 # 王泮
@@ -211,10 +248,12 @@ relationships:
 | parents | p_z7zpRiYAbENy5LiaTwhRAf | 王鈺 | accepted |
 | ancestors | p_6hiT1HdHwzixNQonUDqon8 | 王璠 | accepted |
 | ancestors | p_bKAyB5SbVkNFAeN84J6eYM | 王紘 | accepted |
+| other | p_hwzFAo7QZH1KXSNzLqx1YA | 王濂 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王璠（CBDB 212332）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212332&o=json)
 - [中国历代人物传记资料库：王紘（CBDB 212331）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212331&o=json)
+- [中国历代人物传记资料库：王濂（CBDB 212336）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212336&o=json)
 - [中国历代人物传记资料库：王泮（CBDB 126558）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126558&o=json)
 - [中国历代人物传记资料库：王鈺（CBDB 212333）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212333&o=json)

@@ -4,7 +4,7 @@ id: p_e5F6ZXgwakteVNNR2yz2R9
 status: active
 merged_into: null
 display_name: 王楷
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_8IsZW6AKpqBfsHLRSgoi9O
+        subject_person_id: p_V9h4wx8CnYiE9kuhcigTsZ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_e5F6ZXgwakteVNNR2yz2R9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eb7MN1oPlv-NpSKhdOkAR6
+          claim_id: c_8IsZW6AKpqBfsHLRSgoi9O
+          source_id: s_DcIix8HS4MUWx5fwi_vKG_
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206070 王橋）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_DcIix8HS4MUWx5fwi_vKG_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王楷（CBDB 212938）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212938&o=json
+            external_identifier: CBDB:212938
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_V9h4wx8CnYiE9kuhcigTsZ
+        status: active
+        display_name: 王橋
+        merged_into_person_id: null
 ---
 
 # 王楷
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_V9h4wx8CnYiE9kuhcigTsZ | 王橋 | accepted |
 
 ## 外部来源
 

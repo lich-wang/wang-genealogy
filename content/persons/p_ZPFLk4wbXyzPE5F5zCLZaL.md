@@ -4,7 +4,7 @@ id: p_ZPFLk4wbXyzPE5F5zCLZaL
 status: active
 merged_into: null
 display_name: 王綱
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,43 @@ relationships:
         status: active
         display_name: 王宗會
         merged_into_person_id: null
+    - claim:
+        id: c_cutzJ986FnBvWGkPxC9nKl
+        subject_person_id: p_ZPFLk4wbXyzPE5F5zCLZaL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FmSPeEyjDRjc4JnpqkPJyt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4Nq-cwbq3LO38w7xF8TmPh
+          claim_id: c_cutzJ986FnBvWGkPxC9nKl
+          source_id: s_uJfNEVh5TCw_7hAxZdvHuK
+          stance: supports
+          locator: CBDB：兄弟 王宗會（204306）之父／母 王綱
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王宗獻 与 王宗會 为同胞（CBDB 记「兄」），王宗會 之父／母即 王宗獻 之父／母。
+          source:
+            id: s_uJfNEVh5TCw_7hAxZdvHuK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗獻（CBDB 317282）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317282&o=json
+            external_identifier: CBDB:317282
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FmSPeEyjDRjc4JnpqkPJyt
+        status: active
+        display_name: 王宗獻
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_Lurfy4QMHhzD8PMMpjSfCa | 王宗會 | accepted |
+| children | p_FmSPeEyjDRjc4JnpqkPJyt | 王宗獻 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王綱（CBDB 317279）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317279&o=json)
+- [中国历代人物传记资料库：王宗獻（CBDB 317282）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317282&o=json)

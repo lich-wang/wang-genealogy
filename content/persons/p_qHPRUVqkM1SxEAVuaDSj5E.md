@@ -4,7 +4,7 @@ id: p_qHPRUVqkM1SxEAVuaDSj5E
 status: active
 merged_into: null
 display_name: 王榛
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_roePvbd-wDoS42wnq_MLtd
+        subject_person_id: p_V9h4wx8CnYiE9kuhcigTsZ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qHPRUVqkM1SxEAVuaDSj5E
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KAxzRUBgG5MVCux4SUZd0a
+          claim_id: c_roePvbd-wDoS42wnq_MLtd
+          source_id: s_Iuo4Tamw590odAy_JXR0Tn
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206070 王橋）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Iuo4Tamw590odAy_JXR0Tn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王榛（CBDB 212935）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212935&o=json
+            external_identifier: CBDB:212935
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_V9h4wx8CnYiE9kuhcigTsZ
+        status: active
+        display_name: 王橋
+        merged_into_person_id: null
 ---
 
 # 王榛
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_V9h4wx8CnYiE9kuhcigTsZ | 王橋 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_fTTzxHqWY2cgpXDKBo2Hbb
 status: active
 merged_into: null
 display_name: 王思賢
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_-TKvb92tDuVQjXbA4ALjGr
+        subject_person_id: p_MZb3xwrJh2KS7jR6a3sirM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fTTzxHqWY2cgpXDKBo2Hbb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YZ2EWPcp-zhmN_siPYup2d
+          claim_id: c_-TKvb92tDuVQjXbA4ALjGr
+          source_id: s_eY9tZDgYIobF8UsN-Tf2UR
+          stance: supports
+          locator: CBDB：兄弟 王立賢（207055）之父／母 王佐
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王思賢 与 王立賢 为同胞（CBDB 记「兄」），王立賢 之父／母即 王思賢 之父／母。
+          source:
+            id: s_eY9tZDgYIobF8UsN-Tf2UR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王思賢（CBDB 226930）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226930&o=json
+            external_identifier: CBDB:226930
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MZb3xwrJh2KS7jR6a3sirM
+        status: active
+        display_name: 王佐
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_FhN_oDl5neOScrZErnx7nP
+        subject_person_id: p_NGHFT8W3h8WaBq7fkVhjck
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fTTzxHqWY2cgpXDKBo2Hbb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_erJDkC6VaigJbaRteQsZzC
+          claim_id: c_FhN_oDl5neOScrZErnx7nP
+          source_id: s_eY9tZDgYIobF8UsN-Tf2UR
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207055 王立賢）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_eY9tZDgYIobF8UsN-Tf2UR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王思賢（CBDB 226930）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226930&o=json
+            external_identifier: CBDB:226930
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NGHFT8W3h8WaBq7fkVhjck
+        status: active
+        display_name: 王立賢
+        merged_into_person_id: null
 ---
 
 # 王思賢
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_MZb3xwrJh2KS7jR6a3sirM | 王佐 | accepted |
+| other | p_NGHFT8W3h8WaBq7fkVhjck | 王立賢 | accepted |
 
 ## 外部来源
 

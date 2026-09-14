@@ -4,7 +4,7 @@ id: p_9HDvakpcay3o3koSS4dhyb
 status: active
 merged_into: null
 display_name: 王鸞
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,80 @@ relationships:
         status: active
         display_name: 王錫命
         merged_into_person_id: null
+    - claim:
+        id: c_tokJ3LEAcFm91c1VhkxBze
+        subject_person_id: p_9HDvakpcay3o3koSS4dhyb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QbwkeygjdwJ8hLKfKp7CMy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_l12ttaf3n0M3ErncocOh9z
+          claim_id: c_tokJ3LEAcFm91c1VhkxBze
+          source_id: s_Nhc0Zh34yW5YCO1qvdHZZy
+          stance: supports
+          locator: CBDB：兄弟 王錫命（204975）之父／母 王鸞
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鱗 与 王錫命 为同胞（CBDB 记「兄」），王錫命 之父／母即 王鱗 之父／母。
+          source:
+            id: s_Nhc0Zh34yW5YCO1qvdHZZy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鱗（CBDB 326704）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326704&o=json
+            external_identifier: CBDB:326704
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_QbwkeygjdwJ8hLKfKp7CMy
+        status: active
+        display_name: 王鱗
+        merged_into_person_id: null
+    - claim:
+        id: c_lNLCMX7FHeUM9ORTUj7jUy
+        subject_person_id: p_9HDvakpcay3o3koSS4dhyb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZhxuK1rM9Em6JrY6GtfwJz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yZ2qXM6un1S1FAm6BfHh-6
+          claim_id: c_lNLCMX7FHeUM9ORTUj7jUy
+          source_id: s_nYoJnqnqzVrBcYcuqg42gR
+          stance: supports
+          locator: CBDB：兄弟 王錫命（204975）之父／母 王鸞
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鯉 与 王錫命 为同胞（CBDB 记「兄」），王錫命 之父／母即 王鯉 之父／母。
+          source:
+            id: s_nYoJnqnqzVrBcYcuqg42gR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鯉（CBDB 326703）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326703&o=json
+            external_identifier: CBDB:326703
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZhxuK1rM9Em6JrY6GtfwJz
+        status: active
+        display_name: 王鯉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +209,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_4A5DBME64j8hrumwV1y25Y | 王錫命 | accepted |
+| children | p_QbwkeygjdwJ8hLKfKp7CMy | 王鱗 | accepted |
+| children | p_ZhxuK1rM9Em6JrY6GtfwJz | 王鯉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鯉（CBDB 326703）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326703&o=json)
+- [中国历代人物传记资料库：王鱗（CBDB 326704）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326704&o=json)
 - [中国历代人物传记资料库：王鸞（CBDB 326700）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326700&o=json)
 - [中国历代人物传记资料库：王錫命（CBDB 204975）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204975&o=json)

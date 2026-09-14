@@ -4,7 +4,7 @@ id: p_hMbDUQB1GaYNgCJcxGcWWL
 status: active
 merged_into: null
 display_name: 王璜
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,81 @@ relationships:
         display_name: 王士弘
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_HdIRRyEOAGlXdGqtU-3SFu
+        subject_person_id: p_fkF8hzVLW2Qoy8U6zqLToC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hMbDUQB1GaYNgCJcxGcWWL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_T-bqa67P2SZDkX_ZmvDKYe
+          claim_id: c_HdIRRyEOAGlXdGqtU-3SFu
+          source_id: s_jKjUNCED_eZS4YaAfpizqP
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202374 王璜）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_jKjUNCED_eZS4YaAfpizqP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璽（CBDB 287105）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287105&o=json
+            external_identifier: CBDB:287105
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fkF8hzVLW2Qoy8U6zqLToC
+        status: active
+        display_name: 王璽
+        merged_into_person_id: null
+    - claim:
+        id: c_cftA8L0p7sSolwt97mpP-I
+        subject_person_id: p_hMbDUQB1GaYNgCJcxGcWWL
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_r4wkj54F3BUe6EMK2HsfCh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fdLPAH4sTsTpQAr9W-rqXt
+          claim_id: c_cftA8L0p7sSolwt97mpP-I
+          source_id: s_NZvE1QBUdS7UE4zOlN--rx
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202374 王璜）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_NZvE1QBUdS7UE4zOlN--rx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璵（CBDB 287106）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287106&o=json
+            external_identifier: CBDB:287106
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_r4wkj54F3BUe6EMK2HsfCh
+        status: active
+        display_name: 王璵
+        merged_into_person_id: null
 ---
 
 # 王璜
@@ -245,8 +319,12 @@ relationships:
 | spouses | p_MwfGwStFv7RoR2AUiUf2MV | 劉氏 | accepted |
 | ancestors | p_nojPrrKJqFqJjyBvH6ZAkR | 王仲友 | accepted |
 | ancestors | p_Kv3jzAUBZdwG1dvrCMQthg | 王士弘 | accepted |
+| other | p_fkF8hzVLW2Qoy8U6zqLToC | 王璽 | accepted |
+| other | p_r4wkj54F3BUe6EMK2HsfCh | 王璵 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：劉氏(王璜妻)（CBDB 287104）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287104&o=json)
 - [中国历代人物传记资料库：王璜（CBDB 202374）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202374&o=json)
+- [中国历代人物传记资料库：王璽（CBDB 287105）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287105&o=json)
+- [中国历代人物传记资料库：王璵（CBDB 287106）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287106&o=json)

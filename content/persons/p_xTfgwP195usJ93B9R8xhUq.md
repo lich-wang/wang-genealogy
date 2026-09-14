@@ -4,7 +4,7 @@ id: p_xTfgwP195usJ93B9R8xhUq
 status: active
 merged_into: null
 display_name: 王補
-revision: 1
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,199 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_B67gAIE_MvJjye8nKo2yad
+        subject_person_id: p_DNgcd12SMQT8sYhCTYL1PG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xTfgwP195usJ93B9R8xhUq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_47Gi1l1JVHZrzDAW1sOhUh
+          claim_id: c_B67gAIE_MvJjye8nKo2yad
+          source_id: s_9UyeB-LrJ9vGwf2Y1yAJex
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 10725）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_9UyeB-LrJ9vGwf2Y1yAJex
+            source_type: api_record
+            title: 中国历代人物传记资料库：王補（CBDB 28107）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28107&o=json
+            external_identifier: CBDB:28107
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DNgcd12SMQT8sYhCTYL1PG
+        status: active
+        display_name: 王祎
+        merged_into_person_id: null
+    - claim:
+        id: c_Je7jQ_8jNtR33x26mtximx
+        subject_person_id: p_mgxHev7zFTwcmkSJE7CaXn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xTfgwP195usJ93B9R8xhUq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WRZU2wMqr9Zeamy_EaEHao
+          claim_id: c_Je7jQ_8jNtR33x26mtximx
+          source_id: s_9UyeB-LrJ9vGwf2Y1yAJex
+          stance: supports
+          locator: CBDB：兄弟 王褘（10726）之父／母 王良玉
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王補 与 王褘 为同胞（CBDB 记「兄」），王褘 之父／母即 王補 之父／母。
+          source:
+            id: s_9UyeB-LrJ9vGwf2Y1yAJex
+            source_type: api_record
+            title: 中国历代人物传记资料库：王補（CBDB 28107）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28107&o=json
+            external_identifier: CBDB:28107
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mgxHev7zFTwcmkSJE7CaXn
+        status: active
+        display_name: 王良玉
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_m05rH4SVu_69zBilWCQ3Z5
+        subject_person_id: p_NxhVtsQFEKS3B7HARgTqxM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xTfgwP195usJ93B9R8xhUq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_I6QRvFMBk5mKJp1nQRV8dQ
+          claim_id: c_m05rH4SVu_69zBilWCQ3Z5
+          source_id: s_9UyeB-LrJ9vGwf2Y1yAJex
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 10726 王褘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_9UyeB-LrJ9vGwf2Y1yAJex
+            source_type: api_record
+            title: 中国历代人物传记资料库：王補（CBDB 28107）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28107&o=json
+            external_identifier: CBDB:28107
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NxhVtsQFEKS3B7HARgTqxM
+        status: active
+        display_name: 王褘
+        merged_into_person_id: null
+    - claim:
+        id: c_JMTppmB_H5-n2opuMG0R7U
+        subject_person_id: p_GcKEHNN7xDuFEv8TuQJdGM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xTfgwP195usJ93B9R8xhUq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5MeAYS2OiyZBAJIsf6XtCz
+          claim_id: c_JMTppmB_H5-n2opuMG0R7U
+          source_id: s_9UyeB-LrJ9vGwf2Y1yAJex
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 28106 王裕）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_9UyeB-LrJ9vGwf2Y1yAJex
+            source_type: api_record
+            title: 中国历代人物传记资料库：王補（CBDB 28107）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28107&o=json
+            external_identifier: CBDB:28107
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GcKEHNN7xDuFEv8TuQJdGM
+        status: active
+        display_name: 王裕
+        merged_into_person_id: null
+    - claim:
+        id: c_lbGEOD_pZ_A5ltb02HrmvA
+        subject_person_id: p_pv2LvWNq1p1mi8bH9JeT5s
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xTfgwP195usJ93B9R8xhUq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3UT2Icuy_qdr_lIUtWqMhY
+          claim_id: c_lbGEOD_pZ_A5ltb02HrmvA
+          source_id: s_9UyeB-LrJ9vGwf2Y1yAJex
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 28105 王初）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_9UyeB-LrJ9vGwf2Y1yAJex
+            source_type: api_record
+            title: 中国历代人物传记资料库：王補（CBDB 28107）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28107&o=json
+            external_identifier: CBDB:28107
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_pv2LvWNq1p1mi8bH9JeT5s
+        status: active
+        display_name: 王初
+        merged_into_person_id: null
 ---
 
 # 王補
@@ -97,6 +282,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_DNgcd12SMQT8sYhCTYL1PG | 王祎 | accepted |
+| parents | p_mgxHev7zFTwcmkSJE7CaXn | 王良玉 | accepted |
+| other | p_NxhVtsQFEKS3B7HARgTqxM | 王褘 | accepted |
+| other | p_GcKEHNN7xDuFEv8TuQJdGM | 王裕 | accepted |
+| other | p_pv2LvWNq1p1mi8bH9JeT5s | 王初 | accepted |
 
 ## 外部来源
 

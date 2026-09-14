@@ -4,7 +4,7 @@ id: p_amEGG68EW7aciY6Xv6ntD7
 status: active
 merged_into: null
 display_name: 王海
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,80 @@ relationships:
         status: active
         display_name: 王雄
         merged_into_person_id: null
+    - claim:
+        id: c_BeXawCGklFJtuEher9DyV3
+        subject_person_id: p_amEGG68EW7aciY6Xv6ntD7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1BuHLbs4u37iTGFQUybyJM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xGwkbIuPSLH2FLQqbeKVsy
+          claim_id: c_BeXawCGklFJtuEher9DyV3
+          source_id: s_UgbikxsDgEuEls0ot-poVH
+          stance: supports
+          locator: CBDB：兄弟 王雄（68045）之父／母 王海
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王宣 与 王雄 为同胞（CBDB 记「弟」），王雄 之父／母即 王宣 之父／母。
+          source:
+            id: s_UgbikxsDgEuEls0ot-poVH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宣（CBDB 265522）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265522&o=json
+            external_identifier: CBDB:265522
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1BuHLbs4u37iTGFQUybyJM
+        status: active
+        display_name: 王宣
+        merged_into_person_id: null
+    - claim:
+        id: c_f_Q8bJzTw6rJqDWPk8uUkj
+        subject_person_id: p_amEGG68EW7aciY6Xv6ntD7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FRKaNC4sdNU7bptj3K9pfx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pVmjzYWRfilhZLEejThSsP
+          claim_id: c_f_Q8bJzTw6rJqDWPk8uUkj
+          source_id: s_Sb3dmY6sWV4KdILoUAG5_-
+          stance: supports
+          locator: CBDB：兄弟 王雄（68045）之父／母 王海
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王琪 与 王雄 为同胞（CBDB 记「兄」），王雄 之父／母即 王琪 之父／母。
+          source:
+            id: s_Sb3dmY6sWV4KdILoUAG5_-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王琪（CBDB 265523）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265523&o=json
+            external_identifier: CBDB:265523
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FRKaNC4sdNU7bptj3K9pfx
+        status: active
+        display_name: 王琪
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_CwNoR4RewoHTE9KBp57Caf | 王雄 | accepted |
+| children | p_1BuHLbs4u37iTGFQUybyJM | 王宣 | accepted |
+| children | p_FRKaNC4sdNU7bptj3K9pfx | 王琪 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王海（CBDB 265518）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265518&o=json)
+- [中国历代人物传记资料库：王琪（CBDB 265523）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265523&o=json)
+- [中国历代人物传记资料库：王宣（CBDB 265522）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265522&o=json)

@@ -4,7 +4,7 @@ id: p_fAKCeM7BDQhgJG14kfc4mW
 status: active
 merged_into: null
 display_name: 王存
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,81 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_TafxZtZDdMtQVdpCAwu_Xq
+        subject_person_id: p_fAKCeM7BDQhgJG14kfc4mW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kA7EdnqfqW5ogZnp9WbFM9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_6DXYYpX8v4utBuPZ8HPQoB
+          claim_id: c_TafxZtZDdMtQVdpCAwu_Xq
+          source_id: s_uHheqYO7ZktXSYXtddYNHY
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1897）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_uHheqYO7ZktXSYXtddYNHY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王微（CBDB 3991）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3991&o=json
+            external_identifier: CBDB:3991
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kA7EdnqfqW5ogZnp9WbFM9
+        status: active
+        display_name: 王微
+        merged_into_person_id: null
+    - claim:
+        id: c_8eUC12u60DKWh4eyt4l9mQ
+        subject_person_id: p_fAKCeM7BDQhgJG14kfc4mW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ukW8rs6JqRnhts6pQ3qfrP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_w2Cc0j7uvQNWpOx2b96hdr
+          claim_id: c_8eUC12u60DKWh4eyt4l9mQ
+          source_id: s_Jej1fBg6dtNxL_Q60lONXa
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1897）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_Jej1fBg6dtNxL_Q60lONXa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王律（CBDB 7380）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7380&o=json
+            external_identifier: CBDB:7380
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ukW8rs6JqRnhts6pQ3qfrP
+        status: active
+        display_name: 王律
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -192,9 +266,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_kA7EdnqfqW5ogZnp9WbFM9 | 王微 | accepted |
+| children | p_ukW8rs6JqRnhts6pQ3qfrP | 王律 | accepted |
 | spouses | p_SZgCL7oT74kWGWsoiF1EsC | 胡氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：胡氏(王存妻)（CBDB 38718）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38718&o=json)
 - [中国历代人物传记资料库：王存（CBDB 1897）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1897&o=json)
+- [中国历代人物传记资料库：王律（CBDB 7380）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7380&o=json)
+- [中国历代人物传记资料库：王微（CBDB 3991）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3991&o=json)

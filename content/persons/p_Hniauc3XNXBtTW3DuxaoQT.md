@@ -4,7 +4,7 @@ id: p_Hniauc3XNXBtTW3DuxaoQT
 status: active
 merged_into: null
 display_name: 王文林
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_CsbIskbGk1pa7msn0jjVYd
+        subject_person_id: p_DZDgMAJW6oNAC7MVuAcThi
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Hniauc3XNXBtTW3DuxaoQT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FWMRWqrbfGwlOHXkAQQTyB
+          claim_id: c_CsbIskbGk1pa7msn0jjVYd
+          source_id: s_7lgCW3yI0z6jjdxhtiMULm
+          stance: supports
+          locator: CBDB：兄弟 王肇林（205462）之父／母 王都
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王文林 与 王肇林 为同胞（CBDB 记「弟」），王肇林 之父／母即 王文林 之父／母。
+          source:
+            id: s_7lgCW3yI0z6jjdxhtiMULm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文林（CBDB 333539）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333539&o=json
+            external_identifier: CBDB:333539
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DZDgMAJW6oNAC7MVuAcThi
+        status: active
+        display_name: 王都
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_GyLeLnmm7tg0deZBeJpoD9
+        subject_person_id: p_Hniauc3XNXBtTW3DuxaoQT
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_U6AM1nUKLfQ5njnQVtaNYH
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jwQ0N5xndBmLhEe49UR6l-
+          claim_id: c_GyLeLnmm7tg0deZBeJpoD9
+          source_id: s_7lgCW3yI0z6jjdxhtiMULm
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205462 王肇林）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_7lgCW3yI0z6jjdxhtiMULm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文林（CBDB 333539）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333539&o=json
+            external_identifier: CBDB:333539
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_U6AM1nUKLfQ5njnQVtaNYH
+        status: active
+        display_name: 王肇林
+        merged_into_person_id: null
 ---
 
 # 王文林
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_DZDgMAJW6oNAC7MVuAcThi | 王都 | accepted |
+| other | p_U6AM1nUKLfQ5njnQVtaNYH | 王肇林 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王春復
 cbdb_id: 203136
-revision: 4
+revision: 12
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,303 @@ relationships:
         display_name: 王玘
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_5SlqfasqKyn4p4Xw8tkh4D
+        subject_person_id: p_2mASBqm4okacG3erqHNN5H
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_PBPvLNJEK4jPNCWDSKfDp5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dyxoZhEl1l_KaoB9QifvnQ
+          claim_id: c_5SlqfasqKyn4p4Xw8tkh4D
+          source_id: s_QncvpqGjUFRwzVhImHBoCH
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203136 王春復）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_QncvpqGjUFRwzVhImHBoCH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王初復（CBDB 300365）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300365&o=json
+            external_identifier: CBDB:300365
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2mASBqm4okacG3erqHNN5H
+        status: active
+        display_name: 王初復
+        merged_into_person_id: null
+    - claim:
+        id: c_eZPYPhSJ15eCF6eOofUAUe
+        subject_person_id: p_CQfx9Ba3WNyA32G4VxP7dC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_PBPvLNJEK4jPNCWDSKfDp5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-MtzlkHMTLC0S1qCaZVska
+          claim_id: c_eZPYPhSJ15eCF6eOofUAUe
+          source_id: s_Siz5-VUTpExUTc3rZkN-Cf
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203136 王春復）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Siz5-VUTpExUTc3rZkN-Cf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王速復（CBDB 300364）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300364&o=json
+            external_identifier: CBDB:300364
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CQfx9Ba3WNyA32G4VxP7dC
+        status: active
+        display_name: 王速復
+        merged_into_person_id: null
+    - claim:
+        id: c_kwZw9XOeSHHGX3NA7fcCLh
+        subject_person_id: p_PBPvLNJEK4jPNCWDSKfDp5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RQRCLMoA3oW26KGLDs6H6M
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zN5Ao8jwb6aFJ9xZXex_Ri
+          claim_id: c_kwZw9XOeSHHGX3NA7fcCLh
+          source_id: s_ZW49eB8yQL_P1_MziNJWsy
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203136 王春復）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ZW49eB8yQL_P1_MziNJWsy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王陽復（CBDB 300359）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300359&o=json
+            external_identifier: CBDB:300359
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_RQRCLMoA3oW26KGLDs6H6M
+        status: active
+        display_name: 王陽復
+        merged_into_person_id: null
+    - claim:
+        id: c_sFLjxI7ufb4f_jtWucm3ry
+        subject_person_id: p_PBPvLNJEK4jPNCWDSKfDp5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fmoAMRAFhJB4TCz6oG2LKn
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KQgI0W2i2Peq3JioyQRS9F
+          claim_id: c_sFLjxI7ufb4f_jtWucm3ry
+          source_id: s_fuUWAKUI2rxazA99vrJgAZ
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203136 王春復）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_fuUWAKUI2rxazA99vrJgAZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王休復（CBDB 300358）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300358&o=json
+            external_identifier: CBDB:300358
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fmoAMRAFhJB4TCz6oG2LKn
+        status: active
+        display_name: 王休復
+        merged_into_person_id: null
+    - claim:
+        id: c_rdmO3ff6_uGFxiEUZ5rFpe
+        subject_person_id: p_PBPvLNJEK4jPNCWDSKfDp5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hij62KiNEfX1vVHo6K2VDF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hqg0LI8XS9zRf_mzuDxGCH
+          claim_id: c_rdmO3ff6_uGFxiEUZ5rFpe
+          source_id: s_CDGUu0UF1J3LAWn42sAKJt
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203136 王春復）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_CDGUu0UF1J3LAWn42sAKJt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王克復（CBDB 300361）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300361&o=json
+            external_identifier: CBDB:300361
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hij62KiNEfX1vVHo6K2VDF
+        status: active
+        display_name: 王克復
+        merged_into_person_id: null
+    - claim:
+        id: c_TILFfbp_o665feHysvLBmT
+        subject_person_id: p_PBPvLNJEK4jPNCWDSKfDp5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_iSpvyGUT53CspFRmELkfKQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NbNQn4IOSHEpyE5N2rGEvi
+          claim_id: c_TILFfbp_o665feHysvLBmT
+          source_id: s_JoUqi0phScLCNC_ewSPXwG
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203136 王春復）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_JoUqi0phScLCNC_ewSPXwG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三復（CBDB 300363）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300363&o=json
+            external_identifier: CBDB:300363
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_iSpvyGUT53CspFRmELkfKQ
+        status: active
+        display_name: 王三復
+        merged_into_person_id: null
+    - claim:
+        id: c_-QkJFfI2Xu6OHGrmUwqhTr
+        subject_person_id: p_PBPvLNJEK4jPNCWDSKfDp5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_rP1SdxkNvEkxQt1vGkS8G4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mktagZK6oKPpFQiB4pV9cS
+          claim_id: c_-QkJFfI2Xu6OHGrmUwqhTr
+          source_id: s_YkscnFtX-eClZXZ_lxkDOF
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203136 王春復）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_YkscnFtX-eClZXZ_lxkDOF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禮復（CBDB 300366）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300366&o=json
+            external_identifier: CBDB:300366
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rP1SdxkNvEkxQt1vGkS8G4
+        status: active
+        display_name: 王禮復
+        merged_into_person_id: null
+    - claim:
+        id: c_1oG8OQcqAT3Z9j00aR-7Sj
+        subject_person_id: p_PBPvLNJEK4jPNCWDSKfDp5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vikXrBMKnbMBLaHcYcsA5k
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Hj7mm4WXx5SxGNTFWMWUn9
+          claim_id: c_1oG8OQcqAT3Z9j00aR-7Sj
+          source_id: s_dGt3DpgDWM9-2jdJMTDHWR
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203136 王春復）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_dGt3DpgDWM9-2jdJMTDHWR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德復（CBDB 300362）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300362&o=json
+            external_identifier: CBDB:300362
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vikXrBMKnbMBLaHcYcsA5k
+        status: active
+        display_name: 王德復
+        merged_into_person_id: null
 ---
 
 # 王春復
@@ -257,10 +553,26 @@ relationships:
 | parents | p_djPzJATqP8N3fAgZuiGdme | 王琥 | accepted |
 | ancestors | p_AbVcjzx5u1oivmsbfrqHB3 | 王和 | accepted |
 | ancestors | p_qiVejsvjW7PKHf9fnAywPN | 王玘 | accepted |
+| other | p_2mASBqm4okacG3erqHNN5H | 王初復 | accepted |
+| other | p_CQfx9Ba3WNyA32G4VxP7dC | 王速復 | accepted |
+| other | p_RQRCLMoA3oW26KGLDs6H6M | 王陽復 | accepted |
+| other | p_fmoAMRAFhJB4TCz6oG2LKn | 王休復 | accepted |
+| other | p_hij62KiNEfX1vVHo6K2VDF | 王克復 | accepted |
+| other | p_iSpvyGUT53CspFRmELkfKQ | 王三復 | accepted |
+| other | p_rP1SdxkNvEkxQt1vGkS8G4 | 王禮復 | accepted |
+| other | p_vikXrBMKnbMBLaHcYcsA5k | 王德復 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王初復（CBDB 300365）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300365&o=json)
 - [中国历代人物传记资料库：王春復（CBDB 203136）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203136&o=json)
+- [中国历代人物传记资料库：王德復（CBDB 300362）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300362&o=json)
 - [中国历代人物传记资料库：王和（CBDB 300353）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300353&o=json)
 - [中国历代人物传记资料库：王琥（CBDB 300354）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300354&o=json)
+- [中国历代人物传记资料库：王克復（CBDB 300361）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300361&o=json)
+- [中国历代人物传记资料库：王禮復（CBDB 300366）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300366&o=json)
 - [中国历代人物传记资料库：王玘（CBDB 300352）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300352&o=json)
+- [中国历代人物传记资料库：王三復（CBDB 300363）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300363&o=json)
+- [中国历代人物传记资料库：王速復（CBDB 300364）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300364&o=json)
+- [中国历代人物传记资料库：王休復（CBDB 300358）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300358&o=json)
+- [中国历代人物传记资料库：王陽復（CBDB 300359）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300359&o=json)

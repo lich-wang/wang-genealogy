@@ -4,7 +4,7 @@ id: p_ryQAuRkxcym1JUyP8NWaCG
 status: active
 merged_into: null
 display_name: 王藎
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -191,7 +191,44 @@ relationships:
         display_name: 王志友
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_wHu378IkGQIDt4kNOlM-Re
+        subject_person_id: p_CpdA7n5ABuWVoWQ3BeCS1U
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ryQAuRkxcym1JUyP8NWaCG
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BFISKo-Kpa6mO3dmlqSJEF
+          claim_id: c_wHu378IkGQIDt4kNOlM-Re
+          source_id: s_3dd8SJY5tQywx2HKxb8GfH
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126860 王藎）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_3dd8SJY5tQywx2HKxb8GfH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王蘭（CBDB 266941）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266941&o=json
+            external_identifier: CBDB:266941
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CpdA7n5ABuWVoWQ3BeCS1U
+        status: active
+        display_name: 王蘭
+        merged_into_person_id: null
 ---
 
 # 王藎
@@ -212,10 +249,12 @@ relationships:
 | parents | p_GnhAaQQ4LxSawSCcG7G6UV | 王端 | accepted |
 | ancestors | p_bES4rRr9KHWRHyBtt2iz2m | 王整 | accepted |
 | ancestors | p_rr4diTY4mwqa6m1AdeML55 | 王志友 | accepted |
+| other | p_CpdA7n5ABuWVoWQ3BeCS1U | 王蘭 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王端（CBDB 266938）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266938&o=json)
 - [中国历代人物传记资料库：王藎（CBDB 126860）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126860&o=json)
+- [中国历代人物传记资料库：王蘭（CBDB 266941）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266941&o=json)
 - [中国历代人物传记资料库：王整（CBDB 266936）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266936&o=json)
 - [中国历代人物传记资料库：王志友（CBDB 266935）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266935&o=json)

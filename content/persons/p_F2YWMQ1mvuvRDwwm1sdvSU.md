@@ -4,7 +4,7 @@ id: p_F2YWMQ1mvuvRDwwm1sdvSU
 status: active
 merged_into: null
 display_name: 王持
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_rcIwyXhZRD0E2f532E8FuW
+        subject_person_id: p_9yUsLx8gKe9km4PvyMBpGL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_F2YWMQ1mvuvRDwwm1sdvSU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_55NmSjiXuSGKVhvgn5KEDL
+          claim_id: c_rcIwyXhZRD0E2f532E8FuW
+          source_id: s_TPlwEZsVJ3L-VZnn1_lGxz
+          stance: supports
+          locator: CBDB：兄弟 王艮（66624）之父／母 王期尹
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王持 与 王艮 为同胞（CBDB 记「兄」），王艮 之父／母即 王持 之父／母。
+          source:
+            id: s_TPlwEZsVJ3L-VZnn1_lGxz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王持（CBDB 253923）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253923&o=json
+            external_identifier: CBDB:253923
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9yUsLx8gKe9km4PvyMBpGL
+        status: active
+        display_name: 王期尹
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Hc_RHwrbAMQgDi6XEARJHK
+        subject_person_id: p_CxY5QtqK8BuHWqQgSQqbEb
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_F2YWMQ1mvuvRDwwm1sdvSU
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_q85R4uPDjRHSi6diDaMCCK
+          claim_id: c_Hc_RHwrbAMQgDi6XEARJHK
+          source_id: s_TPlwEZsVJ3L-VZnn1_lGxz
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 66624 王艮）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_TPlwEZsVJ3L-VZnn1_lGxz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王持（CBDB 253923）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253923&o=json
+            external_identifier: CBDB:253923
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CxY5QtqK8BuHWqQgSQqbEb
+        status: active
+        display_name: 王艮
+        merged_into_person_id: null
 ---
 
 # 王持
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_9yUsLx8gKe9km4PvyMBpGL | 王期尹 | accepted |
+| other | p_CxY5QtqK8BuHWqQgSQqbEb | 王艮 | accepted |
 
 ## 外部来源
 

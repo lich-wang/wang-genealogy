@@ -4,7 +4,7 @@ id: p_Uk3JWD2Whpfr1nbW4yeaJ2
 status: active
 merged_into: null
 display_name: 王應辰
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,81 @@ relationships:
         display_name: 王訓
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_3haywDKPo0zEZ26de5D1-E
+        subject_person_id: p_5CcJvT8BLcp1KLWTfPZwCq
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Uk3JWD2Whpfr1nbW4yeaJ2
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_liT75Ukb7gaRd24v0htjyS
+          claim_id: c_3haywDKPo0zEZ26de5D1-E
+          source_id: s_1Lh2R7Kbo7BjnIPmjzCTX6
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205548 王應辰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_1Lh2R7Kbo7BjnIPmjzCTX6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應期（CBDB 334994）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334994&o=json
+            external_identifier: CBDB:334994
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5CcJvT8BLcp1KLWTfPZwCq
+        status: active
+        display_name: 王應期
+        merged_into_person_id: null
+    - claim:
+        id: c_Q9SMMzAHke4hTqkWkony71
+        subject_person_id: p_Uk3JWD2Whpfr1nbW4yeaJ2
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_yh8c2xSCHG3efoW3KFKu4e
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pLj-C0HCbrxLCPcqDRr-Ld
+          claim_id: c_Q9SMMzAHke4hTqkWkony71
+          source_id: s_kyFRCKPTapt0h9OZldHly4
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205548 王應辰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_kyFRCKPTapt0h9OZldHly4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應元（CBDB 334993）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334993&o=json
+            external_identifier: CBDB:334993
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_yh8c2xSCHG3efoW3KFKu4e
+        status: active
+        display_name: 王應元
+        merged_into_person_id: null
 ---
 
 # 王應辰
@@ -240,6 +314,8 @@ relationships:
 | parents | p_WUPKdegwzMR62VcQ6XVX6T | 王省 | accepted |
 | ancestors | p_4MtUEXAzyRr4Xzwx6MWxEM | 王朝良 | accepted |
 | ancestors | p_xt7Rv4oxxKPySid4gC11sc | 王訓 | accepted |
+| other | p_5CcJvT8BLcp1KLWTfPZwCq | 王應期 | accepted |
+| other | p_yh8c2xSCHG3efoW3KFKu4e | 王應元 | accepted |
 
 ## 外部来源
 
@@ -247,3 +323,5 @@ relationships:
 - [中国历代人物传记资料库：王省（CBDB 334990）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334990&o=json)
 - [中国历代人物传记资料库：王訓（CBDB 334988）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334988&o=json)
 - [中国历代人物传记资料库：王應辰（CBDB 205548）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205548&o=json)
+- [中国历代人物传记资料库：王應期（CBDB 334994）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334994&o=json)
+- [中国历代人物传记资料库：王應元（CBDB 334993）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334993&o=json)

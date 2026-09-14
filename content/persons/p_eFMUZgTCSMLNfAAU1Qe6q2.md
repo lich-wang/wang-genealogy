@@ -4,7 +4,7 @@ id: p_eFMUZgTCSMLNfAAU1Qe6q2
 status: active
 merged_into: null
 display_name: 王竑
-revision: 2
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -379,7 +379,81 @@ relationships:
         display_name: 王俊卿
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_xGihfBIvauUsTOkkDbxAs3
+        subject_person_id: p_7FHAvidD6hLR7baGi778qE
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_eFMUZgTCSMLNfAAU1Qe6q2
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YBMMLsw5ISlBZ4xi4uissB
+          claim_id: c_xGihfBIvauUsTOkkDbxAs3
+          source_id: s_Ukx9ea0bUj8c0Pmxoge4SI
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 67649 王竑）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Ukx9ea0bUj8c0Pmxoge4SI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王浚（CBDB 236881）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236881&o=json
+            external_identifier: CBDB:236881
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7FHAvidD6hLR7baGi778qE
+        status: active
+        display_name: 王浚
+        merged_into_person_id: null
+    - claim:
+        id: c_-11sc2JK9JNhdSE-nmd8e7
+        subject_person_id: p_PUS1at3KmBgaeh9DmnB6Y8
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_eFMUZgTCSMLNfAAU1Qe6q2
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZGILftyHiWv01cqFzoO9D1
+          claim_id: c_-11sc2JK9JNhdSE-nmd8e7
+          source_id: s_WErHu4swbby0Ycqs77UbAL
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 67649 王竑）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_WErHu4swbby0Ycqs77UbAL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王靖（CBDB 236882）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236882&o=json
+            external_identifier: CBDB:236882
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PUS1at3KmBgaeh9DmnB6Y8
+        status: active
+        display_name: 王靖
+        merged_into_person_id: null
 ---
 
 # 王竑
@@ -403,12 +477,16 @@ relationships:
 | spouses | p_xtFwKEaqPdvp16DkbDgGzk | 孙氏 | accepted |
 | ancestors | p_C9xm5jCmEkeQHuYEcbM82J | 王景 | accepted |
 | ancestors | p_yaK3v157GQYGTQP5RhE7JJ | 王俊卿 | accepted |
+| other | p_7FHAvidD6hLR7baGi778qE | 王浚 | accepted |
+| other | p_PUS1at3KmBgaeh9DmnB6Y8 | 王靖 | accepted |
 
 ## 外部来源
 
 - [维基数据：孙氏（Q65838942）](https://www.wikidata.org/wiki/Q65838942)
 - [维基数据：王竑（Q15900659）](https://www.wikidata.org/wiki/Q15900659)
 - [维基数据：王佐（Q45527630）](https://www.wikidata.org/wiki/Q45527630)
+- [中国历代人物传记资料库：王靖（CBDB 236882）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236882&o=json)
+- [中国历代人物传记资料库：王浚（CBDB 236881）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236881&o=json)
 - [中文维基百科：王竑](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%AB%91)
 - [CBDB 中国历代人物传记资料库：王竑（67649）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67649&o=json)
 - [CBDB 中国历代人物传记资料库：王景（236876）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236876&o=json)

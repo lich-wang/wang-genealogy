@@ -4,7 +4,7 @@ id: p_cF1tS83LboioMzgPkBhT2W
 status: active
 merged_into: null
 display_name: 王選
-revision: 3
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,192 @@ relationships:
         display_name: 王克和
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_8CLEylE4dUM0zA4LjWN6Io
+        subject_person_id: p_7Cc66bdBJQ3sLv7aofmVb1
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_cF1tS83LboioMzgPkBhT2W
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YzgJ3k8EkhBT-0q92KMFXd
+          claim_id: c_8CLEylE4dUM0zA4LjWN6Io
+          source_id: s_jYiLPDpRdUbPpbVAlfWuGN
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200963 王選）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_jYiLPDpRdUbPpbVAlfWuGN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王慎德（CBDB 265199）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265199&o=json
+            external_identifier: CBDB:265199
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7Cc66bdBJQ3sLv7aofmVb1
+        status: active
+        display_name: 王慎德
+        merged_into_person_id: null
+    - claim:
+        id: c_bV3sUiyg0-kWZBlzOFD5b0
+        subject_person_id: p_LD36WZHMBRnFYN8hscJDei
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_cF1tS83LboioMzgPkBhT2W
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UU3SEhMiiuveg8lAtYoqas
+          claim_id: c_bV3sUiyg0-kWZBlzOFD5b0
+          source_id: s_VbZ95_4_k4rpJTSMNqEs_x
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200963 王選）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_VbZ95_4_k4rpJTSMNqEs_x
+            source_type: api_record
+            title: 中国历代人物传记资料库：王慎興（CBDB 265196）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265196&o=json
+            external_identifier: CBDB:265196
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_LD36WZHMBRnFYN8hscJDei
+        status: active
+        display_name: 王慎興
+        merged_into_person_id: null
+    - claim:
+        id: c_hxBruXB4ADjPbhs0PL7lLy
+        subject_person_id: p_NH6BiUfH5S15SwkDQswbsT
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_cF1tS83LboioMzgPkBhT2W
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GiAwZZ0OQGK9VdSIL9ECL2
+          claim_id: c_hxBruXB4ADjPbhs0PL7lLy
+          source_id: s_2rlUEmFgFCI2gK8Tpl4bRM
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200963 王選）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_2rlUEmFgFCI2gK8Tpl4bRM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王慎思（CBDB 265197）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265197&o=json
+            external_identifier: CBDB:265197
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NH6BiUfH5S15SwkDQswbsT
+        status: active
+        display_name: 王慎思
+        merged_into_person_id: null
+    - claim:
+        id: c_3-NMWWrMiZTB9JwPgYfLM5
+        subject_person_id: p_cF1tS83LboioMzgPkBhT2W
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wdjjie2PDJJGoz9kjqhDt7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wjM64T67fqDoy8-c-FJO1W
+          claim_id: c_3-NMWWrMiZTB9JwPgYfLM5
+          source_id: s_2_6xo2UJMXERx3cgGv9Z_H
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200963 王選）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_2_6xo2UJMXERx3cgGv9Z_H
+            source_type: api_record
+            title: 中国历代人物传记资料库：王慎終（CBDB 265200）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265200&o=json
+            external_identifier: CBDB:265200
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wdjjie2PDJJGoz9kjqhDt7
+        status: active
+        display_name: 王慎終
+        merged_into_person_id: null
+    - claim:
+        id: c_N3d0mnYxlep8zx3aWZx_wR
+        subject_person_id: p_cF1tS83LboioMzgPkBhT2W
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xDeb2HyYf12rssAwch9KJo
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EU3At6lQQPuQqtPw5lhty_
+          claim_id: c_N3d0mnYxlep8zx3aWZx_wR
+          source_id: s_tly7sHishGdRuFzl29j0tN
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200963 王選）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_tly7sHishGdRuFzl29j0tN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王慎獨（CBDB 265198）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265198&o=json
+            external_identifier: CBDB:265198
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xDeb2HyYf12rssAwch9KJo
+        status: active
+        display_name: 王慎獨
+        merged_into_person_id: null
 ---
 
 # 王選
@@ -245,8 +430,18 @@ relationships:
 | spouses | p_ALE69A7iwJiKMjUHaxgrM5 | 劉氏 | accepted |
 | ancestors | p_xXfU17qq7kWf6RgD1JMA38 | 王學韶 | accepted |
 | ancestors | p_L2CxX6rmuHacqK1sdFNeMY | 王克和 | accepted |
+| other | p_7Cc66bdBJQ3sLv7aofmVb1 | 王慎德 | accepted |
+| other | p_LD36WZHMBRnFYN8hscJDei | 王慎興 | accepted |
+| other | p_NH6BiUfH5S15SwkDQswbsT | 王慎思 | accepted |
+| other | p_wdjjie2PDJJGoz9kjqhDt7 | 王慎終 | accepted |
+| other | p_xDeb2HyYf12rssAwch9KJo | 王慎獨 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：劉氏(王選妻)（CBDB 265194）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265194&o=json)
+- [中国历代人物传记资料库：王慎德（CBDB 265199）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265199&o=json)
+- [中国历代人物传记资料库：王慎獨（CBDB 265198）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265198&o=json)
+- [中国历代人物传记资料库：王慎思（CBDB 265197）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265197&o=json)
+- [中国历代人物传记资料库：王慎興（CBDB 265196）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265196&o=json)
+- [中国历代人物传记资料库：王慎終（CBDB 265200）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265200&o=json)
 - [中国历代人物传记资料库：王選（CBDB 200963）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200963&o=json)

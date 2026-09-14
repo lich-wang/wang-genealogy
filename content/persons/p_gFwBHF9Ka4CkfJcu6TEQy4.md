@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王子覺
 cbdb_id: 134164
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -119,7 +119,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_riKJu8bKDYRyIl_pEXBcQW
+        subject_person_id: p_RC9D1koJn7NhwnkB8qmAHS
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gFwBHF9Ka4CkfJcu6TEQy4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gaUKGrVgrzJ4E0lZLZEPSV
+          claim_id: c_riKJu8bKDYRyIl_pEXBcQW
+          source_id: s_SRVgAKyeFlgqKHILF_xbEf
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 134164 王子覺）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_SRVgAKyeFlgqKHILF_xbEf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王士偉（CBDB 101032）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101032&o=json
+            external_identifier: CBDB:101032
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_RC9D1koJn7NhwnkB8qmAHS
+        status: active
+        display_name: 王士偉
+        merged_into_person_id: null
 ---
 
 # 王子覺
@@ -138,7 +175,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_vM6985QJehceoGJD1bbJKF | 王澄 | accepted |
+| other | p_RC9D1koJn7NhwnkB8qmAHS | 王士偉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王士偉（CBDB 101032）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101032&o=json)
 - [中国历代人物传记资料库：王子覺（CBDB 134164）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134164&o=json)

@@ -4,7 +4,7 @@ id: p_MB31qtyXiP7DGzQ9oxGxHs
 status: active
 merged_into: null
 display_name: 王預
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,118 @@ relationships:
         display_name: 王慶遠
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ddutt4H2uWtjQg74DTNxOA
+        subject_person_id: p_5rqgjMbqENeQvnfJjggY2i
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_MB31qtyXiP7DGzQ9oxGxHs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YakvYSghVi4NWHwFklVexj
+          claim_id: c_ddutt4H2uWtjQg74DTNxOA
+          source_id: s_TGGTG864FMzQkUU26eGmbA
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 198598 王預）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_TGGTG864FMzQkUU26eGmbA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王規（CBDB 292473）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292473&o=json
+            external_identifier: CBDB:292473
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5rqgjMbqENeQvnfJjggY2i
+        status: active
+        display_name: 王規
+        merged_into_person_id: null
+    - claim:
+        id: c_4VYYFuzI2XWNoZPpMD35DN
+        subject_person_id: p_KkQWFdaDn5UDBzcB1hoEnD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_MB31qtyXiP7DGzQ9oxGxHs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ca02ELKi7Ry_mCCZkti9EQ
+          claim_id: c_4VYYFuzI2XWNoZPpMD35DN
+          source_id: s_hmx1scdCcUtKYzrNNI0cva
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198598 王預）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hmx1scdCcUtKYzrNNI0cva
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑩（CBDB 292495）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292495&o=json
+            external_identifier: CBDB:292495
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KkQWFdaDn5UDBzcB1hoEnD
+        status: active
+        display_name: 王瑩
+        merged_into_person_id: null
+    - claim:
+        id: c_gPJzRQ2zKCJ7nhwqlXBQzU
+        subject_person_id: p_MB31qtyXiP7DGzQ9oxGxHs
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_tM3HezFRWgMxa82EZjSSQA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_63Mu1trM2PjKUbBnjT8fiN
+          claim_id: c_gPJzRQ2zKCJ7nhwqlXBQzU
+          source_id: s_eN-VedSITrwJakelFddaZI
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198598 王預）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_eN-VedSITrwJakelFddaZI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王琇（CBDB 292484）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292484&o=json
+            external_identifier: CBDB:292484
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_tM3HezFRWgMxa82EZjSSQA
+        status: active
+        display_name: 王琇
+        merged_into_person_id: null
 ---
 
 # 王預
@@ -245,8 +356,14 @@ relationships:
 | spouses | p_3qwLeSJZP2cuuKSxPhu8Hp | 孫氏 | accepted |
 | ancestors | p_R52ou9enwLDEw3UZNn8kjJ | 王本深 | accepted |
 | ancestors | p_YJCAVvQsikfrSVkCvjBhcE | 王慶遠 | accepted |
+| other | p_5rqgjMbqENeQvnfJjggY2i | 王規 | accepted |
+| other | p_KkQWFdaDn5UDBzcB1hoEnD | 王瑩 | accepted |
+| other | p_tM3HezFRWgMxa82EZjSSQA | 王琇 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：孫氏(王預妻)（CBDB 292462）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292462&o=json)
+- [中国历代人物传记资料库：王規（CBDB 292473）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292473&o=json)
+- [中国历代人物传记资料库：王琇（CBDB 292484）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292484&o=json)
+- [中国历代人物传记资料库：王瑩（CBDB 292495）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292495&o=json)
 - [中国历代人物传记资料库：王預（CBDB 198598）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198598&o=json)

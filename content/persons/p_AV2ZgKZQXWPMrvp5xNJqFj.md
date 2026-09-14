@@ -4,7 +4,7 @@ id: p_AV2ZgKZQXWPMrvp5xNJqFj
 status: active
 merged_into: null
 display_name: 王克復
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -194,7 +194,118 @@ relationships:
         display_name: 王仲
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_kbbVETOw8Kwzuh6BT6oE9f
+        subject_person_id: p_7YZKZBichdHTL36MeU67jC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_AV2ZgKZQXWPMrvp5xNJqFj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__vKTNr1KA7u9zerclxluJg
+          claim_id: c_kbbVETOw8Kwzuh6BT6oE9f
+          source_id: s_dhLl0qm2DRQoRFwzE1gazJ
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126540 王克復）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_dhLl0qm2DRQoRFwzE1gazJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王徽（CBDB 293473）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293473&o=json
+            external_identifier: CBDB:293473
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7YZKZBichdHTL36MeU67jC
+        status: active
+        display_name: 王徽
+        merged_into_person_id: null
+    - claim:
+        id: c_7uu_IWyfZ5ag_PZ3mlw962
+        subject_person_id: p_AV2ZgKZQXWPMrvp5xNJqFj
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_PwftqoUXRDwthFpERn2N5X
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DI3ht5u8BBTrtxp0-xdKhp
+          claim_id: c_7uu_IWyfZ5ag_PZ3mlw962
+          source_id: s_Ti0G2gswOt-s_a3pmY6pFy
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126540 王克復）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Ti0G2gswOt-s_a3pmY6pFy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敦（CBDB 293462）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293462&o=json
+            external_identifier: CBDB:293462
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PwftqoUXRDwthFpERn2N5X
+        status: active
+        display_name: 王敦
+        merged_into_person_id: null
+    - claim:
+        id: c_Ko1xyPf53nrB0D8fQJkZ8D
+        subject_person_id: p_AV2ZgKZQXWPMrvp5xNJqFj
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ioFXfvCXGCdvN2b83UCpmb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q45YQVR_ymUDeMogTS9pM6
+          claim_id: c_Ko1xyPf53nrB0D8fQJkZ8D
+          source_id: s_0ZzVyX56w-pTZctYaNpmDq
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126540 王克復）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0ZzVyX56w-pTZctYaNpmDq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敏（CBDB 293451）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293451&o=json
+            external_identifier: CBDB:293451
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ioFXfvCXGCdvN2b83UCpmb
+        status: active
+        display_name: 王敏
+        merged_into_person_id: null
 ---
 
 # 王克復
@@ -216,8 +327,14 @@ relationships:
 | spouses | p_6gGUL9TPP8WPBGWDKQDXir | 高氏 | accepted |
 | ancestors | p_H62w62NygJ1818ULHj5N3C | 王貴 | accepted |
 | ancestors | p_cmh993UcaH1fhoZJBKNKT7 | 王仲 | accepted |
+| other | p_7YZKZBichdHTL36MeU67jC | 王徽 | accepted |
+| other | p_PwftqoUXRDwthFpERn2N5X | 王敦 | accepted |
+| other | p_ioFXfvCXGCdvN2b83UCpmb | 王敏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：高氏(王克復妻)（CBDB 293440）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293440&o=json)
+- [中国历代人物传记资料库：王敦（CBDB 293462）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293462&o=json)
+- [中国历代人物传记资料库：王徽（CBDB 293473）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293473&o=json)
 - [中国历代人物传记资料库：王克復（CBDB 126540）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126540&o=json)
+- [中国历代人物传记资料库：王敏（CBDB 293451）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293451&o=json)

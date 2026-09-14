@@ -4,7 +4,7 @@ id: p_sLhnC92rQu1PepE5sPJ3EL
 status: active
 merged_into: null
 display_name: 王弘道
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -292,7 +292,44 @@ relationships:
         display_name: 王昇
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_BqKu-1GuQ_VIel7NZCkBDA
+        subject_person_id: p_sLhnC92rQu1PepE5sPJ3EL
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vWyTBAhvhpS9PiXN7z5UNb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_heNJwwikMiP_32-dDwkvFa
+          claim_id: c_BqKu-1GuQ_VIel7NZCkBDA
+          source_id: s_b6kVMWEmbuVWwe4xu1Wrjl
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202780 王弘道）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_b6kVMWEmbuVWwe4xu1Wrjl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王弘仁（CBDB 294206）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294206&o=json
+            external_identifier: CBDB:294206
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vWyTBAhvhpS9PiXN7z5UNb
+        status: active
+        display_name: 王弘仁
+        merged_into_person_id: null
 ---
 
 # 王弘道
@@ -316,11 +353,13 @@ relationships:
 | children | p_sofKLPWRpVmv9BQf2K7RKn | 王汲 | accepted |
 | ancestors | p_aTW1MsjqPLs9BnURby1HZP | 王奉 | accepted |
 | ancestors | p_c4dQAmoU591Gmsc9M6ooR4 | 王昇 | accepted |
+| other | p_vWyTBAhvhpS9PiXN7z5UNb | 王弘仁 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王奉（CBDB 294202）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294202&o=json)
 - [中国历代人物传记资料库：王弘道（CBDB 202780）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202780&o=json)
+- [中国历代人物传记资料库：王弘仁（CBDB 294206）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294206&o=json)
 - [中国历代人物传记资料库：王汲（CBDB 294209）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294209&o=json)
 - [中国历代人物传记资料库：王浚（CBDB 294210）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294210&o=json)
 - [中国历代人物传记资料库：王慶（CBDB 294203）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294203&o=json)

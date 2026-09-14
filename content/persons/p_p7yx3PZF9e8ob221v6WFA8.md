@@ -4,7 +4,7 @@ id: p_p7yx3PZF9e8ob221v6WFA8
 status: active
 merged_into: null
 display_name: 王遵
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_6zp2skGWG1inbLzjwidSkA
+        subject_person_id: p_BM46tZGN4EBcE7FUMvw1gL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_p7yx3PZF9e8ob221v6WFA8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tV8qb4Dw5RFxD45HKSSuFv
+          claim_id: c_6zp2skGWG1inbLzjwidSkA
+          source_id: s_sp-m0GU1dGX_0G0C0bE3wb
+          stance: supports
+          locator: CBDB：兄弟 王遴（124734）之父／母 王宗義
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王遵 与 王遴 为同胞（CBDB 记「弟」），王遴 之父／母即 王遵 之父／母。
+          source:
+            id: s_sp-m0GU1dGX_0G0C0bE3wb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遵（CBDB 310369）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310369&o=json
+            external_identifier: CBDB:310369
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BM46tZGN4EBcE7FUMvw1gL
+        status: active
+        display_name: 王宗義
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_fhWt-qTzN0vXfenRn0tj6E
+        subject_person_id: p_SHuk9Lfw4VDtH93mbkHP9q
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_p7yx3PZF9e8ob221v6WFA8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_de0bH6ysZSz1y9kORS3qTF
+          claim_id: c_fhWt-qTzN0vXfenRn0tj6E
+          source_id: s_sp-m0GU1dGX_0G0C0bE3wb
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 124734 王遴）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_sp-m0GU1dGX_0G0C0bE3wb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遵（CBDB 310369）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310369&o=json
+            external_identifier: CBDB:310369
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_SHuk9Lfw4VDtH93mbkHP9q
+        status: active
+        display_name: 王遴
+        merged_into_person_id: null
 ---
 
 # 王遵
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_BM46tZGN4EBcE7FUMvw1gL | 王宗義 | accepted |
+| other | p_SHuk9Lfw4VDtH93mbkHP9q | 王遴 | accepted |
 
 ## 外部来源
 

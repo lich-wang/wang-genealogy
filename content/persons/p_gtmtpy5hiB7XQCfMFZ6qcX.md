@@ -4,7 +4,7 @@ id: p_gtmtpy5hiB7XQCfMFZ6qcX
 status: active
 merged_into: null
 display_name: 王子京
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_rRSHz_TpUXicmuwFYhU2ZH
+        subject_person_id: p_fXrAzDcQUb9KZoaoztu9Rn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gtmtpy5hiB7XQCfMFZ6qcX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_Kyn-cnLsLEbVm1MrF6_79W
+          claim_id: c_rRSHz_TpUXicmuwFYhU2ZH
+          source_id: s_iSadKlHuAohxEGBKqxuluK
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 27011）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_iSadKlHuAohxEGBKqxuluK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子京（CBDB 1909）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1909&o=json
+            external_identifier: CBDB:1909
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fXrAzDcQUb9KZoaoztu9Rn
+        status: active
+        display_name: 王世昌
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_FjteFGpTvdzug-L0AZTOpf
+        subject_person_id: p_17a7h6QnbHXFMMvBUxCLbB
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gtmtpy5hiB7XQCfMFZ6qcX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8fkFjimUvNPCTKHrrmgu0X
+          claim_id: c_FjteFGpTvdzug-L0AZTOpf
+          source_id: s_iSadKlHuAohxEGBKqxuluK
+          stance: supports
+          locator: CBDB 亲属：兄弟（KinPerson 7383 王子韶）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_iSadKlHuAohxEGBKqxuluK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子京（CBDB 1909）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1909&o=json
+            external_identifier: CBDB:1909
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_17a7h6QnbHXFMMvBUxCLbB
+        status: active
+        display_name: 王子韶
+        merged_into_person_id: null
 ---
 
 # 王子京
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_fXrAzDcQUb9KZoaoztu9Rn | 王世昌 | accepted |
+| other | p_17a7h6QnbHXFMMvBUxCLbB | 王子韶 | accepted |
 
 ## 外部来源
 

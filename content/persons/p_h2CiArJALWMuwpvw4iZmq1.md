@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王前光
 cbdb_id: 308157
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_weeG2ph5xVvs6Z_N314plY
+        subject_person_id: p_GvhnbSfs4k75xQrdJJphA9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_h2CiArJALWMuwpvw4iZmq1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fHhEybYiq2_iSFcMSYLeTO
+          claim_id: c_weeG2ph5xVvs6Z_N314plY
+          source_id: s_cVcWnmBbmojmZH70Grwxfi
+          stance: supports
+          locator: CBDB：兄弟 王國光（125310）之父／母 王承祖
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王前光 与 王國光 为同胞（CBDB 记「兄」），王國光 之父／母即 王前光 之父／母。
+          source:
+            id: s_cVcWnmBbmojmZH70Grwxfi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王前光（CBDB 308157）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308157&o=json
+            external_identifier: CBDB:308157
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GvhnbSfs4k75xQrdJJphA9
+        status: active
+        display_name: 王承祖
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_JQd0pxENMoh3mGOzKaB8jA
+        subject_person_id: p_fAeAj1ECenpg29AWYPB25D
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_h2CiArJALWMuwpvw4iZmq1
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-frIQHKqbLBLqI6eZ-Xk1J
+          claim_id: c_JQd0pxENMoh3mGOzKaB8jA
+          source_id: s_cVcWnmBbmojmZH70Grwxfi
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 125310 王國光）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_cVcWnmBbmojmZH70Grwxfi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王前光（CBDB 308157）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308157&o=json
+            external_identifier: CBDB:308157
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fAeAj1ECenpg29AWYPB25D
+        status: active
+        display_name: 王國光
+        merged_into_person_id: null
 ---
 
 # 王前光
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_GvhnbSfs4k75xQrdJJphA9 | 王承祖 | accepted |
+| other | p_fAeAj1ECenpg29AWYPB25D | 王國光 | accepted |
 
 ## 外部来源
 

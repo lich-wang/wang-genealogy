@@ -4,7 +4,7 @@ id: p_ddWY4cKu36BYCB9sUmQGQH
 status: active
 merged_into: null
 display_name: 王勇
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,117 @@ relationships:
         status: active
         display_name: 王大猷
         merged_into_person_id: null
+    - claim:
+        id: c_Bok2mOyzK-IRF8ju0IjYCj
+        subject_person_id: p_ddWY4cKu36BYCB9sUmQGQH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3ycLLkQiq1sG8LFTHzLFzK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_agAirXR6bldXoSpeHkxrKJ
+          claim_id: c_Bok2mOyzK-IRF8ju0IjYCj
+          source_id: s_kN_ZcUrYk0g8kRtMvnvb3E
+          stance: supports
+          locator: CBDB：兄弟 王大猷（203868）之父／母 王勇
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王大邦 与 王大猷 为同胞（CBDB 记「弟」），王大猷 之父／母即 王大邦 之父／母。
+          source:
+            id: s_kN_ZcUrYk0g8kRtMvnvb3E
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大邦（CBDB 311223）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311223&o=json
+            external_identifier: CBDB:311223
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3ycLLkQiq1sG8LFTHzLFzK
+        status: active
+        display_name: 王大邦
+        merged_into_person_id: null
+    - claim:
+        id: c_Huj7ROuPPEAFJk1UXeWP1F
+        subject_person_id: p_ddWY4cKu36BYCB9sUmQGQH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6uLL9tX2S4GHFSeMBfu12M
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mL0Rv0XrY9wA9Wt7Jkwf7d
+          claim_id: c_Huj7ROuPPEAFJk1UXeWP1F
+          source_id: s_ENPQcaFOAX5GpHE4yegLat
+          stance: supports
+          locator: CBDB：兄弟 王大猷（203868）之父／母 王勇
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王大化 与 王大猷 为同胞（CBDB 记「兄」），王大猷 之父／母即 王大化 之父／母。
+          source:
+            id: s_ENPQcaFOAX5GpHE4yegLat
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大化（CBDB 311225）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311225&o=json
+            external_identifier: CBDB:311225
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6uLL9tX2S4GHFSeMBfu12M
+        status: active
+        display_name: 王大化
+        merged_into_person_id: null
+    - claim:
+        id: c_FagXubjf-kzPfPR7jfekqP
+        subject_person_id: p_ddWY4cKu36BYCB9sUmQGQH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_y7eWQwh7UFq3mJX911UE5D
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5vUlPKeQjOokbutFVuoTxJ
+          claim_id: c_FagXubjf-kzPfPR7jfekqP
+          source_id: s_7k2SBg2diI1WINV_gDugGH
+          stance: supports
+          locator: CBDB：兄弟 王大猷（203868）之父／母 王勇
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王大政 与 王大猷 为同胞（CBDB 记「弟」），王大猷 之父／母即 王大政 之父／母。
+          source:
+            id: s_7k2SBg2diI1WINV_gDugGH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大政（CBDB 311224）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311224&o=json
+            external_identifier: CBDB:311224
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_y7eWQwh7UFq3mJX911UE5D
+        status: active
+        display_name: 王大政
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -161,9 +272,15 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_dBDSp35EhkaWHCV6D81q6n | 王大猷 | accepted |
+| children | p_3ycLLkQiq1sG8LFTHzLFzK | 王大邦 | accepted |
+| children | p_6uLL9tX2S4GHFSeMBfu12M | 王大化 | accepted |
+| children | p_y7eWQwh7UFq3mJX911UE5D | 王大政 | accepted |
 | spouses | p_WQnWovSFrYDkJc9QHdes5H | 沈氏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：沈氏(王大猷母)（CBDB 311221）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311221&o=json)
+- [中国历代人物传记资料库：王大邦（CBDB 311223）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311223&o=json)
+- [中国历代人物传记资料库：王大化（CBDB 311225）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311225&o=json)
+- [中国历代人物传记资料库：王大政（CBDB 311224）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311224&o=json)
 - [中国历代人物传记资料库：王勇（CBDB 311219）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311219&o=json)

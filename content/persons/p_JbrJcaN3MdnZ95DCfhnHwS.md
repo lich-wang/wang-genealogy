@@ -4,7 +4,7 @@ id: p_JbrJcaN3MdnZ95DCfhnHwS
 status: active
 merged_into: null
 display_name: 王惲
-revision: 6
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -322,7 +322,44 @@ relationships:
         display_name: 王論
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_XVXcZ2XLxw-6Acq588clGB
+        subject_person_id: p_JbrJcaN3MdnZ95DCfhnHwS
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RJ3XdAGVJP9pTjuQpepXZX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pSfq5yjjHXoEULNb9foEm3
+          claim_id: c_XVXcZ2XLxw-6Acq588clGB
+          source_id: s_LMz0tiHOK1_6Ju_SXzUykY
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 141841 王惲）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_LMz0tiHOK1_6Ju_SXzUykY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王方莒（CBDB 158868）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158868&o=json
+            external_identifier: CBDB:158868
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_RJ3XdAGVJP9pTjuQpepXZX
+        status: active
+        display_name: 王方莒
+        merged_into_person_id: null
 ---
 
 # 王惲
@@ -347,9 +384,11 @@ relationships:
 | children | p_ypLYSjdE5JVFCds8U7Cu2R | 王意娘子 | accepted |
 | ancestors | p_9V8s84od5ZmB9RMgrFpSAN | 王濬 | accepted |
 | ancestors | p_FYLvHDnSxXgRduKw9zQjET | 王論 | accepted |
+| other | p_RJ3XdAGVJP9pTjuQpepXZX | 王方莒 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王方莒（CBDB 158868）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158868&o=json)
 - [中国历代人物传记资料库：王珏（CBDB 185218）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=185218&o=json)
 - [中国历代人物传记资料库：王濬（CBDB 158867）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158867&o=json)
 - [中国历代人物传记资料库：王論（CBDB 158866）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=158866&o=json)

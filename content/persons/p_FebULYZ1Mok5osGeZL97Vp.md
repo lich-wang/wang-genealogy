@@ -4,7 +4,7 @@ id: p_FebULYZ1Mok5osGeZL97Vp
 status: active
 merged_into: null
 display_name: 王嶽
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,44 @@ relationships:
         display_name: 王景信
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_kK03qiqv-tDv957PGYyU6q
+        subject_person_id: p_786rPa2cye1V5UjnNigPhV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_FebULYZ1Mok5osGeZL97Vp
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rch7JATX-CXkmOhNln8D5S
+          claim_id: c_kK03qiqv-tDv957PGYyU6q
+          source_id: s_I93RjexzBWrCyZEEg9xv6h
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200389 王嶽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_I93RjexzBWrCyZEEg9xv6h
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崙（CBDB 257078）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257078&o=json
+            external_identifier: CBDB:257078
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_786rPa2cye1V5UjnNigPhV
+        status: active
+        display_name: 王崙
+        merged_into_person_id: null
 ---
 
 # 王嶽
@@ -241,10 +278,12 @@ relationships:
 | parents | p_1fEzNtyPjCg5rqRonPekKp | 王澤 | accepted |
 | ancestors | p_iDHYjbUs9Cnr7wU4NATWxS | 王致遠 | accepted |
 | ancestors | p_PKmXoEz6WVxAL58MjFwTD2 | 王景信 | accepted |
+| other | p_786rPa2cye1V5UjnNigPhV | 王崙 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王景信（CBDB 257072）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257072&o=json)
+- [中国历代人物传记资料库：王崙（CBDB 257078）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257078&o=json)
 - [中国历代人物传记资料库：王嶽（CBDB 200389）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200389&o=json)
 - [中国历代人物传记资料库：王澤（CBDB 257073）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257073&o=json)
 - [中国历代人物传记资料库：王致遠（CBDB 257071）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257071&o=json)

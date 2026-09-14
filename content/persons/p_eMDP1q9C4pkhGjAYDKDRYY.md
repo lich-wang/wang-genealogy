@@ -4,7 +4,7 @@ id: p_eMDP1q9C4pkhGjAYDKDRYY
 status: active
 merged_into: null
 display_name: 王相
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,118 @@ relationships:
         display_name: 王溢
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ieobfZ6jgASV7HlbXo3lVc
+        subject_person_id: p_5PM57LBmM2Zn9DXGq8G5ur
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_eMDP1q9C4pkhGjAYDKDRYY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_prjVAE9maGRm89XyP_keLY
+          claim_id: c_ieobfZ6jgASV7HlbXo3lVc
+          source_id: s_PWAiD0jVvhdFvM6xw5NE4-
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200038 王相）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_PWAiD0jVvhdFvM6xw5NE4-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王臣（CBDB 253012）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253012&o=json
+            external_identifier: CBDB:253012
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5PM57LBmM2Zn9DXGq8G5ur
+        status: active
+        display_name: 王臣
+        merged_into_person_id: null
+    - claim:
+        id: c_QtKV5PBmNQ10nrwjfwEYLm
+        subject_person_id: p_DKdWehyu53DXawDAjBeLeE
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_eMDP1q9C4pkhGjAYDKDRYY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5ohXbMyBlF5kejqwSjllUA
+          claim_id: c_QtKV5PBmNQ10nrwjfwEYLm
+          source_id: s_wR43jO7G3-2lqx5g6loxum
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200038 王相）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_wR43jO7G3-2lqx5g6loxum
+            source_type: api_record
+            title: 中国历代人物传记资料库：王佐（CBDB 253014）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253014&o=json
+            external_identifier: CBDB:253014
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DKdWehyu53DXawDAjBeLeE
+        status: active
+        display_name: 王佐
+        merged_into_person_id: null
+    - claim:
+        id: c_fhF8ycvELYSyBcJ7j5g2OA
+        subject_person_id: p_eMDP1q9C4pkhGjAYDKDRYY
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_sSygLJJMQZ7P7DvxBNAKDF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bW5bRRat1o_FLwrLhgKfdp
+          claim_id: c_fhF8ycvELYSyBcJ7j5g2OA
+          source_id: s_FOcyapC2VWmyLthFXpt-BX
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200038 王相）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_FOcyapC2VWmyLthFXpt-BX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王詔（CBDB 253015）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253015&o=json
+            external_identifier: CBDB:253015
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_sSygLJJMQZ7P7DvxBNAKDF
+        status: active
+        display_name: 王詔
+        merged_into_person_id: null
 ---
 
 # 王相
@@ -245,8 +356,14 @@ relationships:
 | spouses | p_wEtwwJVfUx19apR9keMrR6 | 梁氏 | accepted |
 | ancestors | p_uniLqgzge71dmTKasq5KKr | 王三 | accepted |
 | ancestors | p_NUGwp7MRutH8tF2iExKxwD | 王溢 | accepted |
+| other | p_5PM57LBmM2Zn9DXGq8G5ur | 王臣 | accepted |
+| other | p_DKdWehyu53DXawDAjBeLeE | 王佐 | accepted |
+| other | p_sSygLJJMQZ7P7DvxBNAKDF | 王詔 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：梁氏(王相妻)（CBDB 253010）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253010&o=json)
+- [中国历代人物传记资料库：王臣（CBDB 253012）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253012&o=json)
 - [中国历代人物传记资料库：王相（CBDB 200038）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200038&o=json)
+- [中国历代人物传记资料库：王詔（CBDB 253015）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253015&o=json)
+- [中国历代人物传记资料库：王佐（CBDB 253014）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253014&o=json)

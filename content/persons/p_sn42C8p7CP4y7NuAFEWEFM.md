@@ -4,7 +4,7 @@ id: p_sn42C8p7CP4y7NuAFEWEFM
 status: active
 merged_into: null
 display_name: 戴氏
-revision: 1
+revision: 2
 cbdb_id: 386695
 properties:
   - predicate: bio.summary
@@ -74,7 +74,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_StFBw5l6D9bfMtwmIvQjOi
+        subject_person_id: p_sn42C8p7CP4y7NuAFEWEFM
+        claim_kind: relationship
+        predicate: kinship.mother_of
+        object_person_id: p_4H3CFz5B9C5wCxTWKJ4ugX
+        generation_count: null
+        parent_role: mother
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_032_iQDhSokldiJsmIfS7o
+          claim_id: c_StFBw5l6D9bfMtwmIvQjOi
+          source_id: s_kKCa3DaaOJLau9Amff2nAJ
+          stance: supports
+          locator: CBDB 亲属：母（KinPerson 386695）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_kKCa3DaaOJLau9Amff2nAJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元功（CBDB 386697）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386697&o=json
+            external_identifier: CBDB:386697
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4H3CFz5B9C5wCxTWKJ4ugX
+        status: active
+        display_name: 王元功
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -124,8 +161,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_4H3CFz5B9C5wCxTWKJ4ugX | 王元功 | accepted |
 | spouses | p_Q1HXQkSMAFHi7fYuKS8duv | 王蕙 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：戴氏(王蕙妻)（CBDB 386695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386695&o=json)
+- [中国历代人物传记资料库：王元功（CBDB 386697）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386697&o=json)

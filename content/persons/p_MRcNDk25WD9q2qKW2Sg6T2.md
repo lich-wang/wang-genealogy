@@ -4,7 +4,7 @@ id: p_MRcNDk25WD9q2qKW2Sg6T2
 status: active
 merged_into: null
 display_name: 王誠
-revision: 6
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -338,7 +338,81 @@ relationships:
         status: active
         display_name: 王韓留
         merged_into_person_id: null
-  other: []
+  other:
+    - claim:
+        id: c_vxQBCrL_NTghM6F36n88My
+        subject_person_id: p_MRcNDk25WD9q2qKW2Sg6T2
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_MfuJvBCLAoVuv41EkHWqmH
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pk-hHmCD5e-1HuyW_acEj-
+          claim_id: c_vxQBCrL_NTghM6F36n88My
+          source_id: s_o-YySgW_mt_g25krZ3cWIx
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 696155 王誠）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_o-YySgW_mt_g25krZ3cWIx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王某秘（CBDB 696162）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696162&o=json
+            external_identifier: CBDB:696162
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MfuJvBCLAoVuv41EkHWqmH
+        status: active
+        display_name: 王某秘
+        merged_into_person_id: null
+    - claim:
+        id: c_u0ptFEf114RPpjtdOprEm5
+        subject_person_id: p_MRcNDk25WD9q2qKW2Sg6T2
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_cqZvbkJa9N1EqAvPNJc3zJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_O8gEsbU55HmfGFIbKYTRCH
+          claim_id: c_u0ptFEf114RPpjtdOprEm5
+          source_id: s_e4cbQmBsj08C-UoDC8bweL
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 696155 王誠）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_e4cbQmBsj08C-UoDC8bweL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文禧（CBDB 696163）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696163&o=json
+            external_identifier: CBDB:696163
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cqZvbkJa9N1EqAvPNJc3zJ
+        status: active
+        display_name: 王文禧
+        merged_into_person_id: null
 ---
 
 # 王誠
@@ -363,14 +437,18 @@ relationships:
 | ancestors | p_93knEVXDHk5dRYRuf8P4GQ | 王某贊 | accepted |
 | descendants | p_ATA13cPezR7oDEojWMksBV | 王翁怜 | accepted |
 | descendants | p_uPSpJEuAvvHGuLtXwodH7m | 王韓留 | accepted |
+| other | p_MfuJvBCLAoVuv41EkHWqmH | 王某秘 | accepted |
+| other | p_cqZvbkJa9N1EqAvPNJc3zJ | 王文禧 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王婢兒（CBDB 696182）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696182&o=json)
 - [中国历代人物传记资料库：王誠（CBDB 696155）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696155&o=json)
 - [中国历代人物传记资料库：王韓留（CBDB 696193）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696193&o=json)
+- [中国历代人物传记资料库：王某秘（CBDB 696162）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696162&o=json)
 - [中国历代人物传记资料库：王某贊（CBDB 696158）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696158&o=json)
 - [中国历代人物传记资料库：王三兒（CBDB 696171）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696171&o=json)
+- [中国历代人物传记资料库：王文禧（CBDB 696163）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696163&o=json)
 - [中国历代人物传记资料库：王翁怜（CBDB 696189）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696189&o=json)
 - [中国历代人物传记资料库：王五兒（CBDB 696169）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696169&o=json)
 - [中国历代人物传记资料库：王用和（CBDB 696168）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696168&o=json)

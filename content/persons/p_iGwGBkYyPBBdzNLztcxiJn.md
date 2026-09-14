@@ -4,7 +4,7 @@ id: p_iGwGBkYyPBBdzNLztcxiJn
 status: active
 merged_into: null
 display_name: 王璵
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_YMNYlC3jP_QaEJKUJpD1KM
+        subject_person_id: p_2uTqfNAW7muauc9J9oQHEs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iGwGBkYyPBBdzNLztcxiJn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nO0fYbrwVatm3OKWN-qVgs
+          claim_id: c_YMNYlC3jP_QaEJKUJpD1KM
+          source_id: s_xNiZMxKiaBkqLnCEJSUoX5
+          stance: supports
+          locator: CBDB：兄弟 王琮（208122）之父／母 王孟宜
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王璵 与 王琮 为同胞（CBDB 记「兄」），王琮 之父／母即 王璵 之父／母。
+          source:
+            id: s_xNiZMxKiaBkqLnCEJSUoX5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璵（CBDB 240770）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240770&o=json
+            external_identifier: CBDB:240770
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2uTqfNAW7muauc9J9oQHEs
+        status: active
+        display_name: 王孟宜
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c__rNtsCXzTvQTp0uAcfLjgH
+        subject_person_id: p_2FtChk1xSouaHotUbP87sY
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_iGwGBkYyPBBdzNLztcxiJn
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fbY6mg284E8e7rb_o_0caV
+          claim_id: c__rNtsCXzTvQTp0uAcfLjgH
+          source_id: s_xNiZMxKiaBkqLnCEJSUoX5
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 208122 王琮）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_xNiZMxKiaBkqLnCEJSUoX5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璵（CBDB 240770）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240770&o=json
+            external_identifier: CBDB:240770
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2FtChk1xSouaHotUbP87sY
+        status: active
+        display_name: 王琮
+        merged_into_person_id: null
 ---
 
 # 王璵
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_2uTqfNAW7muauc9J9oQHEs | 王孟宜 | accepted |
+| other | p_2FtChk1xSouaHotUbP87sY | 王琮 | accepted |
 
 ## 外部来源
 

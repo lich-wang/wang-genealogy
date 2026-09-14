@@ -4,7 +4,7 @@ id: p_ScLXmLf2o1TeTAygM8y8wC
 status: active
 merged_into: null
 display_name: 王康
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_yNBlCJZKEIAxlz4LfPNYyn
+        subject_person_id: p_fbcjmX688Gs2kLT5MbYSLr
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ScLXmLf2o1TeTAygM8y8wC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GTLl5tSV1NerfwqGp6QIpI
+          claim_id: c_yNBlCJZKEIAxlz4LfPNYyn
+          source_id: s_anlu_u9C2o3QoV72LyrmO9
+          stance: supports
+          locator: CBDB：兄弟 王盧（198449）之父／母 王伯堅
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王康 与 王盧 为同胞（CBDB 记「弟」），王盧 之父／母即 王康 之父／母。
+          source:
+            id: s_anlu_u9C2o3QoV72LyrmO9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王康（CBDB 273640）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273640&o=json
+            external_identifier: CBDB:273640
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fbcjmX688Gs2kLT5MbYSLr
+        status: active
+        display_name: 王伯堅
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_-SDa6aiiVT1_gvvX8GoAF2
+        subject_person_id: p_ScLXmLf2o1TeTAygM8y8wC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_YZgMMK2h5d44s5CGoUpM7o
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_auUIK5j6Xx7RCkv5jWoxNe
+          claim_id: c_-SDa6aiiVT1_gvvX8GoAF2
+          source_id: s_anlu_u9C2o3QoV72LyrmO9
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 198449 王盧）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_anlu_u9C2o3QoV72LyrmO9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王康（CBDB 273640）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273640&o=json
+            external_identifier: CBDB:273640
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_YZgMMK2h5d44s5CGoUpM7o
+        status: active
+        display_name: 王盧
+        merged_into_person_id: null
 ---
 
 # 王康
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_fbcjmX688Gs2kLT5MbYSLr | 王伯堅 | accepted |
+| other | p_YZgMMK2h5d44s5CGoUpM7o | 王盧 | accepted |
 
 ## 外部来源
 

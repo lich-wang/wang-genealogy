@@ -4,7 +4,7 @@ id: p_sQSiQnz7Twehf79tPVfVn2
 status: active
 merged_into: null
 display_name: 王璔
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_eS7iBPe8g_0Pzckx03E2lr
+        subject_person_id: p_Q9zuFMKzedcz4UHwq7tKH2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sQSiQnz7Twehf79tPVfVn2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_riFT_ldvZLTDq2m7FY1Js9
+          claim_id: c_eS7iBPe8g_0Pzckx03E2lr
+          source_id: s_l9NpfdJO5rjzRuwq9njRoU
+          stance: supports
+          locator: CBDB：兄弟 王鍭（201147）之父／母 王啟宏
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王璔 与 王鍭 为同胞（CBDB 记「兄」），王鍭 之父／母即 王璔 之父／母。
+          source:
+            id: s_l9NpfdJO5rjzRuwq9njRoU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璔（CBDB 267896）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267896&o=json
+            external_identifier: CBDB:267896
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Q9zuFMKzedcz4UHwq7tKH2
+        status: active
+        display_name: 王啟宏
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_gg8iITguLiIxJs4aY9Tyeo
+        subject_person_id: p_oJbh5LgRt8jeK3L7dfcGm6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_sQSiQnz7Twehf79tPVfVn2
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QEIyfkxXy0nRK_Ulvh0Mz7
+          claim_id: c_gg8iITguLiIxJs4aY9Tyeo
+          source_id: s_l9NpfdJO5rjzRuwq9njRoU
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201147 王鍭）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_l9NpfdJO5rjzRuwq9njRoU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璔（CBDB 267896）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267896&o=json
+            external_identifier: CBDB:267896
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oJbh5LgRt8jeK3L7dfcGm6
+        status: active
+        display_name: 王鍭
+        merged_into_person_id: null
 ---
 
 # 王璔
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Q9zuFMKzedcz4UHwq7tKH2 | 王啟宏 | accepted |
+| other | p_oJbh5LgRt8jeK3L7dfcGm6 | 王鍭 | accepted |
 
 ## 外部来源
 

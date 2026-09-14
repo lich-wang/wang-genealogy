@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王家翰
 cbdb_id: 333601
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_0AAoEW9uE5uAOdMkWe2td0
+        subject_person_id: p_wJnAf1dPfK6NuX3j1aUKFG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_SudZ5K4WPbKgZ1BfPgxDJa
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Vbd3pwvpIEUVw8BAr0r9lE
+          claim_id: c_0AAoEW9uE5uAOdMkWe2td0
+          source_id: s_7d80iYM2GSDZCJ8dOKZxJU
+          stance: supports
+          locator: CBDB：兄弟 王家屛（126627）之父／母 王宪武
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王家翰 与 王家屛 为同胞（CBDB 记「兄」），王家屛 之父／母即 王家翰 之父／母。
+          source:
+            id: s_7d80iYM2GSDZCJ8dOKZxJU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王家翰（CBDB 333601）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333601&o=json
+            external_identifier: CBDB:333601
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wJnAf1dPfK6NuX3j1aUKFG
+        status: active
+        display_name: 王宪武
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_k9H_VRllRRp4wFYZZUhv9I
+        subject_person_id: p_92Q8Er9mM6EGgtSMmLeCqJ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_SudZ5K4WPbKgZ1BfPgxDJa
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UOQYh8zQ4pieYeVdttRrKR
+          claim_id: c_k9H_VRllRRp4wFYZZUhv9I
+          source_id: s_7d80iYM2GSDZCJ8dOKZxJU
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126627 王家屛）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_7d80iYM2GSDZCJ8dOKZxJU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王家翰（CBDB 333601）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333601&o=json
+            external_identifier: CBDB:333601
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_92Q8Er9mM6EGgtSMmLeCqJ
+        status: active
+        display_name: 王家屛
+        merged_into_person_id: null
 ---
 
 # 王家翰
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wJnAf1dPfK6NuX3j1aUKFG | 王宪武 | accepted |
+| other | p_92Q8Er9mM6EGgtSMmLeCqJ | 王家屛 | accepted |
 
 ## 外部来源
 

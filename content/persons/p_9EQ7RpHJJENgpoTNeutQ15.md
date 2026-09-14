@@ -4,7 +4,7 @@ id: p_9EQ7RpHJJENgpoTNeutQ15
 status: active
 merged_into: null
 display_name: 王珦
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -194,7 +194,81 @@ relationships:
         display_name: 王彥良
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_GWVkEOln0WKR9HMoGTZNuM
+        subject_person_id: p_9EQ7RpHJJENgpoTNeutQ15
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_EY6jMJ53DkQ5PNn2HgkTKP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0f-djSzNuA-xJ3UVO_RdRk
+          claim_id: c_GWVkEOln0WKR9HMoGTZNuM
+          source_id: s_NB9DY5_2p7L2uG0SZduDT7
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126637 王珦）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_NB9DY5_2p7L2uG0SZduDT7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璿（CBDB 251148）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251148&o=json
+            external_identifier: CBDB:251148
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EY6jMJ53DkQ5PNn2HgkTKP
+        status: active
+        display_name: 王璿
+        merged_into_person_id: null
+    - claim:
+        id: c_jx5wTLosxGdXpUjvBCZlJq
+        subject_person_id: p_9EQ7RpHJJENgpoTNeutQ15
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hyvLPzUpSi2217aRPGwhgW
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2eNLkWddXbRQw04lKeMRUh
+          claim_id: c_jx5wTLosxGdXpUjvBCZlJq
+          source_id: s_WeiF1WypS31laROO1jZDMP
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126637 王珦）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_WeiF1WypS31laROO1jZDMP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑛（CBDB 251147）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251147&o=json
+            external_identifier: CBDB:251147
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hyvLPzUpSi2217aRPGwhgW
+        status: active
+        display_name: 王瑛
+        merged_into_person_id: null
 ---
 
 # 王珦
@@ -216,8 +290,12 @@ relationships:
 | spouses | p_JQk5zLr1DU2c5A7JcPo4cg | 謝氏 | accepted |
 | ancestors | p_WniQ5aD1dTCDBDynYPgLdF | 王舍英 | accepted |
 | ancestors | p_GjaW1yRuQmTJJRQN3c2uKv | 王彥良 | accepted |
+| other | p_EY6jMJ53DkQ5PNn2HgkTKP | 王璿 | accepted |
+| other | p_hyvLPzUpSi2217aRPGwhgW | 王瑛 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王珦（CBDB 126637）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126637&o=json)
+- [中国历代人物传记资料库：王璿（CBDB 251148）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251148&o=json)
+- [中国历代人物传记资料库：王瑛（CBDB 251147）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251147&o=json)
 - [中国历代人物传记资料库：謝氏(王珦妻)（CBDB 251146）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251146&o=json)

@@ -4,7 +4,7 @@ id: p_TxHEXLnqR7Hmrn4YZb9SRE
 status: active
 merged_into: null
 display_name: 王璿
-revision: 4
+revision: 9
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,192 @@ relationships:
         display_name: 王福順
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_8YS2HcT63FfObrbviShnre
+        subject_person_id: p_1T1Wke5ggnVnXexwtbxbDR
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_TxHEXLnqR7Hmrn4YZb9SRE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TsW1_9qLtLEaVSez2TrVTF
+          claim_id: c_8YS2HcT63FfObrbviShnre
+          source_id: s_UTIZ99l9eglKHydJCsUxTJ
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199220 王璿）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_UTIZ99l9eglKHydJCsUxTJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王琮（CBDB 241891）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241891&o=json
+            external_identifier: CBDB:241891
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1T1Wke5ggnVnXexwtbxbDR
+        status: active
+        display_name: 王琮
+        merged_into_person_id: null
+    - claim:
+        id: c_iYJhtvxV7rcayavBcB-dHj
+        subject_person_id: p_2MXAMeY1VrCakKx7BdFpCV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_TxHEXLnqR7Hmrn4YZb9SRE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2YGpoyQt8ApUTLVBwwEo1P
+          claim_id: c_iYJhtvxV7rcayavBcB-dHj
+          source_id: s_ghvrXuzN66ejNvuk9P6CyY
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199220 王璿）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ghvrXuzN66ejNvuk9P6CyY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玉（CBDB 241888）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241888&o=json
+            external_identifier: CBDB:241888
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2MXAMeY1VrCakKx7BdFpCV
+        status: active
+        display_name: 王玉
+        merged_into_person_id: null
+    - claim:
+        id: c_f8LHaeEITW-6ox4lpTZZdm
+        subject_person_id: p_GKDH6wuGkDu29wkboCLWqr
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_TxHEXLnqR7Hmrn4YZb9SRE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8prDWbSwm-EUypDTZ_dlj_
+          claim_id: c_f8LHaeEITW-6ox4lpTZZdm
+          source_id: s_-UI2vXbXoLnoyMMomueoyJ
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199220 王璿）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_-UI2vXbXoLnoyMMomueoyJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珮（CBDB 241890）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241890&o=json
+            external_identifier: CBDB:241890
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GKDH6wuGkDu29wkboCLWqr
+        status: active
+        display_name: 王珮
+        merged_into_person_id: null
+    - claim:
+        id: c_Rt1fZbtYUkJIWXQs61np7d
+        subject_person_id: p_KdFzQngyh6PD5UJNYTHzVv
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_TxHEXLnqR7Hmrn4YZb9SRE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xAfrlF5rj5QE2_pSno0eI8
+          claim_id: c_Rt1fZbtYUkJIWXQs61np7d
+          source_id: s_BYk6T8KSUX-IzPb6rVJ3ws
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199220 王璿）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_BYk6T8KSUX-IzPb6rVJ3ws
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珩（CBDB 241889）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241889&o=json
+            external_identifier: CBDB:241889
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KdFzQngyh6PD5UJNYTHzVv
+        status: active
+        display_name: 王珩
+        merged_into_person_id: null
+    - claim:
+        id: c_i5nVBgBdkOrMxw-0rVi5NK
+        subject_person_id: p_TxHEXLnqR7Hmrn4YZb9SRE
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dCEZT1WezjPdG9Xoa6Z9bp
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SN6O0OLqWivk928V1MIpmY
+          claim_id: c_i5nVBgBdkOrMxw-0rVi5NK
+          source_id: s_Z4NOYcyhQ9VRO2d-i80c0Q
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199220 王璿）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Z4NOYcyhQ9VRO2d-i80c0Q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璣（CBDB 241887）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241887&o=json
+            external_identifier: CBDB:241887
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dCEZT1WezjPdG9Xoa6Z9bp
+        status: active
+        display_name: 王璣
+        merged_into_person_id: null
 ---
 
 # 王璿
@@ -240,10 +425,20 @@ relationships:
 | parents | p_8D8JJjvAk9tGe283upkqdk | 王守文 | accepted |
 | ancestors | p_EV6is4u6ewBF6CBLVqmq9F | 王道玄 | accepted |
 | ancestors | p_i3Pc3S5m7XG8sgJ7aVGwdX | 王福順 | accepted |
+| other | p_1T1Wke5ggnVnXexwtbxbDR | 王琮 | accepted |
+| other | p_2MXAMeY1VrCakKx7BdFpCV | 王玉 | accepted |
+| other | p_GKDH6wuGkDu29wkboCLWqr | 王珮 | accepted |
+| other | p_KdFzQngyh6PD5UJNYTHzVv | 王珩 | accepted |
+| other | p_dCEZT1WezjPdG9Xoa6Z9bp | 王璣 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王琮（CBDB 241891）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241891&o=json)
 - [中国历代人物传记资料库：王道玄（CBDB 241882）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241882&o=json)
 - [中国历代人物传记资料库：王福順（CBDB 241881）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241881&o=json)
+- [中国历代人物传记资料库：王珩（CBDB 241889）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241889&o=json)
+- [中国历代人物传记资料库：王璣（CBDB 241887）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241887&o=json)
+- [中国历代人物传记资料库：王珮（CBDB 241890）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241890&o=json)
 - [中国历代人物传记资料库：王守文（CBDB 241883）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241883&o=json)
 - [中国历代人物传记资料库：王璿（CBDB 199220）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199220&o=json)
+- [中国历代人物传记资料库：王玉（CBDB 241888）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241888&o=json)

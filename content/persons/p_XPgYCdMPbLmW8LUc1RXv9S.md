@@ -4,7 +4,7 @@ id: p_XPgYCdMPbLmW8LUc1RXv9S
 status: active
 merged_into: null
 display_name: 王萃
-revision: 1
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,125 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_6e_GeON8X0Lb_jyqVHB8-k
+        subject_person_id: p_q3ewFUkH4tvUNYqQiNKdGz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XPgYCdMPbLmW8LUc1RXv9S
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YttBq_Ouj3yQSd_D9v7knt
+          claim_id: c_6e_GeON8X0Lb_jyqVHB8-k
+          source_id: s_kzurMRtq__ccXl2ifvckRk
+          stance: supports
+          locator: CBDB：兄弟 王圖（123710）之父／母 王邦憲
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王萃 与 王圖 为同胞（CBDB 记「兄」），王圖 之父／母即 王萃 之父／母。
+          source:
+            id: s_kzurMRtq__ccXl2ifvckRk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王萃（CBDB 228111）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228111&o=json
+            external_identifier: CBDB:228111
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_q3ewFUkH4tvUNYqQiNKdGz
+        status: active
+        display_name: 王邦憲
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_vLZrDBdHPmEXRN_FmNfEYv
+        subject_person_id: p_XPgYCdMPbLmW8LUc1RXv9S
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_h3Q7yK4WppDDdJLx2W9dJW
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ekSW-img35-IjQejP74iJJ
+          claim_id: c_vLZrDBdHPmEXRN_FmNfEYv
+          source_id: s_kzurMRtq__ccXl2ifvckRk
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 123710 王圖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_kzurMRtq__ccXl2ifvckRk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王萃（CBDB 228111）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228111&o=json
+            external_identifier: CBDB:228111
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_h3Q7yK4WppDDdJLx2W9dJW
+        status: active
+        display_name: 王圖
+        merged_into_person_id: null
+    - claim:
+        id: c_mtvjeG5mbSJARuGKFUdTEL
+        subject_person_id: p_T2aW2r8VNf284ord2Teaqx
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_XPgYCdMPbLmW8LUc1RXv9S
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7in0GphrFjz9ojbaHf3iSZ
+          claim_id: c_mtvjeG5mbSJARuGKFUdTEL
+          source_id: s_kzurMRtq__ccXl2ifvckRk
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126690 王國）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_kzurMRtq__ccXl2ifvckRk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王萃（CBDB 228111）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228111&o=json
+            external_identifier: CBDB:228111
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_T2aW2r8VNf284ord2Teaqx
+        status: active
+        display_name: 王國
+        merged_into_person_id: null
 ---
 
 # 王萃
@@ -97,6 +208,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_q3ewFUkH4tvUNYqQiNKdGz | 王邦憲 | accepted |
+| other | p_h3Q7yK4WppDDdJLx2W9dJW | 王圖 | accepted |
+| other | p_T2aW2r8VNf284ord2Teaqx | 王國 | accepted |
 
 ## 外部来源
 

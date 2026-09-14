@@ -4,7 +4,7 @@ id: p_ie7MwLcUwaKdn3XbEbKjDt
 status: active
 merged_into: null
 display_name: 王懋
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_t5GzlCSiyj2gDJ16ofpXdS
+        subject_person_id: p_isvcw6EfQic2NdXZzwfKeT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ie7MwLcUwaKdn3XbEbKjDt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EIfr005wRPw6GIaH21e9hc
+          claim_id: c_t5GzlCSiyj2gDJ16ofpXdS
+          source_id: s_oDscBfIDrn40ow7XP3UTnx
+          stance: supports
+          locator: CBDB：兄弟 王術（200545）之父／母 王洪
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王懋 与 王術 为同胞（CBDB 记「兄」），王術 之父／母即 王懋 之父／母。
+          source:
+            id: s_oDscBfIDrn40ow7XP3UTnx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王懋（CBDB 259547）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259547&o=json
+            external_identifier: CBDB:259547
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_isvcw6EfQic2NdXZzwfKeT
+        status: active
+        display_name: 王洪
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_wP18h2ANj9OGp6Bj4epKn-
+        subject_person_id: p_RxU5daA7Pb2tQNaYot8QGE
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ie7MwLcUwaKdn3XbEbKjDt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0PEuHSJS6_BncQxF1i3AiZ
+          claim_id: c_wP18h2ANj9OGp6Bj4epKn-
+          source_id: s_oDscBfIDrn40ow7XP3UTnx
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200545 王術）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_oDscBfIDrn40ow7XP3UTnx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王懋（CBDB 259547）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259547&o=json
+            external_identifier: CBDB:259547
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_RxU5daA7Pb2tQNaYot8QGE
+        status: active
+        display_name: 王術
+        merged_into_person_id: null
 ---
 
 # 王懋
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_isvcw6EfQic2NdXZzwfKeT | 王洪 | accepted |
+| other | p_RxU5daA7Pb2tQNaYot8QGE | 王術 | accepted |
 
 ## 外部来源
 

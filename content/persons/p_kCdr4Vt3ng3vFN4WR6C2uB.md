@@ -4,7 +4,7 @@ id: p_kCdr4Vt3ng3vFN4WR6C2uB
 status: active
 merged_into: null
 display_name: 王尚志
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,81 @@ relationships:
         display_name: 王讓
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_J3Y0hZousWGJjh62gxZTn5
+        subject_person_id: p_77Wg266yLAs2nXX7duMNPG
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kCdr4Vt3ng3vFN4WR6C2uB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6enLriJIC8x-fVZlER9nhd
+          claim_id: c_J3Y0hZousWGJjh62gxZTn5
+          source_id: s_MKkVb_R77g_gcLzESKe_YH
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201927 王尚志）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_MKkVb_R77g_gcLzESKe_YH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王尚忠（CBDB 280593）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280593&o=json
+            external_identifier: CBDB:280593
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_77Wg266yLAs2nXX7duMNPG
+        status: active
+        display_name: 王尚忠
+        merged_into_person_id: null
+    - claim:
+        id: c_IAvPR09zjJCmuo5_5C04u_
+        subject_person_id: p_9krHiUjsyZkZorguPCMSqA
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kCdr4Vt3ng3vFN4WR6C2uB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bg4NJwL64U069eJKTEF5p7
+          claim_id: c_IAvPR09zjJCmuo5_5C04u_
+          source_id: s_WxbX0WUZ9fr37oSJ6YXKHr
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201927 王尚志）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_WxbX0WUZ9fr37oSJ6YXKHr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王譽（CBDB 280594）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280594&o=json
+            external_identifier: CBDB:280594
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9krHiUjsyZkZorguPCMSqA
+        status: active
+        display_name: 王譽
+        merged_into_person_id: null
 ---
 
 # 王尚志
@@ -240,10 +314,14 @@ relationships:
 | parents | p_dH2xuW5Lt7eGA9nJNsvby5 | 王浩 | accepted |
 | ancestors | p_P55JoyvrtsfzbA6X9e4b8E | 王志高 | accepted |
 | ancestors | p_ZAALGmvA7VXjgxTSp3NT6Q | 王讓 | accepted |
+| other | p_77Wg266yLAs2nXX7duMNPG | 王尚忠 | accepted |
+| other | p_9krHiUjsyZkZorguPCMSqA | 王譽 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王浩（CBDB 280589）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280589&o=json)
 - [中国历代人物传记资料库：王讓（CBDB 280588）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280588&o=json)
 - [中国历代人物传记资料库：王尚志（CBDB 201927）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201927&o=json)
+- [中国历代人物传记资料库：王尚忠（CBDB 280593）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280593&o=json)
+- [中国历代人物传记资料库：王譽（CBDB 280594）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280594&o=json)
 - [中国历代人物传记资料库：王志高（CBDB 280587）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280587&o=json)

@@ -4,7 +4,7 @@ id: p_46qxZEY1wVCATMP4bSgASc
 status: active
 merged_into: null
 display_name: 王雄
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,118 @@ relationships:
         display_name: 王大公
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_TCpbaTfg_tZzQznfx7xesG
+        subject_person_id: p_46qxZEY1wVCATMP4bSgASc
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_8MUDJhSwUh9TvtRQ82ftMD
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_31MPqzW8GOf1b7JjL-Bb1s
+          claim_id: c_TCpbaTfg_tZzQznfx7xesG
+          source_id: s_2cZtSIrPiviMtKY3qoZ5W1
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199540 王雄）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_2cZtSIrPiviMtKY3qoZ5W1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王傑（CBDB 246426）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246426&o=json
+            external_identifier: CBDB:246426
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8MUDJhSwUh9TvtRQ82ftMD
+        status: active
+        display_name: 王傑
+        merged_into_person_id: null
+    - claim:
+        id: c_8Yt1gAwEzOaEByG5Y9zAsp
+        subject_person_id: p_46qxZEY1wVCATMP4bSgASc
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_DeseNKP4g7aPjG5h7Y8YRM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K4XZNB3r8gdKrYKPowazhg
+          claim_id: c_8Yt1gAwEzOaEByG5Y9zAsp
+          source_id: s_CK2TPPgwWmYFXWgJPcqLSZ
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 199540 王雄）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_CK2TPPgwWmYFXWgJPcqLSZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王英（CBDB 246424）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246424&o=json
+            external_identifier: CBDB:246424
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DeseNKP4g7aPjG5h7Y8YRM
+        status: active
+        display_name: 王英
+        merged_into_person_id: null
+    - claim:
+        id: c_C6Lbo1nb3rLwe4Vu5YyYdQ
+        subject_person_id: p_46qxZEY1wVCATMP4bSgASc
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_WS94tW4F37e3Dry7ZkTKW3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_78U0W1WS5DKH8LQQIU4zXE
+          claim_id: c_C6Lbo1nb3rLwe4Vu5YyYdQ
+          source_id: s_0y4A1uKZoWsfTWL0sqzQOz
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199540 王雄）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0y4A1uKZoWsfTWL0sqzQOz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王俊（CBDB 246425）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246425&o=json
+            external_identifier: CBDB:246425
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_WS94tW4F37e3Dry7ZkTKW3
+        status: active
+        display_name: 王俊
+        merged_into_person_id: null
 ---
 
 # 王雄
@@ -245,8 +356,14 @@ relationships:
 | spouses | p_JhCF2yk57oZy5Yi9JPFxnz | 陳氏 | accepted |
 | ancestors | p_k6iPdWWUfd39z2558K8BA7 | 王士舉 | accepted |
 | ancestors | p_7PUDT8V1TTTBeu3qDvtJNQ | 王大公 | accepted |
+| other | p_8MUDJhSwUh9TvtRQ82ftMD | 王傑 | accepted |
+| other | p_DeseNKP4g7aPjG5h7Y8YRM | 王英 | accepted |
+| other | p_WS94tW4F37e3Dry7ZkTKW3 | 王俊 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：陳氏(王雄妻)（CBDB 246423）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246423&o=json)
+- [中国历代人物传记资料库：王傑（CBDB 246426）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246426&o=json)
+- [中国历代人物传记资料库：王俊（CBDB 246425）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246425&o=json)
 - [中国历代人物传记资料库：王雄（CBDB 199540）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199540&o=json)
+- [中国历代人物传记资料库：王英（CBDB 246424）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246424&o=json)

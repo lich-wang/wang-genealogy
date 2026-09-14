@@ -85,6 +85,7 @@ Markdown front matter 字段：
 - `kinship.father_of`
 - `kinship.mother_of`
 - `kinship.spouse_of`
+- `kinship.sibling_of`
 - `kinship.adoptive_parent_of`
 - `kinship.step_parent_of`
 - `kinship.ancestor_of`
@@ -100,6 +101,18 @@ PARENT --kinship.parent_of--> CHILD
 亲子边保持同一个 PARENT→CHILD 方向，但按来源明确程度使用三个谓词：明确写「父／生父」时用 `father_of`，明确写「母／生母」时用 `mother_of`，只能说明“父母之一”时用 `parent_of`。不得根据姓名、称号或传统惯例猜测。原始称谓仍写进引用的 `locator`，便于复核。旧 `parent_of` 主张的读取层只对 P22/P25、「父亲／母亲」等明确定位文字作保守兼容，冲突或不明确时仍显示「父母未详」。静态构建层为三个谓词统一投影 `parent_role: father | mother | null`，方便界面和家族树消费。
 
 `kinship.spouse_of` 是对称关系，逻辑上只表示一条主张；人物文件两端的副本必须具有同一主张 ID 和内容，由构建器检查一致性。
+
+#### 兄弟姊妹：`kinship.sibling_of`
+
+`kinship.sibling_of` 同样是对称关系（兄／弟／姊／妹），与 `spouse_of` 一致：只存一条主张，按人物 ID 字典序取较小者作 `subject`，人物文件两端副本必须具有同一主张 ID 与内容。CBDB 与族谱常直接书「兄／弟／姊／妹」，此谓词保留来源的原话，而不擅自为两人共造一个来源从未点名的父。
+
+```text
+SIBLING_A --kinship.sibling_of--> SIBLING_B
+```
+
+只接受**亲生兄弟姊妹**的同辈称谓（兄、弟、姊、妹、兄弟、姊妹等）。从兄弟、堂兄弟、表兄弟（從兄／從弟／堂兄／表兄）是**从亲**而非同胞，不映射到此谓词；「繼／庶」半兄弟以及无血缘的「义兄弟」同样不映射，避免把来源没说的事写成同胞。
+
+当来源只给出兄长而兄长的父亲另有记载时，可由该父反推出本人之父，但这条**推断出来的亲子边必须标注为「由兄弟关系推断」**（写入引用 `interpretation_note`），与来源直接陈述的亲子关系区分开。
 
 #### 跨代世系：`kinship.ancestor_of`
 

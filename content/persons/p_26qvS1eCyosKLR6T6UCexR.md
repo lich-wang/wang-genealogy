@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王時舉
 cbdb_id: 68472
-revision: 4
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -192,7 +192,81 @@ relationships:
         display_name: 王瓚
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_8drB83RbM8zUiLpTGRTb02
+        subject_person_id: p_26qvS1eCyosKLR6T6UCexR
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_9x8dgS2DMpWT4wUMNBJfce
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fOf_CoH4EZHP8BAUauUIqr
+          claim_id: c_8drB83RbM8zUiLpTGRTb02
+          source_id: s_rCN0AnUerxKsu2f3eB05s-
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 68472 王時舉）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_rCN0AnUerxKsu2f3eB05s-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王時用（CBDB 327989）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327989&o=json
+            external_identifier: CBDB:327989
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9x8dgS2DMpWT4wUMNBJfce
+        status: active
+        display_name: 王時用
+        merged_into_person_id: null
+    - claim:
+        id: c__vxNiYM4aYPoSZFmeSopNu
+        subject_person_id: p_26qvS1eCyosKLR6T6UCexR
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_HcfsKA3FvSxgK9qhNB5oxH
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9yl94T3D6dJPYJQY53idxh
+          claim_id: c__vxNiYM4aYPoSZFmeSopNu
+          source_id: s_9xGFEmrxAsakoN0v3l2evo
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 68472 王時舉）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_9xGFEmrxAsakoN0v3l2evo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王時中（CBDB 327990）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327990&o=json
+            external_identifier: CBDB:327990
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HcfsKA3FvSxgK9qhNB5oxH
+        status: active
+        display_name: 王時中
+        merged_into_person_id: null
 ---
 
 # 王時舉
@@ -213,10 +287,14 @@ relationships:
 | parents | p_xJuShEWwU75pnqgfG1d4gu | 王儀 | accepted |
 | ancestors | p_B8J4MJM8443j3KJ1vaz4JK | 王紀 | accepted |
 | ancestors | p_qJsuzF3D2EFDgfPvMtrnkn | 王瓚 | accepted |
+| other | p_9x8dgS2DMpWT4wUMNBJfce | 王時用 | accepted |
+| other | p_HcfsKA3FvSxgK9qhNB5oxH | 王時中 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王紀（CBDB 327980）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327980&o=json)
 - [中国历代人物传记资料库：王時舉（CBDB 68472）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68472&o=json)
+- [中国历代人物传记资料库：王時用（CBDB 327989）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327989&o=json)
+- [中国历代人物传记资料库：王時中（CBDB 327990）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327990&o=json)
 - [中国历代人物传记资料库：王儀（CBDB 327981）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327981&o=json)
 - [中国历代人物传记资料库：王瓚（CBDB 327979）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327979&o=json)

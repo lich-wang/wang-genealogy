@@ -4,7 +4,7 @@ id: p_mf1q4db1p2ptsEKQidLGnS
 status: active
 merged_into: null
 display_name: 王霽
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_pny3ZNMEGEgEU_P7RsCEa7
+        subject_person_id: p_SA9Pc7n2AYxZ7RijE7Kt9H
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mf1q4db1p2ptsEKQidLGnS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lI7SAJda5JK9mdcx5Zj91Q
+          claim_id: c_pny3ZNMEGEgEU_P7RsCEa7
+          source_id: s_B_iBZNfsRLL267yKgvCE40
+          stance: supports
+          locator: CBDB：兄弟 王雲（201331）之父／母 王通
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王霽 与 王雲 为同胞（CBDB 记「兄」），王雲 之父／母即 王霽 之父／母。
+          source:
+            id: s_B_iBZNfsRLL267yKgvCE40
+            source_type: api_record
+            title: 中国历代人物传记资料库：王霽（CBDB 270653）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270653&o=json
+            external_identifier: CBDB:270653
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_SA9Pc7n2AYxZ7RijE7Kt9H
+        status: active
+        display_name: 王通
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_iB_Iy7Za8hSsnNSy6JudhN
+        subject_person_id: p_kuyuiJHgUznyGsvyFU7zw8
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mf1q4db1p2ptsEKQidLGnS
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MkyfjQ081OF4OLJdSkrtqM
+          claim_id: c_iB_Iy7Za8hSsnNSy6JudhN
+          source_id: s_B_iBZNfsRLL267yKgvCE40
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201331 王雲）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_B_iBZNfsRLL267yKgvCE40
+            source_type: api_record
+            title: 中国历代人物传记资料库：王霽（CBDB 270653）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270653&o=json
+            external_identifier: CBDB:270653
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kuyuiJHgUznyGsvyFU7zw8
+        status: active
+        display_name: 王雲
+        merged_into_person_id: null
 ---
 
 # 王霽
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_SA9Pc7n2AYxZ7RijE7Kt9H | 王通 | accepted |
+| other | p_kuyuiJHgUznyGsvyFU7zw8 | 王雲 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_aVPJzcH6BjhkC1ipUpk2X8
 status: active
 merged_into: null
 display_name: 王世昌
-revision: 1
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,118 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_fMCCKT9z5CsPjro4T2J1U8
+        subject_person_id: p_aVPJzcH6BjhkC1ipUpk2X8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GVwZgkc56EAhrAFNCo5DfJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_kHOK6epKlTN9oyHO79s3eY
+          claim_id: c_fMCCKT9z5CsPjro4T2J1U8
+          source_id: s_A8KtRvATSR-5R7OqXMfa0u
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 27073）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_A8KtRvATSR-5R7OqXMfa0u
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗彭（CBDB 27076）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=27076&o=json
+            external_identifier: CBDB:27076
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GVwZgkc56EAhrAFNCo5DfJ
+        status: active
+        display_name: 王宗彭
+        merged_into_person_id: null
+    - claim:
+        id: c_locU7_siWIMU85L7bpKSem
+        subject_person_id: p_aVPJzcH6BjhkC1ipUpk2X8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RVZCHczR5vzGueh6aC2gkM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_nAcCb84Qp7CVyuMpnK-bQ7
+          claim_id: c_locU7_siWIMU85L7bpKSem
+          source_id: s_YpKcjEsxWY5Mvs8A0orufr
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 27073）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_YpKcjEsxWY5Mvs8A0orufr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗古（CBDB 27075）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=27075&o=json
+            external_identifier: CBDB:27075
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_RVZCHczR5vzGueh6aC2gkM
+        status: active
+        display_name: 王宗古
+        merged_into_person_id: null
+    - claim:
+        id: c_zyNsnOXCpXDGPy0N7PTjgT
+        subject_person_id: p_aVPJzcH6BjhkC1ipUpk2X8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rUEgLRCG3yytW75gR21hk8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_hp6WDbbXoQTGhuM7EsjUkV
+          claim_id: c_zyNsnOXCpXDGPy0N7PTjgT
+          source_id: s_bnq9BsDtPK26lDjdg9llhj
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 27073）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_bnq9BsDtPK26lDjdg9llhj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗說（CBDB 27074）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=27074&o=json
+            external_identifier: CBDB:27074
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rUEgLRCG3yytW75gR21hk8
+        status: active
+        display_name: 王宗說
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,7 +266,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_GVwZgkc56EAhrAFNCo5DfJ | 王宗彭 | accepted |
+| children | p_RVZCHczR5vzGueh6aC2gkM | 王宗古 | accepted |
+| children | p_rUEgLRCG3yytW75gR21hk8 | 王宗說 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王世昌（CBDB 27073）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=27073&o=json)
+- [中国历代人物传记资料库：王宗古（CBDB 27075）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=27075&o=json)
+- [中国历代人物传记资料库：王宗彭（CBDB 27076）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=27076&o=json)
+- [中国历代人物传记资料库：王宗說（CBDB 27074）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=27074&o=json)

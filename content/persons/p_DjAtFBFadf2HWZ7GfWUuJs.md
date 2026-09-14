@@ -4,7 +4,7 @@ id: p_DjAtFBFadf2HWZ7GfWUuJs
 status: active
 merged_into: null
 display_name: 王繼洛
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,44 @@ relationships:
         display_name: 王治
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_EJbzjUXa15UYZFUTNqMz_6
+        subject_person_id: p_DjAtFBFadf2HWZ7GfWUuJs
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_NXh9xgg8kLtc5e2wmpJnhn
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_r2DXQcgu2PZ5Csa7-W7Kwe
+          claim_id: c_EJbzjUXa15UYZFUTNqMz_6
+          source_id: s_oQ2aHHxYfCcvBHzaGmYSxq
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203382 王繼洛）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_oQ2aHHxYfCcvBHzaGmYSxq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繼濂（CBDB 303917）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303917&o=json
+            external_identifier: CBDB:303917
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NXh9xgg8kLtc5e2wmpJnhn
+        status: active
+        display_name: 王繼濂
+        merged_into_person_id: null
 ---
 
 # 王繼洛
@@ -245,8 +282,10 @@ relationships:
 | spouses | p_fKs2UBcSn6LEAhLEXCyBzU | 趙氏 | accepted |
 | ancestors | p_LwYD5M9izykPmKFWgA2jrL | 王琮 | accepted |
 | ancestors | p_kVHSgSesG6qJ2H5MWAmCGo | 王治 | accepted |
+| other | p_NXh9xgg8kLtc5e2wmpJnhn | 王繼濂 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王繼濂（CBDB 303917）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303917&o=json)
 - [中国历代人物传记资料库：王繼洛（CBDB 203382）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203382&o=json)
 - [中国历代人物传记资料库：趙氏(王繼洛妻)（CBDB 303916）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303916&o=json)

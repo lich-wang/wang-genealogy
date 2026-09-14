@@ -4,7 +4,7 @@ id: p_trUE1ub3cUR7dMLX7JC1NK
 status: active
 merged_into: null
 display_name: 王宗沐
-revision: 3
+revision: 8
 properties:
   - predicate: bio.summary
     recommended:
@@ -645,7 +645,192 @@ relationships:
         display_name: 王纉
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ZN5d2_nxVumJsglfnw1dht
+        subject_person_id: p_3F4tUNNkku3vfja1G5JLt6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_trUE1ub3cUR7dMLX7JC1NK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kd-h4gP9WN9PtHT9kw-xVT
+          claim_id: c_ZN5d2_nxVumJsglfnw1dht
+          source_id: s_0XPf_MTY6XL4IaV8QsG1Hm
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 35065 王宗沐）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0XPf_MTY6XL4IaV8QsG1Hm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗浹（CBDB 305715）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305715&o=json
+            external_identifier: CBDB:305715
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3F4tUNNkku3vfja1G5JLt6
+        status: active
+        display_name: 王宗浹
+        merged_into_person_id: null
+    - claim:
+        id: c_hKcPWnbbRvlfpWb3l-p-ts
+        subject_person_id: p_54oQ2MCjugcwbRktPkU239
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_trUE1ub3cUR7dMLX7JC1NK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_itm1z8s55Qm4Kw8mQccF4X
+          claim_id: c_hKcPWnbbRvlfpWb3l-p-ts
+          source_id: s_Ia3YMAQRfIhqdlDTUQxIO_
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 35065 王宗沐）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Ia3YMAQRfIhqdlDTUQxIO_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗洛（CBDB 305716）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305716&o=json
+            external_identifier: CBDB:305716
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_54oQ2MCjugcwbRktPkU239
+        status: active
+        display_name: 王宗洛
+        merged_into_person_id: null
+    - claim:
+        id: c_uobWWYmE9YR816pE03SLIO
+        subject_person_id: p_GpQKQxT9zUBFQw4vdP3nNA
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_trUE1ub3cUR7dMLX7JC1NK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PURBq1zY8pC-iVW09-A_qr
+          claim_id: c_uobWWYmE9YR816pE03SLIO
+          source_id: s_bY-k51yH56EGmkFDYjvf5l
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 35065 王宗沐）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_bY-k51yH56EGmkFDYjvf5l
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗淵（CBDB 305712）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305712&o=json
+            external_identifier: CBDB:305712
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GpQKQxT9zUBFQw4vdP3nNA
+        status: active
+        display_name: 王宗淵
+        merged_into_person_id: null
+    - claim:
+        id: c_w0j7AjRH0dOtkj2Xc11u2D
+        subject_person_id: p_JC7xE3RoD3x2pAoc8aYDdU
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_trUE1ub3cUR7dMLX7JC1NK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QfDvX24dXY-sWrj4QBWuj8
+          claim_id: c_w0j7AjRH0dOtkj2Xc11u2D
+          source_id: s_VolEw2rBWHhbAytAMpTkSN
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 35065 王宗沐）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_VolEw2rBWHhbAytAMpTkSN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗汜（CBDB 305714）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305714&o=json
+            external_identifier: CBDB:305714
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JC7xE3RoD3x2pAoc8aYDdU
+        status: active
+        display_name: 王宗汜
+        merged_into_person_id: null
+    - claim:
+        id: c_-MsU22ORZnWftGEyzNdTFP
+        subject_person_id: p_trUE1ub3cUR7dMLX7JC1NK
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vFzC6LMCUJFE1NE3LQd2v3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CFakwgJi71ynV1kYfoSiiN
+          claim_id: c_-MsU22ORZnWftGEyzNdTFP
+          source_id: s_0iN03tOhjm18lBcUHFnAS0
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 35065 王宗沐）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0iN03tOhjm18lBcUHFnAS0
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗湋（CBDB 305713）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305713&o=json
+            external_identifier: CBDB:305713
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vFzC6LMCUJFE1NE3LQd2v3
+        status: active
+        display_name: 王宗湋
+        merged_into_person_id: null
 ---
 
 # 王宗沐
@@ -673,6 +858,11 @@ relationships:
 | spouses | p_ox7yiximghECqCRKNggNvk | 秦氏 | accepted |
 | ancestors | p_SwDsuB67vTqP193VDVu7Pk | 王逸卿 | accepted |
 | ancestors | p_VkzS7RnDgwBF356dDv2J9B | 王纉 | accepted |
+| other | p_3F4tUNNkku3vfja1G5JLt6 | 王宗浹 | accepted |
+| other | p_54oQ2MCjugcwbRktPkU239 | 王宗洛 | accepted |
+| other | p_GpQKQxT9zUBFQw4vdP3nNA | 王宗淵 | accepted |
+| other | p_JC7xE3RoD3x2pAoc8aYDdU | 王宗汜 | accepted |
+| other | p_vFzC6LMCUJFE1NE3LQd2v3 | 王宗湋 | accepted |
 
 ## 外部来源
 
@@ -684,6 +874,11 @@ relationships:
 - [维基数据：王宗沐（Q15916933）](https://www.wikidata.org/wiki/Q15916933)
 - [中国历代人物传记资料库：王士業（CBDB 222410）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222410&o=json)
 - [中国历代人物传记资料库：王逸卿（CBDB 305708）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305708&o=json)
+- [中国历代人物传记资料库：王宗浹（CBDB 305715）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305715&o=json)
+- [中国历代人物传记资料库：王宗洛（CBDB 305716）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305716&o=json)
+- [中国历代人物传记资料库：王宗汜（CBDB 305714）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305714&o=json)
+- [中国历代人物传记资料库：王宗湋（CBDB 305713）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305713&o=json)
+- [中国历代人物传记资料库：王宗淵（CBDB 305712）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305712&o=json)
 - [中文维基百科：王宗沐](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%AE%97%E6%B2%90)
 - [CBDB 中国历代人物传记资料库：王宗沐（35065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35065&o=json)
 - [CBDB 中国历代人物传记资料库：王纉（305707）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305707&o=json)

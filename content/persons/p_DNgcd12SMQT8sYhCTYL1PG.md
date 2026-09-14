@@ -4,7 +4,7 @@ id: p_DNgcd12SMQT8sYhCTYL1PG
 status: active
 merged_into: null
 display_name: 王祎
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -383,6 +383,43 @@ relationships:
         status: active
         display_name: 王绅
         merged_into_person_id: null
+    - claim:
+        id: c_B67gAIE_MvJjye8nKo2yad
+        subject_person_id: p_DNgcd12SMQT8sYhCTYL1PG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xTfgwP195usJ93B9R8xhUq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_47Gi1l1JVHZrzDAW1sOhUh
+          claim_id: c_B67gAIE_MvJjye8nKo2yad
+          source_id: s_9UyeB-LrJ9vGwf2Y1yAJex
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 10725）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_9UyeB-LrJ9vGwf2Y1yAJex
+            source_type: api_record
+            title: 中国历代人物传记资料库：王補（CBDB 28107）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28107&o=json
+            external_identifier: CBDB:28107
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xTfgwP195usJ93B9R8xhUq
+        status: active
+        display_name: 王補
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -463,7 +500,44 @@ relationships:
         merged_into_person_id: null
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ceuhMPkpavM7KR1OJJG2qb
+        subject_person_id: p_DNgcd12SMQT8sYhCTYL1PG
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ZQzQZXVugxhW1siLgRcKU4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ce42cE9bK09M-ubNhzSSEc
+          claim_id: c_ceuhMPkpavM7KR1OJJG2qb
+          source_id: s_E7-eoPJEXZ6RqCZKiuwzJS
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 10725 王良玉）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_E7-eoPJEXZ6RqCZKiuwzJS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王良珉（CBDB 28104）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28104&o=json
+            external_identifier: CBDB:28104
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZQzQZXVugxhW1siLgRcKU4
+        status: active
+        display_name: 王良珉
+        merged_into_person_id: null
 ---
 
 # 王祎
@@ -486,7 +560,9 @@ relationships:
 | parents | p_NUMEEieJMa2uhPFskB3sYY | 王良玉 | accepted |
 | children | p_EPoEhnzxUXZ38QvoPDgs5s | 王绶 | accepted |
 | children | p_ujxGmCBGatyUsmPNvx1eeB | 王绅 | accepted |
+| children | p_xTfgwP195usJ93B9R8xhUq | 王補 | accepted |
 | spouses | p_Ae4mPuoq9HCc5nAbC92HVm | 何妙音 | accepted |
+| other | p_ZQzQZXVugxhW1siLgRcKU4 | 王良珉 | accepted |
 
 ## 外部来源
 
@@ -495,5 +571,7 @@ relationships:
 - [维基数据：王绅（Q45413317）](https://www.wikidata.org/wiki/Q45413317)
 - [维基数据：王绶（Q45413315）](https://www.wikidata.org/wiki/Q45413315)
 - [维基数据：王祎（Q15934970）](https://www.wikidata.org/wiki/Q15934970)
+- [中国历代人物传记资料库：王補（CBDB 28107）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28107&o=json)
+- [中国历代人物传记资料库：王良珉（CBDB 28104）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28104&o=json)
 - [CBDB 中国历代人物传记资料库：王褘（10726）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10726&o=json)
 - [CBDB 中国历代人物传记资料库：王良玉（10725）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10725&o=json)

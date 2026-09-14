@@ -4,7 +4,7 @@ id: p_uiFf4vBQMUg6UxPsbyczp9
 status: active
 merged_into: null
 display_name: 王臣
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_lw4JhZsk7cAZtfxOTGOK9G
+        subject_person_id: p_TDbZPwB31PQFoRWgCSDUmj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uiFf4vBQMUg6UxPsbyczp9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yDa9Xj7CL0ip7CbY_UcJzh
+          claim_id: c_lw4JhZsk7cAZtfxOTGOK9G
+          source_id: s_3ac-_HDbSeWOu0z8JhgMLP
+          stance: supports
+          locator: CBDB：兄弟 王廷（126552）之父／母 王倫
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王臣 与 王廷 为同胞（CBDB 记「兄」），王廷 之父／母即 王臣 之父／母。
+          source:
+            id: s_3ac-_HDbSeWOu0z8JhgMLP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王臣（CBDB 265498）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265498&o=json
+            external_identifier: CBDB:265498
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_TDbZPwB31PQFoRWgCSDUmj
+        status: active
+        display_name: 王倫
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Rbd_DVtV3K5XvjSsC2wh8-
+        subject_person_id: p_BoCYzTvdQ3E7NnYNTgV14j
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_uiFf4vBQMUg6UxPsbyczp9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_c9bUd6UgFCwiA3jjsLKhHl
+          claim_id: c_Rbd_DVtV3K5XvjSsC2wh8-
+          source_id: s_3ac-_HDbSeWOu0z8JhgMLP
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126552 王廷）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_3ac-_HDbSeWOu0z8JhgMLP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王臣（CBDB 265498）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265498&o=json
+            external_identifier: CBDB:265498
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BoCYzTvdQ3E7NnYNTgV14j
+        status: active
+        display_name: 王廷
+        merged_into_person_id: null
 ---
 
 # 王臣
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_TDbZPwB31PQFoRWgCSDUmj | 王倫 | accepted |
+| other | p_BoCYzTvdQ3E7NnYNTgV14j | 王廷 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_nMp3bRUZX5b7h1zfUaXGei
 status: active
 merged_into: null
 display_name: 王參
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,44 @@ relationships:
         display_name: 王希仙
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_T9lSzdcn11eMi1vgFj17gq
+        subject_person_id: p_2DPUNb8tuJPhzRR5B7kFDr
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nMp3bRUZX5b7h1zfUaXGei
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HFHmSzB7YuxMSBWSHNT2-t
+          claim_id: c_T9lSzdcn11eMi1vgFj17gq
+          source_id: s_6-zu7QlVrly12GaCeHMz11
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 199457 王參）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_6-zu7QlVrly12GaCeHMz11
+            source_type: api_record
+            title: 中国历代人物传记资料库：王斗南（CBDB 245292）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245292&o=json
+            external_identifier: CBDB:245292
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2DPUNb8tuJPhzRR5B7kFDr
+        status: active
+        display_name: 王斗南
+        merged_into_person_id: null
 ---
 
 # 王參
@@ -240,10 +277,12 @@ relationships:
 | parents | p_AUM2HxD245JgNTZGYMevph | 王鐸 | accepted |
 | ancestors | p_JDFKtu84dfZQp11C7ac8H6 | 王泰文 | accepted |
 | ancestors | p_QVC6gUA6ay4K5jJBHrjqm1 | 王希仙 | accepted |
+| other | p_2DPUNb8tuJPhzRR5B7kFDr | 王斗南 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王參（CBDB 199457）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199457&o=json)
+- [中国历代人物传记资料库：王斗南（CBDB 245292）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245292&o=json)
 - [中国历代人物传记资料库：王鐸（CBDB 245289）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245289&o=json)
 - [中国历代人物传记资料库：王泰文（CBDB 245287）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245287&o=json)
 - [中国历代人物传记资料库：王希仙（CBDB 245288）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245288&o=json)

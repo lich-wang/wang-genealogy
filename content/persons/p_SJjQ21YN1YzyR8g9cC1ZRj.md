@@ -4,7 +4,7 @@ id: p_SJjQ21YN1YzyR8g9cC1ZRj
 status: active
 merged_into: null
 display_name: 王旻
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,43 @@ relationships:
         status: active
         display_name: 王縉
         merged_into_person_id: null
+    - claim:
+        id: c_aMDqF6B_jIbNHerasKqFM3
+        subject_person_id: p_SJjQ21YN1YzyR8g9cC1ZRj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GGvBfRTcsyF3cmnrENyGsK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jfogyp01PYSK8s9rdcxcnf
+          claim_id: c_aMDqF6B_jIbNHerasKqFM3
+          source_id: s_SnonyjwmyVpxtrDGFyVDDj
+          stance: supports
+          locator: CBDB：兄弟 王縉（201041）之父／母 王旻
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王經 与 王縉 为同胞（CBDB 记「兄」），王縉 之父／母即 王經 之父／母。
+          source:
+            id: s_SnonyjwmyVpxtrDGFyVDDj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王經（CBDB 266259）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266259&o=json
+            external_identifier: CBDB:266259
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GGvBfRTcsyF3cmnrENyGsK
+        status: active
+        display_name: 王經
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_5AUJjM5DJaTK73XoVdx2Mm | 王縉 | accepted |
+| children | p_GGvBfRTcsyF3cmnrENyGsK | 王經 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王縉（CBDB 201041）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201041&o=json)
+- [中国历代人物传记资料库：王經（CBDB 266259）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266259&o=json)
 - [中国历代人物传记资料库：王旻（CBDB 266255）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266255&o=json)

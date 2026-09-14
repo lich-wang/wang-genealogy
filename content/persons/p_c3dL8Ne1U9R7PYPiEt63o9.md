@@ -4,7 +4,7 @@ id: p_c3dL8Ne1U9R7PYPiEt63o9
 status: active
 merged_into: null
 display_name: 王遵
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_25F2eS_PjjBndZ94CQMdsQ
+        subject_person_id: p_1VVqD7EPGnVHF4wrhTw5JU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_c3dL8Ne1U9R7PYPiEt63o9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_N2xCE-eMJaAha8Kcoqf_Kc
+          claim_id: c_25F2eS_PjjBndZ94CQMdsQ
+          source_id: s_uW4LVXaMYyPJpwgzNNXpMN
+          stance: supports
+          locator: CBDB：兄弟 王芳（202288）之父／母 王伯載
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王遵 与 王芳 为同胞（CBDB 记「兄」），王芳 之父／母即 王遵 之父／母。
+          source:
+            id: s_uW4LVXaMYyPJpwgzNNXpMN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遵（CBDB 286137）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=286137&o=json
+            external_identifier: CBDB:286137
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1VVqD7EPGnVHF4wrhTw5JU
+        status: active
+        display_name: 王伯載
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_13Al1r0p0qu32VoapIsxmG
+        subject_person_id: p_AEPDTFs3e2Ci1GpeDM9fLo
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_c3dL8Ne1U9R7PYPiEt63o9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LQMQArNYoNHwTB0W47E5ho
+          claim_id: c_13Al1r0p0qu32VoapIsxmG
+          source_id: s_uW4LVXaMYyPJpwgzNNXpMN
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202288 王芳）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_uW4LVXaMYyPJpwgzNNXpMN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遵（CBDB 286137）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=286137&o=json
+            external_identifier: CBDB:286137
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_AEPDTFs3e2Ci1GpeDM9fLo
+        status: active
+        display_name: 王芳
+        merged_into_person_id: null
 ---
 
 # 王遵
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_1VVqD7EPGnVHF4wrhTw5JU | 王伯載 | accepted |
+| other | p_AEPDTFs3e2Ci1GpeDM9fLo | 王芳 | accepted |
 
 ## 外部来源
 

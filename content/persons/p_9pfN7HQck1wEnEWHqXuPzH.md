@@ -4,7 +4,7 @@ id: p_9pfN7HQck1wEnEWHqXuPzH
 status: active
 merged_into: null
 display_name: 王禮
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_sAWvswkrhtrzsW-MO55Tj-
+        subject_person_id: p_Wyqe2QSiKh31LC5bvKcMQt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9pfN7HQck1wEnEWHqXuPzH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j7M5w-i1sOCbjiVDyXy3X4
+          claim_id: c_sAWvswkrhtrzsW-MO55Tj-
+          source_id: s_1m1JC1OWYhVtS5xECuZHcY
+          stance: supports
+          locator: CBDB：兄弟 王佑（67865）之父／母 王敬
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王禮 与 王佑 为同胞（CBDB 记「弟」），王佑 之父／母即 王禮 之父／母。
+          source:
+            id: s_1m1JC1OWYhVtS5xECuZHcY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禮（CBDB 257379）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257379&o=json
+            external_identifier: CBDB:257379
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Wyqe2QSiKh31LC5bvKcMQt
+        status: active
+        display_name: 王敬
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_8bF3TrUpXacngjtHJRuRce
+        subject_person_id: p_9pfN7HQck1wEnEWHqXuPzH
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_cABDg4AGMJS98TZaoLa2HU
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_km9enPsaiWwjjLq3zDetjE
+          claim_id: c_8bF3TrUpXacngjtHJRuRce
+          source_id: s_1m1JC1OWYhVtS5xECuZHcY
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 67865 王佑）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_1m1JC1OWYhVtS5xECuZHcY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禮（CBDB 257379）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257379&o=json
+            external_identifier: CBDB:257379
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cABDg4AGMJS98TZaoLa2HU
+        status: active
+        display_name: 王佑
+        merged_into_person_id: null
 ---
 
 # 王禮
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Wyqe2QSiKh31LC5bvKcMQt | 王敬 | accepted |
+| other | p_cABDg4AGMJS98TZaoLa2HU | 王佑 | accepted |
 
 ## 外部来源
 

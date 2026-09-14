@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王友亮
 cbdb_id: 58603
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -347,7 +347,44 @@ relationships:
         display_name: 王士鏡
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_qHDHP9ZYOTVyJeriUADw74
+        subject_person_id: p_FfVHT416uDZJd2Zz4UfCuv
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_moE7rJDFp2R9Aac3W4FxPZ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mGkXbKalQqzdLvt2oJZSKE
+          claim_id: c_qHDHP9ZYOTVyJeriUADw74
+          source_id: s_2_C9tp_VochkI0noZwZxkU
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 58603 王友亮）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_2_C9tp_VochkI0noZwZxkU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷亨（CBDB 517396）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=517396&o=json
+            external_identifier: CBDB:517396
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FfVHT416uDZJd2Zz4UfCuv
+        status: active
+        display_name: 王廷亨
+        merged_into_person_id: null
 ---
 
 # 王友亮
@@ -373,8 +410,10 @@ relationships:
 | children | p_mR8y3PTiCrMPbVWSCQfHXh | 王麟生 | accepted |
 | ancestors | p_oXsn4KEBt43c38UqC37ERZ | 王啟仁 | accepted |
 | ancestors | p_v5Be2QPiA238LSM91E6roL | 王士鏡 | accepted |
+| other | p_FfVHT416uDZJd2Zz4UfCuv | 王廷亨 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王廷亨（CBDB 517396）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=517396&o=json)
 - [中国历代人物传记资料库：王行恕（CBDB 517395）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=517395&o=json)
 - [中国历代人物传记资料库：王友亮（CBDB 58603）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=58603&o=json)

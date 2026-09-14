@@ -4,7 +4,7 @@ id: p_x55Ji43ffG77Vv6tFXSmuT
 status: active
 merged_into: null
 display_name: 王諧
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Rt0aKya-i9M60tFZfaplkW
+        subject_person_id: p_qqsY6t9Q8faV4F4CdLeZ5T
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_x55Ji43ffG77Vv6tFXSmuT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-yL_upjd8MZa_oFcXLnPU2
+          claim_id: c_Rt0aKya-i9M60tFZfaplkW
+          source_id: s_IiQKvT0O45o7f4CBWerSVt
+          stance: supports
+          locator: CBDB：兄弟 王謠（205360）之父／母 王本堅
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王諧 与 王謠 为同胞（CBDB 记「兄」），王謠 之父／母即 王諧 之父／母。
+          source:
+            id: s_IiQKvT0O45o7f4CBWerSVt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王諧（CBDB 332118）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332118&o=json
+            external_identifier: CBDB:332118
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qqsY6t9Q8faV4F4CdLeZ5T
+        status: active
+        display_name: 王本堅
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_kqATrxBpBCBSR_RI9_-YSU
+        subject_person_id: p_UMUkjo8ahM3AKur1S9jMgA
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_x55Ji43ffG77Vv6tFXSmuT
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MBAsIOTLU4BWBVRTGKHznX
+          claim_id: c_kqATrxBpBCBSR_RI9_-YSU
+          source_id: s_IiQKvT0O45o7f4CBWerSVt
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205360 王謠）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_IiQKvT0O45o7f4CBWerSVt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王諧（CBDB 332118）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332118&o=json
+            external_identifier: CBDB:332118
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_UMUkjo8ahM3AKur1S9jMgA
+        status: active
+        display_name: 王謠
+        merged_into_person_id: null
 ---
 
 # 王諧
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qqsY6t9Q8faV4F4CdLeZ5T | 王本堅 | accepted |
+| other | p_UMUkjo8ahM3AKur1S9jMgA | 王謠 | accepted |
 
 ## 外部来源
 

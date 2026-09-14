@@ -4,7 +4,7 @@ id: p_AsKndUgLV5THcrwWuRrJU9
 status: active
 merged_into: null
 display_name: 王君賞
-revision: 4
+revision: 12
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,303 @@ relationships:
         display_name: 王昇
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_e-NkJUxVZ6Ooj5sHPlUJN9
+        subject_person_id: p_3Cem8yLntCzkfRU6YYou77
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_AsKndUgLV5THcrwWuRrJU9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bdmyCkv5GkUkitSbPvfiSF
+          claim_id: c_e-NkJUxVZ6Ooj5sHPlUJN9
+          source_id: s_A7zUnXs2kV_I9WRNHsDHtm
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204856 王君賞）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_A7zUnXs2kV_I9WRNHsDHtm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王君揚（CBDB 325025）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325025&o=json
+            external_identifier: CBDB:325025
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3Cem8yLntCzkfRU6YYou77
+        status: active
+        display_name: 王君揚
+        merged_into_person_id: null
+    - claim:
+        id: c_pKXq9MYxx0H40XRMAWklYa
+        subject_person_id: p_7rXE8F8SviWpKYUoECL3JY
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_AsKndUgLV5THcrwWuRrJU9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5TSiPZgJdP3StgxDGogZgA
+          claim_id: c_pKXq9MYxx0H40XRMAWklYa
+          source_id: s_tDBQlYZK2ys1pv8LOQlAvb
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204856 王君賞）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_tDBQlYZK2ys1pv8LOQlAvb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王君寵（CBDB 325026）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325026&o=json
+            external_identifier: CBDB:325026
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7rXE8F8SviWpKYUoECL3JY
+        status: active
+        display_name: 王君寵
+        merged_into_person_id: null
+    - claim:
+        id: c_RQh8vGh2rjKg2Rxwe-Atrf
+        subject_person_id: p_ArrGS6zNcu6QmvQbVdkVLq
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_AsKndUgLV5THcrwWuRrJU9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rkzkrFthgPrlUN1pVkari4
+          claim_id: c_RQh8vGh2rjKg2Rxwe-Atrf
+          source_id: s_wyEsN9dtTqc1Y-6KlzR2pM
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204856 王君賞）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_wyEsN9dtTqc1Y-6KlzR2pM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王君命（CBDB 325031）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325031&o=json
+            external_identifier: CBDB:325031
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ArrGS6zNcu6QmvQbVdkVLq
+        status: active
+        display_name: 王君命
+        merged_into_person_id: null
+    - claim:
+        id: c_YXpezQPvdy_nB5G0lgdFXO
+        subject_person_id: p_AsKndUgLV5THcrwWuRrJU9
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_LLaZffQxVHiaY2kkaKJReS
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kSnf5kB323n-AYPMKNtD0X
+          claim_id: c_YXpezQPvdy_nB5G0lgdFXO
+          source_id: s_biqFBYvZy_ZgZBXIscZmUz
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204856 王君賞）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_biqFBYvZy_ZgZBXIscZmUz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王庭揚（CBDB 325029）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325029&o=json
+            external_identifier: CBDB:325029
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_LLaZffQxVHiaY2kkaKJReS
+        status: active
+        display_name: 王庭揚
+        merged_into_person_id: null
+    - claim:
+        id: c_3ynHVShWFHFy8Bhbha7Pch
+        subject_person_id: p_AsKndUgLV5THcrwWuRrJU9
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Z5quTtF4WcabyMtDi9vMMb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ictWfAaM0KRJTjKrN5_9o2
+          claim_id: c_3ynHVShWFHFy8Bhbha7Pch
+          source_id: s__cUbuWsne02kbq0DhUtmys
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204856 王君賞）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__cUbuWsne02kbq0DhUtmys
+            source_type: api_record
+            title: 中国历代人物传记资料库：王載揚（CBDB 325027）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325027&o=json
+            external_identifier: CBDB:325027
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Z5quTtF4WcabyMtDi9vMMb
+        status: active
+        display_name: 王載揚
+        merged_into_person_id: null
+    - claim:
+        id: c_rkRap_nhdCoLnVtjB4Uf8n
+        subject_person_id: p_AsKndUgLV5THcrwWuRrJU9
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ZV9mg4r8f9VvyUSHC9c8pA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KaX2cGYXvBA8VWLwdi_bAo
+          claim_id: c_rkRap_nhdCoLnVtjB4Uf8n
+          source_id: s_eewzCb4P8NGDW29AsBPQhs
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204856 王君賞）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_eewzCb4P8NGDW29AsBPQhs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王君錫（CBDB 325023）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325023&o=json
+            external_identifier: CBDB:325023
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZV9mg4r8f9VvyUSHC9c8pA
+        status: active
+        display_name: 王君錫
+        merged_into_person_id: null
+    - claim:
+        id: c_Cz_tZ01Ps7gg1xCpQ5BJOC
+        subject_person_id: p_AsKndUgLV5THcrwWuRrJU9
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_aHjRh6U4JeGwL5BvajrcS4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__K_f_mga6rDAbmIIZcfWa3
+          claim_id: c_Cz_tZ01Ps7gg1xCpQ5BJOC
+          source_id: s_7z3zuC8bOqYjIX0LB3mqQd
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204856 王君賞）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_7z3zuC8bOqYjIX0LB3mqQd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王君聘（CBDB 325028）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325028&o=json
+            external_identifier: CBDB:325028
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aHjRh6U4JeGwL5BvajrcS4
+        status: active
+        display_name: 王君聘
+        merged_into_person_id: null
+    - claim:
+        id: c_H31BOw-h_wsxFokiC7P2zn
+        subject_person_id: p_AsKndUgLV5THcrwWuRrJU9
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_yf2d89FPUSwi2cw7k6dzD8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TD_ZdLsOIvgx1ppSRdlZHk
+          claim_id: c_H31BOw-h_wsxFokiC7P2zn
+          source_id: s_kQIt41xqkxU5wEKpXWwveA
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204856 王君賞）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_kQIt41xqkxU5wEKpXWwveA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王君賜（CBDB 325024）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325024&o=json
+            external_identifier: CBDB:325024
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_yf2d89FPUSwi2cw7k6dzD8
+        status: active
+        display_name: 王君賜
+        merged_into_person_id: null
 ---
 
 # 王君賞
@@ -240,10 +536,26 @@ relationships:
 | parents | p_3UKbRHPbQbqFq84iP2CGsh | 王惠 | accepted |
 | ancestors | p_Bz9P5PTc7BGd4evB971MVu | 王純 | accepted |
 | ancestors | p_VPJ9Rzf9NCJSPLshrQkpCp | 王昇 | accepted |
+| other | p_3Cem8yLntCzkfRU6YYou77 | 王君揚 | accepted |
+| other | p_7rXE8F8SviWpKYUoECL3JY | 王君寵 | accepted |
+| other | p_ArrGS6zNcu6QmvQbVdkVLq | 王君命 | accepted |
+| other | p_LLaZffQxVHiaY2kkaKJReS | 王庭揚 | accepted |
+| other | p_Z5quTtF4WcabyMtDi9vMMb | 王載揚 | accepted |
+| other | p_ZV9mg4r8f9VvyUSHC9c8pA | 王君錫 | accepted |
+| other | p_aHjRh6U4JeGwL5BvajrcS4 | 王君聘 | accepted |
+| other | p_yf2d89FPUSwi2cw7k6dzD8 | 王君賜 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王純（CBDB 325017）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325017&o=json)
 - [中国历代人物传记资料库：王惠（CBDB 325018）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325018&o=json)
+- [中国历代人物传记资料库：王君寵（CBDB 325026）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325026&o=json)
+- [中国历代人物传记资料库：王君賜（CBDB 325024）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325024&o=json)
+- [中国历代人物传记资料库：王君命（CBDB 325031）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325031&o=json)
+- [中国历代人物传记资料库：王君聘（CBDB 325028）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325028&o=json)
 - [中国历代人物传记资料库：王君賞（CBDB 204856）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204856&o=json)
+- [中国历代人物传记资料库：王君錫（CBDB 325023）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325023&o=json)
+- [中国历代人物传记资料库：王君揚（CBDB 325025）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325025&o=json)
 - [中国历代人物传记资料库：王昇（CBDB 325016）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325016&o=json)
+- [中国历代人物传记资料库：王庭揚（CBDB 325029）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325029&o=json)
+- [中国历代人物传记资料库：王載揚（CBDB 325027）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325027&o=json)

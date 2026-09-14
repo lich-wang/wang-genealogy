@@ -4,7 +4,7 @@ id: p_WQT1Hm7LSS63rTgZwvcsM7
 status: active
 merged_into: null
 display_name: 王希堯
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,81 @@ relationships:
         display_name: 王懷
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_b-SOS7XLrnTwEF3QEiw6TX
+        subject_person_id: p_1KMWKxmzHZFsefKQXxCmAg
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_WQT1Hm7LSS63rTgZwvcsM7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ra_2fef7gPqIg1fUOKGosP
+          claim_id: c_b-SOS7XLrnTwEF3QEiw6TX
+          source_id: s_uHV7DYMsI1MAyTGc7RRe-2
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203993 王希堯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_uHV7DYMsI1MAyTGc7RRe-2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王希禹（CBDB 312978）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312978&o=json
+            external_identifier: CBDB:312978
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1KMWKxmzHZFsefKQXxCmAg
+        status: active
+        display_name: 王希禹
+        merged_into_person_id: null
+    - claim:
+        id: c_P-jkLOXBhqFDoVb3velul8
+        subject_person_id: p_WQT1Hm7LSS63rTgZwvcsM7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_sb5cjjXQ84NJKYWgy9z4Eg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eurO3y7uoeJcrjz5ImWSVm
+          claim_id: c_P-jkLOXBhqFDoVb3velul8
+          source_id: s_XSZP260uc0q9w4cLTbc_9O
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203993 王希堯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_XSZP260uc0q9w4cLTbc_9O
+            source_type: api_record
+            title: 中国历代人物传记资料库：王希舜（CBDB 312977）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312977&o=json
+            external_identifier: CBDB:312977
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_sb5cjjXQ84NJKYWgy9z4Eg
+        status: active
+        display_name: 王希舜
+        merged_into_person_id: null
 ---
 
 # 王希堯
@@ -240,10 +314,14 @@ relationships:
 | parents | p_Fn3VWmbwHWaLfGAks8JyJ5 | 王守正 | accepted |
 | ancestors | p_KmKGx7ZFKHs8bgbFhiSKKD | 王允 | accepted |
 | ancestors | p_zGe2fA1bCJMQ5BpMf3A16W | 王懷 | accepted |
+| other | p_1KMWKxmzHZFsefKQXxCmAg | 王希禹 | accepted |
+| other | p_sb5cjjXQ84NJKYWgy9z4Eg | 王希舜 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王懷（CBDB 312972）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312972&o=json)
 - [中国历代人物传记资料库：王守正（CBDB 312974）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312974&o=json)
+- [中国历代人物传记资料库：王希舜（CBDB 312977）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312977&o=json)
 - [中国历代人物传记资料库：王希堯（CBDB 203993）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203993&o=json)
+- [中国历代人物传记资料库：王希禹（CBDB 312978）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312978&o=json)
 - [中国历代人物传记资料库：王允（CBDB 312971）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312971&o=json)

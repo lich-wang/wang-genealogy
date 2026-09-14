@@ -4,7 +4,7 @@ id: p_vV52H1GLe4mb587k9pj5Z2
 status: active
 merged_into: null
 display_name: 王聘
-revision: 6
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -333,7 +333,81 @@ relationships:
         display_name: 王仕昂
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_1WmXuzYv4_l7_flqiUZAJ1
+        subject_person_id: p_araHbjoMHYRq9uqJtcwDVe
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vV52H1GLe4mb587k9pj5Z2
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BfawCHF2nlt6S3Ctobhpd3
+          claim_id: c_1WmXuzYv4_l7_flqiUZAJ1
+          source_id: s_VTIQVMV0YKeOf4bb0FLZkC
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207693 王聘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_VTIQVMV0YKeOf4bb0FLZkC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王愛（CBDB 233972）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233972&o=json
+            external_identifier: CBDB:233972
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_araHbjoMHYRq9uqJtcwDVe
+        status: active
+        display_name: 王愛
+        merged_into_person_id: null
+    - claim:
+        id: c_cP3KHvmtQP6HVceqFA9vM9
+        subject_person_id: p_rSZciCyS2LsAx5sqmuL67B
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vV52H1GLe4mb587k9pj5Z2
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uajjlgFvXJnHBMF2N77B_T
+          claim_id: c_cP3KHvmtQP6HVceqFA9vM9
+          source_id: s_7xPFkQq7FAmJdoz8a4lVpY
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207693 王聘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_7xPFkQq7FAmJdoz8a4lVpY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王取（CBDB 233973）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233973&o=json
+            external_identifier: CBDB:233973
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rSZciCyS2LsAx5sqmuL67B
+        status: active
+        display_name: 王取
+        merged_into_person_id: null
 ---
 
 # 王聘
@@ -358,12 +432,16 @@ relationships:
 | children | p_qDuVJYetLP4DJGj1cQS2NF | 王祚隆 | accepted |
 | ancestors | p_98GBPWfNFuuoAeABhuDPBA | 王民 | accepted |
 | ancestors | p_CCMccR4P954q1f51XxRvrB | 王仕昂 | accepted |
+| other | p_araHbjoMHYRq9uqJtcwDVe | 王愛 | accepted |
+| other | p_rSZciCyS2LsAx5sqmuL67B | 王取 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王愛（CBDB 233972）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233972&o=json)
 - [中国历代人物传记资料库：王朝卿（CBDB 233969）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233969&o=json)
 - [中国历代人物传记资料库：王民（CBDB 233966）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233966&o=json)
 - [中国历代人物传记资料库：王聘（CBDB 207693）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207693&o=json)
+- [中国历代人物传记资料库：王取（CBDB 233973）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233973&o=json)
 - [中国历代人物传记资料库：王仕昂（CBDB 233967）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233967&o=json)
 - [中国历代人物传记资料库：王祚恆（CBDB 233976）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233976&o=json)
 - [中国历代人物传记资料库：王祚隆（CBDB 233974）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233974&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王世揚
 cbdb_id: 126490
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -192,7 +192,44 @@ relationships:
         display_name: 王臣
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_VY2bCJe4SF-AhXmrQRcf-y
+        subject_person_id: p_9yrh3LG22eDzqwJQoBMgVx
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fNUQTeY9r9U4uZNpkZAEFJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MhM_liZMY8XmqPUEBbL-ia
+          claim_id: c_VY2bCJe4SF-AhXmrQRcf-y
+          source_id: s_uBI38ltTyIsqHEx4Lf4e1t
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126490 王世揚）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_uBI38ltTyIsqHEx4Lf4e1t
+            source_type: api_record
+            title: 中国历代人物传记资料库：王對揚（CBDB 216912）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216912&o=json
+            external_identifier: CBDB:216912
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fNUQTeY9r9U4uZNpkZAEFJ
+        status: active
+        display_name: 王對揚
+        merged_into_person_id: null
 ---
 
 # 王世揚
@@ -213,10 +250,12 @@ relationships:
 | parents | p_xpiQNZoQgcWtNfoW2kc14W | 王允武 | accepted |
 | ancestors | p_EfXEWqMhu5JQP4bh8VVTtk | 王友 | accepted |
 | ancestors | p_WQ4wcYfcHhFGcEzF1kRY5Z | 王臣 | accepted |
+| other | p_fNUQTeY9r9U4uZNpkZAEFJ | 王對揚 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王臣（CBDB 216907）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216907&o=json)
+- [中国历代人物传记资料库：王對揚（CBDB 216912）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216912&o=json)
 - [中国历代人物传记资料库：王世揚（CBDB 126490）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126490&o=json)
 - [中国历代人物传记资料库：王友（CBDB 216906）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216906&o=json)
 - [中国历代人物传记资料库：王允武（CBDB 216908）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216908&o=json)

@@ -4,7 +4,7 @@ id: p_Ar8Jm82UPjkwQTQshe4Qjp
 status: active
 merged_into: null
 display_name: 王和
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -194,7 +194,81 @@ relationships:
         display_name: 王斌
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_o4djrCx7OZ-MVJtpCwaq06
+        subject_person_id: p_Ar8Jm82UPjkwQTQshe4Qjp
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_BaYo71E2t2iP9LfAzJBbjd
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UBzdTjD6pCe-KVjp9mFXJe
+          claim_id: c_o4djrCx7OZ-MVJtpCwaq06
+          source_id: s_rExN4NzgCsM5n2y5DGXWlO
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126584 王和）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_rExN4NzgCsM5n2y5DGXWlO
+            source_type: api_record
+            title: 中国历代人物传记资料库：王榮（CBDB 252681）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252681&o=json
+            external_identifier: CBDB:252681
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BaYo71E2t2iP9LfAzJBbjd
+        status: active
+        display_name: 王榮
+        merged_into_person_id: null
+    - claim:
+        id: c_7Q2bnE_bGXlw4qYKsPlpBH
+        subject_person_id: p_Ar8Jm82UPjkwQTQshe4Qjp
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_F5Q1n952LWrS6kAA5QZt8u
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4AX3IYlh4ZBo3ysV4nETtu
+          claim_id: c_7Q2bnE_bGXlw4qYKsPlpBH
+          source_id: s_UydNNZfGy5y2u7g6UQPosT
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126584 王和）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_UydNNZfGy5y2u7g6UQPosT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王聰（CBDB 252679）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252679&o=json
+            external_identifier: CBDB:252679
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_F5Q1n952LWrS6kAA5QZt8u
+        status: active
+        display_name: 王聰
+        merged_into_person_id: null
 ---
 
 # 王和
@@ -216,8 +290,12 @@ relationships:
 | spouses | p_6e5n3vfAdWxuDaRkJDj1gr | 高氏 | accepted |
 | ancestors | p_ECAKHMRDs8Na2Nz3MQ9W4z | 王敬先 | accepted |
 | ancestors | p_bf9NCQmSwQEP6EKTE7LQQ5 | 王斌 | accepted |
+| other | p_BaYo71E2t2iP9LfAzJBbjd | 王榮 | accepted |
+| other | p_F5Q1n952LWrS6kAA5QZt8u | 王聰 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：高氏(王和妻)（CBDB 252677）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252677&o=json)
+- [中国历代人物传记资料库：王聰（CBDB 252679）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252679&o=json)
 - [中国历代人物传记资料库：王和（CBDB 126584）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126584&o=json)
+- [中国历代人物传记资料库：王榮（CBDB 252681）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252681&o=json)

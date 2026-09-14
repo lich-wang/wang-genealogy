@@ -4,7 +4,7 @@ id: p_dHFBy8GTgBZpvwKJGG8hsX
 status: active
 merged_into: null
 display_name: 王暄
-revision: 3
+revision: 11
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,303 @@ relationships:
         display_name: 王斯浩
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ra99JeiaWauVfgkqBLj83b
+        subject_person_id: p_6MNxbLMUF7ZGM2A5Z7B1Ju
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dHFBy8GTgBZpvwKJGG8hsX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AsxsqlrEIh6hw2PDbkg_bN
+          claim_id: c_ra99JeiaWauVfgkqBLj83b
+          source_id: s_jUtvX3qdzad6B0BrB1h0Q2
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199620 王暄）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_jUtvX3qdzad6B0BrB1h0Q2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王晦（CBDB 247374）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247374&o=json
+            external_identifier: CBDB:247374
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6MNxbLMUF7ZGM2A5Z7B1Ju
+        status: active
+        display_name: 王晦
+        merged_into_person_id: null
+    - claim:
+        id: c_g1x7niL32i94JhBrUil9Ef
+        subject_person_id: p_JDtg7PX3MajSBfpNGXkndC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dHFBy8GTgBZpvwKJGG8hsX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RE2wMu9y2k1DrM03eSMgXa
+          claim_id: c_g1x7niL32i94JhBrUil9Ef
+          source_id: s_w9ecAAS-06hU5Nxi74F0Gi
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199620 王暄）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_w9ecAAS-06hU5Nxi74F0Gi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王晚（CBDB 247373）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247373&o=json
+            external_identifier: CBDB:247373
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JDtg7PX3MajSBfpNGXkndC
+        status: active
+        display_name: 王晚
+        merged_into_person_id: null
+    - claim:
+        id: c_2cAnIOyze1Lvd1qK-r0aIX
+        subject_person_id: p_PKPnxZYET1wxYB5DroJAiD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dHFBy8GTgBZpvwKJGG8hsX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__gGldxV_wsNEh8y0U_3DnQ
+          claim_id: c_2cAnIOyze1Lvd1qK-r0aIX
+          source_id: s_RBFutxg_UpzVx0GJG7f-PR
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 199620 王暄）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_RBFutxg_UpzVx0GJG7f-PR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王暖（CBDB 247368）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247368&o=json
+            external_identifier: CBDB:247368
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PKPnxZYET1wxYB5DroJAiD
+        status: active
+        display_name: 王暖
+        merged_into_person_id: null
+    - claim:
+        id: c_FW7idon_op_3oLxa8eivMq
+        subject_person_id: p_Qd85uok5uH3CeT38CqAWrK
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dHFBy8GTgBZpvwKJGG8hsX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_o2kSx6Au7kOsIECWAJrfue
+          claim_id: c_FW7idon_op_3oLxa8eivMq
+          source_id: s_4-oepba6hl_pXAEry68iKT
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 199620 王暄）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_4-oepba6hl_pXAEry68iKT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昱（CBDB 247369）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247369&o=json
+            external_identifier: CBDB:247369
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Qd85uok5uH3CeT38CqAWrK
+        status: active
+        display_name: 王昱
+        merged_into_person_id: null
+    - claim:
+        id: c_DvW0SdQH2a5WdHpV_tsFRx
+        subject_person_id: p_dHFBy8GTgBZpvwKJGG8hsX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_eas684dJzw6XrZ2FgEQAEB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IYaCIlTetwY2iXPvC6dgbi
+          claim_id: c_DvW0SdQH2a5WdHpV_tsFRx
+          source_id: s_nOdPrMZKb5RW2mkZsSUSTK
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 199620 王暄）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_nOdPrMZKb5RW2mkZsSUSTK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王暲（CBDB 247370）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247370&o=json
+            external_identifier: CBDB:247370
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_eas684dJzw6XrZ2FgEQAEB
+        status: active
+        display_name: 王暲
+        merged_into_person_id: null
+    - claim:
+        id: c_jGt8bmqQt9Tdxo35z_ioc3
+        subject_person_id: p_dHFBy8GTgBZpvwKJGG8hsX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_j8SXH6XGi7kQ5wyS9QJnGN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eMJ8F3-b4cp5ifkBpS8oN5
+          claim_id: c_jGt8bmqQt9Tdxo35z_ioc3
+          source_id: s_GeE7-zA_CJEdwPuObQhCiq
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199620 王暄）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_GeE7-zA_CJEdwPuObQhCiq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王晏（CBDB 247372）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247372&o=json
+            external_identifier: CBDB:247372
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_j8SXH6XGi7kQ5wyS9QJnGN
+        status: active
+        display_name: 王晏
+        merged_into_person_id: null
+    - claim:
+        id: c_KuB018bGrP1vCIvvdeCghW
+        subject_person_id: p_dHFBy8GTgBZpvwKJGG8hsX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nNrsXs6RFoPXgHdC3SJsPS
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WhAgy9LawNjQTX36KowtsF
+          claim_id: c_KuB018bGrP1vCIvvdeCghW
+          source_id: s_02KkbDvm88fXIGqibpEwQc
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 199620 王暄）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_02KkbDvm88fXIGqibpEwQc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王普（CBDB 247367）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247367&o=json
+            external_identifier: CBDB:247367
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nNrsXs6RFoPXgHdC3SJsPS
+        status: active
+        display_name: 王普
+        merged_into_person_id: null
+    - claim:
+        id: c_ImWsKgc6lial9ugMVvFPN9
+        subject_person_id: p_dHFBy8GTgBZpvwKJGG8hsX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vnY8QMHVpKeoeFhTrCMgrm
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_H2kJ71lPirz8XE0FrV0rw7
+          claim_id: c_ImWsKgc6lial9ugMVvFPN9
+          source_id: s_frZkf4cCt4BoqOlAvbd7HY
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199620 王暄）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_frZkf4cCt4BoqOlAvbd7HY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王煚（CBDB 247371）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247371&o=json
+            external_identifier: CBDB:247371
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vnY8QMHVpKeoeFhTrCMgrm
+        status: active
+        display_name: 王煚
+        merged_into_person_id: null
 ---
 
 # 王暄
@@ -245,8 +541,24 @@ relationships:
 | spouses | p_RcohMEe4gfY6Nzm7nKZ8NH | 葉氏 | accepted |
 | ancestors | p_jf9czE6gj8V3fCw8ZoQ8o7 | 王廷玉 | accepted |
 | ancestors | p_8b5ygBMRrPL5bJPeuV8d8d | 王斯浩 | accepted |
+| other | p_6MNxbLMUF7ZGM2A5Z7B1Ju | 王晦 | accepted |
+| other | p_JDtg7PX3MajSBfpNGXkndC | 王晚 | accepted |
+| other | p_PKPnxZYET1wxYB5DroJAiD | 王暖 | accepted |
+| other | p_Qd85uok5uH3CeT38CqAWrK | 王昱 | accepted |
+| other | p_eas684dJzw6XrZ2FgEQAEB | 王暲 | accepted |
+| other | p_j8SXH6XGi7kQ5wyS9QJnGN | 王晏 | accepted |
+| other | p_nNrsXs6RFoPXgHdC3SJsPS | 王普 | accepted |
+| other | p_vnY8QMHVpKeoeFhTrCMgrm | 王煚 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王晦（CBDB 247374）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247374&o=json)
+- [中国历代人物传记资料库：王煚（CBDB 247371）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247371&o=json)
+- [中国历代人物传记资料库：王暖（CBDB 247368）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247368&o=json)
+- [中国历代人物传记资料库：王普（CBDB 247367）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247367&o=json)
+- [中国历代人物传记资料库：王晚（CBDB 247373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247373&o=json)
 - [中国历代人物传记资料库：王暄（CBDB 199620）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199620&o=json)
+- [中国历代人物传记资料库：王晏（CBDB 247372）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247372&o=json)
+- [中国历代人物传记资料库：王昱（CBDB 247369）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247369&o=json)
+- [中国历代人物传记资料库：王暲（CBDB 247370）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247370&o=json)
 - [中国历代人物传记资料库：葉氏(王暄妻)（CBDB 247366）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247366&o=json)

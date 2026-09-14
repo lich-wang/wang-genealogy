@@ -4,7 +4,7 @@ id: p_g5KSSBRpZ9iAzVfbXmLaWQ
 status: active
 merged_into: null
 display_name: 王世贞
-revision: 1
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -801,6 +801,191 @@ relationships:
         status: active
         display_name: 王氏
         merged_into_person_id: null
+    - claim:
+        id: c_LhnrW3TrFo2vjIC2jQ-kuF
+        subject_person_id: p_g5KSSBRpZ9iAzVfbXmLaWQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Bs7k1aHtNXigNLWtfKwhKR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_h7D3-kmwWt6FguyUqjT-F8
+          claim_id: c_LhnrW3TrFo2vjIC2jQ-kuF
+          source_id: s_eCjCXLLRaXCbbMIrpIQA6g
+          stance: supports
+          locator: CBDB：兄弟 王士骐（34717）之父／母 王世贞
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王世聞 与 王士骐 为同胞（CBDB 记「兄」），王士骐 之父／母即 王世聞 之父／母。
+          source:
+            id: s_eCjCXLLRaXCbbMIrpIQA6g
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世聞（CBDB 309381）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309381&o=json
+            external_identifier: CBDB:309381
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Bs7k1aHtNXigNLWtfKwhKR
+        status: active
+        display_name: 王世聞
+        merged_into_person_id: null
+    - claim:
+        id: c_SyG3G86l1Bp0lKoRXPKvuS
+        subject_person_id: p_g5KSSBRpZ9iAzVfbXmLaWQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UHRDW3P69JvMUcrzQ6VekC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zRFqp9KgIH-eOHMF5UAE8K
+          claim_id: c_SyG3G86l1Bp0lKoRXPKvuS
+          source_id: s_35J8DdTwDdJg6lko-ghoAv
+          stance: supports
+          locator: CBDB：兄弟 王士骐（34717）之父／母 王世贞
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王世業 与 王士骐 为同胞（CBDB 记「弟」），王士骐 之父／母即 王世業 之父／母。
+          source:
+            id: s_35J8DdTwDdJg6lko-ghoAv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世業（CBDB 309380）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309380&o=json
+            external_identifier: CBDB:309380
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_UHRDW3P69JvMUcrzQ6VekC
+        status: active
+        display_name: 王世業
+        merged_into_person_id: null
+    - claim:
+        id: c_lqpDc9wCsunApn11SyWBPx
+        subject_person_id: p_g5KSSBRpZ9iAzVfbXmLaWQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bixu3CovpMpopDQvWBTquK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_d9HikZ_SKyXglwOyKRQxyd
+          claim_id: c_lqpDc9wCsunApn11SyWBPx
+          source_id: s_Gxxn9ZyWFRhw25qJ0KUNgX
+          stance: supports
+          locator: CBDB：兄弟 王士骐（34717）之父／母 王世贞
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王世芳 与 王士骐 为同胞（CBDB 记「弟」），王士骐 之父／母即 王世芳 之父／母。
+          source:
+            id: s_Gxxn9ZyWFRhw25qJ0KUNgX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世芳（CBDB 309378）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309378&o=json
+            external_identifier: CBDB:309378
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_bixu3CovpMpopDQvWBTquK
+        status: active
+        display_name: 王世芳
+        merged_into_person_id: null
+    - claim:
+        id: c_P5Zj6xlPmrhc6c8NuuvHkd
+        subject_person_id: p_g5KSSBRpZ9iAzVfbXmLaWQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nsk4Vg8fuBe4wBeMQwgPmG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Bez0VcO6-xUsOryfoMS2cA
+          claim_id: c_P5Zj6xlPmrhc6c8NuuvHkd
+          source_id: s_oLaKmsI2yTEy6v5qwPrEZR
+          stance: supports
+          locator: CBDB：兄弟 王士骐（34717）之父／母 王世贞
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王世德 与 王士骐 为同胞（CBDB 记「弟」），王士骐 之父／母即 王世德 之父／母。
+          source:
+            id: s_oLaKmsI2yTEy6v5qwPrEZR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世德（CBDB 309379）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309379&o=json
+            external_identifier: CBDB:309379
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nsk4Vg8fuBe4wBeMQwgPmG
+        status: active
+        display_name: 王世德
+        merged_into_person_id: null
+    - claim:
+        id: c_nRUYb74NmAudASF_4ECy9s
+        subject_person_id: p_g5KSSBRpZ9iAzVfbXmLaWQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rDGH3CCZncX735Kd3BkFY7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PHW9qapqZu2vPlL8UGx5r3
+          claim_id: c_nRUYb74NmAudASF_4ECy9s
+          source_id: s_TJXAr8uZL-_Vl7ykSGD-tV
+          stance: supports
+          locator: CBDB：兄弟 王士骐（34717）之父／母 王世贞
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王世望 与 王士骐 为同胞（CBDB 记「兄」），王士骐 之父／母即 王世望 之父／母。
+          source:
+            id: s_TJXAr8uZL-_Vl7ykSGD-tV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世望（CBDB 309382）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309382&o=json
+            external_identifier: CBDB:309382
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rDGH3CCZncX735Kd3BkFY7
+        status: active
+        display_name: 王世望
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -985,6 +1170,11 @@ relationships:
 | children | p_wu3RJLf9zL8Fdddm53xV1K | 王士骕 | accepted |
 | children | p_QZxtZX4a29bUiQwUYcRTGh | 王士骏 | accepted |
 | children | p_cZvYCBgN67MGf6TAYHFPB7 | 王氏 | accepted |
+| children | p_Bs7k1aHtNXigNLWtfKwhKR | 王世聞 | accepted |
+| children | p_UHRDW3P69JvMUcrzQ6VekC | 王世業 | accepted |
+| children | p_bixu3CovpMpopDQvWBTquK | 王世芳 | accepted |
+| children | p_nsk4Vg8fuBe4wBeMQwgPmG | 王世德 | accepted |
+| children | p_rDGH3CCZncX735Kd3BkFY7 | 王世望 | accepted |
 | spouses | p_zeZuZNMwnhZ83ze1SKiLnN | 魏氏 | accepted |
 | ancestors | p_hhmhrJoJhGam6MtTDBQHpt | 王辂 | accepted |
 
@@ -996,6 +1186,11 @@ relationships:
 - [維基數據：王士骕（Q45446442）](https://www.wikidata.org/wiki/Q45446442)
 - [維基數據：王世贞（Q6127545）](https://www.wikidata.org/wiki/Q6127545)
 - [維基數據：王忬（Q15933350）](https://www.wikidata.org/wiki/Q15933350)
+- [中国历代人物传记资料库：王世德（CBDB 309379）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309379&o=json)
+- [中国历代人物传记资料库：王世芳（CBDB 309378）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309378&o=json)
+- [中国历代人物传记资料库：王世望（CBDB 309382）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309382&o=json)
+- [中国历代人物传记资料库：王世聞（CBDB 309381）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309381&o=json)
+- [中国历代人物传记资料库：王世業（CBDB 309380）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309380&o=json)
 - [中文维基百科：王士騏](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%A3%AB%E9%A8%8F)
 - [中文维基百科：王世贞](https://zh.wikipedia.org/wiki/王世贞)
 - [中文维基百科：王世贞](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%B8%96%E8%B4%9E)

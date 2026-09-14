@@ -4,7 +4,7 @@ id: p_cA8W3HE8oaRDDK95zAZk3W
 status: active
 merged_into: null
 display_name: 王詢
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_5J-TBEvFJ9cqCVL_hD7cpk
+        subject_person_id: p_cA8W3HE8oaRDDK95zAZk3W
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2dWicKUDsAHUdhehLJdT4y
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_gTTohngOUFzSKuxK9eT_LT
+          claim_id: c_5J-TBEvFJ9cqCVL_hD7cpk
+          source_id: s_i7hOFVZVMZVu4bf8KTd9jW
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 30034）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_i7hOFVZVMZVu4bf8KTd9jW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王振翽（CBDB 30052）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30052&o=json
+            external_identifier: CBDB:30052
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2dWicKUDsAHUdhehLJdT4y
+        status: active
+        display_name: 王振翽
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_2dWicKUDsAHUdhehLJdT4y | 王振翽 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王詢（CBDB 30034）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30034&o=json)
+- [中国历代人物传记资料库：王振翽（CBDB 30052）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30052&o=json)

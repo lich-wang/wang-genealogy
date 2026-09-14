@@ -4,7 +4,7 @@ id: p_DCXEWHeu41hY7yzKSpPNK7
 status: active
 merged_into: null
 display_name: 王斛
-revision: 4
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,155 @@ relationships:
         display_name: 王清
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_SJ4sjq_crcFRfOmzZMBwrT
+        subject_person_id: p_55H14yQgzo8QVs4BBQ28Nh
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_DCXEWHeu41hY7yzKSpPNK7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lBtQ14DKKWHGCGKJnDWJVz
+          claim_id: c_SJ4sjq_crcFRfOmzZMBwrT
+          source_id: s_VlvXqS6svoXHt2UWEsBP0N
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203566 王斛）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_VlvXqS6svoXHt2UWEsBP0N
+            source_type: api_record
+            title: 中国历代人物传记资料库：王角（CBDB 306626）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306626&o=json
+            external_identifier: CBDB:306626
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_55H14yQgzo8QVs4BBQ28Nh
+        status: active
+        display_name: 王角
+        merged_into_person_id: null
+    - claim:
+        id: c_8jNekjfwRrxzS6JnRfOQfd
+        subject_person_id: p_DCXEWHeu41hY7yzKSpPNK7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_MCyPiC4v1HM42jQDhCTDUR
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qi_Zl5sTk7wF0elZYX9w9x
+          claim_id: c_8jNekjfwRrxzS6JnRfOQfd
+          source_id: s_XbEaK5kUduyIQjdEJ-Rgol
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203566 王斛）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_XbEaK5kUduyIQjdEJ-Rgol
+            source_type: api_record
+            title: 中国历代人物传记资料库：王觶（CBDB 306627）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306627&o=json
+            external_identifier: CBDB:306627
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MCyPiC4v1HM42jQDhCTDUR
+        status: active
+        display_name: 王觶
+        merged_into_person_id: null
+    - claim:
+        id: c_eBU_8hh--q5R4ZE_bZsb9E
+        subject_person_id: p_DCXEWHeu41hY7yzKSpPNK7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dUX8BJh6C6SQnpC9k2EM6v
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BPS7kPoGzcltbp4dtTWED4
+          claim_id: c_eBU_8hh--q5R4ZE_bZsb9E
+          source_id: s_XmjGrQkJkwjkx0aONkB7Ou
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203566 王斛）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_XmjGrQkJkwjkx0aONkB7Ou
+            source_type: api_record
+            title: 中国历代人物传记资料库：王觥（CBDB 306630）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306630&o=json
+            external_identifier: CBDB:306630
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dUX8BJh6C6SQnpC9k2EM6v
+        status: active
+        display_name: 王觥
+        merged_into_person_id: null
+    - claim:
+        id: c_yea0ImBXnkUy2AKw5P8uHR
+        subject_person_id: p_DCXEWHeu41hY7yzKSpPNK7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_itqEG3DxWGUJwtsgtMEKSc
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_72AZyvAN4Qy4BTisVT0mlS
+          claim_id: c_yea0ImBXnkUy2AKw5P8uHR
+          source_id: s_s2vSI10UR3JXAnNVLq0IIS
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203566 王斛）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_s2vSI10UR3JXAnNVLq0IIS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王觪（CBDB 306629）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306629&o=json
+            external_identifier: CBDB:306629
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_itqEG3DxWGUJwtsgtMEKSc
+        status: active
+        display_name: 王觪
+        merged_into_person_id: null
 ---
 
 # 王斛
@@ -240,10 +388,18 @@ relationships:
 | parents | p_asR7CUjP1iXKvRkyGBMSJF | 王教 | accepted |
 | ancestors | p_GiRXJTzMrTmS7SYHZYijNT | 王繼宗 | accepted |
 | ancestors | p_LLXLf3xsw1XcJX2YDi1mfd | 王清 | accepted |
+| other | p_55H14yQgzo8QVs4BBQ28Nh | 王角 | accepted |
+| other | p_MCyPiC4v1HM42jQDhCTDUR | 王觶 | accepted |
+| other | p_dUX8BJh6C6SQnpC9k2EM6v | 王觥 | accepted |
+| other | p_itqEG3DxWGUJwtsgtMEKSc | 王觪 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王觥（CBDB 306630）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306630&o=json)
 - [中国历代人物传记资料库：王斛（CBDB 203566）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203566&o=json)
 - [中国历代人物传记资料库：王繼宗（CBDB 306620）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306620&o=json)
+- [中国历代人物传记资料库：王角（CBDB 306626）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306626&o=json)
 - [中国历代人物传记资料库：王教（CBDB 306622）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306622&o=json)
 - [中国历代人物传记资料库：王清（CBDB 306621）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306621&o=json)
+- [中国历代人物传记资料库：王觪（CBDB 306629）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306629&o=json)
+- [中国历代人物传记资料库：王觶（CBDB 306627）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306627&o=json)

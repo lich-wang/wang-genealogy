@@ -4,7 +4,7 @@ id: p_wPy8Ahw4bxM9rCrRM7rtSK
 status: active
 merged_into: null
 display_name: 王廉
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_GaNGcey0C3RY9-hWshEK4B
+        subject_person_id: p_CL14JPDq7MiKnM4LUKo1RE
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wPy8Ahw4bxM9rCrRM7rtSK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EqYiVqpaZiTmKkpZpNNSrk
+          claim_id: c_GaNGcey0C3RY9-hWshEK4B
+          source_id: s_L0ky5JeRBWToa5UjVYxkWQ
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 563451 王廉）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_L0ky5JeRBWToa5UjVYxkWQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王霖（CBDB 563452）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=563452&o=json
+            external_identifier: CBDB:563452
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CL14JPDq7MiKnM4LUKo1RE
+        status: active
+        display_name: 王霖
+        merged_into_person_id: null
 ---
 
 # 王廉
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_CL14JPDq7MiKnM4LUKo1RE | 王霖 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王廉（CBDB 563451）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=563451&o=json)
+- [中国历代人物传记资料库：王霖（CBDB 563452）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=563452&o=json)

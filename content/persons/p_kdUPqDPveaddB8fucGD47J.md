@@ -4,7 +4,7 @@ id: p_kdUPqDPveaddB8fucGD47J
 status: active
 merged_into: null
 display_name: 王子良
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,80 @@ relationships:
         status: active
         display_name: 王寬
         merged_into_person_id: null
+    - claim:
+        id: c_FzRw40b5tCAdapGCDrubzT
+        subject_person_id: p_kdUPqDPveaddB8fucGD47J
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1MMU5Y2TusarKyKx8pQQW7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_h7IRxd5RNYpbQAzTgI0fUi
+          claim_id: c_FzRw40b5tCAdapGCDrubzT
+          source_id: s_hBCVyzN5ezsMiUiMZtbvDD
+          stance: supports
+          locator: CBDB：兄弟 王寬（198482）之父／母 王子良
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王宏 与 王寬 为同胞（CBDB 记「兄」），王寬 之父／母即 王宏 之父／母。
+          source:
+            id: s_hBCVyzN5ezsMiUiMZtbvDD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宏（CBDB 278164）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278164&o=json
+            external_identifier: CBDB:278164
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1MMU5Y2TusarKyKx8pQQW7
+        status: active
+        display_name: 王宏
+        merged_into_person_id: null
+    - claim:
+        id: c_pFwUuu55Mo6X7X6-O7dIoC
+        subject_person_id: p_kdUPqDPveaddB8fucGD47J
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LB5DJwf8F2tvEuxMUv178b
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Zesfsgy6X91XWaIiJ6apVc
+          claim_id: c_pFwUuu55Mo6X7X6-O7dIoC
+          source_id: s_Cc83_IE4o37MbBqShvGLZt
+          stance: supports
+          locator: CBDB：兄弟 王寬（198482）之父／母 王子良
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王定 与 王寬 为同胞（CBDB 记「兄」），王寬 之父／母即 王定 之父／母。
+          source:
+            id: s_Cc83_IE4o37MbBqShvGLZt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王定（CBDB 278175）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278175&o=json
+            external_identifier: CBDB:278175
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_LB5DJwf8F2tvEuxMUv178b
+        status: active
+        display_name: 王定
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_nqkQ2QrQi1t9x1JULvJyMw | 王寬 | accepted |
+| children | p_1MMU5Y2TusarKyKx8pQQW7 | 王宏 | accepted |
+| children | p_LB5DJwf8F2tvEuxMUv178b | 王定 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王定（CBDB 278175）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278175&o=json)
+- [中国历代人物传记资料库：王宏（CBDB 278164）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278164&o=json)
 - [中国历代人物传记资料库：王子良（CBDB 278120）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278120&o=json)

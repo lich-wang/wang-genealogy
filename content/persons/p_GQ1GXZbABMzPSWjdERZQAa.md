@@ -4,7 +4,7 @@ id: p_GQ1GXZbABMzPSWjdERZQAa
 status: active
 merged_into: null
 display_name: 王心
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -220,7 +220,44 @@ relationships:
         display_name: 王雷
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_kooZdAoVBElONbsqQirgRg
+        subject_person_id: p_GQ1GXZbABMzPSWjdERZQAa
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qa6zyTPAhVF9kXZGFH1sFs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IkKNIgQdWT06Y3kQwYSvMp
+          claim_id: c_kooZdAoVBElONbsqQirgRg
+          source_id: s_KCzO3E6roVit1wWcezF94h
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203250 王心）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_KCzO3E6roVit1wWcezF94h
+            source_type: api_record
+            title: 中国历代人物传记资料库：王言（CBDB 301987）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301987&o=json
+            external_identifier: CBDB:301987
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qa6zyTPAhVF9kXZGFH1sFs
+        status: active
+        display_name: 王言
+        merged_into_person_id: null
 ---
 
 # 王心
@@ -242,6 +279,7 @@ relationships:
 | parents | p_7HAN6MZgrNF637x89HuFkG | 王浩 | accepted |
 | ancestors | p_fnym66xMbCVkiQBKbKW5mD | 王敬祥 | accepted |
 | ancestors | p_ycnqfdny49ravnSyMWF16A | 王雷 | accepted |
+| other | p_qa6zyTPAhVF9kXZGFH1sFs | 王言 | accepted |
 
 ## 外部来源
 
@@ -249,3 +287,4 @@ relationships:
 - [中国历代人物传记资料库：王敬祥（CBDB 301982）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301982&o=json)
 - [中国历代人物传记资料库：王雷（CBDB 301983）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301983&o=json)
 - [中国历代人物传记资料库：王心（CBDB 203250）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203250&o=json)
+- [中国历代人物传记资料库：王言（CBDB 301987）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301987&o=json)

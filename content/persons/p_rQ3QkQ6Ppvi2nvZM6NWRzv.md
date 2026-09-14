@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王應橫
 cbdb_id: 326285
-revision: 2
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -113,6 +113,154 @@ relationships:
         status: active
         display_name: 王讓
         merged_into_person_id: null
+    - claim:
+        id: c_Y7-GhYsCU1wyn7k9DeQleZ
+        subject_person_id: p_rQ3QkQ6Ppvi2nvZM6NWRzv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3RtE51ywWD5GzFUC7tQ6NB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mjcfV6fqaswCyJRD0aeh7d
+          claim_id: c_Y7-GhYsCU1wyn7k9DeQleZ
+          source_id: s_9Lr60_59h4-wb0Eb__sx5T
+          stance: supports
+          locator: CBDB：兄弟 王讓（126898）之父／母 王應橫
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王崇 与 王讓 为同胞（CBDB 记「兄」），王讓 之父／母即 王崇 之父／母。
+          source:
+            id: s_9Lr60_59h4-wb0Eb__sx5T
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇（CBDB 326363）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326363&o=json
+            external_identifier: CBDB:326363
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3RtE51ywWD5GzFUC7tQ6NB
+        status: active
+        display_name: 王崇
+        merged_into_person_id: null
+    - claim:
+        id: c_weJtaZwW_T-HDRztrYq0DK
+        subject_person_id: p_rQ3QkQ6Ppvi2nvZM6NWRzv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_99r2F1J51CnATEud2D97f9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AAW8pkszWM9qmLIHnjqxcf
+          claim_id: c_weJtaZwW_T-HDRztrYq0DK
+          source_id: s_mByALczy7Dcnu5Y50jTfcQ
+          stance: supports
+          locator: CBDB：兄弟 王讓（126898）之父／母 王應橫
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王瑛 与 王讓 为同胞（CBDB 记「弟」），王讓 之父／母即 王瑛 之父／母。
+          source:
+            id: s_mByALczy7Dcnu5Y50jTfcQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑛（CBDB 326341）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326341&o=json
+            external_identifier: CBDB:326341
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_99r2F1J51CnATEud2D97f9
+        status: active
+        display_name: 王瑛
+        merged_into_person_id: null
+    - claim:
+        id: c_nKN5I6Vw8IIqBG5Q8Obn40
+        subject_person_id: p_rQ3QkQ6Ppvi2nvZM6NWRzv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ay7LG1z5kPe94CeB2PjTwX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sqyiKwKXvKh2FD3W8a7q8I
+          claim_id: c_nKN5I6Vw8IIqBG5Q8Obn40
+          source_id: s_sbdGoo61rMrwmTFd2KMLC7
+          stance: supports
+          locator: CBDB：兄弟 王讓（126898）之父／母 王應橫
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王輔 与 王讓 为同胞（CBDB 记「弟」），王讓 之父／母即 王輔 之父／母。
+          source:
+            id: s_sbdGoo61rMrwmTFd2KMLC7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王輔（CBDB 326352）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326352&o=json
+            external_identifier: CBDB:326352
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ay7LG1z5kPe94CeB2PjTwX
+        status: active
+        display_name: 王輔
+        merged_into_person_id: null
+    - claim:
+        id: c_wPaTfjCkVvip3QXdJB7S_U
+        subject_person_id: p_rQ3QkQ6Ppvi2nvZM6NWRzv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wYvJxWc6HQA9qSJV2vXE9d
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_C9M8fPiBFuruiOkhcGsgGg
+          claim_id: c_wPaTfjCkVvip3QXdJB7S_U
+          source_id: s_9DCspi1_7szif-ayf8hqCG
+          stance: supports
+          locator: CBDB：兄弟 王讓（126898）之父／母 王應橫
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王佐 与 王讓 为同胞（CBDB 记「弟」），王讓 之父／母即 王佐 之父／母。
+          source:
+            id: s_9DCspi1_7szif-ayf8hqCG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王佐（CBDB 326330）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326330&o=json
+            external_identifier: CBDB:326330
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wYvJxWc6HQA9qSJV2vXE9d
+        status: active
+        display_name: 王佐
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -137,8 +285,16 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_H6ADXcsddQz8PL3XHF26HH | 王讓 | accepted |
+| children | p_3RtE51ywWD5GzFUC7tQ6NB | 王崇 | accepted |
+| children | p_99r2F1J51CnATEud2D97f9 | 王瑛 | accepted |
+| children | p_ay7LG1z5kPe94CeB2PjTwX | 王輔 | accepted |
+| children | p_wYvJxWc6HQA9qSJV2vXE9d | 王佐 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王崇（CBDB 326363）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326363&o=json)
+- [中国历代人物传记资料库：王輔（CBDB 326352）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326352&o=json)
 - [中国历代人物传记资料库：王讓（CBDB 126898）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126898&o=json)
+- [中国历代人物传记资料库：王瑛（CBDB 326341）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326341&o=json)
 - [中国历代人物传记资料库：王應橫（CBDB 326285）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326285&o=json)
+- [中国历代人物传记资料库：王佐（CBDB 326330）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326330&o=json)

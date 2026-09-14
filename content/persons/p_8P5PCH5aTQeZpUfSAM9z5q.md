@@ -4,7 +4,7 @@ id: p_8P5PCH5aTQeZpUfSAM9z5q
 status: active
 merged_into: null
 display_name: 王儼
-revision: 4
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -191,7 +191,155 @@ relationships:
         display_name: 王子民
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_E3wJS2iFTzKBgqz_xrFP3R
+        subject_person_id: p_8P5PCH5aTQeZpUfSAM9z5q
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_H79E2J3UD3ByBPKMg6zotE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eBAlkoMPZ_THpSPCv_7mR5
+          claim_id: c_E3wJS2iFTzKBgqz_xrFP3R
+          source_id: s_KbsI4MzEoH3PdfsgO-yq0e
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126889 王儼）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_KbsI4MzEoH3PdfsgO-yq0e
+            source_type: api_record
+            title: 中国历代人物传记资料库：王佐（CBDB 244028）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244028&o=json
+            external_identifier: CBDB:244028
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_H79E2J3UD3ByBPKMg6zotE
+        status: active
+        display_name: 王佐
+        merged_into_person_id: null
+    - claim:
+        id: c_YeOnifyTyo6rvPVnrfqfdd
+        subject_person_id: p_8P5PCH5aTQeZpUfSAM9z5q
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_NgjQSpqLAjBED7fZd64vVd
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_W_8okwKpYFznYjsym5DcpU
+          claim_id: c_YeOnifyTyo6rvPVnrfqfdd
+          source_id: s_L_6wUw31k5w1_Qrdafk7jO
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126889 王儼）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_L_6wUw31k5w1_Qrdafk7jO
+            source_type: api_record
+            title: 中国历代人物传记资料库：王倬（CBDB 244032）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244032&o=json
+            external_identifier: CBDB:244032
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NgjQSpqLAjBED7fZd64vVd
+        status: active
+        display_name: 王倬
+        merged_into_person_id: null
+    - claim:
+        id: c_arr0XwTb9j8SbRJWyyMD8o
+        subject_person_id: p_8P5PCH5aTQeZpUfSAM9z5q
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_PvZ7cBcD4cQCsJ3pGVxsFN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bb3DL8UjOJS8CQWX1E8BCo
+          claim_id: c_arr0XwTb9j8SbRJWyyMD8o
+          source_id: s_uaM2ltNY-61YfFklYagJZL
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126889 王儼）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_uaM2ltNY-61YfFklYagJZL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王傑（CBDB 244031）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244031&o=json
+            external_identifier: CBDB:244031
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PvZ7cBcD4cQCsJ3pGVxsFN
+        status: active
+        display_name: 王傑
+        merged_into_person_id: null
+    - claim:
+        id: c_xvmZuaoydANyfA-x9iRDiQ
+        subject_person_id: p_8P5PCH5aTQeZpUfSAM9z5q
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_pgLBGCwwfvD5o1ggdN92mm
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Pp7SMsqUXfb_00Y257IA19
+          claim_id: c_xvmZuaoydANyfA-x9iRDiQ
+          source_id: s_SQuzuMsWL2pR4zdrXwNPPm
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126889 王儼）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_SQuzuMsWL2pR4zdrXwNPPm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王偉（CBDB 244029）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244029&o=json
+            external_identifier: CBDB:244029
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_pgLBGCwwfvD5o1ggdN92mm
+        status: active
+        display_name: 王偉
+        merged_into_person_id: null
 ---
 
 # 王儼
@@ -212,10 +360,18 @@ relationships:
 | parents | p_1G549N2d23KvV8NGLNV5ym | 王致中 | accepted |
 | ancestors | p_YhQdL9W3hbyh6iSy4bBDfB | 王琛 | accepted |
 | ancestors | p_s2csbXjocsYcsXXrsyC9LW | 王子民 | accepted |
+| other | p_H79E2J3UD3ByBPKMg6zotE | 王佐 | accepted |
+| other | p_NgjQSpqLAjBED7fZd64vVd | 王倬 | accepted |
+| other | p_PvZ7cBcD4cQCsJ3pGVxsFN | 王傑 | accepted |
+| other | p_pgLBGCwwfvD5o1ggdN92mm | 王偉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王琛（CBDB 244024）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244024&o=json)
+- [中国历代人物传记资料库：王傑（CBDB 244031）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244031&o=json)
+- [中国历代人物传记资料库：王偉（CBDB 244029）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244029&o=json)
 - [中国历代人物传记资料库：王儼（CBDB 126889）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126889&o=json)
 - [中国历代人物传记资料库：王致中（CBDB 244025）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244025&o=json)
+- [中国历代人物传记资料库：王倬（CBDB 244032）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244032&o=json)
 - [中国历代人物传记资料库：王子民（CBDB 244023）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244023&o=json)
+- [中国历代人物传记资料库：王佐（CBDB 244028）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244028&o=json)

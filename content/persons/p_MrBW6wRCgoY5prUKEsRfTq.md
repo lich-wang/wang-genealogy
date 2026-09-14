@@ -4,7 +4,7 @@ id: p_MrBW6wRCgoY5prUKEsRfTq
 status: active
 merged_into: null
 display_name: 王廷賓
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,117 @@ relationships:
         status: active
         display_name: 王霽
         merged_into_person_id: null
+    - claim:
+        id: c_fHFzLwAjQpcTNU_hsKZTDr
+        subject_person_id: p_MrBW6wRCgoY5prUKEsRfTq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cqJ4sVKG8Fe1fPgngScBnC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K1hqTlK4_m7bLmxItLcFP7
+          claim_id: c_fHFzLwAjQpcTNU_hsKZTDr
+          source_id: s_Z9mWEMgTuWDv3Aty1tVS3K
+          stance: supports
+          locator: CBDB：兄弟 王霽（203388）之父／母 王廷賓
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王霖 与 王霽 为同胞（CBDB 记「弟」），王霽 之父／母即 王霖 之父／母。
+          source:
+            id: s_Z9mWEMgTuWDv3Aty1tVS3K
+            source_type: api_record
+            title: 中国历代人物传记资料库：王霖（CBDB 303982）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303982&o=json
+            external_identifier: CBDB:303982
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cqJ4sVKG8Fe1fPgngScBnC
+        status: active
+        display_name: 王霖
+        merged_into_person_id: null
+    - claim:
+        id: c_KTXSz5J5b2mxz5ahz5eKts
+        subject_person_id: p_MrBW6wRCgoY5prUKEsRfTq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_i7318u5pAeYET3zL7UMKHH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_L0Wjj2vPwXazmByifRDDgy
+          claim_id: c_KTXSz5J5b2mxz5ahz5eKts
+          source_id: s_IXnNe9Yp0e0H3ng3s2TMTr
+          stance: supports
+          locator: CBDB：兄弟 王霽（203388）之父／母 王廷賓
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王霆 与 王霽 为同胞（CBDB 记「弟」），王霽 之父／母即 王霆 之父／母。
+          source:
+            id: s_IXnNe9Yp0e0H3ng3s2TMTr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王霆（CBDB 303983）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303983&o=json
+            external_identifier: CBDB:303983
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_i7318u5pAeYET3zL7UMKHH
+        status: active
+        display_name: 王霆
+        merged_into_person_id: null
+    - claim:
+        id: c_j5TNXknMmGRj0fD5otufZS
+        subject_person_id: p_MrBW6wRCgoY5prUKEsRfTq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vsiJdPHKW5x8uNUbMQB1QX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gVjcHN0wJVxPxj3OH9NCDC
+          claim_id: c_j5TNXknMmGRj0fD5otufZS
+          source_id: s_-r0LKWtV5Cmg5oU-bl2mM0
+          stance: supports
+          locator: CBDB：兄弟 王霽（203388）之父／母 王廷賓
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王霂 与 王霽 为同胞（CBDB 记「兄」），王霽 之父／母即 王霂 之父／母。
+          source:
+            id: s_-r0LKWtV5Cmg5oU-bl2mM0
+            source_type: api_record
+            title: 中国历代人物传记资料库：王霂（CBDB 303984）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303984&o=json
+            external_identifier: CBDB:303984
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vsiJdPHKW5x8uNUbMQB1QX
+        status: active
+        display_name: 王霂
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +235,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_xpckQ2G2t7wTNrXzHWsi53 | 王霽 | accepted |
+| children | p_cqJ4sVKG8Fe1fPgngScBnC | 王霖 | accepted |
+| children | p_i7318u5pAeYET3zL7UMKHH | 王霆 | accepted |
+| children | p_vsiJdPHKW5x8uNUbMQB1QX | 王霂 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王霖（CBDB 303982）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303982&o=json)
+- [中国历代人物传记资料库：王霂（CBDB 303984）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303984&o=json)
 - [中国历代人物传记资料库：王廷賓（CBDB 303978）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303978&o=json)
+- [中国历代人物传记资料库：王霆（CBDB 303983）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303983&o=json)

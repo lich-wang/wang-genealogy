@@ -4,7 +4,7 @@ id: p_JQSDqcZBSbRhiYBr5Yzafa
 status: active
 merged_into: null
 display_name: 王純
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,80 @@ relationships:
         status: active
         display_name: 王鎔
         merged_into_person_id: null
+    - claim:
+        id: c_CDdDpXUdFOV2K1oBB2Kpne
+        subject_person_id: p_JQSDqcZBSbRhiYBr5Yzafa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FdQANGZ8Ga1RmHrMXTBEbk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Z68cl9woOrEC90b8kbebgo
+          claim_id: c_CDdDpXUdFOV2K1oBB2Kpne
+          source_id: s_EkRVPvg8RZB4Ws2KZ-n2lT
+          stance: supports
+          locator: CBDB：兄弟 王鎔（201918）之父／母 王純
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鐸 与 王鎔 为同胞（CBDB 记「弟」），王鎔 之父／母即 王鐸 之父／母。
+          source:
+            id: s_EkRVPvg8RZB4Ws2KZ-n2lT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鐸（CBDB 280455）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280455&o=json
+            external_identifier: CBDB:280455
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FdQANGZ8Ga1RmHrMXTBEbk
+        status: active
+        display_name: 王鐸
+        merged_into_person_id: null
+    - claim:
+        id: c_TmSoEFsmYFTx11SnYeqx1R
+        subject_person_id: p_JQSDqcZBSbRhiYBr5Yzafa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZmazV7EqzR2iuMr6hjNKXA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KzVKBt24GNNlU_ROwcp0ZB
+          claim_id: c_TmSoEFsmYFTx11SnYeqx1R
+          source_id: s_azoHRlZPnD4K6SwdsuKPKG
+          stance: supports
+          locator: CBDB：兄弟 王鎔（201918）之父／母 王純
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鎰 与 王鎔 为同胞（CBDB 记「兄」），王鎔 之父／母即 王鎰 之父／母。
+          source:
+            id: s_azoHRlZPnD4K6SwdsuKPKG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎰（CBDB 280456）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280456&o=json
+            external_identifier: CBDB:280456
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZmazV7EqzR2iuMr6hjNKXA
+        status: active
+        display_name: 王鎰
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +209,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_GPJWbNZBxqcAyFkJPjejib | 王鎔 | accepted |
+| children | p_FdQANGZ8Ga1RmHrMXTBEbk | 王鐸 | accepted |
+| children | p_ZmazV7EqzR2iuMr6hjNKXA | 王鎰 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王純（CBDB 280451）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280451&o=json)
+- [中国历代人物传记资料库：王鐸（CBDB 280455）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280455&o=json)
 - [中国历代人物传记资料库：王鎔（CBDB 201918）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201918&o=json)
+- [中国历代人物传记资料库：王鎰（CBDB 280456）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280456&o=json)

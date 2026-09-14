@@ -4,7 +4,7 @@ id: p_MfuJvBCLAoVuv41EkHWqmH
 status: active
 merged_into: null
 display_name: 王某秘
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_vxQBCrL_NTghM6F36n88My
+        subject_person_id: p_MRcNDk25WD9q2qKW2Sg6T2
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_MfuJvBCLAoVuv41EkHWqmH
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pk-hHmCD5e-1HuyW_acEj-
+          claim_id: c_vxQBCrL_NTghM6F36n88My
+          source_id: s_o-YySgW_mt_g25krZ3cWIx
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 696155 王誠）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_o-YySgW_mt_g25krZ3cWIx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王某秘（CBDB 696162）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696162&o=json
+            external_identifier: CBDB:696162
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MRcNDk25WD9q2qKW2Sg6T2
+        status: active
+        display_name: 王誠
+        merged_into_person_id: null
 ---
 
 # 王某秘
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_MRcNDk25WD9q2qKW2Sg6T2 | 王誠 | accepted |
 
 ## 外部来源
 

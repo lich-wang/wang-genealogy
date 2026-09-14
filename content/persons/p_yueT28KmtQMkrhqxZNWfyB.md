@@ -4,7 +4,7 @@ id: p_yueT28KmtQMkrhqxZNWfyB
 status: active
 merged_into: null
 display_name: 王張顯
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -116,7 +116,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_8Bbe4qJ9CfYw5PHP3T6lnJ
+        subject_person_id: p_X32wGVVhaUUGRFkrujk5PE
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_yueT28KmtQMkrhqxZNWfyB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TCO5TUVzDA-ioFq-Yid_aK
+          claim_id: c_8Bbe4qJ9CfYw5PHP3T6lnJ
+          source_id: s_tyun86djoFHSJiOOPOH9ln
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 690954 王張顯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_tyun86djoFHSJiOOPOH9ln
+            source_type: api_record
+            title: 中国历代人物传记资料库：王張榮（CBDB 690955）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=690955&o=json
+            external_identifier: CBDB:690955
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_X32wGVVhaUUGRFkrujk5PE
+        status: active
+        display_name: 王張榮
+        merged_into_person_id: null
 ---
 
 # 王張顯
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_QeKezjrqjZ3pGuS4yx8R36 | 王大度 | accepted |
+| other | p_X32wGVVhaUUGRFkrujk5PE | 王張榮 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王大度（CBDB 690956）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=690956&o=json)
+- [中国历代人物传记资料库：王張榮（CBDB 690955）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=690955&o=json)
 - [中国历代人物传记资料库：王張顯（CBDB 690954）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=690954&o=json)

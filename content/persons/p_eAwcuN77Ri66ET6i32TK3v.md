@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仲莊
 cbdb_id: 26285
-revision: 1
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -161,7 +161,118 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_XTjrrDoFhe8Mpf5MvcqsHP
+        subject_person_id: p_eAwcuN77Ri66ET6i32TK3v
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_V5FBmRxupdWUxE9LxixBJK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_ZDRxO4OpYHKCI4PNuuwitu
+          claim_id: c_XTjrrDoFhe8Mpf5MvcqsHP
+          source_id: s_FGIxDqAxL6NGFxqiQd0bXB
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 26285）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_FGIxDqAxL6NGFxqiQd0bXB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗古（CBDB 26287）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26287&o=json
+            external_identifier: CBDB:26287
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_V5FBmRxupdWUxE9LxixBJK
+        status: active
+        display_name: 王宗古
+        merged_into_person_id: null
+    - claim:
+        id: c_2k8UTcbGOtbnyOTJG3nlKT
+        subject_person_id: p_eAwcuN77Ri66ET6i32TK3v
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XmaU5zRNsRw9puAqHfMW8K
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_oqJZqDwCJdz-ij14xGiImU
+          claim_id: c_2k8UTcbGOtbnyOTJG3nlKT
+          source_id: s_S81n5Tl-r47msiPpRBfITj
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 26285）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_S81n5Tl-r47msiPpRBfITj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗彥（CBDB 36564）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36564&o=json
+            external_identifier: CBDB:36564
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_XmaU5zRNsRw9puAqHfMW8K
+        status: active
+        display_name: 王宗彥
+        merged_into_person_id: null
+    - claim:
+        id: c_OBTxlemQsVUEWnXuhHCkZ_
+        subject_person_id: p_eAwcuN77Ri66ET6i32TK3v
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XtCTewFbz8pm7LcGQHafPY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_D6vLRB-hWZg9oi4LkeG4JT
+          claim_id: c_OBTxlemQsVUEWnXuhHCkZ_
+          source_id: s_ypF_AzzwirnxJBcyBnbBP3
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 26285）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_ypF_AzzwirnxJBcyBnbBP3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗道（CBDB 26286）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26286&o=json
+            external_identifier: CBDB:26286
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_XtCTewFbz8pm7LcGQHafPY
+        status: active
+        display_name: 王宗道
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -187,7 +298,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_V5FBmRxupdWUxE9LxixBJK | 王宗古 | accepted |
+| children | p_XmaU5zRNsRw9puAqHfMW8K | 王宗彥 | accepted |
+| children | p_XtCTewFbz8pm7LcGQHafPY | 王宗道 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王仲莊（CBDB 26285）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26285&o=json)
+- [中国历代人物传记资料库：王宗道（CBDB 26286）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26286&o=json)
+- [中国历代人物传记资料库：王宗古（CBDB 26287）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26287&o=json)
+- [中国历代人物传记资料库：王宗彥（CBDB 36564）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36564&o=json)

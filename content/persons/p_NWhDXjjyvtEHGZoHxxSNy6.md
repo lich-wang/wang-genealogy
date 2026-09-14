@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王實學
 cbdb_id: 306925
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_qwr_Akq08N4_55fBV7J_Nu
+        subject_person_id: p_XWoQFU6m26umasN1nUqzCk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NWhDXjjyvtEHGZoHxxSNy6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_C7Sg3sp0D0JHoK0SIXm96X
+          claim_id: c_qwr_Akq08N4_55fBV7J_Nu
+          source_id: s_CB9YMdMjxDswQoLAHNoXt2
+          stance: supports
+          locator: CBDB：兄弟 王學（203587）之父／母 王珵
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王實學 与 王學 为同胞（CBDB 记「兄」），王學 之父／母即 王實學 之父／母。
+          source:
+            id: s_CB9YMdMjxDswQoLAHNoXt2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王實學（CBDB 306925）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306925&o=json
+            external_identifier: CBDB:306925
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_XWoQFU6m26umasN1nUqzCk
+        status: active
+        display_name: 王珵
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_pzl0Ua6ic-Y7AdMbVfnS6T
+        subject_person_id: p_NWhDXjjyvtEHGZoHxxSNy6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mj43p62dQVDfJdFrwRMJq5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pg4fBel_d_tPFD7YY3tXf5
+          claim_id: c_pzl0Ua6ic-Y7AdMbVfnS6T
+          source_id: s_CB9YMdMjxDswQoLAHNoXt2
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203587 王學）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_CB9YMdMjxDswQoLAHNoXt2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王實學（CBDB 306925）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306925&o=json
+            external_identifier: CBDB:306925
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mj43p62dQVDfJdFrwRMJq5
+        status: active
+        display_name: 王學
+        merged_into_person_id: null
 ---
 
 # 王實學
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_XWoQFU6m26umasN1nUqzCk | 王珵 | accepted |
+| other | p_mj43p62dQVDfJdFrwRMJq5 | 王學 | accepted |
 
 ## 外部来源
 

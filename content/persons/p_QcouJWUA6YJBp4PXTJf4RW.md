@@ -4,7 +4,7 @@ id: p_QcouJWUA6YJBp4PXTJf4RW
 status: active
 merged_into: null
 display_name: 王師震
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_8MPTL0OAdm-HDqrCfKLx1r
+        subject_person_id: p_QcouJWUA6YJBp4PXTJf4RW
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zRfAMH39EM4tmccFUAC8rh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3cT0tyomQtHUtaKd60glNq
+          claim_id: c_8MPTL0OAdm-HDqrCfKLx1r
+          source_id: s_nr2T-k_quXXpweAOwFFwlp
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 555069 王師震）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_nr2T-k_quXXpweAOwFFwlp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王師說（CBDB 555070）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555070&o=json
+            external_identifier: CBDB:555070
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zRfAMH39EM4tmccFUAC8rh
+        status: active
+        display_name: 王師說
+        merged_into_person_id: null
 ---
 
 # 王師震
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_w1GiHCCDCJVq4Cbb8yEdBZ | 王之政 | accepted |
+| other | p_zRfAMH39EM4tmccFUAC8rh | 王師說 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王師說（CBDB 555070）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555070&o=json)
 - [中国历代人物传记资料库：王師震（CBDB 555069）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555069&o=json)

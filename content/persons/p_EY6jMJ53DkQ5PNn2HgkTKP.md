@@ -4,7 +4,7 @@ id: p_EY6jMJ53DkQ5PNn2HgkTKP
 status: active
 merged_into: null
 display_name: 王璿
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_EH3sapaxu_-cBRZoF6TnGp
+        subject_person_id: p_SVG1ddZNL58D1StuN9eK9h
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EY6jMJ53DkQ5PNn2HgkTKP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E9jcyQySluuJ9HHdohfovV
+          claim_id: c_EH3sapaxu_-cBRZoF6TnGp
+          source_id: s_NB9DY5_2p7L2uG0SZduDT7
+          stance: supports
+          locator: CBDB：兄弟 王珦（126637）之父／母 王懷德
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王璿 与 王珦 为同胞（CBDB 记「兄」），王珦 之父／母即 王璿 之父／母。
+          source:
+            id: s_NB9DY5_2p7L2uG0SZduDT7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璿（CBDB 251148）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251148&o=json
+            external_identifier: CBDB:251148
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_SVG1ddZNL58D1StuN9eK9h
+        status: active
+        display_name: 王懷德
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_GWVkEOln0WKR9HMoGTZNuM
+        subject_person_id: p_9EQ7RpHJJENgpoTNeutQ15
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_EY6jMJ53DkQ5PNn2HgkTKP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0f-djSzNuA-xJ3UVO_RdRk
+          claim_id: c_GWVkEOln0WKR9HMoGTZNuM
+          source_id: s_NB9DY5_2p7L2uG0SZduDT7
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126637 王珦）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_NB9DY5_2p7L2uG0SZduDT7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璿（CBDB 251148）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251148&o=json
+            external_identifier: CBDB:251148
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9EQ7RpHJJENgpoTNeutQ15
+        status: active
+        display_name: 王珦
+        merged_into_person_id: null
 ---
 
 # 王璿
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_SVG1ddZNL58D1StuN9eK9h | 王懷德 | accepted |
+| other | p_9EQ7RpHJJENgpoTNeutQ15 | 王珦 | accepted |
 
 ## 外部来源
 

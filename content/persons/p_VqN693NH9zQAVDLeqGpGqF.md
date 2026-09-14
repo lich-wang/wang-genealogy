@@ -4,7 +4,7 @@ id: p_VqN693NH9zQAVDLeqGpGqF
 status: active
 merged_into: null
 display_name: 王璟
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_zcd45lt5TLA3K0hPDBVK4V
+        subject_person_id: p_PiGQRrZ25P7Jmsf8AnzTUr
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VqN693NH9zQAVDLeqGpGqF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BfcS6IXW3WHatO5VYuljJ7
+          claim_id: c_zcd45lt5TLA3K0hPDBVK4V
+          source_id: s_dKTRRzZGmE0azJSvbivBF_
+          stance: supports
+          locator: CBDB：兄弟 王珍（200536）之父／母 王敬
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王璟 与 王珍 为同胞（CBDB 记「兄」），王珍 之父／母即 王璟 之父／母。
+          source:
+            id: s_dKTRRzZGmE0azJSvbivBF_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璟（CBDB 259411）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259411&o=json
+            external_identifier: CBDB:259411
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PiGQRrZ25P7Jmsf8AnzTUr
+        status: active
+        display_name: 王敬
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_jfnNXLqBYxNlBfZ5TpYZKF
+        subject_person_id: p_VqN693NH9zQAVDLeqGpGqF
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_uwC7U2dhe6Kyw5xBECanBE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IlvJpdslZqOKEfsH3dUiNM
+          claim_id: c_jfnNXLqBYxNlBfZ5TpYZKF
+          source_id: s_dKTRRzZGmE0azJSvbivBF_
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200536 王珍）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_dKTRRzZGmE0azJSvbivBF_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璟（CBDB 259411）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259411&o=json
+            external_identifier: CBDB:259411
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_uwC7U2dhe6Kyw5xBECanBE
+        status: active
+        display_name: 王珍
+        merged_into_person_id: null
 ---
 
 # 王璟
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_PiGQRrZ25P7Jmsf8AnzTUr | 王敬 | accepted |
+| other | p_uwC7U2dhe6Kyw5xBECanBE | 王珍 | accepted |
 
 ## 外部来源
 

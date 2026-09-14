@@ -4,7 +4,7 @@ id: p_c2wqU3n9G2Mr7ALJUsENRw
 status: active
 merged_into: null
 display_name: 王仲賢
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_mYYyJQitKUUO_2KJNUtCnV
+        subject_person_id: p_c2wqU3n9G2Mr7ALJUsENRw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XtaZwWaUNbSCvAaNnwJxTz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_V7rsVEaQpje2OFKbA441n5
+          claim_id: c_mYYyJQitKUUO_2KJNUtCnV
+          source_id: s_fZp9FOu917ALBL-6DbfPhx
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 55754）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_fZp9FOu917ALBL-6DbfPhx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王微（CBDB 55753）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55753&o=json
+            external_identifier: CBDB:55753
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_XtaZwWaUNbSCvAaNnwJxTz
+        status: active
+        display_name: 王微
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_XtaZwWaUNbSCvAaNnwJxTz | 王微 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王微（CBDB 55753）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55753&o=json)
 - [中国历代人物传记资料库：王仲賢（CBDB 55754）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55754&o=json)

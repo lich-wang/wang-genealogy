@@ -4,7 +4,7 @@ id: p_pSz1iZp7XDTDmvdPy88wp5
 status: active
 merged_into: null
 display_name: 王銳
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_3jPmkrjnIl04pzme4Me2z8
+        subject_person_id: p_j2iruMugSZPepsD4KQYC8f
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pSz1iZp7XDTDmvdPy88wp5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HiQkjTU4Tds-u_zG8SghNF
+          claim_id: c_3jPmkrjnIl04pzme4Me2z8
+          source_id: s_xHj5nOad4yeOQ1n1ilhB-A
+          stance: supports
+          locator: CBDB：兄弟 王鏜（201524）之父／母 王林
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王銳 与 王鏜 为同胞（CBDB 记「弟」），王鏜 之父／母即 王銳 之父／母。
+          source:
+            id: s_xHj5nOad4yeOQ1n1ilhB-A
+            source_type: api_record
+            title: 中国历代人物传记资料库：王銳（CBDB 273794）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273794&o=json
+            external_identifier: CBDB:273794
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_j2iruMugSZPepsD4KQYC8f
+        status: active
+        display_name: 王林
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_zRwv1B5FHhWDPofulUGMU_
+        subject_person_id: p_oUoF6dRdhe6WLHeR9E6Mai
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_pSz1iZp7XDTDmvdPy88wp5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FoA1_drTsefe4a1G-dfK_S
+          claim_id: c_zRwv1B5FHhWDPofulUGMU_
+          source_id: s_xHj5nOad4yeOQ1n1ilhB-A
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201524 王鏜）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_xHj5nOad4yeOQ1n1ilhB-A
+            source_type: api_record
+            title: 中国历代人物传记资料库：王銳（CBDB 273794）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273794&o=json
+            external_identifier: CBDB:273794
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oUoF6dRdhe6WLHeR9E6Mai
+        status: active
+        display_name: 王鏜
+        merged_into_person_id: null
 ---
 
 # 王銳
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_j2iruMugSZPepsD4KQYC8f | 王林 | accepted |
+| other | p_oUoF6dRdhe6WLHeR9E6Mai | 王鏜 | accepted |
 
 ## 外部来源
 

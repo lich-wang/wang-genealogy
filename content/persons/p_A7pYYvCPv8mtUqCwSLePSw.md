@@ -4,7 +4,7 @@ id: p_A7pYYvCPv8mtUqCwSLePSw
 status: active
 merged_into: null
 display_name: 王銓
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -191,7 +191,81 @@ relationships:
         display_name: 王均賢
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_EK6wKfRjlz6lwxiHNH5YU7
+        subject_person_id: p_A7pYYvCPv8mtUqCwSLePSw
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_GLgRJQdPEudUQSqwztGez4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_A25gDbLepDPLhUse9DWskt
+          claim_id: c_EK6wKfRjlz6lwxiHNH5YU7
+          source_id: s_dqmFK7B45qCCvKrluRd1qT
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126792 王銓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_dqmFK7B45qCCvKrluRd1qT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎡（CBDB 210370）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210370&o=json
+            external_identifier: CBDB:210370
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GLgRJQdPEudUQSqwztGez4
+        status: active
+        display_name: 王鎡
+        merged_into_person_id: null
+    - claim:
+        id: c_UegkTod13ZTrlGuZudY25T
+        subject_person_id: p_A7pYYvCPv8mtUqCwSLePSw
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_cBPu9HHctFDisx14uetVMb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bXTSlfhbywZM55vtgfAfHe
+          claim_id: c_UegkTod13ZTrlGuZudY25T
+          source_id: s__eM0AG_9pAPOaIamLD6YDm
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126792 王銓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__eM0AG_9pAPOaIamLD6YDm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王欽（CBDB 210359）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210359&o=json
+            external_identifier: CBDB:210359
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cBPu9HHctFDisx14uetVMb
+        status: active
+        display_name: 王欽
+        merged_into_person_id: null
 ---
 
 # 王銓
@@ -212,10 +286,14 @@ relationships:
 | parents | p_sJw3vXAdXzHuC5w1Shag9M | 王靖 | accepted |
 | ancestors | p_8oYfEuEaHUihUsk26FUVed | 王遜 | accepted |
 | ancestors | p_vwh3dGx8oAt7qgYEcP7kKC | 王均賢 | accepted |
+| other | p_GLgRJQdPEudUQSqwztGez4 | 王鎡 | accepted |
+| other | p_cBPu9HHctFDisx14uetVMb | 王欽 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王靖（CBDB 210326）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210326&o=json)
 - [中国历代人物传记资料库：王均賢（CBDB 210303）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210303&o=json)
+- [中国历代人物传记资料库：王欽（CBDB 210359）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210359&o=json)
 - [中国历代人物传记资料库：王銓（CBDB 126792）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126792&o=json)
 - [中国历代人物传记资料库：王遜（CBDB 210314）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210314&o=json)
+- [中国历代人物传记资料库：王鎡（CBDB 210370）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210370&o=json)

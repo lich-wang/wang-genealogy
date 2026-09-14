@@ -4,7 +4,7 @@ id: p_cAK86y7GGgtEAfMtkGogPL
 status: active
 merged_into: null
 display_name: 王積翁
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -161,7 +161,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_sFPZvak2bYCYE-aFw6YzWF
+        subject_person_id: p_EASYEo3gF9d5qwi7oVnXaj
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_cAK86y7GGgtEAfMtkGogPL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VaLaXETrWQKqL8KXDVfzWV
+          claim_id: c_sFPZvak2bYCYE-aFw6YzWF
+          source_id: s_XRKQ5ZYX4VuY8taQY8PlqD
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 101438 王積翁）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_XRKQ5ZYX4VuY8taQY8PlqD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王剛中（CBDB 101298）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101298&o=json
+            external_identifier: CBDB:101298
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EASYEo3gF9d5qwi7oVnXaj
+        status: active
+        display_name: 王剛中
+        merged_into_person_id: null
 ---
 
 # 王積翁
@@ -182,7 +219,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_DTwM4if86rnBrT4hEDdams | 王都中 | accepted |
+| other | p_EASYEo3gF9d5qwi7oVnXaj | 王剛中 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王剛中（CBDB 101298）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101298&o=json)
 - [中国历代人物传记资料库：王積翁（CBDB 101438）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101438&o=json)

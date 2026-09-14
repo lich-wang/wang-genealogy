@@ -4,7 +4,7 @@ id: p_Y39RCaP94GU9ZUQKggCsWM
 status: active
 merged_into: null
 display_name: 王繼宗
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_YcTMbIq27Zy98XTqXdUuhC
+        subject_person_id: p_qEzMiRzsrE1MGWNCLuPUfF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Y39RCaP94GU9ZUQKggCsWM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_c0PYILObfOCHuChgaip7tQ
+          claim_id: c_YcTMbIq27Zy98XTqXdUuhC
+          source_id: s_v1pblyyPBSIrhlhlQoFizD
+          stance: supports
+          locator: CBDB：兄弟 王正宗（201966）之父／母 王澍
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王繼宗 与 王正宗 为同胞（CBDB 记「弟」），王正宗 之父／母即 王繼宗 之父／母。
+          source:
+            id: s_v1pblyyPBSIrhlhlQoFizD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繼宗（CBDB 281266）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281266&o=json
+            external_identifier: CBDB:281266
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qEzMiRzsrE1MGWNCLuPUfF
+        status: active
+        display_name: 王澍
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_anVmA_0844lOaGbbXKPEf7
+        subject_person_id: p_HW595LoSX5sZYxTZGrBbPN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Y39RCaP94GU9ZUQKggCsWM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eBvYu6m05qRC9TW3uSe7yf
+          claim_id: c_anVmA_0844lOaGbbXKPEf7
+          source_id: s_v1pblyyPBSIrhlhlQoFizD
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201966 王正宗）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_v1pblyyPBSIrhlhlQoFizD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繼宗（CBDB 281266）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281266&o=json
+            external_identifier: CBDB:281266
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HW595LoSX5sZYxTZGrBbPN
+        status: active
+        display_name: 王正宗
+        merged_into_person_id: null
 ---
 
 # 王繼宗
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qEzMiRzsrE1MGWNCLuPUfF | 王澍 | accepted |
+| other | p_HW595LoSX5sZYxTZGrBbPN | 王正宗 | accepted |
 
 ## 外部来源
 

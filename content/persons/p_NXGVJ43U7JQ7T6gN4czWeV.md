@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王崇化
 cbdb_id: 301930
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -81,7 +81,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_n125ndxgk1YHF0NF_FtgKx
+        subject_person_id: p_NXGVJ43U7JQ7T6gN4czWeV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_q65LjSR3e6s3Y3D1bpqPNS
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_G6TpfN1utv186xs1CRyTrb
+          claim_id: c_n125ndxgk1YHF0NF_FtgKx
+          source_id: s_MDxYZV0iO1IvDbqHJDnRFP
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203246 王崇義）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_MDxYZV0iO1IvDbqHJDnRFP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇化（CBDB 301930）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301930&o=json
+            external_identifier: CBDB:301930
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_q65LjSR3e6s3Y3D1bpqPNS
+        status: active
+        display_name: 王崇義
+        merged_into_person_id: null
 ---
 
 # 王崇化
@@ -99,6 +136,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_q65LjSR3e6s3Y3D1bpqPNS | 王崇義 | accepted |
 
 ## 外部来源
 

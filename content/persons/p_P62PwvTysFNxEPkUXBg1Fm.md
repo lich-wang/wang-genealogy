@@ -4,7 +4,7 @@ id: p_P62PwvTysFNxEPkUXBg1Fm
 status: active
 merged_into: null
 display_name: 王德新
-revision: 4
+revision: 10
 properties:
   - predicate: name.primary
     recommended:
@@ -191,7 +191,229 @@ relationships:
         display_name: 王宗舜
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_uAgiI3Q_8uPFz2V56-_w79
+        subject_person_id: p_FmPZ9e75zqCio8hBbq7nuP
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_P62PwvTysFNxEPkUXBg1Fm
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ReL1GousPOpnfs-wtBLgKd
+          claim_id: c_uAgiI3Q_8uPFz2V56-_w79
+          source_id: s_5mjf1oOKfbogpbSx3KKfmY
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126819 王德新）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_5mjf1oOKfbogpbSx3KKfmY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德和（CBDB 218711）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218711&o=json
+            external_identifier: CBDB:218711
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FmPZ9e75zqCio8hBbq7nuP
+        status: active
+        display_name: 王德和
+        merged_into_person_id: null
+    - claim:
+        id: c_E3OqkFTlG4a8hM03PVVpuT
+        subject_person_id: p_GnfZ7SBiwzY9KHGtcXMs2d
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_P62PwvTysFNxEPkUXBg1Fm
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_21fEcV181W-_wC4DFDgJjh
+          claim_id: c_E3OqkFTlG4a8hM03PVVpuT
+          source_id: s_TOuJP5ePwwXX8k8qhw5n-r
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126819 王德新）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_TOuJP5ePwwXX8k8qhw5n-r
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德宿（CBDB 218712）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218712&o=json
+            external_identifier: CBDB:218712
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GnfZ7SBiwzY9KHGtcXMs2d
+        status: active
+        display_name: 王德宿
+        merged_into_person_id: null
+    - claim:
+        id: c_16iLfGrBVZUB2_dJyoljjS
+        subject_person_id: p_N1TXEWvdC8QVjsKgKvz8GJ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_P62PwvTysFNxEPkUXBg1Fm
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tuwVbTl61c1qtl5UVWpHT5
+          claim_id: c_16iLfGrBVZUB2_dJyoljjS
+          source_id: s_h0ztp4dUPxLMEfJHrirH39
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126819 王德新）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_h0ztp4dUPxLMEfJHrirH39
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷俊（CBDB 218710）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218710&o=json
+            external_identifier: CBDB:218710
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_N1TXEWvdC8QVjsKgKvz8GJ
+        status: active
+        display_name: 王廷俊
+        merged_into_person_id: null
+    - claim:
+        id: c_-9wC2ZR4WvwaEQyMSqd27s
+        subject_person_id: p_P62PwvTysFNxEPkUXBg1Fm
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RsX3Wf6p4rAM8SdmNchmQR
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KYzM9E9YhFCAyY-Ki7LnMu
+          claim_id: c_-9wC2ZR4WvwaEQyMSqd27s
+          source_id: s_5W3wzEYhkThsOnWTZvEAag
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126819 王德新）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_5W3wzEYhkThsOnWTZvEAag
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德宣（CBDB 218713）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218713&o=json
+            external_identifier: CBDB:218713
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_RsX3Wf6p4rAM8SdmNchmQR
+        status: active
+        display_name: 王德宣
+        merged_into_person_id: null
+    - claim:
+        id: c_pXnTE4FEZH2VNNX5B7zWZJ
+        subject_person_id: p_P62PwvTysFNxEPkUXBg1Fm
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mFTnd1QNHXJPWon9Y4YcwK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_95Q99PJ3SuxK8oOfUZXfno
+          claim_id: c_pXnTE4FEZH2VNNX5B7zWZJ
+          source_id: s__zwgmwUm5UZdVq2e9jxXFA
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126819 王德新）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__zwgmwUm5UZdVq2e9jxXFA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德昇（CBDB 218709）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218709&o=json
+            external_identifier: CBDB:218709
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mFTnd1QNHXJPWon9Y4YcwK
+        status: active
+        display_name: 王德昇
+        merged_into_person_id: null
+    - claim:
+        id: c_vG4vnW_Wndyby2DhJJYbQH
+        subject_person_id: p_P62PwvTysFNxEPkUXBg1Fm
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wGPi5VDd3eyVWzKfbPmcqL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Tv9AQRJnmNwUri_9Dwy3mP
+          claim_id: c_vG4vnW_Wndyby2DhJJYbQH
+          source_id: s_P_2Bmwi6fkc3d2FIumjNnU
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126819 王德新）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_P_2Bmwi6fkc3d2FIumjNnU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德敏（CBDB 218708）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218708&o=json
+            external_identifier: CBDB:218708
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wGPi5VDd3eyVWzKfbPmcqL
+        status: active
+        display_name: 王德敏
+        merged_into_person_id: null
 ---
 
 # 王德新
@@ -212,10 +434,22 @@ relationships:
 | parents | p_heKv1Lrv2nNs2FP242e8RP | 王士望 | accepted |
 | ancestors | p_BmJiYvE4u2XkahiPTHU6KL | 王衡 | accepted |
 | ancestors | p_ecFrd5qerDXA9XmtuZkUzM | 王宗舜 | accepted |
+| other | p_FmPZ9e75zqCio8hBbq7nuP | 王德和 | accepted |
+| other | p_GnfZ7SBiwzY9KHGtcXMs2d | 王德宿 | accepted |
+| other | p_N1TXEWvdC8QVjsKgKvz8GJ | 王廷俊 | accepted |
+| other | p_RsX3Wf6p4rAM8SdmNchmQR | 王德宣 | accepted |
+| other | p_mFTnd1QNHXJPWon9Y4YcwK | 王德昇 | accepted |
+| other | p_wGPi5VDd3eyVWzKfbPmcqL | 王德敏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王德和（CBDB 218711）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218711&o=json)
+- [中国历代人物传记资料库：王德敏（CBDB 218708）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218708&o=json)
+- [中国历代人物传记资料库：王德昇（CBDB 218709）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218709&o=json)
+- [中国历代人物传记资料库：王德宿（CBDB 218712）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218712&o=json)
 - [中国历代人物传记资料库：王德新（CBDB 126819）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126819&o=json)
+- [中国历代人物传记资料库：王德宣（CBDB 218713）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218713&o=json)
 - [中国历代人物传记资料库：王衡（CBDB 218701）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218701&o=json)
 - [中国历代人物传记资料库：王士望（CBDB 218704）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218704&o=json)
+- [中国历代人物传记资料库：王廷俊（CBDB 218710）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218710&o=json)
 - [中国历代人物传记资料库：王宗舜（CBDB 218702）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218702&o=json)

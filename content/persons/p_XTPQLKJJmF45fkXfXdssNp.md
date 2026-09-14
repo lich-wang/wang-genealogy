@@ -4,7 +4,7 @@ id: p_XTPQLKJJmF45fkXfXdssNp
 status: active
 merged_into: null
 display_name: 王銳
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_CUS0EN9t0hoTQokjA5k05i
+        subject_person_id: p_gyKQYKFYiRFh2ZMNQQhCtN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XTPQLKJJmF45fkXfXdssNp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_u0MB8D4MugkIWWDKxQTgBB
+          claim_id: c_CUS0EN9t0hoTQokjA5k05i
+          source_id: s_3Diwk7A8qSN_9sSU4XpQ_H
+          stance: supports
+          locator: CBDB：兄弟 王鍃（199647）之父／母 王鼎
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王銳 与 王鍃 为同胞（CBDB 记「兄」），王鍃 之父／母即 王銳 之父／母。
+          source:
+            id: s_3Diwk7A8qSN_9sSU4XpQ_H
+            source_type: api_record
+            title: 中国历代人物传记资料库：王銳（CBDB 247847）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247847&o=json
+            external_identifier: CBDB:247847
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_gyKQYKFYiRFh2ZMNQQhCtN
+        status: active
+        display_name: 王鼎
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_7ZciGt042yTXdAFcLGKb8D
+        subject_person_id: p_XTPQLKJJmF45fkXfXdssNp
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ZjuF9BMneyLuUjQuike359
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k4TeTGoYEuE-kJcmNFV7nw
+          claim_id: c_7ZciGt042yTXdAFcLGKb8D
+          source_id: s_3Diwk7A8qSN_9sSU4XpQ_H
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199647 王鍃）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_3Diwk7A8qSN_9sSU4XpQ_H
+            source_type: api_record
+            title: 中国历代人物传记资料库：王銳（CBDB 247847）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247847&o=json
+            external_identifier: CBDB:247847
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZjuF9BMneyLuUjQuike359
+        status: active
+        display_name: 王鍃
+        merged_into_person_id: null
 ---
 
 # 王銳
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_gyKQYKFYiRFh2ZMNQQhCtN | 王鼎 | accepted |
+| other | p_ZjuF9BMneyLuUjQuike359 | 王鍃 | accepted |
 
 ## 外部来源
 

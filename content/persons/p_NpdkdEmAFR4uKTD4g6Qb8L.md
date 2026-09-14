@@ -4,7 +4,7 @@ id: p_NpdkdEmAFR4uKTD4g6Qb8L
 status: active
 merged_into: null
 display_name: 王瑤
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_HWiVD_d4-va8qv9wSRCLnB
+        subject_person_id: p_NpyCf5W5QfEUuJVcAPTPqZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NpdkdEmAFR4uKTD4g6Qb8L
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_STVTHmdu6a6BjDzjAZDgzx
+          claim_id: c_HWiVD_d4-va8qv9wSRCLnB
+          source_id: s_GCP2n8cgjWu01t1uRbUKP-
+          stance: supports
+          locator: CBDB：兄弟 王玹（126600）之父／母 王幹
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王瑤 与 王玹 为同胞（CBDB 记「兄」），王玹 之父／母即 王瑤 之父／母。
+          source:
+            id: s_GCP2n8cgjWu01t1uRbUKP-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑤（CBDB 244702）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244702&o=json
+            external_identifier: CBDB:244702
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NpyCf5W5QfEUuJVcAPTPqZ
+        status: active
+        display_name: 王幹
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Zo0qfvYcaxYoSO1TE1RLGt
+        subject_person_id: p_3oKFdGHi8BKifcXxMMERFS
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_NpdkdEmAFR4uKTD4g6Qb8L
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XX_wgz6b6Vr5Yy8WRO1ZqX
+          claim_id: c_Zo0qfvYcaxYoSO1TE1RLGt
+          source_id: s_GCP2n8cgjWu01t1uRbUKP-
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126600 王玹）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_GCP2n8cgjWu01t1uRbUKP-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑤（CBDB 244702）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244702&o=json
+            external_identifier: CBDB:244702
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3oKFdGHi8BKifcXxMMERFS
+        status: active
+        display_name: 王玹
+        merged_into_person_id: null
 ---
 
 # 王瑤
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_NpyCf5W5QfEUuJVcAPTPqZ | 王幹 | accepted |
+| other | p_3oKFdGHi8BKifcXxMMERFS | 王玹 | accepted |
 
 ## 外部来源
 

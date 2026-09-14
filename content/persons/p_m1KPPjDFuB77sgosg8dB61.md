@@ -4,7 +4,7 @@ id: p_m1KPPjDFuB77sgosg8dB61
 status: active
 merged_into: null
 display_name: 王有為
-revision: 3
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,192 @@ relationships:
         display_name: 王彥璋
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_L3ztVsnM29ERZndMYvpxE2
+        subject_person_id: p_6ZA1HPpsbqBBBsxMD2HU8E
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_m1KPPjDFuB77sgosg8dB61
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QKssFDXPVBFCTdrRKrssHY
+          claim_id: c_L3ztVsnM29ERZndMYvpxE2
+          source_id: s_2wnKy6Y67A-B5VURXxskU7
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203722 王有為）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_2wnKy6Y67A-B5VURXxskU7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王有守（CBDB 309081）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309081&o=json
+            external_identifier: CBDB:309081
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6ZA1HPpsbqBBBsxMD2HU8E
+        status: active
+        display_name: 王有守
+        merged_into_person_id: null
+    - claim:
+        id: c_5OwO21vK-nG5mtFiulgrtZ
+        subject_person_id: p_RwxHF1Ntsy8Aq41TEDYhAY
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_m1KPPjDFuB77sgosg8dB61
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sbiSD6S1EPqqbIlZaWWOSM
+          claim_id: c_5OwO21vK-nG5mtFiulgrtZ
+          source_id: s_ZmGbx32Udb-1fg0HO9xGng
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203722 王有為）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ZmGbx32Udb-1fg0HO9xGng
+            source_type: api_record
+            title: 中国历代人物传记资料库：王有藩（CBDB 309082）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309082&o=json
+            external_identifier: CBDB:309082
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_RwxHF1Ntsy8Aq41TEDYhAY
+        status: active
+        display_name: 王有藩
+        merged_into_person_id: null
+    - claim:
+        id: c_MU9vrMKA5uEfFXZj5a_M0n
+        subject_person_id: p_fE1qPb3wvPQVPGAw5Pu7n9
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_m1KPPjDFuB77sgosg8dB61
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_U-fvtsfwLGfA5J6pn31D5N
+          claim_id: c_MU9vrMKA5uEfFXZj5a_M0n
+          source_id: s_v2KFNFOz0qysv6dUl2z5DU
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203722 王有為）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_v2KFNFOz0qysv6dUl2z5DU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王有賢（CBDB 309080）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309080&o=json
+            external_identifier: CBDB:309080
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fE1qPb3wvPQVPGAw5Pu7n9
+        status: active
+        display_name: 王有賢
+        merged_into_person_id: null
+    - claim:
+        id: c_xdePaHyOVuG6p54dFGsPDp
+        subject_person_id: p_m1KPPjDFuB77sgosg8dB61
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nKsY4L4FfA8dEDc3nH5XYS
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Irvdkqx3ZTJvkLZQ1Ccvdu
+          claim_id: c_xdePaHyOVuG6p54dFGsPDp
+          source_id: s_2hazCDN3yDeSey7hXQBTaG
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203722 王有為）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_2hazCDN3yDeSey7hXQBTaG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王有道（CBDB 309079）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309079&o=json
+            external_identifier: CBDB:309079
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nKsY4L4FfA8dEDc3nH5XYS
+        status: active
+        display_name: 王有道
+        merged_into_person_id: null
+    - claim:
+        id: c_-atXdvY2h7rXCvkuo6uHuT
+        subject_person_id: p_m1KPPjDFuB77sgosg8dB61
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ySzH8rSRmy2shrr3rmjntz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_48SyNDWP5eltFzB4DcclW0
+          claim_id: c_-atXdvY2h7rXCvkuo6uHuT
+          source_id: s_WqBVo85uO33LCraL9rl_9D
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203722 王有為）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_WqBVo85uO33LCraL9rl_9D
+            source_type: api_record
+            title: 中国历代人物传记资料库：王有年（CBDB 309083）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309083&o=json
+            external_identifier: CBDB:309083
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ySzH8rSRmy2shrr3rmjntz
+        status: active
+        display_name: 王有年
+        merged_into_person_id: null
 ---
 
 # 王有為
@@ -245,8 +430,18 @@ relationships:
 | spouses | p_8p8i7Z5DnFRpA5N3rwc9Uu | 何氏 | accepted |
 | ancestors | p_9nLDDR64tTe6Yf8U9FsNKb | 王紃 | accepted |
 | ancestors | p_ea1c741tbGsFRoxmHPKYXv | 王彥璋 | accepted |
+| other | p_6ZA1HPpsbqBBBsxMD2HU8E | 王有守 | accepted |
+| other | p_RwxHF1Ntsy8Aq41TEDYhAY | 王有藩 | accepted |
+| other | p_fE1qPb3wvPQVPGAw5Pu7n9 | 王有賢 | accepted |
+| other | p_nKsY4L4FfA8dEDc3nH5XYS | 王有道 | accepted |
+| other | p_ySzH8rSRmy2shrr3rmjntz | 王有年 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：何氏(王有為妻)（CBDB 309078）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309078&o=json)
+- [中国历代人物传记资料库：王有道（CBDB 309079）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309079&o=json)
+- [中国历代人物传记资料库：王有藩（CBDB 309082）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309082&o=json)
+- [中国历代人物传记资料库：王有年（CBDB 309083）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309083&o=json)
+- [中国历代人物传记资料库：王有守（CBDB 309081）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309081&o=json)
 - [中国历代人物传记资料库：王有為（CBDB 203722）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203722&o=json)
+- [中国历代人物传记资料库：王有賢（CBDB 309080）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309080&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王申錫
 cbdb_id: 222536
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_80HTIsmwJZIZmoTbmR73DA
+        subject_person_id: p_VoTEz62YCbTPVvreKQ83nM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3ZDZmq5CVsJU9PVY6GZ6uT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sK5mfqyDwKmGtRzTWXGnP_
+          claim_id: c_80HTIsmwJZIZmoTbmR73DA
+          source_id: s_muQ4HH1CeoHELCSPcMMK8v
+          stance: supports
+          locator: CBDB：兄弟 王岳錫（206741）之父／母 王价
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王申錫 与 王岳錫 为同胞（CBDB 记「兄」），王岳錫 之父／母即 王申錫 之父／母。
+          source:
+            id: s_muQ4HH1CeoHELCSPcMMK8v
+            source_type: api_record
+            title: 中国历代人物传记资料库：王申錫（CBDB 222536）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222536&o=json
+            external_identifier: CBDB:222536
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VoTEz62YCbTPVvreKQ83nM
+        status: active
+        display_name: 王价
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_HkXVaJuM2vdG0uvAl-axwr
+        subject_person_id: p_3ZDZmq5CVsJU9PVY6GZ6uT
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RKkqJtmY8xpK68H9TU7V2h
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cbduya9Rkw-xYa_-gSfwXG
+          claim_id: c_HkXVaJuM2vdG0uvAl-axwr
+          source_id: s_muQ4HH1CeoHELCSPcMMK8v
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206741 王岳錫）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_muQ4HH1CeoHELCSPcMMK8v
+            source_type: api_record
+            title: 中国历代人物传记资料库：王申錫（CBDB 222536）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222536&o=json
+            external_identifier: CBDB:222536
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_RKkqJtmY8xpK68H9TU7V2h
+        status: active
+        display_name: 王岳錫
+        merged_into_person_id: null
 ---
 
 # 王申錫
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_VoTEz62YCbTPVvreKQ83nM | 王价 | accepted |
+| other | p_RKkqJtmY8xpK68H9TU7V2h | 王岳錫 | accepted |
 
 ## 外部来源
 

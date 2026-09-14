@@ -4,7 +4,7 @@ id: p_NYtdu2CY4GDrtrwsQaXuDi
 status: active
 merged_into: null
 display_name: 王朝賢
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -256,7 +256,44 @@ relationships:
         display_name: 王焄
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_aadybSz0PFHJQlXZPqHxV0
+        subject_person_id: p_CXJD2x5NgucYYDoLj39JFo
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_NYtdu2CY4GDrtrwsQaXuDi
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XoocvqpfKCbxQNNOpFRxyb
+          claim_id: c_aadybSz0PFHJQlXZPqHxV0
+          source_id: s_T0myBtdBOHIXpYjOJqLvUE
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202778 王朝賢）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_T0myBtdBOHIXpYjOJqLvUE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王朝元（CBDB 294145）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294145&o=json
+            external_identifier: CBDB:294145
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CXJD2x5NgucYYDoLj39JFo
+        status: active
+        display_name: 王朝元
+        merged_into_person_id: null
 ---
 
 # 王朝賢
@@ -279,10 +316,12 @@ relationships:
 | children | p_X3T6w98BRJaGnRFLHzRJ7P | 王汝玉 | accepted |
 | ancestors | p_YB8Sg5NvAJJ98XyCt8tJ7k | 王簪 | accepted |
 | ancestors | p_opa5YQitJBDvTXt7fr8KDm | 王焄 | accepted |
+| other | p_CXJD2x5NgucYYDoLj39JFo | 王朝元 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王朝賢（CBDB 202778）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202778&o=json)
+- [中国历代人物传记资料库：王朝元（CBDB 294145）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294145&o=json)
 - [中国历代人物传记资料库：王汝玉（CBDB 294146）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294146&o=json)
 - [中国历代人物传记资料库：王焄（CBDB 294140）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294140&o=json)
 - [中国历代人物传记资料库：王載（CBDB 294142）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294142&o=json)

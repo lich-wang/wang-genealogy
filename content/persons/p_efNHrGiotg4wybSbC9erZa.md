@@ -4,7 +4,7 @@ id: p_efNHrGiotg4wybSbC9erZa
 status: active
 merged_into: null
 display_name: 王恭
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_TJ4qurRu3WdVWyufVGpkB-
+        subject_person_id: p_7qmh6ExHEGb6N6NWE8gC5i
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_efNHrGiotg4wybSbC9erZa
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QvGMpridx_eUqR90BxwTLK
+          claim_id: c_TJ4qurRu3WdVWyufVGpkB-
+          source_id: s_69iNVaaNVoDM0ypC1Y-unk
+          stance: supports
+          locator: CBDB：兄弟 王智（198244）之父／母 王昭
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王恭 与 王智 为同胞（CBDB 记「兄」），王智 之父／母即 王恭 之父／母。
+          source:
+            id: s_69iNVaaNVoDM0ypC1Y-unk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恭（CBDB 245252）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245252&o=json
+            external_identifier: CBDB:245252
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7qmh6ExHEGb6N6NWE8gC5i
+        status: active
+        display_name: 王昭
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Qlp5fROtu67Yuq4RcbYXtY
+        subject_person_id: p_YA1G7T5veW43cswnoFX8Ym
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_efNHrGiotg4wybSbC9erZa
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bfW9Kl7xIkk_9C_PbO29S8
+          claim_id: c_Qlp5fROtu67Yuq4RcbYXtY
+          source_id: s_69iNVaaNVoDM0ypC1Y-unk
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198244 王智）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_69iNVaaNVoDM0ypC1Y-unk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恭（CBDB 245252）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245252&o=json
+            external_identifier: CBDB:245252
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_YA1G7T5veW43cswnoFX8Ym
+        status: active
+        display_name: 王智
+        merged_into_person_id: null
 ---
 
 # 王恭
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_7qmh6ExHEGb6N6NWE8gC5i | 王昭 | accepted |
+| other | p_YA1G7T5veW43cswnoFX8Ym | 王智 | accepted |
 
 ## 外部来源
 

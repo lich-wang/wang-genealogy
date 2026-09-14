@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王思名
 cbdb_id: 231087
-revision: 2
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -113,6 +113,80 @@ relationships:
         status: active
         display_name: 王用
         merged_into_person_id: null
+    - claim:
+        id: c_MOuwIHeeqxvvzIR5xqVmfL
+        subject_person_id: p_8bLH6jDFtEPUQUPbN8XFMB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jo3NStgcxkRz8E9qgyWKSq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3YFO-Cc12P4bUkCJ96nMCs
+          claim_id: c_MOuwIHeeqxvvzIR5xqVmfL
+          source_id: s_fZ6QhJ7HrMsOFsX8Kgvpaw
+          stance: supports
+          locator: CBDB：兄弟 王用（207307）之父／母 王思名
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王珪 与 王用 为同胞（CBDB 记「兄」），王用 之父／母即 王珪 之父／母。
+          source:
+            id: s_fZ6QhJ7HrMsOFsX8Kgvpaw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珪（CBDB 231094）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231094&o=json
+            external_identifier: CBDB:231094
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jo3NStgcxkRz8E9qgyWKSq
+        status: active
+        display_name: 王珪
+        merged_into_person_id: null
+    - claim:
+        id: c_W1_IxVfQw9Ox5W6Bs78BbH
+        subject_person_id: p_8bLH6jDFtEPUQUPbN8XFMB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rFcX6dGKSpv1ZWghZB7TFM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yfzWytWGhy-VvGNvozdo2q
+          claim_id: c_W1_IxVfQw9Ox5W6Bs78BbH
+          source_id: s_qJiwRBX_Rn6sxT7YjlTv8l
+          stance: supports
+          locator: CBDB：兄弟 王用（207307）之父／母 王思名
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王琴 与 王用 为同胞（CBDB 记「兄」），王用 之父／母即 王琴 之父／母。
+          source:
+            id: s_qJiwRBX_Rn6sxT7YjlTv8l
+            source_type: api_record
+            title: 中国历代人物传记资料库：王琴（CBDB 231093）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231093&o=json
+            external_identifier: CBDB:231093
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rFcX6dGKSpv1ZWghZB7TFM
+        status: active
+        display_name: 王琴
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -137,8 +211,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_9Ebxw9nqUzpjPj6LJw3JKY | 王用 | accepted |
+| children | p_jo3NStgcxkRz8E9qgyWKSq | 王珪 | accepted |
+| children | p_rFcX6dGKSpv1ZWghZB7TFM | 王琴 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王珪（CBDB 231094）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231094&o=json)
+- [中国历代人物传记资料库：王琴（CBDB 231093）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231093&o=json)
 - [中国历代人物传记资料库：王思名（CBDB 231087）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231087&o=json)
 - [中国历代人物传记资料库：王用（CBDB 207307）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207307&o=json)

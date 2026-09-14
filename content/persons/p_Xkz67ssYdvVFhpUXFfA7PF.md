@@ -4,7 +4,7 @@ id: p_Xkz67ssYdvVFhpUXFfA7PF
 status: active
 merged_into: null
 display_name: 王碩
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,80 @@ relationships:
         status: active
         display_name: 王元敬
         merged_into_person_id: null
+    - claim:
+        id: c_a73nI255WvF1_qwHIBpbvI
+        subject_person_id: p_Xkz67ssYdvVFhpUXFfA7PF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MMVTsoArzwCSm5R3kdpHoL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AVya7qZRODy2RnxkpbY6Bm
+          claim_id: c_a73nI255WvF1_qwHIBpbvI
+          source_id: s_YEBo8fSW5yz0JqUYpIDWK5
+          stance: supports
+          locator: CBDB：兄弟 王元敬（126472）之父／母 王碩
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王元德 与 王元敬 为同胞（CBDB 记「弟」），王元敬 之父／母即 王元德 之父／母。
+          source:
+            id: s_YEBo8fSW5yz0JqUYpIDWK5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元德（CBDB 323260）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323260&o=json
+            external_identifier: CBDB:323260
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MMVTsoArzwCSm5R3kdpHoL
+        status: active
+        display_name: 王元德
+        merged_into_person_id: null
+    - claim:
+        id: c_KAIv7HzGiMcYYwREMfztWD
+        subject_person_id: p_Xkz67ssYdvVFhpUXFfA7PF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PVTE2wkp6NNzCbZ8xRM1yq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WsEJ1Fl0AbDVSMVq542UnV
+          claim_id: c_KAIv7HzGiMcYYwREMfztWD
+          source_id: s_M-l-R7Z7BmKRsnDj_R2JpF
+          stance: supports
+          locator: CBDB：兄弟 王元敬（126472）之父／母 王碩
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王元吉 与 王元敬 为同胞（CBDB 记「兄」），王元敬 之父／母即 王元吉 之父／母。
+          source:
+            id: s_M-l-R7Z7BmKRsnDj_R2JpF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元吉（CBDB 323261）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323261&o=json
+            external_identifier: CBDB:323261
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PVTE2wkp6NNzCbZ8xRM1yq
+        status: active
+        display_name: 王元吉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +209,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_466nsxZ3JM344kFn5S3u9k | 王元敬 | accepted |
+| children | p_MMVTsoArzwCSm5R3kdpHoL | 王元德 | accepted |
+| children | p_PVTE2wkp6NNzCbZ8xRM1yq | 王元吉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王碩（CBDB 323256）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323256&o=json)
+- [中国历代人物传记资料库：王元德（CBDB 323260）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323260&o=json)
+- [中国历代人物传记资料库：王元吉（CBDB 323261）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323261&o=json)
 - [中国历代人物传记资料库：王元敬（CBDB 126472）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126472&o=json)

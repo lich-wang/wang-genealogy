@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王侨
 cbdb_id: 199828
-revision: 2
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -576,7 +576,81 @@ relationships:
         status: active
         display_name: 王一誠
         merged_into_person_id: null
-  other: []
+  other:
+    - claim:
+        id: c_O4bxsQnxYvbUEJR8eZimiG
+        subject_person_id: p_77GuFxNmZXLwnvYV6Z7Evu
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_U2Fggori7BCBLtrGmDkhHG
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DHrE6SjWUkGgmxYNF1ZPsX
+          claim_id: c_O4bxsQnxYvbUEJR8eZimiG
+          source_id: s_KExEzB0FuIL0Vt9cRXvsw1
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199828 王僑）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_KExEzB0FuIL0Vt9cRXvsw1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王倬（CBDB 250191）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250191&o=json
+            external_identifier: CBDB:250191
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_77GuFxNmZXLwnvYV6Z7Evu
+        status: active
+        display_name: 王倬
+        merged_into_person_id: null
+    - claim:
+        id: c_RFoUj0PcCX7yAfmdsURsw0
+        subject_person_id: p_U2Fggori7BCBLtrGmDkhHG
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ZEJD4GeHuakT9KGYa2Fo6D
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nV0HuMp3pNanOqyR1f6UXN
+          claim_id: c_RFoUj0PcCX7yAfmdsURsw0
+          source_id: s_xfMQ4c2s2u_lPVb2KJ0w1j
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199828 王僑）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_xfMQ4c2s2u_lPVb2KJ0w1j
+            source_type: api_record
+            title: 中国历代人物传记资料库：王偡（CBDB 250190）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250190&o=json
+            external_identifier: CBDB:250190
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZEJD4GeHuakT9KGYa2Fo6D
+        status: active
+        display_name: 王偡
+        merged_into_person_id: null
 ---
 
 # 王侨
@@ -602,12 +676,16 @@ relationships:
 | ancestors | p_gH1X7mqhSnv3LstMzbAkAu | 王质 | accepted |
 | descendants | p_5ajoiVwRzn4rhaTYkGcGCM | 王世芳 | accepted |
 | descendants | p_MZbdwps9XFr2xs5DwUGxkF | 王一誠 | accepted |
+| other | p_77GuFxNmZXLwnvYV6Z7Evu | 王倬 | accepted |
+| other | p_ZEJD4GeHuakT9KGYa2Fo6D | 王偡 | accepted |
 
 ## 外部来源
 
 - [维基数据：陆氏（Q65854461）](https://www.wikidata.org/wiki/Q65854461)
 - [维基数据：王辂（Q45443021）](https://www.wikidata.org/wiki/Q45443021)
 - [维基数据：王侨（Q19856054）](https://www.wikidata.org/wiki/Q19856054)
+- [中国历代人物传记资料库：王偡（CBDB 250190）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250190&o=json)
+- [中国历代人物传记资料库：王倬（CBDB 250191）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250191&o=json)
 - [中文维基百科：王僑 (成化進士)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%83%91_(%E6%88%90%E5%8C%96%E9%80%B2%E5%A3%AB))
 - [CBDB 中国历代人物传记资料库：陸氏（250189）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250189&o=json)
 - [CBDB 中国历代人物传记资料库：王輅（250185）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250185&o=json)

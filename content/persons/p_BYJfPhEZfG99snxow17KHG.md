@@ -4,7 +4,7 @@ id: p_BYJfPhEZfG99snxow17KHG
 status: active
 merged_into: null
 display_name: 王有功
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,81 @@ relationships:
         display_name: 王誥
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_NU8YGyXkeCKndrGVW2rKd4
+        subject_person_id: p_BYJfPhEZfG99snxow17KHG
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_K8PL8Th6SwqNkJ31CRVazu
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Pf3mAl3WOrzr1xuU_R68y-
+          claim_id: c_NU8YGyXkeCKndrGVW2rKd4
+          source_id: s_beboH7ykmBJbOvGz5LW4fb
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206804 王有功）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_beboH7ykmBJbOvGz5LW4fb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王有貞（CBDB 223505）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223505&o=json
+            external_identifier: CBDB:223505
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_K8PL8Th6SwqNkJ31CRVazu
+        status: active
+        display_name: 王有貞
+        merged_into_person_id: null
+    - claim:
+        id: c_zAdpFEMMXkYfeCjP-kbRTo
+        subject_person_id: p_BYJfPhEZfG99snxow17KHG
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ZgmFrCQX5gJ3tXEXw4uf37
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sExZqX2q2K3Ahf8OHIE_Ct
+          claim_id: c_zAdpFEMMXkYfeCjP-kbRTo
+          source_id: s_8VLudJ3FihyXIVq-e3hzNP
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206804 王有功）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_8VLudJ3FihyXIVq-e3hzNP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王有德（CBDB 223503）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223503&o=json
+            external_identifier: CBDB:223503
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZgmFrCQX5gJ3tXEXw4uf37
+        status: active
+        display_name: 王有德
+        merged_into_person_id: null
 ---
 
 # 王有功
@@ -245,8 +319,12 @@ relationships:
 | spouses | p_JuG7rj7LupTMf9qir8KQTc | 查氏 | accepted |
 | ancestors | p_wox48YQwcFCA2THyUzZmJn | 王惠 | accepted |
 | ancestors | p_wrDFZ5uQWHdCUU75uJZddc | 王誥 | accepted |
+| other | p_K8PL8Th6SwqNkJ31CRVazu | 王有貞 | accepted |
+| other | p_ZgmFrCQX5gJ3tXEXw4uf37 | 王有德 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：查氏(王有功妻)（CBDB 223502）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223502&o=json)
+- [中国历代人物传记资料库：王有德（CBDB 223503）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223503&o=json)
 - [中国历代人物传记资料库：王有功（CBDB 206804）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206804&o=json)
+- [中国历代人物传记资料库：王有貞（CBDB 223505）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223505&o=json)

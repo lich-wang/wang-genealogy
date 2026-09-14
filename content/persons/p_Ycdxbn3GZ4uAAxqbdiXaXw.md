@@ -4,7 +4,7 @@ id: p_Ycdxbn3GZ4uAAxqbdiXaXw
 status: active
 merged_into: null
 display_name: 宗惠真
-revision: 1
+revision: 2
 cbdb_id: 5282
 properties:
   - predicate: bio.summary
@@ -74,7 +74,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_zeKoZ-fvTE_9h4YmyPGL5u
+        subject_person_id: p_Ycdxbn3GZ4uAAxqbdiXaXw
+        claim_kind: relationship
+        predicate: kinship.mother_of
+        object_person_id: p_mzi91Uxi85qNEK3A8TUgFk
+        generation_count: null
+        parent_role: mother
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_Bk3rUg_ELHxYIGs6Z0w49k
+          claim_id: c_zeKoZ-fvTE_9h4YmyPGL5u
+          source_id: s_NzKVR2g1HZFJtBi3Kl-DsL
+          stance: supports
+          locator: CBDB 亲属：母（KinPerson 5282）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_NzKVR2g1HZFJtBi3Kl-DsL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎔（CBDB 17634）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17634&o=json
+            external_identifier: CBDB:17634
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mzi91Uxi85qNEK3A8TUgFk
+        status: active
+        display_name: 王鎔
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -124,8 +161,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_mzi91Uxi85qNEK3A8TUgFk | 王鎔 | accepted |
 | spouses | p_WNe6hDfHpUq7znyP4H9mA8 | 王師伋 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鎔（CBDB 17634）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17634&o=json)
 - [中国历代人物传记资料库：宗惠真（CBDB 5282）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5282&o=json)

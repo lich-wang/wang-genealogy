@@ -4,7 +4,7 @@ id: p_NGHFT8W3h8WaBq7fkVhjck
 status: active
 merged_into: null
 display_name: 王立賢
-revision: 6
+revision: 13
 properties:
   - predicate: name.primary
     recommended:
@@ -293,7 +293,266 @@ relationships:
         display_name: 王清
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_dNUXZr15_YukgZItWkpZRJ
+        subject_person_id: p_6jyxGrjQkpKvXQeAuBSg3Z
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_NGHFT8W3h8WaBq7fkVhjck
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_s_gDeJTjtErRPJPXw8s5zL
+          claim_id: c_dNUXZr15_YukgZItWkpZRJ
+          source_id: s_w3MuKEHEGUv7NGOT-42DWm
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207055 王立賢）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_w3MuKEHEGUv7NGOT-42DWm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王志賢（CBDB 226928）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226928&o=json
+            external_identifier: CBDB:226928
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6jyxGrjQkpKvXQeAuBSg3Z
+        status: active
+        display_name: 王志賢
+        merged_into_person_id: null
+    - claim:
+        id: c_PA2SekEuGIGmZKnXGCJygh
+        subject_person_id: p_NGHFT8W3h8WaBq7fkVhjck
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fHK3CiQCVAuSCPFGRi3c2V
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JyLMjdpgX4Z7fK5DvkaM98
+          claim_id: c_PA2SekEuGIGmZKnXGCJygh
+          source_id: s_pTPq_qQGIuvg8L2jptBg3-
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207055 王立賢）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_pTPq_qQGIuvg8L2jptBg3-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王尚賢（CBDB 226924）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226924&o=json
+            external_identifier: CBDB:226924
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fHK3CiQCVAuSCPFGRi3c2V
+        status: active
+        display_name: 王尚賢
+        merged_into_person_id: null
+    - claim:
+        id: c_FhN_oDl5neOScrZErnx7nP
+        subject_person_id: p_NGHFT8W3h8WaBq7fkVhjck
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fTTzxHqWY2cgpXDKBo2Hbb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_erJDkC6VaigJbaRteQsZzC
+          claim_id: c_FhN_oDl5neOScrZErnx7nP
+          source_id: s_eY9tZDgYIobF8UsN-Tf2UR
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207055 王立賢）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_eY9tZDgYIobF8UsN-Tf2UR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王思賢（CBDB 226930）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226930&o=json
+            external_identifier: CBDB:226930
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fTTzxHqWY2cgpXDKBo2Hbb
+        status: active
+        display_name: 王思賢
+        merged_into_person_id: null
+    - claim:
+        id: c_gjmzXfD_4kwAAHJe1WwU1U
+        subject_person_id: p_NGHFT8W3h8WaBq7fkVhjck
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gTGhhZ4wcQDFUnuFCv55s7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kdZPNkPgE_1q-UnGvFipru
+          claim_id: c_gjmzXfD_4kwAAHJe1WwU1U
+          source_id: s_9NL5a6dFwj52u8h1nRZTSO
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207055 王立賢）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_9NL5a6dFwj52u8h1nRZTSO
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大賢（CBDB 226931）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226931&o=json
+            external_identifier: CBDB:226931
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_gTGhhZ4wcQDFUnuFCv55s7
+        status: active
+        display_name: 王大賢
+        merged_into_person_id: null
+    - claim:
+        id: c_hVwm1xpdMRQ_AyrifsQjld
+        subject_person_id: p_NGHFT8W3h8WaBq7fkVhjck
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hQRdPGFD2WJB8vdwgYoRQF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AlsucK6OP0mLaGh8q2eAqO
+          claim_id: c_hVwm1xpdMRQ_AyrifsQjld
+          source_id: s_gGUtqNqahMp2S0yfAlyj7v
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207055 王立賢）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_gGUtqNqahMp2S0yfAlyj7v
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用賢（CBDB 226925）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226925&o=json
+            external_identifier: CBDB:226925
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hQRdPGFD2WJB8vdwgYoRQF
+        status: active
+        display_name: 王用賢
+        merged_into_person_id: null
+    - claim:
+        id: c_LgstcpKHx-U6mDPjzNel3E
+        subject_person_id: p_NGHFT8W3h8WaBq7fkVhjck
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_oDmyZQnkohzndg2BepUC45
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NdHKKcsvd1DY1G5Xcu4mkX
+          claim_id: c_LgstcpKHx-U6mDPjzNel3E
+          source_id: s_M0SfqXKMEr5mdMI0qEeZFy
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207055 王立賢）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_M0SfqXKMEr5mdMI0qEeZFy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王進賢（CBDB 226926）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226926&o=json
+            external_identifier: CBDB:226926
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oDmyZQnkohzndg2BepUC45
+        status: active
+        display_name: 王進賢
+        merged_into_person_id: null
+    - claim:
+        id: c_Dc05nfYV_zIkPwVWSfsjwh
+        subject_person_id: p_NGHFT8W3h8WaBq7fkVhjck
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_t8nThH7iwXcayKJ61i6XPf
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V73jR3gIpMFucN-LGahuFY
+          claim_id: c_Dc05nfYV_zIkPwVWSfsjwh
+          source_id: s_q0Kpx0afRllLEX6VcT3NhF
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207055 王立賢）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_q0Kpx0afRllLEX6VcT3NhF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王舉賢（CBDB 226929）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226929&o=json
+            external_identifier: CBDB:226929
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_t8nThH7iwXcayKJ61i6XPf
+        status: active
+        display_name: 王舉賢
+        merged_into_person_id: null
 ---
 
 # 王立賢
@@ -317,12 +576,26 @@ relationships:
 | children | p_6pyMUM1oTrfQh7K8R57Vk3 | 王元穎 | accepted |
 | ancestors | p_11fTNqG9anHNZWcmN5xUv7 | 王相 | accepted |
 | ancestors | p_agoK9ozBg4G6tRPS3t3oBp | 王清 | accepted |
+| other | p_6jyxGrjQkpKvXQeAuBSg3Z | 王志賢 | accepted |
+| other | p_fHK3CiQCVAuSCPFGRi3c2V | 王尚賢 | accepted |
+| other | p_fTTzxHqWY2cgpXDKBo2Hbb | 王思賢 | accepted |
+| other | p_gTGhhZ4wcQDFUnuFCv55s7 | 王大賢 | accepted |
+| other | p_hQRdPGFD2WJB8vdwgYoRQF | 王用賢 | accepted |
+| other | p_oDmyZQnkohzndg2BepUC45 | 王進賢 | accepted |
+| other | p_t8nThH7iwXcayKJ61i6XPf | 王舉賢 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王大賢（CBDB 226931）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226931&o=json)
+- [中国历代人物传记资料库：王進賢（CBDB 226926）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226926&o=json)
+- [中国历代人物传记资料库：王舉賢（CBDB 226929）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226929&o=json)
 - [中国历代人物传记资料库：王立賢（CBDB 207055）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207055&o=json)
 - [中国历代人物传记资料库：王清（CBDB 226915）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226915&o=json)
+- [中国历代人物传记资料库：王尚賢（CBDB 226924）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226924&o=json)
+- [中国历代人物传记资料库：王思賢（CBDB 226930）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226930&o=json)
 - [中国历代人物传记资料库：王相（CBDB 226917）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226917&o=json)
+- [中国历代人物传记资料库：王用賢（CBDB 226925）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226925&o=json)
 - [中国历代人物传记资料库：王元灝（CBDB 226932）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226932&o=json)
 - [中国历代人物传记资料库：王元穎（CBDB 226933）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226933&o=json)
+- [中国历代人物传记资料库：王志賢（CBDB 226928）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226928&o=json)
 - [中国历代人物传记资料库：王佐（CBDB 226918）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226918&o=json)

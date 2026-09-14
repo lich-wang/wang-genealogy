@@ -4,7 +4,7 @@ id: p_34xqpNhmzmXMTk6BUFCqCC
 status: active
 merged_into: null
 display_name: 王玲
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_1BjNxZby-YfNjbPfyesU_H
+        subject_person_id: p_Akvhk7vb2JMfzgR2hpBTHy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_34xqpNhmzmXMTk6BUFCqCC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_z2Hs3n-OuCqU_MHBP9lL_E
+          claim_id: c_1BjNxZby-YfNjbPfyesU_H
+          source_id: s_Ia8IrBd6XE9mEIleyiBNxf
+          stance: supports
+          locator: CBDB：兄弟 王瑛（126750）之父／母 王浦
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王玲 与 王瑛 为同胞（CBDB 记「兄」），王瑛 之父／母即 王玲 之父／母。
+          source:
+            id: s_Ia8IrBd6XE9mEIleyiBNxf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玲（CBDB 294337）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294337&o=json
+            external_identifier: CBDB:294337
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Akvhk7vb2JMfzgR2hpBTHy
+        status: active
+        display_name: 王浦
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_A8S-HIRwS7Vr0bdetgD3ET
+        subject_person_id: p_34xqpNhmzmXMTk6BUFCqCC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_AKiZ73AHqEtzATAkDq6m9S
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wrSi9t0CqDb1p_sPU6nX31
+          claim_id: c_A8S-HIRwS7Vr0bdetgD3ET
+          source_id: s_Ia8IrBd6XE9mEIleyiBNxf
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126750 王瑛）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Ia8IrBd6XE9mEIleyiBNxf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玲（CBDB 294337）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294337&o=json
+            external_identifier: CBDB:294337
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_AKiZ73AHqEtzATAkDq6m9S
+        status: active
+        display_name: 王瑛
+        merged_into_person_id: null
 ---
 
 # 王玲
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Akvhk7vb2JMfzgR2hpBTHy | 王浦 | accepted |
+| other | p_AKiZ73AHqEtzATAkDq6m9S | 王瑛 | accepted |
 
 ## 外部来源
 

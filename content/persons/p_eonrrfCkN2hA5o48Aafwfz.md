@@ -4,7 +4,7 @@ id: p_eonrrfCkN2hA5o48Aafwfz
 status: active
 merged_into: null
 display_name: 王勉
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,81 @@ relationships:
         display_name: 王日新
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Xxm-DE60k0OQThcSJCEbBb
+        subject_person_id: p_7J2EXvoBG7ypFJeeG99Bmf
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_eonrrfCkN2hA5o48Aafwfz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xQjgTRtLvRXwshvAg3wEod
+          claim_id: c_Xxm-DE60k0OQThcSJCEbBb
+          source_id: s_trTy6LRxrlnt2AqDkTwV0P
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199604 王勉）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_trTy6LRxrlnt2AqDkTwV0P
+            source_type: api_record
+            title: 中国历代人物传记资料库：王章（CBDB 247174）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247174&o=json
+            external_identifier: CBDB:247174
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7J2EXvoBG7ypFJeeG99Bmf
+        status: active
+        display_name: 王章
+        merged_into_person_id: null
+    - claim:
+        id: c_fQTAimEuh3Gh99NgWeIaYN
+        subject_person_id: p_e392LnB7A4b6Nr7JWhMefS
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_eonrrfCkN2hA5o48Aafwfz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CmKr8cY0L-dG_y0CpxHhAT
+          claim_id: c_fQTAimEuh3Gh99NgWeIaYN
+          source_id: s_PHJ5xeXf6pI0oSBRQsHsx1
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199604 王勉）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_PHJ5xeXf6pI0oSBRQsHsx1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王憲（CBDB 247173）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247173&o=json
+            external_identifier: CBDB:247173
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_e392LnB7A4b6Nr7JWhMefS
+        status: active
+        display_name: 王憲
+        merged_into_person_id: null
 ---
 
 # 王勉
@@ -240,10 +314,14 @@ relationships:
 | parents | p_V5dXzxdRKFGtbUxcAc642k | 王貴 | accepted |
 | ancestors | p_3t2k2RqpEMgyeEqsF12rQr | 王志道 | accepted |
 | ancestors | p_KtR8siJmH1dcjxDiMLEA9S | 王日新 | accepted |
+| other | p_7J2EXvoBG7ypFJeeG99Bmf | 王章 | accepted |
+| other | p_e392LnB7A4b6Nr7JWhMefS | 王憲 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王貴（CBDB 247169）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247169&o=json)
 - [中国历代人物传记资料库：王勉（CBDB 199604）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199604&o=json)
 - [中国历代人物传记资料库：王日新（CBDB 247168）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247168&o=json)
+- [中国历代人物传记资料库：王憲（CBDB 247173）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247173&o=json)
+- [中国历代人物传记资料库：王章（CBDB 247174）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247174&o=json)
 - [中国历代人物传记资料库：王志道（CBDB 247167）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247167&o=json)

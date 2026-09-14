@@ -4,7 +4,7 @@ id: p_3vKgPJZPmMS9ZpS2a75EVV
 status: active
 merged_into: null
 display_name: 王稽
-revision: 3
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,192 @@ relationships:
         display_name: 王仲和
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_7xGYKaft8XuLlZiWMXY-fV
+        subject_person_id: p_2pz1La3gnmxK1AmRKNDz1j
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_3vKgPJZPmMS9ZpS2a75EVV
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4iWtFgUIvu2y-JkF2P-TCn
+          claim_id: c_7xGYKaft8XuLlZiWMXY-fV
+          source_id: s_sS8i5VqYXDpj1qCfdnMRY5
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198434 王稽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_sS8i5VqYXDpj1qCfdnMRY5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王穆（CBDB 271506）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271506&o=json
+            external_identifier: CBDB:271506
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2pz1La3gnmxK1AmRKNDz1j
+        status: active
+        display_name: 王穆
+        merged_into_person_id: null
+    - claim:
+        id: c_ebRT9zCkoGFx85iq4cg9aU
+        subject_person_id: p_3vKgPJZPmMS9ZpS2a75EVV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ABJ8gsp2tbu2cYQ8XrpDCa
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_avsfr5EsIdODzV-vtbnxpy
+          claim_id: c_ebRT9zCkoGFx85iq4cg9aU
+          source_id: s_ZJ-sG_9c9ZnrOfmXF9kHqz
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198434 王稽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ZJ-sG_9c9ZnrOfmXF9kHqz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王种（CBDB 271517）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271517&o=json
+            external_identifier: CBDB:271517
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ABJ8gsp2tbu2cYQ8XrpDCa
+        status: active
+        display_name: 王种
+        merged_into_person_id: null
+    - claim:
+        id: c_iI_lLlmbVjAWXwKsVsJtPs
+        subject_person_id: p_3vKgPJZPmMS9ZpS2a75EVV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_VNQDAMXMGx697Aaeg6F771
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_I2jB48H0XeZRpKMaMhJY4A
+          claim_id: c_iI_lLlmbVjAWXwKsVsJtPs
+          source_id: s_J5jRUSIRyYnBVhPAir5qwp
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 198434 王稽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_J5jRUSIRyYnBVhPAir5qwp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王吉（CBDB 271484）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271484&o=json
+            external_identifier: CBDB:271484
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VNQDAMXMGx697Aaeg6F771
+        status: active
+        display_name: 王吉
+        merged_into_person_id: null
+    - claim:
+        id: c_smA7wzKIizLaY1E5SZY3Yc
+        subject_person_id: p_3vKgPJZPmMS9ZpS2a75EVV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_e8hYUJFh9Q5fCVadiwHHmT
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5GSnI_avC4Kh-RvtggLA24
+          claim_id: c_smA7wzKIizLaY1E5SZY3Yc
+          source_id: s_p2QEKZdMLseRWrXSnA8Zi7
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 198434 王稽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_p2QEKZdMLseRWrXSnA8Zi7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王赫（CBDB 271473）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271473&o=json
+            external_identifier: CBDB:271473
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_e8hYUJFh9Q5fCVadiwHHmT
+        status: active
+        display_name: 王赫
+        merged_into_person_id: null
+    - claim:
+        id: c_EnN6NtqDlABIE7Yc1TmgKT
+        subject_person_id: p_3vKgPJZPmMS9ZpS2a75EVV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_yM3Q3hvVcAYjNabsHb8FDL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EbTO8WpwRBKVwok4LwlOxS
+          claim_id: c_EnN6NtqDlABIE7Yc1TmgKT
+          source_id: s_OyqRWw3IIg8KgISCjHe-cg
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 198434 王稽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_OyqRWw3IIg8KgISCjHe-cg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王洪（CBDB 271495）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271495&o=json
+            external_identifier: CBDB:271495
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_yM3Q3hvVcAYjNabsHb8FDL
+        status: active
+        display_name: 王洪
+        merged_into_person_id: null
 ---
 
 # 王稽
@@ -245,8 +430,18 @@ relationships:
 | spouses | p_m6EPDVJm31vYFqNffWhKzt | 黃氏 | accepted |
 | ancestors | p_pMWbZtWz4H8GindQ15E5pN | 王寧 | accepted |
 | ancestors | p_hYg3mBY4z5L651ejsb35ci | 王仲和 | accepted |
+| other | p_2pz1La3gnmxK1AmRKNDz1j | 王穆 | accepted |
+| other | p_ABJ8gsp2tbu2cYQ8XrpDCa | 王种 | accepted |
+| other | p_VNQDAMXMGx697Aaeg6F771 | 王吉 | accepted |
+| other | p_e8hYUJFh9Q5fCVadiwHHmT | 王赫 | accepted |
+| other | p_yM3Q3hvVcAYjNabsHb8FDL | 王洪 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：黃氏(王稽妻)（CBDB 271462）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271462&o=json)
+- [中国历代人物传记资料库：王赫（CBDB 271473）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271473&o=json)
+- [中国历代人物传记资料库：王洪（CBDB 271495）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271495&o=json)
 - [中国历代人物传记资料库：王稽（CBDB 198434）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198434&o=json)
+- [中国历代人物传记资料库：王吉（CBDB 271484）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271484&o=json)
+- [中国历代人物传记资料库：王穆（CBDB 271506）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271506&o=json)
+- [中国历代人物传记资料库：王种（CBDB 271517）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271517&o=json)

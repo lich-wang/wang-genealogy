@@ -4,7 +4,7 @@ id: p_L6KXrPU1Dj2x4FR7M3dWUP
 status: active
 merged_into: null
 display_name: 王三顧
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_p1f8ubBa5Z1AsGIcGh7NBL
+        subject_person_id: p_CvzpEJfQqQbdZFgH5SKxcJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_L6KXrPU1Dj2x4FR7M3dWUP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cRkU5h9w6jnlfQx1KCrd9a
+          claim_id: c_p1f8ubBa5Z1AsGIcGh7NBL
+          source_id: s_dRtabvQ_1aN4gRIXV5Qhcp
+          stance: supports
+          locator: CBDB：兄弟 王任用（203867）之父／母 王時雨
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王三顧 与 王任用 为同胞（CBDB 记「兄」），王任用 之父／母即 王三顧 之父／母。
+          source:
+            id: s_dRtabvQ_1aN4gRIXV5Qhcp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三顧（CBDB 311212）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311212&o=json
+            external_identifier: CBDB:311212
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CvzpEJfQqQbdZFgH5SKxcJ
+        status: active
+        display_name: 王時雨
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_oh-3FW7PfnxgaI8PLu4jZx
+        subject_person_id: p_18GnPkpUEcGNgbFCDg5gah
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_L6KXrPU1Dj2x4FR7M3dWUP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3QT0ChsodDsPNmR_oI0fJb
+          claim_id: c_oh-3FW7PfnxgaI8PLu4jZx
+          source_id: s_dRtabvQ_1aN4gRIXV5Qhcp
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203867 王任用）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_dRtabvQ_1aN4gRIXV5Qhcp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三顧（CBDB 311212）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=311212&o=json
+            external_identifier: CBDB:311212
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_18GnPkpUEcGNgbFCDg5gah
+        status: active
+        display_name: 王任用
+        merged_into_person_id: null
 ---
 
 # 王三顧
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_CvzpEJfQqQbdZFgH5SKxcJ | 王時雨 | accepted |
+| other | p_18GnPkpUEcGNgbFCDg5gah | 王任用 | accepted |
 
 ## 外部来源
 

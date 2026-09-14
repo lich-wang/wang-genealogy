@@ -4,7 +4,7 @@ id: p_2X56zUa2MYrGErZu5r54un
 status: active
 merged_into: null
 display_name: 王爕
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,81 @@ relationships:
         display_name: 王瑾
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_RseRd62HUOcdo7-EFN2ea3
+        subject_person_id: p_2X56zUa2MYrGErZu5r54un
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mUmL7DUthv7tNukis6eX5t
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DOJdV2jbIQzSHF-kDbnuDU
+          claim_id: c_RseRd62HUOcdo7-EFN2ea3
+          source_id: s_S8aAWXLgYAbNHF03mcTRrk
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205106 王爕）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_S8aAWXLgYAbNHF03mcTRrk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王煒（CBDB 328403）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328403&o=json
+            external_identifier: CBDB:328403
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mUmL7DUthv7tNukis6eX5t
+        status: active
+        display_name: 王煒
+        merged_into_person_id: null
+    - claim:
+        id: c_ikljnC9Sp99O0nRcHYSQdo
+        subject_person_id: p_2X56zUa2MYrGErZu5r54un
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nCdArGpNjPFoV54TU6ApEV
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Z3ZH5AzXtjAFebIWN-5sjt
+          claim_id: c_ikljnC9Sp99O0nRcHYSQdo
+          source_id: s_zceJawZFwLYUKKBBVtBOLZ
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205106 王爕）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_zceJawZFwLYUKKBBVtBOLZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王熠（CBDB 328404）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328404&o=json
+            external_identifier: CBDB:328404
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nCdArGpNjPFoV54TU6ApEV
+        status: active
+        display_name: 王熠
+        merged_into_person_id: null
 ---
 
 # 王爕
@@ -245,8 +319,12 @@ relationships:
 | spouses | p_wHFs225Fr73NNgbiYpYAoK | 許氏 | accepted |
 | ancestors | p_pP89K6a61yquC5wjNZD3hv | 王鉞 | accepted |
 | ancestors | p_yfUcpUNSmQKywdUMLPWsyg | 王瑾 | accepted |
+| other | p_mUmL7DUthv7tNukis6eX5t | 王煒 | accepted |
+| other | p_nCdArGpNjPFoV54TU6ApEV | 王熠 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王煒（CBDB 328403）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328403&o=json)
 - [中国历代人物传记资料库：王爕（CBDB 205106）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205106&o=json)
+- [中国历代人物传记资料库：王熠（CBDB 328404）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328404&o=json)
 - [中国历代人物传记资料库：許氏(王爕妻)（CBDB 328402）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328402&o=json)

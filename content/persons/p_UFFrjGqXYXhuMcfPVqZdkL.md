@@ -4,7 +4,7 @@ id: p_UFFrjGqXYXhuMcfPVqZdkL
 status: active
 merged_into: null
 display_name: 王鈇
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_zdtYN_S7u4_KnXbD6-RMNs
+        subject_person_id: p_GxB4u6sQCt6jzEUcjwwKLA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UFFrjGqXYXhuMcfPVqZdkL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oV7zf_d4L586bfwbsz5VVd
+          claim_id: c_zdtYN_S7u4_KnXbD6-RMNs
+          source_id: s_pTbTBiYBPqRA8Gukt1jE7W
+          stance: supports
+          locator: CBDB：兄弟 王鉞（200774）之父／母 王克厚
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鈇 与 王鉞 为同胞（CBDB 记「弟」），王鉞 之父／母即 王鈇 之父／母。
+          source:
+            id: s_pTbTBiYBPqRA8Gukt1jE7W
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鈇（CBDB 262677）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262677&o=json
+            external_identifier: CBDB:262677
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GxB4u6sQCt6jzEUcjwwKLA
+        status: active
+        display_name: 王克厚
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c__eFJzU-jdD5BM-hyjKm50b
+        subject_person_id: p_UFFrjGqXYXhuMcfPVqZdkL
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_sCt13UNRrBt2qKTE8fxxQi
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UbAT3XPnJ7I4Wix3iSeLzH
+          claim_id: c__eFJzU-jdD5BM-hyjKm50b
+          source_id: s_pTbTBiYBPqRA8Gukt1jE7W
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200774 王鉞）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_pTbTBiYBPqRA8Gukt1jE7W
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鈇（CBDB 262677）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262677&o=json
+            external_identifier: CBDB:262677
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_sCt13UNRrBt2qKTE8fxxQi
+        status: active
+        display_name: 王鉞
+        merged_into_person_id: null
 ---
 
 # 王鈇
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_GxB4u6sQCt6jzEUcjwwKLA | 王克厚 | accepted |
+| other | p_sCt13UNRrBt2qKTE8fxxQi | 王鉞 | accepted |
 
 ## 外部来源
 

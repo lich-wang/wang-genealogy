@@ -4,7 +4,7 @@ id: p_oEx5JqZovWjAWmN242q9VM
 status: active
 merged_into: null
 display_name: 王敦
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_dl0ZtceYap78WTEQxlqFAv
+        subject_person_id: p_EanU2yYn4vz2RKu9z2UR1n
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oEx5JqZovWjAWmN242q9VM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xeGCqljs4fbrJG1M92Ojt_
+          claim_id: c_dl0ZtceYap78WTEQxlqFAv
+          source_id: s_lPu9PfE8TD_YEffuilisMK
+          stance: supports
+          locator: CBDB：兄弟 王盛（126711）之父／母 王惠
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王敦 与 王盛 为同胞（CBDB 记「兄」），王盛 之父／母即 王敦 之父／母。
+          source:
+            id: s_lPu9PfE8TD_YEffuilisMK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敦（CBDB 248395）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248395&o=json
+            external_identifier: CBDB:248395
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EanU2yYn4vz2RKu9z2UR1n
+        status: active
+        display_name: 王惠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Ryklis6FJcjRKjowLsxK8a
+        subject_person_id: p_2XRBAyxJK1NzbNZAjugN5q
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_oEx5JqZovWjAWmN242q9VM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9_oCrMGGyBRz_x0G7TExDp
+          claim_id: c_Ryklis6FJcjRKjowLsxK8a
+          source_id: s_lPu9PfE8TD_YEffuilisMK
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126711 王盛）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_lPu9PfE8TD_YEffuilisMK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敦（CBDB 248395）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248395&o=json
+            external_identifier: CBDB:248395
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2XRBAyxJK1NzbNZAjugN5q
+        status: active
+        display_name: 王盛
+        merged_into_person_id: null
 ---
 
 # 王敦
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_EanU2yYn4vz2RKu9z2UR1n | 王惠 | accepted |
+| other | p_2XRBAyxJK1NzbNZAjugN5q | 王盛 | accepted |
 
 ## 外部来源
 

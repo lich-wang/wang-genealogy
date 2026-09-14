@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王庾
 cbdb_id: 126670
-revision: 4
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -194,7 +194,81 @@ relationships:
         display_name: 王添祥
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_28q_tBtRiF3Su0v8kBen3L
+        subject_person_id: p_6e5ELnuv2E5KGPsNrAysQX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_bqgpFCmggdWFfU6SUSarhW
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NRbEBx4-glvyLyuV7kB2z2
+          claim_id: c_28q_tBtRiF3Su0v8kBen3L
+          source_id: s_vGfRWNOIvf95t1QEyVzmFb
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126670 王庾）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_vGfRWNOIvf95t1QEyVzmFb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王庶（CBDB 238299）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238299&o=json
+            external_identifier: CBDB:238299
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_bqgpFCmggdWFfU6SUSarhW
+        status: active
+        display_name: 王庶
+        merged_into_person_id: null
+    - claim:
+        id: c_6At9k1Jdr7FIvvfanhCW-z
+        subject_person_id: p_6e5ELnuv2E5KGPsNrAysQX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_rkNR943i8ihMdYMz3NXSiB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1ROhovRC9rHheZHwXP6JXX
+          claim_id: c_6At9k1Jdr7FIvvfanhCW-z
+          source_id: s_jMVq19kPvJicmt1gu14zal
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126670 王庾）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_jMVq19kPvJicmt1gu14zal
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廣（CBDB 238297）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238297&o=json
+            external_identifier: CBDB:238297
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rkNR943i8ihMdYMz3NXSiB
+        status: active
+        display_name: 王廣
+        merged_into_person_id: null
 ---
 
 # 王庾
@@ -215,9 +289,13 @@ relationships:
 | parents | p_gjG6yS82eJN4fARf6aE7Hv | 王文貴 | accepted |
 | ancestors | p_HXRtUkq7ZLsLxnqSaK3d44 | 王庭濟 | accepted |
 | ancestors | p_qsFykwEkn331sniP7xaPke | 王添祥 | accepted |
+| other | p_bqgpFCmggdWFfU6SUSarhW | 王庶 | accepted |
+| other | p_rkNR943i8ihMdYMz3NXSiB | 王廣 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王廣（CBDB 238297）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238297&o=json)
+- [中国历代人物传记资料库：王庶（CBDB 238299）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238299&o=json)
 - [中国历代人物传记资料库：王添祥（CBDB 238292）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238292&o=json)
 - [中国历代人物传记资料库：王庭濟（CBDB 238291）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238291&o=json)
 - [中国历代人物传记资料库：王文貴（CBDB 238293）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238293&o=json)

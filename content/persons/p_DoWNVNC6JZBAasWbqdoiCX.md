@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王祖嫡
 cbdb_id: 126631
-revision: 5
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -229,7 +229,44 @@ relationships:
         display_name: 王瑀
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_wRLdJCaYzli1PNwV5onztN
+        subject_person_id: p_DoWNVNC6JZBAasWbqdoiCX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kKJsArnnRuc3sSJt7Fr1Qc
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_u-NKDNf4QVkDtarp-o9ZyU
+          claim_id: c_wRLdJCaYzli1PNwV5onztN
+          source_id: s_iqYdIP0BWSxpHw1Run6w6C
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126631 王祖嫡）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_iqYdIP0BWSxpHw1Run6w6C
+            source_type: api_record
+            title: 中国历代人物传记资料库：王祖裔（CBDB 211138）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211138&o=json
+            external_identifier: CBDB:211138
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kKJsArnnRuc3sSJt7Fr1Qc
+        status: active
+        display_name: 王祖裔
+        merged_into_person_id: null
 ---
 
 # 王祖嫡
@@ -251,6 +288,7 @@ relationships:
 | children | p_8ct24JW85LFaBwBesKXW2J | 王延世 | accepted |
 | ancestors | p_GDdHk26J8HbYjRhjpiXZaG | 王端 | accepted |
 | ancestors | p_wMVfyCLqy9dE7qvuBJu9CN | 王瑀 | accepted |
+| other | p_kKJsArnnRuc3sSJt7Fr1Qc | 王祖裔 | accepted |
 
 ## 外部来源
 
@@ -259,3 +297,4 @@ relationships:
 - [中国历代人物传记资料库：王瑀（CBDB 211132）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211132&o=json)
 - [中国历代人物传记资料库：王詔（CBDB 211133）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211133&o=json)
 - [中国历代人物传记资料库：王祖嫡（CBDB 126631）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126631&o=json)
+- [中国历代人物传记资料库：王祖裔（CBDB 211138）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211138&o=json)

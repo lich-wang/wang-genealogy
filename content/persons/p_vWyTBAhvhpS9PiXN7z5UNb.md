@@ -4,7 +4,7 @@ id: p_vWyTBAhvhpS9PiXN7z5UNb
 status: active
 merged_into: null
 display_name: 王弘仁
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_BfF_ffcck-WwWhcoiG-ltV
+        subject_person_id: p_aSjUnGimC5SWPWNHQXYgEV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vWyTBAhvhpS9PiXN7z5UNb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_b0yMJX-XiJVK5hNpQM-mve
+          claim_id: c_BfF_ffcck-WwWhcoiG-ltV
+          source_id: s_b6kVMWEmbuVWwe4xu1Wrjl
+          stance: supports
+          locator: CBDB：兄弟 王弘道（202780）之父／母 王慶
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王弘仁 与 王弘道 为同胞（CBDB 记「弟」），王弘道 之父／母即 王弘仁 之父／母。
+          source:
+            id: s_b6kVMWEmbuVWwe4xu1Wrjl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王弘仁（CBDB 294206）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294206&o=json
+            external_identifier: CBDB:294206
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aSjUnGimC5SWPWNHQXYgEV
+        status: active
+        display_name: 王慶
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_BqKu-1GuQ_VIel7NZCkBDA
+        subject_person_id: p_sLhnC92rQu1PepE5sPJ3EL
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vWyTBAhvhpS9PiXN7z5UNb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_heNJwwikMiP_32-dDwkvFa
+          claim_id: c_BqKu-1GuQ_VIel7NZCkBDA
+          source_id: s_b6kVMWEmbuVWwe4xu1Wrjl
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202780 王弘道）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_b6kVMWEmbuVWwe4xu1Wrjl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王弘仁（CBDB 294206）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294206&o=json
+            external_identifier: CBDB:294206
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_sLhnC92rQu1PepE5sPJ3EL
+        status: active
+        display_name: 王弘道
+        merged_into_person_id: null
 ---
 
 # 王弘仁
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_aSjUnGimC5SWPWNHQXYgEV | 王慶 | accepted |
+| other | p_sLhnC92rQu1PepE5sPJ3EL | 王弘道 | accepted |
 
 ## 外部来源
 

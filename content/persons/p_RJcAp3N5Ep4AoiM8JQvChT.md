@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王秉儉
 cbdb_id: 272760
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_krzN6dZWOou_rlrXIkXlQQ
+        subject_person_id: p_xTGz6CSCfnLnyJ3himBvrU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RJcAp3N5Ep4AoiM8JQvChT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ns0jjTXdvWyhpAMSMuKgkw
+          claim_id: c_krzN6dZWOou_rlrXIkXlQQ
+          source_id: s__GwT58q4xBySvZN1CUciI5
+          stance: supports
+          locator: CBDB：兄弟 王秉良（201458）之父／母 王俊
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王秉儉 与 王秉良 为同胞（CBDB 记「兄」），王秉良 之父／母即 王秉儉 之父／母。
+          source:
+            id: s__GwT58q4xBySvZN1CUciI5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王秉儉（CBDB 272760）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272760&o=json
+            external_identifier: CBDB:272760
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xTGz6CSCfnLnyJ3himBvrU
+        status: active
+        display_name: 王俊
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_QFEK22Mhy1QbD6L-GPkSfv
+        subject_person_id: p_AJ36QsHYvNFFPiM32NAShM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RJcAp3N5Ep4AoiM8JQvChT
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Bb5jE-Ddu76GgAccthXL6r
+          claim_id: c_QFEK22Mhy1QbD6L-GPkSfv
+          source_id: s__GwT58q4xBySvZN1CUciI5
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201458 王秉良）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__GwT58q4xBySvZN1CUciI5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王秉儉（CBDB 272760）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272760&o=json
+            external_identifier: CBDB:272760
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_AJ36QsHYvNFFPiM32NAShM
+        status: active
+        display_name: 王秉良
+        merged_into_person_id: null
 ---
 
 # 王秉儉
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xTGz6CSCfnLnyJ3himBvrU | 王俊 | accepted |
+| other | p_AJ36QsHYvNFFPiM32NAShM | 王秉良 | accepted |
 
 ## 外部来源
 

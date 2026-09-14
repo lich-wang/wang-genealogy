@@ -4,7 +4,7 @@ id: p_RA8LBgUDtrLLPDFgrdefPD
 status: active
 merged_into: null
 display_name: 王時敘
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -174,6 +174,43 @@ relationships:
         status: active
         display_name: 王文貫
         merged_into_person_id: null
+    - claim:
+        id: c_u7ndaXs8HVlaehvrYs2Lai
+        subject_person_id: p_RA8LBgUDtrLLPDFgrdefPD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xokY4h4MQqvycu91m47z1h
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j0iw5HdVdr34Xt44VnXOE0
+          claim_id: c_u7ndaXs8HVlaehvrYs2Lai
+          source_id: s_cO1NoyEBD23tScjiOpqfIm
+          stance: supports
+          locator: CBDB：兄弟 王文貫（25596）之父／母 王時敘
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王安道 与 王文貫 为同胞（CBDB 记「兄」），王文貫 之父／母即 王安道 之父／母。
+          source:
+            id: s_cO1NoyEBD23tScjiOpqfIm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王安道（CBDB 38670）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38670&o=json
+            external_identifier: CBDB:38670
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xokY4h4MQqvycu91m47z1h
+        status: active
+        display_name: 王安道
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -226,10 +263,12 @@ relationships:
 | parents | p_nKZwYzWgUs8QGgRPRMV4gH | 王中立 | accepted |
 | children | p_bDQ8CKn5Bsja1AL34KVg9T | 王宗道 | accepted |
 | children | p_P4oAEcF78neAuvnwQBF9EK | 王文貫 | accepted |
+| children | p_xokY4h4MQqvycu91m47z1h | 王安道 | accepted |
 | descendants | p_ffKBXMTZthLyDPHTW4nPZ2 | 王與直 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王安道（CBDB 38670）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38670&o=json)
 - [中国历代人物传记资料库：王時敘（CBDB 25588）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25588&o=json)
 - [中国历代人物传记资料库：王中立（CBDB 25591）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25591&o=json)
 - [中国历代人物传记资料库：王宗道（CBDB 25592）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25592&o=json)

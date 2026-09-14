@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王安舜
 cbdb_id: 207738
-revision: 6
+revision: 8
 properties:
   - predicate: bio.summary
     recommended:
@@ -349,7 +349,81 @@ relationships:
         display_name: 王昺
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_wCUZYuvsbj79B2xpSdDqtF
+        subject_person_id: p_7DwthjF5MX92QE81NQ7sQG
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_etxF8UycP4Urogz61YgdPb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uGb09tg2jArA6xeCo6CZ-y
+          claim_id: c_wCUZYuvsbj79B2xpSdDqtF
+          source_id: s_UFrad3Hro0TLa_SHWgRGZi
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207738 王安舜）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_UFrad3Hro0TLa_SHWgRGZi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王安宗（CBDB 234990）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234990&o=json
+            external_identifier: CBDB:234990
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7DwthjF5MX92QE81NQ7sQG
+        status: active
+        display_name: 王安宗
+        merged_into_person_id: null
+    - claim:
+        id: c_7hVZlhLvZ_InSroB9JD2dW
+        subject_person_id: p_BS98rkS6BVdHnc6YesxVkv
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_etxF8UycP4Urogz61YgdPb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4cbvMw1smhPh-rralHBqrk
+          claim_id: c_7hVZlhLvZ_InSroB9JD2dW
+          source_id: s_VSI68zMpsWULFxTmUvURex
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207738 王安舜）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_VSI68zMpsWULFxTmUvURex
+            source_type: api_record
+            title: 中国历代人物传记资料库：王安尹（CBDB 234991）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234991&o=json
+            external_identifier: CBDB:234991
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BS98rkS6BVdHnc6YesxVkv
+        status: active
+        display_name: 王安尹
+        merged_into_person_id: null
 ---
 
 # 王安舜
@@ -374,10 +448,14 @@ relationships:
 | children | p_vG8PQBwfZ9HjqfNa8GhzNJ | 王作璧 | accepted |
 | ancestors | p_5dSakUSWw4kjHJqxaV8CHv | 王鈺 | accepted |
 | ancestors | p_f1etzqZkjDQnNgQC99Wzfa | 王昺 | accepted |
+| other | p_7DwthjF5MX92QE81NQ7sQG | 王安宗 | accepted |
+| other | p_BS98rkS6BVdHnc6YesxVkv | 王安尹 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王安舜（CBDB 207738）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207738&o=json)
+- [中国历代人物传记资料库：王安尹（CBDB 234991）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234991&o=json)
+- [中国历代人物传记资料库：王安宗（CBDB 234990）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234990&o=json)
 - [中国历代人物传记资料库：王昺（CBDB 234983）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234983&o=json)
 - [中国历代人物传记资料库：王泝（CBDB 234985）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234985&o=json)
 - [中国历代人物传记资料库：王鈺（CBDB 234984）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234984&o=json)

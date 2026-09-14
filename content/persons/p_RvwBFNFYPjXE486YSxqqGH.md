@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王光考
 cbdb_id: 306651
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_bpFGAi8FQlaljH3_bEyNQd
+        subject_person_id: p_aJ5J2cPFB2J5wBLDS27uNZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RvwBFNFYPjXE486YSxqqGH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0SRLDjGNmZCWDrcbkl_5O7
+          claim_id: c_bpFGAi8FQlaljH3_bEyNQd
+          source_id: s_CUSWIjssuTrxhifx4b_CR2
+          stance: supports
+          locator: CBDB：兄弟 王光祖（126518）之父／母 王煩
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王光考 与 王光祖 为同胞（CBDB 记「兄」），王光祖 之父／母即 王光考 之父／母。
+          source:
+            id: s_CUSWIjssuTrxhifx4b_CR2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王光考（CBDB 306651）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306651&o=json
+            external_identifier: CBDB:306651
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aJ5J2cPFB2J5wBLDS27uNZ
+        status: active
+        display_name: 王煩
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_3BHoDVWuXu1a1QvjVdvAon
+        subject_person_id: p_RvwBFNFYPjXE486YSxqqGH
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nMTfTHCiK68GBCA9Zmyxva
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yM4j0sKGFwysy_dA1Z2DBm
+          claim_id: c_3BHoDVWuXu1a1QvjVdvAon
+          source_id: s_CUSWIjssuTrxhifx4b_CR2
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126518 王光祖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_CUSWIjssuTrxhifx4b_CR2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王光考（CBDB 306651）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306651&o=json
+            external_identifier: CBDB:306651
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nMTfTHCiK68GBCA9Zmyxva
+        status: active
+        display_name: 王光祖
+        merged_into_person_id: null
 ---
 
 # 王光考
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_aJ5J2cPFB2J5wBLDS27uNZ | 王煩 | accepted |
+| other | p_nMTfTHCiK68GBCA9Zmyxva | 王光祖 | accepted |
 
 ## 外部来源
 

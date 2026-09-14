@@ -4,7 +4,7 @@ id: p_GnhAaQQ4LxSawSCcG7G6UV
 status: active
 merged_into: null
 display_name: 王端
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,43 @@ relationships:
         status: active
         display_name: 王藎
         merged_into_person_id: null
+    - claim:
+        id: c_x_DAUtPFx_NSIspBmlpF_M
+        subject_person_id: p_GnhAaQQ4LxSawSCcG7G6UV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CpdA7n5ABuWVoWQ3BeCS1U
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JTeZAcI7g1oj8_KK7jqxwl
+          claim_id: c_x_DAUtPFx_NSIspBmlpF_M
+          source_id: s_3dd8SJY5tQywx2HKxb8GfH
+          stance: supports
+          locator: CBDB：兄弟 王藎（126860）之父／母 王端
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王蘭 与 王藎 为同胞（CBDB 记「兄」），王藎 之父／母即 王蘭 之父／母。
+          source:
+            id: s_3dd8SJY5tQywx2HKxb8GfH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王蘭（CBDB 266941）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266941&o=json
+            external_identifier: CBDB:266941
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CpdA7n5ABuWVoWQ3BeCS1U
+        status: active
+        display_name: 王蘭
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_ryQAuRkxcym1JUyP8NWaCG | 王藎 | accepted |
+| children | p_CpdA7n5ABuWVoWQ3BeCS1U | 王蘭 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王端（CBDB 266938）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266938&o=json)
+- [中国历代人物传记资料库：王蘭（CBDB 266941）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266941&o=json)

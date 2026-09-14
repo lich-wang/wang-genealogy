@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王應行
 cbdb_id: 338257
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -81,7 +81,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_QOGhebODIaBhNftHl3iJ90
+        subject_person_id: p_VgDUNqR84btxsvHJHuwqom
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_pVr2YmvW2g7u44dWJVuytr
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__BZaB0J3NDPpiR-MyCmVSC
+          claim_id: c_QOGhebODIaBhNftHl3iJ90
+          source_id: s_RwB_3BYoxGQa_x2HvEvjw-
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 338256 王應微）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_RwB_3BYoxGQa_x2HvEvjw-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應行（CBDB 338257）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338257&o=json
+            external_identifier: CBDB:338257
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VgDUNqR84btxsvHJHuwqom
+        status: active
+        display_name: 王應微
+        merged_into_person_id: null
 ---
 
 # 王應行
@@ -99,6 +136,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_VgDUNqR84btxsvHJHuwqom | 王應微 | accepted |
 
 ## 外部来源
 

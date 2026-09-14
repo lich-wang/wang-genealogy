@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王弘蘊
 cbdb_id: 241179
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_eEppo-EEL3yt_L9rDCm-kf
+        subject_person_id: p_6Tbz6rZoK81ZB5BwdE41k7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GWsofKJpEbYC2MCfuoSMjA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qg03eVrdsw6EL3JKgRb1S-
+          claim_id: c_eEppo-EEL3yt_L9rDCm-kf
+          source_id: s_Qk5QJHckG6_-fPVEUIq7Kf
+          stance: supports
+          locator: CBDB：兄弟 王玭（208155）之父／母 王興弼
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王弘蘊 与 王玭 为同胞（CBDB 记「弟」），王玭 之父／母即 王弘蘊 之父／母。
+          source:
+            id: s_Qk5QJHckG6_-fPVEUIq7Kf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王弘蘊（CBDB 241179）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241179&o=json
+            external_identifier: CBDB:241179
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6Tbz6rZoK81ZB5BwdE41k7
+        status: active
+        display_name: 王興弼
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_QIPyJhvwBgus-Rpq5EXoFI
+        subject_person_id: p_GWsofKJpEbYC2MCfuoSMjA
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_GZ9FC3xVw4crRVvp7UDQTX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZiN-Kugmd8VwoOotSZ8e2A
+          claim_id: c_QIPyJhvwBgus-Rpq5EXoFI
+          source_id: s_Qk5QJHckG6_-fPVEUIq7Kf
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 208155 王玭）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Qk5QJHckG6_-fPVEUIq7Kf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王弘蘊（CBDB 241179）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241179&o=json
+            external_identifier: CBDB:241179
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GZ9FC3xVw4crRVvp7UDQTX
+        status: active
+        display_name: 王玭
+        merged_into_person_id: null
 ---
 
 # 王弘蘊
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_6Tbz6rZoK81ZB5BwdE41k7 | 王興弼 | accepted |
+| other | p_GZ9FC3xVw4crRVvp7UDQTX | 王玭 | accepted |
 
 ## 外部来源
 

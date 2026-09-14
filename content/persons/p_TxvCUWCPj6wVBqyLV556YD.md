@@ -4,7 +4,7 @@ id: p_TxvCUWCPj6wVBqyLV556YD
 status: active
 merged_into: null
 display_name: 王大謨
-revision: 4
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -220,7 +220,118 @@ relationships:
         display_name: 王友方
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_weXjXeYQP3AXcOBWiFT7Lw
+        subject_person_id: p_AGw7JSRWBPYTLp5VhR36Lo
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_TxvCUWCPj6wVBqyLV556YD
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GVZQ7oWyuUm25VGchTjQwC
+          claim_id: c_weXjXeYQP3AXcOBWiFT7Lw
+          source_id: s_p4AnTj67EZe3xwEocE3-Wf
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206615 王大謨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_p4AnTj67EZe3xwEocE3-Wf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大宗（CBDB 220575）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220575&o=json
+            external_identifier: CBDB:220575
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_AGw7JSRWBPYTLp5VhR36Lo
+        status: active
+        display_name: 王大宗
+        merged_into_person_id: null
+    - claim:
+        id: c_NBqPbD2jb3G5psCM91aNAP
+        subject_person_id: p_QyEJMmoL51cyqHo6rHvG61
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_TxvCUWCPj6wVBqyLV556YD
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lWT70vvZBjmh4BtMrHAN_q
+          claim_id: c_NBqPbD2jb3G5psCM91aNAP
+          source_id: s_Q2PlmVvep8GNp4qZhEO2L8
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206615 王大謨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Q2PlmVvep8GNp4qZhEO2L8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大邦（CBDB 220574）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220574&o=json
+            external_identifier: CBDB:220574
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_QyEJMmoL51cyqHo6rHvG61
+        status: active
+        display_name: 王大邦
+        merged_into_person_id: null
+    - claim:
+        id: c_6XU1HmjtTNpRa4nKCCm9AM
+        subject_person_id: p_TxvCUWCPj6wVBqyLV556YD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_bQnRSpmUMJHu5JxAujBFEa
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AUuuQaVhnvWRpD52oG9IMd
+          claim_id: c_6XU1HmjtTNpRa4nKCCm9AM
+          source_id: s_LMyzzto9n0hr1HcB-_K6xc
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206615 王大謨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_LMyzzto9n0hr1HcB-_K6xc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大猷（CBDB 220576）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220576&o=json
+            external_identifier: CBDB:220576
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_bQnRSpmUMJHu5JxAujBFEa
+        status: active
+        display_name: 王大猷
+        merged_into_person_id: null
 ---
 
 # 王大謨
@@ -242,10 +353,16 @@ relationships:
 | parents | p_CZQQ91VfnuK7NuqpB8hoXK | 王照 | accepted |
 | ancestors | p_3JKHRJ23iN65rBD3F3StTg | 王伯蘭 | accepted |
 | ancestors | p_oiJBmfvECXjH8hvC9C6oVk | 王友方 | accepted |
+| other | p_AGw7JSRWBPYTLp5VhR36Lo | 王大宗 | accepted |
+| other | p_QyEJMmoL51cyqHo6rHvG61 | 王大邦 | accepted |
+| other | p_bQnRSpmUMJHu5JxAujBFEa | 王大猷 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王伯蘭（CBDB 220567）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220567&o=json)
+- [中国历代人物传记资料库：王大邦（CBDB 220574）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220574&o=json)
 - [中国历代人物传记资料库：王大謨（CBDB 206615）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206615&o=json)
+- [中国历代人物传记资料库：王大猷（CBDB 220576）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220576&o=json)
+- [中国历代人物传记资料库：王大宗（CBDB 220575）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220575&o=json)
 - [中国历代人物传记资料库：王友方（CBDB 220568）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220568&o=json)
 - [中国历代人物传记资料库：王照（CBDB 220569）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=220569&o=json)

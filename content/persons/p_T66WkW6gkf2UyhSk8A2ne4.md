@@ -4,7 +4,7 @@ id: p_T66WkW6gkf2UyhSk8A2ne4
 status: active
 merged_into: null
 display_name: 王澤
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_hvjftrkNHEluUZ7ZB4--77
+        subject_person_id: p_PbcMSPmGuF3fVvYFwz57Eb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_T66WkW6gkf2UyhSk8A2ne4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BCwzS_jbAKPl6w4cjtkq1F
+          claim_id: c_hvjftrkNHEluUZ7ZB4--77
+          source_id: s_tLNsozr4KZ8onTpPffvyaP
+          stance: supports
+          locator: CBDB：兄弟 王渙（67928）之父／母 王京
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王澤 与 王渙 为同胞（CBDB 记「弟」），王渙 之父／母即 王澤 之父／母。
+          source:
+            id: s_tLNsozr4KZ8onTpPffvyaP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王澤（CBDB 269151）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=269151&o=json
+            external_identifier: CBDB:269151
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PbcMSPmGuF3fVvYFwz57Eb
+        status: active
+        display_name: 王京
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c__Tl4CefZzZL1wQdcFyJ3c0
+        subject_person_id: p_T66WkW6gkf2UyhSk8A2ne4
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_w2z816UY6mM4xzeNHAgB83
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2KTagHFCpi4UVqGVwq1-R5
+          claim_id: c__Tl4CefZzZL1wQdcFyJ3c0
+          source_id: s_tLNsozr4KZ8onTpPffvyaP
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 67928 王渙）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_tLNsozr4KZ8onTpPffvyaP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王澤（CBDB 269151）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=269151&o=json
+            external_identifier: CBDB:269151
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_w2z816UY6mM4xzeNHAgB83
+        status: active
+        display_name: 王渙
+        merged_into_person_id: null
 ---
 
 # 王澤
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_PbcMSPmGuF3fVvYFwz57Eb | 王京 | accepted |
+| other | p_w2z816UY6mM4xzeNHAgB83 | 王渙 | accepted |
 
 ## 外部来源
 

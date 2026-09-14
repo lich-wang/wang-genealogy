@@ -4,7 +4,7 @@ id: p_5HLAwt21hgN7UKGzKG2BNZ
 status: active
 merged_into: null
 display_name: 王璘
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -193,6 +193,117 @@ relationships:
         status: active
         display_name: 王仲方
         merged_into_person_id: null
+    - claim:
+        id: c_pJZsV2yTKcprY57MTsGhPz
+        subject_person_id: p_5HLAwt21hgN7UKGzKG2BNZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_74h9Xaur9r63q3McbnuK7q
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_hLpnzjXEfbSkw4G6m6_MRN
+          claim_id: c_pJZsV2yTKcprY57MTsGhPz
+          source_id: s_o7Nk3SEYM5vBbhsK8ykKF_
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 22213）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_o7Nk3SEYM5vBbhsK8ykKF_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德方（CBDB 690110）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=690110&o=json
+            external_identifier: CBDB:690110
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_74h9Xaur9r63q3McbnuK7q
+        status: active
+        display_name: 王德方
+        merged_into_person_id: null
+    - claim:
+        id: c_rAc6hTrBYVKKJ4fZw6m069
+        subject_person_id: p_5HLAwt21hgN7UKGzKG2BNZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_US4eLy7x2zzLSMfjLbzrxz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_GeBWzo7B9q9RQIa9fbN9ek
+          claim_id: c_rAc6hTrBYVKKJ4fZw6m069
+          source_id: s_aDAVqpFo2X-5IZW3CHo0eb
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 22213）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_aDAVqpFo2X-5IZW3CHo0eb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鬴（CBDB 690113）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=690113&o=json
+            external_identifier: CBDB:690113
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_US4eLy7x2zzLSMfjLbzrxz
+        status: active
+        display_name: 王鬴
+        merged_into_person_id: null
+    - claim:
+        id: c_LkouFS8-Fz0EX2RAFr4qnN
+        subject_person_id: p_5HLAwt21hgN7UKGzKG2BNZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dCCDXRHgBkU81qJnpQC4CC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_Pj8c_Xz0Pgv_9CHBfodT2D
+          claim_id: c_LkouFS8-Fz0EX2RAFr4qnN
+          source_id: s_-kfDKVO0f3Bd8Zf5NP6U6q
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 22213）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_-kfDKVO0f3Bd8Zf5NP6U6q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王義方（CBDB 690109）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=690109&o=json
+            external_identifier: CBDB:690109
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dCCDXRHgBkU81qJnpQC4CC
+        status: active
+        display_name: 王義方
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -376,6 +487,9 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_QKqRb3WxFKBxBgiGZhQ1YL | 王忠信 | accepted |
 | children | p_1EatzxCEuA8v7SeSNyZF3y | 王仲方 | accepted |
+| children | p_74h9Xaur9r63q3McbnuK7q | 王德方 | accepted |
+| children | p_US4eLy7x2zzLSMfjLbzrxz | 王鬴 | accepted |
+| children | p_dCCDXRHgBkU81qJnpQC4CC | 王義方 | accepted |
 | descendants | p_qRpWWBuEscFAJ2egEJ7Za7 | 王淳 | accepted |
 | descendants | p_cZE8zfM6oQN4r6dSAfrgZq | 王正猷 | accepted |
 | descendants | p_Ekok2QicRh9xT1ABB2vgky | 王正己 | accepted |
@@ -385,5 +499,8 @@ relationships:
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王德方（CBDB 690110）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=690110&o=json)
+- [中国历代人物传记资料库：王鬴（CBDB 690113）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=690113&o=json)
 - [中国历代人物传记资料库：王璘（CBDB 22213）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22213&o=json)
+- [中国历代人物传记资料库：王義方（CBDB 690109）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=690109&o=json)
 - [中国历代人物传记资料库：王仲方（CBDB 690111）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=690111&o=json)

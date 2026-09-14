@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王文盛
 cbdb_id: 326520
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -113,6 +113,43 @@ relationships:
         status: active
         display_name: 王廷輔
         merged_into_person_id: null
+    - claim:
+        id: c_cg1o5xYGz9AFOr0zXqDPkj
+        subject_person_id: p_UEhwLuzK5mRw1PBd3N1Kd9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xe8VJH8w8Jh3cQfZE6BLtC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eJxDQgzov9e4tlYDLDbfgM
+          claim_id: c_cg1o5xYGz9AFOr0zXqDPkj
+          source_id: s_-UIeRjOvi_8AFlIu4JiowX
+          stance: supports
+          locator: CBDB：兄弟 王廷輔（204965）之父／母 王文盛
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王廷相 与 王廷輔 为同胞（CBDB 记「兄」），王廷輔 之父／母即 王廷相 之父／母。
+          source:
+            id: s_-UIeRjOvi_8AFlIu4JiowX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷相（CBDB 326523）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326523&o=json
+            external_identifier: CBDB:326523
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xe8VJH8w8Jh3cQfZE6BLtC
+        status: active
+        display_name: 王廷相
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -137,8 +174,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_7x8JYYpfNVCNz7epCoiZPm | 王廷輔 | accepted |
+| children | p_xe8VJH8w8Jh3cQfZE6BLtC | 王廷相 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王廷輔（CBDB 204965）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204965&o=json)
+- [中国历代人物传记资料库：王廷相（CBDB 326523）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326523&o=json)
 - [中国历代人物传记资料库：王文盛（CBDB 326520）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326520&o=json)

@@ -4,7 +4,7 @@ id: p_U7FRJcUGG85ngsevW6Z1fD
 status: active
 merged_into: null
 display_name: 趙氏
-revision: 1
+revision: 3
 cbdb_id: 5368
 properties:
   - predicate: bio.summary
@@ -74,7 +74,81 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Ep_amG47J1d6suidNurv1G
+        subject_person_id: p_U7FRJcUGG85ngsevW6Z1fD
+        claim_kind: relationship
+        predicate: kinship.mother_of
+        object_person_id: p_dA3ggjhGjECQoqLRMPwf9A
+        generation_count: null
+        parent_role: mother
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_uvfriw15GgX6eqcbJhlwUB
+          claim_id: c_Ep_amG47J1d6suidNurv1G
+          source_id: s_ma-R6NbTooIYysbl3IAeYd
+          stance: supports
+          locator: CBDB 亲属：母（KinPerson 5368）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_ma-R6NbTooIYysbl3IAeYd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王堯叟（CBDB 36456）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36456&o=json
+            external_identifier: CBDB:36456
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dA3ggjhGjECQoqLRMPwf9A
+        status: active
+        display_name: 王堯叟
+        merged_into_person_id: null
+    - claim:
+        id: c_RBEhCTlD6ZtsUBfy818bFF
+        subject_person_id: p_U7FRJcUGG85ngsevW6Z1fD
+        claim_kind: relationship
+        predicate: kinship.mother_of
+        object_person_id: p_wkcJa6gyhiogt91ECEGDQF
+        generation_count: null
+        parent_role: mother
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_nuHdXLemi4GYYAdNrAyZSV
+          claim_id: c_RBEhCTlD6ZtsUBfy818bFF
+          source_id: s_cuQ3YR7rVLe8dorbkjWxlI
+          stance: supports
+          locator: CBDB 亲属：母（KinPerson 5368）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_cuQ3YR7rVLe8dorbkjWxlI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王濱叟（CBDB 36455）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36455&o=json
+            external_identifier: CBDB:36455
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wkcJa6gyhiogt91ECEGDQF
+        status: active
+        display_name: 王濱叟
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -124,8 +198,12 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_dA3ggjhGjECQoqLRMPwf9A | 王堯叟 | accepted |
+| children | p_wkcJa6gyhiogt91ECEGDQF | 王濱叟 | accepted |
 | spouses | p_1KK9DvJk9t52KDW7tdEx3R | 王荀龍 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王濱叟（CBDB 36455）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36455&o=json)
+- [中国历代人物传记资料库：王堯叟（CBDB 36456）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36456&o=json)
 - [中国历代人物传记资料库：趙氏(王荀龍妻)（CBDB 5368）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5368&o=json)

@@ -4,7 +4,7 @@ id: p_c3oQpqEbmM3ZGbK4rFPP4x
 status: active
 merged_into: null
 display_name: 王世清
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_jcYkm7GLUw6AttprzLd8cS
+        subject_person_id: p_4jND336KsTQjFJcBTReoib
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_c3oQpqEbmM3ZGbK4rFPP4x
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gE6qq9ARfVSEp85zW4tyns
+          claim_id: c_jcYkm7GLUw6AttprzLd8cS
+          source_id: s_6rpskIMqJlHGgdQPDJjIgj
+          stance: supports
+          locator: CBDB：兄弟 王希文（126543）之父／母 王瑄
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王世清 与 王希文 为同胞（CBDB 记「弟」），王希文 之父／母即 王世清 之父／母。
+          source:
+            id: s_6rpskIMqJlHGgdQPDJjIgj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世清（CBDB 287982）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287982&o=json
+            external_identifier: CBDB:287982
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4jND336KsTQjFJcBTReoib
+        status: active
+        display_name: 王瑄
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_imR0V4-TTzDSGAvbh2fM3N
+        subject_person_id: p_c3oQpqEbmM3ZGbK4rFPP4x
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_tz8uWFvWRBpp9FN5sbMR5o
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fjz05dlCPGut7gEwF3hl2x
+          claim_id: c_imR0V4-TTzDSGAvbh2fM3N
+          source_id: s_6rpskIMqJlHGgdQPDJjIgj
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126543 王希文）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_6rpskIMqJlHGgdQPDJjIgj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世清（CBDB 287982）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287982&o=json
+            external_identifier: CBDB:287982
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_tz8uWFvWRBpp9FN5sbMR5o
+        status: active
+        display_name: 王希文
+        merged_into_person_id: null
 ---
 
 # 王世清
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_4jND336KsTQjFJcBTReoib | 王瑄 | accepted |
+| other | p_tz8uWFvWRBpp9FN5sbMR5o | 王希文 | accepted |
 
 ## 外部来源
 

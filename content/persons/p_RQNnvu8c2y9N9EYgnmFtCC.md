@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王期古
 cbdb_id: 204782
-revision: 4
+revision: 7
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,118 @@ relationships:
         display_name: 王用
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_XMYj9yJRPUq-sUbYCstwB2
+        subject_person_id: p_42SLpT34ZjcvcMR6Z4suis
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RQNnvu8c2y9N9EYgnmFtCC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PCOOvQQ4tYmkjqJbmeIByp
+          claim_id: c_XMYj9yJRPUq-sUbYCstwB2
+          source_id: s_uzhyxICbrekBaOCIGCntlu
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204782 王期古）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_uzhyxICbrekBaOCIGCntlu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王期化（CBDB 324018）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324018&o=json
+            external_identifier: CBDB:324018
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_42SLpT34ZjcvcMR6Z4suis
+        status: active
+        display_name: 王期化
+        merged_into_person_id: null
+    - claim:
+        id: c_Bx2YDnlYoybSR8TjLDq8nV
+        subject_person_id: p_D2qyaLmGT5TG6XRt6rLH8w
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RQNnvu8c2y9N9EYgnmFtCC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5dpI1KPsDSANtryUxBJe1s
+          claim_id: c_Bx2YDnlYoybSR8TjLDq8nV
+          source_id: s_hnS8P_RSUY_a64QuKT6eqO
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204782 王期古）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hnS8P_RSUY_a64QuKT6eqO
+            source_type: api_record
+            title: 中国历代人物传记资料库：王期道（CBDB 324020）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324020&o=json
+            external_identifier: CBDB:324020
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_D2qyaLmGT5TG6XRt6rLH8w
+        status: active
+        display_name: 王期道
+        merged_into_person_id: null
+    - claim:
+        id: c_VLFq5PyaHwUzFYnmacvgHx
+        subject_person_id: p_E7Zxb7UEW62oJJhDuLDRdG
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RQNnvu8c2y9N9EYgnmFtCC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__1Zj4WqiKoHdJ8a26zNuLr
+          claim_id: c_VLFq5PyaHwUzFYnmacvgHx
+          source_id: s_ylPxdfhdsJzQl9jNriV3e6
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204782 王期古）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ylPxdfhdsJzQl9jNriV3e6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王期治（CBDB 324017）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324017&o=json
+            external_identifier: CBDB:324017
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_E7Zxb7UEW62oJJhDuLDRdG
+        status: active
+        display_name: 王期治
+        merged_into_person_id: null
 ---
 
 # 王期古
@@ -257,10 +368,16 @@ relationships:
 | parents | p_CEMGnZJGkUBUQcSpdxgPnV | 王龍 | accepted |
 | ancestors | p_dQStJzehn6KJtQpf7dGMPV | 王綱 | accepted |
 | ancestors | p_oL4sEC8RjRxThS6ATE5WjX | 王用 | accepted |
+| other | p_42SLpT34ZjcvcMR6Z4suis | 王期化 | accepted |
+| other | p_D2qyaLmGT5TG6XRt6rLH8w | 王期道 | accepted |
+| other | p_E7Zxb7UEW62oJJhDuLDRdG | 王期治 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王綱（CBDB 324012）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324012&o=json)
 - [中国历代人物传记资料库：王龍（CBDB 324014）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324014&o=json)
+- [中国历代人物传记资料库：王期道（CBDB 324020）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324020&o=json)
 - [中国历代人物传记资料库：王期古（CBDB 204782）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204782&o=json)
+- [中国历代人物传记资料库：王期化（CBDB 324018）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324018&o=json)
+- [中国历代人物传记资料库：王期治（CBDB 324017）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324017&o=json)
 - [中国历代人物传记资料库：王用（CBDB 324013）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324013&o=json)

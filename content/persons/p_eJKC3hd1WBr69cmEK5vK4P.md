@@ -4,7 +4,7 @@ id: p_eJKC3hd1WBr69cmEK5vK4P
 status: active
 merged_into: null
 display_name: 王整
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c__VmEH4_5-MECQEqK2i5gw4
+        subject_person_id: p_XX3yzWUjqK8tzcT9QCdQKK
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_eJKC3hd1WBr69cmEK5vK4P
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PBfT3P1IxcfjETbKKMVqQJ
+          claim_id: c__VmEH4_5-MECQEqK2i5gw4
+          source_id: s_KutVau2U0yoPvMusfLTvgb
+          stance: supports
+          locator: CBDB 亲属：妹（KinPerson 134681 王玉京）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_KutVau2U0yoPvMusfLTvgb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王整（CBDB 134684）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134684&o=json
+            external_identifier: CBDB:134684
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_XX3yzWUjqK8tzcT9QCdQKK
+        status: active
+        display_name: 王玉京
+        merged_into_person_id: null
 ---
 
 # 王整
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_XX3yzWUjqK8tzcT9QCdQKK | 王玉京 | accepted |
 
 ## 外部来源
 

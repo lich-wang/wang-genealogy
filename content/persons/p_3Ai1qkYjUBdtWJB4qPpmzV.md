@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王湘
 cbdb_id: 22015
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -221,7 +221,81 @@ relationships:
         status: active
         display_name: 王敏文
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_9bL1Lp3ucpPz8izpnoJn-I
+        subject_person_id: p_3Ai1qkYjUBdtWJB4qPpmzV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PVvP5MEyM8po9SZJd6gWCU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_p5KHIlQqIcMRRr3mTtt8xJ
+          claim_id: c_9bL1Lp3ucpPz8izpnoJn-I
+          source_id: s_82jv9Td_k0dY7lXeoIuLCo
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 22015）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_82jv9Td_k0dY7lXeoIuLCo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王棟（CBDB 36515）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36515&o=json
+            external_identifier: CBDB:36515
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PVvP5MEyM8po9SZJd6gWCU
+        status: active
+        display_name: 王棟
+        merged_into_person_id: null
+    - claim:
+        id: c_SW_HhLhDu0o8qDlQVuPPwX
+        subject_person_id: p_3Ai1qkYjUBdtWJB4qPpmzV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yzC1268oFcSh27WBMDz2iL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_H5PuyswOZsTaCqZDO7b8BW
+          claim_id: c_SW_HhLhDu0o8qDlQVuPPwX
+          source_id: s_SqWN6vAN5R-oaElyY4nzKt
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 22015）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_SqWN6vAN5R-oaElyY4nzKt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王楫（CBDB 21975）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21975&o=json
+            external_identifier: CBDB:21975
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_yzC1268oFcSh27WBMDz2iL
+        status: active
+        display_name: 王楫
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -285,12 +359,16 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_t4r6xJhA7S53USBaqKsA6D | 王敏文 | accepted |
+| children | p_PVvP5MEyM8po9SZJd6gWCU | 王棟 | accepted |
+| children | p_yzC1268oFcSh27WBMDz2iL | 王楫 | accepted |
 | ancestors | p_Hy3oL9P7FfBor4frFk5Jm5 | 王拱辰 | accepted |
 
 ## 外部来源
 
 - [维基数据：王敏文（Q45359594）](https://www.wikidata.org/wiki/Q45359594)
 - [维基数据：王湘（Q45401685）](https://www.wikidata.org/wiki/Q45401685)
+- [中国历代人物传记资料库：王棟（CBDB 36515）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36515&o=json)
 - [中国历代人物传记资料库：王拱辰（CBDB 1847）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1847&o=json)
+- [中国历代人物传记资料库：王楫（CBDB 21975）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=21975&o=json)
 - [CBDB 中国历代人物传记资料库：王敏文（1854）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1854&o=json)
 - [CBDB 中国历代人物传记资料库：王湘（22015）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22015&o=json)

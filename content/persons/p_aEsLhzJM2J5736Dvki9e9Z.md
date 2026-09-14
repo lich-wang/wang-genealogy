@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王蓂
 cbdb_id: 126783
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -192,7 +192,44 @@ relationships:
         display_name: 王忠
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_rhrDLoZWGb7JrdFmddNbEh
+        subject_person_id: p_9uwzcgAE9d642DC9D12Ei3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_aEsLhzJM2J5736Dvki9e9Z
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_b4IQuNdIpK4HdXtEgN0y3_
+          claim_id: c_rhrDLoZWGb7JrdFmddNbEh
+          source_id: s_bfaXDFTEDxMbMI8Wdm2wCE
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126783 王蓂）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_bfaXDFTEDxMbMI8Wdm2wCE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王芹（CBDB 272393）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272393&o=json
+            external_identifier: CBDB:272393
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9uwzcgAE9d642DC9D12Ei3
+        status: active
+        display_name: 王芹
+        merged_into_person_id: null
 ---
 
 # 王蓂
@@ -213,10 +250,12 @@ relationships:
 | parents | p_gGC23xhwQXL2gcAMcS3G3U | 王序 | accepted |
 | ancestors | p_dYegPiWdT54QHJwpw2osf4 | 王吉 | accepted |
 | ancestors | p_zDqWGnkLPXbEcaV9HD6KiU | 王忠 | accepted |
+| other | p_9uwzcgAE9d642DC9D12Ei3 | 王芹 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王吉（CBDB 272388）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272388&o=json)
 - [中国历代人物传记资料库：王蓂（CBDB 126783）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126783&o=json)
+- [中国历代人物传记资料库：王芹（CBDB 272393）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272393&o=json)
 - [中国历代人物传记资料库：王序（CBDB 272389）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272389&o=json)
 - [中国历代人物传记资料库：王忠（CBDB 272387）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272387&o=json)

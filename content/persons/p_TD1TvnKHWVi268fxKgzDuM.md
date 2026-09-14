@@ -4,7 +4,7 @@ id: p_TD1TvnKHWVi268fxKgzDuM
 status: active
 merged_into: null
 display_name: 王象晉
-revision: 1
+revision: 9
 properties:
   - predicate: name.primary
     recommended:
@@ -128,14 +128,310 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_OiFSSm2PDM24LmB4O_r-2J
+        subject_person_id: p_5yFg7DjLcFzFQKDBRDnwdx
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_TD1TvnKHWVi268fxKgzDuM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0yqv2zvP2l93VQi8_mdQgh
+          claim_id: c_OiFSSm2PDM24LmB4O_r-2J
+          source_id: s_ncE1XNE-IywE3t9GEJxDe9
+          stance: supports
+          locator: CBDB：兄弟 王象乾（65764）之父／母 王之垣
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王象晉 与 王象乾 为同胞（CBDB 记「兄」），王象乾 之父／母即 王象晉 之父／母。
+          source:
+            id: s_ncE1XNE-IywE3t9GEJxDe9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王象晉（CBDB 65763）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=65763&o=json
+            external_identifier: CBDB:65763
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5yFg7DjLcFzFQKDBRDnwdx
+        status: active
+        display_name: 王之垣
+        merged_into_person_id: null
+    - claim:
+        id: c_De57GqZxKJLI9O_ShKNVkc
+        subject_person_id: p_AKu7Q79dhYjH69pKrRtR5y
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TD1TvnKHWVi268fxKgzDuM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QhLbKF6Qew08eMP1lm4sO-
+          claim_id: c_De57GqZxKJLI9O_ShKNVkc
+          source_id: s_ncE1XNE-IywE3t9GEJxDe9
+          stance: supports
+          locator: CBDB：兄弟 王象坤（205267）之父／母 王之翰
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王象晉 与 王象坤 为同胞（CBDB 记「兄」），王象坤 之父／母即 王象晉 之父／母。
+          source:
+            id: s_ncE1XNE-IywE3t9GEJxDe9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王象晉（CBDB 65763）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=65763&o=json
+            external_identifier: CBDB:65763
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_AKu7Q79dhYjH69pKrRtR5y
+        status: active
+        display_name: 王之翰
+        merged_into_person_id: null
+    - claim:
+        id: c_YTwpqSJrzyDffTf2Kl2Kty
+        subject_person_id: p_VLPN2ybQtkqyCPrJiYL7vx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TD1TvnKHWVi268fxKgzDuM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nJQFsCAd_QZm_uyQOBpZck
+          claim_id: c_YTwpqSJrzyDffTf2Kl2Kty
+          source_id: s_ncE1XNE-IywE3t9GEJxDe9
+          stance: supports
+          locator: CBDB：兄弟 王象蒙（206595）之父／母 王之辅
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王象晉 与 王象蒙 为同胞（CBDB 记「兄」），王象蒙 之父／母即 王象晉 之父／母。
+          source:
+            id: s_ncE1XNE-IywE3t9GEJxDe9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王象晉（CBDB 65763）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=65763&o=json
+            external_identifier: CBDB:65763
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VLPN2ybQtkqyCPrJiYL7vx
+        status: active
+        display_name: 王之辅
+        merged_into_person_id: null
+    - claim:
+        id: c_Vgts-gxluCUXtJZasfnkoh
+        subject_person_id: p_5r1wESpKqnWgbhR5AChbjE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TD1TvnKHWVi268fxKgzDuM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DxKZwyIKOA21E3PRZahXhU
+          claim_id: c_Vgts-gxluCUXtJZasfnkoh
+          source_id: s_ncE1XNE-IywE3t9GEJxDe9
+          stance: supports
+          locator: CBDB：兄弟 王象春（126731）之父／母 王之猷
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王象晉 与 王象春 为同胞（CBDB 记「弟」），王象春 之父／母即 王象晉 之父／母。
+          source:
+            id: s_ncE1XNE-IywE3t9GEJxDe9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王象晉（CBDB 65763）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=65763&o=json
+            external_identifier: CBDB:65763
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5r1wESpKqnWgbhR5AChbjE
+        status: active
+        display_name: 王之猷
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_q91qEbUMx65k7z1TTpUcFo
+        subject_person_id: p_TD1TvnKHWVi268fxKgzDuM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mNbLtBp7NLKek2NHmVT5fp
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LioOrlH6YbV4ET11H2UBfu
+          claim_id: c_q91qEbUMx65k7z1TTpUcFo
+          source_id: s_ncE1XNE-IywE3t9GEJxDe9
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 65764 王象乾）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ncE1XNE-IywE3t9GEJxDe9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王象晉（CBDB 65763）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=65763&o=json
+            external_identifier: CBDB:65763
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mNbLtBp7NLKek2NHmVT5fp
+        status: active
+        display_name: 王象乾
+        merged_into_person_id: null
+    - claim:
+        id: c_ycuUMzKsLfxkxVhKcW0kl-
+        subject_person_id: p_TD1TvnKHWVi268fxKgzDuM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hkxRnkwdABHFBvtuuQxejY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ELRQUznCJuEqgyAJp0as_z
+          claim_id: c_ycuUMzKsLfxkxVhKcW0kl-
+          source_id: s_ncE1XNE-IywE3t9GEJxDe9
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205267 王象坤）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ncE1XNE-IywE3t9GEJxDe9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王象晉（CBDB 65763）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=65763&o=json
+            external_identifier: CBDB:65763
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hkxRnkwdABHFBvtuuQxejY
+        status: active
+        display_name: 王象坤
+        merged_into_person_id: null
+    - claim:
+        id: c_eoXEeT8DhQJqBce4Zi4oLq
+        subject_person_id: p_TD1TvnKHWVi268fxKgzDuM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_UCuWmdu88wkXMEGK9geKmL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MX0NrcN8XPlZ_oEAB0g7ge
+          claim_id: c_eoXEeT8DhQJqBce4Zi4oLq
+          source_id: s_ncE1XNE-IywE3t9GEJxDe9
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206595 王象蒙）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ncE1XNE-IywE3t9GEJxDe9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王象晉（CBDB 65763）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=65763&o=json
+            external_identifier: CBDB:65763
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_UCuWmdu88wkXMEGK9geKmL
+        status: active
+        display_name: 王象蒙
+        merged_into_person_id: null
+    - claim:
+        id: c_5TW8lk_A6K-FPp-Tz72Pv0
+        subject_person_id: p_1vwHH8EjSEP1q2oifpwF8P
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_TD1TvnKHWVi268fxKgzDuM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QbWRrp7Fds8Q24JDmAdRSz
+          claim_id: c_5TW8lk_A6K-FPp-Tz72Pv0
+          source_id: s_ncE1XNE-IywE3t9GEJxDe9
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126731 王象春）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ncE1XNE-IywE3t9GEJxDe9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王象晉（CBDB 65763）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=65763&o=json
+            external_identifier: CBDB:65763
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1vwHH8EjSEP1q2oifpwF8P
+        status: active
+        display_name: 王象春
+        merged_into_person_id: null
 ---
 
 # 王象晉
@@ -155,6 +451,14 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5yFg7DjLcFzFQKDBRDnwdx | 王之垣 | accepted |
+| parents | p_AKu7Q79dhYjH69pKrRtR5y | 王之翰 | accepted |
+| parents | p_VLPN2ybQtkqyCPrJiYL7vx | 王之辅 | accepted |
+| parents | p_5r1wESpKqnWgbhR5AChbjE | 王之猷 | accepted |
+| other | p_mNbLtBp7NLKek2NHmVT5fp | 王象乾 | accepted |
+| other | p_hkxRnkwdABHFBvtuuQxejY | 王象坤 | accepted |
+| other | p_UCuWmdu88wkXMEGK9geKmL | 王象蒙 | accepted |
+| other | p_1vwHH8EjSEP1q2oifpwF8P | 王象春 | accepted |
 
 ## 外部来源
 

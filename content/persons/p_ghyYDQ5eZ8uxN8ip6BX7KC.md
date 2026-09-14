@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王原相
 cbdb_id: 205067
-revision: 7
+revision: 12
 properties:
   - predicate: bio.summary
     recommended:
@@ -407,7 +407,192 @@ relationships:
         display_name: 王傅
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_q96OHf4UYus-IubcOvyqAH
+        subject_person_id: p_CD66QFEWc1iP4hw5fRG5GD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ghyYDQ5eZ8uxN8ip6BX7KC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mBTLfS1-sUSuyygY4pLMnW
+          claim_id: c_q96OHf4UYus-IubcOvyqAH
+          source_id: s_KKRpWrdg7hhgj1S76c1yak
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205067 王原相）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_KKRpWrdg7hhgj1S76c1yak
+            source_type: api_record
+            title: 中国历代人物传记资料库：王原格（CBDB 327871）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327871&o=json
+            external_identifier: CBDB:327871
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CD66QFEWc1iP4hw5fRG5GD
+        status: active
+        display_name: 王原格
+        merged_into_person_id: null
+    - claim:
+        id: c_NUhv01lSWuCRf28Ig42nCm
+        subject_person_id: p_CXQUeaTXgPLx6KHh6MrvhC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ghyYDQ5eZ8uxN8ip6BX7KC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FdyYPpMaG0yILEhB760_Dl
+          claim_id: c_NUhv01lSWuCRf28Ig42nCm
+          source_id: s_hD7cec05IfOtTBMIZ_7pnW
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205067 王原相）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hD7cec05IfOtTBMIZ_7pnW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王原析（CBDB 327873）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327873&o=json
+            external_identifier: CBDB:327873
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CXQUeaTXgPLx6KHh6MrvhC
+        status: active
+        display_name: 王原析
+        merged_into_person_id: null
+    - claim:
+        id: c__UtpVGAhtS5d7kKW8NAGwN
+        subject_person_id: p_fkuF3WpffZDj8zKuas13wo
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ghyYDQ5eZ8uxN8ip6BX7KC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3CyVGPrMDmzMQs-29woGdk
+          claim_id: c__UtpVGAhtS5d7kKW8NAGwN
+          source_id: s_p-JEJYDEFhEbVK1BY_t61_
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205067 王原相）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_p-JEJYDEFhEbVK1BY_t61_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王原模（CBDB 327875）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327875&o=json
+            external_identifier: CBDB:327875
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fkuF3WpffZDj8zKuas13wo
+        status: active
+        display_name: 王原模
+        merged_into_person_id: null
+    - claim:
+        id: c_PHjiRMkVhQWYuzCvdoEM0x
+        subject_person_id: p_ghyYDQ5eZ8uxN8ip6BX7KC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_rn5Y44i2ryNkS7VxtETPxC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_88jdl9z2WOx3-MVAjEWLnd
+          claim_id: c_PHjiRMkVhQWYuzCvdoEM0x
+          source_id: s_ZJgIdjIvmNOvGgpF1_fFIp
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205067 王原相）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ZJgIdjIvmNOvGgpF1_fFIp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王原樸（CBDB 327876）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327876&o=json
+            external_identifier: CBDB:327876
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rn5Y44i2ryNkS7VxtETPxC
+        status: active
+        display_name: 王原樸
+        merged_into_person_id: null
+    - claim:
+        id: c_FfePODj_yFYbjMze_suZmp
+        subject_person_id: p_ghyYDQ5eZ8uxN8ip6BX7KC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wEqzbGB8aCXLD5emfBhrkY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NcYyAgWhgMKH1C12nr-GGF
+          claim_id: c_FfePODj_yFYbjMze_suZmp
+          source_id: s_tItpVEc_adPP6rFwFuJAay
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205067 王原相）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_tItpVEc_adPP6rFwFuJAay
+            source_type: api_record
+            title: 中国历代人物传记资料库：王原校（CBDB 327872）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327872&o=json
+            external_identifier: CBDB:327872
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wEqzbGB8aCXLD5emfBhrkY
+        status: active
+        display_name: 王原校
+        merged_into_person_id: null
 ---
 
 # 王原相
@@ -431,6 +616,11 @@ relationships:
 | spouses | p_hCnqrGYXkPvJd8A849zxFy | 赵氏 | accepted |
 | ancestors | p_88E2kZdSA7Md5JrUtxLyqj | 王瑤 | accepted |
 | ancestors | p_LHS4YrNCt18cuPChGrT5eW | 王傅 | accepted |
+| other | p_CD66QFEWc1iP4hw5fRG5GD | 王原格 | accepted |
+| other | p_CXQUeaTXgPLx6KHh6MrvhC | 王原析 | accepted |
+| other | p_fkuF3WpffZDj8zKuas13wo | 王原模 | accepted |
+| other | p_rn5Y44i2ryNkS7VxtETPxC | 王原樸 | accepted |
+| other | p_wEqzbGB8aCXLD5emfBhrkY | 王原校 | accepted |
 
 ## 外部来源
 
@@ -440,5 +630,10 @@ relationships:
 - [中国历代人物传记资料库：王傅（CBDB 327866）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327866&o=json)
 - [中国历代人物传记资料库：王漸逵（CBDB 327867）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327867&o=json)
 - [中国历代人物传记资料库：王瑤（CBDB 327865）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327865&o=json)
+- [中国历代人物传记资料库：王原格（CBDB 327871）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327871&o=json)
+- [中国历代人物传记资料库：王原模（CBDB 327875）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327875&o=json)
+- [中国历代人物传记资料库：王原樸（CBDB 327876）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327876&o=json)
+- [中国历代人物传记资料库：王原析（CBDB 327873）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327873&o=json)
+- [中国历代人物传记资料库：王原校（CBDB 327872）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327872&o=json)
 - [中文维基百科：王原相](https://zh.wikipedia.org/wiki/%E7%8E%8B%E5%8E%9F%E7%9B%B8)
 - [CBDB 中国历代人物传记资料库：王原相（205067）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205067&o=json)

@@ -4,7 +4,7 @@ id: p_wFsxRPC4HsykYkaEHBkxU8
 status: active
 merged_into: null
 display_name: 王若拙
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_s0lEg_WODIE_BlWr1jgOZR
+        subject_person_id: p_wFsxRPC4HsykYkaEHBkxU8
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zAaTmpZ4QqHCnCdrp71Tu3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_igFOyyOE7gOykU3d_HaeIe
+          claim_id: c_s0lEg_WODIE_BlWr1jgOZR
+          source_id: s_D1z2VhjN9GCr7kojgDV867
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 101294 王若毅）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_D1z2VhjN9GCr7kojgDV867
+            source_type: api_record
+            title: 中国历代人物传记资料库：王若拙（CBDB 101292）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101292&o=json
+            external_identifier: CBDB:101292
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zAaTmpZ4QqHCnCdrp71Tu3
+        status: active
+        display_name: 王若毅
+        merged_into_person_id: null
 ---
 
 # 王若拙
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_zAaTmpZ4QqHCnCdrp71Tu3 | 王若毅 | accepted |
 
 ## 外部来源
 

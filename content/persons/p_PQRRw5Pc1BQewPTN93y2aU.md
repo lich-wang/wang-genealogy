@@ -4,7 +4,7 @@ id: p_PQRRw5Pc1BQewPTN93y2aU
 status: active
 merged_into: null
 display_name: 王利賓
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_naK4U6ShuAW_xvvB-I9S3U
+        subject_person_id: p_ZgyZoznnAJrPag6d8FS83S
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PQRRw5Pc1BQewPTN93y2aU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WqckYfNPaMbeOHInfroR5c
+          claim_id: c_naK4U6ShuAW_xvvB-I9S3U
+          source_id: s_ujoV9ToKYhvky2Cp5mREM7
+          stance: supports
+          locator: CBDB：兄弟 王元賓（205321）之父／母 王天敘
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王利賓 与 王元賓 为同胞（CBDB 记「兄」），王元賓 之父／母即 王利賓 之父／母。
+          source:
+            id: s_ujoV9ToKYhvky2Cp5mREM7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王利賓（CBDB 331580）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331580&o=json
+            external_identifier: CBDB:331580
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZgyZoznnAJrPag6d8FS83S
+        status: active
+        display_name: 王天敘
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_7XqhCE679ktoRwvYv1I55I
+        subject_person_id: p_8FE6kbWmNCoQTRuebayd8Y
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_PQRRw5Pc1BQewPTN93y2aU
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_u-n3Mhn7qC7Xe2Hw4SUcrv
+          claim_id: c_7XqhCE679ktoRwvYv1I55I
+          source_id: s_ujoV9ToKYhvky2Cp5mREM7
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205321 王元賓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ujoV9ToKYhvky2Cp5mREM7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王利賓（CBDB 331580）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331580&o=json
+            external_identifier: CBDB:331580
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8FE6kbWmNCoQTRuebayd8Y
+        status: active
+        display_name: 王元賓
+        merged_into_person_id: null
 ---
 
 # 王利賓
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ZgyZoznnAJrPag6d8FS83S | 王天敘 | accepted |
+| other | p_8FE6kbWmNCoQTRuebayd8Y | 王元賓 | accepted |
 
 ## 外部来源
 

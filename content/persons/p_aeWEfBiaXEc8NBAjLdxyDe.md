@@ -4,7 +4,7 @@ id: p_aeWEfBiaXEc8NBAjLdxyDe
 status: active
 merged_into: null
 display_name: 王璠
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,44 @@ relationships:
         display_name: 王德通
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_BvMyaDsg96zJZ6ozoRyUWE
+        subject_person_id: p_9KiDT4s56MuMe2iJkWt355
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_aeWEfBiaXEc8NBAjLdxyDe
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ft0OktQIFxcifuUTwlE7fQ
+          claim_id: c_BvMyaDsg96zJZ6ozoRyUWE
+          source_id: s_1Zh8M614yd5vW_3ZLOfv5C
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198758 王璠）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_1Zh8M614yd5vW_3ZLOfv5C
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珉（CBDB 313151）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313151&o=json
+            external_identifier: CBDB:313151
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9KiDT4s56MuMe2iJkWt355
+        status: active
+        display_name: 王珉
+        merged_into_person_id: null
 ---
 
 # 王璠
@@ -241,6 +278,7 @@ relationships:
 | parents | p_SFZ4bgpN7HUNWVTQwjnX9y | 王懋 | accepted |
 | ancestors | p_2fdZ7nzVXE411ABM98Hv5W | 王鐸 | accepted |
 | ancestors | p_oC4rtp2QA8Eu4SzLXi3D5c | 王德通 | accepted |
+| other | p_9KiDT4s56MuMe2iJkWt355 | 王珉 | accepted |
 
 ## 外部来源
 
@@ -248,3 +286,4 @@ relationships:
 - [中国历代人物传记资料库：王鐸（CBDB 313095）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313095&o=json)
 - [中国历代人物传记资料库：王璠（CBDB 198758）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198758&o=json)
 - [中国历代人物传记资料库：王懋（CBDB 313107）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313107&o=json)
+- [中国历代人物传记资料库：王珉（CBDB 313151）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313151&o=json)

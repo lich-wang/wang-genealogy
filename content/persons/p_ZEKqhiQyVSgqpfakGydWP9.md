@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王國顯
 cbdb_id: 215049
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -114,6 +114,43 @@ relationships:
         status: active
         display_name: 王懋中
         merged_into_person_id: null
+    - claim:
+        id: c_b8fQKAYYbAYHHFjXz6cRQu
+        subject_person_id: p_ZEKqhiQyVSgqpfakGydWP9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZzfDGmnF6XseMxHGRi7K4t
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Yr1ixsCrZ7o71r7vWzc7GD
+          claim_id: c_b8fQKAYYbAYHHFjXz6cRQu
+          source_id: s_r4vS1r34G-GsU54UD4PbAv
+          stance: supports
+          locator: CBDB：兄弟 王懋中（206224）之父／母 王國顯
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王懋德 与 王懋中 为同胞（CBDB 记「弟」），王懋中 之父／母即 王懋德 之父／母。
+          source:
+            id: s_r4vS1r34G-GsU54UD4PbAv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王懋德（CBDB 215053）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215053&o=json
+            external_identifier: CBDB:215053
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZzfDGmnF6XseMxHGRi7K4t
+        status: active
+        display_name: 王懋德
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -138,7 +175,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_Rk4ASszNDmrPYo2vAUfdsQ | 王懋中 | accepted |
+| children | p_ZzfDGmnF6XseMxHGRi7K4t | 王懋德 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王國顯（CBDB 215049）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215049&o=json)
+- [中国历代人物传记资料库：王懋德（CBDB 215053）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215053&o=json)

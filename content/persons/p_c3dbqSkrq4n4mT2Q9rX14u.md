@@ -4,7 +4,7 @@ id: p_c3dbqSkrq4n4mT2Q9rX14u
 status: active
 merged_into: null
 display_name: 王然
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_9tjs-J_euYJuy5u4vBAXTy
+        subject_person_id: p_vpzDXBrQjqPJnEN64LCsPF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_c3dbqSkrq4n4mT2Q9rX14u
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UjrcAg1giVP2nEN8v8mcBP
+          claim_id: c_9tjs-J_euYJuy5u4vBAXTy
+          source_id: s_4L3uRVf-NJuKtfWIFiWBDf
+          stance: supports
+          locator: CBDB：兄弟 王樵（34720）之父／母 王臬
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王然 与 王樵 为同胞（CBDB 记「弟」），王樵 之父／母即 王然 之父／母。
+          source:
+            id: s_4L3uRVf-NJuKtfWIFiWBDf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王然（CBDB 309652）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309652&o=json
+            external_identifier: CBDB:309652
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vpzDXBrQjqPJnEN64LCsPF
+        status: active
+        display_name: 王臬
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_okRNOBhmjx83lyVHzWm5qH
+        subject_person_id: p_923xZ5qSMZFGgS46h7nLWU
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_c3dbqSkrq4n4mT2Q9rX14u
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NwoquB1dPmI7-RG717zNtU
+          claim_id: c_okRNOBhmjx83lyVHzWm5qH
+          source_id: s_4L3uRVf-NJuKtfWIFiWBDf
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 34720 王樵）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_4L3uRVf-NJuKtfWIFiWBDf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王然（CBDB 309652）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309652&o=json
+            external_identifier: CBDB:309652
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_923xZ5qSMZFGgS46h7nLWU
+        status: active
+        display_name: 王樵
+        merged_into_person_id: null
 ---
 
 # 王然
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vpzDXBrQjqPJnEN64LCsPF | 王臬 | accepted |
+| other | p_923xZ5qSMZFGgS46h7nLWU | 王樵 | accepted |
 
 ## 外部来源
 

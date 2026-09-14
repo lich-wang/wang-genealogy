@@ -4,7 +4,7 @@ id: p_qb7zDu2gwfuaD8yT1H3cXc
 status: active
 merged_into: null
 display_name: 王元春
-revision: 4
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -190,7 +190,155 @@ relationships:
         display_name: 王哲
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_l7khXRV6qih_eUXGHqxQkn
+        subject_person_id: p_GF6iAebNsFgoePvByoccyQ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qb7zDu2gwfuaD8yT1H3cXc
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_R9fVUL_SvczUbIXWU8Vtny
+          claim_id: c_l7khXRV6qih_eUXGHqxQkn
+          source_id: s_a2-I1n3JH1MnO9pfgU9hRG
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126470 王元春）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_a2-I1n3JH1MnO9pfgU9hRG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元道（CBDB 314307）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314307&o=json
+            external_identifier: CBDB:314307
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GF6iAebNsFgoePvByoccyQ
+        status: active
+        display_name: 王元道
+        merged_into_person_id: null
+    - claim:
+        id: c_ZSRYNdjS93pzeOYLSIxCWn
+        subject_person_id: p_HBqNcNEuSsrmChhBUqSG2T
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qb7zDu2gwfuaD8yT1H3cXc
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Za8RLUL225TjPsA00MG8b1
+          claim_id: c_ZSRYNdjS93pzeOYLSIxCWn
+          source_id: s_8zAMdwDeWzBBtY9JLB2dA4
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126470 王元春）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_8zAMdwDeWzBBtY9JLB2dA4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王材（CBDB 314305）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314305&o=json
+            external_identifier: CBDB:314305
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HBqNcNEuSsrmChhBUqSG2T
+        status: active
+        display_name: 王材
+        merged_into_person_id: null
+    - claim:
+        id: c_IklKuBKQY-C8PbNWaIYqs4
+        subject_person_id: p_jgyCkT6xFVDEFSzJBuiL5z
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qb7zDu2gwfuaD8yT1H3cXc
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AWllnMtZCWXoifxntMhdar
+          claim_id: c_IklKuBKQY-C8PbNWaIYqs4
+          source_id: s_1M9rH_vnQXrtmySM5Tq39Z
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126470 王元春）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_1M9rH_vnQXrtmySM5Tq39Z
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元默（CBDB 314304）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314304&o=json
+            external_identifier: CBDB:314304
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jgyCkT6xFVDEFSzJBuiL5z
+        status: active
+        display_name: 王元默
+        merged_into_person_id: null
+    - claim:
+        id: c_rGEzDSJ99yTAMBD5vGxtps
+        subject_person_id: p_pjrmJD61kyHiHc61Ar64VN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qb7zDu2gwfuaD8yT1H3cXc
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lS-E0Tg-VtnF6ipqQ6TQ_e
+          claim_id: c_rGEzDSJ99yTAMBD5vGxtps
+          source_id: s_iNmSuL1hqlaeSBroVu-Vit
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126470 王元春）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_iNmSuL1hqlaeSBroVu-Vit
+            source_type: api_record
+            title: 中国历代人物传记资料库：王棣（CBDB 314303）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314303&o=json
+            external_identifier: CBDB:314303
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_pjrmJD61kyHiHc61Ar64VN
+        status: active
+        display_name: 王棣
+        merged_into_person_id: null
 ---
 
 # 王元春
@@ -211,10 +359,18 @@ relationships:
 | parents | p_zRQ8vX2mq2ef6gtHZ8hFkm | 王滋 | accepted |
 | ancestors | p_inf8KK3zWGNtjq3Vp6iZGY | 王珉 | accepted |
 | ancestors | p_UW29arWdE4TLLL28oGpy1K | 王哲 | accepted |
+| other | p_GF6iAebNsFgoePvByoccyQ | 王元道 | accepted |
+| other | p_HBqNcNEuSsrmChhBUqSG2T | 王材 | accepted |
+| other | p_jgyCkT6xFVDEFSzJBuiL5z | 王元默 | accepted |
+| other | p_pjrmJD61kyHiHc61Ar64VN | 王棣 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王材（CBDB 314305）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314305&o=json)
+- [中国历代人物传记资料库：王棣（CBDB 314303）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314303&o=json)
 - [中国历代人物传记资料库：王珉（CBDB 314297）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314297&o=json)
 - [中国历代人物传记资料库：王元春（CBDB 126470）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126470&o=json)
+- [中国历代人物传记资料库：王元道（CBDB 314307）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314307&o=json)
+- [中国历代人物传记资料库：王元默（CBDB 314304）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314304&o=json)
 - [中国历代人物传记资料库：王哲（CBDB 314298）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314298&o=json)
 - [中国历代人物传记资料库：王滋（CBDB 314299）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314299&o=json)

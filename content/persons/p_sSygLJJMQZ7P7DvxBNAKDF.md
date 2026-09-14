@@ -4,7 +4,7 @@ id: p_sSygLJJMQZ7P7DvxBNAKDF
 status: active
 merged_into: null
 display_name: 王詔
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_6yNf5saTg63GwXOQoXuuZ2
+        subject_person_id: p_W2tHNBRVD1pCHXRqxW1ADG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sSygLJJMQZ7P7DvxBNAKDF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vO91Yag-XfOYt_NX3ASVtq
+          claim_id: c_6yNf5saTg63GwXOQoXuuZ2
+          source_id: s_FOcyapC2VWmyLthFXpt-BX
+          stance: supports
+          locator: CBDB：兄弟 王相（200038）之父／母 王榮
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王詔 与 王相 为同胞（CBDB 记「兄」），王相 之父／母即 王詔 之父／母。
+          source:
+            id: s_FOcyapC2VWmyLthFXpt-BX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王詔（CBDB 253015）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253015&o=json
+            external_identifier: CBDB:253015
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_W2tHNBRVD1pCHXRqxW1ADG
+        status: active
+        display_name: 王榮
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_fhF8ycvELYSyBcJ7j5g2OA
+        subject_person_id: p_eMDP1q9C4pkhGjAYDKDRYY
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_sSygLJJMQZ7P7DvxBNAKDF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bW5bRRat1o_FLwrLhgKfdp
+          claim_id: c_fhF8ycvELYSyBcJ7j5g2OA
+          source_id: s_FOcyapC2VWmyLthFXpt-BX
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200038 王相）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_FOcyapC2VWmyLthFXpt-BX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王詔（CBDB 253015）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253015&o=json
+            external_identifier: CBDB:253015
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_eMDP1q9C4pkhGjAYDKDRYY
+        status: active
+        display_name: 王相
+        merged_into_person_id: null
 ---
 
 # 王詔
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_W2tHNBRVD1pCHXRqxW1ADG | 王榮 | accepted |
+| other | p_eMDP1q9C4pkhGjAYDKDRYY | 王相 | accepted |
 
 ## 外部来源
 

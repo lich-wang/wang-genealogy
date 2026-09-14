@@ -4,7 +4,7 @@ id: p_7PrnkQ1vCQ85W1WNeGTe3T
 status: active
 merged_into: null
 display_name: 王籌
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_x5lLYYcGiyBvBLtnFLuUF2
+        subject_person_id: p_D9N98oB92wT9B2XW2TfNE4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7PrnkQ1vCQ85W1WNeGTe3T
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_z4geKRbCOG1W1M3Sq8NQwa
+          claim_id: c_x5lLYYcGiyBvBLtnFLuUF2
+          source_id: s_aeb3sQHq8NANJh0n9cWPny
+          stance: supports
+          locator: CBDB：兄弟 王篆（205090）之父／母 王良策
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王籌 与 王篆 为同胞（CBDB 记「弟」），王篆 之父／母即 王籌 之父／母。
+          source:
+            id: s_aeb3sQHq8NANJh0n9cWPny
+            source_type: api_record
+            title: 中国历代人物传记资料库：王籌（CBDB 328160）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328160&o=json
+            external_identifier: CBDB:328160
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_D9N98oB92wT9B2XW2TfNE4
+        status: active
+        display_name: 王良策
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_-bZw5v_4ALDsBaUM2cuES5
+        subject_person_id: p_7PrnkQ1vCQ85W1WNeGTe3T
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_oXNXhcmP3pgs4EeZNT7tYq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3Of3sgFbQ-7dLXBqLBSs0Z
+          claim_id: c_-bZw5v_4ALDsBaUM2cuES5
+          source_id: s_aeb3sQHq8NANJh0n9cWPny
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205090 王篆）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_aeb3sQHq8NANJh0n9cWPny
+            source_type: api_record
+            title: 中国历代人物传记资料库：王籌（CBDB 328160）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328160&o=json
+            external_identifier: CBDB:328160
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oXNXhcmP3pgs4EeZNT7tYq
+        status: active
+        display_name: 王篆
+        merged_into_person_id: null
 ---
 
 # 王籌
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_D9N98oB92wT9B2XW2TfNE4 | 王良策 | accepted |
+| other | p_oXNXhcmP3pgs4EeZNT7tYq | 王篆 | accepted |
 
 ## 外部来源
 

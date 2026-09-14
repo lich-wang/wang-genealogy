@@ -4,7 +4,7 @@ id: p_7uG1R4PRQFD4a7x5Nh4xjD
 status: active
 merged_into: null
 display_name: 王縕
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_nXnbzM1iK4Ry2XTKEzhAeB
+        subject_person_id: p_nkz5AKW75Z7Um1CQL64ACM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7uG1R4PRQFD4a7x5Nh4xjD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_JX8MGY4gELTSUKjUX9p7_S
+          claim_id: c_nXnbzM1iK4Ry2XTKEzhAeB
+          source_id: s_iVFdzWN6MltONnzOkeQv7U
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 7384）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_iVFdzWN6MltONnzOkeQv7U
+            source_type: api_record
+            title: 中国历代人物传记资料库：王縕（CBDB 16589）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=16589&o=json
+            external_identifier: CBDB:16589
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nkz5AKW75Z7Um1CQL64ACM
+        status: active
+        display_name: 王無咎
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_NJPICh4XQhwUgy6GJLwSZS
+        subject_person_id: p_7uG1R4PRQFD4a7x5Nh4xjD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wGBV1HkDa2tDPYJcHWNyrz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i-Qx10TOk2EXCUvmPMPYCs
+          claim_id: c_NJPICh4XQhwUgy6GJLwSZS
+          source_id: s_iVFdzWN6MltONnzOkeQv7U
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 3994 王絪）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_iVFdzWN6MltONnzOkeQv7U
+            source_type: api_record
+            title: 中国历代人物传记资料库：王縕（CBDB 16589）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=16589&o=json
+            external_identifier: CBDB:16589
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wGBV1HkDa2tDPYJcHWNyrz
+        status: active
+        display_name: 王絪
+        merged_into_person_id: null
 ---
 
 # 王縕
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_nkz5AKW75Z7Um1CQL64ACM | 王無咎 | accepted |
+| other | p_wGBV1HkDa2tDPYJcHWNyrz | 王絪 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_stHoVQftjNFmSu9T7T3WAa
 status: active
 merged_into: null
 display_name: 王昇
-revision: 3
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,155 @@ relationships:
         display_name: 王綱
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_HsOvwNNNOxoP9Yn08zSrMD
+        subject_person_id: p_7zJTA8P44SADgfLmzQmWsp
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_stHoVQftjNFmSu9T7T3WAa
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YUDzUJM_TtXb-N82G_sTtg
+          claim_id: c_HsOvwNNNOxoP9Yn08zSrMD
+          source_id: s_KhQlt26UbP6J1ZtusnVOii
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 198437 王昇）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_KhQlt26UbP6J1ZtusnVOii
+            source_type: api_record
+            title: 中国历代人物传记资料库：王興（CBDB 271817）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271817&o=json
+            external_identifier: CBDB:271817
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7zJTA8P44SADgfLmzQmWsp
+        status: active
+        display_name: 王興
+        merged_into_person_id: null
+    - claim:
+        id: c_aD39HfmrG3iWlA3A6lC5-e
+        subject_person_id: p_UQ6RTfM1eUG5mYfaY1pW9i
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_stHoVQftjNFmSu9T7T3WAa
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lrGcdCIFQdWyT9ME5A8j_j
+          claim_id: c_aD39HfmrG3iWlA3A6lC5-e
+          source_id: s_YX40jBvgBWd8pvTZt91nuo
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198437 王昇）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_YX40jBvgBWd8pvTZt91nuo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王麟（CBDB 271828）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271828&o=json
+            external_identifier: CBDB:271828
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_UQ6RTfM1eUG5mYfaY1pW9i
+        status: active
+        display_name: 王麟
+        merged_into_person_id: null
+    - claim:
+        id: c_MDjZLMGZKUE4Noz96cAOg4
+        subject_person_id: p_s6y4se8DCW4eukcpENqdMJ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_stHoVQftjNFmSu9T7T3WAa
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_f3W3hKTQhE19bFUqc05_0f
+          claim_id: c_MDjZLMGZKUE4Noz96cAOg4
+          source_id: s_csG_l9GVk1kI3wch7n2-Gz
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198437 王昇）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_csG_l9GVk1kI3wch7n2-Gz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鳳（CBDB 271839）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271839&o=json
+            external_identifier: CBDB:271839
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_s6y4se8DCW4eukcpENqdMJ
+        status: active
+        display_name: 王鳳
+        merged_into_person_id: null
+    - claim:
+        id: c_B8DbPymXckU_kbzN6Qh3zT
+        subject_person_id: p_stHoVQftjNFmSu9T7T3WAa
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_z3W5Kxe67VFh1mAWJB2FDG
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j85AjWMp7Sn00owLYTkz_P
+          claim_id: c_B8DbPymXckU_kbzN6Qh3zT
+          source_id: s_YJ8fFHxKCt7lCiuRR6hF2u
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 198437 王昇）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_YJ8fFHxKCt7lCiuRR6hF2u
+            source_type: api_record
+            title: 中国历代人物传记资料库：王信（CBDB 271806）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271806&o=json
+            external_identifier: CBDB:271806
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_z3W5Kxe67VFh1mAWJB2FDG
+        status: active
+        display_name: 王信
+        merged_into_person_id: null
 ---
 
 # 王昇
@@ -240,10 +388,18 @@ relationships:
 | parents | p_LHuTnNyG1C6YMk7ahAUHo3 | 王俊 | accepted |
 | ancestors | p_k2LuJSRwJYvYh71ScTHiPj | 王勉 | accepted |
 | ancestors | p_KA2HkQ1qdLYhBgz4ZSBGt7 | 王綱 | accepted |
+| other | p_7zJTA8P44SADgfLmzQmWsp | 王興 | accepted |
+| other | p_UQ6RTfM1eUG5mYfaY1pW9i | 王麟 | accepted |
+| other | p_s6y4se8DCW4eukcpENqdMJ | 王鳳 | accepted |
+| other | p_z3W5Kxe67VFh1mAWJB2FDG | 王信 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鳳（CBDB 271839）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271839&o=json)
 - [中国历代人物传记资料库：王綱（CBDB 271762）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271762&o=json)
 - [中国历代人物传记资料库：王俊（CBDB 271773）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271773&o=json)
+- [中国历代人物传记资料库：王麟（CBDB 271828）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271828&o=json)
 - [中国历代人物传记资料库：王勉（CBDB 271751）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271751&o=json)
 - [中国历代人物传记资料库：王昇（CBDB 198437）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198437&o=json)
+- [中国历代人物传记资料库：王信（CBDB 271806）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271806&o=json)
+- [中国历代人物传记资料库：王興（CBDB 271817）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271817&o=json)

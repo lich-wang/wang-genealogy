@@ -4,7 +4,7 @@ id: p_XvLvgZx3E1ajPvY553eFr9
 status: active
 merged_into: null
 display_name: 王吉兆
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,117 @@ relationships:
         status: active
         display_name: 王庭詩
         merged_into_person_id: null
+    - claim:
+        id: c_5fNfevoIgrB5i8rf98gX5-
+        subject_person_id: p_XvLvgZx3E1ajPvY553eFr9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FYPXxKmUoBGXJ2ArmCq8cc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_itPShsRnyoinpP4Qj_jtjK
+          claim_id: c_5fNfevoIgrB5i8rf98gX5-
+          source_id: s_ew4ZW_80cvgBnQy9UDJZek
+          stance: supports
+          locator: CBDB：兄弟 王庭詩（205441）之父／母 王吉兆
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王誦詩 与 王庭詩 为同胞（CBDB 记「兄」），王庭詩 之父／母即 王誦詩 之父／母。
+          source:
+            id: s_ew4ZW_80cvgBnQy9UDJZek
+            source_type: api_record
+            title: 中国历代人物传记资料库：王誦詩（CBDB 333206）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333206&o=json
+            external_identifier: CBDB:333206
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FYPXxKmUoBGXJ2ArmCq8cc
+        status: active
+        display_name: 王誦詩
+        merged_into_person_id: null
+    - claim:
+        id: c_TKgLfmXeKpJHWnnXMdEHus
+        subject_person_id: p_XvLvgZx3E1ajPvY553eFr9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fxmhVGu9RtKGvsjb8zFq2V
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_I29NsqV6YPTsE5gDBfscHA
+          claim_id: c_TKgLfmXeKpJHWnnXMdEHus
+          source_id: s_XjhUQz0xq6R4G0wgtefwGx
+          stance: supports
+          locator: CBDB：兄弟 王庭詩（205441）之父／母 王吉兆
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王興詩 与 王庭詩 为同胞（CBDB 记「兄」），王庭詩 之父／母即 王興詩 之父／母。
+          source:
+            id: s_XjhUQz0xq6R4G0wgtefwGx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王興詩（CBDB 333205）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333205&o=json
+            external_identifier: CBDB:333205
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fxmhVGu9RtKGvsjb8zFq2V
+        status: active
+        display_name: 王興詩
+        merged_into_person_id: null
+    - claim:
+        id: c_JVcWX0rtQk12YEBDxS9pvx
+        subject_person_id: p_XvLvgZx3E1ajPvY553eFr9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kUPaWNvtFG1Gd4JKD8JkQ2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FIcSWkUFQOrawq-7HE1ggv
+          claim_id: c_JVcWX0rtQk12YEBDxS9pvx
+          source_id: s_2Mk758RNkVnHU0OIM2Crs2
+          stance: supports
+          locator: CBDB：兄弟 王庭詩（205441）之父／母 王吉兆
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王知詩 与 王庭詩 为同胞（CBDB 记「兄」），王庭詩 之父／母即 王知詩 之父／母。
+          source:
+            id: s_2Mk758RNkVnHU0OIM2Crs2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王知詩（CBDB 333207）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333207&o=json
+            external_identifier: CBDB:333207
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kUPaWNvtFG1Gd4JKD8JkQ2
+        status: active
+        display_name: 王知詩
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +235,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_R3KjiJ6AtFp3cp2mBnFBEY | 王庭詩 | accepted |
+| children | p_FYPXxKmUoBGXJ2ArmCq8cc | 王誦詩 | accepted |
+| children | p_fxmhVGu9RtKGvsjb8zFq2V | 王興詩 | accepted |
+| children | p_kUPaWNvtFG1Gd4JKD8JkQ2 | 王知詩 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王吉兆（CBDB 333202）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333202&o=json)
+- [中国历代人物传记资料库：王誦詩（CBDB 333206）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333206&o=json)
+- [中国历代人物传记资料库：王興詩（CBDB 333205）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333205&o=json)
+- [中国历代人物传记资料库：王知詩（CBDB 333207）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333207&o=json)

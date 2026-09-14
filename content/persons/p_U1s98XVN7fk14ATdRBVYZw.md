@@ -4,7 +4,7 @@ id: p_U1s98XVN7fk14ATdRBVYZw
 status: active
 merged_into: null
 display_name: 王希曾
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,44 @@ relationships:
         display_name: 王鐸
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_unvj3ZXEb1X5F7tx4IX-b0
+        subject_person_id: p_KsWy8wVRKEEg8nQb2iqxGo
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_U1s98XVN7fk14ATdRBVYZw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_m5l1O_xlHjbzX8zQqyflGv
+          claim_id: c_unvj3ZXEb1X5F7tx4IX-b0
+          source_id: s_XxTaD2cEnzPWEnL593nh7l
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206553 王希曾）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_XxTaD2cEnzPWEnL593nh7l
+            source_type: api_record
+            title: 中国历代人物传记资料库：王希周（CBDB 219651）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219651&o=json
+            external_identifier: CBDB:219651
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KsWy8wVRKEEg8nQb2iqxGo
+        status: active
+        display_name: 王希周
+        merged_into_person_id: null
 ---
 
 # 王希曾
@@ -240,10 +277,12 @@ relationships:
 | parents | p_SEtLP5GkVoAmGmZP4M96hJ | 王語 | accepted |
 | ancestors | p_etSE86sG6ZfUr8xtbrfMo4 | 王國瑞 | accepted |
 | ancestors | p_YKmXAsB3cj6kcRwvNn1UYC | 王鐸 | accepted |
+| other | p_KsWy8wVRKEEg8nQb2iqxGo | 王希周 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鐸（CBDB 219645）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219645&o=json)
 - [中国历代人物传记资料库：王國瑞（CBDB 219646）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219646&o=json)
 - [中国历代人物传记资料库：王希曾（CBDB 206553）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206553&o=json)
+- [中国历代人物传记资料库：王希周（CBDB 219651）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219651&o=json)
 - [中国历代人物传记资料库：王語（CBDB 219647）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219647&o=json)

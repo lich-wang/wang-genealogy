@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王文燈
 cbdb_id: 316805
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_UyYQ5WfjJ0eCFioAGi36xO
+        subject_person_id: p_pRE8tgS2kdZDvfTt1GWCyR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4y4hsyWFb4sdDAPsmZsNBQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xVPvHyTXaSbbBK16EuyYP3
+          claim_id: c_UyYQ5WfjJ0eCFioAGi36xO
+          source_id: s_ku3mU0Nlzdrt0e3BoFfdI0
+          stance: supports
+          locator: CBDB：兄弟 王文炳（126458）之父／母 王慶環
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王文燈 与 王文炳 为同胞（CBDB 记「兄」），王文炳 之父／母即 王文燈 之父／母。
+          source:
+            id: s_ku3mU0Nlzdrt0e3BoFfdI0
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文燈（CBDB 316805）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316805&o=json
+            external_identifier: CBDB:316805
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_pRE8tgS2kdZDvfTt1GWCyR
+        status: active
+        display_name: 王慶環
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Pchj_RlLwpPSVTRaTaqfEI
+        subject_person_id: p_4y4hsyWFb4sdDAPsmZsNBQ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_5HHB1Hb4zKCj9LE68zB5ne
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gDPP1Jdz2nNoLdBL4J2ed0
+          claim_id: c_Pchj_RlLwpPSVTRaTaqfEI
+          source_id: s_ku3mU0Nlzdrt0e3BoFfdI0
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126458 王文炳）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ku3mU0Nlzdrt0e3BoFfdI0
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文燈（CBDB 316805）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316805&o=json
+            external_identifier: CBDB:316805
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5HHB1Hb4zKCj9LE68zB5ne
+        status: active
+        display_name: 王文炳
+        merged_into_person_id: null
 ---
 
 # 王文燈
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_pRE8tgS2kdZDvfTt1GWCyR | 王慶環 | accepted |
+| other | p_5HHB1Hb4zKCj9LE68zB5ne | 王文炳 | accepted |
 
 ## 外部来源
 

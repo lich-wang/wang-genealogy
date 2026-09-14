@@ -4,7 +4,7 @@ id: p_GHVQL4hWHQRpyP8bz5zK2L
 status: active
 merged_into: null
 display_name: 王澤
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,81 @@ relationships:
         display_name: 王和卿
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_2xnN5RX4Wp0S68A9o6iF8c
+        subject_person_id: p_3RzVzQR8Y32crEFtQpY6RF
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_GHVQL4hWHQRpyP8bz5zK2L
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qwnvoW9koYXKYKXsGuoW2_
+          claim_id: c_2xnN5RX4Wp0S68A9o6iF8c
+          source_id: s_uHG1bfKkvxQN5IKN6wdtUX
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207874 王澤）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_uHG1bfKkvxQN5IKN6wdtUX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王選（CBDB 237291）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237291&o=json
+            external_identifier: CBDB:237291
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3RzVzQR8Y32crEFtQpY6RF
+        status: active
+        display_name: 王選
+        merged_into_person_id: null
+    - claim:
+        id: c_IuOQVbwVDmADFcsBqsOvF_
+        subject_person_id: p_GHVQL4hWHQRpyP8bz5zK2L
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RzHeKRrrFVE4Ac6M22sZsg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__L4UCGmlpSj59Hy4QZFNi3
+          claim_id: c_IuOQVbwVDmADFcsBqsOvF_
+          source_id: s_sT22kr5Z9iXULMVATsWCeE
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207874 王澤）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_sT22kr5Z9iXULMVATsWCeE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王震（CBDB 237290）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237290&o=json
+            external_identifier: CBDB:237290
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_RzHeKRrrFVE4Ac6M22sZsg
+        status: active
+        display_name: 王震
+        merged_into_person_id: null
 ---
 
 # 王澤
@@ -240,10 +314,14 @@ relationships:
 | parents | p_5c4qM7nrdVKGAvGun3bQkF | 王鳳 | accepted |
 | ancestors | p_vveUdSrNnRwKbTykZwZwL8 | 王從善 | accepted |
 | ancestors | p_xo3gN1AcnYp3rCvHMixt52 | 王和卿 | accepted |
+| other | p_3RzVzQR8Y32crEFtQpY6RF | 王選 | accepted |
+| other | p_RzHeKRrrFVE4Ac6M22sZsg | 王震 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王從善（CBDB 237285）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237285&o=json)
 - [中国历代人物传记资料库：王鳳（CBDB 237286）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237286&o=json)
 - [中国历代人物传记资料库：王和卿（CBDB 237284）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237284&o=json)
+- [中国历代人物传记资料库：王選（CBDB 237291）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237291&o=json)
 - [中国历代人物传记资料库：王澤（CBDB 207874）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207874&o=json)
+- [中国历代人物传记资料库：王震（CBDB 237290）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237290&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王湯孫
 cbdb_id: 207629
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -275,7 +275,44 @@ relationships:
         display_name: 王季卿
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_fITHCqcp2AsE2hXrniQfG3
+        subject_person_id: p_DvVKW3AUxK5cCLW8rtgfB4
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fD7qPwbvZ6FE66Ydz4AFyX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iU1XFqweSPzbfv5lQ1b-Xv
+          claim_id: c_fITHCqcp2AsE2hXrniQfG3
+          source_id: s_w-ZGv4yw3z96yNdB1WD1kI
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207629 王湯孫）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_w-ZGv4yw3z96yNdB1WD1kI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王秀孫（CBDB 232804）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232804&o=json
+            external_identifier: CBDB:232804
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fD7qPwbvZ6FE66Ydz4AFyX
+        status: active
+        display_name: 王秀孫
+        merged_into_person_id: null
 ---
 
 # 王湯孫
@@ -298,6 +335,7 @@ relationships:
 | children | p_aBsKvmg78SuxNAjHJSK1uw | 王㣧震 | accepted |
 | ancestors | p_8e2K3VWTefmXzfc1EdNEe7 | 王士任 | accepted |
 | ancestors | p_ayr63C9j4FCs6LB1rxnwhd | 王季卿 | accepted |
+| other | p_fD7qPwbvZ6FE66Ydz4AFyX | 王秀孫 | accepted |
 
 ## 外部来源
 
@@ -305,4 +343,5 @@ relationships:
 - [中国历代人物传记资料库：王季卿（CBDB 232797）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232797&o=json)
 - [中国历代人物传记资料库：王士任（CBDB 232798）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232798&o=json)
 - [中国历代人物传记资料库：王湯孫（CBDB 207629）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207629&o=json)
+- [中国历代人物传记资料库：王秀孫（CBDB 232804）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232804&o=json)
 - [中国历代人物传记资料库：王㣧震（CBDB 232805）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232805&o=json)

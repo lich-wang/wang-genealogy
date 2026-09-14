@@ -4,7 +4,7 @@ id: p_LBdGsbwqK1sHLezT3boLBb
 status: active
 merged_into: null
 display_name: 王紹
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -190,7 +190,44 @@ relationships:
         display_name: 王昭
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_QaREnDedXKF36bF6vLhZ3S
+        subject_person_id: p_LBdGsbwqK1sHLezT3boLBb
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ZN15GerPKcQLYm1R2apkXv
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JH-c1gNUZcJcDCBvZrxc1X
+          claim_id: c_QaREnDedXKF36bF6vLhZ3S
+          source_id: s_xMuC8xyhavn0Fr55cGTcNG
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126695 王紹）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_xMuC8xyhavn0Fr55cGTcNG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王緯（CBDB 265429）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265429&o=json
+            external_identifier: CBDB:265429
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZN15GerPKcQLYm1R2apkXv
+        status: active
+        display_name: 王緯
+        merged_into_person_id: null
 ---
 
 # 王紹
@@ -211,10 +248,12 @@ relationships:
 | parents | p_YaA4L9KPYthUAssTTYBQuu | 王亨 | accepted |
 | ancestors | p_d6X5X9bjzcHYkKZwRaDPSR | 王恕 | accepted |
 | ancestors | p_Y75XX8DkAqUSNJtKuDF2CJ | 王昭 | accepted |
+| other | p_ZN15GerPKcQLYm1R2apkXv | 王緯 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王亨（CBDB 265423）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265423&o=json)
 - [中国历代人物传记资料库：王紹（CBDB 126695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126695&o=json)
 - [中国历代人物传记资料库：王恕（CBDB 265422）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265422&o=json)
+- [中国历代人物传记资料库：王緯（CBDB 265429）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265429&o=json)
 - [中国历代人物传记资料库：王昭（CBDB 265421）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265421&o=json)

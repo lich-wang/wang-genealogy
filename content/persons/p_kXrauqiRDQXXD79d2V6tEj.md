@@ -4,7 +4,7 @@ id: p_kXrauqiRDQXXD79d2V6tEj
 status: active
 merged_into: null
 display_name: 王觀
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,80 @@ relationships:
         status: active
         display_name: 王冕
         merged_into_person_id: null
+    - claim:
+        id: c_F0sFLS4V3TnIO5FTRxVIjq
+        subject_person_id: p_kXrauqiRDQXXD79d2V6tEj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1EStyxEDfPmrpBdH2RAjN4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RRPmYL26iP2TdAoFB7mxlY
+          claim_id: c_F0sFLS4V3TnIO5FTRxVIjq
+          source_id: s_x0LOA3U0zhhTmVjzTg0Ohq
+          stance: supports
+          locator: CBDB：兄弟 王冕（198620）之父／母 王觀
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王旅 与 王冕 为同胞（CBDB 记「兄」），王冕 之父／母即 王旅 之父／母。
+          source:
+            id: s_x0LOA3U0zhhTmVjzTg0Ohq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王旅（CBDB 295306）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295306&o=json
+            external_identifier: CBDB:295306
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1EStyxEDfPmrpBdH2RAjN4
+        status: active
+        display_name: 王旅
+        merged_into_person_id: null
+    - claim:
+        id: c_Tm3mSrf0xPeuqih7Ij8RiQ
+        subject_person_id: p_kXrauqiRDQXXD79d2V6tEj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_df5qMUS2WxknCbo6MQhRBA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oKOLQTPXypo-ozeHhQcG3X
+          claim_id: c_Tm3mSrf0xPeuqih7Ij8RiQ
+          source_id: s_w_g_ExFxhsBChBFX96zHMr
+          stance: supports
+          locator: CBDB：兄弟 王冕（198620）之父／母 王觀
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王紘 与 王冕 为同胞（CBDB 记「兄」），王冕 之父／母即 王紘 之父／母。
+          source:
+            id: s_w_g_ExFxhsBChBFX96zHMr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王紘（CBDB 295318）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295318&o=json
+            external_identifier: CBDB:295318
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_df5qMUS2WxknCbo6MQhRBA
+        status: active
+        display_name: 王紘
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +209,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_7XvdYNGwLHctu4cLzYQ7kr | 王冕 | accepted |
+| children | p_1EStyxEDfPmrpBdH2RAjN4 | 王旅 | accepted |
+| children | p_df5qMUS2WxknCbo6MQhRBA | 王紘 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王觀（CBDB 295273）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295273&o=json)
+- [中国历代人物传记资料库：王紘（CBDB 295318）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295318&o=json)
+- [中国历代人物传记资料库：王旅（CBDB 295306）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295306&o=json)
 - [中国历代人物传记资料库：王冕（CBDB 198620）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198620&o=json)

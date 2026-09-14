@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王徽言
 cbdb_id: 325299
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_wKtjYdFA0xZgo-LfdO2QFM
+        subject_person_id: p_v2Fkat16mGPQiTSwTrQAp8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dUCJ9SoZn1KdAvaSuLiGkN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TZA9pftpan_6i6paQzEaOO
+          claim_id: c_wKtjYdFA0xZgo-LfdO2QFM
+          source_id: s_0jHWmhlhIBNyHfHrrSlMVI
+          stance: supports
+          locator: CBDB：兄弟 王徽猷（204879）之父／母 王宦
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王徽言 与 王徽猷 为同胞（CBDB 记「弟」），王徽猷 之父／母即 王徽言 之父／母。
+          source:
+            id: s_0jHWmhlhIBNyHfHrrSlMVI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王徽言（CBDB 325299）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325299&o=json
+            external_identifier: CBDB:325299
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_v2Fkat16mGPQiTSwTrQAp8
+        status: active
+        display_name: 王宦
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_qsq5ecTX0B0pXfGkmFmbAc
+        subject_person_id: p_N1zXfVAzsHV9UYAEDLb5C7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dUCJ9SoZn1KdAvaSuLiGkN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WNuEtvxuLDCMCXkkrfHF9z
+          claim_id: c_qsq5ecTX0B0pXfGkmFmbAc
+          source_id: s_0jHWmhlhIBNyHfHrrSlMVI
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204879 王徽猷）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0jHWmhlhIBNyHfHrrSlMVI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王徽言（CBDB 325299）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325299&o=json
+            external_identifier: CBDB:325299
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_N1zXfVAzsHV9UYAEDLb5C7
+        status: active
+        display_name: 王徽猷
+        merged_into_person_id: null
 ---
 
 # 王徽言
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_v2Fkat16mGPQiTSwTrQAp8 | 王宦 | accepted |
+| other | p_N1zXfVAzsHV9UYAEDLb5C7 | 王徽猷 | accepted |
 
 ## 外部来源
 

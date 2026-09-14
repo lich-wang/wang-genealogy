@@ -4,7 +4,7 @@ id: p_RRZuE21H2Z9728UGo3kUPT
 status: active
 merged_into: null
 display_name: 王邦俊
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,44 @@ relationships:
         display_name: 王恕
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_JxZ2MZ3SvrCQHMkKDXpAMZ
+        subject_person_id: p_FqhZ4oxaHvpQE9TXe9sD9L
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RRZuE21H2Z9728UGo3kUPT
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_s_Egvo-Ug7QiMy5K8PH7oH
+          claim_id: c_JxZ2MZ3SvrCQHMkKDXpAMZ
+          source_id: s_PgDmBrnh47gQ3kQu2NW13H
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206190 王邦俊）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_PgDmBrnh47gQ3kQu2NW13H
+            source_type: api_record
+            title: 中国历代人物传记资料库：王邦秀（CBDB 214610）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214610&o=json
+            external_identifier: CBDB:214610
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FqhZ4oxaHvpQE9TXe9sD9L
+        status: active
+        display_name: 王邦秀
+        merged_into_person_id: null
 ---
 
 # 王邦俊
@@ -240,10 +277,12 @@ relationships:
 | parents | p_p52NPJ3XEL4EMz8XmEty7C | 王瀾 | accepted |
 | ancestors | p_jmJNUw1ejhwr4vyXkCpjV3 | 王鳳儀 | accepted |
 | ancestors | p_oEjk9MMP49z4GcDFBCjNtL | 王恕 | accepted |
+| other | p_FqhZ4oxaHvpQE9TXe9sD9L | 王邦秀 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王邦俊（CBDB 206190）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206190&o=json)
+- [中国历代人物传记资料库：王邦秀（CBDB 214610）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214610&o=json)
 - [中国历代人物传记资料库：王鳳儀（CBDB 214606）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214606&o=json)
 - [中国历代人物传记资料库：王瀾（CBDB 214607）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214607&o=json)
 - [中国历代人物传记资料库：王恕（CBDB 214605）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214605&o=json)

@@ -4,7 +4,7 @@ id: p_h3CXNojG2YSiYzwGfbYd94
 status: active
 merged_into: null
 display_name: 王開基
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -142,7 +142,44 @@ relationships:
         merged_into_person_id: null
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_IqEeBC9mpptDDzxIwAKbhc
+        subject_person_id: p_1KC4KFQQLTcP7hbayMfMtf
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_h3CXNojG2YSiYzwGfbYd94
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_inqpc8vFHzPCwcQEoxKHYl
+          claim_id: c_IqEeBC9mpptDDzxIwAKbhc
+          source_id: s_OsVFPHYRBE73ioqRFhrH-W
+          stance: supports
+          locator: CBDB 亲属：兄弟（KinPerson 558202 王開基）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_OsVFPHYRBE73ioqRFhrH-W
+            source_type: api_record
+            title: 中国历代人物传记资料库：王建基（CBDB 558204）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=558204&o=json
+            external_identifier: CBDB:558204
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1KC4KFQQLTcP7hbayMfMtf
+        status: active
+        display_name: 王建基
+        merged_into_person_id: null
 ---
 
 # 王開基
@@ -162,8 +199,10 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_QkFBHsgWrGkjjoSdDCeCAZ | 王鈵 | accepted |
 | spouses | p_7sAr5tfnkYP9HJqJcGrP2i | 杜氏 | accepted |
+| other | p_1KC4KFQQLTcP7hbayMfMtf | 王建基 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：杜氏(王開基妻)（CBDB 558203）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=558203&o=json)
+- [中国历代人物传记资料库：王建基（CBDB 558204）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=558204&o=json)
 - [中国历代人物传记资料库：王開基（CBDB 558202）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=558202&o=json)

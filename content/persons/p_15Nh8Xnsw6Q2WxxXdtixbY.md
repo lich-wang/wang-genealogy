@@ -4,7 +4,7 @@ id: p_15Nh8Xnsw6Q2WxxXdtixbY
 status: active
 merged_into: null
 display_name: 王宥
-revision: 5
+revision: 9
 properties:
   - predicate: name.primary
     recommended:
@@ -244,7 +244,155 @@ relationships:
         display_name: 王榮
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_JuV73w_wNm6dkGNijoU36u
+        subject_person_id: p_15Nh8Xnsw6Q2WxxXdtixbY
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_cFw7QUEs9cpf6hWmJ7JVpY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BVIt71OGXm37GbAIVq5MSV
+          claim_id: c_JuV73w_wNm6dkGNijoU36u
+          source_id: s_t5JVvMlfMGzkRJj5akZz6I
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200225 王宥）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_t5JVvMlfMGzkRJj5akZz6I
+            source_type: api_record
+            title: 中国历代人物传记资料库：王賓（CBDB 255126）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255126&o=json
+            external_identifier: CBDB:255126
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cFw7QUEs9cpf6hWmJ7JVpY
+        status: active
+        display_name: 王賓
+        merged_into_person_id: null
+    - claim:
+        id: c_rKQsd1Gf53RLQVOjUkdHEt
+        subject_person_id: p_15Nh8Xnsw6Q2WxxXdtixbY
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gtpyy7AbGp6DxAnx1RWewz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rU_YMWRJJ_xNX28UywSIqd
+          claim_id: c_rKQsd1Gf53RLQVOjUkdHEt
+          source_id: s_ZhFoHjnUHAWmXCg0Zf7C7-
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200225 王宥）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ZhFoHjnUHAWmXCg0Zf7C7-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王弼（CBDB 255128）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255128&o=json
+            external_identifier: CBDB:255128
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_gtpyy7AbGp6DxAnx1RWewz
+        status: active
+        display_name: 王弼
+        merged_into_person_id: null
+    - claim:
+        id: c_lLwu-4RcFzgI85dJmt_bcv
+        subject_person_id: p_15Nh8Xnsw6Q2WxxXdtixbY
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_jjcGJkv2ABHQmgrtteSHmA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Xa1jBwEZx2CBfNcVIfUZJj
+          claim_id: c_lLwu-4RcFzgI85dJmt_bcv
+          source_id: s_Fv_tcbCl7EK-Ssq95OnwM-
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200225 王宥）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Fv_tcbCl7EK-Ssq95OnwM-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宸（CBDB 255127）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255127&o=json
+            external_identifier: CBDB:255127
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jjcGJkv2ABHQmgrtteSHmA
+        status: active
+        display_name: 王宸
+        merged_into_person_id: null
+    - claim:
+        id: c_v4Gq3JYO3Ic7SYKXSwE4Wg
+        subject_person_id: p_15Nh8Xnsw6Q2WxxXdtixbY
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_udhb9Ns1QKHUqcT86ApdGW
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pHad7L13w5yRTultwL4yno
+          claim_id: c_v4Gq3JYO3Ic7SYKXSwE4Wg
+          source_id: s_R8P3FopJFQAA6pDBb6yIVE
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200225 王宥）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_R8P3FopJFQAA6pDBb6yIVE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王完（CBDB 255129）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255129&o=json
+            external_identifier: CBDB:255129
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_udhb9Ns1QKHUqcT86ApdGW
+        status: active
+        display_name: 王完
+        merged_into_person_id: null
 ---
 
 # 王宥
@@ -267,10 +415,18 @@ relationships:
 | spouses | p_ZiM4N5Gs41SCGQ3WKw5622 | 徐氏 | accepted |
 | ancestors | p_fYwp6rZCTtFvp8J8toSZti | 王本宗 | accepted |
 | ancestors | p_uhg7M4Hh4FFL2fV4HjE6Cg | 王榮 | accepted |
+| other | p_cFw7QUEs9cpf6hWmJ7JVpY | 王賓 | accepted |
+| other | p_gtpyy7AbGp6DxAnx1RWewz | 王弼 | accepted |
+| other | p_jjcGJkv2ABHQmgrtteSHmA | 王宸 | accepted |
+| other | p_udhb9Ns1QKHUqcT86ApdGW | 王完 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王本宗（CBDB 255121）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255121&o=json)
+- [中国历代人物传记资料库：王弼（CBDB 255128）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255128&o=json)
+- [中国历代人物传记资料库：王賓（CBDB 255126）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255126&o=json)
+- [中国历代人物传记资料库：王宸（CBDB 255127）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255127&o=json)
 - [中国历代人物传记资料库：王榮（CBDB 255120）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255120&o=json)
+- [中国历代人物传记资料库：王完（CBDB 255129）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255129&o=json)
 - [中国历代人物传记资料库：王宥（CBDB 200225）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200225&o=json)
 - [中国历代人物传记资料库：徐氏(王宥妻)（CBDB 255124）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255124&o=json)

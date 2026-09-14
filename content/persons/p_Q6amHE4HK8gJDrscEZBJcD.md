@@ -4,7 +4,7 @@ id: p_Q6amHE4HK8gJDrscEZBJcD
 status: active
 merged_into: null
 display_name: 王訓
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,43 @@ relationships:
         status: active
         display_name: 王杏
         merged_into_person_id: null
+    - claim:
+        id: c_WccYyschMK4U8l4eLPiVOK
+        subject_person_id: p_Q6amHE4HK8gJDrscEZBJcD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BdWZ3zAWuZy3237mUGFJuE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HMC7XC0o_OhH8hBOAF2BjJ
+          claim_id: c_WccYyschMK4U8l4eLPiVOK
+          source_id: s_VYSpofKxHjkI6F5qLPvlTh
+          stance: supports
+          locator: CBDB：兄弟 王杏（202611）之父／母 王訓
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王櫑 与 王杏 为同胞（CBDB 记「兄」），王杏 之父／母即 王櫑 之父／母。
+          source:
+            id: s_VYSpofKxHjkI6F5qLPvlTh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王櫑（CBDB 290699）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290699&o=json
+            external_identifier: CBDB:290699
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BdWZ3zAWuZy3237mUGFJuE
+        status: active
+        display_name: 王櫑
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_tqwNUi4YHEq3GLVvJB5D2K | 王杏 | accepted |
+| children | p_BdWZ3zAWuZy3237mUGFJuE | 王櫑 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王櫑（CBDB 290699）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290699&o=json)
 - [中国历代人物传记资料库：王訓（CBDB 290695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290695&o=json)

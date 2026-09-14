@@ -4,7 +4,7 @@ id: p_afPNNs5ZnKkGi8uzmbG1Wn
 status: active
 merged_into: null
 display_name: 王昊
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -343,7 +343,44 @@ relationships:
         display_name: 王士駰
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_QZ8eUY7DQvJuCQi0Xn74o2
+        subject_person_id: p_afPNNs5ZnKkGi8uzmbG1Wn
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_w4ezLJLy4hfFp7fG4YLjAJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_a-TmPYvlEWNPS2M6rrQj9x
+          claim_id: c_QZ8eUY7DQvJuCQi0Xn74o2
+          source_id: s_QJrWJrNX28P6PdAnCqVrBW
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 69262 王昊）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_QJrWJrNX28P6PdAnCqVrBW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王曜昇（CBDB 526803）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526803&o=json
+            external_identifier: CBDB:526803
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_w4ezLJLy4hfFp7fG4YLjAJ
+        status: active
+        display_name: 王曜昇
+        merged_into_person_id: null
 ---
 
 # 王昊
@@ -371,7 +408,9 @@ relationships:
 | children | p_YzvPimY1PapXuY35NTAFfY | 王緝修 | accepted |
 | children | p_FcM28MPKKrydnE5jZgbivJ | 王繹高 | accepted |
 | ancestors | p_mJRaNEZHwcBgFbPh9cRtuK | 王士駰 | accepted |
+| other | p_w4ezLJLy4hfFp7fG4YLjAJ | 王曜昇 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王昊（CBDB 69262）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69262&o=json)
+- [中国历代人物传记资料库：王曜昇（CBDB 526803）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526803&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王瑽
 cbdb_id: 248691
-revision: 2
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -114,6 +114,154 @@ relationships:
         status: active
         display_name: 王皋
         merged_into_person_id: null
+    - claim:
+        id: c_UXTfCyK6qp6rv0O1e5APiz
+        subject_person_id: p_9B1FXBmYAzycryvGH6JiV6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WQ49Azsmx4fh8msvmUyUdN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oAb5oGVze1RidoTX52xvg8
+          claim_id: c_UXTfCyK6qp6rv0O1e5APiz
+          source_id: s_VCvqBcM2PKpirXGjwACa39
+          stance: supports
+          locator: CBDB：兄弟 王皋（199701）之父／母 王瑽
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王禹 与 王皋 为同胞（CBDB 记「兄」），王皋 之父／母即 王禹 之父／母。
+          source:
+            id: s_VCvqBcM2PKpirXGjwACa39
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禹（CBDB 248694）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248694&o=json
+            external_identifier: CBDB:248694
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_WQ49Azsmx4fh8msvmUyUdN
+        status: active
+        display_name: 王禹
+        merged_into_person_id: null
+    - claim:
+        id: c_SmTGdJnWonIEj15MPxETEm
+        subject_person_id: p_9B1FXBmYAzycryvGH6JiV6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YYWjqQsjYhGzserd19QRGr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hAhO7jT5tTSfzaEO5CdQOI
+          claim_id: c_SmTGdJnWonIEj15MPxETEm
+          source_id: s_r6AbxH8ezGxq8rEMZgqRBj
+          stance: supports
+          locator: CBDB：兄弟 王皋（199701）之父／母 王瑽
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王稷 与 王皋 为同胞（CBDB 记「兄」），王皋 之父／母即 王稷 之父／母。
+          source:
+            id: s_r6AbxH8ezGxq8rEMZgqRBj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王稷（CBDB 248696）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248696&o=json
+            external_identifier: CBDB:248696
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_YYWjqQsjYhGzserd19QRGr
+        status: active
+        display_name: 王稷
+        merged_into_person_id: null
+    - claim:
+        id: c_8_YMv9e98_NDpe0fBDw0_y
+        subject_person_id: p_9B1FXBmYAzycryvGH6JiV6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_twi4NUUgUZHwb8brmLuPPK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wgQ7tcQNdmYeDRp8Eu1qyl
+          claim_id: c_8_YMv9e98_NDpe0fBDw0_y
+          source_id: s_aSuqJOGSl7eZIpY-dFO2sW
+          stance: supports
+          locator: CBDB：兄弟 王皋（199701）之父／母 王瑽
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王羲 与 王皋 为同胞（CBDB 记「兄」），王皋 之父／母即 王羲 之父／母。
+          source:
+            id: s_aSuqJOGSl7eZIpY-dFO2sW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王羲（CBDB 248697）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248697&o=json
+            external_identifier: CBDB:248697
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_twi4NUUgUZHwb8brmLuPPK
+        status: active
+        display_name: 王羲
+        merged_into_person_id: null
+    - claim:
+        id: c_M9tLHd1Yt076zHd8pTVv-2
+        subject_person_id: p_9B1FXBmYAzycryvGH6JiV6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vPHViXNqqQk4cuqphPLzM9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_q38oCnEa99BihcLKRq5q1t
+          claim_id: c_M9tLHd1Yt076zHd8pTVv-2
+          source_id: s_oNolK4ay0lxcBdLcC69jvc
+          stance: supports
+          locator: CBDB：兄弟 王皋（199701）之父／母 王瑽
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王夔 与 王皋 为同胞（CBDB 记「兄」），王皋 之父／母即 王夔 之父／母。
+          source:
+            id: s_oNolK4ay0lxcBdLcC69jvc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王夔（CBDB 248695）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248695&o=json
+            external_identifier: CBDB:248695
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vPHViXNqqQk4cuqphPLzM9
+        status: active
+        display_name: 王夔
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -138,7 +286,15 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_zp2AZ2hRUut6GtZ8fNkjjs | 王皋 | accepted |
+| children | p_WQ49Azsmx4fh8msvmUyUdN | 王禹 | accepted |
+| children | p_YYWjqQsjYhGzserd19QRGr | 王稷 | accepted |
+| children | p_twi4NUUgUZHwb8brmLuPPK | 王羲 | accepted |
+| children | p_vPHViXNqqQk4cuqphPLzM9 | 王夔 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王瑽（CBDB 248691）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248691&o=json)
+- [中国历代人物传记资料库：王稷（CBDB 248696）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248696&o=json)
+- [中国历代人物传记资料库：王夔（CBDB 248695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248695&o=json)
+- [中国历代人物传记资料库：王羲（CBDB 248697）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248697&o=json)
+- [中国历代人物传记资料库：王禹（CBDB 248694）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248694&o=json)

@@ -4,7 +4,7 @@ id: p_mTrNh2z3rLv3K8dQdvAPr1
 status: active
 merged_into: null
 display_name: 王述
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_xUvqRgXvIJwGyBptE_cQNQ
+        subject_person_id: p_CKPv9UAc3q29PWyukafcq8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mTrNh2z3rLv3K8dQdvAPr1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oxqkNND2wkIXCxNLvPj4yt
+          claim_id: c_xUvqRgXvIJwGyBptE_cQNQ
+          source_id: s_LFMk3YnPv9CAiaEpeB8f0m
+          stance: supports
+          locator: CBDB：兄弟 王魯（198398）之父／母 王文奎
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王述 与 王魯 为同胞（CBDB 记「兄」），王魯 之父／母即 王述 之父／母。
+          source:
+            id: s_LFMk3YnPv9CAiaEpeB8f0m
+            source_type: api_record
+            title: 中国历代人物传记资料库：王述（CBDB 267116）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267116&o=json
+            external_identifier: CBDB:267116
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CKPv9UAc3q29PWyukafcq8
+        status: active
+        display_name: 王文奎
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_XhaMQbHUTg6IulSOqWsSyM
+        subject_person_id: p_mTrNh2z3rLv3K8dQdvAPr1
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_q8jv2duMSqfqCbpkkK9Wow
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_apXWbVGZIfhkIJKNe1dJNE
+          claim_id: c_XhaMQbHUTg6IulSOqWsSyM
+          source_id: s_LFMk3YnPv9CAiaEpeB8f0m
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198398 王魯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_LFMk3YnPv9CAiaEpeB8f0m
+            source_type: api_record
+            title: 中国历代人物传记资料库：王述（CBDB 267116）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267116&o=json
+            external_identifier: CBDB:267116
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_q8jv2duMSqfqCbpkkK9Wow
+        status: active
+        display_name: 王魯
+        merged_into_person_id: null
 ---
 
 # 王述
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_CKPv9UAc3q29PWyukafcq8 | 王文奎 | accepted |
+| other | p_q8jv2duMSqfqCbpkkK9Wow | 王魯 | accepted |
 
 ## 外部来源
 

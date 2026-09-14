@@ -4,7 +4,7 @@ id: p_zvDLLjsaBbAAQZrQMfa4Dg
 status: active
 merged_into: null
 display_name: 王曉
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_MulWyGgwKMN3mOFPuowbFv
+        subject_person_id: p_qGQsVR5gzeQy8Y9aNmPG9C
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zvDLLjsaBbAAQZrQMfa4Dg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8CaI7owG5qN7QsXrtwBBxD
+          claim_id: c_MulWyGgwKMN3mOFPuowbFv
+          source_id: s_AgbFp1w0NMidMiFi1UZIhm
+          stance: supports
+          locator: CBDB：兄弟 王暐（68343）之父／母 王槐
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王曉 与 王暐 为同胞（CBDB 记「兄」），王暐 之父／母即 王曉 之父／母。
+          source:
+            id: s_AgbFp1w0NMidMiFi1UZIhm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王曉（CBDB 280923）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280923&o=json
+            external_identifier: CBDB:280923
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qGQsVR5gzeQy8Y9aNmPG9C
+        status: active
+        display_name: 王槐
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Yb6Ohxc1KAtQzkWsHI_qh-
+        subject_person_id: p_qC31C42hD4UK4m3NDzMPZB
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zvDLLjsaBbAAQZrQMfa4Dg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5Yp8n0qMk4rg5RlwFNIskp
+          claim_id: c_Yb6Ohxc1KAtQzkWsHI_qh-
+          source_id: s_AgbFp1w0NMidMiFi1UZIhm
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 68343 王暐）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_AgbFp1w0NMidMiFi1UZIhm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王曉（CBDB 280923）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280923&o=json
+            external_identifier: CBDB:280923
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qC31C42hD4UK4m3NDzMPZB
+        status: active
+        display_name: 王暐
+        merged_into_person_id: null
 ---
 
 # 王曉
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qGQsVR5gzeQy8Y9aNmPG9C | 王槐 | accepted |
+| other | p_qC31C42hD4UK4m3NDzMPZB | 王暐 | accepted |
 
 ## 外部来源
 

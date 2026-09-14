@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王嗣先
 cbdb_id: 202354
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -237,7 +237,44 @@ relationships:
         display_name: 王惠軒
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_qvcrjRCW4t1Hjwiq3clOtc
+        subject_person_id: p_51C8Kh4aNymAeDywG3epKL
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_JGCGHb1V68mBZEbfT8cpfq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KBticZ2BkpeT3Mp4VwPJae
+          claim_id: c_qvcrjRCW4t1Hjwiq3clOtc
+          source_id: s_QXM293cuJIxMjnT2fR14I0
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202354 王嗣先）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_QXM293cuJIxMjnT2fR14I0
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敬先（CBDB 286921）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=286921&o=json
+            external_identifier: CBDB:286921
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JGCGHb1V68mBZEbfT8cpfq
+        status: active
+        display_name: 王敬先
+        merged_into_person_id: null
 ---
 
 # 王嗣先
@@ -259,10 +296,12 @@ relationships:
 | parents | p_mhv2745cG2mWonF5H2ZCdq | 王古平 | accepted |
 | ancestors | p_Zq7KqpkLmSoe8AXrGGMZL5 | 王明德 | accepted |
 | ancestors | p_aiJicNJ3TZ1ED5soZKgnCk | 王惠軒 | accepted |
+| other | p_JGCGHb1V68mBZEbfT8cpfq | 王敬先 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王古平（CBDB 286917）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=286917&o=json)
 - [中国历代人物传记资料库：王惠軒（CBDB 286915）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=286915&o=json)
+- [中国历代人物传记资料库：王敬先（CBDB 286921）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=286921&o=json)
 - [中国历代人物传记资料库：王明德（CBDB 286916）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=286916&o=json)
 - [中国历代人物传记资料库：王嗣先（CBDB 202354）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202354&o=json)

@@ -4,7 +4,7 @@ id: p_MuYkDS8mpb2qZmr2nMXp8j
 status: active
 merged_into: null
 display_name: 王审邽
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -232,7 +232,81 @@ relationships:
         status: active
         display_name: 王恁
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_AC-t9T_kouR0U0_VqJyFEp
+        subject_person_id: p_MuYkDS8mpb2qZmr2nMXp8j
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NSKaGo44mD6LDGFEDxnoWF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_ZOOnztzsfgmxZT2hjJoI4F
+          claim_id: c_AC-t9T_kouR0U0_VqJyFEp
+          source_id: s_j0L0UTik-xBS5XrP8YR2Cd
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 194931）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_j0L0UTik-xBS5XrP8YR2Cd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王審邽（CBDB 194932）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=194932&o=json
+            external_identifier: CBDB:194932
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NSKaGo44mD6LDGFEDxnoWF
+        status: active
+        display_name: 王審邽
+        merged_into_person_id: null
+    - claim:
+        id: c_QMQBoVMboxoqtnezFjwNGF
+        subject_person_id: p_MuYkDS8mpb2qZmr2nMXp8j
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nwbBpVuQmPuhrAL5FV2K92
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_cYExWg05Tym0QQvyp-m4bs
+          claim_id: c_QMQBoVMboxoqtnezFjwNGF
+          source_id: s_c4ITu6wa-J6vCXzgh8ecTX
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 194931）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_c4ITu6wa-J6vCXzgh8ecTX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王潮（CBDB 194930）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=194930&o=json
+            external_identifier: CBDB:194930
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nwbBpVuQmPuhrAL5FV2K92
+        status: active
+        display_name: 王潮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -259,9 +333,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_isC86MUQVFAwxLka4hAUQm | 王恁 | accepted |
+| children | p_NSKaGo44mD6LDGFEDxnoWF | 王審邽 | accepted |
+| children | p_nwbBpVuQmPuhrAL5FV2K92 | 王潮 | accepted |
 
 ## 外部来源
 
 - [维基数据：王恁（Q10414256）](https://www.wikidata.org/wiki/Q10414256)
 - [维基数据：王审邽（Q15931601）](https://www.wikidata.org/wiki/Q15931601)
+- [中国历代人物传记资料库：王潮（CBDB 194930）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=194930&o=json)
+- [中国历代人物传记资料库：王審邽（CBDB 194932）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=194932&o=json)
 - [CBDB 中国历代人物传记资料库：王某（194931）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=194931&o=json)

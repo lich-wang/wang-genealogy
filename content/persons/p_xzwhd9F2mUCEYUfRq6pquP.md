@@ -4,7 +4,7 @@ id: p_xzwhd9F2mUCEYUfRq6pquP
 status: active
 merged_into: null
 display_name: 王崇禮
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_j6C3gL7uvqdONbXqZTNe2G
+        subject_person_id: p_7xPYAwpK8PS9R7QKy5varP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xzwhd9F2mUCEYUfRq6pquP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j6n768-EKfTTuKDddZsVu-
+          claim_id: c_j6C3gL7uvqdONbXqZTNe2G
+          source_id: s_nRzfIO9qlGrdi6LqZP8H4J
+          stance: supports
+          locator: CBDB：兄弟 王崇文（126686）之父／母 王珣
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王崇禮 与 王崇文 为同胞（CBDB 记「兄」），王崇文 之父／母即 王崇禮 之父／母。
+          source:
+            id: s_nRzfIO9qlGrdi6LqZP8H4J
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇禮（CBDB 266143）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266143&o=json
+            external_identifier: CBDB:266143
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7xPYAwpK8PS9R7QKy5varP
+        status: active
+        display_name: 王珣
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_J22IK7bdeud7InP5Jo_mnv
+        subject_person_id: p_skjKvTKbz5aUC8X3W9ytWH
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xzwhd9F2mUCEYUfRq6pquP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xMktcGDFXGb3_JZgCw_HHF
+          claim_id: c_J22IK7bdeud7InP5Jo_mnv
+          source_id: s_nRzfIO9qlGrdi6LqZP8H4J
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126686 王崇文）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_nRzfIO9qlGrdi6LqZP8H4J
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇禮（CBDB 266143）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266143&o=json
+            external_identifier: CBDB:266143
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_skjKvTKbz5aUC8X3W9ytWH
+        status: active
+        display_name: 王崇文
+        merged_into_person_id: null
 ---
 
 # 王崇禮
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_7xPYAwpK8PS9R7QKy5varP | 王珣 | accepted |
+| other | p_skjKvTKbz5aUC8X3W9ytWH | 王崇文 | accepted |
 
 ## 外部来源
 

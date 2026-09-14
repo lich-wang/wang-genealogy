@@ -4,7 +4,7 @@ id: p_5HHB1Hb4zKCj9LE68zB5ne
 status: active
 merged_into: null
 display_name: 王文炳
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -194,7 +194,118 @@ relationships:
         display_name: 王惟賢
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Pchj_RlLwpPSVTRaTaqfEI
+        subject_person_id: p_4y4hsyWFb4sdDAPsmZsNBQ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_5HHB1Hb4zKCj9LE68zB5ne
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gDPP1Jdz2nNoLdBL4J2ed0
+          claim_id: c_Pchj_RlLwpPSVTRaTaqfEI
+          source_id: s_ku3mU0Nlzdrt0e3BoFfdI0
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126458 王文炳）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ku3mU0Nlzdrt0e3BoFfdI0
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文燈（CBDB 316805）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316805&o=json
+            external_identifier: CBDB:316805
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4y4hsyWFb4sdDAPsmZsNBQ
+        status: active
+        display_name: 王文燈
+        merged_into_person_id: null
+    - claim:
+        id: c_vyxe-emjGGvRxw7ET1upZn
+        subject_person_id: p_5HHB1Hb4zKCj9LE68zB5ne
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_9Mxu2joESQeGJeXNQk3MVP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lf2rvJz-Qewd_a9vrH10R0
+          claim_id: c_vyxe-emjGGvRxw7ET1upZn
+          source_id: s_r0fhVf2-pVfpRl2j_jzsjW
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126458 王文炳）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_r0fhVf2-pVfpRl2j_jzsjW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文炤（CBDB 316804）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316804&o=json
+            external_identifier: CBDB:316804
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9Mxu2joESQeGJeXNQk3MVP
+        status: active
+        display_name: 王文炤
+        merged_into_person_id: null
+    - claim:
+        id: c_JJMQfvFoXpNgsSxNFqGoDw
+        subject_person_id: p_5HHB1Hb4zKCj9LE68zB5ne
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Dx7DJAFgKcf2Mjx7rmznYb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_medjaYjw5zS-oXEneGH89O
+          claim_id: c_JJMQfvFoXpNgsSxNFqGoDw
+          source_id: s_seTzuXIsfjNqlkgugCB4hq
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126458 王文炳）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_seTzuXIsfjNqlkgugCB4hq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文煒（CBDB 316803）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316803&o=json
+            external_identifier: CBDB:316803
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Dx7DJAFgKcf2Mjx7rmznYb
+        status: active
+        display_name: 王文煒
+        merged_into_person_id: null
 ---
 
 # 王文炳
@@ -216,8 +327,14 @@ relationships:
 | spouses | p_fWDv3QBk1AxnDZ9v9njKTe | 劉氏 | accepted |
 | ancestors | p_NwosFpCuQh3ufUu48APSSq | 王仁聞 | accepted |
 | ancestors | p_RH36Q687DBQKL7KyTH1YhU | 王惟賢 | accepted |
+| other | p_4y4hsyWFb4sdDAPsmZsNBQ | 王文燈 | accepted |
+| other | p_9Mxu2joESQeGJeXNQk3MVP | 王文炤 | accepted |
+| other | p_Dx7DJAFgKcf2Mjx7rmznYb | 王文煒 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：劉氏(王文炳妻)（CBDB 316801）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316801&o=json)
 - [中国历代人物传记资料库：王文炳（CBDB 126458）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126458&o=json)
+- [中国历代人物传记资料库：王文燈（CBDB 316805）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316805&o=json)
+- [中国历代人物传记资料库：王文煒（CBDB 316803）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316803&o=json)
+- [中国历代人物传记资料库：王文炤（CBDB 316804）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316804&o=json)

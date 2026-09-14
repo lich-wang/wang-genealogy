@@ -4,7 +4,7 @@ id: p_3NK6EhTAXgAtmFG5Dkqh4A
 status: active
 merged_into: null
 display_name: 王詔
-revision: 4
+revision: 9
 properties:
   - predicate: name.primary
     recommended:
@@ -239,7 +239,192 @@ relationships:
         display_name: 王理
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_cgZxDlxTVud9-mLsfNI1kT
+        subject_person_id: p_3NK6EhTAXgAtmFG5Dkqh4A
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_6d5u4KXShYSqA6iWUHjoz7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iVnzlLpPj2zN2JYfSVRJ4Z
+          claim_id: c_cgZxDlxTVud9-mLsfNI1kT
+          source_id: s_YlnKUFUreSQAoU5JD8dpsR
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 67938 王詔）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_YlnKUFUreSQAoU5JD8dpsR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王誥（CBDB 338053）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338053&o=json
+            external_identifier: CBDB:338053
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6d5u4KXShYSqA6iWUHjoz7
+        status: active
+        display_name: 王誥
+        merged_into_person_id: null
+    - claim:
+        id: c_rsy_19EfiywO_MyWkNQ6TA
+        subject_person_id: p_3NK6EhTAXgAtmFG5Dkqh4A
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_KjASpV4nMp6G93U6MZvKrH
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_t-GTqARjjpIxbh-QRw9NIi
+          claim_id: c_rsy_19EfiywO_MyWkNQ6TA
+          source_id: s_6llkNhKswqnk-ZzewW4Ogf
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 67938 王詔）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_6llkNhKswqnk-ZzewW4Ogf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鑾（CBDB 338064）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338064&o=json
+            external_identifier: CBDB:338064
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KjASpV4nMp6G93U6MZvKrH
+        status: active
+        display_name: 王鑾
+        merged_into_person_id: null
+    - claim:
+        id: c_eeGXq48k8kxALtINSxk9B2
+        subject_person_id: p_3NK6EhTAXgAtmFG5Dkqh4A
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_QCT1JrAAMuTrPdE9xk6A1T
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lI-hghq0tC4jFinRK2h8jL
+          claim_id: c_eeGXq48k8kxALtINSxk9B2
+          source_id: s_eREpNRDUeZq1XF9qCK4zG4
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 67938 王詔）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_eREpNRDUeZq1XF9qCK4zG4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王銘（CBDB 338020）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338020&o=json
+            external_identifier: CBDB:338020
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_QCT1JrAAMuTrPdE9xk6A1T
+        status: active
+        display_name: 王銘
+        merged_into_person_id: null
+    - claim:
+        id: c_VVBbsmHvyBBX7NnbNiLXZO
+        subject_person_id: p_3NK6EhTAXgAtmFG5Dkqh4A
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_jpTWPGGx48Ru5Dv5bx2XFG
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k2ZJMNSjKToN2ytWzHJ4I0
+          claim_id: c_VVBbsmHvyBBX7NnbNiLXZO
+          source_id: s_iYnsz-0x1smdRcH9FU-_WO
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 67938 王詔）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_iYnsz-0x1smdRcH9FU-_WO
+            source_type: api_record
+            title: 中国历代人物传记资料库：王讓（CBDB 338042）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338042&o=json
+            external_identifier: CBDB:338042
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jpTWPGGx48Ru5Dv5bx2XFG
+        status: active
+        display_name: 王讓
+        merged_into_person_id: null
+    - claim:
+        id: c_qrxfDnETqUQBdvbqLpWno8
+        subject_person_id: p_3NK6EhTAXgAtmFG5Dkqh4A
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qvCR1SY41Lq4VCNYzK347B
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hHk5hOYz9u3j4wMZLWxbrT
+          claim_id: c_qrxfDnETqUQBdvbqLpWno8
+          source_id: s_qHg30jFn1TV5h9OlK25_kU
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 67938 王詔）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_qHg30jFn1TV5h9OlK25_kU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王謙（CBDB 338031）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338031&o=json
+            external_identifier: CBDB:338031
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qvCR1SY41Lq4VCNYzK347B
+        status: active
+        display_name: 王謙
+        merged_into_person_id: null
 ---
 
 # 王詔
@@ -263,7 +448,17 @@ relationships:
 | spouses | p_hPJPD72anHdssJJebWQ769 | 曹氏 | accepted |
 | ancestors | p_1a4kV9bnUd3Gc32RqHYR8N | 王思义 | accepted |
 | ancestors | p_nmksiEiPj8BciQGG5LZXMB | 王理 | accepted |
+| other | p_6d5u4KXShYSqA6iWUHjoz7 | 王誥 | accepted |
+| other | p_KjASpV4nMp6G93U6MZvKrH | 王鑾 | accepted |
+| other | p_QCT1JrAAMuTrPdE9xk6A1T | 王銘 | accepted |
+| other | p_jpTWPGGx48Ru5Dv5bx2XFG | 王讓 | accepted |
+| other | p_qvCR1SY41Lq4VCNYzK347B | 王謙 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王誥（CBDB 338053）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338053&o=json)
+- [中国历代人物传记资料库：王鑾（CBDB 338064）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338064&o=json)
+- [中国历代人物传记资料库：王銘（CBDB 338020）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338020&o=json)
+- [中国历代人物传记资料库：王謙（CBDB 338031）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338031&o=json)
+- [中国历代人物传记资料库：王讓（CBDB 338042）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338042&o=json)
 - [中国历代人物传记资料库：王詔（CBDB 67938）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67938&o=json)

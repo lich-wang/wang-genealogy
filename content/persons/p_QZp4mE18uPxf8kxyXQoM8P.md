@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王明得
 cbdb_id: 526694
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -81,7 +81,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Ov5-Dq28MFqdzvrWeswtT7
+        subject_person_id: p_EcQN158QckfS61vuD4XpF3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_QZp4mE18uPxf8kxyXQoM8P
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ruJadoLhqx_6SvtbmqmMiK
+          claim_id: c_Ov5-Dq28MFqdzvrWeswtT7
+          source_id: s_0joB1TLqObNhBOob3qp-fN
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 526694 王明得）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0joB1TLqObNhBOob3qp-fN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王民（CBDB 69100）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69100&o=json
+            external_identifier: CBDB:69100
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EcQN158QckfS61vuD4XpF3
+        status: active
+        display_name: 王民
+        merged_into_person_id: null
 ---
 
 # 王明得
@@ -99,7 +136,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_EcQN158QckfS61vuD4XpF3 | 王民 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王民（CBDB 69100）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69100&o=json)
 - [中国历代人物传记资料库：王明得（CBDB 526694）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526694&o=json)

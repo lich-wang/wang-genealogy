@@ -4,7 +4,7 @@ id: p_jhKR5MKHXYzYiohEvbyxPE
 status: active
 merged_into: null
 display_name: 王大臨
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_JsaG7z0-FZM7iuRuZj3EyW
+        subject_person_id: p_bZcZfxCHimqNMGao1LQfLN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jhKR5MKHXYzYiohEvbyxPE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_5hHjfNFByKhvp485oqTrnS
+          claim_id: c_JsaG7z0-FZM7iuRuZj3EyW
+          source_id: s_2jobhJSns8qTViiGh_5efo
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 7381）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_2jobhJSns8qTViiGh_5efo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大臨（CBDB 10340）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10340&o=json
+            external_identifier: CBDB:10340
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_bZcZfxCHimqNMGao1LQfLN
+        status: active
+        display_name: 王蘋
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_bZcZfxCHimqNMGao1LQfLN | 王蘋 | accepted |
 
 ## 外部来源
 

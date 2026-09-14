@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仁祐
 cbdb_id: 378895
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -297,6 +297,43 @@ relationships:
         status: active
         display_name: 王氏
         merged_into_person_id: null
+    - claim:
+        id: c_i5ny4q6a0-6WG7Ou0X1a0b
+        subject_person_id: p_pw5PbWZzfQQNgNYXwrhd1t
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_SWML8bniWE5duih6zfBZ9o
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fC3nXWPkZLPCXGTMc0OSjE
+          claim_id: c_i5ny4q6a0-6WG7Ou0X1a0b
+          source_id: s_M75g-OqmTHyeY5mJdQGD0j
+          stance: supports
+          locator: CBDB：兄弟 王氏（444806）之父／母 王仁祐
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王全信 与 王氏 为同胞（CBDB 记「妹」），王氏 之父／母即 王全信 之父／母。
+          source:
+            id: s_M75g-OqmTHyeY5mJdQGD0j
+            source_type: api_record
+            title: 中国历代人物传记资料库：王全信（CBDB 444949）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=444949&o=json
+            external_identifier: CBDB:444949
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_SWML8bniWE5duih6zfBZ9o
+        status: active
+        display_name: 王全信
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -396,6 +433,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_GcNA3tAmUdhWNfqQjUwGnM | 王皇后 | accepted |
 | children | p_q7Qd8bWirDBt2fuJ4Z1Gc2 | 王氏 | accepted |
+| children | p_SWML8bniWE5duih6zfBZ9o | 王全信 | accepted |
 | spouses | p_WQ5WNZ4pQzEpMo4mdqs5xb | 柳氏 | accepted |
 | ancestors | p_LYTwMBKkZHFra7uzWxA7r8 | 王思政 | accepted |
 
@@ -403,6 +441,7 @@ relationships:
 
 - [维基数据：王皇后（Q713112）](https://www.wikidata.org/wiki/Q713112)
 - [维基数据：王仁祐（Q10412105）](https://www.wikidata.org/wiki/Q10412105)
+- [中国历代人物传记资料库：王全信（CBDB 444949）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=444949&o=json)
 - [中文维基百科：王皇后 (唐高宗)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%9A%87%E5%90%8E_(%E5%94%90%E9%AB%98%E5%AE%97))
 - [中文维基百科：王仁祐](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BB%81%E7%A5%90)
 - [CBDB 中国历代人物传记资料库：王仁祐（378895）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=378895&o=json)

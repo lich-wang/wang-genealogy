@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王堯節
 cbdb_id: 301853
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -81,7 +81,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_iSwP8mdfC2dl5Hq8jq5E_R
+        subject_person_id: p_9PcP1eVw2Xs1K2J2cm2szS
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nwJRPY9m5PVUYB86Wk7N9k
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v7gbgKe7ZV-Altfk8Mp_ee
+          claim_id: c_iSwP8mdfC2dl5Hq8jq5E_R
+          source_id: s_WMMPEo0HO6yBIHFelxQ_NJ
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126715 王堯日）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_WMMPEo0HO6yBIHFelxQ_NJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王堯節（CBDB 301853）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301853&o=json
+            external_identifier: CBDB:301853
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9PcP1eVw2Xs1K2J2cm2szS
+        status: active
+        display_name: 王堯日
+        merged_into_person_id: null
 ---
 
 # 王堯節
@@ -99,6 +136,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_9PcP1eVw2Xs1K2J2cm2szS | 王堯日 | accepted |
 
 ## 外部来源
 

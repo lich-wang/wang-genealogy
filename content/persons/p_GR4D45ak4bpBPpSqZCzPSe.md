@@ -4,7 +4,7 @@ id: p_GR4D45ak4bpBPpSqZCzPSe
 status: active
 merged_into: null
 display_name: 王汴
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c__wJB9Jnw0soFfWE-eL9V_t
+        subject_person_id: p_229EQbFCA3PP8BNNQ1HMQL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GR4D45ak4bpBPpSqZCzPSe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WU7lElwi3jKjQzycOnI3Eg
+          claim_id: c__wJB9Jnw0soFfWE-eL9V_t
+          source_id: s_hpe5C7-qQp9BphAkYwg5jJ
+          stance: supports
+          locator: CBDB：兄弟 王洙（202146）之父／母 王鎬
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王汴 与 王洙 为同胞（CBDB 记「弟」），王洙 之父／母即 王汴 之父／母。
+          source:
+            id: s_hpe5C7-qQp9BphAkYwg5jJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汴（CBDB 284254）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284254&o=json
+            external_identifier: CBDB:284254
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_229EQbFCA3PP8BNNQ1HMQL
+        status: active
+        display_name: 王鎬
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_0yk0VAioLCrlU_dJ6-YgA8
+        subject_person_id: p_GR4D45ak4bpBPpSqZCzPSe
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ziFePMbdNLKAgyGGN4BwgX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__ObqIvn-Udhhy6Bvgr9SOV
+          claim_id: c_0yk0VAioLCrlU_dJ6-YgA8
+          source_id: s_hpe5C7-qQp9BphAkYwg5jJ
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202146 王洙）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hpe5C7-qQp9BphAkYwg5jJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汴（CBDB 284254）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284254&o=json
+            external_identifier: CBDB:284254
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ziFePMbdNLKAgyGGN4BwgX
+        status: active
+        display_name: 王洙
+        merged_into_person_id: null
 ---
 
 # 王汴
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_229EQbFCA3PP8BNNQ1HMQL | 王鎬 | accepted |
+| other | p_ziFePMbdNLKAgyGGN4BwgX | 王洙 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王信之
 cbdb_id: 239110
-revision: 2
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -113,6 +113,117 @@ relationships:
         status: active
         display_name: 王鎮
         merged_into_person_id: null
+    - claim:
+        id: c_ces9Z-uNMg7f1G_YFy8MES
+        subject_person_id: p_b2MWJoRPw8eQD6tKTBzWN2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Mw6VH2JMwmJE9PBiDhv4CK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hhyMrDEVHKqsn6f0BbFBY1
+          claim_id: c_ces9Z-uNMg7f1G_YFy8MES
+          source_id: s_1dQjztfVc2_5CWP0WopvTb
+          stance: supports
+          locator: CBDB：兄弟 王鎮（208004）之父／母 王信之
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鎰 与 王鎮 为同胞（CBDB 记「弟」），王鎮 之父／母即 王鎰 之父／母。
+          source:
+            id: s_1dQjztfVc2_5CWP0WopvTb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎰（CBDB 239114）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239114&o=json
+            external_identifier: CBDB:239114
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Mw6VH2JMwmJE9PBiDhv4CK
+        status: active
+        display_name: 王鎰
+        merged_into_person_id: null
+    - claim:
+        id: c_NrKN3uEAj1-lX4KCxNAuwM
+        subject_person_id: p_b2MWJoRPw8eQD6tKTBzWN2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tyw5eLiEHesny1p23jQWBT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MF5E95ZHvcTV7D7vAl0_bG
+          claim_id: c_NrKN3uEAj1-lX4KCxNAuwM
+          source_id: s_5flcV1ySqdlB9fZlva5R3e
+          stance: supports
+          locator: CBDB：兄弟 王鎮（208004）之父／母 王信之
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鏞 与 王鎮 为同胞（CBDB 记「弟」），王鎮 之父／母即 王鏞 之父／母。
+          source:
+            id: s_5flcV1ySqdlB9fZlva5R3e
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鏞（CBDB 239113）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239113&o=json
+            external_identifier: CBDB:239113
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_tyw5eLiEHesny1p23jQWBT
+        status: active
+        display_name: 王鏞
+        merged_into_person_id: null
+    - claim:
+        id: c_iKRVoe4UXaUBn6pHVezbMV
+        subject_person_id: p_b2MWJoRPw8eQD6tKTBzWN2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xDr4NHjZFUhRWbvucZtNmA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VTG2PxtAme-mYDXi22Dni6
+          claim_id: c_iKRVoe4UXaUBn6pHVezbMV
+          source_id: s_QEFVRRcmdqaiWuQIq94LfJ
+          stance: supports
+          locator: CBDB：兄弟 王鎮（208004）之父／母 王信之
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王銳 与 王鎮 为同胞（CBDB 记「兄」），王鎮 之父／母即 王銳 之父／母。
+          source:
+            id: s_QEFVRRcmdqaiWuQIq94LfJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王銳（CBDB 239115）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239115&o=json
+            external_identifier: CBDB:239115
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xDr4NHjZFUhRWbvucZtNmA
+        status: active
+        display_name: 王銳
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -137,8 +248,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_EKnyL5yNzB3UQXTrkLtsAg | 王鎮 | accepted |
+| children | p_Mw6VH2JMwmJE9PBiDhv4CK | 王鎰 | accepted |
+| children | p_tyw5eLiEHesny1p23jQWBT | 王鏞 | accepted |
+| children | p_xDr4NHjZFUhRWbvucZtNmA | 王銳 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王銳（CBDB 239115）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239115&o=json)
 - [中国历代人物传记资料库：王信之（CBDB 239110）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239110&o=json)
+- [中国历代人物传记资料库：王鎰（CBDB 239114）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239114&o=json)
+- [中国历代人物传记资料库：王鏞（CBDB 239113）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239113&o=json)
 - [中国历代人物传记资料库：王鎮（CBDB 208004）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208004&o=json)

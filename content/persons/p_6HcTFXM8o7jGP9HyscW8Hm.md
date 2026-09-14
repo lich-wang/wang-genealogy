@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王胤祥
 cbdb_id: 126623
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -193,7 +193,44 @@ relationships:
         display_name: 王喜
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_l84u9gusRMZnJ4LVWoM1B1
+        subject_person_id: p_6HcTFXM8o7jGP9HyscW8Hm
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qFsNcQEnVHGE2g4yyYaLN1
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4DMoAJ7hmVnyJ_ShGihqdl
+          claim_id: c_l84u9gusRMZnJ4LVWoM1B1
+          source_id: s_VF3qrwNZZKSm6H3-KgBZV_
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126623 王胤祥）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_VF3qrwNZZKSm6H3-KgBZV_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王胤祜（CBDB 211339）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211339&o=json
+            external_identifier: CBDB:211339
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qFsNcQEnVHGE2g4yyYaLN1
+        status: active
+        display_name: 王胤祜
+        merged_into_person_id: null
 ---
 
 # 王胤祥
@@ -214,10 +251,12 @@ relationships:
 | parents | p_TdCGJkaDBDD2sDaykpJqA5 | 王枕 | accepted |
 | ancestors | p_Cnh4txyPLJW7HqXD58SfLB | 王潾 | accepted |
 | ancestors | p_thPKstWT5YUsKmwehAYcfL | 王喜 | accepted |
+| other | p_qFsNcQEnVHGE2g4yyYaLN1 | 王胤祜 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王潾（CBDB 211333）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211333&o=json)
 - [中国历代人物传记资料库：王喜（CBDB 211332）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211332&o=json)
+- [中国历代人物传记资料库：王胤祜（CBDB 211339）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211339&o=json)
 - [中国历代人物传记资料库：王胤祥（CBDB 126623）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126623&o=json)
 - [中国历代人物传记资料库：王枕（CBDB 211334）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211334&o=json)

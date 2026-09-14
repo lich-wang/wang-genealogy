@@ -4,7 +4,7 @@ id: p_vV52ECfgKpenuD9v8Dh9jq
 status: active
 merged_into: null
 display_name: 王施恩
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,80 @@ relationships:
         status: active
         display_name: 王曰然
         merged_into_person_id: null
+    - claim:
+        id: c_dy8vZVPJWl982tb6A2Dymc
+        subject_person_id: p_vV52ECfgKpenuD9v8Dh9jq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_b6HpJaKmbrdGDEF2KMtHGb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JLBrItSuhziAKVfH1XEMzm
+          claim_id: c_dy8vZVPJWl982tb6A2Dymc
+          source_id: s_D2V_sjlc8UgETOPWp2xPvG
+          stance: supports
+          locator: CBDB：兄弟 王曰然（203455）之父／母 王施恩
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王曰可 与 王曰然 为同胞（CBDB 记「兄」），王曰然 之父／母即 王曰可 之父／母。
+          source:
+            id: s_D2V_sjlc8UgETOPWp2xPvG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王曰可（CBDB 304959）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304959&o=json
+            external_identifier: CBDB:304959
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_b6HpJaKmbrdGDEF2KMtHGb
+        status: active
+        display_name: 王曰可
+        merged_into_person_id: null
+    - claim:
+        id: c_ADXUwA-VmCyrdtmW0P1QVl
+        subject_person_id: p_vV52ECfgKpenuD9v8Dh9jq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dDFgVcaeJ3A2LBwBjJhfEC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VXB-Ke-NsAgiUn53hsHXv1
+          claim_id: c_ADXUwA-VmCyrdtmW0P1QVl
+          source_id: s_vyQCwbFefY3lcyNhRfbDe9
+          stance: supports
+          locator: CBDB：兄弟 王曰然（203455）之父／母 王施恩
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王曰善 与 王曰然 为同胞（CBDB 记「兄」），王曰然 之父／母即 王曰善 之父／母。
+          source:
+            id: s_vyQCwbFefY3lcyNhRfbDe9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王曰善（CBDB 304961）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304961&o=json
+            external_identifier: CBDB:304961
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dDFgVcaeJ3A2LBwBjJhfEC
+        status: active
+        display_name: 王曰善
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_GMiqJBh7YQ1MMn468wZyQK | 王曰然 | accepted |
+| children | p_b6HpJaKmbrdGDEF2KMtHGb | 王曰可 | accepted |
+| children | p_dDFgVcaeJ3A2LBwBjJhfEC | 王曰善 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王施恩（CBDB 304956）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304956&o=json)
+- [中国历代人物传记资料库：王曰可（CBDB 304959）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304959&o=json)
+- [中国历代人物传记资料库：王曰善（CBDB 304961）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304961&o=json)

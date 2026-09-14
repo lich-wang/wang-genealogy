@@ -4,7 +4,7 @@ id: p_xZVFVfV8CQCzdHSD73eh6H
 status: active
 merged_into: null
 display_name: 王宗某
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -155,7 +155,118 @@ relationships:
         status: active
         display_name: 王振艱
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_vLiF06a1L9TGbnCtJGRm6x
+        subject_person_id: p_xZVFVfV8CQCzdHSD73eh6H
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KR1vacK9Wk4VKtR9RaVDsq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_DTnO7jroWL53iHOWZC0Qgq
+          claim_id: c_vLiF06a1L9TGbnCtJGRm6x
+          source_id: s_i4i-eU26IYsG4j2sxwzpB8
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 28618）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_i4i-eU26IYsG4j2sxwzpB8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王洙（CBDB 28623）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28623&o=json
+            external_identifier: CBDB:28623
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KR1vacK9Wk4VKtR9RaVDsq
+        status: active
+        display_name: 王洙
+        merged_into_person_id: null
+    - claim:
+        id: c_SImd_XJJGwRpXcK7VNu5Vw
+        subject_person_id: p_xZVFVfV8CQCzdHSD73eh6H
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Um72HYcp3p3KFjoRzv1aTv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_9FvdSH1n8ppsfyycc-2eLi
+          claim_id: c_SImd_XJJGwRpXcK7VNu5Vw
+          source_id: s_l6h4WvQVI4gxZU9Q2MLBLu
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 28618）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_l6h4WvQVI4gxZU9Q2MLBLu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王沂（CBDB 28615）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28615&o=json
+            external_identifier: CBDB:28615
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Um72HYcp3p3KFjoRzv1aTv
+        status: active
+        display_name: 王沂
+        merged_into_person_id: null
+    - claim:
+        id: c_lfFWW9xe0Cv4zlYPoW8KK_
+        subject_person_id: p_xZVFVfV8CQCzdHSD73eh6H
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_j2YV51vR8ErQb6U26N9WN1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_G3pim0rrS3HMaYIwOajuEN
+          claim_id: c_lfFWW9xe0Cv4zlYPoW8KK_
+          source_id: s_5WsLTlDXb7mV3aSnLzfhS5
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 28618）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_5WsLTlDXb7mV3aSnLzfhS5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王澄（CBDB 28622）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28622&o=json
+            external_identifier: CBDB:28622
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_j2YV51vR8ErQb6U26N9WN1
+        status: active
+        display_name: 王澄
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -234,9 +345,15 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_ELTFwpJhBRCdcynL2AFhCN | 王振艱 | accepted |
+| children | p_KR1vacK9Wk4VKtR9RaVDsq | 王洙 | accepted |
+| children | p_Um72HYcp3p3KFjoRzv1aTv | 王沂 | accepted |
+| children | p_j2YV51vR8ErQb6U26N9WN1 | 王澄 | accepted |
 | descendants | p_HiGLATjQNb5AR3bD57hVc9 | 王遷善 | accepted |
 | descendants | p_EgRz95qRGSQbLwKDLqNaqW | 王崇善 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王澄（CBDB 28622）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28622&o=json)
+- [中国历代人物传记资料库：王沂（CBDB 28615）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28615&o=json)
+- [中国历代人物传记资料库：王洙（CBDB 28623）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28623&o=json)
 - [中国历代人物传记资料库：王宗某（CBDB 28618）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28618&o=json)

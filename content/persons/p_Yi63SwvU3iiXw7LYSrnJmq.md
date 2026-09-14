@@ -4,7 +4,7 @@ id: p_Yi63SwvU3iiXw7LYSrnJmq
 status: active
 merged_into: null
 display_name: 王迪
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,81 @@ relationships:
         display_name: 王貴宗
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_PjGTXAJSaUtHeCAbXVWFeo
+        subject_person_id: p_EPQ4muHTFxT1vGnPNc3xmX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Yi63SwvU3iiXw7LYSrnJmq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CvEqTgZ5WCF8bK5ZZCjSgL
+          claim_id: c_PjGTXAJSaUtHeCAbXVWFeo
+          source_id: s_lEoeV2HUtTxp0ZKvLGvnYv
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200444 王迪）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_lEoeV2HUtTxp0ZKvLGvnYv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王逵（CBDB 257949）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257949&o=json
+            external_identifier: CBDB:257949
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EPQ4muHTFxT1vGnPNc3xmX
+        status: active
+        display_name: 王逵
+        merged_into_person_id: null
+    - claim:
+        id: c_iyEtYB50zlgw-mhRI0l7Vv
+        subject_person_id: p_Yi63SwvU3iiXw7LYSrnJmq
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_eDR6tLPhLCK8UJHjLtEsxB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0nYvUPIk-DsZ9jkyROUR6F
+          claim_id: c_iyEtYB50zlgw-mhRI0l7Vv
+          source_id: s_WWCliI28v2RFV1y9eLjzgp
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200444 王迪）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_WWCliI28v2RFV1y9eLjzgp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王達（CBDB 257948）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257948&o=json
+            external_identifier: CBDB:257948
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_eDR6tLPhLCK8UJHjLtEsxB
+        status: active
+        display_name: 王達
+        merged_into_person_id: null
 ---
 
 # 王迪
@@ -241,10 +315,14 @@ relationships:
 | parents | p_6viAMHrM5RymA1BEH8cpA3 | 王端 | accepted |
 | ancestors | p_hH6diG8nSC9Cnt9oMWDtBz | 王和 | accepted |
 | ancestors | p_ibF6Z8QN9uqFNhBFQK6BeC | 王貴宗 | accepted |
+| other | p_EPQ4muHTFxT1vGnPNc3xmX | 王逵 | accepted |
+| other | p_eDR6tLPhLCK8UJHjLtEsxB | 王達 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王達（CBDB 257948）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257948&o=json)
 - [中国历代人物传记资料库：王迪（CBDB 200444）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200444&o=json)
 - [中国历代人物传记资料库：王端（CBDB 257944）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257944&o=json)
 - [中国历代人物传记资料库：王貴宗（CBDB 257943）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257943&o=json)
 - [中国历代人物传记资料库：王和（CBDB 257942）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257942&o=json)
+- [中国历代人物传记资料库：王逵（CBDB 257949）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257949&o=json)

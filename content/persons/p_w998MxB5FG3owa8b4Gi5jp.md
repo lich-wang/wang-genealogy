@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王昭善
 cbdb_id: 287042
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -114,6 +114,43 @@ relationships:
         status: active
         display_name: 王詢
         merged_into_person_id: null
+    - claim:
+        id: c_jbaH4-G7F6VB5CqiVz7LS5
+        subject_person_id: p_w998MxB5FG3owa8b4Gi5jp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3kbLEyh3L5tbvL3QjK9tvL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bpDNZZ4B66qnnOUbNGvRHj
+          claim_id: c_jbaH4-G7F6VB5CqiVz7LS5
+          source_id: s_5pZpy7gt3PAMpMwcWMes7J
+          stance: supports
+          locator: CBDB：兄弟 王詢（202367）之父／母 王昭善
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王穩 与 王詢 为同胞（CBDB 记「弟」），王詢 之父／母即 王穩 之父／母。
+          source:
+            id: s_5pZpy7gt3PAMpMwcWMes7J
+            source_type: api_record
+            title: 中国历代人物传记资料库：王穩（CBDB 287044）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287044&o=json
+            external_identifier: CBDB:287044
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3kbLEyh3L5tbvL3QjK9tvL
+        status: active
+        display_name: 王穩
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -138,7 +175,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_wKQiP1EfRixbApmFB2CXep | 王詢 | accepted |
+| children | p_3kbLEyh3L5tbvL3QjK9tvL | 王穩 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王穩（CBDB 287044）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287044&o=json)
 - [中国历代人物传记资料库：王昭善（CBDB 287042）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287042&o=json)

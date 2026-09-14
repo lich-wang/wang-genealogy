@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王師臣
 cbdb_id: 235993
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_cbKllJOffaUYRM8Q5exbXv
+        subject_person_id: p_fvtdZEELHENMPdwBvRdppk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UAmpr69dPGf7GW8GVYTezF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kqMDZMMOEZn_Q9Cg-4wT7Z
+          claim_id: c_cbKllJOffaUYRM8Q5exbXv
+          source_id: s_CdRnM4xBSlblFIG0tTI0BB
+          stance: supports
+          locator: CBDB：兄弟 王良臣（207791）之父／母 王維城
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王師臣 与 王良臣 为同胞（CBDB 记「兄」），王良臣 之父／母即 王師臣 之父／母。
+          source:
+            id: s_CdRnM4xBSlblFIG0tTI0BB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王師臣（CBDB 235993）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235993&o=json
+            external_identifier: CBDB:235993
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fvtdZEELHENMPdwBvRdppk
+        status: active
+        display_name: 王維城
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_rmTDhhH0fj8m6f4Zfhp5y8
+        subject_person_id: p_UAmpr69dPGf7GW8GVYTezF
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Qpigy3xBx9G_0bOUGvJ9gz
+          claim_id: c_rmTDhhH0fj8m6f4Zfhp5y8
+          source_id: s_CdRnM4xBSlblFIG0tTI0BB
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207791 王良臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_CdRnM4xBSlblFIG0tTI0BB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王師臣（CBDB 235993）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235993&o=json
+            external_identifier: CBDB:235993
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fVwHvivQzDYcoN8uZB1uwy
+        status: active
+        display_name: 王良臣
+        merged_into_person_id: null
 ---
 
 # 王師臣
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_fvtdZEELHENMPdwBvRdppk | 王維城 | accepted |
+| other | p_fVwHvivQzDYcoN8uZB1uwy | 王良臣 | accepted |
 
 ## 外部来源
 

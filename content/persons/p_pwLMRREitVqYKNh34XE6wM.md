@@ -4,7 +4,7 @@ id: p_pwLMRREitVqYKNh34XE6wM
 status: active
 merged_into: null
 display_name: 王壐
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_XTlnSOW7cD-6rxVyoMa8BT
+        subject_person_id: p_w5pNEVYCVJAEuFuR4sLpcJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pwLMRREitVqYKNh34XE6wM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3BiLyXunHu8RBa3xTiAfz_
+          claim_id: c_XTlnSOW7cD-6rxVyoMa8BT
+          source_id: s_xP1e3mURZ2WiMRekROIaXK
+          stance: supports
+          locator: CBDB：兄弟 王坊（201535）之父／母 王弼
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王壐 与 王坊 为同胞（CBDB 记「兄」），王坊 之父／母即 王壐 之父／母。
+          source:
+            id: s_xP1e3mURZ2WiMRekROIaXK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王壐（CBDB 273955）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273955&o=json
+            external_identifier: CBDB:273955
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_w5pNEVYCVJAEuFuR4sLpcJ
+        status: active
+        display_name: 王弼
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_soJK_44IBKNZe6C51lGrVp
+        subject_person_id: p_mXq9uxGc8pg1wHpdoUPQx2
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_pwLMRREitVqYKNh34XE6wM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vcJfmQDF9QyzxMSfhRzvhf
+          claim_id: c_soJK_44IBKNZe6C51lGrVp
+          source_id: s_xP1e3mURZ2WiMRekROIaXK
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201535 王坊）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_xP1e3mURZ2WiMRekROIaXK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王壐（CBDB 273955）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273955&o=json
+            external_identifier: CBDB:273955
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mXq9uxGc8pg1wHpdoUPQx2
+        status: active
+        display_name: 王坊
+        merged_into_person_id: null
 ---
 
 # 王壐
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_w5pNEVYCVJAEuFuR4sLpcJ | 王弼 | accepted |
+| other | p_mXq9uxGc8pg1wHpdoUPQx2 | 王坊 | accepted |
 
 ## 外部来源
 

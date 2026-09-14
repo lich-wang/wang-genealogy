@@ -4,7 +4,7 @@ id: p_mHn5jwES88buhNttuppCPJ
 status: active
 merged_into: null
 display_name: 王卿月
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -155,7 +155,44 @@ relationships:
         status: active
         display_name: 王思正
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_jOcd2liXXuZFmAuQFZQ9AL
+        subject_person_id: p_mHn5jwES88buhNttuppCPJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9Qv4fnxmNanZo1jw1xR9XD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_e2ykVQHcSUwPNcQqO2NYoY
+          claim_id: c_jOcd2liXXuZFmAuQFZQ9AL
+          source_id: s_mLSKuuZQCiyJtEOepe0qFp
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 10127）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_mLSKuuZQCiyJtEOepe0qFp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王好生（CBDB 10130）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10130&o=json
+            external_identifier: CBDB:10130
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9Qv4fnxmNanZo1jw1xR9XD
+        status: active
+        display_name: 王好生
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -182,7 +219,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_57MTn7oNzVBW49Kp5crHea | 王思正 | accepted |
+| children | p_9Qv4fnxmNanZo1jw1xR9XD | 王好生 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王好生（CBDB 10130）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10130&o=json)
 - [中国历代人物传记资料库：王卿月（CBDB 10127）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10127&o=json)

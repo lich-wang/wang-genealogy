@@ -4,7 +4,7 @@ id: p_e4DAa8yV3zFmoVRECMT3J6
 status: active
 merged_into: null
 display_name: 王頔
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,81 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ma8zXjILTfbw5E9fvwePzb
+        subject_person_id: p_7iC5uF8bUt3SWiQyDWsGWp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_e4DAa8yV3zFmoVRECMT3J6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_ZVHAvSu0mLyLD6V-5XR18B
+          claim_id: c_ma8zXjILTfbw5E9fvwePzb
+          source_id: s_WL1PYChzB4Vy4ihq1w4mr7
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 12158）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_WL1PYChzB4Vy4ihq1w4mr7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王頔（CBDB 12170）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12170&o=json
+            external_identifier: CBDB:12170
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7iC5uF8bUt3SWiQyDWsGWp
+        status: active
+        display_name: 王庭珪
+        merged_into_person_id: null
+    - claim:
+        id: c_2UoZBD8WCWoqiFg1P82xub
+        subject_person_id: p_fLPhak96xTAXhLbiBNKCpn
+        claim_kind: relationship
+        predicate: kinship.mother_of
+        object_person_id: p_e4DAa8yV3zFmoVRECMT3J6
+        generation_count: null
+        parent_role: mother
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_8iUldxoFMoIuqEEyDkRmSN
+          claim_id: c_2UoZBD8WCWoqiFg1P82xub
+          source_id: s_WL1PYChzB4Vy4ihq1w4mr7
+          stance: supports
+          locator: CBDB 亲属：母（KinPerson 37929）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_WL1PYChzB4Vy4ihq1w4mr7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王頔（CBDB 12170）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12170&o=json
+            external_identifier: CBDB:12170
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fLPhak96xTAXhLbiBNKCpn
+        status: active
+        display_name: 劉氏
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +229,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_7iC5uF8bUt3SWiQyDWsGWp | 王庭珪 | accepted |
+| parents | p_fLPhak96xTAXhLbiBNKCpn | 劉氏 | accepted |
 
 ## 外部来源
 

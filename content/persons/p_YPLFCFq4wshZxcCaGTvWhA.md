@@ -4,7 +4,7 @@ id: p_YPLFCFq4wshZxcCaGTvWhA
 status: active
 merged_into: null
 display_name: 王常
-revision: 4
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,118 @@ relationships:
         display_name: 王隱卿
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_3vWvCOIkMan6IfGbcIXX8n
+        subject_person_id: p_1saj8PKzKgTyEqQUoF93cW
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_YPLFCFq4wshZxcCaGTvWhA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZC2FqRcEliQyOYcxKn_n71
+          claim_id: c_3vWvCOIkMan6IfGbcIXX8n
+          source_id: s_YzlJBCtr7LgIs_HQM1DSUi
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 208095 王常）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_YzlJBCtr7LgIs_HQM1DSUi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大紀（CBDB 240374）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240374&o=json
+            external_identifier: CBDB:240374
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1saj8PKzKgTyEqQUoF93cW
+        status: active
+        display_name: 王大紀
+        merged_into_person_id: null
+    - claim:
+        id: c_1vVDEHVOTEWjui7LFoyB_S
+        subject_person_id: p_YPLFCFq4wshZxcCaGTvWhA
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_bBpSfr4LaCNhBodZQ1Wk9d
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YyBZ3tmtNESfGcU1BxnIGT
+          claim_id: c_1vVDEHVOTEWjui7LFoyB_S
+          source_id: s_3XiZ-qUFtYuGNzOfGhX3V6
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 208095 王常）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_3XiZ-qUFtYuGNzOfGhX3V6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大綱（CBDB 240373）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240373&o=json
+            external_identifier: CBDB:240373
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_bBpSfr4LaCNhBodZQ1Wk9d
+        status: active
+        display_name: 王大綱
+        merged_into_person_id: null
+    - claim:
+        id: c_MAH9wzg6gnvsxK6zFD6oEG
+        subject_person_id: p_YPLFCFq4wshZxcCaGTvWhA
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dyMAGguYseEqauvPXY6QCm
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1ei4bf459ALhvWQrR_GQce
+          claim_id: c_MAH9wzg6gnvsxK6zFD6oEG
+          source_id: s_gSKZrwDAiSvpRbLQ1oR35v
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 208095 王常）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_gSKZrwDAiSvpRbLQ1oR35v
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大綸（CBDB 240372）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240372&o=json
+            external_identifier: CBDB:240372
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dyMAGguYseEqauvPXY6QCm
+        status: active
+        display_name: 王大綸
+        merged_into_person_id: null
 ---
 
 # 王常
@@ -241,10 +352,16 @@ relationships:
 | parents | p_C5Fmj2W6LjNNLVnMBPi6k6 | 王汝為 | accepted |
 | ancestors | p_GP3BzV5HnSBguScGwgcJbu | 王思敬 | accepted |
 | ancestors | p_LXVSMfmUiLLAkLsMQXrEbf | 王隱卿 | accepted |
+| other | p_1saj8PKzKgTyEqQUoF93cW | 王大紀 | accepted |
+| other | p_bBpSfr4LaCNhBodZQ1Wk9d | 王大綱 | accepted |
+| other | p_dyMAGguYseEqauvPXY6QCm | 王大綸 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王常（CBDB 208095）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208095&o=json)
+- [中国历代人物传记资料库：王大綱（CBDB 240373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240373&o=json)
+- [中国历代人物传记资料库：王大紀（CBDB 240374）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240374&o=json)
+- [中国历代人物传记资料库：王大綸（CBDB 240372）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240372&o=json)
 - [中国历代人物传记资料库：王汝為（CBDB 240369）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240369&o=json)
 - [中国历代人物传记资料库：王思敬（CBDB 240368）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240368&o=json)
 - [中国历代人物传记资料库：王隱卿（CBDB 240367）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240367&o=json)

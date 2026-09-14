@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王徽猷
 cbdb_id: 204879
-revision: 4
+revision: 10
 properties:
   - predicate: bio.summary
     recommended:
@@ -237,7 +237,229 @@ relationships:
         display_name: 王崇欽
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_uXTB7K5QFKb5bnMwNjlA3L
+        subject_person_id: p_DLWA6KWBazENASg8cbnra6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_N1zXfVAzsHV9UYAEDLb5C7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VgGXCv1Zf7vfOulD25cGim
+          claim_id: c_uXTB7K5QFKb5bnMwNjlA3L
+          source_id: s_6Ku9nWZjMtsmuII5894L_X
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204879 王徽猷）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_6Ku9nWZjMtsmuII5894L_X
+            source_type: api_record
+            title: 中国历代人物传记资料库：王徽謨（CBDB 325300）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325300&o=json
+            external_identifier: CBDB:325300
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DLWA6KWBazENASg8cbnra6
+        status: active
+        display_name: 王徽謨
+        merged_into_person_id: null
+    - claim:
+        id: c_GpleIDba0ArycvTD8YukTD
+        subject_person_id: p_N1zXfVAzsHV9UYAEDLb5C7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RB5jjWuze4xAiCmQ2mD8Z9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9O4afLX4SveZKp4rEijJlb
+          claim_id: c_GpleIDba0ArycvTD8YukTD
+          source_id: s_TBUTvX41_QDsheYQT0ISHR
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204879 王徽猷）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_TBUTvX41_QDsheYQT0ISHR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王徽詔（CBDB 325304）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325304&o=json
+            external_identifier: CBDB:325304
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_RB5jjWuze4xAiCmQ2mD8Z9
+        status: active
+        display_name: 王徽詔
+        merged_into_person_id: null
+    - claim:
+        id: c_W2iF6rqNDRGadhmJDwPAvx
+        subject_person_id: p_N1zXfVAzsHV9UYAEDLb5C7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ayycRJwvXJ67FqzLiFbkse
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LaRDczxlWk5kMyvud7CHiX
+          claim_id: c_W2iF6rqNDRGadhmJDwPAvx
+          source_id: s_DLQbWfkuYTJZLCu0ImFk4H
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204879 王徽猷）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_DLQbWfkuYTJZLCu0ImFk4H
+            source_type: api_record
+            title: 中国历代人物传记资料库：王徽音（CBDB 325302）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325302&o=json
+            external_identifier: CBDB:325302
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ayycRJwvXJ67FqzLiFbkse
+        status: active
+        display_name: 王徽音
+        merged_into_person_id: null
+    - claim:
+        id: c_T53jTLucKjlEmKJAxJ0Txw
+        subject_person_id: p_N1zXfVAzsHV9UYAEDLb5C7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_cuJXESrHNHNJnuEBq421dH
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TOdaNcKl_3I3AJAiY00ABR
+          claim_id: c_T53jTLucKjlEmKJAxJ0Txw
+          source_id: s_TNxpCLt2VhYe5lWZUgqrUS
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204879 王徽猷）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_TNxpCLt2VhYe5lWZUgqrUS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王徽謙（CBDB 325303）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325303&o=json
+            external_identifier: CBDB:325303
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cuJXESrHNHNJnuEBq421dH
+        status: active
+        display_name: 王徽謙
+        merged_into_person_id: null
+    - claim:
+        id: c_qsq5ecTX0B0pXfGkmFmbAc
+        subject_person_id: p_N1zXfVAzsHV9UYAEDLb5C7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dUCJ9SoZn1KdAvaSuLiGkN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WNuEtvxuLDCMCXkkrfHF9z
+          claim_id: c_qsq5ecTX0B0pXfGkmFmbAc
+          source_id: s_0jHWmhlhIBNyHfHrrSlMVI
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204879 王徽猷）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0jHWmhlhIBNyHfHrrSlMVI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王徽言（CBDB 325299）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325299&o=json
+            external_identifier: CBDB:325299
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dUCJ9SoZn1KdAvaSuLiGkN
+        status: active
+        display_name: 王徽言
+        merged_into_person_id: null
+    - claim:
+        id: c_grEPD2HGPPn5RJPOZ8c1T8
+        subject_person_id: p_N1zXfVAzsHV9UYAEDLb5C7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kbvpaoHr9vrPi8zX9FPCfJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lEazY7OQb1rHAFqfFqpx8r
+          claim_id: c_grEPD2HGPPn5RJPOZ8c1T8
+          source_id: s_VuUNUCZStW5ixDUw0reoO8
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204879 王徽猷）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_VuUNUCZStW5ixDUw0reoO8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王徽典（CBDB 325301）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325301&o=json
+            external_identifier: CBDB:325301
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kbvpaoHr9vrPi8zX9FPCfJ
+        status: active
+        display_name: 王徽典
+        merged_into_person_id: null
 ---
 
 # 王徽猷
@@ -259,10 +481,22 @@ relationships:
 | parents | p_v2Fkat16mGPQiTSwTrQAp8 | 王宦 | accepted |
 | ancestors | p_1HXDM8KKMTLtxbW9bTRp2c | 王瑞珎 | accepted |
 | ancestors | p_dRS9X7dMoZBqTacJWGcvH3 | 王崇欽 | accepted |
+| other | p_DLWA6KWBazENASg8cbnra6 | 王徽謨 | accepted |
+| other | p_RB5jjWuze4xAiCmQ2mD8Z9 | 王徽詔 | accepted |
+| other | p_ayycRJwvXJ67FqzLiFbkse | 王徽音 | accepted |
+| other | p_cuJXESrHNHNJnuEBq421dH | 王徽謙 | accepted |
+| other | p_dUCJ9SoZn1KdAvaSuLiGkN | 王徽言 | accepted |
+| other | p_kbvpaoHr9vrPi8zX9FPCfJ | 王徽典 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王崇欽（CBDB 325293）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325293&o=json)
 - [中国历代人物传记资料库：王宦（CBDB 325295）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325295&o=json)
+- [中国历代人物传记资料库：王徽典（CBDB 325301）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325301&o=json)
+- [中国历代人物传记资料库：王徽謨（CBDB 325300）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325300&o=json)
+- [中国历代人物传记资料库：王徽謙（CBDB 325303）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325303&o=json)
+- [中国历代人物传记资料库：王徽言（CBDB 325299）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325299&o=json)
+- [中国历代人物传记资料库：王徽音（CBDB 325302）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325302&o=json)
 - [中国历代人物传记资料库：王徽猷（CBDB 204879）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204879&o=json)
+- [中国历代人物传记资料库：王徽詔（CBDB 325304）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325304&o=json)
 - [中国历代人物传记资料库：王瑞珎（CBDB 325294）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325294&o=json)

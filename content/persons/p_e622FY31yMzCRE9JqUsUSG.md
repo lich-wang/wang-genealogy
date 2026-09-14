@@ -4,7 +4,7 @@ id: p_e622FY31yMzCRE9JqUsUSG
 status: active
 merged_into: null
 display_name: 王恕
-revision: 5
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -412,6 +412,43 @@ relationships:
         status: active
         display_name: 王承禋
         merged_into_person_id: null
+    - claim:
+        id: c_3HilV8x4IFcSsxOzEqUVDW
+        subject_person_id: p_e622FY31yMzCRE9JqUsUSG
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_HtQj8XUtC1Qei75JBGkWDc
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v46uh-kNPktvM_ffTQMBRz
+          claim_id: c_3HilV8x4IFcSsxOzEqUVDW
+          source_id: s_-r3mBHYvWUf6kOxaJby9ub
+          stance: supports
+          locator: CBDB：兄弟 王承裕（62505）之父／母 王恕
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王忠 与 王承裕 为同胞（CBDB 记「弟」），王承裕 之父／母即 王忠 之父／母。
+          source:
+            id: s_-r3mBHYvWUf6kOxaJby9ub
+            source_type: api_record
+            title: 中国历代人物传记资料库：王忠（CBDB 240862）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240862&o=json
+            external_identifier: CBDB:240862
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HtQj8XUtC1Qei75JBGkWDc
+        status: active
+        display_name: 王忠
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -592,6 +629,7 @@ relationships:
 | children | p_Rt8zszeV3ee7gT623mGP46 | 王承祥 | accepted |
 | children | p_3M6kuHH9zakyDuQ7sPhqpb | 王承祿 | accepted |
 | children | p_zgv1SMZqH9eDf28KchsL7f | 王承禋 | accepted |
+| children | p_HtQj8XUtC1Qei75JBGkWDc | 王忠 | accepted |
 | spouses | p_6YXXSJdAPJLEUzeSSmAThW | 盖氏 | accepted |
 | ancestors | p_1LjXtHaC5ZgBX5ntEmabuX | 王彦成 | accepted |
 | ancestors | p_m8pEmRBSH6ayXuTKwEAjBF | 王惟真 | accepted |
@@ -606,6 +644,7 @@ relationships:
 - [中国历代人物传记资料库：王承祿（CBDB 264046）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264046&o=json)
 - [中国历代人物传记资料库：王承祥（CBDB 264048）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264048&o=json)
 - [中国历代人物传记资料库：王承禋（CBDB 264049）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264049&o=json)
+- [中国历代人物传记资料库：王忠（CBDB 240862）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240862&o=json)
 - [中文维基百科：王恕 (正统进士)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%81%95_(%E6%AD%A3%E7%BB%9F%E8%BF%9B%E5%A3%AB))
 - [CBDB 中国历代人物传记资料库：王恕（62505）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=62505&o=json)
 - [CBDB 中国历代人物传记资料库：王惟真（240858）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240858&o=json)

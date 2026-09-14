@@ -4,7 +4,7 @@ id: p_ZM7rXFHSqnZtQ8K9spE336
 status: active
 merged_into: null
 display_name: 王頊
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_K_Vk14-nKk6zLFRk1b8A2P
+        subject_person_id: p_iBEGCX4PVUP88xatAFkBy4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZM7rXFHSqnZtQ8K9spE336
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QFy40f_pxZGzvhbOuaNesa
+          claim_id: c_K_Vk14-nKk6zLFRk1b8A2P
+          source_id: s_5uKNVWpN57fwHD0inhVERZ
+          stance: supports
+          locator: CBDB：兄弟 王珪（198426）之父／母 王士安
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王頊 与 王珪 为同胞（CBDB 记「兄」），王珪 之父／母即 王頊 之父／母。
+          source:
+            id: s_5uKNVWpN57fwHD0inhVERZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王頊（CBDB 270705）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270705&o=json
+            external_identifier: CBDB:270705
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_iBEGCX4PVUP88xatAFkBy4
+        status: active
+        display_name: 王士安
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_hj7nBxqsJOOsH9jf430CXj
+        subject_person_id: p_CvioAH4pK1gg7UWTM6DCMS
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ZM7rXFHSqnZtQ8K9spE336
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9tBIUcC1jnV-IkL6WwrPWd
+          claim_id: c_hj7nBxqsJOOsH9jf430CXj
+          source_id: s_5uKNVWpN57fwHD0inhVERZ
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198426 王珪）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_5uKNVWpN57fwHD0inhVERZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王頊（CBDB 270705）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270705&o=json
+            external_identifier: CBDB:270705
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CvioAH4pK1gg7UWTM6DCMS
+        status: active
+        display_name: 王珪
+        merged_into_person_id: null
 ---
 
 # 王頊
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_iBEGCX4PVUP88xatAFkBy4 | 王士安 | accepted |
+| other | p_CvioAH4pK1gg7UWTM6DCMS | 王珪 | accepted |
 
 ## 外部来源
 

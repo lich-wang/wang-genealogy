@@ -4,7 +4,7 @@ id: p_ynQe45xhMHwcsbW4fYyuNe
 status: active
 merged_into: null
 display_name: 王命
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,43 @@ relationships:
         status: active
         display_name: 王頤
         merged_into_person_id: null
+    - claim:
+        id: c_EnGGNwBfB9pZWJT6pwif8t
+        subject_person_id: p_ynQe45xhMHwcsbW4fYyuNe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PpuMiMEEk8C33Mk9DLKgxC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZXkZnG3f0QdETFvpdiDW69
+          claim_id: c_EnGGNwBfB9pZWJT6pwif8t
+          source_id: s__69DmLjRtCSrPG27ZbM1qU
+          stance: supports
+          locator: CBDB：兄弟 王頤（205673）之父／母 王命
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王顥 与 王頤 为同胞（CBDB 记「弟」），王頤 之父／母即 王顥 之父／母。
+          source:
+            id: s__69DmLjRtCSrPG27ZbM1qU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王顥（CBDB 336763）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336763&o=json
+            external_identifier: CBDB:336763
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PpuMiMEEk8C33Mk9DLKgxC
+        status: active
+        display_name: 王顥
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_PkVHbp7ooYr1QRfwUsQL7L | 王頤 | accepted |
+| children | p_PpuMiMEEk8C33Mk9DLKgxC | 王顥 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王顥（CBDB 336763）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336763&o=json)
 - [中国历代人物传记资料库：王命（CBDB 336760）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336760&o=json)

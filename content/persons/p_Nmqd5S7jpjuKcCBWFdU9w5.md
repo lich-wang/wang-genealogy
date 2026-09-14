@@ -4,7 +4,7 @@ id: p_Nmqd5S7jpjuKcCBWFdU9w5
 status: active
 merged_into: null
 display_name: 王儒
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,80 @@ relationships:
         status: active
         display_name: 王見賓
         merged_into_person_id: null
+    - claim:
+        id: c__TL6KXkqBxiq4Nh9RdQDkw
+        subject_person_id: p_Nmqd5S7jpjuKcCBWFdU9w5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NzL4F281vP2ZiqQ55NiAZ7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B8PTkKvJhSgBkAMZhC1Tq5
+          claim_id: c__TL6KXkqBxiq4Nh9RdQDkw
+          source_id: s_5zcngZmRkiY6S7mjRXDphh
+          stance: supports
+          locator: CBDB：兄弟 王見賓（206099）之父／母 王儒
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王用召 与 王見賓 为同胞（CBDB 记「弟」），王見賓 之父／母即 王用召 之父／母。
+          source:
+            id: s_5zcngZmRkiY6S7mjRXDphh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用召（CBDB 213304）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213304&o=json
+            external_identifier: CBDB:213304
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NzL4F281vP2ZiqQ55NiAZ7
+        status: active
+        display_name: 王用召
+        merged_into_person_id: null
+    - claim:
+        id: c_8fuhpnfsyDP9u8GTUoVl8R
+        subject_person_id: p_Nmqd5S7jpjuKcCBWFdU9w5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_SddaHheWGUieb7FEFMobS6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FiBjqaU6iQYzf9oJNcUEmV
+          claim_id: c_8fuhpnfsyDP9u8GTUoVl8R
+          source_id: s_HJHf_iZoiqcl-mqME5U3jf
+          stance: supports
+          locator: CBDB：兄弟 王見賓（206099）之父／母 王儒
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王用畢 与 王見賓 为同胞（CBDB 记「弟」），王見賓 之父／母即 王用畢 之父／母。
+          source:
+            id: s_HJHf_iZoiqcl-mqME5U3jf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用畢（CBDB 213305）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213305&o=json
+            external_identifier: CBDB:213305
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_SddaHheWGUieb7FEFMobS6
+        status: active
+        display_name: 王用畢
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_BDGbLxvCTFWSUvdwVPuxPV | 王見賓 | accepted |
+| children | p_NzL4F281vP2ZiqQ55NiAZ7 | 王用召 | accepted |
+| children | p_SddaHheWGUieb7FEFMobS6 | 王用畢 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王儒（CBDB 213300）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213300&o=json)
+- [中国历代人物传记资料库：王用畢（CBDB 213305）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213305&o=json)
+- [中国历代人物传记资料库：王用召（CBDB 213304）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213304&o=json)

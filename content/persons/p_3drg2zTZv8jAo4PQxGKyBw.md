@@ -4,7 +4,7 @@ id: p_3drg2zTZv8jAo4PQxGKyBw
 status: active
 merged_into: null
 display_name: 王鵬
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_qVrZ4_Ue5suz5n1Q39Y5In
+        subject_person_id: p_THF2LeRLB4NBKZ9TDPgftt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3drg2zTZv8jAo4PQxGKyBw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Yv5DuKIAR7L1qRCiwgvDiC
+          claim_id: c_qVrZ4_Ue5suz5n1Q39Y5In
+          source_id: s_HBJGX9NY7Iaruv_duecDRH
+          stance: supports
+          locator: CBDB：兄弟 王俸（200767）之父／母 王叔紀
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鵬 与 王俸 为同胞（CBDB 记「弟」），王俸 之父／母即 王鵬 之父／母。
+          source:
+            id: s_HBJGX9NY7Iaruv_duecDRH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鵬（CBDB 262608）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262608&o=json
+            external_identifier: CBDB:262608
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_THF2LeRLB4NBKZ9TDPgftt
+        status: active
+        display_name: 王叔紀
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_mpdQgBAhh5H17KrXBv8PC5
+        subject_person_id: p_2ivdyuT2PUd95aURm25j3Y
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_3drg2zTZv8jAo4PQxGKyBw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wvLI4Aar9tPIgIUz6Lu-jv
+          claim_id: c_mpdQgBAhh5H17KrXBv8PC5
+          source_id: s_HBJGX9NY7Iaruv_duecDRH
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200767 王俸）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_HBJGX9NY7Iaruv_duecDRH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鵬（CBDB 262608）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262608&o=json
+            external_identifier: CBDB:262608
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2ivdyuT2PUd95aURm25j3Y
+        status: active
+        display_name: 王俸
+        merged_into_person_id: null
 ---
 
 # 王鵬
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_THF2LeRLB4NBKZ9TDPgftt | 王叔紀 | accepted |
+| other | p_2ivdyuT2PUd95aURm25j3Y | 王俸 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王紹某
 cbdb_id: 278854
-revision: 2
+revision: 10
 properties:
   - predicate: bio.summary
     recommended:
@@ -113,6 +113,302 @@ relationships:
         status: active
         display_name: 王完
         merged_into_person_id: null
+    - claim:
+        id: c_cKB0UZlrp5hvrTTw2T7j18
+        subject_person_id: p_493jjNvpMG2MDc1hCwrQiK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_575PN2zenAgGgPucoUhYuD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8cRY5BM4TLUiEjeFXB73uc
+          claim_id: c_cKB0UZlrp5hvrTTw2T7j18
+          source_id: s_Pcz5gGNzY05jmbzCVbu9iN
+          stance: supports
+          locator: CBDB：兄弟 王完（201827）之父／母 王紹某
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王宏 与 王完 为同胞（CBDB 记「兄」），王完 之父／母即 王宏 之父／母。
+          source:
+            id: s_Pcz5gGNzY05jmbzCVbu9iN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宏（CBDB 278865）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278865&o=json
+            external_identifier: CBDB:278865
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_575PN2zenAgGgPucoUhYuD
+        status: active
+        display_name: 王宏
+        merged_into_person_id: null
+    - claim:
+        id: c_qbfeDD8AqDn9GQFY7Sz2YD
+        subject_person_id: p_493jjNvpMG2MDc1hCwrQiK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FhThjsF4g73SkGN41F7MyF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PN8L_MsWWz937a5KzoSaQ_
+          claim_id: c_qbfeDD8AqDn9GQFY7Sz2YD
+          source_id: s_7eeFsHfjPwCP9X7dB-LldA
+          stance: supports
+          locator: CBDB：兄弟 王完（201827）之父／母 王紹某
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王正 与 王完 为同胞（CBDB 记「弟」），王完 之父／母即 王正 之父／母。
+          source:
+            id: s_7eeFsHfjPwCP9X7dB-LldA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正（CBDB 278858）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278858&o=json
+            external_identifier: CBDB:278858
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FhThjsF4g73SkGN41F7MyF
+        status: active
+        display_name: 王正
+        merged_into_person_id: null
+    - claim:
+        id: c_MWKz0DpehAoUM96qzgfWU0
+        subject_person_id: p_493jjNvpMG2MDc1hCwrQiK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_L94W3zHB9wTdKzvMk5FW8v
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3lxxOEt6UUfRCu0m94ltbU
+          claim_id: c_MWKz0DpehAoUM96qzgfWU0
+          source_id: s_T6AXkdJIEWLc75iy6kPmPT
+          stance: supports
+          locator: CBDB：兄弟 王完（201827）之父／母 王紹某
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王賓 与 王完 为同胞（CBDB 记「弟」），王完 之父／母即 王賓 之父／母。
+          source:
+            id: s_T6AXkdJIEWLc75iy6kPmPT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王賓（CBDB 278861）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278861&o=json
+            external_identifier: CBDB:278861
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_L94W3zHB9wTdKzvMk5FW8v
+        status: active
+        display_name: 王賓
+        merged_into_person_id: null
+    - claim:
+        id: c_ab46jfNoxP_vJnrsDzm5iB
+        subject_person_id: p_493jjNvpMG2MDc1hCwrQiK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_W2QTGFNH3T6tJPXUFjAVSb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_irR3IM5V6OCbgVqt7QOxN9
+          claim_id: c_ab46jfNoxP_vJnrsDzm5iB
+          source_id: s_7FWy5efYXfvAS268rswIp3
+          stance: supports
+          locator: CBDB：兄弟 王完（201827）之父／母 王紹某
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王公 与 王完 为同胞（CBDB 记「弟」），王完 之父／母即 王公 之父／母。
+          source:
+            id: s_7FWy5efYXfvAS268rswIp3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王公（CBDB 278857）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278857&o=json
+            external_identifier: CBDB:278857
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_W2QTGFNH3T6tJPXUFjAVSb
+        status: active
+        display_name: 王公
+        merged_into_person_id: null
+    - claim:
+        id: c_-1y5QTjBSEp5WqYaoY2v43
+        subject_person_id: p_493jjNvpMG2MDc1hCwrQiK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_X8L3VuucF7CjfcSpgUwBjH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Rua6dwaSvbOBcRj7ojLT5V
+          claim_id: c_-1y5QTjBSEp5WqYaoY2v43
+          source_id: s__uOQb1YL1mjBC8TZ7P151D
+          stance: supports
+          locator: CBDB：兄弟 王完（201827）之父／母 王紹某
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王宜 与 王完 为同胞（CBDB 记「弟」），王完 之父／母即 王宜 之父／母。
+          source:
+            id: s__uOQb1YL1mjBC8TZ7P151D
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宜（CBDB 278859）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278859&o=json
+            external_identifier: CBDB:278859
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_X8L3VuucF7CjfcSpgUwBjH
+        status: active
+        display_name: 王宜
+        merged_into_person_id: null
+    - claim:
+        id: c_tWqHRxZATDSMJz3mxgWgt5
+        subject_person_id: p_493jjNvpMG2MDc1hCwrQiK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_idFGhxp89gx2A42LcmhSeP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_D5h9TxEWJowzrFOhjy6hnG
+          claim_id: c_tWqHRxZATDSMJz3mxgWgt5
+          source_id: s_qsrETQ2krScSeiDST3kmrg
+          stance: supports
+          locator: CBDB：兄弟 王完（201827）之父／母 王紹某
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王宸 与 王完 为同胞（CBDB 记「兄」），王完 之父／母即 王宸 之父／母。
+          source:
+            id: s_qsrETQ2krScSeiDST3kmrg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宸（CBDB 278870）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278870&o=json
+            external_identifier: CBDB:278870
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_idFGhxp89gx2A42LcmhSeP
+        status: active
+        display_name: 王宸
+        merged_into_person_id: null
+    - claim:
+        id: c_ELPaZFbnzoKQLB2l8xFeWX
+        subject_person_id: p_493jjNvpMG2MDc1hCwrQiK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kHHPCpYNN3LLHAdyLEy4C9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3O_diAs5qKoKtO0KZvzq_l
+          claim_id: c_ELPaZFbnzoKQLB2l8xFeWX
+          source_id: s_n5F9d112SvtSkHMr3Pueo6
+          stance: supports
+          locator: CBDB：兄弟 王完（201827）之父／母 王紹某
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王宇 与 王完 为同胞（CBDB 记「兄」），王完 之父／母即 王宇 之父／母。
+          source:
+            id: s_n5F9d112SvtSkHMr3Pueo6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宇（CBDB 278869）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278869&o=json
+            external_identifier: CBDB:278869
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kHHPCpYNN3LLHAdyLEy4C9
+        status: active
+        display_name: 王宇
+        merged_into_person_id: null
+    - claim:
+        id: c_PZgHsLIwG6u5A9C_jR5EY4
+        subject_person_id: p_493jjNvpMG2MDc1hCwrQiK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yAZqZv44Jk4YRjmrCJ1gEz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mhXCS6jEDCvxKgWSew1G4S
+          claim_id: c_PZgHsLIwG6u5A9C_jR5EY4
+          source_id: s_8VSHik688S_Ugf2zYfF268
+          stance: supports
+          locator: CBDB：兄弟 王完（201827）之父／母 王紹某
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王寓 与 王完 为同胞（CBDB 记「兄」），王完 之父／母即 王寓 之父／母。
+          source:
+            id: s_8VSHik688S_Ugf2zYfF268
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寓（CBDB 278871）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278871&o=json
+            external_identifier: CBDB:278871
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_yAZqZv44Jk4YRjmrCJ1gEz
+        status: active
+        display_name: 王寓
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -137,8 +433,24 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_87vQWSqin1Cc8rN4TeH3X4 | 王完 | accepted |
+| children | p_575PN2zenAgGgPucoUhYuD | 王宏 | accepted |
+| children | p_FhThjsF4g73SkGN41F7MyF | 王正 | accepted |
+| children | p_L94W3zHB9wTdKzvMk5FW8v | 王賓 | accepted |
+| children | p_W2QTGFNH3T6tJPXUFjAVSb | 王公 | accepted |
+| children | p_X8L3VuucF7CjfcSpgUwBjH | 王宜 | accepted |
+| children | p_idFGhxp89gx2A42LcmhSeP | 王宸 | accepted |
+| children | p_kHHPCpYNN3LLHAdyLEy4C9 | 王宇 | accepted |
+| children | p_yAZqZv44Jk4YRjmrCJ1gEz | 王寓 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王賓（CBDB 278861）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278861&o=json)
+- [中国历代人物传记资料库：王宸（CBDB 278870）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278870&o=json)
+- [中国历代人物传记资料库：王公（CBDB 278857）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278857&o=json)
+- [中国历代人物传记资料库：王宏（CBDB 278865）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278865&o=json)
 - [中国历代人物传记资料库：王紹某（CBDB 278854）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278854&o=json)
 - [中国历代人物传记资料库：王完（CBDB 201827）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201827&o=json)
+- [中国历代人物传记资料库：王宜（CBDB 278859）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278859&o=json)
+- [中国历代人物传记资料库：王宇（CBDB 278869）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278869&o=json)
+- [中国历代人物传记资料库：王寓（CBDB 278871）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278871&o=json)
+- [中国历代人物传记资料库：王正（CBDB 278858）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278858&o=json)

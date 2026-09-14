@@ -4,7 +4,7 @@ id: p_CJ4VyLGZZgJRk8JF6RcE65
 status: active
 merged_into: null
 display_name: 王儀
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,118 @@ relationships:
         display_name: 王士巽
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_O3iXCGnOEiXsExDbcRQzAo
+        subject_person_id: p_CJ4VyLGZZgJRk8JF6RcE65
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_TGnpXHeKWR8xDVyC1G6MTX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dw3nY-qogKp0lzyIM8cxb6
+          claim_id: c_O3iXCGnOEiXsExDbcRQzAo
+          source_id: s_kxSQCIkvrM0rsGed9ILV9H
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198242 王儀）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_kxSQCIkvrM0rsGed9ILV9H
+            source_type: api_record
+            title: 中国历代人物传记资料库：王侃（CBDB 245008）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245008&o=json
+            external_identifier: CBDB:245008
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_TGnpXHeKWR8xDVyC1G6MTX
+        status: active
+        display_name: 王侃
+        merged_into_person_id: null
+    - claim:
+        id: c_xaZ-ZHv7uEa_nePwFCtnOv
+        subject_person_id: p_CJ4VyLGZZgJRk8JF6RcE65
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_heBQAS8YxKacn4DAjy1qaZ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wYZy9ai41eOyytRob9D6hW
+          claim_id: c_xaZ-ZHv7uEa_nePwFCtnOv
+          source_id: s_xVnx879dkv3auIzo1CAqbr
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198242 王儀）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_xVnx879dkv3auIzo1CAqbr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王佶（CBDB 245019）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245019&o=json
+            external_identifier: CBDB:245019
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_heBQAS8YxKacn4DAjy1qaZ
+        status: active
+        display_name: 王佶
+        merged_into_person_id: null
+    - claim:
+        id: c_LOtzplqyCSQEwrxukhQUZf
+        subject_person_id: p_CJ4VyLGZZgJRk8JF6RcE65
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qEe5Jjdk1SqJi5FRKi64U2
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mPEp0Ljt7A73b0FKANmNhn
+          claim_id: c_LOtzplqyCSQEwrxukhQUZf
+          source_id: s_wbJXD0trNbF1ux7wp7zVwC
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 198242 王儀）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_wbJXD0trNbF1ux7wp7zVwC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王胤（CBDB 244997）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244997&o=json
+            external_identifier: CBDB:244997
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qEe5Jjdk1SqJi5FRKi64U2
+        status: active
+        display_name: 王胤
+        merged_into_person_id: null
 ---
 
 # 王儀
@@ -245,8 +356,14 @@ relationships:
 | spouses | p_71hsEEucZkH8dnJyp7Cjvs | 匡氏 | accepted |
 | ancestors | p_LthjcxsctGA14WP74DMGD2 | 王守道 | accepted |
 | ancestors | p_1N1DMSNij1QVwie6MdHCh4 | 王士巽 | accepted |
+| other | p_TGnpXHeKWR8xDVyC1G6MTX | 王侃 | accepted |
+| other | p_heBQAS8YxKacn4DAjy1qaZ | 王佶 | accepted |
+| other | p_qEe5Jjdk1SqJi5FRKi64U2 | 王胤 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：匡氏(王儀妻)（CBDB 244975）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244975&o=json)
+- [中国历代人物传记资料库：王佶（CBDB 245019）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245019&o=json)
+- [中国历代人物传记资料库：王侃（CBDB 245008）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245008&o=json)
 - [中国历代人物传记资料库：王儀（CBDB 198242）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198242&o=json)
+- [中国历代人物传记资料库：王胤（CBDB 244997）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244997&o=json)

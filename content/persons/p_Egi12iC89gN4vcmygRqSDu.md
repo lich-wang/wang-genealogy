@@ -4,7 +4,7 @@ id: p_Egi12iC89gN4vcmygRqSDu
 status: active
 merged_into: null
 display_name: 王之俊
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_K9c4oTIPPA0lBTcyyL6jBb
+        subject_person_id: p_hfNqr6f1P7uM2hMBq7xoJD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Egi12iC89gN4vcmygRqSDu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VCagE46EA7AYvPqeQOz2C2
+          claim_id: c_K9c4oTIPPA0lBTcyyL6jBb
+          source_id: s_aRQ3zVNL-JVZGkY-NfHqw4
+          stance: supports
+          locator: CBDB：兄弟 王之翰（207104）之父／母 王崇
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王之俊 与 王之翰 为同胞（CBDB 记「兄」），王之翰 之父／母即 王之俊 之父／母。
+          source:
+            id: s_aRQ3zVNL-JVZGkY-NfHqw4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之俊（CBDB 227720）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227720&o=json
+            external_identifier: CBDB:227720
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hfNqr6f1P7uM2hMBq7xoJD
+        status: active
+        display_name: 王崇
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_z9-sLNRID-hjuk6qmLQfYX
+        subject_person_id: p_Egi12iC89gN4vcmygRqSDu
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_UehS2yfTZaFGBh7uxhHFCE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qbOUJbinQ9aypoGYFzLQ_G
+          claim_id: c_z9-sLNRID-hjuk6qmLQfYX
+          source_id: s_aRQ3zVNL-JVZGkY-NfHqw4
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207104 王之翰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_aRQ3zVNL-JVZGkY-NfHqw4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之俊（CBDB 227720）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227720&o=json
+            external_identifier: CBDB:227720
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_UehS2yfTZaFGBh7uxhHFCE
+        status: active
+        display_name: 王之翰
+        merged_into_person_id: null
 ---
 
 # 王之俊
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_hfNqr6f1P7uM2hMBq7xoJD | 王崇 | accepted |
+| other | p_UehS2yfTZaFGBh7uxhHFCE | 王之翰 | accepted |
 
 ## 外部来源
 

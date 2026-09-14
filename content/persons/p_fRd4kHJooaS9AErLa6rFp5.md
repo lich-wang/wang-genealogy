@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王瀠
 cbdb_id: 207813
-revision: 7
+revision: 9
 properties:
   - predicate: bio.summary
     recommended:
@@ -350,7 +350,81 @@ relationships:
         display_name: 王希哲
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_MKJdiYq51rnEhyuuhW1jsA
+        subject_person_id: p_JS7CTABou4Q29MfMaFCAy6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fRd4kHJooaS9AErLa6rFp5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ap1Aqe477p91wgGowI3HYG
+          claim_id: c_MKJdiYq51rnEhyuuhW1jsA
+          source_id: s_YhySQJ81x0iYnG6XFXLzbu
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207813 王瀠）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_YhySQJ81x0iYnG6XFXLzbu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王袞（CBDB 236427）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236427&o=json
+            external_identifier: CBDB:236427
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JS7CTABou4Q29MfMaFCAy6
+        status: active
+        display_name: 王袞
+        merged_into_person_id: null
+    - claim:
+        id: c_bfIsBl4NbydAwpAdDTk_xU
+        subject_person_id: p_LsQTYNc4XKBnSg9CsNKeDX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fRd4kHJooaS9AErLa6rFp5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_19dILUztIbv_IA8vhcjTC6
+          claim_id: c_bfIsBl4NbydAwpAdDTk_xU
+          source_id: s__5rzzWxVuOxEPtcBKmY5BX
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207813 王瀠）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__5rzzWxVuOxEPtcBKmY5BX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王悛（CBDB 236426）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236426&o=json
+            external_identifier: CBDB:236426
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_LsQTYNc4XKBnSg9CsNKeDX
+        status: active
+        display_name: 王悛
+        merged_into_person_id: null
 ---
 
 # 王瀠
@@ -375,11 +449,15 @@ relationships:
 | children | p_ztkQFjZmaeN2Qe9Fi45XJB | 王尊約 | accepted |
 | ancestors | p_45n56RiQTWtDC21tW3p7zG | 王寶 | accepted |
 | ancestors | p_8EVZxxAjXpWHbww1dEyK7t | 王希哲 | accepted |
+| other | p_JS7CTABou4Q29MfMaFCAy6 | 王袞 | accepted |
+| other | p_LsQTYNc4XKBnSg9CsNKeDX | 王悛 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王寶（CBDB 236418）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236418&o=json)
+- [中国历代人物传记资料库：王袞（CBDB 236427）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236427&o=json)
 - [中国历代人物传记资料库：王好敬（CBDB 236421）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236421&o=json)
+- [中国历代人物传记资料库：王悛（CBDB 236426）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236426&o=json)
 - [中国历代人物传记资料库：王希哲（CBDB 236419）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236419&o=json)
 - [中国历代人物传记资料库：王瀠（CBDB 207813）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207813&o=json)
 - [中国历代人物传记资料库：王尊素（CBDB 236430）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236430&o=json)

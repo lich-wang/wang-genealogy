@@ -4,7 +4,7 @@ id: p_1N65LqTbYG3WVhuB7e8YV9
 status: active
 merged_into: null
 display_name: 王珣
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_TSKc2xJegsG6kDet6WPuBG
+        subject_person_id: p_Ws6vwZFsXZUpBYjSrkcdGJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1N65LqTbYG3WVhuB7e8YV9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7Q8rRRwnaXu2fi_LSe_0Gn
+          claim_id: c_TSKc2xJegsG6kDet6WPuBG
+          source_id: s_6nBgfoPFJvS6CDuPTQOHF0
+          stance: supports
+          locator: CBDB：兄弟 王瑄（126752）之父／母 王言
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王珣 与 王瑄 为同胞（CBDB 记「兄」），王瑄 之父／母即 王珣 之父／母。
+          source:
+            id: s_6nBgfoPFJvS6CDuPTQOHF0
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珣（CBDB 282509）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282509&o=json
+            external_identifier: CBDB:282509
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Ws6vwZFsXZUpBYjSrkcdGJ
+        status: active
+        display_name: 王言
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_F_Sw3TGHkw2az-RZZYmJgs
+        subject_person_id: p_1N65LqTbYG3WVhuB7e8YV9
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_CvexZGJpSfjjALu2joPK1N
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8NdxN72dGvniMCYD_CGNSn
+          claim_id: c_F_Sw3TGHkw2az-RZZYmJgs
+          source_id: s_6nBgfoPFJvS6CDuPTQOHF0
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126752 王瑄）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_6nBgfoPFJvS6CDuPTQOHF0
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珣（CBDB 282509）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282509&o=json
+            external_identifier: CBDB:282509
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CvexZGJpSfjjALu2joPK1N
+        status: active
+        display_name: 王瑄
+        merged_into_person_id: null
 ---
 
 # 王珣
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Ws6vwZFsXZUpBYjSrkcdGJ | 王言 | accepted |
+| other | p_CvexZGJpSfjjALu2joPK1N | 王瑄 | accepted |
 
 ## 外部来源
 

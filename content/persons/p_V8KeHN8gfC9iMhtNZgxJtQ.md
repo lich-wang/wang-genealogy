@@ -4,7 +4,7 @@ id: p_V8KeHN8gfC9iMhtNZgxJtQ
 status: active
 merged_into: null
 display_name: 王裕
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,80 @@ relationships:
         status: active
         display_name: 王存禮
         merged_into_person_id: null
+    - claim:
+        id: c_PT8NL9m6KKm2cRoDP80qtV
+        subject_person_id: p_V8KeHN8gfC9iMhtNZgxJtQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7HTrHjB9iBPNmrT8CpNogM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__HGLio2DOdDhWi5iDq23VK
+          claim_id: c_PT8NL9m6KKm2cRoDP80qtV
+          source_id: s_S4nRHJecNXFQOcflMikEBq
+          stance: supports
+          locator: CBDB：兄弟 王存禮（200053）之父／母 王裕
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王存仁 与 王存禮 为同胞（CBDB 记「弟」），王存禮 之父／母即 王存仁 之父／母。
+          source:
+            id: s_S4nRHJecNXFQOcflMikEBq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王存仁（CBDB 253212）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253212&o=json
+            external_identifier: CBDB:253212
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7HTrHjB9iBPNmrT8CpNogM
+        status: active
+        display_name: 王存仁
+        merged_into_person_id: null
+    - claim:
+        id: c_u8XdWcW8iFltVbvxR8UuV3
+        subject_person_id: p_V8KeHN8gfC9iMhtNZgxJtQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kPt4zRPsEqQwRDgPYC6d7L
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FoR0M0OfwvhGSsnYZhktPB
+          claim_id: c_u8XdWcW8iFltVbvxR8UuV3
+          source_id: s_4567qT2RUPw5NwvuamQb73
+          stance: supports
+          locator: CBDB：兄弟 王存禮（200053）之父／母 王裕
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王存義 与 王存禮 为同胞（CBDB 记「弟」），王存禮 之父／母即 王存義 之父／母。
+          source:
+            id: s_4567qT2RUPw5NwvuamQb73
+            source_type: api_record
+            title: 中国历代人物传记资料库：王存義（CBDB 253214）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253214&o=json
+            external_identifier: CBDB:253214
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kPt4zRPsEqQwRDgPYC6d7L
+        status: active
+        display_name: 王存義
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +209,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_C2E2SSj6sXsm1th4M87rCJ | 王存禮 | accepted |
+| children | p_7HTrHjB9iBPNmrT8CpNogM | 王存仁 | accepted |
+| children | p_kPt4zRPsEqQwRDgPYC6d7L | 王存義 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王存禮（CBDB 200053）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200053&o=json)
+- [中国历代人物传记资料库：王存仁（CBDB 253212）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253212&o=json)
+- [中国历代人物传记资料库：王存義（CBDB 253214）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253214&o=json)
 - [中国历代人物传记资料库：王裕（CBDB 253209）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253209&o=json)

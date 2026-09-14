@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王汝光
 cbdb_id: 314230
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_zxfxE7U5v3H9Sm2B3IEuA3
+        subject_person_id: p_jp7Who27nqLM3Z2dWPqF3U
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BRk8GRJ9ALS1shYv5ub2na
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_McQGiIkth0AMjIAMW8pGj9
+          claim_id: c_zxfxE7U5v3H9Sm2B3IEuA3
+          source_id: s_5FnxBodn9_iXWOQsLMUZvz
+          stance: supports
+          locator: CBDB：兄弟 王汝述（204086）之父／母 王銓
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王汝光 与 王汝述 为同胞（CBDB 记「弟」），王汝述 之父／母即 王汝光 之父／母。
+          source:
+            id: s_5FnxBodn9_iXWOQsLMUZvz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝光（CBDB 314230）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314230&o=json
+            external_identifier: CBDB:314230
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jp7Who27nqLM3Z2dWPqF3U
+        status: active
+        display_name: 王銓
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_NKOQOhe9Wl3SU-hoEZRaQV
+        subject_person_id: p_BRk8GRJ9ALS1shYv5ub2na
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_FJ5VCJ2dfQ9YvKZT3bmX4c
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1FpyKimpxuD7C18BuDYljb
+          claim_id: c_NKOQOhe9Wl3SU-hoEZRaQV
+          source_id: s_5FnxBodn9_iXWOQsLMUZvz
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204086 王汝述）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_5FnxBodn9_iXWOQsLMUZvz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝光（CBDB 314230）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314230&o=json
+            external_identifier: CBDB:314230
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FJ5VCJ2dfQ9YvKZT3bmX4c
+        status: active
+        display_name: 王汝述
+        merged_into_person_id: null
 ---
 
 # 王汝光
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_jp7Who27nqLM3Z2dWPqF3U | 王銓 | accepted |
+| other | p_FJ5VCJ2dfQ9YvKZT3bmX4c | 王汝述 | accepted |
 
 ## 外部来源
 

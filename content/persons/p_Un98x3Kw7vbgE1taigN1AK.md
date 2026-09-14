@@ -4,7 +4,7 @@ id: p_Un98x3Kw7vbgE1taigN1AK
 status: active
 merged_into: null
 display_name: 王承裕
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -307,7 +307,44 @@ relationships:
         display_name: 王仲智
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_QZK1t-JHhp6rlRKj8blioI
+        subject_person_id: p_HtQj8XUtC1Qei75JBGkWDc
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Un98x3Kw7vbgE1taigN1AK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XOk6aD1QNuOZoxJVDPSlqJ
+          claim_id: c_QZK1t-JHhp6rlRKj8blioI
+          source_id: s_-r3mBHYvWUf6kOxaJby9ub
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 62505 王恕）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_-r3mBHYvWUf6kOxaJby9ub
+            source_type: api_record
+            title: 中国历代人物传记资料库：王忠（CBDB 240862）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240862&o=json
+            external_identifier: CBDB:240862
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HtQj8XUtC1Qei75JBGkWDc
+        status: active
+        display_name: 王忠
+        merged_into_person_id: null
 ---
 
 # 王承裕
@@ -330,11 +367,13 @@ relationships:
 | spouses | p_Qd35J9Vr9qLhrzFStDP4Qn | 张氏 | accepted |
 | ancestors | p_tcWDCYEjZBxpgXVNCyJD9U | 王惟直 | accepted |
 | ancestors | p_g1bs6h5k4Pu2preBv8KZPd | 王仲智 | accepted |
+| other | p_HtQj8XUtC1Qei75JBGkWDc | 王忠 | accepted |
 
 ## 外部来源
 
 - [维基数据：王承裕（Q15941024）](https://www.wikidata.org/wiki/Q15941024)
 - [维基数据：张氏（Q65870769）](https://www.wikidata.org/wiki/Q65870769)
 - [中国历代人物传记资料库：王承裕（CBDB 67772）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67772&o=json)
+- [中国历代人物传记资料库：王忠（CBDB 240862）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240862&o=json)
 - [中文维基百科：王承裕](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%89%BF%E8%A3%95)
 - [CBDB 中国历代人物传记资料库：王恕（62505）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=62505&o=json)

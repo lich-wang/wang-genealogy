@@ -4,7 +4,7 @@ id: p_rHZA1vHL86M3xxNwokeU6D
 status: active
 merged_into: null
 display_name: 王時濟
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -246,7 +246,44 @@ relationships:
         display_name: 王滿
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_1iexZgYjNl_Zi-ryIQkcfN
+        subject_person_id: p_PGC57DjfK9qHpbLXwxbMRN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_rHZA1vHL86M3xxNwokeU6D
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EEbHiGDmY8W-oN__Z7sYMU
+          claim_id: c_1iexZgYjNl_Zi-ryIQkcfN
+          source_id: s_QTnGWNvTMDXgV40GJdmko4
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126655 王時濟）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_QTnGWNvTMDXgV40GJdmko4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王時政（CBDB 223161）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223161&o=json
+            external_identifier: CBDB:223161
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PGC57DjfK9qHpbLXwxbMRN
+        status: active
+        display_name: 王時政
+        merged_into_person_id: null
 ---
 
 # 王時濟
@@ -269,10 +306,12 @@ relationships:
 | parents | p_wWNgGLtwY9X7M99pvS53sv | 王越 | accepted |
 | ancestors | p_4CbuwXJLZvDNY3kj5jU2bJ | 王興 | accepted |
 | ancestors | p_6nLYqdsTahTFStda3q5E9n | 王滿 | accepted |
+| other | p_PGC57DjfK9qHpbLXwxbMRN | 王時政 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王滿（CBDB 223153）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223153&o=json)
 - [中国历代人物传记资料库：王時濟（CBDB 126655）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126655&o=json)
+- [中国历代人物传记资料库：王時政（CBDB 223161）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223161&o=json)
 - [中国历代人物传记资料库：王興（CBDB 223152）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223152&o=json)
 - [中国历代人物传记资料库：王越（CBDB 223154）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223154&o=json)

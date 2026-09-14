@@ -4,7 +4,7 @@ id: p_BSxSS54pFn3GDXcZ2KRg4W
 status: active
 merged_into: null
 display_name: 王臺
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_UybgQ7WLq0XXcM4JuW3Lmu
+        subject_person_id: p_w5pNEVYCVJAEuFuR4sLpcJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BSxSS54pFn3GDXcZ2KRg4W
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wApnfdCVkXlnteQMWmFOLc
+          claim_id: c_UybgQ7WLq0XXcM4JuW3Lmu
+          source_id: s_g1L9QJtDAy1RbUe_RQoJF9
+          stance: supports
+          locator: CBDB：兄弟 王坊（201535）之父／母 王弼
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王臺 与 王坊 为同胞（CBDB 记「兄」），王坊 之父／母即 王臺 之父／母。
+          source:
+            id: s_g1L9QJtDAy1RbUe_RQoJF9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王臺（CBDB 273957）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273957&o=json
+            external_identifier: CBDB:273957
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_w5pNEVYCVJAEuFuR4sLpcJ
+        status: active
+        display_name: 王弼
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_0qFN699x3MjcdbdDKegODl
+        subject_person_id: p_BSxSS54pFn3GDXcZ2KRg4W
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mXq9uxGc8pg1wHpdoUPQx2
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JceSETzTFkwR2vu9jzX-aT
+          claim_id: c_0qFN699x3MjcdbdDKegODl
+          source_id: s_g1L9QJtDAy1RbUe_RQoJF9
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201535 王坊）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_g1L9QJtDAy1RbUe_RQoJF9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王臺（CBDB 273957）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273957&o=json
+            external_identifier: CBDB:273957
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mXq9uxGc8pg1wHpdoUPQx2
+        status: active
+        display_name: 王坊
+        merged_into_person_id: null
 ---
 
 # 王臺
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_w5pNEVYCVJAEuFuR4sLpcJ | 王弼 | accepted |
+| other | p_mXq9uxGc8pg1wHpdoUPQx2 | 王坊 | accepted |
 
 ## 外部来源
 

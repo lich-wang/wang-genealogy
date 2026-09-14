@@ -4,7 +4,7 @@ id: p_2i6oN2NGkBUzWQ8mMJErSV
 status: active
 merged_into: null
 display_name: 王業
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_q-CRtBJT6SBH36TcZUiUog
+        subject_person_id: p_cTNHybKxFsGeSXUqJF9nK2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2i6oN2NGkBUzWQ8mMJErSV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Nudc0w46WtfQWTkOPkGUJS
+          claim_id: c_q-CRtBJT6SBH36TcZUiUog
+          source_id: s_uChsy7DQY-IrVW3vZzN6tV
+          stance: supports
+          locator: CBDB：兄弟 王表（126567）之父／母 王冕
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王業 与 王表 为同胞（CBDB 记「兄」），王表 之父／母即 王業 之父／母。
+          source:
+            id: s_uChsy7DQY-IrVW3vZzN6tV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王業（CBDB 287777）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287777&o=json
+            external_identifier: CBDB:287777
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cTNHybKxFsGeSXUqJF9nK2
+        status: active
+        display_name: 王冕
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_a1Y5GaPJOue7r-xMIc19Qa
+        subject_person_id: p_2i6oN2NGkBUzWQ8mMJErSV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_bzVqsVzDtPALBqgyiMTGcs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_634iwGh5UsCSZtTLVmYBrU
+          claim_id: c_a1Y5GaPJOue7r-xMIc19Qa
+          source_id: s_uChsy7DQY-IrVW3vZzN6tV
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126567 王表）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_uChsy7DQY-IrVW3vZzN6tV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王業（CBDB 287777）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287777&o=json
+            external_identifier: CBDB:287777
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_bzVqsVzDtPALBqgyiMTGcs
+        status: active
+        display_name: 王表
+        merged_into_person_id: null
 ---
 
 # 王業
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_cTNHybKxFsGeSXUqJF9nK2 | 王冕 | accepted |
+| other | p_bzVqsVzDtPALBqgyiMTGcs | 王表 | accepted |
 
 ## 外部来源
 

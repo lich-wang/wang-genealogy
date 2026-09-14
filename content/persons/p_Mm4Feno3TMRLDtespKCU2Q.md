@@ -4,7 +4,7 @@ id: p_Mm4Feno3TMRLDtespKCU2Q
 status: active
 merged_into: null
 display_name: 王翰臣
-revision: 4
+revision: 9
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,192 @@ relationships:
         display_name: 王子明
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_j8WvNkT4cJTcLxFJHKuQEZ
+        subject_person_id: p_KoUEahydEBZ5RR5FbMUezS
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Mm4Feno3TMRLDtespKCU2Q
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9rZyB3lBuQeDJjOJamOAdB
+          claim_id: c_j8WvNkT4cJTcLxFJHKuQEZ
+          source_id: s_KsRHobB--pzVIPmmf8h2zs
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202016 王翰臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_KsRHobB--pzVIPmmf8h2zs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王守臣（CBDB 282047）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282047&o=json
+            external_identifier: CBDB:282047
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KoUEahydEBZ5RR5FbMUezS
+        status: active
+        display_name: 王守臣
+        merged_into_person_id: null
+    - claim:
+        id: c_ALO8MnV49EdcwmXX6NUlU4
+        subject_person_id: p_Kvt6vcEt4vWYbu9NBw1aMi
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Mm4Feno3TMRLDtespKCU2Q
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qU-7Ya6zfUp1GSFxM_GjUx
+          claim_id: c_ALO8MnV49EdcwmXX6NUlU4
+          source_id: s_uU-RWGMPciSBJvW1p8z5-G
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202016 王翰臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_uU-RWGMPciSBJvW1p8z5-G
+            source_type: api_record
+            title: 中国历代人物传记资料库：王甸臣（CBDB 282049）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282049&o=json
+            external_identifier: CBDB:282049
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Kvt6vcEt4vWYbu9NBw1aMi
+        status: active
+        display_name: 王甸臣
+        merged_into_person_id: null
+    - claim:
+        id: c_WI3T8t2n95QkqFhrXEuuOa
+        subject_person_id: p_Mm4Feno3TMRLDtespKCU2Q
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_niPWz32Lswxcn9bVNZ8Pxx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q3im5H55q_5Wf9Ei7rgFi4
+          claim_id: c_WI3T8t2n95QkqFhrXEuuOa
+          source_id: s_oxOil9jBbh5Svu6_fEJUlu
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202016 王翰臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_oxOil9jBbh5Svu6_fEJUlu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王親臣（CBDB 282046）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282046&o=json
+            external_identifier: CBDB:282046
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_niPWz32Lswxcn9bVNZ8Pxx
+        status: active
+        display_name: 王親臣
+        merged_into_person_id: null
+    - claim:
+        id: c_iHfJztjaMgJAkJhu_dhzPj
+        subject_person_id: p_Mm4Feno3TMRLDtespKCU2Q
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_rRx92rsgj5B1Dfj7HhD6jF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OhuGxJuLN2CZOhpaDqclMb
+          claim_id: c_iHfJztjaMgJAkJhu_dhzPj
+          source_id: s_6gwtvM5bNLQPmxbdih9gTu
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202016 王翰臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_6gwtvM5bNLQPmxbdih9gTu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王拱臣（CBDB 282045）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282045&o=json
+            external_identifier: CBDB:282045
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rRx92rsgj5B1Dfj7HhD6jF
+        status: active
+        display_name: 王拱臣
+        merged_into_person_id: null
+    - claim:
+        id: c_3A2aHTSQr0avrJ-xbmbpQC
+        subject_person_id: p_Mm4Feno3TMRLDtespKCU2Q
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_snWxZhRQPAWrkTPkPaDJFQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_g4N0eQfUkA6N7SLyNwZruf
+          claim_id: c_3A2aHTSQr0avrJ-xbmbpQC
+          source_id: s_lgjm_7BdWPnRtv9ccNSmVa
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202016 王翰臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_lgjm_7BdWPnRtv9ccNSmVa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王畿臣（CBDB 282048）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282048&o=json
+            external_identifier: CBDB:282048
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_snWxZhRQPAWrkTPkPaDJFQ
+        status: active
+        display_name: 王畿臣
+        merged_into_person_id: null
 ---
 
 # 王翰臣
@@ -240,10 +425,20 @@ relationships:
 | parents | p_sp87Q8ktX7kHeJfazKTe3u | 王琛 | accepted |
 | ancestors | p_Bhhn1fMJ8jMbPoeht3Ss3K | 王原 | accepted |
 | ancestors | p_CjPAUgQ79UCV7hnFx1eT69 | 王子明 | accepted |
+| other | p_KoUEahydEBZ5RR5FbMUezS | 王守臣 | accepted |
+| other | p_Kvt6vcEt4vWYbu9NBw1aMi | 王甸臣 | accepted |
+| other | p_niPWz32Lswxcn9bVNZ8Pxx | 王親臣 | accepted |
+| other | p_rRx92rsgj5B1Dfj7HhD6jF | 王拱臣 | accepted |
+| other | p_snWxZhRQPAWrkTPkPaDJFQ | 王畿臣 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王琛（CBDB 282040）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282040&o=json)
+- [中国历代人物传记资料库：王甸臣（CBDB 282049）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282049&o=json)
+- [中国历代人物传记资料库：王拱臣（CBDB 282045）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282045&o=json)
 - [中国历代人物传记资料库：王翰臣（CBDB 202016）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202016&o=json)
+- [中国历代人物传记资料库：王畿臣（CBDB 282048）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282048&o=json)
+- [中国历代人物传记资料库：王親臣（CBDB 282046）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282046&o=json)
+- [中国历代人物传记资料库：王守臣（CBDB 282047）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282047&o=json)
 - [中国历代人物传记资料库：王原（CBDB 282038）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282038&o=json)
 - [中国历代人物传记资料库：王子明（CBDB 282039）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282039&o=json)

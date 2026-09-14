@@ -4,7 +4,7 @@ id: p_hCaEhKRsvc7eH6eDHWHssK
 status: active
 merged_into: null
 display_name: 王國祚
-revision: 4
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,118 @@ relationships:
         display_name: 王輔
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_KbGn_0nbJaOdVm6yl6oEaQ
+        subject_person_id: p_B2kaNim6JACLACBEtHTAtb
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hCaEhKRsvc7eH6eDHWHssK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gMKQPxLJ48PB0SFYAdLgOk
+          claim_id: c_KbGn_0nbJaOdVm6yl6oEaQ
+          source_id: s_enG84qYbBmDOZh3ZkwCeeA
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206219 王國祚）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_enG84qYbBmDOZh3ZkwCeeA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王國傑（CBDB 214960）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214960&o=json
+            external_identifier: CBDB:214960
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_B2kaNim6JACLACBEtHTAtb
+        status: active
+        display_name: 王國傑
+        merged_into_person_id: null
+    - claim:
+        id: c_EPlB5GG6z8OlXEDGGBDPd7
+        subject_person_id: p_fgjq6J5GTDFcpt9kfppMV7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hCaEhKRsvc7eH6eDHWHssK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yA839O-O_7cOuR5isifIwB
+          claim_id: c_EPlB5GG6z8OlXEDGGBDPd7
+          source_id: s_Os-hMlrvIRQ1vC_cc6gGYC
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206219 王國祚）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Os-hMlrvIRQ1vC_cc6gGYC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王國俊（CBDB 214958）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214958&o=json
+            external_identifier: CBDB:214958
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fgjq6J5GTDFcpt9kfppMV7
+        status: active
+        display_name: 王國俊
+        merged_into_person_id: null
+    - claim:
+        id: c_56yCRr4IWOtfv2LDiTG97B
+        subject_person_id: p_hCaEhKRsvc7eH6eDHWHssK
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qcZ4AXwGoxo7s237XMPxE8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_h8HpnfDJn7IUq1gf0nKibJ
+          claim_id: c_56yCRr4IWOtfv2LDiTG97B
+          source_id: s_N7IeKFGZqr89fod_OzCBOS
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206219 王國祚）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_N7IeKFGZqr89fod_OzCBOS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王國胤（CBDB 214957）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214957&o=json
+            external_identifier: CBDB:214957
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qcZ4AXwGoxo7s237XMPxE8
+        status: active
+        display_name: 王國胤
+        merged_into_person_id: null
 ---
 
 # 王國祚
@@ -241,10 +352,16 @@ relationships:
 | parents | p_jJ8CBW1eQx8HAeDCP6Kxoi | 王勉學 | accepted |
 | ancestors | p_GAeLRTZkJHf27aCa6TLAnS | 王道充 | accepted |
 | ancestors | p_pC3v2cv72NbWMc2sFM73KX | 王輔 | accepted |
+| other | p_B2kaNim6JACLACBEtHTAtb | 王國傑 | accepted |
+| other | p_fgjq6J5GTDFcpt9kfppMV7 | 王國俊 | accepted |
+| other | p_qcZ4AXwGoxo7s237XMPxE8 | 王國胤 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王道充（CBDB 214953）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214953&o=json)
 - [中国历代人物传记资料库：王輔（CBDB 214952）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214952&o=json)
+- [中国历代人物传记资料库：王國傑（CBDB 214960）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214960&o=json)
+- [中国历代人物传记资料库：王國俊（CBDB 214958）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214958&o=json)
+- [中国历代人物传记资料库：王國胤（CBDB 214957）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214957&o=json)
 - [中国历代人物传记资料库：王國祚（CBDB 206219）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206219&o=json)
 - [中国历代人物传记资料库：王勉學（CBDB 214954）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214954&o=json)

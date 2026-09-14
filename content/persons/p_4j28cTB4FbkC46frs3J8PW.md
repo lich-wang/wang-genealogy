@@ -4,7 +4,7 @@ id: p_4j28cTB4FbkC46frs3J8PW
 status: active
 merged_into: null
 display_name: 王俸
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,81 @@ relationships:
         display_name: 王瑜
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_BxjVwitxsi7FxjGXluszlW
+        subject_person_id: p_4j28cTB4FbkC46frs3J8PW
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_5xAVa3shVSKKWDozY77843
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__vUvHeDB6r3Mb9m90YBpjz
+          claim_id: c_BxjVwitxsi7FxjGXluszlW
+          source_id: s_dRhJNSqrFbbesJm5DZj8Rg
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204993 王俸）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_dRhJNSqrFbbesJm5DZj8Rg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王儼（CBDB 326928）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326928&o=json
+            external_identifier: CBDB:326928
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5xAVa3shVSKKWDozY77843
+        status: active
+        display_name: 王儼
+        merged_into_person_id: null
+    - claim:
+        id: c_0CUpJjcf3Ng9xH-xcjlpvu
+        subject_person_id: p_4j28cTB4FbkC46frs3J8PW
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_cXHv7PKynVHMNbBR9FMZQr
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6w3W-FWnfeEyJWzFof9zrm
+          claim_id: c_0CUpJjcf3Ng9xH-xcjlpvu
+          source_id: s_OXRr7eeHJSX0y53-MgP2qP
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204993 王俸）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_OXRr7eeHJSX0y53-MgP2qP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王化（CBDB 326927）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326927&o=json
+            external_identifier: CBDB:326927
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cXHv7PKynVHMNbBR9FMZQr
+        status: active
+        display_name: 王化
+        merged_into_person_id: null
 ---
 
 # 王俸
@@ -245,8 +319,12 @@ relationships:
 | spouses | p_YtCtdN7YNku3PyQRz98krw | 顧氏 | accepted |
 | ancestors | p_ptHknkqPUqxkwUQH4M34f1 | 王賢 | accepted |
 | ancestors | p_b3DzMFD6PUKX3kbAmmh81b | 王瑜 | accepted |
+| other | p_5xAVa3shVSKKWDozY77843 | 王儼 | accepted |
+| other | p_cXHv7PKynVHMNbBR9FMZQr | 王化 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：顧氏(王俸妻)（CBDB 326926）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326926&o=json)
 - [中国历代人物传记资料库：王俸（CBDB 204993）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204993&o=json)
+- [中国历代人物传记资料库：王化（CBDB 326927）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326927&o=json)
+- [中国历代人物传记资料库：王儼（CBDB 326928）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326928&o=json)

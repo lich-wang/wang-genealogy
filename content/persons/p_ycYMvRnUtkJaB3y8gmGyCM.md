@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王鑑之
 cbdb_id: 126887
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -279,7 +279,44 @@ relationships:
         display_name: 王君珤
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_UO71xTrUYcKKAvYDkW-ZQX
+        subject_person_id: p_1PgngiW7DRe6h4wi5goBc8
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ycYMvRnUtkJaB3y8gmGyCM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2wYusuj65_GvHFX3YxG6z7
+          claim_id: c_UO71xTrUYcKKAvYDkW-ZQX
+          source_id: s_JB4ky1MAPZWswYCtVztMpH
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126887 王鑑之）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_JB4ky1MAPZWswYCtVztMpH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鑌之（CBDB 253206）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253206&o=json
+            external_identifier: CBDB:253206
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1PgngiW7DRe6h4wi5goBc8
+        status: active
+        display_name: 王鑌之
+        merged_into_person_id: null
 ---
 
 # 王鑑之
@@ -302,9 +339,11 @@ relationships:
 | parents | p_X8pnsgqtNiK4YaNNve2N13 | 王詵 | accepted |
 | ancestors | p_orojH38je49BQs4M93nrDn | 王壽 | accepted |
 | ancestors | p_RjHbNvQUVhCJ2NM8kys9yj | 王君珤 | accepted |
+| other | p_1PgngiW7DRe6h4wi5goBc8 | 王鑌之 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鑌之（CBDB 253206）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253206&o=json)
 - [中国历代人物传记资料库：王鑑之（CBDB 126887）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126887&o=json)
 - [中国历代人物传记资料库：王君珤（CBDB 253201）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253201&o=json)
 - [中国历代人物传记资料库：王詵（CBDB 253203）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253203&o=json)

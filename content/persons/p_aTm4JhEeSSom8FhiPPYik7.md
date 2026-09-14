@@ -4,7 +4,7 @@ id: p_aTm4JhEeSSom8FhiPPYik7
 status: active
 merged_into: null
 display_name: 王亹
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -126,6 +126,43 @@ relationships:
         status: active
         display_name: 王自超
         merged_into_person_id: null
+    - claim:
+        id: c_7qSxbVk9jesij3m12OImHy
+        subject_person_id: p_aTm4JhEeSSom8FhiPPYik7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mvBYWbN8r8zCCto89nXarK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_p2UAk65yyxD-lpnEBOKPX5
+          claim_id: c_7qSxbVk9jesij3m12OImHy
+          source_id: s_VB5Gy_Z9j_5LkIzC0tFHKF
+          stance: supports
+          locator: CBDB：兄弟 王自超（71587）之父／母 王亹
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王自越 与 王自超 为同胞（CBDB 记「兄」），王自超 之父／母即 王自越 之父／母。
+          source:
+            id: s_VB5Gy_Z9j_5LkIzC0tFHKF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王自越（CBDB 572062）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=572062&o=json
+            external_identifier: CBDB:572062
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mvBYWbN8r8zCCto89nXarK
+        status: active
+        display_name: 王自越
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -151,7 +188,9 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_kF2uBhCu8BFeymL42FWUdW | 王舜鼎 | accepted |
 | children | p_FJ8kB5ov8PURm7VjHpvGtx | 王自超 | accepted |
+| children | p_mvBYWbN8r8zCCto89nXarK | 王自越 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王亹（CBDB 556624）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=556624&o=json)
+- [中国历代人物传记资料库：王自越（CBDB 572062）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=572062&o=json)

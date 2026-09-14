@@ -4,7 +4,7 @@ id: p_zPJV9uPvg66nyW635J36Ep
 status: active
 merged_into: null
 display_name: 王中行
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,81 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_LRSijzvFYKoL-raGy4bRyq
+        subject_person_id: p_zPJV9uPvg66nyW635J36Ep
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JZoHTFUFRha7fZ9F5A32Rd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_2sYK-9TXGA5OCOOVDpdBD-
+          claim_id: c_LRSijzvFYKoL-raGy4bRyq
+          source_id: s_4QAcEqn4mQ1o5QfLcRFPW7
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 3942）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_4QAcEqn4mQ1o5QfLcRFPW7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王叔達（CBDB 35946）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35946&o=json
+            external_identifier: CBDB:35946
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JZoHTFUFRha7fZ9F5A32Rd
+        status: active
+        display_name: 王叔達
+        merged_into_person_id: null
+    - claim:
+        id: c__dBFUtb7HYXL0o4Ln-ClvV
+        subject_person_id: p_zPJV9uPvg66nyW635J36Ep
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TbUog4RqmxrsWdQFmfF4gT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_yul0V1lPVX8jN8i8O_DnKa
+          claim_id: c__dBFUtb7HYXL0o4Ln-ClvV
+          source_id: s_o6OYuuluCKGBIEe6NkWUAX
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 3942）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_o6OYuuluCKGBIEe6NkWUAX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大臨（CBDB 35589）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35589&o=json
+            external_identifier: CBDB:35589
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_TbUog4RqmxrsWdQFmfF4gT
+        status: active
+        display_name: 王大臨
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -192,9 +266,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_JZoHTFUFRha7fZ9F5A32Rd | 王叔達 | accepted |
+| children | p_TbUog4RqmxrsWdQFmfF4gT | 王大臨 | accepted |
 | ancestors | p_c13t1gAnQni4prMz3DPJbk | 王俁 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王大臨（CBDB 35589）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35589&o=json)
+- [中国历代人物传记资料库：王叔達（CBDB 35946）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35946&o=json)
 - [中国历代人物传记资料库：王俁（CBDB 1932）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1932&o=json)
 - [中国历代人物传记资料库：王中行（CBDB 3942）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3942&o=json)

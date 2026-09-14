@@ -4,7 +4,7 @@ id: p_wKBGi2Z4dvP6wpgn4ZpyJS
 status: active
 merged_into: null
 display_name: 王端
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_-PjFNyisNE3u57WnDdIjvA
+        subject_person_id: p_ANoeF7AFRpyFDzxqPKjJwq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wKBGi2Z4dvP6wpgn4ZpyJS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_m9lhDnup4edLEFYHJ14XCA
+          claim_id: c_-PjFNyisNE3u57WnDdIjvA
+          source_id: s_VmPY2mG4vO7l3NFMSocqrC
+          stance: supports
+          locator: CBDB：兄弟 王讓（126897）之父／母 王肅
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王端 与 王讓 为同胞（CBDB 记「兄」），王讓 之父／母即 王端 之父／母。
+          source:
+            id: s_VmPY2mG4vO7l3NFMSocqrC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王端（CBDB 240943）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240943&o=json
+            external_identifier: CBDB:240943
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ANoeF7AFRpyFDzxqPKjJwq
+        status: active
+        display_name: 王肅
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_sUBQ3NwQLMtQPLI9rUElQr
+        subject_person_id: p_Z5S5a3vTHgwZid8XEKrJG6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wKBGi2Z4dvP6wpgn4ZpyJS
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E5sCQxIYhGj14JOAfbL1Ta
+          claim_id: c_sUBQ3NwQLMtQPLI9rUElQr
+          source_id: s_VmPY2mG4vO7l3NFMSocqrC
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126897 王讓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_VmPY2mG4vO7l3NFMSocqrC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王端（CBDB 240943）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240943&o=json
+            external_identifier: CBDB:240943
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Z5S5a3vTHgwZid8XEKrJG6
+        status: active
+        display_name: 王讓
+        merged_into_person_id: null
 ---
 
 # 王端
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ANoeF7AFRpyFDzxqPKjJwq | 王肅 | accepted |
+| other | p_Z5S5a3vTHgwZid8XEKrJG6 | 王讓 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_HY2YuL547Kh5aqzUsBs5ED
 status: active
 merged_into: null
 display_name: 王應奎
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,43 @@ relationships:
         status: active
         display_name: 王國賓
         merged_into_person_id: null
+    - claim:
+        id: c_CyYr2YqBB_rJRrx3Gcin5B
+        subject_person_id: p_HY2YuL547Kh5aqzUsBs5ED
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dpJKSddRLC2G5AJsENKCN3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SjYTE89JymH3rgM6EaX4w9
+          claim_id: c_CyYr2YqBB_rJRrx3Gcin5B
+          source_id: s___qIW_xkOq6Wi_OPpaYYcf
+          stance: supports
+          locator: CBDB：兄弟 王國賓（206149）之父／母 王應奎
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王國賢 与 王國賓 为同胞（CBDB 记「弟」），王國賓 之父／母即 王國賢 之父／母。
+          source:
+            id: s___qIW_xkOq6Wi_OPpaYYcf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王國賢（CBDB 213999）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213999&o=json
+            external_identifier: CBDB:213999
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dpJKSddRLC2G5AJsENKCN3
+        status: active
+        display_name: 王國賢
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_oXDRfETnLuW3oEE7nvKJYF | 王國賓 | accepted |
+| children | p_dpJKSddRLC2G5AJsENKCN3 | 王國賢 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王國賢（CBDB 213999）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213999&o=json)
 - [中国历代人物传记资料库：王應奎（CBDB 213996）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213996&o=json)

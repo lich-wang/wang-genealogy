@@ -4,7 +4,7 @@ id: p_HgcYnzEt3BLPFrXjEUGzEm
 status: active
 merged_into: null
 display_name: 王玶
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,81 @@ relationships:
         display_name: 王福順
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_sp9hQQjgo5f9gVSjrN4qIU
+        subject_person_id: p_HgcYnzEt3BLPFrXjEUGzEm
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_JitX9FH1WHsJ8XqCdCxnMb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HCGJtwBkNvJAOzNCZS1Q3V
+          claim_id: c_sp9hQQjgo5f9gVSjrN4qIU
+          source_id: s_pfCyZF_BY_QKu_Xm_o36Y2
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199032 王玶）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_pfCyZF_BY_QKu_Xm_o36Y2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璒（CBDB 221938）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221938&o=json
+            external_identifier: CBDB:221938
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JitX9FH1WHsJ8XqCdCxnMb
+        status: active
+        display_name: 王璒
+        merged_into_person_id: null
+    - claim:
+        id: c_3WOZCzp-CSaT1cB0eo79-X
+        subject_person_id: p_HgcYnzEt3BLPFrXjEUGzEm
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_knUNNqCwQm1MnsmGYDeA7f
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nx5K1dF2_Ky-hvaNLrqDxi
+          claim_id: c_3WOZCzp-CSaT1cB0eo79-X
+          source_id: s_Q6hiqXdGkv9SiqCsMMcnoo
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 199032 王玶）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Q6hiqXdGkv9SiqCsMMcnoo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璔（CBDB 221927）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221927&o=json
+            external_identifier: CBDB:221927
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_knUNNqCwQm1MnsmGYDeA7f
+        status: active
+        display_name: 王璔
+        merged_into_person_id: null
 ---
 
 # 王玶
@@ -240,10 +314,14 @@ relationships:
 | parents | p_LMg2m36RyXES2Bxat6rQQ2 | 王勛 | accepted |
 | ancestors | p_29R4vA9uRF259ojqPZ9p7K | 王成 | accepted |
 | ancestors | p_3juG8zad23EGDynEbaqSWE | 王福順 | accepted |
+| other | p_JitX9FH1WHsJ8XqCdCxnMb | 王璒 | accepted |
+| other | p_knUNNqCwQm1MnsmGYDeA7f | 王璔 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王成（CBDB 221871）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221871&o=json)
+- [中国历代人物传记资料库：王璒（CBDB 221938）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221938&o=json)
 - [中国历代人物传记资料库：王福順（CBDB 221883）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221883&o=json)
 - [中国历代人物传记资料库：王玶（CBDB 199032）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199032&o=json)
 - [中国历代人物传记资料库：王勛（CBDB 221894）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221894&o=json)
+- [中国历代人物传记资料库：王璔（CBDB 221927）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221927&o=json)

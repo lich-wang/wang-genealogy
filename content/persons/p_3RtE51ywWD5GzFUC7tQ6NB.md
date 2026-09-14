@@ -4,7 +4,7 @@ id: p_3RtE51ywWD5GzFUC7tQ6NB
 status: active
 merged_into: null
 display_name: 王崇
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Y7-GhYsCU1wyn7k9DeQleZ
+        subject_person_id: p_rQ3QkQ6Ppvi2nvZM6NWRzv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3RtE51ywWD5GzFUC7tQ6NB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mjcfV6fqaswCyJRD0aeh7d
+          claim_id: c_Y7-GhYsCU1wyn7k9DeQleZ
+          source_id: s_9Lr60_59h4-wb0Eb__sx5T
+          stance: supports
+          locator: CBDB：兄弟 王讓（126898）之父／母 王應橫
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王崇 与 王讓 为同胞（CBDB 记「兄」），王讓 之父／母即 王崇 之父／母。
+          source:
+            id: s_9Lr60_59h4-wb0Eb__sx5T
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇（CBDB 326363）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326363&o=json
+            external_identifier: CBDB:326363
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rQ3QkQ6Ppvi2nvZM6NWRzv
+        status: active
+        display_name: 王應橫
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_FOdhjeidELYRkBCJQq_zQU
+        subject_person_id: p_3RtE51ywWD5GzFUC7tQ6NB
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_H6ADXcsddQz8PL3XHF26HH
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fPfDFpU_k3yKG2Y8inBwhO
+          claim_id: c_FOdhjeidELYRkBCJQq_zQU
+          source_id: s_9Lr60_59h4-wb0Eb__sx5T
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126898 王讓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_9Lr60_59h4-wb0Eb__sx5T
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇（CBDB 326363）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326363&o=json
+            external_identifier: CBDB:326363
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_H6ADXcsddQz8PL3XHF26HH
+        status: active
+        display_name: 王讓
+        merged_into_person_id: null
 ---
 
 # 王崇
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_rQ3QkQ6Ppvi2nvZM6NWRzv | 王應橫 | accepted |
+| other | p_H6ADXcsddQz8PL3XHF26HH | 王讓 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_MM7KWyMsCLLasX9X9VAU7R
 status: active
 merged_into: null
 display_name: 王宗堯
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,81 @@ relationships:
         display_name: 王大賓
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_NXRCmh0hhTenorf-sbrQ4L
+        subject_person_id: p_MM7KWyMsCLLasX9X9VAU7R
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ZENDz66V4RKfqbwmyGLBTx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LqtAONCMks9J0W7sptnWqM
+          claim_id: c_NXRCmh0hhTenorf-sbrQ4L
+          source_id: s_3hBvM21FgpHkC0lH5yNMUW
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203496 王宗堯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_3hBvM21FgpHkC0lH5yNMUW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗德（CBDB 305543）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305543&o=json
+            external_identifier: CBDB:305543
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZENDz66V4RKfqbwmyGLBTx
+        status: active
+        display_name: 王宗德
+        merged_into_person_id: null
+    - claim:
+        id: c_2b6nIRmiUCY2Kk8_bOnAL8
+        subject_person_id: p_MM7KWyMsCLLasX9X9VAU7R
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_i5dG8b9pvYuJ3HDsxVEXt3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OxHWi4qgGjphqtu1egHKZQ
+          claim_id: c_2b6nIRmiUCY2Kk8_bOnAL8
+          source_id: s_VtBwgtMaKbMT-yonmHiQwm
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203496 王宗堯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_VtBwgtMaKbMT-yonmHiQwm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗武（CBDB 305542）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305542&o=json
+            external_identifier: CBDB:305542
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_i5dG8b9pvYuJ3HDsxVEXt3
+        status: active
+        display_name: 王宗武
+        merged_into_person_id: null
 ---
 
 # 王宗堯
@@ -241,10 +315,14 @@ relationships:
 | parents | p_3w9KiL5k9du8Z7UbUeRxEe | 王楚鳳 | accepted |
 | ancestors | p_kMXFk2RMgWgsEh7BZJsmpC | 王聘 | accepted |
 | ancestors | p_nyHGqvA9YTKT9YQnGQ6pMM | 王大賓 | accepted |
+| other | p_ZENDz66V4RKfqbwmyGLBTx | 王宗德 | accepted |
+| other | p_i5dG8b9pvYuJ3HDsxVEXt3 | 王宗武 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王楚鳳（CBDB 305534）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305534&o=json)
 - [中国历代人物传记资料库：王大賓（CBDB 305532）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305532&o=json)
 - [中国历代人物传记资料库：王聘（CBDB 305533）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305533&o=json)
+- [中国历代人物传记资料库：王宗德（CBDB 305543）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305543&o=json)
+- [中国历代人物传记资料库：王宗武（CBDB 305542）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305542&o=json)
 - [中国历代人物传记资料库：王宗堯（CBDB 203496）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203496&o=json)

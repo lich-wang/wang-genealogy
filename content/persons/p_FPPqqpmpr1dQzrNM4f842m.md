@@ -4,7 +4,7 @@ id: p_FPPqqpmpr1dQzrNM4f842m
 status: active
 merged_into: null
 display_name: 王珂
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_gKRsW0FgtYXq9BzTQqKQ-o
+        subject_person_id: p_cDjtDCi8h6mSG4Cms93AKT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FPPqqpmpr1dQzrNM4f842m
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__MwXzP8lcQVtT4vxufIuDJ
+          claim_id: c_gKRsW0FgtYXq9BzTQqKQ-o
+          source_id: s_7rMAm9MWhyPOJA21KzwA0x
+          stance: supports
+          locator: CBDB：兄弟 王佩（202809）之父／母 王深
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王珂 与 王佩 为同胞（CBDB 记「弟」），王佩 之父／母即 王珂 之父／母。
+          source:
+            id: s_7rMAm9MWhyPOJA21KzwA0x
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珂（CBDB 294957）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294957&o=json
+            external_identifier: CBDB:294957
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cDjtDCi8h6mSG4Cms93AKT
+        status: active
+        display_name: 王深
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_hYF7I56lJFMB507GxTwpMV
+        subject_person_id: p_FPPqqpmpr1dQzrNM4f842m
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ShbQcKbhPZJtYL14xZXyTR
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Oq6XuFiSQWDCUeDY_7Nyu4
+          claim_id: c_hYF7I56lJFMB507GxTwpMV
+          source_id: s_7rMAm9MWhyPOJA21KzwA0x
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202809 王佩）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_7rMAm9MWhyPOJA21KzwA0x
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珂（CBDB 294957）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294957&o=json
+            external_identifier: CBDB:294957
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ShbQcKbhPZJtYL14xZXyTR
+        status: active
+        display_name: 王佩
+        merged_into_person_id: null
 ---
 
 # 王珂
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_cDjtDCi8h6mSG4Cms93AKT | 王深 | accepted |
+| other | p_ShbQcKbhPZJtYL14xZXyTR | 王佩 | accepted |
 
 ## 外部来源
 

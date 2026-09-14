@@ -4,7 +4,7 @@ id: p_RQ5mRs9A2eXMZJA1zRRSnp
 status: active
 merged_into: null
 display_name: 王杲
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_XncMYBzpYuAwZNAkMYTb7C
+        subject_person_id: p_pXhKxQ18tXJwqo1Ez5cWyA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RQ5mRs9A2eXMZJA1zRRSnp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3i845kDQrsXB87H7YZYizh
+          claim_id: c_XncMYBzpYuAwZNAkMYTb7C
+          source_id: s_hocOslwNvbcU-bY9YfhW5M
+          stance: supports
+          locator: CBDB：兄弟 王昶（199167）之父／母 王麟
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王杲 与 王昶 为同胞（CBDB 记「兄」），王昶 之父／母即 王杲 之父／母。
+          source:
+            id: s_hocOslwNvbcU-bY9YfhW5M
+            source_type: api_record
+            title: 中国历代人物传记资料库：王杲（CBDB 240197）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240197&o=json
+            external_identifier: CBDB:240197
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_pXhKxQ18tXJwqo1Ez5cWyA
+        status: active
+        display_name: 王麟
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_2YXcwKdDpqdr-C9avn-MNE
+        subject_person_id: p_RQ5mRs9A2eXMZJA1zRRSnp
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hx7iGJRJAsCsAgYtQcK5NG
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Li6JIRzoaQT9-nTkMHk4_r
+          claim_id: c_2YXcwKdDpqdr-C9avn-MNE
+          source_id: s_hocOslwNvbcU-bY9YfhW5M
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199167 王昶）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hocOslwNvbcU-bY9YfhW5M
+            source_type: api_record
+            title: 中国历代人物传记资料库：王杲（CBDB 240197）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240197&o=json
+            external_identifier: CBDB:240197
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hx7iGJRJAsCsAgYtQcK5NG
+        status: active
+        display_name: 王昶
+        merged_into_person_id: null
 ---
 
 # 王杲
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_pXhKxQ18tXJwqo1Ez5cWyA | 王麟 | accepted |
+| other | p_hx7iGJRJAsCsAgYtQcK5NG | 王昶 | accepted |
 
 ## 外部来源
 

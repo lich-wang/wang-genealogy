@@ -4,7 +4,7 @@ id: p_9Gm1f56KyrWEn2aB7sVECT
 status: active
 merged_into: null
 display_name: 王三俊
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_8VjipAEB45xRJlVdRBjup3
+        subject_person_id: p_1FBPum8LTBdeJMCSbLMi71
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9Gm1f56KyrWEn2aB7sVECT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HV_Y7u5AHMgA8g8dG1Fu6D
+          claim_id: c_8VjipAEB45xRJlVdRBjup3
+          source_id: s_voaWn3Iqgywn04EV5jcWBj
+          stance: supports
+          locator: CBDB：兄弟 王三宅（126449）之父／母 王曰可
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王三俊 与 王三宅 为同胞（CBDB 记「兄」），王三宅 之父／母即 王三俊 之父／母。
+          source:
+            id: s_voaWn3Iqgywn04EV5jcWBj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三俊（CBDB 214232）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214232&o=json
+            external_identifier: CBDB:214232
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1FBPum8LTBdeJMCSbLMi71
+        status: active
+        display_name: 王曰可
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_XBB6x3K6YFEZ7cEcy5gP9S
+        subject_person_id: p_9Gm1f56KyrWEn2aB7sVECT
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gQ7de4k3fPsZaTDKaE81D5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_A7xE4iAhvuvZWUmlcIZI3I
+          claim_id: c_XBB6x3K6YFEZ7cEcy5gP9S
+          source_id: s_voaWn3Iqgywn04EV5jcWBj
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126449 王三宅）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_voaWn3Iqgywn04EV5jcWBj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三俊（CBDB 214232）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214232&o=json
+            external_identifier: CBDB:214232
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_gQ7de4k3fPsZaTDKaE81D5
+        status: active
+        display_name: 王三宅
+        merged_into_person_id: null
 ---
 
 # 王三俊
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_1FBPum8LTBdeJMCSbLMi71 | 王曰可 | accepted |
+| other | p_gQ7de4k3fPsZaTDKaE81D5 | 王三宅 | accepted |
 
 ## 外部来源
 

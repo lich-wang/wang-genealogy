@@ -4,7 +4,7 @@ id: p_SZwLWWsERi5koTwSFR9UvA
 status: active
 merged_into: null
 display_name: 王國晁
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_de9Rwf9qpnJKIz2tib6Q_E
+        subject_person_id: p_MCutbyvi1BeB1uNuEEF1Tp
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_SZwLWWsERi5koTwSFR9UvA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i3V1QBzImN1YmxTFQMPXjw
+          claim_id: c_de9Rwf9qpnJKIz2tib6Q_E
+          source_id: s__l04nwU86XcLv55ek5LE7n
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 691659 王廷陞）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__l04nwU86XcLv55ek5LE7n
+            source_type: api_record
+            title: 中国历代人物传记资料库：王國晁（CBDB 703665）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703665&o=json
+            external_identifier: CBDB:703665
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MCutbyvi1BeB1uNuEEF1Tp
+        status: active
+        display_name: 王廷陞
+        merged_into_person_id: null
 ---
 
 # 王國晁
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_MCutbyvi1BeB1uNuEEF1Tp | 王廷陞 | accepted |
 
 ## 外部来源
 

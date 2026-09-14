@@ -4,7 +4,7 @@ id: p_y8yYQA2hfedBaXHUn1hFL3
 status: active
 merged_into: null
 display_name: 王德威
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,80 @@ relationships:
         status: active
         display_name: 王琳
         merged_into_person_id: null
+    - claim:
+        id: c_kvkCihoZUB2VljriZFKda2
+        subject_person_id: p_y8yYQA2hfedBaXHUn1hFL3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FQJ8PdpfMANeNs6vjg8SeR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rRphAUq8y4IWzpoJ4kBcVL
+          claim_id: c_kvkCihoZUB2VljriZFKda2
+          source_id: s_trZ4greqOPCCVFTlctWRGB
+          stance: supports
+          locator: CBDB：兄弟 王琳（198163）之父／母 王德威
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王瑜 与 王琳 为同胞（CBDB 记「兄」），王琳 之父／母即 王瑜 之父／母。
+          source:
+            id: s_trZ4greqOPCCVFTlctWRGB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑜（CBDB 296990）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296990&o=json
+            external_identifier: CBDB:296990
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FQJ8PdpfMANeNs6vjg8SeR
+        status: active
+        display_name: 王瑜
+        merged_into_person_id: null
+    - claim:
+        id: c_eJlb-Jeg1jN2O_SKIinYcU
+        subject_person_id: p_y8yYQA2hfedBaXHUn1hFL3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_e7M8RKTrVfqAUJQg5RFuLs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_N8Arj3qFtnirsaUN6rAtAH
+          claim_id: c_eJlb-Jeg1jN2O_SKIinYcU
+          source_id: s_oIPBHCmnI0cBcNOBMuAYJq
+          stance: supports
+          locator: CBDB：兄弟 王琳（198163）之父／母 王德威
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王璉 与 王琳 为同胞（CBDB 记「兄」），王琳 之父／母即 王璉 之父／母。
+          source:
+            id: s_oIPBHCmnI0cBcNOBMuAYJq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璉（CBDB 297101）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297101&o=json
+            external_identifier: CBDB:297101
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_e7M8RKTrVfqAUJQg5RFuLs
+        status: active
+        display_name: 王璉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +209,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_Va27aZRgdi5W8FWJiWP4zt | 王琳 | accepted |
+| children | p_FQJ8PdpfMANeNs6vjg8SeR | 王瑜 | accepted |
+| children | p_e7M8RKTrVfqAUJQg5RFuLs | 王璉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王德威（CBDB 296656）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296656&o=json)
+- [中国历代人物传记资料库：王璉（CBDB 297101）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297101&o=json)
 - [中国历代人物传记资料库：王琳（CBDB 198163）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198163&o=json)
+- [中国历代人物传记资料库：王瑜（CBDB 296990）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296990&o=json)

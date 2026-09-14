@@ -4,7 +4,7 @@ id: p_axvKJHczRE94VwEvMVemSc
 status: active
 merged_into: null
 display_name: 王一言
-revision: 3
+revision: 10
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,266 @@ relationships:
         display_name: 王世雍
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_wUkR6fsPTKTlh6yqDAvDLw
+        subject_person_id: p_7mHTDv44Rhrt8TAWbQCrPB
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_axvKJHczRE94VwEvMVemSc
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VyLXOyIAqmcGpo3O8M4THn
+          claim_id: c_wUkR6fsPTKTlh6yqDAvDLw
+          source_id: s_DbLaCoWaVcJmmvXFRljmH_
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203015 王一言）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_DbLaCoWaVcJmmvXFRljmH_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王一卿（CBDB 298428）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298428&o=json
+            external_identifier: CBDB:298428
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7mHTDv44Rhrt8TAWbQCrPB
+        status: active
+        display_name: 王一卿
+        merged_into_person_id: null
+    - claim:
+        id: c_C5ufo151uTVXryQmbojOKp
+        subject_person_id: p_HmNYQYLNPST1KTGaUUv8oM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_axvKJHczRE94VwEvMVemSc
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ctMuhCGj8AxFAs7rbmogS3
+          claim_id: c_C5ufo151uTVXryQmbojOKp
+          source_id: s_f0QGPoN4sF7BiVk9-47AzN
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203015 王一言）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_f0QGPoN4sF7BiVk9-47AzN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王一麟（CBDB 298429）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298429&o=json
+            external_identifier: CBDB:298429
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HmNYQYLNPST1KTGaUUv8oM
+        status: active
+        display_name: 王一麟
+        merged_into_person_id: null
+    - claim:
+        id: c_f84lJ0kmRmmpRErW08Znp4
+        subject_person_id: p_W5C5henR9j5M8DcZUztEWA
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_axvKJHczRE94VwEvMVemSc
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nnAcom7d_Lb046egC7jW8c
+          claim_id: c_f84lJ0kmRmmpRErW08Znp4
+          source_id: s_GgSwFo53LKzsde3_215-5U
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203015 王一言）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_GgSwFo53LKzsde3_215-5U
+            source_type: api_record
+            title: 中国历代人物传记资料库：王一麒（CBDB 298430）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298430&o=json
+            external_identifier: CBDB:298430
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_W5C5henR9j5M8DcZUztEWA
+        status: active
+        display_name: 王一麒
+        merged_into_person_id: null
+    - claim:
+        id: c_QjTP76VwKLfLjrG0I0urqc
+        subject_person_id: p_Yn5ABuRW9QJNhz87KhQtFX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_axvKJHczRE94VwEvMVemSc
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PM8GRSmUaMa3g-m4K88bo2
+          claim_id: c_QjTP76VwKLfLjrG0I0urqc
+          source_id: s_IhutC4VuxKuNo59S-SlYC7
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203015 王一言）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_IhutC4VuxKuNo59S-SlYC7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王一齊（CBDB 298425）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298425&o=json
+            external_identifier: CBDB:298425
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Yn5ABuRW9QJNhz87KhQtFX
+        status: active
+        display_name: 王一齊
+        merged_into_person_id: null
+    - claim:
+        id: c_rD-RQVKVdIP8133ruBs-1u
+        subject_person_id: p_axvKJHczRE94VwEvMVemSc
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_h94RYJsotCcXbyJGXE7U2C
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hZ5nbj6hYCRypZ6KGHjCrS
+          claim_id: c_rD-RQVKVdIP8133ruBs-1u
+          source_id: s_60Iug9oNp2eoh_rtFaaZ2u
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203015 王一言）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_60Iug9oNp2eoh_rtFaaZ2u
+            source_type: api_record
+            title: 中国历代人物传记资料库：王一弼（CBDB 298426）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298426&o=json
+            external_identifier: CBDB:298426
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_h94RYJsotCcXbyJGXE7U2C
+        status: active
+        display_name: 王一弼
+        merged_into_person_id: null
+    - claim:
+        id: c_OlhJJXAsBmvfxmIlGtpbtv
+        subject_person_id: p_axvKJHczRE94VwEvMVemSc
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_t7hYP4ir43vJB9in2jAKht
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_00vjEQa8xk3HuLhcwqP9ew
+          claim_id: c_OlhJJXAsBmvfxmIlGtpbtv
+          source_id: s_hc1RE02H-jAXWuT9iUGFnb
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203015 王一言）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hc1RE02H-jAXWuT9iUGFnb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王一袞（CBDB 298423）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298423&o=json
+            external_identifier: CBDB:298423
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_t7hYP4ir43vJB9in2jAKht
+        status: active
+        display_name: 王一袞
+        merged_into_person_id: null
+    - claim:
+        id: c_reKEtRKs4wBu5NVbwg-PiB
+        subject_person_id: p_axvKJHczRE94VwEvMVemSc
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zaLZ7MeMFzW6L2M9Y63jvQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-I9eboPYhaVqQ8irLmX3Ic
+          claim_id: c_reKEtRKs4wBu5NVbwg-PiB
+          source_id: s_kwnqevomL2-vtTpnaZdClx
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203015 王一言）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_kwnqevomL2-vtTpnaZdClx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王一臣（CBDB 298427）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298427&o=json
+            external_identifier: CBDB:298427
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zaLZ7MeMFzW6L2M9Y63jvQ
+        status: active
+        display_name: 王一臣
+        merged_into_person_id: null
 ---
 
 # 王一言
@@ -245,8 +504,22 @@ relationships:
 | spouses | p_cr3AKwoRHTZQoXUZr51BF7 | 施氏 | accepted |
 | ancestors | p_j5tPhm57yRfYMhoU5CNpTV | 王佐 | accepted |
 | ancestors | p_KMVQG8ESKc2GYAkUFotQJh | 王世雍 | accepted |
+| other | p_7mHTDv44Rhrt8TAWbQCrPB | 王一卿 | accepted |
+| other | p_HmNYQYLNPST1KTGaUUv8oM | 王一麟 | accepted |
+| other | p_W5C5henR9j5M8DcZUztEWA | 王一麒 | accepted |
+| other | p_Yn5ABuRW9QJNhz87KhQtFX | 王一齊 | accepted |
+| other | p_h94RYJsotCcXbyJGXE7U2C | 王一弼 | accepted |
+| other | p_t7hYP4ir43vJB9in2jAKht | 王一袞 | accepted |
+| other | p_zaLZ7MeMFzW6L2M9Y63jvQ | 王一臣 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：施氏(王一言妻)（CBDB 298422）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298422&o=json)
+- [中国历代人物传记资料库：王一弼（CBDB 298426）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298426&o=json)
+- [中国历代人物传记资料库：王一臣（CBDB 298427）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298427&o=json)
+- [中国历代人物传记资料库：王一袞（CBDB 298423）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298423&o=json)
+- [中国历代人物传记资料库：王一麟（CBDB 298429）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298429&o=json)
+- [中国历代人物传记资料库：王一齊（CBDB 298425）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298425&o=json)
+- [中国历代人物传记资料库：王一麒（CBDB 298430）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298430&o=json)
+- [中国历代人物传记资料库：王一卿（CBDB 298428）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298428&o=json)
 - [中国历代人物传记资料库：王一言（CBDB 203015）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203015&o=json)

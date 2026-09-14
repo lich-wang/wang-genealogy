@@ -4,7 +4,7 @@ id: p_4vr7bkbajYb5aZb5N7UFqC
 status: active
 merged_into: null
 display_name: 王槐
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,81 @@ relationships:
         display_name: 王益
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_V-cZrBS7MTvEtz6reIL8Jz
+        subject_person_id: p_4vr7bkbajYb5aZb5N7UFqC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_b32W2sLe2MoVvGfKAYhgfT
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_H-QWfg00AJNyxWkyfe2Ihn
+          claim_id: c_V-cZrBS7MTvEtz6reIL8Jz
+          source_id: s_CKZguHscoKVoJqd9hzq-t-
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200324 王槐）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_CKZguHscoKVoJqd9hzq-t-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王懷玉（CBDB 256344）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256344&o=json
+            external_identifier: CBDB:256344
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_b32W2sLe2MoVvGfKAYhgfT
+        status: active
+        display_name: 王懷玉
+        merged_into_person_id: null
+    - claim:
+        id: c_RLdn8Gw8rOpieZjyPUxbLV
+        subject_person_id: p_4vr7bkbajYb5aZb5N7UFqC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_eb1X6Pc72zAV4ipT7go8w4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0a-7E6XZxizIHaKnVxRfI3
+          claim_id: c_RLdn8Gw8rOpieZjyPUxbLV
+          source_id: s_SXrXspL_42x-Q-YzHYAH7m
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200324 王槐）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_SXrXspL_42x-Q-YzHYAH7m
+            source_type: api_record
+            title: 中国历代人物传记资料库：王懷珍（CBDB 256343）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256343&o=json
+            external_identifier: CBDB:256343
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_eb1X6Pc72zAV4ipT7go8w4
+        status: active
+        display_name: 王懷珍
+        merged_into_person_id: null
 ---
 
 # 王槐
@@ -240,10 +314,14 @@ relationships:
 | parents | p_nM4qfbcaYVkmZPA3x1iCHz | 王英 | accepted |
 | ancestors | p_3rB1AVmk8HkFeV89CX3373 | 王伯達 | accepted |
 | ancestors | p_GxBFo3Tg3mRPwqsk6hEJZf | 王益 | accepted |
+| other | p_b32W2sLe2MoVvGfKAYhgfT | 王懷玉 | accepted |
+| other | p_eb1X6Pc72zAV4ipT7go8w4 | 王懷珍 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王伯達（CBDB 256337）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256337&o=json)
 - [中国历代人物传记资料库：王槐（CBDB 200324）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200324&o=json)
+- [中国历代人物传记资料库：王懷玉（CBDB 256344）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256344&o=json)
+- [中国历代人物传记资料库：王懷珍（CBDB 256343）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256343&o=json)
 - [中国历代人物传记资料库：王益（CBDB 256338）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256338&o=json)
 - [中国历代人物传记资料库：王英（CBDB 256339）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256339&o=json)

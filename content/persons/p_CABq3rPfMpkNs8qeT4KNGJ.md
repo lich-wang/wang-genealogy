@@ -4,7 +4,7 @@ id: p_CABq3rPfMpkNs8qeT4KNGJ
 status: active
 merged_into: null
 display_name: 王頤
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,81 @@ relationships:
         display_name: 王伯勝
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_DmhimjRJl-6-L4zFXhjrI8
+        subject_person_id: p_CABq3rPfMpkNs8qeT4KNGJ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_EPWZZZ9U8porfk84fLjYZ5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OTlpwqsNhjmzwAxZ_Zpdb8
+          claim_id: c_DmhimjRJl-6-L4zFXhjrI8
+          source_id: s_y308HRyNsLTi_7IThFUFiS
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207361 王頤）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_y308HRyNsLTi_7IThFUFiS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王福某（CBDB 231748）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231748&o=json
+            external_identifier: CBDB:231748
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EPWZZZ9U8porfk84fLjYZ5
+        status: active
+        display_name: 王福某
+        merged_into_person_id: null
+    - claim:
+        id: c_8yS9MT_IsmZVsU1bi8Nfre
+        subject_person_id: p_CABq3rPfMpkNs8qeT4KNGJ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_NAaPBxJBF838WRQ2HrM6dg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BnLl7j54GYzmjN3NKAQ2l_
+          claim_id: c_8yS9MT_IsmZVsU1bi8Nfre
+          source_id: s_UqCg2CFPaZ8avhF_USo0qZ
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207361 王頤）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_UqCg2CFPaZ8avhF_USo0qZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世祥（CBDB 231749）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231749&o=json
+            external_identifier: CBDB:231749
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NAaPBxJBF838WRQ2HrM6dg
+        status: active
+        display_name: 王世祥
+        merged_into_person_id: null
 ---
 
 # 王頤
@@ -240,10 +314,14 @@ relationships:
 | parents | p_e8bXSz4GNvW4GQBY9EosiG | 王英 | accepted |
 | ancestors | p_bdcyFM17ttoZgF23qJm3Hk | 王忠 | accepted |
 | ancestors | p_Zp7FXq6ftrNdczJuXnD7vR | 王伯勝 | accepted |
+| other | p_EPWZZZ9U8porfk84fLjYZ5 | 王福某 | accepted |
+| other | p_NAaPBxJBF838WRQ2HrM6dg | 王世祥 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王伯勝（CBDB 231743）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231743&o=json)
+- [中国历代人物传记资料库：王福某（CBDB 231748）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231748&o=json)
+- [中国历代人物传记资料库：王世祥（CBDB 231749）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231749&o=json)
 - [中国历代人物传记资料库：王頤（CBDB 207361）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207361&o=json)
 - [中国历代人物传记资料库：王英（CBDB 231745）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231745&o=json)
 - [中国历代人物传记资料库：王忠（CBDB 231742）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231742&o=json)

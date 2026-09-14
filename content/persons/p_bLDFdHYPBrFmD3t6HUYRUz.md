@@ -4,7 +4,7 @@ id: p_bLDFdHYPBrFmD3t6HUYRUz
 status: active
 merged_into: null
 display_name: 王健
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_QXHDoH5KPq9JxEztMtqvLh
+        subject_person_id: p_ggxQ1jnked4p4GU2cPQ9m8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bLDFdHYPBrFmD3t6HUYRUz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_05tv5q3diGrpZF3jF62Rgl
+          claim_id: c_QXHDoH5KPq9JxEztMtqvLh
+          source_id: s_rYm4kDnN7Y0bMB7tndEck3
+          stance: supports
+          locator: CBDB：兄弟 王坦（126565）之父／母 王蕃
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王健 与 王坦 为同胞（CBDB 记「兄」），王坦 之父／母即 王健 之父／母。
+          source:
+            id: s_rYm4kDnN7Y0bMB7tndEck3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王健（CBDB 244424）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244424&o=json
+            external_identifier: CBDB:244424
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ggxQ1jnked4p4GU2cPQ9m8
+        status: active
+        display_name: 王蕃
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_l8Q4_tO3iIO23WlFzsVBLZ
+        subject_person_id: p_aYH4Kd4bjhZaTFXvNipRQE
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_bLDFdHYPBrFmD3t6HUYRUz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_I1VbbewUttQ1_qBBoApjf7
+          claim_id: c_l8Q4_tO3iIO23WlFzsVBLZ
+          source_id: s_rYm4kDnN7Y0bMB7tndEck3
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126565 王坦）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_rYm4kDnN7Y0bMB7tndEck3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王健（CBDB 244424）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244424&o=json
+            external_identifier: CBDB:244424
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aYH4Kd4bjhZaTFXvNipRQE
+        status: active
+        display_name: 王坦
+        merged_into_person_id: null
 ---
 
 # 王健
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ggxQ1jnked4p4GU2cPQ9m8 | 王蕃 | accepted |
+| other | p_aYH4Kd4bjhZaTFXvNipRQE | 王坦 | accepted |
 
 ## 外部来源
 

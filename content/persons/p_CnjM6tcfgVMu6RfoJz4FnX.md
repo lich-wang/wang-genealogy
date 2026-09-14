@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王繼善
 cbdb_id: 280178
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_jm-D8znAW6CZr_xATHyvfX
+        subject_person_id: p_1N7Z4wmfmL9xzTY7zGpnMb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CnjM6tcfgVMu6RfoJz4FnX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_P4KlbbLpWUJeytWZ5FzKdo
+          claim_id: c_jm-D8znAW6CZr_xATHyvfX
+          source_id: s_jpwse8YCl64zrDQ2Xc0x4D
+          stance: supports
+          locator: CBDB：兄弟 王至善（201900）之父／母 王信
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王繼善 与 王至善 为同胞（CBDB 记「弟」），王至善 之父／母即 王繼善 之父／母。
+          source:
+            id: s_jpwse8YCl64zrDQ2Xc0x4D
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繼善（CBDB 280178）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280178&o=json
+            external_identifier: CBDB:280178
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1N7Z4wmfmL9xzTY7zGpnMb
+        status: active
+        display_name: 王信
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_nqTdNmW7GFuuLaPlF4h_RM
+        subject_person_id: p_691jukaqPqsQGsFHBsNzWD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_CnjM6tcfgVMu6RfoJz4FnX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ATIEBza7me3g5fb-5VpLiL
+          claim_id: c_nqTdNmW7GFuuLaPlF4h_RM
+          source_id: s_jpwse8YCl64zrDQ2Xc0x4D
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201900 王至善）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_jpwse8YCl64zrDQ2Xc0x4D
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繼善（CBDB 280178）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280178&o=json
+            external_identifier: CBDB:280178
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_691jukaqPqsQGsFHBsNzWD
+        status: active
+        display_name: 王至善
+        merged_into_person_id: null
 ---
 
 # 王繼善
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_1N7Z4wmfmL9xzTY7zGpnMb | 王信 | accepted |
+| other | p_691jukaqPqsQGsFHBsNzWD | 王至善 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_Nyde22DrwCPsJbHshCkH4h
 status: active
 merged_into: null
 display_name: 王璞
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_RtPe777nWJGQmuYUUrrpNb
+        subject_person_id: p_vfZA8CNHYRGPvaenX91t3P
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Nyde22DrwCPsJbHshCkH4h
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_6uA2mzx4k_X5hF25w3tLah
+          claim_id: c_RtPe777nWJGQmuYUUrrpNb
+          source_id: s_8MuFlfPar2ozVIDmMAJd8m
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 37768）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_8MuFlfPar2ozVIDmMAJd8m
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璞（CBDB 483489）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=483489&o=json
+            external_identifier: CBDB:483489
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vfZA8CNHYRGPvaenX91t3P
+        status: active
+        display_name: 王德
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vfZA8CNHYRGPvaenX91t3P | 王德 | accepted |
 
 ## 外部来源
 

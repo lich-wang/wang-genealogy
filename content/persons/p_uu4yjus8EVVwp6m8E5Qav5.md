@@ -4,7 +4,7 @@ id: p_uu4yjus8EVVwp6m8E5Qav5
 status: active
 merged_into: null
 display_name: 王建中
-revision: 7
+revision: 11
 properties:
   - predicate: name.primary
     recommended:
@@ -332,7 +332,155 @@ relationships:
         display_name: 王堂
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_LESnv5prGYTqMGY_FfstxY
+        subject_person_id: p_TLiKfxEJx81hhpTUmNf6QJ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_uu4yjus8EVVwp6m8E5Qav5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SQzn_5v7IZ8KfqrT9MEzns
+          claim_id: c_LESnv5prGYTqMGY_FfstxY
+          source_id: s_HdNDyLs0DO8c7LTppU-8Wn
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207082 王建中）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_HdNDyLs0DO8c7LTppU-8Wn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王建藩（CBDB 227354）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227354&o=json
+            external_identifier: CBDB:227354
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_TLiKfxEJx81hhpTUmNf6QJ
+        status: active
+        display_name: 王建藩
+        merged_into_person_id: null
+    - claim:
+        id: c_U8LoZG06lynIcAdRyYVJkn
+        subject_person_id: p_VAz5UsvgLmXHoVaqVm7DE4
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_uu4yjus8EVVwp6m8E5Qav5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eWJCYWmJ7kgug7y0S62fuT
+          claim_id: c_U8LoZG06lynIcAdRyYVJkn
+          source_id: s_KOk0KyElUYltonbaNPzjqM
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207082 王建中）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_KOk0KyElUYltonbaNPzjqM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王建元（CBDB 227353）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227353&o=json
+            external_identifier: CBDB:227353
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VAz5UsvgLmXHoVaqVm7DE4
+        status: active
+        display_name: 王建元
+        merged_into_person_id: null
+    - claim:
+        id: c_1t5zNLeNfEzHQULtc1fpBd
+        subject_person_id: p_ZCMREA5DX8tESe1naDSaAb
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_uu4yjus8EVVwp6m8E5Qav5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pN4V_7HR6zw3H_q6XBrV62
+          claim_id: c_1t5zNLeNfEzHQULtc1fpBd
+          source_id: s_HLS-Xqvu9cg2jWpN3viKeY
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207082 王建中）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_HLS-Xqvu9cg2jWpN3viKeY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王建屏（CBDB 227355）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227355&o=json
+            external_identifier: CBDB:227355
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZCMREA5DX8tESe1naDSaAb
+        status: active
+        display_name: 王建屏
+        merged_into_person_id: null
+    - claim:
+        id: c_a3XoTpzCaLLwGvWVTtzX14
+        subject_person_id: p_tiHLM9dbSeFNccj8nA4CRe
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_uu4yjus8EVVwp6m8E5Qav5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_os12cBpwqhE8_tF5fl8rD3
+          claim_id: c_a3XoTpzCaLLwGvWVTtzX14
+          source_id: s_KaQNwusWrCF4Ui6EuowUQs
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207082 王建中）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_KaQNwusWrCF4Ui6EuowUQs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王拱極（CBDB 227352）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227352&o=json
+            external_identifier: CBDB:227352
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_tiHLM9dbSeFNccj8nA4CRe
+        status: active
+        display_name: 王拱極
+        merged_into_person_id: null
 ---
 
 # 王建中
@@ -357,6 +505,10 @@ relationships:
 | children | p_yGAL3j85f12PV7xQAnMdvY | 王墀贇 | accepted |
 | ancestors | p_9f4FXEus92MxR1KgNAKHGn | 王端 | accepted |
 | ancestors | p_hnSBnT4j7rHN6LwszWa45X | 王堂 | accepted |
+| other | p_TLiKfxEJx81hhpTUmNf6QJ | 王建藩 | accepted |
+| other | p_VAz5UsvgLmXHoVaqVm7DE4 | 王建元 | accepted |
+| other | p_ZCMREA5DX8tESe1naDSaAb | 王建屏 | accepted |
+| other | p_tiHLM9dbSeFNccj8nA4CRe | 王拱極 | accepted |
 
 ## 外部来源
 
@@ -364,6 +516,10 @@ relationships:
 - [中国历代人物传记资料库：王墀贇（CBDB 227358）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227358&o=json)
 - [中国历代人物传记资料库：王墀奏（CBDB 227357）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227357&o=json)
 - [中国历代人物传记资料库：王端（CBDB 227346）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227346&o=json)
+- [中国历代人物传记资料库：王拱極（CBDB 227352）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227352&o=json)
+- [中国历代人物传记资料库：王建藩（CBDB 227354）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227354&o=json)
+- [中国历代人物传记资料库：王建屏（CBDB 227355）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227355&o=json)
+- [中国历代人物传记资料库：王建元（CBDB 227353）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227353&o=json)
 - [中国历代人物传记资料库：王建中（CBDB 207082）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207082&o=json)
 - [中国历代人物传记资料库：王堂（CBDB 227347）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227347&o=json)
 - [中国历代人物传记资料库：王言（CBDB 227348）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227348&o=json)

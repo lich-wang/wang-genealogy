@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王察言
 cbdb_id: 204284
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,44 @@ relationships:
         display_name: 王雄
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_3WZ6g62YhSqvjkmWsyqZT7
+        subject_person_id: p_8ShgYpNx4gqrMJ9b1Zr24x
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_waicV9Fo2q7nkgGJNdNMWK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bWIlFZ9H3Pr9-jsNH39b5L
+          claim_id: c_3WZ6g62YhSqvjkmWsyqZT7
+          source_id: s__W05XqVSBFO4kDxbHDsbCG
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204284 王察言）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__W05XqVSBFO4kDxbHDsbCG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王容言（CBDB 317021）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317021&o=json
+            external_identifier: CBDB:317021
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8ShgYpNx4gqrMJ9b1Zr24x
+        status: active
+        display_name: 王容言
+        merged_into_person_id: null
 ---
 
 # 王察言
@@ -257,10 +294,12 @@ relationships:
 | parents | p_SrQ4q1BgrQiRVKwrVN4Lqb | 王應 | accepted |
 | ancestors | p_1eDGUA4h2MBNDhEo468hA9 | 王玘 | accepted |
 | ancestors | p_EV852HK28ZdHsvAgoR8BYL | 王雄 | accepted |
+| other | p_8ShgYpNx4gqrMJ9b1Zr24x | 王容言 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王察言（CBDB 204284）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204284&o=json)
 - [中国历代人物传记资料库：王玘（CBDB 317014）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317014&o=json)
+- [中国历代人物传记资料库：王容言（CBDB 317021）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317021&o=json)
 - [中国历代人物传记资料库：王雄（CBDB 317015）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317015&o=json)
 - [中国历代人物传记资料库：王應（CBDB 317016）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317016&o=json)

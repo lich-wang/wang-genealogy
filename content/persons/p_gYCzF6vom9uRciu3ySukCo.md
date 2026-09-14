@@ -4,7 +4,7 @@ id: p_gYCzF6vom9uRciu3ySukCo
 status: active
 merged_into: null
 display_name: 王輔
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -227,7 +227,44 @@ relationships:
         status: active
         display_name: 王家棟
         merged_into_person_id: null
-  other: []
+  other:
+    - claim:
+        id: c_WFmEgssY-5VcpUqSvtsu8f
+        subject_person_id: p_Ysy8ctZhuNMgnTraC3RChz
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gYCzF6vom9uRciu3ySukCo
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ne4oBsqHbNg6qsjsj1YmEB
+          claim_id: c_WFmEgssY-5VcpUqSvtsu8f
+          source_id: s_GX0syHM6m3kugxNL-ZxWSy
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 212648 王輔）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_GX0syHM6m3kugxNL-ZxWSy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宣（CBDB 227995）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227995&o=json
+            external_identifier: CBDB:227995
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Ysy8ctZhuNMgnTraC3RChz
+        status: active
+        display_name: 王宣
+        merged_into_person_id: null
 ---
 
 # 王輔
@@ -249,6 +286,7 @@ relationships:
 | ancestors | p_1153YmzQrFf4MqpahVJUVe | 王俊卿 | accepted |
 | ancestors | p_9APm5s4Qnt3Y1TuWpeSg1p | 王文智 | accepted |
 | descendants | p_Bhku7LXKrphWSf7fyoW8hh | 王家棟 | accepted |
+| other | p_Ysy8ctZhuNMgnTraC3RChz | 王宣 | accepted |
 
 ## 外部来源
 
@@ -257,3 +295,4 @@ relationships:
 - [中国历代人物传记资料库：王家棟（CBDB 206050）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206050&o=json)
 - [中国历代人物传记资料库：王俊卿（CBDB 227928）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227928&o=json)
 - [中国历代人物传记资料库：王文智（CBDB 227939）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227939&o=json)
+- [中国历代人物传记资料库：王宣（CBDB 227995）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227995&o=json)

@@ -4,7 +4,7 @@ id: p_8FE6kbWmNCoQTRuebayd8Y
 status: active
 merged_into: null
 display_name: 王元賓
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,81 @@ relationships:
         display_name: 王美
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_7XqhCE679ktoRwvYv1I55I
+        subject_person_id: p_8FE6kbWmNCoQTRuebayd8Y
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_PQRRw5Pc1BQewPTN93y2aU
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_u-n3Mhn7qC7Xe2Hw4SUcrv
+          claim_id: c_7XqhCE679ktoRwvYv1I55I
+          source_id: s_ujoV9ToKYhvky2Cp5mREM7
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205321 王元賓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ujoV9ToKYhvky2Cp5mREM7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王利賓（CBDB 331580）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331580&o=json
+            external_identifier: CBDB:331580
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PQRRw5Pc1BQewPTN93y2aU
+        status: active
+        display_name: 王利賓
+        merged_into_person_id: null
+    - claim:
+        id: c_XzM-2Q4D0eUuoOUhleNrIe
+        subject_person_id: p_8FE6kbWmNCoQTRuebayd8Y
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_y5V3x2KBuHfJWj5Y76UY1p
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jfcInTEhOxie55eYVcvSYv
+          claim_id: c_XzM-2Q4D0eUuoOUhleNrIe
+          source_id: s_kZ9-bXpTxOU40h-n4lPZKN
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205321 王元賓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_kZ9-bXpTxOU40h-n4lPZKN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嘉賓（CBDB 331579）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331579&o=json
+            external_identifier: CBDB:331579
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_y5V3x2KBuHfJWj5Y76UY1p
+        status: active
+        display_name: 王嘉賓
+        merged_into_person_id: null
 ---
 
 # 王元賓
@@ -240,10 +314,14 @@ relationships:
 | parents | p_ZgyZoznnAJrPag6d8FS83S | 王天敘 | accepted |
 | ancestors | p_1wWHhQNZgJfD93CSbaMxHB | 王峻 | accepted |
 | ancestors | p_gUUJKQGSX2LfpBpTeYDNpT | 王美 | accepted |
+| other | p_PQRRw5Pc1BQewPTN93y2aU | 王利賓 | accepted |
+| other | p_y5V3x2KBuHfJWj5Y76UY1p | 王嘉賓 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王嘉賓（CBDB 331579）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331579&o=json)
 - [中国历代人物传记资料库：王峻（CBDB 331573）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331573&o=json)
+- [中国历代人物传记资料库：王利賓（CBDB 331580）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331580&o=json)
 - [中国历代人物传记资料库：王美（CBDB 331574）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331574&o=json)
 - [中国历代人物传记资料库：王天敘（CBDB 331575）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331575&o=json)
 - [中国历代人物传记资料库：王元賓（CBDB 205321）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205321&o=json)

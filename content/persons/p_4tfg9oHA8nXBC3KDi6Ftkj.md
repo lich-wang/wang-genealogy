@@ -4,7 +4,7 @@ id: p_4tfg9oHA8nXBC3KDi6Ftkj
 status: active
 merged_into: null
 display_name: 王可大
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -220,7 +220,81 @@ relationships:
         status: active
         display_name: 王萬禩
         merged_into_person_id: null
-  other: []
+  other:
+    - claim:
+        id: c_sr3EtOsy6mz-LmzaZ66c0R
+        subject_person_id: p_4tfg9oHA8nXBC3KDi6Ftkj
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_GW4yQbE97444em21h12jvd
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1qzQEZM7SIyj7uUAAQsKus
+          claim_id: c_sr3EtOsy6mz-LmzaZ66c0R
+          source_id: s_wOpmx1F3NYMsORVOmkCjLt
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126483 王可大）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_wOpmx1F3NYMsORVOmkCjLt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王可久（CBDB 315816）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315816&o=json
+            external_identifier: CBDB:315816
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GW4yQbE97444em21h12jvd
+        status: active
+        display_name: 王可久
+        merged_into_person_id: null
+    - claim:
+        id: c_E0D2lGihgddd6y0S-8Lq--
+        subject_person_id: p_4tfg9oHA8nXBC3KDi6Ftkj
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_UZw1Q4wShyTYtirzGFPLvV
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OVLKymHnS82AirHUYePs9i
+          claim_id: c_E0D2lGihgddd6y0S-8Lq--
+          source_id: s_250XxhrCW850vQb5-gH5Kv
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126483 王可大）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_250XxhrCW850vQb5-gH5Kv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王可立（CBDB 315818）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315818&o=json
+            external_identifier: CBDB:315818
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_UZw1Q4wShyTYtirzGFPLvV
+        status: active
+        display_name: 王可立
+        merged_into_person_id: null
 ---
 
 # 王可大
@@ -243,8 +317,12 @@ relationships:
 | ancestors | p_w5C91WDSavr3ujcuxfQ8fs | 王信 | accepted |
 | ancestors | p_75UUBDKGozhsnJNXRNe48F | 王閔 | accepted |
 | descendants | p_bkZEV7s5emg2XrT2FCzbqF | 王萬禩 | accepted |
+| other | p_GW4yQbE97444em21h12jvd | 王可久 | accepted |
+| other | p_UZw1Q4wShyTYtirzGFPLvV | 王可立 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王可大（CBDB 126483）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126483&o=json)
+- [中国历代人物传记资料库：王可久（CBDB 315816）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315816&o=json)
+- [中国历代人物传记资料库：王可立（CBDB 315818）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315818&o=json)
 - [中国历代人物传记资料库：朱氏(王可大妻)（CBDB 315815）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315815&o=json)

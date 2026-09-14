@@ -4,7 +4,7 @@ id: p_kzBxUQ6xDWVXrnCj5Py711
 status: active
 merged_into: null
 display_name: 王方
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_N2xqfa6LV1_v6Dtcji5Vl-
+        subject_person_id: p_zsVFNTYzGiADoYvqX8wVfc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kzBxUQ6xDWVXrnCj5Py711
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZRGTZJOgH3rGcWONkOw-Mr
+          claim_id: c_N2xqfa6LV1_v6Dtcji5Vl-
+          source_id: s__SUTwW_D9MSz6kgtu7OtH1
+          stance: supports
+          locator: CBDB：兄弟 王交（126505）之父／母 王嵱
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王方 与 王交 为同胞（CBDB 记「弟」），王交 之父／母即 王方 之父／母。
+          source:
+            id: s__SUTwW_D9MSz6kgtu7OtH1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王方（CBDB 304535）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304535&o=json
+            external_identifier: CBDB:304535
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zsVFNTYzGiADoYvqX8wVfc
+        status: active
+        display_name: 王嵱
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_JQK1tS-rdWNMJcBgGr7XLZ
+        subject_person_id: p_JML3zLgbrajmhN4fDU1Pka
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kzBxUQ6xDWVXrnCj5Py711
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yuP7uMhxGm66z2Gku-tfGD
+          claim_id: c_JQK1tS-rdWNMJcBgGr7XLZ
+          source_id: s__SUTwW_D9MSz6kgtu7OtH1
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126505 王交）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__SUTwW_D9MSz6kgtu7OtH1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王方（CBDB 304535）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304535&o=json
+            external_identifier: CBDB:304535
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JML3zLgbrajmhN4fDU1Pka
+        status: active
+        display_name: 王交
+        merged_into_person_id: null
 ---
 
 # 王方
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_zsVFNTYzGiADoYvqX8wVfc | 王嵱 | accepted |
+| other | p_JML3zLgbrajmhN4fDU1Pka | 王交 | accepted |
 
 ## 外部来源
 

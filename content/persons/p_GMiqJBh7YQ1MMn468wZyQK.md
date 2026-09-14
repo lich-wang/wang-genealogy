@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王曰然
 cbdb_id: 203455
-revision: 4
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,81 @@ relationships:
         display_name: 王卿
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_JdY2s9MMWVdH47WX0ojpeG
+        subject_person_id: p_GMiqJBh7YQ1MMn468wZyQK
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_b6HpJaKmbrdGDEF2KMtHGb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TXex0_uJ0fgvbxVbqgVg0S
+          claim_id: c_JdY2s9MMWVdH47WX0ojpeG
+          source_id: s_D2V_sjlc8UgETOPWp2xPvG
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203455 王曰然）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_D2V_sjlc8UgETOPWp2xPvG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王曰可（CBDB 304959）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304959&o=json
+            external_identifier: CBDB:304959
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_b6HpJaKmbrdGDEF2KMtHGb
+        status: active
+        display_name: 王曰可
+        merged_into_person_id: null
+    - claim:
+        id: c_mJWFrDX3boTLMonnNWqYf-
+        subject_person_id: p_GMiqJBh7YQ1MMn468wZyQK
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dDFgVcaeJ3A2LBwBjJhfEC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ktsv72mmBzkjv82nDs2gWt
+          claim_id: c_mJWFrDX3boTLMonnNWqYf-
+          source_id: s_vyQCwbFefY3lcyNhRfbDe9
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203455 王曰然）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_vyQCwbFefY3lcyNhRfbDe9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王曰善（CBDB 304961）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304961&o=json
+            external_identifier: CBDB:304961
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dDFgVcaeJ3A2LBwBjJhfEC
+        status: active
+        display_name: 王曰善
+        merged_into_person_id: null
 ---
 
 # 王曰然
@@ -257,10 +331,14 @@ relationships:
 | parents | p_vV52ECfgKpenuD9v8Dh9jq | 王施恩 | accepted |
 | ancestors | p_dG6mQ8rDUmkm3T8g7DgPnD | 王素 | accepted |
 | ancestors | p_KPFBCEe2VZqm2XvkaL2TBy | 王卿 | accepted |
+| other | p_b6HpJaKmbrdGDEF2KMtHGb | 王曰可 | accepted |
+| other | p_dDFgVcaeJ3A2LBwBjJhfEC | 王曰善 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王卿（CBDB 304955）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304955&o=json)
 - [中国历代人物传记资料库：王施恩（CBDB 304956）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304956&o=json)
 - [中国历代人物传记资料库：王素（CBDB 304954）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304954&o=json)
+- [中国历代人物传记资料库：王曰可（CBDB 304959）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304959&o=json)
 - [中国历代人物传记资料库：王曰然（CBDB 203455）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203455&o=json)
+- [中国历代人物传记资料库：王曰善（CBDB 304961）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304961&o=json)

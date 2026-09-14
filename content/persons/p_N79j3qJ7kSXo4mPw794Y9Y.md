@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王學朱
 cbdb_id: 315450
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_C1Q8_ZK1joldiyD0kUOKSC
+        subject_person_id: p_6U2hKWNf3zvZ6acQ4hYSRb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_N79j3qJ7kSXo4mPw794Y9Y
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_n1LJFHDJErLaVapkXR-v9L
+          claim_id: c_C1Q8_ZK1joldiyD0kUOKSC
+          source_id: s_snmPmV0nHSizYPDETQ3tOM
+          stance: supports
+          locator: CBDB：兄弟 王學顏（126840）之父／母 王相
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王學朱 与 王學顏 为同胞（CBDB 记「兄」），王學顏 之父／母即 王學朱 之父／母。
+          source:
+            id: s_snmPmV0nHSizYPDETQ3tOM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王學朱（CBDB 315450）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315450&o=json
+            external_identifier: CBDB:315450
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6U2hKWNf3zvZ6acQ4hYSRb
+        status: active
+        display_name: 王相
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_jdL9gn8GzoIjNTWsq8esGh
+        subject_person_id: p_N79j3qJ7kSXo4mPw794Y9Y
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_tJ4a7bRMV9hCP3y348uRJE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NYhLgZdoGrWgJuFRGNjyW4
+          claim_id: c_jdL9gn8GzoIjNTWsq8esGh
+          source_id: s_snmPmV0nHSizYPDETQ3tOM
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126840 王學顏）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_snmPmV0nHSizYPDETQ3tOM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王學朱（CBDB 315450）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315450&o=json
+            external_identifier: CBDB:315450
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_tJ4a7bRMV9hCP3y348uRJE
+        status: active
+        display_name: 王學顏
+        merged_into_person_id: null
 ---
 
 # 王學朱
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_6U2hKWNf3zvZ6acQ4hYSRb | 王相 | accepted |
+| other | p_tJ4a7bRMV9hCP3y348uRJE | 王學顏 | accepted |
 
 ## 外部来源
 

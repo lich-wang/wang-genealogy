@@ -4,7 +4,7 @@ id: p_bGA9f5CTCFCRJmcWcUEGyG
 status: active
 merged_into: null
 display_name: 王本
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,117 @@ relationships:
         status: active
         display_name: 王啟
         merged_into_person_id: null
+    - claim:
+        id: c_IG3NAMMTGj3aqcVZnGsfZW
+        subject_person_id: p_bGA9f5CTCFCRJmcWcUEGyG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_29ZocSe1Lr722SWiwgAGcj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dVbgrTtTYO3J71eDWD7Gfv
+          claim_id: c_IG3NAMMTGj3aqcVZnGsfZW
+          source_id: s__XLzl09PSJlVkci3RmjHWw
+          stance: supports
+          locator: CBDB：兄弟 王啟（126669）之父／母 王本
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王桓 与 王啟 为同胞（CBDB 记「弟」），王啟 之父／母即 王桓 之父／母。
+          source:
+            id: s__XLzl09PSJlVkci3RmjHWw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王桓（CBDB 260170）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260170&o=json
+            external_identifier: CBDB:260170
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_29ZocSe1Lr722SWiwgAGcj
+        status: active
+        display_name: 王桓
+        merged_into_person_id: null
+    - claim:
+        id: c_7VIoTC-gZ5kUHSx4dURDsA
+        subject_person_id: p_bGA9f5CTCFCRJmcWcUEGyG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QWHq18dFGk2nWKe7dM4HTm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RlUdrJzGNgh2G98qxP-fyd
+          claim_id: c_7VIoTC-gZ5kUHSx4dURDsA
+          source_id: s_odhU9vEq_udJGvc3ShiE2u
+          stance: supports
+          locator: CBDB：兄弟 王啟（126669）之父／母 王本
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王根 与 王啟 为同胞（CBDB 记「兄」），王啟 之父／母即 王根 之父／母。
+          source:
+            id: s_odhU9vEq_udJGvc3ShiE2u
+            source_type: api_record
+            title: 中国历代人物传记资料库：王根（CBDB 260171）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260171&o=json
+            external_identifier: CBDB:260171
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_QWHq18dFGk2nWKe7dM4HTm
+        status: active
+        display_name: 王根
+        merged_into_person_id: null
+    - claim:
+        id: c_Trc8n0n6bNUZlufdqL1J_o
+        subject_person_id: p_bGA9f5CTCFCRJmcWcUEGyG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QfuWsMtbTaebxWsjV3ST7r
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FQLvkHeHbdx50cW0Gkeflc
+          claim_id: c_Trc8n0n6bNUZlufdqL1J_o
+          source_id: s_OaNAAnPKN57n1y5pFB3xLW
+          stance: supports
+          locator: CBDB：兄弟 王啟（126669）之父／母 王本
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王校 与 王啟 为同胞（CBDB 记「弟」），王啟 之父／母即 王校 之父／母。
+          source:
+            id: s_OaNAAnPKN57n1y5pFB3xLW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王校（CBDB 260169）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260169&o=json
+            external_identifier: CBDB:260169
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_QfuWsMtbTaebxWsjV3ST7r
+        status: active
+        display_name: 王校
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +235,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_Y8c9Xt6HZtEueH7Ywuv2af | 王啟 | accepted |
+| children | p_29ZocSe1Lr722SWiwgAGcj | 王桓 | accepted |
+| children | p_QWHq18dFGk2nWKe7dM4HTm | 王根 | accepted |
+| children | p_QfuWsMtbTaebxWsjV3ST7r | 王校 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王本（CBDB 260164）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260164&o=json)
+- [中国历代人物传记资料库：王根（CBDB 260171）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260171&o=json)
+- [中国历代人物传记资料库：王桓（CBDB 260170）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260170&o=json)
+- [中国历代人物传记资料库：王校（CBDB 260169）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260169&o=json)

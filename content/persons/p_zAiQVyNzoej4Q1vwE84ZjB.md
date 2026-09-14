@@ -4,7 +4,7 @@ id: p_zAiQVyNzoej4Q1vwE84ZjB
 status: active
 merged_into: null
 display_name: 王漸逵
-revision: 2
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -213,7 +213,229 @@ relationships:
         display_name: 王珤
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_2wYJCmF2ru8NXfdtgvw0CA
+        subject_person_id: p_6ejbA13NwK2QQUt5VT8wE3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zAiQVyNzoej4Q1vwE84ZjB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LrySv0yTQL2hSV1uDJ5jhF
+          claim_id: c_2wYJCmF2ru8NXfdtgvw0CA
+          source_id: s_HsNSGet-uZXsl_FzM3C5Z4
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126774 王漸逵）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_HsNSGet-uZXsl_FzM3C5Z4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王漸適（CBDB 279747）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279747&o=json
+            external_identifier: CBDB:279747
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6ejbA13NwK2QQUt5VT8wE3
+        status: active
+        display_name: 王漸適
+        merged_into_person_id: null
+    - claim:
+        id: c_nJXmxNwG5-qAaBlOuU2NA8
+        subject_person_id: p_AxsVtrCi1ZCfXEQCu435z3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zAiQVyNzoej4Q1vwE84ZjB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Xw34vm7booOs9sJSgw3YBJ
+          claim_id: c_nJXmxNwG5-qAaBlOuU2NA8
+          source_id: s_feriU1vMvJnMq6mXQBzW8K
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126774 王漸逵）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_feriU1vMvJnMq6mXQBzW8K
+            source_type: api_record
+            title: 中国历代人物传记资料库：王适迪（CBDB 279742）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279742&o=json
+            external_identifier: CBDB:279742
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_AxsVtrCi1ZCfXEQCu435z3
+        status: active
+        display_name: 王适迪
+        merged_into_person_id: null
+    - claim:
+        id: c_kv4fO_I2OZCrNNUiOyNA93
+        subject_person_id: p_BVBKSKkbmm3UpBzszMgVLL
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zAiQVyNzoej4Q1vwE84ZjB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NioVa479JUDKEChywUJWxz
+          claim_id: c_kv4fO_I2OZCrNNUiOyNA93
+          source_id: s_eKDA9NC-CJG1PzkaHsMEz7
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126774 王漸逵）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_eKDA9NC-CJG1PzkaHsMEz7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王漸造（CBDB 279745）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279745&o=json
+            external_identifier: CBDB:279745
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BVBKSKkbmm3UpBzszMgVLL
+        status: active
+        display_name: 王漸造
+        merged_into_person_id: null
+    - claim:
+        id: c_v-NQHnOw2jH8r-B7YCrDl7
+        subject_person_id: p_EJwVDZj1xNqv72p5LMTvfk
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zAiQVyNzoej4Q1vwE84ZjB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fQKESHUK4CzR5ANw0-4bMW
+          claim_id: c_v-NQHnOw2jH8r-B7YCrDl7
+          source_id: s_w04pQc7yt1b9-lyZbWdRoh
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126774 王漸逵）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_w04pQc7yt1b9-lyZbWdRoh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王達途（CBDB 279744）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279744&o=json
+            external_identifier: CBDB:279744
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EJwVDZj1xNqv72p5LMTvfk
+        status: active
+        display_name: 王達途
+        merged_into_person_id: null
+    - claim:
+        id: c_F9KGXVzzWF91Q6I4tV4G6b
+        subject_person_id: p_X8ey8mTATQs82jLVUHi3v5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zAiQVyNzoej4Q1vwE84ZjB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3l4nTCZ9f6diNcSRD3_Z8L
+          claim_id: c_F9KGXVzzWF91Q6I4tV4G6b
+          source_id: s_uHbF-RV8N0jjl5CW8LgRfe
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126774 王漸逵）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_uHbF-RV8N0jjl5CW8LgRfe
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遲速（CBDB 279743）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279743&o=json
+            external_identifier: CBDB:279743
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_X8ey8mTATQs82jLVUHi3v5
+        status: active
+        display_name: 王遲速
+        merged_into_person_id: null
+    - claim:
+        id: c_lFkxM2sD6i-fUkznUJsiJc
+        subject_person_id: p_foNgNH1fWVwkc8JrcWVu76
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zAiQVyNzoej4Q1vwE84ZjB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YYKfzzFlF1QV_5U6NH8X3b
+          claim_id: c_lFkxM2sD6i-fUkznUJsiJc
+          source_id: s_06MlpVOJ2CYeGIzGKNtXax
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126774 王漸逵）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_06MlpVOJ2CYeGIzGKNtXax
+            source_type: api_record
+            title: 中国历代人物传记资料库：王漸逑（CBDB 279746）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279746&o=json
+            external_identifier: CBDB:279746
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_foNgNH1fWVwkc8JrcWVu76
+        status: active
+        display_name: 王漸逑
+        merged_into_person_id: null
 ---
 
 # 王漸逵
@@ -236,7 +458,19 @@ relationships:
 | parents | p_83yzu33D3zG1xGPeEb9Ebe | 王傅 | accepted |
 | ancestors | p_C5E5FRAAqgq5bUt3aJdU9J | 王茕立 | accepted |
 | ancestors | p_RrddoDHvhLNarezkWkfGUJ | 王珤 | accepted |
+| other | p_6ejbA13NwK2QQUt5VT8wE3 | 王漸適 | accepted |
+| other | p_AxsVtrCi1ZCfXEQCu435z3 | 王适迪 | accepted |
+| other | p_BVBKSKkbmm3UpBzszMgVLL | 王漸造 | accepted |
+| other | p_EJwVDZj1xNqv72p5LMTvfk | 王達途 | accepted |
+| other | p_X8ey8mTATQs82jLVUHi3v5 | 王遲速 | accepted |
+| other | p_foNgNH1fWVwkc8JrcWVu76 | 王漸逑 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王遲速（CBDB 279743）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279743&o=json)
+- [中国历代人物传记资料库：王達途（CBDB 279744）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279744&o=json)
 - [中国历代人物传记资料库：王漸逵（CBDB 126774）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126774&o=json)
+- [中国历代人物传记资料库：王漸逑（CBDB 279746）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279746&o=json)
+- [中国历代人物传记资料库：王漸適（CBDB 279747）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279747&o=json)
+- [中国历代人物传记资料库：王漸造（CBDB 279745）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279745&o=json)
+- [中国历代人物传记资料库：王适迪（CBDB 279742）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279742&o=json)

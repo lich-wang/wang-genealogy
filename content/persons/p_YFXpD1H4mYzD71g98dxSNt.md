@@ -4,7 +4,7 @@ id: p_YFXpD1H4mYzD71g98dxSNt
 status: active
 merged_into: null
 display_name: 王爌
-revision: 2
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -337,7 +337,118 @@ relationships:
         display_name: 王宗
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_s2pRuunsKs_RZt1I_7YnDP
+        subject_person_id: p_C3UyF1t9PwmEJYY4zJQBV8
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_YFXpD1H4mYzD71g98dxSNt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZbPVHvUUR0rW7l5VYFMBC8
+          claim_id: c_s2pRuunsKs_RZt1I_7YnDP
+          source_id: s_WKZA2u0n1ON6z96B_28XHz
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 68280 王爌）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_WKZA2u0n1ON6z96B_28XHz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王炫（CBDB 272149）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272149&o=json
+            external_identifier: CBDB:272149
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_C3UyF1t9PwmEJYY4zJQBV8
+        status: active
+        display_name: 王炫
+        merged_into_person_id: null
+    - claim:
+        id: c_A8QJOarrB52yXOAd6EMYST
+        subject_person_id: p_YFXpD1H4mYzD71g98dxSNt
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zFbpxQtGYwWDiJxKzHRPE1
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mEPXewYuRKUGnpEJhDTG7h
+          claim_id: c_A8QJOarrB52yXOAd6EMYST
+          source_id: s_lfiHtzYr_uFCxFKTldP9LR
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 68280 王爌）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_lfiHtzYr_uFCxFKTldP9LR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王燁（CBDB 272147）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272147&o=json
+            external_identifier: CBDB:272147
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zFbpxQtGYwWDiJxKzHRPE1
+        status: active
+        display_name: 王燁
+        merged_into_person_id: null
+    - claim:
+        id: c_RmjGYnXWYQ810eZ5KFMQiN
+        subject_person_id: p_YFXpD1H4mYzD71g98dxSNt
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zu3QxS3dL67wx3qZ58j46L
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vJiFMhRQ8cyT5wDmREWZ7L
+          claim_id: c_RmjGYnXWYQ810eZ5KFMQiN
+          source_id: s_uS4YULKSrRWQS63OT7bDSp
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 68280 王爌）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_uS4YULKSrRWQS63OT7bDSp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王烈（CBDB 272148）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272148&o=json
+            external_identifier: CBDB:272148
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zu3QxS3dL67wx3qZ58j46L
+        status: active
+        display_name: 王烈
+        merged_into_person_id: null
 ---
 
 # 王爌
@@ -360,12 +471,18 @@ relationships:
 | spouses | p_wx8pV5FXm9qYnA5ZT1tswN | 葛氏 | accepted |
 | ancestors | p_N27zaVAVE31vavnkwj7Dft | 王伯永 | accepted |
 | ancestors | p_255t2nDMrWzFXS93NLqNE3 | 王宗 | accepted |
+| other | p_C3UyF1t9PwmEJYY4zJQBV8 | 王炫 | accepted |
+| other | p_zFbpxQtGYwWDiJxKzHRPE1 | 王燁 | accepted |
+| other | p_zu3QxS3dL67wx3qZ58j46L | 王烈 | accepted |
 
 ## 外部来源
 
 - [维基数据：葛氏（Q65880296）](https://www.wikidata.org/wiki/Q65880296)
 - [维基数据：王玼（Q45436592）](https://www.wikidata.org/wiki/Q45436592)
 - [维基数据：王爌（Q15926463）](https://www.wikidata.org/wiki/Q15926463)
+- [中国历代人物传记资料库：王烈（CBDB 272148）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272148&o=json)
+- [中国历代人物传记资料库：王炫（CBDB 272149）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272149&o=json)
+- [中国历代人物传记资料库：王燁（CBDB 272147）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272147&o=json)
 - [中文维基百科：王爌](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%88%8C)
 - [CBDB 中国历代人物传记资料库：王伯永（272142）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272142&o=json)
 - [CBDB 中国历代人物传记资料库：王爌（68280）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68280&o=json)

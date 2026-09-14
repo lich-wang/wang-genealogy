@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王繼仁
 cbdb_id: 336281
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -113,6 +113,43 @@ relationships:
         status: active
         display_name: 王一鳳
         merged_into_person_id: null
+    - claim:
+        id: c_4Vm0rO0kUJRSZamzVsoN8e
+        subject_person_id: p_D3z8LjQkLgGxFGKKZZcbKs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yjjnGi66486C7Qm4RitBqB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RJK2C9gLgy_5ua3edrtsY2
+          claim_id: c_4Vm0rO0kUJRSZamzVsoN8e
+          source_id: s_AzoUYin-_NeiD8dsibnGj3
+          stance: supports
+          locator: CBDB：兄弟 王一鳳（205635）之父／母 王繼仁
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王一鴻 与 王一鳳 为同胞（CBDB 记「兄」），王一鳳 之父／母即 王一鴻 之父／母。
+          source:
+            id: s_AzoUYin-_NeiD8dsibnGj3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王一鴻（CBDB 336285）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336285&o=json
+            external_identifier: CBDB:336285
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_yjjnGi66486C7Qm4RitBqB
+        status: active
+        display_name: 王一鴻
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -137,8 +174,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_5cJbXaZPVCfH9EZ6651kPP | 王一鳳 | accepted |
+| children | p_yjjnGi66486C7Qm4RitBqB | 王一鴻 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王繼仁（CBDB 336281）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336281&o=json)
 - [中国历代人物传记资料库：王一鳳（CBDB 205635）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205635&o=json)
+- [中国历代人物传记资料库：王一鴻（CBDB 336285）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336285&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王伯萬
 cbdb_id: 274046
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_XoBfv9zSX3RC8uuNhGLXxr
+        subject_person_id: p_dPbUUoQEGcRs5zuUF67Td8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_UWL6G8d3xRxiAutVHQCCn6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OU69rYXW9pAqSmNWoW_h6n
+          claim_id: c_XoBfv9zSX3RC8uuNhGLXxr
+          source_id: s_R_XCfwnI8qkaekUD2unCVb
+          stance: supports
+          locator: CBDB：兄弟 王一麟（201540）之父／母 王坤
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王伯萬 与 王一麟 为同胞（CBDB 记「弟」），王一麟 之父／母即 王伯萬 之父／母。
+          source:
+            id: s_R_XCfwnI8qkaekUD2unCVb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王伯萬（CBDB 274046）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274046&o=json
+            external_identifier: CBDB:274046
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dPbUUoQEGcRs5zuUF67Td8
+        status: active
+        display_name: 王坤
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_2cDRQFTV6FN9MFthsz6uCL
+        subject_person_id: p_UWL6G8d3xRxiAutVHQCCn6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zypfM9LtT1QVxbd1JRHGna
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qWoaEEbta9cljxqEdvn9iT
+          claim_id: c_2cDRQFTV6FN9MFthsz6uCL
+          source_id: s_R_XCfwnI8qkaekUD2unCVb
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201540 王一麟）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_R_XCfwnI8qkaekUD2unCVb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王伯萬（CBDB 274046）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274046&o=json
+            external_identifier: CBDB:274046
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zypfM9LtT1QVxbd1JRHGna
+        status: active
+        display_name: 王一麟
+        merged_into_person_id: null
 ---
 
 # 王伯萬
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_dPbUUoQEGcRs5zuUF67Td8 | 王坤 | accepted |
+| other | p_zypfM9LtT1QVxbd1JRHGna | 王一麟 | accepted |
 
 ## 外部来源
 

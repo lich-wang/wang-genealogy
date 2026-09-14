@@ -4,7 +4,7 @@ id: p_3QDnXJ1yrE5aSbLLXiVLND
 status: active
 merged_into: null
 display_name: 王嵩
-revision: 4
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -190,7 +190,118 @@ relationships:
         display_name: 王郁
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_d20ZtJ2vTjeusFPj_r-Zp6
+        subject_person_id: p_3QDnXJ1yrE5aSbLLXiVLND
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_B2inFXzoQGSyJ7aKhbAuCA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_khBjXvxZHG8sFuDvamcz6k
+          claim_id: c_d20ZtJ2vTjeusFPj_r-Zp6
+          source_id: s_DTRyTsREOObH7vRtvqCydX
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126762 王嵩）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_DTRyTsREOObH7vRtvqCydX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王福（CBDB 249823）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249823&o=json
+            external_identifier: CBDB:249823
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_B2inFXzoQGSyJ7aKhbAuCA
+        status: active
+        display_name: 王福
+        merged_into_person_id: null
+    - claim:
+        id: c_v5CWzNDbVBCs74byMrDiKk
+        subject_person_id: p_3QDnXJ1yrE5aSbLLXiVLND
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ZLbtvRZbm7sAMbjurg6W9G
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1NrQAtwaHGVcwtpJAcLpJb
+          claim_id: c_v5CWzNDbVBCs74byMrDiKk
+          source_id: s_D9K-ePPQ9et846E2TYQHRr
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126762 王嵩）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_D9K-ePPQ9et846E2TYQHRr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王泰（CBDB 249822）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249822&o=json
+            external_identifier: CBDB:249822
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZLbtvRZbm7sAMbjurg6W9G
+        status: active
+        display_name: 王泰
+        merged_into_person_id: null
+    - claim:
+        id: c_-2uQ1TmLqeX7-cT0q6IIaR
+        subject_person_id: p_3QDnXJ1yrE5aSbLLXiVLND
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mzBo2x37huH7NUFrM2LB8v
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K5jx4pU3ceYI3QLDXr6H5m
+          claim_id: c_-2uQ1TmLqeX7-cT0q6IIaR
+          source_id: s_x4AXeL5H1T9QcTQs60s1Rb
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126762 王嵩）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_x4AXeL5H1T9QcTQs60s1Rb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王安（CBDB 249821）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249821&o=json
+            external_identifier: CBDB:249821
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mzBo2x37huH7NUFrM2LB8v
+        status: active
+        display_name: 王安
+        merged_into_person_id: null
 ---
 
 # 王嵩
@@ -211,10 +322,16 @@ relationships:
 | parents | p_219jQxSbAi8XEaLPFhzHTg | 王信 | accepted |
 | ancestors | p_fwuXqxBZyzm1CXDDVHJvP6 | 王得 | accepted |
 | ancestors | p_WEdok1ba7cZuJHUL3K5zY9 | 王郁 | accepted |
+| other | p_B2inFXzoQGSyJ7aKhbAuCA | 王福 | accepted |
+| other | p_ZLbtvRZbm7sAMbjurg6W9G | 王泰 | accepted |
+| other | p_mzBo2x37huH7NUFrM2LB8v | 王安 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王安（CBDB 249821）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249821&o=json)
 - [中国历代人物传记资料库：王得（CBDB 249815）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249815&o=json)
+- [中国历代人物传记资料库：王福（CBDB 249823）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249823&o=json)
 - [中国历代人物传记资料库：王嵩（CBDB 126762）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126762&o=json)
+- [中国历代人物传记资料库：王泰（CBDB 249822）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249822&o=json)
 - [中国历代人物传记资料库：王信（CBDB 249817）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249817&o=json)
 - [中国历代人物传记资料库：王郁（CBDB 249816）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249816&o=json)

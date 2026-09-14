@@ -4,7 +4,7 @@ id: p_PM4YWzJVTKEm6U2bcRBjoc
 status: active
 merged_into: null
 display_name: 王俶
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_6Da9URqgsmx5CQelWlkZTh
+        subject_person_id: p_tJVHjGjKc27ATYVAuaH8nP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PM4YWzJVTKEm6U2bcRBjoc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9hfyGFVUwQJUAosy0r4SCs
+          claim_id: c_6Da9URqgsmx5CQelWlkZTh
+          source_id: s_SXo8xDxfG3Fu4_BNytzL93
+          stance: supports
+          locator: CBDB：兄弟 王俁（199224）之父／母 王瑄
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王俶 与 王俁 为同胞（CBDB 记「兄」），王俁 之父／母即 王俶 之父／母。
+          source:
+            id: s_SXo8xDxfG3Fu4_BNytzL93
+            source_type: api_record
+            title: 中国历代人物传记资料库：王俶（CBDB 241974）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241974&o=json
+            external_identifier: CBDB:241974
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_tJVHjGjKc27ATYVAuaH8nP
+        status: active
+        display_name: 王瑄
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Jo7jT6Tyne-FQfIyuCj2oE
+        subject_person_id: p_PM4YWzJVTKEm6U2bcRBjoc
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wzpgCTfy9H3iqMXKhqaPfp
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ftIuUk3ZGs-Hfgwk2zNPvb
+          claim_id: c_Jo7jT6Tyne-FQfIyuCj2oE
+          source_id: s_SXo8xDxfG3Fu4_BNytzL93
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199224 王俁）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_SXo8xDxfG3Fu4_BNytzL93
+            source_type: api_record
+            title: 中国历代人物传记资料库：王俶（CBDB 241974）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241974&o=json
+            external_identifier: CBDB:241974
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wzpgCTfy9H3iqMXKhqaPfp
+        status: active
+        display_name: 王俁
+        merged_into_person_id: null
 ---
 
 # 王俶
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_tJVHjGjKc27ATYVAuaH8nP | 王瑄 | accepted |
+| other | p_wzpgCTfy9H3iqMXKhqaPfp | 王俁 | accepted |
 
 ## 外部来源
 

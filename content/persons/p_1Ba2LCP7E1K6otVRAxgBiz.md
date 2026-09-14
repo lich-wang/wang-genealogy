@@ -4,7 +4,7 @@ id: p_1Ba2LCP7E1K6otVRAxgBiz
 status: active
 merged_into: null
 display_name: 王緒
-revision: 1
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,125 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_2rlFsF-iH8YA2fenULAVDk
+        subject_person_id: p_mJNJQFE9z1VKCuzwAbNY9W
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1Ba2LCP7E1K6otVRAxgBiz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QyuJcbVO65KAwwQbjvZH3x
+          claim_id: c_2rlFsF-iH8YA2fenULAVDk
+          source_id: s_c0tb3D9kmi6s_r-Dc3VC1p
+          stance: supports
+          locator: CBDB：兄弟 王綸（126787）之父／母 王信
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王緒 与 王綸 为同胞（CBDB 记「兄」），王綸 之父／母即 王緒 之父／母。
+          source:
+            id: s_c0tb3D9kmi6s_r-Dc3VC1p
+            source_type: api_record
+            title: 中国历代人物传记资料库：王緒（CBDB 257676）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257676&o=json
+            external_identifier: CBDB:257676
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mJNJQFE9z1VKCuzwAbNY9W
+        status: active
+        display_name: 王信
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_EQqKbGHnXJKjPdDLtuEXf-
+        subject_person_id: p_1Ba2LCP7E1K6otVRAxgBiz
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_NCS3B6qxdWUziaAFj1bjfH
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jtSJ_iN4Mv3Ucs15KkV2nb
+          claim_id: c_EQqKbGHnXJKjPdDLtuEXf-
+          source_id: s_c0tb3D9kmi6s_r-Dc3VC1p
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126787 王綸）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_c0tb3D9kmi6s_r-Dc3VC1p
+            source_type: api_record
+            title: 中国历代人物传记资料库：王緒（CBDB 257676）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257676&o=json
+            external_identifier: CBDB:257676
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NCS3B6qxdWUziaAFj1bjfH
+        status: active
+        display_name: 王綸
+        merged_into_person_id: null
+    - claim:
+        id: c_ZkoKeKx-7nOymwW2CkVhGo
+        subject_person_id: p_1Ba2LCP7E1K6otVRAxgBiz
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ppyWLxr8Sp6zZ7s3LPugbF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XfqWBN9MnXTPHV_czJ0Vhs
+          claim_id: c_ZkoKeKx-7nOymwW2CkVhGo
+          source_id: s_c0tb3D9kmi6s_r-Dc3VC1p
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200972 王綬）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_c0tb3D9kmi6s_r-Dc3VC1p
+            source_type: api_record
+            title: 中国历代人物传记资料库：王緒（CBDB 257676）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257676&o=json
+            external_identifier: CBDB:257676
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ppyWLxr8Sp6zZ7s3LPugbF
+        status: active
+        display_name: 王綬
+        merged_into_person_id: null
 ---
 
 # 王緒
@@ -97,6 +208,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_mJNJQFE9z1VKCuzwAbNY9W | 王信 | accepted |
+| other | p_NCS3B6qxdWUziaAFj1bjfH | 王綸 | accepted |
+| other | p_ppyWLxr8Sp6zZ7s3LPugbF | 王綬 | accepted |
 
 ## 外部来源
 

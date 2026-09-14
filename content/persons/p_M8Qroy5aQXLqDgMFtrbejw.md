@@ -4,7 +4,7 @@ id: p_M8Qroy5aQXLqDgMFtrbejw
 status: active
 merged_into: null
 display_name: 王叔寧
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -210,7 +210,44 @@ relationships:
         display_name: 王承訓
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_WyGxa5MFqapiWBKNs8gND5
+        subject_person_id: p_M8Qroy5aQXLqDgMFtrbejw
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Y85Nx8axx1Qxqo1kiJ6eQz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ueVoFDVVqqYQTTInvorJCC
+          claim_id: c_WyGxa5MFqapiWBKNs8gND5
+          source_id: s_KfYlAIxMzomWQ-eSO5K5eZ
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 143282 王叔寧）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_KfYlAIxMzomWQ-eSO5K5eZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惠清（CBDB 166178）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166178&o=json
+            external_identifier: CBDB:166178
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Y85Nx8axx1Qxqo1kiJ6eQz
+        status: active
+        display_name: 王惠清
+        merged_into_person_id: null
 ---
 
 # 王叔寧
@@ -232,9 +269,11 @@ relationships:
 | --- | --- | --- | --- |
 | ancestors | p_icFiqV4qE727ZGi81Wiaj9 | 王逸 | accepted |
 | ancestors | p_9wAPVGy1D3QZqQkHupd1oN | 王承訓 | accepted |
+| other | p_Y85Nx8axx1Qxqo1kiJ6eQz | 王惠清 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王承訓（CBDB 166173）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166173&o=json)
+- [中国历代人物传记资料库：王惠清（CBDB 166178）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166178&o=json)
 - [中国历代人物传记资料库：王叔寧（CBDB 143282）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=143282&o=json)
 - [中国历代人物传记资料库：王逸（CBDB 166174）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=166174&o=json)

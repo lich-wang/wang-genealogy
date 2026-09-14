@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王至善
 cbdb_id: 201900
-revision: 3
+revision: 9
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,229 @@ relationships:
         display_name: 王文貴
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_1AOnaMMqSLnFGW66RwKozT
+        subject_person_id: p_691jukaqPqsQGsFHBsNzWD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_6ZKGS2HkvaTrTLKFQL2mGi
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7CBtL8U7Fco_YmYlIHN0vh
+          claim_id: c_1AOnaMMqSLnFGW66RwKozT
+          source_id: s_je-fsa6SWpGLEqsoTiyOEL
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201900 王至善）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_je-fsa6SWpGLEqsoTiyOEL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王巨善（CBDB 280181）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280181&o=json
+            external_identifier: CBDB:280181
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6ZKGS2HkvaTrTLKFQL2mGi
+        status: active
+        display_name: 王巨善
+        merged_into_person_id: null
+    - claim:
+        id: c_nqTdNmW7GFuuLaPlF4h_RM
+        subject_person_id: p_691jukaqPqsQGsFHBsNzWD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_CnjM6tcfgVMu6RfoJz4FnX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ATIEBza7me3g5fb-5VpLiL
+          claim_id: c_nqTdNmW7GFuuLaPlF4h_RM
+          source_id: s_jpwse8YCl64zrDQ2Xc0x4D
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201900 王至善）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_jpwse8YCl64zrDQ2Xc0x4D
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繼善（CBDB 280178）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280178&o=json
+            external_identifier: CBDB:280178
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CnjM6tcfgVMu6RfoJz4FnX
+        status: active
+        display_name: 王繼善
+        merged_into_person_id: null
+    - claim:
+        id: c_U93Bv_eSAmHyf8gWjmEWUC
+        subject_person_id: p_691jukaqPqsQGsFHBsNzWD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_JkVGYLSCTsNP1UEn97gdK7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5eU393KBndnYuKzG8Zx-f3
+          claim_id: c_U93Bv_eSAmHyf8gWjmEWUC
+          source_id: s_uEinUD5sV9J9CILv_tz14-
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201900 王至善）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_uEinUD5sV9J9CILv_tz14-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王明善（CBDB 280180）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280180&o=json
+            external_identifier: CBDB:280180
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JkVGYLSCTsNP1UEn97gdK7
+        status: active
+        display_name: 王明善
+        merged_into_person_id: null
+    - claim:
+        id: c_jVpc53G_nM0CTPyd12Bknc
+        subject_person_id: p_691jukaqPqsQGsFHBsNzWD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_SkMrroZMaVf8SVRNciaEtD
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rxtzTreIizstb7h1Qlceyi
+          claim_id: c_jVpc53G_nM0CTPyd12Bknc
+          source_id: s_B3WPBrJ0PJhwJkoGa7IZ9x
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201900 王至善）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_B3WPBrJ0PJhwJkoGa7IZ9x
+            source_type: api_record
+            title: 中国历代人物传记资料库：王從善（CBDB 280177）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280177&o=json
+            external_identifier: CBDB:280177
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_SkMrroZMaVf8SVRNciaEtD
+        status: active
+        display_name: 王從善
+        merged_into_person_id: null
+    - claim:
+        id: c_oKYkL9P9EcFKnbAVYOLdR9
+        subject_person_id: p_691jukaqPqsQGsFHBsNzWD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_UbYyy4jud9ueasjAfZtjDu
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dq3l0nRxRs9X6f0RE0pZ6u
+          claim_id: c_oKYkL9P9EcFKnbAVYOLdR9
+          source_id: s_GQKZtO1ydYHu4atoP7Z_3H
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201900 王至善）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_GQKZtO1ydYHu4atoP7Z_3H
+            source_type: api_record
+            title: 中国历代人物传记资料库：王復善（CBDB 280179）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280179&o=json
+            external_identifier: CBDB:280179
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_UbYyy4jud9ueasjAfZtjDu
+        status: active
+        display_name: 王復善
+        merged_into_person_id: null
+    - claim:
+        id: c_PgFPfb0kMIaaoWBStrx5B4
+        subject_person_id: p_691jukaqPqsQGsFHBsNzWD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_i3sGYAHtZL4S6XmZGtvfgG
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1n_kzZDZ_DTsbGnGmrawcK
+          claim_id: c_PgFPfb0kMIaaoWBStrx5B4
+          source_id: s_u-tWhTY7nLYeIxI5dBTjVF
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201900 王至善）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_u-tWhTY7nLYeIxI5dBTjVF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王為善（CBDB 280176）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280176&o=json
+            external_identifier: CBDB:280176
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_i3sGYAHtZL4S6XmZGtvfgG
+        status: active
+        display_name: 王為善
+        merged_into_person_id: null
 ---
 
 # 王至善
@@ -257,9 +479,21 @@ relationships:
 | parents | p_1N7Z4wmfmL9xzTY7zGpnMb | 王信 | accepted |
 | ancestors | p_6EF1hrXQZDRZAqFX8G7qFM | 王忠 | accepted |
 | ancestors | p_6q1SgNy52JcJwzEFwj269z | 王文貴 | accepted |
+| other | p_6ZKGS2HkvaTrTLKFQL2mGi | 王巨善 | accepted |
+| other | p_CnjM6tcfgVMu6RfoJz4FnX | 王繼善 | accepted |
+| other | p_JkVGYLSCTsNP1UEn97gdK7 | 王明善 | accepted |
+| other | p_SkMrroZMaVf8SVRNciaEtD | 王從善 | accepted |
+| other | p_UbYyy4jud9ueasjAfZtjDu | 王復善 | accepted |
+| other | p_i3sGYAHtZL4S6XmZGtvfgG | 王為善 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王從善（CBDB 280177）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280177&o=json)
+- [中国历代人物传记资料库：王復善（CBDB 280179）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280179&o=json)
+- [中国历代人物传记资料库：王繼善（CBDB 280178）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280178&o=json)
+- [中国历代人物传记资料库：王巨善（CBDB 280181）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280181&o=json)
+- [中国历代人物传记资料库：王明善（CBDB 280180）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280180&o=json)
+- [中国历代人物传记资料库：王為善（CBDB 280176）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280176&o=json)
 - [中国历代人物传记资料库：王文貴（CBDB 280168）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280168&o=json)
 - [中国历代人物传记资料库：王信（CBDB 280170）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280170&o=json)
 - [中国历代人物传记资料库：王至善（CBDB 201900）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201900&o=json)

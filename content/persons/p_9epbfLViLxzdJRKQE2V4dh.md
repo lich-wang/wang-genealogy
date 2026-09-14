@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王鬷
 cbdb_id: 1903
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -200,6 +200,43 @@ relationships:
         status: active
         display_name: 王正路
         merged_into_person_id: null
+    - claim:
+        id: c_JZqh_D0M5WnAEkiJpYksJ1
+        subject_person_id: p_9epbfLViLxzdJRKQE2V4dh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xFxdufDZ4cCLUjq7DAvTTt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_z7OrnMOFCBsopF8Z-s9cOe
+          claim_id: c_JZqh_D0M5WnAEkiJpYksJ1
+          source_id: s_8eVWpbWcT1yBzQfb3ZcBjm
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1903）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_8eVWpbWcT1yBzQfb3ZcBjm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正思（CBDB 690127）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=690127&o=json
+            external_identifier: CBDB:690127
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xFxdufDZ4cCLUjq7DAvTTt
+        status: active
+        display_name: 王正思
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -300,6 +337,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_iLUdeieVQDb1mxk8x28Vj3 | 王正路 | accepted |
+| children | p_xFxdufDZ4cCLUjq7DAvTTt | 王正思 | accepted |
 | descendants | p_5hHZn4JdRNtDFps6R7FtjP | 王遹 | accepted |
 | descendants | p_tNxDF9RNAwjuxwXQbHswdX | 王適 | accepted |
 
@@ -307,4 +345,5 @@ relationships:
 
 - [中国历代人物传记资料库：王適（CBDB 22214）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22214&o=json)
 - [中国历代人物传记资料库：王遹（CBDB 22215）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22215&o=json)
+- [中国历代人物传记资料库：王正思（CBDB 690127）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=690127&o=json)
 - [中国历代人物传记资料库：王鬷（CBDB 1903）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1903&o=json)

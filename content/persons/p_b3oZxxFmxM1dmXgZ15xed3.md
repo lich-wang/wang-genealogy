@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王惟清
 cbdb_id: 27692
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -75,7 +75,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_aQ0PmDHhCwchWARjG27pp9
+        subject_person_id: p_b3oZxxFmxM1dmXgZ15xed3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LW3UVxWo4A6iYUVNb8CBgH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_RLEVa1_Zhw1OMI1D2PmqiA
+          claim_id: c_aQ0PmDHhCwchWARjG27pp9
+          source_id: s_zpp8wAc2ooZgdV1J9riZFR
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 27692）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_zpp8wAc2ooZgdV1J9riZFR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王觀（CBDB 27693）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=27693&o=json
+            external_identifier: CBDB:27693
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_LW3UVxWo4A6iYUVNb8CBgH
+        status: active
+        display_name: 王觀
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -136,9 +173,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_LW3UVxWo4A6iYUVNb8CBgH | 王觀 | accepted |
 | spouses | p_35h7mJPKChFrvTfyadk1Fk | 李仁用 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：李仁用（CBDB 27700）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=27700&o=json)
+- [中国历代人物传记资料库：王觀（CBDB 27693）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=27693&o=json)
 - [中国历代人物传记资料库：王惟清（CBDB 27692）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=27692&o=json)

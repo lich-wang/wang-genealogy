@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王宗禹
 cbdb_id: 317697
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_UF539oS1fYFu6yoD06FQJy
+        subject_person_id: p_oBz6NLHmFuUeBahrr88xPZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZCSuUHoy8LB9y37MGJqtLn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yL5pN2HjkOVaCV8IDXyAti
+          claim_id: c_UF539oS1fYFu6yoD06FQJy
+          source_id: s_rv1VIdgp4U7XJWY1rSGz7i
+          stance: supports
+          locator: CBDB：兄弟 王宗舜（126560）之父／母 王澄
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王宗禹 与 王宗舜 为同胞（CBDB 记「兄」），王宗舜 之父／母即 王宗禹 之父／母。
+          source:
+            id: s_rv1VIdgp4U7XJWY1rSGz7i
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗禹（CBDB 317697）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317697&o=json
+            external_identifier: CBDB:317697
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oBz6NLHmFuUeBahrr88xPZ
+        status: active
+        display_name: 王澄
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_q2KtnH60023VpT4CwaHISa
+        subject_person_id: p_9DQWxHegXc6PNKo9W5YA34
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ZCSuUHoy8LB9y37MGJqtLn
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lSfP6_cTFR4F6TPdfg91Xc
+          claim_id: c_q2KtnH60023VpT4CwaHISa
+          source_id: s_rv1VIdgp4U7XJWY1rSGz7i
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126560 王宗舜）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_rv1VIdgp4U7XJWY1rSGz7i
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗禹（CBDB 317697）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317697&o=json
+            external_identifier: CBDB:317697
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9DQWxHegXc6PNKo9W5YA34
+        status: active
+        display_name: 王宗舜
+        merged_into_person_id: null
 ---
 
 # 王宗禹
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_oBz6NLHmFuUeBahrr88xPZ | 王澄 | accepted |
+| other | p_9DQWxHegXc6PNKo9W5YA34 | 王宗舜 | accepted |
 
 ## 外部来源
 

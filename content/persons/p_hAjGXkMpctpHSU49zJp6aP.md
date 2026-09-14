@@ -4,7 +4,7 @@ id: p_hAjGXkMpctpHSU49zJp6aP
 status: active
 merged_into: null
 display_name: 王舜
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,81 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_U8g2LRyufCd5UtJvd6lbRL
+        subject_person_id: p_GFHkg45BCRTRm88WrHdtGN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hAjGXkMpctpHSU49zJp6aP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_P7OKu2vXZ287Jwvj4ZrLgW
+          claim_id: c_U8g2LRyufCd5UtJvd6lbRL
+          source_id: s_TqoUlp3KjAxjvalnK-bCw_
+          stance: supports
+          locator: CBDB 亲属：姊（KinPerson 134474 王舜）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_TqoUlp3KjAxjvalnK-bCw_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璠（CBDB 134477）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134477&o=json
+            external_identifier: CBDB:134477
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GFHkg45BCRTRm88WrHdtGN
+        status: active
+        display_name: 王璠
+        merged_into_person_id: null
+    - claim:
+        id: c_jpSf3MSWhCs028NYT6dK9B
+        subject_person_id: p_aH8C1ySszEgLrBC59RTgjv
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hAjGXkMpctpHSU49zJp6aP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Z-LFP3VASbGXmwDizCQbY5
+          claim_id: c_jpSf3MSWhCs028NYT6dK9B
+          source_id: s_QPuRbmzuqQ__Kyne_nl2hK
+          stance: supports
+          locator: CBDB 亲属：姊（KinPerson 134474 王舜）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_QPuRbmzuqQ__Kyne_nl2hK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王粲（CBDB 134476）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134476&o=json
+            external_identifier: CBDB:134476
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aH8C1ySszEgLrBC59RTgjv
+        status: active
+        display_name: 王粲
+        merged_into_person_id: null
 ---
 
 # 王舜
@@ -124,7 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_b49QcsPcaH8znQNTnPoNws | 王子春 | accepted |
+| other | p_GFHkg45BCRTRm88WrHdtGN | 王璠 | accepted |
+| other | p_aH8C1ySszEgLrBC59RTgjv | 王粲 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王粲（CBDB 134476）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134476&o=json)
+- [中国历代人物传记资料库：王璠（CBDB 134477）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134477&o=json)
 - [中国历代人物传记资料库：王舜（CBDB 134474）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134474&o=json)

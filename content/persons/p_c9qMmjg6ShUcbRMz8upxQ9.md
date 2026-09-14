@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王景明
 cbdb_id: 255290
-revision: 2
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -113,6 +113,154 @@ relationships:
         status: active
         display_name: 王琳
         merged_into_person_id: null
+    - claim:
+        id: c_0gNGujcj21dLzDD_deRu6x
+        subject_person_id: p_c9qMmjg6ShUcbRMz8upxQ9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_A9oLiaD4xcFsHGFj7fqFJN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__oDUW9VtUld2krUZ1JeTxz
+          claim_id: c_0gNGujcj21dLzDD_deRu6x
+          source_id: s_9KbyqvGXZze4LOaSH9FjDh
+          stance: supports
+          locator: CBDB：兄弟 王琳（126709）之父／母 王景明
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王瑨 与 王琳 为同胞（CBDB 记「弟」），王琳 之父／母即 王瑨 之父／母。
+          source:
+            id: s_9KbyqvGXZze4LOaSH9FjDh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑨（CBDB 255296）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255296&o=json
+            external_identifier: CBDB:255296
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_A9oLiaD4xcFsHGFj7fqFJN
+        status: active
+        display_name: 王瑨
+        merged_into_person_id: null
+    - claim:
+        id: c_CKSrFsPuDuc-A-sylMv6_O
+        subject_person_id: p_c9qMmjg6ShUcbRMz8upxQ9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KN3PPHoaBhM5325Xwy9UqS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iYTziZevggremhApW8mb9V
+          claim_id: c_CKSrFsPuDuc-A-sylMv6_O
+          source_id: s_ZegnjelONE0gqcRsKwRsq7
+          stance: supports
+          locator: CBDB：兄弟 王琳（126709）之父／母 王景明
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王璿 与 王琳 为同胞（CBDB 记「弟」），王琳 之父／母即 王璿 之父／母。
+          source:
+            id: s_ZegnjelONE0gqcRsKwRsq7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璿（CBDB 255297）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255297&o=json
+            external_identifier: CBDB:255297
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KN3PPHoaBhM5325Xwy9UqS
+        status: active
+        display_name: 王璿
+        merged_into_person_id: null
+    - claim:
+        id: c_ohaLxMycEnQrpxR-31wGeY
+        subject_person_id: p_c9qMmjg6ShUcbRMz8upxQ9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RUz3UvbxQozjfbEaf8NyYp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0C5D6TpsNREQMaLh3FkUTS
+          claim_id: c_ohaLxMycEnQrpxR-31wGeY
+          source_id: s_sCnWq5w-ElI3HJBbI1Owu1
+          stance: supports
+          locator: CBDB：兄弟 王琳（126709）之父／母 王景明
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王玉 与 王琳 为同胞（CBDB 记「弟」），王琳 之父／母即 王玉 之父／母。
+          source:
+            id: s_sCnWq5w-ElI3HJBbI1Owu1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玉（CBDB 255298）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255298&o=json
+            external_identifier: CBDB:255298
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_RUz3UvbxQozjfbEaf8NyYp
+        status: active
+        display_name: 王玉
+        merged_into_person_id: null
+    - claim:
+        id: c_ASYmc86LyjqXluKyzEeeNZ
+        subject_person_id: p_c9qMmjg6ShUcbRMz8upxQ9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pbocdTykK88XksMX8Ffw82
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GeW_2fy3VqU-BQA58NM4po
+          claim_id: c_ASYmc86LyjqXluKyzEeeNZ
+          source_id: s_2kaL8NXKX0hYQ8IkVj4_Ep
+          stance: supports
+          locator: CBDB：兄弟 王琳（126709）之父／母 王景明
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王瓊 与 王琳 为同胞（CBDB 记「弟」），王琳 之父／母即 王瓊 之父／母。
+          source:
+            id: s_2kaL8NXKX0hYQ8IkVj4_Ep
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瓊（CBDB 255295）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255295&o=json
+            external_identifier: CBDB:255295
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_pbocdTykK88XksMX8Ffw82
+        status: active
+        display_name: 王瓊
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -137,8 +285,16 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_aabBxXPLcM6N6VjGC9FrrY | 王琳 | accepted |
+| children | p_A9oLiaD4xcFsHGFj7fqFJN | 王瑨 | accepted |
+| children | p_KN3PPHoaBhM5325Xwy9UqS | 王璿 | accepted |
+| children | p_RUz3UvbxQozjfbEaf8NyYp | 王玉 | accepted |
+| children | p_pbocdTykK88XksMX8Ffw82 | 王瓊 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王瑨（CBDB 255296）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255296&o=json)
 - [中国历代人物传记资料库：王景明（CBDB 255290）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255290&o=json)
 - [中国历代人物传记资料库：王琳（CBDB 126709）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126709&o=json)
+- [中国历代人物传记资料库：王瓊（CBDB 255295）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255295&o=json)
+- [中国历代人物传记资料库：王璿（CBDB 255297）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255297&o=json)
+- [中国历代人物传记资料库：王玉（CBDB 255298）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255298&o=json)

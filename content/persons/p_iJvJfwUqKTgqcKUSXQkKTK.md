@@ -4,7 +4,7 @@ id: p_iJvJfwUqKTgqcKUSXQkKTK
 status: active
 merged_into: null
 display_name: 王大任
-revision: 4
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,118 @@ relationships:
         display_name: 王至公
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_HFq-iJE1CnaqckfJRXTGva
+        subject_person_id: p_NANxhnK8tTQGTMb3bYx25V
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_iJvJfwUqKTgqcKUSXQkKTK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_95SfzR1lO2p5r87pjLx91F
+          claim_id: c_HFq-iJE1CnaqckfJRXTGva
+          source_id: s_TcCUGfTWGyj4Mh0ALAg9jF
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204398 王大任）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_TcCUGfTWGyj4Mh0ALAg9jF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王康（CBDB 318569）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318569&o=json
+            external_identifier: CBDB:318569
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NANxhnK8tTQGTMb3bYx25V
+        status: active
+        display_name: 王康
+        merged_into_person_id: null
+    - claim:
+        id: c_oN0N1Rx1nUf_ytddqKB9HR
+        subject_person_id: p_iJvJfwUqKTgqcKUSXQkKTK
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_jXoA5vqca6QvZNPdyA5uvk
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cZFPERooxUJorJgE4bU8f2
+          claim_id: c_oN0N1Rx1nUf_ytddqKB9HR
+          source_id: s_4kCjmQ7eODc5Qj0xRD7SB5
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204398 王大任）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_4kCjmQ7eODc5Qj0xRD7SB5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王綏（CBDB 318571）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318571&o=json
+            external_identifier: CBDB:318571
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jXoA5vqca6QvZNPdyA5uvk
+        status: active
+        display_name: 王綏
+        merged_into_person_id: null
+    - claim:
+        id: c_eaoagzGMEeAMwJKkSiu5qg
+        subject_person_id: p_iJvJfwUqKTgqcKUSXQkKTK
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kYENZDMXi8nnyQf82XCyE9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4DtjmXWCCZjZFiGY_tpfP2
+          claim_id: c_eaoagzGMEeAMwJKkSiu5qg
+          source_id: s__mvvo1eztM0gW8m7WcDc4y
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204398 王大任）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__mvvo1eztM0gW8m7WcDc4y
+            source_type: api_record
+            title: 中国历代人物传记资料库：王泰（CBDB 318570）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318570&o=json
+            external_identifier: CBDB:318570
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kYENZDMXi8nnyQf82XCyE9
+        status: active
+        display_name: 王泰
+        merged_into_person_id: null
 ---
 
 # 王大任
@@ -241,10 +352,16 @@ relationships:
 | parents | p_3dg1PVXVExHpSS6KGA8n5K | 王熙 | accepted |
 | ancestors | p_d3NCtZk3Gsavn2pC1x34da | 王彪 | accepted |
 | ancestors | p_8VyuiokV4LEJbF4q2Jtw26 | 王至公 | accepted |
+| other | p_NANxhnK8tTQGTMb3bYx25V | 王康 | accepted |
+| other | p_jXoA5vqca6QvZNPdyA5uvk | 王綏 | accepted |
+| other | p_kYENZDMXi8nnyQf82XCyE9 | 王泰 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王彪（CBDB 318561）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318561&o=json)
 - [中国历代人物传记资料库：王大任（CBDB 204398）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204398&o=json)
+- [中国历代人物传记资料库：王康（CBDB 318569）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318569&o=json)
+- [中国历代人物传记资料库：王綏（CBDB 318571）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318571&o=json)
+- [中国历代人物传记资料库：王泰（CBDB 318570）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318570&o=json)
 - [中国历代人物传记资料库：王熙（CBDB 318564）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318564&o=json)
 - [中国历代人物传记资料库：王至公（CBDB 318562）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318562&o=json)

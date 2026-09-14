@@ -4,7 +4,7 @@ id: p_Wp6B6oFJWureDLbUWC4XTo
 status: active
 merged_into: null
 display_name: 王鏊
-revision: 2
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -662,7 +662,81 @@ relationships:
         display_name: 王彦祥
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ZS1k5lSAh0h_ZwcJOLjpWh
+        subject_person_id: p_2Bks677cJ3Ax96uNPF3D7T
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Wp6B6oFJWureDLbUWC4XTo
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xRcyhvAkr-5T3e2MpXJVEz
+          claim_id: c_ZS1k5lSAh0h_ZwcJOLjpWh
+          source_id: s_QZDRIMXjdOPP2mqtJByWuy
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 34579 王鏊）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_QZDRIMXjdOPP2mqtJByWuy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王銘（CBDB 247604）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247604&o=json
+            external_identifier: CBDB:247604
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2Bks677cJ3Ax96uNPF3D7T
+        status: active
+        display_name: 王銘
+        merged_into_person_id: null
+    - claim:
+        id: c_E8pxVgDCaTIFWfFk0F-M8_
+        subject_person_id: p_Wp6B6oFJWureDLbUWC4XTo
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nbz4y3vGc61fE26Ty4aDry
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__QM9gcbdlMnpkZYvpL6juy
+          claim_id: c_E8pxVgDCaTIFWfFk0F-M8_
+          source_id: s_-pFGbiQRozvJlsTBEIPgjG
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 34579 王鏊）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_-pFGbiQRozvJlsTBEIPgjG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王銶（CBDB 247605）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247605&o=json
+            external_identifier: CBDB:247605
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nbz4y3vGc61fE26Ty4aDry
+        status: active
+        display_name: 王銶
+        merged_into_person_id: null
 ---
 
 # 王鏊
@@ -690,6 +764,8 @@ relationships:
 | children | p_7sL8RLmuiFfTvhgxv4U3Hi | 王延昭 | accepted |
 | spouses | p_jhEZERf87Yu1gr8MbYEspe | 吴氏 | accepted |
 | ancestors | p_rfNi35kMF1FSma9nVH7tNg | 王彦祥 | accepted |
+| other | p_2Bks677cJ3Ax96uNPF3D7T | 王銘 | accepted |
+| other | p_nbz4y3vGc61fE26Ty4aDry | 王銶 | accepted |
 
 ## 外部来源
 
@@ -699,6 +775,8 @@ relationships:
 - [维基数据：王延陵（Q45426546）](https://www.wikidata.org/wiki/Q45426546)
 - [维基数据：王延索（Q45426587）](https://www.wikidata.org/wiki/Q45426587)
 - [维基数据：吴氏（Q65851495）](https://www.wikidata.org/wiki/Q65851495)
+- [中国历代人物传记资料库：王銘（CBDB 247604）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247604&o=json)
+- [中国历代人物传记资料库：王銶（CBDB 247605）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247605&o=json)
 - [中国历代人物传记资料库：王延詰（CBDB 525608）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=525608&o=json)
 - [中国历代人物传记资料库：王延昭（CBDB 525607）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=525607&o=json)
 - [中文维基百科：王鏊](https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%8F%8A)

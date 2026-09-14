@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王良檝
 cbdb_id: 294715
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_EiSRZKvGlTDkJIgyx8ReGg
+        subject_person_id: p_9nEN1wcMurxxo4Z5YaVJEh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3pL1tA1mSzmiPu8DQPZbjL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ekApm59CxhDjuGw1AzSWKI
+          claim_id: c_EiSRZKvGlTDkJIgyx8ReGg
+          source_id: s_fKuBkMcx0JZJ4PF8cJ7TzG
+          stance: supports
+          locator: CBDB：兄弟 王良柱（202803）之父／母 王海
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王良檝 与 王良柱 为同胞（CBDB 记「兄」），王良柱 之父／母即 王良檝 之父／母。
+          source:
+            id: s_fKuBkMcx0JZJ4PF8cJ7TzG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王良檝（CBDB 294715）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294715&o=json
+            external_identifier: CBDB:294715
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9nEN1wcMurxxo4Z5YaVJEh
+        status: active
+        display_name: 王海
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ALYV8U0sUXHd9kt0cnwht0
+        subject_person_id: p_35PzL233nqJ85Q2BX1Q5dA
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_3pL1tA1mSzmiPu8DQPZbjL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_m31zv6pfJEEcRr9pv4Dy5z
+          claim_id: c_ALYV8U0sUXHd9kt0cnwht0
+          source_id: s_fKuBkMcx0JZJ4PF8cJ7TzG
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202803 王良柱）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_fKuBkMcx0JZJ4PF8cJ7TzG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王良檝（CBDB 294715）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294715&o=json
+            external_identifier: CBDB:294715
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_35PzL233nqJ85Q2BX1Q5dA
+        status: active
+        display_name: 王良柱
+        merged_into_person_id: null
 ---
 
 # 王良檝
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_9nEN1wcMurxxo4Z5YaVJEh | 王海 | accepted |
+| other | p_35PzL233nqJ85Q2BX1Q5dA | 王良柱 | accepted |
 
 ## 外部来源
 

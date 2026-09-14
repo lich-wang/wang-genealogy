@@ -4,7 +4,7 @@ id: p_QenDWAg1sW7MChUQCYk3zw
 status: active
 merged_into: null
 display_name: 王重光
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_tC3LU3LLfSkuRJAB80ufgg
+        subject_person_id: p_GvhnbSfs4k75xQrdJJphA9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QenDWAg1sW7MChUQCYk3zw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VG6PhTK0VHKf_xJXCkFCOs
+          claim_id: c_tC3LU3LLfSkuRJAB80ufgg
+          source_id: s_H2BAmnPO9uDHU6ev_I6hme
+          stance: supports
+          locator: CBDB：兄弟 王國光（125310）之父／母 王承祖
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王重光 与 王國光 为同胞（CBDB 记「弟」），王國光 之父／母即 王重光 之父／母。
+          source:
+            id: s_H2BAmnPO9uDHU6ev_I6hme
+            source_type: api_record
+            title: 中国历代人物传记资料库：王重光（CBDB 308155）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308155&o=json
+            external_identifier: CBDB:308155
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GvhnbSfs4k75xQrdJJphA9
+        status: active
+        display_name: 王承祖
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ukYPmKpFmNJUZXxFIBMZ5q
+        subject_person_id: p_QenDWAg1sW7MChUQCYk3zw
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fAeAj1ECenpg29AWYPB25D
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qDzMP40_ipeDOQ7_brykFY
+          claim_id: c_ukYPmKpFmNJUZXxFIBMZ5q
+          source_id: s_H2BAmnPO9uDHU6ev_I6hme
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 125310 王國光）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_H2BAmnPO9uDHU6ev_I6hme
+            source_type: api_record
+            title: 中国历代人物传记资料库：王重光（CBDB 308155）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308155&o=json
+            external_identifier: CBDB:308155
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fAeAj1ECenpg29AWYPB25D
+        status: active
+        display_name: 王國光
+        merged_into_person_id: null
 ---
 
 # 王重光
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_GvhnbSfs4k75xQrdJJphA9 | 王承祖 | accepted |
+| other | p_fAeAj1ECenpg29AWYPB25D | 王國光 | accepted |
 
 ## 外部来源
 

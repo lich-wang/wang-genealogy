@@ -4,7 +4,7 @@ id: p_SW2vBS5Q2Gs57G32UxYrWC
 status: active
 merged_into: null
 display_name: 王倫
-revision: 2
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,191 @@ relationships:
         status: active
         display_name: 王遵訓
         merged_into_person_id: null
+    - claim:
+        id: c_3JxT69F94D54a9NpGGiXzg
+        subject_person_id: p_SW2vBS5Q2Gs57G32UxYrWC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CaxhV3WpC3bWeKjSHRUMHG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zlJMrnCQSjb2x8mUY1F32C
+          claim_id: c_3JxT69F94D54a9NpGGiXzg
+          source_id: s_ghf3sr_uUZS1SRKxFmae-h
+          stance: supports
+          locator: CBDB：兄弟 王遵訓（206844）之父／母 王倫
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王遵忠 与 王遵訓 为同胞（CBDB 记「兄」），王遵訓 之父／母即 王遵忠 之父／母。
+          source:
+            id: s_ghf3sr_uUZS1SRKxFmae-h
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遵忠（CBDB 224062）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224062&o=json
+            external_identifier: CBDB:224062
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CaxhV3WpC3bWeKjSHRUMHG
+        status: active
+        display_name: 王遵忠
+        merged_into_person_id: null
+    - claim:
+        id: c_HKK-AZYXe0TE8WGJ5J-5FD
+        subject_person_id: p_SW2vBS5Q2Gs57G32UxYrWC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_THjSXuPHuV25p7BCHBT1GF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dGEIpniIoe-ZiBIQeWqaln
+          claim_id: c_HKK-AZYXe0TE8WGJ5J-5FD
+          source_id: s_nHAqBbWCPisOE6BQD8FOzB
+          stance: supports
+          locator: CBDB：兄弟 王遵訓（206844）之父／母 王倫
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王遵道 与 王遵訓 为同胞（CBDB 记「兄」），王遵訓 之父／母即 王遵道 之父／母。
+          source:
+            id: s_nHAqBbWCPisOE6BQD8FOzB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遵道（CBDB 224059）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224059&o=json
+            external_identifier: CBDB:224059
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_THjSXuPHuV25p7BCHBT1GF
+        status: active
+        display_name: 王遵道
+        merged_into_person_id: null
+    - claim:
+        id: c_XAkfJjAIp4hKByWm4R4IFy
+        subject_person_id: p_SW2vBS5Q2Gs57G32UxYrWC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VarSc8kLjzf416bC1G8naQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GgIzV8J2Aka6J-N8znsB7G
+          claim_id: c_XAkfJjAIp4hKByWm4R4IFy
+          source_id: s_-aV7cmf3OSlJgBBVmSYxLL
+          stance: supports
+          locator: CBDB：兄弟 王遵訓（206844）之父／母 王倫
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王遵路 与 王遵訓 为同胞（CBDB 记「兄」），王遵訓 之父／母即 王遵路 之父／母。
+          source:
+            id: s_-aV7cmf3OSlJgBBVmSYxLL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遵路（CBDB 224058）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224058&o=json
+            external_identifier: CBDB:224058
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VarSc8kLjzf416bC1G8naQ
+        status: active
+        display_name: 王遵路
+        merged_into_person_id: null
+    - claim:
+        id: c_FIRQtfU3AHK0PshmscoAk4
+        subject_person_id: p_SW2vBS5Q2Gs57G32UxYrWC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jvyneAmQwsyuMFavFeHLZy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Uck2c-juNKHE1ly1x8sG8_
+          claim_id: c_FIRQtfU3AHK0PshmscoAk4
+          source_id: s_9gdNNcHoaHHB4kCP4DOpOF
+          stance: supports
+          locator: CBDB：兄弟 王遵訓（206844）之父／母 王倫
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王遵魯 与 王遵訓 为同胞（CBDB 记「兄」），王遵訓 之父／母即 王遵魯 之父／母。
+          source:
+            id: s_9gdNNcHoaHHB4kCP4DOpOF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遵魯（CBDB 224061）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224061&o=json
+            external_identifier: CBDB:224061
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jvyneAmQwsyuMFavFeHLZy
+        status: active
+        display_name: 王遵魯
+        merged_into_person_id: null
+    - claim:
+        id: c_gpQnPSr5nrB6orbNMKLVu3
+        subject_person_id: p_SW2vBS5Q2Gs57G32UxYrWC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vowE3XMF6f9r166gUrc4qM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6Xp8BeoZCINGi7Q9Drb_pX
+          claim_id: c_gpQnPSr5nrB6orbNMKLVu3
+          source_id: s_K8pMIzjWh0eEKJNwHoHN4-
+          stance: supports
+          locator: CBDB：兄弟 王遵訓（206844）之父／母 王倫
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王遵孝 与 王遵訓 为同胞（CBDB 记「兄」），王遵訓 之父／母即 王遵孝 之父／母。
+          source:
+            id: s_K8pMIzjWh0eEKJNwHoHN4-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遵孝（CBDB 224063）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224063&o=json
+            external_identifier: CBDB:224063
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vowE3XMF6f9r166gUrc4qM
+        status: active
+        display_name: 王遵孝
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +320,18 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_DyAEKNuW84v9PAan2XrKHV | 王遵訓 | accepted |
+| children | p_CaxhV3WpC3bWeKjSHRUMHG | 王遵忠 | accepted |
+| children | p_THjSXuPHuV25p7BCHBT1GF | 王遵道 | accepted |
+| children | p_VarSc8kLjzf416bC1G8naQ | 王遵路 | accepted |
+| children | p_jvyneAmQwsyuMFavFeHLZy | 王遵魯 | accepted |
+| children | p_vowE3XMF6f9r166gUrc4qM | 王遵孝 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王倫（CBDB 224054）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224054&o=json)
+- [中国历代人物传记资料库：王遵道（CBDB 224059）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224059&o=json)
+- [中国历代人物传记资料库：王遵魯（CBDB 224061）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224061&o=json)
+- [中国历代人物传记资料库：王遵路（CBDB 224058）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224058&o=json)
+- [中国历代人物传记资料库：王遵孝（CBDB 224063）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224063&o=json)
 - [中国历代人物传记资料库：王遵訓（CBDB 206844）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206844&o=json)
+- [中国历代人物传记资料库：王遵忠（CBDB 224062）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224062&o=json)

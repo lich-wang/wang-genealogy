@@ -4,7 +4,7 @@ id: p_wxJ8aogLoBExSp8myCzDUq
 status: active
 merged_into: null
 display_name: 王元
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,44 @@ relationships:
         display_name: 王玄
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Nrz95YYjHxVteCdNd_1v9k
+        subject_person_id: p_87zTxTe5HYLyxubjNZufac
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wxJ8aogLoBExSp8myCzDUq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kqcanrsIyey-FsJlkzlh8t
+          claim_id: c_Nrz95YYjHxVteCdNd_1v9k
+          source_id: s_e8aLWdtOiz2dqs_-bi_HeJ
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206402 王元）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_e8aLWdtOiz2dqs_-bi_HeJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王學（CBDB 217542）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217542&o=json
+            external_identifier: CBDB:217542
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_87zTxTe5HYLyxubjNZufac
+        status: active
+        display_name: 王學
+        merged_into_person_id: null
 ---
 
 # 王元
@@ -241,10 +278,12 @@ relationships:
 | parents | p_HYAxuxv91NAAWnNdh2JAm1 | 王大訓 | accepted |
 | ancestors | p_EBBDGouXFwRt5NBVVq7oT2 | 王銳 | accepted |
 | ancestors | p_NULrJYpTFWT3DnCbPhN4Dz | 王玄 | accepted |
+| other | p_87zTxTe5HYLyxubjNZufac | 王學 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王大訓（CBDB 217539）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217539&o=json)
 - [中国历代人物传记资料库：王銳（CBDB 217538）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217538&o=json)
 - [中国历代人物传记资料库：王玄（CBDB 217537）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217537&o=json)
+- [中国历代人物传记资料库：王學（CBDB 217542）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217542&o=json)
 - [中国历代人物传记资料库：王元（CBDB 206402）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206402&o=json)

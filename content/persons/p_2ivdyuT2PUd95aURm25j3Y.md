@@ -4,7 +4,7 @@ id: p_2ivdyuT2PUd95aURm25j3Y
 status: active
 merged_into: null
 display_name: 王俸
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,81 @@ relationships:
         display_name: 王廷吉
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_mpdQgBAhh5H17KrXBv8PC5
+        subject_person_id: p_2ivdyuT2PUd95aURm25j3Y
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_3drg2zTZv8jAo4PQxGKyBw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wvLI4Aar9tPIgIUz6Lu-jv
+          claim_id: c_mpdQgBAhh5H17KrXBv8PC5
+          source_id: s_HBJGX9NY7Iaruv_duecDRH
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200767 王俸）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_HBJGX9NY7Iaruv_duecDRH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鵬（CBDB 262608）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262608&o=json
+            external_identifier: CBDB:262608
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3drg2zTZv8jAo4PQxGKyBw
+        status: active
+        display_name: 王鵬
+        merged_into_person_id: null
+    - claim:
+        id: c_pOG26YYG8ZF-yVwL4K6snW
+        subject_person_id: p_2ivdyuT2PUd95aURm25j3Y
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ogqoLs3TK69PWEepYEtziE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mTQEpZpLT-emz7TPaRIugM
+          claim_id: c_pOG26YYG8ZF-yVwL4K6snW
+          source_id: s_uvBKeW1yeFzAcGk_E2mE_G
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200767 王俸）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_uvBKeW1yeFzAcGk_E2mE_G
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鶴（CBDB 262609）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262609&o=json
+            external_identifier: CBDB:262609
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ogqoLs3TK69PWEepYEtziE
+        status: active
+        display_name: 王鶴
+        merged_into_person_id: null
 ---
 
 # 王俸
@@ -245,8 +319,12 @@ relationships:
 | spouses | p_fUCadLiuJmMioCibnWapb3 | 顧氏 | accepted |
 | ancestors | p_SuoASrvEvTdJvx88W9i9eq | 王德成 | accepted |
 | ancestors | p_V43e1uDnknsPX7FA5hH2MD | 王廷吉 | accepted |
+| other | p_3drg2zTZv8jAo4PQxGKyBw | 王鵬 | accepted |
+| other | p_ogqoLs3TK69PWEepYEtziE | 王鶴 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：顧氏(王俸妻)（CBDB 262607）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262607&o=json)
 - [中国历代人物传记资料库：王俸（CBDB 200767）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200767&o=json)
+- [中国历代人物传记资料库：王鶴（CBDB 262609）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262609&o=json)
+- [中国历代人物传记资料库：王鵬（CBDB 262608）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262608&o=json)

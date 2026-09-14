@@ -4,7 +4,7 @@ id: p_tyw5eLiEHesny1p23jQWBT
 status: active
 merged_into: null
 display_name: 王鏞
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_NrKN3uEAj1-lX4KCxNAuwM
+        subject_person_id: p_b2MWJoRPw8eQD6tKTBzWN2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tyw5eLiEHesny1p23jQWBT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MF5E95ZHvcTV7D7vAl0_bG
+          claim_id: c_NrKN3uEAj1-lX4KCxNAuwM
+          source_id: s_5flcV1ySqdlB9fZlva5R3e
+          stance: supports
+          locator: CBDB：兄弟 王鎮（208004）之父／母 王信之
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鏞 与 王鎮 为同胞（CBDB 记「弟」），王鎮 之父／母即 王鏞 之父／母。
+          source:
+            id: s_5flcV1ySqdlB9fZlva5R3e
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鏞（CBDB 239113）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239113&o=json
+            external_identifier: CBDB:239113
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_b2MWJoRPw8eQD6tKTBzWN2
+        status: active
+        display_name: 王信之
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_AB89epd4mMvJDE_Xxm3jvt
+        subject_person_id: p_EKnyL5yNzB3UQXTrkLtsAg
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_tyw5eLiEHesny1p23jQWBT
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tTUjDYyFFrgiQL40ohvLxI
+          claim_id: c_AB89epd4mMvJDE_Xxm3jvt
+          source_id: s_5flcV1ySqdlB9fZlva5R3e
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 208004 王鎮）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_5flcV1ySqdlB9fZlva5R3e
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鏞（CBDB 239113）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239113&o=json
+            external_identifier: CBDB:239113
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EKnyL5yNzB3UQXTrkLtsAg
+        status: active
+        display_name: 王鎮
+        merged_into_person_id: null
 ---
 
 # 王鏞
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_b2MWJoRPw8eQD6tKTBzWN2 | 王信之 | accepted |
+| other | p_EKnyL5yNzB3UQXTrkLtsAg | 王鎮 | accepted |
 
 ## 外部来源
 

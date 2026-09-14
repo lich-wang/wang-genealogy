@@ -4,7 +4,7 @@ id: p_29ZocSe1Lr722SWiwgAGcj
 status: active
 merged_into: null
 display_name: 王桓
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_IG3NAMMTGj3aqcVZnGsfZW
+        subject_person_id: p_bGA9f5CTCFCRJmcWcUEGyG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_29ZocSe1Lr722SWiwgAGcj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dVbgrTtTYO3J71eDWD7Gfv
+          claim_id: c_IG3NAMMTGj3aqcVZnGsfZW
+          source_id: s__XLzl09PSJlVkci3RmjHWw
+          stance: supports
+          locator: CBDB：兄弟 王啟（126669）之父／母 王本
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王桓 与 王啟 为同胞（CBDB 记「弟」），王啟 之父／母即 王桓 之父／母。
+          source:
+            id: s__XLzl09PSJlVkci3RmjHWw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王桓（CBDB 260170）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260170&o=json
+            external_identifier: CBDB:260170
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_bGA9f5CTCFCRJmcWcUEGyG
+        status: active
+        display_name: 王本
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_mVSvHbqw1ygOw3M7KCOJjz
+        subject_person_id: p_29ZocSe1Lr722SWiwgAGcj
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Y8c9Xt6HZtEueH7Ywuv2af
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OYMC1i9ln372155fxpRrOb
+          claim_id: c_mVSvHbqw1ygOw3M7KCOJjz
+          source_id: s__XLzl09PSJlVkci3RmjHWw
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126669 王啟）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__XLzl09PSJlVkci3RmjHWw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王桓（CBDB 260170）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260170&o=json
+            external_identifier: CBDB:260170
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Y8c9Xt6HZtEueH7Ywuv2af
+        status: active
+        display_name: 王啟
+        merged_into_person_id: null
 ---
 
 # 王桓
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_bGA9f5CTCFCRJmcWcUEGyG | 王本 | accepted |
+| other | p_Y8c9Xt6HZtEueH7Ywuv2af | 王啟 | accepted |
 
 ## 外部来源
 

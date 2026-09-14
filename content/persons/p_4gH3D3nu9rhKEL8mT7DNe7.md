@@ -4,7 +4,7 @@ id: p_4gH3D3nu9rhKEL8mT7DNe7
 status: active
 merged_into: null
 display_name: 王扆
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_grlpBq_rUYrGAIav82SXEF
+        subject_person_id: p_t8KEZXxBW1dy3kvu8XnvuX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4gH3D3nu9rhKEL8mT7DNe7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pZVIIlPs_twWLlPY3-yxxs
+          claim_id: c_grlpBq_rUYrGAIav82SXEF
+          source_id: s_ahGuKLGq4_JRovEHLvbJBA
+          stance: supports
+          locator: CBDB：兄弟 王秩（200588）之父／母 王詁
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王扆 与 王秩 为同胞（CBDB 记「兄」），王秩 之父／母即 王扆 之父／母。
+          source:
+            id: s_ahGuKLGq4_JRovEHLvbJBA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王扆（CBDB 260103）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260103&o=json
+            external_identifier: CBDB:260103
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_t8KEZXxBW1dy3kvu8XnvuX
+        status: active
+        display_name: 王詁
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_pkN_ZrnKSL4Ow6WQtTDR7J
+        subject_person_id: p_4gH3D3nu9rhKEL8mT7DNe7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_7THfMJodZEJjq2hbN5iKFW
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3Z_dfQDLY5F3onPgeIyyO4
+          claim_id: c_pkN_ZrnKSL4Ow6WQtTDR7J
+          source_id: s_ahGuKLGq4_JRovEHLvbJBA
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200588 王秩）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ahGuKLGq4_JRovEHLvbJBA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王扆（CBDB 260103）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260103&o=json
+            external_identifier: CBDB:260103
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7THfMJodZEJjq2hbN5iKFW
+        status: active
+        display_name: 王秩
+        merged_into_person_id: null
 ---
 
 # 王扆
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_t8KEZXxBW1dy3kvu8XnvuX | 王詁 | accepted |
+| other | p_7THfMJodZEJjq2hbN5iKFW | 王秩 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_qaNbPxVseZmSQDL1Q2zNGZ
 status: active
 merged_into: null
 display_name: 王惟德
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -213,6 +213,43 @@ relationships:
         status: active
         display_name: 王大同
         merged_into_person_id: null
+    - claim:
+        id: c_l8qiJmZQIrbiI0I7SaD1By
+        subject_person_id: p_qaNbPxVseZmSQDL1Q2zNGZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KiXLqJhaSxoue4mDUdS1th
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_e5-TadwaPDTtmBY2Bsp6Oi
+          claim_id: c_l8qiJmZQIrbiI0I7SaD1By
+          source_id: s_Uow8FgRE1V_VSRko96GThR
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 38101）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_Uow8FgRE1V_VSRko96GThR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大順（CBDB 572687）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=572687&o=json
+            external_identifier: CBDB:572687
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KiXLqJhaSxoue4mDUdS1th
+        status: active
+        display_name: 王大順
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -240,10 +277,12 @@ relationships:
 | children | p_dyyUkZWDywAtknXtDVBC7E | 王宗道 | accepted |
 | children | p_gTWvcwTJduGYjH4AFByofy | 王大臨 | accepted |
 | children | p_V977tuTXveY9HTtwYUxUVK | 王大同 | accepted |
+| children | p_KiXLqJhaSxoue4mDUdS1th | 王大順 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王大臨（CBDB 38104）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38104&o=json)
+- [中国历代人物传记资料库：王大順（CBDB 572687）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=572687&o=json)
 - [中国历代人物传记资料库：王大同（CBDB 572685）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=572685&o=json)
 - [中国历代人物传记资料库：王惟德（CBDB 38101）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38101&o=json)
 - [中国历代人物传记资料库：王宗道（CBDB 572686）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=572686&o=json)

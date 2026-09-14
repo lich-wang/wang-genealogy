@@ -4,7 +4,7 @@ id: p_Kr82p89DPcaLRwmJJapqo8
 status: active
 merged_into: null
 display_name: 王宣
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -190,7 +190,81 @@ relationships:
         display_name: 王能
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_0BxgqjYi2h_4PCodVfGSY2
+        subject_person_id: p_JEGtxykFgdsAvLgBBdgN9F
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Kr82p89DPcaLRwmJJapqo8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xJkt_veXpG6lNAeA6ynegk
+          claim_id: c_0BxgqjYi2h_4PCodVfGSY2
+          source_id: s_A76s97hmMLdGxmJiJSe2n-
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126596 王宣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_A76s97hmMLdGxmJiJSe2n-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宏（CBDB 238668）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238668&o=json
+            external_identifier: CBDB:238668
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JEGtxykFgdsAvLgBBdgN9F
+        status: active
+        display_name: 王宏
+        merged_into_person_id: null
+    - claim:
+        id: c_stUUiM4yq1vsVBrf98lsT3
+        subject_person_id: p_Kr82p89DPcaLRwmJJapqo8
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wq43WpFyVyEQAXJuFqEhuS
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K_d3_1ezw9vvsG5O4FfwQb
+          claim_id: c_stUUiM4yq1vsVBrf98lsT3
+          source_id: s_quWzXe42IqWXWn_6TzQ10p
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126596 王宣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_quWzXe42IqWXWn_6TzQ10p
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寧（CBDB 238669）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238669&o=json
+            external_identifier: CBDB:238669
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wq43WpFyVyEQAXJuFqEhuS
+        status: active
+        display_name: 王寧
+        merged_into_person_id: null
 ---
 
 # 王宣
@@ -211,10 +285,14 @@ relationships:
 | parents | p_FDiJqJn77s6sHnYjqwgysR | 王忠 | accepted |
 | ancestors | p_sqRQj3rACsAggP37o1X4hW | 王賢 | accepted |
 | ancestors | p_yJM2VsmdHgJfKLCoMeE4UA | 王能 | accepted |
+| other | p_JEGtxykFgdsAvLgBBdgN9F | 王宏 | accepted |
+| other | p_wq43WpFyVyEQAXJuFqEhuS | 王寧 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王宏（CBDB 238668）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238668&o=json)
 - [中国历代人物传记资料库：王能（CBDB 238663）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238663&o=json)
+- [中国历代人物传记资料库：王寧（CBDB 238669）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238669&o=json)
 - [中国历代人物传记资料库：王賢（CBDB 238662）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238662&o=json)
 - [中国历代人物传记资料库：王宣（CBDB 126596）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126596&o=json)
 - [中国历代人物传记资料库：王忠（CBDB 238665）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238665&o=json)

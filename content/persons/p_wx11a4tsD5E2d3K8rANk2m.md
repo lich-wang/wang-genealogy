@@ -4,7 +4,7 @@ id: p_wx11a4tsD5E2d3K8rANk2m
 status: active
 merged_into: null
 display_name: 王逢
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_lRPhup-yEq98pJMeMKenvM
+        subject_person_id: p_N7qE8Uar4CzK9TTK6UVM28
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wx11a4tsD5E2d3K8rANk2m
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qbYH4PEiih3zX25BIYp2xH
+          claim_id: c_lRPhup-yEq98pJMeMKenvM
+          source_id: s_77Q7xXzra0Hi_QL4t_AeKj
+          stance: supports
+          locator: CBDB：兄弟 王廷（69148）之父／母 王希文
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王逢 与 王廷 为同胞（CBDB 记「兄」），王廷 之父／母即 王逢 之父／母。
+          source:
+            id: s_77Q7xXzra0Hi_QL4t_AeKj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王逢（CBDB 290822）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290822&o=json
+            external_identifier: CBDB:290822
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_N7qE8Uar4CzK9TTK6UVM28
+        status: active
+        display_name: 王希文
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ubhcSpzt-iSrfSQOAPI_RH
+        subject_person_id: p_pv2pDE9A1jj2uMGHCGpC7T
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wx11a4tsD5E2d3K8rANk2m
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_m1O0RxRWrSjJYcFnJ6obuN
+          claim_id: c_ubhcSpzt-iSrfSQOAPI_RH
+          source_id: s_77Q7xXzra0Hi_QL4t_AeKj
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 69148 王廷）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_77Q7xXzra0Hi_QL4t_AeKj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王逢（CBDB 290822）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290822&o=json
+            external_identifier: CBDB:290822
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_pv2pDE9A1jj2uMGHCGpC7T
+        status: active
+        display_name: 王廷
+        merged_into_person_id: null
 ---
 
 # 王逢
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_N7qE8Uar4CzK9TTK6UVM28 | 王希文 | accepted |
+| other | p_pv2pDE9A1jj2uMGHCGpC7T | 王廷 | accepted |
 
 ## 外部来源
 

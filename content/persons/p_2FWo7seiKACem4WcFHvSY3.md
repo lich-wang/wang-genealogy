@@ -4,7 +4,7 @@ id: p_2FWo7seiKACem4WcFHvSY3
 status: active
 merged_into: null
 display_name: 王繼旦
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_cB1TTCRSdYjHaUB9pv_UTr
+        subject_person_id: p_5sMmYXtRexRwYuYUk2GvGP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2FWo7seiKACem4WcFHvSY3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YJt5ssiWo2KDu1QhcjAmZS
+          claim_id: c_cB1TTCRSdYjHaUB9pv_UTr
+          source_id: s_cQtLFcYbFRYTzjHtUfnrtD
+          stance: supports
+          locator: CBDB：兄弟 王繼明（126880）之父／母 王允文
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王繼旦 与 王繼明 为同胞（CBDB 记「兄」），王繼明 之父／母即 王繼旦 之父／母。
+          source:
+            id: s_cQtLFcYbFRYTzjHtUfnrtD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繼旦（CBDB 215085）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215085&o=json
+            external_identifier: CBDB:215085
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5sMmYXtRexRwYuYUk2GvGP
+        status: active
+        display_name: 王允文
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ZYot-DGFsqowe_P6VwOmvu
+        subject_person_id: p_2FWo7seiKACem4WcFHvSY3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Uu3PhDPTRD4oQGaMJP7i1y
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EYrsOo4_eSpwsrsX3Ltcke
+          claim_id: c_ZYot-DGFsqowe_P6VwOmvu
+          source_id: s_cQtLFcYbFRYTzjHtUfnrtD
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126880 王繼明）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_cQtLFcYbFRYTzjHtUfnrtD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繼旦（CBDB 215085）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215085&o=json
+            external_identifier: CBDB:215085
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Uu3PhDPTRD4oQGaMJP7i1y
+        status: active
+        display_name: 王繼明
+        merged_into_person_id: null
 ---
 
 # 王繼旦
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5sMmYXtRexRwYuYUk2GvGP | 王允文 | accepted |
+| other | p_Uu3PhDPTRD4oQGaMJP7i1y | 王繼明 | accepted |
 
 ## 外部来源
 

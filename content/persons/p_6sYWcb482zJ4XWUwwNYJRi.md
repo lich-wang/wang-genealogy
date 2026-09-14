@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王士先
 cbdb_id: 329624
-revision: 2
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -114,6 +114,80 @@ relationships:
         status: active
         display_name: 王基
         merged_into_person_id: null
+    - claim:
+        id: c_AbmwUAlUdy_bC-A_73oe8S
+        subject_person_id: p_6sYWcb482zJ4XWUwwNYJRi
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QRnnDR27ftNKQGRE1MogD3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EK10vYa-wa-9_v3K297et8
+          claim_id: c_AbmwUAlUdy_bC-A_73oe8S
+          source_id: s_W2G6bqKZbH-HIA2ciHEOVD
+          stance: supports
+          locator: CBDB：兄弟 王基（126676）之父／母 王士先
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王堪 与 王基 为同胞（CBDB 记「兄」），王基 之父／母即 王堪 之父／母。
+          source:
+            id: s_W2G6bqKZbH-HIA2ciHEOVD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王堪（CBDB 329629）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329629&o=json
+            external_identifier: CBDB:329629
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_QRnnDR27ftNKQGRE1MogD3
+        status: active
+        display_name: 王堪
+        merged_into_person_id: null
+    - claim:
+        id: c_AbqAVC7hchz5AUd5GZQzLL
+        subject_person_id: p_6sYWcb482zJ4XWUwwNYJRi
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZH788UkFLmZjivN3xNAjbZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gZNM7IjnEQlAG3uHe8wYYd
+          claim_id: c_AbqAVC7hchz5AUd5GZQzLL
+          source_id: s_1Qf40-YVIhUyyXQOZlmcpT
+          stance: supports
+          locator: CBDB：兄弟 王基（126676）之父／母 王士先
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王業 与 王基 为同胞（CBDB 记「兄」），王基 之父／母即 王業 之父／母。
+          source:
+            id: s_1Qf40-YVIhUyyXQOZlmcpT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王業（CBDB 329628）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329628&o=json
+            external_identifier: CBDB:329628
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZH788UkFLmZjivN3xNAjbZ
+        status: active
+        display_name: 王業
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -138,7 +212,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_Lha1sy2QN5ZZFX6JESvChc | 王基 | accepted |
+| children | p_QRnnDR27ftNKQGRE1MogD3 | 王堪 | accepted |
+| children | p_ZH788UkFLmZjivN3xNAjbZ | 王業 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王堪（CBDB 329629）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329629&o=json)
 - [中国历代人物传记资料库：王士先（CBDB 329624）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329624&o=json)
+- [中国历代人物传记资料库：王業（CBDB 329628）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329628&o=json)

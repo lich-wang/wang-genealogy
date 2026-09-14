@@ -4,7 +4,7 @@ id: p_ik2xLF8xu36Bj6AhBMnYty
 status: active
 merged_into: null
 display_name: 王選
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_WgJeZTOqla6VtzxLaoYGo7
+        subject_person_id: p_i5579JHLY2cRuS7YHKZJ5T
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ik2xLF8xu36Bj6AhBMnYty
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_AoTZMCWVlU1cmJ4Vuizgpn
+          claim_id: c_WgJeZTOqla6VtzxLaoYGo7
+          source_id: s_hwidjsOxrcsbKglxeMQW43
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 12051）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_hwidjsOxrcsbKglxeMQW43
+            source_type: api_record
+            title: 中国历代人物传记资料库：王選（CBDB 12055）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12055&o=json
+            external_identifier: CBDB:12055
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_i5579JHLY2cRuS7YHKZJ5T
+        status: active
+        display_name: 王萬樞
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_FrEm6kqeMC-HK8IIlMuzmz
+        subject_person_id: p_DCTkDfQk8qHYiFjuEH45Mr
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ik2xLF8xu36Bj6AhBMnYty
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QDDCadTvJV88yy67-_D1Oi
+          claim_id: c_FrEm6kqeMC-HK8IIlMuzmz
+          source_id: s_hwidjsOxrcsbKglxeMQW43
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 12053 王遂）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hwidjsOxrcsbKglxeMQW43
+            source_type: api_record
+            title: 中国历代人物传记资料库：王選（CBDB 12055）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12055&o=json
+            external_identifier: CBDB:12055
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DCTkDfQk8qHYiFjuEH45Mr
+        status: active
+        display_name: 王遂
+        merged_into_person_id: null
 ---
 
 # 王選
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_i5579JHLY2cRuS7YHKZJ5T | 王萬樞 | accepted |
+| other | p_DCTkDfQk8qHYiFjuEH45Mr | 王遂 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_CHJThDkPUT6tJ14ZDHz191
 status: active
 merged_into: null
 display_name: 王之輔
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_VQi2q_WrNZ6ly8EOmh47gY
+        subject_person_id: p_2XaF6KrMwGSDeaU76DAGrz
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_CHJThDkPUT6tJ14ZDHz191
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E0zWk5kNoPo1He69u6G0MR
+          claim_id: c_VQi2q_WrNZ6ly8EOmh47gY
+          source_id: s_GJiaLOrfpHq-irzojwgeTb
+          stance: supports
+          locator: CBDB：兄弟 王之猷（126467）之父／母 王重光
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王之輔 与 王之猷 为同胞（CBDB 记「弟」），王之猷 之父／母即 王之輔 之父／母。
+          source:
+            id: s_GJiaLOrfpHq-irzojwgeTb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之輔（CBDB 217738）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217738&o=json
+            external_identifier: CBDB:217738
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2XaF6KrMwGSDeaU76DAGrz
+        status: active
+        display_name: 王重光
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Wwb8vPkCWKugNpyYOLMgkC
+        subject_person_id: p_5r1wESpKqnWgbhR5AChbjE
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_CHJThDkPUT6tJ14ZDHz191
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v5dh8_wi8VFUzmEYjo67zn
+          claim_id: c_Wwb8vPkCWKugNpyYOLMgkC
+          source_id: s_GJiaLOrfpHq-irzojwgeTb
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126467 王之猷）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_GJiaLOrfpHq-irzojwgeTb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之輔（CBDB 217738）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217738&o=json
+            external_identifier: CBDB:217738
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5r1wESpKqnWgbhR5AChbjE
+        status: active
+        display_name: 王之猷
+        merged_into_person_id: null
 ---
 
 # 王之輔
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_2XaF6KrMwGSDeaU76DAGrz | 王重光 | accepted |
+| other | p_5r1wESpKqnWgbhR5AChbjE | 王之猷 | accepted |
 
 ## 外部来源
 

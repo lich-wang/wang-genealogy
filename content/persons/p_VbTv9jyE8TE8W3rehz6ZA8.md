@@ -4,7 +4,7 @@ id: p_VbTv9jyE8TE8W3rehz6ZA8
 status: active
 merged_into: null
 display_name: 王義
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,80 @@ relationships:
         status: active
         display_name: 王元泰
         merged_into_person_id: null
+    - claim:
+        id: c_eHXRwUSh-ym6YTCQEIGNQL
+        subject_person_id: p_VbTv9jyE8TE8W3rehz6ZA8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_t63aG1ZwrZknHP318UgFPS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-ddyFJiUalMq07J41Ejdt2
+          claim_id: c_eHXRwUSh-ym6YTCQEIGNQL
+          source_id: s_tAv5pWsFXAu0cLER544uL2
+          stance: supports
+          locator: CBDB：兄弟 王元泰（140931）之父／母 王義
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王德合 与 王元泰 为同胞（CBDB 记「兄」），王元泰 之父／母即 王德合 之父／母。
+          source:
+            id: s_tAv5pWsFXAu0cLER544uL2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德合（CBDB 153849）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153849&o=json
+            external_identifier: CBDB:153849
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_t63aG1ZwrZknHP318UgFPS
+        status: active
+        display_name: 王德合
+        merged_into_person_id: null
+    - claim:
+        id: c_ZpVuGf5RAOTJ8c00YQ79-C
+        subject_person_id: p_VbTv9jyE8TE8W3rehz6ZA8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tJo5kdCLExUULsEBs7RJh4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QZAKZS3MVopniRTFGbNUnd
+          claim_id: c_ZpVuGf5RAOTJ8c00YQ79-C
+          source_id: s__hfVVb53WZ2WcTwXyNBgUV
+          stance: supports
+          locator: CBDB：兄弟 王元泰（140931）之父／母 王義
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王同規 与 王元泰 为同胞（CBDB 记「兄」），王元泰 之父／母即 王同規 之父／母。
+          source:
+            id: s__hfVVb53WZ2WcTwXyNBgUV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王同規（CBDB 153848）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153848&o=json
+            external_identifier: CBDB:153848
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_tJo5kdCLExUULsEBs7RJh4
+        status: active
+        display_name: 王同規
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +209,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_UE1q4HTiHr6dP2UxKLMoFA | 王元泰 | accepted |
+| children | p_t63aG1ZwrZknHP318UgFPS | 王德合 | accepted |
+| children | p_tJo5kdCLExUULsEBs7RJh4 | 王同規 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王德合（CBDB 153849）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153849&o=json)
+- [中国历代人物传记资料库：王同規（CBDB 153848）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153848&o=json)
 - [中国历代人物传记资料库：王義（CBDB 153847）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153847&o=json)
 - [中国历代人物传记资料库：王元泰（CBDB 140931）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=140931&o=json)

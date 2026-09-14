@@ -4,7 +4,7 @@ id: p_KA4HmoiV97LWU9V3M1kT13
 status: active
 merged_into: null
 display_name: 王楫
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_l3cpRWkmjHL5UlsM5hu3hS
+        subject_person_id: p_XDFGKptw1EWAKBbTEUcvCN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KA4HmoiV97LWU9V3M1kT13
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4U3K2VoN7Thw6VNcm8kzVP
+          claim_id: c_l3cpRWkmjHL5UlsM5hu3hS
+          source_id: s_8Y--frPAlTXOkeJv53nufB
+          stance: supports
+          locator: CBDB：兄弟 王同祖（126516）之父／母 王銀
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王楫 与 王同祖 为同胞（CBDB 记「兄」），王同祖 之父／母即 王楫 之父／母。
+          source:
+            id: s_8Y--frPAlTXOkeJv53nufB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王楫（CBDB 283938）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283938&o=json
+            external_identifier: CBDB:283938
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_XDFGKptw1EWAKBbTEUcvCN
+        status: active
+        display_name: 王銀
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_VgQH2DjksIoKdUMZGQL3Sj
+        subject_person_id: p_KA4HmoiV97LWU9V3M1kT13
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_uQx6CsD653L6hRpaz3mPf9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XVILRf4LROCwSp5Fir19BX
+          claim_id: c_VgQH2DjksIoKdUMZGQL3Sj
+          source_id: s_8Y--frPAlTXOkeJv53nufB
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126516 王同祖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_8Y--frPAlTXOkeJv53nufB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王楫（CBDB 283938）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283938&o=json
+            external_identifier: CBDB:283938
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_uQx6CsD653L6hRpaz3mPf9
+        status: active
+        display_name: 王同祖
+        merged_into_person_id: null
 ---
 
 # 王楫
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_XDFGKptw1EWAKBbTEUcvCN | 王銀 | accepted |
+| other | p_uQx6CsD653L6hRpaz3mPf9 | 王同祖 | accepted |
 
 ## 外部来源
 

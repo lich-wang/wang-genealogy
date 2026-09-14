@@ -4,7 +4,7 @@ id: p_3asAYAcPAHJNbCBPG7wNDR
 status: active
 merged_into: null
 display_name: 王德陞
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_mY-nBxjtq-9Jqet8Pc4MZG
+        subject_person_id: p_3asAYAcPAHJNbCBPG7wNDR
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_YDqDowKLnaQ6thSDnoqm6C
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hefjZdcF4qcvCV0Ax7Wv40
+          claim_id: c_mY-nBxjtq-9Jqet8Pc4MZG
+          source_id: s_rJqI_MZOl1UoJJQMSrr5z7
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 575339 王德培）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_rJqI_MZOl1UoJJQMSrr5z7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德陞（CBDB 575336）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=575336&o=json
+            external_identifier: CBDB:575336
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_YDqDowKLnaQ6thSDnoqm6C
+        status: active
+        display_name: 王德培
+        merged_into_person_id: null
 ---
 
 # 王德陞
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_YDqDowKLnaQ6thSDnoqm6C | 王德培 | accepted |
 
 ## 外部来源
 

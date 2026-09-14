@@ -4,7 +4,7 @@ id: p_AJqV7c5hyNaepcUXtEMsiD
 status: active
 merged_into: null
 display_name: 王道
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_bhY2-SvUJGjx_I3I3Q0c-A
+        subject_person_id: p_eN26ab6vRMdN7dn1bE1CDf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AJqV7c5hyNaepcUXtEMsiD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FQ4xa7u7umDZWnzxT9Xz_s
+          claim_id: c_bhY2-SvUJGjx_I3I3Q0c-A
+          source_id: s_dhSkG9z6J-Va1ipr-uvbtd
+          stance: supports
+          locator: CBDB：兄弟 王得孚（126702）之父／母 王子榮
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王道 与 王得孚 为同胞（CBDB 记「兄」），王得孚 之父／母即 王道 之父／母。
+          source:
+            id: s_dhSkG9z6J-Va1ipr-uvbtd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道（CBDB 241847）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241847&o=json
+            external_identifier: CBDB:241847
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_eN26ab6vRMdN7dn1bE1CDf
+        status: active
+        display_name: 王子榮
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_iMg2S3F4JgdrFkaoBnFnfn
+        subject_person_id: p_7a2QWukYSmEM9zh4AA1o47
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_AJqV7c5hyNaepcUXtEMsiD
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Y-rh0xAj_vevlzp3Edhuju
+          claim_id: c_iMg2S3F4JgdrFkaoBnFnfn
+          source_id: s_dhSkG9z6J-Va1ipr-uvbtd
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126702 王得孚）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_dhSkG9z6J-Va1ipr-uvbtd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道（CBDB 241847）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241847&o=json
+            external_identifier: CBDB:241847
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7a2QWukYSmEM9zh4AA1o47
+        status: active
+        display_name: 王得孚
+        merged_into_person_id: null
 ---
 
 # 王道
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_eN26ab6vRMdN7dn1bE1CDf | 王子榮 | accepted |
+| other | p_7a2QWukYSmEM9zh4AA1o47 | 王得孚 | accepted |
 
 ## 外部来源
 

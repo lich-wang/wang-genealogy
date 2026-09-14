@@ -4,7 +4,7 @@ id: p_a2MgxrEcSzhbMSTAx75fb8
 status: active
 merged_into: null
 display_name: 王鉉
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -194,7 +194,81 @@ relationships:
         display_name: 王茂
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_5PsPrMW26RAZaDhKyUbd6-
+        subject_person_id: p_ZS2NawTEzek9eBQ49pCYe2
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_a2MgxrEcSzhbMSTAx75fb8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0xVMQI6H_Vg1amfST38qZm
+          claim_id: c_5PsPrMW26RAZaDhKyUbd6-
+          source_id: s_V8gES0Rn5FE3zycv0EyYdg
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126766 王鉉）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_V8gES0Rn5FE3zycv0EyYdg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎮（CBDB 239474）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239474&o=json
+            external_identifier: CBDB:239474
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZS2NawTEzek9eBQ49pCYe2
+        status: active
+        display_name: 王鎮
+        merged_into_person_id: null
+    - claim:
+        id: c_y0YGDArOZroR92YwbGTEa1
+        subject_person_id: p_a2MgxrEcSzhbMSTAx75fb8
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_oVCBZesnwP1ukYz7pCzR8P
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sYsHn1tIEpNwhzb07IRBwN
+          claim_id: c_y0YGDArOZroR92YwbGTEa1
+          source_id: s_LNsqRFtTVooTbllCSmDsZS
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126766 王鉉）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_LNsqRFtTVooTbllCSmDsZS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王銈（CBDB 239475）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239475&o=json
+            external_identifier: CBDB:239475
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oVCBZesnwP1ukYz7pCzR8P
+        status: active
+        display_name: 王銈
+        merged_into_person_id: null
 ---
 
 # 王鉉
@@ -216,8 +290,12 @@ relationships:
 | spouses | p_G8NXeGARDdckpF6V4YVK8D | 何氏 | accepted |
 | ancestors | p_ASiHcqUfwmvxD62UQRVghp | 王通甫 | accepted |
 | ancestors | p_Dt651oiMocivbJt6r7DvrX | 王茂 | accepted |
+| other | p_ZS2NawTEzek9eBQ49pCYe2 | 王鎮 | accepted |
+| other | p_oVCBZesnwP1ukYz7pCzR8P | 王銈 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：何氏(王鉉妻)（CBDB 239473）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239473&o=json)
+- [中国历代人物传记资料库：王銈（CBDB 239475）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239475&o=json)
 - [中国历代人物传记资料库：王鉉（CBDB 126766）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126766&o=json)
+- [中国历代人物传记资料库：王鎮（CBDB 239474）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239474&o=json)

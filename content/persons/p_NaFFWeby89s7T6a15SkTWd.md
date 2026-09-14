@@ -4,7 +4,7 @@ id: p_NaFFWeby89s7T6a15SkTWd
 status: active
 merged_into: null
 display_name: 王德純
-revision: 2
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,154 @@ relationships:
         status: active
         display_name: 王開
         merged_into_person_id: null
+    - claim:
+        id: c_D4DvY966iPMeWs-snmaTgS
+        subject_person_id: p_NaFFWeby89s7T6a15SkTWd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6aKDd5bp48i8wNWFQw3Ra1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GArFDB61sqJUSpCMFxHlDl
+          claim_id: c_D4DvY966iPMeWs-snmaTgS
+          source_id: s_ufJuGvhQ9G-np7HxpjPdk6
+          stance: supports
+          locator: CBDB：兄弟 王開（206147）之父／母 王德純
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王闉 与 王開 为同胞（CBDB 记「弟」），王開 之父／母即 王闉 之父／母。
+          source:
+            id: s_ufJuGvhQ9G-np7HxpjPdk6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王闉（CBDB 213943）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213943&o=json
+            external_identifier: CBDB:213943
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6aKDd5bp48i8wNWFQw3Ra1
+        status: active
+        display_name: 王闉
+        merged_into_person_id: null
+    - claim:
+        id: c_Y8d06Pw612FhjDiL5G1CKf
+        subject_person_id: p_NaFFWeby89s7T6a15SkTWd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6brMKC1wiyW1Rf3Age6Z8j
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QkBBEgi-5AQP2b81_EJ3Fq
+          claim_id: c_Y8d06Pw612FhjDiL5G1CKf
+          source_id: s_SrwN4ELMcnuo8p2JuNiNRc
+          stance: supports
+          locator: CBDB：兄弟 王開（206147）之父／母 王德純
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王闕 与 王開 为同胞（CBDB 记「兄」），王開 之父／母即 王闕 之父／母。
+          source:
+            id: s_SrwN4ELMcnuo8p2JuNiNRc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王闕（CBDB 213945）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213945&o=json
+            external_identifier: CBDB:213945
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6brMKC1wiyW1Rf3Age6Z8j
+        status: active
+        display_name: 王闕
+        merged_into_person_id: null
+    - claim:
+        id: c_gNoy8E2GKLG9EwMbeyNnTp
+        subject_person_id: p_NaFFWeby89s7T6a15SkTWd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9yAZ8HiJAXYanutZzigvBw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hsM9uyL_vkS1mTW_l4PFDf
+          claim_id: c_gNoy8E2GKLG9EwMbeyNnTp
+          source_id: s_NknUqM7TJRKUaI2MUBdq1i
+          stance: supports
+          locator: CBDB：兄弟 王開（206147）之父／母 王德純
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王閥 与 王開 为同胞（CBDB 记「弟」），王開 之父／母即 王閥 之父／母。
+          source:
+            id: s_NknUqM7TJRKUaI2MUBdq1i
+            source_type: api_record
+            title: 中国历代人物传记资料库：王閥（CBDB 213944）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213944&o=json
+            external_identifier: CBDB:213944
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9yAZ8HiJAXYanutZzigvBw
+        status: active
+        display_name: 王閥
+        merged_into_person_id: null
+    - claim:
+        id: c_0PGkPxiT9NBAILlVMV7zpr
+        subject_person_id: p_NaFFWeby89s7T6a15SkTWd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PwACpjTAKGhdSig9N67kND
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E0F8jv_aLSpbt3HISNTGIJ
+          claim_id: c_0PGkPxiT9NBAILlVMV7zpr
+          source_id: s_BeLq5VbuzCq_MFAqcjGsKs
+          stance: supports
+          locator: CBDB：兄弟 王開（206147）之父／母 王德純
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王閔 与 王開 为同胞（CBDB 记「兄」），王開 之父／母即 王閔 之父／母。
+          source:
+            id: s_BeLq5VbuzCq_MFAqcjGsKs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王閔（CBDB 213946）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213946&o=json
+            external_identifier: CBDB:213946
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PwACpjTAKGhdSig9N67kND
+        status: active
+        display_name: 王閔
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +272,15 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_GDsYhHNBBkDcpWQEYco8Kg | 王開 | accepted |
+| children | p_6aKDd5bp48i8wNWFQw3Ra1 | 王闉 | accepted |
+| children | p_6brMKC1wiyW1Rf3Age6Z8j | 王闕 | accepted |
+| children | p_9yAZ8HiJAXYanutZzigvBw | 王閥 | accepted |
+| children | p_PwACpjTAKGhdSig9N67kND | 王閔 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王德純（CBDB 213939）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213939&o=json)
+- [中国历代人物传记资料库：王閥（CBDB 213944）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213944&o=json)
+- [中国历代人物传记资料库：王閔（CBDB 213946）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213946&o=json)
+- [中国历代人物传记资料库：王闕（CBDB 213945）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213945&o=json)
+- [中国历代人物传记资料库：王闉（CBDB 213943）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213943&o=json)

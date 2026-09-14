@@ -4,7 +4,7 @@ id: p_FDD1rKLJcaD63N9u1W33MZ
 status: active
 merged_into: null
 display_name: 王璽
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_gZ9mhbRLah8YzwkvUcEdTO
+        subject_person_id: p_A3heW27H9g2mVn1UvcsyD4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FDD1rKLJcaD63N9u1W33MZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K9SRr8azVGekVr7FQNzdWB
+          claim_id: c_gZ9mhbRLah8YzwkvUcEdTO
+          source_id: s_5mJ_mUXkgVPwnJ2UZ5HjmH
+          stance: supports
+          locator: CBDB：兄弟 王璇（200297）之父／母 王時佐
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王璽 与 王璇 为同胞（CBDB 记「弟」），王璇 之父／母即 王璽 之父／母。
+          source:
+            id: s_5mJ_mUXkgVPwnJ2UZ5HjmH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璽（CBDB 256029）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256029&o=json
+            external_identifier: CBDB:256029
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_A3heW27H9g2mVn1UvcsyD4
+        status: active
+        display_name: 王時佐
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_UiRtgE5SGgIA__5hWxtaS4
+        subject_person_id: p_FDD1rKLJcaD63N9u1W33MZ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Q746PBZNycHf9YN5GVT1MS
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_x1JCF7zoTwgXLd-Ll8CMv7
+          claim_id: c_UiRtgE5SGgIA__5hWxtaS4
+          source_id: s_5mJ_mUXkgVPwnJ2UZ5HjmH
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200297 王璇）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_5mJ_mUXkgVPwnJ2UZ5HjmH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璽（CBDB 256029）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=256029&o=json
+            external_identifier: CBDB:256029
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Q746PBZNycHf9YN5GVT1MS
+        status: active
+        display_name: 王璇
+        merged_into_person_id: null
 ---
 
 # 王璽
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_A3heW27H9g2mVn1UvcsyD4 | 王時佐 | accepted |
+| other | p_Q746PBZNycHf9YN5GVT1MS | 王璇 | accepted |
 
 ## 外部来源
 

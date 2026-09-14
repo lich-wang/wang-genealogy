@@ -4,7 +4,7 @@ id: p_vDzf6isJ8G9fr8y7scc2fq
 status: active
 merged_into: null
 display_name: 王崑
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,81 @@ relationships:
         display_name: 王景信
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c__CqsGXDOFCShiniRZ2emzb
+        subject_person_id: p_786rPa2cye1V5UjnNigPhV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vDzf6isJ8G9fr8y7scc2fq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rflFP8ouLJirAUxgQNIp4v
+          claim_id: c__CqsGXDOFCShiniRZ2emzb
+          source_id: s_I93RjexzBWrCyZEEg9xv6h
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201957 王崑）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_I93RjexzBWrCyZEEg9xv6h
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崙（CBDB 257078）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257078&o=json
+            external_identifier: CBDB:257078
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_786rPa2cye1V5UjnNigPhV
+        status: active
+        display_name: 王崙
+        merged_into_person_id: null
+    - claim:
+        id: c_qxgj20RdOwapRgGxeXxtMj
+        subject_person_id: p_8TvUMMPffQgp4RCcfKc6UW
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vDzf6isJ8G9fr8y7scc2fq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uEt_gltN4z214E-5CsJPxx
+          claim_id: c_qxgj20RdOwapRgGxeXxtMj
+          source_id: s_ee3Ly-Bb_sn5nWIkoXS0JI
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201957 王崑）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ee3Ly-Bb_sn5nWIkoXS0JI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嶧（CBDB 281110）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281110&o=json
+            external_identifier: CBDB:281110
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8TvUMMPffQgp4RCcfKc6UW
+        status: active
+        display_name: 王嶧
+        merged_into_person_id: null
 ---
 
 # 王崑
@@ -241,10 +315,14 @@ relationships:
 | parents | p_1fEzNtyPjCg5rqRonPekKp | 王澤 | accepted |
 | ancestors | p_iDHYjbUs9Cnr7wU4NATWxS | 王致遠 | accepted |
 | ancestors | p_PKmXoEz6WVxAL58MjFwTD2 | 王景信 | accepted |
+| other | p_786rPa2cye1V5UjnNigPhV | 王崙 | accepted |
+| other | p_8TvUMMPffQgp4RCcfKc6UW | 王嶧 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王景信（CBDB 257072）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257072&o=json)
 - [中国历代人物传记资料库：王崑（CBDB 201957）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201957&o=json)
+- [中国历代人物传记资料库：王崙（CBDB 257078）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257078&o=json)
+- [中国历代人物传记资料库：王嶧（CBDB 281110）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281110&o=json)
 - [中国历代人物传记资料库：王澤（CBDB 257073）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257073&o=json)
 - [中国历代人物传记资料库：王致遠（CBDB 257071）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257071&o=json)

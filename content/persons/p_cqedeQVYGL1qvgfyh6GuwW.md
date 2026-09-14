@@ -4,7 +4,7 @@ id: p_cqedeQVYGL1qvgfyh6GuwW
 status: active
 merged_into: null
 display_name: 秋瑾
-revision: 2
+revision: 4
 cbdb_id: 54478
 properties:
   - predicate: bio.summary
@@ -74,7 +74,81 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c__3qiX7dSlAIWBI6u_uVLKP
+        subject_person_id: p_cqedeQVYGL1qvgfyh6GuwW
+        claim_kind: relationship
+        predicate: kinship.mother_of
+        object_person_id: p_BqvmZ5X4GCP6wUqCtVSwcN
+        generation_count: null
+        parent_role: mother
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_oWQJ85AWU0fUjwp78s7YbA
+          claim_id: c__3qiX7dSlAIWBI6u_uVLKP
+          source_id: s_Sx_40ouPSlRwDumwtWZ9sE
+          stance: supports
+          locator: CBDB 亲属：母（KinPerson 54478）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_Sx_40ouPSlRwDumwtWZ9sE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王桂芬（CBDB 519949）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=519949&o=json
+            external_identifier: CBDB:519949
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BqvmZ5X4GCP6wUqCtVSwcN
+        status: active
+        display_name: 王桂芬
+        merged_into_person_id: null
+    - claim:
+        id: c_hdhbDDws2Up2wGPOD_Ct_G
+        subject_person_id: p_cqedeQVYGL1qvgfyh6GuwW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uAjBjVSEd6CRKzEbLgrPNF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_k625wjsBJ7-tihW6vLnijl
+          claim_id: c_hdhbDDws2Up2wGPOD_Ct_G
+          source_id: s_uh-My85lXus5LWksb2bn3o
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 54478）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_uh-My85lXus5LWksb2bn3o
+            source_type: api_record
+            title: 中国历代人物传记资料库：王沅德（CBDB 519948）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=519948&o=json
+            external_identifier: CBDB:519948
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_uAjBjVSEd6CRKzEbLgrPNF
+        status: active
+        display_name: 王沅德
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -162,10 +236,14 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_BqvmZ5X4GCP6wUqCtVSwcN | 王桂芬 | accepted |
+| children | p_uAjBjVSEd6CRKzEbLgrPNF | 王沅德 | accepted |
 | spouses | p_EKiD1Jc6GngFELNWT5F3RT | 王廷鈞 | accepted |
 | spouses | p_f2ian49TRCzGHc7hjV3RDc | 王子芳 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：秋瑾（CBDB 54478）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54478&o=json)
+- [中国历代人物传记资料库：王桂芬（CBDB 519949）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=519949&o=json)
+- [中国历代人物传记资料库：王沅德（CBDB 519948）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=519948&o=json)
 - [中国历代人物传记资料库：王子芳（CBDB 54481）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=54481&o=json)

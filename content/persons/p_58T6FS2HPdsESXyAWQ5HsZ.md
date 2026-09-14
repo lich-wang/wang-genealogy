@@ -4,7 +4,7 @@ id: p_58T6FS2HPdsESXyAWQ5HsZ
 status: active
 merged_into: null
 display_name: 王吉甫
-revision: 2
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,154 @@ relationships:
         status: active
         display_name: 王鑑
         merged_into_person_id: null
+    - claim:
+        id: c_AiYup6Cj3_xthoThbERkCn
+        subject_person_id: p_58T6FS2HPdsESXyAWQ5HsZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2vhLtAEfYEAKfqsmFkPmPE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Y1w8ak-8YEbABmWgBOyMYq
+          claim_id: c_AiYup6Cj3_xthoThbERkCn
+          source_id: s_7W-NLXejJNhfV3igWR0njf
+          stance: supports
+          locator: CBDB：兄弟 王鑑（68835）之父／母 王吉甫
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王固 与 王鑑 为同胞（CBDB 记「弟」），王鑑 之父／母即 王固 之父／母。
+          source:
+            id: s_7W-NLXejJNhfV3igWR0njf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王固（CBDB 264269）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264269&o=json
+            external_identifier: CBDB:264269
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2vhLtAEfYEAKfqsmFkPmPE
+        status: active
+        display_name: 王固
+        merged_into_person_id: null
+    - claim:
+        id: c_0DQtVuuyHyfHFtXesSMSvv
+        subject_person_id: p_58T6FS2HPdsESXyAWQ5HsZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4NNH2b7ph6dGDSzKVJgCbo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ba0MQ5KdwNMKjygXjrJPvp
+          claim_id: c_0DQtVuuyHyfHFtXesSMSvv
+          source_id: s_MvBc9Pp7ZTIcUn0117qy65
+          stance: supports
+          locator: CBDB：兄弟 王鑑（68835）之父／母 王吉甫
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王銳 与 王鑑 为同胞（CBDB 记「兄」），王鑑 之父／母即 王銳 之父／母。
+          source:
+            id: s_MvBc9Pp7ZTIcUn0117qy65
+            source_type: api_record
+            title: 中国历代人物传记资料库：王銳（CBDB 264303）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264303&o=json
+            external_identifier: CBDB:264303
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4NNH2b7ph6dGDSzKVJgCbo
+        status: active
+        display_name: 王銳
+        merged_into_person_id: null
+    - claim:
+        id: c_nZLUA2hkcWvEBGokCcPeqD
+        subject_person_id: p_58T6FS2HPdsESXyAWQ5HsZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pZvZDWqN8fXFnFhqGjtXXD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZqZDlO4TTy27q03E1C2MF1
+          claim_id: c_nZLUA2hkcWvEBGokCcPeqD
+          source_id: s_Kd2o05297TgdeYBezwvBN9
+          stance: supports
+          locator: CBDB：兄弟 王鑑（68835）之父／母 王吉甫
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王樽 与 王鑑 为同胞（CBDB 记「兄」），王鑑 之父／母即 王樽 之父／母。
+          source:
+            id: s_Kd2o05297TgdeYBezwvBN9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王樽（CBDB 264280）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264280&o=json
+            external_identifier: CBDB:264280
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_pZvZDWqN8fXFnFhqGjtXXD
+        status: active
+        display_name: 王樽
+        merged_into_person_id: null
+    - claim:
+        id: c_5D9QNKXz9ZIKDDpC8khVMn
+        subject_person_id: p_58T6FS2HPdsESXyAWQ5HsZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_urh8FniQCZwFsizAw6pB3W
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lMzRvwFXD1N_8dfqRZFpp1
+          claim_id: c_5D9QNKXz9ZIKDDpC8khVMn
+          source_id: s_GFS-beQc8wQGwp5wVNUU80
+          stance: supports
+          locator: CBDB：兄弟 王鑑（68835）之父／母 王吉甫
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鉞 与 王鑑 为同胞（CBDB 记「兄」），王鑑 之父／母即 王鉞 之父／母。
+          source:
+            id: s_GFS-beQc8wQGwp5wVNUU80
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鉞（CBDB 264291）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264291&o=json
+            external_identifier: CBDB:264291
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_urh8FniQCZwFsizAw6pB3W
+        status: active
+        display_name: 王鉞
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +272,15 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_GBJny92BjTJrCUatL2dF1X | 王鑑 | accepted |
+| children | p_2vhLtAEfYEAKfqsmFkPmPE | 王固 | accepted |
+| children | p_4NNH2b7ph6dGDSzKVJgCbo | 王銳 | accepted |
+| children | p_pZvZDWqN8fXFnFhqGjtXXD | 王樽 | accepted |
+| children | p_urh8FniQCZwFsizAw6pB3W | 王鉞 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王固（CBDB 264269）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264269&o=json)
 - [中国历代人物传记资料库：王吉甫（CBDB 264236）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264236&o=json)
+- [中国历代人物传记资料库：王銳（CBDB 264303）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264303&o=json)
+- [中国历代人物传记资料库：王鉞（CBDB 264291）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264291&o=json)
+- [中国历代人物传记资料库：王樽（CBDB 264280）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264280&o=json)

@@ -4,7 +4,7 @@ id: p_StVZRLZsMztzNrMrw3P4VB
 status: active
 merged_into: null
 display_name: 王正大
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_zg115Nkgey16I95hC_EMZx
+        subject_person_id: p_Uu3urkECTiPumEtH6sBydY
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_StVZRLZsMztzNrMrw3P4VB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HqKd46EBFpi7JAZZZTN5m9
+          claim_id: c_zg115Nkgey16I95hC_EMZx
+          source_id: s_vg0tq0jbxsN4FBRzcRcw46
+          stance: supports
+          locator: CBDB：兄弟 王正国（68263）之父／母 王邦瑞
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王正大 与 王正国 为同胞（CBDB 记「兄」），王正国 之父／母即 王正大 之父／母。
+          source:
+            id: s_vg0tq0jbxsN4FBRzcRcw46
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正大（CBDB 313128）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313128&o=json
+            external_identifier: CBDB:313128
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Uu3urkECTiPumEtH6sBydY
+        status: active
+        display_name: 王邦瑞
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_53Nre8QRRnlVLqcnznHFn9
+        subject_person_id: p_KbE3VYwBQk3rLuTGnVB2me
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_StVZRLZsMztzNrMrw3P4VB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Uf_j9KyGzoIkwXjSxcU-x2
+          claim_id: c_53Nre8QRRnlVLqcnznHFn9
+          source_id: s_vg0tq0jbxsN4FBRzcRcw46
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 68263 王正國）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_vg0tq0jbxsN4FBRzcRcw46
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正大（CBDB 313128）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313128&o=json
+            external_identifier: CBDB:313128
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KbE3VYwBQk3rLuTGnVB2me
+        status: active
+        display_name: 王正国
+        merged_into_person_id: null
 ---
 
 # 王正大
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Uu3urkECTiPumEtH6sBydY | 王邦瑞 | accepted |
+| other | p_KbE3VYwBQk3rLuTGnVB2me | 王正国 | accepted |
 
 ## 外部来源
 

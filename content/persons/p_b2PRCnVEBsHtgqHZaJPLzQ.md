@@ -4,7 +4,7 @@ id: p_b2PRCnVEBsHtgqHZaJPLzQ
 status: active
 merged_into: null
 display_name: 王相
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -194,7 +194,81 @@ relationships:
         display_name: 王永迪
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_HkB0KD0eIgR7-hJBEq9yYc
+        subject_person_id: p_2muzTf8r13AQgYtXhMPiQM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_b2PRCnVEBsHtgqHZaJPLzQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KAxkpUkIyqZD41guFJtpzo
+          claim_id: c_HkB0KD0eIgR7-hJBEq9yYc
+          source_id: s_zCgGofG-HpVY4py0MGU-_L
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 68074 王相）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_zCgGofG-HpVY4py0MGU-_L
+            source_type: api_record
+            title: 中国历代人物传记资料库：王樂志（CBDB 238442）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238442&o=json
+            external_identifier: CBDB:238442
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2muzTf8r13AQgYtXhMPiQM
+        status: active
+        display_name: 王樂志
+        merged_into_person_id: null
+    - claim:
+        id: c_OPEH4xu6SfUc1F-jFNDfvk
+        subject_person_id: p_aCeP3bj5MQzSyc8rZRpmKD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_b2PRCnVEBsHtgqHZaJPLzQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RUS5wWBBPNQ8XJkwxb_eEQ
+          claim_id: c_OPEH4xu6SfUc1F-jFNDfvk
+          source_id: s_gMPTq3pJL8BViYq0_ZxHVA
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 68074 王相）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_gMPTq3pJL8BViYq0_ZxHVA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王樂耕（CBDB 238431）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238431&o=json
+            external_identifier: CBDB:238431
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aCeP3bj5MQzSyc8rZRpmKD
+        status: active
+        display_name: 王樂耕
+        merged_into_person_id: null
 ---
 
 # 王相
@@ -216,8 +290,12 @@ relationships:
 | spouses | p_fCsjZnWzfUjLom7GNyXTsQ | 陳氏 | accepted |
 | ancestors | p_NGifpb6gL7oqdH75gy61NE | 王世傑 | accepted |
 | ancestors | p_qHWEFvat5qe8sNPkZm2a3f | 王永迪 | accepted |
+| other | p_2muzTf8r13AQgYtXhMPiQM | 王樂志 | accepted |
+| other | p_aCeP3bj5MQzSyc8rZRpmKD | 王樂耕 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：陳氏(王相妻)（CBDB 238409）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238409&o=json)
+- [中国历代人物传记资料库：王樂耕（CBDB 238431）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238431&o=json)
+- [中国历代人物传记资料库：王樂志（CBDB 238442）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238442&o=json)
 - [中国历代人物传记资料库：王相（CBDB 68074）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68074&o=json)

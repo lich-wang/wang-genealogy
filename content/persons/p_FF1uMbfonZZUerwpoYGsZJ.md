@@ -4,7 +4,7 @@ id: p_FF1uMbfonZZUerwpoYGsZJ
 status: active
 merged_into: null
 display_name: 王郁
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,44 @@ relationships:
         display_name: 王通
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_jQE2daci2pd1kAoyZK3gFm
+        subject_person_id: p_6K7Q5ESTtUvMABnWTJmfLL
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_FF1uMbfonZZUerwpoYGsZJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GEauRZ3g1kvgFoXK5lRmaM
+          claim_id: c_jQE2daci2pd1kAoyZK3gFm
+          source_id: s_zB2qcP6slXskyEb9-5fAGV
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200177 王郁）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_zB2qcP6slXskyEb9-5fAGV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王誾（CBDB 254534）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254534&o=json
+            external_identifier: CBDB:254534
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6K7Q5ESTtUvMABnWTJmfLL
+        status: active
+        display_name: 王誾
+        merged_into_person_id: null
 ---
 
 # 王郁
@@ -245,8 +282,10 @@ relationships:
 | spouses | p_55w21bqueKgmZs52sCs4iP | 高氏 | accepted |
 | ancestors | p_sNWwAL6to8rH1MBPLZwd3p | 王朝 | accepted |
 | ancestors | p_h6ur3n3rWfGs73DSqdakhr | 王通 | accepted |
+| other | p_6K7Q5ESTtUvMABnWTJmfLL | 王誾 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：高氏(王郁妻)（CBDB 254533）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254533&o=json)
+- [中国历代人物传记资料库：王誾（CBDB 254534）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254534&o=json)
 - [中国历代人物传记资料库：王郁（CBDB 200177）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200177&o=json)

@@ -4,7 +4,7 @@ id: p_QeQKrjZirVTXRydZQsQCp7
 status: active
 merged_into: null
 display_name: 王應奎
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,81 @@ relationships:
         display_name: 王璋
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_HfmR00cdBi0p0lC9kPhAez
+        subject_person_id: p_EzocBJW6RzH8DyW5QMtFa1
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_QeQKrjZirVTXRydZQsQCp7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9stnCXqbgwgWTm5EL9YBM5
+          claim_id: c_HfmR00cdBi0p0lC9kPhAez
+          source_id: s_Ah9WnyZdfXpVzuw_xy2Xd8
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200930 王應奎）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Ah9WnyZdfXpVzuw_xy2Xd8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應榮（CBDB 264769）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264769&o=json
+            external_identifier: CBDB:264769
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EzocBJW6RzH8DyW5QMtFa1
+        status: active
+        display_name: 王應榮
+        merged_into_person_id: null
+    - claim:
+        id: c_-lYmp3EzN9I8C-acTUAXGv
+        subject_person_id: p_QeQKrjZirVTXRydZQsQCp7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wLiPxVWXN5HA4FTZnJFDJd
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JCbK4-T1me6v6QZ_wkUN77
+          claim_id: c_-lYmp3EzN9I8C-acTUAXGv
+          source_id: s_74BktygABhG__BF5LsPleV
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200930 王應奎）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_74BktygABhG__BF5LsPleV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應華（CBDB 264770）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264770&o=json
+            external_identifier: CBDB:264770
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wLiPxVWXN5HA4FTZnJFDJd
+        status: active
+        display_name: 王應華
+        merged_into_person_id: null
 ---
 
 # 王應奎
@@ -240,10 +314,14 @@ relationships:
 | parents | p_XJby7SFFzaZ2pkf21xuAQZ | 王珏 | accepted |
 | ancestors | p_BwZbwCCJrWk8uhRZsPoenP | 王護 | accepted |
 | ancestors | p_JFBcDJNLZ6qLp8vP4oHJmX | 王璋 | accepted |
+| other | p_EzocBJW6RzH8DyW5QMtFa1 | 王應榮 | accepted |
+| other | p_wLiPxVWXN5HA4FTZnJFDJd | 王應華 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王護（CBDB 264764）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264764&o=json)
 - [中国历代人物传记资料库：王珏（CBDB 264766）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264766&o=json)
+- [中国历代人物传记资料库：王應華（CBDB 264770）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264770&o=json)
 - [中国历代人物传记资料库：王應奎（CBDB 200930）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200930&o=json)
+- [中国历代人物传记资料库：王應榮（CBDB 264769）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264769&o=json)
 - [中国历代人物传记资料库：王璋（CBDB 264765）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264765&o=json)

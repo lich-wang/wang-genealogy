@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王應民
 cbdb_id: 312624
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ux14RETojtr8SdPHloET4D
+        subject_person_id: p_sMKHNsqNCt9mBLSW4zbVG6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9jKpMWA7Keaqffspbp7SCP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TMlvQBw9AQ6qD9QCSHqUQQ
+          claim_id: c_ux14RETojtr8SdPHloET4D
+          source_id: s_STpiXg29vUTf0TA4k3u0Tj
+          stance: supports
+          locator: CBDB：兄弟 王應時（203967）之父／母 王容
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王應民 与 王應時 为同胞（CBDB 记「兄」），王應時 之父／母即 王應民 之父／母。
+          source:
+            id: s_STpiXg29vUTf0TA4k3u0Tj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應民（CBDB 312624）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312624&o=json
+            external_identifier: CBDB:312624
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_sMKHNsqNCt9mBLSW4zbVG6
+        status: active
+        display_name: 王容
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_vKvB25xatHEVc82-pljond
+        subject_person_id: p_9jKpMWA7Keaqffspbp7SCP
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_rJtRxxSC69LmdREGcBhbeB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wH0yDrDH5hz7UhnrieOVf3
+          claim_id: c_vKvB25xatHEVc82-pljond
+          source_id: s_STpiXg29vUTf0TA4k3u0Tj
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203967 王應時）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_STpiXg29vUTf0TA4k3u0Tj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應民（CBDB 312624）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312624&o=json
+            external_identifier: CBDB:312624
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rJtRxxSC69LmdREGcBhbeB
+        status: active
+        display_name: 王應時
+        merged_into_person_id: null
 ---
 
 # 王應民
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_sMKHNsqNCt9mBLSW4zbVG6 | 王容 | accepted |
+| other | p_rJtRxxSC69LmdREGcBhbeB | 王應時 | accepted |
 
 ## 外部来源
 

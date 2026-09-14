@@ -4,7 +4,7 @@ id: p_yfs4AMpkp3NQmpWdTLnP5v
 status: active
 merged_into: null
 display_name: 王豎
-revision: 4
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -220,7 +220,155 @@ relationships:
         display_name: 王得林
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ogeJ6tPpzZ00GvknDfFYOT
+        subject_person_id: p_7EzhniUn95XmDudH6GGpyc
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_yfs4AMpkp3NQmpWdTLnP5v
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Vc0GzvNzO5lNsFPmZPU_9a
+          claim_id: c_ogeJ6tPpzZ00GvknDfFYOT
+          source_id: s_AFKviyGv5RFRpxUXcKGnPk
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198592 王豎）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_AFKviyGv5RFRpxUXcKGnPk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王清（CBDB 291718）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291718&o=json
+            external_identifier: CBDB:291718
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7EzhniUn95XmDudH6GGpyc
+        status: active
+        display_name: 王清
+        merged_into_person_id: null
+    - claim:
+        id: c_IlDKFfqgmeBcKQM2E6Cg1K
+        subject_person_id: p_VNMdpKWG5xeW3UQEdA9VQa
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_yfs4AMpkp3NQmpWdTLnP5v
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sAL5fzESCg9y1qP7AJJesX
+          claim_id: c_IlDKFfqgmeBcKQM2E6Cg1K
+          source_id: s_JUUDq7j6hyfWeye9M7tmu0
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 198592 王豎）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_JUUDq7j6hyfWeye9M7tmu0
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鑑（CBDB 291696）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291696&o=json
+            external_identifier: CBDB:291696
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VNMdpKWG5xeW3UQEdA9VQa
+        status: active
+        display_name: 王鑑
+        merged_into_person_id: null
+    - claim:
+        id: c_k1xgX-v8pSOb-UhWp0lVrj
+        subject_person_id: p_hrAztpnLjdEZzEe3rRjXtQ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_yfs4AMpkp3NQmpWdTLnP5v
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Wm0-679iNMGNZTTs67MIsF
+          claim_id: c_k1xgX-v8pSOb-UhWp0lVrj
+          source_id: s_DlvoanuQhbP88i9iZ_YV-a
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198592 王豎）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_DlvoanuQhbP88i9iZ_YV-a
+            source_type: api_record
+            title: 中国历代人物传记资料库：王里（CBDB 291707）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291707&o=json
+            external_identifier: CBDB:291707
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hrAztpnLjdEZzEe3rRjXtQ
+        status: active
+        display_name: 王里
+        merged_into_person_id: null
+    - claim:
+        id: c_rlMQnNqwzFiSIzVX4ZZeRi
+        subject_person_id: p_s5tjSKHAH6mUhMsNMv2JHq
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_yfs4AMpkp3NQmpWdTLnP5v
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_A4RykL9enioRvxbkQNdYjE
+          claim_id: c_rlMQnNqwzFiSIzVX4ZZeRi
+          source_id: s_0LzRVspw-Tk2eMyoTfXOqI
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198592 王豎）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0LzRVspw-Tk2eMyoTfXOqI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王真（CBDB 291729）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291729&o=json
+            external_identifier: CBDB:291729
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_s5tjSKHAH6mUhMsNMv2JHq
+        status: active
+        display_name: 王真
+        merged_into_person_id: null
 ---
 
 # 王豎
@@ -242,10 +390,18 @@ relationships:
 | parents | p_HrLVrZ6v865GiJPseaqUKx | 王子中 | accepted |
 | ancestors | p_kJwuC7eG7QHYw312mUGBuA | 王福善 | accepted |
 | ancestors | p_WiDj94V6X6MHE2Poixs2G5 | 王得林 | accepted |
+| other | p_7EzhniUn95XmDudH6GGpyc | 王清 | accepted |
+| other | p_VNMdpKWG5xeW3UQEdA9VQa | 王鑑 | accepted |
+| other | p_hrAztpnLjdEZzEe3rRjXtQ | 王里 | accepted |
+| other | p_s5tjSKHAH6mUhMsNMv2JHq | 王真 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王得林（CBDB 291640）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291640&o=json)
 - [中国历代人物传记资料库：王福善（CBDB 291652）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291652&o=json)
+- [中国历代人物传记资料库：王鑑（CBDB 291696）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291696&o=json)
+- [中国历代人物传记资料库：王里（CBDB 291707）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291707&o=json)
+- [中国历代人物传记资料库：王清（CBDB 291718）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291718&o=json)
 - [中国历代人物传记资料库：王豎（CBDB 198592）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198592&o=json)
+- [中国历代人物传记资料库：王真（CBDB 291729）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291729&o=json)
 - [中国历代人物传记资料库：王子中（CBDB 291663）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291663&o=json)

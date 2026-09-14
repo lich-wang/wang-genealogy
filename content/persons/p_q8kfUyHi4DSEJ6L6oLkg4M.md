@@ -4,7 +4,7 @@ id: p_q8kfUyHi4DSEJ6L6oLkg4M
 status: active
 merged_into: null
 display_name: 王問臣
-revision: 4
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,118 @@ relationships:
         display_name: 王擇
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Lcc-c1H_ENFrSpr9pqiUzM
+        subject_person_id: p_LFNQiAXHejCjMUupRF6uRH
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_q8kfUyHi4DSEJ6L6oLkg4M
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZS3WKyKoPOD5cXZMwavSJB
+          claim_id: c_Lcc-c1H_ENFrSpr9pqiUzM
+          source_id: s_X_CAwi2vS9BuSq-HOeMGoy
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205162 王問臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_X_CAwi2vS9BuSq-HOeMGoy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王問冲（CBDB 329118）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329118&o=json
+            external_identifier: CBDB:329118
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_LFNQiAXHejCjMUupRF6uRH
+        status: active
+        display_name: 王問冲
+        merged_into_person_id: null
+    - claim:
+        id: c_9hZbBECIM3Xp5GIbTBN8QU
+        subject_person_id: p_WSV8MpZFr3BEfHFRbP3ZMW
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_q8kfUyHi4DSEJ6L6oLkg4M
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HFiuUkBYgI6_34IDTLTfDi
+          claim_id: c_9hZbBECIM3Xp5GIbTBN8QU
+          source_id: s_hu4dSrv-hG_sGrSBVMWEzh
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205162 王問臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hu4dSrv-hG_sGrSBVMWEzh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王問儒（CBDB 329117）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329117&o=json
+            external_identifier: CBDB:329117
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_WSV8MpZFr3BEfHFRbP3ZMW
+        status: active
+        display_name: 王問儒
+        merged_into_person_id: null
+    - claim:
+        id: c_kE21_BlucLL4oILbuohp30
+        subject_person_id: p_p6PQHK3Gsh8vadJ1GkFJGF
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_q8kfUyHi4DSEJ6L6oLkg4M
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_d9wtKm6zoRP6c6PVuHD6VD
+          claim_id: c_kE21_BlucLL4oILbuohp30
+          source_id: s_-MkA8d1ecAc94H1q8VJn8h
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205162 王問臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_-MkA8d1ecAc94H1q8VJn8h
+            source_type: api_record
+            title: 中国历代人物传记资料库：王問仁（CBDB 329116）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329116&o=json
+            external_identifier: CBDB:329116
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_p6PQHK3Gsh8vadJ1GkFJGF
+        status: active
+        display_name: 王問仁
+        merged_into_person_id: null
 ---
 
 # 王問臣
@@ -240,10 +351,16 @@ relationships:
 | parents | p_Enkv6VPLQgLAYoVEPiVxJf | 王明 | accepted |
 | ancestors | p_CKxjDR1LGVYYypW4hUBVVW | 王怡 | accepted |
 | ancestors | p_TxsiWLMYRbUpNBn66zX8Jt | 王擇 | accepted |
+| other | p_LFNQiAXHejCjMUupRF6uRH | 王問冲 | accepted |
+| other | p_WSV8MpZFr3BEfHFRbP3ZMW | 王問儒 | accepted |
+| other | p_p6PQHK3Gsh8vadJ1GkFJGF | 王問仁 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王明（CBDB 329112）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329112&o=json)
 - [中国历代人物传记资料库：王問臣（CBDB 205162）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205162&o=json)
+- [中国历代人物传记资料库：王問冲（CBDB 329118）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329118&o=json)
+- [中国历代人物传记资料库：王問仁（CBDB 329116）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329116&o=json)
+- [中国历代人物传记资料库：王問儒（CBDB 329117）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329117&o=json)
 - [中国历代人物传记资料库：王怡（CBDB 329111）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329111&o=json)
 - [中国历代人物传记资料库：王擇（CBDB 329110）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329110&o=json)

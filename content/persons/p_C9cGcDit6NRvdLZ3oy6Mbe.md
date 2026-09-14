@@ -4,7 +4,7 @@ id: p_C9cGcDit6NRvdLZ3oy6Mbe
 status: active
 merged_into: null
 display_name: 王一治
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,44 @@ relationships:
         display_name: 王用
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_8b7g_qeI6np27xWYAl95LD
+        subject_person_id: p_C9cGcDit6NRvdLZ3oy6Mbe
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_quLm1TKaDFJnRf4S58qjch
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HlH3xYZUw3VkgCkC4zEPC0
+          claim_id: c_8b7g_qeI6np27xWYAl95LD
+          source_id: s_pd3E8hjAod43C9tL2dyOlM
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205461 王一治）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_pd3E8hjAod43C9tL2dyOlM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大治（CBDB 333530）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333530&o=json
+            external_identifier: CBDB:333530
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_quLm1TKaDFJnRf4S58qjch
+        status: active
+        display_name: 王大治
+        merged_into_person_id: null
 ---
 
 # 王一治
@@ -245,8 +282,10 @@ relationships:
 | spouses | p_Q4gKYhbuyH9T6X1bHC7nXA | 李氏 | accepted |
 | ancestors | p_Fv6Y9VHXqQMoiEDU1qENe6 | 王清 | accepted |
 | ancestors | p_eTRLQJg6viP8NBivGDaNPo | 王用 | accepted |
+| other | p_quLm1TKaDFJnRf4S58qjch | 王大治 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：李氏(王一治妻)（CBDB 333528）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333528&o=json)
+- [中国历代人物传记资料库：王大治（CBDB 333530）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333530&o=json)
 - [中国历代人物传记资料库：王一治（CBDB 205461）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205461&o=json)

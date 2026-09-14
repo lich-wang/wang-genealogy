@@ -4,7 +4,7 @@ id: p_37YctnLjYvAXFedpxMFvr1
 status: active
 merged_into: null
 display_name: 王儒
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_90NeG8LyG2ByTX8vz95xXu
+        subject_person_id: p_1vXBcYgVQiVxBH61v91xXQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_37YctnLjYvAXFedpxMFvr1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wpIVwPYjNGf-n5BJqiXNNb
+          claim_id: c_90NeG8LyG2ByTX8vz95xXu
+          source_id: s_B4InzFC6CVZ5DT3HRTbpw3
+          stance: supports
+          locator: CBDB：兄弟 王俸（203437）之父／母 王廉
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王儒 与 王俸 为同胞（CBDB 记「弟」），王俸 之父／母即 王儒 之父／母。
+          source:
+            id: s_B4InzFC6CVZ5DT3HRTbpw3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王儒（CBDB 304727）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304727&o=json
+            external_identifier: CBDB:304727
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1vXBcYgVQiVxBH61v91xXQ
+        status: active
+        display_name: 王廉
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_E-XWnzuHcExzyMS9vvk5vq
+        subject_person_id: p_37YctnLjYvAXFedpxMFvr1
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Z6vCWYnkMUoH1H52LSJS5y
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WRYbsvzdcyWdAVr2yqH4vo
+          claim_id: c_E-XWnzuHcExzyMS9vvk5vq
+          source_id: s_B4InzFC6CVZ5DT3HRTbpw3
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203437 王俸）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_B4InzFC6CVZ5DT3HRTbpw3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王儒（CBDB 304727）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304727&o=json
+            external_identifier: CBDB:304727
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Z6vCWYnkMUoH1H52LSJS5y
+        status: active
+        display_name: 王俸
+        merged_into_person_id: null
 ---
 
 # 王儒
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_1vXBcYgVQiVxBH61v91xXQ | 王廉 | accepted |
+| other | p_Z6vCWYnkMUoH1H52LSJS5y | 王俸 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_sMLavYdiyQMuQNN6oGpHaE
 status: active
 merged_into: null
 display_name: 王三槐
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_HXOI6pk8K8aD7oHvd01jBY
+        subject_person_id: p_pBNZiURNhTvnzH774UY4Jb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sMLavYdiyQMuQNN6oGpHaE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_m2Vb350_9AuH-3h4vyFMhg
+          claim_id: c_HXOI6pk8K8aD7oHvd01jBY
+          source_id: s_jmKSDkr0-ctVnoFDypU4nB
+          stance: supports
+          locator: CBDB：兄弟 王三聘（203007）之父／母 王玉
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王三槐 与 王三聘 为同胞（CBDB 记「兄」），王三聘 之父／母即 王三槐 之父／母。
+          source:
+            id: s_jmKSDkr0-ctVnoFDypU4nB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三槐（CBDB 298287）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298287&o=json
+            external_identifier: CBDB:298287
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_pBNZiURNhTvnzH774UY4Jb
+        status: active
+        display_name: 王玉
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_qhvokQCIKCA74g62TdJtPs
+        subject_person_id: p_UjZpJ3nna6WnKHPp7DAt53
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_sMLavYdiyQMuQNN6oGpHaE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QecxBjZNN5T0-slXSeJJ4Y
+          claim_id: c_qhvokQCIKCA74g62TdJtPs
+          source_id: s_jmKSDkr0-ctVnoFDypU4nB
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203007 王三聘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_jmKSDkr0-ctVnoFDypU4nB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三槐（CBDB 298287）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298287&o=json
+            external_identifier: CBDB:298287
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_UjZpJ3nna6WnKHPp7DAt53
+        status: active
+        display_name: 王三聘
+        merged_into_person_id: null
 ---
 
 # 王三槐
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_pBNZiURNhTvnzH774UY4Jb | 王玉 | accepted |
+| other | p_UjZpJ3nna6WnKHPp7DAt53 | 王三聘 | accepted |
 
 ## 外部来源
 

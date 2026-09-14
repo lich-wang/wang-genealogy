@@ -4,7 +4,7 @@ id: p_BsUPyN3PgHdrLvMeySeRLR
 status: active
 merged_into: null
 display_name: 王贄
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,81 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_-4zIvGuQmCR-cSl7tpAo2E
+        subject_person_id: p_BsUPyN3PgHdrLvMeySeRLR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3RLxg61ymNmb61T568KE7X
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_jBun1Y9WeY2WWlOLdZLsnP
+          claim_id: c_-4zIvGuQmCR-cSl7tpAo2E
+          source_id: s_VQ5D5rHPjWHlgeWTLLFTxw
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1781）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_VQ5D5rHPjWHlgeWTLLFTxw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王儀（CBDB 30551）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30551&o=json
+            external_identifier: CBDB:30551
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3RLxg61ymNmb61T568KE7X
+        status: active
+        display_name: 王儀
+        merged_into_person_id: null
+    - claim:
+        id: c_x0LnCsk0IY9_aMhOF7R6X1
+        subject_person_id: p_BsUPyN3PgHdrLvMeySeRLR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Up279P947ZwFFPS97rV6eK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_Jrr1ADUeeBO-TitDyxBDi0
+          claim_id: c_x0LnCsk0IY9_aMhOF7R6X1
+          source_id: s_b5JJkQ_83FIS9gPynBDacW
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1781）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_b5JJkQ_83FIS9gPynBDacW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王億（CBDB 7378）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7378&o=json
+            external_identifier: CBDB:7378
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Up279P947ZwFFPS97rV6eK
+        status: active
+        display_name: 王億
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -218,10 +292,14 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_3RLxg61ymNmb61T568KE7X | 王儀 | accepted |
+| children | p_Up279P947ZwFFPS97rV6eK | 王億 | accepted |
 | spouses | p_bAGg67KvvM5agjFGStoo5v | 劉氏 | accepted |
 | descendants | p_f2PSyxKxCq1ou1TiLbgteQ | 王球 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：劉氏(王贄妻)（CBDB 5130）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5130&o=json)
+- [中国历代人物传记资料库：王儀（CBDB 30551）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30551&o=json)
+- [中国历代人物传记资料库：王億（CBDB 7378）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7378&o=json)
 - [中国历代人物传记资料库：王贄（CBDB 1781）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1781&o=json)

@@ -4,7 +4,7 @@ id: p_kAYn8y3iQCatmSJGkXFLhh
 status: active
 merged_into: null
 display_name: 王紀
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -194,7 +194,81 @@ relationships:
         display_name: 王斌
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_vdSDc5fHTEDCMfKDMgVWFG
+        subject_person_id: p_EEpiY34JsRWFPzmN6wDe2r
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kAYn8y3iQCatmSJGkXFLhh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_H12Htz8tNIRXJl9IfT498z
+          claim_id: c_vdSDc5fHTEDCMfKDMgVWFG
+          source_id: s_lq6cGl-jCDnLMHYo3LYzTj
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126621 王紀）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_lq6cGl-jCDnLMHYo3LYzTj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王統（CBDB 278798）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278798&o=json
+            external_identifier: CBDB:278798
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EEpiY34JsRWFPzmN6wDe2r
+        status: active
+        display_name: 王統
+        merged_into_person_id: null
+    - claim:
+        id: c_9h-D51uq8APPw9qR43IAqN
+        subject_person_id: p_GpFvn1cUkCVDoyNh28ZYD8
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kAYn8y3iQCatmSJGkXFLhh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wAnFJl8poDgS4SHK98pw8N
+          claim_id: c_9h-D51uq8APPw9qR43IAqN
+          source_id: s_Bd8lLl-u8bxrYr6pRh-MWs
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126621 王紀）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Bd8lLl-u8bxrYr6pRh-MWs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王沂（CBDB 278796）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278796&o=json
+            external_identifier: CBDB:278796
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GpFvn1cUkCVDoyNh28ZYD8
+        status: active
+        display_name: 王沂
+        merged_into_person_id: null
 ---
 
 # 王紀
@@ -216,8 +290,12 @@ relationships:
 | spouses | p_ypNH71b91VARmip8v2M5SH | 范氏 | accepted |
 | ancestors | p_NA54fprXiFWyN6SjGq5DrE | 王秀三 | accepted |
 | ancestors | p_xjifYg2kCZ8329T4F86wRS | 王斌 | accepted |
+| other | p_EEpiY34JsRWFPzmN6wDe2r | 王統 | accepted |
+| other | p_GpFvn1cUkCVDoyNh28ZYD8 | 王沂 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：范氏(王紀妻)（CBDB 278793）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278793&o=json)
 - [中国历代人物传记资料库：王紀（CBDB 126621）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126621&o=json)
+- [中国历代人物传记资料库：王統（CBDB 278798）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278798&o=json)
+- [中国历代人物传记资料库：王沂（CBDB 278796）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278796&o=json)

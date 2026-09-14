@@ -4,7 +4,7 @@ id: p_J6LGy6AKfr8TQ2KRftRZAN
 status: active
 merged_into: null
 display_name: 王業洸
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_1h58kDYEKq6w2ln2aRgr_r
+        subject_person_id: p_J6LGy6AKfr8TQ2KRftRZAN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_e7M2JfSWhybNrgAnjziyG7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KZ9YQX6Pg5TIuBaxE9m69R
+          claim_id: c_1h58kDYEKq6w2ln2aRgr_r
+          source_id: s_zLlOqlea-Hjse29viWW6b3
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 556671 王業法）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_zLlOqlea-Hjse29viWW6b3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王業洸（CBDB 556673）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=556673&o=json
+            external_identifier: CBDB:556673
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_e7M2JfSWhybNrgAnjziyG7
+        status: active
+        display_name: 王業法
+        merged_into_person_id: null
 ---
 
 # 王業洸
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_e7M2JfSWhybNrgAnjziyG7 | 王業法 | accepted |
 
 ## 外部来源
 

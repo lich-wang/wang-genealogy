@@ -4,7 +4,7 @@ id: p_Hyw8SQGaRE528RGN3TPgxc
 status: active
 merged_into: null
 display_name: 王榮
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,80 @@ relationships:
         status: active
         display_name: 王春
         merged_into_person_id: null
+    - claim:
+        id: c_JhUUGIgT813ptn9O-UnpjA
+        subject_person_id: p_Hyw8SQGaRE528RGN3TPgxc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LSAQbntELyjPo3DMMA6Fjf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_P--n3GaGYhsE78hp6JUwOF
+          claim_id: c_JhUUGIgT813ptn9O-UnpjA
+          source_id: s_WQJ6QgmXq3305Vim6U-YyP
+          stance: supports
+          locator: CBDB：兄弟 王春（201159）之父／母 王榮
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王舂 与 王春 为同胞（CBDB 记「兄」），王春 之父／母即 王舂 之父／母。
+          source:
+            id: s_WQJ6QgmXq3305Vim6U-YyP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王舂（CBDB 268121）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268121&o=json
+            external_identifier: CBDB:268121
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_LSAQbntELyjPo3DMMA6Fjf
+        status: active
+        display_name: 王舂
+        merged_into_person_id: null
+    - claim:
+        id: c_3I7siLshbkyF7m0NrFRZcp
+        subject_person_id: p_Hyw8SQGaRE528RGN3TPgxc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iQRRkNTQZeiWjjut1TEC1d
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-wj1UF3ZmNOSwAc-xXCuWt
+          claim_id: c_3I7siLshbkyF7m0NrFRZcp
+          source_id: s_5h_GU_EPESG8MoBNiCAobg
+          stance: supports
+          locator: CBDB：兄弟 王春（201159）之父／母 王榮
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王泰 与 王春 为同胞（CBDB 记「弟」），王春 之父／母即 王泰 之父／母。
+          source:
+            id: s_5h_GU_EPESG8MoBNiCAobg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王泰（CBDB 268120）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268120&o=json
+            external_identifier: CBDB:268120
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_iQRRkNTQZeiWjjut1TEC1d
+        status: active
+        display_name: 王泰
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_Cuoocx9FVbq3j8KTAiGKVC | 王春 | accepted |
+| children | p_LSAQbntELyjPo3DMMA6Fjf | 王舂 | accepted |
+| children | p_iQRRkNTQZeiWjjut1TEC1d | 王泰 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王舂（CBDB 268121）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268121&o=json)
 - [中国历代人物传记资料库：王榮（CBDB 268115）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268115&o=json)
+- [中国历代人物传记资料库：王泰（CBDB 268120）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268120&o=json)

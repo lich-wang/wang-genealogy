@@ -4,7 +4,7 @@ id: p_oXDRfETnLuW3oEE7nvKJYF
 status: active
 merged_into: null
 display_name: 王國賓
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,44 @@ relationships:
         display_name: 王澄
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_B6ySBXBlAIP4tyrqARU7Xz
+        subject_person_id: p_dpJKSddRLC2G5AJsENKCN3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_oXDRfETnLuW3oEE7nvKJYF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gM0v4ZHPLA3ZemBXrgsymi
+          claim_id: c_B6ySBXBlAIP4tyrqARU7Xz
+          source_id: s___qIW_xkOq6Wi_OPpaYYcf
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206149 王國賓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s___qIW_xkOq6Wi_OPpaYYcf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王國賢（CBDB 213999）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213999&o=json
+            external_identifier: CBDB:213999
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dpJKSddRLC2G5AJsENKCN3
+        status: active
+        display_name: 王國賢
+        merged_into_person_id: null
 ---
 
 # 王國賓
@@ -240,10 +277,12 @@ relationships:
 | parents | p_HY2YuL547Kh5aqzUsBs5ED | 王應奎 | accepted |
 | ancestors | p_GyHrAoxhpZ634C9AC4RXkc | 王達 | accepted |
 | ancestors | p_zn4ku41edFQvgK1ZLKrm7S | 王澄 | accepted |
+| other | p_dpJKSddRLC2G5AJsENKCN3 | 王國賢 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王澄（CBDB 213995）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213995&o=json)
 - [中国历代人物传记资料库：王達（CBDB 213994）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213994&o=json)
 - [中国历代人物传记资料库：王國賓（CBDB 206149）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206149&o=json)
+- [中国历代人物传记资料库：王國賢（CBDB 213999）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213999&o=json)
 - [中国历代人物传记资料库：王應奎（CBDB 213996）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213996&o=json)

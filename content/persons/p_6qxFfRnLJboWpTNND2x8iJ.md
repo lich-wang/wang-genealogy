@@ -4,7 +4,7 @@ id: p_6qxFfRnLJboWpTNND2x8iJ
 status: active
 merged_into: null
 display_name: 王符
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_iyt_xOhMVK3PdaH5VF34zp
+        subject_person_id: p_iV3ZGAEu7iRtxc7pxEmjVQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6qxFfRnLJboWpTNND2x8iJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6MwK3G7CzvVrWPApAVI0S4
+          claim_id: c_iyt_xOhMVK3PdaH5VF34zp
+          source_id: s_cwnpSR5NVN_p_FkKbxyO6z
+          stance: supports
+          locator: CBDB：兄弟 王穀（198288）之父／母 王宴
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王符 与 王穀 为同胞（CBDB 记「兄」），王穀 之父／母即 王符 之父／母。
+          source:
+            id: s_cwnpSR5NVN_p_FkKbxyO6z
+            source_type: api_record
+            title: 中国历代人物传记资料库：王符（CBDB 252290）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252290&o=json
+            external_identifier: CBDB:252290
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_iV3ZGAEu7iRtxc7pxEmjVQ
+        status: active
+        display_name: 王宴
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_K6dIRIqa0DmKnhqSnthQV3
+        subject_person_id: p_6qxFfRnLJboWpTNND2x8iJ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xRgAFF1QF89F297F8SmuRt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tUKcdMdkNN8iHeGi7zFMWB
+          claim_id: c_K6dIRIqa0DmKnhqSnthQV3
+          source_id: s_cwnpSR5NVN_p_FkKbxyO6z
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198288 王穀）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_cwnpSR5NVN_p_FkKbxyO6z
+            source_type: api_record
+            title: 中国历代人物传记资料库：王符（CBDB 252290）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252290&o=json
+            external_identifier: CBDB:252290
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xRgAFF1QF89F297F8SmuRt
+        status: active
+        display_name: 王穀
+        merged_into_person_id: null
 ---
 
 # 王符
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_iV3ZGAEu7iRtxc7pxEmjVQ | 王宴 | accepted |
+| other | p_xRgAFF1QF89F297F8SmuRt | 王穀 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_wKQiP1EfRixbApmFB2CXep
 status: active
 merged_into: null
 display_name: 王詢
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,44 @@ relationships:
         display_name: 王友諒
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_b0PgnjuidxY36SKjVx5whn
+        subject_person_id: p_3kbLEyh3L5tbvL3QjK9tvL
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wKQiP1EfRixbApmFB2CXep
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K1us0vH1WMj4Y5LdVh0Pyr
+          claim_id: c_b0PgnjuidxY36SKjVx5whn
+          source_id: s_5pZpy7gt3PAMpMwcWMes7J
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202367 王詢）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_5pZpy7gt3PAMpMwcWMes7J
+            source_type: api_record
+            title: 中国历代人物传记资料库：王穩（CBDB 287044）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287044&o=json
+            external_identifier: CBDB:287044
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3kbLEyh3L5tbvL3QjK9tvL
+        status: active
+        display_name: 王穩
+        merged_into_person_id: null
 ---
 
 # 王詢
@@ -241,10 +278,12 @@ relationships:
 | parents | p_w998MxB5FG3owa8b4Gi5jp | 王昭善 | accepted |
 | ancestors | p_kczQmxP52MnpzK7NJpeo6m | 王克誠 | accepted |
 | ancestors | p_SCBNgMsaVyG8431T9fMQuX | 王友諒 | accepted |
+| other | p_3kbLEyh3L5tbvL3QjK9tvL | 王穩 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王克誠（CBDB 287040）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287040&o=json)
+- [中国历代人物传记资料库：王穩（CBDB 287044）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287044&o=json)
 - [中国历代人物传记资料库：王詢（CBDB 202367）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202367&o=json)
 - [中国历代人物传记资料库：王友諒（CBDB 287039）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287039&o=json)
 - [中国历代人物传记资料库：王昭善（CBDB 287042）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287042&o=json)

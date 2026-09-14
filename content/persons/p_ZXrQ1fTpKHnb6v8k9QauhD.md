@@ -4,7 +4,7 @@ id: p_ZXrQ1fTpKHnb6v8k9QauhD
 status: active
 merged_into: null
 display_name: 王標
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_bxH5BjEXDVd2_qPcmaPtf1
+        subject_person_id: p_VcYjKdyzjQFgG3FRqoyThA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZXrQ1fTpKHnb6v8k9QauhD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kaybq7u0e33j4_j10V536v
+          claim_id: c_bxH5BjEXDVd2_qPcmaPtf1
+          source_id: s_G95iMgoDLBbhFNYZP-uKlN
+          stance: supports
+          locator: CBDB：兄弟 王栻（201553）之父／母 王完
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王標 与 王栻 为同胞（CBDB 记「兄」），王栻 之父／母即 王標 之父／母。
+          source:
+            id: s_G95iMgoDLBbhFNYZP-uKlN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王標（CBDB 274259）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274259&o=json
+            external_identifier: CBDB:274259
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VcYjKdyzjQFgG3FRqoyThA
+        status: active
+        display_name: 王完
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_agP2chaSn1CDm0JsMzDU-e
+        subject_person_id: p_GPJ5PvBXjvhgLRDQbw5wn2
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ZXrQ1fTpKHnb6v8k9QauhD
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RfulOidFCclCRkhDw6wV6K
+          claim_id: c_agP2chaSn1CDm0JsMzDU-e
+          source_id: s_G95iMgoDLBbhFNYZP-uKlN
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201553 王栻）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_G95iMgoDLBbhFNYZP-uKlN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王標（CBDB 274259）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274259&o=json
+            external_identifier: CBDB:274259
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GPJ5PvBXjvhgLRDQbw5wn2
+        status: active
+        display_name: 王栻
+        merged_into_person_id: null
 ---
 
 # 王標
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_VcYjKdyzjQFgG3FRqoyThA | 王完 | accepted |
+| other | p_GPJ5PvBXjvhgLRDQbw5wn2 | 王栻 | accepted |
 
 ## 外部来源
 

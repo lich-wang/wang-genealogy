@@ -4,7 +4,7 @@ id: p_XJby7SFFzaZ2pkf21xuAQZ
 status: active
 merged_into: null
 display_name: 王珏
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,80 @@ relationships:
         status: active
         display_name: 王應奎
         merged_into_person_id: null
+    - claim:
+        id: c_H7dB5uirbHJBMLVqs7E38G
+        subject_person_id: p_XJby7SFFzaZ2pkf21xuAQZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EzocBJW6RzH8DyW5QMtFa1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3Fmcz_xTBq3CVsR4fsPpJQ
+          claim_id: c_H7dB5uirbHJBMLVqs7E38G
+          source_id: s_Ah9WnyZdfXpVzuw_xy2Xd8
+          stance: supports
+          locator: CBDB：兄弟 王應奎（200930）之父／母 王珏
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王應榮 与 王應奎 为同胞（CBDB 记「兄」），王應奎 之父／母即 王應榮 之父／母。
+          source:
+            id: s_Ah9WnyZdfXpVzuw_xy2Xd8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應榮（CBDB 264769）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264769&o=json
+            external_identifier: CBDB:264769
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EzocBJW6RzH8DyW5QMtFa1
+        status: active
+        display_name: 王應榮
+        merged_into_person_id: null
+    - claim:
+        id: c_8HEp6177Ld-HKFpTh823qn
+        subject_person_id: p_XJby7SFFzaZ2pkf21xuAQZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wLiPxVWXN5HA4FTZnJFDJd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zjqUDDhsNf3HdV5s0VE0LC
+          claim_id: c_8HEp6177Ld-HKFpTh823qn
+          source_id: s_74BktygABhG__BF5LsPleV
+          stance: supports
+          locator: CBDB：兄弟 王應奎（200930）之父／母 王珏
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王應華 与 王應奎 为同胞（CBDB 记「兄」），王應奎 之父／母即 王應華 之父／母。
+          source:
+            id: s_74BktygABhG__BF5LsPleV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應華（CBDB 264770）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264770&o=json
+            external_identifier: CBDB:264770
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wLiPxVWXN5HA4FTZnJFDJd
+        status: active
+        display_name: 王應華
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_QeQKrjZirVTXRydZQsQCp7 | 王應奎 | accepted |
+| children | p_EzocBJW6RzH8DyW5QMtFa1 | 王應榮 | accepted |
+| children | p_wLiPxVWXN5HA4FTZnJFDJd | 王應華 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王珏（CBDB 264766）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264766&o=json)
+- [中国历代人物传记资料库：王應華（CBDB 264770）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264770&o=json)
+- [中国历代人物传记资料库：王應榮（CBDB 264769）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264769&o=json)

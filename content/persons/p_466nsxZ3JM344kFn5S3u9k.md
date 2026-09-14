@@ -4,7 +4,7 @@ id: p_466nsxZ3JM344kFn5S3u9k
 status: active
 merged_into: null
 display_name: 王元敬
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -194,7 +194,81 @@ relationships:
         display_name: 王暐
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_OrWkTH4qpoKlUymCHqtae_
+        subject_person_id: p_466nsxZ3JM344kFn5S3u9k
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_MMVTsoArzwCSm5R3kdpHoL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_a-GhDCqRBQFfp275ft0YAw
+          claim_id: c_OrWkTH4qpoKlUymCHqtae_
+          source_id: s_YEBo8fSW5yz0JqUYpIDWK5
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126472 王元敬）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_YEBo8fSW5yz0JqUYpIDWK5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元德（CBDB 323260）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323260&o=json
+            external_identifier: CBDB:323260
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MMVTsoArzwCSm5R3kdpHoL
+        status: active
+        display_name: 王元德
+        merged_into_person_id: null
+    - claim:
+        id: c_GMzlzYIwBEpxYZZVxZ_MWL
+        subject_person_id: p_466nsxZ3JM344kFn5S3u9k
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_PVTE2wkp6NNzCbZ8xRM1yq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_T9kRk1ApVmLaniQ7jGw1SE
+          claim_id: c_GMzlzYIwBEpxYZZVxZ_MWL
+          source_id: s_M-l-R7Z7BmKRsnDj_R2JpF
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126472 王元敬）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_M-l-R7Z7BmKRsnDj_R2JpF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元吉（CBDB 323261）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323261&o=json
+            external_identifier: CBDB:323261
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PVTE2wkp6NNzCbZ8xRM1yq
+        status: active
+        display_name: 王元吉
+        merged_into_person_id: null
 ---
 
 # 王元敬
@@ -216,8 +290,12 @@ relationships:
 | spouses | p_GH1UAsMZ3t5NiLjXepVXFy | 毛氏 | accepted |
 | ancestors | p_P4mJEuKpDxNxzBjCYpJw6X | 王璋 | accepted |
 | ancestors | p_8CJFeTpK8MJ11yEnUGi9hH | 王暐 | accepted |
+| other | p_MMVTsoArzwCSm5R3kdpHoL | 王元德 | accepted |
+| other | p_PVTE2wkp6NNzCbZ8xRM1yq | 王元吉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：毛氏(王元敬妻)（CBDB 323258）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323258&o=json)
+- [中国历代人物传记资料库：王元德（CBDB 323260）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323260&o=json)
+- [中国历代人物传记资料库：王元吉（CBDB 323261）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323261&o=json)
 - [中国历代人物传记资料库：王元敬（CBDB 126472）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126472&o=json)

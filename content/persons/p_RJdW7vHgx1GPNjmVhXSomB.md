@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王審淵
 cbdb_id: 526823
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -81,7 +81,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_OgbDECPeML0vGwWUB4-wsC
+        subject_person_id: p_6fEf3Pb2msSDQY1HF8CbjT
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RJdW7vHgx1GPNjmVhXSomB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YEciXPcHO8cf5CaYaVsb6N
+          claim_id: c_OgbDECPeML0vGwWUB4-wsC
+          source_id: s_wcV2ppkcv0vVlO4uRKB-7-
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 526823 王審淵）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_wcV2ppkcv0vVlO4uRKB-7-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宸（CBDB 69283）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69283&o=json
+            external_identifier: CBDB:69283
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6fEf3Pb2msSDQY1HF8CbjT
+        status: active
+        display_name: 王宸
+        merged_into_person_id: null
 ---
 
 # 王審淵
@@ -99,7 +136,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_6fEf3Pb2msSDQY1HF8CbjT | 王宸 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王宸（CBDB 69283）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69283&o=json)
 - [中国历代人物传记资料库：王審淵（CBDB 526823）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526823&o=json)

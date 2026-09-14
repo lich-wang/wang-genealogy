@@ -4,7 +4,7 @@ id: p_NniyJ4scHJ78VvDwDFxC2k
 status: active
 merged_into: null
 display_name: 王廷堯
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_QVOEC4o_8LfqamIAJZlFfr
+        subject_person_id: p_NniyJ4scHJ78VvDwDFxC2k
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_q11LXLFmnXBaLBXCASPfqE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sPOCZv-mGFI9YxbgnrExyS
+          claim_id: c_QVOEC4o_8LfqamIAJZlFfr
+          source_id: s_ckAghgHKjNz7qkQkUVjBJS
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 693956 王廷陞）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ckAghgHKjNz7qkQkUVjBJS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷堯（CBDB 693957）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=693957&o=json
+            external_identifier: CBDB:693957
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_q11LXLFmnXBaLBXCASPfqE
+        status: active
+        display_name: 王廷陞
+        merged_into_person_id: null
 ---
 
 # 王廷堯
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_q11LXLFmnXBaLBXCASPfqE | 王廷陞 | accepted |
 
 ## 外部来源
 

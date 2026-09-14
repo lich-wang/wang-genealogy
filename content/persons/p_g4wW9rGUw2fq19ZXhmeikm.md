@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王式鋹
 cbdb_id: 266649
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_YYsDUz0EUoeYs_HU995N3W
+        subject_person_id: p_DYcwLJjTUW6ckv7UzLhqhY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_g4wW9rGUw2fq19ZXhmeikm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2uhB7mEf22H-jCt3h5PDtK
+          claim_id: c_YYsDUz0EUoeYs_HU995N3W
+          source_id: s_V4Fm9H0iHK0WiapBUDBS3j
+          stance: supports
+          locator: CBDB：兄弟 王重（198394）之父／母 王瀘滔
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王式鋹 与 王重 为同胞（CBDB 记「弟」），王重 之父／母即 王式鋹 之父／母。
+          source:
+            id: s_V4Fm9H0iHK0WiapBUDBS3j
+            source_type: api_record
+            title: 中国历代人物传记资料库：王式鋹（CBDB 266649）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266649&o=json
+            external_identifier: CBDB:266649
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DYcwLJjTUW6ckv7UzLhqhY
+        status: active
+        display_name: 王瀘滔
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_a_d-CqITBN2TS6GnmVBVnB
+        subject_person_id: p_g4wW9rGUw2fq19ZXhmeikm
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_z4aCxcZmXAafGUnNufCVpV
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5ySNi3LPk133EW6NoCAcY7
+          claim_id: c_a_d-CqITBN2TS6GnmVBVnB
+          source_id: s_V4Fm9H0iHK0WiapBUDBS3j
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 198394 王重）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_V4Fm9H0iHK0WiapBUDBS3j
+            source_type: api_record
+            title: 中国历代人物传记资料库：王式鋹（CBDB 266649）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266649&o=json
+            external_identifier: CBDB:266649
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_z4aCxcZmXAafGUnNufCVpV
+        status: active
+        display_name: 王重
+        merged_into_person_id: null
 ---
 
 # 王式鋹
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_DYcwLJjTUW6ckv7UzLhqhY | 王瀘滔 | accepted |
+| other | p_z4aCxcZmXAafGUnNufCVpV | 王重 | accepted |
 
 ## 外部来源
 

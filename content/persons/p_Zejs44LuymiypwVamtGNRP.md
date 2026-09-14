@@ -4,7 +4,7 @@ id: p_Zejs44LuymiypwVamtGNRP
 status: active
 merged_into: null
 display_name: 王鴻嵩
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -116,7 +116,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_5Pz4NJqwKpPdvfVnNj69Mo
+        subject_person_id: p_CJH6Ss8T2tWtFsDP6aKhtL
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Zejs44LuymiypwVamtGNRP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jeSlmY7yIOF_uqWogRfrNQ
+          claim_id: c_5Pz4NJqwKpPdvfVnNj69Mo
+          source_id: s_lKFto6OY1CmFQ9xrSUJzyu
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 551372 王鴻嵩）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_lKFto6OY1CmFQ9xrSUJzyu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鴻嶷（CBDB 551374）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551374&o=json
+            external_identifier: CBDB:551374
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CJH6Ss8T2tWtFsDP6aKhtL
+        status: active
+        display_name: 王鴻嶷
+        merged_into_person_id: null
 ---
 
 # 王鴻嵩
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_qEFbuR8BHXh4P9QEC8V4tD | 王天紀 | accepted |
+| other | p_CJH6Ss8T2tWtFsDP6aKhtL | 王鴻嶷 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鴻嵩（CBDB 551372）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551372&o=json)
+- [中国历代人物传记资料库：王鴻嶷（CBDB 551374）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551374&o=json)
 - [中国历代人物传记资料库：王天紀（CBDB 551373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=551373&o=json)

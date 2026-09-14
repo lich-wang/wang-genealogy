@@ -4,7 +4,7 @@ id: p_VocUX3MNnhbxZwU1f4zNjN
 status: active
 merged_into: null
 display_name: 王輿
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,44 @@ relationships:
         display_name: 王敬
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_LXMrjWbCE6DNnowPMd1rjL
+        subject_person_id: p_VocUX3MNnhbxZwU1f4zNjN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qYnDzHByC2LEtQRdTm8AZ6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FuTJFPG4-BEAS-5XspZQXj
+          claim_id: c_LXMrjWbCE6DNnowPMd1rjL
+          source_id: s_PdGzSntWIL4LhY6EfUcIHj
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203979 王輿）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_PdGzSntWIL4LhY6EfUcIHj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王輅（CBDB 312786）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312786&o=json
+            external_identifier: CBDB:312786
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qYnDzHByC2LEtQRdTm8AZ6
+        status: active
+        display_name: 王輅
+        merged_into_person_id: null
 ---
 
 # 王輿
@@ -240,10 +277,12 @@ relationships:
 | parents | p_tp4HBGLu9rb2Wi3DJX6Yj9 | 王鼎 | accepted |
 | ancestors | p_rGht5PzVe7FNDGMpfHDHsN | 王幹 | accepted |
 | ancestors | p_XGzT1G5btUjnHBZQ9kKfQa | 王敬 | accepted |
+| other | p_qYnDzHByC2LEtQRdTm8AZ6 | 王輅 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鼎（CBDB 312780）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312780&o=json)
 - [中国历代人物传记资料库：王幹（CBDB 312779）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312779&o=json)
 - [中国历代人物传记资料库：王敬（CBDB 312778）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312778&o=json)
+- [中国历代人物传记资料库：王輅（CBDB 312786）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312786&o=json)
 - [中国历代人物传记资料库：王輿（CBDB 203979）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203979&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王以孚
 cbdb_id: 331771
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_yxUPnhYtsUlnlp-yNv3mDx
+        subject_person_id: p_iHMh7eWrNMdmn3tpjzgVvy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2QL6KGVBsKUC9RoVJau8Ax
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fQvdIVHxFQcK8SuL-nwSbh
+          claim_id: c_yxUPnhYtsUlnlp-yNv3mDx
+          source_id: s_uQdnokxkfExSusOVE39OC1
+          stance: supports
+          locator: CBDB：兄弟 王以修（126492）之父／母 王言中
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王以孚 与 王以修 为同胞（CBDB 记「兄」），王以修 之父／母即 王以孚 之父／母。
+          source:
+            id: s_uQdnokxkfExSusOVE39OC1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王以孚（CBDB 331771）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331771&o=json
+            external_identifier: CBDB:331771
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_iHMh7eWrNMdmn3tpjzgVvy
+        status: active
+        display_name: 王言中
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_kcP3uiIUnZfE8BML8yps89
+        subject_person_id: p_2QL6KGVBsKUC9RoVJau8Ax
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_5joJqoMyociS4kycpuaY9i
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_229UpYXBbPD1UvnemaAxr4
+          claim_id: c_kcP3uiIUnZfE8BML8yps89
+          source_id: s_uQdnokxkfExSusOVE39OC1
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126492 王以修）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_uQdnokxkfExSusOVE39OC1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王以孚（CBDB 331771）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=331771&o=json
+            external_identifier: CBDB:331771
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5joJqoMyociS4kycpuaY9i
+        status: active
+        display_name: 王以修
+        merged_into_person_id: null
 ---
 
 # 王以孚
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_iHMh7eWrNMdmn3tpjzgVvy | 王言中 | accepted |
+| other | p_5joJqoMyociS4kycpuaY9i | 王以修 | accepted |
 
 ## 外部来源
 

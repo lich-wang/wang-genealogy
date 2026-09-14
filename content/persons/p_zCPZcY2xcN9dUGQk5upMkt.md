@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王鈴
 cbdb_id: 203785
-revision: 4
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,81 @@ relationships:
         display_name: 王烜
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_jVl6_vKj5PNuAapiO_g_qZ
+        subject_person_id: p_NLeHNfHEyM42YYDRMySAxk
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zCPZcY2xcN9dUGQk5upMkt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6o8Cr42ZrPAIzGkgi-Qw7p
+          claim_id: c_jVl6_vKj5PNuAapiO_g_qZ
+          source_id: s_sderxlj34yVjQzfzCO6Tby
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203785 王鈴）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_sderxlj34yVjQzfzCO6Tby
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鍈（CBDB 309981）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309981&o=json
+            external_identifier: CBDB:309981
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NLeHNfHEyM42YYDRMySAxk
+        status: active
+        display_name: 王鍈
+        merged_into_person_id: null
+    - claim:
+        id: c_mnqNtdz4tHAawCGZTT4qaA
+        subject_person_id: p_kufzVGpKqJ795YkHSHtWTz
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zCPZcY2xcN9dUGQk5upMkt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JpeL2hB3TaPv0sK2vHnIZ3
+          claim_id: c_mnqNtdz4tHAawCGZTT4qaA
+          source_id: s_OXLTEmXo80POyZ4iTEL8Ix
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203785 王鈴）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_OXLTEmXo80POyZ4iTEL8Ix
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鍾（CBDB 309980）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309980&o=json
+            external_identifier: CBDB:309980
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kufzVGpKqJ795YkHSHtWTz
+        status: active
+        display_name: 王鍾
+        merged_into_person_id: null
 ---
 
 # 王鈴
@@ -257,6 +331,8 @@ relationships:
 | parents | p_YosdMcUNtRPKhCPMJYVZTM | 王堂 | accepted |
 | ancestors | p_Aw33K7k1W4Rsa8EDciuADn | 王秬 | accepted |
 | ancestors | p_uEcTfswie4QmwwYkcLQnJ5 | 王烜 | accepted |
+| other | p_NLeHNfHEyM42YYDRMySAxk | 王鍈 | accepted |
+| other | p_kufzVGpKqJ795YkHSHtWTz | 王鍾 | accepted |
 
 ## 外部来源
 
@@ -264,3 +340,5 @@ relationships:
 - [中国历代人物传记资料库：王鈴（CBDB 203785）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203785&o=json)
 - [中国历代人物传记资料库：王堂（CBDB 309977）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309977&o=json)
 - [中国历代人物传记资料库：王烜（CBDB 309976）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309976&o=json)
+- [中国历代人物传记资料库：王鍈（CBDB 309981）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309981&o=json)
+- [中国历代人物传记资料库：王鍾（CBDB 309980）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309980&o=json)

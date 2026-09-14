@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王崇獻
 cbdb_id: 126689
-revision: 4
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -192,7 +192,81 @@ relationships:
         display_name: 王蘭
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_A5gWvypZdVSjUw8cb6vd1h
+        subject_person_id: p_P3HHH8MTBQL8eA6N1VwFN8
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gZEG3LV8BoSpVH5X7JPghB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fbiAneX9tjexXZb0WDd5SN
+          claim_id: c_A5gWvypZdVSjUw8cb6vd1h
+          source_id: s_GtTmv4bOgUkCJUpmLAGwZe
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126689 王崇獻）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_GtTmv4bOgUkCJUpmLAGwZe
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇仁（CBDB 266140）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266140&o=json
+            external_identifier: CBDB:266140
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_P3HHH8MTBQL8eA6N1VwFN8
+        status: active
+        display_name: 王崇仁
+        merged_into_person_id: null
+    - claim:
+        id: c_tw32-nNaE_Bz5f2aePIfo-
+        subject_person_id: p_gZEG3LV8BoSpVH5X7JPghB
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_idJk9fSAdyCtoKD3Qf9ESP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K-1vzmjRdDjIKRWTelw-Nj
+          claim_id: c_tw32-nNaE_Bz5f2aePIfo-
+          source_id: s_h_S9t48v1A4Xj5OffU5BAR
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126689 王崇獻）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_h_S9t48v1A4Xj5OffU5BAR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇儒（CBDB 266137）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266137&o=json
+            external_identifier: CBDB:266137
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_idJk9fSAdyCtoKD3Qf9ESP
+        status: active
+        display_name: 王崇儒
+        merged_into_person_id: null
 ---
 
 # 王崇獻
@@ -213,9 +287,13 @@ relationships:
 | parents | p_7xPYAwpK8PS9R7QKy5varP | 王珣 | accepted |
 | ancestors | p_DHkLaNrhXTyY2QbEp4wQXF | 王導 | accepted |
 | ancestors | p_iop7T8p6oTGjVpH3wXMe3j | 王蘭 | accepted |
+| other | p_P3HHH8MTBQL8eA6N1VwFN8 | 王崇仁 | accepted |
+| other | p_idJk9fSAdyCtoKD3Qf9ESP | 王崇儒 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王崇仁（CBDB 266140）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266140&o=json)
+- [中国历代人物传记资料库：王崇儒（CBDB 266137）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266137&o=json)
 - [中国历代人物传记资料库：王崇獻（CBDB 126689）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126689&o=json)
 - [中国历代人物传记资料库：王導（CBDB 266130）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266130&o=json)
 - [中国历代人物传记资料库：王蘭（CBDB 266131）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266131&o=json)

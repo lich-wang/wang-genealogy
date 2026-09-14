@@ -4,7 +4,7 @@ id: p_1T2cH1bL7Nhy7JGdKvC4vh
 status: active
 merged_into: null
 display_name: 王繪
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_7u5QwZW6tZX0gsvlHhoxnC
+        subject_person_id: p_kUx3oCAAhxc2diNZfU7tJD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1T2cH1bL7Nhy7JGdKvC4vh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CqHCWXqzszy3_3TRlb-hp-
+          claim_id: c_7u5QwZW6tZX0gsvlHhoxnC
+          source_id: s_ugPGC-tonXu94pljqm4mdI
+          stance: supports
+          locator: CBDB：兄弟 王纓（199281）之父／母 王懋
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王繪 与 王纓 为同胞（CBDB 记「兄」），王纓 之父／母即 王繪 之父／母。
+          source:
+            id: s_ugPGC-tonXu94pljqm4mdI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繪（CBDB 242732）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=242732&o=json
+            external_identifier: CBDB:242732
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kUx3oCAAhxc2diNZfU7tJD
+        status: active
+        display_name: 王懋
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_8Vm6eTwqj1yYgbusN6y9wo
+        subject_person_id: p_1T2cH1bL7Nhy7JGdKvC4vh
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_peHrYdss4DG3Q61Kgik3ci
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vCEqPz0SMQMUemiBs_Pt8u
+          claim_id: c_8Vm6eTwqj1yYgbusN6y9wo
+          source_id: s_ugPGC-tonXu94pljqm4mdI
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199281 王纓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ugPGC-tonXu94pljqm4mdI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繪（CBDB 242732）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=242732&o=json
+            external_identifier: CBDB:242732
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_peHrYdss4DG3Q61Kgik3ci
+        status: active
+        display_name: 王纓
+        merged_into_person_id: null
 ---
 
 # 王繪
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_kUx3oCAAhxc2diNZfU7tJD | 王懋 | accepted |
+| other | p_peHrYdss4DG3Q61Kgik3ci | 王纓 | accepted |
 
 ## 外部来源
 

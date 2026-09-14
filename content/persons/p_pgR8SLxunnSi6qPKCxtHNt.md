@@ -4,7 +4,7 @@ id: p_pgR8SLxunnSi6qPKCxtHNt
 status: active
 merged_into: null
 display_name: 王騏
-revision: 2
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,191 @@ relationships:
         status: active
         display_name: 王復
         merged_into_person_id: null
+    - claim:
+        id: c_pjEy4LzxX4HnpPbR0AeN3j
+        subject_person_id: p_pgR8SLxunnSi6qPKCxtHNt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_T2Yve9LjyH8vDVG7pEVZpV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YWGjln5R7xi0zgWc31iaGz
+          claim_id: c_pjEy4LzxX4HnpPbR0AeN3j
+          source_id: s_HlvYwmQTaSW6bpWFicX4lp
+          stance: supports
+          locator: CBDB：兄弟 王復（67655）之父／母 王騏
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王徽 与 王復 为同胞（CBDB 记「弟」），王復 之父／母即 王徽 之父／母。
+          source:
+            id: s_HlvYwmQTaSW6bpWFicX4lp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王徽（CBDB 237580）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237580&o=json
+            external_identifier: CBDB:237580
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_T2Yve9LjyH8vDVG7pEVZpV
+        status: active
+        display_name: 王徽
+        merged_into_person_id: null
+    - claim:
+        id: c_a3c3UY5iIyHRp7uDd8MLHF
+        subject_person_id: p_pgR8SLxunnSi6qPKCxtHNt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_c5DSrempswWvVALNnWE2UJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jmlskv-eZEoIGdLP99Fg-I
+          claim_id: c_a3c3UY5iIyHRp7uDd8MLHF
+          source_id: s_NcffhoveJCiW98Od1kQfwu
+          stance: supports
+          locator: CBDB：兄弟 王復（67655）之父／母 王騏
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王德 与 王復 为同胞（CBDB 记「兄」），王復 之父／母即 王德 之父／母。
+          source:
+            id: s_NcffhoveJCiW98Od1kQfwu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德（CBDB 237583）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237583&o=json
+            external_identifier: CBDB:237583
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_c5DSrempswWvVALNnWE2UJ
+        status: active
+        display_name: 王德
+        merged_into_person_id: null
+    - claim:
+        id: c_-H9rakHzBa4ePE3APo2y6f
+        subject_person_id: p_pgR8SLxunnSi6qPKCxtHNt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ecePLWAX2MYTBmTm5LMA1A
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZECgcW-hln3Ers1NcSKmvF
+          claim_id: c_-H9rakHzBa4ePE3APo2y6f
+          source_id: s_ZGJbWXgKGa035nn-RXksgc
+          stance: supports
+          locator: CBDB：兄弟 王復（67655）之父／母 王騏
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王徑 与 王復 为同胞（CBDB 记「弟」），王復 之父／母即 王徑 之父／母。
+          source:
+            id: s_ZGJbWXgKGa035nn-RXksgc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王徑（CBDB 237581）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237581&o=json
+            external_identifier: CBDB:237581
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ecePLWAX2MYTBmTm5LMA1A
+        status: active
+        display_name: 王徑
+        merged_into_person_id: null
+    - claim:
+        id: c_eBbCk5iUyr905_R76YUCFs
+        subject_person_id: p_pgR8SLxunnSi6qPKCxtHNt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fYPbLSCh3fmsFfwFD1qKB7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CKakkpwvqM--3Lfa9ZEN1x
+          claim_id: c_eBbCk5iUyr905_R76YUCFs
+          source_id: s_WRhvSoY6fw0u80xeJtuPXp
+          stance: supports
+          locator: CBDB：兄弟 王復（67655）之父／母 王騏
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王微 与 王復 为同胞（CBDB 记「兄」），王復 之父／母即 王微 之父／母。
+          source:
+            id: s_WRhvSoY6fw0u80xeJtuPXp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王微（CBDB 237585）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237585&o=json
+            external_identifier: CBDB:237585
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fYPbLSCh3fmsFfwFD1qKB7
+        status: active
+        display_name: 王微
+        merged_into_person_id: null
+    - claim:
+        id: c_5HcPGslPRMLDhv4OYxtt5R
+        subject_person_id: p_pgR8SLxunnSi6qPKCxtHNt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jbTXpPD77FiYZ2EWKgrPMv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rRKosGWx7v_ggy_KdEOuys
+          claim_id: c_5HcPGslPRMLDhv4OYxtt5R
+          source_id: s_4i39QYfPNVLr2f-G6Uoc9b
+          stance: supports
+          locator: CBDB：兄弟 王復（67655）之父／母 王騏
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王徼 与 王復 为同胞（CBDB 记「兄」），王復 之父／母即 王徼 之父／母。
+          source:
+            id: s_4i39QYfPNVLr2f-G6Uoc9b
+            source_type: api_record
+            title: 中国历代人物传记资料库：王徼（CBDB 237584）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237584&o=json
+            external_identifier: CBDB:237584
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jbTXpPD77FiYZ2EWKgrPMv
+        status: active
+        display_name: 王徼
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +309,17 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_Koi5WJ5jcXbBAKpaCrntSB | 王復 | accepted |
+| children | p_T2Yve9LjyH8vDVG7pEVZpV | 王徽 | accepted |
+| children | p_c5DSrempswWvVALNnWE2UJ | 王德 | accepted |
+| children | p_ecePLWAX2MYTBmTm5LMA1A | 王徑 | accepted |
+| children | p_fYPbLSCh3fmsFfwFD1qKB7 | 王微 | accepted |
+| children | p_jbTXpPD77FiYZ2EWKgrPMv | 王徼 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王德（CBDB 237583）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237583&o=json)
+- [中国历代人物传记资料库：王徽（CBDB 237580）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237580&o=json)
+- [中国历代人物传记资料库：王徼（CBDB 237584）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237584&o=json)
+- [中国历代人物传记资料库：王徑（CBDB 237581）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237581&o=json)
 - [中国历代人物传记资料库：王騏（CBDB 237575）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237575&o=json)
+- [中国历代人物传记资料库：王微（CBDB 237585）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237585&o=json)

@@ -4,7 +4,7 @@ id: p_HYHpKaJa17iu8Upo6wdU7W
 status: active
 merged_into: null
 display_name: 王育
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,81 @@ relationships:
         display_name: 王友諒
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_x7uGk8oT1w7QzCtSp7sXjS
+        subject_person_id: p_1dZvkuZQM68RGosi7sKQG6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_HYHpKaJa17iu8Upo6wdU7W
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AskI4clAO0d0M9RsCxzQHc
+          claim_id: c_x7uGk8oT1w7QzCtSp7sXjS
+          source_id: s_LKFt_1TXE4GrCPXinbPnM-
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 208149 王育）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_LKFt_1TXE4GrCPXinbPnM-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王牧（CBDB 241088）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241088&o=json
+            external_identifier: CBDB:241088
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1dZvkuZQM68RGosi7sKQG6
+        status: active
+        display_name: 王牧
+        merged_into_person_id: null
+    - claim:
+        id: c_WGNJHApafBSjpApWM2-sVO
+        subject_person_id: p_HYHpKaJa17iu8Upo6wdU7W
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_KVHgBFAQcpdJaxzNb8HXZD
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iO_VBE3vyiU5143D9FVvyW
+          claim_id: c_WGNJHApafBSjpApWM2-sVO
+          source_id: s_AmvPMv3DquA1C6A9LVmYW6
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 208149 王育）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_AmvPMv3DquA1C6A9LVmYW6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王孜（CBDB 241089）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241089&o=json
+            external_identifier: CBDB:241089
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KVHgBFAQcpdJaxzNb8HXZD
+        status: active
+        display_name: 王孜
+        merged_into_person_id: null
 ---
 
 # 王育
@@ -240,10 +314,14 @@ relationships:
 | parents | p_HJQdCKF1NWQxF4BJ2ijpLL | 王珪 | accepted |
 | ancestors | p_C3cZLnk6RSUF5EqxLUVQiw | 王忠 | accepted |
 | ancestors | p_ua5krNPGJgzwR73W4Jck6v | 王友諒 | accepted |
+| other | p_1dZvkuZQM68RGosi7sKQG6 | 王牧 | accepted |
+| other | p_KVHgBFAQcpdJaxzNb8HXZD | 王孜 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王珪（CBDB 241084）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241084&o=json)
+- [中国历代人物传记资料库：王牧（CBDB 241088）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241088&o=json)
 - [中国历代人物传记资料库：王友諒（CBDB 241082）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241082&o=json)
 - [中国历代人物传记资料库：王育（CBDB 208149）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208149&o=json)
 - [中国历代人物传记资料库：王忠（CBDB 241083）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241083&o=json)
+- [中国历代人物传记资料库：王孜（CBDB 241089）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241089&o=json)

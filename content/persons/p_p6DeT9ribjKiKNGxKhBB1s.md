@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王同鶴
 cbdb_id: 327385
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_OuiwX7Pmi8IcbqcS6HcrLs
+        subject_person_id: p_A2Zw5HgNNKQfknjQ8rX9z5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_p6DeT9ribjKiKNGxKhBB1s
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sjZ0WVs1FZ666-cSb8ewIR
+          claim_id: c_OuiwX7Pmi8IcbqcS6HcrLs
+          source_id: s_YRKo4m2Rfu7X5tpsqLLeGl
+          stance: supports
+          locator: CBDB：兄弟 王同道（205031）之父／母 王廷槐
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王同鶴 与 王同道 为同胞（CBDB 记「弟」），王同道 之父／母即 王同鶴 之父／母。
+          source:
+            id: s_YRKo4m2Rfu7X5tpsqLLeGl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王同鶴（CBDB 327385）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327385&o=json
+            external_identifier: CBDB:327385
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_A2Zw5HgNNKQfknjQ8rX9z5
+        status: active
+        display_name: 王廷槐
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_O1Uek8mK0VP_p5YhqyyI0S
+        subject_person_id: p_DpH4HNkjrsP3PNvkueYKFC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_p6DeT9ribjKiKNGxKhBB1s
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j6QOEYbfpOc8Clhy-YuMMn
+          claim_id: c_O1Uek8mK0VP_p5YhqyyI0S
+          source_id: s_YRKo4m2Rfu7X5tpsqLLeGl
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205031 王同道）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_YRKo4m2Rfu7X5tpsqLLeGl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王同鶴（CBDB 327385）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327385&o=json
+            external_identifier: CBDB:327385
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DpH4HNkjrsP3PNvkueYKFC
+        status: active
+        display_name: 王同道
+        merged_into_person_id: null
 ---
 
 # 王同鶴
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_A2Zw5HgNNKQfknjQ8rX9z5 | 王廷槐 | accepted |
+| other | p_DpH4HNkjrsP3PNvkueYKFC | 王同道 | accepted |
 
 ## 外部来源
 

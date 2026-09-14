@@ -4,7 +4,7 @@ id: p_gBC6XPRMAndtaDdxk88s6H
 status: active
 merged_into: null
 display_name: 王命
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_PzbX92grJI3HF2WaCIhUJT
+        subject_person_id: p_Vv43N2CuZqbv1NMT55dzSf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gBC6XPRMAndtaDdxk88s6H
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ADmNWLpcCLcYZJ3rUOlt8s
+          claim_id: c_PzbX92grJI3HF2WaCIhUJT
+          source_id: s_l-oHxyR0gynK8V5FYCH7a3
+          stance: supports
+          locator: CBDB：兄弟 王應奎（198790）之父／母 王琴
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王命 与 王應奎 为同胞（CBDB 记「兄」），王應奎 之父／母即 王命 之父／母。
+          source:
+            id: s_l-oHxyR0gynK8V5FYCH7a3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王命（CBDB 317119）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317119&o=json
+            external_identifier: CBDB:317119
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Vv43N2CuZqbv1NMT55dzSf
+        status: active
+        display_name: 王琴
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Dv0821TxsFVfJnKbNJwom5
+        subject_person_id: p_F4TvNBX2MG96q5zMnLQmVQ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gBC6XPRMAndtaDdxk88s6H
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oM-Twk95QgDuauJwdBVaow
+          claim_id: c_Dv0821TxsFVfJnKbNJwom5
+          source_id: s_l-oHxyR0gynK8V5FYCH7a3
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198790 王應奎）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_l-oHxyR0gynK8V5FYCH7a3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王命（CBDB 317119）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=317119&o=json
+            external_identifier: CBDB:317119
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_F4TvNBX2MG96q5zMnLQmVQ
+        status: active
+        display_name: 王應奎
+        merged_into_person_id: null
 ---
 
 # 王命
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Vv43N2CuZqbv1NMT55dzSf | 王琴 | accepted |
+| other | p_F4TvNBX2MG96q5zMnLQmVQ | 王應奎 | accepted |
 
 ## 外部来源
 

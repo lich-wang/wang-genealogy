@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王象坤
 cbdb_id: 205267
-revision: 8
+revision: 15
 properties:
   - predicate: bio.summary
     recommended:
@@ -346,7 +346,266 @@ relationships:
         display_name: 王麟
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_XVK-A_xuKGrHxkLAcEblCG
+        subject_person_id: p_6JLCo5EzMW7F2kapW4gNNi
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hkxRnkwdABHFBvtuuQxejY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DGYkFeSul15yiSoHxbAJOh
+          claim_id: c_XVK-A_xuKGrHxkLAcEblCG
+          source_id: s_TS831NuH0pNp0-rGmkRhnn
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205267 王象坤）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_TS831NuH0pNp0-rGmkRhnn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王象貴（CBDB 330757）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330757&o=json
+            external_identifier: CBDB:330757
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6JLCo5EzMW7F2kapW4gNNi
+        status: active
+        display_name: 王象貴
+        merged_into_person_id: null
+    - claim:
+        id: c_iLoLfhUswTGoJn9MyRZ_Uz
+        subject_person_id: p_EvFQLpxB44GGFT5o7nE4zs
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hkxRnkwdABHFBvtuuQxejY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bbomc2UOZIm0HIypl3EDxW
+          claim_id: c_iLoLfhUswTGoJn9MyRZ_Uz
+          source_id: s_2xMbgZqW4eZKXAl0qZ3Tgk
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205267 王象坤）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_2xMbgZqW4eZKXAl0qZ3Tgk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王象蒙（CBDB 330753）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330753&o=json
+            external_identifier: CBDB:330753
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EvFQLpxB44GGFT5o7nE4zs
+        status: active
+        display_name: 王象蒙
+        merged_into_person_id: null
+    - claim:
+        id: c_a40qcSD-9JdFnrejBuRc7U
+        subject_person_id: p_NNTF9YWYB26rR4f3GScgc3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hkxRnkwdABHFBvtuuQxejY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FV3hKdA68FQwdfBrQMnAh6
+          claim_id: c_a40qcSD-9JdFnrejBuRc7U
+          source_id: s_DRcx4fgZaKTAM1YCgHh4MG
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205267 王象坤）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_DRcx4fgZaKTAM1YCgHh4MG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王象乾（CBDB 330752）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330752&o=json
+            external_identifier: CBDB:330752
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NNTF9YWYB26rR4f3GScgc3
+        status: active
+        display_name: 王象乾
+        merged_into_person_id: null
+    - claim:
+        id: c_CJSYr2F7m5669hx9lsWRvW
+        subject_person_id: p_PbyqkA5KdNBk7sXJ6ndxuk
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hkxRnkwdABHFBvtuuQxejY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bvF5qI97FnnTEi_tQ1dqsN
+          claim_id: c_CJSYr2F7m5669hx9lsWRvW
+          source_id: s_YKcAXXEr0SQ5d6bTvQZ89F
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205267 王象坤）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_YKcAXXEr0SQ5d6bTvQZ89F
+            source_type: api_record
+            title: 中国历代人物传记资料库：王象離（CBDB 330759）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330759&o=json
+            external_identifier: CBDB:330759
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PbyqkA5KdNBk7sXJ6ndxuk
+        status: active
+        display_name: 王象離
+        merged_into_person_id: null
+    - claim:
+        id: c_ycuUMzKsLfxkxVhKcW0kl-
+        subject_person_id: p_TD1TvnKHWVi268fxKgzDuM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hkxRnkwdABHFBvtuuQxejY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ELRQUznCJuEqgyAJp0as_z
+          claim_id: c_ycuUMzKsLfxkxVhKcW0kl-
+          source_id: s_ncE1XNE-IywE3t9GEJxDe9
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205267 王象坤）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ncE1XNE-IywE3t9GEJxDe9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王象晉（CBDB 65763）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=65763&o=json
+            external_identifier: CBDB:65763
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_TD1TvnKHWVi268fxKgzDuM
+        status: active
+        display_name: 王象晉
+        merged_into_person_id: null
+    - claim:
+        id: c_v4n9hcrKADuvs7NrdXfmkh
+        subject_person_id: p_W8NmC2naYNSTxSJ63z9T7e
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hkxRnkwdABHFBvtuuQxejY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_u7b55_Z5n7lGTXMZJJggdA
+          claim_id: c_v4n9hcrKADuvs7NrdXfmkh
+          source_id: s_BXUOe5CbUGecilruvp7D9K
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205267 王象坤）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_BXUOe5CbUGecilruvp7D9K
+            source_type: api_record
+            title: 中国历代人物传记资料库：王象泰（CBDB 330755）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330755&o=json
+            external_identifier: CBDB:330755
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_W8NmC2naYNSTxSJ63z9T7e
+        status: active
+        display_name: 王象泰
+        merged_into_person_id: null
+    - claim:
+        id: c_nRIueMez_iAQV-bRBntcCt
+        subject_person_id: p_dnykwgQHL3d7rAL5cnX9D8
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hkxRnkwdABHFBvtuuQxejY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J0Lvhg60fzrHI233RR7Pax
+          claim_id: c_nRIueMez_iAQV-bRBntcCt
+          source_id: s_95oKJyvNCByYL_0ZPgYWhz
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205267 王象坤）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_95oKJyvNCByYL_0ZPgYWhz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王象震（CBDB 330756）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330756&o=json
+            external_identifier: CBDB:330756
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dnykwgQHL3d7rAL5cnX9D8
+        status: active
+        display_name: 王象震
+        merged_into_person_id: null
 ---
 
 # 王象坤
@@ -369,6 +628,13 @@ relationships:
 | spouses | p_xETp6apMdzRFX9CJqBM6Mg | 田氏 | accepted |
 | ancestors | p_LpCUmvNjN1ArRLMYaP9HDJ | 王重光 | accepted |
 | ancestors | p_niAWGy3PExNvwx864ZUMD4 | 王麟 | accepted |
+| other | p_6JLCo5EzMW7F2kapW4gNNi | 王象貴 | accepted |
+| other | p_EvFQLpxB44GGFT5o7nE4zs | 王象蒙 | accepted |
+| other | p_NNTF9YWYB26rR4f3GScgc3 | 王象乾 | accepted |
+| other | p_PbyqkA5KdNBk7sXJ6ndxuk | 王象離 | accepted |
+| other | p_TD1TvnKHWVi268fxKgzDuM | 王象晉 | accepted |
+| other | p_W8NmC2naYNSTxSJ63z9T7e | 王象泰 | accepted |
+| other | p_dnykwgQHL3d7rAL5cnX9D8 | 王象震 | accepted |
 
 ## 外部来源
 
@@ -376,6 +642,13 @@ relationships:
 - [维基数据：王象坤（Q16904084）](https://www.wikidata.org/wiki/Q16904084)
 - [维基数据：王之翰（Q45450999）](https://www.wikidata.org/wiki/Q45450999)
 - [中国历代人物传记资料库：王麟（CBDB 330747）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330747&o=json)
+- [中国历代人物传记资料库：王象貴（CBDB 330757）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330757&o=json)
+- [中国历代人物传记资料库：王象晉（CBDB 65763）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=65763&o=json)
+- [中国历代人物传记资料库：王象離（CBDB 330759）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330759&o=json)
+- [中国历代人物传记资料库：王象蒙（CBDB 330753）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330753&o=json)
+- [中国历代人物传记资料库：王象乾（CBDB 330752）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330752&o=json)
+- [中国历代人物传记资料库：王象泰（CBDB 330755）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330755&o=json)
+- [中国历代人物传记资料库：王象震（CBDB 330756）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330756&o=json)
 - [中国历代人物传记资料库：王重光（CBDB 330748）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330748&o=json)
 - [中文维基百科：王象坤](https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%B1%A1%E5%9D%A4)
 - [CBDB 中国历代人物传记资料库：王象坤（205267）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205267&o=json)

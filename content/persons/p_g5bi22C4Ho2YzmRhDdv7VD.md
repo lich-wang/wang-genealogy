@@ -4,7 +4,7 @@ id: p_g5bi22C4Ho2YzmRhDdv7VD
 status: active
 merged_into: null
 display_name: 王謨
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_2f8FDuFyjqdSLuyxWLoNmb
+        subject_person_id: p_CX91KvfdeRt8fZYDwoqM3n
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_g5bi22C4Ho2YzmRhDdv7VD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TB3XtU0bw7-d2hR4gSBrwH
+          claim_id: c_2f8FDuFyjqdSLuyxWLoNmb
+          source_id: s_8JBMTS07OT5-qEL6YwFUqj
+          stance: supports
+          locator: CBDB：兄弟 王誼（338659）之父／母 王逵
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王謨 与 王誼 为同胞（CBDB 记「兄」），王誼 之父／母即 王謨 之父／母。
+          source:
+            id: s_8JBMTS07OT5-qEL6YwFUqj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王謨（CBDB 313218）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313218&o=json
+            external_identifier: CBDB:313218
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CX91KvfdeRt8fZYDwoqM3n
+        status: active
+        display_name: 王逵
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_c3Nb0kXvF63m7GX-SyEuI7
+        subject_person_id: p_g5bi22C4Ho2YzmRhDdv7VD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zG56y8x7pqkxtgFTWhmQg9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Gk7OFQN57SUO-BeKmdm9tT
+          claim_id: c_c3Nb0kXvF63m7GX-SyEuI7
+          source_id: s_8JBMTS07OT5-qEL6YwFUqj
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 338659 王誼）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_8JBMTS07OT5-qEL6YwFUqj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王謨（CBDB 313218）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313218&o=json
+            external_identifier: CBDB:313218
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zG56y8x7pqkxtgFTWhmQg9
+        status: active
+        display_name: 王誼
+        merged_into_person_id: null
 ---
 
 # 王謨
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_CX91KvfdeRt8fZYDwoqM3n | 王逵 | accepted |
+| other | p_zG56y8x7pqkxtgFTWhmQg9 | 王誼 | accepted |
 
 ## 外部来源
 

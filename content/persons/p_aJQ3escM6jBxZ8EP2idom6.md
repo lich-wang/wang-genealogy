@@ -4,7 +4,7 @@ id: p_aJQ3escM6jBxZ8EP2idom6
 status: active
 merged_into: null
 display_name: 王玉汝
-revision: 3
+revision: 9
 properties:
   - predicate: name.primary
     recommended:
@@ -300,7 +300,229 @@ relationships:
         display_name: 王貞
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_pqv6xgaHS4wCQ98Sar97gO
+        subject_person_id: p_2415asAcUVyLyfd79JjPmQ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_aJQ3escM6jBxZ8EP2idom6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tgOYmgnkOfSWLUORAfrHwq
+          claim_id: c_pqv6xgaHS4wCQ98Sar97gO
+          source_id: s_dyK34MsAz8cCbwLDabK808
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202795 王玉汝）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_dyK34MsAz8cCbwLDabK808
+            source_type: api_record
+            title: 中国历代人物传记资料库：王士鳳（CBDB 294545）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294545&o=json
+            external_identifier: CBDB:294545
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2415asAcUVyLyfd79JjPmQ
+        status: active
+        display_name: 王士鳳
+        merged_into_person_id: null
+    - claim:
+        id: c_4V_GdBKvZq6LKI4uKBqufL
+        subject_person_id: p_3og8Ykbn24Asu288von2ma
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_aJQ3escM6jBxZ8EP2idom6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uVR5g2ieMZc59EV0EMPnCu
+          claim_id: c_4V_GdBKvZq6LKI4uKBqufL
+          source_id: s_F6hy_QlYgmONZJ2IUhrBGm
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202795 王玉汝）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_F6hy_QlYgmONZJ2IUhrBGm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用汝（CBDB 294544）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294544&o=json
+            external_identifier: CBDB:294544
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3og8Ykbn24Asu288von2ma
+        status: active
+        display_name: 王用汝
+        merged_into_person_id: null
+    - claim:
+        id: c_S1veOXNY8Jo_vohbbh7HXO
+        subject_person_id: p_JtMZbN3npmxduN2y4UXNK8
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_aJQ3escM6jBxZ8EP2idom6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_x2CharKx1ybDMikVQgMd11
+          claim_id: c_S1veOXNY8Jo_vohbbh7HXO
+          source_id: s_dj9icWwY1oAkZ8w6M-llS9
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202795 王玉汝）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_dj9icWwY1oAkZ8w6M-llS9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王士鵬（CBDB 294542）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294542&o=json
+            external_identifier: CBDB:294542
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JtMZbN3npmxduN2y4UXNK8
+        status: active
+        display_name: 王士鵬
+        merged_into_person_id: null
+    - claim:
+        id: c_VRd0M8svxnuTE6I7GvSWc-
+        subject_person_id: p_S2b3QdFBLGeU8i6k4mbu98
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_aJQ3escM6jBxZ8EP2idom6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eC86GGzgDLbh1OjZxF927w
+          claim_id: c_VRd0M8svxnuTE6I7GvSWc-
+          source_id: s_eDuZjee28P_aoTnmyszWAy
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202795 王玉汝）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_eDuZjee28P_aoTnmyszWAy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王士鶚（CBDB 294546）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294546&o=json
+            external_identifier: CBDB:294546
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_S2b3QdFBLGeU8i6k4mbu98
+        status: active
+        display_name: 王士鶚
+        merged_into_person_id: null
+    - claim:
+        id: c_Mn7t76nsDQwZRWEaD77cTK
+        subject_person_id: p_aJQ3escM6jBxZ8EP2idom6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ayW5qG1vMKBQxPjRXZf4bJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_R9tyhEZGUXcWdBGIHJkobl
+          claim_id: c_Mn7t76nsDQwZRWEaD77cTK
+          source_id: s_Yn3DSW3gkDun6k59Tc8Dzj
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202795 王玉汝）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Yn3DSW3gkDun6k59Tc8Dzj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王與汝（CBDB 294547）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294547&o=json
+            external_identifier: CBDB:294547
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ayW5qG1vMKBQxPjRXZf4bJ
+        status: active
+        display_name: 王與汝
+        merged_into_person_id: null
+    - claim:
+        id: c_z5OZU5qVEkPK-qScUjvk2N
+        subject_person_id: p_aJQ3escM6jBxZ8EP2idom6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vWV3VtwRtV5Ab4UPTVqiof
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_koW6UWFpb3PKJzqVVR79c4
+          claim_id: c_z5OZU5qVEkPK-qScUjvk2N
+          source_id: s_Pnv28j9mdVEVd2sIl6W3Vb
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202795 王玉汝）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Pnv28j9mdVEVd2sIl6W3Vb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王士鸞（CBDB 294543）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294543&o=json
+            external_identifier: CBDB:294543
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vWV3VtwRtV5Ab4UPTVqiof
+        status: active
+        display_name: 王士鸞
+        merged_into_person_id: null
 ---
 
 # 王玉汝
@@ -326,8 +548,20 @@ relationships:
 | spouses | p_WLy46FT22LhNj15c6qQBvE | 鄧氏 | accepted |
 | ancestors | p_RkUXHPuBh1QAWmMcbEHgCo | 王純 | accepted |
 | ancestors | p_e2QAybS7Rx5BKwEFZeMJDa | 王貞 | accepted |
+| other | p_2415asAcUVyLyfd79JjPmQ | 王士鳳 | accepted |
+| other | p_3og8Ykbn24Asu288von2ma | 王用汝 | accepted |
+| other | p_JtMZbN3npmxduN2y4UXNK8 | 王士鵬 | accepted |
+| other | p_S2b3QdFBLGeU8i6k4mbu98 | 王士鶚 | accepted |
+| other | p_ayW5qG1vMKBQxPjRXZf4bJ | 王與汝 | accepted |
+| other | p_vWV3VtwRtV5Ab4UPTVqiof | 王士鸞 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：鄧氏(王玉汝妻)（CBDB 294541）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294541&o=json)
+- [中国历代人物传记资料库：王士鶚（CBDB 294546）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294546&o=json)
+- [中国历代人物传记资料库：王士鳳（CBDB 294545）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294545&o=json)
+- [中国历代人物传记资料库：王士鸞（CBDB 294543）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294543&o=json)
+- [中国历代人物传记资料库：王士鵬（CBDB 294542）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294542&o=json)
+- [中国历代人物传记资料库：王用汝（CBDB 294544）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294544&o=json)
+- [中国历代人物传记资料库：王與汝（CBDB 294547）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294547&o=json)
 - [中国历代人物传记资料库：王玉汝（CBDB 202795）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202795&o=json)

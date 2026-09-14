@@ -4,7 +4,7 @@ id: p_kUCuDeuG8a7t95vC5CL3P3
 status: active
 merged_into: null
 display_name: 王惟幾
-revision: 4
+revision: 11
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,266 @@ relationships:
         display_name: 王翱
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_S6qhP09JBZL6JEDUWOIKqB
+        subject_person_id: p_3zYCjbZcQo6nRLakkYjU2T
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kUCuDeuG8a7t95vC5CL3P3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OW5W8hgnrdSDy6Z8RCglzR
+          claim_id: c_S6qhP09JBZL6JEDUWOIKqB
+          source_id: s_i-rDYezt5xSc0w94Bn9rG_
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205658 王惟幾）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_i-rDYezt5xSc0w94Bn9rG_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王為時（CBDB 336614）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336614&o=json
+            external_identifier: CBDB:336614
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3zYCjbZcQo6nRLakkYjU2T
+        status: active
+        display_name: 王為時
+        merged_into_person_id: null
+    - claim:
+        id: c_bfdR4mm5bqFCU5FZcT9fJv
+        subject_person_id: p_8BwY1SjEdt5pff19FsyCCg
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kUCuDeuG8a7t95vC5CL3P3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_10aI6ECO6Dh1I9CjoUadvk
+          claim_id: c_bfdR4mm5bqFCU5FZcT9fJv
+          source_id: s_RZ3rnJ5vIJEB64XfVRLCIE
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205658 王惟幾）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_RZ3rnJ5vIJEB64XfVRLCIE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惟祗（CBDB 336617）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336617&o=json
+            external_identifier: CBDB:336617
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8BwY1SjEdt5pff19FsyCCg
+        status: active
+        display_name: 王惟祗
+        merged_into_person_id: null
+    - claim:
+        id: c_i-qNR-Koesz7_zU0_lpjbA
+        subject_person_id: p_CuWvnnDEUpVkNe2DobN7J9
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kUCuDeuG8a7t95vC5CL3P3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hiM73O4yJAzNhKfYEXH2TI
+          claim_id: c_i-qNR-Koesz7_zU0_lpjbA
+          source_id: s_Mbu6WQZabi-Pknh-sx00SP
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205658 王惟幾）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Mbu6WQZabi-Pknh-sx00SP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惟垣（CBDB 336613）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336613&o=json
+            external_identifier: CBDB:336613
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CuWvnnDEUpVkNe2DobN7J9
+        status: active
+        display_name: 王惟垣
+        merged_into_person_id: null
+    - claim:
+        id: c_w3nvVJgyKUWphRjkA343-9
+        subject_person_id: p_VFQ8oDe67KTSTHKBVdkHry
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kUCuDeuG8a7t95vC5CL3P3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gKfsdxicVWBKYDSRBv-2i9
+          claim_id: c_w3nvVJgyKUWphRjkA343-9
+          source_id: s_IFPep_qOa6AAYkZp_mV-0B
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205658 王惟幾）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_IFPep_qOa6AAYkZp_mV-0B
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惟翰（CBDB 336619）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336619&o=json
+            external_identifier: CBDB:336619
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VFQ8oDe67KTSTHKBVdkHry
+        status: active
+        display_name: 王惟翰
+        merged_into_person_id: null
+    - claim:
+        id: c_LP1a99D4p7Vx0Gf19VxtPT
+        subject_person_id: p_bCPz1L5uYHts2697j5csj2
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kUCuDeuG8a7t95vC5CL3P3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_L0WRlkdIi-kH-4XZltk0Q5
+          claim_id: c_LP1a99D4p7Vx0Gf19VxtPT
+          source_id: s_Pay5YrRuWkiDB9CcVhP9Zr
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205658 王惟幾）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Pay5YrRuWkiDB9CcVhP9Zr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惟邦（CBDB 336616）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336616&o=json
+            external_identifier: CBDB:336616
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_bCPz1L5uYHts2697j5csj2
+        status: active
+        display_name: 王惟邦
+        merged_into_person_id: null
+    - claim:
+        id: c_F-kH7tnG-mZCb9FVsG_Als
+        subject_person_id: p_eBNjXtfVNJPNAKQX1AXBEC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kUCuDeuG8a7t95vC5CL3P3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hSo5wTNQZ7KiaMJb_3GV0w
+          claim_id: c_F-kH7tnG-mZCb9FVsG_Als
+          source_id: s_Nlxm3-oMcf9emY9rixIWzT
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205658 王惟幾）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Nlxm3-oMcf9emY9rixIWzT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惟誠（CBDB 336615）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336615&o=json
+            external_identifier: CBDB:336615
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_eBNjXtfVNJPNAKQX1AXBEC
+        status: active
+        display_name: 王惟誠
+        merged_into_person_id: null
+    - claim:
+        id: c_X_aOCixIyJfjRHSwgf_SrT
+        subject_person_id: p_kUCuDeuG8a7t95vC5CL3P3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ogs8LYM1HCL9aWfwQunUhX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fJd9I960CbcJSZ56LV9vTA
+          claim_id: c_X_aOCixIyJfjRHSwgf_SrT
+          source_id: s_4-2PMUimYUNFBsC0m1snfW
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205658 王惟幾）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_4-2PMUimYUNFBsC0m1snfW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惟玄（CBDB 336618）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336618&o=json
+            external_identifier: CBDB:336618
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ogs8LYM1HCL9aWfwQunUhX
+        status: active
+        display_name: 王惟玄
+        merged_into_person_id: null
 ---
 
 # 王惟幾
@@ -240,10 +499,24 @@ relationships:
 | parents | p_ftDTX1CGK9535aJ5ssi8pm | 王佩 | accepted |
 | ancestors | p_2Z5KsjF2Qv6FAxDM7L8oeW | 王深 | accepted |
 | ancestors | p_aqrbZvweVg6DTUHQBLVAPF | 王翱 | accepted |
+| other | p_3zYCjbZcQo6nRLakkYjU2T | 王為時 | accepted |
+| other | p_8BwY1SjEdt5pff19FsyCCg | 王惟祗 | accepted |
+| other | p_CuWvnnDEUpVkNe2DobN7J9 | 王惟垣 | accepted |
+| other | p_VFQ8oDe67KTSTHKBVdkHry | 王惟翰 | accepted |
+| other | p_bCPz1L5uYHts2697j5csj2 | 王惟邦 | accepted |
+| other | p_eBNjXtfVNJPNAKQX1AXBEC | 王惟誠 | accepted |
+| other | p_ogs8LYM1HCL9aWfwQunUhX | 王惟玄 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王翱（CBDB 336607）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336607&o=json)
 - [中国历代人物传记资料库：王佩（CBDB 336609）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336609&o=json)
 - [中国历代人物传记资料库：王深（CBDB 336608）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336608&o=json)
+- [中国历代人物传记资料库：王惟邦（CBDB 336616）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336616&o=json)
+- [中国历代人物传记资料库：王惟誠（CBDB 336615）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336615&o=json)
+- [中国历代人物传记资料库：王惟翰（CBDB 336619）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336619&o=json)
 - [中国历代人物传记资料库：王惟幾（CBDB 205658）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205658&o=json)
+- [中国历代人物传记资料库：王惟玄（CBDB 336618）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336618&o=json)
+- [中国历代人物传记资料库：王惟垣（CBDB 336613）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336613&o=json)
+- [中国历代人物传记资料库：王惟祗（CBDB 336617）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336617&o=json)
+- [中国历代人物传记资料库：王為時（CBDB 336614）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336614&o=json)

@@ -4,7 +4,7 @@ id: p_1FCXxHhqD3wzUFWARQDXSE
 status: active
 merged_into: null
 display_name: 王道行
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -180,7 +180,44 @@ relationships:
         display_name: 王居
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_xfNaRWqxKoEFUFegCrbbRW
+        subject_person_id: p_1FCXxHhqD3wzUFWARQDXSE
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_1WN2ZD1jKMP6QBZBCmgP7K
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_s1rVVKnuutskEtYQ6PO0GN
+          claim_id: c_xfNaRWqxKoEFUFegCrbbRW
+          source_id: s_Vwafy-jfoigc5GJTURQ7qV
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126744 王道行）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Vwafy-jfoigc5GJTURQ7qV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道明（CBDB 312142）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312142&o=json
+            external_identifier: CBDB:312142
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1WN2ZD1jKMP6QBZBCmgP7K
+        status: active
+        display_name: 王道明
+        merged_into_person_id: null
 ---
 
 # 王道行
@@ -201,9 +238,11 @@ relationships:
 | parents | p_Lg426XjwtGThS6GKpMTASR | 王尚智 | accepted |
 | ancestors | p_oaNDfLCNACocvS6e5dX6tR | 王鼎 | accepted |
 | ancestors | p_m69DkPkNmbULcq7eko5aNw | 王居 | accepted |
+| other | p_1WN2ZD1jKMP6QBZBCmgP7K | 王道明 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王道明（CBDB 312142）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312142&o=json)
 - [中国历代人物传记资料库：王道行（CBDB 126744）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126744&o=json)
 - [中国历代人物传记资料库：王鼎（CBDB 312137）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312137&o=json)
 - [中国历代人物传记资料库：王居（CBDB 312136）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312136&o=json)

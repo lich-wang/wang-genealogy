@@ -4,7 +4,7 @@ id: p_vfbmRAWaqgxS37HEFGGXnJ
 status: active
 merged_into: null
 display_name: 王燾
-revision: 2
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,191 @@ relationships:
         status: active
         display_name: 王進
         merged_into_person_id: null
+    - claim:
+        id: c_nl2V25fE9oDqZR-Cs0uY4m
+        subject_person_id: p_vfbmRAWaqgxS37HEFGGXnJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_B2GLtAvwGZfXzoGyPN4PuV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_udO9rbfcubKelssP6IEJ0v
+          claim_id: c_nl2V25fE9oDqZR-Cs0uY4m
+          source_id: s_BmP_P224bztWoUHmH4iWEr
+          stance: supports
+          locator: CBDB：兄弟 王進（199096）之父／母 王燾
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王述 与 王進 为同胞（CBDB 记「弟」），王進 之父／母即 王述 之父／母。
+          source:
+            id: s_BmP_P224bztWoUHmH4iWEr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王述（CBDB 229841）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229841&o=json
+            external_identifier: CBDB:229841
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_B2GLtAvwGZfXzoGyPN4PuV
+        status: active
+        display_name: 王述
+        merged_into_person_id: null
+    - claim:
+        id: c_soi9ggC9LpPkAKNtfo88AW
+        subject_person_id: p_vfbmRAWaqgxS37HEFGGXnJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GzxJRSAtq1iVTPWpPf6L1M
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1NM0sLh-D7yqcD01vVBCuE
+          claim_id: c_soi9ggC9LpPkAKNtfo88AW
+          source_id: s_WHxwWM2utALStWg7fkh-aP
+          stance: supports
+          locator: CBDB：兄弟 王進（199096）之父／母 王燾
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王適 与 王進 为同胞（CBDB 记「弟」），王進 之父／母即 王適 之父／母。
+          source:
+            id: s_WHxwWM2utALStWg7fkh-aP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王適（CBDB 229852）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229852&o=json
+            external_identifier: CBDB:229852
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GzxJRSAtq1iVTPWpPf6L1M
+        status: active
+        display_name: 王適
+        merged_into_person_id: null
+    - claim:
+        id: c_OzrT1tpPzG43CHfMBEKU-H
+        subject_person_id: p_vfbmRAWaqgxS37HEFGGXnJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_N6Q4KJ9UoBcXetiEDsny9t
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_C7eRl8MokSQ_wOclG8Pq-V
+          claim_id: c_OzrT1tpPzG43CHfMBEKU-H
+          source_id: s_UiIryhjNKskS22qSc9WfNy
+          stance: supports
+          locator: CBDB：兄弟 王進（199096）之父／母 王燾
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王迵 与 王進 为同胞（CBDB 记「弟」），王進 之父／母即 王迵 之父／母。
+          source:
+            id: s_UiIryhjNKskS22qSc9WfNy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王迵（CBDB 229830）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229830&o=json
+            external_identifier: CBDB:229830
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_N6Q4KJ9UoBcXetiEDsny9t
+        status: active
+        display_name: 王迵
+        merged_into_person_id: null
+    - claim:
+        id: c_Oi4UKfE-jOrpzvcMZqhzLh
+        subject_person_id: p_vfbmRAWaqgxS37HEFGGXnJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fHsxucM5EC15rEznJRXXkv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_p8pKHx1y4kTbrTXyS_ONDq
+          claim_id: c_Oi4UKfE-jOrpzvcMZqhzLh
+          source_id: s_OTKPQpbxeOoywJvdW4fKl4
+          stance: supports
+          locator: CBDB：兄弟 王進（199096）之父／母 王燾
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王達 与 王進 为同胞（CBDB 记「弟」），王進 之父／母即 王達 之父／母。
+          source:
+            id: s_OTKPQpbxeOoywJvdW4fKl4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王達（CBDB 229808）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229808&o=json
+            external_identifier: CBDB:229808
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fHsxucM5EC15rEznJRXXkv
+        status: active
+        display_name: 王達
+        merged_into_person_id: null
+    - claim:
+        id: c_Gtg8jdmJUNO4lWIvYlGXRJ
+        subject_person_id: p_vfbmRAWaqgxS37HEFGGXnJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gttwKWkuhQZwBAdTXd7X3N
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ytvfNGq6of2ethCwOqdufS
+          claim_id: c_Gtg8jdmJUNO4lWIvYlGXRJ
+          source_id: s_TlBxpd5G-YzckxWoQYmrC9
+          stance: supports
+          locator: CBDB：兄弟 王進（199096）之父／母 王燾
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王遂 与 王進 为同胞（CBDB 记「弟」），王進 之父／母即 王遂 之父／母。
+          source:
+            id: s_TlBxpd5G-YzckxWoQYmrC9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遂（CBDB 229819）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229819&o=json
+            external_identifier: CBDB:229819
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_gttwKWkuhQZwBAdTXd7X3N
+        status: active
+        display_name: 王遂
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +309,17 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_APgCbU3BBu68y3JhFPX3Tu | 王進 | accepted |
+| children | p_B2GLtAvwGZfXzoGyPN4PuV | 王述 | accepted |
+| children | p_GzxJRSAtq1iVTPWpPf6L1M | 王適 | accepted |
+| children | p_N6Q4KJ9UoBcXetiEDsny9t | 王迵 | accepted |
+| children | p_fHsxucM5EC15rEznJRXXkv | 王達 | accepted |
+| children | p_gttwKWkuhQZwBAdTXd7X3N | 王遂 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王達（CBDB 229808）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229808&o=json)
 - [中国历代人物传记资料库：王燾（CBDB 229775）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229775&o=json)
+- [中国历代人物传记资料库：王迵（CBDB 229830）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229830&o=json)
+- [中国历代人物传记资料库：王適（CBDB 229852）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229852&o=json)
+- [中国历代人物传记资料库：王述（CBDB 229841）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229841&o=json)
+- [中国历代人物传记资料库：王遂（CBDB 229819）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229819&o=json)

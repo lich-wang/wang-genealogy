@@ -4,7 +4,7 @@ id: p_JM5uLVVjFnCGT8GqMYeHgG
 status: active
 merged_into: null
 display_name: 王思文
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -193,6 +193,43 @@ relationships:
         status: active
         display_name: 王夢龍
         merged_into_person_id: null
+    - claim:
+        id: c_bKd-v-pKcYoQjof0somkW5
+        subject_person_id: p_JM5uLVVjFnCGT8GqMYeHgG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_e7cenMnLGt76rF3GtYeDvC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_FsuQfkLx0KUmLM1bxIVIYO
+          claim_id: c_bKd-v-pKcYoQjof0somkW5
+          source_id: s_eWIVHfSXy1w-u0o4W5XleC
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 25799）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_eWIVHfSXy1w-u0o4W5XleC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王夢錫（CBDB 25803）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25803&o=json
+            external_identifier: CBDB:25803
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_e7cenMnLGt76rF3GtYeDvC
+        status: active
+        display_name: 王夢錫
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -220,8 +257,10 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_18xP97xNdBDKv6dJygvfDQ | 王迥 | accepted |
 | children | p_2Jkre2P7zFsNsdRFraADue | 王夢龍 | accepted |
+| children | p_e7cenMnLGt76rF3GtYeDvC | 王夢錫 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王迥（CBDB 25798）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25798&o=json)
+- [中国历代人物传记资料库：王夢錫（CBDB 25803）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25803&o=json)
 - [中国历代人物传记资料库：王思文（CBDB 25799）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25799&o=json)

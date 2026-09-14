@@ -4,7 +4,7 @@ id: p_qYogdZiTS32CtsS73yhhHZ
 status: active
 merged_into: null
 display_name: 王袞
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_4683neO79yi8e4--QWvVEx
+        subject_person_id: p_B2mSmj5GX3CUuNGwW2WAN2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qYogdZiTS32CtsS73yhhHZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__BuMD7pYxpShBK8tpsWMmP
+          claim_id: c_4683neO79yi8e4--QWvVEx
+          source_id: s_LBWrrHZ_G5g5xTRoegBUtg
+          stance: supports
+          locator: CBDB：兄弟 王冠（200741）之父／母 王璽
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王袞 与 王冠 为同胞（CBDB 记「兄」），王冠 之父／母即 王袞 之父／母。
+          source:
+            id: s_LBWrrHZ_G5g5xTRoegBUtg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王袞（CBDB 262277）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262277&o=json
+            external_identifier: CBDB:262277
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_B2mSmj5GX3CUuNGwW2WAN2
+        status: active
+        display_name: 王璽
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_EYyRPYvIRHQrNQ3UIDGPOi
+        subject_person_id: p_qYogdZiTS32CtsS73yhhHZ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ygZf2AWX1K7FAsdGFUsyHt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yLzsPC2ownZGE-KWMbMm8L
+          claim_id: c_EYyRPYvIRHQrNQ3UIDGPOi
+          source_id: s_LBWrrHZ_G5g5xTRoegBUtg
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200741 王冠）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_LBWrrHZ_G5g5xTRoegBUtg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王袞（CBDB 262277）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262277&o=json
+            external_identifier: CBDB:262277
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ygZf2AWX1K7FAsdGFUsyHt
+        status: active
+        display_name: 王冠
+        merged_into_person_id: null
 ---
 
 # 王袞
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_B2mSmj5GX3CUuNGwW2WAN2 | 王璽 | accepted |
+| other | p_ygZf2AWX1K7FAsdGFUsyHt | 王冠 | accepted |
 
 ## 外部来源
 

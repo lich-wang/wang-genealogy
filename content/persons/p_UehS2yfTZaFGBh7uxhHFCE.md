@@ -4,7 +4,7 @@ id: p_UehS2yfTZaFGBh7uxhHFCE
 status: active
 merged_into: null
 display_name: 王之翰
-revision: 8
+revision: 17
 properties:
   - predicate: name.primary
     recommended:
@@ -366,7 +366,340 @@ relationships:
         display_name: 王頂
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_hU8fF0nuFa9IJgfGbxEQ8V
+        subject_person_id: p_89h4Z952DsmUzHoDEqDXMB
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_UehS2yfTZaFGBh7uxhHFCE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AMUh3oOsCk4iBWUky_Hi_H
+          claim_id: c_hU8fF0nuFa9IJgfGbxEQ8V
+          source_id: s_kEDSNcbIpcYpJspbyAqSR8
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207104 王之翰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_kEDSNcbIpcYpJspbyAqSR8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之綱（CBDB 227721）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227721&o=json
+            external_identifier: CBDB:227721
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_89h4Z952DsmUzHoDEqDXMB
+        status: active
+        display_name: 王之綱
+        merged_into_person_id: null
+    - claim:
+        id: c_ma9GaG2aSuQvVllGy_4DBv
+        subject_person_id: p_CLYNKsxMjYcSw7B4aiXjMt
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_UehS2yfTZaFGBh7uxhHFCE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ikcsp4RJKXWu1_4l1BVFYp
+          claim_id: c_ma9GaG2aSuQvVllGy_4DBv
+          source_id: s_Swz8CDlZcwcaCV_mQ1G-Ph
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207104 王之翰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Swz8CDlZcwcaCV_mQ1G-Ph
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之賓（CBDB 227712）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227712&o=json
+            external_identifier: CBDB:227712
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CLYNKsxMjYcSw7B4aiXjMt
+        status: active
+        display_name: 王之賓
+        merged_into_person_id: null
+    - claim:
+        id: c_z9-sLNRID-hjuk6qmLQfYX
+        subject_person_id: p_Egi12iC89gN4vcmygRqSDu
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_UehS2yfTZaFGBh7uxhHFCE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qbOUJbinQ9aypoGYFzLQ_G
+          claim_id: c_z9-sLNRID-hjuk6qmLQfYX
+          source_id: s_aRQ3zVNL-JVZGkY-NfHqw4
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207104 王之翰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_aRQ3zVNL-JVZGkY-NfHqw4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之俊（CBDB 227720）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227720&o=json
+            external_identifier: CBDB:227720
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Egi12iC89gN4vcmygRqSDu
+        status: active
+        display_name: 王之俊
+        merged_into_person_id: null
+    - claim:
+        id: c_LCwgEkUXsd-1-QiYoheC8C
+        subject_person_id: p_G5x61NsvfMQAvzBmPKJw9K
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_UehS2yfTZaFGBh7uxhHFCE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-qmaTKGNumam5C8PU1hoqz
+          claim_id: c_LCwgEkUXsd-1-QiYoheC8C
+          source_id: s_gXHubR_XCTdA_hbCb8njyj
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207104 王之翰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_gXHubR_XCTdA_hbCb8njyj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之臣（CBDB 227713）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227713&o=json
+            external_identifier: CBDB:227713
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_G5x61NsvfMQAvzBmPKJw9K
+        status: active
+        display_name: 王之臣
+        merged_into_person_id: null
+    - claim:
+        id: c_egmg1NZ85Z7oLyW7IBZJHP
+        subject_person_id: p_R6mQ37iqzhHKPsuanKKi1Q
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_UehS2yfTZaFGBh7uxhHFCE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_emomgSrwRxxmjd84E1bykI
+          claim_id: c_egmg1NZ85Z7oLyW7IBZJHP
+          source_id: s_36JHtn9EmOR5K2egu-cJoi
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207104 王之翰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_36JHtn9EmOR5K2egu-cJoi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之佐（CBDB 227718）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227718&o=json
+            external_identifier: CBDB:227718
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_R6mQ37iqzhHKPsuanKKi1Q
+        status: active
+        display_name: 王之佐
+        merged_into_person_id: null
+    - claim:
+        id: c_7tY2pgrKqGntOHIEB4bWq6
+        subject_person_id: p_TsLpVMLYQQiMWwhB4Xsesx
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_UehS2yfTZaFGBh7uxhHFCE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__evzUIxg56q47WGEqs60X9
+          claim_id: c_7tY2pgrKqGntOHIEB4bWq6
+          source_id: s_GVY079iB66agAT6S0KxcTB
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207104 王之翰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_GVY079iB66agAT6S0KxcTB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之相（CBDB 227715）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227715&o=json
+            external_identifier: CBDB:227715
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_TsLpVMLYQQiMWwhB4Xsesx
+        status: active
+        display_name: 王之相
+        merged_into_person_id: null
+    - claim:
+        id: c_e1uf5yYzlzwdAZpemZFiT1
+        subject_person_id: p_UehS2yfTZaFGBh7uxhHFCE
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nGPUpdu2RVweqwUZHLG6KZ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_g9_dXjiu-BUWhLeupCINR5
+          claim_id: c_e1uf5yYzlzwdAZpemZFiT1
+          source_id: s_-M5GbKs-RTpWxNsceKqjvQ
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207104 王之翰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_-M5GbKs-RTpWxNsceKqjvQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之卿（CBDB 227714）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227714&o=json
+            external_identifier: CBDB:227714
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nGPUpdu2RVweqwUZHLG6KZ
+        status: active
+        display_name: 王之卿
+        merged_into_person_id: null
+    - claim:
+        id: c_75YdzrAqivJvyHIJ0Zcxc5
+        subject_person_id: p_UehS2yfTZaFGBh7uxhHFCE
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_pZ7NoUVDv7MBBHg3mAofaZ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wgV6Cr82XdhBL2UfxWzGRK
+          claim_id: c_75YdzrAqivJvyHIJ0Zcxc5
+          source_id: s_N0fe9EBjly586x6biTC84i
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207104 王之翰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_N0fe9EBjly586x6biTC84i
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之紀（CBDB 227722）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227722&o=json
+            external_identifier: CBDB:227722
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_pZ7NoUVDv7MBBHg3mAofaZ
+        status: active
+        display_name: 王之紀
+        merged_into_person_id: null
+    - claim:
+        id: c_qA9QFgL-itH2WIQkTJpMJw
+        subject_person_id: p_UehS2yfTZaFGBh7uxhHFCE
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xWpD9HAvr5QaRKe9kR48Fw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FiddxjnrttEXSQDEK3pgfh
+          claim_id: c_qA9QFgL-itH2WIQkTJpMJw
+          source_id: s_x1H70BrUsGna9fTdONnYMu
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207104 王之翰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_x1H70BrUsGna9fTdONnYMu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之屏（CBDB 227719）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227719&o=json
+            external_identifier: CBDB:227719
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xWpD9HAvr5QaRKe9kR48Fw
+        status: active
+        display_name: 王之屏
+        merged_into_person_id: null
 ---
 
 # 王之翰
@@ -392,6 +725,15 @@ relationships:
 | children | p_zi7YPLSJMDibPYaLWtXv9r | 王銓 | accepted |
 | ancestors | p_2qDFnQGzqiHheeCqmHKnxS | 王談 | accepted |
 | ancestors | p_XQSWj6Fjzoxw5CkhLWJYJK | 王頂 | accepted |
+| other | p_89h4Z952DsmUzHoDEqDXMB | 王之綱 | accepted |
+| other | p_CLYNKsxMjYcSw7B4aiXjMt | 王之賓 | accepted |
+| other | p_Egi12iC89gN4vcmygRqSDu | 王之俊 | accepted |
+| other | p_G5x61NsvfMQAvzBmPKJw9K | 王之臣 | accepted |
+| other | p_R6mQ37iqzhHKPsuanKKi1Q | 王之佐 | accepted |
+| other | p_TsLpVMLYQQiMWwhB4Xsesx | 王之相 | accepted |
+| other | p_nGPUpdu2RVweqwUZHLG6KZ | 王之卿 | accepted |
+| other | p_pZ7NoUVDv7MBBHg3mAofaZ | 王之紀 | accepted |
+| other | p_xWpD9HAvr5QaRKe9kR48Fw | 王之屏 | accepted |
 
 ## 外部来源
 
@@ -402,4 +744,13 @@ relationships:
 - [中国历代人物传记资料库：王銓（CBDB 227725）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227725&o=json)
 - [中国历代人物传记资料库：王談（CBDB 227708）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227708&o=json)
 - [中国历代人物传记资料库：王鎮（CBDB 227723）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227723&o=json)
+- [中国历代人物传记资料库：王之賓（CBDB 227712）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227712&o=json)
+- [中国历代人物传记资料库：王之臣（CBDB 227713）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227713&o=json)
+- [中国历代人物传记资料库：王之綱（CBDB 227721）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227721&o=json)
 - [中国历代人物传记资料库：王之翰（CBDB 207104）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207104&o=json)
+- [中国历代人物传记资料库：王之紀（CBDB 227722）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227722&o=json)
+- [中国历代人物传记资料库：王之俊（CBDB 227720）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227720&o=json)
+- [中国历代人物传记资料库：王之屏（CBDB 227719）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227719&o=json)
+- [中国历代人物传记资料库：王之卿（CBDB 227714）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227714&o=json)
+- [中国历代人物传记资料库：王之相（CBDB 227715）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227715&o=json)
+- [中国历代人物传记资料库：王之佐（CBDB 227718）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227718&o=json)

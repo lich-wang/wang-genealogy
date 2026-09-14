@@ -4,7 +4,7 @@ id: p_3XLLtqT4J4e4ut5KcH8qEX
 status: active
 merged_into: null
 display_name: 王智
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ykLzK_K1Ee_jH5WWdjcq9o
+        subject_person_id: p_z2KrppHPtLom67wwLrWXDN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3XLLtqT4J4e4ut5KcH8qEX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__kztwvDgPDrA5ZhdUBxi65
+          claim_id: c_ykLzK_K1Ee_jH5WWdjcq9o
+          source_id: s_kV_qljVg1Yxjth9Zx-7pTA
+          stance: supports
+          locator: CBDB：兄弟 王用（200554）之父／母 王繹
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王智 与 王用 为同胞（CBDB 记「弟」），王用 之父／母即 王智 之父／母。
+          source:
+            id: s_kV_qljVg1Yxjth9Zx-7pTA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王智（CBDB 259649）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259649&o=json
+            external_identifier: CBDB:259649
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_z2KrppHPtLom67wwLrWXDN
+        status: active
+        display_name: 王繹
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_qErhObPFreplMxZtNmv0GP
+        subject_person_id: p_3XLLtqT4J4e4ut5KcH8qEX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_rd5qTvBTthC6ZnBxJzkeri
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DA_c2Web8vNgvW_pIjxl3g
+          claim_id: c_qErhObPFreplMxZtNmv0GP
+          source_id: s_kV_qljVg1Yxjth9Zx-7pTA
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200554 王用）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_kV_qljVg1Yxjth9Zx-7pTA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王智（CBDB 259649）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=259649&o=json
+            external_identifier: CBDB:259649
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rd5qTvBTthC6ZnBxJzkeri
+        status: active
+        display_name: 王用
+        merged_into_person_id: null
 ---
 
 # 王智
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_z2KrppHPtLom67wwLrWXDN | 王繹 | accepted |
+| other | p_rd5qTvBTthC6ZnBxJzkeri | 王用 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王良材
 cbdb_id: 309426
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_0cGOjEE5YBXQNy3k0PWPwl
+        subject_person_id: p_BzRS9JFfmbPcLsHDaoLQcY
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_z6kWprUPxfj48uKMWi4Fvm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3YIHZh5qHpt-Mim7stoxeo
+          claim_id: c_0cGOjEE5YBXQNy3k0PWPwl
+          source_id: s_eldfpPdnhDopDzo2-QqHrh
+          stance: supports
+          locator: CBDB：兄弟 王良貴（126530）之父／母 王玶
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王良材 与 王良貴 为同胞（CBDB 记「兄」），王良貴 之父／母即 王良材 之父／母。
+          source:
+            id: s_eldfpPdnhDopDzo2-QqHrh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王良材（CBDB 309426）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309426&o=json
+            external_identifier: CBDB:309426
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BzRS9JFfmbPcLsHDaoLQcY
+        status: active
+        display_name: 王玶
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_d96F587IlbnaZ_sfgGQuKI
+        subject_person_id: p_2i8i45vd3ioWAFSmwmfK42
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_z6kWprUPxfj48uKMWi4Fvm
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eW69EozdtxBOGP66nXHRvp
+          claim_id: c_d96F587IlbnaZ_sfgGQuKI
+          source_id: s_eldfpPdnhDopDzo2-QqHrh
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126530 王良貴）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_eldfpPdnhDopDzo2-QqHrh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王良材（CBDB 309426）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309426&o=json
+            external_identifier: CBDB:309426
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2i8i45vd3ioWAFSmwmfK42
+        status: active
+        display_name: 王良貴
+        merged_into_person_id: null
 ---
 
 # 王良材
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_BzRS9JFfmbPcLsHDaoLQcY | 王玶 | accepted |
+| other | p_2i8i45vd3ioWAFSmwmfK42 | 王良貴 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_PvJSWUenksG3qVpCHLqjhz
 status: active
 merged_into: null
 display_name: 王麒
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -116,7 +116,44 @@ relationships:
         status: active
         display_name: 王蘭
         merged_into_person_id: null
-  other: []
+  other:
+    - claim:
+        id: c_CnJ5cABGr551QRcmg2_OWn
+        subject_person_id: p_PvJSWUenksG3qVpCHLqjhz
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_om4aP59368yaBhra6waM1k
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pum6nynKK0ePWX3EmWvvt6
+          claim_id: c_CnJ5cABGr551QRcmg2_OWn
+          source_id: s_Lm8XaEBWI3swhZP20FzzPa
+          stance: supports
+          locator: CBDB 亲属：兄弟（KinPerson 697816 王麒）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Lm8XaEBWI3swhZP20FzzPa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王麟（CBDB 697817）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697817&o=json
+            external_identifier: CBDB:697817
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_om4aP59368yaBhra6waM1k
+        status: active
+        display_name: 王麟
+        merged_into_person_id: null
 ---
 
 # 王麒
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | descendants | p_jzBh6L6KhRH4LcPSXE67mz | 王蘭 | accepted |
+| other | p_om4aP59368yaBhra6waM1k | 王麟 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王蘭（CBDB 243628）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243628&o=json)
+- [中国历代人物传记资料库：王麟（CBDB 697817）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697817&o=json)
 - [中国历代人物传记资料库：王麒（CBDB 697816）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=697816&o=json)

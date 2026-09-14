@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王景倓
 cbdb_id: 38066
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -161,7 +161,44 @@ relationships:
         display_name: 王禹
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Du05SGCbML5c6C5JkEr9rJ
+        subject_person_id: p_5eCF7v6xydLTPB7tAn3nDN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_uY1oxMGY18FMiMuCqBuzys
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_leAtWjx61sfd1P7Mg9xScp
+          claim_id: c_Du05SGCbML5c6C5JkEr9rJ
+          source_id: s_U5Z6epWtcQGYiYrCojv8DE
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 38066 王景倓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_U5Z6epWtcQGYiYrCojv8DE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王景伯（CBDB 138150）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=138150&o=json
+            external_identifier: CBDB:138150
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_uY1oxMGY18FMiMuCqBuzys
+        status: active
+        display_name: 王景伯
+        merged_into_person_id: null
 ---
 
 # 王景倓
@@ -181,8 +218,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_JwEaq79pvhejygp4rNvhpM | 王禹 | accepted |
+| other | p_uY1oxMGY18FMiMuCqBuzys | 王景伯 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王景伯（CBDB 138150）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=138150&o=json)
 - [中国历代人物传记资料库：王景倓（CBDB 38066）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38066&o=json)
 - [中国历代人物传记资料库：王禹（CBDB 137671）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=137671&o=json)

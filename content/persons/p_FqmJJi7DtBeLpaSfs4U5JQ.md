@@ -4,7 +4,7 @@ id: p_FqmJJi7DtBeLpaSfs4U5JQ
 status: active
 merged_into: null
 display_name: 王鐸
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_cQo-IPxd_PJXg0nU2fGAbH
+        subject_person_id: p_39fzFnGh8FGp4S6Ku2uSE6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FqmJJi7DtBeLpaSfs4U5JQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CWtKSe6yx7lCqH5ChmpDlk
+          claim_id: c_cQo-IPxd_PJXg0nU2fGAbH
+          source_id: s_VqAe_JP-EMLLVCHnHtNoPc
+          stance: supports
+          locator: CBDB：兄弟 王鑾（126900）之父／母 王潣
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鐸 与 王鑾 为同胞（CBDB 记「兄」），王鑾 之父／母即 王鐸 之父／母。
+          source:
+            id: s_VqAe_JP-EMLLVCHnHtNoPc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鐸（CBDB 276566）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276566&o=json
+            external_identifier: CBDB:276566
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_39fzFnGh8FGp4S6Ku2uSE6
+        status: active
+        display_name: 王潣
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_JLBHysdcIE2IQHitYaZgHG
+        subject_person_id: p_FqmJJi7DtBeLpaSfs4U5JQ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_f8i9p9JzFPTMv3CWRTDLAz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pAB3WT96fNafzDQV1Xz6pG
+          claim_id: c_JLBHysdcIE2IQHitYaZgHG
+          source_id: s_VqAe_JP-EMLLVCHnHtNoPc
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126900 王鑾）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_VqAe_JP-EMLLVCHnHtNoPc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鐸（CBDB 276566）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276566&o=json
+            external_identifier: CBDB:276566
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_f8i9p9JzFPTMv3CWRTDLAz
+        status: active
+        display_name: 王鑾
+        merged_into_person_id: null
 ---
 
 # 王鐸
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_39fzFnGh8FGp4S6Ku2uSE6 | 王潣 | accepted |
+| other | p_f8i9p9JzFPTMv3CWRTDLAz | 王鑾 | accepted |
 
 ## 外部来源
 

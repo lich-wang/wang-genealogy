@@ -4,7 +4,7 @@ id: p_ZGiJW67sDSieGJ416En8tR
 status: active
 merged_into: null
 display_name: 王惲
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -198,7 +198,44 @@ relationships:
         status: active
         display_name: 王遜志
         merged_into_person_id: null
-  other: []
+  other:
+    - claim:
+        id: c_L6r-DITgWPxzt4RkuHvNPw
+        subject_person_id: p_K826idkujXrbLZ7Yr4KBie
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ZGiJW67sDSieGJ416En8tR
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__7SicOxy3fk3mroWpGn6nA
+          claim_id: c_L6r-DITgWPxzt4RkuHvNPw
+          source_id: s_rRdjfwaqzLh5no1eJANkoO
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 28617 王惲）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_rRdjfwaqzLh5no1eJANkoO
+            source_type: api_record
+            title: 中国历代人物传记资料库：王忱（CBDB 28730）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28730&o=json
+            external_identifier: CBDB:28730
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_K826idkujXrbLZ7Yr4KBie
+        status: active
+        display_name: 王忱
+        merged_into_person_id: null
 ---
 
 # 王惲
@@ -220,8 +257,10 @@ relationships:
 | --- | --- | --- | --- |
 | spouses | p_DZ4HSHAaci2UHkHv2vBj9s | 推氏 | accepted |
 | descendants | p_FhjTvj6P9GuZYWW9qJ9HeY | 王遜志 | accepted |
+| other | p_K826idkujXrbLZ7Yr4KBie | 王忱 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：推氏(推A女)（CBDB 28737）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28737&o=json)
+- [中国历代人物传记资料库：王忱（CBDB 28730）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28730&o=json)
 - [中国历代人物传记资料库：王惲（CBDB 28617）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28617&o=json)

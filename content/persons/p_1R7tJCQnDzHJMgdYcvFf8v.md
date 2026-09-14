@@ -4,7 +4,7 @@ id: p_1R7tJCQnDzHJMgdYcvFf8v
 status: active
 merged_into: null
 display_name: 王椿
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -248,7 +248,81 @@ relationships:
         display_name: 王鏞
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_zuWblN7TvYC9eetM3SN-Xq
+        subject_person_id: p_1R7tJCQnDzHJMgdYcvFf8v
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_UZaJrSCB14421jWm2bfu9Q
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_D5aDZXsU4WcWTI3atXSzAn
+          claim_id: c_zuWblN7TvYC9eetM3SN-Xq
+          source_id: s_KbQnc1DLNNFWyHZD0bRhMH
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202645 王椿）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_KbQnc1DLNNFWyHZD0bRhMH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王材（CBDB 291532）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291532&o=json
+            external_identifier: CBDB:291532
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_UZaJrSCB14421jWm2bfu9Q
+        status: active
+        display_name: 王材
+        merged_into_person_id: null
+    - claim:
+        id: c_GyM0hUhtKbWqw6ZQ-FILpT
+        subject_person_id: p_1R7tJCQnDzHJMgdYcvFf8v
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_a9nNGLG19fus2VUx21NZAb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3Lpdm6S8B9OohsqxLxh_Ax
+          claim_id: c_GyM0hUhtKbWqw6ZQ-FILpT
+          source_id: s_97XiiMVzPRLA5ngKGJLWi0
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202645 王椿）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_97XiiMVzPRLA5ngKGJLWi0
+            source_type: api_record
+            title: 中国历代人物传记资料库：王相（CBDB 291531）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291531&o=json
+            external_identifier: CBDB:291531
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_a9nNGLG19fus2VUx21NZAb
+        status: active
+        display_name: 王相
+        merged_into_person_id: null
 ---
 
 # 王椿
@@ -272,8 +346,12 @@ relationships:
 | spouses | p_iyt32TZzYTCVxDHjKXqsyR | 張氏 | accepted |
 | ancestors | p_zsHWJNVYacVKr1iEB96F37 | 王復初 | accepted |
 | ancestors | p_8i21KJqpcnfH33nUAntUEA | 王鏞 | accepted |
+| other | p_UZaJrSCB14421jWm2bfu9Q | 王材 | accepted |
+| other | p_a9nNGLG19fus2VUx21NZAb | 王相 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王材（CBDB 291532）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291532&o=json)
 - [中国历代人物传记资料库：王椿（CBDB 202645）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202645&o=json)
+- [中国历代人物传记资料库：王相（CBDB 291531）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291531&o=json)
 - [中国历代人物传记资料库：張氏(王椿妻)（CBDB 291530）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291530&o=json)

@@ -4,7 +4,7 @@ id: p_osh81b3M7AYJBAZgV5iHeQ
 status: active
 merged_into: null
 display_name: 王維祺
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_RaFeYwLpb1kosn3zBstylL
+        subject_person_id: p_HxkU2fnETNPPrHRLTi3TtQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_osh81b3M7AYJBAZgV5iHeQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_I6aF45sZBpgvJwsHCK7Od9
+          claim_id: c_RaFeYwLpb1kosn3zBstylL
+          source_id: s_WDfkoyR1L_OCrR42z1PIur
+          stance: supports
+          locator: CBDB：兄弟 王維楨（126791）之父／母 王載
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王維祺 与 王維楨 为同胞（CBDB 记「弟」），王維楨 之父／母即 王維祺 之父／母。
+          source:
+            id: s_WDfkoyR1L_OCrR42z1PIur
+            source_type: api_record
+            title: 中国历代人物传记资料库：王維祺（CBDB 297167）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297167&o=json
+            external_identifier: CBDB:297167
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HxkU2fnETNPPrHRLTi3TtQ
+        status: active
+        display_name: 王載
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_CwD5OssBqSNZzqkuBRJdXq
+        subject_person_id: p_LrwY5tXkYCUNXA8ZrdXwSb
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_osh81b3M7AYJBAZgV5iHeQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DoPci40jv9JEQAsDHx2dxD
+          claim_id: c_CwD5OssBqSNZzqkuBRJdXq
+          source_id: s_WDfkoyR1L_OCrR42z1PIur
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126791 王維楨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_WDfkoyR1L_OCrR42z1PIur
+            source_type: api_record
+            title: 中国历代人物传记资料库：王維祺（CBDB 297167）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297167&o=json
+            external_identifier: CBDB:297167
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_LrwY5tXkYCUNXA8ZrdXwSb
+        status: active
+        display_name: 王維楨
+        merged_into_person_id: null
 ---
 
 # 王維祺
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_HxkU2fnETNPPrHRLTi3TtQ | 王載 | accepted |
+| other | p_LrwY5tXkYCUNXA8ZrdXwSb | 王維楨 | accepted |
 
 ## 外部来源
 

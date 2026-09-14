@@ -4,7 +4,7 @@ id: p_LMg2m36RyXES2Bxat6rQQ2
 status: active
 merged_into: null
 display_name: 王勛
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,80 @@ relationships:
         status: active
         display_name: 王玶
         merged_into_person_id: null
+    - claim:
+        id: c_gEge2NqmlH3LyhzY5OCn2m
+        subject_person_id: p_LMg2m36RyXES2Bxat6rQQ2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JitX9FH1WHsJ8XqCdCxnMb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AGLdMtNWRDgy6j49BZHpHW
+          claim_id: c_gEge2NqmlH3LyhzY5OCn2m
+          source_id: s_pfCyZF_BY_QKu_Xm_o36Y2
+          stance: supports
+          locator: CBDB：兄弟 王玶（199032）之父／母 王勛
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王璒 与 王玶 为同胞（CBDB 记「兄」），王玶 之父／母即 王璒 之父／母。
+          source:
+            id: s_pfCyZF_BY_QKu_Xm_o36Y2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璒（CBDB 221938）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221938&o=json
+            external_identifier: CBDB:221938
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JitX9FH1WHsJ8XqCdCxnMb
+        status: active
+        display_name: 王璒
+        merged_into_person_id: null
+    - claim:
+        id: c_vxJFhW1rp0aGkfZGOxikrC
+        subject_person_id: p_LMg2m36RyXES2Bxat6rQQ2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_knUNNqCwQm1MnsmGYDeA7f
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IIPcX2bLaRYl6ie3eaR6jl
+          claim_id: c_vxJFhW1rp0aGkfZGOxikrC
+          source_id: s_Q6hiqXdGkv9SiqCsMMcnoo
+          stance: supports
+          locator: CBDB：兄弟 王玶（199032）之父／母 王勛
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王璔 与 王玶 为同胞（CBDB 记「弟」），王玶 之父／母即 王璔 之父／母。
+          source:
+            id: s_Q6hiqXdGkv9SiqCsMMcnoo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璔（CBDB 221927）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221927&o=json
+            external_identifier: CBDB:221927
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_knUNNqCwQm1MnsmGYDeA7f
+        status: active
+        display_name: 王璔
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_HgcYnzEt3BLPFrXjEUGzEm | 王玶 | accepted |
+| children | p_JitX9FH1WHsJ8XqCdCxnMb | 王璒 | accepted |
+| children | p_knUNNqCwQm1MnsmGYDeA7f | 王璔 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王璒（CBDB 221938）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221938&o=json)
 - [中国历代人物传记资料库：王勛（CBDB 221894）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221894&o=json)
+- [中国历代人物传记资料库：王璔（CBDB 221927）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221927&o=json)

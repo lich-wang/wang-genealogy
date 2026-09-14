@@ -4,7 +4,7 @@ id: p_2S6E1veeuiibZbgvEuVN71
 status: active
 merged_into: null
 display_name: 王宏
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Pa8HvftFW4VBZkDn4zmgEe
+        subject_person_id: p_BJ4Vkii4a2B3LiLFrokpx5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2S6E1veeuiibZbgvEuVN71
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zAWmrzaVTBxTz33AZ9Vo-E
+          claim_id: c_Pa8HvftFW4VBZkDn4zmgEe
+          source_id: s_YlWFABmDrJ5nyX4aRuZABl
+          stance: supports
+          locator: CBDB：兄弟 王琮（201239）之父／母 王能
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王宏 与 王琮 为同胞（CBDB 记「弟」），王琮 之父／母即 王宏 之父／母。
+          source:
+            id: s_YlWFABmDrJ5nyX4aRuZABl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宏（CBDB 269333）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=269333&o=json
+            external_identifier: CBDB:269333
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BJ4Vkii4a2B3LiLFrokpx5
+        status: active
+        display_name: 王能
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_YuT67ylZLNpIKWNotW7JBS
+        subject_person_id: p_2S6E1veeuiibZbgvEuVN71
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_CZ8eCkhwLj8bRjMZEDrV7a
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_D5zjqLnnctSPog2G0W0-Gq
+          claim_id: c_YuT67ylZLNpIKWNotW7JBS
+          source_id: s_YlWFABmDrJ5nyX4aRuZABl
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201239 王琮）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_YlWFABmDrJ5nyX4aRuZABl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宏（CBDB 269333）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=269333&o=json
+            external_identifier: CBDB:269333
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CZ8eCkhwLj8bRjMZEDrV7a
+        status: active
+        display_name: 王琮
+        merged_into_person_id: null
 ---
 
 # 王宏
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_BJ4Vkii4a2B3LiLFrokpx5 | 王能 | accepted |
+| other | p_CZ8eCkhwLj8bRjMZEDrV7a | 王琮 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_nmPKNuXkMQTW2N47jRsjTb
 status: active
 merged_into: null
 display_name: 王時
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_eQSO7uFa8lHEjbxgDHKsxj
+        subject_person_id: p_548o1SKAP1oKBMmyuHA5jA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nmPKNuXkMQTW2N47jRsjTb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5YazPiHYEk7enZ-J6knL3m
+          claim_id: c_eQSO7uFa8lHEjbxgDHKsxj
+          source_id: s_-OD9GOuDquz9fNdpkhB0re
+          stance: supports
+          locator: CBDB：兄弟 王曉（205806）之父／母 王崇義
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王時 与 王曉 为同胞（CBDB 记「兄」），王曉 之父／母即 王時 之父／母。
+          source:
+            id: s_-OD9GOuDquz9fNdpkhB0re
+            source_type: api_record
+            title: 中国历代人物传记资料库：王時（CBDB 208879）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208879&o=json
+            external_identifier: CBDB:208879
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_548o1SKAP1oKBMmyuHA5jA
+        status: active
+        display_name: 王崇義
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_KoW6ut6ZKnojusyq0WWrPM
+        subject_person_id: p_RznqNoKYNYcxhtUnus5Vov
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nmPKNuXkMQTW2N47jRsjTb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IZWCcZ3KlvroUIplPJyOCp
+          claim_id: c_KoW6ut6ZKnojusyq0WWrPM
+          source_id: s_-OD9GOuDquz9fNdpkhB0re
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205806 王曉）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_-OD9GOuDquz9fNdpkhB0re
+            source_type: api_record
+            title: 中国历代人物传记资料库：王時（CBDB 208879）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208879&o=json
+            external_identifier: CBDB:208879
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_RznqNoKYNYcxhtUnus5Vov
+        status: active
+        display_name: 王曉
+        merged_into_person_id: null
 ---
 
 # 王時
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_548o1SKAP1oKBMmyuHA5jA | 王崇義 | accepted |
+| other | p_RznqNoKYNYcxhtUnus5Vov | 王曉 | accepted |
 
 ## 外部来源
 

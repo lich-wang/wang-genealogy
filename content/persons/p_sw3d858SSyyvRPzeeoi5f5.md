@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王纲
 cbdb_id: 246750
-revision: 4
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -225,6 +225,80 @@ relationships:
         status: active
         display_name: 王璟
         merged_into_person_id: null
+    - claim:
+        id: c_wwMW--VmtO-lhwiIdocnef
+        subject_person_id: p_sw3d858SSyyvRPzeeoi5f5
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_3pSaFHyMm5yw3ojGhQJnMx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xpbxOoQaqSa3hAYcBjKJ5U
+          claim_id: c_wwMW--VmtO-lhwiIdocnef
+          source_id: s_pGr3-bAH0j8zlWpY0GRjY7
+          stance: supports
+          locator: CBDB：兄弟 王璟（67987）之父／母 王纲
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王瓉 与 王璟 为同胞（CBDB 记「弟」），王璟 之父／母即 王瓉 之父／母。
+          source:
+            id: s_pGr3-bAH0j8zlWpY0GRjY7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瓉（CBDB 246755）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246755&o=json
+            external_identifier: CBDB:246755
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3pSaFHyMm5yw3ojGhQJnMx
+        status: active
+        display_name: 王瓉
+        merged_into_person_id: null
+    - claim:
+        id: c_qRs75u2U7_HF_hEUR-VVfO
+        subject_person_id: p_sw3d858SSyyvRPzeeoi5f5
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_Gk3kgE8MCobSvJHrxFNS48
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_I-NbFWhK4EYcZC4YqIlQCJ
+          claim_id: c_qRs75u2U7_HF_hEUR-VVfO
+          source_id: s_xfyWi4n98jWvZ69NtUslfq
+          stance: supports
+          locator: CBDB：兄弟 王璟（67987）之父／母 王纲
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王璋 与 王璟 为同胞（CBDB 记「弟」），王璟 之父／母即 王璋 之父／母。
+          source:
+            id: s_xfyWi4n98jWvZ69NtUslfq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璋（CBDB 246754）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246754&o=json
+            external_identifier: CBDB:246754
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Gk3kgE8MCobSvJHrxFNS48
+        status: active
+        display_name: 王璋
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -250,10 +324,14 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_L6DCbYaxvTKejPkJXVgChn | 王升 | accepted |
 | children | p_7koQzcggkeDLYupbQwieGE | 王璟 | accepted |
+| children | p_3pSaFHyMm5yw3ojGhQJnMx | 王瓉 | accepted |
+| children | p_Gk3kgE8MCobSvJHrxFNS48 | 王璋 | accepted |
 
 ## 外部来源
 
 - [维基数据：王纲（Q45484265）](https://www.wikidata.org/wiki/Q45484265)
 - [维基数据：王璟（Q15929306）](https://www.wikidata.org/wiki/Q15929306)
 - [维基数据：王升（Q45484201）](https://www.wikidata.org/wiki/Q45484201)
+- [中国历代人物传记资料库：王瓉（CBDB 246755）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246755&o=json)
+- [中国历代人物传记资料库：王璋（CBDB 246754）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246754&o=json)
 - [CBDB 中国历代人物传记资料库：王綱（246750）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246750&o=json)

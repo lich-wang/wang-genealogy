@@ -4,7 +4,7 @@ id: p_JZWLLHiizKoJQGGfwvP2GQ
 status: active
 merged_into: null
 display_name: 王瑜
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_v5YR6ZGY20mMxyM08MGqD7
+        subject_person_id: p_Ws6vwZFsXZUpBYjSrkcdGJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JZWLLHiizKoJQGGfwvP2GQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eO5dJLyzZiSugYgO8ZosXV
+          claim_id: c_v5YR6ZGY20mMxyM08MGqD7
+          source_id: s_2pNDNJefUKCFv1YhcdMPmR
+          stance: supports
+          locator: CBDB：兄弟 王瑄（126752）之父／母 王言
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王瑜 与 王瑄 为同胞（CBDB 记「兄」），王瑄 之父／母即 王瑜 之父／母。
+          source:
+            id: s_2pNDNJefUKCFv1YhcdMPmR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑜（CBDB 282508）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282508&o=json
+            external_identifier: CBDB:282508
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Ws6vwZFsXZUpBYjSrkcdGJ
+        status: active
+        display_name: 王言
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ZTRkw10MS_M_n0QHMwpaJf
+        subject_person_id: p_CvexZGJpSfjjALu2joPK1N
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_JZWLLHiizKoJQGGfwvP2GQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_R8g9aXoAgw5ayOCQTzeBr2
+          claim_id: c_ZTRkw10MS_M_n0QHMwpaJf
+          source_id: s_2pNDNJefUKCFv1YhcdMPmR
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126752 王瑄）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_2pNDNJefUKCFv1YhcdMPmR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑜（CBDB 282508）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282508&o=json
+            external_identifier: CBDB:282508
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CvexZGJpSfjjALu2joPK1N
+        status: active
+        display_name: 王瑄
+        merged_into_person_id: null
 ---
 
 # 王瑜
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Ws6vwZFsXZUpBYjSrkcdGJ | 王言 | accepted |
+| other | p_CvexZGJpSfjjALu2joPK1N | 王瑄 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_LrwY5tXkYCUNXA8ZrdXwSb
 status: active
 merged_into: null
 display_name: 王維楨
-revision: 4
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -246,7 +246,155 @@ relationships:
         display_name: 王和
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_XAQXmTBifm6Lhy8sO5_bx5
+        subject_person_id: p_LrwY5tXkYCUNXA8ZrdXwSb
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_NcMNQSpxuadJhig28TaDJU
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0vWr8Q-0PpwPpQERTAG10S
+          claim_id: c_XAQXmTBifm6Lhy8sO5_bx5
+          source_id: s_56zASXLzdBfH-HehtQaKMw
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126791 王維楨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_56zASXLzdBfH-HehtQaKMw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王維厚（CBDB 297170）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297170&o=json
+            external_identifier: CBDB:297170
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NcMNQSpxuadJhig28TaDJU
+        status: active
+        display_name: 王維厚
+        merged_into_person_id: null
+    - claim:
+        id: c_EAZG6VkmPw9qVMaZ2FcpMb
+        subject_person_id: p_LrwY5tXkYCUNXA8ZrdXwSb
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_d5tPgvgoZzEDZU2cnvCkRp
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5Cc9cHoj5Cy_TefLe3Sop6
+          claim_id: c_EAZG6VkmPw9qVMaZ2FcpMb
+          source_id: s_iyJropfbwm-f_w6KY2lfaO
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126791 王維楨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_iyJropfbwm-f_w6KY2lfaO
+            source_type: api_record
+            title: 中国历代人物传记资料库：王維藩（CBDB 297166）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297166&o=json
+            external_identifier: CBDB:297166
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_d5tPgvgoZzEDZU2cnvCkRp
+        status: active
+        display_name: 王維藩
+        merged_into_person_id: null
+    - claim:
+        id: c_CwD5OssBqSNZzqkuBRJdXq
+        subject_person_id: p_LrwY5tXkYCUNXA8ZrdXwSb
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_osh81b3M7AYJBAZgV5iHeQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DoPci40jv9JEQAsDHx2dxD
+          claim_id: c_CwD5OssBqSNZzqkuBRJdXq
+          source_id: s_WDfkoyR1L_OCrR42z1PIur
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126791 王維楨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_WDfkoyR1L_OCrR42z1PIur
+            source_type: api_record
+            title: 中国历代人物传记资料库：王維祺（CBDB 297167）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297167&o=json
+            external_identifier: CBDB:297167
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_osh81b3M7AYJBAZgV5iHeQ
+        status: active
+        display_name: 王維祺
+        merged_into_person_id: null
+    - claim:
+        id: c_SHW6nhpmI6Kj9b7Y21fBvN
+        subject_person_id: p_LrwY5tXkYCUNXA8ZrdXwSb
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zbhM4HAuk243BcTzDb8FbF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_za4t93BJAPBhBqpSEEZNDn
+          claim_id: c_SHW6nhpmI6Kj9b7Y21fBvN
+          source_id: s_3aBJfvvND_xrcqhBM0j8g4
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126791 王維楨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_3aBJfvvND_xrcqhBM0j8g4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王維新（CBDB 297168）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297168&o=json
+            external_identifier: CBDB:297168
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zbhM4HAuk243BcTzDb8FbF
+        status: active
+        display_name: 王維新
+        merged_into_person_id: null
 ---
 
 # 王維楨
@@ -269,10 +417,18 @@ relationships:
 | parents | p_HxkU2fnETNPPrHRLTi3TtQ | 王載 | accepted |
 | ancestors | p_1ACKLnuM8rd7xX3FtfoL2G | 王源 | accepted |
 | ancestors | p_UogPVB2nhkpP38jnhpw9oR | 王和 | accepted |
+| other | p_NcMNQSpxuadJhig28TaDJU | 王維厚 | accepted |
+| other | p_d5tPgvgoZzEDZU2cnvCkRp | 王維藩 | accepted |
+| other | p_osh81b3M7AYJBAZgV5iHeQ | 王維祺 | accepted |
+| other | p_zbhM4HAuk243BcTzDb8FbF | 王維新 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王和（CBDB 297161）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297161&o=json)
+- [中国历代人物传记资料库：王維藩（CBDB 297166）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297166&o=json)
+- [中国历代人物传记资料库：王維厚（CBDB 297170）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297170&o=json)
+- [中国历代人物传记资料库：王維祺（CBDB 297167）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297167&o=json)
+- [中国历代人物传记资料库：王維新（CBDB 297168）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297168&o=json)
 - [中国历代人物传记资料库：王維楨（CBDB 126791）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126791&o=json)
 - [中国历代人物传记资料库：王源（CBDB 297162）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297162&o=json)
 - [中国历代人物传记资料库：王載（CBDB 297163）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297163&o=json)

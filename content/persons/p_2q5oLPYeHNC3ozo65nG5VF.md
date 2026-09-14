@@ -4,7 +4,7 @@ id: p_2q5oLPYeHNC3ozo65nG5VF
 status: active
 merged_into: null
 display_name: 王叔杲
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -250,7 +250,118 @@ relationships:
         display_name: 王鉦
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ju9R6MK2R-gn7LkryRwAB5
+        subject_person_id: p_2q5oLPYeHNC3ozo65nG5VF
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_HvrFGZd9ssdoXZvL77JxCH
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_L54OlJ0idZB8Dbknyvb0lA
+          claim_id: c_ju9R6MK2R-gn7LkryRwAB5
+          source_id: s_W5L9791aZMz7UBjKQaAsjr
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126579 王叔杲）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_W5L9791aZMz7UBjKQaAsjr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王叔果（CBDB 328621）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328621&o=json
+            external_identifier: CBDB:328621
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HvrFGZd9ssdoXZvL77JxCH
+        status: active
+        display_name: 王叔果
+        merged_into_person_id: null
+    - claim:
+        id: c_8Xa93uCsg6nxIDZVZyYOXc
+        subject_person_id: p_2q5oLPYeHNC3ozo65nG5VF
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_g9di9N7eNMAQungG7MFVQX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_34oCQ8SjpF5jB2_B1OyJ5m
+          claim_id: c_8Xa93uCsg6nxIDZVZyYOXc
+          source_id: s_FcBVgddWDwtYXVCWR02iX2
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126579 王叔杲）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_FcBVgddWDwtYXVCWR02iX2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王叔本（CBDB 328622）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328622&o=json
+            external_identifier: CBDB:328622
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_g9di9N7eNMAQungG7MFVQX
+        status: active
+        display_name: 王叔本
+        merged_into_person_id: null
+    - claim:
+        id: c_eIgDsRuUrdTe5XIC9g0KAw
+        subject_person_id: p_2q5oLPYeHNC3ozo65nG5VF
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_sN9FriBxSGp1pjQ5sQLWhp
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_h8G9u0TQeKQ2l15GIdnPV5
+          claim_id: c_eIgDsRuUrdTe5XIC9g0KAw
+          source_id: s_RWtGdjvczb2SztWRfXevt6
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126579 王叔杲）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_RWtGdjvczb2SztWRfXevt6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王叔懋（CBDB 328620）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328620&o=json
+            external_identifier: CBDB:328620
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_sN9FriBxSGp1pjQ5sQLWhp
+        status: active
+        display_name: 王叔懋
+        merged_into_person_id: null
 ---
 
 # 王叔杲
@@ -274,8 +385,14 @@ relationships:
 | spouses | p_Gsy39WuWh4NG4qrGajpktE | 吳氏 | accepted |
 | ancestors | p_MdGjr9t9d5enBaVmAb7Hoe | 王封 | accepted |
 | ancestors | p_GhhQAsKsPY39RTFcJNMzy7 | 王鉦 | accepted |
+| other | p_HvrFGZd9ssdoXZvL77JxCH | 王叔果 | accepted |
+| other | p_g9di9N7eNMAQungG7MFVQX | 王叔本 | accepted |
+| other | p_sN9FriBxSGp1pjQ5sQLWhp | 王叔懋 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王叔本（CBDB 328622）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328622&o=json)
 - [中国历代人物传记资料库：王叔杲（CBDB 126579）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126579&o=json)
+- [中国历代人物传记资料库：王叔果（CBDB 328621）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328621&o=json)
+- [中国历代人物传记资料库：王叔懋（CBDB 328620）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328620&o=json)
 - [中国历代人物传记资料库：吳氏(王叔杲妻)（CBDB 328617）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328617&o=json)

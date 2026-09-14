@@ -4,7 +4,7 @@ id: p_Ea9hQd6Q69frdQad5zNKrV
 status: active
 merged_into: null
 display_name: 王冕
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_29QG2Q8pw0bqMrUa2Pqrzc
+        subject_person_id: p_sQKFgBKrX6N7mKYfJwtry2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Ea9hQd6Q69frdQad5zNKrV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0MxYmHWJxdOYCtfUb7jPtj
+          claim_id: c_29QG2Q8pw0bqMrUa2Pqrzc
+          source_id: s_bWCrqxa_SxdJT3jXkdxMYU
+          stance: supports
+          locator: CBDB：兄弟 王杲（200384）之父／母 王洪
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王冕 与 王杲 为同胞（CBDB 记「兄」），王杲 之父／母即 王冕 之父／母。
+          source:
+            id: s_bWCrqxa_SxdJT3jXkdxMYU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王冕（CBDB 257034）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257034&o=json
+            external_identifier: CBDB:257034
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_sQKFgBKrX6N7mKYfJwtry2
+        status: active
+        display_name: 王洪
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_viiJHggr3DYX9xeZQ3ZtN1
+        subject_person_id: p_Ea9hQd6Q69frdQad5zNKrV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Y6fRdWmSHjB68krJYq7FPT
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J53hY3L1cqoWbbj5Zn-EvF
+          claim_id: c_viiJHggr3DYX9xeZQ3ZtN1
+          source_id: s_bWCrqxa_SxdJT3jXkdxMYU
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200384 王杲）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_bWCrqxa_SxdJT3jXkdxMYU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王冕（CBDB 257034）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257034&o=json
+            external_identifier: CBDB:257034
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Y6fRdWmSHjB68krJYq7FPT
+        status: active
+        display_name: 王杲
+        merged_into_person_id: null
 ---
 
 # 王冕
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_sQKFgBKrX6N7mKYfJwtry2 | 王洪 | accepted |
+| other | p_Y6fRdWmSHjB68krJYq7FPT | 王杲 | accepted |
 
 ## 外部来源
 

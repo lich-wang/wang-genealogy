@@ -4,7 +4,7 @@ id: p_rzQDNnMKSBa8nJNVJmieoC
 status: active
 merged_into: null
 display_name: 王鈺
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -191,7 +191,44 @@ relationships:
         display_name: 王仲楚
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_t_h1EQsQKDyrB9-MoyHpmu
+        subject_person_id: p_b22tKHuMcRLB93x2PpeEjm
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_rzQDNnMKSBa8nJNVJmieoC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cR2hsQJztIPV3DQLDPRBez
+          claim_id: c_t_h1EQsQKDyrB9-MoyHpmu
+          source_id: s_hRRelSrri-eP-7_AWANIWv
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126767 王鈺）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hRRelSrri-eP-7_AWANIWv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鍾（CBDB 286466）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=286466&o=json
+            external_identifier: CBDB:286466
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_b22tKHuMcRLB93x2PpeEjm
+        status: active
+        display_name: 王鍾
+        merged_into_person_id: null
 ---
 
 # 王鈺
@@ -212,10 +249,12 @@ relationships:
 | parents | p_A6QxRDJCCFin64JkXSiALi | 王堂 | accepted |
 | ancestors | p_mykX7xwaoF7SL9hSK7DJ1V | 王艮 | accepted |
 | ancestors | p_QijNj3iZ4NYhsZqc6vKFmE | 王仲楚 | accepted |
+| other | p_b22tKHuMcRLB93x2PpeEjm | 王鍾 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王艮（CBDB 286460）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=286460&o=json)
 - [中国历代人物传记资料库：王堂（CBDB 286463）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=286463&o=json)
 - [中国历代人物传记资料库：王鈺（CBDB 126767）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126767&o=json)
+- [中国历代人物传记资料库：王鍾（CBDB 286466）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=286466&o=json)
 - [中国历代人物传记资料库：王仲楚（CBDB 286461）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=286461&o=json)

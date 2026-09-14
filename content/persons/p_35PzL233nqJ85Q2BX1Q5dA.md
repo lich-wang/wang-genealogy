@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王良柱
 cbdb_id: 202803
-revision: 12
+revision: 14
 properties:
   - predicate: bio.summary
     recommended:
@@ -727,7 +727,81 @@ relationships:
         status: active
         display_name: 王觀京
         merged_into_person_id: null
-  other: []
+  other:
+    - claim:
+        id: c__4XWiB9wOXJzg4avATlSg4
+        subject_person_id: p_35PzL233nqJ85Q2BX1Q5dA
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_3nf9ab8h84GUyH33naKo9K
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rX2_xvQEDIFgPzCm85TN7k
+          claim_id: c__4XWiB9wOXJzg4avATlSg4
+          source_id: s_OWh19CuAF--cZS5qVZI2BR
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202803 王良柱）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_OWh19CuAF--cZS5qVZI2BR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王良采（CBDB 294716）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294716&o=json
+            external_identifier: CBDB:294716
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3nf9ab8h84GUyH33naKo9K
+        status: active
+        display_name: 王良采
+        merged_into_person_id: null
+    - claim:
+        id: c_ALYV8U0sUXHd9kt0cnwht0
+        subject_person_id: p_35PzL233nqJ85Q2BX1Q5dA
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_3pL1tA1mSzmiPu8DQPZbjL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_m31zv6pfJEEcRr9pv4Dy5z
+          claim_id: c_ALYV8U0sUXHd9kt0cnwht0
+          source_id: s_fKuBkMcx0JZJ4PF8cJ7TzG
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202803 王良柱）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_fKuBkMcx0JZJ4PF8cJ7TzG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王良檝（CBDB 294715）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294715&o=json
+            external_identifier: CBDB:294715
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3pL1tA1mSzmiPu8DQPZbjL
+        status: active
+        display_name: 王良檝
+        merged_into_person_id: null
 ---
 
 # 王良柱
@@ -762,6 +836,8 @@ relationships:
 | descendants | p_uWS3ofLwxoYWjnRbSLuL1G | 王在京 | accepted |
 | descendants | p_WLV64Ck8v3CgJLVH6Th9Nz | 王亘京 | accepted |
 | descendants | p_ywFJ54QHDsobpcY9CXnv6f | 王觀京 | accepted |
+| other | p_3nf9ab8h84GUyH33naKo9K | 王良采 | accepted |
+| other | p_3pL1tA1mSzmiPu8DQPZbjL | 王良檝 | accepted |
 
 ## 外部来源
 
@@ -776,6 +852,8 @@ relationships:
 - [中国历代人物传记资料库：王基京（CBDB 294730）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294730&o=json)
 - [中国历代人物传记资料库：王繼曾（CBDB 294731）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294731&o=json)
 - [中国历代人物传记资料库：王坤京（CBDB 294721）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294721&o=json)
+- [中国历代人物传记资料库：王良采（CBDB 294716）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294716&o=json)
+- [中国历代人物传记资料库：王良檝（CBDB 294715）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294715&o=json)
 - [中国历代人物传记资料库：王良柱（CBDB 202803）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202803&o=json)
 - [中国历代人物传记资料库：王列（CBDB 294720）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294720&o=json)
 - [中国历代人物传记资料库：王尚瑀（CBDB 294710）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294710&o=json)

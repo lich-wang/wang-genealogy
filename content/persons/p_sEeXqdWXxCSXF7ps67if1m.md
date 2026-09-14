@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王朝器
 cbdb_id: 126721
-revision: 4
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -280,7 +280,81 @@ relationships:
         display_name: 王原遠
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_AKJ3qWTIKftgVY4umgB7zb
+        subject_person_id: p_UvvPcQ1c1eTzU7JkFf7nFB
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_sEeXqdWXxCSXF7ps67if1m
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xqNiPFgwPD8nrlz_Ta_5aP
+          claim_id: c_AKJ3qWTIKftgVY4umgB7zb
+          source_id: s_TAX2ZjoqniMEz4B1aGxwjj
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126721 王朝器）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_TAX2ZjoqniMEz4B1aGxwjj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王英甫（CBDB 253510）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253510&o=json
+            external_identifier: CBDB:253510
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_UvvPcQ1c1eTzU7JkFf7nFB
+        status: active
+        display_name: 王英甫
+        merged_into_person_id: null
+    - claim:
+        id: c_6Z2OPRRJTMcKp5dH5v-zOT
+        subject_person_id: p_avpj1eumUfWPx49p1wq6Rz
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_sEeXqdWXxCSXF7ps67if1m
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UdozjzIvgb73yO8AXTappJ
+          claim_id: c_6Z2OPRRJTMcKp5dH5v-zOT
+          source_id: s_V_GF--AZvk8fQSa5bLnhKg
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126721 王朝器）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_V_GF--AZvk8fQSa5bLnhKg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王朝璧（CBDB 253511）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253511&o=json
+            external_identifier: CBDB:253511
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_avpj1eumUfWPx49p1wq6Rz
+        status: active
+        display_name: 王朝璧
+        merged_into_person_id: null
 ---
 
 # 王朝器
@@ -303,10 +377,14 @@ relationships:
 | parents | p_DQN1sEVrdLYQ7FBcwLS1Bs | 王廷燦 | accepted |
 | ancestors | p_9in8REHLed81EofQaUdNJQ | 王伯履 | accepted |
 | ancestors | p_quzuLvPecHArZ4vX7i12WD | 王原遠 | accepted |
+| other | p_UvvPcQ1c1eTzU7JkFf7nFB | 王英甫 | accepted |
+| other | p_avpj1eumUfWPx49p1wq6Rz | 王朝璧 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王伯履（CBDB 253504）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253504&o=json)
+- [中国历代人物传记资料库：王朝璧（CBDB 253511）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253511&o=json)
 - [中国历代人物传记资料库：王朝器（CBDB 126721）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126721&o=json)
 - [中国历代人物传记资料库：王廷燦（CBDB 253506）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253506&o=json)
+- [中国历代人物传记资料库：王英甫（CBDB 253510）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253510&o=json)
 - [中国历代人物传记资料库：王原遠（CBDB 253505）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253505&o=json)

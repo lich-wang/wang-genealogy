@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王陳策
 cbdb_id: 203846
-revision: 4
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,81 @@ relationships:
         display_name: 王貢
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_kBAB3re-8tsnBUSCe3Zu_G
+        subject_person_id: p_2H7wDAyC2pUCToo884MHkb
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_uMoYvHtHcYSbRrJYWwDGUq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Pd7npiFjbRGcB9C8MMR4Yg
+          claim_id: c_kBAB3re-8tsnBUSCe3Zu_G
+          source_id: s_hTx3yLGsPqFqnXHXRgGV_x
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203846 王陳策）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hTx3yLGsPqFqnXHXRgGV_x
+            source_type: api_record
+            title: 中国历代人物传记资料库：王陳善（CBDB 310886）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310886&o=json
+            external_identifier: CBDB:310886
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2H7wDAyC2pUCToo884MHkb
+        status: active
+        display_name: 王陳善
+        merged_into_person_id: null
+    - claim:
+        id: c_-NEusWV20kPsrrXdkfJYHP
+        subject_person_id: p_C26spKJK4PxuGw8LBtUqDJ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_uMoYvHtHcYSbRrJYWwDGUq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yMnZupKNviRbEsnMPz5wBQ
+          claim_id: c_-NEusWV20kPsrrXdkfJYHP
+          source_id: s_Irqk3TDElvhzn2JOGzpzTh
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203846 王陳策）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Irqk3TDElvhzn2JOGzpzTh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王陳範（CBDB 310887）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310887&o=json
+            external_identifier: CBDB:310887
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_C26spKJK4PxuGw8LBtUqDJ
+        status: active
+        display_name: 王陳範
+        merged_into_person_id: null
 ---
 
 # 王陳策
@@ -257,10 +331,14 @@ relationships:
 | parents | p_BtDG6VoMZJKLkro1XEtynE | 王交 | accepted |
 | ancestors | p_gAcK3ypRp84yEmW7QJ4Za5 | 王讓 | accepted |
 | ancestors | p_KgN4yUFpndgvQxkTQC5sGq | 王貢 | accepted |
+| other | p_2H7wDAyC2pUCToo884MHkb | 王陳善 | accepted |
+| other | p_C26spKJK4PxuGw8LBtUqDJ | 王陳範 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王陳策（CBDB 203846）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203846&o=json)
+- [中国历代人物传记资料库：王陳範（CBDB 310887）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310887&o=json)
+- [中国历代人物传记资料库：王陳善（CBDB 310886）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310886&o=json)
 - [中国历代人物传记资料库：王貢（CBDB 310880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310880&o=json)
 - [中国历代人物传记资料库：王交（CBDB 310881）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310881&o=json)
 - [中国历代人物传记资料库：王讓（CBDB 310879）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=310879&o=json)

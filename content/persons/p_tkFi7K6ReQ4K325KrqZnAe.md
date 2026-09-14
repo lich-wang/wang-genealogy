@@ -4,7 +4,7 @@ id: p_tkFi7K6ReQ4K325KrqZnAe
 status: active
 merged_into: null
 display_name: 王相
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -246,7 +246,44 @@ relationships:
         display_name: 王瑬
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_itNd3yzS52XvyFmoRA3ybh
+        subject_person_id: p_tkFi7K6ReQ4K325KrqZnAe
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zkfNFf6VZ8candj6SdsGh8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q2U5sgTogKxU6EA3ATFx_L
+          claim_id: c_itNd3yzS52XvyFmoRA3ybh
+          source_id: s_zPJpdvqGGGAMd0AziLLRey
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 68072 王相）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_zPJpdvqGGGAMd0AziLLRey
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彬（CBDB 283314）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283314&o=json
+            external_identifier: CBDB:283314
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zkfNFf6VZ8candj6SdsGh8
+        status: active
+        display_name: 王彬
+        merged_into_person_id: null
 ---
 
 # 王相
@@ -269,9 +306,11 @@ relationships:
 | parents | p_b9S8xbPufiFgxPKXwMLGKV | 王瀚 | accepted |
 | ancestors | p_ic6AM4VmuMP8C24dJpB38S | 王偉 | accepted |
 | ancestors | p_u2KNBUAkMVR3zCUrV47NtM | 王瑬 | accepted |
+| other | p_zkfNFf6VZ8candj6SdsGh8 | 王彬 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王彬（CBDB 283314）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283314&o=json)
 - [中国历代人物传记资料库：王瀚（CBDB 283311）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283311&o=json)
 - [中国历代人物传记资料库：王瑬（CBDB 283307）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283307&o=json)
 - [中国历代人物传记资料库：王偉（CBDB 283308）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283308&o=json)

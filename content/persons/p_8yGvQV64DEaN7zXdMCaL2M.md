@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王益恭
 cbdb_id: 22054
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -465,7 +465,44 @@ relationships:
         merged_into_person_id: null
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_KfCJr3OAK-Za8MPa8ZCwaQ
+        subject_person_id: p_8yGvQV64DEaN7zXdMCaL2M
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_bbnd1A9EEgUe5YEkwF6xeq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vRmhUjdSKwPXks7K0UDs4a
+          claim_id: c_KfCJr3OAK-Za8MPa8ZCwaQ
+          source_id: s_AWFgGe72lkIVskVcdB5v8u
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 22054 王益恭）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_AWFgGe72lkIVskVcdB5v8u
+            source_type: api_record
+            title: 中国历代人物传记资料库：王益柔（CBDB 1828）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1828&o=json
+            external_identifier: CBDB:1828
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_bbnd1A9EEgUe5YEkwF6xeq
+        status: active
+        display_name: 王益柔
+        merged_into_person_id: null
 ---
 
 # 王益恭
@@ -490,6 +527,7 @@ relationships:
 | children | p_R1Ny36Z2KzDUq48Pri3BeK | 王慎行 | accepted |
 | children | p_mtMHeaLVMRzHPiV6MMKoBB | 王慎术 | accepted |
 | spouses | p_98QQdRkf8cCt61bD928i6c | 李氏 | accepted |
+| other | p_bbnd1A9EEgUe5YEkwF6xeq | 王益柔 | accepted |
 
 ## 外部来源
 
@@ -498,5 +536,6 @@ relationships:
 - [维基数据：王慎言（Q45363017）](https://www.wikidata.org/wiki/Q45363017)
 - [维基数据：王曙（Q16077251）](https://www.wikidata.org/wiki/Q16077251)
 - [维基数据：王益恭（Q45401756）](https://www.wikidata.org/wiki/Q45401756)
+- [中国历代人物传记资料库：王益柔（CBDB 1828）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1828&o=json)
 - [CBDB 中国历代人物传记资料库：王曙（1877）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1877&o=json)
 - [CBDB 中国历代人物传记资料库：王益恭（22054）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22054&o=json)

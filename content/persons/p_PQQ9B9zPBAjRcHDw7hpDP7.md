@@ -4,7 +4,7 @@ id: p_PQQ9B9zPBAjRcHDw7hpDP7
 status: active
 merged_into: null
 display_name: 王述
-revision: 2
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -110,7 +110,155 @@ relationships:
         status: active
         display_name: 王倫
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_WpskULjVbJSVZix7AHEIOR
+        subject_person_id: p_PQQ9B9zPBAjRcHDw7hpDP7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9gZ2E14KZnVgk6CbMWf28k
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_ZocO5PDpcVCudVM5Wgt2yl
+          claim_id: c_WpskULjVbJSVZix7AHEIOR
+          source_id: s_iB1q7aM1jXHfmN1AfICY_U
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 3974）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_iB1q7aM1jXHfmN1AfICY_U
+            source_type: api_record
+            title: 中国历代人物传记资料库：王棣（CBDB 35621）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35621&o=json
+            external_identifier: CBDB:35621
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9gZ2E14KZnVgk6CbMWf28k
+        status: active
+        display_name: 王棣
+        merged_into_person_id: null
+    - claim:
+        id: c_E3wukudUbzwNYKyhp_anfa
+        subject_person_id: p_PQQ9B9zPBAjRcHDw7hpDP7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WGEVHrwcqroofJ9shrYSGj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_JgXkjRPMksZnosFHTpOwCV
+          claim_id: c_E3wukudUbzwNYKyhp_anfa
+          source_id: s_QXIj2ZRuHzx3A8GT_Xe6ds
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 3974）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_QXIj2ZRuHzx3A8GT_Xe6ds
+            source_type: api_record
+            title: 中国历代人物传记资料库：王樸（CBDB 35620）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35620&o=json
+            external_identifier: CBDB:35620
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_WGEVHrwcqroofJ9shrYSGj
+        status: active
+        display_name: 王樸
+        merged_into_person_id: null
+    - claim:
+        id: c_9__-eGUperD5deSGP3MC6q
+        subject_person_id: p_PQQ9B9zPBAjRcHDw7hpDP7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jAt5dBTyWcrFKEozwuWP6L
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_swjssuak-2EaOPT2XffhIJ
+          claim_id: c_9__-eGUperD5deSGP3MC6q
+          source_id: s_Vc6moXtCYjWoYZ8WWYAdXf
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 3974）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_Vc6moXtCYjWoYZ8WWYAdXf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王樞（CBDB 35623）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35623&o=json
+            external_identifier: CBDB:35623
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jAt5dBTyWcrFKEozwuWP6L
+        status: active
+        display_name: 王樞
+        merged_into_person_id: null
+    - claim:
+        id: c_KEAfXOwEZx6LfLwXTolaV-
+        subject_person_id: p_PQQ9B9zPBAjRcHDw7hpDP7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pG95K3mKpphKHHUQLrPrX9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_PnNRKI4-YT0vzrrFIewtag
+          claim_id: c_KEAfXOwEZx6LfLwXTolaV-
+          source_id: s_8vFNfSZuSGhdB_9tnxiSGG
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 3974）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_8vFNfSZuSGhdB_9tnxiSGG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王杞（CBDB 35622）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35622&o=json
+            external_identifier: CBDB:35622
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_pG95K3mKpphKHHUQLrPrX9
+        status: active
+        display_name: 王杞
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +283,16 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_KvaDyJMUHzeGStoEsTh4se | 王倫 | accepted |
+| children | p_9gZ2E14KZnVgk6CbMWf28k | 王棣 | accepted |
+| children | p_WGEVHrwcqroofJ9shrYSGj | 王樸 | accepted |
+| children | p_jAt5dBTyWcrFKEozwuWP6L | 王樞 | accepted |
+| children | p_pG95K3mKpphKHHUQLrPrX9 | 王杞 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王棣（CBDB 35621）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35621&o=json)
 - [中国历代人物传记资料库：王倫（CBDB 8178）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8178&o=json)
+- [中国历代人物传记资料库：王樸（CBDB 35620）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35620&o=json)
+- [中国历代人物传记资料库：王杞（CBDB 35622）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35622&o=json)
+- [中国历代人物传记资料库：王樞（CBDB 35623）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35623&o=json)
 - [中国历代人物传记资料库：王述（CBDB 3974）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3974&o=json)

@@ -4,7 +4,7 @@ id: p_DYey2g1wYQhjGuqsaWu3KR
 status: active
 merged_into: null
 display_name: 王邵
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_sG2YuTf099XKxezB9XpWHx
+        subject_person_id: p_6jw2H1KWkaDQExePFFB6Yj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DYey2g1wYQhjGuqsaWu3KR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mqe8hArU9l5wKvUPE4I3YO
+          claim_id: c_sG2YuTf099XKxezB9XpWHx
+          source_id: s_bUtaBofzw2bpRP6q4ylRVe
+          stance: supports
+          locator: CBDB：兄弟 王本儉（199945）之父／母 王孟良
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王邵 与 王本儉 为同胞（CBDB 记「兄」），王本儉 之父／母即 王邵 之父／母。
+          source:
+            id: s_bUtaBofzw2bpRP6q4ylRVe
+            source_type: api_record
+            title: 中国历代人物传记资料库：王邵（CBDB 251777）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251777&o=json
+            external_identifier: CBDB:251777
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6jw2H1KWkaDQExePFFB6Yj
+        status: active
+        display_name: 王孟良
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_CZPsEZIeSTnTDOroJW4_2-
+        subject_person_id: p_9PrBQcpmCF997Qgs2oiS3t
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_DYey2g1wYQhjGuqsaWu3KR
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0iyZaE7BzSJ9IVeyYgdFlF
+          claim_id: c_CZPsEZIeSTnTDOroJW4_2-
+          source_id: s_bUtaBofzw2bpRP6q4ylRVe
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199945 王本儉）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_bUtaBofzw2bpRP6q4ylRVe
+            source_type: api_record
+            title: 中国历代人物传记资料库：王邵（CBDB 251777）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=251777&o=json
+            external_identifier: CBDB:251777
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9PrBQcpmCF997Qgs2oiS3t
+        status: active
+        display_name: 王本儉
+        merged_into_person_id: null
 ---
 
 # 王邵
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_6jw2H1KWkaDQExePFFB6Yj | 王孟良 | accepted |
+| other | p_9PrBQcpmCF997Qgs2oiS3t | 王本儉 | accepted |
 
 ## 外部来源
 

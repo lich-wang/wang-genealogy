@@ -4,7 +4,7 @@ id: p_dYvesHGaNSpz9Ka2BbFuMc
 status: active
 merged_into: null
 display_name: 王紹慶
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_s2ZPInU2Cj4suwVFEn42z9
+        subject_person_id: p_dYvesHGaNSpz9Ka2BbFuMc
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ta8pYvh21Mshiz7bDub18m
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aFRZUYnk2l9oAoKIHPK6Lo
+          claim_id: c_s2ZPInU2Cj4suwVFEn42z9
+          source_id: s_Q_Ey_vSIomS7owtkwEUUXu
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 512725 王廷慶）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Q_Ey_vSIomS7owtkwEUUXu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王紹慶（CBDB 512724）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=512724&o=json
+            external_identifier: CBDB:512724
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ta8pYvh21Mshiz7bDub18m
+        status: active
+        display_name: 王廷慶
+        merged_into_person_id: null
 ---
 
 # 王紹慶
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_ta8pYvh21Mshiz7bDub18m | 王廷慶 | accepted |
 
 ## 外部来源
 

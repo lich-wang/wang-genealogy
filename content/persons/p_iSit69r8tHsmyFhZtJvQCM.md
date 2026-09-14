@@ -4,7 +4,7 @@ id: p_iSit69r8tHsmyFhZtJvQCM
 status: active
 merged_into: null
 display_name: 王徽
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,43 @@ relationships:
         status: active
         display_name: 王可立
         merged_into_person_id: null
+    - claim:
+        id: c_lEkwht__L2ukuGmDyHkTIQ
+        subject_person_id: p_iSit69r8tHsmyFhZtJvQCM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_a7whYXgQ2hjoDJ2SK1Xq92
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SwTCi37JehqC0FeXDxm4R1
+          claim_id: c_lEkwht__L2ukuGmDyHkTIQ
+          source_id: s_c27UCGeQocRjOP8OZZJ-Mc
+          stance: supports
+          locator: CBDB：兄弟 王可立（204430）之父／母 王徽
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王可久 与 王可立 为同胞（CBDB 记「弟」），王可立 之父／母即 王可久 之父／母。
+          source:
+            id: s_c27UCGeQocRjOP8OZZJ-Mc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王可久（CBDB 318956）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318956&o=json
+            external_identifier: CBDB:318956
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_a7whYXgQ2hjoDJ2SK1Xq92
+        status: active
+        display_name: 王可久
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_KwmWMeiQjGEdzbLEyCiVBf | 王可立 | accepted |
+| children | p_a7whYXgQ2hjoDJ2SK1Xq92 | 王可久 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王徽（CBDB 318950）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318950&o=json)
+- [中国历代人物传记资料库：王可久（CBDB 318956）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318956&o=json)

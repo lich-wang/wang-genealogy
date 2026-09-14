@@ -4,7 +4,7 @@ id: p_LH26wNU5A1mxpo4iK4N5Kd
 status: active
 merged_into: null
 display_name: 王瑗
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_wztG7kqbxftfc2NTdbPwuY
+        subject_person_id: p_vi9ZDtvEhQ6sUw3P3TjQzS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LH26wNU5A1mxpo4iK4N5Kd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cVOrZjg7UhSZGDPze_kP0m
+          claim_id: c_wztG7kqbxftfc2NTdbPwuY
+          source_id: s_a28JDFuEOGOFlUWFFUlPeU
+          stance: supports
+          locator: CBDB：兄弟 王瑫（126779）之父／母 王鞏謙
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王瑗 与 王瑫 为同胞（CBDB 记「弟」），王瑫 之父／母即 王瑗 之父／母。
+          source:
+            id: s_a28JDFuEOGOFlUWFFUlPeU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑗（CBDB 255907）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255907&o=json
+            external_identifier: CBDB:255907
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vi9ZDtvEhQ6sUw3P3TjQzS
+        status: active
+        display_name: 王鞏謙
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_8AUGn64dfrXtqMhWSzF1Xa
+        subject_person_id: p_2Loswb2HqViVcQmQ8rSFe9
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_LH26wNU5A1mxpo4iK4N5Kd
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_upepfSPSFCkNiQHDHm1uCv
+          claim_id: c_8AUGn64dfrXtqMhWSzF1Xa
+          source_id: s_a28JDFuEOGOFlUWFFUlPeU
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126779 王瑫）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_a28JDFuEOGOFlUWFFUlPeU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑗（CBDB 255907）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255907&o=json
+            external_identifier: CBDB:255907
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2Loswb2HqViVcQmQ8rSFe9
+        status: active
+        display_name: 王瑫
+        merged_into_person_id: null
 ---
 
 # 王瑗
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vi9ZDtvEhQ6sUw3P3TjQzS | 王鞏謙 | accepted |
+| other | p_2Loswb2HqViVcQmQ8rSFe9 | 王瑫 | accepted |
 
 ## 外部来源
 

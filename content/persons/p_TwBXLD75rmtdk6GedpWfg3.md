@@ -4,7 +4,7 @@ id: p_TwBXLD75rmtdk6GedpWfg3
 status: active
 merged_into: null
 display_name: 王經
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Xk8oxyvBEXBTB2GbrzqacT
+        subject_person_id: p_wxFwiJdpNsMZSoX1se45fE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TwBXLD75rmtdk6GedpWfg3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_S-EuQ774njltuADXTETTJU
+          claim_id: c_Xk8oxyvBEXBTB2GbrzqacT
+          source_id: s_q_F3TLd-k0QVRpP1hWWGTk
+          stance: supports
+          locator: CBDB：兄弟 王綸（201264）之父／母 王福
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王經 与 王綸 为同胞（CBDB 记「弟」），王綸 之父／母即 王經 之父／母。
+          source:
+            id: s_q_F3TLd-k0QVRpP1hWWGTk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王經（CBDB 269708）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=269708&o=json
+            external_identifier: CBDB:269708
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wxFwiJdpNsMZSoX1se45fE
+        status: active
+        display_name: 王福
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_sDNE8ShH7PMYTsrHmXuZAQ
+        subject_person_id: p_TwBXLD75rmtdk6GedpWfg3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kET5KeLjgEQ8jqCSugxSSk
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J6FfrdmHyqCYHZFceIIeZS
+          claim_id: c_sDNE8ShH7PMYTsrHmXuZAQ
+          source_id: s_q_F3TLd-k0QVRpP1hWWGTk
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201264 王綸）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_q_F3TLd-k0QVRpP1hWWGTk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王經（CBDB 269708）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=269708&o=json
+            external_identifier: CBDB:269708
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kET5KeLjgEQ8jqCSugxSSk
+        status: active
+        display_name: 王綸
+        merged_into_person_id: null
 ---
 
 # 王經
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wxFwiJdpNsMZSoX1se45fE | 王福 | accepted |
+| other | p_kET5KeLjgEQ8jqCSugxSSk | 王綸 | accepted |
 
 ## 外部来源
 

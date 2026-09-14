@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王弘範
 cbdb_id: 257399
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_EldW6pGsriQDWK6nGhBH7W
+        subject_person_id: p_JRSMPB6yVrvoB4Rsfsm44J
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Lapj5jtB5AXtEr4MGXMdKr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YKalhrGoKNkqXZBb4CRrlc
+          claim_id: c_EldW6pGsriQDWK6nGhBH7W
+          source_id: s_Uzz14pxSQvZux2119WvjQ5
+          stance: supports
+          locator: CBDB：兄弟 王純（126657）之父／母 王懷廣
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王弘範 与 王純 为同胞（CBDB 记「兄」），王純 之父／母即 王弘範 之父／母。
+          source:
+            id: s_Uzz14pxSQvZux2119WvjQ5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王弘範（CBDB 257399）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257399&o=json
+            external_identifier: CBDB:257399
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JRSMPB6yVrvoB4Rsfsm44J
+        status: active
+        display_name: 王懷廣
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_kM6nKXaIytAo1PXQVtypKu
+        subject_person_id: p_Lapj5jtB5AXtEr4MGXMdKr
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mQ1J7fd25Z6UXRPAETHXDi
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rB7_q3EpUnZbdSKBCykOpk
+          claim_id: c_kM6nKXaIytAo1PXQVtypKu
+          source_id: s_Uzz14pxSQvZux2119WvjQ5
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126657 王純）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Uzz14pxSQvZux2119WvjQ5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王弘範（CBDB 257399）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257399&o=json
+            external_identifier: CBDB:257399
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mQ1J7fd25Z6UXRPAETHXDi
+        status: active
+        display_name: 王純
+        merged_into_person_id: null
 ---
 
 # 王弘範
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_JRSMPB6yVrvoB4Rsfsm44J | 王懷廣 | accepted |
+| other | p_mQ1J7fd25Z6UXRPAETHXDi | 王純 | accepted |
 
 ## 外部来源
 

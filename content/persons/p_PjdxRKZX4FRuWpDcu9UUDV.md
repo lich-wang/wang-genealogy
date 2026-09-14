@@ -4,7 +4,7 @@ id: p_PjdxRKZX4FRuWpDcu9UUDV
 status: active
 merged_into: null
 display_name: 王聆
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_xftA34cxadci5-DW10JVeq
+        subject_person_id: p_5J7f6wYMRMxs7athYCFm1K
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PjdxRKZX4FRuWpDcu9UUDV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_114WTQMQmePYytIIAde23q
+          claim_id: c_xftA34cxadci5-DW10JVeq
+          source_id: s_tBEAPfSSafOFvKBrv1PDAm
+          stance: supports
+          locator: CBDB：兄弟 王職（206108）之父／母 王永臣
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王聆 与 王職 为同胞（CBDB 记「弟」），王職 之父／母即 王聆 之父／母。
+          source:
+            id: s_tBEAPfSSafOFvKBrv1PDAm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王聆（CBDB 213413）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213413&o=json
+            external_identifier: CBDB:213413
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5J7f6wYMRMxs7athYCFm1K
+        status: active
+        display_name: 王永臣
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_8Vobx8-yyt3ZI5V9FWJdzR
+        subject_person_id: p_PjdxRKZX4FRuWpDcu9UUDV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_UuFL1gAwG68QUD39E4M5Wh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3dldEBCsxirxHhtzGtW8qe
+          claim_id: c_8Vobx8-yyt3ZI5V9FWJdzR
+          source_id: s_tBEAPfSSafOFvKBrv1PDAm
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206108 王職）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_tBEAPfSSafOFvKBrv1PDAm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王聆（CBDB 213413）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213413&o=json
+            external_identifier: CBDB:213413
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_UuFL1gAwG68QUD39E4M5Wh
+        status: active
+        display_name: 王職
+        merged_into_person_id: null
 ---
 
 # 王聆
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5J7f6wYMRMxs7athYCFm1K | 王永臣 | accepted |
+| other | p_UuFL1gAwG68QUD39E4M5Wh | 王職 | accepted |
 
 ## 外部来源
 

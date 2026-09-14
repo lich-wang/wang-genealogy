@@ -4,7 +4,7 @@ id: p_7kTVFUC7XFEmstH2h6JYzx
 status: active
 merged_into: null
 display_name: 王鈍
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_VK54GxMw4bwlx8MOc9kWng
+        subject_person_id: p_xJckw5M7s3953PwfjKtPgj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7kTVFUC7XFEmstH2h6JYzx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ua5zFx9V2R9bD4GQCErkCh
+          claim_id: c_VK54GxMw4bwlx8MOc9kWng
+          source_id: s_ZDKKq7SAv_k5G8HHKNRxSC
+          stance: supports
+          locator: CBDB：兄弟 王惠（200679）之父／母 王東溪
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鈍 与 王惠 为同胞（CBDB 记「弟」），王惠 之父／母即 王鈍 之父／母。
+          source:
+            id: s_ZDKKq7SAv_k5G8HHKNRxSC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鈍（CBDB 261342）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261342&o=json
+            external_identifier: CBDB:261342
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xJckw5M7s3953PwfjKtPgj
+        status: active
+        display_name: 王東溪
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ZbW4eR0oSh0DiEyDMvupsK
+        subject_person_id: p_7kTVFUC7XFEmstH2h6JYzx
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Z5nYxV4Tqg6P2c2jCvDNPx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ewLuTPqlO2lG-hjxYHesc0
+          claim_id: c_ZbW4eR0oSh0DiEyDMvupsK
+          source_id: s_ZDKKq7SAv_k5G8HHKNRxSC
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200679 王惠）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ZDKKq7SAv_k5G8HHKNRxSC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鈍（CBDB 261342）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261342&o=json
+            external_identifier: CBDB:261342
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Z5nYxV4Tqg6P2c2jCvDNPx
+        status: active
+        display_name: 王惠
+        merged_into_person_id: null
 ---
 
 # 王鈍
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xJckw5M7s3953PwfjKtPgj | 王東溪 | accepted |
+| other | p_Z5nYxV4Tqg6P2c2jCvDNPx | 王惠 | accepted |
 
 ## 外部来源
 

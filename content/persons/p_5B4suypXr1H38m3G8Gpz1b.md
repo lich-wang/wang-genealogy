@@ -4,7 +4,7 @@ id: p_5B4suypXr1H38m3G8Gpz1b
 status: active
 merged_into: null
 display_name: 王貴
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,80 @@ relationships:
         status: active
         display_name: 王應詔
         merged_into_person_id: null
+    - claim:
+        id: c_IzjTloXss3K-4HgUovHnZ9
+        subject_person_id: p_5B4suypXr1H38m3G8Gpz1b
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ERswM4QAQbtuLfU6Kz3ufp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__K2cguFxHuSSdKCzrKnNf1
+          claim_id: c_IzjTloXss3K-4HgUovHnZ9
+          source_id: s_gYVKpPcD4_eBi4hz55doLv
+          stance: supports
+          locator: CBDB：兄弟 王應詔（202740）之父／母 王貴
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王用賔 与 王應詔 为同胞（CBDB 记「弟」），王應詔 之父／母即 王用賔 之父／母。
+          source:
+            id: s_gYVKpPcD4_eBi4hz55doLv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用賔（CBDB 293427）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293427&o=json
+            external_identifier: CBDB:293427
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ERswM4QAQbtuLfU6Kz3ufp
+        status: active
+        display_name: 王用賔
+        merged_into_person_id: null
+    - claim:
+        id: c_QttzFVBUAV7eGK9CEnhP7Z
+        subject_person_id: p_5B4suypXr1H38m3G8Gpz1b
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dfeoxAWu5qVKsU6vsvN5Cg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bouNPyg4uJs_a561B9O9CG
+          claim_id: c_QttzFVBUAV7eGK9CEnhP7Z
+          source_id: s_UiMFFA9AJEUGBPhF1lvv4E
+          stance: supports
+          locator: CBDB：兄弟 王應詔（202740）之父／母 王貴
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王士策 与 王應詔 为同胞（CBDB 记「兄」），王應詔 之父／母即 王士策 之父／母。
+          source:
+            id: s_UiMFFA9AJEUGBPhF1lvv4E
+            source_type: api_record
+            title: 中国历代人物传记资料库：王士策（CBDB 293430）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293430&o=json
+            external_identifier: CBDB:293430
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dfeoxAWu5qVKsU6vsvN5Cg
+        status: active
+        display_name: 王士策
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_g1ZQp25f7TDHH92Q6ePC8K | 王應詔 | accepted |
+| children | p_ERswM4QAQbtuLfU6Kz3ufp | 王用賔 | accepted |
+| children | p_dfeoxAWu5qVKsU6vsvN5Cg | 王士策 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王貴（CBDB 293424）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293424&o=json)
+- [中国历代人物传记资料库：王士策（CBDB 293430）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293430&o=json)
+- [中国历代人物传记资料库：王用賔（CBDB 293427）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293427&o=json)

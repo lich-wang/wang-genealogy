@@ -4,7 +4,7 @@ id: p_Rk4ASszNDmrPYo2vAUfdsQ
 status: active
 merged_into: null
 display_name: 王懋中
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,44 @@ relationships:
         display_name: 王大倫
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c__O185hqqP_dvJcs8oL5IOm
+        subject_person_id: p_Rk4ASszNDmrPYo2vAUfdsQ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ZzfDGmnF6XseMxHGRi7K4t
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BKEcIXUEbdwkgDy6I6Rs4v
+          claim_id: c__O185hqqP_dvJcs8oL5IOm
+          source_id: s_r4vS1r34G-GsU54UD4PbAv
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206224 王懋中）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_r4vS1r34G-GsU54UD4PbAv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王懋德（CBDB 215053）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215053&o=json
+            external_identifier: CBDB:215053
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZzfDGmnF6XseMxHGRi7K4t
+        status: active
+        display_name: 王懋德
+        merged_into_person_id: null
 ---
 
 # 王懋中
@@ -241,10 +278,12 @@ relationships:
 | parents | p_ZEKqhiQyVSgqpfakGydWP9 | 王國顯 | accepted |
 | ancestors | p_F8NA6DNMSyjPgtdTfVsijN | 王天錫 | accepted |
 | ancestors | p_xiSLmqzkCzKGqhZ4sTQJzt | 王大倫 | accepted |
+| other | p_ZzfDGmnF6XseMxHGRi7K4t | 王懋德 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王大倫（CBDB 215047）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215047&o=json)
 - [中国历代人物传记资料库：王國顯（CBDB 215049）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215049&o=json)
+- [中国历代人物传记资料库：王懋德（CBDB 215053）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215053&o=json)
 - [中国历代人物传记资料库：王懋中（CBDB 206224）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206224&o=json)
 - [中国历代人物传记资料库：王天錫（CBDB 215046）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215046&o=json)

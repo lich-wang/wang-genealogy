@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王宣清
 cbdb_id: 254948
-revision: 2
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -113,6 +113,117 @@ relationships:
         status: active
         display_name: 王機
         merged_into_person_id: null
+    - claim:
+        id: c_GY2Dk7v-TRy87eaUlLXC1e
+        subject_person_id: p_h8sJHgEUaQHScKxtt1BkuB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PKLtpPAo6poSetxCuJo41k
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XXeMvVKByQP1P7upayRyOG
+          claim_id: c_GY2Dk7v-TRy87eaUlLXC1e
+          source_id: s_hVWIGhUcp53HP3Zu-u8dST
+          stance: supports
+          locator: CBDB：兄弟 王機（200214）之父／母 王宣清
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王椐 与 王機 为同胞（CBDB 记「兄」），王機 之父／母即 王椐 之父／母。
+          source:
+            id: s_hVWIGhUcp53HP3Zu-u8dST
+            source_type: api_record
+            title: 中国历代人物传记资料库：王椐（CBDB 254954）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254954&o=json
+            external_identifier: CBDB:254954
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PKLtpPAo6poSetxCuJo41k
+        status: active
+        display_name: 王椐
+        merged_into_person_id: null
+    - claim:
+        id: c_I5kDBRM79POVTRhTrSDCNo
+        subject_person_id: p_h8sJHgEUaQHScKxtt1BkuB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_S96tZ7d3dKfu3Hc5ofu6ZH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dUnvC2FtvKKHLjqhFjSRfj
+          claim_id: c_I5kDBRM79POVTRhTrSDCNo
+          source_id: s_SEWqfYkbMw_oyqwvHFGIOQ
+          stance: supports
+          locator: CBDB：兄弟 王機（200214）之父／母 王宣清
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王柌 与 王機 为同胞（CBDB 记「兄」），王機 之父／母即 王柌 之父／母。
+          source:
+            id: s_SEWqfYkbMw_oyqwvHFGIOQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王柌（CBDB 254953）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254953&o=json
+            external_identifier: CBDB:254953
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_S96tZ7d3dKfu3Hc5ofu6ZH
+        status: active
+        display_name: 王柌
+        merged_into_person_id: null
+    - claim:
+        id: c_8-rqFlK6gBuhKGB5XaKbKL
+        subject_person_id: p_h8sJHgEUaQHScKxtt1BkuB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iWeMomEw1RbNhWSYdX7awh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RMSNwJAfkep6GiQU2oUwCl
+          claim_id: c_8-rqFlK6gBuhKGB5XaKbKL
+          source_id: s_oX2K1rR4GHA761Crdh6lm9
+          stance: supports
+          locator: CBDB：兄弟 王機（200214）之父／母 王宣清
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王柏 与 王機 为同胞（CBDB 记「弟」），王機 之父／母即 王柏 之父／母。
+          source:
+            id: s_oX2K1rR4GHA761Crdh6lm9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王柏（CBDB 254952）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254952&o=json
+            external_identifier: CBDB:254952
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_iWeMomEw1RbNhWSYdX7awh
+        status: active
+        display_name: 王柏
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -137,8 +248,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_G8UB9fUGo95gK5v77Cu4Q6 | 王機 | accepted |
+| children | p_PKLtpPAo6poSetxCuJo41k | 王椐 | accepted |
+| children | p_S96tZ7d3dKfu3Hc5ofu6ZH | 王柌 | accepted |
+| children | p_iWeMomEw1RbNhWSYdX7awh | 王柏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王柏（CBDB 254952）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254952&o=json)
+- [中国历代人物传记资料库：王柌（CBDB 254953）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254953&o=json)
 - [中国历代人物传记资料库：王機（CBDB 200214）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200214&o=json)
+- [中国历代人物传记资料库：王椐（CBDB 254954）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254954&o=json)
 - [中国历代人物传记资料库：王宣清（CBDB 254948）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254948&o=json)

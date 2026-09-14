@@ -4,7 +4,7 @@ id: p_kVCSYsdy5sn4L4NNEMKcyf
 status: active
 merged_into: null
 display_name: 王元斌
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -116,7 +116,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_vWgKXmCPAfinhAl_lcL3f8
+        subject_person_id: p_LSBYNf67v8rpKrgTycu8xZ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kVCSYsdy5sn4L4NNEMKcyf
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MELLWr-67WpJIJhYfRERtT
+          claim_id: c_vWgKXmCPAfinhAl_lcL3f8
+          source_id: s_0ChDSJSWGHW13w-OXN1QQA
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 701080 王元斌）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0ChDSJSWGHW13w-OXN1QQA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元穉（CBDB 341786）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=341786&o=json
+            external_identifier: CBDB:341786
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_LSBYNf67v8rpKrgTycu8xZ
+        status: active
+        display_name: 王元穉
+        merged_into_person_id: null
 ---
 
 # 王元斌
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_c1bRD4P2CFm7Gm43GrchAK | 王脩玉 | accepted |
+| other | p_LSBYNf67v8rpKrgTycu8xZ | 王元穉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王脩玉（CBDB 700752）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700752&o=json)
 - [中国历代人物传记资料库：王元斌（CBDB 701080）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=701080&o=json)
+- [中国历代人物传记资料库：王元穉（CBDB 341786）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=341786&o=json)

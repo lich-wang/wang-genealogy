@@ -4,7 +4,7 @@ id: p_dU6PvGgbaH45Bh79md732t
 status: active
 merged_into: null
 display_name: 王彥隆
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,118 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_LrTnu9VeDzJ8FyfmoNnqcV
+        subject_person_id: p_dU6PvGgbaH45Bh79md732t
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BjAKSxmjc8djxRBT2DFZjB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_EVksiPoV2ndnkbz_xJIf2m
+          claim_id: c_LrTnu9VeDzJ8FyfmoNnqcV
+          source_id: s_jQ0PXvc-hMIBcMI4ut_zj4
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 17821）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_jQ0PXvc-hMIBcMI4ut_zj4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王萬裕（CBDB 36117）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36117&o=json
+            external_identifier: CBDB:36117
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BjAKSxmjc8djxRBT2DFZjB
+        status: active
+        display_name: 王萬裕
+        merged_into_person_id: null
+    - claim:
+        id: c_RvuX9gFwXcefaPR2ebmn4r
+        subject_person_id: p_dU6PvGgbaH45Bh79md732t
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_r28xZqjot7YozbDLYTpmY3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_jF3qncsBplfTsYckHDar_w
+          claim_id: c_RvuX9gFwXcefaPR2ebmn4r
+          source_id: s_4jnSQ75Ysk9GqwG-oLgYGE
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 17821）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_4jnSQ75Ysk9GqwG-oLgYGE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王萬章（CBDB 36115）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36115&o=json
+            external_identifier: CBDB:36115
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_r28xZqjot7YozbDLYTpmY3
+        status: active
+        display_name: 王萬章
+        merged_into_person_id: null
+    - claim:
+        id: c_5BBLWvpG7N65c8PhqjW5X5
+        subject_person_id: p_dU6PvGgbaH45Bh79md732t
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_srg7VyGZuEpckmhLcbkQ8x
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_GDM_KyUVje_-nvxoPYdSRL
+          claim_id: c_5BBLWvpG7N65c8PhqjW5X5
+          source_id: s_ogD2T0SAepuBzYoMe9kCXk
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 17821）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_ogD2T0SAepuBzYoMe9kCXk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王萬夫（CBDB 36116）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36116&o=json
+            external_identifier: CBDB:36116
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_srg7VyGZuEpckmhLcbkQ8x
+        status: active
+        display_name: 王萬夫
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -181,8 +292,14 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_BjAKSxmjc8djxRBT2DFZjB | 王萬裕 | accepted |
+| children | p_r28xZqjot7YozbDLYTpmY3 | 王萬章 | accepted |
+| children | p_srg7VyGZuEpckmhLcbkQ8x | 王萬夫 | accepted |
 | ancestors | p_5QEFg5NX8fdCTZoicRnKAT | 王韶 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王萬夫（CBDB 36116）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36116&o=json)
+- [中国历代人物传记资料库：王萬裕（CBDB 36117）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36117&o=json)
+- [中国历代人物传记资料库：王萬章（CBDB 36115）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36115&o=json)
 - [中国历代人物传记资料库：王彥隆（CBDB 17821）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17821&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王希佐
 cbdb_id: 315376
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_A-uGoU0PYiJCLVVFsWY1IP
+        subject_person_id: p_uAujjG392SPymDDHoGZN88
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_G6aLsWXSmZW6hMNSaoQ5VW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qfs5f4o1GNiHRkIPl5gliS
+          claim_id: c_A-uGoU0PYiJCLVVFsWY1IP
+          source_id: s_6VZGLwhQb0lleD7UU6YDd7
+          stance: supports
+          locator: CBDB：兄弟 王希烈（126546）之父／母 王廷望
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王希佐 与 王希烈 为同胞（CBDB 记「兄」），王希烈 之父／母即 王希佐 之父／母。
+          source:
+            id: s_6VZGLwhQb0lleD7UU6YDd7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王希佐（CBDB 315376）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315376&o=json
+            external_identifier: CBDB:315376
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_uAujjG392SPymDDHoGZN88
+        status: active
+        display_name: 王廷望
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_90TWBJ5zVaZ59U75-tAVQI
+        subject_person_id: p_G6aLsWXSmZW6hMNSaoQ5VW
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nqXSbp6gt3VE2aHb7rdeET
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nRZIt30e_ID-Dmr4xXy_Ao
+          claim_id: c_90TWBJ5zVaZ59U75-tAVQI
+          source_id: s_6VZGLwhQb0lleD7UU6YDd7
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126546 王希烈）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_6VZGLwhQb0lleD7UU6YDd7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王希佐（CBDB 315376）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315376&o=json
+            external_identifier: CBDB:315376
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nqXSbp6gt3VE2aHb7rdeET
+        status: active
+        display_name: 王希烈
+        merged_into_person_id: null
 ---
 
 # 王希佐
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_uAujjG392SPymDDHoGZN88 | 王廷望 | accepted |
+| other | p_nqXSbp6gt3VE2aHb7rdeET | 王希烈 | accepted |
 
 ## 外部来源
 

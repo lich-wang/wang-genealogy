@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王恪亭
 cbdb_id: 526829
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -81,7 +81,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_bNYTQ4gn6liqiv3lKum2HX
+        subject_person_id: p_jJpSp75MVxBxr7MACduWs3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_pEdGRSnHAWXvL7ekoq9irm
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q_yp-qhJ8qp67N3esPy5As
+          claim_id: c_bNYTQ4gn6liqiv3lKum2HX
+          source_id: s_Gbjg0MeRwABIcbdyNxiQ4A
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 69290 王家賓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Gbjg0MeRwABIcbdyNxiQ4A
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恪亭（CBDB 526829）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526829&o=json
+            external_identifier: CBDB:526829
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_pEdGRSnHAWXvL7ekoq9irm
+        status: active
+        display_name: 王家賓
+        merged_into_person_id: null
 ---
 
 # 王恪亭
@@ -99,6 +136,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_pEdGRSnHAWXvL7ekoq9irm | 王家賓 | accepted |
 
 ## 外部来源
 

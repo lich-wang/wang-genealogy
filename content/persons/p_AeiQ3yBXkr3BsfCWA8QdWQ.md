@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王世長
 cbdb_id: 37408
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,7 +74,81 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_gdnfVDZN06hNWGAwnkFw1K
+        subject_person_id: p_HmkBbL3A8MpbWct9UhADAQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AeiQ3yBXkr3BsfCWA8QdWQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_ZETJI4rN5pLx_4ai8DELv9
+          claim_id: c_gdnfVDZN06hNWGAwnkFw1K
+          source_id: s_kwsEQaXzPK3rm007QYfSdE
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 26364）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_kwsEQaXzPK3rm007QYfSdE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世長（CBDB 37408）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37408&o=json
+            external_identifier: CBDB:37408
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HmkBbL3A8MpbWct9UhADAQ
+        status: active
+        display_name: 王中正
+        merged_into_person_id: null
+    - claim:
+        id: c_Oj1NhgipkxbPNTnlGHEmIN
+        subject_person_id: p_dTS2S2ii7KBfBH17rTzSn5
+        claim_kind: relationship
+        predicate: kinship.mother_of
+        object_person_id: p_AeiQ3yBXkr3BsfCWA8QdWQ
+        generation_count: null
+        parent_role: mother
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_tblr1-1NSx5-hNcM9XUGTV
+          claim_id: c_Oj1NhgipkxbPNTnlGHEmIN
+          source_id: s_kwsEQaXzPK3rm007QYfSdE
+          stance: supports
+          locator: CBDB 亲属：母（KinPerson 38174）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_kwsEQaXzPK3rm007QYfSdE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世長（CBDB 37408）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37408&o=json
+            external_identifier: CBDB:37408
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dTS2S2ii7KBfBH17rTzSn5
+        status: active
+        display_name: 施氏
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_HmkBbL3A8MpbWct9UhADAQ | 王中正 | accepted |
+| parents | p_dTS2S2ii7KBfBH17rTzSn5 | 施氏 | accepted |
 
 ## 外部来源
 

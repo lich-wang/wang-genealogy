@@ -4,7 +4,7 @@ id: p_cBGCXtQ6wkhv554viPc99n
 status: active
 merged_into: null
 display_name: 王文德
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -137,6 +137,43 @@ relationships:
         id: p_moE7rJDFp2R9Aac3W4FxPZ
         status: active
         display_name: 王友亮
+        merged_into_person_id: null
+    - claim:
+        id: c_2TuMfj-v3N62tt0qJ4OSyk
+        subject_person_id: p_cBGCXtQ6wkhv554viPc99n
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FfVHT416uDZJd2Zz4UfCuv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CaHUE-UrEomqQhZkNmPNMF
+          claim_id: c_2TuMfj-v3N62tt0qJ4OSyk
+          source_id: s_2_C9tp_VochkI0noZwZxkU
+          stance: supports
+          locator: CBDB：兄弟 王友亮（58603）之父／母 王文德
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王廷亨 与 王友亮 为同胞（CBDB 记「弟」），王友亮 之父／母即 王廷亨 之父／母。
+          source:
+            id: s_2_C9tp_VochkI0noZwZxkU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷亨（CBDB 517396）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=517396&o=json
+            external_identifier: CBDB:517396
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FfVHT416uDZJd2Zz4UfCuv
+        status: active
+        display_name: 王廷亨
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
@@ -304,6 +341,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_pfkAJ6LT6dUqP7JHbgQTA7 | 王廷言 | accepted |
 | children | p_moE7rJDFp2R9Aac3W4FxPZ | 王友亮 | accepted |
+| children | p_FfVHT416uDZJd2Zz4UfCuv | 王廷亨 | accepted |
 | ancestors | p_oXsn4KEBt43c38UqC37ERZ | 王啟仁 | accepted |
 | descendants | p_8SfbNUa9c5K4NMLzzfdGZb | 王汝成 | accepted |
 | descendants | p_Q7ggBttVytDDHAgopL9CKb | 王鳳生 | accepted |
@@ -313,5 +351,6 @@ relationships:
 ## 外部来源
 
 - [中国历代人物传记资料库：王汝成（CBDB 696858）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696858&o=json)
+- [中国历代人物传记资料库：王廷亨（CBDB 517396）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=517396&o=json)
 - [中国历代人物传记资料库：王文德（CBDB 696857）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696857&o=json)
 - [中国历代人物传记资料库：王友亮（CBDB 58603）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=58603&o=json)

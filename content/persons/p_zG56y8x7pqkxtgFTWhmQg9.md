@@ -4,7 +4,7 @@ id: p_zG56y8x7pqkxtgFTWhmQg9
 status: active
 merged_into: null
 display_name: 王誼
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,44 @@ relationships:
         display_name: 王采
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_c3Nb0kXvF63m7GX-SyEuI7
+        subject_person_id: p_g5bi22C4Ho2YzmRhDdv7VD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zG56y8x7pqkxtgFTWhmQg9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Gk7OFQN57SUO-BeKmdm9tT
+          claim_id: c_c3Nb0kXvF63m7GX-SyEuI7
+          source_id: s_8JBMTS07OT5-qEL6YwFUqj
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 338659 王誼）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_8JBMTS07OT5-qEL6YwFUqj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王謨（CBDB 313218）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313218&o=json
+            external_identifier: CBDB:313218
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_g5bi22C4Ho2YzmRhDdv7VD
+        status: active
+        display_name: 王謨
+        merged_into_person_id: null
 ---
 
 # 王誼
@@ -240,10 +277,12 @@ relationships:
 | parents | p_CX91KvfdeRt8fZYDwoqM3n | 王逵 | accepted |
 | ancestors | p_5dr458nf32Cw3FG7c7kKvd | 王弘 | accepted |
 | ancestors | p_YBSqYaVfnPx98ed1MMRx1Z | 王采 | accepted |
+| other | p_g5bi22C4Ho2YzmRhDdv7VD | 王謨 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王采（CBDB 313162）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313162&o=json)
 - [中国历代人物传记资料库：王弘（CBDB 313173）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313173&o=json)
 - [中国历代人物传记资料库：王逵（CBDB 313184）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313184&o=json)
+- [中国历代人物传记资料库：王謨（CBDB 313218）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313218&o=json)
 - [中国历代人物传记资料库：王誼（CBDB 338659）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338659&o=json)

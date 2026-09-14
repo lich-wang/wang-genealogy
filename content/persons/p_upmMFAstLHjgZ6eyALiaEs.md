@@ -4,7 +4,7 @@ id: p_upmMFAstLHjgZ6eyALiaEs
 status: active
 merged_into: null
 display_name: 王顯
-revision: 4
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,155 @@ relationships:
         display_name: 王汝為
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_o3NHntKpL1uSXi9VEfGJap
+        subject_person_id: p_5CL4Wu3NXG9SDC4HABb7b5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_upmMFAstLHjgZ6eyALiaEs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HdPUn5FMzkwmtuMaxqejql
+          claim_id: c_o3NHntKpL1uSXi9VEfGJap
+          source_id: s_AcGiE0soEZHi1ysiMxY130
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198552 王顯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_AcGiE0soEZHi1ysiMxY130
+            source_type: api_record
+            title: 中国历代人物传记资料库：王亨（CBDB 261998）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261998&o=json
+            external_identifier: CBDB:261998
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5CL4Wu3NXG9SDC4HABb7b5
+        status: active
+        display_name: 王亨
+        merged_into_person_id: null
+    - claim:
+        id: c_DXLKzO6sKtpUzCqCbeqZDy
+        subject_person_id: p_9doFnakix3pR8ZuH19dCpz
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_upmMFAstLHjgZ6eyALiaEs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_go9NmvYdMTIDYJiTlgnuaH
+          claim_id: c_DXLKzO6sKtpUzCqCbeqZDy
+          source_id: s_vdSKJIjGbaJr3w7Ruu7qgh
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198552 王顯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_vdSKJIjGbaJr3w7Ruu7qgh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑞（CBDB 262000）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262000&o=json
+            external_identifier: CBDB:262000
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9doFnakix3pR8ZuH19dCpz
+        status: active
+        display_name: 王瑞
+        merged_into_person_id: null
+    - claim:
+        id: c_HM8SaSA5hGoKUPxwdDvfu1
+        subject_person_id: p_F1dDe3PyFQrT9iTGfXubC5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_upmMFAstLHjgZ6eyALiaEs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hVY8IsDQhwW30qHA9pdyge
+          claim_id: c_HM8SaSA5hGoKUPxwdDvfu1
+          source_id: s_hQjTySkisn8Esyz4U1WnGt
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198552 王顯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hQjTySkisn8Esyz4U1WnGt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昌（CBDB 261996）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261996&o=json
+            external_identifier: CBDB:261996
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_F1dDe3PyFQrT9iTGfXubC5
+        status: active
+        display_name: 王昌
+        merged_into_person_id: null
+    - claim:
+        id: c_q4N4wGY2mmY6dirAqySeME
+        subject_person_id: p_KoJBbuqBnB7yzcpthMhzSh
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_upmMFAstLHjgZ6eyALiaEs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2-zlREMB3JcMQybwpRMSEx
+          claim_id: c_q4N4wGY2mmY6dirAqySeME
+          source_id: s_KixqWyH6gy2Ve82AZSFnWj
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198552 王顯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_KixqWyH6gy2Ve82AZSFnWj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王盛（CBDB 261997）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261997&o=json
+            external_identifier: CBDB:261997
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KoJBbuqBnB7yzcpthMhzSh
+        status: active
+        display_name: 王盛
+        merged_into_person_id: null
 ---
 
 # 王顯
@@ -240,10 +388,18 @@ relationships:
 | parents | p_Kk6HtmUPLWpRJz2JGAVP8C | 王常 | accepted |
 | ancestors | p_MxjAUiWBNpbJEtL1inDQQE | 王思敬 | accepted |
 | ancestors | p_VynyhNxLVZm8KKMYzz5BcS | 王汝為 | accepted |
+| other | p_5CL4Wu3NXG9SDC4HABb7b5 | 王亨 | accepted |
+| other | p_9doFnakix3pR8ZuH19dCpz | 王瑞 | accepted |
+| other | p_F1dDe3PyFQrT9iTGfXubC5 | 王昌 | accepted |
+| other | p_KoJBbuqBnB7yzcpthMhzSh | 王盛 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王昌（CBDB 261996）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261996&o=json)
 - [中国历代人物传记资料库：王常（CBDB 287119）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287119&o=json)
+- [中国历代人物传记资料库：王亨（CBDB 261998）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261998&o=json)
 - [中国历代人物传记资料库：王汝為（CBDB 261989）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261989&o=json)
+- [中国历代人物传记资料库：王瑞（CBDB 262000）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262000&o=json)
+- [中国历代人物传记资料库：王盛（CBDB 261997）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261997&o=json)
 - [中国历代人物传记资料库：王思敬（CBDB 261988）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261988&o=json)
 - [中国历代人物传记资料库：王顯（CBDB 198552）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198552&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王宗載
 cbdb_id: 205060
-revision: 4
+revision: 7
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,118 @@ relationships:
         display_name: 王大有
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_bNg5v5DQ4wH3FMTaMcqXKR
+        subject_person_id: p_83M4S6LSBa4M4jXRGQmSBC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_jmQBNF2thuLTj5CEgg4gFw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2r0q2HaljHA7pVnPV0vTHk
+          claim_id: c_bNg5v5DQ4wH3FMTaMcqXKR
+          source_id: s_yH9h2JwtzJquvgHoFeNszA
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205060 王宗載）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_yH9h2JwtzJquvgHoFeNszA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗望（CBDB 327781）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327781&o=json
+            external_identifier: CBDB:327781
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_83M4S6LSBa4M4jXRGQmSBC
+        status: active
+        display_name: 王宗望
+        merged_into_person_id: null
+    - claim:
+        id: c_XYn1U5l_95iWckufTFkGKp
+        subject_person_id: p_WvTEYXjECGEySzokYhtECv
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_jmQBNF2thuLTj5CEgg4gFw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tSGoWRlwvlklVtSd1RFTAb
+          claim_id: c_XYn1U5l_95iWckufTFkGKp
+          source_id: s_MF_iXamIayVdfbS8dca1LJ
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205060 王宗載）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_MF_iXamIayVdfbS8dca1LJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗衡（CBDB 327782）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327782&o=json
+            external_identifier: CBDB:327782
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_WvTEYXjECGEySzokYhtECv
+        status: active
+        display_name: 王宗衡
+        merged_into_person_id: null
+    - claim:
+        id: c_1jCi2FL-qGyCK7fITukIaG
+        subject_person_id: p_f69Yokz5wguTmH3dGi1udf
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_jmQBNF2thuLTj5CEgg4gFw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-k24QoeRyI1D3pxIUAElKD
+          claim_id: c_1jCi2FL-qGyCK7fITukIaG
+          source_id: s_37sCNkQaX0Jp7jz7ZohIU8
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205060 王宗載）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_37sCNkQaX0Jp7jz7ZohIU8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗可（CBDB 327780）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327780&o=json
+            external_identifier: CBDB:327780
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_f69Yokz5wguTmH3dGi1udf
+        status: active
+        display_name: 王宗可
+        merged_into_person_id: null
 ---
 
 # 王宗載
@@ -257,10 +368,16 @@ relationships:
 | parents | p_fHWLZSGPRrVehEZSh8KThr | 王宋 | accepted |
 | ancestors | p_ye61hDgNCR4CMA9GFi1cdB | 王希旦 | accepted |
 | ancestors | p_ysj9zCMvPkKZNwe25QEque | 王大有 | accepted |
+| other | p_83M4S6LSBa4M4jXRGQmSBC | 王宗望 | accepted |
+| other | p_WvTEYXjECGEySzokYhtECv | 王宗衡 | accepted |
+| other | p_f69Yokz5wguTmH3dGi1udf | 王宗可 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王大有（CBDB 327773）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327773&o=json)
 - [中国历代人物传记资料库：王宋（CBDB 327776）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327776&o=json)
 - [中国历代人物传记资料库：王希旦（CBDB 327772）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327772&o=json)
+- [中国历代人物传记资料库：王宗衡（CBDB 327782）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327782&o=json)
+- [中国历代人物传记资料库：王宗可（CBDB 327780）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327780&o=json)
+- [中国历代人物传记资料库：王宗望（CBDB 327781）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327781&o=json)
 - [中国历代人物传记资料库：王宗載（CBDB 205060）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205060&o=json)

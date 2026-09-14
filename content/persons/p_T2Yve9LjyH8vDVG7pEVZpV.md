@@ -4,7 +4,7 @@ id: p_T2Yve9LjyH8vDVG7pEVZpV
 status: active
 merged_into: null
 display_name: 王徽
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_pjEy4LzxX4HnpPbR0AeN3j
+        subject_person_id: p_pgR8SLxunnSi6qPKCxtHNt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_T2Yve9LjyH8vDVG7pEVZpV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YWGjln5R7xi0zgWc31iaGz
+          claim_id: c_pjEy4LzxX4HnpPbR0AeN3j
+          source_id: s_HlvYwmQTaSW6bpWFicX4lp
+          stance: supports
+          locator: CBDB：兄弟 王復（67655）之父／母 王騏
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王徽 与 王復 为同胞（CBDB 记「弟」），王復 之父／母即 王徽 之父／母。
+          source:
+            id: s_HlvYwmQTaSW6bpWFicX4lp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王徽（CBDB 237580）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237580&o=json
+            external_identifier: CBDB:237580
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_pgR8SLxunnSi6qPKCxtHNt
+        status: active
+        display_name: 王騏
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_unZfayKFB9LEZBS7t80vJj
+        subject_person_id: p_Koi5WJ5jcXbBAKpaCrntSB
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_T2Yve9LjyH8vDVG7pEVZpV
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Grgi513s9ENR51uJ6F2Ewx
+          claim_id: c_unZfayKFB9LEZBS7t80vJj
+          source_id: s_HlvYwmQTaSW6bpWFicX4lp
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 67655 王復）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_HlvYwmQTaSW6bpWFicX4lp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王徽（CBDB 237580）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237580&o=json
+            external_identifier: CBDB:237580
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Koi5WJ5jcXbBAKpaCrntSB
+        status: active
+        display_name: 王復
+        merged_into_person_id: null
 ---
 
 # 王徽
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_pgR8SLxunnSi6qPKCxtHNt | 王騏 | accepted |
+| other | p_Koi5WJ5jcXbBAKpaCrntSB | 王復 | accepted |
 
 ## 外部来源
 

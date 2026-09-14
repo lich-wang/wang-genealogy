@@ -4,7 +4,7 @@ id: p_hdA2EX5rq1DHua8Wnk5XqK
 status: active
 merged_into: null
 display_name: 王鉅
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,44 @@ relationships:
         display_name: 王敬保
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_z1v__cNRAqi_7-5zd0A_w5
+        subject_person_id: p_5fr5i6aUxfem5HbVkKJ9sw
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hdA2EX5rq1DHua8Wnk5XqK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qWwq_fkFEm9GWlKCkJMxIr
+          claim_id: c_z1v__cNRAqi_7-5zd0A_w5
+          source_id: s_9y_1do6w0CogBiBeTcLRhI
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202468 王鉅）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_9y_1do6w0CogBiBeTcLRhI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王傑（CBDB 288688）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288688&o=json
+            external_identifier: CBDB:288688
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5fr5i6aUxfem5HbVkKJ9sw
+        status: active
+        display_name: 王傑
+        merged_into_person_id: null
 ---
 
 # 王鉅
@@ -245,8 +282,10 @@ relationships:
 | spouses | p_1VGuJ3rY25cSKsnvPmgprM | 程氏 | accepted |
 | ancestors | p_Wa16TzeejBWNkkMC2TRyMt | 王文亨 | accepted |
 | ancestors | p_Wo85NXF7XW2GQNrLCR4xWi | 王敬保 | accepted |
+| other | p_5fr5i6aUxfem5HbVkKJ9sw | 王傑 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：程氏(王鉅妻)（CBDB 288685）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288685&o=json)
+- [中国历代人物传记资料库：王傑（CBDB 288688）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288688&o=json)
 - [中国历代人物传记资料库：王鉅（CBDB 202468）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202468&o=json)

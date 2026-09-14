@@ -4,7 +4,7 @@ id: p_b5R1So1Z3XLD4KqnNJufMg
 status: active
 merged_into: null
 display_name: 王悅
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_UUgxos4vnS_7BBhKBOz-Nj
+        subject_person_id: p_7G76GCQV5KHCuJQ8PFFbQR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_b5R1So1Z3XLD4KqnNJufMg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_aKGUcE5iedSRjLkkMyMXsb
+          claim_id: c_UUgxos4vnS_7BBhKBOz-Nj
+          source_id: s_UFPQr6bYVtt6PlCkzP0qqS
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 25788）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_UFPQr6bYVtt6PlCkzP0qqS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王悅（CBDB 25789）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25789&o=json
+            external_identifier: CBDB:25789
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7G76GCQV5KHCuJQ8PFFbQR
+        status: active
+        display_name: 王導
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_7G76GCQV5KHCuJQ8PFFbQR | 王導 | accepted |
 
 ## 外部来源
 

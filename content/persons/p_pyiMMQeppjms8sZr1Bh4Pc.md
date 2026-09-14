@@ -4,7 +4,7 @@ id: p_pyiMMQeppjms8sZr1Bh4Pc
 status: active
 merged_into: null
 display_name: 王應麟
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -182,6 +182,43 @@ relationships:
         status: active
         display_name: 王昌世
         merged_into_person_id: null
+    - claim:
+        id: c_ZFPQE6XbhfvzwC9I2Cdu32
+        subject_person_id: p_pyiMMQeppjms8sZr1Bh4Pc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_U9QFgNN4xUyZk7sXhHHQqo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_TiF_732cWOqrA7wE_RnrvP
+          claim_id: c_ZFPQE6XbhfvzwC9I2Cdu32
+          source_id: s_yFatirQFI9XirZaZ6CM1CP
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 19880）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_yFatirQFI9XirZaZ6CM1CP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王良學（CBDB 22229）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22229&o=json
+            external_identifier: CBDB:22229
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_U9QFgNN4xUyZk7sXhHHQqo
+        status: active
+        display_name: 王良學
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -209,7 +246,9 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_UKZ9JENMUQXopMywb8jsK4 | 王撝 | accepted |
 | children | p_t4oJJoq5VUoSCrFbsBSSMm | 王昌世 | accepted |
+| children | p_U9QFgNN4xUyZk7sXhHHQqo | 王良學 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王良學（CBDB 22229）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22229&o=json)
 - [中国历代人物传记资料库：王應麟（CBDB 19880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19880&o=json)

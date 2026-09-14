@@ -4,7 +4,7 @@ id: p_o16nJWCknTU23jEgQqsW2B
 status: active
 merged_into: null
 display_name: 王瑛
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Jzb9FI0vtC632iHqm4GrqZ
+        subject_person_id: p_jCmvSEJEzMCfHNSXJ1XAo8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_o16nJWCknTU23jEgQqsW2B
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F332Aq4UxVMce46FN_NMzv
+          claim_id: c_Jzb9FI0vtC632iHqm4GrqZ
+          source_id: s_RGo-EtYYQE-eG-Yz7CncTh
+          stance: supports
+          locator: CBDB：兄弟 王豪（208164）之父／母 王寧
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王瑛 与 王豪 为同胞（CBDB 记「弟」），王豪 之父／母即 王瑛 之父／母。
+          source:
+            id: s_RGo-EtYYQE-eG-Yz7CncTh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑛（CBDB 241294）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241294&o=json
+            external_identifier: CBDB:241294
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jCmvSEJEzMCfHNSXJ1XAo8
+        status: active
+        display_name: 王寧
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Mu0I98Rn7n1LaoROkN5hYs
+        subject_person_id: p_CwH6PHR1XzMwocJ8ZwHSPP
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_o16nJWCknTU23jEgQqsW2B
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_siYv9c-b33zuu7LbcHlGsG
+          claim_id: c_Mu0I98Rn7n1LaoROkN5hYs
+          source_id: s_RGo-EtYYQE-eG-Yz7CncTh
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 208164 王豪）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_RGo-EtYYQE-eG-Yz7CncTh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑛（CBDB 241294）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241294&o=json
+            external_identifier: CBDB:241294
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CwH6PHR1XzMwocJ8ZwHSPP
+        status: active
+        display_name: 王豪
+        merged_into_person_id: null
 ---
 
 # 王瑛
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_jCmvSEJEzMCfHNSXJ1XAo8 | 王寧 | accepted |
+| other | p_CwH6PHR1XzMwocJ8ZwHSPP | 王豪 | accepted |
 
 ## 外部来源
 

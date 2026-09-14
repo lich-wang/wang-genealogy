@@ -4,7 +4,7 @@ id: p_eReJ1uLz4wXetehw7XVZ4d
 status: active
 merged_into: null
 display_name: 王鐐
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -153,7 +153,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c__9ak7aw9KTDBlLsnCSPjs5
+        subject_person_id: p_Xk5MfCGM48nw2y61vCDraD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_eReJ1uLz4wXetehw7XVZ4d
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i1p3UQJK_5c9aEVIeeI67E
+          claim_id: c__9ak7aw9KTDBlLsnCSPjs5
+          source_id: s_JdJogynQqoerSzf7UH-HTV
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 92124 王鐐）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_JdJogynQqoerSzf7UH-HTV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鐸（CBDB 92066）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92066&o=json
+            external_identifier: CBDB:92066
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Xk5MfCGM48nw2y61vCDraD
+        status: active
+        display_name: 王鐸
+        merged_into_person_id: null
 ---
 
 # 王鐐
@@ -173,9 +210,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_6RPHj2j4cH1L4YTjuMhCpn | 王起 | accepted |
 | children | p_1CxHHcR6UoEHhBsMsyBKWC | 王蘋 | accepted |
+| other | p_Xk5MfCGM48nw2y61vCDraD | 王鐸 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鐸（CBDB 92066）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92066&o=json)
 - [中国历代人物传记资料库：王鐐（CBDB 92124）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92124&o=json)
 - [中国历代人物传记资料库：王蘋（CBDB 175921）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=175921&o=json)
 - [中国历代人物传记资料库：王起（CBDB 92061）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92061&o=json)

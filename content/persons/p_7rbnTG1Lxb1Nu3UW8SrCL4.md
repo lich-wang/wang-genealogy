@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王堯甸
 cbdb_id: 222823
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ftHGoigUgcC013OyBU8MgF
+        subject_person_id: p_oruQD3pLHzNQ8AvU3GVazK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7rbnTG1Lxb1Nu3UW8SrCL4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VQCNbHI7gpY8MhkF6oqiHQ
+          claim_id: c_ftHGoigUgcC013OyBU8MgF
+          source_id: s_YRCzwi7tbVx2viwNELoCw3
+          stance: supports
+          locator: CBDB：兄弟 王堯封（126717）之父／母 王維熊
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王堯甸 与 王堯封 为同胞（CBDB 记「兄」），王堯封 之父／母即 王堯甸 之父／母。
+          source:
+            id: s_YRCzwi7tbVx2viwNELoCw3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王堯甸（CBDB 222823）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222823&o=json
+            external_identifier: CBDB:222823
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oruQD3pLHzNQ8AvU3GVazK
+        status: active
+        display_name: 王維熊
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_R1OD_pdm-y-76htEOwYhWi
+        subject_person_id: p_7rbnTG1Lxb1Nu3UW8SrCL4
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_DpuSp4mmLYMfmUMioXctjR
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lQqeU0ToPTpax7dk685NPv
+          claim_id: c_R1OD_pdm-y-76htEOwYhWi
+          source_id: s_YRCzwi7tbVx2viwNELoCw3
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126717 王堯封）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_YRCzwi7tbVx2viwNELoCw3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王堯甸（CBDB 222823）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222823&o=json
+            external_identifier: CBDB:222823
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DpuSp4mmLYMfmUMioXctjR
+        status: active
+        display_name: 王堯封
+        merged_into_person_id: null
 ---
 
 # 王堯甸
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_oruQD3pLHzNQ8AvU3GVazK | 王維熊 | accepted |
+| other | p_DpuSp4mmLYMfmUMioXctjR | 王堯封 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王士彦
 cbdb_id: 307065
-revision: 2
+revision: 11
 properties:
   - predicate: bio.summary
     recommended:
@@ -234,6 +234,339 @@ relationships:
         status: active
         display_name: 王宗性
         merged_into_person_id: null
+    - claim:
+        id: c_KnoWqiYBxQY5kqS3XcUDCT
+        subject_person_id: p_jgqvj6yRuFScRYzYpcimRZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AeKpdPnFuoSy8UsZKjutz3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EplNyGxq2t95NSxNjZlPDM
+          claim_id: c_KnoWqiYBxQY5kqS3XcUDCT
+          source_id: s_YEXFIdbZNe5K6hw4qjyVM6
+          stance: supports
+          locator: CBDB：兄弟 王宗性（203595）之父／母 王士彦
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王宗文 与 王宗性 为同胞（CBDB 记「弟」），王宗性 之父／母即 王宗文 之父／母。
+          source:
+            id: s_YEXFIdbZNe5K6hw4qjyVM6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗文（CBDB 307075）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307075&o=json
+            external_identifier: CBDB:307075
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_AeKpdPnFuoSy8UsZKjutz3
+        status: active
+        display_name: 王宗文
+        merged_into_person_id: null
+    - claim:
+        id: c_IjF5kMOvdJYGWM21wvaIN4
+        subject_person_id: p_jgqvj6yRuFScRYzYpcimRZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ES6fVGAmVRKDWKSC3sDkPc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uZjH6KsUCLNxcHN1B375m6
+          claim_id: c_IjF5kMOvdJYGWM21wvaIN4
+          source_id: s_aARlbiNBq2--W3bx2PoXgd
+          stance: supports
+          locator: CBDB：兄弟 王宗性（203595）之父／母 王士彦
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王宗武 与 王宗性 为同胞（CBDB 记「弟」），王宗性 之父／母即 王宗武 之父／母。
+          source:
+            id: s_aARlbiNBq2--W3bx2PoXgd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗武（CBDB 307076）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307076&o=json
+            external_identifier: CBDB:307076
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ES6fVGAmVRKDWKSC3sDkPc
+        status: active
+        display_name: 王宗武
+        merged_into_person_id: null
+    - claim:
+        id: c_Xvn_fRd2_TpltyxvK6N0qX
+        subject_person_id: p_jgqvj6yRuFScRYzYpcimRZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dBR4fU4nmeNQaLtEzVEPhK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ym9Sme9ePQjji4zoASPiZ8
+          claim_id: c_Xvn_fRd2_TpltyxvK6N0qX
+          source_id: s_JOO6tyT5ySWNJxT54AdB7A
+          stance: supports
+          locator: CBDB：兄弟 王宗性（203595）之父／母 王士彦
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王宗續 与 王宗性 为同胞（CBDB 记「弟」），王宗性 之父／母即 王宗續 之父／母。
+          source:
+            id: s_JOO6tyT5ySWNJxT54AdB7A
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗續（CBDB 307072）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307072&o=json
+            external_identifier: CBDB:307072
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dBR4fU4nmeNQaLtEzVEPhK
+        status: active
+        display_name: 王宗續
+        merged_into_person_id: null
+    - claim:
+        id: c_kPLKwvisPMpSyhCtYsOpiM
+        subject_person_id: p_jgqvj6yRuFScRYzYpcimRZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eu4LQ2FyTMckH3c72FdZfs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AoIhlMIGOVbr9BTraP6vNP
+          claim_id: c_kPLKwvisPMpSyhCtYsOpiM
+          source_id: s_ZNR_SaVybvbR1Za0P7pANF
+          stance: supports
+          locator: CBDB：兄弟 王宗性（203595）之父／母 王士彦
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王宗哲 与 王宗性 为同胞（CBDB 记「弟」），王宗性 之父／母即 王宗哲 之父／母。
+          source:
+            id: s_ZNR_SaVybvbR1Za0P7pANF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗哲（CBDB 307070）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307070&o=json
+            external_identifier: CBDB:307070
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_eu4LQ2FyTMckH3c72FdZfs
+        status: active
+        display_name: 王宗哲
+        merged_into_person_id: null
+    - claim:
+        id: c_1htE8m1xFBZKkPzHCLFWdZ
+        subject_person_id: p_jgqvj6yRuFScRYzYpcimRZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_io3ooxGXfNCYSF3m4cM433
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Uf50qtW0uaMCgycc-A7QP6
+          claim_id: c_1htE8m1xFBZKkPzHCLFWdZ
+          source_id: s_B0NhW6OcYw5EXT5nXPoWfS
+          stance: supports
+          locator: CBDB：兄弟 王宗性（203595）之父／母 王士彦
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王宗敏 与 王宗性 为同胞（CBDB 记「兄」），王宗性 之父／母即 王宗敏 之父／母。
+          source:
+            id: s_B0NhW6OcYw5EXT5nXPoWfS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗敏（CBDB 307077）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307077&o=json
+            external_identifier: CBDB:307077
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_io3ooxGXfNCYSF3m4cM433
+        status: active
+        display_name: 王宗敏
+        merged_into_person_id: null
+    - claim:
+        id: c_CqZZunczCNLwC8nY9sYprT
+        subject_person_id: p_jgqvj6yRuFScRYzYpcimRZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uApmmCrBKzFCgC6NP1hpUK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KRiIsh0NWy3MOFT7OpV0ER
+          claim_id: c_CqZZunczCNLwC8nY9sYprT
+          source_id: s_AetCoPryidawCCG1nS7so5
+          stance: supports
+          locator: CBDB：兄弟 王宗性（203595）之父／母 王士彦
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王宗明 与 王宗性 为同胞（CBDB 记「弟」），王宗性 之父／母即 王宗明 之父／母。
+          source:
+            id: s_AetCoPryidawCCG1nS7so5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗明（CBDB 307071）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307071&o=json
+            external_identifier: CBDB:307071
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_uApmmCrBKzFCgC6NP1hpUK
+        status: active
+        display_name: 王宗明
+        merged_into_person_id: null
+    - claim:
+        id: c_w4ak6bD6OGZHqqP0xvpMw2
+        subject_person_id: p_jgqvj6yRuFScRYzYpcimRZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_w7a8orkaJTtdBTUs96EHNn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ctmG7X8jWB2ptJXhReSnoS
+          claim_id: c_w4ak6bD6OGZHqqP0xvpMw2
+          source_id: s_qQh1JO8fu6KCYaJ5lQxDEL
+          stance: supports
+          locator: CBDB：兄弟 王宗性（203595）之父／母 王士彦
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王宗賢 与 王宗性 为同胞（CBDB 记「弟」），王宗性 之父／母即 王宗賢 之父／母。
+          source:
+            id: s_qQh1JO8fu6KCYaJ5lQxDEL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗賢（CBDB 307069）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307069&o=json
+            external_identifier: CBDB:307069
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_w7a8orkaJTtdBTUs96EHNn
+        status: active
+        display_name: 王宗賢
+        merged_into_person_id: null
+    - claim:
+        id: c_6CIN_-Z43eq9J-WBZXAMKt
+        subject_person_id: p_jgqvj6yRuFScRYzYpcimRZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wc85vRPUK4BvKLCcBWYcH7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QrQlLHWBVvSvc3pYxD-mkf
+          claim_id: c_6CIN_-Z43eq9J-WBZXAMKt
+          source_id: s_f--_21QikDbboERE5vEkVr
+          stance: supports
+          locator: CBDB：兄弟 王宗性（203595）之父／母 王士彦
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王宗業 与 王宗性 为同胞（CBDB 记「弟」），王宗性 之父／母即 王宗業 之父／母。
+          source:
+            id: s_f--_21QikDbboERE5vEkVr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗業（CBDB 307074）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307074&o=json
+            external_identifier: CBDB:307074
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wc85vRPUK4BvKLCcBWYcH7
+        status: active
+        display_name: 王宗業
+        merged_into_person_id: null
+    - claim:
+        id: c_-Dt85aLE1zwdJj4JSF8J07
+        subject_person_id: p_jgqvj6yRuFScRYzYpcimRZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ys6k4xNoKNWa4MPjaTMMPu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GRqjuKeHrE4v_IZvJVrLVP
+          claim_id: c_-Dt85aLE1zwdJj4JSF8J07
+          source_id: s_H0G1ql3-1JC1cZb84fzxe6
+          stance: supports
+          locator: CBDB：兄弟 王宗性（203595）之父／母 王士彦
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王宗遜 与 王宗性 为同胞（CBDB 记「兄」），王宗性 之父／母即 王宗遜 之父／母。
+          source:
+            id: s_H0G1ql3-1JC1cZb84fzxe6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗遜（CBDB 307078）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307078&o=json
+            external_identifier: CBDB:307078
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ys6k4xNoKNWa4MPjaTMMPu
+        status: active
+        display_name: 王宗遜
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -259,10 +592,28 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_7koQzcggkeDLYupbQwieGE | 王璟 | accepted |
 | children | p_ABHWjEscFjoCVEgF2qr4dX | 王宗性 | accepted |
+| children | p_AeKpdPnFuoSy8UsZKjutz3 | 王宗文 | accepted |
+| children | p_ES6fVGAmVRKDWKSC3sDkPc | 王宗武 | accepted |
+| children | p_dBR4fU4nmeNQaLtEzVEPhK | 王宗續 | accepted |
+| children | p_eu4LQ2FyTMckH3c72FdZfs | 王宗哲 | accepted |
+| children | p_io3ooxGXfNCYSF3m4cM433 | 王宗敏 | accepted |
+| children | p_uApmmCrBKzFCgC6NP1hpUK | 王宗明 | accepted |
+| children | p_w7a8orkaJTtdBTUs96EHNn | 王宗賢 | accepted |
+| children | p_wc85vRPUK4BvKLCcBWYcH7 | 王宗業 | accepted |
+| children | p_ys6k4xNoKNWa4MPjaTMMPu | 王宗遜 | accepted |
 
 ## 外部来源
 
 - [维基数据：王璟（Q15929306）](https://www.wikidata.org/wiki/Q15929306)
 - [维基数据：王士彦（Q45573102）](https://www.wikidata.org/wiki/Q45573102)
 - [维基数据：王宗性（Q45458696）](https://www.wikidata.org/wiki/Q45458696)
+- [中国历代人物传记资料库：王宗敏（CBDB 307077）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307077&o=json)
+- [中国历代人物传记资料库：王宗明（CBDB 307071）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307071&o=json)
+- [中国历代人物传记资料库：王宗文（CBDB 307075）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307075&o=json)
+- [中国历代人物传记资料库：王宗武（CBDB 307076）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307076&o=json)
+- [中国历代人物传记资料库：王宗賢（CBDB 307069）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307069&o=json)
+- [中国历代人物传记资料库：王宗續（CBDB 307072）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307072&o=json)
+- [中国历代人物传记资料库：王宗遜（CBDB 307078）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307078&o=json)
+- [中国历代人物传记资料库：王宗業（CBDB 307074）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307074&o=json)
+- [中国历代人物传记资料库：王宗哲（CBDB 307070）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307070&o=json)
 - [CBDB 中国历代人物传记资料库：王士彥（307065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307065&o=json)

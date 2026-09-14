@@ -4,7 +4,7 @@ id: p_eDR6tLPhLCK8UJHjLtEsxB
 status: active
 merged_into: null
 display_name: 王達
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_HN-DgmpUiywOlu8riB-Zl5
+        subject_person_id: p_6viAMHrM5RymA1BEH8cpA3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eDR6tLPhLCK8UJHjLtEsxB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zefWr0vho8PMGzhEBsxmt7
+          claim_id: c_HN-DgmpUiywOlu8riB-Zl5
+          source_id: s_WWCliI28v2RFV1y9eLjzgp
+          stance: supports
+          locator: CBDB：兄弟 王迪（200444）之父／母 王端
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王達 与 王迪 为同胞（CBDB 记「弟」），王迪 之父／母即 王達 之父／母。
+          source:
+            id: s_WWCliI28v2RFV1y9eLjzgp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王達（CBDB 257948）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257948&o=json
+            external_identifier: CBDB:257948
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6viAMHrM5RymA1BEH8cpA3
+        status: active
+        display_name: 王端
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_iyEtYB50zlgw-mhRI0l7Vv
+        subject_person_id: p_Yi63SwvU3iiXw7LYSrnJmq
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_eDR6tLPhLCK8UJHjLtEsxB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0nYvUPIk-DsZ9jkyROUR6F
+          claim_id: c_iyEtYB50zlgw-mhRI0l7Vv
+          source_id: s_WWCliI28v2RFV1y9eLjzgp
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200444 王迪）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_WWCliI28v2RFV1y9eLjzgp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王達（CBDB 257948）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257948&o=json
+            external_identifier: CBDB:257948
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Yi63SwvU3iiXw7LYSrnJmq
+        status: active
+        display_name: 王迪
+        merged_into_person_id: null
 ---
 
 # 王達
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_6viAMHrM5RymA1BEH8cpA3 | 王端 | accepted |
+| other | p_Yi63SwvU3iiXw7LYSrnJmq | 王迪 | accepted |
 
 ## 外部来源
 

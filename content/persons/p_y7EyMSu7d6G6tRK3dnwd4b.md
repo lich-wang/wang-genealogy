@@ -4,7 +4,7 @@ id: p_y7EyMSu7d6G6tRK3dnwd4b
 status: active
 merged_into: null
 display_name: 王澤
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,80 @@ relationships:
         status: active
         display_name: 王問
         merged_into_person_id: null
+    - claim:
+        id: c_24Cr_NHcvuZ_9vNm3Plxbk
+        subject_person_id: p_y7EyMSu7d6G6tRK3dnwd4b
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KiNkPP3iEABYbFUC75o3nF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NAjxhVsHw_EmsZWr2cLVJs
+          claim_id: c_24Cr_NHcvuZ_9vNm3Plxbk
+          source_id: s_5Sr0BGorT3hgoXQIBft6Dp
+          stance: supports
+          locator: CBDB：兄弟 王問（126680）之父／母 王澤
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王咨 与 王問 为同胞（CBDB 记「兄」），王問 之父／母即 王咨 之父／母。
+          source:
+            id: s_5Sr0BGorT3hgoXQIBft6Dp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王咨（CBDB 298842）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298842&o=json
+            external_identifier: CBDB:298842
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KiNkPP3iEABYbFUC75o3nF
+        status: active
+        display_name: 王咨
+        merged_into_person_id: null
+    - claim:
+        id: c_MS1pqy45vNeA_G37W69-d-
+        subject_person_id: p_y7EyMSu7d6G6tRK3dnwd4b
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_d9CFodbc3LrLmn8gXkEgFg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7ayiWTTbbpzHtn5YQDyITV
+          claim_id: c_MS1pqy45vNeA_G37W69-d-
+          source_id: s_MbmpJtQR-xaFiV7TMbi-oS
+          stance: supports
+          locator: CBDB：兄弟 王問（126680）之父／母 王澤
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王召 与 王問 为同胞（CBDB 记「弟」），王問 之父／母即 王召 之父／母。
+          source:
+            id: s_MbmpJtQR-xaFiV7TMbi-oS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王召（CBDB 298841）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298841&o=json
+            external_identifier: CBDB:298841
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_d9CFodbc3LrLmn8gXkEgFg
+        status: active
+        display_name: 王召
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_yBv5FsmN9BCFNm7cQbu6uG | 王問 | accepted |
+| children | p_KiNkPP3iEABYbFUC75o3nF | 王咨 | accepted |
+| children | p_d9CFodbc3LrLmn8gXkEgFg | 王召 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王澤（CBDB 298837）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298837&o=json)
+- [中国历代人物传记资料库：王召（CBDB 298841）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298841&o=json)
+- [中国历代人物传记资料库：王咨（CBDB 298842）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=298842&o=json)

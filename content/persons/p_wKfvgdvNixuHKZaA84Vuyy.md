@@ -4,7 +4,7 @@ id: p_wKfvgdvNixuHKZaA84Vuyy
 status: active
 merged_into: null
 display_name: 王桂
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_wLpstdmm8CsbTykF74zNMX
+        subject_person_id: p_wKfvgdvNixuHKZaA84Vuyy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_J9zQk9yETuwFDgMrEDaD8Y
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_C2TaZNNRkjUBIYRU59c5vz
+          claim_id: c_wLpstdmm8CsbTykF74zNMX
+          source_id: s_1wWeME5jExvZmOh8CFYuZT
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 38084）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_1wWeME5jExvZmOh8CFYuZT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王武（CBDB 386295）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386295&o=json
+            external_identifier: CBDB:386295
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_J9zQk9yETuwFDgMrEDaD8Y
+        status: active
+        display_name: 王武
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -318,6 +355,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_J9zQk9yETuwFDgMrEDaD8Y | 王武 | accepted |
 | spouses | p_3JiQe736DDPqYdSMXgoqKS | 李氏 | accepted |
 | ancestors | p_YCDC8nWisd4Vn1Hr4hiKmH | 王徽 | accepted |
 | ancestors | p_WNe6hDfHpUq7znyP4H9mA8 | 王師伋 | accepted |
@@ -329,4 +367,5 @@ relationships:
 - [中国历代人物传记资料库：李氏(王桂妻)（CBDB 386288）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386288&o=json)
 - [中国历代人物传记资料库：王桂（CBDB 38084）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38084&o=json)
 - [中国历代人物传记资料库：王坦（CBDB 386305）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386305&o=json)
+- [中国历代人物传记资料库：王武（CBDB 386295）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386295&o=json)
 - [中国历代人物传记资料库：王塤（CBDB 386306）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=386306&o=json)

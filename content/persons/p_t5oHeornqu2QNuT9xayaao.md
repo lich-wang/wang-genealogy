@@ -4,7 +4,7 @@ id: p_t5oHeornqu2QNuT9xayaao
 status: active
 merged_into: null
 display_name: 王英
-revision: 5
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -176,6 +176,80 @@ relationships:
         status: active
         display_name: 王祿
         merged_into_person_id: null
+    - claim:
+        id: c_W-Xwyawy4RCijTw0FDYLCI
+        subject_person_id: p_t5oHeornqu2QNuT9xayaao
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QJg85sEDy4nhnMULVKcQ96
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DNwjggSqme_0qIXF4Q-r_c
+          claim_id: c_W-Xwyawy4RCijTw0FDYLCI
+          source_id: s_6jELS3TAFgp8NLAmVtnLey
+          stance: supports
+          locator: CBDB：兄弟 王祿（199491）之父／母 王英
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王祐 与 王祿 为同胞（CBDB 记「兄」），王祿 之父／母即 王祐 之父／母。
+          source:
+            id: s_6jELS3TAFgp8NLAmVtnLey
+            source_type: api_record
+            title: 中国历代人物传记资料库：王祐（CBDB 245779）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245779&o=json
+            external_identifier: CBDB:245779
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_QJg85sEDy4nhnMULVKcQ96
+        status: active
+        display_name: 王祐
+        merged_into_person_id: null
+    - claim:
+        id: c_oXKgTE0qbbdOvNCj4-OoV5
+        subject_person_id: p_t5oHeornqu2QNuT9xayaao
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vx3T8VwhpKz6o448Z5Jm7Z
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_91LIET9u47azUaEYpNPpIK
+          claim_id: c_oXKgTE0qbbdOvNCj4-OoV5
+          source_id: s_KHJ_qKqIae5YG7SYlR6CUF
+          stance: supports
+          locator: CBDB：兄弟 王祿（199491）之父／母 王英
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王禮 与 王祿 为同胞（CBDB 记「兄」），王祿 之父／母即 王禮 之父／母。
+          source:
+            id: s_KHJ_qKqIae5YG7SYlR6CUF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禮（CBDB 245781）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245781&o=json
+            external_identifier: CBDB:245781
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vx3T8VwhpKz6o448Z5Jm7Z
+        status: active
+        display_name: 王禮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -277,13 +351,17 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_mTzxwAEMxvLCjgbpNJPkQq | 王澤 | accepted |
 | children | p_5CduZYd3M32UzBRfFgkTNy | 王祿 | accepted |
+| children | p_QJg85sEDy4nhnMULVKcQ96 | 王祐 | accepted |
+| children | p_vx3T8VwhpKz6o448Z5Jm7Z | 王禮 | accepted |
 | ancestors | p_w9EeCdWr7R7fFa7UFfopPR | 王克銘 | accepted |
 | ancestors | p_nYBJ8DhUaL2NcKE4G7AVS7 | 王希遠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王克銘（CBDB 237763）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237763&o=json)
+- [中国历代人物传记资料库：王禮（CBDB 245781）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245781&o=json)
 - [中国历代人物传记资料库：王祿（CBDB 199491）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199491&o=json)
 - [中国历代人物传记资料库：王希遠（CBDB 237765）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237765&o=json)
 - [中国历代人物传记资料库：王英（CBDB 207910）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207910&o=json)
+- [中国历代人物传记资料库：王祐（CBDB 245779）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245779&o=json)
 - [中国历代人物传记资料库：王澤（CBDB 237766）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237766&o=json)

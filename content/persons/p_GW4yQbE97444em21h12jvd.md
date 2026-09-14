@@ -4,7 +4,7 @@ id: p_GW4yQbE97444em21h12jvd
 status: active
 merged_into: null
 display_name: 王可久
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_0-FObRC3OkmslaEBGbEtzA
+        subject_person_id: p_WtHSaGmBzhNmmSZGD4ByjL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GW4yQbE97444em21h12jvd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TCOBh4qdiIwZGSzUOLZWxu
+          claim_id: c_0-FObRC3OkmslaEBGbEtzA
+          source_id: s_wOpmx1F3NYMsORVOmkCjLt
+          stance: supports
+          locator: CBDB：兄弟 王可大（126483）之父／母 王鑾
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王可久 与 王可大 为同胞（CBDB 记「弟」），王可大 之父／母即 王可久 之父／母。
+          source:
+            id: s_wOpmx1F3NYMsORVOmkCjLt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王可久（CBDB 315816）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315816&o=json
+            external_identifier: CBDB:315816
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_WtHSaGmBzhNmmSZGD4ByjL
+        status: active
+        display_name: 王鑾
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_sr3EtOsy6mz-LmzaZ66c0R
+        subject_person_id: p_4tfg9oHA8nXBC3KDi6Ftkj
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_GW4yQbE97444em21h12jvd
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1qzQEZM7SIyj7uUAAQsKus
+          claim_id: c_sr3EtOsy6mz-LmzaZ66c0R
+          source_id: s_wOpmx1F3NYMsORVOmkCjLt
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126483 王可大）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_wOpmx1F3NYMsORVOmkCjLt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王可久（CBDB 315816）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315816&o=json
+            external_identifier: CBDB:315816
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4tfg9oHA8nXBC3KDi6Ftkj
+        status: active
+        display_name: 王可大
+        merged_into_person_id: null
 ---
 
 # 王可久
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WtHSaGmBzhNmmSZGD4ByjL | 王鑾 | accepted |
+| other | p_4tfg9oHA8nXBC3KDi6Ftkj | 王可大 | accepted |
 
 ## 外部来源
 

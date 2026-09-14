@@ -4,7 +4,7 @@ id: p_cbYnYQZYQZy71Dxd2nAk58
 status: active
 merged_into: null
 display_name: 王用予
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c__IausQew1mjqfOLZBJqCxw
+        subject_person_id: p_NuNTQZExjKcTBss2PH1NRS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cbYnYQZYQZy71Dxd2nAk58
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-zimoPvQWI9Xmdi9SOyE8J
+          claim_id: c__IausQew1mjqfOLZBJqCxw
+          source_id: s_QTa7f9__DEeYLQbtYoswLj
+          stance: supports
+          locator: CBDB：兄弟 王用賓（202137）之父／母 王懋
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王用予 与 王用賓 为同胞（CBDB 记「兄」），王用賓 之父／母即 王用予 之父／母。
+          source:
+            id: s_QTa7f9__DEeYLQbtYoswLj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用予（CBDB 284145）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284145&o=json
+            external_identifier: CBDB:284145
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NuNTQZExjKcTBss2PH1NRS
+        status: active
+        display_name: 王懋
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_5RHRKAEvgHxJOlDfp-rC9O
+        subject_person_id: p_6BcNKRe82htPqYxnsGXoQy
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_cbYnYQZYQZy71Dxd2nAk58
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UtbSTSDdAG0u7SX7aqHPnm
+          claim_id: c_5RHRKAEvgHxJOlDfp-rC9O
+          source_id: s_QTa7f9__DEeYLQbtYoswLj
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202137 王用賓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_QTa7f9__DEeYLQbtYoswLj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用予（CBDB 284145）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284145&o=json
+            external_identifier: CBDB:284145
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6BcNKRe82htPqYxnsGXoQy
+        status: active
+        display_name: 王用賓
+        merged_into_person_id: null
 ---
 
 # 王用予
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_NuNTQZExjKcTBss2PH1NRS | 王懋 | accepted |
+| other | p_6BcNKRe82htPqYxnsGXoQy | 王用賓 | accepted |
 
 ## 外部来源
 

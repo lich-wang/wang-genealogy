@@ -4,7 +4,7 @@ id: p_3sCXvZnf2K3JGPtkmiPk7P
 status: active
 merged_into: null
 display_name: 王齊
-revision: 3
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,192 @@ relationships:
         display_name: 王牧謙
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_F3QOb4sGefJGpw_s6ZmYbp
+        subject_person_id: p_3sCXvZnf2K3JGPtkmiPk7P
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_HoTeR6NiLikZBQsprSqNQC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dTlNCmc98D3C8Fvut6YIv1
+          claim_id: c_F3QOb4sGefJGpw_s6ZmYbp
+          source_id: s_MeVX1sAXQ8IEn1PO8NX-_t
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198292 王齊）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_MeVX1sAXQ8IEn1PO8NX-_t
+            source_type: api_record
+            title: 中国历代人物传记资料库：王蕩（CBDB 252991）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252991&o=json
+            external_identifier: CBDB:252991
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HoTeR6NiLikZBQsprSqNQC
+        status: active
+        display_name: 王蕩
+        merged_into_person_id: null
+    - claim:
+        id: c_F0ChN9Lz6eZE366o_DSAeq
+        subject_person_id: p_3sCXvZnf2K3JGPtkmiPk7P
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_KQQbkA9tXwvNw47yGBx6Jg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HR-myALkTGuwLwlNwtyK83
+          claim_id: c_F0ChN9Lz6eZE366o_DSAeq
+          source_id: s_ze9mOGeYccJsvTM3N7j2lA
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198292 王齊）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ze9mOGeYccJsvTM3N7j2lA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王縝（CBDB 253035）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253035&o=json
+            external_identifier: CBDB:253035
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KQQbkA9tXwvNw47yGBx6Jg
+        status: active
+        display_name: 王縝
+        merged_into_person_id: null
+    - claim:
+        id: c_0U3hQKuqj5cFXWjQImQN9n
+        subject_person_id: p_3sCXvZnf2K3JGPtkmiPk7P
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ZS7hV2qKy5RdfA9dLvzwpE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9dnhAGpl0NEilEwKLzJQSK
+          claim_id: c_0U3hQKuqj5cFXWjQImQN9n
+          source_id: s_WQPbSjjDZwQV02yNT6oq7P
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198292 王齊）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_WQPbSjjDZwQV02yNT6oq7P
+            source_type: api_record
+            title: 中国历代人物传记资料库：王徽（CBDB 253013）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253013&o=json
+            external_identifier: CBDB:253013
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZS7hV2qKy5RdfA9dLvzwpE
+        status: active
+        display_name: 王徽
+        merged_into_person_id: null
+    - claim:
+        id: c_HE_Y8_9ZtonQ-NYf619-09
+        subject_person_id: p_3sCXvZnf2K3JGPtkmiPk7P
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mqnjJjN3pAFwnMTNBoT7ck
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HSM9KVvJfXvUt7E4UahQ8L
+          claim_id: c_HE_Y8_9ZtonQ-NYf619-09
+          source_id: s_D14al2Uk7IrT1quAh6DfJh
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198292 王齊）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_D14al2Uk7IrT1quAh6DfJh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王平（CBDB 253024）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253024&o=json
+            external_identifier: CBDB:253024
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mqnjJjN3pAFwnMTNBoT7ck
+        status: active
+        display_name: 王平
+        merged_into_person_id: null
+    - claim:
+        id: c_1obQzYWbI7TilHbbNYK-cL
+        subject_person_id: p_3sCXvZnf2K3JGPtkmiPk7P
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qh6HnmoBoLuDbeGD9ubHGt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__VcsB7ULGEGgNJArgFDvvH
+          claim_id: c_1obQzYWbI7TilHbbNYK-cL
+          source_id: s_skP-fZ_ZfFvuMujhHTBTsk
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198292 王齊）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_skP-fZ_ZfFvuMujhHTBTsk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王慥（CBDB 253002）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253002&o=json
+            external_identifier: CBDB:253002
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qh6HnmoBoLuDbeGD9ubHGt
+        status: active
+        display_name: 王慥
+        merged_into_person_id: null
 ---
 
 # 王齊
@@ -245,8 +430,18 @@ relationships:
 | spouses | p_uD3JDrMXJ7KRE1Tx7Yq158 | 豐氏 | accepted |
 | ancestors | p_rtD6bGUYxh1w6MBByvNhUR | 王維哲 | accepted |
 | ancestors | p_hmTpA85PrqjnHjTecd3hGY | 王牧謙 | accepted |
+| other | p_HoTeR6NiLikZBQsprSqNQC | 王蕩 | accepted |
+| other | p_KQQbkA9tXwvNw47yGBx6Jg | 王縝 | accepted |
+| other | p_ZS7hV2qKy5RdfA9dLvzwpE | 王徽 | accepted |
+| other | p_mqnjJjN3pAFwnMTNBoT7ck | 王平 | accepted |
+| other | p_qh6HnmoBoLuDbeGD9ubHGt | 王慥 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：豐氏(王齊妻)（CBDB 252980）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252980&o=json)
+- [中国历代人物传记资料库：王縝（CBDB 253035）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253035&o=json)
+- [中国历代人物传记资料库：王蕩（CBDB 252991）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252991&o=json)
+- [中国历代人物传记资料库：王徽（CBDB 253013）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253013&o=json)
+- [中国历代人物传记资料库：王平（CBDB 253024）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253024&o=json)
 - [中国历代人物传记资料库：王齊（CBDB 198292）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198292&o=json)
+- [中国历代人物传记资料库：王慥（CBDB 253002）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253002&o=json)

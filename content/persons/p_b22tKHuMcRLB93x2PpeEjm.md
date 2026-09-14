@@ -4,7 +4,7 @@ id: p_b22tKHuMcRLB93x2PpeEjm
 status: active
 merged_into: null
 display_name: 王鍾
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_MgRnyxQWntgK5c4NlLdPiB
+        subject_person_id: p_A6QxRDJCCFin64JkXSiALi
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_b22tKHuMcRLB93x2PpeEjm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q6EVfIXHttHhx7owJ1bpWm
+          claim_id: c_MgRnyxQWntgK5c4NlLdPiB
+          source_id: s_hRRelSrri-eP-7_AWANIWv
+          stance: supports
+          locator: CBDB：兄弟 王鈺（126767）之父／母 王堂
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鍾 与 王鈺 为同胞（CBDB 记「弟」），王鈺 之父／母即 王鍾 之父／母。
+          source:
+            id: s_hRRelSrri-eP-7_AWANIWv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鍾（CBDB 286466）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=286466&o=json
+            external_identifier: CBDB:286466
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_A6QxRDJCCFin64JkXSiALi
+        status: active
+        display_name: 王堂
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_t_h1EQsQKDyrB9-MoyHpmu
+        subject_person_id: p_b22tKHuMcRLB93x2PpeEjm
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_rzQDNnMKSBa8nJNVJmieoC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cR2hsQJztIPV3DQLDPRBez
+          claim_id: c_t_h1EQsQKDyrB9-MoyHpmu
+          source_id: s_hRRelSrri-eP-7_AWANIWv
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126767 王鈺）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hRRelSrri-eP-7_AWANIWv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鍾（CBDB 286466）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=286466&o=json
+            external_identifier: CBDB:286466
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rzQDNnMKSBa8nJNVJmieoC
+        status: active
+        display_name: 王鈺
+        merged_into_person_id: null
 ---
 
 # 王鍾
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_A6QxRDJCCFin64JkXSiALi | 王堂 | accepted |
+| other | p_rzQDNnMKSBa8nJNVJmieoC | 王鈺 | accepted |
 
 ## 外部来源
 

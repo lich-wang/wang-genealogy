@@ -4,7 +4,7 @@ id: p_EoJk1Y5s39yxBJTaiKbEQe
 status: active
 merged_into: null
 display_name: 王昊
-revision: 3
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,192 @@ relationships:
         display_name: 王添勝
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_XTHhDKrPxm5E0s8yDUQByu
+        subject_person_id: p_6M4HVWJcfPdnrou8i4MDus
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_EoJk1Y5s39yxBJTaiKbEQe
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Y4mOVT8YArCK9h6yDXLLMq
+          claim_id: c_XTHhDKrPxm5E0s8yDUQByu
+          source_id: s_hvuEDm6Hjf5BGQCMzJhLPq
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200990 王昊）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hvuEDm6Hjf5BGQCMzJhLPq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王潮（CBDB 265674）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265674&o=json
+            external_identifier: CBDB:265674
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6M4HVWJcfPdnrou8i4MDus
+        status: active
+        display_name: 王潮
+        merged_into_person_id: null
+    - claim:
+        id: c_NUpzNSueTkiHvvDpEOLvYS
+        subject_person_id: p_EoJk1Y5s39yxBJTaiKbEQe
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_GpCeMqr77DJz3vuKGSCddh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cHyLJJX0lEnmHP5EkBWWdA
+          claim_id: c_NUpzNSueTkiHvvDpEOLvYS
+          source_id: s_pCtIJw5FwRujEHVNvmHFAL
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200990 王昊）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_pCtIJw5FwRujEHVNvmHFAL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王洪（CBDB 265672）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265672&o=json
+            external_identifier: CBDB:265672
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GpCeMqr77DJz3vuKGSCddh
+        status: active
+        display_name: 王洪
+        merged_into_person_id: null
+    - claim:
+        id: c_mui48RLqwR8mXslxYg_eYa
+        subject_person_id: p_EoJk1Y5s39yxBJTaiKbEQe
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_PCHc8haH6HepKbDig5Gxtg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_z5UdwkWjA2fDIx7LfJuU8V
+          claim_id: c_mui48RLqwR8mXslxYg_eYa
+          source_id: s_6ObIC9Hr6_Zw2SujSQsg6C
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200990 王昊）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_6ObIC9Hr6_Zw2SujSQsg6C
+            source_type: api_record
+            title: 中国历代人物传记资料库：王潤（CBDB 265675）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265675&o=json
+            external_identifier: CBDB:265675
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PCHc8haH6HepKbDig5Gxtg
+        status: active
+        display_name: 王潤
+        merged_into_person_id: null
+    - claim:
+        id: c_3BJSKUPbwBbO5aKARmJyHl
+        subject_person_id: p_EoJk1Y5s39yxBJTaiKbEQe
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_X8FVL1x3K1cGDDJ4h9uCZs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6d71gtjv9oVwqUpdSZJfoM
+          claim_id: c_3BJSKUPbwBbO5aKARmJyHl
+          source_id: s_0e0UX0T_niKpzhxVXUzpG4
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200990 王昊）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0e0UX0T_niKpzhxVXUzpG4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王湖（CBDB 265673）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265673&o=json
+            external_identifier: CBDB:265673
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_X8FVL1x3K1cGDDJ4h9uCZs
+        status: active
+        display_name: 王湖
+        merged_into_person_id: null
+    - claim:
+        id: c_6975JZG1xciPxVblk7tD7z
+        subject_person_id: p_EoJk1Y5s39yxBJTaiKbEQe
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zeW711oJeLWgrfVdMmfSUw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nmwQ69VDOvS3ZvPqwJEoyh
+          claim_id: c_6975JZG1xciPxVblk7tD7z
+          source_id: s_oWGic9cG1wEucdX4-dLtDy
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200990 王昊）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_oWGic9cG1wEucdX4-dLtDy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王澗（CBDB 265676）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265676&o=json
+            external_identifier: CBDB:265676
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zeW711oJeLWgrfVdMmfSUw
+        status: active
+        display_name: 王澗
+        merged_into_person_id: null
 ---
 
 # 王昊
@@ -245,8 +430,18 @@ relationships:
 | spouses | p_aSdPG8ycM3vnoeBgDgVbHK | 許氏 | accepted |
 | ancestors | p_evzD6qcskC5Si9w9ieb42z | 王思誠 | accepted |
 | ancestors | p_JyC3UvQ5oVNT52HSy7kSZc | 王添勝 | accepted |
+| other | p_6M4HVWJcfPdnrou8i4MDus | 王潮 | accepted |
+| other | p_GpCeMqr77DJz3vuKGSCddh | 王洪 | accepted |
+| other | p_PCHc8haH6HepKbDig5Gxtg | 王潤 | accepted |
+| other | p_X8FVL1x3K1cGDDJ4h9uCZs | 王湖 | accepted |
+| other | p_zeW711oJeLWgrfVdMmfSUw | 王澗 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王潮（CBDB 265674）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265674&o=json)
 - [中国历代人物传记资料库：王昊（CBDB 200990）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200990&o=json)
+- [中国历代人物传记资料库：王洪（CBDB 265672）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265672&o=json)
+- [中国历代人物传记资料库：王湖（CBDB 265673）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265673&o=json)
+- [中国历代人物传记资料库：王澗（CBDB 265676）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265676&o=json)
+- [中国历代人物传记资料库：王潤（CBDB 265675）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265675&o=json)
 - [中国历代人物传记资料库：許氏(王昊妻)（CBDB 265671）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265671&o=json)

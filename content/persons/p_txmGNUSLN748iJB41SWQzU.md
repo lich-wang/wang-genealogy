@@ -4,7 +4,7 @@ id: p_txmGNUSLN748iJB41SWQzU
 status: active
 merged_into: null
 display_name: 王致祥
-revision: 4
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -246,7 +246,155 @@ relationships:
         display_name: 王懋
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Q6U9tYoIvcndkuOc_Tor0v
+        subject_person_id: p_EQ4tHaUCsGa3AaHh8rhFAz
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_txmGNUSLN748iJB41SWQzU
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jU8Zr6sDLo8mstMxxzVsKj
+          claim_id: c_Q6U9tYoIvcndkuOc_Tor0v
+          source_id: s_Zrc-xO2GwficyI-t4Nfb-K
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126646 王致祥）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Zrc-xO2GwficyI-t4Nfb-K
+            source_type: api_record
+            title: 中国历代人物传记资料库：王致中（CBDB 212069）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212069&o=json
+            external_identifier: CBDB:212069
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EQ4tHaUCsGa3AaHh8rhFAz
+        status: active
+        display_name: 王致中
+        merged_into_person_id: null
+    - claim:
+        id: c_fDHwxv-HmvLruMDSMR5jOO
+        subject_person_id: p_YyZ8kzZipn24meCF2Ez4Sz
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_txmGNUSLN748iJB41SWQzU
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7zcb6_QwGwMC0vUKeQ5cGm
+          claim_id: c_fDHwxv-HmvLruMDSMR5jOO
+          source_id: s_ZeY9oGUDS1dzUXNBGNQMcM
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126646 王致祥）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ZeY9oGUDS1dzUXNBGNQMcM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王致和（CBDB 212072）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212072&o=json
+            external_identifier: CBDB:212072
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_YyZ8kzZipn24meCF2Ez4Sz
+        status: active
+        display_name: 王致和
+        merged_into_person_id: null
+    - claim:
+        id: c_XbUGUo38gD5xpLvFzF8rja
+        subject_person_id: p_kPZF67eMJT61N8b7yt6vV7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_txmGNUSLN748iJB41SWQzU
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vTkEF2Abjfiek1vz2OzIIY
+          claim_id: c_XbUGUo38gD5xpLvFzF8rja
+          source_id: s_xTtd0IacbLUMlY5KB9hrzP
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126646 王致祥）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_xTtd0IacbLUMlY5KB9hrzP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王致道（CBDB 212073）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212073&o=json
+            external_identifier: CBDB:212073
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kPZF67eMJT61N8b7yt6vV7
+        status: active
+        display_name: 王致道
+        merged_into_person_id: null
+    - claim:
+        id: c_pMiWSxWz9WyptTB8SCHVqw
+        subject_person_id: p_oahH9X97SvRFkB1UsSLFgx
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_txmGNUSLN748iJB41SWQzU
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_a08N--7w0nuRmurGOl7Si1
+          claim_id: c_pMiWSxWz9WyptTB8SCHVqw
+          source_id: s_Ox4Us6h1M9X53wPXBYrDM6
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126646 王致祥）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Ox4Us6h1M9X53wPXBYrDM6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王國勳（CBDB 212071）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212071&o=json
+            external_identifier: CBDB:212071
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oahH9X97SvRFkB1UsSLFgx
+        status: active
+        display_name: 王國勳
+        merged_into_person_id: null
 ---
 
 # 王致祥
@@ -269,10 +417,18 @@ relationships:
 | parents | p_fhHf3Ju1yjz535vtqX8da8 | 王金 | accepted |
 | ancestors | p_1mLdDgpxj23zTcm4MRc5MF | 王永 | accepted |
 | ancestors | p_YonJAznChqqmsAQ6CTYGne | 王懋 | accepted |
+| other | p_EQ4tHaUCsGa3AaHh8rhFAz | 王致中 | accepted |
+| other | p_YyZ8kzZipn24meCF2Ez4Sz | 王致和 | accepted |
+| other | p_kPZF67eMJT61N8b7yt6vV7 | 王致道 | accepted |
+| other | p_oahH9X97SvRFkB1UsSLFgx | 王國勳 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王國勳（CBDB 212071）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212071&o=json)
 - [中国历代人物传记资料库：王金（CBDB 212066）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212066&o=json)
 - [中国历代人物传记资料库：王懋（CBDB 212065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212065&o=json)
 - [中国历代人物传记资料库：王永（CBDB 212064）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212064&o=json)
+- [中国历代人物传记资料库：王致道（CBDB 212073）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212073&o=json)
+- [中国历代人物传记资料库：王致和（CBDB 212072）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212072&o=json)
 - [中国历代人物传记资料库：王致祥（CBDB 126646）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126646&o=json)
+- [中国历代人物传记资料库：王致中（CBDB 212069）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212069&o=json)

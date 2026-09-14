@@ -4,7 +4,7 @@ id: p_b3no6xB4KP7FfBPDkS7J6d
 status: active
 merged_into: null
 display_name: 王應灝
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_gOlskNyxjEXIJhDe_y_4jR
+        subject_person_id: p_aGpmco9tD9XrB5EjuLVL4K
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_b3no6xB4KP7FfBPDkS7J6d
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ge8Sx1BBLCKUDTMCnbUydH
+          claim_id: c_gOlskNyxjEXIJhDe_y_4jR
+          source_id: s_CtkOHzarVkP6UwKowH-eO8
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 692157 王應超）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_CtkOHzarVkP6UwKowH-eO8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應灝（CBDB 692158）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=692158&o=json
+            external_identifier: CBDB:692158
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aGpmco9tD9XrB5EjuLVL4K
+        status: active
+        display_name: 王應超
+        merged_into_person_id: null
 ---
 
 # 王應灝
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_aGpmco9tD9XrB5EjuLVL4K | 王應超 | accepted |
 
 ## 外部来源
 

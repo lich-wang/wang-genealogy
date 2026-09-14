@@ -4,7 +4,7 @@ id: p_12DEVgMDKmXWxrfKEnUPE7
 status: active
 merged_into: null
 display_name: 王琅
-revision: 2
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,154 @@ relationships:
         status: active
         display_name: 王衡
         merged_into_person_id: null
+    - claim:
+        id: c_TjUbAJjt_sqm4yamnjJBXB
+        subject_person_id: p_12DEVgMDKmXWxrfKEnUPE7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5ysJaM9Wr5oVoCo55864Fo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Jhsk_N4klcbu30g3XT1WzX
+          claim_id: c_TjUbAJjt_sqm4yamnjJBXB
+          source_id: s_Lo1_LGIWMfcXwrYIVTA3Cs
+          stance: supports
+          locator: CBDB：兄弟 王衡（124006）之父／母 王琅
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王勣 与 王衡 为同胞（CBDB 记「弟」），王衡 之父／母即 王勣 之父／母。
+          source:
+            id: s_Lo1_LGIWMfcXwrYIVTA3Cs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王勣（CBDB 217237）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217237&o=json
+            external_identifier: CBDB:217237
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5ysJaM9Wr5oVoCo55864Fo
+        status: active
+        display_name: 王勣
+        merged_into_person_id: null
+    - claim:
+        id: c_F0HkTloODUBMm768ehNJNC
+        subject_person_id: p_12DEVgMDKmXWxrfKEnUPE7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TwZjG25iBgeMPFsGDBpeu8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_veCV6Q4zW9HafT4KWyoYHV
+          claim_id: c_F0HkTloODUBMm768ehNJNC
+          source_id: s_oZSfE_-CDYusQFBJezWfQ1
+          stance: supports
+          locator: CBDB：兄弟 王衡（124006）之父／母 王琅
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王勉宜 与 王衡 为同胞（CBDB 记「兄」），王衡 之父／母即 王勉宜 之父／母。
+          source:
+            id: s_oZSfE_-CDYusQFBJezWfQ1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王勉宜（CBDB 217259）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217259&o=json
+            external_identifier: CBDB:217259
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_TwZjG25iBgeMPFsGDBpeu8
+        status: active
+        display_name: 王勉宜
+        merged_into_person_id: null
+    - claim:
+        id: c_Ac7IgG4_gZB63mD7d_0ZNJ
+        subject_person_id: p_12DEVgMDKmXWxrfKEnUPE7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xVKY7KvYN9zv7pvkuAt8xf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_w2aPxiEfEcwH3_L4WEE3oq
+          claim_id: c_Ac7IgG4_gZB63mD7d_0ZNJ
+          source_id: s_6EBqgu-bzHJxxArMEvAX-7
+          stance: supports
+          locator: CBDB：兄弟 王衡（124006）之父／母 王琅
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王勉新 与 王衡 为同胞（CBDB 记「弟」），王衡 之父／母即 王勉新 之父／母。
+          source:
+            id: s_6EBqgu-bzHJxxArMEvAX-7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王勉新（CBDB 217248）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217248&o=json
+            external_identifier: CBDB:217248
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xVKY7KvYN9zv7pvkuAt8xf
+        status: active
+        display_name: 王勉新
+        merged_into_person_id: null
+    - claim:
+        id: c_f0ZBj9fttEtsQjyMSPwuSk
+        subject_person_id: p_12DEVgMDKmXWxrfKEnUPE7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zgCoPqxLm18aKQ5gsrpuhw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8etKtLffBfahpmumitgaKT
+          claim_id: c_f0ZBj9fttEtsQjyMSPwuSk
+          source_id: s_dJD0utoeyNDrRZu6T8xhFo
+          stance: supports
+          locator: CBDB：兄弟 王衡（124006）之父／母 王琅
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王勉哲 与 王衡 为同胞（CBDB 记「弟」），王衡 之父／母即 王勉哲 之父／母。
+          source:
+            id: s_dJD0utoeyNDrRZu6T8xhFo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王勉哲（CBDB 217226）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217226&o=json
+            external_identifier: CBDB:217226
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zgCoPqxLm18aKQ5gsrpuhw
+        status: active
+        display_name: 王勉哲
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +272,15 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_JL51TddY85M5VjjQdk9Dbd | 王衡 | accepted |
+| children | p_5ysJaM9Wr5oVoCo55864Fo | 王勣 | accepted |
+| children | p_TwZjG25iBgeMPFsGDBpeu8 | 王勉宜 | accepted |
+| children | p_xVKY7KvYN9zv7pvkuAt8xf | 王勉新 | accepted |
+| children | p_zgCoPqxLm18aKQ5gsrpuhw | 王勉哲 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王勣（CBDB 217237）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217237&o=json)
 - [中国历代人物传记资料库：王琅（CBDB 217181）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217181&o=json)
+- [中国历代人物传记资料库：王勉新（CBDB 217248）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217248&o=json)
+- [中国历代人物传记资料库：王勉宜（CBDB 217259）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217259&o=json)
+- [中国历代人物传记资料库：王勉哲（CBDB 217226）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217226&o=json)

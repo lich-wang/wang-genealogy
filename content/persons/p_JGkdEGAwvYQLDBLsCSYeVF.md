@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王有性
 cbdb_id: 249010
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_TMCTSWJZ0yRWeipaXvimkt
+        subject_person_id: p_pEywX39NWKUq9nsDk1FUH7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JGkdEGAwvYQLDBLsCSYeVF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LSalnOmNgoVf8cGgLT8-02
+          claim_id: c_TMCTSWJZ0yRWeipaXvimkt
+          source_id: s_JYj5o2rfUMPE9v9viQ-Ojz
+          stance: supports
+          locator: CBDB：兄弟 王有恬（199727）之父／母 王明哲
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王有性 与 王有恬 为同胞（CBDB 记「弟」），王有恬 之父／母即 王有性 之父／母。
+          source:
+            id: s_JYj5o2rfUMPE9v9viQ-Ojz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王有性（CBDB 249010）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249010&o=json
+            external_identifier: CBDB:249010
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_pEywX39NWKUq9nsDk1FUH7
+        status: active
+        display_name: 王明哲
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_6Qh2vgxrulwjFHg709LzkU
+        subject_person_id: p_JGkdEGAwvYQLDBLsCSYeVF
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_pTZB8fs7H6HDdDBGYmoZTE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_O_8hw3HTOcGbExnLyRvJts
+          claim_id: c_6Qh2vgxrulwjFHg709LzkU
+          source_id: s_JYj5o2rfUMPE9v9viQ-Ojz
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 199727 王有恬）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_JYj5o2rfUMPE9v9viQ-Ojz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王有性（CBDB 249010）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249010&o=json
+            external_identifier: CBDB:249010
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_pTZB8fs7H6HDdDBGYmoZTE
+        status: active
+        display_name: 王有恬
+        merged_into_person_id: null
 ---
 
 # 王有性
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_pEywX39NWKUq9nsDk1FUH7 | 王明哲 | accepted |
+| other | p_pTZB8fs7H6HDdDBGYmoZTE | 王有恬 | accepted |
 
 ## 外部来源
 

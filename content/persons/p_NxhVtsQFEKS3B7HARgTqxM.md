@@ -4,7 +4,7 @@ id: p_NxhVtsQFEKS3B7HARgTqxM
 status: active
 merged_into: null
 display_name: 王褘
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -321,7 +321,44 @@ relationships:
         status: active
         display_name: 王穰
         merged_into_person_id: null
-  other: []
+  other:
+    - claim:
+        id: c_m05rH4SVu_69zBilWCQ3Z5
+        subject_person_id: p_NxhVtsQFEKS3B7HARgTqxM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xTfgwP195usJ93B9R8xhUq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_I6QRvFMBk5mKJp1nQRV8dQ
+          claim_id: c_m05rH4SVu_69zBilWCQ3Z5
+          source_id: s_9UyeB-LrJ9vGwf2Y1yAJex
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 10726 王褘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_9UyeB-LrJ9vGwf2Y1yAJex
+            source_type: api_record
+            title: 中国历代人物传记资料库：王補（CBDB 28107）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28107&o=json
+            external_identifier: CBDB:28107
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xTfgwP195usJ93B9R8xhUq
+        status: active
+        display_name: 王補
+        merged_into_person_id: null
 ---
 
 # 王褘
@@ -346,9 +383,11 @@ relationships:
 | ancestors | p_mp9fqPLVqRaYj9MBorGs2H | 王炎澤 | accepted |
 | descendants | p_T5zYVD6dUKYpz3hzkG2Leq | 王汶 | accepted |
 | descendants | p_bxE16iQMV3ZvduCYN5Z2Cd | 王穰 | accepted |
+| other | p_xTfgwP195usJ93B9R8xhUq | 王補 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王補（CBDB 28107）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28107&o=json)
 - [中国历代人物传记资料库：王褘（CBDB 10726）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10726&o=json)
 - [中国历代人物传记资料库：王良玉（CBDB 10725）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10725&o=json)
 - [中国历代人物传记资料库：王穰（CBDB 437663）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437663&o=json)

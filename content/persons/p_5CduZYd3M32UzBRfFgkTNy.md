@@ -4,7 +4,7 @@ id: p_5CduZYd3M32UzBRfFgkTNy
 status: active
 merged_into: null
 display_name: 王祿
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,81 @@ relationships:
         display_name: 王澤
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_kivh5s8myvbEcK2K7ujsth
+        subject_person_id: p_5CduZYd3M32UzBRfFgkTNy
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_QJg85sEDy4nhnMULVKcQ96
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_K_2ZoOm4fuAVl388u1K5c0
+          claim_id: c_kivh5s8myvbEcK2K7ujsth
+          source_id: s_6jELS3TAFgp8NLAmVtnLey
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199491 王祿）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_6jELS3TAFgp8NLAmVtnLey
+            source_type: api_record
+            title: 中国历代人物传记资料库：王祐（CBDB 245779）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245779&o=json
+            external_identifier: CBDB:245779
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_QJg85sEDy4nhnMULVKcQ96
+        status: active
+        display_name: 王祐
+        merged_into_person_id: null
+    - claim:
+        id: c_cONz0mMpvWfruJ0Uq0HDT1
+        subject_person_id: p_5CduZYd3M32UzBRfFgkTNy
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vx3T8VwhpKz6o448Z5Jm7Z
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cVbtmWr2uRbn3pQjRtsIcY
+          claim_id: c_cONz0mMpvWfruJ0Uq0HDT1
+          source_id: s_KHJ_qKqIae5YG7SYlR6CUF
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199491 王祿）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_KHJ_qKqIae5YG7SYlR6CUF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禮（CBDB 245781）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245781&o=json
+            external_identifier: CBDB:245781
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vx3T8VwhpKz6o448Z5Jm7Z
+        status: active
+        display_name: 王禮
+        merged_into_person_id: null
 ---
 
 # 王祿
@@ -245,8 +319,12 @@ relationships:
 | spouses | p_fpT3xisGvzXPznBAzXbZ9o | 林氏 | accepted |
 | ancestors | p_nYBJ8DhUaL2NcKE4G7AVS7 | 王希遠 | accepted |
 | ancestors | p_mTzxwAEMxvLCjgbpNJPkQq | 王澤 | accepted |
+| other | p_QJg85sEDy4nhnMULVKcQ96 | 王祐 | accepted |
+| other | p_vx3T8VwhpKz6o448Z5Jm7Z | 王禮 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：林氏(王祿妻)（CBDB 245778）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245778&o=json)
+- [中国历代人物传记资料库：王禮（CBDB 245781）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245781&o=json)
 - [中国历代人物传记资料库：王祿（CBDB 199491）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199491&o=json)
+- [中国历代人物传记资料库：王祐（CBDB 245779）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245779&o=json)

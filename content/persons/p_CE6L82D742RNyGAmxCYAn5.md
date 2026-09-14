@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王三陽
 cbdb_id: 206708
-revision: 4
+revision: 11
 properties:
   - predicate: bio.summary
     recommended:
@@ -236,7 +236,266 @@ relationships:
         display_name: 王杞
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_PBT7E7o-O49VryZxyts2qt
+        subject_person_id: p_3ego6qZ7Tga1Q5Ykt4yXW3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_CE6L82D742RNyGAmxCYAn5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QZhiuoruPG99LxpcLz59gM
+          claim_id: c_PBT7E7o-O49VryZxyts2qt
+          source_id: s_-qnOJwRby484dSUFx-KrBw
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206708 王三陽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_-qnOJwRby484dSUFx-KrBw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應璧（CBDB 221872）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221872&o=json
+            external_identifier: CBDB:221872
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3ego6qZ7Tga1Q5Ykt4yXW3
+        status: active
+        display_name: 王應璧
+        merged_into_person_id: null
+    - claim:
+        id: c_g725Aaji6FgBsVjIlNQO4j
+        subject_person_id: p_6G7ptwRpCYfMhqCPVfSHjK
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_CE6L82D742RNyGAmxCYAn5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0wtZi3LHb0iZ-BjKo_PcW9
+          claim_id: c_g725Aaji6FgBsVjIlNQO4j
+          source_id: s_Dl0YtOvr5uAs2kgxKQuJkG
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206708 王三陽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Dl0YtOvr5uAs2kgxKQuJkG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鑰陽（CBDB 221874）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221874&o=json
+            external_identifier: CBDB:221874
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6G7ptwRpCYfMhqCPVfSHjK
+        status: active
+        display_name: 王鑰陽
+        merged_into_person_id: null
+    - claim:
+        id: c_m-LGPpTA9LLgyibYJxYzhi
+        subject_person_id: p_8b3iLW9bXH42d3DjadCJky
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_CE6L82D742RNyGAmxCYAn5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tcA9oMLOB_H6ujcrf4VnqP
+          claim_id: c_m-LGPpTA9LLgyibYJxYzhi
+          source_id: s_PK99z-EQZ-11RjkkwcpNXh
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206708 王三陽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_PK99z-EQZ-11RjkkwcpNXh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王少陽（CBDB 221868）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221868&o=json
+            external_identifier: CBDB:221868
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8b3iLW9bXH42d3DjadCJky
+        status: active
+        display_name: 王少陽
+        merged_into_person_id: null
+    - claim:
+        id: c_jm2E8wRFyxQ5qWArZORu79
+        subject_person_id: p_9qTTjc7i8iEzzkt9QoCuqQ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_CE6L82D742RNyGAmxCYAn5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qO-meP_CswvDeixUpb6JYA
+          claim_id: c_jm2E8wRFyxQ5qWArZORu79
+          source_id: s_t4FHbhA9MtyCoBHTxB4N9A
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206708 王三陽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_t4FHbhA9MtyCoBHTxB4N9A
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應奎（CBDB 221870）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221870&o=json
+            external_identifier: CBDB:221870
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9qTTjc7i8iEzzkt9QoCuqQ
+        status: active
+        display_name: 王應奎
+        merged_into_person_id: null
+    - claim:
+        id: c_LWJN6re-jQOYKtgFNf6k_e
+        subject_person_id: p_CE6L82D742RNyGAmxCYAn5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_FSJo4VJrVMANcpQMQhv6T8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0HF9CK8r5uEHc_V5GJbxu_
+          claim_id: c_LWJN6re-jQOYKtgFNf6k_e
+          source_id: s_wB3YjYL39BFimN2Qs0sTrs
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206708 王三陽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_wB3YjYL39BFimN2Qs0sTrs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王一陽（CBDB 221867）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221867&o=json
+            external_identifier: CBDB:221867
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FSJo4VJrVMANcpQMQhv6T8
+        status: active
+        display_name: 王一陽
+        merged_into_person_id: null
+    - claim:
+        id: c_U0SleH__sb8awZez_HgBTq
+        subject_person_id: p_CE6L82D742RNyGAmxCYAn5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_FevaTQqGRsGYKYJvmbE9em
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q_PzCCAWMwLIWCClYlFROF
+          claim_id: c_U0SleH__sb8awZez_HgBTq
+          source_id: s_W5Uhfi77KoKES6moU3zU_n
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206708 王三陽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_W5Uhfi77KoKES6moU3zU_n
+            source_type: api_record
+            title: 中国历代人物传记资料库：王銓陽（CBDB 221873）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221873&o=json
+            external_identifier: CBDB:221873
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FevaTQqGRsGYKYJvmbE9em
+        status: active
+        display_name: 王銓陽
+        merged_into_person_id: null
+    - claim:
+        id: c_cjB2bLSQ_CHEDk9MpHjk0R
+        subject_person_id: p_CE6L82D742RNyGAmxCYAn5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_jEge1NAq3ePJ9ur7GpBHiF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XHeyRDiA7krGXcpeqH_n-1
+          claim_id: c_cjB2bLSQ_CHEDk9MpHjk0R
+          source_id: s_wxXlsBcVauFaIqymvCWS6H
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206708 王三陽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_wxXlsBcVauFaIqymvCWS6H
+            source_type: api_record
+            title: 中国历代人物传记资料库：王承陽（CBDB 221869）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221869&o=json
+            external_identifier: CBDB:221869
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jEge1NAq3ePJ9ur7GpBHiF
+        status: active
+        display_name: 王承陽
+        merged_into_person_id: null
 ---
 
 # 王三陽
@@ -258,10 +517,24 @@ relationships:
 | parents | p_iEzBpfQksvKwtnLVgiEPSK | 王賜良 | accepted |
 | ancestors | p_Eadd6mMaXChvMX3qCq7Z3P | 王寬 | accepted |
 | ancestors | p_vA2EkkQ3G2YuHPZyYeeo8p | 王杞 | accepted |
+| other | p_3ego6qZ7Tga1Q5Ykt4yXW3 | 王應璧 | accepted |
+| other | p_6G7ptwRpCYfMhqCPVfSHjK | 王鑰陽 | accepted |
+| other | p_8b3iLW9bXH42d3DjadCJky | 王少陽 | accepted |
+| other | p_9qTTjc7i8iEzzkt9QoCuqQ | 王應奎 | accepted |
+| other | p_FSJo4VJrVMANcpQMQhv6T8 | 王一陽 | accepted |
+| other | p_FevaTQqGRsGYKYJvmbE9em | 王銓陽 | accepted |
+| other | p_jEge1NAq3ePJ9ur7GpBHiF | 王承陽 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王承陽（CBDB 221869）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221869&o=json)
 - [中国历代人物传记资料库：王賜良（CBDB 221864）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221864&o=json)
 - [中国历代人物传记资料库：王寬（CBDB 221863）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221863&o=json)
 - [中国历代人物传记资料库：王杞（CBDB 221862）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221862&o=json)
+- [中国历代人物传记资料库：王銓陽（CBDB 221873）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221873&o=json)
 - [中国历代人物传记资料库：王三陽（CBDB 206708）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206708&o=json)
+- [中国历代人物传记资料库：王少陽（CBDB 221868）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221868&o=json)
+- [中国历代人物传记资料库：王鑰陽（CBDB 221874）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221874&o=json)
+- [中国历代人物传记资料库：王一陽（CBDB 221867）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221867&o=json)
+- [中国历代人物传记资料库：王應璧（CBDB 221872）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221872&o=json)
+- [中国历代人物传记资料库：王應奎（CBDB 221870）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221870&o=json)

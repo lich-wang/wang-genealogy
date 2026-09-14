@@ -4,7 +4,7 @@ id: p_9XtatSzbUAUbGKWh823XDp
 status: active
 merged_into: null
 display_name: 王瑤
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -239,7 +239,81 @@ relationships:
         display_name: 王有言
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_3ane6GOa1UP8I5imXneyo5
+        subject_person_id: p_1Lsa9UN1bD8CJ8v7Xu8mvJ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_9XtatSzbUAUbGKWh823XDp
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SOEUr6w6ItEpXu8mt4S4UU
+          claim_id: c_3ane6GOa1UP8I5imXneyo5
+          source_id: s_VCNNIS5dw9IjhWsfFiNGWM
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 69422 王瑤）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_VCNNIS5dw9IjhWsfFiNGWM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璥（CBDB 526955）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526955&o=json
+            external_identifier: CBDB:526955
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1Lsa9UN1bD8CJ8v7Xu8mvJ
+        status: active
+        display_name: 王璥
+        merged_into_person_id: null
+    - claim:
+        id: c_NplvV1RM91nh79lV1Ln84F
+        subject_person_id: p_7LrKUrHHQT3sBDmDUz6ofY
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_9XtatSzbUAUbGKWh823XDp
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RyPdlhz2ZCMRfM87u0znvl
+          claim_id: c_NplvV1RM91nh79lV1Ln84F
+          source_id: s_AIA3bKvzBlTGBN6ZIgbmKC
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 69422 王瑤）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_AIA3bKvzBlTGBN6ZIgbmKC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玿（CBDB 526953）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526953&o=json
+            external_identifier: CBDB:526953
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7LrKUrHHQT3sBDmDUz6ofY
+        status: active
+        display_name: 王玿
+        merged_into_person_id: null
 ---
 
 # 王瑤
@@ -263,7 +337,11 @@ relationships:
 | children | p_RDkkPEePKGnQq2PT6dhmD7 | 王代鈞 | accepted |
 | children | p_Ls8KQaTxkN7Y5me48iPD47 | 王華年 | accepted |
 | ancestors | p_MGGtyijdx1XVGPnCi9QkhM | 王有言 | accepted |
+| other | p_1Lsa9UN1bD8CJ8v7Xu8mvJ | 王璥 | accepted |
+| other | p_7LrKUrHHQT3sBDmDUz6ofY | 王玿 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王璥（CBDB 526955）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526955&o=json)
+- [中国历代人物传记资料库：王玿（CBDB 526953）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526953&o=json)
 - [中国历代人物传记资料库：王瑤（CBDB 69422）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69422&o=json)

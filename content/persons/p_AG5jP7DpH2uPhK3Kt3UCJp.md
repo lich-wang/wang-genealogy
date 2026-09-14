@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王夢虎
 cbdb_id: 69267
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -167,7 +167,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_7H9kwVXCB02D747gjXi22T
+        subject_person_id: p_AG5jP7DpH2uPhK3Kt3UCJp
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Jf2Cy51GWikCS5mAjRW26F
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jjYftRz3h9Mh4xjKsJtFlc
+          claim_id: c_7H9kwVXCB02D747gjXi22T
+          source_id: s_XpuHsUKHoYXYVw2tQyL-bc
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 526808 王衍疇）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_XpuHsUKHoYXYVw2tQyL-bc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王夢虎（CBDB 69267）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69267&o=json
+            external_identifier: CBDB:69267
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Jf2Cy51GWikCS5mAjRW26F
+        status: active
+        display_name: 王衍疇
+        merged_into_person_id: null
 ---
 
 # 王夢虎
@@ -187,6 +224,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_Jf2Cy51GWikCS5mAjRW26F | 王衍疇 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王鴻業
 cbdb_id: 72013
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -199,6 +199,43 @@ relationships:
         status: active
         display_name: 王之坊
         merged_into_person_id: null
+    - claim:
+        id: c_6JBtW6kYw1snU9R9a6L1Kt
+        subject_person_id: p_sif3fGcwr2fDxQSME8rKoa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_79emZ1DAw7DpGb9pxiroNK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XCHtQHVUKBiKMQo7_RTZ_y
+          claim_id: c_6JBtW6kYw1snU9R9a6L1Kt
+          source_id: s_OTEEi2ZM1lY1w8lCAS3sqV
+          stance: supports
+          locator: CBDB：兄弟 王之坊（696661）之父／母 王鴻業
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王之坪 与 王之坊 为同胞（CBDB 记「兄弟」），王之坊 之父／母即 王之坪 之父／母。
+          source:
+            id: s_OTEEi2ZM1lY1w8lCAS3sqV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之坪（CBDB 71353）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71353&o=json
+            external_identifier: CBDB:71353
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_79emZ1DAw7DpGb9pxiroNK
+        status: active
+        display_name: 王之坪
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -225,8 +262,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_5y89wpysp6244o1D3pF767 | 王之坊 | accepted |
+| children | p_79emZ1DAw7DpGb9pxiroNK | 王之坪 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鴻業（CBDB 72013）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=72013&o=json)
 - [中国历代人物传记资料库：王之坊（CBDB 696661）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696661&o=json)
+- [中国历代人物传记资料库：王之坪（CBDB 71353）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71353&o=json)

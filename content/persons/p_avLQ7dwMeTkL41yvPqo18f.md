@@ -4,7 +4,7 @@ id: p_avLQ7dwMeTkL41yvPqo18f
 status: active
 merged_into: null
 display_name: 王學詩
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_-rDU4hLWPNSD-sUFZAo9d3
+        subject_person_id: p_4rZFET2VU5QfJTezy8ktoQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_avLQ7dwMeTkL41yvPqo18f
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E0iQvf0g4TayJg7jyVcj7H
+          claim_id: c_-rDU4hLWPNSD-sUFZAo9d3
+          source_id: s_cW-dpF9HtXY1Ni3j9hWquZ
+          stance: supports
+          locator: CBDB：兄弟 王學古（205095）之父／母 王來召
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王學詩 与 王學古 为同胞（CBDB 记「弟」），王學古 之父／母即 王學詩 之父／母。
+          source:
+            id: s_cW-dpF9HtXY1Ni3j9hWquZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王學詩（CBDB 328249）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328249&o=json
+            external_identifier: CBDB:328249
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4rZFET2VU5QfJTezy8ktoQ
+        status: active
+        display_name: 王來召
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Opc3-C8OpT3Jo2OkSZWvI-
+        subject_person_id: p_EubdaeFSWc8pKsGxhe2PFM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_avLQ7dwMeTkL41yvPqo18f
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hrYvinB_R9GsinGSwuQ_jO
+          claim_id: c_Opc3-C8OpT3Jo2OkSZWvI-
+          source_id: s_cW-dpF9HtXY1Ni3j9hWquZ
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205095 王學古）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_cW-dpF9HtXY1Ni3j9hWquZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王學詩（CBDB 328249）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328249&o=json
+            external_identifier: CBDB:328249
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EubdaeFSWc8pKsGxhe2PFM
+        status: active
+        display_name: 王學古
+        merged_into_person_id: null
 ---
 
 # 王學詩
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_4rZFET2VU5QfJTezy8ktoQ | 王來召 | accepted |
+| other | p_EubdaeFSWc8pKsGxhe2PFM | 王學古 | accepted |
 
 ## 外部来源
 

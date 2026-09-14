@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王三宅
 cbdb_id: 126449
-revision: 4
+revision: 9
 properties:
   - predicate: bio.summary
     recommended:
@@ -192,7 +192,192 @@ relationships:
         display_name: 王施恩
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_uuWyNBGCNNDuajk84wu4Ux
+        subject_person_id: p_96x8osCh45czZNDmiDiBvr
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gQ7de4k3fPsZaTDKaE81D5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PbH6Zznta2A0Vwy6JuwC74
+          claim_id: c_uuWyNBGCNNDuajk84wu4Ux
+          source_id: s_qvr-Fk0SWrJTfQOnCFEKtN
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126449 王三宅）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_qvr-Fk0SWrJTfQOnCFEKtN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三槐（CBDB 214234）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214234&o=json
+            external_identifier: CBDB:214234
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_96x8osCh45czZNDmiDiBvr
+        status: active
+        display_name: 王三槐
+        merged_into_person_id: null
+    - claim:
+        id: c_XBB6x3K6YFEZ7cEcy5gP9S
+        subject_person_id: p_9Gm1f56KyrWEn2aB7sVECT
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gQ7de4k3fPsZaTDKaE81D5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_A7xE4iAhvuvZWUmlcIZI3I
+          claim_id: c_XBB6x3K6YFEZ7cEcy5gP9S
+          source_id: s_voaWn3Iqgywn04EV5jcWBj
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126449 王三宅）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_voaWn3Iqgywn04EV5jcWBj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三俊（CBDB 214232）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214232&o=json
+            external_identifier: CBDB:214232
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9Gm1f56KyrWEn2aB7sVECT
+        status: active
+        display_name: 王三俊
+        merged_into_person_id: null
+    - claim:
+        id: c_NC1Gc9_ypMEjnyaNbaKbGu
+        subject_person_id: p_MBFdtrDNAYkH8oAGu64ATb
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gQ7de4k3fPsZaTDKaE81D5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6_yh63_GQAWsxxiOEgLdYO
+          claim_id: c_NC1Gc9_ypMEjnyaNbaKbGu
+          source_id: s_5cwOU3n8JsLK7AbfGaHl97
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126449 王三宅）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_5cwOU3n8JsLK7AbfGaHl97
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三才（CBDB 214235）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214235&o=json
+            external_identifier: CBDB:214235
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MBFdtrDNAYkH8oAGu64ATb
+        status: active
+        display_name: 王三才
+        merged_into_person_id: null
+    - claim:
+        id: c_f8tKEZ8MD3NPEjjGIwO5xM
+        subject_person_id: p_Y4QjL7zfkyuESS1dmfnbuf
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gQ7de4k3fPsZaTDKaE81D5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_74N_RRUmfWaCCvtUAhPfvy
+          claim_id: c_f8tKEZ8MD3NPEjjGIwO5xM
+          source_id: s__BRueCvkxmqtvmfal7RpDv
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126449 王三宅）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__BRueCvkxmqtvmfal7RpDv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三策（CBDB 214236）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214236&o=json
+            external_identifier: CBDB:214236
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Y4QjL7zfkyuESS1dmfnbuf
+        status: active
+        display_name: 王三策
+        merged_into_person_id: null
+    - claim:
+        id: c_PtwvsPyZOll02OJfDGHHlf
+        subject_person_id: p_gQ7de4k3fPsZaTDKaE81D5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qoah7FrZ6mu7Xy35XdosAz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MhSzGNF-NlLoOhA_yUiPnK
+          claim_id: c_PtwvsPyZOll02OJfDGHHlf
+          source_id: s_F79AB6XWZnOv2eMD_5Af6y
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126449 王三宅）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_F79AB6XWZnOv2eMD_5Af6y
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三錫（CBDB 214233）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214233&o=json
+            external_identifier: CBDB:214233
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qoah7FrZ6mu7Xy35XdosAz
+        status: active
+        display_name: 王三錫
+        merged_into_person_id: null
 ---
 
 # 王三宅
@@ -213,10 +398,20 @@ relationships:
 | parents | p_1FBPum8LTBdeJMCSbLMi71 | 王曰可 | accepted |
 | ancestors | p_5v6Xq1AA1UE4c7bcH4r8Te | 王卿 | accepted |
 | ancestors | p_MK97hCcoFWb8K3JPHRLDhj | 王施恩 | accepted |
+| other | p_96x8osCh45czZNDmiDiBvr | 王三槐 | accepted |
+| other | p_9Gm1f56KyrWEn2aB7sVECT | 王三俊 | accepted |
+| other | p_MBFdtrDNAYkH8oAGu64ATb | 王三才 | accepted |
+| other | p_Y4QjL7zfkyuESS1dmfnbuf | 王三策 | accepted |
+| other | p_qoah7FrZ6mu7Xy35XdosAz | 王三錫 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王卿（CBDB 214224）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214224&o=json)
+- [中国历代人物传记资料库：王三才（CBDB 214235）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214235&o=json)
+- [中国历代人物传记资料库：王三策（CBDB 214236）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214236&o=json)
+- [中国历代人物传记资料库：王三槐（CBDB 214234）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214234&o=json)
+- [中国历代人物传记资料库：王三俊（CBDB 214232）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214232&o=json)
+- [中国历代人物传记资料库：王三錫（CBDB 214233）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214233&o=json)
 - [中国历代人物传记资料库：王三宅（CBDB 126449）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126449&o=json)
 - [中国历代人物传记资料库：王施恩（CBDB 214225）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214225&o=json)
 - [中国历代人物传记资料库：王曰可（CBDB 214227）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214227&o=json)

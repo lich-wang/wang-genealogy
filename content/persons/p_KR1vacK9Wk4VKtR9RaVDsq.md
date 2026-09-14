@@ -4,7 +4,7 @@ id: p_KR1vacK9Wk4VKtR9RaVDsq
 status: active
 merged_into: null
 display_name: 王洙
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_vLiF06a1L9TGbnCtJGRm6x
+        subject_person_id: p_xZVFVfV8CQCzdHSD73eh6H
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KR1vacK9Wk4VKtR9RaVDsq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_DTnO7jroWL53iHOWZC0Qgq
+          claim_id: c_vLiF06a1L9TGbnCtJGRm6x
+          source_id: s_i4i-eU26IYsG4j2sxwzpB8
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 28618）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_i4i-eU26IYsG4j2sxwzpB8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王洙（CBDB 28623）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28623&o=json
+            external_identifier: CBDB:28623
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xZVFVfV8CQCzdHSD73eh6H
+        status: active
+        display_name: 王宗某
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xZVFVfV8CQCzdHSD73eh6H | 王宗某 | accepted |
 
 ## 外部来源
 

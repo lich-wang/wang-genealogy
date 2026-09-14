@@ -4,7 +4,7 @@ id: p_bVh1otR2HH59HH7rfKSMH9
 status: active
 merged_into: null
 display_name: 王德
-revision: 4
+revision: 9
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,192 @@ relationships:
         display_name: 王宏
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Vt7gkCLTKkRnug4OAX1d67
+        subject_person_id: p_1TdEwjEL19s1J7G5PHfNTM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_bVh1otR2HH59HH7rfKSMH9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DFv-vW_MkWeShCB9JFDJp5
+          claim_id: c_Vt7gkCLTKkRnug4OAX1d67
+          source_id: s_0tYDo9oK2fniBcTVgkYJwU
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201011 王德）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0tYDo9oK2fniBcTVgkYJwU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝能（CBDB 265941）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265941&o=json
+            external_identifier: CBDB:265941
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1TdEwjEL19s1J7G5PHfNTM
+        status: active
+        display_name: 王汝能
+        merged_into_person_id: null
+    - claim:
+        id: c_ThOgTEp4qPKEkIXHuasDPa
+        subject_person_id: p_6T3TA3jDUyUkHWbCmXvJvH
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_bVh1otR2HH59HH7rfKSMH9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hQUvsFd33N7U5W_lGqBym_
+          claim_id: c_ThOgTEp4qPKEkIXHuasDPa
+          source_id: s_puxKrulYK5HtJ61EtVrumy
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201011 王德）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_puxKrulYK5HtJ61EtVrumy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝賢（CBDB 265939）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265939&o=json
+            external_identifier: CBDB:265939
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6T3TA3jDUyUkHWbCmXvJvH
+        status: active
+        display_name: 王汝賢
+        merged_into_person_id: null
+    - claim:
+        id: c_D-bUcPuluyt1qO-JzNkm6G
+        subject_person_id: p_B9Pdw9C9qeF6k6crMywRYK
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_bVh1otR2HH59HH7rfKSMH9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8llvanAuLGF_xXtrRNTXRm
+          claim_id: c_D-bUcPuluyt1qO-JzNkm6G
+          source_id: s_ZF9Shz3yIaVnFFAVYR3UbG
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201011 王德）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ZF9Shz3yIaVnFFAVYR3UbG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝端（CBDB 265943）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265943&o=json
+            external_identifier: CBDB:265943
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_B9Pdw9C9qeF6k6crMywRYK
+        status: active
+        display_name: 王汝端
+        merged_into_person_id: null
+    - claim:
+        id: c_Tz992iCoSaMyeB_wZs_kfc
+        subject_person_id: p_ZUSeBf3bwunYCNX9U7KU7r
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_bVh1otR2HH59HH7rfKSMH9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i5rSOZ7WKxdpcn16w6hu97
+          claim_id: c_Tz992iCoSaMyeB_wZs_kfc
+          source_id: s_BDhXSI5eTq1K4O-pEQSiw3
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201011 王德）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_BDhXSI5eTq1K4O-pEQSiw3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝良（CBDB 265940）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265940&o=json
+            external_identifier: CBDB:265940
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZUSeBf3bwunYCNX9U7KU7r
+        status: active
+        display_name: 王汝良
+        merged_into_person_id: null
+    - claim:
+        id: c_QOwZoITNO_PKOw4p1Co1KV
+        subject_person_id: p_bVh1otR2HH59HH7rfKSMH9
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_uPMjhauhT8ZcPTwE45WUiB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TYeqcatOJI16bWHRBnyf4w
+          claim_id: c_QOwZoITNO_PKOw4p1Co1KV
+          source_id: s_I8PPAaYYbTHy5O2d1vMvaK
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201011 王德）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_I8PPAaYYbTHy5O2d1vMvaK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝明（CBDB 265942）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265942&o=json
+            external_identifier: CBDB:265942
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_uPMjhauhT8ZcPTwE45WUiB
+        status: active
+        display_name: 王汝明
+        merged_into_person_id: null
 ---
 
 # 王德
@@ -240,6 +425,11 @@ relationships:
 | parents | p_czhtiwqBMu1RGkzhciwNgo | 王昌 | accepted |
 | ancestors | p_A9458Z18KdqT1fqxauKE6R | 王銘 | accepted |
 | ancestors | p_W2XVp5jqNKm1PgoUkTwmAP | 王宏 | accepted |
+| other | p_1TdEwjEL19s1J7G5PHfNTM | 王汝能 | accepted |
+| other | p_6T3TA3jDUyUkHWbCmXvJvH | 王汝賢 | accepted |
+| other | p_B9Pdw9C9qeF6k6crMywRYK | 王汝端 | accepted |
+| other | p_ZUSeBf3bwunYCNX9U7KU7r | 王汝良 | accepted |
+| other | p_uPMjhauhT8ZcPTwE45WUiB | 王汝明 | accepted |
 
 ## 外部来源
 
@@ -247,3 +437,8 @@ relationships:
 - [中国历代人物传记资料库：王德（CBDB 201011）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201011&o=json)
 - [中国历代人物传记资料库：王宏（CBDB 265933）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265933&o=json)
 - [中国历代人物传记资料库：王銘（CBDB 265932）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265932&o=json)
+- [中国历代人物传记资料库：王汝端（CBDB 265943）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265943&o=json)
+- [中国历代人物传记资料库：王汝良（CBDB 265940）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265940&o=json)
+- [中国历代人物传记资料库：王汝明（CBDB 265942）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265942&o=json)
+- [中国历代人物传记资料库：王汝能（CBDB 265941）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265941&o=json)
+- [中国历代人物传记资料库：王汝賢（CBDB 265939）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265939&o=json)

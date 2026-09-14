@@ -4,7 +4,7 @@ id: p_HXUX2XFYmFJicF3sMvu7i1
 status: active
 merged_into: null
 display_name: 王珵
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_w5aEpGovXe-j3mAUXgmKyL
+        subject_person_id: p_NkjrkfLSubJRquGWk6KTAC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HXUX2XFYmFJicF3sMvu7i1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-BpiX1Vnd2EVoD1FHIsBb-
+          claim_id: c_w5aEpGovXe-j3mAUXgmKyL
+          source_id: s_iN-LD-LKEI8Hj12REBXP7G
+          stance: supports
+          locator: CBDB：兄弟 王瓚（126892）之父／母 王祚
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王珵 与 王瓚 为同胞（CBDB 记「弟」），王瓚 之父／母即 王珵 之父／母。
+          source:
+            id: s_iN-LD-LKEI8Hj12REBXP7G
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珵（CBDB 266766）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266766&o=json
+            external_identifier: CBDB:266766
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NkjrkfLSubJRquGWk6KTAC
+        status: active
+        display_name: 王祚
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_KhOnNBCB7oMEYa-6__iept
+        subject_person_id: p_HXUX2XFYmFJicF3sMvu7i1
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_aJMiNXJSvn8avCPNUFL6Jr
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_b4gaAaTrx1vi3NSBSqLoFJ
+          claim_id: c_KhOnNBCB7oMEYa-6__iept
+          source_id: s_iN-LD-LKEI8Hj12REBXP7G
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126892 王瓚）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_iN-LD-LKEI8Hj12REBXP7G
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珵（CBDB 266766）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=266766&o=json
+            external_identifier: CBDB:266766
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aJMiNXJSvn8avCPNUFL6Jr
+        status: active
+        display_name: 王瓚
+        merged_into_person_id: null
 ---
 
 # 王珵
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_NkjrkfLSubJRquGWk6KTAC | 王祚 | accepted |
+| other | p_aJMiNXJSvn8avCPNUFL6Jr | 王瓚 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_9krHiUjsyZkZorguPCMSqA
 status: active
 merged_into: null
 display_name: 王譽
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_wI8X9ggJ3TuntOh3XwpiNb
+        subject_person_id: p_dH2xuW5Lt7eGA9nJNsvby5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9krHiUjsyZkZorguPCMSqA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lX4MrowDAOp22t2jC4BEN0
+          claim_id: c_wI8X9ggJ3TuntOh3XwpiNb
+          source_id: s_WxbX0WUZ9fr37oSJ6YXKHr
+          stance: supports
+          locator: CBDB：兄弟 王尚志（201927）之父／母 王浩
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王譽 与 王尚志 为同胞（CBDB 记「弟」），王尚志 之父／母即 王譽 之父／母。
+          source:
+            id: s_WxbX0WUZ9fr37oSJ6YXKHr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王譽（CBDB 280594）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280594&o=json
+            external_identifier: CBDB:280594
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dH2xuW5Lt7eGA9nJNsvby5
+        status: active
+        display_name: 王浩
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_IAvPR09zjJCmuo5_5C04u_
+        subject_person_id: p_9krHiUjsyZkZorguPCMSqA
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kCdr4Vt3ng3vFN4WR6C2uB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bg4NJwL64U069eJKTEF5p7
+          claim_id: c_IAvPR09zjJCmuo5_5C04u_
+          source_id: s_WxbX0WUZ9fr37oSJ6YXKHr
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201927 王尚志）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_WxbX0WUZ9fr37oSJ6YXKHr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王譽（CBDB 280594）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280594&o=json
+            external_identifier: CBDB:280594
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kCdr4Vt3ng3vFN4WR6C2uB
+        status: active
+        display_name: 王尚志
+        merged_into_person_id: null
 ---
 
 # 王譽
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_dH2xuW5Lt7eGA9nJNsvby5 | 王浩 | accepted |
+| other | p_kCdr4Vt3ng3vFN4WR6C2uB | 王尚志 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王宗恆
 cbdb_id: 202460
-revision: 3
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,118 @@ relationships:
         display_name: 王恕
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_1Oc_-4cC7zudgJmw2ihw-m
+        subject_person_id: p_EMU4pX4z4qRFz6L3iM1NYp
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_JirTxmVijtiT96YhPfvEVf
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wixmuymWaurB1YQNXFPDMC
+          claim_id: c_1Oc_-4cC7zudgJmw2ihw-m
+          source_id: s_QyawDgLOuzsJSsLcd5Lu8z
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202460 王宗恆）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_QyawDgLOuzsJSsLcd5Lu8z
+            source_type: api_record
+            title: 中国历代人物传记资料库：王左（CBDB 288565）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288565&o=json
+            external_identifier: CBDB:288565
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EMU4pX4z4qRFz6L3iM1NYp
+        status: active
+        display_name: 王左
+        merged_into_person_id: null
+    - claim:
+        id: c_YLUqMkRILCP1h7J1Q0GdAa
+        subject_person_id: p_JirTxmVijtiT96YhPfvEVf
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_UwNCvWWvN6o3AZxVK4aL3P
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B6sgseCtTCeww6JkZn_hE8
+          claim_id: c_YLUqMkRILCP1h7J1Q0GdAa
+          source_id: s_Z_kHS04yjDNHfLhVHmOC-9
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202460 王宗恆）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Z_kHS04yjDNHfLhVHmOC-9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗岱（CBDB 288563）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288563&o=json
+            external_identifier: CBDB:288563
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_UwNCvWWvN6o3AZxVK4aL3P
+        status: active
+        display_name: 王宗岱
+        merged_into_person_id: null
+    - claim:
+        id: c_kQvhWCfAtTsoxT5tx6gzlo
+        subject_person_id: p_JirTxmVijtiT96YhPfvEVf
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_f7UXXNE3UXDFMmDYru6194
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AdgALP1tIlq05v9BpjZFbV
+          claim_id: c_kQvhWCfAtTsoxT5tx6gzlo
+          source_id: s_rOI9kVMluA8XpnaUOyNYIZ
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202460 王宗恆）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_rOI9kVMluA8XpnaUOyNYIZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗華（CBDB 288566）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288566&o=json
+            external_identifier: CBDB:288566
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_f7UXXNE3UXDFMmDYru6194
+        status: active
+        display_name: 王宗華
+        merged_into_person_id: null
 ---
 
 # 王宗恆
@@ -257,10 +368,16 @@ relationships:
 | parents | p_wfbyDLXDm9dw8R5wz4t1Hc | 王璠 | accepted |
 | ancestors | p_ADb1WnrvjDNFbmCmqiRMmL | 王旭 | accepted |
 | ancestors | p_w4P9NPwFphv51WPF1vb8Kk | 王恕 | accepted |
+| other | p_EMU4pX4z4qRFz6L3iM1NYp | 王左 | accepted |
+| other | p_UwNCvWWvN6o3AZxVK4aL3P | 王宗岱 | accepted |
+| other | p_f7UXXNE3UXDFMmDYru6194 | 王宗華 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王璠（CBDB 288560）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288560&o=json)
 - [中国历代人物传记资料库：王恕（CBDB 288559）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288559&o=json)
 - [中国历代人物传记资料库：王旭（CBDB 288558）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288558&o=json)
+- [中国历代人物传记资料库：王宗岱（CBDB 288563）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288563&o=json)
 - [中国历代人物传记资料库：王宗恆（CBDB 202460）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202460&o=json)
+- [中国历代人物传记资料库：王宗華（CBDB 288566）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288566&o=json)
+- [中国历代人物传记资料库：王左（CBDB 288565）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288565&o=json)

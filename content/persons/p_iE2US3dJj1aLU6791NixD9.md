@@ -4,7 +4,7 @@ id: p_iE2US3dJj1aLU6791NixD9
 status: active
 merged_into: null
 display_name: 王績
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_c9S354asT4Mqw89kZGgzv8
+        subject_person_id: p_uDFyS67KkM247fUDTDP1d8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iE2US3dJj1aLU6791NixD9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OajGBBhgh5jtSuUIgDR0ao
+          claim_id: c_c9S354asT4Mqw89kZGgzv8
+          source_id: s_g7u6vRf2qCQdzZ-AimS7nA
+          stance: supports
+          locator: CBDB：兄弟 王純（126658）之父／母 王琯
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王績 与 王純 为同胞（CBDB 记「兄」），王純 之父／母即 王績 之父／母。
+          source:
+            id: s_g7u6vRf2qCQdzZ-AimS7nA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王績（CBDB 264720）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264720&o=json
+            external_identifier: CBDB:264720
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_uDFyS67KkM247fUDTDP1d8
+        status: active
+        display_name: 王琯
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_VQ41ooUQpyu5VWhBsaMYNq
+        subject_person_id: p_iE2US3dJj1aLU6791NixD9
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_yt7BTSHcHKsWozExAQWe78
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Y2FXfEsgkDIME5v_A9Q4LX
+          claim_id: c_VQ41ooUQpyu5VWhBsaMYNq
+          source_id: s_g7u6vRf2qCQdzZ-AimS7nA
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126658 王純）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_g7u6vRf2qCQdzZ-AimS7nA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王績（CBDB 264720）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264720&o=json
+            external_identifier: CBDB:264720
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_yt7BTSHcHKsWozExAQWe78
+        status: active
+        display_name: 王純
+        merged_into_person_id: null
 ---
 
 # 王績
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_uDFyS67KkM247fUDTDP1d8 | 王琯 | accepted |
+| other | p_yt7BTSHcHKsWozExAQWe78 | 王純 | accepted |
 
 ## 外部来源
 

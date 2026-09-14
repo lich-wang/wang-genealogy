@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王繼德
 cbdb_id: 327528
-revision: 2
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -114,6 +114,117 @@ relationships:
         status: active
         display_name: 王宇
         merged_into_person_id: null
+    - claim:
+        id: c_cDFeKY8hCfOZ7-ixovzKyp
+        subject_person_id: p_kmpABikpWftaJACcFD3yJ1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oP44rT6Ti6t4n4tQkRQQ4T
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_msZVYzIX36wcGzFGH2cud9
+          claim_id: c_cDFeKY8hCfOZ7-ixovzKyp
+          source_id: s_A312e4Bwl1R9_On7x_9P8W
+          stance: supports
+          locator: CBDB：兄弟 王宇（205042）之父／母 王繼德
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王寅 与 王宇 为同胞（CBDB 记「兄」），王宇 之父／母即 王寅 之父／母。
+          source:
+            id: s_A312e4Bwl1R9_On7x_9P8W
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寅（CBDB 327535）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327535&o=json
+            external_identifier: CBDB:327535
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oP44rT6Ti6t4n4tQkRQQ4T
+        status: active
+        display_name: 王寅
+        merged_into_person_id: null
+    - claim:
+        id: c_-8wKJww81bbQau4d2ssnmo
+        subject_person_id: p_kmpABikpWftaJACcFD3yJ1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xs6RgvvreikrtPXBqdHT2K
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B17J7bL4j0NYT40pKIAXEk
+          claim_id: c_-8wKJww81bbQau4d2ssnmo
+          source_id: s_NIMdDLb3tvNuF8SagHeHTO
+          stance: supports
+          locator: CBDB：兄弟 王宇（205042）之父／母 王繼德
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王寧 与 王宇 为同胞（CBDB 记「兄」），王宇 之父／母即 王寧 之父／母。
+          source:
+            id: s_NIMdDLb3tvNuF8SagHeHTO
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寧（CBDB 327534）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327534&o=json
+            external_identifier: CBDB:327534
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xs6RgvvreikrtPXBqdHT2K
+        status: active
+        display_name: 王寧
+        merged_into_person_id: null
+    - claim:
+        id: c_498N9OKN0Lix5ctn03vALt
+        subject_person_id: p_kmpABikpWftaJACcFD3yJ1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ywaE99cf2hJGTekVqCNHGE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZttyLklkKYHIYgRh_vtCHO
+          claim_id: c_498N9OKN0Lix5ctn03vALt
+          source_id: s_ZlyW04NvWWBkDTMy6bVRiL
+          stance: supports
+          locator: CBDB：兄弟 王宇（205042）之父／母 王繼德
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王寵 与 王宇 为同胞（CBDB 记「兄」），王宇 之父／母即 王寵 之父／母。
+          source:
+            id: s_ZlyW04NvWWBkDTMy6bVRiL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寵（CBDB 327533）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327533&o=json
+            external_identifier: CBDB:327533
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ywaE99cf2hJGTekVqCNHGE
+        status: active
+        display_name: 王寵
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -138,7 +249,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_DhXJg1QUSd5Fvqo5eHzd45 | 王宇 | accepted |
+| children | p_oP44rT6Ti6t4n4tQkRQQ4T | 王寅 | accepted |
+| children | p_xs6RgvvreikrtPXBqdHT2K | 王寧 | accepted |
+| children | p_ywaE99cf2hJGTekVqCNHGE | 王寵 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王寵（CBDB 327533）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327533&o=json)
 - [中国历代人物传记资料库：王繼德（CBDB 327528）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327528&o=json)
+- [中国历代人物传记资料库：王寧（CBDB 327534）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327534&o=json)
+- [中国历代人物传记资料库：王寅（CBDB 327535）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327535&o=json)

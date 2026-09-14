@@ -4,7 +4,7 @@ id: p_1wesYYym6K1XDJ5hKnvGQQ
 status: active
 merged_into: null
 display_name: 王嘉謨
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -248,7 +248,118 @@ relationships:
         display_name: 王寶
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_wOnrsJYWBkonYGeV0bAz56
+        subject_person_id: p_1wesYYym6K1XDJ5hKnvGQQ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_N98y6wLuGvKEpW2nm8vzqQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WfQ4Ag1hn8RYhcjykD_frI
+          claim_id: c_wOnrsJYWBkonYGeV0bAz56
+          source_id: s_9saC7JOE8zjKcjj7gF2LyP
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207214 王嘉謨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_9saC7JOE8zjKcjj7gF2LyP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嘉議（CBDB 229671）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229671&o=json
+            external_identifier: CBDB:229671
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_N98y6wLuGvKEpW2nm8vzqQ
+        status: active
+        display_name: 王嘉議
+        merged_into_person_id: null
+    - claim:
+        id: c_PSVFQxbTjPkh8N5x0AxGrc
+        subject_person_id: p_1wesYYym6K1XDJ5hKnvGQQ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_P4oDvKky3p11NpEDd81kpU
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jmzE3SUpFTKWBRoUodDmdZ
+          claim_id: c_PSVFQxbTjPkh8N5x0AxGrc
+          source_id: s_Wu9KRAhpNF2sFW3LqpmO4S
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207214 王嘉謨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Wu9KRAhpNF2sFW3LqpmO4S
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嘉詔（CBDB 229672）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229672&o=json
+            external_identifier: CBDB:229672
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_P4oDvKky3p11NpEDd81kpU
+        status: active
+        display_name: 王嘉詔
+        merged_into_person_id: null
+    - claim:
+        id: c_9Lyt8Lzge04_Qs9_VHMDNe
+        subject_person_id: p_1wesYYym6K1XDJ5hKnvGQQ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_rnJFD66CMv5ozbD1npW8J5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fqwS0bvObTF4JPa8OdA_ec
+          claim_id: c_9Lyt8Lzge04_Qs9_VHMDNe
+          source_id: s_IU3U9X-7Y-NNiVNHI56hUL
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207214 王嘉謨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_IU3U9X-7Y-NNiVNHI56hUL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嘉譔（CBDB 550656）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=550656&o=json
+            external_identifier: CBDB:550656
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rnJFD66CMv5ozbD1npW8J5
+        status: active
+        display_name: 王嘉譔
+        merged_into_person_id: null
 ---
 
 # 王嘉謨
@@ -272,8 +383,14 @@ relationships:
 | spouses | p_HDPP8TXt1WhfCLovxb2goq | 李氏 | accepted |
 | ancestors | p_Tawt1eCFb81MCXPQW7rDfP | 王欽 | accepted |
 | ancestors | p_he38UGzixz7HwYn8yHRkGn | 王寶 | accepted |
+| other | p_N98y6wLuGvKEpW2nm8vzqQ | 王嘉議 | accepted |
+| other | p_P4oDvKky3p11NpEDd81kpU | 王嘉詔 | accepted |
+| other | p_rnJFD66CMv5ozbD1npW8J5 | 王嘉譔 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：李氏(王嘉謨妻)（CBDB 229669）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229669&o=json)
 - [中国历代人物传记资料库：王嘉謨（CBDB 207214）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207214&o=json)
+- [中国历代人物传记资料库：王嘉議（CBDB 229671）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229671&o=json)
+- [中国历代人物传记资料库：王嘉詔（CBDB 229672）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=229672&o=json)
+- [中国历代人物传记资料库：王嘉譔（CBDB 550656）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=550656&o=json)

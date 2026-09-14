@@ -4,7 +4,7 @@ id: p_ukJ2qr82oEuCTM4WYW3F7J
 status: active
 merged_into: null
 display_name: 王文翰
-revision: 4
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,155 @@ relationships:
         display_name: 王全
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_JDLMMa3_K_iQXzOlZbnpNl
+        subject_person_id: p_6UgmescXfbbBRdbEZSjX5d
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ukJ2qr82oEuCTM4WYW3F7J
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yPQqs_1lQKmRtxCV31QVFa
+          claim_id: c_JDLMMa3_K_iQXzOlZbnpNl
+          source_id: s_2x0eoR7kNVdLFQTa14LvuT
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204105 王文翰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_2x0eoR7kNVdLFQTa14LvuT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文華（CBDB 314486）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314486&o=json
+            external_identifier: CBDB:314486
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6UgmescXfbbBRdbEZSjX5d
+        status: active
+        display_name: 王文華
+        merged_into_person_id: null
+    - claim:
+        id: c_WnVA2sLLNso7a97nR1QvRO
+        subject_person_id: p_fbm1nnS7D3rk8g2aY9pykX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ukJ2qr82oEuCTM4WYW3F7J
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QVWo0xCWYvbhB6JaEYMisV
+          claim_id: c_WnVA2sLLNso7a97nR1QvRO
+          source_id: s_QoGtNYlKGLBftfR3qwE5Nv
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204105 王文翰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_QoGtNYlKGLBftfR3qwE5Nv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文宣（CBDB 314483）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314483&o=json
+            external_identifier: CBDB:314483
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fbm1nnS7D3rk8g2aY9pykX
+        status: active
+        display_name: 王文宣
+        merged_into_person_id: null
+    - claim:
+        id: c_6fwLTM75m5E5e2ekf93upH
+        subject_person_id: p_kWzhWb3Nuj81n5vgmHJdDD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ukJ2qr82oEuCTM4WYW3F7J
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hPkiaQD35aS7p6XewBePLe
+          claim_id: c_6fwLTM75m5E5e2ekf93upH
+          source_id: s_rSRllFbpE3vWNEGXIfCcvK
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204105 王文翰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_rSRllFbpE3vWNEGXIfCcvK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文宗（CBDB 314482）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314482&o=json
+            external_identifier: CBDB:314482
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kWzhWb3Nuj81n5vgmHJdDD
+        status: active
+        display_name: 王文宗
+        merged_into_person_id: null
+    - claim:
+        id: c_ayyYRB3UwNcWC4K2_w_KGf
+        subject_person_id: p_ukJ2qr82oEuCTM4WYW3F7J
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wxnRoaVPFW8NVuD7PYEjHn
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DUs6gJ4iNOjp6SNUFBQYIM
+          claim_id: c_ayyYRB3UwNcWC4K2_w_KGf
+          source_id: s_BZcn5zeAFT4_WaOXP6ntyW
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204105 王文翰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_BZcn5zeAFT4_WaOXP6ntyW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文榮（CBDB 314485）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314485&o=json
+            external_identifier: CBDB:314485
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wxnRoaVPFW8NVuD7PYEjHn
+        status: active
+        display_name: 王文榮
+        merged_into_person_id: null
 ---
 
 # 王文翰
@@ -240,6 +388,10 @@ relationships:
 | parents | p_vDgtFRNYxuxGwwcAPH4NeN | 王繼 | accepted |
 | ancestors | p_TfMLi6NbWH8rKkGCKLEG8g | 王林 | accepted |
 | ancestors | p_TJqwo9PYn9Wa7jb1JfTd9H | 王全 | accepted |
+| other | p_6UgmescXfbbBRdbEZSjX5d | 王文華 | accepted |
+| other | p_fbm1nnS7D3rk8g2aY9pykX | 王文宣 | accepted |
+| other | p_kWzhWb3Nuj81n5vgmHJdDD | 王文宗 | accepted |
+| other | p_wxnRoaVPFW8NVuD7PYEjHn | 王文榮 | accepted |
 
 ## 外部来源
 
@@ -247,3 +399,7 @@ relationships:
 - [中国历代人物传记资料库：王林（CBDB 314477）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314477&o=json)
 - [中国历代人物传记资料库：王全（CBDB 314476）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314476&o=json)
 - [中国历代人物传记资料库：王文翰（CBDB 204105）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204105&o=json)
+- [中国历代人物传记资料库：王文華（CBDB 314486）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314486&o=json)
+- [中国历代人物传记资料库：王文榮（CBDB 314485）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314485&o=json)
+- [中国历代人物传记资料库：王文宣（CBDB 314483）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314483&o=json)
+- [中国历代人物传记资料库：王文宗（CBDB 314482）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314482&o=json)

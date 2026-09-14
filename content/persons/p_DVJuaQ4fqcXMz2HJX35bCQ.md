@@ -4,7 +4,7 @@ id: p_DVJuaQ4fqcXMz2HJX35bCQ
 status: active
 merged_into: null
 display_name: 王一魁
-revision: 7
+revision: 9
 properties:
   - predicate: name.primary
     recommended:
@@ -331,7 +331,81 @@ relationships:
         display_name: 王瓘
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_vXcr1kPJ8KGXyQ6fCwazt7
+        subject_person_id: p_DVJuaQ4fqcXMz2HJX35bCQ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_E7f9fyw1wKNTk9ED8RJPTC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0Cmy05FeOVC3S9xqyvKwks
+          claim_id: c_vXcr1kPJ8KGXyQ6fCwazt7
+          source_id: s_5PETxxKCO7Txs-80-gp6gC
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207258 王一魁）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_5PETxxKCO7Txs-80-gp6gC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王一鶚（CBDB 230382）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230382&o=json
+            external_identifier: CBDB:230382
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_E7f9fyw1wKNTk9ED8RJPTC
+        status: active
+        display_name: 王一鶚
+        merged_into_person_id: null
+    - claim:
+        id: c_xZikRTACLk9PaVoiu_eSaf
+        subject_person_id: p_DVJuaQ4fqcXMz2HJX35bCQ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Xws41BjhrnYNnnH6T3mqXy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Bn71-g1sZqafbwbLvFeP8W
+          claim_id: c_xZikRTACLk9PaVoiu_eSaf
+          source_id: s_3WHT-LB_xakUwVfQtlt7Tk
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207258 王一魁）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_3WHT-LB_xakUwVfQtlt7Tk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王一麟（CBDB 230383）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230383&o=json
+            external_identifier: CBDB:230383
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Xws41BjhrnYNnnH6T3mqXy
+        status: active
+        display_name: 王一麟
+        merged_into_person_id: null
 ---
 
 # 王一魁
@@ -356,6 +430,8 @@ relationships:
 | children | p_zoahTUYcVqJSaNXiMaBJLj | 王夢蟾 | accepted |
 | ancestors | p_JYdYtadGp7FCR1QziP7DkZ | 王平 | accepted |
 | ancestors | p_Rs4iVjw5c4LdbvYywk1bLT | 王瓘 | accepted |
+| other | p_E7f9fyw1wKNTk9ED8RJPTC | 王一鶚 | accepted |
+| other | p_Xws41BjhrnYNnnH6T3mqXy | 王一麟 | accepted |
 
 ## 外部来源
 
@@ -365,4 +441,6 @@ relationships:
 - [中国历代人物传记资料库：王夢虺（CBDB 230387）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230387&o=json)
 - [中国历代人物传记资料库：王夢熊（CBDB 230386）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230386&o=json)
 - [中国历代人物传记资料库：王平（CBDB 230376）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230376&o=json)
+- [中国历代人物传记资料库：王一鶚（CBDB 230382）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230382&o=json)
 - [中国历代人物传记资料库：王一魁（CBDB 207258）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207258&o=json)
+- [中国历代人物传记资料库：王一麟（CBDB 230383）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=230383&o=json)

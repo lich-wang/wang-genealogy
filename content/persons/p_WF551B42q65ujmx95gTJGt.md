@@ -4,7 +4,7 @@ id: p_WF551B42q65ujmx95gTJGt
 status: active
 merged_into: null
 display_name: 王綖
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -246,7 +246,44 @@ relationships:
         display_name: 王貴
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_AnnjguiUlwaZ5tfGog8Cav
+        subject_person_id: p_WF551B42q65ujmx95gTJGt
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nFaXqWg7gy1dLGSeEQqQPg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Uef9q1FyL1bI23lMMSsH3Q
+          claim_id: c_AnnjguiUlwaZ5tfGog8Cav
+          source_id: s_ffSupKpKCTN18tlsqX3AYQ
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126771 王綖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ffSupKpKCTN18tlsqX3AYQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王約（CBDB 272835）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272835&o=json
+            external_identifier: CBDB:272835
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nFaXqWg7gy1dLGSeEQqQPg
+        status: active
+        display_name: 王約
+        merged_into_person_id: null
 ---
 
 # 王綖
@@ -269,6 +306,7 @@ relationships:
 | parents | p_mCtAQA38FjMf51Dp9sA6Hp | 王溥 | accepted |
 | ancestors | p_4645iYbkHLJUi3dawpW4di | 王福榮 | accepted |
 | ancestors | p_RCPYt29wJNBVHLBjSXqQWe | 王貴 | accepted |
+| other | p_nFaXqWg7gy1dLGSeEQqQPg | 王約 | accepted |
 
 ## 外部来源
 
@@ -276,3 +314,4 @@ relationships:
 - [中国历代人物传记资料库：王貴（CBDB 272831）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272831&o=json)
 - [中国历代人物传记资料库：王溥（CBDB 272832）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272832&o=json)
 - [中国历代人物传记资料库：王綖（CBDB 126771）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126771&o=json)
+- [中国历代人物传记资料库：王約（CBDB 272835）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272835&o=json)

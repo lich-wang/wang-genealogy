@@ -4,7 +4,7 @@ id: p_DLgwvbrpd2z3aWrsrW3ty3
 status: active
 merged_into: null
 display_name: 王瑜
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_E3Tvev5M4cfCbR88sOQtAx
+        subject_person_id: p_pC9EkvHAEVnP4tzE8bJFvr
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DLgwvbrpd2z3aWrsrW3ty3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kB8QgGOeZhU5sQcHGGEopm
+          claim_id: c_E3Tvev5M4cfCbR88sOQtAx
+          source_id: s_9-WghJEYnlLWUqauYzMcwc
+          stance: supports
+          locator: CBDB：兄弟 王瓚（126891）之父／母 王思恭
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王瑜 与 王瓚 为同胞（CBDB 记「兄」），王瓚 之父／母即 王瑜 之父／母。
+          source:
+            id: s_9-WghJEYnlLWUqauYzMcwc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑜（CBDB 255262）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255262&o=json
+            external_identifier: CBDB:255262
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_pC9EkvHAEVnP4tzE8bJFvr
+        status: active
+        display_name: 王思恭
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_quYaV_aFN-eZRu3ReYZVnA
+        subject_person_id: p_DLgwvbrpd2z3aWrsrW3ty3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vs2bQpvZMdxn2V6wjvzkce
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8B1N68czGYwDTxsSoA9jFo
+          claim_id: c_quYaV_aFN-eZRu3ReYZVnA
+          source_id: s_9-WghJEYnlLWUqauYzMcwc
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126891 王瓚）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_9-WghJEYnlLWUqauYzMcwc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑜（CBDB 255262）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255262&o=json
+            external_identifier: CBDB:255262
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vs2bQpvZMdxn2V6wjvzkce
+        status: active
+        display_name: 王瓚
+        merged_into_person_id: null
 ---
 
 # 王瑜
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_pC9EkvHAEVnP4tzE8bJFvr | 王思恭 | accepted |
+| other | p_vs2bQpvZMdxn2V6wjvzkce | 王瓚 | accepted |
 
 ## 外部来源
 

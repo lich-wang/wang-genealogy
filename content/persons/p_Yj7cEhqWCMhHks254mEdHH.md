@@ -4,7 +4,7 @@ id: p_Yj7cEhqWCMhHks254mEdHH
 status: active
 merged_into: null
 display_name: 王琳
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_lCI4jwaIyhfCyKEikl11KQ
+        subject_person_id: p_vi9ZDtvEhQ6sUw3P3TjQzS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Yj7cEhqWCMhHks254mEdHH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qMSgJMoxtZfZ7DcZaJFSH8
+          claim_id: c_lCI4jwaIyhfCyKEikl11KQ
+          source_id: s_5iHLGb2O7R8QcOJgqrHmpq
+          stance: supports
+          locator: CBDB：兄弟 王瑫（126779）之父／母 王鞏謙
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王琳 与 王瑫 为同胞（CBDB 记「兄」），王瑫 之父／母即 王琳 之父／母。
+          source:
+            id: s_5iHLGb2O7R8QcOJgqrHmpq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王琳（CBDB 255913）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255913&o=json
+            external_identifier: CBDB:255913
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vi9ZDtvEhQ6sUw3P3TjQzS
+        status: active
+        display_name: 王鞏謙
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ERdanpzhmwVYEVZwtg4m03
+        subject_person_id: p_2Loswb2HqViVcQmQ8rSFe9
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Yj7cEhqWCMhHks254mEdHH
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DkC6RLdmRosplrQVqA9lcH
+          claim_id: c_ERdanpzhmwVYEVZwtg4m03
+          source_id: s_5iHLGb2O7R8QcOJgqrHmpq
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126779 王瑫）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_5iHLGb2O7R8QcOJgqrHmpq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王琳（CBDB 255913）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255913&o=json
+            external_identifier: CBDB:255913
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2Loswb2HqViVcQmQ8rSFe9
+        status: active
+        display_name: 王瑫
+        merged_into_person_id: null
 ---
 
 # 王琳
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vi9ZDtvEhQ6sUw3P3TjQzS | 王鞏謙 | accepted |
+| other | p_2Loswb2HqViVcQmQ8rSFe9 | 王瑫 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_oj7GmWXJ5DnZnWe1Rj6445
 status: active
 merged_into: null
 display_name: 王恩
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ixUfqsBkNJAXg5_lgHw0Nx
+        subject_person_id: p_ujsEdeJcxM64Nah2LiaMGR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oj7GmWXJ5DnZnWe1Rj6445
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VzmgZvLiLakR3Tvw4Nv_de
+          claim_id: c_ixUfqsBkNJAXg5_lgHw0Nx
+          source_id: s_tqlHUle6LVhZzOiMydS4QK
+          stance: supports
+          locator: CBDB：兄弟 王忠（201503）之父／母 王廷賓
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王恩 与 王忠 为同胞（CBDB 记「弟」），王忠 之父／母即 王恩 之父／母。
+          source:
+            id: s_tqlHUle6LVhZzOiMydS4QK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恩（CBDB 273482）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273482&o=json
+            external_identifier: CBDB:273482
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ujsEdeJcxM64Nah2LiaMGR
+        status: active
+        display_name: 王廷賓
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_LcgTr9YPqUfVmuqpVVIgKQ
+        subject_person_id: p_2Fu5oCqGVWkUyo9rZxcW5L
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_oj7GmWXJ5DnZnWe1Rj6445
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EpKcsNfNjLV6_U1OE1qJI0
+          claim_id: c_LcgTr9YPqUfVmuqpVVIgKQ
+          source_id: s_tqlHUle6LVhZzOiMydS4QK
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201503 王忠）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_tqlHUle6LVhZzOiMydS4QK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恩（CBDB 273482）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273482&o=json
+            external_identifier: CBDB:273482
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2Fu5oCqGVWkUyo9rZxcW5L
+        status: active
+        display_name: 王忠
+        merged_into_person_id: null
 ---
 
 # 王恩
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ujsEdeJcxM64Nah2LiaMGR | 王廷賓 | accepted |
+| other | p_2Fu5oCqGVWkUyo9rZxcW5L | 王忠 | accepted |
 
 ## 外部来源
 

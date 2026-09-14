@@ -4,7 +4,7 @@ id: p_4o6RLir4wuSksA4MPcBjzS
 status: active
 merged_into: null
 display_name: 王境
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_eWNgNN-n6f2UUUt7YCKgfB
+        subject_person_id: p_FygGhfrnq3smeMksbXnbJf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4o6RLir4wuSksA4MPcBjzS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_APPTCrAhf54LyUByYirPqt
+          claim_id: c_eWNgNN-n6f2UUUt7YCKgfB
+          source_id: s_hO_Bvvg4cBJQ0QIcbS1wei
+          stance: supports
+          locator: CBDB：兄弟 王都（207078）之父／母 王雍熙
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王境 与 王都 为同胞（CBDB 记「弟」），王都 之父／母即 王境 之父／母。
+          source:
+            id: s_hO_Bvvg4cBJQ0QIcbS1wei
+            source_type: api_record
+            title: 中国历代人物传记资料库：王境（CBDB 227297）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227297&o=json
+            external_identifier: CBDB:227297
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FygGhfrnq3smeMksbXnbJf
+        status: active
+        display_name: 王雍熙
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_BzQecNoUsy9A-z7B7RZ6Y_
+        subject_person_id: p_4UbRK7w6DiK7iFYWsav6v1
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_4o6RLir4wuSksA4MPcBjzS
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Qyjf3Cxn_sI3qyVIMNK8_k
+          claim_id: c_BzQecNoUsy9A-z7B7RZ6Y_
+          source_id: s_hO_Bvvg4cBJQ0QIcbS1wei
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207078 王都）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hO_Bvvg4cBJQ0QIcbS1wei
+            source_type: api_record
+            title: 中国历代人物传记资料库：王境（CBDB 227297）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227297&o=json
+            external_identifier: CBDB:227297
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4UbRK7w6DiK7iFYWsav6v1
+        status: active
+        display_name: 王都
+        merged_into_person_id: null
 ---
 
 # 王境
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_FygGhfrnq3smeMksbXnbJf | 王雍熙 | accepted |
+| other | p_4UbRK7w6DiK7iFYWsav6v1 | 王都 | accepted |
 
 ## 外部来源
 

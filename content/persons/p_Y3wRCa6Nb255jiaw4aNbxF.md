@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仕亨
 cbdb_id: 254338
-revision: 2
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -113,6 +113,80 @@ relationships:
         status: active
         display_name: 王彝
         merged_into_person_id: null
+    - claim:
+        id: c_jubMOKwkVcuQ8ICnQamfsc
+        subject_person_id: p_Y3wRCa6Nb255jiaw4aNbxF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_88aW4qqVfVPkCBokMNdnzW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_O2pdW2Fed1nRPzL9vcxADY
+          claim_id: c_jubMOKwkVcuQ8ICnQamfsc
+          source_id: s_6TOxj2xkxtfMuqORvJYcP7
+          stance: supports
+          locator: CBDB：兄弟 王彝（200153）之父／母 王仕亨
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王叔 与 王彝 为同胞（CBDB 记「兄」），王彝 之父／母即 王叔 之父／母。
+          source:
+            id: s_6TOxj2xkxtfMuqORvJYcP7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王叔（CBDB 254341）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254341&o=json
+            external_identifier: CBDB:254341
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_88aW4qqVfVPkCBokMNdnzW
+        status: active
+        display_name: 王叔
+        merged_into_person_id: null
+    - claim:
+        id: c_Z8x1ZaWmdLpzRUGyz9Au_W
+        subject_person_id: p_Y3wRCa6Nb255jiaw4aNbxF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cKDD8AK9koSSMPZF8PPASp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KpAS7uxtJnChJsw7MniQWa
+          claim_id: c_Z8x1ZaWmdLpzRUGyz9Au_W
+          source_id: s_KRH654eUgQQraTyA6AXLU0
+          stance: supports
+          locator: CBDB：兄弟 王彝（200153）之父／母 王仕亨
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王性 与 王彝 为同胞（CBDB 记「兄」），王彝 之父／母即 王性 之父／母。
+          source:
+            id: s_KRH654eUgQQraTyA6AXLU0
+            source_type: api_record
+            title: 中国历代人物传记资料库：王性（CBDB 254342）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254342&o=json
+            external_identifier: CBDB:254342
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cKDD8AK9koSSMPZF8PPASp
+        status: active
+        display_name: 王性
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -137,8 +211,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_jHwZfHWM4vMLPpm1ZfMXFt | 王彝 | accepted |
+| children | p_88aW4qqVfVPkCBokMNdnzW | 王叔 | accepted |
+| children | p_cKDD8AK9koSSMPZF8PPASp | 王性 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王仕亨（CBDB 254338）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254338&o=json)
+- [中国历代人物传记资料库：王叔（CBDB 254341）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254341&o=json)
+- [中国历代人物传记资料库：王性（CBDB 254342）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=254342&o=json)
 - [中国历代人物传记资料库：王彝（CBDB 200153）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200153&o=json)

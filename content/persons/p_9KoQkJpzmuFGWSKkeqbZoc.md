@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王庭譔
 cbdb_id: 126634
-revision: 4
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -278,7 +278,81 @@ relationships:
         display_name: 王朝臣
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_RZepDom45bPwZ6_g9DnmzP
+        subject_person_id: p_9KoQkJpzmuFGWSKkeqbZoc
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_AzHbFDisRRKkMao2Tmvw7Z
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-bxhdv04cqZKAGce1cdl2f
+          claim_id: c_RZepDom45bPwZ6_g9DnmzP
+          source_id: s_e7FwaFP2_oNAUMba5Q8btV
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126634 王庭譔）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_e7FwaFP2_oNAUMba5Q8btV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王庭諫（CBDB 218644）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218644&o=json
+            external_identifier: CBDB:218644
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_AzHbFDisRRKkMao2Tmvw7Z
+        status: active
+        display_name: 王庭諫
+        merged_into_person_id: null
+    - claim:
+        id: c_t5sRT7DyZLXY9rbOQNimiP
+        subject_person_id: p_9KoQkJpzmuFGWSKkeqbZoc
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gE3QbBN9fCD2PUuxgRRX1T
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qFt99oN9sPcjfFRZ6nvB0F
+          claim_id: c_t5sRT7DyZLXY9rbOQNimiP
+          source_id: s_ebgxPuInHfu4IzmJvZhOyc
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126634 王庭譔）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ebgxPuInHfu4IzmJvZhOyc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王庭詩（CBDB 218642）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218642&o=json
+            external_identifier: CBDB:218642
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_gE3QbBN9fCD2PUuxgRRX1T
+        status: active
+        display_name: 王庭詩
+        merged_into_person_id: null
 ---
 
 # 王庭譔
@@ -301,10 +375,14 @@ relationships:
 | parents | p_tdX8aT3u5znQ3z4tHKtVu8 | 王吉兆 | accepted |
 | ancestors | p_9MsaeMMvmmFQ7uxt5jwtER | 王善述 | accepted |
 | ancestors | p_Hv8Fck1x12bcsMV3NbJZ62 | 王朝臣 | accepted |
+| other | p_AzHbFDisRRKkMao2Tmvw7Z | 王庭諫 | accepted |
+| other | p_gE3QbBN9fCD2PUuxgRRX1T | 王庭詩 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王朝臣（CBDB 218637）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218637&o=json)
 - [中国历代人物传记资料库：王吉兆（CBDB 218639）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218639&o=json)
 - [中国历代人物传记资料库：王善述（CBDB 218638）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218638&o=json)
+- [中国历代人物传记资料库：王庭諫（CBDB 218644）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218644&o=json)
+- [中国历代人物传记资料库：王庭詩（CBDB 218642）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=218642&o=json)
 - [中国历代人物传记资料库：王庭譔（CBDB 126634）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126634&o=json)

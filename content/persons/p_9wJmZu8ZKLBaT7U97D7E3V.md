@@ -4,7 +4,7 @@ id: p_9wJmZu8ZKLBaT7U97D7E3V
 status: active
 merged_into: null
 display_name: 王文錦
-revision: 2
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,154 @@ relationships:
         status: active
         display_name: 王應乾
         merged_into_person_id: null
+    - claim:
+        id: c_jpO37TSsu2VufCwaHZ4dcC
+        subject_person_id: p_9wJmZu8ZKLBaT7U97D7E3V
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5dHGKL6dvFs9TobMmidjvE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_S7VGDMh8QXZpHZ3WvEn6lh
+          claim_id: c_jpO37TSsu2VufCwaHZ4dcC
+          source_id: s_QWaO4R4YU5KSBKct-J8hpM
+          stance: supports
+          locator: CBDB：兄弟 王應乾（205803）之父／母 王文錦
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王應昇 与 王應乾 为同胞（CBDB 记「兄」），王應乾 之父／母即 王應昇 之父／母。
+          source:
+            id: s_QWaO4R4YU5KSBKct-J8hpM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應昇（CBDB 208839）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208839&o=json
+            external_identifier: CBDB:208839
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5dHGKL6dvFs9TobMmidjvE
+        status: active
+        display_name: 王應昇
+        merged_into_person_id: null
+    - claim:
+        id: c_2E2Sqm1siHT4bkJ3q2eEe8
+        subject_person_id: p_9wJmZu8ZKLBaT7U97D7E3V
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_631DC9e1iJAezZraGCuHTm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ygjTWxJNikhz6w6es1TbGO
+          claim_id: c_2E2Sqm1siHT4bkJ3q2eEe8
+          source_id: s__wxaBkXRFLQBBeHJ-8lqk4
+          stance: supports
+          locator: CBDB：兄弟 王應乾（205803）之父／母 王文錦
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王應晉 与 王應乾 为同胞（CBDB 记「兄」），王應乾 之父／母即 王應晉 之父／母。
+          source:
+            id: s__wxaBkXRFLQBBeHJ-8lqk4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應晉（CBDB 208840）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208840&o=json
+            external_identifier: CBDB:208840
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_631DC9e1iJAezZraGCuHTm
+        status: active
+        display_name: 王應晉
+        merged_into_person_id: null
+    - claim:
+        id: c_H-OHTQPRHi-9IUbwlEf7IY
+        subject_person_id: p_9wJmZu8ZKLBaT7U97D7E3V
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mGyNT3kFkyNgy9szwF2Wxd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Kl69yHs0xQ80a2eY9uv22K
+          claim_id: c_H-OHTQPRHi-9IUbwlEf7IY
+          source_id: s_VhF0tqSrwbhjqDN9Oskp9Z
+          stance: supports
+          locator: CBDB：兄弟 王應乾（205803）之父／母 王文錦
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王應鼎 与 王應乾 为同胞（CBDB 记「兄」），王應乾 之父／母即 王應鼎 之父／母。
+          source:
+            id: s_VhF0tqSrwbhjqDN9Oskp9Z
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應鼎（CBDB 208838）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208838&o=json
+            external_identifier: CBDB:208838
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mGyNT3kFkyNgy9szwF2Wxd
+        status: active
+        display_name: 王應鼎
+        merged_into_person_id: null
+    - claim:
+        id: c_cXKNjYyYz7Pq1GI76j8_-f
+        subject_person_id: p_9wJmZu8ZKLBaT7U97D7E3V
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_s9nS8NH2KVQ8MEGZC3YoDu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_g_QqyuiXan3D_haxOTArFb
+          claim_id: c_cXKNjYyYz7Pq1GI76j8_-f
+          source_id: s_jRqIqL7WCkLPaqFsb3Z93Y
+          stance: supports
+          locator: CBDB：兄弟 王應乾（205803）之父／母 王文錦
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王應臨 与 王應乾 为同胞（CBDB 记「兄」），王應乾 之父／母即 王應臨 之父／母。
+          source:
+            id: s_jRqIqL7WCkLPaqFsb3Z93Y
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應臨（CBDB 208836）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208836&o=json
+            external_identifier: CBDB:208836
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_s9nS8NH2KVQ8MEGZC3YoDu
+        status: active
+        display_name: 王應臨
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +272,15 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_svtNF7GBN4DZNA4eqhmCDp | 王應乾 | accepted |
+| children | p_5dHGKL6dvFs9TobMmidjvE | 王應昇 | accepted |
+| children | p_631DC9e1iJAezZraGCuHTm | 王應晉 | accepted |
+| children | p_mGyNT3kFkyNgy9szwF2Wxd | 王應鼎 | accepted |
+| children | p_s9nS8NH2KVQ8MEGZC3YoDu | 王應臨 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王文錦（CBDB 208833）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208833&o=json)
+- [中国历代人物传记资料库：王應鼎（CBDB 208838）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208838&o=json)
+- [中国历代人物传记资料库：王應晉（CBDB 208840）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208840&o=json)
+- [中国历代人物传记资料库：王應臨（CBDB 208836）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208836&o=json)
+- [中国历代人物传记资料库：王應昇（CBDB 208839）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208839&o=json)

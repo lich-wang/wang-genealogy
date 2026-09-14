@@ -4,7 +4,7 @@ id: p_xG6Uatb4hvJpHFBwk8TY1u
 status: active
 merged_into: null
 display_name: 王祐
-revision: 5
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -176,6 +176,80 @@ relationships:
         status: active
         display_name: 王屏
         merged_into_person_id: null
+    - claim:
+        id: c_k2ApsOgWk5xmylDkhq6gpk
+        subject_person_id: p_xG6Uatb4hvJpHFBwk8TY1u
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jG2RSY6E84mjGaik9Hn6qk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ols4FmemEJm4kk76kVA4Cl
+          claim_id: c_k2ApsOgWk5xmylDkhq6gpk
+          source_id: s_JBwyXfRThbwJZyqkEfB2hQ
+          stance: supports
+          locator: CBDB：兄弟 王屏（199995）之父／母 王祐
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王幹 与 王屏 为同胞（CBDB 记「兄」），王屏 之父／母即 王幹 之父／母。
+          source:
+            id: s_JBwyXfRThbwJZyqkEfB2hQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王幹（CBDB 252361）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252361&o=json
+            external_identifier: CBDB:252361
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jG2RSY6E84mjGaik9Hn6qk
+        status: active
+        display_name: 王幹
+        merged_into_person_id: null
+    - claim:
+        id: c_UKi2d9Wpnk73kywwR2mVLb
+        subject_person_id: p_xG6Uatb4hvJpHFBwk8TY1u
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_v5Zg5veSk3WFL4Q7CvgAYw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8o09QlhyZYaLuDkS5WR78s
+          claim_id: c_UKi2d9Wpnk73kywwR2mVLb
+          source_id: s_liIQ6WdSf7f2ZVrb085G6K
+          stance: supports
+          locator: CBDB：兄弟 王屏（199995）之父／母 王祐
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王翊 与 王屏 为同胞（CBDB 记「兄」），王屏 之父／母即 王翊 之父／母。
+          source:
+            id: s_liIQ6WdSf7f2ZVrb085G6K
+            source_type: api_record
+            title: 中国历代人物传记资料库：王翊（CBDB 252362）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252362&o=json
+            external_identifier: CBDB:252362
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_v5Zg5veSk3WFL4Q7CvgAYw
+        status: active
+        display_name: 王翊
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -255,7 +329,44 @@ relationships:
         display_name: 王子文
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_YwV6kEbtvPhVRsO8fc-KNy
+        subject_person_id: p_5nVm6q9uX9xLyeMd9QMB9u
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xG6Uatb4hvJpHFBwk8TY1u
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3y76IwD4Wg3vvYY_H7b0kd
+          claim_id: c_YwV6kEbtvPhVRsO8fc-KNy
+          source_id: s_uqeRosfDtKDVkQUptE-x8H
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 198138 王祐）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_uqeRosfDtKDVkQUptE-x8H
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禎（CBDB 249188）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249188&o=json
+            external_identifier: CBDB:249188
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5nVm6q9uX9xLyeMd9QMB9u
+        status: active
+        display_name: 王禎
+        merged_into_person_id: null
 ---
 
 # 王祐
@@ -276,13 +387,19 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_Dufhb5NoCZnQdaJkaB21gq | 王璘 | accepted |
 | children | p_3BqLdv5ornEQLqdPoknpXE | 王屏 | accepted |
+| children | p_jG2RSY6E84mjGaik9Hn6qk | 王幹 | accepted |
+| children | p_v5Zg5veSk3WFL4Q7CvgAYw | 王翊 | accepted |
 | ancestors | p_cCQdbNu8vKtiv9UU7u2aGs | 王彥暉 | accepted |
 | ancestors | p_ozHizFN4XQeg2f6aZs9ThT | 王子文 | accepted |
+| other | p_5nVm6q9uX9xLyeMd9QMB9u | 王禎 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王幹（CBDB 252361）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252361&o=json)
 - [中国历代人物传记资料库：王璘（CBDB 248853）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248853&o=json)
 - [中国历代人物传记资料库：王屏（CBDB 199995）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199995&o=json)
 - [中国历代人物传记资料库：王彥暉（CBDB 248742）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248742&o=json)
+- [中国历代人物传记资料库：王翊（CBDB 252362）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252362&o=json)
 - [中国历代人物传记资料库：王祐（CBDB 198138）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198138&o=json)
+- [中国历代人物传记资料库：王禎（CBDB 249188）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249188&o=json)
 - [中国历代人物传记资料库：王子文（CBDB 248631）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248631&o=json)

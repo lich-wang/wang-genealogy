@@ -4,7 +4,7 @@ id: p_P7w7GSVTke7Bcq4tTxxYVb
 status: active
 merged_into: null
 display_name: 王崇學
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_5E87Mf35KY_y-n4quwhhR1
+        subject_person_id: p_P7w7GSVTke7Bcq4tTxxYVb
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_q65LjSR3e6s3Y3D1bpqPNS
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AUn4Hj57YdYyJ6qjrpDq66
+          claim_id: c_5E87Mf35KY_y-n4quwhhR1
+          source_id: s_Ci9lvzufrGrtXFjzMjlnij
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203246 王崇義）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Ci9lvzufrGrtXFjzMjlnij
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇學（CBDB 301929）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301929&o=json
+            external_identifier: CBDB:301929
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_q65LjSR3e6s3Y3D1bpqPNS
+        status: active
+        display_name: 王崇義
+        merged_into_person_id: null
 ---
 
 # 王崇學
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_q65LjSR3e6s3Y3D1bpqPNS | 王崇義 | accepted |
 
 ## 外部来源
 

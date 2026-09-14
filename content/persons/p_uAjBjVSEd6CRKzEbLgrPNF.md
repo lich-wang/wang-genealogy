@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王沅德
 cbdb_id: 519948
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,7 +74,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_hdhbDDws2Up2wGPOD_Ct_G
+        subject_person_id: p_cqedeQVYGL1qvgfyh6GuwW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uAjBjVSEd6CRKzEbLgrPNF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_k625wjsBJ7-tihW6vLnijl
+          claim_id: c_hdhbDDws2Up2wGPOD_Ct_G
+          source_id: s_uh-My85lXus5LWksb2bn3o
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 54478）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_uh-My85lXus5LWksb2bn3o
+            source_type: api_record
+            title: 中国历代人物传记资料库：王沅德（CBDB 519948）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=519948&o=json
+            external_identifier: CBDB:519948
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cqedeQVYGL1qvgfyh6GuwW
+        status: active
+        display_name: 秋瑾
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -99,6 +136,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_cqedeQVYGL1qvgfyh6GuwW | 秋瑾 | accepted |
 
 ## 外部来源
 

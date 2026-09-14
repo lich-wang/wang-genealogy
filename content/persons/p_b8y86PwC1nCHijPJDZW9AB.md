@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王廷籌
 cbdb_id: 328858
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_DbJHdgBOqHmqTATWD1pp3f
+        subject_person_id: p_HR4AmT7nnCGAtrL186TArG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_b8y86PwC1nCHijPJDZW9AB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_S_UHrHhuW0r-iT-gJtg0tQ
+          claim_id: c_DbJHdgBOqHmqTATWD1pp3f
+          source_id: s_JDAVL8EFuNPkELZO04Fd3u
+          stance: supports
+          locator: CBDB：兄弟 王廷簡（205141）之父／母 王聘
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王廷籌 与 王廷簡 为同胞（CBDB 记「兄」），王廷簡 之父／母即 王廷籌 之父／母。
+          source:
+            id: s_JDAVL8EFuNPkELZO04Fd3u
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷籌（CBDB 328858）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328858&o=json
+            external_identifier: CBDB:328858
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HR4AmT7nnCGAtrL186TArG
+        status: active
+        display_name: 王聘
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_4JCWnJxOmFsCW5ru0HsuCX
+        subject_person_id: p_4DFuV6CGsBNLfJsdyJ3xiy
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_b8y86PwC1nCHijPJDZW9AB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dJQ6ayPO6vS_J1p3lzwm3c
+          claim_id: c_4JCWnJxOmFsCW5ru0HsuCX
+          source_id: s_JDAVL8EFuNPkELZO04Fd3u
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205141 王廷簡）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_JDAVL8EFuNPkELZO04Fd3u
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷籌（CBDB 328858）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328858&o=json
+            external_identifier: CBDB:328858
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4DFuV6CGsBNLfJsdyJ3xiy
+        status: active
+        display_name: 王廷簡
+        merged_into_person_id: null
 ---
 
 # 王廷籌
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_HR4AmT7nnCGAtrL186TArG | 王聘 | accepted |
+| other | p_4DFuV6CGsBNLfJsdyJ3xiy | 王廷簡 | accepted |
 
 ## 外部来源
 

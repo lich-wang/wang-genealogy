@@ -4,7 +4,7 @@ id: p_79emZ1DAw7DpGb9pxiroNK
 status: active
 merged_into: null
 display_name: 王之坪
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,14 +128,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_6JBtW6kYw1snU9R9a6L1Kt
+        subject_person_id: p_sif3fGcwr2fDxQSME8rKoa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_79emZ1DAw7DpGb9pxiroNK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XCHtQHVUKBiKMQo7_RTZ_y
+          claim_id: c_6JBtW6kYw1snU9R9a6L1Kt
+          source_id: s_OTEEi2ZM1lY1w8lCAS3sqV
+          stance: supports
+          locator: CBDB：兄弟 王之坊（696661）之父／母 王鴻業
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王之坪 与 王之坊 为同胞（CBDB 记「兄弟」），王之坊 之父／母即 王之坪 之父／母。
+          source:
+            id: s_OTEEi2ZM1lY1w8lCAS3sqV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之坪（CBDB 71353）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71353&o=json
+            external_identifier: CBDB:71353
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_sif3fGcwr2fDxQSME8rKoa
+        status: active
+        display_name: 王鴻業
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ZKZHwwBXxIHiNgabF8Fo8H
+        subject_person_id: p_5y89wpysp6244o1D3pF767
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_79emZ1DAw7DpGb9pxiroNK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1QsNNAyhewlP7Pyi5lc6Pi
+          claim_id: c_ZKZHwwBXxIHiNgabF8Fo8H
+          source_id: s_OTEEi2ZM1lY1w8lCAS3sqV
+          stance: supports
+          locator: CBDB 亲属：兄弟（KinPerson 696661 王之坊）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_OTEEi2ZM1lY1w8lCAS3sqV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之坪（CBDB 71353）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71353&o=json
+            external_identifier: CBDB:71353
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5y89wpysp6244o1D3pF767
+        status: active
+        display_name: 王之坊
+        merged_into_person_id: null
 ---
 
 # 王之坪
@@ -155,6 +229,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_sif3fGcwr2fDxQSME8rKoa | 王鴻業 | accepted |
+| other | p_5y89wpysp6244o1D3pF767 | 王之坊 | accepted |
 
 ## 外部来源
 

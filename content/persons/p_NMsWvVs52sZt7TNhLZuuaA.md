@@ -4,7 +4,7 @@ id: p_NMsWvVs52sZt7TNhLZuuaA
 status: active
 merged_into: null
 display_name: 王嘉謨
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ErZuw7BddXI5R9LBspu_-7
+        subject_person_id: p_QEHQVSVhwwmdKZM4tKcH7N
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NMsWvVs52sZt7TNhLZuuaA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_d7X854tsL_CEa4-GAYuOty
+          claim_id: c_ErZuw7BddXI5R9LBspu_-7
+          source_id: s_-Qp9anh2OARnsk_jvIn1lp
+          stance: supports
+          locator: CBDB：兄弟 王嘉賓（207120）之父／母 王可久
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王嘉謨 与 王嘉賓 为同胞（CBDB 记「兄」），王嘉賓 之父／母即 王嘉謨 之父／母。
+          source:
+            id: s_-Qp9anh2OARnsk_jvIn1lp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嘉謨（CBDB 227993）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227993&o=json
+            external_identifier: CBDB:227993
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_QEHQVSVhwwmdKZM4tKcH7N
+        status: active
+        display_name: 王可久
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_LkaMs44IzUZ_sU_4-mNQsM
+        subject_person_id: p_NMsWvVs52sZt7TNhLZuuaA
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_yt96UUYNj3ASszrYuN2kTm
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Wag9cpnYHn5KIer2AhE-qr
+          claim_id: c_LkaMs44IzUZ_sU_4-mNQsM
+          source_id: s_-Qp9anh2OARnsk_jvIn1lp
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207120 王嘉賓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_-Qp9anh2OARnsk_jvIn1lp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嘉謨（CBDB 227993）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=227993&o=json
+            external_identifier: CBDB:227993
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_yt96UUYNj3ASszrYuN2kTm
+        status: active
+        display_name: 王嘉賓
+        merged_into_person_id: null
 ---
 
 # 王嘉謨
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_QEHQVSVhwwmdKZM4tKcH7N | 王可久 | accepted |
+| other | p_yt96UUYNj3ASszrYuN2kTm | 王嘉賓 | accepted |
 
 ## 外部来源
 

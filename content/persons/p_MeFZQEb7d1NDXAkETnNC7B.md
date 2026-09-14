@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王東美
 cbdb_id: 19221
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -75,7 +75,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_CTgVNAKzQJpzLdag2P30cx
+        subject_person_id: p_MeFZQEb7d1NDXAkETnNC7B
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xWzYD3M371WEWE85XtDvKQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_jWJnBFW4OV2dagc7PqZBQ0
+          claim_id: c_CTgVNAKzQJpzLdag2P30cx
+          source_id: s_HbLkesrWiHh50p0XDMgPKr
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 19221）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_HbLkesrWiHh50p0XDMgPKr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王顗（CBDB 19224）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19224&o=json
+            external_identifier: CBDB:19224
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xWzYD3M371WEWE85XtDvKQ
+        status: active
+        display_name: 王顗
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -173,6 +210,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_xWzYD3M371WEWE85XtDvKQ | 王顗 | accepted |
 | spouses | p_c6rhtMokSHkAsFNm8VHLaa | 蘇氏 | accepted |
 | descendants | p_d79JMkVEEPc8b8Z2w7ojav | 王慶 | accepted |
 
@@ -181,3 +219,4 @@ relationships:
 - [中国历代人物传记资料库：蘇氏(王東美妻)（CBDB 5317）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5317&o=json)
 - [中国历代人物传记资料库：王東美（CBDB 19221）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19221&o=json)
 - [中国历代人物传记资料库：王慶（CBDB 19225）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19225&o=json)
+- [中国历代人物传记资料库：王顗（CBDB 19224）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19224&o=json)

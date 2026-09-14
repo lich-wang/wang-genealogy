@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王同規
 cbdb_id: 153848
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ZpVuGf5RAOTJ8c00YQ79-C
+        subject_person_id: p_VbTv9jyE8TE8W3rehz6ZA8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tJo5kdCLExUULsEBs7RJh4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QZAKZS3MVopniRTFGbNUnd
+          claim_id: c_ZpVuGf5RAOTJ8c00YQ79-C
+          source_id: s__hfVVb53WZ2WcTwXyNBgUV
+          stance: supports
+          locator: CBDB：兄弟 王元泰（140931）之父／母 王義
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王同規 与 王元泰 为同胞（CBDB 记「兄」），王元泰 之父／母即 王同規 之父／母。
+          source:
+            id: s__hfVVb53WZ2WcTwXyNBgUV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王同規（CBDB 153848）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153848&o=json
+            external_identifier: CBDB:153848
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VbTv9jyE8TE8W3rehz6ZA8
+        status: active
+        display_name: 王義
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_-CdDMAjyNda4EHInq3Ly8F
+        subject_person_id: p_UE1q4HTiHr6dP2UxKLMoFA
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_tJo5kdCLExUULsEBs7RJh4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UGErehfchK1fhcMJlVQyxn
+          claim_id: c_-CdDMAjyNda4EHInq3Ly8F
+          source_id: s__hfVVb53WZ2WcTwXyNBgUV
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 140931 王元泰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__hfVVb53WZ2WcTwXyNBgUV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王同規（CBDB 153848）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=153848&o=json
+            external_identifier: CBDB:153848
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_UE1q4HTiHr6dP2UxKLMoFA
+        status: active
+        display_name: 王元泰
+        merged_into_person_id: null
 ---
 
 # 王同規
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_VbTv9jyE8TE8W3rehz6ZA8 | 王義 | accepted |
+| other | p_UE1q4HTiHr6dP2UxKLMoFA | 王元泰 | accepted |
 
 ## 外部来源
 

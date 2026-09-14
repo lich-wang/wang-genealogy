@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王同議
 cbdb_id: 326623
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_zOM4y5spG1onAiRyslDSAQ
+        subject_person_id: p_BQt5KMQt85phWutCQLQcnd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_s58PnUmfNbj4dJTDKq5fP2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZfrqHRGDTXwXEH8WCXEaRA
+          claim_id: c_zOM4y5spG1onAiRyslDSAQ
+          source_id: s_OMMPD-dBoiFj1C5ypaPMdi
+          stance: supports
+          locator: CBDB：兄弟 王同讚（204969）之父／母 王叔中
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王同議 与 王同讚 为同胞（CBDB 记「兄」），王同讚 之父／母即 王同議 之父／母。
+          source:
+            id: s_OMMPD-dBoiFj1C5ypaPMdi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王同議（CBDB 326623）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326623&o=json
+            external_identifier: CBDB:326623
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BQt5KMQt85phWutCQLQcnd
+        status: active
+        display_name: 王叔中
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_r6kBI5k8ShAxQWmH8pqIIB
+        subject_person_id: p_4PMudrRao4a9cRDuakPq7M
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_s58PnUmfNbj4dJTDKq5fP2
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9dtG8o3-VGn9tsKoNqylMJ
+          claim_id: c_r6kBI5k8ShAxQWmH8pqIIB
+          source_id: s_OMMPD-dBoiFj1C5ypaPMdi
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204969 王同讚）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_OMMPD-dBoiFj1C5ypaPMdi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王同議（CBDB 326623）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326623&o=json
+            external_identifier: CBDB:326623
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4PMudrRao4a9cRDuakPq7M
+        status: active
+        display_name: 王同讚
+        merged_into_person_id: null
 ---
 
 # 王同議
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_BQt5KMQt85phWutCQLQcnd | 王叔中 | accepted |
+| other | p_4PMudrRao4a9cRDuakPq7M | 王同讚 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_uEBsw62GZpP7Jv5oaHffEz
 status: active
 merged_into: null
 display_name: 王曾
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -272,7 +272,44 @@ relationships:
         merged_into_person_id: null
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_N8VGBSs26hNsP_Cs4Vbpt6
+        subject_person_id: p_uEBsw62GZpP7Jv5oaHffEz
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_y4LfRJV5tRugxLWL4RY4Jm
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4AV766pL1E20ZmxQL8_kCa
+          claim_id: c_N8VGBSs26hNsP_Cs4Vbpt6
+          source_id: s_GRux7Uom8TlnDfW5Ytlh61
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 1901 王曾）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_GRux7Uom8TlnDfW5Ytlh61
+            source_type: api_record
+            title: 中国历代人物传记资料库：王皡（CBDB 45816）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=45816&o=json
+            external_identifier: CBDB:45816
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_y4LfRJV5tRugxLWL4RY4Jm
+        status: active
+        display_name: 王皡
+        merged_into_person_id: null
 ---
 
 # 王曾
@@ -296,10 +333,12 @@ relationships:
 | children | p_AL68DmCpuacJ2nw7znarWd | 王紹 | accepted |
 | children | p_hNocUfmi2fcu8ZuRLW8Mi3 | 王縡 | accepted |
 | spouses | p_M3jGF8huK9VAS8NEuNFjCk | 李氏 | accepted |
+| other | p_y4LfRJV5tRugxLWL4RY4Jm | 王皡 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：李氏(王曾妻)（CBDB 38330）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38330&o=json)
 - [中国历代人物传记资料库：王曾（CBDB 1901）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1901&o=json)
+- [中国历代人物传记资料库：王皡（CBDB 45816）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=45816&o=json)
 - [中国历代人物传记资料库：王紹（CBDB 38331）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38331&o=json)
 - [中国历代人物传记资料库：王縡（CBDB 119721）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119721&o=json)

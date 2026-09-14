@@ -4,7 +4,7 @@ id: p_eQaNt5E49dd91bpPLHPWVC
 status: active
 merged_into: null
 display_name: 王椿
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_wLDKZ-PLSdEX8HaRp81EAf
+        subject_person_id: p_JJVNEEM87Q9sBUqrYf9DpQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eQaNt5E49dd91bpPLHPWVC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__c7nT4y2Wm45n-U0RGhBgK
+          claim_id: c_wLDKZ-PLSdEX8HaRp81EAf
+          source_id: s_ScQgqNY8EXWUda5ua0vVFR
+          stance: supports
+          locator: CBDB：兄弟 王材（201358）之父／母 王瓊
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王椿 与 王材 为同胞（CBDB 记「兄」），王材 之父／母即 王椿 之父／母。
+          source:
+            id: s_ScQgqNY8EXWUda5ua0vVFR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王椿（CBDB 271114）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271114&o=json
+            external_identifier: CBDB:271114
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JJVNEEM87Q9sBUqrYf9DpQ
+        status: active
+        display_name: 王瓊
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_4eN5gOYDff8yUbz82Hmxwn
+        subject_person_id: p_5dqAK3hD6kewBU4JbJcy31
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_eQaNt5E49dd91bpPLHPWVC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E7IQaddDSf_0oPRuxUjVHb
+          claim_id: c_4eN5gOYDff8yUbz82Hmxwn
+          source_id: s_ScQgqNY8EXWUda5ua0vVFR
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201358 王材）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ScQgqNY8EXWUda5ua0vVFR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王椿（CBDB 271114）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271114&o=json
+            external_identifier: CBDB:271114
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5dqAK3hD6kewBU4JbJcy31
+        status: active
+        display_name: 王材
+        merged_into_person_id: null
 ---
 
 # 王椿
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_JJVNEEM87Q9sBUqrYf9DpQ | 王瓊 | accepted |
+| other | p_5dqAK3hD6kewBU4JbJcy31 | 王材 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_sWM26QxsGWgD9MLXJD13Qg
 status: active
 merged_into: null
 display_name: 王銘
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,43 @@ relationships:
         status: active
         display_name: 王時
         merged_into_person_id: null
+    - claim:
+        id: c_zfelC40xTzf5tFdRsNvTRY
+        subject_person_id: p_sWM26QxsGWgD9MLXJD13Qg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MR6zD8ShT9jNw6AJicDyKJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MfhVaT6sxQz1BEeTTnz5hd
+          claim_id: c_zfelC40xTzf5tFdRsNvTRY
+          source_id: s_AncK0I7X17Mlu7zw4eHs8L
+          stance: supports
+          locator: CBDB：兄弟 王時（200965）之父／母 王銘
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王暉 与 王時 为同胞（CBDB 记「兄」），王時 之父／母即 王暉 之父／母。
+          source:
+            id: s_AncK0I7X17Mlu7zw4eHs8L
+            source_type: api_record
+            title: 中国历代人物传记资料库：王暉（CBDB 265227）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265227&o=json
+            external_identifier: CBDB:265227
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MR6zD8ShT9jNw6AJicDyKJ
+        status: active
+        display_name: 王暉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_5vDjPyewsQNr1vDc9fypfb | 王時 | accepted |
+| children | p_MR6zD8ShT9jNw6AJicDyKJ | 王暉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王暉（CBDB 265227）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265227&o=json)
 - [中国历代人物传记资料库：王銘（CBDB 265222）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265222&o=json)
 - [中国历代人物传记资料库：王時（CBDB 200965）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200965&o=json)

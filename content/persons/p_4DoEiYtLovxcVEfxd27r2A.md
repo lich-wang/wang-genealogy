@@ -4,7 +4,7 @@ id: p_4DoEiYtLovxcVEfxd27r2A
 status: active
 merged_into: null
 display_name: 王詔
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,118 @@ relationships:
         display_name: 王智
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_N6KI6U1gTWGb4kUBCvTW-Q
+        subject_person_id: p_1HkFkTf4tHoX7LaHqLF6KD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_4DoEiYtLovxcVEfxd27r2A
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5yULRKaroCbSp33qpgVH4K
+          claim_id: c_N6KI6U1gTWGb4kUBCvTW-Q
+          source_id: s_qDsIr0aRHjGQ69qg6rP6F4
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205634 王詔）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_qDsIr0aRHjGQ69qg6rP6F4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王來聘（CBDB 336275）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336275&o=json
+            external_identifier: CBDB:336275
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1HkFkTf4tHoX7LaHqLF6KD
+        status: active
+        display_name: 王來聘
+        merged_into_person_id: null
+    - claim:
+        id: c_NbDegZlsQkiSw0uGKLISeb
+        subject_person_id: p_4DoEiYtLovxcVEfxd27r2A
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_PPNZnTHWQZoFJFBeBGWT9K
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zzu-ElNTZ3J8Ul-_gfZyBC
+          claim_id: c_NbDegZlsQkiSw0uGKLISeb
+          source_id: s_gS0lzVXDIWLXwXkBAvACmd
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205634 王詔）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_gS0lzVXDIWLXwXkBAvACmd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王來徵（CBDB 336276）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336276&o=json
+            external_identifier: CBDB:336276
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PPNZnTHWQZoFJFBeBGWT9K
+        status: active
+        display_name: 王來徵
+        merged_into_person_id: null
+    - claim:
+        id: c_HjMMgs_EEFulCIoOwylIzu
+        subject_person_id: p_4DoEiYtLovxcVEfxd27r2A
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_jye57mE6Xx3PfuTCK5QS1h
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YYQonGaY11X_gzr2F_-_J2
+          claim_id: c_HjMMgs_EEFulCIoOwylIzu
+          source_id: s_wFqyzYEU-4zDlSU75IpOBo
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205634 王詔）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_wFqyzYEU-4zDlSU75IpOBo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王來問（CBDB 336278）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336278&o=json
+            external_identifier: CBDB:336278
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jye57mE6Xx3PfuTCK5QS1h
+        status: active
+        display_name: 王來問
+        merged_into_person_id: null
 ---
 
 # 王詔
@@ -245,8 +356,14 @@ relationships:
 | spouses | p_q77xKDtrUPVB6rK8MGT5c2 | 趙氏 | accepted |
 | ancestors | p_H4DK5Z2kFA82LhzNTjYgn3 | 王彥實 | accepted |
 | ancestors | p_iyW16tEs3JTe2h3LSNsk98 | 王智 | accepted |
+| other | p_1HkFkTf4tHoX7LaHqLF6KD | 王來聘 | accepted |
+| other | p_PPNZnTHWQZoFJFBeBGWT9K | 王來徵 | accepted |
+| other | p_jye57mE6Xx3PfuTCK5QS1h | 王來問 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王來聘（CBDB 336275）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336275&o=json)
+- [中国历代人物传记资料库：王來問（CBDB 336278）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336278&o=json)
+- [中国历代人物传记资料库：王來徵（CBDB 336276）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336276&o=json)
 - [中国历代人物传记资料库：王詔（CBDB 205634）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205634&o=json)
 - [中国历代人物传记资料库：趙氏(王詔妻)（CBDB 336273）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336273&o=json)

@@ -4,7 +4,7 @@ id: p_GBf4b1HmrRRj3Ux38Gx5Hv
 status: active
 merged_into: null
 display_name: 王子卿
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_mVTWp6D2Ulhw6d97YYuG17
+        subject_person_id: p_NoQErvZxoB9KT1iHrT84WN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GBf4b1HmrRRj3Ux38Gx5Hv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KLvjbcsGwps3j-WGna1HAc
+          claim_id: c_mVTWp6D2Ulhw6d97YYuG17
+          source_id: s_HFYjsT_SVCvVS4ySQKZTEY
+          stance: supports
+          locator: CBDB：兄弟 王子成（200985）之父／母 王紹
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王子卿 与 王子成 为同胞（CBDB 记「兄」），王子成 之父／母即 王子卿 之父／母。
+          source:
+            id: s_HFYjsT_SVCvVS4ySQKZTEY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子卿（CBDB 265622）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265622&o=json
+            external_identifier: CBDB:265622
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NoQErvZxoB9KT1iHrT84WN
+        status: active
+        display_name: 王紹
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_6wpbjAZyQhEyQpY8NW8eGW
+        subject_person_id: p_GBf4b1HmrRRj3Ux38Gx5Hv
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_akpqJMSSGZNHLkzngCE1Qi
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ngGTvjhTYgtaNSQDOOZq2D
+          claim_id: c_6wpbjAZyQhEyQpY8NW8eGW
+          source_id: s_HFYjsT_SVCvVS4ySQKZTEY
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200985 王子成）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_HFYjsT_SVCvVS4ySQKZTEY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子卿（CBDB 265622）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265622&o=json
+            external_identifier: CBDB:265622
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_akpqJMSSGZNHLkzngCE1Qi
+        status: active
+        display_name: 王子成
+        merged_into_person_id: null
 ---
 
 # 王子卿
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_NoQErvZxoB9KT1iHrT84WN | 王紹 | accepted |
+| other | p_akpqJMSSGZNHLkzngCE1Qi | 王子成 | accepted |
 
 ## 外部来源
 

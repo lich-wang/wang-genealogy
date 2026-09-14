@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王朝明
 cbdb_id: 282729
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -81,7 +81,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ggmdOR083eDXPta9k50w2o
+        subject_person_id: p_ARBsKDMivmjbBTxJiQz7Aa
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_P4fTteXTJto289f9nPogZ3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_satLKMG6ia6J3VyjTTKOWD
+          claim_id: c_ggmdOR083eDXPta9k50w2o
+          source_id: s_NgaGws1td5m0D0jaxJPHrz
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202059 王朝瑬）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_NgaGws1td5m0D0jaxJPHrz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王朝明（CBDB 282729）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282729&o=json
+            external_identifier: CBDB:282729
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ARBsKDMivmjbBTxJiQz7Aa
+        status: active
+        display_name: 王朝瑬
+        merged_into_person_id: null
 ---
 
 # 王朝明
@@ -99,6 +136,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_ARBsKDMivmjbBTxJiQz7Aa | 王朝瑬 | accepted |
 
 ## 外部来源
 

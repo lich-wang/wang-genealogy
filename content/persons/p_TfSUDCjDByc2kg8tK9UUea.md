@@ -4,7 +4,7 @@ id: p_TfSUDCjDByc2kg8tK9UUea
 status: active
 merged_into: null
 display_name: 王璡
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -144,7 +144,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_13u6j9TmMiFukriVCH4ods
+        subject_person_id: p_KD2EuMHQRQgQgZacHzwvRz
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_TfSUDCjDByc2kg8tK9UUea
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_W04enAv6JFwnAkZNH7S5S0
+          claim_id: c_13u6j9TmMiFukriVCH4ods
+          source_id: s_sC7P_a4qwxjA4delef7x7L
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 550758 王璡）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_sC7P_a4qwxjA4delef7x7L
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璉（CBDB 550751）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=550751&o=json
+            external_identifier: CBDB:550751
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KD2EuMHQRQgQgZacHzwvRz
+        status: active
+        display_name: 王璉
+        merged_into_person_id: null
 ---
 
 # 王璡
@@ -164,8 +201,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_AErBJCEERSbd6CuogcbqiX | 王篪 | accepted |
+| other | p_KD2EuMHQRQgQgZacHzwvRz | 王璉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王篪（CBDB 550766）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=550766&o=json)
 - [中国历代人物传记资料库：王璡（CBDB 550758）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=550758&o=json)
+- [中国历代人物传记资料库：王璉（CBDB 550751）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=550751&o=json)

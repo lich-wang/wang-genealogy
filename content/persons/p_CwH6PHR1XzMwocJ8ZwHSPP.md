@@ -4,7 +4,7 @@ id: p_CwH6PHR1XzMwocJ8ZwHSPP
 status: active
 merged_into: null
 display_name: 王豪
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,81 @@ relationships:
         display_name: 王順之
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_IbCaCp65IlzbQR_vKpZyeP
+        subject_person_id: p_AGQQjmY7TL9o4Ez2u4HPFV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_CwH6PHR1XzMwocJ8ZwHSPP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__5UEm_aAKsqdkwxrAHF4lx
+          claim_id: c_IbCaCp65IlzbQR_vKpZyeP
+          source_id: s_VILHOYz-3Bykr7Fx9gJW90
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 208164 王豪）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_VILHOYz-3Bykr7Fx9gJW90
+            source_type: api_record
+            title: 中国历代人物传记资料库：王亮（CBDB 241293）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241293&o=json
+            external_identifier: CBDB:241293
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_AGQQjmY7TL9o4Ez2u4HPFV
+        status: active
+        display_name: 王亮
+        merged_into_person_id: null
+    - claim:
+        id: c_Mu0I98Rn7n1LaoROkN5hYs
+        subject_person_id: p_CwH6PHR1XzMwocJ8ZwHSPP
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_o16nJWCknTU23jEgQqsW2B
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_siYv9c-b33zuu7LbcHlGsG
+          claim_id: c_Mu0I98Rn7n1LaoROkN5hYs
+          source_id: s_RGo-EtYYQE-eG-Yz7CncTh
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 208164 王豪）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_RGo-EtYYQE-eG-Yz7CncTh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑛（CBDB 241294）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241294&o=json
+            external_identifier: CBDB:241294
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_o16nJWCknTU23jEgQqsW2B
+        status: active
+        display_name: 王瑛
+        merged_into_person_id: null
 ---
 
 # 王豪
@@ -245,8 +319,12 @@ relationships:
 | spouses | p_AS96G4T4Cjygo3FnLyszPK | 蔣氏 | accepted |
 | ancestors | p_yL1B27xvickNJiY7j9s1xG | 王辛 | accepted |
 | ancestors | p_TH8m84MvA8fiu9ubysTSGe | 王順之 | accepted |
+| other | p_AGQQjmY7TL9o4Ez2u4HPFV | 王亮 | accepted |
+| other | p_o16nJWCknTU23jEgQqsW2B | 王瑛 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：蔣氏(王豪妻)（CBDB 241292）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241292&o=json)
 - [中国历代人物传记资料库：王豪（CBDB 208164）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208164&o=json)
+- [中国历代人物传记资料库：王亮（CBDB 241293）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241293&o=json)
+- [中国历代人物传记资料库：王瑛（CBDB 241294）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241294&o=json)

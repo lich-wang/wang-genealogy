@@ -4,7 +4,7 @@ id: p_sp87Q8ktX7kHeJfazKTe3u
 status: active
 merged_into: null
 display_name: 王琛
-revision: 2
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,191 @@ relationships:
         status: active
         display_name: 王翰臣
         merged_into_person_id: null
+    - claim:
+        id: c_f6Or_reHnH3Zbx2MzSE7fd
+        subject_person_id: p_sp87Q8ktX7kHeJfazKTe3u
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KoUEahydEBZ5RR5FbMUezS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lwKZmfbkXVlR6p8u4qPvRO
+          claim_id: c_f6Or_reHnH3Zbx2MzSE7fd
+          source_id: s_KsRHobB--pzVIPmmf8h2zs
+          stance: supports
+          locator: CBDB：兄弟 王翰臣（202016）之父／母 王琛
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王守臣 与 王翰臣 为同胞（CBDB 记「兄」），王翰臣 之父／母即 王守臣 之父／母。
+          source:
+            id: s_KsRHobB--pzVIPmmf8h2zs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王守臣（CBDB 282047）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282047&o=json
+            external_identifier: CBDB:282047
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KoUEahydEBZ5RR5FbMUezS
+        status: active
+        display_name: 王守臣
+        merged_into_person_id: null
+    - claim:
+        id: c_IXL40t3wofN7Sq1Oksqtkz
+        subject_person_id: p_sp87Q8ktX7kHeJfazKTe3u
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Kvt6vcEt4vWYbu9NBw1aMi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Kv216NvlviK6DFTe7PDiC1
+          claim_id: c_IXL40t3wofN7Sq1Oksqtkz
+          source_id: s_uU-RWGMPciSBJvW1p8z5-G
+          stance: supports
+          locator: CBDB：兄弟 王翰臣（202016）之父／母 王琛
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王甸臣 与 王翰臣 为同胞（CBDB 记「兄」），王翰臣 之父／母即 王甸臣 之父／母。
+          source:
+            id: s_uU-RWGMPciSBJvW1p8z5-G
+            source_type: api_record
+            title: 中国历代人物传记资料库：王甸臣（CBDB 282049）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282049&o=json
+            external_identifier: CBDB:282049
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Kvt6vcEt4vWYbu9NBw1aMi
+        status: active
+        display_name: 王甸臣
+        merged_into_person_id: null
+    - claim:
+        id: c_AJ7jP4SfQMjwEuv-QF5C7X
+        subject_person_id: p_sp87Q8ktX7kHeJfazKTe3u
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_niPWz32Lswxcn9bVNZ8Pxx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HjMWs-p3ZKA81-8DG5OuSY
+          claim_id: c_AJ7jP4SfQMjwEuv-QF5C7X
+          source_id: s_oxOil9jBbh5Svu6_fEJUlu
+          stance: supports
+          locator: CBDB：兄弟 王翰臣（202016）之父／母 王琛
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王親臣 与 王翰臣 为同胞（CBDB 记「兄」），王翰臣 之父／母即 王親臣 之父／母。
+          source:
+            id: s_oxOil9jBbh5Svu6_fEJUlu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王親臣（CBDB 282046）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282046&o=json
+            external_identifier: CBDB:282046
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_niPWz32Lswxcn9bVNZ8Pxx
+        status: active
+        display_name: 王親臣
+        merged_into_person_id: null
+    - claim:
+        id: c__2FrIfHm8NGA0TNj9LxaR4
+        subject_person_id: p_sp87Q8ktX7kHeJfazKTe3u
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rRx92rsgj5B1Dfj7HhD6jF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uII8aYib6m-nRpPQDWkaRK
+          claim_id: c__2FrIfHm8NGA0TNj9LxaR4
+          source_id: s_6gwtvM5bNLQPmxbdih9gTu
+          stance: supports
+          locator: CBDB：兄弟 王翰臣（202016）之父／母 王琛
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王拱臣 与 王翰臣 为同胞（CBDB 记「兄」），王翰臣 之父／母即 王拱臣 之父／母。
+          source:
+            id: s_6gwtvM5bNLQPmxbdih9gTu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王拱臣（CBDB 282045）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282045&o=json
+            external_identifier: CBDB:282045
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rRx92rsgj5B1Dfj7HhD6jF
+        status: active
+        display_name: 王拱臣
+        merged_into_person_id: null
+    - claim:
+        id: c_EumEvACv3z28i8ek00HUBP
+        subject_person_id: p_sp87Q8ktX7kHeJfazKTe3u
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_snWxZhRQPAWrkTPkPaDJFQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1zcqEZ-7lhivbi5beCBfzj
+          claim_id: c_EumEvACv3z28i8ek00HUBP
+          source_id: s_lgjm_7BdWPnRtv9ccNSmVa
+          stance: supports
+          locator: CBDB：兄弟 王翰臣（202016）之父／母 王琛
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王畿臣 与 王翰臣 为同胞（CBDB 记「兄」），王翰臣 之父／母即 王畿臣 之父／母。
+          source:
+            id: s_lgjm_7BdWPnRtv9ccNSmVa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王畿臣（CBDB 282048）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282048&o=json
+            external_identifier: CBDB:282048
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_snWxZhRQPAWrkTPkPaDJFQ
+        status: active
+        display_name: 王畿臣
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +309,17 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_Mm4Feno3TMRLDtespKCU2Q | 王翰臣 | accepted |
+| children | p_KoUEahydEBZ5RR5FbMUezS | 王守臣 | accepted |
+| children | p_Kvt6vcEt4vWYbu9NBw1aMi | 王甸臣 | accepted |
+| children | p_niPWz32Lswxcn9bVNZ8Pxx | 王親臣 | accepted |
+| children | p_rRx92rsgj5B1Dfj7HhD6jF | 王拱臣 | accepted |
+| children | p_snWxZhRQPAWrkTPkPaDJFQ | 王畿臣 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王琛（CBDB 282040）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282040&o=json)
+- [中国历代人物传记资料库：王甸臣（CBDB 282049）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282049&o=json)
+- [中国历代人物传记资料库：王拱臣（CBDB 282045）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282045&o=json)
+- [中国历代人物传记资料库：王畿臣（CBDB 282048）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282048&o=json)
+- [中国历代人物传记资料库：王親臣（CBDB 282046）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282046&o=json)
+- [中国历代人物传记资料库：王守臣（CBDB 282047）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282047&o=json)

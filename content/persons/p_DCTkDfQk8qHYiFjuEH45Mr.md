@@ -4,7 +4,7 @@ id: p_DCTkDfQk8qHYiFjuEH45Mr
 status: active
 merged_into: null
 display_name: 王遂
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,118 @@ relationships:
         display_name: 王韶
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_aNYffmfwCJfpWwCWa9xXnv
+        subject_person_id: p_DCTkDfQk8qHYiFjuEH45Mr
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ME9qH9btttK3rra3Adn7d5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-hEKm2_cM9QU5ADyDAZ8XB
+          claim_id: c_aNYffmfwCJfpWwCWa9xXnv
+          source_id: s_-VTadVqTh6g8O2g0KjWTzg
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 12053 王遂）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_-VTadVqTh6g8O2g0KjWTzg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王志叔（CBDB 38990）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38990&o=json
+            external_identifier: CBDB:38990
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ME9qH9btttK3rra3Adn7d5
+        status: active
+        display_name: 王志叔
+        merged_into_person_id: null
+    - claim:
+        id: c_Rid2GxEOrJRiW0DAihA3Q9
+        subject_person_id: p_DCTkDfQk8qHYiFjuEH45Mr
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hJDteFRnQExBHBJA693Wh3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KvHD1Qnn49siZZZk8HmiUu
+          claim_id: c_Rid2GxEOrJRiW0DAihA3Q9
+          source_id: s_tUFnz-YC3zOeey1UksTUPE
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 12053 王遂）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_tUFnz-YC3zOeey1UksTUPE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遜（CBDB 12054）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12054&o=json
+            external_identifier: CBDB:12054
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hJDteFRnQExBHBJA693Wh3
+        status: active
+        display_name: 王遜
+        merged_into_person_id: null
+    - claim:
+        id: c_FrEm6kqeMC-HK8IIlMuzmz
+        subject_person_id: p_DCTkDfQk8qHYiFjuEH45Mr
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ik2xLF8xu36Bj6AhBMnYty
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QDDCadTvJV88yy67-_D1Oi
+          claim_id: c_FrEm6kqeMC-HK8IIlMuzmz
+          source_id: s_hwidjsOxrcsbKglxeMQW43
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 12053 王遂）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hwidjsOxrcsbKglxeMQW43
+            source_type: api_record
+            title: 中国历代人物传记资料库：王選（CBDB 12055）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12055&o=json
+            external_identifier: CBDB:12055
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ik2xLF8xu36Bj6AhBMnYty
+        status: active
+        display_name: 王選
+        merged_into_person_id: null
 ---
 
 # 王遂
@@ -124,7 +235,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | ancestors | p_5QEFg5NX8fdCTZoicRnKAT | 王韶 | accepted |
+| other | p_ME9qH9btttK3rra3Adn7d5 | 王志叔 | accepted |
+| other | p_hJDteFRnQExBHBJA693Wh3 | 王遜 | accepted |
+| other | p_ik2xLF8xu36Bj6AhBMnYty | 王選 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王遂（CBDB 12053）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12053&o=json)
+- [中国历代人物传记资料库：王選（CBDB 12055）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12055&o=json)
+- [中国历代人物传记资料库：王遜（CBDB 12054）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12054&o=json)
+- [中国历代人物传记资料库：王志叔（CBDB 38990）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38990&o=json)

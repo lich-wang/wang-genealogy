@@ -4,7 +4,7 @@ id: p_XJXudkaLuCHVbmiCeKBv45
 status: active
 merged_into: null
 display_name: 王官
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,81 @@ relationships:
         display_name: 王清
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_23QxS2Uq3G2qZwCahYcHt4
+        subject_person_id: p_MVpuS4PFCyL38Pq5VTm49N
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_XJXudkaLuCHVbmiCeKBv45
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IcDfBo0TMTfZ5JAEgRrEZn
+          claim_id: c_23QxS2Uq3G2qZwCahYcHt4
+          source_id: s_ms7RBfxO2GdF2iLkB5jcHV
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201950 王官）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ms7RBfxO2GdF2iLkB5jcHV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王賓（CBDB 280992）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280992&o=json
+            external_identifier: CBDB:280992
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MVpuS4PFCyL38Pq5VTm49N
+        status: active
+        display_name: 王賓
+        merged_into_person_id: null
+    - claim:
+        id: c_YY5WqS6HQWFwmiTkG2h5hf
+        subject_person_id: p_XJXudkaLuCHVbmiCeKBv45
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vdMXD4CvUETGDTV3fm6nG8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9cRJyc-XpM8kSrIpfjVefW
+          claim_id: c_YY5WqS6HQWFwmiTkG2h5hf
+          source_id: s_WdGfmF0zDobw7ASn9_M1Ab
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201950 王官）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_WdGfmF0zDobw7ASn9_M1Ab
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寀（CBDB 280991）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280991&o=json
+            external_identifier: CBDB:280991
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vdMXD4CvUETGDTV3fm6nG8
+        status: active
+        display_name: 王寀
+        merged_into_person_id: null
 ---
 
 # 王官
@@ -240,9 +314,13 @@ relationships:
 | parents | p_RQpo9Kr6EeUuDNSVEJ5Qs2 | 王文進 | accepted |
 | ancestors | p_6SDy3bF7CQQgYA5jaz9rmc | 王誠 | accepted |
 | ancestors | p_QLYY3wK54kAaQowKFrboE5 | 王清 | accepted |
+| other | p_MVpuS4PFCyL38Pq5VTm49N | 王賓 | accepted |
+| other | p_vdMXD4CvUETGDTV3fm6nG8 | 王寀 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王賓（CBDB 280992）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280992&o=json)
+- [中国历代人物传记资料库：王寀（CBDB 280991）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280991&o=json)
 - [中国历代人物传记资料库：王誠（CBDB 280985）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280985&o=json)
 - [中国历代人物传记资料库：王官（CBDB 201950）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201950&o=json)
 - [中国历代人物传记资料库：王清（CBDB 280987）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280987&o=json)

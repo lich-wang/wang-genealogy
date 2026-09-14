@@ -4,7 +4,7 @@ id: p_1JTYSiPuzU4zie6wknPJxm
 status: active
 merged_into: null
 display_name: 王人紀
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,81 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_MSqjsYopVvzy1UwCm1hXbX
+        subject_person_id: p_1JTYSiPuzU4zie6wknPJxm
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_TkqEBK7B44Ecr5nxMCfJjv
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qbSbXkrilZRpgWC0fF7bh5
+          claim_id: c_MSqjsYopVvzy1UwCm1hXbX
+          source_id: s_Lww10pw-ydjZhFMirAMDeN
+          stance: supports
+          locator: CBDB 亲属：兄弟（KinPerson 562513 王人雄）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Lww10pw-ydjZhFMirAMDeN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王人紀（CBDB 562514）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=562514&o=json
+            external_identifier: CBDB:562514
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_TkqEBK7B44Ecr5nxMCfJjv
+        status: active
+        display_name: 王人雄
+        merged_into_person_id: null
+    - claim:
+        id: c_g-DCQfG6qTB54bSkrGXQy1
+        subject_person_id: p_1JTYSiPuzU4zie6wknPJxm
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_3mibMvnEdQJnc7fhQ8bNox
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pmhsm2GjJEkZGN-n3G3T0C
+          claim_id: c_g-DCQfG6qTB54bSkrGXQy1
+          source_id: s_Lww10pw-ydjZhFMirAMDeN
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 343695 王人麒）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Lww10pw-ydjZhFMirAMDeN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王人紀（CBDB 562514）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=562514&o=json
+            external_identifier: CBDB:562514
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3mibMvnEdQJnc7fhQ8bNox
+        status: active
+        display_name: 王人麒
+        merged_into_person_id: null
 ---
 
 # 王人紀
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_TkqEBK7B44Ecr5nxMCfJjv | 王人雄 | accepted |
+| other | p_3mibMvnEdQJnc7fhQ8bNox | 王人麒 | accepted |
 
 ## 外部来源
 

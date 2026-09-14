@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王資良
 cbdb_id: 200587
-revision: 4
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,81 @@ relationships:
         display_name: 王文煥
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_otwaIjjxu7Vyfm5iRaR_Ch
+        subject_person_id: p_ATDKa8xMg8vHhQpgkPCYFC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vnNgpS2EoPkSDWNJdYVAh5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AcR0_FYnCwWIhDQL6ymqqM
+          claim_id: c_otwaIjjxu7Vyfm5iRaR_Ch
+          source_id: s_0k6x3dDkIlN1-CSJJWUS0O
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200587 王資良）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0k6x3dDkIlN1-CSJJWUS0O
+            source_type: api_record
+            title: 中国历代人物传记资料库：王資堅（CBDB 260061）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260061&o=json
+            external_identifier: CBDB:260061
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ATDKa8xMg8vHhQpgkPCYFC
+        status: active
+        display_name: 王資堅
+        merged_into_person_id: null
+    - claim:
+        id: c_kV1eogUODBK6RB51mHvJy_
+        subject_person_id: p_vnNgpS2EoPkSDWNJdYVAh5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_yFPzVjF4SRyA3G7cXMmLTP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rToAKcw3tMd_qK2TD0f8Xm
+          claim_id: c_kV1eogUODBK6RB51mHvJy_
+          source_id: s_lfewpFR9LBSrvl-uR1jhPi
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200587 王資良）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_lfewpFR9LBSrvl-uR1jhPi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王資厚（CBDB 260062）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260062&o=json
+            external_identifier: CBDB:260062
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_yFPzVjF4SRyA3G7cXMmLTP
+        status: active
+        display_name: 王資厚
+        merged_into_person_id: null
 ---
 
 # 王資良
@@ -257,10 +331,14 @@ relationships:
 | parents | p_3x4jebHTQ9Pn46x4TcE5WS | 王昇 | accepted |
 | ancestors | p_1qBzB6azv7B1r44CqXNnxZ | 王志道 | accepted |
 | ancestors | p_2u2LwXhEf3GM21Ww1y4hab | 王文煥 | accepted |
+| other | p_ATDKa8xMg8vHhQpgkPCYFC | 王資堅 | accepted |
+| other | p_yFPzVjF4SRyA3G7cXMmLTP | 王資厚 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王昇（CBDB 260055）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260055&o=json)
 - [中国历代人物传记资料库：王文煥（CBDB 260053）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260053&o=json)
 - [中国历代人物传记资料库：王志道（CBDB 260054）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260054&o=json)
+- [中国历代人物传记资料库：王資厚（CBDB 260062）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260062&o=json)
+- [中国历代人物传记资料库：王資堅（CBDB 260061）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260061&o=json)
 - [中国历代人物传记资料库：王資良（CBDB 200587）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200587&o=json)

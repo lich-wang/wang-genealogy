@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王志積
 cbdb_id: 255122
-revision: 2
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -139,6 +139,154 @@ relationships:
         status: active
         display_name: 王宥
         merged_into_person_id: null
+    - claim:
+        id: c_khuW-xtItRVSim6f9sGWJ1
+        subject_person_id: p_Y1LJt1fbRrve98s4v1UUF2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cFw7QUEs9cpf6hWmJ7JVpY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uqkccfMxtMuHGgh_nhXvR9
+          claim_id: c_khuW-xtItRVSim6f9sGWJ1
+          source_id: s_t5JVvMlfMGzkRJj5akZz6I
+          stance: supports
+          locator: CBDB：兄弟 王宥（200225）之父／母 王志積
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王賓 与 王宥 为同胞（CBDB 记「弟」），王宥 之父／母即 王賓 之父／母。
+          source:
+            id: s_t5JVvMlfMGzkRJj5akZz6I
+            source_type: api_record
+            title: 中国历代人物传记资料库：王賓（CBDB 255126）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255126&o=json
+            external_identifier: CBDB:255126
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cFw7QUEs9cpf6hWmJ7JVpY
+        status: active
+        display_name: 王賓
+        merged_into_person_id: null
+    - claim:
+        id: c_NyjaGN5anxlar0kWCf6PkR
+        subject_person_id: p_Y1LJt1fbRrve98s4v1UUF2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gtpyy7AbGp6DxAnx1RWewz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5KcK97MSPgFmKeN5k2PjDd
+          claim_id: c_NyjaGN5anxlar0kWCf6PkR
+          source_id: s_ZhFoHjnUHAWmXCg0Zf7C7-
+          stance: supports
+          locator: CBDB：兄弟 王宥（200225）之父／母 王志積
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王弼 与 王宥 为同胞（CBDB 记「兄」），王宥 之父／母即 王弼 之父／母。
+          source:
+            id: s_ZhFoHjnUHAWmXCg0Zf7C7-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王弼（CBDB 255128）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255128&o=json
+            external_identifier: CBDB:255128
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_gtpyy7AbGp6DxAnx1RWewz
+        status: active
+        display_name: 王弼
+        merged_into_person_id: null
+    - claim:
+        id: c_7xDJ6sZCDBIWFX4GAgIoND
+        subject_person_id: p_Y1LJt1fbRrve98s4v1UUF2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jjcGJkv2ABHQmgrtteSHmA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9PgsAqYdfyxU0BANdlSI6K
+          claim_id: c_7xDJ6sZCDBIWFX4GAgIoND
+          source_id: s_Fv_tcbCl7EK-Ssq95OnwM-
+          stance: supports
+          locator: CBDB：兄弟 王宥（200225）之父／母 王志積
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王宸 与 王宥 为同胞（CBDB 记「兄」），王宥 之父／母即 王宸 之父／母。
+          source:
+            id: s_Fv_tcbCl7EK-Ssq95OnwM-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宸（CBDB 255127）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255127&o=json
+            external_identifier: CBDB:255127
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jjcGJkv2ABHQmgrtteSHmA
+        status: active
+        display_name: 王宸
+        merged_into_person_id: null
+    - claim:
+        id: c_3xJIvHcaI463U4VHxTDLGf
+        subject_person_id: p_Y1LJt1fbRrve98s4v1UUF2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_udhb9Ns1QKHUqcT86ApdGW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_a9RhxOczaCX9Bk4vfEOebM
+          claim_id: c_3xJIvHcaI463U4VHxTDLGf
+          source_id: s_R8P3FopJFQAA6pDBb6yIVE
+          stance: supports
+          locator: CBDB：兄弟 王宥（200225）之父／母 王志積
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王完 与 王宥 为同胞（CBDB 记「兄」），王宥 之父／母即 王完 之父／母。
+          source:
+            id: s_R8P3FopJFQAA6pDBb6yIVE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王完（CBDB 255129）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255129&o=json
+            external_identifier: CBDB:255129
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_udhb9Ns1QKHUqcT86ApdGW
+        status: active
+        display_name: 王完
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -164,8 +312,16 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_fYwp6rZCTtFvp8J8toSZti | 王本宗 | accepted |
 | children | p_15Nh8Xnsw6Q2WxxXdtixbY | 王宥 | accepted |
+| children | p_cFw7QUEs9cpf6hWmJ7JVpY | 王賓 | accepted |
+| children | p_gtpyy7AbGp6DxAnx1RWewz | 王弼 | accepted |
+| children | p_jjcGJkv2ABHQmgrtteSHmA | 王宸 | accepted |
+| children | p_udhb9Ns1QKHUqcT86ApdGW | 王完 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王弼（CBDB 255128）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255128&o=json)
+- [中国历代人物传记资料库：王賓（CBDB 255126）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255126&o=json)
+- [中国历代人物传记资料库：王宸（CBDB 255127）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255127&o=json)
+- [中国历代人物传记资料库：王完（CBDB 255129）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255129&o=json)
 - [中国历代人物传记资料库：王宥（CBDB 200225）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200225&o=json)
 - [中国历代人物传记资料库：王志積（CBDB 255122）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255122&o=json)

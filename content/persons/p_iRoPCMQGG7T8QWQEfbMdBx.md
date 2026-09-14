@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王汝鲁
 cbdb_id: 126502
-revision: 6
+revision: 16
 properties:
   - predicate: bio.summary
     recommended:
@@ -476,7 +476,377 @@ relationships:
         display_name: 王本
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_d2qsY_lWtXmHkY0ickXQCK
+        subject_person_id: p_1Ci7qL1s3qigXkMm76Urwd
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_iRoPCMQGG7T8QWQEfbMdBx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jl3am5m1IZnttVc_2WSym3
+          claim_id: c_d2qsY_lWtXmHkY0ickXQCK
+          source_id: s_8NJYjvRzkwVH6FLeqZnkuG
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126502 王汝魯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_8NJYjvRzkwVH6FLeqZnkuG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王念祖（CBDB 334096）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334096&o=json
+            external_identifier: CBDB:334096
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1Ci7qL1s3qigXkMm76Urwd
+        status: active
+        display_name: 王念祖
+        merged_into_person_id: null
+    - claim:
+        id: c_I2O3wTQ88BZcuJqHEydhnU
+        subject_person_id: p_2Dpq8kjKgyyFFtwkDVGZtY
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_iRoPCMQGG7T8QWQEfbMdBx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZQcZQtImMaIdRFsl31pZ5c
+          claim_id: c_I2O3wTQ88BZcuJqHEydhnU
+          source_id: s_wG9BY6AsA0FJhHQj93Pr1R
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126502 王汝魯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_wG9BY6AsA0FJhHQj93Pr1R
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝愚（CBDB 334087）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334087&o=json
+            external_identifier: CBDB:334087
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2Dpq8kjKgyyFFtwkDVGZtY
+        status: active
+        display_name: 王汝愚
+        merged_into_person_id: null
+    - claim:
+        id: c_Dodt2sLOyae0frOJF80XOb
+        subject_person_id: p_74HTjLiVA9smKoDrQtJHxY
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_iRoPCMQGG7T8QWQEfbMdBx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sGTZ3O8Qh0o344HXXgTuCc
+          claim_id: c_Dodt2sLOyae0frOJF80XOb
+          source_id: s_nvrVllNucj7OaihtUEjJby
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126502 王汝魯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_nvrVllNucj7OaihtUEjJby
+            source_type: api_record
+            title: 中国历代人物传记资料库：王述祖（CBDB 334091）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334091&o=json
+            external_identifier: CBDB:334091
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_74HTjLiVA9smKoDrQtJHxY
+        status: active
+        display_name: 王述祖
+        merged_into_person_id: null
+    - claim:
+        id: c_LivEUtrpSmNQiuzVj5AavG
+        subject_person_id: p_M1GRMmmB6zw7T9HZbBDcti
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_iRoPCMQGG7T8QWQEfbMdBx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sT9ASvPxbokR-fkdkwV5B7
+          claim_id: c_LivEUtrpSmNQiuzVj5AavG
+          source_id: s_73GlavPRTSDEPGDyyCa5-t
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126502 王汝魯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_73GlavPRTSDEPGDyyCa5-t
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝直（CBDB 334089）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334089&o=json
+            external_identifier: CBDB:334089
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_M1GRMmmB6zw7T9HZbBDcti
+        status: active
+        display_name: 王汝直
+        merged_into_person_id: null
+    - claim:
+        id: c_kv5enIWHff5X16PPDgvyew
+        subject_person_id: p_Q6fFeQW2ehU9rtmya4vkWx
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_iRoPCMQGG7T8QWQEfbMdBx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BlbJGXko5RYibHydeUvZJm
+          claim_id: c_kv5enIWHff5X16PPDgvyew
+          source_id: s_PjDbxbn8M92nv5YT7ITeC6
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126502 王汝魯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_PjDbxbn8M92nv5YT7ITeC6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王思祖（CBDB 334095）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334095&o=json
+            external_identifier: CBDB:334095
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Q6fFeQW2ehU9rtmya4vkWx
+        status: active
+        display_name: 王思祖
+        merged_into_person_id: null
+    - claim:
+        id: c_DVhJuxScIoxmP81zR9HziJ
+        subject_person_id: p_R8QHqGMyorRKWv1Gp9HVpy
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_iRoPCMQGG7T8QWQEfbMdBx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mk-WQaj6-S8Ke2wiWJciRl
+          claim_id: c_DVhJuxScIoxmP81zR9HziJ
+          source_id: s_49UKC_ZOy-0ixXpQemNOIz
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126502 王汝魯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_49UKC_ZOy-0ixXpQemNOIz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王承祖（CBDB 334086）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334086&o=json
+            external_identifier: CBDB:334086
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_R8QHqGMyorRKWv1Gp9HVpy
+        status: active
+        display_name: 王承祖
+        merged_into_person_id: null
+    - claim:
+        id: c_fYaz7RLrujaliP3Wcqc7IO
+        subject_person_id: p_S4UVHUd3PZcoSkCpN5ckg4
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_iRoPCMQGG7T8QWQEfbMdBx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RC1oYazOwMUE0SZmYWE6N1
+          claim_id: c_fYaz7RLrujaliP3Wcqc7IO
+          source_id: s_cUCN1bS5LtY_cysJSfD6jT
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126502 王汝魯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_cUCN1bS5LtY_cysJSfD6jT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王光祖（CBDB 334090）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334090&o=json
+            external_identifier: CBDB:334090
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_S4UVHUd3PZcoSkCpN5ckg4
+        status: active
+        display_name: 王光祖
+        merged_into_person_id: null
+    - claim:
+        id: c_EFYCE5fl75rbu9Q_fk_f8I
+        subject_person_id: p_dAWNGSC4UZ3S5otnkB8F6j
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_iRoPCMQGG7T8QWQEfbMdBx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_U7E4jqOmx1G2Rm3Bw4idRb
+          claim_id: c_EFYCE5fl75rbu9Q_fk_f8I
+          source_id: s_PaEifW8jZ2YBH5XBG0c1zd
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126502 王汝魯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_PaEifW8jZ2YBH5XBG0c1zd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王某祖（CBDB 334093）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334093&o=json
+            external_identifier: CBDB:334093
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dAWNGSC4UZ3S5otnkB8F6j
+        status: active
+        display_name: 王某祖
+        merged_into_person_id: null
+    - claim:
+        id: c_2xoj9rIl0cxOzxBlhitWgj
+        subject_person_id: p_hpHcMFX8XKT64kHX5tREso
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_iRoPCMQGG7T8QWQEfbMdBx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QzptuCU02LLACnY34RL78X
+          claim_id: c_2xoj9rIl0cxOzxBlhitWgj
+          source_id: s_3uKbG8tM9ZJIsKiGuUtWhp
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126502 王汝魯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_3uKbG8tM9ZJIsKiGuUtWhp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王率祖（CBDB 334094）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334094&o=json
+            external_identifier: CBDB:334094
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hpHcMFX8XKT64kHX5tREso
+        status: active
+        display_name: 王率祖
+        merged_into_person_id: null
+    - claim:
+        id: c_nfb5dhLnZK1zlB4zDAylRi
+        subject_person_id: p_iRoPCMQGG7T8QWQEfbMdBx
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_sXjzq1eE3XnKjFre3JXwb9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OXEOCdcu1HxZpVA4YnH3Ii
+          claim_id: c_nfb5dhLnZK1zlB4zDAylRi
+          source_id: s_3flUmUTm-GW2-ezdJHrKmi
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126502 王汝魯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_3flUmUTm-GW2-ezdJHrKmi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王法祖（CBDB 334092）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334092&o=json
+            external_identifier: CBDB:334092
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_sXjzq1eE3XnKjFre3JXwb9
+        status: active
+        display_name: 王法祖
+        merged_into_person_id: null
 ---
 
 # 王汝鲁
@@ -502,6 +872,16 @@ relationships:
 | spouses | p_Cpk49SPxpMgEW6iFdSv213 | 杨氏 | accepted |
 | ancestors | p_bwdhzsnM77a9YN3tYyTmwB | 王鴻儒 | accepted |
 | ancestors | p_SvtJzbwQx6aPhbiUbFsPgi | 王本 | accepted |
+| other | p_1Ci7qL1s3qigXkMm76Urwd | 王念祖 | accepted |
+| other | p_2Dpq8kjKgyyFFtwkDVGZtY | 王汝愚 | accepted |
+| other | p_74HTjLiVA9smKoDrQtJHxY | 王述祖 | accepted |
+| other | p_M1GRMmmB6zw7T9HZbBDcti | 王汝直 | accepted |
+| other | p_Q6fFeQW2ehU9rtmya4vkWx | 王思祖 | accepted |
+| other | p_R8QHqGMyorRKWv1Gp9HVpy | 王承祖 | accepted |
+| other | p_S4UVHUd3PZcoSkCpN5ckg4 | 王光祖 | accepted |
+| other | p_dAWNGSC4UZ3S5otnkB8F6j | 王某祖 | accepted |
+| other | p_hpHcMFX8XKT64kHX5tREso | 王率祖 | accepted |
+| other | p_sXjzq1eE3XnKjFre3JXwb9 | 王法祖 | accepted |
 
 ## 外部来源
 
@@ -510,6 +890,16 @@ relationships:
 - [维基数据：王汝鲁（Q45577422）](https://www.wikidata.org/wiki/Q45577422)
 - [维基数据：杨氏（Q65861477）](https://www.wikidata.org/wiki/Q65861477)
 - [中国历代人物传记资料库：王本（CBDB 334079）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334079&o=json)
+- [中国历代人物传记资料库：王承祖（CBDB 334086）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334086&o=json)
+- [中国历代人物传记资料库：王法祖（CBDB 334092）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334092&o=json)
+- [中国历代人物传记资料库：王光祖（CBDB 334090）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334090&o=json)
 - [中国历代人物传记资料库：王鴻儒（CBDB 33864）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33864&o=json)
+- [中国历代人物传记资料库：王率祖（CBDB 334094）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334094&o=json)
+- [中国历代人物传记资料库：王某祖（CBDB 334093）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334093&o=json)
+- [中国历代人物传记资料库：王念祖（CBDB 334096）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334096&o=json)
+- [中国历代人物传记资料库：王汝愚（CBDB 334087）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334087&o=json)
+- [中国历代人物传记资料库：王汝直（CBDB 334089）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334089&o=json)
+- [中国历代人物传记资料库：王述祖（CBDB 334091）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334091&o=json)
+- [中国历代人物传记资料库：王思祖（CBDB 334095）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334095&o=json)
 - [CBDB 中国历代人物传记资料库：王可（334081）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334081&o=json)
 - [CBDB 中国历代人物传记资料库：王汝魯（126502）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126502&o=json)

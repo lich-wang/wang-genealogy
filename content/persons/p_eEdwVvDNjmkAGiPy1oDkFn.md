@@ -4,7 +4,7 @@ id: p_eEdwVvDNjmkAGiPy1oDkFn
 status: active
 merged_into: null
 display_name: 王懋
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,80 @@ relationships:
         status: active
         display_name: 王上齡
         merged_into_person_id: null
+    - claim:
+        id: c_QK3uxFAauhIpeLyfzPbdFJ
+        subject_person_id: p_eEdwVvDNjmkAGiPy1oDkFn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZnwMF5A9S76EDgwbFYuUon
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gXILkezOIx9gVw1naFdNed
+          claim_id: c_QK3uxFAauhIpeLyfzPbdFJ
+          source_id: s_gB5kCgucMGuDBWkSV_h2il
+          stance: supports
+          locator: CBDB：兄弟 王上齡（198503）之父／母 王懋
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王昌齡 与 王上齡 为同胞（CBDB 记「弟」），王上齡 之父／母即 王昌齡 之父／母。
+          source:
+            id: s_gB5kCgucMGuDBWkSV_h2il
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昌齡（CBDB 281097）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281097&o=json
+            external_identifier: CBDB:281097
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZnwMF5A9S76EDgwbFYuUon
+        status: active
+        display_name: 王昌齡
+        merged_into_person_id: null
+    - claim:
+        id: c_J2yfz8UK-YeQTMDRFFJKpb
+        subject_person_id: p_eEdwVvDNjmkAGiPy1oDkFn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_txK4ci9jRUPNJLAJ3Mwy8p
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3Hq2H0mQ7LfmkjAt9b-BED
+          claim_id: c_J2yfz8UK-YeQTMDRFFJKpb
+          source_id: s_8o88il4jBAEgGgMV6JAE5n
+          stance: supports
+          locator: CBDB：兄弟 王上齡（198503）之父／母 王懋
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王延齡 与 王上齡 为同胞（CBDB 记「弟」），王上齡 之父／母即 王延齡 之父／母。
+          source:
+            id: s_8o88il4jBAEgGgMV6JAE5n
+            source_type: api_record
+            title: 中国历代人物传记资料库：王延齡（CBDB 281086）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281086&o=json
+            external_identifier: CBDB:281086
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_txK4ci9jRUPNJLAJ3Mwy8p
+        status: active
+        display_name: 王延齡
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_PNbNcPEUfkwixuHyP9PuYH | 王上齡 | accepted |
+| children | p_ZnwMF5A9S76EDgwbFYuUon | 王昌齡 | accepted |
+| children | p_txK4ci9jRUPNJLAJ3Mwy8p | 王延齡 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王昌齡（CBDB 281097）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281097&o=json)
 - [中国历代人物传记资料库：王懋（CBDB 281063）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281063&o=json)
+- [中国历代人物传记资料库：王延齡（CBDB 281086）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281086&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王明
 cbdb_id: 1855
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -253,6 +253,43 @@ relationships:
         status: active
         display_name: 王掞
         merged_into_person_id: null
+    - claim:
+        id: c_egNXNxmprVlRlkSLeGLETT
+        subject_person_id: p_b2BNKpQqMbC3xJGHf9un3N
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oyTVhAEFg6xseJqHnUDrTG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_DBBc7ruyvuKU2327BeRIgq
+          claim_id: c_egNXNxmprVlRlkSLeGLETT
+          source_id: s_JbzqPacsUNYua5DHnCyF-w
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1855）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_JbzqPacsUNYua5DHnCyF-w
+            source_type: api_record
+            title: 中国历代人物传记资料库：王挺（CBDB 1886）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1886&o=json
+            external_identifier: CBDB:1886
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oyTVhAEFg6xseJqHnUDrTG
+        status: active
+        display_name: 王挺
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -332,6 +369,7 @@ relationships:
 | --- | --- | --- | --- |
 | children | p_Myr7yL2y4NUdhUtw1bG9bq | 王扶 | accepted |
 | children | p_5iw33cL248sw6QfTEUKPQC | 王掞 | accepted |
+| children | p_oyTVhAEFg6xseJqHnUDrTG | 王挺 | accepted |
 | descendants | p_tmq6Wnq1CjinFj62NTxvnd | 王师颜 | accepted |
 | descendants | p_LFjdt9p5AsmDgzGet1fXc3 | 王广渊 | accepted |
 
@@ -339,6 +377,7 @@ relationships:
 
 - [维基数据：王扶（Q45359463）](https://www.wikidata.org/wiki/Q45359463)
 - [维基数据：王明（Q28414907）](https://www.wikidata.org/wiki/Q28414907)
+- [中国历代人物传记资料库：王挺（CBDB 1886）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1886&o=json)
 - [中国历代人物传记资料库：王掞（CBDB 37906）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37906&o=json)
 - [中文维基百科：王明 (宋朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%98%8E_(%E5%AE%8B%E6%9C%9D))
 - [CBDB 中国历代人物传记资料库：王明（1855）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1855&o=json)

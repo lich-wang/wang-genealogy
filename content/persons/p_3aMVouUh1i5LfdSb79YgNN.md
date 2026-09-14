@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王元命
 cbdb_id: 206711
-revision: 4
+revision: 8
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,155 @@ relationships:
         display_name: 王仲實
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_1gj9QAsUa41lztCYxaPlxt
+        subject_person_id: p_3aMVouUh1i5LfdSb79YgNN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_556QY2aLP4bFt9NKECxT7M
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YUXYIoJFPU8l2NtaZg6axe
+          claim_id: c_1gj9QAsUa41lztCYxaPlxt
+          source_id: s_RWxWgi9v1jLViZ2S3HTCq2
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206711 王元命）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_RWxWgi9v1jLViZ2S3HTCq2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元相（CBDB 221929）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221929&o=json
+            external_identifier: CBDB:221929
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_556QY2aLP4bFt9NKECxT7M
+        status: active
+        display_name: 王元相
+        merged_into_person_id: null
+    - claim:
+        id: c_VIG0HLLrnGvbcyZc1yLvZk
+        subject_person_id: p_3aMVouUh1i5LfdSb79YgNN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_e6LV8nckSZ8KZCoB9GJGBs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XdxfDPqFQKt0XPbd5nEIB9
+          claim_id: c_VIG0HLLrnGvbcyZc1yLvZk
+          source_id: s_gB7_LZD7wgTCjiclI_rBfN
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206711 王元命）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_gB7_LZD7wgTCjiclI_rBfN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元卿（CBDB 221930）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221930&o=json
+            external_identifier: CBDB:221930
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_e6LV8nckSZ8KZCoB9GJGBs
+        status: active
+        display_name: 王元卿
+        merged_into_person_id: null
+    - claim:
+        id: c_pe-S4I81EJLdxQKRnOmick
+        subject_person_id: p_3aMVouUh1i5LfdSb79YgNN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fdXx9WXc5iDGBMMcVgHJxM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_teBpp0OPa7hC4NTzcMFGaq
+          claim_id: c_pe-S4I81EJLdxQKRnOmick
+          source_id: s_0KbSrudnCqpkkanuN2kS9k
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206711 王元命）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0KbSrudnCqpkkanuN2kS9k
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元柄（CBDB 221932）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221932&o=json
+            external_identifier: CBDB:221932
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fdXx9WXc5iDGBMMcVgHJxM
+        status: active
+        display_name: 王元柄
+        merged_into_person_id: null
+    - claim:
+        id: c_5LGTOIoILn8futds1rCx8z
+        subject_person_id: p_3aMVouUh1i5LfdSb79YgNN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fg8LEqA7PGgSwFFEBSeQfN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vLI4JWtrT6HirndPG7YgiX
+          claim_id: c_5LGTOIoILn8futds1rCx8z
+          source_id: s_kuMfjuh10PLSJNO0ftl_wQ
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206711 王元命）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_kuMfjuh10PLSJNO0ftl_wQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元良（CBDB 221931）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221931&o=json
+            external_identifier: CBDB:221931
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fg8LEqA7PGgSwFFEBSeQfN
+        status: active
+        display_name: 王元良
+        merged_into_person_id: null
 ---
 
 # 王元命
@@ -257,10 +405,18 @@ relationships:
 | parents | p_SS97xGcPYDqvhXCDmF9tN7 | 王表 | accepted |
 | ancestors | p_9V6XR4PXXzFLjMUWdCy8vq | 王顏 | accepted |
 | ancestors | p_DtyfmfRP6LSaW7ht1gFmZP | 王仲實 | accepted |
+| other | p_556QY2aLP4bFt9NKECxT7M | 王元相 | accepted |
+| other | p_e6LV8nckSZ8KZCoB9GJGBs | 王元卿 | accepted |
+| other | p_fdXx9WXc5iDGBMMcVgHJxM | 王元柄 | accepted |
+| other | p_fg8LEqA7PGgSwFFEBSeQfN | 王元良 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王表（CBDB 221923）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221923&o=json)
 - [中国历代人物传记资料库：王顏（CBDB 221921）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221921&o=json)
+- [中国历代人物传记资料库：王元柄（CBDB 221932）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221932&o=json)
+- [中国历代人物传记资料库：王元良（CBDB 221931）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221931&o=json)
 - [中国历代人物传记资料库：王元命（CBDB 206711）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206711&o=json)
+- [中国历代人物传记资料库：王元卿（CBDB 221930）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221930&o=json)
+- [中国历代人物传记资料库：王元相（CBDB 221929）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221929&o=json)
 - [中国历代人物传记资料库：王仲實（CBDB 221922）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221922&o=json)

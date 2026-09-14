@@ -4,7 +4,7 @@ id: p_JX2kojoi67e76MdeNUyP8W
 status: active
 merged_into: null
 display_name: 王穀祥
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -246,7 +246,44 @@ relationships:
         display_name: 王敏
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_XPFHT6fgvz41xIVBEKGwPI
+        subject_person_id: p_ApX1g4AJxZ7Gy4p2M3H8ic
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_JX2kojoi67e76MdeNUyP8W
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UpFvsQb85dwWyoiqC6Vc9q
+          claim_id: c_XPFHT6fgvz41xIVBEKGwPI
+          source_id: s_mVJBeCPHJKmoq_1mWuHACn
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126804 王穀祥）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_mVJBeCPHJKmoq_1mWuHACn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王穀禎（CBDB 287792）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287792&o=json
+            external_identifier: CBDB:287792
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ApX1g4AJxZ7Gy4p2M3H8ic
+        status: active
+        display_name: 王穀禎
+        merged_into_person_id: null
 ---
 
 # 王穀祥
@@ -269,10 +306,12 @@ relationships:
 | parents | p_C8ZxQAECatcwVFYPVsxFYQ | 王觀 | accepted |
 | ancestors | p_2GDsntkMHuduCdY1F2na53 | 王寬 | accepted |
 | ancestors | p_DWE6S4xteL8yk7eB9AqbYc | 王敏 | accepted |
+| other | p_ApX1g4AJxZ7Gy4p2M3H8ic | 王穀禎 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王穀祥（CBDB 126804）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126804&o=json)
+- [中国历代人物传记资料库：王穀禎（CBDB 287792）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287792&o=json)
 - [中国历代人物传记资料库：王觀（CBDB 287788）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287788&o=json)
 - [中国历代人物传记资料库：王寬（CBDB 287786）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287786&o=json)
 - [中国历代人物传记资料库：王敏（CBDB 287787）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287787&o=json)

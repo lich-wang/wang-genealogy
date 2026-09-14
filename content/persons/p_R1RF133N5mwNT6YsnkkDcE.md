@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仲堪
 cbdb_id: 141326
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -280,7 +280,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_OjCy29cTWO9xkwM_QajjiI
+        subject_person_id: p_75Rja9jDxv6R4MQJJHPF7z
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_R1RF133N5mwNT6YsnkkDcE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nQFZ88kT280ybUkie0SFDg
+          claim_id: c_OjCy29cTWO9xkwM_QajjiI
+          source_id: s_Sxq1JiaFXZXUieBKELWcrM
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 141326 王仲堪）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Sxq1JiaFXZXUieBKELWcrM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仲坰（CBDB 155795）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=155795&o=json
+            external_identifier: CBDB:155795
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_75Rja9jDxv6R4MQJJHPF7z
+        status: active
+        display_name: 王仲坰
+        merged_into_person_id: null
 ---
 
 # 王仲堪
@@ -303,9 +340,11 @@ relationships:
 | parents | p_V1WNcEWFyMKGiDwCARFKJg | 王令仙 | accepted |
 | children | p_4K6CbpgcT5TowC24d9AA7r | 王存 | accepted |
 | children | p_GqKu1PLEX1JvWNxUfs7Dzz | 王較 | accepted |
+| other | p_75Rja9jDxv6R4MQJJHPF7z | 王仲坰 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王存（CBDB 155793）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=155793&o=json)
 - [中国历代人物传记资料库：王較（CBDB 155791）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=155791&o=json)
+- [中国历代人物传记资料库：王仲坰（CBDB 155795）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=155795&o=json)
 - [中国历代人物传记资料库：王仲堪（CBDB 141326）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=141326&o=json)

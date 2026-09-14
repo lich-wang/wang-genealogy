@@ -4,7 +4,7 @@ id: p_M19oFx28z6UHMwn5fL36T6
 status: active
 merged_into: null
 display_name: 王庭璋
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_Q_aVARaT1NnUAOSDtPdx6d
+        subject_person_id: p_M19oFx28z6UHMwn5fL36T6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LmKuR6QP5HXTQ7tPNudqsU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_eoBbyOEUAjDuToiwIUXjze
+          claim_id: c_Q_aVARaT1NnUAOSDtPdx6d
+          source_id: s_S_BpGd26BxRrWczB0CwZi7
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 12167）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_S_BpGd26BxRrWczB0CwZi7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王顗（CBDB 20452）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=20452&o=json
+            external_identifier: CBDB:20452
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_LmKuR6QP5HXTQ7tPNudqsU
+        status: active
+        display_name: 王顗
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -172,7 +209,44 @@ relationships:
         merged_into_person_id: null
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_SE3DPdIufVA4ZyRFEPzUiX
+        subject_person_id: p_M19oFx28z6UHMwn5fL36T6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_NKDBjDH5rA2rPZeJXPzJ9F
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kcWIUuFyHx8_4UwpyP0n_A
+          claim_id: c_SE3DPdIufVA4ZyRFEPzUiX
+          source_id: s_5GvIPbvrsoRvertuerohHj
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 12167 王庭璋）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_5GvIPbvrsoRvertuerohHj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王庭珍（CBDB 12169）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12169&o=json
+            external_identifier: CBDB:12169
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NKDBjDH5rA2rPZeJXPzJ9F
+        status: active
+        display_name: 王庭珍
+        merged_into_person_id: null
 ---
 
 # 王庭璋
@@ -192,9 +266,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_LmKuR6QP5HXTQ7tPNudqsU | 王顗 | accepted |
 | spouses | p_Vtipw6MPXDsx7m64K8GKg4 | 劉氏 | accepted |
+| other | p_NKDBjDH5rA2rPZeJXPzJ9F | 王庭珍 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：劉氏(王庭璋妻)（CBDB 37941）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37941&o=json)
 - [中国历代人物传记资料库：王庭璋（CBDB 12167）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12167&o=json)
+- [中国历代人物传记资料库：王庭珍（CBDB 12169）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12169&o=json)
+- [中国历代人物传记资料库：王顗（CBDB 20452）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=20452&o=json)

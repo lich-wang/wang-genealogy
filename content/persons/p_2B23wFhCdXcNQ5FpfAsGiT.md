@@ -4,7 +4,7 @@ id: p_2B23wFhCdXcNQ5FpfAsGiT
 status: active
 merged_into: null
 display_name: 王任
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_b8Bft_bQ_0hLVhXXsnIOUc
+        subject_person_id: p_vqND44YidPRfbGnCkwxK3f
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2B23wFhCdXcNQ5FpfAsGiT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_bWTf8kkKiHVL0ZXsm84D0r
+          claim_id: c_b8Bft_bQ_0hLVhXXsnIOUc
+          source_id: s_FhYVAWWZmmKTCVCcnp2P0H
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 10720）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_FhYVAWWZmmKTCVCcnp2P0H
+            source_type: api_record
+            title: 中国历代人物传记资料库：王任（CBDB 30519）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30519&o=json
+            external_identifier: CBDB:30519
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vqND44YidPRfbGnCkwxK3f
+        status: active
+        display_name: 王植
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vqND44YidPRfbGnCkwxK3f | 王植 | accepted |
 
 ## 外部来源
 

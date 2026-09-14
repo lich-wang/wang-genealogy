@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王珣琇
 cbdb_id: 463818
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,7 +74,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_d0GNhrP-M6-CEzZKOHBP98
+        subject_person_id: p_LWouE38zrijcXXQPG5ma9Z
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eYwfDJRAGfsgqoHWUKokK6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_J6lbJK46uL9fdQKajG2xjX
+          claim_id: c_d0GNhrP-M6-CEzZKOHBP98
+          source_id: s_eQxLmENuRs2o522OiYBcsF
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 22072）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_eQxLmENuRs2o522OiYBcsF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珣琇（CBDB 463818）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=463818&o=json
+            external_identifier: CBDB:463818
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_LWouE38zrijcXXQPG5ma9Z
+        status: active
+        display_name: 王貽矩
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -99,6 +136,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_LWouE38zrijcXXQPG5ma9Z | 王貽矩 | accepted |
 
 ## 外部来源
 

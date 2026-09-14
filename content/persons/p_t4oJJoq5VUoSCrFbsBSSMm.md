@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王昌世
 cbdb_id: 19883
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -237,6 +237,43 @@ relationships:
         status: active
         display_name: 王厚孫
         merged_into_person_id: null
+    - claim:
+        id: c_q9nmxMglwrygaJzXonvVnr
+        subject_person_id: p_t4oJJoq5VUoSCrFbsBSSMm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_L4Zft6SMN9QrksCpFx1tX3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_az_BNnhGbuFaYii2W61UUj
+          claim_id: c_q9nmxMglwrygaJzXonvVnr
+          source_id: s_w1fukA9cPhT8rECegupHsJ
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 19883）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_w1fukA9cPhT8rECegupHsJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寧孫（CBDB 19885）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19885&o=json
+            external_identifier: CBDB:19885
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_L4Zft6SMN9QrksCpFx1tX3
+        status: active
+        display_name: 王寧孫
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -264,9 +301,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_pyiMMQeppjms8sZr1Bh4Pc | 王應麟 | accepted |
 | children | p_EYWbrYXWcUmvaBjSA4q1iu | 王厚孫 | accepted |
+| children | p_L4Zft6SMN9QrksCpFx1tX3 | 王寧孫 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王昌世（CBDB 19883）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19883&o=json)
 - [中国历代人物传记资料库：王厚孫（CBDB 19884）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19884&o=json)
+- [中国历代人物传记资料库：王寧孫（CBDB 19885）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19885&o=json)
 - [中国历代人物传记资料库：王應麟（CBDB 19880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=19880&o=json)

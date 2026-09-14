@@ -4,7 +4,7 @@ id: p_nMTfTHCiK68GBCA9Zmyxva
 status: active
 merged_into: null
 display_name: 王光祖
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -247,7 +247,44 @@ relationships:
         display_name: 王玘
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_3BHoDVWuXu1a1QvjVdvAon
+        subject_person_id: p_RvwBFNFYPjXE486YSxqqGH
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nMTfTHCiK68GBCA9Zmyxva
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yM4j0sKGFwysy_dA1Z2DBm
+          claim_id: c_3BHoDVWuXu1a1QvjVdvAon
+          source_id: s_CUSWIjssuTrxhifx4b_CR2
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126518 王光祖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_CUSWIjssuTrxhifx4b_CR2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王光考（CBDB 306651）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306651&o=json
+            external_identifier: CBDB:306651
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_RvwBFNFYPjXE486YSxqqGH
+        status: active
+        display_name: 王光考
+        merged_into_person_id: null
 ---
 
 # 王光祖
@@ -270,10 +307,12 @@ relationships:
 | parents | p_aJ5J2cPFB2J5wBLDS27uNZ | 王煩 | accepted |
 | ancestors | p_j2Qr14aEdifzKDjQ5pCzA6 | 王文 | accepted |
 | ancestors | p_PADhC3kPizKDbh6s6tqmfH | 王玘 | accepted |
+| other | p_RvwBFNFYPjXE486YSxqqGH | 王光考 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王煩（CBDB 306647）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306647&o=json)
+- [中国历代人物传记资料库：王光考（CBDB 306651）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306651&o=json)
 - [中国历代人物传记资料库：王光祖（CBDB 126518）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126518&o=json)
 - [中国历代人物传记资料库：王玘（CBDB 306645）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306645&o=json)
 - [中国历代人物传记资料库：王文（CBDB 306646）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306646&o=json)

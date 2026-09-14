@@ -4,7 +4,7 @@ id: p_neRfUEdYzFNxwdJeq7qkRq
 status: active
 merged_into: null
 display_name: 王愚
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_oDAfq3uOLKEXhU9-p40CLr
+        subject_person_id: p_xxLayHX5L9RnRbPwYHogx1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_neRfUEdYzFNxwdJeq7qkRq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-b9ObjlwJyb5rFfJ2z2IqK
+          claim_id: c_oDAfq3uOLKEXhU9-p40CLr
+          source_id: s_a73Hg-vR5s6aU8pkRhNOOE
+          stance: supports
+          locator: CBDB：兄弟 王思（68065）之父／母 王俅
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王愚 与 王思 为同胞（CBDB 记「弟」），王思 之父／母即 王愚 之父／母。
+          source:
+            id: s_a73Hg-vR5s6aU8pkRhNOOE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王愚（CBDB 276681）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276681&o=json
+            external_identifier: CBDB:276681
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xxLayHX5L9RnRbPwYHogx1
+        status: active
+        display_name: 王俅
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_e9_BV4wJpcLlP7VG2yWYC5
+        subject_person_id: p_TdY8PeNMMQnspsGSLcC9h4
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_neRfUEdYzFNxwdJeq7qkRq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nV3LExAca-bYOLM4Zehz1U
+          claim_id: c_e9_BV4wJpcLlP7VG2yWYC5
+          source_id: s_a73Hg-vR5s6aU8pkRhNOOE
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 68065 王思）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_a73Hg-vR5s6aU8pkRhNOOE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王愚（CBDB 276681）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276681&o=json
+            external_identifier: CBDB:276681
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_TdY8PeNMMQnspsGSLcC9h4
+        status: active
+        display_name: 王思
+        merged_into_person_id: null
 ---
 
 # 王愚
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xxLayHX5L9RnRbPwYHogx1 | 王俅 | accepted |
+| other | p_TdY8PeNMMQnspsGSLcC9h4 | 王思 | accepted |
 
 ## 外部来源
 

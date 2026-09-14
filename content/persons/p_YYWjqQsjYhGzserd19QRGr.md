@@ -4,7 +4,7 @@ id: p_YYWjqQsjYhGzserd19QRGr
 status: active
 merged_into: null
 display_name: 王稷
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_SmTGdJnWonIEj15MPxETEm
+        subject_person_id: p_9B1FXBmYAzycryvGH6JiV6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YYWjqQsjYhGzserd19QRGr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hAhO7jT5tTSfzaEO5CdQOI
+          claim_id: c_SmTGdJnWonIEj15MPxETEm
+          source_id: s_r6AbxH8ezGxq8rEMZgqRBj
+          stance: supports
+          locator: CBDB：兄弟 王皋（199701）之父／母 王瑽
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王稷 与 王皋 为同胞（CBDB 记「兄」），王皋 之父／母即 王稷 之父／母。
+          source:
+            id: s_r6AbxH8ezGxq8rEMZgqRBj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王稷（CBDB 248696）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248696&o=json
+            external_identifier: CBDB:248696
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9B1FXBmYAzycryvGH6JiV6
+        status: active
+        display_name: 王瑽
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_aidRHrnKpALA0qs7Xe-5zg
+        subject_person_id: p_YYWjqQsjYhGzserd19QRGr
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zp2AZ2hRUut6GtZ8fNkjjs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qvBHpXY0vIZ8XeQjugLNil
+          claim_id: c_aidRHrnKpALA0qs7Xe-5zg
+          source_id: s_r6AbxH8ezGxq8rEMZgqRBj
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199701 王皋）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_r6AbxH8ezGxq8rEMZgqRBj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王稷（CBDB 248696）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248696&o=json
+            external_identifier: CBDB:248696
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zp2AZ2hRUut6GtZ8fNkjjs
+        status: active
+        display_name: 王皋
+        merged_into_person_id: null
 ---
 
 # 王稷
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_9B1FXBmYAzycryvGH6JiV6 | 王瑽 | accepted |
+| other | p_zp2AZ2hRUut6GtZ8fNkjjs | 王皋 | accepted |
 
 ## 外部来源
 

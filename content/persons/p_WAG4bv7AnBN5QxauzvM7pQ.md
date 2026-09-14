@@ -4,7 +4,7 @@ id: p_WAG4bv7AnBN5QxauzvM7pQ
 status: active
 merged_into: null
 display_name: 王宰
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_jLZ4TXNiT3aUUhlaO4tD3P
+        subject_person_id: p_xFFdPdJwKEcff8qRsr4b53
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WAG4bv7AnBN5QxauzvM7pQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1OSigxgLV4wexgia_G90gr
+          claim_id: c_jLZ4TXNiT3aUUhlaO4tD3P
+          source_id: s_1kEcMWOM2Fw2vGrlN7_H9L
+          stance: supports
+          locator: CBDB：兄弟 王寧（201843）之父／母 王紹紀
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王宰 与 王寧 为同胞（CBDB 记「兄」），王寧 之父／母即 王宰 之父／母。
+          source:
+            id: s_1kEcMWOM2Fw2vGrlN7_H9L
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宰（CBDB 279066）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279066&o=json
+            external_identifier: CBDB:279066
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xFFdPdJwKEcff8qRsr4b53
+        status: active
+        display_name: 王紹紀
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_GnZ0HgF22FFTcLVMcnEIHy
+        subject_person_id: p_WAG4bv7AnBN5QxauzvM7pQ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_yE8R4Fu2xBRHQnxP4vnrau
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wDdonfzGa7zJhd_BbZOgFx
+          claim_id: c_GnZ0HgF22FFTcLVMcnEIHy
+          source_id: s_1kEcMWOM2Fw2vGrlN7_H9L
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201843 王寧）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_1kEcMWOM2Fw2vGrlN7_H9L
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宰（CBDB 279066）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279066&o=json
+            external_identifier: CBDB:279066
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_yE8R4Fu2xBRHQnxP4vnrau
+        status: active
+        display_name: 王寧
+        merged_into_person_id: null
 ---
 
 # 王宰
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xFFdPdJwKEcff8qRsr4b53 | 王紹紀 | accepted |
+| other | p_yE8R4Fu2xBRHQnxP4vnrau | 王寧 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_yhagHPLAgGF916n7f1YPNt
 status: active
 merged_into: null
 display_name: 王士嘉
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,117 @@ relationships:
         status: active
         display_name: 王玉
         merged_into_person_id: null
+    - claim:
+        id: c_MLy7nDfEUd38gD5SkmEuU8
+        subject_person_id: p_yhagHPLAgGF916n7f1YPNt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7W5wop8E2dzdL4okMppNdT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0RNB8k7JzDhcSlm7xQ-IhF
+          claim_id: c_MLy7nDfEUd38gD5SkmEuU8
+          source_id: s_Ezl0huATSnZuAFnOTsExtX
+          stance: supports
+          locator: CBDB：兄弟 王玉（204676）之父／母 王士嘉
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王子璵 与 王玉 为同胞（CBDB 记「兄」），王玉 之父／母即 王子璵 之父／母。
+          source:
+            id: s_Ezl0huATSnZuAFnOTsExtX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子璵（CBDB 322445）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322445&o=json
+            external_identifier: CBDB:322445
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7W5wop8E2dzdL4okMppNdT
+        status: active
+        display_name: 王子璵
+        merged_into_person_id: null
+    - claim:
+        id: c_8mtvx9_3nU4lQCwrhShgja
+        subject_person_id: p_yhagHPLAgGF916n7f1YPNt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MXg4UCAMup5Mq41SMENQtD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zkQ4-LpNkDNoRoEH_gn1jF
+          claim_id: c_8mtvx9_3nU4lQCwrhShgja
+          source_id: s_IzouslvWx766iRL0lP9XTu
+          stance: supports
+          locator: CBDB：兄弟 王玉（204676）之父／母 王士嘉
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王子傑 与 王玉 为同胞（CBDB 记「弟」），王玉 之父／母即 王子傑 之父／母。
+          source:
+            id: s_IzouslvWx766iRL0lP9XTu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子傑（CBDB 322444）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322444&o=json
+            external_identifier: CBDB:322444
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MXg4UCAMup5Mq41SMENQtD
+        status: active
+        display_name: 王子傑
+        merged_into_person_id: null
+    - claim:
+        id: c_VqPOkD-UbsIkFK6k0Z4-AZ
+        subject_person_id: p_yhagHPLAgGF916n7f1YPNt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_m7HWh1Tt2cCo4YGL9UUTHK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YCHT7U24SHhIFouF3PzLlG
+          claim_id: c_VqPOkD-UbsIkFK6k0Z4-AZ
+          source_id: s_mECnBqQucPhKhx6hmfR8On
+          stance: supports
+          locator: CBDB：兄弟 王玉（204676）之父／母 王士嘉
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王子英 与 王玉 为同胞（CBDB 记「弟」），王玉 之父／母即 王子英 之父／母。
+          source:
+            id: s_mECnBqQucPhKhx6hmfR8On
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子英（CBDB 322443）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322443&o=json
+            external_identifier: CBDB:322443
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_m7HWh1Tt2cCo4YGL9UUTHK
+        status: active
+        display_name: 王子英
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +235,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_vMHM62tMEACNN1HhRp5f5c | 王玉 | accepted |
+| children | p_7W5wop8E2dzdL4okMppNdT | 王子璵 | accepted |
+| children | p_MXg4UCAMup5Mq41SMENQtD | 王子傑 | accepted |
+| children | p_m7HWh1Tt2cCo4YGL9UUTHK | 王子英 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王士嘉（CBDB 322438）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322438&o=json)
+- [中国历代人物传记资料库：王子傑（CBDB 322444）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322444&o=json)
+- [中国历代人物传记资料库：王子英（CBDB 322443）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322443&o=json)
+- [中国历代人物传记资料库：王子璵（CBDB 322445）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322445&o=json)

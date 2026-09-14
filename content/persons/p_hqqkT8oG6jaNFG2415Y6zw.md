@@ -4,7 +4,7 @@ id: p_hqqkT8oG6jaNFG2415Y6zw
 status: active
 merged_into: null
 display_name: 王世卿
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_QMtTm1vGlNynYcBdtZh7b5
+        subject_person_id: p_2N77V679N67chKYe7DivHB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hqqkT8oG6jaNFG2415Y6zw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_R7mG4gLhM_bakQMwmRy3T6
+          claim_id: c_QMtTm1vGlNynYcBdtZh7b5
+          source_id: s_dW_iBmkfUxeLrkB5NYR2qK
+          stance: supports
+          locator: CBDB：兄弟 王臣（199309）之父／母 王槩
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王世卿 与 王臣 为同胞（CBDB 记「兄」），王臣 之父／母即 王世卿 之父／母。
+          source:
+            id: s_dW_iBmkfUxeLrkB5NYR2qK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世卿（CBDB 243247）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243247&o=json
+            external_identifier: CBDB:243247
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2N77V679N67chKYe7DivHB
+        status: active
+        display_name: 王槩
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_9ngIiGVzPijwA5Uk4NwUDD
+        subject_person_id: p_eeT9SQ93RGpf2B6Bihu6TP
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hqqkT8oG6jaNFG2415Y6zw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6LNH6rZDuG-oh5FCqJnEQ8
+          claim_id: c_9ngIiGVzPijwA5Uk4NwUDD
+          source_id: s_dW_iBmkfUxeLrkB5NYR2qK
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199309 王臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_dW_iBmkfUxeLrkB5NYR2qK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世卿（CBDB 243247）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243247&o=json
+            external_identifier: CBDB:243247
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_eeT9SQ93RGpf2B6Bihu6TP
+        status: active
+        display_name: 王臣
+        merged_into_person_id: null
 ---
 
 # 王世卿
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_2N77V679N67chKYe7DivHB | 王槩 | accepted |
+| other | p_eeT9SQ93RGpf2B6Bihu6TP | 王臣 | accepted |
 
 ## 外部来源
 

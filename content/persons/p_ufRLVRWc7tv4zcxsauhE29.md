@@ -4,7 +4,7 @@ id: p_ufRLVRWc7tv4zcxsauhE29
 status: active
 merged_into: null
 display_name: 王京
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,81 @@ relationships:
         display_name: 王業
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Lo6IQUKddq7U-f98HhOG1D
+        subject_person_id: p_bUysoeJPPingc7y8SLHBRy
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ufRLVRWc7tv4zcxsauhE29
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Zl4kKTNjrRpSQM_WVYfRS0
+          claim_id: c_Lo6IQUKddq7U-f98HhOG1D
+          source_id: s_uqU37Mo2aUo1xXXAx6AjZU
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202664 王京）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_uqU37Mo2aUo1xXXAx6AjZU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王雲瑞（CBDB 291949）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291949&o=json
+            external_identifier: CBDB:291949
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_bUysoeJPPingc7y8SLHBRy
+        status: active
+        display_name: 王雲瑞
+        merged_into_person_id: null
+    - claim:
+        id: c_MyIyVJwgBw-L7vcaxQ0-iV
+        subject_person_id: p_ufRLVRWc7tv4zcxsauhE29
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_w9FC1F4e2g1itRnVQLmLPk
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B4Mdr3UfYSQJlAimXpemJL
+          claim_id: c_MyIyVJwgBw-L7vcaxQ0-iV
+          source_id: s_8mgTM_yYkecl2s1vFvPvlV
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202664 王京）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_8mgTM_yYkecl2s1vFvPvlV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王雲鵬（CBDB 291948）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291948&o=json
+            external_identifier: CBDB:291948
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_w9FC1F4e2g1itRnVQLmLPk
+        status: active
+        display_name: 王雲鵬
+        merged_into_person_id: null
 ---
 
 # 王京
@@ -240,6 +314,8 @@ relationships:
 | parents | p_ni93rzedW8HywjRcLfPSGG | 王民 | accepted |
 | ancestors | p_b7v4ZZ3QYXR6v61rExDyBG | 王紀 | accepted |
 | ancestors | p_VLGqy9ktakD4B6mxkUvcHL | 王業 | accepted |
+| other | p_bUysoeJPPingc7y8SLHBRy | 王雲瑞 | accepted |
+| other | p_w9FC1F4e2g1itRnVQLmLPk | 王雲鵬 | accepted |
 
 ## 外部来源
 
@@ -247,3 +323,5 @@ relationships:
 - [中国历代人物传记资料库：王京（CBDB 202664）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202664&o=json)
 - [中国历代人物传记资料库：王民（CBDB 291943）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291943&o=json)
 - [中国历代人物传记资料库：王業（CBDB 291942）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291942&o=json)
+- [中国历代人物传记资料库：王雲鵬（CBDB 291948）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291948&o=json)
+- [中国历代人物传记资料库：王雲瑞（CBDB 291949）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291949&o=json)

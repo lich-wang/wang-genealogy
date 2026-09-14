@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王益之
 cbdb_id: 22239
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -195,7 +195,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_U6rpeGRTB9ONJqGYwCRj-e
+        subject_person_id: p_S21V1QtRVNHD8arYZz2Tbo
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_tvnrFsvHvQUKrNdzPoHEVm
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KAZiOrLAoFECpW_piSVGgd
+          claim_id: c_U6rpeGRTB9ONJqGYwCRj-e
+          source_id: s_waNdnAWGu0tY6BWrRcusgG
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 22239 王益之）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_waNdnAWGu0tY6BWrRcusgG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王睡之（CBDB 384594）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=384594&o=json
+            external_identifier: CBDB:384594
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_S21V1QtRVNHD8arYZz2Tbo
+        status: active
+        display_name: 王睡之
+        merged_into_person_id: null
 ---
 
 # 王益之
@@ -214,11 +251,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_CvkqbHiKU1yv5J5yN1sDim | 王师古 | accepted |
+| other | p_S21V1QtRVNHD8arYZz2Tbo | 王睡之 | accepted |
 
 ## 外部来源
 
 - [维基数据：王师古（Q45369091）](https://www.wikidata.org/wiki/Q45369091)
 - [维基数据：王益之（Q18905525）](https://www.wikidata.org/wiki/Q18905525)
+- [中国历代人物传记资料库：王睡之（CBDB 384594）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=384594&o=json)
 - [中文维基百科：王益之](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%9B%8A%E4%B9%8B)
 - [CBDB 中国历代人物传记资料库：王師古（10688）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10688&o=json)
 - [CBDB 中国历代人物传记资料库：王益之（22239）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22239&o=json)

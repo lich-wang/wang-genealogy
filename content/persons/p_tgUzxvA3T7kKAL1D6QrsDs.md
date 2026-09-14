@@ -4,7 +4,7 @@ id: p_tgUzxvA3T7kKAL1D6QrsDs
 status: active
 merged_into: null
 display_name: 王修玉
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_JIUX-tGqdK3smBczYa2sfT
+        subject_person_id: p_tc6HnS9D1NhUywq1d5NeWX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_tgUzxvA3T7kKAL1D6QrsDs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E_pqUU35uDmjcb1F7r9XVh
+          claim_id: c_JIUX-tGqdK3smBczYa2sfT
+          source_id: s_qvM8qCy-ug3PJwFKMTGw9r
+          stance: supports
+          locator: CBDB 亲属：妹（KinPerson 120878 王修玉）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_qvM8qCy-ug3PJwFKMTGw9r
+            source_type: api_record
+            title: 中国历代人物传记资料库：王修月（CBDB 120875）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120875&o=json
+            external_identifier: CBDB:120875
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_tc6HnS9D1NhUywq1d5NeWX
+        status: active
+        display_name: 王修月
+        merged_into_person_id: null
 ---
 
 # 王修玉
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_tc6HnS9D1NhUywq1d5NeWX | 王修月 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王修玉（CBDB 120878）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120878&o=json)
+- [中国历代人物传记资料库：王修月（CBDB 120875）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120875&o=json)

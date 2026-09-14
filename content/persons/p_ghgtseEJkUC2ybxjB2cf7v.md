@@ -4,7 +4,7 @@ id: p_ghgtseEJkUC2ybxjB2cf7v
 status: active
 merged_into: null
 display_name: 王立道
-revision: 3
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -250,7 +250,192 @@ relationships:
         display_name: 王冕
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_03KbxyGUY6gkjns81W0kt0
+        subject_person_id: p_5p53EfmQ44vsjoPLQMGmHx
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ghgtseEJkUC2ybxjB2cf7v
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_50_GLhAI_UUANofCEnCVih
+          claim_id: c_03KbxyGUY6gkjns81W0kt0
+          source_id: s_QJEC6uc2vI21KdiJ6Qd3MH
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 34712 王立道）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_QJEC6uc2vI21KdiJ6Qd3MH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王體道（CBDB 295415）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295415&o=json
+            external_identifier: CBDB:295415
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5p53EfmQ44vsjoPLQMGmHx
+        status: active
+        display_name: 王體道
+        merged_into_person_id: null
+    - claim:
+        id: c_BKSpZhoN5QDjTp-g5A11yS
+        subject_person_id: p_Ca934HV8fa4ZEtNrvtPHC7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ghgtseEJkUC2ybxjB2cf7v
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1rJtpN5E-hoXamEwKawaa9
+          claim_id: c_BKSpZhoN5QDjTp-g5A11yS
+          source_id: s_vqUTc4-c8PgVEFD9EatSqC
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 34712 王立道）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_vqUTc4-c8PgVEFD9EatSqC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王重道（CBDB 295413）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295413&o=json
+            external_identifier: CBDB:295413
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Ca934HV8fa4ZEtNrvtPHC7
+        status: active
+        display_name: 王重道
+        merged_into_person_id: null
+    - claim:
+        id: c_gC6so9TbZYyvqqaMASENZr
+        subject_person_id: p_Vc6KENKcAbqKze1KoJMXro
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ghgtseEJkUC2ybxjB2cf7v
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__l9SG_rYZvgMVuN_KE5Qqg
+          claim_id: c_gC6so9TbZYyvqqaMASENZr
+          source_id: s_0NwLTR5cEZmh0Tc0tDLsHH
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 34712 王立道）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0NwLTR5cEZmh0Tc0tDLsHH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王望道（CBDB 295414）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295414&o=json
+            external_identifier: CBDB:295414
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Vc6KENKcAbqKze1KoJMXro
+        status: active
+        display_name: 王望道
+        merged_into_person_id: null
+    - claim:
+        id: c_gEuvm8L7im2pnXcBOinGLy
+        subject_person_id: p_ZzYjKwrCM9xrGwJQLLKYLY
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ghgtseEJkUC2ybxjB2cf7v
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TfrFZRix2hnPW46JTNQS2N
+          claim_id: c_gEuvm8L7im2pnXcBOinGLy
+          source_id: s_3eltEX29bU_qa0CbWwr1fd
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 34712 王立道）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_3eltEX29bU_qa0CbWwr1fd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王順道（CBDB 295417）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295417&o=json
+            external_identifier: CBDB:295417
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZzYjKwrCM9xrGwJQLLKYLY
+        status: active
+        display_name: 王順道
+        merged_into_person_id: null
+    - claim:
+        id: c_y2zwmYSpBcYIebpwRaqExS
+        subject_person_id: p_ghgtseEJkUC2ybxjB2cf7v
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xsZjWJG7Ngxguy33zQw34i
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_G8enc2lRjQmjT6v7nRxbTW
+          claim_id: c_y2zwmYSpBcYIebpwRaqExS
+          source_id: s_Yg4ZW-w_qY3uHv8rqr_GgX
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 34712 王立道）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Yg4ZW-w_qY3uHv8rqr_GgX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王有道（CBDB 295416）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295416&o=json
+            external_identifier: CBDB:295416
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xsZjWJG7Ngxguy33zQw34i
+        status: active
+        display_name: 王有道
+        merged_into_person_id: null
 ---
 
 # 王立道
@@ -274,8 +459,18 @@ relationships:
 | spouses | p_K4if1FnBjd9Nh5FkNdm7HQ | 唐氏 | accepted |
 | ancestors | p_KhayJvfHv4EZubYePUZF8P | 王子輝 | accepted |
 | ancestors | p_wJemAUaKC2t74cEjRVqWg6 | 王冕 | accepted |
+| other | p_5p53EfmQ44vsjoPLQMGmHx | 王體道 | accepted |
+| other | p_Ca934HV8fa4ZEtNrvtPHC7 | 王重道 | accepted |
+| other | p_Vc6KENKcAbqKze1KoJMXro | 王望道 | accepted |
+| other | p_ZzYjKwrCM9xrGwJQLLKYLY | 王順道 | accepted |
+| other | p_xsZjWJG7Ngxguy33zQw34i | 王有道 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：唐氏(王立道妻)（CBDB 295412）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295412&o=json)
 - [中国历代人物传记资料库：王立道（CBDB 34712）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34712&o=json)
+- [中国历代人物传记资料库：王順道（CBDB 295417）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295417&o=json)
+- [中国历代人物传记资料库：王體道（CBDB 295415）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295415&o=json)
+- [中国历代人物传记资料库：王望道（CBDB 295414）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295414&o=json)
+- [中国历代人物传记资料库：王有道（CBDB 295416）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295416&o=json)
+- [中国历代人物传记资料库：王重道（CBDB 295413）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295413&o=json)

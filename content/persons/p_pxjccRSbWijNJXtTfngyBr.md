@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王汝詠
 cbdb_id: 209905
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ttIrCemhcrVbgR4jeDaRN8
+        subject_person_id: p_K6Mg8CNu81j224iHAUiEPB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pxjccRSbWijNJXtTfngyBr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5GoQFA2feITEkFu7E7mZSQ
+          claim_id: c_ttIrCemhcrVbgR4jeDaRN8
+          source_id: s_PJCApbo1_nPuiQPS1mH242
+          stance: supports
+          locator: CBDB：兄弟 王汝訓（126501）之父／母 王藩
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王汝詠 与 王汝訓 为同胞（CBDB 记「兄」），王汝訓 之父／母即 王汝詠 之父／母。
+          source:
+            id: s_PJCApbo1_nPuiQPS1mH242
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝詠（CBDB 209905）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209905&o=json
+            external_identifier: CBDB:209905
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_K6Mg8CNu81j224iHAUiEPB
+        status: active
+        display_name: 王藩
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_m6b7E8DcGNlbZp0R2HhK-E
+        subject_person_id: p_cakXozT1Ed1TLgH5Avqt9N
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_pxjccRSbWijNJXtTfngyBr
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mNrC6h2P6a7vkX5cjedn_V
+          claim_id: c_m6b7E8DcGNlbZp0R2HhK-E
+          source_id: s_PJCApbo1_nPuiQPS1mH242
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126501 王汝訓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_PJCApbo1_nPuiQPS1mH242
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝詠（CBDB 209905）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209905&o=json
+            external_identifier: CBDB:209905
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cakXozT1Ed1TLgH5Avqt9N
+        status: active
+        display_name: 王汝訓
+        merged_into_person_id: null
 ---
 
 # 王汝詠
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_K6Mg8CNu81j224iHAUiEPB | 王藩 | accepted |
+| other | p_cakXozT1Ed1TLgH5Avqt9N | 王汝訓 | accepted |
 
 ## 外部来源
 

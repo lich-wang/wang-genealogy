@@ -4,7 +4,7 @@ id: p_ygZf2AWX1K7FAsdGFUsyHt
 status: active
 merged_into: null
 display_name: 王冠
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,44 @@ relationships:
         display_name: 王鐸
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_EYyRPYvIRHQrNQ3UIDGPOi
+        subject_person_id: p_qYogdZiTS32CtsS73yhhHZ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ygZf2AWX1K7FAsdGFUsyHt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yLzsPC2ownZGE-KWMbMm8L
+          claim_id: c_EYyRPYvIRHQrNQ3UIDGPOi
+          source_id: s_LBWrrHZ_G5g5xTRoegBUtg
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200741 王冠）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_LBWrrHZ_G5g5xTRoegBUtg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王袞（CBDB 262277）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262277&o=json
+            external_identifier: CBDB:262277
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qYogdZiTS32CtsS73yhhHZ
+        status: active
+        display_name: 王袞
+        merged_into_person_id: null
 ---
 
 # 王冠
@@ -240,10 +277,12 @@ relationships:
 | parents | p_B2mSmj5GX3CUuNGwW2WAN2 | 王璽 | accepted |
 | ancestors | p_9tN8qL1YuLPVb1krzpUq7P | 王儉 | accepted |
 | ancestors | p_m9vU8XZTaGk7TMZXbKcd5F | 王鐸 | accepted |
+| other | p_qYogdZiTS32CtsS73yhhHZ | 王袞 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鐸（CBDB 262272）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262272&o=json)
 - [中国历代人物传记资料库：王冠（CBDB 200741）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200741&o=json)
+- [中国历代人物传记资料库：王袞（CBDB 262277）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262277&o=json)
 - [中国历代人物传记资料库：王儉（CBDB 262273）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262273&o=json)
 - [中国历代人物传记资料库：王璽（CBDB 262274）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262274&o=json)

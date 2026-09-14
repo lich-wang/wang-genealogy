@@ -4,7 +4,7 @@ id: p_LmKuR6QP5HXTQ7tPNudqsU
 status: active
 merged_into: null
 display_name: 王顗
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,81 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Q_aVARaT1NnUAOSDtPdx6d
+        subject_person_id: p_M19oFx28z6UHMwn5fL36T6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LmKuR6QP5HXTQ7tPNudqsU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_eoBbyOEUAjDuToiwIUXjze
+          claim_id: c_Q_aVARaT1NnUAOSDtPdx6d
+          source_id: s_S_BpGd26BxRrWczB0CwZi7
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 12167）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_S_BpGd26BxRrWczB0CwZi7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王顗（CBDB 20452）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=20452&o=json
+            external_identifier: CBDB:20452
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_M19oFx28z6UHMwn5fL36T6
+        status: active
+        display_name: 王庭璋
+        merged_into_person_id: null
+    - claim:
+        id: c_SiMyoo-GMTx_E6sWdVjanQ
+        subject_person_id: p_Vtipw6MPXDsx7m64K8GKg4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LmKuR6QP5HXTQ7tPNudqsU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_aryAN9Zr463WALFg-iPXB8
+          claim_id: c_SiMyoo-GMTx_E6sWdVjanQ
+          source_id: s_S_BpGd26BxRrWczB0CwZi7
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 37941）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_S_BpGd26BxRrWczB0CwZi7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王顗（CBDB 20452）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=20452&o=json
+            external_identifier: CBDB:20452
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Vtipw6MPXDsx7m64K8GKg4
+        status: active
+        display_name: 劉氏
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_M19oFx28z6UHMwn5fL36T6 | 王庭璋 | accepted |
+| parents | p_Vtipw6MPXDsx7m64K8GKg4 | 劉氏 | accepted |
 
 ## 外部来源
 

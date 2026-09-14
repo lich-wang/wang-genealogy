@@ -100,6 +100,22 @@ export function normalizeRelationship(
             object_person_id: currentPersonId,
             parent_role: null,
           };
+    case 'sibling':
+      // Also symmetric (兄/弟/姊/妹); canonicalize on the smaller id so both
+      // directions collapse to one row exactly like spouse_of.
+      return currentPersonId < relatedPersonId
+        ? {
+            predicate: 'kinship.sibling_of',
+            subject_person_id: currentPersonId,
+            object_person_id: relatedPersonId,
+            parent_role: null,
+          }
+        : {
+            predicate: 'kinship.sibling_of',
+            subject_person_id: relatedPersonId,
+            object_person_id: currentPersonId,
+            parent_role: null,
+          };
     default: {
       const _exhaustive: never = input;
       throw new KinshipError('unknown_relationship', `未知的关系类型：${String(_exhaustive)}`);
@@ -111,12 +127,15 @@ export function normalizeRelationship(
  * Chinese kinship terms, as external genealogical databases write them, mapped
  * onto the directions this API accepts.
  *
- * Deliberately narrow. A sibling, an uncle or a son-in-law has no faithful
+ * Deliberately narrow. An uncle or a son-in-law has no faithful
  * representation in this model, so those terms return null and the caller
  * reports them instead of forcing them into a predicate that would misstate the
  * source. Explicit 父/母 terms preserve the parent endpoint's role while still
  * collapsing onto the same parent_of direction. 子/女 describes the child,
  * not whether the other endpoint is a father or mother, so it stays neutral.
+ * 兄/弟/姊/妹 do have a faithful symmetric predicate (kinship.sibling_of), so
+ * they map to `sibling`; 從兄/從弟/族兄弟 stay out because they are cousins,
+ * not siblings.
  *
  * 十世孫 and its kin stay out too, even though `ancestor_of` could now hold
  * them: this table yields a direction and nothing else, so it would silently
@@ -147,6 +166,13 @@ const KINSHIP_TERM_PATTERNS: ReadonlyArray<{ input: RelationshipInput; pattern: 
     input: 'spouse',
     pattern:
       /^(妻|妻子|夫|丈夫|正妻|嫡妻|元配|原配|繼室|继室|夫人|第[一二三四五六七八九]任妻|第[一二三四五六七八九]任夫)$/,
+  },
+  {
+    // Siblings only. 從兄/從弟/從姊/從妹 (cousins) and 繼/庶 half-siblings are
+    // NOT listed: they are not the same statement as a full sibling and would be
+    // misstated by 兄/弟.
+    input: 'sibling',
+    pattern: /^(兄|長兄|长兄|弟|次弟|兄弟|兄弟們|姊|姐|姊姊|姐姐|妹|妹妹|姐妹|姊妹|胞兄|胞弟|胞姊|胞妹)$/,
   },
 ];
 

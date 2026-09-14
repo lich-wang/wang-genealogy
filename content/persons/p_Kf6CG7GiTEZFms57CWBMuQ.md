@@ -4,7 +4,7 @@ id: p_Kf6CG7GiTEZFms57CWBMuQ
 status: active
 merged_into: null
 display_name: 王錫爵
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -166,7 +166,44 @@ relationships:
         status: active
         display_name: 王夢祥
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_sU1MRhD7z4G8gaVkS4C3BC
+        subject_person_id: p_Kf6CG7GiTEZFms57CWBMuQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8M44z5eNLN3HAjCnxToEgd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_g_ui-t-_JknyzSqHug6Hjz
+          claim_id: c_sU1MRhD7z4G8gaVkS4C3BC
+          source_id: s_t3q1eu9BFQp-cxz_ShDaAs
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 123984）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_t3q1eu9BFQp-cxz_ShDaAs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王燾貞（CBDB 684388）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=684388&o=json
+            external_identifier: CBDB:684388
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8M44z5eNLN3HAjCnxToEgd
+        status: active
+        display_name: 王燾貞
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -304,12 +341,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_y3wPwGRVQu8zpSRFXXRDEb | 王夢祥 | accepted |
+| children | p_8M44z5eNLN3HAjCnxToEgd | 王燾貞 | accepted |
 | ancestors | p_bFMsDnYZwCi9GhoLahN7Ae | 王侁 | accepted |
 | ancestors | p_yibDDKEL9F49hG8w8GSgnB | 王湧 | accepted |
 | descendants | p_HWF5mXUhrhbQxoWV5rhmVR | 王時敏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王燾貞（CBDB 684388）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=684388&o=json)
 - [中国历代人物传记资料库：王夢祥（CBDB 326164）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326164&o=json)
 - [中国历代人物传记资料库：王侁（CBDB 326161）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326161&o=json)
 - [中国历代人物传记资料库：王時敏（CBDB 55432）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=55432&o=json)

@@ -4,7 +4,7 @@ id: p_Sr7UDMKCf4JcH9hwKQWyNh
 status: active
 merged_into: null
 display_name: 王家瓚
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,43 @@ relationships:
         status: active
         display_name: 王㴶
         merged_into_person_id: null
+    - claim:
+        id: c_qHfNqz5fGi8re9eq_N9TDX
+        subject_person_id: p_Sr7UDMKCf4JcH9hwKQWyNh
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_458To9kNrtToQTC9L1EJxX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OFQpsT6UD-njPbJRYKn60t
+          claim_id: c_qHfNqz5fGi8re9eq_N9TDX
+          source_id: s_kp8z6C8PDgU9SRu31yrfhK
+          stance: supports
+          locator: CBDB：兄弟 王㴶（526824）之父／母 王家瓚
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王文洽 与 王㴶 为同胞（CBDB 记「兄」），王㴶 之父／母即 王文洽 之父／母。
+          source:
+            id: s_kp8z6C8PDgU9SRu31yrfhK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文洽（CBDB 701733）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=701733&o=json
+            external_identifier: CBDB:701733
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_458To9kNrtToQTC9L1EJxX
+        status: active
+        display_name: 王文洽
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_her6mnA67u6pFLGELWUtyA | 王㴶 | accepted |
+| children | p_458To9kNrtToQTC9L1EJxX | 王文洽 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王家瓚（CBDB 69289）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69289&o=json)
+- [中国历代人物传记资料库：王文洽（CBDB 701733）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=701733&o=json)

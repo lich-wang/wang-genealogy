@@ -4,7 +4,7 @@ id: p_uZJh4H7M1v6Jx64KEif35w
 status: active
 merged_into: null
 display_name: 王肅
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,80 @@ relationships:
         status: active
         display_name: 王哲
         merged_into_person_id: null
+    - claim:
+        id: c_iz2RGmEXpL9JCgXd2U40Ad
+        subject_person_id: p_uZJh4H7M1v6Jx64KEif35w
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7sjQsKdBb3M9ZomMXRC9xx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dNbo761SSquQmSApXFdqEB
+          claim_id: c_iz2RGmEXpL9JCgXd2U40Ad
+          source_id: s_QhiFamjkGubQiiCqXyNAVa
+          stance: supports
+          locator: CBDB：兄弟 王哲（198811）之父／母 王肅
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王聰 与 王哲 为同胞（CBDB 记「弟」），王哲 之父／母即 王聰 之父／母。
+          source:
+            id: s_QhiFamjkGubQiiCqXyNAVa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王聰（CBDB 319574）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=319574&o=json
+            external_identifier: CBDB:319574
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7sjQsKdBb3M9ZomMXRC9xx
+        status: active
+        display_name: 王聰
+        merged_into_person_id: null
+    - claim:
+        id: c_a_rIE3ImKjVsVGUGwNmfMN
+        subject_person_id: p_uZJh4H7M1v6Jx64KEif35w
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EnivWNeA5CVFjC5KjVCL4L
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uHAr0BTbSYK1-N-jPUCkcc
+          claim_id: c_a_rIE3ImKjVsVGUGwNmfMN
+          source_id: s_mWp0vEpYQM5bXDzk4p-x7P
+          stance: supports
+          locator: CBDB：兄弟 王哲（198811）之父／母 王肅
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王騰 与 王哲 为同胞（CBDB 记「弟」），王哲 之父／母即 王騰 之父／母。
+          source:
+            id: s_mWp0vEpYQM5bXDzk4p-x7P
+            source_type: api_record
+            title: 中国历代人物传记资料库：王騰（CBDB 319585）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=319585&o=json
+            external_identifier: CBDB:319585
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EnivWNeA5CVFjC5KjVCL4L
+        status: active
+        display_name: 王騰
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_w8kp3E7GopXJ9s4XjHQN1n | 王哲 | accepted |
+| children | p_7sjQsKdBb3M9ZomMXRC9xx | 王聰 | accepted |
+| children | p_EnivWNeA5CVFjC5KjVCL4L | 王騰 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王聰（CBDB 319574）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=319574&o=json)
 - [中国历代人物传记资料库：王肅（CBDB 319540）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=319540&o=json)
+- [中国历代人物传记资料库：王騰（CBDB 319585）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=319585&o=json)

@@ -4,7 +4,7 @@ id: p_WP2TCGKdqkuWFjHVRTiLcW
 status: active
 merged_into: null
 display_name: 王志堅
-revision: 6
+revision: 13
 properties:
   - predicate: name.primary
     recommended:
@@ -358,7 +358,266 @@ relationships:
         display_name: 王重鼎
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_E69taKClgzNXLwRHvWlK6h
+        subject_person_id: p_4EEgBQWAFUW189KU5BXtAJ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_WP2TCGKdqkuWFjHVRTiLcW
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XzDLusSjUpqSZAETgcLNvi
+          claim_id: c_E69taKClgzNXLwRHvWlK6h
+          source_id: s_gfXjnGJ686CrjiHqG9Rf44
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126537 王志堅）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_gfXjnGJ686CrjiHqG9Rf44
+            source_type: api_record
+            title: 中国历代人物传记资料库：王志龍（CBDB 235161）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235161&o=json
+            external_identifier: CBDB:235161
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4EEgBQWAFUW189KU5BXtAJ
+        status: active
+        display_name: 王志龍
+        merged_into_person_id: null
+    - claim:
+        id: c_zzKHoCA6XMhqXjcK-U_XfY
+        subject_person_id: p_CVfm8QLBPRz6YKLsA5QyLD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_WP2TCGKdqkuWFjHVRTiLcW
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NGaH6b5WaS0CgT7tNN7xkC
+          claim_id: c_zzKHoCA6XMhqXjcK-U_XfY
+          source_id: s_RxEfhC144FlQB0iiWqlo9x
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126537 王志堅）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_RxEfhC144FlQB0iiWqlo9x
+            source_type: api_record
+            title: 中国历代人物传记资料库：王志伊（CBDB 235157）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235157&o=json
+            external_identifier: CBDB:235157
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CVfm8QLBPRz6YKLsA5QyLD
+        status: active
+        display_name: 王志伊
+        merged_into_person_id: null
+    - claim:
+        id: c_QdyELDKdWB3eOUNQsFb1t3
+        subject_person_id: p_KMpUw21MkzdHgcCwnYVS8A
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_WP2TCGKdqkuWFjHVRTiLcW
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_snujP9pASowqX1sKxvgggb
+          claim_id: c_QdyELDKdWB3eOUNQsFb1t3
+          source_id: s_1Nm3481J5t4uWA6JiC_Dyj
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126537 王志堅）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_1Nm3481J5t4uWA6JiC_Dyj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王志審（CBDB 235160）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235160&o=json
+            external_identifier: CBDB:235160
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KMpUw21MkzdHgcCwnYVS8A
+        status: active
+        display_name: 王志審
+        merged_into_person_id: null
+    - claim:
+        id: c_sHoW_JO79NRXHrB9DIWjg1
+        subject_person_id: p_WP2TCGKdqkuWFjHVRTiLcW
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_XyT13XqKTnrUi4sdfqMDd2
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_W8ho3Xo2GyXqCOg7abiJJC
+          claim_id: c_sHoW_JO79NRXHrB9DIWjg1
+          source_id: s_Y64nCS6N91wSf4DbwbT4vJ
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126537 王志堅）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Y64nCS6N91wSf4DbwbT4vJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王志宏（CBDB 235158）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235158&o=json
+            external_identifier: CBDB:235158
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_XyT13XqKTnrUi4sdfqMDd2
+        status: active
+        display_name: 王志宏
+        merged_into_person_id: null
+    - claim:
+        id: c_9uX4obCaKYmB83h2Rm_n9r
+        subject_person_id: p_WP2TCGKdqkuWFjHVRTiLcW
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fKtWdwRHcKRYSUnR9nmC5g
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8IHzGa5j1tNDiJsOO_2Me0
+          claim_id: c_9uX4obCaKYmB83h2Rm_n9r
+          source_id: s_jBU7D8GZQVEtN9VrIBX69K
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126537 王志堅）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_jBU7D8GZQVEtN9VrIBX69K
+            source_type: api_record
+            title: 中国历代人物传记资料库：王志密（CBDB 235159）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235159&o=json
+            external_identifier: CBDB:235159
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fKtWdwRHcKRYSUnR9nmC5g
+        status: active
+        display_name: 王志密
+        merged_into_person_id: null
+    - claim:
+        id: c_TOEkduTejcutBJiMiolvv1
+        subject_person_id: p_WP2TCGKdqkuWFjHVRTiLcW
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_rAM7rFx6bZ55xeMwnEB8Vu
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lD1vNkJEALpYxMx6JXgFga
+          claim_id: c_TOEkduTejcutBJiMiolvv1
+          source_id: s_UzPZmbgesSMTJJedw710E5
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126537 王志堅）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_UzPZmbgesSMTJJedw710E5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王志夔（CBDB 235155）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235155&o=json
+            external_identifier: CBDB:235155
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rAM7rFx6bZ55xeMwnEB8Vu
+        status: active
+        display_name: 王志夔
+        merged_into_person_id: null
+    - claim:
+        id: c_lTLaZtc61zalgrqdwr0HOA
+        subject_person_id: p_WP2TCGKdqkuWFjHVRTiLcW
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_rZKeoziqhpQbtQiPHqWJ79
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_C0h57sUT0qUI5BnlXZjYuF
+          claim_id: c_lTLaZtc61zalgrqdwr0HOA
+          source_id: s_zngo4oS9ZTtFBfUx3_Yqke
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126537 王志堅）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_zngo4oS9ZTtFBfUx3_Yqke
+            source_type: api_record
+            title: 中国历代人物传记资料库：王志望（CBDB 235163）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235163&o=json
+            external_identifier: CBDB:235163
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rZKeoziqhpQbtQiPHqWJ79
+        status: active
+        display_name: 王志望
+        merged_into_person_id: null
 ---
 
 # 王志堅
@@ -384,6 +643,13 @@ relationships:
 | children | p_d5tZbmB7Uvgn31uVyUP59b | 王偕 | accepted |
 | ancestors | p_4JGDXd2PVCbJXStDWXhdLE | 王三錫 | accepted |
 | ancestors | p_kB96uzTXC9U8gv3VfE4GfX | 王重鼎 | accepted |
+| other | p_4EEgBQWAFUW189KU5BXtAJ | 王志龍 | accepted |
+| other | p_CVfm8QLBPRz6YKLsA5QyLD | 王志伊 | accepted |
+| other | p_KMpUw21MkzdHgcCwnYVS8A | 王志審 | accepted |
+| other | p_XyT13XqKTnrUi4sdfqMDd2 | 王志宏 | accepted |
+| other | p_fKtWdwRHcKRYSUnR9nmC5g | 王志密 | accepted |
+| other | p_rAM7rFx6bZ55xeMwnEB8Vu | 王志夔 | accepted |
+| other | p_rZKeoziqhpQbtQiPHqWJ79 | 王志望 | accepted |
 
 ## 外部来源
 
@@ -392,5 +658,12 @@ relationships:
 - [中国历代人物传记资料库：王伸（CBDB 235164）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235164&o=json)
 - [中国历代人物传记资料库：王傚（CBDB 235167）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235167&o=json)
 - [中国历代人物传记资料库：王偕（CBDB 235166）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235166&o=json)
+- [中国历代人物传记资料库：王志宏（CBDB 235158）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235158&o=json)
 - [中国历代人物传记资料库：王志堅（CBDB 126537）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126537&o=json)
+- [中国历代人物传记资料库：王志夔（CBDB 235155）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235155&o=json)
+- [中国历代人物传记资料库：王志龍（CBDB 235161）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235161&o=json)
+- [中国历代人物传记资料库：王志密（CBDB 235159）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235159&o=json)
+- [中国历代人物传记资料库：王志審（CBDB 235160）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235160&o=json)
+- [中国历代人物传记资料库：王志望（CBDB 235163）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235163&o=json)
+- [中国历代人物传记资料库：王志伊（CBDB 235157）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235157&o=json)
 - [中国历代人物传记资料库：王重鼎（CBDB 235148）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235148&o=json)

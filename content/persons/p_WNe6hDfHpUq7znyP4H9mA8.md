@@ -4,7 +4,7 @@ id: p_WNe6hDfHpUq7znyP4H9mA8
 status: active
 merged_into: null
 display_name: 王師伋
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_GeTN8XVskHqEqbS17ve-mz
+        subject_person_id: p_WNe6hDfHpUq7znyP4H9mA8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mzi91Uxi85qNEK3A8TUgFk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_uN3KJsNxnCLToJOqdtGRQa
+          claim_id: c_GeTN8XVskHqEqbS17ve-mz
+          source_id: s_NzKVR2g1HZFJtBi3Kl-DsL
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 17666）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_NzKVR2g1HZFJtBi3Kl-DsL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎔（CBDB 17634）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17634&o=json
+            external_identifier: CBDB:17634
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mzi91Uxi85qNEK3A8TUgFk
+        status: active
+        display_name: 王鎔
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -171,11 +208,13 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_mzi91Uxi85qNEK3A8TUgFk | 王鎔 | accepted |
 | spouses | p_Ycdxbn3GZ4uAAxqbdiXaXw | 宗惠真 | accepted |
 | descendants | p_wKfvgdvNixuHKZaA84Vuyy | 王桂 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王桂（CBDB 38084）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38084&o=json)
+- [中国历代人物传记资料库：王鎔（CBDB 17634）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17634&o=json)
 - [中国历代人物传记资料库：王師伋（CBDB 17666）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17666&o=json)
 - [中国历代人物传记资料库：宗惠真（CBDB 5282）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5282&o=json)

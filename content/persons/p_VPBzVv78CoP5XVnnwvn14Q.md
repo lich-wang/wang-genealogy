@@ -4,7 +4,7 @@ id: p_VPBzVv78CoP5XVnnwvn14Q
 status: active
 merged_into: null
 display_name: 王瓉
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_xZTocyECtKu0wQKD-vigZZ
+        subject_person_id: p_Akvhk7vb2JMfzgR2hpBTHy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VPBzVv78CoP5XVnnwvn14Q
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F1wOe0HgCmDzMzNXi7vOka
+          claim_id: c_xZTocyECtKu0wQKD-vigZZ
+          source_id: s_vTSLNsM_bkakuNw3_wvqXY
+          stance: supports
+          locator: CBDB：兄弟 王瑛（126750）之父／母 王浦
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王瓉 与 王瑛 为同胞（CBDB 记「弟」），王瑛 之父／母即 王瓉 之父／母。
+          source:
+            id: s_vTSLNsM_bkakuNw3_wvqXY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瓉（CBDB 294334）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294334&o=json
+            external_identifier: CBDB:294334
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Akvhk7vb2JMfzgR2hpBTHy
+        status: active
+        display_name: 王浦
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_fGxjdUb4sF_5EsWZrrMEXE
+        subject_person_id: p_AKiZ73AHqEtzATAkDq6m9S
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_VPBzVv78CoP5XVnnwvn14Q
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SEX47Tu_BXYbrv3kpTxxG-
+          claim_id: c_fGxjdUb4sF_5EsWZrrMEXE
+          source_id: s_vTSLNsM_bkakuNw3_wvqXY
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126750 王瑛）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_vTSLNsM_bkakuNw3_wvqXY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瓉（CBDB 294334）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294334&o=json
+            external_identifier: CBDB:294334
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_AKiZ73AHqEtzATAkDq6m9S
+        status: active
+        display_name: 王瑛
+        merged_into_person_id: null
 ---
 
 # 王瓉
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Akvhk7vb2JMfzgR2hpBTHy | 王浦 | accepted |
+| other | p_AKiZ73AHqEtzATAkDq6m9S | 王瑛 | accepted |
 
 ## 外部来源
 

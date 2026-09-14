@@ -50,6 +50,14 @@ describe('normalizeRelationship', () => {
     expect(a.subject_person_id).toBe('p_aaa');
   });
 
+  it('collapses sibling to a single canonical row regardless of direction', () => {
+    const a = normalizeRelationship('p_aaa', 'sibling', 'p_zzz');
+    const b = normalizeRelationship('p_zzz', 'sibling', 'p_aaa');
+    expect(a).toEqual(b);
+    expect(a.predicate).toBe('kinship.sibling_of');
+    expect(a.subject_person_id).toBe('p_aaa');
+  });
+
   it('rejects self-relationship', () => {
     expect(() => normalizeRelationship('p_x', 'parent', 'p_x')).toThrow(KinshipError);
   });
@@ -212,10 +220,16 @@ describe('mapChineseKinshipTerm', () => {
   });
 
   it('refuses to restate relations this model cannot express', () => {
-    // Siblings, in-laws and distant descendants have no predicate here, and
+    // In-laws, cousins and distant descendants have no predicate here, and
     // 妾 is not the same statement as marriage.
-    for (const term of ['兄', '弟', '女婿', '岳父', '姪孫', '十世孫', '妾', '外甥']) {
+    for (const term of ['女婿', '岳父', '姪孫', '十世孫', '妾', '外甥', '從兄', '堂弟']) {
       expect(mapChineseKinshipTerm(term).input).toBeNull();
+    }
+  });
+
+  it('maps direct siblings onto the symmetric sibling predicate', () => {
+    for (const term of ['兄', '弟', '姊', '妹', '兄弟']) {
+      expect(mapChineseKinshipTerm(term).input).toBe('sibling');
     }
   });
 

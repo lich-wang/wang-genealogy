@@ -4,7 +4,7 @@ id: p_77GuFxNmZXLwnvYV6Z7Evu
 status: active
 merged_into: null
 display_name: 王倬
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_whiGyPpMX5Hk6F1fF7OuOs
+        subject_person_id: p_hhmhrJoJhGam6MtTDBQHpt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_77GuFxNmZXLwnvYV6Z7Evu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FrSmn1iZT81pgHonK2PDnR
+          claim_id: c_whiGyPpMX5Hk6F1fF7OuOs
+          source_id: s_KExEzB0FuIL0Vt9cRXvsw1
+          stance: supports
+          locator: CBDB：兄弟 王侨（199828）之父／母 王辂
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王倬 与 王侨 为同胞（CBDB 记「兄」），王侨 之父／母即 王倬 之父／母。
+          source:
+            id: s_KExEzB0FuIL0Vt9cRXvsw1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王倬（CBDB 250191）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250191&o=json
+            external_identifier: CBDB:250191
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hhmhrJoJhGam6MtTDBQHpt
+        status: active
+        display_name: 王辂
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_O4bxsQnxYvbUEJR8eZimiG
+        subject_person_id: p_77GuFxNmZXLwnvYV6Z7Evu
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_U2Fggori7BCBLtrGmDkhHG
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DHrE6SjWUkGgmxYNF1ZPsX
+          claim_id: c_O4bxsQnxYvbUEJR8eZimiG
+          source_id: s_KExEzB0FuIL0Vt9cRXvsw1
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199828 王僑）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_KExEzB0FuIL0Vt9cRXvsw1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王倬（CBDB 250191）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250191&o=json
+            external_identifier: CBDB:250191
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_U2Fggori7BCBLtrGmDkhHG
+        status: active
+        display_name: 王侨
+        merged_into_person_id: null
 ---
 
 # 王倬
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_hhmhrJoJhGam6MtTDBQHpt | 王辂 | accepted |
+| other | p_U2Fggori7BCBLtrGmDkhHG | 王侨 | accepted |
 
 ## 外部来源
 

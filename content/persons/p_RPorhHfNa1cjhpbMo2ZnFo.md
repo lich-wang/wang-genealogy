@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王三鍚
 cbdb_id: 205426
-revision: 4
+revision: 7
 properties:
   - predicate: bio.summary
     recommended:
@@ -236,7 +236,118 @@ relationships:
         display_name: 王加茂
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_35DXjB9wQaiaJIIgzvIdV1
+        subject_person_id: p_2XzokrAz5W7AEL7C28M8dv
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RPorhHfNa1cjhpbMo2ZnFo
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ebQYaCFXIpT-zO0NIZmyGB
+          claim_id: c_35DXjB9wQaiaJIIgzvIdV1
+          source_id: s_PeGCfgb_ejWh3NhI33Xz8y
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205426 王三鍚）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_PeGCfgb_ejWh3NhI33Xz8y
+            source_type: api_record
+            title: 中国历代人物传记资料库：王永鍚（CBDB 333001）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333001&o=json
+            external_identifier: CBDB:333001
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2XzokrAz5W7AEL7C28M8dv
+        status: active
+        display_name: 王永鍚
+        merged_into_person_id: null
+    - claim:
+        id: c_4F_C04oizs1ZKs0UtLh_GN
+        subject_person_id: p_A6EyG9BRn5T91T78BjfrLz
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RPorhHfNa1cjhpbMo2ZnFo
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mbW-ouly96NFOP-XU0jdo2
+          claim_id: c_4F_C04oizs1ZKs0UtLh_GN
+          source_id: s_Yl9-kiOVS3Xms6mHQViUg3
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205426 王三鍚）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Yl9-kiOVS3Xms6mHQViUg3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷鍚（CBDB 332998）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332998&o=json
+            external_identifier: CBDB:332998
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_A6EyG9BRn5T91T78BjfrLz
+        status: active
+        display_name: 王廷鍚
+        merged_into_person_id: null
+    - claim:
+        id: c_fxWRuULdHyCCaStqtyi0YQ
+        subject_person_id: p_Gp6y1q4dJWg2vQcGdDyeHS
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RPorhHfNa1cjhpbMo2ZnFo
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uR8U8tVoBSnXXcFrEGcBq6
+          claim_id: c_fxWRuULdHyCCaStqtyi0YQ
+          source_id: s_Qp0oneK32t5gkAW1uHAOy7
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205426 王三鍚）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Qp0oneK32t5gkAW1uHAOy7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王申鍚（CBDB 333002）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333002&o=json
+            external_identifier: CBDB:333002
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Gp6y1q4dJWg2vQcGdDyeHS
+        status: active
+        display_name: 王申鍚
+        merged_into_person_id: null
 ---
 
 # 王三鍚
@@ -258,10 +369,16 @@ relationships:
 | parents | p_TBNAibWSwiLJagKdPeWqgE | 王一陽 | accepted |
 | ancestors | p_9krhrKbo8VTou75RLSqpgt | 王登雲 | accepted |
 | ancestors | p_5WrLnVoNTCh5kCwFcCRHpP | 王加茂 | accepted |
+| other | p_2XzokrAz5W7AEL7C28M8dv | 王永鍚 | accepted |
+| other | p_A6EyG9BRn5T91T78BjfrLz | 王廷鍚 | accepted |
+| other | p_Gp6y1q4dJWg2vQcGdDyeHS | 王申鍚 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王登雲（CBDB 332994）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332994&o=json)
 - [中国历代人物传记资料库：王加茂（CBDB 332993）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332993&o=json)
 - [中国历代人物传记资料库：王三鍚（CBDB 205426）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205426&o=json)
+- [中国历代人物传记资料库：王申鍚（CBDB 333002）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333002&o=json)
+- [中国历代人物传记资料库：王廷鍚（CBDB 332998）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332998&o=json)
 - [中国历代人物传记资料库：王一陽（CBDB 332995）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332995&o=json)
+- [中国历代人物传记资料库：王永鍚（CBDB 333001）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333001&o=json)

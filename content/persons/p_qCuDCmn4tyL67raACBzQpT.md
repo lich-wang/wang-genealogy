@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王正色
 cbdb_id: 302738
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_bRGne79F9eDoypfvStHbIe
+        subject_person_id: p_2W13YFD4n2ezyjYiLrXP91
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qCuDCmn4tyL67raACBzQpT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E1rWT_XAXJdZDfeTuq8JOk
+          claim_id: c_bRGne79F9eDoypfvStHbIe
+          source_id: s_ftcyXW7ZnikBWpHtC0plW4
+          stance: supports
+          locator: CBDB：兄弟 王正容（203299）之父／母 王克勤
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王正色 与 王正容 为同胞（CBDB 记「兄」），王正容 之父／母即 王正色 之父／母。
+          source:
+            id: s_ftcyXW7ZnikBWpHtC0plW4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正色（CBDB 302738）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302738&o=json
+            external_identifier: CBDB:302738
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2W13YFD4n2ezyjYiLrXP91
+        status: active
+        display_name: 王克勤
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_c3zSXBikucq08YCPoBC-su
+        subject_person_id: p_BZLwNz8UohpakiqfGWVWHk
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qCuDCmn4tyL67raACBzQpT
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fzQ-uGmOaHEu6psp_GDuTj
+          claim_id: c_c3zSXBikucq08YCPoBC-su
+          source_id: s_ftcyXW7ZnikBWpHtC0plW4
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203299 王正容）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ftcyXW7ZnikBWpHtC0plW4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正色（CBDB 302738）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302738&o=json
+            external_identifier: CBDB:302738
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BZLwNz8UohpakiqfGWVWHk
+        status: active
+        display_name: 王正容
+        merged_into_person_id: null
 ---
 
 # 王正色
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_2W13YFD4n2ezyjYiLrXP91 | 王克勤 | accepted |
+| other | p_BZLwNz8UohpakiqfGWVWHk | 王正容 | accepted |
 
 ## 外部来源
 

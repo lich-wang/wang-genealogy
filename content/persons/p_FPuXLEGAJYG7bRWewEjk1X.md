@@ -4,7 +4,7 @@ id: p_FPuXLEGAJYG7bRWewEjk1X
 status: active
 merged_into: null
 display_name: 王義
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,43 @@ relationships:
         status: active
         display_name: 王承芳
         merged_into_person_id: null
+    - claim:
+        id: c_7jbOB9-7OkDjAR1OYVdhom
+        subject_person_id: p_FPuXLEGAJYG7bRWewEjk1X
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_JyHxqfkSLbRgJ5iEEiGf3n
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ti5kBOBkxI-5iZTDm099bp
+          claim_id: c_7jbOB9-7OkDjAR1OYVdhom
+          source_id: s_xQz_BN8-k1GrbHuLRA-fPX
+          stance: supports
+          locator: CBDB：兄弟 王承芳（205124）之父／母 王義
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王惟賓 与 王承芳 为同胞（CBDB 记「兄」），王承芳 之父／母即 王惟賓 之父／母。
+          source:
+            id: s_xQz_BN8-k1GrbHuLRA-fPX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惟賓（CBDB 328628）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328628&o=json
+            external_identifier: CBDB:328628
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JyHxqfkSLbRgJ5iEEiGf3n
+        status: active
+        display_name: 王惟賓
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_kAp4jgFVdUZGBRH4zNTPTY | 王承芳 | accepted |
+| children | p_JyHxqfkSLbRgJ5iEEiGf3n | 王惟賓 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王惟賓（CBDB 328628）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328628&o=json)
 - [中国历代人物传记资料库：王義（CBDB 328625）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328625&o=json)

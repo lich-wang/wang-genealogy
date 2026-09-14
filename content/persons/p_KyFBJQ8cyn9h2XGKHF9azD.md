@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王頑童
 cbdb_id: 35391
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,7 +74,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_EEf-n0VhhQTjPe5OtCA0w6
+        subject_person_id: p_6txg6ZLYthq2n2oYYfNbqL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KyFBJQ8cyn9h2XGKHF9azD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_i_hLNHEoQN9QA9H_Mlk3SG
+          claim_id: c_EEf-n0VhhQTjPe5OtCA0w6
+          source_id: s_cS2Fxz5l3l81kqy7XD55RQ
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 35387）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_cS2Fxz5l3l81kqy7XD55RQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王頑童（CBDB 35391）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35391&o=json
+            external_identifier: CBDB:35391
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6txg6ZLYthq2n2oYYfNbqL
+        status: active
+        display_name: 王亨
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -99,6 +136,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_6txg6ZLYthq2n2oYYfNbqL | 王亨 | accepted |
 
 ## 外部来源
 

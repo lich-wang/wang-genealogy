@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王尚貞
 cbdb_id: 210676
-revision: 2
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -114,6 +114,154 @@ relationships:
         status: active
         display_name: 王雲鷺
         merged_into_person_id: null
+    - claim:
+        id: c_eCSXS3HTypbzSzUDQ2yCJn
+        subject_person_id: p_uHx4oxAT9ppsKf6aRXRGJM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_847jmYtbNaXCNUchPVYBZW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Dza13Zzrr657Gi8-Vz5Pw6
+          claim_id: c_eCSXS3HTypbzSzUDQ2yCJn
+          source_id: s_Mp96U_8qbB7mw4a_LH30D7
+          stance: supports
+          locator: CBDB：兄弟 王雲鷺（205920）之父／母 王尚貞
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王雲鸑 与 王雲鷺 为同胞（CBDB 记「弟」），王雲鷺 之父／母即 王雲鸑 之父／母。
+          source:
+            id: s_Mp96U_8qbB7mw4a_LH30D7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王雲鸑（CBDB 210681）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210681&o=json
+            external_identifier: CBDB:210681
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_847jmYtbNaXCNUchPVYBZW
+        status: active
+        display_name: 王雲鸑
+        merged_into_person_id: null
+    - claim:
+        id: c_4iKeIHxRGWlX_SE0WR_v2J
+        subject_person_id: p_uHx4oxAT9ppsKf6aRXRGJM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EnLcaLS2uMczaE3AyynrjS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3rLcQ0Ua7si07xfsyNG6Um
+          claim_id: c_4iKeIHxRGWlX_SE0WR_v2J
+          source_id: s_9sTQXDfkgHhPclJEEpH2Y-
+          stance: supports
+          locator: CBDB：兄弟 王雲鷺（205920）之父／母 王尚貞
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王雲鷟 与 王雲鷺 为同胞（CBDB 记「弟」），王雲鷺 之父／母即 王雲鷟 之父／母。
+          source:
+            id: s_9sTQXDfkgHhPclJEEpH2Y-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王雲鷟（CBDB 210683）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210683&o=json
+            external_identifier: CBDB:210683
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EnLcaLS2uMczaE3AyynrjS
+        status: active
+        display_name: 王雲鷟
+        merged_into_person_id: null
+    - claim:
+        id: c_yZIycm_Jm4H1O1ubghi-I-
+        subject_person_id: p_uHx4oxAT9ppsKf6aRXRGJM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XAwBghomVSmXqhmJhUwUKw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8k5ifoYX4bxl30jErOQ1Pc
+          claim_id: c_yZIycm_Jm4H1O1ubghi-I-
+          source_id: s_gZIGaXqcR1ANW18fRLAC-n
+          stance: supports
+          locator: CBDB：兄弟 王雲鷺（205920）之父／母 王尚貞
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王雲鴈 与 王雲鷺 为同胞（CBDB 记「弟」），王雲鷺 之父／母即 王雲鴈 之父／母。
+          source:
+            id: s_gZIGaXqcR1ANW18fRLAC-n
+            source_type: api_record
+            title: 中国历代人物传记资料库：王雲鴈（CBDB 210680）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210680&o=json
+            external_identifier: CBDB:210680
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_XAwBghomVSmXqhmJhUwUKw
+        status: active
+        display_name: 王雲鴈
+        merged_into_person_id: null
+    - claim:
+        id: c_Ewvwg5b3JT3HjAlqqV2tXa
+        subject_person_id: p_uHx4oxAT9ppsKf6aRXRGJM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zgMxPAPh9nRRPkisXUCpxq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AzVO9YDbW9ByvCT-ZfhjOn
+          claim_id: c_Ewvwg5b3JT3HjAlqqV2tXa
+          source_id: s_bpNzZMATMviwRAOIP7c7FI
+          stance: supports
+          locator: CBDB：兄弟 王雲鷺（205920）之父／母 王尚貞
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王雲鷖 与 王雲鷺 为同胞（CBDB 记「弟」），王雲鷺 之父／母即 王雲鷖 之父／母。
+          source:
+            id: s_bpNzZMATMviwRAOIP7c7FI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王雲鷖（CBDB 210684）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210684&o=json
+            external_identifier: CBDB:210684
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zgMxPAPh9nRRPkisXUCpxq
+        status: active
+        display_name: 王雲鷖
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -138,7 +286,15 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_JTc1E7LgQAh6Uz9airZSVG | 王雲鷺 | accepted |
+| children | p_847jmYtbNaXCNUchPVYBZW | 王雲鸑 | accepted |
+| children | p_EnLcaLS2uMczaE3AyynrjS | 王雲鷟 | accepted |
+| children | p_XAwBghomVSmXqhmJhUwUKw | 王雲鴈 | accepted |
+| children | p_zgMxPAPh9nRRPkisXUCpxq | 王雲鷖 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王尚貞（CBDB 210676）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210676&o=json)
+- [中国历代人物传记资料库：王雲鴈（CBDB 210680）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210680&o=json)
+- [中国历代人物传记资料库：王雲鷖（CBDB 210684）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210684&o=json)
+- [中国历代人物传记资料库：王雲鸑（CBDB 210681）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210681&o=json)
+- [中国历代人物传记资料库：王雲鷟（CBDB 210683）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210683&o=json)

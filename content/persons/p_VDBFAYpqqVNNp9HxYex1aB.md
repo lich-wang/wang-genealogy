@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王應薦
 cbdb_id: 221581
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_A0NN7Sg0o0W51FaES0NXcq
+        subject_person_id: p_MpRHKYQgMhyeJ8uJAKZD2Z
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VDBFAYpqqVNNp9HxYex1aB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_R-sakaCROwN64PhUl8wYi5
+          claim_id: c_A0NN7Sg0o0W51FaES0NXcq
+          source_id: s_Wgp-IaF1f12yOl-Dt31VES
+          stance: supports
+          locator: CBDB：兄弟 王應麟（126851）之父／母 王榮貴
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王應薦 与 王應麟 为同胞（CBDB 记「兄」），王應麟 之父／母即 王應薦 之父／母。
+          source:
+            id: s_Wgp-IaF1f12yOl-Dt31VES
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應薦（CBDB 221581）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221581&o=json
+            external_identifier: CBDB:221581
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MpRHKYQgMhyeJ8uJAKZD2Z
+        status: active
+        display_name: 王榮貴
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c___EoS6sMHAPCxDDqvrC6rI
+        subject_person_id: p_VDBFAYpqqVNNp9HxYex1aB
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hnvFbFQMD3qoDJL59kCJv1
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xrKVd80AcS2tB5mpZz21C7
+          claim_id: c___EoS6sMHAPCxDDqvrC6rI
+          source_id: s_Wgp-IaF1f12yOl-Dt31VES
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126851 王應麟）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Wgp-IaF1f12yOl-Dt31VES
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應薦（CBDB 221581）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221581&o=json
+            external_identifier: CBDB:221581
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hnvFbFQMD3qoDJL59kCJv1
+        status: active
+        display_name: 王應麟
+        merged_into_person_id: null
 ---
 
 # 王應薦
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_MpRHKYQgMhyeJ8uJAKZD2Z | 王榮貴 | accepted |
+| other | p_hnvFbFQMD3qoDJL59kCJv1 | 王應麟 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_NCUgiWasKpCG1soTZ2QcFB
 status: active
 merged_into: null
 display_name: 王鎬
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_KH4q2d52T2dHHenlZvNANO
+        subject_person_id: p_gyKQYKFYiRFh2ZMNQQhCtN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NCUgiWasKpCG1soTZ2QcFB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DKFxVEMThaY6EQvFawn5d8
+          claim_id: c_KH4q2d52T2dHHenlZvNANO
+          source_id: s_NxUy5kE6XVQ9zA8LYSVDXn
+          stance: supports
+          locator: CBDB：兄弟 王鍃（199647）之父／母 王鼎
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鎬 与 王鍃 为同胞（CBDB 记「弟」），王鍃 之父／母即 王鎬 之父／母。
+          source:
+            id: s_NxUy5kE6XVQ9zA8LYSVDXn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎬（CBDB 247840）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247840&o=json
+            external_identifier: CBDB:247840
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_gyKQYKFYiRFh2ZMNQQhCtN
+        status: active
+        display_name: 王鼎
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_gR9x1aEBa6nWw2iB1oI81w
+        subject_person_id: p_NCUgiWasKpCG1soTZ2QcFB
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ZjuF9BMneyLuUjQuike359
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VDdYVsqyhyYm5xGwLXsIme
+          claim_id: c_gR9x1aEBa6nWw2iB1oI81w
+          source_id: s_NxUy5kE6XVQ9zA8LYSVDXn
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 199647 王鍃）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_NxUy5kE6XVQ9zA8LYSVDXn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎬（CBDB 247840）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247840&o=json
+            external_identifier: CBDB:247840
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZjuF9BMneyLuUjQuike359
+        status: active
+        display_name: 王鍃
+        merged_into_person_id: null
 ---
 
 # 王鎬
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_gyKQYKFYiRFh2ZMNQQhCtN | 王鼎 | accepted |
+| other | p_ZjuF9BMneyLuUjQuike359 | 王鍃 | accepted |
 
 ## 外部来源
 

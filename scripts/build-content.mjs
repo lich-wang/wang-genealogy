@@ -63,7 +63,7 @@ for (const [shard, entries] of personShards) fs.writeFileSync(path.join(personDi
 
 const edges = buildEdges(claims.values());
 const adjacency = new Map([...records.keys()].map((id) => [id, new Set()]));
-for (const edge of [...edges.parent_edges, ...edges.spouse_edges, ...edges.descent_edges]) {
+for (const edge of [...edges.parent_edges, ...edges.spouse_edges, ...edges.sibling_edges, ...edges.descent_edges]) {
   const [a, b] = edge.parent_id ? [edge.parent_id, edge.child_id] : edge.a_id ? [edge.a_id, edge.b_id] : [edge.ancestor_id, edge.descendant_id];
   adjacency.get(a)?.add(b); adjacency.get(b)?.add(a);
 }
@@ -81,6 +81,7 @@ while (unvisited.size) {
     nodes: component.map((nodeId) => nodeFor(summaries.get(nodeId))),
     parent_edges: edges.parent_edges.filter((edge) => component.includes(edge.parent_id) && component.includes(edge.child_id)),
     spouse_edges: edges.spouse_edges.filter((edge) => component.includes(edge.a_id) && component.includes(edge.b_id)),
+    sibling_edges: edges.sibling_edges.filter((edge) => component.includes(edge.a_id) && component.includes(edge.b_id)),
     descent_edges: edges.descent_edges.filter((edge) => component.includes(edge.ancestor_id) && component.includes(edge.descendant_id)),
     truncated: false,
   };
@@ -111,7 +112,7 @@ const highlights = [
 ].slice(0, 24).map((item) => ({ id: item.id, display_name: item.display_name, relative_count: relativeCounts.get(item.id) ?? 0, is_surname_progenitor: surnameProgenitor.has(item.display_name ?? '') }));
 const changes = gitChanges(records);
 const generatedAt = latestContentCommitDate() ?? new Date().toISOString();
-const index = { schema: 'wang-static/v1', generated_at: generatedAt, status: { people: records.size, relationships: edges.parent_edges.length + edges.spouse_edges.length + edges.descent_edges.length, sources: sources.size, claims: claims.size, generated_at: generatedAt }, highlights, search, changes, graph_lookup: graphLookup };
+const index = { schema: 'wang-static/v1', generated_at: generatedAt, status: { people: records.size, relationships: edges.parent_edges.length + edges.spouse_edges.length + edges.sibling_edges.length + edges.descent_edges.length, sources: sources.size, claims: claims.size, generated_at: generatedAt }, highlights, search, changes, graph_lookup: graphLookup };
 fs.writeFileSync(path.join(outputDir, 'index.json'), JSON.stringify(index));
 console.log(`已校验并生成 ${records.size} 个人物页面、${sources.size} 个来源记录`);
 
@@ -130,7 +131,7 @@ function toSummary(record) {
 function allClaimItems(record) { return [...record.properties.flatMap((field) => [field.recommended, ...(field.alternatives ?? [])]).filter(Boolean), ...relationshipItems(record)]; }
 function relationshipItems(record) { return Object.values(record.relationships).flat(); }
 function buildEdges(items) {
-  const result = { parent_edges: [], spouse_edges: [], descent_edges: [] };
+  const result = { parent_edges: [], spouse_edges: [], sibling_edges: [], descent_edges: [] };
   for (const item of items) {
     const claim = item.claim; const citations = (item.sources ?? []).map((ref) => ({ source_title: ref.source?.title ?? '未知来源', locator: ref.locator ?? null }));
     const base = { claim_id: claim.id, status: claim.status, citations };
@@ -139,6 +140,7 @@ function buildEdges(items) {
       result.parent_edges.push({ ...base, parent_id: claim.subject_person_id, child_id: claim.object_person_id, parent_role: parentRole });
     }
     else if (claim.predicate === 'kinship.spouse_of') result.spouse_edges.push({ ...base, a_id: claim.subject_person_id, b_id: claim.object_person_id });
+    else if (claim.predicate === 'kinship.sibling_of') result.sibling_edges.push({ ...base, a_id: claim.subject_person_id, b_id: claim.object_person_id });
     else if (claim.predicate === 'kinship.ancestor_of') result.descent_edges.push({ ...base, ancestor_id: claim.subject_person_id, descendant_id: claim.object_person_id, generations: claim.generation_count ?? null });
   }
   return result;

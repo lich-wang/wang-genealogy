@@ -4,7 +4,7 @@ id: p_dhF3ALTMDNKeRzGD5mDEyQ
 status: active
 merged_into: null
 display_name: 王昌
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_37A1s7it6YkcVfyC2oCJyW
+        subject_person_id: p_BXVMCk3TEgxQzDvmdzMdk1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dhF3ALTMDNKeRzGD5mDEyQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FR4lmu7mrNkeiKYdjUFnSK
+          claim_id: c_37A1s7it6YkcVfyC2oCJyW
+          source_id: s_WWJXkfPznoUxCeRLO1Mn89
+          stance: supports
+          locator: CBDB：兄弟 王希旦（200627）之父／母 王伯珍
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王昌 与 王希旦 为同胞（CBDB 记「弟」），王希旦 之父／母即 王昌 之父／母。
+          source:
+            id: s_WWJXkfPznoUxCeRLO1Mn89
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昌（CBDB 260607）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260607&o=json
+            external_identifier: CBDB:260607
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BXVMCk3TEgxQzDvmdzMdk1
+        status: active
+        display_name: 王伯珍
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_5w_UA0_uq1ll87uAaqI7Tw
+        subject_person_id: p_FQCEz5vy6uJ3wtmEBbiQFJ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dhF3ALTMDNKeRzGD5mDEyQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_t6vQ1f-A1UeVAy2m7jn0zF
+          claim_id: c_5w_UA0_uq1ll87uAaqI7Tw
+          source_id: s_WWJXkfPznoUxCeRLO1Mn89
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200627 王希旦）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_WWJXkfPznoUxCeRLO1Mn89
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昌（CBDB 260607）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260607&o=json
+            external_identifier: CBDB:260607
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FQCEz5vy6uJ3wtmEBbiQFJ
+        status: active
+        display_name: 王希旦
+        merged_into_person_id: null
 ---
 
 # 王昌
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_BXVMCk3TEgxQzDvmdzMdk1 | 王伯珍 | accepted |
+| other | p_FQCEz5vy6uJ3wtmEBbiQFJ | 王希旦 | accepted |
 
 ## 外部来源
 

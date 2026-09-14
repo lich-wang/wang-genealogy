@@ -4,7 +4,7 @@ id: p_5cJbXaZPVCfH9EZ6651kPP
 status: active
 merged_into: null
 display_name: 王一鳳
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -196,7 +196,44 @@ relationships:
         display_name: 王恭
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_jXt_tH11R2IaPSlUoy5f4B
+        subject_person_id: p_5cJbXaZPVCfH9EZ6651kPP
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_yjjnGi66486C7Qm4RitBqB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nsoL8XAeghyPQaoNk8dUHm
+          claim_id: c_jXt_tH11R2IaPSlUoy5f4B
+          source_id: s_AzoUYin-_NeiD8dsibnGj3
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205635 王一鳳）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_AzoUYin-_NeiD8dsibnGj3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王一鴻（CBDB 336285）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336285&o=json
+            external_identifier: CBDB:336285
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_yjjnGi66486C7Qm4RitBqB
+        status: active
+        display_name: 王一鴻
+        merged_into_person_id: null
 ---
 
 # 王一鳳
@@ -218,8 +255,10 @@ relationships:
 | parents | p_D3z8LjQkLgGxFGKKZZcbKs | 王繼仁 | accepted |
 | spouses | p_1VgbuTJUnUYCnmk6Jh3DQG | 范氏 | accepted |
 | ancestors | p_BM6wMNHn5bHEHDoEeZirWe | 王恭 | accepted |
+| other | p_yjjnGi66486C7Qm4RitBqB | 王一鴻 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：范氏(王一鳳妻)（CBDB 336284）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336284&o=json)
 - [中国历代人物传记资料库：王一鳳（CBDB 205635）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205635&o=json)
+- [中国历代人物传记资料库：王一鴻（CBDB 336285）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336285&o=json)

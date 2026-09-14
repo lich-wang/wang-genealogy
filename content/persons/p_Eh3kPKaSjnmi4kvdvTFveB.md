@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王再聘
 cbdb_id: 206273
-revision: 4
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,81 @@ relationships:
         display_name: 王祿
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_-L4dn3O6O93U5gzn8potks
+        subject_person_id: p_5o8FodsPP8caXE1th2gWNd
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Eh3kPKaSjnmi4kvdvTFveB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WGQRWCQ3L53aOfZ5pPtCz3
+          claim_id: c_-L4dn3O6O93U5gzn8potks
+          source_id: s_i6ocaupl6_YN8LXKi-dMCJ
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206273 王再聘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_i6ocaupl6_YN8LXKi-dMCJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王來聘（CBDB 215650）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215650&o=json
+            external_identifier: CBDB:215650
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5o8FodsPP8caXE1th2gWNd
+        status: active
+        display_name: 王來聘
+        merged_into_person_id: null
+    - claim:
+        id: c_FD458YL1bVDiQDms0memw9
+        subject_person_id: p_Eh3kPKaSjnmi4kvdvTFveB
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_GRBi2UPVAtGfnCR6APTJnk
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uBhJ_ggN6XR7wx3IoafXJk
+          claim_id: c_FD458YL1bVDiQDms0memw9
+          source_id: s_VMdZdyRrOsxCoswLfznTAj
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206273 王再聘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_VMdZdyRrOsxCoswLfznTAj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三聘（CBDB 215651）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215651&o=json
+            external_identifier: CBDB:215651
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GRBi2UPVAtGfnCR6APTJnk
+        status: active
+        display_name: 王三聘
+        merged_into_person_id: null
 ---
 
 # 王再聘
@@ -257,10 +331,14 @@ relationships:
 | parents | p_BeKUgyXWUJu4r2UviMduG1 | 王富 | accepted |
 | ancestors | p_2CSsN1ehb5Ps7E4dXjWFv3 | 王昇 | accepted |
 | ancestors | p_HuUnd45o6QaNZL6Sk7JtBw | 王祿 | accepted |
+| other | p_5o8FodsPP8caXE1th2gWNd | 王來聘 | accepted |
+| other | p_GRBi2UPVAtGfnCR6APTJnk | 王三聘 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王富（CBDB 215645）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215645&o=json)
+- [中国历代人物传记资料库：王來聘（CBDB 215650）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215650&o=json)
 - [中国历代人物传记资料库：王祿（CBDB 215644）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215644&o=json)
+- [中国历代人物传记资料库：王三聘（CBDB 215651）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215651&o=json)
 - [中国历代人物传记资料库：王昇（CBDB 215643）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=215643&o=json)
 - [中国历代人物传记资料库：王再聘（CBDB 206273）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206273&o=json)

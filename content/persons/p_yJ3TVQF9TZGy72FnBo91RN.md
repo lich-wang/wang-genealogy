@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王鳳竹
 cbdb_id: 126794
-revision: 4
+revision: 8
 properties:
   - predicate: bio.summary
     recommended:
@@ -192,7 +192,155 @@ relationships:
         display_name: 王密
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_kYxF5ohSRcOmjfqC1chZo9
+        subject_person_id: p_6CFCE8MuSaeScr947U7NFE
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_yJ3TVQF9TZGy72FnBo91RN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kCElRN14qJWZ_SPFEwMmT1
+          claim_id: c_kYxF5ohSRcOmjfqC1chZo9
+          source_id: s_-pv-LWhC_lxjgKM2zYE9EM
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126794 王鳳竹）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_-pv-LWhC_lxjgKM2zYE9EM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鳳岐（CBDB 213957）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213957&o=json
+            external_identifier: CBDB:213957
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6CFCE8MuSaeScr947U7NFE
+        status: active
+        display_name: 王鳳岐
+        merged_into_person_id: null
+    - claim:
+        id: c_sOh80c4yYmutLycERPOBCq
+        subject_person_id: p_CSmTqHxqedNwe6Ap9XLU3b
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_yJ3TVQF9TZGy72FnBo91RN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hn0YQJG2Aeb9UuOB0KqX0Y
+          claim_id: c_sOh80c4yYmutLycERPOBCq
+          source_id: s_jVPG22yifkkyIVaNMY7awo
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126794 王鳳竹）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_jVPG22yifkkyIVaNMY7awo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鳳賡（CBDB 213958）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213958&o=json
+            external_identifier: CBDB:213958
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CSmTqHxqedNwe6Ap9XLU3b
+        status: active
+        display_name: 王鳳賡
+        merged_into_person_id: null
+    - claim:
+        id: c_YHSIb-jPu6S7G2CLCmm02y
+        subject_person_id: p_E9yiZRcnv86R8z3Ga3MtSS
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_yJ3TVQF9TZGy72FnBo91RN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sy43nK2K2yeTm80n98VLtp
+          claim_id: c_YHSIb-jPu6S7G2CLCmm02y
+          source_id: s_YR5gW3F-KG84eigEHyDIHz
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126794 王鳳竹）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_YR5gW3F-KG84eigEHyDIHz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鳳曆（CBDB 213955）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213955&o=json
+            external_identifier: CBDB:213955
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_E9yiZRcnv86R8z3Ga3MtSS
+        status: active
+        display_name: 王鳳曆
+        merged_into_person_id: null
+    - claim:
+        id: c_b4rpvSolwi-KrZEvMwGGaP
+        subject_person_id: p_bTtS5MMCKCq6c4KMmXWoaE
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_yJ3TVQF9TZGy72FnBo91RN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_snCcBEH356uWh0IOp5iLl0
+          claim_id: c_b4rpvSolwi-KrZEvMwGGaP
+          source_id: s_s4Dqbt0z238mGFmzRGTxz2
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126794 王鳳竹）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_s4Dqbt0z238mGFmzRGTxz2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鳳鳴（CBDB 213956）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213956&o=json
+            external_identifier: CBDB:213956
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_bTtS5MMCKCq6c4KMmXWoaE
+        status: active
+        display_name: 王鳳鳴
+        merged_into_person_id: null
 ---
 
 # 王鳳竹
@@ -213,10 +361,18 @@ relationships:
 | parents | p_3w6yDwcSmUtcvcpcvahG8r | 王都 | accepted |
 | ancestors | p_NrHJq3kKQ1Euax66KDyGDM | 王鎮 | accepted |
 | ancestors | p_tx1vf54sGwbm2fLRbPvpDf | 王密 | accepted |
+| other | p_6CFCE8MuSaeScr947U7NFE | 王鳳岐 | accepted |
+| other | p_CSmTqHxqedNwe6Ap9XLU3b | 王鳳賡 | accepted |
+| other | p_E9yiZRcnv86R8z3Ga3MtSS | 王鳳曆 | accepted |
+| other | p_bTtS5MMCKCq6c4KMmXWoaE | 王鳳鳴 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王都（CBDB 213950）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213950&o=json)
+- [中国历代人物传记资料库：王鳳賡（CBDB 213958）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213958&o=json)
+- [中国历代人物传记资料库：王鳳曆（CBDB 213955）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213955&o=json)
+- [中国历代人物传记资料库：王鳳鳴（CBDB 213956）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213956&o=json)
+- [中国历代人物传记资料库：王鳳岐（CBDB 213957）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213957&o=json)
 - [中国历代人物传记资料库：王鳳竹（CBDB 126794）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126794&o=json)
 - [中国历代人物传记资料库：王密（CBDB 213949）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213949&o=json)
 - [中国历代人物传记资料库：王鎮（CBDB 213947）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213947&o=json)

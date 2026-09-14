@@ -4,7 +4,7 @@ id: p_4PsCtJUsnu3eY9rXNjF4Fo
 status: active
 merged_into: null
 display_name: 王廷相
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -380,7 +380,44 @@ relationships:
         status: active
         display_name: 王徵逸
         merged_into_person_id: null
-  other: []
+  other:
+    - claim:
+        id: c_VZjiUF2E0eEO_1bDPfqhlK
+        subject_person_id: p_4PsCtJUsnu3eY9rXNjF4Fo
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zJQiLQ79hDnjc3ncC1aWSr
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HDNciVaWOuMbl-BVUItZ5k
+          claim_id: c_VZjiUF2E0eEO_1bDPfqhlK
+          source_id: s_EVib2InV_4jrrWd4RPz0Hy
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 68246 王廷相）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_EVib2InV_4jrrWd4RPz0Hy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷梧（CBDB 271034）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271034&o=json
+            external_identifier: CBDB:271034
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zJQiLQ79hDnjc3ncC1aWSr
+        status: active
+        display_name: 王廷梧
+        merged_into_person_id: null
 ---
 
 # 王廷相
@@ -409,8 +446,10 @@ relationships:
 | descendants | p_sikdDrA9qpZkDB7aCMEixz | 王孝逸 | accepted |
 | descendants | p_2duCk7xQD14eza4i1QCDMa | 王徵吉 | accepted |
 | descendants | p_P82gW5LVfAmq8iJm9zG56P | 王徵逸 | accepted |
+| other | p_zJQiLQ79hDnjc3ncC1aWSr | 王廷梧 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：劉氏(王廷相妻)（CBDB 271033）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271033&o=json)
+- [中国历代人物传记资料库：王廷梧（CBDB 271034）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271034&o=json)
 - [中国历代人物传记资料库：王廷相（CBDB 68246）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68246&o=json)

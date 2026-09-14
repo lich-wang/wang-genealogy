@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王中逵
 cbdb_id: 205715
-revision: 4
+revision: 8
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,155 @@ relationships:
         display_name: 王通
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_8BCHqCFa1Qd5tzVhjgqJe9
+        subject_person_id: p_1ShqaCUpZz7ea4X1Y2Gjoz
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RFSk9U6s1PdRrrCWPSXxDg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3qEfjJ1pvIiFwoYbd0LSZt
+          claim_id: c_8BCHqCFa1Qd5tzVhjgqJe9
+          source_id: s_tvUazeo5nwTgXbBmjR4-UN
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205715 王中逵）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_tvUazeo5nwTgXbBmjR4-UN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王中立（CBDB 337347）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337347&o=json
+            external_identifier: CBDB:337347
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1ShqaCUpZz7ea4X1Y2Gjoz
+        status: active
+        display_name: 王中立
+        merged_into_person_id: null
+    - claim:
+        id: c_5GlI8myzgOVTtW5q_les9e
+        subject_person_id: p_4HCzSpdU7euZ3kPvRDAWWq
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RFSk9U6s1PdRrrCWPSXxDg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-V6U3-E8qufk68M6Uj1IH9
+          claim_id: c_5GlI8myzgOVTtW5q_les9e
+          source_id: s_1q-vlDy2qpNeIM0df2hpd0
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205715 王中逵）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_1q-vlDy2qpNeIM0df2hpd0
+            source_type: api_record
+            title: 中国历代人物传记资料库：王中行（CBDB 337348）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337348&o=json
+            external_identifier: CBDB:337348
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4HCzSpdU7euZ3kPvRDAWWq
+        status: active
+        display_name: 王中行
+        merged_into_person_id: null
+    - claim:
+        id: c_1uUDUwF9JPx_xViMpWSW8U
+        subject_person_id: p_CCcKrCDVukY43voMZETTGf
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RFSk9U6s1PdRrrCWPSXxDg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Uk1TwR1AFZjVmqohYASJJp
+          claim_id: c_1uUDUwF9JPx_xViMpWSW8U
+          source_id: s_iToaK_gWgmCZcfitM2En0T
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205715 王中逵）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_iToaK_gWgmCZcfitM2En0T
+            source_type: api_record
+            title: 中国历代人物传记资料库：王中孚（CBDB 337346）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337346&o=json
+            external_identifier: CBDB:337346
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CCcKrCDVukY43voMZETTGf
+        status: active
+        display_name: 王中孚
+        merged_into_person_id: null
+    - claim:
+        id: c_KRv2Uhym0lAr0AaM2poAhL
+        subject_person_id: p_LwoDDyRFCAFF7CrE3F4orq
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RFSk9U6s1PdRrrCWPSXxDg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8NRKn2id5xqcfGpl2Z5UaS
+          claim_id: c_KRv2Uhym0lAr0AaM2poAhL
+          source_id: s_S4vlMVNDc-erhIk60zaqkH
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205715 王中逵）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_S4vlMVNDc-erhIk60zaqkH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王中和（CBDB 337349）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337349&o=json
+            external_identifier: CBDB:337349
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_LwoDDyRFCAFF7CrE3F4orq
+        status: active
+        display_name: 王中和
+        merged_into_person_id: null
 ---
 
 # 王中逵
@@ -257,10 +405,18 @@ relationships:
 | parents | p_N3FQWHHsU1jDdJrJRdhgNj | 王琇 | accepted |
 | ancestors | p_dVFw6z9MbPgDffNmsHfBDJ | 王振 | accepted |
 | ancestors | p_W1S164MJeXJnV1PQFWcY3H | 王通 | accepted |
+| other | p_1ShqaCUpZz7ea4X1Y2Gjoz | 王中立 | accepted |
+| other | p_4HCzSpdU7euZ3kPvRDAWWq | 王中行 | accepted |
+| other | p_CCcKrCDVukY43voMZETTGf | 王中孚 | accepted |
+| other | p_LwoDDyRFCAFF7CrE3F4orq | 王中和 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王通（CBDB 337338）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337338&o=json)
 - [中国历代人物传记资料库：王琇（CBDB 337340）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337340&o=json)
 - [中国历代人物传记资料库：王振（CBDB 337339）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337339&o=json)
+- [中国历代人物传记资料库：王中孚（CBDB 337346）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337346&o=json)
+- [中国历代人物传记资料库：王中和（CBDB 337349）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337349&o=json)
 - [中国历代人物传记资料库：王中逵（CBDB 205715）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205715&o=json)
+- [中国历代人物传记资料库：王中立（CBDB 337347）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337347&o=json)
+- [中国历代人物传记资料库：王中行（CBDB 337348）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337348&o=json)

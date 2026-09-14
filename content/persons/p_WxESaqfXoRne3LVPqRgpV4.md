@@ -4,7 +4,7 @@ id: p_WxESaqfXoRne3LVPqRgpV4
 status: active
 merged_into: null
 display_name: 王珪
-revision: 2
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,154 @@ relationships:
         status: active
         display_name: 王信
         merged_into_person_id: null
+    - claim:
+        id: c_dbQcAO4bBCqa430KtahxBn
+        subject_person_id: p_WxESaqfXoRne3LVPqRgpV4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BFgu3SogUB9549PW3BJcn9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tzdP_LQ5liBefuAjbVEqQW
+          claim_id: c_dbQcAO4bBCqa430KtahxBn
+          source_id: s_vMyPLSoGYC-w-HM-JgUXhn
+          stance: supports
+          locator: CBDB：兄弟 王信（67212）之父／母 王珪
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王惠 与 王信 为同胞（CBDB 记「兄」），王信 之父／母即 王惠 之父／母。
+          source:
+            id: s_vMyPLSoGYC-w-HM-JgUXhn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王惠（CBDB 237447）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237447&o=json
+            external_identifier: CBDB:237447
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BFgu3SogUB9549PW3BJcn9
+        status: active
+        display_name: 王惠
+        merged_into_person_id: null
+    - claim:
+        id: c_d4FMtaboEH7gTEURtWwnSj
+        subject_person_id: p_WxESaqfXoRne3LVPqRgpV4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HQmGS2187395LLmBpEXNhv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KVKe-VbNP0ocZ-D8YkHOjY
+          claim_id: c_d4FMtaboEH7gTEURtWwnSj
+          source_id: s_XNuCYuZipnPpA28jhPZXHr
+          stance: supports
+          locator: CBDB：兄弟 王信（67212）之父／母 王珪
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王思聰 与 王信 为同胞（CBDB 记「弟」），王信 之父／母即 王思聰 之父／母。
+          source:
+            id: s_XNuCYuZipnPpA28jhPZXHr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王思聰（CBDB 237444）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237444&o=json
+            external_identifier: CBDB:237444
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HQmGS2187395LLmBpEXNhv
+        status: active
+        display_name: 王思聰
+        merged_into_person_id: null
+    - claim:
+        id: c_Vj5NJZWB1JZqRDvf1UBWfA
+        subject_person_id: p_WxESaqfXoRne3LVPqRgpV4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Jsam511Bo4XWttmCAXo39u
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AJjJ2DwquiVj-VBc8I6aih
+          claim_id: c_Vj5NJZWB1JZqRDvf1UBWfA
+          source_id: s_EG7brDyF5CttJGC3E8ovjG
+          stance: supports
+          locator: CBDB：兄弟 王信（67212）之父／母 王珪
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王敏 与 王信 为同胞（CBDB 记「兄」），王信 之父／母即 王敏 之父／母。
+          source:
+            id: s_EG7brDyF5CttJGC3E8ovjG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敏（CBDB 237446）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237446&o=json
+            external_identifier: CBDB:237446
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Jsam511Bo4XWttmCAXo39u
+        status: active
+        display_name: 王敏
+        merged_into_person_id: null
+    - claim:
+        id: c_0vOeynkBLjVOO_dLIanBbw
+        subject_person_id: p_WxESaqfXoRne3LVPqRgpV4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QuRKgQ7yCNQtwDzkmHCzuU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xykOo6_ClQYx3ySFCDQlby
+          claim_id: c_0vOeynkBLjVOO_dLIanBbw
+          source_id: s_Q9gJljrUfmMvQDIsi3WNG2
+          stance: supports
+          locator: CBDB：兄弟 王信（67212）之父／母 王珪
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王思明 与 王信 为同胞（CBDB 记「弟」），王信 之父／母即 王思明 之父／母。
+          source:
+            id: s_Q9gJljrUfmMvQDIsi3WNG2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王思明（CBDB 237445）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237445&o=json
+            external_identifier: CBDB:237445
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_QuRKgQ7yCNQtwDzkmHCzuU
+        status: active
+        display_name: 王思明
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +283,16 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_dHV6AgtpcgRLpJFycLHnbd | 王信 | accepted |
+| children | p_BFgu3SogUB9549PW3BJcn9 | 王惠 | accepted |
+| children | p_HQmGS2187395LLmBpEXNhv | 王思聰 | accepted |
+| children | p_Jsam511Bo4XWttmCAXo39u | 王敏 | accepted |
+| children | p_QuRKgQ7yCNQtwDzkmHCzuU | 王思明 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王珪（CBDB 237440）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237440&o=json)
+- [中国历代人物传记资料库：王惠（CBDB 237447）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237447&o=json)
+- [中国历代人物传记资料库：王敏（CBDB 237446）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237446&o=json)
+- [中国历代人物传记资料库：王思聰（CBDB 237444）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237444&o=json)
+- [中国历代人物传记资料库：王思明（CBDB 237445）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237445&o=json)
 - [中国历代人物传记资料库：王信（CBDB 67212）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67212&o=json)

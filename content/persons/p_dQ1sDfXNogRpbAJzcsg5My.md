@@ -4,7 +4,7 @@ id: p_dQ1sDfXNogRpbAJzcsg5My
 status: active
 merged_into: null
 display_name: 王聰
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,81 @@ relationships:
         display_name: 王代亨
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_JYQ0dnBhfXDpP9ExGv1ORk
+        subject_person_id: p_QzsNwCxppT6oan4Wpvxqi2
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dQ1sDfXNogRpbAJzcsg5My
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eW8An7tPhnGt4UbKC3RUUk
+          claim_id: c_JYQ0dnBhfXDpP9ExGv1ORk
+          source_id: s_6VvA9pxa34XwKP8MrHudKk
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198493 王聰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_6VvA9pxa34XwKP8MrHudKk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王傑（CBDB 279830）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279830&o=json
+            external_identifier: CBDB:279830
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_QzsNwCxppT6oan4Wpvxqi2
+        status: active
+        display_name: 王傑
+        merged_into_person_id: null
+    - claim:
+        id: c_Y30y3wn6hklJkG5spNpaJB
+        subject_person_id: p_cApstQaJnLxBvKr4GS1pC9
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dQ1sDfXNogRpbAJzcsg5My
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8DzvmYyZyR2QMDr6xVQOaM
+          claim_id: c_Y30y3wn6hklJkG5spNpaJB
+          source_id: s_HFMVXRRqEsriiRsrUtQp3G
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198493 王聰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_HFMVXRRqEsriiRsrUtQp3G
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鑑（CBDB 279819）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279819&o=json
+            external_identifier: CBDB:279819
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cApstQaJnLxBvKr4GS1pC9
+        status: active
+        display_name: 王鑑
+        merged_into_person_id: null
 ---
 
 # 王聰
@@ -241,10 +315,14 @@ relationships:
 | parents | p_3NjU7eZvopD3jSxgGAoTdh | 王惟善 | accepted |
 | ancestors | p_yGUq9dnDLNfTAUD6QVNP1F | 王思齊 | accepted |
 | ancestors | p_VWi6QFXPAVphznHYANEusb | 王代亨 | accepted |
+| other | p_QzsNwCxppT6oan4Wpvxqi2 | 王傑 | accepted |
+| other | p_cApstQaJnLxBvKr4GS1pC9 | 王鑑 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王聰（CBDB 198493）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198493&o=json)
 - [中国历代人物传记资料库：王代亨（CBDB 279764）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279764&o=json)
+- [中国历代人物传记资料库：王鑑（CBDB 279819）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279819&o=json)
+- [中国历代人物传记资料库：王傑（CBDB 279830）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279830&o=json)
 - [中国历代人物传记资料库：王思齊（CBDB 279775）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279775&o=json)
 - [中国历代人物传记资料库：王惟善（CBDB 279786）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=279786&o=json)

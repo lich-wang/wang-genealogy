@@ -4,7 +4,7 @@ id: p_5Nsm7LtaHH2TfQdw6zv4Pu
 status: active
 merged_into: null
 display_name: 王崇
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -194,7 +194,81 @@ relationships:
         display_name: 王福
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_MXcbJ6cUksPnZQtXp4xMIB
+        subject_person_id: p_5Nsm7LtaHH2TfQdw6zv4Pu
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_CMJ9SLWBZZ4zyd6hQeiRos
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_shMN5qAX2mCz6kWpTmU-7P
+          claim_id: c_MXcbJ6cUksPnZQtXp4xMIB
+          source_id: s_8xXXuYKJvogWr4DQR7SN_O
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126684 王崇）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_8xXXuYKJvogWr4DQR7SN_O
+            source_type: api_record
+            title: 中国历代人物传记资料库：王洪（CBDB 289996）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=289996&o=json
+            external_identifier: CBDB:289996
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CMJ9SLWBZZ4zyd6hQeiRos
+        status: active
+        display_name: 王洪
+        merged_into_person_id: null
+    - claim:
+        id: c_81UDqV_nvT0oyzul-D4FAH
+        subject_person_id: p_5Nsm7LtaHH2TfQdw6zv4Pu
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_rbYXmX1uMRrafLoo6WS9MX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5N81UQbBttZUKHB_zR1Gcl
+          claim_id: c_81UDqV_nvT0oyzul-D4FAH
+          source_id: s_JKt5P3Cuby5BU0dBTAGOux
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126684 王崇）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_JKt5P3Cuby5BU0dBTAGOux
+            source_type: api_record
+            title: 中国历代人物传记资料库：王京（CBDB 289995）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=289995&o=json
+            external_identifier: CBDB:289995
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rbYXmX1uMRrafLoo6WS9MX
+        status: active
+        display_name: 王京
+        merged_into_person_id: null
 ---
 
 # 王崇
@@ -216,8 +290,12 @@ relationships:
 | spouses | p_NCJfksBiERwMd5SG8TQf95 | 謝氏 | accepted |
 | ancestors | p_etrEBHXDCpBn2WJ7Kccha8 | 王肇護 | accepted |
 | ancestors | p_N1LKScv39vZEjJfiNsp7Wi | 王福 | accepted |
+| other | p_CMJ9SLWBZZ4zyd6hQeiRos | 王洪 | accepted |
+| other | p_rbYXmX1uMRrafLoo6WS9MX | 王京 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王崇（CBDB 126684）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126684&o=json)
+- [中国历代人物传记资料库：王洪（CBDB 289996）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=289996&o=json)
+- [中国历代人物传记资料库：王京（CBDB 289995）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=289995&o=json)
 - [中国历代人物传记资料库：謝氏(王崇妻)（CBDB 289994）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=289994&o=json)

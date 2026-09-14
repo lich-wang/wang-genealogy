@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王漟
 cbdb_id: 209785
-revision: 2
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -114,6 +114,117 @@ relationships:
         status: active
         display_name: 王嘉柔
         merged_into_person_id: null
+    - claim:
+        id: c_Nvu3SoMzQbvO5Y9yu-RQCy
+        subject_person_id: p_1VkGu8uv668PXiV6BFFStb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_B8EmnM5VEuiUvV7z7ZJ7ZA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IrFsFcNZHqY9JnpHUlyGtu
+          claim_id: c_Nvu3SoMzQbvO5Y9yu-RQCy
+          source_id: s_aBqnRX3MiLCzmeTp8K5tf8
+          stance: supports
+          locator: CBDB：兄弟 王嘉柔（205854）之父／母 王漟
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王嘉棨 与 王嘉柔 为同胞（CBDB 记「弟」），王嘉柔 之父／母即 王嘉棨 之父／母。
+          source:
+            id: s_aBqnRX3MiLCzmeTp8K5tf8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嘉棨（CBDB 209789）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209789&o=json
+            external_identifier: CBDB:209789
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_B8EmnM5VEuiUvV7z7ZJ7ZA
+        status: active
+        display_name: 王嘉棨
+        merged_into_person_id: null
+    - claim:
+        id: c_s8n7e7jOtrhJv9_ORe0fps
+        subject_person_id: p_1VkGu8uv668PXiV6BFFStb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Qz5eSMUhWXhxV3CqkvQZeD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EOEYcdUdt0x1U5nobJScp7
+          claim_id: c_s8n7e7jOtrhJv9_ORe0fps
+          source_id: s_C-m7ilHiolSQQNhztCDJhN
+          stance: supports
+          locator: CBDB：兄弟 王嘉柔（205854）之父／母 王漟
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王嘉檠 与 王嘉柔 为同胞（CBDB 记「兄」），王嘉柔 之父／母即 王嘉檠 之父／母。
+          source:
+            id: s_C-m7ilHiolSQQNhztCDJhN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嘉檠（CBDB 209790）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209790&o=json
+            external_identifier: CBDB:209790
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Qz5eSMUhWXhxV3CqkvQZeD
+        status: active
+        display_name: 王嘉檠
+        merged_into_person_id: null
+    - claim:
+        id: c_uueyvgA-WCfKiKPza6kzfA
+        subject_person_id: p_1VkGu8uv668PXiV6BFFStb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_S3KVQDZtVGef9kj9DGD5B8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dKOPUs2j3qm7kwdvLiqTZd
+          claim_id: c_uueyvgA-WCfKiKPza6kzfA
+          source_id: s_88I_gdoL39AK5ppR81VTnU
+          stance: supports
+          locator: CBDB：兄弟 王嘉柔（205854）之父／母 王漟
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王嘉寀 与 王嘉柔 为同胞（CBDB 记「兄」），王嘉柔 之父／母即 王嘉寀 之父／母。
+          source:
+            id: s_88I_gdoL39AK5ppR81VTnU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嘉寀（CBDB 209791）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209791&o=json
+            external_identifier: CBDB:209791
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_S3KVQDZtVGef9kj9DGD5B8
+        status: active
+        display_name: 王嘉寀
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -138,7 +249,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_Eo3x5BVMmizyxxEaJmawa5 | 王嘉柔 | accepted |
+| children | p_B8EmnM5VEuiUvV7z7ZJ7ZA | 王嘉棨 | accepted |
+| children | p_Qz5eSMUhWXhxV3CqkvQZeD | 王嘉檠 | accepted |
+| children | p_S3KVQDZtVGef9kj9DGD5B8 | 王嘉寀 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王嘉寀（CBDB 209791）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209791&o=json)
+- [中国历代人物传记资料库：王嘉棨（CBDB 209789）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209789&o=json)
+- [中国历代人物传记资料库：王嘉檠（CBDB 209790）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209790&o=json)
 - [中国历代人物传记资料库：王漟（CBDB 209785）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209785&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王朝宸
 cbdb_id: 333151
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_KU1z8iExPijFNUFWdInokN
+        subject_person_id: p_kkzsSnYMmMHCoMPoCC45w5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9yFQPtxBcNVtREhgQLeWrx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J0Nlz84nW5W1OS_IKzQWvT
+          claim_id: c_KU1z8iExPijFNUFWdInokN
+          source_id: s_6mpPGKwp3KwR5JtW4Zd33M
+          stance: supports
+          locator: CBDB：兄弟 王朝陽（205436）之父／母 王愷
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王朝宸 与 王朝陽 为同胞（CBDB 记「兄」），王朝陽 之父／母即 王朝宸 之父／母。
+          source:
+            id: s_6mpPGKwp3KwR5JtW4Zd33M
+            source_type: api_record
+            title: 中国历代人物传记资料库：王朝宸（CBDB 333151）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333151&o=json
+            external_identifier: CBDB:333151
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kkzsSnYMmMHCoMPoCC45w5
+        status: active
+        display_name: 王愷
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_7dFYOclxiCjc31JMv6eZPi
+        subject_person_id: p_42V1mjqbCc9WXuvE75bXCj
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_9yFQPtxBcNVtREhgQLeWrx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aH6OTC2yRO4GzgVRNw-BFf
+          claim_id: c_7dFYOclxiCjc31JMv6eZPi
+          source_id: s_6mpPGKwp3KwR5JtW4Zd33M
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205436 王朝陽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_6mpPGKwp3KwR5JtW4Zd33M
+            source_type: api_record
+            title: 中国历代人物传记资料库：王朝宸（CBDB 333151）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333151&o=json
+            external_identifier: CBDB:333151
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_42V1mjqbCc9WXuvE75bXCj
+        status: active
+        display_name: 王朝陽
+        merged_into_person_id: null
 ---
 
 # 王朝宸
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_kkzsSnYMmMHCoMPoCC45w5 | 王愷 | accepted |
+| other | p_42V1mjqbCc9WXuvE75bXCj | 王朝陽 | accepted |
 
 ## 外部来源
 

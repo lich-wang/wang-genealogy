@@ -4,7 +4,7 @@ id: p_QZDDHQkVG25ym6DbVHajPv
 status: active
 merged_into: null
 display_name: 王晤
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_MOIB8QihuUQwwLVtBWZvbx
+        subject_person_id: p_548o1SKAP1oKBMmyuHA5jA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QZDDHQkVG25ym6DbVHajPv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8Aekl5_wVr_mmB1jeZRCLJ
+          claim_id: c_MOIB8QihuUQwwLVtBWZvbx
+          source_id: s_wWvnbcO3aiiZykEp7jepvR
+          stance: supports
+          locator: CBDB：兄弟 王曉（205806）之父／母 王崇義
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王晤 与 王曉 为同胞（CBDB 记「兄」），王曉 之父／母即 王晤 之父／母。
+          source:
+            id: s_wWvnbcO3aiiZykEp7jepvR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王晤（CBDB 208873）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208873&o=json
+            external_identifier: CBDB:208873
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_548o1SKAP1oKBMmyuHA5jA
+        status: active
+        display_name: 王崇義
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_kpwBZOO_PT5M-FhL4GKV_a
+        subject_person_id: p_QZDDHQkVG25ym6DbVHajPv
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RznqNoKYNYcxhtUnus5Vov
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mTcLS3q8ZQXBJ8mn1XEefR
+          claim_id: c_kpwBZOO_PT5M-FhL4GKV_a
+          source_id: s_wWvnbcO3aiiZykEp7jepvR
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205806 王曉）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_wWvnbcO3aiiZykEp7jepvR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王晤（CBDB 208873）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208873&o=json
+            external_identifier: CBDB:208873
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_RznqNoKYNYcxhtUnus5Vov
+        status: active
+        display_name: 王曉
+        merged_into_person_id: null
 ---
 
 # 王晤
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_548o1SKAP1oKBMmyuHA5jA | 王崇義 | accepted |
+| other | p_RznqNoKYNYcxhtUnus5Vov | 王曉 | accepted |
 
 ## 外部来源
 

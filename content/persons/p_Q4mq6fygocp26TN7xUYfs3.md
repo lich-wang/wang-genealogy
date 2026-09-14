@@ -4,7 +4,7 @@ id: p_Q4mq6fygocp26TN7xUYfs3
 status: active
 merged_into: null
 display_name: 王弘祖
-revision: 7
+revision: 18
 properties:
   - predicate: name.primary
     recommended:
@@ -333,7 +333,414 @@ relationships:
         display_name: 王輔
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_5K99roY4mRNsv3WWkiAesS
+        subject_person_id: p_3D5xmKyyUNCPzGBMmVRaX4
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Q4mq6fygocp26TN7xUYfs3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i3XNq4Rl0vCqQjVS3aXRoP
+          claim_id: c_5K99roY4mRNsv3WWkiAesS
+          source_id: s_SBMUYS9fJTsDZ5Jqsy0iLA
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207804 王弘祖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_SBMUYS9fJTsDZ5Jqsy0iLA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇祖（CBDB 236270）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236270&o=json
+            external_identifier: CBDB:236270
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3D5xmKyyUNCPzGBMmVRaX4
+        status: active
+        display_name: 王崇祖
+        merged_into_person_id: null
+    - claim:
+        id: c_B3c8qpMebDEX7kS4YYdscQ
+        subject_person_id: p_8vaWxLtKAay3NrBgZSBhqq
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Q4mq6fygocp26TN7xUYfs3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__5-Sn73_xaqPeORZhL3J9u
+          claim_id: c_B3c8qpMebDEX7kS4YYdscQ
+          source_id: s_1R5oKAPos1B3vuCMLdhCd3
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207804 王弘祖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_1R5oKAPos1B3vuCMLdhCd3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王屬（CBDB 236261）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236261&o=json
+            external_identifier: CBDB:236261
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8vaWxLtKAay3NrBgZSBhqq
+        status: active
+        display_name: 王屬
+        merged_into_person_id: null
+    - claim:
+        id: c_S0_Mv79ebA64kOWOo-MJAw
+        subject_person_id: p_9i6nBJKo32DqQjdV8M68T7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Q4mq6fygocp26TN7xUYfs3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-I2zG2axhB3ruJiQ9ymEFc
+          claim_id: c_S0_Mv79ebA64kOWOo-MJAw
+          source_id: s_lcPbQ1ZBafOfyEvBBFsPGr
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207804 王弘祖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_lcPbQ1ZBafOfyEvBBFsPGr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王憲祖（CBDB 236272）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236272&o=json
+            external_identifier: CBDB:236272
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9i6nBJKo32DqQjdV8M68T7
+        status: active
+        display_name: 王憲祖
+        merged_into_person_id: null
+    - claim:
+        id: c_Fdtj9KcTtS8xOIFoffuuJ2
+        subject_person_id: p_EWyT8CucPjWb43tbnrkRZW
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Q4mq6fygocp26TN7xUYfs3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F1GKzXr8E7vHVXaETKCQ1U
+          claim_id: c_Fdtj9KcTtS8xOIFoffuuJ2
+          source_id: s_LqQpFu2sO7s2058fpQ7X9G
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207804 王弘祖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_LqQpFu2sO7s2058fpQ7X9G
+            source_type: api_record
+            title: 中国历代人物传记资料库：王述祖（CBDB 236262）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236262&o=json
+            external_identifier: CBDB:236262
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EWyT8CucPjWb43tbnrkRZW
+        status: active
+        display_name: 王述祖
+        merged_into_person_id: null
+    - claim:
+        id: c_HNIGJ72PaIUS2LOcMTeGW3
+        subject_person_id: p_MUn5Rs4WrtWhB95EnJwf3r
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Q4mq6fygocp26TN7xUYfs3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vCThcQ6wvQajl8OPzGzK7c
+          claim_id: c_HNIGJ72PaIUS2LOcMTeGW3
+          source_id: s_fSLn9eVOriPz3eQGM4W-1o
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207804 王弘祖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_fSLn9eVOriPz3eQGM4W-1o
+            source_type: api_record
+            title: 中国历代人物传记资料库：王榮祖（CBDB 236271）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236271&o=json
+            external_identifier: CBDB:236271
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MUn5Rs4WrtWhB95EnJwf3r
+        status: active
+        display_name: 王榮祖
+        merged_into_person_id: null
+    - claim:
+        id: c_BX1fDzp7iHJNM8HkcgRr_h
+        subject_person_id: p_Q4mq6fygocp26TN7xUYfs3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_U51xQewEMqZMndeQxpxv9u
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jOVmwnmGsAd9HG5y-hOfG7
+          claim_id: c_BX1fDzp7iHJNM8HkcgRr_h
+          source_id: s_XzSGi0duqfetm9deDZfMeF
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207804 王弘祖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_XzSGi0duqfetm9deDZfMeF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王念祖（CBDB 236269）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236269&o=json
+            external_identifier: CBDB:236269
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_U51xQewEMqZMndeQxpxv9u
+        status: active
+        display_name: 王念祖
+        merged_into_person_id: null
+    - claim:
+        id: c_VLUnd41e5PugP2CODYpsnp
+        subject_person_id: p_Q4mq6fygocp26TN7xUYfs3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gSSHxuS8HvKEdhFqU9WLBj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Muvn_Z5DsD9ol_eQloAIal
+          claim_id: c_VLUnd41e5PugP2CODYpsnp
+          source_id: s_jtImcwqpFGsO6-ZH0P_TdZ
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207804 王弘祖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_jtImcwqpFGsO6-ZH0P_TdZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王振祖（CBDB 236267）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236267&o=json
+            external_identifier: CBDB:236267
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_gSSHxuS8HvKEdhFqU9WLBj
+        status: active
+        display_name: 王振祖
+        merged_into_person_id: null
+    - claim:
+        id: c_KkkISXZFlo0ickhU8EMUsa
+        subject_person_id: p_Q4mq6fygocp26TN7xUYfs3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nH4mSdKDWKtycex3Q8KQAF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i1PSdWEeIGRpMnhX6OIOcZ
+          claim_id: c_KkkISXZFlo0ickhU8EMUsa
+          source_id: s_f7xYko2kf7pkwHjbFWyXfu
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207804 王弘祖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_f7xYko2kf7pkwHjbFWyXfu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王耀祖（CBDB 236268）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236268&o=json
+            external_identifier: CBDB:236268
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nH4mSdKDWKtycex3Q8KQAF
+        status: active
+        display_name: 王耀祖
+        merged_into_person_id: null
+    - claim:
+        id: c_DwC9tKwnrBw0ohH7J2W_Xb
+        subject_person_id: p_Q4mq6fygocp26TN7xUYfs3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qcCVcen8Bt57KMExSuuKZ5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QcqhPsKDWpZp4GQt3MSTR4
+          claim_id: c_DwC9tKwnrBw0ohH7J2W_Xb
+          source_id: s_EFfQhclKMAu4-Nxg5PRCUl
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207804 王弘祖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_EFfQhclKMAu4-Nxg5PRCUl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王似祖（CBDB 236263）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236263&o=json
+            external_identifier: CBDB:236263
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qcCVcen8Bt57KMExSuuKZ5
+        status: active
+        display_name: 王似祖
+        merged_into_person_id: null
+    - claim:
+        id: c_XM1Q6sQvBMdog21PLujoqS
+        subject_person_id: p_Q4mq6fygocp26TN7xUYfs3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_sMxEUdxNe6otnVmPDjmaoW
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QGORdkcKFPREqbVupUCkHr
+          claim_id: c_XM1Q6sQvBMdog21PLujoqS
+          source_id: s_anZ3mwr9HF9aQTNf0hIz2B
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207804 王弘祖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_anZ3mwr9HF9aQTNf0hIz2B
+            source_type: api_record
+            title: 中国历代人物传记资料库：王追祖（CBDB 236264）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236264&o=json
+            external_identifier: CBDB:236264
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_sMxEUdxNe6otnVmPDjmaoW
+        status: active
+        display_name: 王追祖
+        merged_into_person_id: null
+    - claim:
+        id: c_PU0NTVJMW3tlMvKQQJ4NYp
+        subject_person_id: p_Q4mq6fygocp26TN7xUYfs3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vpXFhLuRTXyZoefxdP1Ymz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8QZaKR4RevRn60ZSXne5YE
+          claim_id: c_PU0NTVJMW3tlMvKQQJ4NYp
+          source_id: s_pMt69zP8uCo7cmdSCHBx-9
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207804 王弘祖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_pMt69zP8uCo7cmdSCHBx-9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王輝祖（CBDB 236266）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236266&o=json
+            external_identifier: CBDB:236266
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vpXFhLuRTXyZoefxdP1Ymz
+        status: active
+        display_name: 王輝祖
+        merged_into_person_id: null
 ---
 
 # 王弘祖
@@ -358,13 +765,35 @@ relationships:
 | children | p_njfbn7Jdq9tce3UpcHzJJk | 王緒昌 | accepted |
 | ancestors | p_aDDye8gqV97KR7ZcVZmzpH | 王密 | accepted |
 | ancestors | p_JyZytS2CPhoEB38LQDTM3g | 王輔 | accepted |
+| other | p_3D5xmKyyUNCPzGBMmVRaX4 | 王崇祖 | accepted |
+| other | p_8vaWxLtKAay3NrBgZSBhqq | 王屬 | accepted |
+| other | p_9i6nBJKo32DqQjdV8M68T7 | 王憲祖 | accepted |
+| other | p_EWyT8CucPjWb43tbnrkRZW | 王述祖 | accepted |
+| other | p_MUn5Rs4WrtWhB95EnJwf3r | 王榮祖 | accepted |
+| other | p_U51xQewEMqZMndeQxpxv9u | 王念祖 | accepted |
+| other | p_gSSHxuS8HvKEdhFqU9WLBj | 王振祖 | accepted |
+| other | p_nH4mSdKDWKtycex3Q8KQAF | 王耀祖 | accepted |
+| other | p_qcCVcen8Bt57KMExSuuKZ5 | 王似祖 | accepted |
+| other | p_sMxEUdxNe6otnVmPDjmaoW | 王追祖 | accepted |
+| other | p_vpXFhLuRTXyZoefxdP1Ymz | 王輝祖 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王崇祖（CBDB 236270）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236270&o=json)
 - [中国历代人物传记资料库：王輔（CBDB 236253）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236253&o=json)
 - [中国历代人物传记资料库：王弘祖（CBDB 207804）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207804&o=json)
+- [中国历代人物传记资料库：王輝祖（CBDB 236266）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236266&o=json)
 - [中国历代人物传记资料库：王密（CBDB 236255）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236255&o=json)
+- [中国历代人物传记资料库：王念祖（CBDB 236269）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236269&o=json)
+- [中国历代人物传记资料库：王榮祖（CBDB 236271）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236271&o=json)
+- [中国历代人物传记资料库：王屬（CBDB 236261）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236261&o=json)
+- [中国历代人物传记资料库：王述祖（CBDB 236262）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236262&o=json)
+- [中国历代人物传记资料库：王似祖（CBDB 236263）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236263&o=json)
+- [中国历代人物传记资料库：王憲祖（CBDB 236272）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236272&o=json)
 - [中国历代人物传记资料库：王緒昌（CBDB 236274）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236274&o=json)
 - [中国历代人物传记资料库：王緒隆（CBDB 236273）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236273&o=json)
 - [中国历代人物传记资料库：王緒延（CBDB 236275）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236275&o=json)
+- [中国历代人物传记资料库：王耀祖（CBDB 236268）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236268&o=json)
 - [中国历代人物传记资料库：王應誥（CBDB 236256）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236256&o=json)
+- [中国历代人物传记资料库：王振祖（CBDB 236267）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236267&o=json)
+- [中国历代人物传记资料库：王追祖（CBDB 236264）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236264&o=json)

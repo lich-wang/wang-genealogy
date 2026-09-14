@@ -4,7 +4,7 @@ id: p_xgf4m1uzkErDMpwT8PcnYx
 status: active
 merged_into: null
 display_name: 王禎
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_6vrKc_OBCPhTFCjMsUD8DZ
+        subject_person_id: p_Je1o2mVdfZbZ5br4teNV7A
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xgf4m1uzkErDMpwT8PcnYx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tKbGE9S-pq6AAN1JQAxtMR
+          claim_id: c_6vrKc_OBCPhTFCjMsUD8DZ
+          source_id: s_Q8kaUho4eM3NigWEewRIj1
+          stance: supports
+          locator: CBDB：兄弟 王祚（202593）之父／母 王守憲
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王禎 与 王祚 为同胞（CBDB 记「兄」），王祚 之父／母即 王禎 之父／母。
+          source:
+            id: s_Q8kaUho4eM3NigWEewRIj1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禎（CBDB 290448）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290448&o=json
+            external_identifier: CBDB:290448
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Je1o2mVdfZbZ5br4teNV7A
+        status: active
+        display_name: 王守憲
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_VljtGAgFfHkwh_aWcrjD5K
+        subject_person_id: p_xgf4m1uzkErDMpwT8PcnYx
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_y3ij6WeUEcKDgNeZS3dMHo
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KsbU5vN3gb2e8mO5oe0ebs
+          claim_id: c_VljtGAgFfHkwh_aWcrjD5K
+          source_id: s_Q8kaUho4eM3NigWEewRIj1
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202593 王祚）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Q8kaUho4eM3NigWEewRIj1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禎（CBDB 290448）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290448&o=json
+            external_identifier: CBDB:290448
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_y3ij6WeUEcKDgNeZS3dMHo
+        status: active
+        display_name: 王祚
+        merged_into_person_id: null
 ---
 
 # 王禎
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Je1o2mVdfZbZ5br4teNV7A | 王守憲 | accepted |
+| other | p_y3ij6WeUEcKDgNeZS3dMHo | 王祚 | accepted |
 
 ## 外部来源
 

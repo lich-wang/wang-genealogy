@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王秉惠
 cbdb_id: 274775
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -113,6 +113,43 @@ relationships:
         status: active
         display_name: 王璘
         merged_into_person_id: null
+    - claim:
+        id: c_hRs_rOQwFnJGQ1IYf0c9U4
+        subject_person_id: p_aR7p28hCpPSCDFnd7Y6HJL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gXGbne6Ja8rSiJ4SZ3kvsk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MHixucfONhWF0tIhoqeB2G
+          claim_id: c_hRs_rOQwFnJGQ1IYf0c9U4
+          source_id: s_4JaOOk3xGEEEC4wd2wNsSP
+          stance: supports
+          locator: CBDB：兄弟 王璘（198460）之父／母 王秉惠
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王廷器 与 王璘 为同胞（CBDB 记「弟」），王璘 之父／母即 王廷器 之父／母。
+          source:
+            id: s_4JaOOk3xGEEEC4wd2wNsSP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷器（CBDB 274819）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274819&o=json
+            external_identifier: CBDB:274819
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_gXGbne6Ja8rSiJ4SZ3kvsk
+        status: active
+        display_name: 王廷器
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -137,8 +174,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_7tdhj3xqs6eFzthKS1AGvP | 王璘 | accepted |
+| children | p_gXGbne6Ja8rSiJ4SZ3kvsk | 王廷器 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王秉惠（CBDB 274775）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274775&o=json)
 - [中国历代人物传记资料库：王璘（CBDB 198460）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198460&o=json)
+- [中国历代人物传记资料库：王廷器（CBDB 274819）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274819&o=json)

@@ -4,7 +4,7 @@ id: p_sWLBZw64B5znCfepJJGvqS
 status: active
 merged_into: null
 display_name: 王桂
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_pmq8O4DRcQGYCn-EaqonbJ
+        subject_person_id: p_5oVCjNf3jZsLG4jhJ57YhB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sWLBZw64B5znCfepJJGvqS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_L5ns58YpkFZknCcpHE1jwK
+          claim_id: c_pmq8O4DRcQGYCn-EaqonbJ
+          source_id: s_hY1ZnLwCvGF4jClfN6oanU
+          stance: supports
+          locator: CBDB：兄弟 王梅（202794）之父／母 王鸞
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王桂 与 王梅 为同胞（CBDB 记「弟」），王梅 之父／母即 王桂 之父／母。
+          source:
+            id: s_hY1ZnLwCvGF4jClfN6oanU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王桂（CBDB 294529）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294529&o=json
+            external_identifier: CBDB:294529
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5oVCjNf3jZsLG4jhJ57YhB
+        status: active
+        display_name: 王鸞
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_NpgxQNEZ8AYBDYqCcoeEPd
+        subject_person_id: p_e7c3DhdEJw2765tvQyZA4M
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_sWLBZw64B5znCfepJJGvqS
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B3g4rtptQYEpnQ3OKNNBYJ
+          claim_id: c_NpgxQNEZ8AYBDYqCcoeEPd
+          source_id: s_hY1ZnLwCvGF4jClfN6oanU
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202794 王梅）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hY1ZnLwCvGF4jClfN6oanU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王桂（CBDB 294529）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=294529&o=json
+            external_identifier: CBDB:294529
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_e7c3DhdEJw2765tvQyZA4M
+        status: active
+        display_name: 王梅
+        merged_into_person_id: null
 ---
 
 # 王桂
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5oVCjNf3jZsLG4jhJ57YhB | 王鸞 | accepted |
+| other | p_e7c3DhdEJw2765tvQyZA4M | 王梅 | accepted |
 
 ## 外部来源
 

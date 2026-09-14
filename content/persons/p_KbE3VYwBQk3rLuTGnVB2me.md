@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王正国
 cbdb_id: 68263
-revision: 4
+revision: 7
 properties:
   - predicate: bio.summary
     recommended:
@@ -366,7 +366,118 @@ relationships:
         display_name: 王臣
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_YhitHpHMXY_dkXIx1bUPnw
+        subject_person_id: p_82AfZXH9hrPyRvPSYGBd19
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_KbE3VYwBQk3rLuTGnVB2me
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EucOqkROZPtaUDVr8wkHLt
+          claim_id: c_YhitHpHMXY_dkXIx1bUPnw
+          source_id: s_BNR6atV539RjBqpVkOUGhM
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 68263 王正國）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_BNR6atV539RjBqpVkOUGhM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正直（CBDB 313126）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313126&o=json
+            external_identifier: CBDB:313126
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_82AfZXH9hrPyRvPSYGBd19
+        status: active
+        display_name: 王正直
+        merged_into_person_id: null
+    - claim:
+        id: c_53Nre8QRRnlVLqcnznHFn9
+        subject_person_id: p_KbE3VYwBQk3rLuTGnVB2me
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_StVZRLZsMztzNrMrw3P4VB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Uf_j9KyGzoIkwXjSxcU-x2
+          claim_id: c_53Nre8QRRnlVLqcnznHFn9
+          source_id: s_vg0tq0jbxsN4FBRzcRcw46
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 68263 王正國）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_vg0tq0jbxsN4FBRzcRcw46
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正大（CBDB 313128）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313128&o=json
+            external_identifier: CBDB:313128
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_StVZRLZsMztzNrMrw3P4VB
+        status: active
+        display_name: 王正大
+        merged_into_person_id: null
+    - claim:
+        id: c_NS8hwNF8QXeX7PW5yPJ74d
+        subject_person_id: p_KbE3VYwBQk3rLuTGnVB2me
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Y3CQsYzPU2C3ZtQEHsG5HD
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vbZgMxMXwr6PTRHWyotJbw
+          claim_id: c_NS8hwNF8QXeX7PW5yPJ74d
+          source_id: s_xfgAyxQFj9CEgx3HZOcyQA
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 68263 王正國）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_xfgAyxQFj9CEgx3HZOcyQA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正方（CBDB 313127）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313127&o=json
+            external_identifier: CBDB:313127
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Y3CQsYzPU2C3ZtQEHsG5HD
+        status: active
+        display_name: 王正方
+        merged_into_person_id: null
 ---
 
 # 王正国
@@ -389,12 +500,18 @@ relationships:
 | spouses | p_DFD9Y4LrMpNGdsEL2yk1bB | 蔺氏 | accepted |
 | ancestors | p_fubDQJjS45y6q3DDqG3cmV | 王谟 | accepted |
 | ancestors | p_YdbFSMV9s3AQb86u7EkdDN | 王臣 | accepted |
+| other | p_82AfZXH9hrPyRvPSYGBd19 | 王正直 | accepted |
+| other | p_StVZRLZsMztzNrMrw3P4VB | 王正大 | accepted |
+| other | p_Y3CQsYzPU2C3ZtQEHsG5HD | 王正方 | accepted |
 
 ## 外部来源
 
 - [维基数据：蔺氏（Q65837998）](https://www.wikidata.org/wiki/Q65837998)
 - [维基数据：王邦瑞（Q15909508）](https://www.wikidata.org/wiki/Q15909508)
 - [维基数据：王正国（Q16906097）](https://www.wikidata.org/wiki/Q16906097)
+- [中国历代人物传记资料库：王正大（CBDB 313128）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313128&o=json)
+- [中国历代人物传记资料库：王正方（CBDB 313127）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313127&o=json)
+- [中国历代人物传记资料库：王正直（CBDB 313126）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313126&o=json)
 - [CBDB 中国历代人物传记资料库：王邦瑞（68262）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68262&o=json)
 - [CBDB 中国历代人物传记资料库：王臣（313120）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313120&o=json)
 - [CBDB 中国历代人物传记资料库：王謨（313121）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313121&o=json)

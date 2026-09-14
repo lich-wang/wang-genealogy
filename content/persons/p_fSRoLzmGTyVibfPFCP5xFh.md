@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王命爵
 cbdb_id: 206334
-revision: 4
+revision: 7
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,118 @@ relationships:
         display_name: 王惟賢
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_U4rrbMKc1dyv44iTvoDYSd
+        subject_person_id: p_3SsKRJx7NikxsZcGKGQPMX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fSRoLzmGTyVibfPFCP5xFh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Yj9ODYXypOWtx2pb4pDXqN
+          claim_id: c_U4rrbMKc1dyv44iTvoDYSd
+          source_id: s_NKG7-sTR_DfHLF88o2ZHJE
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206334 王命爵）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_NKG7-sTR_DfHLF88o2ZHJE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王命賞（CBDB 216552）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216552&o=json
+            external_identifier: CBDB:216552
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3SsKRJx7NikxsZcGKGQPMX
+        status: active
+        display_name: 王命賞
+        merged_into_person_id: null
+    - claim:
+        id: c_wDluP28gMdyqdpTzZwnUZ-
+        subject_person_id: p_Gri8wxAyXQ6QfwkRJhnVAn
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fSRoLzmGTyVibfPFCP5xFh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pwGe5t_ugp7SXbvGKw73EN
+          claim_id: c_wDluP28gMdyqdpTzZwnUZ-
+          source_id: s_7jc61OM4uIZFu_tCmJu7BR
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206334 王命爵）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_7jc61OM4uIZFu_tCmJu7BR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王命賜（CBDB 216553）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216553&o=json
+            external_identifier: CBDB:216553
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Gri8wxAyXQ6QfwkRJhnVAn
+        status: active
+        display_name: 王命賜
+        merged_into_person_id: null
+    - claim:
+        id: c_RfZ0P83HtyDvGvf_ozBK3e
+        subject_person_id: p_fSRoLzmGTyVibfPFCP5xFh
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_oJbqhM4toqrLyVqzdxD4jD
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CSBoRNHs3FU3ZwQBrthjr7
+          claim_id: c_RfZ0P83HtyDvGvf_ozBK3e
+          source_id: s_t2X7tBmP5fJGcRZni3Y-3p
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206334 王命爵）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_t2X7tBmP5fJGcRZni3Y-3p
+            source_type: api_record
+            title: 中国历代人物传记资料库：王命官（CBDB 216551）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216551&o=json
+            external_identifier: CBDB:216551
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oJbqhM4toqrLyVqzdxD4jD
+        status: active
+        display_name: 王命官
+        merged_into_person_id: null
 ---
 
 # 王命爵
@@ -257,10 +368,16 @@ relationships:
 | parents | p_F6K893ZAWfJwH2zn9PeMz7 | 王文炳 | accepted |
 | ancestors | p_oXR9CoYRRG9paUDcog9iXP | 王慶環 | accepted |
 | ancestors | p_YqFqR3sLDvjx3AxS5JEmvr | 王惟賢 | accepted |
+| other | p_3SsKRJx7NikxsZcGKGQPMX | 王命賞 | accepted |
+| other | p_Gri8wxAyXQ6QfwkRJhnVAn | 王命賜 | accepted |
+| other | p_oJbqhM4toqrLyVqzdxD4jD | 王命官 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王命賜（CBDB 216553）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216553&o=json)
+- [中国历代人物传记资料库：王命官（CBDB 216551）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216551&o=json)
 - [中国历代人物传记资料库：王命爵（CBDB 206334）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206334&o=json)
+- [中国历代人物传记资料库：王命賞（CBDB 216552）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216552&o=json)
 - [中国历代人物传记资料库：王慶環（CBDB 216544）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216544&o=json)
 - [中国历代人物传记资料库：王惟賢（CBDB 216543）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216543&o=json)
 - [中国历代人物传记资料库：王文炳（CBDB 216545）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216545&o=json)

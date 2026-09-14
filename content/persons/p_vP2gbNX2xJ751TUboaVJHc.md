@@ -4,7 +4,7 @@ id: p_vP2gbNX2xJ751TUboaVJHc
 status: active
 merged_into: null
 display_name: 王理
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_T4lr06T4lkYvepPF9Oh8UC
+        subject_person_id: p_hm7Wj97RnwGDWxbzPtoAnt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vP2gbNX2xJ751TUboaVJHc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cSUGe0Iq9OAC9WLGhruQ2Q
+          claim_id: c_T4lr06T4lkYvepPF9Oh8UC
+          source_id: s_NhzwhnjLPb6BF1D8UlNhPd
+          stance: supports
+          locator: CBDB：兄弟 王珩（202648）之父／母 王浩
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王理 与 王珩 为同胞（CBDB 记「兄」），王珩 之父／母即 王理 之父／母。
+          source:
+            id: s_NhzwhnjLPb6BF1D8UlNhPd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王理（CBDB 291582）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291582&o=json
+            external_identifier: CBDB:291582
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hm7Wj97RnwGDWxbzPtoAnt
+        status: active
+        display_name: 王浩
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_YHkox3S1vEpDhlXh0mMDPR
+        subject_person_id: p_vP2gbNX2xJ751TUboaVJHc
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_znAcPph3Ny2FkUGcQdE5go
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lTFHiMHB2qgVY5DlB3SvhO
+          claim_id: c_YHkox3S1vEpDhlXh0mMDPR
+          source_id: s_NhzwhnjLPb6BF1D8UlNhPd
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202648 王珩）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_NhzwhnjLPb6BF1D8UlNhPd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王理（CBDB 291582）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291582&o=json
+            external_identifier: CBDB:291582
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_znAcPph3Ny2FkUGcQdE5go
+        status: active
+        display_name: 王珩
+        merged_into_person_id: null
 ---
 
 # 王理
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_hm7Wj97RnwGDWxbzPtoAnt | 王浩 | accepted |
+| other | p_znAcPph3Ny2FkUGcQdE5go | 王珩 | accepted |
 
 ## 外部来源
 

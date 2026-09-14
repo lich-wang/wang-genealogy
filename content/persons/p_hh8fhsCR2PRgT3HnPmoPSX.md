@@ -4,7 +4,7 @@ id: p_hh8fhsCR2PRgT3HnPmoPSX
 status: active
 merged_into: null
 display_name: 王三接
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,81 @@ relationships:
         display_name: 王欽智
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_pUEXWi0NvZcFrZbzy2bOxR
+        subject_person_id: p_HJV1MFkLfcab9XeNGhGirk
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hh8fhsCR2PRgT3HnPmoPSX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MMA6XgIufJseU27jIlVFQb
+          claim_id: c_pUEXWi0NvZcFrZbzy2bOxR
+          source_id: s_rkdMbzwTVw3WHP49A1FBpx
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203931 王三接）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_rkdMbzwTVw3WHP49A1FBpx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三錫（CBDB 312134）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312134&o=json
+            external_identifier: CBDB:312134
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HJV1MFkLfcab9XeNGhGirk
+        status: active
+        display_name: 王三錫
+        merged_into_person_id: null
+    - claim:
+        id: c_ahweMo5RZF8PVQLo2u7oMO
+        subject_person_id: p_MMG96uL7Ktj4gzK2e3wPsU
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hh8fhsCR2PRgT3HnPmoPSX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_feqvGbKvJGsIQlnwDt0Jfc
+          claim_id: c_ahweMo5RZF8PVQLo2u7oMO
+          source_id: s_lxYvc4LlhGho1wbomWso7p
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203931 王三接）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_lxYvc4LlhGho1wbomWso7p
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三聘（CBDB 312135）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312135&o=json
+            external_identifier: CBDB:312135
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MMG96uL7Ktj4gzK2e3wPsU
+        status: active
+        display_name: 王三聘
+        merged_into_person_id: null
 ---
 
 # 王三接
@@ -241,6 +315,8 @@ relationships:
 | parents | p_fn2qF87LdSpD7mFSUY9aBy | 王濟 | accepted |
 | ancestors | p_n1RAMNCqfHxmzGckd3HNDY | 王岑 | accepted |
 | ancestors | p_Ve7cK1TkcHimk5vjDXkoQk | 王欽智 | accepted |
+| other | p_HJV1MFkLfcab9XeNGhGirk | 王三錫 | accepted |
+| other | p_MMG96uL7Ktj4gzK2e3wPsU | 王三聘 | accepted |
 
 ## 外部来源
 
@@ -248,3 +324,5 @@ relationships:
 - [中国历代人物传记资料库：王濟（CBDB 312131）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312131&o=json)
 - [中国历代人物传记资料库：王欽智（CBDB 312128）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312128&o=json)
 - [中国历代人物传记资料库：王三接（CBDB 203931）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203931&o=json)
+- [中国历代人物传记资料库：王三聘（CBDB 312135）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312135&o=json)
+- [中国历代人物传记资料库：王三錫（CBDB 312134）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312134&o=json)

@@ -4,7 +4,7 @@ id: p_Np4Z8JvLtkdK8vcDcqWsz6
 status: active
 merged_into: null
 display_name: 王瑨
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -181,7 +181,44 @@ relationships:
         display_name: 王福
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Uu1OSP3S2Ev6t8naTLT6hg
+        subject_person_id: p_Np4Z8JvLtkdK8vcDcqWsz6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_PQMsJ56mH4qKk3i6CbMEg8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rme2xnGKo6pQvKJoa6bAwo
+          claim_id: c_Uu1OSP3S2Ev6t8naTLT6hg
+          source_id: s_3xNrkk9n7vVS4nxltXmUtA
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207341 王瑨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_3xNrkk9n7vVS4nxltXmUtA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑄（CBDB 231539）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231539&o=json
+            external_identifier: CBDB:231539
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PQMsJ56mH4qKk3i6CbMEg8
+        status: active
+        display_name: 王瑄
+        merged_into_person_id: null
 ---
 
 # 王瑨
@@ -202,9 +239,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_5LwB9XKRJm64ZCjFd863w9 | 王斌 | accepted |
 | ancestors | p_4VBuRT184rpPLq35WX6voU | 王福 | accepted |
+| other | p_PQMsJ56mH4qKk3i6CbMEg8 | 王瑄 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王斌（CBDB 231534）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231534&o=json)
 - [中国历代人物传记资料库：王福（CBDB 231531）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231531&o=json)
 - [中国历代人物传记资料库：王瑨（CBDB 207341）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207341&o=json)
+- [中国历代人物传记资料库：王瑄（CBDB 231539）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231539&o=json)

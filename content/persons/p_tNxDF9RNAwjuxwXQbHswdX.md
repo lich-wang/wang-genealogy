@@ -4,7 +4,7 @@ id: p_tNxDF9RNAwjuxwXQbHswdX
 status: active
 merged_into: null
 display_name: 王適
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -187,7 +187,44 @@ relationships:
         display_name: 王鬷
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_QZHesrcDZdLWvW2LbrUnjj
+        subject_person_id: p_FMv5hjWihWy3Rz6L2m3a4g
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_tNxDF9RNAwjuxwXQbHswdX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3SSNxZIhXx40A6Z8n_659d
+          claim_id: c_QZHesrcDZdLWvW2LbrUnjj
+          source_id: s_cBMQjPqi27BYfIBzMypocy
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 22214 王適）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_cBMQjPqi27BYfIBzMypocy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王蘧（CBDB 45850）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=45850&o=json
+            external_identifier: CBDB:45850
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FMv5hjWihWy3Rz6L2m3a4g
+        status: active
+        display_name: 王蘧
+        merged_into_person_id: null
 ---
 
 # 王適
@@ -209,7 +246,9 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_iLUdeieVQDb1mxk8x28Vj3 | 王正路 | accepted |
 | ancestors | p_9epbfLViLxzdJRKQE2V4dh | 王鬷 | accepted |
+| other | p_FMv5hjWihWy3Rz6L2m3a4g | 王蘧 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王蘧（CBDB 45850）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=45850&o=json)
 - [中国历代人物传记资料库：王適（CBDB 22214）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22214&o=json)

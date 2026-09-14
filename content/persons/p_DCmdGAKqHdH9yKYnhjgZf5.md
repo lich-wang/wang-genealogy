@@ -4,7 +4,7 @@ id: p_DCmdGAKqHdH9yKYnhjgZf5
 status: active
 merged_into: null
 display_name: 王廉
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_s60cYB8wNsotLB9jTdWRx-
+        subject_person_id: p_gBwRWdErARQJVzB6EHJVfE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DCmdGAKqHdH9yKYnhjgZf5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BmuT6S2zL2A2H1E91QAVoe
+          claim_id: c_s60cYB8wNsotLB9jTdWRx-
+          source_id: s_ckg7uJEWE_5mM0Zcq7h1QV
+          stance: supports
+          locator: CBDB：兄弟 王度（206012）之父／母 王朝棟
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王廉 与 王度 为同胞（CBDB 记「兄」），王度 之父／母即 王廉 之父／母。
+          source:
+            id: s_ckg7uJEWE_5mM0Zcq7h1QV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廉（CBDB 212090）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212090&o=json
+            external_identifier: CBDB:212090
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_gBwRWdErARQJVzB6EHJVfE
+        status: active
+        display_name: 王朝棟
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_yyUabHWBU-Yj1KS9jWb4tT
+        subject_person_id: p_DCmdGAKqHdH9yKYnhjgZf5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_feVTPN7HCaS1BxqehN6dAD
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iVubPKJX4GArFV_dBdYaRD
+          claim_id: c_yyUabHWBU-Yj1KS9jWb4tT
+          source_id: s_ckg7uJEWE_5mM0Zcq7h1QV
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206012 王度）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ckg7uJEWE_5mM0Zcq7h1QV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廉（CBDB 212090）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212090&o=json
+            external_identifier: CBDB:212090
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_feVTPN7HCaS1BxqehN6dAD
+        status: active
+        display_name: 王度
+        merged_into_person_id: null
 ---
 
 # 王廉
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_gBwRWdErARQJVzB6EHJVfE | 王朝棟 | accepted |
+| other | p_feVTPN7HCaS1BxqehN6dAD | 王度 | accepted |
 
 ## 外部来源
 

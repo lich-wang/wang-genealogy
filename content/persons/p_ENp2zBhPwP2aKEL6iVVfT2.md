@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王琢玉
 cbdb_id: 205655
-revision: 4
+revision: 7
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,118 @@ relationships:
         display_name: 王實
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_w7alHZWPze3E3U6JRSXENb
+        subject_person_id: p_ENp2zBhPwP2aKEL6iVVfT2
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_JSELY6VmM3pJUx3GZbSbNE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_boHyml8wUGVo8IREPBFboD
+          claim_id: c_w7alHZWPze3E3U6JRSXENb
+          source_id: s__5mrct1nb_iQIpRaMBjkx_
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205655 王琢玉）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__5mrct1nb_iQIpRaMBjkx_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璦玉（CBDB 336576）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336576&o=json
+            external_identifier: CBDB:336576
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JSELY6VmM3pJUx3GZbSbNE
+        status: active
+        display_name: 王璦玉
+        merged_into_person_id: null
+    - claim:
+        id: c_e2mHZJTiUFELKnIk6cp6rj
+        subject_person_id: p_ENp2zBhPwP2aKEL6iVVfT2
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_L5qMD23M7VLF6QddypfrAf
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7ippfTIKrE9lkoEbSEU53h
+          claim_id: c_e2mHZJTiUFELKnIk6cp6rj
+          source_id: s_KkIKpxa2ErAC0YxvsC2AfE
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205655 王琢玉）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_KkIKpxa2ErAC0YxvsC2AfE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王旒玉（CBDB 336574）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336574&o=json
+            external_identifier: CBDB:336574
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_L5qMD23M7VLF6QddypfrAf
+        status: active
+        display_name: 王旒玉
+        merged_into_person_id: null
+    - claim:
+        id: c_fevFCyoSwzGrK9uz8fCBKp
+        subject_person_id: p_ENp2zBhPwP2aKEL6iVVfT2
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_UT7tNWyRxMM8ZHvrF86JdF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1givJKe-w-IKgtRWU1NM-N
+          claim_id: c_fevFCyoSwzGrK9uz8fCBKp
+          source_id: s_HWYuyjvF1Qyw7lBiWeIGVl
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205655 王琢玉）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_HWYuyjvF1Qyw7lBiWeIGVl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王執玉（CBDB 336575）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336575&o=json
+            external_identifier: CBDB:336575
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_UT7tNWyRxMM8ZHvrF86JdF
+        status: active
+        display_name: 王執玉
+        merged_into_person_id: null
 ---
 
 # 王琢玉
@@ -257,10 +368,16 @@ relationships:
 | parents | p_tRuYVQrj6CoDxdrV87C339 | 王國定 | accepted |
 | ancestors | p_pGU79yfpT77FbgMJmmqkpi | 王勤 | accepted |
 | ancestors | p_qXj5QLQCNULbC7HTQtWA8Z | 王實 | accepted |
+| other | p_JSELY6VmM3pJUx3GZbSbNE | 王璦玉 | accepted |
+| other | p_L5qMD23M7VLF6QddypfrAf | 王旒玉 | accepted |
+| other | p_UT7tNWyRxMM8ZHvrF86JdF | 王執玉 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王璦玉（CBDB 336576）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336576&o=json)
 - [中国历代人物传记资料库：王國定（CBDB 336571）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336571&o=json)
+- [中国历代人物传记资料库：王旒玉（CBDB 336574）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336574&o=json)
 - [中国历代人物传记资料库：王勤（CBDB 336569）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336569&o=json)
 - [中国历代人物传记资料库：王實（CBDB 336570）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336570&o=json)
+- [中国历代人物传记资料库：王執玉（CBDB 336575）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336575&o=json)
 - [中国历代人物传记资料库：王琢玉（CBDB 205655）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205655&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王有恬
 cbdb_id: 199727
-revision: 3
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -237,7 +237,81 @@ relationships:
         display_name: 王仲奎
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_6Qh2vgxrulwjFHg709LzkU
+        subject_person_id: p_JGkdEGAwvYQLDBLsCSYeVF
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_pTZB8fs7H6HDdDBGYmoZTE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_O_8hw3HTOcGbExnLyRvJts
+          claim_id: c_6Qh2vgxrulwjFHg709LzkU
+          source_id: s_JYj5o2rfUMPE9v9viQ-Ojz
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 199727 王有恬）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_JYj5o2rfUMPE9v9viQ-Ojz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王有性（CBDB 249010）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249010&o=json
+            external_identifier: CBDB:249010
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JGkdEGAwvYQLDBLsCSYeVF
+        status: active
+        display_name: 王有性
+        merged_into_person_id: null
+    - claim:
+        id: c_e7-jipq0CSeiqc7rpk0ZFW
+        subject_person_id: p_jdMhnFBLX1ncq8S4Ewhj3x
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_pTZB8fs7H6HDdDBGYmoZTE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QgM6VnqAFO_v-ploPsEFgW
+          claim_id: c_e7-jipq0CSeiqc7rpk0ZFW
+          source_id: s_JGqsDy-geojBUuHR1DuB8J
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 199727 王有恬）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_JGqsDy-geojBUuHR1DuB8J
+            source_type: api_record
+            title: 中国历代人物传记资料库：王有恆（CBDB 249008）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249008&o=json
+            external_identifier: CBDB:249008
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jdMhnFBLX1ncq8S4Ewhj3x
+        status: active
+        display_name: 王有恆
+        merged_into_person_id: null
 ---
 
 # 王有恬
@@ -259,10 +333,14 @@ relationships:
 | parents | p_pEywX39NWKUq9nsDk1FUH7 | 王明哲 | accepted |
 | ancestors | p_Vb12uqmowHEWMP3JHAwPyx | 王桉 | accepted |
 | ancestors | p_XM5n69CHhrqWi7GwAYadqj | 王仲奎 | accepted |
+| other | p_JGkdEGAwvYQLDBLsCSYeVF | 王有性 | accepted |
+| other | p_jdMhnFBLX1ncq8S4Ewhj3x | 王有恆 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王桉（CBDB 249004）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249004&o=json)
 - [中国历代人物传记资料库：王明哲（CBDB 249005）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249005&o=json)
+- [中国历代人物传记资料库：王有恆（CBDB 249008）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249008&o=json)
 - [中国历代人物传记资料库：王有恬（CBDB 199727）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199727&o=json)
+- [中国历代人物传记资料库：王有性（CBDB 249010）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249010&o=json)
 - [中国历代人物传记资料库：王仲奎（CBDB 249003）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249003&o=json)

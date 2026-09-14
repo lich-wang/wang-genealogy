@@ -4,7 +4,7 @@ id: p_D7uG7jT88CSyD64SMPeLTu
 status: active
 merged_into: null
 display_name: 王蘧
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,81 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_HQEHYbxbm1vwlL6Qez83XS
+        subject_person_id: p_qdfj8n9aJt992f6xYnsVk6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_D7uG7jT88CSyD64SMPeLTu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_Vmy5iXbiP-vkUhxF4eXEAQ
+          claim_id: c_HQEHYbxbm1vwlL6Qez83XS
+          source_id: s_nTXozS7p11gmVwOgnUi3Js
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1786）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_nTXozS7p11gmVwOgnUi3Js
+            source_type: api_record
+            title: 中国历代人物传记资料库：王蘧（CBDB 36925）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36925&o=json
+            external_identifier: CBDB:36925
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qdfj8n9aJt992f6xYnsVk6
+        status: active
+        display_name: 王之道
+        merged_into_person_id: null
+    - claim:
+        id: c_ftqkPrRJBgYizOvrqgc80B
+        subject_person_id: p_2x1kEfTy9Rrf9vMAC4nm4e
+        claim_kind: relationship
+        predicate: kinship.mother_of
+        object_person_id: p_D7uG7jT88CSyD64SMPeLTu
+        generation_count: null
+        parent_role: mother
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_VAGcbAowrv_OOzoP_4rqB5
+          claim_id: c_ftqkPrRJBgYizOvrqgc80B
+          source_id: s_nTXozS7p11gmVwOgnUi3Js
+          stance: supports
+          locator: CBDB 亲属：母（KinPerson 36923）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_nTXozS7p11gmVwOgnUi3Js
+            source_type: api_record
+            title: 中国历代人物传记资料库：王蘧（CBDB 36925）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36925&o=json
+            external_identifier: CBDB:36925
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2x1kEfTy9Rrf9vMAC4nm4e
+        status: active
+        display_name: 孫氏
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qdfj8n9aJt992f6xYnsVk6 | 王之道 | accepted |
+| parents | p_2x1kEfTy9Rrf9vMAC4nm4e | 孫氏 | accepted |
 
 ## 外部来源
 

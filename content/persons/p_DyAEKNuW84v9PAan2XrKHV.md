@@ -4,7 +4,7 @@ id: p_DyAEKNuW84v9PAan2XrKHV
 status: active
 merged_into: null
 display_name: 王遵訓
-revision: 3
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,192 @@ relationships:
         display_name: 王明
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c__1p-77_2bkEclF_Kzk3fss
+        subject_person_id: p_CaxhV3WpC3bWeKjSHRUMHG
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_DyAEKNuW84v9PAan2XrKHV
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_umUA1in8SlQeB8JTWud4wq
+          claim_id: c__1p-77_2bkEclF_Kzk3fss
+          source_id: s_ghf3sr_uUZS1SRKxFmae-h
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206844 王遵訓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ghf3sr_uUZS1SRKxFmae-h
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遵忠（CBDB 224062）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224062&o=json
+            external_identifier: CBDB:224062
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CaxhV3WpC3bWeKjSHRUMHG
+        status: active
+        display_name: 王遵忠
+        merged_into_person_id: null
+    - claim:
+        id: c_gRHaZEEMnOzRUos2pUJNkh
+        subject_person_id: p_DyAEKNuW84v9PAan2XrKHV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_THjSXuPHuV25p7BCHBT1GF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_U9cSFaqtX0NRsq3dImX0YN
+          claim_id: c_gRHaZEEMnOzRUos2pUJNkh
+          source_id: s_nHAqBbWCPisOE6BQD8FOzB
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206844 王遵訓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_nHAqBbWCPisOE6BQD8FOzB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遵道（CBDB 224059）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224059&o=json
+            external_identifier: CBDB:224059
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_THjSXuPHuV25p7BCHBT1GF
+        status: active
+        display_name: 王遵道
+        merged_into_person_id: null
+    - claim:
+        id: c_E3MFjulc_vjrM0vqOZoxGB
+        subject_person_id: p_DyAEKNuW84v9PAan2XrKHV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_VarSc8kLjzf416bC1G8naQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_M6VPjHLG5zXLVTpsKfDYFz
+          claim_id: c_E3MFjulc_vjrM0vqOZoxGB
+          source_id: s_-aV7cmf3OSlJgBBVmSYxLL
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206844 王遵訓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_-aV7cmf3OSlJgBBVmSYxLL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遵路（CBDB 224058）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224058&o=json
+            external_identifier: CBDB:224058
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VarSc8kLjzf416bC1G8naQ
+        status: active
+        display_name: 王遵路
+        merged_into_person_id: null
+    - claim:
+        id: c_nuxLFDIJSNG0VrdvKackKo
+        subject_person_id: p_DyAEKNuW84v9PAan2XrKHV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_jvyneAmQwsyuMFavFeHLZy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9h5AidXFGOcmTpv3e6VndT
+          claim_id: c_nuxLFDIJSNG0VrdvKackKo
+          source_id: s_9gdNNcHoaHHB4kCP4DOpOF
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206844 王遵訓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_9gdNNcHoaHHB4kCP4DOpOF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遵魯（CBDB 224061）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224061&o=json
+            external_identifier: CBDB:224061
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jvyneAmQwsyuMFavFeHLZy
+        status: active
+        display_name: 王遵魯
+        merged_into_person_id: null
+    - claim:
+        id: c_8oLGparNAziGgdQ8W-kXAz
+        subject_person_id: p_DyAEKNuW84v9PAan2XrKHV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vowE3XMF6f9r166gUrc4qM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_O8K7mRVY2I9hPEXE5_Lms4
+          claim_id: c_8oLGparNAziGgdQ8W-kXAz
+          source_id: s_K8pMIzjWh0eEKJNwHoHN4-
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206844 王遵訓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_K8pMIzjWh0eEKJNwHoHN4-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王遵孝（CBDB 224063）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224063&o=json
+            external_identifier: CBDB:224063
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vowE3XMF6f9r166gUrc4qM
+        status: active
+        display_name: 王遵孝
+        merged_into_person_id: null
 ---
 
 # 王遵訓
@@ -245,8 +430,18 @@ relationships:
 | spouses | p_d6cb1iHkaWg7M9a1oF4r2V | 徐氏 | accepted |
 | ancestors | p_P2rRPZK8XmusLs67CcHEp4 | 王杞 | accepted |
 | ancestors | p_QgiVPXBqFaKhrAo4YkqB2a | 王明 | accepted |
+| other | p_CaxhV3WpC3bWeKjSHRUMHG | 王遵忠 | accepted |
+| other | p_THjSXuPHuV25p7BCHBT1GF | 王遵道 | accepted |
+| other | p_VarSc8kLjzf416bC1G8naQ | 王遵路 | accepted |
+| other | p_jvyneAmQwsyuMFavFeHLZy | 王遵魯 | accepted |
+| other | p_vowE3XMF6f9r166gUrc4qM | 王遵孝 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王遵道（CBDB 224059）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224059&o=json)
+- [中国历代人物传记资料库：王遵魯（CBDB 224061）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224061&o=json)
+- [中国历代人物传记资料库：王遵路（CBDB 224058）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224058&o=json)
+- [中国历代人物传记资料库：王遵孝（CBDB 224063）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224063&o=json)
 - [中国历代人物传记资料库：王遵訓（CBDB 206844）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206844&o=json)
+- [中国历代人物传记资料库：王遵忠（CBDB 224062）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224062&o=json)
 - [中国历代人物传记资料库：徐氏(王遵訓妻)（CBDB 224057）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224057&o=json)

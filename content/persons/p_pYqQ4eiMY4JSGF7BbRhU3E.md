@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王棺
 cbdb_id: 37901
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -81,7 +81,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_C2XYVdgAzLkHdxkB3Gm5gI
+        subject_person_id: p_7GMWoiG2K3cjHSqD1KjjCt
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_pYqQ4eiMY4JSGF7BbRhU3E
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IDzNQkQ27KqCSBDA8Jsgwk
+          claim_id: c_C2XYVdgAzLkHdxkB3Gm5gI
+          source_id: s_5owziGa6TFVt_KuhFTiYKk
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 37901 王棺）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_5owziGa6TFVt_KuhFTiYKk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王梠（CBDB 37899）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37899&o=json
+            external_identifier: CBDB:37899
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7GMWoiG2K3cjHSqD1KjjCt
+        status: active
+        display_name: 王梠
+        merged_into_person_id: null
 ---
 
 # 王棺
@@ -99,7 +136,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_7GMWoiG2K3cjHSqD1KjjCt | 王梠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王棺（CBDB 37901）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37901&o=json)
+- [中国历代人物传记资料库：王梠（CBDB 37899）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37899&o=json)

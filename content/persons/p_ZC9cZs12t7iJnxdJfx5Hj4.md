@@ -4,7 +4,7 @@ id: p_ZC9cZs12t7iJnxdJfx5Hj4
 status: active
 merged_into: null
 display_name: 王思義
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,117 @@ relationships:
         status: active
         display_name: 王珉
         merged_into_person_id: null
+    - claim:
+        id: c_e0Vrk9Mv40XV7il47W_fRu
+        subject_person_id: p_ZC9cZs12t7iJnxdJfx5Hj4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ABDEi8fuYZK2pj19UDxiqm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ny679p-TcW_CamqWM5MCQC
+          claim_id: c_e0Vrk9Mv40XV7il47W_fRu
+          source_id: s_ZeJRA4Oyd2phZ1IrxIZ4Qe
+          stance: supports
+          locator: CBDB：兄弟 王珉（202834）之父／母 王思義
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王祿 与 王珉 为同胞（CBDB 记「弟」），王珉 之父／母即 王祿 之父／母。
+          source:
+            id: s_ZeJRA4Oyd2phZ1IrxIZ4Qe
+            source_type: api_record
+            title: 中国历代人物传记资料库：王祿（CBDB 295405）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295405&o=json
+            external_identifier: CBDB:295405
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ABDEi8fuYZK2pj19UDxiqm
+        status: active
+        display_name: 王祿
+        merged_into_person_id: null
+    - claim:
+        id: c_ZUzCOMoF7hisWlKCQzXv-T
+        subject_person_id: p_ZC9cZs12t7iJnxdJfx5Hj4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XDx4iA4sbdvZ6DN4dam34b
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XS60dtYzY2-DnzKD0FHcP6
+          claim_id: c_ZUzCOMoF7hisWlKCQzXv-T
+          source_id: s_oMI6-XvA8OZQq4oFkAe5FR
+          stance: supports
+          locator: CBDB：兄弟 王珉（202834）之父／母 王思義
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王璞 与 王珉 为同胞（CBDB 记「兄」），王珉 之父／母即 王璞 之父／母。
+          source:
+            id: s_oMI6-XvA8OZQq4oFkAe5FR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璞（CBDB 295406）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295406&o=json
+            external_identifier: CBDB:295406
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_XDx4iA4sbdvZ6DN4dam34b
+        status: active
+        display_name: 王璞
+        merged_into_person_id: null
+    - claim:
+        id: c_FGhFfzh4LgvVbkaLDRvkDo
+        subject_person_id: p_ZC9cZs12t7iJnxdJfx5Hj4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_f3R8HLraqnB1DXqUXJNkJ5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_E7p4sgkN1mttSGH968nD1-
+          claim_id: c_FGhFfzh4LgvVbkaLDRvkDo
+          source_id: s_mdyr2YqmDyXoAGKXP19paL
+          stance: supports
+          locator: CBDB：兄弟 王珉（202834）之父／母 王思義
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王爵 与 王珉 为同胞（CBDB 记「弟」），王珉 之父／母即 王爵 之父／母。
+          source:
+            id: s_mdyr2YqmDyXoAGKXP19paL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王爵（CBDB 295404）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295404&o=json
+            external_identifier: CBDB:295404
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_f3R8HLraqnB1DXqUXJNkJ5
+        status: active
+        display_name: 王爵
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +246,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_fJbtRZx7s1XqSoTR8tLmBu | 王珉 | accepted |
+| children | p_ABDEi8fuYZK2pj19UDxiqm | 王祿 | accepted |
+| children | p_XDx4iA4sbdvZ6DN4dam34b | 王璞 | accepted |
+| children | p_f3R8HLraqnB1DXqUXJNkJ5 | 王爵 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王爵（CBDB 295404）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295404&o=json)
+- [中国历代人物传记资料库：王祿（CBDB 295405）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295405&o=json)
 - [中国历代人物传记资料库：王珉（CBDB 202834）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202834&o=json)
+- [中国历代人物传记资料库：王璞（CBDB 295406）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295406&o=json)
 - [中国历代人物传记资料库：王思義（CBDB 295401）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=295401&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王室垣
 cbdb_id: 206814
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,44 @@ relationships:
         display_name: 王璇
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_HxwQ8jpsmzv7lm6mUEYQcp
+        subject_person_id: p_3hY5he8M9mkvGyZik66bM3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_SPdF8Kd1CdqXNK2ZQBMdGJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1j6UmOazuNDsbqyrNLzxnX
+          claim_id: c_HxwQ8jpsmzv7lm6mUEYQcp
+          source_id: s_wisNwsKuTBcbb1CBvtZaPr
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206814 王室垣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_wisNwsKuTBcbb1CBvtZaPr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王室屏（CBDB 223630）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223630&o=json
+            external_identifier: CBDB:223630
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_SPdF8Kd1CdqXNK2ZQBMdGJ
+        status: active
+        display_name: 王室屏
+        merged_into_person_id: null
 ---
 
 # 王室垣
@@ -257,9 +294,11 @@ relationships:
 | parents | p_bGYu4dMVakhcDXuLef1B17 | 王一舉 | accepted |
 | ancestors | p_jEj3xe4s8v8GyN8ATcB2q1 | 王宗舜 | accepted |
 | ancestors | p_u8Hp3VN34Js6miRonstBcm | 王璇 | accepted |
+| other | p_SPdF8Kd1CdqXNK2ZQBMdGJ | 王室屏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王室屏（CBDB 223630）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223630&o=json)
 - [中国历代人物传记资料库：王室垣（CBDB 206814）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206814&o=json)
 - [中国历代人物传记资料库：王璇（CBDB 223624）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223624&o=json)
 - [中国历代人物传记资料库：王一舉（CBDB 223627）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223627&o=json)

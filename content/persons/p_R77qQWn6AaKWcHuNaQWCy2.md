@@ -4,7 +4,7 @@ id: p_R77qQWn6AaKWcHuNaQWCy2
 status: active
 merged_into: null
 display_name: 王堂
-revision: 4
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -220,7 +220,118 @@ relationships:
         display_name: 王思鑑
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ZRtrVwj0c6FJ8R5i_EQ3KW
+        subject_person_id: p_49EAHPDGUkxDkUqKkX9KJH
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_R77qQWn6AaKWcHuNaQWCy2
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B7cji8DEpUUvd6WE5LtpT6
+          claim_id: c_ZRtrVwj0c6FJ8R5i_EQ3KW
+          source_id: s_ntd3if8Pv1xSAqJKZQ4mC0
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204814 王堂）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ntd3if8Pv1xSAqJKZQ4mC0
+            source_type: api_record
+            title: 中国历代人物传记资料库：王問（CBDB 324431）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324431&o=json
+            external_identifier: CBDB:324431
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_49EAHPDGUkxDkUqKkX9KJH
+        status: active
+        display_name: 王問
+        merged_into_person_id: null
+    - claim:
+        id: c_Nwt4hou9m6dI-Ho8wYtSQI
+        subject_person_id: p_4eEd6J7sf8PX3EsELNyjJX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_R77qQWn6AaKWcHuNaQWCy2
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3BwumdkBL4gc_yQulSxvEG
+          claim_id: c_Nwt4hou9m6dI-Ho8wYtSQI
+          source_id: s_DqmaCVn5ebT8fSqqloedzA
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204814 王堂）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_DqmaCVn5ebT8fSqqloedzA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嘉（CBDB 324428）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324428&o=json
+            external_identifier: CBDB:324428
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4eEd6J7sf8PX3EsELNyjJX
+        status: active
+        display_name: 王嘉
+        merged_into_person_id: null
+    - claim:
+        id: c_2Yx3pvxaCTvwBc9Hc9G77N
+        subject_person_id: p_R77qQWn6AaKWcHuNaQWCy2
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ZCSBH1ggTRGGXUtKo7xUdv
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_liPQsFHi8cH0ebHhk1Mr5L
+          claim_id: c_2Yx3pvxaCTvwBc9Hc9G77N
+          source_id: s_UoW__hYdSEsOICbIrjgE2i
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204814 王堂）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_UoW__hYdSEsOICbIrjgE2i
+            source_type: api_record
+            title: 中国历代人物传记资料库：王聘（CBDB 324430）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324430&o=json
+            external_identifier: CBDB:324430
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZCSBH1ggTRGGXUtKo7xUdv
+        status: active
+        display_name: 王聘
+        merged_into_person_id: null
 ---
 
 # 王堂
@@ -242,10 +353,16 @@ relationships:
 | parents | p_DcTxGi4fs4wDZZw4QNf6x3 | 王本雚 | accepted |
 | ancestors | p_Bra3wsJ6ysE9pnbB2keq5x | 王定 | accepted |
 | ancestors | p_3GVtF1CSJpGQWYhKPXwVwq | 王思鑑 | accepted |
+| other | p_49EAHPDGUkxDkUqKkX9KJH | 王問 | accepted |
+| other | p_4eEd6J7sf8PX3EsELNyjJX | 王嘉 | accepted |
+| other | p_ZCSBH1ggTRGGXUtKo7xUdv | 王聘 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王本雚（CBDB 324425）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324425&o=json)
 - [中国历代人物传记资料库：王定（CBDB 324424）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324424&o=json)
+- [中国历代人物传记资料库：王嘉（CBDB 324428）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324428&o=json)
+- [中国历代人物传记资料库：王聘（CBDB 324430）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324430&o=json)
 - [中国历代人物传记资料库：王思鑑（CBDB 324423）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324423&o=json)
 - [中国历代人物传记资料库：王堂（CBDB 204814）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204814&o=json)
+- [中国历代人物传记资料库：王問（CBDB 324431）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324431&o=json)

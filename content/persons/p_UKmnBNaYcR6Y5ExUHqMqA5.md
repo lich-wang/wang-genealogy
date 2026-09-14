@@ -4,7 +4,7 @@ id: p_UKmnBNaYcR6Y5ExUHqMqA5
 status: active
 merged_into: null
 display_name: 王意
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,80 @@ relationships:
         status: active
         display_name: 王福
         merged_into_person_id: null
+    - claim:
+        id: c_nciWHkLAGtFTxH9iAGhDHC
+        subject_person_id: p_UKmnBNaYcR6Y5ExUHqMqA5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CaeiLEBiuhVCx3CGJabrzc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4IQaYXXty2CpKeAZRkxv5d
+          claim_id: c_nciWHkLAGtFTxH9iAGhDHC
+          source_id: s_Gxj_xrbhPJCDUm3JsE2IGC
+          stance: supports
+          locator: CBDB：兄弟 王福（208015）之父／母 王意
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王子讓 与 王福 为同胞（CBDB 记「兄」），王福 之父／母即 王子讓 之父／母。
+          source:
+            id: s_Gxj_xrbhPJCDUm3JsE2IGC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子讓（CBDB 239298）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239298&o=json
+            external_identifier: CBDB:239298
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CaeiLEBiuhVCx3CGJabrzc
+        status: active
+        display_name: 王子讓
+        merged_into_person_id: null
+    - claim:
+        id: c_SH_kx4VvBB9NnfdnE_b1ls
+        subject_person_id: p_UKmnBNaYcR6Y5ExUHqMqA5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DpriGiLpH9zMCxpSjK9uRY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oX5ThzrL7FFUP4i8d7Qm1q
+          claim_id: c_SH_kx4VvBB9NnfdnE_b1ls
+          source_id: s_au1SvCMhvwAeeAzDyX6xyx
+          stance: supports
+          locator: CBDB：兄弟 王福（208015）之父／母 王意
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王子謙 与 王福 为同胞（CBDB 记「兄」），王福 之父／母即 王子謙 之父／母。
+          source:
+            id: s_au1SvCMhvwAeeAzDyX6xyx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子謙（CBDB 239296）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239296&o=json
+            external_identifier: CBDB:239296
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DpriGiLpH9zMCxpSjK9uRY
+        status: active
+        display_name: 王子謙
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +209,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_H841UufcMkWpzbemaqposM | 王福 | accepted |
+| children | p_CaeiLEBiuhVCx3CGJabrzc | 王子讓 | accepted |
+| children | p_DpriGiLpH9zMCxpSjK9uRY | 王子謙 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王福（CBDB 208015）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208015&o=json)
 - [中国历代人物传记资料库：王意（CBDB 239293）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239293&o=json)
+- [中国历代人物传记资料库：王子謙（CBDB 239296）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239296&o=json)
+- [中国历代人物传记资料库：王子讓（CBDB 239298）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239298&o=json)

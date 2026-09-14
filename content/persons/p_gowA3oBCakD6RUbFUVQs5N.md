@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王珢
 cbdb_id: 284306
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_V3wDI7NZ9f5N5IiAVpByzo
+        subject_person_id: p_CN2jDLgCox9JFiLJPyx2Za
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gowA3oBCakD6RUbFUVQs5N
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UQ9X5OjNXNFrzJQR6x1jx7
+          claim_id: c_V3wDI7NZ9f5N5IiAVpByzo
+          source_id: s_W0ky_mgl51OBuQVqvGuiAy
+          stance: supports
+          locator: CBDB：兄弟 王密（202150）之父／母 王鎮
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王珢 与 王密 为同胞（CBDB 记「兄」），王密 之父／母即 王珢 之父／母。
+          source:
+            id: s_W0ky_mgl51OBuQVqvGuiAy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珢（CBDB 284306）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284306&o=json
+            external_identifier: CBDB:284306
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CN2jDLgCox9JFiLJPyx2Za
+        status: active
+        display_name: 王鎮
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_fqg1SXTEnPiTJlmkSnIX_4
+        subject_person_id: p_3VWyJNWMm17kXtvGcMVL5b
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gowA3oBCakD6RUbFUVQs5N
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sFe_KffJqCkiVkbZNJ19Ke
+          claim_id: c_fqg1SXTEnPiTJlmkSnIX_4
+          source_id: s_W0ky_mgl51OBuQVqvGuiAy
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202150 王密）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_W0ky_mgl51OBuQVqvGuiAy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珢（CBDB 284306）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284306&o=json
+            external_identifier: CBDB:284306
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3VWyJNWMm17kXtvGcMVL5b
+        status: active
+        display_name: 王密
+        merged_into_person_id: null
 ---
 
 # 王珢
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_CN2jDLgCox9JFiLJPyx2Za | 王鎮 | accepted |
+| other | p_3VWyJNWMm17kXtvGcMVL5b | 王密 | accepted |
 
 ## 外部来源
 

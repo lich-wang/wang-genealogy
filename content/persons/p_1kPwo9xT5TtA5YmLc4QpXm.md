@@ -4,7 +4,7 @@ id: p_1kPwo9xT5TtA5YmLc4QpXm
 status: active
 merged_into: null
 display_name: 王念
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -179,7 +179,44 @@ relationships:
         display_name: 王政
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_6_w9zIpXUQ4Zg9LV8TL0-6
+        subject_person_id: p_1kPwo9xT5TtA5YmLc4QpXm
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_8bPkGR1thE8oZ9F4GXHWNZ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mUq2ZjJq3aAYepJTu6Jn0-
+          claim_id: c_6_w9zIpXUQ4Zg9LV8TL0-6
+          source_id: s_zP4wxlz-Z1j2xbx4iPggNP
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126587 王念）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_zP4wxlz-Z1j2xbx4iPggNP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王龠（CBDB 276178）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276178&o=json
+            external_identifier: CBDB:276178
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8bPkGR1thE8oZ9F4GXHWNZ
+        status: active
+        display_name: 王龠
+        merged_into_person_id: null
 ---
 
 # 王念
@@ -200,9 +237,11 @@ relationships:
 | parents | p_WMDBx8YbaqrfbBxkSxgvG3 | 王和 | accepted |
 | ancestors | p_bf9NCQmSwQEP6EKTE7LQQ5 | 王斌 | accepted |
 | ancestors | p_xySe3nQRavCmmmxMiAe2Ua | 王政 | accepted |
+| other | p_8bPkGR1thE8oZ9F4GXHWNZ | 王龠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王斌（CBDB 252673）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252673&o=json)
 - [中国历代人物传记资料库：王念（CBDB 126587）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126587&o=json)
+- [中国历代人物传记资料库：王龠（CBDB 276178）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276178&o=json)
 - [中国历代人物传记资料库：王政（CBDB 276171）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276171&o=json)

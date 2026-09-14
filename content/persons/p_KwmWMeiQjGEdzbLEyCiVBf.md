@@ -4,7 +4,7 @@ id: p_KwmWMeiQjGEdzbLEyCiVBf
 status: active
 merged_into: null
 display_name: 王可立
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,44 @@ relationships:
         display_name: 王安
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_3S5w8i2ugfyCPiUTS0bc25
+        subject_person_id: p_KwmWMeiQjGEdzbLEyCiVBf
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_a7whYXgQ2hjoDJ2SK1Xq92
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lXMYOncY05OqfdUrZY_W0v
+          claim_id: c_3S5w8i2ugfyCPiUTS0bc25
+          source_id: s_c27UCGeQocRjOP8OZZJ-Mc
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204430 王可立）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_c27UCGeQocRjOP8OZZJ-Mc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王可久（CBDB 318956）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318956&o=json
+            external_identifier: CBDB:318956
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_a7whYXgQ2hjoDJ2SK1Xq92
+        status: active
+        display_name: 王可久
+        merged_into_person_id: null
 ---
 
 # 王可立
@@ -240,10 +277,12 @@ relationships:
 | parents | p_iSit69r8tHsmyFhZtJvQCM | 王徽 | accepted |
 | ancestors | p_94ag6NiU4Wc9zyDs7jya2c | 王廣 | accepted |
 | ancestors | p_ALT6bxbs4xwokN9eKwZnf7 | 王安 | accepted |
+| other | p_a7whYXgQ2hjoDJ2SK1Xq92 | 王可久 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王安（CBDB 318949）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318949&o=json)
 - [中国历代人物传记资料库：王廣（CBDB 318948）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318948&o=json)
 - [中国历代人物传记资料库：王徽（CBDB 318950）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318950&o=json)
+- [中国历代人物传记资料库：王可久（CBDB 318956）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318956&o=json)
 - [中国历代人物传记资料库：王可立（CBDB 204430）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204430&o=json)

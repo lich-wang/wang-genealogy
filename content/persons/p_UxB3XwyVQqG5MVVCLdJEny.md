@@ -4,7 +4,7 @@ id: p_UxB3XwyVQqG5MVVCLdJEny
 status: active
 merged_into: null
 display_name: 王福
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,43 @@ relationships:
         status: active
         display_name: 王定安
         merged_into_person_id: null
+    - claim:
+        id: c_Ds9KtTe3iY8pxI8QnBAY_k
+        subject_person_id: p_UxB3XwyVQqG5MVVCLdJEny
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Qe6qroqE9FF3Z3FgwvdtdU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tSULYPuImvlnrvbJ-IFpiH
+          claim_id: c_Ds9KtTe3iY8pxI8QnBAY_k
+          source_id: s_-tUaXzjW0eZp_onpFFlWew
+          stance: supports
+          locator: CBDB：兄弟 王定安（200285）之父／母 王福
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王定寧 与 王定安 为同胞（CBDB 记「兄」），王定安 之父／母即 王定寧 之父／母。
+          source:
+            id: s_-tUaXzjW0eZp_onpFFlWew
+            source_type: api_record
+            title: 中国历代人物传记资料库：王定寧（CBDB 255877）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255877&o=json
+            external_identifier: CBDB:255877
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Qe6qroqE9FF3Z3FgwvdtdU
+        status: active
+        display_name: 王定寧
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_cWTwgVhpSA8gYnzbvXzbFc | 王定安 | accepted |
+| children | p_Qe6qroqE9FF3Z3FgwvdtdU | 王定寧 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王定寧（CBDB 255877）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255877&o=json)
 - [中国历代人物传记资料库：王福（CBDB 255874）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255874&o=json)

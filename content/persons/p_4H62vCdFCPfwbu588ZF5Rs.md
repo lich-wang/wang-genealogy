@@ -4,7 +4,7 @@ id: p_4H62vCdFCPfwbu588ZF5Rs
 status: active
 merged_into: null
 display_name: 王紀
-revision: 2
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,154 @@ relationships:
         status: active
         display_name: 王鯨
         merged_into_person_id: null
+    - claim:
+        id: c_B-_at9KhArY-Sqt0iS4UFM
+        subject_person_id: p_4H62vCdFCPfwbu588ZF5Rs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_A8Z93GuDgFG2FMKQKv6D3n
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9t6D0GcXK4CGVxSTypceRb
+          claim_id: c_B-_at9KhArY-Sqt0iS4UFM
+          source_id: s_4YHSY5Zr6UL3ciq-FlxMGa
+          stance: supports
+          locator: CBDB：兄弟 王鯨（200003）之父／母 王紀
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鯆 与 王鯨 为同胞（CBDB 记「兄」），王鯨 之父／母即 王鯆 之父／母。
+          source:
+            id: s_4YHSY5Zr6UL3ciq-FlxMGa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鯆（CBDB 252489）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252489&o=json
+            external_identifier: CBDB:252489
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_A8Z93GuDgFG2FMKQKv6D3n
+        status: active
+        display_name: 王鯆
+        merged_into_person_id: null
+    - claim:
+        id: c_ALZxIWWdQWUj5m8QDhqt53
+        subject_person_id: p_4H62vCdFCPfwbu588ZF5Rs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BDhawx8iXZJKPaS9cRok8X
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q7kjMiejJM9UzMKp6ms7t3
+          claim_id: c_ALZxIWWdQWUj5m8QDhqt53
+          source_id: s_Fr8GC0x6DNI-8bvwgSg6tY
+          stance: supports
+          locator: CBDB：兄弟 王鯨（200003）之父／母 王紀
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鯤 与 王鯨 为同胞（CBDB 记「弟」），王鯨 之父／母即 王鯤 之父／母。
+          source:
+            id: s_Fr8GC0x6DNI-8bvwgSg6tY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鯤（CBDB 252487）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252487&o=json
+            external_identifier: CBDB:252487
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BDhawx8iXZJKPaS9cRok8X
+        status: active
+        display_name: 王鯤
+        merged_into_person_id: null
+    - claim:
+        id: c_M2WUZi4MMe6ZRVAHDC7M3F
+        subject_person_id: p_4H62vCdFCPfwbu588ZF5Rs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RF6P586VjzeCuJsE4cGyJg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MEtJzju9zSXRWubEXhdW9b
+          claim_id: c_M2WUZi4MMe6ZRVAHDC7M3F
+          source_id: s_XEoc6ZKhyEQ8YfB5jjk1Gx
+          stance: supports
+          locator: CBDB：兄弟 王鯨（200003）之父／母 王紀
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鯉 与 王鯨 为同胞（CBDB 记「弟」），王鯨 之父／母即 王鯉 之父／母。
+          source:
+            id: s_XEoc6ZKhyEQ8YfB5jjk1Gx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鯉（CBDB 252488）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252488&o=json
+            external_identifier: CBDB:252488
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_RF6P586VjzeCuJsE4cGyJg
+        status: active
+        display_name: 王鯉
+        merged_into_person_id: null
+    - claim:
+        id: c_8ccqbuY6-a2_9C6wF0g74h
+        subject_person_id: p_4H62vCdFCPfwbu588ZF5Rs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_o5UKvHECYKG2228iAHWXcr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WH2eoTwj8-ziNG-a7Nk00O
+          claim_id: c_8ccqbuY6-a2_9C6wF0g74h
+          source_id: s_QYxjR8-05IZ8eF37md49Aw
+          stance: supports
+          locator: CBDB：兄弟 王鯨（200003）之父／母 王紀
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鱗 与 王鯨 为同胞（CBDB 记「兄」），王鯨 之父／母即 王鱗 之父／母。
+          source:
+            id: s_QYxjR8-05IZ8eF37md49Aw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鱗（CBDB 252491）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252491&o=json
+            external_identifier: CBDB:252491
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_o5UKvHECYKG2228iAHWXcr
+        status: active
+        display_name: 王鱗
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +272,15 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_5841EMmKzggT2c8As9ptEU | 王鯨 | accepted |
+| children | p_A8Z93GuDgFG2FMKQKv6D3n | 王鯆 | accepted |
+| children | p_BDhawx8iXZJKPaS9cRok8X | 王鯤 | accepted |
+| children | p_RF6P586VjzeCuJsE4cGyJg | 王鯉 | accepted |
+| children | p_o5UKvHECYKG2228iAHWXcr | 王鱗 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王紀（CBDB 252483）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252483&o=json)
+- [中国历代人物传记资料库：王鯤（CBDB 252487）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252487&o=json)
+- [中国历代人物传记资料库：王鯉（CBDB 252488）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252488&o=json)
+- [中国历代人物传记资料库：王鱗（CBDB 252491）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252491&o=json)
+- [中国历代人物传记资料库：王鯆（CBDB 252489）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252489&o=json)

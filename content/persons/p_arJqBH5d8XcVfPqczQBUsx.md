@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王晞高
 cbdb_id: 37371
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,7 +74,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_8Mc10TQL_pbDOH3LkQBuuu
+        subject_person_id: p_odmAS5uD5U3o962JZ4YbCD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_arJqBH5d8XcVfPqczQBUsx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_8I4nHsxgEy4t5shjvLQ6GS
+          claim_id: c_8Mc10TQL_pbDOH3LkQBuuu
+          source_id: s_HNYRDzBXf4Vr1GYVT2wNud
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 37370）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_HNYRDzBXf4Vr1GYVT2wNud
+            source_type: api_record
+            title: 中国历代人物传记资料库：王晞高（CBDB 37371）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37371&o=json
+            external_identifier: CBDB:37371
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_odmAS5uD5U3o962JZ4YbCD
+        status: active
+        display_name: 王陔
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -99,6 +136,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_odmAS5uD5U3o962JZ4YbCD | 王陔 | accepted |
 
 ## 外部来源
 

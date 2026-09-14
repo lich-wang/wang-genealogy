@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王貽矩
 cbdb_id: 22072
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -161,7 +161,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_d0GNhrP-M6-CEzZKOHBP98
+        subject_person_id: p_LWouE38zrijcXXQPG5ma9Z
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eYwfDJRAGfsgqoHWUKokK6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_J6lbJK46uL9fdQKajG2xjX
+          claim_id: c_d0GNhrP-M6-CEzZKOHBP98
+          source_id: s_eQxLmENuRs2o522OiYBcsF
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 22072）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_eQxLmENuRs2o522OiYBcsF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珣琇（CBDB 463818）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=463818&o=json
+            external_identifier: CBDB:463818
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_eYwfDJRAGfsgqoHWUKokK6
+        status: active
+        display_name: 王珣琇
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -335,6 +372,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_eYwfDJRAGfsgqoHWUKokK6 | 王珣琇 | accepted |
 | ancestors | p_75587XqogBQaW5G74KzAUa | 王延祚 | accepted |
 | descendants | p_8PAB72LyDH1FioBNQ4EfWh | 王肅 | accepted |
 | descendants | p_Le7c3Tpd4Bi7wGAjCcyU9R | 王融 | accepted |
@@ -345,5 +383,6 @@ relationships:
 - [中国历代人物传记资料库：王鑒（CBDB 692017）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=692017&o=json)
 - [中国历代人物传记资料库：王融（CBDB 692018）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=692018&o=json)
 - [中国历代人物传记资料库：王肅（CBDB 692016）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=692016&o=json)
+- [中国历代人物传记资料库：王珣琇（CBDB 463818）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=463818&o=json)
 - [中国历代人物传记资料库：王延祚（CBDB 22069）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22069&o=json)
 - [中国历代人物传记资料库：王貽矩（CBDB 22072）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22072&o=json)

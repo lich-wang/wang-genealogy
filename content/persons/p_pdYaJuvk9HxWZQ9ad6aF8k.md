@@ -4,7 +4,7 @@ id: p_pdYaJuvk9HxWZQ9ad6aF8k
 status: active
 merged_into: null
 display_name: 王曦
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_dH7rvaedI0DK5q2Q7iBikU
+        subject_person_id: p_qGQsVR5gzeQy8Y9aNmPG9C
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pdYaJuvk9HxWZQ9ad6aF8k
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_c7i_VAi1xrQs2Llq2ErIA4
+          claim_id: c_dH7rvaedI0DK5q2Q7iBikU
+          source_id: s_jGtg07kOZSDAo8xfi5yOlo
+          stance: supports
+          locator: CBDB：兄弟 王暐（68343）之父／母 王槐
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王曦 与 王暐 为同胞（CBDB 记「兄」），王暐 之父／母即 王曦 之父／母。
+          source:
+            id: s_jGtg07kOZSDAo8xfi5yOlo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王曦（CBDB 280922）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280922&o=json
+            external_identifier: CBDB:280922
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qGQsVR5gzeQy8Y9aNmPG9C
+        status: active
+        display_name: 王槐
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_L8PVcaSyEgpHv56iD-qrrj
+        subject_person_id: p_pdYaJuvk9HxWZQ9ad6aF8k
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qC31C42hD4UK4m3NDzMPZB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PQIjHDPHWd0rWLLwnMqd0W
+          claim_id: c_L8PVcaSyEgpHv56iD-qrrj
+          source_id: s_jGtg07kOZSDAo8xfi5yOlo
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 68343 王暐）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_jGtg07kOZSDAo8xfi5yOlo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王曦（CBDB 280922）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280922&o=json
+            external_identifier: CBDB:280922
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qC31C42hD4UK4m3NDzMPZB
+        status: active
+        display_name: 王暐
+        merged_into_person_id: null
 ---
 
 # 王曦
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qGQsVR5gzeQy8Y9aNmPG9C | 王槐 | accepted |
+| other | p_qC31C42hD4UK4m3NDzMPZB | 王暐 | accepted |
 
 ## 外部来源
 

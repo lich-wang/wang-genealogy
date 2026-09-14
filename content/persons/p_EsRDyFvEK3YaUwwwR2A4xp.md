@@ -4,7 +4,7 @@ id: p_EsRDyFvEK3YaUwwwR2A4xp
 status: active
 merged_into: null
 display_name: 王璣
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -250,7 +250,81 @@ relationships:
         display_name: 王璽
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_iKNnFJAEHwUQWf9wEwIDbm
+        subject_person_id: p_8yXHpS1XXTWNEbHqcV5CiM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_EsRDyFvEK3YaUwwwR2A4xp
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UTVtzcnneAkmgXRqrBfpVV
+          claim_id: c_iKNnFJAEHwUQWf9wEwIDbm
+          source_id: s_TAXShRXHGTAn17kvo6i-ns
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126823 王璣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_TAXShRXHGTAn17kvo6i-ns
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑢（CBDB 290018）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290018&o=json
+            external_identifier: CBDB:290018
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8yXHpS1XXTWNEbHqcV5CiM
+        status: active
+        display_name: 王瑢
+        merged_into_person_id: null
+    - claim:
+        id: c_Lj92UpbSVY8Cf-yMsAp430
+        subject_person_id: p_CoMtV9xq2X5pH1y41LjC86
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_EsRDyFvEK3YaUwwwR2A4xp
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_p3WhREWmhls03LLLLZZw9p
+          claim_id: c_Lj92UpbSVY8Cf-yMsAp430
+          source_id: s_0H_tCdT1Zmredb0Jk2qtew
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126823 王璣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0H_tCdT1Zmredb0Jk2qtew
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瓊（CBDB 290017）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290017&o=json
+            external_identifier: CBDB:290017
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CoMtV9xq2X5pH1y41LjC86
+        status: active
+        display_name: 王瓊
+        merged_into_person_id: null
 ---
 
 # 王璣
@@ -274,8 +348,12 @@ relationships:
 | spouses | p_AZHUc1Wdu5ZWGMDfPkogp9 | 余氏 | accepted |
 | ancestors | p_w95Qyiy1Ei4ZGtAAFRrWXU | 王時言 | accepted |
 | ancestors | p_SKTCYUFHWsLRhaeZBL7nG7 | 王璽 | accepted |
+| other | p_8yXHpS1XXTWNEbHqcV5CiM | 王瑢 | accepted |
+| other | p_CoMtV9xq2X5pH1y41LjC86 | 王瓊 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王璣（CBDB 126823）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126823&o=json)
+- [中国历代人物传记资料库：王瓊（CBDB 290017）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290017&o=json)
+- [中国历代人物传记资料库：王瑢（CBDB 290018）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290018&o=json)
 - [中国历代人物传记资料库：余氏(王璣妻)（CBDB 290014）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290014&o=json)

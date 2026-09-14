@@ -4,7 +4,7 @@ id: p_tFyu3gNrC3e8xLmA6Th3Tc
 status: active
 merged_into: null
 display_name: 王誠
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,43 @@ relationships:
         status: active
         display_name: 王世功
         merged_into_person_id: null
+    - claim:
+        id: c_1PEEntYNk_G0myuh36NV7S
+        subject_person_id: p_tFyu3gNrC3e8xLmA6Th3Tc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Z4iaHozq9bKDgNVpXNVYJs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lmplpF7GbNnvcRJJEgQSGE
+          claim_id: c_1PEEntYNk_G0myuh36NV7S
+          source_id: s_r6ScTR4UH0eNW8TruxCKN_
+          stance: supports
+          locator: CBDB：兄弟 王世功（703138）之父／母 王誠
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鎮遠 与 王世功 为同胞（CBDB 记「兄」），王世功 之父／母即 王鎮遠 之父／母。
+          source:
+            id: s_r6ScTR4UH0eNW8TruxCKN_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎮遠（CBDB 703140）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703140&o=json
+            external_identifier: CBDB:703140
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Z4iaHozq9bKDgNVpXNVYJs
+        status: active
+        display_name: 王鎮遠
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_DVCr6jBgLiL3jTMuxyZfR5 | 王世功 | accepted |
+| children | p_Z4iaHozq9bKDgNVpXNVYJs | 王鎮遠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王誠（CBDB 703062）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703062&o=json)
 - [中国历代人物传记资料库：王世功（CBDB 703138）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703138&o=json)
+- [中国历代人物传记资料库：王鎮遠（CBDB 703140）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703140&o=json)

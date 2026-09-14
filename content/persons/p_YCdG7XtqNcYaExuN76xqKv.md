@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王瑶
 cbdb_id: 302968
-revision: 4
+revision: 13
 properties:
   - predicate: bio.summary
     recommended:
@@ -225,6 +225,339 @@ relationships:
         status: active
         display_name: 王崇古
         merged_into_person_id: null
+    - claim:
+        id: c_D___Dnax8e1-pdOBODstpj
+        subject_person_id: p_YCdG7XtqNcYaExuN76xqKv
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_2y3zcjSddC9WuWn1GXL3w6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LE8aGn2_xZ5RhQGK5i9cBQ
+          claim_id: c_D___Dnax8e1-pdOBODstpj
+          source_id: s_obJvkgHi5_MiBpkSLR2806
+          stance: supports
+          locator: CBDB：兄弟 王崇古（124981）之父／母 王瑶
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王崇雅 与 王崇古 为同胞（CBDB 记「兄」），王崇古 之父／母即 王崇雅 之父／母。
+          source:
+            id: s_obJvkgHi5_MiBpkSLR2806
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇雅（CBDB 302978）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302978&o=json
+            external_identifier: CBDB:302978
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2y3zcjSddC9WuWn1GXL3w6
+        status: active
+        display_name: 王崇雅
+        merged_into_person_id: null
+    - claim:
+        id: c_q1dYBj0yTQroMnq7Pvg64o
+        subject_person_id: p_YCdG7XtqNcYaExuN76xqKv
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_4Dt2UPpF6DsqygBNV7CYVR
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KeQTro0XnP0C3WwkPj5aqG
+          claim_id: c_q1dYBj0yTQroMnq7Pvg64o
+          source_id: s__mgJZ69xdX5COWzW_E9K7n
+          stance: supports
+          locator: CBDB：兄弟 王崇古（124981）之父／母 王瑶
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王崇仁 与 王崇古 为同胞（CBDB 记「弟」），王崇古 之父／母即 王崇仁 之父／母。
+          source:
+            id: s__mgJZ69xdX5COWzW_E9K7n
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇仁（CBDB 302973）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302973&o=json
+            external_identifier: CBDB:302973
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4Dt2UPpF6DsqygBNV7CYVR
+        status: active
+        display_name: 王崇仁
+        merged_into_person_id: null
+    - claim:
+        id: c_NAo0w3WIFAT3he-5cc8BsC
+        subject_person_id: p_YCdG7XtqNcYaExuN76xqKv
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_FXmHfz5GmcJktJPe9NMK9x
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ay208p9mC-wHchx2i98R6p
+          claim_id: c_NAo0w3WIFAT3he-5cc8BsC
+          source_id: s_AQLySqJYErgyEyYj_MIsF0
+          stance: supports
+          locator: CBDB：兄弟 王崇古（124981）之父／母 王瑶
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王崇典 与 王崇古 为同胞（CBDB 记「兄」），王崇古 之父／母即 王崇典 之父／母。
+          source:
+            id: s_AQLySqJYErgyEyYj_MIsF0
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇典（CBDB 302979）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302979&o=json
+            external_identifier: CBDB:302979
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FXmHfz5GmcJktJPe9NMK9x
+        status: active
+        display_name: 王崇典
+        merged_into_person_id: null
+    - claim:
+        id: c_dSxZ3fZ5_LHnZDrFHIDEEy
+        subject_person_id: p_YCdG7XtqNcYaExuN76xqKv
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_MQQxvxtkQ9FbXdosodW297
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3wvW6YvqLK6eJU6-YQxlRB
+          claim_id: c_dSxZ3fZ5_LHnZDrFHIDEEy
+          source_id: s_VP8sirict_rNzGdxEt0Irg
+          stance: supports
+          locator: CBDB：兄弟 王崇古（124981）之父／母 王瑶
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王崇祖 与 王崇古 为同胞（CBDB 记「弟」），王崇古 之父／母即 王崇祖 之父／母。
+          source:
+            id: s_VP8sirict_rNzGdxEt0Irg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇祖（CBDB 302976）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302976&o=json
+            external_identifier: CBDB:302976
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MQQxvxtkQ9FbXdosodW297
+        status: active
+        display_name: 王崇祖
+        merged_into_person_id: null
+    - claim:
+        id: c_vatWVACIu-NjrgtnB6bSOZ
+        subject_person_id: p_YCdG7XtqNcYaExuN76xqKv
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_P7bDvyyRkLv8JFTFh22BX7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8Ocan5HaelSNIpFLb_S6Cx
+          claim_id: c_vatWVACIu-NjrgtnB6bSOZ
+          source_id: s_O7wANae-wlj0luU3C86yrw
+          stance: supports
+          locator: CBDB：兄弟 王崇古（124981）之父／母 王瑶
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王崇志 与 王崇古 为同胞（CBDB 记「弟」），王崇古 之父／母即 王崇志 之父／母。
+          source:
+            id: s_O7wANae-wlj0luU3C86yrw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇志（CBDB 302977）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302977&o=json
+            external_identifier: CBDB:302977
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_P7bDvyyRkLv8JFTFh22BX7
+        status: active
+        display_name: 王崇志
+        merged_into_person_id: null
+    - claim:
+        id: c_0B0qmWu66pdZKsOwJ3kbpX
+        subject_person_id: p_YCdG7XtqNcYaExuN76xqKv
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_dW3m768TfqRBE8QThXUJDP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Kclb6Q9DTlmZ1OTEKKU1jE
+          claim_id: c_0B0qmWu66pdZKsOwJ3kbpX
+          source_id: s_b2WfhldqjJ93Atgw3SbY2y
+          stance: supports
+          locator: CBDB：兄弟 王崇古（124981）之父／母 王瑶
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王崇道 与 王崇古 为同胞（CBDB 记「弟」），王崇古 之父／母即 王崇道 之父／母。
+          source:
+            id: s_b2WfhldqjJ93Atgw3SbY2y
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇道（CBDB 302975）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302975&o=json
+            external_identifier: CBDB:302975
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dW3m768TfqRBE8QThXUJDP
+        status: active
+        display_name: 王崇道
+        merged_into_person_id: null
+    - claim:
+        id: c_wRVpQ_ufYhhfaT7nQS-LDG
+        subject_person_id: p_YCdG7XtqNcYaExuN76xqKv
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_p1M79MXzZnumAnJJwbLbqQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_f7bxW1ZnarcBtVlst98hCY
+          claim_id: c_wRVpQ_ufYhhfaT7nQS-LDG
+          source_id: s_RfwlFHjKFQGzNTJGFs1733
+          stance: supports
+          locator: CBDB：兄弟 王崇古（124981）之父／母 王瑶
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王崇教 与 王崇古 为同胞（CBDB 记「兄」），王崇古 之父／母即 王崇教 之父／母。
+          source:
+            id: s_RfwlFHjKFQGzNTJGFs1733
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇教（CBDB 302982）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302982&o=json
+            external_identifier: CBDB:302982
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_p1M79MXzZnumAnJJwbLbqQ
+        status: active
+        display_name: 王崇教
+        merged_into_person_id: null
+    - claim:
+        id: c_ixA5FD4_cqzwgol6rwYNd6
+        subject_person_id: p_YCdG7XtqNcYaExuN76xqKv
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_qCBpG4qepdttPkxR2LAfUv
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5kV5TzE6ZAZJfAktjnBXFu
+          claim_id: c_ixA5FD4_cqzwgol6rwYNd6
+          source_id: s_f6LZy7lwNzItn6K3D-ztBb
+          stance: supports
+          locator: CBDB：兄弟 王崇古（124981）之父／母 王瑶
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王崇義 与 王崇古 为同胞（CBDB 记「弟」），王崇古 之父／母即 王崇義 之父／母。
+          source:
+            id: s_f6LZy7lwNzItn6K3D-ztBb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇義（CBDB 302974）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302974&o=json
+            external_identifier: CBDB:302974
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qCBpG4qepdttPkxR2LAfUv
+        status: active
+        display_name: 王崇義
+        merged_into_person_id: null
+    - claim:
+        id: c_xERKmrVM_jwjiwp4bwlWjK
+        subject_person_id: p_YCdG7XtqNcYaExuN76xqKv
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_zZgusJ2bUvJAS5fN1PwxuQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Hwl86WLbm-NmvJ126ZzVQv
+          claim_id: c_xERKmrVM_jwjiwp4bwlWjK
+          source_id: s_DF1gDnNQPX1S6_x0RKTOnQ
+          stance: supports
+          locator: CBDB：兄弟 王崇古（124981）之父／母 王瑶
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王崇勳 与 王崇古 为同胞（CBDB 记「兄」），王崇古 之父／母即 王崇勳 之父／母。
+          source:
+            id: s_DF1gDnNQPX1S6_x0RKTOnQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇勳（CBDB 302980）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302980&o=json
+            external_identifier: CBDB:302980
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zZgusJ2bUvJAS5fN1PwxuQ
+        status: active
+        display_name: 王崇勳
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -250,10 +583,28 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_ptMfEt1rAT4WiPXRdKXa9c | 王馨 | accepted |
 | children | p_CqGGoAHd4xav6yj4gHyTHE | 王崇古 | accepted |
+| children | p_2y3zcjSddC9WuWn1GXL3w6 | 王崇雅 | accepted |
+| children | p_4Dt2UPpF6DsqygBNV7CYVR | 王崇仁 | accepted |
+| children | p_FXmHfz5GmcJktJPe9NMK9x | 王崇典 | accepted |
+| children | p_MQQxvxtkQ9FbXdosodW297 | 王崇祖 | accepted |
+| children | p_P7bDvyyRkLv8JFTFh22BX7 | 王崇志 | accepted |
+| children | p_dW3m768TfqRBE8QThXUJDP | 王崇道 | accepted |
+| children | p_p1M79MXzZnumAnJJwbLbqQ | 王崇教 | accepted |
+| children | p_qCBpG4qepdttPkxR2LAfUv | 王崇義 | accepted |
+| children | p_zZgusJ2bUvJAS5fN1PwxuQ | 王崇勳 | accepted |
 
 ## 外部来源
 
 - [维基数据：王崇古（Q15934835）](https://www.wikidata.org/wiki/Q15934835)
 - [维基数据：王馨（Q45626817）](https://www.wikidata.org/wiki/Q45626817)
 - [维基数据：王瑶（Q45626878）](https://www.wikidata.org/wiki/Q45626878)
+- [中国历代人物传记资料库：王崇道（CBDB 302975）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302975&o=json)
+- [中国历代人物传记资料库：王崇典（CBDB 302979）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302979&o=json)
+- [中国历代人物传记资料库：王崇教（CBDB 302982）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302982&o=json)
+- [中国历代人物传记资料库：王崇仁（CBDB 302973）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302973&o=json)
+- [中国历代人物传记资料库：王崇勳（CBDB 302980）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302980&o=json)
+- [中国历代人物传记资料库：王崇雅（CBDB 302978）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302978&o=json)
+- [中国历代人物传记资料库：王崇義（CBDB 302974）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302974&o=json)
+- [中国历代人物传记资料库：王崇志（CBDB 302977）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302977&o=json)
+- [中国历代人物传记资料库：王崇祖（CBDB 302976）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302976&o=json)
 - [CBDB 中国历代人物传记资料库：王瑤（302968）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302968&o=json)

@@ -4,7 +4,7 @@ id: p_SoTpRzw7JQF2RgUdE8FLLB
 status: active
 merged_into: null
 display_name: 王凱
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -220,7 +220,44 @@ relationships:
         display_name: 王伯名
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_uJqAPvzIlznJUYZZiq2U2u
+        subject_person_id: p_BKVS9ZH4mY3GAcfh17CbB2
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_SoTpRzw7JQF2RgUdE8FLLB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KSpN_KV9eaMLdTIZqfyb4L
+          claim_id: c_uJqAPvzIlznJUYZZiq2U2u
+          source_id: s_hePl_Krtso2cRFCbxC-NRo
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202389 王凱）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hePl_Krtso2cRFCbxC-NRo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王劭（CBDB 287277）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287277&o=json
+            external_identifier: CBDB:287277
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BKVS9ZH4mY3GAcfh17CbB2
+        status: active
+        display_name: 王劭
+        merged_into_person_id: null
 ---
 
 # 王凱
@@ -242,10 +279,12 @@ relationships:
 | parents | p_SGGdU1LxHBDdFcjKk3iP6L | 王升遒 | accepted |
 | ancestors | p_RbJtuGxJPEL4wjTmCNw1zD | 王義方 | accepted |
 | ancestors | p_or9qkt5GvAZ6kK92cAHRPW | 王伯名 | accepted |
+| other | p_BKVS9ZH4mY3GAcfh17CbB2 | 王劭 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王伯名（CBDB 287272）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287272&o=json)
 - [中国历代人物传记资料库：王凱（CBDB 202389）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202389&o=json)
+- [中国历代人物传记资料库：王劭（CBDB 287277）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287277&o=json)
 - [中国历代人物传记资料库：王升遒（CBDB 287273）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287273&o=json)
 - [中国历代人物传记资料库：王義方（CBDB 287271）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287271&o=json)

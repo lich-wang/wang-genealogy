@@ -4,7 +4,7 @@ id: p_awcmjvARumCUVcUWMzCoPg
 status: active
 merged_into: null
 display_name: 王裁
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -803,6 +803,43 @@ relationships:
         status: active
         display_name: 王敞
         merged_into_person_id: null
+    - claim:
+        id: c_mBUnHQlbZ_Z5Is9pjC2C4S
+        subject_person_id: p_awcmjvARumCUVcUWMzCoPg
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7G76GCQV5KHCuJQ8PFFbQR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_J9C8b3dfrcH241MuQ3J-Co
+          claim_id: c_mBUnHQlbZ_Z5Is9pjC2C4S
+          source_id: s_8pbW20D53cGwyUFx5Wsk2y
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 25787）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_8pbW20D53cGwyUFx5Wsk2y
+            source_type: api_record
+            title: 中国历代人物传记资料库：王導（CBDB 25788）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25788&o=json
+            external_identifier: CBDB:25788
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7G76GCQV5KHCuJQ8PFFbQR
+        status: active
+        display_name: 王導
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -832,16 +869,17 @@ relationships:
 | children | p_Xbn65bXVofZnsi76cqAQCP | 王導 | accepted |
 | children | p_ceCMYoiv26S5pFT4xfWfzu | 王颍 | accepted |
 | children | p_iVC2o9GwxoxLP7sDmdacPA | 王敞 | accepted |
+| children | p_7G76GCQV5KHCuJQ8PFFbQR | 王導 | accepted |
 
 ## 外部来源
 
 - [维基数据：王览（Q15907839）](https://www.wikidata.org/wiki/Q15907839)
 - [維基數據：王裁（Q16906209）](https://www.wikidata.org/wiki/Q16906209)
 - [維基數據：王導（Q3274914）](https://www.wikidata.org/wiki/Q3274914)
+- [中国历代人物传记资料库：王導（CBDB 25788）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25788&o=json)
 - [中文维基百科：琅邪王氏](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F)
 - [中文维基百科：琅邪王氏世系圖](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F%E4%B8%96%E7%B3%BB%E5%9C%96)
 - [中文维基百科：王導](https://zh.wikipedia.org/wiki/王導)
 - [中文维基文库：新唐書/卷072中](https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7072%E4%B8%AD)
 - [CBDB 中国历代人物传记资料库：王裁（25787）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25787&o=json)
-- [CBDB 中国历代人物传记资料库：王導（25788）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25788&o=json)
 - [CBDB 中国历代人物传记资料库：王覽（25786）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25786&o=json)

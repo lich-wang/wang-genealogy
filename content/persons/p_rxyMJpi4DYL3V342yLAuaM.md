@@ -4,7 +4,7 @@ id: p_rxyMJpi4DYL3V342yLAuaM
 status: active
 merged_into: null
 display_name: 王幾
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,80 @@ relationships:
         status: active
         display_name: 王居正
         merged_into_person_id: null
+    - claim:
+        id: c_V0A24RhobcCPkiHl1an760
+        subject_person_id: p_rxyMJpi4DYL3V342yLAuaM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZL23B6Tokowaf8vtN3Tk6C
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YpY6Mech3VYloXWIQVHBA9
+          claim_id: c_V0A24RhobcCPkiHl1an760
+          source_id: s_V5lpcBhbPVpJoi3BXUePyU
+          stance: supports
+          locator: CBDB：兄弟 王居正（22000）之父／母 王幾
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王居厚 与 王居正 为同胞（CBDB 记「兄」），王居正 之父／母即 王居厚 之父／母。
+          source:
+            id: s_V5lpcBhbPVpJoi3BXUePyU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王居厚（CBDB 119738）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119738&o=json
+            external_identifier: CBDB:119738
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZL23B6Tokowaf8vtN3Tk6C
+        status: active
+        display_name: 王居厚
+        merged_into_person_id: null
+    - claim:
+        id: c_w635Xy8lZSEDeNqv0cBfBp
+        subject_person_id: p_rxyMJpi4DYL3V342yLAuaM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ufwGM6NxoaDsZgvfEFY3Cs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_teSYXXLkrn44yQv1N1MDIG
+          claim_id: c_w635Xy8lZSEDeNqv0cBfBp
+          source_id: s_KEFM_IFPZCzcY_3ngqux-y
+          stance: supports
+          locator: CBDB：兄弟 王居正（22000）之父／母 王幾
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王居修 与 王居正 为同胞（CBDB 记「兄」），王居正 之父／母即 王居修 之父／母。
+          source:
+            id: s_KEFM_IFPZCzcY_3ngqux-y
+            source_type: api_record
+            title: 中国历代人物传记资料库：王居修（CBDB 119739）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119739&o=json
+            external_identifier: CBDB:119739
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ufwGM6NxoaDsZgvfEFY3Cs
+        status: active
+        display_name: 王居修
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -161,9 +235,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_urfcgqW6JdMhzi59mL1W3n | 王居正 | accepted |
+| children | p_ZL23B6Tokowaf8vtN3Tk6C | 王居厚 | accepted |
+| children | p_ufwGM6NxoaDsZgvfEFY3Cs | 王居修 | accepted |
 | spouses | p_d45BeB3NNFz153MkVh4Ynp | 曾德操 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：曾德操（CBDB 5129）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5129&o=json)
 - [中国历代人物传记资料库：王幾（CBDB 7369）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7369&o=json)
+- [中国历代人物传记资料库：王居厚（CBDB 119738）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119738&o=json)
+- [中国历代人物传记资料库：王居修（CBDB 119739）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119739&o=json)

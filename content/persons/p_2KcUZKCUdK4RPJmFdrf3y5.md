@@ -4,7 +4,7 @@ id: p_2KcUZKCUdK4RPJmFdrf3y5
 status: active
 merged_into: null
 display_name: 王笈
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_o8BqOXeIeFCv6TlLL0X86h
+        subject_person_id: p_D9N98oB92wT9B2XW2TfNE4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2KcUZKCUdK4RPJmFdrf3y5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_akkbdEOJbMpsuoH8IzdARp
+          claim_id: c_o8BqOXeIeFCv6TlLL0X86h
+          source_id: s_imzOjNZ8rDMa-p6hM1qXvi
+          stance: supports
+          locator: CBDB：兄弟 王篆（205090）之父／母 王良策
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王笈 与 王篆 为同胞（CBDB 记「兄」），王篆 之父／母即 王笈 之父／母。
+          source:
+            id: s_imzOjNZ8rDMa-p6hM1qXvi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王笈（CBDB 328168）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328168&o=json
+            external_identifier: CBDB:328168
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_D9N98oB92wT9B2XW2TfNE4
+        status: active
+        display_name: 王良策
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_GniS9Ne1I7cRG65zdvkjz6
+        subject_person_id: p_2KcUZKCUdK4RPJmFdrf3y5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_oXNXhcmP3pgs4EeZNT7tYq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_d8d1NWk_hTcCqTXC3jyLt_
+          claim_id: c_GniS9Ne1I7cRG65zdvkjz6
+          source_id: s_imzOjNZ8rDMa-p6hM1qXvi
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205090 王篆）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_imzOjNZ8rDMa-p6hM1qXvi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王笈（CBDB 328168）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328168&o=json
+            external_identifier: CBDB:328168
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oXNXhcmP3pgs4EeZNT7tYq
+        status: active
+        display_name: 王篆
+        merged_into_person_id: null
 ---
 
 # 王笈
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_D9N98oB92wT9B2XW2TfNE4 | 王良策 | accepted |
+| other | p_oXNXhcmP3pgs4EeZNT7tYq | 王篆 | accepted |
 
 ## 外部来源
 

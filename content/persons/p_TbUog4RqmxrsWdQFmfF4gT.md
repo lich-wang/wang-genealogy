@@ -4,7 +4,7 @@ id: p_TbUog4RqmxrsWdQFmfF4gT
 status: active
 merged_into: null
 display_name: 王大臨
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c__dBFUtb7HYXL0o4Ln-ClvV
+        subject_person_id: p_zPJV9uPvg66nyW635J36Ep
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TbUog4RqmxrsWdQFmfF4gT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_yul0V1lPVX8jN8i8O_DnKa
+          claim_id: c__dBFUtb7HYXL0o4Ln-ClvV
+          source_id: s_o6OYuuluCKGBIEe6NkWUAX
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 3942）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_o6OYuuluCKGBIEe6NkWUAX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大臨（CBDB 35589）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35589&o=json
+            external_identifier: CBDB:35589
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zPJV9uPvg66nyW635J36Ep
+        status: active
+        display_name: 王中行
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_zPJV9uPvg66nyW635J36Ep | 王中行 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王崇瀾
 cbdb_id: 211411
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_vyPmLpWR1Drg_QQDEoXJUj
+        subject_person_id: p_5NvgpfYRCbA6xFX2b2beZH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_w8CP1WN1DoH2uadPLEGj1c
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xDnHmAhCleE8fnW1IhkszG
+          claim_id: c_vyPmLpWR1Drg_QQDEoXJUj
+          source_id: s_gL0N9ZUC9qTnci9A2pR_HD
+          stance: supports
+          locator: CBDB：兄弟 王汝濂（205966）之父／母 王繼
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王崇瀾 与 王汝濂 为同胞（CBDB 记「弟」），王汝濂 之父／母即 王崇瀾 之父／母。
+          source:
+            id: s_gL0N9ZUC9qTnci9A2pR_HD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇瀾（CBDB 211411）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211411&o=json
+            external_identifier: CBDB:211411
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5NvgpfYRCbA6xFX2b2beZH
+        status: active
+        display_name: 王繼
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_YGb5e4TVgfgR7gHn9KobGN
+        subject_person_id: p_MmVpUWztCQKaC484qaKxXc
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_w8CP1WN1DoH2uadPLEGj1c
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OtxS4LCip6FXCKTqlRZ-hl
+          claim_id: c_YGb5e4TVgfgR7gHn9KobGN
+          source_id: s_gL0N9ZUC9qTnci9A2pR_HD
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205966 王汝濂）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_gL0N9ZUC9qTnci9A2pR_HD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇瀾（CBDB 211411）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211411&o=json
+            external_identifier: CBDB:211411
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MmVpUWztCQKaC484qaKxXc
+        status: active
+        display_name: 王汝濂
+        merged_into_person_id: null
 ---
 
 # 王崇瀾
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5NvgpfYRCbA6xFX2b2beZH | 王繼 | accepted |
+| other | p_MmVpUWztCQKaC484qaKxXc | 王汝濂 | accepted |
 
 ## 外部来源
 

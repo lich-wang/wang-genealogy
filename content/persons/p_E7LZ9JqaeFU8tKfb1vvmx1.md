@@ -4,7 +4,7 @@ id: p_E7LZ9JqaeFU8tKfb1vvmx1
 status: active
 merged_into: null
 display_name: 王大用
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,44 @@ relationships:
         display_name: 王山
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_PQJFTcjdnoicJiapIC0psI
+        subject_person_id: p_E7LZ9JqaeFU8tKfb1vvmx1
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Lzp3iK3CpSmvfQqHgtnDfh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_A8sdJob1WWQYtZPSTP3UYK
+          claim_id: c_PQJFTcjdnoicJiapIC0psI
+          source_id: s_oJWUyWlzgzTe-XvX3GB2IN
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205680 王大用）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_oJWUyWlzgzTe-XvX3GB2IN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大賓（CBDB 336881）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336881&o=json
+            external_identifier: CBDB:336881
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Lzp3iK3CpSmvfQqHgtnDfh
+        status: active
+        display_name: 王大賓
+        merged_into_person_id: null
 ---
 
 # 王大用
@@ -245,8 +282,10 @@ relationships:
 | spouses | p_hVFge3x7Gx7qJZZfNAdHQS | 李氏 | accepted |
 | ancestors | p_zNUDBjJ3ojX2dNifSToFN7 | 王成 | accepted |
 | ancestors | p_LPVSMU6MUQo1EEcVxJXp52 | 王山 | accepted |
+| other | p_Lzp3iK3CpSmvfQqHgtnDfh | 王大賓 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：李氏(王大用妻)（CBDB 336880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336880&o=json)
+- [中国历代人物传记资料库：王大賓（CBDB 336881）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336881&o=json)
 - [中国历代人物传记资料库：王大用（CBDB 205680）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205680&o=json)

@@ -4,7 +4,7 @@ id: p_q4g9sLmiDe5US8bucydqYK
 status: active
 merged_into: null
 display_name: 王邑
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_mKUobZM4SXZZbzmQ0EwHT4
+        subject_person_id: p_xsB7dQbxgv1VM3fErdpLd2
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_q4g9sLmiDe5US8bucydqYK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_M_EN7kNSFfJs5xXeateNRk
+          claim_id: c_mKUobZM4SXZZbzmQ0EwHT4
+          source_id: s_JdKQakw1fdEI4juyRMkI3M
+          stance: supports
+          locator: CBDB：兄弟 王京（205560）之父／母 王秉忠
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王邑 与 王京 为同胞（CBDB 记「兄」），王京 之父／母即 王邑 之父／母。
+          source:
+            id: s_JdKQakw1fdEI4juyRMkI3M
+            source_type: api_record
+            title: 中国历代人物传记资料库：王邑（CBDB 335218）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335218&o=json
+            external_identifier: CBDB:335218
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xsB7dQbxgv1VM3fErdpLd2
+        status: active
+        display_name: 王秉忠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_VYMU6k8oohXHCZkqzSJQsN
+        subject_person_id: p_iKF3URQYd2AiG1hYtKBDpV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_q4g9sLmiDe5US8bucydqYK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Pjjp1_nBVnhpsVBKbVCieG
+          claim_id: c_VYMU6k8oohXHCZkqzSJQsN
+          source_id: s_JdKQakw1fdEI4juyRMkI3M
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205560 王京）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_JdKQakw1fdEI4juyRMkI3M
+            source_type: api_record
+            title: 中国历代人物传记资料库：王邑（CBDB 335218）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=335218&o=json
+            external_identifier: CBDB:335218
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_iKF3URQYd2AiG1hYtKBDpV
+        status: active
+        display_name: 王京
+        merged_into_person_id: null
 ---
 
 # 王邑
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_xsB7dQbxgv1VM3fErdpLd2 | 王秉忠 | accepted |
+| other | p_iKF3URQYd2AiG1hYtKBDpV | 王京 | accepted |
 
 ## 外部来源
 

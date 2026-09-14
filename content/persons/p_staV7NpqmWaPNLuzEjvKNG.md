@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王宗寶
 cbdb_id: 221967
-revision: 2
+revision: 7
 properties:
   - predicate: bio.summary
     recommended:
@@ -114,6 +114,191 @@ relationships:
         status: active
         display_name: 王應霖
         merged_into_person_id: null
+    - claim:
+        id: c_6roc7lnYR53sr5LiFfVujf
+        subject_person_id: p_staV7NpqmWaPNLuzEjvKNG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2jdktdsRNXVjVNwJ9S8ZeA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_I7M-9u88iwRZvwLV01jeCD
+          claim_id: c_6roc7lnYR53sr5LiFfVujf
+          source_id: s_pzeIC4KPyJiN-Il_p4e0Xs
+          stance: supports
+          locator: CBDB：兄弟 王應霖（206714）之父／母 王宗寶
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王應兆 与 王應霖 为同胞（CBDB 记「兄」），王應霖 之父／母即 王應兆 之父／母。
+          source:
+            id: s_pzeIC4KPyJiN-Il_p4e0Xs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應兆（CBDB 221976）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221976&o=json
+            external_identifier: CBDB:221976
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2jdktdsRNXVjVNwJ9S8ZeA
+        status: active
+        display_name: 王應兆
+        merged_into_person_id: null
+    - claim:
+        id: c_btuKTBNvO7jnGP5vk9PAG7
+        subject_person_id: p_staV7NpqmWaPNLuzEjvKNG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_P5YJfsxDaWNdmKbWD8tNH7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JNH7-UqjmD8HK6V5xycjMf
+          claim_id: c_btuKTBNvO7jnGP5vk9PAG7
+          source_id: s_zNcV82OF_GlAbGOO1affVJ
+          stance: supports
+          locator: CBDB：兄弟 王應霖（206714）之父／母 王宗寶
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王應雲 与 王應霖 为同胞（CBDB 记「弟」），王應霖 之父／母即 王應雲 之父／母。
+          source:
+            id: s_zNcV82OF_GlAbGOO1affVJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應雲（CBDB 221972）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221972&o=json
+            external_identifier: CBDB:221972
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_P5YJfsxDaWNdmKbWD8tNH7
+        status: active
+        display_name: 王應雲
+        merged_into_person_id: null
+    - claim:
+        id: c_Hl1UHfvVhjR6cJ632l4UQT
+        subject_person_id: p_staV7NpqmWaPNLuzEjvKNG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_P7dC12JpCdNvQVgMYNSN8H
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NLrgXdABgpYV_TYBImEtSR
+          claim_id: c_Hl1UHfvVhjR6cJ632l4UQT
+          source_id: s_Nthxri2koP9XB0ORxxQEHh
+          stance: supports
+          locator: CBDB：兄弟 王應霖（206714）之父／母 王宗寶
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王應期 与 王應霖 为同胞（CBDB 记「兄」），王應霖 之父／母即 王應期 之父／母。
+          source:
+            id: s_Nthxri2koP9XB0ORxxQEHh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應期（CBDB 221975）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221975&o=json
+            external_identifier: CBDB:221975
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_P7dC12JpCdNvQVgMYNSN8H
+        status: active
+        display_name: 王應期
+        merged_into_person_id: null
+    - claim:
+        id: c_Uz2kV7ZkokqAjcBMsZFCxo
+        subject_person_id: p_staV7NpqmWaPNLuzEjvKNG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WZ741S3JhaLCQRpQHw8ebW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V9NVdr9kVdE1T5K3QcuJ-p
+          claim_id: c_Uz2kV7ZkokqAjcBMsZFCxo
+          source_id: s_BBtMMNKvKdQH2_7-3zN3qP
+          stance: supports
+          locator: CBDB：兄弟 王應霖（206714）之父／母 王宗寶
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王裳 与 王應霖 为同胞（CBDB 记「弟」），王應霖 之父／母即 王裳 之父／母。
+          source:
+            id: s_BBtMMNKvKdQH2_7-3zN3qP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王裳（CBDB 221973）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221973&o=json
+            external_identifier: CBDB:221973
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_WZ741S3JhaLCQRpQHw8ebW
+        status: active
+        display_name: 王裳
+        merged_into_person_id: null
+    - claim:
+        id: c_GA3kLo7ejuq4sPXD-neTWu
+        subject_person_id: p_staV7NpqmWaPNLuzEjvKNG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YQhQBTGLu3HDLg17XMvzUQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6qusCl_nMdYEM19ndvgzqZ
+          claim_id: c_GA3kLo7ejuq4sPXD-neTWu
+          source_id: s_I5hjSIbLWynpB5pAi4-Kpo
+          stance: supports
+          locator: CBDB：兄弟 王應霖（206714）之父／母 王宗寶
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王褒德 与 王應霖 为同胞（CBDB 记「弟」），王應霖 之父／母即 王褒德 之父／母。
+          source:
+            id: s_I5hjSIbLWynpB5pAi4-Kpo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王褒德（CBDB 221974）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221974&o=json
+            external_identifier: CBDB:221974
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_YQhQBTGLu3HDLg17XMvzUQ
+        status: active
+        display_name: 王褒德
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -138,7 +323,17 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_nF3Cd5KS3rMLe16oeKeJ6Q | 王應霖 | accepted |
+| children | p_2jdktdsRNXVjVNwJ9S8ZeA | 王應兆 | accepted |
+| children | p_P5YJfsxDaWNdmKbWD8tNH7 | 王應雲 | accepted |
+| children | p_P7dC12JpCdNvQVgMYNSN8H | 王應期 | accepted |
+| children | p_WZ741S3JhaLCQRpQHw8ebW | 王裳 | accepted |
+| children | p_YQhQBTGLu3HDLg17XMvzUQ | 王褒德 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王褒德（CBDB 221974）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221974&o=json)
+- [中国历代人物传记资料库：王裳（CBDB 221973）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221973&o=json)
+- [中国历代人物传记资料库：王應期（CBDB 221975）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221975&o=json)
+- [中国历代人物传记资料库：王應雲（CBDB 221972）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221972&o=json)
+- [中国历代人物传记资料库：王應兆（CBDB 221976）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221976&o=json)
 - [中国历代人物传记资料库：王宗寶（CBDB 221967）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221967&o=json)

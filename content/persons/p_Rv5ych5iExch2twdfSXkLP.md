@@ -4,7 +4,7 @@ id: p_Rv5ych5iExch2twdfSXkLP
 status: active
 merged_into: null
 display_name: 王世蔭
-revision: 8
+revision: 14
 properties:
   - predicate: name.primary
     recommended:
@@ -404,7 +404,229 @@ relationships:
         display_name: 王璠
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Ma0qK94AhSZO8El5za8MFN
+        subject_person_id: p_6BVg5XTFHGs5WQLK88uH4B
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Rv5ych5iExch2twdfSXkLP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JQj12YiS1QL5xR9IOK-Czq
+          claim_id: c_Ma0qK94AhSZO8El5za8MFN
+          source_id: s_sVdXa4WyWknZ1L73FyOsZC
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207683 王世蔭）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_sVdXa4WyWknZ1L73FyOsZC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世臨（CBDB 233806）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233806&o=json
+            external_identifier: CBDB:233806
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6BVg5XTFHGs5WQLK88uH4B
+        status: active
+        display_name: 王世臨
+        merged_into_person_id: null
+    - claim:
+        id: c_KRk--bv5CpgwKpovAASglW
+        subject_person_id: p_8rXKuPixbG3qLEngxLDvCw
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Rv5ych5iExch2twdfSXkLP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_r7otzdRxpywzybQr5GP3jv
+          claim_id: c_KRk--bv5CpgwKpovAASglW
+          source_id: s_9gdWP74MnMi9ipGJ3saNr7
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207683 王世蔭）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_9gdWP74MnMi9ipGJ3saNr7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世衡（CBDB 233804）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233804&o=json
+            external_identifier: CBDB:233804
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8rXKuPixbG3qLEngxLDvCw
+        status: active
+        display_name: 王世衡
+        merged_into_person_id: null
+    - claim:
+        id: c_jT7B_FbqeXsSMenrTbRpzb
+        subject_person_id: p_HrWuVY78rxoviqC215BJzt
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Rv5ych5iExch2twdfSXkLP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_k5lbpCPiPxXEO1sA-Y-YqC
+          claim_id: c_jT7B_FbqeXsSMenrTbRpzb
+          source_id: s_uDYdBTYg5P1NhTbzxs3dWf
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207683 王世蔭）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_uDYdBTYg5P1NhTbzxs3dWf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世祚（CBDB 233802）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233802&o=json
+            external_identifier: CBDB:233802
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HrWuVY78rxoviqC215BJzt
+        status: active
+        display_name: 王世祚
+        merged_into_person_id: null
+    - claim:
+        id: c_DUPkaINO-VImJ9k-_twizW
+        subject_person_id: p_Rv5ych5iExch2twdfSXkLP
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_X7A6u2Pq1CtefU3oFjGhfC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hEGtXAmB-fIvxdEGRULeFJ
+          claim_id: c_DUPkaINO-VImJ9k-_twizW
+          source_id: s_QG-aljbBrQzuzvXOpkN3Cl
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207683 王世蔭）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_QG-aljbBrQzuzvXOpkN3Cl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世泰（CBDB 233805）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233805&o=json
+            external_identifier: CBDB:233805
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_X7A6u2Pq1CtefU3oFjGhfC
+        status: active
+        display_name: 王世泰
+        merged_into_person_id: null
+    - claim:
+        id: c_jr7U0ZvWdLAvFYwVnqXVot
+        subject_person_id: p_Rv5ych5iExch2twdfSXkLP
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_YrWnwc94uce2JsZcCoFTha
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RUnfp2dYSgUh-D3fxTijO9
+          claim_id: c_jr7U0ZvWdLAvFYwVnqXVot
+          source_id: s_Nhg_xsibCxU9m5rliLrNfs
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207683 王世蔭）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Nhg_xsibCxU9m5rliLrNfs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世芳（CBDB 233800）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233800&o=json
+            external_identifier: CBDB:233800
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_YrWnwc94uce2JsZcCoFTha
+        status: active
+        display_name: 王世芳
+        merged_into_person_id: null
+    - claim:
+        id: c_XbxyKYh11eocaY_chmRHzy
+        subject_person_id: p_Rv5ych5iExch2twdfSXkLP
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ciXb4UH2wKJZ363JCcVWVZ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ECGEiu_zX819KfQdzm19Gg
+          claim_id: c_XbxyKYh11eocaY_chmRHzy
+          source_id: s__AFkybqQUFvlBj8qck5xZq
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207683 王世蔭）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__AFkybqQUFvlBj8qck5xZq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王建忠（CBDB 233803）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233803&o=json
+            external_identifier: CBDB:233803
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ciXb4UH2wKJZ363JCcVWVZ
+        status: active
+        display_name: 王建忠
+        merged_into_person_id: null
 ---
 
 # 王世蔭
@@ -431,6 +653,12 @@ relationships:
 | children | p_ugwr7fBUu1sPQ8SS5vrAuv | 王間 | accepted |
 | ancestors | p_2e5u4A1FFSG9TbzmvAvbtq | 王養賢 | accepted |
 | ancestors | p_V1kMbKxMmncWoHQsKhN4jA | 王璠 | accepted |
+| other | p_6BVg5XTFHGs5WQLK88uH4B | 王世臨 | accepted |
+| other | p_8rXKuPixbG3qLEngxLDvCw | 王世衡 | accepted |
+| other | p_HrWuVY78rxoviqC215BJzt | 王世祚 | accepted |
+| other | p_X7A6u2Pq1CtefU3oFjGhfC | 王世泰 | accepted |
+| other | p_YrWnwc94uce2JsZcCoFTha | 王世芳 | accepted |
+| other | p_ciXb4UH2wKJZ363JCcVWVZ | 王建忠 | accepted |
 
 ## 外部来源
 
@@ -438,8 +666,14 @@ relationships:
 - [中国历代人物传记资料库：王調（CBDB 233810）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233810&o=json)
 - [中国历代人物传记资料库：王璠（CBDB 233795）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233795&o=json)
 - [中国历代人物传记资料库：王間（CBDB 233809）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233809&o=json)
+- [中国历代人物传记资料库：王建忠（CBDB 233803）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233803&o=json)
 - [中国历代人物传记资料库：王樓（CBDB 233797）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233797&o=json)
 - [中国历代人物传记资料库：王訥（CBDB 233811）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233811&o=json)
+- [中国历代人物传记资料库：王世芳（CBDB 233800）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233800&o=json)
+- [中国历代人物传记资料库：王世衡（CBDB 233804）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233804&o=json)
+- [中国历代人物传记资料库：王世臨（CBDB 233806）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233806&o=json)
+- [中国历代人物传记资料库：王世泰（CBDB 233805）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233805&o=json)
 - [中国历代人物传记资料库：王世蔭（CBDB 207683）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207683&o=json)
+- [中国历代人物传记资料库：王世祚（CBDB 233802）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233802&o=json)
 - [中国历代人物传记资料库：王養賢（CBDB 233796）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233796&o=json)
 - [中国历代人物传记资料库：王諏（CBDB 233808）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233808&o=json)

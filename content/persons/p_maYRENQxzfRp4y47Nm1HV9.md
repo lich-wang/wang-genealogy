@@ -4,7 +4,7 @@ id: p_maYRENQxzfRp4y47Nm1HV9
 status: active
 merged_into: null
 display_name: 王棟
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_wX7OhII_tlfv1NTv_SpeW_
+        subject_person_id: p_YHFTAXms1Jyvocf8LFCxJZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_maYRENQxzfRp4y47Nm1HV9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_65k6FRsTQusNvzDV4qYPy_
+          claim_id: c_wX7OhII_tlfv1NTv_SpeW_
+          source_id: s_ycb0B_bh6bsgoWE8CSc0Tl
+          stance: supports
+          locator: CBDB：兄弟 王楣（205205）之父／母 王經
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王棟 与 王楣 为同胞（CBDB 记「弟」），王楣 之父／母即 王棟 之父／母。
+          source:
+            id: s_ycb0B_bh6bsgoWE8CSc0Tl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王棟（CBDB 329699）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329699&o=json
+            external_identifier: CBDB:329699
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_YHFTAXms1Jyvocf8LFCxJZ
+        status: active
+        display_name: 王經
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Ae8UHnw5kS6L49ZHYHE49s
+        subject_person_id: p_hoiRRCExCw4KSUTuvH17WP
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_maYRENQxzfRp4y47Nm1HV9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_o39EeCp3RHQR-wmQcUjiWx
+          claim_id: c_Ae8UHnw5kS6L49ZHYHE49s
+          source_id: s_ycb0B_bh6bsgoWE8CSc0Tl
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205205 王楣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ycb0B_bh6bsgoWE8CSc0Tl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王棟（CBDB 329699）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329699&o=json
+            external_identifier: CBDB:329699
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hoiRRCExCw4KSUTuvH17WP
+        status: active
+        display_name: 王楣
+        merged_into_person_id: null
 ---
 
 # 王棟
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_YHFTAXms1Jyvocf8LFCxJZ | 王經 | accepted |
+| other | p_hoiRRCExCw4KSUTuvH17WP | 王楣 | accepted |
 
 ## 外部来源
 

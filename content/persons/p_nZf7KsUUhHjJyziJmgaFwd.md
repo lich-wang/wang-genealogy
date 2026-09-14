@@ -4,7 +4,7 @@ id: p_nZf7KsUUhHjJyziJmgaFwd
 status: active
 merged_into: null
 display_name: 王學蘇
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Q5c5cuVA_I0MHhdcou9qmX
+        subject_person_id: p_nZf7KsUUhHjJyziJmgaFwd
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_tz4HHP8E4YPRtYEJJ1f3an
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4zVagSIUAkaonztRR1lEnY
+          claim_id: c_Q5c5cuVA_I0MHhdcou9qmX
+          source_id: s_c1soWVpfu5mVCRhZkBcai-
+          stance: supports
+          locator: CBDB 亲属：妹（KinPerson 696243 王俊姑）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_c1soWVpfu5mVCRhZkBcai-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王學蘇（CBDB 696242）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=696242&o=json
+            external_identifier: CBDB:696242
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_tz4HHP8E4YPRtYEJJ1f3an
+        status: active
+        display_name: 王俊姑
+        merged_into_person_id: null
 ---
 
 # 王學蘇
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_tz4HHP8E4YPRtYEJJ1f3an | 王俊姑 | accepted |
 
 ## 外部来源
 

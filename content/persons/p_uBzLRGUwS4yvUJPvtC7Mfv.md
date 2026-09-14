@@ -4,7 +4,7 @@ id: p_uBzLRGUwS4yvUJPvtC7Mfv
 status: active
 merged_into: null
 display_name: 王傑
-revision: 2
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,154 @@ relationships:
         status: active
         display_name: 王舉
         merged_into_person_id: null
+    - claim:
+        id: c_k9hBWIlpM8lEqbd_ovulfW
+        subject_person_id: p_uBzLRGUwS4yvUJPvtC7Mfv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4N2N5gMpcXxSXp9hMVQ3k6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Y6z-6EGaDBvnfBLvP8M_Fb
+          claim_id: c_k9hBWIlpM8lEqbd_ovulfW
+          source_id: s_qiHvoXCi_2AhgIfQvUcEVm
+          stance: supports
+          locator: CBDB：兄弟 王舉（199783）之父／母 王傑
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王政 与 王舉 为同胞（CBDB 记「弟」），王舉 之父／母即 王政 之父／母。
+          source:
+            id: s_qiHvoXCi_2AhgIfQvUcEVm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王政（CBDB 249600）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249600&o=json
+            external_identifier: CBDB:249600
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4N2N5gMpcXxSXp9hMVQ3k6
+        status: active
+        display_name: 王政
+        merged_into_person_id: null
+    - claim:
+        id: c_JKoy9n3QZYLkiiFMOF11_x
+        subject_person_id: p_uBzLRGUwS4yvUJPvtC7Mfv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9E1V2LjENRjPwBXXnGpYEZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-qmEzj7kNHhvJLeqiv-06f
+          claim_id: c_JKoy9n3QZYLkiiFMOF11_x
+          source_id: s_F2kYbfQuDAyZbWMjHOieKq
+          stance: supports
+          locator: CBDB：兄弟 王舉（199783）之父／母 王傑
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王譽 与 王舉 为同胞（CBDB 记「兄」），王舉 之父／母即 王譽 之父／母。
+          source:
+            id: s_F2kYbfQuDAyZbWMjHOieKq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王譽（CBDB 249603）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249603&o=json
+            external_identifier: CBDB:249603
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9E1V2LjENRjPwBXXnGpYEZ
+        status: active
+        display_name: 王譽
+        merged_into_person_id: null
+    - claim:
+        id: c_ViW6FmZkJAl7BdgG-jaKrI
+        subject_person_id: p_uBzLRGUwS4yvUJPvtC7Mfv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Nhuc9MmgLpwGANEq9M8Q5J
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Pf2_sMhjqrzV2Sq4brR2eo
+          claim_id: c_ViW6FmZkJAl7BdgG-jaKrI
+          source_id: s_w_OlLuIGb-lSzJT9d4aqSI
+          stance: supports
+          locator: CBDB：兄弟 王舉（199783）之父／母 王傑
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鑑 与 王舉 为同胞（CBDB 记「兄」），王舉 之父／母即 王鑑 之父／母。
+          source:
+            id: s_w_OlLuIGb-lSzJT9d4aqSI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鑑（CBDB 249602）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249602&o=json
+            external_identifier: CBDB:249602
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Nhuc9MmgLpwGANEq9M8Q5J
+        status: active
+        display_name: 王鑑
+        merged_into_person_id: null
+    - claim:
+        id: c_vH9h2OpE670og3mvtcqKSo
+        subject_person_id: p_uBzLRGUwS4yvUJPvtC7Mfv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nNE16Q4CMo3d9F4xN4t27X
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__4FfCrbcmGVsm1yevSapIO
+          claim_id: c_vH9h2OpE670og3mvtcqKSo
+          source_id: s_dldod0T12Gtqr9BbELJT4-
+          stance: supports
+          locator: CBDB：兄弟 王舉（199783）之父／母 王傑
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王原 与 王舉 为同胞（CBDB 记「弟」），王舉 之父／母即 王原 之父／母。
+          source:
+            id: s_dldod0T12Gtqr9BbELJT4-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王原（CBDB 249601）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249601&o=json
+            external_identifier: CBDB:249601
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nNE16Q4CMo3d9F4xN4t27X
+        status: active
+        display_name: 王原
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +272,15 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_JEUpyam7C1Pm8JC9r4xGZ3 | 王舉 | accepted |
+| children | p_4N2N5gMpcXxSXp9hMVQ3k6 | 王政 | accepted |
+| children | p_9E1V2LjENRjPwBXXnGpYEZ | 王譽 | accepted |
+| children | p_Nhuc9MmgLpwGANEq9M8Q5J | 王鑑 | accepted |
+| children | p_nNE16Q4CMo3d9F4xN4t27X | 王原 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鑑（CBDB 249602）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249602&o=json)
 - [中国历代人物传记资料库：王傑（CBDB 249596）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249596&o=json)
+- [中国历代人物传记资料库：王譽（CBDB 249603）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249603&o=json)
+- [中国历代人物传记资料库：王原（CBDB 249601）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249601&o=json)
+- [中国历代人物传记资料库：王政（CBDB 249600）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249600&o=json)

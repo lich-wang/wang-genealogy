@@ -4,7 +4,7 @@ id: p_5fr5i6aUxfem5HbVkKJ9sw
 status: active
 merged_into: null
 display_name: 王傑
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_2DKCjMhf3ppW0059WRPzRZ
+        subject_person_id: p_BnBLKLfaqxcVPEz4Mit3Zc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5fr5i6aUxfem5HbVkKJ9sw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_59J8TNoNkt_qiri7XWnTRe
+          claim_id: c_2DKCjMhf3ppW0059WRPzRZ
+          source_id: s_9y_1do6w0CogBiBeTcLRhI
+          stance: supports
+          locator: CBDB：兄弟 王鉅（202468）之父／母 王齊玉
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王傑 与 王鉅 为同胞（CBDB 记「弟」），王鉅 之父／母即 王傑 之父／母。
+          source:
+            id: s_9y_1do6w0CogBiBeTcLRhI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王傑（CBDB 288688）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288688&o=json
+            external_identifier: CBDB:288688
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BnBLKLfaqxcVPEz4Mit3Zc
+        status: active
+        display_name: 王齊玉
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_z1v__cNRAqi_7-5zd0A_w5
+        subject_person_id: p_5fr5i6aUxfem5HbVkKJ9sw
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hdA2EX5rq1DHua8Wnk5XqK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qWwq_fkFEm9GWlKCkJMxIr
+          claim_id: c_z1v__cNRAqi_7-5zd0A_w5
+          source_id: s_9y_1do6w0CogBiBeTcLRhI
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202468 王鉅）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_9y_1do6w0CogBiBeTcLRhI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王傑（CBDB 288688）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288688&o=json
+            external_identifier: CBDB:288688
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hdA2EX5rq1DHua8Wnk5XqK
+        status: active
+        display_name: 王鉅
+        merged_into_person_id: null
 ---
 
 # 王傑
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_BnBLKLfaqxcVPEz4Mit3Zc | 王齊玉 | accepted |
+| other | p_hdA2EX5rq1DHua8Wnk5XqK | 王鉅 | accepted |
 
 ## 外部来源
 

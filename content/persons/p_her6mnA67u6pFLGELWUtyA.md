@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王㴶
 cbdb_id: 526824
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -193,7 +193,44 @@ relationships:
         display_name: 王峋
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_SdrJPjf2bvNW1EY6-kBiqa
+        subject_person_id: p_458To9kNrtToQTC9L1EJxX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_her6mnA67u6pFLGELWUtyA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WlsYXkFAaLQKB8SXNQ8ZcM
+          claim_id: c_SdrJPjf2bvNW1EY6-kBiqa
+          source_id: s_kp8z6C8PDgU9SRu31yrfhK
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 526824 王㴶）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_kp8z6C8PDgU9SRu31yrfhK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文洽（CBDB 701733）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=701733&o=json
+            external_identifier: CBDB:701733
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_458To9kNrtToQTC9L1EJxX
+        status: active
+        display_name: 王文洽
+        merged_into_person_id: null
 ---
 
 # 王㴶
@@ -214,10 +251,12 @@ relationships:
 | parents | p_Sr7UDMKCf4JcH9hwKQWyNh | 王家瓚 | accepted |
 | children | p_FZAbQKQN42srG9zPG5AZm2 | 王岱東 | accepted |
 | ancestors | p_kL63TcA3MHsEgx9BLatjnT | 王峋 | accepted |
+| other | p_458To9kNrtToQTC9L1EJxX | 王文洽 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王岱東（CBDB 342278）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=342278&o=json)
 - [中国历代人物传记资料库：王家瓚（CBDB 69289）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69289&o=json)
+- [中国历代人物传记资料库：王文洽（CBDB 701733）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=701733&o=json)
 - [中国历代人物传记资料库：王峋（CBDB 702918）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=702918&o=json)
 - [中国历代人物传记资料库：王㴶（CBDB 526824）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526824&o=json)

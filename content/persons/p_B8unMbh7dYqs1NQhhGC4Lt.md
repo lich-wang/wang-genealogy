@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仲錦
 cbdb_id: 202438
-revision: 4
+revision: 7
 properties:
   - predicate: bio.summary
     recommended:
@@ -237,7 +237,118 @@ relationships:
         display_name: 王時阜
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_8RWRgJ6qI_cUTK4JqvHZyQ
+        subject_person_id: p_53zPmG5Fk9uaK67HiEix6i
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_B8unMbh7dYqs1NQhhGC4Lt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KW0lMxskFM9TI40LQ3J50M
+          claim_id: c_8RWRgJ6qI_cUTK4JqvHZyQ
+          source_id: s_oAzZr_GCT6jbIfgFX2PBVa
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202438 王仲錦）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_oAzZr_GCT6jbIfgFX2PBVa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仲鎡（CBDB 288167）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288167&o=json
+            external_identifier: CBDB:288167
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_53zPmG5Fk9uaK67HiEix6i
+        status: active
+        display_name: 王仲鎡
+        merged_into_person_id: null
+    - claim:
+        id: c_6DhdNR6_45E8elD11Px5HR
+        subject_person_id: p_5KKdWvczqV4ZRJHzEcYzxa
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_B8unMbh7dYqs1NQhhGC4Lt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fgvz8isvU-5ANW7Fm63yWO
+          claim_id: c_6DhdNR6_45E8elD11Px5HR
+          source_id: s_43TVuHgH7z81B7nrxJjkVx
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202438 王仲錦）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_43TVuHgH7z81B7nrxJjkVx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仲銓（CBDB 288165）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288165&o=json
+            external_identifier: CBDB:288165
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5KKdWvczqV4ZRJHzEcYzxa
+        status: active
+        display_name: 王仲銓
+        merged_into_person_id: null
+    - claim:
+        id: c_NQ6-e8uMzEOsMuIb___46B
+        subject_person_id: p_B8unMbh7dYqs1NQhhGC4Lt
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_KAKxFtVrwdv1yKXQT7m9zk
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1_AdhZweMypwNn8sJ3qQRK
+          claim_id: c_NQ6-e8uMzEOsMuIb___46B
+          source_id: s_skBucKj4wCiNCcrQS4QHs1
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202438 王仲錦）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_skBucKj4wCiNCcrQS4QHs1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仲鏞（CBDB 288166）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288166&o=json
+            external_identifier: CBDB:288166
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KAKxFtVrwdv1yKXQT7m9zk
+        status: active
+        display_name: 王仲鏞
+        merged_into_person_id: null
 ---
 
 # 王仲錦
@@ -259,6 +370,9 @@ relationships:
 | parents | p_hWH4QC9TGn1hej6FkM79ja | 王先明 | accepted |
 | ancestors | p_FWo1xXFZ68iCMqeAghXswn | 王永祺 | accepted |
 | ancestors | p_ShM3z8ns9MGqsS2SF6TR5B | 王時阜 | accepted |
+| other | p_53zPmG5Fk9uaK67HiEix6i | 王仲鎡 | accepted |
+| other | p_5KKdWvczqV4ZRJHzEcYzxa | 王仲銓 | accepted |
+| other | p_KAKxFtVrwdv1yKXQT7m9zk | 王仲鏞 | accepted |
 
 ## 外部来源
 
@@ -266,3 +380,6 @@ relationships:
 - [中国历代人物传记资料库：王先明（CBDB 288161）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288161&o=json)
 - [中国历代人物传记资料库：王永祺（CBDB 288159）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288159&o=json)
 - [中国历代人物传记资料库：王仲錦（CBDB 202438）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202438&o=json)
+- [中国历代人物传记资料库：王仲銓（CBDB 288165）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288165&o=json)
+- [中国历代人物传记资料库：王仲鏞（CBDB 288166）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288166&o=json)
+- [中国历代人物传记资料库：王仲鎡（CBDB 288167）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288167&o=json)

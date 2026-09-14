@@ -4,7 +4,7 @@ id: p_q1HFE8oSn85haUzRcMpjwN
 status: active
 merged_into: null
 display_name: 王履
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -128,7 +128,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_xfzaGT9LWddJ1UkAIwrNQG
+        subject_person_id: p_bZ2aLyTZ6ZBcTExhc48dtF
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_q1HFE8oSn85haUzRcMpjwN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_5kY9nr2-lPasKEz5UF8_Gj
+          claim_id: c_xfzaGT9LWddJ1UkAIwrNQG
+          source_id: s_nKF1DQTUOe1tbWHtgU2hCe
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 25088）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_nKF1DQTUOe1tbWHtgU2hCe
+            source_type: api_record
+            title: 中国历代人物传记资料库：王履（CBDB 25089）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25089&o=json
+            external_identifier: CBDB:25089
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_bZ2aLyTZ6ZBcTExhc48dtF
+        status: active
+        display_name: 王景琚
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -155,6 +192,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_bZ2aLyTZ6ZBcTExhc48dtF | 王景琚 | accepted |
 
 ## 外部来源
 

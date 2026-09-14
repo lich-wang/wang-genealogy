@@ -4,7 +4,7 @@ id: p_KL6pD2p9SR6r7j4F89boFc
 status: active
 merged_into: null
 display_name: 王衡
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -194,7 +194,81 @@ relationships:
         display_name: 王志崇
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_dzcmjkRHEF3jTuqnOZyKiv
+        subject_person_id: p_29EmADKKSo6ecWRXrZCGVy
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_KL6pD2p9SR6r7j4F89boFc
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_b4adAr1fa7wBr1vLJM5bNL
+          claim_id: c_dzcmjkRHEF3jTuqnOZyKiv
+          source_id: s_iDuycNZhNTrazR866fjg7A
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126831 王衡）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_iDuycNZhNTrazR866fjg7A
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璣（CBDB 255536）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255536&o=json
+            external_identifier: CBDB:255536
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_29EmADKKSo6ecWRXrZCGVy
+        status: active
+        display_name: 王璣
+        merged_into_person_id: null
+    - claim:
+        id: c_ZBIs9BGZvAsMeC5KiMy31u
+        subject_person_id: p_KL6pD2p9SR6r7j4F89boFc
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_LHKoMbFGzi2LiWjocEU5qY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qLD2gkTSZfsTq7qAD3675C
+          claim_id: c_ZBIs9BGZvAsMeC5KiMy31u
+          source_id: s_sV1TTLf5r2wFwh1LUQ2_dz
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126831 王衡）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_sV1TTLf5r2wFwh1LUQ2_dz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王㻊（CBDB 255547）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255547&o=json
+            external_identifier: CBDB:255547
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_LHKoMbFGzi2LiWjocEU5qY
+        status: active
+        display_name: 王㻊
+        merged_into_person_id: null
 ---
 
 # 王衡
@@ -216,8 +290,12 @@ relationships:
 | spouses | p_3yCSR27oiW5NCm7ErZYvAN | 林氏 | accepted |
 | ancestors | p_BAsTPzr6Vm683uWTRsXWEW | 王廣齋 | accepted |
 | ancestors | p_GV5BzNPr7Y3sJXX4Dxcndh | 王志崇 | accepted |
+| other | p_29EmADKKSo6ecWRXrZCGVy | 王璣 | accepted |
+| other | p_LHKoMbFGzi2LiWjocEU5qY | 王㻊 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：林氏(王衡妻)（CBDB 255525）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255525&o=json)
 - [中国历代人物传记资料库：王衡（CBDB 126831）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126831&o=json)
+- [中国历代人物传记资料库：王璣（CBDB 255536）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255536&o=json)
+- [中国历代人物传记资料库：王㻊（CBDB 255547）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255547&o=json)

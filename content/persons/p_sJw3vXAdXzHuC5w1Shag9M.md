@@ -4,7 +4,7 @@ id: p_sJw3vXAdXzHuC5w1Shag9M
 status: active
 merged_into: null
 display_name: 王靖
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,80 @@ relationships:
         status: active
         display_name: 王銓
         merged_into_person_id: null
+    - claim:
+        id: c_sI3Lsfjl5Gzf4zxU2rJYBe
+        subject_person_id: p_sJw3vXAdXzHuC5w1Shag9M
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GLgRJQdPEudUQSqwztGez4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kkdJ3VTbl4ZfK4kQHlTQI2
+          claim_id: c_sI3Lsfjl5Gzf4zxU2rJYBe
+          source_id: s_dqmFK7B45qCCvKrluRd1qT
+          stance: supports
+          locator: CBDB：兄弟 王銓（126792）之父／母 王靖
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鎡 与 王銓 为同胞（CBDB 记「兄」），王銓 之父／母即 王鎡 之父／母。
+          source:
+            id: s_dqmFK7B45qCCvKrluRd1qT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎡（CBDB 210370）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210370&o=json
+            external_identifier: CBDB:210370
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GLgRJQdPEudUQSqwztGez4
+        status: active
+        display_name: 王鎡
+        merged_into_person_id: null
+    - claim:
+        id: c_B7_03T9azUuFuqhr_YvfFL
+        subject_person_id: p_sJw3vXAdXzHuC5w1Shag9M
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cBPu9HHctFDisx14uetVMb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XQpg6SJhvaVpqnYag4It-Y
+          claim_id: c_B7_03T9azUuFuqhr_YvfFL
+          source_id: s__eM0AG_9pAPOaIamLD6YDm
+          stance: supports
+          locator: CBDB：兄弟 王銓（126792）之父／母 王靖
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王欽 与 王銓 为同胞（CBDB 记「弟」），王銓 之父／母即 王欽 之父／母。
+          source:
+            id: s__eM0AG_9pAPOaIamLD6YDm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王欽（CBDB 210359）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210359&o=json
+            external_identifier: CBDB:210359
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cBPu9HHctFDisx14uetVMb
+        status: active
+        display_name: 王欽
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_A7pYYvCPv8mtUqCwSLePSw | 王銓 | accepted |
+| children | p_GLgRJQdPEudUQSqwztGez4 | 王鎡 | accepted |
+| children | p_cBPu9HHctFDisx14uetVMb | 王欽 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王靖（CBDB 210326）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210326&o=json)
+- [中国历代人物传记资料库：王欽（CBDB 210359）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210359&o=json)
+- [中国历代人物传记资料库：王鎡（CBDB 210370）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210370&o=json)

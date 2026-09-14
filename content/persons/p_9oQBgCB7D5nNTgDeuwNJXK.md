@@ -4,7 +4,7 @@ id: p_9oQBgCB7D5nNTgDeuwNJXK
 status: active
 merged_into: null
 display_name: 王純
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_MIK6qD-d0t3QATlm-71gr8
+        subject_person_id: p_3JKfW8zU9aAN6L1FmP3X5i
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9oQBgCB7D5nNTgDeuwNJXK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_73SK-PbeKQuuubXYicXj64
+          claim_id: c_MIK6qD-d0t3QATlm-71gr8
+          source_id: s_3PkZe4FG3y09fS8ZURJQTo
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 26511）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_3PkZe4FG3y09fS8ZURJQTo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王純（CBDB 26517）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26517&o=json
+            external_identifier: CBDB:26517
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3JKfW8zU9aAN6L1FmP3X5i
+        status: active
+        display_name: 王尚恭
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_3JKfW8zU9aAN6L1FmP3X5i | 王尚恭 | accepted |
 
 ## 外部来源
 

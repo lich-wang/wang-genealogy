@@ -4,7 +4,7 @@ id: p_Pe5qPNs3BsCJMGVWKZCSsK
 status: active
 merged_into: null
 display_name: 王明哲
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -107,7 +107,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_hQsF_AnYScKqjpI_DupKzD
+        subject_person_id: p_57bmMkPNTLujinASpm1vfU
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Pe5qPNs3BsCJMGVWKZCSsK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jPtvyYMcgOp9qD2ZvZA51I
+          claim_id: c_hQsF_AnYScKqjpI_DupKzD
+          source_id: s__AO4PTV3n46m7z4nfxTLdy
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 37652 王明哲）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__AO4PTV3n46m7z4nfxTLdy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗哲（CBDB 37653）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37653&o=json
+            external_identifier: CBDB:37653
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_57bmMkPNTLujinASpm1vfU
+        status: active
+        display_name: 王宗哲
+        merged_into_person_id: null
 ---
 
 # 王明哲
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_57bmMkPNTLujinASpm1vfU | 王宗哲 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王明哲（CBDB 37652）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37652&o=json)
+- [中国历代人物传记资料库：王宗哲（CBDB 37653）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37653&o=json)

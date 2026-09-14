@@ -4,7 +4,7 @@ id: p_TEYvtaRNz7eTYDE23W5t5H
 status: active
 merged_into: null
 display_name: 王守素
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -220,7 +220,44 @@ relationships:
         display_name: 王綾
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_gc2TyfUVho1t9plip7UgW-
+        subject_person_id: p_PLZYvFKaN5T4EifkDJ2W7A
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_TEYvtaRNz7eTYDE23W5t5H
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gSbNT3DsQRZOUqLNGlCFPx
+          claim_id: c_gc2TyfUVho1t9plip7UgW-
+          source_id: s_pkExdS1vZltPbNdow4F8IA
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206541 王守素）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_pkExdS1vZltPbNdow4F8IA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王守業（CBDB 219514）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219514&o=json
+            external_identifier: CBDB:219514
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PLZYvFKaN5T4EifkDJ2W7A
+        status: active
+        display_name: 王守業
+        merged_into_person_id: null
 ---
 
 # 王守素
@@ -242,10 +279,12 @@ relationships:
 | parents | p_ds9RMJLAa1YbfRpjpasrUW | 王鼐 | accepted |
 | ancestors | p_bqruncWVzwaR1YP4ct9bDy | 王像 | accepted |
 | ancestors | p_GC7HJfoz6w5CZwewBYe7WR | 王綾 | accepted |
+| other | p_PLZYvFKaN5T4EifkDJ2W7A | 王守業 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王綾（CBDB 219509）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219509&o=json)
 - [中国历代人物传记资料库：王鼐（CBDB 219511）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219511&o=json)
 - [中国历代人物传记资料库：王守素（CBDB 206541）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206541&o=json)
+- [中国历代人物传记资料库：王守業（CBDB 219514）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219514&o=json)
 - [中国历代人物传记资料库：王像（CBDB 219510）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219510&o=json)

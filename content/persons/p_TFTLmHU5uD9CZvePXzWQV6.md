@@ -4,7 +4,7 @@ id: p_TFTLmHU5uD9CZvePXzWQV6
 status: active
 merged_into: null
 display_name: 王來聘
-revision: 4
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,155 @@ relationships:
         display_name: 王朝用
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_MDKNfT3M6mN8wes2UhBITn
+        subject_person_id: p_AFWocmj236p1w3L2WGr2P6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_TFTLmHU5uD9CZvePXzWQV6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GsPDh5PdrbuWUVtGmnswGJ
+          claim_id: c_MDKNfT3M6mN8wes2UhBITn
+          source_id: s_2D3R0sEbS_EMV6Fpl1Jm63
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205915 王來聘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_2D3R0sEbS_EMV6Fpl1Jm63
+            source_type: api_record
+            title: 中国历代人物传记资料库：王來召（CBDB 210618）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210618&o=json
+            external_identifier: CBDB:210618
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_AFWocmj236p1w3L2WGr2P6
+        status: active
+        display_name: 王來召
+        merged_into_person_id: null
+    - claim:
+        id: c_FoMqkKJRezAvrD4bgx57Lt
+        subject_person_id: p_HrkkgqQR2n2D5BStWXVbwx
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_TFTLmHU5uD9CZvePXzWQV6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Fz_UtB3qUOlnCbR_UW3VNU
+          claim_id: c_FoMqkKJRezAvrD4bgx57Lt
+          source_id: s_dCEflOvvJXHyYbDzZpWSo4
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205915 王來聘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_dCEflOvvJXHyYbDzZpWSo4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王來問（CBDB 210619）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210619&o=json
+            external_identifier: CBDB:210619
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HrkkgqQR2n2D5BStWXVbwx
+        status: active
+        display_name: 王來問
+        merged_into_person_id: null
+    - claim:
+        id: c_NerrZ5Sx0jWZ7FqUaTe-H9
+        subject_person_id: p_TFTLmHU5uD9CZvePXzWQV6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_V8Bimj2LPstYmGbjxVkHuP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wafF9bYgOIUriGYwLAUreK
+          claim_id: c_NerrZ5Sx0jWZ7FqUaTe-H9
+          source_id: s_yfoPQD_Bp_RUXdRCpuzLL2
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205915 王來聘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_yfoPQD_Bp_RUXdRCpuzLL2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王來賓（CBDB 210617）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210617&o=json
+            external_identifier: CBDB:210617
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_V8Bimj2LPstYmGbjxVkHuP
+        status: active
+        display_name: 王來賓
+        merged_into_person_id: null
+    - claim:
+        id: c_7WdAbs8QytJR0EEKLtlJSM
+        subject_person_id: p_TFTLmHU5uD9CZvePXzWQV6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_VcoKtGbJVuYrZAZWcmUgkt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bLP_l_geWrNBlu-N9aCxt3
+          claim_id: c_7WdAbs8QytJR0EEKLtlJSM
+          source_id: s_3IyX4cZNPkEKW8bjg-D7ut
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205915 王來聘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_3IyX4cZNPkEKW8bjg-D7ut
+            source_type: api_record
+            title: 中国历代人物传记资料库：王來薦（CBDB 210620）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210620&o=json
+            external_identifier: CBDB:210620
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VcoKtGbJVuYrZAZWcmUgkt
+        status: active
+        display_name: 王來薦
+        merged_into_person_id: null
 ---
 
 # 王來聘
@@ -240,10 +388,18 @@ relationships:
 | parents | p_Xfq2hzbf2P25NMCS4qwtRa | 王麟 | accepted |
 | ancestors | p_czYG96VgoLPkp1gbv3mNPa | 王雄 | accepted |
 | ancestors | p_sujGaKswrg8KUFGQ4G6jyw | 王朝用 | accepted |
+| other | p_AFWocmj236p1w3L2WGr2P6 | 王來召 | accepted |
+| other | p_HrkkgqQR2n2D5BStWXVbwx | 王來問 | accepted |
+| other | p_V8Bimj2LPstYmGbjxVkHuP | 王來賓 | accepted |
+| other | p_VcoKtGbJVuYrZAZWcmUgkt | 王來薦 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王朝用（CBDB 210610）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210610&o=json)
+- [中国历代人物传记资料库：王來賓（CBDB 210617）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210617&o=json)
+- [中国历代人物传记资料库：王來薦（CBDB 210620）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210620&o=json)
 - [中国历代人物传记资料库：王來聘（CBDB 205915）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205915&o=json)
+- [中国历代人物传记资料库：王來問（CBDB 210619）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210619&o=json)
+- [中国历代人物传记资料库：王來召（CBDB 210618）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210618&o=json)
 - [中国历代人物传记资料库：王麟（CBDB 210611）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210611&o=json)
 - [中国历代人物传记资料库：王雄（CBDB 210609）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210609&o=json)

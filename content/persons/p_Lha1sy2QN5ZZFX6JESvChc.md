@@ -4,7 +4,7 @@ id: p_Lha1sy2QN5ZZFX6JESvChc
 status: active
 merged_into: null
 display_name: 王基
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -192,7 +192,81 @@ relationships:
         display_name: 王南玉
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_yWIzzIkswOJK9zkBWNLSSX
+        subject_person_id: p_Lha1sy2QN5ZZFX6JESvChc
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_QRnnDR27ftNKQGRE1MogD3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qso9BzAYdLtkgdM7ZcODbh
+          claim_id: c_yWIzzIkswOJK9zkBWNLSSX
+          source_id: s_W2G6bqKZbH-HIA2ciHEOVD
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126676 王基）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_W2G6bqKZbH-HIA2ciHEOVD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王堪（CBDB 329629）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329629&o=json
+            external_identifier: CBDB:329629
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_QRnnDR27ftNKQGRE1MogD3
+        status: active
+        display_name: 王堪
+        merged_into_person_id: null
+    - claim:
+        id: c_aXRr6Moo-Vg0XhY7Yc303f
+        subject_person_id: p_Lha1sy2QN5ZZFX6JESvChc
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ZH788UkFLmZjivN3xNAjbZ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_M_SSU_jZ-dXd6SdJUnJIVe
+          claim_id: c_aXRr6Moo-Vg0XhY7Yc303f
+          source_id: s_1Qf40-YVIhUyyXQOZlmcpT
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126676 王基）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_1Qf40-YVIhUyyXQOZlmcpT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王業（CBDB 329628）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329628&o=json
+            external_identifier: CBDB:329628
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZH788UkFLmZjivN3xNAjbZ
+        status: active
+        display_name: 王業
+        merged_into_person_id: null
 ---
 
 # 王基
@@ -213,10 +287,14 @@ relationships:
 | parents | p_6sYWcb482zJ4XWUwwNYJRi | 王士先 | accepted |
 | ancestors | p_52CwNw799HD3TE11x2D2M3 | 王嵩 | accepted |
 | ancestors | p_52fz1XAFZcK8hpmrNkZw8t | 王南玉 | accepted |
+| other | p_QRnnDR27ftNKQGRE1MogD3 | 王堪 | accepted |
+| other | p_ZH788UkFLmZjivN3xNAjbZ | 王業 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王基（CBDB 126676）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126676&o=json)
+- [中国历代人物传记资料库：王堪（CBDB 329629）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329629&o=json)
 - [中国历代人物传记资料库：王南玉（CBDB 329623）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329623&o=json)
 - [中国历代人物传记资料库：王士先（CBDB 329624）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329624&o=json)
 - [中国历代人物传记资料库：王嵩（CBDB 329622）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329622&o=json)
+- [中国历代人物传记资料库：王業（CBDB 329628）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329628&o=json)

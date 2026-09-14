@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王禮臣
 cbdb_id: 306743
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_m-SDx7_rannJPAKUYZssGg
+        subject_person_id: p_Y4FNMr5v5UBkNhYB7rhbfs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Bc3FF8PWVP5Zd5sPJuac7F
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_udWNKX5gRqDnfo3phsr_xB
+          claim_id: c_m-SDx7_rannJPAKUYZssGg
+          source_id: s_E-aazornoru8zVCkt8hb1-
+          stance: supports
+          locator: CBDB：兄弟 王鳴臣（126785）之父／母 王國賜
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王禮臣 与 王鳴臣 为同胞（CBDB 记「兄」），王鳴臣 之父／母即 王禮臣 之父／母。
+          source:
+            id: s_E-aazornoru8zVCkt8hb1-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禮臣（CBDB 306743）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306743&o=json
+            external_identifier: CBDB:306743
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Y4FNMr5v5UBkNhYB7rhbfs
+        status: active
+        display_name: 王國賜
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_3BigG8lSjGJXlJDdIsKVkm
+        subject_person_id: p_Bc3FF8PWVP5Zd5sPJuac7F
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gYn21nxF9d7iJNFwbu2Rnf
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_apU1JRZFm5oRf1gQKLOvor
+          claim_id: c_3BigG8lSjGJXlJDdIsKVkm
+          source_id: s_E-aazornoru8zVCkt8hb1-
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126785 王鳴臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_E-aazornoru8zVCkt8hb1-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禮臣（CBDB 306743）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306743&o=json
+            external_identifier: CBDB:306743
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_gYn21nxF9d7iJNFwbu2Rnf
+        status: active
+        display_name: 王鳴臣
+        merged_into_person_id: null
 ---
 
 # 王禮臣
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Y4FNMr5v5UBkNhYB7rhbfs | 王國賜 | accepted |
+| other | p_gYn21nxF9d7iJNFwbu2Rnf | 王鳴臣 | accepted |
 
 ## 外部来源
 

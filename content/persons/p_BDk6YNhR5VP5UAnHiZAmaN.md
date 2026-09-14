@@ -4,7 +4,7 @@ id: p_BDk6YNhR5VP5UAnHiZAmaN
 status: active
 merged_into: null
 display_name: 王九思
-revision: 4
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -246,7 +246,118 @@ relationships:
         display_name: 王鉉
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_eTu9RR5P50PV3QyuZ5DPhS
+        subject_person_id: p_BDk6YNhR5VP5UAnHiZAmaN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Kebu9paBMzhwM6J5F5Feut
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jNbkhXUFJV5Y7358TqJC4S
+          claim_id: c_eTu9RR5P50PV3QyuZ5DPhS
+          source_id: s_Ikwh3lF9uzBL6xv774zb7w
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126440 王九思）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Ikwh3lF9uzBL6xv774zb7w
+            source_type: api_record
+            title: 中国历代人物传记资料库：王九峰（CBDB 268144）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268144&o=json
+            external_identifier: CBDB:268144
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Kebu9paBMzhwM6J5F5Feut
+        status: active
+        display_name: 王九峰
+        merged_into_person_id: null
+    - claim:
+        id: c_jb3dvifNf-ouUg7GrBYLrv
+        subject_person_id: p_BDk6YNhR5VP5UAnHiZAmaN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_bT1dbunnbqRh1gmTTygBPY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_huI7giSyyGRTguYyiBrOJu
+          claim_id: c_jb3dvifNf-ouUg7GrBYLrv
+          source_id: s_F4MyRbNBBGwA68IQOBGAhA
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126440 王九思）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_F4MyRbNBBGwA68IQOBGAhA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王九敘（CBDB 268142）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268142&o=json
+            external_identifier: CBDB:268142
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_bT1dbunnbqRh1gmTTygBPY
+        status: active
+        display_name: 王九敘
+        merged_into_person_id: null
+    - claim:
+        id: c_OmTBRjm3BR78wAiRLMFQ1K
+        subject_person_id: p_BDk6YNhR5VP5UAnHiZAmaN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dfvvCkvP2ETFgDkAvCrtbD
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZG104R_LOnLTsdTRZ7_EgF
+          claim_id: c_OmTBRjm3BR78wAiRLMFQ1K
+          source_id: s_miN8n4HYZ4I8hRopfE9d-H
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126440 王九思）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_miN8n4HYZ4I8hRopfE9d-H
+            source_type: api_record
+            title: 中国历代人物传记资料库：王九皋（CBDB 268143）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268143&o=json
+            external_identifier: CBDB:268143
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dfvvCkvP2ETFgDkAvCrtbD
+        status: active
+        display_name: 王九皋
+        merged_into_person_id: null
 ---
 
 # 王九思
@@ -269,10 +380,16 @@ relationships:
 | parents | p_AHxos763CxLVJAAUFYkhkc | 王儒 | accepted |
 | ancestors | p_BsUKZjd3Hhorviu5UbYSKD | 王琰 | accepted |
 | ancestors | p_ek7reJ4HuSEY185HbF4fcc | 王鉉 | accepted |
+| other | p_Kebu9paBMzhwM6J5F5Feut | 王九峰 | accepted |
+| other | p_bT1dbunnbqRh1gmTTygBPY | 王九敘 | accepted |
+| other | p_dfvvCkvP2ETFgDkAvCrtbD | 王九皋 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王九峰（CBDB 268144）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268144&o=json)
+- [中国历代人物传记资料库：王九皋（CBDB 268143）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268143&o=json)
 - [中国历代人物传记资料库：王九思（CBDB 126440）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126440&o=json)
+- [中国历代人物传记资料库：王九敘（CBDB 268142）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268142&o=json)
 - [中国历代人物传记资料库：王儒（CBDB 268138）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268138&o=json)
 - [中国历代人物传记资料库：王鉉（CBDB 268137）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268137&o=json)
 - [中国历代人物传记资料库：王琰（CBDB 268136）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=268136&o=json)

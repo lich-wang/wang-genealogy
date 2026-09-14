@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王時相
 cbdb_id: 308749
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_HBGIoDTrHZzmipoxS7jDzK
+        subject_person_id: p_irooaMCyG8JBBsSKCCr16W
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_V57BmCNK9BwJStiF9LE1tu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EDaVrMX0Cz-spt3r_rD7AX
+          claim_id: c_HBGIoDTrHZzmipoxS7jDzK
+          source_id: s_7Q8KZCb8ocqfESi8TmiLFX
+          stance: supports
+          locator: CBDB：兄弟 王時槐（126653）之父／母 王一善
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王時相 与 王時槐 为同胞（CBDB 记「兄」），王時槐 之父／母即 王時相 之父／母。
+          source:
+            id: s_7Q8KZCb8ocqfESi8TmiLFX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王時相（CBDB 308749）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308749&o=json
+            external_identifier: CBDB:308749
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_irooaMCyG8JBBsSKCCr16W
+        status: active
+        display_name: 王一善
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_pGFw5uxcLPt-VBYLnATjcW
+        subject_person_id: p_LPzYRgFrvHZtoR8m7zKq9v
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_V57BmCNK9BwJStiF9LE1tu
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6KLkGs4kfQfGOXfDauEsQY
+          claim_id: c_pGFw5uxcLPt-VBYLnATjcW
+          source_id: s_7Q8KZCb8ocqfESi8TmiLFX
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126653 王時槐）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_7Q8KZCb8ocqfESi8TmiLFX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王時相（CBDB 308749）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308749&o=json
+            external_identifier: CBDB:308749
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_LPzYRgFrvHZtoR8m7zKq9v
+        status: active
+        display_name: 王時槐
+        merged_into_person_id: null
 ---
 
 # 王時相
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_irooaMCyG8JBBsSKCCr16W | 王一善 | accepted |
+| other | p_LPzYRgFrvHZtoR8m7zKq9v | 王時槐 | accepted |
 
 ## 外部来源
 

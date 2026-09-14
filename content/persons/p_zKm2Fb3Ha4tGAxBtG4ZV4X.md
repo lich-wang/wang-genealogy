@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王明清
 cbdb_id: 7085
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -117,7 +117,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_3NqDjSqO1smWmmKXRK10PI
+        subject_person_id: p_j8wPuwgWUGTVgAZXhVEGRs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zKm2Fb3Ha4tGAxBtG4ZV4X
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_AO0_NOOvWVKON2GGVGEnu6
+          claim_id: c_3NqDjSqO1smWmmKXRK10PI
+          source_id: s_QbE6WDnHhMhrOVJlWCqHfm
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 7372）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_QbE6WDnHhMhrOVJlWCqHfm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王明清（CBDB 7085）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7085&o=json
+            external_identifier: CBDB:7085
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_j8wPuwgWUGTVgAZXhVEGRs
+        status: active
+        display_name: 王銍
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -143,6 +180,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_j8wPuwgWUGTVgAZXhVEGRs | 王銍 | accepted |
 
 ## 外部来源
 

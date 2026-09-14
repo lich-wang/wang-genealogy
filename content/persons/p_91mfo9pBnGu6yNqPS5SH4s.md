@@ -4,7 +4,7 @@ id: p_91mfo9pBnGu6yNqPS5SH4s
 status: active
 merged_into: null
 display_name: 王養正
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,81 @@ relationships:
         display_name: 王進
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_zfXykmUncToKH78buadJV3
+        subject_person_id: p_91mfo9pBnGu6yNqPS5SH4s
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Fj2FWE18U3HUHwm4FacqQR
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v2IeLAvJX-QZ9KnCTaj_lv
+          claim_id: c_zfXykmUncToKH78buadJV3
+          source_id: s_RU2dRo9SUK4OIkrKaFJWfX
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202427 王養正）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_RU2dRo9SUK4OIkrKaFJWfX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王養素（CBDB 287965）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287965&o=json
+            external_identifier: CBDB:287965
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Fj2FWE18U3HUHwm4FacqQR
+        status: active
+        display_name: 王養素
+        merged_into_person_id: null
+    - claim:
+        id: c_Fz-9J36PFDeWN2YLG8_45Q
+        subject_person_id: p_91mfo9pBnGu6yNqPS5SH4s
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_u458xMHFN5Z27VY2fzxC4e
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IVVVlMmpnRloa_5OitgyeM
+          claim_id: c_Fz-9J36PFDeWN2YLG8_45Q
+          source_id: s_VfHDru5s9GGnrB_-KF0RkC
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202427 王養正）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_VfHDru5s9GGnrB_-KF0RkC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王養賢（CBDB 287963）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287963&o=json
+            external_identifier: CBDB:287963
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_u458xMHFN5Z27VY2fzxC4e
+        status: active
+        display_name: 王養賢
+        merged_into_person_id: null
 ---
 
 # 王養正
@@ -240,10 +314,14 @@ relationships:
 | parents | p_L25AA1dbPLFD1pLw6NiMqz | 王璠 | accepted |
 | ancestors | p_8gmNnD67pPk4Jcgg1oaCvd | 王邑 | accepted |
 | ancestors | p_hEFhwUEzH2dB433RHJ2LCZ | 王進 | accepted |
+| other | p_Fj2FWE18U3HUHwm4FacqQR | 王養素 | accepted |
+| other | p_u458xMHFN5Z27VY2fzxC4e | 王養賢 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王璠（CBDB 287959）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287959&o=json)
 - [中国历代人物传记资料库：王進（CBDB 287957）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287957&o=json)
+- [中国历代人物传记资料库：王養素（CBDB 287965）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287965&o=json)
+- [中国历代人物传记资料库：王養賢（CBDB 287963）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287963&o=json)
 - [中国历代人物传记资料库：王養正（CBDB 202427）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202427&o=json)
 - [中国历代人物传记资料库：王邑（CBDB 287958）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287958&o=json)

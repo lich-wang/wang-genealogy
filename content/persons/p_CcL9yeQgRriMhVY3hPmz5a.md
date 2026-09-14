@@ -4,7 +4,7 @@ id: p_CcL9yeQgRriMhVY3hPmz5a
 status: active
 merged_into: null
 display_name: 王江
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -194,7 +194,81 @@ relationships:
         display_name: 王遠
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_RHIfEY20gNU5jwiGmZGh88
+        subject_person_id: p_CcL9yeQgRriMhVY3hPmz5a
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_QgRACuZHRaHM7T6tySo9qb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nLOTYZ0023gTO4uwvoWjk9
+          claim_id: c_RHIfEY20gNU5jwiGmZGh88
+          source_id: s_W0FzIhhjJhbFFgpX2txFHM
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126498 王江）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_W0FzIhhjJhbFFgpX2txFHM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王漢（CBDB 277074）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=277074&o=json
+            external_identifier: CBDB:277074
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_QgRACuZHRaHM7T6tySo9qb
+        status: active
+        display_name: 王漢
+        merged_into_person_id: null
+    - claim:
+        id: c_tPQ9qrUS-0xd3iWtHNXMle
+        subject_person_id: p_CcL9yeQgRriMhVY3hPmz5a
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_YH6ywog8NFVsKoYiz8ifqU
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-mLkaT5AGLCrIxC9Z8glUz
+          claim_id: c_tPQ9qrUS-0xd3iWtHNXMle
+          source_id: s_akHuUON6tnzi_tm2xO3LG1
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126498 王江）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_akHuUON6tnzi_tm2xO3LG1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王潛（CBDB 277076）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=277076&o=json
+            external_identifier: CBDB:277076
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_YH6ywog8NFVsKoYiz8ifqU
+        status: active
+        display_name: 王潛
+        merged_into_person_id: null
 ---
 
 # 王江
@@ -216,8 +290,12 @@ relationships:
 | spouses | p_9ftKN7J8AGpsWHRUWyFnSU | 李氏 | accepted |
 | ancestors | p_FxBbEWyPCZJRS2BVCvKm1v | 王仲德 | accepted |
 | ancestors | p_UoL6tdmfZkcJmk3xo3DAA6 | 王遠 | accepted |
+| other | p_QgRACuZHRaHM7T6tySo9qb | 王漢 | accepted |
+| other | p_YH6ywog8NFVsKoYiz8ifqU | 王潛 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：李氏(王江妻)（CBDB 277072）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=277072&o=json)
+- [中国历代人物传记资料库：王漢（CBDB 277074）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=277074&o=json)
 - [中国历代人物传记资料库：王江（CBDB 126498）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126498&o=json)
+- [中国历代人物传记资料库：王潛（CBDB 277076）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=277076&o=json)

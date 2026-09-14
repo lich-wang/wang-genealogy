@@ -4,7 +4,7 @@ id: p_rfGZtWQ8pfDBATdxzFKLBp
 status: active
 merged_into: null
 display_name: 王榮
-revision: 2
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,228 @@ relationships:
         status: active
         display_name: 王濬
         merged_into_person_id: null
+    - claim:
+        id: c_EplfVpRrzLFcdODOyMqtAG
+        subject_person_id: p_rfGZtWQ8pfDBATdxzFKLBp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3yzEBQaW4CweFF5zP5io5X
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mRmi4CC-h9oHzAiHIcenW4
+          claim_id: c_EplfVpRrzLFcdODOyMqtAG
+          source_id: s_hTeb4GRMLThgwpayB8HzkO
+          stance: supports
+          locator: CBDB：兄弟 王濬（126841）之父／母 王榮
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王寬 与 王濬 为同胞（CBDB 记「弟」），王濬 之父／母即 王寬 之父／母。
+          source:
+            id: s_hTeb4GRMLThgwpayB8HzkO
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寬（CBDB 238020）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238020&o=json
+            external_identifier: CBDB:238020
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3yzEBQaW4CweFF5zP5io5X
+        status: active
+        display_name: 王寬
+        merged_into_person_id: null
+    - claim:
+        id: c_h_iebETmzQNe3qVHGQx6gM
+        subject_person_id: p_rfGZtWQ8pfDBATdxzFKLBp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PRJuz6g1EPua8SAJHMVxc8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_t-tDnMvVQvm280u6qlvVS9
+          claim_id: c_h_iebETmzQNe3qVHGQx6gM
+          source_id: s_pVYoLt12lIQ8YWpiIw85BZ
+          stance: supports
+          locator: CBDB：兄弟 王濬（126841）之父／母 王榮
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王振 与 王濬 为同胞（CBDB 记「弟」），王濬 之父／母即 王振 之父／母。
+          source:
+            id: s_pVYoLt12lIQ8YWpiIw85BZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王振（CBDB 238075）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238075&o=json
+            external_identifier: CBDB:238075
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PRJuz6g1EPua8SAJHMVxc8
+        status: active
+        display_name: 王振
+        merged_into_person_id: null
+    - claim:
+        id: c_iCrQ25tuP-3ibgg8N6KkL4
+        subject_person_id: p_rfGZtWQ8pfDBATdxzFKLBp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_U91Yi4XsjUnTQKezbKmFZ4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rQAOlypgRbNOai1T_f5Ofb
+          claim_id: c_iCrQ25tuP-3ibgg8N6KkL4
+          source_id: s_ZDXnc54ONlYy116mgCPvHL
+          stance: supports
+          locator: CBDB：兄弟 王濬（126841）之父／母 王榮
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王友才 与 王濬 为同胞（CBDB 记「弟」），王濬 之父／母即 王友才 之父／母。
+          source:
+            id: s_ZDXnc54ONlYy116mgCPvHL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王友才（CBDB 238031）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238031&o=json
+            external_identifier: CBDB:238031
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_U91Yi4XsjUnTQKezbKmFZ4
+        status: active
+        display_name: 王友才
+        merged_into_person_id: null
+    - claim:
+        id: c_sn53XoXaFzu3l7N4d2QZqR
+        subject_person_id: p_rfGZtWQ8pfDBATdxzFKLBp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_f13BewmCUu5tL2gG3mx3vv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zmzK6OJbCCsxxh0YSrJdZK
+          claim_id: c_sn53XoXaFzu3l7N4d2QZqR
+          source_id: s_VR5x7HOFlXvRNQe1otBoMZ
+          stance: supports
+          locator: CBDB：兄弟 王濬（126841）之父／母 王榮
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王通 与 王濬 为同胞（CBDB 记「弟」），王濬 之父／母即 王通 之父／母。
+          source:
+            id: s_VR5x7HOFlXvRNQe1otBoMZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王通（CBDB 238053）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238053&o=json
+            external_identifier: CBDB:238053
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_f13BewmCUu5tL2gG3mx3vv
+        status: active
+        display_name: 王通
+        merged_into_person_id: null
+    - claim:
+        id: c_I4ZwTJaRKm3YD2CrHH8GXL
+        subject_person_id: p_rfGZtWQ8pfDBATdxzFKLBp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rFDtpHcmA3zSJdT1XjKQ9W
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8p-j-WuM0n7YVIxAylPHq7
+          claim_id: c_I4ZwTJaRKm3YD2CrHH8GXL
+          source_id: s_q5EBLgX64IPfRHytyB9yWK
+          stance: supports
+          locator: CBDB：兄弟 王濬（126841）之父／母 王榮
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王恭 与 王濬 为同胞（CBDB 记「弟」），王濬 之父／母即 王恭 之父／母。
+          source:
+            id: s_q5EBLgX64IPfRHytyB9yWK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恭（CBDB 238064）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238064&o=json
+            external_identifier: CBDB:238064
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rFDtpHcmA3zSJdT1XjKQ9W
+        status: active
+        display_name: 王恭
+        merged_into_person_id: null
+    - claim:
+        id: c_gDMzovPDWS7fpKBMK6fgAM
+        subject_person_id: p_rfGZtWQ8pfDBATdxzFKLBp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_stVWCV7M3bfYpduLX48CKy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J3FX_dQ9sNK4gxzJ7G4-nE
+          claim_id: c_gDMzovPDWS7fpKBMK6fgAM
+          source_id: s_rEyptl88OSnTXuOKGvy6gy
+          stance: supports
+          locator: CBDB：兄弟 王濬（126841）之父／母 王榮
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王澤 与 王濬 为同胞（CBDB 记「弟」），王濬 之父／母即 王澤 之父／母。
+          source:
+            id: s_rEyptl88OSnTXuOKGvy6gy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王澤（CBDB 238042）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238042&o=json
+            external_identifier: CBDB:238042
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_stVWCV7M3bfYpduLX48CKy
+        status: active
+        display_name: 王澤
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +346,19 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_XbUzXxzW1NKiE1b2phZgUS | 王濬 | accepted |
+| children | p_3yzEBQaW4CweFF5zP5io5X | 王寬 | accepted |
+| children | p_PRJuz6g1EPua8SAJHMVxc8 | 王振 | accepted |
+| children | p_U91Yi4XsjUnTQKezbKmFZ4 | 王友才 | accepted |
+| children | p_f13BewmCUu5tL2gG3mx3vv | 王通 | accepted |
+| children | p_rFDtpHcmA3zSJdT1XjKQ9W | 王恭 | accepted |
+| children | p_stVWCV7M3bfYpduLX48CKy | 王澤 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王恭（CBDB 238064）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238064&o=json)
+- [中国历代人物传记资料库：王寬（CBDB 238020）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238020&o=json)
 - [中国历代人物传记资料库：王榮（CBDB 237975）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237975&o=json)
+- [中国历代人物传记资料库：王通（CBDB 238053）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238053&o=json)
+- [中国历代人物传记资料库：王友才（CBDB 238031）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238031&o=json)
+- [中国历代人物传记资料库：王澤（CBDB 238042）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238042&o=json)
+- [中国历代人物传记资料库：王振（CBDB 238075）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238075&o=json)

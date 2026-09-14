@@ -4,7 +4,7 @@ id: p_mj43p62dQVDfJdFrwRMJq5
 status: active
 merged_into: null
 display_name: 王學
-revision: 3
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,155 @@ relationships:
         display_name: 王佐
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_4fN0kHqo9CH3Zp_1588nh8
+        subject_person_id: p_1ruxvtnFk3xYbrznp37pjw
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mj43p62dQVDfJdFrwRMJq5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fjhPNw1c225-T9bh7zwTE3
+          claim_id: c_4fN0kHqo9CH3Zp_1588nh8
+          source_id: s_uehzJSy7JfBu5Cf5oHdjQm
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203587 王學）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_uehzJSy7JfBu5Cf5oHdjQm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王問學（CBDB 306926）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306926&o=json
+            external_identifier: CBDB:306926
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1ruxvtnFk3xYbrznp37pjw
+        status: active
+        display_name: 王問學
+        merged_into_person_id: null
+    - claim:
+        id: c_E_ubgB2ei9NizvJsTloy1H
+        subject_person_id: p_F23fYphen2FH6jcDL7wNMK
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mj43p62dQVDfJdFrwRMJq5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hJwL54QpSwPYe6bwuL-YzO
+          claim_id: c_E_ubgB2ei9NizvJsTloy1H
+          source_id: s_bkKt9Xgu9tDcOsj4JHdMqz
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203587 王學）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_bkKt9Xgu9tDcOsj4JHdMqz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王勤學（CBDB 306923）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306923&o=json
+            external_identifier: CBDB:306923
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_F23fYphen2FH6jcDL7wNMK
+        status: active
+        display_name: 王勤學
+        merged_into_person_id: null
+    - claim:
+        id: c_pzl0Ua6ic-Y7AdMbVfnS6T
+        subject_person_id: p_NWhDXjjyvtEHGZoHxxSNy6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mj43p62dQVDfJdFrwRMJq5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pg4fBel_d_tPFD7YY3tXf5
+          claim_id: c_pzl0Ua6ic-Y7AdMbVfnS6T
+          source_id: s_CB9YMdMjxDswQoLAHNoXt2
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203587 王學）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_CB9YMdMjxDswQoLAHNoXt2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王實學（CBDB 306925）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306925&o=json
+            external_identifier: CBDB:306925
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NWhDXjjyvtEHGZoHxxSNy6
+        status: active
+        display_name: 王實學
+        merged_into_person_id: null
+    - claim:
+        id: c_TFWfLc_tJ2WftPuPVUzKgo
+        subject_person_id: p_Qeav4GLvbK5gz38hx7pdce
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mj43p62dQVDfJdFrwRMJq5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mx5em21YxmOnatKsYCnRsO
+          claim_id: c_TFWfLc_tJ2WftPuPVUzKgo
+          source_id: s_OjOYAPzRa9VVfe_3RyNPFb
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203587 王學）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_OjOYAPzRa9VVfe_3RyNPFb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王好學（CBDB 306924）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306924&o=json
+            external_identifier: CBDB:306924
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Qeav4GLvbK5gz38hx7pdce
+        status: active
+        display_name: 王好學
+        merged_into_person_id: null
 ---
 
 # 王學
@@ -245,8 +393,16 @@ relationships:
 | spouses | p_NQyVzbqU794mopnoizCtyE | 某氏 | accepted |
 | ancestors | p_NqoNwLLj68W7dawMNBHSDK | 王素 | accepted |
 | ancestors | p_XAu3QsqAFjPkKsDGdU9zAQ | 王佐 | accepted |
+| other | p_1ruxvtnFk3xYbrznp37pjw | 王問學 | accepted |
+| other | p_F23fYphen2FH6jcDL7wNMK | 王勤學 | accepted |
+| other | p_NWhDXjjyvtEHGZoHxxSNy6 | 王實學 | accepted |
+| other | p_Qeav4GLvbK5gz38hx7pdce | 王好學 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：某氏(王學妻)（CBDB 306922）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306922&o=json)
+- [中国历代人物传记资料库：王好學（CBDB 306924）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306924&o=json)
+- [中国历代人物传记资料库：王勤學（CBDB 306923）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306923&o=json)
+- [中国历代人物传记资料库：王實學（CBDB 306925）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306925&o=json)
+- [中国历代人物传记资料库：王問學（CBDB 306926）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306926&o=json)
 - [中国历代人物传记资料库：王學（CBDB 203587）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203587&o=json)

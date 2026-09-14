@@ -4,7 +4,7 @@ id: p_FhThjsF4g73SkGN41F7MyF
 status: active
 merged_into: null
 display_name: 王正
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_qbfeDD8AqDn9GQFY7Sz2YD
+        subject_person_id: p_493jjNvpMG2MDc1hCwrQiK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FhThjsF4g73SkGN41F7MyF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PN8L_MsWWz937a5KzoSaQ_
+          claim_id: c_qbfeDD8AqDn9GQFY7Sz2YD
+          source_id: s_7eeFsHfjPwCP9X7dB-LldA
+          stance: supports
+          locator: CBDB：兄弟 王完（201827）之父／母 王紹某
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王正 与 王完 为同胞（CBDB 记「弟」），王完 之父／母即 王正 之父／母。
+          source:
+            id: s_7eeFsHfjPwCP9X7dB-LldA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正（CBDB 278858）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278858&o=json
+            external_identifier: CBDB:278858
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_493jjNvpMG2MDc1hCwrQiK
+        status: active
+        display_name: 王紹某
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_vmvEZcr10JJWW4ljJ1vi7w
+        subject_person_id: p_87vQWSqin1Cc8rN4TeH3X4
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_FhThjsF4g73SkGN41F7MyF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hKlinAR9jy_6UqPk3MQbcJ
+          claim_id: c_vmvEZcr10JJWW4ljJ1vi7w
+          source_id: s_7eeFsHfjPwCP9X7dB-LldA
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201827 王完）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_7eeFsHfjPwCP9X7dB-LldA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正（CBDB 278858）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278858&o=json
+            external_identifier: CBDB:278858
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_87vQWSqin1Cc8rN4TeH3X4
+        status: active
+        display_name: 王完
+        merged_into_person_id: null
 ---
 
 # 王正
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_493jjNvpMG2MDc1hCwrQiK | 王紹某 | accepted |
+| other | p_87vQWSqin1Cc8rN4TeH3X4 | 王完 | accepted |
 
 ## 外部来源
 

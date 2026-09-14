@@ -4,7 +4,7 @@ id: p_WQELCyNtxHbkJD3Uq4LakB
 status: active
 merged_into: null
 display_name: 王堯封
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -191,7 +191,81 @@ relationships:
         display_name: 王得辛
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_UvuWtcKk7KelGM_bDDQKJz
+        subject_person_id: p_1iyy2sTfBKuMdfrTjqyFBP
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_WQELCyNtxHbkJD3Uq4LakB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZNJM1VqhTcCanNvO0ccIhZ
+          claim_id: c_UvuWtcKk7KelGM_bDDQKJz
+          source_id: s_YB-n9Jtw4txEJ8TR49lnwJ
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126716 王堯封）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_YB-n9Jtw4txEJ8TR49lnwJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王堯卿（CBDB 273833）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273833&o=json
+            external_identifier: CBDB:273833
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1iyy2sTfBKuMdfrTjqyFBP
+        status: active
+        display_name: 王堯卿
+        merged_into_person_id: null
+    - claim:
+        id: c_JxYP_x5BhUuRFFgmzWWnn4
+        subject_person_id: p_6es6XQ9pfmNf8BVum2oix6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_WQELCyNtxHbkJD3Uq4LakB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ekDXLXpXJbvbnKFOVmQA5b
+          claim_id: c_JxYP_x5BhUuRFFgmzWWnn4
+          source_id: s_6zbUhNwFxz53AvyB0Xv3MS
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126716 王堯封）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_6zbUhNwFxz53AvyB0Xv3MS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王堯咨（CBDB 273834）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273834&o=json
+            external_identifier: CBDB:273834
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6es6XQ9pfmNf8BVum2oix6
+        status: active
+        display_name: 王堯咨
+        merged_into_person_id: null
 ---
 
 # 王堯封
@@ -212,6 +286,8 @@ relationships:
 | parents | p_iqf8z5vVDeG4f4cJMH52mk | 王諒 | accepted |
 | ancestors | p_mPHsf6VHzJt1o5uC9iYCJS | 王興 | accepted |
 | ancestors | p_EiHTYbCwNgFcHn8XwhbjFh | 王得辛 | accepted |
+| other | p_1iyy2sTfBKuMdfrTjqyFBP | 王堯卿 | accepted |
+| other | p_6es6XQ9pfmNf8BVum2oix6 | 王堯咨 | accepted |
 
 ## 外部来源
 
@@ -219,3 +295,5 @@ relationships:
 - [中国历代人物传记资料库：王諒（CBDB 273830）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273830&o=json)
 - [中国历代人物传记资料库：王興（CBDB 273827）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273827&o=json)
 - [中国历代人物传记资料库：王堯封（CBDB 126716）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126716&o=json)
+- [中国历代人物传记资料库：王堯卿（CBDB 273833）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273833&o=json)
+- [中国历代人物传记资料库：王堯咨（CBDB 273834）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273834&o=json)

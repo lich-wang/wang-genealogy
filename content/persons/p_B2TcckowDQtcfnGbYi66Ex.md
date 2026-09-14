@@ -4,7 +4,7 @@ id: p_B2TcckowDQtcfnGbYi66Ex
 status: active
 merged_into: null
 display_name: 王延善
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,80 @@ relationships:
         status: active
         display_name: 王餘佑
         merged_into_person_id: null
+    - claim:
+        id: c_2Z8BCi11YYsHQNrnPrj9TJ
+        subject_person_id: p_B2TcckowDQtcfnGbYi66Ex
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1bt9A48WPN5iyDMj12mMZc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IwJ2rC1wWZEWNrXt33RfY5
+          claim_id: c_2Z8BCi11YYsHQNrnPrj9TJ
+          source_id: s_s-GgjeLnVXxw7RKARCAm8R
+          stance: supports
+          locator: CBDB：兄弟 王餘佑（69444）之父／母 王延善
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王餘恪 与 王餘佑 为同胞（CBDB 记「弟」），王餘佑 之父／母即 王餘恪 之父／母。
+          source:
+            id: s_s-GgjeLnVXxw7RKARCAm8R
+            source_type: api_record
+            title: 中国历代人物传记资料库：王餘恪（CBDB 526972）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526972&o=json
+            external_identifier: CBDB:526972
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1bt9A48WPN5iyDMj12mMZc
+        status: active
+        display_name: 王餘恪
+        merged_into_person_id: null
+    - claim:
+        id: c_XzPqfkV888ReRORPHP5chv
+        subject_person_id: p_B2TcckowDQtcfnGbYi66Ex
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zUd5JQtsvmEP1aiwEfVZ5E
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kWNyS_x69zkkjf3NuSPWjA
+          claim_id: c_XzPqfkV888ReRORPHP5chv
+          source_id: s_LcXyYpDqAP9RSPReTA576Z
+          stance: supports
+          locator: CBDB：兄弟 王餘佑（69444）之父／母 王延善
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王餘嚴 与 王餘佑 为同胞（CBDB 记「兄」），王餘佑 之父／母即 王餘嚴 之父／母。
+          source:
+            id: s_LcXyYpDqAP9RSPReTA576Z
+            source_type: api_record
+            title: 中国历代人物传记资料库：王餘嚴（CBDB 526974）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526974&o=json
+            external_identifier: CBDB:526974
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zUd5JQtsvmEP1aiwEfVZ5E
+        status: active
+        display_name: 王餘嚴
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +209,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_2TkqAvb3gC2J9torN4HMvi | 王餘佑 | accepted |
+| children | p_1bt9A48WPN5iyDMj12mMZc | 王餘恪 | accepted |
+| children | p_zUd5JQtsvmEP1aiwEfVZ5E | 王餘嚴 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王延善（CBDB 526970）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526970&o=json)
+- [中国历代人物传记资料库：王餘恪（CBDB 526972）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526972&o=json)
+- [中国历代人物传记资料库：王餘嚴（CBDB 526974）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526974&o=json)
 - [中国历代人物传记资料库：王餘佑（CBDB 69444）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69444&o=json)

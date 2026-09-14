@@ -4,7 +4,7 @@ id: p_DBSpMx5KF2ajdMrE1Fppef
 status: active
 merged_into: null
 display_name: 王奎
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -246,7 +246,81 @@ relationships:
         display_name: 王鎬
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ZLibHbIrwzHimlf1pVhSgr
+        subject_person_id: p_DBSpMx5KF2ajdMrE1Fppef
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Jr6pF8cJSR9CuG4WzP69q3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ATzOp2ql78VQXaeLW8G2jW
+          claim_id: c_ZLibHbIrwzHimlf1pVhSgr
+          source_id: s_Bj0bNtvQtFY79LsrSRGrhU
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126602 王奎）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Bj0bNtvQtFY79LsrSRGrhU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王垔（CBDB 272411）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272411&o=json
+            external_identifier: CBDB:272411
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Jr6pF8cJSR9CuG4WzP69q3
+        status: active
+        display_name: 王垔
+        merged_into_person_id: null
+    - claim:
+        id: c_0eGMkcaFMQNzfF6zqYB9Kd
+        subject_person_id: p_DBSpMx5KF2ajdMrE1Fppef
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fT16zdEs2r81u6ykJGTsjM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YqXHXzpWQ8OgMnnlWd-scF
+          claim_id: c_0eGMkcaFMQNzfF6zqYB9Kd
+          source_id: s_3EQR1RvwaojUQqLeo663Qi
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126602 王奎）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_3EQR1RvwaojUQqLeo663Qi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王坤（CBDB 272412）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272412&o=json
+            external_identifier: CBDB:272412
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fT16zdEs2r81u6ykJGTsjM
+        status: active
+        display_name: 王坤
+        merged_into_person_id: null
 ---
 
 # 王奎
@@ -269,6 +343,8 @@ relationships:
 | parents | p_uV1YjCTPo5QWbEPfDKw9o3 | 王公甫 | accepted |
 | ancestors | p_6fP6yoQB92HAJJGNQ4imGY | 王珪 | accepted |
 | ancestors | p_xZSbZhi5WNJakRFocSqLrP | 王鎬 | accepted |
+| other | p_Jr6pF8cJSR9CuG4WzP69q3 | 王垔 | accepted |
+| other | p_fT16zdEs2r81u6ykJGTsjM | 王坤 | accepted |
 
 ## 外部来源
 
@@ -276,3 +352,5 @@ relationships:
 - [中国历代人物传记资料库：王珪（CBDB 272406）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272406&o=json)
 - [中国历代人物传记资料库：王鎬（CBDB 272404）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272404&o=json)
 - [中国历代人物传记资料库：王奎（CBDB 126602）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126602&o=json)
+- [中国历代人物传记资料库：王坤（CBDB 272412）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272412&o=json)
+- [中国历代人物传记资料库：王垔（CBDB 272411）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272411&o=json)

@@ -4,7 +4,7 @@ id: p_HRhvUU4qCYj6R73J2eH5D9
 status: active
 merged_into: null
 display_name: 王崇
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,43 @@ relationships:
         status: active
         display_name: 王楠
         merged_into_person_id: null
+    - claim:
+        id: c_fdveHh8WyKlOXAjZmG1Bs8
+        subject_person_id: p_HRhvUU4qCYj6R73J2eH5D9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CHRyp7op73QmWwQx6deKgx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Bv632zm9K864_-31qJoXne
+          claim_id: c_fdveHh8WyKlOXAjZmG1Bs8
+          source_id: s_B9IW_JK5mnBnCOsm4tn2gm
+          stance: supports
+          locator: CBDB：兄弟 王楠（203575）之父／母 王崇
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王松 与 王楠 为同胞（CBDB 记「弟」），王楠 之父／母即 王松 之父／母。
+          source:
+            id: s_B9IW_JK5mnBnCOsm4tn2gm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王松（CBDB 306733）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306733&o=json
+            external_identifier: CBDB:306733
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CHRyp7op73QmWwQx6deKgx
+        status: active
+        display_name: 王松
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_zAh17pTJy9yoR9V9ArCvL7 | 王楠 | accepted |
+| children | p_CHRyp7op73QmWwQx6deKgx | 王松 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王崇（CBDB 306730）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306730&o=json)
+- [中国历代人物传记资料库：王松（CBDB 306733）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306733&o=json)

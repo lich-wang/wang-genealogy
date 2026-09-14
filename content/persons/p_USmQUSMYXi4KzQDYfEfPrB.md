@@ -4,7 +4,7 @@ id: p_USmQUSMYXi4KzQDYfEfPrB
 status: active
 merged_into: null
 display_name: 王三聘
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,81 @@ relationships:
         display_name: 王成
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ttiRHNb2YJW1XcP7nEHydc
+        subject_person_id: p_USmQUSMYXi4KzQDYfEfPrB
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_b9xjNccc1s62G7w8GroKVg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZOp49b9FN_XcuhucSCC3F4
+          claim_id: c_ttiRHNb2YJW1XcP7nEHydc
+          source_id: s_I3Q2JJAwQZaDH5_h6IKNOg
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203385 王三聘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_I3Q2JJAwQZaDH5_h6IKNOg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三顧（CBDB 303946）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303946&o=json
+            external_identifier: CBDB:303946
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_b9xjNccc1s62G7w8GroKVg
+        status: active
+        display_name: 王三顧
+        merged_into_person_id: null
+    - claim:
+        id: c_DQFfcldtQiJPm6RUJjxCTG
+        subject_person_id: p_USmQUSMYXi4KzQDYfEfPrB
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_pXPDHgXhsJmbet7dfq14fb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lc2LlOxzMCR70FxKGM7ztn
+          claim_id: c_DQFfcldtQiJPm6RUJjxCTG
+          source_id: s_N76ZGxk4KZ2r1bR8og6oLm
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203385 王三聘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_N76ZGxk4KZ2r1bR8og6oLm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三讓（CBDB 303947）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303947&o=json
+            external_identifier: CBDB:303947
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_pXPDHgXhsJmbet7dfq14fb
+        status: active
+        display_name: 王三讓
+        merged_into_person_id: null
 ---
 
 # 王三聘
@@ -240,10 +314,14 @@ relationships:
 | parents | p_32qBUADizjGa3P7B3ZTimt | 王瑤 | accepted |
 | ancestors | p_9V1S8p6jPM71QZAFWb6twD | 王禧 | accepted |
 | ancestors | p_P9gDV5HsE4yKwvXFECnE97 | 王成 | accepted |
+| other | p_b9xjNccc1s62G7w8GroKVg | 王三顧 | accepted |
+| other | p_pXPDHgXhsJmbet7dfq14fb | 王三讓 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王成（CBDB 303940）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303940&o=json)
+- [中国历代人物传记资料库：王三顧（CBDB 303946）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303946&o=json)
 - [中国历代人物传记资料库：王三聘（CBDB 203385）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203385&o=json)
+- [中国历代人物传记资料库：王三讓（CBDB 303947）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303947&o=json)
 - [中国历代人物传记资料库：王禧（CBDB 303941）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303941&o=json)
 - [中国历代人物传记资料库：王瑤（CBDB 303942）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303942&o=json)

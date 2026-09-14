@@ -4,7 +4,7 @@ id: p_k3fw4jn7UF1hujd81L3vBe
 status: active
 merged_into: null
 display_name: 王蔚
-revision: 4
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,155 @@ relationships:
         display_name: 王佑
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_iczTsbn8s7mw3FRh-QFRZU
+        subject_person_id: p_H1xyKpfKKwUtC1UcZNSPpZ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_k3fw4jn7UF1hujd81L3vBe
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MlxXRsL3gfnzrWflIu1kva
+          claim_id: c_iczTsbn8s7mw3FRh-QFRZU
+          source_id: s_tLKvVMJr45JwzWM4cP01ow
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205903 王蔚）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_tLKvVMJr45JwzWM4cP01ow
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文薦（CBDB 210432）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210432&o=json
+            external_identifier: CBDB:210432
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_H1xyKpfKKwUtC1UcZNSPpZ
+        status: active
+        display_name: 王文薦
+        merged_into_person_id: null
+    - claim:
+        id: c_qaklc_Er8gbIOzwXhC3cl1
+        subject_person_id: p_HK7Yqf7oZNVE1Sm8bdpuJV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_k3fw4jn7UF1hujd81L3vBe
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TUcAByfF5PRDFU3JLepzCW
+          claim_id: c_qaklc_Er8gbIOzwXhC3cl1
+          source_id: s_2EySgIHreaqR0TYHNPNSt3
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205903 王蔚）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_2EySgIHreaqR0TYHNPNSt3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文藝（CBDB 210434）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210434&o=json
+            external_identifier: CBDB:210434
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HK7Yqf7oZNVE1Sm8bdpuJV
+        status: active
+        display_name: 王文藝
+        merged_into_person_id: null
+    - claim:
+        id: c_AkQwijbZE6WurOGzhZOPJ_
+        subject_person_id: p_LB3b7yHcYcCthoZFCN1DB6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_k3fw4jn7UF1hujd81L3vBe
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_24IxX3JZ2QUocTp3O143bs
+          claim_id: c_AkQwijbZE6WurOGzhZOPJ_
+          source_id: s_zvqkL-OhLF_hH3xDxtHYS4
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205903 王蔚）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_zvqkL-OhLF_hH3xDxtHYS4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王藻（CBDB 210431）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210431&o=json
+            external_identifier: CBDB:210431
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_LB3b7yHcYcCthoZFCN1DB6
+        status: active
+        display_name: 王藻
+        merged_into_person_id: null
+    - claim:
+        id: c_VahjfflfIf4avsYalYHsFN
+        subject_person_id: p_Mfr14WZdLtDDLf9Fy4GsT7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_k3fw4jn7UF1hujd81L3vBe
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Bi5wDo87oLP7GrMDiWRypG
+          claim_id: c_VahjfflfIf4avsYalYHsFN
+          source_id: s_Psw9qeQSVTv6ubsGXjN6sP
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205903 王蔚）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Psw9qeQSVTv6ubsGXjN6sP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文英（CBDB 210433）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210433&o=json
+            external_identifier: CBDB:210433
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Mfr14WZdLtDDLf9Fy4GsT7
+        status: active
+        display_name: 王文英
+        merged_into_person_id: null
 ---
 
 # 王蔚
@@ -240,10 +388,18 @@ relationships:
 | parents | p_cJPjdNwsR6729BhxkY9bu9 | 王撫民 | accepted |
 | ancestors | p_EvAbb7DY8himCdLDQKtXZq | 王連 | accepted |
 | ancestors | p_uUJPU1zQRi3DAsgSa7zacb | 王佑 | accepted |
+| other | p_H1xyKpfKKwUtC1UcZNSPpZ | 王文薦 | accepted |
+| other | p_HK7Yqf7oZNVE1Sm8bdpuJV | 王文藝 | accepted |
+| other | p_LB3b7yHcYcCthoZFCN1DB6 | 王藻 | accepted |
+| other | p_Mfr14WZdLtDDLf9Fy4GsT7 | 王文英 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王撫民（CBDB 210428）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210428&o=json)
 - [中国历代人物传记资料库：王連（CBDB 210426）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210426&o=json)
 - [中国历代人物传记资料库：王蔚（CBDB 205903）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205903&o=json)
+- [中国历代人物传记资料库：王文薦（CBDB 210432）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210432&o=json)
+- [中国历代人物传记资料库：王文藝（CBDB 210434）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210434&o=json)
+- [中国历代人物传记资料库：王文英（CBDB 210433）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210433&o=json)
 - [中国历代人物传记资料库：王佑（CBDB 210427）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210427&o=json)
+- [中国历代人物传记资料库：王藻（CBDB 210431）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210431&o=json)

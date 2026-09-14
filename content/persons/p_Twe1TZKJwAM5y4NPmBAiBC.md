@@ -4,7 +4,7 @@ id: p_Twe1TZKJwAM5y4NPmBAiBC
 status: active
 merged_into: null
 display_name: 王鞏
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -155,7 +155,118 @@ relationships:
         status: active
         display_name: 王奕
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_4LnYeKyxQ-l9CiAJK4IZkP
+        subject_person_id: p_Twe1TZKJwAM5y4NPmBAiBC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2pcPxJFEFmk5xoJqjEeQR6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_DqGSFOcvdqDe0LZUOMBOoR
+          claim_id: c_4LnYeKyxQ-l9CiAJK4IZkP
+          source_id: s_i5APgGxEm_eRStnjnW5LiU
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 134094）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_i5APgGxEm_eRStnjnW5LiU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敏行（CBDB 135561）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135561&o=json
+            external_identifier: CBDB:135561
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2pcPxJFEFmk5xoJqjEeQR6
+        status: active
+        display_name: 王敏行
+        merged_into_person_id: null
+    - claim:
+        id: c_5BYU0nh1idgbXo3g_AgyQw
+        subject_person_id: p_Twe1TZKJwAM5y4NPmBAiBC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3aH3eu1KEAHovfxwhUrxMQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_20P1C5MUYg63gDZOv0LMvE
+          claim_id: c_5BYU0nh1idgbXo3g_AgyQw
+          source_id: s_eKGcrHSLcW7PAC2cyCET80
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 134094）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_eKGcrHSLcW7PAC2cyCET80
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敏尚（CBDB 134098）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134098&o=json
+            external_identifier: CBDB:134098
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3aH3eu1KEAHovfxwhUrxMQ
+        status: active
+        display_name: 王敏尚
+        merged_into_person_id: null
+    - claim:
+        id: c_8eZnQ8PqxbrkMbHoVt5AAz
+        subject_person_id: p_Twe1TZKJwAM5y4NPmBAiBC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Nh3Rgoa4NGm5FE6FMZvwWs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_pQondy182YMi7LaEe8rgYT
+          claim_id: c_8eZnQ8PqxbrkMbHoVt5AAz
+          source_id: s_KR7P3KErHabJms4ZrN9MYR
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 134094）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_KR7P3KErHabJms4ZrN9MYR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王景初（CBDB 134099）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134099&o=json
+            external_identifier: CBDB:134099
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Nh3Rgoa4NGm5FE6FMZvwWs
+        status: active
+        display_name: 王景初
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -182,7 +293,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_E5T7DtMSUTdy3hJzYK7e45 | 王奕 | accepted |
+| children | p_2pcPxJFEFmk5xoJqjEeQR6 | 王敏行 | accepted |
+| children | p_3aH3eu1KEAHovfxwhUrxMQ | 王敏尚 | accepted |
+| children | p_Nh3Rgoa4NGm5FE6FMZvwWs | 王景初 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鞏（CBDB 134094）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134094&o=json)
+- [中国历代人物传记资料库：王景初（CBDB 134099）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134099&o=json)
+- [中国历代人物传记资料库：王敏尚（CBDB 134098）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=134098&o=json)
+- [中国历代人物传记资料库：王敏行（CBDB 135561）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135561&o=json)

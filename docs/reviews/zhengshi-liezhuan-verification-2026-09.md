@@ -199,3 +199,33 @@
 - **王爽改链**：依《晋书·王蕴传》“恭弟爽，字季明”，将库内王爽 `p_KDHyoyP…` 之父由南朝王蕴（`p_bvfS4Dfw…`）改链至东晋王蕴（`p_qJsVZWZ…`）；南朝王蕴仅余子王熙、王履。晋书之王爽（东晋）与南朝王蕴之子王爽非一人，已厘清。
 
 校验 `check:content` 通过（人物数 36,697）。
+
+## 十四、CBDB 孤立人员补链（兄弟 + 推断亲子，2026-09）
+
+针对“无任何关系边（完全孤立）”的 25,685 人，按其 CBDB `PersonKinshipInfo` 补链：
+
+### 14.1 新增兄弟谓词 `kinship.sibling_of`
+
+原模型无兄弟谓词（`packages/validation/src/kinship.ts` 原注释明确排除）。本次新增：
+
+- `packages/domain/src/enums.ts`：关系谓词加 `kinship.sibling_of`，输入枚举加 `sibling`。
+- `packages/validation/src/kinship.ts`：`normalizeRelationship` 增加对称 `sibling` 分支（按人物 ID 字典序规范化，与 `spouse_of` 同构）；中文词表加 兄/弟/姊/妹/兄弟/姊妹 等**同胞**称谓；從兄/堂弟/表兄（从亲）、继庶、义兄弟不映射。
+- `packages/domain/src/views.ts`：新增 `SiblingEdge`，`RelativesGraph.sibling_edges?`（可选，避免波及历史 API）。
+- `scripts/build-content.mjs`：`buildEdges` 产出 `sibling_edges`，纳入邻接图（使孤立者入谱）与关系计数。
+- `apps/web/src/labels.ts`：加「兄弟姊妹關係」标签（渲染沿用既有 `other` 组）。
+- `docs/DOMAIN_MODEL.md`：新增「兄弟姊妹：`kinship.sibling_of`」小节。
+- 测试：`kinship.test.ts` 增加对称规范化与词表映射用例。
+
+### 14.2 补链结果
+
+`scripts/.cache/person-online-review/add-cbdb-siblings.mjs`（gitignored）：
+
+- 建立 CBDB ID → 人物映射；对每个孤立者读其 CBDB 亲属：
+  - **兄弟边 3,653 条**（`kinship.sibling_of`，来源 CBDB）；
+  - **亲子边 3,700 条**：直接父/母（CBDB 明记）与**由兄弟关系推断**的父/母（兄弟 Y 有库内父/母 P 则补 P→本人），推断边在引用 `interpretation_note` 中注明「由兄弟关系推断」（如：「王穆 与 王存忠 为同胞（CBDB 记「弟」），王存忠 之父即 王穆 之父」）。
+- 结果：**无任何关系边者 25,685 → 21,788**（在谱人数 10,908 → 14,805）。
+
+### 14.3 尚可继续
+
+- 其余孤立者多为 CBDB 无亲属记录，或其亲属不在库（785 条亲属可新建人物后补链）。
+- 姻亲（岳父/女婿）与从亲/半兄弟暂无谓词，未映射。

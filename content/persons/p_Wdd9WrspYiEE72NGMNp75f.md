@@ -4,7 +4,7 @@ id: p_Wdd9WrspYiEE72NGMNp75f
 status: active
 merged_into: null
 display_name: 王鸿儒
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -350,7 +350,44 @@ relationships:
         merged_into_person_id: null
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_-kmAt4DR9c-cSRQ8P9qqJD
+        subject_person_id: p_MvDs1UbsPqDXB7VXxPYiJs
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Wdd9WrspYiEE72NGMNp75f
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Zq_jxm15KGHx6m2hwTzBnA
+          claim_id: c_-kmAt4DR9c-cSRQ8P9qqJD
+          source_id: s_Wn_Z_N28brbOzb8PncipnI
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 33864 王鴻儒）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Wn_Z_N28brbOzb8PncipnI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鴻漸（CBDB 33865）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33865&o=json
+            external_identifier: CBDB:33865
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MvDs1UbsPqDXB7VXxPYiJs
+        status: active
+        display_name: 王鴻漸
+        merged_into_person_id: null
 ---
 
 # 王鸿儒
@@ -373,6 +410,7 @@ relationships:
 | parents | p_PAQnJKUX1HHCzAwrFTb5md | 王本 | accepted |
 | children | p_51Pca5wdng4NB9T2FpYuFX | 王可 | accepted |
 | spouses | p_WdSei9h8Pyy5rewkZCDsYk | 吴氏 | accepted |
+| other | p_MvDs1UbsPqDXB7VXxPYiJs | 王鴻漸 | accepted |
 
 ## 外部来源
 
@@ -380,4 +418,5 @@ relationships:
 - [维基数据：王鸿儒（Q15933067）](https://www.wikidata.org/wiki/Q15933067)
 - [维基数据：王可（Q45603634）](https://www.wikidata.org/wiki/Q45603634)
 - [维基数据：吴氏（Q65863384）](https://www.wikidata.org/wiki/Q65863384)
+- [中国历代人物传记资料库：王鴻漸（CBDB 33865）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33865&o=json)
 - [CBDB 中国历代人物传记资料库：王鴻儒（33864）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33864&o=json)

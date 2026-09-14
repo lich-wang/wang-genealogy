@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王學閩
 cbdb_id: 328256
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_fU6SzLTHoMG-H2Sx7A07mp
+        subject_person_id: p_4rZFET2VU5QfJTezy8ktoQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DyDwnotNaEGHDTfCUEzzuL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XbfBExNsvve3q3_kIXNLR9
+          claim_id: c_fU6SzLTHoMG-H2Sx7A07mp
+          source_id: s_MfD6O9BWI85vfRJrkyiLC9
+          stance: supports
+          locator: CBDB：兄弟 王學古（205095）之父／母 王來召
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王學閩 与 王學古 为同胞（CBDB 记「兄」），王學古 之父／母即 王學閩 之父／母。
+          source:
+            id: s_MfD6O9BWI85vfRJrkyiLC9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王學閩（CBDB 328256）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328256&o=json
+            external_identifier: CBDB:328256
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4rZFET2VU5QfJTezy8ktoQ
+        status: active
+        display_name: 王來召
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Dxf6RovNP3zrmUDeLMLBcF
+        subject_person_id: p_DyDwnotNaEGHDTfCUEzzuL
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_EubdaeFSWc8pKsGxhe2PFM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wWczqIlqbeo_rz8Hkc7zXE
+          claim_id: c_Dxf6RovNP3zrmUDeLMLBcF
+          source_id: s_MfD6O9BWI85vfRJrkyiLC9
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205095 王學古）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_MfD6O9BWI85vfRJrkyiLC9
+            source_type: api_record
+            title: 中国历代人物传记资料库：王學閩（CBDB 328256）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=328256&o=json
+            external_identifier: CBDB:328256
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EubdaeFSWc8pKsGxhe2PFM
+        status: active
+        display_name: 王學古
+        merged_into_person_id: null
 ---
 
 # 王學閩
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_4rZFET2VU5QfJTezy8ktoQ | 王來召 | accepted |
+| other | p_EubdaeFSWc8pKsGxhe2PFM | 王學古 | accepted |
 
 ## 外部来源
 

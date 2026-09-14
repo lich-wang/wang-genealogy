@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王朝瑬
 cbdb_id: 202059
-revision: 3
+revision: 8
 properties:
   - predicate: bio.summary
     recommended:
@@ -198,7 +198,192 @@ relationships:
         display_name: 王斌
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_FNuZfIqR3PL7zuWzjhmbrY
+        subject_person_id: p_ARBsKDMivmjbBTxJiQz7Aa
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_B2McsrnuvE8iAUvxMWJ95u
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZYjBHJhucr6Epji29qRMc5
+          claim_id: c_FNuZfIqR3PL7zuWzjhmbrY
+          source_id: s_dgdNVrRQFZ3WBJSxzTDGuR
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202059 王朝瑬）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_dgdNVrRQFZ3WBJSxzTDGuR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王朝璋（CBDB 282732）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282732&o=json
+            external_identifier: CBDB:282732
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_B2McsrnuvE8iAUvxMWJ95u
+        status: active
+        display_name: 王朝璋
+        merged_into_person_id: null
+    - claim:
+        id: c_y5fFOWeEUe2TahCgetQxMr
+        subject_person_id: p_ARBsKDMivmjbBTxJiQz7Aa
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_GeZtZg8taA79XvRo6iJheA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v23yWuWKBZJOuwXknaDuXD
+          claim_id: c_y5fFOWeEUe2TahCgetQxMr
+          source_id: s_J0sqL1kqBDPseiMFzxwWdl
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202059 王朝瑬）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_J0sqL1kqBDPseiMFzxwWdl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王朝璽（CBDB 282727）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282727&o=json
+            external_identifier: CBDB:282727
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GeZtZg8taA79XvRo6iJheA
+        status: active
+        display_name: 王朝璽
+        merged_into_person_id: null
+    - claim:
+        id: c_ggmdOR083eDXPta9k50w2o
+        subject_person_id: p_ARBsKDMivmjbBTxJiQz7Aa
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_P4fTteXTJto289f9nPogZ3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_satLKMG6ia6J3VyjTTKOWD
+          claim_id: c_ggmdOR083eDXPta9k50w2o
+          source_id: s_NgaGws1td5m0D0jaxJPHrz
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202059 王朝瑬）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_NgaGws1td5m0D0jaxJPHrz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王朝明（CBDB 282729）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282729&o=json
+            external_identifier: CBDB:282729
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_P4fTteXTJto289f9nPogZ3
+        status: active
+        display_name: 王朝明
+        merged_into_person_id: null
+    - claim:
+        id: c_gUY2UKxlGKB5L41A6ebuyy
+        subject_person_id: p_ARBsKDMivmjbBTxJiQz7Aa
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_XZHwAfofVnA9Yr7Xv81tqe
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_h6V0TnYuWTELjmXgzUX--9
+          claim_id: c_gUY2UKxlGKB5L41A6ebuyy
+          source_id: s_Gk4mwzMccao0aZABh6kNXj
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202059 王朝瑬）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Gk4mwzMccao0aZABh6kNXj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王朝雍（CBDB 282728）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282728&o=json
+            external_identifier: CBDB:282728
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_XZHwAfofVnA9Yr7Xv81tqe
+        status: active
+        display_name: 王朝雍
+        merged_into_person_id: null
+    - claim:
+        id: c_JouubX_n2TC2jmSBw1BKC9
+        subject_person_id: p_ARBsKDMivmjbBTxJiQz7Aa
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kPEXS9YKCdHtELaPsm78vE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kT-FiUcAiSiX9g85uLzSAs
+          claim_id: c_JouubX_n2TC2jmSBw1BKC9
+          source_id: s_c9Utcn2GTCPe5vaZBMFrB-
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202059 王朝瑬）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_c9Utcn2GTCPe5vaZBMFrB-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王朝弼（CBDB 282730）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282730&o=json
+            external_identifier: CBDB:282730
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kPEXS9YKCdHtELaPsm78vE
+        status: active
+        display_name: 王朝弼
+        merged_into_person_id: null
 ---
 
 # 王朝瑬
@@ -219,9 +404,19 @@ relationships:
 | --- | --- | --- | --- |
 | ancestors | p_3qLC2oeE1HhZa2mfE2D9n7 | 王聚 | accepted |
 | ancestors | p_Jj4S5PPcDKSRchCbetDt1A | 王斌 | accepted |
+| other | p_B2McsrnuvE8iAUvxMWJ95u | 王朝璋 | accepted |
+| other | p_GeZtZg8taA79XvRo6iJheA | 王朝璽 | accepted |
+| other | p_P4fTteXTJto289f9nPogZ3 | 王朝明 | accepted |
+| other | p_XZHwAfofVnA9Yr7Xv81tqe | 王朝雍 | accepted |
+| other | p_kPEXS9YKCdHtELaPsm78vE | 王朝弼 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王斌（CBDB 282722）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282722&o=json)
+- [中国历代人物传记资料库：王朝弼（CBDB 282730）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282730&o=json)
 - [中国历代人物传记资料库：王朝瑬（CBDB 202059）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202059&o=json)
+- [中国历代人物传记资料库：王朝明（CBDB 282729）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282729&o=json)
+- [中国历代人物传记资料库：王朝璽（CBDB 282727）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282727&o=json)
+- [中国历代人物传记资料库：王朝雍（CBDB 282728）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282728&o=json)
+- [中国历代人物传记资料库：王朝璋（CBDB 282732）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282732&o=json)
 - [中国历代人物传记资料库：王聚（CBDB 282721）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282721&o=json)

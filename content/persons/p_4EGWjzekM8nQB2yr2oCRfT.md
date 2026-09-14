@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王瑞璋
 cbdb_id: 526801
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -113,6 +113,43 @@ relationships:
         status: active
         display_name: 王昊
         merged_into_person_id: null
+    - claim:
+        id: c_4ZJVcqy1yEX4Oxxl9Ra_YD
+        subject_person_id: p_4EGWjzekM8nQB2yr2oCRfT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_w4ezLJLy4hfFp7fG4YLjAJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FkYqlYoPywpB9YBn8asu4G
+          claim_id: c_4ZJVcqy1yEX4Oxxl9Ra_YD
+          source_id: s_QJrWJrNX28P6PdAnCqVrBW
+          stance: supports
+          locator: CBDB：兄弟 王昊（69262）之父／母 王瑞璋
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王曜昇 与 王昊 为同胞（CBDB 记「兄」），王昊 之父／母即 王曜昇 之父／母。
+          source:
+            id: s_QJrWJrNX28P6PdAnCqVrBW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王曜昇（CBDB 526803）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526803&o=json
+            external_identifier: CBDB:526803
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_w4ezLJLy4hfFp7fG4YLjAJ
+        status: active
+        display_name: 王曜昇
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -137,8 +174,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_afPNNs5ZnKkGi8uzmbG1Wn | 王昊 | accepted |
+| children | p_w4ezLJLy4hfFp7fG4YLjAJ | 王曜昇 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王昊（CBDB 69262）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69262&o=json)
 - [中国历代人物传记资料库：王瑞璋（CBDB 526801）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526801&o=json)
+- [中国历代人物传记资料库：王曜昇（CBDB 526803）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526803&o=json)

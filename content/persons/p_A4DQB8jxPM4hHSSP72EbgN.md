@@ -4,7 +4,7 @@ id: p_A4DQB8jxPM4hHSSP72EbgN
 status: active
 merged_into: null
 display_name: 王任
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,44 @@ relationships:
         display_name: 王瑄
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_e5xy2_28gZ48VoFqaygfFI
+        subject_person_id: p_A4DQB8jxPM4hHSSP72EbgN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fPJwmGWrhtJ8YLkoJibPJm
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RfqZ8tyaq8fAjAe0h9t_Qw
+          claim_id: c_e5xy2_28gZ48VoFqaygfFI
+          source_id: s_nMCZBuUan8JEW9bk9xz6nv
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206037 王任）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_nMCZBuUan8JEW9bk9xz6nv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王佐（CBDB 212512）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212512&o=json
+            external_identifier: CBDB:212512
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fPJwmGWrhtJ8YLkoJibPJm
+        status: active
+        display_name: 王佐
+        merged_into_person_id: null
 ---
 
 # 王任
@@ -245,8 +282,10 @@ relationships:
 | spouses | p_UvQvjvWrd9u9eqmRCcpgkg | 汪氏 | accepted |
 | ancestors | p_2HUXpkk9pxQEqgcQ9WG6J1 | 王時迪 | accepted |
 | ancestors | p_XkqnRRn8V45uAfqMav2HSb | 王瑄 | accepted |
+| other | p_fPJwmGWrhtJ8YLkoJibPJm | 王佐 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：汪氏(王任妻)（CBDB 212511）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212511&o=json)
 - [中国历代人物传记资料库：王任（CBDB 206037）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206037&o=json)
+- [中国历代人物传记资料库：王佐（CBDB 212512）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212512&o=json)

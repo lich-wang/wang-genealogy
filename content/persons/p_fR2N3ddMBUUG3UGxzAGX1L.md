@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王許之
 cbdb_id: 205842
-revision: 2
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -214,7 +214,118 @@ relationships:
         display_name: 王禹都
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_9IcFcyEMpbblxJrvOjFllC
+        subject_person_id: p_2KPfZCAa8pBPWBV5eZSsQE
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fR2N3ddMBUUG3UGxzAGX1L
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_C8v7auT039Tg1SLsC5HCIx
+          claim_id: c_9IcFcyEMpbblxJrvOjFllC
+          source_id: s_hzwLe44Mj6MS8nrwlHTYUB
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205842 王許之）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hzwLe44Mj6MS8nrwlHTYUB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王誥之（CBDB 209586）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209586&o=json
+            external_identifier: CBDB:209586
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2KPfZCAa8pBPWBV5eZSsQE
+        status: active
+        display_name: 王誥之
+        merged_into_person_id: null
+    - claim:
+        id: c_O0ew9UufIrrplCE7Yyqz8Y
+        subject_person_id: p_5HQu23jcME6zt69ukr6bAw
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fR2N3ddMBUUG3UGxzAGX1L
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5h9ZGTR8nzCHOYR9mUA7uY
+          claim_id: c_O0ew9UufIrrplCE7Yyqz8Y
+          source_id: s_P9g4SE9kQ58Ys_DEbQRSiP
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205842 王許之）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_P9g4SE9kQ58Ys_DEbQRSiP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王訟之（CBDB 209585）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209585&o=json
+            external_identifier: CBDB:209585
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5HQu23jcME6zt69ukr6bAw
+        status: active
+        display_name: 王訟之
+        merged_into_person_id: null
+    - claim:
+        id: c_Z--EBWpKH-1n4rECUtZFHl
+        subject_person_id: p_CdZEKFenMpNvj8Nz9W1F16
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fR2N3ddMBUUG3UGxzAGX1L
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0BQAmwEFgkUbYfidkWn2f6
+          claim_id: c_Z--EBWpKH-1n4rECUtZFHl
+          source_id: s_dCUwnNyscxsuD9XJc39Qgt
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205842 王許之）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_dCUwnNyscxsuD9XJc39Qgt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王訓之（CBDB 209584）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209584&o=json
+            external_identifier: CBDB:209584
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CdZEKFenMpNvj8Nz9W1F16
+        status: active
+        display_name: 王訓之
+        merged_into_person_id: null
 ---
 
 # 王許之
@@ -236,7 +347,13 @@ relationships:
 | parents | p_Q7ze7pnk6x88hZDm3ZFKt3 | 王湯相 | accepted |
 | ancestors | p_HuCPb2BQe3yJw3CN3sLRqE | 王舜韶 | accepted |
 | ancestors | p_zK991JnPgoDLt2L6zBXFf9 | 王禹都 | accepted |
+| other | p_2KPfZCAa8pBPWBV5eZSsQE | 王誥之 | accepted |
+| other | p_5HQu23jcME6zt69ukr6bAw | 王訟之 | accepted |
+| other | p_CdZEKFenMpNvj8Nz9W1F16 | 王訓之 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王誥之（CBDB 209586）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209586&o=json)
+- [中国历代人物传记资料库：王訟之（CBDB 209585）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209585&o=json)
 - [中国历代人物传记资料库：王許之（CBDB 205842）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205842&o=json)
+- [中国历代人物传记资料库：王訓之（CBDB 209584）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=209584&o=json)

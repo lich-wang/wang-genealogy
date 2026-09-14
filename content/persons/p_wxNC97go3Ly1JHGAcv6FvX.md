@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王佐
 cbdb_id: 236878
-revision: 4
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -225,6 +225,80 @@ relationships:
         status: active
         display_name: 王竑
         merged_into_person_id: null
+    - claim:
+        id: c_p41aD6yY-OQ4cSqC17V_U5
+        subject_person_id: p_wxNC97go3Ly1JHGAcv6FvX
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_7FHAvidD6hLR7baGi778qE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MDwU7LDw2nWMAC_GOfYW2_
+          claim_id: c_p41aD6yY-OQ4cSqC17V_U5
+          source_id: s_Ukx9ea0bUj8c0Pmxoge4SI
+          stance: supports
+          locator: CBDB：兄弟 王竑（67649）之父／母 王佐
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王浚 与 王竑 为同胞（CBDB 记「弟」），王竑 之父／母即 王浚 之父／母。
+          source:
+            id: s_Ukx9ea0bUj8c0Pmxoge4SI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王浚（CBDB 236881）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236881&o=json
+            external_identifier: CBDB:236881
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7FHAvidD6hLR7baGi778qE
+        status: active
+        display_name: 王浚
+        merged_into_person_id: null
+    - claim:
+        id: c_f_7pY_-SaE_iUmmS_MXsWg
+        subject_person_id: p_wxNC97go3Ly1JHGAcv6FvX
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_PUS1at3KmBgaeh9DmnB6Y8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lfoVrQO5RPFpF4RjE1AXFc
+          claim_id: c_f_7pY_-SaE_iUmmS_MXsWg
+          source_id: s_WErHu4swbby0Ycqs77UbAL
+          stance: supports
+          locator: CBDB：兄弟 王竑（67649）之父／母 王佐
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王靖 与 王竑 为同胞（CBDB 记「弟」），王竑 之父／母即 王靖 之父／母。
+          source:
+            id: s_WErHu4swbby0Ycqs77UbAL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王靖（CBDB 236882）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236882&o=json
+            external_identifier: CBDB:236882
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PUS1at3KmBgaeh9DmnB6Y8
+        status: active
+        display_name: 王靖
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -250,10 +324,14 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_yaK3v157GQYGTQP5RhE7JJ | 王俊卿 | accepted |
 | children | p_eFMUZgTCSMLNfAAU1Qe6q2 | 王竑 | accepted |
+| children | p_7FHAvidD6hLR7baGi778qE | 王浚 | accepted |
+| children | p_PUS1at3KmBgaeh9DmnB6Y8 | 王靖 | accepted |
 
 ## 外部来源
 
 - [维基数据：王竑（Q15900659）](https://www.wikidata.org/wiki/Q15900659)
 - [维基数据：王俊卿（Q45527566）](https://www.wikidata.org/wiki/Q45527566)
 - [维基数据：王佐（Q45527630）](https://www.wikidata.org/wiki/Q45527630)
+- [中国历代人物传记资料库：王靖（CBDB 236882）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236882&o=json)
+- [中国历代人物传记资料库：王浚（CBDB 236881）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236881&o=json)
 - [CBDB 中国历代人物传记资料库：王佐（236878）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236878&o=json)

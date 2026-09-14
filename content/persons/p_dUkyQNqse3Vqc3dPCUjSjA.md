@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王汝臯
 cbdb_id: 292170
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_5F3VBckgsRaSt0RM25boWN
+        subject_person_id: p_AjJ9D9hYYBcRjzGCjrMcoe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dUkyQNqse3Vqc3dPCUjSjA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MWWL2atjRx3mo-m4fkDdmb
+          claim_id: c_5F3VBckgsRaSt0RM25boWN
+          source_id: s_4oWkDQuhXyMxIXVEZMSbLP
+          stance: supports
+          locator: CBDB：兄弟 王繼宗（126879）之父／母 王汾
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王汝臯 与 王繼宗 为同胞（CBDB 记「弟」），王繼宗 之父／母即 王汝臯 之父／母。
+          source:
+            id: s_4oWkDQuhXyMxIXVEZMSbLP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝臯（CBDB 292170）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292170&o=json
+            external_identifier: CBDB:292170
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_AjJ9D9hYYBcRjzGCjrMcoe
+        status: active
+        display_name: 王汾
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_a5RRWpDIpvljxWix32tXSH
+        subject_person_id: p_dUkyQNqse3Vqc3dPCUjSjA
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_tJDfPMXaXoCJ7dnxXR4ZsL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KOlLk1lICeBrsr3OyVGmnq
+          claim_id: c_a5RRWpDIpvljxWix32tXSH
+          source_id: s_4oWkDQuhXyMxIXVEZMSbLP
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126879 王繼宗）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_4oWkDQuhXyMxIXVEZMSbLP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝臯（CBDB 292170）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292170&o=json
+            external_identifier: CBDB:292170
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_tJDfPMXaXoCJ7dnxXR4ZsL
+        status: active
+        display_name: 王繼宗
+        merged_into_person_id: null
 ---
 
 # 王汝臯
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_AjJ9D9hYYBcRjzGCjrMcoe | 王汾 | accepted |
+| other | p_tJDfPMXaXoCJ7dnxXR4ZsL | 王繼宗 | accepted |
 
 ## 外部来源
 

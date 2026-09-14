@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王曰銓
 cbdb_id: 222717
-revision: 2
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -114,6 +114,117 @@ relationships:
         status: active
         display_name: 王祺
         merged_into_person_id: null
+    - claim:
+        id: c_phdLybIl6RauOMcqtrtbKn
+        subject_person_id: p_yE8jyFvK41t2tC3V3Q5knu
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BsfCh2AEzGCDED5aTcrwpK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yksgljc7JMwvfkUukjoTV0
+          claim_id: c_phdLybIl6RauOMcqtrtbKn
+          source_id: s_bV-xNHXnXsNrtK3or3GBb8
+          stance: supports
+          locator: CBDB：兄弟 王祺（206753）之父／母 王曰銓
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王禛 与 王祺 为同胞（CBDB 记「兄」），王祺 之父／母即 王禛 之父／母。
+          source:
+            id: s_bV-xNHXnXsNrtK3or3GBb8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禛（CBDB 222725）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222725&o=json
+            external_identifier: CBDB:222725
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BsfCh2AEzGCDED5aTcrwpK
+        status: active
+        display_name: 王禛
+        merged_into_person_id: null
+    - claim:
+        id: c_umtB3lNvrIM1SiIhV64KnX
+        subject_person_id: p_yE8jyFvK41t2tC3V3Q5knu
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Fyz6Po6BgK51b3SEWXZuQu
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i4x_OuDFJ7T9d-o2TW8QZP
+          claim_id: c_umtB3lNvrIM1SiIhV64KnX
+          source_id: s_jkb3PElUj7-_Ttdf4jmlEG
+          stance: supports
+          locator: CBDB：兄弟 王祺（206753）之父／母 王曰銓
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王禎 与 王祺 为同胞（CBDB 记「兄」），王祺 之父／母即 王禎 之父／母。
+          source:
+            id: s_jkb3PElUj7-_Ttdf4jmlEG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禎（CBDB 222723）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222723&o=json
+            external_identifier: CBDB:222723
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Fyz6Po6BgK51b3SEWXZuQu
+        status: active
+        display_name: 王禎
+        merged_into_person_id: null
+    - claim:
+        id: c_r03PHsHTN1MdINyP1TtmqR
+        subject_person_id: p_yE8jyFvK41t2tC3V3Q5knu
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VJGXiF8kpQ8Mf3vch58uvB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EvywXwI4Q4bbjj_afY_pH-
+          claim_id: c_r03PHsHTN1MdINyP1TtmqR
+          source_id: s_8QNZtDlJYJUuPbnjQEysgh
+          stance: supports
+          locator: CBDB：兄弟 王祺（206753）之父／母 王曰銓
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王祚 与 王祺 为同胞（CBDB 记「兄」），王祺 之父／母即 王祚 之父／母。
+          source:
+            id: s_8QNZtDlJYJUuPbnjQEysgh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王祚（CBDB 222724）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222724&o=json
+            external_identifier: CBDB:222724
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VJGXiF8kpQ8Mf3vch58uvB
+        status: active
+        display_name: 王祚
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -138,7 +249,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_dS2fybT134JWfvQgxwSUXh | 王祺 | accepted |
+| children | p_BsfCh2AEzGCDED5aTcrwpK | 王禛 | accepted |
+| children | p_Fyz6Po6BgK51b3SEWXZuQu | 王禎 | accepted |
+| children | p_VJGXiF8kpQ8Mf3vch58uvB | 王祚 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王曰銓（CBDB 222717）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222717&o=json)
+- [中国历代人物传记资料库：王禎（CBDB 222723）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222723&o=json)
+- [中国历代人物传记资料库：王禛（CBDB 222725）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222725&o=json)
+- [中国历代人物传记资料库：王祚（CBDB 222724）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222724&o=json)

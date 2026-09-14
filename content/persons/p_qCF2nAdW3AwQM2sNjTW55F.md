@@ -4,7 +4,7 @@ id: p_qCF2nAdW3AwQM2sNjTW55F
 status: active
 merged_into: null
 display_name: 王獻圖
-revision: 4
+revision: 10
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,229 @@ relationships:
         display_name: 王義
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_UCVzTAov5cK2tZClpmDe98
+        subject_person_id: p_DTH2rCsEKqTDBH8mjeGqkt
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qCF2nAdW3AwQM2sNjTW55F
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3nSzgAU3OWm-lYhEdfl3e7
+          claim_id: c_UCVzTAov5cK2tZClpmDe98
+          source_id: s_XYSdrtUWPcwlMbC2DnZhFR
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203927 王獻圖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_XYSdrtUWPcwlMbC2DnZhFR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王獻書（CBDB 312065）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312065&o=json
+            external_identifier: CBDB:312065
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DTH2rCsEKqTDBH8mjeGqkt
+        status: active
+        display_name: 王獻書
+        merged_into_person_id: null
+    - claim:
+        id: c_kyzUTkj8dGRFGIQqpdLI9u
+        subject_person_id: p_PiXeb8yvLQhYVsFyyNWk3N
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qCF2nAdW3AwQM2sNjTW55F
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UclxswhD86fhHad-yzUPk5
+          claim_id: c_kyzUTkj8dGRFGIQqpdLI9u
+          source_id: s_S30K0VoSPed0jxv7uoWm8g
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203927 王獻圖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_S30K0VoSPed0jxv7uoWm8g
+            source_type: api_record
+            title: 中国历代人物传记资料库：王獻言（CBDB 312070）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312070&o=json
+            external_identifier: CBDB:312070
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PiXeb8yvLQhYVsFyyNWk3N
+        status: active
+        display_name: 王獻言
+        merged_into_person_id: null
+    - claim:
+        id: c_Slf-d9I_uqc_rOUfxtr6Vf
+        subject_person_id: p_Y1G2amKwhkCiB7APaYvbdR
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qCF2nAdW3AwQM2sNjTW55F
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KPPHKOBtT-5f36Oz64AD7D
+          claim_id: c_Slf-d9I_uqc_rOUfxtr6Vf
+          source_id: s_UeS0mNIdRd4s1VxhPg2lJG
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203927 王獻圖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_UeS0mNIdRd4s1VxhPg2lJG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王獻詩（CBDB 312068）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312068&o=json
+            external_identifier: CBDB:312068
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Y1G2amKwhkCiB7APaYvbdR
+        status: active
+        display_name: 王獻詩
+        merged_into_person_id: null
+    - claim:
+        id: c_S7B_JZr6IddWfrgppJO6W5
+        subject_person_id: p_q3f1YXuX9xs22ndzs91ctb
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qCF2nAdW3AwQM2sNjTW55F
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_n4JKKmVorugp_XQD1fpGER
+          claim_id: c_S7B_JZr6IddWfrgppJO6W5
+          source_id: s_P2aWJFq4qNMdKGLN3VKYK2
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203927 王獻圖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_P2aWJFq4qNMdKGLN3VKYK2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王獻奇（CBDB 312066）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312066&o=json
+            external_identifier: CBDB:312066
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_q3f1YXuX9xs22ndzs91ctb
+        status: active
+        display_name: 王獻奇
+        merged_into_person_id: null
+    - claim:
+        id: c_ykLygnR-qtZE6C10DLCdCI
+        subject_person_id: p_qCF2nAdW3AwQM2sNjTW55F
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wPBmvnECQT1GB1CU6Jp4p8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EtAPBK2pbp7FiafvavmPia
+          claim_id: c_ykLygnR-qtZE6C10DLCdCI
+          source_id: s_6kfWSfb0K9ev4HjigBXIZ6
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203927 王獻圖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_6kfWSfb0K9ev4HjigBXIZ6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王獻文（CBDB 312069）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312069&o=json
+            external_identifier: CBDB:312069
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wPBmvnECQT1GB1CU6Jp4p8
+        status: active
+        display_name: 王獻文
+        merged_into_person_id: null
+    - claim:
+        id: c_IhU0NDBWa2laup2wQ1DUQu
+        subject_person_id: p_qCF2nAdW3AwQM2sNjTW55F
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wgkQ8PZsqBwVA1BD666D3u
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MD4JWizd8fvoBm4govUI2k
+          claim_id: c_IhU0NDBWa2laup2wQ1DUQu
+          source_id: s_dwpjTQlu3Xsm8mJDML8YFJ
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203927 王獻圖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_dwpjTQlu3Xsm8mJDML8YFJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王獻策（CBDB 312067）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312067&o=json
+            external_identifier: CBDB:312067
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wgkQ8PZsqBwVA1BD666D3u
+        status: active
+        display_name: 王獻策
+        merged_into_person_id: null
 ---
 
 # 王獻圖
@@ -240,10 +462,22 @@ relationships:
 | parents | p_gGjZBHoDDbj9pFHekYZYqw | 王灌 | accepted |
 | ancestors | p_9HMtTjvmoGeT3dPyaMfM32 | 王鑰 | accepted |
 | ancestors | p_zCUW578u3AU8q1fSG3rKQE | 王義 | accepted |
+| other | p_DTH2rCsEKqTDBH8mjeGqkt | 王獻書 | accepted |
+| other | p_PiXeb8yvLQhYVsFyyNWk3N | 王獻言 | accepted |
+| other | p_Y1G2amKwhkCiB7APaYvbdR | 王獻詩 | accepted |
+| other | p_q3f1YXuX9xs22ndzs91ctb | 王獻奇 | accepted |
+| other | p_wPBmvnECQT1GB1CU6Jp4p8 | 王獻文 | accepted |
+| other | p_wgkQ8PZsqBwVA1BD666D3u | 王獻策 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王灌（CBDB 312061）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312061&o=json)
+- [中国历代人物传记资料库：王獻策（CBDB 312067）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312067&o=json)
+- [中国历代人物传记资料库：王獻奇（CBDB 312066）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312066&o=json)
+- [中国历代人物传记资料库：王獻詩（CBDB 312068）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312068&o=json)
+- [中国历代人物传记资料库：王獻書（CBDB 312065）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312065&o=json)
 - [中国历代人物传记资料库：王獻圖（CBDB 203927）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203927&o=json)
+- [中国历代人物传记资料库：王獻文（CBDB 312069）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312069&o=json)
+- [中国历代人物传记资料库：王獻言（CBDB 312070）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312070&o=json)
 - [中国历代人物传记资料库：王鑰（CBDB 312060）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312060&o=json)
 - [中国历代人物传记资料库：王義（CBDB 312059）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312059&o=json)

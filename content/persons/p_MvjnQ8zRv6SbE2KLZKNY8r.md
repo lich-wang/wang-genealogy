@@ -4,7 +4,7 @@ id: p_MvjnQ8zRv6SbE2KLZKNY8r
 status: active
 merged_into: null
 display_name: 王平
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -233,6 +233,43 @@ relationships:
         status: active
         display_name: 王回
         merged_into_person_id: null
+    - claim:
+        id: c_wEYd78x8Nf_ZWRcNQPT_Xp
+        subject_person_id: p_MvjnQ8zRv6SbE2KLZKNY8r
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_R4UG4zht2eoAoTSsC8JAHB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_IEcHvr2NWOdhbp6nl2LcJf
+          claim_id: c_wEYd78x8Nf_ZWRcNQPT_Xp
+          source_id: s_60xc-ZReU4EsTIdPMTeE38
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1856）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_60xc-ZReU4EsTIdPMTeE38
+            source_type: api_record
+            title: 中国历代人物传记资料库：王冏（CBDB 3940）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3940&o=json
+            external_identifier: CBDB:3940
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_R4UG4zht2eoAoTSsC8JAHB
+        status: active
+        display_name: 王冏
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -259,9 +296,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_X3BfD7TLgwwBFHjcUqFh8k | 王回 | accepted |
+| children | p_R4UG4zht2eoAoTSsC8JAHB | 王冏 | accepted |
 
 ## 外部来源
 
 - [维基数据：王回（Q45362969）](https://www.wikidata.org/wiki/Q45362969)
 - [维基数据：王平（Q45359600）](https://www.wikidata.org/wiki/Q45359600)
+- [中国历代人物传记资料库：王冏（CBDB 3940）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3940&o=json)
 - [CBDB 中国历代人物传记资料库：王平（1856）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1856&o=json)

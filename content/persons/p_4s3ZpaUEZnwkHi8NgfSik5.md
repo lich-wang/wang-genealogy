@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王恭濟
 cbdb_id: 282382
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_mjXyu3ue_BhWKB2IHR0E3M
+        subject_person_id: p_N8KkzPBYZP1o7g6fiUXXY5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4s3ZpaUEZnwkHi8NgfSik5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V-LYwJO2zXz62BlNOnNW6i
+          claim_id: c_mjXyu3ue_BhWKB2IHR0E3M
+          source_id: s_xXwhnUqmEkIYEh9J652KaX
+          stance: supports
+          locator: CBDB：兄弟 王光濟（202037）之父／母 王鎬
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王恭濟 与 王光濟 为同胞（CBDB 记「弟」），王光濟 之父／母即 王恭濟 之父／母。
+          source:
+            id: s_xXwhnUqmEkIYEh9J652KaX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恭濟（CBDB 282382）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282382&o=json
+            external_identifier: CBDB:282382
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_N8KkzPBYZP1o7g6fiUXXY5
+        status: active
+        display_name: 王鎬
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_OFpZPQqy8ti81Aj4aMl2nW
+        subject_person_id: p_4s3ZpaUEZnwkHi8NgfSik5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xjFrEJTtUqGXh8SmiFrc9m
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eHHRJLGj_e9fKurS3koVAN
+          claim_id: c_OFpZPQqy8ti81Aj4aMl2nW
+          source_id: s_xXwhnUqmEkIYEh9J652KaX
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202037 王光濟）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_xXwhnUqmEkIYEh9J652KaX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恭濟（CBDB 282382）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282382&o=json
+            external_identifier: CBDB:282382
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xjFrEJTtUqGXh8SmiFrc9m
+        status: active
+        display_name: 王光濟
+        merged_into_person_id: null
 ---
 
 # 王恭濟
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_N8KkzPBYZP1o7g6fiUXXY5 | 王鎬 | accepted |
+| other | p_xjFrEJTtUqGXh8SmiFrc9m | 王光濟 | accepted |
 
 ## 外部来源
 

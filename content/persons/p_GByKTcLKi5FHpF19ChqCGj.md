@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王學孝
 cbdb_id: 221576
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_E4DZMgsiYnT5TUAhmfLCSm
+        subject_person_id: p_MpRHKYQgMhyeJ8uJAKZD2Z
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GByKTcLKi5FHpF19ChqCGj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kxq9-iPV0eSrjrB5MwPGxp
+          claim_id: c_E4DZMgsiYnT5TUAhmfLCSm
+          source_id: s_a0EPkzIP_DuvYe11FkVKVd
+          stance: supports
+          locator: CBDB：兄弟 王應麟（126851）之父／母 王榮貴
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王學孝 与 王應麟 为同胞（CBDB 记「弟」），王應麟 之父／母即 王學孝 之父／母。
+          source:
+            id: s_a0EPkzIP_DuvYe11FkVKVd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王學孝（CBDB 221576）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221576&o=json
+            external_identifier: CBDB:221576
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MpRHKYQgMhyeJ8uJAKZD2Z
+        status: active
+        display_name: 王榮貴
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_D2y0ye1FRwI2m-3Ygsabte
+        subject_person_id: p_GByKTcLKi5FHpF19ChqCGj
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hnvFbFQMD3qoDJL59kCJv1
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KAIROiyRiJ7-q3ivWejdDd
+          claim_id: c_D2y0ye1FRwI2m-3Ygsabte
+          source_id: s_a0EPkzIP_DuvYe11FkVKVd
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126851 王應麟）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_a0EPkzIP_DuvYe11FkVKVd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王學孝（CBDB 221576）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221576&o=json
+            external_identifier: CBDB:221576
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hnvFbFQMD3qoDJL59kCJv1
+        status: active
+        display_name: 王應麟
+        merged_into_person_id: null
 ---
 
 # 王學孝
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_MpRHKYQgMhyeJ8uJAKZD2Z | 王榮貴 | accepted |
+| other | p_hnvFbFQMD3qoDJL59kCJv1 | 王應麟 | accepted |
 
 ## 外部来源
 

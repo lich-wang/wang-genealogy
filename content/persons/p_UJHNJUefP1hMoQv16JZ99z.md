@@ -4,7 +4,7 @@ id: p_UJHNJUefP1hMoQv16JZ99z
 status: active
 merged_into: null
 display_name: 王師愈
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -166,7 +166,44 @@ relationships:
         status: active
         display_name: 王景文
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_v7URt69nu_mwEvGnI7yo3o
+        subject_person_id: p_UJHNJUefP1hMoQv16JZ99z
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5dcsDxDKEpK12rMtB5o7pc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_AmagCfq20xC6s5p1GUSB63
+          claim_id: c_v7URt69nu_mwEvGnI7yo3o
+          source_id: s_zDhdJOdKYbFJQR613OXTgt
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 10702）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_zDhdJOdKYbFJQR613OXTgt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瀚（CBDB 10704）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10704&o=json
+            external_identifier: CBDB:10704
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5dcsDxDKEpK12rMtB5o7pc
+        status: active
+        display_name: 王瀚
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -230,10 +267,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_2E4LCv8Nov8DxpvHNn8a4U | 王景文 | accepted |
+| children | p_5dcsDxDKEpK12rMtB5o7pc | 王瀚 | accepted |
 | descendants | p_3voEFztyjE9gBvRFtzzihf | 王柏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王柏（CBDB 10706）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10706&o=json)
+- [中国历代人物传记资料库：王瀚（CBDB 10704）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10704&o=json)
 - [中国历代人物传记资料库：王景文（CBDB 23216）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23216&o=json)
 - [中国历代人物传记资料库：王師愈（CBDB 10702）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10702&o=json)

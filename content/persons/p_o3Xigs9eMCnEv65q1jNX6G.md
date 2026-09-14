@@ -4,7 +4,7 @@ id: p_o3Xigs9eMCnEv65q1jNX6G
 status: active
 merged_into: null
 display_name: 王賓
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_BeOseyZL_7p5mlmP3V5RYa
+        subject_person_id: p_HxJiGj8JHn8DhGEqa1wJaa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_o3Xigs9eMCnEv65q1jNX6G
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ow6hM3seHc7LWPmQ_oSWY-
+          claim_id: c_BeOseyZL_7p5mlmP3V5RYa
+          source_id: s_bDw2O5bpLcEqkwXaUrAM9s
+          stance: supports
+          locator: CBDB：兄弟 王統（200725）之父／母 王大綸
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王賓 与 王統 为同胞（CBDB 记「兄」），王統 之父／母即 王賓 之父／母。
+          source:
+            id: s_bDw2O5bpLcEqkwXaUrAM9s
+            source_type: api_record
+            title: 中国历代人物传记资料库：王賓（CBDB 262004）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262004&o=json
+            external_identifier: CBDB:262004
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HxJiGj8JHn8DhGEqa1wJaa
+        status: active
+        display_name: 王大綸
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_jUyUK6BxYl18pj_oJYogi4
+        subject_person_id: p_2LSGWLrXs7XnndXnW76V8U
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_o3Xigs9eMCnEv65q1jNX6G
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3uLJApK9muJ_yLFrdOKC5c
+          claim_id: c_jUyUK6BxYl18pj_oJYogi4
+          source_id: s_bDw2O5bpLcEqkwXaUrAM9s
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200725 王統）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_bDw2O5bpLcEqkwXaUrAM9s
+            source_type: api_record
+            title: 中国历代人物传记资料库：王賓（CBDB 262004）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262004&o=json
+            external_identifier: CBDB:262004
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2LSGWLrXs7XnndXnW76V8U
+        status: active
+        display_name: 王統
+        merged_into_person_id: null
 ---
 
 # 王賓
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_HxJiGj8JHn8DhGEqa1wJaa | 王大綸 | accepted |
+| other | p_2LSGWLrXs7XnndXnW76V8U | 王統 | accepted |
 
 ## 外部来源
 

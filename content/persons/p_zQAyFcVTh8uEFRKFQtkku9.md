@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王恪
 cbdb_id: 264939
-revision: 3
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -262,6 +262,80 @@ relationships:
         status: active
         display_name: 王縝
         merged_into_person_id: null
+    - claim:
+        id: c_mZOeodND0siaTjizAHqEdm
+        subject_person_id: p_zQAyFcVTh8uEFRKFQtkku9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Xuhy9rkRAKk1HotAywcbcM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JTDM4zTKdWbeEAEObvi6RN
+          claim_id: c_mZOeodND0siaTjizAHqEdm
+          source_id: s_Fdnc-6wnnsWwGHz44DZhNz
+          stance: supports
+          locator: CBDB：兄弟 王縝（68275）之父／母 王恪
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王組瑋 与 王縝 为同胞（CBDB 记「弟」），王縝 之父／母即 王組瑋 之父／母。
+          source:
+            id: s_Fdnc-6wnnsWwGHz44DZhNz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王組瑋（CBDB 264943）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264943&o=json
+            external_identifier: CBDB:264943
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Xuhy9rkRAKk1HotAywcbcM
+        status: active
+        display_name: 王組瑋
+        merged_into_person_id: null
+    - claim:
+        id: c_nPTD2lR2VKn59K4slc4XZb
+        subject_person_id: p_zQAyFcVTh8uEFRKFQtkku9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vMevNWYN32QXU3ybSEDDSn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fbPgw4szcU1oxgQZIBGawa
+          claim_id: c_nPTD2lR2VKn59K4slc4XZb
+          source_id: s_n1QmD_hvEaH3Pfj7UiqVlT
+          stance: supports
+          locator: CBDB：兄弟 王縝（68275）之父／母 王恪
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王組經 与 王縝 为同胞（CBDB 记「弟」），王縝 之父／母即 王組經 之父／母。
+          source:
+            id: s_n1QmD_hvEaH3Pfj7UiqVlT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王組經（CBDB 264942）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264942&o=json
+            external_identifier: CBDB:264942
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vMevNWYN32QXU3ybSEDDSn
+        status: active
+        display_name: 王組經
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -288,6 +362,8 @@ relationships:
 | parents | p_YUKAdQiXr1DTx2KFsrYLgt | 王琛 | accepted |
 | children | p_GYXTdGzZ8zRdfAxpgeUm9N | 王缜 | accepted |
 | children | p_9esUYZvNqsWNd3UXAh8qx5 | 王縝 | accepted |
+| children | p_Xuhy9rkRAKk1HotAywcbcM | 王組瑋 | accepted |
+| children | p_vMevNWYN32QXU3ybSEDDSn | 王組經 | accepted |
 
 ## 外部来源
 
@@ -295,4 +371,6 @@ relationships:
 - [维基数据：王恪（Q45583500）](https://www.wikidata.org/wiki/Q45583500)
 - [维基数据：王缜（Q15933343）](https://www.wikidata.org/wiki/Q15933343)
 - [中国历代人物传记资料库：王縝（CBDB 68275）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68275&o=json)
+- [中国历代人物传记资料库：王組經（CBDB 264942）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264942&o=json)
+- [中国历代人物传记资料库：王組瑋（CBDB 264943）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264943&o=json)
 - [CBDB 中国历代人物传记资料库：王恪（264939）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264939&o=json)

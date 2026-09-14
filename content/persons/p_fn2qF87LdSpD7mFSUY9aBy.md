@@ -4,7 +4,7 @@ id: p_fn2qF87LdSpD7mFSUY9aBy
 status: active
 merged_into: null
 display_name: 王濟
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,80 @@ relationships:
         status: active
         display_name: 王三接
         merged_into_person_id: null
+    - claim:
+        id: c_0bE35FhDRdOhXlaueAiM0W
+        subject_person_id: p_fn2qF87LdSpD7mFSUY9aBy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HJV1MFkLfcab9XeNGhGirk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JTNagzEdzphHc66Ud1Drrj
+          claim_id: c_0bE35FhDRdOhXlaueAiM0W
+          source_id: s_rkdMbzwTVw3WHP49A1FBpx
+          stance: supports
+          locator: CBDB：兄弟 王三接（203931）之父／母 王濟
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王三錫 与 王三接 为同胞（CBDB 记「弟」），王三接 之父／母即 王三錫 之父／母。
+          source:
+            id: s_rkdMbzwTVw3WHP49A1FBpx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三錫（CBDB 312134）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312134&o=json
+            external_identifier: CBDB:312134
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HJV1MFkLfcab9XeNGhGirk
+        status: active
+        display_name: 王三錫
+        merged_into_person_id: null
+    - claim:
+        id: c_I7_OcYQhlHXixqNf9fB3CF
+        subject_person_id: p_fn2qF87LdSpD7mFSUY9aBy
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MMG96uL7Ktj4gzK2e3wPsU
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zL7perwQWYL6pMBV5GHAxm
+          claim_id: c_I7_OcYQhlHXixqNf9fB3CF
+          source_id: s_lxYvc4LlhGho1wbomWso7p
+          stance: supports
+          locator: CBDB：兄弟 王三接（203931）之父／母 王濟
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王三聘 与 王三接 为同胞（CBDB 记「兄」），王三接 之父／母即 王三聘 之父／母。
+          source:
+            id: s_lxYvc4LlhGho1wbomWso7p
+            source_type: api_record
+            title: 中国历代人物传记资料库：王三聘（CBDB 312135）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312135&o=json
+            external_identifier: CBDB:312135
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MMG96uL7Ktj4gzK2e3wPsU
+        status: active
+        display_name: 王三聘
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_hh8fhsCR2PRgT3HnPmoPSX | 王三接 | accepted |
+| children | p_HJV1MFkLfcab9XeNGhGirk | 王三錫 | accepted |
+| children | p_MMG96uL7Ktj4gzK2e3wPsU | 王三聘 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王濟（CBDB 312131）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312131&o=json)
+- [中国历代人物传记资料库：王三聘（CBDB 312135）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312135&o=json)
+- [中国历代人物传记资料库：王三錫（CBDB 312134）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312134&o=json)

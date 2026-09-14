@@ -4,7 +4,7 @@ id: p_pCBFExgT7ZrHGtmp7iEYn9
 status: active
 merged_into: null
 display_name: 王參之
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_MJhZ9VIHNuZRxm_vkKuB7s
+        subject_person_id: p_pCBFExgT7ZrHGtmp7iEYn9
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_uEh8UA1AH6YcpkcBezQYVg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F7dmOFZSny6MDE1jjCb9Cn
+          claim_id: c_MJhZ9VIHNuZRxm_vkKuB7s
+          source_id: s_yae5ZIzfcEeWiVZxVOoIIj
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 69080 王介之）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_yae5ZIzfcEeWiVZxVOoIIj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王參之（CBDB 526691）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526691&o=json
+            external_identifier: CBDB:526691
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_uEh8UA1AH6YcpkcBezQYVg
+        status: active
+        display_name: 王介之
+        merged_into_person_id: null
 ---
 
 # 王參之
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_uEh8UA1AH6YcpkcBezQYVg | 王介之 | accepted |
 
 ## 外部来源
 

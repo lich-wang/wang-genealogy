@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王宗寧
 cbdb_id: 226574
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_FVa3jZPkP352jN7oEGvZyd
+        subject_person_id: p_qbWcARBwiNzFhFH7v3oZN5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xzDFCfB4cxEesu8oCjFgXS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OoFfwr-JI0lBhWzM7pAgwm
+          claim_id: c_FVa3jZPkP352jN7oEGvZyd
+          source_id: s_Hk1sJS07J5McgpMTXMn2pB
+          stance: supports
+          locator: CBDB：兄弟 王宗蓁（207031）之父／母 王桥
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王宗寧 与 王宗蓁 为同胞（CBDB 记「兄」），王宗蓁 之父／母即 王宗寧 之父／母。
+          source:
+            id: s_Hk1sJS07J5McgpMTXMn2pB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗寧（CBDB 226574）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226574&o=json
+            external_identifier: CBDB:226574
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qbWcARBwiNzFhFH7v3oZN5
+        status: active
+        display_name: 王桥
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_3pyjmouN2divz52xiB6eOt
+        subject_person_id: p_YcgZGHB8b41JUksSD6hCbG
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xzDFCfB4cxEesu8oCjFgXS
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qjyYPEuXvYUPnhWNvGhGwx
+          claim_id: c_3pyjmouN2divz52xiB6eOt
+          source_id: s_Hk1sJS07J5McgpMTXMn2pB
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207031 王宗蓁）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Hk1sJS07J5McgpMTXMn2pB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗寧（CBDB 226574）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=226574&o=json
+            external_identifier: CBDB:226574
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_YcgZGHB8b41JUksSD6hCbG
+        status: active
+        display_name: 王宗蓁
+        merged_into_person_id: null
 ---
 
 # 王宗寧
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qbWcARBwiNzFhFH7v3oZN5 | 王桥 | accepted |
+| other | p_YcgZGHB8b41JUksSD6hCbG | 王宗蓁 | accepted |
 
 ## 外部来源
 

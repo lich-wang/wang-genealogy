@@ -4,7 +4,7 @@ id: p_WQUhurjj7aW6BmKDwcHajP
 status: active
 merged_into: null
 display_name: 王汝安
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ZYKLk-E83cfIMN1zTCtbHy
+        subject_person_id: p_FwWAP4cMFqggRtz76GL45y
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WQUhurjj7aW6BmKDwcHajP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VtFncm0QdpNIV9j78nq8kB
+          claim_id: c_ZYKLk-E83cfIMN1zTCtbHy
+          source_id: s_eHk61xaWLIJ0Z2cX56etiL
+          stance: supports
+          locator: CBDB：兄弟 王三錫（205255）之父／母 王訪
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王汝安 与 王三錫 为同胞（CBDB 记「弟」），王三錫 之父／母即 王汝安 之父／母。
+          source:
+            id: s_eHk61xaWLIJ0Z2cX56etiL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝安（CBDB 330486）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330486&o=json
+            external_identifier: CBDB:330486
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FwWAP4cMFqggRtz76GL45y
+        status: active
+        display_name: 王訪
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_QeBTHB9qkcG75hmp87ZoZy
+        subject_person_id: p_SNd4UuLmfsSW8TJsfi9MKm
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_WQUhurjj7aW6BmKDwcHajP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8VD1fmToYw5fOPGFSpzeWf
+          claim_id: c_QeBTHB9qkcG75hmp87ZoZy
+          source_id: s_eHk61xaWLIJ0Z2cX56etiL
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205255 王三錫）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_eHk61xaWLIJ0Z2cX56etiL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝安（CBDB 330486）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330486&o=json
+            external_identifier: CBDB:330486
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_SNd4UuLmfsSW8TJsfi9MKm
+        status: active
+        display_name: 王三錫
+        merged_into_person_id: null
 ---
 
 # 王汝安
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_FwWAP4cMFqggRtz76GL45y | 王訪 | accepted |
+| other | p_SNd4UuLmfsSW8TJsfi9MKm | 王三錫 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王家慶
 cbdb_id: 332967
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_-McomNWSfJwuqIL5Fj63CN
+        subject_person_id: p_p6a6PegDLKhh6e58pdYza1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KMpzZ5dpsqaEMsN2E6PP3T
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fdYW_Jn2T2ogKdu0pUIuak
+          claim_id: c_-McomNWSfJwuqIL5Fj63CN
+          source_id: s_cFh4swKiC7hTYCZyGZoO0R
+          stance: supports
+          locator: CBDB：兄弟 王家卿（205423）之父／母 王稷
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王家慶 与 王家卿 为同胞（CBDB 记「兄」），王家卿 之父／母即 王家慶 之父／母。
+          source:
+            id: s_cFh4swKiC7hTYCZyGZoO0R
+            source_type: api_record
+            title: 中国历代人物传记资料库：王家慶（CBDB 332967）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332967&o=json
+            external_identifier: CBDB:332967
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_p6a6PegDLKhh6e58pdYza1
+        status: active
+        display_name: 王稷
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_qewVOZVAyxnsov4C6vVJcy
+        subject_person_id: p_KMpzZ5dpsqaEMsN2E6PP3T
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wfvFAbMeeGg2JCRsQFqRMn
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ed6UYTALdhXX8Ck1ZHCriS
+          claim_id: c_qewVOZVAyxnsov4C6vVJcy
+          source_id: s_cFh4swKiC7hTYCZyGZoO0R
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205423 王家卿）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_cFh4swKiC7hTYCZyGZoO0R
+            source_type: api_record
+            title: 中国历代人物传记资料库：王家慶（CBDB 332967）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332967&o=json
+            external_identifier: CBDB:332967
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wfvFAbMeeGg2JCRsQFqRMn
+        status: active
+        display_name: 王家卿
+        merged_into_person_id: null
 ---
 
 # 王家慶
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_p6a6PegDLKhh6e58pdYza1 | 王稷 | accepted |
+| other | p_wfvFAbMeeGg2JCRsQFqRMn | 王家卿 | accepted |
 
 ## 外部来源
 

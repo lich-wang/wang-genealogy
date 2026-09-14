@@ -4,7 +4,7 @@ id: p_tQ6nzH2FsCGBPchTs3gMft
 status: active
 merged_into: null
 display_name: 王縉
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_OAtCcQ7sJ66vroZkdfKPJy
+        subject_person_id: p_oJyHrTtA8vuQzWweqp45TE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_tQ6nzH2FsCGBPchTs3gMft
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8V7QukhQkEeYeKG5DdQEs1
+          claim_id: c_OAtCcQ7sJ66vroZkdfKPJy
+          source_id: s_sI3K9AmSPXtVf9QKhGH40k
+          stance: supports
+          locator: CBDB：兄弟 王約（206312）之父／母 王以佐
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王縉 与 王約 为同胞（CBDB 记「兄」），王約 之父／母即 王縉 之父／母。
+          source:
+            id: s_sI3K9AmSPXtVf9QKhGH40k
+            source_type: api_record
+            title: 中国历代人物传记资料库：王縉（CBDB 216218）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216218&o=json
+            external_identifier: CBDB:216218
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oJyHrTtA8vuQzWweqp45TE
+        status: active
+        display_name: 王以佐
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_V8_H-iFmugpsPAiAizhXvf
+        subject_person_id: p_J55afBgCkqtPSYRig4M9VL
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_tQ6nzH2FsCGBPchTs3gMft
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WZOUu1K3_OKLIVAvQGxAuU
+          claim_id: c_V8_H-iFmugpsPAiAizhXvf
+          source_id: s_sI3K9AmSPXtVf9QKhGH40k
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206312 王約）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_sI3K9AmSPXtVf9QKhGH40k
+            source_type: api_record
+            title: 中国历代人物传记资料库：王縉（CBDB 216218）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216218&o=json
+            external_identifier: CBDB:216218
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_J55afBgCkqtPSYRig4M9VL
+        status: active
+        display_name: 王約
+        merged_into_person_id: null
 ---
 
 # 王縉
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_oJyHrTtA8vuQzWweqp45TE | 王以佐 | accepted |
+| other | p_J55afBgCkqtPSYRig4M9VL | 王約 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王天鐸
 cbdb_id: 28726
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -198,7 +198,44 @@ relationships:
         status: active
         display_name: 王宇
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_Y2YsKKsfzNJm60YaeTYbBc
+        subject_person_id: p_VhEE1K9QYVSnK1V1eF11SZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_K826idkujXrbLZ7Yr4KBie
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_d1xpdc5fAw2aZIpegR5aAr
+          claim_id: c_Y2YsKKsfzNJm60YaeTYbBc
+          source_id: s_rRdjfwaqzLh5no1eJANkoO
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 28726）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_rRdjfwaqzLh5no1eJANkoO
+            source_type: api_record
+            title: 中国历代人物传记资料库：王忱（CBDB 28730）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28730&o=json
+            external_identifier: CBDB:28730
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_K826idkujXrbLZ7Yr4KBie
+        status: active
+        display_name: 王忱
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -376,6 +413,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_61U19XTqYsz4yMA9zze9kQ | 王宇 | accepted |
+| children | p_K826idkujXrbLZ7Yr4KBie | 王忱 | accepted |
 | spouses | p_sD71to4STvwXGKqEqwHD4o | 靳氏 | accepted |
 | descendants | p_b9QqZMYeTz5iwiHBnepPUw | 王重孫 | accepted |
 | descendants | p_bR58M5z5uimNJPKCzwsfSS | 王宜孫 | accepted |
@@ -384,6 +422,7 @@ relationships:
 ## 外部来源
 
 - [中国历代人物传记资料库：靳氏(王天鐸妻)（CBDB 28731）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28731&o=json)
+- [中国历代人物传记资料库：王忱（CBDB 28730）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28730&o=json)
 - [中国历代人物传记资料库：王天鐸（CBDB 28726）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28726&o=json)
 - [中国历代人物传记资料库：王宜孫（CBDB 28735）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28735&o=json)
 - [中国历代人物传记资料库：王宇（CBDB 28727）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28727&o=json)

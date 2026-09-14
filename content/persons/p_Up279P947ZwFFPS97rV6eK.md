@@ -4,7 +4,7 @@ id: p_Up279P947ZwFFPS97rV6eK
 status: active
 merged_into: null
 display_name: 王億
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_x0LnCsk0IY9_aMhOF7R6X1
+        subject_person_id: p_BsUPyN3PgHdrLvMeySeRLR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Up279P947ZwFFPS97rV6eK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_Jrr1ADUeeBO-TitDyxBDi0
+          claim_id: c_x0LnCsk0IY9_aMhOF7R6X1
+          source_id: s_b5JJkQ_83FIS9gPynBDacW
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1781）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_b5JJkQ_83FIS9gPynBDacW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王億（CBDB 7378）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7378&o=json
+            external_identifier: CBDB:7378
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BsUPyN3PgHdrLvMeySeRLR
+        status: active
+        display_name: 王贄
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_BsUPyN3PgHdrLvMeySeRLR | 王贄 | accepted |
 
 ## 外部来源
 

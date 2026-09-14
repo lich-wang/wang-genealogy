@@ -4,7 +4,7 @@ id: p_NLudwPcQpnWrGCaimVEJoL
 status: active
 merged_into: null
 display_name: 王煉
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_6GQ3HC4O-MSZEwuuq1TC1u
+        subject_person_id: p_wVWD91i8nHFULhDK68aKM7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NLudwPcQpnWrGCaimVEJoL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V-v4YU1D5L_iQo4Y3XasoU
+          claim_id: c_6GQ3HC4O-MSZEwuuq1TC1u
+          source_id: s_pZzX2L4-7UwKeQ18i9SBqq
+          stance: supports
+          locator: CBDB：兄弟 王燁（126822）之父／母 王材
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王煉 与 王燁 为同胞（CBDB 记「兄」），王燁 之父／母即 王煉 之父／母。
+          source:
+            id: s_pZzX2L4-7UwKeQ18i9SBqq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王煉（CBDB 296940）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296940&o=json
+            external_identifier: CBDB:296940
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wVWD91i8nHFULhDK68aKM7
+        status: active
+        display_name: 王材
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_tVrClx7-e-dsqiyebipt-T
+        subject_person_id: p_NLudwPcQpnWrGCaimVEJoL
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ve3PDbNGqaNQgddGuw2C43
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pIbpJzcDRonrgNQePwhyXg
+          claim_id: c_tVrClx7-e-dsqiyebipt-T
+          source_id: s_pZzX2L4-7UwKeQ18i9SBqq
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126822 王燁）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_pZzX2L4-7UwKeQ18i9SBqq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王煉（CBDB 296940）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296940&o=json
+            external_identifier: CBDB:296940
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ve3PDbNGqaNQgddGuw2C43
+        status: active
+        display_name: 王燁
+        merged_into_person_id: null
 ---
 
 # 王煉
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wVWD91i8nHFULhDK68aKM7 | 王材 | accepted |
+| other | p_ve3PDbNGqaNQgddGuw2C43 | 王燁 | accepted |
 
 ## 外部来源
 

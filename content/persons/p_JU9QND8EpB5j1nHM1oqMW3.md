@@ -4,7 +4,7 @@ id: p_JU9QND8EpB5j1nHM1oqMW3
 status: active
 merged_into: null
 display_name: 王畿
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,43 @@ relationships:
         status: active
         display_name: 王嘉言
         merged_into_person_id: null
+    - claim:
+        id: c_xTq0jr64iKvAW7PowXNoVD
+        subject_person_id: p_JU9QND8EpB5j1nHM1oqMW3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9u8yycZwC7NgW7kCVeH4fV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6zKYYcfuRM0n6yDcmmtAvv
+          claim_id: c_xTq0jr64iKvAW7PowXNoVD
+          source_id: s_sl6irDL-ewGyzE384k6KIz
+          stance: supports
+          locator: CBDB：兄弟 王嘉言（205198）之父／母 王畿
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王嘉賓 与 王嘉言 为同胞（CBDB 记「弟」），王嘉言 之父／母即 王嘉賓 之父／母。
+          source:
+            id: s_sl6irDL-ewGyzE384k6KIz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嘉賓（CBDB 329575）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329575&o=json
+            external_identifier: CBDB:329575
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9u8yycZwC7NgW7kCVeH4fV
+        status: active
+        display_name: 王嘉賓
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_r3YmXMTMRN1Q6rQ4r6h7aU | 王嘉言 | accepted |
+| children | p_9u8yycZwC7NgW7kCVeH4fV | 王嘉賓 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王畿（CBDB 329572）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329572&o=json)
+- [中国历代人物传记资料库：王嘉賓（CBDB 329575）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329575&o=json)

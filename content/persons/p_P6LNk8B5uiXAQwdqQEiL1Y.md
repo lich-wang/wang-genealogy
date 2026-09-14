@@ -4,7 +4,7 @@ id: p_P6LNk8B5uiXAQwdqQEiL1Y
 status: active
 merged_into: null
 display_name: 王縉
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_S91kHRFtK0hot5kmyrdI5H
+        subject_person_id: p_ETf8kmCosGHgchW9GUTGiB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_P6LNk8B5uiXAQwdqQEiL1Y
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-ojYL3s1dkAS1y5kq0Fjhz
+          claim_id: c_S91kHRFtK0hot5kmyrdI5H
+          source_id: s_I3G1U62OJrjkWAFE-EF2FF
+          stance: supports
+          locator: CBDB：兄弟 王紀（202256）之父／母 王絕
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王縉 与 王紀 为同胞（CBDB 记「弟」），王紀 之父／母即 王縉 之父／母。
+          source:
+            id: s_I3G1U62OJrjkWAFE-EF2FF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王縉（CBDB 285663）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285663&o=json
+            external_identifier: CBDB:285663
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ETf8kmCosGHgchW9GUTGiB
+        status: active
+        display_name: 王絕
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Ns0EFtAXgwj7MSrvoMbYF1
+        subject_person_id: p_AoR8GkNH17NPVQc7r3ceML
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_P6LNk8B5uiXAQwdqQEiL1Y
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YMOTXQUb9TTRY3xLUAhpn2
+          claim_id: c_Ns0EFtAXgwj7MSrvoMbYF1
+          source_id: s_I3G1U62OJrjkWAFE-EF2FF
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202256 王紀）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_I3G1U62OJrjkWAFE-EF2FF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王縉（CBDB 285663）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285663&o=json
+            external_identifier: CBDB:285663
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_AoR8GkNH17NPVQc7r3ceML
+        status: active
+        display_name: 王紀
+        merged_into_person_id: null
 ---
 
 # 王縉
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ETf8kmCosGHgchW9GUTGiB | 王絕 | accepted |
+| other | p_AoR8GkNH17NPVQc7r3ceML | 王紀 | accepted |
 
 ## 外部来源
 

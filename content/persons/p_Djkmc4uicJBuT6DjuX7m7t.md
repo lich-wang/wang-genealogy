@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王稌
 cbdb_id: 437664
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -256,6 +256,43 @@ relationships:
         status: active
         display_name: 王汶
         merged_into_person_id: null
+    - claim:
+        id: c_nxbN1MpylTrBAbBRdx1f8C
+        subject_person_id: p_Djkmc4uicJBuT6DjuX7m7t
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_jaPW5ccAnrkiwDtHZdNQ2W
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_o688D-jd2N2MntyOozSLS2
+          claim_id: c_nxbN1MpylTrBAbBRdx1f8C
+          source_id: s_f776RYkS0-4G6YroMmD682
+          stance: supports
+          locator: CBDB：兄弟 王汶（126525）之父／母 王稌
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王瀹 与 王汶 为同胞（CBDB 记「弟」），王汶 之父／母即 王瀹 之父／母。
+          source:
+            id: s_f776RYkS0-4G6YroMmD682
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瀹（CBDB 252820）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252820&o=json
+            external_identifier: CBDB:252820
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jaPW5ccAnrkiwDtHZdNQ2W
+        status: active
+        display_name: 王瀹
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -425,6 +462,7 @@ relationships:
 | parents | p_ujxGmCBGatyUsmPNvx1eeB | 王绅 | accepted |
 | children | p_qJM7h8dFu3we6W3CZKZQQr | 王瀹 | accepted |
 | children | p_9VxEWjL3WdRDJDc2ecBK47 | 王汶 | accepted |
+| children | p_jaPW5ccAnrkiwDtHZdNQ2W | 王瀹 | accepted |
 | spouses | p_DNBu7dKBcHTFT8EoXEHiXT | 丁氏 | accepted |
 | spouses | p_8GF834u9vuJrzqkRvDZrHA | 吴氏 | accepted |
 | ancestors | p_mgxHev7zFTwcmkSJE7CaXn | 王良玉 | accepted |
@@ -437,5 +475,6 @@ relationships:
 - [维基数据：王瀹（Q65904230）](https://www.wikidata.org/wiki/Q65904230)
 - [维基数据：吴氏（Q65904236）](https://www.wikidata.org/wiki/Q65904236)
 - [中国历代人物传记资料库：王良玉（CBDB 10725）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10725&o=json)
+- [中国历代人物传记资料库：王瀹（CBDB 252820）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252820&o=json)
 - [CBDB 中国历代人物传记资料库：王紳（28112）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=28112&o=json)
 - [CBDB 中国历代人物传记资料库：王稌（437664）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=437664&o=json)

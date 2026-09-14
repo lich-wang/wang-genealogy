@@ -4,7 +4,7 @@ id: p_fVwHvivQzDYcoN8uZB1uwy
 status: active
 merged_into: null
 display_name: 王良臣
-revision: 6
+revision: 27
 properties:
   - predicate: name.primary
     recommended:
@@ -292,7 +292,784 @@ relationships:
         display_name: 王嘉言
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_M6j_4-1AZdHYk1rvBH8daO
+        subject_person_id: p_75A8chXPCcEzRmRmdzEV8k
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HdwwKpXwXpQmGfj2flHQEy
+          claim_id: c_M6j_4-1AZdHYk1rvBH8daO
+          source_id: s_wz2bth62doP9AE77iHwfbD
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207791 王良臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_wz2bth62doP9AE77iHwfbD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王憲文（CBDB 235990）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235990&o=json
+            external_identifier: CBDB:235990
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_75A8chXPCcEzRmRmdzEV8k
+        status: active
+        display_name: 王憲文
+        merged_into_person_id: null
+    - claim:
+        id: c_t8drGTSeF1G_1CH7lpuh7X
+        subject_person_id: p_8ML7eWKKE1dKR3KNGDrXGi
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3ykfkblhXZbzY_-tqkyqFN
+          claim_id: c_t8drGTSeF1G_1CH7lpuh7X
+          source_id: s_V0lCfmPkdAOWKidJFbuLFs
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207791 王良臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_V0lCfmPkdAOWKidJFbuLFs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王朋臣（CBDB 235994）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235994&o=json
+            external_identifier: CBDB:235994
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8ML7eWKKE1dKR3KNGDrXGi
+        status: active
+        display_name: 王朋臣
+        merged_into_person_id: null
+    - claim:
+        id: c_p878U_S7viYOO90uNXgbQx
+        subject_person_id: p_F8AaKsMPDv95sczjmVffH9
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TKhHfY_YQJgRL5byQpCij8
+          claim_id: c_p878U_S7viYOO90uNXgbQx
+          source_id: s_lAHBRvvhFVLY4v4Flf_D9z
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207791 王良臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_lAHBRvvhFVLY4v4Flf_D9z
+            source_type: api_record
+            title: 中国历代人物传记资料库：王憲儉（CBDB 235991）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235991&o=json
+            external_identifier: CBDB:235991
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_F8AaKsMPDv95sczjmVffH9
+        status: active
+        display_name: 王憲儉
+        merged_into_person_id: null
+    - claim:
+        id: c_nEH2AjXRex8sKELTl-Ui2D
+        subject_person_id: p_KfsdHyjZzPUqcLs7YiZMqC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xHZF7LhWu9CN6nYWGST3Vn
+          claim_id: c_nEH2AjXRex8sKELTl-Ui2D
+          source_id: s_4k9f6e9Gq5p0NdMu7BfKZL
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207791 王良臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_4k9f6e9Gq5p0NdMu7BfKZL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王憲申（CBDB 235984）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235984&o=json
+            external_identifier: CBDB:235984
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KfsdHyjZzPUqcLs7YiZMqC
+        status: active
+        display_name: 王憲申
+        merged_into_person_id: null
+    - claim:
+        id: c_T8QYOfH-Z7cmHRRGPJvb7F
+        subject_person_id: p_MFpCwo9vLvAh4zn47ekXmF
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eVHArZ5J6eVx7iUV7ybDNl
+          claim_id: c_T8QYOfH-Z7cmHRRGPJvb7F
+          source_id: s_cRHK15aaj_JFH21aOrYMkD
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207791 王良臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_cRHK15aaj_JFH21aOrYMkD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王輔臣（CBDB 235976）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235976&o=json
+            external_identifier: CBDB:235976
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MFpCwo9vLvAh4zn47ekXmF
+        status: active
+        display_name: 王輔臣
+        merged_into_person_id: null
+    - claim:
+        id: c_55lerl9CTYTeESPOAA81wv
+        subject_person_id: p_NU3XbPz5DybwCcJq6wh8m6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_upUDL8QQkohppahC_Ox0W5
+          claim_id: c_55lerl9CTYTeESPOAA81wv
+          source_id: s_q96fcyHOAanqVoH67AEZLq
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207791 王良臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_q96fcyHOAanqVoH67AEZLq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王憲曾（CBDB 235973）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235973&o=json
+            external_identifier: CBDB:235973
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NU3XbPz5DybwCcJq6wh8m6
+        status: active
+        display_name: 王憲曾
+        merged_into_person_id: null
+    - claim:
+        id: c_qFYj5DyiLhnyqyoSs_EXk1
+        subject_person_id: p_Qor8K88oXzG2Mu1FoZbo5Q
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tjX-N3BkdlMMUqJjMMCAvi
+          claim_id: c_qFYj5DyiLhnyqyoSs_EXk1
+          source_id: s_pSLX77MS5U7PsTNffUKG4P
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207791 王良臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_pSLX77MS5U7PsTNffUKG4P
+            source_type: api_record
+            title: 中国历代人物传记资料库：王憲祚（CBDB 235979）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235979&o=json
+            external_identifier: CBDB:235979
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Qor8K88oXzG2Mu1FoZbo5Q
+        status: active
+        display_name: 王憲祚
+        merged_into_person_id: null
+    - claim:
+        id: c_wpaWYzryRHDXgte9bvvm94
+        subject_person_id: p_RAJn192m2ZFeY7uaA2zS34
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_S8qdJKPMJPyO9-797TKR4n
+          claim_id: c_wpaWYzryRHDXgte9bvvm94
+          source_id: s_A3CGG16qxZHTL23AwbIAc8
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207791 王良臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_A3CGG16qxZHTL23AwbIAc8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王憲彥（CBDB 235989）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235989&o=json
+            external_identifier: CBDB:235989
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_RAJn192m2ZFeY7uaA2zS34
+        status: active
+        display_name: 王憲彥
+        merged_into_person_id: null
+    - claim:
+        id: c_fHHbAgQbomkEVRvK1dEwwG
+        subject_person_id: p_RmnBwidGasQcN5gwDKjwDg
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lLFdNMHqpGOWeGGYg0pMOJ
+          claim_id: c_fHHbAgQbomkEVRvK1dEwwG
+          source_id: s_zSyWJXnmQjrk9BPY6jy9-W
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207791 王良臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_zSyWJXnmQjrk9BPY6jy9-W
+            source_type: api_record
+            title: 中国历代人物传记资料库：王傳臣（CBDB 235985）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235985&o=json
+            external_identifier: CBDB:235985
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_RmnBwidGasQcN5gwDKjwDg
+        status: active
+        display_name: 王傳臣
+        merged_into_person_id: null
+    - claim:
+        id: c_BlhEV2F8U1WzKcvh_B67P1
+        subject_person_id: p_U9NBdDHU6BL46cJDUM9V37
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_joGH9fCSG_N8QXp7kF5JKN
+          claim_id: c_BlhEV2F8U1WzKcvh_B67P1
+          source_id: s_01L_zQYx3VQ3eTXTQBWIqx
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207791 王良臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_01L_zQYx3VQ3eTXTQBWIqx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王重臣（CBDB 235978）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235978&o=json
+            external_identifier: CBDB:235978
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_U9NBdDHU6BL46cJDUM9V37
+        status: active
+        display_name: 王重臣
+        merged_into_person_id: null
+    - claim:
+        id: c_rmTDhhH0fj8m6f4Zfhp5y8
+        subject_person_id: p_UAmpr69dPGf7GW8GVYTezF
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Qpigy3xBx9G_0bOUGvJ9gz
+          claim_id: c_rmTDhhH0fj8m6f4Zfhp5y8
+          source_id: s_CdRnM4xBSlblFIG0tTI0BB
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207791 王良臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_CdRnM4xBSlblFIG0tTI0BB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王師臣（CBDB 235993）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235993&o=json
+            external_identifier: CBDB:235993
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_UAmpr69dPGf7GW8GVYTezF
+        status: active
+        display_name: 王師臣
+        merged_into_person_id: null
+    - claim:
+        id: c_u9F5b-1ReRfpN2-jJoGI5N
+        subject_person_id: p_VzPQdqg74cL2wJQ6u3iSUn
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F_4CAUnY3NBi7USB943rt2
+          claim_id: c_u9F5b-1ReRfpN2-jJoGI5N
+          source_id: s_X0UIUNIdmhhvq45hk5OxB-
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207791 王良臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_X0UIUNIdmhhvq45hk5OxB-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王啟臣（CBDB 235987）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235987&o=json
+            external_identifier: CBDB:235987
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VzPQdqg74cL2wJQ6u3iSUn
+        status: active
+        display_name: 王啟臣
+        merged_into_person_id: null
+    - claim:
+        id: c_L3Oe0RCJv0Ac86NND9toql
+        subject_person_id: p_Y4944Wa9Bi6a2vE3jxbzV9
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ElqbhvQt_yeQoY9zKoBYhL
+          claim_id: c_L3Oe0RCJv0Ac86NND9toql
+          source_id: s_qsij7J78QSGYF_6Tyak5hv
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207791 王良臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_qsij7J78QSGYF_6Tyak5hv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王憲羲（CBDB 235977）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235977&o=json
+            external_identifier: CBDB:235977
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Y4944Wa9Bi6a2vE3jxbzV9
+        status: active
+        display_name: 王憲羲
+        merged_into_person_id: null
+    - claim:
+        id: c_ufk-fF2R3A0yhgU5_BwCTm
+        subject_person_id: p_dqmEghqiiEQ92yHeRUQXnZ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F7H3F6vX0Cdt-MmTvZoOvg
+          claim_id: c_ufk-fF2R3A0yhgU5_BwCTm
+          source_id: s_KwDCPjOqjilmI_4ODmds5G
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207791 王良臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_KwDCPjOqjilmI_4ODmds5G
+            source_type: api_record
+            title: 中国历代人物传记资料库：王憲恭（CBDB 235988）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235988&o=json
+            external_identifier: CBDB:235988
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dqmEghqiiEQ92yHeRUQXnZ
+        status: active
+        display_name: 王憲恭
+        merged_into_person_id: null
+    - claim:
+        id: c_FaTt3x3KzAYHp5R5B6HTXs
+        subject_person_id: p_fEZa7v54y69YHBjNkCQxKB
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Xl3MziyTabim9K61vMxXAl
+          claim_id: c_FaTt3x3KzAYHp5R5B6HTXs
+          source_id: s_JbCqNK5cWQsQg367STqS1o
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207791 王良臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_JbCqNK5cWQsQg367STqS1o
+            source_type: api_record
+            title: 中国历代人物传记资料库：王慶臣（CBDB 235980）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235980&o=json
+            external_identifier: CBDB:235980
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fEZa7v54y69YHBjNkCQxKB
+        status: active
+        display_name: 王慶臣
+        merged_into_person_id: null
+    - claim:
+        id: c_jzj7gv1V3yC13HphOLtuwl
+        subject_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gbkhwWxPr92cXik91AZdGx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i4T-A5qtqJkJfI_tVPP2Ki
+          claim_id: c_jzj7gv1V3yC13HphOLtuwl
+          source_id: s_q68NgQs0sYah65CijKOxBV
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207791 王良臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_q68NgQs0sYah65CijKOxBV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王憲明（CBDB 235972）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235972&o=json
+            external_identifier: CBDB:235972
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_gbkhwWxPr92cXik91AZdGx
+        status: active
+        display_name: 王憲明
+        merged_into_person_id: null
+    - claim:
+        id: c_1et-OUipdqe1LD7uUAvxkd
+        subject_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_oxmCnE57DPN7gbJasE6ug2
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cv74n5VgMY_SrLzm_4SacF
+          claim_id: c_1et-OUipdqe1LD7uUAvxkd
+          source_id: s_FrbS7m233bYBRuXcTqiRQG
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207791 王良臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_FrbS7m233bYBRuXcTqiRQG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王哲臣（CBDB 235982）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235982&o=json
+            external_identifier: CBDB:235982
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oxmCnE57DPN7gbJasE6ug2
+        status: active
+        display_name: 王哲臣
+        merged_into_person_id: null
+    - claim:
+        id: c_4U9MxCn6t3IyrMVvT3bw6D
+        subject_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_pQd4AMt5sB2K9aFQabekCb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mJ3ijDfDGTUdnPOr6jGJgG
+          claim_id: c_4U9MxCn6t3IyrMVvT3bw6D
+          source_id: s_lBqUodq8ii6AaxlGH7qXsP
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207791 王良臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_lBqUodq8ii6AaxlGH7qXsP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王憲臣（CBDB 235974）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235974&o=json
+            external_identifier: CBDB:235974
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_pQd4AMt5sB2K9aFQabekCb
+        status: active
+        display_name: 王憲臣
+        merged_into_person_id: null
+    - claim:
+        id: c_CSfJz3QB_KOXsHh4OM0tKj
+        subject_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qX78p9t4tHurvVtsLaoUhu
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j0rASxaZ0xggzL13Du_wl7
+          claim_id: c_CSfJz3QB_KOXsHh4OM0tKj
+          source_id: s_fOVGon_GAq7ORB58k-o7VR
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207791 王良臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_fOVGon_GAq7ORB58k-o7VR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王憲且（CBDB 235981）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235981&o=json
+            external_identifier: CBDB:235981
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qX78p9t4tHurvVtsLaoUhu
+        status: active
+        display_name: 王憲且
+        merged_into_person_id: null
+    - claim:
+        id: c_tS-nfM1Fs02p3yAXZxjSS0
+        subject_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_voHpA8GisKqT6bhA1i6mvV
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0Y6BUAu4YVqT_LMSvqDshK
+          claim_id: c_tS-nfM1Fs02p3yAXZxjSS0
+          source_id: s_GCmIdEvlndxOG2IyOioEPB
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207791 王良臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_GCmIdEvlndxOG2IyOioEPB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王憲宸（CBDB 235992）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235992&o=json
+            external_identifier: CBDB:235992
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_voHpA8GisKqT6bhA1i6mvV
+        status: active
+        display_name: 王憲宸
+        merged_into_person_id: null
+    - claim:
+        id: c_o0XHc0XWk155Tauh6eXxnH
+        subject_person_id: p_fVwHvivQzDYcoN8uZB1uwy
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_y5DJER5NxHFVKLNzY3Vvwv
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QFW2kRvlFSYjgFVXHpm1lR
+          claim_id: c_o0XHc0XWk155Tauh6eXxnH
+          source_id: s_HuL9f_X1W-JaS0vzCcTM5b
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207791 王良臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_HuL9f_X1W-JaS0vzCcTM5b
+            source_type: api_record
+            title: 中国历代人物传记资料库：王憲覽（CBDB 235983）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235983&o=json
+            external_identifier: CBDB:235983
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_y5DJER5NxHFVKLNzY3Vvwv
+        status: active
+        display_name: 王憲覽
+        merged_into_person_id: null
 ---
 
 # 王良臣
@@ -316,12 +1093,54 @@ relationships:
 | children | p_gyrfVFz2KyGRDjmr6YwtSE | 王運昌 | accepted |
 | ancestors | p_77iaWpWMwfPvQUKF6BCdCD | 王魯 | accepted |
 | ancestors | p_E8R8PCXPkP9eN4uAPUmfkY | 王嘉言 | accepted |
+| other | p_75A8chXPCcEzRmRmdzEV8k | 王憲文 | accepted |
+| other | p_8ML7eWKKE1dKR3KNGDrXGi | 王朋臣 | accepted |
+| other | p_F8AaKsMPDv95sczjmVffH9 | 王憲儉 | accepted |
+| other | p_KfsdHyjZzPUqcLs7YiZMqC | 王憲申 | accepted |
+| other | p_MFpCwo9vLvAh4zn47ekXmF | 王輔臣 | accepted |
+| other | p_NU3XbPz5DybwCcJq6wh8m6 | 王憲曾 | accepted |
+| other | p_Qor8K88oXzG2Mu1FoZbo5Q | 王憲祚 | accepted |
+| other | p_RAJn192m2ZFeY7uaA2zS34 | 王憲彥 | accepted |
+| other | p_RmnBwidGasQcN5gwDKjwDg | 王傳臣 | accepted |
+| other | p_U9NBdDHU6BL46cJDUM9V37 | 王重臣 | accepted |
+| other | p_UAmpr69dPGf7GW8GVYTezF | 王師臣 | accepted |
+| other | p_VzPQdqg74cL2wJQ6u3iSUn | 王啟臣 | accepted |
+| other | p_Y4944Wa9Bi6a2vE3jxbzV9 | 王憲羲 | accepted |
+| other | p_dqmEghqiiEQ92yHeRUQXnZ | 王憲恭 | accepted |
+| other | p_fEZa7v54y69YHBjNkCQxKB | 王慶臣 | accepted |
+| other | p_gbkhwWxPr92cXik91AZdGx | 王憲明 | accepted |
+| other | p_oxmCnE57DPN7gbJasE6ug2 | 王哲臣 | accepted |
+| other | p_pQd4AMt5sB2K9aFQabekCb | 王憲臣 | accepted |
+| other | p_qX78p9t4tHurvVtsLaoUhu | 王憲且 | accepted |
+| other | p_voHpA8GisKqT6bhA1i6mvV | 王憲宸 | accepted |
+| other | p_y5DJER5NxHFVKLNzY3Vvwv | 王憲覽 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王傳臣（CBDB 235985）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235985&o=json)
+- [中国历代人物传记资料库：王輔臣（CBDB 235976）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235976&o=json)
 - [中国历代人物传记资料库：王嘉言（CBDB 235968）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235968&o=json)
 - [中国历代人物传记资料库：王良臣（CBDB 207791）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207791&o=json)
 - [中国历代人物传记资料库：王魯（CBDB 235967）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235967&o=json)
+- [中国历代人物传记资料库：王朋臣（CBDB 235994）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235994&o=json)
+- [中国历代人物传记资料库：王啟臣（CBDB 235987）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235987&o=json)
+- [中国历代人物传记资料库：王慶臣（CBDB 235980）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235980&o=json)
+- [中国历代人物传记资料库：王師臣（CBDB 235993）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235993&o=json)
 - [中国历代人物传记资料库：王維城（CBDB 235969）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235969&o=json)
+- [中国历代人物传记资料库：王憲曾（CBDB 235973）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235973&o=json)
+- [中国历代人物传记资料库：王憲臣（CBDB 235974）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235974&o=json)
+- [中国历代人物传记资料库：王憲宸（CBDB 235992）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235992&o=json)
+- [中国历代人物传记资料库：王憲恭（CBDB 235988）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235988&o=json)
+- [中国历代人物传记资料库：王憲儉（CBDB 235991）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235991&o=json)
+- [中国历代人物传记资料库：王憲覽（CBDB 235983）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235983&o=json)
+- [中国历代人物传记资料库：王憲明（CBDB 235972）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235972&o=json)
+- [中国历代人物传记资料库：王憲且（CBDB 235981）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235981&o=json)
+- [中国历代人物传记资料库：王憲申（CBDB 235984）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235984&o=json)
+- [中国历代人物传记资料库：王憲文（CBDB 235990）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235990&o=json)
+- [中国历代人物传记资料库：王憲羲（CBDB 235977）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235977&o=json)
+- [中国历代人物传记资料库：王憲彥（CBDB 235989）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235989&o=json)
+- [中国历代人物传记资料库：王憲祚（CBDB 235979）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235979&o=json)
 - [中国历代人物传记资料库：王應昌（CBDB 235996）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235996&o=json)
 - [中国历代人物传记资料库：王運昌（CBDB 235995）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235995&o=json)
+- [中国历代人物传记资料库：王哲臣（CBDB 235982）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235982&o=json)
+- [中国历代人物传记资料库：王重臣（CBDB 235978）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235978&o=json)

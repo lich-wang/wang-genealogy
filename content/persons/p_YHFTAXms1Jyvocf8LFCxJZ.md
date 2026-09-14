@@ -4,7 +4,7 @@ id: p_YHFTAXms1Jyvocf8LFCxJZ
 status: active
 merged_into: null
 display_name: 王經
-revision: 2
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,228 @@ relationships:
         status: active
         display_name: 王楣
         merged_into_person_id: null
+    - claim:
+        id: c_zSFX17ivJyAZtc25NWEAME
+        subject_person_id: p_YHFTAXms1Jyvocf8LFCxJZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9st3vp7RQQDmU7evKyY6MH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LSTIW5POWr57sDC6EJ-xBE
+          claim_id: c_zSFX17ivJyAZtc25NWEAME
+          source_id: s_35q681ETLhqp6nUW-H8bDn
+          stance: supports
+          locator: CBDB：兄弟 王楣（205205）之父／母 王經
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王楹 与 王楣 为同胞（CBDB 记「弟」），王楣 之父／母即 王楹 之父／母。
+          source:
+            id: s_35q681ETLhqp6nUW-H8bDn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王楹（CBDB 329700）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329700&o=json
+            external_identifier: CBDB:329700
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9st3vp7RQQDmU7evKyY6MH
+        status: active
+        display_name: 王楹
+        merged_into_person_id: null
+    - claim:
+        id: c_VE3GZX0v5s1zN4BXrc86AI
+        subject_person_id: p_YHFTAXms1Jyvocf8LFCxJZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PEhQA5fEbXziCDFGGChCsV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WD9_SaD1JvAh0YgC--e9Ab
+          claim_id: c_VE3GZX0v5s1zN4BXrc86AI
+          source_id: s_w-zJcVJBJMuqngf9hfjI2g
+          stance: supports
+          locator: CBDB：兄弟 王楣（205205）之父／母 王經
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王橋 与 王楣 为同胞（CBDB 记「兄」），王楣 之父／母即 王橋 之父／母。
+          source:
+            id: s_w-zJcVJBJMuqngf9hfjI2g
+            source_type: api_record
+            title: 中国历代人物传记资料库：王橋（CBDB 329702）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329702&o=json
+            external_identifier: CBDB:329702
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PEhQA5fEbXziCDFGGChCsV
+        status: active
+        display_name: 王橋
+        merged_into_person_id: null
+    - claim:
+        id: c_3nSS_XBYQ8t1maxXzaUONk
+        subject_person_id: p_YHFTAXms1Jyvocf8LFCxJZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WvpouDrnZddAA1pwt6Bsjk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KDD1wZCT_FqZjsM6bHtDJM
+          claim_id: c_3nSS_XBYQ8t1maxXzaUONk
+          source_id: s_B6RwL-qEeT8gLK-17S1050
+          stance: supports
+          locator: CBDB：兄弟 王楣（205205）之父／母 王經
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王松 与 王楣 为同胞（CBDB 记「兄」），王楣 之父／母即 王松 之父／母。
+          source:
+            id: s_B6RwL-qEeT8gLK-17S1050
+            source_type: api_record
+            title: 中国历代人物传记资料库：王松（CBDB 329703）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329703&o=json
+            external_identifier: CBDB:329703
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_WvpouDrnZddAA1pwt6Bsjk
+        status: active
+        display_name: 王松
+        merged_into_person_id: null
+    - claim:
+        id: c_WR7q2lgP4WPMZHRwIPKWVt
+        subject_person_id: p_YHFTAXms1Jyvocf8LFCxJZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cMk6Bz7fGGhwUvZTa5dmgt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vYhq5Y0KZVidxwBDrWwfC2
+          claim_id: c_WR7q2lgP4WPMZHRwIPKWVt
+          source_id: s_uAasZHuSmL0FfEFDv_ONKz
+          stance: supports
+          locator: CBDB：兄弟 王楣（205205）之父／母 王經
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王楠 与 王楣 为同胞（CBDB 记「兄」），王楣 之父／母即 王楠 之父／母。
+          source:
+            id: s_uAasZHuSmL0FfEFDv_ONKz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王楠（CBDB 329704）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329704&o=json
+            external_identifier: CBDB:329704
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cMk6Bz7fGGhwUvZTa5dmgt
+        status: active
+        display_name: 王楠
+        merged_into_person_id: null
+    - claim:
+        id: c_Retssxo9pTJ5Yaw8PXt-Hy
+        subject_person_id: p_YHFTAXms1Jyvocf8LFCxJZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kw6Povg4ac2DoDdZJ3HgDC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OmYUasQZJocWfGL-FxaKa_
+          claim_id: c_Retssxo9pTJ5Yaw8PXt-Hy
+          source_id: s_mCGro8Por4zFzGPk_L9Phi
+          stance: supports
+          locator: CBDB：兄弟 王楣（205205）之父／母 王經
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王樓 与 王楣 为同胞（CBDB 记「弟」），王楣 之父／母即 王樓 之父／母。
+          source:
+            id: s_mCGro8Por4zFzGPk_L9Phi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王樓（CBDB 329701）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329701&o=json
+            external_identifier: CBDB:329701
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kw6Povg4ac2DoDdZJ3HgDC
+        status: active
+        display_name: 王樓
+        merged_into_person_id: null
+    - claim:
+        id: c_wX7OhII_tlfv1NTv_SpeW_
+        subject_person_id: p_YHFTAXms1Jyvocf8LFCxJZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_maYRENQxzfRp4y47Nm1HV9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_65k6FRsTQusNvzDV4qYPy_
+          claim_id: c_wX7OhII_tlfv1NTv_SpeW_
+          source_id: s_ycb0B_bh6bsgoWE8CSc0Tl
+          stance: supports
+          locator: CBDB：兄弟 王楣（205205）之父／母 王經
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王棟 与 王楣 为同胞（CBDB 记「弟」），王楣 之父／母即 王棟 之父／母。
+          source:
+            id: s_ycb0B_bh6bsgoWE8CSc0Tl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王棟（CBDB 329699）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329699&o=json
+            external_identifier: CBDB:329699
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_maYRENQxzfRp4y47Nm1HV9
+        status: active
+        display_name: 王棟
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +346,19 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_hoiRRCExCw4KSUTuvH17WP | 王楣 | accepted |
+| children | p_9st3vp7RQQDmU7evKyY6MH | 王楹 | accepted |
+| children | p_PEhQA5fEbXziCDFGGChCsV | 王橋 | accepted |
+| children | p_WvpouDrnZddAA1pwt6Bsjk | 王松 | accepted |
+| children | p_cMk6Bz7fGGhwUvZTa5dmgt | 王楠 | accepted |
+| children | p_kw6Povg4ac2DoDdZJ3HgDC | 王樓 | accepted |
+| children | p_maYRENQxzfRp4y47Nm1HV9 | 王棟 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王棟（CBDB 329699）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329699&o=json)
 - [中国历代人物传记资料库：王經（CBDB 329695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329695&o=json)
+- [中国历代人物传记资料库：王樓（CBDB 329701）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329701&o=json)
+- [中国历代人物传记资料库：王楠（CBDB 329704）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329704&o=json)
+- [中国历代人物传记资料库：王橋（CBDB 329702）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329702&o=json)
+- [中国历代人物传记资料库：王松（CBDB 329703）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329703&o=json)
+- [中国历代人物传记资料库：王楹（CBDB 329700）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329700&o=json)

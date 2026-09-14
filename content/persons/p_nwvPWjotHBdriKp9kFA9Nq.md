@@ -4,7 +4,7 @@ id: p_nwvPWjotHBdriKp9kFA9Nq
 status: active
 merged_into: null
 display_name: 王侃
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_6K_MmKJ-GXF8MaQYg-C0Ix
+        subject_person_id: p_4PC2JzRydaXykTknqoVMo5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nwvPWjotHBdriKp9kFA9Nq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rR_1tc-pOWgOZYz30V5gST
+          claim_id: c_6K_MmKJ-GXF8MaQYg-C0Ix
+          source_id: s_p62BAug1juSlD_lot1IdiU
+          stance: supports
+          locator: CBDB：兄弟 王㒜（126815）之父／母 王忠
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王侃 与 王㒜 为同胞（CBDB 记「弟」），王㒜 之父／母即 王侃 之父／母。
+          source:
+            id: s_p62BAug1juSlD_lot1IdiU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王侃（CBDB 245629）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245629&o=json
+            external_identifier: CBDB:245629
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4PC2JzRydaXykTknqoVMo5
+        status: active
+        display_name: 王忠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_pzQmeYcalex5s0brJmPiMS
+        subject_person_id: p_MiT45BEZABeDdxC6DUoAF7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nwvPWjotHBdriKp9kFA9Nq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KCXo_utM1Dq6eHk1tQ-mOK
+          claim_id: c_pzQmeYcalex5s0brJmPiMS
+          source_id: s_p62BAug1juSlD_lot1IdiU
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126815 王㒜）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_p62BAug1juSlD_lot1IdiU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王侃（CBDB 245629）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=245629&o=json
+            external_identifier: CBDB:245629
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MiT45BEZABeDdxC6DUoAF7
+        status: active
+        display_name: 王㒜
+        merged_into_person_id: null
 ---
 
 # 王侃
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_4PC2JzRydaXykTknqoVMo5 | 王忠 | accepted |
+| other | p_MiT45BEZABeDdxC6DUoAF7 | 王㒜 | accepted |
 
 ## 外部来源
 

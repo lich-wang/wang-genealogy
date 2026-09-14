@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王七教
 cbdb_id: 330491
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_01E-SMTtho__DHzioq3Hpw
+        subject_person_id: p_FwWAP4cMFqggRtz76GL45y
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3wz8fBFxVb7CTtNJiGp6zF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_408sFKIjlwQ1K-drjfTseK
+          claim_id: c_01E-SMTtho__DHzioq3Hpw
+          source_id: s__V8WqG3ZslTH-ZLJrK8s3s
+          stance: supports
+          locator: CBDB：兄弟 王三錫（205255）之父／母 王訪
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王七教 与 王三錫 为同胞（CBDB 记「兄」），王三錫 之父／母即 王七教 之父／母。
+          source:
+            id: s__V8WqG3ZslTH-ZLJrK8s3s
+            source_type: api_record
+            title: 中国历代人物传记资料库：王七教（CBDB 330491）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330491&o=json
+            external_identifier: CBDB:330491
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FwWAP4cMFqggRtz76GL45y
+        status: active
+        display_name: 王訪
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Gas7K9FXUbUwF6rkRdykwM
+        subject_person_id: p_3wz8fBFxVb7CTtNJiGp6zF
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_SNd4UuLmfsSW8TJsfi9MKm
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_p9m_tn8mRHaDoTjQ1hZKcb
+          claim_id: c_Gas7K9FXUbUwF6rkRdykwM
+          source_id: s__V8WqG3ZslTH-ZLJrK8s3s
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205255 王三錫）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__V8WqG3ZslTH-ZLJrK8s3s
+            source_type: api_record
+            title: 中国历代人物传记资料库：王七教（CBDB 330491）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330491&o=json
+            external_identifier: CBDB:330491
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_SNd4UuLmfsSW8TJsfi9MKm
+        status: active
+        display_name: 王三錫
+        merged_into_person_id: null
 ---
 
 # 王七教
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_FwWAP4cMFqggRtz76GL45y | 王訪 | accepted |
+| other | p_SNd4UuLmfsSW8TJsfi9MKm | 王三錫 | accepted |
 
 ## 外部来源
 

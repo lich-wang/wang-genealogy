@@ -4,7 +4,7 @@ id: p_P6jrnxynY7Dudu6LBvAAqQ
 status: active
 merged_into: null
 display_name: 王璟
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,117 @@ relationships:
         status: active
         display_name: 王儼
         merged_into_person_id: null
+    - claim:
+        id: c_wbGGD5sESIb10s5d-t8rqe
+        subject_person_id: p_P6jrnxynY7Dudu6LBvAAqQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6k4sUS8CHxC3qoYzhJEFu4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aAMWHx6BE9uxJ6vZKc7DMC
+          claim_id: c_wbGGD5sESIb10s5d-t8rqe
+          source_id: s_zkUmszkSTI0zIieILn4Z4K
+          stance: supports
+          locator: CBDB：兄弟 王儼（338703）之父／母 王璟
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王㒜 与 王儼 为同胞（CBDB 记「兄」），王儼 之父／母即 王㒜 之父／母。
+          source:
+            id: s_zkUmszkSTI0zIieILn4Z4K
+            source_type: api_record
+            title: 中国历代人物传记资料库：王㒜（CBDB 250575）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250575&o=json
+            external_identifier: CBDB:250575
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6k4sUS8CHxC3qoYzhJEFu4
+        status: active
+        display_name: 王㒜
+        merged_into_person_id: null
+    - claim:
+        id: c_Fs6k_-xxqDvSTnfe28PdQ1
+        subject_person_id: p_P6jrnxynY7Dudu6LBvAAqQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_74BX4CVF4zu1PfPasjWvf5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qhT_V6ZJKk8Yqcxngirx6v
+          claim_id: c_Fs6k_-xxqDvSTnfe28PdQ1
+          source_id: s_ILR_ezkD2zoG5YqDnyaLlW
+          stance: supports
+          locator: CBDB：兄弟 王儼（338703）之父／母 王璟
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王俊 与 王儼 为同胞（CBDB 记「兄」），王儼 之父／母即 王俊 之父／母。
+          source:
+            id: s_ILR_ezkD2zoG5YqDnyaLlW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王俊（CBDB 250573）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250573&o=json
+            external_identifier: CBDB:250573
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_74BX4CVF4zu1PfPasjWvf5
+        status: active
+        display_name: 王俊
+        merged_into_person_id: null
+    - claim:
+        id: c_blQbuCGM9F7xmAfv2VZIRQ
+        subject_person_id: p_P6jrnxynY7Dudu6LBvAAqQ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DRpyKccfhuNNMQicLsv6Tw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3pc79AVDveerJKyVlFdSGf
+          claim_id: c_blQbuCGM9F7xmAfv2VZIRQ
+          source_id: s_nWcCYSOkihmzxgOfxYemAy
+          stance: supports
+          locator: CBDB：兄弟 王儼（338703）之父／母 王璟
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王偉 与 王儼 为同胞（CBDB 记「兄」），王儼 之父／母即 王偉 之父／母。
+          source:
+            id: s_nWcCYSOkihmzxgOfxYemAy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王偉（CBDB 250574）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250574&o=json
+            external_identifier: CBDB:250574
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DRpyKccfhuNNMQicLsv6Tw
+        status: active
+        display_name: 王偉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +246,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_GGm15a95bmjM4yFUpB9QGR | 王儼 | accepted |
+| children | p_6k4sUS8CHxC3qoYzhJEFu4 | 王㒜 | accepted |
+| children | p_74BX4CVF4zu1PfPasjWvf5 | 王俊 | accepted |
+| children | p_DRpyKccfhuNNMQicLsv6Tw | 王偉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王璟（CBDB 250568）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250568&o=json)
+- [中国历代人物传记资料库：王俊（CBDB 250573）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250573&o=json)
+- [中国历代人物传记资料库：王偉（CBDB 250574）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250574&o=json)
 - [中国历代人物传记资料库：王儼（CBDB 338703）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=338703&o=json)
+- [中国历代人物传记资料库：王㒜（CBDB 250575）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250575&o=json)

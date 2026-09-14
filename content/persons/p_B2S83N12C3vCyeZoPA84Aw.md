@@ -4,7 +4,7 @@ id: p_B2S83N12C3vCyeZoPA84Aw
 status: active
 merged_into: null
 display_name: 王德
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_8kEaShi7azHVKI1sPGzybr
+        subject_person_id: p_ggxQ1jnked4p4GU2cPQ9m8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_B2S83N12C3vCyeZoPA84Aw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QBiX9zzq36oxtxs_a-PtVS
+          claim_id: c_8kEaShi7azHVKI1sPGzybr
+          source_id: s_EmBy5gbdpn-iO1G6o28hTk
+          stance: supports
+          locator: CBDB：兄弟 王坦（126565）之父／母 王蕃
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王德 与 王坦 为同胞（CBDB 记「兄」），王坦 之父／母即 王德 之父／母。
+          source:
+            id: s_EmBy5gbdpn-iO1G6o28hTk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德（CBDB 244425）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244425&o=json
+            external_identifier: CBDB:244425
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ggxQ1jnked4p4GU2cPQ9m8
+        status: active
+        display_name: 王蕃
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_JD57gWKksGyerjfHR8RoRf
+        subject_person_id: p_B2S83N12C3vCyeZoPA84Aw
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_aYH4Kd4bjhZaTFXvNipRQE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Crs3RH9UM-OAKZWmbUmDAY
+          claim_id: c_JD57gWKksGyerjfHR8RoRf
+          source_id: s_EmBy5gbdpn-iO1G6o28hTk
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126565 王坦）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_EmBy5gbdpn-iO1G6o28hTk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德（CBDB 244425）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244425&o=json
+            external_identifier: CBDB:244425
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aYH4Kd4bjhZaTFXvNipRQE
+        status: active
+        display_name: 王坦
+        merged_into_person_id: null
 ---
 
 # 王德
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ggxQ1jnked4p4GU2cPQ9m8 | 王蕃 | accepted |
+| other | p_aYH4Kd4bjhZaTFXvNipRQE | 王坦 | accepted |
 
 ## 外部来源
 

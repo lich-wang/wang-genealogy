@@ -4,7 +4,7 @@ id: p_EBfbydRv4JZEiVZULEada1
 status: active
 merged_into: null
 display_name: 王寬
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,117 @@ relationships:
         status: active
         display_name: 王士翹
         merged_into_person_id: null
+    - claim:
+        id: c_0DHkpBe4kWxAnWblI-7pCw
+        subject_person_id: p_EBfbydRv4JZEiVZULEada1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3ezSSXeEgkYBWDcz5Z6Cuy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1Zt1qDMqFVuNRDGzD7lkQX
+          claim_id: c_0DHkpBe4kWxAnWblI-7pCw
+          source_id: s_NpoVNV19keFINmnSv8OHGX
+          stance: supports
+          locator: CBDB：兄弟 王士翹（203106）之父／母 王寬
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王敏 与 王士翹 为同胞（CBDB 记「弟」），王士翹 之父／母即 王敏 之父／母。
+          source:
+            id: s_NpoVNV19keFINmnSv8OHGX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敏（CBDB 299914）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299914&o=json
+            external_identifier: CBDB:299914
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3ezSSXeEgkYBWDcz5Z6Cuy
+        status: active
+        display_name: 王敏
+        merged_into_person_id: null
+    - claim:
+        id: c_TmEhxQet3jyLyFWty5J0Tk
+        subject_person_id: p_EBfbydRv4JZEiVZULEada1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VoaruXoEie1KQRFAAj192T
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Uc4kPK2WorbTMg4BPmIKfS
+          claim_id: c_TmEhxQet3jyLyFWty5J0Tk
+          source_id: s_i22HDqyNwpSFfpUVlwR-oT
+          stance: supports
+          locator: CBDB：兄弟 王士翹（203106）之父／母 王寬
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王士俊 与 王士翹 为同胞（CBDB 记「弟」），王士翹 之父／母即 王士俊 之父／母。
+          source:
+            id: s_i22HDqyNwpSFfpUVlwR-oT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王士俊（CBDB 299916）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299916&o=json
+            external_identifier: CBDB:299916
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VoaruXoEie1KQRFAAj192T
+        status: active
+        display_name: 王士俊
+        merged_into_person_id: null
+    - claim:
+        id: c_t0sQ2O9H6IbcDjqZZbKtY9
+        subject_person_id: p_EBfbydRv4JZEiVZULEada1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bsHa1mTCgV7P78dFSE1khJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BT4Jp7HCyzErHojq6kJ79v
+          claim_id: c_t0sQ2O9H6IbcDjqZZbKtY9
+          source_id: s_j3Viunvf132MsdSjFiX6n6
+          stance: supports
+          locator: CBDB：兄弟 王士翹（203106）之父／母 王寬
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王士翱 与 王士翹 为同胞（CBDB 记「兄」），王士翹 之父／母即 王士翱 之父／母。
+          source:
+            id: s_j3Viunvf132MsdSjFiX6n6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王士翱（CBDB 299917）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299917&o=json
+            external_identifier: CBDB:299917
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_bsHa1mTCgV7P78dFSE1khJ
+        status: active
+        display_name: 王士翱
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +246,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_acwBn4E2ueYuXmC3T9fy34 | 王士翹 | accepted |
+| children | p_3ezSSXeEgkYBWDcz5Z6Cuy | 王敏 | accepted |
+| children | p_VoaruXoEie1KQRFAAj192T | 王士俊 | accepted |
+| children | p_bsHa1mTCgV7P78dFSE1khJ | 王士翱 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王寬（CBDB 299909）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299909&o=json)
+- [中国历代人物传记资料库：王敏（CBDB 299914）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299914&o=json)
+- [中国历代人物传记资料库：王士翱（CBDB 299917）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299917&o=json)
+- [中国历代人物传记资料库：王士俊（CBDB 299916）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=299916&o=json)
 - [中国历代人物传记资料库：王士翹（CBDB 203106）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203106&o=json)

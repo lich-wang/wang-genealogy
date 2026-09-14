@@ -4,7 +4,7 @@ id: p_jLjXgM3f18nuVW83EfXw7K
 status: active
 merged_into: null
 display_name: 王墉
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_aMdOsF3jAWuCn8XFyswW2L
+        subject_person_id: p_qoAdHHLt7NBY3aQndi4h7A
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jLjXgM3f18nuVW83EfXw7K
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GDomcsDYPmZDhW2boBHvHZ
+          claim_id: c_aMdOsF3jAWuCn8XFyswW2L
+          source_id: s_saSf1K2Erj9drzinWILT7Z
+          stance: supports
+          locator: CBDB：兄弟 王念祖（207816）之父／母 王舜卿
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王墉 与 王念祖 为同胞（CBDB 记「弟」），王念祖 之父／母即 王墉 之父／母。
+          source:
+            id: s_saSf1K2Erj9drzinWILT7Z
+            source_type: api_record
+            title: 中国历代人物传记资料库：王墉（CBDB 236488）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236488&o=json
+            external_identifier: CBDB:236488
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qoAdHHLt7NBY3aQndi4h7A
+        status: active
+        display_name: 王舜卿
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_fkpQsTiALBj8pNhQMDMUUU
+        subject_person_id: p_jLjXgM3f18nuVW83EfXw7K
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nwL2xVd75q361KsBtDP6KW
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RVoj395t_izplQpLT2sR56
+          claim_id: c_fkpQsTiALBj8pNhQMDMUUU
+          source_id: s_saSf1K2Erj9drzinWILT7Z
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207816 王念祖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_saSf1K2Erj9drzinWILT7Z
+            source_type: api_record
+            title: 中国历代人物传记资料库：王墉（CBDB 236488）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236488&o=json
+            external_identifier: CBDB:236488
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nwL2xVd75q361KsBtDP6KW
+        status: active
+        display_name: 王念祖
+        merged_into_person_id: null
 ---
 
 # 王墉
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qoAdHHLt7NBY3aQndi4h7A | 王舜卿 | accepted |
+| other | p_nwL2xVd75q361KsBtDP6KW | 王念祖 | accepted |
 
 ## 外部来源
 

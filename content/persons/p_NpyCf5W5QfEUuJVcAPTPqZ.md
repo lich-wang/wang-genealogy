@@ -4,7 +4,7 @@ id: p_NpyCf5W5QfEUuJVcAPTPqZ
 status: active
 merged_into: null
 display_name: 王幹
-revision: 2
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,154 @@ relationships:
         status: active
         display_name: 王玹
         merged_into_person_id: null
+    - claim:
+        id: c_HWiVD_d4-va8qv9wSRCLnB
+        subject_person_id: p_NpyCf5W5QfEUuJVcAPTPqZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NpdkdEmAFR4uKTD4g6Qb8L
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_STVTHmdu6a6BjDzjAZDgzx
+          claim_id: c_HWiVD_d4-va8qv9wSRCLnB
+          source_id: s_GCP2n8cgjWu01t1uRbUKP-
+          stance: supports
+          locator: CBDB：兄弟 王玹（126600）之父／母 王幹
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王瑤 与 王玹 为同胞（CBDB 记「兄」），王玹 之父／母即 王瑤 之父／母。
+          source:
+            id: s_GCP2n8cgjWu01t1uRbUKP-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑤（CBDB 244702）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244702&o=json
+            external_identifier: CBDB:244702
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NpdkdEmAFR4uKTD4g6Qb8L
+        status: active
+        display_name: 王瑤
+        merged_into_person_id: null
+    - claim:
+        id: c_oQenQEJU7Wv9FvLRPsZBT6
+        subject_person_id: p_NpyCf5W5QfEUuJVcAPTPqZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_iD1eJdJgU3JwR1ZJai5CND
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jxTt6hvuYQfmnF1Yiw22BE
+          claim_id: c_oQenQEJU7Wv9FvLRPsZBT6
+          source_id: s_gDFhL-rG9kmPNycIIw2gMB
+          stance: supports
+          locator: CBDB：兄弟 王玹（126600）之父／母 王幹
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王瓊 与 王玹 为同胞（CBDB 记「兄」），王玹 之父／母即 王瓊 之父／母。
+          source:
+            id: s_gDFhL-rG9kmPNycIIw2gMB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瓊（CBDB 244701）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244701&o=json
+            external_identifier: CBDB:244701
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_iD1eJdJgU3JwR1ZJai5CND
+        status: active
+        display_name: 王瓊
+        merged_into_person_id: null
+    - claim:
+        id: c_JYETkz_hjHOiB6gvLUNamR
+        subject_person_id: p_NpyCf5W5QfEUuJVcAPTPqZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_snYzLNGdke6etTGK3ye7s6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iq9RG5XaVKawMQ8o3vVyy8
+          claim_id: c_JYETkz_hjHOiB6gvLUNamR
+          source_id: s_zrdcQQwtO4W8f-VbTuIK9V
+          stance: supports
+          locator: CBDB：兄弟 王玹（126600）之父／母 王幹
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王瑞 与 王玹 为同胞（CBDB 记「兄」），王玹 之父／母即 王瑞 之父／母。
+          source:
+            id: s_zrdcQQwtO4W8f-VbTuIK9V
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑞（CBDB 244700）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244700&o=json
+            external_identifier: CBDB:244700
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_snYzLNGdke6etTGK3ye7s6
+        status: active
+        display_name: 王瑞
+        merged_into_person_id: null
+    - claim:
+        id: c_CAhGl2ZL171JwT_SP14r90
+        subject_person_id: p_NpyCf5W5QfEUuJVcAPTPqZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uAY352QHQTuLgpQWQyqieh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cXc-eTTan9K2W7s9HFL6F3
+          claim_id: c_CAhGl2ZL171JwT_SP14r90
+          source_id: s_KhQshS2qmu58c7XsBgU1Un
+          stance: supports
+          locator: CBDB：兄弟 王玹（126600）之父／母 王幹
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王瑀 与 王玹 为同胞（CBDB 记「兄」），王玹 之父／母即 王瑀 之父／母。
+          source:
+            id: s_KhQshS2qmu58c7XsBgU1Un
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑀（CBDB 244699）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244699&o=json
+            external_identifier: CBDB:244699
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_uAY352QHQTuLgpQWQyqieh
+        status: active
+        display_name: 王瑀
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +283,16 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_3oKFdGHi8BKifcXxMMERFS | 王玹 | accepted |
+| children | p_NpdkdEmAFR4uKTD4g6Qb8L | 王瑤 | accepted |
+| children | p_iD1eJdJgU3JwR1ZJai5CND | 王瓊 | accepted |
+| children | p_snYzLNGdke6etTGK3ye7s6 | 王瑞 | accepted |
+| children | p_uAY352QHQTuLgpQWQyqieh | 王瑀 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王幹（CBDB 244695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244695&o=json)
+- [中国历代人物传记资料库：王瓊（CBDB 244701）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244701&o=json)
+- [中国历代人物传记资料库：王瑞（CBDB 244700）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244700&o=json)
 - [中国历代人物传记资料库：王玹（CBDB 126600）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126600&o=json)
+- [中国历代人物传记资料库：王瑤（CBDB 244702）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244702&o=json)
+- [中国历代人物传记资料库：王瑀（CBDB 244699）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=244699&o=json)

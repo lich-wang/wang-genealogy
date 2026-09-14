@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王䋊
 cbdb_id: 126694
-revision: 4
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -192,7 +192,81 @@ relationships:
         display_name: 王廷錫
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_bZNzVtBn6P_0bm5XRtrCPT
+        subject_person_id: p_36eZaS7QvMbQ5gauBNpQML
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_sn9KZzCF4Seq4v2EsCEM8N
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_INlCFzU75-IxdTpRTwqhuc
+          claim_id: c_bZNzVtBn6P_0bm5XRtrCPT
+          source_id: s_BWfiBo5KNi0LY-UOcjhM4m
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126694 王䋊）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_BWfiBo5KNi0LY-UOcjhM4m
+            source_type: api_record
+            title: 中国历代人物传记资料库：王統（CBDB 288294）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288294&o=json
+            external_identifier: CBDB:288294
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_36eZaS7QvMbQ5gauBNpQML
+        status: active
+        display_name: 王統
+        merged_into_person_id: null
+    - claim:
+        id: c_EVUgHt_GlHcBnK14u7uqdU
+        subject_person_id: p_XrEdbQ2bpeMAqGHZHwfqTJ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_sn9KZzCF4Seq4v2EsCEM8N
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1Kb9CAAfJTg9TdkC1vIC3S
+          claim_id: c_EVUgHt_GlHcBnK14u7uqdU
+          source_id: s_HSDY-2UDeAQgJ4hvMYHYT8
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126694 王䋊）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_HSDY-2UDeAQgJ4hvMYHYT8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繩（CBDB 288293）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288293&o=json
+            external_identifier: CBDB:288293
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_XrEdbQ2bpeMAqGHZHwfqTJ
+        status: active
+        display_name: 王繩
+        merged_into_person_id: null
 ---
 
 # 王䋊
@@ -213,10 +287,14 @@ relationships:
 | parents | p_CMffgJkEHdtf2Ua3rJuHZ9 | 王璞 | accepted |
 | ancestors | p_aJLvov3QQMSFASDEQ1SHSn | 王鉉 | accepted |
 | ancestors | p_hPPzD3yuH7XiopdNBQo8V5 | 王廷錫 | accepted |
+| other | p_36eZaS7QvMbQ5gauBNpQML | 王統 | accepted |
+| other | p_XrEdbQ2bpeMAqGHZHwfqTJ | 王繩 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王璞（CBDB 288290）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288290&o=json)
+- [中国历代人物传记资料库：王繩（CBDB 288293）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288293&o=json)
 - [中国历代人物传记资料库：王廷錫（CBDB 288288）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288288&o=json)
+- [中国历代人物传记资料库：王統（CBDB 288294）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288294&o=json)
 - [中国历代人物传记资料库：王鉉（CBDB 288289）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288289&o=json)
 - [中国历代人物传记资料库：王䋊（CBDB 126694）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126694&o=json)

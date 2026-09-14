@@ -4,7 +4,7 @@ id: p_sMgCZ6QJhNBHyTJLQw3P1S
 status: active
 merged_into: null
 display_name: 王朝聘
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,43 @@ relationships:
         status: active
         display_name: 王一治
         merged_into_person_id: null
+    - claim:
+        id: c_yWFuQgUkwNwy62WAiniDrh
+        subject_person_id: p_sMgCZ6QJhNBHyTJLQw3P1S
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_quLm1TKaDFJnRf4S58qjch
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HvPOMNbDcAX820GU63bH3M
+          claim_id: c_yWFuQgUkwNwy62WAiniDrh
+          source_id: s_pd3E8hjAod43C9tL2dyOlM
+          stance: supports
+          locator: CBDB：兄弟 王一治（205461）之父／母 王朝聘
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王大治 与 王一治 为同胞（CBDB 记「兄」），王一治 之父／母即 王大治 之父／母。
+          source:
+            id: s_pd3E8hjAod43C9tL2dyOlM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大治（CBDB 333530）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333530&o=json
+            external_identifier: CBDB:333530
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_quLm1TKaDFJnRf4S58qjch
+        status: active
+        display_name: 王大治
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_C9cGcDit6NRvdLZ3oy6Mbe | 王一治 | accepted |
+| children | p_quLm1TKaDFJnRf4S58qjch | 王大治 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王朝聘（CBDB 333525）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333525&o=json)
+- [中国历代人物传记资料库：王大治（CBDB 333530）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333530&o=json)
 - [中国历代人物传记资料库：王一治（CBDB 205461）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205461&o=json)

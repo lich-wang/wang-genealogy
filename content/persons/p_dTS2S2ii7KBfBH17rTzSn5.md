@@ -4,7 +4,7 @@ id: p_dTS2S2ii7KBfBH17rTzSn5
 status: active
 merged_into: null
 display_name: 施氏
-revision: 1
+revision: 5
 cbdb_id: 38174
 properties:
   - predicate: bio.summary
@@ -74,7 +74,155 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_6Q85OfBeYodhdWVLfP-3Du
+        subject_person_id: p_dTS2S2ii7KBfBH17rTzSn5
+        claim_kind: relationship
+        predicate: kinship.mother_of
+        object_person_id: p_7jUC2qyUN1zDpTdMY9WiAE
+        generation_count: null
+        parent_role: mother
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_QPZcyxoxNhhX37tO7yuqp2
+          claim_id: c_6Q85OfBeYodhdWVLfP-3Du
+          source_id: s_ctpln9mpaA1SvhALdJCVsT
+          stance: supports
+          locator: CBDB 亲属：母（KinPerson 38174）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_ctpln9mpaA1SvhALdJCVsT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世昌（CBDB 26365）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26365&o=json
+            external_identifier: CBDB:26365
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7jUC2qyUN1zDpTdMY9WiAE
+        status: active
+        display_name: 王世昌
+        merged_into_person_id: null
+    - claim:
+        id: c_Oj1NhgipkxbPNTnlGHEmIN
+        subject_person_id: p_dTS2S2ii7KBfBH17rTzSn5
+        claim_kind: relationship
+        predicate: kinship.mother_of
+        object_person_id: p_AeiQ3yBXkr3BsfCWA8QdWQ
+        generation_count: null
+        parent_role: mother
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_tblr1-1NSx5-hNcM9XUGTV
+          claim_id: c_Oj1NhgipkxbPNTnlGHEmIN
+          source_id: s_kwsEQaXzPK3rm007QYfSdE
+          stance: supports
+          locator: CBDB 亲属：母（KinPerson 38174）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_kwsEQaXzPK3rm007QYfSdE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世長（CBDB 37408）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37408&o=json
+            external_identifier: CBDB:37408
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_AeiQ3yBXkr3BsfCWA8QdWQ
+        status: active
+        display_name: 王世長
+        merged_into_person_id: null
+    - claim:
+        id: c_xuFvZVTWFR7RWpa7VgKa6w
+        subject_person_id: p_dTS2S2ii7KBfBH17rTzSn5
+        claim_kind: relationship
+        predicate: kinship.mother_of
+        object_person_id: p_VdvBjKWLHAJK5DbrysUDnY
+        generation_count: null
+        parent_role: mother
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_NQ8TFKGUKlRaGItugnyNlN
+          claim_id: c_xuFvZVTWFR7RWpa7VgKa6w
+          source_id: s_YihA0nqp3IKwp1IHrRokCp
+          stance: supports
+          locator: CBDB 亲属：母（KinPerson 38174）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_YihA0nqp3IKwp1IHrRokCp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世融（CBDB 37409）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37409&o=json
+            external_identifier: CBDB:37409
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VdvBjKWLHAJK5DbrysUDnY
+        status: active
+        display_name: 王世融
+        merged_into_person_id: null
+    - claim:
+        id: c_PdA_7P3v1aHzBRYz3zA84c
+        subject_person_id: p_dTS2S2ii7KBfBH17rTzSn5
+        claim_kind: relationship
+        predicate: kinship.mother_of
+        object_person_id: p_x1ifADeGmWkPgij2WApXDK
+        generation_count: null
+        parent_role: mother
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_STrZ3czeAeEZm5yJykVhtX
+          claim_id: c_PdA_7P3v1aHzBRYz3zA84c
+          source_id: s_SxGyszVUVmeejyRIAD5egQ
+          stance: supports
+          locator: CBDB 亲属：母（KinPerson 38174）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_SxGyszVUVmeejyRIAD5egQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世寧（CBDB 37407）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37407&o=json
+            external_identifier: CBDB:37407
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_x1ifADeGmWkPgij2WApXDK
+        status: active
+        display_name: 王世寧
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -124,8 +272,16 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_7jUC2qyUN1zDpTdMY9WiAE | 王世昌 | accepted |
+| children | p_AeiQ3yBXkr3BsfCWA8QdWQ | 王世長 | accepted |
+| children | p_VdvBjKWLHAJK5DbrysUDnY | 王世融 | accepted |
+| children | p_x1ifADeGmWkPgij2WApXDK | 王世寧 | accepted |
 | spouses | p_HmkBbL3A8MpbWct9UhADAQ | 王中正 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：施氏(王中正妻)（CBDB 38174）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38174&o=json)
+- [中国历代人物传记资料库：王世昌（CBDB 26365）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26365&o=json)
+- [中国历代人物传记资料库：王世寧（CBDB 37407）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37407&o=json)
+- [中国历代人物传记资料库：王世融（CBDB 37409）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37409&o=json)
+- [中国历代人物传记资料库：王世長（CBDB 37408）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37408&o=json)

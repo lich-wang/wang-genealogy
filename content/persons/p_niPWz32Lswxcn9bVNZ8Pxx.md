@@ -4,7 +4,7 @@ id: p_niPWz32Lswxcn9bVNZ8Pxx
 status: active
 merged_into: null
 display_name: 王親臣
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_AJ7jP4SfQMjwEuv-QF5C7X
+        subject_person_id: p_sp87Q8ktX7kHeJfazKTe3u
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_niPWz32Lswxcn9bVNZ8Pxx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HjMWs-p3ZKA81-8DG5OuSY
+          claim_id: c_AJ7jP4SfQMjwEuv-QF5C7X
+          source_id: s_oxOil9jBbh5Svu6_fEJUlu
+          stance: supports
+          locator: CBDB：兄弟 王翰臣（202016）之父／母 王琛
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王親臣 与 王翰臣 为同胞（CBDB 记「兄」），王翰臣 之父／母即 王親臣 之父／母。
+          source:
+            id: s_oxOil9jBbh5Svu6_fEJUlu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王親臣（CBDB 282046）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282046&o=json
+            external_identifier: CBDB:282046
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_sp87Q8ktX7kHeJfazKTe3u
+        status: active
+        display_name: 王琛
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_WI3T8t2n95QkqFhrXEuuOa
+        subject_person_id: p_Mm4Feno3TMRLDtespKCU2Q
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_niPWz32Lswxcn9bVNZ8Pxx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q3im5H55q_5Wf9Ei7rgFi4
+          claim_id: c_WI3T8t2n95QkqFhrXEuuOa
+          source_id: s_oxOil9jBbh5Svu6_fEJUlu
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202016 王翰臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_oxOil9jBbh5Svu6_fEJUlu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王親臣（CBDB 282046）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282046&o=json
+            external_identifier: CBDB:282046
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Mm4Feno3TMRLDtespKCU2Q
+        status: active
+        display_name: 王翰臣
+        merged_into_person_id: null
 ---
 
 # 王親臣
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_sp87Q8ktX7kHeJfazKTe3u | 王琛 | accepted |
+| other | p_Mm4Feno3TMRLDtespKCU2Q | 王翰臣 | accepted |
 
 ## 外部来源
 

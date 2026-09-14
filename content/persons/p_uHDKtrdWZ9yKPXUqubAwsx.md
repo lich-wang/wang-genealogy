@@ -4,7 +4,7 @@ id: p_uHDKtrdWZ9yKPXUqubAwsx
 status: active
 merged_into: null
 display_name: 王克忠
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -116,7 +116,44 @@ relationships:
         merged_into_person_id: null
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_jlSlJGbZEJREbXGrhp1hCI
+        subject_person_id: p_uHDKtrdWZ9yKPXUqubAwsx
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xYin523MUijjPHQi64Mp4N
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_u3kz8TRBgNte780u5dx2xK
+          claim_id: c_jlSlJGbZEJREbXGrhp1hCI
+          source_id: s_BeLePDwb6JfXjxxgyhjGOo
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 17761 王克忠）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_BeLePDwb6JfXjxxgyhjGOo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王克緒（CBDB 17760）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17760&o=json
+            external_identifier: CBDB:17760
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xYin523MUijjPHQi64Mp4N
+        status: active
+        display_name: 王克緒
+        merged_into_person_id: null
 ---
 
 # 王克忠
@@ -135,8 +172,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_cbu5coUf2zSunAAFmxvccU | 石氏 | accepted |
+| other | p_xYin523MUijjPHQi64Mp4N | 王克緒 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：石氏(王克忠妻)（CBDB 39037）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=39037&o=json)
+- [中国历代人物传记资料库：王克緒（CBDB 17760）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17760&o=json)
 - [中国历代人物传记资料库：王克忠（CBDB 17761）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17761&o=json)

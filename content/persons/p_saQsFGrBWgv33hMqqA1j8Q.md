@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王學吉
 cbdb_id: 316261
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ZuQ1E_4MyfI0wwH6_kzaKc
+        subject_person_id: p_CTanKyckA8Emf57Dk1Jm7o
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_saQsFGrBWgv33hMqqA1j8Q
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Vp3Y4bIiCpd4WaZXEUkO9A
+          claim_id: c_ZuQ1E_4MyfI0wwH6_kzaKc
+          source_id: s_sn5hUxj3A-hCDIEilb87Zt
+          stance: supports
+          locator: CBDB：兄弟 王學謨（204228）之父／母 王世卿
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王學吉 与 王學謨 为同胞（CBDB 记「弟」），王學謨 之父／母即 王學吉 之父／母。
+          source:
+            id: s_sn5hUxj3A-hCDIEilb87Zt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王學吉（CBDB 316261）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316261&o=json
+            external_identifier: CBDB:316261
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CTanKyckA8Emf57Dk1Jm7o
+        status: active
+        display_name: 王世卿
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_T2BAynjf_4ONxnTGF5wee_
+        subject_person_id: p_nxMTBwovWR92XT8tAZTvLW
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_saQsFGrBWgv33hMqqA1j8Q
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DlPneCUSG2sfwfPqH3-GEJ
+          claim_id: c_T2BAynjf_4ONxnTGF5wee_
+          source_id: s_sn5hUxj3A-hCDIEilb87Zt
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204228 王學謨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_sn5hUxj3A-hCDIEilb87Zt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王學吉（CBDB 316261）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316261&o=json
+            external_identifier: CBDB:316261
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nxMTBwovWR92XT8tAZTvLW
+        status: active
+        display_name: 王學謨
+        merged_into_person_id: null
 ---
 
 # 王學吉
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_CTanKyckA8Emf57Dk1Jm7o | 王世卿 | accepted |
+| other | p_nxMTBwovWR92XT8tAZTvLW | 王學謨 | accepted |
 
 ## 外部来源
 

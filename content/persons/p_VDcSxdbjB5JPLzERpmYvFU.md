@@ -4,7 +4,7 @@ id: p_VDcSxdbjB5JPLzERpmYvFU
 status: active
 merged_into: null
 display_name: 王泝
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,80 @@ relationships:
         status: active
         display_name: 王安舜
         merged_into_person_id: null
+    - claim:
+        id: c_S5nsRRJ_bTHWUvn_eN4ywI
+        subject_person_id: p_VDcSxdbjB5JPLzERpmYvFU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7DwthjF5MX92QE81NQ7sQG
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UIScF-qm5xIsnRfph7_u5F
+          claim_id: c_S5nsRRJ_bTHWUvn_eN4ywI
+          source_id: s_UFrad3Hro0TLa_SHWgRGZi
+          stance: supports
+          locator: CBDB：兄弟 王安舜（207738）之父／母 王泝
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王安宗 与 王安舜 为同胞（CBDB 记「弟」），王安舜 之父／母即 王安宗 之父／母。
+          source:
+            id: s_UFrad3Hro0TLa_SHWgRGZi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王安宗（CBDB 234990）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234990&o=json
+            external_identifier: CBDB:234990
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7DwthjF5MX92QE81NQ7sQG
+        status: active
+        display_name: 王安宗
+        merged_into_person_id: null
+    - claim:
+        id: c_l3TDHq-dXt706nxvqnaaf3
+        subject_person_id: p_VDcSxdbjB5JPLzERpmYvFU
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BS98rkS6BVdHnc6YesxVkv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Qfso5tuUg9oJNnW9qgCY7f
+          claim_id: c_l3TDHq-dXt706nxvqnaaf3
+          source_id: s_VSI68zMpsWULFxTmUvURex
+          stance: supports
+          locator: CBDB：兄弟 王安舜（207738）之父／母 王泝
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王安尹 与 王安舜 为同胞（CBDB 记「弟」），王安舜 之父／母即 王安尹 之父／母。
+          source:
+            id: s_VSI68zMpsWULFxTmUvURex
+            source_type: api_record
+            title: 中国历代人物传记资料库：王安尹（CBDB 234991）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234991&o=json
+            external_identifier: CBDB:234991
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BS98rkS6BVdHnc6YesxVkv
+        status: active
+        display_name: 王安尹
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_etxF8UycP4Urogz61YgdPb | 王安舜 | accepted |
+| children | p_7DwthjF5MX92QE81NQ7sQG | 王安宗 | accepted |
+| children | p_BS98rkS6BVdHnc6YesxVkv | 王安尹 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王安尹（CBDB 234991）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234991&o=json)
+- [中国历代人物传记资料库：王安宗（CBDB 234990）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234990&o=json)
 - [中国历代人物传记资料库：王泝（CBDB 234985）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=234985&o=json)

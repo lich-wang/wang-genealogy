@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王乾亨
 cbdb_id: 206520
-revision: 4
+revision: 9
 properties:
   - predicate: bio.summary
     recommended:
@@ -236,7 +236,192 @@ relationships:
         display_name: 王鑰
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_WBDwU-UBkp7bGtRzd6AgcC
+        subject_person_id: p_DP6mVGy7Bg888mb3e1eb4f
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mhrvputkBEQ43wY64CJw5k
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cqeQO49T1ygCg_M0eJH3og
+          claim_id: c_WBDwU-UBkp7bGtRzd6AgcC
+          source_id: s_KnFhkch2xUEoZNspO2P82k
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206520 王乾亨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_KnFhkch2xUEoZNspO2P82k
+            source_type: api_record
+            title: 中国历代人物传记资料库：王炌（CBDB 219260）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219260&o=json
+            external_identifier: CBDB:219260
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DP6mVGy7Bg888mb3e1eb4f
+        status: active
+        display_name: 王炌
+        merged_into_person_id: null
+    - claim:
+        id: c_5I-cBdFuHd17EVUREUe9Gg
+        subject_person_id: p_EqARATPgBBrHMxLZoEz1Gp
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mhrvputkBEQ43wY64CJw5k
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3DKwYQtNoN1SW0Mah8dLwk
+          claim_id: c_5I-cBdFuHd17EVUREUe9Gg
+          source_id: s_6elau11NqpuOoF9iEfijvF
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206520 王乾亨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_6elau11NqpuOoF9iEfijvF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王坤亨（CBDB 219264）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219264&o=json
+            external_identifier: CBDB:219264
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EqARATPgBBrHMxLZoEz1Gp
+        status: active
+        display_name: 王坤亨
+        merged_into_person_id: null
+    - claim:
+        id: c_r4uXaa6c3YisKLIjx4AJ6i
+        subject_person_id: p_GE1GZqM7N1sxTxpcYkDEzs
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mhrvputkBEQ43wY64CJw5k
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8zDUIJkMZHv_qs-DJ2nqI1
+          claim_id: c_r4uXaa6c3YisKLIjx4AJ6i
+          source_id: s__h6i8c9CXapMimox3a0Q9M
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206520 王乾亨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__h6i8c9CXapMimox3a0Q9M
+            source_type: api_record
+            title: 中国历代人物传记资料库：王泰亨（CBDB 219261）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219261&o=json
+            external_identifier: CBDB:219261
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GE1GZqM7N1sxTxpcYkDEzs
+        status: active
+        display_name: 王泰亨
+        merged_into_person_id: null
+    - claim:
+        id: c_yNsNfGUniJWxDdkapgiO84
+        subject_person_id: p_KWys6KUvQi6E8Ad6BTffnw
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mhrvputkBEQ43wY64CJw5k
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pW6ZoDAgXOulmPjAu5FEsS
+          claim_id: c_yNsNfGUniJWxDdkapgiO84
+          source_id: s_aryTlLELjDnW4pbUhP-NSl
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206520 王乾亨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_aryTlLELjDnW4pbUhP-NSl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王有亨（CBDB 219263）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219263&o=json
+            external_identifier: CBDB:219263
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KWys6KUvQi6E8Ad6BTffnw
+        status: active
+        display_name: 王有亨
+        merged_into_person_id: null
+    - claim:
+        id: c_SGexCt5qTnnpr8Z6zc2Qie
+        subject_person_id: p_acTNCG1VMRELJ4C8s9MFwp
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mhrvputkBEQ43wY64CJw5k
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Qr4Qp-VvPLkeuHF8qMLZZZ
+          claim_id: c_SGexCt5qTnnpr8Z6zc2Qie
+          source_id: s_jQTUqatmmgmN3ImsQbZouC
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206520 王乾亨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_jQTUqatmmgmN3ImsQbZouC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王賁亨（CBDB 219262）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219262&o=json
+            external_identifier: CBDB:219262
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_acTNCG1VMRELJ4C8s9MFwp
+        status: active
+        display_name: 王賁亨
+        merged_into_person_id: null
 ---
 
 # 王乾亨
@@ -258,10 +443,20 @@ relationships:
 | parents | p_dQG6P5Z5ucUGLgZuSEfakq | 王熙政 | accepted |
 | ancestors | p_5uaQv14UYD4axoSqY6n6HV | 王治 | accepted |
 | ancestors | p_9iS5z5K2RWRF5QAZDRg3AJ | 王鑰 | accepted |
+| other | p_DP6mVGy7Bg888mb3e1eb4f | 王炌 | accepted |
+| other | p_EqARATPgBBrHMxLZoEz1Gp | 王坤亨 | accepted |
+| other | p_GE1GZqM7N1sxTxpcYkDEzs | 王泰亨 | accepted |
+| other | p_KWys6KUvQi6E8Ad6BTffnw | 王有亨 | accepted |
+| other | p_acTNCG1VMRELJ4C8s9MFwp | 王賁亨 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王賁亨（CBDB 219262）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219262&o=json)
+- [中国历代人物传记资料库：王炌（CBDB 219260）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219260&o=json)
+- [中国历代人物传记资料库：王坤亨（CBDB 219264）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219264&o=json)
 - [中国历代人物传记资料库：王乾亨（CBDB 206520）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206520&o=json)
+- [中国历代人物传记资料库：王泰亨（CBDB 219261）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219261&o=json)
 - [中国历代人物传记资料库：王熙政（CBDB 219255）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219255&o=json)
 - [中国历代人物传记资料库：王鑰（CBDB 219253）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219253&o=json)
+- [中国历代人物传记资料库：王有亨（CBDB 219263）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219263&o=json)
 - [中国历代人物传记资料库：王治（CBDB 219254）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219254&o=json)

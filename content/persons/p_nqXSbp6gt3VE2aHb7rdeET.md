@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王希烈
 cbdb_id: 126546
-revision: 4
+revision: 9
 properties:
   - predicate: bio.summary
     recommended:
@@ -195,7 +195,192 @@ relationships:
         display_name: 王紹肅
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_On2U7KT_7w8QeaKkKqqQjp
+        subject_person_id: p_1xGhXZ8SgPP6NYZk7NUqk9
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nqXSbp6gt3VE2aHb7rdeET
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cUApRRIPw3gEeFtYpH6Xjw
+          claim_id: c_On2U7KT_7w8QeaKkKqqQjp
+          source_id: s_gVEheTXEetdkd7FCtcN8Mg
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126546 王希烈）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_gVEheTXEetdkd7FCtcN8Mg
+            source_type: api_record
+            title: 中国历代人物传记资料库：王希張（CBDB 315375）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315375&o=json
+            external_identifier: CBDB:315375
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1xGhXZ8SgPP6NYZk7NUqk9
+        status: active
+        display_name: 王希張
+        merged_into_person_id: null
+    - claim:
+        id: c_PZXGzZtGwAT2F_9Hh8SWAG
+        subject_person_id: p_FJZK7j7kBnAQsDBNt9Fbyg
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nqXSbp6gt3VE2aHb7rdeET
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YSuF1cnpHurpQlJUrcSe1G
+          claim_id: c_PZXGzZtGwAT2F_9Hh8SWAG
+          source_id: s_k2FyJUJhUty-K2ityyCaY6
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126546 王希烈）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_k2FyJUJhUty-K2ityyCaY6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王希程（CBDB 315374）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315374&o=json
+            external_identifier: CBDB:315374
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FJZK7j7kBnAQsDBNt9Fbyg
+        status: active
+        display_name: 王希程
+        merged_into_person_id: null
+    - claim:
+        id: c_90TWBJ5zVaZ59U75-tAVQI
+        subject_person_id: p_G6aLsWXSmZW6hMNSaoQ5VW
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nqXSbp6gt3VE2aHb7rdeET
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nRZIt30e_ID-Dmr4xXy_Ao
+          claim_id: c_90TWBJ5zVaZ59U75-tAVQI
+          source_id: s_6VZGLwhQb0lleD7UU6YDd7
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126546 王希烈）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_6VZGLwhQb0lleD7UU6YDd7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王希佐（CBDB 315376）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315376&o=json
+            external_identifier: CBDB:315376
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_G6aLsWXSmZW6hMNSaoQ5VW
+        status: active
+        display_name: 王希佐
+        merged_into_person_id: null
+    - claim:
+        id: c_fcu7kxMeO8U3LF9cug4ewG
+        subject_person_id: p_nQhoKkppEp1ZP31V93f2sm
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nqXSbp6gt3VE2aHb7rdeET
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_X1kiU5tben9rlLdhxVApQ4
+          claim_id: c_fcu7kxMeO8U3LF9cug4ewG
+          source_id: s_gxlU6LaTBJkXC01CGSY06B
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126546 王希烈）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_gxlU6LaTBJkXC01CGSY06B
+            source_type: api_record
+            title: 中国历代人物传记资料库：王希昂（CBDB 315371）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315371&o=json
+            external_identifier: CBDB:315371
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nQhoKkppEp1ZP31V93f2sm
+        status: active
+        display_name: 王希昂
+        merged_into_person_id: null
+    - claim:
+        id: c_auGM_WBudWy24Ppuim_mRf
+        subject_person_id: p_nqXSbp6gt3VE2aHb7rdeET
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qh4q14MP1onDR6QTxwoRyv
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hoTKLOqbNwgafQskNzuiGn
+          claim_id: c_auGM_WBudWy24Ppuim_mRf
+          source_id: s_T2gwdSZacF9VG2J4lgYeTa
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126546 王希烈）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_T2gwdSZacF9VG2J4lgYeTa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王希周（CBDB 315372）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315372&o=json
+            external_identifier: CBDB:315372
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qh4q14MP1onDR6QTxwoRyv
+        status: active
+        display_name: 王希周
+        merged_into_person_id: null
 ---
 
 # 王希烈
@@ -216,10 +401,20 @@ relationships:
 | parents | p_uAujjG392SPymDDHoGZN88 | 王廷望 | accepted |
 | ancestors | p_39p4Z47cj6Pu66BinzwEbo | 王崇禎 | accepted |
 | ancestors | p_QVYnzKQ3Qmo2oe1E9Nx6jF | 王紹肅 | accepted |
+| other | p_1xGhXZ8SgPP6NYZk7NUqk9 | 王希張 | accepted |
+| other | p_FJZK7j7kBnAQsDBNt9Fbyg | 王希程 | accepted |
+| other | p_G6aLsWXSmZW6hMNSaoQ5VW | 王希佐 | accepted |
+| other | p_nQhoKkppEp1ZP31V93f2sm | 王希昂 | accepted |
+| other | p_qh4q14MP1onDR6QTxwoRyv | 王希周 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王崇禎（CBDB 315366）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315366&o=json)
 - [中国历代人物传记资料库：王紹肅（CBDB 315365）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315365&o=json)
 - [中国历代人物传记资料库：王廷望（CBDB 315367）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315367&o=json)
+- [中国历代人物传记资料库：王希昂（CBDB 315371）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315371&o=json)
+- [中国历代人物传记资料库：王希程（CBDB 315374）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315374&o=json)
 - [中国历代人物传记资料库：王希烈（CBDB 126546）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126546&o=json)
+- [中国历代人物传记资料库：王希張（CBDB 315375）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315375&o=json)
+- [中国历代人物传记资料库：王希周（CBDB 315372）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315372&o=json)
+- [中国历代人物传记资料库：王希佐（CBDB 315376）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=315376&o=json)

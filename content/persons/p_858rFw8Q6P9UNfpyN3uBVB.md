@@ -4,7 +4,7 @@ id: p_858rFw8Q6P9UNfpyN3uBVB
 status: active
 merged_into: null
 display_name: 王統
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Aou4rXnHLHcoZHm8x2n5U-
+        subject_person_id: p_SJyiQsStHWbHq3jTTvu2vD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_858rFw8Q6P9UNfpyN3uBVB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2XTF9HQofB4vlpZfpQch2c
+          claim_id: c_Aou4rXnHLHcoZHm8x2n5U-
+          source_id: s_UrZYd_NRdJvjHCapq-9ZGB
+          stance: supports
+          locator: CBDB：兄弟 王以纁（205075）之父／母 王楫
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王統 与 王以纁 为同胞（CBDB 记「弟」），王以纁 之父／母即 王統 之父／母。
+          source:
+            id: s_UrZYd_NRdJvjHCapq-9ZGB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王統（CBDB 327960）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327960&o=json
+            external_identifier: CBDB:327960
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_SJyiQsStHWbHq3jTTvu2vD
+        status: active
+        display_name: 王楫
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c__4l-b8qk4VD_Akxa5tah1X
+        subject_person_id: p_858rFw8Q6P9UNfpyN3uBVB
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_DYviEpoQ7QNEe7UQdPVSd4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JuMkMG659RrIJKN16ZBREX
+          claim_id: c__4l-b8qk4VD_Akxa5tah1X
+          source_id: s_UrZYd_NRdJvjHCapq-9ZGB
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205075 王以纁）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_UrZYd_NRdJvjHCapq-9ZGB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王統（CBDB 327960）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327960&o=json
+            external_identifier: CBDB:327960
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DYviEpoQ7QNEe7UQdPVSd4
+        status: active
+        display_name: 王以纁
+        merged_into_person_id: null
 ---
 
 # 王統
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_SJyiQsStHWbHq3jTTvu2vD | 王楫 | accepted |
+| other | p_DYviEpoQ7QNEe7UQdPVSd4 | 王以纁 | accepted |
 
 ## 外部来源
 

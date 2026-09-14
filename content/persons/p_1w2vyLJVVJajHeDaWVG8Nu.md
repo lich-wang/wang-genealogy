@@ -4,7 +4,7 @@ id: p_1w2vyLJVVJajHeDaWVG8Nu
 status: active
 merged_into: null
 display_name: 王之臣
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,81 @@ relationships:
         display_name: 王福宗
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_R7JtsRJmt4RavAOo-pSRQf
+        subject_person_id: p_1w2vyLJVVJajHeDaWVG8Nu
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_EnTLB6WECUZGsyXR39jx7T
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RufKmkIMoG6-_vEPVqnenL
+          claim_id: c_R7JtsRJmt4RavAOo-pSRQf
+          source_id: s_x3ASsSxEnQgqmcv7h-FPIY
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203483 王之臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_x3ASsSxEnQgqmcv7h-FPIY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王伯壽（CBDB 305353）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305353&o=json
+            external_identifier: CBDB:305353
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EnTLB6WECUZGsyXR39jx7T
+        status: active
+        display_name: 王伯壽
+        merged_into_person_id: null
+    - claim:
+        id: c_uRpmYKDI-fyRZq49mEHH2r
+        subject_person_id: p_1w2vyLJVVJajHeDaWVG8Nu
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_i6KqpQkkMiCQtbQJwhMqBc
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Rl4WErJOIX0E2LVIhJDVEN
+          claim_id: c_uRpmYKDI-fyRZq49mEHH2r
+          source_id: s_i9WpXTuAFhoEVEyH2g9pkL
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203483 王之臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_i9WpXTuAFhoEVEyH2g9pkL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之子（CBDB 305354）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305354&o=json
+            external_identifier: CBDB:305354
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_i6KqpQkkMiCQtbQJwhMqBc
+        status: active
+        display_name: 王之子
+        merged_into_person_id: null
 ---
 
 # 王之臣
@@ -245,8 +319,12 @@ relationships:
 | spouses | p_aGGPYhnbRF3c4BpnBXQ4GU | 汪氏 | accepted |
 | ancestors | p_EAhcPdHUqn1cdvsTjdpctw | 王㬇 | accepted |
 | ancestors | p_n6B6dxMwRuYLUcZPJP3tCB | 王福宗 | accepted |
+| other | p_EnTLB6WECUZGsyXR39jx7T | 王伯壽 | accepted |
+| other | p_i6KqpQkkMiCQtbQJwhMqBc | 王之子 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：汪氏(王之臣妻)（CBDB 305352）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305352&o=json)
+- [中国历代人物传记资料库：王伯壽（CBDB 305353）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305353&o=json)
 - [中国历代人物传记资料库：王之臣（CBDB 203483）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203483&o=json)
+- [中国历代人物传记资料库：王之子（CBDB 305354）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=305354&o=json)

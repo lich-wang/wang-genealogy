@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王用相
 cbdb_id: 284148
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_13tpIskhY0LX8abFkM9BRP
+        subject_person_id: p_NuNTQZExjKcTBss2PH1NRS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MQw6zqb5PMzxmJgQ7D4f7W
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_akK-6DkM76SsJGHRQhno22
+          claim_id: c_13tpIskhY0LX8abFkM9BRP
+          source_id: s_pUK85Rm0Of52ivHYeB26-r
+          stance: supports
+          locator: CBDB：兄弟 王用賓（202137）之父／母 王懋
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王用相 与 王用賓 为同胞（CBDB 记「兄」），王用賓 之父／母即 王用相 之父／母。
+          source:
+            id: s_pUK85Rm0Of52ivHYeB26-r
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用相（CBDB 284148）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284148&o=json
+            external_identifier: CBDB:284148
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NuNTQZExjKcTBss2PH1NRS
+        status: active
+        display_name: 王懋
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_hY38Mo713oCPcEKT8xefrb
+        subject_person_id: p_6BcNKRe82htPqYxnsGXoQy
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_MQw6zqb5PMzxmJgQ7D4f7W
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eGroEBIhL9BPTYvqspDK-o
+          claim_id: c_hY38Mo713oCPcEKT8xefrb
+          source_id: s_pUK85Rm0Of52ivHYeB26-r
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202137 王用賓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_pUK85Rm0Of52ivHYeB26-r
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用相（CBDB 284148）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284148&o=json
+            external_identifier: CBDB:284148
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6BcNKRe82htPqYxnsGXoQy
+        status: active
+        display_name: 王用賓
+        merged_into_person_id: null
 ---
 
 # 王用相
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_NuNTQZExjKcTBss2PH1NRS | 王懋 | accepted |
+| other | p_6BcNKRe82htPqYxnsGXoQy | 王用賓 | accepted |
 
 ## 外部来源
 

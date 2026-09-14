@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王令聞
 cbdb_id: 121699
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -118,7 +118,44 @@ relationships:
         merged_into_person_id: null
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_svIRuGCec9P9Q8GblbOryS
+        subject_person_id: p_ZC73RUm9jimFMG5mD6D7HU
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_uym8ZYHMZML23NLgGPRY4p
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QLo1xKfKX70NOElS5dSH3j
+          claim_id: c_svIRuGCec9P9Q8GblbOryS
+          source_id: s_aRZp3iskSbWxLvu9cSogOM
+          stance: supports
+          locator: CBDB 亲属：妹（KinPerson 121699 王令聞）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_aRZp3iskSbWxLvu9cSogOM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王聲聞（CBDB 121702）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121702&o=json
+            external_identifier: CBDB:121702
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZC73RUm9jimFMG5mD6D7HU
+        status: active
+        display_name: 王聲聞
+        merged_into_person_id: null
 ---
 
 # 王令聞
@@ -137,8 +174,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_GAxpmc5jtxH2GJzF9JXcGq | 何鶴延 | accepted |
+| other | p_ZC73RUm9jimFMG5mD6D7HU | 王聲聞 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：何鶴延（CBDB 121703）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121703&o=json)
 - [中国历代人物传记资料库：王令聞（CBDB 121699）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121699&o=json)
+- [中国历代人物传记资料库：王聲聞（CBDB 121702）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121702&o=json)

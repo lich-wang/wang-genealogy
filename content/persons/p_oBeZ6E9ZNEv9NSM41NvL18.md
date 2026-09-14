@@ -4,7 +4,7 @@ id: p_oBeZ6E9ZNEv9NSM41NvL18
 status: active
 merged_into: null
 display_name: 王大鶴
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -100,7 +100,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_KvwI7G1MeMYxinTXvquezo
+        subject_person_id: p_Wpd2oRwePXfQPUHmHK4oXp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oBeZ6E9ZNEv9NSM41NvL18
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_zJwR_OsSsViR7wOHxOgr9h
+          claim_id: c_KvwI7G1MeMYxinTXvquezo
+          source_id: s_resfzNHTr4EWGhV1swpSZe
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 30103）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_resfzNHTr4EWGhV1swpSZe
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大鶴（CBDB 30101）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30101&o=json
+            external_identifier: CBDB:30101
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Wpd2oRwePXfQPUHmHK4oXp
+        status: active
+        display_name: 王憲
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -126,6 +163,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Wpd2oRwePXfQPUHmHK4oXp | 王憲 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王让
 cbdb_id: 333155
-revision: 3
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -251,6 +251,117 @@ relationships:
         status: active
         display_name: 王軾
         merged_into_person_id: null
+    - claim:
+        id: c_9Yg4OiyTs7LWZnH1DZjqf_
+        subject_person_id: p_7Tia4RakEpFHiC5SDiDZSG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_enLWH5xMh6hD2cwvGp276E
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0lgg1cYxIW9LxI8WmcN3C4
+          claim_id: c_9Yg4OiyTs7LWZnH1DZjqf_
+          source_id: s_ColIeScHJMQd5dmajbH0Ny
+          stance: supports
+          locator: CBDB：兄弟 王軾（67466）之父／母 王让
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王軻 与 王軾 为同胞（CBDB 记「兄」），王軾 之父／母即 王軻 之父／母。
+          source:
+            id: s_ColIeScHJMQd5dmajbH0Ny
+            source_type: api_record
+            title: 中国历代人物传记资料库：王軻（CBDB 333210）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333210&o=json
+            external_identifier: CBDB:333210
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_enLWH5xMh6hD2cwvGp276E
+        status: active
+        display_name: 王軻
+        merged_into_person_id: null
+    - claim:
+        id: c_yf1inU_ZHS60vFdzccD4TS
+        subject_person_id: p_7Tia4RakEpFHiC5SDiDZSG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_f3B8LBgrUtDCW64EF1K5R8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_49accD6GzefdpyFFjpf6IW
+          claim_id: c_yf1inU_ZHS60vFdzccD4TS
+          source_id: s_vh2EMwT0MeEBVqzwL82zKu
+          stance: supports
+          locator: CBDB：兄弟 王軾（67466）之父／母 王让
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王軏 与 王軾 为同胞（CBDB 记「兄」），王軾 之父／母即 王軏 之父／母。
+          source:
+            id: s_vh2EMwT0MeEBVqzwL82zKu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王軏（CBDB 333199）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333199&o=json
+            external_identifier: CBDB:333199
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_f3B8LBgrUtDCW64EF1K5R8
+        status: active
+        display_name: 王軏
+        merged_into_person_id: null
+    - claim:
+        id: c_i91-CzZEyJ_aCH6cjGcocl
+        subject_person_id: p_7Tia4RakEpFHiC5SDiDZSG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vVwHqUM15KNKtfV7M38Bid
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_yEvot4GVki4EfmVessvEzY
+          claim_id: c_i91-CzZEyJ_aCH6cjGcocl
+          source_id: s_i067xdYO0Mx8HqX6kmbdOF
+          stance: supports
+          locator: CBDB：兄弟 王軾（67466）之父／母 王让
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王輗 与 王軾 为同胞（CBDB 记「兄」），王軾 之父／母即 王輗 之父／母。
+          source:
+            id: s_i067xdYO0Mx8HqX6kmbdOF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王輗（CBDB 333188）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333188&o=json
+            external_identifier: CBDB:333188
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vVwHqUM15KNKtfV7M38Bid
+        status: active
+        display_name: 王輗
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -277,11 +388,17 @@ relationships:
 | parents | p_vxysH4B8xpbAGBTVKY3Dh2 | 王原道 | accepted |
 | children | p_NPncefunYMmyKCiKheCMKZ | 王轼 | accepted |
 | children | p_8kvzu18KWCHGBJbrWxW4b9 | 王軾 | accepted |
+| children | p_enLWH5xMh6hD2cwvGp276E | 王軻 | accepted |
+| children | p_f3B8LBgrUtDCW64EF1K5R8 | 王軏 | accepted |
+| children | p_vVwHqUM15KNKtfV7M38Bid | 王輗 | accepted |
 
 ## 外部来源
 
 - [维基数据：王让（Q45561003）](https://www.wikidata.org/wiki/Q45561003)
 - [维基数据：王轼（Q15912162）](https://www.wikidata.org/wiki/Q15912162)
 - [维基数据：王原道（Q45560451）](https://www.wikidata.org/wiki/Q45560451)
+- [中国历代人物传记资料库：王軻（CBDB 333210）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333210&o=json)
+- [中国历代人物传记资料库：王輗（CBDB 333188）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333188&o=json)
 - [中国历代人物传记资料库：王軾（CBDB 67466）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67466&o=json)
+- [中国历代人物传记资料库：王軏（CBDB 333199）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333199&o=json)
 - [CBDB 中国历代人物传记资料库：王讓（333155）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333155&o=json)

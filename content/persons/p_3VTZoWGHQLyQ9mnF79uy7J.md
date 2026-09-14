@@ -4,7 +4,7 @@ id: p_3VTZoWGHQLyQ9mnF79uy7J
 status: active
 merged_into: null
 display_name: 王敎
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,44 @@ relationships:
         display_name: 王綱
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_oqkn7EIKMsqkZKSAcV5dTq
+        subject_person_id: p_3VTZoWGHQLyQ9mnF79uy7J
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_PFEEVn7vzFDQrWE6HRQdn5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hgUOu6muRO_IUoIFyFqDCq
+          claim_id: c_oqkn7EIKMsqkZKSAcV5dTq
+          source_id: s_0c4H5B-7GPfyZHtNRWcz0Q
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201563 王敎）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0c4H5B-7GPfyZHtNRWcz0Q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敘（CBDB 274400）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274400&o=json
+            external_identifier: CBDB:274400
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PFEEVn7vzFDQrWE6HRQdn5
+        status: active
+        display_name: 王敘
+        merged_into_person_id: null
 ---
 
 # 王敎
@@ -245,8 +282,10 @@ relationships:
 | spouses | p_PbctYzFawMeo1P2ok1uwwG | 李氏 | accepted |
 | ancestors | p_LreXJ6DJKLJKGUx2WpKU4A | 王允恭 | accepted |
 | ancestors | p_XuTYi9K78AhyZ9fXouSL9B | 王綱 | accepted |
+| other | p_PFEEVn7vzFDQrWE6HRQdn5 | 王敘 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：李氏(王敎妻)（CBDB 274399）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274399&o=json)
 - [中国历代人物传记资料库：王敎（CBDB 201563）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201563&o=json)
+- [中国历代人物传记资料库：王敘（CBDB 274400）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274400&o=json)

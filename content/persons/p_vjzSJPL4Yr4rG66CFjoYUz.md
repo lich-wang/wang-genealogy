@@ -4,7 +4,7 @@ id: p_vjzSJPL4Yr4rG66CFjoYUz
 status: active
 merged_into: null
 display_name: 王文進
-revision: 6
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -309,7 +309,44 @@ relationships:
         merged_into_person_id: null
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_BKHysR8AuJ6d_QoiG18TTK
+        subject_person_id: p_n2dWjdXnraJXzaiPrP5JKE
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vjzSJPL4Yr4rG66CFjoYUz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bdTg_yNhaw3A698795qbDx
+          claim_id: c_BKHysR8AuJ6d_QoiG18TTK
+          source_id: s_PSQZUYYqvHEvg5M-eOKr8_
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 142127 王文進）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_PSQZUYYqvHEvg5M-eOKr8_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王士興（CBDB 161537）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=161537&o=json
+            external_identifier: CBDB:161537
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_n2dWjdXnraJXzaiPrP5JKE
+        status: active
+        display_name: 王士興
+        merged_into_person_id: null
 ---
 
 # 王文進
@@ -334,11 +371,13 @@ relationships:
 | spouses | p_HcAEMBHcDKKDLKkSsPVY4M | 李氏 | accepted |
 | spouses | p_rcs4teF7cXNkkxDS7Kb3fd | 程氏 | accepted |
 | spouses | p_UhrgRyaQuCyf9twsyHyuUS | 郭氏 | accepted |
+| other | p_n2dWjdXnraJXzaiPrP5JKE | 王士興 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：程氏(王文進妻)（CBDB 161529）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=161529&o=json)
 - [中国历代人物传记资料库：郭氏(王文進妻)（CBDB 161530）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=161530&o=json)
 - [中国历代人物传记资料库：李氏(王文進妻)（CBDB 161528）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=161528&o=json)
+- [中国历代人物传记资料库：王士興（CBDB 161537）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=161537&o=json)
 - [中国历代人物传记资料库：王文進（CBDB 142127）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=142127&o=json)
 - [中国历代人物传记资料库：張氏(王文進妻)（CBDB 161527）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=161527&o=json)

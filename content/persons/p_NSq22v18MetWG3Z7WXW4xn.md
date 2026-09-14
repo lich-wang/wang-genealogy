@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王山輝
 cbdb_id: 151017
-revision: 2
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -113,6 +113,154 @@ relationships:
         status: active
         display_name: 王傑
         merged_into_person_id: null
+    - claim:
+        id: c_li-GhUjdcHgCkugpiBpgNX
+        subject_person_id: p_NSq22v18MetWG3Z7WXW4xn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HqBVeLybYGY8gY3pP14Cyb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5w0VEDid4QQq7JLS5eeMrP
+          claim_id: c_li-GhUjdcHgCkugpiBpgNX
+          source_id: s_rmQUiMUmRj6ZxSdT6QtKuT
+          stance: supports
+          locator: CBDB：兄弟 王傑（139946）之父／母 王山輝
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王俊 与 王傑 为同胞（CBDB 记「弟」），王傑 之父／母即 王俊 之父／母。
+          source:
+            id: s_rmQUiMUmRj6ZxSdT6QtKuT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王俊（CBDB 151019）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151019&o=json
+            external_identifier: CBDB:151019
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HqBVeLybYGY8gY3pP14Cyb
+        status: active
+        display_name: 王俊
+        merged_into_person_id: null
+    - claim:
+        id: c_Fmx647KXiiAE69pC4zVOkl
+        subject_person_id: p_NSq22v18MetWG3Z7WXW4xn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_U6PSxKGQ7gGN2G8Lix9WAq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__zqk_Wjf1_yiipTLOvenYn
+          claim_id: c_Fmx647KXiiAE69pC4zVOkl
+          source_id: s_ghla9gamF4fPt81_STYILt
+          stance: supports
+          locator: CBDB：兄弟 王傑（139946）之父／母 王山輝
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王奇 与 王傑 为同胞（CBDB 记「兄」），王傑 之父／母即 王奇 之父／母。
+          source:
+            id: s_ghla9gamF4fPt81_STYILt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王奇（CBDB 151021）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151021&o=json
+            external_identifier: CBDB:151021
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_U6PSxKGQ7gGN2G8Lix9WAq
+        status: active
+        display_name: 王奇
+        merged_into_person_id: null
+    - claim:
+        id: c_dj_PnSeX2BSocHoIWslEBb
+        subject_person_id: p_NSq22v18MetWG3Z7WXW4xn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Vn6BvBsow9aodCsmk8h1YM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DICZlhRZc99OJkpTxGxPqo
+          claim_id: c_dj_PnSeX2BSocHoIWslEBb
+          source_id: s_nqAaLTrYx4rT1tkLnoDC2E
+          stance: supports
+          locator: CBDB：兄弟 王傑（139946）之父／母 王山輝
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王哲 与 王傑 为同胞（CBDB 记「弟」），王傑 之父／母即 王哲 之父／母。
+          source:
+            id: s_nqAaLTrYx4rT1tkLnoDC2E
+            source_type: api_record
+            title: 中国历代人物传记资料库：王哲（CBDB 151020）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151020&o=json
+            external_identifier: CBDB:151020
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Vn6BvBsow9aodCsmk8h1YM
+        status: active
+        display_name: 王哲
+        merged_into_person_id: null
+    - claim:
+        id: c_zSLoxod3FKk5VfbMX9JXS8
+        subject_person_id: p_NSq22v18MetWG3Z7WXW4xn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jqNPPsoX6xSNEKhCFTQSAt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sxZLL91PHrsmME931-yCDp
+          claim_id: c_zSLoxod3FKk5VfbMX9JXS8
+          source_id: s_qZ6oCGYeG7_703PVqkSuVO
+          stance: supports
+          locator: CBDB：兄弟 王傑（139946）之父／母 王山輝
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王乂 与 王傑 为同胞（CBDB 记「弟」），王傑 之父／母即 王乂 之父／母。
+          source:
+            id: s_qZ6oCGYeG7_703PVqkSuVO
+            source_type: api_record
+            title: 中国历代人物传记资料库：王乂（CBDB 151022）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151022&o=json
+            external_identifier: CBDB:151022
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jqNPPsoX6xSNEKhCFTQSAt
+        status: active
+        display_name: 王乂
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -137,8 +285,16 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_Q8F1bACUG5zjQFJrLyFbx6 | 王傑 | accepted |
+| children | p_HqBVeLybYGY8gY3pP14Cyb | 王俊 | accepted |
+| children | p_U6PSxKGQ7gGN2G8Lix9WAq | 王奇 | accepted |
+| children | p_Vn6BvBsow9aodCsmk8h1YM | 王哲 | accepted |
+| children | p_jqNPPsoX6xSNEKhCFTQSAt | 王乂 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王傑（CBDB 139946）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=139946&o=json)
+- [中国历代人物传记资料库：王俊（CBDB 151019）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151019&o=json)
+- [中国历代人物传记资料库：王奇（CBDB 151021）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151021&o=json)
 - [中国历代人物传记资料库：王山輝（CBDB 151017）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151017&o=json)
+- [中国历代人物传记资料库：王乂（CBDB 151022）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151022&o=json)
+- [中国历代人物传记资料库：王哲（CBDB 151020）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=151020&o=json)

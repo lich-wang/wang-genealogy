@@ -4,7 +4,7 @@ id: p_3x6krzyjW88CDnt1QP9iWP
 status: active
 merged_into: null
 display_name: 王珪
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -99,7 +99,118 @@ relationships:
         status: active
         display_name: 王浩
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_1EUa8b-s_mzrdsLZvrSFzW
+        subject_person_id: p_3x6krzyjW88CDnt1QP9iWP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Es8yza8LMXTHzyZARdgEtq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_rHAO1zannkWU5ByuUSyD3k
+          claim_id: c_1EUa8b-s_mzrdsLZvrSFzW
+          source_id: s_AEVxUw3ZoxIfno8SI3mIOK
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 35383）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_AEVxUw3ZoxIfno8SI3mIOK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王安貞（CBDB 35395）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35395&o=json
+            external_identifier: CBDB:35395
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Es8yza8LMXTHzyZARdgEtq
+        status: active
+        display_name: 王安貞
+        merged_into_person_id: null
+    - claim:
+        id: c_jdB08yLlLFBLpOgLAO3-t6
+        subject_person_id: p_3x6krzyjW88CDnt1QP9iWP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_SLvyPyRP1KFNoT3zed2XgF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_yIsrwLGT9FOis_RYyuW65i
+          claim_id: c_jdB08yLlLFBLpOgLAO3-t6
+          source_id: s_Tkv5nIvg6aJuw_mMHBjoAF
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 35383）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_Tkv5nIvg6aJuw_mMHBjoAF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王安雅（CBDB 35394）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35394&o=json
+            external_identifier: CBDB:35394
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_SLvyPyRP1KFNoT3zed2XgF
+        status: active
+        display_name: 王安雅
+        merged_into_person_id: null
+    - claim:
+        id: c_kJ5sIHbmKznt5enos4-dEV
+        subject_person_id: p_3x6krzyjW88CDnt1QP9iWP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dkpoWAkzRy8xsFJfawM6aW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_tIynZOpKfn9bZaTrso9MK7
+          claim_id: c_kJ5sIHbmKznt5enos4-dEV
+          source_id: s_WVu7uebfqX6-5Si-D4Gdzi
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 35383）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_WVu7uebfqX6-5Si-D4Gdzi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王安上（CBDB 35388）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35388&o=json
+            external_identifier: CBDB:35388
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dkpoWAkzRy8xsFJfawM6aW
+        status: active
+        display_name: 王安上
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +235,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_fSZQfVXzPXgEPeK78DK476 | 王浩 | accepted |
+| children | p_Es8yza8LMXTHzyZARdgEtq | 王安貞 | accepted |
+| children | p_SLvyPyRP1KFNoT3zed2XgF | 王安雅 | accepted |
+| children | p_dkpoWAkzRy8xsFJfawM6aW | 王安上 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王安上（CBDB 35388）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35388&o=json)
+- [中国历代人物传记资料库：王安雅（CBDB 35394）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35394&o=json)
+- [中国历代人物传记资料库：王安貞（CBDB 35395）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35395&o=json)
 - [中国历代人物传记资料库：王珪（CBDB 35383）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35383&o=json)

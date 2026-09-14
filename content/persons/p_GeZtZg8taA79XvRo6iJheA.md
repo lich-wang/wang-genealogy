@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王朝璽
 cbdb_id: 282727
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -81,7 +81,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_y5fFOWeEUe2TahCgetQxMr
+        subject_person_id: p_ARBsKDMivmjbBTxJiQz7Aa
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_GeZtZg8taA79XvRo6iJheA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v23yWuWKBZJOuwXknaDuXD
+          claim_id: c_y5fFOWeEUe2TahCgetQxMr
+          source_id: s_J0sqL1kqBDPseiMFzxwWdl
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202059 王朝瑬）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_J0sqL1kqBDPseiMFzxwWdl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王朝璽（CBDB 282727）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282727&o=json
+            external_identifier: CBDB:282727
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ARBsKDMivmjbBTxJiQz7Aa
+        status: active
+        display_name: 王朝瑬
+        merged_into_person_id: null
 ---
 
 # 王朝璽
@@ -99,6 +136,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_ARBsKDMivmjbBTxJiQz7Aa | 王朝瑬 | accepted |
 
 ## 外部来源
 

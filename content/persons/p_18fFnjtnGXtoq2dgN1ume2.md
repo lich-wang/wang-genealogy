@@ -4,7 +4,7 @@ id: p_18fFnjtnGXtoq2dgN1ume2
 status: active
 merged_into: null
 display_name: 王鳳嫻
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -172,7 +172,44 @@ relationships:
         merged_into_person_id: null
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_G2J-qCnEJ5cXEPCDwEW8YE
+        subject_person_id: p_18fFnjtnGXtoq2dgN1ume2
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_NyMy5GpGu38HZaYhsJwZDC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RDm4hMZ0MZ23tZPEjfzzi5
+          claim_id: c_G2J-qCnEJ5cXEPCDwEW8YE
+          source_id: s_HdW8fmavfhWCjWA_udyncn
+          stance: supports
+          locator: CBDB 亲属：妹（KinPerson 119187 王鳳嫻）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_HdW8fmavfhWCjWA_udyncn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王獻吉（CBDB 119188）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119188&o=json
+            external_identifier: CBDB:119188
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NyMy5GpGu38HZaYhsJwZDC
+        status: active
+        display_name: 王獻吉
+        merged_into_person_id: null
 ---
 
 # 王鳳嫻
@@ -193,8 +230,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | spouses | p_dL4jP8DHdSRLNu6vNpG9kU | 張本嘉 | accepted |
+| other | p_NyMy5GpGu38HZaYhsJwZDC | 王獻吉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鳳嫻（CBDB 119187）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119187&o=json)
+- [中国历代人物传记资料库：王獻吉（CBDB 119188）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119188&o=json)
 - [中国历代人物传记资料库：張本嘉（CBDB 119189）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119189&o=json)

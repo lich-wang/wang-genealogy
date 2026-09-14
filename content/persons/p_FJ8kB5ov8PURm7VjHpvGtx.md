@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王自超
 cbdb_id: 71587
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -242,7 +242,44 @@ relationships:
         display_name: 王舜鼎
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_-vfwUOMc07y_c8SolKFzhO
+        subject_person_id: p_FJ8kB5ov8PURm7VjHpvGtx
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mvBYWbN8r8zCCto89nXarK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_83Ga2va8PIdfw0DrC_r0AP
+          claim_id: c_-vfwUOMc07y_c8SolKFzhO
+          source_id: s_VB5Gy_Z9j_5LkIzC0tFHKF
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 71587 王自超）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_VB5Gy_Z9j_5LkIzC0tFHKF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王自越（CBDB 572062）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=572062&o=json
+            external_identifier: CBDB:572062
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mvBYWbN8r8zCCto89nXarK
+        status: active
+        display_name: 王自越
+        merged_into_person_id: null
 ---
 
 # 王自超
@@ -264,9 +301,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_aTm4JhEeSSom8FhiPPYik7 | 王亹 | accepted |
 | ancestors | p_kF2uBhCu8BFeymL42FWUdW | 王舜鼎 | accepted |
+| other | p_mvBYWbN8r8zCCto89nXarK | 王自越 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王舜鼎（CBDB 342107）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=342107&o=json)
 - [中国历代人物传记资料库：王亹（CBDB 556624）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=556624&o=json)
 - [中国历代人物传记资料库：王自超（CBDB 71587）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=71587&o=json)
+- [中国历代人物传记资料库：王自越（CBDB 572062）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=572062&o=json)

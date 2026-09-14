@@ -4,7 +4,7 @@ id: p_ye9VLgV3pJbXBYdJ82vvQv
 status: active
 merged_into: null
 display_name: 王宣
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,118 @@ relationships:
         display_name: 王安性
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_5o7ufHcCOGacRQtD5DLs0Y
+        subject_person_id: p_M551nrJ5d7pTaQmmJZsfEa
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ye9VLgV3pJbXBYdJ82vvQv
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qd1ewOXIKsu1-4CeTUy1WB
+          claim_id: c_5o7ufHcCOGacRQtD5DLs0Y
+          source_id: s_f39jGpXOtNrISSzQ1mTXZU
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 208053 王宣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_f39jGpXOtNrISSzQ1mTXZU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王孟通（CBDB 239759）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239759&o=json
+            external_identifier: CBDB:239759
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_M551nrJ5d7pTaQmmJZsfEa
+        status: active
+        display_name: 王孟通
+        merged_into_person_id: null
+    - claim:
+        id: c_TyX_uLh8yr0MAhII-dsAf8
+        subject_person_id: p_hmAn57MwGaKJKqqX9Q4u9C
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ye9VLgV3pJbXBYdJ82vvQv
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_W1tg1qD7-5oywsf2FnxCMH
+          claim_id: c_TyX_uLh8yr0MAhII-dsAf8
+          source_id: s_zuH5mxbxRJNe4fEDgi5C1M
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 208053 王宣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_zuH5mxbxRJNe4fEDgi5C1M
+            source_type: api_record
+            title: 中国历代人物传记资料库：王孟南（CBDB 239760）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239760&o=json
+            external_identifier: CBDB:239760
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hmAn57MwGaKJKqqX9Q4u9C
+        status: active
+        display_name: 王孟南
+        merged_into_person_id: null
+    - claim:
+        id: c_tGK5084awY3Pc1S8RAnqi2
+        subject_person_id: p_sK1np5ERAT2spWcgarJQGn
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ye9VLgV3pJbXBYdJ82vvQv
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NjzaFhPoGBXYDhqFSGzo7i
+          claim_id: c_tGK5084awY3Pc1S8RAnqi2
+          source_id: s_5id-os8DdmI3UZ4l7KJNBj
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 208053 王宣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_5id-os8DdmI3UZ4l7KJNBj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王孟慶（CBDB 239758）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239758&o=json
+            external_identifier: CBDB:239758
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_sK1np5ERAT2spWcgarJQGn
+        status: active
+        display_name: 王孟慶
+        merged_into_person_id: null
 ---
 
 # 王宣
@@ -245,8 +356,14 @@ relationships:
 | spouses | p_Fef9GcY47kV37W9xnN8Y4B | 冉氏 | accepted |
 | ancestors | p_GdkwrriQrXAGgdsuSrbHZQ | 王榮卿 | accepted |
 | ancestors | p_w3a1GFMuNLGG9tjSSVXjC4 | 王安性 | accepted |
+| other | p_M551nrJ5d7pTaQmmJZsfEa | 王孟通 | accepted |
+| other | p_hmAn57MwGaKJKqqX9Q4u9C | 王孟南 | accepted |
+| other | p_sK1np5ERAT2spWcgarJQGn | 王孟慶 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：冉氏(王宣妻)（CBDB 239756）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239756&o=json)
+- [中国历代人物传记资料库：王孟南（CBDB 239760）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239760&o=json)
+- [中国历代人物传记资料库：王孟慶（CBDB 239758）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239758&o=json)
+- [中国历代人物传记资料库：王孟通（CBDB 239759）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=239759&o=json)
 - [中国历代人物传记资料库：王宣（CBDB 208053）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=208053&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王琬
 cbdb_id: 34581
-revision: 2
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -286,6 +286,80 @@ relationships:
         status: active
         display_name: 王铨
         merged_into_person_id: null
+    - claim:
+        id: c_QgYIhE8RY60-In-SfgS45f
+        subject_person_id: p_3JZgMSGQ5z3nPzBFS6irjA
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_2Bks677cJ3Ax96uNPF3D7T
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tGtKWsT7G5UJ5kE3d8q8LI
+          claim_id: c_QgYIhE8RY60-In-SfgS45f
+          source_id: s_QZDRIMXjdOPP2mqtJByWuy
+          stance: supports
+          locator: CBDB：兄弟 王鏊（34579）之父／母 王琬
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王銘 与 王鏊 为同胞（CBDB 记「弟」），王鏊 之父／母即 王銘 之父／母。
+          source:
+            id: s_QZDRIMXjdOPP2mqtJByWuy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王銘（CBDB 247604）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247604&o=json
+            external_identifier: CBDB:247604
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2Bks677cJ3Ax96uNPF3D7T
+        status: active
+        display_name: 王銘
+        merged_into_person_id: null
+    - claim:
+        id: c_e_cJxAbMUU5Gtlmnbghwa-
+        subject_person_id: p_3JZgMSGQ5z3nPzBFS6irjA
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_nbz4y3vGc61fE26Ty4aDry
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OdiezYql8gwF4GghLllSmg
+          claim_id: c_e_cJxAbMUU5Gtlmnbghwa-
+          source_id: s_-pFGbiQRozvJlsTBEIPgjG
+          stance: supports
+          locator: CBDB：兄弟 王鏊（34579）之父／母 王琬
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王銶 与 王鏊 为同胞（CBDB 记「兄」），王鏊 之父／母即 王銶 之父／母。
+          source:
+            id: s_-pFGbiQRozvJlsTBEIPgjG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王銶（CBDB 247605）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247605&o=json
+            external_identifier: CBDB:247605
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nbz4y3vGc61fE26Ty4aDry
+        status: active
+        display_name: 王銶
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -312,6 +386,8 @@ relationships:
 | parents | p_P2y97jJhXVBL5SrVuPH2Jb | 王逵 | accepted |
 | children | p_Wp6B6oFJWureDLbUWC4XTo | 王鏊 | accepted |
 | children | p_AKaTYUWNKCzouUxFhiCAGD | 王铨 | accepted |
+| children | p_2Bks677cJ3Ax96uNPF3D7T | 王銘 | accepted |
+| children | p_nbz4y3vGc61fE26Ty4aDry | 王銶 | accepted |
 
 ## 外部来源
 
@@ -319,5 +395,7 @@ relationships:
 - [维基数据：王逵（Q45426376）](https://www.wikidata.org/wiki/Q45426376)
 - [维基数据：王铨（Q45426337）](https://www.wikidata.org/wiki/Q45426337)
 - [维基数据：王琬（Q45426296）](https://www.wikidata.org/wiki/Q45426296)
+- [中国历代人物传记资料库：王銘（CBDB 247604）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247604&o=json)
+- [中国历代人物传记资料库：王銶（CBDB 247605）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247605&o=json)
 - [CBDB 中国历代人物传记资料库：王逵（34583）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34583&o=json)
 - [CBDB 中国历代人物传记资料库：王琬（34581）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34581&o=json)

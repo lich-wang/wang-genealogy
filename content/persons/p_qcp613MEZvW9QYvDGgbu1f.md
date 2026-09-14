@@ -4,7 +4,7 @@ id: p_qcp613MEZvW9QYvDGgbu1f
 status: active
 merged_into: null
 display_name: 王寅
-revision: 4
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -246,7 +246,118 @@ relationships:
         display_name: 王興
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_NW_ANi5okxa3BPJE5WcW2e
+        subject_person_id: p_aErr1qKr6x8hiEnMLnpyRv
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qcp613MEZvW9QYvDGgbu1f
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JfVLqkm7Ktqr2zTxgn8njB
+          claim_id: c_NW_ANi5okxa3BPJE5WcW2e
+          source_id: s_EsTCqgTeRQ9QuIqRhSjS-z
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126668 王寅）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_EsTCqgTeRQ9QuIqRhSjS-z
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宥（CBDB 255761）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255761&o=json
+            external_identifier: CBDB:255761
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aErr1qKr6x8hiEnMLnpyRv
+        status: active
+        display_name: 王宥
+        merged_into_person_id: null
+    - claim:
+        id: c_TyI6K2wF0SxCoXAbc2lmiC
+        subject_person_id: p_qcp613MEZvW9QYvDGgbu1f
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_waDrA1e55QughStW4piQ1B
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_v1ZHC68eBlmCbQaTATyFxE
+          claim_id: c_TyI6K2wF0SxCoXAbc2lmiC
+          source_id: s_kjL7DfDWvknUljovgfXWyT
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126668 王寅）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_kjL7DfDWvknUljovgfXWyT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宸（CBDB 255760）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255760&o=json
+            external_identifier: CBDB:255760
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_waDrA1e55QughStW4piQ1B
+        status: active
+        display_name: 王宸
+        merged_into_person_id: null
+    - claim:
+        id: c_yla2a22ohTNPucYtchql6x
+        subject_person_id: p_qcp613MEZvW9QYvDGgbu1f
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zNSEty4Yr3kQxQHfcZbC3c
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vPbkNarbmOZpNjedxs6L_D
+          claim_id: c_yla2a22ohTNPucYtchql6x
+          source_id: s__eEAl7LzRJvfMgsF1xLr1l
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126668 王寅）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__eEAl7LzRJvfMgsF1xLr1l
+            source_type: api_record
+            title: 中国历代人物传记资料库：王憲（CBDB 255759）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255759&o=json
+            external_identifier: CBDB:255759
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zNSEty4Yr3kQxQHfcZbC3c
+        status: active
+        display_name: 王憲
+        merged_into_person_id: null
 ---
 
 # 王寅
@@ -269,10 +380,16 @@ relationships:
 | parents | p_ZvcYSxF75Ub3o8A9bCQMfH | 王志廣 | accepted |
 | ancestors | p_7iitVAMc3DKp3oMEVJh77W | 王能 | accepted |
 | ancestors | p_W9K3ygtGHRzoKsD8PPraFy | 王興 | accepted |
+| other | p_aErr1qKr6x8hiEnMLnpyRv | 王宥 | accepted |
+| other | p_waDrA1e55QughStW4piQ1B | 王宸 | accepted |
+| other | p_zNSEty4Yr3kQxQHfcZbC3c | 王憲 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王宸（CBDB 255760）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255760&o=json)
 - [中国历代人物传记资料库：王能（CBDB 255754）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255754&o=json)
+- [中国历代人物传记资料库：王憲（CBDB 255759）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255759&o=json)
 - [中国历代人物传记资料库：王興（CBDB 255753）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255753&o=json)
 - [中国历代人物传记资料库：王寅（CBDB 126668）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126668&o=json)
+- [中国历代人物传记资料库：王宥（CBDB 255761）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255761&o=json)
 - [中国历代人物传记资料库：王志廣（CBDB 255755）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255755&o=json)

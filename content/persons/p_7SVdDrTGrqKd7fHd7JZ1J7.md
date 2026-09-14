@@ -4,7 +4,7 @@ id: p_7SVdDrTGrqKd7fHd7JZ1J7
 status: active
 merged_into: null
 display_name: 王璟
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -194,7 +194,81 @@ relationships:
         display_name: 王政
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_IqjSgowj3cBWKr7UxvuxQB
+        subject_person_id: p_7SVdDrTGrqKd7fHd7JZ1J7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_8JkFPXskQ9RfwLrTbuwFTK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_I6meGwtxmLJ_B3wZ7QtpyR
+          claim_id: c_IqjSgowj3cBWKr7UxvuxQB
+          source_id: s_in5XpsglLJ8oT8iFR4vZZL
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 67991 王璟）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_in5XpsglLJ8oT8iFR4vZZL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑄（CBDB 262534）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262534&o=json
+            external_identifier: CBDB:262534
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8JkFPXskQ9RfwLrTbuwFTK
+        status: active
+        display_name: 王瑄
+        merged_into_person_id: null
+    - claim:
+        id: c_9L2RPFWIyXLnIWMnq99OnA
+        subject_person_id: p_7SVdDrTGrqKd7fHd7JZ1J7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_MrefbbzDzYb6e1FBHciHg1
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9PwYiXUfAq5uXYJajIwTOJ
+          claim_id: c_9L2RPFWIyXLnIWMnq99OnA
+          source_id: s_MNrxBDRQS56lDof8Hf-zyi
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 67991 王璟）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_MNrxBDRQS56lDof8Hf-zyi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑀（CBDB 262533）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262533&o=json
+            external_identifier: CBDB:262533
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MrefbbzDzYb6e1FBHciHg1
+        status: active
+        display_name: 王瑀
+        merged_into_person_id: null
 ---
 
 # 王璟
@@ -216,8 +290,12 @@ relationships:
 | spouses | p_nJ8vwCAg1frWi1RJEuY3k3 | 朱氏 | accepted |
 | ancestors | p_ynWdfZUbfQVgjARghmAXHi | 王山集 | accepted |
 | ancestors | p_g2dCFSh3L1jfkgQ2AnHkcm | 王政 | accepted |
+| other | p_8JkFPXskQ9RfwLrTbuwFTK | 王瑄 | accepted |
+| other | p_MrefbbzDzYb6e1FBHciHg1 | 王瑀 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王璟（CBDB 67991）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67991&o=json)
+- [中国历代人物传记资料库：王瑄（CBDB 262534）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262534&o=json)
+- [中国历代人物传记资料库：王瑀（CBDB 262533）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262533&o=json)
 - [中国历代人物传记资料库：朱氏(王璟妻)（CBDB 262531）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262531&o=json)

@@ -4,7 +4,7 @@ id: p_XWgo6Q1nhAmPTc3Xg4eENs
 status: active
 merged_into: null
 display_name: 王翀
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,81 @@ relationships:
         display_name: 王應貞
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Q6DU7apshpywKdwytplDd3
+        subject_person_id: p_3w3iN8JmAYGGhdMDCN4n4W
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_XWgo6Q1nhAmPTc3Xg4eENs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WQOHoXkTdYtVI_F8Kziyo2
+          claim_id: c_Q6DU7apshpywKdwytplDd3
+          source_id: s_vy0NPOcVj7OX-IAO7W5-V1
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200923 王翀）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_vy0NPOcVj7OX-IAO7W5-V1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王羾（CBDB 264660）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264660&o=json
+            external_identifier: CBDB:264660
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3w3iN8JmAYGGhdMDCN4n4W
+        status: active
+        display_name: 王羾
+        merged_into_person_id: null
+    - claim:
+        id: c_rBsChRomZjO7Am81UyeqPF
+        subject_person_id: p_XWgo6Q1nhAmPTc3Xg4eENs
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vHEpKbCAs7HAEWHxtEuH7M
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_220yXR9kl5n4AKTzYDPTYm
+          claim_id: c_rBsChRomZjO7Am81UyeqPF
+          source_id: s_Qgz_PmCpEWeBQtTSkz0HcY
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200923 王翀）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Qgz_PmCpEWeBQtTSkz0HcY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王僉（CBDB 264661）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264661&o=json
+            external_identifier: CBDB:264661
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vHEpKbCAs7HAEWHxtEuH7M
+        status: active
+        display_name: 王僉
+        merged_into_person_id: null
 ---
 
 # 王翀
@@ -241,10 +315,14 @@ relationships:
 | parents | p_y6LBWWQUDfvbAme5hkV5bP | 王大韶 | accepted |
 | ancestors | p_1nAYMGDjjS8xNNpA1JXED9 | 王翼 | accepted |
 | ancestors | p_xJqqBPc7ko94ZXe3uyJXCb | 王應貞 | accepted |
+| other | p_3w3iN8JmAYGGhdMDCN4n4W | 王羾 | accepted |
+| other | p_vHEpKbCAs7HAEWHxtEuH7M | 王僉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王翀（CBDB 200923）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200923&o=json)
 - [中国历代人物传记资料库：王大韶（CBDB 264656）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264656&o=json)
+- [中国历代人物传记资料库：王羾（CBDB 264660）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264660&o=json)
+- [中国历代人物传记资料库：王僉（CBDB 264661）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264661&o=json)
 - [中国历代人物传记资料库：王翼（CBDB 264655）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264655&o=json)
 - [中国历代人物传记资料库：王應貞（CBDB 264654）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264654&o=json)

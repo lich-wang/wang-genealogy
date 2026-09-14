@@ -4,7 +4,7 @@ id: p_j8SXH6XGi7kQ5wyS9QJnGN
 status: active
 merged_into: null
 display_name: 王晏
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_TFxjqzDNnh_xSWfNf1WEzo
+        subject_person_id: p_vNNRVNM4fb2RVGCGj65JaG
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_j8SXH6XGi7kQ5wyS9QJnGN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gmBCRg0b2oU2ofkesOg72N
+          claim_id: c_TFxjqzDNnh_xSWfNf1WEzo
+          source_id: s_GeE7-zA_CJEdwPuObQhCiq
+          stance: supports
+          locator: CBDB：兄弟 王暄（199620）之父／母 王鈍
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王晏 与 王暄 为同胞（CBDB 记「兄」），王暄 之父／母即 王晏 之父／母。
+          source:
+            id: s_GeE7-zA_CJEdwPuObQhCiq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王晏（CBDB 247372）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247372&o=json
+            external_identifier: CBDB:247372
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vNNRVNM4fb2RVGCGj65JaG
+        status: active
+        display_name: 王鈍
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_jGt8bmqQt9Tdxo35z_ioc3
+        subject_person_id: p_dHFBy8GTgBZpvwKJGG8hsX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_j8SXH6XGi7kQ5wyS9QJnGN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eMJ8F3-b4cp5ifkBpS8oN5
+          claim_id: c_jGt8bmqQt9Tdxo35z_ioc3
+          source_id: s_GeE7-zA_CJEdwPuObQhCiq
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199620 王暄）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_GeE7-zA_CJEdwPuObQhCiq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王晏（CBDB 247372）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=247372&o=json
+            external_identifier: CBDB:247372
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dHFBy8GTgBZpvwKJGG8hsX
+        status: active
+        display_name: 王暄
+        merged_into_person_id: null
 ---
 
 # 王晏
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_vNNRVNM4fb2RVGCGj65JaG | 王鈍 | accepted |
+| other | p_dHFBy8GTgBZpvwKJGG8hsX | 王暄 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_V7ycLeFaKcwDLu6Nqpp4GD
 status: active
 merged_into: null
 display_name: 王仲山
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -242,7 +242,44 @@ relationships:
         status: active
         display_name: 王窳
         merged_into_person_id: null
-  other: []
+  other:
+    - claim:
+        id: c_jaMKSxMlaDvNWN3Vdf3xi5
+        subject_person_id: p_V7ycLeFaKcwDLu6Nqpp4GD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_WykbGmfjqmk3M9dUxRJbE3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cRMQQu_w9Vp5OJlw-cyqvv
+          claim_id: c_jaMKSxMlaDvNWN3Vdf3xi5
+          source_id: s_zWt3HV-dsQl3479QAGuDoK
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 7081 王仲山）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_zWt3HV-dsQl3479QAGuDoK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仲嶷（CBDB 7373）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7373&o=json
+            external_identifier: CBDB:7373
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_WykbGmfjqmk3M9dUxRJbE3
+        status: active
+        display_name: 王仲嶷
+        merged_into_person_id: null
 ---
 
 # 王仲山
@@ -265,10 +302,12 @@ relationships:
 | children | p_ieUEvpNDPvse1Ag3CR1sZA | 王會 | accepted |
 | children | p_kLmDgP69qeuoA6HRjsHa4K | 王映 | accepted |
 | descendants | p_xYrcuBn3tSFA4ieZH7SugN | 王窳 | accepted |
+| other | p_WykbGmfjqmk3M9dUxRJbE3 | 王仲嶷 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王昞（CBDB 22131）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22131&o=json)
 - [中国历代人物传记资料库：王會（CBDB 1822）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1822&o=json)
 - [中国历代人物传记资料库：王仲山（CBDB 7081）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7081&o=json)
+- [中国历代人物传记资料库：王仲嶷（CBDB 7373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7373&o=json)
 - [中国历代人物传记资料库：王㬇（CBDB 1820）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1820&o=json)

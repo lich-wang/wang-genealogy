@@ -4,7 +4,7 @@ id: p_53ADyQPeHfyWpAQcTUrMfN
 status: active
 merged_into: null
 display_name: 王順德
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,44 @@ relationships:
         display_name: 王臣
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_SBZBM0FEbmFDum1c7-3MiG
+        subject_person_id: p_53ADyQPeHfyWpAQcTUrMfN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_L2GhB3Gkj5vM3W1SbrCdwM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xD-hDUqpfpJkv-qeonnkTh
+          claim_id: c_SBZBM0FEbmFDum1c7-3MiG
+          source_id: s_YFyxk8JFARg231IUJMvHPs
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203599 王順德）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_YFyxk8JFARg231IUJMvHPs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王順賢（CBDB 307136）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307136&o=json
+            external_identifier: CBDB:307136
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_L2GhB3Gkj5vM3W1SbrCdwM
+        status: active
+        display_name: 王順賢
+        merged_into_person_id: null
 ---
 
 # 王順德
@@ -245,8 +282,10 @@ relationships:
 | spouses | p_auz8TP4X9PjXhKtkqbbEmm | 楊氏 | accepted |
 | ancestors | p_6CiZHKK2Zq8ArK3UYSB5qL | 王瑄 | accepted |
 | ancestors | p_MWM8783wp2tp4uBKaxsFDw | 王臣 | accepted |
+| other | p_L2GhB3Gkj5vM3W1SbrCdwM | 王順賢 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王順德（CBDB 203599）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203599&o=json)
+- [中国历代人物传记资料库：王順賢（CBDB 307136）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307136&o=json)
 - [中国历代人物传记资料库：楊氏(王順德妻)（CBDB 307135）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=307135&o=json)

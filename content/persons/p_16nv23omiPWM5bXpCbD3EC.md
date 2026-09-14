@@ -4,7 +4,7 @@ id: p_16nv23omiPWM5bXpCbD3EC
 status: active
 merged_into: null
 display_name: 王儒
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -244,7 +244,44 @@ relationships:
         display_name: 王言
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_-wHhLGb4JZss0qgmNa1Fz9
+        subject_person_id: p_16nv23omiPWM5bXpCbD3EC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_PcpdJeWVzUZZ2sJe87m174
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eSvCHIbJONwBcH77jAo4UL
+          claim_id: c_-wHhLGb4JZss0qgmNa1Fz9
+          source_id: s_OP9pmu4rWtYIDHkQlGFxnI
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204801 王儒）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_OP9pmu4rWtYIDHkQlGFxnI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仁（CBDB 324278）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324278&o=json
+            external_identifier: CBDB:324278
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PcpdJeWVzUZZ2sJe87m174
+        status: active
+        display_name: 王仁
+        merged_into_person_id: null
 ---
 
 # 王儒
@@ -267,9 +304,11 @@ relationships:
 | spouses | p_KwijCE3WHKKrFHTR2UVJLz | 徐氏 | accepted |
 | ancestors | p_RpANZtrRwU83qAy8Q8XYEf | 王實 | accepted |
 | ancestors | p_WvSGc6pWDJNiRH33Kr62rr | 王言 | accepted |
+| other | p_PcpdJeWVzUZZ2sJe87m174 | 王仁 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王仁（CBDB 324278）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324278&o=json)
 - [中国历代人物传记资料库：王儒（CBDB 204801）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204801&o=json)
 - [中国历代人物传记资料库：王實（CBDB 324273）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324273&o=json)
 - [中国历代人物传记资料库：王言（CBDB 324272）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324272&o=json)

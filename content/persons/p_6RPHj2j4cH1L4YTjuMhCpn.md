@@ -4,7 +4,7 @@ id: p_6RPHj2j4cH1L4YTjuMhCpn
 status: active
 merged_into: null
 display_name: 王起
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -260,6 +260,43 @@ relationships:
         status: active
         display_name: 王鑄
         merged_into_person_id: null
+    - claim:
+        id: c_W5-5GynbWBrV5FcEA4K9Kt
+        subject_person_id: p_6RPHj2j4cH1L4YTjuMhCpn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Xk5MfCGM48nw2y61vCDraD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aqg_Qtn-m6yWPHa3Xk13Nj
+          claim_id: c_W5-5GynbWBrV5FcEA4K9Kt
+          source_id: s_JdJogynQqoerSzf7UH-HTV
+          stance: supports
+          locator: CBDB：兄弟 王鐐（92124）之父／母 王起
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鐸 与 王鐐 为同胞（CBDB 记「弟」），王鐐 之父／母即 王鐸 之父／母。
+          source:
+            id: s_JdJogynQqoerSzf7UH-HTV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鐸（CBDB 92066）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92066&o=json
+            external_identifier: CBDB:92066
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Xk5MfCGM48nw2y61vCDraD
+        status: active
+        display_name: 王鐸
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -290,7 +327,9 @@ relationships:
 | children | p_eReJ1uLz4wXetehw7XVZ4d | 王鐐 | accepted |
 | children | p_HgiyoFBBnsgxjzMG2fDeCU | 王式 | accepted |
 | children | p_JyQEqHYoQpEFEvojfsp6Dp | 王鑄 | accepted |
+| children | p_Xk5MfCGM48nw2y61vCDraD | 王鐸 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鐸（CBDB 92066）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92066&o=json)
 - [中国历代人物传记资料库：王起（CBDB 92061）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=92061&o=json)

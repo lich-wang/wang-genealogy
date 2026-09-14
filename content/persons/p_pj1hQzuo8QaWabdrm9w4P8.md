@@ -4,7 +4,7 @@ id: p_pj1hQzuo8QaWabdrm9w4P8
 status: active
 merged_into: null
 display_name: 王誥
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_T82P5Iv8DZrkKiPabIjeJt
+        subject_person_id: p_bAZKMRH7j8tU7qjcKDr2aW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_pj1hQzuo8QaWabdrm9w4P8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_e5K8lG24sdfeNsscwWWbDk
+          claim_id: c_T82P5Iv8DZrkKiPabIjeJt
+          source_id: s_u2nMamULpp7PMvNILIKuE7
+          stance: supports
+          locator: CBDB：兄弟 王諍（126801）之父／母 王鍊
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王誥 与 王諍 为同胞（CBDB 记「弟」），王諍 之父／母即 王誥 之父／母。
+          source:
+            id: s_u2nMamULpp7PMvNILIKuE7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王誥（CBDB 313483）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313483&o=json
+            external_identifier: CBDB:313483
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_bAZKMRH7j8tU7qjcKDr2aW
+        status: active
+        display_name: 王鍊
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_XPfjp6FUaITdjtPHTR2Hhp
+        subject_person_id: p_5GKmc7UBMnwgzBKbep1LTG
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_pj1hQzuo8QaWabdrm9w4P8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XYnXQ_cqtoONHg5pnWgG4V
+          claim_id: c_XPfjp6FUaITdjtPHTR2Hhp
+          source_id: s_u2nMamULpp7PMvNILIKuE7
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126801 王諍）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_u2nMamULpp7PMvNILIKuE7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王誥（CBDB 313483）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313483&o=json
+            external_identifier: CBDB:313483
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5GKmc7UBMnwgzBKbep1LTG
+        status: active
+        display_name: 王諍
+        merged_into_person_id: null
 ---
 
 # 王誥
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_bAZKMRH7j8tU7qjcKDr2aW | 王鍊 | accepted |
+| other | p_5GKmc7UBMnwgzBKbep1LTG | 王諍 | accepted |
 
 ## 外部来源
 

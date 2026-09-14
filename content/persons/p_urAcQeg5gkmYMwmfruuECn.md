@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王禟
 cbdb_id: 282823
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_71I1XXbhIMFEiaelQdDYzF
+        subject_person_id: p_rMH6azHPPfCWNVYvRKv58F
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_urAcQeg5gkmYMwmfruuECn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j3eSpKC_p6frKWJHW2ouMl
+          claim_id: c_71I1XXbhIMFEiaelQdDYzF
+          source_id: s_JIBL0sWQtdESbTixmnKxxo
+          stance: supports
+          locator: CBDB：兄弟 王祐（202067）之父／母 王璲
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王禟 与 王祐 为同胞（CBDB 记「兄」），王祐 之父／母即 王禟 之父／母。
+          source:
+            id: s_JIBL0sWQtdESbTixmnKxxo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禟（CBDB 282823）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282823&o=json
+            external_identifier: CBDB:282823
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rMH6azHPPfCWNVYvRKv58F
+        status: active
+        display_name: 王璲
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_epkPIH2TJVSCo1pLGnPc0C
+        subject_person_id: p_fVVctU3oARvj93SKk81Eji
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_urAcQeg5gkmYMwmfruuECn
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uOmmpFZwUkCMbsh2E5nyNg
+          claim_id: c_epkPIH2TJVSCo1pLGnPc0C
+          source_id: s_JIBL0sWQtdESbTixmnKxxo
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202067 王祐）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_JIBL0sWQtdESbTixmnKxxo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禟（CBDB 282823）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282823&o=json
+            external_identifier: CBDB:282823
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fVVctU3oARvj93SKk81Eji
+        status: active
+        display_name: 王祐
+        merged_into_person_id: null
 ---
 
 # 王禟
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_rMH6azHPPfCWNVYvRKv58F | 王璲 | accepted |
+| other | p_fVVctU3oARvj93SKk81Eji | 王祐 | accepted |
 
 ## 外部来源
 

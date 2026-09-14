@@ -4,7 +4,7 @@ id: p_nP9Fa1A3uFFEsjUPGC5JiM
 status: active
 merged_into: null
 display_name: 王福
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_gWVBdURSiGzHTmKWJMjQiC
+        subject_person_id: p_8ncCPBjMxsJMBARy66EQjw
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nP9Fa1A3uFFEsjUPGC5JiM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0YWhNcCjWB922aaV3IJ95N
+          claim_id: c_gWVBdURSiGzHTmKWJMjQiC
+          source_id: s_UNANl8y5qBDKIMOFldjSeI
+          stance: supports
+          locator: CBDB：兄弟 王壽（201134）之父／母 王俊
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王福 与 王壽 为同胞（CBDB 记「兄」），王壽 之父／母即 王福 之父／母。
+          source:
+            id: s_UNANl8y5qBDKIMOFldjSeI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王福（CBDB 267653）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267653&o=json
+            external_identifier: CBDB:267653
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8ncCPBjMxsJMBARy66EQjw
+        status: active
+        display_name: 王俊
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Q4Gi_tnkb_YwYxPBjoDqZA
+        subject_person_id: p_nP9Fa1A3uFFEsjUPGC5JiM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qLd4Pf4cDMmmQ6kBWSiJ8T
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F5uSM7IJjxveqdXHw4bJ5M
+          claim_id: c_Q4Gi_tnkb_YwYxPBjoDqZA
+          source_id: s_UNANl8y5qBDKIMOFldjSeI
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201134 王壽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_UNANl8y5qBDKIMOFldjSeI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王福（CBDB 267653）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=267653&o=json
+            external_identifier: CBDB:267653
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qLd4Pf4cDMmmQ6kBWSiJ8T
+        status: active
+        display_name: 王壽
+        merged_into_person_id: null
 ---
 
 # 王福
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_8ncCPBjMxsJMBARy66EQjw | 王俊 | accepted |
+| other | p_qLd4Pf4cDMmmQ6kBWSiJ8T | 王壽 | accepted |
 
 ## 外部来源
 

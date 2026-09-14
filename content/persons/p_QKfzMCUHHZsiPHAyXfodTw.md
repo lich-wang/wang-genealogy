@@ -4,7 +4,7 @@ id: p_QKfzMCUHHZsiPHAyXfodTw
 status: active
 merged_into: null
 display_name: 王景暄
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_BQZz_PFUStZVrVa5a6Ab-h
+        subject_person_id: p_kP6VABQWbKR9ndmes7Y926
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QKfzMCUHHZsiPHAyXfodTw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_95_uhGQ8TqO0eW2hePNTpA
+          claim_id: c_BQZz_PFUStZVrVa5a6Ab-h
+          source_id: s_8ikG6dqsDXR9Zwq5wn8H7x
+          stance: supports
+          locator: CBDB：兄弟 王景星（206153）之父／母 王武烈
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王景暄 与 王景星 为同胞（CBDB 记「兄」），王景星 之父／母即 王景暄 之父／母。
+          source:
+            id: s_8ikG6dqsDXR9Zwq5wn8H7x
+            source_type: api_record
+            title: 中国历代人物传记资料库：王景暄（CBDB 214075）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214075&o=json
+            external_identifier: CBDB:214075
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kP6VABQWbKR9ndmes7Y926
+        status: active
+        display_name: 王武烈
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_fsNiDwLIo4QVt7XNYeyEkR
+        subject_person_id: p_5GaxaL368Sw3VJAGUZoHG3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_QKfzMCUHHZsiPHAyXfodTw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LHJKDn0xv4QNMAtW5jzXTD
+          claim_id: c_fsNiDwLIo4QVt7XNYeyEkR
+          source_id: s_8ikG6dqsDXR9Zwq5wn8H7x
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206153 王景星）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_8ikG6dqsDXR9Zwq5wn8H7x
+            source_type: api_record
+            title: 中国历代人物传记资料库：王景暄（CBDB 214075）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214075&o=json
+            external_identifier: CBDB:214075
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5GaxaL368Sw3VJAGUZoHG3
+        status: active
+        display_name: 王景星
+        merged_into_person_id: null
 ---
 
 # 王景暄
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_kP6VABQWbKR9ndmes7Y926 | 王武烈 | accepted |
+| other | p_5GaxaL368Sw3VJAGUZoHG3 | 王景星 | accepted |
 
 ## 外部来源
 

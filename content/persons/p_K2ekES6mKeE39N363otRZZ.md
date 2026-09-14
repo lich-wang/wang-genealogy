@@ -4,7 +4,7 @@ id: p_K2ekES6mKeE39N363otRZZ
 status: active
 merged_into: null
 display_name: 王儀
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_RzZ7A_MLWycgARqC_3fcCL
+        subject_person_id: p_psesBqxpFDwKqz2PBTA4dC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_K2ekES6mKeE39N363otRZZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YfN_Xc7t0DdfICu4HJQRNs
+          claim_id: c_RzZ7A_MLWycgARqC_3fcCL
+          source_id: s_elsq1NoaQzCxSrmQtiHoqv
+          stance: supports
+          locator: CBDB：兄弟 王春（198362）之父／母 王宗器
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王儀 与 王春 为同胞（CBDB 记「兄」），王春 之父／母即 王儀 之父／母。
+          source:
+            id: s_elsq1NoaQzCxSrmQtiHoqv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王儀（CBDB 262659）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262659&o=json
+            external_identifier: CBDB:262659
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_psesBqxpFDwKqz2PBTA4dC
+        status: active
+        display_name: 王宗器
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_yWAUSIQLule5sIDgcX_nzX
+        subject_person_id: p_K2ekES6mKeE39N363otRZZ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_cnxHgvNWzCNiTbu6SVUA3o
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_f8g-YWrkn7jmnye3y7y3hw
+          claim_id: c_yWAUSIQLule5sIDgcX_nzX
+          source_id: s_elsq1NoaQzCxSrmQtiHoqv
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198362 王春）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_elsq1NoaQzCxSrmQtiHoqv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王儀（CBDB 262659）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262659&o=json
+            external_identifier: CBDB:262659
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cnxHgvNWzCNiTbu6SVUA3o
+        status: active
+        display_name: 王春
+        merged_into_person_id: null
 ---
 
 # 王儀
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_psesBqxpFDwKqz2PBTA4dC | 王宗器 | accepted |
+| other | p_cnxHgvNWzCNiTbu6SVUA3o | 王春 | accepted |
 
 ## 外部来源
 

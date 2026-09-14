@@ -4,7 +4,7 @@ id: p_ULmtAoZzYGxooqVVzFnV71
 status: active
 merged_into: null
 display_name: 王聞詩
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -128,14 +128,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_e2-GlvjqW61HgJWP2tmAfb
+        subject_person_id: p_tcnc9U56UzCEYQHcMawuE4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ULmtAoZzYGxooqVVzFnV71
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_MUcSw_X-pefV-kq1eHQJte
+          claim_id: c_e2-GlvjqW61HgJWP2tmAfb
+          source_id: s_xyIWcFmXjXgIztPwSB8J8g
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 10598）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_xyIWcFmXjXgIztPwSB8J8g
+            source_type: api_record
+            title: 中国历代人物传记资料库：王聞詩（CBDB 10599）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10599&o=json
+            external_identifier: CBDB:10599
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_tcnc9U56UzCEYQHcMawuE4
+        status: active
+        display_name: 王十朋
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_2rOsOttsH2LjdW0HgEve7m
+        subject_person_id: p_ULmtAoZzYGxooqVVzFnV71
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_uoi27QQ6mQcPkgGBBAJ7Zc
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_A9gmKWI8NZFDEbmukYNyQn
+          claim_id: c_2rOsOttsH2LjdW0HgEve7m
+          source_id: s_xyIWcFmXjXgIztPwSB8J8g
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 10600 王聞禮）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_xyIWcFmXjXgIztPwSB8J8g
+            source_type: api_record
+            title: 中国历代人物传记资料库：王聞詩（CBDB 10599）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10599&o=json
+            external_identifier: CBDB:10599
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_uoi27QQ6mQcPkgGBBAJ7Zc
+        status: active
+        display_name: 王聞禮
+        merged_into_person_id: null
 ---
 
 # 王聞詩
@@ -155,6 +229,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_tcnc9U56UzCEYQHcMawuE4 | 王十朋 | accepted |
+| other | p_uoi27QQ6mQcPkgGBBAJ7Zc | 王聞禮 | accepted |
 
 ## 外部来源
 

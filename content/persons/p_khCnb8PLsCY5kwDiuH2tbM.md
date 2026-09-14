@@ -4,7 +4,7 @@ id: p_khCnb8PLsCY5kwDiuH2tbM
 status: active
 merged_into: null
 display_name: 王誠
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,80 @@ relationships:
         status: active
         display_name: 王進
         merged_into_person_id: null
+    - claim:
+        id: c_0F0Dhxe3hZjX7OeBz2Gipq
+        subject_person_id: p_khCnb8PLsCY5kwDiuH2tbM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fwK9tTqvArY9vy1vbENHy7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1_7rPrZ0QUck7H3plQX6TD
+          claim_id: c_0F0Dhxe3hZjX7OeBz2Gipq
+          source_id: s_9pVETnCeFo6TLKzK_trcud
+          stance: supports
+          locator: CBDB：兄弟 王進（200041）之父／母 王誠
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王達 与 王進 为同胞（CBDB 记「兄」），王進 之父／母即 王達 之父／母。
+          source:
+            id: s_9pVETnCeFo6TLKzK_trcud
+            source_type: api_record
+            title: 中国历代人物传记资料库：王達（CBDB 253058）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253058&o=json
+            external_identifier: CBDB:253058
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fwK9tTqvArY9vy1vbENHy7
+        status: active
+        display_name: 王達
+        merged_into_person_id: null
+    - claim:
+        id: c_jBGmxzSmF-4cCXNpl3y6cp
+        subject_person_id: p_khCnb8PLsCY5kwDiuH2tbM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rgjCHhxL6Ex3DnTcPj411u
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nkCs-NxHq2nHaCskFtvIg-
+          claim_id: c_jBGmxzSmF-4cCXNpl3y6cp
+          source_id: s_43orTJ9hmWJnKPMNgMEaif
+          stance: supports
+          locator: CBDB：兄弟 王進（200041）之父／母 王誠
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王通 与 王進 为同胞（CBDB 记「兄」），王進 之父／母即 王通 之父／母。
+          source:
+            id: s_43orTJ9hmWJnKPMNgMEaif
+            source_type: api_record
+            title: 中国历代人物传记资料库：王通（CBDB 253056）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253056&o=json
+            external_identifier: CBDB:253056
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rgjCHhxL6Ex3DnTcPj411u
+        status: active
+        display_name: 王通
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +209,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_dGT7XJPTzH43E2nwtnh2aH | 王進 | accepted |
+| children | p_fwK9tTqvArY9vy1vbENHy7 | 王達 | accepted |
+| children | p_rgjCHhxL6Ex3DnTcPj411u | 王通 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王誠（CBDB 253053）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253053&o=json)
+- [中国历代人物传记资料库：王達（CBDB 253058）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253058&o=json)
 - [中国历代人物传记资料库：王進（CBDB 200041）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200041&o=json)
+- [中国历代人物传记资料库：王通（CBDB 253056）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=253056&o=json)

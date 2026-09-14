@@ -4,7 +4,7 @@ id: p_WfV9B4ZNGa1u8RHNsdFJs6
 status: active
 merged_into: null
 display_name: 王瑩
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,44 @@ relationships:
         display_name: 王文
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ZcBOFq9n8CTgTSWVeJ41PP
+        subject_person_id: p_APb1dB5rHsGTFbFG32SEjC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_WfV9B4ZNGa1u8RHNsdFJs6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZF9rUfLn281-Oku--pExb4
+          claim_id: c_ZcBOFq9n8CTgTSWVeJ41PP
+          source_id: s_zPB67k22VwI4guj5GXH1M6
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200655 王瑩）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_zPB67k22VwI4guj5GXH1M6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王琰（CBDB 261018）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261018&o=json
+            external_identifier: CBDB:261018
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_APb1dB5rHsGTFbFG32SEjC
+        status: active
+        display_name: 王琰
+        merged_into_person_id: null
 ---
 
 # 王瑩
@@ -241,10 +278,12 @@ relationships:
 | parents | p_SQbqrU6uRV1rZFhGVtQz9b | 王稶 | accepted |
 | ancestors | p_cPYX8RobAKWa2Dxnipi19F | 王浩 | accepted |
 | ancestors | p_LaSeLTpRwPyLiUTpu3t1Wu | 王文 | accepted |
+| other | p_APb1dB5rHsGTFbFG32SEjC | 王琰 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王浩（CBDB 261013）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261013&o=json)
 - [中国历代人物传记资料库：王文（CBDB 261012）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261012&o=json)
+- [中国历代人物传记资料库：王琰（CBDB 261018）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261018&o=json)
 - [中国历代人物传记资料库：王瑩（CBDB 200655）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200655&o=json)
 - [中国历代人物传记资料库：王稶（CBDB 261015）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261015&o=json)

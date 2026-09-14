@@ -4,7 +4,7 @@ id: p_vqND44YidPRfbGnCkwxK3f
 status: active
 merged_into: null
 display_name: 王植
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -73,7 +73,118 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_b8Bft_bQ_0hLVhXXsnIOUc
+        subject_person_id: p_vqND44YidPRfbGnCkwxK3f
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_2B23wFhCdXcNQ5FpfAsGiT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_bWTf8kkKiHVL0ZXsm84D0r
+          claim_id: c_b8Bft_bQ_0hLVhXXsnIOUc
+          source_id: s_FhYVAWWZmmKTCVCcnp2P0H
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 10720）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_FhYVAWWZmmKTCVCcnp2P0H
+            source_type: api_record
+            title: 中国历代人物传记资料库：王任（CBDB 30519）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30519&o=json
+            external_identifier: CBDB:30519
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2B23wFhCdXcNQ5FpfAsGiT
+        status: active
+        display_name: 王任
+        merged_into_person_id: null
+    - claim:
+        id: c_shObm8Yo3xfC-j0pa1QzdJ
+        subject_person_id: p_vqND44YidPRfbGnCkwxK3f
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_YegeX5DSdSRsQV8DvG1Sgv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_VxTH7GIc7taqLcfed4g8pm
+          claim_id: c_shObm8Yo3xfC-j0pa1QzdJ
+          source_id: s_luizz2QNihvwSfG69krIpQ
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 10720）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_luizz2QNihvwSfG69krIpQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王偌（CBDB 30520）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30520&o=json
+            external_identifier: CBDB:30520
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_YegeX5DSdSRsQV8DvG1Sgv
+        status: active
+        display_name: 王偌
+        merged_into_person_id: null
+    - claim:
+        id: c_yTa4p7877vFDsqNdpOjUsk
+        subject_person_id: p_vqND44YidPRfbGnCkwxK3f
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aaeGDnDkeFzUZAfF2XpwUD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_6EctF621ULuLa4PaCzyXwV
+          claim_id: c_yTa4p7877vFDsqNdpOjUsk
+          source_id: s_FJP56rWj-KS4wlruCHW-7f
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 10720）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_FJP56rWj-KS4wlruCHW-7f
+            source_type: api_record
+            title: 中国历代人物传记资料库：王傳（CBDB 30518）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30518&o=json
+            external_identifier: CBDB:30518
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aaeGDnDkeFzUZAfF2XpwUD
+        status: active
+        display_name: 王傳
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -134,9 +245,15 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_2B23wFhCdXcNQ5FpfAsGiT | 王任 | accepted |
+| children | p_YegeX5DSdSRsQV8DvG1Sgv | 王偌 | accepted |
+| children | p_aaeGDnDkeFzUZAfF2XpwUD | 王傳 | accepted |
 | spouses | p_jLMCqxdqoaxA9z7UPVJiqB | 莊則 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王傳（CBDB 30518）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30518&o=json)
+- [中国历代人物传记资料库：王任（CBDB 30519）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30519&o=json)
+- [中国历代人物传记资料库：王偌（CBDB 30520）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30520&o=json)
 - [中国历代人物传记资料库：王植（CBDB 10720）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10720&o=json)
 - [中国历代人物传记资料库：莊則（CBDB 5406）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5406&o=json)

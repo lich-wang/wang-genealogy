@@ -4,7 +4,7 @@ id: p_7koQzcggkeDLYupbQwieGE
 status: active
 merged_into: null
 display_name: 王璟
-revision: 2
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -454,7 +454,81 @@ relationships:
         display_name: 王升
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_VFv0lvW2Lrmh_6k10NV52B
+        subject_person_id: p_3pSaFHyMm5yw3ojGhQJnMx
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_7koQzcggkeDLYupbQwieGE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-1Y9lhwkwVCpN-hO6A9TZn
+          claim_id: c_VFv0lvW2Lrmh_6k10NV52B
+          source_id: s_pGr3-bAH0j8zlWpY0GRjY7
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 67987 王璟）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_pGr3-bAH0j8zlWpY0GRjY7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瓉（CBDB 246755）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246755&o=json
+            external_identifier: CBDB:246755
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3pSaFHyMm5yw3ojGhQJnMx
+        status: active
+        display_name: 王瓉
+        merged_into_person_id: null
+    - claim:
+        id: c_MtzambSql50qTg8oecbowI
+        subject_person_id: p_7koQzcggkeDLYupbQwieGE
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Gk3kgE8MCobSvJHrxFNS48
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iv9ZUYWOBmWfC2ii5xgttb
+          claim_id: c_MtzambSql50qTg8oecbowI
+          source_id: s_xfyWi4n98jWvZ69NtUslfq
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 67987 王璟）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_xfyWi4n98jWvZ69NtUslfq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璋（CBDB 246754）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246754&o=json
+            external_identifier: CBDB:246754
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Gk3kgE8MCobSvJHrxFNS48
+        status: active
+        display_name: 王璋
+        merged_into_person_id: null
 ---
 
 # 王璟
@@ -479,6 +553,8 @@ relationships:
 | spouses | p_5cGUwGYGBQBf3ZNRJ6zVzU | 刘氏 | accepted |
 | ancestors | p_sWnQEKdTJEEDPqzmGjNy9f | 王海 | accepted |
 | ancestors | p_L6DCbYaxvTKejPkJXVgChn | 王升 | accepted |
+| other | p_3pSaFHyMm5yw3ojGhQJnMx | 王瓉 | accepted |
+| other | p_Gk3kgE8MCobSvJHrxFNS48 | 王璋 | accepted |
 
 ## 外部来源
 
@@ -486,6 +562,8 @@ relationships:
 - [维基数据：王纲（Q45484265）](https://www.wikidata.org/wiki/Q45484265)
 - [维基数据：王璟（Q15929306）](https://www.wikidata.org/wiki/Q15929306)
 - [维基数据：王士彦（Q45573102）](https://www.wikidata.org/wiki/Q45573102)
+- [中国历代人物传记资料库：王瓉（CBDB 246755）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246755&o=json)
+- [中国历代人物传记资料库：王璋（CBDB 246754）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246754&o=json)
 - [中文维基百科：王璟 (成化進士)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%92%9F_(%E6%88%90%E5%8C%96%E9%80%B2%E5%A3%AB))
 - [CBDB 中国历代人物传记资料库：王海（246748）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=246748&o=json)
 - [CBDB 中国历代人物传记资料库：王璟（67987）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67987&o=json)

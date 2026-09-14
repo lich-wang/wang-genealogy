@@ -4,7 +4,7 @@ id: p_w1GiHCCDCJVq4Cbb8yEdBZ
 status: active
 merged_into: null
 display_name: 王之政
-revision: 6
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -259,6 +259,43 @@ relationships:
         status: active
         display_name: 王師剪
         merged_into_person_id: null
+    - claim:
+        id: c_pxWtCXZFwdkqq26FTFMrk4
+        subject_person_id: p_w1GiHCCDCJVq4Cbb8yEdBZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zRfAMH39EM4tmccFUAC8rh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AYg6VEL4MdNj8DAJIGkQdU
+          claim_id: c_pxWtCXZFwdkqq26FTFMrk4
+          source_id: s_nr2T-k_quXXpweAOwFFwlp
+          stance: supports
+          locator: CBDB：兄弟 王師震（555069）之父／母 王之政
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王師說 与 王師震 为同胞（CBDB 记「兄」），王師震 之父／母即 王師說 之父／母。
+          source:
+            id: s_nr2T-k_quXXpweAOwFFwlp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王師說（CBDB 555070）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555070&o=json
+            external_identifier: CBDB:555070
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zRfAMH39EM4tmccFUAC8rh
+        status: active
+        display_name: 王師說
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -287,12 +324,14 @@ relationships:
 | children | p_m75VvDC3sRAZLmgAeYZoPt | 王師伋 | accepted |
 | children | p_QcouJWUA6YJBp4PXTJf4RW | 王師震 | accepted |
 | children | p_RYcLEAdiXKa2C2JTchNKQu | 王師剪 | accepted |
+| children | p_zRfAMH39EM4tmccFUAC8rh | 王師說 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王師虺（CBDB 555356）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555356&o=json)
 - [中国历代人物传记资料库：王師伋（CBDB 555355）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555355&o=json)
 - [中国历代人物传记资料库：王師剪（CBDB 555354）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555354&o=json)
+- [中国历代人物传记资料库：王師說（CBDB 555070）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555070&o=json)
 - [中国历代人物传记资料库：王師元（CBDB 555352）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555352&o=json)
 - [中国历代人物传记资料库：王師震（CBDB 555069）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555069&o=json)
 - [中国历代人物传记资料库：王之政（CBDB 555348）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555348&o=json)

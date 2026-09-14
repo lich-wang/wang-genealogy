@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王好賢
 cbdb_id: 285849
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_pm4in22cU5k9KMnrnrSz7M
+        subject_person_id: p_yeJtEcC7cBaU9sVyVGy7xj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QgAKGJMuGM4ng3rJwQxmzL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SkF05fdE2MF1AoBqGLEgZD
+          claim_id: c_pm4in22cU5k9KMnrnrSz7M
+          source_id: s_fh6v8fGNibODYcRG-29GsO
+          stance: supports
+          locator: CBDB：兄弟 王重賢（202269）之父／母 王鉞
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王好賢 与 王重賢 为同胞（CBDB 记「兄」），王重賢 之父／母即 王好賢 之父／母。
+          source:
+            id: s_fh6v8fGNibODYcRG-29GsO
+            source_type: api_record
+            title: 中国历代人物传记资料库：王好賢（CBDB 285849）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285849&o=json
+            external_identifier: CBDB:285849
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_yeJtEcC7cBaU9sVyVGy7xj
+        status: active
+        display_name: 王鉞
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_0PTZBMNyM1IDJJdrPmW85b
+        subject_person_id: p_HgaWqM5nscyN4tzrPQd5UX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_QgAKGJMuGM4ng3rJwQxmzL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xUI7j7uUFfjLb9tEgatdxp
+          claim_id: c_0PTZBMNyM1IDJJdrPmW85b
+          source_id: s_fh6v8fGNibODYcRG-29GsO
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202269 王重賢）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_fh6v8fGNibODYcRG-29GsO
+            source_type: api_record
+            title: 中国历代人物传记资料库：王好賢（CBDB 285849）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285849&o=json
+            external_identifier: CBDB:285849
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HgaWqM5nscyN4tzrPQd5UX
+        status: active
+        display_name: 王重賢
+        merged_into_person_id: null
 ---
 
 # 王好賢
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_yeJtEcC7cBaU9sVyVGy7xj | 王鉞 | accepted |
+| other | p_HgaWqM5nscyN4tzrPQd5UX | 王重賢 | accepted |
 
 ## 外部来源
 

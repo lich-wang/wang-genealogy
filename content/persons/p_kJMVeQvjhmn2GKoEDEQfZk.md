@@ -4,7 +4,7 @@ id: p_kJMVeQvjhmn2GKoEDEQfZk
 status: active
 merged_into: null
 display_name: 王用中
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,81 @@ relationships:
         display_name: 王祥
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_LzTSqfjVlJvnsE84roqbzi
+        subject_person_id: p_7AzaTDzKMvxdsLpAeeHh4N
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kJMVeQvjhmn2GKoEDEQfZk
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dCkfa0-cUhb1pB8DnhXrkh
+          claim_id: c_LzTSqfjVlJvnsE84roqbzi
+          source_id: s_O1gpWt-7o5zqmfcWDTnJns
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204549 王用中）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_O1gpWt-7o5zqmfcWDTnJns
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用子（CBDB 320676）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320676&o=json
+            external_identifier: CBDB:320676
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7AzaTDzKMvxdsLpAeeHh4N
+        status: active
+        display_name: 王用子
+        merged_into_person_id: null
+    - claim:
+        id: c_c-hR10Oy6N3rgCSiC6iait
+        subject_person_id: p_kJMVeQvjhmn2GKoEDEQfZk
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_krB77NtCp3Fyfdk2BMDgsP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gZgqWKdgHd9MVccyxALRaU
+          claim_id: c_c-hR10Oy6N3rgCSiC6iait
+          source_id: s_kWCFQMNm7ArrUCX4U9uP5b
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204549 王用中）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_kWCFQMNm7ArrUCX4U9uP5b
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用賓（CBDB 320675）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320675&o=json
+            external_identifier: CBDB:320675
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_krB77NtCp3Fyfdk2BMDgsP
+        status: active
+        display_name: 王用賓
+        merged_into_person_id: null
 ---
 
 # 王用中
@@ -240,10 +314,14 @@ relationships:
 | parents | p_7vykPE7zRJ5ERMERNaXtrP | 王尚德 | accepted |
 | ancestors | p_sKaKetRJJBRDoiu3diCVGh | 王達 | accepted |
 | ancestors | p_ynLQA17DH2FfsbqP1uFf63 | 王祥 | accepted |
+| other | p_7AzaTDzKMvxdsLpAeeHh4N | 王用子 | accepted |
+| other | p_krB77NtCp3Fyfdk2BMDgsP | 王用賓 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王達（CBDB 320670）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320670&o=json)
 - [中国历代人物传记资料库：王尚德（CBDB 320671）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320671&o=json)
 - [中国历代人物传记资料库：王祥（CBDB 320669）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320669&o=json)
+- [中国历代人物传记资料库：王用賓（CBDB 320675）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320675&o=json)
 - [中国历代人物传记资料库：王用中（CBDB 204549）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204549&o=json)
+- [中国历代人物传记资料库：王用子（CBDB 320676）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320676&o=json)

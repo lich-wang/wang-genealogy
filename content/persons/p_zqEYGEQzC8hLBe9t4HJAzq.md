@@ -4,7 +4,7 @@ id: p_zqEYGEQzC8hLBe9t4HJAzq
 status: active
 merged_into: null
 display_name: 王學孔
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_4TgRxmqqYbPa8brQrvoz4K
+        subject_person_id: p_EJz6NDNXPRUy1b3XSr2FQp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zqEYGEQzC8hLBe9t4HJAzq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3hAdK0SEoDgEMbDfG73XJD
+          claim_id: c_4TgRxmqqYbPa8brQrvoz4K
+          source_id: s_GhmctIiTasDUayw9cvPUdk
+          stance: supports
+          locator: CBDB：兄弟 王學益（202399）之父／母 王稼
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王學孔 与 王學益 为同胞（CBDB 记「弟」），王學益 之父／母即 王學孔 之父／母。
+          source:
+            id: s_GhmctIiTasDUayw9cvPUdk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王學孔（CBDB 287449）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287449&o=json
+            external_identifier: CBDB:287449
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EJz6NDNXPRUy1b3XSr2FQp
+        status: active
+        display_name: 王稼
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_57yd5-M8Xc9yTkbSv3RlfT
+        subject_person_id: p_EoY6249MAYNFPdVz2u3z4E
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zqEYGEQzC8hLBe9t4HJAzq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_eQYfTjUYpgd3E0rjtTh0Sh
+          claim_id: c_57yd5-M8Xc9yTkbSv3RlfT
+          source_id: s_GhmctIiTasDUayw9cvPUdk
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202399 王學益）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_GhmctIiTasDUayw9cvPUdk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王學孔（CBDB 287449）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287449&o=json
+            external_identifier: CBDB:287449
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EoY6249MAYNFPdVz2u3z4E
+        status: active
+        display_name: 王學益
+        merged_into_person_id: null
 ---
 
 # 王學孔
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_EJz6NDNXPRUy1b3XSr2FQp | 王稼 | accepted |
+| other | p_EoY6249MAYNFPdVz2u3z4E | 王學益 | accepted |
 
 ## 外部来源
 

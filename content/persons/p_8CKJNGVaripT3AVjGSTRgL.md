@@ -4,7 +4,7 @@ id: p_8CKJNGVaripT3AVjGSTRgL
 status: active
 merged_into: null
 display_name: 王敞
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -250,7 +250,81 @@ relationships:
         display_name: 王寧
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_W_SmxWkgRgidfzP2p4JXtf
+        subject_person_id: p_8CKJNGVaripT3AVjGSTRgL
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_iBKUAT9Q8dFJHzM48f3z6X
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2ofg_fCi638nxsYijrixtt
+          claim_id: c_W_SmxWkgRgidfzP2p4JXtf
+          source_id: s_Tz3XX_9J7Vv8wLAeozeoiN
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126724 王敞）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Tz3XX_9J7Vv8wLAeozeoiN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王政（CBDB 255597）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255597&o=json
+            external_identifier: CBDB:255597
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_iBKUAT9Q8dFJHzM48f3z6X
+        status: active
+        display_name: 王政
+        merged_into_person_id: null
+    - claim:
+        id: c_bAQyylH8DOZVFPnj4YUkOP
+        subject_person_id: p_8CKJNGVaripT3AVjGSTRgL
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_rwQfH3kFoh67DsmmLarZa4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_97JbquDHAIhhstGWgYUgQF
+          claim_id: c_bAQyylH8DOZVFPnj4YUkOP
+          source_id: s_iYAxLGqmBjuA2-A3ZoerFr
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126724 王敞）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_iYAxLGqmBjuA2-A3ZoerFr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敔（CBDB 255598）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255598&o=json
+            external_identifier: CBDB:255598
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rwQfH3kFoh67DsmmLarZa4
+        status: active
+        display_name: 王敔
+        merged_into_person_id: null
 ---
 
 # 王敞
@@ -274,8 +348,12 @@ relationships:
 | spouses | p_SxootC8oVgPZs6v5mzddmZ | 田氏 | accepted |
 | ancestors | p_9DwGjPApdqe1zoHq9wJJUF | 王國祥 | accepted |
 | ancestors | p_MVjZzxWsAgzkrKDUKxsADW | 王寧 | accepted |
+| other | p_iBKUAT9Q8dFJHzM48f3z6X | 王政 | accepted |
+| other | p_rwQfH3kFoh67DsmmLarZa4 | 王敔 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：田氏(王敞妻)（CBDB 255596）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255596&o=json)
 - [中国历代人物传记资料库：王敞（CBDB 126724）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126724&o=json)
+- [中国历代人物传记资料库：王敔（CBDB 255598）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255598&o=json)
+- [中国历代人物传记资料库：王政（CBDB 255597）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=255597&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王鳴臣
 cbdb_id: 126785
-revision: 3
+revision: 8
 properties:
   - predicate: bio.summary
     recommended:
@@ -251,7 +251,192 @@ relationships:
         display_name: 王學漁
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_3BigG8lSjGJXlJDdIsKVkm
+        subject_person_id: p_Bc3FF8PWVP5Zd5sPJuac7F
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gYn21nxF9d7iJNFwbu2Rnf
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_apU1JRZFm5oRf1gQKLOvor
+          claim_id: c_3BigG8lSjGJXlJDdIsKVkm
+          source_id: s_E-aazornoru8zVCkt8hb1-
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126785 王鳴臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_E-aazornoru8zVCkt8hb1-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禮臣（CBDB 306743）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306743&o=json
+            external_identifier: CBDB:306743
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Bc3FF8PWVP5Zd5sPJuac7F
+        status: active
+        display_name: 王禮臣
+        merged_into_person_id: null
+    - claim:
+        id: c_oXyyAl5inp1k3cGXLyzy5F
+        subject_person_id: p_S1EMyvXCMC7PsLCi556BTC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gYn21nxF9d7iJNFwbu2Rnf
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_58rDTo_y76mbfATPG4gBRi
+          claim_id: c_oXyyAl5inp1k3cGXLyzy5F
+          source_id: s_aOwxDjhJt6hcjCzMXU5rRb
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126785 王鳴臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_aOwxDjhJt6hcjCzMXU5rRb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彥臣（CBDB 306741）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306741&o=json
+            external_identifier: CBDB:306741
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_S1EMyvXCMC7PsLCi556BTC
+        status: active
+        display_name: 王彥臣
+        merged_into_person_id: null
+    - claim:
+        id: c_zfnul-Z-s0B1oWKHeTDcDb
+        subject_person_id: p_gYn21nxF9d7iJNFwbu2Rnf
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_huPEqEzBvZUrbErdFWSCp9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hBFqbAygjGwIt6Eu8-mYz2
+          claim_id: c_zfnul-Z-s0B1oWKHeTDcDb
+          source_id: s_bHx2xoriMhmAQly_R66udn
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126785 王鳴臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_bHx2xoriMhmAQly_R66udn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王舉臣（CBDB 306740）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306740&o=json
+            external_identifier: CBDB:306740
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_huPEqEzBvZUrbErdFWSCp9
+        status: active
+        display_name: 王舉臣
+        merged_into_person_id: null
+    - claim:
+        id: c_8eErGjcj5k8sv1iCD0au3H
+        subject_person_id: p_gYn21nxF9d7iJNFwbu2Rnf
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_imbXfF7EjbTbj6gRr6wP6c
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0SS06j4gxBFYY3HAA573Sg
+          claim_id: c_8eErGjcj5k8sv1iCD0au3H
+          source_id: s_c4F4iieRcSiAvtScmp7LHk
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126785 王鳴臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_c4F4iieRcSiAvtScmp7LHk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元臣（CBDB 306744）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306744&o=json
+            external_identifier: CBDB:306744
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_imbXfF7EjbTbj6gRr6wP6c
+        status: active
+        display_name: 王元臣
+        merged_into_person_id: null
+    - claim:
+        id: c_R4tNZa9dp4HoTG3GrTbz41
+        subject_person_id: p_gYn21nxF9d7iJNFwbu2Rnf
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_sVe4x3j9SMBPqZrBsoB3RG
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bXZzbvQo0eJwTWATm4zC5o
+          claim_id: c_R4tNZa9dp4HoTG3GrTbz41
+          source_id: s_wcOawq7OMV0PlqLnfN5uig
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126785 王鳴臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_wcOawq7OMV0PlqLnfN5uig
+            source_type: api_record
+            title: 中国历代人物传记资料库：王哲臣（CBDB 306742）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306742&o=json
+            external_identifier: CBDB:306742
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_sVe4x3j9SMBPqZrBsoB3RG
+        status: active
+        display_name: 王哲臣
+        merged_into_person_id: null
 ---
 
 # 王鳴臣
@@ -274,8 +459,18 @@ relationships:
 | spouses | p_1oeS3ozES1xNf6Ww7VNcgB | 蕭氏 | accepted |
 | ancestors | p_qS7NvXbMFNn76qPYrgmG6D | 王大溪 | accepted |
 | ancestors | p_k34ZxihPVrsTG6XCDpNhfP | 王學漁 | accepted |
+| other | p_Bc3FF8PWVP5Zd5sPJuac7F | 王禮臣 | accepted |
+| other | p_S1EMyvXCMC7PsLCi556BTC | 王彥臣 | accepted |
+| other | p_huPEqEzBvZUrbErdFWSCp9 | 王舉臣 | accepted |
+| other | p_imbXfF7EjbTbj6gRr6wP6c | 王元臣 | accepted |
+| other | p_sVe4x3j9SMBPqZrBsoB3RG | 王哲臣 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王舉臣（CBDB 306740）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306740&o=json)
+- [中国历代人物传记资料库：王禮臣（CBDB 306743）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306743&o=json)
 - [中国历代人物传记资料库：王鳴臣（CBDB 126785）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126785&o=json)
+- [中国历代人物传记资料库：王彥臣（CBDB 306741）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306741&o=json)
+- [中国历代人物传记资料库：王元臣（CBDB 306744）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306744&o=json)
+- [中国历代人物传记资料库：王哲臣（CBDB 306742）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306742&o=json)
 - [中国历代人物传记资料库：蕭氏(王鳴臣妻)（CBDB 306738）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306738&o=json)

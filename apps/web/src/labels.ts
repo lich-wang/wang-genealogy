@@ -34,6 +34,7 @@ export const PREDICATE_LABELS: Record<string, string> = {
   'kinship.father_of': '父子／父女關係',
   'kinship.mother_of': '母子／母女關係',
   'kinship.spouse_of': '配偶關係',
+  'kinship.sibling_of': '兄弟姊妹關係',
   'kinship.adoptive_parent_of': '收養關係',
   'kinship.adoptive_father_of': '養父關係',
   'kinship.adoptive_mother_of': '養母關係',

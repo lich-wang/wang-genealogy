@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王可任
 cbdb_id: 318732
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_IuTcRRNqkXZGJDALFBEL7v
+        subject_person_id: p_YaWmd84uDmuR4z7SAP4Eam
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8mFJP2Y3Yw2EQdqbHRHn1D
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WmtPykGdo-LYdoyFsCKhcc
+          claim_id: c_IuTcRRNqkXZGJDALFBEL7v
+          source_id: s_EFplVKxtU1u6ejjBrX6mgi
+          stance: supports
+          locator: CBDB：兄弟 王可信（204413）之父／母 王崇德
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王可任 与 王可信 为同胞（CBDB 记「兄」），王可信 之父／母即 王可任 之父／母。
+          source:
+            id: s_EFplVKxtU1u6ejjBrX6mgi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王可任（CBDB 318732）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318732&o=json
+            external_identifier: CBDB:318732
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_YaWmd84uDmuR4z7SAP4Eam
+        status: active
+        display_name: 王崇德
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_7SG1xObrX08qOwAHq75RgH
+        subject_person_id: p_8mFJP2Y3Yw2EQdqbHRHn1D
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_cDtAvQGzuVZRFeJxenEh2g
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IvqcFwQYxXCs6oiLs3tCd2
+          claim_id: c_7SG1xObrX08qOwAHq75RgH
+          source_id: s_EFplVKxtU1u6ejjBrX6mgi
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204413 王可信）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_EFplVKxtU1u6ejjBrX6mgi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王可任（CBDB 318732）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318732&o=json
+            external_identifier: CBDB:318732
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cDtAvQGzuVZRFeJxenEh2g
+        status: active
+        display_name: 王可信
+        merged_into_person_id: null
 ---
 
 # 王可任
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_YaWmd84uDmuR4z7SAP4Eam | 王崇德 | accepted |
+| other | p_cDtAvQGzuVZRFeJxenEh2g | 王可信 | accepted |
 
 ## 外部来源
 

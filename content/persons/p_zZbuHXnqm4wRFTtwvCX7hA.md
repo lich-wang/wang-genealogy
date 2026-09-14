@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王道增
 cbdb_id: 206547
-revision: 4
+revision: 9
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,192 @@ relationships:
         display_name: 王銳
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_a2_06Pak1K39sLTrXKigyv
+        subject_person_id: p_8pPxm7tTE3UAyfsqs6g4EQ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zZbuHXnqm4wRFTtwvCX7hA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-cenTPJjBjmtzNkb4qOOpU
+          claim_id: c_a2_06Pak1K39sLTrXKigyv
+          source_id: s_sCKGTNVFQrSZFiPtFicbxI
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206547 王道增）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_sCKGTNVFQrSZFiPtFicbxI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道方（CBDB 219575）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219575&o=json
+            external_identifier: CBDB:219575
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8pPxm7tTE3UAyfsqs6g4EQ
+        status: active
+        display_name: 王道方
+        merged_into_person_id: null
+    - claim:
+        id: c_hgjuIBPHvmxbhuPHJO-ZCc
+        subject_person_id: p_CrYhBqZZ3D8DBHyd9AsvWX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zZbuHXnqm4wRFTtwvCX7hA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2_Y9No7Gv4pj4L1_UDLxNq
+          claim_id: c_hgjuIBPHvmxbhuPHJO-ZCc
+          source_id: s_dhnx3NfsgF23ShozeuseXv
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206547 王道增）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_dhnx3NfsgF23ShozeuseXv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道行（CBDB 219573）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219573&o=json
+            external_identifier: CBDB:219573
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CrYhBqZZ3D8DBHyd9AsvWX
+        status: active
+        display_name: 王道行
+        merged_into_person_id: null
+    - claim:
+        id: c_Dnw1KyveKwJ3LnlkC6jaCv
+        subject_person_id: p_JNrTzr7Vvg5pW7gELNDzWA
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zZbuHXnqm4wRFTtwvCX7hA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IpNBbYjDn7RA7KFqKETc3g
+          claim_id: c_Dnw1KyveKwJ3LnlkC6jaCv
+          source_id: s_SfrWcJh6VHQyrbfXxSllkO
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206547 王道增）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_SfrWcJh6VHQyrbfXxSllkO
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道立（CBDB 219577）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219577&o=json
+            external_identifier: CBDB:219577
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JNrTzr7Vvg5pW7gELNDzWA
+        status: active
+        display_name: 王道立
+        merged_into_person_id: null
+    - claim:
+        id: c_Rz5uXiQvLp25h_u8nZscxF
+        subject_person_id: p_e6hZfnHu9F2Qd2GTzWkfjg
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zZbuHXnqm4wRFTtwvCX7hA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_O2QnEW9uqyTK0wsjvLrkuX
+          claim_id: c_Rz5uXiQvLp25h_u8nZscxF
+          source_id: s_pSYkmH7SOJa-XFAWdT65zL
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206547 王道增）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_pSYkmH7SOJa-XFAWdT65zL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道成（CBDB 219576）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219576&o=json
+            external_identifier: CBDB:219576
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_e6hZfnHu9F2Qd2GTzWkfjg
+        status: active
+        display_name: 王道成
+        merged_into_person_id: null
+    - claim:
+        id: c_KgdkrT2tM5a1kc6ME-FPXV
+        subject_person_id: p_hKdPByG821ALMEdoQo4ac5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zZbuHXnqm4wRFTtwvCX7hA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0aaLAqAvaTSzMSzINEMh0G
+          claim_id: c_KgdkrT2tM5a1kc6ME-FPXV
+          source_id: s_YRe1RZeLbx_5XbDjjPUK48
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206547 王道增）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_YRe1RZeLbx_5XbDjjPUK48
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道得（CBDB 219574）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219574&o=json
+            external_identifier: CBDB:219574
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hKdPByG821ALMEdoQo4ac5
+        status: active
+        display_name: 王道得
+        merged_into_person_id: null
 ---
 
 # 王道增
@@ -257,10 +442,20 @@ relationships:
 | parents | p_RYeG6QXC3LvzmPc5LSo3Tt | 王澍 | accepted |
 | ancestors | p_GPvXA4LriUiQYx6qpSspPM | 王賓 | accepted |
 | ancestors | p_tqHGdZV9SSuNMYwQN7FaPN | 王銳 | accepted |
+| other | p_8pPxm7tTE3UAyfsqs6g4EQ | 王道方 | accepted |
+| other | p_CrYhBqZZ3D8DBHyd9AsvWX | 王道行 | accepted |
+| other | p_JNrTzr7Vvg5pW7gELNDzWA | 王道立 | accepted |
+| other | p_e6hZfnHu9F2Qd2GTzWkfjg | 王道成 | accepted |
+| other | p_hKdPByG821ALMEdoQo4ac5 | 王道得 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王賓（CBDB 219567）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219567&o=json)
+- [中国历代人物传记资料库：王道成（CBDB 219576）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219576&o=json)
+- [中国历代人物传记资料库：王道得（CBDB 219574）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219574&o=json)
+- [中国历代人物传记资料库：王道方（CBDB 219575）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219575&o=json)
+- [中国历代人物传记资料库：王道立（CBDB 219577）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219577&o=json)
+- [中国历代人物传记资料库：王道行（CBDB 219573）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219573&o=json)
 - [中国历代人物传记资料库：王道增（CBDB 206547）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206547&o=json)
 - [中国历代人物传记资料库：王銳（CBDB 219568）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219568&o=json)
 - [中国历代人物传记资料库：王澍（CBDB 219569）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=219569&o=json)

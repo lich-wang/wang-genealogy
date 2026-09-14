@@ -4,7 +4,7 @@ id: p_PGZtNCp6fX43UKKVunQyUd
 status: active
 merged_into: null
 display_name: 王文奎
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,117 @@ relationships:
         status: active
         display_name: 王濟
         merged_into_person_id: null
+    - claim:
+        id: c_HhEhADgVzcU4-Sig0OYd3p
+        subject_person_id: p_PGZtNCp6fX43UKKVunQyUd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_4RKyBrxN2M8zWuVNpAHZBn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dTAYQavYO2wl-vrgjvd2ty
+          claim_id: c_HhEhADgVzcU4-Sig0OYd3p
+          source_id: s_LdDVn5qXiEBiNPKxNmGRKW
+          stance: supports
+          locator: CBDB：兄弟 王濟（34667）之父／母 王文奎
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王璉 与 王濟 为同胞（CBDB 记「弟」），王濟 之父／母即 王璉 之父／母。
+          source:
+            id: s_LdDVn5qXiEBiNPKxNmGRKW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璉（CBDB 270234）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270234&o=json
+            external_identifier: CBDB:270234
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4RKyBrxN2M8zWuVNpAHZBn
+        status: active
+        display_name: 王璉
+        merged_into_person_id: null
+    - claim:
+        id: c_QMT45_kRKDQTN9IlErT9ox
+        subject_person_id: p_PGZtNCp6fX43UKKVunQyUd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_aEF2o7vcG8pL19kp3xYCN2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IW_4nH5GsthNl_mVh1lzpq
+          claim_id: c_QMT45_kRKDQTN9IlErT9ox
+          source_id: s_KLt9YiZ9wzRjbZR_ImT6ac
+          stance: supports
+          locator: CBDB：兄弟 王濟（34667）之父／母 王文奎
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鳳 与 王濟 为同胞（CBDB 记「弟」），王濟 之父／母即 王鳳 之父／母。
+          source:
+            id: s_KLt9YiZ9wzRjbZR_ImT6ac
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鳳（CBDB 270233）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270233&o=json
+            external_identifier: CBDB:270233
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aEF2o7vcG8pL19kp3xYCN2
+        status: active
+        display_name: 王鳳
+        merged_into_person_id: null
+    - claim:
+        id: c_bhga1IUckaXzVmDAQZyVeP
+        subject_person_id: p_PGZtNCp6fX43UKKVunQyUd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_j2uDVAJvNRLEZL4VuQR9KA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SXorpMOKb5fjSL6TPlbjFk
+          claim_id: c_bhga1IUckaXzVmDAQZyVeP
+          source_id: s_oM0L6GM7g6RZIWeB7iHoen
+          stance: supports
+          locator: CBDB：兄弟 王濟（34667）之父／母 王文奎
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王麟 与 王濟 为同胞（CBDB 记「弟」），王濟 之父／母即 王麟 之父／母。
+          source:
+            id: s_oM0L6GM7g6RZIWeB7iHoen
+            source_type: api_record
+            title: 中国历代人物传记资料库：王麟（CBDB 270232）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270232&o=json
+            external_identifier: CBDB:270232
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_j2uDVAJvNRLEZL4VuQR9KA
+        status: active
+        display_name: 王麟
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +246,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_CF5LJP7gMSDjjxZDLTJKd5 | 王濟 | accepted |
+| children | p_4RKyBrxN2M8zWuVNpAHZBn | 王璉 | accepted |
+| children | p_aEF2o7vcG8pL19kp3xYCN2 | 王鳳 | accepted |
+| children | p_j2uDVAJvNRLEZL4VuQR9KA | 王麟 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鳳（CBDB 270233）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270233&o=json)
 - [中国历代人物传记资料库：王濟（CBDB 34667）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=34667&o=json)
+- [中国历代人物传记资料库：王璉（CBDB 270234）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270234&o=json)
+- [中国历代人物传记资料库：王麟（CBDB 270232）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270232&o=json)
 - [中国历代人物传记资料库：王文奎（CBDB 270229）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270229&o=json)

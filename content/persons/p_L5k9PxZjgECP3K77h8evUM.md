@@ -4,7 +4,7 @@ id: p_L5k9PxZjgECP3K77h8evUM
 status: active
 merged_into: null
 display_name: 王洽
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_OfRK2MKUl1Ek8oBLr44kXy
+        subject_person_id: p_5dcsDxDKEpK12rMtB5o7pc
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_L5k9PxZjgECP3K77h8evUM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_W0UJkECJIs-B1Fw7XeC11m
+          claim_id: c_OfRK2MKUl1Ek8oBLr44kXy
+          source_id: s_zDhdJOdKYbFJQR613OXTgt
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 20528 王洽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_zDhdJOdKYbFJQR613OXTgt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瀚（CBDB 10704）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10704&o=json
+            external_identifier: CBDB:10704
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5dcsDxDKEpK12rMtB5o7pc
+        status: active
+        display_name: 王瀚
+        merged_into_person_id: null
 ---
 
 # 王洽
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_5dcsDxDKEpK12rMtB5o7pc | 王瀚 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王瀚（CBDB 10704）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10704&o=json)
 - [中国历代人物传记资料库：王洽（CBDB 20528）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=20528&o=json)

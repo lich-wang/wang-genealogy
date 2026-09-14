@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王順媖
 cbdb_id: 522348
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ur4L6Ut-O8khtRPBuzI6Qp
+        subject_person_id: p_WvKfEJB5FudMr9CF2R37Ax
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AgMZD8G7EJ5K7P49yaqHgS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KtFNo33xEIK3iPMY6TWHwP
+          claim_id: c_ur4L6Ut-O8khtRPBuzI6Qp
+          source_id: s_hwG0bupYf_RGTvwLH8paOz
+          stance: supports
+          locator: CBDB：兄弟 王鳴盛（29898）之父／母 王尔达
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王順媖 与 王鳴盛 为同胞（CBDB 记「姊」），王鳴盛 之父／母即 王順媖 之父／母。
+          source:
+            id: s_hwG0bupYf_RGTvwLH8paOz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王順媖（CBDB 522348）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=522348&o=json
+            external_identifier: CBDB:522348
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_WvKfEJB5FudMr9CF2R37Ax
+        status: active
+        display_name: 王尔达
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_MqBUUBkQgXQAuRZ7Usa-9e
+        subject_person_id: p_AgMZD8G7EJ5K7P49yaqHgS
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ZyHjRaen1EDymdU7e3vR6e
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0TQLQT2KmxK9PvRE5IHR41
+          claim_id: c_MqBUUBkQgXQAuRZ7Usa-9e
+          source_id: s_hwG0bupYf_RGTvwLH8paOz
+          stance: supports
+          locator: CBDB 亲属：姊（KinPerson 29898 王鳴盛）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hwG0bupYf_RGTvwLH8paOz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王順媖（CBDB 522348）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=522348&o=json
+            external_identifier: CBDB:522348
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZyHjRaen1EDymdU7e3vR6e
+        status: active
+        display_name: 王鳴盛
+        merged_into_person_id: null
 ---
 
 # 王順媖
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WvKfEJB5FudMr9CF2R37Ax | 王尔达 | accepted |
+| other | p_ZyHjRaen1EDymdU7e3vR6e | 王鳴盛 | accepted |
 
 ## 外部来源
 

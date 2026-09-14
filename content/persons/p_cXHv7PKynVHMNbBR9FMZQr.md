@@ -4,7 +4,7 @@ id: p_cXHv7PKynVHMNbBR9FMZQr
 status: active
 merged_into: null
 display_name: 王化
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ZzsQRjpOQQ5dD2CazhfQaU
+        subject_person_id: p_CYU3Lmv2NgFNx8uqhmJMJn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cXHv7PKynVHMNbBR9FMZQr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TgRWXw7hMh-yo9AdLbDPrV
+          claim_id: c_ZzsQRjpOQQ5dD2CazhfQaU
+          source_id: s_OXRr7eeHJSX0y53-MgP2qP
+          stance: supports
+          locator: CBDB：兄弟 王俸（204993）之父／母 王周
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王化 与 王俸 为同胞（CBDB 记「弟」），王俸 之父／母即 王化 之父／母。
+          source:
+            id: s_OXRr7eeHJSX0y53-MgP2qP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王化（CBDB 326927）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326927&o=json
+            external_identifier: CBDB:326927
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CYU3Lmv2NgFNx8uqhmJMJn
+        status: active
+        display_name: 王周
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_0CUpJjcf3Ng9xH-xcjlpvu
+        subject_person_id: p_4j28cTB4FbkC46frs3J8PW
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_cXHv7PKynVHMNbBR9FMZQr
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6w3W-FWnfeEyJWzFof9zrm
+          claim_id: c_0CUpJjcf3Ng9xH-xcjlpvu
+          source_id: s_OXRr7eeHJSX0y53-MgP2qP
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204993 王俸）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_OXRr7eeHJSX0y53-MgP2qP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王化（CBDB 326927）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326927&o=json
+            external_identifier: CBDB:326927
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4j28cTB4FbkC46frs3J8PW
+        status: active
+        display_name: 王俸
+        merged_into_person_id: null
 ---
 
 # 王化
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_CYU3Lmv2NgFNx8uqhmJMJn | 王周 | accepted |
+| other | p_4j28cTB4FbkC46frs3J8PW | 王俸 | accepted |
 
 ## 外部来源
 

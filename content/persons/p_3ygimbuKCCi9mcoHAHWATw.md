@@ -4,7 +4,7 @@ id: p_3ygimbuKCCi9mcoHAHWATw
 status: active
 merged_into: null
 display_name: 王詩
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_HJHfRT1ngDtPe0GJePzfAS
+        subject_person_id: p_qqsY6t9Q8faV4F4CdLeZ5T
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3ygimbuKCCi9mcoHAHWATw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FCMCi5o6ZSqzCgzN_ogdvn
+          claim_id: c_HJHfRT1ngDtPe0GJePzfAS
+          source_id: s_LH8sek9tNQA8KHthkDhFGn
+          stance: supports
+          locator: CBDB：兄弟 王謠（205360）之父／母 王本堅
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王詩 与 王謠 为同胞（CBDB 记「兄」），王謠 之父／母即 王詩 之父／母。
+          source:
+            id: s_LH8sek9tNQA8KHthkDhFGn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王詩（CBDB 332115）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332115&o=json
+            external_identifier: CBDB:332115
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qqsY6t9Q8faV4F4CdLeZ5T
+        status: active
+        display_name: 王本堅
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Y9isMSH0A4JlsSL3HyJ5t8
+        subject_person_id: p_3ygimbuKCCi9mcoHAHWATw
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_UMUkjo8ahM3AKur1S9jMgA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_14Kez2OhRR5GN48qCJ0MUL
+          claim_id: c_Y9isMSH0A4JlsSL3HyJ5t8
+          source_id: s_LH8sek9tNQA8KHthkDhFGn
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205360 王謠）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_LH8sek9tNQA8KHthkDhFGn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王詩（CBDB 332115）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332115&o=json
+            external_identifier: CBDB:332115
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_UMUkjo8ahM3AKur1S9jMgA
+        status: active
+        display_name: 王謠
+        merged_into_person_id: null
 ---
 
 # 王詩
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_qqsY6t9Q8faV4F4CdLeZ5T | 王本堅 | accepted |
+| other | p_UMUkjo8ahM3AKur1S9jMgA | 王謠 | accepted |
 
 ## 外部来源
 

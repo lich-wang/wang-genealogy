@@ -4,7 +4,7 @@ id: p_r4wkj54F3BUe6EMK2HsfCh
 status: active
 merged_into: null
 display_name: 王璵
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_1QK-FEprzbHT9fG2LyfI0a
+        subject_person_id: p_WPx4EjSn2rHqao5Mj3syGV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_r4wkj54F3BUe6EMK2HsfCh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GRu60eW2a8lLmuwRtZAHsm
+          claim_id: c_1QK-FEprzbHT9fG2LyfI0a
+          source_id: s_NZvE1QBUdS7UE4zOlN--rx
+          stance: supports
+          locator: CBDB：兄弟 王璜（202374）之父／母 王安道
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王璵 与 王璜 为同胞（CBDB 记「兄」），王璜 之父／母即 王璵 之父／母。
+          source:
+            id: s_NZvE1QBUdS7UE4zOlN--rx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璵（CBDB 287106）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287106&o=json
+            external_identifier: CBDB:287106
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_WPx4EjSn2rHqao5Mj3syGV
+        status: active
+        display_name: 王安道
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_cftA8L0p7sSolwt97mpP-I
+        subject_person_id: p_hMbDUQB1GaYNgCJcxGcWWL
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_r4wkj54F3BUe6EMK2HsfCh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fdLPAH4sTsTpQAr9W-rqXt
+          claim_id: c_cftA8L0p7sSolwt97mpP-I
+          source_id: s_NZvE1QBUdS7UE4zOlN--rx
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202374 王璜）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_NZvE1QBUdS7UE4zOlN--rx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璵（CBDB 287106）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287106&o=json
+            external_identifier: CBDB:287106
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hMbDUQB1GaYNgCJcxGcWWL
+        status: active
+        display_name: 王璜
+        merged_into_person_id: null
 ---
 
 # 王璵
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_WPx4EjSn2rHqao5Mj3syGV | 王安道 | accepted |
+| other | p_hMbDUQB1GaYNgCJcxGcWWL | 王璜 | accepted |
 
 ## 外部来源
 

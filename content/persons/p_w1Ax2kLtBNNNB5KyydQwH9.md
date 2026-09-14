@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王懋誠
 cbdb_id: 337972
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_mwb5SLLbZZ2DfPm9G26ABH
+        subject_person_id: p_kGHRzXtUaYBnJ8wGBJV9RP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_w1Ax2kLtBNNNB5KyydQwH9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ejuNKg_sujaw3VYL2A71XR
+          claim_id: c_mwb5SLLbZZ2DfPm9G26ABH
+          source_id: s_MJd9tuxurWrD5gK-EOmKwy
+          stance: supports
+          locator: CBDB：兄弟 王懋德（205756）之父／母 王化
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王懋誠 与 王懋德 为同胞（CBDB 记「兄」），王懋德 之父／母即 王懋誠 之父／母。
+          source:
+            id: s_MJd9tuxurWrD5gK-EOmKwy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王懋誠（CBDB 337972）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337972&o=json
+            external_identifier: CBDB:337972
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kGHRzXtUaYBnJ8wGBJV9RP
+        status: active
+        display_name: 王化
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_T3Skf4nc1ZFv0utaqtNsX-
+        subject_person_id: p_aYr3EPQVvfC6NBKDGNLUTL
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_w1Ax2kLtBNNNB5KyydQwH9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ycc5iNmrpJbWDJkUPJeFC-
+          claim_id: c_T3Skf4nc1ZFv0utaqtNsX-
+          source_id: s_MJd9tuxurWrD5gK-EOmKwy
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205756 王懋德）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_MJd9tuxurWrD5gK-EOmKwy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王懋誠（CBDB 337972）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337972&o=json
+            external_identifier: CBDB:337972
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aYr3EPQVvfC6NBKDGNLUTL
+        status: active
+        display_name: 王懋德
+        merged_into_person_id: null
 ---
 
 # 王懋誠
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_kGHRzXtUaYBnJ8wGBJV9RP | 王化 | accepted |
+| other | p_aYr3EPQVvfC6NBKDGNLUTL | 王懋德 | accepted |
 
 ## 外部来源
 

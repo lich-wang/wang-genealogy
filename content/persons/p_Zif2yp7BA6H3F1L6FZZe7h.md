@@ -4,7 +4,7 @@ id: p_Zif2yp7BA6H3F1L6FZZe7h
 status: active
 merged_into: null
 display_name: 王倫
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_AFUnZA56j95UduCMD53scY
+        subject_person_id: p_zTj1eNcAG3BPvbBjiJxYtN
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Zif2yp7BA6H3F1L6FZZe7h
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oB2OanQMEoIFxIhzP-1hBu
+          claim_id: c_AFUnZA56j95UduCMD53scY
+          source_id: s_430t338dGk3ZE1V6hiz6Vv
+          stance: supports
+          locator: CBDB：兄弟 王俸（201386）之父／母 王文琮
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王倫 与 王俸 为同胞（CBDB 记「兄」），王俸 之父／母即 王倫 之父／母。
+          source:
+            id: s_430t338dGk3ZE1V6hiz6Vv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王倫（CBDB 271502）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271502&o=json
+            external_identifier: CBDB:271502
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zTj1eNcAG3BPvbBjiJxYtN
+        status: active
+        display_name: 王文琮
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_vLMEh3mRoPZ9tus2x9Txto
+        subject_person_id: p_Zif2yp7BA6H3F1L6FZZe7h
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dz9UYGUCmAwX3qeez8fHjJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ABEfz0kVzGGxlo_tqaaSPE
+          claim_id: c_vLMEh3mRoPZ9tus2x9Txto
+          source_id: s_430t338dGk3ZE1V6hiz6Vv
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201386 王俸）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_430t338dGk3ZE1V6hiz6Vv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王倫（CBDB 271502）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271502&o=json
+            external_identifier: CBDB:271502
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dz9UYGUCmAwX3qeez8fHjJ
+        status: active
+        display_name: 王俸
+        merged_into_person_id: null
 ---
 
 # 王倫
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_zTj1eNcAG3BPvbBjiJxYtN | 王文琮 | accepted |
+| other | p_dz9UYGUCmAwX3qeez8fHjJ | 王俸 | accepted |
 
 ## 外部来源
 

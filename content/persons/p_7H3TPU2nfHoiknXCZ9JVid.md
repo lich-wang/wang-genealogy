@@ -4,7 +4,7 @@ id: p_7H3TPU2nfHoiknXCZ9JVid
 status: active
 merged_into: null
 display_name: 王大化
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -196,7 +196,118 @@ relationships:
         display_name: 王璉
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_BqRVi0dxiCzaMhbCvmW-Kw
+        subject_person_id: p_7H3TPU2nfHoiknXCZ9JVid
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_NPLi2HFiZhDK282VGd46jY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_q3XH_0wjV0E9q0V4f4q63N
+          claim_id: c_BqRVi0dxiCzaMhbCvmW-Kw
+          source_id: s_2K3YROE0-yLdPMfVzV3wUf
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202118 王大化）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_2K3YROE0-yLdPMfVzV3wUf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大修（CBDB 283876）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283876&o=json
+            external_identifier: CBDB:283876
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NPLi2HFiZhDK282VGd46jY
+        status: active
+        display_name: 王大修
+        merged_into_person_id: null
+    - claim:
+        id: c_byhR8gIPfKGvzcYHgt7Sa5
+        subject_person_id: p_7H3TPU2nfHoiknXCZ9JVid
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dRe15voEEJZFKaomCMV1Cw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ljuT6ibr9UA79AzqOKMNLp
+          claim_id: c_byhR8gIPfKGvzcYHgt7Sa5
+          source_id: s_8b4_xKiHAmoKvHDCbABRJI
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202118 王大化）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_8b4_xKiHAmoKvHDCbABRJI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大作（CBDB 283879）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283879&o=json
+            external_identifier: CBDB:283879
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dRe15voEEJZFKaomCMV1Cw
+        status: active
+        display_name: 王大作
+        merged_into_person_id: null
+    - claim:
+        id: c_Nl16Zq45eXD_YxEFDdGx5h
+        subject_person_id: p_7H3TPU2nfHoiknXCZ9JVid
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xAYjbaFVRVvCF7WuadmZEt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_q2xL8SVBTjcdmyTutpKT0J
+          claim_id: c_Nl16Zq45eXD_YxEFDdGx5h
+          source_id: s_awRByq6c_4guEKyE_IF6Wv
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202118 王大化）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_awRByq6c_4guEKyE_IF6Wv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王大任（CBDB 283878）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283878&o=json
+            external_identifier: CBDB:283878
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xAYjbaFVRVvCF7WuadmZEt
+        status: active
+        display_name: 王大任
+        merged_into_person_id: null
 ---
 
 # 王大化
@@ -218,8 +329,14 @@ relationships:
 | parents | p_e5Sidd4uLDXKV7G8RopKVW | 王睿 | accepted |
 | spouses | p_7cPi3Pg4xUvnq8TGzpHCLb | 陳氏 | accepted |
 | ancestors | p_vfBzh9Tg5w9fbvKCkKYmL6 | 王璉 | accepted |
+| other | p_NPLi2HFiZhDK282VGd46jY | 王大修 | accepted |
+| other | p_dRe15voEEJZFKaomCMV1Cw | 王大作 | accepted |
+| other | p_xAYjbaFVRVvCF7WuadmZEt | 王大任 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：陳氏(王大化妻)（CBDB 283875）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283875&o=json)
 - [中国历代人物传记资料库：王大化（CBDB 202118）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202118&o=json)
+- [中国历代人物传记资料库：王大任（CBDB 283878）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283878&o=json)
+- [中国历代人物传记资料库：王大修（CBDB 283876）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283876&o=json)
+- [中国历代人物传记资料库：王大作（CBDB 283879）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283879&o=json)

@@ -4,7 +4,7 @@ id: p_Hjm8NW5pw2ZQ2iqr3EWYNs
 status: active
 merged_into: null
 display_name: 王龍友
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_DFB91ZMipzrQH8xcCwEdTW
+        subject_person_id: p_Hjm8NW5pw2ZQ2iqr3EWYNs
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_XCLa5C3r2Cp73DgJP5xw8d
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VFxGLnTfoA2Wfl6O0bmgU-
+          claim_id: c_DFB91ZMipzrQH8xcCwEdTW
+          source_id: s_iXHT8BarnBp18o-WvphBG4
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 38426 王龍澤）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_iXHT8BarnBp18o-WvphBG4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王龍友（CBDB 38424）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38424&o=json
+            external_identifier: CBDB:38424
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_XCLa5C3r2Cp73DgJP5xw8d
+        status: active
+        display_name: 王龍澤
+        merged_into_person_id: null
 ---
 
 # 王龍友
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_XCLa5C3r2Cp73DgJP5xw8d | 王龍澤 | accepted |
 
 ## 外部来源
 

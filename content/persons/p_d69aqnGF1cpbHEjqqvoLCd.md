@@ -4,7 +4,7 @@ id: p_d69aqnGF1cpbHEjqqvoLCd
 status: active
 merged_into: null
 display_name: 王道
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_mSG9RfvUo7dShXlgcIFv8o
+        subject_person_id: p_cieoMVnBzJB9M1g8jnDdbx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_d69aqnGF1cpbHEjqqvoLCd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ui-dJkMqBQ5li08pqYPEkf
+          claim_id: c_mSG9RfvUo7dShXlgcIFv8o
+          source_id: s_Jsgy7QST7D-BWptz10MEgJ
+          stance: supports
+          locator: CBDB：兄弟 王政（206851）之父／母 王廷言
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王道 与 王政 为同胞（CBDB 记「兄」），王政 之父／母即 王道 之父／母。
+          source:
+            id: s_Jsgy7QST7D-BWptz10MEgJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道（CBDB 224132）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224132&o=json
+            external_identifier: CBDB:224132
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cieoMVnBzJB9M1g8jnDdbx
+        status: active
+        display_name: 王廷言
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_wqYIL5MgZX9sUgCz7UtILK
+        subject_person_id: p_d69aqnGF1cpbHEjqqvoLCd
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_tEV3J8yPB3iuWF6kPPKTcz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_R7hEUkwDggg22pG4doeu3d
+          claim_id: c_wqYIL5MgZX9sUgCz7UtILK
+          source_id: s_Jsgy7QST7D-BWptz10MEgJ
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206851 王政）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Jsgy7QST7D-BWptz10MEgJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道（CBDB 224132）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=224132&o=json
+            external_identifier: CBDB:224132
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_tEV3J8yPB3iuWF6kPPKTcz
+        status: active
+        display_name: 王政
+        merged_into_person_id: null
 ---
 
 # 王道
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_cieoMVnBzJB9M1g8jnDdbx | 王廷言 | accepted |
+| other | p_tEV3J8yPB3iuWF6kPPKTcz | 王政 | accepted |
 
 ## 外部来源
 

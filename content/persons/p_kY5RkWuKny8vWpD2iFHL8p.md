@@ -4,7 +4,7 @@ id: p_kY5RkWuKny8vWpD2iFHL8p
 status: active
 merged_into: null
 display_name: 王佳
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_khepd5NqwNPlZD6vJq1yKz
+        subject_person_id: p_bVznNBP2hMh6tDWAzv1nG9
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_kY5RkWuKny8vWpD2iFHL8p
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YphX1lVU1P0uVcNRC9W29-
+          claim_id: c_khepd5NqwNPlZD6vJq1yKz
+          source_id: s_K73is2EYtmgwZ8JhtqTTSf
+          stance: supports
+          locator: CBDB：兄弟 王时中（68328）之父／母 王钻
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王佳 与 王时中 为同胞（CBDB 记「弟」），王时中 之父／母即 王佳 之父／母。
+          source:
+            id: s_K73is2EYtmgwZ8JhtqTTSf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王佳（CBDB 262453）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262453&o=json
+            external_identifier: CBDB:262453
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_bVznNBP2hMh6tDWAzv1nG9
+        status: active
+        display_name: 王钻
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_qcGEcapwPhhY9Rs3GPmaxM
+        subject_person_id: p_3SWv8LY5fsb1rb4ZwewsLo
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kY5RkWuKny8vWpD2iFHL8p
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2veqHBrnfyc9fSNqQgFByr
+          claim_id: c_qcGEcapwPhhY9Rs3GPmaxM
+          source_id: s_K73is2EYtmgwZ8JhtqTTSf
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 68328 王時中）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_K73is2EYtmgwZ8JhtqTTSf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王佳（CBDB 262453）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262453&o=json
+            external_identifier: CBDB:262453
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3SWv8LY5fsb1rb4ZwewsLo
+        status: active
+        display_name: 王时中
+        merged_into_person_id: null
 ---
 
 # 王佳
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_bVznNBP2hMh6tDWAzv1nG9 | 王钻 | accepted |
+| other | p_3SWv8LY5fsb1rb4ZwewsLo | 王时中 | accepted |
 
 ## 外部来源
 

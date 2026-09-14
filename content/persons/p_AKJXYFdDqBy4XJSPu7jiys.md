@@ -4,7 +4,7 @@ id: p_AKJXYFdDqBy4XJSPu7jiys
 status: active
 merged_into: null
 display_name: 王鍔
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_FvsZQFJqu40S1eBWlR16Rl
+        subject_person_id: p_gGs45wBLrz1PrQ7nJg3Ni8
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AKJXYFdDqBy4XJSPu7jiys
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-SFIBmUs6EwY7EBrEfzEUv
+          claim_id: c_FvsZQFJqu40S1eBWlR16Rl
+          source_id: s_oSLWl9cKrcIqRcBdgXSe6W
+          stance: supports
+          locator: CBDB：兄弟 王鎬（126866）之父／母 王璋
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鍔 与 王鎬 为同胞（CBDB 记「兄」），王鎬 之父／母即 王鍔 之父／母。
+          source:
+            id: s_oSLWl9cKrcIqRcBdgXSe6W
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鍔（CBDB 290160）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290160&o=json
+            external_identifier: CBDB:290160
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_gGs45wBLrz1PrQ7nJg3Ni8
+        status: active
+        display_name: 王璋
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_RQPSXvBU3cEq6v-Dd8quXs
+        subject_person_id: p_8fLyT7ZEVM5q6B59fHgKMb
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_AKJXYFdDqBy4XJSPu7jiys
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7NGaRUjnsuABYf87G34DTA
+          claim_id: c_RQPSXvBU3cEq6v-Dd8quXs
+          source_id: s_oSLWl9cKrcIqRcBdgXSe6W
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126866 王鎬）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_oSLWl9cKrcIqRcBdgXSe6W
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鍔（CBDB 290160）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290160&o=json
+            external_identifier: CBDB:290160
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8fLyT7ZEVM5q6B59fHgKMb
+        status: active
+        display_name: 王鎬
+        merged_into_person_id: null
 ---
 
 # 王鍔
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_gGs45wBLrz1PrQ7nJg3Ni8 | 王璋 | accepted |
+| other | p_8fLyT7ZEVM5q6B59fHgKMb | 王鎬 | accepted |
 
 ## 外部来源
 

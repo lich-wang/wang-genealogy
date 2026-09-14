@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王景深
 cbdb_id: 237267
-revision: 2
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -113,6 +113,117 @@ relationships:
         status: active
         display_name: 王訥
         merged_into_person_id: null
+    - claim:
+        id: c_JwkV8eObPKndVFA7_BoFXE
+        subject_person_id: p_vziev5XZKu5i15QAie4vMb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_793LbrFg7DY99VBty6JTnV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AkrxAULx4ObE0XM9I0qhAF
+          claim_id: c_JwkV8eObPKndVFA7_BoFXE
+          source_id: s_uc2RxfCDAnz7t_etB_OuYZ
+          stance: supports
+          locator: CBDB：兄弟 王訥（207872）之父／母 王景深
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王敏禮 与 王訥 为同胞（CBDB 记「弟」），王訥 之父／母即 王敏禮 之父／母。
+          source:
+            id: s_uc2RxfCDAnz7t_etB_OuYZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敏禮（CBDB 237272）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237272&o=json
+            external_identifier: CBDB:237272
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_793LbrFg7DY99VBty6JTnV
+        status: active
+        display_name: 王敏禮
+        merged_into_person_id: null
+    - claim:
+        id: c_Kc246bKAldWbdZxV89WcGp
+        subject_person_id: p_vziev5XZKu5i15QAie4vMb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_A1AYcvj4ZubEnPn3vW6v9a
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fIElAz8CyRjf3OA8h3qt19
+          claim_id: c_Kc246bKAldWbdZxV89WcGp
+          source_id: s_RhkMhqXxz-gnbSuCfdVc5U
+          stance: supports
+          locator: CBDB：兄弟 王訥（207872）之父／母 王景深
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王敏學 与 王訥 为同胞（CBDB 记「兄」），王訥 之父／母即 王敏學 之父／母。
+          source:
+            id: s_RhkMhqXxz-gnbSuCfdVc5U
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敏學（CBDB 237273）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237273&o=json
+            external_identifier: CBDB:237273
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_A1AYcvj4ZubEnPn3vW6v9a
+        status: active
+        display_name: 王敏學
+        merged_into_person_id: null
+    - claim:
+        id: c_Aw9OeUl62p46R9l0CaOS9l
+        subject_person_id: p_vziev5XZKu5i15QAie4vMb
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_uZv23AiDMRHnE4LSw9tig5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NU8SitISqQESN93WgCzPnP
+          claim_id: c_Aw9OeUl62p46R9l0CaOS9l
+          source_id: s_VoGQX7_wStH027YMg1hUfl
+          stance: supports
+          locator: CBDB：兄弟 王訥（207872）之父／母 王景深
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王敏吉 与 王訥 为同胞（CBDB 记「弟」），王訥 之父／母即 王敏吉 之父／母。
+          source:
+            id: s_VoGQX7_wStH027YMg1hUfl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敏吉（CBDB 237271）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237271&o=json
+            external_identifier: CBDB:237271
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_uZv23AiDMRHnE4LSw9tig5
+        status: active
+        display_name: 王敏吉
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -137,8 +248,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_ieK4DN3AcasJWKbAPHMC7t | 王訥 | accepted |
+| children | p_793LbrFg7DY99VBty6JTnV | 王敏禮 | accepted |
+| children | p_A1AYcvj4ZubEnPn3vW6v9a | 王敏學 | accepted |
+| children | p_uZv23AiDMRHnE4LSw9tig5 | 王敏吉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王景深（CBDB 237267）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237267&o=json)
+- [中国历代人物传记资料库：王敏吉（CBDB 237271）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237271&o=json)
+- [中国历代人物传记资料库：王敏禮（CBDB 237272）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237272&o=json)
+- [中国历代人物传记资料库：王敏學（CBDB 237273）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237273&o=json)
 - [中国历代人物传记资料库：王訥（CBDB 207872）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207872&o=json)

@@ -4,7 +4,7 @@ id: p_feVTPN7HCaS1BxqehN6dAD
 status: active
 merged_into: null
 display_name: 王度
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,118 @@ relationships:
         display_name: 王溥
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_yyUabHWBU-Yj1KS9jWb4tT
+        subject_person_id: p_DCmdGAKqHdH9yKYnhjgZf5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_feVTPN7HCaS1BxqehN6dAD
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iVubPKJX4GArFV_dBdYaRD
+          claim_id: c_yyUabHWBU-Yj1KS9jWb4tT
+          source_id: s_ckg7uJEWE_5mM0Zcq7h1QV
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206012 王度）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ckg7uJEWE_5mM0Zcq7h1QV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廉（CBDB 212090）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212090&o=json
+            external_identifier: CBDB:212090
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DCmdGAKqHdH9yKYnhjgZf5
+        status: active
+        display_name: 王廉
+        merged_into_person_id: null
+    - claim:
+        id: c_YWoUTakfuctoR1294dDCzg
+        subject_person_id: p_FwopUYPpXiD1ii9Zfys6n8
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_feVTPN7HCaS1BxqehN6dAD
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JOQh9CiXRvxZ-aSpd7osBP
+          claim_id: c_YWoUTakfuctoR1294dDCzg
+          source_id: s_9VXyz77IGEZMA4BYth4UXR
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206012 王度）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_9VXyz77IGEZMA4BYth4UXR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王庶（CBDB 212091）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212091&o=json
+            external_identifier: CBDB:212091
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FwopUYPpXiD1ii9Zfys6n8
+        status: active
+        display_name: 王庶
+        merged_into_person_id: null
+    - claim:
+        id: c_sawLnxK9VgYpMxX9-VwMoS
+        subject_person_id: p_feVTPN7HCaS1BxqehN6dAD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_i5BneAts78P9AvsH5HQobr
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4kdcb4aHYxSFdnXfZZgixX
+          claim_id: c_sawLnxK9VgYpMxX9-VwMoS
+          source_id: s_JG5nN4DhEM0h0Uik4Swxrm
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206012 王度）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_JG5nN4DhEM0h0Uik4Swxrm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王府（CBDB 212089）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212089&o=json
+            external_identifier: CBDB:212089
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_i5BneAts78P9AvsH5HQobr
+        status: active
+        display_name: 王府
+        merged_into_person_id: null
 ---
 
 # 王度
@@ -245,8 +356,14 @@ relationships:
 | spouses | p_1d3yFCQ4PyjGSXMCRimaCN | 呂氏 | accepted |
 | ancestors | p_m1y9NSRQiMJ2Dd2MjWHRAW | 王獻 | accepted |
 | ancestors | p_nNfNDpAPmaSEibBKUCYkZU | 王溥 | accepted |
+| other | p_DCmdGAKqHdH9yKYnhjgZf5 | 王廉 | accepted |
+| other | p_FwopUYPpXiD1ii9Zfys6n8 | 王庶 | accepted |
+| other | p_i5BneAts78P9AvsH5HQobr | 王府 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：呂氏(王度妻)（CBDB 212088）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212088&o=json)
 - [中国历代人物传记资料库：王度（CBDB 206012）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206012&o=json)
+- [中国历代人物传记资料库：王府（CBDB 212089）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212089&o=json)
+- [中国历代人物传记资料库：王廉（CBDB 212090）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212090&o=json)
+- [中国历代人物传记资料库：王庶（CBDB 212091）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=212091&o=json)

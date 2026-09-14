@@ -4,7 +4,7 @@ id: p_R8GNfiAEFUGPFE7VBAqAUP
 status: active
 merged_into: null
 display_name: 王繹
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -166,7 +166,44 @@ relationships:
         status: active
         display_name: 王安仁
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_OsTyQxqLV0xvYh82URCome
+        subject_person_id: p_R8GNfiAEFUGPFE7VBAqAUP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BE7ox4WSK5vKnZ76TecR3q
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_j7LZ9rNhVn1fOjqvngUqbu
+          claim_id: c_OsTyQxqLV0xvYh82URCome
+          source_id: s_t3sBzL3hY007ajRvpQPQxO
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 22137）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_t3sBzL3hY007ajRvpQPQxO
+            source_type: api_record
+            title: 中国历代人物传记资料库：王裳（CBDB 22139）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22139&o=json
+            external_identifier: CBDB:22139
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BE7ox4WSK5vKnZ76TecR3q
+        status: active
+        display_name: 王裳
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -256,6 +293,7 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_2iVh2dnQYp8qHcVzsHx44b | 王安仁 | accepted |
+| children | p_BE7ox4WSK5vKnZ76TecR3q | 王裳 | accepted |
 | descendants | p_2nFsisn71GnR9QLU7v1VVj | 王尚廉 | accepted |
 | descendants | p_H8dz2RG3ABTJQLSA8aM41f | 王尚正 | accepted |
 
@@ -263,4 +301,5 @@ relationships:
 
 - [中国历代人物传记资料库：王安仁（CBDB 22136）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22136&o=json)
 - [中国历代人物传记资料库：王尚廉（CBDB 22143）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22143&o=json)
+- [中国历代人物传记资料库：王裳（CBDB 22139）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22139&o=json)
 - [中国历代人物传记资料库：王繹（CBDB 22137）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22137&o=json)

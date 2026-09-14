@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王毓陽
 cbdb_id: 126796
-revision: 3
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -194,7 +194,81 @@ relationships:
         display_name: 王智才
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_0mOiktUjO_ejYuso2ZRwel
+        subject_person_id: p_CLbsjyXZyJ1cmF54gMKDpM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gsLUVjMxPfhNttK9JjrR4B
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gvzzrij8yt3huuSclKFJTa
+          claim_id: c_0mOiktUjO_ejYuso2ZRwel
+          source_id: s_g9zIXTE85vCnqQlTdaG4VW
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126796 王毓陽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_g9zIXTE85vCnqQlTdaG4VW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王矧陽（CBDB 214165）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214165&o=json
+            external_identifier: CBDB:214165
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CLbsjyXZyJ1cmF54gMKDpM
+        status: active
+        display_name: 王矧陽
+        merged_into_person_id: null
+    - claim:
+        id: c_RX4fym4qUeJu8WpasTW4Fv
+        subject_person_id: p_MBF56sJKqhemwKwKyfgXLw
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gsLUVjMxPfhNttK9JjrR4B
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DrqTs0WeL8xzcvY_S3D0P7
+          claim_id: c_RX4fym4qUeJu8WpasTW4Fv
+          source_id: s_xzgBqddvEWUcYQFlWYExFQ
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126796 王毓陽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_xzgBqddvEWUcYQFlWYExFQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王脁陽（CBDB 214164）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214164&o=json
+            external_identifier: CBDB:214164
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MBF56sJKqhemwKwKyfgXLw
+        status: active
+        display_name: 王脁陽
+        merged_into_person_id: null
 ---
 
 # 王毓陽
@@ -215,9 +289,13 @@ relationships:
 | parents | p_4BZEjb4RmSoM8g2SGinzYD | 王訓賢 | accepted |
 | ancestors | p_gnsgugu5diMHTTVdvydt1d | 王相 | accepted |
 | ancestors | p_2Z8fhEdQR8uQZfBp4A6Q7i | 王智才 | accepted |
+| other | p_CLbsjyXZyJ1cmF54gMKDpM | 王矧陽 | accepted |
+| other | p_MBF56sJKqhemwKwKyfgXLw | 王脁陽 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王矧陽（CBDB 214165）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214165&o=json)
+- [中国历代人物传记资料库：王脁陽（CBDB 214164）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214164&o=json)
 - [中国历代人物传记资料库：王相（CBDB 214158）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214158&o=json)
 - [中国历代人物传记资料库：王訓賢（CBDB 214160）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=214160&o=json)
 - [中国历代人物传记资料库：王毓陽（CBDB 126796）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126796&o=json)

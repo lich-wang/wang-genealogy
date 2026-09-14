@@ -4,7 +4,7 @@ id: p_WPx4EjSn2rHqao5Mj3syGV
 status: active
 merged_into: null
 display_name: 王安道
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,80 @@ relationships:
         status: active
         display_name: 王璜
         merged_into_person_id: null
+    - claim:
+        id: c_dwCFl91cF4Dh0XRggm6Tj-
+        subject_person_id: p_WPx4EjSn2rHqao5Mj3syGV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_fkF8hzVLW2Qoy8U6zqLToC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6IDARcVgH8raH89IMmwyXZ
+          claim_id: c_dwCFl91cF4Dh0XRggm6Tj-
+          source_id: s_jKjUNCED_eZS4YaAfpizqP
+          stance: supports
+          locator: CBDB：兄弟 王璜（202374）之父／母 王安道
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王璽 与 王璜 为同胞（CBDB 记「兄」），王璜 之父／母即 王璽 之父／母。
+          source:
+            id: s_jKjUNCED_eZS4YaAfpizqP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璽（CBDB 287105）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287105&o=json
+            external_identifier: CBDB:287105
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fkF8hzVLW2Qoy8U6zqLToC
+        status: active
+        display_name: 王璽
+        merged_into_person_id: null
+    - claim:
+        id: c_1QK-FEprzbHT9fG2LyfI0a
+        subject_person_id: p_WPx4EjSn2rHqao5Mj3syGV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_r4wkj54F3BUe6EMK2HsfCh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GRu60eW2a8lLmuwRtZAHsm
+          claim_id: c_1QK-FEprzbHT9fG2LyfI0a
+          source_id: s_NZvE1QBUdS7UE4zOlN--rx
+          stance: supports
+          locator: CBDB：兄弟 王璜（202374）之父／母 王安道
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王璵 与 王璜 为同胞（CBDB 记「兄」），王璜 之父／母即 王璵 之父／母。
+          source:
+            id: s_NZvE1QBUdS7UE4zOlN--rx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璵（CBDB 287106）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287106&o=json
+            external_identifier: CBDB:287106
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_r4wkj54F3BUe6EMK2HsfCh
+        status: active
+        display_name: 王璵
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +209,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_hMbDUQB1GaYNgCJcxGcWWL | 王璜 | accepted |
+| children | p_fkF8hzVLW2Qoy8U6zqLToC | 王璽 | accepted |
+| children | p_r4wkj54F3BUe6EMK2HsfCh | 王璵 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王安道（CBDB 287102）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287102&o=json)
 - [中国历代人物传记资料库：王璜（CBDB 202374）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202374&o=json)
+- [中国历代人物传记资料库：王璽（CBDB 287105）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287105&o=json)
+- [中国历代人物传记资料库：王璵（CBDB 287106）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287106&o=json)

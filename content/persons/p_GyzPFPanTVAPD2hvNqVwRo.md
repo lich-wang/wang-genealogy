@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王良啟
 cbdb_id: 273654
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -81,7 +81,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_6hkX8WFb54_lRLbx934qhF
+        subject_person_id: p_GyzPFPanTVAPD2hvNqVwRo
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_d6n2jnjPLQ88RNa223JnPk
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vfknJ3F4K8y1N9BYaXLBQ-
+          claim_id: c_6hkX8WFb54_lRLbx934qhF
+          source_id: s_5F_-ybCctaft5n6AqsuJeL
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126529 王良佐）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_5F_-ybCctaft5n6AqsuJeL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王良啟（CBDB 273654）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273654&o=json
+            external_identifier: CBDB:273654
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_d6n2jnjPLQ88RNa223JnPk
+        status: active
+        display_name: 王良佐
+        merged_into_person_id: null
 ---
 
 # 王良啟
@@ -99,6 +136,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_d6n2jnjPLQ88RNa223JnPk | 王良佐 | accepted |
 
 ## 外部来源
 

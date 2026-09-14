@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王正容
 cbdb_id: 203299
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,44 @@ relationships:
         display_name: 王尚志
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_c3zSXBikucq08YCPoBC-su
+        subject_person_id: p_BZLwNz8UohpakiqfGWVWHk
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qCuDCmn4tyL67raACBzQpT
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fzQ-uGmOaHEu6psp_GDuTj
+          claim_id: c_c3zSXBikucq08YCPoBC-su
+          source_id: s_ftcyXW7ZnikBWpHtC0plW4
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203299 王正容）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ftcyXW7ZnikBWpHtC0plW4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正色（CBDB 302738）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302738&o=json
+            external_identifier: CBDB:302738
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qCuDCmn4tyL67raACBzQpT
+        status: active
+        display_name: 王正色
+        merged_into_person_id: null
 ---
 
 # 王正容
@@ -257,6 +294,7 @@ relationships:
 | parents | p_2W13YFD4n2ezyjYiLrXP91 | 王克勤 | accepted |
 | ancestors | p_GGCaECuJCMzjCXy5KJMYEQ | 王應軫 | accepted |
 | ancestors | p_gGh9F3FDDzRxJFGB6vA1Sx | 王尚志 | accepted |
+| other | p_qCuDCmn4tyL67raACBzQpT | 王正色 | accepted |
 
 ## 外部来源
 
@@ -264,3 +302,4 @@ relationships:
 - [中国历代人物传记资料库：王尚志（CBDB 302731）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302731&o=json)
 - [中国历代人物传记资料库：王應軫（CBDB 302732）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302732&o=json)
 - [中国历代人物传记资料库：王正容（CBDB 203299）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203299&o=json)
+- [中国历代人物传记资料库：王正色（CBDB 302738）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302738&o=json)

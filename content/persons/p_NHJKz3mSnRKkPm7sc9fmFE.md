@@ -4,7 +4,7 @@ id: p_NHJKz3mSnRKkPm7sc9fmFE
 status: active
 merged_into: null
 display_name: 王玘
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_JOxBBXP7aMDgFLuobCN9Rw
+        subject_person_id: p_L1mTZr3NQ9UFGyoNN92bJE
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NHJKz3mSnRKkPm7sc9fmFE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1YyFZedSI6diI8ottnysfO
+          claim_id: c_JOxBBXP7aMDgFLuobCN9Rw
+          source_id: s_g6JvpgqelkchXzbH2edng_
+          stance: supports
+          locator: CBDB：兄弟 王臣（126514）之父／母 王威
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王玘 与 王臣 为同胞（CBDB 记「弟」），王臣 之父／母即 王玘 之父／母。
+          source:
+            id: s_g6JvpgqelkchXzbH2edng_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玘（CBDB 337233）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337233&o=json
+            external_identifier: CBDB:337233
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_L1mTZr3NQ9UFGyoNN92bJE
+        status: active
+        display_name: 王威
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_kSJrl4MZXcOD8TAPH0rjDw
+        subject_person_id: p_BMNf3Y1e3GX9M1tCr78uZv
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_NHJKz3mSnRKkPm7sc9fmFE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_c4k08lExULsiaBFfmU9UP9
+          claim_id: c_kSJrl4MZXcOD8TAPH0rjDw
+          source_id: s_g6JvpgqelkchXzbH2edng_
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126514 王臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_g6JvpgqelkchXzbH2edng_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玘（CBDB 337233）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=337233&o=json
+            external_identifier: CBDB:337233
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BMNf3Y1e3GX9M1tCr78uZv
+        status: active
+        display_name: 王臣
+        merged_into_person_id: null
 ---
 
 # 王玘
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_L1mTZr3NQ9UFGyoNN92bJE | 王威 | accepted |
+| other | p_BMNf3Y1e3GX9M1tCr78uZv | 王臣 | accepted |
 
 ## 外部来源
 

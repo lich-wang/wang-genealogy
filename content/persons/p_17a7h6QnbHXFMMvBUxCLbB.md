@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王子韶
 cbdb_id: 7383
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -118,7 +118,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_FjteFGpTvdzug-L0AZTOpf
+        subject_person_id: p_17a7h6QnbHXFMMvBUxCLbB
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gtmtpy5hiB7XQCfMFZ6qcX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_8fkFjimUvNPCTKHrrmgu0X
+          claim_id: c_FjteFGpTvdzug-L0AZTOpf
+          source_id: s_iSadKlHuAohxEGBKqxuluK
+          stance: supports
+          locator: CBDB 亲属：兄弟（KinPerson 7383 王子韶）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_iSadKlHuAohxEGBKqxuluK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子京（CBDB 1909）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1909&o=json
+            external_identifier: CBDB:1909
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_gtmtpy5hiB7XQCfMFZ6qcX
+        status: active
+        display_name: 王子京
+        merged_into_person_id: null
 ---
 
 # 王子韶
@@ -137,8 +174,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_CqWcVYSg6WmAq3fUD5F7RT | 王相 | accepted |
+| other | p_gtmtpy5hiB7XQCfMFZ6qcX | 王子京 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王相（CBDB 119723）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119723&o=json)
+- [中国历代人物传记资料库：王子京（CBDB 1909）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1909&o=json)
 - [中国历代人物传记资料库：王子韶（CBDB 7383）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7383&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王汝賓
 cbdb_id: 202144
-revision: 4
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,81 @@ relationships:
         display_name: 王震
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ej1jKKDarF8_Bwlh71SNIA
+        subject_person_id: p_FoQGejSJMCnokfAieKAUXg
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gqRqyCB9SbCQ4hrRNwLZxF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Lpdfq66tE2RHrUTV06Oy8f
+          claim_id: c_ej1jKKDarF8_Bwlh71SNIA
+          source_id: s_104QukXz0x1Ju6BLDbiPtC
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202144 王汝賓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_104QukXz0x1Ju6BLDbiPtC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝臣（CBDB 284226）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284226&o=json
+            external_identifier: CBDB:284226
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FoQGejSJMCnokfAieKAUXg
+        status: active
+        display_name: 王汝臣
+        merged_into_person_id: null
+    - claim:
+        id: c_pfx4f7uJk2GeMsxHiisvxS
+        subject_person_id: p_WHTWDjMywuaxpNQ8W566da
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gqRqyCB9SbCQ4hrRNwLZxF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KeyHnAS4aHvVWnVx3lkNzC
+          claim_id: c_pfx4f7uJk2GeMsxHiisvxS
+          source_id: s_xrhfXyagBmzC-HTo4W1NnW
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202144 王汝賓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_xrhfXyagBmzC-HTo4W1NnW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝浙（CBDB 284227）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284227&o=json
+            external_identifier: CBDB:284227
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_WHTWDjMywuaxpNQ8W566da
+        status: active
+        display_name: 王汝浙
+        merged_into_person_id: null
 ---
 
 # 王汝賓
@@ -257,10 +331,14 @@ relationships:
 | parents | p_PNivfKUTmvFDeQrEL92ALD | 王欽 | accepted |
 | ancestors | p_3r8CHHsTK1Q9tE6fXbkey5 | 王城 | accepted |
 | ancestors | p_RRRWc7nkkvNmsosYXGFWNo | 王震 | accepted |
+| other | p_FoQGejSJMCnokfAieKAUXg | 王汝臣 | accepted |
+| other | p_WHTWDjMywuaxpNQ8W566da | 王汝浙 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王城（CBDB 284221）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284221&o=json)
 - [中国历代人物传记资料库：王欽（CBDB 284223）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284223&o=json)
 - [中国历代人物传记资料库：王汝賓（CBDB 202144）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202144&o=json)
+- [中国历代人物传记资料库：王汝臣（CBDB 284226）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284226&o=json)
+- [中国历代人物传记资料库：王汝浙（CBDB 284227）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284227&o=json)
 - [中国历代人物传记资料库：王震（CBDB 284220）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284220&o=json)

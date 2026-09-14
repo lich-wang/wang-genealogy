@@ -4,7 +4,7 @@ id: p_jzBh6L6KhRH4LcPSXE67mz
 status: active
 merged_into: null
 display_name: 王蘭
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,117 @@ relationships:
         status: active
         display_name: 王珣
         merged_into_person_id: null
+    - claim:
+        id: c_UjaXcDVzth-AIS73tgLg2K
+        subject_person_id: p_jzBh6L6KhRH4LcPSXE67mz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8jy2qxnMWQ92n5o1AN5Ns7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-mpZZaGmtxrub0Jigjo07R
+          claim_id: c_UjaXcDVzth-AIS73tgLg2K
+          source_id: s_1t-UNS5322C-l8vv2Pch61
+          stance: supports
+          locator: CBDB：兄弟 王珣（126640）之父／母 王蘭
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王珉 与 王珣 为同胞（CBDB 记「兄」），王珣 之父／母即 王珉 之父／母。
+          source:
+            id: s_1t-UNS5322C-l8vv2Pch61
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珉（CBDB 243636）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243636&o=json
+            external_identifier: CBDB:243636
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8jy2qxnMWQ92n5o1AN5Ns7
+        status: active
+        display_name: 王珉
+        merged_into_person_id: null
+    - claim:
+        id: c_0is9wHQmjuuhdRjImuzwrU
+        subject_person_id: p_jzBh6L6KhRH4LcPSXE67mz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MXHMVs8ics3xfYEUkM1Pnx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_B4a5jEFHK1EtyV5p7wcPu4
+          claim_id: c_0is9wHQmjuuhdRjImuzwrU
+          source_id: s_YCKQPILmnxUFqwn7JfqLGM
+          stance: supports
+          locator: CBDB：兄弟 王珣（126640）之父／母 王蘭
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王璉 与 王珣 为同胞（CBDB 记「弟」），王珣 之父／母即 王璉 之父／母。
+          source:
+            id: s_YCKQPILmnxUFqwn7JfqLGM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璉（CBDB 243634）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243634&o=json
+            external_identifier: CBDB:243634
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MXHMVs8ics3xfYEUkM1Pnx
+        status: active
+        display_name: 王璉
+        merged_into_person_id: null
+    - claim:
+        id: c_v-LbPCFblBWAwg4SF7q5Ux
+        subject_person_id: p_jzBh6L6KhRH4LcPSXE67mz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_wpcmeEL2VD4KeenDBvWQM8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vbTx_Rb52Y7qnF6iBqwI0Y
+          claim_id: c_v-LbPCFblBWAwg4SF7q5Ux
+          source_id: s_NR4Vuh_JMf_ACu11A3MWa1
+          stance: supports
+          locator: CBDB：兄弟 王珣（126640）之父／母 王蘭
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王玘 与 王珣 为同胞（CBDB 记「弟」），王珣 之父／母即 王玘 之父／母。
+          source:
+            id: s_NR4Vuh_JMf_ACu11A3MWa1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玘（CBDB 243635）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243635&o=json
+            external_identifier: CBDB:243635
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wpcmeEL2VD4KeenDBvWQM8
+        status: active
+        display_name: 王玘
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -150,8 +261,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_skE22yKfDfbLErvfJ74UoM | 王珣 | accepted |
+| children | p_8jy2qxnMWQ92n5o1AN5Ns7 | 王珉 | accepted |
+| children | p_MXHMVs8ics3xfYEUkM1Pnx | 王璉 | accepted |
+| children | p_wpcmeEL2VD4KeenDBvWQM8 | 王玘 | accepted |
 | ancestors | p_PvJSWUenksG3qVpCHLqjhz | 王麒 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王蘭（CBDB 243628）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243628&o=json)
+- [中国历代人物传记资料库：王璉（CBDB 243634）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243634&o=json)
+- [中国历代人物传记资料库：王珉（CBDB 243636）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243636&o=json)
+- [中国历代人物传记资料库：王玘（CBDB 243635）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243635&o=json)

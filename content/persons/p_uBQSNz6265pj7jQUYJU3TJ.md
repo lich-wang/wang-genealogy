@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王孫蔚
 cbdb_id: 69343
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -243,7 +243,44 @@ relationships:
         display_name: 王學博
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_NzEy4kOQpgvPr2_71YLepM
+        subject_person_id: p_sQ4rNhd6jagMcrL9HLTeu8
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_uBQSNz6265pj7jQUYJU3TJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bRvZFlmx1bTI9I60ZEshlo
+          claim_id: c_NzEy4kOQpgvPr2_71YLepM
+          source_id: s_m5yAUq2qMQ2t1_CnQaZFC1
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 69343 王孫蔚）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_m5yAUq2qMQ2t1_CnQaZFC1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王孫麟（CBDB 526878）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526878&o=json
+            external_identifier: CBDB:526878
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_sQ4rNhd6jagMcrL9HLTeu8
+        status: active
+        display_name: 王孫麟
+        merged_into_person_id: null
 ---
 
 # 王孫蔚
@@ -265,9 +302,11 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_LDAvDXeJSzwR3HFvGsLwNg | 王增生 | accepted |
 | ancestors | p_TakcRWXnJE412K8HMB56wq | 王學博 | accepted |
+| other | p_sQ4rNhd6jagMcrL9HLTeu8 | 王孫麟 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王孫麟（CBDB 526878）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526878&o=json)
 - [中国历代人物传记资料库：王孫蔚（CBDB 69343）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69343&o=json)
 - [中国历代人物传记资料库：王學博（CBDB 526880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526880&o=json)
 - [中国历代人物传记资料库：王增生（CBDB 526879）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526879&o=json)

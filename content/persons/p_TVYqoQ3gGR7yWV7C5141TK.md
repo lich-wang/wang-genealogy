@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王廷遷
 cbdb_id: 325995
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_r62MBIKdTyzxZprEzbv4nQ
+        subject_person_id: p_CF5LJP7gMSDjjxZDLTJKd5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_TVYqoQ3gGR7yWV7C5141TK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_c8WhYi4DH4NrHxLqd7jxOl
+          claim_id: c_r62MBIKdTyzxZprEzbv4nQ
+          source_id: s_xHbpWeNVaORA8C0lslXVDh
+          stance: supports
+          locator: CBDB：兄弟 王廷瞻（34669）之父／母 王濟
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王廷遷 与 王廷瞻 为同胞（CBDB 记「兄」），王廷瞻 之父／母即 王廷遷 之父／母。
+          source:
+            id: s_xHbpWeNVaORA8C0lslXVDh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷遷（CBDB 325995）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325995&o=json
+            external_identifier: CBDB:325995
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CF5LJP7gMSDjjxZDLTJKd5
+        status: active
+        display_name: 王濟
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_hrAHXPPfDUs9cDMgCL8pmY
+        subject_person_id: p_TVYqoQ3gGR7yWV7C5141TK
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_yJdXEyhNkYGEWdnouNB9Xu
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ziDK8OQ8G0HZHUDTONgm-9
+          claim_id: c_hrAHXPPfDUs9cDMgCL8pmY
+          source_id: s_xHbpWeNVaORA8C0lslXVDh
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 34669 王廷瞻）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_xHbpWeNVaORA8C0lslXVDh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷遷（CBDB 325995）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=325995&o=json
+            external_identifier: CBDB:325995
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_yJdXEyhNkYGEWdnouNB9Xu
+        status: active
+        display_name: 王廷瞻
+        merged_into_person_id: null
 ---
 
 # 王廷遷
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_CF5LJP7gMSDjjxZDLTJKd5 | 王濟 | accepted |
+| other | p_yJdXEyhNkYGEWdnouNB9Xu | 王廷瞻 | accepted |
 
 ## 外部来源
 

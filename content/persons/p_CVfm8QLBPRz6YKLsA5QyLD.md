@@ -4,7 +4,7 @@ id: p_CVfm8QLBPRz6YKLsA5QyLD
 status: active
 merged_into: null
 display_name: 王志伊
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Bdzjjl7jj2ehn7f8AcZsmM
+        subject_person_id: p_cUEh25oPwuAacU7D2hTAPV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CVfm8QLBPRz6YKLsA5QyLD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kp_PqalcF6aUMJXY5_-GFl
+          claim_id: c_Bdzjjl7jj2ehn7f8AcZsmM
+          source_id: s_RxEfhC144FlQB0iiWqlo9x
+          stance: supports
+          locator: CBDB：兄弟 王志堅（126537）之父／母 王臨亨
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王志伊 与 王志堅 为同胞（CBDB 记「兄」），王志堅 之父／母即 王志伊 之父／母。
+          source:
+            id: s_RxEfhC144FlQB0iiWqlo9x
+            source_type: api_record
+            title: 中国历代人物传记资料库：王志伊（CBDB 235157）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235157&o=json
+            external_identifier: CBDB:235157
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cUEh25oPwuAacU7D2hTAPV
+        status: active
+        display_name: 王臨亨
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_zzKHoCA6XMhqXjcK-U_XfY
+        subject_person_id: p_CVfm8QLBPRz6YKLsA5QyLD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_WP2TCGKdqkuWFjHVRTiLcW
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NGaH6b5WaS0CgT7tNN7xkC
+          claim_id: c_zzKHoCA6XMhqXjcK-U_XfY
+          source_id: s_RxEfhC144FlQB0iiWqlo9x
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126537 王志堅）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_RxEfhC144FlQB0iiWqlo9x
+            source_type: api_record
+            title: 中国历代人物传记资料库：王志伊（CBDB 235157）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=235157&o=json
+            external_identifier: CBDB:235157
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_WP2TCGKdqkuWFjHVRTiLcW
+        status: active
+        display_name: 王志堅
+        merged_into_person_id: null
 ---
 
 # 王志伊
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_cUEh25oPwuAacU7D2hTAPV | 王臨亨 | accepted |
+| other | p_WP2TCGKdqkuWFjHVRTiLcW | 王志堅 | accepted |
 
 ## 外部来源
 

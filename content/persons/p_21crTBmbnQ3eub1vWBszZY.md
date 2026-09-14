@@ -4,7 +4,7 @@ id: p_21crTBmbnQ3eub1vWBszZY
 status: active
 merged_into: null
 display_name: 王愛民
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_RJCuRkzjOPoV7yhkME5-sA
+        subject_person_id: p_rzdGCJdbAnivH2NuEMbZHX
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_21crTBmbnQ3eub1vWBszZY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_42r6yFcRqBzJp2l961BevE
+          claim_id: c_RJCuRkzjOPoV7yhkME5-sA
+          source_id: s_bXvnpNdUZO7bV5v6HlrKeI
+          stance: supports
+          locator: CBDB：兄弟 王恩民（205656）之父／母 王世學
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王愛民 与 王恩民 为同胞（CBDB 记「兄」），王恩民 之父／母即 王愛民 之父／母。
+          source:
+            id: s_bXvnpNdUZO7bV5v6HlrKeI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王愛民（CBDB 336587）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336587&o=json
+            external_identifier: CBDB:336587
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rzdGCJdbAnivH2NuEMbZHX
+        status: active
+        display_name: 王世學
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_vV2AWLbXe9VljMi8CNbxCF
+        subject_person_id: p_21crTBmbnQ3eub1vWBszZY
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_3iyxEBFwgRpJCsXBwB3FWC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QvKMI3-O-tEVZJFCSuh5BF
+          claim_id: c_vV2AWLbXe9VljMi8CNbxCF
+          source_id: s_bXvnpNdUZO7bV5v6HlrKeI
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205656 王恩民）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_bXvnpNdUZO7bV5v6HlrKeI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王愛民（CBDB 336587）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=336587&o=json
+            external_identifier: CBDB:336587
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3iyxEBFwgRpJCsXBwB3FWC
+        status: active
+        display_name: 王恩民
+        merged_into_person_id: null
 ---
 
 # 王愛民
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_rzdGCJdbAnivH2NuEMbZHX | 王世學 | accepted |
+| other | p_3iyxEBFwgRpJCsXBwB3FWC | 王恩民 | accepted |
 
 ## 外部来源
 

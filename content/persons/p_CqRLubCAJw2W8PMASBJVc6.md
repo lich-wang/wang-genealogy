@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王巽言
 cbdb_id: 321239
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_k3IHtRN0zgaiz-ERglZvn8
+        subject_person_id: p_PRKaEr8menL16CrSqqwL5J
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CqRLubCAJw2W8PMASBJVc6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lnOw5mM4JhOTmUD1Tigiet
+          claim_id: c_k3IHtRN0zgaiz-ERglZvn8
+          source_id: s_Tli5fbZc67TWwuo1x2LMyN
+          stance: supports
+          locator: CBDB：兄弟 王嘉言（204590）之父／母 王濂
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王巽言 与 王嘉言 为同胞（CBDB 记「兄」），王嘉言 之父／母即 王巽言 之父／母。
+          source:
+            id: s_Tli5fbZc67TWwuo1x2LMyN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王巽言（CBDB 321239）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=321239&o=json
+            external_identifier: CBDB:321239
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PRKaEr8menL16CrSqqwL5J
+        status: active
+        display_name: 王濂
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ZxOheO4O4cD1X94poy6Cx7
+        subject_person_id: p_CqRLubCAJw2W8PMASBJVc6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_FZsZBsVgtXYBR7R5He9YWs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gdm178j5KmRhO1Zbx9np-7
+          claim_id: c_ZxOheO4O4cD1X94poy6Cx7
+          source_id: s_Tli5fbZc67TWwuo1x2LMyN
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204590 王嘉言）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Tli5fbZc67TWwuo1x2LMyN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王巽言（CBDB 321239）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=321239&o=json
+            external_identifier: CBDB:321239
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FZsZBsVgtXYBR7R5He9YWs
+        status: active
+        display_name: 王嘉言
+        merged_into_person_id: null
 ---
 
 # 王巽言
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_PRKaEr8menL16CrSqqwL5J | 王濂 | accepted |
+| other | p_FZsZBsVgtXYBR7R5He9YWs | 王嘉言 | accepted |
 
 ## 外部来源
 

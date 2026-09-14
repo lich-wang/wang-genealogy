@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王正忞
 cbdb_id: 288246
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_MYe6vSgsEhi6d-7BnWnXrB
+        subject_person_id: p_HjMSGWaaseFRH9Rnqfpx53
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_bgApJpgEHo6suKrC5oUDFS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_alNfEbDiVqXZk_BubJqKwg
+          claim_id: c_MYe6vSgsEhi6d-7BnWnXrB
+          source_id: s_0dqdOeHpYx5R-Uv3Xm1_K_
+          stance: supports
+          locator: CBDB：兄弟 王正思（202442）之父／母 王守礼
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王正忞 与 王正思 为同胞（CBDB 记「兄」），王正思 之父／母即 王正忞 之父／母。
+          source:
+            id: s_0dqdOeHpYx5R-Uv3Xm1_K_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正忞（CBDB 288246）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288246&o=json
+            external_identifier: CBDB:288246
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HjMSGWaaseFRH9Rnqfpx53
+        status: active
+        display_name: 王守礼
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_cV_2m4HXaDCLcpv8hRGyyU
+        subject_person_id: p_bgApJpgEHo6suKrC5oUDFS
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qfyAqTA3PGUUXcgAsCUJEh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_BSYbQCccJjZAceoKox-AIs
+          claim_id: c_cV_2m4HXaDCLcpv8hRGyyU
+          source_id: s_0dqdOeHpYx5R-Uv3Xm1_K_
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202442 王正思）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0dqdOeHpYx5R-Uv3Xm1_K_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王正忞（CBDB 288246）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288246&o=json
+            external_identifier: CBDB:288246
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qfyAqTA3PGUUXcgAsCUJEh
+        status: active
+        display_name: 王正思
+        merged_into_person_id: null
 ---
 
 # 王正忞
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_HjMSGWaaseFRH9Rnqfpx53 | 王守礼 | accepted |
+| other | p_qfyAqTA3PGUUXcgAsCUJEh | 王正思 | accepted |
 
 ## 外部来源
 

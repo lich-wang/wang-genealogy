@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王守規
 cbdb_id: 38711
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -81,7 +81,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_CfobAJs0mup3LT9hE0aaYl
+        subject_person_id: p_PpDztfEZwjnmDGPukv44rK
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wa52uMh15QYL2q9w6tkgYA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_erBHAw0wy1Ew0_2RmCnbKW
+          claim_id: c_CfobAJs0mup3LT9hE0aaYl
+          source_id: s_AvFG-84S7bOXxWHJUr4btK
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 38711 王守規）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_AvFG-84S7bOXxWHJUr4btK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王守忠（CBDB 119744）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119744&o=json
+            external_identifier: CBDB:119744
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PpDztfEZwjnmDGPukv44rK
+        status: active
+        display_name: 王守忠
+        merged_into_person_id: null
 ---
 
 # 王守規
@@ -99,7 +136,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_PpDztfEZwjnmDGPukv44rK | 王守忠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王守規（CBDB 38711）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38711&o=json)
+- [中国历代人物传记资料库：王守忠（CBDB 119744）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119744&o=json)

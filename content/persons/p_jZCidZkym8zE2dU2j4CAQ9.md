@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王禎兆
 cbdb_id: 225804
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c__gW1OI8eXUL3yrq5QAo7pG
+        subject_person_id: p_aZXBatcc6mdp3QRC5AaJD4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jZCidZkym8zE2dU2j4CAQ9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SegISLg0IbMg-VVntlprFL
+          claim_id: c__gW1OI8eXUL3yrq5QAo7pG
+          source_id: s_Eun4AtSxLDBv4Xvq9gc7u3
+          stance: supports
+          locator: CBDB：兄弟 王祿兆（206985）之父／母 王光遠
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王禎兆 与 王祿兆 为同胞（CBDB 记「兄」），王祿兆 之父／母即 王禎兆 之父／母。
+          source:
+            id: s_Eun4AtSxLDBv4Xvq9gc7u3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禎兆（CBDB 225804）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225804&o=json
+            external_identifier: CBDB:225804
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aZXBatcc6mdp3QRC5AaJD4
+        status: active
+        display_name: 王光遠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c__kuFwZ2ECgeOb8iCyxjXI_
+        subject_person_id: p_hWNF7HbB9E5if6kNK731ro
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_jZCidZkym8zE2dU2j4CAQ9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mdQ5q0m0N6uJ-nP3L7lCqn
+          claim_id: c__kuFwZ2ECgeOb8iCyxjXI_
+          source_id: s_Eun4AtSxLDBv4Xvq9gc7u3
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206985 王祿兆）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Eun4AtSxLDBv4Xvq9gc7u3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禎兆（CBDB 225804）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225804&o=json
+            external_identifier: CBDB:225804
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hWNF7HbB9E5if6kNK731ro
+        status: active
+        display_name: 王祿兆
+        merged_into_person_id: null
 ---
 
 # 王禎兆
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_aZXBatcc6mdp3QRC5AaJD4 | 王光遠 | accepted |
+| other | p_hWNF7HbB9E5if6kNK731ro | 王祿兆 | accepted |
 
 ## 外部来源
 

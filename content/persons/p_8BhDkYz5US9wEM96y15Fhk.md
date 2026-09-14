@@ -4,7 +4,7 @@ id: p_8BhDkYz5US9wEM96y15Fhk
 status: active
 merged_into: null
 display_name: 王瑄
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_hFCgiUYRdKaAF8ip2Xtn0n
+        subject_person_id: p_DDiCpk3Tkb1KzEtaueBUHR
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8BhDkYz5US9wEM96y15Fhk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tt-nVGLVLMOz5IHp1NFi_v
+          claim_id: c_hFCgiUYRdKaAF8ip2Xtn0n
+          source_id: s_kMbKC-6uOuHyERDuJ68FUl
+          stance: supports
+          locator: CBDB：兄弟 王瑋（201725）之父／母 王良
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王瑄 与 王瑋 为同胞（CBDB 记「弟」），王瑋 之父／母即 王瑄 之父／母。
+          source:
+            id: s_kMbKC-6uOuHyERDuJ68FUl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑄（CBDB 277200）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=277200&o=json
+            external_identifier: CBDB:277200
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DDiCpk3Tkb1KzEtaueBUHR
+        status: active
+        display_name: 王良
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_bQ6jo-47Amd2YFWTe8YcRp
+        subject_person_id: p_8BhDkYz5US9wEM96y15Fhk
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dC2kXoLn9HGUMNL9QippS6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VFJ011pbJAHG5Or-EM7-1E
+          claim_id: c_bQ6jo-47Amd2YFWTe8YcRp
+          source_id: s_kMbKC-6uOuHyERDuJ68FUl
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201725 王瑋）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_kMbKC-6uOuHyERDuJ68FUl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑄（CBDB 277200）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=277200&o=json
+            external_identifier: CBDB:277200
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dC2kXoLn9HGUMNL9QippS6
+        status: active
+        display_name: 王瑋
+        merged_into_person_id: null
 ---
 
 # 王瑄
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_DDiCpk3Tkb1KzEtaueBUHR | 王良 | accepted |
+| other | p_dC2kXoLn9HGUMNL9QippS6 | 王瑋 | accepted |
 
 ## 外部来源
 

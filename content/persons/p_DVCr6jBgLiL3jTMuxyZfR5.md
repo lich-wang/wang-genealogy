@@ -4,7 +4,7 @@ id: p_DVCr6jBgLiL3jTMuxyZfR5
 status: active
 merged_into: null
 display_name: 王世功
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -179,7 +179,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_yvfbomXIXzUdRbWtMMaxxo
+        subject_person_id: p_DVCr6jBgLiL3jTMuxyZfR5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Z4iaHozq9bKDgNVpXNVYJs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ikISyjaI9TYSL06VMFpVBp
+          claim_id: c_yvfbomXIXzUdRbWtMMaxxo
+          source_id: s_r6ScTR4UH0eNW8TruxCKN_
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 703138 王世功）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_r6ScTR4UH0eNW8TruxCKN_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎮遠（CBDB 703140）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703140&o=json
+            external_identifier: CBDB:703140
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Z4iaHozq9bKDgNVpXNVYJs
+        status: active
+        display_name: 王鎮遠
+        merged_into_person_id: null
 ---
 
 # 王世功
@@ -200,9 +237,11 @@ relationships:
 | parents | p_tFyu3gNrC3e8xLmA6Th3Tc | 王誠 | accepted |
 | children | p_61JNS28QvWNfnHMN93DFjd | 王毓麟 | accepted |
 | children | p_jCuYqbLwtSwzdb7N2z84c9 | 王汝錦 | accepted |
+| other | p_Z4iaHozq9bKDgNVpXNVYJs | 王鎮遠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王汝錦（CBDB 703141）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703141&o=json)
 - [中国历代人物传记资料库：王世功（CBDB 703138）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703138&o=json)
 - [中国历代人物传记资料库：王毓麟（CBDB 703139）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703139&o=json)
+- [中国历代人物传记资料库：王鎮遠（CBDB 703140）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=703140&o=json)

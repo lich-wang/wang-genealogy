@@ -4,7 +4,7 @@ id: p_WrcoN9CL6jsGtB4NtmzaYe
 status: active
 merged_into: null
 display_name: 王良翰
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,44 @@ relationships:
         display_name: 王玄
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_I9jj8SvZUAwqDJ0UEPVN5F
+        subject_person_id: p_WrcoN9CL6jsGtB4NtmzaYe
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gRT6rTxz9uE9H51WizkjHh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xdRqtwFZKTJ4Cf6y-bxTVu
+          claim_id: c_I9jj8SvZUAwqDJ0UEPVN5F
+          source_id: s_1G9A92xBpz1XHPwfw0pi24
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201479 王良翰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_1G9A92xBpz1XHPwfw0pi24
+            source_type: api_record
+            title: 中国历代人物传记资料库：王良輔（CBDB 273129）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273129&o=json
+            external_identifier: CBDB:273129
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_gRT6rTxz9uE9H51WizkjHh
+        status: active
+        display_name: 王良輔
+        merged_into_person_id: null
 ---
 
 # 王良翰
@@ -240,10 +277,12 @@ relationships:
 | parents | p_sYxtGPb4CL3WrP3V3fvmVA | 王乾 | accepted |
 | ancestors | p_h5J7FNmYNZPV9EJQtShSE1 | 王迪 | accepted |
 | ancestors | p_j4JnCmRKYH94287C5o7uex | 王玄 | accepted |
+| other | p_gRT6rTxz9uE9H51WizkjHh | 王良輔 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王迪（CBDB 273123）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273123&o=json)
+- [中国历代人物传记资料库：王良輔（CBDB 273129）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273129&o=json)
 - [中国历代人物传记资料库：王良翰（CBDB 201479）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201479&o=json)
 - [中国历代人物传记资料库：王乾（CBDB 273125）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273125&o=json)
 - [中国历代人物传记资料库：王玄（CBDB 273124）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273124&o=json)

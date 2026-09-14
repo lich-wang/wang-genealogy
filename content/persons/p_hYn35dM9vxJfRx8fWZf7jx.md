@@ -4,7 +4,7 @@ id: p_hYn35dM9vxJfRx8fWZf7jx
 status: active
 merged_into: null
 display_name: 王撫民
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,118 @@ relationships:
         display_name: 王連
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_6SjONxyMROoloDo6ef6gh6
+        subject_person_id: p_4qyiGoTomPMaVqCYdNj2Re
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hYn35dM9vxJfRx8fWZf7jx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Pdjz8GuStSOG9mhQcGh5MN
+          claim_id: c_6SjONxyMROoloDo6ef6gh6
+          source_id: s_YEVkHD5ns21gPBtTSZa0HY
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203316 王撫民）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_YEVkHD5ns21gPBtTSZa0HY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王育民（CBDB 302954）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302954&o=json
+            external_identifier: CBDB:302954
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4qyiGoTomPMaVqCYdNj2Re
+        status: active
+        display_name: 王育民
+        merged_into_person_id: null
+    - claim:
+        id: c_iJieqhSh2zQ6MDLloeQfhm
+        subject_person_id: p_B2VkSjF2KwfP8yam62xbhV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hYn35dM9vxJfRx8fWZf7jx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vO0xZEfPaGo2OGUwd20BJ6
+          claim_id: c_iJieqhSh2zQ6MDLloeQfhm
+          source_id: s_xcP_xqUfwhtpIYkpkiePaS
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203316 王撫民）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_xcP_xqUfwhtpIYkpkiePaS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王新民（CBDB 302955）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302955&o=json
+            external_identifier: CBDB:302955
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_B2VkSjF2KwfP8yam62xbhV
+        status: active
+        display_name: 王新民
+        merged_into_person_id: null
+    - claim:
+        id: c_WQu6TGrzijv8z36-zJD1Nz
+        subject_person_id: p_S8VqMzrrBmph6miumBK4Wk
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hYn35dM9vxJfRx8fWZf7jx
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oAz7efBckshZtK3fw1g51W
+          claim_id: c_WQu6TGrzijv8z36-zJD1Nz
+          source_id: s_wLaD7bioi_5sSiJ2hJV-C3
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203316 王撫民）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_wLaD7bioi_5sSiJ2hJV-C3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王澤民（CBDB 302956）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302956&o=json
+            external_identifier: CBDB:302956
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_S8VqMzrrBmph6miumBK4Wk
+        status: active
+        display_name: 王澤民
+        merged_into_person_id: null
 ---
 
 # 王撫民
@@ -245,8 +356,14 @@ relationships:
 | spouses | p_QHCCGVeb94PEkQ5kEGxKfz | 任氏 | accepted |
 | ancestors | p_PgoiUvZcQsZszmNYM1gvRj | 王璋 | accepted |
 | ancestors | p_t6QqM5xbMVQvFriG2QzRgf | 王連 | accepted |
+| other | p_4qyiGoTomPMaVqCYdNj2Re | 王育民 | accepted |
+| other | p_B2VkSjF2KwfP8yam62xbhV | 王新民 | accepted |
+| other | p_S8VqMzrrBmph6miumBK4Wk | 王澤民 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：任氏(王撫民妻)（CBDB 302953）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302953&o=json)
 - [中国历代人物传记资料库：王撫民（CBDB 203316）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203316&o=json)
+- [中国历代人物传记资料库：王新民（CBDB 302955）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302955&o=json)
+- [中国历代人物传记资料库：王育民（CBDB 302954）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302954&o=json)
+- [中国历代人物传记资料库：王澤民（CBDB 302956）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302956&o=json)

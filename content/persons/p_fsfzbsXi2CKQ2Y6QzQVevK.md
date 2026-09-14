@@ -4,7 +4,7 @@ id: p_fsfzbsXi2CKQ2Y6QzQVevK
 status: active
 merged_into: null
 display_name: 王莘
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -250,7 +250,81 @@ relationships:
         display_name: 王倫
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_PkIrFWWfwWJzKXipAcYahY
+        subject_person_id: p_7kQFKfB63J7Fu1pip8e8o8
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fsfzbsXi2CKQ2Y6QzQVevK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oVY5gyYAQOxMbVQ4xquLV1
+          claim_id: c_PkIrFWWfwWJzKXipAcYahY
+          source_id: s_C2PNRXCSDuUgXuw4QIvvgb
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126692 王莘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_C2PNRXCSDuUgXuw4QIvvgb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王芮（CBDB 282022）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282022&o=json
+            external_identifier: CBDB:282022
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7kQFKfB63J7Fu1pip8e8o8
+        status: active
+        display_name: 王芮
+        merged_into_person_id: null
+    - claim:
+        id: c_aIq5C0JT2Zviz6eKIxAO_1
+        subject_person_id: p_Px4HAPv3wzyZB4h9FMpFwc
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fsfzbsXi2CKQ2Y6QzQVevK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gC1GsNwdWOaXVMRfSa2v6h
+          claim_id: c_aIq5C0JT2Zviz6eKIxAO_1
+          source_id: s_gYSNhzg6GAc00xL9sQPtRf
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126692 王莘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_gYSNhzg6GAc00xL9sQPtRf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王藝（CBDB 282023）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282023&o=json
+            external_identifier: CBDB:282023
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Px4HAPv3wzyZB4h9FMpFwc
+        status: active
+        display_name: 王藝
+        merged_into_person_id: null
 ---
 
 # 王莘
@@ -274,8 +348,12 @@ relationships:
 | spouses | p_Ydcqf5X9KbXRth1573f71k | 夏氏 | accepted |
 | ancestors | p_sDoU33d57NRf1uCYSqMQ4P | 王賢 | accepted |
 | ancestors | p_VV4VNr2EUbP7eMEPBsU1QA | 王倫 | accepted |
+| other | p_7kQFKfB63J7Fu1pip8e8o8 | 王芮 | accepted |
+| other | p_Px4HAPv3wzyZB4h9FMpFwc | 王藝 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王芮（CBDB 282022）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282022&o=json)
 - [中国历代人物传记资料库：王莘（CBDB 126692）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126692&o=json)
+- [中国历代人物传记资料库：王藝（CBDB 282023）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282023&o=json)
 - [中国历代人物传记资料库：夏氏(王莘妻)（CBDB 282021）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282021&o=json)

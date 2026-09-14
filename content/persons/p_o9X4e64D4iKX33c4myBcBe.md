@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王繼禮
 cbdb_id: 202226
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -236,7 +236,44 @@ relationships:
         display_name: 王雄
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_7N0qfMnlVwOEhpoWIzQl29
+        subject_person_id: p_htnTsymFpY6c3cH3oB4jPS
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_o9X4e64D4iKX33c4myBcBe
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sp0uW0qzsTQ6mMFXQFczeR
+          claim_id: c_7N0qfMnlVwOEhpoWIzQl29
+          source_id: s__RqUDlq_9_tZmGIwzrOerj
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202226 王繼禮）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__RqUDlq_9_tZmGIwzrOerj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繼學（CBDB 285309）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285309&o=json
+            external_identifier: CBDB:285309
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_htnTsymFpY6c3cH3oB4jPS
+        status: active
+        display_name: 王繼學
+        merged_into_person_id: null
 ---
 
 # 王繼禮
@@ -258,10 +295,12 @@ relationships:
 | parents | p_DvsaKspxRerxZLHeLLb8JP | 王景惠 | accepted |
 | ancestors | p_7LTXKnc7tgbyWn2kq2c1gJ | 王貴 | accepted |
 | ancestors | p_duEYPd8tk8kscAB9VHYH8y | 王雄 | accepted |
+| other | p_htnTsymFpY6c3cH3oB4jPS | 王繼學 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王貴（CBDB 285302）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285302&o=json)
 - [中国历代人物传记资料库：王繼禮（CBDB 202226）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202226&o=json)
+- [中国历代人物传记资料库：王繼學（CBDB 285309）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285309&o=json)
 - [中国历代人物传记资料库：王景惠（CBDB 285304）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285304&o=json)
 - [中国历代人物传记资料库：王雄（CBDB 285303）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285303&o=json)

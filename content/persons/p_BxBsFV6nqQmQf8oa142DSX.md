@@ -4,7 +4,7 @@ id: p_BxBsFV6nqQmQf8oa142DSX
 status: active
 merged_into: null
 display_name: 王夢弼
-revision: 3
+revision: 11
 properties:
   - predicate: name.primary
     recommended:
@@ -250,7 +250,303 @@ relationships:
         display_name: 王翃
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_zOlH0opnXyIWfqykft4dOT
+        subject_person_id: p_BxBsFV6nqQmQf8oa142DSX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_DRJCw6nRUVx71c5a1FgJsY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_R9HbASi7IzOmiHQsSio6ao
+          claim_id: c_zOlH0opnXyIWfqykft4dOT
+          source_id: s_2W9AWzadUAbKBA6GbikEZK
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126784 王夢弼）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_2W9AWzadUAbKBA6GbikEZK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王夢眾（CBDB 297284）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297284&o=json
+            external_identifier: CBDB:297284
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DRJCw6nRUVx71c5a1FgJsY
+        status: active
+        display_name: 王夢眾
+        merged_into_person_id: null
+    - claim:
+        id: c_5IGf45kzBKYZgKtQyB05KG
+        subject_person_id: p_BxBsFV6nqQmQf8oa142DSX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_GSdLSx7MZP779ADvNNYsun
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1wz-9WFMcYD4zp0AmDf3k5
+          claim_id: c_5IGf45kzBKYZgKtQyB05KG
+          source_id: s_927izC9kuKjpkc2dkQ7R7r
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126784 王夢弼）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_927izC9kuKjpkc2dkQ7R7r
+            source_type: api_record
+            title: 中国历代人物传记资料库：王夢旐（CBDB 297282）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297282&o=json
+            external_identifier: CBDB:297282
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GSdLSx7MZP779ADvNNYsun
+        status: active
+        display_name: 王夢旐
+        merged_into_person_id: null
+    - claim:
+        id: c_jHsdaLJ7iRrG18TnbetcQB
+        subject_person_id: p_BxBsFV6nqQmQf8oa142DSX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_JtoiuDAY7QeSdGJgYKMuma
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-TPGhzlkm4T4iuwpZVMROL
+          claim_id: c_jHsdaLJ7iRrG18TnbetcQB
+          source_id: s_XfMcp6rVAnSodEhfGiK8n_
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126784 王夢弼）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_XfMcp6rVAnSodEhfGiK8n_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王夢羆（CBDB 297286）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297286&o=json
+            external_identifier: CBDB:297286
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JtoiuDAY7QeSdGJgYKMuma
+        status: active
+        display_name: 王夢羆
+        merged_into_person_id: null
+    - claim:
+        id: c_1pC2MXj4zMOyBcJ8udF5ov
+        subject_person_id: p_BxBsFV6nqQmQf8oa142DSX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_TYAHXGPQbZxUXTxQeL8qfz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9BJd2RZEg2Pe_j0quCh8oU
+          claim_id: c_1pC2MXj4zMOyBcJ8udF5ov
+          source_id: s_S43j9sBA-KJncfkhSiHZ78
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126784 王夢弼）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_S43j9sBA-KJncfkhSiHZ78
+            source_type: api_record
+            title: 中国历代人物传记资料库：王夢槐（CBDB 297285）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297285&o=json
+            external_identifier: CBDB:297285
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_TYAHXGPQbZxUXTxQeL8qfz
+        status: active
+        display_name: 王夢槐
+        merged_into_person_id: null
+    - claim:
+        id: c_bQT9gb7nZ8slo8OKHckHdr
+        subject_person_id: p_BxBsFV6nqQmQf8oa142DSX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_YQh2UnWjAUpFCsSFq5tiaF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-EzLMrjNrZEBbil4qDgiVr
+          claim_id: c_bQT9gb7nZ8slo8OKHckHdr
+          source_id: s_xCl954KktwfIaKfqvY6YBX
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126784 王夢弼）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_xCl954KktwfIaKfqvY6YBX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王夢熊（CBDB 297278）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297278&o=json
+            external_identifier: CBDB:297278
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_YQh2UnWjAUpFCsSFq5tiaF
+        status: active
+        display_name: 王夢熊
+        merged_into_person_id: null
+    - claim:
+        id: c_0-VdEidznmiheRJze7Fwx8
+        subject_person_id: p_BxBsFV6nqQmQf8oa142DSX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_iaPzaKLLZPWLhg19vBaqyb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kfZZkemu9qlPLr-H5c_61L
+          claim_id: c_0-VdEidznmiheRJze7Fwx8
+          source_id: s_9DCsYX-VMLZ-sfrZd_nm5T
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126784 王夢弼）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_9DCsYX-VMLZ-sfrZd_nm5T
+            source_type: api_record
+            title: 中国历代人物传记资料库：王夢松（CBDB 297281）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297281&o=json
+            external_identifier: CBDB:297281
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_iaPzaKLLZPWLhg19vBaqyb
+        status: active
+        display_name: 王夢松
+        merged_into_person_id: null
+    - claim:
+        id: c_oxhdxCur_UltqW1kLX8SHG
+        subject_person_id: p_BxBsFV6nqQmQf8oa142DSX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kQJBgYox8247LCHAQbQ3L5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OEZij8fmB4UpjhdfV7ca9W
+          claim_id: c_oxhdxCur_UltqW1kLX8SHG
+          source_id: s_74k5g9njJ6ViyOfx5uAeg8
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126784 王夢弼）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_74k5g9njJ6ViyOfx5uAeg8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王夢曉（CBDB 297279）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297279&o=json
+            external_identifier: CBDB:297279
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kQJBgYox8247LCHAQbQ3L5
+        status: active
+        display_name: 王夢曉
+        merged_into_person_id: null
+    - claim:
+        id: c_58rvvr-a31-6-QgScetK7f
+        subject_person_id: p_BxBsFV6nqQmQf8oa142DSX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xHYLCKYqk2PWKCXm6atJ86
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4OAzgfVs4xUs9MwGoc9Sx9
+          claim_id: c_58rvvr-a31-6-QgScetK7f
+          source_id: s_XFiUlJjNzSh4jWrwvcdjKC
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126784 王夢弼）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_XFiUlJjNzSh4jWrwvcdjKC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王夢旟（CBDB 297283）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297283&o=json
+            external_identifier: CBDB:297283
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xHYLCKYqk2PWKCXm6atJ86
+        status: active
+        display_name: 王夢旟
+        merged_into_person_id: null
 ---
 
 # 王夢弼
@@ -274,8 +570,24 @@ relationships:
 | spouses | p_QaV1aWWYJYFYMq26viuk5b | 周氏 | accepted |
 | ancestors | p_Jh96TMvNqfL8prQuCQkEVx | 王儶 | accepted |
 | ancestors | p_TobVzPD2rQQSqxAZuF8zkt | 王翃 | accepted |
+| other | p_DRJCw6nRUVx71c5a1FgJsY | 王夢眾 | accepted |
+| other | p_GSdLSx7MZP779ADvNNYsun | 王夢旐 | accepted |
+| other | p_JtoiuDAY7QeSdGJgYKMuma | 王夢羆 | accepted |
+| other | p_TYAHXGPQbZxUXTxQeL8qfz | 王夢槐 | accepted |
+| other | p_YQh2UnWjAUpFCsSFq5tiaF | 王夢熊 | accepted |
+| other | p_iaPzaKLLZPWLhg19vBaqyb | 王夢松 | accepted |
+| other | p_kQJBgYox8247LCHAQbQ3L5 | 王夢曉 | accepted |
+| other | p_xHYLCKYqk2PWKCXm6atJ86 | 王夢旟 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王夢弼（CBDB 126784）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126784&o=json)
+- [中国历代人物传记资料库：王夢槐（CBDB 297285）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297285&o=json)
+- [中国历代人物传记资料库：王夢羆（CBDB 297286）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297286&o=json)
+- [中国历代人物传记资料库：王夢松（CBDB 297281）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297281&o=json)
+- [中国历代人物传记资料库：王夢曉（CBDB 297279）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297279&o=json)
+- [中国历代人物传记资料库：王夢熊（CBDB 297278）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297278&o=json)
+- [中国历代人物传记资料库：王夢旟（CBDB 297283）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297283&o=json)
+- [中国历代人物传记资料库：王夢旐（CBDB 297282）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297282&o=json)
+- [中国历代人物传记资料库：王夢眾（CBDB 297284）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297284&o=json)
 - [中国历代人物传记资料库：周氏(王夢弼妻)（CBDB 297277）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297277&o=json)

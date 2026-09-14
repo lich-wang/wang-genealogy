@@ -4,7 +4,7 @@ id: p_qtbxt55gw7F1hTWtEuCisP
 status: active
 merged_into: null
 display_name: 王準
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -137,6 +137,43 @@ relationships:
         status: active
         display_name: 王珪
         merged_into_person_id: null
+    - claim:
+        id: c_TCsmUWoMSIqPBBiDsR8Wen
+        subject_person_id: p_qtbxt55gw7F1hTWtEuCisP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_dLJFAnfJrQyBMnZwWu6J97
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_agfuLgRur7DGI6d4BMASmW
+          claim_id: c_TCsmUWoMSIqPBBiDsR8Wen
+          source_id: s_i4NULKPGy8lzfUol6x-a2V
+          stance: supports
+          locator: CBDB：兄弟 王珪（1845）之父／母 王準
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王瓘 与 王珪 为同胞（CBDB 记「弟」），王珪 之父／母即 王瓘 之父／母。
+          source:
+            id: s_i4NULKPGy8lzfUol6x-a2V
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瓘（CBDB 45854）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=45854&o=json
+            external_identifier: CBDB:45854
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dLJFAnfJrQyBMnZwWu6J97
+        status: active
+        display_name: 王瓘
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -199,10 +236,12 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_QZHN7XBFLhdEfKGuEPQEhp | 王贄 | accepted |
 | children | p_KzB2C1aLBuDGmUVnrc9So3 | 王珪 | accepted |
+| children | p_dLJFAnfJrQyBMnZwWu6J97 | 王瓘 | accepted |
 | spouses | p_99HFCHADP2DwMuiybuX1uf | 薛氏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王瓘（CBDB 45854）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=45854&o=json)
 - [中国历代人物传记资料库：王珪（CBDB 1845）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1845&o=json)
 - [中国历代人物传记资料库：王準（CBDB 13515）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13515&o=json)
 - [中国历代人物传记资料库：薛氏(王準妻)（CBDB 37965）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37965&o=json)

@@ -4,7 +4,7 @@ id: p_AaKg1Vq75C44DwYEMzzXhb
 status: active
 merged_into: null
 display_name: 王安
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_5K2bx13V_WnWiy3jM8t1h2
+        subject_person_id: p_wDGxRNCDYBWfdncywvt3LA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AaKg1Vq75C44DwYEMzzXhb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CQGuVbHu_TZOeATsjmZsC2
+          claim_id: c_5K2bx13V_WnWiy3jM8t1h2
+          source_id: s_8_fgYvCQSo_nmdG_5NdJD0
+          stance: supports
+          locator: CBDB：兄弟 王俊（199171）之父／母 王寧
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王安 与 王俊 为同胞（CBDB 记「弟」），王俊 之父／母即 王安 之父／母。
+          source:
+            id: s_8_fgYvCQSo_nmdG_5NdJD0
+            source_type: api_record
+            title: 中国历代人物传记资料库：王安（CBDB 240587）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240587&o=json
+            external_identifier: CBDB:240587
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wDGxRNCDYBWfdncywvt3LA
+        status: active
+        display_name: 王寧
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_TmR0PnnGG9gBKKamOZsrZr
+        subject_person_id: p_AaKg1Vq75C44DwYEMzzXhb
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kPeA425yX1vHGJ6NED9rRs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FEYGe6c8GdlJPhndZjyySo
+          claim_id: c_TmR0PnnGG9gBKKamOZsrZr
+          source_id: s_8_fgYvCQSo_nmdG_5NdJD0
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 199171 王俊）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_8_fgYvCQSo_nmdG_5NdJD0
+            source_type: api_record
+            title: 中国历代人物传记资料库：王安（CBDB 240587）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=240587&o=json
+            external_identifier: CBDB:240587
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kPeA425yX1vHGJ6NED9rRs
+        status: active
+        display_name: 王俊
+        merged_into_person_id: null
 ---
 
 # 王安
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_wDGxRNCDYBWfdncywvt3LA | 王寧 | accepted |
+| other | p_kPeA425yX1vHGJ6NED9rRs | 王俊 | accepted |
 
 ## 外部来源
 

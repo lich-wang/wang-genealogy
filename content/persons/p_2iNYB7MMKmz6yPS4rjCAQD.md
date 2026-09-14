@@ -4,7 +4,7 @@ id: p_2iNYB7MMKmz6yPS4rjCAQD
 status: active
 merged_into: null
 display_name: 王彰
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,118 @@ relationships:
         display_name: 王仁卿
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_VZ_jZPRlWOOxeYTyFcB-qZ
+        subject_person_id: p_2iNYB7MMKmz6yPS4rjCAQD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_85wB9oyLmcqBv8o7RhR9Ac
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QzWRmQUfty5x1csxWLpPGz
+          claim_id: c_VZ_jZPRlWOOxeYTyFcB-qZ
+          source_id: s_DsvcY-5IiwQUBJccGxwKKI
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207831 王彰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_DsvcY-5IiwQUBJccGxwKKI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王冬（CBDB 236746）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236746&o=json
+            external_identifier: CBDB:236746
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_85wB9oyLmcqBv8o7RhR9Ac
+        status: active
+        display_name: 王冬
+        merged_into_person_id: null
+    - claim:
+        id: c_4-MrkLeEfyTrlhVmsDVgb0
+        subject_person_id: p_2iNYB7MMKmz6yPS4rjCAQD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_JP4dZ9Qgk2oGTc9mcdrUkB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_O9s8yWcwsvyctSkt5q5Hxh
+          claim_id: c_4-MrkLeEfyTrlhVmsDVgb0
+          source_id: s_Om-s_0o9jVb1ysqmo9T2Fa
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207831 王彰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Om-s_0o9jVb1ysqmo9T2Fa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彬（CBDB 236747）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236747&o=json
+            external_identifier: CBDB:236747
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JP4dZ9Qgk2oGTc9mcdrUkB
+        status: active
+        display_name: 王彬
+        merged_into_person_id: null
+    - claim:
+        id: c_VSrfa6fAY86eZuo_-F6BvL
+        subject_person_id: p_2iNYB7MMKmz6yPS4rjCAQD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dDhkUYHKCRgJCyVvb8hQBc
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VOPeGOvuDyIH2axPNbyIaD
+          claim_id: c_VSrfa6fAY86eZuo_-F6BvL
+          source_id: s_H17e5AUELdd8PHnI8Vk5we
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207831 王彰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_H17e5AUELdd8PHnI8Vk5we
+            source_type: api_record
+            title: 中国历代人物传记资料库：王美（CBDB 236748）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236748&o=json
+            external_identifier: CBDB:236748
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dDhkUYHKCRgJCyVvb8hQBc
+        status: active
+        display_name: 王美
+        merged_into_person_id: null
 ---
 
 # 王彰
@@ -245,8 +356,14 @@ relationships:
 | spouses | p_eqri4XcbMcmKE3joAz36hR | 杜氏 | accepted |
 | ancestors | p_9Nv1o3zSRkmnBR6jD8YwLZ | 王致正 | accepted |
 | ancestors | p_72o4rDD1BHyKkvsVS4def1 | 王仁卿 | accepted |
+| other | p_85wB9oyLmcqBv8o7RhR9Ac | 王冬 | accepted |
+| other | p_JP4dZ9Qgk2oGTc9mcdrUkB | 王彬 | accepted |
+| other | p_dDhkUYHKCRgJCyVvb8hQBc | 王美 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：杜氏(王彰妻)（CBDB 236744）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236744&o=json)
+- [中国历代人物传记资料库：王彬（CBDB 236747）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236747&o=json)
+- [中国历代人物传记资料库：王冬（CBDB 236746）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236746&o=json)
+- [中国历代人物传记资料库：王美（CBDB 236748）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236748&o=json)
 - [中国历代人物传记资料库：王彰（CBDB 207831）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207831&o=json)

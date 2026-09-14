@@ -4,7 +4,7 @@ id: p_5LNrAt3UFBAa5AMw5eaSEJ
 status: active
 merged_into: null
 display_name: 王蘧
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -126,6 +126,43 @@ relationships:
         status: active
         display_name: 王庶
         merged_into_person_id: null
+    - claim:
+        id: c_nhE9qtWxrFJIfXUOQ0bBK0
+        subject_person_id: p_5LNrAt3UFBAa5AMw5eaSEJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VQ61EHFFsKEWGrvdUGnjC7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_PO6kpC1aNl8bT0Gx5eHxjJ
+          claim_id: c_nhE9qtWxrFJIfXUOQ0bBK0
+          source_id: s_kpqyxdwBHgEV3q12-UMetx
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 23564）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_kpqyxdwBHgEV3q12-UMetx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王康（CBDB 689471）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689471&o=json
+            external_identifier: CBDB:689471
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VQ61EHFFsKEWGrvdUGnjC7
+        status: active
+        display_name: 王康
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -151,7 +188,9 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_iLUdeieVQDb1mxk8x28Vj3 | 王正路 | accepted |
 | children | p_tk84vCkyVEDHdqb4M5upn4 | 王庶 | accepted |
+| children | p_VQ61EHFFsKEWGrvdUGnjC7 | 王康 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王康（CBDB 689471）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=689471&o=json)
 - [中国历代人物传记资料库：王蘧（CBDB 23564）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23564&o=json)

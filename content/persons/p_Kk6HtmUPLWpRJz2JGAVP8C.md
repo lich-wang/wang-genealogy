@@ -4,7 +4,7 @@ id: p_Kk6HtmUPLWpRJz2JGAVP8C
 status: active
 merged_into: null
 display_name: 王常
-revision: 2
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,154 @@ relationships:
         status: active
         display_name: 王顯
         merged_into_person_id: null
+    - claim:
+        id: c_urSSmRKdDgkObxCZBGuqgZ
+        subject_person_id: p_Kk6HtmUPLWpRJz2JGAVP8C
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5CL4Wu3NXG9SDC4HABb7b5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ebX12VQhxcMbck3slNUYiN
+          claim_id: c_urSSmRKdDgkObxCZBGuqgZ
+          source_id: s_AcGiE0soEZHi1ysiMxY130
+          stance: supports
+          locator: CBDB：兄弟 王顯（198552）之父／母 王常
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王亨 与 王顯 为同胞（CBDB 记「兄」），王顯 之父／母即 王亨 之父／母。
+          source:
+            id: s_AcGiE0soEZHi1ysiMxY130
+            source_type: api_record
+            title: 中国历代人物传记资料库：王亨（CBDB 261998）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261998&o=json
+            external_identifier: CBDB:261998
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5CL4Wu3NXG9SDC4HABb7b5
+        status: active
+        display_name: 王亨
+        merged_into_person_id: null
+    - claim:
+        id: c_K_xzUQM2Dm4spMT8m7LkQ4
+        subject_person_id: p_Kk6HtmUPLWpRJz2JGAVP8C
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9doFnakix3pR8ZuH19dCpz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uZwpdIwD6vv2SEcGO1X3Nh
+          claim_id: c_K_xzUQM2Dm4spMT8m7LkQ4
+          source_id: s_vdSKJIjGbaJr3w7Ruu7qgh
+          stance: supports
+          locator: CBDB：兄弟 王顯（198552）之父／母 王常
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王瑞 与 王顯 为同胞（CBDB 记「兄」），王顯 之父／母即 王瑞 之父／母。
+          source:
+            id: s_vdSKJIjGbaJr3w7Ruu7qgh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑞（CBDB 262000）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262000&o=json
+            external_identifier: CBDB:262000
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9doFnakix3pR8ZuH19dCpz
+        status: active
+        display_name: 王瑞
+        merged_into_person_id: null
+    - claim:
+        id: c_l-x0y04afmiAA2Je7qXxQQ
+        subject_person_id: p_Kk6HtmUPLWpRJz2JGAVP8C
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_F1dDe3PyFQrT9iTGfXubC5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nF8F-rOLXVdeBhVdkH6PtR
+          claim_id: c_l-x0y04afmiAA2Je7qXxQQ
+          source_id: s_hQjTySkisn8Esyz4U1WnGt
+          stance: supports
+          locator: CBDB：兄弟 王顯（198552）之父／母 王常
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王昌 与 王顯 为同胞（CBDB 记「兄」），王顯 之父／母即 王昌 之父／母。
+          source:
+            id: s_hQjTySkisn8Esyz4U1WnGt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昌（CBDB 261996）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261996&o=json
+            external_identifier: CBDB:261996
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_F1dDe3PyFQrT9iTGfXubC5
+        status: active
+        display_name: 王昌
+        merged_into_person_id: null
+    - claim:
+        id: c_BQflxzBf_krozejupkyRIJ
+        subject_person_id: p_Kk6HtmUPLWpRJz2JGAVP8C
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KoJBbuqBnB7yzcpthMhzSh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qBQp9BxUqw49XzpuPbYaKL
+          claim_id: c_BQflxzBf_krozejupkyRIJ
+          source_id: s_KixqWyH6gy2Ve82AZSFnWj
+          stance: supports
+          locator: CBDB：兄弟 王顯（198552）之父／母 王常
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王盛 与 王顯 为同胞（CBDB 记「兄」），王顯 之父／母即 王盛 之父／母。
+          source:
+            id: s_KixqWyH6gy2Ve82AZSFnWj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王盛（CBDB 261997）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261997&o=json
+            external_identifier: CBDB:261997
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KoJBbuqBnB7yzcpthMhzSh
+        status: active
+        display_name: 王盛
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +272,15 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_upmMFAstLHjgZ6eyALiaEs | 王顯 | accepted |
+| children | p_5CL4Wu3NXG9SDC4HABb7b5 | 王亨 | accepted |
+| children | p_9doFnakix3pR8ZuH19dCpz | 王瑞 | accepted |
+| children | p_F1dDe3PyFQrT9iTGfXubC5 | 王昌 | accepted |
+| children | p_KoJBbuqBnB7yzcpthMhzSh | 王盛 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王昌（CBDB 261996）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261996&o=json)
 - [中国历代人物传记资料库：王常（CBDB 287119）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287119&o=json)
+- [中国历代人物传记资料库：王亨（CBDB 261998）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261998&o=json)
+- [中国历代人物传记资料库：王瑞（CBDB 262000）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262000&o=json)
+- [中国历代人物传记资料库：王盛（CBDB 261997）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261997&o=json)

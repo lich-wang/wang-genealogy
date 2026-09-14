@@ -4,7 +4,7 @@ id: p_BvU9ErBJeyzU9EWBmCNrJg
 status: active
 merged_into: null
 display_name: 王煜
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,81 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_4KrRQ3vvo7dnuNvOu5Enh5
+        subject_person_id: p_BvU9ErBJeyzU9EWBmCNrJg
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vvrxSgkaUWFzM2bBhVzD3g
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-NVR1WKyPltbTTLy7S3nsc
+          claim_id: c_4KrRQ3vvo7dnuNvOu5Enh5
+          source_id: s_2r9ciQsv01lX1NA3XXyQY_
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 562486 王煒）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_2r9ciQsv01lX1NA3XXyQY_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王煜（CBDB 562485）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=562485&o=json
+            external_identifier: CBDB:562485
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vvrxSgkaUWFzM2bBhVzD3g
+        status: active
+        display_name: 王煒
+        merged_into_person_id: null
+    - claim:
+        id: c_Ggcs0fFXHI5aofBvWIRgoy
+        subject_person_id: p_BvU9ErBJeyzU9EWBmCNrJg
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_YAA7ga244YFXcLCrtojh6c
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YRJXfI1_MlgkcRN6-Aahfk
+          claim_id: c_Ggcs0fFXHI5aofBvWIRgoy
+          source_id: s_2r9ciQsv01lX1NA3XXyQY_
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 562487 王炯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_2r9ciQsv01lX1NA3XXyQY_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王煜（CBDB 562485）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=562485&o=json
+            external_identifier: CBDB:562485
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_YAA7ga244YFXcLCrtojh6c
+        status: active
+        display_name: 王炯
+        merged_into_person_id: null
 ---
 
 # 王煜
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_vvrxSgkaUWFzM2bBhVzD3g | 王煒 | accepted |
+| other | p_YAA7ga244YFXcLCrtojh6c | 王炯 | accepted |
 
 ## 外部来源
 

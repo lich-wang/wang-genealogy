@@ -4,7 +4,7 @@ id: p_fZbrWDsmveSsmxodQqTf8K
 status: active
 merged_into: null
 display_name: 王恕
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Pgpee-8ZVYVg4QcLkWx13t
+        subject_person_id: p_AAxQGZ484s4cB5whrDBc9J
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fZbrWDsmveSsmxodQqTf8K
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2IhcW_MhmdmMfWyjcX8xcJ
+          claim_id: c_Pgpee-8ZVYVg4QcLkWx13t
+          source_id: s_R9Nrg8JoL0BNLvqcpiOr8K
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 38022 王恕）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_R9Nrg8JoL0BNLvqcpiOr8K
+            source_type: api_record
+            title: 中国历代人物传记资料库：王齊輿（CBDB 38086）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38086&o=json
+            external_identifier: CBDB:38086
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_AAxQGZ484s4cB5whrDBc9J
+        status: active
+        display_name: 王齊輿
+        merged_into_person_id: null
 ---
 
 # 王恕
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_AAxQGZ484s4cB5whrDBc9J | 王齊輿 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王齊輿（CBDB 38086）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38086&o=json)
 - [中国历代人物传记资料库：王恕（CBDB 38022）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38022&o=json)

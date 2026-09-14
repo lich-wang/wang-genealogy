@@ -4,7 +4,7 @@ id: p_kegtQkxMvsxG83EpfKScwb
 status: active
 merged_into: null
 display_name: 王昂
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -191,7 +191,81 @@ relationships:
         display_name: 王文貴
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Qm1XOZMRScTrvRwHh8dRpK
+        subject_person_id: p_MEZ9QC7g8rrvbrgdWkJ5Qf
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kegtQkxMvsxG83EpfKScwb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ytUjkaihSiMqNoXCA74lcx
+          claim_id: c_Qm1XOZMRScTrvRwHh8dRpK
+          source_id: s_cEHNWs8zOKo_tRXjBvJ0Uf
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126608 王昂）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_cEHNWs8zOKo_tRXjBvJ0Uf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王斅（CBDB 274343）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274343&o=json
+            external_identifier: CBDB:274343
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MEZ9QC7g8rrvbrgdWkJ5Qf
+        status: active
+        display_name: 王斅
+        merged_into_person_id: null
+    - claim:
+        id: c_H8DXy0fQunfqDuCrS2p4Vf
+        subject_person_id: p_PRSUawoVPuwm3HrkVkH8QH
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kegtQkxMvsxG83EpfKScwb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ke_9u1jsmZA0K6M5UqEwB1
+          claim_id: c_H8DXy0fQunfqDuCrS2p4Vf
+          source_id: s_02hFZWA2E8wD7Zh5-vSsFG
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126608 王昂）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_02hFZWA2E8wD7Zh5-vSsFG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王翱（CBDB 274342）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274342&o=json
+            external_identifier: CBDB:274342
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PRSUawoVPuwm3HrkVkH8QH
+        status: active
+        display_name: 王翱
+        merged_into_person_id: null
 ---
 
 # 王昂
@@ -212,10 +286,14 @@ relationships:
 | parents | p_soPWG2JxysqfJjV8tB16nV | 王紀綱 | accepted |
 | ancestors | p_bCx3m9z1SKJJQgPPe43TNy | 王明 | accepted |
 | ancestors | p_QtPAUQJLxbMpt5EG6m8NEq | 王文貴 | accepted |
+| other | p_MEZ9QC7g8rrvbrgdWkJ5Qf | 王斅 | accepted |
+| other | p_PRSUawoVPuwm3HrkVkH8QH | 王翱 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王昂（CBDB 126608）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126608&o=json)
+- [中国历代人物传记资料库：王翱（CBDB 274342）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274342&o=json)
 - [中国历代人物传记资料库：王紀綱（CBDB 274338）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274338&o=json)
 - [中国历代人物传记资料库：王明（CBDB 274337）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274337&o=json)
 - [中国历代人物传记资料库：王文貴（CBDB 274336）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274336&o=json)
+- [中国历代人物传记资料库：王斅（CBDB 274343）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274343&o=json)

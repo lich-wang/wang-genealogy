@@ -4,7 +4,7 @@ id: p_FL6Az72NGqaTwTmAdfMBte
 status: active
 merged_into: null
 display_name: 王懋德
-revision: 4
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -190,7 +190,118 @@ relationships:
         display_name: 王祿
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_dhixAaJgh7-lhqKQB9m7c8
+        subject_person_id: p_5AAghVGFQgSiJ1wrgd9PyC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_FL6Az72NGqaTwTmAdfMBte
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gN3Zeu5n850bPVJJujbsqm
+          claim_id: c_dhixAaJgh7-lhqKQB9m7c8
+          source_id: s_KnQn5NPWcnMCN-9wys2W8x
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126854 王懋德）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_KnQn5NPWcnMCN-9wys2W8x
+            source_type: api_record
+            title: 中国历代人物传记资料库：王懋修（CBDB 334284）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334284&o=json
+            external_identifier: CBDB:334284
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5AAghVGFQgSiJ1wrgd9PyC
+        status: active
+        display_name: 王懋修
+        merged_into_person_id: null
+    - claim:
+        id: c_NoQoYD-6xGrkJtRsBLkN-D
+        subject_person_id: p_FL6Az72NGqaTwTmAdfMBte
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_GwYfdruF8C5JeHuLHvGeEV
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1noJfHtie2k_RI9sAxhcUJ
+          claim_id: c_NoQoYD-6xGrkJtRsBLkN-D
+          source_id: s_fU9YWU_bH6fx-BQN7_qYzz
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126854 王懋德）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_fU9YWU_bH6fx-BQN7_qYzz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王懋功（CBDB 334282）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334282&o=json
+            external_identifier: CBDB:334282
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GwYfdruF8C5JeHuLHvGeEV
+        status: active
+        display_name: 王懋功
+        merged_into_person_id: null
+    - claim:
+        id: c_Uxl-LyA7ZHnfOtRUM4bnin
+        subject_person_id: p_FL6Az72NGqaTwTmAdfMBte
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ockdWwnfv8UFMyT3oqBGPN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UAZFmr4WAWfzEDyOZNjydn
+          claim_id: c_Uxl-LyA7ZHnfOtRUM4bnin
+          source_id: s_9jXeCD1FVBonYbTdv0Y_17
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126854 王懋德）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_9jXeCD1FVBonYbTdv0Y_17
+            source_type: api_record
+            title: 中国历代人物传记资料库：王懋昭（CBDB 334283）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334283&o=json
+            external_identifier: CBDB:334283
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ockdWwnfv8UFMyT3oqBGPN
+        status: active
+        display_name: 王懋昭
+        merged_into_person_id: null
 ---
 
 # 王懋德
@@ -211,6 +322,9 @@ relationships:
 | parents | p_iK7J2v9nYEqAqfNJHxwFuC | 王良弼 | accepted |
 | ancestors | p_DG3mQvkRF6cAieQLfbw7xA | 王賓 | accepted |
 | ancestors | p_SAm8qh9b4YSVEVKhd8CvU4 | 王祿 | accepted |
+| other | p_5AAghVGFQgSiJ1wrgd9PyC | 王懋修 | accepted |
+| other | p_GwYfdruF8C5JeHuLHvGeEV | 王懋功 | accepted |
+| other | p_ockdWwnfv8UFMyT3oqBGPN | 王懋昭 | accepted |
 
 ## 外部来源
 
@@ -218,3 +332,6 @@ relationships:
 - [中国历代人物传记资料库：王良弼（CBDB 334279）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334279&o=json)
 - [中国历代人物传记资料库：王祿（CBDB 334276）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334276&o=json)
 - [中国历代人物传记资料库：王懋德（CBDB 126854）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126854&o=json)
+- [中国历代人物传记资料库：王懋功（CBDB 334282）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334282&o=json)
+- [中国历代人物传记资料库：王懋修（CBDB 334284）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334284&o=json)
+- [中国历代人物传记资料库：王懋昭（CBDB 334283）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334283&o=json)

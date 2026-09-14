@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王本
 cbdb_id: 257534
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -251,6 +251,43 @@ relationships:
         status: active
         display_name: 王鴻儒
         merged_into_person_id: null
+    - claim:
+        id: c_RHmUIqWqDTPf2e-8F8f1Sa
+        subject_person_id: p_PAQnJKUX1HHCzAwrFTb5md
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_MvDs1UbsPqDXB7VXxPYiJs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3P_eL5NdM_uWnSMZwpfRuw
+          claim_id: c_RHmUIqWqDTPf2e-8F8f1Sa
+          source_id: s_Wn_Z_N28brbOzb8PncipnI
+          stance: supports
+          locator: CBDB：兄弟 王鸿儒（33864）之父／母 王本
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鴻漸 与 王鸿儒 为同胞（CBDB 记「兄」），王鸿儒 之父／母即 王鴻漸 之父／母。
+          source:
+            id: s_Wn_Z_N28brbOzb8PncipnI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鴻漸（CBDB 33865）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33865&o=json
+            external_identifier: CBDB:33865
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MvDs1UbsPqDXB7VXxPYiJs
+        status: active
+        display_name: 王鴻漸
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -277,11 +314,13 @@ relationships:
 | parents | p_Ns4Cdmr9SZRQforztCwkrA | 王成 | accepted |
 | children | p_Wdd9WrspYiEE72NGMNp75f | 王鸿儒 | accepted |
 | children | p_bwdhzsnM77a9YN3tYyTmwB | 王鴻儒 | accepted |
+| children | p_MvDs1UbsPqDXB7VXxPYiJs | 王鴻漸 | accepted |
 
 ## 外部来源
 
 - [维基数据：王本（Q45491815）](https://www.wikidata.org/wiki/Q45491815)
 - [维基数据：王成（Q45491751）](https://www.wikidata.org/wiki/Q45491751)
 - [维基数据：王鸿儒（Q15933067）](https://www.wikidata.org/wiki/Q15933067)
+- [中国历代人物传记资料库：王鴻漸（CBDB 33865）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33865&o=json)
 - [中国历代人物传记资料库：王鴻儒（CBDB 33864）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=33864&o=json)
 - [CBDB 中国历代人物传记资料库：王本（257534）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257534&o=json)

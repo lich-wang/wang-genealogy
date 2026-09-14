@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王洪舒
 cbdb_id: 280886
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_deC8lnaZUvE7OkWWWpT7m6
+        subject_person_id: p_E31oomNBRBVCzfypYEt5JV
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_GWbyowL6he2D9D7Fmw5gbM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YOy-IXW-Mgc1_-KsEcKECa
+          claim_id: c_deC8lnaZUvE7OkWWWpT7m6
+          source_id: s_R7z3CE64-tcE6oDCpw_hfp
+          stance: supports
+          locator: CBDB：兄弟 王度（198501）之父／母 王嘉謀
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王洪舒 与 王度 为同胞（CBDB 记「弟」），王度 之父／母即 王洪舒 之父／母。
+          source:
+            id: s_R7z3CE64-tcE6oDCpw_hfp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王洪舒（CBDB 280886）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280886&o=json
+            external_identifier: CBDB:280886
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_E31oomNBRBVCzfypYEt5JV
+        status: active
+        display_name: 王嘉謀
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_t4dGqZlvaNyc6yuxTX_Lyw
+        subject_person_id: p_GWbyowL6he2D9D7Fmw5gbM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_J9N7hzaFrJkzxknueiQ82Y
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_q53o_M1VwVAJFFGwRg4Xii
+          claim_id: c_t4dGqZlvaNyc6yuxTX_Lyw
+          source_id: s_R7z3CE64-tcE6oDCpw_hfp
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 198501 王度）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_R7z3CE64-tcE6oDCpw_hfp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王洪舒（CBDB 280886）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280886&o=json
+            external_identifier: CBDB:280886
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_J9N7hzaFrJkzxknueiQ82Y
+        status: active
+        display_name: 王度
+        merged_into_person_id: null
 ---
 
 # 王洪舒
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_E31oomNBRBVCzfypYEt5JV | 王嘉謀 | accepted |
+| other | p_J9N7hzaFrJkzxknueiQ82Y | 王度 | accepted |
 
 ## 外部来源
 

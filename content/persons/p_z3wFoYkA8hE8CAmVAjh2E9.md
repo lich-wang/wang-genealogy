@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王原京
 cbdb_id: 101301
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -167,7 +167,81 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_SGCVUqSXM1vJBnQ1g2x_Nn
+        subject_person_id: p_3LuNqYoMhZBEGLAcVKjuC1
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_z3wFoYkA8hE8CAmVAjh2E9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6ptvA-PI6h7xTA9g9tl_Xp
+          claim_id: c_SGCVUqSXM1vJBnQ1g2x_Nn
+          source_id: s_VYWxMRTTZBO4lZKxlW8Gvl
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 101301 王原京）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_VYWxMRTTZBO4lZKxlW8Gvl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文琰（CBDB 101098）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101098&o=json
+            external_identifier: CBDB:101098
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3LuNqYoMhZBEGLAcVKjuC1
+        status: active
+        display_name: 王文琰
+        merged_into_person_id: null
+    - claim:
+        id: c_jYghaHV1mpdREhULp3lXuP
+        subject_person_id: p_UNN9wRDhTkii9G1Hwvqmu2
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_z3wFoYkA8hE8CAmVAjh2E9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NgkgnicViy-NQQ8H8qtIS-
+          claim_id: c_jYghaHV1mpdREhULp3lXuP
+          source_id: s_4q3Kf9GlfGBzPPwfsRZRVU
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 101301 王原京）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_4q3Kf9GlfGBzPPwfsRZRVU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元佑（CBDB 101057）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101057&o=json
+            external_identifier: CBDB:101057
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_UNN9wRDhTkii9G1Hwvqmu2
+        status: active
+        display_name: 王元佑
+        merged_into_person_id: null
 ---
 
 # 王原京
@@ -187,7 +261,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_3LuNqYoMhZBEGLAcVKjuC1 | 王文琰 | accepted |
+| other | p_UNN9wRDhTkii9G1Hwvqmu2 | 王元佑 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王文琰（CBDB 101098）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101098&o=json)
+- [中国历代人物传记资料库：王元佑（CBDB 101057）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101057&o=json)
 - [中国历代人物传记资料库：王原京（CBDB 101301）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=101301&o=json)

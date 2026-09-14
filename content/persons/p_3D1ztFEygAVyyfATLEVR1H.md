@@ -4,7 +4,7 @@ id: p_3D1ztFEygAVyyfATLEVR1H
 status: active
 merged_into: null
 display_name: 王之棟
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,118 @@ relationships:
         display_name: 王獎
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_k0s-3XMjc3AdCXTagB52H9
+        subject_person_id: p_3D1ztFEygAVyyfATLEVR1H
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RGdzAAiXNPB57eZEMA9dci
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ausYJ5JJC2hMI2EFSs86xM
+          claim_id: c_k0s-3XMjc3AdCXTagB52H9
+          source_id: s_8YGgHBDie1A9AdQ3QwiFbV
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206799 王之棟）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_8YGgHBDie1A9AdQ3QwiFbV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之材（CBDB 223428）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223428&o=json
+            external_identifier: CBDB:223428
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_RGdzAAiXNPB57eZEMA9dci
+        status: active
+        display_name: 王之材
+        merged_into_person_id: null
+    - claim:
+        id: c_PwatC8QELEuKSGG73xfZOI
+        subject_person_id: p_3D1ztFEygAVyyfATLEVR1H
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RGkE7nJ829sNmXsLPHc5JN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_YThM5F2rkmYTjoxrCw-RtR
+          claim_id: c_PwatC8QELEuKSGG73xfZOI
+          source_id: s_PG6f05l5B3FyoqIQPALAxF
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206799 王之棟）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_PG6f05l5B3FyoqIQPALAxF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之楫（CBDB 223429）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223429&o=json
+            external_identifier: CBDB:223429
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_RGkE7nJ829sNmXsLPHc5JN
+        status: active
+        display_name: 王之楫
+        merged_into_person_id: null
+    - claim:
+        id: c_Grjbksm298P4P8Gni2a_fA
+        subject_person_id: p_3D1ztFEygAVyyfATLEVR1H
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_suJYySM6Uc1DV5xUJi1SZW
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5A52VDZHHpYo0D_1ykwpER
+          claim_id: c_Grjbksm298P4P8Gni2a_fA
+          source_id: s_cfYJVV9JPYRy5pjdbZy6UK
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206799 王之棟）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_cfYJVV9JPYRy5pjdbZy6UK
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之梅（CBDB 223430）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223430&o=json
+            external_identifier: CBDB:223430
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_suJYySM6Uc1DV5xUJi1SZW
+        status: active
+        display_name: 王之梅
+        merged_into_person_id: null
 ---
 
 # 王之棟
@@ -245,8 +356,14 @@ relationships:
 | spouses | p_CpR5tJzJXpF5kLXq4yMhqg | 高氏 | accepted |
 | ancestors | p_w8mi7mqMaXMCEUP8CHCXE5 | 王亨 | accepted |
 | ancestors | p_Tof1NpCVHZB8477t7K9DZr | 王獎 | accepted |
+| other | p_RGdzAAiXNPB57eZEMA9dci | 王之材 | accepted |
+| other | p_RGkE7nJ829sNmXsLPHc5JN | 王之楫 | accepted |
+| other | p_suJYySM6Uc1DV5xUJi1SZW | 王之梅 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：高氏(王之棟妻)（CBDB 223427）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223427&o=json)
+- [中国历代人物传记资料库：王之材（CBDB 223428）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223428&o=json)
 - [中国历代人物传记资料库：王之棟（CBDB 206799）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206799&o=json)
+- [中国历代人物传记资料库：王之楫（CBDB 223429）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223429&o=json)
+- [中国历代人物传记资料库：王之梅（CBDB 223430）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223430&o=json)

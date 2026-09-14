@@ -4,7 +4,7 @@ id: p_EvVrQG78QKsrK6h4Ni53GB
 status: active
 merged_into: null
 display_name: 王錀
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_3nnbVVsfusvClcqdazpIMi
+        subject_person_id: p_JYHQSHbJNEj1qbs1Pwnvij
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EvVrQG78QKsrK6h4Ni53GB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HsN7pXzHtJzDlG5eh7y9nU
+          claim_id: c_3nnbVVsfusvClcqdazpIMi
+          source_id: s__eQVmrSM_0aDf8QkbmOEEl
+          stance: supports
+          locator: CBDB：兄弟 王鍇（201376）之父／母 王紀
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王錀 与 王鍇 为同胞（CBDB 记「兄」），王鍇 之父／母即 王錀 之父／母。
+          source:
+            id: s__eQVmrSM_0aDf8QkbmOEEl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王錀（CBDB 271359）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271359&o=json
+            external_identifier: CBDB:271359
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JYHQSHbJNEj1qbs1Pwnvij
+        status: active
+        display_name: 王紀
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_P9PUdIlcAFfOD4F5iHhIls
+        subject_person_id: p_EvVrQG78QKsrK6h4Ni53GB
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zpBDmxnkNUmk6akFW8LRFz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4fpgctF9jbk0jtY2cN4SoT
+          claim_id: c_P9PUdIlcAFfOD4F5iHhIls
+          source_id: s__eQVmrSM_0aDf8QkbmOEEl
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201376 王鍇）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__eQVmrSM_0aDf8QkbmOEEl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王錀（CBDB 271359）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=271359&o=json
+            external_identifier: CBDB:271359
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zpBDmxnkNUmk6akFW8LRFz
+        status: active
+        display_name: 王鍇
+        merged_into_person_id: null
 ---
 
 # 王錀
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_JYHQSHbJNEj1qbs1Pwnvij | 王紀 | accepted |
+| other | p_zpBDmxnkNUmk6akFW8LRFz | 王鍇 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王彥珍
 cbdb_id: 242453
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_gJnGEK1q2T2aCMuSwlzfZr
+        subject_person_id: p_8cA72YUN4szByBjQ7DU6Qa
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_E8zFzGgKtuZr9NNkF21ymA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zm2hrdEOynSp_5vyE-vyp2
+          claim_id: c_gJnGEK1q2T2aCMuSwlzfZr
+          source_id: s_ah6J3Mi2XwqUgh1i2W2jNh
+          stance: supports
+          locator: CBDB：兄弟 王弼（199262）之父／母 王義
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王彥珍 与 王弼 为同胞（CBDB 记「弟」），王弼 之父／母即 王彥珍 之父／母。
+          source:
+            id: s_ah6J3Mi2XwqUgh1i2W2jNh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彥珍（CBDB 242453）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=242453&o=json
+            external_identifier: CBDB:242453
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8cA72YUN4szByBjQ7DU6Qa
+        status: active
+        display_name: 王義
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_sZDWU_waTlLNW-CgY-LfY2
+        subject_person_id: p_E8zFzGgKtuZr9NNkF21ymA
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kx6D7JNFNVC8j5PdXCMLCd
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-qbTSeMlGobN9fz-5eIzEu
+          claim_id: c_sZDWU_waTlLNW-CgY-LfY2
+          source_id: s_ah6J3Mi2XwqUgh1i2W2jNh
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 199262 王弼）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ah6J3Mi2XwqUgh1i2W2jNh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彥珍（CBDB 242453）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=242453&o=json
+            external_identifier: CBDB:242453
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kx6D7JNFNVC8j5PdXCMLCd
+        status: active
+        display_name: 王弼
+        merged_into_person_id: null
 ---
 
 # 王彥珍
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_8cA72YUN4szByBjQ7DU6Qa | 王義 | accepted |
+| other | p_kx6D7JNFNVC8j5PdXCMLCd | 王弼 | accepted |
 
 ## 外部来源
 

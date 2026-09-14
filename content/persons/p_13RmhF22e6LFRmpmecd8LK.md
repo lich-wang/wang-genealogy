@@ -4,7 +4,7 @@ id: p_13RmhF22e6LFRmpmecd8LK
 status: active
 merged_into: null
 display_name: 王忠
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,117 @@ relationships:
         status: active
         display_name: 王浩
         merged_into_person_id: null
+    - claim:
+        id: c_hr3MoF4OCq7Md0rhovysdF
+        subject_person_id: p_13RmhF22e6LFRmpmecd8LK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DLyb3C62rdLYmnJuC3XQzP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_--TTt6MPvLqZCzT37yi_72
+          claim_id: c_hr3MoF4OCq7Md0rhovysdF
+          source_id: s_v2I3dAT52sKz9Og9hKZaSo
+          stance: supports
+          locator: CBDB：兄弟 王浩（199153）之父／母 王忠
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王渭 与 王浩 为同胞（CBDB 记「兄」），王浩 之父／母即 王渭 之父／母。
+          source:
+            id: s_v2I3dAT52sKz9Og9hKZaSo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王渭（CBDB 237842）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237842&o=json
+            external_identifier: CBDB:237842
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DLyb3C62rdLYmnJuC3XQzP
+        status: active
+        display_name: 王渭
+        merged_into_person_id: null
+    - claim:
+        id: c_lIDqWMLTUI0v19MaDP5wwf
+        subject_person_id: p_13RmhF22e6LFRmpmecd8LK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_M1FLD6ZXKNf3ckMNCVU7cE
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_INUpNmg9oSnwMvQrd-B-l0
+          claim_id: c_lIDqWMLTUI0v19MaDP5wwf
+          source_id: s_TM6GX1ywcHeQ8Vy0CFoBDj
+          stance: supports
+          locator: CBDB：兄弟 王浩（199153）之父／母 王忠
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王瀚 与 王浩 为同胞（CBDB 记「兄」），王浩 之父／母即 王瀚 之父／母。
+          source:
+            id: s_TM6GX1ywcHeQ8Vy0CFoBDj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瀚（CBDB 237820）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237820&o=json
+            external_identifier: CBDB:237820
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_M1FLD6ZXKNf3ckMNCVU7cE
+        status: active
+        display_name: 王瀚
+        merged_into_person_id: null
+    - claim:
+        id: c_Z4_Y9EHgI1gSmJslxoiJvs
+        subject_person_id: p_13RmhF22e6LFRmpmecd8LK
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mKCVx5cBKFqteh61qQUhmL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ThcnSBnCu3onTbsQe204aL
+          claim_id: c_Z4_Y9EHgI1gSmJslxoiJvs
+          source_id: s_iLK0eMlAye83RhQp6azSsT
+          stance: supports
+          locator: CBDB：兄弟 王浩（199153）之父／母 王忠
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王淮 与 王浩 为同胞（CBDB 记「兄」），王浩 之父／母即 王淮 之父／母。
+          source:
+            id: s_iLK0eMlAye83RhQp6azSsT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王淮（CBDB 237831）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237831&o=json
+            external_identifier: CBDB:237831
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mKCVx5cBKFqteh61qQUhmL
+        status: active
+        display_name: 王淮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +235,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_rEM4FmnErK6MdZnXyWnxsa | 王浩 | accepted |
+| children | p_DLyb3C62rdLYmnJuC3XQzP | 王渭 | accepted |
+| children | p_M1FLD6ZXKNf3ckMNCVU7cE | 王瀚 | accepted |
+| children | p_mKCVx5cBKFqteh61qQUhmL | 王淮 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王瀚（CBDB 237820）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237820&o=json)
+- [中国历代人物传记资料库：王淮（CBDB 237831）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237831&o=json)
+- [中国历代人物传记资料库：王渭（CBDB 237842）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237842&o=json)
 - [中国历代人物传记资料库：王忠（CBDB 237775）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237775&o=json)

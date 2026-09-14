@@ -4,7 +4,7 @@ id: p_xRgAFF1QF89F297F8SmuRt
 status: active
 merged_into: null
 display_name: 王穀
-revision: 4
+revision: 9
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,192 @@ relationships:
         display_name: 王永
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_tyjTk99jxPcAh8gX02HSKf
+        subject_person_id: p_2F1WgmQC7jwQ2DgZhQXWJf
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xRgAFF1QF89F297F8SmuRt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NtkrPJ-d8XciY5-Q3Qxsjm
+          claim_id: c_tyjTk99jxPcAh8gX02HSKf
+          source_id: s_28klMb2vBwMDSnT4XqkTQ-
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198288 王穀）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_28klMb2vBwMDSnT4XqkTQ-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王菽（CBDB 252324）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252324&o=json
+            external_identifier: CBDB:252324
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2F1WgmQC7jwQ2DgZhQXWJf
+        status: active
+        display_name: 王菽
+        merged_into_person_id: null
+    - claim:
+        id: c_K6dIRIqa0DmKnhqSnthQV3
+        subject_person_id: p_6qxFfRnLJboWpTNND2x8iJ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xRgAFF1QF89F297F8SmuRt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tUKcdMdkNN8iHeGi7zFMWB
+          claim_id: c_K6dIRIqa0DmKnhqSnthQV3
+          source_id: s_cwnpSR5NVN_p_FkKbxyO6z
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198288 王穀）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_cwnpSR5NVN_p_FkKbxyO6z
+            source_type: api_record
+            title: 中国历代人物传记资料库：王符（CBDB 252290）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252290&o=json
+            external_identifier: CBDB:252290
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6qxFfRnLJboWpTNND2x8iJ
+        status: active
+        display_name: 王符
+        merged_into_person_id: null
+    - claim:
+        id: c_kOMURL40FKKsXRLUCpCfIR
+        subject_person_id: p_JLp2cJV9UDPXcdhx7Hi5Gp
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xRgAFF1QF89F297F8SmuRt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_q6Q8k6X-N5m1LYZnZPjcq3
+          claim_id: c_kOMURL40FKKsXRLUCpCfIR
+          source_id: s_L8Cz8xViOWI0me6U1Yh5Ys
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198288 王穀）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_L8Cz8xViOWI0me6U1Yh5Ys
+            source_type: api_record
+            title: 中国历代人物传记资料库：王稷（CBDB 252313）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252313&o=json
+            external_identifier: CBDB:252313
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JLp2cJV9UDPXcdhx7Hi5Gp
+        status: active
+        display_name: 王稷
+        merged_into_person_id: null
+    - claim:
+        id: c_C5W7jEnuF6gZVS3yCKqqsP
+        subject_person_id: p_etQPLicaZnFHFQDtpCXzZq
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xRgAFF1QF89F297F8SmuRt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9rWRd8St37k5GG1cu9hopD
+          claim_id: c_C5W7jEnuF6gZVS3yCKqqsP
+          source_id: s_9aHJD8GbbMzKivlHxodRZ2
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198288 王穀）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_9aHJD8GbbMzKivlHxodRZ2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王節（CBDB 252302）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252302&o=json
+            external_identifier: CBDB:252302
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_etQPLicaZnFHFQDtpCXzZq
+        status: active
+        display_name: 王節
+        merged_into_person_id: null
+    - claim:
+        id: c_HdRXkHmqmmkKk2uG-ANMLr
+        subject_person_id: p_qFupMgJC6vXJ4bTwnG4fEk
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xRgAFF1QF89F297F8SmuRt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Xi6dQpGT8Be-3m-AzjA9Dz
+          claim_id: c_HdRXkHmqmmkKk2uG-ANMLr
+          source_id: s_U8H5Ge1K6fqwwoN8MIVwkn
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198288 王穀）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_U8H5Ge1K6fqwwoN8MIVwkn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王粟（CBDB 252279）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252279&o=json
+            external_identifier: CBDB:252279
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qFupMgJC6vXJ4bTwnG4fEk
+        status: active
+        display_name: 王粟
+        merged_into_person_id: null
 ---
 
 # 王穀
@@ -240,10 +425,20 @@ relationships:
 | parents | p_iV3ZGAEu7iRtxc7pxEmjVQ | 王宴 | accepted |
 | ancestors | p_DQEsnKfpdKWL4QhYG8576x | 王文信 | accepted |
 | ancestors | p_oa9Yt7tzzYPLmaeXcSKbdZ | 王永 | accepted |
+| other | p_2F1WgmQC7jwQ2DgZhQXWJf | 王菽 | accepted |
+| other | p_6qxFfRnLJboWpTNND2x8iJ | 王符 | accepted |
+| other | p_JLp2cJV9UDPXcdhx7Hi5Gp | 王稷 | accepted |
+| other | p_etQPLicaZnFHFQDtpCXzZq | 王節 | accepted |
+| other | p_qFupMgJC6vXJ4bTwnG4fEk | 王粟 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王符（CBDB 252290）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252290&o=json)
 - [中国历代人物传记资料库：王穀（CBDB 198288）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198288&o=json)
+- [中国历代人物传记资料库：王稷（CBDB 252313）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252313&o=json)
+- [中国历代人物传记资料库：王節（CBDB 252302）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252302&o=json)
+- [中国历代人物传记资料库：王菽（CBDB 252324）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252324&o=json)
+- [中国历代人物传记资料库：王粟（CBDB 252279）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252279&o=json)
 - [中国历代人物传记资料库：王文信（CBDB 252224）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252224&o=json)
 - [中国历代人物传记资料库：王宴（CBDB 252246）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252246&o=json)
 - [中国历代人物传记资料库：王永（CBDB 252235）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=252235&o=json)

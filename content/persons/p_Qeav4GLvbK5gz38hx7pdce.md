@@ -4,7 +4,7 @@ id: p_Qeav4GLvbK5gz38hx7pdce
 status: active
 merged_into: null
 display_name: 王好學
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_43FuC0JAQrQ9ywEFhqrGHw
+        subject_person_id: p_XWoQFU6m26umasN1nUqzCk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Qeav4GLvbK5gz38hx7pdce
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_L0S4Hxeyg6n5P_dfQUDUNr
+          claim_id: c_43FuC0JAQrQ9ywEFhqrGHw
+          source_id: s_OjOYAPzRa9VVfe_3RyNPFb
+          stance: supports
+          locator: CBDB：兄弟 王學（203587）之父／母 王珵
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王好學 与 王學 为同胞（CBDB 记「弟」），王學 之父／母即 王好學 之父／母。
+          source:
+            id: s_OjOYAPzRa9VVfe_3RyNPFb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王好學（CBDB 306924）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306924&o=json
+            external_identifier: CBDB:306924
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_XWoQFU6m26umasN1nUqzCk
+        status: active
+        display_name: 王珵
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_TFWfLc_tJ2WftPuPVUzKgo
+        subject_person_id: p_Qeav4GLvbK5gz38hx7pdce
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mj43p62dQVDfJdFrwRMJq5
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mx5em21YxmOnatKsYCnRsO
+          claim_id: c_TFWfLc_tJ2WftPuPVUzKgo
+          source_id: s_OjOYAPzRa9VVfe_3RyNPFb
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203587 王學）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_OjOYAPzRa9VVfe_3RyNPFb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王好學（CBDB 306924）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=306924&o=json
+            external_identifier: CBDB:306924
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mj43p62dQVDfJdFrwRMJq5
+        status: active
+        display_name: 王學
+        merged_into_person_id: null
 ---
 
 # 王好學
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_XWoQFU6m26umasN1nUqzCk | 王珵 | accepted |
+| other | p_mj43p62dQVDfJdFrwRMJq5 | 王學 | accepted |
 
 ## 外部来源
 

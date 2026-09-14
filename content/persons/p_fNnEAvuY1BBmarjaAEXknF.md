@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王時和
 cbdb_id: 207820
-revision: 5
+revision: 8
 properties:
   - predicate: bio.summary
     recommended:
@@ -272,7 +272,118 @@ relationships:
         display_name: 王甫
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_1CZOcxPuyvVFf7gBlTIwf0
+        subject_person_id: p_2zcfbTr7Ft9dbmfCtdJEev
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fNnEAvuY1BBmarjaAEXknF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Dd55kXsBXPKTimJnohqROq
+          claim_id: c_1CZOcxPuyvVFf7gBlTIwf0
+          source_id: s_1dEOK9D49kgtQ0MoRBuMUT
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207820 王時和）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_1dEOK9D49kgtQ0MoRBuMUT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王時興（CBDB 236522）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236522&o=json
+            external_identifier: CBDB:236522
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2zcfbTr7Ft9dbmfCtdJEev
+        status: active
+        display_name: 王時興
+        merged_into_person_id: null
+    - claim:
+        id: c_cGWhM9eGk1CEYTTkWpld48
+        subject_person_id: p_DUzPjdUVWKYjutuFiC5GRt
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fNnEAvuY1BBmarjaAEXknF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_o3LAw1BE3aTszHJGx27jcI
+          claim_id: c_cGWhM9eGk1CEYTTkWpld48
+          source_id: s_9CKuiuAZKO2rhH7Lc7RrW4
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207820 王時和）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_9CKuiuAZKO2rhH7Lc7RrW4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王時太（CBDB 236521）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236521&o=json
+            external_identifier: CBDB:236521
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DUzPjdUVWKYjutuFiC5GRt
+        status: active
+        display_name: 王時太
+        merged_into_person_id: null
+    - claim:
+        id: c_YDOvOdZv9QBBzgpG6VYUR6
+        subject_person_id: p_RSQHpN1w6cmsNZi8icjSo3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fNnEAvuY1BBmarjaAEXknF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dJ1qvyDxi-ynpyukZ_I-AV
+          claim_id: c_YDOvOdZv9QBBzgpG6VYUR6
+          source_id: s_P6HPzlIgnkK8ElptSupS3m
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207820 王時和）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_P6HPzlIgnkK8ElptSupS3m
+            source_type: api_record
+            title: 中国历代人物传记资料库：王時晟（CBDB 236523）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236523&o=json
+            external_identifier: CBDB:236523
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_RSQHpN1w6cmsNZi8icjSo3
+        status: active
+        display_name: 王時晟
+        merged_into_person_id: null
 ---
 
 # 王時和
@@ -295,11 +406,17 @@ relationships:
 | children | p_ehAQTX99pWAsbKpM9FwW96 | 王憲 | accepted |
 | ancestors | p_2yTQ8hH65SYjMEBxTsJ81R | 王秉 | accepted |
 | ancestors | p_UN3W8erPZ4ARfA1xMTG1Lx | 王甫 | accepted |
+| other | p_2zcfbTr7Ft9dbmfCtdJEev | 王時興 | accepted |
+| other | p_DUzPjdUVWKYjutuFiC5GRt | 王時太 | accepted |
+| other | p_RSQHpN1w6cmsNZi8icjSo3 | 王時晟 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王秉（CBDB 236515）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236515&o=json)
 - [中国历代人物传记资料库：王甫（CBDB 236516）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236516&o=json)
+- [中国历代人物传记资料库：王時晟（CBDB 236523）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236523&o=json)
 - [中国历代人物传记资料库：王時和（CBDB 207820）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207820&o=json)
+- [中国历代人物传记资料库：王時太（CBDB 236521）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236521&o=json)
+- [中国历代人物传记资料库：王時興（CBDB 236522）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236522&o=json)
 - [中国历代人物传记资料库：王思忠（CBDB 236517）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236517&o=json)
 - [中国历代人物传记资料库：王憲（CBDB 236524）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236524&o=json)

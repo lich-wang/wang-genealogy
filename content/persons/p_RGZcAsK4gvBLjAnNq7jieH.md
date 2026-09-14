@@ -4,7 +4,7 @@ id: p_RGZcAsK4gvBLjAnNq7jieH
 status: active
 merged_into: null
 display_name: 王貴
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,117 @@ relationships:
         status: active
         display_name: 王雯
         merged_into_person_id: null
+    - claim:
+        id: c_zH22DNwPgkWGPd21tneiV8
+        subject_person_id: p_RGZcAsK4gvBLjAnNq7jieH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7yvrn2CESKu5EfHRBGQ4bK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_giKb-z6aFnsvz1tvypETku
+          claim_id: c_zH22DNwPgkWGPd21tneiV8
+          source_id: s_TonPdypro1l8NLQy55IW-L
+          stance: supports
+          locator: CBDB：兄弟 王雯（198731）之父／母 王貴
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王福 与 王雯 为同胞（CBDB 记「兄」），王雯 之父／母即 王福 之父／母。
+          source:
+            id: s_TonPdypro1l8NLQy55IW-L
+            source_type: api_record
+            title: 中国历代人物传记资料库：王福（CBDB 309162）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309162&o=json
+            external_identifier: CBDB:309162
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7yvrn2CESKu5EfHRBGQ4bK
+        status: active
+        display_name: 王福
+        merged_into_person_id: null
+    - claim:
+        id: c_L9bDZudCjjvM_1P-7vubf1
+        subject_person_id: p_RGZcAsK4gvBLjAnNq7jieH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VmMsLry5PjjbAY5QMForp6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_80svr7xlRCwVV8i1cHRqnZ
+          claim_id: c_L9bDZudCjjvM_1P-7vubf1
+          source_id: s_goAJfHodBtVZ7Eee4hWaMQ
+          stance: supports
+          locator: CBDB：兄弟 王雯（198731）之父／母 王貴
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王章 与 王雯 为同胞（CBDB 记「兄」），王雯 之父／母即 王章 之父／母。
+          source:
+            id: s_goAJfHodBtVZ7Eee4hWaMQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王章（CBDB 309151）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309151&o=json
+            external_identifier: CBDB:309151
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VmMsLry5PjjbAY5QMForp6
+        status: active
+        display_name: 王章
+        merged_into_person_id: null
+    - claim:
+        id: c_zZm9uUIVkXslIqgWX-dAtB
+        subject_person_id: p_RGZcAsK4gvBLjAnNq7jieH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_whi7BPRQ5A3rQiSFxSpdGY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UWkckFq7vvWvM4gL8bs7RZ
+          claim_id: c_zZm9uUIVkXslIqgWX-dAtB
+          source_id: s_QMW3qY025nuB0PJ2FmTHG_
+          stance: supports
+          locator: CBDB：兄弟 王雯（198731）之父／母 王貴
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王玘 与 王雯 为同胞（CBDB 记「弟」），王雯 之父／母即 王玘 之父／母。
+          source:
+            id: s_QMW3qY025nuB0PJ2FmTHG_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玘（CBDB 309140）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309140&o=json
+            external_identifier: CBDB:309140
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_whi7BPRQ5A3rQiSFxSpdGY
+        status: active
+        display_name: 王玘
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +246,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_qADtxjrVEChTrGk5M7bGg2 | 王雯 | accepted |
+| children | p_7yvrn2CESKu5EfHRBGQ4bK | 王福 | accepted |
+| children | p_VmMsLry5PjjbAY5QMForp6 | 王章 | accepted |
+| children | p_whi7BPRQ5A3rQiSFxSpdGY | 王玘 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王福（CBDB 309162）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309162&o=json)
 - [中国历代人物传记资料库：王貴（CBDB 309095）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309095&o=json)
+- [中国历代人物传记资料库：王玘（CBDB 309140）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309140&o=json)
 - [中国历代人物传记资料库：王雯（CBDB 198731）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198731&o=json)
+- [中国历代人物传记资料库：王章（CBDB 309151）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=309151&o=json)

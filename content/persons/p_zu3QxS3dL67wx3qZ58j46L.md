@@ -4,7 +4,7 @@ id: p_zu3QxS3dL67wx3qZ58j46L
 status: active
 merged_into: null
 display_name: 王烈
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_atFlXzu03HVHrH0-3Lc8fK
+        subject_person_id: p_Zc7mv2e4ZRM13rfjpkZkya
+        claim_kind: relationship
+        predicate: kinship.parent_of
+        object_person_id: p_zu3QxS3dL67wx3qZ58j46L
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qcDzY8sbZb2PfERyDqBmdq
+          claim_id: c_atFlXzu03HVHrH0-3Lc8fK
+          source_id: s_uS4YULKSrRWQS63OT7bDSp
+          stance: supports
+          locator: CBDB：兄弟 王爌（68280）之父／母 王玼
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王烈 与 王爌 为同胞（CBDB 记「弟」），王爌 之父／母即 王烈 之父／母。
+          source:
+            id: s_uS4YULKSrRWQS63OT7bDSp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王烈（CBDB 272148）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272148&o=json
+            external_identifier: CBDB:272148
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Zc7mv2e4ZRM13rfjpkZkya
+        status: active
+        display_name: 王玼
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_RmjGYnXWYQ810eZ5KFMQiN
+        subject_person_id: p_YFXpD1H4mYzD71g98dxSNt
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zu3QxS3dL67wx3qZ58j46L
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vJiFMhRQ8cyT5wDmREWZ7L
+          claim_id: c_RmjGYnXWYQ810eZ5KFMQiN
+          source_id: s_uS4YULKSrRWQS63OT7bDSp
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 68280 王爌）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_uS4YULKSrRWQS63OT7bDSp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王烈（CBDB 272148）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272148&o=json
+            external_identifier: CBDB:272148
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_YFXpD1H4mYzD71g98dxSNt
+        status: active
+        display_name: 王爌
+        merged_into_person_id: null
 ---
 
 # 王烈
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Zc7mv2e4ZRM13rfjpkZkya | 王玼 | accepted |
+| other | p_YFXpD1H4mYzD71g98dxSNt | 王爌 | accepted |
 
 ## 外部来源
 

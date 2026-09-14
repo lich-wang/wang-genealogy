@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王恆中
 cbdb_id: 304154
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_vBQsfY0QduKWLXQuQ5Sk2f
+        subject_person_id: p_EL1xAzh69eBckvCoFLRC2M
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_r6H9zhBwHH7pzeWxF3frCR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_DuNyGQhr3En_RxtFr7WMoh
+          claim_id: c_vBQsfY0QduKWLXQuQ5Sk2f
+          source_id: s__W-eGFZ0N8GcXxYOxmVeCH
+          stance: supports
+          locator: CBDB：兄弟 王惟中（203400）之父／母 王紀
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王恆中 与 王惟中 为同胞（CBDB 记「弟」），王惟中 之父／母即 王恆中 之父／母。
+          source:
+            id: s__W-eGFZ0N8GcXxYOxmVeCH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恆中（CBDB 304154）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304154&o=json
+            external_identifier: CBDB:304154
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EL1xAzh69eBckvCoFLRC2M
+        status: active
+        display_name: 王紀
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_4sOh_dp9MlwrKrHFOwyEtg
+        subject_person_id: p_V5Z6bC9P1YiqepVeP78NQA
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_r6H9zhBwHH7pzeWxF3frCR
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FqfSboUIPuZHqVeAAbQMZ8
+          claim_id: c_4sOh_dp9MlwrKrHFOwyEtg
+          source_id: s__W-eGFZ0N8GcXxYOxmVeCH
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 203400 王惟中）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__W-eGFZ0N8GcXxYOxmVeCH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恆中（CBDB 304154）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304154&o=json
+            external_identifier: CBDB:304154
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_V5Z6bC9P1YiqepVeP78NQA
+        status: active
+        display_name: 王惟中
+        merged_into_person_id: null
 ---
 
 # 王恆中
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_EL1xAzh69eBckvCoFLRC2M | 王紀 | accepted |
+| other | p_V5Z6bC9P1YiqepVeP78NQA | 王惟中 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_an8AZhFejWmrpm1FYeSJN6
 status: active
 merged_into: null
 display_name: 王陽
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,80 @@ relationships:
         status: active
         display_name: 王之士
         merged_into_person_id: null
+    - claim:
+        id: c_lMu5JzRiT4vnyU5G_4yeWA
+        subject_person_id: p_an8AZhFejWmrpm1FYeSJN6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9A6XM8Uaptyy4iM458C7i2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hkUdJv0LM1xmS1aQS5aGY2
+          claim_id: c_lMu5JzRiT4vnyU5G_4yeWA
+          source_id: s_gFjS9_0BbEFdhaJqiKh2ma
+          stance: supports
+          locator: CBDB：兄弟 王之士（126462）之父／母 王陽
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王之才 与 王之士 为同胞（CBDB 记「兄」），王之士 之父／母即 王之才 之父／母。
+          source:
+            id: s_gFjS9_0BbEFdhaJqiKh2ma
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之才（CBDB 334261）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334261&o=json
+            external_identifier: CBDB:334261
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9A6XM8Uaptyy4iM458C7i2
+        status: active
+        display_name: 王之才
+        merged_into_person_id: null
+    - claim:
+        id: c_pG8Jr2GWcjgRgiqXgyKPD2
+        subject_person_id: p_an8AZhFejWmrpm1FYeSJN6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QEWpFKiKZc1EfE8M4rwzsP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zw4u6pcfUbxI6YdAnbOIz8
+          claim_id: c_pG8Jr2GWcjgRgiqXgyKPD2
+          source_id: s_w1v7-P4P2pfo-qtjBot2Md
+          stance: supports
+          locator: CBDB：兄弟 王之士（126462）之父／母 王陽
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王之賢 与 王之士 为同胞（CBDB 记「兄」），王之士 之父／母即 王之賢 之父／母。
+          source:
+            id: s_w1v7-P4P2pfo-qtjBot2Md
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之賢（CBDB 334260）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334260&o=json
+            external_identifier: CBDB:334260
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_QEWpFKiKZc1EfE8M4rwzsP
+        status: active
+        display_name: 王之賢
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +209,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_2WkB5UHe7A5kLMMt82Na3L | 王之士 | accepted |
+| children | p_9A6XM8Uaptyy4iM458C7i2 | 王之才 | accepted |
+| children | p_QEWpFKiKZc1EfE8M4rwzsP | 王之賢 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王陽（CBDB 334257）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334257&o=json)
+- [中国历代人物传记资料库：王之才（CBDB 334261）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334261&o=json)
 - [中国历代人物传记资料库：王之士（CBDB 126462）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126462&o=json)
+- [中国历代人物传记资料库：王之賢（CBDB 334260）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=334260&o=json)

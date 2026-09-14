@@ -4,7 +4,7 @@ id: p_W9ZtR1XxvGkrodjCFZhZJj
 status: active
 merged_into: null
 display_name: 王朋
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,117 @@ relationships:
         status: active
         display_name: 王克復
         merged_into_person_id: null
+    - claim:
+        id: c_spgv6OUqePkTtxBJoPZyND
+        subject_person_id: p_W9ZtR1XxvGkrodjCFZhZJj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7YZKZBichdHTL36MeU67jC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Ck_UgcpgN6Nl9NPeylzcGq
+          claim_id: c_spgv6OUqePkTtxBJoPZyND
+          source_id: s_dhLl0qm2DRQoRFwzE1gazJ
+          stance: supports
+          locator: CBDB：兄弟 王克復（126540）之父／母 王朋
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王徽 与 王克復 为同胞（CBDB 记「弟」），王克復 之父／母即 王徽 之父／母。
+          source:
+            id: s_dhLl0qm2DRQoRFwzE1gazJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王徽（CBDB 293473）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293473&o=json
+            external_identifier: CBDB:293473
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7YZKZBichdHTL36MeU67jC
+        status: active
+        display_name: 王徽
+        merged_into_person_id: null
+    - claim:
+        id: c_6kXu2CJCQUeB91NJ4TnaVm
+        subject_person_id: p_W9ZtR1XxvGkrodjCFZhZJj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PwftqoUXRDwthFpERn2N5X
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_daK8vfZvgvt3pJm1lS4yFG
+          claim_id: c_6kXu2CJCQUeB91NJ4TnaVm
+          source_id: s_Ti0G2gswOt-s_a3pmY6pFy
+          stance: supports
+          locator: CBDB：兄弟 王克復（126540）之父／母 王朋
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王敦 与 王克復 为同胞（CBDB 记「弟」），王克復 之父／母即 王敦 之父／母。
+          source:
+            id: s_Ti0G2gswOt-s_a3pmY6pFy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敦（CBDB 293462）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293462&o=json
+            external_identifier: CBDB:293462
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PwftqoUXRDwthFpERn2N5X
+        status: active
+        display_name: 王敦
+        merged_into_person_id: null
+    - claim:
+        id: c_Z4-fYpzaGhymuqymUk-AmT
+        subject_person_id: p_W9ZtR1XxvGkrodjCFZhZJj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ioFXfvCXGCdvN2b83UCpmb
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3gXImx2-ZmjGk9yqb7b7g-
+          claim_id: c_Z4-fYpzaGhymuqymUk-AmT
+          source_id: s_0ZzVyX56w-pTZctYaNpmDq
+          stance: supports
+          locator: CBDB：兄弟 王克復（126540）之父／母 王朋
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王敏 与 王克復 为同胞（CBDB 记「弟」），王克復 之父／母即 王敏 之父／母。
+          source:
+            id: s_0ZzVyX56w-pTZctYaNpmDq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敏（CBDB 293451）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293451&o=json
+            external_identifier: CBDB:293451
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ioFXfvCXGCdvN2b83UCpmb
+        status: active
+        display_name: 王敏
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +246,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_AV2ZgKZQXWPMrvp5xNJqFj | 王克復 | accepted |
+| children | p_7YZKZBichdHTL36MeU67jC | 王徽 | accepted |
+| children | p_PwftqoUXRDwthFpERn2N5X | 王敦 | accepted |
+| children | p_ioFXfvCXGCdvN2b83UCpmb | 王敏 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王敦（CBDB 293462）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293462&o=json)
+- [中国历代人物传记资料库：王徽（CBDB 293473）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293473&o=json)
 - [中国历代人物传记资料库：王克復（CBDB 126540）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126540&o=json)
+- [中国历代人物传记资料库：王敏（CBDB 293451）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293451&o=json)
 - [中国历代人物传记资料库：王朋（CBDB 293417）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293417&o=json)

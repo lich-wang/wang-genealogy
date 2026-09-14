@@ -4,7 +4,7 @@ id: p_oCU6m3KhN1qYCRgVAU6mzE
 status: active
 merged_into: null
 display_name: 王嘉賓
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -190,7 +190,81 @@ relationships:
         display_name: 王峻
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_skyomxNB1GUlJc-PLsrlPc
+        subject_person_id: p_YSsBJmFuNZkJBwTRdMV85G
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_oCU6m3KhN1qYCRgVAU6mzE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fV5Ldzxen_G353WNpg2aNz
+          claim_id: c_skyomxNB1GUlJc-PLsrlPc
+          source_id: s_GHscoiRwIOfgT3jB0SLy4A
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126781 王嘉賓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_GHscoiRwIOfgT3jB0SLy4A
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元賓（CBDB 329106）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329106&o=json
+            external_identifier: CBDB:329106
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_YSsBJmFuNZkJBwTRdMV85G
+        status: active
+        display_name: 王元賓
+        merged_into_person_id: null
+    - claim:
+        id: c_kK7RMwzssLxmZh_T7vcf2x
+        subject_person_id: p_miRWGgdwUfGS5JhZC9Zpup
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_oCU6m3KhN1qYCRgVAU6mzE
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_46F1AJhcOGeUTcShSM1cmN
+          claim_id: c_kK7RMwzssLxmZh_T7vcf2x
+          source_id: s_HetSdFzoln-en3TZCzUDyy
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126781 王嘉賓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_HetSdFzoln-en3TZCzUDyy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王种賓（CBDB 329107）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329107&o=json
+            external_identifier: CBDB:329107
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_miRWGgdwUfGS5JhZC9Zpup
+        status: active
+        display_name: 王种賓
+        merged_into_person_id: null
 ---
 
 # 王嘉賓
@@ -211,6 +285,8 @@ relationships:
 | parents | p_ti6Fg8MT1rHxww4P7Fhfft | 王天敘 | accepted |
 | ancestors | p_8rr68g8cnLvivKeGYTCMFh | 王美 | accepted |
 | ancestors | p_tNgkKtGqZPKoCHfNUfMVwp | 王峻 | accepted |
+| other | p_YSsBJmFuNZkJBwTRdMV85G | 王元賓 | accepted |
+| other | p_miRWGgdwUfGS5JhZC9Zpup | 王种賓 | accepted |
 
 ## 外部来源
 
@@ -218,3 +294,5 @@ relationships:
 - [中国历代人物传记资料库：王峻（CBDB 329101）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329101&o=json)
 - [中国历代人物传记资料库：王美（CBDB 329102）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329102&o=json)
 - [中国历代人物传记资料库：王天敘（CBDB 329103）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329103&o=json)
+- [中国历代人物传记资料库：王元賓（CBDB 329106）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329106&o=json)
+- [中国历代人物传记资料库：王种賓（CBDB 329107）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329107&o=json)

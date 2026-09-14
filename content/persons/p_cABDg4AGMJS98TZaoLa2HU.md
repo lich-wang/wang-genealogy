@@ -4,7 +4,7 @@ id: p_cABDg4AGMJS98TZaoLa2HU
 status: active
 merged_into: null
 display_name: 王佑
-revision: 3
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -194,7 +194,155 @@ relationships:
         display_name: 王士賢
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_8bF3TrUpXacngjtHJRuRce
+        subject_person_id: p_9pfN7HQck1wEnEWHqXuPzH
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_cABDg4AGMJS98TZaoLa2HU
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_km9enPsaiWwjjLq3zDetjE
+          claim_id: c_8bF3TrUpXacngjtHJRuRce
+          source_id: s_1m1JC1OWYhVtS5xECuZHcY
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 67865 王佑）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_1m1JC1OWYhVtS5xECuZHcY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禮（CBDB 257379）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257379&o=json
+            external_identifier: CBDB:257379
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9pfN7HQck1wEnEWHqXuPzH
+        status: active
+        display_name: 王禮
+        merged_into_person_id: null
+    - claim:
+        id: c_vibJoilqRtuuPQP38fHniA
+        subject_person_id: p_GbM7KNG9ynVntNheWxVriM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_cABDg4AGMJS98TZaoLa2HU
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_17vKR-lDJzBBGOusrzth5r
+          claim_id: c_vibJoilqRtuuPQP38fHniA
+          source_id: s_Wjq-Psz6chR3QuhArdnIeS
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 67865 王佑）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Wjq-Psz6chR3QuhArdnIeS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王智（CBDB 257381）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257381&o=json
+            external_identifier: CBDB:257381
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GbM7KNG9ynVntNheWxVriM
+        status: active
+        display_name: 王智
+        merged_into_person_id: null
+    - claim:
+        id: c_Qe6lJF48LTEhedw0lHHxUZ
+        subject_person_id: p_cABDg4AGMJS98TZaoLa2HU
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_e6VSnZaHMKRSrJ5MbnY2r6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_feSAf_2djYjgE4tgRkq9Rc
+          claim_id: c_Qe6lJF48LTEhedw0lHHxUZ
+          source_id: s_hTjcMsEjBCwUegdbm8rFVm
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 67865 王佑）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hTjcMsEjBCwUegdbm8rFVm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王信（CBDB 257382）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257382&o=json
+            external_identifier: CBDB:257382
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_e6VSnZaHMKRSrJ5MbnY2r6
+        status: active
+        display_name: 王信
+        merged_into_person_id: null
+    - claim:
+        id: c_rma-bUazLI4fsmcCT3Po8v
+        subject_person_id: p_cABDg4AGMJS98TZaoLa2HU
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_jyzLeB9zL3EFtRn9LCbhNW
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZsqyPIt-mCpv9CA1WxAWft
+          claim_id: c_rma-bUazLI4fsmcCT3Po8v
+          source_id: s_9ntURg3DpPvGF5QX6iNBsE
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 67865 王佑）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_9ntURg3DpPvGF5QX6iNBsE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王義（CBDB 257378）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257378&o=json
+            external_identifier: CBDB:257378
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jyzLeB9zL3EFtRn9LCbhNW
+        status: active
+        display_name: 王義
+        merged_into_person_id: null
 ---
 
 # 王佑
@@ -216,8 +364,16 @@ relationships:
 | spouses | p_GqXdixiMXrUodSbD5Ca64R | 朱氏 | accepted |
 | ancestors | p_jMxby9DRySDmWrADAt51uc | 王新 | accepted |
 | ancestors | p_gJBDbRBCxbnfxx3U6Meh48 | 王士賢 | accepted |
+| other | p_9pfN7HQck1wEnEWHqXuPzH | 王禮 | accepted |
+| other | p_GbM7KNG9ynVntNheWxVriM | 王智 | accepted |
+| other | p_e6VSnZaHMKRSrJ5MbnY2r6 | 王信 | accepted |
+| other | p_jyzLeB9zL3EFtRn9LCbhNW | 王義 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王禮（CBDB 257379）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257379&o=json)
+- [中国历代人物传记资料库：王信（CBDB 257382）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257382&o=json)
+- [中国历代人物传记资料库：王義（CBDB 257378）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257378&o=json)
 - [中国历代人物传记资料库：王佑（CBDB 67865）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67865&o=json)
+- [中国历代人物传记资料库：王智（CBDB 257381）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257381&o=json)
 - [中国历代人物传记资料库：朱氏(王佑妻)（CBDB 257377）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=257377&o=json)

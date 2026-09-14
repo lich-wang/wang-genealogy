@@ -4,7 +4,7 @@ id: p_rbbHrY43bT56EfEwRVWSQh
 status: active
 merged_into: null
 display_name: 王聆
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_NT3YZ0__n8FkGCsFRa_zvy
+        subject_person_id: p_45EiG84QQT2n3AHG97tGmn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rbbHrY43bT56EfEwRVWSQh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3Xd0S1KCteiCn54sOnTr7k
+          claim_id: c_NT3YZ0__n8FkGCsFRa_zvy
+          source_id: s_IwD9RFP6Ak9DSsn0Zujy33
+          stance: supports
+          locator: CBDB：兄弟 王聮（202677）之父／母 王良
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王聆 与 王聮 为同胞（CBDB 记「兄」），王聮 之父／母即 王聆 之父／母。
+          source:
+            id: s_IwD9RFP6Ak9DSsn0Zujy33
+            source_type: api_record
+            title: 中国历代人物传记资料库：王聆（CBDB 292236）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292236&o=json
+            external_identifier: CBDB:292236
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_45EiG84QQT2n3AHG97tGmn
+        status: active
+        display_name: 王良
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_R-ACFsCVd7MWTftYZjdp21
+        subject_person_id: p_HE5e4JMgdzoDwzM6FykZUf
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_rbbHrY43bT56EfEwRVWSQh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Dx2lxjL2tmJWKqvTNM-noL
+          claim_id: c_R-ACFsCVd7MWTftYZjdp21
+          source_id: s_IwD9RFP6Ak9DSsn0Zujy33
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202677 王聮）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_IwD9RFP6Ak9DSsn0Zujy33
+            source_type: api_record
+            title: 中国历代人物传记资料库：王聆（CBDB 292236）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292236&o=json
+            external_identifier: CBDB:292236
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HE5e4JMgdzoDwzM6FykZUf
+        status: active
+        display_name: 王聮
+        merged_into_person_id: null
 ---
 
 # 王聆
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_45EiG84QQT2n3AHG97tGmn | 王良 | accepted |
+| other | p_HE5e4JMgdzoDwzM6FykZUf | 王聮 | accepted |
 
 ## 外部来源
 

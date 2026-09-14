@@ -4,7 +4,7 @@ id: p_ACyEmNR3JYfTVCeFjd3Md9
 status: active
 merged_into: null
 display_name: 王萬齡
-revision: 2
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,191 @@ relationships:
         status: active
         display_name: 王之麟
         merged_into_person_id: null
+    - claim:
+        id: c_EXN9MSzZg9LUWUOi1HHIMu
+        subject_person_id: p_ACyEmNR3JYfTVCeFjd3Md9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CHog6Gg49iPBZ4PDZt6JT5
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rH6smEDVs4flbJ6Py0iOJF
+          claim_id: c_EXN9MSzZg9LUWUOi1HHIMu
+          source_id: s_N9MVhb8TveovNLEXlosjE5
+          stance: supports
+          locator: CBDB：兄弟 王之麟（338691）之父／母 王萬齡
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王之龍 与 王之麟 为同胞（CBDB 记「兄」），王之麟 之父／母即 王之龍 之父／母。
+          source:
+            id: s_N9MVhb8TveovNLEXlosjE5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之龍（CBDB 216060）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216060&o=json
+            external_identifier: CBDB:216060
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CHog6Gg49iPBZ4PDZt6JT5
+        status: active
+        display_name: 王之龍
+        merged_into_person_id: null
+    - claim:
+        id: c_oslg7wvMTlK8RwZDLjVcPW
+        subject_person_id: p_ACyEmNR3JYfTVCeFjd3Md9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Ch8G8ysWFs91khUE5LQNnF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NILyGASsRX6HFPOJYhDlZY
+          claim_id: c_oslg7wvMTlK8RwZDLjVcPW
+          source_id: s_kndW3iyTzHxivoAPaOnGe_
+          stance: supports
+          locator: CBDB：兄弟 王之麟（338691）之父／母 王萬齡
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王之鰲 与 王之麟 为同胞（CBDB 记「兄」），王之麟 之父／母即 王之鰲 之父／母。
+          source:
+            id: s_kndW3iyTzHxivoAPaOnGe_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之鰲（CBDB 216062）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216062&o=json
+            external_identifier: CBDB:216062
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Ch8G8ysWFs91khUE5LQNnF
+        status: active
+        display_name: 王之鰲
+        merged_into_person_id: null
+    - claim:
+        id: c_5zmHsLUxIwkOlQEGgrtF0E
+        subject_person_id: p_ACyEmNR3JYfTVCeFjd3Md9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_P4zetjKiqY2BGdpFP8duKp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FJ-3sNYvhOwjOm5wHUw8H9
+          claim_id: c_5zmHsLUxIwkOlQEGgrtF0E
+          source_id: s_bhOMx88nSv8iEbWbbKwclu
+          stance: supports
+          locator: CBDB：兄弟 王之麟（338691）之父／母 王萬齡
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王之麒 与 王之麟 为同胞（CBDB 记「弟」），王之麟 之父／母即 王之麒 之父／母。
+          source:
+            id: s_bhOMx88nSv8iEbWbbKwclu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之麒（CBDB 216057）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216057&o=json
+            external_identifier: CBDB:216057
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_P4zetjKiqY2BGdpFP8duKp
+        status: active
+        display_name: 王之麒
+        merged_into_person_id: null
+    - claim:
+        id: c_i4XIwhQ831xf6v7XqKbtXW
+        subject_person_id: p_ACyEmNR3JYfTVCeFjd3Md9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Vgq6Br2pMNYPqGyMJ8HTAx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pWd3h0j8p3JfHDzz18RQeQ
+          claim_id: c_i4XIwhQ831xf6v7XqKbtXW
+          source_id: s_Qq554z1Ig8pgW-Ih0l_KLE
+          stance: supports
+          locator: CBDB：兄弟 王之麟（338691）之父／母 王萬齡
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王之鵬 与 王之麟 为同胞（CBDB 记「兄」），王之麟 之父／母即 王之鵬 之父／母。
+          source:
+            id: s_Qq554z1Ig8pgW-Ih0l_KLE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之鵬（CBDB 216061）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216061&o=json
+            external_identifier: CBDB:216061
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Vgq6Br2pMNYPqGyMJ8HTAx
+        status: active
+        display_name: 王之鵬
+        merged_into_person_id: null
+    - claim:
+        id: c_o7CRzqWPqAOmXIItupXyf7
+        subject_person_id: p_ACyEmNR3JYfTVCeFjd3Md9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sGWjQA12UW9TGko7zM1mPi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cbjpHsPZeC0M_IoUSStzLO
+          claim_id: c_o7CRzqWPqAOmXIItupXyf7
+          source_id: s_CWRO5HIyJgispsI3O15O7V
+          stance: supports
+          locator: CBDB：兄弟 王之麟（338691）之父／母 王萬齡
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王之鳳 与 王之麟 为同胞（CBDB 记「兄」），王之麟 之父／母即 王之鳳 之父／母。
+          source:
+            id: s_CWRO5HIyJgispsI3O15O7V
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之鳳（CBDB 216058）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216058&o=json
+            external_identifier: CBDB:216058
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_sGWjQA12UW9TGko7zM1mPi
+        status: active
+        display_name: 王之鳳
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +309,17 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_EbU5HxFXjQt3D8gkdNvhGE | 王之麟 | accepted |
+| children | p_CHog6Gg49iPBZ4PDZt6JT5 | 王之龍 | accepted |
+| children | p_Ch8G8ysWFs91khUE5LQNnF | 王之鰲 | accepted |
+| children | p_P4zetjKiqY2BGdpFP8duKp | 王之麒 | accepted |
+| children | p_Vgq6Br2pMNYPqGyMJ8HTAx | 王之鵬 | accepted |
+| children | p_sGWjQA12UW9TGko7zM1mPi | 王之鳳 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王萬齡（CBDB 216054）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216054&o=json)
+- [中国历代人物传记资料库：王之鰲（CBDB 216062）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216062&o=json)
+- [中国历代人物传记资料库：王之鳳（CBDB 216058）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216058&o=json)
+- [中国历代人物传记资料库：王之龍（CBDB 216060）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216060&o=json)
+- [中国历代人物传记资料库：王之鵬（CBDB 216061）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216061&o=json)
+- [中国历代人物传记资料库：王之麒（CBDB 216057）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=216057&o=json)

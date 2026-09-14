@@ -4,7 +4,7 @@ id: p_vfLJWcSYWHpLtF3oqEp42D
 status: active
 merged_into: null
 display_name: 王臣
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,81 @@ relationships:
         display_name: 王曾瑀
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_j29yPNaKbdimze5KeKF3mL
+        subject_person_id: p_HE6TVhtyyADTmF4djSgNSa
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vfLJWcSYWHpLtF3oqEp42D
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Db_1FJlW1-rQWAn95imOBl
+          claim_id: c_j29yPNaKbdimze5KeKF3mL
+          source_id: s_qnl2qy7klXEJWEvqg_QA2j
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 198359 王臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_qnl2qy7klXEJWEvqg_QA2j
+            source_type: api_record
+            title: 中国历代人物传记资料库：王隆（CBDB 262125）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262125&o=json
+            external_identifier: CBDB:262125
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HE6TVhtyyADTmF4djSgNSa
+        status: active
+        display_name: 王隆
+        merged_into_person_id: null
+    - claim:
+        id: c_BRB2XZMg2PUmomfcS5IoTH
+        subject_person_id: p_fRG7snKxuVbLXgqtEYBTxF
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vfLJWcSYWHpLtF3oqEp42D
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uwF1XihWMV8G8Gqj2_Mv_u
+          claim_id: c_BRB2XZMg2PUmomfcS5IoTH
+          source_id: s_8IFn1kvSJcbuti4qw4CBmI
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 198359 王臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_8IFn1kvSJcbuti4qw4CBmI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王威（CBDB 262136）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262136&o=json
+            external_identifier: CBDB:262136
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fRG7snKxuVbLXgqtEYBTxF
+        status: active
+        display_name: 王威
+        merged_into_person_id: null
 ---
 
 # 王臣
@@ -241,6 +315,8 @@ relationships:
 | parents | p_Z6SSx6JCsA5rPQ9sKcT6Nz | 王珪 | accepted |
 | ancestors | p_ML6gBBNegNg4c95KyvTjB2 | 王良 | accepted |
 | ancestors | p_hhfsjR22x1fcmZjyczG8DB | 王曾瑀 | accepted |
+| other | p_HE6TVhtyyADTmF4djSgNSa | 王隆 | accepted |
+| other | p_fRG7snKxuVbLXgqtEYBTxF | 王威 | accepted |
 
 ## 外部来源
 
@@ -248,3 +324,5 @@ relationships:
 - [中国历代人物传记资料库：王臣（CBDB 198359）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198359&o=json)
 - [中国历代人物传记资料库：王珪（CBDB 262092）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262092&o=json)
 - [中国历代人物传记资料库：王良（CBDB 262069）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262069&o=json)
+- [中国历代人物传记资料库：王隆（CBDB 262125）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262125&o=json)
+- [中国历代人物传记资料库：王威（CBDB 262136）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262136&o=json)

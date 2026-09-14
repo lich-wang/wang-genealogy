@@ -4,7 +4,7 @@ id: p_8NZ4VgcCXbsb12m8DpzJUp
 status: active
 merged_into: null
 display_name: 王之道
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -105,7 +105,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_WThSpCrVsC-j5AQSUPXMh7
+        subject_person_id: p_8NZ4VgcCXbsb12m8DpzJUp
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_cDXcgiX7Uo6NbRZKNL5dpP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5fB3uTLfrvkcJ-_r2tven7
+          claim_id: c_WThSpCrVsC-j5AQSUPXMh7
+          source_id: s_cuCFE6z5YCWv7bb3AhkGCx
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 13758 王之道）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_cuCFE6z5YCWv7bb3AhkGCx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之荀（CBDB 13757）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13757&o=json
+            external_identifier: CBDB:13757
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cDXcgiX7Uo6NbRZKNL5dpP
+        status: active
+        display_name: 王之荀
+        merged_into_person_id: null
 ---
 
 # 王之道
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_YyANARVNyNvBnk5riMJd4z | 王庶 | accepted |
+| other | p_cDXcgiX7Uo6NbRZKNL5dpP | 王之荀 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王之道（CBDB 13758）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13758&o=json)
+- [中国历代人物传记资料库：王之荀（CBDB 13757）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=13757&o=json)

@@ -4,7 +4,7 @@ id: p_KvaDyJMUHzeGStoEsTh4se
 status: active
 merged_into: null
 display_name: 王倫
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -193,6 +193,43 @@ relationships:
         status: active
         display_name: 王述
         merged_into_person_id: null
+    - claim:
+        id: c_6po49X7MJCi5LAh0FZChRI
+        subject_person_id: p_KvaDyJMUHzeGStoEsTh4se
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9jnvd4Fa9587U7YHhYhBqm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_i9XLz8-H5myRM2jBLIrJUJ
+          claim_id: c_6po49X7MJCi5LAh0FZChRI
+          source_id: s_6lY7wI06HmGoIXchHPgn-0
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 8178）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_6lY7wI06HmGoIXchHPgn-0
+            source_type: api_record
+            title: 中国历代人物传记资料库：王逸（CBDB 35619）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35619&o=json
+            external_identifier: CBDB:35619
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9jnvd4Fa9587U7YHhYhBqm
+        status: active
+        display_name: 王逸
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -283,6 +320,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_hhgYVggbJctRiJp2aTNSCG | 王毅 | accepted |
 | children | p_PQQ9B9zPBAjRcHDw7hpDP7 | 王述 | accepted |
+| children | p_9jnvd4Fa9587U7YHhYhBqm | 王逸 | accepted |
 | ancestors | p_vq4T7ckAWaTW61626HUaZp | 王勗 | accepted |
 | descendants | p_8M1jTHPpMjrLQ4UVRJ6rD5 | 王柟 | accepted |
 
@@ -290,4 +328,5 @@ relationships:
 
 - [中国历代人物传记资料库：王倫（CBDB 8178）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=8178&o=json)
 - [中国历代人物传记资料库：王柟（CBDB 17888）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17888&o=json)
+- [中国历代人物传记资料库：王逸（CBDB 35619）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35619&o=json)
 - [中国历代人物传记资料库：王毅（CBDB 7377）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=7377&o=json)

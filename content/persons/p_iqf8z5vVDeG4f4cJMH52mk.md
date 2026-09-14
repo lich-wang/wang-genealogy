@@ -4,7 +4,7 @@ id: p_iqf8z5vVDeG4f4cJMH52mk
 status: active
 merged_into: null
 display_name: 王諒
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,80 @@ relationships:
         status: active
         display_name: 王堯封
         merged_into_person_id: null
+    - claim:
+        id: c_iXEngrOSG0I8siumXYYky6
+        subject_person_id: p_iqf8z5vVDeG4f4cJMH52mk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_1iyy2sTfBKuMdfrTjqyFBP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QyZBmRNCYORL3aGmbx5MQj
+          claim_id: c_iXEngrOSG0I8siumXYYky6
+          source_id: s_YB-n9Jtw4txEJ8TR49lnwJ
+          stance: supports
+          locator: CBDB：兄弟 王堯封（126716）之父／母 王諒
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王堯卿 与 王堯封 为同胞（CBDB 记「弟」），王堯封 之父／母即 王堯卿 之父／母。
+          source:
+            id: s_YB-n9Jtw4txEJ8TR49lnwJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王堯卿（CBDB 273833）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273833&o=json
+            external_identifier: CBDB:273833
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1iyy2sTfBKuMdfrTjqyFBP
+        status: active
+        display_name: 王堯卿
+        merged_into_person_id: null
+    - claim:
+        id: c_zyuHTdkpKnCAJiCkh4aUu6
+        subject_person_id: p_iqf8z5vVDeG4f4cJMH52mk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6es6XQ9pfmNf8BVum2oix6
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_COUFRQXKC9SNSk1HE4yXsZ
+          claim_id: c_zyuHTdkpKnCAJiCkh4aUu6
+          source_id: s_6zbUhNwFxz53AvyB0Xv3MS
+          stance: supports
+          locator: CBDB：兄弟 王堯封（126716）之父／母 王諒
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王堯咨 与 王堯封 为同胞（CBDB 记「兄」），王堯封 之父／母即 王堯咨 之父／母。
+          source:
+            id: s_6zbUhNwFxz53AvyB0Xv3MS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王堯咨（CBDB 273834）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273834&o=json
+            external_identifier: CBDB:273834
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6es6XQ9pfmNf8BVum2oix6
+        status: active
+        display_name: 王堯咨
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_WQELCyNtxHbkJD3Uq4LakB | 王堯封 | accepted |
+| children | p_1iyy2sTfBKuMdfrTjqyFBP | 王堯卿 | accepted |
+| children | p_6es6XQ9pfmNf8BVum2oix6 | 王堯咨 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王諒（CBDB 273830）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273830&o=json)
+- [中国历代人物传记资料库：王堯卿（CBDB 273833）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273833&o=json)
+- [中国历代人物传记资料库：王堯咨（CBDB 273834）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=273834&o=json)

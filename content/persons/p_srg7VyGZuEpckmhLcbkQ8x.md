@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王萬夫
 cbdb_id: 36116
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,7 +74,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_5BBLWvpG7N65c8PhqjW5X5
+        subject_person_id: p_dU6PvGgbaH45Bh79md732t
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_srg7VyGZuEpckmhLcbkQ8x
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_GDM_KyUVje_-nvxoPYdSRL
+          claim_id: c_5BBLWvpG7N65c8PhqjW5X5
+          source_id: s_ogD2T0SAepuBzYoMe9kCXk
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 17821）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_ogD2T0SAepuBzYoMe9kCXk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王萬夫（CBDB 36116）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36116&o=json
+            external_identifier: CBDB:36116
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dU6PvGgbaH45Bh79md732t
+        status: active
+        display_name: 王彥隆
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -99,6 +136,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_dU6PvGgbaH45Bh79md732t | 王彥隆 | accepted |
 
 ## 外部来源
 

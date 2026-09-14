@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王炳斗
 cbdb_id: 213353
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ghMMDlrg0-qNJtiu-X2bmb
+        subject_person_id: p_rn5bs45vsLNkK5gzRaTQ98
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3McrPk5i4DFURJJMpaJ4Ns
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_q8C1HkEqoWETzn_LRB9osO
+          claim_id: c_ghMMDlrg0-qNJtiu-X2bmb
+          source_id: s_H8h7AD4tUImI6UUsK3-KBB
+          stance: supports
+          locator: CBDB：兄弟 王炳璿（126592）之父／母 王法
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王炳斗 与 王炳璿 为同胞（CBDB 记「兄」），王炳璿 之父／母即 王炳斗 之父／母。
+          source:
+            id: s_H8h7AD4tUImI6UUsK3-KBB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王炳斗（CBDB 213353）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213353&o=json
+            external_identifier: CBDB:213353
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rn5bs45vsLNkK5gzRaTQ98
+        status: active
+        display_name: 王法
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_97SyUJ2THElJ8eOfg7qbkZ
+        subject_person_id: p_3McrPk5i4DFURJJMpaJ4Ns
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_BSK3JVZbYgKQNPmF9hrz5q
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3KEe2jI6XJNVA_X0dWV7_G
+          claim_id: c_97SyUJ2THElJ8eOfg7qbkZ
+          source_id: s_H8h7AD4tUImI6UUsK3-KBB
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126592 王炳璿）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_H8h7AD4tUImI6UUsK3-KBB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王炳斗（CBDB 213353）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213353&o=json
+            external_identifier: CBDB:213353
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BSK3JVZbYgKQNPmF9hrz5q
+        status: active
+        display_name: 王炳璿
+        merged_into_person_id: null
 ---
 
 # 王炳斗
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_rn5bs45vsLNkK5gzRaTQ98 | 王法 | accepted |
+| other | p_BSK3JVZbYgKQNPmF9hrz5q | 王炳璿 | accepted |
 
 ## 外部来源
 

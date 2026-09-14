@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王克緒
 cbdb_id: 17760
-revision: 1
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -81,7 +81,118 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_PdfiUdKvnWo1BM2nWtoQil
+        subject_person_id: p_8M1i94w3acDzg1kYhCgGjB
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xYin523MUijjPHQi64Mp4N
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TXTcoU5lILvDOVRK9IDmWq
+          claim_id: c_PdfiUdKvnWo1BM2nWtoQil
+          source_id: s_BeLePDwb6JfXjxxgyhjGOo
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 17759 王克基）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_BeLePDwb6JfXjxxgyhjGOo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王克緒（CBDB 17760）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17760&o=json
+            external_identifier: CBDB:17760
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8M1i94w3acDzg1kYhCgGjB
+        status: active
+        display_name: 王克基
+        merged_into_person_id: null
+    - claim:
+        id: c_jlSlJGbZEJREbXGrhp1hCI
+        subject_person_id: p_uHDKtrdWZ9yKPXUqubAwsx
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xYin523MUijjPHQi64Mp4N
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_u3kz8TRBgNte780u5dx2xK
+          claim_id: c_jlSlJGbZEJREbXGrhp1hCI
+          source_id: s_BeLePDwb6JfXjxxgyhjGOo
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 17761 王克忠）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_BeLePDwb6JfXjxxgyhjGOo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王克緒（CBDB 17760）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17760&o=json
+            external_identifier: CBDB:17760
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_uHDKtrdWZ9yKPXUqubAwsx
+        status: active
+        display_name: 王克忠
+        merged_into_person_id: null
+    - claim:
+        id: c_UrDdycJNj2tJebDjGmSzWH
+        subject_person_id: p_L19PHwgKSc3FpMQ79Hyn3z
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xYin523MUijjPHQi64Mp4N
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Mf5hxl-CE36m1b6hfA1nCp
+          claim_id: c_UrDdycJNj2tJebDjGmSzWH
+          source_id: s_BeLePDwb6JfXjxxgyhjGOo
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 17762 王克明）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_BeLePDwb6JfXjxxgyhjGOo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王克緒（CBDB 17760）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=17760&o=json
+            external_identifier: CBDB:17760
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_L19PHwgKSc3FpMQ79Hyn3z
+        status: active
+        display_name: 王克明
+        merged_into_person_id: null
 ---
 
 # 王克緒
@@ -99,6 +210,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_8M1i94w3acDzg1kYhCgGjB | 王克基 | accepted |
+| other | p_uHDKtrdWZ9yKPXUqubAwsx | 王克忠 | accepted |
+| other | p_L19PHwgKSc3FpMQ79Hyn3z | 王克明 | accepted |
 
 ## 外部来源
 

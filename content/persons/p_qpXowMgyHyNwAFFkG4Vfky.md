@@ -4,7 +4,7 @@ id: p_qpXowMgyHyNwAFFkG4Vfky
 status: active
 merged_into: null
 display_name: 王璟
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_XNiv7jWmrPWOGiZMmDa1HH
+        subject_person_id: p_5CsnxPJ1Pqskb685MNmLx9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qpXowMgyHyNwAFFkG4Vfky
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XrHHpsopIzyxiN9m2ev8P3
+          claim_id: c_XNiv7jWmrPWOGiZMmDa1HH
+          source_id: s___JZAw4TrrYB5-hraLM2SN
+          stance: supports
+          locator: CBDB：兄弟 王璽（126869）之父／母 王鎬
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王璟 与 王璽 为同胞（CBDB 记「兄」），王璽 之父／母即 王璟 之父／母。
+          source:
+            id: s___JZAw4TrrYB5-hraLM2SN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璟（CBDB 241143）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241143&o=json
+            external_identifier: CBDB:241143
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5CsnxPJ1Pqskb685MNmLx9
+        status: active
+        display_name: 王鎬
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_wh1s7MmNSovQqvHJBzvlMp
+        subject_person_id: p_bF6WY3wgJWVigFgpBLaV3H
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qpXowMgyHyNwAFFkG4Vfky
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qqH8BNJBMbCCgEUAMjojff
+          claim_id: c_wh1s7MmNSovQqvHJBzvlMp
+          source_id: s___JZAw4TrrYB5-hraLM2SN
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126869 王璽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s___JZAw4TrrYB5-hraLM2SN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璟（CBDB 241143）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241143&o=json
+            external_identifier: CBDB:241143
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_bF6WY3wgJWVigFgpBLaV3H
+        status: active
+        display_name: 王璽
+        merged_into_person_id: null
 ---
 
 # 王璟
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_5CsnxPJ1Pqskb685MNmLx9 | 王鎬 | accepted |
+| other | p_bF6WY3wgJWVigFgpBLaV3H | 王璽 | accepted |
 
 ## 外部来源
 

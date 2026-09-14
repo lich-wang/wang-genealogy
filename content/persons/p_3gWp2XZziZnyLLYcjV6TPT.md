@@ -4,7 +4,7 @@ id: p_3gWp2XZziZnyLLYcjV6TPT
 status: active
 merged_into: null
 display_name: 王仲
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_hQhOmdHeKaumDCWNdE6DuQ
+        subject_person_id: p_dDiqSoKbAEPJ32n4DP82Hn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3gWp2XZziZnyLLYcjV6TPT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rqUxbDy306EUSQdrqlbSiP
+          claim_id: c_hQhOmdHeKaumDCWNdE6DuQ
+          source_id: s_lkDvRn_m2UO6juUH9KvTaN
+          stance: supports
+          locator: CBDB：兄弟 王价（203975）之父／母 王簡
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王仲 与 王价 为同胞（CBDB 记「兄」），王价 之父／母即 王仲 之父／母。
+          source:
+            id: s_lkDvRn_m2UO6juUH9KvTaN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仲（CBDB 312746）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312746&o=json
+            external_identifier: CBDB:312746
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dDiqSoKbAEPJ32n4DP82Hn
+        status: active
+        display_name: 王簡
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_fVH0jQ5e2J8zpUusdQ76Dg
+        subject_person_id: p_3gWp2XZziZnyLLYcjV6TPT
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hHNa7b5NntK7bPjYqWMP15
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JXVhAbHDI8u4KrjQL5aigN
+          claim_id: c_fVH0jQ5e2J8zpUusdQ76Dg
+          source_id: s_lkDvRn_m2UO6juUH9KvTaN
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203975 王价）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_lkDvRn_m2UO6juUH9KvTaN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仲（CBDB 312746）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312746&o=json
+            external_identifier: CBDB:312746
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hHNa7b5NntK7bPjYqWMP15
+        status: active
+        display_name: 王价
+        merged_into_person_id: null
 ---
 
 # 王仲
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_dDiqSoKbAEPJ32n4DP82Hn | 王簡 | accepted |
+| other | p_hHNa7b5NntK7bPjYqWMP15 | 王价 | accepted |
 
 ## 外部来源
 

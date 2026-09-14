@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王汝臣
 cbdb_id: 284226
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_C4QRAn3xjjDyjtHWvxbGKH
+        subject_person_id: p_PNivfKUTmvFDeQrEL92ALD
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FoQGejSJMCnokfAieKAUXg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rlCNI0I6RekQ8Df2kEC0Ap
+          claim_id: c_C4QRAn3xjjDyjtHWvxbGKH
+          source_id: s_104QukXz0x1Ju6BLDbiPtC
+          stance: supports
+          locator: CBDB：兄弟 王汝賓（202144）之父／母 王欽
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王汝臣 与 王汝賓 为同胞（CBDB 记「兄」），王汝賓 之父／母即 王汝臣 之父／母。
+          source:
+            id: s_104QukXz0x1Ju6BLDbiPtC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝臣（CBDB 284226）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284226&o=json
+            external_identifier: CBDB:284226
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PNivfKUTmvFDeQrEL92ALD
+        status: active
+        display_name: 王欽
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ej1jKKDarF8_Bwlh71SNIA
+        subject_person_id: p_FoQGejSJMCnokfAieKAUXg
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gqRqyCB9SbCQ4hrRNwLZxF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Lpdfq66tE2RHrUTV06Oy8f
+          claim_id: c_ej1jKKDarF8_Bwlh71SNIA
+          source_id: s_104QukXz0x1Ju6BLDbiPtC
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202144 王汝賓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_104QukXz0x1Ju6BLDbiPtC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王汝臣（CBDB 284226）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=284226&o=json
+            external_identifier: CBDB:284226
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_gqRqyCB9SbCQ4hrRNwLZxF
+        status: active
+        display_name: 王汝賓
+        merged_into_person_id: null
 ---
 
 # 王汝臣
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_PNivfKUTmvFDeQrEL92ALD | 王欽 | accepted |
+| other | p_gqRqyCB9SbCQ4hrRNwLZxF | 王汝賓 | accepted |
 
 ## 外部来源
 

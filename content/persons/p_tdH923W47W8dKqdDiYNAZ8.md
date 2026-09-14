@@ -4,7 +4,7 @@ id: p_tdH923W47W8dKqdDiYNAZ8
 status: active
 merged_into: null
 display_name: 王楨
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,81 @@ relationships:
         display_name: 王建昌
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_peMAONKCI9tsRID4Kljuzf
+        subject_person_id: p_AMUPZkCxAGFdWhHmNvoBtB
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_tdH923W47W8dKqdDiYNAZ8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_X99_CUvUlvD8QFFUdu7VkK
+          claim_id: c_peMAONKCI9tsRID4Kljuzf
+          source_id: s_wuMB2Yi7H67skQ00W_H6Qa
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205021 王楨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_wuMB2Yi7H67skQ00W_H6Qa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王梅（CBDB 327260）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327260&o=json
+            external_identifier: CBDB:327260
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_AMUPZkCxAGFdWhHmNvoBtB
+        status: active
+        display_name: 王梅
+        merged_into_person_id: null
+    - claim:
+        id: c_4MfBie5FFFMEiIUJFG_zT7
+        subject_person_id: p_PotURH2SHbNA8zcQD9J9V9
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_tdH923W47W8dKqdDiYNAZ8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XtqgGIhxLn3JWEvr9CgG9U
+          claim_id: c_4MfBie5FFFMEiIUJFG_zT7
+          source_id: s_wm0DTgle_jVxb2I4F0XtnY
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205021 王楨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_wm0DTgle_jVxb2I4F0XtnY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王相（CBDB 327259）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327259&o=json
+            external_identifier: CBDB:327259
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PotURH2SHbNA8zcQD9J9V9
+        status: active
+        display_name: 王相
+        merged_into_person_id: null
 ---
 
 # 王楨
@@ -240,10 +314,14 @@ relationships:
 | parents | p_7XpW6Mhs2mSCn7hHeLnWwf | 王秉新 | accepted |
 | ancestors | p_8mWC3Ei8pVYwAqDq7qoacC | 王正仁 | accepted |
 | ancestors | p_Zy4JKwVK16gSxzJ6T1Zyf2 | 王建昌 | accepted |
+| other | p_AMUPZkCxAGFdWhHmNvoBtB | 王梅 | accepted |
+| other | p_PotURH2SHbNA8zcQD9J9V9 | 王相 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王秉新（CBDB 327256）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327256&o=json)
 - [中国历代人物传记资料库：王建昌（CBDB 327255）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327255&o=json)
+- [中国历代人物传记资料库：王梅（CBDB 327260）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327260&o=json)
+- [中国历代人物传记资料库：王相（CBDB 327259）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327259&o=json)
 - [中国历代人物传记资料库：王楨（CBDB 205021）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205021&o=json)
 - [中国历代人物传记资料库：王正仁（CBDB 327254）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327254&o=json)

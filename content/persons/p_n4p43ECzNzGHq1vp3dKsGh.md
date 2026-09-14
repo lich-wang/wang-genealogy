@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王國言
 cbdb_id: 300445
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_p9FMCtJzBoJish2_WogECN
+        subject_person_id: p_nfDQpFcmyR41HhRtmj92PA
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_n4p43ECzNzGHq1vp3dKsGh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pQSjvhM9yOkhVq9NAWlxUf
+          claim_id: c_p9FMCtJzBoJish2_WogECN
+          source_id: s_SjKoXEAZI6xBjldjoD68l-
+          stance: supports
+          locator: CBDB：兄弟 王國禎（126691）之父／母 王愷
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王國言 与 王國禎 为同胞（CBDB 记「兄」），王國禎 之父／母即 王國言 之父／母。
+          source:
+            id: s_SjKoXEAZI6xBjldjoD68l-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王國言（CBDB 300445）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300445&o=json
+            external_identifier: CBDB:300445
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nfDQpFcmyR41HhRtmj92PA
+        status: active
+        display_name: 王愷
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_PbVjgHiPj8mNL-IcBwjmzX
+        subject_person_id: p_VsUEBsvkAXXbA9FWfTN5pA
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_n4p43ECzNzGHq1vp3dKsGh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_t4s-5L0Np9cvj3nUWJNpOO
+          claim_id: c_PbVjgHiPj8mNL-IcBwjmzX
+          source_id: s_SjKoXEAZI6xBjldjoD68l-
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126691 王國禎）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_SjKoXEAZI6xBjldjoD68l-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王國言（CBDB 300445）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=300445&o=json
+            external_identifier: CBDB:300445
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VsUEBsvkAXXbA9FWfTN5pA
+        status: active
+        display_name: 王國禎
+        merged_into_person_id: null
 ---
 
 # 王國言
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_nfDQpFcmyR41HhRtmj92PA | 王愷 | accepted |
+| other | p_VsUEBsvkAXXbA9FWfTN5pA | 王國禎 | accepted |
 
 ## 外部来源
 

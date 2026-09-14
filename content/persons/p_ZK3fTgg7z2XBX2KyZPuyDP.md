@@ -4,7 +4,7 @@ id: p_ZK3fTgg7z2XBX2KyZPuyDP
 status: active
 merged_into: null
 display_name: 王澤
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,44 @@ relationships:
         display_name: 王縉
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_6Y3JgLSSozPPffupevtRQK
+        subject_person_id: p_4CAyx8nzp4Ax1cCShRKKk5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ZK3fTgg7z2XBX2KyZPuyDP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q2P3ra8jkvIRWWhKrWWxnj
+          claim_id: c_6Y3JgLSSozPPffupevtRQK
+          source_id: s_fheQwDdv5nCoHVFrldFqf_
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205074 王澤）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_fheQwDdv5nCoHVFrldFqf_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王潤（CBDB 327942）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327942&o=json
+            external_identifier: CBDB:327942
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4CAyx8nzp4Ax1cCShRKKk5
+        status: active
+        display_name: 王潤
+        merged_into_person_id: null
 ---
 
 # 王澤
@@ -240,10 +277,12 @@ relationships:
 | parents | p_5GVxKWPxJYFcrW9t5dcAK7 | 王鏞 | accepted |
 | ancestors | p_nex7VLB7oCWkGk7bP71nNb | 王玉 | accepted |
 | ancestors | p_pBMtQFJmxesr41XkPJ41bw | 王縉 | accepted |
+| other | p_4CAyx8nzp4Ax1cCShRKKk5 | 王潤 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王縉（CBDB 327936）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327936&o=json)
+- [中国历代人物传记资料库：王潤（CBDB 327942）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327942&o=json)
 - [中国历代人物传记资料库：王鏞（CBDB 327937）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327937&o=json)
 - [中国历代人物传记资料库：王玉（CBDB 327935）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=327935&o=json)
 - [中国历代人物传记资料库：王澤（CBDB 205074）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205074&o=json)

@@ -4,7 +4,7 @@ id: p_Qw3e91Q9f7u3SKikYg5LD7
 status: active
 merged_into: null
 display_name: 王詠
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,81 @@ relationships:
         display_name: 王守山
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_NjrR7x70IzAXRr2WuPRiAh
+        subject_person_id: p_LfusTKjHQQeg6wCcQkVvM6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Qw3e91Q9f7u3SKikYg5LD7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_T_y-vIiXx6eJQMYK_S4SaV
+          claim_id: c_NjrR7x70IzAXRr2WuPRiAh
+          source_id: s_vB-wiZ1kdjTqpUXID2BXAB
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204396 王詠）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_vB-wiZ1kdjTqpUXID2BXAB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王誠（CBDB 318547）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318547&o=json
+            external_identifier: CBDB:318547
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_LfusTKjHQQeg6wCcQkVvM6
+        status: active
+        display_name: 王誠
+        merged_into_person_id: null
+    - claim:
+        id: c_0lHLLlmv3pUJ96luAGCYF3
+        subject_person_id: p_Qw3e91Q9f7u3SKikYg5LD7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mwYJV5WL8CpJH6Dx5ZeWwH
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RAFc01ibTEAhmO5a4xuhUL
+          claim_id: c_0lHLLlmv3pUJ96luAGCYF3
+          source_id: s_DOkAfTnjafnh4tAxk0CyvR
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204396 王詠）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_DOkAfTnjafnh4tAxk0CyvR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王諫（CBDB 318546）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318546&o=json
+            external_identifier: CBDB:318546
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mwYJV5WL8CpJH6Dx5ZeWwH
+        status: active
+        display_name: 王諫
+        merged_into_person_id: null
 ---
 
 # 王詠
@@ -241,10 +315,14 @@ relationships:
 | parents | p_MB8Wi2HK7aBdXDCP3oVD5L | 王拱極 | accepted |
 | ancestors | p_CzB136ZqViu6iAHuA2i6LV | 王時 | accepted |
 | ancestors | p_VPPEFTLxrG6rcxtVgKbHis | 王守山 | accepted |
+| other | p_LfusTKjHQQeg6wCcQkVvM6 | 王誠 | accepted |
+| other | p_mwYJV5WL8CpJH6Dx5ZeWwH | 王諫 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王誠（CBDB 318547）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318547&o=json)
 - [中国历代人物传记资料库：王拱極（CBDB 318543）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318543&o=json)
+- [中国历代人物传记资料库：王諫（CBDB 318546）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318546&o=json)
 - [中国历代人物传记资料库：王時（CBDB 318541）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318541&o=json)
 - [中国历代人物传记资料库：王守山（CBDB 318542）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318542&o=json)
 - [中国历代人物传记资料库：王詠（CBDB 204396）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204396&o=json)

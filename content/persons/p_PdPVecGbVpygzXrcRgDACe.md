@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王慶之
 cbdb_id: 22256
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,7 +74,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c__Gs3UFGpgbiIr81v-aEIZv
+        subject_person_id: p_PuVEHMVH38vEwm28eSyeVn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PdPVecGbVpygzXrcRgDACe
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_0K1xsHZUkpqbKrYOM5cNQx
+          claim_id: c__Gs3UFGpgbiIr81v-aEIZv
+          source_id: s_kQITv4DvzTuyshs6QY2NdF
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1768）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_kQITv4DvzTuyshs6QY2NdF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王慶之（CBDB 22256）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22256&o=json
+            external_identifier: CBDB:22256
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PuVEHMVH38vEwm28eSyeVn
+        status: active
+        display_name: 王欽若
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
@@ -99,6 +136,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_PuVEHMVH38vEwm28eSyeVn | 王欽若 | accepted |
 
 ## 外部来源
 

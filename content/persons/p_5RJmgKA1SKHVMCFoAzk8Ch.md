@@ -4,7 +4,7 @@ id: p_5RJmgKA1SKHVMCFoAzk8Ch
 status: active
 merged_into: null
 display_name: 王納言
-revision: 4
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -191,7 +191,118 @@ relationships:
         display_name: 王守敬
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ttTvwwaI1RVnVPBkhhSWes
+        subject_person_id: p_4XKmdBpQ3uahe19sgFYba4
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_5RJmgKA1SKHVMCFoAzk8Ch
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RrTFKUU-9IxAN3JVy8k-uU
+          claim_id: c_ttTvwwaI1RVnVPBkhhSWes
+          source_id: s_3qz-_-wTIK6nxDErQV1qgr
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126659 王納言）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_3qz-_-wTIK6nxDErQV1qgr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王納訓（CBDB 281218）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281218&o=json
+            external_identifier: CBDB:281218
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4XKmdBpQ3uahe19sgFYba4
+        status: active
+        display_name: 王納訓
+        merged_into_person_id: null
+    - claim:
+        id: c_TDsHB9VeTQsq8Kzd8HqRTO
+        subject_person_id: p_5RJmgKA1SKHVMCFoAzk8Ch
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Nn2S6vQ9sH7rewLZdm6USf
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tGgMnjv8Fgw0lBZkf509EF
+          claim_id: c_TDsHB9VeTQsq8Kzd8HqRTO
+          source_id: s_fFVnATryxANvUfF9ygo_l7
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126659 王納言）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_fFVnATryxANvUfF9ygo_l7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王納陳（CBDB 281217）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281217&o=json
+            external_identifier: CBDB:281217
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Nn2S6vQ9sH7rewLZdm6USf
+        status: active
+        display_name: 王納陳
+        merged_into_person_id: null
+    - claim:
+        id: c_W551_dHCOoB4Jucd2n44dT
+        subject_person_id: p_5RJmgKA1SKHVMCFoAzk8Ch
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_XUikuFdnDAnyhChT1kKpqH
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_glJr1zNl2i6vpJZU3qjgki
+          claim_id: c_W551_dHCOoB4Jucd2n44dT
+          source_id: s_0O_97IYh3NoRWCDmbJb7iE
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126659 王納言）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0O_97IYh3NoRWCDmbJb7iE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王納誨（CBDB 281216）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281216&o=json
+            external_identifier: CBDB:281216
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_XUikuFdnDAnyhChT1kKpqH
+        status: active
+        display_name: 王納誨
+        merged_into_person_id: null
 ---
 
 # 王納言
@@ -212,10 +323,16 @@ relationships:
 | parents | p_Hx9Ukkpxmi3iZhqXQH36DB | 王隆 | accepted |
 | ancestors | p_4sb9wxGED3WQ2wGXi8FqHp | 王瑜 | accepted |
 | ancestors | p_MHFMLg9XBL92vDxr2BeKpg | 王守敬 | accepted |
+| other | p_4XKmdBpQ3uahe19sgFYba4 | 王納訓 | accepted |
+| other | p_Nn2S6vQ9sH7rewLZdm6USf | 王納陳 | accepted |
+| other | p_XUikuFdnDAnyhChT1kKpqH | 王納誨 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王隆（CBDB 281213）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281213&o=json)
+- [中国历代人物传记资料库：王納陳（CBDB 281217）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281217&o=json)
+- [中国历代人物传记资料库：王納誨（CBDB 281216）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281216&o=json)
+- [中国历代人物传记资料库：王納訓（CBDB 281218）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281218&o=json)
 - [中国历代人物传记资料库：王納言（CBDB 126659）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126659&o=json)
 - [中国历代人物传记资料库：王守敬（CBDB 281211）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281211&o=json)
 - [中国历代人物传记资料库：王瑜（CBDB 281212）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=281212&o=json)

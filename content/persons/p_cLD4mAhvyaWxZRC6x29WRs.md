@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王繹宗
 cbdb_id: 292172
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_azPUQ2J-uq9P_goNS-uwLu
+        subject_person_id: p_AjJ9D9hYYBcRjzGCjrMcoe
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_cLD4mAhvyaWxZRC6x29WRs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wXFWJDIERPMH_uQqP9o-0q
+          claim_id: c_azPUQ2J-uq9P_goNS-uwLu
+          source_id: s_8nolP_bh_aMVi-HM3XyPYL
+          stance: supports
+          locator: CBDB：兄弟 王繼宗（126879）之父／母 王汾
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王繹宗 与 王繼宗 为同胞（CBDB 记「兄」），王繼宗 之父／母即 王繹宗 之父／母。
+          source:
+            id: s_8nolP_bh_aMVi-HM3XyPYL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繹宗（CBDB 292172）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292172&o=json
+            external_identifier: CBDB:292172
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_AjJ9D9hYYBcRjzGCjrMcoe
+        status: active
+        display_name: 王汾
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_8fEw6PTNe8RD9CvdA7NeHN
+        subject_person_id: p_cLD4mAhvyaWxZRC6x29WRs
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_tJDfPMXaXoCJ7dnxXR4ZsL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MLI6CfIzIjy_YhJCVymN80
+          claim_id: c_8fEw6PTNe8RD9CvdA7NeHN
+          source_id: s_8nolP_bh_aMVi-HM3XyPYL
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126879 王繼宗）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_8nolP_bh_aMVi-HM3XyPYL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王繹宗（CBDB 292172）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292172&o=json
+            external_identifier: CBDB:292172
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_tJDfPMXaXoCJ7dnxXR4ZsL
+        status: active
+        display_name: 王繼宗
+        merged_into_person_id: null
 ---
 
 # 王繹宗
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_AjJ9D9hYYBcRjzGCjrMcoe | 王汾 | accepted |
+| other | p_tJDfPMXaXoCJ7dnxXR4ZsL | 王繼宗 | accepted |
 
 ## 外部来源
 

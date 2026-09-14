@@ -4,7 +4,7 @@ id: p_FaVxhCqbFD9FLrnWtGuBry
 status: active
 merged_into: null
 display_name: 王奕經
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Eaax3XzolpAHuQXBIe-iuQ
+        subject_person_id: p_FaVxhCqbFD9FLrnWtGuBry
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_HoBpikm86mz6cGK24L6S6n
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Hb3SKd8hI-MIrA60oK04do
+          claim_id: c_Eaax3XzolpAHuQXBIe-iuQ
+          source_id: s_EZLxaF64Wb_JONy9dA7kr8
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 700206 王金增）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_EZLxaF64Wb_JONy9dA7kr8
+            source_type: api_record
+            title: 中国历代人物传记资料库：王奕經（CBDB 700207）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=700207&o=json
+            external_identifier: CBDB:700207
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HoBpikm86mz6cGK24L6S6n
+        status: active
+        display_name: 王金增
+        merged_into_person_id: null
 ---
 
 # 王奕經
@@ -97,6 +134,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_HoBpikm86mz6cGK24L6S6n | 王金增 | accepted |
 
 ## 外部来源
 

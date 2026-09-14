@@ -4,7 +4,7 @@ id: p_RCLpHyH1WNKKe3qSfLzVrJ
 status: active
 merged_into: null
 display_name: 王道亨
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_OPhizxoycgxBaztCZ5RC4X
+        subject_person_id: p_4CkBCwtn2nCSmzMrTCZ7Ut
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_RCLpHyH1WNKKe3qSfLzVrJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fXva-6U7dRDnVBMMeF4guX
+          claim_id: c_OPhizxoycgxBaztCZ5RC4X
+          source_id: s_R8Uz2rsFWywzl9P7f5DaCl
+          stance: supports
+          locator: CBDB：兄弟 王道成（126745）之父／母 王廷宣
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王道亨 与 王道成 为同胞（CBDB 记「兄」），王道成 之父／母即 王道亨 之父／母。
+          source:
+            id: s_R8Uz2rsFWywzl9P7f5DaCl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道亨（CBDB 210027）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210027&o=json
+            external_identifier: CBDB:210027
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4CkBCwtn2nCSmzMrTCZ7Ut
+        status: active
+        display_name: 王廷宣
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ktLSRN-5PecGgpYu4fOw9F
+        subject_person_id: p_EaFxi6NHrChzwLEA1T89LT
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RCLpHyH1WNKKe3qSfLzVrJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oF7rhQJSGej1cnmcCY-wr6
+          claim_id: c_ktLSRN-5PecGgpYu4fOw9F
+          source_id: s_R8Uz2rsFWywzl9P7f5DaCl
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126745 王道成）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_R8Uz2rsFWywzl9P7f5DaCl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道亨（CBDB 210027）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210027&o=json
+            external_identifier: CBDB:210027
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EaFxi6NHrChzwLEA1T89LT
+        status: active
+        display_name: 王道成
+        merged_into_person_id: null
 ---
 
 # 王道亨
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_4CkBCwtn2nCSmzMrTCZ7Ut | 王廷宣 | accepted |
+| other | p_EaFxi6NHrChzwLEA1T89LT | 王道成 | accepted |
 
 ## 外部来源
 

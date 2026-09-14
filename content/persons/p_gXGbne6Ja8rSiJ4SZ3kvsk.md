@@ -4,7 +4,7 @@ id: p_gXGbne6Ja8rSiJ4SZ3kvsk
 status: active
 merged_into: null
 display_name: 王廷器
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_hRs_rOQwFnJGQ1IYf0c9U4
+        subject_person_id: p_aR7p28hCpPSCDFnd7Y6HJL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_gXGbne6Ja8rSiJ4SZ3kvsk
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MHixucfONhWF0tIhoqeB2G
+          claim_id: c_hRs_rOQwFnJGQ1IYf0c9U4
+          source_id: s_4JaOOk3xGEEEC4wd2wNsSP
+          stance: supports
+          locator: CBDB：兄弟 王璘（198460）之父／母 王秉惠
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王廷器 与 王璘 为同胞（CBDB 记「弟」），王璘 之父／母即 王廷器 之父／母。
+          source:
+            id: s_4JaOOk3xGEEEC4wd2wNsSP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷器（CBDB 274819）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274819&o=json
+            external_identifier: CBDB:274819
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aR7p28hCpPSCDFnd7Y6HJL
+        status: active
+        display_name: 王秉惠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_A9VExO3ii_rw9koGDa6CUg
+        subject_person_id: p_7tdhj3xqs6eFzthKS1AGvP
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gXGbne6Ja8rSiJ4SZ3kvsk
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fpHnNZW8so5r9E5Pj6VVHq
+          claim_id: c_A9VExO3ii_rw9koGDa6CUg
+          source_id: s_4JaOOk3xGEEEC4wd2wNsSP
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 198460 王璘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_4JaOOk3xGEEEC4wd2wNsSP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廷器（CBDB 274819）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=274819&o=json
+            external_identifier: CBDB:274819
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7tdhj3xqs6eFzthKS1AGvP
+        status: active
+        display_name: 王璘
+        merged_into_person_id: null
 ---
 
 # 王廷器
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_aR7p28hCpPSCDFnd7Y6HJL | 王秉惠 | accepted |
+| other | p_7tdhj3xqs6eFzthKS1AGvP | 王璘 | accepted |
 
 ## 外部来源
 

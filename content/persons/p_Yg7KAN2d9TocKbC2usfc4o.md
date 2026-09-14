@@ -4,7 +4,7 @@ id: p_Yg7KAN2d9TocKbC2usfc4o
 status: active
 merged_into: null
 display_name: 王尚賓
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,44 @@ relationships:
         display_name: 王士原
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_64Anxh45jez_uPK3U4GTcp
+        subject_person_id: p_Yg7KAN2d9TocKbC2usfc4o
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_YzzMWW58D8YcaThYSmHjMN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_FrmXtJSdDofkURl_7ah_OI
+          claim_id: c_64Anxh45jez_uPK3U4GTcp
+          source_id: s_nJFx9CV2fDhK1OvJTZ0jly
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201251 王尚賓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_nJFx9CV2fDhK1OvJTZ0jly
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子誠（CBDB 269542）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=269542&o=json
+            external_identifier: CBDB:269542
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_YzzMWW58D8YcaThYSmHjMN
+        status: active
+        display_name: 王子誠
+        merged_into_person_id: null
 ---
 
 # 王尚賓
@@ -241,6 +278,7 @@ relationships:
 | parents | p_cp9cyybo898tD93WCpAwvL | 王文昌 | accepted |
 | ancestors | p_SKKWaTeWq4p8iTyWiTdZLD | 王迪 | accepted |
 | ancestors | p_xHv79WW3VFLCAQmL56PKCu | 王士原 | accepted |
+| other | p_YzzMWW58D8YcaThYSmHjMN | 王子誠 | accepted |
 
 ## 外部来源
 
@@ -248,3 +286,4 @@ relationships:
 - [中国历代人物传记资料库：王尚賓（CBDB 201251）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201251&o=json)
 - [中国历代人物传记资料库：王士原（CBDB 269536）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=269536&o=json)
 - [中国历代人物传记资料库：王文昌（CBDB 269538）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=269538&o=json)
+- [中国历代人物传记资料库：王子誠（CBDB 269542）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=269542&o=json)

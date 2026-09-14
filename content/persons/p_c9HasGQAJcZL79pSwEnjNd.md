@@ -4,7 +4,7 @@ id: p_c9HasGQAJcZL79pSwEnjNd
 status: active
 merged_into: null
 display_name: 王鑑
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_BSE-EJNJ4Mcy09DzXEq5_T
+        subject_person_id: p_J6vGZQ2XeYqBCDgqSMhjF4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_c9HasGQAJcZL79pSwEnjNd
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5Mc1pFtANk3xDgKLi6p5rT
+          claim_id: c_BSE-EJNJ4Mcy09DzXEq5_T
+          source_id: s_lcgnBn09oIDRnGz2UJCQZ6
+          stance: supports
+          locator: CBDB：兄弟 王銳（202497）之父／母 王虎
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鑑 与 王銳 为同胞（CBDB 记「弟」），王銳 之父／母即 王鑑 之父／母。
+          source:
+            id: s_lcgnBn09oIDRnGz2UJCQZ6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鑑（CBDB 289108）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=289108&o=json
+            external_identifier: CBDB:289108
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_J6vGZQ2XeYqBCDgqSMhjF4
+        status: active
+        display_name: 王虎
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_lhx55WY1H0e9Sac7EbSTRT
+        subject_person_id: p_9uL4CzY8WtBqKSLRcVb8TP
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_c9HasGQAJcZL79pSwEnjNd
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Mit5vyEvsp6jWaemEWzbks
+          claim_id: c_lhx55WY1H0e9Sac7EbSTRT
+          source_id: s_lcgnBn09oIDRnGz2UJCQZ6
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202497 王銳）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_lcgnBn09oIDRnGz2UJCQZ6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鑑（CBDB 289108）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=289108&o=json
+            external_identifier: CBDB:289108
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9uL4CzY8WtBqKSLRcVb8TP
+        status: active
+        display_name: 王銳
+        merged_into_person_id: null
 ---
 
 # 王鑑
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_J6vGZQ2XeYqBCDgqSMhjF4 | 王虎 | accepted |
+| other | p_9uL4CzY8WtBqKSLRcVb8TP | 王銳 | accepted |
 
 ## 外部来源
 

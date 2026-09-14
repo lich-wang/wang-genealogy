@@ -4,7 +4,7 @@ id: p_ituhEMvJAUn1N2MGRCPWh7
 status: active
 merged_into: null
 display_name: 王貽荃
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,43 @@ relationships:
         status: active
         display_name: 王振緒
         merged_into_person_id: null
+    - claim:
+        id: c_GOkZbqtKJ6I50zJNnPgZ0H
+        subject_person_id: p_ituhEMvJAUn1N2MGRCPWh7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mbX7S356tp6KQc7PNdQc4B
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_xhjo2Xyrdh7MYAB45k4Pt8
+          claim_id: c_GOkZbqtKJ6I50zJNnPgZ0H
+          source_id: s_PEPsvSo_gRNjX-2wnI8F4U
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 30088）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_PEPsvSo_gRNjX-2wnI8F4U
+            source_type: api_record
+            title: 中国历代人物传记资料库：王啟緒（CBDB 30090）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30090&o=json
+            external_identifier: CBDB:30090
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mbX7S356tp6KQc7PNdQc4B
+        status: active
+        display_name: 王啟緒
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_1kjRuo592Nvzzx75n3VwYV | 王振緒 | accepted |
+| children | p_mbX7S356tp6KQc7PNdQc4B | 王啟緒 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王啟緒（CBDB 30090）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30090&o=json)
 - [中国历代人物传记资料库：王貽荃（CBDB 30088）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=30088&o=json)

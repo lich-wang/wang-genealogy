@@ -4,7 +4,7 @@ id: p_W4Uw5tx84WkFrLAeBu8JGu
 status: active
 merged_into: null
 display_name: 王嘉孝
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,44 @@ relationships:
         display_name: 王信
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_KJBkt0G5p9e2RKnCUdd-34
+        subject_person_id: p_TQ4r5nNAyCADDJxY1DbJ5w
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_W4Uw5tx84WkFrLAeBu8JGu
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_wdfh4OwrtaWFvs_Wcqx6f7
+          claim_id: c_KJBkt0G5p9e2RKnCUdd-34
+          source_id: s_sb_coMJHgf4Zot3nD2T3Wa
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203440 王嘉孝）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_sb_coMJHgf4Zot3nD2T3Wa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嘉節（CBDB 304779）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304779&o=json
+            external_identifier: CBDB:304779
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_TQ4r5nNAyCADDJxY1DbJ5w
+        status: active
+        display_name: 王嘉節
+        merged_into_person_id: null
 ---
 
 # 王嘉孝
@@ -241,9 +278,11 @@ relationships:
 | parents | p_Rh1K2iP8xhRWnRgvAy7R1F | 王時庸 | accepted |
 | ancestors | p_Q4zHMaLc6WfcgCJNBJHez6 | 王璋 | accepted |
 | ancestors | p_TDLYpZV6QvrzV8d89Kjarb | 王信 | accepted |
+| other | p_TQ4r5nNAyCADDJxY1DbJ5w | 王嘉節 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王嘉節（CBDB 304779）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304779&o=json)
 - [中国历代人物传记资料库：王嘉孝（CBDB 203440）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203440&o=json)
 - [中国历代人物传记资料库：王時庸（CBDB 304774）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304774&o=json)
 - [中国历代人物传记资料库：王信（CBDB 304768）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304768&o=json)

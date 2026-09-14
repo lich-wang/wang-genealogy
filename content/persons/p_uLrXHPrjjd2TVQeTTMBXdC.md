@@ -4,7 +4,7 @@ id: p_uLrXHPrjjd2TVQeTTMBXdC
 status: active
 merged_into: null
 display_name: 王琥
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -79,7 +79,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_5otB9rCPuobGtjlOUBRtl9
+        subject_person_id: p_LRdTD9s5He696psBNFjnqq
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_uLrXHPrjjd2TVQeTTMBXdC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xvUQiwSejYe_ZpH8-7jRBW
+          claim_id: c_5otB9rCPuobGtjlOUBRtl9
+          source_id: s_g1-5k0AOLgqIV9wbXTsDrG
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 38213 王琥）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_g1-5k0AOLgqIV9wbXTsDrG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珏（CBDB 38210）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38210&o=json
+            external_identifier: CBDB:38210
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_LRdTD9s5He696psBNFjnqq
+        status: active
+        display_name: 王珏
+        merged_into_person_id: null
 ---
 
 # 王琥
@@ -97,7 +134,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_LRdTD9s5He696psBNFjnqq | 王珏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王琥（CBDB 38213）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38213&o=json)
+- [中国历代人物传记资料库：王珏（CBDB 38210）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=38210&o=json)

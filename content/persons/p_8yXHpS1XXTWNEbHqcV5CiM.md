@@ -4,7 +4,7 @@ id: p_8yXHpS1XXTWNEbHqcV5CiM
 status: active
 merged_into: null
 display_name: 王瑢
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_w8ce9vxCLsrI1OdGJVgz9B
+        subject_person_id: p_oLGH5VdAkbTAKw9xdBWvfS
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8yXHpS1XXTWNEbHqcV5CiM
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i097l4jzh5sg_pv-YDeUPE
+          claim_id: c_w8ce9vxCLsrI1OdGJVgz9B
+          source_id: s_TAXShRXHGTAn17kvo6i-ns
+          stance: supports
+          locator: CBDB：兄弟 王璣（126823）之父／母 王文暉
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王瑢 与 王璣 为同胞（CBDB 记「弟」），王璣 之父／母即 王瑢 之父／母。
+          source:
+            id: s_TAXShRXHGTAn17kvo6i-ns
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑢（CBDB 290018）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290018&o=json
+            external_identifier: CBDB:290018
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oLGH5VdAkbTAKw9xdBWvfS
+        status: active
+        display_name: 王文暉
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_iKNnFJAEHwUQWf9wEwIDbm
+        subject_person_id: p_8yXHpS1XXTWNEbHqcV5CiM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_EsRDyFvEK3YaUwwwR2A4xp
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_UTVtzcnneAkmgXRqrBfpVV
+          claim_id: c_iKNnFJAEHwUQWf9wEwIDbm
+          source_id: s_TAXShRXHGTAn17kvo6i-ns
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126823 王璣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_TAXShRXHGTAn17kvo6i-ns
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑢（CBDB 290018）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=290018&o=json
+            external_identifier: CBDB:290018
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EsRDyFvEK3YaUwwwR2A4xp
+        status: active
+        display_name: 王璣
+        merged_into_person_id: null
 ---
 
 # 王瑢
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_oLGH5VdAkbTAKw9xdBWvfS | 王文暉 | accepted |
+| other | p_EsRDyFvEK3YaUwwwR2A4xp | 王璣 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王時昶
 cbdb_id: 287098
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_sz3m4eSaqHe4z8Q0ShoDdF
+        subject_person_id: p_SeUwbsi3ek9as5xjE9GYzB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EjfvNZV4MZXzkEhT5KVGi1
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5xNtxSz79hb8kmS_KY-X1w
+          claim_id: c_sz3m4eSaqHe4z8Q0ShoDdF
+          source_id: s_ScEW4IWoxjBVOgYGKv4EyZ
+          stance: supports
+          locator: CBDB：兄弟 王時習（202373）之父／母 王敏道
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王時昶 与 王時習 为同胞（CBDB 记「兄」），王時習 之父／母即 王時昶 之父／母。
+          source:
+            id: s_ScEW4IWoxjBVOgYGKv4EyZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王時昶（CBDB 287098）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287098&o=json
+            external_identifier: CBDB:287098
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_SeUwbsi3ek9as5xjE9GYzB
+        status: active
+        display_name: 王敏道
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_8L_9S-suOXbdj8PSkw4fRK
+        subject_person_id: p_EjfvNZV4MZXzkEhT5KVGi1
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_s2J6v6Z1BCr8cEtWSejd2v
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2bIY39R62LZZIYKQHbsuyS
+          claim_id: c_8L_9S-suOXbdj8PSkw4fRK
+          source_id: s_ScEW4IWoxjBVOgYGKv4EyZ
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202373 王時習）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ScEW4IWoxjBVOgYGKv4EyZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王時昶（CBDB 287098）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287098&o=json
+            external_identifier: CBDB:287098
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_s2J6v6Z1BCr8cEtWSejd2v
+        status: active
+        display_name: 王時習
+        merged_into_person_id: null
 ---
 
 # 王時昶
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_SeUwbsi3ek9as5xjE9GYzB | 王敏道 | accepted |
+| other | p_s2J6v6Z1BCr8cEtWSejd2v | 王時習 | accepted |
 
 ## 外部来源
 

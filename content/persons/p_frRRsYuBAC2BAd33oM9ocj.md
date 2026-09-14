@@ -4,7 +4,7 @@ id: p_frRRsYuBAC2BAd33oM9ocj
 status: active
 merged_into: null
 display_name: 王儒
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_5qB2srAY69YE4uSnU7Tjgm
+        subject_person_id: p_ax45r2gqCk3bG46hzyK38p
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_frRRsYuBAC2BAd33oM9ocj
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_T1cM6jyJaCozue3mfMJwY8
+          claim_id: c_5qB2srAY69YE4uSnU7Tjgm
+          source_id: s_MTk4OpvYwRR32WZEf7chiM
+          stance: supports
+          locator: CBDB：兄弟 王偉（201651）之父／母 王璣
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王儒 与 王偉 为同胞（CBDB 记「兄」），王偉 之父／母即 王儒 之父／母。
+          source:
+            id: s_MTk4OpvYwRR32WZEf7chiM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王儒（CBDB 275668）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=275668&o=json
+            external_identifier: CBDB:275668
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ax45r2gqCk3bG46hzyK38p
+        status: active
+        display_name: 王璣
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_gEFyxNj3QJxVauFuhOKz4T
+        subject_person_id: p_LvB1BmafWakeZPFiqa6trK
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_frRRsYuBAC2BAd33oM9ocj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-kOh-jhWbwJ89Hd4VWbw_g
+          claim_id: c_gEFyxNj3QJxVauFuhOKz4T
+          source_id: s_MTk4OpvYwRR32WZEf7chiM
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201651 王偉）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_MTk4OpvYwRR32WZEf7chiM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王儒（CBDB 275668）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=275668&o=json
+            external_identifier: CBDB:275668
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_LvB1BmafWakeZPFiqa6trK
+        status: active
+        display_name: 王偉
+        merged_into_person_id: null
 ---
 
 # 王儒
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ax45r2gqCk3bG46hzyK38p | 王璣 | accepted |
+| other | p_LvB1BmafWakeZPFiqa6trK | 王偉 | accepted |
 
 ## 外部来源
 

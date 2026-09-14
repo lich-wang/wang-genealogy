@@ -4,7 +4,7 @@ id: p_s5tjSKHAH6mUhMsNMv2JHq
 status: active
 merged_into: null
 display_name: 王真
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_i8T5sZUYWjknv9pB23-EII
+        subject_person_id: p_HrLVrZ6v865GiJPseaqUKx
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_s5tjSKHAH6mUhMsNMv2JHq
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TvU1Pw3HV8OCLyO_Z_L2Dq
+          claim_id: c_i8T5sZUYWjknv9pB23-EII
+          source_id: s_0LzRVspw-Tk2eMyoTfXOqI
+          stance: supports
+          locator: CBDB：兄弟 王豎（198592）之父／母 王子中
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王真 与 王豎 为同胞（CBDB 记「兄」），王豎 之父／母即 王真 之父／母。
+          source:
+            id: s_0LzRVspw-Tk2eMyoTfXOqI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王真（CBDB 291729）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291729&o=json
+            external_identifier: CBDB:291729
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HrLVrZ6v865GiJPseaqUKx
+        status: active
+        display_name: 王子中
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_rlMQnNqwzFiSIzVX4ZZeRi
+        subject_person_id: p_s5tjSKHAH6mUhMsNMv2JHq
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_yfs4AMpkp3NQmpWdTLnP5v
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_A4RykL9enioRvxbkQNdYjE
+          claim_id: c_rlMQnNqwzFiSIzVX4ZZeRi
+          source_id: s_0LzRVspw-Tk2eMyoTfXOqI
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198592 王豎）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0LzRVspw-Tk2eMyoTfXOqI
+            source_type: api_record
+            title: 中国历代人物传记资料库：王真（CBDB 291729）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=291729&o=json
+            external_identifier: CBDB:291729
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_yfs4AMpkp3NQmpWdTLnP5v
+        status: active
+        display_name: 王豎
+        merged_into_person_id: null
 ---
 
 # 王真
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_HrLVrZ6v865GiJPseaqUKx | 王子中 | accepted |
+| other | p_yfs4AMpkp3NQmpWdTLnP5v | 王豎 | accepted |
 
 ## 外部来源
 

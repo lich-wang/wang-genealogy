@@ -4,7 +4,7 @@ id: p_A6iFsSXAzpYqQ7Dx2tHHzh
 status: active
 merged_into: null
 display_name: 王賢
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_bK76ogg7oP5wiJAZfgjbdA
+        subject_person_id: p_2h2iTcWMQkG9VP954w7RTi
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_A6iFsSXAzpYqQ7Dx2tHHzh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tGsOWCsZeJ9EETXjlHslLY
+          claim_id: c_bK76ogg7oP5wiJAZfgjbdA
+          source_id: s_xdcm72ol3Qmd9BrqMZMecF
+          stance: supports
+          locator: CBDB：兄弟 王正（208144）之父／母 王礪
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王賢 与 王正 为同胞（CBDB 记「弟」），王正 之父／母即 王賢 之父／母。
+          source:
+            id: s_xdcm72ol3Qmd9BrqMZMecF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王賢（CBDB 241026）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241026&o=json
+            external_identifier: CBDB:241026
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2h2iTcWMQkG9VP954w7RTi
+        status: active
+        display_name: 王礪
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_OH-xD3U3Q3BGmGzz6Ux9zl
+        subject_person_id: p_A6iFsSXAzpYqQ7Dx2tHHzh
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_bfSy8dPRhP5ZK4VbYiPWT2
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XRG3-10nxH4KZNAQDeqbQm
+          claim_id: c_OH-xD3U3Q3BGmGzz6Ux9zl
+          source_id: s_xdcm72ol3Qmd9BrqMZMecF
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 208144 王正）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_xdcm72ol3Qmd9BrqMZMecF
+            source_type: api_record
+            title: 中国历代人物传记资料库：王賢（CBDB 241026）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=241026&o=json
+            external_identifier: CBDB:241026
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_bfSy8dPRhP5ZK4VbYiPWT2
+        status: active
+        display_name: 王正
+        merged_into_person_id: null
 ---
 
 # 王賢
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_2h2iTcWMQkG9VP954w7RTi | 王礪 | accepted |
+| other | p_bfSy8dPRhP5ZK4VbYiPWT2 | 王正 | accepted |
 
 ## 外部来源
 

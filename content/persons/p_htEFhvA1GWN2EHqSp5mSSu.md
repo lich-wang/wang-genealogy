@@ -4,7 +4,7 @@ id: p_htEFhvA1GWN2EHqSp5mSSu
 status: active
 merged_into: null
 display_name: 王世芳
-revision: 3
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -181,7 +181,118 @@ relationships:
         display_name: 王輅
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_9Uo72R4QEJoh_oQ7rD7gWp
+        subject_person_id: p_guRNz8sFLpyZ1DRqQFDw2a
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_htEFhvA1GWN2EHqSp5mSSu
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_LTU2zeGVPJ5znAMtXBDpvh
+          claim_id: c_9Uo72R4QEJoh_oQ7rD7gWp
+          source_id: s_iKHAzMhy0PmEdLrEJ8ye4_
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202098 王世芳）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_iKHAzMhy0PmEdLrEJ8ye4_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世仁（CBDB 283508）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283508&o=json
+            external_identifier: CBDB:283508
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_guRNz8sFLpyZ1DRqQFDw2a
+        status: active
+        display_name: 王世仁
+        merged_into_person_id: null
+    - claim:
+        id: c_008p3iNkLO1RIRnmC4_P9p
+        subject_person_id: p_htEFhvA1GWN2EHqSp5mSSu
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_jsiW68EUficZA4vm2CiJLJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xgqwBFCnnj2blGjROTSU8v
+          claim_id: c_008p3iNkLO1RIRnmC4_P9p
+          source_id: s_DUwPInL0u-kKSb9NoSoHGM
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202098 王世芳）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_DUwPInL0u-kKSb9NoSoHGM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世蕃（CBDB 283507）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283507&o=json
+            external_identifier: CBDB:283507
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jsiW68EUficZA4vm2CiJLJ
+        status: active
+        display_name: 王世蕃
+        merged_into_person_id: null
+    - claim:
+        id: c_Cnnf-mbNfZuSD9sG0wh1di
+        subject_person_id: p_htEFhvA1GWN2EHqSp5mSSu
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ssuQw7nDe87wL675ifBsBB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AzeiQvI7E24B3yCpgMOX2c
+          claim_id: c_Cnnf-mbNfZuSD9sG0wh1di
+          source_id: s_aqbjyyvXf3RUC816HGDQW7
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202098 王世芳）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_aqbjyyvXf3RUC816HGDQW7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世良（CBDB 283510）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283510&o=json
+            external_identifier: CBDB:283510
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ssuQw7nDe87wL675ifBsBB
+        status: active
+        display_name: 王世良
+        merged_into_person_id: null
 ---
 
 # 王世芳
@@ -202,9 +313,15 @@ relationships:
 | --- | --- | --- | --- |
 | ancestors | p_emSVrN2cQ2GqKFX79DRrPL | 王僑 | accepted |
 | ancestors | p_x6f6DgLrcD1iiVCeB2E5kp | 王輅 | accepted |
+| other | p_guRNz8sFLpyZ1DRqQFDw2a | 王世仁 | accepted |
+| other | p_jsiW68EUficZA4vm2CiJLJ | 王世蕃 | accepted |
+| other | p_ssuQw7nDe87wL675ifBsBB | 王世良 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王輅（CBDB 283502）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283502&o=json)
 - [中国历代人物传记资料库：王僑（CBDB 283503）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283503&o=json)
+- [中国历代人物传记资料库：王世蕃（CBDB 283507）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283507&o=json)
 - [中国历代人物传记资料库：王世芳（CBDB 202098）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202098&o=json)
+- [中国历代人物传记资料库：王世良（CBDB 283510）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283510&o=json)
+- [中国历代人物传记资料库：王世仁（CBDB 283508）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=283508&o=json)

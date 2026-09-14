@@ -4,7 +4,7 @@ id: p_P7zJqgvbYP5g8TxtNP9GCp
 status: active
 merged_into: null
 display_name: 王文
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,44 @@ relationships:
         display_name: 王邦美
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_vfWSAqr_Chg5Lgr56jsaQE
+        subject_person_id: p_MJYmhkfk58PyJsFz9hf6yt
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_P7zJqgvbYP5g8TxtNP9GCp
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_z4v3nX-rkCfFfchqYwNmmJ
+          claim_id: c_vfWSAqr_Chg5Lgr56jsaQE
+          source_id: s_IFkjDrigtDEuXQVuJo8FHk
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202049 王文）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_IFkjDrigtDEuXQVuJo8FHk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王彥（CBDB 282561）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282561&o=json
+            external_identifier: CBDB:282561
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MJYmhkfk58PyJsFz9hf6yt
+        status: active
+        display_name: 王彥
+        merged_into_person_id: null
 ---
 
 # 王文
@@ -241,6 +278,7 @@ relationships:
 | parents | p_qtS2vTEe75QERPYH2wknEH | 王朝用 | accepted |
 | ancestors | p_8bydW1RBsCGXdQ9TVpKH76 | 王藹 | accepted |
 | ancestors | p_AtoiyTSmhg8fECkw869467 | 王邦美 | accepted |
+| other | p_MJYmhkfk58PyJsFz9hf6yt | 王彥 | accepted |
 
 ## 外部来源
 
@@ -248,3 +286,4 @@ relationships:
 - [中国历代人物传记资料库：王邦美（CBDB 282555）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282555&o=json)
 - [中国历代人物传记资料库：王朝用（CBDB 282557）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282557&o=json)
 - [中国历代人物传记资料库：王文（CBDB 202049）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202049&o=json)
+- [中国历代人物传记资料库：王彥（CBDB 282561）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=282561&o=json)

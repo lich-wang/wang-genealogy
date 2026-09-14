@@ -4,7 +4,7 @@ id: p_qXXWkVN4cPuCaB8LQ1BWBn
 status: active
 merged_into: null
 display_name: 王玘
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,80 @@ relationships:
         status: active
         display_name: 王貫
         merged_into_person_id: null
+    - claim:
+        id: c_rlUEM1eqegorEZtfdDAFQO
+        subject_person_id: p_qXXWkVN4cPuCaB8LQ1BWBn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_L1Ld8vqoE3DVKoVeesVKff
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vgTqQ4QR1ID__RoLz2XVk6
+          claim_id: c_rlUEM1eqegorEZtfdDAFQO
+          source_id: s_Kz_BcYfVah1xAMiamvhjyT
+          stance: supports
+          locator: CBDB：兄弟 王貫（200606）之父／母 王玘
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王翀 与 王貫 为同胞（CBDB 记「弟」），王貫 之父／母即 王翀 之父／母。
+          source:
+            id: s_Kz_BcYfVah1xAMiamvhjyT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王翀（CBDB 260344）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260344&o=json
+            external_identifier: CBDB:260344
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_L1Ld8vqoE3DVKoVeesVKff
+        status: active
+        display_name: 王翀
+        merged_into_person_id: null
+    - claim:
+        id: c_oRc6UUEPTnvg8wPaw0OXjB
+        subject_person_id: p_qXXWkVN4cPuCaB8LQ1BWBn
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oTjwFW82cDAsgh765nM8QW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pCNhbubaC203V1PHvhnV6P
+          claim_id: c_oRc6UUEPTnvg8wPaw0OXjB
+          source_id: s_yXmPAzbFygS8k5NfPKPiur
+          stance: supports
+          locator: CBDB：兄弟 王貫（200606）之父／母 王玘
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王昭純 与 王貫 为同胞（CBDB 记「兄」），王貫 之父／母即 王昭純 之父／母。
+          source:
+            id: s_yXmPAzbFygS8k5NfPKPiur
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昭純（CBDB 260345）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260345&o=json
+            external_identifier: CBDB:260345
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oTjwFW82cDAsgh765nM8QW
+        status: active
+        display_name: 王昭純
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_uBDJjG7sJNJM9ZmFoir4HY | 王貫 | accepted |
+| children | p_L1Ld8vqoE3DVKoVeesVKff | 王翀 | accepted |
+| children | p_oTjwFW82cDAsgh765nM8QW | 王昭純 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王翀（CBDB 260344）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260344&o=json)
 - [中国历代人物传记资料库：王玘（CBDB 260341）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260341&o=json)
+- [中国历代人物传记资料库：王昭純（CBDB 260345）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260345&o=json)

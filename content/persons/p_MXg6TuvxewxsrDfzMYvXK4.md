@@ -4,7 +4,7 @@ id: p_MXg6TuvxewxsrDfzMYvXK4
 status: active
 merged_into: null
 display_name: 王世官
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,117 @@ relationships:
         status: active
         display_name: 王軒
         merged_into_person_id: null
+    - claim:
+        id: c_THB3Mgmkbp652ggMGAKTDv
+        subject_person_id: p_MXg6TuvxewxsrDfzMYvXK4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7ejWm6AsuUu1BRuWnmPNET
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_X6m3VgPuM49DDpKqXFpXMA
+          claim_id: c_THB3Mgmkbp652ggMGAKTDv
+          source_id: s_RTbUuk31SGmKtCz8tuGDuA
+          stance: supports
+          locator: CBDB：兄弟 王軒（205226）之父／母 王世官
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王軾 与 王軒 为同胞（CBDB 记「兄」），王軒 之父／母即 王軾 之父／母。
+          source:
+            id: s_RTbUuk31SGmKtCz8tuGDuA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王軾（CBDB 330016）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330016&o=json
+            external_identifier: CBDB:330016
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7ejWm6AsuUu1BRuWnmPNET
+        status: active
+        display_name: 王軾
+        merged_into_person_id: null
+    - claim:
+        id: c_usuxgDA9O_0u5ipSDyMF33
+        subject_person_id: p_MXg6TuvxewxsrDfzMYvXK4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oYm5JaHd6WnY9ywTcqr4SC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aqrD3Nwz-owi9xgv6K3Dub
+          claim_id: c_usuxgDA9O_0u5ipSDyMF33
+          source_id: s_dcunhZKmn1GmGxER-s2NtO
+          stance: supports
+          locator: CBDB：兄弟 王軒（205226）之父／母 王世官
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王轍 与 王軒 为同胞（CBDB 记「兄」），王軒 之父／母即 王轍 之父／母。
+          source:
+            id: s_dcunhZKmn1GmGxER-s2NtO
+            source_type: api_record
+            title: 中国历代人物传记资料库：王轍（CBDB 330015）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330015&o=json
+            external_identifier: CBDB:330015
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oYm5JaHd6WnY9ywTcqr4SC
+        status: active
+        display_name: 王轍
+        merged_into_person_id: null
+    - claim:
+        id: c_lnIb9YtewSNq87mPtcPdBs
+        subject_person_id: p_MXg6TuvxewxsrDfzMYvXK4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_vVagYU4Teai8H8Gt1BBTv7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7lhc2156ZfMXn2zSK7-6TM
+          claim_id: c_lnIb9YtewSNq87mPtcPdBs
+          source_id: s_-vJfdo7I_nJTdADmcab1Ur
+          stance: supports
+          locator: CBDB：兄弟 王軒（205226）之父／母 王世官
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王輯 与 王軒 为同胞（CBDB 记「弟」），王軒 之父／母即 王輯 之父／母。
+          source:
+            id: s_-vJfdo7I_nJTdADmcab1Ur
+            source_type: api_record
+            title: 中国历代人物传记资料库：王輯（CBDB 330014）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330014&o=json
+            external_identifier: CBDB:330014
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vVagYU4Teai8H8Gt1BBTv7
+        status: active
+        display_name: 王輯
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +246,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_aPcrqB9XkxSACSANyGxVsW | 王軒 | accepted |
+| children | p_7ejWm6AsuUu1BRuWnmPNET | 王軾 | accepted |
+| children | p_oYm5JaHd6WnY9ywTcqr4SC | 王轍 | accepted |
+| children | p_vVagYU4Teai8H8Gt1BBTv7 | 王輯 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王輯（CBDB 330014）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330014&o=json)
 - [中国历代人物传记资料库：王世官（CBDB 330011）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330011&o=json)
+- [中国历代人物传记资料库：王軾（CBDB 330016）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330016&o=json)
 - [中国历代人物传记资料库：王軒（CBDB 205226）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205226&o=json)
+- [中国历代人物传记资料库：王轍（CBDB 330015）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330015&o=json)

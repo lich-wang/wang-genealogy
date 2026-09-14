@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王應釣
 cbdb_id: 304274
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_PcflyQ5PbgFmwoUOZR2Zla
+        subject_person_id: p_VLXHmJpMp4wz4g5naM2r4z
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZzRV191MavKcr9ERBN1hYs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pekyaD7ZE2hzcxa4McAe0Y
+          claim_id: c_PcflyQ5PbgFmwoUOZR2Zla
+          source_id: s_bomwxoqidKSyhsy0k_77tO
+          stance: supports
+          locator: CBDB：兄弟 王應鍾（126850）之父／母 王密
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王應釣 与 王應鍾 为同胞（CBDB 记「弟」），王應鍾 之父／母即 王應釣 之父／母。
+          source:
+            id: s_bomwxoqidKSyhsy0k_77tO
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應釣（CBDB 304274）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304274&o=json
+            external_identifier: CBDB:304274
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VLXHmJpMp4wz4g5naM2r4z
+        status: active
+        display_name: 王密
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_7zDlNKPsih5BsV36gSiDvS
+        subject_person_id: p_ZzRV191MavKcr9ERBN1hYs
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_zj3UcaT47HKJJeLDFk6H7j
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ccjmB2jv0wbfaGz70BpCF_
+          claim_id: c_7zDlNKPsih5BsV36gSiDvS
+          source_id: s_bomwxoqidKSyhsy0k_77tO
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126850 王應鍾）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_bomwxoqidKSyhsy0k_77tO
+            source_type: api_record
+            title: 中国历代人物传记资料库：王應釣（CBDB 304274）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=304274&o=json
+            external_identifier: CBDB:304274
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zj3UcaT47HKJJeLDFk6H7j
+        status: active
+        display_name: 王應鍾
+        merged_into_person_id: null
 ---
 
 # 王應釣
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_VLXHmJpMp4wz4g5naM2r4z | 王密 | accepted |
+| other | p_zj3UcaT47HKJJeLDFk6H7j | 王應鍾 | accepted |
 
 ## 外部来源
 

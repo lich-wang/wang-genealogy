@@ -4,7 +4,7 @@ id: p_Dufhb5NoCZnQdaJkaB21gq
 status: active
 merged_into: null
 display_name: 王璘
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,43 @@ relationships:
         status: active
         display_name: 王祐
         merged_into_person_id: null
+    - claim:
+        id: c_LflkgQrWXbP-KJHEyFZ0R_
+        subject_person_id: p_Dufhb5NoCZnQdaJkaB21gq
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_5nVm6q9uX9xLyeMd9QMB9u
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3KCs4qYFXhmD-iFyZSiIGY
+          claim_id: c_LflkgQrWXbP-KJHEyFZ0R_
+          source_id: s_uqeRosfDtKDVkQUptE-x8H
+          stance: supports
+          locator: CBDB：兄弟 王祐（198138）之父／母 王璘
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王禎 与 王祐 为同胞（CBDB 记「弟」），王祐 之父／母即 王禎 之父／母。
+          source:
+            id: s_uqeRosfDtKDVkQUptE-x8H
+            source_type: api_record
+            title: 中国历代人物传记资料库：王禎（CBDB 249188）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249188&o=json
+            external_identifier: CBDB:249188
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_5nVm6q9uX9xLyeMd9QMB9u
+        status: active
+        display_name: 王禎
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -161,9 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_xG6Uatb4hvJpHFBwk8TY1u | 王祐 | accepted |
+| children | p_5nVm6q9uX9xLyeMd9QMB9u | 王禎 | accepted |
 | descendants | p_3BqLdv5ornEQLqdPoknpXE | 王屏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王璘（CBDB 248853）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248853&o=json)
 - [中国历代人物传记资料库：王屏（CBDB 199995）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199995&o=json)
+- [中国历代人物传记资料库：王禎（CBDB 249188）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249188&o=json)

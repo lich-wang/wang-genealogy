@@ -99,6 +99,12 @@ export interface SpouseEdge extends KinshipEdgeBase {
   b_id: string;
 }
 
+/** Symmetric sibling link: stored once with the lexicographically-smaller id as `a_id`. */
+export interface SiblingEdge extends KinshipEdgeBase {
+  a_id: string;
+  b_id: string;
+}
+
 /**
  * Stored direction: ANCESTOR --kinship.ancestor_of--> DESCENDANT, across a
  * known or unknown number of generations.
@@ -135,6 +141,8 @@ export interface RelativesGraph {
   nodes: RelativeNode[];
   parent_edges: ParentEdge[];
   spouse_edges: SpouseEdge[];
+  /** Sibling links (兄/弟/姊/妹), drawn as a horizontal tie. */
+  sibling_edges?: SiblingEdge[];
   /** Lines of descent across unnamed generations, drawn differently. */
   descent_edges: DescentEdge[];
   /** True when the node cap stopped the walk before it ran out of relatives. */

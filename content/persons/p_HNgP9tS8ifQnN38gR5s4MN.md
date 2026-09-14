@@ -4,7 +4,7 @@ id: p_HNgP9tS8ifQnN38gR5s4MN
 status: active
 merged_into: null
 display_name: 王偉
-revision: 1
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,125 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_xzyu6guTKWtP-7btCuw7G1
+        subject_person_id: p_4C5VKRVzuAvr67X2BV8fCM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HNgP9tS8ifQnN38gR5s4MN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HOgJt7WfMJTyZJNYHPm5HI
+          claim_id: c_xzyu6guTKWtP-7btCuw7G1
+          source_id: s_B47ama7cQh-wvF7fp4SzwP
+          stance: supports
+          locator: CBDB：兄弟 王儉（207835）之父／母 王仲亨
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王偉 与 王儉 为同胞（CBDB 记「兄」），王儉 之父／母即 王偉 之父／母。
+          source:
+            id: s_B47ama7cQh-wvF7fp4SzwP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王偉（CBDB 236836）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236836&o=json
+            external_identifier: CBDB:236836
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4C5VKRVzuAvr67X2BV8fCM
+        status: active
+        display_name: 王仲亨
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_qhmZJ3fnhbqILq9D9O7ASp
+        subject_person_id: p_HNgP9tS8ifQnN38gR5s4MN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_gVNWQ2fsh1sB6kRPqwK7Rn
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WNBkLcFvQcRpS9NMylfURE
+          claim_id: c_qhmZJ3fnhbqILq9D9O7ASp
+          source_id: s_B47ama7cQh-wvF7fp4SzwP
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207835 王儉）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_B47ama7cQh-wvF7fp4SzwP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王偉（CBDB 236836）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236836&o=json
+            external_identifier: CBDB:236836
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_gVNWQ2fsh1sB6kRPqwK7Rn
+        status: active
+        display_name: 王儉
+        merged_into_person_id: null
+    - claim:
+        id: c_uLLHj0I7LTdw5TCAP2fX0j
+        subject_person_id: p_HNgP9tS8ifQnN38gR5s4MN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Zv9iBHh6zJnNFQipkrhq3H
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9HjdymPcM1xtSRlNf733dr
+          claim_id: c_uLLHj0I7LTdw5TCAP2fX0j
+          source_id: s_B47ama7cQh-wvF7fp4SzwP
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 199236 王億）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_B47ama7cQh-wvF7fp4SzwP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王偉（CBDB 236836）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=236836&o=json
+            external_identifier: CBDB:236836
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Zv9iBHh6zJnNFQipkrhq3H
+        status: active
+        display_name: 王億
+        merged_into_person_id: null
 ---
 
 # 王偉
@@ -97,6 +208,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_4C5VKRVzuAvr67X2BV8fCM | 王仲亨 | accepted |
+| other | p_gVNWQ2fsh1sB6kRPqwK7Rn | 王儉 | accepted |
+| other | p_Zv9iBHh6zJnNFQipkrhq3H | 王億 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王家脩
 cbdb_id: 332968
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_4UVX76-ohhRvMbbJDWMVF6
+        subject_person_id: p_p6a6PegDLKhh6e58pdYza1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Dptj7idKPKe4A6Ah2yLWgv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rozCtVzjWyuvRZ4u4b4X3E
+          claim_id: c_4UVX76-ohhRvMbbJDWMVF6
+          source_id: s_UajKyD48FSYpIYsHL1qdYC
+          stance: supports
+          locator: CBDB：兄弟 王家卿（205423）之父／母 王稷
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王家脩 与 王家卿 为同胞（CBDB 记「兄」），王家卿 之父／母即 王家脩 之父／母。
+          source:
+            id: s_UajKyD48FSYpIYsHL1qdYC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王家脩（CBDB 332968）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332968&o=json
+            external_identifier: CBDB:332968
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_p6a6PegDLKhh6e58pdYza1
+        status: active
+        display_name: 王稷
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_FIjhWrU3fyVBzIJehTFdZI
+        subject_person_id: p_Dptj7idKPKe4A6Ah2yLWgv
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wfvFAbMeeGg2JCRsQFqRMn
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uEA1WK7Yiy_rzyJR9VvegA
+          claim_id: c_FIjhWrU3fyVBzIJehTFdZI
+          source_id: s_UajKyD48FSYpIYsHL1qdYC
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205423 王家卿）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_UajKyD48FSYpIYsHL1qdYC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王家脩（CBDB 332968）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=332968&o=json
+            external_identifier: CBDB:332968
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wfvFAbMeeGg2JCRsQFqRMn
+        status: active
+        display_name: 王家卿
+        merged_into_person_id: null
 ---
 
 # 王家脩
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_p6a6PegDLKhh6e58pdYza1 | 王稷 | accepted |
+| other | p_wfvFAbMeeGg2JCRsQFqRMn | 王家卿 | accepted |
 
 ## 外部来源
 

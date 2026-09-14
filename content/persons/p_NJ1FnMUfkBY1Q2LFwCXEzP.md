@@ -4,7 +4,7 @@ id: p_NJ1FnMUfkBY1Q2LFwCXEzP
 status: active
 merged_into: null
 display_name: 王志
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_WQGKujvQtNtdhpdil1pp95
+        subject_person_id: p_ZSdmaffBtX3DKbv12A8Zie
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NJ1FnMUfkBY1Q2LFwCXEzP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TtM_bwarqZF8y2HXouGJ7S
+          claim_id: c_WQGKujvQtNtdhpdil1pp95
+          source_id: s_YTck9oFpxjwPryux56cxNS
+          stance: supports
+          locator: CBDB：兄弟 王義（199241）之父／母 王輝
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王志 与 王義 为同胞（CBDB 记「弟」），王義 之父／母即 王志 之父／母。
+          source:
+            id: s_YTck9oFpxjwPryux56cxNS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王志（CBDB 242213）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=242213&o=json
+            external_identifier: CBDB:242213
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZSdmaffBtX3DKbv12A8Zie
+        status: active
+        display_name: 王輝
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_7JhmUap90ywFcaKUvhCloR
+        subject_person_id: p_J9NadhxFwxWfp7AyRarwGS
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_NJ1FnMUfkBY1Q2LFwCXEzP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_e5xr4JqQR2Yd8M4NuuzdZK
+          claim_id: c_7JhmUap90ywFcaKUvhCloR
+          source_id: s_YTck9oFpxjwPryux56cxNS
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 199241 王義）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_YTck9oFpxjwPryux56cxNS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王志（CBDB 242213）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=242213&o=json
+            external_identifier: CBDB:242213
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_J9NadhxFwxWfp7AyRarwGS
+        status: active
+        display_name: 王義
+        merged_into_person_id: null
 ---
 
 # 王志
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ZSdmaffBtX3DKbv12A8Zie | 王輝 | accepted |
+| other | p_J9NadhxFwxWfp7AyRarwGS | 王義 | accepted |
 
 ## 外部来源
 

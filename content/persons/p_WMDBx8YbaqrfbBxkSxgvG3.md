@@ -4,7 +4,7 @@ id: p_WMDBx8YbaqrfbBxkSxgvG3
 status: active
 merged_into: null
 display_name: 王和
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -137,6 +137,43 @@ relationships:
         status: active
         display_name: 王念
         merged_into_person_id: null
+    - claim:
+        id: c_Ra-YgHVkTkAjxpVyGPDNzV
+        subject_person_id: p_WMDBx8YbaqrfbBxkSxgvG3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8bPkGR1thE8oZ9F4GXHWNZ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ddKzZqmDxyXQi3ukkhlZa2
+          claim_id: c_Ra-YgHVkTkAjxpVyGPDNzV
+          source_id: s_zP4wxlz-Z1j2xbx4iPggNP
+          stance: supports
+          locator: CBDB：兄弟 王念（126587）之父／母 王和
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王龠 与 王念 为同胞（CBDB 记「兄」），王念 之父／母即 王龠 之父／母。
+          source:
+            id: s_zP4wxlz-Z1j2xbx4iPggNP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王龠（CBDB 276178）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276178&o=json
+            external_identifier: CBDB:276178
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8bPkGR1thE8oZ9F4GXHWNZ
+        status: active
+        display_name: 王龠
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -162,8 +199,10 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_xySe3nQRavCmmmxMiAe2Ua | 王政 | accepted |
 | children | p_1kPwo9xT5TtA5YmLc4QpXm | 王念 | accepted |
+| children | p_8bPkGR1thE8oZ9F4GXHWNZ | 王龠 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王和（CBDB 276172）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276172&o=json)
 - [中国历代人物传记资料库：王念（CBDB 126587）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126587&o=json)
+- [中国历代人物传记资料库：王龠（CBDB 276178）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=276178&o=json)

@@ -4,7 +4,7 @@ id: p_Mfr14WZdLtDDLf9Fy4GsT7
 status: active
 merged_into: null
 display_name: 王文英
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c__Uk0O5U9IkBsoUkQ0wvKiq
+        subject_person_id: p_cJPjdNwsR6729BhxkY9bu9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Mfr14WZdLtDDLf9Fy4GsT7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jSIykLuMHYg3Yx_HK4Oz_4
+          claim_id: c__Uk0O5U9IkBsoUkQ0wvKiq
+          source_id: s_Psw9qeQSVTv6ubsGXjN6sP
+          stance: supports
+          locator: CBDB：兄弟 王蔚（205903）之父／母 王撫民
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王文英 与 王蔚 为同胞（CBDB 记「兄」），王蔚 之父／母即 王文英 之父／母。
+          source:
+            id: s_Psw9qeQSVTv6ubsGXjN6sP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文英（CBDB 210433）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210433&o=json
+            external_identifier: CBDB:210433
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cJPjdNwsR6729BhxkY9bu9
+        status: active
+        display_name: 王撫民
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_VahjfflfIf4avsYalYHsFN
+        subject_person_id: p_Mfr14WZdLtDDLf9Fy4GsT7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_k3fw4jn7UF1hujd81L3vBe
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Bi5wDo87oLP7GrMDiWRypG
+          claim_id: c_VahjfflfIf4avsYalYHsFN
+          source_id: s_Psw9qeQSVTv6ubsGXjN6sP
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205903 王蔚）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Psw9qeQSVTv6ubsGXjN6sP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王文英（CBDB 210433）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210433&o=json
+            external_identifier: CBDB:210433
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_k3fw4jn7UF1hujd81L3vBe
+        status: active
+        display_name: 王蔚
+        merged_into_person_id: null
 ---
 
 # 王文英
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_cJPjdNwsR6729BhxkY9bu9 | 王撫民 | accepted |
+| other | p_k3fw4jn7UF1hujd81L3vBe | 王蔚 | accepted |
 
 ## 外部来源
 

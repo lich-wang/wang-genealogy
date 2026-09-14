@@ -4,7 +4,7 @@ id: p_53YdPXVcBwoNNtoe9v5t6c
 status: active
 merged_into: null
 display_name: 王衣
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,117 @@ relationships:
         status: active
         display_name: 王之彥
         merged_into_person_id: null
+    - claim:
+        id: c_rAJvA-2eZUhbmMBSbWvKf1
+        subject_person_id: p_53YdPXVcBwoNNtoe9v5t6c
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NkL6rDLdfan6Ub6o5oytJ9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V-BkQmJLusFs0IOlBxARFH
+          claim_id: c_rAJvA-2eZUhbmMBSbWvKf1
+          source_id: s_yZfom446gxB9HCRnngfQEQ
+          stance: supports
+          locator: CBDB：兄弟 王之彥（207166）之父／母 王衣
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王之言 与 王之彥 为同胞（CBDB 记「弟」），王之彥 之父／母即 王之言 之父／母。
+          source:
+            id: s_yZfom446gxB9HCRnngfQEQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之言（CBDB 228833）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228833&o=json
+            external_identifier: CBDB:228833
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NkL6rDLdfan6Ub6o5oytJ9
+        status: active
+        display_name: 王之言
+        merged_into_person_id: null
+    - claim:
+        id: c_NlGIXE9tvX5QG5pfh7bAix
+        subject_person_id: p_53YdPXVcBwoNNtoe9v5t6c
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_sPK6HK73zE1cGGZvHSSCpr
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_X_Ofwp1zTsLn4YPF-uwcLu
+          claim_id: c_NlGIXE9tvX5QG5pfh7bAix
+          source_id: s_sHMvjgjM3yVXk5_UZBU4Hi
+          stance: supports
+          locator: CBDB：兄弟 王之彥（207166）之父／母 王衣
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王之賓 与 王之彥 为同胞（CBDB 记「弟」），王之彥 之父／母即 王之賓 之父／母。
+          source:
+            id: s_sHMvjgjM3yVXk5_UZBU4Hi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之賓（CBDB 228835）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228835&o=json
+            external_identifier: CBDB:228835
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_sPK6HK73zE1cGGZvHSSCpr
+        status: active
+        display_name: 王之賓
+        merged_into_person_id: null
+    - claim:
+        id: c_XDVbWb4U8B6pxWJSKhoucO
+        subject_person_id: p_53YdPXVcBwoNNtoe9v5t6c
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_yJ9dRVkDw31LFeFvQaaMCy
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_u-Wz4YZatQTGnAUPGNwbg3
+          claim_id: c_XDVbWb4U8B6pxWJSKhoucO
+          source_id: s_gNqc4tjtV0D1ZS1BkxOkJS
+          stance: supports
+          locator: CBDB：兄弟 王之彥（207166）之父／母 王衣
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王之佐 与 王之彥 为同胞（CBDB 记「弟」），王之彥 之父／母即 王之佐 之父／母。
+          source:
+            id: s_gNqc4tjtV0D1ZS1BkxOkJS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王之佐（CBDB 228834）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228834&o=json
+            external_identifier: CBDB:228834
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_yJ9dRVkDw31LFeFvQaaMCy
+        status: active
+        display_name: 王之佐
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +235,13 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_oVB52nNYpQKMMkujZuH9Lj | 王之彥 | accepted |
+| children | p_NkL6rDLdfan6Ub6o5oytJ9 | 王之言 | accepted |
+| children | p_sPK6HK73zE1cGGZvHSSCpr | 王之賓 | accepted |
+| children | p_yJ9dRVkDw31LFeFvQaaMCy | 王之佐 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王衣（CBDB 228829）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228829&o=json)
+- [中国历代人物传记资料库：王之賓（CBDB 228835）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228835&o=json)
+- [中国历代人物传记资料库：王之言（CBDB 228833）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228833&o=json)
+- [中国历代人物传记资料库：王之佐（CBDB 228834）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228834&o=json)

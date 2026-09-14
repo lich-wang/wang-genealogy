@@ -4,7 +4,7 @@ id: p_QC3b5ZQGaNmcoUA7fYYpNT
 status: active
 merged_into: null
 display_name: 王真
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,80 @@ relationships:
         status: active
         display_name: 王瓚
         merged_into_person_id: null
+    - claim:
+        id: c_VIB6OdBa5OJltgT1FffVaS
+        subject_person_id: p_QC3b5ZQGaNmcoUA7fYYpNT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AWbhYZkLYhbdEbEhHLDAmo
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gmBotybUwjGfTR9dwT2SEO
+          claim_id: c_VIB6OdBa5OJltgT1FffVaS
+          source_id: s_VcS_M5X2oTNyTLpB0uEWsP
+          stance: supports
+          locator: CBDB：兄弟 王瓚（200846）之父／母 王真
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王珵 与 王瓚 为同胞（CBDB 记「兄」），王瓚 之父／母即 王珵 之父／母。
+          source:
+            id: s_VcS_M5X2oTNyTLpB0uEWsP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王珵（CBDB 263446）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=263446&o=json
+            external_identifier: CBDB:263446
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_AWbhYZkLYhbdEbEhHLDAmo
+        status: active
+        display_name: 王珵
+        merged_into_person_id: null
+    - claim:
+        id: c_IGb0IpmeYIs8cWHf2gaq8A
+        subject_person_id: p_QC3b5ZQGaNmcoUA7fYYpNT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Wqgvdi8bjfqZ77AGkatY4N
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ndOzuLsI2XBvBfiukyLEFg
+          claim_id: c_IGb0IpmeYIs8cWHf2gaq8A
+          source_id: s_IQXVRYgRLhH4_vTUURiDez
+          stance: supports
+          locator: CBDB：兄弟 王瓚（200846）之父／母 王真
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王環 与 王瓚 为同胞（CBDB 记「兄」），王瓚 之父／母即 王環 之父／母。
+          source:
+            id: s_IQXVRYgRLhH4_vTUURiDez
+            source_type: api_record
+            title: 中国历代人物传记资料库：王環（CBDB 263448）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=263448&o=json
+            external_identifier: CBDB:263448
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Wqgvdi8bjfqZ77AGkatY4N
+        status: active
+        display_name: 王環
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_PzCR5khH48dxkyKzDoAsiq | 王瓚 | accepted |
+| children | p_AWbhYZkLYhbdEbEhHLDAmo | 王珵 | accepted |
+| children | p_Wqgvdi8bjfqZ77AGkatY4N | 王環 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王珵（CBDB 263446）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=263446&o=json)
+- [中国历代人物传记资料库：王環（CBDB 263448）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=263448&o=json)
 - [中国历代人物传记资料库：王真（CBDB 263443）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=263443&o=json)

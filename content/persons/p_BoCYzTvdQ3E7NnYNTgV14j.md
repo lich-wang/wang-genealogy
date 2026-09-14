@@ -4,7 +4,7 @@ id: p_BoCYzTvdQ3E7NnYNTgV14j
 status: active
 merged_into: null
 display_name: 王廷
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -194,7 +194,81 @@ relationships:
         display_name: 王璽
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_mPOV2Xg5eVy9V59BlCVnIV
+        subject_person_id: p_BoCYzTvdQ3E7NnYNTgV14j
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_KMRqSukqfpRuHCcA7FMCWW
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aXE1Q6KigEutmY0Dg13f9V
+          claim_id: c_mPOV2Xg5eVy9V59BlCVnIV
+          source_id: s_o0hnvGTCnMrVDZiEGi0DhV
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126552 王廷）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_o0hnvGTCnMrVDZiEGi0DhV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璋（CBDB 265499）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265499&o=json
+            external_identifier: CBDB:265499
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KMRqSukqfpRuHCcA7FMCWW
+        status: active
+        display_name: 王璋
+        merged_into_person_id: null
+    - claim:
+        id: c_Rbd_DVtV3K5XvjSsC2wh8-
+        subject_person_id: p_BoCYzTvdQ3E7NnYNTgV14j
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_uiFf4vBQMUg6UxPsbyczp9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_c9bUd6UgFCwiA3jjsLKhHl
+          claim_id: c_Rbd_DVtV3K5XvjSsC2wh8-
+          source_id: s_3ac-_HDbSeWOu0z8JhgMLP
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126552 王廷）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_3ac-_HDbSeWOu0z8JhgMLP
+            source_type: api_record
+            title: 中国历代人物传记资料库：王臣（CBDB 265498）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265498&o=json
+            external_identifier: CBDB:265498
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_uiFf4vBQMUg6UxPsbyczp9
+        status: active
+        display_name: 王臣
+        merged_into_person_id: null
 ---
 
 # 王廷
@@ -216,8 +290,12 @@ relationships:
 | spouses | p_KZhEoAbjxqEFN8HkDmdhWt | 盧氏 | accepted |
 | ancestors | p_sLapyACEMy6qokZ2Zd8EyF | 王俊 | accepted |
 | ancestors | p_HLD51yxv1t466HjKkgewJZ | 王璽 | accepted |
+| other | p_KMRqSukqfpRuHCcA7FMCWW | 王璋 | accepted |
+| other | p_uiFf4vBQMUg6UxPsbyczp9 | 王臣 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：盧氏(王廷妻)（CBDB 265497）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265497&o=json)
+- [中国历代人物传记资料库：王臣（CBDB 265498）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265498&o=json)
 - [中国历代人物传记资料库：王廷（CBDB 126552）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126552&o=json)
+- [中国历代人物传记资料库：王璋（CBDB 265499）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265499&o=json)

@@ -4,7 +4,7 @@ id: p_XKApWYJnmMgLZmZqtzznxJ
 status: active
 merged_into: null
 display_name: 王教
-revision: 7
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -342,7 +342,44 @@ relationships:
         display_name: 王宗
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ea2Lcl_j8MwH0jpRVnorFh
+        subject_person_id: p_XKApWYJnmMgLZmZqtzznxJ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_iF2edJw6ffdAKG53X7TEfF
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_T9kmU69gubFUoscIJSzCkp
+          claim_id: c_ea2Lcl_j8MwH0jpRVnorFh
+          source_id: s_Z9M7oiVLQQ6Jk6qdYGcZNE
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126674 王教）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Z9M7oiVLQQ6Jk6qdYGcZNE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王政（CBDB 292311）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292311&o=json
+            external_identifier: CBDB:292311
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_iF2edJw6ffdAKG53X7TEfF
+        status: active
+        display_name: 王政
+        merged_into_person_id: null
 ---
 
 # 王教
@@ -367,12 +404,14 @@ relationships:
 | children | p_VZ6oEPm3xy7bonsAK7NdT8 | 王子孝 | accepted |
 | ancestors | p_b882QVXceoZok18SQAv5Rc | 王璿 | accepted |
 | ancestors | p_BxC4uACvR2xMAKZRYpDAhv | 王宗 | accepted |
+| other | p_iF2edJw6ffdAKG53X7TEfF | 王政 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王教（CBDB 126674）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126674&o=json)
 - [中国历代人物传记资料库：王山（CBDB 292308）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292308&o=json)
 - [中国历代人物传记资料库：王璿（CBDB 292305）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292305&o=json)
+- [中国历代人物传记资料库：王政（CBDB 292311）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292311&o=json)
 - [中国历代人物传记资料库：王子孚（CBDB 292314）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292314&o=json)
 - [中国历代人物传记资料库：王子厚（CBDB 292315）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292315&o=json)
 - [中国历代人物传记资料库：王子孝（CBDB 292312）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=292312&o=json)

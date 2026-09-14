@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王守充
 cbdb_id: 204079
-revision: 4
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,81 @@ relationships:
         display_name: 王鳳翥
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_tB9Hc7vu6hIYsSg3S-xsDT
+        subject_person_id: p_Pf6TEXjGfNj869D16z8ZuG
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_m4y3DtdUWC7aFGZgAcbH8Q
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_n_bX2waeROawl3FZJceel7
+          claim_id: c_tB9Hc7vu6hIYsSg3S-xsDT
+          source_id: s_wjka_cAOwXKgaR9Q15m8Zx
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204079 王守充）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_wjka_cAOwXKgaR9Q15m8Zx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王守高（CBDB 314100）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314100&o=json
+            external_identifier: CBDB:314100
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_m4y3DtdUWC7aFGZgAcbH8Q
+        status: active
+        display_name: 王守高
+        merged_into_person_id: null
+    - claim:
+        id: c_Iho58cCSrsLyKliLQ3Bo-6
+        subject_person_id: p_Pf6TEXjGfNj869D16z8ZuG
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_oDTwnri6FnWMixygjhA5Vr
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_a9BDcKxhUstM17F1FhRiYq
+          claim_id: c_Iho58cCSrsLyKliLQ3Bo-6
+          source_id: s_rb-R6_CEBWGlOPcQAOLwPo
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204079 王守充）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_rb-R6_CEBWGlOPcQAOLwPo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王守立（CBDB 314099）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314099&o=json
+            external_identifier: CBDB:314099
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oDTwnri6FnWMixygjhA5Vr
+        status: active
+        display_name: 王守立
+        merged_into_person_id: null
 ---
 
 # 王守充
@@ -257,10 +331,14 @@ relationships:
 | parents | p_den6Qb7fcU9dqdvbGrfnab | 王密 | accepted |
 | ancestors | p_h191P7ENcbHX8163N1GsDA | 王璽 | accepted |
 | ancestors | p_jQQSRy2uXkJdezJQ7bH4wz | 王鳳翥 | accepted |
+| other | p_m4y3DtdUWC7aFGZgAcbH8Q | 王守高 | accepted |
+| other | p_oDTwnri6FnWMixygjhA5Vr | 王守立 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鳳翥（CBDB 314094）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314094&o=json)
 - [中国历代人物传记资料库：王密（CBDB 314096）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314096&o=json)
 - [中国历代人物传记资料库：王守充（CBDB 204079）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204079&o=json)
+- [中国历代人物传记资料库：王守高（CBDB 314100）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314100&o=json)
+- [中国历代人物传记资料库：王守立（CBDB 314099）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314099&o=json)
 - [中国历代人物传记资料库：王璽（CBDB 314093）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314093&o=json)

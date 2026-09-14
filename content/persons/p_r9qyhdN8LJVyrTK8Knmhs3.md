@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王仰觀
 cbdb_id: 248135
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_4MXpOKELZoj56eH-Iaoh5c
+        subject_person_id: p_hkkZy7J5ztQnL3t6fCHvcP
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_r9qyhdN8LJVyrTK8Knmhs3
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OzbsFkBnTXcnF9DGBJfC0E
+          claim_id: c_4MXpOKELZoj56eH-Iaoh5c
+          source_id: s_0ev_AS6BcGACymK_uBRMT2
+          stance: supports
+          locator: CBDB：兄弟 王嶽（199663）之父／母 王崇志
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王仰觀 与 王嶽 为同胞（CBDB 记「弟」），王嶽 之父／母即 王仰觀 之父／母。
+          source:
+            id: s_0ev_AS6BcGACymK_uBRMT2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仰觀（CBDB 248135）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248135&o=json
+            external_identifier: CBDB:248135
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hkkZy7J5ztQnL3t6fCHvcP
+        status: active
+        display_name: 王崇志
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_T7tFaYVSnf2rTKP4nV56ob
+        subject_person_id: p_cQq1LyruU9xa7MkCKy9rQ3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_r9qyhdN8LJVyrTK8Knmhs3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_uhIxa2ocwjoU6OLl8Xr55g
+          claim_id: c_T7tFaYVSnf2rTKP4nV56ob
+          source_id: s_0ev_AS6BcGACymK_uBRMT2
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 199663 王嶽）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0ev_AS6BcGACymK_uBRMT2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王仰觀（CBDB 248135）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=248135&o=json
+            external_identifier: CBDB:248135
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cQq1LyruU9xa7MkCKy9rQ3
+        status: active
+        display_name: 王嶽
+        merged_into_person_id: null
 ---
 
 # 王仰觀
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_hkkZy7J5ztQnL3t6fCHvcP | 王崇志 | accepted |
+| other | p_cQq1LyruU9xa7MkCKy9rQ3 | 王嶽 | accepted |
 
 ## 外部来源
 

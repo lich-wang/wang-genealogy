@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王景象
 cbdb_id: 203284
-revision: 4
+revision: 7
 properties:
   - predicate: bio.summary
     recommended:
@@ -236,7 +236,118 @@ relationships:
         display_name: 王文脩
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_NkbOm6OgkbWfC4mYl52jka
+        subject_person_id: p_UcjkWZqqBQxTHAd68nDNjt
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_fEtf1uN3mcyCGr4x4sSdNU
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SOkrCuWjcHcFgevPDi6EHT
+          claim_id: c_NkbOm6OgkbWfC4mYl52jka
+          source_id: s_IJZ_se3lhyxL1Do-uYcL7n
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203284 王景象）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_IJZ_se3lhyxL1Do-uYcL7n
+            source_type: api_record
+            title: 中国历代人物传记资料库：王景雲（CBDB 302528）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302528&o=json
+            external_identifier: CBDB:302528
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_fEtf1uN3mcyCGr4x4sSdNU
+        status: active
+        display_name: 王景雲
+        merged_into_person_id: null
+    - claim:
+        id: c_okCizLu_feU87evyL2Rlev
+        subject_person_id: p_UcjkWZqqBQxTHAd68nDNjt
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_jqzuZAPtni6rHoKFGxPDWX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J2LAP68csqcsQyTUI1wgGe
+          claim_id: c_okCizLu_feU87evyL2Rlev
+          source_id: s_kX-UkKzYhjWXKcOHgONt4W
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203284 王景象）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_kX-UkKzYhjWXKcOHgONt4W
+            source_type: api_record
+            title: 中国历代人物传记资料库：王景陽（CBDB 302529）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302529&o=json
+            external_identifier: CBDB:302529
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jqzuZAPtni6rHoKFGxPDWX
+        status: active
+        display_name: 王景陽
+        merged_into_person_id: null
+    - claim:
+        id: c_H7962GdMyHqNinaY7X2QbS
+        subject_person_id: p_UcjkWZqqBQxTHAd68nDNjt
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wCi78YioVHt7oatwsxnqMs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WIIFJsE03aF16gl2Xguo4r
+          claim_id: c_H7962GdMyHqNinaY7X2QbS
+          source_id: s_RwqYgFIntD34BFA2ML-ZDr
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203284 王景象）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_RwqYgFIntD34BFA2ML-ZDr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王景星（CBDB 302527）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302527&o=json
+            external_identifier: CBDB:302527
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wCi78YioVHt7oatwsxnqMs
+        status: active
+        display_name: 王景星
+        merged_into_person_id: null
 ---
 
 # 王景象
@@ -258,10 +369,16 @@ relationships:
 | parents | p_oT96LPoCHtD2MEJwV4LGNZ | 王經 | accepted |
 | ancestors | p_ficbwRQBfA8oCc4SWX4S5Y | 王祜 | accepted |
 | ancestors | p_iownahwhyVTvRCab3jvgcE | 王文脩 | accepted |
+| other | p_fEtf1uN3mcyCGr4x4sSdNU | 王景雲 | accepted |
+| other | p_jqzuZAPtni6rHoKFGxPDWX | 王景陽 | accepted |
+| other | p_wCi78YioVHt7oatwsxnqMs | 王景星 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王祜（CBDB 302521）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302521&o=json)
 - [中国历代人物传记资料库：王經（CBDB 302523）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302523&o=json)
 - [中国历代人物传记资料库：王景象（CBDB 203284）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203284&o=json)
+- [中国历代人物传记资料库：王景星（CBDB 302527）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302527&o=json)
+- [中国历代人物传记资料库：王景陽（CBDB 302529）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302529&o=json)
+- [中国历代人物传记资料库：王景雲（CBDB 302528）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302528&o=json)
 - [中国历代人物传记资料库：王文脩（CBDB 302522）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=302522&o=json)

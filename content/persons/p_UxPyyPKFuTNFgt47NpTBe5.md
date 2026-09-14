@@ -4,7 +4,7 @@ id: p_UxPyyPKFuTNFgt47NpTBe5
 status: active
 merged_into: null
 display_name: 王良
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,117 @@ relationships:
         status: active
         display_name: 王晏
         merged_into_person_id: null
+    - claim:
+        id: c_kEhmCpClmVvQe__1DKLytr
+        subject_person_id: p_UxPyyPKFuTNFgt47NpTBe5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8ZeeUm458xhyWD94ptyths
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lSrdGJ5VxSvtvoqzx3fw_j
+          claim_id: c_kEhmCpClmVvQe__1DKLytr
+          source_id: s_Jtx6fEQHI97O6F-ftycIIb
+          stance: supports
+          locator: CBDB：兄弟 王晏（207868）之父／母 王良
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王暋 与 王晏 为同胞（CBDB 记「兄」），王晏 之父／母即 王暋 之父／母。
+          source:
+            id: s_Jtx6fEQHI97O6F-ftycIIb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王暋（CBDB 237228）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237228&o=json
+            external_identifier: CBDB:237228
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8ZeeUm458xhyWD94ptyths
+        status: active
+        display_name: 王暋
+        merged_into_person_id: null
+    - claim:
+        id: c_urcfuK_tSoeoon55HTRyyK
+        subject_person_id: p_UxPyyPKFuTNFgt47NpTBe5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZTD6QwtFte8SkypGed5LJm
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aZHTH-yLAKXynAfr0fvo47
+          claim_id: c_urcfuK_tSoeoon55HTRyyK
+          source_id: s_2OFgkpLhbqQlHihfDRYhfY
+          stance: supports
+          locator: CBDB：兄弟 王晏（207868）之父／母 王良
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王昶 与 王晏 为同胞（CBDB 记「兄」），王晏 之父／母即 王昶 之父／母。
+          source:
+            id: s_2OFgkpLhbqQlHihfDRYhfY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昶（CBDB 237227）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237227&o=json
+            external_identifier: CBDB:237227
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZTD6QwtFte8SkypGed5LJm
+        status: active
+        display_name: 王昶
+        merged_into_person_id: null
+    - claim:
+        id: c_PeDOVGliaQYEghFXmtIGaG
+        subject_person_id: p_UxPyyPKFuTNFgt47NpTBe5
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hmpVZCc6DiB8NnVHu4QTrX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3dEeQ-Tbkx14MMxrt_D36L
+          claim_id: c_PeDOVGliaQYEghFXmtIGaG
+          source_id: s_k1e5XjlUEketDNLignOX-s
+          stance: supports
+          locator: CBDB：兄弟 王晏（207868）之父／母 王良
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王昪 与 王晏 为同胞（CBDB 记「兄」），王晏 之父／母即 王昪 之父／母。
+          source:
+            id: s_k1e5XjlUEketDNLignOX-s
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昪（CBDB 237229）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237229&o=json
+            external_identifier: CBDB:237229
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hmpVZCc6DiB8NnVHu4QTrX
+        status: active
+        display_name: 王昪
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +246,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_3c99mAbtCMe882FKM3LMji | 王晏 | accepted |
+| children | p_8ZeeUm458xhyWD94ptyths | 王暋 | accepted |
+| children | p_ZTD6QwtFte8SkypGed5LJm | 王昶 | accepted |
+| children | p_hmpVZCc6DiB8NnVHu4QTrX | 王昪 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王昪（CBDB 237229）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237229&o=json)
+- [中国历代人物传记资料库：王昶（CBDB 237227）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237227&o=json)
 - [中国历代人物传记资料库：王良（CBDB 237223）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237223&o=json)
+- [中国历代人物传记资料库：王暋（CBDB 237228）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237228&o=json)
 - [中国历代人物传记资料库：王晏（CBDB 207868）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207868&o=json)

@@ -4,7 +4,7 @@ id: p_tcnc9U56UzCEYQHcMawuE4
 status: active
 merged_into: null
 display_name: 王十朋
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -129,7 +129,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_e2-GlvjqW61HgJWP2tmAfb
+        subject_person_id: p_tcnc9U56UzCEYQHcMawuE4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ULmtAoZzYGxooqVVzFnV71
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_MUcSw_X-pefV-kq1eHQJte
+          claim_id: c_e2-GlvjqW61HgJWP2tmAfb
+          source_id: s_xyIWcFmXjXgIztPwSB8J8g
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 10598）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_xyIWcFmXjXgIztPwSB8J8g
+            source_type: api_record
+            title: 中国历代人物传记资料库：王聞詩（CBDB 10599）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10599&o=json
+            external_identifier: CBDB:10599
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ULmtAoZzYGxooqVVzFnV71
+        status: active
+        display_name: 王聞詩
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -172,7 +209,81 @@ relationships:
         merged_into_person_id: null
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_0T6xobmA55HTFyhybB-jus
+        subject_person_id: p_rDLCqXC8sFot2X9WGy3gyb
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_tcnc9U56UzCEYQHcMawuE4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cExDsA8Q65KFl6xJNnLX8P
+          claim_id: c_0T6xobmA55HTFyhybB-jus
+          source_id: s_m9AkuXL52Y3JTiCItyIr7P
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 10598 王十朋）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_m9AkuXL52Y3JTiCItyIr7P
+            source_type: api_record
+            title: 中国历代人物传记资料库：王百朋（CBDB 37341）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37341&o=json
+            external_identifier: CBDB:37341
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rDLCqXC8sFot2X9WGy3gyb
+        status: active
+        display_name: 王百朋
+        merged_into_person_id: null
+    - claim:
+        id: c_rQgwNbNlKpEdIyMMGrOn8r
+        subject_person_id: p_tcnc9U56UzCEYQHcMawuE4
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wEcw3km21hYReL1ypv6aei
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xtFl1RYYmuBvEc0vb6BYvj
+          claim_id: c_rQgwNbNlKpEdIyMMGrOn8r
+          source_id: s_oMGvstFSBv9bhSTHG5UlBB
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 10598 王十朋）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_oMGvstFSBv9bhSTHG5UlBB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王壽朋（CBDB 18813）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18813&o=json
+            external_identifier: CBDB:18813
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wEcw3km21hYReL1ypv6aei
+        status: active
+        display_name: 王壽朋
+        merged_into_person_id: null
 ---
 
 # 王十朋
@@ -192,9 +303,15 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_ULmtAoZzYGxooqVVzFnV71 | 王聞詩 | accepted |
 | spouses | p_N1cFqf5V8zqrnZsPC2aixb | 賈氏 | accepted |
+| other | p_rDLCqXC8sFot2X9WGy3gyb | 王百朋 | accepted |
+| other | p_wEcw3km21hYReL1ypv6aei | 王壽朋 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：賈氏(王十朋妻)（CBDB 5173）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=5173&o=json)
+- [中国历代人物传记资料库：王百朋（CBDB 37341）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37341&o=json)
 - [中国历代人物传记资料库：王十朋（CBDB 10598）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10598&o=json)
+- [中国历代人物传记资料库：王壽朋（CBDB 18813）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=18813&o=json)
+- [中国历代人物传记资料库：王聞詩（CBDB 10599）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=10599&o=json)

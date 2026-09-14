@@ -4,7 +4,7 @@ id: p_pJwhh9SEH9qmj8mm8eFbV6
 status: active
 merged_into: null
 display_name: 王宗聖
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,44 @@ relationships:
         display_name: 王佺
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_tqwwwiN03e4naz3kv4T3VK
+        subject_person_id: p_pJwhh9SEH9qmj8mm8eFbV6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_uQmzrBR3qxBuoPR9pYuThb
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jmIgoqWJ1E7jOMtz5v6sRp
+          claim_id: c_tqwwwiN03e4naz3kv4T3VK
+          source_id: s_F7lsZu3rp7s4LuDmUYpMzv
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203686 王宗聖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_F7lsZu3rp7s4LuDmUYpMzv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宗祖（CBDB 308419）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308419&o=json
+            external_identifier: CBDB:308419
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_uQmzrBR3qxBuoPR9pYuThb
+        status: active
+        display_name: 王宗祖
+        merged_into_person_id: null
 ---
 
 # 王宗聖
@@ -240,6 +277,7 @@ relationships:
 | parents | p_UBD7gtEAG7Bisubh3L5M1w | 王敏 | accepted |
 | ancestors | p_MyDaVXaQLuCk3aFgXrjx3J | 王琛 | accepted |
 | ancestors | p_UJmGFTdKMeHmTsNBPbnMdr | 王佺 | accepted |
+| other | p_uQmzrBR3qxBuoPR9pYuThb | 王宗祖 | accepted |
 
 ## 外部来源
 
@@ -247,3 +285,4 @@ relationships:
 - [中国历代人物传记资料库：王敏（CBDB 308415）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308415&o=json)
 - [中国历代人物传记资料库：王佺（CBDB 308414）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308414&o=json)
 - [中国历代人物传记资料库：王宗聖（CBDB 203686）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=203686&o=json)
+- [中国历代人物传记资料库：王宗祖（CBDB 308419）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=308419&o=json)

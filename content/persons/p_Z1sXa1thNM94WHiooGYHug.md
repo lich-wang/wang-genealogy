@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王孟煦
 cbdb_id: 207153
-revision: 4
+revision: 8
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,155 @@ relationships:
         display_name: 王愷
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_WwhlAsoMezScOltX9I3OAx
+        subject_person_id: p_EZsLDSCWA11NgsvJ76UqAt
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Z1sXa1thNM94WHiooGYHug
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mwHqWlJt26RQib6O44CCzQ
+          claim_id: c_WwhlAsoMezScOltX9I3OAx
+          source_id: s_p17hvwPeG4aO5q6Ghmz13d
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207153 王孟煦）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_p17hvwPeG4aO5q6Ghmz13d
+            source_type: api_record
+            title: 中国历代人物传记资料库：王孟晚（CBDB 228580）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228580&o=json
+            external_identifier: CBDB:228580
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EZsLDSCWA11NgsvJ76UqAt
+        status: active
+        display_name: 王孟晚
+        merged_into_person_id: null
+    - claim:
+        id: c_wryPF7Epd_GhBZutz-sTao
+        subject_person_id: p_XxKMPHvrG9fAzhpVu7454q
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Z1sXa1thNM94WHiooGYHug
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_O_Eklaoa_zRAb5W7cSxiJW
+          claim_id: c_wryPF7Epd_GhBZutz-sTao
+          source_id: s_Sum7kVHpVMXR7X64h-YdXb
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207153 王孟煦）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Sum7kVHpVMXR7X64h-YdXb
+            source_type: api_record
+            title: 中国历代人物传记资料库：王孟曙（CBDB 228579）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228579&o=json
+            external_identifier: CBDB:228579
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_XxKMPHvrG9fAzhpVu7454q
+        status: active
+        display_name: 王孟曙
+        merged_into_person_id: null
+    - claim:
+        id: c_183kNIvdQn_u6wyjybh9Ie
+        subject_person_id: p_Z1sXa1thNM94WHiooGYHug
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mQw5PtK1fE7Cx7FiMRYTSJ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KXqMx4PAHMkualB1GcD5TO
+          claim_id: c_183kNIvdQn_u6wyjybh9Ie
+          source_id: s_CFzTIJvLtlw9C4kbInPE8U
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207153 王孟煦）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_CFzTIJvLtlw9C4kbInPE8U
+            source_type: api_record
+            title: 中国历代人物传记资料库：王孟時（CBDB 228581）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228581&o=json
+            external_identifier: CBDB:228581
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mQw5PtK1fE7Cx7FiMRYTSJ
+        status: active
+        display_name: 王孟時
+        merged_into_person_id: null
+    - claim:
+        id: c_GdVD2kXkb4es4kVn8bgwPT
+        subject_person_id: p_Z1sXa1thNM94WHiooGYHug
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_tYAcPPwhC976nvyiHwA6Nw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cssWCFuxTRLlwj74VsLz31
+          claim_id: c_GdVD2kXkb4es4kVn8bgwPT
+          source_id: s_iFsv8Tpt3dYsYjRRy6MfEL
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 207153 王孟煦）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_iFsv8Tpt3dYsYjRRy6MfEL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王孟暉（CBDB 228578）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228578&o=json
+            external_identifier: CBDB:228578
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_tYAcPPwhC976nvyiHwA6Nw
+        status: active
+        display_name: 王孟暉
+        merged_into_person_id: null
 ---
 
 # 王孟煦
@@ -257,10 +405,18 @@ relationships:
 | parents | p_xAnhmoVcnedrkYag8SmuS8 | 王士瑤 | accepted |
 | ancestors | p_3QV9NMYJ2zd7jKRpFyUmus | 王俊 | accepted |
 | ancestors | p_7XFSgFj9V9fUQFp9e4eBUF | 王愷 | accepted |
+| other | p_EZsLDSCWA11NgsvJ76UqAt | 王孟晚 | accepted |
+| other | p_XxKMPHvrG9fAzhpVu7454q | 王孟曙 | accepted |
+| other | p_mQw5PtK1fE7Cx7FiMRYTSJ | 王孟時 | accepted |
+| other | p_tYAcPPwhC976nvyiHwA6Nw | 王孟暉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王俊（CBDB 228572）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228572&o=json)
 - [中国历代人物传记资料库：王愷（CBDB 228571）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228571&o=json)
+- [中国历代人物传记资料库：王孟暉（CBDB 228578）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228578&o=json)
+- [中国历代人物传记资料库：王孟時（CBDB 228581）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228581&o=json)
+- [中国历代人物传记资料库：王孟曙（CBDB 228579）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228579&o=json)
+- [中国历代人物传记资料库：王孟晚（CBDB 228580）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228580&o=json)
 - [中国历代人物传记资料库：王孟煦（CBDB 207153）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207153&o=json)
 - [中国历代人物传记资料库：王士瑤（CBDB 228573）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=228573&o=json)

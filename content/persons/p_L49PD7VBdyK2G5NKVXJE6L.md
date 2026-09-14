@@ -4,7 +4,7 @@ id: p_L49PD7VBdyK2G5NKVXJE6L
 status: active
 merged_into: null
 display_name: 王氏
-revision: 1
+revision: 2
 cbdb_id: 513078
 properties:
   - predicate: bio.summary
@@ -74,7 +74,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_8GqjyBy3kP-yMUo8beNsn2
+        subject_person_id: p_L49PD7VBdyK2G5NKVXJE6L
+        claim_kind: relationship
+        predicate: kinship.mother_of
+        object_person_id: p_8DX5yJ6EprbCARPG46d4uR
+        generation_count: null
+        parent_role: mother
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_vi7Pr7K3R0wNp8n7_-8h_t
+          claim_id: c_8GqjyBy3kP-yMUo8beNsn2
+          source_id: s_iUcS1mvPCBSiioq7EJSYY2
+          stance: supports
+          locator: CBDB 亲属：母（KinPerson 513078）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_iUcS1mvPCBSiioq7EJSYY2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王賓（CBDB 513080）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=513080&o=json
+            external_identifier: CBDB:513080
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8DX5yJ6EprbCARPG46d4uR
+        status: active
+        display_name: 王賓
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses:
@@ -124,8 +161,10 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_8DX5yJ6EprbCARPG46d4uR | 王賓 | accepted |
 | spouses | p_sLNnhEkACQNxtMGGEm3Y6S | 王應泰 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王賓（CBDB 513080）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=513080&o=json)
 - [中国历代人物传记资料库：王氏(王應泰妻)（CBDB 513078）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=513078&o=json)

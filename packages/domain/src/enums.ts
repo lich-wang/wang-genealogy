@@ -48,6 +48,11 @@ export const RELATIONSHIP_PREDICATES = [
   'kinship.father_of',
   'kinship.mother_of',
   'kinship.spouse_of',
+  // Siblings share a parent. Stored as one symmetric edge with the
+  // lexicographically-smaller id as subject, mirroring spouse_of. CBDB and
+  // 族谱 state 兄/弟/姊/妹 directly, so this predicate keeps that statement
+  // instead of inventing a shared parent no source names.
+  'kinship.sibling_of',
   'kinship.adoptive_parent_of',
   'kinship.adoptive_father_of',
   'kinship.adoptive_mother_of',
@@ -100,6 +105,7 @@ export const RELATIONSHIP_INPUT = [
   'adoptive_parent',
   'adoptive_child',
   'spouse',
+  'sibling',
   'ancestor',
   'descendant',
 ] as const;

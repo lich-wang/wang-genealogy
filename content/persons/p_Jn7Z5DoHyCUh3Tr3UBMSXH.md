@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王甫林
 cbdb_id: 231568
-revision: 2
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -139,6 +139,117 @@ relationships:
         status: active
         display_name: 王亮
         merged_into_person_id: null
+    - claim:
+        id: c_YhpyKX6RFHPVa2EG-T1AV8
+        subject_person_id: p_Jn7Z5DoHyCUh3Tr3UBMSXH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_275vi8UU2NrwrnRkZzLYPQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EBidPd4idgK0lbprpFbN_P
+          claim_id: c_YhpyKX6RFHPVa2EG-T1AV8
+          source_id: s_7FS9xZrI2oV90M4LvQ2KcN
+          stance: supports
+          locator: CBDB：兄弟 王亮（207345）之父／母 王甫林
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王從政 与 王亮 为同胞（CBDB 记「弟」），王亮 之父／母即 王從政 之父／母。
+          source:
+            id: s_7FS9xZrI2oV90M4LvQ2KcN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王從政（CBDB 231571）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231571&o=json
+            external_identifier: CBDB:231571
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_275vi8UU2NrwrnRkZzLYPQ
+        status: active
+        display_name: 王從政
+        merged_into_person_id: null
+    - claim:
+        id: c_zkPt6hUQXNlVkzc6eaZhub
+        subject_person_id: p_Jn7Z5DoHyCUh3Tr3UBMSXH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MJmALtK53voZtSLwScQrHF
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CXRRK-N81ZPu2i1yn2VTNN
+          claim_id: c_zkPt6hUQXNlVkzc6eaZhub
+          source_id: s_spjigKJUcZa0qW-TmsSmtx
+          stance: supports
+          locator: CBDB：兄弟 王亮（207345）之父／母 王甫林
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王從美 与 王亮 为同胞（CBDB 记「弟」），王亮 之父／母即 王從美 之父／母。
+          source:
+            id: s_spjigKJUcZa0qW-TmsSmtx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王從美（CBDB 231572）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231572&o=json
+            external_identifier: CBDB:231572
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MJmALtK53voZtSLwScQrHF
+        status: active
+        display_name: 王從美
+        merged_into_person_id: null
+    - claim:
+        id: c_BJ-RIJca5g6DTpvDnipe_y
+        subject_person_id: p_Jn7Z5DoHyCUh3Tr3UBMSXH
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NMC9HyK2b3NRX3PXmAHnYA
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_t7uSjFFPNZ-YWCxswWE_yE
+          claim_id: c_BJ-RIJca5g6DTpvDnipe_y
+          source_id: s_V5VsyaDofccSEy-js-Zutp
+          stance: supports
+          locator: CBDB：兄弟 王亮（207345）之父／母 王甫林
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王從讓 与 王亮 为同胞（CBDB 记「弟」），王亮 之父／母即 王從讓 之父／母。
+          source:
+            id: s_V5VsyaDofccSEy-js-Zutp
+            source_type: api_record
+            title: 中国历代人物传记资料库：王從讓（CBDB 231573）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231573&o=json
+            external_identifier: CBDB:231573
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NMC9HyK2b3NRX3PXmAHnYA
+        status: active
+        display_name: 王從讓
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -164,8 +275,14 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_4bu2im8699zCsccbtJF1P5 | 王某中 | accepted |
 | children | p_1GhPFs5m4G2BPwjpU26jtR | 王亮 | accepted |
+| children | p_275vi8UU2NrwrnRkZzLYPQ | 王從政 | accepted |
+| children | p_MJmALtK53voZtSLwScQrHF | 王從美 | accepted |
+| children | p_NMC9HyK2b3NRX3PXmAHnYA | 王從讓 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王從美（CBDB 231572）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231572&o=json)
+- [中国历代人物传记资料库：王從讓（CBDB 231573）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231573&o=json)
+- [中国历代人物传记资料库：王從政（CBDB 231571）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231571&o=json)
 - [中国历代人物传记资料库：王甫林（CBDB 231568）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=231568&o=json)
 - [中国历代人物传记资料库：王亮（CBDB 207345）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207345&o=json)

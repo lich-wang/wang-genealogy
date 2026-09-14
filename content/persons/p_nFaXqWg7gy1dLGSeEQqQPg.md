@@ -4,7 +4,7 @@ id: p_nFaXqWg7gy1dLGSeEQqQPg
 status: active
 merged_into: null
 display_name: 王約
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_8X3eedPO4yi1DKvzNOIL_P
+        subject_person_id: p_mCtAQA38FjMf51Dp9sA6Hp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_nFaXqWg7gy1dLGSeEQqQPg
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_b4raiZE26d0LX8a_4azGR7
+          claim_id: c_8X3eedPO4yi1DKvzNOIL_P
+          source_id: s_ffSupKpKCTN18tlsqX3AYQ
+          stance: supports
+          locator: CBDB：兄弟 王綖（126771）之父／母 王溥
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王約 与 王綖 为同胞（CBDB 记「弟」），王綖 之父／母即 王約 之父／母。
+          source:
+            id: s_ffSupKpKCTN18tlsqX3AYQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王約（CBDB 272835）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272835&o=json
+            external_identifier: CBDB:272835
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mCtAQA38FjMf51Dp9sA6Hp
+        status: active
+        display_name: 王溥
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_AnnjguiUlwaZ5tfGog8Cav
+        subject_person_id: p_WF551B42q65ujmx95gTJGt
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nFaXqWg7gy1dLGSeEQqQPg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Uef9q1FyL1bI23lMMSsH3Q
+          claim_id: c_AnnjguiUlwaZ5tfGog8Cav
+          source_id: s_ffSupKpKCTN18tlsqX3AYQ
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126771 王綖）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ffSupKpKCTN18tlsqX3AYQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王約（CBDB 272835）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272835&o=json
+            external_identifier: CBDB:272835
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_WF551B42q65ujmx95gTJGt
+        status: active
+        display_name: 王綖
+        merged_into_person_id: null
 ---
 
 # 王約
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_mCtAQA38FjMf51Dp9sA6Hp | 王溥 | accepted |
+| other | p_WF551B42q65ujmx95gTJGt | 王綖 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_Uhh5i3yqZGvKzGUMwbjdzN
 status: active
 merged_into: null
 display_name: 王鼏
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_p4UCBha-lONF3Hwkwmyomu
+        subject_person_id: p_ndUPFgXA4WV6RGNp8txMx4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Uhh5i3yqZGvKzGUMwbjdzN
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Z7uHif7n5DXFcVKiAq2Npg
+          claim_id: c_p4UCBha-lONF3Hwkwmyomu
+          source_id: s_CwZVPEJd_zeJcuXmBPTbuA
+          stance: supports
+          locator: CBDB：兄弟 王鼎（201938）之父／母 王欽
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王鼏 与 王鼎 为同胞（CBDB 记「兄」），王鼎 之父／母即 王鼏 之父／母。
+          source:
+            id: s_CwZVPEJd_zeJcuXmBPTbuA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鼏（CBDB 280836）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280836&o=json
+            external_identifier: CBDB:280836
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ndUPFgXA4WV6RGNp8txMx4
+        status: active
+        display_name: 王欽
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_U24BnrIkWfdb3j1dccbn4E
+        subject_person_id: p_Uhh5i3yqZGvKzGUMwbjdzN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_jLDf1hepk8fQ34x7RwZJFA
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_7B0wd-6kLUtOhhF8cGFAkA
+          claim_id: c_U24BnrIkWfdb3j1dccbn4E
+          source_id: s_CwZVPEJd_zeJcuXmBPTbuA
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201938 王鼎）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_CwZVPEJd_zeJcuXmBPTbuA
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鼏（CBDB 280836）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=280836&o=json
+            external_identifier: CBDB:280836
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jLDf1hepk8fQ34x7RwZJFA
+        status: active
+        display_name: 王鼎
+        merged_into_person_id: null
 ---
 
 # 王鼏
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ndUPFgXA4WV6RGNp8txMx4 | 王欽 | accepted |
+| other | p_jLDf1hepk8fQ34x7RwZJFA | 王鼎 | accepted |
 
 ## 外部来源
 

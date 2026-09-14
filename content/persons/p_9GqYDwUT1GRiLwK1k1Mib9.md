@@ -4,7 +4,7 @@ id: p_9GqYDwUT1GRiLwK1k1Mib9
 status: active
 merged_into: null
 display_name: 王璣
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_JLs_KizYkCy6hgbxEA26KF
+        subject_person_id: p_f7t9X2kJV7EUtQDpi6JhvW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9GqYDwUT1GRiLwK1k1Mib9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NOFRD_7Ol7XgOy-NybqCwN
+          claim_id: c_JLs_KizYkCy6hgbxEA26KF
+          source_id: s_N75947SeIaM3XaeGb1-IPJ
+          stance: supports
+          locator: CBDB：兄弟 王珩（126638）之父／母 王惟政
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王璣 与 王珩 为同胞（CBDB 记「弟」），王珩 之父／母即 王璣 之父／母。
+          source:
+            id: s_N75947SeIaM3XaeGb1-IPJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璣（CBDB 250456）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250456&o=json
+            external_identifier: CBDB:250456
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_f7t9X2kJV7EUtQDpi6JhvW
+        status: active
+        display_name: 王惟政
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_qjUGTa3v9YxEbXuBwCDHoo
+        subject_person_id: p_4FbGby9fFeKQMmker7tMMP
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_9GqYDwUT1GRiLwK1k1Mib9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jNilYcEMIqEgb8GmOhRlY4
+          claim_id: c_qjUGTa3v9YxEbXuBwCDHoo
+          source_id: s_N75947SeIaM3XaeGb1-IPJ
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126638 王珩）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_N75947SeIaM3XaeGb1-IPJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璣（CBDB 250456）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250456&o=json
+            external_identifier: CBDB:250456
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4FbGby9fFeKQMmker7tMMP
+        status: active
+        display_name: 王珩
+        merged_into_person_id: null
 ---
 
 # 王璣
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_f7t9X2kJV7EUtQDpi6JhvW | 王惟政 | accepted |
+| other | p_4FbGby9fFeKQMmker7tMMP | 王珩 | accepted |
 
 ## 外部来源
 

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王頡
 cbdb_id: 249263
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_noXvGG8EXHTmB6LlDnRsr-
+        subject_person_id: p_MbP7H9snAG1vb4zQM8p7Mm
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NtBM39m3UoSeCd3NWKZQEL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9kVhqRTUhTNiTcIQm4-Tvv
+          claim_id: c_noXvGG8EXHTmB6LlDnRsr-
+          source_id: s_CkP6We92o5F4CzGxWt3OnD
+          stance: supports
+          locator: CBDB：兄弟 王瑭（199751）之父／母 王臣
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王頡 与 王瑭 为同胞（CBDB 记「弟」），王瑭 之父／母即 王頡 之父／母。
+          source:
+            id: s_CkP6We92o5F4CzGxWt3OnD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王頡（CBDB 249263）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249263&o=json
+            external_identifier: CBDB:249263
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MbP7H9snAG1vb4zQM8p7Mm
+        status: active
+        display_name: 王臣
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_P7hAZjpVaVxSeVh3pAyKFC
+        subject_person_id: p_2Gx8pH6sHztKEtkLMN7u1C
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_NtBM39m3UoSeCd3NWKZQEL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_j94O8CyXFjHJIqGn68TlBg
+          claim_id: c_P7hAZjpVaVxSeVh3pAyKFC
+          source_id: s_CkP6We92o5F4CzGxWt3OnD
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 199751 王瑭）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_CkP6We92o5F4CzGxWt3OnD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王頡（CBDB 249263）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=249263&o=json
+            external_identifier: CBDB:249263
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2Gx8pH6sHztKEtkLMN7u1C
+        status: active
+        display_name: 王瑭
+        merged_into_person_id: null
 ---
 
 # 王頡
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_MbP7H9snAG1vb4zQM8p7Mm | 王臣 | accepted |
+| other | p_2Gx8pH6sHztKEtkLMN7u1C | 王瑭 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_3dXrdfiSek18Q9DsAboTn9
 status: active
 merged_into: null
 display_name: 王同仁
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_6MAbEOBj1M8em0RHCrVwm_
+        subject_person_id: p_BQt5KMQt85phWutCQLQcnd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3dXrdfiSek18Q9DsAboTn9
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J8r3UOasTVYcO-EZTSWlXO
+          claim_id: c_6MAbEOBj1M8em0RHCrVwm_
+          source_id: s_bpjhD4g3twQWD1Xz1O-DoU
+          stance: supports
+          locator: CBDB：兄弟 王同讚（204969）之父／母 王叔中
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王同仁 与 王同讚 为同胞（CBDB 记「兄」），王同讚 之父／母即 王同仁 之父／母。
+          source:
+            id: s_bpjhD4g3twQWD1Xz1O-DoU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王同仁（CBDB 326622）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326622&o=json
+            external_identifier: CBDB:326622
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BQt5KMQt85phWutCQLQcnd
+        status: active
+        display_name: 王叔中
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_w6DnkXbXQuoXg_qjp4pyWr
+        subject_person_id: p_3dXrdfiSek18Q9DsAboTn9
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_4PMudrRao4a9cRDuakPq7M
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_iB4N8v4sNwNPi2nWK7gT6Y
+          claim_id: c_w6DnkXbXQuoXg_qjp4pyWr
+          source_id: s_bpjhD4g3twQWD1Xz1O-DoU
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204969 王同讚）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_bpjhD4g3twQWD1Xz1O-DoU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王同仁（CBDB 326622）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=326622&o=json
+            external_identifier: CBDB:326622
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_4PMudrRao4a9cRDuakPq7M
+        status: active
+        display_name: 王同讚
+        merged_into_person_id: null
 ---
 
 # 王同仁
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_BQt5KMQt85phWutCQLQcnd | 王叔中 | accepted |
+| other | p_4PMudrRao4a9cRDuakPq7M | 王同讚 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_nqkQ2QrQi1t9x1JULvJyMw
 status: active
 merged_into: null
 display_name: 王寬
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -220,7 +220,81 @@ relationships:
         display_name: 王均海
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_EG1lU6LOunF0E9i23OB-20
+        subject_person_id: p_1MMU5Y2TusarKyKx8pQQW7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nqkQ2QrQi1t9x1JULvJyMw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_puZ3JJpqIu1TX7IXqkbaVu
+          claim_id: c_EG1lU6LOunF0E9i23OB-20
+          source_id: s_hBCVyzN5ezsMiUiMZtbvDD
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198482 王寬）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hBCVyzN5ezsMiUiMZtbvDD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王宏（CBDB 278164）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278164&o=json
+            external_identifier: CBDB:278164
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1MMU5Y2TusarKyKx8pQQW7
+        status: active
+        display_name: 王宏
+        merged_into_person_id: null
+    - claim:
+        id: c_1IK9dPxaAljQvdYkAuUUY5
+        subject_person_id: p_LB5DJwf8F2tvEuxMUv178b
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nqkQ2QrQi1t9x1JULvJyMw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ajxl0u-Mc5QMYyWpqGIdwQ
+          claim_id: c_1IK9dPxaAljQvdYkAuUUY5
+          source_id: s_Cc83_IE4o37MbBqShvGLZt
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198482 王寬）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Cc83_IE4o37MbBqShvGLZt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王定（CBDB 278175）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278175&o=json
+            external_identifier: CBDB:278175
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_LB5DJwf8F2tvEuxMUv178b
+        status: active
+        display_name: 王定
+        merged_into_person_id: null
 ---
 
 # 王寬
@@ -242,10 +316,14 @@ relationships:
 | parents | p_kdUPqDPveaddB8fucGD47J | 王子良 | accepted |
 | ancestors | p_KQiZJ9f3G8TJ5KepAFHfTr | 王必貴 | accepted |
 | ancestors | p_yhUtTnQRM6JC6XFKsbEMfE | 王均海 | accepted |
+| other | p_1MMU5Y2TusarKyKx8pQQW7 | 王宏 | accepted |
+| other | p_LB5DJwf8F2tvEuxMUv178b | 王定 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王必貴（CBDB 278109）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278109&o=json)
+- [中国历代人物传记资料库：王定（CBDB 278175）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278175&o=json)
+- [中国历代人物传记资料库：王宏（CBDB 278164）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278164&o=json)
 - [中国历代人物传记资料库：王均海（CBDB 278098）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278098&o=json)
 - [中国历代人物传记资料库：王寬（CBDB 198482）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198482&o=json)
 - [中国历代人物传记资料库：王子良（CBDB 278120）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=278120&o=json)

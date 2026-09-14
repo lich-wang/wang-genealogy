@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王子璵
 cbdb_id: 322445
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_MLy7nDfEUd38gD5SkmEuU8
+        subject_person_id: p_yhagHPLAgGF916n7f1YPNt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_7W5wop8E2dzdL4okMppNdT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0RNB8k7JzDhcSlm7xQ-IhF
+          claim_id: c_MLy7nDfEUd38gD5SkmEuU8
+          source_id: s_Ezl0huATSnZuAFnOTsExtX
+          stance: supports
+          locator: CBDB：兄弟 王玉（204676）之父／母 王士嘉
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王子璵 与 王玉 为同胞（CBDB 记「兄」），王玉 之父／母即 王子璵 之父／母。
+          source:
+            id: s_Ezl0huATSnZuAFnOTsExtX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子璵（CBDB 322445）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322445&o=json
+            external_identifier: CBDB:322445
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_yhagHPLAgGF916n7f1YPNt
+        status: active
+        display_name: 王士嘉
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_K38fjeKgaYayZjX870e06b
+        subject_person_id: p_7W5wop8E2dzdL4okMppNdT
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vMHM62tMEACNN1HhRp5f5c
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kV7HBO8xFOlC4BHrzPmLOo
+          claim_id: c_K38fjeKgaYayZjX870e06b
+          source_id: s_Ezl0huATSnZuAFnOTsExtX
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204676 王玉）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Ezl0huATSnZuAFnOTsExtX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子璵（CBDB 322445）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322445&o=json
+            external_identifier: CBDB:322445
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vMHM62tMEACNN1HhRp5f5c
+        status: active
+        display_name: 王玉
+        merged_into_person_id: null
 ---
 
 # 王子璵
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_yhagHPLAgGF916n7f1YPNt | 王士嘉 | accepted |
+| other | p_vMHM62tMEACNN1HhRp5f5c | 王玉 | accepted |
 
 ## 外部来源
 

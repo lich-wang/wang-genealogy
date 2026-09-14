@@ -4,7 +4,7 @@ id: p_7pMsHaktzQtYSfbM8CxDyd
 status: active
 merged_into: null
 display_name: 王陟
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -101,7 +101,44 @@ properties:
     alternatives: []
 relationships:
   parents: []
-  children: []
+  children:
+    - claim:
+        id: c_4AKyZK9YsjRFnZlU0DXtR5
+        subject_person_id: p_7pMsHaktzQtYSfbM8CxDyd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_68LHNKcuxf1uwMJ525gZiC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_cwikSZCSG5Q6tpW6rLpRfJ
+          claim_id: c_4AKyZK9YsjRFnZlU0DXtR5
+          source_id: s_BM6bXujVvlSd7PmzYVjOyN
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 2132）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_BM6bXujVvlSd7PmzYVjOyN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王若谷（CBDB 22185）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22185&o=json
+            external_identifier: CBDB:22185
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_68LHNKcuxf1uwMJ525gZiC
+        status: active
+        display_name: 王若谷
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -126,7 +163,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| children | p_68LHNKcuxf1uwMJ525gZiC | 王若谷 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王若谷（CBDB 22185）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22185&o=json)
 - [中国历代人物传记资料库：王陟（CBDB 2132）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=2132&o=json)

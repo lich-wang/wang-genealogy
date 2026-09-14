@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王世福
 cbdb_id: 314591
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -113,6 +113,43 @@ relationships:
         status: active
         display_name: 王言
         merged_into_person_id: null
+    - claim:
+        id: c_qLobwZd7SvZyn8s29PrS4Q
+        subject_person_id: p_wVxUNqb5LiTRFZz7R3Zy9W
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_f6j6zh1mWQCQCdmtMDvT5k
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6FOr3-9gYaQ55Izx-tsjys
+          claim_id: c_qLobwZd7SvZyn8s29PrS4Q
+          source_id: s_mF5GN8uHmmUfuAf0xrMcLy
+          stance: supports
+          locator: CBDB：兄弟 王言（204113）之父／母 王世福
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王心 与 王言 为同胞（CBDB 记「兄」），王言 之父／母即 王心 之父／母。
+          source:
+            id: s_mF5GN8uHmmUfuAf0xrMcLy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王心（CBDB 314594）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314594&o=json
+            external_identifier: CBDB:314594
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_f6j6zh1mWQCQCdmtMDvT5k
+        status: active
+        display_name: 王心
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -137,8 +174,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_2wQZ4HH3qUsaPxm7C4niKV | 王言 | accepted |
+| children | p_f6j6zh1mWQCQCdmtMDvT5k | 王心 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王世福（CBDB 314591）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314591&o=json)
+- [中国历代人物传记资料库：王心（CBDB 314594）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=314594&o=json)
 - [中国历代人物传记资料库：王言（CBDB 204113）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204113&o=json)

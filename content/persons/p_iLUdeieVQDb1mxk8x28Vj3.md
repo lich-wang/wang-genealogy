@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王正路
 cbdb_id: 20886
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -225,6 +225,43 @@ relationships:
         status: active
         display_name: 王適
         merged_into_person_id: null
+    - claim:
+        id: c_NdBg16bGrC7LX_FsZYwJ12
+        subject_person_id: p_iLUdeieVQDb1mxk8x28Vj3
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_FMv5hjWihWy3Rz6L2m3a4g
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QHI_UhBQRpnvKZjOHBDinQ
+          claim_id: c_NdBg16bGrC7LX_FsZYwJ12
+          source_id: s_cBMQjPqi27BYfIBzMypocy
+          stance: supports
+          locator: CBDB：兄弟 王適（22214）之父／母 王正路
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王蘧 与 王適 为同胞（CBDB 记「兄」），王適 之父／母即 王蘧 之父／母。
+          source:
+            id: s_cBMQjPqi27BYfIBzMypocy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王蘧（CBDB 45850）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=45850&o=json
+            external_identifier: CBDB:45850
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FMv5hjWihWy3Rz6L2m3a4g
+        status: active
+        display_name: 王蘧
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -252,10 +289,12 @@ relationships:
 | children | p_5hHZn4JdRNtDFps6R7FtjP | 王遹 | accepted |
 | children | p_5LNrAt3UFBAa5AMw5eaSEJ | 王蘧 | accepted |
 | children | p_tNxDF9RNAwjuxwXQbHswdX | 王適 | accepted |
+| children | p_FMv5hjWihWy3Rz6L2m3a4g | 王蘧 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王蘧（CBDB 23564）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=23564&o=json)
+- [中国历代人物传记资料库：王蘧（CBDB 45850）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=45850&o=json)
 - [中国历代人物传记资料库：王適（CBDB 22214）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22214&o=json)
 - [中国历代人物传记资料库：王遹（CBDB 22215）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22215&o=json)
 - [中国历代人物传记资料库：王正路（CBDB 20886）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=20886&o=json)

@@ -4,7 +4,7 @@ id: p_sBhQEJ3nTkHUbcPY7uuMe4
 status: active
 merged_into: null
 display_name: 王義端
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -167,6 +167,80 @@ relationships:
         status: active
         display_name: 王希文
         merged_into_person_id: null
+    - claim:
+        id: c_1Nc6nurwnrOofKN-HK-AmU
+        subject_person_id: p_sBhQEJ3nTkHUbcPY7uuMe4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_BmSugp37aF9H1JipbMABCt
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_B28x1EVseqMH-fwgZ_Ilqt
+          claim_id: c_1Nc6nurwnrOofKN-HK-AmU
+          source_id: s_ioEvsRd3XCsXdcpuFLyDxW
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 35303）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_ioEvsRd3XCsXdcpuFLyDxW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王葵（CBDB 35318）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35318&o=json
+            external_identifier: CBDB:35318
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_BmSugp37aF9H1JipbMABCt
+        status: active
+        display_name: 王葵
+        merged_into_person_id: null
+    - claim:
+        id: c_0mSAUMBi2Zmz94HMPoNBte
+        subject_person_id: p_sBhQEJ3nTkHUbcPY7uuMe4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DmyBf1m5JW2uyd4nk8bPcS
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_LpmL3rUcc5uDzbNOcfd4oW
+          claim_id: c_0mSAUMBi2Zmz94HMPoNBte
+          source_id: s_odTLzngxUL3D4UTBZ0kH8n
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 35303）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_odTLzngxUL3D4UTBZ0kH8n
+            source_type: api_record
+            title: 中国历代人物传记资料库：王揆（CBDB 35317）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35317&o=json
+            external_identifier: CBDB:35317
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DmyBf1m5JW2uyd4nk8bPcS
+        status: active
+        display_name: 王揆
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,8 +267,12 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_8ZzeDPJo9mUk4CtbmH7JwH | 王希文 | accepted |
+| children | p_BmSugp37aF9H1JipbMABCt | 王葵 | accepted |
+| children | p_DmyBf1m5JW2uyd4nk8bPcS | 王揆 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王揆（CBDB 35317）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35317&o=json)
+- [中国历代人物传记资料库：王葵（CBDB 35318）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35318&o=json)
 - [中国历代人物传记资料库：王希文（CBDB 35314）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35314&o=json)
 - [中国历代人物传记资料库：王義端（CBDB 35303）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35303&o=json)

@@ -4,7 +4,7 @@ id: p_tBLAnfK4dS8P5LR1P2RqS9
 status: active
 merged_into: null
 display_name: 王詔
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -125,6 +125,43 @@ relationships:
         id: p_DoWNVNC6JZBAasWbqdoiCX
         status: active
         display_name: 王祖嫡
+        merged_into_person_id: null
+    - claim:
+        id: c_1G6qilxfxLtox3ZAfI-9lp
+        subject_person_id: p_tBLAnfK4dS8P5LR1P2RqS9
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_kKJsArnnRuc3sSJt7Fr1Qc
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bAZtFpz4IDpG_HYXvjZuf6
+          claim_id: c_1G6qilxfxLtox3ZAfI-9lp
+          source_id: s_iqYdIP0BWSxpHw1Run6w6C
+          stance: supports
+          locator: CBDB：兄弟 王祖嫡（126631）之父／母 王詔
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王祖裔 与 王祖嫡 为同胞（CBDB 记「兄」），王祖嫡 之父／母即 王祖裔 之父／母。
+          source:
+            id: s_iqYdIP0BWSxpHw1Run6w6C
+            source_type: api_record
+            title: 中国历代人物传记资料库：王祖裔（CBDB 211138）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211138&o=json
+            external_identifier: CBDB:211138
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kKJsArnnRuc3sSJt7Fr1Qc
+        status: active
+        display_name: 王祖裔
         merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
@@ -277,6 +314,7 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_wMVfyCLqy9dE7qvuBJu9CN | 王瑀 | accepted |
 | children | p_DoWNVNC6JZBAasWbqdoiCX | 王祖嫡 | accepted |
+| children | p_kKJsArnnRuc3sSJt7Fr1Qc | 王祖裔 | accepted |
 | spouses | p_dCwEFm8AmHLmcL4Eo4VJRE | 袁瑀女 | accepted |
 | descendants | p_8ct24JW85LFaBwBesKXW2J | 王延世 | accepted |
 | descendants | p_FrJBqWgwUnRtuWZzhb2b4A | 王星奎 | accepted |
@@ -286,4 +324,5 @@ relationships:
 
 - [中国历代人物传记资料库：王延世（CBDB 555424）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=555424&o=json)
 - [中国历代人物传记资料库：王詔（CBDB 211133）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211133&o=json)
+- [中国历代人物传记资料库：王祖裔（CBDB 211138）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211138&o=json)
 - [中国历代人物传记资料库：袁瑀女（CBDB 211134）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211134&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王執璧
 cbdb_id: 330528
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_CztYO6yxTqW3W5Og8vb3jl
+        subject_person_id: p_u84RG1pPeLw4QLHw6xBnkL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_L5e29JxKfX7RRrvCSf3KzX
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ng9XKeCq-mwXMdFdwcJBil
+          claim_id: c_CztYO6yxTqW3W5Og8vb3jl
+          source_id: s_l0f_Qz-42QjjxfMFtnLUNj
+          stance: supports
+          locator: CBDB：兄弟 王執禮（126683）之父／母 王可大
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王執璧 与 王執禮 为同胞（CBDB 记「兄」），王執禮 之父／母即 王執璧 之父／母。
+          source:
+            id: s_l0f_Qz-42QjjxfMFtnLUNj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王執璧（CBDB 330528）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330528&o=json
+            external_identifier: CBDB:330528
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_u84RG1pPeLw4QLHw6xBnkL
+        status: active
+        display_name: 王可大
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_HAy7ggDUPOSftuQHrrdyq8
+        subject_person_id: p_L5e29JxKfX7RRrvCSf3KzX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hwqZhRmhj6vWvdBxFiX9dy
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MqopgHeGKH3FTcurf9PKiD
+          claim_id: c_HAy7ggDUPOSftuQHrrdyq8
+          source_id: s_l0f_Qz-42QjjxfMFtnLUNj
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126683 王執禮）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_l0f_Qz-42QjjxfMFtnLUNj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王執璧（CBDB 330528）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=330528&o=json
+            external_identifier: CBDB:330528
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hwqZhRmhj6vWvdBxFiX9dy
+        status: active
+        display_name: 王執禮
+        merged_into_person_id: null
 ---
 
 # 王執璧
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_u84RG1pPeLw4QLHw6xBnkL | 王可大 | accepted |
+| other | p_hwqZhRmhj6vWvdBxFiX9dy | 王執禮 | accepted |
 
 ## 外部来源
 

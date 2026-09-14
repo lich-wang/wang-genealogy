@@ -4,7 +4,7 @@ id: p_wVWD91i8nHFULhDK68aKM7
 status: active
 merged_into: null
 display_name: 王材
-revision: 2
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,191 @@ relationships:
         status: active
         display_name: 王燁
         merged_into_person_id: null
+    - claim:
+        id: c_LllqmODNDCfHdlBuGg_TH7
+        subject_person_id: p_wVWD91i8nHFULhDK68aKM7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_9F1U1TtkiNCB1RPHGmqk7s
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_n6LLRk831w55GsbOg3hXSh
+          claim_id: c_LllqmODNDCfHdlBuGg_TH7
+          source_id: s_ZR92g4ZQhv66Dh7EjIqxdm
+          stance: supports
+          locator: CBDB：兄弟 王燁（126822）之父／母 王材
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王爟 与 王燁 为同胞（CBDB 记「兄」），王燁 之父／母即 王爟 之父／母。
+          source:
+            id: s_ZR92g4ZQhv66Dh7EjIqxdm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王爟（CBDB 296938）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296938&o=json
+            external_identifier: CBDB:296938
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9F1U1TtkiNCB1RPHGmqk7s
+        status: active
+        display_name: 王爟
+        merged_into_person_id: null
+    - claim:
+        id: c_6GQ3HC4O-MSZEwuuq1TC1u
+        subject_person_id: p_wVWD91i8nHFULhDK68aKM7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_NLudwPcQpnWrGCaimVEJoL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V-v4YU1D5L_iQo4Y3XasoU
+          claim_id: c_6GQ3HC4O-MSZEwuuq1TC1u
+          source_id: s_pZzX2L4-7UwKeQ18i9SBqq
+          stance: supports
+          locator: CBDB：兄弟 王燁（126822）之父／母 王材
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王煉 与 王燁 为同胞（CBDB 记「兄」），王燁 之父／母即 王煉 之父／母。
+          source:
+            id: s_pZzX2L4-7UwKeQ18i9SBqq
+            source_type: api_record
+            title: 中国历代人物传记资料库：王煉（CBDB 296940）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296940&o=json
+            external_identifier: CBDB:296940
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NLudwPcQpnWrGCaimVEJoL
+        status: active
+        display_name: 王煉
+        merged_into_person_id: null
+    - claim:
+        id: c_gs8XxsGeziqDjF7guRT0UZ
+        subject_person_id: p_wVWD91i8nHFULhDK68aKM7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_eHAHNbgbwnk9WePGUZ8Dg2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WpVj1V2LG81U3bCwbjI9Eo
+          claim_id: c_gs8XxsGeziqDjF7guRT0UZ
+          source_id: s_6FnZwQt1HOxq77NkxcIGMa
+          stance: supports
+          locator: CBDB：兄弟 王燁（126822）之父／母 王材
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王焞 与 王燁 为同胞（CBDB 记「弟」），王燁 之父／母即 王焞 之父／母。
+          source:
+            id: s_6FnZwQt1HOxq77NkxcIGMa
+            source_type: api_record
+            title: 中国历代人物传记资料库：王焞（CBDB 296937）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296937&o=json
+            external_identifier: CBDB:296937
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_eHAHNbgbwnk9WePGUZ8Dg2
+        status: active
+        display_name: 王焞
+        merged_into_person_id: null
+    - claim:
+        id: c_O7wQJntr10USIWQTCUec7d
+        subject_person_id: p_wVWD91i8nHFULhDK68aKM7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ew7R1N5L2QnrU7947sAJ3g
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GQPkNtc5EVS84B6X45ky8a
+          claim_id: c_O7wQJntr10USIWQTCUec7d
+          source_id: s_ZMHT66m4OFPiKxN2XHUXgm
+          stance: supports
+          locator: CBDB：兄弟 王燁（126822）之父／母 王材
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王炳 与 王燁 为同胞（CBDB 记「弟」），王燁 之父／母即 王炳 之父／母。
+          source:
+            id: s_ZMHT66m4OFPiKxN2XHUXgm
+            source_type: api_record
+            title: 中国历代人物传记资料库：王炳（CBDB 296935）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296935&o=json
+            external_identifier: CBDB:296935
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ew7R1N5L2QnrU7947sAJ3g
+        status: active
+        display_name: 王炳
+        merged_into_person_id: null
+    - claim:
+        id: c_aCQLU1dAMz52cfP4oYYm2-
+        subject_person_id: p_wVWD91i8nHFULhDK68aKM7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_y8MQ67fu3R1r2NAA5mSnpR
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3pdB1FlfF27f81UM4PgTj3
+          claim_id: c_aCQLU1dAMz52cfP4oYYm2-
+          source_id: s_cAOKR8c3rq4BjCAdvy9h-6
+          stance: supports
+          locator: CBDB：兄弟 王燁（126822）之父／母 王材
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王燦 与 王燁 为同胞（CBDB 记「弟」），王燁 之父／母即 王燦 之父／母。
+          source:
+            id: s_cAOKR8c3rq4BjCAdvy9h-6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王燦（CBDB 296936）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296936&o=json
+            external_identifier: CBDB:296936
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_y8MQ67fu3R1r2NAA5mSnpR
+        status: active
+        display_name: 王燦
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +309,17 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_ve3PDbNGqaNQgddGuw2C43 | 王燁 | accepted |
+| children | p_9F1U1TtkiNCB1RPHGmqk7s | 王爟 | accepted |
+| children | p_NLudwPcQpnWrGCaimVEJoL | 王煉 | accepted |
+| children | p_eHAHNbgbwnk9WePGUZ8Dg2 | 王焞 | accepted |
+| children | p_ew7R1N5L2QnrU7947sAJ3g | 王炳 | accepted |
+| children | p_y8MQ67fu3R1r2NAA5mSnpR | 王燦 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王炳（CBDB 296935）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296935&o=json)
 - [中国历代人物传记资料库：王材（CBDB 296931）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296931&o=json)
+- [中国历代人物传记资料库：王燦（CBDB 296936）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296936&o=json)
+- [中国历代人物传记资料库：王爟（CBDB 296938）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296938&o=json)
+- [中国历代人物传记资料库：王煉（CBDB 296940）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296940&o=json)
+- [中国历代人物传记资料库：王焞（CBDB 296937）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296937&o=json)

@@ -4,7 +4,7 @@ id: p_VoTEz62YCbTPVvreKQ83nM
 status: active
 merged_into: null
 display_name: 王价
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,43 @@ relationships:
         status: active
         display_name: 王岳錫
         merged_into_person_id: null
+    - claim:
+        id: c_80HTIsmwJZIZmoTbmR73DA
+        subject_person_id: p_VoTEz62YCbTPVvreKQ83nM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3ZDZmq5CVsJU9PVY6GZ6uT
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_sK5mfqyDwKmGtRzTWXGnP_
+          claim_id: c_80HTIsmwJZIZmoTbmR73DA
+          source_id: s_muQ4HH1CeoHELCSPcMMK8v
+          stance: supports
+          locator: CBDB：兄弟 王岳錫（206741）之父／母 王价
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王申錫 与 王岳錫 为同胞（CBDB 记「兄」），王岳錫 之父／母即 王申錫 之父／母。
+          source:
+            id: s_muQ4HH1CeoHELCSPcMMK8v
+            source_type: api_record
+            title: 中国历代人物传记资料库：王申錫（CBDB 222536）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222536&o=json
+            external_identifier: CBDB:222536
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3ZDZmq5CVsJU9PVY6GZ6uT
+        status: active
+        display_name: 王申錫
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_RKkqJtmY8xpK68H9TU7V2h | 王岳錫 | accepted |
+| children | p_3ZDZmq5CVsJU9PVY6GZ6uT | 王申錫 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王价（CBDB 222533）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222533&o=json)
+- [中国历代人物传记资料库：王申錫（CBDB 222536）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=222536&o=json)

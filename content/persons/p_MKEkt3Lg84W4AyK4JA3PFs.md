@@ -4,7 +4,7 @@ id: p_MKEkt3Lg84W4AyK4JA3PFs
 status: active
 merged_into: null
 display_name: 王鎮
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,43 @@ relationships:
         status: active
         display_name: 王珀
         merged_into_person_id: null
+    - claim:
+        id: c_Fy9agG_dTGR3TdX11CI0Yf
+        subject_person_id: p_MKEkt3Lg84W4AyK4JA3PFs
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_o2VcyhEP6npQDiLACeX238
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Hyi_VZMLdLWy3eclf461KO
+          claim_id: c_Fy9agG_dTGR3TdX11CI0Yf
+          source_id: s_-IamA25zLGiSDmo6mqXsyl
+          stance: supports
+          locator: CBDB：兄弟 王珀（126601）之父／母 王鎮
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王琥 与 王珀 为同胞（CBDB 记「弟」），王珀 之父／母即 王琥 之父／母。
+          source:
+            id: s_-IamA25zLGiSDmo6mqXsyl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王琥（CBDB 260376）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260376&o=json
+            external_identifier: CBDB:260376
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_o2VcyhEP6npQDiLACeX238
+        status: active
+        display_name: 王琥
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_Qvi4bpPzBmsqf5Y7oUFpd5 | 王珀 | accepted |
+| children | p_o2VcyhEP6npQDiLACeX238 | 王琥 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王琥（CBDB 260376）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260376&o=json)
 - [中国历代人物传记资料库：王鎮（CBDB 260373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=260373&o=json)

@@ -4,7 +4,7 @@ id: p_7J92XTKdKB1ZCqpjcGmNN6
 status: active
 merged_into: null
 display_name: 王道顯
-revision: 4
+revision: 12
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,303 @@ relationships:
         display_name: 王濟
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_cv-LkPLkv4uSN9IZNJ2wG2
+        subject_person_id: p_7J92XTKdKB1ZCqpjcGmNN6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_HDdq36p5d728xQPFsnRJHe
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5e7D-Ofn5HvXeajtY6Zili
+          claim_id: c_cv-LkPLkv4uSN9IZNJ2wG2
+          source_id: s_hmMoCGKEVs9DmWrF6FoLF7
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206783 王道顯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hmMoCGKEVs9DmWrF6FoLF7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道照（CBDB 223213）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223213&o=json
+            external_identifier: CBDB:223213
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HDdq36p5d728xQPFsnRJHe
+        status: active
+        display_name: 王道照
+        merged_into_person_id: null
+    - claim:
+        id: c_G1IxLtsEKMv5N_rTy7Rmlo
+        subject_person_id: p_7J92XTKdKB1ZCqpjcGmNN6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_J8WXMG4xeiMoDK19KJbUdL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_oSMPt_5HlKXIYeBLZw7c00
+          claim_id: c_G1IxLtsEKMv5N_rTy7Rmlo
+          source_id: s_TA-I6X522N1YXIHJrkW3xG
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206783 王道顯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_TA-I6X522N1YXIHJrkW3xG
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道燫（CBDB 223219）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223219&o=json
+            external_identifier: CBDB:223219
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_J8WXMG4xeiMoDK19KJbUdL
+        status: active
+        display_name: 王道燫
+        merged_into_person_id: null
+    - claim:
+        id: c_ZQS7rpJdR2j5x3gn8WbUUU
+        subject_person_id: p_7J92XTKdKB1ZCqpjcGmNN6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_P5SHKNFVmuMyBCsSx61gqn
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lEOoQg2D2rA4d7KLSC05cz
+          claim_id: c_ZQS7rpJdR2j5x3gn8WbUUU
+          source_id: s_0Sl2oK5WDtbX5xjfypUNLk
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206783 王道顯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0Sl2oK5WDtbX5xjfypUNLk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道烋（CBDB 223220）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223220&o=json
+            external_identifier: CBDB:223220
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_P5SHKNFVmuMyBCsSx61gqn
+        status: active
+        display_name: 王道烋
+        merged_into_person_id: null
+    - claim:
+        id: c_lJ21oQ7FKdA0AlNQKASzay
+        subject_person_id: p_7J92XTKdKB1ZCqpjcGmNN6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_PDL3VDZj4haGK2qHH3HKqQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q0ZRRo8Qyf6tkD5yMqgUyL
+          claim_id: c_lJ21oQ7FKdA0AlNQKASzay
+          source_id: s_RDvgE0wwKToFBK2GTnu4um
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206783 王道顯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_RDvgE0wwKToFBK2GTnu4um
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道默（CBDB 223214）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223214&o=json
+            external_identifier: CBDB:223214
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PDL3VDZj4haGK2qHH3HKqQ
+        status: active
+        display_name: 王道默
+        merged_into_person_id: null
+    - claim:
+        id: c_yqBD9nY1oEqZ25kD3kxtp1
+        subject_person_id: p_7J92XTKdKB1ZCqpjcGmNN6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_XLdA4tWCJmmxH1dYR6uzPv
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9dWutbuSpjqqkeR2imaPPA
+          claim_id: c_yqBD9nY1oEqZ25kD3kxtp1
+          source_id: s_Sz0C2DkWuVhDGisiBcV5RC
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206783 王道顯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Sz0C2DkWuVhDGisiBcV5RC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道謙（CBDB 223218）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223218&o=json
+            external_identifier: CBDB:223218
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_XLdA4tWCJmmxH1dYR6uzPv
+        status: active
+        display_name: 王道謙
+        merged_into_person_id: null
+    - claim:
+        id: c_npGz5CAgiIhghhcvH8L3k3
+        subject_person_id: p_7J92XTKdKB1ZCqpjcGmNN6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_eJdAruApB817Ertmj7WUCY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_whUIGMLydICX-pX-XARjF3
+          claim_id: c_npGz5CAgiIhghhcvH8L3k3
+          source_id: s_oI1LBtF4NzuAZXBEDeH--A
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206783 王道顯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_oI1LBtF4NzuAZXBEDeH--A
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道熙（CBDB 223211）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223211&o=json
+            external_identifier: CBDB:223211
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_eJdAruApB817Ertmj7WUCY
+        status: active
+        display_name: 王道熙
+        merged_into_person_id: null
+    - claim:
+        id: c_8FX9KiiPg37MGS_v43B8yL
+        subject_person_id: p_7J92XTKdKB1ZCqpjcGmNN6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mcCJ5P519FqmxM89fCEzw7
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HGdiLSqrx93-MWAw0CeEkZ
+          claim_id: c_8FX9KiiPg37MGS_v43B8yL
+          source_id: s_z0XSDtn_AayylI1Wc1wQrS
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206783 王道顯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_z0XSDtn_AayylI1Wc1wQrS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道蒸（CBDB 223212）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223212&o=json
+            external_identifier: CBDB:223212
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_mcCJ5P519FqmxM89fCEzw7
+        status: active
+        display_name: 王道蒸
+        merged_into_person_id: null
+    - claim:
+        id: c_fUCoSIV7kaHZRCEGa8_Vy1
+        subject_person_id: p_7J92XTKdKB1ZCqpjcGmNN6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_oteUg5GG4Z29dHfjXyz1Nz
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_J5kCK1LHYfNLdp56sUo7rC
+          claim_id: c_fUCoSIV7kaHZRCEGa8_Vy1
+          source_id: s_YfGJFKD6QFEMCyJ8YI_8cQ
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206783 王道顯）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_YfGJFKD6QFEMCyJ8YI_8cQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道煦（CBDB 223217）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223217&o=json
+            external_identifier: CBDB:223217
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oteUg5GG4Z29dHfjXyz1Nz
+        status: active
+        display_name: 王道煦
+        merged_into_person_id: null
 ---
 
 # 王道顯
@@ -240,10 +536,26 @@ relationships:
 | parents | p_nrgvXCkYedEAAAukDFwR1j | 王三錫 | accepted |
 | ancestors | p_1xoJN7Ab35r2NFMPTVAnSF | 王岑 | accepted |
 | ancestors | p_k5YNa6LvfFnQALbqfEVpsK | 王濟 | accepted |
+| other | p_HDdq36p5d728xQPFsnRJHe | 王道照 | accepted |
+| other | p_J8WXMG4xeiMoDK19KJbUdL | 王道燫 | accepted |
+| other | p_P5SHKNFVmuMyBCsSx61gqn | 王道烋 | accepted |
+| other | p_PDL3VDZj4haGK2qHH3HKqQ | 王道默 | accepted |
+| other | p_XLdA4tWCJmmxH1dYR6uzPv | 王道謙 | accepted |
+| other | p_eJdAruApB817Ertmj7WUCY | 王道熙 | accepted |
+| other | p_mcCJ5P519FqmxM89fCEzw7 | 王道蒸 | accepted |
+| other | p_oteUg5GG4Z29dHfjXyz1Nz | 王道煦 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王岑（CBDB 223206）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223206&o=json)
+- [中国历代人物传记资料库：王道燫（CBDB 223219）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223219&o=json)
+- [中国历代人物传记资料库：王道默（CBDB 223214）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223214&o=json)
+- [中国历代人物传记资料库：王道謙（CBDB 223218）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223218&o=json)
+- [中国历代人物传记资料库：王道熙（CBDB 223211）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223211&o=json)
 - [中国历代人物传记资料库：王道顯（CBDB 206783）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206783&o=json)
+- [中国历代人物传记资料库：王道烋（CBDB 223220）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223220&o=json)
+- [中国历代人物传记资料库：王道煦（CBDB 223217）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223217&o=json)
+- [中国历代人物传记资料库：王道照（CBDB 223213）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223213&o=json)
+- [中国历代人物传记资料库：王道蒸（CBDB 223212）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223212&o=json)
 - [中国历代人物传记资料库：王濟（CBDB 223207）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223207&o=json)
 - [中国历代人物传记资料库：王三錫（CBDB 223208）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=223208&o=json)

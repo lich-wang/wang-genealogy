@@ -4,7 +4,7 @@ id: p_LZJep9CZ8t7FDEXdKWWJ5d
 status: active
 merged_into: null
 display_name: 王儼
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Xx5QW0mJIRGVlNXY4pgSMs
+        subject_person_id: p_pY4bR9vVd19RvXkc3AZrMW
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_LZJep9CZ8t7FDEXdKWWJ5d
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dHWvWD8nvgA1ZJBZpyMYic
+          claim_id: c_Xx5QW0mJIRGVlNXY4pgSMs
+          source_id: s_BkRYsfXEbl5wQOPQKk_O8s
+          stance: supports
+          locator: CBDB：兄弟 王偡（204670）之父／母 王彥禎
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王儼 与 王偡 为同胞（CBDB 记「兄」），王偡 之父／母即 王儼 之父／母。
+          source:
+            id: s_BkRYsfXEbl5wQOPQKk_O8s
+            source_type: api_record
+            title: 中国历代人物传记资料库：王儼（CBDB 322380）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322380&o=json
+            external_identifier: CBDB:322380
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_pY4bR9vVd19RvXkc3AZrMW
+        status: active
+        display_name: 王彥禎
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_zAl4GY5OrEfOILrOkTkewC
+        subject_person_id: p_LZJep9CZ8t7FDEXdKWWJ5d
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Lt4MQ464DWHGJk9hxD73Kf
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_6YSY74UdtHJ791ee1AQ9b9
+          claim_id: c_zAl4GY5OrEfOILrOkTkewC
+          source_id: s_BkRYsfXEbl5wQOPQKk_O8s
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204670 王偡）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_BkRYsfXEbl5wQOPQKk_O8s
+            source_type: api_record
+            title: 中国历代人物传记资料库：王儼（CBDB 322380）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=322380&o=json
+            external_identifier: CBDB:322380
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Lt4MQ464DWHGJk9hxD73Kf
+        status: active
+        display_name: 王偡
+        merged_into_person_id: null
 ---
 
 # 王儼
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_pY4bR9vVd19RvXkc3AZrMW | 王彥禎 | accepted |
+| other | p_Lt4MQ464DWHGJk9hxD73Kf | 王偡 | accepted |
 
 ## 外部来源
 

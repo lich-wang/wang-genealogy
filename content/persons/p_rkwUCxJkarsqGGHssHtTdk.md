@@ -4,7 +4,7 @@ id: p_rkwUCxJkarsqGGHssHtTdk
 status: active
 merged_into: null
 display_name: 王用賢
-revision: 4
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,118 @@ relationships:
         display_name: 王子魯
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_QZBsdtPqnkk-6HszuzQBC_
+        subject_person_id: p_AXh6MDbVAFrDaiZNkktLDm
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_rkwUCxJkarsqGGHssHtTdk
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5CFQP3aPq9mwZW-zNeM20F
+          claim_id: c_QZBsdtPqnkk-6HszuzQBC_
+          source_id: s_o0XpbxevemEQfJE-bUvfeE
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204011 王用賢）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_o0XpbxevemEQfJE-bUvfeE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王尚賢（CBDB 313200）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313200&o=json
+            external_identifier: CBDB:313200
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_AXh6MDbVAFrDaiZNkktLDm
+        status: active
+        display_name: 王尚賢
+        merged_into_person_id: null
+    - claim:
+        id: c_Or3K7SXIche4zW2iR5iYT9
+        subject_person_id: p_hgAHAP1Kqo5uZsNryC1Jj2
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_rkwUCxJkarsqGGHssHtTdk
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WVt2neex_x_A92byTdQ-9h
+          claim_id: c_Or3K7SXIche4zW2iR5iYT9
+          source_id: s_z8ePkpAHqmxwLjIrIyaI98
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204011 王用賢）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_z8ePkpAHqmxwLjIrIyaI98
+            source_type: api_record
+            title: 中国历代人物传记资料库：王進賢（CBDB 313201）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313201&o=json
+            external_identifier: CBDB:313201
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hgAHAP1Kqo5uZsNryC1Jj2
+        status: active
+        display_name: 王進賢
+        merged_into_person_id: null
+    - claim:
+        id: c_l_r-Qs6fJuOH9TeS3liTez
+        subject_person_id: p_rkwUCxJkarsqGGHssHtTdk
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_u6xgK6aoanJfvpoEj1fuaY
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RDp2TV0cPnT7RY8HJs_rtK
+          claim_id: c_l_r-Qs6fJuOH9TeS3liTez
+          source_id: s_NTTAK9unuM-rKyjYapDvA4
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204011 王用賢）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_NTTAK9unuM-rKyjYapDvA4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王夢賢（CBDB 313202）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313202&o=json
+            external_identifier: CBDB:313202
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_u6xgK6aoanJfvpoEj1fuaY
+        status: active
+        display_name: 王夢賢
+        merged_into_person_id: null
 ---
 
 # 王用賢
@@ -241,9 +352,15 @@ relationships:
 | parents | p_DFCRUSa4hCVBMPph3xEiW2 | 王瑤 | accepted |
 | ancestors | p_YJmBrFyhvA7UtWupQ2PBwG | 王偉 | accepted |
 | ancestors | p_JMsBmZTJdbYG4P477H3fmS | 王子魯 | accepted |
+| other | p_AXh6MDbVAFrDaiZNkktLDm | 王尚賢 | accepted |
+| other | p_hgAHAP1Kqo5uZsNryC1Jj2 | 王進賢 | accepted |
+| other | p_u6xgK6aoanJfvpoEj1fuaY | 王夢賢 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王進賢（CBDB 313201）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313201&o=json)
+- [中国历代人物传记资料库：王夢賢（CBDB 313202）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313202&o=json)
+- [中国历代人物传记资料库：王尚賢（CBDB 313200）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313200&o=json)
 - [中国历代人物传记资料库：王偉（CBDB 313193）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313193&o=json)
 - [中国历代人物传记资料库：王瑤（CBDB 313196）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=313196&o=json)
 - [中国历代人物传记资料库：王用賢（CBDB 204011）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204011&o=json)

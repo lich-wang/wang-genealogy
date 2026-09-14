@@ -4,7 +4,7 @@ id: p_Td8aSiPoW9PKF48tkv2vXs
 status: active
 merged_into: null
 display_name: 王瑤
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,44 @@ relationships:
         display_name: 王文
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_dwhTEANt8bWLdBe7zb3Vis
+        subject_person_id: p_Td8aSiPoW9PKF48tkv2vXs
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_V9g86SahhFrPBAKxFxetKo
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5BzYHAhZS0sVCsbe0Ae_ow
+          claim_id: c_dwhTEANt8bWLdBe7zb3Vis
+          source_id: s_D6PYMwgRDNU9ZT8jlPSw_y
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201654 王瑤）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_D6PYMwgRDNU9ZT8jlPSw_y
+            source_type: api_record
+            title: 中国历代人物传记资料库：王璉（CBDB 275701）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=275701&o=json
+            external_identifier: CBDB:275701
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_V9g86SahhFrPBAKxFxetKo
+        status: active
+        display_name: 王璉
+        merged_into_person_id: null
 ---
 
 # 王瑤
@@ -240,10 +277,12 @@ relationships:
 | parents | p_MV5sBFSTHxBDSg4PfD9WaB | 王紀 | accepted |
 | ancestors | p_96Ewn743486XZ1Yf46XiXm | 王庸 | accepted |
 | ancestors | p_T4ZtevQcvHhHS2FHC8Rscf | 王文 | accepted |
+| other | p_V9g86SahhFrPBAKxFxetKo | 王璉 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王紀（CBDB 275695）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=275695&o=json)
+- [中国历代人物传记资料库：王璉（CBDB 275701）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=275701&o=json)
 - [中国历代人物传记资料库：王文（CBDB 275694）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=275694&o=json)
 - [中国历代人物传记资料库：王瑤（CBDB 201654）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201654&o=json)
 - [中国历代人物传记资料库：王庸（CBDB 275693）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=275693&o=json)

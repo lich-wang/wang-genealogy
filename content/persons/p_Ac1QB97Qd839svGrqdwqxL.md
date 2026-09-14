@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王養濂
 cbdb_id: 303033
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_zt6RK1TkxgnJ5I1eS5pJSc
+        subject_person_id: p_L25AA1dbPLFD1pLw6NiMqz
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Ac1QB97Qd839svGrqdwqxL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_c71DTaktO9T4L4U0Vs6A1r
+          claim_id: c_zt6RK1TkxgnJ5I1eS5pJSc
+          source_id: s_K3PRUZZBghSk0MEwfQE-LB
+          stance: supports
+          locator: CBDB：兄弟 王養浩（203320）之父／母 王璠
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王養濂 与 王養浩 为同胞（CBDB 记「兄」），王養浩 之父／母即 王養濂 之父／母。
+          source:
+            id: s_K3PRUZZBghSk0MEwfQE-LB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王養濂（CBDB 303033）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303033&o=json
+            external_identifier: CBDB:303033
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_L25AA1dbPLFD1pLw6NiMqz
+        status: active
+        display_name: 王璠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_afHLFcRLkBst7cZ_m8zKt1
+        subject_person_id: p_Ac1QB97Qd839svGrqdwqxL
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_JFCMn29RFWw99L547unXBG
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_KkkSZeOmBO3oVI183cHhMe
+          claim_id: c_afHLFcRLkBst7cZ_m8zKt1
+          source_id: s_K3PRUZZBghSk0MEwfQE-LB
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 203320 王養浩）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_K3PRUZZBghSk0MEwfQE-LB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王養濂（CBDB 303033）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=303033&o=json
+            external_identifier: CBDB:303033
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JFCMn29RFWw99L547unXBG
+        status: active
+        display_name: 王養浩
+        merged_into_person_id: null
 ---
 
 # 王養濂
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_L25AA1dbPLFD1pLw6NiMqz | 王璠 | accepted |
+| other | p_JFCMn29RFWw99L547unXBG | 王養浩 | accepted |
 
 ## 外部来源
 

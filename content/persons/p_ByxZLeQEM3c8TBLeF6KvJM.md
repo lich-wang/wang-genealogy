@@ -4,7 +4,7 @@ id: p_ByxZLeQEM3c8TBLeF6KvJM
 status: active
 merged_into: null
 display_name: 王繼
-revision: 3
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -250,7 +250,155 @@ relationships:
         display_name: 王覺玉
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_RbrmJR1dFBeGmJnVmQsXL8
+        subject_person_id: p_2ZhvqH958bmNuvK6AmufHf
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ByxZLeQEM3c8TBLeF6KvJM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_-XWY9MlUJOJBPaGtxiRGt9
+          claim_id: c_RbrmJR1dFBeGmJnVmQsXL8
+          source_id: s_-0Qy4mgrstz7a08mNZkqfS
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126877 王繼）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_-0Qy4mgrstz7a08mNZkqfS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恭（CBDB 237920）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237920&o=json
+            external_identifier: CBDB:237920
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2ZhvqH958bmNuvK6AmufHf
+        status: active
+        display_name: 王恭
+        merged_into_person_id: null
+    - claim:
+        id: c_EEZU0oHBHWmApIpYlNXcGP
+        subject_person_id: p_89Gv5LxJm8nf3nvnSY46kb
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ByxZLeQEM3c8TBLeF6KvJM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bk3vT3wV65r5_iluXir3GI
+          claim_id: c_EEZU0oHBHWmApIpYlNXcGP
+          source_id: s_rI3AhPmX2Vyaxdu_FvoVNo
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126877 王繼）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_rI3AhPmX2Vyaxdu_FvoVNo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王綜（CBDB 237909）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237909&o=json
+            external_identifier: CBDB:237909
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_89Gv5LxJm8nf3nvnSY46kb
+        status: active
+        display_name: 王綜
+        merged_into_person_id: null
+    - claim:
+        id: c_FEfo_HFVP8uY8DXTOWhAIc
+        subject_person_id: p_ByxZLeQEM3c8TBLeF6KvJM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_HJcQ8d3dQ1XcCbBCD2vNJu
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_QcoH7abBfp5b4x1soDNJ3e
+          claim_id: c_FEfo_HFVP8uY8DXTOWhAIc
+          source_id: s_W9tYzWOrvQuWF_39mcgmNz
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126877 王繼）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_W9tYzWOrvQuWF_39mcgmNz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寬（CBDB 237931）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237931&o=json
+            external_identifier: CBDB:237931
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HJcQ8d3dQ1XcCbBCD2vNJu
+        status: active
+        display_name: 王寬
+        merged_into_person_id: null
+    - claim:
+        id: c_3AudHfoIZPjFQCn7u_-OOY
+        subject_person_id: p_ByxZLeQEM3c8TBLeF6KvJM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_NPuD48ACECXDKgZJ8tKWBt
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rKdnVKDuE2AMoWP87Evv4G
+          claim_id: c_3AudHfoIZPjFQCn7u_-OOY
+          source_id: s_A6TTemiiyX_u-oO9Mm35Kv
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126877 王繼）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_A6TTemiiyX_u-oO9Mm35Kv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敏（CBDB 237942）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237942&o=json
+            external_identifier: CBDB:237942
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NPuD48ACECXDKgZJ8tKWBt
+        status: active
+        display_name: 王敏
+        merged_into_person_id: null
 ---
 
 # 王繼
@@ -274,8 +422,16 @@ relationships:
 | spouses | p_cjiK3o1TfNAoRsoVVh6KnK | 滕氏 | accepted |
 | ancestors | p_CxyZa6TEKBz4MjoJnsZpoy | 王均玉 | accepted |
 | ancestors | p_3NRLKquAekXN46Pp8X3ioy | 王覺玉 | accepted |
+| other | p_2ZhvqH958bmNuvK6AmufHf | 王恭 | accepted |
+| other | p_89Gv5LxJm8nf3nvnSY46kb | 王綜 | accepted |
+| other | p_HJcQ8d3dQ1XcCbBCD2vNJu | 王寬 | accepted |
+| other | p_NPuD48ACECXDKgZJ8tKWBt | 王敏 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：滕氏(王繼妻)（CBDB 237898）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237898&o=json)
+- [中国历代人物传记资料库：王恭（CBDB 237920）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237920&o=json)
 - [中国历代人物传记资料库：王繼（CBDB 126877）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126877&o=json)
+- [中国历代人物传记资料库：王寬（CBDB 237931）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237931&o=json)
+- [中国历代人物传记资料库：王敏（CBDB 237942）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237942&o=json)
+- [中国历代人物传记资料库：王綜（CBDB 237909）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237909&o=json)

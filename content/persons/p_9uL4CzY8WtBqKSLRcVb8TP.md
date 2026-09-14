@@ -4,7 +4,7 @@ id: p_9uL4CzY8WtBqKSLRcVb8TP
 status: active
 merged_into: null
 display_name: 王銳
-revision: 3
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,192 @@ relationships:
         display_name: 王智
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_I2ex-No2-LKmYzNH9IeUSx
+        subject_person_id: p_1EzGtciQSLScFhEaW9PEDN
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_9uL4CzY8WtBqKSLRcVb8TP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_giO7dMRq4MftCZncWehPT5
+          claim_id: c_I2ex-No2-LKmYzNH9IeUSx
+          source_id: s_rHBKXBJi6ex2B7MHPBttM5
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202497 王銳）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_rHBKXBJi6ex2B7MHPBttM5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王欽（CBDB 289111）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=289111&o=json
+            external_identifier: CBDB:289111
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1EzGtciQSLScFhEaW9PEDN
+        status: active
+        display_name: 王欽
+        merged_into_person_id: null
+    - claim:
+        id: c_J5Pp-Z_n77TpNZ_WEqbzH0
+        subject_person_id: p_1KA5BPyWZ9rF3W6ZZb6AAu
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_9uL4CzY8WtBqKSLRcVb8TP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_vGfucBDlHltzds5ymOgpNB
+          claim_id: c_J5Pp-Z_n77TpNZ_WEqbzH0
+          source_id: s_3XFutn7gcGfUdiX2wC8jr7
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202497 王銳）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_3XFutn7gcGfUdiX2wC8jr7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎬（CBDB 289113）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=289113&o=json
+            external_identifier: CBDB:289113
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_1KA5BPyWZ9rF3W6ZZb6AAu
+        status: active
+        display_name: 王鎬
+        merged_into_person_id: null
+    - claim:
+        id: c_zgBJea6iN0iomaLTudthda
+        subject_person_id: p_33ZUjDM98sTpJyFuwEB6kH
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_9uL4CzY8WtBqKSLRcVb8TP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lTqGao41uqoKPris3mDhbh
+          claim_id: c_zgBJea6iN0iomaLTudthda
+          source_id: s_75qfqMA5reVNvBOlKZNI-P
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202497 王銳）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_75qfqMA5reVNvBOlKZNI-P
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鑰（CBDB 289112）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=289112&o=json
+            external_identifier: CBDB:289112
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_33ZUjDM98sTpJyFuwEB6kH
+        status: active
+        display_name: 王鑰
+        merged_into_person_id: null
+    - claim:
+        id: c_ZeO05NA3vktHztFGdwt1oz
+        subject_person_id: p_9uL4CzY8WtBqKSLRcVb8TP
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_EcZ8K3NpsAyZJ1itBhH1Uh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AuP9LXfdqU3zCQ542T9A8D
+          claim_id: c_ZeO05NA3vktHztFGdwt1oz
+          source_id: s_KP1nMpGoUo_b6XAi9f6-pR
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202497 王銳）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_KP1nMpGoUo_b6XAi9f6-pR
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鎮（CBDB 289110）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=289110&o=json
+            external_identifier: CBDB:289110
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_EcZ8K3NpsAyZJ1itBhH1Uh
+        status: active
+        display_name: 王鎮
+        merged_into_person_id: null
+    - claim:
+        id: c_lhx55WY1H0e9Sac7EbSTRT
+        subject_person_id: p_9uL4CzY8WtBqKSLRcVb8TP
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_c9HasGQAJcZL79pSwEnjNd
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Mit5vyEvsp6jWaemEWzbks
+          claim_id: c_lhx55WY1H0e9Sac7EbSTRT
+          source_id: s_lcgnBn09oIDRnGz2UJCQZ6
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 202497 王銳）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_lcgnBn09oIDRnGz2UJCQZ6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鑑（CBDB 289108）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=289108&o=json
+            external_identifier: CBDB:289108
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_c9HasGQAJcZL79pSwEnjNd
+        status: active
+        display_name: 王鑑
+        merged_into_person_id: null
 ---
 
 # 王銳
@@ -245,8 +430,18 @@ relationships:
 | spouses | p_Gad2k716vZQqpDzRBx1f9z | 張氏 | accepted |
 | ancestors | p_CKCFhcenmNXzf2AQ9a64SJ | 王均 | accepted |
 | ancestors | p_Z8vCMLeNT2g5YmJFNkF61s | 王智 | accepted |
+| other | p_1EzGtciQSLScFhEaW9PEDN | 王欽 | accepted |
+| other | p_1KA5BPyWZ9rF3W6ZZb6AAu | 王鎬 | accepted |
+| other | p_33ZUjDM98sTpJyFuwEB6kH | 王鑰 | accepted |
+| other | p_EcZ8K3NpsAyZJ1itBhH1Uh | 王鎮 | accepted |
+| other | p_c9HasGQAJcZL79pSwEnjNd | 王鑑 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王鎬（CBDB 289113）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=289113&o=json)
+- [中国历代人物传记资料库：王鑑（CBDB 289108）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=289108&o=json)
+- [中国历代人物传记资料库：王欽（CBDB 289111）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=289111&o=json)
 - [中国历代人物传记资料库：王銳（CBDB 202497）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202497&o=json)
+- [中国历代人物传记资料库：王鑰（CBDB 289112）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=289112&o=json)
+- [中国历代人物传记资料库：王鎮（CBDB 289110）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=289110&o=json)
 - [中国历代人物传记资料库：張氏(王銳妻)（CBDB 289106）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=289106&o=json)

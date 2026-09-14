@@ -4,7 +4,7 @@ id: p_aC1svXXphEQ9jhiLWX1sn6
 status: active
 merged_into: null
 display_name: 王廷
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -222,7 +222,81 @@ relationships:
         display_name: 王祥
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_gCCV7jw2eOwhamitvYnw7h
+        subject_person_id: p_Y2fGJGiRYzzgtLi4M6HE2o
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_aC1svXXphEQ9jhiLWX1sn6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jzFjRP8OWDThnRWpowCgXD
+          claim_id: c_gCCV7jw2eOwhamitvYnw7h
+          source_id: s_U_OeUEI1MjVSqTDGyE-1xn
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 199332 王廷）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_U_OeUEI1MjVSqTDGyE-1xn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鐸（CBDB 243561）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243561&o=json
+            external_identifier: CBDB:243561
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Y2fGJGiRYzzgtLi4M6HE2o
+        status: active
+        display_name: 王鐸
+        merged_into_person_id: null
+    - claim:
+        id: c_cE1eX_sdwZ6xiSc0GwPQb-
+        subject_person_id: p_aC1svXXphEQ9jhiLWX1sn6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_cUTJ5pLNwGza2zDxcF5sAP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ggM-3l_XxYqPfLUS5Ufi-D
+          claim_id: c_cE1eX_sdwZ6xiSc0GwPQb-
+          source_id: s_tIALf9UtSZIZ10OJ6wEhJr
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199332 王廷）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_tIALf9UtSZIZ10OJ6wEhJr
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鉞（CBDB 243562）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243562&o=json
+            external_identifier: CBDB:243562
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_cUTJ5pLNwGza2zDxcF5sAP
+        status: active
+        display_name: 王鉞
+        merged_into_person_id: null
 ---
 
 # 王廷
@@ -245,8 +319,12 @@ relationships:
 | spouses | p_xmk7rrT541amNwiP2mV37s | 屈氏 | accepted |
 | ancestors | p_V1QsLP2bY1JE56Aaj6MmJh | 王信 | accepted |
 | ancestors | p_KgveivKC2tAaFmjxPKfPPt | 王祥 | accepted |
+| other | p_Y2fGJGiRYzzgtLi4M6HE2o | 王鐸 | accepted |
+| other | p_cUTJ5pLNwGza2zDxcF5sAP | 王鉞 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：屈氏(王廷妻)（CBDB 243560）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243560&o=json)
+- [中国历代人物传记资料库：王鐸（CBDB 243561）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243561&o=json)
 - [中国历代人物传记资料库：王廷（CBDB 199332）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=199332&o=json)
+- [中国历代人物传记资料库：王鉞（CBDB 243562）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=243562&o=json)

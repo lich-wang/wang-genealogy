@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王尚直
 cbdb_id: 204534
-revision: 4
+revision: 7
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,118 @@ relationships:
         display_name: 王英
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ozuebDghn0h9dRu3QQMlaB
+        subject_person_id: p_GApuhFgjSF5QNTE41oACF6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_VZLf26Mozo1ZFBb1o11yr1
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4hmXppT1dBRJC_x1mehQeQ
+          claim_id: c_ozuebDghn0h9dRu3QQMlaB
+          source_id: s__KpSDvDzdlYNghN6aSb7vf
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204534 王尚直）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__KpSDvDzdlYNghN6aSb7vf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王尚質（CBDB 320455）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320455&o=json
+            external_identifier: CBDB:320455
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GApuhFgjSF5QNTE41oACF6
+        status: active
+        display_name: 王尚質
+        merged_into_person_id: null
+    - claim:
+        id: c_93OgqwFlIxF4jYdz7tEDDo
+        subject_person_id: p_VZLf26Mozo1ZFBb1o11yr1
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kHNzKFLG77HYQBxc47diR6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MU8DEp_lQFnP7gi7D5Lz99
+          claim_id: c_93OgqwFlIxF4jYdz7tEDDo
+          source_id: s_XJs8EIc18RX6CUFF4RxkYi
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204534 王尚直）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_XJs8EIc18RX6CUFF4RxkYi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王尚賢（CBDB 320457）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320457&o=json
+            external_identifier: CBDB:320457
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kHNzKFLG77HYQBxc47diR6
+        status: active
+        display_name: 王尚賢
+        merged_into_person_id: null
+    - claim:
+        id: c_YyimDnI7RmEQZJPdln3-Aq
+        subject_person_id: p_VZLf26Mozo1ZFBb1o11yr1
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_tsRpEduyyq7s3cJb7Ld6TB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VMbNGEB4RNgKp8DO7yqxHh
+          claim_id: c_YyimDnI7RmEQZJPdln3-Aq
+          source_id: s_mUN2AT7ec7FhajPF1Jp1Ut
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204534 王尚直）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_mUN2AT7ec7FhajPF1Jp1Ut
+            source_type: api_record
+            title: 中国历代人物传记资料库：王尚志（CBDB 320456）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320456&o=json
+            external_identifier: CBDB:320456
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_tsRpEduyyq7s3cJb7Ld6TB
+        status: active
+        display_name: 王尚志
+        merged_into_person_id: null
 ---
 
 # 王尚直
@@ -257,10 +368,16 @@ relationships:
 | parents | p_7aQd3dRKU9LMFn7fHANAg2 | 王乾 | accepted |
 | ancestors | p_3SXVXnXhwsBKFzQhTEhmM9 | 王恭 | accepted |
 | ancestors | p_6Jkqyvvg84u7vAFtZgPt4V | 王英 | accepted |
+| other | p_GApuhFgjSF5QNTE41oACF6 | 王尚質 | accepted |
+| other | p_kHNzKFLG77HYQBxc47diR6 | 王尚賢 | accepted |
+| other | p_tsRpEduyyq7s3cJb7Ld6TB | 王尚志 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王恭（CBDB 320450）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320450&o=json)
 - [中国历代人物传记资料库：王乾（CBDB 320451）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320451&o=json)
+- [中国历代人物传记资料库：王尚賢（CBDB 320457）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320457&o=json)
 - [中国历代人物传记资料库：王尚直（CBDB 204534）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204534&o=json)
+- [中国历代人物传记资料库：王尚志（CBDB 320456）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320456&o=json)
+- [中国历代人物传记资料库：王尚質（CBDB 320455）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320455&o=json)
 - [中国历代人物传记资料库：王英（CBDB 320449）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320449&o=json)

@@ -4,7 +4,7 @@ id: p_12q5jBq6XL9aBiWK6P4q54
 status: active
 merged_into: null
 display_name: 王理
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,80 @@ relationships:
         status: active
         display_name: 王震
         merged_into_person_id: null
+    - claim:
+        id: c_BmFrpRcEn-Tf8rhLq1xWLN
+        subject_person_id: p_12q5jBq6XL9aBiWK6P4q54
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rXae5j2jQE2peDgpRPFgFL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_3ERntoM6A2KXCT_VLXwJ-v
+          claim_id: c_BmFrpRcEn-Tf8rhLq1xWLN
+          source_id: s_dvmT-4YLTcxBvbRuteDGe3
+          stance: supports
+          locator: CBDB：兄弟 王震（198755）之父／母 王理
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王霙 与 王震 为同胞（CBDB 记「兄」），王震 之父／母即 王霙 之父／母。
+          source:
+            id: s_dvmT-4YLTcxBvbRuteDGe3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王霙（CBDB 312829）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312829&o=json
+            external_identifier: CBDB:312829
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rXae5j2jQE2peDgpRPFgFL
+        status: active
+        display_name: 王霙
+        merged_into_person_id: null
+    - claim:
+        id: c_cAuJ2NG0nCIO3MFHq8lkFH
+        subject_person_id: p_12q5jBq6XL9aBiWK6P4q54
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zBs1NCNthTDqnCqb7za793
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__IL--H3SAQUY9ZiZ7B4twb
+          claim_id: c_cAuJ2NG0nCIO3MFHq8lkFH
+          source_id: s_o9UXGzDMLBZXAm4m0UHa_O
+          stance: supports
+          locator: CBDB：兄弟 王震（198755）之父／母 王理
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王霽 与 王震 为同胞（CBDB 记「兄」），王震 之父／母即 王霽 之父／母。
+          source:
+            id: s_o9UXGzDMLBZXAm4m0UHa_O
+            source_type: api_record
+            title: 中国历代人物传记资料库：王霽（CBDB 312818）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312818&o=json
+            external_identifier: CBDB:312818
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zBs1NCNthTDqnCqb7za793
+        status: active
+        display_name: 王霽
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +198,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_tBUiiaLdovkgJJmciCi2LY | 王震 | accepted |
+| children | p_rXae5j2jQE2peDgpRPFgFL | 王霙 | accepted |
+| children | p_zBs1NCNthTDqnCqb7za793 | 王霽 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王霽（CBDB 312818）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312818&o=json)
 - [中国历代人物传记资料库：王理（CBDB 312785）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312785&o=json)
+- [中国历代人物传记资料库：王霙（CBDB 312829）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312829&o=json)

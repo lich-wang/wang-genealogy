@@ -4,7 +4,7 @@ id: p_mzfdPkfX3Q3SMWu8QjHhbB
 status: active
 merged_into: null
 display_name: 王世爵
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,81 @@ relationships:
         display_name: 王聰
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_AVZyHPshi9C5Yc0V8oP0sp
+        subject_person_id: p_8mExp5yMEpk6UPfybMARKS
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mzfdPkfX3Q3SMWu8QjHhbB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2zgyIgZf3RA7wIIkRSVGVp
+          claim_id: c_AVZyHPshi9C5Yc0V8oP0sp
+          source_id: s_uNugAZCmRLiUMqFg_KRbZZ
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202209 王世爵）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_uNugAZCmRLiUMqFg_KRbZZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世儉（CBDB 285108）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285108&o=json
+            external_identifier: CBDB:285108
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_8mExp5yMEpk6UPfybMARKS
+        status: active
+        display_name: 王世儉
+        merged_into_person_id: null
+    - claim:
+        id: c_QGdgVzoAZJZ3mhm5cyjyU5
+        subject_person_id: p_mzfdPkfX3Q3SMWu8QjHhbB
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vBUVyN1aPzAXMq54nqwnB6
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_I20zvlhl-wPssGnQINn05c
+          claim_id: c_QGdgVzoAZJZ3mhm5cyjyU5
+          source_id: s_WyOwAX3wriepVLOIiC028c
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202209 王世爵）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_WyOwAX3wriepVLOIiC028c
+            source_type: api_record
+            title: 中国历代人物传记资料库：王世清（CBDB 285109）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285109&o=json
+            external_identifier: CBDB:285109
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vBUVyN1aPzAXMq54nqwnB6
+        status: active
+        display_name: 王世清
+        merged_into_person_id: null
 ---
 
 # 王世爵
@@ -240,10 +314,14 @@ relationships:
 | parents | p_5xNKeJnMLc2HP1gUGBRQHQ | 王緒 | accepted |
 | ancestors | p_ntQc3p4s7BLdaB5NMf8QXA | 王信 | accepted |
 | ancestors | p_uTe4NgAoEYW3vLNH7E1h15 | 王聰 | accepted |
+| other | p_8mExp5yMEpk6UPfybMARKS | 王世儉 | accepted |
+| other | p_vBUVyN1aPzAXMq54nqwnB6 | 王世清 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王聰（CBDB 285103）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285103&o=json)
+- [中国历代人物传记资料库：王世儉（CBDB 285108）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285108&o=json)
 - [中国历代人物传记资料库：王世爵（CBDB 202209）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202209&o=json)
+- [中国历代人物传记资料库：王世清（CBDB 285109）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285109&o=json)
 - [中国历代人物传记资料库：王信（CBDB 285102）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285102&o=json)
 - [中国历代人物传记资料库：王緒（CBDB 285104）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285104&o=json)

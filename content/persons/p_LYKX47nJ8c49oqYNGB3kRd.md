@@ -4,7 +4,7 @@ id: p_LYKX47nJ8c49oqYNGB3kRd
 status: active
 merged_into: null
 display_name: 王与龄
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -294,7 +294,81 @@ relationships:
         merged_into_person_id: null
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_btTF5vzozJ8mhyH9bklDx6
+        subject_person_id: p_LYKX47nJ8c49oqYNGB3kRd
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_XsdoaMXkbaKgPk427Juuva
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lwX5_YOnvMzRQGUz1LWvi7
+          claim_id: c_btTF5vzozJ8mhyH9bklDx6
+          source_id: s_w12YWO7q00PhyNuAJJ0zzo
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 68464 王與齡）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_w12YWO7q00PhyNuAJJ0zzo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王延齡（CBDB 288338）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288338&o=json
+            external_identifier: CBDB:288338
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_XsdoaMXkbaKgPk427Juuva
+        status: active
+        display_name: 王延齡
+        merged_into_person_id: null
+    - claim:
+        id: c_K1vvClfcRX6lJ2HK47RcN5
+        subject_person_id: p_LYKX47nJ8c49oqYNGB3kRd
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_dP3bbqg6GCtoDDpAsegVgd
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Bw4zcBHDkjdDArAg6jo-N2
+          claim_id: c_K1vvClfcRX6lJ2HK47RcN5
+          source_id: s_hxG5N9gOKsRQW5M27sUZcj
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 68464 王與齡）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hxG5N9gOKsRQW5M27sUZcj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王永齡（CBDB 288340）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288340&o=json
+            external_identifier: CBDB:288340
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dP3bbqg6GCtoDDpAsegVgd
+        status: active
+        display_name: 王永齡
+        merged_into_person_id: null
 ---
 
 # 王与龄
@@ -316,10 +390,14 @@ relationships:
 | --- | --- | --- | --- |
 | parents | p_KHASkzeAzAbrH4KC5REzz6 | 王爵 | accepted |
 | spouses | p_b83k4g1WnCibKe1zSFCq2F | 高氏 | accepted |
+| other | p_XsdoaMXkbaKgPk427Juuva | 王延齡 | accepted |
+| other | p_dP3bbqg6GCtoDDpAsegVgd | 王永齡 | accepted |
 
 ## 外部来源
 
 - [维基数据：高氏（Q65814421）](https://www.wikidata.org/wiki/Q65814421)
 - [维基数据：王爵（Q45449767）](https://www.wikidata.org/wiki/Q45449767)
 - [维基数据：王与龄（Q15924928）](https://www.wikidata.org/wiki/Q15924928)
+- [中国历代人物传记资料库：王延齡（CBDB 288338）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288338&o=json)
+- [中国历代人物传记资料库：王永齡（CBDB 288340）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=288340&o=json)
 - [CBDB 中国历代人物传记资料库：王與齡（68464）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68464&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王秉良
 cbdb_id: 201458
-revision: 4
+revision: 9
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,192 @@ relationships:
         display_name: 王清
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_p1SKF20lXBifBVDJynu6IR
+        subject_person_id: p_31Y7A8ctDck4rHzqHWU9S1
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_AJ36QsHYvNFFPiM32NAShM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0pk6kgsYKdVr7VaKOEesk8
+          claim_id: c_p1SKF20lXBifBVDJynu6IR
+          source_id: s_qXXhH64sOaZfKRgRpxvsn_
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201458 王秉良）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_qXXhH64sOaZfKRgRpxvsn_
+            source_type: api_record
+            title: 中国历代人物传记资料库：王秉恭（CBDB 272759）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272759&o=json
+            external_identifier: CBDB:272759
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_31Y7A8ctDck4rHzqHWU9S1
+        status: active
+        display_name: 王秉恭
+        merged_into_person_id: null
+    - claim:
+        id: c_5AVjgCrt9WcXFY1e0NKP_i
+        subject_person_id: p_AJ36QsHYvNFFPiM32NAShM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_GCFGFLbb5w3812Ph1sajEv
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TjYnswrWrM4Xt0KuGez08b
+          claim_id: c_5AVjgCrt9WcXFY1e0NKP_i
+          source_id: s_-qG6cNBc0ml3E8HertgXvW
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201458 王秉良）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_-qG6cNBc0ml3E8HertgXvW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王秉誠（CBDB 272758）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272758&o=json
+            external_identifier: CBDB:272758
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GCFGFLbb5w3812Ph1sajEv
+        status: active
+        display_name: 王秉誠
+        merged_into_person_id: null
+    - claim:
+        id: c_l7jJE_zcNJtKJGG6gbuthG
+        subject_person_id: p_AJ36QsHYvNFFPiM32NAShM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_GwTwAk8kgcw8JiRbnA9GB3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MpAuAHF1crSRHNkyrQe8Lt
+          claim_id: c_l7jJE_zcNJtKJGG6gbuthG
+          source_id: s_8BVb9TxWyJfg_t3Lxkvzl4
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201458 王秉良）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_8BVb9TxWyJfg_t3Lxkvzl4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王秉彝（CBDB 272756）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272756&o=json
+            external_identifier: CBDB:272756
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GwTwAk8kgcw8JiRbnA9GB3
+        status: active
+        display_name: 王秉彝
+        merged_into_person_id: null
+    - claim:
+        id: c_QFEK22Mhy1QbD6L-GPkSfv
+        subject_person_id: p_AJ36QsHYvNFFPiM32NAShM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_RJcAp3N5Ep4AoiM8JQvChT
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Bb5jE-Ddu76GgAccthXL6r
+          claim_id: c_QFEK22Mhy1QbD6L-GPkSfv
+          source_id: s__GwT58q4xBySvZN1CUciI5
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 201458 王秉良）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s__GwT58q4xBySvZN1CUciI5
+            source_type: api_record
+            title: 中国历代人物传记资料库：王秉儉（CBDB 272760）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272760&o=json
+            external_identifier: CBDB:272760
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_RJcAp3N5Ep4AoiM8JQvChT
+        status: active
+        display_name: 王秉儉
+        merged_into_person_id: null
+    - claim:
+        id: c_3G7x4JxSthcirFnol6wCQ6
+        subject_person_id: p_AJ36QsHYvNFFPiM32NAShM
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qoFSPRtHcy51aLyVN73KPB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_c_Z_BztgL0Oo_ocfMbyFvy
+          claim_id: c_3G7x4JxSthcirFnol6wCQ6
+          source_id: s_rL63Zjs7qMxLgRY3cxbKHh
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201458 王秉良）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_rL63Zjs7qMxLgRY3cxbKHh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王秉能（CBDB 272757）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272757&o=json
+            external_identifier: CBDB:272757
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_qoFSPRtHcy51aLyVN73KPB
+        status: active
+        display_name: 王秉能
+        merged_into_person_id: null
 ---
 
 # 王秉良
@@ -257,10 +442,20 @@ relationships:
 | parents | p_xTGz6CSCfnLnyJ3himBvrU | 王俊 | accepted |
 | ancestors | p_uv7Y4sorz1AJL6728idjYf | 王繼先 | accepted |
 | ancestors | p_YzvBwyQMZHuRLG8VQ7VxZ5 | 王清 | accepted |
+| other | p_31Y7A8ctDck4rHzqHWU9S1 | 王秉恭 | accepted |
+| other | p_GCFGFLbb5w3812Ph1sajEv | 王秉誠 | accepted |
+| other | p_GwTwAk8kgcw8JiRbnA9GB3 | 王秉彝 | accepted |
+| other | p_RJcAp3N5Ep4AoiM8JQvChT | 王秉儉 | accepted |
+| other | p_qoFSPRtHcy51aLyVN73KPB | 王秉能 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王秉誠（CBDB 272758）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272758&o=json)
+- [中国历代人物传记资料库：王秉恭（CBDB 272759）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272759&o=json)
+- [中国历代人物传记资料库：王秉儉（CBDB 272760）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272760&o=json)
 - [中国历代人物传记资料库：王秉良（CBDB 201458）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=201458&o=json)
+- [中国历代人物传记资料库：王秉能（CBDB 272757）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272757&o=json)
+- [中国历代人物传记资料库：王秉彝（CBDB 272756）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272756&o=json)
 - [中国历代人物传记资料库：王繼先（CBDB 272749）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272749&o=json)
 - [中国历代人物传记资料库：王俊（CBDB 272753）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272753&o=json)
 - [中国历代人物传记资料库：王清（CBDB 272752）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=272752&o=json)

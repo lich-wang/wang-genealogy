@@ -4,7 +4,7 @@ id: p_pEdGRSnHAWXvL7ekoq9irm
 status: active
 merged_into: null
 display_name: 王家賓
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -239,7 +239,44 @@ relationships:
         status: active
         display_name: 王代興
         merged_into_person_id: null
-  other: []
+  other:
+    - claim:
+        id: c_bNYTQ4gn6liqiv3lKum2HX
+        subject_person_id: p_jJpSp75MVxBxr7MACduWs3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_pEdGRSnHAWXvL7ekoq9irm
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Q_yp-qhJ8qp67N3esPy5As
+          claim_id: c_bNYTQ4gn6liqiv3lKum2HX
+          source_id: s_Gbjg0MeRwABIcbdyNxiQ4A
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 69290 王家賓）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Gbjg0MeRwABIcbdyNxiQ4A
+            source_type: api_record
+            title: 中国历代人物传记资料库：王恪亭（CBDB 526829）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526829&o=json
+            external_identifier: CBDB:526829
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jJpSp75MVxBxr7MACduWs3
+        status: active
+        display_name: 王恪亭
+        merged_into_person_id: null
 ---
 
 # 王家賓
@@ -263,7 +300,9 @@ relationships:
 | descendants | p_J2FQREsJ82hioqJaNMDC39 | 王代昌 | accepted |
 | descendants | p_j2n3ygo1YiMXzXoDz14tZ3 | 王代裕 | accepted |
 | descendants | p_5G2qt9GaLPiCw5KRtPLsEg | 王代興 | accepted |
+| other | p_jJpSp75MVxBxr7MACduWs3 | 王恪亭 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王家賓（CBDB 69290）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69290&o=json)
+- [中国历代人物传记资料库：王恪亭（CBDB 526829）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526829&o=json)

@@ -4,7 +4,7 @@ id: p_68LHNKcuxf1uwMJ525gZiC
 status: active
 merged_into: null
 display_name: 王若谷
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_4AKyZK9YsjRFnZlU0DXtR5
+        subject_person_id: p_7pMsHaktzQtYSfbM8CxDyd
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_68LHNKcuxf1uwMJ525gZiC
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_cwikSZCSG5Q6tpW6rLpRfJ
+          claim_id: c_4AKyZK9YsjRFnZlU0DXtR5
+          source_id: s_BM6bXujVvlSd7PmzYVjOyN
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 2132）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_BM6bXujVvlSd7PmzYVjOyN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王若谷（CBDB 22185）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22185&o=json
+            external_identifier: CBDB:22185
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_7pMsHaktzQtYSfbM8CxDyd
+        status: active
+        display_name: 王陟
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_xTn_DnHK9o_fP7cvxwNd0L
+        subject_person_id: p_68LHNKcuxf1uwMJ525gZiC
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_CCoZz4E1PFMv15ykSimvG2
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_thHvQ6tCuRmKstmrP9Jrws
+          claim_id: c_xTn_DnHK9o_fP7cvxwNd0L
+          source_id: s_BM6bXujVvlSd7PmzYVjOyN
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 22184 王若拙）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_BM6bXujVvlSd7PmzYVjOyN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王若谷（CBDB 22185）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22185&o=json
+            external_identifier: CBDB:22185
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CCoZz4E1PFMv15ykSimvG2
+        status: active
+        display_name: 王若拙
+        merged_into_person_id: null
 ---
 
 # 王若谷
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_7pMsHaktzQtYSfbM8CxDyd | 王陟 | accepted |
+| other | p_CCoZz4E1PFMv15ykSimvG2 | 王若拙 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_cdvLWdUT8xwQ2GV4vwbiSj
 status: active
 merged_into: null
 display_name: 王明
-revision: 4
+revision: 7
 properties:
   - predicate: name.primary
     recommended:
@@ -191,7 +191,118 @@ relationships:
         display_name: 王和
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_7hRH8SIk-QbvwbPKvjAE2X
+        subject_person_id: p_L5ix6rN3nxTFcxwkS6DCrw
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_cdvLWdUT8xwQ2GV4vwbiSj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Y7J9v2IL29i1rZl4rpaPin
+          claim_id: c_7hRH8SIk-QbvwbPKvjAE2X
+          source_id: s_V3hGQfYAbb38mfUk6JuCmy
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126580 王明）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_V3hGQfYAbb38mfUk6JuCmy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王言（CBDB 221463）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221463&o=json
+            external_identifier: CBDB:221463
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_L5ix6rN3nxTFcxwkS6DCrw
+        status: active
+        display_name: 王言
+        merged_into_person_id: null
+    - claim:
+        id: c_9NgCeN1NQmJ_M0PjxVpb5C
+        subject_person_id: p_P94s9TZdzMJZbp9U94rxAj
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_cdvLWdUT8xwQ2GV4vwbiSj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SwIev_GUYjoYC6ub8NcMWl
+          claim_id: c_9NgCeN1NQmJ_M0PjxVpb5C
+          source_id: s_wSnTaVdr0Dxgdv_FBsSusS
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126580 王明）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_wSnTaVdr0Dxgdv_FBsSusS
+            source_type: api_record
+            title: 中国历代人物传记资料库：王心（CBDB 221464）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221464&o=json
+            external_identifier: CBDB:221464
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_P94s9TZdzMJZbp9U94rxAj
+        status: active
+        display_name: 王心
+        merged_into_person_id: null
+    - claim:
+        id: c_DeHBzyCeNTBbsY2Kkj_4c9
+        subject_person_id: p_aAw8QRKUDP46mUEr1nQMJg
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_cdvLWdUT8xwQ2GV4vwbiSj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0q2CJ78QC4CyJD2Mne9L72
+          claim_id: c_DeHBzyCeNTBbsY2Kkj_4c9
+          source_id: s_jakG0aob2reRYpGLXZxVNZ
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126580 王明）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_jakG0aob2reRYpGLXZxVNZ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王耳（CBDB 221465）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221465&o=json
+            external_identifier: CBDB:221465
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aAw8QRKUDP46mUEr1nQMJg
+        status: active
+        display_name: 王耳
+        merged_into_person_id: null
 ---
 
 # 王明
@@ -212,10 +323,16 @@ relationships:
 | parents | p_dr5THMYZGs7zW675Bw8A4u | 王玉圭 | accepted |
 | ancestors | p_8YJr5iN4qPp3nLCKpSvh1Z | 王欽 | accepted |
 | ancestors | p_UcLAoUsQRg5X99v3V1g2V3 | 王和 | accepted |
+| other | p_L5ix6rN3nxTFcxwkS6DCrw | 王言 | accepted |
+| other | p_P94s9TZdzMJZbp9U94rxAj | 王心 | accepted |
+| other | p_aAw8QRKUDP46mUEr1nQMJg | 王耳 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王耳（CBDB 221465）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221465&o=json)
 - [中国历代人物传记资料库：王和（CBDB 221457）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221457&o=json)
 - [中国历代人物传记资料库：王明（CBDB 126580）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126580&o=json)
 - [中国历代人物传记资料库：王欽（CBDB 221456）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221456&o=json)
+- [中国历代人物传记资料库：王心（CBDB 221464）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221464&o=json)
+- [中国历代人物传记资料库：王言（CBDB 221463）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221463&o=json)
 - [中国历代人物传记资料库：王玉圭（CBDB 221458）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=221458&o=json)

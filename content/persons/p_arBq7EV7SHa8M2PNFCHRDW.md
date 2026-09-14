@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王玉林
 cbdb_id: 69122
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -124,7 +124,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_ZB0sqW60hpTNXWixfUPhQU
+        subject_person_id: p_UBLQQQA91DrKBnu73ejAws
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_arBq7EV7SHa8M2PNFCHRDW
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xtReQJ4UA9A1UUTT403xmC
+          claim_id: c_ZB0sqW60hpTNXWixfUPhQU
+          source_id: s_9AnKjJk335BDp-gqFnB2tM
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 69122 王玉林）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_9AnKjJk335BDp-gqFnB2tM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鍾林（CBDB 526704）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526704&o=json
+            external_identifier: CBDB:526704
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_UBLQQQA91DrKBnu73ejAws
+        status: active
+        display_name: 王鍾林
+        merged_into_person_id: null
 ---
 
 # 王玉林
@@ -143,7 +180,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_UBLQQQA91DrKBnu73ejAws | 王鍾林 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王玉林（CBDB 69122）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69122&o=json)
+- [中国历代人物传记资料库：王鍾林（CBDB 526704）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526704&o=json)

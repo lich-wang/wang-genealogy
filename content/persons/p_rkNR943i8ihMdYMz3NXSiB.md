@@ -4,7 +4,7 @@ id: p_rkNR943i8ihMdYMz3NXSiB
 status: active
 merged_into: null
 display_name: 王廣
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_T7mt27A9iDLWPJjMDS4sLV
+        subject_person_id: p_gjG6yS82eJN4fARf6aE7Hv
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rkNR943i8ihMdYMz3NXSiB
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_IElqzNrhe_TJsICsyLIVF1
+          claim_id: c_T7mt27A9iDLWPJjMDS4sLV
+          source_id: s_jMVq19kPvJicmt1gu14zal
+          stance: supports
+          locator: CBDB：兄弟 王庾（126670）之父／母 王文貴
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王廣 与 王庾 为同胞（CBDB 记「弟」），王庾 之父／母即 王廣 之父／母。
+          source:
+            id: s_jMVq19kPvJicmt1gu14zal
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廣（CBDB 238297）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238297&o=json
+            external_identifier: CBDB:238297
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_gjG6yS82eJN4fARf6aE7Hv
+        status: active
+        display_name: 王文貴
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_6At9k1Jdr7FIvvfanhCW-z
+        subject_person_id: p_6e5ELnuv2E5KGPsNrAysQX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_rkNR943i8ihMdYMz3NXSiB
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1ROhovRC9rHheZHwXP6JXX
+          claim_id: c_6At9k1Jdr7FIvvfanhCW-z
+          source_id: s_jMVq19kPvJicmt1gu14zal
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126670 王庾）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_jMVq19kPvJicmt1gu14zal
+            source_type: api_record
+            title: 中国历代人物传记资料库：王廣（CBDB 238297）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=238297&o=json
+            external_identifier: CBDB:238297
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6e5ELnuv2E5KGPsNrAysQX
+        status: active
+        display_name: 王庾
+        merged_into_person_id: null
 ---
 
 # 王廣
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_gjG6yS82eJN4fARf6aE7Hv | 王文貴 | accepted |
+| other | p_6e5ELnuv2E5KGPsNrAysQX | 王庾 | accepted |
 
 ## 外部来源
 

@@ -4,7 +4,7 @@ id: p_hpB2Y5ktFHzZw4LUr2KGvj
 status: active
 merged_into: null
 display_name: 王用楨
-revision: 4
+revision: 15
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,414 @@ relationships:
         display_name: 王儒
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_KQVqrBL0LI6Yhq7UlxtmjU
+        subject_person_id: p_6GFNJN3RybBE7dopVUBEes
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hpB2Y5ktFHzZw4LUr2KGvj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_evK8mGlli5SxlzRkSwvJKX
+          claim_id: c_KQVqrBL0LI6Yhq7UlxtmjU
+          source_id: s_GBUWLbP0m8k1Ai7ScKTe2J
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204826 王用楨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_GBUWLbP0m8k1Ai7ScKTe2J
+            source_type: api_record
+            title: 中国历代人物传记资料库：王嘉（CBDB 324571）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324571&o=json
+            external_identifier: CBDB:324571
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6GFNJN3RybBE7dopVUBEes
+        status: active
+        display_name: 王嘉
+        merged_into_person_id: null
+    - claim:
+        id: c_yeQrU9WJNLgTxMWAkqPGiz
+        subject_person_id: p_CtzM6SrBC88nz162s91Kx6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hpB2Y5ktFHzZw4LUr2KGvj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Fu0j86N1rhgtdqYyFo-XNw
+          claim_id: c_yeQrU9WJNLgTxMWAkqPGiz
+          source_id: s_5IwcKFGZaB3bNW4H9a9lM7
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204826 王用楨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_5IwcKFGZaB3bNW4H9a9lM7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用官（CBDB 324566）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324566&o=json
+            external_identifier: CBDB:324566
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CtzM6SrBC88nz162s91Kx6
+        status: active
+        display_name: 王用官
+        merged_into_person_id: null
+    - claim:
+        id: c_ICzip-gVSuzK1nsj4lakh5
+        subject_person_id: p_HaAN2bLNRjLhZBVymSE7kz
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hpB2Y5ktFHzZw4LUr2KGvj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Vb3azR_fOwejJCs-SE69GS
+          claim_id: c_ICzip-gVSuzK1nsj4lakh5
+          source_id: s_5P_v-w6ghkP5P4G2XcpS-Z
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204826 王用楨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_5P_v-w6ghkP5P4G2XcpS-Z
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用行（CBDB 324573）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324573&o=json
+            external_identifier: CBDB:324573
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HaAN2bLNRjLhZBVymSE7kz
+        status: active
+        display_name: 王用行
+        merged_into_person_id: null
+    - claim:
+        id: c_xyOuMbViXWmxPF8sdQ71uL
+        subject_person_id: p_KQnaoBrw8SsaLnnF4L3Po3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hpB2Y5ktFHzZw4LUr2KGvj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_zGnz29V4Qicv-nceVwi5V8
+          claim_id: c_xyOuMbViXWmxPF8sdQ71uL
+          source_id: s_BnCY1x4ZoaXB-39IIz_6bC
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204826 王用楨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_BnCY1x4ZoaXB-39IIz_6bC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王疇（CBDB 324568）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324568&o=json
+            external_identifier: CBDB:324568
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KQnaoBrw8SsaLnnF4L3Po3
+        status: active
+        display_name: 王疇
+        merged_into_person_id: null
+    - claim:
+        id: c_iEkQYX2M66TEL2HCb5t95b
+        subject_person_id: p_M6LEcXJ4fAxH6NMLaBJTYV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hpB2Y5ktFHzZw4LUr2KGvj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mMFOzBrZA8qMQewr76leOD
+          claim_id: c_iEkQYX2M66TEL2HCb5t95b
+          source_id: s_8LoXkFgmCiZ2ZowExxHmrx
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204826 王用楨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_8LoXkFgmCiZ2ZowExxHmrx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王達孚（CBDB 324570）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324570&o=json
+            external_identifier: CBDB:324570
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_M6LEcXJ4fAxH6NMLaBJTYV
+        status: active
+        display_name: 王達孚
+        merged_into_person_id: null
+    - claim:
+        id: c_tryihcj7ig6UjSdC3EfCSu
+        subject_person_id: p_U7t29AJET8TEYjEiPgwzy7
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hpB2Y5ktFHzZw4LUr2KGvj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_rywSsDF2NhM6SuQaUPb1JZ
+          claim_id: c_tryihcj7ig6UjSdC3EfCSu
+          source_id: s_gGjC5Fy7xXdGd0kj42_Z5R
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204826 王用楨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_gGjC5Fy7xXdGd0kj42_Z5R
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用康（CBDB 324575）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324575&o=json
+            external_identifier: CBDB:324575
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_U7t29AJET8TEYjEiPgwzy7
+        status: active
+        display_name: 王用康
+        merged_into_person_id: null
+    - claim:
+        id: c_CIOnVZeDaf8U9BUTrptwB_
+        subject_person_id: p_VNNbh8NWTBE9vDh7X2rEN1
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hpB2Y5ktFHzZw4LUr2KGvj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_u-opRChXreDYQAAnXovHJ9
+          claim_id: c_CIOnVZeDaf8U9BUTrptwB_
+          source_id: s_YFtgSyuyP1EsFLM-MREwnV
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204826 王用楨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_YFtgSyuyP1EsFLM-MREwnV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王美銳（CBDB 324567）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324567&o=json
+            external_identifier: CBDB:324567
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VNNbh8NWTBE9vDh7X2rEN1
+        status: active
+        display_name: 王美銳
+        merged_into_person_id: null
+    - claim:
+        id: c_0G5wbZGXih3lHIMX3bOiwB
+        subject_person_id: p_VnMF4vYCZBF1or3PKc5Tz3
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hpB2Y5ktFHzZw4LUr2KGvj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4kPrLdkiy0tAwTf3QNNtAn
+          claim_id: c_0G5wbZGXih3lHIMX3bOiwB
+          source_id: s_-G7fBIBN9btKEGuhClctud
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204826 王用楨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_-G7fBIBN9btKEGuhClctud
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用賓（CBDB 324565）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324565&o=json
+            external_identifier: CBDB:324565
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_VnMF4vYCZBF1or3PKc5Tz3
+        status: active
+        display_name: 王用賓
+        merged_into_person_id: null
+    - claim:
+        id: c_xyguT7YOczQftNozT1i5TL
+        subject_person_id: p_WZhbbHJkMSdRjeeuQou9DY
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hpB2Y5ktFHzZw4LUr2KGvj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_1vrIDYkcMBkcsvcadl43zB
+          claim_id: c_xyguT7YOczQftNozT1i5TL
+          source_id: s_hioFLfz-T_vvlAONjVin5z
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204826 王用楨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hioFLfz-T_vvlAONjVin5z
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用章（CBDB 324572）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324572&o=json
+            external_identifier: CBDB:324572
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_WZhbbHJkMSdRjeeuQou9DY
+        status: active
+        display_name: 王用章
+        merged_into_person_id: null
+    - claim:
+        id: c_EsydNmhznpnTKh03lCv-33
+        subject_person_id: p_Xu98awyac4YYMCq5HUoMnW
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hpB2Y5ktFHzZw4LUr2KGvj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Nmcs9uls_9DwXFoWWu6SX0
+          claim_id: c_EsydNmhznpnTKh03lCv-33
+          source_id: s_85MjhOqh_lKUTHTq7tYe1W
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204826 王用楨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_85MjhOqh_lKUTHTq7tYe1W
+            source_type: api_record
+            title: 中国历代人物传记资料库：王用予（CBDB 324576）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324576&o=json
+            external_identifier: CBDB:324576
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Xu98awyac4YYMCq5HUoMnW
+        status: active
+        display_name: 王用予
+        merged_into_person_id: null
+    - claim:
+        id: c_47H70x8d6E5ZJtNHv6Wfc1
+        subject_person_id: p_g9VGzJxeEjCUMANz6T7gPv
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hpB2Y5ktFHzZw4LUr2KGvj
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2oOISs7HE3d7kFj6lDr9U2
+          claim_id: c_47H70x8d6E5ZJtNHv6Wfc1
+          source_id: s_N7UidzKA1FuuGTNrtZ8xWu
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204826 王用楨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_N7UidzKA1FuuGTNrtZ8xWu
+            source_type: api_record
+            title: 中国历代人物传记资料库：王茂孚（CBDB 324569）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324569&o=json
+            external_identifier: CBDB:324569
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_g9VGzJxeEjCUMANz6T7gPv
+        status: active
+        display_name: 王茂孚
+        merged_into_person_id: null
 ---
 
 # 王用楨
@@ -241,10 +648,32 @@ relationships:
 | parents | p_oZ4kQSFi4x4MxZ3DEL5Xbj | 王纘宗 | accepted |
 | ancestors | p_C5baHBFGFpi4r39kKgCUFK | 王汾 | accepted |
 | ancestors | p_phM7XLeV2SMYTDK13TQXci | 王儒 | accepted |
+| other | p_6GFNJN3RybBE7dopVUBEes | 王嘉 | accepted |
+| other | p_CtzM6SrBC88nz162s91Kx6 | 王用官 | accepted |
+| other | p_HaAN2bLNRjLhZBVymSE7kz | 王用行 | accepted |
+| other | p_KQnaoBrw8SsaLnnF4L3Po3 | 王疇 | accepted |
+| other | p_M6LEcXJ4fAxH6NMLaBJTYV | 王達孚 | accepted |
+| other | p_U7t29AJET8TEYjEiPgwzy7 | 王用康 | accepted |
+| other | p_VNNbh8NWTBE9vDh7X2rEN1 | 王美銳 | accepted |
+| other | p_VnMF4vYCZBF1or3PKc5Tz3 | 王用賓 | accepted |
+| other | p_WZhbbHJkMSdRjeeuQou9DY | 王用章 | accepted |
+| other | p_Xu98awyac4YYMCq5HUoMnW | 王用予 | accepted |
+| other | p_g9VGzJxeEjCUMANz6T7gPv | 王茂孚 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王疇（CBDB 324568）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324568&o=json)
+- [中国历代人物传记资料库：王達孚（CBDB 324570）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324570&o=json)
 - [中国历代人物传记资料库：王汾（CBDB 324560）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324560&o=json)
+- [中国历代人物传记资料库：王嘉（CBDB 324571）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324571&o=json)
+- [中国历代人物传记资料库：王茂孚（CBDB 324569）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324569&o=json)
+- [中国历代人物传记资料库：王美銳（CBDB 324567）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324567&o=json)
 - [中国历代人物传记资料库：王儒（CBDB 324559）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324559&o=json)
+- [中国历代人物传记资料库：王用賓（CBDB 324565）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324565&o=json)
+- [中国历代人物传记资料库：王用官（CBDB 324566）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324566&o=json)
+- [中国历代人物传记资料库：王用康（CBDB 324575）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324575&o=json)
+- [中国历代人物传记资料库：王用行（CBDB 324573）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324573&o=json)
+- [中国历代人物传记资料库：王用予（CBDB 324576）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324576&o=json)
+- [中国历代人物传记资料库：王用章（CBDB 324572）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324572&o=json)
 - [中国历代人物传记资料库：王用楨（CBDB 204826）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=204826&o=json)
 - [中国历代人物传记资料库：王纘宗（CBDB 324561）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=324561&o=json)

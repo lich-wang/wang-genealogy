@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王學誠
 cbdb_id: 316260
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_iU2fqdJkR8I9y-aUYo6Af6
+        subject_person_id: p_CTanKyckA8Emf57Dk1Jm7o
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ds7Xs587VEtetVc8UbqxG2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_aMsb8ryViJh8_P40a7GldA
+          claim_id: c_iU2fqdJkR8I9y-aUYo6Af6
+          source_id: s_Ke6XlMMCQU5xScNokoFPNk
+          stance: supports
+          locator: CBDB：兄弟 王學謨（204228）之父／母 王世卿
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王學誠 与 王學謨 为同胞（CBDB 记「弟」），王學謨 之父／母即 王學誠 之父／母。
+          source:
+            id: s_Ke6XlMMCQU5xScNokoFPNk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王學誠（CBDB 316260）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316260&o=json
+            external_identifier: CBDB:316260
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CTanKyckA8Emf57Dk1Jm7o
+        status: active
+        display_name: 王世卿
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_7ta6SRRwzLTm_AY32O87xd
+        subject_person_id: p_ds7Xs587VEtetVc8UbqxG2
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nxMTBwovWR92XT8tAZTvLW
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_4dewaU3Zre4ti2GtrPZY2n
+          claim_id: c_7ta6SRRwzLTm_AY32O87xd
+          source_id: s_Ke6XlMMCQU5xScNokoFPNk
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204228 王學謨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Ke6XlMMCQU5xScNokoFPNk
+            source_type: api_record
+            title: 中国历代人物传记资料库：王學誠（CBDB 316260）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316260&o=json
+            external_identifier: CBDB:316260
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nxMTBwovWR92XT8tAZTvLW
+        status: active
+        display_name: 王學謨
+        merged_into_person_id: null
 ---
 
 # 王學誠
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_CTanKyckA8Emf57Dk1Jm7o | 王世卿 | accepted |
+| other | p_nxMTBwovWR92XT8tAZTvLW | 王學謨 | accepted |
 
 ## 外部来源
 

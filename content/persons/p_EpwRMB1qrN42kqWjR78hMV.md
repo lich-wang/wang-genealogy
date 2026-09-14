@@ -4,7 +4,7 @@ id: p_EpwRMB1qrN42kqWjR78hMV
 status: active
 merged_into: null
 display_name: 王約
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_K5WXysRxYrF6vlmliIm29_
+        subject_person_id: p_U6zX3wnxTCMh3nEUMpMz4g
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_EpwRMB1qrN42kqWjR78hMV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_baTRoz5knHwe_CwGuZnbPr
+          claim_id: c_K5WXysRxYrF6vlmliIm29_
+          source_id: s_CvEezrnFEP2AajoA3nL5Sc
+          stance: supports
+          locator: CBDB：兄弟 王周紹（205463）之父／母 王一貫
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王約 与 王周紹 为同胞（CBDB 记「兄」），王周紹 之父／母即 王約 之父／母。
+          source:
+            id: s_CvEezrnFEP2AajoA3nL5Sc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王約（CBDB 333625）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333625&o=json
+            external_identifier: CBDB:333625
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_U6zX3wnxTCMh3nEUMpMz4g
+        status: active
+        display_name: 王一貫
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_9TiiFXJ_Eom3-VzFf0jLAT
+        subject_person_id: p_EpwRMB1qrN42kqWjR78hMV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_McURSghs63gxnc5WxHG3bH
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_EmkWllhKE9mvfz5KOyLbLF
+          claim_id: c_9TiiFXJ_Eom3-VzFf0jLAT
+          source_id: s_CvEezrnFEP2AajoA3nL5Sc
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205463 王周紹）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_CvEezrnFEP2AajoA3nL5Sc
+            source_type: api_record
+            title: 中国历代人物传记资料库：王約（CBDB 333625）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=333625&o=json
+            external_identifier: CBDB:333625
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_McURSghs63gxnc5WxHG3bH
+        status: active
+        display_name: 王周紹
+        merged_into_person_id: null
 ---
 
 # 王約
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_U6zX3wnxTCMh3nEUMpMz4g | 王一貫 | accepted |
+| other | p_McURSghs63gxnc5WxHG3bH | 王周紹 | accepted |
 
 ## 外部来源
 

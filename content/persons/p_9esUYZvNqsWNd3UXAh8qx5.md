@@ -4,7 +4,7 @@ id: p_9esUYZvNqsWNd3UXAh8qx5
 status: active
 merged_into: null
 display_name: 王縝
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -265,7 +265,81 @@ relationships:
         display_name: 王琛
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Yw2A1DRlItyZhftFcZn5jQ
+        subject_person_id: p_9esUYZvNqsWNd3UXAh8qx5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_Xuhy9rkRAKk1HotAywcbcM
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Rn6dMgorSC28A7N7-JsxmH
+          claim_id: c_Yw2A1DRlItyZhftFcZn5jQ
+          source_id: s_Fdnc-6wnnsWwGHz44DZhNz
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 68275 王縝）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Fdnc-6wnnsWwGHz44DZhNz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王組瑋（CBDB 264943）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264943&o=json
+            external_identifier: CBDB:264943
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Xuhy9rkRAKk1HotAywcbcM
+        status: active
+        display_name: 王組瑋
+        merged_into_person_id: null
+    - claim:
+        id: c_tG6Z9a_UJgF7-NFF1m-LDE
+        subject_person_id: p_9esUYZvNqsWNd3UXAh8qx5
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vMevNWYN32QXU3ybSEDDSn
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_12IhNpNsSgXJFNFwmgV1Dq
+          claim_id: c_tG6Z9a_UJgF7-NFF1m-LDE
+          source_id: s_n1QmD_hvEaH3Pfj7UiqVlT
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 68275 王縝）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_n1QmD_hvEaH3Pfj7UiqVlT
+            source_type: api_record
+            title: 中国历代人物传记资料库：王組經（CBDB 264942）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264942&o=json
+            external_identifier: CBDB:264942
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_vMevNWYN32QXU3ybSEDDSn
+        status: active
+        display_name: 王組經
+        merged_into_person_id: null
 ---
 
 # 王縝
@@ -290,7 +364,11 @@ relationships:
 | spouses | p_EVLq7xAUTLGpaeFfQpgjH5 | 周氏 | accepted |
 | ancestors | p_WWiatCTUQBMimYAeHSJjDW | 王纯礼 | accepted |
 | ancestors | p_YUKAdQiXr1DTx2KFsrYLgt | 王琛 | accepted |
+| other | p_Xuhy9rkRAKk1HotAywcbcM | 王組瑋 | accepted |
+| other | p_vMevNWYN32QXU3ybSEDDSn | 王組經 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王縝（CBDB 68275）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68275&o=json)
+- [中国历代人物传记资料库：王組經（CBDB 264942）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264942&o=json)
+- [中国历代人物传记资料库：王組瑋（CBDB 264943）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=264943&o=json)

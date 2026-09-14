@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王尚喆
 cbdb_id: 26512
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -124,7 +124,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_NjRY12cDRWmXXnucvvfpfH
+        subject_person_id: p_3JKfW8zU9aAN6L1FmP3X5i
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_9C9f5wPTpEPMhCZhZENbu8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_O-lpFNMCcikyB47VV6hkYz
+          claim_id: c_NjRY12cDRWmXXnucvvfpfH
+          source_id: s_TuoT1Xx4PWRSkynDL00V2x
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 26512 王尚喆）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_TuoT1Xx4PWRSkynDL00V2x
+            source_type: api_record
+            title: 中国历代人物传记资料库：王尚恭（CBDB 26511）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26511&o=json
+            external_identifier: CBDB:26511
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3JKfW8zU9aAN6L1FmP3X5i
+        status: active
+        display_name: 王尚恭
+        merged_into_person_id: null
 ---
 
 # 王尚喆
@@ -143,7 +180,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_3JKfW8zU9aAN6L1FmP3X5i | 王尚恭 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王尚恭（CBDB 26511）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26511&o=json)
 - [中国历代人物传记资料库：王尚喆（CBDB 26512）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26512&o=json)

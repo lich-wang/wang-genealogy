@@ -4,7 +4,7 @@ id: p_WKi2gp1aMEpd772NtPQKTC
 status: active
 merged_into: null
 display_name: 王明
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,43 @@ relationships:
         status: active
         display_name: 王崇冠
         merged_into_person_id: null
+    - claim:
+        id: c_TCIOPSo1g7dmWwUmvt7Xg-
+        subject_person_id: p_WKi2gp1aMEpd772NtPQKTC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_W7MvwLJztb6yUptHTZ9M5C
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cbr3AdN312Mt40rHTokcP3
+          claim_id: c_TCIOPSo1g7dmWwUmvt7Xg-
+          source_id: s_llbhEyibraqSkEMLO7_uLV
+          stance: supports
+          locator: CBDB：兄弟 王崇冠（202901）之父／母 王明
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王崇仁 与 王崇冠 为同胞（CBDB 记「弟」），王崇冠 之父／母即 王崇仁 之父／母。
+          source:
+            id: s_llbhEyibraqSkEMLO7_uLV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王崇仁（CBDB 296445）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296445&o=json
+            external_identifier: CBDB:296445
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_W7MvwLJztb6yUptHTZ9M5C
+        status: active
+        display_name: 王崇仁
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_RQeyyQ8v759GU56Ye8JJst | 王崇冠 | accepted |
+| children | p_W7MvwLJztb6yUptHTZ9M5C | 王崇仁 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王崇仁（CBDB 296445）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296445&o=json)
 - [中国历代人物传记资料库：王明（CBDB 296439）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=296439&o=json)

@@ -4,7 +4,7 @@ id: p_f6b1ybdq775DN4Ct5frMxH
 status: active
 merged_into: null
 display_name: 王浙
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_FB8JCQulR-mMxsCWxylXTB
+        subject_person_id: p_UidqakXpG7WU72BqWJwGkC
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_f6b1ybdq775DN4Ct5frMxH
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Dl4IG-9GVG2N2u4CZrBh9J
+          claim_id: c_FB8JCQulR-mMxsCWxylXTB
+          source_id: s_wKtw7R4ADsYRr1Bnf44gV7
+          stance: supports
+          locator: CBDB：兄弟 王治（69158）之父／母 王鎧
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王浙 与 王治 为同胞（CBDB 记「兄」），王治 之父／母即 王浙 之父／母。
+          source:
+            id: s_wKtw7R4ADsYRr1Bnf44gV7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王浙（CBDB 318699）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318699&o=json
+            external_identifier: CBDB:318699
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_UidqakXpG7WU72BqWJwGkC
+        status: active
+        display_name: 王鎧
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_OWLrPrLNkQ-7jVfEBIdp3k
+        subject_person_id: p_YMRfqBqGcb2AtmuSSgfQHF
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_f6b1ybdq775DN4Ct5frMxH
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lfQTbP9w7qIZpspMnEVAk3
+          claim_id: c_OWLrPrLNkQ-7jVfEBIdp3k
+          source_id: s_wKtw7R4ADsYRr1Bnf44gV7
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 69158 王治）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_wKtw7R4ADsYRr1Bnf44gV7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王浙（CBDB 318699）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318699&o=json
+            external_identifier: CBDB:318699
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_YMRfqBqGcb2AtmuSSgfQHF
+        status: active
+        display_name: 王治
+        merged_into_person_id: null
 ---
 
 # 王浙
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_UidqakXpG7WU72BqWJwGkC | 王鎧 | accepted |
+| other | p_YMRfqBqGcb2AtmuSSgfQHF | 王治 | accepted |
 
 ## 外部来源
 

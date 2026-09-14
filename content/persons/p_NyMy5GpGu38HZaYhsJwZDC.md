@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王獻吉
 cbdb_id: 119188
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -81,7 +81,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_G2J-qCnEJ5cXEPCDwEW8YE
+        subject_person_id: p_18fFnjtnGXtoq2dgN1ume2
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_NyMy5GpGu38HZaYhsJwZDC
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_RDm4hMZ0MZ23tZPEjfzzi5
+          claim_id: c_G2J-qCnEJ5cXEPCDwEW8YE
+          source_id: s_HdW8fmavfhWCjWA_udyncn
+          stance: supports
+          locator: CBDB 亲属：妹（KinPerson 119187 王鳳嫻）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_HdW8fmavfhWCjWA_udyncn
+            source_type: api_record
+            title: 中国历代人物传记资料库：王獻吉（CBDB 119188）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=119188&o=json
+            external_identifier: CBDB:119188
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_18fFnjtnGXtoq2dgN1ume2
+        status: active
+        display_name: 王鳳嫻
+        merged_into_person_id: null
 ---
 
 # 王獻吉
@@ -99,6 +136,7 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_18fFnjtnGXtoq2dgN1ume2 | 王鳳嫻 | accepted |
 
 ## 外部来源
 

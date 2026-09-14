@@ -4,7 +4,7 @@ id: p_UXAHPSwvUShfssjz4sgNgP
 status: active
 merged_into: null
 display_name: 王庭瑋
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -135,7 +135,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_5BOdidQO6HYI3P_Rd3CJkH
+        subject_person_id: p_NKDBjDH5rA2rPZeJXPzJ9F
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_UXAHPSwvUShfssjz4sgNgP
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_o1Opz3ABaOjgMiF2Cl_MOZ
+          claim_id: c_5BOdidQO6HYI3P_Rd3CJkH
+          source_id: s_5GvIPbvrsoRvertuerohHj
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 12168 王庭瑋）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_5GvIPbvrsoRvertuerohHj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王庭珍（CBDB 12169）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12169&o=json
+            external_identifier: CBDB:12169
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_NKDBjDH5rA2rPZeJXPzJ9F
+        status: active
+        display_name: 王庭珍
+        merged_into_person_id: null
 ---
 
 # 王庭瑋
@@ -155,7 +192,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_NKDBjDH5rA2rPZeJXPzJ9F | 王庭珍 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王庭瑋（CBDB 12168）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12168&o=json)
+- [中国历代人物传记资料库：王庭珍（CBDB 12169）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=12169&o=json)

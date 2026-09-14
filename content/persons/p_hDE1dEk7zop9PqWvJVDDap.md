@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王光逢
 cbdb_id: 26616
-revision: 3
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -198,7 +198,118 @@ relationships:
         status: active
         display_name: 王楹
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_h_1Ph1LKnY8r98SEe64hVe
+        subject_person_id: p_hDE1dEk7zop9PqWvJVDDap
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_PeRmDPK7N2dQuMTvJFVBTQ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_BB4eLLTSIJ-Td5YPy11nm6
+          claim_id: c_h_1Ph1LKnY8r98SEe64hVe
+          source_id: s_6O-YF1Zy23FvDB_o-rLy3d
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 26616）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_6O-YF1Zy23FvDB_o-rLy3d
+            source_type: api_record
+            title: 中国历代人物传记资料库：王虎文（CBDB 36176）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36176&o=json
+            external_identifier: CBDB:36176
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_PeRmDPK7N2dQuMTvJFVBTQ
+        status: active
+        display_name: 王虎文
+        merged_into_person_id: null
+    - claim:
+        id: c_36yiezao96lKAv-ccNht_5
+        subject_person_id: p_hDE1dEk7zop9PqWvJVDDap
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_T5kTijaJaqDYcjBundqNAV
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_LffZ1zgkRwsySFilprKRAH
+          claim_id: c_36yiezao96lKAv-ccNht_5
+          source_id: s_XOxeMOICj_ghH8GT5MOV6r
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 26616）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_XOxeMOICj_ghH8GT5MOV6r
+            source_type: api_record
+            title: 中国历代人物传记资料库：王景龍（CBDB 36178）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36178&o=json
+            external_identifier: CBDB:36178
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_T5kTijaJaqDYcjBundqNAV
+        status: active
+        display_name: 王景龍
+        merged_into_person_id: null
+    - claim:
+        id: c_fo7CQ05mF7xymZmOT9V-0a
+        subject_person_id: p_hDE1dEk7zop9PqWvJVDDap
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_jZgwA6KLxcNPHqGaFF1NCn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_s8_eHW24_WOm8Qkbs-F8hZ
+          claim_id: c_fo7CQ05mF7xymZmOT9V-0a
+          source_id: s_Y5te-2hjTPOFcfJ__7GQMy
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 26616）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_Y5te-2hjTPOFcfJ__7GQMy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王淮（CBDB 36177）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36177&o=json
+            external_identifier: CBDB:36177
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_jZgwA6KLxcNPHqGaFF1NCn
+        status: active
+        display_name: 王淮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -262,10 +373,16 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_J7D7mZY2Hh6FDLAfcyMWb1 | 王楹 | accepted |
+| children | p_PeRmDPK7N2dQuMTvJFVBTQ | 王虎文 | accepted |
+| children | p_T5kTijaJaqDYcjBundqNAV | 王景龍 | accepted |
+| children | p_jZgwA6KLxcNPHqGaFF1NCn | 王淮 | accepted |
 | ancestors | p_7ZkuLBZx4sM3DaTb2XEViR | 王渙之 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王光逢（CBDB 26616）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26616&o=json)
+- [中国历代人物传记资料库：王虎文（CBDB 36176）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36176&o=json)
+- [中国历代人物传记资料库：王淮（CBDB 36177）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36177&o=json)
 - [中国历代人物传记资料库：王渙之（CBDB 26612）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26612&o=json)
+- [中国历代人物传记资料库：王景龍（CBDB 36178）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=36178&o=json)
 - [中国历代人物传记资料库：王楹（CBDB 26615）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=26615&o=json)

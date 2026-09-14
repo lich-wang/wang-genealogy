@@ -4,7 +4,7 @@ id: p_VyeEwdePu6TAbdxcb873Rk
 status: active
 merged_into: null
 display_name: 王澈
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -100,6 +100,43 @@ relationships:
         status: active
         display_name: 王叔果
         merged_into_person_id: null
+    - claim:
+        id: c_Tk1VSIPNl9O7JSMXg7Cq0P
+        subject_person_id: p_VyeEwdePu6TAbdxcb873Rk
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DnqqggnfiNL65xDyxEK2py
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_VUQv9ZJnqwOYDw6CWtQ6Uu
+          claim_id: c_Tk1VSIPNl9O7JSMXg7Cq0P
+          source_id: s_YOkUNxMxDdyTOyDFNYd8er
+          stance: supports
+          locator: CBDB：兄弟 王叔果（126578）之父／母 王澈
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王叔杲 与 王叔果 为同胞（CBDB 记「兄」），王叔果 之父／母即 王叔杲 之父／母。
+          source:
+            id: s_YOkUNxMxDdyTOyDFNYd8er
+            source_type: api_record
+            title: 中国历代人物传记资料库：王叔杲（CBDB 312432）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312432&o=json
+            external_identifier: CBDB:312432
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DnqqggnfiNL65xDyxEK2py
+        status: active
+        display_name: 王叔杲
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -124,7 +161,9 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_PjLFLca713vMspeHyzh9e2 | 王叔果 | accepted |
+| children | p_DnqqggnfiNL65xDyxEK2py | 王叔杲 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王澈（CBDB 312427）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312427&o=json)
+- [中国历代人物传记资料库：王叔杲（CBDB 312432）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=312432&o=json)

@@ -4,7 +4,7 @@ id: p_bzVqsVzDtPALBqgyiMTGcs
 status: active
 merged_into: null
 display_name: 王表
-revision: 3
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -194,7 +194,44 @@ relationships:
         display_name: 王子輝
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_a1Y5GaPJOue7r-xMIc19Qa
+        subject_person_id: p_2i6oN2NGkBUzWQ8mMJErSV
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_bzVqsVzDtPALBqgyiMTGcs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_634iwGh5UsCSZtTLVmYBrU
+          claim_id: c_a1Y5GaPJOue7r-xMIc19Qa
+          source_id: s_uChsy7DQY-IrVW3vZzN6tV
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126567 王表）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_uChsy7DQY-IrVW3vZzN6tV
+            source_type: api_record
+            title: 中国历代人物传记资料库：王業（CBDB 287777）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287777&o=json
+            external_identifier: CBDB:287777
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2i6oN2NGkBUzWQ8mMJErSV
+        status: active
+        display_name: 王業
+        merged_into_person_id: null
 ---
 
 # 王表
@@ -216,8 +253,10 @@ relationships:
 | spouses | p_9uSCjfr9TDqnxDkk1LuRqu | 朱氏 | accepted |
 | ancestors | p_DXynKuJYoaBATs8tkwXjSx | 王遜 | accepted |
 | ancestors | p_gH69iBnFvMEMWZbSE6mtUN | 王子輝 | accepted |
+| other | p_2i6oN2NGkBUzWQ8mMJErSV | 王業 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王表（CBDB 126567）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126567&o=json)
+- [中国历代人物传记资料库：王業（CBDB 287777）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287777&o=json)
 - [中国历代人物传记资料库：朱氏(王表妻)（CBDB 287776）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=287776&o=json)

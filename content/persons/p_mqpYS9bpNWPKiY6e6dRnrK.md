@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王錫民
 cbdb_id: 210657
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_ejeg-b0S6vpilOqCLi79i4
+        subject_person_id: p_FnmNgMN9f39gDixwHRx4Tp
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mqpYS9bpNWPKiY6e6dRnrK
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_lYfKoZ1-pMrC-4oJ3PxIXq
+          claim_id: c_ejeg-b0S6vpilOqCLi79i4
+          source_id: s_0rBJEE-__0ZnX3Y2M53X7G
+          stance: supports
+          locator: CBDB：兄弟 王敬民（126758）之父／母 王稅
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王錫民 与 王敬民 为同胞（CBDB 记「兄」），王敬民 之父／母即 王錫民 之父／母。
+          source:
+            id: s_0rBJEE-__0ZnX3Y2M53X7G
+            source_type: api_record
+            title: 中国历代人物传记资料库：王錫民（CBDB 210657）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210657&o=json
+            external_identifier: CBDB:210657
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_FnmNgMN9f39gDixwHRx4Tp
+        status: active
+        display_name: 王稅
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Bym29JKmTl20c-oVnq9ZUu
+        subject_person_id: p_6tt42hCZA528675DNELou4
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mqpYS9bpNWPKiY6e6dRnrK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_i9-qnACe-Wwhe8ntRV6qNv
+          claim_id: c_Bym29JKmTl20c-oVnq9ZUu
+          source_id: s_0rBJEE-__0ZnX3Y2M53X7G
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126758 王敬民）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_0rBJEE-__0ZnX3Y2M53X7G
+            source_type: api_record
+            title: 中国历代人物传记资料库：王錫民（CBDB 210657）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=210657&o=json
+            external_identifier: CBDB:210657
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_6tt42hCZA528675DNELou4
+        status: active
+        display_name: 王敬民
+        merged_into_person_id: null
 ---
 
 # 王錫民
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_FnmNgMN9f39gDixwHRx4Tp | 王稅 | accepted |
+| other | p_6tt42hCZA528675DNELou4 | 王敬民 | accepted |
 
 ## 外部来源
 

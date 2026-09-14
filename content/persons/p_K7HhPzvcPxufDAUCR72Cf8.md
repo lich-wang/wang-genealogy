@@ -4,7 +4,7 @@ id: p_K7HhPzvcPxufDAUCR72Cf8
 status: active
 merged_into: null
 display_name: 王載
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_XsuLvGxy8RVaGuxg_ggXUR
+        subject_person_id: p_rhYt9t4gYuDEpCnQq4aywZ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_K7HhPzvcPxufDAUCR72Cf8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_tomtFLM_xjqw4nx5_TwA4Z
+          claim_id: c_XsuLvGxy8RVaGuxg_ggXUR
+          source_id: s_eVfBsVsUH72wx8DieOrS-q
+          stance: supports
+          locator: CBDB：兄弟 王輦（205182）之父／母 王利
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王載 与 王輦 为同胞（CBDB 记「弟」），王輦 之父／母即 王載 之父／母。
+          source:
+            id: s_eVfBsVsUH72wx8DieOrS-q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王載（CBDB 329351）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329351&o=json
+            external_identifier: CBDB:329351
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rhYt9t4gYuDEpCnQq4aywZ
+        status: active
+        display_name: 王利
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_7XfglUYSTPNIPZ2_m_7eIh
+        subject_person_id: p_K7HhPzvcPxufDAUCR72Cf8
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_MT9QqQenXKizWtnnGxJQyH
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_N7ifwBv-orRlD2yDIogdq1
+          claim_id: c_7XfglUYSTPNIPZ2_m_7eIh
+          source_id: s_eVfBsVsUH72wx8DieOrS-q
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205182 王輦）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_eVfBsVsUH72wx8DieOrS-q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王載（CBDB 329351）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329351&o=json
+            external_identifier: CBDB:329351
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MT9QqQenXKizWtnnGxJQyH
+        status: active
+        display_name: 王輦
+        merged_into_person_id: null
 ---
 
 # 王載
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_rhYt9t4gYuDEpCnQq4aywZ | 王利 | accepted |
+| other | p_MT9QqQenXKizWtnnGxJQyH | 王輦 | accepted |
 
 ## 外部来源
 

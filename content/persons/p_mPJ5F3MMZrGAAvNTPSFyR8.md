@@ -4,7 +4,7 @@ id: p_mPJ5F3MMZrGAAvNTPSFyR8
 status: active
 merged_into: null
 display_name: 王進賢
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_H6i580eqKx0hn6UdH4FtfN
+        subject_person_id: p_yeJtEcC7cBaU9sVyVGy7xj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_mPJ5F3MMZrGAAvNTPSFyR8
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_A0q8kZlIO3P7HOBV6HsNH2
+          claim_id: c_H6i580eqKx0hn6UdH4FtfN
+          source_id: s_Eh_Zbo7zBaHYxiRNmLPvQ6
+          stance: supports
+          locator: CBDB：兄弟 王重賢（202269）之父／母 王鉞
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王進賢 与 王重賢 为同胞（CBDB 记「兄」），王重賢 之父／母即 王進賢 之父／母。
+          source:
+            id: s_Eh_Zbo7zBaHYxiRNmLPvQ6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王進賢（CBDB 285852）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285852&o=json
+            external_identifier: CBDB:285852
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_yeJtEcC7cBaU9sVyVGy7xj
+        status: active
+        display_name: 王鉞
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_g6PHCo4TaIZhSAssPe6Q7g
+        subject_person_id: p_HgaWqM5nscyN4tzrPQd5UX
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_mPJ5F3MMZrGAAvNTPSFyR8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_hagEp58DSsRZ9v3Sk6QZ5u
+          claim_id: c_g6PHCo4TaIZhSAssPe6Q7g
+          source_id: s_Eh_Zbo7zBaHYxiRNmLPvQ6
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202269 王重賢）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_Eh_Zbo7zBaHYxiRNmLPvQ6
+            source_type: api_record
+            title: 中国历代人物传记资料库：王進賢（CBDB 285852）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285852&o=json
+            external_identifier: CBDB:285852
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HgaWqM5nscyN4tzrPQd5UX
+        status: active
+        display_name: 王重賢
+        merged_into_person_id: null
 ---
 
 # 王進賢
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_yeJtEcC7cBaU9sVyVGy7xj | 王鉞 | accepted |
+| other | p_HgaWqM5nscyN4tzrPQd5UX | 王重賢 | accepted |
 
 ## 外部来源
 

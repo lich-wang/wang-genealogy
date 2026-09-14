@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王南仲
 cbdb_id: 526733
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -113,6 +113,43 @@ relationships:
         status: active
         display_name: 王用汝
         merged_into_person_id: null
+    - claim:
+        id: c_ahdVFky3-tXvnooQxrhPpy
+        subject_person_id: p_r88nPKCqjVcvF1LAPaAHNc
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_zv43TgE21KF6tSLrCoCEgx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HO9oq3aB2SQDmCazI1_CNX
+          claim_id: c_ahdVFky3-tXvnooQxrhPpy
+          source_id: s_v9msRmSINJTXl8j1Gn0wGU
+          stance: supports
+          locator: CBDB：兄弟 王用汝（69159）之父／母 王南仲
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王玉懷 与 王用汝 为同胞（CBDB 记「弟」），王用汝 之父／母即 王玉懷 之父／母。
+          source:
+            id: s_v9msRmSINJTXl8j1Gn0wGU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王玉懷（CBDB 526731）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526731&o=json
+            external_identifier: CBDB:526731
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_zv43TgE21KF6tSLrCoCEgx
+        status: active
+        display_name: 王玉懷
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -137,8 +174,10 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_Y3Y6HkmzixiBERDAuwhHZ6 | 王用汝 | accepted |
+| children | p_zv43TgE21KF6tSLrCoCEgx | 王玉懷 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王南仲（CBDB 526733）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526733&o=json)
 - [中国历代人物传记资料库：王用汝（CBDB 69159）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=69159&o=json)
+- [中国历代人物传记资料库：王玉懷（CBDB 526731）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=526731&o=json)

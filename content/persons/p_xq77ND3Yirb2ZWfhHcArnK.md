@@ -4,7 +4,7 @@ id: p_xq77ND3Yirb2ZWfhHcArnK
 status: active
 merged_into: null
 display_name: 王德
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -250,7 +250,81 @@ relationships:
         display_name: 王鐲
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_m1Sq5z-PFecekhF16fpfMn
+        subject_person_id: p_aeMXjXc91ASWqszNd2D6Kh
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xq77ND3Yirb2ZWfhHcArnK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ktDFb9fxWIHlH4L4GL3wG0
+          claim_id: c_m1Sq5z-PFecekhF16fpfMn
+          source_id: s_WJWVsI62Hnjq8ZlUURhJ9F
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 68161 王德）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_WJWVsI62Hnjq8ZlUURhJ9F
+            source_type: api_record
+            title: 中国历代人物传记资料库：王慶（CBDB 301185）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301185&o=json
+            external_identifier: CBDB:301185
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aeMXjXc91ASWqszNd2D6Kh
+        status: active
+        display_name: 王慶
+        merged_into_person_id: null
+    - claim:
+        id: c_1ayS_1cXDVxT_SZjy9aLoC
+        subject_person_id: p_dtfxxQD6WPUNAn2Z7EEP2P
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xq77ND3Yirb2ZWfhHcArnK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_TFHjZ9pbVFtz9OdN8ziPpd
+          claim_id: c_1ayS_1cXDVxT_SZjy9aLoC
+          source_id: s_3Ff-bR2YBXM67pvmZa8IQ7
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 68161 王德）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_3Ff-bR2YBXM67pvmZa8IQ7
+            source_type: api_record
+            title: 中国历代人物传记资料库：王立（CBDB 301186）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301186&o=json
+            external_identifier: CBDB:301186
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dtfxxQD6WPUNAn2Z7EEP2P
+        status: active
+        display_name: 王立
+        merged_into_person_id: null
 ---
 
 # 王德
@@ -274,8 +348,12 @@ relationships:
 | spouses | p_scSJvCky2iFx6GRTpEFNgW | 邵氏 | accepted |
 | ancestors | p_zjAp5GG3WSvDfuHDHGpQQJ | 王廷芳 | accepted |
 | ancestors | p_hCzKn1nSfNfQRLjCB3DtBQ | 王鐲 | accepted |
+| other | p_aeMXjXc91ASWqszNd2D6Kh | 王慶 | accepted |
+| other | p_dtfxxQD6WPUNAn2Z7EEP2P | 王立 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：邵氏(王德妻)（CBDB 301184）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301184&o=json)
 - [中国历代人物传记资料库：王德（CBDB 68161）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=68161&o=json)
+- [中国历代人物传记资料库：王立（CBDB 301186）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301186&o=json)
+- [中国历代人物传记资料库：王慶（CBDB 301185）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=301185&o=json)

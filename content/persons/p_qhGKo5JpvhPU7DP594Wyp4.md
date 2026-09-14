@@ -4,7 +4,7 @@ id: p_qhGKo5JpvhPU7DP594Wyp4
 status: active
 merged_into: null
 display_name: 王吉兆
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_v2pmbG4MdnG1qco_sih1fz
+        subject_person_id: p_aZXBatcc6mdp3QRC5AaJD4
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_qhGKo5JpvhPU7DP594Wyp4
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MTM3df9AF6yFpSGIN9IJQo
+          claim_id: c_v2pmbG4MdnG1qco_sih1fz
+          source_id: s_4VlXdGOD5TidutbSyTbrdQ
+          stance: supports
+          locator: CBDB：兄弟 王祿兆（206985）之父／母 王光遠
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王吉兆 与 王祿兆 为同胞（CBDB 记「兄」），王祿兆 之父／母即 王吉兆 之父／母。
+          source:
+            id: s_4VlXdGOD5TidutbSyTbrdQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王吉兆（CBDB 225802）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225802&o=json
+            external_identifier: CBDB:225802
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_aZXBatcc6mdp3QRC5AaJD4
+        status: active
+        display_name: 王光遠
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_WIBICwoceCpyX2Cg1YaJQd
+        subject_person_id: p_hWNF7HbB9E5if6kNK731ro
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_qhGKo5JpvhPU7DP594Wyp4
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_88YtGfwlgT4kW3MuGsvcXj
+          claim_id: c_WIBICwoceCpyX2Cg1YaJQd
+          source_id: s_4VlXdGOD5TidutbSyTbrdQ
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206985 王祿兆）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_4VlXdGOD5TidutbSyTbrdQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王吉兆（CBDB 225802）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=225802&o=json
+            external_identifier: CBDB:225802
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hWNF7HbB9E5if6kNK731ro
+        status: active
+        display_name: 王祿兆
+        merged_into_person_id: null
 ---
 
 # 王吉兆
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_aZXBatcc6mdp3QRC5AaJD4 | 王光遠 | accepted |
+| other | p_hWNF7HbB9E5if6kNK731ro | 王祿兆 | accepted |
 
 ## 外部来源
 

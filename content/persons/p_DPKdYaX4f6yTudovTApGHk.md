@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王喬齡
 cbdb_id: 202941
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,44 @@ relationships:
         display_name: 王淑
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_2ZSuRLhOF4rWxbl9mclBIl
+        subject_person_id: p_DPKdYaX4f6yTudovTApGHk
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_eWz6n9dJmmq7bLYGzf43MX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2p20EN5784nXem4y7oLrEI
+          claim_id: c_2ZSuRLhOF4rWxbl9mclBIl
+          source_id: s_UhRAciwCDm-BOe98otdIqM
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202941 王喬齡）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_UhRAciwCDm-BOe98otdIqM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王高（CBDB 297083）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297083&o=json
+            external_identifier: CBDB:297083
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_eWz6n9dJmmq7bLYGzf43MX
+        status: active
+        display_name: 王高
+        merged_into_person_id: null
 ---
 
 # 王喬齡
@@ -257,10 +294,12 @@ relationships:
 | parents | p_GwTmgLY74DWW5r4UnQF1Tu | 王椿 | accepted |
 | ancestors | p_L4bncYLfZTp19AtRJHjH13 | 王諶 | accepted |
 | ancestors | p_NgCuHKkysTEgqqeeYJDNbc | 王淑 | accepted |
+| other | p_eWz6n9dJmmq7bLYGzf43MX | 王高 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王諶（CBDB 297076）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297076&o=json)
 - [中国历代人物传记资料库：王椿（CBDB 297078）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297078&o=json)
+- [中国历代人物传记资料库：王高（CBDB 297083）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297083&o=json)
 - [中国历代人物传记资料库：王喬齡（CBDB 202941）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202941&o=json)
 - [中国历代人物传记资料库：王淑（CBDB 297077）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297077&o=json)

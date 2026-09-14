@@ -4,7 +4,7 @@ id: p_Bhyq8KpDMhr92aGbfiB4zn
 status: active
 merged_into: null
 display_name: 王敬之
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_oFz8RHmOb80NlEC-IpKnr2
+        subject_person_id: p_efTyspVBuWnU6D3LVRN3aM
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_Bhyq8KpDMhr92aGbfiB4zn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs__M6d5mMj7iRv8fTjbmFoJ1
+          claim_id: c_oFz8RHmOb80NlEC-IpKnr2
+          source_id: s_xreXeOhFczYG26dYlwMTBX
+          stance: supports
+          locator: CBDB：兄弟 王崇之（126685）之父／母 王憲
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王敬之 与 王崇之 为同胞（CBDB 记「兄」），王崇之 之父／母即 王敬之 之父／母。
+          source:
+            id: s_xreXeOhFczYG26dYlwMTBX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敬之（CBDB 213581）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213581&o=json
+            external_identifier: CBDB:213581
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_efTyspVBuWnU6D3LVRN3aM
+        status: active
+        display_name: 王憲
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_nGd49rdxHV2QWRg8eF9Kvn
+        subject_person_id: p_Bhyq8KpDMhr92aGbfiB4zn
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_sMjY6kwGmS2PR67RexN7yL
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AE7BhiRdlu-I7X_d6dpfHY
+          claim_id: c_nGd49rdxHV2QWRg8eF9Kvn
+          source_id: s_xreXeOhFczYG26dYlwMTBX
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126685 王崇之）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_xreXeOhFczYG26dYlwMTBX
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敬之（CBDB 213581）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213581&o=json
+            external_identifier: CBDB:213581
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_sMjY6kwGmS2PR67RexN7yL
+        status: active
+        display_name: 王崇之
+        merged_into_person_id: null
 ---
 
 # 王敬之
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_efTyspVBuWnU6D3LVRN3aM | 王憲 | accepted |
+| other | p_sMjY6kwGmS2PR67RexN7yL | 王崇之 | accepted |
 
 ## 外部来源
 

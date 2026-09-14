@@ -4,7 +4,7 @@ id: p_QMT9AhChMMcn38M4BKKGf2
 status: active
 merged_into: null
 display_name: 王澍
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_CMMiXOQhBFR0rwUHUxqPbr
+        subject_person_id: p_i7TE8GAQBDSARQziXA9bL1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QMT9AhChMMcn38M4BKKGf2
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_9MO9755_G49y3y_XCgbmDs
+          claim_id: c_CMMiXOQhBFR0rwUHUxqPbr
+          source_id: s_4cZQRm7er_xWKR-d4_CmQt
+          stance: supports
+          locator: CBDB：兄弟 王湜（204714）之父／母 王諫
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王澍 与 王湜 为同胞（CBDB 记「兄」），王湜 之父／母即 王澍 之父／母。
+          source:
+            id: s_4cZQRm7er_xWKR-d4_CmQt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王澍（CBDB 323024）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323024&o=json
+            external_identifier: CBDB:323024
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_i7TE8GAQBDSARQziXA9bL1
+        status: active
+        display_name: 王諫
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_cAhQ79z6g7SWuSMfPMEmfq
+        subject_person_id: p_QMT9AhChMMcn38M4BKKGf2
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_wAFqCzpuCN66ZSxVPcW8sQ
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ovaCNLhUmZu2OdHg5Bi641
+          claim_id: c_cAhQ79z6g7SWuSMfPMEmfq
+          source_id: s_4cZQRm7er_xWKR-d4_CmQt
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 204714 王湜）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_4cZQRm7er_xWKR-d4_CmQt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王澍（CBDB 323024）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=323024&o=json
+            external_identifier: CBDB:323024
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_wAFqCzpuCN66ZSxVPcW8sQ
+        status: active
+        display_name: 王湜
+        merged_into_person_id: null
 ---
 
 # 王澍
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_i7TE8GAQBDSARQziXA9bL1 | 王諫 | accepted |
+| other | p_wAFqCzpuCN66ZSxVPcW8sQ | 王湜 | accepted |
 
 ## 外部来源
 

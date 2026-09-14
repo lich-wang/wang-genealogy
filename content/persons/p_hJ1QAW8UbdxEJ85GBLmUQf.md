@@ -4,7 +4,7 @@ id: p_hJ1QAW8UbdxEJ85GBLmUQf
 status: active
 merged_into: null
 display_name: 王境
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_cioBoHujBrtUhri6l6iKs_
+        subject_person_id: p_uKtEKuzL33Ns79oVfb6c8x
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hJ1QAW8UbdxEJ85GBLmUQf
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_MaNILI-KoserJ-8U1mSgEw
+          claim_id: c_cioBoHujBrtUhri6l6iKs_
+          source_id: s_srpUv6HDULkEPHphVCTCIt
+          stance: supports
+          locator: CBDB：兄弟 王塤（198806）之父／母 王榮
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王境 与 王塤 为同胞（CBDB 记「兄」），王塤 之父／母即 王境 之父／母。
+          source:
+            id: s_srpUv6HDULkEPHphVCTCIt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王境（CBDB 318907）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318907&o=json
+            external_identifier: CBDB:318907
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_uKtEKuzL33Ns79oVfb6c8x
+        status: active
+        display_name: 王榮
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_JU_3Wuop35a_FOrSNTW_j5
+        subject_person_id: p_Mq4DjrJD3kuD51C35m7MXJ
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hJ1QAW8UbdxEJ85GBLmUQf
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_WPewBThsY7mwbQDRDJot_6
+          claim_id: c_JU_3Wuop35a_FOrSNTW_j5
+          source_id: s_srpUv6HDULkEPHphVCTCIt
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198806 王塤）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_srpUv6HDULkEPHphVCTCIt
+            source_type: api_record
+            title: 中国历代人物传记资料库：王境（CBDB 318907）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=318907&o=json
+            external_identifier: CBDB:318907
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Mq4DjrJD3kuD51C35m7MXJ
+        status: active
+        display_name: 王塤
+        merged_into_person_id: null
 ---
 
 # 王境
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_uKtEKuzL33Ns79oVfb6c8x | 王榮 | accepted |
+| other | p_Mq4DjrJD3kuD51C35m7MXJ | 王塤 | accepted |
 
 ## 外部来源
 

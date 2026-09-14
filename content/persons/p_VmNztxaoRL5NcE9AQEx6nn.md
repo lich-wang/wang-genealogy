@@ -4,7 +4,7 @@ id: p_VmNztxaoRL5NcE9AQEx6nn
 status: active
 merged_into: null
 display_name: 王學詩
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_x84_sPMwPmdxLZYdR13QVN
+        subject_person_id: p_CTanKyckA8Emf57Dk1Jm7o
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_VmNztxaoRL5NcE9AQEx6nn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kGL2lA55yiaR9TD-e1y6lu
+          claim_id: c_x84_sPMwPmdxLZYdR13QVN
+          source_id: s_1t0BHaXzrb_ihFLgw9K1Ua
+          stance: supports
+          locator: CBDB：兄弟 王學謨（204228）之父／母 王世卿
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王學詩 与 王學謨 为同胞（CBDB 记「弟」），王學謨 之父／母即 王學詩 之父／母。
+          source:
+            id: s_1t0BHaXzrb_ihFLgw9K1Ua
+            source_type: api_record
+            title: 中国历代人物传记资料库：王學詩（CBDB 316259）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316259&o=json
+            external_identifier: CBDB:316259
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CTanKyckA8Emf57Dk1Jm7o
+        status: active
+        display_name: 王世卿
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_sk3FiWElT3045CLJg8qKIy
+        subject_person_id: p_VmNztxaoRL5NcE9AQEx6nn
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nxMTBwovWR92XT8tAZTvLW
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_fhGlYcDfWgrD0qu1YBJDr8
+          claim_id: c_sk3FiWElT3045CLJg8qKIy
+          source_id: s_1t0BHaXzrb_ihFLgw9K1Ua
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 204228 王學謨）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_1t0BHaXzrb_ihFLgw9K1Ua
+            source_type: api_record
+            title: 中国历代人物传记资料库：王學詩（CBDB 316259）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=316259&o=json
+            external_identifier: CBDB:316259
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nxMTBwovWR92XT8tAZTvLW
+        status: active
+        display_name: 王學謨
+        merged_into_person_id: null
 ---
 
 # 王學詩
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_CTanKyckA8Emf57Dk1Jm7o | 王世卿 | accepted |
+| other | p_nxMTBwovWR92XT8tAZTvLW | 王學謨 | accepted |
 
 ## 外部来源
 

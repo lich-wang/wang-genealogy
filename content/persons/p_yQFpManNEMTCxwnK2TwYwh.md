@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王曾翼
 cbdb_id: 61619
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -167,7 +167,44 @@ relationships:
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_qWQB0O0plVVLbAyyemAJGx
+        subject_person_id: p_dt5sBSLbwCXYzkqfPcjddU
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_yQFpManNEMTCxwnK2TwYwh
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ErfmNSMC6EimKlvpFdN3H6
+          claim_id: c_qWQB0O0plVVLbAyyemAJGx
+          source_id: s_2RyevDqvfdTMy0ltnjUbYD
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 61619 王曾翼）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_2RyevDqvfdTMy0ltnjUbYD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王曾魯（CBDB 520244）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=520244&o=json
+            external_identifier: CBDB:520244
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_dt5sBSLbwCXYzkqfPcjddU
+        status: active
+        display_name: 王曾魯
+        merged_into_person_id: null
 ---
 
 # 王曾翼
@@ -187,7 +224,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| other | p_dt5sBSLbwCXYzkqfPcjddU | 王曾魯 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王曾魯（CBDB 520244）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=520244&o=json)
 - [中国历代人物传记资料库：王曾翼（CBDB 61619）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=61619&o=json)

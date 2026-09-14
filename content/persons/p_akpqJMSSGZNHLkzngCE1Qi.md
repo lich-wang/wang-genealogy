@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王子成
 cbdb_id: 200985
-revision: 4
+revision: 7
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,118 @@ relationships:
         display_name: 王禎
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_6wpbjAZyQhEyQpY8NW8eGW
+        subject_person_id: p_GBf4b1HmrRRj3Ux38Gx5Hv
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_akpqJMSSGZNHLkzngCE1Qi
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ngGTvjhTYgtaNSQDOOZq2D
+          claim_id: c_6wpbjAZyQhEyQpY8NW8eGW
+          source_id: s_HFYjsT_SVCvVS4ySQKZTEY
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200985 王子成）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_HFYjsT_SVCvVS4ySQKZTEY
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子卿（CBDB 265622）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265622&o=json
+            external_identifier: CBDB:265622
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GBf4b1HmrRRj3Ux38Gx5Hv
+        status: active
+        display_name: 王子卿
+        merged_into_person_id: null
+    - claim:
+        id: c_OjGKYkzJhnJHCxCDKql5DY
+        subject_person_id: p_akpqJMSSGZNHLkzngCE1Qi
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ggQxCcadxtcfySmVwm5bRK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_GTPwLUmYDZM6uypCpNl72_
+          claim_id: c_OjGKYkzJhnJHCxCDKql5DY
+          source_id: s_vNmAFz76L6htHNUQ7Bsmzy
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200985 王子成）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_vNmAFz76L6htHNUQ7Bsmzy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子俊（CBDB 265620）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265620&o=json
+            external_identifier: CBDB:265620
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ggQxCcadxtcfySmVwm5bRK
+        status: active
+        display_name: 王子俊
+        merged_into_person_id: null
+    - claim:
+        id: c_0-AABRs26W_WZiBFteqRkD
+        subject_person_id: p_akpqJMSSGZNHLkzngCE1Qi
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ifLLBKzA4dDTF7QaxtVFF9
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_0s3H93myUKORZD7Y-6XPlN
+          claim_id: c_0-AABRs26W_WZiBFteqRkD
+          source_id: s_eO7-5HXyQHGaOvOcJtzefi
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200985 王子成）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_eO7-5HXyQHGaOvOcJtzefi
+            source_type: api_record
+            title: 中国历代人物传记资料库：王子英（CBDB 265621）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265621&o=json
+            external_identifier: CBDB:265621
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ifLLBKzA4dDTF7QaxtVFF9
+        status: active
+        display_name: 王子英
+        merged_into_person_id: null
 ---
 
 # 王子成
@@ -257,6 +368,9 @@ relationships:
 | parents | p_NoQErvZxoB9KT1iHrT84WN | 王紹 | accepted |
 | ancestors | p_CHr9NQtS9eMRbFoCaUAQ6g | 王本 | accepted |
 | ancestors | p_FYFV29vLWqWc2g2kXP26Mo | 王禎 | accepted |
+| other | p_GBf4b1HmrRRj3Ux38Gx5Hv | 王子卿 | accepted |
+| other | p_ggQxCcadxtcfySmVwm5bRK | 王子俊 | accepted |
+| other | p_ifLLBKzA4dDTF7QaxtVFF9 | 王子英 | accepted |
 
 ## 外部来源
 
@@ -264,3 +378,6 @@ relationships:
 - [中国历代人物传记资料库：王紹（CBDB 265617）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265617&o=json)
 - [中国历代人物传记资料库：王禎（CBDB 265616）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265616&o=json)
 - [中国历代人物传记资料库：王子成（CBDB 200985）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200985&o=json)
+- [中国历代人物传记资料库：王子俊（CBDB 265620）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265620&o=json)
+- [中国历代人物传记资料库：王子卿（CBDB 265622）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265622&o=json)
+- [中国历代人物传记资料库：王子英（CBDB 265621）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=265621&o=json)

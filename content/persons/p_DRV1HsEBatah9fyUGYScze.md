@@ -4,7 +4,7 @@ id: p_DRV1HsEBatah9fyUGYScze
 status: active
 merged_into: null
 display_name: 王忱
-revision: 3
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -166,7 +166,81 @@ relationships:
         status: active
         display_name: 王玉
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_l2yVWvJ66AuI_ISGkFs3KH
+        subject_person_id: p_DRV1HsEBatah9fyUGYScze
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_DVLX7NQB5e4hJDiqSEpkxW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_SbkzfpYxO37uyu--84mraZ
+          claim_id: c_l2yVWvJ66AuI_ISGkFs3KH
+          source_id: s_R9r1tzn33l2rifDJhJIFmd
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 29140）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_R9r1tzn33l2rifDJhJIFmd
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鈞（CBDB 29197）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29197&o=json
+            external_identifier: CBDB:29197
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_DVLX7NQB5e4hJDiqSEpkxW
+        status: active
+        display_name: 王鈞
+        merged_into_person_id: null
+    - claim:
+        id: c_xAGMIkV42S3H2LxbQa0oaJ
+        subject_person_id: p_DRV1HsEBatah9fyUGYScze
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QEExoTUPC65FDzcepDMC86
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_f3g1IrNbmSGoWb8yhFb_iy
+          claim_id: c_xAGMIkV42S3H2LxbQa0oaJ
+          source_id: s_OiTHMrTXsYanZpuhDspKdj
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 29140）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_OiTHMrTXsYanZpuhDspKdj
+            source_type: api_record
+            title: 中国历代人物传记资料库：王銳（CBDB 29196）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29196&o=json
+            external_identifier: CBDB:29196
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_QEExoTUPC65FDzcepDMC86
+        status: active
+        display_name: 王銳
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -304,6 +378,8 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_cMTzMQQGq3a4M9xj7tvZK9 | 王玉 | accepted |
+| children | p_DVLX7NQB5e4hJDiqSEpkxW | 王鈞 | accepted |
+| children | p_QEExoTUPC65FDzcepDMC86 | 王銳 | accepted |
 | descendants | p_2E8J3qVo6HHNKQhDuGwNXL | 王浩 | accepted |
 | descendants | p_KZerDBNYLJDtatxLrhyvTw | 王淵 | accepted |
 | descendants | p_yRNSB28LfM7D9B4j5sK61C | 王洙 | accepted |
@@ -312,6 +388,8 @@ relationships:
 
 - [中国历代人物传记资料库：王忱（CBDB 29140）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29140&o=json)
 - [中国历代人物传记资料库：王浩（CBDB 29199）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29199&o=json)
+- [中国历代人物传记资料库：王鈞（CBDB 29197）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29197&o=json)
+- [中国历代人物传记资料库：王銳（CBDB 29196）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29196&o=json)
 - [中国历代人物传记资料库：王玉（CBDB 29192）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29192&o=json)
 - [中国历代人物传记资料库：王淵（CBDB 29200）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29200&o=json)
 - [中国历代人物传记资料库：王洙（CBDB 29198）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=29198&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王昹
 cbdb_id: 201301
-revision: 4
+revision: 5
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,44 @@ relationships:
         display_name: 王介
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_Sskk2wHmEvEkmnV-mmvGhO
+        subject_person_id: p_izy1XkGQRABqBnA1F9R3jt
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nET6Uxa9d2CFz6C2veevHN
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nhIc0RJ2D-jLCQdi4cOFIa
+          claim_id: c_Sskk2wHmEvEkmnV-mmvGhO
+          source_id: s_3R4TLkuf7EEbrUNth4X94N
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 201301 王昹）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_3R4TLkuf7EEbrUNth4X94N
+            source_type: api_record
+            title: 中国历代人物传记资料库：王昇（CBDB 270225）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270225&o=json
+            external_identifier: CBDB:270225
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nET6Uxa9d2CFz6C2veevHN
+        status: active
+        display_name: 王昇
+        merged_into_person_id: null
 ---
 
 # 王昹
@@ -257,6 +294,7 @@ relationships:
 | parents | p_82EciDCbTEknL5Nksc81QY | 王輔 | accepted |
 | ancestors | p_2JXMA8KNqGrn8Pm23ZgcHU | 王敬 | accepted |
 | ancestors | p_4ANsAPWkNQqKs6kEeGngD9 | 王介 | accepted |
+| other | p_nET6Uxa9d2CFz6C2veevHN | 王昇 | accepted |
 
 ## 外部来源
 
@@ -264,3 +302,4 @@ relationships:
 - [中国历代人物传记资料库：王輔（CBDB 270222）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270222&o=json)
 - [中国历代人物传记资料库：王介（CBDB 270220）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270220&o=json)
 - [中国历代人物传记资料库：王敬（CBDB 270221）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270221&o=json)
+- [中国历代人物传记资料库：王昇（CBDB 270225）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=270225&o=json)

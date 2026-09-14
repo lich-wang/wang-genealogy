@@ -4,7 +4,7 @@ id: p_47D2mfnLEm7cqCHqRLt6Cz
 status: active
 merged_into: null
 display_name: 王利賓
-revision: 1
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_lCGnMk-gWPZ18wHRj8lTwt
+        subject_person_id: p_MvLt5zTAu6ziWoPGq84GN6
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_47D2mfnLEm7cqCHqRLt6Cz
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OfShlr6p8ThY79_Hr5UfZW
+          claim_id: c_lCGnMk-gWPZ18wHRj8lTwt
+          source_id: s_BZMOMuzikla4vwBZPzRBeh
+          stance: supports
+          locator: CBDB：兄弟 王觀（202360）之父／母 王會
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王利賓 与 王觀 为同胞（CBDB 记「兄」），王觀 之父／母即 王利賓 之父／母。
+          source:
+            id: s_BZMOMuzikla4vwBZPzRBeh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王利賓（CBDB 286980）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=286980&o=json
+            external_identifier: CBDB:286980
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MvLt5zTAu6ziWoPGq84GN6
+        status: active
+        display_name: 王會
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_vaBKVIk8F_HX_qNiOHj3rO
+        subject_person_id: p_47D2mfnLEm7cqCHqRLt6Cz
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_hnJsBrtLd1JZGUx5u8hGVs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_CL_bOMyJ-kIKqEI6b7ltD5
+          claim_id: c_vaBKVIk8F_HX_qNiOHj3rO
+          source_id: s_BZMOMuzikla4vwBZPzRBeh
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202360 王觀）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_BZMOMuzikla4vwBZPzRBeh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王利賓（CBDB 286980）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=286980&o=json
+            external_identifier: CBDB:286980
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hnJsBrtLd1JZGUx5u8hGVs
+        status: active
+        display_name: 王觀
+        merged_into_person_id: null
 ---
 
 # 王利賓
@@ -97,6 +171,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_MvLt5zTAu6ziWoPGq84GN6 | 王會 | accepted |
+| other | p_hnJsBrtLd1JZGUx5u8hGVs | 王觀 | accepted |
 
 ## 外部来源
 

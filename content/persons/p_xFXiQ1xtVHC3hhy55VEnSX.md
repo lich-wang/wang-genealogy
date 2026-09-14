@@ -4,7 +4,7 @@ id: p_xFXiQ1xtVHC3hhy55VEnSX
 status: active
 merged_into: null
 display_name: 王順行
-revision: 5
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -258,7 +258,44 @@ relationships:
         display_name: 王廷受
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_wzYgSI5zpc9TFsaiU1HQkI
+        subject_person_id: p_iskDeJeft2jBXoGuuwVC1n
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_xFXiQ1xtVHC3hhy55VEnSX
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_2A4R10xuQ8zE5_Bl5CkDxf
+          claim_id: c_wzYgSI5zpc9TFsaiU1HQkI
+          source_id: s_ehgI0kOEVgdkmX4onqAJoN
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 207643 王順行）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_ehgI0kOEVgdkmX4onqAJoN
+            source_type: api_record
+            title: 中国历代人物传记资料库：王道行（CBDB 233003）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233003&o=json
+            external_identifier: CBDB:233003
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_iskDeJeft2jBXoGuuwVC1n
+        status: active
+        display_name: 王道行
+        merged_into_person_id: null
 ---
 
 # 王順行
@@ -281,10 +318,12 @@ relationships:
 | children | p_oyLKuHgsT2V1zuw1kpseFR | 王嗣三 | accepted |
 | ancestors | p_1SfAWJWx7ysr4yEGFMS1oX | 王寶 | accepted |
 | ancestors | p_tuMqwxnmKhji6ss4Qng42D | 王廷受 | accepted |
+| other | p_iskDeJeft2jBXoGuuwVC1n | 王道行 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王寶（CBDB 232996）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232996&o=json)
+- [中国历代人物传记资料库：王道行（CBDB 233003）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233003&o=json)
 - [中国历代人物传记资料库：王順行（CBDB 207643）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=207643&o=json)
 - [中国历代人物传记资料库：王嗣三（CBDB 233004）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=233004&o=json)
 - [中国历代人物传记资料库：王廷受（CBDB 232995）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=232995&o=json)

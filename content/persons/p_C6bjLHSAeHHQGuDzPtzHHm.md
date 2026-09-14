@@ -4,7 +4,7 @@ id: p_C6bjLHSAeHHQGuDzPtzHHm
 status: active
 merged_into: null
 display_name: 王聰
-revision: 4
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,44 @@ relationships:
         display_name: 王雲
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_rM4VP76iZa2kOfHPjZ79Nm
+        subject_person_id: p_C6bjLHSAeHHQGuDzPtzHHm
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_kVmiyFfGGmYR5XQCJN1gT3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_L9H0ATyFYUu9f1F9c_rN8t
+          claim_id: c_rM4VP76iZa2kOfHPjZ79Nm
+          source_id: s_BxsX0NguIJhgCGlpP2jjRW
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 198814 王聰）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_BxsX0NguIJhgCGlpP2jjRW
+            source_type: api_record
+            title: 中国历代人物传记资料库：王睿（CBDB 320073）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320073&o=json
+            external_identifier: CBDB:320073
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_kVmiyFfGGmYR5XQCJN1gT3
+        status: active
+        display_name: 王睿
+        merged_into_person_id: null
 ---
 
 # 王聰
@@ -240,10 +277,12 @@ relationships:
 | parents | p_5U2hJxhV3aXwYznzKRDy72 | 王俊 | accepted |
 | ancestors | p_ia6RSiRfMMZkxba2rTyXJg | 王貴 | accepted |
 | ancestors | p_RkPochgzxpvFA64tQ3kM3F | 王雲 | accepted |
+| other | p_kVmiyFfGGmYR5XQCJN1gT3 | 王睿 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王聰（CBDB 198814）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198814&o=json)
 - [中国历代人物传记资料库：王貴（CBDB 320018）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320018&o=json)
 - [中国历代人物传记资料库：王俊（CBDB 320040）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320040&o=json)
+- [中国历代人物传记资料库：王睿（CBDB 320073）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320073&o=json)
 - [中国历代人物传记资料库：王雲（CBDB 320029）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=320029&o=json)

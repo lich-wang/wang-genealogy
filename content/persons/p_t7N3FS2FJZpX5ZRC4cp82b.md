@@ -4,7 +4,7 @@ id: p_t7N3FS2FJZpX5ZRC4cp82b
 status: active
 merged_into: null
 display_name: 王鑰
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -111,6 +111,117 @@ relationships:
         status: active
         display_name: 王淵
         merged_into_person_id: null
+    - claim:
+        id: c_HvLycox2j_QMhSDx653xh1
+        subject_person_id: p_t7N3FS2FJZpX5ZRC4cp82b
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_CJwfhVhpTHWmgtuhYxLMbJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SuTtA03ttJSzQ5LVXb1ghn
+          claim_id: c_HvLycox2j_QMhSDx653xh1
+          source_id: s_NaiRiQmbS2TCLKCzGaI_3T
+          stance: supports
+          locator: CBDB：兄弟 王淵（67719）之父／母 王鑰
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王潤 与 王淵 为同胞（CBDB 记「兄」），王淵 之父／母即 王潤 之父／母。
+          source:
+            id: s_NaiRiQmbS2TCLKCzGaI_3T
+            source_type: api_record
+            title: 中国历代人物传记资料库：王潤（CBDB 297880）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297880&o=json
+            external_identifier: CBDB:297880
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CJwfhVhpTHWmgtuhYxLMbJ
+        status: active
+        display_name: 王潤
+        merged_into_person_id: null
+    - claim:
+        id: c_0_g7WDQCvLhkComFoCj18N
+        subject_person_id: p_t7N3FS2FJZpX5ZRC4cp82b
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QB4oKqN9AHkSDnq7VCMgcx
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_F5ozx37k7jJO_hX3oPwFO3
+          claim_id: c_0_g7WDQCvLhkComFoCj18N
+          source_id: s_kigRYjz4D_1vGfQEoHKJhs
+          stance: supports
+          locator: CBDB：兄弟 王淵（67719）之父／母 王鑰
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王濬 与 王淵 为同胞（CBDB 记「兄」），王淵 之父／母即 王濬 之父／母。
+          source:
+            id: s_kigRYjz4D_1vGfQEoHKJhs
+            source_type: api_record
+            title: 中国历代人物传记资料库：王濬（CBDB 297857）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297857&o=json
+            external_identifier: CBDB:297857
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_QB4oKqN9AHkSDnq7VCMgcx
+        status: active
+        display_name: 王濬
+        merged_into_person_id: null
+    - claim:
+        id: c_p7clO-N9PllWMieGT8sfRF
+        subject_person_id: p_t7N3FS2FJZpX5ZRC4cp82b
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_hAeNAumRMtPX3HHD4tYpHP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pCOABuekdKxLwV9bbtQuK-
+          claim_id: c_p7clO-N9PllWMieGT8sfRF
+          source_id: s__XiPUoJowXX10cEXg1QlWl
+          stance: supports
+          locator: CBDB：兄弟 王淵（67719）之父／母 王鑰
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王滋 与 王淵 为同胞（CBDB 记「兄」），王淵 之父／母即 王滋 之父／母。
+          source:
+            id: s__XiPUoJowXX10cEXg1QlWl
+            source_type: api_record
+            title: 中国历代人物传记资料库：王滋（CBDB 297868）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297868&o=json
+            external_identifier: CBDB:297868
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hAeNAumRMtPX3HHD4tYpHP
+        status: active
+        display_name: 王滋
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -135,8 +246,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_JCqwAkFqCg6AEXKEULaDMW | 王淵 | accepted |
+| children | p_CJwfhVhpTHWmgtuhYxLMbJ | 王潤 | accepted |
+| children | p_QB4oKqN9AHkSDnq7VCMgcx | 王濬 | accepted |
+| children | p_hAeNAumRMtPX3HHD4tYpHP | 王滋 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王濬（CBDB 297857）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297857&o=json)
+- [中国历代人物传记资料库：王潤（CBDB 297880）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297880&o=json)
 - [中国历代人物传记资料库：王鑰（CBDB 297824）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297824&o=json)
 - [中国历代人物传记资料库：王淵（CBDB 67719）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=67719&o=json)
+- [中国历代人物传记资料库：王滋（CBDB 297868）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=297868&o=json)

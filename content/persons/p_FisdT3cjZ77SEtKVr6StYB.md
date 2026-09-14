@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王RR
 cbdb_id: 35059
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -251,6 +251,43 @@ relationships:
         status: active
         display_name: 王士喜
         merged_into_person_id: null
+    - claim:
+        id: c_YHxLSIZ6IpVFgoRu7N3LTZ
+        subject_person_id: p_FisdT3cjZ77SEtKVr6StYB
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZUmNFhhSJpUDa9NJ5u3omi
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_dI_UABXxxwRf4R8xbC0EvP
+          claim_id: c_YHxLSIZ6IpVFgoRu7N3LTZ
+          source_id: s_I4mX_0L0Gm__UbAd-pFGes
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 35059）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_I4mX_0L0Gm__UbAd-pFGes
+            source_type: api_record
+            title: 中国历代人物传记资料库：王士禎（CBDB 35063）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35063&o=json
+            external_identifier: CBDB:35063
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ZUmNFhhSJpUDa9NJ5u3omi
+        status: active
+        display_name: 王士禎
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -277,10 +314,12 @@ relationships:
 | children | p_Pbmps3AjkLgf51zccDC7JU | 王士禛 | accepted |
 | children | p_9d5KLm4AkzUSZ83mAsdHYT | 王士禄 | accepted |
 | children | p_TACtcGqgnGy8yNMBE86m5e | 王士喜 | accepted |
+| children | p_ZUmNFhhSJpUDa9NJ5u3omi | 王士禎 | accepted |
 
 ## 外部来源
 
 - [维基数据：王士禄（Q15938298）](https://www.wikidata.org/wiki/Q15938298)
 - [维基数据：王士禛（Q11572955）](https://www.wikidata.org/wiki/Q11572955)
 - [维基数据：王RR（Q45425409）](https://www.wikidata.org/wiki/Q45425409)
+- [中国历代人物传记资料库：王士禎（CBDB 35063）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35063&o=json)
 - [CBDB 中国历代人物传记资料库：王RR（35059）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35059&o=json)

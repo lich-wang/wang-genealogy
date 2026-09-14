@@ -4,7 +4,7 @@ id: p_rT3bK3RVCNfBJPQAtdAstK
 status: active
 merged_into: null
 display_name: 王鳴鳳
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,81 @@ relationships:
         display_name: 王鎮
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_6aH-V_NvJhG1BcFN24fKY_
+        subject_person_id: p_K9BMyGYocQ1aPRiM6V3xy6
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_rT3bK3RVCNfBJPQAtdAstK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_SYLKAZrlqMvmfMpPgWLHQS
+          claim_id: c_6aH-V_NvJhG1BcFN24fKY_
+          source_id: s_H122GEH-zTgw3e-3xkBZX1
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202244 王鳴鳳）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_H122GEH-zTgw3e-3xkBZX1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鳴鵬（CBDB 285501）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285501&o=json
+            external_identifier: CBDB:285501
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_K9BMyGYocQ1aPRiM6V3xy6
+        status: active
+        display_name: 王鳴鵬
+        merged_into_person_id: null
+    - claim:
+        id: c_gHH0Fw3RINrCb1g7Y_QsXx
+        subject_person_id: p_Zcz83DeLhhPhuUY8WLCB8G
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_rT3bK3RVCNfBJPQAtdAstK
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_T3mkI9o1xNbXKMD8wqwFTW
+          claim_id: c_gHH0Fw3RINrCb1g7Y_QsXx
+          source_id: s_8FIVTJ8KF0lNSy8Mb9rcMe
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202244 王鳴鳳）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_8FIVTJ8KF0lNSy8Mb9rcMe
+            source_type: api_record
+            title: 中国历代人物传记资料库：王鳴鹿（CBDB 285500）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285500&o=json
+            external_identifier: CBDB:285500
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Zcz83DeLhhPhuUY8WLCB8G
+        status: active
+        display_name: 王鳴鹿
+        merged_into_person_id: null
 ---
 
 # 王鳴鳳
@@ -241,10 +315,14 @@ relationships:
 | parents | p_LKUBnXvN3RatPV3fcj6pke | 王珎 | accepted |
 | ancestors | p_dgdij9AEju2hv2VB29LPgp | 王文 | accepted |
 | ancestors | p_wt9HqwjxBb7Gi8N39gvfH3 | 王鎮 | accepted |
+| other | p_K9BMyGYocQ1aPRiM6V3xy6 | 王鳴鵬 | accepted |
+| other | p_Zcz83DeLhhPhuUY8WLCB8G | 王鳴鹿 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王鳴鳳（CBDB 202244）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=202244&o=json)
+- [中国历代人物传记资料库：王鳴鹿（CBDB 285500）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285500&o=json)
+- [中国历代人物传记资料库：王鳴鵬（CBDB 285501）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285501&o=json)
 - [中国历代人物传记资料库：王文（CBDB 285492）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285492&o=json)
 - [中国历代人物传记资料库：王珎（CBDB 285493）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285493&o=json)
 - [中国历代人物传记资料库：王鎮（CBDB 285491）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=285491&o=json)

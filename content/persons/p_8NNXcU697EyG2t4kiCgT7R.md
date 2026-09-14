@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王獻葵
 cbdb_id: 293685
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_Yeul0ZocIgT4aI7tJflRJH
+        subject_person_id: p_ydgJ4dzTCX4s92aDhwsv4k
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_8NNXcU697EyG2t4kiCgT7R
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PdqAeigW8IuAXD0qlcQ2Ur
+          claim_id: c_Yeul0ZocIgT4aI7tJflRJH
+          source_id: s_4TDEWStf6CDscLg7Eog-AM
+          stance: supports
+          locator: CBDB：兄弟 王獻芝（202753）之父／母 王寵
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王獻葵 与 王獻芝 为同胞（CBDB 记「兄」），王獻芝 之父／母即 王獻葵 之父／母。
+          source:
+            id: s_4TDEWStf6CDscLg7Eog-AM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王獻葵（CBDB 293685）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293685&o=json
+            external_identifier: CBDB:293685
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ydgJ4dzTCX4s92aDhwsv4k
+        status: active
+        display_name: 王寵
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_bdAwaqvSSyedu6lRqoRmy8
+        subject_person_id: p_8NNXcU697EyG2t4kiCgT7R
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_TBBj4gCo8ENonMptcoHt4r
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_xdAe8qRXNONeQ0SSO4An2H
+          claim_id: c_bdAwaqvSSyedu6lRqoRmy8
+          source_id: s_4TDEWStf6CDscLg7Eog-AM
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 202753 王獻芝）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_4TDEWStf6CDscLg7Eog-AM
+            source_type: api_record
+            title: 中国历代人物传记资料库：王獻葵（CBDB 293685）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=293685&o=json
+            external_identifier: CBDB:293685
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_TBBj4gCo8ENonMptcoHt4r
+        status: active
+        display_name: 王獻芝
+        merged_into_person_id: null
 ---
 
 # 王獻葵
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_ydgJ4dzTCX4s92aDhwsv4k | 王寵 | accepted |
+| other | p_TBBj4gCo8ENonMptcoHt4r | 王獻芝 | accepted |
 
 ## 外部来源
 

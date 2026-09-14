@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王尧臣
 cbdb_id: 1919
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -275,6 +275,43 @@ relationships:
         status: active
         display_name: 王周老
         merged_into_person_id: null
+    - claim:
+        id: c_w0Ha5MFYwQaRNXUeSZqbTM
+        subject_person_id: p_83ygFMkQK9fNnM8zpQKj1X
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_W6Hjo9V8iXeC5StF464g3t
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_5cwJP1DrfByaeR3ULiJUHK
+          claim_id: c_w0Ha5MFYwQaRNXUeSZqbTM
+          source_id: s_rTDpqrrOnrHTDxxo06_WE2
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1919）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_rTDpqrrOnrHTDxxo06_WE2
+            source_type: api_record
+            title: 中国历代人物传记资料库：王朋老（CBDB 563238）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=563238&o=json
+            external_identifier: CBDB:563238
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_W6Hjo9V8iXeC5StF464g3t
+        status: active
+        display_name: 王朋老
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -303,10 +340,12 @@ relationships:
 | parents | p_MTk1zakKvoc4HW2SfG5Ese | 王渎 | accepted |
 | children | p_Q1NC6T2Fk3j6ZWdG8EQ11A | 王同老 | accepted |
 | children | p_CLNAFtr1hKmVynULi3KU3F | 王周老 | accepted |
+| children | p_W6Hjo9V8iXeC5StF464g3t | 王朋老 | accepted |
 
 ## 外部来源
 
 - [维基数据：王渎（Q45363040）](https://www.wikidata.org/wiki/Q45363040)
 - [维基数据：王尧臣（Q16903964）](https://www.wikidata.org/wiki/Q16903964)
+- [中国历代人物传记资料库：王朋老（CBDB 563238）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=563238&o=json)
 - [CBDB 中国历代人物传记资料库：王瀆（3986）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=3986&o=json)
 - [CBDB 中国历代人物传记资料库：王堯臣（1919）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1919&o=json)

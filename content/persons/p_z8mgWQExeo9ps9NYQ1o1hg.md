@@ -4,7 +4,7 @@ id: p_z8mgWQExeo9ps9NYQ1o1hg
 status: active
 merged_into: null
 display_name: 王凱
-revision: 4
+revision: 8
 properties:
   - predicate: name.primary
     recommended:
@@ -218,7 +218,155 @@ relationships:
         display_name: 王忠
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_BfF5ZiDhlobBzqr0orV8u1
+        subject_person_id: p_JmRrnSkxhs34xmMBgfdfLA
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_z8mgWQExeo9ps9NYQ1o1hg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZSUJr6WKw3c-qs4RSBFfJd
+          claim_id: c_BfF5ZiDhlobBzqr0orV8u1
+          source_id: s_WD0DJgvgL_PV-Orij0Q8cx
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200743 王凱）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_WD0DJgvgL_PV-Orij0Q8cx
+            source_type: api_record
+            title: 中国历代人物传记资料库：王定（CBDB 262295）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262295&o=json
+            external_identifier: CBDB:262295
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_JmRrnSkxhs34xmMBgfdfLA
+        status: active
+        display_name: 王定
+        merged_into_person_id: null
+    - claim:
+        id: c_NHBNixwjK1ei91-ObsNBhW
+        subject_person_id: p_d8y1utwtaYcMK43ACmYG79
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_z8mgWQExeo9ps9NYQ1o1hg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_bOnU1N88BrJ5apRj8wDvPJ
+          claim_id: c_NHBNixwjK1ei91-ObsNBhW
+          source_id: s_oVpWLkJago8TdGx3yu9zCJ
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200743 王凱）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_oVpWLkJago8TdGx3yu9zCJ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王寧（CBDB 262296）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262296&o=json
+            external_identifier: CBDB:262296
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_d8y1utwtaYcMK43ACmYG79
+        status: active
+        display_name: 王寧
+        merged_into_person_id: null
+    - claim:
+        id: c_mfRgs1Iy9toWTYqkIGuHw9
+        subject_person_id: p_g2Gb3yfFytNs2NFtyXe7FU
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_z8mgWQExeo9ps9NYQ1o1hg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_C9qHKxXzSl0ihOm51578F0
+          claim_id: c_mfRgs1Iy9toWTYqkIGuHw9
+          source_id: s_SRc6_w7iiRRpXOxhDFnWd4
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 200743 王凱）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_SRc6_w7iiRRpXOxhDFnWd4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王元（CBDB 262293）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262293&o=json
+            external_identifier: CBDB:262293
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_g2Gb3yfFytNs2NFtyXe7FU
+        status: active
+        display_name: 王元
+        merged_into_person_id: null
+    - claim:
+        id: c_ou5o3Qc6j2qqIurovFr0ZB
+        subject_person_id: p_ynLTzdQ5oVdbGv7oX59k2z
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_z8mgWQExeo9ps9NYQ1o1hg
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nozW0gnz0LFT0ohUgDA5jz
+          claim_id: c_ou5o3Qc6j2qqIurovFr0ZB
+          source_id: s_oGMU_sp14-VqBn18hR5ThE
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 200743 王凱）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_oGMU_sp14-VqBn18hR5ThE
+            source_type: api_record
+            title: 中国历代人物传记资料库：王傑（CBDB 262294）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262294&o=json
+            external_identifier: CBDB:262294
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_ynLTzdQ5oVdbGv7oX59k2z
+        status: active
+        display_name: 王傑
+        merged_into_person_id: null
 ---
 
 # 王凱
@@ -240,10 +388,18 @@ relationships:
 | parents | p_2XQ9edNzTjVFAjV2kU7q1C | 王舉 | accepted |
 | ancestors | p_SdVnGLjTg6VFNyLJJmbBDp | 王弘 | accepted |
 | ancestors | p_tSAfAuPkdu48fzV9msaJC7 | 王忠 | accepted |
+| other | p_JmRrnSkxhs34xmMBgfdfLA | 王定 | accepted |
+| other | p_d8y1utwtaYcMK43ACmYG79 | 王寧 | accepted |
+| other | p_g2Gb3yfFytNs2NFtyXe7FU | 王元 | accepted |
+| other | p_ynLTzdQ5oVdbGv7oX59k2z | 王傑 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王定（CBDB 262295）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262295&o=json)
 - [中国历代人物传记资料库：王弘（CBDB 262287）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262287&o=json)
+- [中国历代人物传记资料库：王傑（CBDB 262294）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262294&o=json)
 - [中国历代人物传记资料库：王舉（CBDB 262289）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262289&o=json)
 - [中国历代人物传记资料库：王凱（CBDB 200743）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=200743&o=json)
+- [中国历代人物传记资料库：王寧（CBDB 262296）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262296&o=json)
+- [中国历代人物传记资料库：王元（CBDB 262293）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262293&o=json)
 - [中国历代人物传记资料库：王忠（CBDB 262288）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=262288&o=json)

@@ -4,7 +4,7 @@ id: p_rZc2qEJdizKjfm6aY4AiLt
 status: active
 merged_into: null
 display_name: 王說
-revision: 2
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -155,7 +155,81 @@ relationships:
         status: active
         display_name: 王舉正
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_-diCzLDCBSs2xmg9X8CeRN
+        subject_person_id: p_rZc2qEJdizKjfm6aY4AiLt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_HXYvwN6RtEBxcDi3jLfvHs
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_tECfvzeYtHquOCzUwJjtrq
+          claim_id: c_-diCzLDCBSs2xmg9X8CeRN
+          source_id: s_r_gf945GKtVmAenxP31_ba
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1933）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_r_gf945GKtVmAenxP31_ba
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瑜（CBDB 1931）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1931&o=json
+            external_identifier: CBDB:1931
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_HXYvwN6RtEBxcDi3jLfvHs
+        status: active
+        display_name: 王瑜
+        merged_into_person_id: null
+    - claim:
+        id: c_JJJYNlRjQmyfy_MO8pdxK0
+        subject_person_id: p_rZc2qEJdizKjfm6aY4AiLt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_oFp7aJM8wd32Lbsw96yXiv
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_uF98QA93OAJCi5IV28qKYd
+          claim_id: c_JJJYNlRjQmyfy_MO8pdxK0
+          source_id: s_EP58OSgtGR9Lhksi1Hu-V4
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1933）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_EP58OSgtGR9Lhksi1Hu-V4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王琮（CBDB 1898）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1898&o=json
+            external_identifier: CBDB:1898
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_oFp7aJM8wd32Lbsw96yXiv
+        status: active
+        display_name: 王琮
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -182,7 +256,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_6qFqzHC21Z9f8VhXAcZ1P4 | 王舉正 | accepted |
+| children | p_HXYvwN6RtEBxcDi3jLfvHs | 王瑜 | accepted |
+| children | p_oFp7aJM8wd32Lbsw96yXiv | 王琮 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王琮（CBDB 1898）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1898&o=json)
 - [中国历代人物传记资料库：王說（CBDB 1933）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1933&o=json)
+- [中国历代人物传记资料库：王瑜（CBDB 1931）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1931&o=json)

@@ -4,7 +4,7 @@ id: p_vLHvb3BCMGxfLW94457af3
 status: active
 merged_into: null
 display_name: 王亮
-revision: 4
+revision: 6
 properties:
   - predicate: name.primary
     recommended:
@@ -191,7 +191,81 @@ relationships:
         display_name: 王愿
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_47yfskeN0WGsRIU_NFqAjj
+        subject_person_id: p_KDmBFFFuGqtnBG4dwexXgk
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vLHvb3BCMGxfLW94457af3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cU5NSOoHSObwj_skGTcR11
+          claim_id: c_47yfskeN0WGsRIU_NFqAjj
+          source_id: s_3cJavOYQz1GzSh2TH9KV0Z
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126595 王亮）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_3cJavOYQz1GzSh2TH9KV0Z
+            source_type: api_record
+            title: 中国历代人物传记资料库：王豪（CBDB 217344）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217344&o=json
+            external_identifier: CBDB:217344
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KDmBFFFuGqtnBG4dwexXgk
+        status: active
+        display_name: 王豪
+        merged_into_person_id: null
+    - claim:
+        id: c_ntoyepzVSJLkUGaNIo4z_Q
+        subject_person_id: p_bm7hNnPs1LVwrSLCRsirZU
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_vLHvb3BCMGxfLW94457af3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_pnC8mDn76JGEr3rhpx8ut0
+          claim_id: c_ntoyepzVSJLkUGaNIo4z_Q
+          source_id: s_BsDxhFH4xMWgpeHHSNbQ-U
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 126595 王亮）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_BsDxhFH4xMWgpeHHSNbQ-U
+            source_type: api_record
+            title: 中国历代人物传记资料库：王高（CBDB 217343）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217343&o=json
+            external_identifier: CBDB:217343
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_bm7hNnPs1LVwrSLCRsirZU
+        status: active
+        display_name: 王高
+        merged_into_person_id: null
 ---
 
 # 王亮
@@ -212,10 +286,14 @@ relationships:
 | parents | p_CvNcKWE8FdhDeHL9JMF93w | 王胤東 | accepted |
 | ancestors | p_dcx78QKGBJjP5G1Km2dYKA | 王度 | accepted |
 | ancestors | p_K53MT7HtJNTdN6reZeMLmt | 王愿 | accepted |
+| other | p_KDmBFFFuGqtnBG4dwexXgk | 王豪 | accepted |
+| other | p_bm7hNnPs1LVwrSLCRsirZU | 王高 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王度（CBDB 217339）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217339&o=json)
+- [中国历代人物传记资料库：王高（CBDB 217343）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217343&o=json)
+- [中国历代人物传记资料库：王豪（CBDB 217344）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217344&o=json)
 - [中国历代人物传记资料库：王亮（CBDB 126595）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=126595&o=json)
 - [中国历代人物传记资料库：王胤東（CBDB 217340）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217340&o=json)
 - [中国历代人物传记资料库：王愿（CBDB 217338）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=217338&o=json)

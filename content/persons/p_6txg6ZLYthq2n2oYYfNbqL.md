@@ -4,7 +4,7 @@ id: p_6txg6ZLYthq2n2oYYfNbqL
 status: active
 merged_into: null
 display_name: 王亨
-revision: 1
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -72,8 +72,156 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
-  children: []
+  parents:
+    - claim:
+        id: c_FBLilPBUcwvCEfSfOI6YC_
+        subject_person_id: p_trFxBpoFBzxzdZ7N4GC2uT
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_6txg6ZLYthq2n2oYYfNbqL
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_94lH30si23s7mdlGbquFEf
+          claim_id: c_FBLilPBUcwvCEfSfOI6YC_
+          source_id: s_xoN70a057EvxWIThFoHBcC
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 35382）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_xoN70a057EvxWIThFoHBcC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王亨（CBDB 35387）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35387&o=json
+            external_identifier: CBDB:35387
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_trFxBpoFBzxzdZ7N4GC2uT
+        status: active
+        display_name: 王元禮
+        merged_into_person_id: null
+  children:
+    - claim:
+        id: c_EEf-n0VhhQTjPe5OtCA0w6
+        subject_person_id: p_6txg6ZLYthq2n2oYYfNbqL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_KyFBJQ8cyn9h2XGKHF9azD
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_i_hLNHEoQN9QA9H_Mlk3SG
+          claim_id: c_EEf-n0VhhQTjPe5OtCA0w6
+          source_id: s_cS2Fxz5l3l81kqy7XD55RQ
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 35387）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_cS2Fxz5l3l81kqy7XD55RQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王頑童（CBDB 35391）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35391&o=json
+            external_identifier: CBDB:35391
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KyFBJQ8cyn9h2XGKHF9azD
+        status: active
+        display_name: 王頑童
+        merged_into_person_id: null
+    - claim:
+        id: c_J50ePFViBFeZnoIbi8gw8r
+        subject_person_id: p_6txg6ZLYthq2n2oYYfNbqL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_XJtMz83Kx9v1KmJBhcX33i
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_u_NGz8SDvdWnHV0i5If6ZX
+          claim_id: c_J50ePFViBFeZnoIbi8gw8r
+          source_id: s_0QgtHc90JfdGPpuyzEIDn3
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 35387）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_0QgtHc90JfdGPpuyzEIDn3
+            source_type: api_record
+            title: 中国历代人物传记资料库：王黑廝（CBDB 35389）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35389&o=json
+            external_identifier: CBDB:35389
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_XJtMz83Kx9v1KmJBhcX33i
+        status: active
+        display_name: 王黑廝
+        merged_into_person_id: null
+    - claim:
+        id: c_pzvihTT7WgTH8GFuym1zCi
+        subject_person_id: p_6txg6ZLYthq2n2oYYfNbqL
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_m1N3msPxNs5DuPXm4Fcy7u
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_JSBZut0QIDN0HcPuJE_f6g
+          claim_id: c_pzvihTT7WgTH8GFuym1zCi
+          source_id: s_NYL6KO9LGOiTE9hKWlgeyB
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 35387）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_NYL6KO9LGOiTE9hKWlgeyB
+            source_type: api_record
+            title: 中国历代人物传记资料库：王慶壽（CBDB 35390）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35390&o=json
+            external_identifier: CBDB:35390
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_m1N3msPxNs5DuPXm4Fcy7u
+        status: active
+        display_name: 王慶壽
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -97,7 +245,14 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_trFxBpoFBzxzdZ7N4GC2uT | 王元禮 | accepted |
+| children | p_KyFBJQ8cyn9h2XGKHF9azD | 王頑童 | accepted |
+| children | p_XJtMz83Kx9v1KmJBhcX33i | 王黑廝 | accepted |
+| children | p_m1N3msPxNs5DuPXm4Fcy7u | 王慶壽 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王黑廝（CBDB 35389）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35389&o=json)
 - [中国历代人物传记资料库：王亨（CBDB 35387）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35387&o=json)
+- [中国历代人物传记资料库：王慶壽（CBDB 35390）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35390&o=json)
+- [中国历代人物传记资料库：王頑童（CBDB 35391）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=35391&o=json)

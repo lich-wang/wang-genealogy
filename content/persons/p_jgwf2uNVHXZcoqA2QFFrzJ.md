@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王彥瑞
 cbdb_id: 237906
-revision: 2
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -114,6 +114,80 @@ relationships:
         status: active
         display_name: 王儼
         merged_into_person_id: null
+    - claim:
+        id: c_vgMJ0kc86DrBEWcoqM1HAi
+        subject_person_id: p_jgwf2uNVHXZcoqA2QFFrzJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_A4EUEFdw1QJgH3Q73hDNbn
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Rmn1aYS_Gv_WqgcyxdeFN8
+          claim_id: c_vgMJ0kc86DrBEWcoqM1HAi
+          source_id: s_3ptCQ68xoixgqJTQS0--nv
+          stance: supports
+          locator: CBDB：兄弟 王儼（126888）之父／母 王彥瑞
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王民表 与 王儼 为同胞（CBDB 记「兄」），王儼 之父／母即 王民表 之父／母。
+          source:
+            id: s_3ptCQ68xoixgqJTQS0--nv
+            source_type: api_record
+            title: 中国历代人物传记资料库：王民表（CBDB 237912）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237912&o=json
+            external_identifier: CBDB:237912
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_A4EUEFdw1QJgH3Q73hDNbn
+        status: active
+        display_name: 王民表
+        merged_into_person_id: null
+    - claim:
+        id: c_ZW82_tiwWf-sp1jCcoCEIx
+        subject_person_id: p_jgwf2uNVHXZcoqA2QFFrzJ
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_xDRKNL87aAnnFXNPmawwGJ
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_mytfquzgLveToBPDlYF-2u
+          claim_id: c_ZW82_tiwWf-sp1jCcoCEIx
+          source_id: s_BchYNd7o2xQmn9hYotRy1y
+          stance: supports
+          locator: CBDB：兄弟 王儼（126888）之父／母 王彥瑞
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王民彝 与 王儼 为同胞（CBDB 记「弟」），王儼 之父／母即 王民彝 之父／母。
+          source:
+            id: s_BchYNd7o2xQmn9hYotRy1y
+            source_type: api_record
+            title: 中国历代人物传记资料库：王民彝（CBDB 237911）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237911&o=json
+            external_identifier: CBDB:237911
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_xDRKNL87aAnnFXNPmawwGJ
+        status: active
+        display_name: 王民彝
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -138,7 +212,11 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_o9Skr37gpNqp5J1Xx81AEF | 王儼 | accepted |
+| children | p_A4EUEFdw1QJgH3Q73hDNbn | 王民表 | accepted |
+| children | p_xDRKNL87aAnnFXNPmawwGJ | 王民彝 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王民表（CBDB 237912）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237912&o=json)
+- [中国历代人物传记资料库：王民彝（CBDB 237911）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237911&o=json)
 - [中国历代人物传记资料库：王彥瑞（CBDB 237906）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=237906&o=json)

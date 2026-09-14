@@ -4,7 +4,7 @@ id: p_ZEJD4GeHuakT9KGYa2Fo6D
 status: active
 merged_into: null
 display_name: 王偡
-revision: 1
+revision: 4
 properties:
   - predicate: name.primary
     recommended:
@@ -72,14 +72,125 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_si0VVKol6u1Drr5HL9gR3l
+        subject_person_id: p_hhmhrJoJhGam6MtTDBQHpt
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_ZEJD4GeHuakT9KGYa2Fo6D
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_PH-JfNHHtCqOupEIhTR0ln
+          claim_id: c_si0VVKol6u1Drr5HL9gR3l
+          source_id: s_xfMQ4c2s2u_lPVb2KJ0w1j
+          stance: supports
+          locator: CBDB：兄弟 王侨（199828）之父／母 王辂
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王偡 与 王侨 为同胞（CBDB 记「兄」），王侨 之父／母即 王偡 之父／母。
+          source:
+            id: s_xfMQ4c2s2u_lPVb2KJ0w1j
+            source_type: api_record
+            title: 中国历代人物传记资料库：王偡（CBDB 250190）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250190&o=json
+            external_identifier: CBDB:250190
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hhmhrJoJhGam6MtTDBQHpt
+        status: active
+        display_name: 王辂
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_RFoUj0PcCX7yAfmdsURsw0
+        subject_person_id: p_U2Fggori7BCBLtrGmDkhHG
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ZEJD4GeHuakT9KGYa2Fo6D
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_nV0HuMp3pNanOqyR1f6UXN
+          claim_id: c_RFoUj0PcCX7yAfmdsURsw0
+          source_id: s_xfMQ4c2s2u_lPVb2KJ0w1j
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 199828 王僑）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_xfMQ4c2s2u_lPVb2KJ0w1j
+            source_type: api_record
+            title: 中国历代人物传记资料库：王偡（CBDB 250190）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250190&o=json
+            external_identifier: CBDB:250190
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_U2Fggori7BCBLtrGmDkhHG
+        status: active
+        display_name: 王侨
+        merged_into_person_id: null
+    - claim:
+        id: c_fSIHIbF2MOflDBXbkI3n-1
+        subject_person_id: p_2CY82LiLunPZpBKWzpBz3S
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_ZEJD4GeHuakT9KGYa2Fo6D
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_kOy3-S_tV22QtEltS-8hAz
+          claim_id: c_fSIHIbF2MOflDBXbkI3n-1
+          source_id: s_xfMQ4c2s2u_lPVb2KJ0w1j
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 126663 王倬）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_xfMQ4c2s2u_lPVb2KJ0w1j
+            source_type: api_record
+            title: 中国历代人物传记资料库：王偡（CBDB 250190）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=250190&o=json
+            external_identifier: CBDB:250190
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_2CY82LiLunPZpBKWzpBz3S
+        status: active
+        display_name: 王倬
+        merged_into_person_id: null
 ---
 
 # 王偡
@@ -97,6 +208,9 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_hhmhrJoJhGam6MtTDBQHpt | 王辂 | accepted |
+| other | p_U2Fggori7BCBLtrGmDkhHG | 王侨 | accepted |
+| other | p_2CY82LiLunPZpBKWzpBz3S | 王倬 | accepted |
 
 ## 外部来源
 

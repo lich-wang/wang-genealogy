@@ -4,7 +4,7 @@ id: p_JpKAwvv1MK7gdEG1QmEGyd
 status: active
 merged_into: null
 display_name: 王湘
-revision: 4
+revision: 12
 properties:
   - predicate: name.primary
     recommended:
@@ -219,7 +219,303 @@ relationships:
         display_name: 王輔
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_chKCyq5k6ybuFRyvvvUT14
+        subject_person_id: p_CAPCS9x9rcJyhUb9WT81ga
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_JpKAwvv1MK7gdEG1QmEGyd
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_Vm1ZLTIsd1dHYO8cuRC-zE
+          claim_id: c_chKCyq5k6ybuFRyvvvUT14
+          source_id: s_AAUozGJxH17gn59zeWIMwe
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205964 王湘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_AAUozGJxH17gn59zeWIMwe
+            source_type: api_record
+            title: 中国历代人物传记资料库：王濬（CBDB 211386）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211386&o=json
+            external_identifier: CBDB:211386
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CAPCS9x9rcJyhUb9WT81ga
+        status: active
+        display_name: 王濬
+        merged_into_person_id: null
+    - claim:
+        id: c_5aoqWh0NBgo55UIOdNuAVw
+        subject_person_id: p_JpKAwvv1MK7gdEG1QmEGyd
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_N5w1KpRWBNPCL7uNxohJ3j
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OSOPyL6BsEnqgfcOOsjAwf
+          claim_id: c_5aoqWh0NBgo55UIOdNuAVw
+          source_id: s_vfgFd3ZTUQN13kBS4pVTpD
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205964 王湘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_vfgFd3ZTUQN13kBS4pVTpD
+            source_type: api_record
+            title: 中国历代人物传记资料库：王湛（CBDB 211380）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211380&o=json
+            external_identifier: CBDB:211380
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_N5w1KpRWBNPCL7uNxohJ3j
+        status: active
+        display_name: 王湛
+        merged_into_person_id: null
+    - claim:
+        id: c_vZuuWOJie6iNhcp11joDq4
+        subject_person_id: p_JpKAwvv1MK7gdEG1QmEGyd
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_SJtVpkt1Gyju9SBHBy6Dp8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_U73Oktah1UI3ijjvUrsDE5
+          claim_id: c_vZuuWOJie6iNhcp11joDq4
+          source_id: s_3C9Z-eD2Odt_wDjKfqD-Wy
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205964 王湘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_3C9Z-eD2Odt_wDjKfqD-Wy
+            source_type: api_record
+            title: 中国历代人物传记资料库：王瀛（CBDB 211384）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211384&o=json
+            external_identifier: CBDB:211384
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_SJtVpkt1Gyju9SBHBy6Dp8
+        status: active
+        display_name: 王瀛
+        merged_into_person_id: null
+    - claim:
+        id: c_5IR_MH8HBCpSqiUDyUCWBv
+        subject_person_id: p_JpKAwvv1MK7gdEG1QmEGyd
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_XZG26mpDUSriVA7354o1a8
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_gvT2VnzfMuvLvwU3LcBVYL
+          claim_id: c_5IR_MH8HBCpSqiUDyUCWBv
+          source_id: s_mGXUNm6IQfs9lNGVog_6w4
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205964 王湘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_mGXUNm6IQfs9lNGVog_6w4
+            source_type: api_record
+            title: 中国历代人物传记资料库：王澤（CBDB 211382）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211382&o=json
+            external_identifier: CBDB:211382
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_XZG26mpDUSriVA7354o1a8
+        status: active
+        display_name: 王澤
+        merged_into_person_id: null
+    - claim:
+        id: c_CguMSzdLwDvvrQ8PlWQvgM
+        subject_person_id: p_JpKAwvv1MK7gdEG1QmEGyd
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_bu1HGr9T8Ly1BT9Yk2yh6N
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JHh5UxFISDcrrY7Q4lNZsJ
+          claim_id: c_CguMSzdLwDvvrQ8PlWQvgM
+          source_id: s_7LtjRWmHUwyjqT80oNg-Lo
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205964 王湘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_7LtjRWmHUwyjqT80oNg-Lo
+            source_type: api_record
+            title: 中国历代人物传记资料库：王洛（CBDB 211385）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211385&o=json
+            external_identifier: CBDB:211385
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_bu1HGr9T8Ly1BT9Yk2yh6N
+        status: active
+        display_name: 王洛
+        merged_into_person_id: null
+    - claim:
+        id: c_rTKE0eCaKUuk6ycwuIeItl
+        subject_person_id: p_JpKAwvv1MK7gdEG1QmEGyd
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_er5f6CsBJ6Dk5k9dhS7w1N
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ZathVqxp7jU-n7NKM8pHLC
+          claim_id: c_rTKE0eCaKUuk6ycwuIeItl
+          source_id: s_tiZIAWh_CkvqB3JH9f9H1M
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 205964 王湘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_tiZIAWh_CkvqB3JH9f9H1M
+            source_type: api_record
+            title: 中国历代人物传记资料库：王滿（CBDB 211383）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211383&o=json
+            external_identifier: CBDB:211383
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_er5f6CsBJ6Dk5k9dhS7w1N
+        status: active
+        display_name: 王滿
+        merged_into_person_id: null
+    - claim:
+        id: c_mGqtikKHRdUMRfeJN_ijLW
+        subject_person_id: p_JpKAwvv1MK7gdEG1QmEGyd
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_nJFpnaXs7wdWSaAzDCFMaq
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_AZNb7fh2_IOJsc0wEzkPkP
+          claim_id: c_mGqtikKHRdUMRfeJN_ijLW
+          source_id: s_WoZ0k6lTgaXAI-YZXk0WVQ
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205964 王湘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_WoZ0k6lTgaXAI-YZXk0WVQ
+            source_type: api_record
+            title: 中国历代人物传记资料库：王清（CBDB 211379）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211379&o=json
+            external_identifier: CBDB:211379
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_nJFpnaXs7wdWSaAzDCFMaq
+        status: active
+        display_name: 王清
+        merged_into_person_id: null
+    - claim:
+        id: c_E3vMTM3IWjdtMSJTqHlSYP
+        subject_person_id: p_JpKAwvv1MK7gdEG1QmEGyd
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_rgBsnZNWgZXB2nqnE1VPAs
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_5y1rM14-pMea8AgBPvfKIr
+          claim_id: c_E3vMTM3IWjdtMSJTqHlSYP
+          source_id: s_JyARlV0J3vkRQMs42Oxk9B
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205964 王湘）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_JyARlV0J3vkRQMs42Oxk9B
+            source_type: api_record
+            title: 中国历代人物传记资料库：王沔（CBDB 211378）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211378&o=json
+            external_identifier: CBDB:211378
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rgBsnZNWgZXB2nqnE1VPAs
+        status: active
+        display_name: 王沔
+        merged_into_person_id: null
 ---
 
 # 王湘
@@ -241,10 +537,26 @@ relationships:
 | parents | p_LfFs8i9gooDeZuUy7XnMeR | 王三至 | accepted |
 | ancestors | p_2VzKy4YwQz7AyQLgZ3PwP8 | 王集 | accepted |
 | ancestors | p_oDyYQMWWKHbk5i3EWe5MJK | 王輔 | accepted |
+| other | p_CAPCS9x9rcJyhUb9WT81ga | 王濬 | accepted |
+| other | p_N5w1KpRWBNPCL7uNxohJ3j | 王湛 | accepted |
+| other | p_SJtVpkt1Gyju9SBHBy6Dp8 | 王瀛 | accepted |
+| other | p_XZG26mpDUSriVA7354o1a8 | 王澤 | accepted |
+| other | p_bu1HGr9T8Ly1BT9Yk2yh6N | 王洛 | accepted |
+| other | p_er5f6CsBJ6Dk5k9dhS7w1N | 王滿 | accepted |
+| other | p_nJFpnaXs7wdWSaAzDCFMaq | 王清 | accepted |
+| other | p_rgBsnZNWgZXB2nqnE1VPAs | 王沔 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王輔（CBDB 211373）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211373&o=json)
 - [中国历代人物传记资料库：王集（CBDB 211372）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211372&o=json)
+- [中国历代人物传记资料库：王濬（CBDB 211386）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211386&o=json)
+- [中国历代人物传记资料库：王洛（CBDB 211385）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211385&o=json)
+- [中国历代人物传记资料库：王滿（CBDB 211383）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211383&o=json)
+- [中国历代人物传记资料库：王沔（CBDB 211378）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211378&o=json)
+- [中国历代人物传记资料库：王清（CBDB 211379）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211379&o=json)
 - [中国历代人物传记资料库：王三至（CBDB 211374）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211374&o=json)
 - [中国历代人物传记资料库：王湘（CBDB 205964）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=205964&o=json)
+- [中国历代人物传记资料库：王瀛（CBDB 211384）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211384&o=json)
+- [中国历代人物传记资料库：王澤（CBDB 211382）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211382&o=json)
+- [中国历代人物传记资料库：王湛（CBDB 211380）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=211380&o=json)

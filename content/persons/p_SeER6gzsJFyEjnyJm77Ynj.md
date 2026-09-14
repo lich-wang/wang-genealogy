@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王有問
 cbdb_id: 261514
-revision: 2
+revision: 6
 properties:
   - predicate: bio.summary
     recommended:
@@ -113,6 +113,154 @@ relationships:
         status: active
         display_name: 王常
         merged_into_person_id: null
+    - claim:
+        id: c_o0NCD7whPdxW57uyUKzuIr
+        subject_person_id: p_SeER6gzsJFyEjnyJm77Ynj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_498R8AgF7NSFpYx5N4iQCP
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_ACmVKf-HZHmRqcunO7Necj
+          claim_id: c_o0NCD7whPdxW57uyUKzuIr
+          source_id: s_4SW27uTuW6BBOrymYqWaQ0
+          stance: supports
+          locator: CBDB：兄弟 王常（198354）之父／母 王有問
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王德昭 与 王常 为同胞（CBDB 记「弟」），王常 之父／母即 王德昭 之父／母。
+          source:
+            id: s_4SW27uTuW6BBOrymYqWaQ0
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德昭（CBDB 261570）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261570&o=json
+            external_identifier: CBDB:261570
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_498R8AgF7NSFpYx5N4iQCP
+        status: active
+        display_name: 王德昭
+        merged_into_person_id: null
+    - claim:
+        id: c_t0mumWNjqhrHHNKhyvB7Js
+        subject_person_id: p_SeER6gzsJFyEjnyJm77Ynj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_AKY9fS2Voe2u51T5iwbtN7
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_cmFQWnuCLLPxdloAJAfUNh
+          claim_id: c_t0mumWNjqhrHHNKhyvB7Js
+          source_id: s_DLPHW4qYjP3NuMaN0MXbqL
+          stance: supports
+          locator: CBDB：兄弟 王常（198354）之父／母 王有問
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王德宣 与 王常 为同胞（CBDB 记「兄」），王常 之父／母即 王德宣 之父／母。
+          source:
+            id: s_DLPHW4qYjP3NuMaN0MXbqL
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德宣（CBDB 261603）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261603&o=json
+            external_identifier: CBDB:261603
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_AKY9fS2Voe2u51T5iwbtN7
+        status: active
+        display_name: 王德宣
+        merged_into_person_id: null
+    - claim:
+        id: c_-us8CK276L7iIq8SscQaHZ
+        subject_person_id: p_SeER6gzsJFyEjnyJm77Ynj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_MaeL5mmCZ9511zEGgmaxRp
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_NfQyiVgruStI1Y7LixfpDb
+          claim_id: c_-us8CK276L7iIq8SscQaHZ
+          source_id: s_nC2nIRxyTAPmxuXZGyZECw
+          stance: supports
+          locator: CBDB：兄弟 王常（198354）之父／母 王有問
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王德榮 与 王常 为同胞（CBDB 记「兄」），王常 之父／母即 王德榮 之父／母。
+          source:
+            id: s_nC2nIRxyTAPmxuXZGyZECw
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德榮（CBDB 261592）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261592&o=json
+            external_identifier: CBDB:261592
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_MaeL5mmCZ9511zEGgmaxRp
+        status: active
+        display_name: 王德榮
+        merged_into_person_id: null
+    - claim:
+        id: c_Do_263xb6TaiFpoU1qyhW-
+        subject_person_id: p_SeER6gzsJFyEjnyJm77Ynj
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_rn6XWBaNjsWukLVnrYHKQh
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_57dZ28mVoUN3B1iX4r1r0b
+          claim_id: c_Do_263xb6TaiFpoU1qyhW-
+          source_id: s_AU0P0IS7S604ZHwOVukwA1
+          stance: supports
+          locator: CBDB：兄弟 王常（198354）之父／母 王有問
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王德安 与 王常 为同胞（CBDB 记「弟」），王常 之父／母即 王德安 之父／母。
+          source:
+            id: s_AU0P0IS7S604ZHwOVukwA1
+            source_type: api_record
+            title: 中国历代人物传记资料库：王德安（CBDB 261581）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261581&o=json
+            external_identifier: CBDB:261581
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_rn6XWBaNjsWukLVnrYHKQh
+        status: active
+        display_name: 王德安
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -137,8 +285,16 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | children | p_99gNXAHSy7CHUSg6MDVZmM | 王常 | accepted |
+| children | p_498R8AgF7NSFpYx5N4iQCP | 王德昭 | accepted |
+| children | p_AKY9fS2Voe2u51T5iwbtN7 | 王德宣 | accepted |
+| children | p_MaeL5mmCZ9511zEGgmaxRp | 王德榮 | accepted |
+| children | p_rn6XWBaNjsWukLVnrYHKQh | 王德安 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王常（CBDB 198354）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=198354&o=json)
+- [中国历代人物传记资料库：王德安（CBDB 261581）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261581&o=json)
+- [中国历代人物传记资料库：王德榮（CBDB 261592）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261592&o=json)
+- [中国历代人物传记资料库：王德宣（CBDB 261603）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261603&o=json)
+- [中国历代人物传记资料库：王德昭（CBDB 261570）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261570&o=json)
 - [中国历代人物传记资料库：王有問（CBDB 261514）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=261514&o=json)

@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王問儒
 cbdb_id: 329117
-revision: 1
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -74,14 +74,88 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_uZ28DMcJleIryoGb8w46Ok
+        subject_person_id: p_Enkv6VPLQgLAYoVEPiVxJf
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_WSV8MpZFr3BEfHFRbP3ZMW
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_dUokGFxv-Po_TRTVVGVPFo
+          claim_id: c_uZ28DMcJleIryoGb8w46Ok
+          source_id: s_hu4dSrv-hG_sGrSBVMWEzh
+          stance: supports
+          locator: CBDB：兄弟 王問臣（205162）之父／母 王明
+          quotation: null
+          interpretation_note: 由兄弟关系推断：王問儒 与 王問臣 为同胞（CBDB 记「弟」），王問臣 之父／母即 王問儒 之父／母。
+          source:
+            id: s_hu4dSrv-hG_sGrSBVMWEzh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王問儒（CBDB 329117）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329117&o=json
+            external_identifier: CBDB:329117
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Enkv6VPLQgLAYoVEPiVxJf
+        status: active
+        display_name: 王明
+        merged_into_person_id: null
   children: []
   adoptive_parents: []
   adoptive_children: []
   spouses: []
   ancestors: []
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_9hZbBECIM3Xp5GIbTBN8QU
+        subject_person_id: p_WSV8MpZFr3BEfHFRbP3ZMW
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_q8kfUyHi4DSEJ6L6oLkg4M
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_HFiuUkBYgI6_34IDTLTfDi
+          claim_id: c_9hZbBECIM3Xp5GIbTBN8QU
+          source_id: s_hu4dSrv-hG_sGrSBVMWEzh
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 205162 王問臣）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_hu4dSrv-hG_sGrSBVMWEzh
+            source_type: api_record
+            title: 中国历代人物传记资料库：王問儒（CBDB 329117）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=329117&o=json
+            external_identifier: CBDB:329117
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_q8kfUyHi4DSEJ6L6oLkg4M
+        status: active
+        display_name: 王問臣
+        merged_into_person_id: null
 ---
 
 # 王問儒
@@ -99,6 +173,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_Enkv6VPLQgLAYoVEPiVxJf | 王明 | accepted |
+| other | p_q8kfUyHi4DSEJ6L6oLkg4M | 王問臣 | accepted |
 
 ## 外部来源
 

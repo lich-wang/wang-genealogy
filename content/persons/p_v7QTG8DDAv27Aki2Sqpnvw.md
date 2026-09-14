@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王問卿
 cbdb_id: 206092
-revision: 4
+revision: 11
 properties:
   - predicate: bio.summary
     recommended:
@@ -235,7 +235,266 @@ relationships:
         display_name: 王珩
         merged_into_person_id: null
   descendants: []
-  other: []
+  other:
+    - claim:
+        id: c_AVL56awgJINpKd-qaG4uXq
+        subject_person_id: p_9TMxY3DJJVQSN8rfmTH838
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_v7QTG8DDAv27Aki2Sqpnvw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_jZMMT6svi3tGw5ChOST-T0
+          claim_id: c_AVL56awgJINpKd-qaG4uXq
+          source_id: s_QcgC0i7YNetxHvqgcPQX2-
+          stance: supports
+          locator: CBDB 亲属：兄（KinPerson 206092 王問卿）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_QcgC0i7YNetxHvqgcPQX2-
+            source_type: api_record
+            title: 中国历代人物传记资料库：王棟（CBDB 213212）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213212&o=json
+            external_identifier: CBDB:213212
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_9TMxY3DJJVQSN8rfmTH838
+        status: active
+        display_name: 王棟
+        merged_into_person_id: null
+    - claim:
+        id: c_vtvoopsMxBKWEteJggZLrn
+        subject_person_id: p_CDvrsuRMwV8T8ENNHyMzid
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_v7QTG8DDAv27Aki2Sqpnvw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_c9nxSoObvThHRg7tXMUc-7
+          claim_id: c_vtvoopsMxBKWEteJggZLrn
+          source_id: s_NXuFljl__jjW0MsbGWxfhC
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206092 王問卿）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_NXuFljl__jjW0MsbGWxfhC
+            source_type: api_record
+            title: 中国历代人物传记资料库：王栢（CBDB 213211）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213211&o=json
+            external_identifier: CBDB:213211
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_CDvrsuRMwV8T8ENNHyMzid
+        status: active
+        display_name: 王栢
+        merged_into_person_id: null
+    - claim:
+        id: c_bYHHAqOLux9HmIJRQsJCkP
+        subject_person_id: p_Ejj2hgcPK3mGAwt4U6pasD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_v7QTG8DDAv27Aki2Sqpnvw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_V4aAYb9d8W3AhazyaLVk9U
+          claim_id: c_bYHHAqOLux9HmIJRQsJCkP
+          source_id: s_VC_Nll3DNpTevov7dAoHXH
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206092 王問卿）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_VC_Nll3DNpTevov7dAoHXH
+            source_type: api_record
+            title: 中国历代人物传记资料库：王本（CBDB 213210）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213210&o=json
+            external_identifier: CBDB:213210
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Ejj2hgcPK3mGAwt4U6pasD
+        status: active
+        display_name: 王本
+        merged_into_person_id: null
+    - claim:
+        id: c_XfpiSEjEI76SsIdHCw1zsI
+        subject_person_id: p_GjGiibm4LpCUtLELc9X7aj
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_v7QTG8DDAv27Aki2Sqpnvw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_qT5hWLPah3Ze2OFS3Ul4_k
+          claim_id: c_XfpiSEjEI76SsIdHCw1zsI
+          source_id: s_yk6hAnlnIzCuCZAfF_-87v
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206092 王問卿）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_yk6hAnlnIzCuCZAfF_-87v
+            source_type: api_record
+            title: 中国历代人物传记资料库：王术（CBDB 213209）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213209&o=json
+            external_identifier: CBDB:213209
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_GjGiibm4LpCUtLELc9X7aj
+        status: active
+        display_name: 王术
+        merged_into_person_id: null
+    - claim:
+        id: c_uJYIpfb6VN8XQE04lboKMl
+        subject_person_id: p_KTnNBwV3CHPjmkPa1XhXGf
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_v7QTG8DDAv27Aki2Sqpnvw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_JmivCLGDXGT1Kt8VvJewyg
+          claim_id: c_uJYIpfb6VN8XQE04lboKMl
+          source_id: s_PA5QIGGUH8p-Jp6uc4ffSU
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206092 王問卿）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_PA5QIGGUH8p-Jp6uc4ffSU
+            source_type: api_record
+            title: 中国历代人物传记资料库：王祖福（CBDB 213206）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213206&o=json
+            external_identifier: CBDB:213206
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_KTnNBwV3CHPjmkPa1XhXGf
+        status: active
+        display_name: 王祖福
+        merged_into_person_id: null
+    - claim:
+        id: c_dac3sq6qKXxv8D5R3_mdqb
+        subject_person_id: p_Q9rBAKZ68eWprGhbiDzntS
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_v7QTG8DDAv27Aki2Sqpnvw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_s0mk-x_oS-7nmHMXAF7M6F
+          claim_id: c_dac3sq6qKXxv8D5R3_mdqb
+          source_id: s_jUGCLxrQkf4WTZADafa0Oz
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206092 王問卿）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_jUGCLxrQkf4WTZADafa0Oz
+            source_type: api_record
+            title: 中国历代人物传记资料库：王祖德（CBDB 213207）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213207&o=json
+            external_identifier: CBDB:213207
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_Q9rBAKZ68eWprGhbiDzntS
+        status: active
+        display_name: 王祖德
+        merged_into_person_id: null
+    - claim:
+        id: c_rgCpTrI-sj2ZbfXlooAQMb
+        subject_person_id: p_hYqw4TjUxGXuvJCbcaKQKD
+        claim_kind: relationship
+        predicate: kinship.sibling_of
+        object_person_id: p_v7QTG8DDAv27Aki2Sqpnvw
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_OCwtUBCXqkAll1zB4uTumC
+          claim_id: c_rgCpTrI-sj2ZbfXlooAQMb
+          source_id: s_siI7i6vEsAG68-ClZz-omf
+          stance: supports
+          locator: CBDB 亲属：弟（KinPerson 206092 王問卿）
+          quotation: null
+          interpretation_note: CBDB 记录的同辈兄弟姊妹关系，按字典序规范化存储。
+          source:
+            id: s_siI7i6vEsAG68-ClZz-omf
+            source_type: api_record
+            title: 中国历代人物传记资料库：王祖齡（CBDB 213208）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213208&o=json
+            external_identifier: CBDB:213208
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_hYqw4TjUxGXuvJCbcaKQKD
+        status: active
+        display_name: 王祖齡
+        merged_into_person_id: null
 ---
 
 # 王問卿
@@ -257,10 +516,24 @@ relationships:
 | parents | p_LMXRCBjsfzMqaRuKsJc8Wx | 王津 | accepted |
 | ancestors | p_H1CHec8WiEP6udv6HsGiK6 | 王纓 | accepted |
 | ancestors | p_szikNd5ySGJKY1x1ci7vgq | 王珩 | accepted |
+| other | p_9TMxY3DJJVQSN8rfmTH838 | 王棟 | accepted |
+| other | p_CDvrsuRMwV8T8ENNHyMzid | 王栢 | accepted |
+| other | p_Ejj2hgcPK3mGAwt4U6pasD | 王本 | accepted |
+| other | p_GjGiibm4LpCUtLELc9X7aj | 王术 | accepted |
+| other | p_KTnNBwV3CHPjmkPa1XhXGf | 王祖福 | accepted |
+| other | p_Q9rBAKZ68eWprGhbiDzntS | 王祖德 | accepted |
+| other | p_hYqw4TjUxGXuvJCbcaKQKD | 王祖齡 | accepted |
 
 ## 外部来源
 
+- [中国历代人物传记资料库：王栢（CBDB 213211）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213211&o=json)
+- [中国历代人物传记资料库：王本（CBDB 213210）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213210&o=json)
+- [中国历代人物传记资料库：王棟（CBDB 213212）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213212&o=json)
 - [中国历代人物传记资料库：王珩（CBDB 213200）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213200&o=json)
 - [中国历代人物传记资料库：王津（CBDB 213202）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213202&o=json)
+- [中国历代人物传记资料库：王术（CBDB 213209）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213209&o=json)
 - [中国历代人物传记资料库：王問卿（CBDB 206092）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=206092&o=json)
 - [中国历代人物传记资料库：王纓（CBDB 213201）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213201&o=json)
+- [中国历代人物传记资料库：王祖德（CBDB 213207）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213207&o=json)
+- [中国历代人物传记资料库：王祖福（CBDB 213206）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213206&o=json)
+- [中国历代人物传记资料库：王祖齡（CBDB 213208）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=213208&o=json)

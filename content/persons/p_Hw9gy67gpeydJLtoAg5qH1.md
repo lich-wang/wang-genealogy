@@ -4,7 +4,7 @@ id: p_Hw9gy67gpeydJLtoAg5qH1
 status: active
 merged_into: null
 display_name: 王惟正
-revision: 2
+revision: 5
 properties:
   - predicate: name.primary
     recommended:
@@ -166,7 +166,118 @@ relationships:
         status: active
         display_name: 王恩
         merged_into_person_id: null
-  children: []
+  children:
+    - claim:
+        id: c_WSoJAl3oz0WQ_sT5yrRCZk
+        subject_person_id: p_Hw9gy67gpeydJLtoAg5qH1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_3DzeUj5KKY2KUxXUDf96hY
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_eynHW9BWLSTas7LKUXePQJ
+          claim_id: c_WSoJAl3oz0WQ_sT5yrRCZk
+          source_id: s__XpmD_CUKHNF7145dTVber
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1916）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s__XpmD_CUKHNF7145dTVber
+            source_type: api_record
+            title: 中国历代人物传记资料库：王桑中（CBDB 37562）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37562&o=json
+            external_identifier: CBDB:37562
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_3DzeUj5KKY2KUxXUDf96hY
+        status: active
+        display_name: 王桑中
+        merged_into_person_id: null
+    - claim:
+        id: c_Zq2ua1PpWysTIxdLpsRpWQ
+        subject_person_id: p_Hw9gy67gpeydJLtoAg5qH1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QT8ZUmn3KSrXV43eq9wSsw
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_YIUGJgaf0mMnBm16MZ7Yym
+          claim_id: c_Zq2ua1PpWysTIxdLpsRpWQ
+          source_id: s_HDl6ITOgxtl_PolvL3Y14q
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1916）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_HDl6ITOgxtl_PolvL3Y14q
+            source_type: api_record
+            title: 中国历代人物传记资料库：王執中（CBDB 37561）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37561&o=json
+            external_identifier: CBDB:37561
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_QT8ZUmn3KSrXV43eq9wSsw
+        status: active
+        display_name: 王執中
+        merged_into_person_id: null
+    - claim:
+        id: c_YnAFwcCTaOtN4Q7BM6n5zc
+        subject_person_id: p_Hw9gy67gpeydJLtoAg5qH1
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_t96wegbjJf44k7ip1qSp8G
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_uV_o6TmoFGEkWH_nfTHzN-
+          claim_id: c_YnAFwcCTaOtN4Q7BM6n5zc
+          source_id: s_LuEE5XVnRr-Lxfc_a9yn0i
+          stance: supports
+          locator: CBDB 亲属：父（KinPerson 1916）
+          quotation: null
+          interpretation_note: CBDB 直接记录的父／母关系。
+          source:
+            id: s_LuEE5XVnRr-Lxfc_a9yn0i
+            source_type: api_record
+            title: 中国历代人物传记资料库：王敏中（CBDB 37560）
+            creator: China Biographical Database (CBDB)
+            publisher: Harvard University / Academia Sinica / Peking University
+            published_at_text: null
+            canonical_url: https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37560&o=json
+            external_identifier: CBDB:37560
+            license_code: CC-BY-NC-SA-4.0
+            accessed_at: 2026-09-14T15:51:37.715Z
+            metadata_json: null
+      object_person:
+        id: p_t96wegbjJf44k7ip1qSp8G
+        status: active
+        display_name: 王敏中
+        merged_into_person_id: null
   adoptive_parents: []
   adoptive_children: []
   spouses: []
@@ -193,8 +304,14 @@ relationships:
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
 | parents | p_1nKt64gGCKiDcB8W4XD12c | 王恩 | accepted |
+| children | p_3DzeUj5KKY2KUxXUDf96hY | 王桑中 | accepted |
+| children | p_QT8ZUmn3KSrXV43eq9wSsw | 王執中 | accepted |
+| children | p_t96wegbjJf44k7ip1qSp8G | 王敏中 | accepted |
 
 ## 外部来源
 
 - [中国历代人物传记资料库：王恩（CBDB 22181）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=22181&o=json)
+- [中国历代人物传记资料库：王敏中（CBDB 37560）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37560&o=json)
+- [中国历代人物传记资料库：王桑中（CBDB 37562）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37562&o=json)
 - [中国历代人物传记资料库：王惟正（CBDB 1916）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=1916&o=json)
+- [中国历代人物传记资料库：王執中（CBDB 37561）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=37561&o=json)
