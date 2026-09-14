@@ -72,7 +72,44 @@ properties:
       object_person: null
     alternatives: []
 relationships:
-  parents: []
+  parents:
+    - claim:
+        id: c_PG_eoqgxrH9qWrdUTWQWA9
+        subject_person_id: p_3SDBo4j4p9czjqTXkQXsB7
+        claim_kind: relationship
+        predicate: kinship.father_of
+        object_person_id: p_QfrUjSmQ4GsHQFSweEh618
+        generation_count: null
+        parent_role: father
+        value_json: null
+        status: accepted
+        confidence: high
+        current_revision: 1
+      sources:
+        - id: cs_v54_4T0Qn_gkJczCUqjKvQ
+          claim_id: c_PG_eoqgxrH9qWrdUTWQWA9
+          source_id: s__Np5uu8qmUsAKBfZz2x5sZ
+          stance: supports
+          locator: 三國志·卷十三·王朗傳：肅字子雍。…（注：肅父朗與許靖書云肅生於會稽）
+          quotation: null
+          interpretation_note: 依《三国志·王朗传》：肃为朗之子，正史原文补链。
+          source:
+            id: s__Np5uu8qmUsAKBfZz2x5sZ
+            source_type: website
+            title: 维基文库：三國志·卷十三·魏書·王朗傳
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/三國志/卷13
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T00:21:32.314Z
+            metadata_json: null
+      object_person:
+        id: p_3SDBo4j4p9czjqTXkQXsB7
+        status: active
+        display_name: 王朗 (三國)
+        merged_into_person_id: null
   children:
     - claim:
         id: c_XDQvhgaLzvwTzUX64QU4fi
@@ -135,9 +172,11 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| parents | p_3SDBo4j4p9czjqTXkQXsB7 | 王朗 (三國) | accepted |
 | children | p_Z4MvEXmQJi515G5XB2HFGM | 王元姬 | accepted |
 
 ## 外部来源
 
+- [维基文库：三國志·卷十三·魏書·王朗傳](https://zh.wikisource.org/wiki/三國志/卷13)
 - [中国历代人物传记资料库：王肅（CBDB 135476）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135476&o=json)
 - [中国历代人物传记资料库：王元姬（CBDB 135477）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=135477&o=json)

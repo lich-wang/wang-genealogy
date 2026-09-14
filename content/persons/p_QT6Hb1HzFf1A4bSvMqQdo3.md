@@ -4,7 +4,7 @@ id: p_QT6Hb1HzFf1A4bSvMqQdo3
 status: active
 merged_into: null
 display_name: 王僧孺
-revision: 1
+revision: 2
 properties:
   - predicate: name.primary
     recommended:
@@ -78,7 +78,44 @@ relationships:
   adoptive_children: []
   spouses: []
   ancestors: []
-  descendants: []
+  descendants:
+    - claim:
+        id: c_0Da-OQgiWDBGr0lW-50Tbf
+        subject_person_id: p_ZVzYqdMQdELMX4RRwgGKXs
+        claim_kind: relationship
+        predicate: kinship.ancestor_of
+        object_person_id: p_QT6Hb1HzFf1A4bSvMqQdo3
+        generation_count: null
+        parent_role: null
+        value_json: null
+        status: accepted
+        confidence: medium
+        current_revision: 1
+      sources:
+        - id: cs_XA4J851CBxQZWJ9FSqOaK1
+          claim_id: c_0Da-OQgiWDBGr0lW-50Tbf
+          source_id: s_eC9XgPV1hTm19EF55IuxsY
+          stance: supports
+          locator: 梁書·卷三十三·王僧孺傳：曾祖雅，晉左光祿大夫。祖准，宋司徒左長史。
+          quotation: null
+          interpretation_note: 王准为王僧孺之祖父（東海王氏），依《梁书·王僧孺传》补链。
+          source:
+            id: s_eC9XgPV1hTm19EF55IuxsY
+            source_type: website
+            title: 维基文库：梁書·卷三十三·王僧孺傳
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/梁書/卷33
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T00:28:01.027Z
+            metadata_json: null
+      object_person:
+        id: p_ZVzYqdMQdELMX4RRwgGKXs
+        status: active
+        display_name: 王准
+        merged_into_person_id: null
   other: []
 ---
 
@@ -97,7 +134,8 @@ relationships:
 
 | 关系 | 人物 ID | 姓名 | 状态 |
 | --- | --- | --- | --- |
+| descendants | p_ZVzYqdMQdELMX4RRwgGKXs | 王准 | accepted |
 
 ## 外部来源
 
-- [维基文库：梁書/卷33·王僧孺](https://zh.wikisource.org/wiki/梁書/卷33)
+- [维基文库：梁書·卷三十三·王僧孺傳](https://zh.wikisource.org/wiki/梁書/卷33)
