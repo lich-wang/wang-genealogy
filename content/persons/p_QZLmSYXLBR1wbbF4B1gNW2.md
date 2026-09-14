@@ -4,7 +4,7 @@ id: p_QZLmSYXLBR1wbbF4B1gNW2
 status: active
 merged_into: null
 display_name: 王普曜
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,12 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王普曜，史料所见人物。本项目依据《王普曜》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王普曜，南朝宋齊琅邪臨沂人，南齊尚書令王晏之父，官至祕書監（《南齊書·卷四十二·王晏傳》：父普曜，祕書監）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
+        - id: cs_kTKeQNcBakpcqFEF0tLCO4
+          claim_id: c_hETe34jvUe9wkKd3mWHwMV
+          source_id: s_QXBmPi_zDNPRyTSD8UYBte
+          stance: supports
+          locator: 南齊書/卷42·王普曜
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_QXBmPi_zDNPRyTSD8UYBte
+            source_type: website
+            title: 维基文库：南齊書/卷42·王普曜
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/南齊書/卷42
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:14:35.000Z
+            metadata_json: null
         - id: cs_MnDtM2v7NTD4hGSoHo5dpn
           claim_id: c_hETe34jvUe9wkKd3mWHwMV
           source_id: s_hUNsCkQ1oziNReRQfjbfTi
@@ -202,7 +221,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王普曜，史料所见人物。本项目依据《王普曜》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王普曜，南朝宋齊琅邪臨沂人，南齊尚書令王晏之父，官至祕書監（《南齊書·卷四十二·王晏傳》：父普曜，祕書監）。 | accepted |
 | name.primary | 王普曜 | accepted |
 
 ## 关联关系
@@ -216,4 +235,5 @@ relationships:
 
 - [维基数据：王弘之（Q13618784）](https://www.wikidata.org/wiki/Q13618784)
 - [维基数据：王普曜（Q22814798）](https://www.wikidata.org/wiki/Q22814798)
+- [维基文库：南齊書/卷42·王普曜](https://zh.wikisource.org/wiki/南齊書/卷42)
 - [中文维基百科：王晏 (南朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%99%8F_(%E5%8D%97%E6%9C%9D))

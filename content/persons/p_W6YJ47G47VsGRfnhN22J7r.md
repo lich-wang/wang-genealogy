@@ -4,7 +4,7 @@ id: p_W6YJ47G47VsGRfnhN22J7r
 status: active
 merged_into: null
 display_name: 王橋
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,30 +17,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王橋，史料所见人物。本项目依据《中文维基文库：魏書/卷93》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王橋，字法生，北魏太原晉陽人，善解天文卜筮，涼州平後入京，官終侍御中散。為王叡之父（《魏書·卷九十三·王叡傳》：父橋，字法生，解天文卜筮）。
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_NRuMBGPN4FeSm_7XXSGAKx
+        - id: cs_2Z2fbjPRudVX9bBT3Nqs3D
           claim_id: c_UOH9jXAbWZdOpDaWHL8Tuo
-          source_id: s_6MwB28jFPqGjpKm46DBiBV
+          source_id: s_8UztPHDaA6rMGW7Ru0HX8x
           stance: supports
-          locator: null
+          locator: 魏書/卷93·王橋
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_6MwB28jFPqGjpKm46DBiBV
-            source_type: book
-            title: 中文维基文库：魏書/卷93
-            creator: null
-            publisher: 维基文库
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_8UztPHDaA6rMGW7Ru0HX8x
+            source_type: website
+            title: 维基文库：魏書/卷93·王橋
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
             published_at_text: null
-            canonical_url: https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8%2F%E5%8D%B793
+            canonical_url: https://zh.wikisource.org/wiki/魏書/卷93
             external_identifier: null
             license_code: CC-BY-SA-4.0
-            accessed_at: 2026-08-25T02:24:32.024Z
+            accessed_at: 2026-09-14T02:14:35.000Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -68,7 +68,18 @@ properties:
           locator: CBDB:null
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_6MwB28jFPqGjpKm46DBiBV
+            source_type: book
+            title: 中文维基文库：魏書/卷93
+            creator: null
+            publisher: 维基文库
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8%2F%E5%8D%B793
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-08-25T02:24:32.024Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -202,7 +213,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王橋，史料所见人物。本项目依据《中文维基文库：魏書/卷93》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王橋，字法生，北魏太原晉陽人，善解天文卜筮，涼州平後入京，官終侍御中散。為王叡之父（《魏書·卷九十三·王叡傳》：父橋，字法生，解天文卜筮）。 | accepted |
 | name.primary | 王橋 | accepted |
 
 ## 关联关系
@@ -214,5 +225,6 @@ relationships:
 
 ## 外部来源
 
+- [维基文库：魏書/卷93·王橋](https://zh.wikisource.org/wiki/魏書/卷93)
 - [中文维基文库：魏書/卷93](https://zh.wikisource.org/wiki/%E9%AD%8F%E6%9B%B8%2F%E5%8D%B793)
 - [中文维基文库：新唐書/卷072中](https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7072%E4%B8%AD)

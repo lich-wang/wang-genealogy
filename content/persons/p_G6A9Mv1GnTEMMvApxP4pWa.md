@@ -4,7 +4,7 @@ id: p_G6A9Mv1GnTEMMvApxP4pWa
 status: active
 merged_into: null
 display_name: 王融
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,12 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王融，史料所见人物。本项目依据《維基數據：王融》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王融，東漢末琅邪臨沂人，王仁之子、王祥之父。州郡辟公府不就（《晉書·卷三十三·王祥傳》：父融，公府辟不就）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
+        - id: cs_LPMzN6hZrxCfuSDn4AjnWR
+          claim_id: c_e6DhnrsMB6PUTV8hkSNp5B
+          source_id: s_7HaJm6kb4wVFjIUmSAwnMR
+          stance: supports
+          locator: 晉書/卷033·王融
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_7HaJm6kb4wVFjIUmSAwnMR
+            source_type: website
+            title: 维基文库：晉書/卷033·王融
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/晉書/卷033
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:14:35.000Z
+            metadata_json: null
         - id: cs_YMSAupL5pQEi0Vl8-LMoeg
           claim_id: c_e6DhnrsMB6PUTV8hkSNp5B
           source_id: s_hKoGvmAvsyR2xVzQX9fBWX
@@ -374,7 +393,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王融，史料所见人物。本项目依据《維基數據：王融》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王融，東漢末琅邪臨沂人，王仁之子、王祥之父。州郡辟公府不就（《晉書·卷三十三·王祥傳》：父融，公府辟不就）。 | accepted |
 | name.primary | 王融 | accepted |
 
 ## 关联关系
@@ -389,6 +408,7 @@ relationships:
 
 - [维基数据：王览（Q15907839）](https://www.wikidata.org/wiki/Q15907839)
 - [维基数据：王仁（Q22814785）](https://www.wikidata.org/wiki/Q22814785)
+- [维基文库：晉書/卷033·王融](https://zh.wikisource.org/wiki/晉書/卷033)
 - [維基數據：王融（Q22814786）](https://www.wikidata.org/wiki/Q22814786)
 - [維基數據：王祥（Q710053）](https://www.wikidata.org/wiki/Q710053)
 - [中文维基百科：王祥](https://zh.wikipedia.org/wiki/王祥)

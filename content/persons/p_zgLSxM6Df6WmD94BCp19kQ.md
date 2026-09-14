@@ -4,7 +4,7 @@ id: p_zgLSxM6Df6WmD94BCp19kQ
 status: active
 merged_into: null
 display_name: 王正
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,12 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王正，史料所见人物。本项目依据《維基數據：王正》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王正，西晉琅邪臨沂人，王覽之子、王廙之父，官至尚書郎（《晉書·卷七十六·王廙傳》：父正，尚書郎）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
+        - id: cs_Y5qiyT3mkBg6jvkSHneGfn
+          claim_id: c_PMrYweAKmZUeu3KMcDoVxC
+          source_id: s_evegpqenfps8ZxxKB_hgzY
+          stance: supports
+          locator: 晉書/卷076·王正
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_evegpqenfps8ZxxKB_hgzY
+            source_type: website
+            title: 维基文库：晉書/卷076·王正
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/晉書/卷076
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:14:35.000Z
+            metadata_json: null
         - id: cs_XvbkhugdsQWZ4xhOzv_uTB
           claim_id: c_PMrYweAKmZUeu3KMcDoVxC
           source_id: s_JoYRcM7YuJWxDJPSGzxAWK
@@ -907,7 +926,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王正，史料所见人物。本项目依据《維基數據：王正》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王正，西晉琅邪臨沂人，王覽之子、王廙之父，官至尚書郎（《晉書·卷七十六·王廙傳》：父正，尚書郎）。 | accepted |
 | name.primary | 王正 | accepted |
 
 ## 关联关系
@@ -924,6 +943,7 @@ relationships:
 - [维基数据：王彬（Q15909509）](https://www.wikidata.org/wiki/Q15909509)
 - [维基数据：王览（Q15907839）](https://www.wikidata.org/wiki/Q15907839)
 - [维基数据：王廙（Q15911516）](https://www.wikidata.org/wiki/Q15911516)
+- [维基文库：晉書/卷076·王正](https://zh.wikisource.org/wiki/晉書/卷076)
 - [維基數據：王曠（Q22814790）](https://www.wikidata.org/wiki/Q22814790)
 - [維基數據：王正（Q22814789）](https://www.wikidata.org/wiki/Q22814789)
 - [中文维基百科：琅邪王氏](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F)

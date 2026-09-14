@@ -4,7 +4,7 @@ id: p_48BB9G5rFGngD1z7yugBB9
 status: active
 merged_into: null
 display_name: 王攸
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,12 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王攸，史料所见人物。本项目依据《王攸》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王攸，南朝宋琅邪臨沂人，右光祿大夫王偃之子、梁王亮之父，官至給事黃門侍郎（《梁書·卷十六·王亮傳》：父攸，給事黃門侍郎）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
+        - id: cs_gLrVDXHj2rCH5fyPMh-VCj
+          claim_id: c_Foo8rlidZ7uy_LdtaqZiFy
+          source_id: s_VKpBrNkS0GgpHxfFriesoQ
+          stance: supports
+          locator: 梁書/卷16·王攸
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_VKpBrNkS0GgpHxfFriesoQ
+            source_type: website
+            title: 维基文库：梁書/卷16·王攸
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/梁書/卷16
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:14:35.000Z
+            metadata_json: null
         - id: cs_pajy2gPnlCyig-9pnMKUcI
           claim_id: c_Foo8rlidZ7uy_LdtaqZiFy
           source_id: s_8k1YrcbGt4jZKeJcY98o6y
@@ -356,7 +375,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王攸，史料所见人物。本项目依据《王攸》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王攸，南朝宋琅邪臨沂人，右光祿大夫王偃之子、梁王亮之父，官至給事黃門侍郎（《梁書·卷十六·王亮傳》：父攸，給事黃門侍郎）。 | accepted |
 | name.primary | 王攸 | accepted |
 
 ## 关联关系
@@ -371,6 +390,7 @@ relationships:
 - [维基数据：王亮（Q11572903）](https://www.wikidata.org/wiki/Q11572903)
 - [维基数据：王偃（Q11572909）](https://www.wikidata.org/wiki/Q11572909)
 - [维基数据：王攸（Q22814746）](https://www.wikidata.org/wiki/Q22814746)
+- [维基文库：梁書/卷16·王攸](https://zh.wikisource.org/wiki/梁書/卷16)
 - [中文维基百科：琅邪王氏世系圖](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F%E4%B8%96%E7%B3%BB%E5%9C%96)
 - [中文维基百科：刘荣男](https://zh.wikipedia.org/wiki/%E5%88%98%E8%8D%A3%E7%94%B7)
 - [中文维基百科：王亮 (南朝)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BA%AE_(%E5%8D%97%E6%9C%9D))

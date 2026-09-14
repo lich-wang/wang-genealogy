@@ -4,7 +4,7 @@ id: p_xHqsdH7Q5dtTb5k8sD7nyo
 status: active
 merged_into: null
 display_name: 王遠
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -55,12 +55,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王遠，史料所见人物。本项目依据《中国历代人物传记资料库：王遠（CBDB 120189）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王遠，北宋初人，宋翰林學士王易簡之祖，官至連州刺史（《宋史·卷二百六十二·王易簡傳》：祖遠，連州刺史）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
+        - id: cs_6PN1bF1jkRS_6nNf2ryotc
+          claim_id: c_6xrdtkjC7Q4t2RN7fPH8m3
+          source_id: s_83vO3zosKvUsPNjs9fHe3B
+          stance: supports
+          locator: 宋史/卷262·王遠
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_83vO3zosKvUsPNjs9fHe3B
+            source_type: website
+            title: 维基文库：宋史/卷262·王遠
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/宋史/卷262
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:14:35.000Z
+            metadata_json: null
         - id: cs_2BpPVTgTZJuOyg1vfseYzJ
           claim_id: c_6xrdtkjC7Q4t2RN7fPH8m3
           source_id: s_8XruKVoRfCPhtcxH52LLDp
@@ -117,7 +136,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王遠 | accepted |
-| bio.summary | 王遠，史料所见人物。本项目依据《中国历代人物传记资料库：王遠（CBDB 120189）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王遠，北宋初人，宋翰林學士王易簡之祖，官至連州刺史（《宋史·卷二百六十二·王易簡傳》：祖遠，連州刺史）。 | accepted |
 
 ## 关联关系
 
@@ -127,4 +146,5 @@ relationships:
 
 ## 外部来源
 
+- [维基文库：宋史/卷262·王遠](https://zh.wikisource.org/wiki/宋史/卷262)
 - [中国历代人物传记资料库：王遠（CBDB 120189）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=120189&o=json)

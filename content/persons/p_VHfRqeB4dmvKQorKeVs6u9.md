@@ -4,7 +4,7 @@ id: p_VHfRqeB4dmvKQorKeVs6u9
 status: active
 merged_into: null
 display_name: 王默
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,12 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王默，史料所见人物。本项目依据《王默》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王默，南朝宋琅邪臨沂人，車騎將軍王劭之子、王惠之父，官至左光祿大夫（《宋書·卷五十八·王惠傳》：父默，左光祿大夫）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
+        - id: cs_xLtZRB0WdFz79t8_uxSD0O
+          claim_id: c_Pmk4aMgUe2isV-Wm2ldKaX
+          source_id: s_l2eK_-GrWQKVcf5jE2g8-Q
+          stance: supports
+          locator: 宋書/卷58·王默
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_l2eK_-GrWQKVcf5jE2g8-Q
+            source_type: website
+            title: 维基文库：宋書/卷58·王默
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/宋書/卷58
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:14:35.000Z
+            metadata_json: null
         - id: cs_OsIazDid1Ao2OHqPtsKv0v
           claim_id: c_Pmk4aMgUe2isV-Wm2ldKaX
           source_id: s_Q9cdzP7P4drQ2aN5ZutLLx
@@ -317,7 +336,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王默，史料所见人物。本项目依据《王默》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王默，南朝宋琅邪臨沂人，車騎將軍王劭之子、王惠之父，官至左光祿大夫（《宋書·卷五十八·王惠傳》：父默，左光祿大夫）。 | accepted |
 | name.primary | 王默 | accepted |
 
 ## 关联关系
@@ -332,6 +351,7 @@ relationships:
 
 - [维基数据：王惠（Q22079104）](https://www.wikidata.org/wiki/Q22079104)
 - [维基数据：王默（Q22814761）](https://www.wikidata.org/wiki/Q22814761)
+- [维基文库：宋書/卷58·王默](https://zh.wikisource.org/wiki/宋書/卷58)
 - [維基數據：王劭（Q15924805）](https://www.wikidata.org/wiki/Q15924805)
 - [中文维基百科：琅邪王氏世系圖](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F%E4%B8%96%E7%B3%BB%E5%9C%96)
 - [中文维基百科：王鉴 (刘宋)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%89%B4_(%E5%88%98%E5%AE%8B))

@@ -4,7 +4,7 @@ id: p_u9WD9GC8pjW4gy1ie17b1C
 status: active
 merged_into: null
 display_name: 王楫
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,12 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王楫，史料所见人物。本项目依据《王楫》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王楫，南朝齊琅邪臨沂人，司空王僧虔之子、王筠之父，官至太中大夫（《梁書·卷三十三·王筠傳》：父楫，太中大夫）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
+        - id: cs_X2Ga9lmxK8LoXfw6F6LOO6
+          claim_id: c_33jtza7-uwDRtIA3GpJNDV
+          source_id: s_eC9XgPV1hTm19EF55IuxsY
+          stance: supports
+          locator: 梁書/卷33·王楫
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_eC9XgPV1hTm19EF55IuxsY
+            source_type: website
+            title: 维基文库：梁書/卷33·王楫
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/梁書/卷33
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:14:35.000Z
+            metadata_json: null
         - id: cs_gFBEjRa5yM-eRA3i6086oF
           claim_id: c_33jtza7-uwDRtIA3GpJNDV
           source_id: s_1MtzfTLk1G2YLDdf9eNfRy
@@ -242,7 +261,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王楫，史料所见人物。本项目依据《王楫》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王楫，南朝齊琅邪臨沂人，司空王僧虔之子、王筠之父，官至太中大夫（《梁書·卷三十三·王筠傳》：父楫，太中大夫）。 | accepted |
 | name.primary | 王楫 | accepted |
 
 ## 关联关系
@@ -257,4 +276,5 @@ relationships:
 - [维基数据：王楫（Q22814757）](https://www.wikidata.org/wiki/Q22814757)
 - [维基数据：王僧虔（Q15942059）](https://www.wikidata.org/wiki/Q15942059)
 - [维基数据：王筠（Q16077281）](https://www.wikidata.org/wiki/Q16077281)
+- [维基文库：梁書/卷33·王楫](https://zh.wikisource.org/wiki/梁書/卷33)
 - [中文维基百科：琅邪王氏世系圖](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F%E4%B8%96%E7%B3%BB%E5%9C%96)

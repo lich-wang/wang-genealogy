@@ -4,7 +4,7 @@ id: p_fCpXRw3ympYVRWdSX3T5cq
 status: active
 merged_into: null
 display_name: 王福畤
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,12 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王福畤，史料所见人物。本项目依据《維基數據：王福畤》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王福畤，唐絳州龍門人，隋大儒王通之子，王勔、王勮、王勃之父。官雍州司功參軍，坐王勃事左遷交趾令（《新唐書·卷二百一·王勃傳》：父福畤，繇雍州司功參軍坐勃故左遷交址令）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
+        - id: cs_HPI9GfcMVXF2OvFZY96aES
+          claim_id: c_fg4JUdqKoEUWHKkQvBEugF
+          source_id: s_xRCzAv6nVYLVijronY2MLM
+          stance: supports
+          locator: 新唐書/卷201·王福畤
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_xRCzAv6nVYLVijronY2MLM
+            source_type: website
+            title: 维基文库：新唐書/卷201·王福畤
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/新唐書/卷201
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:14:35.000Z
+            metadata_json: null
         - id: cs_KEoinz08T-Jahw8f7H5qrT
           claim_id: c_fg4JUdqKoEUWHKkQvBEugF
           source_id: s_mX2dmPTN6s4Mj2JsAXsT2d
@@ -758,7 +777,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王福畤，史料所见人物。本项目依据《維基數據：王福畤》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王福畤，唐絳州龍門人，隋大儒王通之子，王勔、王勮、王勃之父。官雍州司功參軍，坐王勃事左遷交趾令（《新唐書·卷二百一·王勃傳》：父福畤，繇雍州司功參軍坐勃故左遷交址令）。 | accepted |
 | birth.date | 622年 | disputed |
 | name.primary | 王福畤 | accepted |
 
@@ -778,6 +797,7 @@ relationships:
 - [维基数据：王勔（Q45418879）](https://www.wikidata.org/wiki/Q45418879)
 - [维基数据：王通（Q11573223）](https://www.wikidata.org/wiki/Q11573223)
 - [维基数据：王助（Q45438791）](https://www.wikidata.org/wiki/Q45438791)
+- [维基文库：新唐書/卷201·王福畤](https://zh.wikisource.org/wiki/新唐書/卷201)
 - [維基數據：王勃（Q1275321）](https://www.wikidata.org/wiki/Q1275321)
 - [維基數據：王福畤（Q18905529）](https://www.wikidata.org/wiki/Q18905529)
 - [中文维基百科：王勃](https://zh.wikipedia.org/wiki/王勃)

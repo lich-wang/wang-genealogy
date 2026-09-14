@@ -4,7 +4,7 @@ id: p_vUZashJkwhd76jSsmrp3UV
 status: active
 merged_into: null
 display_name: 王休
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,12 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王休，史料所见人物。本项目依据《王休》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王休，東晉十六國時北海劇人，前秦丞相王猛之子、劉宋名將王鎮惡之父，仕苻氏為河東太守（《宋書·卷四十五·王鎮惡傳》：父休，偽河東太守）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
+        - id: cs_ktC1mYOT5iMdOxzpuzTZHj
+          claim_id: c_nJ5w3F_9uHCU3N3u8tbdRZ
+          source_id: s_7IsC0WFkPCjrGEEZ4m-R8f
+          stance: supports
+          locator: 宋書/卷45·王休
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_7IsC0WFkPCjrGEEZ4m-R8f
+            source_type: website
+            title: 维基文库：宋書/卷45·王休
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/宋書/卷45
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:14:35.000Z
+            metadata_json: null
         - id: cs_rs9CZxX4W6ljJBiLrDVvgc
           claim_id: c_nJ5w3F_9uHCU3N3u8tbdRZ
           source_id: s_Z4TcogNMRZDDzzWsoWmiTt
@@ -202,7 +221,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王休，史料所见人物。本项目依据《王休》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王休，東晉十六國時北海劇人，前秦丞相王猛之子、劉宋名將王鎮惡之父，仕苻氏為河東太守（《宋書·卷四十五·王鎮惡傳》：父休，偽河東太守）。 | accepted |
 | name.primary | 王休 | accepted |
 
 ## 关联关系
@@ -216,4 +235,5 @@ relationships:
 
 - [维基数据：王休（Q26209876）](https://www.wikidata.org/wiki/Q26209876)
 - [维基数据：王鎮惡（Q15899785）](https://www.wikidata.org/wiki/Q15899785)
+- [维基文库：宋書/卷45·王休](https://zh.wikisource.org/wiki/宋書/卷45)
 - [中文维基百科：王猛](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%8C%9B)

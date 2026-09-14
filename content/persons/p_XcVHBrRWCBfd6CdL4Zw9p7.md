@@ -4,7 +4,7 @@ id: p_XcVHBrRWCBfd6CdL4Zw9p7
 status: active
 merged_into: null
 display_name: 王祥
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,30 +17,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王祥，史料所见人物。本项目依据《琅邪王氏世系圖》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王祥，南朝梁琅邪臨沂人，梁太子詹事王筠之子、隋王胄之父，官至陳黃門侍郎（《隋書·卷七十六·王胄傳》：父祥，陳黃門侍郎）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
-        - id: cs_r0L3jWnsjeefk3o4FNVZ9N
+        - id: cs_SV86reEimNvlxgOhTM6Sdd
           claim_id: c_SnYXU1R1r4THsGa4mBTEWB
-          source_id: s_MGBoig692jprej3f8uiDi2
+          source_id: s_trD-LkowA0de1X54D5ZVFY
           stance: supports
-          locator: null
+          locator: 隋書/卷76·王祥
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_MGBoig692jprej3f8uiDi2
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_trD-LkowA0de1X54D5ZVFY
             source_type: website
-            title: 中文维基百科：琅邪王氏世系圖
-            creator: 维基百科贡献者
-            publisher: Wikimedia Foundation
+            title: 维基文库：隋書/卷76·王祥
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
             published_at_text: null
-            canonical_url: https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F%E4%B8%96%E7%B3%BB%E5%9C%96
+            canonical_url: https://zh.wikisource.org/wiki/隋書/卷76
             external_identifier: null
             license_code: CC-BY-SA-4.0
-            accessed_at: 2026-08-25T02:58:59.171Z
+            accessed_at: 2026-09-14T02:14:35.000Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -68,7 +68,18 @@ properties:
           locator: 条文：世系圖
           quotation: 琅邪王氏世系圖 世系圖：王筠 → 王祥
           interpretation_note: 南陈王筠之子被误接到西晋同名人物。
-          source: *a1
+          source:
+            id: s_MGBoig692jprej3f8uiDi2
+            source_type: website
+            title: 中文维基百科：琅邪王氏世系圖
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F%E4%B8%96%E7%B3%BB%E5%9C%96
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-08-25T02:58:59.171Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -201,7 +212,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王祥，史料所见人物。本项目依据《琅邪王氏世系圖》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王祥，南朝梁琅邪臨沂人，梁太子詹事王筠之子、隋王胄之父，官至陳黃門侍郎（《隋書·卷七十六·王胄傳》：父祥，陳黃門侍郎）。 | accepted |
 | name.primary | 王祥 | accepted |
 
 ## 关联关系
@@ -214,5 +225,6 @@ relationships:
 
 ## 外部来源
 
+- [维基文库：隋書/卷76·王祥](https://zh.wikisource.org/wiki/隋書/卷76)
 - [中文维基百科：琅邪王氏世系圖](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F%E4%B8%96%E7%B3%BB%E5%9C%96)
 - [中文维基文库：《隋书》卷七十六](https://zh.wikisource.org/zh-hant/%E9%9A%8B%E6%9B%B8/%E5%8D%B776)

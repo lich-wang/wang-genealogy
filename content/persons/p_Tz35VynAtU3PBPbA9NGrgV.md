@@ -4,7 +4,7 @@ id: p_Tz35VynAtU3PBPbA9NGrgV
 status: active
 merged_into: null
 display_name: 王会
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,12 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王会，史料所见人物。本项目依据《王会》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王會，西晉琅邪臨沂人，王導從弟王舒之父，官至侍御史（《晉書·卷七十六·王舒傳》：父會，侍御史）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
+        - id: cs_jKlpkXsWtcGEo5NpNwAmgb
+          claim_id: c_6lh8oVoazDHP1QMuIwHyGq
+          source_id: s_evegpqenfps8ZxxKB_hgzY
+          stance: supports
+          locator: 晉書/卷076·王会
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_evegpqenfps8ZxxKB_hgzY
+            source_type: website
+            title: 维基文库：晉書/卷076·王会
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/晉書/卷076
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:14:35.000Z
+            metadata_json: null
         - id: cs_PdFBC2S5g_cChYXCE9Tv_u
           claim_id: c_6lh8oVoazDHP1QMuIwHyGq
           source_id: s_Z2j9zDLjM5J19yfc96E5Ku
@@ -602,7 +621,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王会，史料所见人物。本项目依据《王会》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王會，西晉琅邪臨沂人，王導從弟王舒之父，官至侍御史（《晉書·卷七十六·王舒傳》：父會，侍御史）。 | accepted |
 | name.primary | 王会 | accepted |
 
 ## 关联关系
@@ -618,6 +637,7 @@ relationships:
 - [维基数据：王会（Q22814788）](https://www.wikidata.org/wiki/Q22814788)
 - [维基数据：王览（Q15907839）](https://www.wikidata.org/wiki/Q15907839)
 - [维基数据：王舒（Q15912173）](https://www.wikidata.org/wiki/Q15912173)
+- [维基文库：晉書/卷076·王会](https://zh.wikisource.org/wiki/晉書/卷076)
 - [中文维基百科：琅邪王氏](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F)
 - [中文维基百科：琅邪王氏世系圖](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F%E4%B8%96%E7%B3%BB%E5%9C%96)
 - [中文维基文库：新唐書/卷072中](https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7072%E4%B8%AD)

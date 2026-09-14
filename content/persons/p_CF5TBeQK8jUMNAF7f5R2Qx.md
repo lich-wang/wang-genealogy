@@ -4,7 +4,7 @@ id: p_CF5TBeQK8jUMNAF7f5R2Qx
 status: active
 merged_into: null
 display_name: 王随之
-revision: 3
+revision: 4
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,12 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王随之，史料所见人物。本项目依据《王随之》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王隨之，東晉琅邪臨沂人，中書郎王耆之之子、王鎮之之父，官至上虞令（《宋書·卷九十二·王鎮之傳》：父隨之，上虞令）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
+        - id: cs_cMq-lJnLjZopuEKR33U0TN
+          claim_id: c_fSa5eYjCcVZWXnbeT2VVus
+          source_id: s_nWCEu_wZj-0LGcWPD5Rnnf
+          stance: supports
+          locator: 宋書/卷92·王随之
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_nWCEu_wZj-0LGcWPD5Rnnf
+            source_type: website
+            title: 维基文库：宋書/卷92·王随之
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/宋書/卷92
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:14:35.000Z
+            metadata_json: null
         - id: cs_I4lXCXlgusDAZbvj9f9OcO
           claim_id: c_fSa5eYjCcVZWXnbeT2VVus
           source_id: s_PnQSYLsNJXc2upV6EjS29M
@@ -341,7 +360,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王随之，史料所见人物。本项目依据《王随之》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王隨之，東晉琅邪臨沂人，中書郎王耆之之子、王鎮之之父，官至上虞令（《宋書·卷九十二·王鎮之傳》：父隨之，上虞令）。 | accepted |
 | name.primary | 王随之 | accepted |
 
 ## 关联关系
@@ -360,6 +379,7 @@ relationships:
 - [维基数据：王随之（Q22814795）](https://www.wikidata.org/wiki/Q22814795)
 - [维基数据：王随之（Q45408773）](https://www.wikidata.org/wiki/Q45408773)
 - [维基数据：王镇之（Q45408776）](https://www.wikidata.org/wiki/Q45408776)
+- [维基文库：宋書/卷92·王随之](https://zh.wikisource.org/wiki/宋書/卷92)
 - [中文维基百科：王鎮之](https://zh.wikipedia.org/wiki/%E7%8E%8B%E9%8E%AE%E4%B9%8B)
 - [CBDB 中国历代人物传记资料库：王隨之（25808）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25808&o=json)
 - [CBDB 中国历代人物传记资料库：王鎮之（25809）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=25809&o=json)

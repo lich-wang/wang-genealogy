@@ -4,7 +4,7 @@ id: p_DVJq6ki7XADytLWL91vZ3w
 status: active
 merged_into: null
 display_name: 王粹
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,12 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王粹，史料所见人物。本项目依据《王粹》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王粹，南朝宋琅邪臨沂人，左光祿大夫王僧朗之子、王奐之父，官至黃門侍郎。為梁王份之祖父（《梁書·卷二十一·王份傳》：父粹，黃門侍郎）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
+        - id: cs_CMCD0FOozqdFftcsrHQPue
+          claim_id: c_iGMQ7zL7_TXByC6B-Pf4l2
+          source_id: s_pJHknmxulQ2kM2gw6Rx5bt
+          stance: supports
+          locator: 梁書/卷21·王粹
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_pJHknmxulQ2kM2gw6Rx5bt
+            source_type: website
+            title: 维基文库：梁書/卷21·王粹
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/梁書/卷21
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:14:35.000Z
+            metadata_json: null
         - id: cs_U6MX0ZwsZLRJdOr8siBf5k
           claim_id: c_iGMQ7zL7_TXByC6B-Pf4l2
           source_id: s_VJtscsmoPHMJFWLdXMikZS
@@ -261,7 +280,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王粹，史料所见人物。本项目依据《王粹》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王粹，南朝宋琅邪臨沂人，左光祿大夫王僧朗之子、王奐之父，官至黃門侍郎。為梁王份之祖父（《梁書·卷二十一·王份傳》：父粹，黃門侍郎）。 | accepted |
 | name.primary | 王粹 | accepted |
 
 ## 关联关系
@@ -278,3 +297,4 @@ relationships:
 - [维基数据：王份（Q11572894）](https://www.wikidata.org/wiki/Q11572894)
 - [维基数据：王奂（Q22814768）](https://www.wikidata.org/wiki/Q22814768)
 - [维基数据：王僧朗（Q22814767）](https://www.wikidata.org/wiki/Q22814767)
+- [维基文库：梁書/卷21·王粹](https://zh.wikisource.org/wiki/梁書/卷21)

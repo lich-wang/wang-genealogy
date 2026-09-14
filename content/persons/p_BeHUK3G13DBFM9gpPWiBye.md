@@ -4,7 +4,7 @@ id: p_BeHUK3G13DBFM9gpPWiBye
 status: active
 merged_into: null
 display_name: 王茂之
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,12 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王茂之，史料所见人物。本项目依据《王茂之》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王茂之，東晉琅邪臨沂人，王臨之之弟、南朝宋王敬弘之父，官至晉陵太守（《宋書·卷六十六·王敬弘傳》：父茂之，晉陵太守）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
+        - id: cs__P5IHG6DzjOCXgx-ThGxpV
+          claim_id: c_2KIHncWGTXTMnAjsmXg4j3
+          source_id: s_vqi6ldJRjl7EPHEfAszY8D
+          stance: supports
+          locator: 宋書/卷66·王茂之
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_vqi6ldJRjl7EPHEfAszY8D
+            source_type: website
+            title: 维基文库：宋書/卷66·王茂之
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/宋書/卷66
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:14:35.000Z
+            metadata_json: null
         - id: cs_yLUebJjjhh5oE2KAQLgqsW
           claim_id: c_2KIHncWGTXTMnAjsmXg4j3
           source_id: s_VM2uZf2Kx5XN529A4HbZTS
@@ -204,7 +223,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王茂之，史料所见人物。本项目依据《王茂之》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王茂之，東晉琅邪臨沂人，王臨之之弟、南朝宋王敬弘之父，官至晉陵太守（《宋書·卷六十六·王敬弘傳》：父茂之，晉陵太守）。 | accepted |
 | name.primary | 王茂之 | accepted |
 
 ## 关联关系
@@ -219,3 +238,4 @@ relationships:
 - [维基数据：王胡之（Q19825735）](https://www.wikidata.org/wiki/Q19825735)
 - [维基数据：王敬弘（Q13560629）](https://www.wikidata.org/wiki/Q13560629)
 - [维基数据：王茂之（Q22814793）](https://www.wikidata.org/wiki/Q22814793)
+- [维基文库：宋書/卷66·王茂之](https://zh.wikisource.org/wiki/宋書/卷66)

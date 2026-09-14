@@ -4,7 +4,7 @@ id: p_vvqE2mAa43tXLYgrVcoKyQ
 status: active
 merged_into: null
 display_name: 王澤
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,30 +17,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王澤，史料所见人物。本项目依据《中文维基文库：新唐書/卷072中》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王澤，字季道，三國魏太原晉陽人，王昶之父、王柔之弟。與兄柔並以德行知名，郭林宗許為二千石才，官至代郡太守（《三國志·卷二十七·王昶傳》：父澤，字季道，代郡太守）。
           language: zh-Hant
         status: accepted
         confidence: medium
-        current_revision: 1
+        current_revision: 2
       sources:
-        - id: cs_f8mVwlUk3-0dPr0bRDDFKs
+        - id: cs_hvmGyQMXA4nGi3L4m3p4Rj
           claim_id: c_H_GJ25Ev0mHAsHlBM6T_9o
-          source_id: s_XmK4uXKaoBAKcwvzzk8Dzr
+          source_id: s_C-9WtiyqUJ1O1zND60bFmD
           stance: supports
-          locator: null
+          locator: 三國志/卷27·王澤
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_XmK4uXKaoBAKcwvzzk8Dzr
-            source_type: book
-            title: 中文维基文库：新唐書/卷072中
-            creator: null
-            publisher: 维基文库
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_C-9WtiyqUJ1O1zND60bFmD
+            source_type: website
+            title: 维基文库：三國志/卷27·王澤
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
             published_at_text: null
-            canonical_url: https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7072%E4%B8%AD
+            canonical_url: https://zh.wikisource.org/wiki/三國志/卷27
             external_identifier: null
             license_code: CC-BY-SA-4.0
-            accessed_at: 2026-08-25T10:12:55.026Z
+            accessed_at: 2026-09-14T02:14:35.000Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -68,7 +68,18 @@ properties:
           locator: CBDB:null
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_XmK4uXKaoBAKcwvzzk8Dzr
+            source_type: book
+            title: 中文维基文库：新唐書/卷072中
+            creator: null
+            publisher: 维基文库
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7072%E4%B8%AD
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-08-25T10:12:55.026Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -127,7 +138,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王澤，史料所见人物。本项目依据《中文维基文库：新唐書/卷072中》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王澤，字季道，三國魏太原晉陽人，王昶之父、王柔之弟。與兄柔並以德行知名，郭林宗許為二千石才，官至代郡太守（《三國志·卷二十七·王昶傳》：父澤，字季道，代郡太守）。 | accepted |
 | name.primary | 王澤 | accepted |
 
 ## 关联关系
@@ -138,5 +149,6 @@ relationships:
 
 ## 外部来源
 
+- [维基文库：三國志/卷27·王澤](https://zh.wikisource.org/wiki/三國志/卷27)
 - [中文维基文库：三國志/卷27](https://zh.wikisource.org/wiki/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B727)
 - [中文维基文库：新唐書/卷072中](https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7072%E4%B8%AD)

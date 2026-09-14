@@ -5,7 +5,7 @@ status: active
 merged_into: null
 display_name: 王规
 cbdb_id: 162329
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -18,12 +18,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王规（生于492年），史料所见人物。本项目依据《王规》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王規，字威明，琅邪臨沂人，南朝梁名臣，祖王儉、父王騫，官至侍中、左民尚書，封南昌章侯。子王褒（《周書·卷四十一·王褒傳》：父規，梁侍中、左民尚書、南昌章侯）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
+        - id: cs_S6lB3HyyKI6sgSQvdWp1gt
+          claim_id: c_SN3MKN8q64j4J4ST8a35Xw
+          source_id: s_YRAYbt0rR7QTvw_NKw5nDo
+          stance: supports
+          locator: 周書/卷41·王规
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_YRAYbt0rR7QTvw_NKw5nDo
+            source_type: website
+            title: 维基文库：周書/卷41·王规
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/周書/卷41
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:14:35.000Z
+            metadata_json: null
         - id: cs_3s9RqD9L37CQGX0gKkq5uX
           claim_id: c_SN3MKN8q64j4J4ST8a35Xw
           source_id: s_2PBtrEh1zDAZWj4V8jNPMP
@@ -384,7 +403,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王规（生于492年），史料所见人物。本项目依据《王规》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王規，字威明，琅邪臨沂人，南朝梁名臣，祖王儉、父王騫，官至侍中、左民尚書，封南昌章侯。子王褒（《周書·卷四十一·王褒傳》：父規，梁侍中、左民尚書、南昌章侯）。 | accepted |
 | birth.date | 492年 | accepted |
 | name.primary | 王规 | accepted |
 
@@ -400,6 +419,7 @@ relationships:
 - [维基数据：王褒（Q10416850）](https://www.wikidata.org/wiki/Q10416850)
 - [维基数据：王规（Q10416918）](https://www.wikidata.org/wiki/Q10416918)
 - [维基数据：王骞（Q11573249）](https://www.wikidata.org/wiki/Q11573249)
+- [维基文库：周書/卷41·王规](https://zh.wikisource.org/wiki/周書/卷41)
 - [中文维基百科：琅邪王氏世系圖](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F%E4%B8%96%E7%B3%BB%E5%9C%96)
 - [中文维基文库：新唐書/卷072中](https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7072%E4%B8%AD)
 - [CBDB 中国历代人物传记资料库：王規（162329）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=162329&o=json)

@@ -4,7 +4,7 @@ id: p_jmPkyeZkLCgqyQZAUfD7mt
 status: active
 merged_into: null
 display_name: 王伟之
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,12 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王伟之，史料所见人物。本项目依据《王伟之》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王偉之，東晉琅邪臨沂人，驃騎將軍王廙曾孫，王韶之之父，官至本國郎中令、烏程令（《宋書·卷六十·王韶之傳》：父偉之，本國郎中令）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
+        - id: cs_yDGtGCs84mtBFK3oLlhYGx
+          claim_id: c_GvePNiiwtC8MZZuusEFkAN
+          source_id: s_PfH0DzsstU7EWlhBKstpt4
+          stance: supports
+          locator: 宋書/卷60·王伟之
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_PfH0DzsstU7EWlhBKstpt4
+            source_type: website
+            title: 维基文库：宋書/卷60·王伟之
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/宋書/卷60
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:14:35.000Z
+            metadata_json: null
         - id: cs_YZK0sOT4qHtNIyPQ78p-ID
           claim_id: c_GvePNiiwtC8MZZuusEFkAN
           source_id: s_VKa4tB4SnbfLR1kZ6e9NC6
@@ -214,7 +233,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王伟之，史料所见人物。本项目依据《王伟之》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王偉之，東晉琅邪臨沂人，驃騎將軍王廙曾孫，王韶之之父，官至本國郎中令、烏程令（《宋書·卷六十·王韶之傳》：父偉之，本國郎中令）。 | accepted |
 | name.primary | 王伟之 | accepted |
 
 ## 关联关系
@@ -229,3 +248,4 @@ relationships:
 - [维基数据：王韶之（Q5212674）](https://www.wikidata.org/wiki/Q5212674)
 - [维基数据：王伟之（Q22814802）](https://www.wikidata.org/wiki/Q22814802)
 - [维基数据：王羡之（Q22814801）](https://www.wikidata.org/wiki/Q22814801)
+- [维基文库：宋書/卷60·王伟之](https://zh.wikisource.org/wiki/宋書/卷60)

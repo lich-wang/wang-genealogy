@@ -4,7 +4,7 @@ id: p_RFAxApRNSJsF8v1A2DNDnv
 status: active
 merged_into: null
 display_name: 王升之
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,12 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王升之，史料所见人物。本项目依据《王升之》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王昇之，南朝宋齊琅邪臨沂人，南齊侍中王延之之父，官至都官尚書（《南齊書·卷三十二·王延之傳》：父昇之，都官尚書）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
+        - id: cs_FwVUYuA-ZNhNw_fH4ZsahT
+          claim_id: c_Prtj9PAUYaJnvjSAouu6tO
+          source_id: s_XbWUevDSIhmQuZ1zZr_Ved
+          stance: supports
+          locator: 南齊書/卷32·王升之
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_XbWUevDSIhmQuZ1zZr_Ved
+            source_type: website
+            title: 维基文库：南齊書/卷32·王升之
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/南齊書/卷32
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:14:35.000Z
+            metadata_json: null
         - id: cs_db5KNUtmBYCCAiRqngxN-q
           claim_id: c_Prtj9PAUYaJnvjSAouu6tO
           source_id: s_54TckusWZsSoGRhAq3CDxS
@@ -241,7 +260,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王升之，史料所见人物。本项目依据《王升之》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王昇之，南朝宋齊琅邪臨沂人，南齊侍中王延之之父，官至都官尚書（《南齊書·卷三十二·王延之傳》：父昇之，都官尚書）。 | accepted |
 | name.primary | 王升之 | accepted |
 
 ## 关联关系
@@ -257,4 +276,5 @@ relationships:
 - [维基数据：王敬弘（Q13560629）](https://www.wikidata.org/wiki/Q13560629)
 - [维基数据：王升之（Q22815001）](https://www.wikidata.org/wiki/Q22815001)
 - [维基数据：王延之（Q11573058）](https://www.wikidata.org/wiki/Q11573058)
+- [维基文库：南齊書/卷32·王升之](https://zh.wikisource.org/wiki/南齊書/卷32)
 - [中文维基百科：王伦之](https://zh.wikipedia.org/wiki/%E7%8E%8B%E4%BC%A6%E4%B9%8B)

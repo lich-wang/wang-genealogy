@@ -4,7 +4,7 @@ id: p_D7vc16ZCnBApa7DLYpzhzq
 status: active
 merged_into: null
 display_name: 王芝
-revision: 2
+revision: 3
 properties:
   - predicate: name.primary
     recommended:
@@ -55,12 +55,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王芝，史料所见人物。本项目依据《中国历代人物传记资料库：王芝（CBDB 121459）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王芝，北宋初人，宋知京使王延德之曾祖，官至濮陽令（《宋史·卷三百九·王延德傳》：曾祖芝，濮陽令）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
+        - id: cs_RruhUutDcPb-F6fUu8_XvA
+          claim_id: c_YvHjFawhLWNsB3hoyKT8Lc
+          source_id: s_0S-BpphDalxOQqhF3MV6pN
+          stance: supports
+          locator: 宋史/卷309·王芝
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_0S-BpphDalxOQqhF3MV6pN
+            source_type: website
+            title: 维基文库：宋史/卷309·王芝
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/宋史/卷309
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:14:35.000Z
+            metadata_json: null
         - id: cs_Wy5U7e2N7RJjQpsTroP32c
           claim_id: c_YvHjFawhLWNsB3hoyKT8Lc
           source_id: s_R65cHsL7kKwHqM3tUu5xZF
@@ -117,7 +136,7 @@ relationships:
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
 | name.primary | 王芝 | accepted |
-| bio.summary | 王芝，史料所见人物。本项目依据《中国历代人物传记资料库：王芝（CBDB 121459）》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王芝，北宋初人，宋知京使王延德之曾祖，官至濮陽令（《宋史·卷三百九·王延德傳》：曾祖芝，濮陽令）。 | accepted |
 
 ## 关联关系
 
@@ -127,4 +146,5 @@ relationships:
 
 ## 外部来源
 
+- [维基文库：宋史/卷309·王芝](https://zh.wikisource.org/wiki/宋史/卷309)
 - [中国历代人物传记资料库：王芝（CBDB 121459）](https://cbdb.fas.harvard.edu/cbdbapi/person.php?id=121459&o=json)

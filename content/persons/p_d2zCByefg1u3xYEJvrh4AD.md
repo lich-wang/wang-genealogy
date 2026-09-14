@@ -4,7 +4,7 @@ id: p_d2zCByefg1u3xYEJvrh4AD
 status: active
 merged_into: null
 display_name: 王秀之
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,12 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王秀之（442年—494年），史料所见人物。本项目依据《王秀之》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王秀之，字伯奮，琅邪臨沂人，祖王裕、父王瓚之。南朝齊廉吏，歷晉平太守、吳興太守、侍中，以「恐富求歸」見稱。為梁王峻之父（《梁書·卷二十一·王峻傳》：父秀之，吳興太守）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 5
+        current_revision: 6
       sources:
+        - id: cs_cKrHPt84jJWOHt8qDWk_oY
+          claim_id: c_naLuZCVeNKSF5CLM4p7w1y
+          source_id: s_pJHknmxulQ2kM2gw6Rx5bt
+          stance: supports
+          locator: 梁書/卷21·王秀之
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_pJHknmxulQ2kM2gw6Rx5bt
+            source_type: website
+            title: 维基文库：梁書/卷21·王秀之
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/梁書/卷21
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:14:35.000Z
+            metadata_json: null
         - id: cs_IIMMsPWinXfsBkCy334l9d
           claim_id: c_naLuZCVeNKSF5CLM4p7w1y
           source_id: s_Mm7T9pWrxZB411yCw22csg
@@ -329,7 +348,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王秀之（442年—494年），史料所见人物。本项目依据《王秀之》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王秀之，字伯奮，琅邪臨沂人，祖王裕、父王瓚之。南朝齊廉吏，歷晉平太守、吳興太守、侍中，以「恐富求歸」見稱。為梁王峻之父（《梁書·卷二十一·王峻傳》：父秀之，吳興太守）。 | accepted |
 | birth.date | 442年 | accepted |
 | death.date | 494年 | accepted |
 | name.primary | 王秀之 | accepted |
@@ -347,4 +366,5 @@ relationships:
 - [维基数据：王峻（Q11573046）](https://www.wikidata.org/wiki/Q11573046)
 - [维基数据：王秀之（Q11573186）](https://www.wikidata.org/wiki/Q11573186)
 - [维基数据：王瓒之（Q22815013）](https://www.wikidata.org/wiki/Q22815013)
+- [维基文库：梁書/卷21·王秀之](https://zh.wikisource.org/wiki/梁書/卷21)
 - [中文维基百科：王琮 (南梁)](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%90%AE_(%E5%8D%97%E6%A2%81))

@@ -4,7 +4,7 @@ id: p_N9fxEcP8n1PZnQ6mnfbKCK
 status: active
 merged_into: null
 display_name: 王基
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,12 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王基，史料所见人物。本项目依据《維基數據：王基》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王基，西晉琅邪臨沂人，王覽之子、王敦、王含之父，官至治書侍御史（《晉書·卷九十八·王敦傳》：父基，治書侍御史）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
+        - id: cs_Qt0xj0kCXNUVLSn5suTBOq
+          claim_id: c_bwesxf1l49TgnAE8Zyo_id
+          source_id: s_23Y8WRj-WyLsrUGTt1EIaH
+          stance: supports
+          locator: 晉書/卷098·王基
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_23Y8WRj-WyLsrUGTt1EIaH
+            source_type: website
+            title: 维基文库：晉書/卷098·王基
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/晉書/卷098
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:14:35.000Z
+            metadata_json: null
         - id: cs_NFjOJl0cBXRxFuWAUfdAI8
           claim_id: c_bwesxf1l49TgnAE8Zyo_id
           source_id: s_gsH9CP8M4PeHH8kNKDGt1W
@@ -755,7 +774,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王基，史料所见人物。本项目依据《維基數據：王基》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王基，西晉琅邪臨沂人，王覽之子、王敦、王含之父，官至治書侍御史（《晉書·卷九十八·王敦傳》：父基，治書侍御史）。 | accepted |
 | name.primary | 王基 | accepted |
 
 ## 关联关系
@@ -770,6 +789,7 @@ relationships:
 
 - [维基数据：王含（Q11049496）](https://www.wikidata.org/wiki/Q11049496)
 - [维基数据：王览（Q15907839）](https://www.wikidata.org/wiki/Q15907839)
+- [维基文库：晉書/卷098·王基](https://zh.wikisource.org/wiki/晉書/卷098)
 - [維基數據：王敦（Q712016）](https://www.wikidata.org/wiki/Q712016)
 - [維基數據：王基（Q22814890）](https://www.wikidata.org/wiki/Q22814890)
 - [中文维基百科：琅邪王氏](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F)

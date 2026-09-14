@@ -4,7 +4,7 @@ id: p_r89B5FGzzcf37RUXeDAGJi
 status: active
 merged_into: null
 display_name: 王瓒之
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,12 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王瓒之，史料所见人物。本项目依据《王瓒之》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王瓚之，南朝宋齊琅邪臨沂人，左光祿大夫王裕之子、王秀之之父，官至金紫光祿大夫。為南齊王峻之祖父（《南齊書·卷四十六·王秀之傳》：父瓚之，金紫光祿大夫）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
+        - id: cs_-U_HGA_BF5OKjTuQ4W37XN
+          claim_id: c_5v-FnKBpEIwS1W0-NHN_rS
+          source_id: s_ZVdeu3-kfK2cfTRC1zJCNQ
+          stance: supports
+          locator: 南齊書/卷46·王瓒之
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_ZVdeu3-kfK2cfTRC1zJCNQ
+            source_type: website
+            title: 维基文库：南齊書/卷46·王瓒之
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/南齊書/卷46
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:14:35.000Z
+            metadata_json: null
         - id: cs_m8nyaBzQtqpVIAIU_EEyzw
           claim_id: c_5v-FnKBpEIwS1W0-NHN_rS
           source_id: s_T7QU695AMnNHcJsPzAPCKN
@@ -204,7 +223,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王瓒之，史料所见人物。本项目依据《王瓒之》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王瓚之，南朝宋齊琅邪臨沂人，左光祿大夫王裕之子、王秀之之父，官至金紫光祿大夫。為南齊王峻之祖父（《南齊書·卷四十六·王秀之傳》：父瓚之，金紫光祿大夫）。 | accepted |
 | name.primary | 王瓒之 | accepted |
 
 ## 关联关系
@@ -219,3 +238,4 @@ relationships:
 - [维基数据：王敬弘（Q13560629）](https://www.wikidata.org/wiki/Q13560629)
 - [维基数据：王秀之（Q11573186）](https://www.wikidata.org/wiki/Q11573186)
 - [维基数据：王瓒之（Q22815013）](https://www.wikidata.org/wiki/Q22815013)
+- [维基文库：南齊書/卷46·王瓒之](https://zh.wikisource.org/wiki/南齊書/卷46)

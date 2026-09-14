@@ -4,7 +4,7 @@ id: p_SmpjDNTEMx1uE23Y8ezmCB
 status: active
 merged_into: null
 display_name: 王道琰
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,12 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王道琰（生于5世纪），史料所见人物。本项目依据《王道琰》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王道琰，南朝宋齊琅邪臨沂人，中書令王僧達之子、南齊王融之父，官至廬陵內史。母為謝惠宣女（《南齊書·卷四十七·王融傳》：父道琰，廬陵內史）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
+        - id: cs_Y40jCKwT_NCvqNBRUexsKx
+          claim_id: c_WRkMeVRJW2qn3rshr_RuNu
+          source_id: s_nFJwPc5lsn60Nr5RuOvy7A
+          stance: supports
+          locator: 南齊書/卷47·王道琰
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_nFJwPc5lsn60Nr5RuOvy7A
+            source_type: website
+            title: 维基文库：南齊書/卷47·王道琰
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/南齊書/卷47
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:14:35.000Z
+            metadata_json: null
         - id: cs_qwmKxTgNfHIwun_7jzq1Iu
           claim_id: c_WRkMeVRJW2qn3rshr_RuNu
           source_id: s_ZXScUah9a7PnyVbggx2JBz
@@ -288,7 +307,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王道琰（生于5世纪），史料所见人物。本项目依据《王道琰》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王道琰，南朝宋齊琅邪臨沂人，中書令王僧達之子、南齊王融之父，官至廬陵內史。母為謝惠宣女（《南齊書·卷四十七·王融傳》：父道琰，廬陵內史）。 | accepted |
 | birth.date | 5世纪 | accepted |
 | name.primary | 王道琰 | accepted |
 
@@ -304,4 +323,5 @@ relationships:
 - [维基数据：王道琰（Q16906228）](https://www.wikidata.org/wiki/Q16906228)
 - [维基数据：王融（Q11573204）](https://www.wikidata.org/wiki/Q11573204)
 - [维基数据：王僧达（Q13219054）](https://www.wikidata.org/wiki/Q13219054)
+- [维基文库：南齊書/卷47·王道琰](https://zh.wikisource.org/wiki/南齊書/卷47)
 - [中文维基百科：琅邪王氏世系圖](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F%E4%B8%96%E7%B3%BB%E5%9C%96)

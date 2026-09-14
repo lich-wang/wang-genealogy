@@ -4,7 +4,7 @@ id: p_Sne6C5MyZwDe7MZss7kard
 status: active
 merged_into: null
 display_name: 王松年
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,30 +17,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王松年，史料所见人物。本项目依据《太原王氏》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王松年，北齊太原晉陽人，隋儒臣王劭之父，官至齊通直散騎侍郎（《隋書·卷六十九·王劭傳》：父松年，齊通直散騎侍郎）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
-        - id: cs_AModoJZwTCa-Vm-RwaoGwJ
+        - id: cs_4fd6XxbS_Q0HAxj-tObitV
           claim_id: c_t4LICiOdwISN8aRwXH6N3O
-          source_id: s_8v3HEWJMg8p43rd4zxNR9r
+          source_id: s_vpgMhhAv8qWBskHGx3kXvw
           stance: supports
-          locator: null
+          locator: 隋書/卷69·王松年
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_8v3HEWJMg8p43rd4zxNR9r
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_vpgMhhAv8qWBskHGx3kXvw
             source_type: website
-            title: 中文维基百科：太原王氏
-            creator: 维基百科贡献者
-            publisher: Wikimedia Foundation
+            title: 维基文库：隋書/卷69·王松年
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
             published_at_text: null
-            canonical_url: https://zh.wikipedia.org/wiki/%E5%A4%AA%E5%8E%9F%E7%8E%8B%E6%B0%8F
+            canonical_url: https://zh.wikisource.org/wiki/隋書/卷69
             external_identifier: null
             license_code: CC-BY-SA-4.0
-            accessed_at: 2026-08-24T12:07:15.556Z
+            accessed_at: 2026-09-14T02:14:35.000Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -68,7 +68,18 @@ properties:
           locator: Q18926040
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_8v3HEWJMg8p43rd4zxNR9r
+            source_type: website
+            title: 中文维基百科：太原王氏
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E5%A4%AA%E5%8E%9F%E7%8E%8B%E6%B0%8F
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-08-24T12:07:15.556Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -278,7 +289,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王松年，史料所见人物。本项目依据《太原王氏》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王松年，北齊太原晉陽人，隋儒臣王劭之父，官至齊通直散騎侍郎（《隋書·卷六十九·王劭傳》：父松年，齊通直散騎侍郎）。 | accepted |
 | name.primary | 王松年 | accepted |
 
 ## 关联关系
@@ -290,4 +301,5 @@ relationships:
 
 ## 外部来源
 
+- [维基文库：隋書/卷69·王松年](https://zh.wikisource.org/wiki/隋書/卷69)
 - [中文维基百科：太原王氏](https://zh.wikipedia.org/wiki/%E5%A4%AA%E5%8E%9F%E7%8E%8B%E6%B0%8F)

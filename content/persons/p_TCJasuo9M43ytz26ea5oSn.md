@@ -4,7 +4,7 @@ id: p_TCJasuo9M43ytz26ea5oSn
 status: active
 merged_into: null
 display_name: 王益
-revision: 2
+revision: 3
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,12 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王益（993年—1038年），史料所见人物。本项目依据《維基數據：王益》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王益，北宋臨川人，字損之，王安石之父。官至都官員外郎、知韶州，贈太師、中書令。妻吳氏（《宋史·卷三百二十七·王安石傳》：父益，都官員外郎）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 4
+        current_revision: 5
       sources:
+        - id: cs_zTGGXtQsOqCaSuCezoget7
+          claim_id: c_FBQL2iCgVaqhvTgv2HU2bt
+          source_id: s_t3UYVW1Qj9ZWBYJKyJ3F7I
+          stance: supports
+          locator: 宋史/卷327·王益
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_t3UYVW1Qj9ZWBYJKyJ3F7I
+            source_type: website
+            title: 维基文库：宋史/卷327·王益
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/宋史/卷327
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:14:35.000Z
+            metadata_json: null
         - id: cs_5KNwd43g3YCbaRNGla0-Hx
           claim_id: c_FBQL2iCgVaqhvTgv2HU2bt
           source_id: s_c3iRor2ubBu2jQ1UWHJaUS
@@ -1171,7 +1190,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王益（993年—1038年），史料所见人物。本项目依据《維基數據：王益》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王益，北宋臨川人，字損之，王安石之父。官至都官員外郎、知韶州，贈太師、中書令。妻吳氏（《宋史·卷三百二十七·王安石傳》：父益，都官員外郎）。 | accepted |
 | birth.date | 993年 | accepted |
 | death.date | 1038年 | accepted |
 | name.primary | 王益 | accepted |
@@ -1202,6 +1221,7 @@ relationships:
 - [维基数据：王安上（Q45359357）](https://www.wikidata.org/wiki/Q45359357)
 - [维基数据：王文淑（Q45363736）](https://www.wikidata.org/wiki/Q45363736)
 - [维基数据：王用之（Q45389721）](https://www.wikidata.org/wiki/Q45389721)
+- [维基文库：宋史/卷327·王益](https://zh.wikisource.org/wiki/宋史/卷327)
 - [維基數據：王安石（Q319618）](https://www.wikidata.org/wiki/Q319618)
 - [維基數據：王益（Q45365249）](https://www.wikidata.org/wiki/Q45365249)
 - [維基數據：吴氏（Q45364102）](https://www.wikidata.org/wiki/Q45364102)

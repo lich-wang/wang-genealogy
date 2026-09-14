@@ -4,7 +4,7 @@ id: p_LSeHCrZ5JqS6zCkT9tqqP9
 status: active
 merged_into: null
 display_name: 王柳
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,30 +17,30 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王柳，史料所见人物。本项目依据《王瞻》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王柳，南朝宋琅邪臨沂人，太保王弘之子，官至光祿大夫，封東亭侯。為梁王瞻之祖父（《梁書·卷二十一·王瞻傳》：祖柳，光祿大夫、東亭侯）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 2
+        current_revision: 3
       sources:
-        - id: cs_ScreBqYHRBJVMYQi9jvPu_
+        - id: cs_DetS7J1iB-yOPbf2TC2dGN
           claim_id: c_N-cvMNPzXHsClmmzM0ufZv
-          source_id: s_N6pCeEd3CvKnXMwyJREMNJ
+          source_id: s_pJHknmxulQ2kM2gw6Rx5bt
           stance: supports
-          locator: null
+          locator: 梁書/卷21·王柳
           quotation: null
-          interpretation_note: 自动补全人物基本介绍；身份由稳定外部标识锁定，信息来源层级为 source。
-          source: &a1
-            id: s_N6pCeEd3CvKnXMwyJREMNJ
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_pJHknmxulQ2kM2gw6Rx5bt
             source_type: website
-            title: 中文维基百科：王瞻
-            creator: 维基百科贡献者
-            publisher: Wikimedia Foundation
+            title: 维基文库：梁書/卷21·王柳
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
             published_at_text: null
-            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%9E%BB
+            canonical_url: https://zh.wikisource.org/wiki/梁書/卷21
             external_identifier: null
             license_code: CC-BY-SA-4.0
-            accessed_at: 2026-08-25T02:41:52.699Z
+            accessed_at: 2026-09-14T02:14:35.000Z
             metadata_json: null
       object_person: null
     alternatives: []
@@ -68,7 +68,18 @@ properties:
           locator: CBDB:null
           quotation: null
           interpretation_note: null
-          source: *a1
+          source:
+            id: s_N6pCeEd3CvKnXMwyJREMNJ
+            source_type: website
+            title: 中文维基百科：王瞻
+            creator: 维基百科贡献者
+            publisher: Wikimedia Foundation
+            published_at_text: null
+            canonical_url: https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%9E%BB
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-08-25T02:41:52.699Z
+            metadata_json: null
       object_person: null
     alternatives: []
 relationships:
@@ -164,7 +175,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王柳，史料所见人物。本项目依据《王瞻》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王柳，南朝宋琅邪臨沂人，太保王弘之子，官至光祿大夫，封東亭侯。為梁王瞻之祖父（《梁書·卷二十一·王瞻傳》：祖柳，光祿大夫、東亭侯）。 | accepted |
 | name.primary | 王柳 | accepted |
 
 ## 关联关系
@@ -176,5 +187,6 @@ relationships:
 
 ## 外部来源
 
+- [维基文库：梁書/卷21·王柳](https://zh.wikisource.org/wiki/梁書/卷21)
 - [中文维基百科：王瞻](https://zh.wikipedia.org/wiki/%E7%8E%8B%E7%9E%BB)
 - [中文维基文库：新唐書/卷072中](https://zh.wikisource.org/wiki/%E6%96%B0%E5%94%90%E6%9B%B8%2F%E5%8D%B7072%E4%B8%AD)

@@ -4,7 +4,7 @@ id: p_XMjNEYPhE1uYhd3QLBRmJD
 status: active
 merged_into: null
 display_name: 王筠
-revision: 1
+revision: 2
 properties:
   - predicate: bio.summary
     recommended:
@@ -17,12 +17,31 @@ properties:
         generation_count: null
         parent_role: null
         value_json:
-          text: 王筠（481年—549年），史料所见人物。本项目依据《王筠》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。
+          text: 王筠，字元禮，琅邪臨沂人，南朝梁文學家，司空王僧虔之孫、王楫之子，官至太子詹事。為隋王胄之祖父（《隋書·卷七十六·王胄傳》：祖筠，梁太子詹事）。
           language: zh-Hans
         status: accepted
         confidence: medium
-        current_revision: 3
+        current_revision: 4
       sources:
+        - id: cs_Z4Cy_E4CceJy0qSEWAAdTu
+          claim_id: c_EzpI8e6SGa1Szd2gx2SRKu
+          source_id: s_trD-LkowA0de1X54D5ZVFY
+          stance: supports
+          locator: 隋書/卷76·王筠
+          quotation: null
+          interpretation_note: 依正史传主列传中点名的亲属记载补写简介。
+          source:
+            id: s_trD-LkowA0de1X54D5ZVFY
+            source_type: website
+            title: 维基文库：隋書/卷76·王筠
+            creator: 维基文库贡献者
+            publisher: 维基媒体基金会
+            published_at_text: null
+            canonical_url: https://zh.wikisource.org/wiki/隋書/卷76
+            external_identifier: null
+            license_code: CC-BY-SA-4.0
+            accessed_at: 2026-09-14T02:14:35.000Z
+            metadata_json: null
         - id: cs_xrBtWvrJld6nOc5qUD0QJK
           claim_id: c_EzpI8e6SGa1Szd2gx2SRKu
           source_id: s_PpsMmXMZord5mks9J6xjD2
@@ -458,7 +477,7 @@ relationships:
 
 | 字段 | 内容 | 状态 |
 | --- | --- | --- |
-| bio.summary | 王筠（481年—549年），史料所见人物。本项目依据《王筠》所载的独立记录收录其姓名；目前可核实的信息仍较有限，生卒年代、籍贯与具体经历有待更多可靠来源补充。 | accepted |
+| bio.summary | 王筠，字元禮，琅邪臨沂人，南朝梁文學家，司空王僧虔之孫、王楫之子，官至太子詹事。為隋王胄之祖父（《隋書·卷七十六·王胄傳》：祖筠，梁太子詹事）。 | accepted |
 | birth.date | 481年 | accepted |
 | death.date | 549年 | accepted |
 | name.primary | 王筠 | accepted |
@@ -477,6 +496,7 @@ relationships:
 
 - [维基数据：王楫（Q22814757）](https://www.wikidata.org/wiki/Q22814757)
 - [维基数据：王筠（Q16077281）](https://www.wikidata.org/wiki/Q16077281)
+- [维基文库：隋書/卷76·王筠](https://zh.wikisource.org/wiki/隋書/卷76)
 - [中文维基百科：琅邪王氏世系圖](https://zh.wikipedia.org/wiki/%E7%90%85%E9%82%AA%E7%8E%8B%E6%B0%8F%E4%B8%96%E7%B3%BB%E5%9C%96)
 - [中文维基百科：王昚](https://zh.wikipedia.org/wiki/%E7%8E%8B%E6%98%9A)
 - [中文维基百科：王胄](https://zh.wikipedia.org/wiki/%E7%8E%8B%E8%83%84)
