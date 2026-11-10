@@ -1,3 +1,8 @@
+## 关联 Issue
+
+<!-- 必填：请填写 Closes #<issue号>，例如 Closes #12 -->
+Closes #
+
 ## 修改内容
 
 - 涉及人物：
@@ -12,6 +17,8 @@
 
 ## 自查
 
+- [ ] 已关联 Issue（PR 描述中含 `Closes #<issue号>`）
+- [ ] CodeRabbit 审查已完成且无阻塞问题
 - [ ] 只修改必要的人物 Markdown 文件
 - [ ] 新关系两端的人物 ID 都已存在
 - [ ] 保留来源原文的简繁字形
