@@ -9,6 +9,24 @@ The design documents are the source of truth; implementation follows `docs/ARCHI
 - `packages/domain` types/enums/public IDs, `packages/i18n` 简繁 script conversion and folding, `packages/validation` Zod schemas and kinship/date rules.
 - `scripts/` does all content work: imports/staging, audits, and Markdown migrations. Reviewed plans are checked-in dated JSON; shared helpers live in `scripts/lib/`. `e2e/` contains Playwright smoke checks.
 
+## Domain Invariants (do not violate)
+
+These constraints are the reason the project exists; they override convenience:
+
+- **Claims, not fields.** A `Person` file holds no final name/birth/death; page summaries are computed from accepted claims. `display_name` is a build-time label, not truth.
+- **One kinship direction.** Store parent/child once as `PARENT --kinship.parent_of/father_of/mother_of--> CHILD`, never as mirrored rows. `spouse_of` and `sibling_of` are one claim duplicated at both ends with the same claim ID (the builder checks consistency); `ancestor_of` carries `generation_count` for cross-generation statements. Never invent intermediate parents.
+- **Never infer gender/role** from names, titles or convention; if a source only says "a parent", keep `parent_of`. Label edges inferred from sibling evidence in `interpretation_note`.
+- **Git is the revision log.** Every edit is a commit + Pull Request; reverting is a Git revert, never an in-place overwrite. `revision` / `current_revision` in Markdown are reading hints only — there is no database revision entity.
+- **Provenance required.** Public claims link ≥1 `Source` with locator and stance; sourceless entries stay out of public content and indexes. Never invent a claim for missing data (an unknown death year is not a `death.date` claim).
+- **Conflicts coexist.** `recommended` and `alternatives` are shown side by side; a sourced minority view is never hidden. This is explicitly not last-write-wins.
+- **Soft merge only.** Source becomes `status: merged` with `merged_into`, old public IDs keep redirecting, and the Git diff is the merge snapshot. `merged_into` only produces a redirect, not a claim fold: the merge target file must explicitly receive the reviewed source claims with their provenance in the same PR. `PersonMergeProposal` in `docs/DOMAIN_MODEL.md` is the authority for the merge flow. Relationship re-anchoring and shared-claim-copy consistency are not yet fully specified there: do not invent steps, and use a reviewed plan for anything the documented procedure leaves open. Claims are never physically deleted. For one record that turns out to be two same-named people: create a new anchor → retract misattributed edges → re-hang the same citation, all in one PR; the old ID does not redirect.
+- **Concurrency via `base_sha`.** Contribution requests carry the `main` SHA used for the diff preview; a stale base returns `409 base_changed` instead of silently overwriting newer content.
+- **Living/sensitive people excluded.** Only deceased historical persons are public; unproven-deceased records are quarantined, not indexed. Never derive/expose modern descendants via kinship. No images, IDs, contact info, DNA/medical/religious data.
+- **No hard delete** except legal/privacy/safety incidents, and even then keep a minimal audit record. Deletion is a status field.
+- **Uncertain dates** keep original text + normalized earliest/latest + precision + calendar note — not a single SQL date.
+- **License layering.** Keep source-code, site-text, user-contribution and external-source licenses distinct; store `license_code` per `Source`. Never relabel NC/SA data (e.g. CBDB `CC-BY-NC-SA-4.0`) as CC0.
+- **Script (简体/繁體) is display-only.** Stored claim text keeps the script its source used (`value_json.language`); conversion belongs to `packages/i18n` + `apps/web/src/i18n.tsx`, never write converted content back to Markdown. Name matching, search and duplicate hints compare folded text, so 王賁 and 王贲 match as one name. A folded match is only a duplicate hint; it does not establish that two records describe the same person.
+
 ## Toolchain & Commands
 
 Requires Node >= 22.
@@ -24,7 +42,7 @@ npm run dev:web        # vite dev server
 npm run dev:contribution # wrangler dev for the contribution Worker
 ```
 
-Run `npm test && npm run typecheck && npm run build` before committing. `npm run build` regenerates `apps/web/public/data/` (sharded persons/graphs/sources JSON) — it is gitignored; never commit it. Cloudflare credentials for wrangler come from the gitignored root `.env` (`CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`). The contribution Worker needs `GITHUB_CLIENT_ID` / `GITHUB_CLIENT_SECRET` / `TOKEN_ENCRYPTION_SECRET` as Worker secrets plus its own account D1 `wang-genealogy-accounts` (migrations in `apps/contribution/migrations/`, local values in `apps/contribution/.dev.vars`). `npm run build:public-snapshot` requires a `$PUBLIC_SNAPSHOT_DB` env var.
+Run `npm test && npm run typecheck && npm run build` before committing. `npm run build` regenerates `apps/web/public/data/` (sharded persons/graphs/sources JSON) — it is gitignored; never commit it. On Windows, a drive-letter casing mismatch can make Vitest load its runner twice; when that happens, `vitest.config.ts` selects the `vmForks` pool. If the config sets no pool, Windows and other platforms use Vitest's default pool. Cloudflare credentials for wrangler come from the gitignored root `.env` (`CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`). The contribution Worker needs `GITHUB_CLIENT_ID` / `GITHUB_CLIENT_SECRET` / `TOKEN_ENCRYPTION_SECRET` as Worker secrets plus its own account D1 `wang-genealogy-accounts` (migrations in `apps/contribution/migrations/`, local values in `apps/contribution/.dev.vars`). `npm run build:public-snapshot` requires a `$PUBLIC_SNAPSHOT_DB` env var.
 
 ## Content Build Rules
 
@@ -57,10 +75,14 @@ Genealogy content never writes to D1. People, claims, relationships, sources, re
 
 ## Deployment
 
-Pushing to `main` runs `deploy.yml` (content validation → unit tests → typecheck → static build → Pages deploy); it needs no D1 or OAuth secrets. `deploy-contribution.yml` separately deploys the contribution Worker, gated on `apps/contribution/**` paths, and applies its account-D1 migrations first. `apps/api` has no deploy workflow.
+Pushing to `main` runs `deploy.yml` (content validation → unit tests → typecheck → static build → Pages deploy); it needs no D1 or OAuth secrets. `deploy-contribution.yml` separately deploys the contribution Worker, gated on `apps/contribution/**` paths, and applies its account-D1 migrations first. `apps/api` has no deploy workflow. Production site is `https://history.wang` (Cloudflare Pages project `wang-genealogy-web`); `e2e/smoke.mjs` defaults to the `pages.dev` URL unless `PAGES_URL` is set.
 
 ## Commits & Pull Requests
 
 The existing history uses concise Conventional Commit-style messages, e.g. `docs: establish initial genealogy design`. Continue with imperative, scoped subjects such as `docs: clarify merge review rules` or `api: validate claim sources`.
 
-Keep pull requests focused. Include a summary, the affected documents or contracts, linked issue when available, and screenshots only for user-interface changes. Call out changes affecting public IDs, source traceability, retention, privacy, or merge semantics.
+Keep pull requests focused. Include a summary, the affected documents or contracts, screenshots only for user-interface changes, and call out changes affecting public IDs, source traceability, retention, privacy, or merge semantics. Branch protection requires a linked Issue (`require-linked-issue.yml`) and a successful CodeRabbit review check (`.coderabbit.yaml`); a PR without either cannot be merged.
+
+## Single source of truth for agent guidance
+
+`CLAUDE.md` is a thin pointer to this file (`@AGENTS.md`). Keep all agent guidance here; do not duplicate it into `CLAUDE.md` or let the two drift apart.
