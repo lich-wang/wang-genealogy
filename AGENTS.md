@@ -25,7 +25,7 @@ These constraints are the reason the project exists; they override convenience:
 - **No hard delete** except legal/privacy/safety incidents, and even then keep a minimal audit record. Deletion is a status field.
 - **Uncertain dates** keep original text + normalized earliest/latest + precision + calendar note — not a single SQL date.
 - **License layering.** Keep source-code, site-text, user-contribution and external-source licenses distinct; store `license_code` per `Source`. Never relabel NC/SA data (e.g. CBDB `CC-BY-NC-SA-4.0`) as CC0.
-- **Script (简体/繁體) is display-only.** Stored claim text keeps the script its source used (`value_json.language`); conversion belongs to `packages/i18n` + `apps/web/src/i18n.tsx`, never write converted content back to Markdown. Name matching, search and duplicate hints compare folded text, so 王賁 and 王贲 are one person.
+- **Script (简体/繁體) is display-only.** Stored claim text keeps the script its source used (`value_json.language`); conversion belongs to `packages/i18n` + `apps/web/src/i18n.tsx`, never write converted content back to Markdown. Name matching, search and duplicate hints compare folded text, so 王賁 and 王贲 match as one name. A folded match is only a duplicate hint; it does not establish that two records describe the same person.
 
 ## Toolchain & Commands
 
@@ -42,7 +42,7 @@ npm run dev:web        # vite dev server
 npm run dev:contribution # wrangler dev for the contribution Worker
 ```
 
-Run `npm test && npm run typecheck && npm run build` before committing. `npm run build` regenerates `apps/web/public/data/` (sharded persons/graphs/sources JSON) — it is gitignored; never commit it. On Windows, `vitest.config.ts` selects the `vmForks` pool to avoid a drive-letter-casing duplicate-runner bug; other platforms keep the default pool. Cloudflare credentials for wrangler come from the gitignored root `.env` (`CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`). The contribution Worker needs `GITHUB_CLIENT_ID` / `GITHUB_CLIENT_SECRET` / `TOKEN_ENCRYPTION_SECRET` as Worker secrets plus its own account D1 `wang-genealogy-accounts` (migrations in `apps/contribution/migrations/`, local values in `apps/contribution/.dev.vars`). `npm run build:public-snapshot` requires a `$PUBLIC_SNAPSHOT_DB` env var.
+Run `npm test && npm run typecheck && npm run build` before committing. `npm run build` regenerates `apps/web/public/data/` (sharded persons/graphs/sources JSON) — it is gitignored; never commit it. On Windows, a drive-letter casing mismatch can make Vitest load its runner twice; when that happens, `vitest.config.ts` selects the `vmForks` pool. If the config sets no pool, Windows and other platforms use Vitest's default pool. Cloudflare credentials for wrangler come from the gitignored root `.env` (`CLOUDFLARE_API_TOKEN`, `CLOUDFLARE_ACCOUNT_ID`). The contribution Worker needs `GITHUB_CLIENT_ID` / `GITHUB_CLIENT_SECRET` / `TOKEN_ENCRYPTION_SECRET` as Worker secrets plus its own account D1 `wang-genealogy-accounts` (migrations in `apps/contribution/migrations/`, local values in `apps/contribution/.dev.vars`). `npm run build:public-snapshot` requires a `$PUBLIC_SNAPSHOT_DB` env var.
 
 ## Content Build Rules
 
