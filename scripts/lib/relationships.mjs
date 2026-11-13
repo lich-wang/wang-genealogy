@@ -61,9 +61,10 @@ export function buildEdges(items) {
  * A relationship is stored once as a directed claim (PARENT -> CHILD) but has
  * one copy in each endpoint's file. `object_person` is the display-only record
  * for the *other* endpoint in that file, so it must be one of the claim's two
- * endpoints and must not be the current record. Without these checks, a merge
- * that re-anchors a claim but forgets one copy can silently keep an edge (or a
- * page label) pointing at the old person ID.
+ * endpoints and must not be the current record. The containing record must also
+ * be one of those endpoints: otherwise a re-anchored claim can leave a stale
+ * copy in the old person file, which would be published in that person's
+ * summary while the graph connects the new endpoints.
  */
 export function validateRelationshipEndpoints(records) {
   const errors = [];
@@ -81,6 +82,9 @@ export function validateRelationshipEndpoints(records) {
           if (endpoint && !records.has(endpoint)) {
             errors.push(`${id}: 关系主张 ${claim.id} 引用不存在的人物 ${endpoint}`);
           }
+        }
+        if (subject !== id && object !== id) {
+          errors.push(`${id}: 关系主张 ${claim.id} 的副本存放在非端点人物文件中（端点为 ${subject} / ${object}）`);
         }
         const shown = item.object_person?.id;
         if (shown && shown !== subject && shown !== object) {

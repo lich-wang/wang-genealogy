@@ -137,4 +137,27 @@ describe('validateRelationshipEndpoints', () => {
     records.get('p_child').relationships.parents = [{}];
     expect(validateRelationshipEndpoints(records).join('\n')).toContain('缺少 claim');
   });
+
+  it('rejects a re-anchored claim left in the old non-endpoint record', () => {
+    const records = twoSidedRecords();
+    // Re-anchored to p_new_parent, but the stale copy still sits in p_parent.
+    records.get('p_parent').relationships.children[0].claim.subject_person_id = 'p_new_parent';
+    records.set('p_new_parent', record('p_new_parent'));
+    expect(validateRelationshipEndpoints(records).join('\n')).toContain('副本存放在非端点人物文件中');
+  });
+
+  it('accepts a fully re-anchored relationship', () => {
+    const claim = {
+      id: 'c_1',
+      subject_person_id: 'p_new_parent',
+      object_person_id: 'p_child',
+      predicate: 'kinship.father_of',
+      status: 'accepted',
+    };
+    const records = new Map([
+      ['p_new_parent', record('p_new_parent', { children: [{ claim: { ...claim }, sources: [], object_person: { id: 'p_child' } }] })],
+      ['p_child', record('p_child', { parents: [{ claim: { ...claim }, sources: [], object_person: { id: 'p_new_parent' } }] })],
+    ]);
+    expect(validateRelationshipEndpoints(records)).toEqual([]);
+  });
 });
