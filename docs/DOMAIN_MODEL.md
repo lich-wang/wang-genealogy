@@ -193,6 +193,18 @@ ANCESTOR --kinship.ancestor_of--> DESCENDANT
 
 合并来源和目标不是“删除者与保留者”的价值判断；目标仅是继续承担稳定公开 ID 的记录。
 
+#### 关系重新锚定的构建期约束
+
+合并与拆分都会改动关系端点，必须在**同一个 Pull Request** 内一次完成。`scripts/lib/relationships.mjs` 与 `scripts/build-content.mjs` 对最终状态做如下校验：
+
+1. 错挂关系标为 `retracted`，保留 `sources`、`locator`、`quotation`，不物理删除。`retracted` / `superseded` 的关系不再进入 `parent_edges` / `spouse_edges` / `sibling_edges` / `descent_edges`，也不参与邻接与连通分量计算，但仍留在主张与来源索引中供追溯；`disputed` 仍会生成边，因为少数派有据观点必须并存。
+2. 关系 claim 只存一条方向（`PARENT --father_of--> CHILD`），在两端人物文件各有一份副本。重新锚定时，两份副本的 `claim` 与 `sources` 必须逐字段完全一致；只改一份会被 fingerprint 校验拒绝，错误信息列出冲突的两个人物 ID。
+3. 每份副本的 `object_person` 是展示用的**另一端**，不是 claim 的 `object_person_id`。其 `id` 必须等于 `claim.subject_person_id` 或 `claim.object_person_id` 之一，且不能等于当前文件的人物 ID；端点改动后必须同步更新，否则校验失败。边的端点始终取 `claim` 的 subject/object，不取 `object_person`。
+4. 合并目标文件必须在同一 PR 显式接收经审阅的来源主张及其出处；`merged_into` 只生成重定向，构建器不会自动折叠主张。
+5. `status: merged` 的来源文件是重定向存根：已审阅的主张迁到目标文件、错挂关系可能已撤回，因此不参与「简介写明完整父系链」校验。目标文件仍按普通记录完整校验，其它人物状态一律不放宽。
+
+`scripts/lib/relationships.test.mjs` 覆盖第 1–3 项，`scripts/lib/biography-kinship.test.mjs` 覆盖第 5 项。
+
 #### 反向情形：一条记录其实是两个同名的人
 
 合并的镜像不是删除，而是**新建加撤回**，没有单独的实体：

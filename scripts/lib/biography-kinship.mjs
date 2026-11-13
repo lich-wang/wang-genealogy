@@ -68,6 +68,12 @@ const fatherClaim = (claim) =>
 export function validateCompletePaternalChains(records) {
   const errors = [];
   for (const record of records.values()) {
+    // A merged source is a redirect stub: its reviewed claims now live on the
+    // merge target, and its misattached relationships may have been retracted.
+    // The target file is validated as an ordinary record, so demanding a gapless
+    // chain from the stub would block a legitimate soft merge. This exemption
+    // must not be widened to any other person status.
+    if (record.status === 'merged') continue;
     const summary = record.properties
       ?.find((field) => field.predicate === 'bio.summary')
       ?.recommended?.claim?.value_json?.text;

@@ -59,4 +59,34 @@ describe('named paternal ancestry in biographies', () => {
       'ren: 简介写明父系链 王蘊玉 → 王友 → 王曄，但第 2 代“王友”没有对应的 father_of 关系',
     ]);
   });
+
+  it('does not count retracted or superseded father claims as links', () => {
+    for (const status of ['retracted', 'superseded']) {
+      const records = new Map([
+        ['ren', person('ren', '王恁', biography, { id: 'yunyu', name: '王蘊玉' })],
+        ['yunyu', person('yunyu', '王蘊玉')],
+      ]);
+      records.get('ren').relationships.parents[0].claim.status = status;
+      expect(validateCompletePaternalChains(records)).toEqual([
+        'ren: 简介写明父系链 王蘊玉 → 王友 → 王曄，但第 1 代“王蘊玉”没有对应的 father_of 关系',
+      ]);
+    }
+  });
+
+  it('skips a merged redirect stub whose father claim was retracted', () => {
+    const stub = person('stub', '王炎午', biography, { id: 'yunyu', name: '王蘊玉' });
+    stub.status = 'merged';
+    stub.relationships.parents[0].claim.status = 'retracted';
+    expect(validateCompletePaternalChains(new Map([['stub', stub]]))).toEqual([]);
+  });
+
+  it('still validates every other person status', () => {
+    for (const status of [undefined, 'active', 'candidate', 'suppressed']) {
+      const record = person('other', '王炎午', biography);
+      record.status = status;
+      expect(validateCompletePaternalChains(new Map([['other', record]]))).toEqual([
+        'other: 简介写明父系链 王蘊玉 → 王友 → 王曄，但第 1 代“王蘊玉”没有对应的 father_of 关系',
+      ]);
+    }
+  });
 });
