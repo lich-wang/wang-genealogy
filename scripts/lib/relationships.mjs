@@ -58,16 +58,17 @@ export function buildEdges(items) {
 /**
  * Validate every relationship copy before edges are emitted.
  *
- * A relationship is stored once as a directed claim (PARENT -> CHILD) but has
- * one copy in each endpoint's file. `object_person` is the display-only record
- * for the *other* endpoint in that file, so it must be one of the claim's two
- * endpoints and must not be the current record. The containing record must also
- * be one of those endpoints: otherwise a re-anchored claim can leave a stale
- * copy in the old person file, which would be published in that person's
- * summary while the graph connects the new endpoints.
+ * A relationship is stored once as a directed claim (PARENT -> CHILD) but needs
+ * one copy in each endpoint's file; both copies are required. `object_person` is
+ * the display-only record for the *other* endpoint in that file: it must be
+ * present, must be one of the claim's two endpoints, and must not be the current
+ * record. The containing record must also be one of those endpoints, otherwise
+ * a re-anchored claim can leave a stale copy in the old person file, which would
+ * be published in that person's summary while the graph connects the new endpoints.
  */
 export function validateRelationshipEndpoints(records) {
   const errors = [];
+  const holders = new Map(); // claim ID -> { files, endpoints }
   for (const [id, record] of records) {
     for (const [group, items] of Object.entries(record.relationships ?? {})) {
       for (const item of items ?? []) {
@@ -86,13 +87,32 @@ export function validateRelationshipEndpoints(records) {
         if (subject !== id && object !== id) {
           errors.push(`${id}: 关系主张 ${claim.id} 的副本存放在非端点人物文件中（端点为 ${subject} / ${object}）`);
         }
+        const holder = holders.get(claim.id) ?? { files: new Set(), endpoints: new Set() };
+        holder.files.add(id);
+        if (subject) holder.endpoints.add(subject);
+        if (object) holder.endpoints.add(object);
+        holders.set(claim.id, holder);
+
         const shown = item.object_person?.id;
-        if (shown && shown !== subject && shown !== object) {
-          errors.push(`${id}: 关系主张 ${claim.id} 的 object_person 指向 ${shown}，不是主张端点（${subject} / ${object}）`);
+        if (!shown) {
+          errors.push(`${id}: 关系主张 ${claim.id} 缺少 object_person，必须指向另一端人物`);
+        } else {
+          if (shown !== subject && shown !== object) {
+            errors.push(`${id}: 关系主张 ${claim.id} 的 object_person 指向 ${shown}，不是主张端点（${subject} / ${object}）`);
+          }
+          if (shown === id) {
+            errors.push(`${id}: 关系主张 ${claim.id} 的 object_person 指向记录自身`);
+          }
         }
-        if (shown && shown === id) {
-          errors.push(`${id}: 关系主张 ${claim.id} 的 object_person 指向记录自身`);
-        }
+      }
+    }
+  }
+  // A relationship is published as an edge from the claim, so both endpoint
+  // files must carry a copy too; otherwise one person page silently omits it.
+  for (const [claimId, holder] of holders) {
+    for (const endpoint of holder.endpoints) {
+      if (!holder.files.has(endpoint)) {
+        errors.push(`关系主张 ${claimId} 在端点人物 ${endpoint} 的文件中缺少副本`);
       }
     }
   }

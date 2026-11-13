@@ -146,6 +146,18 @@ describe('validateRelationshipEndpoints', () => {
     expect(validateRelationshipEndpoints(records).join('\n')).toContain('副本存放在非端点人物文件中');
   });
 
+  it('rejects a claim that has a copy in only one endpoint file', () => {
+    const records = twoSidedRecords();
+    records.get('p_child').relationships.parents = [];
+    expect(validateRelationshipEndpoints(records).join('\n')).toContain('在端点人物 p_child 的文件中缺少副本');
+  });
+
+  it('rejects a copy without object_person', () => {
+    const records = twoSidedRecords();
+    delete records.get('p_child').relationships.parents[0].object_person;
+    expect(validateRelationshipEndpoints(records).join('\n')).toContain('缺少 object_person');
+  });
+
   it('accepts a fully re-anchored relationship', () => {
     const claim = {
       id: 'c_1',
