@@ -87,6 +87,17 @@ export function validateRelationshipEndpoints(records) {
         if (subject !== id && object !== id) {
           errors.push(`${id}: 关系主张 ${claim.id} 的副本存放在非端点人物文件中（端点为 ${subject} / ${object}）`);
         }
+        // A parent claim is always PARENT -> CHILD. If both copies are swapped
+        // together their fingerprints still match, so the group placement is
+        // the only place left to catch an inverted graph edge.
+        const ownSide = group === 'parents' || group === 'adoptive_parents'
+          ? object
+          : group === 'children' || group === 'adoptive_children'
+            ? subject
+            : undefined;
+        if (PARENT_PREDICATES.includes(claim.predicate) && ownSide !== undefined && ownSide !== id) {
+          errors.push(`${id}: 关系主张 ${claim.id} 的方向与 ${group} 分组不符（应为 PARENT → CHILD）`);
+        }
         const holder = holders.get(claim.id) ?? { files: new Set(), endpoints: new Set() };
         holder.files.add(id);
         if (subject) holder.endpoints.add(subject);

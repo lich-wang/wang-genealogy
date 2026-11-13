@@ -158,6 +158,20 @@ describe('validateRelationshipEndpoints', () => {
     expect(validateRelationshipEndpoints(records).join('\n')).toContain('缺少 object_person');
   });
 
+  it('rejects a parent claim whose direction is swapped in both copies', () => {
+    const records = twoSidedRecords();
+    for (const copy of [
+      records.get('p_parent').relationships.children[0],
+      records.get('p_child').relationships.parents[0],
+    ]) {
+      const claim = copy.claim;
+      const oldSubject = claim.subject_person_id;
+      claim.subject_person_id = claim.object_person_id;
+      claim.object_person_id = oldSubject;
+    }
+    expect(validateRelationshipEndpoints(records).join('\n')).toContain('方向与');
+  });
+
   it('accepts a fully re-anchored relationship', () => {
     const claim = {
       id: 'c_1',
