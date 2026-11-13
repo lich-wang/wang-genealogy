@@ -4,6 +4,7 @@ import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { parsePersonMarkdown } from './lib/person-markdown.mjs';
 import { validateCompletePaternalChains } from './lib/biography-kinship.mjs';
+import { buildEdges, claimFingerprint, validateRelationshipEndpoints } from './lib/relationships.mjs';
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const contentDir = path.resolve(process.argv[2] ?? path.join(rootDir, 'content/persons'));
@@ -23,12 +24,8 @@ for (const name of fs.readdirSync(contentDir).filter((name) => name.endsWith('.m
   records.set(record.id, record);
 }
 
-for (const record of records.values()) {
-  for (const item of relationshipItems(record)) {
-    const target = item.object_person?.id ?? item.claim?.object_person_id;
-    if (target && !records.has(target)) throw new Error(`${record.id}: 关系引用不存在的人物 ${target}`);
-  }
-}
+const relationshipErrors = validateRelationshipEndpoints(records);
+if (relationshipErrors.length) throw new Error(relationshipErrors.join('\n'));
 
 const paternalChainErrors = validateCompletePaternalChains(records);
 if (paternalChainErrors.length) throw new Error(paternalChainErrors.join('\n'));
@@ -46,10 +43,15 @@ for (const record of records.values()) {
   if (!personShards.has(shard)) personShards.set(shard, {});
   personShards.get(shard)[record.id] = summary;
   for (const item of allClaimItems(record)) {
-    const fingerprint = JSON.stringify({ claim: item.claim, sources: item.sources });
-    const existingFingerprint = claimFingerprints.get(item.claim.id);
-    if (existingFingerprint && existingFingerprint !== fingerprint) throw new Error(`${record.id}: 主张 ${item.claim.id} 在人物文件之间不一致`);
-    claimFingerprints.set(item.claim.id, fingerprint);
+    const fingerprint = claimFingerprint(item);
+    const previous = claimFingerprints.get(item.claim.id);
+    if (previous && previous.fingerprint !== fingerprint) {
+      throw new Error(
+        `${previous.id} 与 ${record.id}: 主张 ${item.claim.id} 的 claim/sources 不一致。` +
+        '同一 claim ID 在每个副本中必须逐字段相同；重新锚定关系时须同步更新所有人物文件。',
+      );
+    }
+    claimFingerprints.set(item.claim.id, { fingerprint, id: record.id });
     claims.set(item.claim.id, item);
     for (const ref of item.sources ?? []) {
       if (ref.source?.canonical_url) {
@@ -130,21 +132,6 @@ function toSummary(record) {
 }
 function allClaimItems(record) { return [...record.properties.flatMap((field) => [field.recommended, ...(field.alternatives ?? [])]).filter(Boolean), ...relationshipItems(record)]; }
 function relationshipItems(record) { return Object.values(record.relationships).flat(); }
-function buildEdges(items) {
-  const result = { parent_edges: [], spouse_edges: [], sibling_edges: [], descent_edges: [] };
-  for (const item of items) {
-    const claim = item.claim; const citations = (item.sources ?? []).map((ref) => ({ source_title: ref.source?.title ?? '未知来源', locator: ref.locator ?? null }));
-    const base = { claim_id: claim.id, status: claim.status, citations };
-    if (['kinship.parent_of', 'kinship.father_of', 'kinship.mother_of', 'kinship.adoptive_parent_of', 'kinship.adoptive_father_of', 'kinship.adoptive_mother_of'].includes(claim.predicate)) {
-      const parentRole = claim.parent_role ?? (claim.predicate.includes('father') ? 'father' : claim.predicate.includes('mother') ? 'mother' : null);
-      result.parent_edges.push({ ...base, parent_id: claim.subject_person_id, child_id: claim.object_person_id, parent_role: parentRole });
-    }
-    else if (claim.predicate === 'kinship.spouse_of') result.spouse_edges.push({ ...base, a_id: claim.subject_person_id, b_id: claim.object_person_id });
-    else if (claim.predicate === 'kinship.sibling_of') result.sibling_edges.push({ ...base, a_id: claim.subject_person_id, b_id: claim.object_person_id });
-    else if (claim.predicate === 'kinship.ancestor_of') result.descent_edges.push({ ...base, ancestor_id: claim.subject_person_id, descendant_id: claim.object_person_id, generations: claim.generation_count ?? null });
-  }
-  return result;
-}
 function walk(root, adjacency) { const seen = new Set([root]); const queue = [root]; for (const id of queue) for (const next of adjacency.get(id) ?? []) if (!seen.has(next)) { seen.add(next); queue.push(next); } return [...seen]; }
 function nodeFor(summary) { return { id: summary.person.id, display_name: summary.display_name, status: summary.person.status, birth: propertyText(summary, 'birth.date'), death: propertyText(summary, 'death.date') }; }
 function propertyText(summary, predicate) { const claim = summary.properties.find((field) => field.predicate === predicate)?.recommended?.claim; return claim?.value_json?.date?.original_text ?? claim?.value_json?.text ?? null; }
